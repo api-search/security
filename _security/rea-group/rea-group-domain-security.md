@@ -1,4 +1,59 @@
 ---
+api_specs:
+- filename: rea-group-oauth-openapi.yml
+  format: yaml
+  label: PropTrack OAuth 2.0 Token API
+  slug: proptrack-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/openapi/rea-group-oauth-openapi.yml
+- filename: rea-group-address-openapi.yml
+  format: yaml
+  label: PropTrack Address API
+  slug: proptrack-address-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/openapi/rea-group-address-openapi.yml
+- filename: rea-group-properties-openapi.yml
+  format: yaml
+  label: PropTrack Properties API
+  slug: proptrack-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/openapi/rea-group-properties-openapi.yml
+- filename: rea-group-listings-openapi.yml
+  format: yaml
+  label: PropTrack Listings API
+  slug: proptrack-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/openapi/rea-group-listings-openapi.yml
+- filename: rea-group-transactions-openapi.yml
+  format: yaml
+  label: PropTrack Transactions API
+  slug: proptrack-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/openapi/rea-group-transactions-openapi.yml
+- filename: rea-group-market-openapi.yml
+  format: yaml
+  label: PropTrack Market API
+  slug: proptrack-market-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/openapi/rea-group-market-openapi.yml
+- filename: rea-group-reports-openapi.yml
+  format: yaml
+  label: PropTrack Reports API
+  slug: proptrack-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/openapi/rea-group-reports-openapi.yml
+- filename: rea-group-disclaimers-openapi.yml
+  format: yaml
+  label: PropTrack Disclaimers API
+  slug: proptrack-disclaimers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/openapi/rea-group-disclaimers-openapi.yml
+- filename: rea-group-coming-soon-openapi.yml
+  format: yaml
+  label: PropTrack Upcoming APIs (Schools)
+  slug: proptrack-upcoming-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/openapi/rea-group-coming-soon-openapi.yml
 description: ''
 domains:
 - caa:
@@ -59,8 +114,13 @@ tags:
 - Real Estate
 - Property Data
 - Valuations
+- AVM
 - Market Insights
 - Listings
+- Transactions
+- Address Matching
+- REAXML
+- Partner Portal
 - PropTech
 - Australia
 ---

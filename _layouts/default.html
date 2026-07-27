@@ -218,6 +218,9 @@
             <li class="nav-item">
               <a class="nav-link{% if site.nav_active == 'rating' %} active{% endif %}" href="https://apis.io/rating/">Kin Score</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link{% if site.nav_active == 'stack' %} active{% endif %}" href="https://apis.io/stack/">Stack</a>
+            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle{% if site.nav_active == 'more' or site.nav_active == 'industries' or site.nav_active == 'regions' or site.nav_active == 'countries' or site.nav_active == 'areas' or site.nav_active == 'skills' or site.nav_active == 'mcp' or site.nav_active == 'events' or site.nav_active == 'arazzo' or site.nav_active == 'collections' or site.nav_active == 'security' or site.nav_active == 'scopes' or site.nav_active == 'agentic-access' or site.nav_active == 'analytics' or site.nav_active == 'search-terms' or site.nav_active == 'use-cases' or site.nav_active == 'features' or site.nav_active == 'vcs' or site.nav_active == 'secondary-market' %} active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
               <ul class="dropdown-menu">
@@ -277,12 +280,6 @@
             <li class="nav-item">
               <a class="nav-link{% if site.nav_active == 'blog' %} active{% endif %}" href="https://apis.io/blog/">Blog</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link{% if site.nav_active == 'about' %} active{% endif %}" href="https://apis.io/about/">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link{% if site.nav_active == 'add' %} active{% endif %}" href="https://apis.io/add/">Add API</a>
-            </li>
           </ul>
           <form class="d-flex" role="search" action="https://apis.io/" method="get">
             <input class="form-control form-control-sm me-2" type="search" name="search" placeholder="Search APIs..." aria-label="Search APIs">
@@ -305,7 +302,14 @@
 
     <footer class="footer">
       <div class="container">
-        <div class="d-flex justify-content-center gap-4 align-items-center" style="height: 60px;">
+        {% comment %}
+          About and Add API moved out of the top-level nav and down here (2026-07-26)
+          to make room for Stack. Ten links no longer fit one row on a phone, so the
+          row wraps and the footer is auto-height — see assets/sticky-footer.css.
+        {% endcomment %}
+        <div class="footer-links d-flex flex-wrap justify-content-center column-gap-4 row-gap-2 align-items-center">
+          <a href="https://apis.io/about/">About</a>
+          <a href="https://apis.io/add/">Add API</a>
           <a href="http://apisjson.org">APIs.json</a>
           <a href="http://apicommons.org">API Commons</a>
           <a href="https://apis.io/developer">Developers</a>
@@ -317,5 +321,15 @@
         </div>
       </div>
     </footer>
+
+  {%- comment -%}
+    Kin Score glyph — renders every [data-kin-glyph] placeholder.
+    Canonical source: api-evangelist/kin-score/glyph/, vendored into
+    _shared/assets/js/ so bootstrap-sites.py ships it to every site. It used to
+    live only in network/ and providers/ as a hand-edit ON TOP of this layout,
+    which meant every bootstrap run silently reverted both.
+  {%- endcomment -%}
+  <script src="/assets/js/kin-glyph.js"></script>
+
   </body>
 </html>

@@ -1,17 +1,29 @@
 /* Sticky footer styles
--------------------------------------------------- */
+--------------------------------------------------
+   Flexbox, not the old fixed-60px absolute footer. The footer now carries ten
+   links (About + Add API moved down out of the top-level nav), which wraps to
+   two rows on a phone — a fixed-height absolute footer would have overlapped
+   the page content. `margin-top: auto` still pins it to the bottom of short
+   pages, at whatever height its contents need.
+*/
 html {
   position: relative;
-  min-height: 100%;
 }
 body {
-  margin-bottom: 60px; /* Margin bottom by footer height */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+body > main {
+  flex: 1 0 auto;
 }
 .footer {
-  position: absolute;
-  bottom: 0;
+  flex-shrink: 0;
+  margin-top: auto;
   width: 100%;
-  height: 60px; /* Set the fixed height of the footer here */
-  line-height: 60px; /* Vertically center the text there */
   background-color: #f5f5f5;
+}
+.footer .footer-links {
+  min-height: 60px;
+  padding: 0.9rem 0;
 }
