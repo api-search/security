@@ -1,0 +1,203 @@
+# =============================================================================
+# apis.io header + footer navigation — SINGLE SOURCE OF TRUTH
+# =============================================================================
+#
+# Rendered by _includes/nav.html and _includes/footer.html, which are pulled in
+# by _shared/_layouts/default.html. Adding a section to the whole network is now
+# ONE entry in this file — no HTML edit, no hand-maintained `or` chain.
+#
+# HOW IT REACHES THE OTHER 31 SITES
+#   bootstrap-sites.py `copy_shared()` copies this file to every site in SITES.
+#   The thirteen standalone sites (not in SITES) are covered by
+#   scripts/sync-nav.sh, which also VERIFIES the copy landed. Run it after any
+#   edit here — see CLAUDE.md, "Nav lives in _shared".
+#
+# ACTIVE STATE
+#   Each site's _config.yml sets `nav_active: <key>`. A top-level item lights up
+#   when `site.nav_active` equals its own key OR the key of any child. So the
+#   per-site nav_active values that already exist (graphql, collections, more, …)
+#   keep working — just make sure new sections use a `key` that matches.
+#
+# URLS ARE ABSOLUTE ON PURPOSE
+#   The github-pages metadata plugin injects a bogus `baseurl`
+#   (/pages/<owner>/<repo>). Absolute apis.io URLs, emitted raw with no
+#   relative_url/absolute_url filter, are immune to it. Same reasoning as the
+#   canonical tag — see CLAUDE.md, "Consolidation".
+#
+# NO COUNTS HERE, DELIBERATELY
+#   Entity counts live in network/_data/stats.json, which is NOT distributed to
+#   the other sites (only nav.yml is). Baking counts into the menu would show
+#   them on apex pages and nothing else, and would go stale between rebuilds.
+#   The section landing pages carry their own counts instead.
+
+# ---------------------------------------------------------------------------
+# HEADER
+#   Flat item  -> { key, label, url }
+#   Menu item  -> { key, label, columns, groups: [ { header, items: [...] } ] }
+# ---------------------------------------------------------------------------
+header:
+  - key: providers
+    label: Providers
+    url: https://apis.io/providers/
+
+  - key: apis
+    label: APIs
+    url: https://apis.io/apis/
+
+  # Ways to slice the catalog. This is the menu most visitors actually want:
+  # last week's top queries were capability- and company-shaped ("images",
+  # "weather", "mailgun", "payment processing", "RAG"), not spec-format shaped.
+  - key: browse
+    label: Browse
+    columns: 2
+    groups:
+      - header: Taxonomy
+        items:
+          - { key: tags, label: Tags, url: 'https://apis.io/tags/' }
+          - { key: industries, label: Industries, url: 'https://apis.io/industries/' }
+          - { key: areas, label: Areas, url: 'https://apis.io/areas/' }
+      - header: Capabilities
+        items:
+          - { key: use-cases, label: Use Cases, url: 'https://apis.io/use-cases/' }
+          - { key: features, label: Features, url: 'https://apis.io/features/' }
+      - header: Geography
+        items:
+          - { key: regions, label: Regions, url: 'https://apis.io/regions/' }
+          - { key: countries, label: Countries, url: 'https://apis.io/countries/' }
+      - header: Market
+        items:
+          - { key: vcs, label: Venture Capital, url: 'https://apis.io/vcs/' }
+          - { key: secondary-market, label: Secondary Market, url: 'https://apis.io/secondary-market/' }
+
+  # Machine-readable artifacts. Examples (61,836) and JSON Structure (52,894)
+  # were live sections with ZERO nav entry anywhere before 2026-07-28.
+  - key: artifacts
+    label: Artifacts
+    columns: 3
+    groups:
+      - header: Specifications
+        items:
+          - { key: schemas, label: Schemas, url: 'https://apis.io/schemas/' }
+          - { key: json-structure, label: JSON Structure, url: 'https://apis.io/json-structure/' }
+          - { key: asyncapi, label: AsyncAPI, url: 'https://apis.io/asyncapis/' }
+          - { key: graphql, label: GraphQL, url: 'https://apis.io/graphqls/' }
+          - { key: jsonld, label: JSON-LD, url: 'https://apis.io/jsonld/' }
+      - header: Usage
+        items:
+          - { key: examples, label: Examples, url: 'https://apis.io/examples/' }
+          - { key: collections, label: Collections, url: 'https://apis.io/collections/' }
+          - { key: arazzo, label: Arazzo Workflows, url: 'https://apis.io/arazzos/' }
+          - { key: events, label: Event Channels, url: 'https://apis.io/channels/' }
+      - header: Agents & Governance
+        items:
+          - { key: mcp, label: MCP Servers, url: 'https://apis.io/servers/' }
+          - { key: a2a, label: A2A Agent Cards, url: 'https://apis.io/a2a/' }
+          - { key: skills, label: Agent Skills, url: 'https://apis.io/agent-skills/' }
+          - { key: rules, label: Spectral Rules, url: 'https://apis.io/rules/' }
+          - { key: vocabularies, label: Vocabularies, url: 'https://apis.io/vocabularies/' }
+
+  # How safe / how expensive — the read-the-risk menu.
+  - key: signals
+    label: Signals
+    columns: 2
+    groups:
+      - header: Security
+        items:
+          - { key: security, label: Security Posture, url: 'https://apis.io/security/' }
+          - { key: scopes, label: OAuth Scopes, url: 'https://apis.io/scopes/' }
+          - { key: agentic-access, label: Agentic Access, url: 'https://apis.io/agentic-access/' }
+      - header: Commercial
+        items:
+          - { key: plans, label: Plans, url: 'https://apis.io/plans/' }
+          - { key: rate-limits, label: Rate Limits, url: 'https://apis.io/rate-limits/' }
+          - { key: finops, label: FinOps, url: 'https://apis.io/finops/' }
+
+  - key: rating
+    label: Kin Score
+    url: https://apis.io/rating/
+
+  - key: stack
+    label: Stack
+    url: https://apis.io/stack/
+
+  - key: blog
+    label: Blog
+    url: https://apis.io/blog/
+
+search:
+  action: https://apis.io/
+  param: search
+  placeholder: Search APIs, providers, capabilities…
+
+cta:
+  label: Add your API
+  url: https://apis.io/add/
+
+# ---------------------------------------------------------------------------
+# FOOTER
+#   Five link columns plus a legal bar. For a 32-site, 300k+ page network the
+#   footer is the primary crawl path, so it carries real destinations — not
+#   just legal boilerplate (which is what it was until 2026-07-28).
+# ---------------------------------------------------------------------------
+footer:
+  columns:
+    - header: Catalog
+      items:
+        - { label: Providers, url: 'https://apis.io/providers/' }
+        - { label: APIs, url: 'https://apis.io/apis/' }
+        - { label: Tags, url: 'https://apis.io/tags/' }
+        - { label: Industries, url: 'https://apis.io/industries/' }
+        - { label: Areas, url: 'https://apis.io/areas/' }
+        - { label: Regions, url: 'https://apis.io/regions/' }
+        - { label: Countries, url: 'https://apis.io/countries/' }
+
+    - header: Artifacts
+      items:
+        - { label: Schemas, url: 'https://apis.io/schemas/' }
+        - { label: Examples, url: 'https://apis.io/examples/' }
+        - { label: JSON Structure, url: 'https://apis.io/json-structure/' }
+        - { label: Collections, url: 'https://apis.io/collections/' }
+        - { label: Arazzo Workflows, url: 'https://apis.io/arazzos/' }
+        - { label: MCP Servers, url: 'https://apis.io/servers/' }
+        - { label: A2A Agent Cards, url: 'https://apis.io/a2a/' }
+        - { label: Agent Skills, url: 'https://apis.io/agent-skills/' }
+
+    - header: Signals
+      items:
+        - { label: Kin Score, url: 'https://apis.io/rating/' }
+        - { label: Security Posture, url: 'https://apis.io/security/' }
+        - { label: OAuth Scopes, url: 'https://apis.io/scopes/' }
+        - { label: Agentic Access, url: 'https://apis.io/agentic-access/' }
+        - { label: Plans, url: 'https://apis.io/plans/' }
+        - { label: Rate Limits, url: 'https://apis.io/rate-limits/' }
+        - { label: FinOps, url: 'https://apis.io/finops/' }
+
+    - header: Platform
+      items:
+        - { label: Developer Docs, url: 'https://apis.io/developer/' }
+        - { label: Data Access, url: 'https://apis.io/unlock/' }
+        - { label: Insights, url: 'https://apis.io/insights/' }
+        - { label: Analytics, url: 'https://apis.io/analytics/' }
+        - { label: Search Terms, url: 'https://apis.io/search-terms/' }
+        - { label: Roadmap, url: 'https://apis.io/roadmap/' }
+        - { label: Changelog, url: 'https://apis.io/changelog/' }
+
+    - header: APIs.io
+      items:
+        - { label: About, url: 'https://apis.io/about/' }
+        - { label: Blog, url: 'https://apis.io/blog/' }
+        - { label: Services, url: 'https://apis.io/services/' }
+        - { label: Add Your API, url: 'https://apis.io/add/' }
+        - { label: Support, url: 'https://apis.io/support/' }
+        - { label: GitHub, url: 'https://github.com/api-search' }
+
+  # No year in the copyright: `site.time` would rewrite every page on every
+  # build and churn the diff that guards against dropped providers.
+  copyright: © APIs.io
+
+  legal:
+    - { label: APIs.json, url: 'http://apisjson.org' }
+    - { label: API Commons, url: 'http://apicommons.org' }
+    - { label: API Evangelist, url: 'https://apievangelist.com' }
+    - { label: Terms, url: 'https://apis.io/terms/' }
+    - { label: Privacy, url: 'https://apis.io/privacy/' }

@@ -1,0 +1,45 @@
+{%- comment -%}
+  apis.io footer. Data-driven from _data/nav.yml — do not hardcode links here.
+
+  This is a crawl surface, not decoration: five columns of real destinations so
+  every deep section of the 32-site network is one hop from every one of its
+  ~300k pages. Sections that used to be buried at the bottom of the old "More"
+  menu (About, Support, Blog, Analytics, Search Terms) live here now.
+
+  Same fallback guard as nav.html — a site that misses the nav.yml copy still
+  renders something legal-complete. bootstrap-sites.py verify_nav() is what
+  catches a missing copy before it ships.
+{%- endcomment -%}
+{%- assign nav = site.data.nav -%}
+<footer class="footer">
+  <div class="container">
+    {%- if nav.footer.columns -%}
+      <div class="footer-grid">
+        {%- for column in nav.footer.columns -%}
+          <div class="footer-col">
+            <h6 class="footer-col-title">{{ column.header }}</h6>
+            <ul class="footer-col-list">
+              {%- for item in column.items -%}
+                <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+              {%- endfor -%}
+            </ul>
+          </div>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+    <div class="footer-bar">
+      <span class="footer-copy">{{ nav.footer.copyright | default: '© APIs.io' }}</span>
+      <div class="footer-legal">
+        {%- if nav.footer.legal -%}
+          {%- for item in nav.footer.legal -%}
+            <a href="{{ item.url }}">{{ item.label }}</a>
+          {%- endfor -%}
+        {%- else -%}
+          <a href="https://apis.io/about/">About</a>
+          <a href="https://apis.io/terms/">Terms</a>
+          <a href="https://apis.io/privacy/">Privacy</a>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</footer>

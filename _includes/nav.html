@@ -1,0 +1,80 @@
+{%- comment -%}
+  apis.io masthead. Data-driven from _data/nav.yml — do not hardcode links here.
+
+  navbar-expand-XL (not lg): eight top-level items + search + CTA overflow at the
+  992px lg breakpoint, so the drawer takes over below 1200px instead. The mobile
+  CSS in _shared/_layouts/default.html keys off the same 1199px boundary.
+
+  The nav.header guard below is deliberate insurance: nav.yml is distributed to
+  the other 31 sites by bootstrap-sites.py, and a site that somehow misses the
+  copy must still render a usable masthead rather than a brand-only bar. If you
+  ever SEE the five-link fallback on a live page, that site didn't get nav.yml —
+  re-run bootstrap-sites.py, whose verify_nav() names the offender.
+
+  (Don't write a literal Liquid tag in this comment block. Liquid still parses
+  tags inside comment blocks for block matching, so a stray if with no endif
+  here is a hard build failure.)
+{%- endcomment -%}
+{%- assign nav = site.data.nav -%}
+<nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="https://apis.io/" aria-label="apis.io home"><img src="/assets/branding/apisio-wordmark-white.png" alt="apis.io"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+        {%- if nav.header -%}
+          {%- for item in nav.header -%}
+            {%- if item.groups -%}
+              {%- comment -%} A parent lights up when it, or any of its children, is the active section. {%- endcomment -%}
+              {%- assign parent_active = false -%}
+              {%- if site.nav_active == item.key %}{%- assign parent_active = true -%}{%- endif -%}
+              {%- for group in item.groups -%}
+                {%- for child in group.items -%}
+                  {%- if site.nav_active == child.key %}{%- assign parent_active = true -%}{%- endif -%}
+                {%- endfor -%}
+              {%- endfor -%}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle{% if parent_active %} active{% endif %}" href="#" id="nav-{{ item.key }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ item.label }}</a>
+                <ul class="dropdown-menu nav-mega nav-mega-{{ item.columns | default: 1 }}" aria-labelledby="nav-{{ item.key }}">
+                  {%- for group in item.groups -%}
+                    <li class="nav-mega-group">
+                      <h6 class="dropdown-header">{{ group.header }}</h6>
+                      <ul class="nav-mega-list">
+                        {%- for child in group.items -%}
+                          <li><a class="dropdown-item{% if site.nav_active == child.key %} active{% endif %}" href="{{ child.url }}">{{ child.label }}</a></li>
+                        {%- endfor -%}
+                      </ul>
+                    </li>
+                  {%- endfor -%}
+                </ul>
+              </li>
+            {%- else -%}
+              <li class="nav-item">
+                <a class="nav-link{% if site.nav_active == item.key %} active{% endif %}" href="{{ item.url }}">{{ item.label }}</a>
+              </li>
+            {%- endif -%}
+          {%- endfor -%}
+        {%- else -%}
+          {%- comment -%} Fallback — see the note at the top of this file. {%- endcomment -%}
+          <li class="nav-item"><a class="nav-link" href="https://apis.io/providers/">Providers</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://apis.io/apis/">APIs</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://apis.io/tags/">Tags</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://apis.io/rating/">Kin Score</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://apis.io/blog/">Blog</a></li>
+        {%- endif -%}
+      </ul>
+      {%- comment -%}
+        No submit button: Enter submits, and dropping it buys ~90px of masthead
+        width, which is what lets eight top-level items fit alongside the CTA.
+      {%- endcomment -%}
+      <form class="d-flex navbar-search" role="search" action="{{ nav.search.action | default: 'https://apis.io/' }}" method="get">
+        <input class="form-control form-control-sm" type="search" name="{{ nav.search.param | default: 'search' }}" placeholder="{{ nav.search.placeholder | default: 'Search APIs…' }}" aria-label="Search APIs">
+      </form>
+      {%- if nav.cta -%}
+        <a class="btn btn-sm btn-outline-light navbar-cta" href="{{ nav.cta.url }}">{{ nav.cta.label }}</a>
+      {%- endif -%}
+    </div>
+  </div>
+</nav>

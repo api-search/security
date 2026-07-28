@@ -1,0 +1,56 @@
+{%- comment -%}
+  provider-box.html — one artifact section on a provider detail page.
+
+  Every artifact box on the provider page renders through THIS include so the
+  shape is identical everywhere: a heading with the live count, a one-line
+  summary of what the box is, then a card grid that is ALWAYS a scroll-pane
+  (capped at ~two rows) so one prolific provider can't push the page down.
+
+  Keeping the card markup in one place is deliberate — the provider template
+  used to hand-repeat ~20 near-identical blocks, which is exactly how the
+  per-section scroll-pane conditions drifted (APIs keyed off json_structures,
+  MCP off examples, …). One include, no drift.
+
+  Parameters:
+    id           anchor id (also the #id the TOC chip jumps to)      [required]
+    title        section heading text                                [required]
+    items        the array to render                                 [required]
+    provider_slug page.slug — first path segment of each card link    [required]
+    blurb        one-line description of the box                     [optional]
+    path         link base: card title -> /{{path}}/{{slug}}/{{item.slug}}/
+                 omit for plain-text items (features, use cases)      [optional]
+    badge        badge label shown on each card (uppercase)          [optional]
+    color        accent colour — card left border + badge background [optional]
+
+  Item fields understood (all optional, first match wins for the meta line):
+    name / description / summary_line, and one count of:
+    class_count(+property_count) / property_count / scope_count /
+    plan_count / limit_count / operation_count(+acting_count) / key_count.
+    A bare-string item (a raw feature/use-case) renders as its own label.
+{%- endcomment -%}
+{%- if include.items and include.items.size > 0 -%}
+<h2 class="section-anchor" id="{{ include.id }}"><a href="#{{ include.id }}">{{ include.title }}</a> <span class="section-count">{{ include.items | size }}</span></h2>
+{%- if include.blurb %}<p class="section-blurb">{{ include.blurb }}</p>{% endif %}
+<div class="card-grid scroll-pane">
+  {%- for item in include.items %}
+  <div class="item-card"{% if include.color %} style="border-left: 3px solid {{ include.color }};"{% endif %}>
+    {%- if item.name %}
+    <h4>{% if include.path %}<a href="https://apis.io/{{ include.path }}/{{ include.provider_slug }}/{{ item.slug }}/">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</h4>
+    {%- if item.summary_line %}<p>{{ item.summary_line | truncate: 180 }}</p>{% elsif item.description %}<p>{{ item.description | truncate: 180 }}</p>{% endif %}
+    {%- if item.class_count %}<p class="card-meta">{{ item.class_count }} classes &middot; {{ item.property_count | default: 0 }} properties</p>
+    {%- elsif item.property_count %}<p class="card-meta">{{ item.property_count }} properties</p>
+    {%- elsif item.scope_count %}<p class="card-meta">{{ item.scope_count }} scopes</p>
+    {%- elsif item.plan_count %}<p class="card-meta">{{ item.plan_count }} plans</p>
+    {%- elsif item.limit_count %}<p class="card-meta">{{ item.limit_count }} limits</p>
+    {%- elsif item.operation_count %}<p class="card-meta">{{ item.operation_count }} operations{% if item.acting_count %} &middot; {{ item.acting_count }} acting{% endif %}</p>
+    {%- elsif item.key_count %}<p class="card-meta">{{ item.key_count }} fields</p>
+    {%- endif %}
+    {%- else %}
+    <strong>{{ item }}</strong>
+    {%- endif %}
+    {%- if include.badge %}<span class="card-badge" style="background: {{ include.color | default: '#6c757d' }};">{{ include.badge }}</span>{% endif %}
+  </div>
+  {%- endfor %}
+</div>
+{%- if include.items.size > 6 %}<p class="scroll-hint">Scroll for all {{ include.items | size }}</p>{% endif %}
+{%- endif -%}

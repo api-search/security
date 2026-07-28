@@ -77,10 +77,25 @@
 <h3 class="section-title" id="source">{{ _heading }}</h3>
 <div class="src-widget" data-src-widget data-original-lang="{{ _lang }}" data-current-lang="{{ _lang }}" data-original-filename="{{ _filename }}">
   <div class="src-widget-head">
-    {% if page.api_specs and page.api_specs.size > 0 %}
+    {% comment %}
+      WHICH specs the picker offers is the CALLER's decision, not the widget's.
+      A provider page is about the company, so its only artifact is apis.yml
+      (`specs: 'none'`). An API page is about ONE API, so it offers that API's
+      OpenAPI and nothing else (`spec_type: 'OpenAPI'`). Defaulting to every
+      api_specs entry is what put a provider's whole spec inventory — AsyncAPI,
+      Postman, GraphQL, JSON Schema — into the picker on both page types.
+    {% endcomment %}
+    {% if include.specs == 'none' %}
+      {% assign _specs = '' | split: ',' %}
+    {% elsif include.spec_type %}
+      {% assign _specs = page.api_specs | where: 'spec_type', include.spec_type %}
+    {% else %}
+      {% assign _specs = page.api_specs %}
+    {% endif %}
+    {% if _specs and _specs.size > 0 %}
     <select class="src-picker" data-src-picker aria-label="Choose source">
       <option value="" data-format="{{ _lang }}" data-filename="{{ _filename }}" data-heading="{{ _heading }}" selected>{{ _filename }}</option>
-      {% for spec in page.api_specs %}
+      {% for spec in _specs %}
       <option value="{{ spec.url }}" data-url="{{ spec.url }}" data-format="{{ spec.format }}" data-filename="{{ spec.filename }}" data-heading="{{ spec.spec_type }} Specification">{{ spec.label }} — {{ spec.spec_type }}</option>
       {% endfor %}
     </select>

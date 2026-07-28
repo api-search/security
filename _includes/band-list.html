@@ -1,0 +1,67 @@
+{% comment %}
+  Collapsible provider list grouped by rating band.
+
+  Used by every listing that shows providers — use cases, features, VC
+  portfolios, secondary market, and the providers/APIs indexes. The ordering
+  contract is set in scripts/lib_rating.py: bands descending (exemplar →
+  minimal, unrated last), composite descending inside a band, then A–Z.
+
+  Exemplar and Strong render OPEN; everything below renders CLOSED, because on
+  a list of thousands the long tail is noise until it's asked for. That choice
+  lives in lib_rating.BANDS_OPEN_BY_DEFAULT and arrives here as `group.open`.
+
+  Params:
+    bands      - array of {band,label,blurb,open,count,items} from group_by_band()
+    link_base  - URL prefix for each item (default /providers/)
+    empty_text - shown when there are no items at all
+{% endcomment %}
+{% assign _base = include.link_base | default: '/providers/' %}
+
+{% if include.bands and include.bands.size > 0 %}
+<div class="band-list">
+  {% for group in include.bands %}
+  <details class="band-group band-group-{{ group.band }}"{% if group.open %} open{% endif %}>
+    <summary>
+      <span class="band-pill band-{{ group.band }}">{{ group.label }}</span>
+      <span class="band-group-count">{{ group.count }}</span>
+      <span class="band-group-blurb">{{ group.blurb }}</span>
+    </summary>
+    <div class="band-group-body">
+      {% for item in group.items %}
+      <a class="band-row" href="{{ _base }}{{ item.slug }}/">
+        <span class="band-row-name">{{ item.name }}</span>
+        {% if item.description and item.description != '' %}
+        <span class="band-row-desc">{{ item.description | strip_html | truncate: 110 }}</span>
+        {% endif %}
+        <span class="band-row-meta">
+          {% if item.api_count and item.api_count > 0 %}<span class="band-row-apis">{{ item.api_count }} API{% if item.api_count != 1 %}s{% endif %}</span>{% endif %}
+          {% if item.score_composite %}<span class="band-row-score">{{ item.score_composite | round: 1 }}</span>{% endif %}
+        </span>
+        {%- comment -%}
+          The K'in sun, far right of the row — the listing anatomy shared with
+          apievangelist.com. Only where a facet breakdown exists; the home-page
+          quick list deliberately shows the number alone, no sun.
+          See api-evangelist/kin-score/glyph/GLYPH.md.
+        {%- endcomment -%}
+        {% if item.score_composite and item.facets %}
+        <span class="kin-row-glyph"
+              data-kin-glyph
+              data-size="44"
+              data-palette="facet"
+              data-name="{{ item.name | escape }}"
+              data-score="{{ item.score_composite }}"
+              data-band="{{ item.band }}"
+              data-agent-score="{{ item.agent_score | default: 0 }}"
+              data-agent-band="{{ item.agent_band | default: 'human-only' }}"
+              data-facets='{{ item.facets | jsonify }}'
+              data-dims="{{ item.agent_dims }}"></span>
+        {% endif %}
+      </a>
+      {% endfor %}
+    </div>
+  </details>
+  {% endfor %}
+</div>
+{% else %}
+<p class="band-empty">{{ include.empty_text | default: 'No providers matched yet.' }}</p>
+{% endif %}

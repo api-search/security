@@ -1,0 +1,56 @@
+{% comment %}
+  Styles for band-list.html. Kept as a separate include because several
+  layouts render band lists and the network has no shared stylesheet beyond
+  bootstrap — every template carries its own inline <style>.
+
+  Band pill colours MUST match the three other places they are defined:
+  providers/_layouts/provider.html, network/index.html, and /rating/. They are
+  duplicated by hand across the network; changing one without the others makes
+  a provider look like it sits in two different systems.
+{% endcomment %}
+<style>
+  .band-pill { display: inline-block; padding: 0.25em 0.75em; border-radius: 999px; font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
+  .band-exemplar   { background: #d1f7e0; color: #0f5132; }
+  .band-strong     { background: #cfe2ff; color: #0a3d91; }
+  .band-developing { background: #fff3cd; color: #664d03; }
+  .band-thin       { background: #ffe0c2; color: #7a3e07; }
+  .band-emerging   { background: #f8d7da; color: #842029; }
+  .band-minimal    { background: #e9ecef; color: #495057; }
+  .band-unrated    { background: #f1f3f5; color: #6c757d; }
+
+  .band-list { margin: 1rem 0 2rem; }
+  .band-group { border: 1px solid #e3e7ee; border-radius: 10px; margin-bottom: 0.6rem; background: #fff; overflow: hidden; }
+  .band-group > summary { display: flex; align-items: center; gap: 0.6rem; padding: 0.75rem 1rem; cursor: pointer; list-style: none; user-select: none; }
+  .band-group > summary::-webkit-details-marker { display: none; }
+  .band-group > summary::before { content: '▸'; color: #8a94a6; font-size: 0.8rem; transition: transform 0.12s; }
+  .band-group[open] > summary::before { transform: rotate(90deg); }
+  .band-group > summary:hover { background: #fbfcfe; }
+  .band-group-count { font-variant-numeric: tabular-nums; font-weight: 700; color: #1a1a2e; font-size: 0.9rem; }
+  .band-group-blurb { font-size: 0.8rem; color: #8a94a6; margin-left: auto; text-align: right; }
+  @media (max-width: 560px) { .band-group-blurb { display: none; } }
+
+  /* Long bands scroll inside their own pane rather than pushing the page down. */
+  .band-group-body { max-height: 26rem; overflow-y: auto; overscroll-behavior: contain; border-top: 1px solid #eef1f5; }
+  .band-group-body { scrollbar-width: thin; scrollbar-color: #cdd6e4 transparent; }
+  .band-group-body::-webkit-scrollbar { width: 10px; }
+  .band-group-body::-webkit-scrollbar-thumb { background: #cdd6e4; border-radius: 999px; border: 3px solid #fff; }
+
+  .band-row { display: grid; grid-template-columns: minmax(9rem, 15rem) 1fr auto; gap: 0.75rem; align-items: baseline;
+              padding: 0.55rem 1rem; border-bottom: 1px solid #f4f6f9; text-decoration: none; color: inherit; }
+  .band-row:last-child { border-bottom: none; }
+  .band-row:hover { background: #f7f9fc; }
+  .band-row-name { font-weight: 600; color: #1a1a2e; font-size: 0.9rem; }
+  .band-row:hover .band-row-name { color: #0d6efd; }
+  .band-row-desc { font-size: 0.82rem; color: #6c757d; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .band-row-meta { display: flex; gap: 0.6rem; align-items: baseline; font-size: 0.75rem; color: #8a94a6; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .band-row-score { font-weight: 700; color: #4a5568; }
+  @media (max-width: 700px) {
+    .band-row { grid-template-columns: 1fr auto; }
+    .band-row-desc { display: none; }
+  }
+  .band-empty { color: #8a94a6; font-size: 0.9rem; padding: 1rem 0; }
+
+.kin-row-glyph { line-height: 0; flex: 0 0 auto; margin-left: 0.75rem; }
+.kin-row-glyph svg { display: block; }
+@media (max-width: 767px) { .kin-row-glyph { display: none; } }
+</style>

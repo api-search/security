@@ -1,75 +1,290 @@
-<form id="add-api-form" onsubmit="submitToGitHub(event)" style="max-width: 640px; margin: 1.5rem auto;">
-  <div class="mb-3">
-    <label for="api-name" class="form-label">API Name <span class="text-danger">*</span></label>
-    <input type="text" class="form-control" id="api-name" placeholder="Stripe Payments API" required>
+{%- comment -%}
+  URL-first "add an API" flow. Paste a domain or apis.json URL → apis.io probes the target's
+  public well-knowns (apis.json, AID onboarding descriptor, OpenAPI, api-catalog, llms.txt, MCP),
+  drafts an APIs.json, and scores readiness — then a one-click structured submission. Falls back
+  to the pre-filled GitHub issue for anyone who prefers it. Backend: /api/v1/submit/*.
+{%- endcomment -%}
+<div id="add-api" style="max-width: 720px; margin: 1.5rem auto;">
+
+  <!-- Step 1 — single input -->
+  <form id="add-discover-form" class="mb-2">
+    <label for="add-url" class="form-label fw-semibold">Your API or website URL</label>
+    <div class="input-group">
+      <input type="text" class="form-control form-control-lg" id="add-url"
+             placeholder="stripe.com  or  https://example.com/apis.json" autocomplete="off" required>
+      <button class="btn btn-primary" type="submit" id="add-analyze-btn">Analyze</button>
+    </div>
+    <div class="form-text">
+      Paste a domain and we’ll look for your <a href="https://apisjson.org/" target="_blank" rel="noopener">APIs.json</a>,
+      <a href="https://apievangelist.com/onboarding/" target="_blank" rel="noopener">API Onboarding</a> descriptor,
+      OpenAPI, <code>llms.txt</code>, and MCP endpoint — no form-filling required.
+    </div>
+  </form>
+
+  <div class="text-center my-2 text-muted small">— or —</div>
+
+  <!-- Name-only: no URL? let the build worker research it -->
+  <form id="add-name-form" class="mb-2">
+    <div class="input-group">
+      <input type="text" class="form-control" id="add-name-only" placeholder="Just the API or company name, e.g. Stripe" autocomplete="off">
+      <button class="btn btn-outline-secondary" type="submit" id="add-name-btn">Submit by name</button>
+    </div>
+    <div class="form-text">No URL handy? Give us the name and apis.io will research it and build the listing for you.</div>
+  </form>
+
+  <div id="add-error" class="alert alert-warning d-none" role="alert"></div>
+
+  <!-- Step 2 — preview + readiness + confirm -->
+  <div id="add-preview" class="card d-none mt-3">
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-start flex-wrap gap-3">
+        <div>
+          <h5 class="card-title mb-1" id="pv-name">—</h5>
+          <div class="text-muted small" id="pv-provider"></div>
+        </div>
+        <div class="text-center">
+          <div id="pv-score"
+               style="width:64px;height:64px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.4rem;font-weight:700;color:#fff;">–</div>
+          <div class="small text-muted mt-1" id="pv-band"></div>
+        </div>
+      </div>
+
+      <p class="mt-3 mb-2" id="pv-description"></p>
+      <div id="pv-artifacts" class="mb-3"></div>
+
+      <details class="mb-3">
+        <summary class="small text-muted">Readiness checks</summary>
+        <ul class="list-unstyled small mt-2 mb-0" id="pv-checks"></ul>
+      </details>
+
+      <!-- Editable fields — pre-filled from discovery, correct anything before submitting -->
+      <div class="row g-2">
+        <div class="col-md-6">
+          <label class="form-label small mb-0">Name</label>
+          <input type="text" class="form-control form-control-sm" id="f-name">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label small mb-0">Documentation URL</label>
+          <input type="url" class="form-control form-control-sm" id="f-docs">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label small mb-0">Provider</label>
+          <input type="text" class="form-control form-control-sm" id="f-provider">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label small mb-0">Tags (comma-separated)</label>
+          <input type="text" class="form-control form-control-sm" id="f-tags">
+        </div>
+        <div class="col-12">
+          <label class="form-label small mb-0">Description</label>
+          <textarea class="form-control form-control-sm" id="f-description" rows="2"></textarea>
+        </div>
+        <div class="col-12">
+          <label class="form-label small mb-0">Your contact (optional — so we can follow up)</label>
+          <input type="text" class="form-control form-control-sm" id="f-contact" placeholder="you@example.com">
+        </div>
+      </div>
+
+      <div class="d-flex align-items-center gap-3 mt-3 flex-wrap">
+        <button class="btn btn-success" id="add-submit-btn" type="button">Submit to apis.io</button>
+        <button class="btn btn-link btn-sm text-muted" id="add-restart" type="button">Start over</button>
+        <a href="#" id="add-issue-link" class="small text-muted ms-auto">Prefer a GitHub issue?</a>
+      </div>
+    </div>
   </div>
 
-  <div class="mb-3">
-    <label for="api-url" class="form-label">APIs.json URL <span class="text-danger">*</span></label>
-    <input type="url" class="form-control" id="api-url" placeholder="https://example.com/apis.json" required>
-    <div class="form-text">A URL to a valid <a href="https://apisjson.org/" target="_blank" rel="noopener">APIs.json</a> file describing your API.</div>
-  </div>
-
-  <div class="mb-3">
-    <label for="api-human-url" class="form-label">Documentation URL</label>
-    <input type="url" class="form-control" id="api-human-url" placeholder="https://example.com/docs">
-  </div>
-
-  <div class="mb-3">
-    <label for="api-provider" class="form-label">Provider / Organization</label>
-    <input type="text" class="form-control" id="api-provider" placeholder="Stripe">
-  </div>
-
-  <div class="mb-3">
-    <label for="api-tags" class="form-label">Tags</label>
-    <input type="text" class="form-control" id="api-tags" placeholder="payments, billing, subscriptions">
-    <div class="form-text">Comma-separated list of tags.</div>
-  </div>
-
-  <div class="mb-3">
-    <label for="api-description" class="form-label">Description</label>
-    <textarea class="form-control" id="api-description" rows="4" placeholder="A short description of what this API does..."></textarea>
-  </div>
-
-  <div class="mb-3">
-    <label for="api-contact" class="form-label">Your Contact (optional)</label>
-    <input type="text" class="form-control" id="api-contact" placeholder="@yourhandle or email">
-  </div>
-
-  <button type="submit" class="btn btn-primary">Submit via GitHub Issue</button>
-  <p class="form-text mt-3">
-    Submitting will open a pre-filled GitHub issue at <a href="https://github.com/api-search/network/issues" target="_blank" rel="noopener">api-search/network</a>. You'll need a GitHub account to complete the submission.
-  </p>
-</form>
+  <!-- Step 3 — result -->
+  <div id="add-success" class="alert alert-success d-none mt-3" role="alert"></div>
+</div>
 
 <script>
-function submitToGitHub(e) {
-  e.preventDefault();
-  var name = document.getElementById('api-name').value.trim();
-  var url = document.getElementById('api-url').value.trim();
-  var humanUrl = document.getElementById('api-human-url').value.trim();
-  var provider = document.getElementById('api-provider').value.trim();
-  var tags = document.getElementById('api-tags').value.trim();
-  var description = document.getElementById('api-description').value.trim();
-  var contact = document.getElementById('api-contact').value.trim();
+(function () {
+  var API_BASE = 'https://apis.io/api/v1';
+  var $ = function (id) { return document.getElementById(id); };
+  var state = { discovery: null };
 
-  var title = 'Add API: ' + name;
+  var BAND_COLOR = {
+    exemplar: '#2e7d32', strong: '#3098d8', developing: '#f0932b',
+    thin: '#e67e22', minimal: '#c0392b'
+  };
+  var STATUS_ICON = { pass: '✓', warn: '!', fail: '✗' };
+  var STATUS_COLOR = { pass: '#2e7d32', warn: '#f0932b', fail: '#c0392b' };
 
-  var body = '## API Submission\n\n';
-  body += '**Name:** ' + name + '\n\n';
-  body += '**APIs.json URL:** ' + url + '\n\n';
-  if (humanUrl)    body += '**Documentation:** ' + humanUrl + '\n\n';
-  if (provider)    body += '**Provider:** ' + provider + '\n\n';
-  if (tags)        body += '**Tags:** ' + tags + '\n\n';
-  if (description) body += '**Description:**\n\n' + description + '\n\n';
-  if (contact)     body += '**Submitted by:** ' + contact + '\n\n';
-  body += '---\n_Submitted via the [APIs.io add form]({{ site.url }}/add/)._';
+  function show(el) { el.classList.remove('d-none'); }
+  function hide(el) { el.classList.add('d-none'); }
+  function err(msg) { var e = $('add-error'); e.textContent = msg; show(e); }
 
-  var issueUrl = 'https://github.com/api-search/network/issues/new'
-    + '?title=' + encodeURIComponent(title)
-    + '&body=' + encodeURIComponent(body)
-    + '&labels=' + encodeURIComponent('api-submission');
+  // ---- Step 1: analyze -----------------------------------------------------
+  $('add-discover-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    hide($('add-error')); hide($('add-preview')); hide($('add-success'));
+    var url = $('add-url').value.trim();
+    if (!url) return;
+    var btn = $('add-analyze-btn');
+    btn.disabled = true; btn.textContent = 'Analyzing…';
 
-  window.open(issueUrl, '_blank', 'noopener');
-}
+    fetch(API_BASE + '/submit/discover?url=' + encodeURIComponent(url))
+      .then(function (r) { return r.json().then(function (b) { return { ok: r.ok, body: b }; }); })
+      .then(function (res) {
+        if (!res.ok) throw new Error(res.body && res.body.detail || 'Could not analyze that URL.');
+        state.discovery = res.body;
+        renderPreview(res.body);
+      })
+      .catch(function (e2) { err(e2.message + ' You can still submit manually via the GitHub issue link below.'); buildIssueLink({}); show($('add-error')); })
+      .finally(function () { btn.disabled = false; btn.textContent = 'Analyze'; });
+  });
+
+  // ---- Step 2: render the preview -----------------------------------------
+  function renderPreview(d) {
+    var p = d.preview || {}, rating = d.rating || {};
+    $('pv-name').textContent = p.name || 'Your API';
+    $('pv-provider').textContent = p.providerUrl || '';
+    $('pv-description').textContent = p.description || '';
+
+    var color = BAND_COLOR[rating.band] || '#888';
+    var ring = $('pv-score');
+    ring.textContent = (rating.score != null ? rating.score : '–');
+    ring.style.background = color;
+    $('pv-band').textContent = rating.band ? (rating.band + ' readiness') : '';
+
+    // Discovered artifact chips
+    var chips = (d.artifacts || []).map(function (a) {
+      return '<span class="badge rounded-pill text-bg-light border me-1 mb-1">' + escapeHtml(a) + '</span>';
+    }).join('');
+    $('pv-artifacts').innerHTML = chips || '<span class="text-muted small">No machine-readable artifacts found yet.</span>';
+
+    // Readiness checks
+    $('pv-checks').innerHTML = (rating.checks || []).map(function (c) {
+      return '<li class="mb-1"><span style="color:' + (STATUS_COLOR[c.status] || '#888') + ';font-weight:700;">'
+        + (STATUS_ICON[c.status] || '•') + '</span> <strong>' + escapeHtml(c.label) + '</strong> — '
+        + escapeHtml(c.message) + '</li>';
+    }).join('');
+
+    // Pre-fill editable fields
+    $('f-name').value = p.name || '';
+    $('f-docs').value = p.docsUrl || '';
+    $('f-provider').value = p.provider || '';
+    $('f-tags').value = (p.tags || []).join(', ');
+    $('f-description').value = p.description || '';
+
+    buildIssueLink(collect());
+    show($('add-preview'));
+    $('add-preview').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  function collect() {
+    return {
+      name: $('f-name').value.trim(),
+      docsUrl: $('f-docs').value.trim(),
+      provider: $('f-provider').value.trim(),
+      tags: $('f-tags').value.split(',').map(function (t) { return t.trim(); }).filter(Boolean),
+      description: $('f-description') ? $('f-description').value.trim() : '',
+      contact: $('f-contact').value.trim()
+    };
+  }
+
+  // ---- Step 3: submit ------------------------------------------------------
+  $('add-submit-btn').addEventListener('click', function () {
+    var f = collect();
+    if (!f.name) { err('Please give your API a name.'); return; }
+    var d = state.discovery || {};
+    var draft = d.apisjson || null;
+    // Fold any edits back into the drafted APIs.json before sending.
+    if (draft && draft.apis && draft.apis[0]) {
+      draft.name = f.name; draft.description = f.description; draft.tags = f.tags;
+      draft.apis[0].name = f.name; draft.apis[0].description = f.description;
+      draft.apis[0].tags = f.tags;
+      if (f.docsUrl) draft.apis[0].humanURL = f.docsUrl;
+    }
+    var payload = {
+      apisjson: draft,
+      name: f.name, provider: f.provider, docsUrl: f.docsUrl,
+      tags: f.tags, contact: f.contact,
+      url: (draft && draft.url) || (d.origin ? d.origin + '/apis.json' : ''),
+      discovered: d.discovered || null,
+      rating: d.rating || null
+    };
+    var btn = $('add-submit-btn');
+    btn.disabled = true; btn.textContent = 'Submitting…';
+
+    fetch(API_BASE + '/submit', {
+      method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(payload)
+    })
+      .then(function (r) { return r.json().then(function (b) { return { ok: r.ok, body: b }; }); })
+      .then(function (res) {
+        if (!res.ok) throw new Error(res.body && res.body.detail || 'Submission failed.');
+        var b = res.body, s = $('add-success');
+        if (b.status === 'fallback' && b.issueUrl) {
+          s.innerHTML = 'Almost there — finish by opening your pre-filled '
+            + '<a href="' + b.issueUrl + '" target="_blank" rel="noopener">GitHub issue</a>.';
+        } else {
+          s.innerHTML = '<strong>Thank you!</strong> ' + escapeHtml(b.message || 'Your API is queued for review.')
+            + (b.id ? ' <span class="text-muted small">Ref: ' + escapeHtml(b.id.slice(0, 8)) + '</span>' : '');
+        }
+        hide($('add-preview')); show(s);
+        s.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      })
+      .catch(function (e2) { err(e2.message + ' Try the GitHub issue link instead.'); })
+      .finally(function () { btn.disabled = false; btn.textContent = 'Submit to apis.io'; });
+  });
+
+  $('add-restart').addEventListener('click', function () {
+    hide($('add-preview')); hide($('add-success')); hide($('add-error'));
+    $('add-url').value = ''; $('add-url').focus();
+  });
+
+  // Name-only submission → straight into the research/build queue.
+  $('add-name-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    hide($('add-error')); hide($('add-success'));
+    var name = $('add-name-only').value.trim();
+    if (!name) return;
+    var btn = $('add-name-btn');
+    btn.disabled = true; btn.textContent = 'Submitting…';
+    fetch(API_BASE + '/submit', {
+      method: 'POST', headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ name: name, contact: $('f-contact') ? $('f-contact').value.trim() : '' })
+    })
+      .then(function (r) { return r.json().then(function (b) { return { ok: r.ok, body: b }; }); })
+      .then(function (res) {
+        if (!res.ok) throw new Error(res.body && res.body.detail || 'Submission failed.');
+        var s = $('add-success');
+        s.innerHTML = '<strong>On it.</strong> apis.io is researching <em>' + escapeHtml(name)
+          + '</em> and will build the listing automatically. Thanks!';
+        show(s); $('add-name-only').value = '';
+      })
+      .catch(function (e2) { err(e2.message); })
+      .finally(function () { btn.disabled = false; btn.textContent = 'Submit by name'; });
+  });
+
+  // ---- GitHub-issue fallback (kept for anyone who prefers the public trail) --
+  function buildIssueLink(f) {
+    var d = state.discovery || {};
+    var url = (d.apisjson && d.apisjson.url) || (d.origin ? d.origin + '/apis.json' : '');
+    var title = 'Add API: ' + (f.name || $('add-url').value.trim() || 'Untitled');
+    var body = '## API Submission\n\n'
+      + '**Name:** ' + (f.name || '') + '\n\n'
+      + '**APIs.json URL:** ' + url + '\n\n'
+      + (f.docsUrl ? '**Documentation:** ' + f.docsUrl + '\n\n' : '')
+      + (f.provider ? '**Provider:** ' + f.provider + '\n\n' : '')
+      + ((f.tags && f.tags.length) ? '**Tags:** ' + f.tags.join(', ') + '\n\n' : '')
+      + (f.description ? '**Description:**\n\n' + f.description + '\n\n' : '')
+      + (f.contact ? '**Submitted by:** ' + f.contact + '\n\n' : '')
+      + '---\n_Submitted via the [APIs.io add form]({{ site.url }}/add/)._';
+    var href = 'https://github.com/api-search/network/issues/new'
+      + '?title=' + encodeURIComponent(title)
+      + '&body=' + encodeURIComponent(body)
+      + '&labels=' + encodeURIComponent('api-submission');
+    $('add-issue-link').setAttribute('href', href);
+    $('add-issue-link').setAttribute('target', '_blank');
+    $('add-issue-link').setAttribute('rel', 'noopener');
+  }
+  buildIssueLink({});
+
+  function escapeHtml(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+})();
 </script>

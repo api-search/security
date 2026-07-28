@@ -1,0 +1,72 @@
+{% comment %}
+  Shared detail page for a canonical capability — a use case or a feature.
+
+  Both sections have identical structure (a canonical term, the providers that
+  offer it ordered by rating, and the raw provider-written strings that mapped
+  onto it), so they share one template and differ only by label and accent.
+
+  Params: kind, base, accent, accent_bg
+{% endcomment %}
+<style>
+  .cap-hero { background: linear-gradient(135deg, #f8f9fb 0%, #eef2f7 100%); border: 1px solid #e3e7ee; border-radius: 12px; padding: 2rem; margin-bottom: 1.5rem; }
+  .cap-kicker { display: inline-block; padding: 0.2em 0.7em; background: {{ include.accent_bg }}; color: {{ include.accent }}; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.75rem; }
+  .cap-title { font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; color: #1a1a2e; }
+  .cap-short { color: #4a5568; font-size: 1.05rem; margin-bottom: 1rem; }
+  .cap-stats { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+  .cap-stat { background: #fff; border: 1px solid #e3e7ee; border-radius: 8px; padding: 0.5rem 1rem; font-size: 0.85rem; }
+  .cap-stat strong { color: {{ include.accent }}; font-variant-numeric: tabular-nums; }
+  .section-anchor { font-size: 1.25rem; font-weight: 700; color: #1a1a2e; margin: 2.5rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e3e7ee; }
+  /* The provider-written strings that mapped here. Capped to two rows with a
+     scroll — some terms absorb hundreds of raw variants. */
+  .raw-terms { display: flex; flex-wrap: wrap; gap: 0.35rem; max-height: 6.5rem; overflow-y: auto; overscroll-behavior: contain;
+               padding: 0.75rem; background: #fbfcfe; border: 1px solid #e8ecf3; border-radius: 10px; }
+  .raw-terms span { font-size: 0.78rem; color: #4a5568; background: #fff; border: 1px solid #e8ecf3; border-radius: 999px; padding: 0.15em 0.65em; }
+  .scroll-hint { font-size: 0.75rem; color: #8a94a6; margin: 0.35rem 0 2rem; }
+</style>
+
+<nav aria-label="breadcrumb" style="margin-bottom: 1rem;">
+  <ol class="breadcrumb" style="font-size: 0.85rem;">
+    <li class="breadcrumb-item"><a href="https://apis.io/">Home</a></li>
+    <li class="breadcrumb-item"><a href="https://apis.io{{ include.base }}">{{ include.kind }}s</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.name }}</li>
+  </ol>
+</nav>
+
+<div class="cap-hero">
+  <span class="cap-kicker">{{ include.kind }}</span>
+  <h1 class="cap-title">{{ page.name }}</h1>
+  {% if page.short %}<p class="cap-short">{{ page.short }}</p>{% endif %}
+  <div class="cap-stats">
+    <span class="cap-stat"><strong>{{ page.provider_count }}</strong> provider{% if page.provider_count != 1 %}s{% endif %}</span>
+    <span class="cap-stat"><strong>{{ page.api_count }}</strong> API{% if page.api_count != 1 %}s{% endif %}</span>
+    {% if page.raw_term_count %}<span class="cap-stat"><strong>{{ page.raw_term_count }}</strong> declared variant{% if page.raw_term_count != 1 %}s{% endif %}</span>{% endif %}
+  </div>
+</div>
+
+{% if page.overview %}
+<div style="color:#4a5568; line-height:1.65; font-size:0.95rem; margin-bottom:1.5rem;">
+  {{ page.overview | markdownify }}
+</div>
+{% endif %}
+
+<h2 class="section-anchor" id="providers">Providers</h2>
+<p style="color:#6c757d; font-size:0.9rem; margin-bottom:0.5rem;">
+  Ranked by API Evangelist rating — Exemplar and Strong are expanded by default.
+</p>
+{% include band-list.html bands=page.bands link_base='/providers/' %}
+
+{% if page.raw_terms.size > 0 %}
+<h2 class="section-anchor" id="declared">What Providers Actually Declared</h2>
+<p style="color:#6c757d; font-size:0.9rem; margin-bottom:0.5rem;">
+  This {{ include.kind | downcase }} is a canonical term. These are the free-text strings
+  providers wrote in their own <code>apis.yml</code> that map onto it.
+</p>
+<div class="raw-terms">
+  {% for r in page.raw_terms %}<span>{{ r }}</span>{% endfor %}
+</div>
+{% if page.raw_term_count > page.raw_terms.size %}
+<p class="scroll-hint">Showing {{ page.raw_terms.size }} of {{ page.raw_term_count }} declared variants</p>
+{% else %}
+<p class="scroll-hint">Scroll for all {{ page.raw_terms.size }}</p>
+{% endif %}
+{% endif %}

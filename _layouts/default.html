@@ -98,27 +98,50 @@
       .navbar { padding: 0.75rem 0; }
       .navbar-brand { font-weight: 700; font-size: 1.4rem; letter-spacing: -0.5px; padding-top: 0; padding-bottom: 0; }
       .navbar-brand img { display: block; height: 28px; width: auto; }
-      .nav-link { font-size: 0.95rem; padding: 0.5rem 1rem !important; }
+      .nav-link { font-size: 0.95rem; padding: 0.5rem 0.7rem !important; }
       .container.my-5 { max-width: 960px; }
-      .footer { background-color: #f8f9fa; border-top: 1px solid #e9ecef; }
-      .footer a { color: #555; text-decoration: none; font-size: 0.9rem; }
-      .footer a:hover { color: #000; text-decoration: underline; }
       a { color: #0d6efd; }
       a:hover { color: #0a58ca; }
 
-      /* Desktop: tighten dropdown so the 4 sections read as one card. */
-      @media (min-width: 992px) {
-        .navbar .dropdown-menu { padding: 0.4rem 0; min-width: 12rem; }
-        .navbar .dropdown-header { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.5px; color: #6c757d; padding: 0.4rem 1rem 0.2rem; }
-        .navbar .dropdown-item { font-size: 0.9rem; padding: 0.35rem 1rem; }
+      /* ------------------------------------------------------------------
+         Masthead — three shallow mega-menus (Browse / Artifacts / Signals)
+         replacing the single 26-link "More" column (2026-07-28). Menus are
+         built from _data/nav.yml by _includes/nav.html; `columns:` there maps
+         to .nav-mega-N here.
+         Breakpoint is XL (1200px), not LG: eight top-level items plus the
+         search field and the CTA don't fit at 992px.
+      ------------------------------------------------------------------ */
+      .navbar-search { min-width: 15rem; }
+      .navbar-cta { white-space: nowrap; }
+
+      @media (min-width: 1200px) {
+        .navbar-search { margin-right: 0.5rem; }
+        .navbar .dropdown-menu { padding: 0.75rem 0.25rem; border: 0; box-shadow: 0 8px 24px rgba(0,0,0,0.18); }
+        .navbar .dropdown-header { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.5px; color: #6c757d; padding: 0.15rem 1rem 0.35rem; }
+        .navbar .dropdown-item { font-size: 0.9rem; padding: 0.3rem 1rem; }
         .navbar .dropdown-item.active, .navbar .dropdown-item:active { background-color: #0d6efd; color: #fff; }
+
+        /* Multi-column menus: groups lay out side by side as flex children.
+           Bootstrap's dropdown JS only cares about .dropdown-toggle /
+           .dropdown-menu / .dropdown-item, all of which survive the nesting,
+           so keyboard navigation still works. */
+        .nav-mega { display: none; }
+        .nav-mega.show { display: flex; flex-wrap: wrap; }
+        .nav-mega-1 { min-width: 13rem; }
+        .nav-mega-2 { min-width: 26rem; }
+        .nav-mega-3 { min-width: 39rem; }
+        .nav-mega-group { flex: 1 1 12rem; min-width: 12rem; padding-bottom: 0.35rem; }
+        .nav-mega-list { list-style: none; margin: 0; padding: 0; }
+
+        /* Right-align the last menu so a wide 3-column panel can't push the
+           page into a horizontal scrollbar. */
+        .navbar-nav > .nav-item.dropdown:last-of-type .nav-mega { right: 0; left: auto; }
       }
 
-      /* Mobile: when the navbar is collapsed, render the dropdown inline
-         (no separate light card on top of the dark navbar) and match the
-         dark navbar styling so the More menu reads as a continuation of
-         the main nav rather than a popover. */
-      @media (max-width: 991px) {
+      /* Collapsed navbar: render menus inline (no light popover card floating
+         over the dark bar) and match the dark styling so the whole drawer
+         reads as one list. */
+      @media (max-width: 1199px) {
         .navbar-collapse { padding: 0.5rem 0 0.25rem; }
         .navbar-nav .nav-link { padding: 0.6rem 0 !important; }
         .navbar .dropdown-menu {
@@ -128,6 +151,7 @@
           margin: 0; width: auto;
         }
         .navbar .dropdown-toggle::after { display: none; }
+        .nav-mega-list { list-style: none; margin: 0; padding: 0; }
         .navbar .dropdown-header {
           color: rgba(255,255,255,0.55);
           font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.6px;
@@ -146,21 +170,19 @@
           color: #fff; background-color: rgba(13,110,253,0.6); border-radius: 4px;
           padding-left: 0.5rem; padding-right: 0.5rem;
         }
-        .navbar .dropdown-divider {
-          border-top: 1px solid rgba(255,255,255,0.08); margin: 0.5rem 0;
-        }
-        .navbar form[role="search"] { margin-top: 0.5rem; }
+        .navbar-search { margin-top: 0.5rem; min-width: 0; }
+        .navbar-cta { margin-top: 0.6rem; align-self: flex-start; }
       }
     </style>
     <script>
-      // Mobile: expand the More dropdown automatically when the navbar is
-      // toggled open, so the Browse-by / Specs / Operations groups are
-      // immediately visible without a second tap.
+      // Collapsed navbar: expand every menu automatically when the drawer is
+      // opened, so Browse / Artifacts / Signals are visible without a second
+      // tap. Boundary must match the CSS above (1199px).
       document.addEventListener('DOMContentLoaded', function () {
         var collapseEl = document.getElementById('navbarSupportedContent');
         if (!collapseEl) return;
         collapseEl.addEventListener('show.bs.collapse', function () {
-          if (window.matchMedia('(max-width: 991px)').matches) {
+          if (window.matchMedia('(max-width: 1199px)').matches) {
             collapseEl.querySelectorAll('.dropdown-menu').forEach(function (m) {
               m.classList.add('show');
             });
@@ -195,99 +217,7 @@
     </script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="https://apis.io/" aria-label="apis.io home"><img src="/assets/branding/apisio-wordmark-white.png" alt="apis.io"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link{% if site.nav_active == 'search' %} active{% endif %}" href="https://apis.io/">Search</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link{% if site.nav_active == 'providers' %} active{% endif %}" href="https://apis.io/providers/">Providers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link{% if site.nav_active == 'apis' %} active{% endif %}" href="https://apis.io/apis/">APIs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link{% if site.nav_active == 'tags' %} active{% endif %}" href="https://apis.io/tags/">Tags</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link{% if site.nav_active == 'rating' %} active{% endif %}" href="https://apis.io/rating/">Kin Score</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link{% if site.nav_active == 'stack' %} active{% endif %}" href="https://apis.io/stack/">Stack</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle{% if site.nav_active == 'more' or site.nav_active == 'industries' or site.nav_active == 'regions' or site.nav_active == 'countries' or site.nav_active == 'areas' or site.nav_active == 'skills' or site.nav_active == 'mcp' or site.nav_active == 'events' or site.nav_active == 'arazzo' or site.nav_active == 'collections' or site.nav_active == 'security' or site.nav_active == 'scopes' or site.nav_active == 'agentic-access' or site.nav_active == 'analytics' or site.nav_active == 'search-terms' or site.nav_active == 'use-cases' or site.nav_active == 'features' or site.nav_active == 'vcs' or site.nav_active == 'secondary-market' %} active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
-              <ul class="dropdown-menu">
-                <li><h6 class="dropdown-header">Browse by</h6></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'industries' %} active{% endif %}" href="https://apis.io/industries/">Industries</a></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'regions' %} active{% endif %}" href="https://apis.io/regions/">Regions</a></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'countries' %} active{% endif %}" href="https://apis.io/countries/">Countries</a></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'areas' %} active{% endif %}" href="https://apis.io/areas/">Areas</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><h6 class="dropdown-header">Capabilities</h6></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'use-cases' %} active{% endif %}" href="https://apis.io/use-cases/">Use Cases</a></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'features' %} active{% endif %}" href="https://apis.io/features/">Features</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><h6 class="dropdown-header">Financialization</h6></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'vcs' %} active{% endif %}" href="https://apis.io/vcs/">Venture Capital</a></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'secondary-market' %} active{% endif %}" href="https://apis.io/secondary-market/">Secondary Market</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><h6 class="dropdown-header">Agent surfaces</h6></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'skills' %} active{% endif %}" href="https://apis.io/agent-skills/">Agent Skills</a></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'mcp' %} active{% endif %}" href="https://apis.io/servers/">MCP</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><h6 class="dropdown-header">Collections</h6></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'collections' %} active{% endif %}" href="https://apis.io/collections/">Open Collections</a></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'collections' %} active{% endif %}" href="https://apis.io/collections/">Postman Collections</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><h6 class="dropdown-header">Event-driven</h6></li>
-                <li><a class="dropdown-item" href="https://apis.io/asyncapis/">AsyncAPI</a></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'events' %} active{% endif %}" href="https://apis.io/channels/">Events</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><h6 class="dropdown-header">Specifications</h6></li>
-                <li><a class="dropdown-item" href="https://apis.io/schemas/">Schemas</a></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'graphql' %} active{% endif %}" href="https://apis.io/graphqls/">GraphQL</a></li>
-                <li><a class="dropdown-item" href="https://apis.io/jsonld/">JSON-LD</a></li>
-                <li><a class="dropdown-item" href="https://apis.io/rules/">Rules</a></li>
-                <li><a class="dropdown-item" href="https://apis.io/vocabularies/">Vocabularies</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><h6 class="dropdown-header">Workflows</h6></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'arazzo' %} active{% endif %}" href="https://apis.io/arazzos/">Arazzo</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><h6 class="dropdown-header">Operations</h6></li>
-                <li><a class="dropdown-item" href="https://apis.io/plans/">Plans</a></li>
-                <li><a class="dropdown-item" href="https://apis.io/rate-limits/">Rate Limits</a></li>
-                <li><a class="dropdown-item" href="https://apis.io/finops/">FinOps</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><h6 class="dropdown-header">Security</h6></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'security' %} active{% endif %}" href="https://apis.io/security/">Posture</a></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'scopes' %} active{% endif %}" href="https://apis.io/scopes/">Scopes</a></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'agentic-access' %} active{% endif %}" href="https://apis.io/agentic-access/">Agentic Access</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="https://apis.io/about/">About</a></li>
-                <li><a class="dropdown-item" href="https://apis.io/support/">Support</a></li>
-                <li><a class="dropdown-item" href="https://apis.io/blog/">Blog</a></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'analytics' %} active{% endif %}" href="https://apis.io/analytics/">Analytics</a></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'search-terms' %} active{% endif %}" href="https://apis.io/search-terms/">Search Terms</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link{% if site.nav_active == 'blog' %} active{% endif %}" href="https://apis.io/blog/">Blog</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search" action="https://apis.io/" method="get">
-            <input class="form-control form-control-sm me-2" type="search" name="search" placeholder="Search APIs..." aria-label="Search APIs">
-            <button class="btn btn-sm btn-outline-light" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
+    {% include nav.html %}
     {% if site.alert.enabled %}
     <div class="alert alert-{{ site.alert.type }} mb-0 rounded-0 text-center" role="alert">
       {{ site.alert.message }}
@@ -300,27 +230,7 @@
       {{ content }}
     </main>
 
-    <footer class="footer">
-      <div class="container">
-        {% comment %}
-          About and Add API moved out of the top-level nav and down here (2026-07-26)
-          to make room for Stack. Ten links no longer fit one row on a phone, so the
-          row wraps and the footer is auto-height — see assets/sticky-footer.css.
-        {% endcomment %}
-        <div class="footer-links d-flex flex-wrap justify-content-center column-gap-4 row-gap-2 align-items-center">
-          <a href="https://apis.io/about/">About</a>
-          <a href="https://apis.io/add/">Add API</a>
-          <a href="http://apisjson.org">APIs.json</a>
-          <a href="http://apicommons.org">API Commons</a>
-          <a href="https://apis.io/developer">Developers</a>
-          <a href="https://apis.io/roadmap/">Roadmap</a>
-          <a href="https://apis.io/changelog/">Changelog</a>
-          <a href="https://github.com/api-search">GitHub</a>
-          <a href="https://apis.io/terms/">Terms</a>
-          <a href="https://apis.io/privacy/">Privacy</a>
-        </div>
-      </div>
-    </footer>
+    {% include footer.html %}
 
   {%- comment -%}
     Kin Score glyph — renders every [data-kin-glyph] placeholder.
