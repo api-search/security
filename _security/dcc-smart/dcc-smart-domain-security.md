@@ -1,0 +1,49 @@
+---
+api_specs:
+- filename: dcc-boxed-duis-signing-tool-openapi.yml
+  format: yaml
+  label: DCC Boxed DUIS Signing Tool API
+  slug: dcc-boxed-duis-signing-tool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/openapi/dcc-boxed-duis-signing-tool-openapi.yml
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: reject
+  dnssec: false
+  domain: smartdcc.co.uk
+  spf: true
+hosts:
+- cert_expires: Jan 11 23:59:59 2027 GMT
+  host: www.smartdcc.co.uk
+  hsts: true
+  hsts_max_age: 10886400
+  https: true
+  tls_version: TLSv1.3
+kind: domain-security
+layout: security
+method: probed
+name: Dcc Smart Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Smart DCC, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Smart DCC
+provider_slug: dcc-smart
+slug: dcc-smart-domain-security
+source_filename: dcc-smart-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-07-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.smartdcc.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 10886400\ndomains:\n- domain: smartdcc.co.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/security/dcc-smart-domain-security.yml
+summary_line: TLSv1.3 · HSTS · DMARC
+tags:
+- Energy
+- United Kingdom
+- Utilities
+- Electricity
+- Gas
+- Smart Metering
+- Grid
+- Metering Infrastructure
+- Energy Data
+---

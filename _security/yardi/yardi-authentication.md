@@ -3,31 +3,31 @@ api_key_in: []
 api_specs:
 - filename: yardi-billing-and-payments-api-openapi.yml
   format: yaml
-  label: Yardi Billing and Payments API
+  label: Yardi Billing and Payments Interface
   slug: yardi-billing-and-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-billing-and-payments-api-openapi.yml
 - filename: yardi-common-data-api-openapi.yml
   format: yaml
-  label: Yardi Common Data API
+  label: Yardi Common Data Interface
   slug: yardi-common-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-common-data-api-openapi.yml
 - filename: yardi-job-cost-api-openapi.yml
   format: yaml
-  label: Yardi Job Cost API
+  label: Yardi Job Cost Interface
   slug: yardi-job-cost-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-job-cost-api-openapi.yml
 - filename: yardi-service-requests-api-openapi.yml
   format: yaml
-  label: Yardi Service Requests API
+  label: Yardi Service Requests Interface
   slug: yardi-service-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-service-requests-api-openapi.yml
 - filename: yardi-vendor-invoicing-api-openapi.yml
   format: yaml
-  label: Yardi Vendor Invoicing API
+  label: Yardi Vendor Invoicing Interface
   slug: yardi-vendor-invoicing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-vendor-invoicing-api-openapi.yml
@@ -63,8 +63,10 @@ tags:
 - Commercial Real Estate
 - Coworking
 - Investment Management
+- MCP
 - Multifamily
 - Property Management
+- PropTech
 - Real Estate
 - Residential
 - Self Storage

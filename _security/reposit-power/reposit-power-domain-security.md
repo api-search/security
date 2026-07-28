@@ -1,0 +1,70 @@
+---
+api_specs:
+- filename: reposit-power-customer-api-openapi.yml
+  format: yaml
+  label: Reposit Customer API
+  slug: reposit-power-customer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/openapi/reposit-power-customer-api-openapi.yml
+- filename: reposit-power-market-api-openapi.yml
+  format: yaml
+  label: Reposit Power Market API
+  slug: reposit-power-market-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/openapi/reposit-power-market-api-openapi.yml
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: quarantine
+  dnssec: false
+  domain: repositpower.com
+  spf: true
+hosts:
+- cert_expires: Sep 30 00:17:39 2026 GMT
+  host: repositpower.com
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Sep  5 22:00:28 2026 GMT
+  host: fleet.repositpower.com
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Sep 27 02:30:35 2026 GMT
+  host: api.repositpower.com
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+kind: domain-security
+layout: security
+method: probed
+name: Reposit Power Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Reposit Power, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Reposit Power
+provider_slug: reposit-power
+slug: reposit-power-domain-security
+source_filename: reposit-power-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-07-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: repositpower.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 00:17:39 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: fleet.repositpower.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 22:00:28 2026 GMT\n  hsts: false\n- host: api.repositpower.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 02:30:35 2026 GMT\n  hsts: false\ndomains:\n- domain: repositpower.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/security/reposit-power-domain-security.yml
+summary_line: TLSv1.3 · HSTS · DMARC
+tags:
+- Energy
+- Australia
+- Utilities
+- Electricity
+- Batteries
+- DER
+- Virtual Power Plant
+- Demand Response
+- Solar
+- Grid
+- Energy Markets
+- Smart Metering
+- Storage
+- Flexibility
+---
