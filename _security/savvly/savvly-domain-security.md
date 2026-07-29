@@ -1,23 +1,4 @@
 ---
-api_specs:
-- filename: savvly-comparisons-api-openapi.yml
-  format: yaml
-  label: Savvly Comparisons API
-  slug: savvly-comparisons-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savvly/refs/heads/main/openapi/savvly-comparisons-api-openapi.yml
-- filename: savvly-product-api-openapi.yml
-  format: yaml
-  label: Savvly Product API
-  slug: savvly-product-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savvly/refs/heads/main/openapi/savvly-product-api-openapi.yml
-- filename: savvly-projections-api-openapi.yml
-  format: yaml
-  label: Savvly Projections API
-  slug: savvly-projections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savvly/refs/heads/main/openapi/savvly-projections-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,11 +36,4 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/savvly/refs/he
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Fintech
-- Retirement
-- Longevity
-- Investing
-- Financial Services
-- Projections
-- Annuity Alternative
 ---

@@ -1,17 +1,11 @@
 ---
 api_specs:
-- filename: scrapfly-scraping-api-openapi.yml
+- filename: scrapfly-scrape-openapi.yml
   format: yaml
-  label: Scrapfly Scraping API
-  slug: scrapfly-scraping-api
+  label: Scrapfly Scrape API
+  slug: scrape-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/openapi/scrapfly-scraping-api-openapi.yml
-- filename: scrapfly-screenshots-api-openapi.yml
-  format: yaml
-  label: Scrapfly Screenshots API
-  slug: scrapfly-screenshots-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/openapi/scrapfly-screenshots-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/openapi/scrapfly-scrape-openapi.yml
 description: ''
 domains:
 - caa:

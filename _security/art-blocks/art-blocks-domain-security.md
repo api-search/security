@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: art-blocks-generator-api-openapi.yml
-  format: yaml
+- filename: art-blocks-token-api.json
+  format: json
+  label: Art Blocks Token API
+  slug: token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/art-blocks/refs/heads/main/openapi/art-blocks-token-api.json
+- filename: art-blocks-generator-api.json
+  format: json
   label: Art Blocks Generator API
-  slug: art-blocks-generator-api
+  slug: generator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-blocks/refs/heads/main/openapi/art-blocks-generator-api-openapi.yml
-- filename: art-blocks-media-api-openapi.yml
-  format: yaml
-  label: Art Blocks Media API
-  slug: art-blocks-media-api
+  url: https://raw.githubusercontent.com/api-evangelist/art-blocks/refs/heads/main/openapi/art-blocks-generator-api.json
+- filename: art-blocks-media-proxy-api.json
+  format: json
+  label: Art Blocks Media Proxy API
+  slug: media-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-blocks/refs/heads/main/openapi/art-blocks-media-api-openapi.yml
-- filename: art-blocks-token-metadata-api-openapi.yml
-  format: yaml
-  label: Art Blocks Token Metadata API
-  slug: art-blocks-token-metadata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-blocks/refs/heads/main/openapi/art-blocks-token-metadata-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/art-blocks/refs/heads/main/openapi/art-blocks-media-proxy-api.json
 description: ''
 domains:
 - caa: []

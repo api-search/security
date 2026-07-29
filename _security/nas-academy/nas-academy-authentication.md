@@ -1,18 +1,5 @@
 ---
 api_key_in: []
-api_specs:
-- filename: nas-academy-ai-discovery-api-openapi.yml
-  format: yaml
-  label: Nas.com (Nas Academy) AI discovery API
-  slug: nas-academy-ai-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/openapi/nas-academy-ai-discovery-api-openapi.yml
-- filename: nas-academy-developer-discovery-api-openapi.yml
-  format: yaml
-  label: Nas.com (Nas Academy) Developer discovery API
-  slug: nas-academy-developer-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/openapi/nas-academy-developer-discovery-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -24,8 +11,8 @@ name: Nas Academy Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
-overview: Nas.com (Nas Academy) secures its APIs with none and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
-provider_name: Nas.com (Nas Academy)
+overview: Nas Academy secures its APIs with none and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+provider_name: Nas Academy
 provider_slug: nas-academy
 scheme_count: 2
 schemes:
@@ -62,12 +49,4 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nas-academy/re
 summary_line: none/oauth2 · 2 schemes
 tags:
 - Company
-- Creator Economy
-- Community
-- E-commerce
-- AI
-- Agents
-- MCP
-- Online Courses
-- Sellers
 ---

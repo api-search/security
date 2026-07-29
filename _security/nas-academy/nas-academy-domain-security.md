@@ -1,17 +1,4 @@
 ---
-api_specs:
-- filename: nas-academy-ai-discovery-api-openapi.yml
-  format: yaml
-  label: Nas.com (Nas Academy) AI discovery API
-  slug: nas-academy-ai-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/openapi/nas-academy-ai-discovery-api-openapi.yml
-- filename: nas-academy-developer-discovery-api-openapi.yml
-  format: yaml
-  label: Nas.com (Nas Academy) Developer discovery API
-  slug: nas-academy-developer-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/openapi/nas-academy-developer-discovery-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -32,8 +19,8 @@ layout: security
 method: probed
 name: Nas Academy Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Nas.com (Nas Academy), probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Nas.com (Nas Academy)
+overview: 'Domain security posture for Nas Academy, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Nas Academy
 provider_slug: nas-academy
 slug: nas-academy-domain-security
 source_filename: nas-academy-domain-security.yml
@@ -44,12 +31,4 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nas-academy/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Creator Economy
-- Community
-- E-commerce
-- AI
-- Agents
-- MCP
-- Online Courses
-- Sellers
 ---

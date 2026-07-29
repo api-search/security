@@ -62,15 +62,4 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superset/refs/
 summary_line: oauth2/openIdConnect/apiKey · 3 schemes
 tags:
 - Company
-- Developer Tools
-- AI Agents
-- Code Editor
-- IDE
-- Coding Agents
-- MCP
-- CLI
-- SDK
-- Git Worktrees
-- Automation
-- Y Combinator
 ---

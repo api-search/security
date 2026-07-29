@@ -13,24 +13,6 @@ api_specs:
   slug: webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/asyncapi/razorpay-webhooks-asyncapi.yml
-- filename: razorpay-orders-api-openapi.yml
-  format: yaml
-  label: Razorpay Orders API
-  slug: razorpay-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/openapi/razorpay-orders-api-openapi.yml
-- filename: razorpay-payments-api-openapi.yml
-  format: yaml
-  label: Razorpay Payments API
-  slug: razorpay-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/openapi/razorpay-payments-api-openapi.yml
-- filename: razorpay-refunds-api-openapi.yml
-  format: yaml
-  label: Razorpay Refunds API
-  slug: razorpay-refunds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/openapi/razorpay-refunds-api-openapi.yml
 auth_types:
 - http
 description: ''

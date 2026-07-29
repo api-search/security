@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: novita-ai-openai-api-openapi.yml
-  format: yaml
-  label: Novita AI Openai API
-  slug: novita-ai-openai-api
+- filename: novita-ai-openapi.json
+  format: json
+  label: Novita AI Platform API
+  slug: platform
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novita-ai/refs/heads/main/openapi/novita-ai-openai-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/novita-ai/refs/heads/main/openapi/novita-ai-openapi.json
 description: ''
 domains:
 - caa: []

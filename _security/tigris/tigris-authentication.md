@@ -34,11 +34,4 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tigris/refs/he
 summary_line: apiKey/awsSignatureV4 · 1 scheme
 tags:
 - Company
-- Object Storage
-- Cloud Storage
-- S3 Compatible
-- Storage
-- AI Infrastructure
-- Agents
-- Data Infrastructure
 ---

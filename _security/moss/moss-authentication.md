@@ -38,13 +38,4 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moss/refs/head
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- Semantic Search
-- Vector Search
-- Retrieval
-- AI Agents
-- Voice AI
-- Embeddings
-- RAG
-- Developer Tools
-- On-Device AI
 ---

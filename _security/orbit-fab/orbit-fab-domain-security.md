@@ -31,12 +31,4 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orbit-fab/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Space
-- Aerospace
-- Satellite
-- Refueling
-- Space Logistics
-- In-Space Servicing
-- Propellant
-- Hardware
 ---

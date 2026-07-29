@@ -37,12 +37,4 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/makerme/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- Website Builder
-- No-Code
-- Content Generation
-- Design
-- Ecommerce
-- MCP
-- Agents
 ---

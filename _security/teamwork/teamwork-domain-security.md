@@ -1,23 +1,11 @@
 ---
 api_specs:
-- filename: teamwork-activity-api-openapi.yml
+- filename: download
   format: yaml
-  label: Teamwork.com Activity API
-  slug: teamwork-activity-api
+  label: Teamwork.com Projects API v3
+  slug: projects-api-v3
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/openapi/teamwork-activity-api-openapi.yml
-- filename: teamwork-projects-api-openapi.yml
-  format: yaml
-  label: Teamwork.com Projects API
-  slug: teamwork-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/openapi/teamwork-projects-api-openapi.yml
-- filename: teamwork-tasks-api-openapi.yml
-  format: yaml
-  label: Teamwork.com Tasks API
-  slug: teamwork-tasks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/openapi/teamwork-tasks-api-openapi.yml
+  url: https://apidocs.teamwork.com/api/oas/download?slug=teamwork&api_version=v3
 description: ''
 domains:
 - caa:

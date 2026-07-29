@@ -57,12 +57,4 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/makerme/refs/h
 summary_line: 2 schemes
 tags:
 - Company
-- AI
-- Website Builder
-- No-Code
-- Content Generation
-- Design
-- Ecommerce
-- MCP
-- Agents
 ---

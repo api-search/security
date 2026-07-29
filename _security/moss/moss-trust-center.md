@@ -19,14 +19,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moss/refs/head
 summary_line: SOC 2, HIPAA
 tags:
 - Company
-- Semantic Search
-- Vector Search
-- Retrieval
-- AI Agents
-- Voice AI
-- Embeddings
-- RAG
-- Developer Tools
-- On-Device AI
 trust_url: https://trust.moss.dev/
 ---

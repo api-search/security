@@ -1,30 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: forter-accounts-api-openapi.yml
+- filename: forter-openapi.yml
   format: yaml
-  label: Forter Accounts API
-  slug: forter-accounts-api
+  label: Forter Order Decision API
+  slug: forter-order-decision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/openapi/forter-accounts-api-openapi.yml
-- filename: forter-data-privacy-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/openapi/forter-openapi.yml
+- filename: forter-openapi.yml
+  format: yaml
+  label: Forter Account Protection API
+  slug: forter-account-protection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/openapi/forter-openapi.yml
+- filename: forter-openapi.yml
+  format: yaml
+  label: Forter Chargeback and Compensation API
+  slug: forter-chargeback-compensation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/openapi/forter-openapi.yml
+- filename: forter-openapi.yml
   format: yaml
   label: Forter Data Privacy API
   slug: forter-data-privacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/openapi/forter-data-privacy-api-openapi.yml
-- filename: forter-disputes-api-openapi.yml
-  format: yaml
-  label: Forter Disputes API
-  slug: forter-disputes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/openapi/forter-disputes-api-openapi.yml
-- filename: forter-orders-api-openapi.yml
-  format: yaml
-  label: Forter Orders API
-  slug: forter-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/openapi/forter-orders-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/openapi/forter-openapi.yml
 auth_types:
 - http
 description: ''
