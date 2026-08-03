@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: nas-academy-ai-discovery-api-openapi.yml
+  format: yaml
+  label: Nas Academy AI discovery API
+  slug: nas-academy-ai-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/openapi/nas-academy-ai-discovery-api-openapi.yml
+- filename: nas-academy-developer-discovery-api-openapi.yml
+  format: yaml
+  label: Nas Academy Developer discovery API
+  slug: nas-academy-developer-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/openapi/nas-academy-developer-discovery-api-openapi.yml
 description: ''
 domains:
 - caa: []

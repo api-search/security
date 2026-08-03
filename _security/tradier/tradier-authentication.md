@@ -1,18 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tradier-openapi.yml
-  format: yaml
-  label: Tradier Brokerage API
-  slug: brokerage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/openapi/tradier-openapi.yml
 - filename: tradier-asyncapi.yml
   format: yaml
   label: Tradier Streaming API
   slug: streaming-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/asyncapi/tradier-asyncapi.yml
+- filename: tradier-openapi.yml
+  format: yaml
+  label: Tradier Brokerage API
+  slug: tradier-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/openapi/tradier-openapi.yml
 auth_types:
 - http
 - oauth2

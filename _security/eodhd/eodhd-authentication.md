@@ -2,12 +2,6 @@
 api_key_in:
 - query
 api_specs:
-- filename: eodhd-financial-data-openapi.yml
-  format: yaml
-  label: EODHD Financial Data API
-  slug: financial-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/openapi/eodhd-financial-data-openapi.yml
 - filename: eodhd-websockets-asyncapi.yml
   format: yaml
   label: EODHD WebSockets Real-Time API
@@ -20,6 +14,12 @@ api_specs:
   slug: eodhd-eod-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/openapi/eodhd-eod-api-openapi.yml
+- filename: eodhd-financial-data-openapi.yml
+  format: yaml
+  label: EODHD Financial Data API
+  slug: eodhd-financial-data-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/openapi/eodhd-financial-data-openapi.yml
 auth_types:
 - apiKey
 - oauth2

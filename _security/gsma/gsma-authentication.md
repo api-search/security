@@ -9,104 +9,104 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-mobile-money-api-openapi.yml
 - filename: gsma-open-gateway-call-forwarding-signal-openapi.yml
   format: yaml
-  label: GSMA Open Gateway Call Forwarding Signal API
-  slug: gsma-open-gateway-call-forwarding-signal
+  label: GSMA Call Forwarding Signal
+  slug: gsma-open-gateway-call-forwarding-signal-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-open-gateway-call-forwarding-signal-openapi.yml
 - filename: gsma-open-gateway-carrier-billing-openapi.yml
   format: yaml
-  label: GSMA Open Gateway Carrier Billing API
-  slug: gsma-open-gateway-carrier-billing
+  label: GSMA Carrier Billing
+  slug: gsma-open-gateway-carrier-billing-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-open-gateway-carrier-billing-openapi.yml
 - filename: gsma-open-gateway-carrier-billing-refund-openapi.yml
   format: yaml
-  label: GSMA Open Gateway Carrier Billing Refund API
-  slug: gsma-open-gateway-carrier-billing-refund
+  label: GSMA Carrier Billing Refund
+  slug: gsma-open-gateway-carrier-billing-refund-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-open-gateway-carrier-billing-refund-openapi.yml
 - filename: gsma-open-gateway-device-identifier-openapi.yml
   format: yaml
-  label: GSMA Open Gateway Mobile Device Identifier API
-  slug: gsma-open-gateway-device-identifier
+  label: GSMA CAMARA Mobile Device Identifier
+  slug: gsma-open-gateway-device-identifier-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-open-gateway-device-identifier-openapi.yml
 - filename: gsma-open-gateway-device-location-retrieval-openapi.yml
   format: yaml
-  label: GSMA Open Gateway Device Location Retrieval API
-  slug: gsma-open-gateway-device-location-retrieval
+  label: GSMA Device Location Retrieval
+  slug: gsma-open-gateway-device-location-retrieval-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-open-gateway-device-location-retrieval-openapi.yml
 - filename: gsma-open-gateway-device-location-verification-openapi.yml
   format: yaml
-  label: GSMA Open Gateway Device Location Verification API
-  slug: gsma-open-gateway-device-location-verification
+  label: GSMA Device Location Verification
+  slug: gsma-open-gateway-device-location-verification-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-open-gateway-device-location-verification-openapi.yml
 - filename: gsma-open-gateway-device-reachability-status-openapi.yml
   format: yaml
-  label: GSMA Open Gateway Device Reachability Status API
-  slug: gsma-open-gateway-device-reachability-status
+  label: GSMA Device Reachability Status
+  slug: gsma-open-gateway-device-reachability-status-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-open-gateway-device-reachability-status-openapi.yml
 - filename: gsma-open-gateway-device-roaming-status-openapi.yml
   format: yaml
-  label: GSMA Open Gateway Device Roaming Status API
-  slug: gsma-open-gateway-device-roaming-status
+  label: GSMA Device Roaming Status
+  slug: gsma-open-gateway-device-roaming-status-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-open-gateway-device-roaming-status-openapi.yml
 - filename: gsma-open-gateway-device-swap-openapi.yml
   format: yaml
-  label: GSMA Open Gateway Device Swap API
-  slug: gsma-open-gateway-device-swap
+  label: GSMA Device Swap
+  slug: gsma-open-gateway-device-swap-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-open-gateway-device-swap-openapi.yml
 - filename: gsma-open-gateway-home-devices-quality-on-demand-openapi.yml
   format: yaml
-  label: GSMA Open Gateway Home Devices QoD API
-  slug: gsma-open-gateway-home-devices-quality-on-demand
+  label: GSMA Home Devices QoD
+  slug: gsma-open-gateway-home-devices-quality-on-demand-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-open-gateway-home-devices-quality-on-demand-openapi.yml
 - filename: gsma-open-gateway-know-your-customer-openapi.yml
   format: yaml
-  label: GSMA Open Gateway Know Your Customer Match API
-  slug: gsma-open-gateway-know-your-customer
+  label: GSMA Know Your Customer Match
+  slug: gsma-open-gateway-know-your-customer-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-open-gateway-know-your-customer-openapi.yml
 - filename: gsma-open-gateway-number-verification-openapi.yml
   format: yaml
-  label: GSMA Open Gateway Number Verification API
-  slug: gsma-open-gateway-number-verification
+  label: GSMA Number Verification
+  slug: gsma-open-gateway-number-verification-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-open-gateway-number-verification-openapi.yml
 - filename: gsma-open-gateway-otp-validation-openapi.yml
   format: yaml
-  label: GSMA Open Gateway One Time Password SMS API
-  slug: gsma-open-gateway-otp-validation
+  label: GSMA One Time Password SMS
+  slug: gsma-open-gateway-otp-validation-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-open-gateway-otp-validation-openapi.yml
 - filename: gsma-open-gateway-population-density-data-openapi.yml
   format: yaml
-  label: GSMA Open Gateway Population Density Data API
-  slug: gsma-open-gateway-population-density-data
+  label: GSMA Population Density Data
+  slug: gsma-open-gateway-population-density-data-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-open-gateway-population-density-data-openapi.yml
 - filename: gsma-open-gateway-quality-on-demand-openapi.yml
   format: yaml
-  label: GSMA Open Gateway Quality On Demand API
-  slug: gsma-open-gateway-quality-on-demand
+  label: GSMA Quality-On-Demand
+  slug: gsma-open-gateway-quality-on-demand-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-open-gateway-quality-on-demand-openapi.yml
 - filename: gsma-open-gateway-sim-swap-openapi.yml
   format: yaml
-  label: GSMA Open Gateway SIM Swap API
-  slug: gsma-open-gateway-sim-swap
+  label: GSMA SIM Swap
+  slug: gsma-open-gateway-sim-swap-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-open-gateway-sim-swap-openapi.yml
 - filename: gsma-open-gateway-simple-edge-discovery-openapi.yml
   format: yaml
-  label: GSMA Open Gateway Simple Edge Discovery API
-  slug: gsma-open-gateway-simple-edge-discovery
+  label: GSMA Simple Edge Discovery
+  slug: gsma-open-gateway-simple-edge-discovery-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-open-gateway-simple-edge-discovery-openapi.yml
 auth_types:

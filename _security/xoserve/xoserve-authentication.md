@@ -17,14 +17,14 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/openapi/xoserve-supplier-api-openapi.yml
 - filename: xoserve-meter-asset-api-v1-openapi.yml
   format: yaml
-  label: Xoserve Meter Asset API v1
-  slug: xoserve-meter-asset-api-v1
+  label: Xoserve Meter Asset (Xoserve Meter Asset Api V1)
+  slug: xoserve-meter-asset-api-v1-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/openapi/xoserve-meter-asset-api-v1-openapi.yml
 - filename: xoserve-meter-asset-api-v2-openapi.yml
   format: yaml
-  label: Xoserve Meter Asset API v2
-  slug: xoserve-meter-asset-api-v2
+  label: Xoserve Meter Asset (Xoserve Meter Asset Api V2)
+  slug: xoserve-meter-asset-api-v2-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/openapi/xoserve-meter-asset-api-v2-openapi.yml
 auth_types:

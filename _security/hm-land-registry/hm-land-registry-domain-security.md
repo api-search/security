@@ -1,47 +1,71 @@
 ---
 api_specs:
-- filename: hm-land-registry-use-land-property-data-openapi.yml
-  format: yaml
-  label: Use Land and Property Data API
-  slug: use-land-and-property-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-use-land-property-data-openapi.yml
-- filename: hm-land-registry-submit-application-to-change-the-register-v1.0-openapi.json
-  format: json
-  label: Business Gateway Submit an Application to Change the Land Register API
-  slug: business-gateway-submit-an-application-to-change-the-register-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-submit-application-to-change-the-register-v1.0-openapi.json
-- filename: hm-land-registry-official-search-of-whole-with-data-openapi.yml
-  format: yaml
-  label: Business Gateway Official Search of Whole (with Priority) with Data API
-  slug: business-gateway-official-search-of-whole-with-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-official-search-of-whole-with-data-openapi.yml
-- filename: hm-land-registry-official-copy-document-availability-v2-openapi.json
-  format: json
-  label: Business Gateway Official Copy Document Availability Service
-  slug: business-gateway-official-copy-document-availability-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-official-copy-document-availability-v2-openapi.json
-- filename: hm-land-registry-registered-proprietor-names-openapi.json
-  format: json
-  label: Business Gateway Registered Proprietor Names Service
-  slug: business-gateway-registered-proprietor-names-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-registered-proprietor-names-openapi.json
-- filename: hm-land-registry-estimate-completion-date-openapi.yml
-  format: yaml
-  label: Business Gateway Estimate Completion Date API
-  slug: business-gateway-estimate-completion-date-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-estimate-completion-date-openapi.yml
 - filename: hm-land-registry-land-register-api-openapi.yml
   format: yaml
   label: Land Register API
   slug: land-register-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-land-register-api-openapi.yml
+- filename: hm-land-registry-estimate-completion-date-openapi.yml
+  format: yaml
+  label: HM Land Registry Estimate Completion Date API
+  slug: hm-land-registry-estimate-completion-date-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-estimate-completion-date-openapi.yml
+- filename: hm-land-registry-official-copy-document-availability-v1-customer-test-openapi.json
+  format: json
+  label: HM Land Registry HMLR Business Gateway (Hm Land Registry Official Copy Document Availability V1 Customer Test)
+  slug: hm-land-registry-official-copy-document-availability-v1-customer-test-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-official-copy-document-availability-v1-customer-test-openapi.json
+- filename: hm-land-registry-official-copy-document-availability-v1-openapi.json
+  format: json
+  label: HM Land Registry Official Copy Document Availability Service (Hm Land Registry Official Copy Document Availability V1)
+  slug: hm-land-registry-official-copy-document-availability-v1-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-official-copy-document-availability-v1-openapi.json
+- filename: hm-land-registry-official-copy-document-availability-v2-customer-test-openapi.json
+  format: json
+  label: HM Land Registry HMLR Business Gateway (Hm Land Registry Official Copy Document Availability V2 Customer Test)
+  slug: hm-land-registry-official-copy-document-availability-v2-customer-test-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-official-copy-document-availability-v2-customer-test-openapi.json
+- filename: hm-land-registry-official-copy-document-availability-v2-openapi.json
+  format: json
+  label: HM Land Registry Official Copy Document Availability Service (Hm Land Registry Official Copy Document Availability V2)
+  slug: hm-land-registry-official-copy-document-availability-v2-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-official-copy-document-availability-v2-openapi.json
+- filename: hm-land-registry-official-search-of-whole-with-data-openapi.yml
+  format: yaml
+  label: HM Land Registry Official Search of Whole with Data
+  slug: hm-land-registry-official-search-of-whole-with-data-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-official-search-of-whole-with-data-openapi.yml
+- filename: hm-land-registry-registered-proprietor-names-openapi.json
+  format: json
+  label: HM Land Registry Registered Proprietor Names Service
+  slug: hm-land-registry-registered-proprietor-names-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-registered-proprietor-names-openapi.json
+- filename: hm-land-registry-submit-application-to-change-the-register-v0.3-openapi.json
+  format: json
+  label: HM Land Registry V0.3 'Submit an application to change the Land Register API' Schema
+  slug: hm-land-registry-submit-application-to-change-the-register-v0-3-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-submit-application-to-change-the-register-v0.3-openapi.json
+- filename: hm-land-registry-submit-application-to-change-the-register-v1.0-openapi.json
+  format: json
+  label: HM Land Registry V1.0 'Submit an application to change the Land Register API' Schema
+  slug: hm-land-registry-submit-application-to-change-the-register-v1-0-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-submit-application-to-change-the-register-v1.0-openapi.json
+- filename: hm-land-registry-use-land-property-data-openapi.yml
+  format: yaml
+  label: HM Land Registry Use Land and Property Data API
+  slug: hm-land-registry-use-land-property-data-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-use-land-property-data-openapi.yml
 description: ''
 domains:
 - caa:

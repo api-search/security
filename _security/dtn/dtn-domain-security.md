@@ -216,6 +216,12 @@ api_specs:
   slug: radarscope-radar-products
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/openapi/dtn-radarscope-radar-products-openapi.json
+- filename: dtn-weather-conditions-openapi.yml
+  format: yaml
+  label: DTN Weather Conditions API
+  slug: dtn-weather-conditions-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/openapi/dtn-weather-conditions-openapi.yml
 description: ''
 domains:
 - caa: []

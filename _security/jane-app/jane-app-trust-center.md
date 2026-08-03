@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: jane-app-jdp-openapi.yml
+  format: yaml
+  label: Jane JDP API
+  slug: jane-app-jdp-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-jdp-openapi.yml
 certifications:
 - SOC 2
 - PCI DSS

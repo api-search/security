@@ -9,8 +9,8 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-green-button-api-openapi.yml
 - filename: green-button-alliance-authorization-server-openapi.yml
   format: yaml
-  label: OpenESPI Authorization Server API
-  slug: openespi-authorization-server-api
+  label: Green Button Alliance OpenESPI Authorization Server API
+  slug: green-button-alliance-authorization-server-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-authorization-server-openapi.yml
 auth_types:

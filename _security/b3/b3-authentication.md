@@ -224,6 +224,18 @@ api_specs:
   slug: b3-x402-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-x402-endpoints-api-openapi.yml
+- filename: b3-b3os-workflow-openapi.json
+  format: json
+  label: B3OS Workflow API
+  slug: b3-b3os-workflow-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-b3os-workflow-openapi.json
+- filename: b3-data-api-openapi.json
+  format: json
+  label: B3 Data API - Multi-Chain Data API
+  slug: b3-data-api-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-data-api-openapi.json
 auth_types:
 - apiKey
 - custom

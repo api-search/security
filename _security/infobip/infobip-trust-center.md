@@ -276,6 +276,12 @@ api_specs:
   slug: infobip-zalo
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-zalo-openapi.json
+- filename: infobip-platform-full-openapi.json
+  format: json
+  label: Infobip OpenAPI Specification
+  slug: infobip-platform-full-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-platform-full-openapi.json
 certifications:
 - ISO 9001
 - ISO 22301

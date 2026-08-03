@@ -205,6 +205,12 @@ api_specs:
   slug: worldpay-verifiedtokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/worldpay/refs/heads/main/openapi/worldpay-verifiedtokens-api-openapi.yml
+- filename: worldpay-events-openapi.yaml
+  format: yaml
+  label: Worldpay Events
+  slug: worldpay-events-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldpay/refs/heads/main/openapi/worldpay-events-openapi.yaml
 auth_types:
 - http
 description: ''

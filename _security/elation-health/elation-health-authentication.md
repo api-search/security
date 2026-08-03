@@ -97,6 +97,12 @@ api_specs:
   slug: import-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-elation-import-api.json
+- filename: elation-api-settings.json
+  format: json
+  label: Elation Health API Settings
+  slug: elation-api-settings
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-api-settings.json
 auth_types:
 - http
 - oauth2

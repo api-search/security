@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: commure-fhir-openapi.yml
+  format: yaml
+  label: Commure FHIR API
+  slug: commure-fhir-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/openapi/commure-fhir-openapi.yml
 certifications:
 - SOC 2 Type II
 - HIPAA
@@ -26,9 +33,11 @@ tags:
 - Ambient AI
 - Revenue Cycle Management
 - FHIR
+- SMART on FHIR
 - Interoperability
 - EHR
 - Remote Monitoring
 - Health System
+- Terminology Services
 trust_url: https://commure.com/trust-center
 ---

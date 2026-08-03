@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openprescribing-openapi.yml
+  format: yaml
+  label: OpenPrescribing API
+  slug: openprescribing-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-openapi.yml
 description: ''
 domains:
 - caa: []

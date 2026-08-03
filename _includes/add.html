@@ -271,10 +271,13 @@
       + (f.description ? '**Description:**\n\n' + f.description + '\n\n' : '')
       + (f.contact ? '**Submitted by:** ' + f.contact + '\n\n' : '')
       + '---\n_Submitted via the [APIs.io add form]({{ site.url }}/add/)._';
-    var href = 'https://github.com/api-search/network/issues/new'
+    // api-search/inbox is PUBLIC and exists for exactly this. Do not point this
+    // at api-search/network — that repo is private, so anyone following this
+    // link anonymously got a 404 and their submission went nowhere.
+    var href = 'https://github.com/api-search/inbox/issues/new'
       + '?title=' + encodeURIComponent(title)
       + '&body=' + encodeURIComponent(body)
-      + '&labels=' + encodeURIComponent('api-submission');
+      + '&labels=' + encodeURIComponent('request:add');
     $('add-issue-link').setAttribute('href', href);
     $('add-issue-link').setAttribute('target', '_blank');
     $('add-issue-link').setAttribute('rel', 'noopener');

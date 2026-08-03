@@ -4,30 +4,12 @@ api_key_in:
 - query
 - path
 api_specs:
-- filename: hometrack-valuation-api-v1-openapi.yml
-  format: yaml
-  label: Hometrack Valuation API
-  slug: hometrack-valuation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-valuation-api-v1-openapi.yml
 - filename: hometrack-broker-avm-api-openapi.yml
   format: yaml
   label: Hometrack Broker AVM API
   slug: hometrack-broker-avm-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-broker-avm-api-openapi.yml
-- filename: hometrack-prh-core-external-client-api-v2-openapi.yml
-  format: yaml
-  label: Hometrack PRH Core External Client API v2.0
-  slug: hometrack-prh-core-external-client-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-prh-core-external-client-api-v2-openapi.yml
-- filename: hometrack-climate-api-v2-openapi.yml
-  format: yaml
-  label: Hometrack Climate API (v2)
-  slug: hometrack-climate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-climate-api-v2-openapi.yml
 - filename: hometrack-climate-graphql-api-openapi.yml
   format: yaml
   label: Hometrack Climate GraphQL API
@@ -37,9 +19,27 @@ api_specs:
 - filename: hometrack-api-public-openapi.yml
   format: yaml
   label: Hometrack API Public
-  slug: hometrack-api-public
+  slug: hometrack-api-public-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-api-public-openapi.yml
+- filename: hometrack-climate-api-v2-openapi.yml
+  format: yaml
+  label: Hometrack Climate API (v2)
+  slug: hometrack-climate-api-v2-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-climate-api-v2-openapi.yml
+- filename: hometrack-prh-core-external-client-api-v2-openapi.yml
+  format: yaml
+  label: Hometrack (PRH) - Core External Client API v2.0
+  slug: hometrack-prh-core-external-client-api-v2-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-prh-core-external-client-api-v2-openapi.yml
+- filename: hometrack-valuation-api-v1-openapi.yml
+  format: yaml
+  label: Hometrack Valuation API
+  slug: hometrack-valuation-api-v1-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-valuation-api-v1-openapi.yml
 auth_types:
 - oauth2
 - apiKey

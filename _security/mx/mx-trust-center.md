@@ -8,8 +8,8 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mx/refs/heads/main/openapi/mx-platform-api-openapi.yml
 - filename: mx-consent-management-openapi.yml
   format: yaml
-  label: MX Consent Management API
-  slug: mx-consent-management-api
+  label: MX Consent Management V4 API
+  slug: mx-consent-management-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mx/refs/heads/main/openapi/mx-consent-management-openapi.yml
 certifications:

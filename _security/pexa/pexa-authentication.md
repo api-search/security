@@ -7,18 +7,6 @@ api_specs:
   slug: pexa-exchange-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-exchange-api-swagger.json
-- filename: pexa-projects-api-v4-openapi.yaml
-  format: yaml
-  label: PEXA Projects API
-  slug: pexa-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-projects-api-v4-openapi.yaml
-- filename: pexa-notification-service-openapi.yaml
-  format: yaml
-  label: PEXA Notification Service API
-  slug: pexa-notification-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-notification-service-openapi.yaml
 - filename: pexa-standalone-discharge-experience-api-openapi.yaml
   format: yaml
   label: PEXA Standalone Discharge Experience API
@@ -31,6 +19,18 @@ api_specs:
   slug: pexa-plus-marketplace-b2b-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-plus-marketplace-b2b-api-openapi.yaml
+- filename: pexa-notification-service-openapi.yaml
+  format: yaml
+  label: PEXA Notification Service [$]
+  slug: pexa-notification-service-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-notification-service-openapi.yaml
+- filename: pexa-projects-api-v4-openapi.yaml
+  format: yaml
+  label: PEXA Projects API
+  slug: pexa-projects-api-v4-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-projects-api-v4-openapi.yaml
 auth_types:
 - oauth2
 - mutualTLS

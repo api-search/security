@@ -1,6 +1,13 @@
 ---
 api_key_in:
 - header
+api_specs:
+- filename: rotessa-openapi.yml
+  format: yaml
+  label: Rotessa API
+  slug: rotessa-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/rotessa-openapi.yml
 auth_types:
 - apiKey
 description: ''

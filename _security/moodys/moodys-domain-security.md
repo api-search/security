@@ -6,6 +6,24 @@ api_specs:
   slug: data-buffet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-series-api-openapi.yml
+- filename: moodys-autocycle-api-swagger.json
+  format: json
+  label: Moody's Analytics AutoCycle API
+  slug: moodys-autocycle-api-swagger
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-autocycle-api-swagger.json
+- filename: moodys-municipal-api-swagger.json
+  format: json
+  label: Moody's Analytics Muni Loss Forecast API
+  slug: moodys-municipal-api-swagger
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-municipal-api-swagger.json
+- filename: moodys-scenario-studio-api-swagger.json
+  format: json
+  label: Moody's Scenario Studio Api
+  slug: moodys-scenario-studio-api-swagger
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-scenario-studio-api-swagger.json
 description: ''
 domains:
 - caa: []

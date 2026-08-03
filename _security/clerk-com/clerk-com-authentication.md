@@ -459,6 +459,12 @@ api_specs:
   slug: clerk-com-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/openapi/clerk-com-well-known-api-openapi.yml
+- filename: clerk-webhooks-openapi.yml
+  format: yaml
+  label: Clerk Webhook Events
+  slug: clerk-webhooks-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/openapi/clerk-webhooks-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: finnhub-swagger-original.json
-  format: json
-  label: Finnhub
-  slug: finnhub
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/openapi/finnhub-swagger-original.json
 - filename: finnhub-company-news-api-openapi.yml
   format: yaml
   label: Finnhub Company News API

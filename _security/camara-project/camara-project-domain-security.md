@@ -213,12 +213,15 @@ tags:
 - API Standards
 - CAMARA
 - GSMA
+- GSMA Open Gateway
 - Linux Foundation
 - Network APIs
 - Open API
 - Open Gateway
 - Open Source
+- OpenAPI
 - Standards
+- Standards Body
 - Telco
 - Telco API Alliance
 - Telecom

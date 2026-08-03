@@ -3,12 +3,6 @@ api_key_in:
 - cookie
 - header
 api_specs:
-- filename: artifact-hub-api-keys-api-openapi.yml
-  format: yaml
-  label: Artifact Hub API Keys API
-  slug: artifact-hub-api-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-api-keys-api-openapi.yml
 - filename: artifact-hub-organizations-api-openapi.yml
   format: yaml
   label: Artifact Hub Organizations API
@@ -51,6 +45,18 @@ api_specs:
   slug: artifact-hub-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-webhooks-api-openapi.yml
+- filename: artifact-hub-availability-checks-api-openapi.yml
+  format: yaml
+  label: Artifact Hub Availability checks API
+  slug: artifact-hub-availability-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-availability-checks-api-openapi.yml
+- filename: artifact-hub-integrations-api-openapi.yml
+  format: yaml
+  label: Artifact Hub Integrations API
+  slug: artifact-hub-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-integrations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

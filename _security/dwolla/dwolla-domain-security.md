@@ -108,6 +108,12 @@ api_specs:
   slug: dwolla-sandbox-simulations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-sandbox-simulations-openapi.yml
+- filename: dwolla-openapi.yml
+  format: yaml
+  label: Dwolla API
+  slug: dwolla-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-openapi.yml
 description: ''
 domains:
 - caa: []

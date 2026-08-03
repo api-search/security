@@ -30,6 +30,12 @@ api_specs:
   slug: databento-reference-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/openapi/databento-reference-api-openapi.yml
+- filename: databento-platform-openapi-official.json
+  format: json
+  label: Databento OpenAPI specification
+  slug: databento-platform-openapi-official
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/openapi/databento-platform-openapi-official.json
 description: ''
 domains:
 - caa: []

@@ -38,30 +38,30 @@ api_specs:
   slug: amberdata-spot-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-spot-openapi.yaml
-- filename: amberdata-market-openapi.yaml
-  format: yaml
-  label: Amberdata Market Data API
-  slug: amberdata-market-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-market-openapi.yaml
-- filename: amberdata-price-openapi.yaml
-  format: yaml
-  label: Amberdata Price API
-  slug: amberdata-price-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-price-openapi.yaml
-- filename: amberdata-metrics-openapi.yaml
-  format: yaml
-  label: Amberdata Market Metrics API
-  slug: amberdata-market-metrics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-metrics-openapi.yaml
 - filename: amberdata-arc-openapi.yaml
   format: yaml
-  label: Amberdata ARC API
-  slug: amberdata-arc-api
+  label: Amberdata Asset Reference & Classification API
+  slug: amberdata-arc-openapi
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-arc-openapi.yaml
+- filename: amberdata-market-openapi.yaml
+  format: yaml
+  label: Amberdata Market-api
+  slug: amberdata-market-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-market-openapi.yaml
+- filename: amberdata-metrics-openapi.yaml
+  format: yaml
+  label: Amberdata Market Metrics
+  slug: amberdata-metrics-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-metrics-openapi.yaml
+- filename: amberdata-price-openapi.yaml
+  format: yaml
+  label: Amberdata Pricing
+  slug: amberdata-price-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-price-openapi.yaml
 auth_types:
 - apiKey
 description: ''

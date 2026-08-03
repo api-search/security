@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: buywhere-openapi.yml
+- filename: buywhere-authentication-api-openapi.yml
   format: yaml
-  label: BuyWhere Product Catalog API
-  slug: product-catalog-api
+  label: BuyWhere Authentication API
+  slug: buywhere-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/openapi/buywhere-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/openapi/buywhere-authentication-api-openapi.yml
+- filename: buywhere-categories-api-openapi.yml
+  format: yaml
+  label: BuyWhere Categories API
+  slug: buywhere-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/openapi/buywhere-categories-api-openapi.yml
+- filename: buywhere-products-api-openapi.yml
+  format: yaml
+  label: BuyWhere Products API
+  slug: buywhere-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/openapi/buywhere-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -3,12 +3,6 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: us-dot-faa-airport-status-web-service-openapi.yml
-  format: yaml
-  label: FAA Airport Status Web Service (ASWS)
-  slug: faa-airport-status-web-service
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/openapi/us-dot-faa-airport-status-web-service-openapi.yml
 - filename: us-dot-faa-aeronautic-product-release-api-openapi.yml
   format: yaml
   label: FAA Aeronautic Product Release API (APRA)
@@ -33,6 +27,12 @@ api_specs:
   slug: its-jpo-ode-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/openapi/us-dot-its-jpo-ode-rest-api-openapi.yml
+- filename: us-dot-faa-airport-status-web-service-openapi.yml
+  format: yaml
+  label: U.S. Department of Transportation Airport Status Web Service
+  slug: us-dot-faa-airport-status-web-service-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/openapi/us-dot-faa-airport-status-web-service-openapi.yml
 auth_types:
 - none
 - apiKey

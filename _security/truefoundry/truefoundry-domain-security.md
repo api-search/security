@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: truefoundry-ai-gateway-openapi.yml
+- filename: truefoundry-audio-api-openapi.yml
   format: yaml
-  label: TrueFoundry AI Gateway API
-  slug: truefoundry-ai-gateway-api
+  label: TrueFoundry Audio API
+  slug: truefoundry-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-ai-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-audio-api-openapi.yml
+- filename: truefoundry-batches-api-openapi.yml
+  format: yaml
+  label: TrueFoundry Batches API
+  slug: truefoundry-batches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-batches-api-openapi.yml
+- filename: truefoundry-chat-api-openapi.yml
+  format: yaml
+  label: TrueFoundry Chat API
+  slug: truefoundry-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-chat-api-openapi.yml
+- filename: truefoundry-embeddings-api-openapi.yml
+  format: yaml
+  label: TrueFoundry Embeddings API
+  slug: truefoundry-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-embeddings-api-openapi.yml
+- filename: truefoundry-files-api-openapi.yml
+  format: yaml
+  label: TrueFoundry Files API
+  slug: truefoundry-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-files-api-openapi.yml
+- filename: truefoundry-images-api-openapi.yml
+  format: yaml
+  label: TrueFoundry Images API
+  slug: truefoundry-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-images-api-openapi.yml
+- filename: truefoundry-models-api-openapi.yml
+  format: yaml
+  label: TrueFoundry Models API
+  slug: truefoundry-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-models-api-openapi.yml
+- filename: truefoundry-moderations-api-openapi.yml
+  format: yaml
+  label: TrueFoundry Moderations API
+  slug: truefoundry-moderations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-moderations-api-openapi.yml
+- filename: truefoundry-rerank-api-openapi.yml
+  format: yaml
+  label: TrueFoundry Rerank API
+  slug: truefoundry-rerank-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-rerank-api-openapi.yml
 description: ''
 domains:
 - caa: []

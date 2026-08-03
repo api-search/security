@@ -66,6 +66,12 @@ api_specs:
   slug: barchart-weather-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-weather-api-openapi.yml
+- filename: barchart-ondemand-official-openapi.yml
+  format: yaml
+  label: Barchart OnDemand APIs
+  slug: barchart-ondemand-official-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-ondemand-official-openapi.yml
 description: ''
 domains:
 - caa:

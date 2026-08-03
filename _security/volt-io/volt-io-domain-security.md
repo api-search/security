@@ -6,6 +6,12 @@ api_specs:
   slug: volt-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/openapi/volt-io-accounts-openapi-original.yaml
+- filename: volt-io-accounts-common.yaml
+  format: yaml
+  label: Volt Global Api Accounts
+  slug: volt-io-accounts-common
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/openapi/volt-io-accounts-common.yaml
 description: ''
 domains:
 - caa: []
