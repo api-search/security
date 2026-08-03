@@ -1,29 +1,4 @@
 ---
-api_specs:
-- filename: cisco-clients-api-openapi.yml
-  format: yaml
-  label: Cisco Clients API
-  slug: cisco-clients-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/openapi/cisco-clients-api-openapi.yml
-- filename: cisco-devices-api-openapi.yml
-  format: yaml
-  label: Cisco Devices API
-  slug: cisco-devices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/openapi/cisco-devices-api-openapi.yml
-- filename: cisco-networks-api-openapi.yml
-  format: yaml
-  label: Cisco Networks API
-  slug: cisco-networks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/openapi/cisco-networks-api-openapi.yml
-- filename: cisco-organizations-api-openapi.yml
-  format: yaml
-  label: Cisco Organizations API
-  slug: cisco-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/openapi/cisco-organizations-api-openapi.yml
 description: ''
 domains:
 - caa:

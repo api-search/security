@@ -92,6 +92,7 @@ header:
         items:
           - { key: mcp, label: MCP Servers, url: 'https://apis.io/servers/' }
           - { key: a2a, label: A2A Agent Cards, url: 'https://apis.io/a2a/' }
+          - { key: ard, label: Agent Discovery, url: 'https://apis.io/ard/' }
           - { key: skills, label: Agent Skills, url: 'https://apis.io/agent-skills/' }
           - { key: rules, label: Spectral Rules, url: 'https://apis.io/rules/' }
           - { key: vocabularies, label: Vocabularies, url: 'https://apis.io/vocabularies/' }
@@ -160,6 +161,7 @@ footer:
         - { label: Arazzo Workflows, url: 'https://apis.io/arazzos/' }
         - { label: MCP Servers, url: 'https://apis.io/servers/' }
         - { label: A2A Agent Cards, url: 'https://apis.io/a2a/' }
+        - { label: Agent Discovery, url: 'https://apis.io/ard/' }
         - { label: Agent Skills, url: 'https://apis.io/agent-skills/' }
 
     - header: Signals
