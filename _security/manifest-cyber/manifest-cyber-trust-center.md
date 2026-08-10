@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: manifest-cyber-openapi.yml
+- filename: manifest-cyber-assets-api-openapi.yml
   format: yaml
-  label: Manifest Cyber API
-  slug: manifest-cyber-api
+  label: Manifest Cyber Assets API
+  slug: manifest-cyber-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/openapi/manifest-cyber-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/openapi/manifest-cyber-assets-api-openapi.yml
+- filename: manifest-cyber-organizations-api-openapi.yml
+  format: yaml
+  label: Manifest Cyber Organizations API
+  slug: manifest-cyber-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/openapi/manifest-cyber-organizations-api-openapi.yml
+- filename: manifest-cyber-products-api-openapi.yml
+  format: yaml
+  label: Manifest Cyber Products API
+  slug: manifest-cyber-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/openapi/manifest-cyber-products-api-openapi.yml
+- filename: manifest-cyber-sboms-api-openapi.yml
+  format: yaml
+  label: Manifest Cyber SBO Ms API
+  slug: manifest-cyber-sboms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/openapi/manifest-cyber-sboms-api-openapi.yml
+- filename: manifest-cyber-users-api-openapi.yml
+  format: yaml
+  label: Manifest Cyber Users API
+  slug: manifest-cyber-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/openapi/manifest-cyber-users-api-openapi.yml
+- filename: manifest-cyber-vulnerabilities-api-openapi.yml
+  format: yaml
+  label: Manifest Cyber Vulnerabilities API
+  slug: manifest-cyber-vulnerabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/openapi/manifest-cyber-vulnerabilities-api-openapi.yml
 certifications:
 - ISO 27001
 - FedRAMP

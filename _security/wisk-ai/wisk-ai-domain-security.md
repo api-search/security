@@ -5,25 +5,25 @@ api_specs:
   label: WISK Inventory & Items API
   slug: wisk-ai-inventory-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/openapi/wisk-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/openapi/_original/wisk-ai-openapi.yml
 - filename: wisk-ai-openapi.yml
   format: yaml
   label: WISK Venues API
   slug: wisk-ai-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/openapi/wisk-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/openapi/_original/wisk-ai-openapi.yml
 - filename: wisk-ai-openapi.yml
   format: yaml
   label: WISK Invoices API
   slug: wisk-ai-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/openapi/wisk-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/openapi/_original/wisk-ai-openapi.yml
 - filename: wisk-ai-openapi.yml
   format: yaml
   label: WISK POS Integration (Public Sales Upload) API
   slug: wisk-ai-pos-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/openapi/wisk-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/openapi/_original/wisk-ai-openapi.yml
 description: ''
 domains:
 - caa: []

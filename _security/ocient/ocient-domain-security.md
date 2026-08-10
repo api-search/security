@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: ocient-http-query-api-openapi-original.json
-  format: json
-  label: Ocient HTTP Query API
-  slug: http-query-api
+- filename: ocient-ocient-http-query-api-api-openapi.yml
+  format: yaml
+  label: Ocient Ocient HTTP Query API API
+  slug: ocient-ocient-http-query-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/openapi/ocient-http-query-api-openapi-original.json
-- filename: ocient-http-query-api-openapi-original.json
-  format: json
-  label: Ocient System Information REST Endpoints
-  slug: system-information-rest-endpoints
+  url: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/openapi/ocient-ocient-http-query-api-api-openapi.yml
+- filename: ocient-system-information-rest-endpoints-api-openapi.yml
+  format: yaml
+  label: Ocient System Information REST Endpoints API
+  slug: ocient-system-information-rest-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/openapi/ocient-http-query-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/openapi/ocient-system-information-rest-endpoints-api-openapi.yml
 description: ''
 domains:
 - caa: []

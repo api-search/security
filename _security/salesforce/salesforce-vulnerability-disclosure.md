@@ -5,7 +5,7 @@ api_specs:
   label: Salesforce REST API
   slug: salesforce-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/_original/salesforce-openapi.yml
 - filename: salesforce-soap-api-openapi.yml
   format: yaml
   label: Salesforce SOAP API

@@ -6,25 +6,25 @@ api_specs:
   label: Clear Capital ClearAVM / Valuation API
   slug: clearavm-valuation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/openapi/clear-capital-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/openapi/_original/clear-capital-openapi.yml
 - filename: clear-capital-openapi.yml
   format: yaml
   label: Clear Capital Property Data API
   slug: property-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/openapi/clear-capital-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/openapi/_original/clear-capital-openapi.yml
 - filename: clear-capital-openapi.yml
   format: yaml
   label: Clear Capital Comparables (Comps) API
   slug: comps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/openapi/clear-capital-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/openapi/_original/clear-capital-openapi.yml
 - filename: clear-capital-openapi.yml
   format: yaml
   label: Clear Capital Appraisal & Orders API
   slug: appraisal-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/openapi/clear-capital-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/openapi/_original/clear-capital-openapi.yml
 auth_types:
 - http
 description: ''

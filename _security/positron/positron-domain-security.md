@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: positron-inference-openapi.yml
+- filename: positron-access-tokens-api-openapi.yml
   format: yaml
-  label: Positron Olivaw OpenAI-Compatible Inference API
-  slug: positron-olivaw-openai-compatible-inference-api
+  label: Positron Access Tokens API
+  slug: positron-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/openapi/positron-inference-openapi.yml
-- filename: positron-admin-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/openapi/positron-access-tokens-api-openapi.yml
+- filename: positron-completion-api-openapi.yml
   format: yaml
-  label: Positron Olivaw Admin API
-  slug: positron-olivaw-admin-api
+  label: Positron Completion API
+  slug: positron-completion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/openapi/positron-admin-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/openapi/positron-completion-api-openapi.yml
+- filename: positron-models-api-openapi.yml
+  format: yaml
+  label: Positron Models API
+  slug: positron-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/openapi/positron-models-api-openapi.yml
+- filename: positron-service-nodes-api-openapi.yml
+  format: yaml
+  label: Positron Service Nodes API
+  slug: positron-service-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/openapi/positron-service-nodes-api-openapi.yml
+- filename: positron-users-api-openapi.yml
+  format: yaml
+  label: Positron Users API
+  slug: positron-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/openapi/positron-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

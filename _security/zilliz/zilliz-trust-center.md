@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: zilliz-cloud-providers-api-openapi.yml
+  format: yaml
+  label: Zilliz Cloud Providers API
+  slug: zilliz-cloud-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zilliz/refs/heads/main/openapi/zilliz-cloud-providers-api-openapi.yml
+- filename: zilliz-clusters-api-openapi.yml
+  format: yaml
+  label: Zilliz Clusters API
+  slug: zilliz-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zilliz/refs/heads/main/openapi/zilliz-clusters-api-openapi.yml
+- filename: zilliz-collections-api-openapi.yml
+  format: yaml
+  label: Zilliz Collections API
+  slug: zilliz-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zilliz/refs/heads/main/openapi/zilliz-collections-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

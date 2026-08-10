@@ -106,4 +106,8 @@ tags:
 - GraphQL
 - Management
 - Schema Registry
+- API Gateway
+- Observability
+- Agents
+- Developer Tools
 ---

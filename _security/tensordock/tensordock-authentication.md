@@ -1,12 +1,6 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tensordock-marketplace-api-openapi.yml
-  format: yaml
-  label: TensorDock Marketplace API
-  slug: tensordock-marketplace-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/openapi/tensordock-marketplace-api-openapi.yml
 - filename: tensordock-instances-api-openapi.yml
   format: yaml
   label: TensorDock Instances API
@@ -19,6 +13,48 @@ api_specs:
   slug: tensordock-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/openapi/tensordock-secrets-api-openapi.yml
+- filename: tensordock-authorization-api-openapi.yml
+  format: yaml
+  label: TensorDock Authorization API
+  slug: tensordock-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/openapi/tensordock-authorization-api-openapi.yml
+- filename: tensordock-billing-api-openapi.yml
+  format: yaml
+  label: TensorDock Billing API
+  slug: tensordock-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/openapi/tensordock-billing-api-openapi.yml
+- filename: tensordock-containers-api-openapi.yml
+  format: yaml
+  label: TensorDock Containers API
+  slug: tensordock-containers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/openapi/tensordock-containers-api-openapi.yml
+- filename: tensordock-hostnodes-api-openapi.yml
+  format: yaml
+  label: TensorDock Hostnodes API
+  slug: tensordock-hostnodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/openapi/tensordock-hostnodes-api-openapi.yml
+- filename: tensordock-instant-vms-api-openapi.yml
+  format: yaml
+  label: TensorDock Instant VMs API
+  slug: tensordock-instant-vms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/openapi/tensordock-instant-vms-api-openapi.yml
+- filename: tensordock-spot-api-openapi.yml
+  format: yaml
+  label: TensorDock Spot API
+  slug: tensordock-spot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/openapi/tensordock-spot-api-openapi.yml
+- filename: tensordock-virtual-machines-api-openapi.yml
+  format: yaml
+  label: TensorDock Virtual Machines API
+  slug: tensordock-virtual-machines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/openapi/tensordock-virtual-machines-api-openapi.yml
 auth_types:
 - http
 description: ''

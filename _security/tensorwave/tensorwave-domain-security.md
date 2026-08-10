@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: tensorwave-scalarlm-openapi.yml
+- filename: tensorwave-generate-api-openapi.yml
   format: yaml
-  label: ScalarLM API
-  slug: scalarlm
+  label: TensorWave Generate API
+  slug: tensorwave-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorwave/refs/heads/main/openapi/tensorwave-scalarlm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tensorwave/refs/heads/main/openapi/tensorwave-generate-api-openapi.yml
+- filename: tensorwave-health-api-openapi.yml
+  format: yaml
+  label: TensorWave Health API
+  slug: tensorwave-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensorwave/refs/heads/main/openapi/tensorwave-health-api-openapi.yml
+- filename: tensorwave-openai-api-openapi.yml
+  format: yaml
+  label: TensorWave Open AI API
+  slug: tensorwave-openai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensorwave/refs/heads/main/openapi/tensorwave-openai-api-openapi.yml
+- filename: tensorwave-slurm-api-openapi.yml
+  format: yaml
+  label: TensorWave Slurm API
+  slug: tensorwave-slurm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensorwave/refs/heads/main/openapi/tensorwave-slurm-api-openapi.yml
+- filename: tensorwave-training-api-openapi.yml
+  format: yaml
+  label: TensorWave Training API
+  slug: tensorwave-training-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensorwave/refs/heads/main/openapi/tensorwave-training-api-openapi.yml
 description: ''
 domains:
 - caa: []

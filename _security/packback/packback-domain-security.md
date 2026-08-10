@@ -5,19 +5,19 @@ api_specs:
   label: Packback Questions / Discussions
   slug: questions-discussions
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packback/refs/heads/main/openapi/packback-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/packback/refs/heads/main/openapi/_original/packback-openapi.yml
 - filename: packback-openapi.yml
   format: yaml
   label: Packback Writing / Deep Dives
   slug: writing-deep-dives
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packback/refs/heads/main/openapi/packback-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/packback/refs/heads/main/openapi/_original/packback-openapi.yml
 - filename: packback-openapi.yml
   format: yaml
   label: Packback LTI Integration
   slug: lti-integration
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packback/refs/heads/main/openapi/packback-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/packback/refs/heads/main/openapi/_original/packback-openapi.yml
 description: ''
 domains:
 - caa: []

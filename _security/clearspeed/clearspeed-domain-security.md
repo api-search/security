@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: clearspeed-integration-api-openapi.yml
+- filename: clearspeed-default-api-openapi.yml
   format: yaml
-  label: Clearspeed Integration API
-  slug: integration-api
+  label: Clearspeed Default API
+  slug: clearspeed-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearspeed/refs/heads/main/openapi/clearspeed-integration-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clearspeed/refs/heads/main/openapi/clearspeed-default-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -7,13 +7,13 @@ api_specs:
   label: Tock Reservation API
   slug: reservation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tock/refs/heads/main/openapi/tock-reservation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tock/refs/heads/main/openapi/_original/tock-reservation-openapi.yml
 - filename: tock-guest-profile-openapi.yml
   format: yaml
   label: Tock Guest API
   slug: guest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tock/refs/heads/main/openapi/tock-guest-profile-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tock/refs/heads/main/openapi/_original/tock-guest-profile-openapi.yml
 auth_types:
 - apiKey
 description: ''

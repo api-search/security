@@ -1,11 +1,107 @@
 ---
 api_specs:
-- filename: abnormal-client-api-openapi-original.yml
+- filename: abnormal-ai-security-mailbox-formerly-known-as-abuse-mailbox-api-openapi.yml
   format: yaml
-  label: Abnormal Security Client API
-  slug: client-api
+  label: Abnormal AI AI Security Mailbox (formerly known as Abuse Mailbox) API
+  slug: abnormal-ai-security-mailbox-formerly-known-as-abuse-mailbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/openapi/abnormal-client-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/openapi/abnormal-ai-security-mailbox-formerly-known-as-abuse-mailbox-api-openapi.yml
+- filename: abnormal-audit-logs-api-openapi.yml
+  format: yaml
+  label: Abnormal AI Audit Logs API
+  slug: abnormal-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/openapi/abnormal-audit-logs-api-openapi.yml
+- filename: abnormal-cases-api-openapi.yml
+  format: yaml
+  label: Abnormal AI Cases API
+  slug: abnormal-cases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/openapi/abnormal-cases-api-openapi.yml
+- filename: abnormal-dashboard-aggregations-api-openapi.yml
+  format: yaml
+  label: Abnormal AI Dashboard Aggregations API
+  slug: abnormal-dashboard-aggregations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/openapi/abnormal-dashboard-aggregations-api-openapi.yml
+- filename: abnormal-detection360-api-openapi.yml
+  format: yaml
+  label: Abnormal AI Detection360 API
+  slug: abnormal-detection360-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/openapi/abnormal-detection360-api-openapi.yml
+- filename: abnormal-employee-insights-api-openapi.yml
+  format: yaml
+  label: Abnormal AI Employee Insights API
+  slug: abnormal-employee-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/openapi/abnormal-employee-insights-api-openapi.yml
+- filename: abnormal-messages-api-openapi.yml
+  format: yaml
+  label: Abnormal AI Messages API
+  slug: abnormal-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/openapi/abnormal-messages-api-openapi.yml
+- filename: abnormal-resources-api-openapi.yml
+  format: yaml
+  label: Abnormal AI Resources API
+  slug: abnormal-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/openapi/abnormal-resources-api-openapi.yml
+- filename: abnormal-roles-api-openapi.yml
+  format: yaml
+  label: Abnormal AI Roles API
+  slug: abnormal-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/openapi/abnormal-roles-api-openapi.yml
+- filename: abnormal-search-and-respond-api-openapi.yml
+  format: yaml
+  label: Abnormal AI Search and Respond API
+  slug: abnormal-search-and-respond-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/openapi/abnormal-search-and-respond-api-openapi.yml
+- filename: abnormal-security-settings-api-openapi.yml
+  format: yaml
+  label: Abnormal AI Security Settings API
+  slug: abnormal-security-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/openapi/abnormal-security-settings-api-openapi.yml
+- filename: abnormal-spm-api-openapi.yml
+  format: yaml
+  label: Abnormal AI SPM API
+  slug: abnormal-spm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/openapi/abnormal-spm-api-openapi.yml
+- filename: abnormal-threats-api-openapi.yml
+  format: yaml
+  label: Abnormal AI Threats API
+  slug: abnormal-threats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/openapi/abnormal-threats-api-openapi.yml
+- filename: abnormal-tokens-api-openapi.yml
+  format: yaml
+  label: Abnormal AI Tokens API
+  slug: abnormal-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/openapi/abnormal-tokens-api-openapi.yml
+- filename: abnormal-url-rewrite-api-openapi.yml
+  format: yaml
+  label: Abnormal AI URL Rewrite API
+  slug: abnormal-url-rewrite-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/openapi/abnormal-url-rewrite-api-openapi.yml
+- filename: abnormal-users-api-openapi.yml
+  format: yaml
+  label: Abnormal AI Users API
+  slug: abnormal-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/openapi/abnormal-users-api-openapi.yml
+- filename: abnormal-vendors-api-openapi.yml
+  format: yaml
+  label: Abnormal AI Vendors API
+  slug: abnormal-vendors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/openapi/abnormal-vendors-api-openapi.yml
 certifications:
 - SOC 2
 - ISO/IEC 27001

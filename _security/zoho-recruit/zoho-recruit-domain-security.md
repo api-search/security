@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: zoho-recruit-openapi.yml
+- filename: zoho-recruit-candidates-api-openapi.yml
   format: yaml
-  label: Zoho Recruit REST API v2
-  slug: rest-api-v2
+  label: Zoho Recruit Candidates API
+  slug: zoho-recruit-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-recruit/refs/heads/main/openapi/zoho-recruit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-recruit/refs/heads/main/openapi/zoho-recruit-candidates-api-openapi.yml
+- filename: zoho-recruit-job-openings-api-openapi.yml
+  format: yaml
+  label: Zoho Recruit Job Openings API
+  slug: zoho-recruit-job-openings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-recruit/refs/heads/main/openapi/zoho-recruit-job-openings-api-openapi.yml
+- filename: zoho-recruit-zoho-recruit-api-api-openapi.yml
+  format: yaml
+  label: Zoho Recruit Zoho Recruit API API
+  slug: zoho-recruit-zoho-recruit-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-recruit/refs/heads/main/openapi/zoho-recruit-zoho-recruit-api-api-openapi.yml
 description: ''
 domains:
 - caa:

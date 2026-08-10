@@ -2,18 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: shopback-online-payments-openapi.yml
+- filename: shopback-account-linking-api-openapi.yml
   format: yaml
-  label: ShopBack Online Payments API
-  slug: shopback-online-payments-api
+  label: ShopBack Account Linking API
+  slug: shopback-account-linking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/openapi/shopback-online-payments-openapi.yml
-- filename: shopback-in-store-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/openapi/shopback-account-linking-api-openapi.yml
+- filename: shopback-authentication-api-openapi.yml
   format: yaml
-  label: ShopBack In-Store Payments API
-  slug: shopback-in-store-payments-api
+  label: ShopBack Authentication API
+  slug: shopback-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/openapi/shopback-in-store-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/openapi/shopback-authentication-api-openapi.yml
+- filename: shopback-notification-api-openapi.yml
+  format: yaml
+  label: ShopBack Notification API
+  slug: shopback-notification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/openapi/shopback-notification-api-openapi.yml
+- filename: shopback-orders-api-openapi.yml
+  format: yaml
+  label: ShopBack Orders API
+  slug: shopback-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/openapi/shopback-orders-api-openapi.yml
+- filename: shopback-pre-auth-api-openapi.yml
+  format: yaml
+  label: ShopBack Pre Auth API
+  slug: shopback-pre-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/openapi/shopback-pre-auth-api-openapi.yml
 auth_types:
 - http
 - hmac

@@ -5,31 +5,31 @@ api_specs:
   label: Found Banking
   slug: found-banking
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/found-business/refs/heads/main/openapi/found-business-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/found-business/refs/heads/main/openapi/_original/found-business-openapi.yml
 - filename: found-business-openapi.yml
   format: yaml
   label: Found Bookkeeping
   slug: found-bookkeeping
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/found-business/refs/heads/main/openapi/found-business-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/found-business/refs/heads/main/openapi/_original/found-business-openapi.yml
 - filename: found-business-openapi.yml
   format: yaml
   label: Found Taxes
   slug: found-taxes
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/found-business/refs/heads/main/openapi/found-business-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/found-business/refs/heads/main/openapi/_original/found-business-openapi.yml
 - filename: found-business-openapi.yml
   format: yaml
   label: Found Invoicing
   slug: found-invoicing
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/found-business/refs/heads/main/openapi/found-business-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/found-business/refs/heads/main/openapi/_original/found-business-openapi.yml
 - filename: found-business-openapi.yml
   format: yaml
   label: Found Contractor Management
   slug: found-contractors
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/found-business/refs/heads/main/openapi/found-business-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/found-business/refs/heads/main/openapi/_original/found-business-openapi.yml
 description: ''
 domains:
 - caa:

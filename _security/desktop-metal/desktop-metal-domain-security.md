@@ -5,19 +5,19 @@ api_specs:
   label: Printer Fleet & Live Suite
   slug: printer-fleet-live-suite
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/desktop-metal/refs/heads/main/openapi/desktop-metal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/desktop-metal/refs/heads/main/openapi/_original/desktop-metal-openapi.yml
 - filename: desktop-metal-openapi.yml
   format: yaml
   label: Fabricate Software
   slug: fabricate-software
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/desktop-metal/refs/heads/main/openapi/desktop-metal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/desktop-metal/refs/heads/main/openapi/_original/desktop-metal-openapi.yml
 - filename: desktop-metal-openapi.yml
   format: yaml
   label: Materials
   slug: materials
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/desktop-metal/refs/heads/main/openapi/desktop-metal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/desktop-metal/refs/heads/main/openapi/_original/desktop-metal-openapi.yml
 description: ''
 domains:
 - caa: []

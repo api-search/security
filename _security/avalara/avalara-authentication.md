@@ -397,6 +397,18 @@ api_specs:
   slug: avalara-w-9-forms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-w-9-forms-api-openapi.yml
+- filename: avalara-age-verification-api-openapi.yml
+  format: yaml
+  label: Avalara Age Verification API
+  slug: avalara-age-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-age-verification-api-openapi.yml
+- filename: avalara-shipping-verification-api-openapi.yml
+  format: yaml
+  label: Avalara Shipping Verification API
+  slug: avalara-shipping-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-shipping-verification-api-openapi.yml
 auth_types:
 - http
 - oauth2

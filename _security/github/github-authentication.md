@@ -139,12 +139,6 @@ api_specs:
   slug: github-reactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-reactions-api-openapi.yml
-- filename: github-deploy-keys-api-openapi.yml
-  format: yaml
-  label: GitHub Deploy Keys API
-  slug: github-deploy-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-deploy-keys-api-openapi.yml
 - filename: github-dependency-graph-api-openapi.yml
   format: yaml
   label: GitHub Dependency Graph API
@@ -157,12 +151,6 @@ api_specs:
   slug: github-about-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-about-api-openapi.yml
-- filename: github-accept-api-openapi.yml
-  format: yaml
-  label: GitHub Accept API
-  slug: github-accept-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-accept-api-openapi.yml
 - filename: github-access-api-openapi.yml
   format: yaml
   label: GitHub Access API
@@ -175,18 +163,6 @@ api_specs:
   slug: github-accessible-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-accessible-api-openapi.yml
-- filename: github-account-api-openapi.yml
-  format: yaml
-  label: GitHub Account API
-  slug: github-account-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-account-api-openapi.yml
-- filename: github-accounts-api-openapi.yml
-  format: yaml
-  label: GitHub Accounts API
-  slug: github-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-accounts-api-openapi.yml
 - filename: github-actions-api-openapi.yml
   format: yaml
   label: GitHub Actions API
@@ -211,30 +187,12 @@ api_specs:
   slug: github-add-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-add-api-openapi.yml
-- filename: github-address-api-openapi.yml
-  format: yaml
-  label: GitHub Address API
-  slug: github-address-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-address-api-openapi.yml
-- filename: github-addresses-api-openapi.yml
-  format: yaml
-  label: GitHub Addresses API
-  slug: github-addresses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-addresses-api-openapi.yml
 - filename: github-administrative-api-openapi.yml
   format: yaml
   label: GitHub Administrative API
   slug: github-administrative-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-administrative-api-openapi.yml
-- filename: github-administrator-api-openapi.yml
-  format: yaml
-  label: GitHub Administrator API
-  slug: github-administrator-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-administrator-api-openapi.yml
 - filename: github-advanced-api-openapi.yml
   format: yaml
   label: GitHub Advanced API
@@ -277,18 +235,6 @@ api_specs:
   slug: github-announcement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-announcement-api-openapi.yml
-- filename: github-another-api-openapi.yml
-  format: yaml
-  label: GitHub Another API
-  slug: github-another-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-another-api-openapi.yml
-- filename: github-app-installations-api-openapi.yml
-  format: yaml
-  label: GitHub App Installations API
-  slug: github-app-installations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-app-installations-api-openapi.yml
 - filename: github-applications-api-openapi.yml
   format: yaml
   label: GitHub Applications API
@@ -307,12 +253,6 @@ api_specs:
   slug: github-archive-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-archive-api-openapi.yml
-- filename: github-archives-api-openapi.yml
-  format: yaml
-  label: GitHub Archives API
-  slug: github-archives-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-archives-api-openapi.yml
 - filename: github-artifacts-api-openapi.yml
   format: yaml
   label: GitHub Artifacts API
@@ -415,12 +355,6 @@ api_specs:
   slug: github-blobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-blobs-api-openapi.yml
-- filename: github-branch-policies-api-openapi.yml
-  format: yaml
-  label: GitHub Branch Policies API
-  slug: github-branch-policies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-branch-policies-api-openapi.yml
 - filename: github-branches-api-openapi.yml
   format: yaml
   label: GitHub Branches API
@@ -469,18 +403,6 @@ api_specs:
   slug: github-check-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-check-api-openapi.yml
-- filename: github-check-runs-api-openapi.yml
-  format: yaml
-  label: GitHub Check Runs API
-  slug: github-check-runs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-check-runs-api-openapi.yml
-- filename: github-check-suites-api-openapi.yml
-  format: yaml
-  label: GitHub Check Suites API
-  slug: github-check-suites-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-check-suites-api-openapi.yml
 - filename: github-checks-api-openapi.yml
   format: yaml
   label: GitHub Checks API
@@ -517,12 +439,6 @@ api_specs:
   slug: github-code-scanning-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-code-scanning-api-openapi.yml
-- filename: github-codeowners-api-openapi.yml
-  format: yaml
-  label: GitHub CODEOWNERS API
-  slug: github-codeowners-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-codeowners-api-openapi.yml
 - filename: github-codes-of-conduct-api-openapi.yml
   format: yaml
   label: GitHub Codes-Of-Conduct API
@@ -565,18 +481,6 @@ api_specs:
   slug: github-comments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-comments-api-openapi.yml
-- filename: github-commit-comments-api-openapi.yml
-  format: yaml
-  label: GitHub Commit Comments API
-  slug: github-commit-comments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-commit-comments-api-openapi.yml
-- filename: github-commit-statuses-api-openapi.yml
-  format: yaml
-  label: GitHub Commit Statuses API
-  slug: github-commit-statuses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-commit-statuses-api-openapi.yml
 - filename: github-commits-api-openapi.yml
   format: yaml
   label: GitHub Commits API
@@ -625,24 +529,12 @@ api_specs:
   slug: github-content-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-content-api-openapi.yml
-- filename: github-contents-api-openapi.yml
-  format: yaml
-  label: GitHub Contents API
-  slug: github-contents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-contents-api-openapi.yml
 - filename: github-contexts-api-openapi.yml
   format: yaml
   label: GitHub Contexts API
   slug: github-contexts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-contexts-api-openapi.yml
-- filename: github-contextual-api-openapi.yml
-  format: yaml
-  label: GitHub Contextual API
-  slug: github-contextual-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-contextual-api-openapi.yml
 - filename: github-contributor-api-openapi.yml
   format: yaml
   label: GitHub Contributor API
@@ -697,18 +589,6 @@ api_specs:
   slug: github-day-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-day-api-openapi.yml
-- filename: github-decline-api-openapi.yml
-  format: yaml
-  label: GitHub Decline API
-  slug: github-decline-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-decline-api-openapi.yml
-- filename: github-default-api-openapi.yml
-  format: yaml
-  label: GitHub Default API
-  slug: github-default-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-default-api-openapi.yml
 - filename: github-delete-api-openapi.yml
   format: yaml
   label: GitHub Delete API
@@ -721,12 +601,6 @@ api_specs:
   slug: github-deliveries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-deliveries-api-openapi.yml
-- filename: github-demote-api-openapi.yml
-  format: yaml
-  label: GitHub Demote API
-  slug: github-demote-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-demote-api-openapi.yml
 - filename: github-dependabot-api-openapi.yml
   format: yaml
   label: GitHub Dependabot API
@@ -751,18 +625,6 @@ api_specs:
   slug: github-deploy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-deploy-api-openapi.yml
-- filename: github-deploy-keys-api-openapi.yml
-  format: yaml
-  label: GitHub Deploy Keys API
-  slug: github-deploy-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-deploy-keys-api-openapi.yml
-- filename: github-deployment-statuses-api-openapi.yml
-  format: yaml
-  label: GitHub Deployment Statuses API
-  slug: github-deployment-statuses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-deployment-statuses-api-openapi.yml
 - filename: github-deployments-api-openapi.yml
   format: yaml
   label: GitHub Deployments API
@@ -823,18 +685,6 @@ api_specs:
   slug: github-during-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-during-api-openapi.yml
-- filename: github-email-api-openapi.yml
-  format: yaml
-  label: GitHub Email API
-  slug: github-email-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-email-api-openapi.yml
-- filename: github-emails-api-openapi.yml
-  format: yaml
-  label: GitHub Emails API
-  slug: github-emails-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-emails-api-openapi.yml
 - filename: github-emojis-api-openapi.yml
   format: yaml
   label: GitHub Emojis API
@@ -877,18 +727,6 @@ api_specs:
   slug: github-enterprise-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-enterprise-api-openapi.yml
-- filename: github-environment-secrets-api-openapi.yml
-  format: yaml
-  label: GitHub Environment Secrets API
-  slug: github-environment-secrets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-environment-secrets-api-openapi.yml
-- filename: github-environment-variables-api-openapi.yml
-  format: yaml
-  label: GitHub Environment Variables API
-  slug: github-environment-variables-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-environment-variables-api-openapi.yml
 - filename: github-environments-api-openapi.yml
   format: yaml
   label: GitHub Environments API
@@ -949,30 +787,6 @@ api_specs:
   slug: github-fingerprint-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-fingerprint-api-openapi.yml
-- filename: github-follow-api-openapi.yml
-  format: yaml
-  label: GitHub Follow API
-  slug: github-follow-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-follow-api-openapi.yml
-- filename: github-followed-api-openapi.yml
-  format: yaml
-  label: GitHub Followed API
-  slug: github-followed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-followed-api-openapi.yml
-- filename: github-followers-api-openapi.yml
-  format: yaml
-  label: GitHub Followers API
-  slug: github-followers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-followers-api-openapi.yml
-- filename: github-follows-api-openapi.yml
-  format: yaml
-  label: GitHub Follows API
-  slug: github-follows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-follows-api-openapi.yml
 - filename: github-forks-api-openapi.yml
   format: yaml
   label: GitHub Forks API
@@ -997,48 +811,12 @@ api_specs:
   slug: github-git-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-git-api-openapi.yml
-- filename: github-git-blobs-api-openapi.yml
-  format: yaml
-  label: GitHub Git Blobs API
-  slug: github-git-blobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-git-blobs-api-openapi.yml
-- filename: github-git-lfs-api-openapi.yml
-  format: yaml
-  label: GitHub Git LFS API
-  slug: github-git-lfs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-git-lfs-api-openapi.yml
-- filename: github-git-refs-api-openapi.yml
-  format: yaml
-  label: GitHub Git Refs API
-  slug: github-git-refs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-git-refs-api-openapi.yml
-- filename: github-git-tags-api-openapi.yml
-  format: yaml
-  label: GitHub Git Tags API
-  slug: github-git-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-git-tags-api-openapi.yml
-- filename: github-git-trees-api-openapi.yml
-  format: yaml
-  label: GitHub Git Trees API
-  slug: github-git-trees-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-git-trees-api-openapi.yml
 - filename: github-gitignore-api-openapi.yml
   format: yaml
   label: GitHub Gitignore API
   slug: github-gitignore-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-gitignore-api-openapi.yml
-- filename: github-gpg-api-openapi.yml
-  format: yaml
-  label: GitHub Gpg API
-  slug: github-gpg-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-gpg-api-openapi.yml
 - filename: github-grants-api-openapi.yml
   format: yaml
   label: GitHub Grants API
@@ -1303,12 +1081,6 @@ api_specs:
   slug: github-merged-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-merged-api-openapi.yml
-- filename: github-merges-api-openapi.yml
-  format: yaml
-  label: GitHub Merges API
-  slug: github-merges-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-merges-api-openapi.yml
 - filename: github-migrations-api-openapi.yml
   format: yaml
   label: GitHub Migrations API
@@ -1441,24 +1213,12 @@ api_specs:
   slug: github-pages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-pages-api-openapi.yml
-- filename: github-pages-builds-api-openapi.yml
-  format: yaml
-  label: GitHub Pages Builds API
-  slug: github-pages-builds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-pages-builds-api-openapi.yml
 - filename: github-pending-api-openapi.yml
   format: yaml
   label: GitHub Pending API
   slug: github-pending-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-pending-api-openapi.yml
-- filename: github-people-api-openapi.yml
-  format: yaml
-  label: GitHub People API
-  slug: github-people-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-people-api-openapi.yml
 - filename: github-permission-api-openapi.yml
   format: yaml
   label: GitHub Permission API
@@ -1471,12 +1231,6 @@ api_specs:
   slug: github-permissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-permissions-api-openapi.yml
-- filename: github-person-api-openapi.yml
-  format: yaml
-  label: GitHub Person API
-  slug: github-person-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-person-api-openapi.yml
 - filename: github-ping-api-openapi.yml
   format: yaml
   label: GitHub Ping API
@@ -1513,12 +1267,6 @@ api_specs:
   slug: github-project-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-project-api-openapi.yml
-- filename: github-promote-api-openapi.yml
-  format: yaml
-  label: GitHub Promote API
-  slug: github-promote-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-promote-api-openapi.yml
 - filename: github-protected-api-openapi.yml
   format: yaml
   label: GitHub Protected API
@@ -1633,12 +1381,6 @@ api_specs:
   slug: github-readme-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-readme-api-openapi.yml
-- filename: github-received-api-openapi.yml
-  format: yaml
-  label: GitHub Received API
-  slug: github-received-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-received-api-openapi.yml
 - filename: github-references-api-openapi.yml
   format: yaml
   label: GitHub References API
@@ -1651,12 +1393,6 @@ api_specs:
   slug: github-registration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-registration-api-openapi.yml
-- filename: github-release-assets-api-openapi.yml
-  format: yaml
-  label: GitHub Release Assets API
-  slug: github-release-assets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-release-assets-api-openapi.yml
 - filename: github-releases-api-openapi.yml
   format: yaml
   label: GitHub Releases API
@@ -1711,12 +1447,6 @@ api_specs:
   slug: github-repositories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-repositories-api-openapi.yml
-- filename: github-repository-events-api-openapi.yml
-  format: yaml
-  label: GitHub Repository Events API
-  slug: github-repository-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-repository-events-api-openapi.yml
 - filename: github-requested-api-openapi.yml
   format: yaml
   label: GitHub Requested API
@@ -1879,12 +1609,6 @@ api_specs:
   slug: github-signatures-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-signatures-api-openapi.yml
-- filename: github-signing-api-openapi.yml
-  format: yaml
-  label: GitHub Signing API
-  slug: github-signing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-signing-api-openapi.yml
 - filename: github-single-api-openapi.yml
   format: yaml
   label: GitHub Single API
@@ -1897,12 +1621,6 @@ api_specs:
   slug: github-sites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-sites-api-openapi.yml
-- filename: github-social-api-openapi.yml
-  format: yaml
-  label: GitHub Social API
-  slug: github-social-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-social-api-openapi.yml
 - filename: github-software-api-openapi.yml
   format: yaml
   label: GitHub Software API
@@ -1963,12 +1681,6 @@ api_specs:
   slug: github-static-analysis-results-interchange-format-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-static-analysis-results-interchange-format-api-openapi.yml
-- filename: github-statistics-api-openapi.yml
-  format: yaml
-  label: GitHub Statistics API
-  slug: github-statistics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-statistics-api-openapi.yml
 - filename: github-status-api-openapi.yml
   format: yaml
   label: GitHub Status API
@@ -2017,12 +1729,6 @@ api_specs:
   slug: github-sync-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-sync-api-openapi.yml
-- filename: github-tags-api-openapi.yml
-  format: yaml
-  label: GitHub Tags API
-  slug: github-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-tags-api-openapi.yml
 - filename: github-tar-api-openapi.yml
   format: yaml
   label: GitHub Tar API
@@ -2083,12 +1789,6 @@ api_specs:
   slug: github-trees-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-trees-api-openapi.yml
-- filename: github-unfollow-api-openapi.yml
-  format: yaml
-  label: GitHub Unfollow API
-  slug: github-unfollow-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-unfollow-api-openapi.yml
 - filename: github-unlock-api-openapi.yml
   format: yaml
   label: GitHub Unlock API
@@ -2137,12 +1837,6 @@ api_specs:
   slug: github-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-usage-api-openapi.yml
-- filename: github-username-api-openapi.yml
-  format: yaml
-  label: GitHub Username API
-  slug: github-username-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-username-api-openapi.yml
 - filename: github-variables-api-openapi.yml
   format: yaml
   label: GitHub Variables API
@@ -2161,18 +1855,6 @@ api_specs:
   slug: github-vulnerabilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-vulnerabilities-api-openapi.yml
-- filename: github-vulnerability-alerts-api-openapi.yml
-  format: yaml
-  label: GitHub Vulnerability Alerts API
-  slug: github-vulnerability-alerts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-vulnerability-alerts-api-openapi.yml
-- filename: github-watched-api-openapi.yml
-  format: yaml
-  label: GitHub Watched API
-  slug: github-watched-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-watched-api-openapi.yml
 - filename: github-watchers-api-openapi.yml
   format: yaml
   label: GitHub Watchers API
@@ -2209,6 +1891,114 @@ api_specs:
   slug: github-zen-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-zen-api-openapi.yml
+- filename: github-github-application-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub Application API API
+  slug: github-github-application-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-github-application-api-api-openapi.yml
+- filename: github-github-auth-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub Auth API API
+  slug: github-github-auth-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-github-auth-api-api-openapi.yml
+- filename: github-github-code-of-conduct-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub Code Of Conduct API API
+  slug: github-github-code-of-conduct-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-github-code-of-conduct-api-api-openapi.yml
+- filename: github-github-codes-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub Codes API
+  slug: github-github-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-github-codes-api-openapi.yml
+- filename: github-github-emojis-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub Emojis API API
+  slug: github-github-emojis-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-github-emojis-api-api-openapi.yml
+- filename: github-github-feeds-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub Feeds API API
+  slug: github-github-feeds-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-github-feeds-api-api-openapi.yml
+- filename: github-github-gists-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub Gists API API
+  slug: github-github-gists-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-github-gists-api-api-openapi.yml
+- filename: github-github-gitignore-templates-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub Gitignore Templates API API
+  slug: github-github-gitignore-templates-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-github-gitignore-templates-api-api-openapi.yml
+- filename: github-github-installation-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub Installation API API
+  slug: github-github-installation-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-github-installation-api-api-openapi.yml
+- filename: github-github-licenses-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub Licenses API API
+  slug: github-github-licenses-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-github-licenses-api-api-openapi.yml
+- filename: github-github-manage-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub Manage API API
+  slug: github-github-manage-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-github-manage-api-api-openapi.yml
+- filename: github-github-markdown-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub Markdown API API
+  slug: github-github-markdown-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-github-markdown-api-api-openapi.yml
+- filename: github-github-meta-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub Meta API API
+  slug: github-github-meta-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-github-meta-api-api-openapi.yml
+- filename: github-github-networks-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub Networks API API
+  slug: github-github-networks-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-github-networks-api-api-openapi.yml
+- filename: github-github-notifications-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub Notifications API API
+  slug: github-github-notifications-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-github-notifications-api-api-openapi.yml
+- filename: github-github-projects-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub Projects API API
+  slug: github-github-projects-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-github-projects-api-api-openapi.yml
+- filename: github-github-scim-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub SCIM API API
+  slug: github-github-scim-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-github-scim-api-api-openapi.yml
+- filename: github-github-v3-rest-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub V3 REST API API
+  slug: github-github-v3-rest-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-github-v3-rest-api-api-openapi.yml
 auth_types:
 - http
 description: ''

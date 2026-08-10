@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: scalapay-openapi-original.yml
+- filename: scalapay-instore-api-openapi.yml
   format: yaml
-  label: Scalapay API
-  slug: scalapay-api
+  label: Scalapay Instore API
+  slug: scalapay-instore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalapay/refs/heads/main/openapi/scalapay-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scalapay/refs/heads/main/openapi/scalapay-instore-api-openapi.yml
+- filename: scalapay-orders-api-openapi.yml
+  format: yaml
+  label: Scalapay Orders API
+  slug: scalapay-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalapay/refs/heads/main/openapi/scalapay-orders-api-openapi.yml
+- filename: scalapay-reporting-api-openapi.yml
+  format: yaml
+  label: Scalapay Reporting API
+  slug: scalapay-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalapay/refs/heads/main/openapi/scalapay-reporting-api-openapi.yml
 description: ''
 domains:
 - caa: []

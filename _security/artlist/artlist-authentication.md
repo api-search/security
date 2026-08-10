@@ -1,18 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: artlist-search-openapi-original.yml
+- filename: artlist-album-api-openapi.yml
   format: yaml
-  label: Artlist Enterprise Search API
-  slug: search
+  label: Artlist Album API
+  slug: artlist-album-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/openapi/artlist-search-openapi-original.yml
-- filename: artlist-download-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/openapi/artlist-album-api-openapi.yml
+- filename: artlist-artist-api-openapi.yml
   format: yaml
-  label: Artlist Enterprise Download API
-  slug: download
+  label: Artlist Artist API
+  slug: artlist-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/openapi/artlist-download-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/openapi/artlist-artist-api-openapi.yml
+- filename: artlist-downloadable-api-openapi.yml
+  format: yaml
+  label: Artlist Downloadable API
+  slug: artlist-downloadable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/openapi/artlist-downloadable-api-openapi.yml
+- filename: artlist-song-api-openapi.yml
+  format: yaml
+  label: Artlist Song API
+  slug: artlist-song-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/openapi/artlist-song-api-openapi.yml
 auth_types:
 - oauth2
 description: The Artlist Enterprise API is protected by an OAuth 2.0 client-credentials flow against an Amazon Cognito authorization server, with credentials issued out-of-band by an Artlist account manager. Neither published OpenAPI document declares a securityScheme, so this profile is captured from the documentation rather than derived from the spec — see `spec_gap` below.

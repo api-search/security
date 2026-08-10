@@ -5,25 +5,25 @@ api_specs:
   label: Function Health Member Dashboard
   slug: function-health-member-dashboard
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/function-health/refs/heads/main/openapi/function-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/function-health/refs/heads/main/openapi/_original/function-health-openapi.yml
 - filename: function-health-openapi.yml
   format: yaml
   label: Function Health Results Export
   slug: function-health-results-export
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/function-health/refs/heads/main/openapi/function-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/function-health/refs/heads/main/openapi/_original/function-health-openapi.yml
 - filename: function-health-openapi.yml
   format: yaml
   label: Function Health Connected Apps
   slug: function-health-connected-apps
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/function-health/refs/heads/main/openapi/function-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/function-health/refs/heads/main/openapi/_original/function-health-openapi.yml
 - filename: function-health-openapi.yml
   format: yaml
   label: Function Health ChatGPT App
   slug: function-health-chatgpt-app
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/function-health/refs/heads/main/openapi/function-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/function-health/refs/heads/main/openapi/_original/function-health-openapi.yml
 certifications:
 - SOC 2
 - HIPAA

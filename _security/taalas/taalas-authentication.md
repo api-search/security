@@ -8,12 +8,18 @@ api_specs:
   slug: taalas-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/openapi/taalas-inference-api-openapi.yml
-- filename: taalas-inference-v1-api-openapi.yml
+- filename: taalas-models-api-openapi.yml
   format: yaml
-  label: Taalas API v1 (OpenAI-compatible)
-  slug: taalas-api-v1-openai-compatible
+  label: Taalas Models API
+  slug: taalas-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/openapi/taalas-inference-v1-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/openapi/taalas-models-api-openapi.yml
+- filename: taalas-monitoring-api-openapi.yml
+  format: yaml
+  label: Taalas Monitoring API
+  slug: taalas-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/openapi/taalas-monitoring-api-openapi.yml
 auth_types:
 - http
 description: ''

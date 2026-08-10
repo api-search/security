@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: ibanforge-api-keys-api-openapi.yml
+  format: yaml
+  label: IBANforge API Keys API
+  slug: ibanforge-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-api-keys-api-openapi.yml
+- filename: ibanforge-bic-api-openapi.yml
+  format: yaml
+  label: IBANforge BIC API
+  slug: ibanforge-bic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-bic-api-openapi.yml
+- filename: ibanforge-compliance-api-openapi.yml
+  format: yaml
+  label: IBANforge Compliance API
+  slug: ibanforge-compliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-compliance-api-openapi.yml
+- filename: ibanforge-credits-api-openapi.yml
+  format: yaml
+  label: IBANforge Credits API
+  slug: ibanforge-credits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-credits-api-openapi.yml
+- filename: ibanforge-free-api-openapi.yml
+  format: yaml
+  label: IBANforge Free API
+  slug: ibanforge-free-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-free-api-openapi.yml
+- filename: ibanforge-iban-api-openapi.yml
+  format: yaml
+  label: IBANforge IBAN API
+  slug: ibanforge-iban-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-iban-api-openapi.yml
+- filename: ibanforge-mcp-api-openapi.yml
+  format: yaml
+  label: IBANforge MCP API
+  slug: ibanforge-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-mcp-api-openapi.yml
+- filename: ibanforge-swiss-clearing-api-openapi.yml
+  format: yaml
+  label: IBANforge Swiss Clearing API
+  slug: ibanforge-swiss-clearing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-swiss-clearing-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -31,5 +80,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Finance
-- Public APIs
+- Banking
+- Compliance
+- MCP
 ---

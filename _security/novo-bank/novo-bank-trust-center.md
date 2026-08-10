@@ -5,19 +5,19 @@ api_specs:
   label: Novo Accounts
   slug: novo-accounts
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novo-bank/refs/heads/main/openapi/novo-bank-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/novo-bank/refs/heads/main/openapi/_original/novo-bank-openapi.yml
 - filename: novo-bank-openapi.yml
   format: yaml
   label: Novo Transactions
   slug: novo-transactions
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novo-bank/refs/heads/main/openapi/novo-bank-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/novo-bank/refs/heads/main/openapi/_original/novo-bank-openapi.yml
 - filename: novo-bank-openapi.yml
   format: yaml
   label: Novo Payments
   slug: novo-payments
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novo-bank/refs/heads/main/openapi/novo-bank-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/novo-bank/refs/heads/main/openapi/_original/novo-bank-openapi.yml
 certifications:
 - SOC 2
 description: ''

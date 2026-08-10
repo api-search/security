@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: sorry-status-page-openapi.yml
+- filename: sorry-components-api-openapi.yml
   format: yaml
-  label: Sorry Status Page API
-  slug: sorry-status-page-api
+  label: Sorry Components API
+  slug: sorry-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sorry/refs/heads/main/openapi/sorry-status-page-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sorry/refs/heads/main/openapi/sorry-components-api-openapi.yml
+- filename: sorry-notice-updates-api-openapi.yml
+  format: yaml
+  label: Sorry Notice Updates API
+  slug: sorry-notice-updates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sorry/refs/heads/main/openapi/sorry-notice-updates-api-openapi.yml
+- filename: sorry-notices-api-openapi.yml
+  format: yaml
+  label: Sorry Notices API
+  slug: sorry-notices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sorry/refs/heads/main/openapi/sorry-notices-api-openapi.yml
+- filename: sorry-status-pages-api-openapi.yml
+  format: yaml
+  label: Sorry Status Pages API
+  slug: sorry-status-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sorry/refs/heads/main/openapi/sorry-status-pages-api-openapi.yml
+- filename: sorry-subscribers-api-openapi.yml
+  format: yaml
+  label: Sorry Subscribers API
+  slug: sorry-subscribers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sorry/refs/heads/main/openapi/sorry-subscribers-api-openapi.yml
 description: ''
 domains:
 - caa:

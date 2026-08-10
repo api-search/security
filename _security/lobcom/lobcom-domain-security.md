@@ -180,6 +180,18 @@ api_specs:
   slug: lobcom-zip-lookups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lobcom/refs/heads/main/openapi/lobcom-zip-lookups-api-openapi.yml
+- filename: lobcom-events-api-openapi.yml
+  format: yaml
+  label: Lob.com Events API
+  slug: lobcom-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lobcom/refs/heads/main/openapi/lobcom-events-api-openapi.yml
+- filename: lobcom-tracking-events-api-openapi.yml
+  format: yaml
+  label: Lob.com Tracking Events API
+  slug: lobcom-tracking-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lobcom/refs/heads/main/openapi/lobcom-tracking-events-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: llms.txt
+- filename: voyage-ai-contextualized-api-openapi.yml
+  format: yaml
+  label: Voyage AI Contextualized API
+  slug: voyage-ai-contextualized-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voyage-ai/refs/heads/main/openapi/voyage-ai-contextualized-api-openapi.yml
+- filename: voyage-ai-embeddings-api-openapi.yml
   format: yaml
   label: Voyage AI Embeddings API
-  slug: embeddings
+  slug: voyage-ai-embeddings-api
   spec_type: OpenAPI
-  url: https://docs.voyageai.com/llms.txt
+  url: https://raw.githubusercontent.com/api-evangelist/voyage-ai/refs/heads/main/openapi/voyage-ai-embeddings-api-openapi.yml
+- filename: voyage-ai-multimodal-api-openapi.yml
+  format: yaml
+  label: Voyage AI Multimodal API
+  slug: voyage-ai-multimodal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voyage-ai/refs/heads/main/openapi/voyage-ai-multimodal-api-openapi.yml
+- filename: voyage-ai-rerank-api-openapi.yml
+  format: yaml
+  label: Voyage AI Rerank API
+  slug: voyage-ai-rerank-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voyage-ai/refs/heads/main/openapi/voyage-ai-rerank-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: datadog-apm-api.yml
+- filename: datadog-apm-service-definitions-api-openapi.yml
   format: yaml
-  label: Datadog APM API
-  slug: datadog-apm-api
+  label: Datadog APM Service Definitions API
+  slug: datadog-apm-service-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/openapi/datadog-apm-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/openapi/datadog-apm-service-definitions-api-openapi.yml
+- filename: datadog-apm-services-api-openapi.yml
+  format: yaml
+  label: Datadog APM Services API
+  slug: datadog-apm-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/openapi/datadog-apm-services-api-openapi.yml
+- filename: datadog-apm-slos-api-openapi.yml
+  format: yaml
+  label: Datadog APM SL Os API
+  slug: datadog-apm-slos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/openapi/datadog-apm-slos-api-openapi.yml
+- filename: datadog-apm-spans-api-openapi.yml
+  format: yaml
+  label: Datadog APM Spans API
+  slug: datadog-apm-spans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/openapi/datadog-apm-spans-api-openapi.yml
+- filename: datadog-apm-traces-api-openapi.yml
+  format: yaml
+  label: Datadog APM Traces API
+  slug: datadog-apm-traces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/openapi/datadog-apm-traces-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

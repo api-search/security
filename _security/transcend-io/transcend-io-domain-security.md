@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: oas.json
-  format: json
-  label: Transcend API
-  slug: transcend-api
+- filename: transcend-io-consent-api-openapi.yml
+  format: yaml
+  label: Transcend Consent API
+  slug: transcend-io-consent-api
   spec_type: OpenAPI
-  url: https://docs.transcend.io/api/oas.json
+  url: https://raw.githubusercontent.com/api-evangelist/transcend-io/refs/heads/main/openapi/transcend-io-consent-api-openapi.yml
+- filename: transcend-io-custom-integration-api-openapi.yml
+  format: yaml
+  label: Transcend Custom Integration API
+  slug: transcend-io-custom-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transcend-io/refs/heads/main/openapi/transcend-io-custom-integration-api-openapi.yml
+- filename: transcend-io-data-subject-request-api-openapi.yml
+  format: yaml
+  label: Transcend Data Subject Request API
+  slug: transcend-io-data-subject-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transcend-io/refs/heads/main/openapi/transcend-io-data-subject-request-api-openapi.yml
+- filename: transcend-io-llm-classifier-api-openapi.yml
+  format: yaml
+  label: Transcend LLM Classifier API
+  slug: transcend-io-llm-classifier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transcend-io/refs/heads/main/openapi/transcend-io-llm-classifier-api-openapi.yml
+- filename: transcend-io-preferences-api-openapi.yml
+  format: yaml
+  label: Transcend Preferences API
+  slug: transcend-io-preferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transcend-io/refs/heads/main/openapi/transcend-io-preferences-api-openapi.yml
+- filename: transcend-io-preflight-api-openapi.yml
+  format: yaml
+  label: Transcend Preflight API
+  slug: transcend-io-preflight-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transcend-io/refs/heads/main/openapi/transcend-io-preflight-api-openapi.yml
+- filename: transcend-io-public-keys-api-openapi.yml
+  format: yaml
+  label: Transcend Public Keys API
+  slug: transcend-io-public-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transcend-io/refs/heads/main/openapi/transcend-io-public-keys-api-openapi.yml
+- filename: transcend-io-transcend-api-api-openapi.yml
+  format: yaml
+  label: Transcend Transcend API API
+  slug: transcend-io-transcend-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transcend-io/refs/heads/main/openapi/transcend-io-transcend-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

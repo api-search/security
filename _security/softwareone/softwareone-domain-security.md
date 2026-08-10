@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: softwareone-openapi.yml
+- filename: softwareone-items-api-openapi.yml
   format: yaml
-  label: SoftwareOne Marketplace Platform API
-  slug: marketplace-platform-api
+  label: SoftwareOne Items API
+  slug: softwareone-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/softwareone/refs/heads/main/openapi/softwareone-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/softwareone/refs/heads/main/openapi/softwareone-items-api-openapi.yml
+- filename: softwareone-listings-api-openapi.yml
+  format: yaml
+  label: SoftwareOne Listings API
+  slug: softwareone-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/softwareone/refs/heads/main/openapi/softwareone-listings-api-openapi.yml
+- filename: softwareone-media-api-openapi.yml
+  format: yaml
+  label: SoftwareOne Media API
+  slug: softwareone-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/softwareone/refs/heads/main/openapi/softwareone-media-api-openapi.yml
+- filename: softwareone-parameters-api-openapi.yml
+  format: yaml
+  label: SoftwareOne Parameters API
+  slug: softwareone-parameters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/softwareone/refs/heads/main/openapi/softwareone-parameters-api-openapi.yml
+- filename: softwareone-products-api-openapi.yml
+  format: yaml
+  label: SoftwareOne Products API
+  slug: softwareone-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/softwareone/refs/heads/main/openapi/softwareone-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

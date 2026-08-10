@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: a2-biotherapeutics-wp-rest-openapi.yml
+- filename: a2-biotherapeutics-mcp-api-openapi.yml
   format: yaml
-  label: A2 Biotherapeutics WordPress REST API
-  slug: a2-biotherapeutics-wordpress-rest-api
+  label: A2 Biotherapeutics MCP API
+  slug: a2-biotherapeutics-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2-biotherapeutics/refs/heads/main/openapi/a2-biotherapeutics-wp-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/a2-biotherapeutics/refs/heads/main/openapi/a2-biotherapeutics-mcp-api-openapi.yml
+- filename: a2-biotherapeutics-oembed-1-0-api-openapi.yml
+  format: yaml
+  label: A2 Biotherapeutics Oembed/1.0 API
+  slug: a2-biotherapeutics-oembed-1-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/a2-biotherapeutics/refs/heads/main/openapi/a2-biotherapeutics-oembed-1-0-api-openapi.yml
+- filename: a2-biotherapeutics-root-api-openapi.yml
+  format: yaml
+  label: A2 Biotherapeutics Root API
+  slug: a2-biotherapeutics-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/a2-biotherapeutics/refs/heads/main/openapi/a2-biotherapeutics-root-api-openapi.yml
+- filename: a2-biotherapeutics-wp-abilities-v1-api-openapi.yml
+  format: yaml
+  label: A2 Biotherapeutics Wp Abilities/v1 API
+  slug: a2-biotherapeutics-wp-abilities-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/a2-biotherapeutics/refs/heads/main/openapi/a2-biotherapeutics-wp-abilities-v1-api-openapi.yml
+- filename: a2-biotherapeutics-wp-v2-api-openapi.yml
+  format: yaml
+  label: A2 Biotherapeutics Wp/v2 API
+  slug: a2-biotherapeutics-wp-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/a2-biotherapeutics/refs/heads/main/openapi/a2-biotherapeutics-wp-v2-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

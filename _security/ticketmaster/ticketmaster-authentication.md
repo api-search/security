@@ -14,6 +14,36 @@ api_specs:
   slug: ticketmaster-offerings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-offerings-api-openapi.yml
+- filename: ticketmaster-attractions-api-openapi.yml
+  format: yaml
+  label: Ticketmaster Attractions API
+  slug: ticketmaster-attractions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-attractions-api-openapi.yml
+- filename: ticketmaster-classifications-api-openapi.yml
+  format: yaml
+  label: Ticketmaster Classifications API
+  slug: ticketmaster-classifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-classifications-api-openapi.yml
+- filename: ticketmaster-events-api-openapi.yml
+  format: yaml
+  label: Ticketmaster Events API
+  slug: ticketmaster-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-events-api-openapi.yml
+- filename: ticketmaster-suggestions-api-openapi.yml
+  format: yaml
+  label: Ticketmaster Suggestions API
+  slug: ticketmaster-suggestions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-suggestions-api-openapi.yml
+- filename: ticketmaster-venues-api-openapi.yml
+  format: yaml
+  label: Ticketmaster Venues API
+  slug: ticketmaster-venues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-venues-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

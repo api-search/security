@@ -5,25 +5,25 @@ api_specs:
   label: Lexion Contract Repository
   slug: contract-repository
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexion/refs/heads/main/openapi/lexion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lexion/refs/heads/main/openapi/_original/lexion-openapi.yml
 - filename: lexion-openapi.yml
   format: yaml
   label: Lexion Extraction & Insights
   slug: extraction-insights
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexion/refs/heads/main/openapi/lexion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lexion/refs/heads/main/openapi/_original/lexion-openapi.yml
 - filename: lexion-openapi.yml
   format: yaml
   label: Lexion Workflows
   slug: workflows
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexion/refs/heads/main/openapi/lexion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lexion/refs/heads/main/openapi/_original/lexion-openapi.yml
 - filename: lexion-openapi.yml
   format: yaml
   label: Lexion Integrations
   slug: integrations
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexion/refs/heads/main/openapi/lexion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lexion/refs/heads/main/openapi/_original/lexion-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

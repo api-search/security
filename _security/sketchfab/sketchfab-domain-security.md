@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: sketchfab-data-api-openapi.yml
-  format: yaml
-  label: Sketchfab Data API
-  slug: sketchfab-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-data-api-openapi.yml
 - filename: sketchfab-download-api-openapi.yml
   format: yaml
   label: Sketchfab Download API
@@ -24,6 +18,66 @@ api_specs:
   slug: sketchfab-oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-oauth-api-openapi.yml
+- filename: sketchfab-bookmarks-api-openapi.yml
+  format: yaml
+  label: Sketchfab Bookmarks API
+  slug: sketchfab-bookmarks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-bookmarks-api-openapi.yml
+- filename: sketchfab-categories-api-openapi.yml
+  format: yaml
+  label: Sketchfab Categories API
+  slug: sketchfab-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-categories-api-openapi.yml
+- filename: sketchfab-collections-api-openapi.yml
+  format: yaml
+  label: Sketchfab Collections API
+  slug: sketchfab-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-collections-api-openapi.yml
+- filename: sketchfab-comments-api-openapi.yml
+  format: yaml
+  label: Sketchfab Comments API
+  slug: sketchfab-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-comments-api-openapi.yml
+- filename: sketchfab-likes-api-openapi.yml
+  format: yaml
+  label: Sketchfab Likes API
+  slug: sketchfab-likes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-likes-api-openapi.yml
+- filename: sketchfab-models-api-openapi.yml
+  format: yaml
+  label: Sketchfab Models API
+  slug: sketchfab-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-models-api-openapi.yml
+- filename: sketchfab-orgs-api-openapi.yml
+  format: yaml
+  label: Sketchfab Orgs API
+  slug: sketchfab-orgs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-orgs-api-openapi.yml
+- filename: sketchfab-search-api-openapi.yml
+  format: yaml
+  label: Sketchfab Search API
+  slug: sketchfab-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-search-api-openapi.yml
+- filename: sketchfab-tags-api-openapi.yml
+  format: yaml
+  label: Sketchfab Tags API
+  slug: sketchfab-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-tags-api-openapi.yml
+- filename: sketchfab-users-api-openapi.yml
+  format: yaml
+  label: Sketchfab Users API
+  slug: sketchfab-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-users-api-openapi.yml
 description: ''
 domains:
 - caa:

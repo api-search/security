@@ -2,42 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: shipmonk-orders-openapi.yml
-  format: yaml
-  label: ShipMonk Orders API
-  slug: shipmonk-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-orders-openapi.yml
-- filename: shipmonk-products-openapi.yml
-  format: yaml
-  label: ShipMonk Products API
-  slug: shipmonk-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-products-openapi.yml
-- filename: shipmonk-receivings-openapi.yml
-  format: yaml
-  label: ShipMonk Receivings API
-  slug: shipmonk-receivings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-receivings-openapi.yml
-- filename: shipmonk-returns-openapi.yml
-  format: yaml
-  label: ShipMonk Returns API
-  slug: shipmonk-returns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-returns-openapi.yml
-- filename: shipmonk-warehouses-openapi.yml
-  format: yaml
-  label: ShipMonk Warehouses API
-  slug: shipmonk-warehouses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-warehouses-openapi.yml
 - filename: shipmonk-webhooks-asyncapi.yml
   format: yaml
   label: ShipMonk Webhooks
   slug: shipmonk-webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/asyncapi/shipmonk-webhooks-asyncapi.yml
+- filename: shipmonk-orders-api-openapi.yml
+  format: yaml
+  label: ShipMonk Orders API
+  slug: shipmonk-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-orders-api-openapi.yml
+- filename: shipmonk-products-api-openapi.yml
+  format: yaml
+  label: ShipMonk Products API
+  slug: shipmonk-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-products-api-openapi.yml
+- filename: shipmonk-receivings-api-openapi.yml
+  format: yaml
+  label: ShipMonk Receivings API
+  slug: shipmonk-receivings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-receivings-api-openapi.yml
+- filename: shipmonk-returns-api-openapi.yml
+  format: yaml
+  label: ShipMonk Returns API
+  slug: shipmonk-returns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-returns-api-openapi.yml
+- filename: shipmonk-warehouses-api-openapi.yml
+  format: yaml
+  label: ShipMonk Warehouses API
+  slug: shipmonk-warehouses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-warehouses-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -5,31 +5,31 @@ api_specs:
   label: FBN Direct Inputs Marketplace
   slug: fbn-direct-inputs-marketplace
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmers-business-network/refs/heads/main/openapi/farmers-business-network-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/farmers-business-network/refs/heads/main/openapi/_original/farmers-business-network-openapi.yml
 - filename: farmers-business-network-openapi.yml
   format: yaml
   label: FBN Analytics and Insights
   slug: fbn-analytics
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmers-business-network/refs/heads/main/openapi/farmers-business-network-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/farmers-business-network/refs/heads/main/openapi/_original/farmers-business-network-openapi.yml
 - filename: farmers-business-network-openapi.yml
   format: yaml
   label: FBN Crop Marketing
   slug: fbn-crop-marketing
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmers-business-network/refs/heads/main/openapi/farmers-business-network-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/farmers-business-network/refs/heads/main/openapi/_original/farmers-business-network-openapi.yml
 - filename: farmers-business-network-openapi.yml
   format: yaml
   label: FBN Finance
   slug: fbn-finance
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmers-business-network/refs/heads/main/openapi/farmers-business-network-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/farmers-business-network/refs/heads/main/openapi/_original/farmers-business-network-openapi.yml
 - filename: farmers-business-network-openapi.yml
   format: yaml
   label: Norm AI Advisor
   slug: norm-ai-advisor
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmers-business-network/refs/heads/main/openapi/farmers-business-network-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/farmers-business-network/refs/heads/main/openapi/_original/farmers-business-network-openapi.yml
 description: ''
 domains:
 - caa: []

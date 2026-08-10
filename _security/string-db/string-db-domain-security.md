@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: string-db-annotation-api-openapi.yml
   format: yaml
-  label: STRING REST API
-  slug: string-rest-api
+  label: STRING Annotation API
+  slug: string-db-annotation-api
   spec_type: OpenAPI
-  url: https://string-db.org/help/api/
+  url: https://raw.githubusercontent.com/api-evangelist/string-db/refs/heads/main/openapi/string-db-annotation-api-openapi.yml
+- filename: string-db-enrichment-api-openapi.yml
+  format: yaml
+  label: STRING Enrichment API
+  slug: string-db-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/string-db/refs/heads/main/openapi/string-db-enrichment-api-openapi.yml
+- filename: string-db-homology-api-openapi.yml
+  format: yaml
+  label: STRING Homology API
+  slug: string-db-homology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/string-db/refs/heads/main/openapi/string-db-homology-api-openapi.yml
+- filename: string-db-identifiers-api-openapi.yml
+  format: yaml
+  label: STRING Identifiers API
+  slug: string-db-identifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/string-db/refs/heads/main/openapi/string-db-identifiers-api-openapi.yml
+- filename: string-db-network-api-openapi.yml
+  format: yaml
+  label: STRING Network API
+  slug: string-db-network-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/string-db/refs/heads/main/openapi/string-db-network-api-openapi.yml
+- filename: string-db-utility-api-openapi.yml
+  format: yaml
+  label: STRING Utility API
+  slug: string-db-utility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/string-db/refs/heads/main/openapi/string-db-utility-api-openapi.yml
+- filename: string-db-valuesranks-api-openapi.yml
+  format: yaml
+  label: STRING Valuesranks API
+  slug: string-db-valuesranks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/string-db/refs/heads/main/openapi/string-db-valuesranks-api-openapi.yml
 description: ''
 domains:
 - caa: []

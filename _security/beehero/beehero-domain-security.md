@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: beehero-openapi-original.yml
+- filename: beehero-audio-api-openapi.yml
   format: yaml
-  label: BeeHero API
-  slug: beehero-api
+  label: BeeHero Audio API
+  slug: beehero-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehero/refs/heads/main/openapi/beehero-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehero/refs/heads/main/openapi/beehero-audio-api-openapi.yml
+- filename: beehero-auth-api-openapi.yml
+  format: yaml
+  label: BeeHero Auth API
+  slug: beehero-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beehero/refs/heads/main/openapi/beehero-auth-api-openapi.yml
+- filename: beehero-gateways-api-openapi.yml
+  format: yaml
+  label: BeeHero Gateways API
+  slug: beehero-gateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beehero/refs/heads/main/openapi/beehero-gateways-api-openapi.yml
+- filename: beehero-sensors-api-openapi.yml
+  format: yaml
+  label: BeeHero Sensors API
+  slug: beehero-sensors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beehero/refs/heads/main/openapi/beehero-sensors-api-openapi.yml
 description: ''
 domains:
 - caa: []

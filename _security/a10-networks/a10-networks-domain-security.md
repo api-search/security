@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: a10-networks-axapi-openapi.yml
+- filename: a10-networks-authentication-api-openapi.yml
   format: yaml
-  label: A10 Networks ACOS aXAPI v3
-  slug: a10-networks-axapi
+  label: A10 Networks Authentication API
+  slug: a10-networks-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/openapi/a10-networks-axapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/openapi/a10-networks-authentication-api-openapi.yml
+- filename: a10-networks-slb-health-monitor-api-openapi.yml
+  format: yaml
+  label: A10 Networks SLB Health Monitor API
+  slug: a10-networks-slb-health-monitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/openapi/a10-networks-slb-health-monitor-api-openapi.yml
+- filename: a10-networks-slb-server-api-openapi.yml
+  format: yaml
+  label: A10 Networks SLB Server API
+  slug: a10-networks-slb-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/openapi/a10-networks-slb-server-api-openapi.yml
+- filename: a10-networks-slb-service-group-api-openapi.yml
+  format: yaml
+  label: A10 Networks SLB Service Group API
+  slug: a10-networks-slb-service-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/openapi/a10-networks-slb-service-group-api-openapi.yml
+- filename: a10-networks-slb-virtual-server-api-openapi.yml
+  format: yaml
+  label: A10 Networks SLB Virtual Server API
+  slug: a10-networks-slb-virtual-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/openapi/a10-networks-slb-virtual-server-api-openapi.yml
 description: ''
 domains:
 - caa: []

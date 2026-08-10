@@ -1,23 +1,65 @@
 ---
 api_specs:
-- filename: blockchain.com-exchange-openapi.yml
-  format: yaml
-  label: Blockchain.com Exchange REST API
-  slug: blockchaincom-exchange-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-exchange-openapi.yml
-- filename: blockchain.com-pay-partner-api-openapi.yml
-  format: yaml
-  label: Blockchain.com Pay Partner API
-  slug: blockchaincom-pay-partner-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-pay-partner-api-openapi.yml
 - filename: blockchain.com-nft-market-api-swagger.json
   format: json
   label: Blockchain.com NFT Market API
   slug: blockchaincom-nft-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-nft-market-api-swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/_original/blockchain.com-nft-market-api-swagger.json
+- filename: blockchain.com-eligibility-api-openapi.yml
+  format: yaml
+  label: Blockchain.com Eligibility API
+  slug: blockchain.com-eligibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-eligibility-api-openapi.yml
+- filename: blockchain.com-nft-api-openapi.yml
+  format: yaml
+  label: Blockchain.com Nft API
+  slug: blockchain.com-nft-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-nft-api-openapi.yml
+- filename: blockchain.com-nft-v2-api-openapi.yml
+  format: yaml
+  label: Blockchain.com Nft V2 API
+  slug: blockchain.com-nft-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-nft-v2-api-openapi.yml
+- filename: blockchain.com-orders-api-openapi.yml
+  format: yaml
+  label: Blockchain.com Orders API
+  slug: blockchain.com-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-orders-api-openapi.yml
+- filename: blockchain.com-payments-api-openapi.yml
+  format: yaml
+  label: Blockchain.com Payments API
+  slug: blockchain.com-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-payments-api-openapi.yml
+- filename: blockchain.com-public-api-openapi.yml
+  format: yaml
+  label: Blockchain.com Public API
+  slug: blockchain.com-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-public-api-openapi.yml
+- filename: blockchain.com-quote-api-openapi.yml
+  format: yaml
+  label: Blockchain.com Quote API
+  slug: blockchain.com-quote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-quote-api-openapi.yml
+- filename: blockchain.com-trading-api-openapi.yml
+  format: yaml
+  label: Blockchain.com Trading API
+  slug: blockchain.com-trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-trading-api-openapi.yml
+- filename: blockchain.com-unauthenticated-api-openapi.yml
+  format: yaml
+  label: Blockchain.com Unauthenticated API
+  slug: blockchain.com-unauthenticated-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-unauthenticated-api-openapi.yml
 description: ''
 domains:
 - caa: []

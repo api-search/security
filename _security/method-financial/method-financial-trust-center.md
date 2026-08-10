@@ -1,0 +1,286 @@
+---
+api_specs:
+- filename: method-financial-account-attributes-api-openapi.yml
+  format: yaml
+  label: Method Financial Account Attributes API
+  slug: method-financial-account-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-account-attributes-api-openapi.yml
+- filename: method-financial-account-balances-api-openapi.yml
+  format: yaml
+  label: Method Financial Account Balances API
+  slug: method-financial-account-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-account-balances-api-openapi.yml
+- filename: method-financial-account-card-brands-api-openapi.yml
+  format: yaml
+  label: Method Financial Account Card Brands API
+  slug: method-financial-account-card-brands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-account-card-brands-api-openapi.yml
+- filename: method-financial-account-consent-api-openapi.yml
+  format: yaml
+  label: Method Financial Account Consent API
+  slug: method-financial-account-consent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-account-consent-api-openapi.yml
+- filename: method-financial-account-payment-instruments-api-openapi.yml
+  format: yaml
+  label: Method Financial Account Payment Instruments API
+  slug: method-financial-account-payment-instruments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-account-payment-instruments-api-openapi.yml
+- filename: method-financial-account-payoffs-api-openapi.yml
+  format: yaml
+  label: Method Financial Account Payoffs API
+  slug: method-financial-account-payoffs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-account-payoffs-api-openapi.yml
+- filename: method-financial-account-products-api-openapi.yml
+  format: yaml
+  label: Method Financial Account Products API
+  slug: method-financial-account-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-account-products-api-openapi.yml
+- filename: method-financial-account-sensitive-api-openapi.yml
+  format: yaml
+  label: Method Financial Account Sensitive API
+  slug: method-financial-account-sensitive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-account-sensitive-api-openapi.yml
+- filename: method-financial-account-subscriptions-api-openapi.yml
+  format: yaml
+  label: Method Financial Account Subscriptions API
+  slug: method-financial-account-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-account-subscriptions-api-openapi.yml
+- filename: method-financial-account-transactions-api-openapi.yml
+  format: yaml
+  label: Method Financial Account Transactions API
+  slug: method-financial-account-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-account-transactions-api-openapi.yml
+- filename: method-financial-account-updates-api-openapi.yml
+  format: yaml
+  label: Method Financial Account Updates API
+  slug: method-financial-account-updates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-account-updates-api-openapi.yml
+- filename: method-financial-account-verification-sessions-api-openapi.yml
+  format: yaml
+  label: Method Financial Account Verification Sessions API
+  slug: method-financial-account-verification-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-account-verification-sessions-api-openapi.yml
+- filename: method-financial-accounts-api-openapi.yml
+  format: yaml
+  label: Method Financial Accounts API
+  slug: method-financial-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-accounts-api-openapi.yml
+- filename: method-financial-card-products-api-openapi.yml
+  format: yaml
+  label: Method Financial Card Products API
+  slug: method-financial-card-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-card-products-api-openapi.yml
+- filename: method-financial-elements-api-openapi.yml
+  format: yaml
+  label: Method Financial Elements API
+  slug: method-financial-elements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-elements-api-openapi.yml
+- filename: method-financial-entities-api-openapi.yml
+  format: yaml
+  label: Method Financial Entities API
+  slug: method-financial-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-entities-api-openapi.yml
+- filename: method-financial-entity-attributes-api-openapi.yml
+  format: yaml
+  label: Method Financial Entity Attributes API
+  slug: method-financial-entity-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-entity-attributes-api-openapi.yml
+- filename: method-financial-entity-connects-api-openapi.yml
+  format: yaml
+  label: Method Financial Entity Connects API
+  slug: method-financial-entity-connects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-entity-connects-api-openapi.yml
+- filename: method-financial-entity-consent-api-openapi.yml
+  format: yaml
+  label: Method Financial Entity Consent API
+  slug: method-financial-entity-consent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-entity-consent-api-openapi.yml
+- filename: method-financial-entity-credit-scores-api-openapi.yml
+  format: yaml
+  label: Method Financial Entity Credit Scores API
+  slug: method-financial-entity-credit-scores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-entity-credit-scores-api-openapi.yml
+- filename: method-financial-entity-identities-api-openapi.yml
+  format: yaml
+  label: Method Financial Entity Identities API
+  slug: method-financial-entity-identities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-entity-identities-api-openapi.yml
+- filename: method-financial-entity-products-api-openapi.yml
+  format: yaml
+  label: Method Financial Entity Products API
+  slug: method-financial-entity-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-entity-products-api-openapi.yml
+- filename: method-financial-entity-subscriptions-api-openapi.yml
+  format: yaml
+  label: Method Financial Entity Subscriptions API
+  slug: method-financial-entity-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-entity-subscriptions-api-openapi.yml
+- filename: method-financial-entity-vehicles-api-openapi.yml
+  format: yaml
+  label: Method Financial Entity Vehicles API
+  slug: method-financial-entity-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-entity-vehicles-api-openapi.yml
+- filename: method-financial-entity-verification-sessions-api-openapi.yml
+  format: yaml
+  label: Method Financial Entity Verification Sessions API
+  slug: method-financial-entity-verification-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-entity-verification-sessions-api-openapi.yml
+- filename: method-financial-events-api-openapi.yml
+  format: yaml
+  label: Method Financial Events API
+  slug: method-financial-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-events-api-openapi.yml
+- filename: method-financial-forwarding-requests-api-openapi.yml
+  format: yaml
+  label: Method Financial Forwarding Requests API
+  slug: method-financial-forwarding-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-forwarding-requests-api-openapi.yml
+- filename: method-financial-managed-accounts-api-openapi.yml
+  format: yaml
+  label: Method Financial Managed Accounts API
+  slug: method-financial-managed-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-managed-accounts-api-openapi.yml
+- filename: method-financial-merchants-api-openapi.yml
+  format: yaml
+  label: Method Financial Merchants API
+  slug: method-financial-merchants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-merchants-api-openapi.yml
+- filename: method-financial-opal-api-openapi.yml
+  format: yaml
+  label: Method Financial Opal API
+  slug: method-financial-opal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-opal-api-openapi.yml
+- filename: method-financial-payment-reversals-api-openapi.yml
+  format: yaml
+  label: Method Financial Payment Reversals API
+  slug: method-financial-payment-reversals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-payment-reversals-api-openapi.yml
+- filename: method-financial-payments-api-openapi.yml
+  format: yaml
+  label: Method Financial Payments API
+  slug: method-financial-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-payments-api-openapi.yml
+- filename: method-financial-ping-api-openapi.yml
+  format: yaml
+  label: Method Financial Ping API
+  slug: method-financial-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-ping-api-openapi.yml
+- filename: method-financial-public-keys-api-openapi.yml
+  format: yaml
+  label: Method Financial Public Keys API
+  slug: method-financial-public-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-public-keys-api-openapi.yml
+- filename: method-financial-reports-api-openapi.yml
+  format: yaml
+  label: Method Financial Reports API
+  slug: method-financial-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-reports-api-openapi.yml
+- filename: method-financial-secrets-api-openapi.yml
+  format: yaml
+  label: Method Financial Secrets API
+  slug: method-financial-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-secrets-api-openapi.yml
+- filename: method-financial-simulate-accounts-api-openapi.yml
+  format: yaml
+  label: Method Financial Simulate Accounts API
+  slug: method-financial-simulate-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-simulate-accounts-api-openapi.yml
+- filename: method-financial-simulate-entities-api-openapi.yml
+  format: yaml
+  label: Method Financial Simulate Entities API
+  slug: method-financial-simulate-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-simulate-entities-api-openapi.yml
+- filename: method-financial-simulate-events-api-openapi.yml
+  format: yaml
+  label: Method Financial Simulate Events API
+  slug: method-financial-simulate-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-simulate-events-api-openapi.yml
+- filename: method-financial-simulate-payments-api-openapi.yml
+  format: yaml
+  label: Method Financial Simulate Payments API
+  slug: method-financial-simulate-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-simulate-payments-api-openapi.yml
+- filename: method-financial-teams-api-openapi.yml
+  format: yaml
+  label: Method Financial Teams API
+  slug: method-financial-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-teams-api-openapi.yml
+- filename: method-financial-webhooks-api-openapi.yml
+  format: yaml
+  label: Method Financial Webhooks API
+  slug: method-financial-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-webhooks-api-openapi.yml
+certifications:
+- SOC 2 Type 2
+- PCI DSS v4.0.1
+description: ''
+kind: trust-center
+layout: security
+name: Method Financial Trust Center
+name_suffix: Trust Center
+overview: Method Financial maintains a public trust center documenting SOC 2 Type 2 and PCI DSS v4.0.1 compliance.
+provider_name: Method Financial
+provider_slug: method-financial
+slug: method-financial-trust-center
+source_filename: method-financial-trust-center.yml
+source_heading: Trust Center
+source_url: ''
+source_yaml: "generated: '2026-08-04'\nmethod: searched\nprobe: true\nsource: https://security.methodfi.com/\nurl: https://security.methodfi.com/\nplatform: SafeBase\ncertifications:\n- SOC 2 Type 2\n- PCI DSS v4.0.1\nregulatory_frameworks:\n- GLBA\n- CCPA\nresponsible_disclosure:\n  published: true\n  contact: security@methodfi.com\n  artifact: security/method-financial-vulnerability-disclosure.yml\nsupport_contact: support@methodfi.com\nevidence:\n- source: https://security.methodfi.com/\n  http_status: 200\n  keywords:\n  - soc 2 type 2\n  - pci dss\n  - glba\n  - ccpa\n  - responsible disclosure\n  - trust center\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/security/method-financial-trust-center.yml
+summary_line: SOC 2 Type 2, PCI DSS v4.0.1
+tags:
+- Company
+- Financial Services
+- Fintech
+- Lending
+- Payments
+- Liability Data
+- Credit
+- Debt
+- Open Banking
+- Identity Verification
+- Personal Finance
+trust_url: https://security.methodfi.com/
+---

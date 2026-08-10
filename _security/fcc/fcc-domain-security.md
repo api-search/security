@@ -1,17 +1,77 @@
 ---
 api_specs:
-- filename: fcc-area-census-block-api.yaml
+- filename: fcc-am-pattern-api-openapi.yml
   format: yaml
-  label: FCC Area and Census Block API
-  slug: area-census-block
+  label: FCC (Federal Communications Commission) Am Pattern API
+  slug: fcc-am-pattern-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-area-census-block-api.yaml
-- filename: fcc-contours-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-am-pattern-api-openapi.yml
+- filename: fcc-antenna-api-openapi.yml
   format: yaml
-  label: FCC Contours API
-  slug: contours
+  label: FCC (Federal Communications Commission) Antenna API
+  slug: fcc-antenna-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-contours-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-antenna-api-openapi.yml
+- filename: fcc-area-api-openapi.yml
+  format: yaml
+  label: FCC (Federal Communications Commission) Area API
+  slug: fcc-area-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-area-api-openapi.yml
+- filename: fcc-block-api-openapi.yml
+  format: yaml
+  label: FCC (Federal Communications Commission) Block API
+  slug: fcc-block-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-block-api-openapi.yml
+- filename: fcc-coordinate-conversion-api-openapi.yml
+  format: yaml
+  label: FCC (Federal Communications Commission) Coordinate Conversion API
+  slug: fcc-coordinate-conversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-coordinate-conversion-api-openapi.yml
+- filename: fcc-coverage-api-openapi.yml
+  format: yaml
+  label: FCC (Federal Communications Commission) Coverage API
+  slug: fcc-coverage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-coverage-api-openapi.yml
+- filename: fcc-distance-api-openapi.yml
+  format: yaml
+  label: FCC (Federal Communications Commission) Distance API
+  slug: fcc-distance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-distance-api-openapi.yml
+- filename: fcc-elevation-api-openapi.yml
+  format: yaml
+  label: FCC (Federal Communications Commission) Elevation API
+  slug: fcc-elevation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-elevation-api-openapi.yml
+- filename: fcc-entity-api-openapi.yml
+  format: yaml
+  label: FCC (Federal Communications Commission) Entity API
+  slug: fcc-entity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-entity-api-openapi.yml
+- filename: fcc-haat-api-openapi.yml
+  format: yaml
+  label: FCC (Federal Communications Commission) Haat API
+  slug: fcc-haat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-haat-api-openapi.yml
+- filename: fcc-profile-api-openapi.yml
+  format: yaml
+  label: FCC (Federal Communications Commission) Profile API
+  slug: fcc-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-profile-api-openapi.yml
+- filename: fcc-projection-api-openapi.yml
+  format: yaml
+  label: FCC (Federal Communications Commission) Projection API
+  slug: fcc-projection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-projection-api-openapi.yml
 description: ''
 domains:
 - caa: []

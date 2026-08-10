@@ -2,12 +2,6 @@
 api_key_in:
 - header
 api_specs:
-- filename: mathpix-document-ocr-api-openapi.yml
-  format: yaml
-  label: Mathpix Document OCR API
-  slug: mathpix-document-ocr-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-document-ocr-api-openapi.yml
 - filename: mathpix-strokes-api-openapi.yml
   format: yaml
   label: Mathpix Strokes API
@@ -44,6 +38,12 @@ api_specs:
   slug: mathpix-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-usage-api-openapi.yml
+- filename: mathpix-documents-api-openapi.yml
+  format: yaml
+  label: Mathpix Documents API
+  slug: mathpix-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-documents-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

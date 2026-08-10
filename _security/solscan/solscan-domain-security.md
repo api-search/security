@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: solscan-openapi.yml
+- filename: solscan-account-api-openapi.yml
   format: yaml
-  label: Solscan Pro API
-  slug: pro-api
+  label: Solscan Account API
+  slug: solscan-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solscan/refs/heads/main/openapi/solscan-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/solscan/refs/heads/main/openapi/solscan-account-api-openapi.yml
+- filename: solscan-block-api-openapi.yml
+  format: yaml
+  label: Solscan Block API
+  slug: solscan-block-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solscan/refs/heads/main/openapi/solscan-block-api-openapi.yml
+- filename: solscan-nft-api-openapi.yml
+  format: yaml
+  label: Solscan NFT API
+  slug: solscan-nft-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solscan/refs/heads/main/openapi/solscan-nft-api-openapi.yml
+- filename: solscan-token-api-openapi.yml
+  format: yaml
+  label: Solscan Token API
+  slug: solscan-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solscan/refs/heads/main/openapi/solscan-token-api-openapi.yml
+- filename: solscan-transaction-api-openapi.yml
+  format: yaml
+  label: Solscan Transaction API
+  slug: solscan-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solscan/refs/heads/main/openapi/solscan-transaction-api-openapi.yml
 description: ''
 domains:
 - caa: []

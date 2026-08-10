@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: saildrone-mission-api-openapi.yml
+- filename: saildrone-authentication-api-openapi.yml
   format: yaml
-  label: Saildrone Mission API
-  slug: saildrone-mission-api
+  label: Saildrone Authentication API
+  slug: saildrone-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/openapi/saildrone-mission-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/openapi/saildrone-authentication-api-openapi.yml
+- filename: saildrone-health-api-openapi.yml
+  format: yaml
+  label: Saildrone Health API
+  slug: saildrone-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/openapi/saildrone-health-api-openapi.yml
+- filename: saildrone-time-series-api-openapi.yml
+  format: yaml
+  label: Saildrone Time Series API
+  slug: saildrone-time-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/openapi/saildrone-time-series-api-openapi.yml
 description: ''
 domains:
 - caa: []

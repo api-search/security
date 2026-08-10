@@ -188,6 +188,7 @@ footer:
       items:
         - { label: About, url: 'https://apis.io/about/' }
         - { label: Blog, url: 'https://apis.io/blog/' }
+        - { label: Newsletter, url: 'https://usecommune.com/n/apisio' }
         - { label: Services, url: 'https://apis.io/services/' }
         - { label: Add Your API, url: 'https://apis.io/add/' }
         - { label: Support, url: 'https://apis.io/support/' }

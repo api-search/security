@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: sonarqube-web-api-openapi.yml
+- filename: sonarqube-issues-api-openapi.yml
   format: yaml
-  label: SonarQube Web API
-  slug: web-api
+  label: SonarQube Issues API
+  slug: sonarqube-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarqube/refs/heads/main/openapi/sonarqube-web-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sonarqube/refs/heads/main/openapi/sonarqube-issues-api-openapi.yml
+- filename: sonarqube-measures-api-openapi.yml
+  format: yaml
+  label: SonarQube Measures API
+  slug: sonarqube-measures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonarqube/refs/heads/main/openapi/sonarqube-measures-api-openapi.yml
+- filename: sonarqube-projects-api-openapi.yml
+  format: yaml
+  label: SonarQube Projects API
+  slug: sonarqube-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonarqube/refs/heads/main/openapi/sonarqube-projects-api-openapi.yml
+- filename: sonarqube-quality-gates-api-openapi.yml
+  format: yaml
+  label: SonarQube Quality Gates API
+  slug: sonarqube-quality-gates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonarqube/refs/heads/main/openapi/sonarqube-quality-gates-api-openapi.yml
+- filename: sonarqube-rules-api-openapi.yml
+  format: yaml
+  label: SonarQube Rules API
+  slug: sonarqube-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonarqube/refs/heads/main/openapi/sonarqube-rules-api-openapi.yml
+- filename: sonarqube-system-api-openapi.yml
+  format: yaml
+  label: SonarQube System API
+  slug: sonarqube-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonarqube/refs/heads/main/openapi/sonarqube-system-api-openapi.yml
+- filename: sonarqube-users-api-openapi.yml
+  format: yaml
+  label: SonarQube Users API
+  slug: sonarqube-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonarqube/refs/heads/main/openapi/sonarqube-users-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -5,13 +5,13 @@ api_specs:
   label: Homads Rental Market Data
   slug: rental-market-data
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/homads/refs/heads/main/openapi/homads-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/homads/refs/heads/main/openapi/_original/homads-openapi.yml
 - filename: homads-openapi.yml
   format: yaml
   label: Homads Rent Comparison
   slug: rent-comparison
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/homads/refs/heads/main/openapi/homads-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/homads/refs/heads/main/openapi/_original/homads-openapi.yml
 description: ''
 domains:
 - caa: []

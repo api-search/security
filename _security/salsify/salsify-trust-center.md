@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: salsify-api-settings-openapi.json
-  format: json
-  label: Salsify REST API
-  slug: rest
+- filename: salsify-digital-assets-api-openapi.yml
+  format: yaml
+  label: Salsify Digital Assets API
+  slug: salsify-digital-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-api-settings-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-digital-assets-api-openapi.yml
+- filename: salsify-export-runs-api-openapi.yml
+  format: yaml
+  label: Salsify Export Runs API
+  slug: salsify-export-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-export-runs-api-openapi.yml
+- filename: salsify-imports-api-openapi.yml
+  format: yaml
+  label: Salsify Imports API
+  slug: salsify-imports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-imports-api-openapi.yml
+- filename: salsify-lists-api-openapi.yml
+  format: yaml
+  label: Salsify Lists API
+  slug: salsify-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-lists-api-openapi.yml
+- filename: salsify-org-id-api-openapi.yml
+  format: yaml
+  label: Salsify <org ID> API
+  slug: salsify-org-id-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-org-id-api-openapi.yml
+- filename: salsify-products-api-openapi.yml
+  format: yaml
+  label: Salsify Products API
+  slug: salsify-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-products-api-openapi.yml
+- filename: salsify-properties-api-openapi.yml
+  format: yaml
+  label: Salsify Properties API
+  slug: salsify-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-properties-api-openapi.yml
+- filename: salsify-record-types-api-openapi.yml
+  format: yaml
+  label: Salsify Record Types API
+  slug: salsify-record-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-record-types-api-openapi.yml
+- filename: salsify-records-api-openapi.yml
+  format: yaml
+  label: Salsify Records API
+  slug: salsify-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-records-api-openapi.yml
 certifications:
 - SOC 2 Type II
 - ISO 27001:2013

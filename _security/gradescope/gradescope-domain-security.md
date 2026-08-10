@@ -5,31 +5,31 @@ api_specs:
   label: Gradescope LTI Integration
   slug: gradescope-lti-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradescope/refs/heads/main/openapi/gradescope-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gradescope/refs/heads/main/openapi/_original/gradescope-openapi.yml
 - filename: gradescope-openapi.yml
   format: yaml
   label: Gradescope Courses API
   slug: gradescope-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradescope/refs/heads/main/openapi/gradescope-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gradescope/refs/heads/main/openapi/_original/gradescope-openapi.yml
 - filename: gradescope-openapi.yml
   format: yaml
   label: Gradescope Assignments API
   slug: gradescope-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradescope/refs/heads/main/openapi/gradescope-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gradescope/refs/heads/main/openapi/_original/gradescope-openapi.yml
 - filename: gradescope-openapi.yml
   format: yaml
   label: Gradescope Submissions API
   slug: gradescope-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradescope/refs/heads/main/openapi/gradescope-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gradescope/refs/heads/main/openapi/_original/gradescope-openapi.yml
 - filename: gradescope-openapi.yml
   format: yaml
   label: Gradescope Grades API
   slug: gradescope-grades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradescope/refs/heads/main/openapi/gradescope-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gradescope/refs/heads/main/openapi/_original/gradescope-openapi.yml
 description: ''
 domains:
 - caa:

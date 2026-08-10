@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: vks-api-openapi.yml
+- filename: vks-integrations-guidebooks-api-openapi.yml
   format: yaml
-  label: VKS API
-  slug: vks-api
+  label: VKS Integrations Guidebooks API
+  slug: vks-integrations-guidebooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vks-integrations/refs/heads/main/openapi/vks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vks-integrations/refs/heads/main/openapi/vks-integrations-guidebooks-api-openapi.yml
+- filename: vks-integrations-operations-api-openapi.yml
+  format: yaml
+  label: VKS Integrations Operations API
+  slug: vks-integrations-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vks-integrations/refs/heads/main/openapi/vks-integrations-operations-api-openapi.yml
+- filename: vks-integrations-production-data-api-openapi.yml
+  format: yaml
+  label: VKS Integrations Production Data API
+  slug: vks-integrations-production-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vks-integrations/refs/heads/main/openapi/vks-integrations-production-data-api-openapi.yml
+- filename: vks-integrations-work-orders-api-openapi.yml
+  format: yaml
+  label: VKS Integrations Work Orders API
+  slug: vks-integrations-work-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vks-integrations/refs/heads/main/openapi/vks-integrations-work-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []

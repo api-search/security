@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: programming-quotes-openapi.yml
+- filename: programming-quotes-authentication-api-openapi.yml
   format: yaml
-  label: Programming Quotes
-  slug: programming-quotes
+  label: Programming Quotes Authentication API
+  slug: programming-quotes-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/programming-quotes/refs/heads/main/openapi/programming-quotes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/programming-quotes/refs/heads/main/openapi/programming-quotes-authentication-api-openapi.yml
+- filename: programming-quotes-quotes-api-openapi.yml
+  format: yaml
+  label: Programming Quotes Quotes API
+  slug: programming-quotes-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/programming-quotes/refs/heads/main/openapi/programming-quotes-quotes-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,17 +1,53 @@
 ---
 api_specs:
-- filename: uncle-nearest-events-calendar-v1-openapi.json
-  format: json
-  label: Uncle Nearest Events Calendar REST API (tribe/events/v1)
-  slug: uncle-nearest-events-calendar-rest-api-tribeeventsv1
+- filename: uncle-nearest-categories-api-openapi.yml
+  format: yaml
+  label: Uncle Nearest Categories API
+  slug: uncle-nearest-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uncle-nearest/refs/heads/main/openapi/uncle-nearest-events-calendar-v1-openapi.json
-- filename: uncle-nearest-tec-v1-openapi.json
-  format: json
-  label: Uncle Nearest Events Calendar REST API (tec/v1)
-  slug: uncle-nearest-events-calendar-rest-api-tecv1
+  url: https://raw.githubusercontent.com/api-evangelist/uncle-nearest/refs/heads/main/openapi/uncle-nearest-categories-api-openapi.yml
+- filename: uncle-nearest-common-api-openapi.yml
+  format: yaml
+  label: Uncle Nearest Common API
+  slug: uncle-nearest-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uncle-nearest/refs/heads/main/openapi/uncle-nearest-tec-v1-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/uncle-nearest/refs/heads/main/openapi/uncle-nearest-common-api-openapi.yml
+- filename: uncle-nearest-doc-api-openapi.yml
+  format: yaml
+  label: Uncle Nearest Doc API
+  slug: uncle-nearest-doc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uncle-nearest/refs/heads/main/openapi/uncle-nearest-doc-api-openapi.yml
+- filename: uncle-nearest-events-api-openapi.yml
+  format: yaml
+  label: Uncle Nearest Events API
+  slug: uncle-nearest-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uncle-nearest/refs/heads/main/openapi/uncle-nearest-events-api-openapi.yml
+- filename: uncle-nearest-events-pro-api-openapi.yml
+  format: yaml
+  label: Uncle Nearest Events Pro API
+  slug: uncle-nearest-events-pro-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uncle-nearest/refs/heads/main/openapi/uncle-nearest-events-pro-api-openapi.yml
+- filename: uncle-nearest-organizers-api-openapi.yml
+  format: yaml
+  label: Uncle Nearest Organizers API
+  slug: uncle-nearest-organizers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uncle-nearest/refs/heads/main/openapi/uncle-nearest-organizers-api-openapi.yml
+- filename: uncle-nearest-tags-api-openapi.yml
+  format: yaml
+  label: Uncle Nearest Tags API
+  slug: uncle-nearest-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uncle-nearest/refs/heads/main/openapi/uncle-nearest-tags-api-openapi.yml
+- filename: uncle-nearest-venues-api-openapi.yml
+  format: yaml
+  label: Uncle Nearest Venues API
+  slug: uncle-nearest-venues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uncle-nearest/refs/heads/main/openapi/uncle-nearest-venues-api-openapi.yml
 description: ''
 domains:
 - caa: []

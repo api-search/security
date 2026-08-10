@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: songtradr-api-openapi.yml
+- filename: songtradr-allowed-values-api-openapi.yml
   format: yaml
-  label: Songtradr API
-  slug: songtradr-api
+  label: Songtradr Allowed Values API
+  slug: songtradr-allowed-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/openapi/songtradr-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/openapi/songtradr-allowed-values-api-openapi.yml
+- filename: songtradr-similarity-vector-controller-api-openapi.yml
+  format: yaml
+  label: Songtradr Similarity Vector Controller API
+  slug: songtradr-similarity-vector-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/openapi/songtradr-similarity-vector-controller-api-openapi.yml
+- filename: songtradr-user-api-openapi.yml
+  format: yaml
+  label: Songtradr User API
+  slug: songtradr-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/openapi/songtradr-user-api-openapi.yml
 auth_types:
 - http
 description: ''

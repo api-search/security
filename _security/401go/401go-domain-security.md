@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: 401go-openapi-original.json
-  format: json
-  label: 401GO API
-  slug: 401go-api
+- filename: 401go-affiliates-firms-api-openapi.yml
+  format: yaml
+  label: 401GO Affiliates & Firms API
+  slug: 401go-affiliates-firms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-affiliates-firms-api-openapi.yml
+- filename: 401go-beneficiaries-api-openapi.yml
+  format: yaml
+  label: 401GO Beneficiaries API
+  slug: 401go-beneficiaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-beneficiaries-api-openapi.yml
+- filename: 401go-companies-plans-api-openapi.yml
+  format: yaml
+  label: 401GO Companies & Plans API
+  slug: 401go-companies-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-companies-plans-api-openapi.yml
+- filename: 401go-contributions-payroll-api-openapi.yml
+  format: yaml
+  label: 401GO Contributions & Payroll API
+  slug: 401go-contributions-payroll-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-contributions-payroll-api-openapi.yml
+- filename: 401go-documents-api-openapi.yml
+  format: yaml
+  label: 401GO Documents API
+  slug: 401go-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-documents-api-openapi.yml
+- filename: 401go-investments-portfolios-api-openapi.yml
+  format: yaml
+  label: 401GO Investments & Portfolios API
+  slug: 401go-investments-portfolios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-investments-portfolios-api-openapi.yml
+- filename: 401go-money-movement-api-openapi.yml
+  format: yaml
+  label: 401GO Money Movement API
+  slug: 401go-money-movement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-money-movement-api-openapi.yml
+- filename: 401go-notifications-api-openapi.yml
+  format: yaml
+  label: 401GO Notifications API
+  slug: 401go-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-notifications-api-openapi.yml
+- filename: 401go-participants-api-openapi.yml
+  format: yaml
+  label: 401GO Participants API
+  slug: 401go-participants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-participants-api-openapi.yml
+- filename: 401go-retirement-planning-api-openapi.yml
+  format: yaml
+  label: 401GO Retirement Planning API
+  slug: 401go-retirement-planning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-retirement-planning-api-openapi.yml
 description: ''
 domains:
 - caa: []

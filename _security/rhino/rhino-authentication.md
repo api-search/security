@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rhino-partner-api-openapi.json
-  format: json
-  label: SayRhino Partner API
-  slug: sayrhino-partner-api
+- filename: rhino-authentication-api-openapi.yml
+  format: yaml
+  label: Rhino Authentication API
+  slug: rhino-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/openapi/rhino-partner-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/openapi/rhino-authentication-api-openapi.yml
+- filename: rhino-partnerapi-v2-test-resident-api-openapi.yml
+  format: yaml
+  label: Rhino Partner Api::V2::Test::Resident API
+  slug: rhino-partnerapi-v2-test-resident-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/openapi/rhino-partnerapi-v2-test-resident-api-openapi.yml
+- filename: rhino-partnerapi-v2-test-sayrhinouser-api-openapi.yml
+  format: yaml
+  label: Rhino Partner Api::V2::Test::Sayrhino User API
+  slug: rhino-partnerapi-v2-test-sayrhinouser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/openapi/rhino-partnerapi-v2-test-sayrhinouser-api-openapi.yml
+- filename: rhino-prospects-api-openapi.yml
+  format: yaml
+  label: Rhino Prospects API
+  slug: rhino-prospects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/openapi/rhino-prospects-api-openapi.yml
+- filename: rhino-webhooks-api-openapi.yml
+  format: yaml
+  label: Rhino Webhooks API
+  slug: rhino-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/openapi/rhino-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2

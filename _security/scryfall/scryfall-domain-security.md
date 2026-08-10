@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: scryfall-openapi.yml
+- filename: scryfall-bulk-data-api-openapi.yml
   format: yaml
-  label: Scryfall API
-  slug: scryfall-api
+  label: Scryfall Bulk Data API
+  slug: scryfall-bulk-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scryfall/refs/heads/main/openapi/scryfall-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scryfall/refs/heads/main/openapi/scryfall-bulk-data-api-openapi.yml
+- filename: scryfall-cards-api-openapi.yml
+  format: yaml
+  label: Scryfall Cards API
+  slug: scryfall-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scryfall/refs/heads/main/openapi/scryfall-cards-api-openapi.yml
+- filename: scryfall-catalogs-api-openapi.yml
+  format: yaml
+  label: Scryfall Catalogs API
+  slug: scryfall-catalogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scryfall/refs/heads/main/openapi/scryfall-catalogs-api-openapi.yml
+- filename: scryfall-migrations-api-openapi.yml
+  format: yaml
+  label: Scryfall Migrations API
+  slug: scryfall-migrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scryfall/refs/heads/main/openapi/scryfall-migrations-api-openapi.yml
+- filename: scryfall-rulings-api-openapi.yml
+  format: yaml
+  label: Scryfall Rulings API
+  slug: scryfall-rulings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scryfall/refs/heads/main/openapi/scryfall-rulings-api-openapi.yml
+- filename: scryfall-sets-api-openapi.yml
+  format: yaml
+  label: Scryfall Sets API
+  slug: scryfall-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scryfall/refs/heads/main/openapi/scryfall-sets-api-openapi.yml
+- filename: scryfall-symbology-api-openapi.yml
+  format: yaml
+  label: Scryfall Symbology API
+  slug: scryfall-symbology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scryfall/refs/heads/main/openapi/scryfall-symbology-api-openapi.yml
 description: ''
 domains:
 - caa:

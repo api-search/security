@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: openapi-specification.html
-  format: yaml
-  label: Zoho CRM REST API v8
-  slug: rest-api-v8
-  spec_type: OpenAPI
-  url: https://www.zoho.com/crm/developer/docs/api/v8/openapi-specification.html
 - filename: zoho-crm-notifications-asyncapi.yml
   format: yaml
   label: Zoho CRM Notifications API v2
   slug: notifications-api-v2
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/asyncapi/zoho-crm-notifications-asyncapi.yml
+- filename: zoho-crm-settings-api-openapi.yml
+  format: yaml
+  label: Zoho CRM Settings API
+  slug: zoho-crm-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/openapi/zoho-crm-settings-api-openapi.yml
+- filename: zoho-crm-zoho-crm-api-api-openapi.yml
+  format: yaml
+  label: Zoho CRM Zoho CRM API API
+  slug: zoho-crm-zoho-crm-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/openapi/zoho-crm-zoho-crm-api-api-openapi.yml
 description: ''
 domains:
 - caa:

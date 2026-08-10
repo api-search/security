@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: codametrix-components-api-openapi.yml
+  format: yaml
+  label: CodaMetrix Components API
+  slug: codametrix-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/openapi/codametrix-components-api-openapi.yml
+- filename: codametrix-incidents-api-openapi.yml
+  format: yaml
+  label: CodaMetrix Incidents API
+  slug: codametrix-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/openapi/codametrix-incidents-api-openapi.yml
+- filename: codametrix-scheduled-maintenances-api-openapi.yml
+  format: yaml
+  label: CodaMetrix Scheduled Maintenances API
+  slug: codametrix-scheduled-maintenances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/openapi/codametrix-scheduled-maintenances-api-openapi.yml
+- filename: codametrix-status-api-openapi.yml
+  format: yaml
+  label: CodaMetrix Status API
+  slug: codametrix-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/openapi/codametrix-status-api-openapi.yml
+- filename: codametrix-summary-api-openapi.yml
+  format: yaml
+  label: CodaMetrix Summary API
+  slug: codametrix-summary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/openapi/codametrix-summary-api-openapi.yml
 certifications:
 - SOC 2
 - SOC 2 Type 2

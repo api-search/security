@@ -49,6 +49,18 @@ api_specs:
   slug: openstreetmap-ways-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/openapi/openstreetmap-ways-api-openapi.yml
+- filename: openstreetmap-geocoding-api-openapi.yml
+  format: yaml
+  label: OpenStreetMap Geocoding API
+  slug: openstreetmap-geocoding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/openapi/openstreetmap-geocoding-api-openapi.yml
+- filename: openstreetmap-status-api-openapi.yml
+  format: yaml
+  label: OpenStreetMap Status API
+  slug: openstreetmap-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/openapi/openstreetmap-status-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

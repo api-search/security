@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: siliconflow-openapi.yml
+- filename: siliconflow-audio-api-openapi.yml
   format: yaml
-  label: SiliconFlow Cloud Platform API
-  slug: platform
+  label: SiliconFlow Audio API
+  slug: siliconflow-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-audio-api-openapi.yml
+- filename: siliconflow-chat-api-openapi.yml
+  format: yaml
+  label: SiliconFlow Chat API
+  slug: siliconflow-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-chat-api-openapi.yml
+- filename: siliconflow-completions-api-openapi.yml
+  format: yaml
+  label: SiliconFlow Completions API
+  slug: siliconflow-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-completions-api-openapi.yml
+- filename: siliconflow-embeddings-api-openapi.yml
+  format: yaml
+  label: SiliconFlow Embeddings API
+  slug: siliconflow-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-embeddings-api-openapi.yml
+- filename: siliconflow-images-api-openapi.yml
+  format: yaml
+  label: SiliconFlow Images API
+  slug: siliconflow-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-images-api-openapi.yml
+- filename: siliconflow-messages-api-openapi.yml
+  format: yaml
+  label: SiliconFlow Messages API
+  slug: siliconflow-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-messages-api-openapi.yml
+- filename: siliconflow-models-api-openapi.yml
+  format: yaml
+  label: SiliconFlow Models API
+  slug: siliconflow-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-models-api-openapi.yml
+- filename: siliconflow-rerank-api-openapi.yml
+  format: yaml
+  label: SiliconFlow Rerank API
+  slug: siliconflow-rerank-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-rerank-api-openapi.yml
+- filename: siliconflow-user-api-openapi.yml
+  format: yaml
+  label: SiliconFlow User API
+  slug: siliconflow-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-user-api-openapi.yml
+- filename: siliconflow-videos-api-openapi.yml
+  format: yaml
+  label: SiliconFlow Videos API
+  slug: siliconflow-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-videos-api-openapi.yml
 description: ''
 domains:
 - caa: []

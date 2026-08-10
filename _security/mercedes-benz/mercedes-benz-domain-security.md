@@ -1,17 +1,4 @@
 ---
-api_specs:
-- filename: car_configurator
-  format: yaml
-  label: Mercedes-Benz Car Configurator API
-  slug: car-configurator-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-benz/refs/heads/main/properties/car_configurator
-- filename: command_management_api
-  format: yaml
-  label: Mercedes-Benz Connect Your Business API
-  slug: connect-your-business-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-benz/refs/heads/main/properties/command_management_api
 description: ''
 domains:
 - caa: []

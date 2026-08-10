@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: videoamp-public-api-openapi.yml
+- filename: videoamp-admeasurements-api-openapi.yml
   format: yaml
-  label: VideoAmp Public API
-  slug: videoamp-public-api
+  label: VideoAmp Ad Measurements API
+  slug: videoamp-admeasurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-public-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-admeasurements-api-openapi.yml
+- filename: videoamp-audiences-api-openapi.yml
+  format: yaml
+  label: VideoAmp Audiences API
+  slug: videoamp-audiences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-audiences-api-openapi.yml
+- filename: videoamp-campaigns-api-openapi.yml
+  format: yaml
+  label: VideoAmp Campaigns API
+  slug: videoamp-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-campaigns-api-openapi.yml
+- filename: videoamp-consents-api-openapi.yml
+  format: yaml
+  label: VideoAmp Consents API
+  slug: videoamp-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-consents-api-openapi.yml
+- filename: videoamp-content-api-openapi.yml
+  format: yaml
+  label: VideoAmp Content API
+  slug: videoamp-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-content-api-openapi.yml
+- filename: videoamp-currency-of-record-api-openapi.yml
+  format: yaml
+  label: VideoAmp Currency Of Record API
+  slug: videoamp-currency-of-record-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-currency-of-record-api-openapi.yml
+- filename: videoamp-datastreams-api-openapi.yml
+  format: yaml
+  label: VideoAmp Data Streams API
+  slug: videoamp-datastreams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-datastreams-api-openapi.yml
+- filename: videoamp-datastreamtypes-api-openapi.yml
+  format: yaml
+  label: VideoAmp Data Stream Types API
+  slug: videoamp-datastreamtypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-datastreamtypes-api-openapi.yml
+- filename: videoamp-inventories-api-openapi.yml
+  format: yaml
+  label: VideoAmp Inventories API
+  slug: videoamp-inventories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-inventories-api-openapi.yml
+- filename: videoamp-library-api-openapi.yml
+  format: yaml
+  label: VideoAmp Library API
+  slug: videoamp-library-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-library-api-openapi.yml
+- filename: videoamp-me-api-openapi.yml
+  format: yaml
+  label: VideoAmp Me API
+  slug: videoamp-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-me-api-openapi.yml
+- filename: videoamp-plans-api-openapi.yml
+  format: yaml
+  label: VideoAmp Plans API
+  slug: videoamp-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-plans-api-openapi.yml
+- filename: videoamp-reports-api-openapi.yml
+  format: yaml
+  label: VideoAmp Reports API
+  slug: videoamp-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-reports-api-openapi.yml
+- filename: videoamp-shares-api-openapi.yml
+  format: yaml
+  label: VideoAmp Shares API
+  slug: videoamp-shares-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-shares-api-openapi.yml
 description: ''
 domains:
 - caa: []

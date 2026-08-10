@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: back-market-openapi-original.yml
+- filename: back-market-backbox-api-openapi.yml
   format: yaml
-  label: Back Market API
-  slug: back-market-api
+  label: Back Market Backbox API
+  slug: back-market-backbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-backbox-api-openapi.yml
+- filename: back-market-backship-api-openapi.yml
+  format: yaml
+  label: Back Market Backship API
+  slug: back-market-backship-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-backship-api-openapi.yml
+- filename: back-market-buyback-api-openapi.yml
+  format: yaml
+  label: Back Market Buy Back API
+  slug: back-market-buyback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-buyback-api-openapi.yml
+- filename: back-market-care-api-openapi.yml
+  format: yaml
+  label: Back Market Care API
+  slug: back-market-care-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-care-api-openapi.yml
+- filename: back-market-categories-api-openapi.yml
+  format: yaml
+  label: Back Market Categories API
+  slug: back-market-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-categories-api-openapi.yml
+- filename: back-market-listings-api-openapi.yml
+  format: yaml
+  label: Back Market Listings API
+  slug: back-market-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-listings-api-openapi.yml
+- filename: back-market-orderline-api-openapi.yml
+  format: yaml
+  label: Back Market Orderline API
+  slug: back-market-orderline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-orderline-api-openapi.yml
+- filename: back-market-orders-api-openapi.yml
+  format: yaml
+  label: Back Market Orders API
+  slug: back-market-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-orders-api-openapi.yml
+- filename: back-market-taskmanager-api-openapi.yml
+  format: yaml
+  label: Back Market Task Manager API
+  slug: back-market-taskmanager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-taskmanager-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -5,25 +5,25 @@ api_specs:
   label: Riiid Adaptive Learning
   slug: adaptive-learning
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riiid/refs/heads/main/openapi/riiid-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/riiid/refs/heads/main/openapi/_original/riiid-openapi.yml
 - filename: riiid-openapi.yml
   format: yaml
   label: Riiid Knowledge Tracing
   slug: knowledge-tracing
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riiid/refs/heads/main/openapi/riiid-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/riiid/refs/heads/main/openapi/_original/riiid-openapi.yml
 - filename: riiid-openapi.yml
   format: yaml
   label: Riiid Santa
   slug: santa
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riiid/refs/heads/main/openapi/riiid-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/riiid/refs/heads/main/openapi/_original/riiid-openapi.yml
 - filename: riiid-openapi.yml
   format: yaml
   label: Riiid Partner Solutions
   slug: partner-solutions
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riiid/refs/heads/main/openapi/riiid-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/riiid/refs/heads/main/openapi/_original/riiid-openapi.yml
 description: ''
 domains:
 - caa: []

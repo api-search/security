@@ -7,19 +7,19 @@ api_specs:
   label: FiftyOne SDK (Python)
   slug: fiftyone-sdk-python
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voxel51/refs/heads/main/openapi/voxel51-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/voxel51/refs/heads/main/openapi/_original/voxel51-openapi.yml
 - filename: voxel51-openapi.yml
   format: yaml
   label: FiftyOne Enterprise Management SDK / API
   slug: fiftyone-enterprise-management-sdk
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voxel51/refs/heads/main/openapi/voxel51-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/voxel51/refs/heads/main/openapi/_original/voxel51-openapi.yml
 - filename: voxel51-openapi.yml
   format: yaml
   label: FiftyOne Plugins & Operators
   slug: fiftyone-plugins-operators
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voxel51/refs/heads/main/openapi/voxel51-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/voxel51/refs/heads/main/openapi/_original/voxel51-openapi.yml
 auth_types:
 - apiKey
 description: ''

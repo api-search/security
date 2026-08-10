@@ -2,12 +2,120 @@
 api_key_in:
 - header
 api_specs:
-- filename: sandboxaq-flint-ai-platform-openapi.json
-  format: json
-  label: Flint AI Platform API
-  slug: flint-ai-platform-api
+- filename: sandboxaq-aispm-agents-api-openapi.yml
+  format: yaml
+  label: SandboxAQ Aispm Agents API
+  slug: sandboxaq-aispm-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/sandboxaq-flint-ai-platform-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/sandboxaq-aispm-agents-api-openapi.yml
+- filename: sandboxaq-aispm-dashboard-api-openapi.yml
+  format: yaml
+  label: SandboxAQ Aispm Dashboard API
+  slug: sandboxaq-aispm-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/sandboxaq-aispm-dashboard-api-openapi.yml
+- filename: sandboxaq-aispm-guardrails-api-openapi.yml
+  format: yaml
+  label: SandboxAQ Aispm Guardrails API
+  slug: sandboxaq-aispm-guardrails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/sandboxaq-aispm-guardrails-api-openapi.yml
+- filename: sandboxaq-aispm-llm-interactions-api-openapi.yml
+  format: yaml
+  label: SandboxAQ Aispm Llm Interactions API
+  slug: sandboxaq-aispm-llm-interactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/sandboxaq-aispm-llm-interactions-api-openapi.yml
+- filename: sandboxaq-aispm-llm-sessions-api-openapi.yml
+  format: yaml
+  label: SandboxAQ Aispm Llm Sessions API
+  slug: sandboxaq-aispm-llm-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/sandboxaq-aispm-llm-sessions-api-openapi.yml
+- filename: sandboxaq-aispm-mcp-servers-api-openapi.yml
+  format: yaml
+  label: SandboxAQ Aispm MCP Servers API
+  slug: sandboxaq-aispm-mcp-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/sandboxaq-aispm-mcp-servers-api-openapi.yml
+- filename: sandboxaq-aispm-models-api-openapi.yml
+  format: yaml
+  label: SandboxAQ Aispm Models API
+  slug: sandboxaq-aispm-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/sandboxaq-aispm-models-api-openapi.yml
+- filename: sandboxaq-aispm-tools-api-openapi.yml
+  format: yaml
+  label: SandboxAQ Aispm Tools API
+  slug: sandboxaq-aispm-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/sandboxaq-aispm-tools-api-openapi.yml
+- filename: sandboxaq-assets-api-openapi.yml
+  format: yaml
+  label: SandboxAQ Assets API
+  slug: sandboxaq-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/sandboxaq-assets-api-openapi.yml
+- filename: sandboxaq-client-storage-api-openapi.yml
+  format: yaml
+  label: SandboxAQ Client Storage API
+  slug: sandboxaq-client-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/sandboxaq-client-storage-api-openapi.yml
+- filename: sandboxaq-fine-issues-api-openapi.yml
+  format: yaml
+  label: SandboxAQ Fine Issues API
+  slug: sandboxaq-fine-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/sandboxaq-fine-issues-api-openapi.yml
+- filename: sandboxaq-inventory-api-openapi.yml
+  format: yaml
+  label: SandboxAQ Inventory API
+  slug: sandboxaq-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/sandboxaq-inventory-api-openapi.yml
+- filename: sandboxaq-issues-aispm-histograms-api-openapi.yml
+  format: yaml
+  label: SandboxAQ issues aispm histograms API
+  slug: sandboxaq-issues-aispm-histograms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/sandboxaq-issues-aispm-histograms-api-openapi.yml
+- filename: sandboxaq-issues-api-openapi.yml
+  format: yaml
+  label: SandboxAQ Issues API
+  slug: sandboxaq-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/sandboxaq-issues-api-openapi.yml
+- filename: sandboxaq-locations-api-openapi.yml
+  format: yaml
+  label: SandboxAQ Locations API
+  slug: sandboxaq-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/sandboxaq-locations-api-openapi.yml
+- filename: sandboxaq-rules-api-openapi.yml
+  format: yaml
+  label: SandboxAQ Rules API
+  slug: sandboxaq-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/sandboxaq-rules-api-openapi.yml
+- filename: sandboxaq-scans-api-openapi.yml
+  format: yaml
+  label: SandboxAQ Scans API
+  slug: sandboxaq-scans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/sandboxaq-scans-api-openapi.yml
+- filename: sandboxaq-scans-assets-api-openapi.yml
+  format: yaml
+  label: SandboxAQ scans assets API
+  slug: sandboxaq-scans-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/sandboxaq-scans-assets-api-openapi.yml
+- filename: sandboxaq-viewexports-api-openapi.yml
+  format: yaml
+  label: SandboxAQ View Exports API
+  slug: sandboxaq-viewexports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/sandboxaq-viewexports-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

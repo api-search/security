@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: wanapis-openapi.yml
+- filename: wanapis-audio-api-openapi.yml
   format: yaml
-  label: WanAPIs Unified AI API
-  slug: wanapis-unified-ai-api
+  label: WanAPIs Audio API
+  slug: wanapis-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wanapis/refs/heads/main/openapi/wanapis-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wanapis/refs/heads/main/openapi/wanapis-audio-api-openapi.yml
+- filename: wanapis-chat-api-openapi.yml
+  format: yaml
+  label: WanAPIs Chat API
+  slug: wanapis-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wanapis/refs/heads/main/openapi/wanapis-chat-api-openapi.yml
+- filename: wanapis-completions-api-openapi.yml
+  format: yaml
+  label: WanAPIs Completions API
+  slug: wanapis-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wanapis/refs/heads/main/openapi/wanapis-completions-api-openapi.yml
+- filename: wanapis-embeddings-api-openapi.yml
+  format: yaml
+  label: WanAPIs Embeddings API
+  slug: wanapis-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wanapis/refs/heads/main/openapi/wanapis-embeddings-api-openapi.yml
+- filename: wanapis-images-api-openapi.yml
+  format: yaml
+  label: WanAPIs Images API
+  slug: wanapis-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wanapis/refs/heads/main/openapi/wanapis-images-api-openapi.yml
+- filename: wanapis-models-api-openapi.yml
+  format: yaml
+  label: WanAPIs Models API
+  slug: wanapis-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wanapis/refs/heads/main/openapi/wanapis-models-api-openapi.yml
+- filename: wanapis-responses-api-openapi.yml
+  format: yaml
+  label: WanAPIs Responses API
+  slug: wanapis-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wanapis/refs/heads/main/openapi/wanapis-responses-api-openapi.yml
+- filename: wanapis-tasks-api-openapi.yml
+  format: yaml
+  label: WanAPIs Tasks API
+  slug: wanapis-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wanapis/refs/heads/main/openapi/wanapis-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []

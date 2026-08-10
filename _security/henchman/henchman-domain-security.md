@@ -5,19 +5,19 @@ api_specs:
   label: Henchman Clause and Definition Search
   slug: clause-and-definition-search
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/henchman/refs/heads/main/openapi/henchman-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/henchman/refs/heads/main/openapi/_original/henchman-openapi.yml
 - filename: henchman-openapi.yml
   format: yaml
   label: Henchman Knowledge Base
   slug: knowledge-base
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/henchman/refs/heads/main/openapi/henchman-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/henchman/refs/heads/main/openapi/_original/henchman-openapi.yml
 - filename: henchman-openapi.yml
   format: yaml
   label: Henchman Integrations
   slug: integrations
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/henchman/refs/heads/main/openapi/henchman-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/henchman/refs/heads/main/openapi/_original/henchman-openapi.yml
 description: ''
 domains:
 - caa: []

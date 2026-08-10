@@ -2,36 +2,96 @@
 api_key_in:
 - cookie
 api_specs:
-- filename: solo-io-portal-server-openapi.yml
+- filename: solo-io-api-keys-api-openapi.yml
   format: yaml
-  label: Gloo Portal Server API
-  slug: portal-server
+  label: Solo.io API Keys API
+  slug: solo-io-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-portal-server-openapi.yml
-- filename: solo-io-portal-backend-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-api-keys-api-openapi.yml
+- filename: solo-io-api-products-api-openapi.yml
   format: yaml
-  label: Gloo Portal Backend API
-  slug: portal-backend
+  label: Solo.io API Products API
+  slug: solo-io-api-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-portal-backend-openapi.yml
-- filename: solo-io-gloo-platform-portal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-api-products-api-openapi.yml
+- filename: solo-io-apis-api-openapi.yml
   format: yaml
-  label: Gloo Platform Portal API
-  slug: gloo-platform-portal
+  label: Solo.io AP Is API
+  slug: solo-io-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-gloo-platform-portal-openapi.yml
-- filename: solo-io-portal-idp-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-apis-api-openapi.yml
+- filename: solo-io-applications-api-openapi.yml
   format: yaml
-  label: Gloo Portal IdP Connect API
-  slug: portal-idp-connect
+  label: Solo.io Applications API
+  slug: solo-io-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-portal-idp-connect-openapi.yml
-- filename: solo-io-ai-gateway-guardrail-webhook-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-applications-api-openapi.yml
+- filename: solo-io-apps-api-openapi.yml
   format: yaml
-  label: AI Gateway Guardrail Webhook API
-  slug: ai-guardrail-webhook
+  label: Solo.io Apps API
+  slug: solo-io-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-ai-gateway-guardrail-webhook-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-apps-api-openapi.yml
+- filename: solo-io-auth-api-openapi.yml
+  format: yaml
+  label: Solo.io Auth API
+  slug: solo-io-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-auth-api-openapi.yml
+- filename: solo-io-health-api-openapi.yml
+  format: yaml
+  label: Solo.io Health API
+  slug: solo-io-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-health-api-openapi.yml
+- filename: solo-io-me-api-openapi.yml
+  format: yaml
+  label: Solo.io Me API
+  slug: solo-io-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-me-api-openapi.yml
+- filename: solo-io-metadata-api-openapi.yml
+  format: yaml
+  label: Solo.io Metadata API
+  slug: solo-io-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-metadata-api-openapi.yml
+- filename: solo-io-oauth-credentials-api-openapi.yml
+  format: yaml
+  label: Solo.io OAUTH Credentials API
+  slug: solo-io-oauth-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-oauth-credentials-api-openapi.yml
+- filename: solo-io-subscriptions-api-openapi.yml
+  format: yaml
+  label: Solo.io Subscriptions API
+  slug: solo-io-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-subscriptions-api-openapi.yml
+- filename: solo-io-teams-api-openapi.yml
+  format: yaml
+  label: Solo.io Teams API
+  slug: solo-io-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-teams-api-openapi.yml
+- filename: solo-io-user-api-openapi.yml
+  format: yaml
+  label: Solo.io User API
+  slug: solo-io-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-user-api-openapi.yml
+- filename: solo-io-users-api-openapi.yml
+  format: yaml
+  label: Solo.io Users API
+  slug: solo-io-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-users-api-openapi.yml
+- filename: solo-io-webhooks-api-openapi.yml
+  format: yaml
+  label: Solo.io Webhooks API
+  slug: solo-io-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http

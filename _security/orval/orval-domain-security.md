@@ -7,7 +7,7 @@ domains:
   domain: orval.dev
   spf: false
 hosts:
-- cert_expires: Aug 22 15:29:18 2026 GMT
+- cert_expires: Oct 20 16:02:12 2026 GMT
   host: orval.dev
   hsts: false
   https: true
@@ -24,12 +24,18 @@ slug: orval-domain-security
 source_filename: orval-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: orval.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 15:29:18 2026 GMT\n  hsts: false\ndomains:\n- domain: orval.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: orval.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 16:02:12 2026 GMT\n  hsts: false\ndomains:\n- domain: orval.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orval/refs/heads/main/security/orval-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Code Generation
 - OpenAPI
+- Swagger
 - SDKs
 - TypeScript
+- Developer Tools
+- CLI
+- Open Source
+- Mocking
+- Schema Validation
 ---

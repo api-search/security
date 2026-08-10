@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: zero-trust-network-access-deployment-groups-api-openapi.yml
+  format: yaml
+  label: Zero Trust Network Access Deployment Groups API
+  slug: zero-trust-network-access-deployment-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/openapi/zero-trust-network-access-deployment-groups-api-openapi.yml
+- filename: zero-trust-network-access-devices-api-openapi.yml
+  format: yaml
+  label: Zero Trust Network Access Devices API
+  slug: zero-trust-network-access-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/openapi/zero-trust-network-access-devices-api-openapi.yml
+- filename: zero-trust-network-access-dex-tests-api-openapi.yml
+  format: yaml
+  label: Zero Trust Network Access DEX Tests API
+  slug: zero-trust-network-access-dex-tests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/openapi/zero-trust-network-access-dex-tests-api-openapi.yml
+- filename: zero-trust-network-access-ip-profiles-api-openapi.yml
+  format: yaml
+  label: Zero Trust Network Access IP Profiles API
+  slug: zero-trust-network-access-ip-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/openapi/zero-trust-network-access-ip-profiles-api-openapi.yml
+- filename: zero-trust-network-access-registrations-api-openapi.yml
+  format: yaml
+  label: Zero Trust Network Access Registrations API
+  slug: zero-trust-network-access-registrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/openapi/zero-trust-network-access-registrations-api-openapi.yml
+- filename: zero-trust-network-access-warp-override-api-openapi.yml
+  format: yaml
+  label: Zero Trust Network Access WARP Override API
+  slug: zero-trust-network-access-warp-override-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/openapi/zero-trust-network-access-warp-override-api-openapi.yml
 description: ''
 domains:
 - caa:

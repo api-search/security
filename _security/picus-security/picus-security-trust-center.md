@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: picus-security-activity-logs-openapi.yml
+- filename: picus-security-activity-logs-api-openapi.yml
   format: yaml
-  label: Picus Customer API
-  slug: picus-customer-api
+  label: Picus Security Activity Logs API
+  slug: picus-security-activity-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-activity-logs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-activity-logs-api-openapi.yml
+- filename: picus-security-agents-api-openapi.yml
+  format: yaml
+  label: Picus Security Agents API
+  slug: picus-security-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-agents-api-openapi.yml
+- filename: picus-security-authentication-api-openapi.yml
+  format: yaml
+  label: Picus Security Authentication API
+  slug: picus-security-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-authentication-api-openapi.yml
+- filename: picus-security-instances-api-openapi.yml
+  format: yaml
+  label: Picus Security Instances API
+  slug: picus-security-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-instances-api-openapi.yml
+- filename: picus-security-integrations-api-openapi.yml
+  format: yaml
+  label: Picus Security Integrations API
+  slug: picus-security-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-integrations-api-openapi.yml
+- filename: picus-security-mitigation-api-openapi.yml
+  format: yaml
+  label: Picus Security Mitigation API
+  slug: picus-security-mitigation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-mitigation-api-openapi.yml
+- filename: picus-security-simulation-latest-result-api-openapi.yml
+  format: yaml
+  label: Picus Security Simulation Latest Result API
+  slug: picus-security-simulation-latest-result-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-simulation-latest-result-api-openapi.yml
+- filename: picus-security-simulation-result-api-openapi.yml
+  format: yaml
+  label: Picus Security Simulation Result API
+  slug: picus-security-simulation-result-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-simulation-result-api-openapi.yml
+- filename: picus-security-simulation-result-reports-api-openapi.yml
+  format: yaml
+  label: Picus Security Simulation Result Reports API
+  slug: picus-security-simulation-result-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-simulation-result-reports-api-openapi.yml
+- filename: picus-security-simulations-api-openapi.yml
+  format: yaml
+  label: Picus Security Simulations API
+  slug: picus-security-simulations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-simulations-api-openapi.yml
+- filename: picus-security-summary-api-openapi.yml
+  format: yaml
+  label: Picus Security Summary API
+  slug: picus-security-summary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-summary-api-openapi.yml
+- filename: picus-security-templates-api-openapi.yml
+  format: yaml
+  label: Picus Security Templates API
+  slug: picus-security-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-templates-api-openapi.yml
+- filename: picus-security-threats-api-openapi.yml
+  format: yaml
+  label: Picus Security Threats API
+  slug: picus-security-threats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-threats-api-openapi.yml
+- filename: picus-security-users-api-openapi.yml
+  format: yaml
+  label: Picus Security Users API
+  slug: picus-security-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-users-api-openapi.yml
 certifications:
 - ISO/IEC 27001
 - ISO/IEC 27701

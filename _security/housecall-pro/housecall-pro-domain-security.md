@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: housecall-pro-public-api-openapi.yml
+- filename: housecall-pro-companies-api-openapi.yml
   format: yaml
-  label: Housecall Pro Public API
-  slug: housecall-pro-public-api
+  label: Housecall Pro Companies API
+  slug: housecall-pro-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/housecall-pro/refs/heads/main/openapi/housecall-pro-public-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/housecall-pro/refs/heads/main/openapi/housecall-pro-companies-api-openapi.yml
+- filename: housecall-pro-customers-api-openapi.yml
+  format: yaml
+  label: Housecall Pro Customers API
+  slug: housecall-pro-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/housecall-pro/refs/heads/main/openapi/housecall-pro-customers-api-openapi.yml
+- filename: housecall-pro-employees-api-openapi.yml
+  format: yaml
+  label: Housecall Pro Employees API
+  slug: housecall-pro-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/housecall-pro/refs/heads/main/openapi/housecall-pro-employees-api-openapi.yml
+- filename: housecall-pro-estimates-api-openapi.yml
+  format: yaml
+  label: Housecall Pro Estimates API
+  slug: housecall-pro-estimates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/housecall-pro/refs/heads/main/openapi/housecall-pro-estimates-api-openapi.yml
+- filename: housecall-pro-invoices-api-openapi.yml
+  format: yaml
+  label: Housecall Pro Invoices API
+  slug: housecall-pro-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/housecall-pro/refs/heads/main/openapi/housecall-pro-invoices-api-openapi.yml
+- filename: housecall-pro-jobs-api-openapi.yml
+  format: yaml
+  label: Housecall Pro Jobs API
+  slug: housecall-pro-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/housecall-pro/refs/heads/main/openapi/housecall-pro-jobs-api-openapi.yml
+- filename: housecall-pro-leads-api-openapi.yml
+  format: yaml
+  label: Housecall Pro Leads API
+  slug: housecall-pro-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/housecall-pro/refs/heads/main/openapi/housecall-pro-leads-api-openapi.yml
+- filename: housecall-pro-line-items-api-openapi.yml
+  format: yaml
+  label: Housecall Pro Line Items API
+  slug: housecall-pro-line-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/housecall-pro/refs/heads/main/openapi/housecall-pro-line-items-api-openapi.yml
+- filename: housecall-pro-payments-api-openapi.yml
+  format: yaml
+  label: Housecall Pro Payments API
+  slug: housecall-pro-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/housecall-pro/refs/heads/main/openapi/housecall-pro-payments-api-openapi.yml
+- filename: housecall-pro-schedule-items-api-openapi.yml
+  format: yaml
+  label: Housecall Pro Schedule Items API
+  slug: housecall-pro-schedule-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/housecall-pro/refs/heads/main/openapi/housecall-pro-schedule-items-api-openapi.yml
+- filename: housecall-pro-webhooks-api-openapi.yml
+  format: yaml
+  label: Housecall Pro Webhooks API
+  slug: housecall-pro-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/housecall-pro/refs/heads/main/openapi/housecall-pro-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

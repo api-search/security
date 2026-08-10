@@ -148,8 +148,8 @@ method: derived
 name: Segment Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: segment secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: segment
+overview: Twilio Segment secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Twilio Segment
 provider_slug: segment
 scheme_count: 2
 schemes:
@@ -174,5 +174,15 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/segment-config-api-openapi.yml, openapi/segment-http-tracking-api-openapi.yml,\n  openapi/segment-profile-api-openapi.yml, openapi/segment-public-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Segment Config API access token. Note that as of early 2024, Segment has stopped\n    issuing new Config API tokens.\n  sources:\n  - openapi/segment-config-api-openapi.yml\n  - openapi/segment-public-api-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using the source write key as the username and an empty\n    password. The write key is found in the Segment source settings.\n  sources:\n  - openapi/segment-http-tracking-api-openapi.yml\n  - openapi/segment-profile-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/segment/refs/heads/main/authentication/segment-authentication.yml
 summary_line: http · 2 schemes
-tags: []
+tags:
+- Company
+- Customer Data Platform
+- CDP
+- Identity Resolution
+- Event Streaming
+- Reverse ETL
+- Data Pipeline
+- Customer Data
+- Analytics
+- Acquired
 ---

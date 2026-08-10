@@ -1,23 +1,107 @@
 ---
 api_specs:
-- filename: polysign-atomicnet-api-server-openapi.json
-  format: json
-  label: AtomicNet API Server
-  slug: atomicnet-api-server
+- filename: polysign-abc-accounts-api-openapi.yml
+  format: yaml
+  label: PolySign ABC Accounts API
+  slug: polysign-abc-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/openapi/polysign-atomicnet-api-server-openapi.json
-- filename: polysign-merchant-gate-openapi.json
-  format: json
-  label: AtomicNet Merchant Gate Node
-  slug: atomicnet-merchant-gate-node
+  url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/openapi/polysign-abc-accounts-api-openapi.yml
+- filename: polysign-abc-memorials-api-openapi.yml
+  format: yaml
+  label: PolySign ABC Memorials API
+  slug: polysign-abc-memorials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/openapi/polysign-merchant-gate-openapi.json
-- filename: polysign-abc-proxy-service-openapi.json
-  format: json
-  label: AtomicNet ABC Proxy Service
-  slug: atomicnet-abc-proxy-service
+  url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/openapi/polysign-abc-memorials-api-openapi.yml
+- filename: polysign-abc-signing-api-openapi.yml
+  format: yaml
+  label: PolySign ABC Signing API
+  slug: polysign-abc-signing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/openapi/polysign-abc-proxy-service-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/openapi/polysign-abc-signing-api-openapi.yml
+- filename: polysign-abc-testnet-api-openapi.yml
+  format: yaml
+  label: PolySign ABC Testnet API
+  slug: polysign-abc-testnet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/openapi/polysign-abc-testnet-api-openapi.yml
+- filename: polysign-asset-api-openapi.yml
+  format: yaml
+  label: PolySign Asset API
+  slug: polysign-asset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/openapi/polysign-asset-api-openapi.yml
+- filename: polysign-authentication-api-openapi.yml
+  format: yaml
+  label: PolySign Authentication API
+  slug: polysign-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/openapi/polysign-authentication-api-openapi.yml
+- filename: polysign-beneficiary-authorization-api-openapi.yml
+  format: yaml
+  label: PolySign beneficiary authorization API
+  slug: polysign-beneficiary-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/openapi/polysign-beneficiary-authorization-api-openapi.yml
+- filename: polysign-book-transfer-api-openapi.yml
+  format: yaml
+  label: PolySign book transfer API
+  slug: polysign-book-transfer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/openapi/polysign-book-transfer-api-openapi.yml
+- filename: polysign-book-transfer-confirmation-api-openapi.yml
+  format: yaml
+  label: PolySign book transfer confirmation API
+  slug: polysign-book-transfer-confirmation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/openapi/polysign-book-transfer-confirmation-api-openapi.yml
+- filename: polysign-escrow-authorization-api-openapi.yml
+  format: yaml
+  label: PolySign escrow authorization API
+  slug: polysign-escrow-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/openapi/polysign-escrow-authorization-api-openapi.yml
+- filename: polysign-investor-api-openapi.yml
+  format: yaml
+  label: PolySign Investor API
+  slug: polysign-investor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/openapi/polysign-investor-api-openapi.yml
+- filename: polysign-order-api-openapi.yml
+  format: yaml
+  label: PolySign Order API
+  slug: polysign-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/openapi/polysign-order-api-openapi.yml
+- filename: polysign-partner-api-openapi.yml
+  format: yaml
+  label: PolySign Partner API
+  slug: polysign-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/openapi/polysign-partner-api-openapi.yml
+- filename: polysign-settlement-api-openapi.yml
+  format: yaml
+  label: PolySign Settlement API
+  slug: polysign-settlement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/openapi/polysign-settlement-api-openapi.yml
+- filename: polysign-settlement-confirmation-api-openapi.yml
+  format: yaml
+  label: PolySign settlement confirmation API
+  slug: polysign-settlement-confirmation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/openapi/polysign-settlement-confirmation-api-openapi.yml
+- filename: polysign-system-api-openapi.yml
+  format: yaml
+  label: PolySign System API
+  slug: polysign-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/openapi/polysign-system-api-openapi.yml
+- filename: polysign-utility-api-openapi.yml
+  format: yaml
+  label: PolySign Utility API
+  slug: polysign-utility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/openapi/polysign-utility-api-openapi.yml
 description: ''
 domains:
 - caa: []

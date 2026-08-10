@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: rundeck-openapi.yml
+- filename: rundeck-acl-policies-api-openapi.yml
   format: yaml
-  label: Rundeck API
-  slug: rundeck-api
+  label: Rundeck ACL Policies API
+  slug: rundeck-acl-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rundeck/refs/heads/main/openapi/rundeck-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rundeck/refs/heads/main/openapi/rundeck-acl-policies-api-openapi.yml
+- filename: rundeck-executions-api-openapi.yml
+  format: yaml
+  label: Rundeck Executions API
+  slug: rundeck-executions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rundeck/refs/heads/main/openapi/rundeck-executions-api-openapi.yml
+- filename: rundeck-jobs-api-openapi.yml
+  format: yaml
+  label: Rundeck Jobs API
+  slug: rundeck-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rundeck/refs/heads/main/openapi/rundeck-jobs-api-openapi.yml
+- filename: rundeck-nodes-api-openapi.yml
+  format: yaml
+  label: Rundeck Nodes API
+  slug: rundeck-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rundeck/refs/heads/main/openapi/rundeck-nodes-api-openapi.yml
+- filename: rundeck-projects-api-openapi.yml
+  format: yaml
+  label: Rundeck Projects API
+  slug: rundeck-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rundeck/refs/heads/main/openapi/rundeck-projects-api-openapi.yml
+- filename: rundeck-system-api-openapi.yml
+  format: yaml
+  label: Rundeck System API
+  slug: rundeck-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rundeck/refs/heads/main/openapi/rundeck-system-api-openapi.yml
+- filename: rundeck-tokens-api-openapi.yml
+  format: yaml
+  label: Rundeck Tokens API
+  slug: rundeck-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rundeck/refs/heads/main/openapi/rundeck-tokens-api-openapi.yml
+- filename: rundeck-users-api-openapi.yml
+  format: yaml
+  label: Rundeck Users API
+  slug: rundeck-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rundeck/refs/heads/main/openapi/rundeck-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

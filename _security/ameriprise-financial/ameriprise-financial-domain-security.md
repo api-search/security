@@ -5,7 +5,7 @@ api_specs:
   label: Ameriprise Financial Website
   slug: website
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ameriprise-financial/refs/heads/main/openapi/ameriprise.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ameriprise-financial/refs/heads/main/openapi/_original/ameriprise.yml
 description: ''
 domains:
 - caa: []

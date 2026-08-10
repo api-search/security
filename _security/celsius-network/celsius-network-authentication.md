@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: celsius-network-partner-api-openapi.yml
+- filename: celsius-network-kyc-api-openapi.yml
   format: yaml
-  label: Celsius Partner API
-  slug: partner-api
+  label: Celsius Network KYC API
+  slug: celsius-network-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/openapi/celsius-network-partner-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/openapi/celsius-network-kyc-api-openapi.yml
+- filename: celsius-network-users-api-openapi.yml
+  format: yaml
+  label: Celsius Network Users API
+  slug: celsius-network-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/openapi/celsius-network-users-api-openapi.yml
+- filename: celsius-network-utility-api-openapi.yml
+  format: yaml
+  label: Celsius Network Utility API
+  slug: celsius-network-utility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/openapi/celsius-network-utility-api-openapi.yml
+- filename: celsius-network-wallet-api-openapi.yml
+  format: yaml
+  label: Celsius Network Wallet API
+  slug: celsius-network-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/openapi/celsius-network-wallet-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,12 +2,78 @@
 api_key_in:
 - header
 api_specs:
-- filename: abcuro-content-openapi.yml
+- filename: abcuro-careers-api-openapi.yml
   format: yaml
-  label: Abcuro Content API (WordPress REST)
-  slug: abcuro-content-api-wordpress-rest
+  label: Abcuro Careers API
+  slug: abcuro-careers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/openapi/abcuro-content-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/openapi/abcuro-careers-api-openapi.yml
+- filename: abcuro-comments-api-openapi.yml
+  format: yaml
+  label: Abcuro Comments API
+  slug: abcuro-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/openapi/abcuro-comments-api-openapi.yml
+- filename: abcuro-discovery-api-openapi.yml
+  format: yaml
+  label: Abcuro Discovery API
+  slug: abcuro-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/openapi/abcuro-discovery-api-openapi.yml
+- filename: abcuro-investors-api-openapi.yml
+  format: yaml
+  label: Abcuro Investors API
+  slug: abcuro-investors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/openapi/abcuro-investors-api-openapi.yml
+- filename: abcuro-media-api-openapi.yml
+  format: yaml
+  label: Abcuro Media API
+  slug: abcuro-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/openapi/abcuro-media-api-openapi.yml
+- filename: abcuro-pages-api-openapi.yml
+  format: yaml
+  label: Abcuro Pages API
+  slug: abcuro-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/openapi/abcuro-pages-api-openapi.yml
+- filename: abcuro-people-api-openapi.yml
+  format: yaml
+  label: Abcuro People API
+  slug: abcuro-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/openapi/abcuro-people-api-openapi.yml
+- filename: abcuro-press-releases-api-openapi.yml
+  format: yaml
+  label: Abcuro Press Releases API
+  slug: abcuro-press-releases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/openapi/abcuro-press-releases-api-openapi.yml
+- filename: abcuro-publications-api-openapi.yml
+  format: yaml
+  label: Abcuro Publications API
+  slug: abcuro-publications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/openapi/abcuro-publications-api-openapi.yml
+- filename: abcuro-search-api-openapi.yml
+  format: yaml
+  label: Abcuro Search API
+  slug: abcuro-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/openapi/abcuro-search-api-openapi.yml
+- filename: abcuro-taxonomy-api-openapi.yml
+  format: yaml
+  label: Abcuro Taxonomy API
+  slug: abcuro-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/openapi/abcuro-taxonomy-api-openapi.yml
+- filename: abcuro-users-api-openapi.yml
+  format: yaml
+  label: Abcuro Users API
+  slug: abcuro-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/openapi/abcuro-users-api-openapi.yml
 auth_types:
 - apiKey
 - http

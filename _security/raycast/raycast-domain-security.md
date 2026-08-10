@@ -5,13 +5,13 @@ api_specs:
   label: Raycast Extension API (SDK)
   slug: raycast-extension-api-sdk
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raycast/refs/heads/main/openapi/raycast-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/raycast/refs/heads/main/openapi/_original/raycast-openapi.yml
 - filename: raycast-openapi.yml
   format: yaml
   label: Raycast AI API
   slug: raycast-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raycast/refs/heads/main/openapi/raycast-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/raycast/refs/heads/main/openapi/_original/raycast-openapi.yml
 description: ''
 domains:
 - caa: []

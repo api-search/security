@@ -5,19 +5,19 @@ api_specs:
   label: Relativity Space Terran R Launch
   slug: terran-r-launch
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativity-space/refs/heads/main/openapi/relativity-space-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/relativity-space/refs/heads/main/openapi/_original/relativity-space-openapi.yml
 - filename: relativity-space-openapi.yml
   format: yaml
   label: Relativity Space Stargate Manufacturing
   slug: stargate-manufacturing
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativity-space/refs/heads/main/openapi/relativity-space-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/relativity-space/refs/heads/main/openapi/_original/relativity-space-openapi.yml
 - filename: relativity-space-openapi.yml
   format: yaml
   label: Relativity Space Payload and Rideshare
   slug: payload-rideshare
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativity-space/refs/heads/main/openapi/relativity-space-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/relativity-space/refs/heads/main/openapi/_original/relativity-space-openapi.yml
 description: ''
 domains:
 - caa: []

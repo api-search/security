@@ -1,12 +1,132 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ascend-elements-wordpress-rest-openapi.yml
+- filename: ascend-elements-complianz-v1-api-openapi.yml
   format: yaml
-  label: Ascend Elements WordPress REST API
-  slug: ascend-elements-wordpress-rest-api
+  label: Ascend Elements Complianz/v1 API
+  slug: ascend-elements-complianz-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-wordpress-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-complianz-v1-api-openapi.yml
+- filename: ascend-elements-core-api-openapi.yml
+  format: yaml
+  label: Ascend Elements Core API
+  slug: ascend-elements-core-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-core-api-openapi.yml
+- filename: ascend-elements-cptui-v1-api-openapi.yml
+  format: yaml
+  label: Ascend Elements Cptui/v1 API
+  slug: ascend-elements-cptui-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-cptui-v1-api-openapi.yml
+- filename: ascend-elements-ea11y-v1-api-openapi.yml
+  format: yaml
+  label: Ascend Elements Ea11y/v1 API
+  slug: ascend-elements-ea11y-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-ea11y-v1-api-openapi.yml
+- filename: ascend-elements-elementor-ai-v1-api-openapi.yml
+  format: yaml
+  label: Ascend Elements Elementor Ai/v1 API
+  slug: ascend-elements-elementor-ai-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-elementor-ai-v1-api-openapi.yml
+- filename: ascend-elements-elementor-one-v1-api-openapi.yml
+  format: yaml
+  label: Ascend Elements Elementor One/v1 API
+  slug: ascend-elements-elementor-one-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-elementor-one-v1-api-openapi.yml
+- filename: ascend-elements-elementor-pro-v1-api-openapi.yml
+  format: yaml
+  label: Ascend Elements Elementor Pro/v1 API
+  slug: ascend-elements-elementor-pro-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-elementor-pro-v1-api-openapi.yml
+- filename: ascend-elements-elementor-v1-api-openapi.yml
+  format: yaml
+  label: Ascend Elements Elementor/v1 API
+  slug: ascend-elements-elementor-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-elementor-v1-api-openapi.yml
+- filename: ascend-elements-elementor-v1-documents-api-openapi.yml
+  format: yaml
+  label: Ascend Elements Elementor/v1/documents API
+  slug: ascend-elements-elementor-v1-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-elementor-v1-documents-api-openapi.yml
+- filename: ascend-elements-elementor-v1-feedback-api-openapi.yml
+  format: yaml
+  label: Ascend Elements Elementor/v1/feedback API
+  slug: ascend-elements-elementor-v1-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-elementor-v1-feedback-api-openapi.yml
+- filename: ascend-elements-facetwp-v1-api-openapi.yml
+  format: yaml
+  label: Ascend Elements Facetwp/v1 API
+  slug: ascend-elements-facetwp-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-facetwp-v1-api-openapi.yml
+- filename: ascend-elements-image-optimizer-v1-api-openapi.yml
+  format: yaml
+  label: Ascend Elements Image Optimizer/v1 API
+  slug: ascend-elements-image-optimizer-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-image-optimizer-v1-api-openapi.yml
+- filename: ascend-elements-oembed-1-0-api-openapi.yml
+  format: yaml
+  label: Ascend Elements Oembed/1.0 API
+  slug: ascend-elements-oembed-1-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-oembed-1-0-api-openapi.yml
+- filename: ascend-elements-site-mailer-v1-api-openapi.yml
+  format: yaml
+  label: Ascend Elements Site Mailer/v1 API
+  slug: ascend-elements-site-mailer-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-site-mailer-v1-api-openapi.yml
+- filename: ascend-elements-wp-abilities-v1-api-openapi.yml
+  format: yaml
+  label: Ascend Elements Wp Abilities/v1 API
+  slug: ascend-elements-wp-abilities-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-wp-abilities-v1-api-openapi.yml
+- filename: ascend-elements-wp-block-editor-v1-api-openapi.yml
+  format: yaml
+  label: Ascend Elements Wp Block Editor/v1 API
+  slug: ascend-elements-wp-block-editor-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-wp-block-editor-v1-api-openapi.yml
+- filename: ascend-elements-wp-site-health-v1-api-openapi.yml
+  format: yaml
+  label: Ascend Elements Wp Site Health/v1 API
+  slug: ascend-elements-wp-site-health-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-wp-site-health-v1-api-openapi.yml
+- filename: ascend-elements-wp-v2-api-openapi.yml
+  format: yaml
+  label: Ascend Elements Wp/v2 API
+  slug: ascend-elements-wp-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-wp-v2-api-openapi.yml
+- filename: ascend-elements-wpe-cache-plugin-v1-api-openapi.yml
+  format: yaml
+  label: Ascend Elements Wpe/cache Plugin/v1 API
+  slug: ascend-elements-wpe-cache-plugin-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-wpe-cache-plugin-v1-api-openapi.yml
+- filename: ascend-elements-wpe-sign-on-plugin-v1-api-openapi.yml
+  format: yaml
+  label: Ascend Elements Wpe Sign On Plugin/v1 API
+  slug: ascend-elements-wpe-sign-on-plugin-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-wpe-sign-on-plugin-v1-api-openapi.yml
+- filename: ascend-elements-yoast-v1-api-openapi.yml
+  format: yaml
+  label: Ascend Elements Yoast/v1 API
+  slug: ascend-elements-yoast-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend-elements/refs/heads/main/openapi/ascend-elements-yoast-v1-api-openapi.yml
 auth_types:
 - http
 description: ''
