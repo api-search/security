@@ -25,11 +25,22 @@
 
   <!-- Name-only: no URL? let the build worker research it -->
   <form id="add-name-form" class="mb-2">
-    <div class="input-group">
-      <input type="text" class="form-control" id="add-name-only" placeholder="Just the API or company name, e.g. Stripe" autocomplete="off">
-      <button class="btn btn-outline-secondary" type="submit" id="add-name-btn">Submit by name</button>
+    <input type="text" class="form-control" id="add-name-only" placeholder="Just the API or company name, e.g. Stripe" autocomplete="off" required>
+    <div class="form-text mb-2">No URL handy? Give us the name and apis.io will research it and build the listing for you.</div>
+
+    <label class="form-label small mb-0" for="add-name-contact">Your email <span class="text-danger">*</span></label>
+    <input type="email" class="form-control form-control-sm" id="add-name-contact" placeholder="you@example.com" autocomplete="email" required>
+    <div class="form-text">So we can tell you when your listing is live, and reach you if it needs a correction.</div>
+
+    <div class="form-check my-2">
+      <input class="form-check-input" type="checkbox" id="add-name-newsletter" checked>
+      <label class="form-check-label small" for="add-name-newsletter">
+        Send me <a href="https://usecommune.com/n/apisio" target="_blank" rel="noopener">The Demand Report</a> —
+        what the catalog’s search traffic says people are looking for, weekly. Unsubscribe anytime.
+      </label>
     </div>
-    <div class="form-text">No URL handy? Give us the name and apis.io will research it and build the listing for you.</div>
+
+    <button class="btn btn-outline-secondary" type="submit" id="add-name-btn">Submit by name</button>
   </form>
 
   <div id="add-error" class="alert alert-warning d-none" role="alert"></div>
@@ -80,8 +91,18 @@
           <textarea class="form-control form-control-sm" id="f-description" rows="2"></textarea>
         </div>
         <div class="col-12">
-          <label class="form-label small mb-0">Your contact (optional — so we can follow up)</label>
-          <input type="text" class="form-control form-control-sm" id="f-contact" placeholder="you@example.com">
+          <label class="form-label small mb-0" for="f-contact">Your email <span class="text-danger">*</span></label>
+          <input type="email" class="form-control form-control-sm" id="f-contact" placeholder="you@example.com" autocomplete="email" required>
+          <div class="form-text">So we can tell you when your listing is live, and reach you if it needs a correction.</div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="f-newsletter" checked>
+            <label class="form-check-label small" for="f-newsletter">
+              Send me <a href="https://usecommune.com/n/apisio" target="_blank" rel="noopener">The Demand Report</a> —
+              what the catalog’s search traffic says people are looking for, weekly. Unsubscribe anytime.
+            </label>
+          </div>
         </div>
       </div>
 
@@ -113,6 +134,10 @@
   function show(el) { el.classList.remove('d-none'); }
   function hide(el) { el.classList.add('d-none'); }
   function err(msg) { var e = $('add-error'); e.textContent = msg; show(e); }
+
+  // Deliberately loose — the server does the same check, and a strict client-side
+  // regex only ever rejects addresses that are actually valid.
+  function validEmail(s) { return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(s); }
 
   // ---- Step 1: analyze -----------------------------------------------------
   $('add-discover-form').addEventListener('submit', function (e) {
@@ -179,7 +204,8 @@
       provider: $('f-provider').value.trim(),
       tags: $('f-tags').value.split(',').map(function (t) { return t.trim(); }).filter(Boolean),
       description: $('f-description') ? $('f-description').value.trim() : '',
-      contact: $('f-contact').value.trim()
+      contact: $('f-contact').value.trim(),
+      newsletter: $('f-newsletter').checked
     };
   }
 
@@ -187,6 +213,12 @@
   $('add-submit-btn').addEventListener('click', function () {
     var f = collect();
     if (!f.name) { err('Please give your API a name.'); return; }
+    if (!validEmail(f.contact)) {
+      err('Please add your email address — we use it to tell you when your listing is live.');
+      $('f-contact').focus();
+      return;
+    }
+    hide($('add-error'));
     var d = state.discovery || {};
     var draft = d.apisjson || null;
     // Fold any edits back into the drafted APIs.json before sending.
@@ -199,7 +231,7 @@
     var payload = {
       apisjson: draft,
       name: f.name, provider: f.provider, docsUrl: f.docsUrl,
-      tags: f.tags, contact: f.contact,
+      tags: f.tags, contact: f.contact, newsletter: f.newsletter,
       url: (draft && draft.url) || (d.origin ? d.origin + '/apis.json' : ''),
       discovered: d.discovered || null,
       rating: d.rating || null
@@ -238,12 +270,21 @@
     e.preventDefault();
     hide($('add-error')); hide($('add-success'));
     var name = $('add-name-only').value.trim();
-    if (!name) return;
+    if (!name) { err('Please give us the API or company name.'); return; }
+    // This form has its OWN email field. It used to read `f-contact`, which lives
+    // inside the preview card the URL-first path renders — so every name-only
+    // submission arrived with an empty contact and nobody could be told anything.
+    var contact = $('add-name-contact').value.trim();
+    if (!validEmail(contact)) {
+      err('Please add your email address — we use it to tell you when your listing is live.');
+      $('add-name-contact').focus();
+      return;
+    }
     var btn = $('add-name-btn');
     btn.disabled = true; btn.textContent = 'Submitting…';
     fetch(API_BASE + '/submit', {
       method: 'POST', headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ name: name, contact: $('f-contact') ? $('f-contact').value.trim() : '' })
+      body: JSON.stringify({ name: name, contact: contact, newsletter: $('add-name-newsletter').checked })
     })
       .then(function (r) { return r.json().then(function (b) { return { ok: r.ok, body: b }; }); })
       .then(function (res) {
@@ -270,6 +311,7 @@
       + ((f.tags && f.tags.length) ? '**Tags:** ' + f.tags.join(', ') + '\n\n' : '')
       + (f.description ? '**Description:**\n\n' + f.description + '\n\n' : '')
       + (f.contact ? '**Submitted by:** ' + f.contact + '\n\n' : '')
+      + (f.contact ? '**Newsletter opt-in:** ' + (f.newsletter ? 'yes' : 'no') + '\n\n' : '')
       + '---\n_Submitted via the [APIs.io add form]({{ site.url }}/add/)._';
     // api-search/inbox is PUBLIC and exists for exactly this. Do not point this
     // at api-search/network — that repo is private, so anyone following this

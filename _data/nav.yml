@@ -77,6 +77,8 @@ header:
     groups:
       - header: Specifications
         items:
+          - { key: extensions, label: OpenAPI Extensions, url: 'https://apis.io/extensions/' }
+          - { key: headers, label: HTTP Headers, url: 'https://apis.io/headers/' }
           - { key: schemas, label: Schemas, url: 'https://apis.io/schemas/' }
           - { key: json-structure, label: JSON Structure, url: 'https://apis.io/json-structure/' }
           - { key: asyncapi, label: AsyncAPI, url: 'https://apis.io/asyncapis/' }
@@ -154,6 +156,8 @@ footer:
 
     - header: Artifacts
       items:
+        - { label: OpenAPI Extensions, url: 'https://apis.io/extensions/' }
+        - { label: HTTP Headers, url: 'https://apis.io/headers/' }
         - { label: Schemas, url: 'https://apis.io/schemas/' }
         - { label: Examples, url: 'https://apis.io/examples/' }
         - { label: JSON Structure, url: 'https://apis.io/json-structure/' }
