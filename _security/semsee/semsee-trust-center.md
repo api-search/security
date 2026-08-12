@@ -5,25 +5,25 @@ api_specs:
   label: Semsee Submissions API
   slug: semsee-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/openapi/semsee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/openapi/_original/semsee-openapi.yml
 - filename: semsee-openapi.yml
   format: yaml
   label: Semsee Quotes API
   slug: semsee-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/openapi/semsee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/openapi/_original/semsee-openapi.yml
 - filename: semsee-openapi.yml
   format: yaml
   label: Semsee Carriers API
   slug: semsee-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/openapi/semsee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/openapi/_original/semsee-openapi.yml
 - filename: semsee-openapi.yml
   format: yaml
   label: Semsee Webhooks API
   slug: semsee-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/openapi/semsee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/openapi/_original/semsee-openapi.yml
 certifications:
 - SOC 2
 - GDPR

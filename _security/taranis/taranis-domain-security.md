@@ -5,25 +5,25 @@ api_specs:
   label: Taranis Crop Intelligence
   slug: taranis-crop-intelligence
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taranis/refs/heads/main/openapi/taranis-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/taranis/refs/heads/main/openapi/_original/taranis-openapi.yml
 - filename: taranis-openapi.yml
   format: yaml
   label: Taranis Imagery and Insights
   slug: taranis-imagery-insights
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taranis/refs/heads/main/openapi/taranis-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/taranis/refs/heads/main/openapi/_original/taranis-openapi.yml
 - filename: taranis-openapi.yml
   format: yaml
   label: Taranis Ag Assistant
   slug: taranis-ag-assistant
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taranis/refs/heads/main/openapi/taranis-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/taranis/refs/heads/main/openapi/_original/taranis-openapi.yml
 - filename: taranis-openapi.yml
   format: yaml
   label: Taranis Platform Integrations
   slug: taranis-platform-integrations
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taranis/refs/heads/main/openapi/taranis-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/taranis/refs/heads/main/openapi/_original/taranis-openapi.yml
 description: ''
 domains:
 - caa:

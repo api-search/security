@@ -5,7 +5,7 @@ api_specs:
   label: Yuno Payments API
   slug: yuno-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/openapi/yuno-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/openapi/_original/yuno-openapi-original.json
 description: ''
 domains:
 - caa: []

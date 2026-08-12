@@ -6,25 +6,25 @@ api_specs:
   label: GigSky Plans & Catalog API
   slug: gigsky-plans-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gigsky/refs/heads/main/openapi/gigsky-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gigsky/refs/heads/main/openapi/_original/gigsky-openapi.yml
 - filename: gigsky-openapi.yml
   format: yaml
   label: GigSky eSIM Provisioning API
   slug: gigsky-esim-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gigsky/refs/heads/main/openapi/gigsky-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gigsky/refs/heads/main/openapi/_original/gigsky-openapi.yml
 - filename: gigsky-openapi.yml
   format: yaml
   label: GigSky Orders API
   slug: gigsky-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gigsky/refs/heads/main/openapi/gigsky-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gigsky/refs/heads/main/openapi/_original/gigsky-openapi.yml
 - filename: gigsky-openapi.yml
   format: yaml
   label: GigSky Usage API
   slug: gigsky-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gigsky/refs/heads/main/openapi/gigsky-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gigsky/refs/heads/main/openapi/_original/gigsky-openapi.yml
 auth_types:
 - http
 description: ''

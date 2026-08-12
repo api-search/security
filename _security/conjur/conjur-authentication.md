@@ -7,7 +7,7 @@ api_specs:
   label: Conjur / CyberArk Secrets Manager API
   slug: conjur-cyberark-secrets-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/openapi/_original/openapi.yml
 auth_types:
 - apiKey
 - http

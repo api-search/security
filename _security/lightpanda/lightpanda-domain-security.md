@@ -5,7 +5,7 @@ api_specs:
   label: Lightpanda CDP WebSocket Interface
   slug: lightpanda-cdp-websocket-interface
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightpanda/refs/heads/main/openapi/lightpanda-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lightpanda/refs/heads/main/openapi/_original/lightpanda-openapi.yml
 - filename: lightpanda-asyncapi.yml
   format: yaml
   label: Lightpanda Cloud

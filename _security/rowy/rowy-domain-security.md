@@ -5,19 +5,19 @@ api_specs:
   label: Rowy Webhooks
   slug: rowy-webhooks
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rowy/refs/heads/main/openapi/rowy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rowy/refs/heads/main/openapi/_original/rowy-openapi.yml
 - filename: rowy-openapi.yml
   format: yaml
   label: Rowy Run / Cloud Functions
   slug: rowy-run-cloud-functions
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rowy/refs/heads/main/openapi/rowy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rowy/refs/heads/main/openapi/_original/rowy-openapi.yml
 - filename: rowy-openapi.yml
   format: yaml
   label: Rowy Firestore Data
   slug: rowy-firestore-data
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rowy/refs/heads/main/openapi/rowy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rowy/refs/heads/main/openapi/_original/rowy-openapi.yml
 description: ''
 domains:
 - caa:

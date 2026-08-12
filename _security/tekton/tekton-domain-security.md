@@ -5,7 +5,7 @@ api_specs:
   label: Tekton Task CRD
   slug: tekton-task-crd
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekton/refs/heads/main/openapi/tekton-pipeline-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/tekton/refs/heads/main/openapi/_original/tekton-pipeline-openapi.json
 description: ''
 domains:
 - caa: []

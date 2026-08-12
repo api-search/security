@@ -5,67 +5,67 @@ api_specs:
   label: Nitric API Resource
   slug: nitric-api-resource
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/nitric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
 - filename: nitric-openapi.yml
   format: yaml
   label: Nitric Schedule Resource
   slug: nitric-schedule-resource
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/nitric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
 - filename: nitric-openapi.yml
   format: yaml
   label: Nitric Queue Resource
   slug: nitric-queue-resource
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/nitric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
 - filename: nitric-openapi.yml
   format: yaml
   label: Nitric Topic Resource
   slug: nitric-topic-resource
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/nitric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
 - filename: nitric-openapi.yml
   format: yaml
   label: Nitric Bucket Resource
   slug: nitric-bucket-resource
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/nitric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
 - filename: nitric-openapi.yml
   format: yaml
   label: Nitric Key-Value Resource
   slug: nitric-keyvalue-resource
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/nitric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
 - filename: nitric-openapi.yml
   format: yaml
   label: Nitric Secret Resource
   slug: nitric-secret-resource
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/nitric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
 - filename: nitric-openapi.yml
   format: yaml
   label: Nitric Websocket Resource
   slug: nitric-websocket-resource
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/nitric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
 - filename: nitric-openapi.yml
   format: yaml
   label: Nitric SQL Database Resource
   slug: nitric-sql-resource
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/nitric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
 - filename: nitric-openapi.yml
   format: yaml
   label: Nitric CLI
   slug: nitric-cli
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/nitric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
 - filename: nitric-openapi.yml
   format: yaml
   label: Nitric Provider Plugins
   slug: nitric-provider-plugins
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/nitric-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/openapi/_original/nitric-openapi.yml
 description: ''
 domains:
 - caa: []

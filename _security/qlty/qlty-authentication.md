@@ -7,19 +7,19 @@ api_specs:
   label: Qlty CLI
   slug: qlty-cli
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlty/refs/heads/main/openapi/qlty-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qlty/refs/heads/main/openapi/_original/qlty-openapi.yml
 - filename: qlty-openapi.yml
   format: yaml
   label: Qlty Coverage Upload
   slug: qlty-coverage-upload
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlty/refs/heads/main/openapi/qlty-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qlty/refs/heads/main/openapi/_original/qlty-openapi.yml
 - filename: qlty-openapi.yml
   format: yaml
   label: Qlty Cloud API
   slug: qlty-cloud
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlty/refs/heads/main/openapi/qlty-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qlty/refs/heads/main/openapi/_original/qlty-openapi.yml
 auth_types:
 - apiKey
 description: ''

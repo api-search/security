@@ -5,25 +5,25 @@ api_specs:
   label: Huly Platform SDK
   slug: huly-platform-sdk
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huly/refs/heads/main/openapi/huly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/huly/refs/heads/main/openapi/_original/huly-openapi.yml
 - filename: huly-openapi.yml
   format: yaml
   label: Huly Cloud
   slug: huly-cloud
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huly/refs/heads/main/openapi/huly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/huly/refs/heads/main/openapi/_original/huly-openapi.yml
 - filename: huly-openapi.yml
   format: yaml
   label: Huly Tracker
   slug: huly-tracker
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huly/refs/heads/main/openapi/huly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/huly/refs/heads/main/openapi/_original/huly-openapi.yml
 - filename: huly-openapi.yml
   format: yaml
   label: Huly Documents
   slug: huly-documents
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huly/refs/heads/main/openapi/huly-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/huly/refs/heads/main/openapi/_original/huly-openapi.yml
 description: ''
 domains:
 - caa:

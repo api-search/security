@@ -5,19 +5,19 @@ api_specs:
   label: Levels Data Export
   slug: levels-data-export
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/levels-health/refs/heads/main/openapi/levels-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/levels-health/refs/heads/main/openapi/_original/levels-health-openapi.yml
 - filename: levels-health-openapi.yml
   format: yaml
   label: Levels Health Data Integrations
   slug: levels-health-data-integrations
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/levels-health/refs/heads/main/openapi/levels-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/levels-health/refs/heads/main/openapi/_original/levels-health-openapi.yml
 - filename: levels-health-openapi.yml
   format: yaml
   label: Levels Partner Program
   slug: levels-partner-program
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/levels-health/refs/heads/main/openapi/levels-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/levels-health/refs/heads/main/openapi/_original/levels-health-openapi.yml
 description: ''
 domains:
 - caa: []

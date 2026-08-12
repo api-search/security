@@ -5,7 +5,7 @@ api_specs:
   label: Zoom Meeting API
   slug: zoom-meeting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/openapi/zoom-meeting--openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/openapi/_original/zoom-meeting--openapi-original.yml
 - filename: zoom-account-api-openapi.yml
   format: yaml
   label: Zoom Account API

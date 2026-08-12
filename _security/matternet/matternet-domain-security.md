@@ -5,13 +5,13 @@ api_specs:
   label: Matternet Cloud Software Platform
   slug: matternet-cloud-platform
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matternet/refs/heads/main/openapi/matternet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/matternet/refs/heads/main/openapi/_original/matternet-openapi.yml
 - filename: matternet-openapi.yml
   format: yaml
   label: Matternet Logistics Integration
   slug: matternet-logistics-integration
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matternet/refs/heads/main/openapi/matternet-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/matternet/refs/heads/main/openapi/_original/matternet-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -5,19 +5,19 @@ api_specs:
   label: Evidence Framework (SQL + Markdown)
   slug: evidence-framework
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evidence-dev/refs/heads/main/openapi/evidence-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/evidence-dev/refs/heads/main/openapi/_original/evidence-dev-openapi.yml
 - filename: evidence-dev-openapi.yml
   format: yaml
   label: Evidence USQL / Query Layer
   slug: usql-query-layer
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evidence-dev/refs/heads/main/openapi/evidence-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/evidence-dev/refs/heads/main/openapi/_original/evidence-dev-openapi.yml
 - filename: evidence-dev-openapi.yml
   format: yaml
   label: Evidence Cloud
   slug: evidence-cloud
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evidence-dev/refs/heads/main/openapi/evidence-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/evidence-dev/refs/heads/main/openapi/_original/evidence-dev-openapi.yml
 description: ''
 domains:
 - caa: []

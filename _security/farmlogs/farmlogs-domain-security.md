@@ -5,31 +5,31 @@ api_specs:
   label: FarmLogs Fields
   slug: fields
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmlogs/refs/heads/main/openapi/farmlogs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/farmlogs/refs/heads/main/openapi/_original/farmlogs-openapi.yml
 - filename: farmlogs-openapi.yml
   format: yaml
   label: FarmLogs Satellite Imagery / NDVI
   slug: satellite-imagery
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmlogs/refs/heads/main/openapi/farmlogs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/farmlogs/refs/heads/main/openapi/_original/farmlogs-openapi.yml
 - filename: farmlogs-openapi.yml
   format: yaml
   label: FarmLogs Weather & Rainfall
   slug: weather
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmlogs/refs/heads/main/openapi/farmlogs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/farmlogs/refs/heads/main/openapi/_original/farmlogs-openapi.yml
 - filename: farmlogs-openapi.yml
   format: yaml
   label: FarmLogs Yield & Profitability
   slug: yield-and-profitability
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmlogs/refs/heads/main/openapi/farmlogs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/farmlogs/refs/heads/main/openapi/_original/farmlogs-openapi.yml
 - filename: farmlogs-openapi.yml
   format: yaml
   label: FarmLogs Activities & Scouting
   slug: activities-and-scouting
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmlogs/refs/heads/main/openapi/farmlogs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/farmlogs/refs/heads/main/openapi/_original/farmlogs-openapi.yml
 description: ''
 domains:
 - caa:

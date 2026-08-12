@@ -5,31 +5,31 @@ api_specs:
   label: Superpower Biomarker Testing
   slug: superpower-health-biomarker-testing
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superpower-health/refs/heads/main/openapi/superpower-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/superpower-health/refs/heads/main/openapi/_original/superpower-health-openapi.yml
 - filename: superpower-health-openapi.yml
   format: yaml
   label: Superpower Results & Health Scores
   slug: superpower-health-results-scores
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superpower-health/refs/heads/main/openapi/superpower-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/superpower-health/refs/heads/main/openapi/_original/superpower-health-openapi.yml
 - filename: superpower-health-openapi.yml
   format: yaml
   label: Superpower AI Health Chat
   slug: superpower-health-ai-chat
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superpower-health/refs/heads/main/openapi/superpower-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/superpower-health/refs/heads/main/openapi/_original/superpower-health-openapi.yml
 - filename: superpower-health-openapi.yml
   format: yaml
   label: Superpower Action Plans
   slug: superpower-health-action-plans
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superpower-health/refs/heads/main/openapi/superpower-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/superpower-health/refs/heads/main/openapi/_original/superpower-health-openapi.yml
 - filename: superpower-health-openapi.yml
   format: yaml
   label: Superpower Wearable & Records Sync
   slug: superpower-health-wearable-sync
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superpower-health/refs/heads/main/openapi/superpower-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/superpower-health/refs/heads/main/openapi/_original/superpower-health-openapi.yml
 description: ''
 domains:
 - caa: []

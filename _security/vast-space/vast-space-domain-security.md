@@ -5,25 +5,25 @@ api_specs:
   label: Vast Haven-1 Station
   slug: haven-1-station
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/openapi/vast-space-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/openapi/_original/vast-space-openapi.yml
 - filename: vast-space-openapi.yml
   format: yaml
   label: Vast Haven-2 Station
   slug: haven-2-station
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/openapi/vast-space-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/openapi/_original/vast-space-openapi.yml
 - filename: vast-space-openapi.yml
   format: yaml
   label: Vast Haven-1 Lab
   slug: haven-1-lab
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/openapi/vast-space-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/openapi/_original/vast-space-openapi.yml
 - filename: vast-space-openapi.yml
   format: yaml
   label: Vast Payload & Research Opportunities
   slug: payload-research-opportunities
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/openapi/vast-space-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/openapi/_original/vast-space-openapi.yml
 description: ''
 domains:
 - caa: []

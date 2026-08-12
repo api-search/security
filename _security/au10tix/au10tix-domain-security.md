@@ -5,31 +5,31 @@ api_specs:
   label: AU10TIX Identity Verification API
   slug: au10tix-identity-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/au10tix/refs/heads/main/openapi/au10tix-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/au10tix/refs/heads/main/openapi/_original/au10tix-openapi.yml
 - filename: au10tix-openapi.yml
   format: yaml
   label: AU10TIX Document Authentication API
   slug: au10tix-document-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/au10tix/refs/heads/main/openapi/au10tix-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/au10tix/refs/heads/main/openapi/_original/au10tix-openapi.yml
 - filename: au10tix-openapi.yml
   format: yaml
   label: AU10TIX Face Comparison & Liveness API
   slug: au10tix-face-liveness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/au10tix/refs/heads/main/openapi/au10tix-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/au10tix/refs/heads/main/openapi/_original/au10tix-openapi.yml
 - filename: au10tix-openapi.yml
   format: yaml
   label: AU10TIX Results API
   slug: au10tix-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/au10tix/refs/heads/main/openapi/au10tix-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/au10tix/refs/heads/main/openapi/_original/au10tix-openapi.yml
 - filename: au10tix-openapi.yml
   format: yaml
   label: AU10TIX Webhooks API
   slug: au10tix-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/au10tix/refs/heads/main/openapi/au10tix-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/au10tix/refs/heads/main/openapi/_original/au10tix-openapi.yml
 description: ''
 domains:
 - caa: []

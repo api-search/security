@@ -1,12 +1,6 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cloud-foundry-loggregator-asyncapi.yml
-  format: yaml
-  label: Cloud Foundry Loggregator
-  slug: loggregator
-  spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/asyncapi/cloud-foundry-loggregator-asyncapi.yml
 - filename: cloud-foundry-apps-api-openapi.yml
   format: yaml
   label: Cloud Foundry Apps API

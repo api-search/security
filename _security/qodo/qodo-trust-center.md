@@ -5,13 +5,13 @@ api_specs:
   label: Qodo Merge (PR-Agent)
   slug: qodo-merge-pr-agent
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qodo/refs/heads/main/openapi/qodo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qodo/refs/heads/main/openapi/_original/qodo-openapi.yml
 - filename: qodo-openapi.yml
   format: yaml
   label: Qodo Hosted API
   slug: qodo-hosted-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qodo/refs/heads/main/openapi/qodo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qodo/refs/heads/main/openapi/_original/qodo-openapi.yml
 certifications:
 - SOC 2
 description: ''

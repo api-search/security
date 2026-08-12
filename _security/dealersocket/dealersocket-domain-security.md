@@ -2,12 +2,12 @@
 description: ''
 domains:
 - caa:
-  - 0 issuewild "letsencrypt.org"
-  - 0 issuewild "pki.goog cansignhttpexchanges=yes"
-  - 0 issuewild "pki.goog; cansignhttpexchanges=yes"
-  - 0 issuewild "ssl.com"
-  - 0 issue "amazon.com"
-  - 0 issue "comodoca.com"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog cansignhttpexchanges=yes"
+  - 0 issue "pki.goog; cansignhttpexchanges=yes"
+  - 0 issue "ssl.com"
+  - 0 issuewild "amazon.com"
+  - 0 issuewild "comodoca.com"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
@@ -31,7 +31,7 @@ slug: dealersocket-domain-security
 source_filename: dealersocket-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dealersocket.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 04:59:18 2026 GMT\n  hsts: false\ndomains:\n- domain: dealersocket.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog cansignhttpexchanges=yes\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dealersocket.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 04:59:18 2026 GMT\n  hsts: false\ndomains:\n- domain: dealersocket.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog cansignhttpexchanges=yes\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dealersocket/refs/heads/main/security/dealersocket-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

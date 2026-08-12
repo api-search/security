@@ -5,31 +5,31 @@ api_specs:
   label: Tabit Orders API
   slug: tabit-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabit/refs/heads/main/openapi/tabit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tabit/refs/heads/main/openapi/_original/tabit-openapi.yml
 - filename: tabit-openapi.yml
   format: yaml
   label: Tabit Menu API
   slug: tabit-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabit/refs/heads/main/openapi/tabit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tabit/refs/heads/main/openapi/_original/tabit-openapi.yml
 - filename: tabit-openapi.yml
   format: yaml
   label: Tabit Reservations API
   slug: tabit-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabit/refs/heads/main/openapi/tabit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tabit/refs/heads/main/openapi/_original/tabit-openapi.yml
 - filename: tabit-openapi.yml
   format: yaml
   label: Tabit Payments API
   slug: tabit-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabit/refs/heads/main/openapi/tabit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tabit/refs/heads/main/openapi/_original/tabit-openapi.yml
 - filename: tabit-openapi.yml
   format: yaml
   label: Tabit Integrations API
   slug: tabit-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabit/refs/heads/main/openapi/tabit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tabit/refs/heads/main/openapi/_original/tabit-openapi.yml
 description: ''
 domains:
 - caa: []

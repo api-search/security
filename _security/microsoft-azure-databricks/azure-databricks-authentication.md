@@ -6,25 +6,25 @@ api_specs:
   label: Azure Databricks REST API
   slug: azure-databricks-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/azure-databricks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/_original/azure-databricks-openapi.yml
 - filename: azure-databricks-openapi.yml
   format: yaml
   label: Clusters API
   slug: clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/azure-databricks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/_original/azure-databricks-openapi.yml
 - filename: azure-databricks-openapi.yml
   format: yaml
   label: Jobs API
   slug: jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/azure-databricks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/_original/azure-databricks-openapi.yml
 - filename: azure-databricks-openapi.yml
   format: yaml
   label: Workspace API
   slug: workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/azure-databricks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/_original/azure-databricks-openapi.yml
 auth_types:
 - http
 - oauth2

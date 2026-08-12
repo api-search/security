@@ -5,13 +5,13 @@ api_specs:
   label: SMLink Streaming-API
   slug: smlink-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sea-machines/refs/heads/main/openapi/sea-machines-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sea-machines/refs/heads/main/openapi/_original/sea-machines-openapi.yml
 - filename: sea-machines-openapi.yml
   format: yaml
   label: SMLink Control-API
   slug: smlink-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sea-machines/refs/heads/main/openapi/sea-machines-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sea-machines/refs/heads/main/openapi/_original/sea-machines-openapi.yml
 description: ''
 domains:
 - caa: []

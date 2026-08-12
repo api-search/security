@@ -7,37 +7,37 @@ api_specs:
   label: Multiplier Members API
   slug: members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/openapi/multiplier-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/openapi/_original/multiplier-openapi.yml
 - filename: multiplier-openapi.yml
   format: yaml
   label: Multiplier Contracts API
   slug: contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/openapi/multiplier-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/openapi/_original/multiplier-openapi.yml
 - filename: multiplier-openapi.yml
   format: yaml
   label: Multiplier Payroll API
   slug: payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/openapi/multiplier-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/openapi/_original/multiplier-openapi.yml
 - filename: multiplier-openapi.yml
   format: yaml
   label: Multiplier Payments API
   slug: payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/openapi/multiplier-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/openapi/_original/multiplier-openapi.yml
 - filename: multiplier-openapi.yml
   format: yaml
   label: Multiplier Time Off API
   slug: time-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/openapi/multiplier-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/openapi/_original/multiplier-openapi.yml
 - filename: multiplier-openapi.yml
   format: yaml
   label: Multiplier Invoices API
   slug: invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/openapi/multiplier-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/openapi/_original/multiplier-openapi.yml
 auth_types:
 - apiKey
 description: ''

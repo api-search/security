@@ -5,7 +5,7 @@ api_specs:
   label: Cheniere Energy Website
   slug: website
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cheniere-energy/refs/heads/main/openapi/cheniere.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cheniere-energy/refs/heads/main/openapi/_original/cheniere.yml
 description: ''
 domains:
 - caa: []

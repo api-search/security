@@ -1,12 +1,6 @@
 ---
 api_key_in: []
 api_specs:
-- filename: x-ads-api-postman-collection.json
-  format: json
-  label: X Ads API
-  slug: x-ads-api
-  spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/postman/x-ads-api-postman-collection.json
 - filename: twitter-account-activity-api-openapi.yml
   format: yaml
   label: X (Twitter) Account Activity API

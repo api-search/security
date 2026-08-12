@@ -2,19 +2,19 @@
 description: ''
 domains:
 - caa:
+  - 0 issue "globalsign.com"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog; cansignhttpexchanges=yes"
+  - 0 issue "sectigo.com"
   - 0 issue "ssl.com"
   - 0 issuewild "amazon.com"
-  - 0 issuewild "amazonaws.com"
-  - 0 issuewild "amazontrust.com"
-  - 0 issuewild "awstrust.com"
-  - 0 issuewild "comodoca.com"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
   domain: cult.fit
   spf: true
 hosts:
-- cert_expires: Sep  2 02:07:20 2026 GMT
+- cert_expires: Oct 31 05:44:20 2026 GMT
   host: www.cult.fit
   hsts: true
   hsts_max_age: 15552000
@@ -32,7 +32,7 @@ slug: cultfit-domain-security
 source_filename: cultfit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cult.fit\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 02:07:20 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: cult.fit\n  dnssec: false\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cult.fit\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 05:44:20 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: cult.fit\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cultfit/refs/heads/main/security/cultfit-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

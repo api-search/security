@@ -5,19 +5,19 @@ api_specs:
   label: Zcal Scheduling Links
   slug: scheduling-links
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zcal/refs/heads/main/openapi/zcal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zcal/refs/heads/main/openapi/_original/zcal-openapi.yml
 - filename: zcal-openapi.yml
   format: yaml
   label: Zcal Bookings
   slug: bookings
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zcal/refs/heads/main/openapi/zcal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zcal/refs/heads/main/openapi/_original/zcal-openapi.yml
 - filename: zcal-openapi.yml
   format: yaml
   label: Zcal Integrations and Webhooks
   slug: integrations-webhooks
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zcal/refs/heads/main/openapi/zcal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zcal/refs/heads/main/openapi/_original/zcal-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

@@ -5,7 +5,7 @@ api_specs:
   label: Theta Lake API
   slug: theta-lake-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theta-lake/refs/heads/main/openapi/theta-lake-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/theta-lake/refs/heads/main/openapi/_original/theta-lake-openapi-original.yml
 certifications:
 - SOC 2 Type 2
 - ISO/IEC 27001

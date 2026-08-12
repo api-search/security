@@ -5,37 +5,37 @@ api_specs:
   label: EV Connect Stations / Charge Points API
   slug: stations-charge-points
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ev-connect/refs/heads/main/openapi/ev-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ev-connect/refs/heads/main/openapi/_original/ev-connect-openapi.yml
 - filename: ev-connect-openapi.yml
   format: yaml
   label: EV Connect Sessions API
   slug: sessions
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ev-connect/refs/heads/main/openapi/ev-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ev-connect/refs/heads/main/openapi/_original/ev-connect-openapi.yml
 - filename: ev-connect-openapi.yml
   format: yaml
   label: EV Connect Connectors API
   slug: connectors
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ev-connect/refs/heads/main/openapi/ev-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ev-connect/refs/heads/main/openapi/_original/ev-connect-openapi.yml
 - filename: ev-connect-openapi.yml
   format: yaml
   label: EV Connect Drivers API
   slug: drivers
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ev-connect/refs/heads/main/openapi/ev-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ev-connect/refs/heads/main/openapi/_original/ev-connect-openapi.yml
 - filename: ev-connect-openapi.yml
   format: yaml
   label: EV Connect Pricing / Plans API
   slug: pricing-plans
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ev-connect/refs/heads/main/openapi/ev-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ev-connect/refs/heads/main/openapi/_original/ev-connect-openapi.yml
 - filename: ev-connect-openapi.yml
   format: yaml
   label: EV Connect Webhooks
   slug: webhooks
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ev-connect/refs/heads/main/openapi/ev-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ev-connect/refs/heads/main/openapi/_original/ev-connect-openapi.yml
 description: ''
 domains:
 - caa: []

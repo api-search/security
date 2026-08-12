@@ -5,25 +5,25 @@ api_specs:
   label: Velo3D Sapphire Printers
   slug: sapphire-printers
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velo3d/refs/heads/main/openapi/velo3d-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/velo3d/refs/heads/main/openapi/_original/velo3d-openapi.yml
 - filename: velo3d-openapi.yml
   format: yaml
   label: Velo3D Flow Print Preparation
   slug: flow-print-prep
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velo3d/refs/heads/main/openapi/velo3d-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/velo3d/refs/heads/main/openapi/_original/velo3d-openapi.yml
 - filename: velo3d-openapi.yml
   format: yaml
   label: Velo3D Assure Quality Assurance
   slug: assure-qa
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velo3d/refs/heads/main/openapi/velo3d-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/velo3d/refs/heads/main/openapi/_original/velo3d-openapi.yml
 - filename: velo3d-openapi.yml
   format: yaml
   label: Velo3D Intelligent Fusion
   slug: intelligent-fusion
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velo3d/refs/heads/main/openapi/velo3d-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/velo3d/refs/heads/main/openapi/_original/velo3d-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -25,7 +25,7 @@ api_specs:
   label: Benzinga Earnings Call Transcripts API
   slug: benzinga-earnings-call-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benzinga/refs/heads/main/openapi/benzinga-delivery-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/benzinga/refs/heads/main/openapi/_original/benzinga-delivery-api-openapi.yml
 - filename: benzinga-webhook-api-openapi.yml
   format: yaml
   label: Benzinga Data Webhook Engine

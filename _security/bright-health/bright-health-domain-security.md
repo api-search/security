@@ -25,7 +25,7 @@ slug: bright-health-domain-security
 source_filename: bright-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.brighthealthplan.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 23:05:09 2026 GMT\n  hsts: null\ndomains:\n- domain: brighthealthplan.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.brighthealthplan.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 23:05:09 2026 GMT\n  hsts: null\ndomains:\n- domain: brighthealthplan.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bright-health/refs/heads/main/security/bright-health-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
