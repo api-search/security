@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: streetmetrics-public-api-openapi.json
+  format: json
+  label: StreetMetrics Public API
+  slug: streetmetrics-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-public-api-openapi.json
 description: ''
 domains:
 - caa: []
@@ -7,6 +14,11 @@ domains:
   dnssec: false
   domain: streetmetrics.com
   spf: true
+- caa: []
+  dmarc: false
+  dnssec: false
+  domain: streetmetrics.io
+  spf: false
 hosts:
 - cert_expires: Oct 15 14:35:10 2026 GMT
   host: streetmetrics.com
@@ -14,19 +26,29 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+- cert_expires: Oct 21 04:55:59 2026 GMT
+  host: docs.streetmetrics.com
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Oct  2 05:56:18 2026 GMT
+  host: dashboard.streetmetrics.io
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
 kind: domain-security
 layout: security
 method: probed
 name: Streetmetrics Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for StreetMetrics, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+overview: 'Domain security posture for StreetMetrics, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: StreetMetrics
 provider_slug: streetmetrics
 slug: streetmetrics-domain-security
 source_filename: streetmetrics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: streetmetrics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 14:35:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: streetmetrics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: streetmetrics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 14:35:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.streetmetrics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 04:55:59 2026 GMT\n  hsts: null\n- host: dashboard.streetmetrics.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 05:56:18 2026 GMT\n  hsts: null\ndomains:\n- domain: streetmetrics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: streetmetrics.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/security/streetmetrics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -38,4 +60,8 @@ tags:
 - Analytics
 - Marketing
 - Location Data
+- Media Planning
+- Transit Advertising
+- Campaign Reporting
+- Audience Data
 ---

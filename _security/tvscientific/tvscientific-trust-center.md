@@ -24,5 +24,8 @@ tags:
 - Performance Marketing
 - AdTech
 - Measurement
+- Campaign Management
+- Real Time Bidding
+- Attribution
 trust_url: https://trust.tvscientific.com/
 ---

@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: rubicon-project-springserve-v1-openapi.yml
+  format: yaml
+  label: SpringServe UI API (v1)
+  slug: rubicon-project-springserve-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/openapi/rubicon-project-springserve-v1-openapi.yml
+- filename: rubicon-project-springserve-v0-openapi.yml
+  format: yaml
+  label: SpringServe UI API (v0)
+  slug: rubicon-project-springserve-v0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/openapi/rubicon-project-springserve-v0-openapi.yml
+- filename: rubicon-project-springserve-v1-openapi.yml
+  format: yaml
+  label: ClearLine API
+  slug: rubicon-project-clearline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/openapi/rubicon-project-springserve-v1-openapi.yml
 certifications:
 - SOC 2 Type I
 - SOC 1 Type II
@@ -27,6 +46,9 @@ tags:
 - SSP
 - Real-Time Bidding
 - Connected TV
+- Ad Serving
 - Media
+- OpenRTB
+- Reporting
 trust_url: https://www.magnite.com/trust-center/
 ---

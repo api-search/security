@@ -31,5 +31,8 @@ tags:
 - Attribution
 - Reporting
 - Business Intelligence
+- MCP
+- AI Agents
+- Marketing Mix Modeling
 trust_url: https://funnel.io/funnel-information-security-overview
 ---

@@ -25,7 +25,7 @@ slug: quantum-domain-security
 source_filename: quantum-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: quantums.com.sa\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 06:11:41 2026 GMT\n  hsts: false\ndomains:\n- domain: quantums.com.sa\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: quantums.com.sa\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 06:11:41 2026 GMT\n  hsts: false\ndomains:\n- domain: quantums.com.sa\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quantum/refs/heads/main/security/quantum-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

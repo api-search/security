@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: sourcepoint-gdpr-tcf-openapi.yml
+  format: yaml
+  label: Sourcepoint GDPR TCF API
+  slug: sourcepoint-gdpr-tcf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/openapi/sourcepoint-gdpr-tcf-openapi.yml
+- filename: sourcepoint-gdpr-standard-openapi.yml
+  format: yaml
+  label: Sourcepoint GDPR Standard API
+  slug: sourcepoint-gdpr-standard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/openapi/sourcepoint-gdpr-standard-openapi.yml
+- filename: sourcepoint-usnat-openapi.yml
+  format: yaml
+  label: Sourcepoint U.S. Multi-State Privacy API
+  slug: sourcepoint-usnat-multi-state-privacy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/openapi/sourcepoint-usnat-openapi.yml
+- filename: sourcepoint-global-enterprise-openapi.yml
+  format: yaml
+  label: Sourcepoint Global Enterprise API
+  slug: sourcepoint-global-enterprise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/openapi/sourcepoint-global-enterprise-openapi.yml
+- filename: sourcepoint-preferences-openapi.yml
+  format: yaml
+  label: Sourcepoint Preferences API
+  slug: sourcepoint-preferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/openapi/sourcepoint-preferences-openapi.yml
+- filename: sourcepoint-reporting-gdpr-openapi.yml
+  format: yaml
+  label: Sourcepoint Reporting API
+  slug: sourcepoint-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/openapi/sourcepoint-reporting-gdpr-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -13,13 +50,20 @@ domains:
   dnssec: false
   domain: readme.io
   spf: true
+- caa: []
+  dmarc: false
+  dmarc_policy: null
+  dnssec: false
+  domain: privacy-mgmt.com
+  note: The CMP delivery domain that serves the consent APIs and the web wrapper. No SPF, no DMARC, no CAA and no DS record - it is a service domain, not a mail domain, but the missing CAA leaves certificate issuance unconstrained on the host that fronts every consent call.
+  spf: false
 hosts:
 - cert_expires: Sep 24 06:18:31 2026 GMT
   host: www.sourcepoint.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 10 23:44:01 2026 GMT
+- cert_expires: Nov  9 23:43:29 2026 GMT
   host: docs.sourcepoint.com
   hsts: true
   hsts_max_age: 259200
@@ -27,22 +71,38 @@ hosts:
   tls_version: TLSv1.3
 - cert_expires: Oct  9 13:12:37 2026 GMT
   host: sourcepoint-public-api.readme.io
-  hsts: null
+  hsts: true
+  hsts_max_age: 31536000
   https: true
+  tls_version: TLSv1.3
+- cert_expires: Jan 22 23:59:59 2027 GMT
+  host: cdn.privacy-mgmt.com
+  hsts: true
+  hsts_max_age: 15552000
+  https: true
+  note: 'Production consent API host (OpenAPI servers[]). HSTS observed on an API response: max-age=15552000; includeSubDomains. Added by the enrichment pass because probe-domain-security.py caps at the first three hosts.'
+  tls_version: TLSv1.3
+- cert_expires: Feb 24 23:59:59 2027 GMT
+  host: portal.sourcepoint.com
+  hsts: true
+  hsts_max_age: 63072000
+  https: true
+  note: 'Production reporting API + portal host. HSTS on an API response: max-age=63072000; includeSubDomains; preload. Added by the enrichment pass.'
   tls_version: TLSv1.3
 kind: domain-security
 layout: security
 method: probed
 name: Sourcepoint Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Sourcepoint, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for Sourcepoint, probed live across 5 host(s) and 3 registrable domain(s). 5 host(s) serve HTTPS (up to TLSv1.3); 4 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Sourcepoint
 provider_slug: sourcepoint
 slug: sourcepoint-domain-security
 source_filename: sourcepoint-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sourcepoint.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 06:18:31 2026 GMT\n  hsts: false\n- host: docs.sourcepoint.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 23:44:01 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\n- host: sourcepoint-public-api.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: null\ndomains:\n- domain: sourcepoint.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sourcepoint.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 06:18:31 2026 GMT\n  hsts: false\n- host: docs.sourcepoint.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 23:43:29 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\n- host: sourcepoint-public-api.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: cdn.privacy-mgmt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 22 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\n  note: 'Production consent API host (OpenAPI servers[]). HSTS observed on an API response: max-age=15552000;\n    includeSubDomains. Added by the enrichment pass because probe-domain-security.py caps at the first\n    three hosts.'\n- host: portal.sourcepoint.com\n  https: true\n  tls_version:\
+  \ TLSv1.3\n  cert_expires: Feb 24 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  note: 'Production reporting API + portal host. HSTS on an API response: max-age=63072000; includeSubDomains;\n    preload. Added by the enrichment pass.'\ndomains:\n- domain: sourcepoint.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: privacy-mgmt.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n  dmarc_policy: null\n  note: The CMP delivery domain that serves the consent APIs and the web wrapper. No SPF, no DMARC, no\n    CAA and no DS record - it is a service domain, not a mail domain, but the missing CAA leaves certificate\n    issuance unconstrained on the host that fronts every consent call.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/security/sourcepoint-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

@@ -7,7 +7,7 @@ domains:
   domain: mirado.ai
   spf: false
 hosts:
-- cert_expires: Sep  8 11:51:20 2026 GMT
+- cert_expires: Nov  6 14:23:41 2026 GMT
   host: mirado.ai
   hsts: true
   hsts_max_age: 31536000
@@ -25,7 +25,7 @@ slug: mirado-domain-security
 source_filename: mirado-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mirado.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 11:51:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: mirado.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mirado.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 14:23:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: mirado.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mirado/refs/heads/main/security/mirado-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:

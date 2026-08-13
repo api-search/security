@@ -59,6 +59,16 @@
     <link rel="canonical" href="{% if page.canonical %}{{ page.canonical }}{% else %}{{ page.url | prepend: site.url }}{% endif %}">
     <link rel="api-catalog" href="https://apis.io/.well-known/api-catalog" type="application/linkset+json">
     <link rel="agent-skills" href="https://apis.io/skills/" type="application/json">
+    {%- comment -%}
+      Agent markdown twin. Advertised ONLY on layouts that actually get one, so we
+      never point an agent at a 404 -- agent-twins.py writes index.md beside these
+      pages and nowhere else. Absolute URL, and the same document is served to every
+      client; nothing on this network varies by user-agent.
+      See research/agent-ad-serving/ROLLOUT-laneworks.md
+    {%- endcomment -%}
+    {% if page.layout == "provider" %}
+    <link rel="alternate" type="text/markdown" title="Markdown source" href="{{ page.url | prepend: site.url }}index.md">
+    {% endif %}
 
     {% if page.layout == "post" and page.image %}{% assign _og_image = page.image | prepend: site.url %}{% else %}{% assign _og_image = site.image %}{% endif %}
     {% if page.layout == "post" %}{% assign _og_type = "article" %}{% else %}{% assign _og_type = "website" %}{% endif %}

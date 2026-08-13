@@ -1,5 +1,12 @@
 ---
 api_key_in: []
+api_specs:
+- filename: admob-api-v1-openapi.yml
+  format: yaml
+  label: AdMob API
+  slug: admob-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/admob/refs/heads/main/openapi/admob-api-v1-openapi.yml
 auth_types:
 - oauth2
 description: ''

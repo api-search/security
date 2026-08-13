@@ -27,5 +27,10 @@ tags:
 - Digital Advertising
 - MarTech
 - Google Ads
+- Shopify
+- E-Commerce
+- Attribution
+- Analytics
+- Event Tracking
 trust_url: https://mai-unbound.secureframetrust.com/
 ---

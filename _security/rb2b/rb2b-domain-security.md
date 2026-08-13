@@ -1,17 +1,4 @@
 ---
-api_specs:
-- filename: postman.yaml
-  format: yaml
-  label: RB2B Identification API
-  slug: rb2b-identification-api
-  spec_type: Postman
-  url: https://postman.api.rb2b.com/
-- filename: postman.yaml
-  format: yaml
-  label: RB2B Enrichment API
-  slug: rb2b-enrichment-api
-  spec_type: Postman
-  url: https://postman.api.rb2b.com/
 description: ''
 domains:
 - caa: []
@@ -45,7 +32,7 @@ slug: rb2b-domain-security
 source_filename: rb2b-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rb2b.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 07:30:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: support.rb2b.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 23:47:09 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: rb2b.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rb2b.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 07:30:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: support.rb2b.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 23:47:09 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: rb2b.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/security/rb2b-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -64,4 +51,5 @@ tags:
 - Pixel
 - Adtech
 - Identity Graph
+- MCP
 ---

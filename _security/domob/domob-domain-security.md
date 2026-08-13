@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: domob-media-data-api-openapi.yml
+  format: yaml
+  label: Domob Media Data API
+  slug: domob-media-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/openapi/domob-media-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -7,25 +14,32 @@ domains:
   domain: domob.cn
   spf: true
 hosts:
-- host: domob.cn
-  hsts: null
+- cert_expires: Oct 12 05:23:23 2026 GMT
+  host: www.domob.cn
+  hsts: true
+  hsts_max_age: 31536000
   https: true
-  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for ''domob.cn''. '
+  tls_version: TLSv1.2
+- cert_expires: Oct 12 05:23:23 2026 GMT
+  host: developer.domob.cn
+  hsts: false
+  https: true
+  tls_version: TLSv1.2
 kind: domain-security
 layout: security
 method: probed
 name: Domob Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for domob, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+overview: 'Domain security posture for domob, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: domob
 provider_slug: domob
 slug: domob-domain-security
 source_filename: domob-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: domob.cn\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''domob.cn''. '\n  hsts: null\ndomains:\n- domain: domob.cn\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.domob.cn\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 12 05:23:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.domob.cn\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 12 05:23:23 2026 GMT\n  hsts: false\ndomains:\n- domain: domob.cn\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/security/domob-domain-security.yml
-summary_line: no transport/DNS hardening detected
+summary_line: TLSv1.2 · HSTS
 tags:
 - Company
 - Advertising
@@ -35,4 +49,6 @@ tags:
 - SDK
 - DSP
 - Monetization
+- Reporting
+- China
 ---

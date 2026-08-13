@@ -62,4 +62,13 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data
 - Search Engines
+- SEO
+- Marketing
+- Marketing Intelligence
+- Content Marketing
+- Advertising
+- Competitive Intelligence
+- Keyword Research
+- Backlinks
+- Rank Tracking
 ---

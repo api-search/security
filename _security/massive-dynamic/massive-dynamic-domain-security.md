@@ -7,7 +7,7 @@ domains:
   domain: massive-dynamic.ai
   spf: true
 hosts:
-- cert_expires: Sep 22 06:03:37 2026 GMT
+- cert_expires: Feb 17 06:07:03 2027 GMT
   host: massive-dynamic.ai
   hsts: null
   https: true
@@ -24,7 +24,7 @@ slug: massive-dynamic-domain-security
 source_filename: massive-dynamic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: massive-dynamic.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 06:03:37 2026 GMT\n  hsts: null\ndomains:\n- domain: massive-dynamic.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: massive-dynamic.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 17 06:07:03 2027 GMT\n  hsts: null\ndomains:\n- domain: massive-dynamic.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/massive-dynamic/refs/heads/main/security/massive-dynamic-domain-security.yml
 summary_line: TLSv1.3
 tags:

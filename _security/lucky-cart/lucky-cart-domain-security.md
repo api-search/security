@@ -8,8 +8,8 @@ domains:
   domain: luckycart.com
   spf: true
 hosts:
-- cert_expires: Oct 14 16:16:57 2026 GMT
-  host: luckycart.com
+- cert_expires: Oct 15 03:49:45 2026 GMT
+  host: www.luckycart.com
   hsts: true
   hsts_max_age: 31536000
   https: true
@@ -26,7 +26,7 @@ slug: lucky-cart-domain-security
 source_filename: lucky-cart-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: luckycart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 16:16:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: luckycart.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.luckycart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 03:49:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: luckycart.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lucky-cart/refs/heads/main/security/lucky-cart-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -38,4 +38,10 @@ tags:
 - Personalization
 - Loyalty
 - CPG
+- Grocery
+- Promotions
+- Gamification
+- Shopper Marketing
+- First-Party Data
+- France
 ---

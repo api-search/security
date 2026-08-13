@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: habu-clean-room-api-openapi.yml
+  format: yaml
+  label: Habu Clean Room API
+  slug: habu-clean-room-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/openapi/habu-clean-room-api-openapi.yml
 certifications:
 - SOC 2 Type 2
 - ISO 27001

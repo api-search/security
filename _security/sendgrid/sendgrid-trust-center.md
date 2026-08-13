@@ -411,5 +411,8 @@ tags:
 - SMTP
 - T1
 - Transactional Email
+- Email Marketing
+- Deliverability
+- Marketing
 trust_url: https://www.twilio.com/en-us/trust-center
 ---

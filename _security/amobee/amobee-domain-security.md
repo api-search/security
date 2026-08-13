@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yaml
-  format: yaml
-  label: Amobee Campaign API
-  slug: amobee-campaign-api
+- filename: amobee-services-openapi.json
+  format: json
+  label: Amobee Services Gateway API
+  slug: amobee-services-gateway-api
   spec_type: OpenAPI
-  url: https://services.amobee.com/campaign/v3/doc/
+  url: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/openapi/amobee-services-openapi.json
 description: ''
 domains:
 - caa: []
@@ -15,7 +15,7 @@ domains:
   domain: amobee.com
   spf: true
 hosts:
-- cert_expires: Aug 21 03:48:50 2026 GMT
+- cert_expires: Oct 19 06:29:28 2026 GMT
   host: www.amobee.com
   hsts: true
   hsts_max_age: 2592000
@@ -24,6 +24,7 @@ hosts:
 - cert_expires: Oct 16 23:59:59 2026 GMT
   host: services.amobee.com
   hsts: null
+  hsts_note: 'The root path returns a bare JSON 404 without HSTS, but the live API paths do send it — https://services.amobee.com/accounts/v1/api/token returned ''strict-transport-security: max-age=15724800; includeSubDomains'' on 2026-08-12, along with x-content-type-options, x-frame-options, referrer-policy, permissions-policy and a Content-Security-Policy.'
   https: true
   tls_version: TLSv1.3
 kind: domain-security
@@ -38,7 +39,7 @@ slug: amobee-domain-security
 source_filename: amobee-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.amobee.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 03:48:50 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: services.amobee.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: amobee.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.amobee.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 06:29:28 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: services.amobee.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: null\n  hsts_note: >-\n    The root path returns a bare JSON 404 without HSTS, but the live API paths do\n    send it — https://services.amobee.com/accounts/v1/api/token returned\n    'strict-transport-security: max-age=15724800; includeSubDomains' on 2026-08-12,\n    along with x-content-type-options, x-frame-options, referrer-policy,\n    permissions-policy and a Content-Security-Policy.\ndomains:\n- domain: amobee.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/security/amobee-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

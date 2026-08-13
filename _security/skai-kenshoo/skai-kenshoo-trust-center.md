@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: skai-kenshoo-api-openapi.yml
+  format: yaml
+  label: Skai (Kenshoo) API
+  slug: skai-kenshoo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/openapi/skai-kenshoo-api-openapi.yml
 certifications:
 - ISO/IEC 27001:2013
 - SOC 2 Type 2
@@ -29,5 +36,10 @@ tags:
 - Marketing Analytics
 - Advertising Technology
 - Campaign Management
+- Commerce Media
+- Reporting
+- MCP
+- Agent Native
+- Omnichannel
 trust_url: https://skai.io/skai-information-security-and-privacy-center/
 ---

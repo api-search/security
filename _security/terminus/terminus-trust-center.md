@@ -25,5 +25,7 @@ tags:
 - B2B
 - Analytics
 - Email
+- Email Verification
+- Data Quality
 trust_url: https://trust.demandscience.com/
 ---

@@ -7,9 +7,31 @@ domains:
   dnssec: false
   domain: stagwellglobal.com
   spf: true
+- caa:
+  - 0 issue "digicert.com; cansignhttpexchanges=yes"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog; cansignhttpexchanges=yes"
+  - 0 issue "ssl.com"
+  - 0 issuewild "comodoca.com"
+  - 0 issuewild "digicert.com; cansignhttpexchanges=yes"
+  dmarc: true
+  dmarc_policy: quarantine
+  dnssec: false
+  domain: influencermarketing.ai
+  spf: true
 hosts:
-- cert_expires: Aug 25 16:19:38 2026 GMT
+- cert_expires: Oct 23 17:25:38 2026 GMT
   host: www.stagwellglobal.com
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Oct 25 02:38:40 2026 GMT
+  host: influencermarketing.ai
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Nov  8 05:00:26 2026 GMT
+  host: imai.co
   hsts: false
   https: true
   tls_version: TLSv1.3
@@ -18,14 +40,14 @@ layout: security
 method: probed
 name: Stagwell Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Stagwell, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+overview: 'Domain security posture for Stagwell, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Stagwell
 provider_slug: stagwell
 slug: stagwell-domain-security
 source_filename: stagwell-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.stagwellglobal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 16:19:38 2026 GMT\n  hsts: false\ndomains:\n- domain: stagwellglobal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.stagwellglobal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 17:25:38 2026 GMT\n  hsts: false\n- host: influencermarketing.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 02:38:40 2026 GMT\n  hsts: false\n- host: imai.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 05:00:26 2026 GMT\n  hsts: false\ndomains:\n- domain: stagwellglobal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: influencermarketing.ai\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/security/stagwell-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
@@ -33,4 +55,10 @@ tags:
 - Advertising
 - Media
 - MarTech
+- Influencer Marketing
+- Market Research
+- Creator Economy
+- Public Relations
+- Consumer Insights
+- Holding Company
 ---

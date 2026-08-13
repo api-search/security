@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: mikmak-commerce-api-openapi.yml
+  format: yaml
+  label: MikMak Headless Commerce API
+  slug: mikmak-commerce
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/openapi/mikmak-commerce-api-openapi.yml
+- filename: mikmak-insights-api-openapi.yml
+  format: yaml
+  label: MikMak Insights API
+  slug: mikmak-insights
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/openapi/mikmak-insights-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001
@@ -16,7 +29,7 @@ slug: mikmak-trust-center
 source_filename: mikmak-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.mikmak.com/security\nurl: https://www.mikmak.com/security\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\n- CSA STAR\nevidence:\n- source: https://www.mikmak.com/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - iso/iec 27001\n  - gdpr\n  - csa star\n"
+source_yaml: "generated: '2026-08-12'\nmethod: searched\nprobe: true\nsource: https://www.mikmak.com/security\nurl: https://www.mikmak.com/security\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\n- CSA STAR\nevidence:\n- source: https://www.mikmak.com/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - iso/iec 27001\n  - gdpr\n  - csa star\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/security/mikmak-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR, CSA STAR
 tags:
@@ -25,5 +38,12 @@ tags:
 - eCommerce
 - Multichannel
 - Retail Media
+- Where to Buy
+- Shoppable Media
+- Product Availability
+- MCP
+- Agent Native
+- Reporting
+- CPG
 trust_url: https://www.mikmak.com/security
 ---

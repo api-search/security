@@ -7,7 +7,7 @@ domains:
   domain: jumprampgames.com
   spf: true
 hosts:
-- cert_expires: Oct  6 23:59:59 2026 GMT
+- cert_expires: Feb 21 23:59:59 2027 GMT
   host: jumprampgames.com
   hsts: false
   https: true
@@ -24,7 +24,7 @@ slug: jump-ramp-games-domain-security
 source_filename: jump-ramp-games-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: jumprampgames.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  6 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: jumprampgames.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: jumprampgames.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 21 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: jumprampgames.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jump-ramp-games/refs/heads/main/security/jump-ramp-games-domain-security.yml
 summary_line: TLSv1.2
 tags:

@@ -25,7 +25,7 @@ slug: viralgains-domain-security
 source_filename: viralgains-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: viralgains.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 15:32:09 2026 GMT\n  hsts: false\ndomains:\n- domain: viralgains.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: viralgains.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 15:32:09 2026 GMT\n  hsts: false\ndomains:\n- domain: viralgains.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/viralgains/refs/heads/main/security/viralgains-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

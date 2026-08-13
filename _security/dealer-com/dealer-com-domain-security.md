@@ -36,7 +36,7 @@ slug: dealer-com-domain-security
 source_filename: dealer-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dealer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 19:32:19 2026 GMT\n  hsts: false\n- host: developer.coxautoinc.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  6 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: dealer.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: coxautoinc.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dealer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 19:32:19 2026 GMT\n  hsts: false\n- host: developer.coxautoinc.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  6 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: dealer.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: coxautoinc.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/security/dealer-com-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
@@ -45,6 +45,8 @@ tags:
 - Digital Marketing
 - Website Platform
 - Inventory
+- Vehicle Data
+- Incentives
 - Leads
 - Digital Advertising
 - Cox Automotive

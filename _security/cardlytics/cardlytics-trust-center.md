@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: cardlytics-partner-api-openapi.yml
+  format: yaml
+  label: Cardlytics Partner API
+  slug: cardlytics-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-partner-api-openapi.yml
+- filename: cardlytics-campaign-build-api-openapi.yml
+  format: yaml
+  label: Cardlytics Campaign Build API
+  slug: cardlytics-campaign-build-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-campaign-build-api-openapi.yml
+- filename: cardlytics-publisher-api-openapi.yml
+  format: yaml
+  label: Cardlytics Publisher API v2
+  slug: cardlytics-publisher-api-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-publisher-api-openapi.yml
 certifications:
 - SOC 1
 - SOC 2
@@ -27,5 +46,9 @@ tags:
 - Financial Services
 - Loyalty and Rewards
 - Marketing
+- Banking
+- Retail Media
+- Attribution
+- Offers
 trust_url: https://www.cardlytics.com/trust-center
 ---
