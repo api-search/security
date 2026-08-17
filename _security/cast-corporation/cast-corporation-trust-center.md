@@ -28,5 +28,8 @@ tags:
 - SaaS
 - Automation
 - Post-Sales
+- Analytics
+- Webhooks
+- Embeddable
 trust_url: https://school.cast.app/security-documents/
 ---

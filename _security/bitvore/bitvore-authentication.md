@@ -137,9 +137,9 @@ schemes:
   name: API key
   parameter: X-BV-APIKEY
   sources:
-  - openapi/bitvore-corporate-openapi.yml
-  - openapi/bitvore-legacy-openapi.yml
-  - openapi/bitvore-muni-openapi.yml
+  - openapi/_original/bitvore-corporate-openapi.yml
+  - openapi/_original/bitvore-legacy-openapi.yml
+  - openapi/_original/bitvore-muni-openapi.yml
   type: apiKey
 - flows:
   - flow: clientCredentials
@@ -147,23 +147,23 @@ schemes:
     tokenUrl: https://api.bitvore.com/oauth/accesstoken
   name: OAuth
   sources:
-  - openapi/bitvore-corporate-openapi.yml
-  - openapi/bitvore-legacy-openapi.yml
-  - openapi/bitvore-muni-openapi.yml
+  - openapi/_original/bitvore-corporate-openapi.yml
+  - openapi/_original/bitvore-legacy-openapi.yml
+  - openapi/_original/bitvore-muni-openapi.yml
   type: oauth2
 - name: BasicAuth
   scheme: basic
   sources:
-  - openapi/bitvore-custom-api-it-openapi.yml
-  - openapi/bitvore-custom-api-l-openapi.yml
-  - openapi/bitvore-legacy-openapi.yml
+  - openapi/_original/bitvore-custom-api-it-openapi.yml
+  - openapi/_original/bitvore-custom-api-l-openapi.yml
+  - openapi/_original/bitvore-legacy-openapi.yml
   type: http
 slug: bitvore-authentication
 source_filename: bitvore-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-08-07'\nmethod: derived\nsource: openapi/bitvore-corporate-openapi.yml, openapi/bitvore-custom-api-it-openapi.yml, openapi/bitvore-custom-api-l-openapi.yml,\n  openapi/bitvore-legacy-openapi.yml, openapi/bitvore-muni-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: API key\n  type: apiKey\n  in: header\n  parameter: X-BV-APIKEY\n  sources:\n  - openapi/bitvore-corporate-openapi.yml\n  - openapi/bitvore-legacy-openapi.yml\n  - openapi/bitvore-muni-openapi.yml\n- name: OAuth\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.bitvore.com/oauth/accesstoken\n    scopes: 1\n  sources:\n  - openapi/bitvore-corporate-openapi.yml\n  - openapi/bitvore-legacy-openapi.yml\n  - openapi/bitvore-muni-openapi.yml\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/bitvore-custom-api-it-openapi.yml\n  - openapi/bitvore-custom-api-l-openapi.yml\n\
-  \  - openapi/bitvore-legacy-openapi.yml\n"
+source_yaml: "generated: '2026-08-07'\nmethod: derived\nsource: openapi/_original/bitvore-corporate-openapi.yml, openapi/_original/bitvore-custom-api-it-openapi.yml, openapi/_original/bitvore-custom-api-l-openapi.yml,\n  openapi/_original/bitvore-legacy-openapi.yml, openapi/_original/bitvore-muni-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: API key\n  type: apiKey\n  in: header\n  parameter: X-BV-APIKEY\n  sources:\n  - openapi/_original/bitvore-corporate-openapi.yml\n  - openapi/_original/bitvore-legacy-openapi.yml\n  - openapi/_original/bitvore-muni-openapi.yml\n- name: OAuth\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.bitvore.com/oauth/accesstoken\n    scopes: 1\n  sources:\n  - openapi/_original/bitvore-corporate-openapi.yml\n  - openapi/_original/bitvore-legacy-openapi.yml\n  - openapi/_original/bitvore-muni-openapi.yml\n- name: BasicAuth\n\
+  \  type: http\n  scheme: basic\n  sources:\n  - openapi/_original/bitvore-custom-api-it-openapi.yml\n  - openapi/_original/bitvore-custom-api-l-openapi.yml\n  - openapi/_original/bitvore-legacy-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/authentication/bitvore-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:

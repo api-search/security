@@ -138,6 +138,24 @@ api_specs:
   slug: customer-io-transactional-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-transactional-api-openapi.yml
+- filename: customer-io-app-api-openapi.json
+  format: json
+  label: Customer.io App API
+  slug: app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/_original/customer-io-app-api-openapi.json
+- filename: customer-io-pipelines-api-openapi.json
+  format: json
+  label: Customer.io Pipelines API
+  slug: pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/_original/customer-io-pipelines-api-openapi.json
+- filename: customer-io-reporting-webhooks-openapi.json
+  format: json
+  label: Customer.io Reporting Webhooks
+  slug: reporting-webhooks
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/_original/customer-io-reporting-webhooks-openapi.json
 description: ''
 domains:
 - caa: []
@@ -153,13 +171,13 @@ hosts:
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 26 05:13:46 2026 GMT
+- cert_expires: Oct 25 04:23:41 2026 GMT
   host: docs.customer.io
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep  4 02:31:30 2026 GMT
+- cert_expires: Oct 28 11:51:05 2026 GMT
   host: track.customer.io
   hsts: true
   hsts_max_age: 31536000
@@ -177,7 +195,7 @@ slug: customer-io-domain-security
 source_filename: customer-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: customer.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 13:17:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.customer.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 05:13:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: track.customer.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 02:31:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: customer.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: customer.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 13:17:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.customer.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 04:23:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: track.customer.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 11:51:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: customer.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/security/customer-io-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

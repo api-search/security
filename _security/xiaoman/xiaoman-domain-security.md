@@ -2,43 +2,43 @@
 api_specs:
 - filename: xiaoman-companies-api-openapi.yml
   format: yaml
-  label: Xiaoman (OKKI) Companies API
+  label: OKKI Go Companies API
   slug: xiaoman-companies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-companies-api-openapi.yml
 - filename: xiaoman-contacts-api-openapi.yml
   format: yaml
-  label: Xiaoman (OKKI) Contacts API
+  label: OKKI Go Contacts API
   slug: xiaoman-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-contacts-api-openapi.yml
 - filename: xiaoman-credits-api-openapi.yml
   format: yaml
-  label: Xiaoman (OKKI) Credits API
+  label: OKKI Go Credits API
   slug: xiaoman-credits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-credits-api-openapi.yml
 - filename: xiaoman-default-api-openapi.yml
   format: yaml
-  label: Xiaoman (OKKI) 产品 API
+  label: Xiaoman (OKKI CRM) 产品 API
   slug: xiaoman-default-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-default-api-openapi.yml
 - filename: xiaoman-devops-api-openapi.yml
   format: yaml
-  label: Xiaoman (OKKI) devops相关 API
+  label: Xiaoman (OKKI CRM) devops相关 API
   slug: xiaoman-devops-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-devops-api-openapi.yml
 - filename: xiaoman-emails-api-openapi.yml
   format: yaml
-  label: Xiaoman (OKKI) Emails API
+  label: OKKI Go Emails API
   slug: xiaoman-emails-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-emails-api-openapi.yml
 - filename: xiaoman-s7-1-api-openapi.yml
   format: yaml
-  label: Xiaoman (OKKI) s7.1 API
+  label: Xiaoman (OKKI CRM) s7.1 API
   slug: xiaoman-s7-1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-s7-1-api-openapi.yml

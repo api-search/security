@@ -31,7 +31,17 @@ schemes:
   name: bearerAuth
   scheme: bearer
   sources:
+  - openapi/human-api-admin-consumer-link-openapi.json
   - openapi/human-api-admin-order-types-openapi.json
+  - openapi/human-api-admin-report-by-id-openapi.json
+  - openapi/human-api-admin-subscription-create-openapi.json
+  - openapi/human-api-admin-subscription-delete-openapi.json
+  - openapi/human-api-admin-subscription-details-openapi.json
+  - openapi/human-api-admin-subscriptions-list-openapi.json
+  - openapi/human-api-admin-user-actions-openapi.json
+  - openapi/human-api-admin-user-create-openapi.json
+  - openapi/human-api-admin-user-details-openapi.json
+  - openapi/human-api-admin-user-providers-openapi.json
   - openapi/human-api-admin-user-reports-openapi.json
   - openapi/human-api-admin-users-list-openapi.json
   type: http
@@ -39,7 +49,8 @@ slug: human-api-authentication
 source_filename: human-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-24'\nmethod: derived\nsource: openapi/human-api-admin-order-types-openapi.json, openapi/human-api-admin-user-reports-openapi.json,\n  openapi/human-api-admin-users-list-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/human-api-admin-order-types-openapi.json\n  - openapi/human-api-admin-user-reports-openapi.json\n  - openapi/human-api-admin-users-list-openapi.json\n"
+source_yaml: "generated: '2026-08-15'\nmethod: derived\nsource: openapi/human-api-admin-consumer-link-openapi.json, openapi/human-api-admin-order-types-openapi.json,\n  openapi/human-api-admin-report-by-id-openapi.json, openapi/human-api-admin-subscription-create-openapi.json,\n  openapi/human-api-admin-subscription-delete-openapi.json, openapi/human-api-admin-subscription-details-openapi.json,\n  openapi/human-api-admin-subscriptions-list-openapi.json, openapi/human-api-admin-user-actions-openapi.json,\n  openapi/human-api-admin-user-create-openapi.json, openapi/human-api-admin-user-details-openapi.json,\n  openapi/human-api-admin-user-providers-openapi.json, openapi/human-api-admin-user-reports-openapi.json\n  ...\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/human-api-admin-consumer-link-openapi.json\n  - openapi/human-api-admin-order-types-openapi.json\n  - openapi/human-api-admin-report-by-id-openapi.json\n\
+  \  - openapi/human-api-admin-subscription-create-openapi.json\n  - openapi/human-api-admin-subscription-delete-openapi.json\n  - openapi/human-api-admin-subscription-details-openapi.json\n  - openapi/human-api-admin-subscriptions-list-openapi.json\n  - openapi/human-api-admin-user-actions-openapi.json\n  - openapi/human-api-admin-user-create-openapi.json\n  - openapi/human-api-admin-user-details-openapi.json\n  - openapi/human-api-admin-user-providers-openapi.json\n  - openapi/human-api-admin-user-reports-openapi.json\n  - openapi/human-api-admin-users-list-openapi.json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/authentication/human-api-authentication.yml
 summary_line: http · 1 scheme
 tags:

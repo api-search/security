@@ -6,6 +6,12 @@ api_specs:
   slug: searchapi-serp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/openapi/searchapi-search-api-openapi.yml
+- filename: searchapi-account-api-openapi.yml
+  format: yaml
+  label: SearchApi Account & Analytics API
+  slug: searchapi-account-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/openapi/searchapi-account-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -33,7 +39,7 @@ slug: searchapi-domain-security
 source_filename: searchapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.searchapi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: searchapi.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.searchapi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: searchapi.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/security/searchapi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

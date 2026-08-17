@@ -22,7 +22,7 @@ slug: paperplane-domain-security
 source_filename: paperplane-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.paperplane.ai\n  https: false\ndomains:\n- domain: paperplane.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.paperplane.ai\n  https: false\ndomains:\n- domain: paperplane.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paperplane/refs/heads/main/security/paperplane-domain-security.yml
 summary_line: DMARC
 tags:

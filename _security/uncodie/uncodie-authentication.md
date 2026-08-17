@@ -50,4 +50,8 @@ tags:
 - Lead Generation
 - No Code
 - MCP
+- Commerce
+- Workflows
+- Webhooks
+- Open Source
 ---

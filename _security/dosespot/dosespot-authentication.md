@@ -2,6 +2,18 @@
 api_key_in:
 - header
 api_specs:
+- filename: dosespot-rest-api-jumpstart-epcs-v2-swagger.json
+  format: json
+  label: DoseSpot REST API - JumpStart + EPCS - V2
+  slug: dosespot-rest-api-jumpstart-epcs-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/_original/dosespot-rest-api-jumpstart-epcs-v2-swagger.json
+- filename: dosespot-rest-api-full-epcs-v2-swagger.json
+  format: json
+  label: DoseSpot REST API - Full + EPCS - V2
+  slug: dosespot-rest-api-full-epcs-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/_original/dosespot-rest-api-full-epcs-v2-swagger.json
 - filename: dosespot-medications-api-openapi.yml
   format: yaml
   label: DoseSpot Medications API
@@ -58,20 +70,31 @@ schemes:
   name: bearerAuth
   scheme: bearer
   sources:
-  - openapi/dosespot-openapi.yml
+  - openapi/dosespot-medications-api-openapi.yml
+  - openapi/dosespot-notifications-api-openapi.yml
+  - openapi/dosespot-patients-api-openapi.yml
+  - openapi/dosespot-pharmacies-api-openapi.yml
+  - openapi/dosespot-prescribers-api-openapi.yml
+  - openapi/dosespot-prescriptions-api-openapi.yml
   type: http
 - description: Per-application subscription key issued by DoseSpot.
   in: header
   name: subscriptionKey
   parameter: Subscription-Key
   sources:
-  - openapi/dosespot-openapi.yml
+  - openapi/dosespot-medications-api-openapi.yml
+  - openapi/dosespot-notifications-api-openapi.yml
+  - openapi/dosespot-patients-api-openapi.yml
+  - openapi/dosespot-pharmacies-api-openapi.yml
+  - openapi/dosespot-prescribers-api-openapi.yml
+  - openapi/dosespot-prescriptions-api-openapi.yml
   type: apiKey
 slug: dosespot-authentication
 source_filename: dosespot-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dosespot-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'OAuth2 access token obtained from the DoseSpot token endpoint (POST /webapi/v2/connect/token)\n    using your clinic and clinician credentials, sent as an Authorization: Bearer header.'\n  sources:\n  - openapi/dosespot-openapi.yml\n- name: subscriptionKey\n  type: apiKey\n  in: header\n  parameter: Subscription-Key\n  description: Per-application subscription key issued by DoseSpot.\n  sources:\n  - openapi/dosespot-openapi.yml\n"
+source_yaml: "generated: '2026-08-15'\nmethod: derived\nsource: openapi/dosespot-medications-api-openapi.yml, openapi/dosespot-notifications-api-openapi.yml,\n  openapi/dosespot-patients-api-openapi.yml, openapi/dosespot-pharmacies-api-openapi.yml, openapi/dosespot-prescribers-api-openapi.yml,\n  openapi/dosespot-prescriptions-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'OAuth2 access token obtained from the DoseSpot token endpoint (POST /webapi/v2/connect/token)\n    using your clinic and clinician credentials, sent as an Authorization: Bearer header.'\n  sources:\n  - openapi/dosespot-medications-api-openapi.yml\n  - openapi/dosespot-notifications-api-openapi.yml\n  - openapi/dosespot-patients-api-openapi.yml\n  - openapi/dosespot-pharmacies-api-openapi.yml\n  - openapi/dosespot-prescribers-api-openapi.yml\n  - openapi/dosespot-prescriptions-api-openapi.yml\n\
+  - name: subscriptionKey\n  type: apiKey\n  in: header\n  parameter: Subscription-Key\n  description: Per-application subscription key issued by DoseSpot.\n  sources:\n  - openapi/dosespot-medications-api-openapi.yml\n  - openapi/dosespot-notifications-api-openapi.yml\n  - openapi/dosespot-patients-api-openapi.yml\n  - openapi/dosespot-pharmacies-api-openapi.yml\n  - openapi/dosespot-prescribers-api-openapi.yml\n  - openapi/dosespot-prescriptions-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/authentication/dosespot-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
@@ -81,4 +104,13 @@ tags:
 - EHR
 - Pharmacy
 - EPCS
+- Prescriptions
+- Clinical
+- Medications
+- Prior Authorization
+- Surescripts
+- Medi-Span
+- Telehealth
+- PDMP
+- Digital Health
 ---

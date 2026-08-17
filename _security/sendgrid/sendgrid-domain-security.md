@@ -381,12 +381,12 @@ api_specs:
 description: ''
 domains:
 - caa:
-  - 0 issue "symantec.com"
-  - 0 issue "globalsign.com"
+  - 0 issue "letsencrypt.org"
   - 0 issue "amazon.com"
   - 0 issue "godaddy.com"
+  - 0 issue "globalsign.com"
   - 0 issue "sectigo.com"
-  - 0 issue "letsencrypt.org"
+  - 0 issue "symantec.com"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
@@ -407,8 +407,7 @@ hosts:
   tls_version: TLSv1.3
 - cert_expires: Feb 28 17:29:00 2027 GMT
   host: sendgrid.com
-  hsts: true
-  hsts_max_age: 31557600
+  hsts: false
   https: true
   tls_version: TLSv1.3
 - cert_expires: Mar 13 23:59:59 2027 GMT
@@ -422,14 +421,14 @@ layout: security
 method: probed
 name: Sendgrid Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for SendGrid, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for SendGrid, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: SendGrid
 provider_slug: sendgrid
 slug: sendgrid-domain-security
 source_filename: sendgrid-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: app.sendgrid.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: sendgrid.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 28 17:29:00 2027 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: www.twilio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31557600\ndomains:\n- domain: sendgrid.com\n  dnssec: false\n  caa:\n  - 0 issue \"symantec.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: twilio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: app.sendgrid.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: sendgrid.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 28 17:29:00 2027 GMT\n  hsts: false\n- host: www.twilio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31557600\ndomains:\n- domain: sendgrid.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"symantec.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: twilio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/security/sendgrid-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

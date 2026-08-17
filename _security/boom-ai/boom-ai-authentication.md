@@ -63,6 +63,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-whatsapp-templates-api-openapi.yml
 auth_types:
 - http
+- oauth2
 description: ''
 kind: authentication
 layout: security
@@ -70,7 +71,7 @@ method: searched
 name: Boom Ai Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Boom Ai secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+overview: Boom Ai secures its APIs with http and oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions.
 provider_name: Boom Ai
 provider_slug: boom-ai
 scheme_count: 1
@@ -85,9 +86,10 @@ slug: boom-ai-authentication
 source_filename: boom-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/boom-ai-openapi-original.json\ndocs: https://docs.useboom.ai/quickstart\nnotes: >-\n  Single scheme: a per-organization Bearer API key with the prefix `boom_org_...`,\n  sent as `Authorization: Bearer <key>`. Applied globally to every operation. Use a\n  development-organization key against the https://dev.useboom.ai sandbox host. The\n  hosted MCP server authenticates instead via interactive Boom dashboard login (OAuth),\n  not the API key. No OAuth2 scopes surface — access is scoped to the organization and\n  destructive actions require an org admin.\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Organization API key, sent as `Authorization: Bearer [example key]`.'\n  sources:\n  - openapi/boom-ai-openapi-original.json\n"
+source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/boom-ai-openapi-original.json\ndocs: https://docs.useboom.ai/quickstart\nnotes: >-\n  Single scheme: a per-organization Bearer API key with the prefix `boom_org_...`,\n  sent as `Authorization: Bearer <key>`. Applied globally to every operation. Use a\n  development-organization key against the https://dev.useboom.ai sandbox host. The\n  hosted MCP server authenticates instead via interactive Boom dashboard login (OAuth),\n  not the API key. No OAuth2 scopes surface — access is scoped to the organization and\n  destructive actions require an org admin.\nmcp_authentication:\n  type: oauth2\n  authorization_server: https://clerk.useboom.ai\n  protected_resource_metadata: https://www.useboom.ai/.well-known/oauth-protected-resource/mcp\n  flow: authorizationCode (+ refresh_token), dynamic client registration\n  scopes: [profile, email, 'user:org:read']\n  see: scopes/boom-ai-scopes.yml\n  note: >-\n    Two different auth\
+  \ models for two surfaces. REST = static organization Bearer key.\n    MCP = interactive OAuth sign-in with no key at all. An agent reaching Boom over MCP\n    never handles a credential; one reaching it over REST holds a long-lived org-wide key\n    with no scope narrowing available.\nsummary:\n  types:\n  - http\n  - oauth2   # MCP surface only\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Organization API key, sent as `Authorization: Bearer [example key]`.'\n  sources:\n  - openapi/boom-ai-openapi-original.json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/authentication/boom-ai-authentication.yml
-summary_line: http · 1 scheme
+summary_line: http/oauth2 · 1 scheme
 tags:
 - Company
 - Artificial Intelligence

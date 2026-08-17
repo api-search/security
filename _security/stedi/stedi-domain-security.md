@@ -126,6 +126,24 @@ api_specs:
   slug: stedi-x12-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/openapi/stedi-x12-api-openapi.yml
+- filename: stedi-batch-eligibility-check-api-openapi.yml
+  format: yaml
+  label: Stedi Batch Eligibility Check API
+  slug: stedi-batch-eligibility-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/openapi/stedi-batch-eligibility-check-api-openapi.yml
+- filename: stedi-eligibility-pdf-api-openapi.yml
+  format: yaml
+  label: Stedi Eligibility PDF API
+  slug: stedi-eligibility-pdf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/openapi/stedi-eligibility-pdf-api-openapi.yml
+- filename: stedi-event-destinations-api-openapi.yml
+  format: yaml
+  label: Stedi Event Destinations API
+  slug: stedi-event-destinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/openapi/stedi-event-destinations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -146,8 +164,8 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Feb 22 23:59:59 2027 GMT
-  host: healthcare.us.stedi.com
+- cert_expires: Dec  6 23:59:59 2026 GMT
+  host: manager.us.stedi.com
   hsts: null
   https: true
   tls_version: TLSv1.3
@@ -163,7 +181,7 @@ slug: stedi-domain-security
 source_filename: stedi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.stedi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 03:39:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: core.us.stedi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 23:59:59 2026 GMT\n  hsts: null\n- host: healthcare.us.stedi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 22 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: stedi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.stedi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 03:39:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: core.us.stedi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 23:59:59 2026 GMT\n  hsts: null\n- host: manager.us.stedi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: stedi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/security/stedi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

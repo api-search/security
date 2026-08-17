@@ -1,5 +1,17 @@
 ---
 api_specs:
+- filename: vibes-platform-api-openapi.json
+  format: json
+  label: Vibes Platform API
+  slug: vibes-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-api-openapi.json
+- filename: vibes-platform-rcs-business-messaging-openapi.json
+  format: json
+  label: Vibes RCS Business Messaging API
+  slug: vibes-rcs-business-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-rcs-business-messaging-openapi.json
 - filename: vibes-platform-acquisition-campaigns-api-openapi.yml
   format: yaml
   label: Vibes Platform Acquisition Campaigns API
@@ -95,7 +107,7 @@ slug: vibes-platform-domain-security
 source_filename: vibes-platform-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer-platform.vibes.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 16:52:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer-aggregation.vibes.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 10:14:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer-rbm.vibes.com\n  https: false\ndomains:\n- domain: vibes.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer-platform.vibes.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 16:52:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer-aggregation.vibes.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 10:14:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer-rbm.vibes.com\n  https: false\ndomains:\n- domain: vibes.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/security/vibes-platform-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

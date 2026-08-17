@@ -1,0 +1,41 @@
+---
+api_key_in:
+- query
+api_specs:
+- filename: fooddata-central-fdc-api-openapi.yml
+  format: yaml
+  label: FoodData Central FDC API
+  slug: fooddata-fdc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fooddata-central/refs/heads/main/openapi/fooddata-central-fdc-api-openapi.yml
+auth_types:
+- apiKey
+description: ''
+kind: authentication
+layout: security
+method: derived
+name: Fooddata Central Authentication
+name_suffix: Authentication
+oauth_flows: []
+overview: FoodData Central secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: FoodData Central
+provider_slug: fooddata-central
+scheme_count: 1
+schemes:
+- in: query
+  name: ApiKeyAuth
+  parameter: api_key
+  sources:
+  - openapi/fooddata-central-api-openapi.json
+  type: apiKey
+slug: fooddata-central-authentication
+source_filename: fooddata-central-authentication.yml
+source_heading: Authentication Profile
+source_url: ''
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fooddata-central-api-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: api_key\n  sources:\n  - openapi/fooddata-central-api-openapi.json\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fooddata-central/refs/heads/main/authentication/fooddata-central-authentication.yml
+summary_line: apiKey · 1 scheme
+tags:
+- Health
+- Public APIs
+---

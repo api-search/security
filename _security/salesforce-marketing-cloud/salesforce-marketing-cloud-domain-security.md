@@ -61,9 +61,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-mar
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Automation
+- Content Management
 - Customer Journey
 - Digital Marketing
 - Email
 - Marketing
+- Marketing Automation
+- MCP
+- Mobile Messaging
 - Personalization
+- SMS
+- Webhooks
 ---

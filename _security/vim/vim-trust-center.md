@@ -1,5 +1,29 @@
 ---
 api_specs:
+- filename: vim-rest-api-openapi-original.json
+  format: json
+  label: Vim Applications & Organizations API
+  slug: vim-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-rest-api-openapi-original.json
+- filename: vim-rest-api-openapi-original.json
+  format: json
+  label: Vim Invitations API
+  slug: vim-invitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-rest-api-openapi-original.json
+- filename: vim-rest-api-openapi-original.json
+  format: json
+  label: Vim Appointments API
+  slug: vim-appointments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-rest-api-openapi-original.json
+- filename: vim-rest-api-openapi-original.json
+  format: json
+  label: Vim Chart Retrieval API
+  slug: vim-chart-retrieval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-rest-api-openapi-original.json
 - filename: vim-data-source-openapi-original.json
   format: json
   label: Vim Data Source

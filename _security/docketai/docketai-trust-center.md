@@ -22,11 +22,14 @@ summary_line: SOC 2 Type 1, SOC 2 Type 2, ISO 27001, GDPR
 tags:
 - Company
 - AI Agents
+- Agentic Marketing
 - Sales Enablement
 - Demand Generation
 - Marketing Automation
 - Conversational AI
 - Lead Qualification
 - Go-To-Market
+- MCP
+- Model Context Protocol
 trust_url: https://security.docketai.com/
 ---

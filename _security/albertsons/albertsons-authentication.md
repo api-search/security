@@ -43,13 +43,16 @@ schemes:
   name: bearerAuth
   scheme: bearer
   sources:
-  - openapi/albertsons-retail-media-api-openapi.yml
+  - openapi/albertsons-audiences-api-openapi.yml
+  - openapi/albertsons-campaigns-api-openapi.yml
+  - openapi/albertsons-performance-api-openapi.yml
+  - openapi/albertsons-reporting-api-openapi.yml
   type: http
 slug: albertsons-authentication
 source_filename: albertsons-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/albertsons-retail-media-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token authentication via Azure AD OAuth2.\n  sources:\n  - openapi/albertsons-retail-media-api-openapi.yml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/albertsons-audiences-api-openapi.yml, openapi/albertsons-campaigns-api-openapi.yml,\n  openapi/albertsons-performance-api-openapi.yml, openapi/albertsons-reporting-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token authentication via Azure AD OAuth2.\n  sources:\n  - openapi/albertsons-audiences-api-openapi.yml\n  - openapi/albertsons-campaigns-api-openapi.yml\n  - openapi/albertsons-performance-api-openapi.yml\n  - openapi/albertsons-reporting-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/authentication/albertsons-authentication.yml
 summary_line: http · 1 scheme
 tags:

@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: openapi.yaml
-  format: yaml
-  label: Campaign Monitor API
-  slug: campaign-monitor-api
-  spec_type: OpenAPI
-  url: https://www.campaignmonitor.com/api/
 certifications:
 - SOC 2
 - GDPR
@@ -21,7 +14,7 @@ slug: campaignmonitor-trust-center
 source_filename: campaignmonitor-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.campaignmonitor.meetmarigold.com/\nurl: https://trust.campaignmonitor.meetmarigold.com/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://trust.campaignmonitor.meetmarigold.com/\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://trust.campaignmonitor.meetmarigold.com/\nurl: https://trust.campaignmonitor.meetmarigold.com/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://trust.campaignmonitor.meetmarigold.com/\n  keywords:\n  - soc 2\n  - soc2\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/security/campaignmonitor-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
@@ -32,5 +25,9 @@ tags:
 - Segments
 - Newsletters
 - Automation
+- Marketing Automation
+- Webhooks
+- Email Deliverability
+- Marketing
 trust_url: https://trust.campaignmonitor.meetmarigold.com/
 ---

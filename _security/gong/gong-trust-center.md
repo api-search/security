@@ -151,32 +151,42 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-workspaces-api-openapi.yml
 certifications:
-- SOC 2
-- ISO 27001
-- ISO 27017
-- ISO 27018
-- PCI DSS
+- SOC 2 Type 2
+- ISO/IEC 27001:2022
+- ISO/IEC 27017
+- ISO/IEC 27018
+- ISO/IEC 27701
+- ISO/IEC 42001:2023
+- PCI DSS (SAQ D)
 - CSA STAR
+- EU-U.S. Data Privacy Framework
 description: ''
 kind: trust-center
 layout: security
 name: Gong Trust Center
 name_suffix: Trust Center
-overview: Gong maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, and CSA STAR compliance.
+overview: Gong maintains a public trust center documenting SOC 2 Type 2, ISO/IEC 27001:2022, ISO/IEC 27017, ISO/IEC 27018, ISO/IEC 27701, ISO/IEC 42001:2023, PCI DSS (SAQ D), CSA STAR, and EU-U.S. Data Privacy Framework compliance.
 provider_name: Gong
 provider_slug: gong
 slug: gong-trust-center
 source_filename: gong-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.gong.io/\nurl: https://trust.gong.io/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- PCI DSS\n- CSA STAR\nevidence:\n- source: https://trust.gong.io/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - trust center\n  - csa star\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://trust.gong.io/, https://www.gong.io/security, https://www.gong.io/trust-center\nurl: https://trust.gong.io/\npages:\n- {url: 'https://trust.gong.io/', status: 200, kind: trust-center}\n- {url: 'https://www.gong.io/trust-center', status: 200, kind: trust-overview}\n- {url: 'https://www.gong.io/security', status: 200, kind: security-program}\n- {url: 'https://help.gong.io/docs/pci-dss-compliance', status: 200, kind: pci-scope-and-responsibilities}\ncertifications:\n- SOC 2 Type 2\n- ISO/IEC 27001:2022\n- ISO/IEC 27017\n- ISO/IEC 27018\n- ISO/IEC 27701\n- ISO/IEC 42001:2023\n- PCI DSS (SAQ D)\n- CSA STAR\n- EU-U.S. Data Privacy Framework\nai_governance:\n  standard: ISO/IEC 42001:2023\n  claim: Customer data is never used to train generative models.\n  source: https://www.gong.io/security\navailability_claim:\n  uptime: '99.5%'\n  source: https://www.gong.io/security\n  status_page: https://status.gong.io\n\
+  vulnerability_disclosure: security/gong-vulnerability-disclosure.yml\nevidence:\n- source: https://trust.gong.io/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - trust center\n  - csa star\n- source: https://www.gong.io/security\n  keywords:\n  - soc 2 type 2\n  - iso/iec 42001\n  - iso/iec 27701\n  - eu-u.s. data privacy framework\n  - vulnerability disclosure\nnote: >-\n  Upgraded 2026-08-13 from the 2026-07-11 probe, which found six certifications\n  from trust.gong.io alone. Reading the public security page added ISO/IEC 27701\n  (privacy information management), ISO/IEC 42001:2023 (AI management system),\n  the EU-U.S. Data Privacy Framework listing, the SOC 2 Type 2 qualifier and the\n  99.5% uptime claim.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/security/gong-trust-center.yml
-summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, CSA STAR
+summary_line: SOC 2 Type 2, ISO/IEC 27001:2022, ISO/IEC 27017, ISO/IEC 27018, ISO/IEC 27701, ISO/IEC 42001:2023, PCI DSS (SAQ D), CSA STAR, EU-U.S. Data Privacy Framework
 tags:
 - Sales
 - Revenue Intelligence
 - Conversation
 - Analytics
 - AI
+- Conversation Intelligence
+- Sales Engagement
+- CRM
+- Forecasting
+- Transcription
+- Agents
 trust_url: https://trust.gong.io/
 ---

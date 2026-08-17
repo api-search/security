@@ -199,23 +199,24 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/openapi/frontline-workflows-api-openapi.yml
 certifications:
-- SOC 2
-- ISO 27001
+- SOC 2 Type 1
 description: ''
 kind: trust-center
 layout: security
 name: Frontline Trust Center
 name_suffix: Trust Center
-overview: Frontline maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
+overview: Frontline maintains a public trust center documenting SOC 2 Type 1 compliance.
 provider_name: Frontline
 provider_slug: frontline
 slug: frontline-trust-center
 source_filename: frontline-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://trust.getfrontline.ai/\nurl: https://trust.getfrontline.ai/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.getfrontline.ai/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - trust center\n"
+source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: false\nsource: https://trust.getfrontline.ai/\nurl: https://trust.getfrontline.ai/\nplatform: Comp AI\npublished: true\nnote: >-\n  CORRECTION (2026-08-14). Earlier rounds of this file, written by probe-security-programs.py,\n  credited Frontline with SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR and\n  CSA STAR. That was a keyword false positive: ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP and\n  CSA STAR appear on the page only inside the `complianceBadges` arrays of Frontline's EIGHT\n  SUBPROCESSORS (AWS, Azure, Anthropic, Cloudflare, Google Cloud, ...) — they are the\n  subprocessors' certifications, not Frontline's. Frontline's own trust center lists exactly four\n  frameworks, and only one of them is attained. Certifications below are read from the rendered\n  framework cards and their status badges.\nframeworks:\n- name: SOC 2 Type 1\n  status: Compliant\n  attained: true\n- name: SOC 2 Type\
+  \ 2\n  status: Started\n  attained: false\n- name: ISO 27001\n  status: Started\n  attained: false\n- name: GDPR\n  status: Started\n  attained: false\ncertifications:\n- SOC 2 Type 1\ncertifications_note: >-\n  Only SOC 2 Type 1 carries a \"Compliant\" badge. SOC 2 Type 2, ISO 27001 and GDPR are all badged\n  \"Started\" — in-progress programs, not attained certifications. Do not roll these up as held certs.\nprogram:\n  frameworks_active: 4\n  policies: 28\n  controls: 56\n  subprocessors: 8\n  documents: 0\n  security_questionnaire: available on request (Request Access)\nsubprocessors:\n- Anthropic\n- AWS\n- Azure\n- Cloudflare\n- Google Cloud\nsubprocessors_note: >-\n  8 subprocessors are listed on the trust center; the five above are the ones named in the summary\n  view.\nvulnerability_disclosure:\n  published: false\n  note: >-\n    No security.txt, responsible-disclosure page, bug-bounty program (HackerOne/Bugcrowd/Intigriti)\n    or security@ contact was found on the trust center,\
+  \ the marketing site, the privacy policy or\n    any /.well-known/ path. The only published contact is support@getfrontline.ai. No\n    VulnerabilityDisclosure or Security pointer is emitted.\nx-evidence:\n- url: https://trust.getfrontline.ai/\n  http_status: 200\n  fetched: '2026-08-14'\n  observed: >-\n    \"4 Frameworks | 28 Policies | 8 Subprocessors | 0 Documents\" and the framework cards\n    \"SOC 2 Type 2 — Started\", \"SOC 2 Type 1 — Compliant\", \"ISO 27001 — Started\", \"GDPR — Started\".\n- url: https://www.getfrontline.ai/security\n  http_status: 404\n  fetched: '2026-08-14'\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/security/frontline-trust-center.yml
-summary_line: SOC 2, ISO 27001
+summary_line: SOC 2 Type 1
 tags:
 - Company
 - CRM

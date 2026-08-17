@@ -1,20 +1,20 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: moosend-openapi.yml
   format: yaml
   label: Moosend API
   slug: moosend-api
   spec_type: OpenAPI
-  url: https://moosendapp.docs.apiary.io/
+  url: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/openapi/moosend-openapi.yml
 description: ''
 domains:
 - caa:
-  - 0 issue "amazontrust.com"
-  - 0 issue "awstrust.com"
-  - 0 issue "comodoca.com"
-  - 0 issue "digicert.com"
-  - 0 issue "globalsign.com"
-  - 0 issue "letsencrypt.org"
+  - 0 issuewild "amazon.com"
+  - 0 issuewild "amazonaws.com"
+  - 0 issuewild "amazontrust.com"
+  - 0 issuewild "awstrust.com"
+  - 0 issuewild "globalsign.com"
+  - 0 issuewild "pki.goog; cansignhttpexchanges=yes"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
@@ -26,7 +26,7 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 28 18:02:44 2026 GMT
+- cert_expires: Oct 26 18:13:52 2026 GMT
   host: api.moosend.com
   hsts: null
   https: true
@@ -43,7 +43,7 @@ slug: moosend-domain-security
 source_filename: moosend-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: moosend.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  6 16:03:03 2027 GMT\n  hsts: false\n- host: api.moosend.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 18:02:44 2026 GMT\n  hsts: null\ndomains:\n- domain: moosend.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: moosend.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  6 16:03:03 2027 GMT\n  hsts: false\n- host: api.moosend.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 18:13:52 2026 GMT\n  hsts: null\ndomains:\n- domain: moosend.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/security/moosend-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
@@ -56,4 +56,9 @@ tags:
 - SMTP
 - Segmentation
 - Analytics
+- Email
+- Newsletters
+- Landing Pages
+- Website Tracking
+- Marketing
 ---

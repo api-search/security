@@ -1,53 +1,23 @@
 ---
 api_specs:
-- filename: liveramp-deliveries-api-openapi.yml
+- filename: liveramp-activation-api-openapi.yml
   format: yaml
-  label: LiveRamp Deliveries API
-  slug: liveramp-deliveries-api
+  label: LiveRamp Activation API
+  slug: activation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/openapi/liveramp-deliveries-api-openapi.yml
-- filename: liveramp-destination-integrations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/openapi/liveramp-activation-api-openapi.yml
+- filename: liveramp-clean-room-api-openapi.yml
   format: yaml
-  label: LiveRamp Destination Integrations API
-  slug: liveramp-destination-integrations-api
+  label: LiveRamp Clean Room API
+  slug: clean-room-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/openapi/liveramp-destination-integrations-api-openapi.yml
-- filename: liveramp-destinations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/openapi/liveramp-clean-room-api-openapi.yml
+- filename: liveramp-privacy-api-openapi.yml
   format: yaml
-  label: LiveRamp Destinations API
-  slug: liveramp-destinations-api
+  label: LiveRamp Privacy API
+  slug: privacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/openapi/liveramp-destinations-api-openapi.yml
-- filename: liveramp-distribution-managers-api-openapi.yml
-  format: yaml
-  label: LiveRamp Distribution Managers API
-  slug: liveramp-distribution-managers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/openapi/liveramp-distribution-managers-api-openapi.yml
-- filename: liveramp-integration-connections-api-openapi.yml
-  format: yaml
-  label: LiveRamp Integration Connections API
-  slug: liveramp-integration-connections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/openapi/liveramp-integration-connections-api-openapi.yml
-- filename: liveramp-oauth-connections-api-openapi.yml
-  format: yaml
-  label: LiveRamp OAuth Connections API
-  slug: liveramp-oauth-connections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/openapi/liveramp-oauth-connections-api-openapi.yml
-- filename: liveramp-segment-configurations-api-openapi.yml
-  format: yaml
-  label: LiveRamp Segment Configurations API
-  slug: liveramp-segment-configurations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/openapi/liveramp-segment-configurations-api-openapi.yml
-- filename: liveramp-segments-api-openapi.yml
-  format: yaml
-  label: LiveRamp Segments API
-  slug: liveramp-segments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/openapi/liveramp-segments-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/openapi/liveramp-privacy-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,12 +33,12 @@ domains:
   domain: readme.io
   spf: true
 hosts:
-- cert_expires: Aug 26 01:43:21 2026 GMT
+- cert_expires: Oct 24 07:55:16 2026 GMT
   host: liveramp.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 12 02:37:02 2026 GMT
+- cert_expires: Oct 10 03:33:14 2026 GMT
   host: developers.liveramp.com
   hsts: false
   https: true
@@ -91,14 +61,18 @@ slug: liveramp-domain-security
 source_filename: liveramp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: liveramp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 01:43:21 2026 GMT\n  hsts: false\n- host: developers.liveramp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 02:37:02 2026 GMT\n  hsts: false\n- host: sidecar.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: liveramp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: liveramp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 07:55:16 2026 GMT\n  hsts: false\n- host: developers.liveramp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 03:33:14 2026 GMT\n  hsts: false\n- host: sidecar.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: liveramp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/security/liveramp-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Connectivity
+- Data Collaboration
 - Identity Resolution
 - Activation
 - Clean Room
 - Privacy
 - AdTech
+- Marketing
+- Consent
+- Audience Segments
 ---

@@ -120,6 +120,18 @@ api_specs:
   slug: adobe-split-pdf-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-split-pdf-api-openapi.yml
+- filename: adobe-substance-3d-api-openapi.yml
+  format: yaml
+  label: Adobe Substance 3D API
+  slug: adobe-substance-3d-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/_original/adobe-substance-3d-api-openapi.yml
+- filename: adobe-cc-libraries-api-openapi.json
+  format: json
+  label: Adobe Creative Cloud Libraries API
+  slug: adobe-cc-libraries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/_original/adobe-cc-libraries-api-openapi.json
 description: ''
 domains:
 - caa: []
@@ -163,7 +175,7 @@ slug: adobe-domain-security
 source_filename: adobe-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.adobe.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: pdf-services.adobe.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 23:59:59 2026 GMT\n  hsts: null\n- host: api.adobesign.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  3 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: adobe.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: adobe.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.adobe.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: pdf-services.adobe.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 23:59:59 2026 GMT\n  hsts: null\n- host: api.adobesign.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  3 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: adobe.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: adobe.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/security/adobe-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:

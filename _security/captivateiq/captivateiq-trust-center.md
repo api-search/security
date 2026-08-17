@@ -97,6 +97,7 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-users-api-openapi.yml
 certifications:
+- ISO 27001
 - SOC 1
 - SOC 2
 - SOX
@@ -106,16 +107,17 @@ kind: trust-center
 layout: security
 name: Captivateiq Trust Center
 name_suffix: Trust Center
-overview: CaptivateIQ maintains a public trust center documenting SOC 1, SOC 2, SOX, and GDPR compliance.
+overview: CaptivateIQ maintains a public trust center documenting ISO 27001, SOC 1, SOC 2, SOX, and GDPR compliance.
 provider_name: CaptivateIQ
 provider_slug: captivateiq
 slug: captivateiq-trust-center
 source_filename: captivateiq-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://www.captivateiq.com/trust\nurl: https://www.captivateiq.com/trust\nurl_alt: https://trust.captivateiq.com/\ncertifications:\n- SOC 1\n- SOC 2\n- SOX\n- GDPR\nevidence:\n- source: https://www.captivateiq.com/trust\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n- source: https://www.captivateiq.com/security-policy\n  detail: >-\n    Security policy documents annual SOC 1 and SOC 2 (Security, Availability,\n    Confidentiality) audits and SOX compliance; a bug bounty program is maintained.\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://www.captivateiq.com/trust\nurl: https://www.captivateiq.com/trust\nurl_alt: https://trust.captivateiq.com/\ncertifications:\n- ISO 27001\n- SOC 1\n- SOC 2\n- SOX\n- GDPR\nevidence:\n- source: https://www.captivateiq.com/trust\n  status: 200\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n- source: https://trust.captivateiq.com/\n  status: 200\n  detail: >-\n    Dedicated trust-center subdomain resolves and serves a CaptivateIQ Trust Center page.\n- source: https://www.captivateiq.com/security-policy\n  status: 200\n  detail: >-\n    Security policy names ISO 27001 (\"information on its ISO 27001 certification and Service\n    Organization Control (SOC) reports\") and states \"CaptivateIQ completes annual audits\n    against SOC1 and SOC2 security requirements\", with SOC 2 covering Security, Availability\n    and Confidentiality. A SOX compliance surface is published at /sox.\nnote: >-\n  ISO 27001,\
+  \ SOC 1 and SOX are carried from the published security policy; they were dropped\n  by an automated keyword probe on 2026-08-13 and restored here from the provider's own text.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/security/captivateiq-trust-center.yml
-summary_line: SOC 1, SOC 2, SOX, GDPR
+summary_line: ISO 27001, SOC 1, SOC 2, SOX, GDPR
 tags:
 - Company
 - Cloud Saas

@@ -1,5 +1,6 @@
 ---
-api_key_in: []
+api_key_in:
+- header
 api_specs:
 - filename: hint-health-accountaccesstoken-api-openapi.yml
   format: yaml
@@ -297,31 +298,47 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-webhookendpoint-api-openapi.yml
 auth_types:
 - http
-description: ''
+- apiKey
+description: 'Hint is a single-mechanism API: a bearer token in the Authorization header, on every operation, with no OAuth scopes and no OIDC. What varies is WHICH token, and getting that wrong is the highest-consequence mistake on this API — the partner key and the practice access token address different surfaces, and using the partner key against /api/provider/* crosses practice boundaries.'
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Hint Health Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Hint Health secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+overview: Hint Health secures its APIs with http and apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
 provider_name: Hint Health
 provider_slug: hint-health
-scheme_count: 1
+scheme_count: 2
 schemes:
-- description: Practice access token or Partner API key (Bearer authentication)
+- description: The form documented on "Making Requests" and applied to every operation in the 49 refined specs in openapi/.
+  header: 'Authorization: Bearer <token>'
   name: BearerAuth
   scheme: bearer
   sources:
-  - openapi/hint-health-hint-health-api-openapi.yml
+  - openapi/*.yml
+  standard: RFC 6750
   type: http
+- description: The scheme Hint's OWN published OpenAPI declares — an apiKey in the AUTHORIZATION header whose description instructs callers to send "Bearer {your_api_key}". Functionally identical to the above; recorded separately because it is what the provider's document actually says.
+  in: header
+  name: hint_api_key
+  note: 'A tooling nit with a real cost: declaring RFC 6750 bearer auth as an apiKey scheme means generated clients and gateways will not recognise it as bearer auth, and no `bearerFormat` is advertised.'
+  parameter: AUTHORIZATION
+  sources:
+  - openapi/_original/hint-health-partner-endpoints-2026-07-01-openapi.yml
+  type: apiKey
 slug: hint-health-authentication
 source_filename: hint-health-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hint-health-hint-health-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Practice access token or Partner API key (Bearer authentication)\n  sources:\n  - openapi/hint-health-hint-health-api-openapi.yml\n"
+source_yaml: "generated: '2026-08-15'\nmethod: searched\nsource: https://developers.hint.com/reference/making-requests\ndocs:\n  - https://developers.hint.com/reference/making-requests\n  - https://developers.hint.com/docs/setting-up-your-sandbox-account-api-keys\n  - https://developers.hint.com/docs/integration-activation\n  - https://developers.hint.com/docs/roles-and-access-context\nname: Hint Health Authentication\ndescription: >-\n  Hint is a single-mechanism API: a bearer token in the Authorization header, on\n  every operation, with no OAuth scopes and no OIDC. What varies is WHICH token,\n  and getting that wrong is the highest-consequence mistake on this API — the\n  partner key and the practice access token address different surfaces, and using\n  the partner key against /api/provider/* crosses practice boundaries.\n\nsummary:\n  types: [http, apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\n  scopes_published: false\n  openid_connect: false\n  mtls: false\n\nschemes:\n  -\
+  \ name: BearerAuth\n    type: http\n    scheme: bearer\n    header: 'Authorization: Bearer <token>'\n    standard: RFC 6750\n    description: >-\n      The form documented on \"Making Requests\" and applied to every operation in\n      the 49 refined specs in openapi/.\n    sources: [openapi/*.yml]\n  - name: hint_api_key\n    type: apiKey\n    in: header\n    parameter: AUTHORIZATION\n    description: >-\n      The scheme Hint's OWN published OpenAPI declares — an apiKey in the\n      AUTHORIZATION header whose description instructs callers to send\n      \"Bearer {your_api_key}\". Functionally identical to the above; recorded\n      separately because it is what the provider's document actually says.\n    sources: [openapi/_original/hint-health-partner-endpoints-2026-07-01-openapi.yml]\n    note: >-\n      A tooling nit with a real cost: declaring RFC 6750 bearer auth as an apiKey\n      scheme means generated clients and gateways will not recognise it as bearer\n      auth, and no `bearerFormat`\
+  \ is advertised.\n\ntoken_types:\n  - name: Practice access token\n    surface: /api/provider/*\n    scope: one practice\n    issued_by: >-\n      POST /api/partner/installations/connect (or the older POST /oauth/tokens),\n      exchanging the authorization code Hint hands over at install time. The\n      credential is returned in api_keys[0].token.\n    lifetime: >-\n      No expiry is published — Hint's own connect example returns expires_in null\n      and refresh_token null. Treat the token as long-lived and rotate it through\n      the installation API keys endpoints rather than by refresh.\n    guidance: >-\n      This is the ONLY token that may touch practice data. Hint states plainly\n      that using the partner key here leaks across practices.\n  - name: Partner API key\n    surface: /api/partner/*\n    scope: the whole partner account\n    issued_by: The Hint Partner Portal, and manageable via /partner/api_keys.\n    env_var: HINT_API_KEY\n    guidance: >-\n      Marketplace,\
+  \ product listing, installation, backend and webhook-endpoint\n      administration only.\n\nenvironments:\n  selector: key prefix, not host\n  detail: >-\n    A key prefixed `sbx-` returns sandbox data; an unprefixed key returns live\n    data. api.hint.com serves BOTH, so promoting an integration from sandbox to\n    live requires no host change. Partner identifiers carry the same prefix —\n    ptr-... live, sbx-ptr-... sandbox.\n  hosts:\n    - {name: production, url: 'https://api.hint.com', key_prefix: none}\n    - {name: sandbox, url: 'https://api.sandbox.hint.com', key_prefix: 'sbx-'}\n    - {name: staging, url: 'https://api.staging.hint.com', key_prefix: 'sbx-'}\n\nauthorization_model:\n  scopes: none\n  detail: >-\n    There is no scope parameter, no scope registry and no per-endpoint permission\n    grant. Authorization is entirely a function of which token family you hold and\n    which practice it was issued for. derive-oauth-scopes.py finds 0 oauth2\n    schemes and 0 scopes\
+  \ across all 49 specs, so no scopes/ artifact is emitted.\n  roles:\n    docs: https://developers.hint.com/docs/roles-and-access-context\n    detail: >-\n      Roles apply to USERS inside an embedded marketplace app, not to API tokens.\n      Hint passes a partner role and an access_context on the app handshake, and\n      apps are expected to handle Hint platform-support sessions differently — a\n      user-level authorization signal that has no API-token equivalent.\n\nwebhook_authentication:\n  direction: hint-to-partner\n  mechanism: HMAC-SHA256 signature\n  header: X-Hint-Signature\n  format: 'sha256=<hmac>'\n  signed: raw request body\n  key_source: Partner Portal → Webhooks Signature Key (HINT_WEBHOOK_SECRET on hosted deploys)\n  see_also: asyncapi/hint-health-webhooks.yml\n\nembedded_app_authentication:\n  mechanism: signed handshake + server-minted session key\n  detail: >-\n    Marketplace apps receive a signed payload at POST /hint/handshake (same\n    X-Hint-Signature HMAC),\
+  \ verify it, mint their own session key, and use it on\n    subsequent surface renders. The Hint API token is never exposed to the browser.\n  see_also: components/hint-health-components.yml\n\ndiscovery:\n  well_known: none\n  detail: >-\n    No /.well-known/openid-configuration, /.well-known/oauth-authorization-server\n    or /.well-known/oauth-protected-resource is served on any Hint host — all 404.\n    An agent cannot discover how to authenticate; it must read the docs.\n  see_also: well-known/hint-health-well-known.yml\n\ngaps:\n  - No token expiry, refresh flow or rotation policy is documented.\n  - No scopes, so an integration that needs read-only access cannot be granted it.\n  - >-\n    Bearer auth is declared as an apiKey scheme in the provider's own OpenAPI, so\n    the machine-readable contract understates the auth model.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/authentication/hint-health-authentication.yml
-summary_line: http · 1 scheme
+summary_line: http/apiKey · 2 schemes
 tags:
 - Direct Primary Care
 - DPC

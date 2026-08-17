@@ -25,7 +25,7 @@ slug: bizible-marketing-analytics-domain-security
 source_filename: bizible-marketing-analytics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bizible.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 19:34:56 2026 GMT\n  hsts: null\ndomains:\n- domain: bizible.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bizible.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 19:34:56 2026 GMT\n  hsts: null\ndomains:\n- domain: bizible.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bizible-marketing-analytics/refs/heads/main/security/bizible-marketing-analytics-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

@@ -25,7 +25,7 @@ slug: passionfroot-domain-security
 source_filename: passionfroot-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.passionfroot.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 02:59:30 2026 GMT\n  hsts: false\ndomains:\n- domain: passionfroot.me\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.passionfroot.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 02:59:30 2026 GMT\n  hsts: false\ndomains:\n- domain: passionfroot.me\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/passionfroot/refs/heads/main/security/passionfroot-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

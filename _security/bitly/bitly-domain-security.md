@@ -1,53 +1,41 @@
 ---
 api_specs:
-- filename: bitly-bitlinks-api-openapi.yml
-  format: yaml
-  label: Bitly Bitlinks API
-  slug: bitly-bitlinks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-bitlinks-api-openapi.yml
 - filename: bitly-bsds-api-openapi.yml
   format: yaml
   label: Bitly BSDs API
   slug: bitly-bsds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-bsds-api-openapi.yml
+- filename: bitly-bitlinks-api-openapi.yml
+  format: yaml
+  label: Bitly Bitlinks API
+  slug: bitly-bitlinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-bitlinks-api-openapi.yml
 - filename: bitly-campaigns-api-openapi.yml
   format: yaml
   label: Bitly Campaigns API
   slug: bitly-campaigns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-campaigns-api-openapi.yml
-- filename: bitly-channels-api-openapi.yml
-  format: yaml
-  label: Bitly Channels API
-  slug: bitly-channels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-channels-api-openapi.yml
 - filename: bitly-custom-bitlinks-api-openapi.yml
   format: yaml
   label: Bitly Custom Bitlinks API
   slug: bitly-custom-bitlinks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-custom-bitlinks-api-openapi.yml
-- filename: bitly-group-metrics-api-openapi.yml
-  format: yaml
-  label: Bitly Group Metrics API
-  slug: bitly-group-metrics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-group-metrics-api-openapi.yml
 - filename: bitly-groups-api-openapi.yml
   format: yaml
   label: Bitly Groups API
   slug: bitly-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-groups-api-openapi.yml
-- filename: bitly-metrics-api-openapi.yml
+- filename: bitly-oauth-apps-api-openapi.yml
   format: yaml
-  label: Bitly Metrics API
-  slug: bitly-metrics-api
+  label: Bitly OAuth Apps API
+  slug: bitly-oauth-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-metrics-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-oauth-apps-api-openapi.yml
 - filename: bitly-organizations-api-openapi.yml
   format: yaml
   label: Bitly Organizations API
@@ -60,13 +48,25 @@ api_specs:
   slug: bitly-qr-codes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-qr-codes-api-openapi.yml
+- filename: bitly-user-api-openapi.yml
+  format: yaml
+  label: Bitly User API
+  slug: bitly-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-user-api-openapi.yml
+- filename: bitly-webhooks-api-openapi.yml
+  format: yaml
+  label: Bitly Webhooks API
+  slug: bitly-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
+  - 0 issue "amazon.com"
   - 0 issue "letsencrypt.org"
   - 0 issuewild "amazon.com"
   - 0 iodef "mailto:abuse@bit.ly"
-  - 0 issue "amazon.com"
   dmarc: true
   dmarc_policy: none
   dnssec: false
@@ -102,7 +102,7 @@ slug: bitly-domain-security
 source_filename: bitly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bitly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 23:59:59 2026 GMT\n  hsts: null\n- host: dev.bitly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-ssl.bitly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: bitly.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  - 0 iodef \"mailto:abuse@bit.ly\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bitly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 23:59:59 2026 GMT\n  hsts: null\n- host: dev.bitly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-ssl.bitly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: bitly.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  - 0 iodef \"mailto:abuse@bit.ly\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/security/bitly-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -111,4 +111,9 @@ tags:
 - QR Codes
 - Analytics
 - Marketing
+- Link Management
+- Webhooks
+- Attribution
+- Agents
+- MCP
 ---

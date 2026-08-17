@@ -3,6 +3,96 @@ api_key_in:
 - header
 - query
 api_specs:
+- filename: optimizely-web-experimentation-optimizely-api-openapi.json
+  format: json
+  label: Optimizely Experimentation REST API v2
+  slug: experimentation-rest-api-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-web-experimentation-optimizely-api-openapi.json
+- filename: optimizely-feature-experimentation-optimizely-feature-experimentation-api-openapi.json
+  format: json
+  label: Optimizely Feature Experimentation Flags API v1
+  slug: feature-experimentation-flags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-feature-experimentation-optimizely-feature-experimentation-api-openapi.json
+- filename: optimizely-feature-experimentation-optimizely-flags-scheduling-api-openapi.json
+  format: json
+  label: Optimizely Flags Scheduling API
+  slug: flags-scheduling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-feature-experimentation-optimizely-flags-scheduling-api-openapi.json
+- filename: optimizely-feature-experimentation-permission-service-openapi.json
+  format: json
+  label: Optimizely Permission Service API
+  slug: permission-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-feature-experimentation-permission-service-openapi.json
+- filename: optimizely-feature-experimentation-optimizely-agent-api-openapi.json
+  format: json
+  label: Optimizely Agent API
+  slug: agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-feature-experimentation-optimizely-agent-api-openapi.json
+- filename: optimizely-experimentation-data-optimizely-event-api-openapi.json
+  format: json
+  label: Optimizely Event API
+  slug: event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-experimentation-data-optimizely-event-api-openapi.json
+- filename: optimizely-performance-edge-optimizely-edge-decider-openapi.json
+  format: json
+  label: Optimizely Edge Decider API
+  slug: edge-decider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-performance-edge-optimizely-edge-decider-openapi.json
+- filename: optimizely-data-platform-advanced-openapi.json
+  format: json
+  label: Optimizely Data Platform (ODP) API v3
+  slug: data-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-data-platform-advanced-openapi.json
+- filename: optimizely-platform-optimizely-swagger-openapi.json
+  format: json
+  label: Optimizely Graph API
+  slug: graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-platform-optimizely-swagger-openapi.json
+- filename: optimizely-content-marketing-platform-optimizely-cmp-open-api-documentation-openapi.json
+  format: json
+  label: Optimizely Content Marketing Platform (CMP) API v3
+  slug: content-marketing-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-content-marketing-platform-optimizely-cmp-open-api-documentation-openapi.json
+- filename: optimizely-campaign-optimizely-campaign-rest-api-openapi.json
+  format: json
+  label: Optimizely Campaign REST API
+  slug: campaign-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-campaign-optimizely-campaign-rest-api-openapi.json
+- filename: optimizely-configured-commerce-admin-api-v1-openapi.json
+  format: json
+  label: Optimizely Configured Commerce API
+  slug: configured-commerce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-configured-commerce-admin-api-v1-openapi.json
+- filename: optimizely-content-management-system-episervercontentapidocs-openapi.json
+  format: json
+  label: Optimizely CMS Content Delivery API v3.0
+  slug: cms-content-delivery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-content-management-system-episervercontentapidocs-openapi.json
+- filename: optimizely-recommendations-public-api-spec-openapi.yaml
+  format: yaml
+  label: Optimizely Content Recommendations API
+  slug: content-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-recommendations-public-api-spec-openapi.yaml
+- filename: optimizely-digital-experience-platform-episerver-cloud-api-1-openapi.json
+  format: json
+  label: Optimizely DXP Cloud API
+  slug: dxp-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-digital-experience-platform-episerver-cloud-api-1-openapi.json
 - filename: optimizely-assets-api-openapi.yml
   format: yaml
   label: Optimizely Assets API
@@ -208,78 +298,189 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-unsubscribes-api-openapi.yml
 auth_types:
-- apiKey
-- http
 - oauth2
-description: ''
+- http
+- apiKey
+description: Optimizely has no single authentication model. Seven distinct credential schemes are in production across the estate, a direct consequence of a decade of acquisitions (Episerver, Insite/Configured Commerce, Zaius/ODP, optivo/Campaign, Idio) each keeping its own auth. An agent must resolve the scheme per product, and a credential for one product is useless against another.
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Optimizely Authentication
 name_suffix: Authentication
 oauth_flows:
+- authorizationCode
 - clientCredentials
-overview: Optimizely secures its APIs with apiKey, http, and oauth2 across 6 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
+overview: Optimizely secures its APIs with oauth2, http, and apiKey across 10 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode and clientCredentials flow(s).
 provider_name: Optimizely
 provider_slug: optimizely
-scheme_count: 6
+scheme_count: 10
 schemes:
-- description: HTTP Basic authentication using the Optimizely Campaign API credentials.
-  name: basicAuth
-  scheme: basic
+- authorizationUrl: https://app.optimizely.com/oauth2/authorize
+  flow: authorizationCode
+  name: OAuth2 (Experimentation)
+  products:
+  - Web Experimentation
+  - Feature Experimentation
+  scopes:
+    all: Full access to your account
   sources:
-  - openapi/optimizely-campaign-openapi.yml
-  - openapi/optimizely-graph-openapi.yml
-  type: http
-- description: OAuth 2.0 authentication for the CMP API.
-  flows:
-  - flow: clientCredentials
-    scopes: 0
-    tokenUrl: https://api.cmp.optimizely.com/oauth/token
-  name: oauth2
-  sources:
-  - openapi/optimizely-cmp-openapi.yml
+  - openapi/_original/optimizely-web-experimentation-optimizely-api-openapi.json
+  - openapi/_original/optimizely-feature-experimentation-optimizely-feature-experimentation-api-openapi.json
+  tokenUrl: https://app.optimizely.com/oauth2/token
   type: oauth2
-- description: Bearer token for authenticated Commerce Service API access.
-  name: bearerAuth
+  warning: 'A single `all` scope. There is no read-only grant — a token that can list experiments can also start, stop and delete them. This is the single most important fact for an agent operating on Optimizely: least privilege is not expressible in the token.'
+- docs: https://docs.developers.optimizely.com/web-experimentation/docs/personal-access-token
+  header: 'Authorization: Bearer <token>'
+  name: Bearer / personal access token (Experimentation)
+  note: 'Personal access tokens are generated in the Optimizely app and carry the generating user''s permissions. The docs are explicit that a 403 can mean the user revoked application access or the token expired, not only a missing permission — an agent must re-run the authorization flow rather than assume a permission problem. Older documentation shows a `Token: <token>` header form; the current documented form is `Authorization: Bearer <token>`.'
+  products:
+  - Web Experimentation
+  - Feature Experimentation
+  - Flags Scheduling
+  - Permission Service
   scheme: bearer
   sources:
-  - openapi/optimizely-commerce-service-openapi.yml
-  - openapi/optimizely-content-delivery-openapi.yml
-  - openapi/optimizely-content-management-openapi.yml
-  - openapi/optimizely-feature-experimentation-openapi.yml
-  - openapi/optimizely-web-experimentation-openapi.yml
+  - openapi/_original/optimizely-web-experimentation-optimizely-api-openapi.json
+  - openapi/_original/optimizely-feature-experimentation-optimizely-feature-experimentation-api-openapi.json
+  - openapi/_original/optimizely-feature-experimentation-optimizely-flags-scheduling-api-openapi.json
+  - openapi/_original/optimizely-feature-experimentation-permission-service-openapi.json
   type: http
-- description: Public API Key (Tracker ID) for sending data to ODP. May be exposed publicly on the internet.
-  in: header
-  name: publicApiKey
+- flows:
+  - authorizationCode
+  - clientCredentials
+  name: OAuth2 (Content Marketing Platform)
+  products:
+  - Content Marketing Platform
+  sources:
+  - openapi/_original/optimizely-content-marketing-platform-optimizely-cmp-open-api-documentation-openapi.json
+  tokenUrl: https://api.cmp.optimizely.com/oauth/token
+  type: oauth2
+- in: header
+  name: x-api-key (Optimizely Data Platform)
+  note: Region-scoped. A key issued for us1 does not authenticate against eu1 or au1. The scheme is declared as both `x-api-key` and `ApiKeyAuth` across the 11 ODP documents — the same header, two names.
   parameter: x-api-key
+  products:
+  - Optimizely Data Platform
   sources:
-  - openapi/optimizely-data-platform-openapi.yml
+  - openapi/_original/optimizely-data-platform-advanced-openapi.json
+  - openapi/_original/optimizely-data-platform-customers-openapi.json
+  - openapi/_original/optimizely-data-platform-events-openapi.json
+  - openapi/_original/optimizely-data-platform-lists-openapi.json
+  - openapi/_original/optimizely-data-platform-objects-openapi.json
+  - openapi/_original/optimizely-data-platform-orders-openapi.json
+  - openapi/_original/optimizely-data-platform-products-openapi.json
+  - openapi/_original/optimizely-data-platform-consent-openapi.json
+  - openapi/_original/optimizely-data-platform-exports-openapi.json
+  - openapi/_original/optimizely-data-platform-realtimesegments-openapi.json
+  - openapi/_original/optimizely-data-platform-recommendations-openapi.json
   type: apiKey
-- description: Single key authentication provides read-only access to publicly available GraphQL data. Use format epi-single followed by the token.
-  in: query
-  name: singleKeyAuth
-  parameter: auth
+- name: Optimizely Graph credentials
+  products:
+  - Optimizely Graph
   sources:
-  - openapi/optimizely-graph-openapi.yml
+  - openapi/_original/optimizely-platform-optimizely-optimizely-graph-api-openapi.json
+  - openapi/_original/optimizely-platform-optimizely-swagger-openapi.json
+  type: multiple
+  variants:
+  - in: query
+    name: epi-single
+    note: Single key in the query string — appears in logs and referrers.
+    parameter: auth
+    type: apiKey
+  - in: header
+    name: epi-hmac
+    note: HMAC-signed request; the server-side credential.
+    parameter: Authorization
+    type: apiKey
+  - name: Basic
+    scheme: basic
+    type: http
+  - name: Bearer
+    scheme: bearer
+    type: http
+- in: query
+  name: access_token (Configured Commerce)
+  parameter: access_token
+  products:
+  - Configured Commerce Admin V1
+  - Configured Commerce Storefront V1
+  - Configured Commerce Storefront V2
+  sources:
+  - openapi/_original/optimizely-configured-commerce-admin-api-v1-openapi.json
+  - openapi/_original/optimizely-configured-commerce-storefront-api-v1-openapi.json
+  - openapi/_original/optimizely-configured-commerce-storefront-api-v2-openapi.json
   type: apiKey
-- description: HMAC authentication for secure server-to-server access using App Key and App Secret.
-  in: header
-  name: hmacAuth
+  warning: The bearer token travels as a QUERY PARAMETER across 1,760 operations. Tokens land in server logs, proxy logs, browser history and Referer headers. Treat every Configured Commerce URL as a secret.
+- in: header
+  name: Authorization apiKey (Campaign)
   parameter: Authorization
+  products:
+  - Optimizely Campaign
   sources:
-  - openapi/optimizely-graph-openapi.yml
+  - openapi/_original/optimizely-campaign-optimizely-campaign-rest-api-openapi.json
   type: apiKey
+- in: query
+  name: key (Content Recommendations)
+  parameter: key
+  products:
+  - Content Recommendations
+  sources:
+  - openapi/_original/optimizely-recommendations-public-api-spec-openapi.yaml
+  type: apiKey
+- companion:
+    name: TokenAuth
+    note: Agent also issues its own tokens at POST /oauth/token when secured mode is enabled.
+    scheme: bearer
+    type: http
+  in: header
+  name: SDK key (Optimizely Agent)
+  parameter: X-Optimizely-SDK-Key
+  products:
+  - Optimizely Agent
+  sources:
+  - openapi/_original/optimizely-feature-experimentation-optimizely-agent-api-openapi.json
+  type: apiKey
+- authorizationUrl: https://auth.mcp.opal.optimizely.com/oauth/authorize
+  flows:
+  - authorizationCode
+  - refreshToken
+  issuer: https://auth.mcp.opal.optimizely.com
+  jwks_uri: https://auth.mcp.opal.optimizely.com/.well-known/jwks.json
+  name: MCP OAuth (Opal MCP platform)
+  note: The most modern auth surface Optimizely runs — RFC 8414 metadata, RFC 9728 protected resource, RFC 7591 dynamic client registration, RFC 7009 revocation and PKCE S256. Identity is Opti ID and permissions are inherited from the user's UI permissions.
+  pkce:
+  - S256
+  products:
+  - MCP — Experimentation
+  - MCP — Analytics
+  - MCP — CMS/Graph
+  registrationUrl: https://auth.mcp.opal.optimizely.com/oauth/register
+  revocationUrl: https://auth.mcp.opal.optimizely.com/oauth/revoke
+  scopes:
+  - openid
+  - profile
+  - email
+  - offline_access
+  - mcp:tools
+  sources:
+  - well-known/optimizely-mcp-oauth-authorization-server.json
+  tokenUrl: https://auth.mcp.opal.optimizely.com/oauth/token
+  type: oauth2
 slug: optimizely-authentication
 source_filename: optimizely-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/optimizely-campaign-openapi.yml, openapi/optimizely-cmp-openapi.yml, openapi/optimizely-commerce-service-openapi.yml,\n  openapi/optimizely-content-delivery-openapi.yml, openapi/optimizely-content-management-openapi.yml,\n  openapi/optimizely-data-platform-openapi.yml, openapi/optimizely-feature-experimentation-openapi.yml,\n  openapi/optimizely-graph-openapi.yml, openapi/optimizely-web-experimentation-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  - query\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using the Optimizely Campaign API credentials.\n  sources:\n  - openapi/optimizely-campaign-openapi.yml\n  - openapi/optimizely-graph-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.cmp.optimizely.com/oauth/token\n \
-  \   scopes: 0\n  description: OAuth 2.0 authentication for the CMP API.\n  sources:\n  - openapi/optimizely-cmp-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token for authenticated Commerce Service API access.\n  sources:\n  - openapi/optimizely-commerce-service-openapi.yml\n  - openapi/optimizely-content-delivery-openapi.yml\n  - openapi/optimizely-content-management-openapi.yml\n  - openapi/optimizely-feature-experimentation-openapi.yml\n  - openapi/optimizely-web-experimentation-openapi.yml\n- name: publicApiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Public API Key (Tracker ID) for sending data to ODP. May be exposed publicly\n    on the internet.\n  sources:\n  - openapi/optimizely-data-platform-openapi.yml\n- name: singleKeyAuth\n  type: apiKey\n  in: query\n  parameter: auth\n  description: Single key authentication provides read-only access to publicly available GraphQL\n    data. Use format epi-single followed\
-  \ by the token.\n  sources:\n  - openapi/optimizely-graph-openapi.yml\n- name: hmacAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: HMAC authentication for secure server-to-server access using App Key and App\n    Secret.\n  sources:\n  - openapi/optimizely-graph-openapi.yml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  openapi/_original/ (28 provider-published OpenAPI documents harvested 2026-08-13) plus\n  https://docs.developers.optimizely.com/web-experimentation/docs/authentication,\n  https://docs.developers.optimizely.com/web-experimentation/docs/personal-access-token,\n  https://auth.mcp.opal.optimizely.com/.well-known/oauth-authorization-server\ndocs: https://docs.developers.optimizely.com/web-experimentation/docs/authentication\ndescription: >-\n  Optimizely has no single authentication model. Seven distinct credential schemes are in\n  production across the estate, a direct consequence of a decade of acquisitions\n  (Episerver, Insite/Configured Commerce, Zaius/ODP, optivo/Campaign, Idio) each keeping\n  its own auth. An agent must resolve the scheme per product, and a credential for one\n  product is useless against another.\nnote: >-\n  This file supersedes an earlier derived pass that read only the refined per-tag specs\
+  \ in\n  openapi/ and reported a single basicAuth scheme. Those refined files carry contaminated\n  info/servers metadata inherited from a merge; the schemes below are read from the\n  provider's own published documents in openapi/_original/.\nsummary:\n  types: [oauth2, http, apiKey]\n  api_key_in: [header, query]\n  http_schemes: [bearer, basic]\n  oauth2_flows: [authorizationCode, clientCredentials]\n  scheme_count: 7\n  single_sign_on: false\n\nschemes:\n- name: OAuth2 (Experimentation)\n  type: oauth2\n  flow: authorizationCode\n  authorizationUrl: https://app.optimizely.com/oauth2/authorize\n  tokenUrl: https://app.optimizely.com/oauth2/token\n  scopes: {all: Full access to your account}\n  products: [Web Experimentation, Feature Experimentation]\n  sources:\n  - openapi/_original/optimizely-web-experimentation-optimizely-api-openapi.json\n  - openapi/_original/optimizely-feature-experimentation-optimizely-feature-experimentation-api-openapi.json\n  warning: >-\n    A single `all`\
+  \ scope. There is no read-only grant — a token that can list experiments\n    can also start, stop and delete them. This is the single most important fact for an\n    agent operating on Optimizely: least privilege is not expressible in the token.\n- name: Bearer / personal access token (Experimentation)\n  type: http\n  scheme: bearer\n  header: 'Authorization: Bearer <token>'\n  products: [Web Experimentation, Feature Experimentation, Flags Scheduling, Permission Service]\n  sources:\n  - openapi/_original/optimizely-web-experimentation-optimizely-api-openapi.json\n  - openapi/_original/optimizely-feature-experimentation-optimizely-feature-experimentation-api-openapi.json\n  - openapi/_original/optimizely-feature-experimentation-optimizely-flags-scheduling-api-openapi.json\n  - openapi/_original/optimizely-feature-experimentation-permission-service-openapi.json\n  docs: https://docs.developers.optimizely.com/web-experimentation/docs/personal-access-token\n  note: >-\n    Personal access\
+  \ tokens are generated in the Optimizely app and carry the generating\n    user's permissions. The docs are explicit that a 403 can mean the user revoked\n    application access or the token expired, not only a missing permission — an agent must\n    re-run the authorization flow rather than assume a permission problem.\n    Older documentation shows a `Token: <token>` header form; the current documented form is\n    `Authorization: Bearer <token>`.\n- name: OAuth2 (Content Marketing Platform)\n  type: oauth2\n  flows: [authorizationCode, clientCredentials]\n  tokenUrl: https://api.cmp.optimizely.com/oauth/token\n  products: [Content Marketing Platform]\n  sources: [openapi/_original/optimizely-content-marketing-platform-optimizely-cmp-open-api-documentation-openapi.json]\n- name: x-api-key (Optimizely Data Platform)\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  products: [Optimizely Data Platform]\n  sources:\n  - openapi/_original/optimizely-data-platform-advanced-openapi.json\n\
+  \  - openapi/_original/optimizely-data-platform-customers-openapi.json\n  - openapi/_original/optimizely-data-platform-events-openapi.json\n  - openapi/_original/optimizely-data-platform-lists-openapi.json\n  - openapi/_original/optimizely-data-platform-objects-openapi.json\n  - openapi/_original/optimizely-data-platform-orders-openapi.json\n  - openapi/_original/optimizely-data-platform-products-openapi.json\n  - openapi/_original/optimizely-data-platform-consent-openapi.json\n  - openapi/_original/optimizely-data-platform-exports-openapi.json\n  - openapi/_original/optimizely-data-platform-realtimesegments-openapi.json\n  - openapi/_original/optimizely-data-platform-recommendations-openapi.json\n  note: >-\n    Region-scoped. A key issued for us1 does not authenticate against eu1 or au1. The\n    scheme is declared as both `x-api-key` and `ApiKeyAuth` across the 11 ODP documents —\n    the same header, two names.\n- name: Optimizely Graph credentials\n  type: multiple\n  variants:\n\
+  \  - {name: epi-single, type: apiKey, in: query, parameter: auth, note: 'Single key in the query string — appears in logs and referrers.'}\n  - {name: epi-hmac, type: apiKey, in: header, parameter: Authorization, note: HMAC-signed request; the server-side credential.}\n  - {name: Basic, type: http, scheme: basic}\n  - {name: Bearer, type: http, scheme: bearer}\n  products: [Optimizely Graph]\n  sources:\n  - openapi/_original/optimizely-platform-optimizely-optimizely-graph-api-openapi.json\n  - openapi/_original/optimizely-platform-optimizely-swagger-openapi.json\n- name: access_token (Configured Commerce)\n  type: apiKey\n  in: query\n  parameter: access_token\n  products: [Configured Commerce Admin V1, Configured Commerce Storefront V1, Configured Commerce Storefront V2]\n  sources:\n  - openapi/_original/optimizely-configured-commerce-admin-api-v1-openapi.json\n  - openapi/_original/optimizely-configured-commerce-storefront-api-v1-openapi.json\n  - openapi/_original/optimizely-configured-commerce-storefront-api-v2-openapi.json\n\
+  \  warning: >-\n    The bearer token travels as a QUERY PARAMETER across 1,760 operations. Tokens land in\n    server logs, proxy logs, browser history and Referer headers. Treat every Configured\n    Commerce URL as a secret.\n- name: Authorization apiKey (Campaign)\n  type: apiKey\n  in: header\n  parameter: Authorization\n  products: [Optimizely Campaign]\n  sources: [openapi/_original/optimizely-campaign-optimizely-campaign-rest-api-openapi.json]\n- name: key (Content Recommendations)\n  type: apiKey\n  in: query\n  parameter: key\n  products: [Content Recommendations]\n  sources: [openapi/_original/optimizely-recommendations-public-api-spec-openapi.yaml]\n- name: SDK key (Optimizely Agent)\n  type: apiKey\n  in: header\n  parameter: X-Optimizely-SDK-Key\n  products: [Optimizely Agent]\n  sources: [openapi/_original/optimizely-feature-experimentation-optimizely-agent-api-openapi.json]\n  companion: {name: TokenAuth, type: http, scheme: bearer, note: 'Agent also issues its own tokens\
+  \ at POST /oauth/token when secured mode is enabled.'}\n- name: MCP OAuth (Opal MCP platform)\n  type: oauth2\n  flows: [authorizationCode, refreshToken]\n  issuer: https://auth.mcp.opal.optimizely.com\n  authorizationUrl: https://auth.mcp.opal.optimizely.com/oauth/authorize\n  tokenUrl: https://auth.mcp.opal.optimizely.com/oauth/token\n  registrationUrl: https://auth.mcp.opal.optimizely.com/oauth/register\n  revocationUrl: https://auth.mcp.opal.optimizely.com/oauth/revoke\n  jwks_uri: https://auth.mcp.opal.optimizely.com/.well-known/jwks.json\n  pkce: [S256]\n  scopes: [openid, profile, email, offline_access, 'mcp:tools']\n  products: [MCP — Experimentation, MCP — Analytics, MCP — CMS/Graph]\n  sources: [well-known/optimizely-mcp-oauth-authorization-server.json]\n  note: >-\n    The most modern auth surface Optimizely runs — RFC 8414 metadata, RFC 9728 protected\n    resource, RFC 7591 dynamic client registration, RFC 7009 revocation and PKCE S256.\n    Identity is Opti ID and permissions\
+  \ are inherited from the user's UI permissions.\n\nunauthenticated:\n- {spec: 'openapi/_original/optimizely-experimentation-data-optimizely-event-api-openapi.json', note: 'The Event API declares no securityScheme; ingestion is keyed by the account/project identifiers in the payload.'}\n- {spec: 'openapi/_original/optimizely-performance-edge-optimizely-edge-decider-openapi.json', note: No securityScheme declared.}\n- {spec: 'openapi/_original/optimizely-content-management-system-episervercontentapidocs-openapi.json', note: 'CMS Content Delivery declares no securityScheme; the deployed API is configured per site.'}\n- {spec: 'openapi/_original/optimizely-digital-experience-platform-episerver-cloud-api-1-openapi.json', note: No securityScheme declared in the DXP Cloud API document.}\n\ncross_reference:\n  scopes: scopes/optimizely-scopes.yml\n  conventions: conventions/optimizely-conventions.yml\n  mcp: mcp/optimizely-mcp.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/authentication/optimizely-authentication.yml
-summary_line: apiKey/http/oauth2 · 6 schemes
+summary_line: oauth2/http/apiKey · 10 schemes
 tags:
 - A/B Testing
 - Content Management

@@ -37,6 +37,12 @@ api_specs:
   slug: hustle-leads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/openapi/hustle-leads-api-openapi.yml
+- filename: hustle-messages-api-openapi.yml
+  format: yaml
+  label: Hustle Messages API
+  slug: hustle-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/openapi/hustle-messages-api-openapi.yml
 - filename: hustle-organizations-api-openapi.yml
   format: yaml
   label: Hustle Organizations API

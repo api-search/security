@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: api
-  format: yaml
-  label: Alyce API
-  slug: alyce-api
-  spec_type: OpenAPI
-  url: https://app.alyce.com/api
 description: ''
 domains:
 - caa: []
@@ -36,7 +29,7 @@ slug: alyce-domain-security
 source_filename: alyce-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.alyce.com\n  https: false\n- host: help.alyce.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 23:59:59 2026 GMT\n  hsts: null\n- host: app.alyce.com\n  https: false\ndomains:\n- domain: alyce.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.alyce.com\n  https: false\n- host: help.alyce.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 23:59:59 2026 GMT\n  hsts: null\n- host: app.alyce.com\n  https: false\ndomains:\n- domain: alyce.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alyce/refs/heads/main/security/alyce-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

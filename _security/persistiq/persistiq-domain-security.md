@@ -42,6 +42,24 @@ api_specs:
   slug: persistiq-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-users-api-openapi.yml
+- filename: persistiq-api-v1-openapi.json
+  format: json
+  label: PersistIQ Tags API
+  slug: persistiq-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-api-v1-openapi.json
+- filename: persistiq-api-v1-openapi.json
+  format: json
+  label: PersistIQ Replies API
+  slug: persistiq-replies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-api-v1-openapi.json
+- filename: persistiq-api-v1-openapi.json
+  format: json
+  label: PersistIQ Webhook Plugin API
+  slug: persistiq-webhook-plugin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-api-v1-openapi.json
 description: ''
 domains:
 - caa:
@@ -93,4 +111,6 @@ tags:
 - CRM
 - Lead Management
 - Marketing
+- Webhooks
+- Sales Engagement Platform
 ---

@@ -18,6 +18,12 @@ api_specs:
   slug: fingoal-webhook-configurations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/openapi/fingoal-webhook-configurations-api-openapi.yml
+- filename: fingoal-link-money-api-openapi.yml
+  format: yaml
+  label: FinGoal Link Money API
+  slug: fingoal-link-money-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/openapi/fingoal-link-money-api-openapi.yml
 certifications:
 - SOC 2 Type II
 - GDPR

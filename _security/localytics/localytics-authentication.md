@@ -1,5 +1,6 @@
 ---
-api_key_in: []
+api_key_in:
+- query
 api_specs:
 - filename: localytics-audiences-api-openapi.yml
   format: yaml
@@ -19,12 +20,18 @@ api_specs:
   slug: localytics-push-campaigns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/openapi/localytics-push-campaigns-api-openapi.yml
+- filename: localytics-transactional-push-openapi.json
+  format: json
+  label: Localytics Transactional Push API
+  slug: localytics-transactional-push-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/openapi/_original/localytics-transactional-push-openapi.json
 auth_types:
 - http
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Localytics Authentication
 name_suffix: Authentication
 oauth_flows: []
@@ -36,13 +43,15 @@ schemes:
 - name: BasicAuth
   scheme: basic
   sources:
-  - openapi/localytics-campaigns-audiences-openapi.yml
+  - openapi/localytics-audiences-api-openapi.yml
+  - openapi/localytics-campaigns-api-openapi.yml
+  - openapi/localytics-push-campaigns-api-openapi.yml
   type: http
 slug: localytics-authentication
 source_filename: localytics-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/localytics-campaigns-audiences-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/localytics-campaigns-audiences-openapi.yml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/localytics-audiences-api-openapi.yml, openapi/localytics-campaigns-api-openapi.yml,\n  openapi/localytics-push-campaigns-api-openapi.yml\nsummary:\n  types:\n  - http\n  http_schemes: [basic]\n  api_key_in: [query]\n  oauth2_flows: []\n  scopes: 0\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/localytics-audiences-api-openapi.yml\n  - openapi/localytics-campaigns-api-openapi.yml\n  - openapi/localytics-push-campaigns-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/authentication/localytics-authentication.yml
 summary_line: http · 1 scheme
 tags:
@@ -53,4 +62,9 @@ tags:
 - Customer Engagement
 - Marketing Automation
 - APIs
+- Mobile
+- Segmentation
+- Audiences
+- Event Ingestion
+- gRPC
 ---

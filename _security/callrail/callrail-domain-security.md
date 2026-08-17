@@ -21,7 +21,7 @@ domains:
   domain: callrail.com
   spf: true
 hosts:
-- cert_expires: Aug 21 01:33:48 2026 GMT
+- cert_expires: Oct 20 00:43:45 2026 GMT
   host: www.callrail.com
   hsts: true
   hsts_max_age: 31536000
@@ -32,7 +32,7 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 15 23:59:59 2026 GMT
+- cert_expires: Jan 31 23:59:59 2027 GMT
   host: api.callrail.com
   hsts: false
   https: true
@@ -49,7 +49,7 @@ slug: callrail-domain-security
 source_filename: callrail-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.callrail.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 01:33:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apidocs.callrail.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 21:05:18 2026 GMT\n  hsts: false\n- host: api.callrail.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 15 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: callrail.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.callrail.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 00:43:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apidocs.callrail.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 21:05:18 2026 GMT\n  hsts: false\n- host: api.callrail.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 31 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: callrail.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/callrail/refs/heads/main/security/callrail-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

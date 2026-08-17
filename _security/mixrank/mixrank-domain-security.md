@@ -127,7 +127,7 @@ slug: mixrank-domain-security
 source_filename: mixrank-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mixrank.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 23:18:46 2026 GMT\n  hsts: false\n- host: api.mixrank.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 23:18:33 2026 GMT\n  hsts: null\ndomains:\n- domain: mixrank.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mixrank.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 23:18:46 2026 GMT\n  hsts: false\n- host: api.mixrank.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 23:18:33 2026 GMT\n  hsts: null\ndomains:\n- domain: mixrank.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/security/mixrank-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

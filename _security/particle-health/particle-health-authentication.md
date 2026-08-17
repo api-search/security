@@ -108,7 +108,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Particle Health Authentication
 name_suffix: Authentication
 oauth_flows: []
@@ -121,14 +121,37 @@ schemes:
   description: OAuth 2 client-credentials JWT issued by `/auth`. Token expires after one hour.
   name: bearerAuth
   scheme: bearer
+  service_account:
+    creation: Reach out to a Particle Health representative, or self-serve via the Management API (Create Service Account + Create Credentials endpoints).
+    scope_format: projects/<project_id>
+    token_ttl_seconds: 3600
   sources:
-  - openapi/particle-health-openapi.yml
+  - openapi/particle-health-authentication-api-openapi.yml
+  - openapi/particle-health-batches-api-openapi.yml
+  - openapi/particle-health-ccda-api-openapi.yml
+  - openapi/particle-health-deltas-api-openapi.yml
+  - openapi/particle-health-documents-api-openapi.yml
+  - openapi/particle-health-fhir-api-openapi.yml
+  - openapi/particle-health-files-api-openapi.yml
+  - openapi/particle-health-flat-api-openapi.yml
+  - openapi/particle-health-hl7v2-api-openapi.yml
+  - openapi/particle-health-networkparticipants-api-openapi.yml
+  - openapi/particle-health-notifications-api-openapi.yml
+  - openapi/particle-health-patients-api-openapi.yml
+  - openapi/particle-health-projects-api-openapi.yml
+  - openapi/particle-health-providermap-api-openapi.yml
+  - openapi/particle-health-queries-api-openapi.yml
+  - openapi/particle-health-signal-api-openapi.yml
+  - openapi/particle-health-subscriptions-api-openapi.yml
   type: http
 slug: particle-health-authentication
 source_filename: particle-health-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/particle-health-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2 client-credentials JWT issued by `/auth`. Token expires after one hour.\n  sources:\n  - openapi/particle-health-openapi.yml\n"
+source_yaml: "generated: '2026-08-14'\nmethod: searched\ndocs:\n  - https://docs.particlehealth.com/docs/auth-and-keys\n  - https://raw.githubusercontent.com/ParticleHealth/particle-connect/main/agent-documentation/08-authentication.md\nsource: openapi/particle-health-authentication-api-openapi.yml, openapi/particle-health-batches-api-openapi.yml,\n  openapi/particle-health-ccda-api-openapi.yml, openapi/particle-health-deltas-api-openapi.yml,\n  openapi/particle-health-documents-api-openapi.yml, openapi/particle-health-fhir-api-openapi.yml,\n  openapi/particle-health-files-api-openapi.yml, openapi/particle-health-flat-api-openapi.yml,\n  openapi/particle-health-hl7v2-api-openapi.yml, openapi/particle-health-networkparticipants-api-openapi.yml,\n  openapi/particle-health-notifications-api-openapi.yml, openapi/particle-health-patients-api-openapi.yml,\n  openapi/particle-health-projects-api-openapi.yml, openapi/particle-health-providermap-api-openapi.yml,\n  openapi/particle-health-queries-api-openapi.yml,\
+  \ openapi/particle-health-signal-api-openapi.yml,\n  openapi/particle-health-subscriptions-api-openapi.yml\nsummary:\n  types:\n  - http\nnotes: >-\n  Particle documents the flow as \"OAuth 2 Client-Credentials,\" but the actual request is a\n  provider-specific GET (not the standard OAuth 2 token POST): GET https://sandbox.particlehealth.com/auth\n  (or the production host) with client-id, client-secret, and scope sent as request HEADERS, returning\n  a plain-text JWT (not a JSON token response). scope is formatted projects/<project_id> and selects the\n  project the token is bound to. Tokens are valid for 1 hour. A second, separate credential pair (org-level,\n  not project-level) is used for the Management API auth flow, which is instead a POST to the same /auth\n  path and can return either JSON or URL-encoded form data. Source for the GET/headers/plain-text-JWT\n  behavior is Particle Health's own public GitHub quickstart (ParticleHealth/particle-connect), which\n  documents both\
+  \ flows in implementation detail (file:line pointers into their SDK source); this\n  supplements, and does not contradict, the docs.particlehealth.com auth page.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2 client-credentials JWT issued by `/auth`. Token expires after one hour.\n  sources:\n  - openapi/particle-health-authentication-api-openapi.yml\n  - openapi/particle-health-batches-api-openapi.yml\n  - openapi/particle-health-ccda-api-openapi.yml\n  - openapi/particle-health-deltas-api-openapi.yml\n  - openapi/particle-health-documents-api-openapi.yml\n  - openapi/particle-health-fhir-api-openapi.yml\n  - openapi/particle-health-files-api-openapi.yml\n  - openapi/particle-health-flat-api-openapi.yml\n  - openapi/particle-health-hl7v2-api-openapi.yml\n  - openapi/particle-health-networkparticipants-api-openapi.yml\n  - openapi/particle-health-notifications-api-openapi.yml\n  - openapi/particle-health-patients-api-openapi.yml\n\
+  \  - openapi/particle-health-projects-api-openapi.yml\n  - openapi/particle-health-providermap-api-openapi.yml\n  - openapi/particle-health-queries-api-openapi.yml\n  - openapi/particle-health-signal-api-openapi.yml\n  - openapi/particle-health-subscriptions-api-openapi.yml\n  service_account:\n    creation: Reach out to a Particle Health representative, or self-serve via the Management API\n      (Create Service Account + Create Credentials endpoints).\n    token_ttl_seconds: 3600\n    scope_format: projects/<project_id>\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/authentication/particle-health-authentication.yml
 summary_line: http · 1 scheme
 tags:

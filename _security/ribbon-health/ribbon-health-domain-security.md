@@ -60,6 +60,12 @@ api_specs:
   slug: ribbon-health-tins-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-tins-api-openapi.yml
+- filename: ribbon-health-price-transparency-v2-api-openapi.yml
+  format: yaml
+  label: Ribbon Health Price Transparency v2 API
+  slug: ribbon-health-price-transparency-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-price-transparency-v2-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +81,7 @@ domains:
   domain: readme.io
   spf: true
 hosts:
-- cert_expires: Sep 13 08:52:44 2026 GMT
+- cert_expires: Nov 11 10:05:52 2026 GMT
   host: h1.co
   hsts: false
   https: true
@@ -103,7 +109,7 @@ slug: ribbon-health-domain-security
 source_filename: ribbon-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: h1.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 08:52:44 2026 GMT\n  hsts: false\n- host: ribbon.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.ribbonhealth.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  6 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: h1.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: h1.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 10:05:52 2026 GMT\n  hsts: false\n- host: ribbon.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.ribbonhealth.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  6 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: h1.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/security/ribbon-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

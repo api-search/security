@@ -8,7 +8,7 @@ domains:
   domain: octaneai.com
   spf: true
 hosts:
-- cert_expires: Sep  9 00:14:43 2026 GMT
+- cert_expires: Nov  7 01:21:53 2026 GMT
   host: octaneai.com
   hsts: false
   https: true
@@ -25,7 +25,7 @@ slug: octane-ai-domain-security
 source_filename: octane-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: octaneai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 00:14:43 2026 GMT\n  hsts: false\ndomains:\n- domain: octaneai.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: octaneai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 01:21:53 2026 GMT\n  hsts: false\ndomains:\n- domain: octaneai.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/security/octane-ai-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

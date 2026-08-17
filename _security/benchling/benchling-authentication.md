@@ -343,13 +343,19 @@ api_specs:
   slug: benchling-workflow-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-workflow-tasks-api-openapi.yml
+- filename: benchling-v3-openapi.yaml
+  format: yaml
+  label: Benchling API v3
+  slug: benchling-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-v3-openapi.yaml
 auth_types:
 - http
 - oauth2
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Benchling Authentication
 name_suffix: Authentication
 oauth_flows:
@@ -363,7 +369,64 @@ schemes:
   name: basicApiKeyAuth
   scheme: basic
   sources:
-  - openapi/benchling-openapi.yaml
+  - openapi/benchling-aa-sequences-api-openapi.yml
+  - openapi/benchling-apps-api-openapi.yml
+  - openapi/benchling-assay-results-api-openapi.yml
+  - openapi/benchling-assay-runs-api-openapi.yml
+  - openapi/benchling-audit-api-openapi.yml
+  - openapi/benchling-authentication-api-openapi.yml
+  - openapi/benchling-blobs-api-openapi.yml
+  - openapi/benchling-boxes-api-openapi.yml
+  - openapi/benchling-codon-usage-tables-api-openapi.yml
+  - openapi/benchling-connect-api-openapi.yml
+  - openapi/benchling-containers-api-openapi.yml
+  - openapi/benchling-custom-entities-api-openapi.yml
+  - openapi/benchling-custom-notations-api-openapi.yml
+  - openapi/benchling-data-frames-api-openapi.yml
+  - openapi/benchling-datasets-api-openapi.yml
+  - openapi/benchling-dna-alignments-api-openapi.yml
+  - openapi/benchling-dna-oligos-api-openapi.yml
+  - openapi/benchling-dna-sequences-api-openapi.yml
+  - openapi/benchling-dropdowns-api-openapi.yml
+  - openapi/benchling-entities-api-openapi.yml
+  - openapi/benchling-entries-api-openapi.yml
+  - openapi/benchling-enzymes-api-openapi.yml
+  - openapi/benchling-events-api-openapi.yml
+  - openapi/benchling-exports-api-openapi.yml
+  - openapi/benchling-feature-libraries-api-openapi.yml
+  - openapi/benchling-files-api-openapi.yml
+  - openapi/benchling-folders-api-openapi.yml
+  - openapi/benchling-instrument-queries-api-openapi.yml
+  - openapi/benchling-inventory-api-openapi.yml
+  - openapi/benchling-lab-automation-api-openapi.yml
+  - openapi/benchling-label-templates-api-openapi.yml
+  - openapi/benchling-legacy-requests-api-openapi.yml
+  - openapi/benchling-legacy-workflows-api-openapi.yml
+  - openapi/benchling-legacy-workflows-deprecated-api-openapi.yml
+  - openapi/benchling-locations-api-openapi.yml
+  - openapi/benchling-mixtures-api-openapi.yml
+  - openapi/benchling-molecules-api-openapi.yml
+  - openapi/benchling-monomers-api-openapi.yml
+  - openapi/benchling-nucleotide-alignments-api-openapi.yml
+  - openapi/benchling-oligos-api-openapi.yml
+  - openapi/benchling-organizations-api-openapi.yml
+  - openapi/benchling-plates-api-openapi.yml
+  - openapi/benchling-printers-api-openapi.yml
+  - openapi/benchling-projects-api-openapi.yml
+  - openapi/benchling-registry-api-openapi.yml
+  - openapi/benchling-rna-oligos-api-openapi.yml
+  - openapi/benchling-rna-sequences-api-openapi.yml
+  - openapi/benchling-schemas-api-openapi.yml
+  - openapi/benchling-tasks-api-openapi.yml
+  - openapi/benchling-teams-api-openapi.yml
+  - openapi/benchling-users-api-openapi.yml
+  - openapi/benchling-v3-openapi.yaml
+  - openapi/benchling-warehouse-api-openapi.yml
+  - openapi/benchling-workflow-flowchart-config-versions-api-openapi.yml
+  - openapi/benchling-workflow-flowcharts-api-openapi.yml
+  - openapi/benchling-workflow-outputs-api-openapi.yml
+  - openapi/benchling-workflow-task-groups-api-openapi.yml
+  - openapi/benchling-workflow-tasks-api-openapi.yml
   type: http
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
@@ -372,13 +435,78 @@ schemes:
     tokenUrl: /api/v2/token
   name: oAuth
   sources:
-  - openapi/benchling-openapi.yaml
+  - openapi/benchling-aa-sequences-api-openapi.yml
+  - openapi/benchling-apps-api-openapi.yml
+  - openapi/benchling-assay-results-api-openapi.yml
+  - openapi/benchling-assay-runs-api-openapi.yml
+  - openapi/benchling-audit-api-openapi.yml
+  - openapi/benchling-authentication-api-openapi.yml
+  - openapi/benchling-blobs-api-openapi.yml
+  - openapi/benchling-boxes-api-openapi.yml
+  - openapi/benchling-codon-usage-tables-api-openapi.yml
+  - openapi/benchling-connect-api-openapi.yml
+  - openapi/benchling-containers-api-openapi.yml
+  - openapi/benchling-custom-entities-api-openapi.yml
+  - openapi/benchling-custom-notations-api-openapi.yml
+  - openapi/benchling-data-frames-api-openapi.yml
+  - openapi/benchling-datasets-api-openapi.yml
+  - openapi/benchling-dna-alignments-api-openapi.yml
+  - openapi/benchling-dna-oligos-api-openapi.yml
+  - openapi/benchling-dna-sequences-api-openapi.yml
+  - openapi/benchling-dropdowns-api-openapi.yml
+  - openapi/benchling-entities-api-openapi.yml
+  - openapi/benchling-entries-api-openapi.yml
+  - openapi/benchling-enzymes-api-openapi.yml
+  - openapi/benchling-events-api-openapi.yml
+  - openapi/benchling-exports-api-openapi.yml
+  - openapi/benchling-feature-libraries-api-openapi.yml
+  - openapi/benchling-files-api-openapi.yml
+  - openapi/benchling-folders-api-openapi.yml
+  - openapi/benchling-instrument-queries-api-openapi.yml
+  - openapi/benchling-inventory-api-openapi.yml
+  - openapi/benchling-lab-automation-api-openapi.yml
+  - openapi/benchling-label-templates-api-openapi.yml
+  - openapi/benchling-legacy-requests-api-openapi.yml
+  - openapi/benchling-legacy-workflows-api-openapi.yml
+  - openapi/benchling-legacy-workflows-deprecated-api-openapi.yml
+  - openapi/benchling-locations-api-openapi.yml
+  - openapi/benchling-mixtures-api-openapi.yml
+  - openapi/benchling-molecules-api-openapi.yml
+  - openapi/benchling-monomers-api-openapi.yml
+  - openapi/benchling-nucleotide-alignments-api-openapi.yml
+  - openapi/benchling-oligos-api-openapi.yml
+  - openapi/benchling-organizations-api-openapi.yml
+  - openapi/benchling-plates-api-openapi.yml
+  - openapi/benchling-printers-api-openapi.yml
+  - openapi/benchling-projects-api-openapi.yml
+  - openapi/benchling-registry-api-openapi.yml
+  - openapi/benchling-rna-oligos-api-openapi.yml
+  - openapi/benchling-rna-sequences-api-openapi.yml
+  - openapi/benchling-schemas-api-openapi.yml
+  - openapi/benchling-tasks-api-openapi.yml
+  - openapi/benchling-teams-api-openapi.yml
+  - openapi/benchling-users-api-openapi.yml
+  - openapi/benchling-v3-openapi.yaml
+  - openapi/benchling-warehouse-api-openapi.yml
+  - openapi/benchling-workflow-flowchart-config-versions-api-openapi.yml
+  - openapi/benchling-workflow-flowcharts-api-openapi.yml
+  - openapi/benchling-workflow-outputs-api-openapi.yml
+  - openapi/benchling-workflow-task-groups-api-openapi.yml
+  - openapi/benchling-workflow-tasks-api-openapi.yml
   type: oauth2
 slug: benchling-authentication
 source_filename: benchling-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/benchling-openapi.yaml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: basicApiKeyAuth\n  type: http\n  scheme: basic\n  description: Use issued API key for standard access to the API\n  sources:\n  - openapi/benchling-openapi.yaml\n- name: oAuth\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n    scopes: 0\n  description: OAuth2 Client Credentials flow intended for service access\n  sources:\n  - openapi/benchling-openapi.yaml\n"
+source_yaml: "generated: '2026-08-15'\nmethod: searched\nsource: openapi/benchling-v3-openapi.yaml + openapi/*.yml securitySchemes, enriched from https://docs.benchling.com/docs/authentication\n  and https://docs.benchling.com/docs/getting-started-benchling-apps, read 2026-08-15.\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: basicApiKeyAuth\n  type: http\n  scheme: basic\n  description: Use issued API key for standard access to the API\n  sources:\n  - openapi/benchling-aa-sequences-api-openapi.yml\n  - openapi/benchling-apps-api-openapi.yml\n  - openapi/benchling-assay-results-api-openapi.yml\n  - openapi/benchling-assay-runs-api-openapi.yml\n  - openapi/benchling-audit-api-openapi.yml\n  - openapi/benchling-authentication-api-openapi.yml\n  - openapi/benchling-blobs-api-openapi.yml\n  - openapi/benchling-boxes-api-openapi.yml\n  - openapi/benchling-codon-usage-tables-api-openapi.yml\n  - openapi/benchling-connect-api-openapi.yml\n\
+  \  - openapi/benchling-containers-api-openapi.yml\n  - openapi/benchling-custom-entities-api-openapi.yml\n  - openapi/benchling-custom-notations-api-openapi.yml\n  - openapi/benchling-data-frames-api-openapi.yml\n  - openapi/benchling-datasets-api-openapi.yml\n  - openapi/benchling-dna-alignments-api-openapi.yml\n  - openapi/benchling-dna-oligos-api-openapi.yml\n  - openapi/benchling-dna-sequences-api-openapi.yml\n  - openapi/benchling-dropdowns-api-openapi.yml\n  - openapi/benchling-entities-api-openapi.yml\n  - openapi/benchling-entries-api-openapi.yml\n  - openapi/benchling-enzymes-api-openapi.yml\n  - openapi/benchling-events-api-openapi.yml\n  - openapi/benchling-exports-api-openapi.yml\n  - openapi/benchling-feature-libraries-api-openapi.yml\n  - openapi/benchling-files-api-openapi.yml\n  - openapi/benchling-folders-api-openapi.yml\n  - openapi/benchling-instrument-queries-api-openapi.yml\n  - openapi/benchling-inventory-api-openapi.yml\n  - openapi/benchling-lab-automation-api-openapi.yml\n\
+  \  - openapi/benchling-label-templates-api-openapi.yml\n  - openapi/benchling-legacy-requests-api-openapi.yml\n  - openapi/benchling-legacy-workflows-api-openapi.yml\n  - openapi/benchling-legacy-workflows-deprecated-api-openapi.yml\n  - openapi/benchling-locations-api-openapi.yml\n  - openapi/benchling-mixtures-api-openapi.yml\n  - openapi/benchling-molecules-api-openapi.yml\n  - openapi/benchling-monomers-api-openapi.yml\n  - openapi/benchling-nucleotide-alignments-api-openapi.yml\n  - openapi/benchling-oligos-api-openapi.yml\n  - openapi/benchling-organizations-api-openapi.yml\n  - openapi/benchling-plates-api-openapi.yml\n  - openapi/benchling-printers-api-openapi.yml\n  - openapi/benchling-projects-api-openapi.yml\n  - openapi/benchling-registry-api-openapi.yml\n  - openapi/benchling-rna-oligos-api-openapi.yml\n  - openapi/benchling-rna-sequences-api-openapi.yml\n  - openapi/benchling-schemas-api-openapi.yml\n  - openapi/benchling-tasks-api-openapi.yml\n  - openapi/benchling-teams-api-openapi.yml\n\
+  \  - openapi/benchling-users-api-openapi.yml\n  - openapi/benchling-v3-openapi.yaml\n  - openapi/benchling-warehouse-api-openapi.yml\n  - openapi/benchling-workflow-flowchart-config-versions-api-openapi.yml\n  - openapi/benchling-workflow-flowcharts-api-openapi.yml\n  - openapi/benchling-workflow-outputs-api-openapi.yml\n  - openapi/benchling-workflow-task-groups-api-openapi.yml\n  - openapi/benchling-workflow-tasks-api-openapi.yml\n- name: oAuth\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n    scopes: 0\n  description: OAuth2 Client Credentials flow intended for service access\n  sources:\n  - openapi/benchling-aa-sequences-api-openapi.yml\n  - openapi/benchling-apps-api-openapi.yml\n  - openapi/benchling-assay-results-api-openapi.yml\n  - openapi/benchling-assay-runs-api-openapi.yml\n  - openapi/benchling-audit-api-openapi.yml\n  - openapi/benchling-authentication-api-openapi.yml\n  - openapi/benchling-blobs-api-openapi.yml\n  - openapi/benchling-boxes-api-openapi.yml\n\
+  \  - openapi/benchling-codon-usage-tables-api-openapi.yml\n  - openapi/benchling-connect-api-openapi.yml\n  - openapi/benchling-containers-api-openapi.yml\n  - openapi/benchling-custom-entities-api-openapi.yml\n  - openapi/benchling-custom-notations-api-openapi.yml\n  - openapi/benchling-data-frames-api-openapi.yml\n  - openapi/benchling-datasets-api-openapi.yml\n  - openapi/benchling-dna-alignments-api-openapi.yml\n  - openapi/benchling-dna-oligos-api-openapi.yml\n  - openapi/benchling-dna-sequences-api-openapi.yml\n  - openapi/benchling-dropdowns-api-openapi.yml\n  - openapi/benchling-entities-api-openapi.yml\n  - openapi/benchling-entries-api-openapi.yml\n  - openapi/benchling-enzymes-api-openapi.yml\n  - openapi/benchling-events-api-openapi.yml\n  - openapi/benchling-exports-api-openapi.yml\n  - openapi/benchling-feature-libraries-api-openapi.yml\n  - openapi/benchling-files-api-openapi.yml\n  - openapi/benchling-folders-api-openapi.yml\n  - openapi/benchling-instrument-queries-api-openapi.yml\n\
+  \  - openapi/benchling-inventory-api-openapi.yml\n  - openapi/benchling-lab-automation-api-openapi.yml\n  - openapi/benchling-label-templates-api-openapi.yml\n  - openapi/benchling-legacy-requests-api-openapi.yml\n  - openapi/benchling-legacy-workflows-api-openapi.yml\n  - openapi/benchling-legacy-workflows-deprecated-api-openapi.yml\n  - openapi/benchling-locations-api-openapi.yml\n  - openapi/benchling-mixtures-api-openapi.yml\n  - openapi/benchling-molecules-api-openapi.yml\n  - openapi/benchling-monomers-api-openapi.yml\n  - openapi/benchling-nucleotide-alignments-api-openapi.yml\n  - openapi/benchling-oligos-api-openapi.yml\n  - openapi/benchling-organizations-api-openapi.yml\n  - openapi/benchling-plates-api-openapi.yml\n  - openapi/benchling-printers-api-openapi.yml\n  - openapi/benchling-projects-api-openapi.yml\n  - openapi/benchling-registry-api-openapi.yml\n  - openapi/benchling-rna-oligos-api-openapi.yml\n  - openapi/benchling-rna-sequences-api-openapi.yml\n  - openapi/benchling-schemas-api-openapi.yml\n\
+  \  - openapi/benchling-tasks-api-openapi.yml\n  - openapi/benchling-teams-api-openapi.yml\n  - openapi/benchling-users-api-openapi.yml\n  - openapi/benchling-v3-openapi.yaml\n  - openapi/benchling-warehouse-api-openapi.yml\n  - openapi/benchling-workflow-flowchart-config-versions-api-openapi.yml\n  - openapi/benchling-workflow-flowcharts-api-openapi.yml\n  - openapi/benchling-workflow-outputs-api-openapi.yml\n  - openapi/benchling-workflow-task-groups-api-openapi.yml\n  - openapi/benchling-workflow-tasks-api-openapi.yml\ndocs: https://docs.benchling.com/docs/authentication\ndocumented_methods:\n- name: Basic authentication (user API key)\n  scheme: http basic\n  openapi_scheme: basicApiKeyAuth\n  detail: API key as the HTTP Basic USERNAME with an EMPTY password — note the trailing colon in `curl\n    -u KEY:`. Failed auth returns 401. Keys are generated and rotated in Profile settings.\n  identity: acts as the user who owns the key\n  recommended_for: quick tests and one-off scripts\n\
+  - name: OAuth 2.0 client credentials (Benchling Apps)\n  scheme: oauth2 clientCredentials\n  openapi_scheme: oAuth\n  token_url: https://{tenant}.benchling.com/api/v2/token\n  exchange_auth: basicClientIdSecretAuth (client_id / client_secret) or form-encoded body\n  detail: 'POST client_id + client_secret + grant_type=client_credentials to /token, receive a short-lived\n    access_token, send Authorization: Bearer, re-fetch on expiry.'\n  identity: acts as the app (a service principal)\n  recommended_for: dedicated integrations and automation — the recommended default\n- name: OpenID Connect id token\n  scheme: bearer id_token\n  openapi_scheme: null\n  detail: Enterprise only, and NOT declared in the OpenAPI. A trusted IdP issues an id token containing\n    an `email` claim; Benchling verifies the signature against the customer's own /.well-known/openid-configuration\n    and authenticates as the matching user, who must already exist in the tenant. Confirmed working with\n    Okta and\
+  \ Azure AD / Entra ID. Requires setup through support@benchling.com.\n  identity: acts as any user resolvable in the IdP\n  recommended_for: integrations that must act as many different users\nspec_gap: The OpenAPI declares only the two HTTP Basic schemes and the OAuth2 client-credentials flow.\n  The OIDC id-token path is documented but absent from both specs, so a client generated purely from the\n  contract cannot discover it.\nsecrets_handling:\n  api_key_rotation: Profile settings\n  client_secret_rotation: Apps page in the Developer Console\n  guidance: Benchling advises storing credentials in a password manager or secrets store and using environment\n    variables rather than embedding them in scripts.\nwarehouse: The Benchling Data Warehouse does not use any of these methods — it is a direct Postgres connection\n  with its own credentials. See https://docs.benchling.com/docs/getting-started.\nscopes: scopes/benchling-scopes.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/authentication/benchling-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:

@@ -15,7 +15,7 @@ slug: 1uphealth-trust-center
 source_filename: 1uphealth-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-24'\nmethod: searched\nprobe: true\nsource: https://trust.1up.health/\nurl: https://trust.1up.health/\ncertifications:\n- SOC 2\n- HIPAA\n- CSA STAR\nevidence:\n- source: https://trust.1up.health/\n  keywords:\n  - soc 2\n  - hipaa\n  - trust center\n  - csa star\n"
+source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nsource: https://trust.1up.health/\nurl: https://trust.1up.health/\ncertifications:\n- SOC 2\n- HIPAA\n- CSA STAR\nevidence:\n- source: https://trust.1up.health/\n  keywords:\n  - soc 2\n  - hipaa\n  - trust center\n  - csa star\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/security/1uphealth-trust-center.yml
 summary_line: SOC 2, HIPAA, CSA STAR
 tags:

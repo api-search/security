@@ -1,17 +1,371 @@
 ---
 api_specs:
+- filename: matomo-live-openapi.json
+  format: json
+  label: Matomo Live API
+  slug: live-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-live-openapi.json
+- filename: matomo-goals-openapi.json
+  format: json
+  label: Matomo Goals API
+  slug: goals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-goals-openapi.json
+- filename: matomo-segment-editor-openapi.json
+  format: json
+  label: Matomo Segments API
+  slug: segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-segment-editor-openapi.json
 - filename: matomo-index-php-api-openapi.yml
   format: yaml
-  label: Matomo Index.php API
+  label: Matomo Reporting API (index.php entrypoint)
   slug: matomo-index-php-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-index-php-api-openapi.yml
 - filename: matomo-matomo-php-api-openapi.yml
   format: yaml
-  label: Matomo Matomo.php API
+  label: Matomo Tracking API (matomo.php entrypoint)
   slug: matomo-matomo-php-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-matomo-php-api-openapi.yml
+- filename: matomo-sites-manager-openapi.json
+  format: json
+  label: Matomo SitesManager API
+  slug: sites-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-sites-manager-openapi.json
+- filename: matomo-tag-manager-openapi.json
+  format: json
+  label: Matomo TagManager API
+  slug: tag-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-tag-manager-openapi.json
+- filename: matomo-users-manager-openapi.json
+  format: json
+  label: Matomo UsersManager API
+  slug: users-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-users-manager-openapi.json
+- filename: matomo-crash-analytics-openapi.json
+  format: json
+  label: Matomo CrashAnalytics API
+  slug: crash-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-crash-analytics-openapi.json
+- filename: matomo-heatmap-session-recording-openapi.json
+  format: json
+  label: Matomo HeatmapSessionRecording API
+  slug: heatmap-session-recording-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-heatmap-session-recording-openapi.json
+- filename: matomo-form-analytics-openapi.json
+  format: json
+  label: Matomo FormAnalytics API
+  slug: form-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-form-analytics-openapi.json
+- filename: matomo-referrers-openapi.json
+  format: json
+  label: Matomo Referrers API
+  slug: referrers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-referrers-openapi.json
+- filename: matomo-funnels-openapi.json
+  format: json
+  label: Matomo Funnels API
+  slug: funnels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-funnels-openapi.json
+- filename: matomo-actions-openapi.json
+  format: json
+  label: Matomo Actions API
+  slug: actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-actions-openapi.json
+- filename: matomo-api-openapi.json
+  format: json
+  label: Matomo API API
+  slug: api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-api-openapi.json
+- filename: matomo-ab-testing-openapi.json
+  format: json
+  label: Matomo AbTesting API
+  slug: ab-testing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-ab-testing-openapi.json
+- filename: matomo-media-analytics-openapi.json
+  format: json
+  label: Matomo MediaAnalytics API
+  slug: media-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-media-analytics-openapi.json
+- filename: matomo-custom-reports-openapi.json
+  format: json
+  label: Matomo CustomReports API
+  slug: custom-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-custom-reports-openapi.json
+- filename: matomo-mobile-messaging-openapi.json
+  format: json
+  label: Matomo MobileMessaging API
+  slug: mobile-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-mobile-messaging-openapi.json
+- filename: matomo-search-engine-keywords-performance-openapi.json
+  format: json
+  label: Matomo SearchEngineKeywordsPerformance API
+  slug: search-engine-keywords-performance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-search-engine-keywords-performance-openapi.json
+- filename: matomo-marketing-campaigns-reporting-openapi.json
+  format: json
+  label: Matomo MarketingCampaignsReporting API
+  slug: marketing-campaigns-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-marketing-campaigns-reporting-openapi.json
+- filename: matomo-visits-summary-openapi.json
+  format: json
+  label: Matomo VisitsSummary API
+  slug: visits-summary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-visits-summary-openapi.json
+- filename: matomo-events-openapi.json
+  format: json
+  label: Matomo Events API
+  slug: events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-events-openapi.json
+- filename: matomo-languages-manager-openapi.json
+  format: json
+  label: Matomo LanguagesManager API
+  slug: languages-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-languages-manager-openapi.json
+- filename: matomo-devices-detection-openapi.json
+  format: json
+  label: Matomo DevicesDetection API
+  slug: devices-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-devices-detection-openapi.json
+- filename: matomo-oauth2-openapi.json
+  format: json
+  label: Matomo OAuth2 API
+  slug: oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-oauth2-openapi.json
+- filename: matomo-user-country-openapi.json
+  format: json
+  label: Matomo UserCountry API
+  slug: user-country-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-user-country-openapi.json
+- filename: matomo-annotations-openapi.json
+  format: json
+  label: Matomo Annotations API
+  slug: annotations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-annotations-openapi.json
+- filename: matomo-custom-alerts-openapi.json
+  format: json
+  label: Matomo CustomAlerts API
+  slug: custom-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-custom-alerts-openapi.json
+- filename: matomo-advertising-conversion-export-openapi.json
+  format: json
+  label: Matomo AdvertisingConversionExport API
+  slug: advertising-conversion-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-advertising-conversion-export-openapi.json
+- filename: matomo-custom-dimensions-openapi.json
+  format: json
+  label: Matomo CustomDimensions API
+  slug: custom-dimensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-custom-dimensions-openapi.json
+- filename: matomo-privacy-manager-openapi.json
+  format: json
+  label: Matomo PrivacyManager API
+  slug: privacy-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-privacy-manager-openapi.json
+- filename: matomo-scheduled-reports-openapi.json
+  format: json
+  label: Matomo ScheduledReports API
+  slug: scheduled-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-scheduled-reports-openapi.json
+- filename: matomo-dashboard-openapi.json
+  format: json
+  label: Matomo Dashboard API
+  slug: dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-dashboard-openapi.json
+- filename: matomo-insights-openapi.json
+  format: json
+  label: Matomo Insights API
+  slug: insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-insights-openapi.json
+- filename: matomo-transitions-openapi.json
+  format: json
+  label: Matomo Transitions API
+  slug: transitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-transitions-openapi.json
+- filename: matomo-visitor-interest-openapi.json
+  format: json
+  label: Matomo VisitorInterest API
+  slug: visitor-interest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-visitor-interest-openapi.json
+- filename: matomo-activity-log-openapi.json
+  format: json
+  label: Matomo ActivityLog API
+  slug: activity-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-activity-log-openapi.json
+- filename: matomo-api-reference-openapi.json
+  format: json
+  label: Matomo ApiReference API
+  slug: api-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-api-reference-openapi.json
+- filename: matomo-core-admin-home-openapi.json
+  format: json
+  label: Matomo CoreAdminHome API
+  slug: core-admin-home-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-core-admin-home-openapi.json
+- filename: matomo-feedback-openapi.json
+  format: json
+  label: Matomo Feedback API
+  slug: feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-feedback-openapi.json
+- filename: matomo-multi-sites-openapi.json
+  format: json
+  label: Matomo MultiSites API
+  slug: multi-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-multi-sites-openapi.json
+- filename: matomo-roll-up-reporting-openapi.json
+  format: json
+  label: Matomo RollUpReporting API
+  slug: roll-up-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-roll-up-reporting-openapi.json
+- filename: matomo-tour-openapi.json
+  format: json
+  label: Matomo Tour API
+  slug: tour-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-tour-openapi.json
+- filename: matomo-visit-time-openapi.json
+  format: json
+  label: Matomo VisitTime API
+  slug: visit-time-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-visit-time-openapi.json
+- filename: matomo-cohorts-openapi.json
+  format: json
+  label: Matomo Cohorts API
+  slug: cohorts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-cohorts-openapi.json
+- filename: matomo-contents-openapi.json
+  format: json
+  label: Matomo Contents API
+  slug: contents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-contents-openapi.json
+- filename: matomo-marketplace-openapi.json
+  format: json
+  label: Matomo Marketplace API
+  slug: marketplace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-marketplace-openapi.json
+- filename: matomo-overlay-openapi.json
+  format: json
+  label: Matomo Overlay API
+  slug: overlay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-overlay-openapi.json
+- filename: matomo-resolution-openapi.json
+  format: json
+  label: Matomo Resolution API
+  slug: resolution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-resolution-openapi.json
+- filename: matomo-user-language-openapi.json
+  format: json
+  label: Matomo UserLanguage API
+  slug: user-language-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-user-language-openapi.json
+- filename: matomo-bandwidth-openapi.json
+  format: json
+  label: Matomo Bandwidth API
+  slug: bandwidth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-bandwidth-openapi.json
+- filename: matomo-custom-js-tracker-openapi.json
+  format: json
+  label: Matomo CustomJsTracker API
+  slug: custom-js-tracker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-custom-js-tracker-openapi.json
+- filename: matomo-device-plugins-openapi.json
+  format: json
+  label: Matomo DevicePlugins API
+  slug: device-plugins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-device-plugins-openapi.json
+- filename: matomo-image-graph-openapi.json
+  format: json
+  label: Matomo ImageGraph API
+  slug: image-graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-image-graph-openapi.json
+- filename: matomo-login-openapi.json
+  format: json
+  label: Matomo Login API
+  slug: login-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-login-openapi.json
+- filename: matomo-page-performance-openapi.json
+  format: json
+  label: Matomo PagePerformance API
+  slug: page-performance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-page-performance-openapi.json
+- filename: matomo-seo-openapi.json
+  format: json
+  label: Matomo SEO API
+  slug: seo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-seo-openapi.json
+- filename: matomo-two-factor-auth-openapi.json
+  format: json
+  label: Matomo TwoFactorAuth API
+  slug: two-factor-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-two-factor-auth-openapi.json
+- filename: matomo-user-id-openapi.json
+  format: json
+  label: Matomo UserId API
+  slug: user-id-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-user-id-openapi.json
+- filename: matomo-visit-frequency-openapi.json
+  format: json
+  label: Matomo VisitFrequency API
+  slug: visit-frequency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-visit-frequency-openapi.json
 certifications:
 - ISO 27001
 - GDPR
@@ -27,15 +381,19 @@ slug: matomo-trust-center
 source_filename: matomo-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://matomo.org/security/\nurl: https://matomo.org/security/\ncertifications:\n- ISO 27001\n- GDPR\nevidence:\n- source: https://matomo.org/security/\n  keywords:\n  - iso 27001\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://matomo.org/security/\nurl: https://matomo.org/security/\ncertifications:\n- ISO 27001\n- GDPR\nevidence:\n- source: https://matomo.org/security/\n  keywords:\n  - iso 27001\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/security/matomo-trust-center.yml
 summary_line: ISO 27001, GDPR
 tags:
 - Analytics
-- Data Ownership
+- Web Analytics
 - Open Source
 - Privacy
+- Data Ownership
 - Self-Hosted
-- Web Analytics
+- GDPR
+- Tag Management
+- Conversion Optimization
+- Model Context Protocol
 trust_url: https://matomo.org/security/
 ---

@@ -1,5 +1,23 @@
 ---
 api_specs:
+- filename: wistia-data-api-v1-openapi.yml
+  format: yaml
+  label: Wistia Data API
+  slug: data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-data-api-v1-openapi.yml
+- filename: wistia-data-api-2026-01-openapi.yml
+  format: yaml
+  label: Wistia Data API 2026-01
+  slug: data-api-2026-01
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-data-api-2026-01-openapi.yml
+- filename: wistia-data-api-modern-edge-openapi.yml
+  format: yaml
+  label: Wistia Data API (modern, edge)
+  slug: data-api-modern-edge
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-data-api-modern-edge-openapi.yml
 - filename: wistia-asyncapi.yml
   format: yaml
   label: Wistia Webhooks
@@ -103,7 +121,7 @@ slug: wistia-domain-security
 source_filename: wistia-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wistia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 02:10:20 2027 GMT\n  hsts: false\n- host: docs.wistia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 01:02:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.wistia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 27 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: wistia.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wistia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 02:10:20 2027 GMT\n  hsts: false\n- host: docs.wistia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 01:02:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.wistia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 27 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: wistia.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/security/wistia-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -113,4 +131,8 @@ tags:
 - Lead Generation
 - Webinars
 - B2B Marketing
+- Video Captions
+- Localization
+- MCP
+- Media Management
 ---

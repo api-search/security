@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: instantly-ai-api-v2-openapi.yml
+  format: yaml
+  label: Instantly API v2
+  slug: instantly-ai-api-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-api-v2-openapi.yml
 - filename: instantly-ai-campaigns-api-openapi.yml
   format: yaml
   label: Instantly Campaigns API
@@ -15,7 +21,7 @@ domains:
   domain: instantly.ai
   spf: true
 hosts:
-- cert_expires: Aug 12 18:35:30 2026 GMT
+- cert_expires: Oct 10 23:03:09 2026 GMT
   host: instantly.ai
   hsts: true
   hsts_max_age: 31536000
@@ -27,7 +33,7 @@ hosts:
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 27 16:03:27 2026 GMT
+- cert_expires: Oct 25 21:39:28 2026 GMT
   host: api.instantly.ai
   hsts: false
   https: true
@@ -44,7 +50,7 @@ slug: instantly-ai-domain-security
 source_filename: instantly-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: instantly.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 18:35:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.instantly.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 05:39:37 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.instantly.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 16:03:27 2026 GMT\n  hsts: false\ndomains:\n- domain: instantly.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: instantly.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 23:03:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.instantly.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 05:39:37 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.instantly.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 21:39:28 2026 GMT\n  hsts: false\ndomains:\n- domain: instantly.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/security/instantly-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

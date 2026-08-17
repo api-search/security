@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: magic-moment-salesforce-integration-openapi.yml
+  format: yaml
+  label: Magic Moment Playbook Salesforce Integration API
+  slug: magic-moment-playbook-salesforce-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/openapi/magic-moment-salesforce-integration-openapi.yml
+- filename: magic-moment-hubspot-integration-openapi.yml
+  format: yaml
+  label: Magic Moment Playbook HubSpot Integration API
+  slug: magic-moment-playbook-hubspot-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/openapi/magic-moment-hubspot-integration-openapi.yml
+- filename: magic-moment-office-suite-integration-openapi.yml
+  format: yaml
+  label: Magic Moment Playbook Office Suite Integration API
+  slug: magic-moment-playbook-office-suite-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/openapi/magic-moment-office-suite-integration-openapi.yml
+- filename: magic-moment-call-integration-openapi.yml
+  format: yaml
+  label: Magic Moment Playbook Call Integration API
+  slug: magic-moment-playbook-call-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/openapi/magic-moment-call-integration-openapi.yml
+- filename: magic-moment-reporting-openapi.yml
+  format: yaml
+  label: Magic Moment Playbook Reporting API
+  slug: magic-moment-playbook-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/openapi/magic-moment-reporting-openapi.yml
 certifications:
 - ISO/IEC 27001:2022
 description: ''
@@ -25,5 +56,9 @@ tags:
 - Sales Automation
 - SaaS
 - Japan
+- Salesforce
+- HubSpot
+- Sales Enablement
+- API
 trust_url: https://www.magicmoment.jp/company/security-policy
 ---

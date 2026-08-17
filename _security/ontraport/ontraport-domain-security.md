@@ -43,7 +43,7 @@ slug: ontraport-domain-security
 source_filename: ontraport-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ontraport.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 20:40:50 2026 GMT\n  hsts: false\n- host: api.ontraport.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 21 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: ontraport.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ontraport.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 20:40:50 2026 GMT\n  hsts: false\n- host: api.ontraport.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 21 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: ontraport.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/security/ontraport-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
@@ -53,4 +53,8 @@ tags:
 - Ecommerce
 - Landing Pages
 - Membership Sites
+- MCP
+- AI Agents
+- Payments
+- Sales Automation
 ---

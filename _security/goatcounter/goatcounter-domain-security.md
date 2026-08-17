@@ -39,12 +39,12 @@ api_specs:
 description: ''
 domains:
 - caa:
-  - 0 issuewild "pki.goog; cansignhttpexchanges=yes"
-  - 0 issuewild "ssl.com"
-  - 0 issue "comodoca.com"
-  - 0 issue "digicert.com; cansignhttpexchanges=yes"
   - 0 issue "letsencrypt.org"
   - 0 issue "pki.goog; cansignhttpexchanges=yes"
+  - 0 issue "ssl.com"
+  - 0 issuewild "comodoca.com"
+  - 0 issuewild "digicert.com; cansignhttpexchanges=yes"
+  - 0 issuewild "letsencrypt.org"
   dmarc: false
   dnssec: true
   domain: goatcounter.com
@@ -72,7 +72,7 @@ slug: goatcounter-domain-security
 source_filename: goatcounter-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.goatcounter.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 14:20:14 2026 GMT\n  hsts: null\n- host: goatcounter.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 14:20:45 2026 GMT\n  hsts: null\ndomains:\n- domain: goatcounter.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.goatcounter.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 14:20:14 2026 GMT\n  hsts: null\n- host: goatcounter.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 14:20:45 2026 GMT\n  hsts: null\ndomains:\n- domain: goatcounter.com\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/security/goatcounter-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
@@ -81,4 +81,9 @@ tags:
 - Privacy
 - Statistics
 - Web Analytics
+- Open Source
+- Self-Hosted
+- Events
+- Data Export
+- Developer Tools
 ---

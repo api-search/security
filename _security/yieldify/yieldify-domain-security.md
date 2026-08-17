@@ -2,10 +2,10 @@
 description: ''
 domains:
 - caa:
+  - 0 issue "sectigo.com"
   - 0 issue "amazon.com"
   - 0 issue "globalsign.com"
   - 0 issue "letsencrypt.org"
-  - 0 issue "sectigo.com"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
@@ -29,7 +29,7 @@ slug: yieldify-domain-security
 source_filename: yieldify-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: yieldify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 08:04:08 2026 GMT\n  hsts: false\ndomains:\n- domain: yieldify.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: yieldify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 08:04:08 2026 GMT\n  hsts: false\ndomains:\n- domain: yieldify.com\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yieldify/refs/heads/main/security/yieldify-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
@@ -40,4 +40,8 @@ tags:
 - Ecommerce
 - Marketing Technology
 - Customer Experience
+- A/B Testing
+- Tag Management
+- Lead Capture
+- Website Optimization
 ---

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: pavoot-api-openapi.json
+  format: json
+  label: Pavoot Application API
+  slug: pavoot-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-api-openapi.json
 description: ''
 domains:
 - caa: []
@@ -8,7 +15,7 @@ domains:
   domain: pavoot.com
   spf: true
 hosts:
-- cert_expires: Aug 25 14:42:17 2026 GMT
+- cert_expires: Oct 21 05:12:44 2026 GMT
   host: pavoot.com
   hsts: false
   https: true
@@ -25,7 +32,7 @@ slug: pavoot-domain-security
 source_filename: pavoot-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pavoot.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 14:42:17 2026 GMT\n  hsts: false\ndomains:\n- domain: pavoot.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pavoot.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 05:12:44 2026 GMT\n  hsts: false\ndomains:\n- domain: pavoot.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/security/pavoot-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

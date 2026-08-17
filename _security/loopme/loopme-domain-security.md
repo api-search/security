@@ -2,7 +2,7 @@
 api_specs:
 - filename: loopme-ad-serving-api-openapi.yml
   format: yaml
-  label: LoopMe Ad Serving API
+  label: LoopMe S2S Ad Serving API
   slug: loopme-ad-serving-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/openapi/loopme-ad-serving-api-openapi.yml

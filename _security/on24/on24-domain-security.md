@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: on24-client-level-analytics-openapi.yml
+  format: yaml
+  label: ON24 Platform API
+  slug: on24-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/on24/refs/heads/main/openapi/on24-client-level-analytics-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,7 +42,7 @@ slug: on24-domain-security
 source_filename: on24-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.on24.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 18:28:12 2026 GMT\n  hsts: null\n- host: apidoc.on24.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.on24.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: on24.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.on24.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 18:28:12 2026 GMT\n  hsts: null\n- host: apidoc.on24.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.on24.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: on24.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/on24/refs/heads/main/security/on24-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:

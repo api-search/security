@@ -1,6 +1,13 @@
 ---
 api_key_in:
 - header
+api_specs:
+- filename: airops-api-openapi.yml
+  format: yaml
+  label: AirOps API
+  slug: airops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/openapi/airops-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -48,8 +55,9 @@ slug: airops-authentication
 source_filename: airops-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://docs.airops.com/api-reference/using-the-api/authentication\ndocs: https://docs.airops.com/api-reference/using-the-api/authentication\nsummary:\n  types: [http, oauth2]\n  api_key_in: [header]\n  http_schemes: [bearer]\n  oauth2_flows: [authorizationCode]\nschemes:\n- name: apiKeyBearer\n  type: http\n  scheme: bearer\n  location: header\n  header: Authorization\n  format: 'Bearer [example key]'\n  description: >-\n    Workspace API key presented as a Bearer token in the Authorization header for\n    the REST API at api.airops.com. Keys are created and regenerated in Workspace\n    Settings; regenerating immediately invalidates the previous key. Some execute\n    endpoints also accept the key as an auth_token query parameter (webhook flows).\n  applies_to: https://api.airops.com/public_api/*\n- name: oauth2\n  type: oauth2\n  scheme: authorizationCode\n  description: >-\n    OAuth 2.0 authorization-code flow (PKCE S256)\
-  \ used by the hosted MCP server at\n    app.airops.com/mcp and OAuth clients. Discovery published at\n    app.airops.com/.well-known/openid-configuration and /oauth-authorization-server.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.airops.com/oauth/authorize\n    tokenUrl: https://app.airops.com/oauth/token\n    revocationUrl: https://app.airops.com/oauth/revoke\n    introspectionUrl: https://app.airops.com/oauth/introspect\n    userinfoUrl: https://app.airops.com/oauth/userinfo\n    scopes_supported: [api, openid, profile, email]\n    pkce: [S256]\n  applies_to: https://app.airops.com/mcp\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://docs.airops.com/api-reference/using-the-api/authentication\ndocs: https://docs.airops.com/api-reference/using-the-api/authentication\nalso_derived_from: openapi/airops-api-openapi.yml\nspec_confirmation: >-\n  Confirmed 2026-08-13 against the published OpenAPI harvested from\n  https://api.airops.com/public_api/openapi.yaml. The spec declares exactly one\n  security scheme — components.securitySchemes.bearer (type: http, scheme:\n  bearer) — applied per-operation, with a 401 \"Authentication error\" response on\n  all 42 operations. There is no document-level `security` default (flagged in\n  overlays/airops-api-overlay.yaml). The OpenAPI does NOT model the OAuth 2.0\n  scheme below: OAuth exists only for the hosted MCP server and is discoverable\n  solely through the /.well-known/ documents, so the two auth surfaces are\n  documented in different places and only this artifact unifies them.\nsummary:\n  types: [http,\
+  \ oauth2]\n  api_key_in: [header]\n  http_schemes: [bearer]\n  oauth2_flows: [authorizationCode]\nschemes:\n- name: apiKeyBearer\n  type: http\n  scheme: bearer\n  location: header\n  header: Authorization\n  format: 'Bearer [example key]'\n  description: >-\n    Workspace API key presented as a Bearer token in the Authorization header for\n    the REST API at api.airops.com. Keys are created and regenerated in Workspace\n    Settings; regenerating immediately invalidates the previous key. Some execute\n    endpoints also accept the key as an auth_token query parameter (webhook flows).\n  applies_to: https://api.airops.com/public_api/*\n- name: oauth2\n  type: oauth2\n  scheme: authorizationCode\n  description: >-\n    OAuth 2.0 authorization-code flow (PKCE S256) used by the hosted MCP server at\n    app.airops.com/mcp and OAuth clients. Discovery published at\n    app.airops.com/.well-known/openid-configuration and /oauth-authorization-server.\n  flows:\n  - flow: authorizationCode\n\
+  \    authorizationUrl: https://app.airops.com/oauth/authorize\n    tokenUrl: https://app.airops.com/oauth/token\n    revocationUrl: https://app.airops.com/oauth/revoke\n    introspectionUrl: https://app.airops.com/oauth/introspect\n    userinfoUrl: https://app.airops.com/oauth/userinfo\n    scopes_supported: [api, openid, profile, email]\n    pkce: [S256]\n  applies_to: https://app.airops.com/mcp\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/authentication/airops-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
@@ -64,4 +72,9 @@ tags:
 - Workflows
 - MCP
 - Analytics
+- Agent Skills
+- OpenAPI
+- Knowledge Base
+- Content Marketing
+- Citations
 ---

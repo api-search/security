@@ -1,33 +1,39 @@
 ---
 api_specs:
-- filename: mparticle-bulkevents-api-openapi.yml
-  format: yaml
-  label: mParticle Bulkevents API
-  slug: mparticle-bulkevents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-bulkevents-api-openapi.yml
-- filename: mparticle-events-api-openapi.yml
+- filename: mparticle-events-openapi-original.yml
   format: yaml
   label: mParticle Events API
-  slug: mparticle-events-api
+  slug: events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-events-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-events-openapi-original.yml
+- filename: mparticle-identity-swagger-original.yml
+  format: yaml
+  label: mParticle IDSync API
+  slug: idsync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-identity-swagger-original.yml
+- filename: mparticle-dataplanning-openapi-original.yml
+  format: yaml
+  label: mParticle Data Planning API
+  slug: data-planning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-dataplanning-openapi-original.yml
 description: ''
 domains:
 - caa:
-  - 0 issue "amazon.com"
-  - 0 issue "digicert.com"
-  - 0 issue "globalsign.com"
   - 0 issue "godaddy.com"
   - 0 issue "letsencrypt.org"
   - 0 issuewild "globalsign.com"
+  - 0 issuewild "godaddy.com"
+  - 0 issuewild "letsencrypt.org"
+  - 0 iodef "mailto:security@mparticle.com"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
   domain: mparticle.com
   spf: true
 hosts:
-- cert_expires: Aug 27 22:10:00 2026 GMT
+- cert_expires: Oct 28 10:00:01 2026 GMT
   host: www.mparticle.com
   hsts: true
   hsts_max_age: 63072000
@@ -55,7 +61,7 @@ slug: mparticle-domain-security
 source_filename: mparticle-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mparticle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 22:10:00 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.mparticle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 16:14:54 2026 GMT\n  hsts: false\n- host: s2s.mparticle.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 30 16:14:54 2026 GMT\n  hsts: null\ndomains:\n- domain: mparticle.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mparticle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 10:00:01 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.mparticle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 16:14:54 2026 GMT\n  hsts: false\n- host: s2s.mparticle.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 30 16:14:54 2026 GMT\n  hsts: null\ndomains:\n- domain: mparticle.com\n  dnssec: false\n  caa:\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"godaddy.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 iodef \"mailto:security@mparticle.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/security/mparticle-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -66,4 +72,6 @@ tags:
 - Audience
 - Data Pipeline
 - Marketing Data
+- Event Streaming
+- Data Governance
 ---

@@ -51,12 +51,12 @@ domains:
   domain: valueserp.com
   spf: true
 hosts:
-- cert_expires: Sep 10 20:33:31 2026 GMT
+- cert_expires: Nov  8 23:54:17 2026 GMT
   host: trajectdata.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 10 21:17:55 2026 GMT
+- cert_expires: Oct  9 20:22:47 2026 GMT
   host: api.valueserp.com
   hsts: null
   https: true
@@ -73,7 +73,7 @@ slug: valueserp-domain-security
 source_filename: valueserp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: trajectdata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 20:33:31 2026 GMT\n  hsts: false\n- host: api.valueserp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 10 21:17:55 2026 GMT\n  hsts: null\ndomains:\n- domain: trajectdata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: valueserp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: trajectdata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:54:17 2026 GMT\n  hsts: false\n- host: api.valueserp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 20:22:47 2026 GMT\n  hsts: null\ndomains:\n- domain: trajectdata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: valueserp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/security/valueserp-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

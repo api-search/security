@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: synup-api-openapi.yml
   format: yaml
   label: Synup API
   slug: synup-api
   spec_type: OpenAPI
-  url: https://www.synup.dev/
+  url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -26,7 +26,7 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 14 23:59:59 2026 GMT
+- cert_expires: Jan 30 23:59:59 2027 GMT
   host: app.synup.com
   hsts: null
   https: true
@@ -43,7 +43,7 @@ slug: synup-domain-security
 source_filename: synup-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.synup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 23:30:16 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.synup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 22 23:59:59 2027 GMT\n  hsts: false\n- host: app.synup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: synup.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.synup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 23:30:16 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.synup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 22 23:59:59 2027 GMT\n  hsts: false\n- host: app.synup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 30 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: synup.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/security/synup-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -54,4 +54,7 @@ tags:
 - Reviews
 - Social Media
 - Analytics
+- Business Listings
+- Review Management
+- Agency Software
 ---

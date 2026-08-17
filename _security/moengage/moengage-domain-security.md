@@ -96,7 +96,7 @@ slug: moengage-domain-security
 source_filename: moengage-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.moengage.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 10:06:38 2026 GMT\n  hsts: false\n- host: api-01.moengage.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 13 23:59:59 2027 GMT\n  hsts: null\n- host: pushapi-01.moengage.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 13 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: moengage.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.moengage.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 10:06:38 2026 GMT\n  hsts: false\n- host: api-01.moengage.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 13 23:59:59 2027 GMT\n  hsts: null\n- host: pushapi-01.moengage.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 13 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: moengage.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/security/moengage-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

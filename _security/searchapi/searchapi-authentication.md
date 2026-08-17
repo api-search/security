@@ -9,6 +9,12 @@ api_specs:
   slug: searchapi-serp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/openapi/searchapi-search-api-openapi.yml
+- filename: searchapi-account-api-openapi.yml
+  format: yaml
+  label: SearchApi Account & Analytics API
+  slug: searchapi-account-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/openapi/searchapi-account-api-openapi.yml
 auth_types:
 - apiKey
 - http

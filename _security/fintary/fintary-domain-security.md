@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: fintary-open-api-openapi.yml
+  format: yaml
+  label: Fintary Open API
+  slug: fintary-open-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-open-api-openapi.yml
+- filename: fintary-ams-api-openapi.yml
+  format: yaml
+  label: Fintary AMS API
+  slug: fintary-ams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-ams-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -14,19 +27,26 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+- cert_expires: Nov 11 14:49:55 2026 GMT
+  host: api.fintary.com
+  hsts: true
+  hsts_max_age: 63072000
+  hsts_note: 'The mechanical probe records null because HEAD https://api.fintary.com/ returns the Next.js 404 page, which carries no HSTS header. A direct GET of a real API route (https://api.fintary.com/openapi/agents, HTTP 401) on 2026-08-14 returned `strict-transport-security: max-age=63072000; includeSubDomains`.'
+  https: true
+  tls_version: TLSv1.3
 kind: domain-security
 layout: security
 method: probed
 name: Fintary Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Fintary, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for Fintary, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Fintary
 provider_slug: fintary
 slug: fintary-domain-security
 source_filename: fintary-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fintary.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 22:50:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: fintary.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fintary.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 22:50:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.fintary.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 14:49:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  hsts_note: >-\n    The mechanical probe records null because HEAD https://api.fintary.com/ returns the Next.js\n    404 page, which carries no HSTS header. A direct GET of a real API route\n    (https://api.fintary.com/openapi/agents, HTTP 401) on 2026-08-14 returned\n    `strict-transport-security: max-age=63072000; includeSubDomains`.\ndomains:\n- domain: fintary.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/security/fintary-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -37,4 +57,9 @@ tags:
 - Commissions
 - Revenue Operations
 - Analytics
+- Agency Management
+- Policy Management
+- Payouts
+- Reconciliation
+- OpenAPI
 ---

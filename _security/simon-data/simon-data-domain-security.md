@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: simon-data-contacts-api-openapi.yml
+- filename: simon-data-audience-api-openapi.yml
   format: yaml
-  label: Simon Data Contacts API
+  label: Simon Data Audience API
   slug: simon-data-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-contacts-api-openapi.yml
-- filename: simon-data-events-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-audience-api-openapi.yml
+- filename: simon-data-event-ingestion-openapi.yml
   format: yaml
-  label: Simon Data Events API
+  label: Simon Data Event Ingestion API
   slug: simon-data-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-events-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-event-ingestion-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -33,14 +33,14 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 12 18:24:59 2026 GMT
+- cert_expires: Nov 10 22:57:11 2026 GMT
   host: docs.simondata.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 14 23:59:59 2026 GMT
-  host: dev.simonsignal.com
+- cert_expires: Feb 15 23:59:59 2027 GMT
+  host: api.simondata.com
   hsts: null
   https: true
   tls_version: TLSv1.3
@@ -56,7 +56,7 @@ slug: simon-data-domain-security
 source_filename: simon-data-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.simon.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 20:46:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.simondata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 18:24:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: dev.simonsignal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: simon.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: simondata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.simon.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 20:46:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.simondata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 22:57:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.simondata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 15 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: simon.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: simondata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/security/simon-data-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -68,4 +68,8 @@ tags:
 - Data Ingestion
 - Personalization
 - Marketing Technology
+- Identity Resolution
+- Customer Profiles
+- Journey Orchestration
+- Snowflake
 ---

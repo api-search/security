@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: amazon-ses-sesv2-openapi.yml
+  format: yaml
+  label: Amazon SES v2 API
+  slug: amazon-ses-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/openapi/_original/amazon-ses-sesv2-openapi.yml
 - filename: amazon-ses-contact-lists-api-openapi.yml
   format: yaml
   label: Amazon SES Contact Lists API
@@ -42,7 +48,7 @@ slug: amazon-ses-trust-center
 source_filename: amazon-ses-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/security/amazon-ses-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
@@ -53,5 +59,10 @@ tags:
 - Notifications
 - SMTP
 - Transactional Email
+- Bulk Email
+- Email Receiving
+- DKIM
+- Messaging
+- Cloud Infrastructure
 trust_url: https://aws.amazon.com/compliance/
 ---

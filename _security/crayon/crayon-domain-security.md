@@ -1,53 +1,4 @@
 ---
-api_specs:
-- filename: crayon-agreements-api-openapi.yml
-  format: yaml
-  label: Crayon Agreements API
-  slug: crayon-agreements-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-agreements-api-openapi.yml
-- filename: crayon-authentication-api-openapi.yml
-  format: yaml
-  label: Crayon Authentication API
-  slug: crayon-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-authentication-api-openapi.yml
-- filename: crayon-billing-api-openapi.yml
-  format: yaml
-  label: Crayon Billing API
-  slug: crayon-billing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-billing-api-openapi.yml
-- filename: crayon-clients-api-openapi.yml
-  format: yaml
-  label: Crayon Clients API
-  slug: crayon-clients-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-clients-api-openapi.yml
-- filename: crayon-customertenants-api-openapi.yml
-  format: yaml
-  label: Crayon CustomerTenants API
-  slug: crayon-customertenants-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-customertenants-api-openapi.yml
-- filename: crayon-organizations-api-openapi.yml
-  format: yaml
-  label: Crayon Organizations API
-  slug: crayon-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-organizations-api-openapi.yml
-- filename: crayon-subscriptions-api-openapi.yml
-  format: yaml
-  label: Crayon Subscriptions API
-  slug: crayon-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-subscriptions-api-openapi.yml
-- filename: crayon-users-api-openapi.yml
-  format: yaml
-  label: Crayon Users API
-  slug: crayon-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -57,12 +8,6 @@ domains:
   dnssec: false
   domain: crayon.co
   spf: true
-- caa: []
-  dmarc: true
-  dmarc_policy: reject
-  dnssec: false
-  domain: crayon.com
-  spf: true
 hosts:
 - cert_expires: Sep 21 00:09:20 2026 GMT
   host: www.crayon.co
@@ -70,29 +15,24 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 15 13:48:02 2026 GMT
-  host: apidocs.crayon.com
-  hsts: false
-  https: true
-  tls_version: TLSv1.2
-- cert_expires: Jul 15 14:39:26 2026 GMT
-  host: api.crayon.com
+- cert_expires: Feb  8 23:59:59 2027 GMT
+  host: mcp.crayon.co
   hsts: null
   https: true
-  tls_version: TLSv1.2
+  tls_version: TLSv1.3
 kind: domain-security
 layout: security
 method: probed
 name: Crayon Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Crayon, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Crayon, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Crayon
 provider_slug: crayon
 slug: crayon-domain-security
 source_filename: crayon-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.crayon.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 00:09:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apidocs.crayon.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 15 13:48:02 2026 GMT\n  hsts: false\n- host: api.crayon.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jul 15 14:39:26 2026 GMT\n  hsts: null\ndomains:\n- domain: crayon.co\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: crayon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.crayon.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 00:09:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: mcp.crayon.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  8 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: crayon.co\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/security/crayon-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -101,6 +41,7 @@ tags:
 - Sales Enablement
 - Battlecards
 - Win-Loss Analysis
+- Product Marketing
 - AI
 - MCP
 ---

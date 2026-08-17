@@ -54,13 +54,17 @@ schemes:
     tokenUrl: https://www.linkedin.com/oauth/v2/accessToken
   name: oauth2
   sources:
-  - openapi/microsoft-linkedin-openapi.yml
+  - openapi/microsoft-linkedin-adaccounts-api-openapi.yml
+  - openapi/microsoft-linkedin-adaccountusers-api-openapi.yml
+  - openapi/microsoft-linkedin-adcampaigngroups-api-openapi.yml
+  - openapi/microsoft-linkedin-adcampaigns-api-openapi.yml
+  - openapi/microsoft-linkedin-adcreatives-api-openapi.yml
   type: oauth2
 slug: microsoft-linkedin-authentication
 source_filename: microsoft-linkedin-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-linkedin-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.linkedin.com/oauth/v2/authorization\n    tokenUrl: https://www.linkedin.com/oauth/v2/accessToken\n    scopes: 5\n  description: LinkedIn OAuth 2.0 (3-legged or 2-legged)\n  sources:\n  - openapi/microsoft-linkedin-openapi.yml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/microsoft-linkedin-adaccounts-api-openapi.yml, openapi/microsoft-linkedin-adaccountusers-api-openapi.yml,\n  openapi/microsoft-linkedin-adcampaigngroups-api-openapi.yml, openapi/microsoft-linkedin-adcampaigns-api-openapi.yml,\n  openapi/microsoft-linkedin-adcreatives-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.linkedin.com/oauth/v2/authorization\n    tokenUrl: https://www.linkedin.com/oauth/v2/accessToken\n    scopes: 5\n  description: LinkedIn OAuth 2.0 (3-legged or 2-legged)\n  sources:\n  - openapi/microsoft-linkedin-adaccounts-api-openapi.yml\n  - openapi/microsoft-linkedin-adaccountusers-api-openapi.yml\n  - openapi/microsoft-linkedin-adcampaigngroups-api-openapi.yml\n  - openapi/microsoft-linkedin-adcampaigns-api-openapi.yml\n  - openapi/microsoft-linkedin-adcreatives-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-linkedin/refs/heads/main/authentication/microsoft-linkedin-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

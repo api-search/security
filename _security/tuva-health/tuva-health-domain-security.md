@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: tuva-health-empi-openapi.yml
+  format: yaml
+  label: Tuva EMPI API
+  slug: tuva-empi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/openapi/tuva-health-empi-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -19,7 +26,7 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 27 16:15:28 2026 GMT
+- cert_expires: Oct 25 12:13:43 2026 GMT
   host: thetuvaproject.com
   hsts: true
   hsts_max_age: 31536000
@@ -37,7 +44,7 @@ slug: tuva-health-domain-security
 source_filename: tuva-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-24'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tuvahealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 16:43:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: thetuvaproject.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 16:15:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: tuvahealth.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: thetuvaproject.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tuvahealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 16:43:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: thetuvaproject.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 12:13:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: tuvahealth.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: thetuvaproject.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/security/tuva-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
@@ -51,4 +58,6 @@ tags:
 - Claims
 - Open Source
 - dbt
+- EMPI
+- Patient Matching
 ---

@@ -107,10 +107,10 @@ domains:
   domain: jeffersonhealth.org
   spf: true
 - caa:
+  - 0 issuewild "sectigo.com"
   - 0 issue "sectigo.com"
   - 0 issuewild "amazon.com"
   - 0 issue "amazon.com"
-  - 0 issuewild "sectigo.com"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
@@ -127,7 +127,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.2
-- cert_expires: Jul 27 23:59:59 2026 GMT
+- cert_expires: Jan 31 23:59:59 2027 GMT
   host: smilercdr.healthpartnersplans.com
   hsts: null
   https: true
@@ -144,7 +144,7 @@ slug: jefferson-health-domain-security
 source_filename: jefferson-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.jeffersonhealth.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 23:59:59 2026 GMT\n  hsts: false\n- host: fhir.jefferson.edu\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 29 23:59:59 2026 GMT\n  hsts: null\n- host: smilercdr.healthpartnersplans.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jul 27 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: jeffersonhealth.org\n  dnssec: false\n  caa:\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: jefferson.edu\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issuewild \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.jeffersonhealth.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 23:59:59 2026 GMT\n  hsts: false\n- host: fhir.jefferson.edu\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 29 23:59:59 2026 GMT\n  hsts: null\n- host: smilercdr.healthpartnersplans.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 31 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: jeffersonhealth.org\n  dnssec: false\n  caa:\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: jefferson.edu\n  dnssec: false\n  caa:\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/security/jefferson-health-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

@@ -72,6 +72,8 @@ source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/security/leadspace-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
+- MCP
+- AI Agents
 - B2B Data
 - Customer Data Platform
 - Data Enrichment

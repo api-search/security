@@ -98,36 +98,38 @@ domains:
   dnssec: false
   domain: newswhip.com
   spf: true
-  spf_record: v=spf1 include:_spf.google.com include:_spf.salesforce.com include:spf.mandrillapp.com include:mktomail.com include:mg-spf.greenhouse.io ~all
 hosts:
-- host: newswhip.com
+- cert_expires: Nov  8 18:56:13 2026 GMT
+  host: newswhip.com
   hsts: false
-  hsts_max_age: null
   https: true
-- host: api.newswhip.com
-  hsts: true
-  hsts_include_subdomains: true
-  hsts_max_age: 15724800
-  https: true
-- host: developer.newswhip.com
+  tls_version: TLSv1.3
+- cert_expires: Oct  2 14:16:27 2026 GMT
+  host: developer.newswhip.com
   hsts: true
   hsts_max_age: 31536000
   https: true
+  tls_version: TLSv1.3
+- cert_expires: Nov  7 19:12:54 2026 GMT
+  host: api.newswhip.com
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
 kind: domain-security
 layout: security
 method: probed
 name: Newswhip Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for NewsWhip, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS; 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for NewsWhip, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: NewsWhip
 provider_slug: newswhip
 slug: newswhip-domain-security
 source_filename: newswhip-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nhosts:\n- host: newswhip.com\n  https: true\n  hsts: false\n  hsts_max_age: null\n- host: api.newswhip.com\n  https: true\n  hsts: true\n  hsts_max_age: 15724800\n  hsts_include_subdomains: true\n- host: developer.newswhip.com\n  https: true\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: newswhip.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 include:_spf.google.com include:_spf.salesforce.com include:spf.mandrillapp.com include:mktomail.com\n    include:mg-spf.greenhouse.io ~all\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: newswhip.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 18:56:13 2026 GMT\n  hsts: false\n- host: developer.newswhip.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 14:16:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.newswhip.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 19:12:54 2026 GMT\n  hsts: null\ndomains:\n- domain: newswhip.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/security/newswhip-domain-security.yml
-summary_line: HSTS · DMARC
+summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Media Intelligence

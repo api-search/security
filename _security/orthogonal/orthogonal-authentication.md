@@ -19,6 +19,12 @@ api_specs:
   slug: orthogonal-run-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/openapi/orthogonal-run-api-openapi.yml
+- filename: orthogonal-marketplace-openapi.json
+  format: json
+  label: Orthogonal API Marketplace
+  slug: orthogonal-marketplace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/openapi/_original/orthogonal-marketplace-openapi.json
 auth_types: []
 description: ''
 kind: authentication

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: storylane
+- filename: storylane-connect
   format: yaml
   label: Storylane External API
   slug: storylane-external-api
   spec_type: Postman
-  url: https://www.postman.com/storylane
+  url: https://www.postman.com/team-storylane/storylane-public/collection/2zkg7jc/storylane-connect
 description: ''
 domains:
 - caa: []
@@ -15,13 +15,13 @@ domains:
   domain: storylane.io
   spf: true
 hosts:
-- cert_expires: Sep  7 09:17:21 2026 GMT
+- cert_expires: Nov  8 10:51:37 2026 GMT
   host: www.storylane.io
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 31 11:28:22 2026 GMT
+- cert_expires: Oct 29 11:46:11 2026 GMT
   host: docs.storylane.io
   hsts: true
   hsts_max_age: 31536000
@@ -45,7 +45,7 @@ slug: storylane-domain-security
 source_filename: storylane-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.storylane.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 09:17:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.storylane.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 11:28:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.storylane.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: storylane.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.storylane.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 10:51:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.storylane.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 11:46:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.storylane.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: storylane.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/security/storylane-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -57,4 +57,10 @@ tags:
 - Demo Automation
 - Buyer Hub
 - Sales
+- MCP
+- Agent Tools
+- Webhooks
+- Embeds
+- oEmbed
+- Demo Automation Platform
 ---

@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: weave-contacts-api-openapi.yml
+  format: yaml
+  label: Weave Contacts API
+  slug: weave-hq-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/openapi/weave-contacts-api-openapi.yml
+- filename: weave-events-api-openapi.yml
+  format: yaml
+  label: Weave Events API
+  slug: weave-hq-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/openapi/weave-events-api-openapi.yml
+- filename: weave-forms-api-openapi.yml
+  format: yaml
+  label: Weave Forms API
+  slug: weave-hq-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/openapi/weave-forms-api-openapi.yml
+- filename: weave-messaging-api-openapi.yml
+  format: yaml
+  label: Weave Messaging API
+  slug: weave-hq-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/openapi/weave-messaging-api-openapi.yml
+- filename: weave-payments-api-openapi.yml
+  format: yaml
+  label: Weave Payments API
+  slug: weave-hq-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/openapi/weave-payments-api-openapi.yml
+- filename: weave-phone-calls-api-openapi.yml
+  format: yaml
+  label: Weave Phone & Calls API
+  slug: weave-hq-phone-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/openapi/weave-phone-calls-api-openapi.yml
+- filename: weave-reviews-api-openapi.yml
+  format: yaml
+  label: Weave Reviews API
+  slug: weave-hq-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/openapi/weave-reviews-api-openapi.yml
+- filename: weave-scheduling-api-openapi.yml
+  format: yaml
+  label: Weave Scheduling API
+  slug: weave-hq-scheduling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/openapi/weave-scheduling-api-openapi.yml
 certifications:
 - HIPAA
 - ISO 27001

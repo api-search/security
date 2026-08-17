@@ -216,6 +216,48 @@ api_specs:
   slug: activecampaign-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-webhooks-api-openapi.yml
+- filename: activecampaign-segments-api-openapi.json
+  format: json
+  label: ActiveCampaign Segments API
+  slug: activecampaign-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-segments-api-openapi.json
+- filename: activecampaign-segment-matching-api-openapi.json
+  format: json
+  label: ActiveCampaign Segment Matching API
+  slug: activecampaign-segment-matching-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-segment-matching-api-openapi.json
+- filename: activecampaign-segment-match-one-api-openapi.json
+  format: json
+  label: ActiveCampaign Segment Match One API
+  slug: activecampaign-segment-match-one-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-segment-match-one-api-openapi.json
+- filename: activecampaign-partners-api-openapi.json
+  format: json
+  label: ActiveCampaign Partners API
+  slug: activecampaign-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-partners-api-openapi.json
+- filename: activecampaign-whatsapp-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign WhatsApp API
+  slug: activecampaign-whatsapp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-whatsapp-api-openapi.yml
+- filename: activecampaign-trackcmp-api-openapi.json
+  format: json
+  label: ActiveCampaign trackcmp Event API
+  slug: activecampaign-trackcmp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-trackcmp-api-openapi.json
+- filename: activecampaign-v2-api-openapi.json
+  format: json
+  label: ActiveCampaign v2 Legacy API
+  slug: activecampaign-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-v2-api-openapi.json
 description: ''
 domains:
 - caa: []
@@ -231,13 +273,19 @@ domains:
   domain: api-us1.com
   spf: false
 hosts:
+- cert_expires: Oct 26 23:59:59 2026 GMT
+  host: www.activecampaign.com
+  hsts: true
+  hsts_max_age: 63072000
+  https: true
+  tls_version: TLSv1.3
 - cert_expires: Oct  2 15:54:45 2026 GMT
   host: developers.activecampaign.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 14 02:58:32 2026 GMT
+- cert_expires: Oct 12 03:46:01 2026 GMT
   host: youraccountname.api-us1.com
   hsts: null
   https: true
@@ -247,14 +295,14 @@ layout: security
 method: probed
 name: Activecampaign Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for ActiveCampaign, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for ActiveCampaign, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: ActiveCampaign
 provider_slug: activecampaign
 slug: activecampaign-domain-security
 source_filename: activecampaign-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.activecampaign.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 15:54:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: youraccountname.api-us1.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 14 02:58:32 2026 GMT\n  hsts: null\ndomains:\n- domain: activecampaign.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: api-us1.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.activecampaign.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.activecampaign.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 15:54:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: youraccountname.api-us1.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 12 03:46:01 2026 GMT\n  hsts: null\ndomains:\n- domain: activecampaign.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: api-us1.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/security/activecampaign-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -263,4 +311,8 @@ tags:
 - CRM
 - Sales Automation
 - Customer Experience
+- SMS Marketing
+- Ecommerce
+- Segmentation
+- Webhooks
 ---

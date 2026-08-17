@@ -2,19 +2,19 @@
 description: ''
 domains:
 - caa:
-  - 0 issue "digicert.com; cansignhttpexchanges=yes"
-  - 0 issuewild "letsencrypt.org"
-  - 0 issue "sectigo.com"
-  - 0 issue "godaddy.com"
-  - 0 issue "amazonaws.com"
-  - 0 issuewild "amazontrust.com"
+  - 0 issuewild "pki.goog; cansignhttpexchanges=yes"
+  - 0 issuewild "awstrust.com"
+  - 0 issue "starfieldtech.com"
+  - 0 issuewild "starfieldtech.com"
+  - 0 issuewild "digicert.com; cansignhttpexchanges=yes"
+  - 0 issue "pki.goog; cansignhttpexchanges=yes"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
   domain: grin.co
   spf: true
 hosts:
-- cert_expires: Aug 29 23:45:04 2026 GMT
+- cert_expires: Oct 21 22:53:42 2026 GMT
   host: grin.co
   hsts: false
   https: true
@@ -37,7 +37,7 @@ slug: grin-domain-security
 source_filename: grin-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: grin.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 23:45:04 2026 GMT\n  hsts: false\n- host: api.grin.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 16:45:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: grin.co\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: grin.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 22:53:42 2026 GMT\n  hsts: false\n- host: api.grin.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 16:45:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: grin.co\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"awstrust.com\"\n  - 0 issue \"starfieldtech.com\"\n  - 0 issuewild \"starfieldtech.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grin/refs/heads/main/security/grin-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

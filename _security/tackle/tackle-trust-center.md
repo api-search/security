@@ -152,22 +152,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/openapi/tackle-webhooks-api-openapi.yml
 certifications:
 - SOC 2 Type II
+- SOC 3
 - GDPR
 description: ''
 kind: trust-center
 layout: security
 name: Tackle Trust Center
 name_suffix: Trust Center
-overview: Tackle maintains a public trust center documenting SOC 2 Type II and GDPR compliance.
+overview: Tackle maintains a public trust center documenting SOC 2 Type II, SOC 3, and GDPR compliance.
 provider_name: Tackle
 provider_slug: tackle
 slug: tackle-trust-center
 source_filename: tackle-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nurl: https://trust.tackle.io/\nplatform: SafeBase (continuous monitoring via Drata)\ncertifications:\n  - SOC 2 Type II\n  - GDPR\nsubprocessors_published: true\nevidence:\n  - {source: https://trust.tackle.io/, keywords: [soc 2 type ii, gdpr, drata, safebase, subprocessor]}\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://trust.tackle.io/\nurl: https://trust.tackle.io/\nplatform: SafeBase (continuous monitoring via Drata)\ncertifications:\n- SOC 2 Type II\n- SOC 3\n- GDPR\nattestations_and_badges:\n- AWS Qualified Software\n- Salesforce AppExchange Approved (SFDC AppExchange Partner)\ndocuments_published:\n- {name: Security Whitepaper, category: reports, access: public}\n- {name: SOC 2 report, category: compliance, access: gated}\n- {name: SOC 3 report, category: compliance, access: gated}\n- {name: Data Processing Agreement, category: legal, access: public}\n- {name: Vulnerability Management Policy, category: policies, access: gated}\n- {name: Pentest Report, category: reports, access: gated}\n- {name: Data Flow Diagram (DFD), category: reports, access: gated}\n- {name: Subprocessors, category: legal, access: public, url: 'https://go.tackle.io/tackle-subprocessors'}\n- {name: Cyber Insurance, category: legal, access: gated}\n\
+  - {name: CAIQ Lite, category: self-assessment, access: gated}\n- {name: SIG Lite, category: self-assessment, access: gated}\nsubprocessors_published: true\nsecurity_grades_published:\n- SecurityScorecard (Tackle GTM Platform)\n- CryptCheck (Tackle GTM Platform Service API)\n- Qualys SSL Labs (Tackle GTM Platform, Tackle GTM Platform CDN)\nrisk_profile:\n  data_access_level: Internal\n  hosting: Amazon Web Services\n  recovery_time_objective: 4 hours\nai_posture_published: true\nai_posture_note: >-\n  The trust center carries an AI section — AI Overview, AI Training Data and Bias, AI Security —\n  which is still uncommon for a GTM platform and is the surface an agent-integration reviewer\n  would read first.\nrecent_updates:\n- {date: '2025-09-30', title: SOC 2 Type II Re-Attestation has been completed, category: compliance}\n- {date: '2025-08-27', title: Tackle.io Security White Paper published, category: general}\n- {date: '2025-09-05', title: 'Salesloft Drift security incident — Salesloft\
+  \ connectivity disabled; no indication of Tackle data compromise', category: incidents}\ndisclosure_ref: security/tackle-vulnerability-disclosure.yml\nevidence:\n- source: https://trust.tackle.io/\n  status: 200\n  keywords: [soc 2, soc 3, soc 2 type ii, gdpr, dpa, safebase, drata, subprocessors, pentest report, caiq lite, sig lite, responsible disclosure]\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/security/tackle-trust-center.yml
-summary_line: SOC 2 Type II, GDPR
+summary_line: SOC 2 Type II, SOC 3, GDPR
 tags:
 - Company
 - Cloud Marketplace

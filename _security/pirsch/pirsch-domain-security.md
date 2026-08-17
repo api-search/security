@@ -99,7 +99,7 @@ domains:
   domain: pirsch.io
   spf: true
 hosts:
-- cert_expires: Sep 22 05:21:59 2026 GMT
+- cert_expires: Sep 21 21:22:28 2026 GMT
   host: pirsch.io
   hsts: false
   https: true
@@ -126,7 +126,7 @@ slug: pirsch-domain-security
 source_filename: pirsch-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pirsch.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 05:21:59 2026 GMT\n  hsts: false\n- host: docs.pirsch.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 02:52:28 2026 GMT\n  hsts: false\n- host: api.pirsch.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 03:11:56 2026 GMT\n  hsts: null\ndomains:\n- domain: pirsch.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pirsch.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 21:22:28 2026 GMT\n  hsts: false\n- host: docs.pirsch.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 02:52:28 2026 GMT\n  hsts: false\n- host: api.pirsch.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 03:11:56 2026 GMT\n  hsts: null\ndomains:\n- domain: pirsch.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/security/pirsch-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

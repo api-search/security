@@ -384,6 +384,30 @@ api_specs:
   slug: marketo-variables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-variables-api-openapi.yml
+- filename: marketo-lead-database-openapi-original.json
+  format: json
+  label: Marketo Engage Lead Database API
+  slug: marketo-lead-database-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-lead-database-openapi-original.json
+- filename: marketo-user-management-openapi-original.json
+  format: json
+  label: Marketo Engage User Management API
+  slug: marketo-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-user-management-openapi-original.json
+- filename: marketo-identity-openapi-original.json
+  format: json
+  label: Marketo Engage Identity API
+  slug: marketo-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-identity-openapi-original.json
+- filename: marketo-data-ingestion-openapi-original.json
+  format: json
+  label: Marketo Data Ingestion API
+  slug: marketo-data-ingestion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-data-ingestion-openapi-original.json
 description: ''
 domains:
 - caa: []
@@ -431,4 +455,10 @@ tags:
 - Automation
 - Marketing
 - Marketing Automation
+- Email Marketing
+- Lead Management
+- Campaign Management
+- CRM
+- Customer Engagement
+- B2B
 ---

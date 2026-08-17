@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: clay-com-public-api-openapi.json
+  format: json
+  label: Clay Public API
+  slug: public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/openapi/clay-com-public-api-openapi.json
 description: ''
 domains:
 - caa: []
@@ -13,7 +20,7 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 15 21:12:16 2026 GMT
+- cert_expires: Oct 13 22:43:28 2026 GMT
   host: university.clay.com
   hsts: false
   https: true
@@ -36,7 +43,7 @@ slug: clay-com-domain-security
 source_filename: clay-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.clay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 14 23:59:59 2027 GMT\n  hsts: false\n- host: university.clay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 21:12:16 2026 GMT\n  hsts: false\n- host: app.clay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: clay.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.clay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 14 23:59:59 2027 GMT\n  hsts: false\n- host: university.clay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 22:43:28 2026 GMT\n  hsts: false\n- host: app.clay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: clay.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/security/clay-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

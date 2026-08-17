@@ -38,13 +38,13 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 30 23:43:14 2026 GMT
-  host: app.getkoala.com
+- cert_expires: Oct 29 00:26:32 2026 GMT
+  host: api2.getkoala.com
   hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 30 23:43:14 2026 GMT
-  host: api2.getkoala.com
+- cert_expires: Oct 29 00:26:32 2026 GMT
+  host: app.getkoala.com
   hsts: null
   https: true
   tls_version: TLSv1.3
@@ -60,7 +60,7 @@ slug: koala-io-domain-security
 source_filename: koala-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: getkoala.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 16:00:11 2026 GMT\n  hsts: false\n- host: app.getkoala.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 23:43:14 2026 GMT\n  hsts: null\n- host: api2.getkoala.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 23:43:14 2026 GMT\n  hsts: null\ndomains:\n- domain: getkoala.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: getkoala.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 16:00:11 2026 GMT\n  hsts: false\n- host: api2.getkoala.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 00:26:32 2026 GMT\n  hsts: null\n- host: app.getkoala.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 00:26:32 2026 GMT\n  hsts: null\ndomains:\n- domain: getkoala.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/security/koala-io-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:

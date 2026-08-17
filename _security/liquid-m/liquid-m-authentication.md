@@ -51,14 +51,17 @@ schemes:
   name: authToken
   parameter: auth_token
   sources:
-  - openapi/liquid-m-management-openapi.yml
-  - openapi/liquid-m-reporting-openapi.yml
+  - openapi/liquid-m-ads-api-openapi.yml
+  - openapi/liquid-m-authentication-api-openapi.yml
+  - openapi/liquid-m-budgets-api-openapi.yml
+  - openapi/liquid-m-campaigns-api-openapi.yml
+  - openapi/liquid-m-reporting-api-openapi.yml
   type: apiKey
 slug: liquid-m-authentication
 source_filename: liquid-m-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/liquid-m-management-openapi.yml, openapi/liquid-m-reporting-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: authToken\n  type: apiKey\n  in: query\n  parameter: auth_token\n  description: AUTH_TOKEN passed as a query parameter on every request, including POSTs.\n  sources:\n  - openapi/liquid-m-management-openapi.yml\n  - openapi/liquid-m-reporting-openapi.yml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/liquid-m-ads-api-openapi.yml, openapi/liquid-m-authentication-api-openapi.yml,\n  openapi/liquid-m-budgets-api-openapi.yml, openapi/liquid-m-campaigns-api-openapi.yml, openapi/liquid-m-reporting-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: authToken\n  type: apiKey\n  in: query\n  parameter: auth_token\n  description: AUTH_TOKEN passed as a query parameter on every request, including POSTs.\n  sources:\n  - openapi/liquid-m-ads-api-openapi.yml\n  - openapi/liquid-m-authentication-api-openapi.yml\n  - openapi/liquid-m-budgets-api-openapi.yml\n  - openapi/liquid-m-campaigns-api-openapi.yml\n  - openapi/liquid-m-reporting-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/authentication/liquid-m-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

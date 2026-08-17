@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: decisionlink-value-proposition-openapi.yml
+  format: yaml
+  label: Xfactor.io Value Proposition API
+  slug: xfactorio-value-proposition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/openapi/decisionlink-value-proposition-openapi.yml
+- filename: decisionlink-value-facts-openapi.yml
+  format: yaml
+  label: Xfactor.io Value Facts API
+  slug: xfactorio-value-facts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/openapi/decisionlink-value-facts-openapi.yml
+- filename: decisionlink-value-chat-openapi.yml
+  format: yaml
+  label: Xfactor.io Value Chat API
+  slug: xfactorio-value-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/openapi/decisionlink-value-chat-openapi.yml
+- filename: decisionlink-collaboration-openapi.yml
+  format: yaml
+  label: Xfactor.io Collaboration Manager API
+  slug: xfactorio-collaboration-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/openapi/decisionlink-collaboration-openapi.yml
 certifications:
 - SOC 2 Type II
 description: ''
@@ -26,5 +51,7 @@ tags:
 - Go To Market
 - Sales
 - Analytics
+- Value Selling
+- Forecasting
 trust_url: https://app.secureframe.com/ext/trust-center/xfactor-io/
 ---

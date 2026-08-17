@@ -210,11 +210,40 @@ api_specs:
   slug: supaglue-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-users-api-openapi.yml
+- filename: supaglue-actions-api-openapi.yml
+  format: yaml
+  label: Supaglue Actions API
+  slug: supaglue-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-actions-api-openapi.yml
+- filename: supaglue-data-api-openapi.yml
+  format: yaml
+  label: Supaglue Data Listing API
+  slug: supaglue-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-data-api-openapi.yml
+- filename: supaglue-enrichment-api-openapi.yml
+  format: yaml
+  label: Supaglue Unified Enrichment API
+  slug: supaglue-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-enrichment-api-openapi.yml
+- filename: supaglue-marketing-automation-api-openapi.yml
+  format: yaml
+  label: Supaglue Unified Marketing Automation API
+  slug: supaglue-marketing-automation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-marketing-automation-api-openapi.yml
+- filename: supaglue-metadata-api-openapi.yml
+  format: yaml
+  label: Supaglue Metadata API
+  slug: supaglue-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-metadata-api-openapi.yml
 description: ''
 domains:
 - caa: []
-  dmarc: true
-  dmarc_policy: none
+  dmarc: false
   dnssec: false
   domain: supaglue.com
   spf: true
@@ -224,12 +253,14 @@ domains:
   domain: supaglue.io
   spf: false
 hosts:
-- host: www.supaglue.com
-  https: false
-- cert_expires: Sep 15 16:21:21 2026 GMT
+- cert_expires: Oct 12 00:28:44 2026 GMT
+  host: www.supaglue.com
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Oct 12 00:28:44 2026 GMT
   host: docs.supaglue.com
-  hsts: true
-  hsts_max_age: 63072000
+  hsts: null
   https: true
   tls_version: TLSv1.3
 - host: api.supaglue.io
@@ -239,16 +270,17 @@ layout: security
 method: probed
 name: Supaglue Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Supaglue, probed live across 3 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+overview: 'Domain security posture for Supaglue, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: Supaglue
 provider_slug: supaglue
 slug: supaglue-domain-security
 source_filename: supaglue-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.supaglue.com\n  https: false\n- host: docs.supaglue.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 16:21:21 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.supaglue.io\n  https: false\ndomains:\n- domain: supaglue.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: supaglue.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.supaglue.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 00:28:44 2026 GMT\n  hsts: null\n- host: docs.supaglue.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 00:28:44 2026 GMT\n  hsts: null\n- host: api.supaglue.io\n  https: false\ndomains:\n- domain: supaglue.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: supaglue.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\nnote: 'Read these results with the ownership caveat: supaglue.com and its subdomains no longer belong\n  to Supaglue — they resolve to a HugeDomains parking page offering the domain for sale, so the TLS certificate,\n  the absent HSTS and the SPF record measured here are the parking host''s posture, not the provider''s.\n  supaglue.io 301s off-domain to an unrelated third-party site. api.supaglue.io, the host every OpenAPI\n\
+  \  servers[] block names, does not resolve at all (https: false below is NXDOMAIN, not a misconfiguration).\n  Probed 2026-08-13.'\nownership:\n  supaglue.com: parked at HugeDomains (domain listed for sale)\n  supaglue.io: 301 redirect to an unrelated third-party site\n  api.supaglue.io: NXDOMAIN\n  app.supaglue.io: NXDOMAIN\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/security/supaglue-domain-security.yml
-summary_line: TLSv1.3 · HSTS · DMARC
+summary_line: TLSv1.3
 tags:
 - CRM
 - HRIS
@@ -256,4 +288,10 @@ tags:
 - Open Source
 - Integrations
 - Sales Engagement
+- Ticketing
+- Data Synchronization
+- Marketing Automation
+- Enrichment
+- Webhooks
+- Archived
 ---

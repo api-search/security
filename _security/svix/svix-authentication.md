@@ -139,13 +139,33 @@ schemes:
   name: HTTPBearer
   scheme: bearer
   sources:
-  - openapi/svix-openapi.json
+  - openapi/svix-application-api-openapi.yml
+  - openapi/svix-authentication-api-openapi.yml
+  - openapi/svix-background-task-api-openapi.yml
+  - openapi/svix-connector-api-openapi.yml
+  - openapi/svix-endpoint-api-openapi.yml
+  - openapi/svix-environment-api-openapi.yml
+  - openapi/svix-event-api-openapi.yml
+  - openapi/svix-event-type-api-openapi.yml
+  - openapi/svix-health-api-openapi.yml
+  - openapi/svix-ingest-endpoint-api-openapi.yml
+  - openapi/svix-ingest-source-api-openapi.yml
+  - openapi/svix-integration-api-openapi.yml
+  - openapi/svix-message-api-openapi.yml
+  - openapi/svix-message-attempt-api-openapi.yml
+  - openapi/svix-sink-api-openapi.yml
+  - openapi/svix-statistics-api-openapi.yml
+  - openapi/svix-stream-api-openapi.yml
+  - openapi/svix-stream-authentication-api-openapi.yml
+  - openapi/svix-stream-event-type-api-openapi.yml
+  - openapi/svix-webhook-endpoint-api-openapi.yml
   type: http
 slug: svix-authentication
 source_filename: svix-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/svix-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: HTTPBearer\n  type: http\n  scheme: bearer\n  description: HTTP Bearer token passed in the `Authorization` header\n  sources:\n  - openapi/svix-openapi.json\n"
+source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/svix-application-api-openapi.yml, openapi/svix-authentication-api-openapi.yml,\n  openapi/svix-background-task-api-openapi.yml, openapi/svix-connector-api-openapi.yml, openapi/svix-endpoint-api-openapi.yml,\n  openapi/svix-environment-api-openapi.yml, openapi/svix-event-api-openapi.yml, openapi/svix-event-type-api-openapi.yml,\n  openapi/svix-health-api-openapi.yml, openapi/svix-ingest-endpoint-api-openapi.yml, openapi/svix-ingest-source-api-openapi.yml,\n  openapi/svix-integration-api-openapi.yml ...\nsummary:\n  types:\n  - http\nschemes:\n- name: HTTPBearer\n  type: http\n  scheme: bearer\n  description: HTTP Bearer token passed in the `Authorization` header\n  sources:\n  - openapi/svix-application-api-openapi.yml\n  - openapi/svix-authentication-api-openapi.yml\n  - openapi/svix-background-task-api-openapi.yml\n  - openapi/svix-connector-api-openapi.yml\n  - openapi/svix-endpoint-api-openapi.yml\n  - openapi/svix-environment-api-openapi.yml\n\
+  \  - openapi/svix-event-api-openapi.yml\n  - openapi/svix-event-type-api-openapi.yml\n  - openapi/svix-health-api-openapi.yml\n  - openapi/svix-ingest-endpoint-api-openapi.yml\n  - openapi/svix-ingest-source-api-openapi.yml\n  - openapi/svix-integration-api-openapi.yml\n  - openapi/svix-message-api-openapi.yml\n  - openapi/svix-message-attempt-api-openapi.yml\n  - openapi/svix-sink-api-openapi.yml\n  - openapi/svix-statistics-api-openapi.yml\n  - openapi/svix-stream-api-openapi.yml\n  - openapi/svix-stream-authentication-api-openapi.yml\n  - openapi/svix-stream-event-type-api-openapi.yml\n  - openapi/svix-webhook-endpoint-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/authentication/svix-authentication.yml
 summary_line: http · 1 scheme
 tags:

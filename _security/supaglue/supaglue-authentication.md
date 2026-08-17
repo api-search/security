@@ -212,12 +212,42 @@ api_specs:
   slug: supaglue-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-users-api-openapi.yml
+- filename: supaglue-actions-api-openapi.yml
+  format: yaml
+  label: Supaglue Actions API
+  slug: supaglue-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-actions-api-openapi.yml
+- filename: supaglue-data-api-openapi.yml
+  format: yaml
+  label: Supaglue Data Listing API
+  slug: supaglue-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-data-api-openapi.yml
+- filename: supaglue-enrichment-api-openapi.yml
+  format: yaml
+  label: Supaglue Unified Enrichment API
+  slug: supaglue-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-enrichment-api-openapi.yml
+- filename: supaglue-marketing-automation-api-openapi.yml
+  format: yaml
+  label: Supaglue Unified Marketing Automation API
+  slug: supaglue-marketing-automation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-marketing-automation-api-openapi.yml
+- filename: supaglue-metadata-api-openapi.yml
+  format: yaml
+  label: Supaglue Metadata API
+  slug: supaglue-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-metadata-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Supaglue Authentication
 name_suffix: Authentication
 oauth_flows: []
@@ -231,16 +261,56 @@ schemes:
   name: x-api-key
   parameter: x-api-key
   sources:
-  - openapi/supaglue-crm-api-openapi.yml
-  - openapi/supaglue-engagement-api-openapi.yml
-  - openapi/supaglue-management-api-openapi.yml
-  - openapi/supaglue-ticketing-api-openapi.yml
+  - openapi/supaglue-accounts-api-openapi.yml
+  - openapi/supaglue-actions-api-openapi.yml
+  - openapi/supaglue-associations-api-openapi.yml
+  - openapi/supaglue-associationschemas-api-openapi.yml
+  - openapi/supaglue-attachments-api-openapi.yml
+  - openapi/supaglue-collections-api-openapi.yml
+  - openapi/supaglue-comments-api-openapi.yml
+  - openapi/supaglue-connections-api-openapi.yml
+  - openapi/supaglue-connectionsyncconfigs-api-openapi.yml
+  - openapi/supaglue-contacts-api-openapi.yml
+  - openapi/supaglue-customers-api-openapi.yml
+  - openapi/supaglue-customobjects-api-openapi.yml
+  - openapi/supaglue-customobjectschemas-api-openapi.yml
+  - openapi/supaglue-data-api-openapi.yml
+  - openapi/supaglue-destinations-api-openapi.yml
+  - openapi/supaglue-enrichment-api-openapi.yml
+  - openapi/supaglue-entities-api-openapi.yml
+  - openapi/supaglue-entitymappings-api-openapi.yml
+  - openapi/supaglue-leads-api-openapi.yml
+  - openapi/supaglue-lists-api-openapi.yml
+  - openapi/supaglue-magic-links-api-openapi.yml
+  - openapi/supaglue-mailboxes-api-openapi.yml
+  - openapi/supaglue-marketing-automation-api-openapi.yml
+  - openapi/supaglue-metadata-api-openapi.yml
+  - openapi/supaglue-opportunities-api-openapi.yml
+  - openapi/supaglue-properties-api-openapi.yml
+  - openapi/supaglue-providers-api-openapi.yml
+  - openapi/supaglue-schemamappings-api-openapi.yml
+  - openapi/supaglue-schemas-api-openapi.yml
+  - openapi/supaglue-sequence-states-api-openapi.yml
+  - openapi/supaglue-sequences-api-openapi.yml
+  - openapi/supaglue-standardobjects-api-openapi.yml
+  - openapi/supaglue-standardobjectschemas-api-openapi.yml
+  - openapi/supaglue-syncconfigs-api-openapi.yml
+  - openapi/supaglue-syncruns-api-openapi.yml
+  - openapi/supaglue-syncs-api-openapi.yml
+  - openapi/supaglue-tags-api-openapi.yml
+  - openapi/supaglue-teams-api-openapi.yml
+  - openapi/supaglue-tickets-api-openapi.yml
+  - openapi/supaglue-users-api-openapi.yml
   type: apiKey
 slug: supaglue-authentication
 source_filename: supaglue-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/supaglue-crm-api-openapi.yml, openapi/supaglue-engagement-api-openapi.yml, openapi/supaglue-management-api-openapi.yml,\n  openapi/supaglue-ticketing-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: x-api-key\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: API key to allow developers to access the API\n  sources:\n  - openapi/supaglue-crm-api-openapi.yml\n  - openapi/supaglue-engagement-api-openapi.yml\n  - openapi/supaglue-management-api-openapi.yml\n  - openapi/supaglue-ticketing-api-openapi.yml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/supaglue-accounts-api-openapi.yml, openapi/supaglue-actions-api-openapi.yml, openapi/supaglue-associations-api-openapi.yml,\n  openapi/supaglue-associationschemas-api-openapi.yml, openapi/supaglue-attachments-api-openapi.yml, openapi/supaglue-collections-api-openapi.yml,\n  openapi/supaglue-comments-api-openapi.yml, openapi/supaglue-connections-api-openapi.yml, openapi/supaglue-connectionsyncconfigs-api-openapi.yml,\n  openapi/supaglue-contacts-api-openapi.yml, openapi/supaglue-customers-api-openapi.yml, openapi/supaglue-customobjects-api-openapi.yml\n  ...\ndocs:\n- https://github.com/supaglue-labs/supaglue/blob/main/docs/docs/api/introduction.mdx\n- https://github.com/supaglue-labs/supaglue/blob/main/docs/docs/platform/managed-auth.mdx\nnote: 'Supaglue''s own API is single-factor API-key auth and nothing else: one `x-api-key` header, application-scoped,\n  issued in the Management Portal under Settings -> API Keys,\
+  \ displayed once at generation, and invalidated\n  the moment it is regenerated. There are no scopes, no bearer tokens, no OAuth and no OIDC on Supaglue''s\n  own surface, which is why no scopes/ artifact is emitted. The OAuth 2.0 that Supaglue is known for is\n  MANAGED auth pointed the other way — Supaglue running the authorization-code flow against Salesforce,\n  HubSpot, Outreach and 30+ other providers on the customer''s behalf, and holding the refresh tokens.\n  Two more headers are effectively part of authorization on every unified call: x-customer-id and x-provider-name\n  select whose stored credential is used. Keys can no longer be issued: app.supaglue.io does not resolve.'\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: x-api-key\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: API key to allow developers to access the API\n  sources:\n  - openapi/supaglue-accounts-api-openapi.yml\n  - openapi/supaglue-actions-api-openapi.yml\n\
+  \  - openapi/supaglue-associations-api-openapi.yml\n  - openapi/supaglue-associationschemas-api-openapi.yml\n  - openapi/supaglue-attachments-api-openapi.yml\n  - openapi/supaglue-collections-api-openapi.yml\n  - openapi/supaglue-comments-api-openapi.yml\n  - openapi/supaglue-connections-api-openapi.yml\n  - openapi/supaglue-connectionsyncconfigs-api-openapi.yml\n  - openapi/supaglue-contacts-api-openapi.yml\n  - openapi/supaglue-customers-api-openapi.yml\n  - openapi/supaglue-customobjects-api-openapi.yml\n  - openapi/supaglue-customobjectschemas-api-openapi.yml\n  - openapi/supaglue-data-api-openapi.yml\n  - openapi/supaglue-destinations-api-openapi.yml\n  - openapi/supaglue-enrichment-api-openapi.yml\n  - openapi/supaglue-entities-api-openapi.yml\n  - openapi/supaglue-entitymappings-api-openapi.yml\n  - openapi/supaglue-leads-api-openapi.yml\n  - openapi/supaglue-lists-api-openapi.yml\n  - openapi/supaglue-magic-links-api-openapi.yml\n  - openapi/supaglue-mailboxes-api-openapi.yml\n\
+  \  - openapi/supaglue-marketing-automation-api-openapi.yml\n  - openapi/supaglue-metadata-api-openapi.yml\n  - openapi/supaglue-opportunities-api-openapi.yml\n  - openapi/supaglue-properties-api-openapi.yml\n  - openapi/supaglue-providers-api-openapi.yml\n  - openapi/supaglue-schemamappings-api-openapi.yml\n  - openapi/supaglue-schemas-api-openapi.yml\n  - openapi/supaglue-sequence-states-api-openapi.yml\n  - openapi/supaglue-sequences-api-openapi.yml\n  - openapi/supaglue-standardobjects-api-openapi.yml\n  - openapi/supaglue-standardobjectschemas-api-openapi.yml\n  - openapi/supaglue-syncconfigs-api-openapi.yml\n  - openapi/supaglue-syncruns-api-openapi.yml\n  - openapi/supaglue-syncs-api-openapi.yml\n  - openapi/supaglue-tags-api-openapi.yml\n  - openapi/supaglue-teams-api-openapi.yml\n  - openapi/supaglue-tickets-api-openapi.yml\n  - openapi/supaglue-users-api-openapi.yml\nkey_management:\n  issued_in: Management Portal -> Settings -> API Keys (https://app.supaglue.io)\n  issuer_status:\
+  \ NXDOMAIN (probed 2026-08-13)\n  display: shown once at generation\n  rotation: regenerating a key immediately invalidates the previous one\n  scope: application-wide; no per-scope or per-resource restriction\nmanaged_auth:\n  direction: Supaglue -> third-party provider (not to Supaglue itself)\n  methods:\n  - oauth2 (authorization code)\n  - api key\n  - access key\n  entry_point: https://api.supaglue.io/oauth/connect\n  token_custody: Supaglue stores and refreshes provider access/refresh tokens\n  docs: https://github.com/supaglue-labs/supaglue/blob/main/docs/docs/platform/managed-auth.mdx\nrequest_routing_headers:\n- name: x-customer-id\n  required: true\n  description: Selects the customer whose stored connection is used.\n- name: x-provider-name\n  required: true\n  description: Selects which third-party provider credential is used.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/authentication/supaglue-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
@@ -250,4 +320,10 @@ tags:
 - Open Source
 - Integrations
 - Sales Engagement
+- Ticketing
+- Data Synchronization
+- Marketing Automation
+- Enrichment
+- Webhooks
+- Archived
 ---

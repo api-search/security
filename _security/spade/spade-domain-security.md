@@ -57,18 +57,19 @@ domains:
   domain: spade.com
   spf: true
 hosts:
-- cert_expires: Jan  2 23:59:59 2027 GMT
-  host: east.sandbox.spade.com
-  hsts: null
+- cert_expires: Oct 24 17:13:42 2026 GMT
+  host: docs.spade.com
+  hsts: true
+  hsts_max_age: 63072000
   https: true
-  tls_version: TLSv1.2
+  tls_version: TLSv1.3
 - cert_expires: Jan  2 23:59:59 2027 GMT
   host: east.api.spade.com
   hsts: null
   https: true
   tls_version: TLSv1.2
-- cert_expires: Jan  6 23:59:59 2027 GMT
-  host: west.sandbox.spade.com
+- cert_expires: Jan  2 23:59:59 2027 GMT
+  host: east.sandbox.spade.com
   hsts: null
   https: true
   tls_version: TLSv1.2
@@ -77,16 +78,16 @@ layout: security
 method: probed
 name: Spade Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Spade, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Spade, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Spade
 provider_slug: spade
 slug: spade-domain-security
 source_filename: spade-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: east.sandbox.spade.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  2 23:59:59 2027 GMT\n  hsts: null\n- host: east.api.spade.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  2 23:59:59 2027 GMT\n  hsts: null\n- host: west.sandbox.spade.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: spade.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.spade.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 17:13:42 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: east.api.spade.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  2 23:59:59 2027 GMT\n  hsts: null\n- host: east.sandbox.spade.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  2 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: spade.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/security/spade-domain-security.yml
-summary_line: TLSv1.2 · DMARC
+summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Financial Services

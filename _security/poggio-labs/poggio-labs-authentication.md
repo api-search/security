@@ -1,5 +1,12 @@
 ---
 api_key_in: []
+api_specs:
+- filename: poggio-labs-goalkeeper-openapi.json
+  format: json
+  label: Goalkeeper API
+  slug: goalkeeper-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-goalkeeper-openapi.json
 auth_types:
 - oauth2
 - http
@@ -62,4 +69,8 @@ tags:
 - MCP
 - AI Agents
 - Enterprise
+- Open Source
+- Goals
+- Gong
+- Slack
 ---

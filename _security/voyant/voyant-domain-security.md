@@ -6,6 +6,12 @@ api_specs:
   slug: voyantio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/voyant/refs/heads/main/openapi/voyant-openapi-original.json
+- filename: voyant-gypsum-openapi.json
+  format: json
+  label: Gypsum Context API
+  slug: gypsum-context-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voyant/refs/heads/main/openapi/voyant-gypsum-openapi.json
 description: ''
 domains:
 - caa: []

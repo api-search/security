@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-access-api-openapi.yml
 - filename: revcontent-boosts-api-openapi.yml
   format: yaml
-  label: RevContent Boosts API
+  label: RevContent Campaigns (Boosts) API
   slug: revcontent-boosts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-boosts-api-openapi.yml
@@ -24,18 +24,48 @@ api_specs:
   slug: revcontent-content-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-content-api-openapi.yml
+- filename: revcontent-conversions-api-openapi.yml
+  format: yaml
+  label: RevContent Conversions API
+  slug: revcontent-conversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-conversions-api-openapi.yml
 - filename: revcontent-helpers-api-openapi.yml
   format: yaml
   label: RevContent Helpers API
   slug: revcontent-helpers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-helpers-api-openapi.yml
+- filename: revcontent-sub-accounts-api-openapi.yml
+  format: yaml
+  label: RevContent Sub Accounts API
+  slug: revcontent-sub-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-sub-accounts-api-openapi.yml
 - filename: revcontent-targeting-api-openapi.yml
   format: yaml
   label: RevContent Targeting API
   slug: revcontent-targeting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-targeting-api-openapi.yml
+- filename: revcontent-widgets-api-openapi.yml
+  format: yaml
+  label: RevContent Widgets API
+  slug: revcontent-widgets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-widgets-api-openapi.yml
+- filename: revcontent-widget-internal-content-api-openapi.yml
+  format: yaml
+  label: RevContent Widget Internal Content API
+  slug: revcontent-widget-internal-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-widget-internal-content-api-openapi.yml
+- filename: revcontent-widget-optimizer-api-openapi.yml
+  format: yaml
+  label: RevContent Widget Optimizer API
+  slug: revcontent-widget-optimizer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-widget-optimizer-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -78,7 +108,7 @@ slug: revcontent-domain-security
 source_filename: revcontent-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.revcontent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 13:55:39 2026 GMT\n  hsts: false\n- host: help.revcontent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 07:43:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.revcontent.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 13:55:39 2026 GMT\n  hsts: false\ndomains:\n- domain: revcontent.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: revcontent.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.revcontent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 13:55:39 2026 GMT\n  hsts: false\n- host: help.revcontent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 07:43:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.revcontent.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 13:55:39 2026 GMT\n  hsts: false\ndomains:\n- domain: revcontent.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: revcontent.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/security/revcontent-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -87,4 +117,9 @@ tags:
 - Ad Network
 - Publisher Monetization
 - Programmatic Advertising
+- Advertising Technology
+- Campaign Management
+- Audience Targeting
+- Conversion Tracking
+- Marketing
 ---

@@ -74,6 +74,54 @@ api_specs:
   slug: adobe-analytics-server-call-estimate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-server-call-estimate-api-openapi.yml
+- filename: adobe-analytics-classification-api-openapi.json
+  format: json
+  label: Adobe Analytics Classification API
+  slug: adobe-analytics-classification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/_original/adobe-analytics-classification-api-openapi.json
+- filename: adobe-analytics-data-feeds-api-openapi.json
+  format: json
+  label: Adobe Analytics Data Feed API
+  slug: adobe-analytics-data-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/_original/adobe-analytics-data-feeds-api-openapi.json
+- filename: adobe-analytics-data-warehouse-api-openapi.json
+  format: json
+  label: Adobe Analytics Data Warehouse API
+  slug: adobe-analytics-data-warehouse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/_original/adobe-analytics-data-warehouse-api-openapi.json
+- filename: adobe-analytics-data-sources-api-openapi.json
+  format: json
+  label: Adobe Analytics Data Sources API
+  slug: adobe-analytics-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/_original/adobe-analytics-data-sources-api-openapi.json
+- filename: adobe-analytics-marketing-channels-api-openapi.json
+  format: json
+  label: Adobe Analytics Marketing Channels API
+  slug: adobe-analytics-marketing-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/_original/adobe-analytics-marketing-channels-api-openapi.json
+- filename: adobe-analytics-cloud-locations-api-openapi.json
+  format: json
+  label: Adobe Analytics Cloud Locations API
+  slug: adobe-analytics-cloud-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/_original/adobe-analytics-cloud-locations-api-openapi.json
+- filename: adobe-analytics-report-suites-admin-api-openapi.json
+  format: json
+  label: Adobe Analytics Report Suites Admin API
+  slug: adobe-analytics-report-suites-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/_original/adobe-analytics-report-suites-admin-api-openapi.json
+- filename: adobe-analytics-component-migration-api-openapi.json
+  format: json
+  label: Adobe Analytics Component Migration API
+  slug: adobe-analytics-component-migration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/_original/adobe-analytics-component-migration-api-openapi.json
 auth_types:
 - apiKey
 - http

@@ -381,7 +381,7 @@ slug: hubspot-domain-security
 source_filename: hubspot-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.hubspot.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 22:46:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.hubapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 21:10:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: hubspot.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: hubapi.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.hubspot.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 22:46:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.hubapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 21:10:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: hubspot.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: hubapi.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/security/hubspot-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

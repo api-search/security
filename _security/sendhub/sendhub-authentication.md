@@ -58,26 +58,42 @@ schemes:
   name: username
   parameter: username
   sources:
-  - openapi/sendhub-openapi-original.yml
+  - openapi/sendhub-authentication-api-openapi.yml
+  - openapi/sendhub-contact-api-openapi.yml
+  - openapi/sendhub-group-api-openapi.yml
+  - openapi/sendhub-message-api-openapi.yml
+  - openapi/sendhub-profile-api-openapi.yml
+  - openapi/sendhub-thread-api-openapi.yml
   type: apiKey
 - description: Your SendHub line's API key (can be found in your My Settings page)
   in: query
   name: api_key
   parameter: api_key
   sources:
-  - openapi/sendhub-openapi-original.yml
+  - openapi/sendhub-authentication-api-openapi.yml
+  - openapi/sendhub-contact-api-openapi.yml
+  - openapi/sendhub-group-api-openapi.yml
+  - openapi/sendhub-message-api-openapi.yml
+  - openapi/sendhub-profile-api-openapi.yml
+  - openapi/sendhub-thread-api-openapi.yml
   type: apiKey
 - description: Use your SendHub line's password or API key as the password with HTTP Basic Authentication (Your username and API key can be found in your My Settings page)
   name: basic_auth
   scheme: basic
   sources:
-  - openapi/sendhub-openapi-original.yml
+  - openapi/sendhub-authentication-api-openapi.yml
+  - openapi/sendhub-contact-api-openapi.yml
+  - openapi/sendhub-group-api-openapi.yml
+  - openapi/sendhub-message-api-openapi.yml
+  - openapi/sendhub-profile-api-openapi.yml
+  - openapi/sendhub-thread-api-openapi.yml
   type: http
 slug: sendhub-authentication
 source_filename: sendhub-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/sendhub-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: username\n  type: apiKey\n  in: query\n  parameter: username\n  description: Your SendHub line's username (can be found in your My Settings page)\n  sources:\n  - openapi/sendhub-openapi-original.yml\n- name: api_key\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: Your SendHub line's API key (can be found in your My Settings page)\n  sources:\n  - openapi/sendhub-openapi-original.yml\n- name: basic_auth\n  type: http\n  scheme: basic\n  description: Use your SendHub line's password or API key as the password with HTTP Basic Authentication\n    (Your username and API key can be found in your My Settings page)\n  sources:\n  - openapi/sendhub-openapi-original.yml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/sendhub-authentication-api-openapi.yml, openapi/sendhub-contact-api-openapi.yml,\n  openapi/sendhub-group-api-openapi.yml, openapi/sendhub-message-api-openapi.yml, openapi/sendhub-profile-api-openapi.yml,\n  openapi/sendhub-thread-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: username\n  type: apiKey\n  in: query\n  parameter: username\n  description: Your SendHub line's username (can be found in your My Settings page)\n  sources:\n  - openapi/sendhub-authentication-api-openapi.yml\n  - openapi/sendhub-contact-api-openapi.yml\n  - openapi/sendhub-group-api-openapi.yml\n  - openapi/sendhub-message-api-openapi.yml\n  - openapi/sendhub-profile-api-openapi.yml\n  - openapi/sendhub-thread-api-openapi.yml\n- name: api_key\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: Your SendHub line's API key (can be found in your My Settings page)\n  sources:\n\
+  \  - openapi/sendhub-authentication-api-openapi.yml\n  - openapi/sendhub-contact-api-openapi.yml\n  - openapi/sendhub-group-api-openapi.yml\n  - openapi/sendhub-message-api-openapi.yml\n  - openapi/sendhub-profile-api-openapi.yml\n  - openapi/sendhub-thread-api-openapi.yml\n- name: basic_auth\n  type: http\n  scheme: basic\n  description: Use your SendHub line's password or API key as the password with HTTP Basic Authentication\n    (Your username and API key can be found in your My Settings page)\n  sources:\n  - openapi/sendhub-authentication-api-openapi.yml\n  - openapi/sendhub-contact-api-openapi.yml\n  - openapi/sendhub-group-api-openapi.yml\n  - openapi/sendhub-message-api-openapi.yml\n  - openapi/sendhub-profile-api-openapi.yml\n  - openapi/sendhub-thread-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/authentication/sendhub-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:

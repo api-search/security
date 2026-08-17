@@ -73,23 +73,30 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/openapi/getaccept-videos-api-openapi.yml
 certifications:
-- SOC 2
+- SOC 2 Type II
 - GDPR
+- CCPA
+- eIDAS (EU Regulation No 910/2014)
+- ESIGN Act
+- UETA
+- Electronic Communications Act 2000
 description: ''
 kind: trust-center
 layout: security
 name: Getaccept Trust Center
 name_suffix: Trust Center
-overview: GetAccept maintains a public trust center documenting SOC 2 and GDPR compliance.
+overview: GetAccept maintains a public trust center documenting SOC 2 Type II, GDPR, CCPA, eIDAS (EU Regulation No 910/2014), ESIGN Act, UETA, and Electronic Communications Act 2000 compliance.
 provider_name: GetAccept
 provider_slug: getaccept
 slug: getaccept-trust-center
 source_filename: getaccept-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://www.getaccept.com/security\nurl: https://www.getaccept.com/security\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://www.getaccept.com/security\n  keywords:\n  - soc 2\n  - soc2\n  - gdpr\n"
+source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nsource: https://www.getaccept.com/security ; https://www.getaccept.com/pricing\nurl: https://www.getaccept.com/security\ntrust_portal: false\ntrust_portal_note: >-\n  GetAccept publishes a security marketing page, not a trust center. There is no Vanta/Drata/SafeBase-style\n  portal and no self-serve document room — the SOC 2 Type II report is available on request only.\ncertifications:\n- name: SOC 2 Type II\n  status: attested\n  evidence: >-\n    \"yearly rigorous audit conducted by a reputable certified third party auditor\"; report available on\n    request\n- name: GDPR\n  status: compliant\n  evidence: stated on the security page; DPA available\n- name: CCPA\n  status: compliant\n  evidence: named on the security page\n- name: eIDAS (EU Regulation No 910/2014)\n  status: compliant\n  evidence: \"GetAccept's eSignatures are compliant with eIDAS\"\n- name: ESIGN Act\n  status: compliant\n  evidence: US electronic signature\
+  \ law named on the security page\n- name: UETA\n  status: compliant\n  evidence: US electronic signature law named on the security page\n- name: Electronic Communications Act 2000\n  status: compliant\n  evidence: UK electronic signature law named on the security page\nnot_claimed:\n- ISO 27001\n- HIPAA\n- FedRAMP\n- PCI DSS\nencryption:\n  in_transit: ECDSA 256 (3072-bit-equivalent) TLS certificate\n  at_rest: AES-256\n  source: https://www.getaccept.com/security\ncontacts:\n  legal: legal@getaccept.com\n  general: hello@getaccept.com\ndocuments:\n  dpa: true\n  privacy_policy: https://www.getaccept.com/privacy-policy\n  soc2_report: on-request\nvulnerability_disclosure:\n  published: false\n  note: >-\n    No responsible-disclosure policy, security.txt, or bug bounty (HackerOne / Bugcrowd / Intigriti) was\n    found. /.well-known/security.txt 404s on www.getaccept.com and returns the login SPA shell on the\n    app/developer hosts — see well-known/getaccept-well-known.yml. No Security\
+  \ pointer is emitted.\nevidence:\n- url: https://www.getaccept.com/security\n  status: 200\n- url: https://www.getaccept.com/pricing\n  status: 200\n  note: plan page repeats GDPR / SOC 2 / eIDAS as the security posture\n- url: https://www.getaccept.com/.well-known/security.txt\n  status: 404\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/security/getaccept-trust-center.yml
-summary_line: SOC 2, GDPR
+summary_line: SOC 2 Type II, GDPR, CCPA, eIDAS (EU Regulation No 910/2014), ESIGN Act, UETA, Electronic Communications Act 2000
 tags:
 - Company
 - Cloud

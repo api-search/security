@@ -15,7 +15,7 @@ domains:
   domain: fastenhealth.com
   spf: true
 hosts:
-- cert_expires: Sep  5 03:54:51 2026 GMT
+- cert_expires: Nov  4 11:08:19 2026 GMT
   host: www.fastenhealth.com
   hsts: false
   https: true
@@ -43,7 +43,7 @@ slug: fasten-health-domain-security
 source_filename: fasten-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fastenhealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 03:54:51 2026 GMT\n  hsts: false\n- host: docs.connect.fastenhealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 02:38:24 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.connect.fastenhealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 15 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: fastenhealth.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fastenhealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 11:08:19 2026 GMT\n  hsts: false\n- host: docs.connect.fastenhealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 02:38:24 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.connect.fastenhealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 15 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: fastenhealth.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fasten-health/refs/heads/main/security/fasten-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

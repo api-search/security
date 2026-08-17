@@ -91,6 +91,12 @@ api_specs:
   slug: valimail-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/valimail-webhooks-api-openapi.yml
+- filename: valimail-partner-openapi-original.yml
+  format: yaml
+  label: Valimail Partner API
+  slug: valimail-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/_original/valimail-partner-openapi-original.yml
 auth_types:
 - http
 description: ''

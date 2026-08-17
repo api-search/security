@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: observeai-reporting-apis-openapi.yml
+  format: yaml
+  label: Observe.AI Reporting APIs
+  slug: observeai-reporting-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/openapi/observeai-reporting-apis-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001
@@ -15,7 +22,7 @@ slug: observeai-trust-center
 source_filename: observeai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nsource: https://www.observe.ai/trust\nurl: https://www.observe.ai/trust\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\nevidence:\n- source: https://www.observe.ai/trust\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - trust center\n"
+source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nsource: https://www.observe.ai/trust\nurl: https://www.observe.ai/trust\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\nevidence:\n- source: https://www.observe.ai/trust\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - trust center\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/security/observeai-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA
 tags:
@@ -27,5 +34,8 @@ tags:
 - Agentic AI
 - Voice AI
 - Quality Assurance
+- Reporting
+- OpenAPI
+- Speech Analytics
 trust_url: https://www.observe.ai/trust
 ---

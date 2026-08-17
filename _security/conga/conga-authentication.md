@@ -1,5 +1,12 @@
 ---
 api_key_in: []
+api_specs:
+- filename: conga-administration.json
+  format: json
+  label: Conga Advantage Platform REST API
+  slug: conga-advantage-platform-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-administration.json
 auth_types:
 - oauth2
 description: 'Conga''s REST API requires an OAuth 2.0 bearer token. Machine-to-machine access uses the client_credentials grant with a client_id/client_secret issued to an Integration User or an API-to-API connection. The token is obtained from a region-specific Conga login endpoint and passed as an Authorization: Bearer header on subsequent API calls. When using the API-to-API flow, callers also send a `user-id` header carrying the platform user ID so the API can apply the correct permissions.'
@@ -69,4 +76,9 @@ tags:
 - E-Signature
 - Contract Intelligence
 - CRM
+- OpenAPI
+- MCP
+- GraphQL
+- Billing
+- Approvals
 ---

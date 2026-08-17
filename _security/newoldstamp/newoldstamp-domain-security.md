@@ -42,4 +42,5 @@ tags:
 - SaaS
 - Productivity
 - Website Visitor Identification
+- GraphQL
 ---

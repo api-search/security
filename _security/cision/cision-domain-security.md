@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yml
+- filename: cision-cisionone-openapi.yml
   format: yaml
   label: CisionOne API
   slug: cisionone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/openapi/cision-cisionone-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ slug: cision-domain-security
 source_filename: cision-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cision.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 07:33:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.cision.one\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 11:07:05 2026 GMT\n  hsts: null\ndomains:\n- domain: cision.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: cision.one\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cision.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 07:33:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.cision.one\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 11:07:05 2026 GMT\n  hsts: null\ndomains:\n- domain: cision.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: cision.one\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/security/cision-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

@@ -15,7 +15,8 @@ slug: brandai-trust-center
 source_filename: brandai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://brand.ai/security/\ntrust_center: https://trust.brand.ai/\ntrust_center_platform: Vanta\nsecurity_page: https://brand.ai/security/\ncertifications:\n- SOC 2 Type II\n- GDPR\n- CCPA\ncontrols:\n- Encryption in transit (TLS 1.3) and at rest (AES-256)\n- Semi-annual penetration testing (assume-breach methodology)\n- Zero trust access controls\n- Multi-region hosting (EU / US)\n- SSO integration\n- Audit logging and role-based access controls\n- BYOK (bring your own key) encryption option\n- No AI training on customer data\nevidence:\n- source: https://brand.ai/security/\n  keywords:\n  - soc 2 type ii\n  - gdpr\n  - ccpa\n- source: https://trust.brand.ai/\n  keywords:\n  - vanta trust center\n  - trust security compliance\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://brand.ai/security/\nurl: https://brand.ai/security/\ntrust_center: https://trust.brand.ai/\ntrust_center_platform: Vanta\nsecurity_page: https://brand.ai/security/\ncertifications:\n- SOC 2 Type II\n- GDPR\n- CCPA\ncontrols:\n- Encryption in transit (TLS 1.3) and at rest (AES-256)\n- Semi-annual penetration testing (assume-breach methodology)\n- Zero trust access controls\n- Multi-region hosting (EU / US)\n- SSO integration\n- Audit logging and role-based access controls\n- BYOK (bring your own key) encryption option\n- No AI training on customer data\nevidence:\n- source: https://brand.ai/security/\n  keywords:\n  - soc 2 type ii\n  - gdpr\n  - ccpa\n- source: https://trust.brand.ai/\n  keywords:\n  - vanta trust center\n  - trust security compliance\nnote: >-\n  Re-confirmed by probe on 2026-08-13 (the automated probe reads \"SOC 2\" and \"GDPR\"\n  from brand.ai/security; the fuller \"SOC 2 Type II\"\
+  \ / CCPA reading and the control\n  list are retained from the richer 2026-07-18 searched pass and were not downgraded).\n  Brand.ai publishes a compliance posture but NOT a vulnerability disclosure policy —\n  /.well-known/security.txt returns 404 on both brand.ai and app.brand.ai, and no\n  responsible-disclosure or bug-bounty page was found.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandai/refs/heads/main/security/brandai-trust-center.yml
 summary_line: SOC 2 Type II, GDPR, CCPA
 tags:
@@ -27,5 +28,8 @@ tags:
 - Brand Operating System
 - AI Agents
 - Design
-trust_url: ''
+- Model Context Protocol
+- Brand Governance
+- Brand Intelligence
+trust_url: https://brand.ai/security/
 ---

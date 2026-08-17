@@ -2,6 +2,12 @@
 api_key_in:
 - header
 api_specs:
+- filename: clari-copilot-api-openapi.yml
+  format: yaml
+  label: Clari Copilot API
+  slug: clari-copilot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-copilot-api-openapi.yml
 - filename: clari-activity-api-api-openapi.yml
   format: yaml
   label: Clari Activity API API
@@ -58,31 +64,53 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-opportunity-api-api-openapi.yml
 auth_types:
 - apiKey
-description: ''
+description: Clari runs three distinct authentication schemes across three surfaces. The Revenue API uses a single `apikey` header (plus a `partnerkey` header on partner/ingest endpoints). The Copilot REST API requires BOTH `X-Api-Key` and `X-Api-Password` — either alone returns 401. The MCP server uses OAuth 2.0 via Okta and is the only Clari surface with delegated authorization; see scopes/clari-scopes.yml.
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Clari Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Clari secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+overview: Clari secures its APIs with apiKey across 3 declared security schemes, as derived from its OpenAPI definitions.
 provider_name: Clari
 provider_slug: clari
-scheme_count: 1
+scheme_count: 3
 schemes:
 - in: header
   name: api_key
   parameter: apikey
   sources:
-  - openapi/clari-revenue-api-openapi.yml
+  - openapi/clari-activity-api-api-openapi.yml
+  - openapi/clari-administrative-api-api-openapi.yml
+  - openapi/clari-audit-api-api-openapi.yml
+  - openapi/clari-bulk-export-framework-api-openapi.yml
+  - openapi/clari-bulk-ingest-job-status-api-api-openapi.yml
+  - openapi/clari-export-api-openapi.yml
+  - openapi/clari-forecast-api-api-openapi.yml
+  - openapi/clari-ingestion-api-api-openapi.yml
+  - openapi/clari-opportunity-api-api-openapi.yml
+  type: apiKey
+- in: header
+  name: api_key
+  parameter: X-Api-Key
+  sources:
+  - openapi/clari-copilot-api-openapi.yml
+  type: apiKey
+- in: header
+  name: api_password
+  parameter: X-Api-Password
+  sources:
+  - openapi/clari-copilot-api-openapi.yml
   type: apiKey
 slug: clari-authentication
 source_filename: clari-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/clari-revenue-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: apikey\n  sources:\n  - openapi/clari-revenue-api-openapi.yml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\ndocs:\n- https://developer.clari.com/documentation/external_spec\n- https://api-doc.copilot.clari.com/\n- https://community.clari.com/product-q-a-6/how-to-use-copilot-apis-2258\ndescription: >-\n  Clari runs three distinct authentication schemes across three surfaces. The Revenue\n  API uses a single `apikey` header (plus a `partnerkey` header on partner/ingest\n  endpoints). The Copilot REST API requires BOTH `X-Api-Key` and `X-Api-Password` —\n  either alone returns 401. The MCP server uses OAuth 2.0 via Okta and is the only\n  Clari surface with delegated authorization; see scopes/clari-scopes.yml.\nissuance:\n  revenue_api:\n    location: Account Settings > API Token > \"Generate New API Token\"\n    caveats:\n    - The token value is displayed once and cannot be retrieved again.\n    - Revoking a token breaks every integration using it.\n    - Deactivating a user revokes every token that user created.\n    - A CSM must grant access\
+  \ to the token generation tool if it is not visible.\n  copilot_api:\n    location: Workspace Settings > Integrations > Clari Copilot API\n    note: Yields both the key and the password.\n  mcp:\n    type: oauth2\n    authorization_endpoint: https://app.clari.com/authorize\n    issuer: https://clariciam.okta.com/oauth2/aus13shznanP7WOkp698\n    dynamic_client_registration: https://mcp.clari.com/okta/clients\n    see: scopes/clari-scopes.yml\nsource: openapi/clari-activity-api-api-openapi.yml, openapi/clari-administrative-api-api-openapi.yml,\n  openapi/clari-audit-api-api-openapi.yml, openapi/clari-bulk-export-framework-api-openapi.yml,\n  openapi/clari-bulk-ingest-job-status-api-api-openapi.yml, openapi/clari-copilot-api-openapi.yml,\n  openapi/clari-export-api-openapi.yml, openapi/clari-forecast-api-api-openapi.yml, openapi/clari-ingestion-api-api-openapi.yml,\n  openapi/clari-opportunity-api-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name:\
+  \ api_key\n  type: apiKey\n  in: header\n  parameter: apikey\n  sources:\n  - openapi/clari-activity-api-api-openapi.yml\n  - openapi/clari-administrative-api-api-openapi.yml\n  - openapi/clari-audit-api-api-openapi.yml\n  - openapi/clari-bulk-export-framework-api-openapi.yml\n  - openapi/clari-bulk-ingest-job-status-api-api-openapi.yml\n  - openapi/clari-export-api-openapi.yml\n  - openapi/clari-forecast-api-api-openapi.yml\n  - openapi/clari-ingestion-api-api-openapi.yml\n  - openapi/clari-opportunity-api-api-openapi.yml\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  sources:\n  - openapi/clari-copilot-api-openapi.yml\n- name: api_password\n  type: apiKey\n  in: header\n  parameter: X-Api-Password\n  sources:\n  - openapi/clari-copilot-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/authentication/clari-authentication.yml
-summary_line: apiKey · 1 scheme
+summary_line: apiKey · 3 schemes
 tags:
 - Revenue Operations
 - Forecasting
@@ -94,4 +122,9 @@ tags:
 - Conversation Intelligence
 - B2B
 - Enterprise
+- MCP
+- Agents
+- Sales Engagement
+- Bulk Export
+- Data Ingestion
 ---

@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: mparticle-bulkevents-api-openapi.yml
-  format: yaml
-  label: mParticle Bulkevents API
-  slug: mparticle-bulkevents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-bulkevents-api-openapi.yml
-- filename: mparticle-events-api-openapi.yml
+- filename: mparticle-events-openapi-original.yml
   format: yaml
   label: mParticle Events API
-  slug: mparticle-events-api
+  slug: events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-events-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-events-openapi-original.yml
+- filename: mparticle-identity-swagger-original.yml
+  format: yaml
+  label: mParticle IDSync API
+  slug: idsync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-identity-swagger-original.yml
+- filename: mparticle-dataplanning-openapi-original.yml
+  format: yaml
+  label: mParticle Data Planning API
+  slug: data-planning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-dataplanning-openapi-original.yml
 certifications:
 - SOC 2
 - ISO 27001
@@ -28,7 +34,7 @@ slug: mparticle-trust-center
 source_filename: mparticle-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.mparticle.com/\nurl: https://trust.mparticle.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.mparticle.com/\n  keywords:\n  - soc 2\n  - iso 27001\n  - gdpr\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://trust.mparticle.com/\nurl: https://trust.mparticle.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.mparticle.com/\n  keywords:\n  - soc 2\n  - iso 27001\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/security/mparticle-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
@@ -39,5 +45,7 @@ tags:
 - Audience
 - Data Pipeline
 - Marketing Data
+- Event Streaming
+- Data Governance
 trust_url: https://trust.mparticle.com/
 ---

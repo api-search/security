@@ -138,26 +138,47 @@ api_specs:
   slug: customer-io-transactional-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-transactional-api-openapi.yml
+- filename: customer-io-app-api-openapi.json
+  format: json
+  label: Customer.io App API
+  slug: app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/_original/customer-io-app-api-openapi.json
+- filename: customer-io-pipelines-api-openapi.json
+  format: json
+  label: Customer.io Pipelines API
+  slug: pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/_original/customer-io-pipelines-api-openapi.json
+- filename: customer-io-reporting-webhooks-openapi.json
+  format: json
+  label: Customer.io Reporting Webhooks
+  slug: reporting-webhooks
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/_original/customer-io-reporting-webhooks-openapi.json
 certifications:
 - SOC 2
 - ISO 27001
 - HIPAA
 - GDPR
+- CCPA
 description: ''
 kind: trust-center
 layout: security
 name: Customer Io Trust Center
 name_suffix: Trust Center
-overview: Customer.io maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
+overview: Customer.io maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, GDPR, and CCPA compliance.
 provider_name: Customer.io
 provider_slug: customer-io
 slug: customer-io-trust-center
 source_filename: customer-io-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://customer.io/security\nurl: https://customer.io/security\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://customer.io/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - gdpr\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://customer.io/security\nurl: https://app.conveyor.com/profile/customer-io\ntrust_center:\n  platform: Conveyor\n  url: https://app.conveyor.com/profile/customer-io\n  http_status: 200\n  checked: '2026-08-13'\n  linked_from: https://customer.io/security\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- GDPR\n- CCPA\ncertification_detail:\n- name: SOC 2 Type II\n  source: https://customer.io/security\n- name: ISO 27001\n  source: https://customer.io/security\n  note: >-\n    Named on the security page under industry-standard frameworks; the page also\n    carries a dedicated \"What is your ISO 27001 compliance status?\" FAQ.\n- name: HIPAA\n  source: https://customer.io/security\n  note: >-\n    Listed as a Premium-plan feature on the pricing page, so it is an\n    entitlement rather than a universal platform property.\n- name: GDPR\n  source: https://customer.io/legal/gdpr\n  note: >-\n    Data rectification,\
+  \ right to be forgotten, audit trail, and EU data\n    residency through the EU-region hosts.\n- name: CCPA and US state privacy laws\n  source: https://customer.io/legal/ccpa\nlegal_artifacts:\n- name: Data Processing Addendum\n  url: https://customer.io/legal/dpa\n- name: List of Subprocessors\n  url: https://customer.io/legal/sub-processors\n- name: Standard Contractual Clauses\n  url: https://customer.io/legal/scc\n- name: Security overview\n  url: https://customer.io/legal/security\n- name: Acceptable Use Policy\n  url: https://customer.io/legal/acceptable-use-policy\n- name: Personal Information Rights Request\n  url: https://customer.io/legal/personal-information-rights-request\ndata_residency:\n- region: US\n  hosts:\n  - api.customer.io\n  - track.customer.io\n  - cdp.customer.io\n  - mcp.customer.io\n- region: EU\n  hosts:\n  - api-eu.customer.io\n  - track-eu.customer.io\n  - cdp-eu.customer.io\n  - mcp-eu.customer.io\naccount_protection:\n- two-factor authentication\n- single\
+  \ sign-on\n- role-based permissions\n- encryption at rest and in transit\nevidence:\n- source: https://customer.io/security\n  http_status: 200\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - trust center\n  - gdpr\n- source: https://app.conveyor.com/profile/customer-io\n  http_status: 200\n  kind: trust center profile\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/security/customer-io-trust-center.yml
-summary_line: SOC 2, ISO 27001, HIPAA, GDPR
+summary_line: SOC 2, ISO 27001, HIPAA, GDPR, CCPA
 tags:
 - Behavioral Data
 - Broadcasts
@@ -174,5 +195,5 @@ tags:
 - Segments
 - SMS
 - Transactional Email
-trust_url: https://customer.io/security
+trust_url: https://app.conveyor.com/profile/customer-io
 ---

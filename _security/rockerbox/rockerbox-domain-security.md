@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: docs
-  format: yaml
-  label: Rockerbox API
-  slug: rockerbox-api
-  spec_type: OpenAPI
-  url: https://backend-prod-k8s.rockerbox.tech/docs
 description: ''
 domains:
 - caa: []
@@ -15,10 +8,9 @@ domains:
   domain: rockerbox.com
   spf: true
 - caa: []
-  dmarc: true
-  dmarc_policy: none
-  dnssec: false
-  domain: rockerbox.tech
+  dmarc: false
+  dnssec: true
+  domain: getrockerbox.com
   spf: true
 hosts:
 - cert_expires: Sep 28 17:02:06 2026 GMT
@@ -27,16 +19,16 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 23 10:19:54 2026 GMT
+- cert_expires: Oct 22 12:46:16 2026 GMT
   host: help.rockerbox.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Jan 20 23:59:59 2027 GMT
-  host: backend-prod-k8s.rockerbox.tech
+- cert_expires: Oct 30 22:05:55 2026 GMT
+  host: webhooks.getrockerbox.com
   hsts: false
   https: true
-  tls_version: TLSv1.2
+  tls_version: TLSv1.3
 kind: domain-security
 layout: security
 method: probed
@@ -49,9 +41,9 @@ slug: rockerbox-domain-security
 source_filename: rockerbox-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rockerbox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 17:02:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.rockerbox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 10:19:54 2026 GMT\n  hsts: false\n- host: backend-prod-k8s.rockerbox.tech\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 20 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: rockerbox.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: rockerbox.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rockerbox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 17:02:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.rockerbox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 12:46:16 2026 GMT\n  hsts: false\n- host: webhooks.getrockerbox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 22:05:55 2026 GMT\n  hsts: false\ndomains:\n- domain: rockerbox.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: getrockerbox.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rockerbox/refs/heads/main/security/rockerbox-domain-security.yml
-summary_line: TLSv1.3 · HSTS · DMARC
+summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Marketing Attribution
 - Multi-Touch Attribution
@@ -60,4 +52,7 @@ tags:
 - Media Spend
 - Customer Journeys
 - Marketing Analytics
+- Data Warehousing
+- Conversion Tracking
+- Webhooks
 ---

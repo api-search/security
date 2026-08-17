@@ -63,7 +63,19 @@ domains:
   domain: exec.com
   spf: true
 hosts:
-- cert_expires: Aug 31 11:27:00 2026 GMT
+- cert_expires: Oct 29 17:04:17 2026 GMT
+  host: www.exec.com
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Oct 29 17:04:17 2026 GMT
+  host: docs.exec.com
+  hsts: true
+  hsts_max_age: 63072000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Oct 29 17:04:17 2026 GMT
   host: api.exec.com
   hsts: null
   https: true
@@ -73,16 +85,16 @@ layout: security
 method: probed
 name: Exec Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Exec, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for Exec, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Exec
 provider_slug: exec
 slug: exec-domain-security
 source_filename: exec-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.exec.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 11:27:00 2026 GMT\n  hsts: null\ndomains:\n- domain: exec.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.exec.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 17:04:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.exec.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 17:04:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.exec.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 17:04:17 2026 GMT\n  hsts: null\ndomains:\n- domain: exec.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/security/exec-domain-security.yml
-summary_line: TLSv1.3 · DMARC
+summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence

@@ -318,22 +318,40 @@ api_specs:
   slug: listrak-transactionalmessageresend-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-transactionalmessageresend-api-openapi.yml
+- filename: listrak-media-directories-api-openapi.yml
+  format: yaml
+  label: Listrak Media Directories API
+  slug: listrak-media-directories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-media-directories-api-openapi.yml
+- filename: listrak-media-files-api-openapi.yml
+  format: yaml
+  label: Listrak Media Files API
+  slug: listrak-media-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-media-files-api-openapi.yml
+- filename: listrak-media-fonts-api-openapi.yml
+  format: yaml
+  label: Listrak Media Fonts API
+  slug: listrak-media-fonts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-media-fonts-api-openapi.yml
 description: ''
 domains:
 - caa:
+  - 0 issuewild "pki.goog; cansignhttpexchanges=yes"
+  - 0 issuewild "sectigo.com"
+  - 0 iodef "mailto:domreg@listrak.com"
   - 0 issue "awstrust.com"
   - 0 issue "cloudflare.com"
   - 0 issue "digicert.com; cansignhttpexchanges=yes"
-  - 0 issue "letsencrypt.org"
-  - 0 issue "pki.goog; cansignhttpexchanges=yes"
-  - 0 issue "sectigo.com"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
   domain: listrak.com
   spf: true
 hosts:
-- cert_expires: Aug 16 10:09:40 2026 GMT
+- cert_expires: Oct 14 13:48:41 2026 GMT
   host: www.listrak.com
   hsts: true
   hsts_max_age: 31536000
@@ -357,7 +375,7 @@ slug: listrak-domain-security
 source_filename: listrak-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.listrak.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 10:09:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.listrak.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 19:02:39 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: listrak.com\n  dnssec: false\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"cloudflare.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.listrak.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 13:48:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.listrak.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 19:02:39 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: listrak.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 iodef \"mailto:domreg@listrak.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"cloudflare.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/security/listrak-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -369,4 +387,12 @@ tags:
 - Push Notifications
 - Data Import
 - Privacy
+- Ecommerce
+- Customer Data
+- Transactional Messaging
+- Segmentation
+- Product Reviews
+- Media Management
+- Two-Way SMS
+- RCS
 ---

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: matik-oauth-postman-collection.json
+  format: json
+  label: Matik External API
+  slug: matik-external-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/postman/matik-oauth-postman-collection.json
 description: ''
 domains:
 - caa: []

@@ -8,7 +8,7 @@ domains:
   domain: newneek.co
   spf: true
 hosts:
-- cert_expires: Aug 20 12:30:48 2026 GMT
+- cert_expires: Oct 20 17:09:04 2026 GMT
   host: newneek.co
   hsts: true
   hsts_max_age: 63072000
@@ -26,7 +26,7 @@ slug: newneek-domain-security
 source_filename: newneek-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: newneek.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 12:30:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: newneek.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: newneek.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 17:09:04 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: newneek.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/newneek/refs/heads/main/security/newneek-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

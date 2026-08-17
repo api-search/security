@@ -1,5 +1,17 @@
 ---
 api_specs:
+- filename: mediamath-marketplaces-api-v2-openapi.yml
+  format: yaml
+  label: MediaMath Marketplaces API V2.0
+  slug: mediamath-marketplaces-api-v20
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-marketplaces-api-v2-openapi.yml
+- filename: mediamath-byoa-api-openapi.yml
+  format: yaml
+  label: MediaMath Bring Your Own Algorithm (BYOA) API
+  slug: mediamath-bring-your-own-algorithm-byoa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-byoa-api-openapi.yml
 - filename: mediamath-ad-servers-api-openapi.yml
   format: yaml
   label: MediaMath Ad Servers API
@@ -222,6 +234,36 @@ api_specs:
   slug: mediamath-verticals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-verticals-api-openapi.yml
+- filename: mediamath-audience-segments-api-openapi.yml
+  format: yaml
+  label: MediaMath Audience Segments API
+  slug: mediamath-audience-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-audience-segments-api-openapi.yml
+- filename: mediamath-bof-config-api-openapi.yml
+  format: yaml
+  label: MediaMath BOF Config API
+  slug: mediamath-bof-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-bof-config-api-openapi.yml
+- filename: mediamath-component-creatives-api-openapi.yml
+  format: yaml
+  label: MediaMath Component Creatives API
+  slug: mediamath-component-creatives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-component-creatives-api-openapi.yml
+- filename: mediamath-reporting-api-v1-openapi.yml
+  format: yaml
+  label: MediaMath Reporting API V1
+  slug: mediamath-reporting-api-v1
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-reporting-api-v1-openapi.yml
+- filename: mediamath-video-creatives-api-openapi.yml
+  format: yaml
+  label: MediaMath Video Creatives API
+  slug: mediamath-video-creatives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-video-creatives-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -241,7 +283,7 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.2
-- cert_expires: Sep 25 23:59:59 2026 GMT
+- cert_expires: Feb 10 23:59:59 2027 GMT
   host: ingest-default.prod.octane.mediamath.com
   hsts: null
   https: true
@@ -258,7 +300,7 @@ slug: mediamath-domain-security
 source_filename: mediamath-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apidocs.mediamath.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 03:56:44 2026 GMT\n  hsts: false\n- host: api.mediamath.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 30 23:59:59 2026 GMT\n  hsts: false\n- host: ingest-default.prod.octane.mediamath.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: mediamath.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apidocs.mediamath.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 03:56:44 2026 GMT\n  hsts: false\n- host: api.mediamath.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 30 23:59:59 2026 GMT\n  hsts: false\n- host: ingest-default.prod.octane.mediamath.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 10 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: mediamath.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/security/mediamath-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

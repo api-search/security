@@ -30,6 +30,12 @@ api_specs:
   slug: tealium-privacy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-privacy-api-openapi.yml
+- filename: tealium-ai-read-openapi.yml
+  format: yaml
+  label: Tealium AI Read API
+  slug: tealium-ai-read-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-ai-read-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -72,7 +78,7 @@ slug: tealium-domain-security
 source_filename: tealium-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tealium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 22 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.tealium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 08:45:19 2026 GMT\n  hsts: false\n- host: platform.tealiumapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: tealium.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: tealiumapis.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tealium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 22 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.tealium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 08:45:19 2026 GMT\n  hsts: false\n- host: platform.tealiumapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: tealium.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: tealiumapis.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/security/tealium-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

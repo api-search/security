@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: replicant-outbound-api-openapi.yml
+  format: yaml
+  label: Replicant Outbound API
+  slug: replicant-outbound-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/openapi/replicant-outbound-api-openapi.yml
 certifications:
 - SOC 2 Type 2
 - PCI DSS

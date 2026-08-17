@@ -8,7 +8,7 @@ domains:
   domain: ruhnn.com
   spf: true
 hosts:
-- cert_expires: Aug  8 23:59:59 2026 GMT
+- cert_expires: Nov  4 23:59:59 2026 GMT
   host: ruhnn.com
   hsts: false
   https: true
@@ -25,7 +25,7 @@ slug: ruhnn-domain-security
 source_filename: ruhnn-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ruhnn.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug  8 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: ruhnn.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ruhnn.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  4 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: ruhnn.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ruhnn/refs/heads/main/security/ruhnn-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:

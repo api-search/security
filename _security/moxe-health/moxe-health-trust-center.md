@@ -28,7 +28,7 @@ slug: moxe-health-trust-center
 source_filename: moxe-health-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-24'\nmethod: searched\nprobe: true\nsource: https://moxehealth.com/security\nurl: https://moxehealth.com/security\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://moxehealth.com/security\n  keywords:\n  - soc 2\n  - soc2\n  - hipaa\n  - gdpr\n"
+source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nsource: https://moxehealth.com/security\nurl: https://moxehealth.com/security\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://moxehealth.com/security\n  keywords:\n  - soc 2\n  - soc2\n  - hipaa\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/security/moxe-health-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:

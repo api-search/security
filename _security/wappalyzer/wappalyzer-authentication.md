@@ -2,6 +2,18 @@
 api_key_in:
 - header
 api_specs:
+- filename: wappalyzer-v2-public-openapi.yaml
+  format: yaml
+  label: Wappalyzer Public API
+  slug: wappalyzer-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/openapi/_original/wappalyzer-v2-public-openapi.yaml
+- filename: wappalyzer-metadata-api-openapi.yml
+  format: yaml
+  label: Wappalyzer Metadata API
+  slug: wappalyzer-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/openapi/wappalyzer-metadata-api-openapi.yml
 - filename: wappalyzer-basics-api-openapi.yml
   format: yaml
   label: Wappalyzer Basics API
@@ -50,13 +62,17 @@ schemes:
   name: ApiKeyAuth
   parameter: x-api-key
   sources:
-  - openapi/wappalyzer-lookup-openapi.yml
+  - openapi/wappalyzer-basics-api-openapi.yml
+  - openapi/wappalyzer-lists-api-openapi.yml
+  - openapi/wappalyzer-lookup-api-openapi.yml
+  - openapi/wappalyzer-subdomains-api-openapi.yml
+  - openapi/wappalyzer-verify-api-openapi.yml
   type: apiKey
 slug: wappalyzer-authentication
 source_filename: wappalyzer-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/wappalyzer-lookup-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/wappalyzer-lookup-openapi.yml\n"
+source_yaml: "generated: '2026-08-14'\nmethod: derived\nsource: openapi/wappalyzer-basics-api-openapi.yml, openapi/wappalyzer-lists-api-openapi.yml,\n  openapi/wappalyzer-lookup-api-openapi.yml, openapi/wappalyzer-subdomains-api-openapi.yml,\n  openapi/wappalyzer-verify-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/wappalyzer-basics-api-openapi.yml\n  - openapi/wappalyzer-lists-api-openapi.yml\n  - openapi/wappalyzer-lookup-api-openapi.yml\n  - openapi/wappalyzer-subdomains-api-openapi.yml\n  - openapi/wappalyzer-verify-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/authentication/wappalyzer-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
@@ -67,4 +83,7 @@ tags:
 - Framework Detection
 - Lead Enrichment
 - Sales Intelligence
+- Subdomain Discovery
+- Email Verification
+- Market Research
 ---

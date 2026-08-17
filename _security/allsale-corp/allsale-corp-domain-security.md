@@ -8,7 +8,7 @@ domains:
   domain: allsale.ai
   spf: true
 hosts:
-- cert_expires: Aug 25 12:49:56 2026 GMT
+- cert_expires: Oct 24 16:17:05 2026 GMT
   host: allsale.ai
   hsts: true
   hsts_max_age: 63072000
@@ -26,7 +26,7 @@ slug: allsale-corp-domain-security
 source_filename: allsale-corp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: allsale.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 12:49:56 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: allsale.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: allsale.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 16:17:05 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: allsale.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allsale-corp/refs/heads/main/security/allsale-corp-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

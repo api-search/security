@@ -36,6 +36,12 @@ api_specs:
   slug: hustle-leads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/openapi/hustle-leads-api-openapi.yml
+- filename: hustle-messages-api-openapi.yml
+  format: yaml
+  label: Hustle Messages API
+  slug: hustle-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/openapi/hustle-messages-api-openapi.yml
 - filename: hustle-organizations-api-openapi.yml
   format: yaml
   label: Hustle Organizations API
@@ -69,7 +75,7 @@ slug: hustle-trust-center
 source_filename: hustle-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://hustle.com/security/\nurl: https://hustle.com/security/\ncertifications:\n- SOC 2\n- CSA STAR\nevidence:\n- source: https://hustle.com/security/\n  keywords:\n  - soc 2\n  - csa star\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://hustle.com/security/\nurl: https://hustle.com/security/\ncertifications:\n- SOC 2\n- CSA STAR\nevidence:\n- source: https://hustle.com/security/\n  keywords:\n  - soc 2\n  - csa star\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/security/hustle-trust-center.yml
 summary_line: SOC 2, CSA STAR
 tags:

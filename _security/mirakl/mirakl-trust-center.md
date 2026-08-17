@@ -114,6 +114,48 @@ api_specs:
   slug: mirakl-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-users-api-openapi.yml
+- filename: mirakl-connect-openapi.yaml
+  format: yaml
+  label: Mirakl Connect APIs
+  slug: mirakl-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-connect-openapi.yaml
+- filename: mirakl-connect-channel-openapi.json
+  format: json
+  label: Mirakl Connect Channel Platform APIs
+  slug: mirakl-connect-channel-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-connect-channel-openapi.json
+- filename: mirakl-account-channel-platform-openapi.yaml
+  format: yaml
+  label: Mirakl Account Channel Platform APIs
+  slug: mirakl-account-channel-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-account-channel-platform-openapi.yaml
+- filename: mirakl-mmp-front-openapi.yaml
+  format: yaml
+  label: Mirakl Marketplace Front APIs
+  slug: mirakl-marketplace-front-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-mmp-front-openapi.yaml
+- filename: mirakl-mcm-front-openapi.yaml
+  format: yaml
+  label: Mirakl Catalog Manager Front APIs
+  slug: mirakl-catalog-manager-front-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-mcm-front-openapi.yaml
+- filename: mirakl-mms-front-openapi.yaml
+  format: yaml
+  label: Mirakl Platform for Services Front APIs
+  slug: mirakl-services-front-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-mms-front-openapi.yaml
+- filename: mirakl-shopify-operator-connector-openapi.yaml
+  format: yaml
+  label: Mirakl Shopify Operator Connector APIs
+  slug: mirakl-shopify-operator-connector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-shopify-operator-connector-openapi.yaml
 certifications:
 - SOC 1 Type II
 - SOC 2 Type II

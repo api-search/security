@@ -51,16 +51,15 @@ domains:
   domain: worldnewsapi.com
   spf: false
 hosts:
-- host: worldnewsapi.com
+- cert_expires: Oct 17 19:04:26 2026 GMT
+  host: worldnewsapi.com
   hsts: false
   https: true
-  server: cloudflare
   tls_version: TLSv1.3
 - cert_expires: Sep 22 10:18:54 2026 GMT
   host: api.worldnewsapi.com
-  hsts: false
+  hsts: null
   https: true
-  server: cloudflare
   tls_version: TLSv1.3
 kind: domain-security
 layout: security
@@ -74,7 +73,7 @@ slug: worldnewsapi-domain-security
 source_filename: worldnewsapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: worldnewsapi.com\n  https: true\n  tls_version: TLSv1.3\n  server: cloudflare\n  hsts: false\n- host: api.worldnewsapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 10:18:54 2026 GMT\n  server: cloudflare\n  hsts: false\ndomains:\n- domain: worldnewsapi.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: worldnewsapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 19:04:26 2026 GMT\n  hsts: false\n- host: api.worldnewsapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 10:18:54 2026 GMT\n  hsts: null\ndomains:\n- domain: worldnewsapi.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/security/worldnewsapi-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
@@ -86,4 +85,8 @@ tags:
 - News Data
 - Sentiment Analysis
 - Content Extraction
+- Front Pages
+- MCP
+- RSS
+- Semantic Search
 ---

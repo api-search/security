@@ -320,54 +320,90 @@ api_specs:
   slug: listrak-transactionalmessageresend-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-transactionalmessageresend-api-openapi.yml
+- filename: listrak-media-directories-api-openapi.yml
+  format: yaml
+  label: Listrak Media Directories API
+  slug: listrak-media-directories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-media-directories-api-openapi.yml
+- filename: listrak-media-files-api-openapi.yml
+  format: yaml
+  label: Listrak Media Files API
+  slug: listrak-media-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-media-files-api-openapi.yml
+- filename: listrak-media-fonts-api-openapi.yml
+  format: yaml
+  label: Listrak Media Fonts API
+  slug: listrak-media-fonts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-media-fonts-api-openapi.yml
 auth_types:
-- apiKey
 - oauth2
+- apiKey
+- http
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Listrak Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials
-overview: Listrak secures its APIs with apiKey and oauth2 across 3 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
+overview: Listrak secures its APIs with oauth2, apiKey, and http across 4 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
 provider_name: Listrak
 provider_slug: listrak
-scheme_count: 3
+scheme_count: 4
 schemes:
-- in: header
+- description: 'OAuth 2.0 client_credentials. POST grant_type=client_credentials, client_id and client_secret as application/x-www-form-urlencoded to the token endpoint; send the returned token as `Authorization: Bearer <token>`.'
+  flows:
+  - flow: clientCredentials
+    scopes: 6
+    tokenUrl: https://auth.listrak.com/OAuth2/Token
+  name: OAuth2
+  scopes_see: scopes/listrak-scopes.yml
+  sources:
+  - openapi/_original/listrak-email-openapi.json
+  - openapi/_original/listrak-sms-openapi.json
+  - openapi/_original/listrak-data-openapi.json
+  - openapi/_original/listrak-privacy-openapi.json
+  type: oauth2
+- bearerFormat: Listrak encrypted token
+  description: Media REST API. Same OAuth 2.0 client_credentials token as above, declared as an HTTP bearer scheme. The token must additionally carry the `Media` role plus CompanyID / MasterAdminID claims or the API returns 403 ERROR_FORBIDDEN.
+  name: Bearer
+  scheme: bearer
+  sources:
+  - openapi/_original/listrak-media-openapi.json
+  - openapi/listrak-media-directories-api-openapi.yml
+  - openapi/listrak-media-files-api-openapi.yml
+  - openapi/listrak-media-fonts-api-openapi.yml
+  type: http
+- description: 'Cross Channel and Two-Way SMS are fronted by AWS API Gateway with a custom authorizer (`x-amazon-apigateway-authtype: custom`). The value is the same OAuth 2.0 bearer token; the spec simply declares the header rather than the oauth2 flow.'
+  in: header
   name: Authorizer
   parameter: Authorization
   sources:
-  - openapi/listrak-crosschannel-openapi.yml
-  - openapi/listrak-twowaysms-openapi.yml
+  - openapi/_original/listrak-crosschannel-openapi.json
+  - openapi/_original/listrak-twowaysms-openapi.json
   type: apiKey
-- flows:
-  - flow: clientCredentials
-    scopes: 0
-    tokenUrl: https://auth.listrak.com/OAuth2/Token
-  name: OAuth2
-  sources:
-  - openapi/listrak-data-openapi.yml
-  - openapi/listrak-email-openapi.yml
-  - openapi/listrak-privacy-openapi.yml
-  - openapi/listrak-sms-openapi.yml
-  type: oauth2
-- in: header
+- description: Mobile App Push client API. Device/app-side key issued per mobile integration, sent as `x-api-key`. This is the only Listrak API that is not bearer-token authenticated.
+  in: header
   name: api_key
   parameter: x-api-key
   sources:
-  - openapi/listrak-mobileclient-openapi.yml
+  - openapi/_original/listrak-mobileclient-openapi.json
   type: apiKey
 slug: listrak-authentication
 source_filename: listrak-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/listrak-crosschannel-openapi.yml, openapi/listrak-data-openapi.yml, openapi/listrak-email-openapi.yml,\n  openapi/listrak-mobileclient-openapi.yml, openapi/listrak-privacy-openapi.yml, openapi/listrak-sms-openapi.yml,\n  openapi/listrak-twowaysms-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: Authorizer\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/listrak-crosschannel-openapi.yml\n  - openapi/listrak-twowaysms-openapi.yml\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.listrak.com/OAuth2/Token\n    scopes: 0\n  sources:\n  - openapi/listrak-data-openapi.yml\n  - openapi/listrak-email-openapi.yml\n  - openapi/listrak-privacy-openapi.yml\n  - openapi/listrak-sms-openapi.yml\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: x-api-key\n\
-  \  sources:\n  - openapi/listrak-mobileclient-openapi.yml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://api.listrak.com/email/swagger/docs/v1\ndocs: https://api.listrak.com/email\nnotes: >-\n  Listrak's public API surface is eight separate REST APIs served from api.listrak.com. Every one of\n  them is authenticated with OAuth 2.0 client_credentials against a single token endpoint,\n  https://auth.listrak.com/OAuth2/Token, and the resulting token is presented as\n  `Authorization: Bearer <token>` on each request. Client ID / Client Secret are issued per\n  Integration inside the Listrak application (Integrations -> Integration Management); the secret is\n  shown once and cannot be retrieved afterward, and API access can be paused/unpaused per\n  integration, which rejects both requests and token issuance while paused. The differences between\n  the schemes below are how each spec DECLARES that same mechanism, not different mechanisms: the\n  Swagger 2.0 specs declare a real `oauth2` scheme, the AWS API Gateway-fronted\
+  \ specs (Cross Channel,\n  Two-Way SMS) declare it as a custom `Authorization` header authorizer, and the Media API declares\n  it as `http bearer`. The Mobile App Push client API is the one genuine exception - it is a\n  device-side API keyed with an `x-api-key` header.\n  This file was written by SEARCH against the provider's live specs and docs because the tag-split\n  specs in openapi/ carry only the API Gateway `Authorizer` declaration; deriving from those alone\n  loses the OAuth2 flow and token URL that Listrak actually documents.\nsummary:\n  types:\n  - oauth2\n  - apiKey\n  - http\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\n  token_url: https://auth.listrak.com/OAuth2/Token\n  bearer_header: Authorization\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.listrak.com/OAuth2/Token\n    scopes: 6\n  scopes_see: scopes/listrak-scopes.yml\n  description: >-\n    OAuth 2.0 client_credentials. POST grant_type=client_credentials,\
+  \ client_id and client_secret as\n    application/x-www-form-urlencoded to the token endpoint; send the returned token as\n    `Authorization: Bearer <token>`.\n  sources:\n  - openapi/_original/listrak-email-openapi.json\n  - openapi/_original/listrak-sms-openapi.json\n  - openapi/_original/listrak-data-openapi.json\n  - openapi/_original/listrak-privacy-openapi.json\n- name: Bearer\n  type: http\n  scheme: bearer\n  bearerFormat: Listrak encrypted token\n  description: >-\n    Media REST API. Same OAuth 2.0 client_credentials token as above, declared as an HTTP bearer\n    scheme. The token must additionally carry the `Media` role plus CompanyID / MasterAdminID claims\n    or the API returns 403 ERROR_FORBIDDEN.\n  sources:\n  - openapi/_original/listrak-media-openapi.json\n  - openapi/listrak-media-directories-api-openapi.yml\n  - openapi/listrak-media-files-api-openapi.yml\n  - openapi/listrak-media-fonts-api-openapi.yml\n- name: Authorizer\n  type: apiKey\n  in: header\n  parameter:\
+  \ Authorization\n  description: >-\n    Cross Channel and Two-Way SMS are fronted by AWS API Gateway with a custom authorizer\n    (`x-amazon-apigateway-authtype: custom`). The value is the same OAuth 2.0 bearer token; the\n    spec simply declares the header rather than the oauth2 flow.\n  sources:\n  - openapi/_original/listrak-crosschannel-openapi.json\n  - openapi/_original/listrak-twowaysms-openapi.json\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: >-\n    Mobile App Push client API. Device/app-side key issued per mobile integration, sent as\n    `x-api-key`. This is the only Listrak API that is not bearer-token authenticated.\n  sources:\n  - openapi/_original/listrak-mobileclient-openapi.json\ncredential_lifecycle:\n  issued_in: Listrak application -> Integrations -> Integration Management\n  integration_types:\n  - Email\n  - SMS\n  - Cross Channel\n  - Two-Way SMS\n  - Data Import\n  - Privacy\n  secret_retrievable: false\n  pause_resume:\
+  \ >-\n    API access can be paused and unpaused per integration. While paused, all requests are rejected,\n    including requests to the token endpoint.\n  ip_allowlist: >-\n    Integrations may be restricted by IP; requests from an unauthorized IP fail with\n    ERROR_INVALID_CREDENTIALS or ERROR_UNAUTHORIZED.\ntransport:\n  https_required: true\n  error_on_plain_http: ERROR_UNSUPPORTED_PROTOCOL\ncross_links:\n  scopes: scopes/listrak-scopes.yml\n  conventions: conventions/listrak-conventions.yml\n  errors: errors/listrak-error-codes.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/authentication/listrak-authentication.yml
-summary_line: apiKey/oauth2 · 3 schemes
+summary_line: oauth2/apiKey/http · 4 schemes
 tags:
 - Email Marketing
 - SMS Marketing
@@ -377,4 +413,12 @@ tags:
 - Push Notifications
 - Data Import
 - Privacy
+- Ecommerce
+- Customer Data
+- Transactional Messaging
+- Segmentation
+- Product Reviews
+- Media Management
+- Two-Way SMS
+- RCS
 ---

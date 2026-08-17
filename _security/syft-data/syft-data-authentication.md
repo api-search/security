@@ -13,6 +13,12 @@ api_specs:
   slug: syft-data-lookup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/openapi/syft-data-lookup-api-openapi.yml
+- filename: syft-data-events-api-openapi.yml
+  format: yaml
+  label: Syft Data Event Collection API
+  slug: syft-data-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/openapi/syft-data-events-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

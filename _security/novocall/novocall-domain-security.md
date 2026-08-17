@@ -2,12 +2,12 @@
 description: ''
 domains:
 - caa:
-  - 0 issue "letsencrypt.org"
-  - 0 issue "pki.goog; cansignhttpexchanges=yes"
-  - 0 issue "ssl.com"
   - 0 issuewild "comodoca.com"
   - 0 issuewild "digicert.com; cansignhttpexchanges=yes"
   - 0 issuewild "letsencrypt.org"
+  - 0 issuewild "pki.goog; cansignhttpexchanges=yes"
+  - 0 issuewild "ssl.com"
+  - 0 issue "comodoca.com"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
@@ -28,7 +28,7 @@ slug: novocall-domain-security
 source_filename: novocall-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: novocall.co\n  https: false\ndomains:\n- domain: novocall.co\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: novocall.co\n  https: false\ndomains:\n- domain: novocall.co\n  dnssec: false\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/novocall/refs/heads/main/security/novocall-domain-security.yml
 summary_line: DMARC
 tags:

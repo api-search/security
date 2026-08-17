@@ -61,6 +61,12 @@ api_specs:
   slug: scrunch-ai-sitemap-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-sitemap-api-openapi.yml
+- filename: scrunch-ai-signals-api-openapi.yml
+  format: yaml
+  label: Scrunch AI Signals API
+  slug: scrunch-ai-signals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-signals-api-openapi.yml
 auth_types:
 - http
 description: ''

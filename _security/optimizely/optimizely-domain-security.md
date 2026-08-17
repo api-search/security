@@ -1,5 +1,95 @@
 ---
 api_specs:
+- filename: optimizely-web-experimentation-optimizely-api-openapi.json
+  format: json
+  label: Optimizely Experimentation REST API v2
+  slug: experimentation-rest-api-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-web-experimentation-optimizely-api-openapi.json
+- filename: optimizely-feature-experimentation-optimizely-feature-experimentation-api-openapi.json
+  format: json
+  label: Optimizely Feature Experimentation Flags API v1
+  slug: feature-experimentation-flags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-feature-experimentation-optimizely-feature-experimentation-api-openapi.json
+- filename: optimizely-feature-experimentation-optimizely-flags-scheduling-api-openapi.json
+  format: json
+  label: Optimizely Flags Scheduling API
+  slug: flags-scheduling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-feature-experimentation-optimizely-flags-scheduling-api-openapi.json
+- filename: optimizely-feature-experimentation-permission-service-openapi.json
+  format: json
+  label: Optimizely Permission Service API
+  slug: permission-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-feature-experimentation-permission-service-openapi.json
+- filename: optimizely-feature-experimentation-optimizely-agent-api-openapi.json
+  format: json
+  label: Optimizely Agent API
+  slug: agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-feature-experimentation-optimizely-agent-api-openapi.json
+- filename: optimizely-experimentation-data-optimizely-event-api-openapi.json
+  format: json
+  label: Optimizely Event API
+  slug: event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-experimentation-data-optimizely-event-api-openapi.json
+- filename: optimizely-performance-edge-optimizely-edge-decider-openapi.json
+  format: json
+  label: Optimizely Edge Decider API
+  slug: edge-decider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-performance-edge-optimizely-edge-decider-openapi.json
+- filename: optimizely-data-platform-advanced-openapi.json
+  format: json
+  label: Optimizely Data Platform (ODP) API v3
+  slug: data-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-data-platform-advanced-openapi.json
+- filename: optimizely-platform-optimizely-swagger-openapi.json
+  format: json
+  label: Optimizely Graph API
+  slug: graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-platform-optimizely-swagger-openapi.json
+- filename: optimizely-content-marketing-platform-optimizely-cmp-open-api-documentation-openapi.json
+  format: json
+  label: Optimizely Content Marketing Platform (CMP) API v3
+  slug: content-marketing-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-content-marketing-platform-optimizely-cmp-open-api-documentation-openapi.json
+- filename: optimizely-campaign-optimizely-campaign-rest-api-openapi.json
+  format: json
+  label: Optimizely Campaign REST API
+  slug: campaign-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-campaign-optimizely-campaign-rest-api-openapi.json
+- filename: optimizely-configured-commerce-admin-api-v1-openapi.json
+  format: json
+  label: Optimizely Configured Commerce API
+  slug: configured-commerce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-configured-commerce-admin-api-v1-openapi.json
+- filename: optimizely-content-management-system-episervercontentapidocs-openapi.json
+  format: json
+  label: Optimizely CMS Content Delivery API v3.0
+  slug: cms-content-delivery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-content-management-system-episervercontentapidocs-openapi.json
+- filename: optimizely-recommendations-public-api-spec-openapi.yaml
+  format: yaml
+  label: Optimizely Content Recommendations API
+  slug: content-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-recommendations-public-api-spec-openapi.yaml
+- filename: optimizely-digital-experience-platform-episerver-cloud-api-1-openapi.json
+  format: json
+  label: Optimizely DXP Cloud API
+  slug: dxp-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-digital-experience-platform-episerver-cloud-api-1-openapi.json
 - filename: optimizely-assets-api-openapi.yml
   format: yaml
   label: Optimizely Assets API
@@ -242,7 +332,7 @@ slug: optimizely-domain-security
 source_filename: optimizely-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.optimizely.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 22:12:52 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.developers.optimizely.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 18:32:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.optimizely.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 20:01:54 2026 GMT\n  hsts: null\ndomains:\n- domain: optimizely.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.optimizely.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 22:12:52 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.developers.optimizely.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 18:32:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.optimizely.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 20:01:54 2026 GMT\n  hsts: null\ndomains:\n- domain: optimizely.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/security/optimizely-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

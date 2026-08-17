@@ -719,8 +719,8 @@ domains:
 - caa:
   - 0 issue "letsencrypt.org"
   - 0 issue "pki.goog"
-  - 0 issue "digicert.com"
   - 0 issue "amazonaws.com"
+  - 0 issue "digicert.com"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
@@ -759,7 +759,7 @@ slug: mailchimp-domain-security
 source_filename: mailchimp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mailchimp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 16 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: server.api.mailchimp.com\n  https: false\n- host: mandrillapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: mailchimp.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: mandrillapp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mailchimp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 16 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: server.api.mailchimp.com\n  https: false\n- host: mandrillapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: mailchimp.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: mandrillapp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/security/mailchimp-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -768,4 +768,9 @@ tags:
 - Marketing Automation
 - Newsletters
 - Transactional Email
+- Audience Management
+- SMS
+- E-Commerce
+- Webhooks
+- Marketing Analytics
 ---

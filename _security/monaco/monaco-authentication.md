@@ -8,12 +8,24 @@ api_specs:
   slug: monaco-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-accounts-api-openapi.yml
+- filename: monaco-audiences-api-openapi.yml
+  format: yaml
+  label: Monaco Audiences API
+  slug: monaco-audiences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-audiences-api-openapi.yml
 - filename: monaco-auth-api-openapi.yml
   format: yaml
   label: Monaco Auth API
   slug: monaco-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-auth-api-openapi.yml
+- filename: monaco-campaigns-api-openapi.yml
+  format: yaml
+  label: Monaco Campaigns API
+  slug: monaco-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-campaigns-api-openapi.yml
 - filename: monaco-contacts-api-openapi.yml
   format: yaml
   label: Monaco Contacts API
@@ -118,4 +130,8 @@ tags:
 - Pipeline
 - Go To Market
 - MCP
+- Campaigns
+- Audiences
+- Sales Engagement
+- Agents
 ---

@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: amperity-control-plane-2024-04-01-openapi.json
+  format: json
+  label: Amperity API
+  slug: amperity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/openapi/amperity-control-plane-2024-04-01-openapi.json
+- filename: amperity-control-plane-unstable-openapi.json
+  format: json
+  label: Amperity API (Unstable)
+  slug: amperity-api-unstable
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/openapi/amperity-control-plane-unstable-openapi.json
 description: ''
 domains:
 - caa: []
@@ -37,7 +50,7 @@ slug: amperity-domain-security
 source_filename: amperity-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.amperity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 11:53:56 2026 GMT\n  hsts: null\n- host: docs.amperity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.amperity.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: amperity.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.amperity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 11:53:56 2026 GMT\n  hsts: null\n- host: docs.amperity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.amperity.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: amperity.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/security/amperity-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -51,4 +64,8 @@ tags:
 - Data
 - Profiles
 - Analytics
+- MCP
+- Agents
+- Retail
+- Identity
 ---

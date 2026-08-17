@@ -20,6 +20,12 @@ api_specs:
   slug: 99designs-designers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/openapi/99designs-designers-api-openapi.yml
+- filename: 99designs-products-api-openapi.yml
+  format: yaml
+  label: 99designs Products API
+  slug: 99designs-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/openapi/99designs-products-api-openapi.yml
 - filename: 99designs-orders-api-openapi.yml
   format: yaml
   label: 99designs Orders API

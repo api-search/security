@@ -1,5 +1,12 @@
 ---
 api_key_in: []
+api_specs:
+- filename: photon-website-api-openapi.json
+  format: json
+  label: Photon Website API
+  slug: photon-website-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/openapi/photon-website-api-openapi.json
 auth_types:
 - oauth2
 - http

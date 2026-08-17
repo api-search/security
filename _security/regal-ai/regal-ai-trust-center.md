@@ -48,25 +48,39 @@ api_specs:
   slug: regal-ai-phone-numbers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-phone-numbers-api-openapi.yml
+- filename: regal-ai-users-api-openapi.yml
+  format: yaml
+  label: Regal Users API
+  slug: regal-ai-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-users-api-openapi.yml
+- filename: regal-ai-call-handoffs-api-openapi.yml
+  format: yaml
+  label: Regal Call Handoffs API
+  slug: regal-ai-call-handoffs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-call-handoffs-api-openapi.yml
 certifications:
 - SOC 2
 - HIPAA
 - GDPR
+- CCPA
 description: ''
 kind: trust-center
 layout: security
 name: Regal Ai Trust Center
 name_suffix: Trust Center
-overview: Regal maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
+overview: Regal maintains a public trust center documenting SOC 2, HIPAA, GDPR, and CCPA compliance.
 provider_name: Regal
 provider_slug: regal-ai
 slug: regal-ai-trust-center
 source_filename: regal-ai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.regal.ai/security\nurl: https://www.regal.ai/security\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://www.regal.ai/security\n  keywords:\n  - soc2\n  - hipaa\n  - gdpr\n"
+source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nsource: https://www.regal.ai/security\nurl: https://trust.regal.ai\nsecurity_page: https://www.regal.ai/security\ncertifications:\n  - SOC 2\n  - HIPAA\n  - GDPR\n  - CCPA\ndata_processing_addendum: https://www.regal.ai/dpa\nprivacy_policy: https://www.regal.ai/privacy-policy\ndeveloper_privacy_page: https://developer.regal.ai/page/privacy-security\ncontact: security@regal.ai\nnote: >-\n  Regal runs a Trust Center at https://trust.regal.ai (HTTP 200, page title \"Regal Trust\n  Center\") alongside the public security and compliance page at\n  https://www.regal.ai/security. The Trust Center is client-side rendered, so the document\n  list behind it is not machine-readable anonymously; the certifications recorded here are\n  read from the security page and site navigation, which name \"SOC2 certification\",\n  adherence to GDPR and CCPA, and HIPAA, DPA and TCPA in the Security & Compliance\n  navigation entry. Regal also\
+  \ states customer data is not used for LLM training. No\n  ISO 27001, PCI DSS, FedRAMP or CSA STAR claim is published.\nevidence:\n  - source: https://www.regal.ai/security\n    http_status: 200\n    keywords: [soc2, gdpr, ccpa, hipaa, dpa, tcpa, security and compliance, certifications and standards]\n  - source: https://trust.regal.ai\n    http_status: 200\n    keywords: [regal trust center]\n  - source: https://www.regal.ai/dpa\n    http_status: 200\n    keywords: [data processing addendum]\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/security/regal-ai-trust-center.yml
-summary_line: SOC 2, HIPAA, GDPR
+summary_line: SOC 2, HIPAA, GDPR, CCPA
 tags:
 - AI
 - AI Agents
@@ -85,5 +99,5 @@ tags:
 - CPaaS
 - Sales Dialer
 - Customer Engagement
-trust_url: https://www.regal.ai/security
+trust_url: https://trust.regal.ai
 ---

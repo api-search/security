@@ -1,9 +1,17 @@
 ---
 api_key_in:
-- query
+- header
+api_specs:
+- filename: beeketing-shopbase-admin-openapi.json
+  format: json
+  label: ShopBase Admin API
+  slug: shopbase-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-shopbase-admin-openapi.json
 auth_types:
 - oauth2
 - http
+- apiKey
 description: ''
 kind: authentication
 layout: security
@@ -12,10 +20,10 @@ name: Beeketing Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
-overview: Beeketing secures its APIs with oauth2 and http across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+overview: Beeketing secures its APIs with oauth2, http, and apiKey across 5 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
 provider_name: Beeketing
 provider_slug: beeketing
-scheme_count: 2
+scheme_count: 5
 schemes:
 - app_type: public
   authorizationUrl: https://{shop}.onshopbase.com/admin/oauth/authorize
@@ -33,14 +41,34 @@ schemes:
   name: PrivateAppBasic
   scheme: basic
   type: http
+- description: The per-store access token an app obtains from the OAuth authorization-code exchange, sent as a request header. Declared on 146 of the 153 published operations.
+  in: header
+  name: APP_ACCESS_TOKEN
+  parameter: APP_ACCESS_TOKEN
+  source: openapi/beeketing-shopbase-admin-openapi.json#/securityDefinitions
+  type: apiKey
+- description: Shop-scoped access token declared in the spec's securityDefinitions. No published operation references it, and the developer docs do not describe how one is issued.
+  in: header
+  name: SHOP_ACCESS_TOKEN
+  parameter: SHOP_ACCESS_TOKEN
+  source: openapi/beeketing-shopbase-admin-openapi.json#/securityDefinitions
+  type: apiKey
+- description: Staff-user access token; declared on 2 operations that act in a staff user's context rather than an app's.
+  in: header
+  name: USER_ACCESS_TOKEN
+  parameter: USER_ACCESS_TOKEN
+  source: openapi/beeketing-shopbase-admin-openapi.json#/securityDefinitions
+  type: apiKey
 slug: beeketing-authentication
 source_filename: beeketing-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://developers.shopbase.com/build-an-app/making-your-first-request/authentication.md\ndocs: https://developers.shopbase.com/build-an-app/making-your-first-request/authentication.md\nsummary:\n  types: [oauth2, http]\n  api_key_in: [query]\n  oauth2_flows: [authorizationCode]\n  notes: >-\n    ShopBase supports two app types. Public apps authenticate via OAuth 2.0\n    authorization-code grant (API key + secret from the Partner Dashboard,\n    per-store access token). Private apps authenticate via HTTP Basic\n    authentication with credentials generated in the store admin.\nschemes:\n- name: PublicAppOAuth2\n  type: oauth2\n  app_type: public\n  scheme: authorizationCode\n  authorizationUrl: https://{shop}.onshopbase.com/admin/oauth/authorize\n  tokenUrl: https://{shop}.onshopbase.com/admin/oauth/access_token.json\n  client_credentials: API key + API secret key issued in the Partner Dashboard\n  install_verification: HMAC\
-  \ signature on install/redirect requests\n  scope_param: comma-separated scopes (e.g. write_orders,read_customers)\n  docs: https://developers.shopbase.com/build-an-app/making-your-first-request/authentication/oauth.md\n- name: PrivateAppBasic\n  type: http\n  app_type: private\n  scheme: basic\n  description: >-\n    Private apps interact with the API on behalf of a single store using HTTP\n    Basic authentication; credentials are generated from that store's admin.\n  docs: https://developers.shopbase.com/build-an-app/making-your-first-request/authentication/private-apps.md\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://developers.shopbase.com/build-an-app/making-your-first-request/authentication.md\ndocs: https://developers.shopbase.com/build-an-app/making-your-first-request/authentication.md\nspec: openapi/beeketing-shopbase-admin-openapi.json\nsummary:\n  types: [oauth2, http, apiKey]\n  api_key_in: [header]\n  oauth2_flows: [authorizationCode]\n  notes: >-\n    ShopBase supports two app types. Public apps authenticate via OAuth 2.0\n    authorization-code grant (API key + secret from the Partner Dashboard,\n    per-store access token). Private apps authenticate via HTTP Basic\n    authentication with credentials generated in the store admin. The published\n    Swagger 2.0 document declares the resulting tokens as three opaque header\n    apiKey schemes and binds access scopes to individual operations.\nschemes:\n- name: PublicAppOAuth2\n  type: oauth2\n  app_type: public\n  scheme: authorizationCode\n  authorizationUrl: https://{shop}.onshopbase.com/admin/oauth/authorize\n\
+  \  tokenUrl: https://{shop}.onshopbase.com/admin/oauth/access_token.json\n  client_credentials: API key + API secret key issued in the Partner Dashboard\n  install_verification: HMAC signature on install/redirect requests\n  scope_param: comma-separated scopes (e.g. write_orders,read_customers)\n  docs: https://developers.shopbase.com/build-an-app/making-your-first-request/authentication/oauth.md\n- name: PrivateAppBasic\n  type: http\n  app_type: private\n  scheme: basic\n  description: >-\n    Private apps interact with the API on behalf of a single store using HTTP\n    Basic authentication; credentials are generated from that store's admin.\n  docs: https://developers.shopbase.com/build-an-app/making-your-first-request/authentication/private-apps.md\n- name: APP_ACCESS_TOKEN\n  type: apiKey\n  in: header\n  parameter: APP_ACCESS_TOKEN\n  source: openapi/beeketing-shopbase-admin-openapi.json#/securityDefinitions\n  description: >-\n    The per-store access token an app obtains from\
+  \ the OAuth authorization-code\n    exchange, sent as a request header. Declared on 146 of the 153 published\n    operations.\n- name: SHOP_ACCESS_TOKEN\n  type: apiKey\n  in: header\n  parameter: SHOP_ACCESS_TOKEN\n  source: openapi/beeketing-shopbase-admin-openapi.json#/securityDefinitions\n  description: >-\n    Shop-scoped access token declared in the spec's securityDefinitions. No\n    published operation references it, and the developer docs do not describe how\n    one is issued.\n- name: USER_ACCESS_TOKEN\n  type: apiKey\n  in: header\n  parameter: USER_ACCESS_TOKEN\n  source: openapi/beeketing-shopbase-admin-openapi.json#/securityDefinitions\n  description: >-\n    Staff-user access token; declared on 2 operations that act in a staff user's\n    context rather than an app's.\nenforcement:\n  scoped_operations: 116\n  unscoped_token_operations: 32\n  unauthenticated_operations: 5\n  note: >-\n    Derived from the spec. 116 operations declare an explicit access scope on\n    APP_ACCESS_TOKEN;\
+  \ 32 declare the token with no scope; 2 use USER_ACCESS_TOKEN;\n    5 (the four Payment Simulator operations and one webhook receiver) carry no\n    security block at all, because they are called BY ShopBase or by a gateway\n    rather than by an app. Scope list in scopes/beeketing-scopes.yml.\ngaps:\n  openid_connect: false\n  mtls: false\n  token_refresh_documented: false\n  token_revocation_documented: false\n  note: >-\n    ShopBase documents no OIDC discovery, no refresh-token rotation, no\n    revocation endpoint, and serves no /.well-known/oauth-authorization-server\n    (see well-known/beeketing-well-known.yml). The authorization and token URLs\n    are per-store and can only be discovered from the prose docs.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/authentication/beeketing-authentication.yml
-summary_line: oauth2/http · 2 schemes
+summary_line: oauth2/http/apiKey · 5 schemes
 tags:
 - Company
 - E-commerce

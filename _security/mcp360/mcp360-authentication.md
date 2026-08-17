@@ -249,97 +249,97 @@ schemes:
   name: bearerAuth
   scheme: bearer
   sources:
-  - openapi/mcp360-amazon-search-openapi.json
-  - openapi/mcp360-apple-appstore-openapi.json
-  - openapi/mcp360-baidu-search-openapi.json
-  - openapi/mcp360-bing-search-openapi.json
-  - openapi/mcp360-cryptocurrency-openapi.json
-  - openapi/mcp360-currency-converter-openapi.json
-  - openapi/mcp360-dns-lookup-openapi.json
-  - openapi/mcp360-duckduckgo-search-openapi.json
-  - openapi/mcp360-ebay-search-openapi.json
-  - openapi/mcp360-email-verification-openapi.json
-  - openapi/mcp360-google-flights-openapi.json
-  - openapi/mcp360-google-forums-openapi.json
-  - openapi/mcp360-google-hotels-openapi.json
-  - openapi/mcp360-google-images-openapi.json
-  - openapi/mcp360-google-jobs-openapi.json
-  - openapi/mcp360-google-maps-openapi.json
-  - openapi/mcp360-google-news-openapi.json
-  - openapi/mcp360-google-play-openapi.json
-  - openapi/mcp360-google-rank-tracking-openapi.json
-  - openapi/mcp360-google-scholar-openapi.json
-  - openapi/mcp360-google-search-openapi.json
-  - openapi/mcp360-google-shopping-openapi.json
-  - openapi/mcp360-google-trends-openapi.json
-  - openapi/mcp360-imginny-openapi.json
-  - openapi/mcp360-ip-info-openapi.json
-  - openapi/mcp360-keyword-research-openapi.json
-  - openapi/mcp360-llm-prompt-tracker-openapi.json
-  - openapi/mcp360-mcp360-openapi.json
-  - openapi/mcp360-naver-search-openapi.json
-  - openapi/mcp360-onpage-seo-openapi.json
-  - openapi/mcp360-url-lookup-openapi.json
-  - openapi/mcp360-walmart-search-openapi.json
-  - openapi/mcp360-weather-openapi.json
-  - openapi/mcp360-web-scraping-openapi.json
-  - openapi/mcp360-whois-openapi.json
-  - openapi/mcp360-yahoo-search-openapi.json
-  - openapi/mcp360-yandex-search-openapi.json
-  - openapi/mcp360-youtube-openapi.json
+  - openapi/mcp360-amazon-search-api-openapi.yml
+  - openapi/mcp360-apple-appstore-api-openapi.yml
+  - openapi/mcp360-baidu-search-api-openapi.yml
+  - openapi/mcp360-bing-search-api-openapi.yml
+  - openapi/mcp360-cryptocurrency-api-openapi.yml
+  - openapi/mcp360-currency-converter-api-openapi.yml
+  - openapi/mcp360-dns-lookup-api-openapi.yml
+  - openapi/mcp360-duckduckgo-search-api-openapi.yml
+  - openapi/mcp360-ebay-search-api-openapi.yml
+  - openapi/mcp360-email-verification-api-openapi.yml
+  - openapi/mcp360-google-flights-api-openapi.yml
+  - openapi/mcp360-google-forums-api-openapi.yml
+  - openapi/mcp360-google-hotels-api-openapi.yml
+  - openapi/mcp360-google-images-api-openapi.yml
+  - openapi/mcp360-google-jobs-api-openapi.yml
+  - openapi/mcp360-google-maps-api-openapi.yml
+  - openapi/mcp360-google-news-api-openapi.yml
+  - openapi/mcp360-google-play-api-openapi.yml
+  - openapi/mcp360-google-rank-tracking-api-openapi.yml
+  - openapi/mcp360-google-scholar-api-openapi.yml
+  - openapi/mcp360-google-search-api-openapi.yml
+  - openapi/mcp360-google-shopping-api-openapi.yml
+  - openapi/mcp360-google-trends-api-openapi.yml
+  - openapi/mcp360-imginny-api-openapi.yml
+  - openapi/mcp360-ip-info-api-openapi.yml
+  - openapi/mcp360-keyword-research-api-openapi.yml
+  - openapi/mcp360-llm-prompt-tracker-api-openapi.yml
+  - openapi/mcp360-mcp360-api-openapi.yml
+  - openapi/mcp360-naver-search-api-openapi.yml
+  - openapi/mcp360-onpage-seo-api-openapi.yml
+  - openapi/mcp360-url-lookup-api-openapi.yml
+  - openapi/mcp360-walmart-search-api-openapi.yml
+  - openapi/mcp360-weather-api-openapi.yml
+  - openapi/mcp360-web-scraping-api-openapi.yml
+  - openapi/mcp360-whois-api-openapi.yml
+  - openapi/mcp360-yahoo-search-api-openapi.yml
+  - openapi/mcp360-yandex-search-api-openapi.yml
+  - openapi/mcp360-youtube-api-openapi.yml
   type: http
 - in: header
   name: apiKey
   parameter: X-API-Key
   sources:
-  - openapi/mcp360-amazon-search-openapi.json
-  - openapi/mcp360-apple-appstore-openapi.json
-  - openapi/mcp360-baidu-search-openapi.json
-  - openapi/mcp360-bing-search-openapi.json
-  - openapi/mcp360-cryptocurrency-openapi.json
-  - openapi/mcp360-currency-converter-openapi.json
-  - openapi/mcp360-dns-lookup-openapi.json
-  - openapi/mcp360-duckduckgo-search-openapi.json
-  - openapi/mcp360-ebay-search-openapi.json
-  - openapi/mcp360-email-verification-openapi.json
-  - openapi/mcp360-google-flights-openapi.json
-  - openapi/mcp360-google-forums-openapi.json
-  - openapi/mcp360-google-hotels-openapi.json
-  - openapi/mcp360-google-images-openapi.json
-  - openapi/mcp360-google-jobs-openapi.json
-  - openapi/mcp360-google-maps-openapi.json
-  - openapi/mcp360-google-news-openapi.json
-  - openapi/mcp360-google-play-openapi.json
-  - openapi/mcp360-google-rank-tracking-openapi.json
-  - openapi/mcp360-google-scholar-openapi.json
-  - openapi/mcp360-google-search-openapi.json
-  - openapi/mcp360-google-shopping-openapi.json
-  - openapi/mcp360-google-trends-openapi.json
-  - openapi/mcp360-imginny-openapi.json
-  - openapi/mcp360-ip-info-openapi.json
-  - openapi/mcp360-keyword-research-openapi.json
-  - openapi/mcp360-llm-prompt-tracker-openapi.json
-  - openapi/mcp360-mcp360-openapi.json
-  - openapi/mcp360-naver-search-openapi.json
-  - openapi/mcp360-onpage-seo-openapi.json
-  - openapi/mcp360-url-lookup-openapi.json
-  - openapi/mcp360-walmart-search-openapi.json
-  - openapi/mcp360-weather-openapi.json
-  - openapi/mcp360-web-scraping-openapi.json
-  - openapi/mcp360-whois-openapi.json
-  - openapi/mcp360-yahoo-search-openapi.json
-  - openapi/mcp360-yandex-search-openapi.json
-  - openapi/mcp360-youtube-openapi.json
+  - openapi/mcp360-amazon-search-api-openapi.yml
+  - openapi/mcp360-apple-appstore-api-openapi.yml
+  - openapi/mcp360-baidu-search-api-openapi.yml
+  - openapi/mcp360-bing-search-api-openapi.yml
+  - openapi/mcp360-cryptocurrency-api-openapi.yml
+  - openapi/mcp360-currency-converter-api-openapi.yml
+  - openapi/mcp360-dns-lookup-api-openapi.yml
+  - openapi/mcp360-duckduckgo-search-api-openapi.yml
+  - openapi/mcp360-ebay-search-api-openapi.yml
+  - openapi/mcp360-email-verification-api-openapi.yml
+  - openapi/mcp360-google-flights-api-openapi.yml
+  - openapi/mcp360-google-forums-api-openapi.yml
+  - openapi/mcp360-google-hotels-api-openapi.yml
+  - openapi/mcp360-google-images-api-openapi.yml
+  - openapi/mcp360-google-jobs-api-openapi.yml
+  - openapi/mcp360-google-maps-api-openapi.yml
+  - openapi/mcp360-google-news-api-openapi.yml
+  - openapi/mcp360-google-play-api-openapi.yml
+  - openapi/mcp360-google-rank-tracking-api-openapi.yml
+  - openapi/mcp360-google-scholar-api-openapi.yml
+  - openapi/mcp360-google-search-api-openapi.yml
+  - openapi/mcp360-google-shopping-api-openapi.yml
+  - openapi/mcp360-google-trends-api-openapi.yml
+  - openapi/mcp360-imginny-api-openapi.yml
+  - openapi/mcp360-ip-info-api-openapi.yml
+  - openapi/mcp360-keyword-research-api-openapi.yml
+  - openapi/mcp360-llm-prompt-tracker-api-openapi.yml
+  - openapi/mcp360-mcp360-api-openapi.yml
+  - openapi/mcp360-naver-search-api-openapi.yml
+  - openapi/mcp360-onpage-seo-api-openapi.yml
+  - openapi/mcp360-url-lookup-api-openapi.yml
+  - openapi/mcp360-walmart-search-api-openapi.yml
+  - openapi/mcp360-weather-api-openapi.yml
+  - openapi/mcp360-web-scraping-api-openapi.yml
+  - openapi/mcp360-whois-api-openapi.yml
+  - openapi/mcp360-yahoo-search-api-openapi.yml
+  - openapi/mcp360-yandex-search-api-openapi.yml
+  - openapi/mcp360-youtube-api-openapi.yml
   type: apiKey
 slug: mcp360-authentication
 source_filename: mcp360-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-08-09'\nmethod: derived\nsource: openapi/mcp360-amazon-search-openapi.json, openapi/mcp360-apple-appstore-openapi.json,\n  openapi/mcp360-baidu-search-openapi.json, openapi/mcp360-bing-search-openapi.json, openapi/mcp360-cryptocurrency-openapi.json,\n  openapi/mcp360-currency-converter-openapi.json, openapi/mcp360-dns-lookup-openapi.json, openapi/mcp360-duckduckgo-search-openapi.json,\n  openapi/mcp360-ebay-search-openapi.json, openapi/mcp360-email-verification-openapi.json, openapi/mcp360-google-flights-openapi.json,\n  openapi/mcp360-google-forums-openapi.json ...\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/mcp360-amazon-search-openapi.json\n  - openapi/mcp360-apple-appstore-openapi.json\n  - openapi/mcp360-baidu-search-openapi.json\n  - openapi/mcp360-bing-search-openapi.json\n  - openapi/mcp360-cryptocurrency-openapi.json\n\
-  \  - openapi/mcp360-currency-converter-openapi.json\n  - openapi/mcp360-dns-lookup-openapi.json\n  - openapi/mcp360-duckduckgo-search-openapi.json\n  - openapi/mcp360-ebay-search-openapi.json\n  - openapi/mcp360-email-verification-openapi.json\n  - openapi/mcp360-google-flights-openapi.json\n  - openapi/mcp360-google-forums-openapi.json\n  - openapi/mcp360-google-hotels-openapi.json\n  - openapi/mcp360-google-images-openapi.json\n  - openapi/mcp360-google-jobs-openapi.json\n  - openapi/mcp360-google-maps-openapi.json\n  - openapi/mcp360-google-news-openapi.json\n  - openapi/mcp360-google-play-openapi.json\n  - openapi/mcp360-google-rank-tracking-openapi.json\n  - openapi/mcp360-google-scholar-openapi.json\n  - openapi/mcp360-google-search-openapi.json\n  - openapi/mcp360-google-shopping-openapi.json\n  - openapi/mcp360-google-trends-openapi.json\n  - openapi/mcp360-imginny-openapi.json\n  - openapi/mcp360-ip-info-openapi.json\n  - openapi/mcp360-keyword-research-openapi.json\n  - openapi/mcp360-llm-prompt-tracker-openapi.json\n\
-  \  - openapi/mcp360-mcp360-openapi.json\n  - openapi/mcp360-naver-search-openapi.json\n  - openapi/mcp360-onpage-seo-openapi.json\n  - openapi/mcp360-url-lookup-openapi.json\n  - openapi/mcp360-walmart-search-openapi.json\n  - openapi/mcp360-weather-openapi.json\n  - openapi/mcp360-web-scraping-openapi.json\n  - openapi/mcp360-whois-openapi.json\n  - openapi/mcp360-yahoo-search-openapi.json\n  - openapi/mcp360-yandex-search-openapi.json\n  - openapi/mcp360-youtube-openapi.json\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/mcp360-amazon-search-openapi.json\n  - openapi/mcp360-apple-appstore-openapi.json\n  - openapi/mcp360-baidu-search-openapi.json\n  - openapi/mcp360-bing-search-openapi.json\n  - openapi/mcp360-cryptocurrency-openapi.json\n  - openapi/mcp360-currency-converter-openapi.json\n  - openapi/mcp360-dns-lookup-openapi.json\n  - openapi/mcp360-duckduckgo-search-openapi.json\n  - openapi/mcp360-ebay-search-openapi.json\n  - openapi/mcp360-email-verification-openapi.json\n\
-  \  - openapi/mcp360-google-flights-openapi.json\n  - openapi/mcp360-google-forums-openapi.json\n  - openapi/mcp360-google-hotels-openapi.json\n  - openapi/mcp360-google-images-openapi.json\n  - openapi/mcp360-google-jobs-openapi.json\n  - openapi/mcp360-google-maps-openapi.json\n  - openapi/mcp360-google-news-openapi.json\n  - openapi/mcp360-google-play-openapi.json\n  - openapi/mcp360-google-rank-tracking-openapi.json\n  - openapi/mcp360-google-scholar-openapi.json\n  - openapi/mcp360-google-search-openapi.json\n  - openapi/mcp360-google-shopping-openapi.json\n  - openapi/mcp360-google-trends-openapi.json\n  - openapi/mcp360-imginny-openapi.json\n  - openapi/mcp360-ip-info-openapi.json\n  - openapi/mcp360-keyword-research-openapi.json\n  - openapi/mcp360-llm-prompt-tracker-openapi.json\n  - openapi/mcp360-mcp360-openapi.json\n  - openapi/mcp360-naver-search-openapi.json\n  - openapi/mcp360-onpage-seo-openapi.json\n  - openapi/mcp360-url-lookup-openapi.json\n  - openapi/mcp360-walmart-search-openapi.json\n\
-  \  - openapi/mcp360-weather-openapi.json\n  - openapi/mcp360-web-scraping-openapi.json\n  - openapi/mcp360-whois-openapi.json\n  - openapi/mcp360-yahoo-search-openapi.json\n  - openapi/mcp360-yandex-search-openapi.json\n  - openapi/mcp360-youtube-openapi.json\n"
+source_yaml: "generated: '2026-08-14'\nmethod: derived\nsource: openapi/mcp360-amazon-search-api-openapi.yml, openapi/mcp360-apple-appstore-api-openapi.yml,\n  openapi/mcp360-baidu-search-api-openapi.yml, openapi/mcp360-bing-search-api-openapi.yml, openapi/mcp360-cryptocurrency-api-openapi.yml,\n  openapi/mcp360-currency-converter-api-openapi.yml, openapi/mcp360-dns-lookup-api-openapi.yml,\n  openapi/mcp360-duckduckgo-search-api-openapi.yml, openapi/mcp360-ebay-search-api-openapi.yml,\n  openapi/mcp360-email-verification-api-openapi.yml, openapi/mcp360-google-flights-api-openapi.yml,\n  openapi/mcp360-google-forums-api-openapi.yml ...\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/mcp360-amazon-search-api-openapi.yml\n  - openapi/mcp360-apple-appstore-api-openapi.yml\n  - openapi/mcp360-baidu-search-api-openapi.yml\n  - openapi/mcp360-bing-search-api-openapi.yml\n\
+  \  - openapi/mcp360-cryptocurrency-api-openapi.yml\n  - openapi/mcp360-currency-converter-api-openapi.yml\n  - openapi/mcp360-dns-lookup-api-openapi.yml\n  - openapi/mcp360-duckduckgo-search-api-openapi.yml\n  - openapi/mcp360-ebay-search-api-openapi.yml\n  - openapi/mcp360-email-verification-api-openapi.yml\n  - openapi/mcp360-google-flights-api-openapi.yml\n  - openapi/mcp360-google-forums-api-openapi.yml\n  - openapi/mcp360-google-hotels-api-openapi.yml\n  - openapi/mcp360-google-images-api-openapi.yml\n  - openapi/mcp360-google-jobs-api-openapi.yml\n  - openapi/mcp360-google-maps-api-openapi.yml\n  - openapi/mcp360-google-news-api-openapi.yml\n  - openapi/mcp360-google-play-api-openapi.yml\n  - openapi/mcp360-google-rank-tracking-api-openapi.yml\n  - openapi/mcp360-google-scholar-api-openapi.yml\n  - openapi/mcp360-google-search-api-openapi.yml\n  - openapi/mcp360-google-shopping-api-openapi.yml\n  - openapi/mcp360-google-trends-api-openapi.yml\n  - openapi/mcp360-imginny-api-openapi.yml\n\
+  \  - openapi/mcp360-ip-info-api-openapi.yml\n  - openapi/mcp360-keyword-research-api-openapi.yml\n  - openapi/mcp360-llm-prompt-tracker-api-openapi.yml\n  - openapi/mcp360-mcp360-api-openapi.yml\n  - openapi/mcp360-naver-search-api-openapi.yml\n  - openapi/mcp360-onpage-seo-api-openapi.yml\n  - openapi/mcp360-url-lookup-api-openapi.yml\n  - openapi/mcp360-walmart-search-api-openapi.yml\n  - openapi/mcp360-weather-api-openapi.yml\n  - openapi/mcp360-web-scraping-api-openapi.yml\n  - openapi/mcp360-whois-api-openapi.yml\n  - openapi/mcp360-yahoo-search-api-openapi.yml\n  - openapi/mcp360-yandex-search-api-openapi.yml\n  - openapi/mcp360-youtube-api-openapi.yml\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/mcp360-amazon-search-api-openapi.yml\n  - openapi/mcp360-apple-appstore-api-openapi.yml\n  - openapi/mcp360-baidu-search-api-openapi.yml\n  - openapi/mcp360-bing-search-api-openapi.yml\n  - openapi/mcp360-cryptocurrency-api-openapi.yml\n\
+  \  - openapi/mcp360-currency-converter-api-openapi.yml\n  - openapi/mcp360-dns-lookup-api-openapi.yml\n  - openapi/mcp360-duckduckgo-search-api-openapi.yml\n  - openapi/mcp360-ebay-search-api-openapi.yml\n  - openapi/mcp360-email-verification-api-openapi.yml\n  - openapi/mcp360-google-flights-api-openapi.yml\n  - openapi/mcp360-google-forums-api-openapi.yml\n  - openapi/mcp360-google-hotels-api-openapi.yml\n  - openapi/mcp360-google-images-api-openapi.yml\n  - openapi/mcp360-google-jobs-api-openapi.yml\n  - openapi/mcp360-google-maps-api-openapi.yml\n  - openapi/mcp360-google-news-api-openapi.yml\n  - openapi/mcp360-google-play-api-openapi.yml\n  - openapi/mcp360-google-rank-tracking-api-openapi.yml\n  - openapi/mcp360-google-scholar-api-openapi.yml\n  - openapi/mcp360-google-search-api-openapi.yml\n  - openapi/mcp360-google-shopping-api-openapi.yml\n  - openapi/mcp360-google-trends-api-openapi.yml\n  - openapi/mcp360-imginny-api-openapi.yml\n  - openapi/mcp360-ip-info-api-openapi.yml\n\
+  \  - openapi/mcp360-keyword-research-api-openapi.yml\n  - openapi/mcp360-llm-prompt-tracker-api-openapi.yml\n  - openapi/mcp360-mcp360-api-openapi.yml\n  - openapi/mcp360-naver-search-api-openapi.yml\n  - openapi/mcp360-onpage-seo-api-openapi.yml\n  - openapi/mcp360-url-lookup-api-openapi.yml\n  - openapi/mcp360-walmart-search-api-openapi.yml\n  - openapi/mcp360-weather-api-openapi.yml\n  - openapi/mcp360-web-scraping-api-openapi.yml\n  - openapi/mcp360-whois-api-openapi.yml\n  - openapi/mcp360-yahoo-search-api-openapi.yml\n  - openapi/mcp360-yandex-search-api-openapi.yml\n  - openapi/mcp360-youtube-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mcp360/refs/heads/main/authentication/mcp360-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:

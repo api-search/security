@@ -373,29 +373,38 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-webhooks-api-openapi.yml
 certifications:
-- SOC 2
+- SOC 2 Type 2
 - GDPR
-description: ''
+- CCPA
+description: Close publishes a security and privacy page at close.com/security naming its compliance posture, plus a hosted Trust Center at trust.close.com. The Trust Center is a client-rendered single-page app — its HTML shell carries only the title "Close Trust Center" and no readable certification text, so every certification below is sourced from close.com/security, which states it in plain HTML.
 kind: trust-center
 layout: security
 name: Close Trust Center
 name_suffix: Trust Center
-overview: Close maintains a public trust center documenting SOC 2 and GDPR compliance.
+overview: Close maintains a public trust center documenting SOC 2 Type 2, GDPR, and CCPA compliance.
 provider_name: Close
 provider_slug: close
 slug: close-trust-center
 source_filename: close-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://close.com/security\nurl: https://close.com/security\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://close.com/security\n  keywords:\n  - soc 2\n  - soc2\n  - gdpr\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://close.com/security\nurl: https://trust.close.com/\ndescription: >-\n  Close publishes a security and privacy page at close.com/security naming its\n  compliance posture, plus a hosted Trust Center at trust.close.com. The Trust\n  Center is a client-rendered single-page app — its HTML shell carries only the\n  title \"Close Trust Center\" and no readable certification text, so every\n  certification below is sourced from close.com/security, which states it in\n  plain HTML.\ntrust_center:\n  url: https://trust.close.com/\n  http_status: 200\n  probed: '2026-08-13'\n  machine_readable: false\n  note: >-\n    JS-rendered; no server-side text. A non-browser agent evaluating Close's\n    compliance posture gets nothing from this URL.\ncertifications:\n  - name: SOC 2 Type 2\n    status: certified\n    source: https://close.com/security\n    detail: >-\n      Close states it is a \"SOC 2 Type 2 certified SaaS\
+  \ provider\" and describes\n      how it meets each of the five trust service principles (security,\n      availability, processing integrity, confidentiality, privacy).\n  - name: GDPR\n    status: compliant\n    source: https://close.com/gdpr\n    detail: >-\n      Close states it meets both Data Controller and Data Processor obligations\n      under the EU GDPR and publishes a full GDPR compliance statement.\n  - name: CCPA\n    status: published\n    source: https://close.com/ccpa\n    detail: Linked from the site footer alongside Terms, Privacy and GDPR.\nnot_claimed:\n  - ISO 27001\n  - PCI DSS\n  - HIPAA\n  - FedRAMP\n  - CSA STAR\nnot_claimed_note: >-\n  No claim for any of these was found on close.com/security, the footer legal\n  pages, or the Trust Center shell. Recorded as an absence, not a failure.\ndata_handling_claims:\n  - Data is visible only to members of the customer's organization plus a small number of Close support/training staff.\n  - No sharing with third parties\
+  \ without consent.\n  - Encryption in transit and at rest; access to confidential data regularly reviewed.\n  - Incident response and notification procedures.\nlegal:\n  terms: https://close.com/terms\n  privacy: https://close.com/privacy\n  gdpr: https://close.com/gdpr\n  ccpa: https://close.com/ccpa\n  security: https://close.com/security\nevidence:\n  - source: https://close.com/security\n    http_status: 200\n    fetched: '2026-08-13'\n    keywords: [soc 2 type 2, gdpr, encryption, incident response]\n  - source: https://trust.close.com/\n    http_status: 200\n    fetched: '2026-08-13'\n    keywords: [trust center]\n    note: SPA shell only\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/security/close-trust-center.yml
-summary_line: SOC 2, GDPR
+summary_line: SOC 2 Type 2, GDPR, CCPA
 tags:
 - CRM
 - Sales Engagement
 - Inside Sales
 - Calling
 - SMS
+- WhatsApp
+- Sales Automation
+- Pipeline Management
+- AI Agents
+- MCP
+- Webhooks
 - SaaS
-trust_url: https://close.com/security
+trust_url: https://trust.close.com/
 ---

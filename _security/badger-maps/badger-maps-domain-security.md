@@ -33,9 +33,9 @@ api_specs:
 description: ''
 domains:
 - caa:
-  - 0 issue "letsencrypt.org"
-  - 0 issue "godaddy.com"
   - 0 issue "pki.goog"
+  - 0 issue "godaddy.com"
+  - 0 issue "letsencrypt.org"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
@@ -56,10 +56,10 @@ hosts:
   tls_version: TLSv1.2
 - cert_expires: Oct 18 23:59:59 2026 GMT
   host: badgerupdatedapi.docs.apiary.io
-  hsts: false
+  hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 27 03:46:46 2026 GMT
+- cert_expires: Oct 26 02:48:37 2026 GMT
   host: badgerapis.badgermapping.com
   hsts: true
   hsts_max_age: 31536000
@@ -77,7 +77,7 @@ slug: badger-maps-domain-security
 source_filename: badger-maps-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.badgermapping.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 26 14:25:12 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: badgerupdatedapi.docs.apiary.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: false\n- host: badgerapis.badgermapping.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 03:46:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: badgermapping.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: apiary.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.badgermapping.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 26 14:25:12 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: badgerupdatedapi.docs.apiary.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: null\n- host: badgerapis.badgermapping.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 02:48:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: badgermapping.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: apiary.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/security/badger-maps-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:

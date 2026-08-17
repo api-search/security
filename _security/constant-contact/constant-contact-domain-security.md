@@ -117,7 +117,7 @@ domains:
   domain: cc.email
   spf: true
 hosts:
-- cert_expires: Aug 29 06:27:16 2026 GMT
+- cert_expires: Oct 27 06:49:31 2026 GMT
   host: www.constantcontact.com
   hsts: null
   https: true
@@ -144,7 +144,7 @@ slug: constant-contact-domain-security
 source_filename: constant-contact-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.constantcontact.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 06:27:16 2026 GMT\n  hsts: null\n- host: developer.constantcontact.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 15 23:59:59 2027 GMT\n  hsts: false\n- host: api.cc.email\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 20 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: constantcontact.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: cc.email\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.constantcontact.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 06:49:31 2026 GMT\n  hsts: null\n- host: developer.constantcontact.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 15 23:59:59 2027 GMT\n  hsts: false\n- host: api.cc.email\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 20 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: constantcontact.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: cc.email\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/security/constant-contact-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

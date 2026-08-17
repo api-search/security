@@ -26,6 +26,12 @@ api_specs:
   slug: siro-integrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-integrations-api-openapi.yml
+- filename: siro-platform-api-openapi.json
+  format: json
+  label: Siro Platform API
+  slug: siro-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/_original/siro-platform-api-openapi.json
 auth_types:
 - apiKey
 - http

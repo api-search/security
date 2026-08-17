@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: gameball-openapi.json
+  format: json
+  label: Gameball REST API
+  slug: gameball-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/openapi/gameball-openapi.json
 description: ''
 domains:
 - caa: []
@@ -14,19 +21,30 @@ hosts:
   hsts_max_age: 0
   https: true
   tls_version: TLSv1.3
+- cert_expires: Nov 10 16:39:15 2026 GMT
+  host: docs.gameball.co
+  hsts: true
+  hsts_max_age: 63072000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Oct 26 06:16:41 2026 GMT
+  host: api.gameball.co
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
 kind: domain-security
 layout: security
 method: probed
 name: Gameball Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Gameball, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for Gameball, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Gameball
 provider_slug: gameball
 slug: gameball-domain-security
 source_filename: gameball-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gameball.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 01:19:34 2026 GMT\n  hsts: true\n  hsts_max_age: 0\ndomains:\n- domain: gameball.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gameball.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 01:19:34 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n- host: docs.gameball.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 16:39:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.gameball.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 06:16:41 2026 GMT\n  hsts: null\ndomains:\n- domain: gameball.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/security/gameball-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

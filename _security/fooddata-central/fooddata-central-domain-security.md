@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: fooddata-central-fdc-api-openapi.yml
+  format: yaml
+  label: FoodData Central FDC API
+  slug: fooddata-fdc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fooddata-central/refs/heads/main/openapi/fooddata-central-fdc-api-openapi.yml
 description: ''
 domains:
 - caa:

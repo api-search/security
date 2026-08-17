@@ -30,24 +30,44 @@ api_specs:
   slug: mailmodo-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-templates-api-openapi.yml
+- filename: mailmodo-user-journeys-api-openapi.yml
+  format: yaml
+  label: Mailmodo User Journeys API
+  slug: mailmodo-user-journeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-user-journeys-api-openapi.yml
+- filename: mailmodo-dynamic-form-api-openapi.yml
+  format: yaml
+  label: Mailmodo Dynamic Form API
+  slug: mailmodo-dynamic-form-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-dynamic-form-api-openapi.yml
+- filename: mailmodo-repeatable-block-api-openapi.yml
+  format: yaml
+  label: Mailmodo Repeatable Block API
+  slug: mailmodo-repeatable-block-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-repeatable-block-api-openapi.yml
 certifications:
-- SOC 2
+- SOC 2 Type 2
 - GDPR
-description: ''
+description: Mailmodo publishes a single trust page naming SOC 2 Type 2 and GDPR, an annual third-party audit cadence, annual third-party penetration testing, and an itemised control set across product, application, infrastructure, corporate and physical security. There is no separate trust portal, no downloadable report request flow beyond an email address, and no security.txt.
 kind: trust-center
 layout: security
 name: Mailmodo Trust Center
 name_suffix: Trust Center
-overview: Mailmodo maintains a public trust center documenting SOC 2 and GDPR compliance.
+overview: Mailmodo maintains a public trust center documenting SOC 2 Type 2 and GDPR compliance.
 provider_name: Mailmodo
 provider_slug: mailmodo
 slug: mailmodo-trust-center
 source_filename: mailmodo-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.mailmodo.com/security/\nurl: https://www.mailmodo.com/security/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://www.mailmodo.com/security/\n  keywords:\n  - soc 2\n  - soc2\n  - compliance certification\n  - gdpr\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://www.mailmodo.com/security/\nurl: https://www.mailmodo.com/security/\nname: Mailmodo Trust & Security\ndescription: >-\n  Mailmodo publishes a single trust page naming SOC 2 Type 2 and GDPR, an annual third-party audit\n  cadence, annual third-party penetration testing, and an itemised control set across product,\n  application, infrastructure, corporate and physical security. There is no separate trust portal, no\n  downloadable report request flow beyond an email address, and no security.txt.\ncertifications:\n  - name: SOC 2 Type 2\n    status: compliant\n    audit_cadence: annual\n    auditor: third-party assessors (not named)\n  - name: GDPR\n    status: compliant\n    reference: https://www.mailmodo.com/gdpr/privacypolicy/\ncontrols:\n  product_security:\n    - Role-Based Access Control — admin, read-write and read-only roles\n    - TLS 1.2+ only, modern cipher suites\n  application_security:\n   \
+  \ - Secure development lifecycle — linting, unit + integration tests, static analysis and vulnerable-dependency scanning on every commit\n    - Vulnerability classes removed by architectural design\n    - Passwords hashed; sensitive columns stored with application-level encryption\n  infrastructure_security:\n    - 100% of data encrypted in transit and at rest\n    - Infrastructure as code, reviewed\n    - Least-privilege IAM policies, credentials, permissions and roles\n    - Network segregation — production, sandbox and staging in separate accounts, constrained by VPCs\n  risk_and_compliance:\n    - Annual SOC 2 Type 2 audit by third-party assessors\n    - Annual third-party penetration tests\n    - Subprocessor security evaluation and monitoring\n  corporate_security:\n    - 2FA enforced via Google Accounts with password complexity requirements\n    - Security awareness training at onboarding and annually\n    - Standardized onboarding/offboarding with minimum default permissions\n\
+  \    - Regular access reviews\n    - VPN required for internal services\n  physical_security:\n    - No on-premise data storage\n    - Badge or fingerprint building access, CCTV on premises\ncontact:\n  compliance: support@mailmodo.com\n  general: enquiries@mailmodo.com\ndocuments:\n  terms_of_service: https://www.mailmodo.com/gdpr/termsandconditions/\n  privacy_policy: https://www.mailmodo.com/gdpr/privacypolicy/\ngaps:\n  - No security.txt on any Mailmodo host (see well-known/mailmodo-well-known.yml — 36 paths, 0 hits).\n  - No published vulnerability disclosure policy and no bug bounty program found.\n  - No subprocessor list published at a stable URL.\n  - SOC 2 report is available only by emailing support; no self-serve trust portal.\nevidence:\n  - source: https://www.mailmodo.com/security/\n    status: 200\n    fetched: '2026-08-13'\n    keywords:\n      - SOC 2 Type 2\n      - GDPR\n      - penetration tests\n      - TLS 1.2+\n      - encrypted in transit and at rest\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/security/mailmodo-trust-center.yml
-summary_line: SOC 2, GDPR
+summary_line: SOC 2 Type 2, GDPR
 tags:
 - Email
 - Interactive Email

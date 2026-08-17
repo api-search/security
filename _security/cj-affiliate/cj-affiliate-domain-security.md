@@ -6,6 +6,12 @@ api_specs:
   slug: cj-affiliate-commission-detail-api
   spec_type: Postman
   url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/collections/cj-affiliate.postman_collection.json
+- filename: cj-affiliate-ads-asyncapi.yml
+  format: yaml
+  label: CJ Product Search API
+  slug: cj-affiliate-product-search-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/asyncapi/cj-affiliate-ads-asyncapi.yml
 - filename: cj-affiliate-advertiser-lookup-api-openapi.yml
   format: yaml
   label: CJ Affiliate Advertiser Lookup API
@@ -18,27 +24,39 @@ api_specs:
   slug: cj-affiliate-link-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/openapi/cj-affiliate-link-search-api-openapi.yml
-- filename: cj-affiliate-product-search-legacy-api-openapi.yml
-  format: yaml
-  label: CJ Affiliate Product Search (Legacy) API
-  slug: cj-affiliate-product-search-legacy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/openapi/cj-affiliate-product-search-legacy-api-openapi.yml
 - filename: cj-affiliate-publisher-lookup-api-openapi.yml
   format: yaml
   label: CJ Affiliate Publisher Lookup API
   slug: cj-affiliate-publisher-lookup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/openapi/cj-affiliate-publisher-lookup-api-openapi.yml
+- filename: cj-affiliate-click-events-api-openapi.yml
+  format: yaml
+  label: CJ Affiliate Click Events API
+  slug: cj-affiliate-click-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/openapi/cj-affiliate-click-events-api-openapi.yml
+- filename: cj-affiliate-publisher-tracking-api-openapi.yml
+  format: yaml
+  label: CJ Affiliate Publisher Tracking API
+  slug: cj-affiliate-publisher-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/openapi/cj-affiliate-publisher-tracking-api-openapi.yml
+- filename: cj-affiliate-commission-detail-legacy-api-openapi.yml
+  format: yaml
+  label: CJ Affiliate Commission Detail API (Legacy)
+  slug: cj-affiliate-commission-detail-legacy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/openapi/cj-affiliate-commission-detail-legacy-api-openapi.yml
 description: ''
 domains:
 - caa:
-  - 0 issue "globalsign.com"
+  - 0 issuewild "digicert.com"
+  - 0 issue "awstrust.com"
   - 0 issue "amazon.com"
-  - 0 issue "amazonaws.com"
-  - 0 issue "letsencrypt.org"
   - 0 issue "amazontrust.com"
   - 0 issuewild "amazon.com"
+  - 0 issue "digicert.com"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
@@ -74,7 +92,7 @@ slug: cj-affiliate-domain-security
 source_filename: cj-affiliate-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cj.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 09:41:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.cj.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: commissions.api.cj.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: cj.com\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cj.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 09:41:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.cj.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: commissions.api.cj.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: cj.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/security/cj-affiliate-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -86,4 +104,10 @@ tags:
 - Advertiser
 - GraphQL
 - Ecommerce
+- Product Feeds
+- Conversion Tracking
+- Attribution
+- Performance Marketing
+- Retail
+- Coupons
 ---

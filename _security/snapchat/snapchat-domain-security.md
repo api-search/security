@@ -93,13 +93,13 @@ domains:
   domain: snapchat.com
   spf: true
 hosts:
-- cert_expires: Sep 20 19:31:40 2026 GMT
+- cert_expires: Oct 19 15:35:05 2026 GMT
   host: snap.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 15 21:41:45 2026 GMT
+- cert_expires: Nov  7 14:58:31 2026 GMT
   host: developers.snap.com
   hsts: true
   hsts_max_age: 31536000
@@ -122,7 +122,7 @@ slug: snapchat-domain-security
 source_filename: snapchat-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: snap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 19:31:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.snap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 21:41:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: adsapi.snapchat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: snap.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: snapchat.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: snap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 15:35:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.snap.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 14:58:31 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: adsapi.snapchat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: snap.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: snapchat.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/security/snapchat-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

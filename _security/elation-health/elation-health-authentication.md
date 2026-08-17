@@ -103,13 +103,97 @@ api_specs:
   slug: elation-api-settings
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-api-settings.json
+- filename: elation-health-allergies-api-openapi.yml
+  format: yaml
+  label: Elation Health Allergies API
+  slug: elation-allergies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-allergies-api-openapi.yml
+- filename: elation-health-appointments-api-openapi.yml
+  format: yaml
+  label: Elation Health Appointments API
+  slug: elation-appointments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-appointments-api-openapi.yml
+- filename: elation-health-authentication-api-openapi.yml
+  format: yaml
+  label: Elation Health Authentication API
+  slug: elation-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-authentication-api-openapi.yml
+- filename: elation-health-billing-api-openapi.yml
+  format: yaml
+  label: Elation Health Billing API
+  slug: elation-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-billing-api-openapi.yml
+- filename: elation-health-insurance-api-openapi.yml
+  format: yaml
+  label: Elation Health Insurance API
+  slug: elation-insurance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-insurance-api-openapi.yml
+- filename: elation-health-lab-orders-api-openapi.yml
+  format: yaml
+  label: Elation Health Lab Orders API
+  slug: elation-lab-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-lab-orders-api-openapi.yml
+- filename: elation-health-medications-api-openapi.yml
+  format: yaml
+  label: Elation Health Medications API
+  slug: elation-medications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-medications-api-openapi.yml
+- filename: elation-health-messaging-api-openapi.yml
+  format: yaml
+  label: Elation Health Messaging API
+  slug: elation-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-messaging-api-openapi.yml
+- filename: elation-health-patients-api-openapi.yml
+  format: yaml
+  label: Elation Health Patients API
+  slug: elation-patients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-patients-api-openapi.yml
+- filename: elation-health-physicians-api-openapi.yml
+  format: yaml
+  label: Elation Health Physicians API
+  slug: elation-physicians-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-physicians-api-openapi.yml
+- filename: elation-health-practices-api-openapi.yml
+  format: yaml
+  label: Elation Health Practices API
+  slug: elation-practices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-practices-api-openapi.yml
+- filename: elation-health-problems-api-openapi.yml
+  format: yaml
+  label: Elation Health Problems API
+  slug: elation-problems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-problems-api-openapi.yml
+- filename: elation-health-visit-notes-api-openapi.yml
+  format: yaml
+  label: Elation Health Visit Notes API
+  slug: elation-visit-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-visit-notes-api-openapi.yml
+- filename: elation-health-api-full-openapi.yaml
+  format: yaml
+  label: Elation Health API (Full v2.0)
+  slug: elation-api-full
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-api-full-openapi.yaml
 auth_types:
 - http
 - oauth2
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Elation Health Authentication
 name_suffix: Authentication
 oauth_flows:
@@ -163,8 +247,10 @@ slug: elation-health-authentication
 source_filename: elation-health-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-24'\nmethod: derived\nsource: openapi/elation-api-authentication.json, openapi/elation-api-settings.json, openapi/elation-billing-api.json,\n  openapi/elation-care-gaps-api-1.json, openapi/elation-elation-import-api.json, openapi/elation-event-subscription-api.json,\n  openapi/elation-insurance-api.json, openapi/elation-messaging-api.json, openapi/elation-orders-api.json,\n  openapi/elation-patient-document-api.json, openapi/elation-patient-profile-api.json, openapi/elation-practice-api.json\n  ...\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\n  - password\nschemes:\n- name: sec0\n  type: http\n  scheme: basic\n  sources:\n  - openapi/elation-api-authentication.json\n- name: sec0\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://example.com/oauth2/token\n    scopes: 0\n  sources:\n  - openapi/elation-api-settings.json\n  - openapi/elation-billing-api.json\n  - openapi/elation-event-subscription-api.json\n\
-  \  - openapi/elation-insurance-api.json\n  - openapi/elation-messaging-api.json\n  - openapi/elation-orders-api.json\n  - openapi/elation-patient-document-api.json\n  - openapi/elation-patient-profile-api.json\n  - openapi/elation-practice-api.json\n  - openapi/elation-premium-patient-insurance-api.json\n  - openapi/elation-reference-data-api.json\n  - openapi/elation-scheduling-api.json\n  - openapi/elation-user-management-api.json\n- name: OAuth2PasswordBearer\n  type: oauth2\n  flows:\n  - flow: password\n    tokenUrl: token\n    scopes: 0\n  sources:\n  - openapi/elation-care-gaps-api-1.json\n  - openapi/elation-elation-import-api.json\n- name: RequireAuthentication\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/elation-visit-notes-api.json\n"
+source_yaml: "generated: '2026-08-14'\nmethod: searched\ndocs: https://help.elationhealth.com/articles/rest/overview/oauth\ndocs_pages:\n  get_token: https://help.elationhealth.com/articles/rest/overview/get-token\n  token_scopes: https://help.elationhealth.com/articles/rest/overview/scopes\n  user_impersonation: https://help.elationhealth.com/articles/rest/overview/user-impersonation\n  self_service_credentials: https://help.elationhealth.com/articles/self-service-api-credential-management\nlegacy_docs: https://docs.elationhealth.com/docs/oauth\ndocs_note: >-\n  Upgraded to searched on 2026-08-14 against the new documentation host. OAuth2\n  bearer over POST /api/2.0/oauth2/token/ (application/x-www-form-urlencoded),\n  grant types client_credentials (system-to-system) and authorization_code\n  (user-facing apps), with the legacy password grant still documented for the\n  Import API. A token with no scope parameter defaults to the apiv2 global scope\n  (full access to all API resources);\
+  \ granular system/<resource>.<permission>\n  scopes exist but are in closed beta for select customers — see\n  scopes/elation-health-scopes.yml for all 151 enumerated scopes. Provider\n  impersonation uses the act_as_user scope plus the X-On-Behalf-Of header.\n  Practice admins can generate and scope credentials themselves from the Elation\n  UI. FHIR uses separate SMART-on-FHIR endpoints\n  (https://fhir.elationemr.com/fhir/r4/, sandbox\n  https://sandbox-fhir.elationemr.com/fhir/r4/); both /metadata and\n  /.well-known/smart-configuration returned HTTP 401 to an anonymous probe on\n  2026-08-14, so the FHIR conformance statement is registered-app-gated.\nsource: openapi/elation-api-authentication.json, openapi/elation-api-settings.json, openapi/elation-billing-api.json,\n  openapi/elation-care-gaps-api-1.json, openapi/elation-elation-import-api.json, openapi/elation-event-subscription-api.json,\n  openapi/elation-insurance-api.json, openapi/elation-messaging-api.json, openapi/elation-orders-api.json,\n\
+  \  openapi/elation-patient-document-api.json, openapi/elation-patient-profile-api.json, openapi/elation-practice-api.json\n  ...\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\n  - password\nschemes:\n- name: sec0\n  type: http\n  scheme: basic\n  sources:\n  - openapi/elation-api-authentication.json\n- name: sec0\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://example.com/oauth2/token\n    scopes: 0\n  sources:\n  - openapi/elation-api-settings.json\n  - openapi/elation-billing-api.json\n  - openapi/elation-event-subscription-api.json\n  - openapi/elation-insurance-api.json\n  - openapi/elation-messaging-api.json\n  - openapi/elation-orders-api.json\n  - openapi/elation-patient-document-api.json\n  - openapi/elation-patient-profile-api.json\n  - openapi/elation-practice-api.json\n  - openapi/elation-premium-patient-insurance-api.json\n  - openapi/elation-reference-data-api.json\n  - openapi/elation-scheduling-api.json\n\
+  \  - openapi/elation-user-management-api.json\n- name: OAuth2PasswordBearer\n  type: oauth2\n  flows:\n  - flow: password\n    tokenUrl: token\n    scopes: 0\n  sources:\n  - openapi/elation-care-gaps-api-1.json\n  - openapi/elation-elation-import-api.json\n- name: RequireAuthentication\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/elation-visit-notes-api.json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/authentication/elation-health-authentication.yml
 summary_line: http/oauth2 · 4 schemes
 tags:

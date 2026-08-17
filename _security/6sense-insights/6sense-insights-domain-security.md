@@ -2,12 +2,12 @@
 description: ''
 domains:
 - caa:
-  - 0 issuewild "amazon.com"
-  - 0 issuewild "amazonaws.com"
-  - 0 issuewild "amazontrust.com"
-  - 0 issuewild "awstrust.com"
-  - 0 issuewild "comodoca.com"
   - 0 issuewild "digicert.com"
+  - 0 issuewild "pki.goog"
+  - 0 issuewild "sectigo.com"
+  - 0 issue "amazon.com"
+  - 0 issue "digicert.com"
+  - 0 issue "letsencrypt.org"
   dmarc: true
   dmarc_policy: reject
   dnssec: true
@@ -31,7 +31,7 @@ slug: 6sense-insights-domain-security
 source_filename: 6sense-insights-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 6sense.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 19:06:08 2026 GMT\n  hsts: null\ndomains:\n- domain: 6sense.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 6sense.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 19:06:08 2026 GMT\n  hsts: null\ndomains:\n- domain: 6sense.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/6sense-insights/refs/heads/main/security/6sense-insights-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:

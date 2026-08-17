@@ -29,7 +29,7 @@ schemes:
   provisioning: API keys are created in Flint team settings and require at least member role permissions.
   scheme: bearer
   sources:
-  - openapi/flint-agent-tasks-openapi.yml
+  - openapi/flint-agent-tasks-api-openapi.yml
   - https://www.flint.com/docs/api
   surface: rest-api
   type: http
@@ -58,7 +58,7 @@ slug: flint-authentication
 source_filename: flint-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://www.flint.com/docs/api\ndocs: https://www.flint.com/docs/api\nsummary:\n  types: [http, oauth2]\n  http_schemes: [bearer]\n  api_key_prefix: \"ak_\"\n  oauth2_flows: [authorizationCode]\n  notes: >-\n    The REST Agent Tasks API uses a bearer API key. The hosted MCP server uses\n    OAuth 2.0 (authorization code + PKCE) via Clerk as the authorization server.\nschemes:\n  - name: bearerApiKey\n    type: http\n    scheme: bearer\n    surface: rest-api\n    header: Authorization\n    format: \"Bearer [example key]\"\n    provisioning: >-\n      API keys are created in Flint team settings and require at least member\n      role permissions.\n    sources: [openapi/flint-agent-tasks-openapi.yml, https://www.flint.com/docs/api]\n  - name: mcpOAuth\n    type: oauth2\n    surface: mcp\n    authorization_server: https://clerk.tryflint.com\n    authorization_endpoint: https://clerk.tryflint.com/oauth/authorize\n    token_endpoint:\
+source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://www.flint.com/docs/api\ndocs: https://www.flint.com/docs/api\nsummary:\n  types: [http, oauth2]\n  http_schemes: [bearer]\n  api_key_prefix: \"ak_\"\n  oauth2_flows: [authorizationCode]\n  notes: >-\n    The REST Agent Tasks API uses a bearer API key. The hosted MCP server uses\n    OAuth 2.0 (authorization code + PKCE) via Clerk as the authorization server.\nschemes:\n  - name: bearerApiKey\n    type: http\n    scheme: bearer\n    surface: rest-api\n    header: Authorization\n    format: \"Bearer [example key]\"\n    provisioning: >-\n      API keys are created in Flint team settings and require at least member\n      role permissions.\n    sources: [openapi/flint-agent-tasks-api-openapi.yml, https://www.flint.com/docs/api]\n  - name: mcpOAuth\n    type: oauth2\n    surface: mcp\n    authorization_server: https://clerk.tryflint.com\n    authorization_endpoint: https://clerk.tryflint.com/oauth/authorize\n    token_endpoint:\
   \ https://clerk.tryflint.com/oauth/token\n    registration_endpoint: https://clerk.tryflint.com/oauth/register\n    flows: [authorizationCode]\n    pkce: S256\n    grant_types: [authorization_code, refresh_token]\n    token_endpoint_auth_methods: [client_secret_basic, client_secret_post, none]\n    dynamic_client_registration: true\n    sources:\n      - https://mcp.tryflint.com/.well-known/oauth-protected-resource\n      - https://clerk.tryflint.com/.well-known/oauth-authorization-server\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/authentication/flint-authentication.yml
 summary_line: http/oauth2 · 2 schemes
@@ -71,4 +71,6 @@ tags:
 - MCP
 - Web
 - Advertising
+- Google Ads
+- Website Builder
 ---

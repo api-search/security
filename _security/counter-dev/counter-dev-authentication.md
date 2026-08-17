@@ -40,20 +40,24 @@ schemes:
   name: sessionCookie
   parameter: session
   sources:
-  - openapi/counter-dev-openapi.yml
+  - openapi/counter-dev-account-api-openapi.yml
+  - openapi/counter-dev-stats-api-openapi.yml
+  - openapi/counter-dev-tracking-api-openapi.yml
   type: apiKey
 - description: Read-only account token, paired with the user query parameter, for sessionless access to /query and /dump.
   in: query
   name: apiToken
   parameter: token
   sources:
-  - openapi/counter-dev-openapi.yml
+  - openapi/counter-dev-account-api-openapi.yml
+  - openapi/counter-dev-stats-api-openapi.yml
+  - openapi/counter-dev-tracking-api-openapi.yml
   type: apiKey
 slug: counter-dev-authentication
 source_filename: counter-dev-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/counter-dev-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - cookie\n  - query\nschemes:\n- name: sessionCookie\n  type: apiKey\n  in: cookie\n  parameter: session\n  description: Session cookie set on login/register, used by the dashboard UI.\n  sources:\n  - openapi/counter-dev-openapi.yml\n- name: apiToken\n  type: apiKey\n  in: query\n  parameter: token\n  description: Read-only account token, paired with the user query parameter, for sessionless\n    access to /query and /dump.\n  sources:\n  - openapi/counter-dev-openapi.yml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/counter-dev-account-api-openapi.yml, openapi/counter-dev-stats-api-openapi.yml,\n  openapi/counter-dev-tracking-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - cookie\n  - query\nschemes:\n- name: sessionCookie\n  type: apiKey\n  in: cookie\n  parameter: session\n  description: Session cookie set on login/register, used by the dashboard UI.\n  sources:\n  - openapi/counter-dev-account-api-openapi.yml\n  - openapi/counter-dev-stats-api-openapi.yml\n  - openapi/counter-dev-tracking-api-openapi.yml\n- name: apiToken\n  type: apiKey\n  in: query\n  parameter: token\n  description: Read-only account token, paired with the user query parameter, for sessionless\n    access to /query and /dump.\n  sources:\n  - openapi/counter-dev-account-api-openapi.yml\n  - openapi/counter-dev-stats-api-openapi.yml\n  - openapi/counter-dev-tracking-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/counter-dev/refs/heads/main/authentication/counter-dev-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:

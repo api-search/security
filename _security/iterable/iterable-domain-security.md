@@ -129,17 +129,17 @@ hosts:
   hsts_max_age: 300
   https: true
   tls_version: TLSv1.3
-- cert_expires: Nov 29 23:59:59 2026 GMT
-  host: api.iterable.com
-  hsts: false
-  https: true
-  tls_version: TLSv1.2
 - cert_expires: Oct  1 23:46:40 2026 GMT
   host: support.iterable.com
   hsts: true
   hsts_max_age: 259200
   https: true
   tls_version: TLSv1.3
+- cert_expires: Nov 29 23:59:59 2026 GMT
+  host: api.iterable.com
+  hsts: false
+  https: true
+  tls_version: TLSv1.2
 kind: domain-security
 layout: security
 method: probed
@@ -152,7 +152,7 @@ slug: iterable-domain-security
 source_filename: iterable-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: iterable.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 20:55:23 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: api.iterable.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 29 23:59:59 2026 GMT\n  hsts: false\n- host: support.iterable.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 23:46:40 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\ndomains:\n- domain: iterable.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: iterable.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 20:55:23 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: support.iterable.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 23:46:40 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\n- host: api.iterable.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 29 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: iterable.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/security/iterable-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

@@ -29,5 +29,7 @@ tags:
 - Sales Analytics
 - Forecasting
 - Revenue Operations
+- MCP
+- AI Agents
 trust_url: https://www.backstory.ai/platform/trust-security
 ---

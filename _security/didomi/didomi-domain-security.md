@@ -201,13 +201,13 @@ domains:
   domain: didomi.io
   spf: true
 hosts:
-- cert_expires: Sep 11 12:57:14 2026 GMT
+- cert_expires: Nov  9 13:30:45 2026 GMT
   host: www.didomi.io
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep  3 14:30:52 2026 GMT
+- cert_expires: Nov  2 00:17:44 2026 GMT
   host: developers.didomi.io
   hsts: true
   hsts_max_age: 31536000
@@ -230,7 +230,7 @@ slug: didomi-domain-security
 source_filename: didomi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.didomi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 12:57:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.didomi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 14:30:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.didomi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: didomi.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.didomi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 13:30:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.didomi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 00:17:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.didomi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: didomi.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/security/didomi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

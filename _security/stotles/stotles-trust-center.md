@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: stotles-public-api-openapi.yml
+  format: yaml
+  label: Stotles Public API
+  slug: stotles-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stotles/refs/heads/main/openapi/stotles-public-api-openapi.yml
 certifications:
 - SOC 2 Type II
 - GDPR
@@ -26,5 +33,15 @@ tags:
 - Sales Intelligence
 - B2G
 - Market Intelligence
+- API
+- OpenAPI
+- MCP
+- Agent Native
+- Contract Awards
+- Framework Agreements
+- CPV
+- United Kingdom
+- Ireland
+- GovTech
 trust_url: https://app.eu.vanta.com/stotles.com/trust/xpcnkioxgcvk0i3qd7fm
 ---

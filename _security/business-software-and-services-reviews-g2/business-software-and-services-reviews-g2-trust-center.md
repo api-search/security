@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: business-software-and-services-reviews-g2-openapi.yml
+- filename: business-software-and-services-reviews-g2-v2-openapi.yml
   format: yaml
   label: G2 API V2
   slug: g2-api-v2
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/business-software-and-services-reviews-g2/refs/heads/main/openapi/business-software-and-services-reviews-g2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/business-software-and-services-reviews-g2/refs/heads/main/openapi/business-software-and-services-reviews-g2-v2-openapi.yml
+- filename: business-software-and-services-reviews-g2-v2-openapi.yml
+  format: yaml
+  label: G2 Buyer Intent Data API
+  slug: g2-buyer-intent-data
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/business-software-and-services-reviews-g2/refs/heads/main/openapi/business-software-and-services-reviews-g2-v2-openapi.yml
+- filename: business-software-and-services-reviews-g2-data-solutions-openapi.yml
+  format: yaml
+  label: G2 Data Solutions API
+  slug: g2-data-solutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/business-software-and-services-reviews-g2/refs/heads/main/openapi/business-software-and-services-reviews-g2-data-solutions-openapi.yml
 certifications:
 - SOC 2
 - GDPR
@@ -22,7 +34,7 @@ slug: business-software-and-services-reviews-g2-trust-center
 source_filename: business-software-and-services-reviews-g2-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.g2.com/\nurl: https://trust.g2.com/\ncertifications:\n- SOC 2\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.g2.com/\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n  - csa star\n"
+source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nsource: https://trust.g2.com/\nurl: https://trust.g2.com/\ncertifications:\n- SOC 2\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.g2.com/\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n  - csa star\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/business-software-and-services-reviews-g2/refs/heads/main/security/business-software-and-services-reviews-g2-trust-center.yml
 summary_line: SOC 2, GDPR, CSA STAR
 tags:
@@ -31,5 +43,8 @@ tags:
 - Software Reviews
 - Buyer Intent
 - Competitive Intelligence
+- Market Intelligence
+- Marketplace
+- MCP
 trust_url: https://trust.g2.com/
 ---

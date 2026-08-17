@@ -1,18 +1,18 @@
 ---
 api_specs:
-- filename: index.html
+- filename: v1
   format: yaml
   label: Act! Web API
   slug: web-api
   spec_type: OpenAPI
-  url: https://apimta.act.com/act.web.api/swagger/index.html
+  url: https://apimta.act.com/act.web.api/swagger/docs/v1
 description: ''
 domains:
 - caa:
-  - 0 issue "letsencrypt.org"
   - 0 issue "networksolutions.com"
   - 0 issue "amazon.com"
   - 0 issue "digicert.com"
+  - 0 issue "letsencrypt.org"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
@@ -46,7 +46,7 @@ slug: act-domain-security
 source_filename: act-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.act.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: null\n- host: developer.act.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: null\n- host: apimta.act.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: act.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"networksolutions.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.act.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: null\n- host: developer.act.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: null\n- host: apimta.act.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: act.com\n  dnssec: false\n  caa:\n  - 0 issue \"networksolutions.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/security/act-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
@@ -55,5 +55,7 @@ tags:
 - Marketing Automation
 - Contact Management
 - Sales
-- Swiftpage
+- Opportunity Management
+- OData
+- Small Business
 ---

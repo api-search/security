@@ -45,7 +45,7 @@ domains:
   domain: sendhub.com
   spf: true
 hosts:
-- cert_expires: Sep  2 20:02:11 2026 GMT
+- cert_expires: Nov  1 20:02:53 2026 GMT
   host: sendhub.com
   hsts: false
   https: true
@@ -67,7 +67,7 @@ slug: sendhub-domain-security
 source_filename: sendhub-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sendhub.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 20:02:11 2026 GMT\n  hsts: false\n- host: api.sendhub.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 15 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: sendhub.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sendhub.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 20:02:53 2026 GMT\n  hsts: false\n- host: api.sendhub.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 15 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: sendhub.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/security/sendhub-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

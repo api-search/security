@@ -8,7 +8,7 @@ domains:
   domain: redventures.com
   spf: true
 hosts:
-- cert_expires: Sep  8 08:13:16 2026 GMT
+- cert_expires: Nov  2 07:35:32 2026 GMT
   host: www.redventures.com
   hsts: true
   hsts_max_age: 15552000
@@ -26,7 +26,7 @@ slug: red-ventures-domain-security
 source_filename: red-ventures-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.redventures.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 08:13:16 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: redventures.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.redventures.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 07:35:32 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: redventures.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/red-ventures/refs/heads/main/security/red-ventures-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -36,4 +36,8 @@ tags:
 - Digital Marketing
 - Portfolio
 - Holding Company
+- Publishing
+- Performance Marketing
+- Consumer Finance
+- Travel
 ---

@@ -12,6 +12,18 @@ api_specs:
   slug: serper-images-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-images-api-openapi.yml
+- filename: serper-lens-api-openapi.yml
+  format: yaml
+  label: Serper Lens API
+  slug: serper-lens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-lens-api-openapi.yml
+- filename: serper-locations-api-openapi.yml
+  format: yaml
+  label: Serper Locations API
+  slug: serper-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-locations-api-openapi.yml
 - filename: serper-maps-api-openapi.yml
   format: yaml
   label: Serper Maps API
@@ -36,6 +48,12 @@ api_specs:
   slug: serper-places-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-places-api-openapi.yml
+- filename: serper-reviews-api-openapi.yml
+  format: yaml
+  label: Serper Reviews API
+  slug: serper-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-reviews-api-openapi.yml
 - filename: serper-scholar-api-openapi.yml
   format: yaml
   label: Serper Scholar API
@@ -60,6 +78,12 @@ api_specs:
   slug: serper-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-videos-api-openapi.yml
+- filename: serper-webpage-scrape-api-openapi.yml
+  format: yaml
+  label: Serper Webpage Scrape API
+  slug: serper-webpage-scrape-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-webpage-scrape-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,13 +93,13 @@ domains:
   domain: serper.dev
   spf: true
 hosts:
-- cert_expires: Aug 30 16:07:43 2026 GMT
+- cert_expires: Oct 28 16:36:14 2026 GMT
   host: serper.dev
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 15 21:17:02 2026 GMT
+- cert_expires: Nov  6 14:34:17 2026 GMT
   host: google.serper.dev
   hsts: null
   https: true
@@ -92,7 +116,7 @@ slug: serper-domain-security
 source_filename: serper-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: serper.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 16:07:43 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: google.serper.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 21:17:02 2026 GMT\n  hsts: null\ndomains:\n- domain: serper.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: serper.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 16:36:14 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: google.serper.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 14:34:17 2026 GMT\n  hsts: null\ndomains:\n- domain: serper.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/security/serper-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -106,4 +130,16 @@ tags:
 - News
 - Maps
 - Shopping
+- Reviews
+- Lens
+- Scraping
+- Locations
+- SERP API
+- Web Search
+- Agents
+- Patents
+- Scholar
+- Autocomplete
+- Places
+- Videos
 ---

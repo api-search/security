@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi
+- filename: brandfolder-openapi-original.yml
   format: yaml
   label: Brandfolder API
   slug: brandfolder-api
   spec_type: OpenAPI
-  url: https://developers.smartsheet.com/api/brandfolder/openapi
+  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-openapi-original.yml
 certifications:
 - SOC 2
 - HIPAA
@@ -21,7 +21,7 @@ slug: brandfolder-trust-center
 source_filename: brandfolder-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.smartsheet.com/legal/security\nurl: https://www.smartsheet.com/legal/security\ncertifications:\n- SOC 2\n- HIPAA\nevidence:\n- source: https://www.smartsheet.com/legal/security\n  keywords:\n  - soc2\n  - hipaa\n  - trust center\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://www.smartsheet.com/legal/security\nurl: https://www.smartsheet.com/legal/security\ncertifications:\n- SOC 2\n- HIPAA\nevidence:\n- source: https://www.smartsheet.com/legal/security\n  keywords:\n  - soc2\n  - hipaa\n  - trust center\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/security/brandfolder-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:

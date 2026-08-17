@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: smartlead-ai-openapi.yml
+  format: yaml
+  label: SmartLead API
+  slug: smartlead-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-openapi.yml
 - filename: smartlead-ai-campaign-statistics-api-openapi.yml
   format: yaml
   label: Smartlead Campaign Statistics API
@@ -27,7 +33,7 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 28 08:19:37 2026 GMT
+- cert_expires: Oct 28 17:18:16 2026 GMT
   host: api.smartlead.ai
   hsts: true
   hsts_max_age: 63072000
@@ -50,7 +56,7 @@ slug: smartlead-ai-domain-security
 source_filename: smartlead-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.smartlead.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 16:23:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.smartlead.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 08:19:37 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: server.smartlead.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 02:04:39 2026 GMT\n  hsts: null\ndomains:\n- domain: smartlead.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.smartlead.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 16:23:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.smartlead.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 17:18:16 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: server.smartlead.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 02:04:39 2026 GMT\n  hsts: null\ndomains:\n- domain: smartlead.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/security/smartlead-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

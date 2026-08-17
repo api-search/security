@@ -18,7 +18,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Langai Authentication
 name_suffix: Authentication
 oauth_flows: []
@@ -37,7 +37,8 @@ slug: langai-authentication
 source_filename: langai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/langai-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Authenticate your account by including your secret API token in every request\n    as an Authorization: Bearer header. Create a new API token from the Settings section of\n    your Lang.ai instance. Generating a new token invalidates previously issued ones.'\n  sources:\n  - openapi/langai-api-openapi.yml\n"
+source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://docs.lang.ai/#authentication\ndocs: https://docs.lang.ai/#authentication\nderived_from: openapi/_original/langai-api-openapi.yml\nchecked: '2026-08-14'\nsummary:\n  types:\n  - http\n  http_schemes:\n  - bearer\n  api_key_in: []\n  oauth2_flows: []\n  oauth2: false\n  openid_connect: false\n  mutual_tls: false\n  scopes_published: false\n  scopes_note: >-\n    Lang.ai has no OAuth surface and therefore no scope model. A single static bearer\n    token carries full instance-level authority — there is no way to issue a\n    least-privilege credential, which is the single most consequential authentication\n    fact about this API for an agent deployment.\n  multi_tenant_note: >-\n    Authentication alone is not sufficient to address the API. The base URL is the\n    per-tenant template https://{company}.lang.ai/api/v1, so a caller needs both the\n    bearer token AND the customer's own instance subdomain.\ntoken_lifecycle:\n\
+  \  issued_from: Settings section of your Lang.ai instance\n  expiry: not documented\n  rotation: single-active-token\n  rotation_detail: >-\n    \"Keep in mind that generating a new token will invalidate the previously issued\n    ones.\" There is no overlap window, so rotation is a hard cutover: every client must\n    be updated simultaneously or it will start receiving 401.\n  revocation: implicit — issuing a new token revokes all prior tokens\n  provider_warning: >-\n    \"Do not share your secret API tokens in publicly accessible areas such GitHub,\n    client-side code, and so forth.\"\n  applies_to: every request\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Authenticate your account by including your secret API token in every request\n    as an Authorization: Bearer header. Create a new API token from the Settings section of\n    your Lang.ai instance. Generating a new token invalidates previously issued ones.'\n  sources:\n  - openapi/langai-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langai/refs/heads/main/authentication/langai-authentication.yml
 summary_line: http · 1 scheme
 tags:

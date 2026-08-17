@@ -57,6 +57,12 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-openapi.yaml
 - filename: luma-health-openapi.yaml
   format: yaml
+  label: Luma Health Feedback & Reputation API
+  slug: luma-health-feedback-reputation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-openapi.yaml
+- filename: luma-health-openapi.yaml
+  format: yaml
   label: Luma Health Conversational AI Assistant API
   slug: luma-health-assistant-api
   spec_type: OpenAPI
@@ -114,4 +120,6 @@ tags:
 - EHR
 - Interoperability
 - Clinical AI
+- Reputation Management
+- Patient Feedback
 ---

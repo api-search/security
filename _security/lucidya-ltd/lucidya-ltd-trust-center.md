@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: lucidya-ltd-social-listening-api-openapi.yml
+  format: yaml
+  label: Lucidya Social Listening API
+  slug: lucidya-social-listening-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/openapi/lucidya-ltd-social-listening-api-openapi.yml
+- filename: lucidya-ltd-ai-api-openapi.yml
+  format: yaml
+  label: Lucidya AI API
+  slug: lucidya-ai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/openapi/lucidya-ltd-ai-api-openapi.yml
+- filename: lucidya-ltd-cdp-api-openapi.yml
+  format: yaml
+  label: Lucidya CDP API
+  slug: lucidya-cdp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/openapi/lucidya-ltd-cdp-api-openapi.yml
+- filename: lucidya-ltd-omnichannel-api-openapi.yml
+  format: yaml
+  label: Lucidya OmniChannel API
+  slug: lucidya-omnichannel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/openapi/lucidya-ltd-omnichannel-api-openapi.yml
+- filename: lucidya-ltd-omniserve-analytics-api-openapi.yml
+  format: yaml
+  label: Lucidya OmniServe Analytics API
+  slug: lucidya-omniserve-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/openapi/lucidya-ltd-omniserve-analytics-api-openapi.yml
 certifications:
 - SOC 2 Type 2
 - ISO 27001

@@ -36,6 +36,24 @@ api_specs:
   slug: factiva-code-api
   spec_type: Postman
   url: https://www.postman.com/dj-cse/dow-jones-apis/documentation/l9tpql6/factiva-apis
+- filename: factiva-content-api-swagger.json
+  format: json
+  label: Factiva Content API
+  slug: factiva-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-content-api-swagger.json
+- filename: factiva-newsletters-api-openapi.json
+  format: json
+  label: DJ Factiva Newsletters API
+  slug: dj-factiva-newsletters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-newsletters-api-openapi.json
+- filename: factiva-company-news-radar-api-openapi.json
+  format: json
+  label: Factiva Company News Radar API
+  slug: factiva-company-news-radar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-company-news-radar-api-openapi.json
 description: ''
 domains:
 - caa: []
@@ -45,7 +63,7 @@ domains:
   domain: dowjones.com
   spf: true
 hosts:
-- cert_expires: Sep 29 23:59:59 2026 GMT
+- cert_expires: Feb 14 23:59:59 2027 GMT
   host: developer.dowjones.com
   hsts: false
   https: true
@@ -55,7 +73,7 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 29 23:59:59 2026 GMT
+- cert_expires: Feb 14 23:59:59 2027 GMT
   host: api.dowjones.com
   hsts: null
   https: true
@@ -72,14 +90,19 @@ slug: factiva-domain-security
 source_filename: factiva-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.dowjones.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 23:59:59 2026 GMT\n  hsts: false\n- host: www.dowjones.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 23:59:59 2026 GMT\n  hsts: false\n- host: api.dowjones.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: dowjones.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.dowjones.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 14 23:59:59 2027 GMT\n  hsts: false\n- host: www.dowjones.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 23:59:59 2026 GMT\n  hsts: false\n- host: api.dowjones.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 14 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: dowjones.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/security/factiva-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
+- AI
 - Business Intelligence
 - Content Aggregation
+- Enterprise Data
+- GenAI
 - Market Data
 - Media Monitoring
 - News
+- News API
 - Research
+- Taxonomy
 ---

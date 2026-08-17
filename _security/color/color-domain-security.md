@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: color-eligibility-api-openapi.yml
+- filename: color-external-api-v1-openapi.yml
   format: yaml
-  label: Color Eligibility API
+  label: Color External API V1
   slug: color-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/openapi/color-eligibility-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/openapi/color-external-api-v1-openapi.yml
 description: ''
 domains:
 - caa:
@@ -51,7 +51,7 @@ slug: color-domain-security
 source_filename: color-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.color.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 1800\n- host: docs.color.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 03:26:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.color.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 3600\ndomains:\n- domain: color.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.color.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 1800\n- host: docs.color.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 03:26:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.color.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 3600\ndomains:\n- domain: color.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/security/color-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -64,4 +64,7 @@ tags:
 - Preventive Health
 - Eligibility
 - Virtual Care
+- Diagnostics
+- Laboratory
+- Employee Benefits
 ---

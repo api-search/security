@@ -45,7 +45,7 @@ domains:
   domain: emailoctopus.com
   spf: true
 hosts:
-- cert_expires: Aug 17 15:10:46 2026 GMT
+- cert_expires: Oct 15 15:26:03 2026 GMT
   host: emailoctopus.com
   hsts: true
   hsts_max_age: 63072000
@@ -68,7 +68,7 @@ slug: emailoctopus-domain-security
 source_filename: emailoctopus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: emailoctopus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 15:10:46 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.emailoctopus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 08:44:52 2026 GMT\n  hsts: null\ndomains:\n- domain: emailoctopus.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: emailoctopus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 15:26:03 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.emailoctopus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 08:44:52 2026 GMT\n  hsts: null\ndomains:\n- domain: emailoctopus.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/security/emailoctopus-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -77,4 +77,11 @@ tags:
 - Newsletters
 - Campaigns
 - Automation
+- Contacts
+- Lists
+- Marketing
+- Webhooks
+- Transactional Email
+- Subscriber Management
+- Reporting
 ---

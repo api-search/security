@@ -16,10 +16,10 @@ oauth_flows:
 - refreshToken
 - deviceCode
 - tokenExchange
-overview: Uniphore secures its APIs with oauth2, openIdConnect, and http across 3 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials, authorizationCode, refreshToken, deviceCode, and tokenExchange flow(s).
+overview: Uniphore secures its APIs with oauth2, openIdConnect, and http across 4 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials, authorizationCode, refreshToken, deviceCode, and tokenExchange flow(s).
 provider_name: Uniphore
 provider_slug: uniphore
-scheme_count: 3
+scheme_count: 4
 schemes:
 - backchannel_logout: true
   code_challenge_methods:
@@ -77,6 +77,25 @@ schemes:
   - client_id
   - client_secret
   type: http
+- authorization_model:
+  - Roles
+  - Users
+  - Claim Maps
+  description: 'U-Capture (Red Box heritage) runs its own Identity Server. External identity providers are registered through the Identity Server API, and the documentation names four supported federation protocols for external user login and SSO: OpenID Connect, OAuth, WS-Federation and SAML. Authorisation inside U-Capture is expressed as Roles plus Claim Maps that bind external identity claims to U-Capture access privileges; Tenant records are readable through the Identity Server Read API but configurable only by Uniphore engineers. All API microservices sit behind an API Gateway that performs authentication and authorisation, SSL termination and whitelisting.'
+  directory_integration: LDAP (LDAP Configuration API)
+  name: ucaptureIdentityServer
+  product: U-Capture
+  protocols:
+  - OpenID Connect
+  - OAuth
+  - WS-Federation
+  - SAML
+  sources:
+  - https://support-rb.uniphore.com/conversa/DevelopConversa/DevelopUCaptureV2.0/UCaptureIdentityServerAPIs/API_Overview.htm
+  - https://support-rb.uniphore.com/conversa/DevelopConversa/DevelopUCaptureV2.0/UCaptureRESTAPIs/API_Gateway.htm
+  token_details_note: No token endpoint, grant type, header form or scope list is published for U-Capture; the docs describe features and functions, not the wire contract.
+  token_details_published: false
+  type: openIdConnect
 - configurable: true
   description: BAIC deployments support enterprise OIDC single sign-on, configured through the forge-user-management service (oidcSso.oauthBaseUrl) and an oidc-secrets Kubernetes Secret. The identity provider is customer-supplied.
   name: oidcSso
@@ -87,12 +106,14 @@ slug: uniphore-authentication
 source_filename: uniphore-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: https://uniphore.us.auth0.com/.well-known/openid-configuration\ndocs: https://uniphore.github.io/baic-docs/\nnote: >-\n  Uniphore publishes no OpenAPI, so this profile is not derived from\n  securitySchemes. It is assembled from two real, fetched sources: (1) the\n  anonymous OIDC / RFC 8414 discovery document served by Uniphore's dedicated\n  Auth0 identity tenant (uniphore.us.auth0.com), saved verbatim under\n  well-known/, and (2) the public BAIC Installation Guide, which documents the\n  machine-to-machine token exchange and the Bearer scheme used against the\n  Business AI Cloud platform API.\nsummary:\n  types:\n  - oauth2\n  - openIdConnect\n  - http\n  api_key_in: []\n  oauth2_flows:\n  - clientCredentials\n  - authorizationCode\n  - refreshToken\n  - deviceCode\n  - tokenExchange\n  bearer_format: JWT\n  pkce: true\n  mtls: false\nschemes:\n- name: openIdConnect\n  type: openIdConnect\n  openIdConnectUrl: https://uniphore.us.auth0.com/.well-known/openid-configuration\n\
+source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://uniphore.us.auth0.com/.well-known/openid-configuration\ndocs: https://uniphore.github.io/baic-docs/\nnote: >-\n  Uniphore publishes no OpenAPI, so this profile is not derived from\n  securitySchemes. It is assembled from two real, fetched sources: (1) the\n  anonymous OIDC / RFC 8414 discovery document served by Uniphore's dedicated\n  Auth0 identity tenant (uniphore.us.auth0.com), saved verbatim under\n  well-known/, and (2) the public BAIC Installation Guide, which documents the\n  machine-to-machine token exchange and the Bearer scheme used against the\n  Business AI Cloud platform API.\nsummary:\n  types:\n  - oauth2\n  - openIdConnect\n  - http\n  api_key_in: []\n  oauth2_flows:\n  - clientCredentials\n  - authorizationCode\n  - refreshToken\n  - deviceCode\n  - tokenExchange\n  bearer_format: JWT\n  pkce: true\n  mtls: false\nschemes:\n- name: openIdConnect\n  type: openIdConnect\n  openIdConnectUrl: https://uniphore.us.auth0.com/.well-known/openid-configuration\n\
   \  issuer: https://uniphore.us.auth0.com/\n  provider: Auth0 (Uniphore-dedicated tenant)\n  endpoints:\n    authorization: https://uniphore.us.auth0.com/authorize\n    token: https://uniphore.us.auth0.com/oauth/token\n    userinfo: https://uniphore.us.auth0.com/userinfo\n    jwks: well-known/uniphore-jwks.json\n    revocation: https://uniphore.us.auth0.com/oauth/revoke\n    registration: https://uniphore.us.auth0.com/oidc/register\n    device_authorization: https://uniphore.us.auth0.com/oauth/device/code\n  grant_types:\n  - client_credentials\n  - authorization_code\n  - refresh_token\n  - password\n  - implicit\n  - urn:ietf:params:oauth:grant-type:device_code\n  - urn:ietf:params:oauth:grant-type:token-exchange\n  - urn:ietf:params:oauth:grant-type:jwt-bearer\n  - http://auth0.com/oauth/grant-type/password-realm\n  - http://auth0.com/oauth/grant-type/passwordless/otp\n  - http://auth0.com/oauth/grant-type/mfa-oob\n  - http://auth0.com/oauth/grant-type/mfa-otp\n  - http://auth0.com/oauth/grant-type/mfa-recovery-code\n\
-  \  token_endpoint_auth_methods:\n  - client_secret_basic\n  - client_secret_post\n  - private_key_jwt\n  - none\n  code_challenge_methods:\n  - S256\n  - plain\n  id_token_signing_alg: [RS256, HS256, PS256]\n  dpop: true\n  backchannel_logout: true\n  sources:\n  - well-known/uniphore-openid-configuration.json\n- name: m2mBearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: >-\n    Machine-to-machine access token for the Business AI Cloud (BAIC) platform\n    API. Exchange a client_id / client_secret pair at the deployment's\n    forge-user-management service, then present the returned access_token as\n    an Authorization: Bearer header on every platform API call.\n  token_endpoint_path: /auth/m2m-token\n  token_request_params:\n  - client_id\n  - client_secret\n  response_field: access_token\n  header: 'Authorization: Bearer <token>'\n  sources:\n  - https://uniphore.github.io/baic-docs/\n- name: oidcSso\n  type: openIdConnect\n  description: >-\n    BAIC deployments\
-  \ support enterprise OIDC single sign-on, configured through\n    the forge-user-management service (oidcSso.oauthBaseUrl) and an oidc-secrets\n    Kubernetes Secret. The identity provider is customer-supplied.\n  configurable: true\n  sources:\n  - https://uniphore.github.io/baic-docs/\nx-evidence:\n- url: https://uniphore.us.auth0.com/.well-known/openid-configuration\n  http_status: 200\n  content_type: application/json\n  fetched: '2026-08-02'\n- url: https://uniphore.us.auth0.com/.well-known/oauth-authorization-server\n  http_status: 200\n  content_type: application/json\n  fetched: '2026-08-02'\n- url: https://uniphore.github.io/baic-docs/\n  http_status: 200\n  content_type: text/html\n  fetched: '2026-08-02'\n"
+  \  token_endpoint_auth_methods:\n  - client_secret_basic\n  - client_secret_post\n  - private_key_jwt\n  - none\n  code_challenge_methods:\n  - S256\n  - plain\n  id_token_signing_alg: [RS256, HS256, PS256]\n  dpop: true\n  backchannel_logout: true\n  sources:\n  - well-known/uniphore-openid-configuration.json\n- name: m2mBearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: >-\n    Machine-to-machine access token for the Business AI Cloud (BAIC) platform\n    API. Exchange a client_id / client_secret pair at the deployment's\n    forge-user-management service, then present the returned access_token as\n    an Authorization: Bearer header on every platform API call.\n  token_endpoint_path: /auth/m2m-token\n  token_request_params:\n  - client_id\n  - client_secret\n  response_field: access_token\n  header: 'Authorization: Bearer <token>'\n  sources:\n  - https://uniphore.github.io/baic-docs/\n- name: ucaptureIdentityServer\n  type: openIdConnect\n  product: U-Capture\n\
+  \  description: >-\n    U-Capture (Red Box heritage) runs its own Identity Server. External identity providers are\n    registered through the Identity Server API, and the documentation names four supported\n    federation protocols for external user login and SSO: OpenID Connect, OAuth, WS-Federation\n    and SAML. Authorisation inside U-Capture is expressed as Roles plus Claim Maps that bind\n    external identity claims to U-Capture access privileges; Tenant records are readable through\n    the Identity Server Read API but configurable only by Uniphore engineers. All API\n    microservices sit behind an API Gateway that performs authentication and authorisation, SSL\n    termination and whitelisting.\n  protocols: [OpenID Connect, OAuth, WS-Federation, SAML]\n  authorization_model: [Roles, Users, Claim Maps]\n  directory_integration: LDAP (LDAP Configuration API)\n  token_details_published: false\n  token_details_note: >-\n    No token endpoint, grant type, header form or scope list\
+  \ is published for U-Capture; the docs\n    describe features and functions, not the wire contract.\n  sources:\n  - https://support-rb.uniphore.com/conversa/DevelopConversa/DevelopUCaptureV2.0/UCaptureIdentityServerAPIs/API_Overview.htm\n  - https://support-rb.uniphore.com/conversa/DevelopConversa/DevelopUCaptureV2.0/UCaptureRESTAPIs/API_Gateway.htm\n- name: oidcSso\n  type: openIdConnect\n  description: >-\n    BAIC deployments support enterprise OIDC single sign-on, configured through\n    the forge-user-management service (oidcSso.oauthBaseUrl) and an oidc-secrets\n    Kubernetes Secret. The identity provider is customer-supplied.\n  configurable: true\n  sources:\n  - https://uniphore.github.io/baic-docs/\nx-evidence:\n- url: https://support-rb.uniphore.com/conversa/DevelopConversa/DevelopUCaptureV2.0/UCaptureIdentityServerAPIs/API_Overview.htm\n  http_status: 200\n  content_type: text/html\n  fetched: '2026-08-14'\n- url: https://uniphore.us.auth0.com/.well-known/openid-configuration\n\
+  \  http_status: 200\n  content_type: application/json\n  fetched: '2026-08-02'\n- url: https://uniphore.us.auth0.com/.well-known/oauth-authorization-server\n  http_status: 200\n  content_type: application/json\n  fetched: '2026-08-02'\n- url: https://uniphore.github.io/baic-docs/\n  http_status: 200\n  content_type: text/html\n  fetched: '2026-08-02'\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/authentication/uniphore-authentication.yml
-summary_line: oauth2/openIdConnect/http · 3 schemes
+summary_line: oauth2/openIdConnect/http · 4 schemes
 tags:
 - Company
 - Artificial Intelligence

@@ -102,6 +102,90 @@ api_specs:
   slug: elation-api-settings
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-api-settings.json
+- filename: elation-health-allergies-api-openapi.yml
+  format: yaml
+  label: Elation Health Allergies API
+  slug: elation-allergies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-allergies-api-openapi.yml
+- filename: elation-health-appointments-api-openapi.yml
+  format: yaml
+  label: Elation Health Appointments API
+  slug: elation-appointments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-appointments-api-openapi.yml
+- filename: elation-health-authentication-api-openapi.yml
+  format: yaml
+  label: Elation Health Authentication API
+  slug: elation-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-authentication-api-openapi.yml
+- filename: elation-health-billing-api-openapi.yml
+  format: yaml
+  label: Elation Health Billing API
+  slug: elation-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-billing-api-openapi.yml
+- filename: elation-health-insurance-api-openapi.yml
+  format: yaml
+  label: Elation Health Insurance API
+  slug: elation-insurance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-insurance-api-openapi.yml
+- filename: elation-health-lab-orders-api-openapi.yml
+  format: yaml
+  label: Elation Health Lab Orders API
+  slug: elation-lab-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-lab-orders-api-openapi.yml
+- filename: elation-health-medications-api-openapi.yml
+  format: yaml
+  label: Elation Health Medications API
+  slug: elation-medications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-medications-api-openapi.yml
+- filename: elation-health-messaging-api-openapi.yml
+  format: yaml
+  label: Elation Health Messaging API
+  slug: elation-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-messaging-api-openapi.yml
+- filename: elation-health-patients-api-openapi.yml
+  format: yaml
+  label: Elation Health Patients API
+  slug: elation-patients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-patients-api-openapi.yml
+- filename: elation-health-physicians-api-openapi.yml
+  format: yaml
+  label: Elation Health Physicians API
+  slug: elation-physicians-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-physicians-api-openapi.yml
+- filename: elation-health-practices-api-openapi.yml
+  format: yaml
+  label: Elation Health Practices API
+  slug: elation-practices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-practices-api-openapi.yml
+- filename: elation-health-problems-api-openapi.yml
+  format: yaml
+  label: Elation Health Problems API
+  slug: elation-problems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-problems-api-openapi.yml
+- filename: elation-health-visit-notes-api-openapi.yml
+  format: yaml
+  label: Elation Health Visit Notes API
+  slug: elation-visit-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-visit-notes-api-openapi.yml
+- filename: elation-health-api-full-openapi.yaml
+  format: yaml
+  label: Elation Health API (Full v2.0)
+  slug: elation-api-full
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/openapi/elation-health-api-full-openapi.yaml
 description: ''
 domains:
 - caa: []

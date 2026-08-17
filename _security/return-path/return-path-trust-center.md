@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: return-path-everest-api-openapi.yml
+  format: yaml
+  label: Everest API
+  slug: everest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/return-path/refs/heads/main/openapi/return-path-everest-api-openapi.yml
 certifications:
 - SOC 2 Type 2
 - ISO/IEC 27001
@@ -32,5 +39,9 @@ tags:
 - Sender Reputation
 - Inbox Placement
 - Deliverability
+- DMARC
+- Email Authentication
+- Email Validation
+- Analytics
 trust_url: https://trust.validity.com/
 ---

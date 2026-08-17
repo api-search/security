@@ -8,7 +8,7 @@ domains:
   domain: ebrandvalue.com
   spf: true
 hosts:
-- cert_expires: Aug 31 15:12:04 2026 GMT
+- cert_expires: Oct 29 15:48:17 2026 GMT
   host: www.ebrandvalue.com
   hsts: false
   https: true
@@ -25,7 +25,7 @@ slug: ebrandvalue-domain-security
 source_filename: ebrandvalue-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ebrandvalue.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 15:12:04 2026 GMT\n  hsts: false\ndomains:\n- domain: ebrandvalue.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ebrandvalue.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 15:48:17 2026 GMT\n  hsts: false\ndomains:\n- domain: ebrandvalue.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ebrandvalue/refs/heads/main/security/ebrandvalue-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

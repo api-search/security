@@ -66,7 +66,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Agile Crm Authentication
 name_suffix: Authentication
 oauth_flows: []
@@ -75,17 +75,25 @@ provider_name: Agile CRM
 provider_slug: agile-crm
 scheme_count: 1
 schemes:
-- description: HTTP Basic auth - username is account email, password is REST client API key.
+- case_sensitivity: Agile CRM documents that all data is case-sensitive, including the email used as the Basic username.
+  credential_location: Admin Settings > API & Analytics > API Key
+  credential_note: 'That screen lists more than one key. The vendor is explicit that only the first one applies: "Use the first one (API Key for REST client) for all the REST API calls." Using another key from the same screen yields HTTP 401.'
+  description: 'HTTP Basic authentication. The username is the account holder''s EMAIL ADDRESS and the password is the REST client API key. The vendor states: "This is an HTTPS-only API. Authentications are performed based on the email address of the user and the respective API Key."'
+  header: 'Authorization: Basic base64(email:apikey)'
   name: BasicAuth
   scheme: basic
   sources:
-  - openapi/agile-crm-openapi.yml
+  - https://github.com/agilecrm/rest-api/blob/master/README.md
+  - openapi/agile-crm-contacts-api-openapi.yml
+  tenant_scoping: The credential is bound to a tenant subdomain. Requests must go to https://{domain}.agilecrm.com/dev where {domain} is the account's own subdomain; a key will not authenticate against another tenant's host.
   type: http
 slug: agile-crm-authentication
 source_filename: agile-crm-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/agile-crm-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic auth - username is account email, password is REST client API key.\n  sources:\n  - openapi/agile-crm-openapi.yml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://github.com/agilecrm/rest-api/blob/master/README.md#things-to-know\ndocs: https://github.com/agilecrm/rest-api#authentication-\nsummary:\n  types:\n  - http\n  oauth2: false\n  scopes: false\n  rotation_documented: false\n  expiry: none\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: >-\n    HTTP Basic authentication. The username is the account holder's EMAIL ADDRESS and the password is\n    the REST client API key. The vendor states: \"This is an HTTPS-only API. Authentications are\n    performed based on the email address of the user and the respective API Key.\"\n  header: 'Authorization: Basic base64(email:apikey)'\n  credential_location: Admin Settings > API & Analytics > API Key\n  credential_note: >-\n    That screen lists more than one key. The vendor is explicit that only the first one applies:\n    \"Use the first one (API Key for REST client) for all the REST API calls.\" Using\
+  \ another key from\n    the same screen yields HTTP 401.\n  tenant_scoping: >-\n    The credential is bound to a tenant subdomain. Requests must go to\n    https://{domain}.agilecrm.com/dev where {domain} is the account's own subdomain; a key will not\n    authenticate against another tenant's host.\n  case_sensitivity: >-\n    Agile CRM documents that all data is case-sensitive, including the email used as the Basic\n    username.\n  sources:\n  - https://github.com/agilecrm/rest-api/blob/master/README.md\n  - openapi/agile-crm-contacts-api-openapi.yml\nposture:\n  privilege_model: full-account\n  per_integration_credentials: false\n  scoped_tokens: false\n  token_expiry: false\n  refresh: false\n  mfa_on_api: false\n  ip_allowlist: false\n  key_rotation_policy: undocumented\n  failure_status: 401\n  note: >-\n    A single long-lived, unscoped credential carrying every permission its owner holds, including\n    delete on contacts, deals, tasks, events, tracks and tickets. There is no\
+  \ way to issue a\n    read-only key, no way to scope a key to one object type, and no documented expiry or rotation\n    procedure. An agent handed this key holds the whole account. This is the dominant risk in\n    granting Agile CRM access to automation — record it in any onboarding.\nsso:\n  available: true\n  scope: application login only\n  guide: https://github.com/agilecrm/sso\n  note: >-\n    Agile CRM publishes an SSO setup guide for signing in to the application. It does not extend to\n    the REST API, which remains Basic-auth only.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/authentication/agile-crm-authentication.yml
 summary_line: http · 1 scheme
 tags:

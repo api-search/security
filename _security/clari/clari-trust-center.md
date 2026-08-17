@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: clari-copilot-api-openapi.yml
+  format: yaml
+  label: Clari Copilot API
+  slug: clari-copilot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-copilot-api-openapi.yml
 - filename: clari-activity-api-api-openapi.yml
   format: yaml
   label: Clari Activity API API
@@ -55,24 +61,29 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-opportunity-api-api-openapi.yml
 certifications:
-- SOC 2
-- ISO 27001
+- ISO/IEC 27001
+- ISO/IEC 27701
+- SOC 2 Type II
+- CSA
+- ADA
 - GDPR
-description: ''
+description: Clari publishes a security page naming six certification and compliance programs, a separate security addendum, and a vulnerability disclosure policy. There is no dedicated trust-center portal (no trust.clari.com security portal — that hostname serves the Atlassian status page) and no self-serve document request flow; the security overview is a downloadable asset.
 kind: trust-center
 layout: security
 name: Clari Trust Center
 name_suffix: Trust Center
-overview: Clari maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
+overview: Clari maintains a public trust center documenting ISO/IEC 27001, ISO/IEC 27701, SOC 2 Type II, CSA, ADA, and GDPR compliance.
 provider_name: Clari
 provider_slug: clari
 slug: clari-trust-center
 source_filename: clari-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.clari.com/security/\nurl: https://www.clari.com/security/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://www.clari.com/security/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - gdpr\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://www.clari.com/security/\nurl: https://www.clari.com/security/\nname: Clari security and compliance\ndescription: >-\n  Clari publishes a security page naming six certification and compliance programs,\n  a separate security addendum, and a vulnerability disclosure policy. There is no\n  dedicated trust-center portal (no trust.clari.com security portal — that hostname\n  serves the Atlassian status page) and no self-serve document request flow; the\n  security overview is a downloadable asset.\ncertifications:\n- name: ISO/IEC 27001\n  scope: Information Security Management System (ISMS)\n- name: ISO/IEC 27701\n  scope: Privacy Information Management System (PIMS)\n- name: SOC 2 Type II\n  scope: Trust Services Principles\n- name: CSA\n  scope: Cloud Security Alliance\n- name: ADA\n  scope: App Defense Alliance\n- name: GDPR\n  scope: GDPR compliant\nrelated_documents:\n- name: Security Addendum\n  url:\
+  \ https://www.clari.com/security-addendum/\n  http_status: 200\n- name: Security Overview (download)\n  url: https://www.clari.com/downloads/security-overview/\n- name: Privacy Policy\n  url: https://www.clari.com/privacy/\n  http_status: 200\n- name: Vulnerability Disclosure Policy\n  url: https://www.clari.com/vulnerability-disclosure-policy/\n  http_status: 200\n  see: security/clari-vulnerability-disclosure.yml\n- name: Report a Scam\n  url: https://www.clari.com/security/report-a-scam/\npress:\n- title: Clari achieves ISO 27001 certification for information security management\n  url: https://www.clari.com/press/clari-achieves-iso-27001-certification-for-information-security-management/\n- title: Clari receives Enterprise-Ready rating from the Skyhigh CloudTrust program\n  url: https://www.clari.com/press/clari-receives-enterprise-ready-rating-from-the-skyhigh-cloudtrust-program/\nevidence:\n- source: https://www.clari.com/security/\n  http_status: 200\n  keywords:\n  - iso/iec 27001\n\
+  \  - iso/iec 27701\n  - soc 2 type ii\n  - cloud security alliance\n  - app defense alliance\n  - gdpr\n  - vulnerability disclosure policy\ngaps:\n- No security.txt (RFC 9116) on any host.\n- No self-serve trust portal for requesting SOC 2 reports; documents are obtained through sales.\nx-provenance-note: >-\n  Expanded on 2026-08-13 from three certifications (SOC 2, ISO 27001, GDPR) to the six\n  named on Clari's own security page, and cross-linked to the vulnerability disclosure\n  policy discovered in the same pass.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/security/clari-trust-center.yml
-summary_line: SOC 2, ISO 27001, GDPR
+summary_line: ISO/IEC 27001, ISO/IEC 27701, SOC 2 Type II, CSA, ADA, GDPR
 tags:
 - Revenue Operations
 - Forecasting
@@ -84,5 +95,10 @@ tags:
 - Conversation Intelligence
 - B2B
 - Enterprise
+- MCP
+- Agents
+- Sales Engagement
+- Bulk Export
+- Data Ingestion
 trust_url: https://www.clari.com/security/
 ---

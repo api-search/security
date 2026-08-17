@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: clari-copilot-api-openapi.yml
+  format: yaml
+  label: Clari Copilot API
+  slug: clari-copilot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-copilot-api-openapi.yml
 - filename: clari-activity-api-api-openapi.yml
   format: yaml
   label: Clari Activity API API
@@ -68,14 +74,13 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Nov 13 23:59:59 2026 GMT
-  host: developer.clari.com
-  hsts: true
-  hsts_max_age: 63072000
+- cert_expires: Oct 19 23:59:59 2026 GMT
+  host: api-doc.copilot.clari.com
+  hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Nov 20 23:59:59 2026 GMT
-  host: api.clari.com
+- cert_expires: Oct 20 23:59:59 2026 GMT
+  host: rest-api.copilot.clari.com
   hsts: null
   https: true
   tls_version: TLSv1.3
@@ -84,16 +89,16 @@ layout: security
 method: probed
 name: Clari Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Clari, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for Clari, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Clari
 provider_slug: clari
 slug: clari-domain-security
 source_filename: clari-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.clari.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 16:41:18 2026 GMT\n  hsts: false\n- host: developer.clari.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.clari.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: clari.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.clari.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 16:41:18 2026 GMT\n  hsts: false\n- host: api-doc.copilot.clari.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 23:59:59 2026 GMT\n  hsts: false\n- host: rest-api.copilot.clari.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: clari.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/security/clari-domain-security.yml
-summary_line: TLSv1.3 · HSTS · DMARC
+summary_line: TLSv1.3 · DMARC
 tags:
 - Revenue Operations
 - Forecasting
@@ -105,4 +110,9 @@ tags:
 - Conversation Intelligence
 - B2B
 - Enterprise
+- MCP
+- Agents
+- Sales Engagement
+- Bulk Export
+- Data Ingestion
 ---

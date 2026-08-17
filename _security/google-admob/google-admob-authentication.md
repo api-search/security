@@ -1,42 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: google-admob-accounts-api-openapi.yml
+- filename: google-admob-api-v1-openapi.yml
   format: yaml
-  label: Google AdMob Accounts API
-  slug: google-admob-accounts-api
+  label: Google AdMob API v1
+  slug: google-admob-api-v1
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-accounts-api-openapi.yml
-- filename: google-admob-adunits-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-api-v1-openapi.yml
+- filename: google-admob-api-v1beta-openapi.yml
   format: yaml
-  label: Google AdMob adUnits API
-  slug: google-admob-adunits-api
+  label: Google AdMob API v1beta
+  slug: google-admob-api-v1beta
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-adunits-api-openapi.yml
-- filename: google-admob-apps-api-openapi.yml
-  format: yaml
-  label: Google AdMob Apps API
-  slug: google-admob-apps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-apps-api-openapi.yml
-- filename: google-admob-mediationgroups-api-openapi.yml
-  format: yaml
-  label: Google AdMob mediationGroups API
-  slug: google-admob-mediationgroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-mediationgroups-api-openapi.yml
-- filename: google-admob-networkreport-generate-api-openapi.yml
-  format: yaml
-  label: Google AdMob networkReport:generate API
-  slug: google-admob-networkreport-generate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-networkreport-generate-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-api-v1beta-openapi.yml
 auth_types:
 - oauth2
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Google Admob Authentication
 name_suffix: Authentication
 oauth_flows:
@@ -46,27 +28,33 @@ provider_name: Google AdMob
 provider_slug: google-admob
 scheme_count: 1
 schemes:
-- flows:
-  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+- description: Google OAuth 2.0 user authorization. AdMob does not support service accounts.
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth
     flow: authorizationCode
     scopes: 2
     tokenUrl: https://oauth2.googleapis.com/token
-  name: oauth2
+  name: GoogleOAuth2
   sources:
-  - openapi/openapi.yml
+  - openapi/google-admob-api-v1-openapi.yml
+  - openapi/google-admob-api-v1beta-openapi.yml
   type: oauth2
 slug: google-admob-authentication
 source_filename: google-admob-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/openapi.yml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/google-admob-api-v1-openapi.yml, openapi/google-admob-api-v1beta-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: GoogleOAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  description: Google OAuth 2.0 user authorization. AdMob does not support service accounts.\n  sources:\n  - openapi/google-admob-api-v1-openapi.yml\n  - openapi/google-admob-api-v1beta-openapi.yml\ndocs: https://developers.google.com/admob/api/v1/getting-started\nsearched_source: https://developers.google.com/admob/api/v1/getting-started\nnotes: 'Upgraded from the mechanically derived profile on 2026-08-13 by reading Google''s own AdMob auth\n  documentation. AdMob accepts ONLY a Google OAuth 2.0 user access token, sent as ''Authorization: Bearer\n \
+  \ <token>''. There is no API key, no basic auth, no mutual TLS client auth and - critically for automation\n  - NO SERVICE ACCOUNT SUPPORT, so an unattended agent cannot self-authorize; a human must complete consent\n  and the refresh token must be held. The AdMob API must additionally be enabled on the Google Cloud project\n  behind the OAuth client or every call returns 403 PERMISSION_DENIED. The authorization server is accounts.google.com,\n  whose RFC 8414 metadata and OIDC discovery documents were probed live (both HTTP 200) and saved to well-known/.'\nservice_accounts_supported: false\napi_keys_supported: false\ntoken_type: OAuth 2.0 user access token (Bearer)\nauthorization_server:\n  issuer: https://accounts.google.com\n  metadata: well-known/google-admob-oauth-authorization-server.json\n  openid_configuration: well-known/google-admob-openid-configuration.json\ncross_links:\n  scopes: scopes/google-admob-scopes.yml\n  conventions: conventions/google-admob-conventions.yml\n  errors:\
+  \ errors/google-admob-problem-types.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/authentication/google-admob-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Ad Mediation
 - AdMob
+- Advertising
 - App Monetization
 - Mobile Advertising
 - Mobile Apps
 - Reports
+- Reporting
 ---

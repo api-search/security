@@ -1,35 +1,11 @@
 ---
 api_specs:
-- filename: clickfunnels-contacts-api-openapi.yml
-  format: yaml
-  label: ClickFunnels Contacts API
-  slug: clickfunnels-contacts-api
+- filename: clickfunnels-api-openapi.json
+  format: json
+  label: ClickFunnels API
+  slug: clickfunnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-contacts-api-openapi.yml
-- filename: clickfunnels-fulfillments-api-openapi.yml
-  format: yaml
-  label: ClickFunnels Fulfillments API
-  slug: clickfunnels-fulfillments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-fulfillments-api-openapi.yml
-- filename: clickfunnels-products-api-openapi.yml
-  format: yaml
-  label: ClickFunnels Products API
-  slug: clickfunnels-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-products-api-openapi.yml
-- filename: clickfunnels-teams-api-openapi.yml
-  format: yaml
-  label: ClickFunnels Teams API
-  slug: clickfunnels-teams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-teams-api-openapi.yml
-- filename: clickfunnels-workspaces-api-openapi.yml
-  format: yaml
-  label: ClickFunnels Workspaces API
-  slug: clickfunnels-workspaces-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-workspaces-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-api-openapi.json
 description: ''
 domains:
 - caa: []
@@ -39,19 +15,19 @@ domains:
   domain: clickfunnels.com
   spf: true
 - caa:
-  - 0 issuewild "pki.goog; cansignhttpexchanges=yes"
-  - 0 issuewild "ssl.com"
   - 0 issue "comodoca.com"
   - 0 issue "digicert.com; cansignhttpexchanges=yes"
   - 0 issue "letsencrypt.org"
   - 0 issue "pki.goog; cansignhttpexchanges=yes"
+  - 0 issue "ssl.com"
+  - 0 issuewild "acm-validations.aws"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
   domain: myclickfunnels.com
   spf: true
 hosts:
-- cert_expires: Sep  4 08:17:59 2026 GMT
+- cert_expires: Nov  2 17:58:26 2026 GMT
   host: www.clickfunnels.com
   hsts: true
   hsts_max_age: 31536000
@@ -81,7 +57,7 @@ slug: clickfunnels-domain-security
 source_filename: clickfunnels-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.clickfunnels.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 08:17:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.myclickfunnels.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 06:51:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: accounts.myclickfunnels.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 01:15:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: clickfunnels.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: myclickfunnels.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.clickfunnels.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 17:58:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.myclickfunnels.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 06:51:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: accounts.myclickfunnels.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 01:15:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: clickfunnels.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: myclickfunnels.com\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"acm-validations.aws\"\
   \n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/security/clickfunnels-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
@@ -92,4 +68,11 @@ tags:
 - Marketing
 - Checkout
 - CRM
+- Email Marketing
+- Online Courses
+- Webhooks
+- Website Builder
+- Subscriptions
+- Marketing Automation
+- Agent Skills
 ---

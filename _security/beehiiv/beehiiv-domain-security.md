@@ -144,6 +144,18 @@ api_specs:
   slug: beehiiv-subpackage-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-workspaces-api-openapi.yml
+- filename: beehiiv-oauth2-api-openapi.yml
+  format: yaml
+  label: beehiiv OAuth2 API
+  slug: beehiiv-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-oauth2-api-openapi.yml
+- filename: beehiiv-webhook-events-openapi.yml
+  format: yaml
+  label: beehiiv Webhook Events
+  slug: beehiiv-webhook-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-webhook-events-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -182,7 +194,7 @@ slug: beehiiv-domain-security
 source_filename: beehiiv-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.beehiiv.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 03:10:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.beehiiv.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 03:10:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.beehiiv.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 03:10:29 2026 GMT\n  hsts: null\ndomains:\n- domain: beehiiv.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.beehiiv.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 03:10:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.beehiiv.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 03:10:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.beehiiv.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 03:10:29 2026 GMT\n  hsts: null\ndomains:\n- domain: beehiiv.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/security/beehiiv-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

@@ -72,14 +72,21 @@ schemes:
     tokenUrl: https://yourhospital.meditech.com/oauth/token
   name: SMART_OAuth2
   sources:
-  - openapi/_original/meditech-fhir-openapi.yml
+  - openapi/meditech-allergy-api-openapi.yml
+  - openapi/meditech-capability-api-openapi.yml
+  - openapi/meditech-condition-api-openapi.yml
+  - openapi/meditech-diagnostic-api-openapi.yml
+  - openapi/meditech-encounter-api-openapi.yml
+  - openapi/meditech-medication-api-openapi.yml
+  - openapi/meditech-observation-api-openapi.yml
+  - openapi/meditech-patient-api-openapi.yml
   type: oauth2
 slug: meditech-authentication
 source_filename: meditech-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/_original/meditech-fhir-openapi.yml\nx-provenance:\n  reviewed: '2026-07-27'\n  origin: api-evangelist-derived\n  note: >-\n    Derived from an API Evangelist model of US Core FHIR R4, NOT from MEDITECH-published\n    material. The authorizationUrl/tokenUrl below use the `yourhospital` placeholder from that\n    model; real SMART on FHIR endpoints are issued per customer facility and must be read from\n    each deployment's .well-known/smart-configuration. Do not treat these URLs as callable.\n  reconcile_against: https://greenfield.meditech.com/explorer/authorization\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: SMART_OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://yourhospital.meditech.com/oauth/authorize\n    tokenUrl: https://yourhospital.meditech.com/oauth/token\n    scopes: 5\n  description: SMART on FHIR OAuth 2.0 authorization\n\
-  \  sources:\n  - openapi/_original/meditech-fhir-openapi.yml\n"
+source_yaml: "generated: '2026-08-14'\nmethod: derived\nsource: openapi/meditech-allergy-api-openapi.yml, openapi/meditech-capability-api-openapi.yml,\n  openapi/meditech-condition-api-openapi.yml, openapi/meditech-diagnostic-api-openapi.yml, openapi/meditech-encounter-api-openapi.yml,\n  openapi/meditech-medication-api-openapi.yml, openapi/meditech-observation-api-openapi.yml,\n  openapi/meditech-patient-api-openapi.yml\nx-provenance:\n  reviewed: '2026-08-14'\n  origin: api-evangelist-derived\n  note: >-\n    Derived from an API Evangelist model of US Core FHIR R4, NOT from MEDITECH-published\n    material. The authorizationUrl/tokenUrl below use the `yourhospital` placeholder from that\n    model; real SMART on FHIR endpoints are issued per customer facility. For MEDITECH's actual\n    live Greenfield sandbox endpoints (verified first-hand, not a placeholder), see\n    authentication/meditech-greenfield-oauth.yml -- that file supersedes this one wherever they\n    disagree. Do not treat\
+  \ the URLs below as callable.\n  reconcile_against: https://greenfield.meditech.com/explorer/authorization\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: SMART_OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://yourhospital.meditech.com/oauth/authorize\n    tokenUrl: https://yourhospital.meditech.com/oauth/token\n    scopes: 5\n  description: SMART on FHIR OAuth 2.0 authorization\n  sources:\n  - openapi/meditech-allergy-api-openapi.yml\n  - openapi/meditech-capability-api-openapi.yml\n  - openapi/meditech-condition-api-openapi.yml\n  - openapi/meditech-diagnostic-api-openapi.yml\n  - openapi/meditech-encounter-api-openapi.yml\n  - openapi/meditech-medication-api-openapi.yml\n  - openapi/meditech-observation-api-openapi.yml\n  - openapi/meditech-patient-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/authentication/meditech-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

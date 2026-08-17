@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: transunion-trucontact-tcs-shaken-openapi.yml
+  format: yaml
+  label: TransUnion TruContact Trusted Call Solutions (STI-AS / STI-VS)
+  slug: trucontact-trusted-call-solutions
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/openapi/transunion-trucontact-tcs-shaken-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -27,7 +34,7 @@ slug: transunion-domain-security
 source_filename: transunion-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.transunion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 23:59:59 2026 GMT\n  hsts: null\n- host: developer.transunion.com\n  https: false\ndomains:\n- domain: transunion.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.transunion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 23:59:59 2026 GMT\n  hsts: null\n- host: developer.transunion.com\n  https: false\ndomains:\n- domain: transunion.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/security/transunion-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
@@ -37,4 +44,7 @@ tags:
 - Identity
 - Fraud
 - Marketing
+- Telecommunications
+- Call Authentication
+- STIR/SHAKEN
 ---

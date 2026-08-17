@@ -136,20 +136,73 @@ schemes:
   name: contentApiKey
   parameter: key
   sources:
-  - openapi/ghost-org-openapi.yml
+  - openapi/ghost-org-admin-images-api-openapi.yml
+  - openapi/ghost-org-admin-labels-api-openapi.yml
+  - openapi/ghost-org-admin-members-api-openapi.yml
+  - openapi/ghost-org-admin-newsletters-api-openapi.yml
+  - openapi/ghost-org-admin-offers-api-openapi.yml
+  - openapi/ghost-org-admin-pages-api-openapi.yml
+  - openapi/ghost-org-admin-posts-api-openapi.yml
+  - openapi/ghost-org-admin-site-api-openapi.yml
+  - openapi/ghost-org-admin-tags-api-openapi.yml
+  - openapi/ghost-org-admin-themes-api-openapi.yml
+  - openapi/ghost-org-admin-tiers-api-openapi.yml
+  - openapi/ghost-org-admin-users-api-openapi.yml
+  - openapi/ghost-org-admin-webhooks-api-openapi.yml
+  - openapi/ghost-org-content-authors-api-openapi.yml
+  - openapi/ghost-org-content-pages-api-openapi.yml
+  - openapi/ghost-org-content-posts-api-openapi.yml
+  - openapi/ghost-org-content-settings-api-openapi.yml
+  - openapi/ghost-org-content-tags-api-openapi.yml
+  - openapi/ghost-org-content-tiers-api-openapi.yml
   type: apiKey
 - bearerFormat: JWT
   description: 'Admin API access. An Admin API key (id:secret) is used to sign a short-lived JWT sent as `Authorization: Ghost {token}`. A staff access token or an authenticated user session may also be used.'
   name: adminJwt
   scheme: bearer
   sources:
-  - openapi/ghost-org-openapi.yml
+  - openapi/ghost-org-admin-images-api-openapi.yml
+  - openapi/ghost-org-admin-labels-api-openapi.yml
+  - openapi/ghost-org-admin-members-api-openapi.yml
+  - openapi/ghost-org-admin-newsletters-api-openapi.yml
+  - openapi/ghost-org-admin-offers-api-openapi.yml
+  - openapi/ghost-org-admin-pages-api-openapi.yml
+  - openapi/ghost-org-admin-posts-api-openapi.yml
+  - openapi/ghost-org-admin-site-api-openapi.yml
+  - openapi/ghost-org-admin-tags-api-openapi.yml
+  - openapi/ghost-org-admin-themes-api-openapi.yml
+  - openapi/ghost-org-admin-tiers-api-openapi.yml
+  - openapi/ghost-org-admin-users-api-openapi.yml
+  - openapi/ghost-org-admin-webhooks-api-openapi.yml
+  - openapi/ghost-org-authors-api-openapi.yml
+  - openapi/ghost-org-content-authors-api-openapi.yml
+  - openapi/ghost-org-content-pages-api-openapi.yml
+  - openapi/ghost-org-content-posts-api-openapi.yml
+  - openapi/ghost-org-content-settings-api-openapi.yml
+  - openapi/ghost-org-content-tags-api-openapi.yml
+  - openapi/ghost-org-content-tiers-api-openapi.yml
+  - openapi/ghost-org-images-api-openapi.yml
+  - openapi/ghost-org-members-api-openapi.yml
+  - openapi/ghost-org-newsletters-api-openapi.yml
+  - openapi/ghost-org-offers-api-openapi.yml
+  - openapi/ghost-org-pages-api-openapi.yml
+  - openapi/ghost-org-posts-api-openapi.yml
+  - openapi/ghost-org-settings-api-openapi.yml
+  - openapi/ghost-org-site-api-openapi.yml
+  - openapi/ghost-org-tags-api-openapi.yml
+  - openapi/ghost-org-themes-api-openapi.yml
+  - openapi/ghost-org-tiers-api-openapi.yml
+  - openapi/ghost-org-users-api-openapi.yml
+  - openapi/ghost-org-webhooks-api-openapi.yml
   type: http
 slug: ghost-org-authentication
 source_filename: ghost-org-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ghost-org-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: contentApiKey\n  type: apiKey\n  in: query\n  parameter: key\n  description: Content API key from a Custom Integration, passed as the `key` query parameter.\n    Safe for browser use; grants read-only access to public data.\n  sources:\n  - openapi/ghost-org-openapi.yml\n- name: adminJwt\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'Admin API access. An Admin API key (id:secret) is used to sign a short-lived\n    JWT sent as `Authorization: Ghost {token}`. A staff access token or an authenticated user\n    session may also be used.'\n  sources:\n  - openapi/ghost-org-openapi.yml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/ghost-org-admin-images-api-openapi.yml, openapi/ghost-org-admin-labels-api-openapi.yml,\n  openapi/ghost-org-admin-members-api-openapi.yml, openapi/ghost-org-admin-newsletters-api-openapi.yml,\n  openapi/ghost-org-admin-offers-api-openapi.yml, openapi/ghost-org-admin-pages-api-openapi.yml,\n  openapi/ghost-org-admin-posts-api-openapi.yml, openapi/ghost-org-admin-site-api-openapi.yml,\n  openapi/ghost-org-admin-tags-api-openapi.yml, openapi/ghost-org-admin-themes-api-openapi.yml,\n  openapi/ghost-org-admin-tiers-api-openapi.yml, openapi/ghost-org-admin-users-api-openapi.yml\n  ...\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: contentApiKey\n  type: apiKey\n  in: query\n  parameter: key\n  description: Content API key from a Custom Integration, passed as the `key` query parameter.\n    Safe for browser use; grants read-only access to public data.\n  sources:\n  - openapi/ghost-org-admin-images-api-openapi.yml\n\
+  \  - openapi/ghost-org-admin-labels-api-openapi.yml\n  - openapi/ghost-org-admin-members-api-openapi.yml\n  - openapi/ghost-org-admin-newsletters-api-openapi.yml\n  - openapi/ghost-org-admin-offers-api-openapi.yml\n  - openapi/ghost-org-admin-pages-api-openapi.yml\n  - openapi/ghost-org-admin-posts-api-openapi.yml\n  - openapi/ghost-org-admin-site-api-openapi.yml\n  - openapi/ghost-org-admin-tags-api-openapi.yml\n  - openapi/ghost-org-admin-themes-api-openapi.yml\n  - openapi/ghost-org-admin-tiers-api-openapi.yml\n  - openapi/ghost-org-admin-users-api-openapi.yml\n  - openapi/ghost-org-admin-webhooks-api-openapi.yml\n  - openapi/ghost-org-content-authors-api-openapi.yml\n  - openapi/ghost-org-content-pages-api-openapi.yml\n  - openapi/ghost-org-content-posts-api-openapi.yml\n  - openapi/ghost-org-content-settings-api-openapi.yml\n  - openapi/ghost-org-content-tags-api-openapi.yml\n  - openapi/ghost-org-content-tiers-api-openapi.yml\n- name: adminJwt\n  type: http\n  scheme: bearer\n  bearerFormat:\
+  \ JWT\n  description: 'Admin API access. An Admin API key (id:secret) is used to sign a short-lived\n    JWT sent as `Authorization: Ghost {token}`. A staff access token or an authenticated user\n    session may also be used.'\n  sources:\n  - openapi/ghost-org-admin-images-api-openapi.yml\n  - openapi/ghost-org-admin-labels-api-openapi.yml\n  - openapi/ghost-org-admin-members-api-openapi.yml\n  - openapi/ghost-org-admin-newsletters-api-openapi.yml\n  - openapi/ghost-org-admin-offers-api-openapi.yml\n  - openapi/ghost-org-admin-pages-api-openapi.yml\n  - openapi/ghost-org-admin-posts-api-openapi.yml\n  - openapi/ghost-org-admin-site-api-openapi.yml\n  - openapi/ghost-org-admin-tags-api-openapi.yml\n  - openapi/ghost-org-admin-themes-api-openapi.yml\n  - openapi/ghost-org-admin-tiers-api-openapi.yml\n  - openapi/ghost-org-admin-users-api-openapi.yml\n  - openapi/ghost-org-admin-webhooks-api-openapi.yml\n  - openapi/ghost-org-authors-api-openapi.yml\n  - openapi/ghost-org-content-authors-api-openapi.yml\n\
+  \  - openapi/ghost-org-content-pages-api-openapi.yml\n  - openapi/ghost-org-content-posts-api-openapi.yml\n  - openapi/ghost-org-content-settings-api-openapi.yml\n  - openapi/ghost-org-content-tags-api-openapi.yml\n  - openapi/ghost-org-content-tiers-api-openapi.yml\n  - openapi/ghost-org-images-api-openapi.yml\n  - openapi/ghost-org-members-api-openapi.yml\n  - openapi/ghost-org-newsletters-api-openapi.yml\n  - openapi/ghost-org-offers-api-openapi.yml\n  - openapi/ghost-org-pages-api-openapi.yml\n  - openapi/ghost-org-posts-api-openapi.yml\n  - openapi/ghost-org-settings-api-openapi.yml\n  - openapi/ghost-org-site-api-openapi.yml\n  - openapi/ghost-org-tags-api-openapi.yml\n  - openapi/ghost-org-themes-api-openapi.yml\n  - openapi/ghost-org-tiers-api-openapi.yml\n  - openapi/ghost-org-users-api-openapi.yml\n  - openapi/ghost-org-webhooks-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/authentication/ghost-org-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:

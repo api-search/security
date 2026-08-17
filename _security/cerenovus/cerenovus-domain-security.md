@@ -25,16 +25,18 @@ slug: cerenovus-domain-security
 source_filename: cerenovus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cerenovus.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 11:53:09 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: cerenovus.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cerenovus.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 11:53:09 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: cerenovus.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cerenovus/refs/heads/main/security/cerenovus-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Knowledge Management
 - Enterprise Software
-- Sales Enablement
-- Developer Tools
+- Decision Intelligence
+- Knowledge Management
+- Private Equity
+- Due Diligence
+- Model Context Protocol
 - Y Combinator
 ---

@@ -4,8 +4,8 @@ api_specs:
   format: yaml
   label: Census Management API
   slug: census-management-api
-  spec_type: OpenAPI
-  url: https://developers.getcensus.com/api-reference/introduction/overview
+  spec_type: Postman
+  url: https://www.postman.com/getcensus/workspace/census-api/overview
 description: ''
 domains:
 - caa: []
@@ -15,7 +15,7 @@ domains:
   domain: getcensus.com
   spf: true
 hosts:
-- cert_expires: Aug 20 00:28:15 2026 GMT
+- cert_expires: Oct 18 01:46:34 2026 GMT
   host: www.getcensus.com
   hsts: true
   hsts_max_age: 31536000
@@ -45,7 +45,7 @@ slug: getcensus-domain-security
 source_filename: getcensus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.getcensus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 00:28:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.getcensus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 28 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.getcensus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 631138519\ndomains:\n- domain: getcensus.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.getcensus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 01:46:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.getcensus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 28 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.getcensus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 631138519\ndomains:\n- domain: getcensus.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getcensus/refs/heads/main/security/getcensus-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

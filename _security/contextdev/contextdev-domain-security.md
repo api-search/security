@@ -42,6 +42,12 @@ api_specs:
   slug: contextdev-web-scraping-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-web-scraping-api-openapi.yml
+- filename: contextdev-batch-api-openapi.yml
+  format: yaml
+  label: Context.dev Batch API
+  slug: contextdev-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-batch-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,6 +57,12 @@ domains:
   domain: context.dev
   spf: true
 hosts:
+- cert_expires: Oct  1 21:46:31 2026 GMT
+  host: docs.context.dev
+  hsts: true
+  hsts_max_age: 63072000
+  https: true
+  tls_version: TLSv1.3
 - cert_expires: Oct  9 19:25:05 2026 GMT
   host: api.context.dev
   hsts: null
@@ -61,16 +73,16 @@ layout: security
 method: probed
 name: Contextdev Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Context.dev, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+overview: 'Domain security posture for Context.dev, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Context.dev
 provider_slug: contextdev
 slug: contextdev-domain-security
 source_filename: contextdev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.context.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 19:25:05 2026 GMT\n  hsts: null\ndomains:\n- domain: context.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.context.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 21:46:31 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.context.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 19:25:05 2026 GMT\n  hsts: null\ndomains:\n- domain: context.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/security/contextdev-domain-security.yml
-summary_line: TLSv1.3 · DMARC
+summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Web Scraping
 - Brand Intelligence

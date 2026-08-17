@@ -57,7 +57,7 @@ domains:
   domain: plausible.io
   spf: true
 hosts:
-- cert_expires: Sep 12 02:01:48 2026 GMT
+- cert_expires: Oct 15 03:03:54 2026 GMT
   host: plausible.io
   hsts: false
   https: true
@@ -74,14 +74,18 @@ slug: plausible-domain-security
 source_filename: plausible-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: plausible.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 02:01:48 2026 GMT\n  hsts: false\ndomains:\n- domain: plausible.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: plausible.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 03:03:54 2026 GMT\n  hsts: false\ndomains:\n- domain: plausible.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/security/plausible-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Analytics
 - Cookie-Free
+- Event Tracking
 - GDPR
+- Goal Conversions
 - Open Source
 - Privacy
+- Self-Hosted
+- Site Management
 - Web Analytics
 ---

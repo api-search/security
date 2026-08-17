@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: plunk-api-openapi.json
+  format: json
+  label: Plunk API
+  slug: plunk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/_original/plunk-api-openapi.json
 - filename: plunk-campaigns-api-openapi.yml
   format: yaml
   label: Plunk Campaigns API
@@ -27,12 +33,12 @@ api_specs:
 description: ''
 domains:
 - caa:
+  - 0 issuewild "pki.goog; cansignhttpexchanges=yes"
   - 0 issuewild "ssl.com"
   - 0 issue "amazon.com"
   - 0 issue "comodoca.com"
   - 0 issue "digicert.com; cansignhttpexchanges=yes"
   - 0 issue "letsencrypt.org"
-  - 0 issue "pki.goog; cansignhttpexchanges=yes"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
@@ -49,7 +55,7 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep  2 05:07:21 2026 GMT
+- cert_expires: Nov  1 05:15:23 2026 GMT
   host: api.useplunk.com
   hsts: false
   https: true
@@ -66,7 +72,7 @@ slug: plunk-domain-security
 source_filename: plunk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.useplunk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 09:04:51 2026 GMT\n  hsts: false\n- host: docs.useplunk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 09:04:59 2026 GMT\n  hsts: false\n- host: api.useplunk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 05:07:21 2026 GMT\n  hsts: false\ndomains:\n- domain: useplunk.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.useplunk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 09:04:51 2026 GMT\n  hsts: false\n- host: docs.useplunk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 09:04:59 2026 GMT\n  hsts: false\n- host: api.useplunk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 05:15:23 2026 GMT\n  hsts: false\ndomains:\n- domain: useplunk.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/security/plunk-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
@@ -76,4 +82,10 @@ tags:
 - Automation
 - Open Source
 - SaaS
+- Email API
+- Webhooks
+- Segmentation
+- Workflow Automation
+- Self-Hosted
+- Developer Tools
 ---

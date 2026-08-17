@@ -29,5 +29,7 @@ tags:
 - Customer Service
 - Sales Automation
 - REST API
+- Webhooks
+- Sales Intelligence
 trust_url: https://www.sugarai.com/legal/security-trust
 ---

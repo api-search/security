@@ -25,7 +25,7 @@ slug: brandripe-domain-security
 source_filename: brandripe-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: brandripe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 10:25:46 2026 GMT\n  hsts: false\ndomains:\n- domain: brandripe.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: brandripe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 10:25:46 2026 GMT\n  hsts: false\ndomains:\n- domain: brandripe.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandripe/refs/heads/main/security/brandripe-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

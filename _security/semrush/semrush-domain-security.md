@@ -21,25 +21,25 @@ api_specs:
 description: ''
 domains:
 - caa:
-  - 0 issue "sectigo.com"
+  - 0 issue "comodoca.com"
+  - 0 issuewild "sectigo.com"
   - 0 issue "amazon.com"
-  - 0 issue "letsencrypt.org"
-  - 0 issue "globalsign.com"
-  - 0 issuewild "digicert.com"
   - 0 issuewild "pki.goog"
+  - 0 issuewild "comodoca.com"
+  - 0 issue "globalsign.com"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
   domain: semrush.com
   spf: true
 hosts:
-- cert_expires: Aug 19 18:44:32 2026 GMT
+- cert_expires: Oct 13 12:08:50 2026 GMT
   host: developer.semrush.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 20 00:12:04 2026 GMT
+- cert_expires: Oct 12 17:30:30 2026 GMT
   host: api.semrush.com
   hsts: null
   https: true
@@ -56,7 +56,7 @@ slug: semrush-domain-security
 source_filename: semrush-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.semrush.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 18:44:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.semrush.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 00:12:04 2026 GMT\n  hsts: null\ndomains:\n- domain: semrush.com\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"globalsign.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.semrush.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 12:08:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.semrush.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 17:30:30 2026 GMT\n  hsts: null\ndomains:\n- domain: semrush.com\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issue \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/security/semrush-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -71,4 +71,7 @@ tags:
 - Keyword Research
 - Backlinks
 - Rank Tracking
+- AI Search Visibility
+- Local SEO
+- MCP
 ---

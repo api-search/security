@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: eventxtra-public-api-openapi.json
+  format: json
+  label: EventX Public API
+  slug: eventx-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/openapi/eventxtra-public-api-openapi.json
 certifications:
 - ISO 27001
 - GDPR
@@ -25,7 +32,11 @@ tags:
 - Check-in
 - Event Marketing
 - Virtual Events
+- Webhooks
+- OpenAPI
 - MCP
 - AI
+- Hong Kong
+- APAC
 trust_url: https://eventx.io/data-protection-and-security
 ---

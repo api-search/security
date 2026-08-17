@@ -26,12 +26,12 @@ api_specs:
   slug: adobe-launch-data-elements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-data-elements-api-openapi.yml
-- filename: adobe-launch-edge-network-api-api-openapi.yml
+- filename: adobe-launch-edge-network-published-openapi.yml
   format: yaml
   label: Adobe Launch Edge Network API API
   slug: adobe-launch-edge-network-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-edge-network-api-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-edge-network-published-openapi.yml
 - filename: adobe-launch-environments-api-openapi.yml
   format: yaml
   label: Adobe Launch Environments API
@@ -62,12 +62,12 @@ api_specs:
   slug: adobe-launch-libraries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-libraries-api-openapi.yml
-- filename: adobe-launch-media-edge-api-api-openapi.yml
+- filename: adobe-launch-media-edge-published-openapi.yml
   format: yaml
   label: Adobe Launch Media Edge API API
   slug: adobe-launch-media-edge-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-media-edge-api-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-media-edge-published-openapi.yml
 - filename: adobe-launch-properties-api-openapi.yml
   format: yaml
   label: Adobe Launch Properties API
@@ -98,13 +98,19 @@ api_specs:
   slug: adobe-launch-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-secrets-api-openapi.yml
+- filename: adobe-launch-reactor-api-published-openapi.yml
+  format: yaml
+  label: Adobe Launch Reactor API
+  slug: adobe-launch-reactor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-reactor-api-published-openapi.yml
 auth_types:
 - apiKey
 - http
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Adobe Launch Authentication
 name_suffix: Authentication
 oauth_flows: []
@@ -117,37 +123,79 @@ schemes:
   name: bearerAuth
   scheme: bearer
   sources:
-  - openapi/data-collection-api.yml
-  - openapi/event-forwarding-api.yml
-  - openapi/extension-api.yml
-  - openapi/reactor-api.yml
+  - openapi/adobe-launch-builds-api-openapi.yml
+  - openapi/adobe-launch-callbacks-api-openapi.yml
+  - openapi/adobe-launch-companies-api-openapi.yml
+  - openapi/adobe-launch-data-elements-api-openapi.yml
+  - openapi/adobe-launch-edge-network-api-api-openapi.yml
+  - openapi/adobe-launch-edge-network-published-openapi.yml
+  - openapi/adobe-launch-environments-api-openapi.yml
+  - openapi/adobe-launch-extension-packages-api-openapi.yml
+  - openapi/adobe-launch-extensions-api-openapi.yml
+  - openapi/adobe-launch-hosts-api-openapi.yml
+  - openapi/adobe-launch-libraries-api-openapi.yml
+  - openapi/adobe-launch-media-edge-api-api-openapi.yml
+  - openapi/adobe-launch-properties-api-openapi.yml
+  - openapi/adobe-launch-rule-components-api-openapi.yml
+  - openapi/adobe-launch-rules-api-openapi.yml
+  - openapi/adobe-launch-search-api-openapi.yml
+  - openapi/adobe-launch-secrets-api-openapi.yml
   type: http
 - description: Client ID credential from Adobe Developer Console.
   in: header
   name: apiKey
   parameter: x-api-key
   sources:
-  - openapi/data-collection-api.yml
-  - openapi/event-forwarding-api.yml
-  - openapi/extension-api.yml
-  - openapi/reactor-api.yml
+  - openapi/adobe-launch-builds-api-openapi.yml
+  - openapi/adobe-launch-callbacks-api-openapi.yml
+  - openapi/adobe-launch-companies-api-openapi.yml
+  - openapi/adobe-launch-data-elements-api-openapi.yml
+  - openapi/adobe-launch-edge-network-api-api-openapi.yml
+  - openapi/adobe-launch-edge-network-published-openapi.yml
+  - openapi/adobe-launch-environments-api-openapi.yml
+  - openapi/adobe-launch-extension-packages-api-openapi.yml
+  - openapi/adobe-launch-extensions-api-openapi.yml
+  - openapi/adobe-launch-hosts-api-openapi.yml
+  - openapi/adobe-launch-libraries-api-openapi.yml
+  - openapi/adobe-launch-media-edge-api-api-openapi.yml
+  - openapi/adobe-launch-properties-api-openapi.yml
+  - openapi/adobe-launch-rule-components-api-openapi.yml
+  - openapi/adobe-launch-rules-api-openapi.yml
+  - openapi/adobe-launch-search-api-openapi.yml
+  - openapi/adobe-launch-secrets-api-openapi.yml
   type: apiKey
 - description: Adobe Organization ID.
   in: header
   name: orgId
   parameter: x-gw-ims-org-id
   sources:
-  - openapi/data-collection-api.yml
-  - openapi/event-forwarding-api.yml
-  - openapi/extension-api.yml
-  - openapi/reactor-api.yml
+  - openapi/adobe-launch-builds-api-openapi.yml
+  - openapi/adobe-launch-callbacks-api-openapi.yml
+  - openapi/adobe-launch-companies-api-openapi.yml
+  - openapi/adobe-launch-data-elements-api-openapi.yml
+  - openapi/adobe-launch-edge-network-api-api-openapi.yml
+  - openapi/adobe-launch-environments-api-openapi.yml
+  - openapi/adobe-launch-extension-packages-api-openapi.yml
+  - openapi/adobe-launch-extensions-api-openapi.yml
+  - openapi/adobe-launch-hosts-api-openapi.yml
+  - openapi/adobe-launch-libraries-api-openapi.yml
+  - openapi/adobe-launch-media-edge-api-api-openapi.yml
+  - openapi/adobe-launch-properties-api-openapi.yml
+  - openapi/adobe-launch-rule-components-api-openapi.yml
+  - openapi/adobe-launch-rules-api-openapi.yml
+  - openapi/adobe-launch-search-api-openapi.yml
+  - openapi/adobe-launch-secrets-api-openapi.yml
   type: apiKey
 slug: adobe-launch-authentication
 source_filename: adobe-launch-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/data-collection-api.yml, openapi/event-forwarding-api.yml, openapi/extension-api.yml,\n  openapi/reactor-api.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 access token for authenticated data collection via server.adobedc.net.\n  sources:\n  - openapi/data-collection-api.yml\n  - openapi/event-forwarding-api.yml\n  - openapi/extension-api.yml\n  - openapi/reactor-api.yml\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Client ID credential from Adobe Developer Console.\n  sources:\n  - openapi/data-collection-api.yml\n  - openapi/event-forwarding-api.yml\n  - openapi/extension-api.yml\n  - openapi/reactor-api.yml\n- name: orgId\n  type: apiKey\n  in: header\n  parameter: x-gw-ims-org-id\n  description: Adobe Organization ID.\n  sources:\n  - openapi/data-collection-api.yml\n\
-  \  - openapi/event-forwarding-api.yml\n  - openapi/extension-api.yml\n  - openapi/reactor-api.yml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/adobe-launch-builds-api-openapi.yml, openapi/adobe-launch-callbacks-api-openapi.yml, openapi/adobe-launch-companies-api-openapi.yml,\n  openapi/adobe-launch-data-elements-api-openapi.yml, openapi/adobe-launch-edge-network-api-api-openapi.yml,\n  openapi/adobe-launch-edge-network-published-openapi.yml, openapi/adobe-launch-environments-api-openapi.yml,\n  openapi/adobe-launch-extension-packages-api-openapi.yml, openapi/adobe-launch-extensions-api-openapi.yml,\n  openapi/adobe-launch-hosts-api-openapi.yml, openapi/adobe-launch-libraries-api-openapi.yml, openapi/adobe-launch-media-edge-api-api-openapi.yml\n  ...\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 access token for authenticated data collection via server.adobedc.net.\n  sources:\n  - openapi/adobe-launch-builds-api-openapi.yml\n  - openapi/adobe-launch-callbacks-api-openapi.yml\n\
+  \  - openapi/adobe-launch-companies-api-openapi.yml\n  - openapi/adobe-launch-data-elements-api-openapi.yml\n  - openapi/adobe-launch-edge-network-api-api-openapi.yml\n  - openapi/adobe-launch-edge-network-published-openapi.yml\n  - openapi/adobe-launch-environments-api-openapi.yml\n  - openapi/adobe-launch-extension-packages-api-openapi.yml\n  - openapi/adobe-launch-extensions-api-openapi.yml\n  - openapi/adobe-launch-hosts-api-openapi.yml\n  - openapi/adobe-launch-libraries-api-openapi.yml\n  - openapi/adobe-launch-media-edge-api-api-openapi.yml\n  - openapi/adobe-launch-properties-api-openapi.yml\n  - openapi/adobe-launch-rule-components-api-openapi.yml\n  - openapi/adobe-launch-rules-api-openapi.yml\n  - openapi/adobe-launch-search-api-openapi.yml\n  - openapi/adobe-launch-secrets-api-openapi.yml\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Client ID credential from Adobe Developer Console.\n  sources:\n  - openapi/adobe-launch-builds-api-openapi.yml\n\
+  \  - openapi/adobe-launch-callbacks-api-openapi.yml\n  - openapi/adobe-launch-companies-api-openapi.yml\n  - openapi/adobe-launch-data-elements-api-openapi.yml\n  - openapi/adobe-launch-edge-network-api-api-openapi.yml\n  - openapi/adobe-launch-edge-network-published-openapi.yml\n  - openapi/adobe-launch-environments-api-openapi.yml\n  - openapi/adobe-launch-extension-packages-api-openapi.yml\n  - openapi/adobe-launch-extensions-api-openapi.yml\n  - openapi/adobe-launch-hosts-api-openapi.yml\n  - openapi/adobe-launch-libraries-api-openapi.yml\n  - openapi/adobe-launch-media-edge-api-api-openapi.yml\n  - openapi/adobe-launch-properties-api-openapi.yml\n  - openapi/adobe-launch-rule-components-api-openapi.yml\n  - openapi/adobe-launch-rules-api-openapi.yml\n  - openapi/adobe-launch-search-api-openapi.yml\n  - openapi/adobe-launch-secrets-api-openapi.yml\n- name: orgId\n  type: apiKey\n  in: header\n  parameter: x-gw-ims-org-id\n  description: Adobe Organization ID.\n  sources:\n  - openapi/adobe-launch-builds-api-openapi.yml\n\
+  \  - openapi/adobe-launch-callbacks-api-openapi.yml\n  - openapi/adobe-launch-companies-api-openapi.yml\n  - openapi/adobe-launch-data-elements-api-openapi.yml\n  - openapi/adobe-launch-edge-network-api-api-openapi.yml\n  - openapi/adobe-launch-environments-api-openapi.yml\n  - openapi/adobe-launch-extension-packages-api-openapi.yml\n  - openapi/adobe-launch-extensions-api-openapi.yml\n  - openapi/adobe-launch-hosts-api-openapi.yml\n  - openapi/adobe-launch-libraries-api-openapi.yml\n  - openapi/adobe-launch-media-edge-api-api-openapi.yml\n  - openapi/adobe-launch-properties-api-openapi.yml\n  - openapi/adobe-launch-rule-components-api-openapi.yml\n  - openapi/adobe-launch-rules-api-openapi.yml\n  - openapi/adobe-launch-search-api-openapi.yml\n  - openapi/adobe-launch-secrets-api-openapi.yml\ndocs: https://experienceleague.adobe.com/en/docs/experience-platform/tags/api/getting-started\nsearched:\n  source:\n  - https://experienceleague.adobe.com/en/docs/experience-platform/tags/api/getting-started\n\
+  \  - https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/\n  - https://developer.adobe.com/data-collection-apis/docs/getting-started/\n  flow: OAuth 2.0 client credentials (Adobe \"OAuth Server-to-Server\")\n  token_endpoint: https://ims-na1.adobelogin.com/ims/token/v3\n  token_lifetime: 24 hours\n  required_headers:\n  - 'Authorization: Bearer {ACCESS_TOKEN}'\n  - 'x-api-key: {CLIENT_ID}'\n  - 'x-gw-ims-org-id: {ORG_ID}'\n  - 'Accept: application/vnd.api+json;revision=1  (all Reactor GETs)'\n  - 'Content-Type: application/vnd.api+json  (all Reactor requests with a body)'\n  retired:\n  - method: JWT (Service Account)\n    retired: '2025-01-01'\n    note: Adobe states OAuth Server-to-Server \"will be the only method supported moving forward\".\n  edge_surface: The Edge Network API supports non-authenticated collection at https://edge.adobedc.net\n    (datastreamId query parameter only) and authenticated collection at https://server.adobedc.net\
+  \ using\n    the same IMS bearer token plus x-api-key.\n  note: Adobe's published Reactor contract declares NO securitySchemes at all — the three required headers\n    are described only in prose inside info.description. overlays/adobe-launch-reactor-api-overlay.yaml\n    adds them so a generated client authenticates. The schemes below were derived from the API Evangelist\n    refined specs, which do declare them.\n  see:\n  - scopes/adobe-launch-scopes.yml\n  - conventions/adobe-launch-conventions.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/authentication/adobe-launch-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: jasper-api-openapi.yml
+  format: yaml
+  label: Jasper API
+  slug: jasper-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/openapi/jasper-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -8,7 +15,7 @@ domains:
   domain: jasper.ai
   spf: true
 hosts:
-- cert_expires: Sep 13 01:03:28 2026 GMT
+- cert_expires: Nov 11 09:20:57 2026 GMT
   host: www.jasper.ai
   hsts: true
   hsts_max_age: 31536000
@@ -37,7 +44,7 @@ slug: jasper-domain-security
 source_filename: jasper-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.jasper.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 01:03:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.jasper.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 15:55:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.jasper.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 13:49:10 2026 GMT\n  hsts: null\ndomains:\n- domain: jasper.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.jasper.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 09:20:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.jasper.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 15:55:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.jasper.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 13:49:10 2026 GMT\n  hsts: null\ndomains:\n- domain: jasper.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/security/jasper-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: akkio-public-api-openapi.yaml
+  format: yaml
+  label: Akkio Public API (Beta)
+  slug: akkio-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akkio/refs/heads/main/openapi/_original/akkio-public-api-openapi.yaml
 - filename: akkio-datasets-api-openapi.yml
   format: yaml
   label: Akkio Datasets API

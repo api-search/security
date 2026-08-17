@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: knownwell-alignment-api-openapi.yml
+  format: yaml
+  label: Knownwell alignment API
+  slug: knownwell-alignment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-alignment-api-openapi.yml
 - filename: knownwell-api-keys-api-openapi.yml
   format: yaml
   label: Knownwell api-keys API
@@ -69,7 +75,7 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 24 12:22:59 2026 GMT
+- cert_expires: Oct 22 16:33:25 2026 GMT
   host: api.knownwell.com
   hsts: null
   https: true
@@ -86,7 +92,7 @@ slug: knownwell-domain-security
 source_filename: knownwell-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: knownwell.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 16:46:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.knownwell.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 12:22:59 2026 GMT\n  hsts: null\ndomains:\n- domain: knownwell.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: knownwell.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 16:46:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.knownwell.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 16:33:25 2026 GMT\n  hsts: null\ndomains:\n- domain: knownwell.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/security/knownwell-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

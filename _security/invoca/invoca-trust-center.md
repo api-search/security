@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: invoca-sms-messaging-openapi.json
+  format: json
+  label: Invoca API
+  slug: invoca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/openapi/invoca-sms-messaging-openapi.json
 certifications:
 - SOC 2 Type 2
 - ISO 27001

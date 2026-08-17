@@ -8,7 +8,7 @@ domains:
   domain: moonfruit.com
   spf: true
 hosts:
-- cert_expires: Aug 27 23:29:27 2026 GMT
+- cert_expires: Oct 26 04:27:10 2026 GMT
   host: moonfruit.com
   hsts: false
   https: true
@@ -25,7 +25,7 @@ slug: moonfruit-domain-security
 source_filename: moonfruit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: moonfruit.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 23:29:27 2026 GMT\n  hsts: false\ndomains:\n- domain: moonfruit.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: moonfruit.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 04:27:10 2026 GMT\n  hsts: false\ndomains:\n- domain: moonfruit.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moonfruit/refs/heads/main/security/moonfruit-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: beeketing-shopbase-admin-openapi.json
+  format: json
+  label: ShopBase Admin API
+  slug: shopbase-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-shopbase-admin-openapi.json
 description: ''
 domains:
 - caa: []

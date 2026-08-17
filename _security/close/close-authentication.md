@@ -1,5 +1,6 @@
 ---
-api_key_in: []
+api_key_in:
+- header
 api_specs:
 - filename: close-subpackage-activities-api-openapi.yml
   format: yaml
@@ -375,41 +376,89 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/openapi/close-subpackage-webhooks-api-openapi.yml
 auth_types:
 - http
-description: ''
+- oauth2
+- apiKey
+description: Upgraded from derived to searched on 2026-08-13. The previous derived profile read the older docs-host spec, which declared OAuth2 only as `http bearer` and therefore lost the flow, endpoints and scopes entirely. The authoritative spec at https://api.close.com/api/openapi.json declares a real oauth2 scheme with an authorizationCode flow, and the docs add the MCP-specific header auth.
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Close Authentication
 name_suffix: Authentication
-oauth_flows: []
-overview: Close secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.
+oauth_flows:
+- authorizationCode
+overview: Close secures its APIs with http, oauth2, and apiKey across 3 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
 provider_name: Close
 provider_slug: close
-scheme_count: 2
+scheme_count: 3
 schemes:
-- description: Use your API key as the username and leave the password empty.
+- description: API key as the HTTP Basic username with an empty password. Close's own examples use `curl https://api.close.com/api/v1/me/ -u yourapikey:` — the trailing colon is load-bearing.
+  key_management: Close app -> Settings -> Developer -> API Keys
+  key_scoping: A key is scoped to one user/organization pair. It carries that user's full permissions; there is no per-key permission or resource restriction.
   name: ApiKeyAuth
+  restrictions:
+  - Membership creation was blocked for API-key auth on 2024-06-10 and re-enabled with domain-verification requirements on 2026-07-16.
   scheme: basic
   sources:
-  - openapi/close-openapi.yml
+  - openapi/_original/close-api-openapi.json
+  - https://developer.close.com/api/overview/api-key-authentication
   type: http
-- name: OAuth2
-  scheme: bearer
+- description: Authorization Code flow for user-facing and marketplace integrations. The user picks an organization on the consent screen, so a token is bound to one organization.
+  discovery: https://api.close.com/.well-known/oauth-authorization-server
+  flows:
+  - authorizationUrl: https://app.close.com/oauth2/authorize/
+    flow: authorizationCode
+    registrationUrl: https://api.close.com/oauth2/register/
+    revocationUrl: https://api.close.com/oauth2/revoke/
+    scopes:
+      all.full_access: Full access to all resources
+      offline_access: Request a refresh token
+    tokenUrl: https://api.close.com/oauth2/token/
+  name: OAuth2
   sources:
-  - openapi/close-openapi.yml
-  type: http
+  - openapi/_original/close-api-openapi.json
+  - https://developer.close.com/api/overview/oauth-authentication
+  token:
+    expires_in: 3600
+    refresh_rotation: The authorization server issues a new refresh token on every refresh and revokes the old one — clients must persist the replacement.
+    refresh_token: issued when offline_access is granted
+    response_extras:
+    - organization_id
+    - user_id
+    - scope
+    type: Bearer
+  type: oauth2
+- applies_to: https://mcp.close.com/mcp
+  companion_header: Close-Scope
+  description: Alternative to OAuth for the MCP server. Paired with a Close-Scope header that selects the tool tier (mcp.read | mcp.write_safe | mcp.write_destructive).
+  in: header
+  name: CloseApiKeyHeader
+  note: Not part of the REST API. Recorded here because it is the second real credential shape a Close integrator will encounter.
+  parameter_name: Close-API-Key
+  sources:
+  - https://developer.close.com/mcp
+  type: apiKey
 slug: close-authentication
 source_filename: close-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/close-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: ApiKeyAuth\n  type: http\n  scheme: basic\n  description: Use your API key as the username and leave the password empty.\n  sources:\n  - openapi/close-openapi.yml\n- name: OAuth2\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/close-openapi.yml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://developer.close.com/api/overview\ndocs:\n  - https://developer.close.com/api/overview/api-key-authentication\n  - https://developer.close.com/api/overview/oauth-authentication\n  - https://developer.close.com/integrations/create-an-oauth-app\n  - https://developer.close.com/mcp\ndescription: >-\n  Upgraded from derived to searched on 2026-08-13. The previous derived profile\n  read the older docs-host spec, which declared OAuth2 only as `http bearer` and\n  therefore lost the flow, endpoints and scopes entirely. The authoritative spec\n  at https://api.close.com/api/openapi.json declares a real oauth2 scheme with an\n  authorizationCode flow, and the docs add the MCP-specific header auth.\nsummary:\n  types: [http, oauth2, apiKey]\n  http_schemes: [basic, bearer]\n  api_key_in: [header]\n  oauth2_flows: [authorizationCode]\n  pkce: true\n  dynamic_client_registration: true\nschemes:\n  - name: ApiKeyAuth\n    type:\
+  \ http\n    scheme: basic\n    description: >-\n      API key as the HTTP Basic username with an empty password. Close's own\n      examples use `curl https://api.close.com/api/v1/me/ -u yourapikey:` — the\n      trailing colon is load-bearing.\n    key_management: Close app -> Settings -> Developer -> API Keys\n    key_scoping: >-\n      A key is scoped to one user/organization pair. It carries that user's full\n      permissions; there is no per-key permission or resource restriction.\n    restrictions:\n      - >-\n        Membership creation was blocked for API-key auth on 2024-06-10 and\n        re-enabled with domain-verification requirements on 2026-07-16.\n    sources:\n      - openapi/_original/close-api-openapi.json\n      - https://developer.close.com/api/overview/api-key-authentication\n  - name: OAuth2\n    type: oauth2\n    description: >-\n      Authorization Code flow for user-facing and marketplace integrations. The\n      user picks an organization on the consent screen,\
+  \ so a token is bound to\n      one organization.\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://app.close.com/oauth2/authorize/\n        tokenUrl: https://api.close.com/oauth2/token/\n        revocationUrl: https://api.close.com/oauth2/revoke/\n        registrationUrl: https://api.close.com/oauth2/register/\n        scopes:\n          all.full_access: Full access to all resources\n          offline_access: Request a refresh token\n    token:\n      type: Bearer\n      expires_in: 3600\n      refresh_token: issued when offline_access is granted\n      refresh_rotation: >-\n        The authorization server issues a new refresh token on every refresh and\n        revokes the old one — clients must persist the replacement.\n      response_extras: [organization_id, user_id, scope]\n    discovery: https://api.close.com/.well-known/oauth-authorization-server\n    sources:\n      - openapi/_original/close-api-openapi.json\n      - https://developer.close.com/api/overview/oauth-authentication\n\
+  \  - name: CloseApiKeyHeader\n    type: apiKey\n    in: header\n    parameter_name: Close-API-Key\n    applies_to: https://mcp.close.com/mcp\n    description: >-\n      Alternative to OAuth for the MCP server. Paired with a Close-Scope header\n      that selects the tool tier (mcp.read | mcp.write_safe |\n      mcp.write_destructive).\n    companion_header: Close-Scope\n    sources: [https://developer.close.com/mcp]\n    note: >-\n      Not part of the REST API. Recorded here because it is the second real\n      credential shape a Close integrator will encounter.\napplied:\n  global_security: [ApiKeyAuth, OAuth2]\n  note: >-\n    The OpenAPI applies both schemes globally (security: [{ApiKeyAuth: []},\n    {OAuth2: []}]); no operation carries a narrower requirement, and no scope is\n    attached at the operation level.\ngaps:\n  - >-\n    One coarse REST scope. all.full_access is the only resource scope, so least\n    privilege is not expressible for a REST integration.\n  - >-\n    No\
+  \ mTLS, no OpenID Connect discovery (/.well-known/openid-configuration\n    returns 404), no signed-request option.\n  - >-\n    MCP scope under API-key auth is asserted by the client in a header rather\n    than granted by the server.\nrelated:\n  scopes: scopes/close-scopes.yml\n  conventions: conventions/close-conventions.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/authentication/close-authentication.yml
-summary_line: http · 2 schemes
+summary_line: http/oauth2/apiKey · 3 schemes
 tags:
 - CRM
 - Sales Engagement
 - Inside Sales
 - Calling
 - SMS
+- WhatsApp
+- Sales Automation
+- Pipeline Management
+- AI Agents
+- MCP
+- Webhooks
 - SaaS
 ---

@@ -1,47 +1,17 @@
 ---
 api_specs:
-- filename: lytics-accounts-api-openapi.yml
-  format: yaml
-  label: Lytics Accounts API
-  slug: lytics-accounts-api
+- filename: lytics-api-v2-openapi.json
+  format: json
+  label: Lytics API v2
+  slug: lytics-api-v2
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-accounts-api-openapi.yml
-- filename: lytics-connections-api-openapi.yml
-  format: yaml
-  label: Lytics Connections API
-  slug: lytics-connections-api
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-api-v2-openapi.json
+- filename: lytics-api-v1-openapi.json
+  format: json
+  label: V1 Lytics API
+  slug: lytics-api-v1
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-connections-api-openapi.yml
-- filename: lytics-datamodels-api-openapi.yml
-  format: yaml
-  label: Lytics Datamodels API
-  slug: lytics-datamodels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-datamodels-api-openapi.yml
-- filename: lytics-entity-api-openapi.yml
-  format: yaml
-  label: Lytics Entity API
-  slug: lytics-entity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-entity-api-openapi.yml
-- filename: lytics-jobs-api-openapi.yml
-  format: yaml
-  label: Lytics Jobs API
-  slug: lytics-jobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-jobs-api-openapi.yml
-- filename: lytics-segments-api-openapi.yml
-  format: yaml
-  label: Lytics Segments API
-  slug: lytics-segments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-segments-api-openapi.yml
-- filename: lytics-work-api-openapi.yml
-  format: yaml
-  label: Lytics Work API
-  slug: lytics-work-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-work-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-api-v1-openapi.json
 description: ''
 domains:
 - caa: []
@@ -63,7 +33,7 @@ hosts:
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 23 11:05:35 2026 GMT
+- cert_expires: Oct 21 19:04:57 2026 GMT
   host: docs.lytics.com
   hsts: true
   hsts_max_age: 31536000
@@ -87,7 +57,7 @@ slug: lytics-domain-security
 source_filename: lytics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lytics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 19:13:49 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.lytics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 11:05:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.lytics.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: lytics.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: lytics.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lytics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 19:13:49 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.lytics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 19:04:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.lytics.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: lytics.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: lytics.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/security/lytics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

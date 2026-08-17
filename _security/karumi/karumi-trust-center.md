@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: karumi-public-api-openapi.json
+  format: json
+  label: Karumi Public API
+  slug: karumi-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-public-api-openapi.json
 certifications:
 - SOC 2
 - ISO 27001
@@ -28,5 +35,9 @@ tags:
 - Conversational AI
 - Video
 - Y Combinator
+- mcp
+- agent-native
+- analytics
+- conversation-intelligence
 trust_url: https://trust.delve.co/karumi
 ---

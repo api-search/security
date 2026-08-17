@@ -297,10 +297,10 @@ api_specs:
 description: ''
 domains:
 - caa:
-  - 0 issue "amazonaws.com"
-  - 0 issue "digicert.com"
   - 0 issue "letsencrypt.org"
   - 0 issue "pki.goog"
+  - 0 issue "amazonaws.com"
+  - 0 issue "digicert.com"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
@@ -337,7 +337,7 @@ slug: hint-health-domain-security
 source_filename: hint-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hint.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 02:26:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.hint.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 06:17:01 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.hint.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 25 08:02:25 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: hint.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hint.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 02:26:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.hint.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 06:17:01 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.hint.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 25 08:02:25 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: hint.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/security/hint-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

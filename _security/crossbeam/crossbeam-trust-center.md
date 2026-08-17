@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: postman.yaml
+  format: yaml
+  label: Crossbeam Partner API
+  slug: crossbeam-partner-api
+  spec_type: Postman
+  url: https://developers.crossbeam.com/
 certifications:
 - SOC 2
 - ISO 27001
@@ -16,7 +23,7 @@ slug: crossbeam-trust-center
 source_filename: crossbeam-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://security.crossbeam.com/\nurl: https://security.crossbeam.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\n- GDPR\nevidence:\n- source: https://security.crossbeam.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nsource: https://security.crossbeam.com/\nurl: https://security.crossbeam.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\n- GDPR\nevidence:\n- source: https://security.crossbeam.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crossbeam/refs/heads/main/security/crossbeam-trust-center.yml
 summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:

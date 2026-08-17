@@ -8,8 +8,8 @@ domains:
   domain: infinitus.ai
   spf: true
 hosts:
-- cert_expires: Sep 25 19:32:28 2026 GMT
-  host: infinitus.ai
+- cert_expires: Sep 24 10:41:08 2026 GMT
+  host: www.infinitus.ai
   hsts: true
   hsts_max_age: 31536000
   https: true
@@ -26,7 +26,7 @@ slug: infinitus-domain-security
 source_filename: infinitus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: infinitus.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 19:32:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: infinitus.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.infinitus.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 10:41:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: infinitus.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infinitus/refs/heads/main/security/infinitus-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

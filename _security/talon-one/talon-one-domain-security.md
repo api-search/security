@@ -1,83 +1,35 @@
 ---
 api_specs:
-- filename: talon-one-account-api-openapi.yml
+- filename: talon-one-integration-api-openapi.yml
   format: yaml
-  label: Talon.One Account API
-  slug: talon-one-account-api
+  label: Talon.One Integration API
+  slug: talon-one-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-account-api-openapi.yml
-- filename: talon-one-applications-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-integration-api-openapi.yml
+- filename: talon-one-management-api-openapi.yml
   format: yaml
-  label: Talon.One Applications API
-  slug: talon-one-applications-api
+  label: Talon.One Management API
+  slug: talon-one-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-applications-api-openapi.yml
-- filename: talon-one-attributes-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-management-api-openapi.yml
+- filename: talon-one-third-party-api-openapi.yml
   format: yaml
-  label: Talon.One Attributes API
-  slug: talon-one-attributes-api
+  label: Talon.One Third-party API
+  slug: talon-one-third-party-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-attributes-api-openapi.yml
-- filename: talon-one-audiences-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-third-party-api-openapi.yml
+- filename: talon-one-shopify-integration-api-openapi.yml
   format: yaml
-  label: Talon.One Audiences API
-  slug: talon-one-audiences-api
+  label: Talon.One Shopify Integration API
+  slug: talon-one-shopify-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-audiences-api-openapi.yml
-- filename: talon-one-campaigns-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-shopify-integration-api-openapi.yml
+- filename: talon-one-outbound-notifications-openapi.yml
   format: yaml
-  label: Talon.One Campaigns API
-  slug: talon-one-campaigns-api
+  label: Talon.One Outbound Notifications
+  slug: talon-one-outbound-notifications
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-campaigns-api-openapi.yml
-- filename: talon-one-collections-api-openapi.yml
-  format: yaml
-  label: Talon.One Collections API
-  slug: talon-one-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-collections-api-openapi.yml
-- filename: talon-one-coupons-api-openapi.yml
-  format: yaml
-  label: Talon.One Coupons API
-  slug: talon-one-coupons-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-coupons-api-openapi.yml
-- filename: talon-one-customer-profiles-api-openapi.yml
-  format: yaml
-  label: Talon.One Customer Profiles API
-  slug: talon-one-customer-profiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-customer-profiles-api-openapi.yml
-- filename: talon-one-customer-sessions-api-openapi.yml
-  format: yaml
-  label: Talon.One Customer Sessions API
-  slug: talon-one-customer-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-customer-sessions-api-openapi.yml
-- filename: talon-one-events-api-openapi.yml
-  format: yaml
-  label: Talon.One Events API
-  slug: talon-one-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-events-api-openapi.yml
-- filename: talon-one-exports-api-openapi.yml
-  format: yaml
-  label: Talon.One Exports API
-  slug: talon-one-exports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-exports-api-openapi.yml
-- filename: talon-one-loyalty-api-openapi.yml
-  format: yaml
-  label: Talon.One Loyalty API
-  slug: talon-one-loyalty-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-loyalty-api-openapi.yml
-- filename: talon-one-referrals-api-openapi.yml
-  format: yaml
-  label: Talon.One Referrals API
-  slug: talon-one-referrals-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-referrals-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-outbound-notifications-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +39,7 @@ domains:
   domain: talon.one
   spf: true
 hosts:
-- cert_expires: Sep  8 21:09:10 2026 GMT
+- cert_expires: Nov  9 16:26:54 2026 GMT
   host: www.talon.one
   hsts: true
   hsts_max_age: 63072000
@@ -98,7 +50,7 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 16 07:01:42 2026 GMT
+- cert_expires: Oct 13 10:12:54 2026 GMT
   host: yourbaseurl.talon.one
   hsts: null
   https: true
@@ -115,7 +67,7 @@ slug: talon-one-domain-security
 source_filename: talon-one-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.talon.one\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 21:09:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.talon.one\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 07:01:42 2026 GMT\n  hsts: false\n- host: yourbaseurl.talon.one\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 07:01:42 2026 GMT\n  hsts: null\ndomains:\n- domain: talon.one\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.talon.one\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 16:26:54 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.talon.one\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 07:01:42 2026 GMT\n  hsts: false\n- host: yourbaseurl.talon.one\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 10:12:54 2026 GMT\n  hsts: null\ndomains:\n- domain: talon.one\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/security/talon-one-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
@@ -127,4 +79,8 @@ tags:
 - Personalization
 - MarTech
 - Rules Engine
+- Referrals
+- Discounts
+- Ecommerce
+- Retail
 ---

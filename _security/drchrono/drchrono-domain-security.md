@@ -44,6 +44,12 @@ domains:
   dnssec: false
   domain: drchrono.com
   spf: true
+- caa: []
+  dmarc: true
+  dmarc_policy: quarantine
+  dnssec: false
+  domain: everhealthsoftware.com
+  spf: true
 hosts:
 - cert_expires: Oct  7 00:48:42 2026 GMT
   host: www.drchrono.com
@@ -55,21 +61,27 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
+- cert_expires: Sep 14 13:53:58 2026 GMT
+  host: drchrono-fhirpresentation.everhealthsoftware.com
+  hsts: true
+  hsts_max_age: 2592000
+  https: true
+  tls_version: TLSv1.2
 kind: domain-security
 layout: security
 method: probed
 name: Drchrono Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for drchrono, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for drchrono, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: drchrono
 provider_slug: drchrono
 slug: drchrono-domain-security
 source_filename: drchrono-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.drchrono.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 00:48:42 2026 GMT\n  hsts: false\n- host: app.drchrono.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 17 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: drchrono.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.drchrono.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 00:48:42 2026 GMT\n  hsts: false\n- host: app.drchrono.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 17 23:59:59 2027 GMT\n  hsts: false\n- host: drchrono-fhirpresentation.everhealthsoftware.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 14 13:53:58 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: drchrono.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: everhealthsoftware.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/security/drchrono-domain-security.yml
-summary_line: TLSv1.3 · DMARC
+summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - EHR
 - Electronic Health Records
@@ -82,4 +94,12 @@ tags:
 - Prescriptions
 - Lab Integration
 - FHIR
+- SMART on FHIR
+- USCDI
+- Interoperability
+- Webhooks
+- OAuth 2.0
+- ONC Certified
+- Telehealth
+- Revenue Cycle Management
 ---

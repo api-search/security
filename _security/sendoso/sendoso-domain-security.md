@@ -1,35 +1,29 @@
 ---
 api_specs:
-- filename: sendoso-inventory-api-openapi.yml
+- filename: sendoso-core-api-openapi.yml
   format: yaml
-  label: Sendoso Inventory API
-  slug: sendoso-inventory-api
+  label: Sendoso Core API
+  slug: sendoso-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-inventory-api-openapi.yml
-- filename: sendoso-recipients-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-core-api-openapi.yml
+- filename: sendoso-marketplace-api-openapi.yml
   format: yaml
-  label: Sendoso Recipients API
-  slug: sendoso-recipients-api
+  label: Sendoso Marketplace and SmartSend API
+  slug: sendoso-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-recipients-api-openapi.yml
-- filename: sendoso-reports-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-marketplace-api-openapi.yml
+- filename: sendoso-scim-api-openapi.yml
   format: yaml
-  label: Sendoso Reports API
-  slug: sendoso-reports-api
+  label: Sendoso SCIM API
+  slug: sendoso-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-reports-api-openapi.yml
-- filename: sendoso-sends-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-scim-api-openapi.yml
+- filename: sendoso-webhooks-asyncapi.yml
   format: yaml
-  label: Sendoso Sends API
-  slug: sendoso-sends-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-sends-api-openapi.yml
-- filename: sendoso-teams-api-openapi.yml
-  format: yaml
-  label: Sendoso Teams API
-  slug: sendoso-teams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-teams-api-openapi.yml
+  label: Sendoso Webhooks
+  slug: sendoso-webhooks
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/asyncapi/sendoso-webhooks-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +38,7 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 19 15:32:33 2026 GMT
+- cert_expires: Oct 17 18:02:54 2026 GMT
   host: developer.sendoso.com
   hsts: true
   hsts_max_age: 63072000
@@ -67,7 +61,7 @@ slug: sendoso-domain-security
 source_filename: sendoso-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sendoso.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 05:17:03 2026 GMT\n  hsts: false\n- host: developer.sendoso.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 15:32:33 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.sendoso.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 22 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: sendoso.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sendoso.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 05:17:03 2026 GMT\n  hsts: false\n- host: developer.sendoso.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 18:02:54 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.sendoso.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 22 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: sendoso.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/security/sendoso-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -76,4 +70,11 @@ tags:
 - Sales Engagement
 - Marketing Automation
 - CRM Integration
+- eGifts
+- Swag and Merchandise
+- Fulfillment
+- Employee Recognition
+- Account Based Marketing
+- SCIM Provisioning
+- Webhooks
 ---

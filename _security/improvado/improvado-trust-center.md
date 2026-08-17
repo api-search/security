@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: improvado-agent-ask-openapi.json
+  format: json
+  label: Improvado Public Agent Ask API
+  slug: improvado-public-agent-ask-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-agent-ask-openapi.json
 certifications:
 - SOC 2
 - HIPAA
@@ -15,7 +22,7 @@ slug: improvado-trust-center
 source_filename: improvado-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://trust.improvado.io/\nurl: https://trust.improvado.io/\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.improvado.io/\n  keywords:\n  - soc 2\n  - hipaa\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://trust.improvado.io/\nurl: https://trust.improvado.io/\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.improvado.io/\n  keywords:\n  - soc 2\n  - hipaa\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/security/improvado-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
@@ -29,5 +36,7 @@ tags:
 - Business Intelligence
 - Data Integration
 - AI Agents
+- MCP
+- Agent Readiness
 trust_url: https://trust.improvado.io/
 ---

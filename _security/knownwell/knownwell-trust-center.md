@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: knownwell-alignment-api-openapi.yml
+  format: yaml
+  label: Knownwell alignment API
+  slug: knownwell-alignment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-alignment-api-openapi.yml
 - filename: knownwell-api-keys-api-openapi.yml
   format: yaml
   label: Knownwell api-keys API

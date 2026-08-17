@@ -8,13 +8,13 @@ domains:
   domain: substack.com
   spf: true
 hosts:
-- cert_expires: Aug 22 07:50:09 2026 GMT
+- cert_expires: Oct 20 10:54:53 2026 GMT
   host: substack.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 16 23:44:59 2026 GMT
+- cert_expires: Oct 15 23:43:37 2026 GMT
   host: support.substack.com
   hsts: true
   hsts_max_age: 259200
@@ -32,7 +32,7 @@ slug: substack-domain-security
 source_filename: substack-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: substack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 07:50:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: support.substack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 23:44:59 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\ndomains:\n- domain: substack.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: substack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 10:54:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: support.substack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 23:43:37 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\ndomains:\n- domain: substack.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/security/substack-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -46,4 +46,8 @@ tags:
 - Media
 - Independent Media
 - Paid Content
+- MCP
+- Agents
+- RSS
+- Analytics
 ---

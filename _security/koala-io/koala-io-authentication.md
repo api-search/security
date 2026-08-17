@@ -44,13 +44,16 @@ schemes:
   name: SecretApiKey
   scheme: bearer
   sources:
-  - openapi/koala-io-openapi.yml
+  - openapi/koala-io-accounts-api-openapi.yml
+  - openapi/koala-io-collection-api-openapi.yml
+  - openapi/koala-io-deletion-api-openapi.yml
+  - openapi/koala-io-sdk-api-openapi.yml
   type: http
 slug: koala-io-authentication
 source_filename: koala-io-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/koala-io-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: SecretApiKey\n  type: http\n  scheme: bearer\n  bearerFormat: sk_\n  description: 'Secret API key created in Settings -> API Keys, sent as `Authorization: Bearer\n    sk_...`. Used only by the Deletion (GDPR) API.'\n  sources:\n  - openapi/koala-io-openapi.yml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/koala-io-accounts-api-openapi.yml, openapi/koala-io-collection-api-openapi.yml,\n  openapi/koala-io-deletion-api-openapi.yml, openapi/koala-io-sdk-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: SecretApiKey\n  type: http\n  scheme: bearer\n  bearerFormat: sk_\n  description: 'Secret API key created in Settings -> API Keys, sent as `Authorization: Bearer\n    sk_...`. Used only by the Deletion (GDPR) API.'\n  sources:\n  - openapi/koala-io-accounts-api-openapi.yml\n  - openapi/koala-io-collection-api-openapi.yml\n  - openapi/koala-io-deletion-api-openapi.yml\n  - openapi/koala-io-sdk-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/authentication/koala-io-authentication.yml
 summary_line: http · 1 scheme
 tags:

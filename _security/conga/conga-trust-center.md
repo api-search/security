@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: conga-administration.json
+  format: json
+  label: Conga Advantage Platform REST API
+  slug: conga-advantage-platform-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-administration.json
 certifications:
 - SOC 1 Type 2
 - SOC 2 Type 2
@@ -33,5 +40,10 @@ tags:
 - E-Signature
 - Contract Intelligence
 - CRM
+- OpenAPI
+- MCP
+- GraphQL
+- Billing
+- Approvals
 trust_url: https://conga.com/trust-compliance-center
 ---

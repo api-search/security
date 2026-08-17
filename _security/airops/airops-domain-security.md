@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: airops-api-openapi.yml
+  format: yaml
+  label: AirOps API
+  slug: airops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/openapi/airops-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -8,13 +15,13 @@ domains:
   domain: airops.com
   spf: true
 hosts:
-- cert_expires: Sep 11 06:57:08 2026 GMT
+- cert_expires: Nov  9 08:16:00 2026 GMT
   host: www.airops.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 20 09:11:30 2026 GMT
+- cert_expires: Oct 18 16:16:23 2026 GMT
   host: docs.airops.com
   hsts: true
   hsts_max_age: 31536000
@@ -38,7 +45,7 @@ slug: airops-domain-security
 source_filename: airops-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.airops.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 06:57:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.airops.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 09:11:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.airops.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: airops.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.airops.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 08:16:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.airops.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 16:16:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.airops.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: airops.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/security/airops-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -53,4 +60,9 @@ tags:
 - Workflows
 - MCP
 - Analytics
+- Agent Skills
+- OpenAPI
+- Knowledge Base
+- Content Marketing
+- Citations
 ---

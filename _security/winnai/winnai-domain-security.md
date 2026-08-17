@@ -8,8 +8,20 @@ domains:
   domain: winn.ai
   spf: true
 hosts:
-- cert_expires: Aug 29 13:02:13 2026 GMT
+- cert_expires: Oct 27 17:07:12 2026 GMT
   host: www.winn.ai
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Oct 27 17:07:12 2026 GMT
+  host: winn.ai
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Oct 27 17:07:12 2026 GMT
+  host: app.winn.ai
   hsts: true
   hsts_max_age: 31536000
   https: true
@@ -19,14 +31,14 @@ layout: security
 method: probed
 name: Winnai Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Winn.ai, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Winn.ai, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Winn.ai
 provider_slug: winnai
 slug: winnai-domain-security
 source_filename: winnai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.winn.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 13:02:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: winn.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.winn.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 17:07:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: winn.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 17:07:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.winn.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 17:07:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: winn.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/winnai/refs/heads/main/security/winnai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

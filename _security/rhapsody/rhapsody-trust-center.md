@@ -33,5 +33,6 @@ tags:
 - Terminology
 - Health Data
 - MCP
+- API Gateway
 trust_url: https://rhapsody.health/trust-center/
 ---

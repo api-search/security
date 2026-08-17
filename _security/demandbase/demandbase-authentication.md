@@ -1,234 +1,107 @@
 ---
-api_key_in:
-- header
-- query
+api_key_in: []
 api_specs:
-- filename: demandbase-account-lists-api-openapi.yml
+- filename: demandbase-b2b-openapi.yml
   format: yaml
-  label: Demandbase Account Lists API
-  slug: demandbase-account-lists-api
+  label: Demandbase B2B API
+  slug: demandbase-b2b-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-account-lists-api-openapi.yml
-- filename: demandbase-accounts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-b2b-openapi.yml
+- filename: demandbase-data-export-openapi.yml
   format: yaml
-  label: Demandbase Accounts API
-  slug: demandbase-accounts-api
+  label: Demandbase Data Export API
+  slug: demandbase-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-accounts-api-openapi.yml
-- filename: demandbase-activities-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-data-export-openapi.yml
+- filename: demandbase-data-import-openapi.yml
   format: yaml
-  label: Demandbase Activities API
-  slug: demandbase-activities-api
+  label: Demandbase Data Import API
+  slug: demandbase-data-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-activities-api-openapi.yml
-- filename: demandbase-analytics-api-openapi.yml
-  format: yaml
-  label: Demandbase Analytics API
-  slug: demandbase-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-analytics-api-openapi.yml
-- filename: demandbase-api-keys-api-openapi.yml
-  format: yaml
-  label: Demandbase API Keys API
-  slug: demandbase-api-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-api-keys-api-openapi.yml
-- filename: demandbase-audiences-api-openapi.yml
-  format: yaml
-  label: Demandbase Audiences API
-  slug: demandbase-audiences-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-audiences-api-openapi.yml
-- filename: demandbase-campaigns-api-openapi.yml
-  format: yaml
-  label: Demandbase Campaigns API
-  slug: demandbase-campaigns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-campaigns-api-openapi.yml
-- filename: demandbase-company-search-api-openapi.yml
-  format: yaml
-  label: Demandbase Company Search API
-  slug: demandbase-company-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-company-search-api-openapi.yml
-- filename: demandbase-contacts-api-openapi.yml
-  format: yaml
-  label: Demandbase Contacts API
-  slug: demandbase-contacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-contacts-api-openapi.yml
-- filename: demandbase-cookie-identification-api-openapi.yml
-  format: yaml
-  label: Demandbase Cookie Identification API
-  slug: demandbase-cookie-identification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-cookie-identification-api-openapi.yml
-- filename: demandbase-downloads-api-openapi.yml
-  format: yaml
-  label: Demandbase Downloads API
-  slug: demandbase-downloads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-downloads-api-openapi.yml
-- filename: demandbase-engagement-api-openapi.yml
-  format: yaml
-  label: Demandbase Engagement API
-  slug: demandbase-engagement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-engagement-api-openapi.yml
-- filename: demandbase-enrichment-api-openapi.yml
-  format: yaml
-  label: Demandbase Enrichment API
-  slug: demandbase-enrichment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-enrichment-api-openapi.yml
-- filename: demandbase-export-jobs-api-openapi.yml
-  format: yaml
-  label: Demandbase Export Jobs API
-  slug: demandbase-export-jobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-export-jobs-api-openapi.yml
-- filename: demandbase-firmographics-api-openapi.yml
-  format: yaml
-  label: Demandbase Firmographics API
-  slug: demandbase-firmographics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-firmographics-api-openapi.yml
-- filename: demandbase-identification-api-openapi.yml
-  format: yaml
-  label: Demandbase Identification API
-  slug: demandbase-identification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-identification-api-openapi.yml
-- filename: demandbase-import-jobs-api-openapi.yml
-  format: yaml
-  label: Demandbase Import Jobs API
-  slug: demandbase-import-jobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-import-jobs-api-openapi.yml
-- filename: demandbase-intent-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-data-import-openapi.yml
+- filename: demandbase-intent-openapi.yml
   format: yaml
   label: Demandbase Intent API
   slug: demandbase-intent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-intent-api-openapi.yml
-- filename: demandbase-ip-identification-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-intent-openapi.yml
+- filename: demandbase-admin-openapi.yml
   format: yaml
-  label: Demandbase IP Identification API
-  slug: demandbase-ip-identification-api
+  label: Demandbase Admin API
+  slug: demandbase-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-ip-identification-api-openapi.yml
-- filename: demandbase-list-members-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-admin-openapi.yml
+- filename: demandbase-usage-openapi.yml
   format: yaml
-  label: Demandbase List Members API
-  slug: demandbase-list-members-api
+  label: Demandbase Usage API
+  slug: demandbase-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-list-members-api-openapi.yml
-- filename: demandbase-mappings-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-usage-openapi.yml
+- filename: demandbase-custom-sources-openapi.yml
   format: yaml
-  label: Demandbase Mappings API
-  slug: demandbase-mappings-api
+  label: Demandbase Custom Sources API
+  slug: demandbase-custom-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-mappings-api-openapi.yml
-- filename: demandbase-roles-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-custom-sources-openapi.yml
+- filename: demandbase-auth-openapi.yml
   format: yaml
-  label: Demandbase Roles API
-  slug: demandbase-roles-api
+  label: Demandbase Auth API
+  slug: demandbase-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-roles-api-openapi.yml
-- filename: demandbase-sync-api-openapi.yml
-  format: yaml
-  label: Demandbase Sync API
-  slug: demandbase-sync-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-sync-api-openapi.yml
-- filename: demandbase-technographics-api-openapi.yml
-  format: yaml
-  label: Demandbase Technographics API
-  slug: demandbase-technographics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-technographics-api-openapi.yml
-- filename: demandbase-uploads-api-openapi.yml
-  format: yaml
-  label: Demandbase Uploads API
-  slug: demandbase-uploads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-uploads-api-openapi.yml
-- filename: demandbase-users-api-openapi.yml
-  format: yaml
-  label: Demandbase Users API
-  slug: demandbase-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-users-api-openapi.yml
-- filename: demandbase-visitor-intelligence-api-openapi.yml
-  format: yaml
-  label: Demandbase Visitor Intelligence API
-  slug: demandbase-visitor-intelligence-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-visitor-intelligence-api-openapi.yml
-- filename: demandbase-webhooks-api-openapi.yml
-  format: yaml
-  label: Demandbase Webhooks API
-  slug: demandbase-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-auth-openapi.yml
 auth_types:
-- apiKey
 - http
+- oauth2
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Demandbase Authentication
 name_suffix: Authentication
-oauth_flows: []
-overview: Demandbase secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.
+oauth_flows:
+- clientCredentials
+- authorizationCode
+overview: Demandbase secures its APIs with http and oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials and authorizationCode flow(s).
 provider_name: Demandbase
 provider_slug: demandbase
-scheme_count: 3
+scheme_count: 1
 schemes:
-- bearerFormat: JWT
-  description: OAuth 2.0 bearer token for API access
-  name: bearerAuth
+- description: Bearer access token obtained from POST /auth/v1/token. Named `token` in the Admin, Data Export and Auth specs and `bearerAuth` in the B2B, Import, Intent, Usage and Custom Sources specs — the same credential either way.
+  docs: https://developer.demandbase.com/docs/auth-api
+  name: token
   scheme: bearer
   sources:
-  - openapi/demandbase-account-list-openapi.yml
   - openapi/demandbase-admin-openapi.yml
-  - openapi/demandbase-advertising-openapi.yml
+  - openapi/demandbase-b2b-openapi.yml
+  - openapi/demandbase-custom-sources-openapi.yml
   - openapi/demandbase-data-export-openapi.yml
   - openapi/demandbase-data-import-openapi.yml
-  - openapi/demandbase-engagement-openapi.yml
+  - openapi/demandbase-intent-openapi.yml
+  - openapi/demandbase-usage-openapi.yml
   type: http
-- description: API key provided as a bearer token in the Authorization header
-  in: header
-  name: apiKeyAuth
-  parameter: Authorization
-  sources:
-  - openapi/demandbase-api-openapi.yml
-  - openapi/demandbase-b2b-data-openapi.yml
-  type: apiKey
-- description: Demandbase API key passed as query parameter
-  in: query
-  name: apiKeyAuth
-  parameter: key
-  sources:
-  - openapi/demandbase-ip-openapi.yml
-  - openapi/demandbase-real-time-identification-openapi.yml
-  type: apiKey
 slug: demandbase-authentication
 source_filename: demandbase-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/demandbase-account-list-openapi.yml, openapi/demandbase-admin-openapi.yml, openapi/demandbase-advertising-openapi.yml,\n  openapi/demandbase-api-openapi.yml, openapi/demandbase-b2b-data-openapi.yml, openapi/demandbase-data-export-openapi.yml,\n  openapi/demandbase-data-import-openapi.yml, openapi/demandbase-engagement-openapi.yml, openapi/demandbase-ip-openapi.yml,\n  openapi/demandbase-real-time-identification-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2.0 bearer token for API access\n  sources:\n  - openapi/demandbase-account-list-openapi.yml\n  - openapi/demandbase-admin-openapi.yml\n  - openapi/demandbase-advertising-openapi.yml\n  - openapi/demandbase-data-export-openapi.yml\n  - openapi/demandbase-data-import-openapi.yml\n  - openapi/demandbase-engagement-openapi.yml\n\
-  - name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API key provided as a bearer token in the Authorization header\n  sources:\n  - openapi/demandbase-api-openapi.yml\n  - openapi/demandbase-b2b-data-openapi.yml\n- name: apiKeyAuth\n  type: apiKey\n  in: query\n  parameter: key\n  description: Demandbase API key passed as query parameter\n  sources:\n  - openapi/demandbase-ip-openapi.yml\n  - openapi/demandbase-real-time-identification-openapi.yml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/_original/*.json (8 harvested Demandbase OpenAPI definitions)\ndocs:\n  - https://developer.demandbase.com/docs/authenticating-with-the-apis\n  - https://developer.demandbase.com/docs/migrating-from-legacy-tokens-to-api-keysets\n  - https://developer.demandbase.com/reference/generate_access_token\n  - https://developer.demandbase.com/docs/custom-mcp-clients\nnote: >-\n  Demandbase runs two distinct authentication models on two distinct surfaces, and they do\n  not share credentials. The REST platform APIs use an OAuth 2.0 client-credentials exchange\n  against its own token endpoint and then a plain HTTP bearer token. The MCP gateway uses a\n  full OAuth 2.1 authorization-code + PKCE flow with dynamic client registration against an\n  Okta-backed authorization server. Both are recorded below.\nsummary:\n  types: [http, oauth2]\n  http_schemes: [bearer]\n  oauth2_flows: [clientCredentials, authorizationCode]\n  api_key_in:\
+  \ []\n  mtls: false\n  openid_connect: true\nschemes:\n  - name: token\n    type: http\n    scheme: bearer\n    description: >-\n      Bearer access token obtained from POST /auth/v1/token. Named `token` in the Admin,\n      Data Export and Auth specs and `bearerAuth` in the B2B, Import, Intent, Usage and\n      Custom Sources specs — the same credential either way.\n    sources:\n      - openapi/demandbase-admin-openapi.yml\n      - openapi/demandbase-b2b-openapi.yml\n      - openapi/demandbase-custom-sources-openapi.yml\n      - openapi/demandbase-data-export-openapi.yml\n      - openapi/demandbase-data-import-openapi.yml\n      - openapi/demandbase-intent-openapi.yml\n      - openapi/demandbase-usage-openapi.yml\n    docs: https://developer.demandbase.com/docs/auth-api\ntoken_exchange:\n  endpoint: https://uapi.demandbase.com/auth/v1/token\n  method: POST\n  operation: openapi/demandbase-auth-openapi.yml#POST /auth/v1/token\n  content_type: application/json\n  request:\n    grantType:\
+  \ client_credentials\n    clientId: <API Key Set client ID>\n    clientSecret: <API Key Set client secret>\n  response:\n    accessToken: bearer token for authenticated API calls\n    tokenType: bearer\n    expiresIn: 28800\n  usage: 'Authorization: Bearer <access-token>'\n  warning: Do not send the Client Secret directly in the Authorization header.\ncredentials:\n  container: API Key Set\n  scope: >-\n    Platform-level, not user-level. An API Key Set is a named permission container for one\n    integration; permissions are explicitly assigned to it and survive changes to any\n    individual user.\n  management: https://support.demandbase.com/hc/en-us/articles/38999526296603-Generate-and-Manage-API-Key-Sets\n  rotation: >-\n    Demandbase recommends one API Key Set per independent workload or trust boundary so\n    credentials can be rotated per integration.\n  legacy:\n    name: Legacy API token\n    shape: A single user-scoped token sent directly as the bearer token.\n    risk: >-\n\
+  \      Because it is tied to an individual user's profile, deactivating that user breaks\n      every integration using the token.\n    migration: https://developer.demandbase.com/docs/migrating-from-legacy-tokens-to-api-keysets\n    sunset_date: null\nmcp_authentication:\n  surface: https://gateway.demandbase.com/mcp/servers/db-mcp\n  scheme: OAuth 2.1 authorization code + PKCE (S256)\n  dynamic_client_registration: true\n  registration_endpoint: https://gateway.demandbase.com/mcp/v1/register\n  issuer: https://authentication.demandbase.com/oauth2/aus7fu7m8kDj90Z532p7\n  authorization_endpoint: https://authentication.demandbase.com/oauth2/aus7fu7m8kDj90Z532p7/v1/authorize\n  token_endpoint: https://authentication.demandbase.com/oauth2/aus7fu7m8kDj90Z532p7/v1/token\n  token_endpoint_auth_methods_supported: [none]\n  scopes_supported: [openid, profile, email, offline_access]\n  resource: https://gateway.demandbase.com/mcp/\n  protected_resource_metadata: https://gateway.demandbase.com/.well-known/oauth-protected-resource\n\
+  \  challenge: >-\n    An unauthenticated request returns HTTP 401 with\n    WWW-Authenticate: Bearer resource_metadata=\"…/.well-known/oauth-protected-resource\",\n    which is the RFC 9728 discovery bootstrap an MCP client needs.\n  guidance: >-\n    Demandbase explicitly instructs clients not to hardcode the authorization or token\n    endpoints, and to key stored registrations and tokens on the discovered issuer.\n  docs: https://developer.demandbase.com/docs/custom-mcp-clients\nidentity_provider:\n  host: authentication.demandbase.com\n  vendor: Okta\n  openid_configuration: well-known/demandbase-auth-openid-configuration.json\n  oauth_authorization_server: well-known/demandbase-auth-oauth-authorization-server.json\nauthorization:\n  model: >-\n    Access is governed by Permission Sets in Demandbase One, including a dedicated MCP tab\n    with Full Access / Limited Access (Demandbase Data and/or Your Data) / No Access. Data\n    Export access is additionally gated by the tenant's Export\
+  \ Collection (1-4), which\n    determines which entity types and fields may be requested at all.\n  docs:\n    - https://support.demandbase.com/hc/en-us/articles/4408096198811-Understanding-Permission-Sets\n    - https://developer.demandbase.com/docs/collections\nrelated:\n  - scopes/demandbase-scopes.yml\n  - conventions/demandbase-conventions.yml\n  - well-known/demandbase-well-known.yml\n  - mcp/demandbase-mcp.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/authentication/demandbase-authentication.yml
-summary_line: apiKey/http · 3 schemes
+summary_line: http/oauth2 · 1 scheme
 tags:
 - Account-Based Marketing
 - Advertising
 - AI Agents
 - B2B Marketing
+- Company Data
+- Contact Data
 - Data Enrichment
 - Intent Data
+- MCP
 - Personalization
 - Sales Intelligence
+- Technographics
 ---

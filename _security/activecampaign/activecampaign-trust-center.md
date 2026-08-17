@@ -216,6 +216,48 @@ api_specs:
   slug: activecampaign-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-webhooks-api-openapi.yml
+- filename: activecampaign-segments-api-openapi.json
+  format: json
+  label: ActiveCampaign Segments API
+  slug: activecampaign-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-segments-api-openapi.json
+- filename: activecampaign-segment-matching-api-openapi.json
+  format: json
+  label: ActiveCampaign Segment Matching API
+  slug: activecampaign-segment-matching-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-segment-matching-api-openapi.json
+- filename: activecampaign-segment-match-one-api-openapi.json
+  format: json
+  label: ActiveCampaign Segment Match One API
+  slug: activecampaign-segment-match-one-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-segment-match-one-api-openapi.json
+- filename: activecampaign-partners-api-openapi.json
+  format: json
+  label: ActiveCampaign Partners API
+  slug: activecampaign-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-partners-api-openapi.json
+- filename: activecampaign-whatsapp-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign WhatsApp API
+  slug: activecampaign-whatsapp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-whatsapp-api-openapi.yml
+- filename: activecampaign-trackcmp-api-openapi.json
+  format: json
+  label: ActiveCampaign trackcmp Event API
+  slug: activecampaign-trackcmp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-trackcmp-api-openapi.json
+- filename: activecampaign-v2-api-openapi.json
+  format: json
+  label: ActiveCampaign v2 Legacy API
+  slug: activecampaign-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-v2-api-openapi.json
 certifications:
 - SOC 2
 - HIPAA
@@ -241,5 +283,9 @@ tags:
 - CRM
 - Sales Automation
 - Customer Experience
+- SMS Marketing
+- Ecommerce
+- Segmentation
+- Webhooks
 trust_url: https://www.activecampaign.com/security
 ---

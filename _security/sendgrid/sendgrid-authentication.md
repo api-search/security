@@ -397,58 +397,79 @@ schemes:
   name: BearerAuth
   scheme: bearer
   sources:
-  - openapi/tsg_account_provisioning_v3.yaml
-  - openapi/tsg_alerts_v3.yaml
-  - openapi/tsg_api_keys_v3.yaml
-  - openapi/tsg_domain_authentication_v3.yaml
-  - openapi/tsg_email_activity_v3.yaml
-  - openapi/tsg_email_validation_v3.yaml
-  - openapi/tsg_enforced_tls_v3.yaml
-  - openapi/tsg_integrations_v3.yaml
-  - openapi/tsg_ip_access_management_v3.yaml
-  - openapi/tsg_ip_address_management_v3.yaml
-  - openapi/tsg_ip_warmup_v3.yaml
-  - openapi/tsg_ips_v3.yaml
-  - openapi/tsg_link_branding_v3.yaml
-  - openapi/tsg_lmc_campaigns_v3.yaml
-  - openapi/tsg_lmc_contactdb_v3.yaml
-  - openapi/tsg_lmc_senders_v3.yaml
-  - openapi/tsg_mail_settings_v3.yaml
-  - openapi/tsg_mail_v3.yaml
-  - openapi/tsg_mc_contacts_v3.yaml
-  - openapi/tsg_mc_custom_fields_v3.yaml
-  - openapi/tsg_mc_designs_v3.yaml
-  - openapi/tsg_mc_lists_v3.yaml
-  - openapi/tsg_mc_segments_2.0_v3.yaml
-  - openapi/tsg_mc_segments_v3.yaml
-  - openapi/tsg_mc_senders_v3.yaml
-  - openapi/tsg_mc_singlesends_v3.yaml
-  - openapi/tsg_mc_stats_v3.yaml
-  - openapi/tsg_mc_test_v3.yaml
-  - openapi/tsg_partner_v3.yaml
-  - openapi/tsg_recipients_data_erasure_v3.yaml
-  - openapi/tsg_reverse_dns_v3.yaml
-  - openapi/tsg_scheduled_sends_v3.yaml
-  - openapi/tsg_scopes_v3.yaml
-  - openapi/tsg_seq_v3.yaml
-  - openapi/tsg_sso_v3.yaml
-  - openapi/tsg_stats_v3.yaml
-  - openapi/tsg_subusers_v3.yaml
-  - openapi/tsg_suppressions_v3.yaml
-  - openapi/tsg_teammates_v3.yaml
-  - openapi/tsg_templates_v3.yaml
-  - openapi/tsg_tracking_settings_v3.yaml
-  - openapi/tsg_user_v3.yaml
-  - openapi/tsg_verified_senders_v3.yaml
-  - openapi/tsg_webhooks_v3.yaml
+  - openapi/sendgrid-account-api-openapi.yml
+  - openapi/sendgrid-account-state-api-openapi.yml
+  - openapi/sendgrid-alerts-api-openapi.yml
+  - openapi/sendgrid-api-keys-api-openapi.yml
+  - openapi/sendgrid-blocks-api-openapi.yml
+  - openapi/sendgrid-bounces-api-openapi.yml
+  - openapi/sendgrid-bulk-email-address-validation-api-openapi.yml
+  - openapi/sendgrid-campaigns-api-api-openapi.yml
+  - openapi/sendgrid-categories-api-openapi.yml
+  - openapi/sendgrid-contacts-api-openapi.yml
+  - openapi/sendgrid-custom-fields-api-openapi.yml
+  - openapi/sendgrid-designs-api-openapi.yml
+  - openapi/sendgrid-domain-authentication-api-openapi.yml
+  - openapi/sendgrid-email-activity-api-openapi.yml
+  - openapi/sendgrid-email-address-validation-api-openapi.yml
+  - openapi/sendgrid-enforced-tls-api-openapi.yml
+  - openapi/sendgrid-engagement-quality-api-openapi.yml
+  - openapi/sendgrid-event-webhook-api-openapi.yml
+  - openapi/sendgrid-external-integration-endpoints-api-openapi.yml
+  - openapi/sendgrid-global-suppressions-api-openapi.yml
+  - openapi/sendgrid-invalid-emails-api-openapi.yml
+  - openapi/sendgrid-ip-access-management-api-openapi.yml
+  - openapi/sendgrid-ip-address-management-api-openapi.yml
+  - openapi/sendgrid-ip-addresses-api-openapi.yml
+  - openapi/sendgrid-ip-pools-api-openapi.yml
+  - openapi/sendgrid-ip-warmup-api-openapi.yml
+  - openapi/sendgrid-link-branding-api-openapi.yml
+  - openapi/sendgrid-lists-api-openapi.yml
+  - openapi/sendgrid-mail-batch-api-openapi.yml
+  - openapi/sendgrid-mail-send-api-openapi.yml
+  - openapi/sendgrid-mail-settings-api-openapi.yml
+  - openapi/sendgrid-offering-api-openapi.yml
+  - openapi/sendgrid-parse-webhook-api-openapi.yml
+  - openapi/sendgrid-partner-settings-api-openapi.yml
+  - openapi/sendgrid-point-delete-system-api-openapi.yml
+  - openapi/sendgrid-recipients-api-openapi.yml
+  - openapi/sendgrid-reverse-dns-api-openapi.yml
+  - openapi/sendgrid-scheduled-sends-api-openapi.yml
+  - openapi/sendgrid-scopes-api-openapi.yml
+  - openapi/sendgrid-segmenting-contacts-api-openapi.yml
+  - openapi/sendgrid-segmenting-contacts-v2-api-openapi.yml
+  - openapi/sendgrid-segments-api-openapi.yml
+  - openapi/sendgrid-send-test-email-api-openapi.yml
+  - openapi/sendgrid-sender-identities-api-openapi.yml
+  - openapi/sendgrid-sender-verification-api-openapi.yml
+  - openapi/sendgrid-senders-api-openapi.yml
+  - openapi/sendgrid-single-sends-api-openapi.yml
+  - openapi/sendgrid-spam-reports-api-openapi.yml
+  - openapi/sendgrid-sso-certificates-api-openapi.yml
+  - openapi/sendgrid-sso-settings-api-openapi.yml
+  - openapi/sendgrid-sso-teammates-api-openapi.yml
+  - openapi/sendgrid-stats-api-openapi.yml
+  - openapi/sendgrid-subuser-statistics-api-openapi.yml
+  - openapi/sendgrid-subuser-website-access-api-openapi.yml
+  - openapi/sendgrid-subusers-api-openapi.yml
+  - openapi/sendgrid-suppressions-api-openapi.yml
+  - openapi/sendgrid-teammates-api-openapi.yml
+  - openapi/sendgrid-templates-api-openapi.yml
+  - openapi/sendgrid-templates-versions-api-openapi.yml
+  - openapi/sendgrid-tracking-api-openapi.yml
+  - openapi/sendgrid-unsubscribe-groups-api-openapi.yml
+  - openapi/sendgrid-users-api-api-openapi.yml
+  - openapi/sendgrid-webhook-security-api-openapi.yml
   type: http
 slug: sendgrid-authentication
 source_filename: sendgrid-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tsg_account_provisioning_v3.yaml, openapi/tsg_alerts_v3.yaml, openapi/tsg_api_keys_v3.yaml,\n  openapi/tsg_domain_authentication_v3.yaml, openapi/tsg_email_activity_v3.yaml, openapi/tsg_email_validation_v3.yaml,\n  openapi/tsg_enforced_tls_v3.yaml, openapi/tsg_integrations_v3.yaml, openapi/tsg_ip_access_management_v3.yaml,\n  openapi/tsg_ip_address_management_v3.yaml, openapi/tsg_ip_warmup_v3.yaml, openapi/tsg_ips_v3.yaml\n  ...\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Twilio SendGrid requires you to authenticate with its APIs using an API key.\n    The API key must be sent as a bearer token in the Authorization header.\n  sources:\n  - openapi/tsg_account_provisioning_v3.yaml\n  - openapi/tsg_alerts_v3.yaml\n  - openapi/tsg_api_keys_v3.yaml\n  - openapi/tsg_domain_authentication_v3.yaml\n  - openapi/tsg_email_activity_v3.yaml\n  - openapi/tsg_email_validation_v3.yaml\n\
-  \  - openapi/tsg_enforced_tls_v3.yaml\n  - openapi/tsg_integrations_v3.yaml\n  - openapi/tsg_ip_access_management_v3.yaml\n  - openapi/tsg_ip_address_management_v3.yaml\n  - openapi/tsg_ip_warmup_v3.yaml\n  - openapi/tsg_ips_v3.yaml\n  - openapi/tsg_link_branding_v3.yaml\n  - openapi/tsg_lmc_campaigns_v3.yaml\n  - openapi/tsg_lmc_contactdb_v3.yaml\n  - openapi/tsg_lmc_senders_v3.yaml\n  - openapi/tsg_mail_settings_v3.yaml\n  - openapi/tsg_mail_v3.yaml\n  - openapi/tsg_mc_contacts_v3.yaml\n  - openapi/tsg_mc_custom_fields_v3.yaml\n  - openapi/tsg_mc_designs_v3.yaml\n  - openapi/tsg_mc_lists_v3.yaml\n  - openapi/tsg_mc_segments_2.0_v3.yaml\n  - openapi/tsg_mc_segments_v3.yaml\n  - openapi/tsg_mc_senders_v3.yaml\n  - openapi/tsg_mc_singlesends_v3.yaml\n  - openapi/tsg_mc_stats_v3.yaml\n  - openapi/tsg_mc_test_v3.yaml\n  - openapi/tsg_partner_v3.yaml\n  - openapi/tsg_recipients_data_erasure_v3.yaml\n  - openapi/tsg_reverse_dns_v3.yaml\n  - openapi/tsg_scheduled_sends_v3.yaml\n  - openapi/tsg_scopes_v3.yaml\n\
-  \  - openapi/tsg_seq_v3.yaml\n  - openapi/tsg_sso_v3.yaml\n  - openapi/tsg_stats_v3.yaml\n  - openapi/tsg_subusers_v3.yaml\n  - openapi/tsg_suppressions_v3.yaml\n  - openapi/tsg_teammates_v3.yaml\n  - openapi/tsg_templates_v3.yaml\n  - openapi/tsg_tracking_settings_v3.yaml\n  - openapi/tsg_user_v3.yaml\n  - openapi/tsg_verified_senders_v3.yaml\n  - openapi/tsg_webhooks_v3.yaml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/sendgrid-account-api-openapi.yml, openapi/sendgrid-account-state-api-openapi.yml,\n  openapi/sendgrid-alerts-api-openapi.yml, openapi/sendgrid-api-keys-api-openapi.yml, openapi/sendgrid-blocks-api-openapi.yml,\n  openapi/sendgrid-bounces-api-openapi.yml, openapi/sendgrid-bulk-email-address-validation-api-openapi.yml,\n  openapi/sendgrid-campaigns-api-api-openapi.yml, openapi/sendgrid-categories-api-openapi.yml,\n  openapi/sendgrid-contacts-api-openapi.yml, openapi/sendgrid-custom-fields-api-openapi.yml,\n  openapi/sendgrid-designs-api-openapi.yml ...\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Twilio SendGrid requires you to authenticate with its APIs using an API key.\n    The API key must be sent as a bearer token in the Authorization header.\n  sources:\n  - openapi/sendgrid-account-api-openapi.yml\n  - openapi/sendgrid-account-state-api-openapi.yml\n\
+  \  - openapi/sendgrid-alerts-api-openapi.yml\n  - openapi/sendgrid-api-keys-api-openapi.yml\n  - openapi/sendgrid-blocks-api-openapi.yml\n  - openapi/sendgrid-bounces-api-openapi.yml\n  - openapi/sendgrid-bulk-email-address-validation-api-openapi.yml\n  - openapi/sendgrid-campaigns-api-api-openapi.yml\n  - openapi/sendgrid-categories-api-openapi.yml\n  - openapi/sendgrid-contacts-api-openapi.yml\n  - openapi/sendgrid-custom-fields-api-openapi.yml\n  - openapi/sendgrid-designs-api-openapi.yml\n  - openapi/sendgrid-domain-authentication-api-openapi.yml\n  - openapi/sendgrid-email-activity-api-openapi.yml\n  - openapi/sendgrid-email-address-validation-api-openapi.yml\n  - openapi/sendgrid-enforced-tls-api-openapi.yml\n  - openapi/sendgrid-engagement-quality-api-openapi.yml\n  - openapi/sendgrid-event-webhook-api-openapi.yml\n  - openapi/sendgrid-external-integration-endpoints-api-openapi.yml\n  - openapi/sendgrid-global-suppressions-api-openapi.yml\n  - openapi/sendgrid-invalid-emails-api-openapi.yml\n\
+  \  - openapi/sendgrid-ip-access-management-api-openapi.yml\n  - openapi/sendgrid-ip-address-management-api-openapi.yml\n  - openapi/sendgrid-ip-addresses-api-openapi.yml\n  - openapi/sendgrid-ip-pools-api-openapi.yml\n  - openapi/sendgrid-ip-warmup-api-openapi.yml\n  - openapi/sendgrid-link-branding-api-openapi.yml\n  - openapi/sendgrid-lists-api-openapi.yml\n  - openapi/sendgrid-mail-batch-api-openapi.yml\n  - openapi/sendgrid-mail-send-api-openapi.yml\n  - openapi/sendgrid-mail-settings-api-openapi.yml\n  - openapi/sendgrid-offering-api-openapi.yml\n  - openapi/sendgrid-parse-webhook-api-openapi.yml\n  - openapi/sendgrid-partner-settings-api-openapi.yml\n  - openapi/sendgrid-point-delete-system-api-openapi.yml\n  - openapi/sendgrid-recipients-api-openapi.yml\n  - openapi/sendgrid-reverse-dns-api-openapi.yml\n  - openapi/sendgrid-scheduled-sends-api-openapi.yml\n  - openapi/sendgrid-scopes-api-openapi.yml\n  - openapi/sendgrid-segmenting-contacts-api-openapi.yml\n  - openapi/sendgrid-segmenting-contacts-v2-api-openapi.yml\n\
+  \  - openapi/sendgrid-segments-api-openapi.yml\n  - openapi/sendgrid-send-test-email-api-openapi.yml\n  - openapi/sendgrid-sender-identities-api-openapi.yml\n  - openapi/sendgrid-sender-verification-api-openapi.yml\n  - openapi/sendgrid-senders-api-openapi.yml\n  - openapi/sendgrid-single-sends-api-openapi.yml\n  - openapi/sendgrid-spam-reports-api-openapi.yml\n  - openapi/sendgrid-sso-certificates-api-openapi.yml\n  - openapi/sendgrid-sso-settings-api-openapi.yml\n  - openapi/sendgrid-sso-teammates-api-openapi.yml\n  - openapi/sendgrid-stats-api-openapi.yml\n  - openapi/sendgrid-subuser-statistics-api-openapi.yml\n  - openapi/sendgrid-subuser-website-access-api-openapi.yml\n  - openapi/sendgrid-subusers-api-openapi.yml\n  - openapi/sendgrid-suppressions-api-openapi.yml\n  - openapi/sendgrid-teammates-api-openapi.yml\n  - openapi/sendgrid-templates-api-openapi.yml\n  - openapi/sendgrid-templates-versions-api-openapi.yml\n  - openapi/sendgrid-tracking-api-openapi.yml\n  - openapi/sendgrid-unsubscribe-groups-api-openapi.yml\n\
+  \  - openapi/sendgrid-users-api-api-openapi.yml\n  - openapi/sendgrid-webhook-security-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/authentication/sendgrid-authentication.yml
 summary_line: http · 1 scheme
 tags:

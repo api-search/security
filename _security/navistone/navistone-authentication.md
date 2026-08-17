@@ -69,13 +69,20 @@ schemes:
   name: api-key
   parameter: X-API-Key
   sources:
-  - openapi/navistone-openapi-original.json
+  - openapi/navistone-api-info-api-openapi.yml
+  - openapi/navistone-campaigns-api-openapi.yml
+  - openapi/navistone-clients-api-openapi.yml
+  - openapi/navistone-domains-api-openapi.yml
+  - openapi/navistone-geo-targeting-api-openapi.yml
+  - openapi/navistone-health-api-openapi.yml
+  - openapi/navistone-output-api-openapi.yml
+  - openapi/navistone-segments-api-openapi.yml
   type: apiKey
 slug: navistone-authentication
 source_filename: navistone-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/navistone-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: api-key\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API Key for authentication\n  sources:\n  - openapi/navistone-openapi-original.json\n"
+source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/navistone-api-info-api-openapi.yml, openapi/navistone-campaigns-api-openapi.yml,\n  openapi/navistone-clients-api-openapi.yml, openapi/navistone-domains-api-openapi.yml, openapi/navistone-geo-targeting-api-openapi.yml,\n  openapi/navistone-health-api-openapi.yml, openapi/navistone-output-api-openapi.yml, openapi/navistone-segments-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: api-key\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API Key for authentication\n  sources:\n  - openapi/navistone-api-info-api-openapi.yml\n  - openapi/navistone-campaigns-api-openapi.yml\n  - openapi/navistone-clients-api-openapi.yml\n  - openapi/navistone-domains-api-openapi.yml\n  - openapi/navistone-geo-targeting-api-openapi.yml\n  - openapi/navistone-health-api-openapi.yml\n  - openapi/navistone-output-api-openapi.yml\n  - openapi/navistone-segments-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/authentication/navistone-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

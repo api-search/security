@@ -54,15 +54,33 @@ api_specs:
   slug: aweber-web-forms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-web-forms-api-openapi.yml
+- filename: aweber-integrations-api-openapi.yml
+  format: yaml
+  label: AWeber Integrations API
+  slug: aweber-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-integrations-api-openapi.yml
+- filename: aweber-authentication-api-openapi.yml
+  format: yaml
+  label: AWeber Authentication API
+  slug: aweber-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-authentication-api-openapi.yml
+- filename: aweber-beta-api-openapi.yml
+  format: yaml
+  label: AWeber Beta API
+  slug: aweber-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-beta-api-openapi.yml
 description: ''
 domains:
 - caa:
+  - 0 issue "amazon.com"
+  - 0 issue "digicert.com"
+  - 0 issue "entrust.net"
+  - 0 issue "geotrust.com"
+  - 0 issue "globalsign.com"
   - 0 issue "letsencrypt.org"
-  - 0 issue "sectigo.com"
-  - 0 issuewild "amazon.com"
-  - 0 issuewild "digicert.com"
-  - 0 issuewild "globalsign.com"
-  - 0 issuewild "letsencrypt.org"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
@@ -96,7 +114,7 @@ slug: aweber-domain-security
 source_filename: aweber-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aweber.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: false\n- host: developer.aweber.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: false\n- host: api.aweber.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: aweber.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aweber.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: false\n- host: developer.aweber.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: false\n- host: api.aweber.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: aweber.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"entrust.net\"\n  - 0 issue \"geotrust.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/security/aweber-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
@@ -107,4 +125,9 @@ tags:
 - Subscribers
 - Campaigns
 - Landing Pages
+- Web Forms
+- Segments
+- Webhooks
+- OAuth 2.0
+- Small Business
 ---

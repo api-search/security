@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: affise-postman-api-collection
+- filename: affise-openapi.yml
   format: yaml
   label: Affise Performance API
   slug: affise-performance-api
-  spec_type: Postman
-  url: https://github.com/affise/affise-postman-api-collection
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-openapi.yml
 description: ''
 domains:
 - caa:
+  - 0 issue "godaddy.com"
   - 0 issue "letsencrypt.org"
   - 0 issue "digicert.com"
-  - 0 issue "godaddy.com"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
@@ -53,7 +53,7 @@ slug: affise-domain-security
 source_filename: affise-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: affise.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 15:42:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.affise.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 15:42:52 2026 GMT\n  hsts: false\n- host: intercom.help\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: affise.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"godaddy.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: intercom.help\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: affise.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 15:42:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.affise.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 15:42:52 2026 GMT\n  hsts: false\n- host: intercom.help\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: affise.com\n  dnssec: false\n  caa:\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: intercom.help\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/security/affise-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

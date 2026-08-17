@@ -109,13 +109,28 @@ schemes:
   name: ApiKeyAuth
   scheme: bearer
   sources:
-  - openapi/smartnews-marketing-openapi.json
+  - openapi/smartnews-ad-api-openapi.yml
+  - openapi/smartnews-ad-group-api-openapi.yml
+  - openapi/smartnews-article-category-api-openapi.yml
+  - openapi/smartnews-campaign-api-openapi.yml
+  - openapi/smartnews-catalog-api-openapi.yml
+  - openapi/smartnews-channel-alias-label-api-openapi.yml
+  - openapi/smartnews-custom-audience-api-openapi.yml
+  - openapi/smartnews-developer-app-api-openapi.yml
+  - openapi/smartnews-insights-api-openapi.yml
+  - openapi/smartnews-interests-api-openapi.yml
+  - openapi/smartnews-locations-api-openapi.yml
+  - openapi/smartnews-media-file-api-openapi.yml
+  - openapi/smartnews-oauth-api-openapi.yml
+  - openapi/smartnews-pixel-api-openapi.yml
+  - openapi/smartnews-smart-view-article-keyword-api-openapi.yml
   type: http
 slug: smartnews-authentication
 source_filename: smartnews-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/smartnews-marketing-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: ApiKeyAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/smartnews-marketing-openapi.json\n"
+source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/smartnews-ad-api-openapi.yml, openapi/smartnews-ad-group-api-openapi.yml, openapi/smartnews-article-category-api-openapi.yml,\n  openapi/smartnews-campaign-api-openapi.yml, openapi/smartnews-catalog-api-openapi.yml, openapi/smartnews-channel-alias-label-api-openapi.yml,\n  openapi/smartnews-custom-audience-api-openapi.yml, openapi/smartnews-developer-app-api-openapi.yml,\n  openapi/smartnews-insights-api-openapi.yml, openapi/smartnews-interests-api-openapi.yml, openapi/smartnews-locations-api-openapi.yml,\n  openapi/smartnews-media-file-api-openapi.yml ...\nsummary:\n  types:\n  - http\nschemes:\n- name: ApiKeyAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/smartnews-ad-api-openapi.yml\n  - openapi/smartnews-ad-group-api-openapi.yml\n  - openapi/smartnews-article-category-api-openapi.yml\n  - openapi/smartnews-campaign-api-openapi.yml\n  - openapi/smartnews-catalog-api-openapi.yml\n\
+  \  - openapi/smartnews-channel-alias-label-api-openapi.yml\n  - openapi/smartnews-custom-audience-api-openapi.yml\n  - openapi/smartnews-developer-app-api-openapi.yml\n  - openapi/smartnews-insights-api-openapi.yml\n  - openapi/smartnews-interests-api-openapi.yml\n  - openapi/smartnews-locations-api-openapi.yml\n  - openapi/smartnews-media-file-api-openapi.yml\n  - openapi/smartnews-oauth-api-openapi.yml\n  - openapi/smartnews-pixel-api-openapi.yml\n  - openapi/smartnews-smart-view-article-keyword-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/authentication/smartnews-authentication.yml
 summary_line: http · 1 scheme
 tags:

@@ -12,6 +12,12 @@ api_specs:
   slug: treasure-data-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-system-api-openapi.yml
+- filename: treasure-data-postback-api-openapi.yml
+  format: yaml
+  label: Treasure Data Postback API
+  slug: treasure-data-postback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-postback-api-openapi.yml
 - filename: treasure-data-bulk-import-api-openapi.yml
   format: yaml
   label: Treasure Data Bulk Import API
@@ -66,6 +72,54 @@ api_specs:
   slug: treasure-data-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-users-api-openapi.yml
+- filename: treasure-data-td-api-v3-openapi.yml
+  format: yaml
+  label: Treasure Data API v3
+  slug: treasure-data-api-v3
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-td-api-v3-openapi.yml
+- filename: treasure-data-cdp-api-openapi.yml
+  format: yaml
+  label: Treasure Data CDP API
+  slug: treasure-data-cdp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-cdp-api-openapi.yml
+- filename: treasure-data-llm-api-openapi.yml
+  format: yaml
+  label: Treasure Data LLM API
+  slug: treasure-data-llm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-llm-api-openapi.yml
+- filename: treasure-data-workflow-api-openapi.yml
+  format: yaml
+  label: Treasure Workflow API
+  slug: treasure-data-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-workflow-api-openapi.yml
+- filename: treasure-data-dwh-integration-api-openapi.yml
+  format: yaml
+  label: Treasure Data Data Warehouse Integration API
+  slug: treasure-data-dwh-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-dwh-integration-api-openapi.yml
+- filename: treasure-data-personalization-api-openapi.yml
+  format: yaml
+  label: Treasure Data Personalization Service
+  slug: treasure-data-personalization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-personalization-api-openapi.yml
+- filename: treasure-data-postback-api-openapi.yml
+  format: yaml
+  label: Treasure Data Postback API
+  slug: treasure-data-postback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-postback-api-openapi.yml
+- filename: treasure-data-postback-api-v2-openapi.yml
+  format: yaml
+  label: Treasure Data Postback API v2
+  slug: treasure-data-postback-api-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-postback-api-v2-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +135,7 @@ domains:
   domain: treasuredata.com
   spf: true
 hosts:
-- cert_expires: Aug 27 22:09:16 2026 GMT
+- cert_expires: Oct 26 02:42:11 2026 GMT
   host: www.treasure.ai
   hsts: true
   hsts_max_age: 31536000
@@ -110,7 +164,7 @@ slug: treasure-data-domain-security
 source_filename: treasure-data-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.treasure.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 22:09:16 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.treasure.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 02:37:07 2026 GMT\n  hsts: false\n- host: api.treasuredata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: treasure.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: treasuredata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.treasure.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 02:42:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.treasure.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 02:37:07 2026 GMT\n  hsts: false\n- host: api.treasuredata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: treasure.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: treasuredata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/security/treasure-data-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

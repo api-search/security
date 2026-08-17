@@ -30,6 +30,30 @@ api_specs:
   slug: truepill-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/openapi/truepill-webhooks-api-openapi.yml
+- filename: truepill-fulfillment-api-openapi.yml
+  format: yaml
+  label: Truepill Fulfillment API
+  slug: truepill-fulfillment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/openapi/truepill-fulfillment-api-openapi.yml
+- filename: truepill-consults-api-openapi.yml
+  format: yaml
+  label: Truepill Consults API
+  slug: truepill-consults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/openapi/truepill-consults-api-openapi.yml
+- filename: truepill-diagnostics-api-openapi.yml
+  format: yaml
+  label: Truepill Diagnostics API
+  slug: truepill-diagnostics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/openapi/truepill-diagnostics-api-openapi.yml
+- filename: truepill-media-api-openapi.yml
+  format: yaml
+  label: Truepill Media API
+  slug: truepill-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/openapi/truepill-media-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -72,7 +96,7 @@ slug: truepill-domain-security
 source_filename: truepill-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.truepill.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 23:59:59 2026 GMT\n  hsts: false\n- host: rxdocs.fuzehealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 23:59:59 2026 GMT\n  hsts: false\n- host: rxapi.fuzehealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: truepill.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: fuzehealth.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.truepill.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 23:59:59 2026 GMT\n  hsts: false\n- host: rxdocs.fuzehealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 23:59:59 2026 GMT\n  hsts: false\n- host: rxapi.fuzehealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: truepill.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: fuzehealth.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/security/truepill-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
@@ -82,4 +106,10 @@ tags:
 - Telehealth
 - Diagnostics
 - Insurance
+- Copay Adjudication
+- Prior Authorization
+- Electronic Prescribing
+- Pharmacy Transfers
+- Webhooks
+- HIPAA
 ---

@@ -21,7 +21,7 @@ slug: praxispro-ai-domain-security
 source_filename: praxispro-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: praxispro.ai\n  https: false\ndomains:\n- domain: praxispro.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: praxispro.ai\n  https: false\ndomains:\n- domain: praxispro.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/praxispro-ai/refs/heads/main/security/praxispro-ai-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:

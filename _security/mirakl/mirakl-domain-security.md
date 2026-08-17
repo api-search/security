@@ -114,6 +114,48 @@ api_specs:
   slug: mirakl-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-users-api-openapi.yml
+- filename: mirakl-connect-openapi.yaml
+  format: yaml
+  label: Mirakl Connect APIs
+  slug: mirakl-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-connect-openapi.yaml
+- filename: mirakl-connect-channel-openapi.json
+  format: json
+  label: Mirakl Connect Channel Platform APIs
+  slug: mirakl-connect-channel-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-connect-channel-openapi.json
+- filename: mirakl-account-channel-platform-openapi.yaml
+  format: yaml
+  label: Mirakl Account Channel Platform APIs
+  slug: mirakl-account-channel-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-account-channel-platform-openapi.yaml
+- filename: mirakl-mmp-front-openapi.yaml
+  format: yaml
+  label: Mirakl Marketplace Front APIs
+  slug: mirakl-marketplace-front-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-mmp-front-openapi.yaml
+- filename: mirakl-mcm-front-openapi.yaml
+  format: yaml
+  label: Mirakl Catalog Manager Front APIs
+  slug: mirakl-catalog-manager-front-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-mcm-front-openapi.yaml
+- filename: mirakl-mms-front-openapi.yaml
+  format: yaml
+  label: Mirakl Platform for Services Front APIs
+  slug: mirakl-services-front-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-mms-front-openapi.yaml
+- filename: mirakl-shopify-operator-connector-openapi.yaml
+  format: yaml
+  label: Mirakl Shopify Operator Connector APIs
+  slug: mirakl-shopify-operator-connector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-shopify-operator-connector-openapi.yaml
 description: ''
 domains:
 - caa: []
@@ -134,7 +176,12 @@ hosts:
   hsts: true
   hsts_max_age: 31536000
   https: true
-  tls_version: TLSv1.3
+  tls_version: TLSv1.2
+- cert_expires: Oct 31 15:01:50 2026 GMT
+  host: developer.mirakl.com
+  hsts: false
+  https: true
+  tls_version: TLSv1.2
 - host: your-instance.mirakl.net
   https: false
 kind: domain-security
@@ -142,16 +189,16 @@ layout: security
 method: probed
 name: Mirakl Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Mirakl, probed live across 2 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for Mirakl, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Mirakl
 provider_slug: mirakl
 slug: mirakl-domain-security
 source_filename: mirakl-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mirakl.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 15:38:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: your-instance.mirakl.net\n  https: false\ndomains:\n- domain: mirakl.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: mirakl.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mirakl.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 12 15:38:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.mirakl.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 31 15:01:50 2026 GMT\n  hsts: false\n- host: your-instance.mirakl.net\n  https: false\ndomains:\n- domain: mirakl.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: mirakl.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/security/mirakl-domain-security.yml
-summary_line: TLSv1.3 · HSTS · DMARC
+summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Commerce

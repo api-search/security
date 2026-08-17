@@ -1,47 +1,17 @@
 ---
 api_specs:
-- filename: tegna-audiences-api-openapi.yml
+- filename: tegna-content-api-openapi.yml
   format: yaml
-  label: TEGNA Audiences API
-  slug: tegna-audiences-api
+  label: TEGNA Content API (WordPress REST)
+  slug: tegna-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-audiences-api-openapi.yml
-- filename: tegna-campaigns-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-content-api-openapi.yml
+- filename: tegna-premion-content-api-openapi.yml
   format: yaml
-  label: TEGNA Campaigns API
-  slug: tegna-campaigns-api
+  label: PREMION Content API (WordPress REST)
+  slug: tegna-premion-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-campaigns-api-openapi.yml
-- filename: tegna-creatives-api-openapi.yml
-  format: yaml
-  label: TEGNA Creatives API
-  slug: tegna-creatives-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-creatives-api-openapi.yml
-- filename: tegna-inventory-api-openapi.yml
-  format: yaml
-  label: TEGNA Inventory API
-  slug: tegna-inventory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-inventory-api-openapi.yml
-- filename: tegna-markets-api-openapi.yml
-  format: yaml
-  label: TEGNA Markets API
-  slug: tegna-markets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-markets-api-openapi.yml
-- filename: tegna-ott-campaigns-api-openapi.yml
-  format: yaml
-  label: TEGNA OTT Campaigns API
-  slug: tegna-ott-campaigns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-ott-campaigns-api-openapi.yml
-- filename: tegna-reporting-api-openapi.yml
-  format: yaml
-  label: TEGNA Reporting API
-  slug: tegna-reporting-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-reporting-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-premion-content-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +32,7 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 12 22:43:43 2026 GMT
+- cert_expires: Oct 11 21:48:11 2026 GMT
   host: www.nexstar.tv
   hsts: false
   https: true
@@ -85,7 +55,7 @@ slug: tegna-domain-security
 source_filename: tegna-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tegna.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 23:59:59 2026 GMT\n  hsts: false\n- host: www.nexstar.tv\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 22:43:43 2026 GMT\n  hsts: false\n- host: premion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 22:25:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: tegna.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: nexstar.tv\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tegna.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 23:59:59 2026 GMT\n  hsts: false\n- host: www.nexstar.tv\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 21:48:11 2026 GMT\n  hsts: false\n- host: premion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 22:25:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: tegna.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: nexstar.tv\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/security/tegna-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -95,5 +65,7 @@ tags:
 - Digital Advertising
 - OTT
 - CTV
+- Local News
+- Content API
 - Fortune 500
 ---

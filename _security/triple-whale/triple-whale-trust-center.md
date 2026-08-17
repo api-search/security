@@ -24,6 +24,12 @@ api_specs:
   slug: triple-whale-data-out-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-data-out-api-openapi.yml
+- filename: triple-whale-bi-benchmarks-openapi.json
+  format: json
+  label: Triple Whale Benchmarks API
+  slug: triple-whale-benchmarks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-bi-benchmarks-openapi.json
 certifications:
 - SOC 2
 - GDPR
@@ -39,7 +45,7 @@ slug: triple-whale-trust-center
 source_filename: triple-whale-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.triplewhale.com/\nurl: https://trust.triplewhale.com/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://trust.triplewhale.com/\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://trust.triplewhale.com/\nurl: https://trust.triplewhale.com/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://trust.triplewhale.com/\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/security/triple-whale-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:

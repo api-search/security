@@ -90,6 +90,12 @@ api_specs:
   slug: valimail-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/valimail-webhooks-api-openapi.yml
+- filename: valimail-partner-openapi-original.yml
+  format: yaml
+  label: Valimail Partner API
+  slug: valimail-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/openapi/_original/valimail-partner-openapi-original.yml
 certifications:
 - SOC 2 Type II
 - SOC 3
@@ -106,7 +112,8 @@ slug: valimail-trust-center
 source_filename: valimail-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://security.valimail.com/\nurl: https://security.valimail.com/\nplatform: SafeBase\ncertifications:\n- SOC 2 Type II\n- SOC 3\n- FedRAMP LI-SaaS\nfedramp_marketplace: https://marketplace.fedramp.gov/products/FR1817874315\ndocuments:\n- Security Whitepaper\n- SOC 2 Type 2 report\n- SOC 3 report\n- Application Penetration Testing\n- Cyber Insurance\n- Data Processing Agreement\nprograms:\n- Audit logging, SSO support, role-based access control\n- Incident response (designated personnel, StatusPage)\n- BC/DR (disaster recovery plan, backups, tabletop exercises)\n- Encryption at rest, access monitoring\n- AI risk management / AI governance / third-party AI diligence\nevidence:\n- source: https://security.valimail.com/\n  keywords:\n  - soc 2\n  - soc 3\n  - fedramp\n  - trust center\n  - responsible disclosure\n"
+source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nsource: https://security.valimail.com/\nurl: https://security.valimail.com/\nplatform: SafeBase\ncertifications:\n- SOC 2 Type II\n- SOC 3\n- FedRAMP LI-SaaS\nfedramp_marketplace: https://marketplace.fedramp.gov/products/FR1817874315\ndocuments:\n- Security Whitepaper\n- SOC 2 Type 2 report\n- SOC 3 report\n- Application Penetration Testing\n- Cyber Insurance\n- Data Processing Agreement\nprograms:\n- Audit logging, SSO support, role-based access control\n- Incident response (designated personnel, StatusPage)\n- BC/DR (disaster recovery plan, backups, tabletop exercises)\n- Encryption at rest, access monitoring\n- AI risk management / AI governance / third-party AI diligence\nevidence:\n- source: https://security.valimail.com/\n  keywords:\n  - soc 2\n  - soc 3\n  - fedramp\n  - trust center\n  - responsible disclosure\n  http_status: 200\n  checked: '2026-08-14'\nnotes: >-\n  Re-probed 2026-08-14; the mechanical probe\
+  \ reads only the coarse \"SOC 2\" and\n  \"FedRAMP\" keywords off the SafeBase page, so the richer certification names\n  and the document list captured by the 2026-07-21 docs search are retained here\n  rather than being downgraded.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/security/valimail-trust-center.yml
 summary_line: SOC 2 Type II, SOC 3, FedRAMP LI-SaaS
 tags:

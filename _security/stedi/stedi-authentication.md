@@ -128,12 +128,30 @@ api_specs:
   slug: stedi-x12-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/openapi/stedi-x12-api-openapi.yml
+- filename: stedi-batch-eligibility-check-api-openapi.yml
+  format: yaml
+  label: Stedi Batch Eligibility Check API
+  slug: stedi-batch-eligibility-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/openapi/stedi-batch-eligibility-check-api-openapi.yml
+- filename: stedi-eligibility-pdf-api-openapi.yml
+  format: yaml
+  label: Stedi Eligibility PDF API
+  slug: stedi-eligibility-pdf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/openapi/stedi-eligibility-pdf-api-openapi.yml
+- filename: stedi-event-destinations-api-openapi.yml
+  format: yaml
+  label: Stedi Event Destinations API
+  slug: stedi-event-destinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/openapi/stedi-event-destinations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Stedi Authentication
 name_suffix: Authentication
 oauth_flows: []
@@ -142,23 +160,44 @@ provider_name: Stedi
 provider_slug: stedi
 scheme_count: 1
 schemes:
-- description: A [Stedi API Key](https://www.stedi.com/app/settings/api-keys) for authentication.
+- description: A [Stedi API Key](https://portal.stedi.com/app/settings/api-keys) for authentication.
   in: header
   name: httpApiKeyAuth
   parameter: Authorization
   sources:
-  - openapi/stedi-claims-openapi.yml
-  - openapi/stedi-core-openapi.yml
-  - openapi/stedi-enrollment-openapi.yml
-  - openapi/stedi-event-destinations-openapi.yml
-  - openapi/stedi-healthcare-openapi.yml
-  - openapi/stedi-payers-openapi.yml
+  - openapi/stedi-batch-eligibility-check-api-openapi.yml
+  - openapi/stedi-claim-acknowledgments-api-openapi.yml
+  - openapi/stedi-claim-attachments-api-openapi.yml
+  - openapi/stedi-claim-submission-api-openapi.yml
+  - openapi/stedi-coordination-of-benefits-api-openapi.yml
+  - openapi/stedi-documents-api-openapi.yml
+  - openapi/stedi-eligibility-pdf-api-openapi.yml
+  - openapi/stedi-enrollments-api-openapi.yml
+  - openapi/stedi-event-destinations-api-openapi.yml
+  - openapi/stedi-events-api-openapi.yml
+  - openapi/stedi-executions-api-openapi.yml
+  - openapi/stedi-fragments-api-openapi.yml
+  - openapi/stedi-insurance-discovery-api-openapi.yml
+  - openapi/stedi-partnerships-api-openapi.yml
+  - openapi/stedi-payer-api-openapi.yml
+  - openapi/stedi-payers-api-openapi.yml
+  - openapi/stedi-polling-api-openapi.yml
+  - openapi/stedi-providers-api-openapi.yml
+  - openapi/stedi-real-time-claim-status-api-openapi.yml
+  - openapi/stedi-real-time-eligibility-check-api-openapi.yml
+  - openapi/stedi-remittances-api-openapi.yml
+  - openapi/stedi-tasks-api-openapi.yml
+  - openapi/stedi-transactions-api-openapi.yml
+  - openapi/stedi-x12-api-openapi.yml
   type: apiKey
 slug: stedi-authentication
 source_filename: stedi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/stedi-claims-openapi.yml, openapi/stedi-core-openapi.yml, openapi/stedi-enrollment-openapi.yml,\n  openapi/stedi-event-destinations-openapi.yml, openapi/stedi-healthcare-openapi.yml, openapi/stedi-payers-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: httpApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: A [Stedi API Key](https://www.stedi.com/app/settings/api-keys) for authentication.\n  sources:\n  - openapi/stedi-claims-openapi.yml\n  - openapi/stedi-core-openapi.yml\n  - openapi/stedi-enrollment-openapi.yml\n  - openapi/stedi-event-destinations-openapi.yml\n  - openapi/stedi-healthcare-openapi.yml\n  - openapi/stedi-payers-openapi.yml\n"
+source_yaml: "generated: '2026-08-15'\nmethod: searched\ndocs: https://www.stedi.com/docs/healthcare/api-reference\ndocs_account: https://www.stedi.com/docs/healthcare/account-settings\nkey_management_url: https://portal.stedi.com/app/settings/developer/api-keys\nsearched_detail:\n  header_format: 'Authorization: <API_KEY>'\n  legacy_header_format: 'Authorization: Key <API_KEY>'\n  legacy_note: The `Key ` prefix form is still supported for backwards compatibility.\n  key_types: [Test, Production]\n  key_expiry: Keys never expire automatically; revoke by deleting the key.\n  key_permissions: >\n    Production API keys inherit the permissions of the account member who created them, and\n    retain those permissions even if that member's role is later changed — a standing\n    privilege-creep hazard an integrator should audit.\n  oauth_on_rest: false\n  oauth_on_mcp: true\n  oauth_detail: scopes/stedi-scopes.yml\n  mtls: false\n  ip_allowlisting: >\n    Not offered as a customer control, but\
+  \ Stedi's AWS WAF applies IP-reputation rules that can\n    return 403 for legitimate traffic (commonly from Google Cloud egress), and CMS eligibility\n    requests are blocked when any IP in the X-Forwarded-For chain is outside the United States.\n  webhook_auth:\n    direction: inbound-to-customer\n    scheme: 'Standard Webhooks HMAC-SHA256 signature (webhook-signature: v1,{signature})'\n    secret_format: whsec_...\n    detail: asyncapi/stedi-event-destinations-asyncapi.yml\nderived_from: openapi/stedi-batch-eligibility-check-api-openapi.yml, openapi/stedi-claim-acknowledgments-api-openapi.yml,\n  openapi/stedi-claim-attachments-api-openapi.yml, openapi/stedi-claim-submission-api-openapi.yml,\n  openapi/stedi-coordination-of-benefits-api-openapi.yml, openapi/stedi-documents-api-openapi.yml,\n  openapi/stedi-eligibility-pdf-api-openapi.yml, openapi/stedi-enrollments-api-openapi.yml,\n  openapi/stedi-event-destinations-api-openapi.yml, openapi/stedi-events-api-openapi.yml, openapi/stedi-executions-api-openapi.yml,\n\
+  \  openapi/stedi-fragments-api-openapi.yml ...\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: httpApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: A [Stedi API Key](https://portal.stedi.com/app/settings/api-keys) for authentication.\n  sources:\n  - openapi/stedi-batch-eligibility-check-api-openapi.yml\n  - openapi/stedi-claim-acknowledgments-api-openapi.yml\n  - openapi/stedi-claim-attachments-api-openapi.yml\n  - openapi/stedi-claim-submission-api-openapi.yml\n  - openapi/stedi-coordination-of-benefits-api-openapi.yml\n  - openapi/stedi-documents-api-openapi.yml\n  - openapi/stedi-eligibility-pdf-api-openapi.yml\n  - openapi/stedi-enrollments-api-openapi.yml\n  - openapi/stedi-event-destinations-api-openapi.yml\n  - openapi/stedi-events-api-openapi.yml\n  - openapi/stedi-executions-api-openapi.yml\n  - openapi/stedi-fragments-api-openapi.yml\n  - openapi/stedi-insurance-discovery-api-openapi.yml\n  - openapi/stedi-partnerships-api-openapi.yml\n\
+  \  - openapi/stedi-payer-api-openapi.yml\n  - openapi/stedi-payers-api-openapi.yml\n  - openapi/stedi-polling-api-openapi.yml\n  - openapi/stedi-providers-api-openapi.yml\n  - openapi/stedi-real-time-claim-status-api-openapi.yml\n  - openapi/stedi-real-time-eligibility-check-api-openapi.yml\n  - openapi/stedi-remittances-api-openapi.yml\n  - openapi/stedi-tasks-api-openapi.yml\n  - openapi/stedi-transactions-api-openapi.yml\n  - openapi/stedi-x12-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/authentication/stedi-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

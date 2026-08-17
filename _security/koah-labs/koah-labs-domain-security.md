@@ -13,7 +13,7 @@ domains:
   domain: koah.ai
   spf: false
 hosts:
-- cert_expires: Aug 25 19:20:10 2026 GMT
+- cert_expires: Oct 28 04:43:51 2026 GMT
   host: www.koahlabs.com
   hsts: true
   hsts_max_age: 63072000
@@ -42,7 +42,7 @@ slug: koah-labs-domain-security
 source_filename: koah-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.koahlabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 19:20:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.koahlabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 23:13:12 2026 GMT\n  hsts: false\n- host: app.koah.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 04:54:31 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: koahlabs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: koah.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.koahlabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 04:43:51 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.koahlabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 23:13:12 2026 GMT\n  hsts: false\n- host: app.koah.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 04:54:31 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: koahlabs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: koah.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/security/koah-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

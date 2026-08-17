@@ -56,6 +56,12 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-openapi.yaml
 - filename: luma-health-openapi.yaml
   format: yaml
+  label: Luma Health Feedback & Reputation API
+  slug: luma-health-feedback-reputation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-openapi.yaml
+- filename: luma-health-openapi.yaml
+  format: yaml
   label: Luma Health Conversational AI Assistant API
   slug: luma-health-assistant-api
   spec_type: OpenAPI
@@ -111,7 +117,7 @@ slug: luma-health-domain-security
 source_filename: luma-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-24'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lumahealth.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apidocs.lumahealth.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.lumahealth.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: lumahealth.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lumahealth.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apidocs.lumahealth.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.lumahealth.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: lumahealth.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/security/luma-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
@@ -126,4 +132,6 @@ tags:
 - EHR
 - Interoperability
 - Clinical AI
+- Reputation Management
+- Patient Feedback
 ---

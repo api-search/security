@@ -138,6 +138,42 @@ api_specs:
   slug: brevo-whatsapp-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-whatsapp-templates-api-openapi.yml
+- filename: brevo-loyalty-openapi.yml
+  format: yaml
+  label: Brevo Loyalty API
+  slug: brevo-loyalty-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-loyalty-openapi.yml
+- filename: brevo-sales-crm-openapi.yml
+  format: yaml
+  label: Brevo Sales CRM API
+  slug: brevo-sales-crm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-sales-crm-openapi.yml
+- filename: brevo-accounts-and-settings-openapi.yml
+  format: yaml
+  label: Brevo Accounts and Settings API
+  slug: brevo-accounts-and-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-accounts-and-settings-openapi.yml
+- filename: brevo-events-openapi.yml
+  format: yaml
+  label: Brevo Events API
+  slug: brevo-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-events-openapi.yml
+- filename: brevo-object-management-openapi.yml
+  format: yaml
+  label: Brevo Object Management API
+  slug: brevo-object-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-object-management-openapi.yml
+- filename: brevo-wallet-openapi.yml
+  format: yaml
+  label: Brevo Wallet API
+  slug: brevo-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-wallet-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -153,7 +189,7 @@ hosts:
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 29 16:29:24 2026 GMT
+- cert_expires: Oct 27 18:52:29 2026 GMT
   host: api.brevo.com
   hsts: null
   https: true
@@ -170,7 +206,7 @@ slug: brevo-domain-security
 source_filename: brevo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.brevo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 18:16:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.brevo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 16:29:24 2026 GMT\n  hsts: null\ndomains:\n- domain: brevo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.brevo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 18:16:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.brevo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 18:52:29 2026 GMT\n  hsts: null\ndomains:\n- domain: brevo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/security/brevo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -179,9 +215,17 @@ tags:
 - Email Marketing
 - Transactional Email
 - SMS Marketing
+- WhatsApp
 - Campaigns
 - CRM
+- Sales
+- Ecommerce
+- Loyalty
+- Events
+- Live Chat
 - Email
 - SMS
 - Automation
+- Messaging
+- Contacts
 ---

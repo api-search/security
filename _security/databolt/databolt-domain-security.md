@@ -7,7 +7,7 @@ domains:
   domain: databolt.io
   spf: true
 hosts:
-- cert_expires: Sep  6 23:01:50 2026 GMT
+- cert_expires: Nov 10 23:01:35 2026 GMT
   host: www.databolt.io
   hsts: false
   https: true
@@ -24,7 +24,7 @@ slug: databolt-domain-security
 source_filename: databolt-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.databolt.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 23:01:50 2026 GMT\n  hsts: false\ndomains:\n- domain: databolt.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.databolt.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 23:01:35 2026 GMT\n  hsts: false\ndomains:\n- domain: databolt.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/databolt/refs/heads/main/security/databolt-domain-security.yml
 summary_line: TLSv1.3
 tags:

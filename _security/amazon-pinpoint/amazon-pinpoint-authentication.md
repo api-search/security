@@ -57,14 +57,18 @@ schemes:
   name: hmac
   parameter: Authorization
   sources:
-  - openapi/amazon-pinpoint-openapi-original.yaml
-  - openapi/amazon-pinpoint-openapi.yml
+  - openapi/amazon-pinpoint-applications-api-openapi.yml
+  - openapi/amazon-pinpoint-apps-api-openapi.yml
+  - openapi/amazon-pinpoint-phone-api-openapi.yml
+  - openapi/amazon-pinpoint-recommenders-api-openapi.yml
+  - openapi/amazon-pinpoint-tags-api-openapi.yml
+  - openapi/amazon-pinpoint-templates-api-openapi.yml
   type: apiKey
 slug: amazon-pinpoint-authentication
 source_filename: amazon-pinpoint-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-pinpoint-openapi-original.yaml, openapi/amazon-pinpoint-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-pinpoint-openapi-original.yaml\n  - openapi/amazon-pinpoint-openapi.yml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/amazon-pinpoint-applications-api-openapi.yml, openapi/amazon-pinpoint-apps-api-openapi.yml,\n  openapi/amazon-pinpoint-phone-api-openapi.yml, openapi/amazon-pinpoint-recommenders-api-openapi.yml,\n  openapi/amazon-pinpoint-tags-api-openapi.yml, openapi/amazon-pinpoint-templates-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-pinpoint-applications-api-openapi.yml\n  - openapi/amazon-pinpoint-apps-api-openapi.yml\n  - openapi/amazon-pinpoint-phone-api-openapi.yml\n  - openapi/amazon-pinpoint-recommenders-api-openapi.yml\n  - openapi/amazon-pinpoint-tags-api-openapi.yml\n  - openapi/amazon-pinpoint-templates-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/authentication/amazon-pinpoint-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
