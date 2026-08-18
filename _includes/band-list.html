@@ -10,12 +10,20 @@
   a list of thousands the long tail is noise until it's asked for. That choice
   lives in lib_rating.BANDS_OPEN_BY_DEFAULT and arrives here as `group.open`.
 
+  Two ways to hand it the rows. Most callers pass `group.items` as full row
+  hashes and that is it. The tag pages can't: there are ~275,000 (tag, provider)
+  pairs, so a full row per pair is ~200 MB of data. They pass slug STRINGS in
+  `group.items` plus a shared `rows` lookup table, and the join happens here.
+
   Params:
     bands      - array of {band,label,blurb,open,count,items} from group_by_band()
+    rows       - OPTIONAL slug -> row map. When present, each `items` entry is
+                 read as a slug into it instead of as the row itself.
     link_base  - URL prefix for each item (default /providers/)
     empty_text - shown when there are no items at all
 {% endcomment %}
 {% assign _base = include.link_base | default: '/providers/' %}
+{% assign _rows = include.rows %}
 
 {% if include.bands and include.bands.size > 0 %}
 <div class="band-list">
@@ -27,8 +35,11 @@
       <span class="band-group-blurb">{{ group.blurb }}</span>
     </summary>
     <div class="band-group-body">
-      {% for item in group.items %}
-      <a class="band-row" href="{{ _base }}{{ item.slug }}/">
+      {% for entry in group.items %}
+      {% if _rows %}{% assign item = _rows[entry] %}{% assign _slug = entry %}
+      {% else %}{% assign item = entry %}{% assign _slug = entry.slug %}{% endif %}
+      {% if item %}
+      <a class="band-row" href="{{ _base }}{{ _slug }}/">
         <span class="band-row-name">{{ item.name }}</span>
         {% if item.description and item.description != '' %}
         <span class="band-row-desc">{{ item.description | strip_html | truncate: 110 }}</span>
@@ -57,6 +68,7 @@
               data-dims="{{ item.agent_dims }}"></span>
         {% endif %}
       </a>
+      {% endif %}
       {% endfor %}
     </div>
   </details>
