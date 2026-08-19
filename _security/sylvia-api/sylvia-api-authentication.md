@@ -1,48 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sylvia-api-comments-api-openapi.yml
-  format: yaml
-  label: Sylvia API Comments API
-  slug: sylvia-api-comments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-comments-api-openapi.yml
-- filename: sylvia-api-datasets-api-openapi.yml
-  format: yaml
-  label: Sylvia API Datasets API
-  slug: sylvia-api-datasets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-datasets-api-openapi.yml
 - filename: sylvia-api-live-api-openapi.yml
   format: yaml
   label: Sylvia API Live API
   slug: sylvia-api-live-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-live-api-openapi.yml
-- filename: sylvia-api-posts-api-openapi.yml
-  format: yaml
-  label: Sylvia API Posts API
-  slug: sylvia-api-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-posts-api-openapi.yml
 - filename: sylvia-api-subreddits-api-openapi.yml
   format: yaml
   label: Sylvia API Subreddits API
   slug: sylvia-api-subreddits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-subreddits-api-openapi.yml
-- filename: sylvia-api-usage-api-openapi.yml
-  format: yaml
-  label: Sylvia API Usage API
-  slug: sylvia-api-usage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-usage-api-openapi.yml
 - filename: sylvia-api-users-api-openapi.yml
   format: yaml
   label: Sylvia API Users API
   slug: sylvia-api-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-users-api-openapi.yml
+- filename: sylvia-api-account-api-openapi.yml
+  format: yaml
+  label: Sylvia API Account API
+  slug: sylvia-api-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-account-api-openapi.yml
+- filename: sylvia-api-billing-api-openapi.yml
+  format: yaml
+  label: Sylvia API Billing API
+  slug: sylvia-api-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-billing-api-openapi.yml
+- filename: sylvia-api-discovery-api-openapi.yml
+  format: yaml
+  label: Sylvia API Discovery API
+  slug: sylvia-api-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-discovery-api-openapi.yml
+- filename: sylvia-api-domains-api-openapi.yml
+  format: yaml
+  label: Sylvia API Domains API
+  slug: sylvia-api-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-domains-api-openapi.yml
+- filename: sylvia-api-health-api-openapi.yml
+  format: yaml
+  label: Sylvia API Health API
+  slug: sylvia-api-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-health-api-openapi.yml
+- filename: sylvia-api-keys-api-openapi.yml
+  format: yaml
+  label: Sylvia API Keys API
+  slug: sylvia-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-keys-api-openapi.yml
+- filename: sylvia-api-posts-comments-api-openapi.yml
+  format: yaml
+  label: Sylvia API Posts & Comments API
+  slug: sylvia-api-posts-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-posts-comments-api-openapi.yml
+- filename: sylvia-api-search-api-openapi.yml
+  format: yaml
+  label: Sylvia API Search API
+  slug: sylvia-api-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-search-api-openapi.yml
+- filename: sylvia-api-templates-api-openapi.yml
+  format: yaml
+  label: Sylvia API Templates API
+  slug: sylvia-api-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-templates-api-openapi.yml
 auth_types: []
 description: API key authentication, read from the provider-published specification.
 kind: authentication

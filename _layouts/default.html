@@ -66,11 +66,38 @@
       client; nothing on this network varies by user-agent.
       See research/agent-ad-serving/ROLLOUT-laneworks.md
     {%- endcomment -%}
-    {% if page.layout == "provider" %}
+    {% if page.layout == "provider" or page.layout == "api" %}
     <link rel="alternate" type="text/markdown" title="Markdown source" href="{{ page.url | prepend: site.url }}index.md">
     {% endif %}
 
-    {% if page.layout == "post" and page.image %}{% assign _og_image = page.image | prepend: site.url %}{% else %}{% assign _og_image = site.image %}{% endif %}
+    {%- comment -%}
+      Share image. A scored provider shares its Kin Score card -- the K'in sun, the
+      composite and its band, agent readiness, and every facet. Built by
+      api-evangelist/kin-score/cards/ and published to kinlane-images; the URL is stable
+      across rescores, so a rescore rewrites the bytes rather than minting a new path.
+
+      An API detail page shares the card of the provider that publishes it. The API page
+      carries `provider_slug` but no score of its own, so the guard is `site.data.kin_cards`
+      -- an index the card builder writes from the PNGs that actually exist (emit-index.mjs).
+      Without it these ~28k pages fall back to the one generic site card, which is the same
+      "the best thing on the page never leaves the page" problem one level down.
+
+      Guarded rather than assumed: an og:image at a 404 is worse than the site card. Never
+      repoint page.image -- that holds the provider's own logo and is also the JSON-LD logo.
+    {%- endcomment -%}
+    {% assign _kin_slug = nil %}
+    {% if page.layout == "provider" and page.score and page.slug %}
+      {% assign _kin_slug = page.slug %}
+      {% assign _kin_alt = page.name | append: ": Kin Score " | append: page.score.composite | append: " out of 100 (" | append: page.score.band | append: ")" %}
+    {% elsif page.provider_slug and site.data.kin_cards %}
+      {% assign _kin = site.data.kin_cards[page.provider_slug] %}
+      {% if _kin %}
+        {% assign _kin_slug = page.provider_slug %}
+        {% assign _kin_alt = page.provider_name | append: ": Kin Score " | append: _kin.c | append: " out of 100 (" | append: _kin.b | append: ")" %}
+      {% endif %}
+    {% endif %}
+    {% if _kin_slug %}{% assign _og_image = _kin_slug | prepend: "https://kinlane-images.s3.amazonaws.com/shared/kin-score/cards/" | append: ".png" %}{% elsif page.layout == "post" and page.image %}{% assign _og_image = page.image | prepend: site.url %}{% else %}{% assign _og_image = site.image %}{% endif %}
+    {% if _kin_slug %}{% assign _og_alt = _kin_alt %}{% elsif page.title %}{% assign _og_alt = page.title %}{% else %}{% assign _og_alt = site.name %}{% endif %}
     {% if page.layout == "post" %}{% assign _og_type = "article" %}{% else %}{% assign _og_type = "website" %}{% endif %}
 
     <!-- Open Graph -->
@@ -82,7 +109,7 @@
     <meta property="og:image" content="{{ _og_image }}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}">
+    <meta property="og:image:alt" content="{{ _og_alt | escape }}">
     {% if page.layout == "post" and page.date %}<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">{% endif %}
     {% if page.layout == "post" and page.tags %}{% for tag in page.tags %}<meta property="article:tag" content="{{ tag }}">
     {% endfor %}{% endif %}
@@ -90,7 +117,7 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="{{ _og_image }}">
-    <meta name="twitter:image:alt" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}">
+    <meta name="twitter:image:alt" content="{{ _og_alt | escape }}">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.name }}{% elsif page.name %}{{ page.name }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}">
     <meta name="twitter:description" content="{% if page.overview %}{{ page.overview | markdownify | strip_html | strip_newlines | truncate: 200 }}{% elsif page.description %}{{ page.description | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}">
 

@@ -2,102 +2,126 @@
 api_key_in:
 - header
 api_specs:
-- filename: cisco-meraki-administered-api-openapi.json
-  format: json
-  label: Cisco Meraki Dashboard API — Administered
-  slug: administered
+- filename: cisco-meraki-administered-api-openapi.yml
+  format: yaml
+  label: Cisco Meraki Administered API
+  slug: cisco-meraki-administered-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-administered-api-openapi.json
-- filename: cisco-meraki-appliance-api-openapi.json
-  format: json
-  label: Cisco Meraki Dashboard API — Appliance
-  slug: appliance
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-administered-api-openapi.yml
+- filename: cisco-meraki-appliance-api-openapi.yml
+  format: yaml
+  label: Cisco Meraki Appliance API
+  slug: cisco-meraki-appliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-appliance-api-openapi.json
-- filename: cisco-meraki-camera-api-openapi.json
-  format: json
-  label: Cisco Meraki Dashboard API — Camera
-  slug: camera
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-appliance-api-openapi.yml
+- filename: cisco-meraki-camera-api-openapi.yml
+  format: yaml
+  label: Cisco Meraki Camera API
+  slug: cisco-meraki-camera-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-camera-api-openapi.json
-- filename: cisco-meraki-campusgateway-api-openapi.json
-  format: json
-  label: Cisco Meraki Dashboard API — campusGateway
-  slug: campusgateway
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-camera-api-openapi.yml
+- filename: cisco-meraki-campusgateway-api-openapi.yml
+  format: yaml
+  label: Cisco Meraki Campus Gateway API
+  slug: cisco-meraki-campusgateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-campusgateway-api-openapi.json
-- filename: cisco-meraki-cellulargateway-api-openapi.json
-  format: json
-  label: Cisco Meraki Dashboard API — cellularGateway
-  slug: cellulargateway
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-campusgateway-api-openapi.yml
+- filename: cisco-meraki-cellulargateway-api-openapi.yml
+  format: yaml
+  label: Cisco Meraki Cellular Gateway API
+  slug: cisco-meraki-cellulargateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-cellulargateway-api-openapi.json
-- filename: cisco-meraki-devices-api-openapi.json
-  format: json
-  label: Cisco Meraki Dashboard API — Devices
-  slug: devices
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-cellulargateway-api-openapi.yml
+- filename: cisco-meraki-devices-api-openapi.yml
+  format: yaml
+  label: Cisco Meraki Devices API
+  slug: cisco-meraki-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-devices-api-openapi.json
-- filename: cisco-meraki-insight-api-openapi.json
-  format: json
-  label: Cisco Meraki Dashboard API — Insight
-  slug: insight
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-devices-api-openapi.yml
+- filename: cisco-meraki-insight-api-openapi.yml
+  format: yaml
+  label: Cisco Meraki Insight API
+  slug: cisco-meraki-insight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-insight-api-openapi.json
-- filename: cisco-meraki-licensing-api-openapi.json
-  format: json
-  label: Cisco Meraki Dashboard API — Licensing
-  slug: licensing
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-insight-api-openapi.yml
+- filename: cisco-meraki-licensing-api-openapi.yml
+  format: yaml
+  label: Cisco Meraki Licensing API
+  slug: cisco-meraki-licensing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-licensing-api-openapi.json
-- filename: cisco-meraki-networks-api-openapi.json
-  format: json
-  label: Cisco Meraki Dashboard API — Networks
-  slug: networks
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-licensing-api-openapi.yml
+- filename: cisco-meraki-networks-api-openapi.yml
+  format: yaml
+  label: Cisco Meraki Networks API
+  slug: cisco-meraki-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-networks-api-openapi.json
-- filename: cisco-meraki-organizations-api-openapi.json
-  format: json
-  label: Cisco Meraki Dashboard API — Organizations
-  slug: organizations
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-networks-api-openapi.yml
+- filename: cisco-meraki-organizations-api-openapi.yml
+  format: yaml
+  label: Cisco Meraki Organizations API
+  slug: cisco-meraki-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-organizations-api-openapi.json
-- filename: cisco-meraki-sensor-api-openapi.json
-  format: json
-  label: Cisco Meraki Dashboard API — Sensor
-  slug: sensor
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-organizations-api-openapi.yml
+- filename: cisco-meraki-sensor-api-openapi.yml
+  format: yaml
+  label: Cisco Meraki Sensor API
+  slug: cisco-meraki-sensor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-sensor-api-openapi.json
-- filename: cisco-meraki-sm-api-openapi.json
-  format: json
-  label: Cisco Meraki Dashboard API — Sm
-  slug: sm
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-sensor-api-openapi.yml
+- filename: cisco-meraki-sm-api-openapi.yml
+  format: yaml
+  label: Cisco Meraki Sm API
+  slug: cisco-meraki-sm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-sm-api-openapi.json
-- filename: cisco-meraki-spaces-api-openapi.json
-  format: json
-  label: Cisco Meraki Dashboard API — Spaces
-  slug: spaces
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-sm-api-openapi.yml
+- filename: cisco-meraki-spaces-api-openapi.yml
+  format: yaml
+  label: Cisco Meraki Spaces API
+  slug: cisco-meraki-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-spaces-api-openapi.json
-- filename: cisco-meraki-switch-api-openapi.json
-  format: json
-  label: Cisco Meraki Dashboard API — Switch
-  slug: switch
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-spaces-api-openapi.yml
+- filename: cisco-meraki-switch-api-openapi.yml
+  format: yaml
+  label: Cisco Meraki Switch API
+  slug: cisco-meraki-switch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-switch-api-openapi.json
-- filename: cisco-meraki-wireless-api-openapi.json
-  format: json
-  label: Cisco Meraki Dashboard API — Wireless
-  slug: wireless
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-switch-api-openapi.yml
+- filename: cisco-meraki-wireless-api-openapi.yml
+  format: yaml
+  label: Cisco Meraki Wireless API
+  slug: cisco-meraki-wireless-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-wireless-api-openapi.json
-- filename: cisco-meraki-wirelesscontroller-api-openapi.json
-  format: json
-  label: Cisco Meraki Dashboard API — wirelessController
-  slug: wirelesscontroller
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-wireless-api-openapi.yml
+- filename: cisco-meraki-wirelesscontroller-api-openapi.yml
+  format: yaml
+  label: Cisco Meraki Wireless Controller API
+  slug: cisco-meraki-wirelesscontroller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-wirelesscontroller-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-wirelesscontroller-api-openapi.yml
+- filename: cisco-meraki-secure-connect-deployments-api-openapi.yml
+  format: yaml
+  label: Cisco Meraki Deployments API
+  slug: cisco-meraki-secure-connect-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-secure-connect-deployments-api-openapi.yml
+- filename: cisco-meraki-secure-connect-firewallapplications-api-openapi.yml
+  format: yaml
+  label: Cisco Meraki Firewall Applications API
+  slug: cisco-meraki-secure-connect-firewallapplications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-secure-connect-firewallapplications-api-openapi.yml
+- filename: cisco-meraki-secure-connect-policies-api-openapi.yml
+  format: yaml
+  label: Cisco Meraki Policies API
+  slug: cisco-meraki-secure-connect-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-secure-connect-policies-api-openapi.yml
+- filename: cisco-meraki-secure-connect-reports-api-openapi.yml
+  format: yaml
+  label: Cisco Meraki Reports API
+  slug: cisco-meraki-secure-connect-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-secure-connect-reports-api-openapi.yml
 auth_types:
 - apiKey
 - http

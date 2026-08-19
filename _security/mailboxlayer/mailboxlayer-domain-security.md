@@ -36,8 +36,8 @@ layout: security
 method: probed
 name: Mailboxlayer Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for mailboxlayer, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: mailboxlayer
+overview: 'Domain security posture for Mailboxlayer, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Mailboxlayer
 provider_slug: mailboxlayer
 slug: mailboxlayer-domain-security
 source_filename: mailboxlayer-domain-security.yml
@@ -59,4 +59,10 @@ tags:
 - Quality Score
 - apilayer
 - Public APIs
+- Data Quality
+- Anti-Fraud
+- Deliverability
+- Communications
+- Developer Tools
+- Security
 ---

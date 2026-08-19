@@ -97,7 +97,6 @@ header:
           - { key: ard, label: Agent Discovery, url: 'https://apis.io/ard/' }
           - { key: skills, label: Agent Skills, url: 'https://apis.io/agent-skills/' }
           - { key: rules, label: Spectral Rules, url: 'https://apis.io/rules/' }
-          - { key: vocabularies, label: Vocabularies, url: 'https://apis.io/vocabularies/' }
 
   # How safe / how expensive — the read-the-risk menu.
   - key: signals
@@ -193,7 +192,6 @@ footer:
         - { label: About, url: 'https://apis.io/about/' }
         - { label: Blog, url: 'https://apis.io/blog/' }
         - { label: Newsletter, url: 'https://usecommune.com/n/apisio' }
-        - { label: Services, url: 'https://apis.io/services/' }
         - { label: Add Your API, url: 'https://apis.io/add/' }
         - { label: Support, url: 'https://apis.io/support/' }
         - { label: GitHub, url: 'https://github.com/api-search' }

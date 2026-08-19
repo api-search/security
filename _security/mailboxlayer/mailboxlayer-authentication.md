@@ -17,8 +17,8 @@ method: searched
 name: Mailboxlayer Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: mailboxlayer secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: mailboxlayer
+overview: Mailboxlayer secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Mailboxlayer
 provider_slug: mailboxlayer
 scheme_count: 2
 schemes:
@@ -61,4 +61,10 @@ tags:
 - Quality Score
 - apilayer
 - Public APIs
+- Data Quality
+- Anti-Fraud
+- Deliverability
+- Communications
+- Developer Tools
+- Security
 ---

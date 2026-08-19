@@ -1069,6 +1069,96 @@ api_specs:
   slug: webex-xapi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-xapi-api-openapi.yml
+- filename: webex-activities-api-openapi.yml
+  format: yaml
+  label: Webex Activities API
+  slug: webex-activities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-activities-api-openapi.yml
+- filename: webex-ai-receptionist-api-openapi.yml
+  format: yaml
+  label: Webex AI Receptionist API
+  slug: webex-ai-receptionist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-ai-receptionist-api-openapi.yml
+- filename: webex-ai-receptionist-for-webex-calling-api-openapi.yml
+  format: yaml
+  label: Webex AI Receptionist for Webex Calling API
+  slug: webex-ai-receptionist-for-webex-calling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-ai-receptionist-for-webex-calling-api-openapi.yml
+- filename: webex-call-settings-configurable-storage-region-api-openapi.yml
+  format: yaml
+  label: Webex Call Settings Configurable Storage Region API
+  slug: webex-call-settings-configurable-storage-region-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-call-settings-configurable-storage-region-api-openapi.yml
+- filename: webex-campaign-group-api-openapi.yml
+  format: yaml
+  label: Webex Campaign Group API
+  slug: webex-campaign-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-campaign-group-api-openapi.yml
+- filename: webex-features-hot-desking-members-api-openapi.yml
+  format: yaml
+  label: 'Webex Features: Hot Desking Members API'
+  slug: webex-features-hot-desking-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-features-hot-desking-members-api-openapi.yml
+- filename: webex-flows-api-openapi.yml
+  format: yaml
+  label: Webex Flows API
+  slug: webex-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-flows-api-openapi.yml
+- filename: webex-functions-api-openapi.yml
+  format: yaml
+  label: Webex Functions API
+  slug: webex-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-functions-api-openapi.yml
+- filename: webex-hybrid-data-security-api-openapi.yml
+  format: yaml
+  label: Webex Hybrid Data Security API
+  slug: webex-hybrid-data-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-hybrid-data-security-api-openapi.yml
+- filename: webex-legacy-flows-api-openapi.yml
+  format: yaml
+  label: Webex Legacy Flows API
+  slug: webex-legacy-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-legacy-flows-api-openapi.yml
+- filename: webex-person-call-settings-api-openapi.yml
+  format: yaml
+  label: Webex Person Call Settings API
+  slug: webex-person-call-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-person-call-settings-api-openapi.yml
+- filename: webex-templates-api-openapi.yml
+  format: yaml
+  label: Webex Templates API
+  slug: webex-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-templates-api-openapi.yml
+- filename: webex-user-call-settings-3-3-api-openapi.yml
+  format: yaml
+  label: Webex User Call Settings (3/3) API
+  slug: webex-user-call-settings-3-3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-user-call-settings-3-3-api-openapi.yml
+- filename: webex-user-call-settings-api-openapi.yml
+  format: yaml
+  label: Webex User Call Settings API
+  slug: webex-user-call-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-user-call-settings-api-openapi.yml
+- filename: webex-workspace-call-settings-api-openapi.yml
+  format: yaml
+  label: Webex Workspace Call Settings API
+  slug: webex-workspace-call-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-workspace-call-settings-api-openapi.yml
 auth_types:
 - http
 - oauth2

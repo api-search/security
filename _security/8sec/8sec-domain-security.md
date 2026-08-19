@@ -23,7 +23,7 @@ slug: 8sec-domain-security
 source_filename: 8sec-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 8sec.games\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''8sec.games'''\n  hsts: null\ndomains:\n- domain: 8sec.games\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 8sec.games\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''8sec.games'''\n  hsts: null\ndomains:\n- domain: 8sec.games\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/8sec/refs/heads/main/security/8sec-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
@@ -32,6 +32,8 @@ tags:
 - Mobile Games
 - Game Studio
 - Hyper-Casual
+- Hybrid-Casual
+- Free-to-Play
 - Gaming
 - France
 ---

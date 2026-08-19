@@ -1,0 +1,64 @@
+---
+api_specs:
+- filename: bonitasoft-bonita-openapi.yml
+  format: yaml
+  label: Bonita Web REST API
+  slug: bonitasoft-bonita-web-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bonitasoft/refs/heads/main/openapi/bonitasoft-bonita-openapi.yml
+description: ''
+domains:
+- caa:
+  - 0 issue "amazontrust.com"
+  - 0 issue "digicert.com"
+  - 0 issue "sectigo.com"
+  - 0 issue "awstrust.com"
+  - 0 issue "amazon.com"
+  - 0 issue "pki.goog"
+  dmarc: true
+  dmarc_policy: reject
+  dnssec: true
+  domain: ofelia.com
+  spf: true
+hosts:
+- cert_expires: Oct  8 09:33:00 2026 GMT
+  host: www.ofelia.com
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Oct  8 14:23:55 2026 GMT
+  host: documentation.ofelia.com
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+kind: domain-security
+layout: security
+method: probed
+name: Bonitasoft Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Bonitasoft, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+provider_name: Bonitasoft
+provider_slug: bonitasoft
+slug: bonitasoft-domain-security
+source_filename: bonitasoft-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-08-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ofelia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 09:33:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: documentation.ofelia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 14:23:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: ofelia.com\n  dnssec: true\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bonitasoft/refs/heads/main/security/bonitasoft-domain-security.yml
+summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+tags:
+- Company
+- Saas
+- Business Process Management
+- Process Automation
+- Workflow
+- BPMN
+- Low Code
+- Open Source
+- Orchestration
+- Agentic AI
+- Case Management
+- Java
+---
