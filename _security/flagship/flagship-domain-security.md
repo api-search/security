@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Shopping
 - Consumer
 - Startup

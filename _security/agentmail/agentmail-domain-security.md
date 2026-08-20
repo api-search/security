@@ -209,13 +209,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Email
-- API
 - AI Agents
 - Inbox
 - Messaging
-- Webhooks
+- Webhook
 - WebSockets
 - SMTP
 - IMAP

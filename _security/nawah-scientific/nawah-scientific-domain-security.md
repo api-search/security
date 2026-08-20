@@ -33,7 +33,7 @@ tags:
 - Laboratory
 - Scientific Research
 - Life Sciences
-- Pharmaceutical
+- Pharmaceuticals
 - Analytical Testing
 - Research and Development
 - Egypt

@@ -33,7 +33,7 @@ tags:
 - Consumer
 - Retail
 - Fashion
-- E-commerce
+- E-Commerce
 - Off-Price
 - Luxury
 ---

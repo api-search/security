@@ -39,5 +39,5 @@ tags:
 - Hospitality
 - Recipe Management
 - Accounts Payable
-- Point Of Sale
+- Point-of-Sale
 ---

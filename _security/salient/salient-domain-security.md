@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salient/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Lending
 - Loan Servicing
-- Collections
-- Financial Services
+- Collection
+- Financial-Services
 - Fintech
 - AI Agents
 - Compliance

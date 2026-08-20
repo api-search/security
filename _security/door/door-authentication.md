@@ -91,11 +91,11 @@ tags:
 - Company
 - Access Control
 - Smart Building
-- Proptech
+- PropTech
 - Physical Security
 - IoT
 - Multifamily
-- Real Estate
+- Real-Estate
 - Smart Lock
 - Building Automation
 ---

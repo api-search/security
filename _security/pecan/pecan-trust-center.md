@@ -19,9 +19,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pecan/refs/hea
 summary_line: ISO 27001, SOC 2 Type II
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Predictive Analytics
-- Machine Learning
+- Machine-Learning
 - Data Science
 - Forecasting
 - Business Intelligence

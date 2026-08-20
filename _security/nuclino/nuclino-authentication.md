@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nuclino-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/authentication/nuclino-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Knowledge Management
+- Knowledge-Management
 - Team Workspace
 - Documentation
 - Wiki

@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paramark/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Applications
+- Application
 - Marketing
 - Analytics
-- Measurement
+- Measurements
 - Marketing Mix Modeling
 - Incrementality
 - Advertising
-- AI
+- Artificial Intelligence
 ---

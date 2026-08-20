@@ -79,6 +79,6 @@ tags:
 - Personalization
 - Artificial Intelligence
 - Video Messaging
-- Webhooks
+- Webhook
 - MCP
 ---

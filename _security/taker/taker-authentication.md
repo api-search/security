@@ -43,7 +43,7 @@ tags:
 - Online Ordering
 - Food Delivery
 - Delivery Integration
-- Webhooks
+- Webhook
 - Saudi Arabia
 - MENA
 ---

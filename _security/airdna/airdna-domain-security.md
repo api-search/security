@@ -73,6 +73,6 @@ tags:
 - Short-Term Rental
 - Vacation Rental
 - Market Data
-- Real Estate
+- Real-Estate
 - Analytics
 ---

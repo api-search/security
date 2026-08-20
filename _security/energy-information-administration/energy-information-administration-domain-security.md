@@ -96,6 +96,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/energy-informa
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Energy
-- Federal Government
+- Federal-Government
 - Open Data
 ---

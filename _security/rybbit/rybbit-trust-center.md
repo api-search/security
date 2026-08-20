@@ -41,7 +41,7 @@ tags:
 - Web Analytics
 - Product Analytics
 - Privacy
-- Open Source
+- Open-Source
 - Cookieless
 trust_url: https://rybbit.com/security
 ---

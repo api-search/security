@@ -526,9 +526,9 @@ tags:
 - Data Platform
 - ETL
 - ELT
-- Data Pipelines
+- Data Pipeline
 - Data Storage
-- Transformations
+- Transformation
 - Orchestration
 - Data Operations
 - Cloud Data

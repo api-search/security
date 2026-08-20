@@ -57,9 +57,9 @@ tags:
 - Vulnerability Management
 - Compliance
 - NIS2
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
-- Open Source
+- Open-Source
 - Fraud Detection
 - Mobile Ad Fraud
 ---

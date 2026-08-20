@@ -115,8 +115,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/velaris/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Customer Success
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Customer Data
 - CRM
 - Analytics

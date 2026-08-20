@@ -203,6 +203,6 @@ tags:
 - Realize
 - Backstage
 - Recommendation
-- Publisher
+- Publishers
 - Programmatic
 ---

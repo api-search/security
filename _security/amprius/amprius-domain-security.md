@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amprius/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Batteries
-- Lithium Ion
+- Lithium-Ion
 - Silicon Anode
 - Energy Density
 - Energy Storage

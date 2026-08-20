@@ -41,13 +41,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/origin/refs/he
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Capital Markets
 - Bond Issuance
 - Debt Capital Markets
 - Fixed Income
 - Post-Trade
 - ISO 20022
-- FinTech
+- Fintech
 - Straight-Through Processing
 ---

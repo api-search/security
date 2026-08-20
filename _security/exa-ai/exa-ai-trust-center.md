@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/security/exa-ai-trust-center.yml
 summary_line: SOC 2 Type II, HIPAA, GDPR
 tags:
-- AI
+- Artificial Intelligence
 - Search
 - Web Search
 - Neural Search

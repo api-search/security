@@ -30,7 +30,7 @@ tags:
 - Data Science
 - Programming Language
 - Package Registry
-- Machine Learning
+- Machine-Learning
 - Pharma
 trust_url: https://trust.juliahub.com/
 ---

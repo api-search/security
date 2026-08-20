@@ -35,8 +35,8 @@ tags:
 - Mortgage
 - Lending
 - Fintech
-- Financial Services
+- Financial-Services
 - Homeownership
-- Real Estate
-- Webhooks
+- Real-Estate
+- Webhook
 ---

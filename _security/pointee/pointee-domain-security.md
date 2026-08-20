@@ -34,6 +34,6 @@ tags:
 - RPA
 - Agentic Automation
 - AI Agents
-- Workflow Automation
+- Workflow-Automation
 - Process Discovery
 ---

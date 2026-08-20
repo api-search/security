@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - AI Governance
 - API Gateway
 - Security

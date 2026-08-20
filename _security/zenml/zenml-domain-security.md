@@ -114,11 +114,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenml/refs/heads/main/security/zenml-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - MLOps
 - LLMOps
 - Pipelines
-- Open Source
+- Open-Source
 - Python
 ---

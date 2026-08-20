@@ -207,12 +207,12 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Video Surveillance
-- Cameras
+- Camera
 - IP Camera
 - Cloud Recording
 - Video Streaming
 - IoT
 - ONVIF
 - Security
-- Webhooks
+- Webhook
 ---

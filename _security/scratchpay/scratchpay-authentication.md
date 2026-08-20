@@ -57,5 +57,5 @@ tags:
 - Healthcare
 - Fintech
 - Buy Now Pay Later
-- Point of Sale
+- Point-of-Sale
 ---

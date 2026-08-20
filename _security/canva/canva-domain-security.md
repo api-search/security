@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/security/canva-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Apps
+- Application
 - Automation
 - Brand Management
 - Collaboration

@@ -93,9 +93,9 @@ summary_line: oauth2/http · 3 schemes
 tags:
 - Embedded Banking
 - Banking as a Service
-- BaaS
+- Backend-as-a-Service
 - Payments
-- Accounts
+- Account
 - Cards
 - IBAN
 - SEPA

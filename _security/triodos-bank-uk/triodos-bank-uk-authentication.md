@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://develop
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/authentication/triodos-bank-uk-authentication.yml
 summary_line: oauth2/openIdConnect/mutualTLS/httpMessageSignature/http-basic · 4 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

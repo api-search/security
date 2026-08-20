@@ -57,8 +57,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ballerina/refs/heads/main/security/ballerina-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Integrations
+- Integration
 - Orchestrations
-- Open Source
+- Open-Source
 - Programming Language
 ---

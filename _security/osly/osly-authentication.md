@@ -40,7 +40,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Workflow Automation
+- Workflow-Automation
 - No-Code
 - Agents
 - Lead Generation

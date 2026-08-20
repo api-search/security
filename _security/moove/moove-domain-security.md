@@ -34,6 +34,6 @@ tags:
 - Mobility
 - Vehicle Financing
 - Embedded Finance
-- Ride-Sharing
+- Ridesharing
 - Financial Inclusion
 ---

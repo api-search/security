@@ -47,7 +47,7 @@ tags:
 - Conversational AI
 - Messaging
 - Marketing Automation
-- Customer Support
+- Customer-Support
 - WhatsApp
 - Instagram
 - Facebook Messenger

@@ -114,10 +114,10 @@ tags:
 - ETL
 - ELT
 - Reverse ETL
-- Data Pipelines
+- Data Pipeline
 - Data Integration
 - Change Data Capture
-- Transformations
+- Transformation
 - Analytics
 - MCP
 - AI Agents

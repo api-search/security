@@ -113,12 +113,12 @@ tags:
 - Installments
 - Pay Later
 - Merchant Services
-- Orders
+- Order
 - Refunds
-- Captures
-- Webhooks
+- Capture
+- Webhook
 - Disputes
 - Channel Partners
-- E-commerce
-- POS
+- E-Commerce
+- Point-of-Sale
 ---

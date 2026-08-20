@@ -38,6 +38,6 @@ tags:
 - Abstraction Layer
 - Cloud
 - Multi-Cloud
-- Open Source
+- Open-Source
 - Python
 ---

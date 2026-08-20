@@ -31,7 +31,7 @@ tags:
 - Acquired
 - Annuities
 - Demutualization
-- Financial Services
+- Financial-Services
 - Indexed Life
 - Insurance
 - Life Insurance

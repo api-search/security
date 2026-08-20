@@ -145,7 +145,7 @@ tags:
 - Outbound
 - Inbound
 - CRM
-- Webhooks
+- Webhook
 - Custom Actions
 - HIPAA
 - SOC 2

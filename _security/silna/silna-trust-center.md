@@ -279,6 +279,5 @@ tags:
 - Eligibility
 - Insurance
 - Revenue Cycle
-- API
 trust_url: ''
 ---

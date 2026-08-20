@@ -75,7 +75,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Payments
 - Merchant of Record
-- Subscriptions
-- SaaS
+- Subscription
+- Software-as-a-Service
 - Billing
 ---

@@ -63,6 +63,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Logging
 - Observability
-- Open Source
+- Open-Source
 - Grafana
 ---

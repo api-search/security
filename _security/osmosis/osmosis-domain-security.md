@@ -50,12 +50,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Reinforcement Learning
 - LLM
 - Post-Training
 - Model Training
 - Agents
-- Machine Learning
+- Machine-Learning
 - Developer Tools
 ---

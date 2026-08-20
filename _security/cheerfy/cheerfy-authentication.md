@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cheerfy/refs/h
 summary_line: http · 1 scheme
 tags:
 - Company
-- Restaurants
+- Restaurant
 - Hospitality
 - CRM
 - Loyalty

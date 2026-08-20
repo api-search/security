@@ -33,7 +33,7 @@ tags:
 - Company
 - Data Engineering
 - AI Agents
-- Data Pipelines
+- Data Pipeline
 - Data Lineage
 - Developer Tools
 - CLI

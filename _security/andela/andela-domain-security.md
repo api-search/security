@@ -39,7 +39,7 @@ tags:
 - Company
 - Enterprise
 - Talent
-- AI
+- Artificial Intelligence
 - Engineering
 - Staffing
 - Remote Work

@@ -55,7 +55,7 @@ tags:
 - Company
 - Consumer
 - Commerce
-- Ecommerce
+- E-Commerce
 - Shopping
 - Discount Codes
 - Coupons
@@ -63,5 +63,4 @@ tags:
 - MCP
 - Agentic Commerce
 - Retail
-- API
 ---

@@ -101,7 +101,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wiktionary/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Dictionaries
-- Open Source
+- Open-Source
 - Wikimedia
 - MediaWiki
 - Linguistics

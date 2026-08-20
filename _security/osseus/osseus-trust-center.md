@@ -24,7 +24,7 @@ summary_line: SOC 2, ISO/IEC 27001:2022, ISO/IEC 42001:2023, HIPAA, GDPR
 tags:
 - Company
 - Research Intelligence
-- Knowledge Management
+- Knowledge-Management
 - AI Agents
 - R&D
 - Security

@@ -92,7 +92,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Print on Demand
 - Fulfillment
-- Ecommerce
+- E-Commerce
 - Dropshipping
 - Merchandise
 ---

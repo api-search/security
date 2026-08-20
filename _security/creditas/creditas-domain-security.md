@@ -36,6 +36,6 @@ tags:
 - Lending
 - Brazil
 - Insurance
-- Financial Services
+- Financial-Services
 - Payroll Loans
 ---

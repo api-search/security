@@ -29,7 +29,7 @@ tags:
 - Knowledge Graph
 - Reasoning Layer
 - GraphQL
-- Model Context Protocol
+- MCP
 - Enterprise Software
 - Developer Infrastructure
 - RAG

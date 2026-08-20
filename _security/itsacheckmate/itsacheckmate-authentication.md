@@ -54,10 +54,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/
 summary_line: http · 1 scheme
 tags:
 - Restaurant
-- Point Of Sale
+- Point-of-Sale
 - Online Ordering
 - Delivery
 - Menus
-- Orders
+- Order
 - Integration
 ---

@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fairplay/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Lending
 - Embedded Finance
 - Working Capital
 - Revenue-Based Financing
-- E-commerce
+- E-Commerce
 - Fintech
 - Mexico
 ---

@@ -47,11 +47,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Advertising
 - Ad Network
 - Monetization
 - Conversion Tracking
-- SDKs
+- SDK
 - Agents
 ---

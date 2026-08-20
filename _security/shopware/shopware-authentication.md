@@ -106,10 +106,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopware/refs/
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - E-Commerce
-- Open Source
+- Open-Source
 - Headless Commerce
 - B2B
 - B2C
 - REST
-- OAuth2
+- Authentication
 ---

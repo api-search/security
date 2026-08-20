@@ -37,12 +37,12 @@ tags:
 - Advisory
 - Consulting
 - Professional Services
-- Real Estate
+- Real-Estate
 - Renewable Energy
 - Government Contracting
 - Asset Management
 - Private Equity
-- Financial Services
+- Financial-Services
 - Healthcare
 - Life Sciences
 - Technology
@@ -53,6 +53,6 @@ tags:
 - Cybersecurity
 - Restructuring
 - Forensic Accounting
-- Transactions
+- Transaction
 - Risk Advisory
 ---

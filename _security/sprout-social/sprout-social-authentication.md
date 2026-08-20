@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://api.spr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/authentication/sprout-social-authentication.yml
 summary_line: http/oauth2/openIdConnect · 4 schemes
 tags:
-- Social Media
+- Social-Media
 - Social Media Management
 - Publishing
 - Analytics

@@ -23,7 +23,7 @@ tags:
 - Healthcare
 - Life Sciences
 - Data Intelligence
-- Pharmaceutical
+- Pharmaceuticals
 - Artificial Intelligence
 - Clinical Data Management
 trust_url: https://trust.rivia.com/

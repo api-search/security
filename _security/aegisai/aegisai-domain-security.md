@@ -31,13 +31,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aegisai/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Email Security
 - Cybersecurity
 - Anti-Phishing
 - Threat Detection
 - Agentic AI
-- Microsoft 365
+- Microsoft-365
 - Google Workspace
 - Email
 ---

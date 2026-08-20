@@ -165,7 +165,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vinculum/refs/
 summary_line: apiKey · 4 schemes
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Omnichannel
 - Order Management
 - Warehouse Management

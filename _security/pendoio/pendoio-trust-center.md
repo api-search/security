@@ -123,6 +123,6 @@ tags:
 - User Analytics
 - In-App Guidance
 - Customer Feedback
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.pendo.io/
 ---

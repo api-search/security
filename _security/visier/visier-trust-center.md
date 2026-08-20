@@ -331,6 +331,6 @@ tags:
 - Compensation
 - Skills
 - Artificial Intelligence
-- Model Context Protocol
+- MCP
 trust_url: https://www.visier.com/trust/
 ---

@@ -37,7 +37,7 @@ tags:
 - Email
 - Webmail
 - Consumer
-- Communication
+- Communications
 - Microsoft
 - Legacy
 - Messaging

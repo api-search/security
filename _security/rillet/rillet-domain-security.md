@@ -218,5 +218,5 @@ tags:
 - Accounts Receivable
 - Accounts Payable
 - Invoicing
-- SaaS
+- Software-as-a-Service
 ---

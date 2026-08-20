@@ -151,7 +151,6 @@ tags:
 - Passkeys
 - MFA
 - SSO
-- OAuth
 - OIDC
 - SAML
 - SCIM

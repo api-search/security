@@ -31,11 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/giga/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - AI Agents
 - Voice AI
-- Customer Support
+- Customer-Support
 - Conversational AI
 - Contact Center
 - Agentic AI

@@ -84,10 +84,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/luma-ai/refs/heads/main/security/luma-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Video Generation
-- Image Generation
+- Image-Generation
 - 3D
 - Dream Machine
-- Multimodal
+- Multi-Modal
 ---

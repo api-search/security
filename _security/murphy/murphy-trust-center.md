@@ -22,7 +22,7 @@ tags:
 - Artificial Intelligence
 - Debt Collection
 - Voice AI
-- Financial Services
-- Collections
+- Financial-Services
+- Collection
 trust_url: https://app.eu.vanta.com/getmurphy.ai/trust/0j2gt1tccqbflqfnuaubk3
 ---

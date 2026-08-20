@@ -22,7 +22,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smithrx/refs/h
 summary_line: SOC 2, HIPAA
 tags:
 - Company
-- Health Care
+- Healthcare
 - Pharmacy
 - Pharmacy Benefit Management
 - Prescription Drugs

@@ -31,6 +31,6 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Containers
 - OCI
-- Open Source
+- Open-Source
 - Standards
 ---

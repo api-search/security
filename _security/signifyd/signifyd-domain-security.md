@@ -39,10 +39,10 @@ tags:
 - Fraud
 - Fraud Prevention
 - Chargebacks
-- Ecommerce
+- E-Commerce
 - Payments
 - Risk
-- Machine Learning
+- Machine-Learning
 - Commerce Protection
 - Account Protection
 - Returns

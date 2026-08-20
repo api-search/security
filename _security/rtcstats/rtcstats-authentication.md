@@ -39,14 +39,14 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: openapi/rtcstat
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rtcstats/refs/heads/main/authentication/rtcstats-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- webrtc
-- observability
-- monitoring
-- debugging
-- real-time-communications
-- video
-- voice
-- ai
-- mcp
-- developer-tools
+- WebRTC
+- Observability
+- Monitoring
+- Debugging
+- Real-Time Communications
+- Video
+- Voice
+- Artificial Intelligence
+- MCP
+- Developer Tools
 ---

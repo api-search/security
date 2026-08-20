@@ -50,8 +50,7 @@ tags:
 - Document Generation
 - PDF
 - Templates
-- API
-- Workflow
+- Workflows
 - HubSpot
 - Zapier
 ---

@@ -94,5 +94,5 @@ tags:
 - API Management
 - Cloud Computing
 - Infrastructure
-- Platform as a Service
+- Platform-as-a-Service
 ---

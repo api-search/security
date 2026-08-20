@@ -36,5 +36,5 @@ tags:
 - Diagnostics
 - Medical Devices
 - Health
-- Semiconductor
+- Semiconductors
 ---

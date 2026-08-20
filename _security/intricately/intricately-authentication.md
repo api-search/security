@@ -32,7 +32,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intricately/re
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- API
 - Sales Intelligence
 - Cloud Intelligence
 - Technographics

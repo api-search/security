@@ -34,7 +34,7 @@ tags:
 - Online Ordering
 - Websites
 - Commerce
-- Integrations
+- Integration
 - Payments
 - Reservations
 - Delivery

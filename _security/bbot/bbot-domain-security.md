@@ -33,5 +33,5 @@ tags:
 - Order And Pay
 - Tableside
 - Hospitality
-- Point Of Sale
+- Point-of-Sale
 ---

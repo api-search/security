@@ -75,15 +75,15 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/security/unstructured-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
-- document-processing
+- Document Processing
 - ETL
 - RAG
 - LLM
 - PDF
 - OCR
-- data-ingestion
-- chunking
-- embeddings
-- AI
+- Data Ingestion
+- Chunking
+- Embeddings
+- Artificial Intelligence
 trust_url: https://trust.unstructured.io/
 ---

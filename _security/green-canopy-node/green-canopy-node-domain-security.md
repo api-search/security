@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/green-canopy-n
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Construction Technology
 - Sustainability
 - Prefab Housing

@@ -69,7 +69,7 @@ summary_line: http/custom · 2 schemes
 tags:
 - Payments
 - Payment Gateway
-- FinTech
+- Fintech
 - MENA
 - UAE
 ---

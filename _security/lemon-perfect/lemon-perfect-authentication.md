@@ -105,11 +105,11 @@ tags:
 - Company
 - Beverages
 - Consumer Packaged Goods
-- Ecommerce
+- E-Commerce
 - Retail
 - Direct to Consumer
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - GraphQL
 - Universal Commerce Protocol
 - Shopify

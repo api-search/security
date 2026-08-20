@@ -39,11 +39,11 @@ tags:
 - Payments
 - Mobile Money
 - Disbursements
-- Collections
+- Collection
 - Payroll
 - Fintech
 - West Africa
 - UEMOA
 - B2B Payments
-- Financial Services
+- Financial-Services
 ---

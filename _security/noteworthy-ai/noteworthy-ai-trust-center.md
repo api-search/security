@@ -19,8 +19,8 @@ summary_line: SOC 2
 tags:
 - Company
 - Artificial Intelligence
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Electric Utilities
 - Grid Inspection
 - Energy

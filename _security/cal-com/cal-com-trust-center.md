@@ -156,7 +156,7 @@ tags:
 - Productivity
 - Scheduling
 - Calendar
-- Open Source
+- Open-Source
 - Booking
 trust_url: https://cal.com/security
 ---

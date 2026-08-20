@@ -38,5 +38,5 @@ tags:
 - Agents
 - Accruals
 - Accounting Automation
-- FinTech
+- Fintech
 ---

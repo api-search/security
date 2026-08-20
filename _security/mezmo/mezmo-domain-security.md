@@ -160,7 +160,7 @@ tags:
 - Telemetry
 - Telemetry Pipeline
 - Log Management
-- AI
+- Artificial Intelligence
 - SRE
 - OpenTelemetry
 - DevOps

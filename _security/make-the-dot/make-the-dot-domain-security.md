@@ -38,6 +38,6 @@ tags:
 - Design
 - Merchandising
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Collaboration
 ---

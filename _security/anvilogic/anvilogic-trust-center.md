@@ -33,7 +33,7 @@ tags:
 - Threat Detection
 - Artificial Intelligence
 - Agents
-- Model Context Protocol
+- MCP
 - Data Lake
 trust_url: https://trust.anvilogic.com/
 ---

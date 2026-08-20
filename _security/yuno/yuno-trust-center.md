@@ -35,7 +35,6 @@ tags:
 - Fintech
 - Checkout
 - Payouts
-- Subscriptions
-- API
+- Subscription
 trust_url: https://security.y.uno/
 ---

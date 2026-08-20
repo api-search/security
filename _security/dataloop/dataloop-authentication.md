@@ -84,11 +84,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/
 summary_line: http/oauth2/apiKey · 5 schemes
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Data Management
 - Data Annotation
 - MLOps
-- Computer Vision
+- Computer-Vision
 - Generative AI
 - Data Labeling
 - Pipelines

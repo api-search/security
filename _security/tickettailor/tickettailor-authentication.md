@@ -78,7 +78,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tickettailor/r
 summary_line: http · 1 scheme
 tags:
 - Event Ticketing
-- Events
+- Event
 - Ticketing
 - Box Office
 - Payments

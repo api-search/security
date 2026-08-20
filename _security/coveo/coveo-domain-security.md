@@ -961,13 +961,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/security/coveo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Analytics
 - Catalog
 - Commerce
 - Customers
-- Experiences
-- Machine Learning
+- Experience
+- Machine-Learning
 - Personalization
 - Recommendations
 - Search

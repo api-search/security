@@ -32,7 +32,7 @@ tags:
 - Company
 - Consumer
 - Commerce
-- E-commerce
+- E-Commerce
 - K-Beauty
 - D2C
 - Brand Aggregator

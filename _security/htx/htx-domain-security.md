@@ -52,7 +52,7 @@ tags:
 - Trading
 - Digital Assets
 - Blockchain
-- Financial Services
+- Financial-Services
 - Market Data
 - WebSocket
 ---

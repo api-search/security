@@ -37,7 +37,7 @@ tags:
 - Circularity
 - Sustainability
 - Retail
-- Ecommerce
+- E-Commerce
 - Trade-In
 - Warehouse Management
 ---

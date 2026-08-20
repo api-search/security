@@ -41,7 +41,7 @@ tags:
 - Secure Multiparty Computation
 - Data Security
 - Encrypted Search
-- Machine Learning
+- Machine-Learning
 - Secure AI
 - Data Collaboration
 ---

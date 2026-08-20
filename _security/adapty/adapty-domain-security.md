@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adapty/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Mobile
-- Subscriptions
+- Subscription
 - In-App Purchases
 - Paywalls
 - Analytics

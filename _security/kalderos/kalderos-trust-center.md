@@ -30,7 +30,7 @@ tags:
 - Rebate Management
 - Compliance
 - Life Sciences
-- Pharmaceutical
+- Pharmaceuticals
 - Medicaid
 - Health Tech
 trust_url: https://www.kalderos.com/company/security

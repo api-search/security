@@ -39,5 +39,5 @@ tags:
 - Artificial Intelligence
 - Procurement
 - Contract Management
-- SaaS
+- Software-as-a-Service
 ---

@@ -24,6 +24,6 @@ tags:
 - Productivity
 - Meetings
 - Booking
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.joincabinet.com/
 ---

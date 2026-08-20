@@ -17,13 +17,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netic/refs/hea
 summary_line: trust center published
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - Autonomous Agents
 - Home Services
 - Field Service
 - Voice AI
 - Automation
-- SaaS
+- Software-as-a-Service
 trust_url: https://cybernetic-labs.secureframetrust.com/
 ---

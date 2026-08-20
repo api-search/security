@@ -43,7 +43,7 @@ tags:
 - Data Integration
 - Customer Data
 - Marketing
-- Real-time
+- Real-Time
 - iPaaS
 - Analytics
 ---

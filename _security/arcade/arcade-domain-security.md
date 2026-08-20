@@ -94,9 +94,9 @@ tags:
 - MCP
 - AI Agents
 - Authorization
-- OAuth
+- Authentication
 - Tool Calling
 - Agent Infrastructure
 - LLM
-- Integrations
+- Integration
 ---

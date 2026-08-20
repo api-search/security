@@ -38,7 +38,7 @@ tags:
 - AI Agents
 - Applied AI
 - Developer Tools
-- Open Source
+- Open-Source
 - Consulting
 - LLM
 ---

@@ -47,7 +47,7 @@ tags:
 - Stickers
 - Bitmoji
 - Messaging
-- Images
-- OAuth
+- Image
+- Authentication
 - Social
 ---

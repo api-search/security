@@ -30,7 +30,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Ai Ml
-- Machine Learning
+- Machine-Learning
 - Vector Search
 - Embeddings
 - PostgreSQL

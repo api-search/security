@@ -115,6 +115,6 @@ tags:
 - Metering
 - Smart Meter
 - Germany
-- OAuth
-- Webhooks
+- Authentication
+- Webhook
 ---

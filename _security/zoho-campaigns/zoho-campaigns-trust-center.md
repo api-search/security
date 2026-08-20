@@ -55,6 +55,6 @@ tags:
 - Campaign Analytics
 - Marketing Automation
 - Transactional Email
-- Webhooks
+- Webhook
 trust_url: https://www.zoho.com/compliance.html
 ---

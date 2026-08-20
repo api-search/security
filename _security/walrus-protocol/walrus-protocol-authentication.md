@@ -35,6 +35,6 @@ tags:
 - Blockchain
 - Web3
 - Data
-- AI
+- Artificial Intelligence
 - Sui
 ---

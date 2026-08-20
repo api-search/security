@@ -90,7 +90,7 @@ tags:
 - WhatsApp
 - SMS
 - Marketing Automation
-- E-commerce
+- E-Commerce
 - Agents
 - MCP
 trust_url: https://trust.useboom.ai/

@@ -36,5 +36,5 @@ tags:
 - Retail
 - Jewelry
 - Diamonds
-- Direct-to-Consumer
+- Direct to Consumer
 ---

@@ -35,9 +35,9 @@ tags:
 - Risk Management
 - DeFi
 - Blockchain
-- Onchain Data
+- On-Chain Data
 - Economic Security
 - Price Feeds
 - Crypto
-- AI
+- Artificial Intelligence
 ---

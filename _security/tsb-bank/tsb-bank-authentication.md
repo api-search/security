@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: openapi/tsb-ban
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/authentication/tsb-bank-authentication.yml
 summary_line: oauth2/openIdConnect/mutualTLS · 3 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

@@ -41,6 +41,6 @@ tags:
 - In-Vehicle Infotainment
 - IoT
 - Linux Foundation
-- Open Source
+- Open-Source
 - Software Defined Vehicles
 ---

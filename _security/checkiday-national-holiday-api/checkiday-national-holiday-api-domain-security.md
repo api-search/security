@@ -50,7 +50,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Calendar
 - Holidays
-- Events
+- Event
 - Observances
 - Dates
 - Time

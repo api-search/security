@@ -224,15 +224,15 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\ndocs: https://platform-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/authentication/sarj-ai-developer-api-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
-- voice AI
-- voice agents
-- conversational AI
+- Voice AI
+- Voice Agents
+- Conversational AI
 - Arabic AI
-- outbound calls
-- telephony
-- speech to text
-- text to speech
-- voice cloning
+- Outbound Calls
+- Telephony
+- Speech-to-Text
+- Text-to-Speech
+- Voice Cloning
 - MCP
 - agent-native
 - Saudi Arabia

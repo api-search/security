@@ -111,7 +111,7 @@ tags:
 - FX Trading
 - CFD Trading
 - Algorithmic Trading
-- Financial Services
+- Financial-Services
 - Trading APIs
 - Currency Exchange
 ---

@@ -36,7 +36,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Medical Devices
-- Health Care
+- Healthcare
 - Oncology
 - Scalp Cooling
 - Patient Care

@@ -31,13 +31,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qplix/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Wealth Management
-- Portfolio Management
+- Portfolio-Management
 - Asset Management
 - Family Office
 - WealthTech
-- SaaS
+- Software-as-a-Service
 - Reporting
 - Germany
 ---

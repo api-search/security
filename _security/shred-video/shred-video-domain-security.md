@@ -34,6 +34,6 @@ tags:
 - Adventure Tourism
 - Media
 - Automation
-- Computer Vision
+- Computer-Vision
 - Content Delivery
 ---

@@ -58,7 +58,7 @@ tags:
 - Expense Management
 - Invoices
 - Procurement
-- FinTech
+- Fintech
 - Accounting
 - Payments
 ---

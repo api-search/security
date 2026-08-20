@@ -98,5 +98,5 @@ tags:
 - Data Visualization
 - Monitoring
 - Grafana
-- Metabase
+- METABASE
 ---

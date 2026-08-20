@@ -84,5 +84,5 @@ tags:
 - Credit Cards
 - Invoicing
 - Payment Links
-- Digital Wallets
+- Digital Wallet
 ---

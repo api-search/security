@@ -128,7 +128,7 @@ tags:
 - Artificial Intelligence
 - Open Data
 - Public Policy
-- Regulation
+- Regulations
 - Compliance
 - EU AI Act
 - Government

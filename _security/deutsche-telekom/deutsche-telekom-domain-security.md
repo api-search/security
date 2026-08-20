@@ -292,7 +292,7 @@ tags:
 - Magenta
 - MagentaBusiness
 - API Gateway
-- Open Source
+- Open-Source
 - Germany
 - Europe
 ---

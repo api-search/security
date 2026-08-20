@@ -33,13 +33,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imandra/refs/h
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Automated Reasoning
 - Formal Verification
 - Theorem Proving
 - Developer Tools
 - Code Analysis
-- Financial Services
+- Financial-Services
 - gRPC
 - MCP
 ---

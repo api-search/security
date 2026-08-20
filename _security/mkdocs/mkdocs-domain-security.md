@@ -30,7 +30,7 @@ summary_line: TLSv1.3
 tags:
 - Documentation
 - Markdown
-- Open Source
+- Open-Source
 - Python
 - Static Site Generator
 ---

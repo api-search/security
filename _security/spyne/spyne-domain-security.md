@@ -47,13 +47,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spyne/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Automotive
-- Images
+- Image
 - Video
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Dealerships
 - Media Processing
-- Webhooks
+- Webhook
 ---

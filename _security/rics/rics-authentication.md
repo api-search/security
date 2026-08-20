@@ -37,14 +37,14 @@ source_yaml: "generated: '2026-07-26'\nmethod: derived\nsource: openapi/rics-dig
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/authentication/rics-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Industry Body
 - Valuation
 - Standards
 - Surveying
 - Property Measurement
-- Regulation
+- Regulations
 - Construction
 - PropTech
 ---

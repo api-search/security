@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Consumer
-- Financial Services
+- Financial-Services
 - Wealth Management
 - Mutual Funds
 - Investing

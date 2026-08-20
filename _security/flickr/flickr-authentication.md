@@ -246,6 +246,6 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Photography
 - Photos
-- Social Media
+- Social-Media
 - Public APIs
 ---

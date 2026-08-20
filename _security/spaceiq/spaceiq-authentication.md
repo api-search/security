@@ -40,8 +40,8 @@ tags:
 - Hoteling
 - Meeting Rooms
 - Occupancy Analytics
-- Real Estate
-- Floorplans
+- Real-Estate
+- Floor Plans
 - GraphQL
 - IWMS
 - Eptura

@@ -57,6 +57,6 @@ tags:
 - Mobile Messaging
 - Personalization
 - SMS
-- Webhooks
+- Webhook
 trust_url: https://trust.salesforce.com/
 ---

@@ -18,7 +18,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bolt-new/refs/heads/main/security/bolt-new-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
-- AI
+- Artificial Intelligence
 - AI App Builder
 - No-Code
 - Low-Code
@@ -30,7 +30,7 @@ tags:
 - StackBlitz
 - Generative UI
 - Vibe Coding
-- Agent
+- Agents
 - Netlify
 - Supabase
 trust_url: https://trust.bolt.new/

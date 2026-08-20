@@ -53,12 +53,12 @@ tags:
 - Consumer Electronics
 - Gaming Hardware
 - Apparel
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Agentic Commerce
 - Shopify
 - GraphQL
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - United Kingdom
 ---

@@ -36,7 +36,7 @@ tags:
 - Education
 - Children
 - Subscription Commerce
-- Ecommerce
+- E-Commerce
 - Fundraising
 - Schools
 - Reading

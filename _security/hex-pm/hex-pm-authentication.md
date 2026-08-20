@@ -121,6 +121,6 @@ tags:
 - Elixir
 - Gleam
 - BEAM
-- Open Source
+- Open-Source
 - Package Manager
 ---

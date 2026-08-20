@@ -323,6 +323,6 @@ tags:
 - Business Cards
 - Prepaid Cards
 - Fintech
-- Financial Services
-- Webhooks
+- Financial-Services
+- Webhook
 ---

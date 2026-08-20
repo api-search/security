@@ -130,8 +130,8 @@ tags:
 - Payments
 - Banking
 - Open Banking
-- Stablecoin
+- Stablecoins
 - Payouts
 - Foreign Exchange
-- Webhooks
+- Webhook
 ---

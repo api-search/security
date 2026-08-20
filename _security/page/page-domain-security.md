@@ -38,5 +38,5 @@ tags:
 - GovTech
 - Artificial Intelligence
 - Compliance
-- SaaS
+- Software-as-a-Service
 ---

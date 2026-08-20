@@ -88,7 +88,6 @@ tags:
 - CRM
 - Field Service
 - Moving Company
-- Operations
 - Lead Management
 - Dispatch
 ---

@@ -46,5 +46,5 @@ tags:
 - Multi-Location
 - CRM
 - Franchise Sales
-- SaaS
+- Software-as-a-Service
 ---

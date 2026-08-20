@@ -37,5 +37,5 @@ tags:
 - Revenue Operations
 - Sales
 - FinOps
-- SaaS
+- Software-as-a-Service
 ---

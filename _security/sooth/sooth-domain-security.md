@@ -36,5 +36,5 @@ tags:
 - Foresight
 - Decision Intelligence
 - Risk
-- Machine Learning
+- Machine-Learning
 ---

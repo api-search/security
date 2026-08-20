@@ -39,7 +39,7 @@ tags:
 - Investing
 - Fintech
 - Fractional Shares
-- Portfolio Management
+- Portfolio-Management
 - Robo-Advisor
 - Margin Loans
 - Banking

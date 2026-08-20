@@ -27,7 +27,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/playhouse/refs
 summary_line: DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - PropTech
 - Mobile App
 - Consumer

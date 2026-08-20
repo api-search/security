@@ -51,7 +51,7 @@ tags:
 - Geospatial
 - PMTiles
 - Vector Tiles
-- Open Source
+- Open-Source
 - Self-Hosted
 - OpenStreetMap
 ---

@@ -71,6 +71,5 @@ tags:
 - Cloud
 - GraphQL
 - Drivers
-- APIs
 trust_url: https://trust.neo4j.com/
 ---

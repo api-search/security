@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/clear-ca
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/authentication/clear-capital-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Real Estate
+- Real-Estate
 - Property Data
 - Valuation
 - AVM

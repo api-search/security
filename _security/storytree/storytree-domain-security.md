@@ -35,7 +35,7 @@ tags:
 - Consumer
 - Mobile App
 - Photography
-- Ecommerce
+- E-Commerce
 - Wix
 - MCP
 ---

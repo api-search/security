@@ -46,6 +46,6 @@ tags:
 - GIS
 - Emergency Management
 - Climate Risk
-- Machine Learning
+- Machine-Learning
 - Hydrology
 ---

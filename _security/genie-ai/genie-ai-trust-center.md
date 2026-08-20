@@ -20,9 +20,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/genie-ai/refs/
 summary_line: ISO 27001, SOC 2 Type 2, GDPR
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Legal
-- LegalTech
+- Legal Tech
 - Contracts
 - Contract Management
 - Legal AI

@@ -36,7 +36,7 @@ tags:
 - Compliance
 - HIPAA
 - HITRUST
-- Managed Services
+- Managed Service
 - Cybersecurity
 - Cloud
 ---

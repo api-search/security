@@ -48,7 +48,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: openapi/mx-cons
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mx/refs/heads/main/authentication/mx-authentication.yml
 summary_line: http · 2 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Open Finance

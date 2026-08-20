@@ -35,6 +35,6 @@ tags:
 - Coaching
 - Quality Management
 - Human Resources
-- SaaS
+- Software-as-a-Service
 trust_url: https://centrical.com/enterprise-level-security/
 ---

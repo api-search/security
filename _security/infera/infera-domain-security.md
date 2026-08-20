@@ -40,6 +40,6 @@ tags:
 - Life Sciences
 - Artificial Intelligence
 - Protocols
-- SaaS
+- Software-as-a-Service
 - Automation
 ---

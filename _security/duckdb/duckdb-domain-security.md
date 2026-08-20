@@ -33,5 +33,5 @@ tags:
 - Analytics
 - OLAP
 - Embedded
-- Open Source
+- Open-Source
 ---

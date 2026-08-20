@@ -115,19 +115,19 @@ source_yaml: "generated: '2026-08-18'\nmethod: searched\nsource: https://offende
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/security/offendersearch-api-trust-center.yml
 summary_line: trust center published
 tags:
-- background-checks
-- identity-verification
-- public-records
-- criminal-records
-- compliance
-- trust-and-safety
-- hr-tech
-- recruiting
-- proptech
-- tenant-screening
+- Background Checks
+- Identity Verification
+- Public Records
+- Criminal Records
+- Compliance
+- Trust and Safety
+- HR Tech
+- Recruiting
+- PropTech
+- Tenant Screening
 - healthcare-screening
-- data-api
-- mcp-server
+- Data API
+- MCP Server
 - agent-native
 trust_url: https://offendersearch.app/trust
 ---

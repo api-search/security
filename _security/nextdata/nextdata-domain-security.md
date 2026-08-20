@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data
 - Data Mesh
-- AI
+- Artificial Intelligence
 - Data Management
 - Data Products
 ---

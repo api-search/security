@@ -49,7 +49,7 @@ tags:
 - Advertising
 - Flyers
 - Coupons
-- E-commerce
+- E-Commerce
 - Shopping
 - Marketing
 - Digital Circulars

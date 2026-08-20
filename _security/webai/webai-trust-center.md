@@ -19,11 +19,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webai/refs/hea
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - On-Device AI
 - Edge AI
 - Sovereign AI
-- Machine Learning
+- Machine-Learning
 - Privacy
 - Local Inference
 - macOS

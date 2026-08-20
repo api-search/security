@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/argil-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/authentication/argil-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Video Generation
 - Avatars
 - Voice Cloning

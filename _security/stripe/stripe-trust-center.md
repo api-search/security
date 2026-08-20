@@ -982,7 +982,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stripe/refs/he
 summary_line: PCI DSS, SOC 1 Type II, SOC 2 Type II, SOC 3, EMVCo Level 1 and 2, PCI PA-DSS, NIST Cybersecurity Framework, APEC CBPR and PRP, EU-US Data Privacy Framework
 tags:
 - Commerce
-- Financial Services
+- Financial-Services
 - Fintech
 - Payments
 - T1

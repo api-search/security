@@ -41,7 +41,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adp-workforce-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - HCM
-- Human Capital Management
 - Payroll
 - HR
 - Workforce Management

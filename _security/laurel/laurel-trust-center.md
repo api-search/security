@@ -263,7 +263,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/laurel/refs/he
 summary_line: SOC 2 Type 2, ISO/IEC 42001:2023, HIPAA, GDPR, CCPA
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Timekeeping
 - Time Tracking
 - Legal

@@ -39,9 +39,9 @@ tags:
 - Video Commerce
 - Shoppable Video
 - Livestream Shopping
-- Ecommerce
+- E-Commerce
 - Retail
 - Video
 - SDK
-- Webhooks
+- Webhook
 ---

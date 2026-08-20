@@ -68,5 +68,5 @@ tags:
 - Case Law
 - Legal Research
 - Search
-- AI
+- Artificial Intelligence
 ---

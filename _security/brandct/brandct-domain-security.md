@@ -33,7 +33,7 @@ tags:
 - Retail
 - Market Research
 - Retail Analytics
-- Point of Sale
+- Point-of-Sale
 - Consumer Packaged Goods
 - China
 ---

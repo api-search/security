@@ -118,6 +118,6 @@ tags:
 - Project Management
 - Issue Tracking
 - Work Management
-- Open Source
+- Open-Source
 - Productivity
 ---

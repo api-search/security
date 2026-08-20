@@ -247,6 +247,6 @@ tags:
 - Orchestration
 - Serverless
 - State Machine
-- Workflow
+- Workflows
 trust_url: https://aws.amazon.com/compliance/
 ---

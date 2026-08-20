@@ -36,6 +36,6 @@ tags:
 - Stock Trading
 - Brokerage
 - Indonesia
-- Financial Services
+- Financial-Services
 - Cryptocurrency
 ---

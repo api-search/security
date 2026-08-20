@@ -58,7 +58,7 @@ tags:
 - ETL
 - ELT
 - Real-Time
-- Data Pipelines
+- Data Pipeline
 - Connectors
 - Lakehouse
 ---

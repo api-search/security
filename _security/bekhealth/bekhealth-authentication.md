@@ -53,7 +53,7 @@ tags:
 - Clinical Trials
 - Clinical Research
 - Electronic Health Records
-- Real World Data
+- Real-World Data
 - Artificial Intelligence
 - Patient Recruitment
 - Life Sciences

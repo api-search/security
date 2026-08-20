@@ -44,5 +44,5 @@ tags:
 - Desktop
 - CLI
 - Platform
-- Open Source
+- Open-Source
 ---

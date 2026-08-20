@@ -42,7 +42,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keda/refs/heads/main/security/keda-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- Autoscaling
+- Auto-Scaling
 - CNCF
 - Event-Driven
 - Graduated

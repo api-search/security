@@ -36,7 +36,7 @@ tags:
 - Automotive
 - Autonomous Vehicles
 - Radar
-- Lidar
+- LiDAR
 - Perception
 - Defense
 - Hardware

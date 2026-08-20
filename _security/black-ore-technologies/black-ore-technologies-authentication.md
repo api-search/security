@@ -68,7 +68,7 @@ summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Financial Services
+- Financial-Services
 - Tax
 - Accounting
 - Fintech

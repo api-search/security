@@ -40,8 +40,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rapidminer/ref
 summary_line: oauth2 · 2 schemes
 tags:
 - Company
-- Ai
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Data Science
 - Predictive Analytics
 - Data Preparation

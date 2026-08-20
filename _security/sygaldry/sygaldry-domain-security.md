@@ -34,6 +34,6 @@ tags:
 - Artificial Intelligence
 - AI Infrastructure
 - Hardware
-- Data Center
+- Data-Center
 - Deep Tech
 ---

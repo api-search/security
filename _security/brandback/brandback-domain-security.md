@@ -33,7 +33,7 @@ tags:
 - Company
 - Resale
 - Recommerce
-- E-commerce
+- E-Commerce
 - Retail
 - Sustainability
 - Fashion

@@ -35,6 +35,6 @@ tags:
 - Supply Chain
 - International Trade
 - Shipping
-- SaaS
+- Software-as-a-Service
 - Japan
 ---

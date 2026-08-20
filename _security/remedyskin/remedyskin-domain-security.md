@@ -37,5 +37,5 @@ tags:
 - E-Commerce
 - Consumer
 - Dermatology
-- Direct-to-Consumer
+- Direct to Consumer
 ---

@@ -279,12 +279,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Agents
 - Authentication
-- Integrations
+- Integration
 - MCP
-- OAuth
 - Sandbox
 - Tools
 - Triggers
-- Unified_API
-- Webhooks
+- Unified-API
+- Webhook
 ---

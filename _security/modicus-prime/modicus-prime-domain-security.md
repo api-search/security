@@ -32,7 +32,7 @@ tags:
 - Company
 - AI Governance
 - AI Management System
-- Pharmaceutical
+- Pharmaceuticals
 - Life Sciences
 - GxP Compliance
 - Model Validation

@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qodo/refs/heads/main/security/qodo-trust-center.yml
 summary_line: SOC 2
 tags:
-- AI
+- Artificial Intelligence
 - Code Review
 - Code Integrity
 - Developer Tools

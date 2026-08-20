@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/moonshot
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moonshot-ai/refs/heads/main/authentication/moonshot-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - Long Context

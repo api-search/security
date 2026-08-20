@@ -69,10 +69,10 @@ tags:
 - Company
 - Payments
 - Checkout
-- Subscriptions
+- Subscription
 - Rewards
 - Loyalty
-- Webhooks
+- Webhook
 - MENA
 - E-Commerce
 ---

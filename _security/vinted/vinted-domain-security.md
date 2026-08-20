@@ -32,7 +32,7 @@ tags:
 - Company
 - Consumer
 - Marketplace
-- Ecommerce
+- E-Commerce
 - Secondhand
 - Fashion
 - C2C

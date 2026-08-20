@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/showrunner/ref
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Generative AI
 - Animation
 - Entertainment

@@ -240,6 +240,6 @@ tags:
 - Transportation Management
 - Inventory
 - Returns
-- E-commerce
+- E-Commerce
 - Logistics
 ---

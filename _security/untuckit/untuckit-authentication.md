@@ -53,7 +53,7 @@ tags:
 - Company
 - Apparel
 - Retail
-- eCommerce
+- E-Commerce
 - Shopify
 - Agentic Commerce
 - MCP

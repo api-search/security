@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thredup/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Resale
 - Secondhand
 - Fashion

@@ -63,9 +63,9 @@ tags:
 - Health
 - Healthcare
 - Artificial Intelligence
-- Speech to Text
+- Speech-to-Text
 - Medical Coding
 - Clinical Documentation
 - Agents
-- Machine Learning
+- Machine-Learning
 ---

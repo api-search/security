@@ -42,7 +42,6 @@ tags:
 - Logistics
 - Field Service
 - Lead Management
-- Operations
 - Dispatch
-- Webhooks
+- Webhook
 ---

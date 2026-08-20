@@ -26,7 +26,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chatail/refs/h
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Live Commerce
 - Video
 - Retail

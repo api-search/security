@@ -99,5 +99,5 @@ tags:
 - Chat
 - Collaboration
 - Productivity
-- Tasks
+- Task
 ---

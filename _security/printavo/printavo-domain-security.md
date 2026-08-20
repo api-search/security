@@ -40,7 +40,7 @@ tags:
 - Embroidery
 - Quotes
 - Invoices
-- Orders
+- Order
 - GraphQL
 - Decorated Apparel
 ---

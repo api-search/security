@@ -84,6 +84,6 @@ tags:
 - Data Integration
 - Integration
 - iPaaS
-- Workflow
+- Workflows
 trust_url: https://trust.celigo.com/
 ---

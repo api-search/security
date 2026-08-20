@@ -33,8 +33,8 @@ tags:
 - Payment Forms
 - No-Code
 - Recurring Billing
-- Subscriptions
+- Subscription
 - Checkout
 - Digital Content
-- SaaS
+- Software-as-a-Service
 ---

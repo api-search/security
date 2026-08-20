@@ -10008,7 +10008,7 @@ tags:
 - Cloud
 - Cloud Computing
 - Enterprise
-- Infrastructure as a Service
-- Platform as a Service
+- Infrastructure-as-a-Service
+- Platform-as-a-Service
 - T1
 ---

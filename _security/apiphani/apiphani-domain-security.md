@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apiphani/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Managed Services
+- Managed Service
 - SAP
 - Application Management
 - Cloud

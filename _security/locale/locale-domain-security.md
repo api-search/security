@@ -30,11 +30,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/locale/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Workflow Automation
+- Workflow-Automation
 - No-Code
 - Integration
 - iPaaS
-- Operations
 - Productivity
 - AI Actions
 ---

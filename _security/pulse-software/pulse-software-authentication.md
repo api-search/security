@@ -92,5 +92,5 @@ summary_line: apiKey · 2 schemes
 tags:
 - Pulse
 - Automation
-- Developer
+- Developers
 ---

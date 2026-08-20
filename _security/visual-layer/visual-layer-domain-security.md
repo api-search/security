@@ -43,13 +43,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/visual-layer/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Data Management
 - Dataset Curation
 - Unstructured Data
-- Images
+- Image
 - Video
 - Semantic Search
-- AI
+- Artificial Intelligence
 ---

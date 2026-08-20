@@ -175,7 +175,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webflow/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CMS
-- Ecommerce
+- E-Commerce
 - No-Code
 - Web Development
 ---

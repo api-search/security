@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: openapi/regal-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/authentication/regal-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - AI Agents
 - Voice AI
 - Contact Center

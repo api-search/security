@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/guru-ope
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/authentication/guru-authentication.yml
 summary_line: http · 2 schemes
 tags:
-- Knowledge Management
+- Knowledge-Management
 - Enterprise Search
 - AI Knowledge Base
 - Internal Wiki

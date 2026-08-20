@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flint/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Marketing
 - Landing Pages
 - Agents

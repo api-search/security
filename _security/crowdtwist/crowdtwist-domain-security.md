@@ -49,5 +49,5 @@ tags:
 - Retail
 - Commerce
 - Segmentation
-- Webhooks
+- Webhook
 ---

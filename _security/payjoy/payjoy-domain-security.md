@@ -94,7 +94,7 @@ tags:
 - Payments
 - Lending
 - Buy Now Pay Later
-- Point of Sale
+- Point-of-Sale
 - Emerging Markets
 - Financial Inclusion
 - Partner API

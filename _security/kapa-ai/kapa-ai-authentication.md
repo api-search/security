@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kapa-ai-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/authentication/kapa-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Answer Engine
 - RAG
 - Documentation

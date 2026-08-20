@@ -56,7 +56,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Natural Gas
 - Compression Services
-- Oil And Gas
+- Oil and Gas
 - Energy
 - Industrial
 - 'NYSE: AROC'

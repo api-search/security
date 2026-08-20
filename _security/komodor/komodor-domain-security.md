@@ -40,5 +40,5 @@ tags:
 - SRE
 - Troubleshooting
 - DevOps
-- Cloud Native
+- Cloud-Native
 ---

@@ -32,7 +32,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vals-ai/refs/h
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - LLM
 - Evaluation

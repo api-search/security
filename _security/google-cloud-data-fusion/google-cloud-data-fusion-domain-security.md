@@ -63,7 +63,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-d
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Integration
-- Data Pipelines
+- Data Pipeline
 - ETL
 - Google Cloud
 ---

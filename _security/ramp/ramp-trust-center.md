@@ -94,6 +94,6 @@ tags:
 - Accounts Payable
 - Bill Pay
 - Accounting
-- Reimbursements
+- Reimbursement
 trust_url: https://trust.ramp.com/
 ---

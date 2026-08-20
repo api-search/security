@@ -34,7 +34,7 @@ tags:
 - Agriculture
 - AgTech
 - Farm Management
-- SaaS
+- Software-as-a-Service
 - Chile
 - Latin America
 - Mobile

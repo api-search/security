@@ -90,7 +90,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/
 summary_line: trust center published
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Fintech
 - Embedded Finance
 - Lending

@@ -82,8 +82,8 @@ tags:
 - Consumer Credit
 - Checkout
 - Fintech
-- Ecommerce
+- E-Commerce
 - Indonesia
 - Southeast Asia
-- Financial Services
+- Financial-Services
 ---

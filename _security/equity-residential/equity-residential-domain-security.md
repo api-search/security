@@ -31,6 +31,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Apartments
 - Fortune 500
-- Real Estate
+- Real-Estate
 - REIT
 ---

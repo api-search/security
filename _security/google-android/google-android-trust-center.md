@@ -80,6 +80,6 @@ tags:
 - Google
 - Mobile Development
 - Mobile Operating System
-- Open Source
+- Open-Source
 trust_url: https://cloud.google.com/security/compliance/offerings
 ---

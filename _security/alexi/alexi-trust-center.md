@@ -18,7 +18,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alexi/refs/hea
 summary_line: SOC 2
 tags:
 - Legal
-- LegalTech
+- Legal Tech
 - Legal AI
 - Litigation
 - Legal Research
@@ -29,7 +29,7 @@ tags:
 - Agentic AI
 - Private AI
 - Single Tenant
-- Knowledge Management
+- Knowledge-Management
 - Canada
 - Toronto
 trust_url: https://www.alexi.com/security

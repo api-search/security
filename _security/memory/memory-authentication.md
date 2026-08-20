@@ -42,5 +42,5 @@ tags:
 - Reporting
 - Automation
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 ---

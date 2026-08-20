@@ -49,14 +49,14 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Ecommerce
+- E-Commerce
 - Retail
 - Personalization
 - Marketing
 - Agentic AI
 - Decisioning
 - Customer Data
-- Events
-- Real Time
+- Event
+- Real-Time
 - MCP
 ---

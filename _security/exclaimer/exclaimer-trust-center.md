@@ -38,11 +38,11 @@ tags:
 - Email
 - Email Signatures
 - Email Signature Management
-- Microsoft 365
+- Microsoft-365
 - Google Workspace
 - Marketing
 - Productivity
-- SaaS
+- Software-as-a-Service
 - Security
 trust_url: https://trust.exclaimer.com/
 ---

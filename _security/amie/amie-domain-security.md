@@ -39,7 +39,7 @@ tags:
 - Meetings
 - AI Assistant
 - Scheduling
-- Tasks
+- Task
 - Notes
 - MCP
 ---

@@ -79,7 +79,7 @@ summary_line: http · 1 scheme
 tags:
 - Print on Demand
 - Fulfillment
-- Ecommerce
+- E-Commerce
 - Dropshipping
 - Merchandise
 ---

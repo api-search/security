@@ -43,7 +43,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Legal
-- LegalTech
+- Legal Tech
 - Artificial Intelligence
 - Sales Enablement
 - Business Development

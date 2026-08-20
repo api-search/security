@@ -88,7 +88,7 @@ tags:
 - Bots
 - Chat
 - Messaging
-- Notifications
+- Notification
 - Payments
 - Telegram
 ---

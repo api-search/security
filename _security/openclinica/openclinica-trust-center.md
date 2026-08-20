@@ -61,6 +61,6 @@ tags:
 - Clinical Data Management
 - CDISC ODM
 - Healthcare
-- Open Source
+- Open-Source
 trust_url: https://trust.openclinica.com/
 ---

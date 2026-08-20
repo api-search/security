@@ -88,6 +88,6 @@ tags:
 - Car Rentals
 - Hospitality
 - Hotels
-- Restaurants
+- Restaurant
 - Travel
 ---

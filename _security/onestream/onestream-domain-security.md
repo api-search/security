@@ -38,5 +38,4 @@ tags:
 - Financial Close
 - Consolidation
 - Enterprise
-- API
 ---

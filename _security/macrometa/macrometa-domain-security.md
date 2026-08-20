@@ -427,10 +427,9 @@ tags:
 - Serverless
 - Streaming
 - Stream Processing
-- Real Time
+- Real-Time
 - Web Performance
 - CDN
 - Search
 - Artificial Intelligence
-- API
 ---

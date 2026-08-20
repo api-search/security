@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: live probes of 
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/authentication/landgate-authentication.yml
 summary_line: none/oauth2/openIdConnect · 2 schemes
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Land Registry
 - Title

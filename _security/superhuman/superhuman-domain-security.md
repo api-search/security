@@ -42,7 +42,7 @@ tags:
 - Artificial Intelligence
 - Email Client
 - Documents
-- Model Context Protocol
+- MCP
 - Agents
-- Communication
+- Communications
 ---

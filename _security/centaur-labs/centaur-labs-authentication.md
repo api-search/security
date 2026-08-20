@@ -32,10 +32,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centaur-labs/r
 summary_line: 2 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Data Annotation
 - Data Labeling
-- Machine Learning
+- Machine-Learning
 - Healthcare
 - Medical Imaging
 - Training Data

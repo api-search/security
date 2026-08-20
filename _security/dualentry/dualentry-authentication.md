@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dualentry/refs
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Accounting
 - ERP
 - Finance

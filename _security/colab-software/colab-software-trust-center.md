@@ -28,7 +28,7 @@ tags:
 - Engineering Collaboration
 - CAD
 - Product Development
-- AI
+- Artificial Intelligence
 - PLM
 - Manufacturing
 trust_url: https://trust.colabsoftware.com/

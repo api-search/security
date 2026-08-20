@@ -33,10 +33,10 @@ tags:
 - Company
 - Robotics
 - Kitchen Automation
-- Restaurants
+- Restaurant
 - Food Service
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Workforce Management
-- Point of Sale
+- Point-of-Sale
 ---

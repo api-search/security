@@ -81,7 +81,7 @@ tags:
 - CloudEvents
 - Event-Driven
 - Messaging
-- Open Source
+- Open-Source
 - Pub-Sub
 - Serverless
 ---

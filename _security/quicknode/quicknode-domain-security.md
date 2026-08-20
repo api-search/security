@@ -107,5 +107,5 @@ tags:
 - RPC
 - Streams
 - IPFS
-- Multi-chain
+- Multi-Chain
 ---

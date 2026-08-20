@@ -38,12 +38,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/coreweav
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coreweave/refs/heads/main/authentication/coreweave-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Cloud
 - GPU
 - HPC
 - Inference
 - Kubernetes
-- Machine Learning
+- Machine-Learning
 - Storage
 ---

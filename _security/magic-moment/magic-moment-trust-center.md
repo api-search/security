@@ -54,11 +54,10 @@ tags:
 - Artificial Intelligence
 - CRM
 - Sales Automation
-- SaaS
+- Software-as-a-Service
 - Japan
 - Salesforce
 - HubSpot
 - Sales Enablement
-- API
 trust_url: https://www.magicmoment.jp/company/security-policy
 ---

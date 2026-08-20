@@ -43,5 +43,5 @@ tags:
 - Investment Management
 - Performance Analytics
 - Regulatory Reporting
-- SaaS
+- Software-as-a-Service
 ---

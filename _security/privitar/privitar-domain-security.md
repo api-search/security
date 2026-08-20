@@ -33,7 +33,7 @@ tags:
 - Company
 - Big Data
 - Data Privacy
-- De-identification
+- De-Identification
 - Data Governance
 - Data Anonymization
 - Acquired

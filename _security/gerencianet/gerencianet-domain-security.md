@@ -265,14 +265,14 @@ tags:
 - Payments
 - Pix
 - Boleto
-- Subscriptions
+- Subscription
 - Recurring Billing
 - Marketplace
 - Split Payments
 - Open Finance
 - Banking as a Service
 - Account Opening
-- Bill Payment
+- Bill Payments
 - CNAB
 - Brazil
 - Fintech

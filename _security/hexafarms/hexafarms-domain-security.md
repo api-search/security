@@ -35,7 +35,7 @@ tags:
 - AgTech
 - Greenhouse
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Precision Agriculture
 - Yield Forecasting
 ---

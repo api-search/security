@@ -67,13 +67,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/r2/refs/heads/
 summary_line: ISO 27001:2022
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Embedded Finance
 - Lending
 - Payments
 - Fintech
 - Latin America
 - Revenue-Based Financing
-- Webhooks
+- Webhook
 trust_url: https://r2.co/r2s-stance-on-security-privacy
 ---

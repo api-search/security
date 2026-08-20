@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kredete/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Payments
 - Remittance
 - Cross-Border Payments

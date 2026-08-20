@@ -141,14 +141,14 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/security/svix-trust-center.yml
 summary_line: SOC 2, PCI DSS, HIPAA, GDPR
 tags:
-- Webhooks
+- Webhook
 - Webhooks As A Service
 - Webhook Delivery
 - Webhook Sending
-- Event Driven
+- Event-Driven
 - Eventing
 - Messaging
-- Pub Sub
+- Pub-Sub
 - Streaming
 - Ingest
 - Integration
@@ -159,18 +159,17 @@ tags:
 - Verification
 - HMAC
 - Standard Webhooks
-- Multi Tenant
-- Multi Region
+- Multi-Tenant
+- Multi-Region
 - Enterprise
-- SaaS
+- Software-as-a-Service
 - Developer Platform
-- API
 - REST
 - SOC 2
 - HIPAA
 - PCI DSS
 - GDPR
-- Open Source
+- Open-Source
 - Rust
 - Polyglot SDK
 - Terraform

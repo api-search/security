@@ -35,7 +35,7 @@ tags:
 - Virtualization
 - Cloud Infrastructure
 - DevOps
-- Open Source
+- Open-Source
 - Developer Tools
 - CLI
 ---

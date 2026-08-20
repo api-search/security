@@ -44,7 +44,7 @@ tags:
 - E-Commerce
 - Equity Research
 - Financial Data
-- Financial Services
+- Financial-Services
 - Fintech
 - Grocery
 - Investment Management

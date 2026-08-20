@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/powershell/ref
 summary_line: GDPR
 tags:
 - Automation
-- Command-Line
+- Command Line
 - Cross-Platform
 - Scripting
 - Shell

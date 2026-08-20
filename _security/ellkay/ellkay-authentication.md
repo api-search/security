@@ -58,5 +58,4 @@ tags:
 - HL7
 - EHR Integration
 - Health Data
-- API
 ---

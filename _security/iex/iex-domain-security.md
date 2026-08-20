@@ -37,6 +37,6 @@ tags:
 - Trading
 - Equities
 - Options
-- Financial Services
+- Financial-Services
 - Market Infrastructure
 ---

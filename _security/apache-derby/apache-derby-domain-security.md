@@ -39,7 +39,7 @@ tags:
 - Embedded
 - Java
 - JDBC
-- Open Source
+- Open-Source
 - Relational
 - SQL
 ---

@@ -53,16 +53,16 @@ source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acrisure/refs/heads/main/security/acrisure-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- insurance
-- insurance-brokerage
-- fintech
-- employee-benefits
+- Insurance
+- Insurance Brokerage
+- Fintech
+- Employee Benefits
 - payroll-hr
-- reinsurance
-- risk-management
-- cybersecurity
-- mortgage
-- surety-bonds
-- mcp
-- oauth2
+- Reinsurance
+- Risk Management
+- Cybersecurity
+- Mortgage
+- Surety Bonds
+- MCP
+- Authentication
 ---

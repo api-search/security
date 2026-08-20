@@ -72,7 +72,7 @@ summary_line: http · 1 scheme
 tags:
 - Commerce
 - Mobile Commerce
-- Affiliate
+- Affiliates
 - Attribution
 - Deep Linking
 - Offers

@@ -29,7 +29,6 @@ tags:
 - Commercial Real Estate
 - Private Equity
 - Investor Relations
-- API
 - MCP
 - Agentic AI
 trust_url: https://trust.junipersquare.com/

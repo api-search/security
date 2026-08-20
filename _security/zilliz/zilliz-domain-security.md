@@ -59,7 +59,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zilliz/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Vector Database
-- AI
+- Artificial Intelligence
 - Cloud
 - Milvus
 - Managed

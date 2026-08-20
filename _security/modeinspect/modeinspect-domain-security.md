@@ -34,8 +34,8 @@ tags:
 - Design
 - Developer Tools
 - Design Engineering
-- AI
-- Design To Code
+- Artificial Intelligence
+- Design to Code
 - UI Design
 - Prototyping
 ---

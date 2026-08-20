@@ -190,7 +190,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/he
 summary_line: apiKey/http · 4 schemes
 tags:
 - Application Delivery
-- Desktop-As-A-Service
+- Desktop as a Service
 - Networking
 - Virtualization
 - Workspace

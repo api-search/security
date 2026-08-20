@@ -69,5 +69,5 @@ tags:
 - Accounts Payable
 - B2B Payments
 - Invoicing
-- FinTech
+- Fintech
 ---

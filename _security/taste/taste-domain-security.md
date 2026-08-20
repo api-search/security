@@ -54,9 +54,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taste/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Design
-- Machine Learning
+- Machine-Learning
 - Developer Tools
 - Prompt Engineering
 - Content Generation

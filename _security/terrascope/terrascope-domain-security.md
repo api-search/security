@@ -41,17 +41,17 @@ tags:
 - GHG Protocol
 - CDP
 - SBTi
-- FLAG
+- Flag
 - TCFD
 - CSRD
 - Climate Reporting
 - Product Carbon Footprint
 - Corporate Carbon Footprint
 - Supplier Engagement
-- AI
+- Artificial Intelligence
 - Amazon Bedrock
 - Food And Agriculture
 - Supply Chain
 - Singapore
-- Enterprise SaaS
+- Enterprise Saas
 ---

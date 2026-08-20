@@ -61,10 +61,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Notifications
+- Notification
 - Monitoring
-- Webhooks
-- Real Time
+- Webhook
+- Real-Time
 - Agents
 - MCP
 - Alerts

@@ -225,5 +225,5 @@ tags:
 - Artificial Intelligence
 - Data Platform
 - Data Science
-- Machine Learning
+- Machine-Learning
 ---

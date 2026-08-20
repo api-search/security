@@ -93,7 +93,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Event Ticketing
 - Ticketing
-- Events
+- Event
 - Registration
 - Payments
 - Webconnex

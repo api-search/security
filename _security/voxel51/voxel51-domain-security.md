@@ -56,9 +56,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voxel51/refs/heads/main/security/voxel51-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- AI
-- Computer Vision
+- Artificial Intelligence
+- Computer-Vision
 - Datasets
-- Machine Learning
+- Machine-Learning
 - Python SDK
 ---

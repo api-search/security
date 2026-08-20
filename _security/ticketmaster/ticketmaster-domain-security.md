@@ -86,7 +86,7 @@ tags:
 - Commerce
 - Concerts
 - Entertainment
-- Events
+- Event
 - Sports
 - Tickets
 - Venues

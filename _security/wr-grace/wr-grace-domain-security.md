@@ -33,7 +33,7 @@ tags:
 - Specialty Chemicals
 - Catalysts
 - Materials Science
-- Pharmaceutical
+- Pharmaceuticals
 - Refining
 - Petrochemicals
 ---

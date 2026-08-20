@@ -38,5 +38,5 @@ tags:
 - Retail Analytics
 - Artificial Intelligence
 - Loss Management
-- SaaS
+- Software-as-a-Service
 ---

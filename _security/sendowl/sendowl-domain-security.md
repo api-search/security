@@ -44,10 +44,10 @@ tags:
 - E-Commerce
 - Digital Products
 - Payments
-- Subscriptions
+- Subscription
 - Checkout
 - Memberships
 - Licensing
 - Creator Economy
-- Webhooks
+- Webhook
 ---

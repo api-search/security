@@ -50,6 +50,6 @@ tags:
 - Apache
 - HTTP Client
 - Java
-- Open Source
+- Open-Source
 - SDK
 ---

@@ -34,7 +34,7 @@ tags:
 - DeFi
 - Blockchain
 - Ethereum
-- Stablecoin
+- Stablecoins
 - Governance
 - Smart Contracts
 ---

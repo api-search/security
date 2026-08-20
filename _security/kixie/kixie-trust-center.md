@@ -28,7 +28,7 @@ tags:
 - Contact Center
 - Power Dialer
 - CRM
-- Webhooks
+- Webhook
 - Communications
 - Revenue Operations
 trust_url: https://www.kixie.com/security/

@@ -35,6 +35,6 @@ tags:
 - Dental
 - Healthcare
 - Practice Management
-- SaaS
+- Software-as-a-Service
 - Germany
 ---

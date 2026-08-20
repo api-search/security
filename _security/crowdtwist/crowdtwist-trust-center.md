@@ -38,6 +38,6 @@ tags:
 - Retail
 - Commerce
 - Segmentation
-- Webhooks
+- Webhook
 trust_url: ''
 ---

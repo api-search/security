@@ -46,5 +46,5 @@ tags:
 - Artificial Intelligence
 - Content Generation
 - MCP
-- Agent
+- Agents
 ---

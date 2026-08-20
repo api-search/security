@@ -35,6 +35,6 @@ tags:
 - Human Resources
 - Campus Recruitment
 - Talent
-- SaaS
+- Software-as-a-Service
 - Southeast Asia
 ---

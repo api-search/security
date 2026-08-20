@@ -33,9 +33,9 @@ tags:
 - Company
 - Consumer
 - Rugs
-- Home
+- Homes
 - Interior Design
-- E-commerce
+- E-Commerce
 - Retail
 - Direct to Consumer
 ---

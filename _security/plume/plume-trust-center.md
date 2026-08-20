@@ -22,12 +22,12 @@ summary_line: ISO/IEC 27001:2022, ISO/IEC 27701:2019, Data Privacy Framework, GD
 tags:
 - Company
 - Enterprise
-- WiFi
+- Wi-Fi
 - ISP
 - Smart Home
 - Network Intelligence
-- Cyber Security
-- SaaS
+- Cybersecurity
+- Software-as-a-Service
 - OpenSync
 - CPE
 - Connectivity

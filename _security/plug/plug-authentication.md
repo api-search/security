@@ -151,6 +151,6 @@ tags:
 - Fintech
 - Pix
 - Tokenization
-- Subscriptions
+- Subscription
 - Brazil
 ---

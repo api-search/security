@@ -55,10 +55,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/homeward/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Home Finance
 - Mortgage
-- Proptech
+- PropTech
 - Cash Offer
 - Title
 - Lending

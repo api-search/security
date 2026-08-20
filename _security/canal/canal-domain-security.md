@@ -133,13 +133,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canal/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- eCommerce
+- E-Commerce
 - Dropshipping
 - Marketplace
 - Commerce
 - Retail
 - Fulfillment
-- Orders
-- Products
-- Webhooks
+- Order
+- Product
+- Webhook
 ---

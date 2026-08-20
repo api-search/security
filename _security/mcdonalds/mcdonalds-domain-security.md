@@ -41,6 +41,6 @@ tags:
 - Loyalty
 - Mobile Ordering
 - Ordering
-- Restaurants
+- Restaurant
 - Fortune 500
 ---

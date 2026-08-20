@@ -63,15 +63,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hyperbol
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/authentication/hyperbolic-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
 - Artificial Intelligence
 - Compute
 - Decentralized
 - DePIN
 - GPU
-- Image Generation
+- Image-Generation
 - Inference
 - LLM
 - Marketplace
-- Open Source
+- Open-Source
 ---

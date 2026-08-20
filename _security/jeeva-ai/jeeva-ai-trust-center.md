@@ -21,7 +21,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jeeva-ai/refs/
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Agents
 - Digital Workers
 - Sales Automation

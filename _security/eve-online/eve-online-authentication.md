@@ -311,9 +311,8 @@ tags:
 - Authentication
 - Authorization
 - Gaming
-- Images
+- Image
 - MMO
-- OAuth2
 - REST
 - SSO
 - Static Data

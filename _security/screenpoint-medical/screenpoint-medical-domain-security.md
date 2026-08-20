@@ -37,5 +37,5 @@ tags:
 - Mammography
 - Breast Cancer
 - Radiology
-- Machine Learning
+- Machine-Learning
 ---

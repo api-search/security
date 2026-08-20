@@ -34,7 +34,7 @@ tags:
 - Analytics
 - Fraud Detection
 - Anti-Cheat
-- Machine Learning
+- Machine-Learning
 - Mobile
 - User Acquisition
 - SDK

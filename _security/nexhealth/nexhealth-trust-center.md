@@ -227,6 +227,6 @@ tags:
 - Patients
 - Health Records
 - Insurance
-- Webhooks
+- Webhook
 trust_url: https://security.nexhealth.com/
 ---

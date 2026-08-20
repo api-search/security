@@ -40,6 +40,6 @@ tags:
 - Sales Tax
 - Tax Compliance
 - Excise Tax
-- FinTech
+- Fintech
 - Cannabis Industry
 ---

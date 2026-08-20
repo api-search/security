@@ -86,11 +86,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- Customer Support
+- Artificial Intelligence
+- Customer-Support
 - Knowledge Base
 - Help Desk
 - Agents
 - Support Automation
-- SaaS
+- Software-as-a-Service
 ---

@@ -97,5 +97,5 @@ tags:
 - Performance Management
 - Onboarding
 - Zoho
-- OAuth 2.0
+- Authentication
 ---

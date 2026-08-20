@@ -121,5 +121,4 @@ tags:
 - Lending
 - Working Capital
 - Invoice Financing
-- API
 ---

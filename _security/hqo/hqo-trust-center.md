@@ -24,7 +24,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hqo/refs/heads
 summary_line: SOC 2 Type II, ISO 27001:2022, CSA STAR Level 1, GDPR, CCPA, PIPEDA, EU-U.S. Data Privacy Framework
 tags:
 - Company
-- Proptech
+- PropTech
 - Commercial Real Estate
 - Workplace Experience
 - Tenant Experience

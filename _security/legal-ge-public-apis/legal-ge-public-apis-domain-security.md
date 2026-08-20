@@ -46,17 +46,16 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/security/legal-ge-public-apis-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- legal
-- law
-- legal-services
-- directory
-- georgia
-- ai-agents
-- mcp
-- model-context-protocol
+- Legal
+- Law
+- Legal Services
+- Directory
+- Georgia
+- AI Agents
+- MCP
 - specialists
-- professional-services
-- marketplace
-- multilingual
-- legal-tech
+- Professional Services
+- Marketplace
+- Multilingual
+- Legal Tech
 ---

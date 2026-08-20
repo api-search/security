@@ -196,7 +196,7 @@ tags:
 - Private Offers
 - Metering
 - SCIM
-- Webhooks
+- Webhook
 - B2B SaaS
 trust_url: https://trust.tackle.io/
 ---

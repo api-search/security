@@ -45,15 +45,15 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: openapi/device-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/authentication/device-specs-api-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- mobile
-- smartphones
-- phone-specs
-- chipsets
-- hardware
+- Mobile
+- Smartphones
+- Phone Specs
+- Chipsets
+- Hardware
 - mobile-specs
-- devices
+- Devices
 - rapidapi
 - gsmarena
-- reference-data
-- developer-tools
+- Reference Data
+- Developer Tools
 ---

@@ -51,7 +51,7 @@ tags:
 - Backend
 - Static Sites
 - Email
-- Webhooks
+- Webhook
 - JAMstack
 - CLI
 ---

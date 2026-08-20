@@ -31,13 +31,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/homebot/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Mortgage
 - PropTech
-- FinTech
+- Fintech
 - Homeownership
 - Client Engagement
 - CRM
 - Lead Generation
-- Webhooks
+- Webhook
 ---

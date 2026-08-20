@@ -77,7 +77,7 @@ tags:
 - Cryptocurrency
 - Web3
 - Interoperability
-- Cross Chain
+- Cross-Chain
 - Bridging
 - Settlement
 - Liquidity

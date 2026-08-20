@@ -60,5 +60,5 @@ tags:
 - Deliverability
 - Lead Database
 - Email Verification
-- Webhooks
+- Webhook
 ---

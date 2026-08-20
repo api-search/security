@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/notte-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/authentication/notte-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Web Agents
 - Browser Automation
 - Sessions

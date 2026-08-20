@@ -41,10 +41,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tallyfy/refs/h
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Company
-- Workflow Automation
+- Workflow-Automation
 - Business Process Management
 - SOPs
-- Tasks
+- Task
 - Approvals
 - Forms
 - Process Management

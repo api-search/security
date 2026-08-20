@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blue-j/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Tax
 - Legal
 - Research
 - Compliance
-- SaaS
+- Software-as-a-Service
 - Professional Services
 ---

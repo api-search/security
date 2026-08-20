@@ -176,7 +176,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/corelogic-au/refs/heads/main/authentication/corelogic-au-authentication.yml
 summary_line: oauth2/openIdConnect/http · 5 schemes
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Property Data
 - Valuation

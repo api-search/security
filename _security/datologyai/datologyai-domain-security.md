@@ -33,7 +33,7 @@ tags:
 - Company
 - Ai Ml
 - Data Curation
-- Machine Learning
+- Machine-Learning
 - Training Data
 - Foundation Models
 - Data Optimization

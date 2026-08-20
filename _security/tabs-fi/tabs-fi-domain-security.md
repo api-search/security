@@ -176,12 +176,12 @@ tags:
 - Billing
 - Invoicing
 - Accounts Receivable
-- Collections
+- Collection
 - Revenue Recognition
 - Contracts
 - Usage
 - Payments
-- Subscriptions
+- Subscription
 - Finance
 - B2B
 ---

@@ -31,7 +31,7 @@ tags:
 - Company
 - Messaging
 - Chat
-- Communication
+- Communications
 - Mobile
 - Consumer
 ---

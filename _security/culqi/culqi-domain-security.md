@@ -125,7 +125,7 @@ summary_line: DMARC
 tags:
 - Payments
 - Payment Gateway
-- FinTech
+- Fintech
 - Peru
 - LatAm
 - Cards

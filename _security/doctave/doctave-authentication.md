@@ -57,5 +57,5 @@ tags:
 - Documentation
 - OpenAPI
 - Platform
-- Portals
+- Portal
 ---

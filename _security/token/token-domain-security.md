@@ -36,5 +36,5 @@ tags:
 - Non-Human Identity
 - Identity and Access Management
 - AI Agents
-- Model Context Protocol
+- MCP
 ---

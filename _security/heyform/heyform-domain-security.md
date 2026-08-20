@@ -90,8 +90,8 @@ tags:
 - Quizzes
 - Polls
 - Conversational Forms
-- Open Source
-- Webhooks
+- Open-Source
+- Webhook
 - No-Code
 - Form Builder
 - Self-Hosted

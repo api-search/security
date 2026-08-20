@@ -32,7 +32,7 @@ tags:
 - Company
 - Crypto Web3
 - DeFi
-- Stablecoin
+- Stablecoins
 - Lending
 - Blockchain
 - RWA

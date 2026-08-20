@@ -51,7 +51,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Data Engineering
 - Data Orchestration
-- Data Pipelines
+- Data Pipeline
 - ETL
 - Workflows
 - Assets

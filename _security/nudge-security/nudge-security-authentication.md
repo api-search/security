@@ -99,7 +99,7 @@ tags:
 - AI Security
 - Compliance
 - Governance
-- OAuth
+- Authentication
 - SaaS Management
 - SaaS Security
 - Security

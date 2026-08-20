@@ -35,5 +35,5 @@ tags:
 - Guest Experience
 - Hotels
 - Travel
-- SaaS
+- Software-as-a-Service
 ---

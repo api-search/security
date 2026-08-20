@@ -54,5 +54,4 @@ tags:
 - Payments
 - Rewards
 - Marketplace
-- API
 ---

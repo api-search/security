@@ -33,7 +33,7 @@ tags:
 - GitOps
 - Kubernetes
 - Container Networking
-- Cloud Native
-- Open Source
+- Cloud-Native
+- Open-Source
 - DevOps
 ---

@@ -34,7 +34,7 @@ tags:
 - Food
 - Food Tech
 - Food Delivery
-- Restaurants
+- Restaurant
 - Franchise
 - Ghost Kitchen
 - Creator Economy

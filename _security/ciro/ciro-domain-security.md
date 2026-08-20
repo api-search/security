@@ -36,8 +36,8 @@ tags:
 - Prospecting
 - Contact Enrichment
 - Lead Generation
-- GTM
-- AI
+- Go-To-Market
+- Artificial Intelligence
 - CRM
 - Slack
 - B2B

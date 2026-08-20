@@ -26,8 +26,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elium/refs/hea
 summary_line: ISO/IEC 27001:2022, SecNumCloud, GDPR, EU AI Act, EcoVadis Silver
 tags:
 - Company
-- SaaS
-- Knowledge Management
+- Software-as-a-Service
+- Knowledge-Management
 - Knowledge Base
 - Enterprise Search
 - AI Search

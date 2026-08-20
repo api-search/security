@@ -44,14 +44,14 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - LLM
 - OCR
-- Speech to Text
+- Speech-to-Text
 - Structured Output
 - Object Detection
 - Web Scraping
 - Web Search
-- Multimodal
+- Multi-Modal
 - Developer Tools
 ---

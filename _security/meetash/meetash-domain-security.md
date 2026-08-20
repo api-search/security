@@ -39,5 +39,4 @@ tags:
 - Digital Health
 - Telehealth
 - HIPAA
-- API
 ---

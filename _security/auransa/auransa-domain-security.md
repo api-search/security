@@ -34,7 +34,7 @@ tags:
 - Pharmaceuticals
 - Drug Discovery
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Oncology
 - Life Sciences
 - Healthcare

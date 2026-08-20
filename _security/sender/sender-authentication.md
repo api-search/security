@@ -43,7 +43,7 @@ summary_line: wallet-connect · 2 schemes
 tags:
 - Company
 - Crypto
-- Wallet
+- Wallets
 - Web3
 - Blockchain
 - Ethereum

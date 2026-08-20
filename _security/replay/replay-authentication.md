@@ -61,5 +61,5 @@ tags:
 - MCP
 - GraphQL
 - Browser Automation
-- AI
+- Artificial Intelligence
 ---

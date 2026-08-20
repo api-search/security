@@ -42,6 +42,6 @@ tags:
 - Rating
 - Embedded Insurance
 - Behavioral Science
-- Machine Learning
+- Machine-Learning
 - Large Language Models
 ---

@@ -34,7 +34,7 @@ tags:
 - Semiconductors
 - Microcontrollers
 - Edge AI
-- Machine Learning
+- Machine-Learning
 - Embedded
 - IoT
 - Generative AI

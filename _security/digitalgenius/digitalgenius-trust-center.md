@@ -18,7 +18,7 @@ summary_line: trust center published
 tags:
 - Company
 - Customer Service
-- Ecommerce
+- E-Commerce
 - Artificial Intelligence
 - AI Agents
 - Conversational AI

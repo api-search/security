@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Conferences
 - Energy
-- Events
+- Event
 - Industry Intelligence
 - Infrastructure
 ---

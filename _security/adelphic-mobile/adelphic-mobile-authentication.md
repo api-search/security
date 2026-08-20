@@ -48,7 +48,7 @@ tags:
 - Advertising
 - AdTech
 - Programmatic Advertising
-- Demand Side Platform
+- Demand-Side Platform
 - DSP
 - Marketing
 - Connected TV

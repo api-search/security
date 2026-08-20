@@ -27,7 +27,6 @@ tags:
 - Authorization
 - Single Sign-On
 - IAM
-- OAuth
 - SAML
 - OpenID Connect
 - AI Identity

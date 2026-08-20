@@ -116,9 +116,9 @@ tags:
 - Envoy
 - AI Gateway
 - Agentic AI
-- Model Context Protocol
+- MCP
 - Developer Portal
-- Cloud Native
-- Open Source
+- Cloud-Native
+- Open-Source
 trust_url: https://trust.solo.io/
 ---

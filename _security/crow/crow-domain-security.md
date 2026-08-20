@@ -50,7 +50,6 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - MCP
-- Model Context Protocol
 - OpenAPI
 - Developer Tools
 - SDK

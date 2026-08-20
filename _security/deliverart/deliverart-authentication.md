@@ -140,10 +140,10 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company
 - Food Delivery
-- Restaurants
+- Restaurant
 - Order Management
 - Logistics
 - Delivery
 - Menu Management
-- Point of Sale
+- Point-of-Sale
 ---

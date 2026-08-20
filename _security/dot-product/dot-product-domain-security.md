@@ -31,8 +31,7 @@ tags:
 - Ai Ml
 - Artificial Intelligence
 - Voice Agents
-- Customer Support
-- Operations
+- Customer-Support
 - AI Agents
 - Conversational AI
 ---

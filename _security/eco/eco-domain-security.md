@@ -67,7 +67,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Stablecoin
+- Stablecoins
 - Cryptocurrency
 - Payments
 - Blockchain
@@ -75,5 +75,5 @@ tags:
 - DeFi
 - Web3
 - Infrastructure
-- Financial Services
+- Financial-Services
 ---

@@ -47,5 +47,5 @@ tags:
 - Aptiv
 - Open Dataset
 - nuScenes
-- Lidar
+- LiDAR
 ---

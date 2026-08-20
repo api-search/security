@@ -109,8 +109,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Forms
 - Documents
-- eSignature
-- Workflow Automation
+- E-Signature
+- Workflow-Automation
 - No-Code
-- OAuth2
+- Authentication
 ---

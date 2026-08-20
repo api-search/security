@@ -156,16 +156,16 @@ source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/security/authenticx-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- conversation-intelligence
-- healthcare
-- speech-analytics
-- contact-center
-- customer-experience
-- quality-assurance
-- pharmacovigilance
-- patient-experience
-- transcription
-- life-sciences
-- scim
-- oauth2
+- Conversation Intelligence
+- Healthcare
+- Speech Analytics
+- Contact Center
+- Customer Experience
+- Quality Assurance
+- Pharmacovigilance
+- Patient Experience
+- Transcription
+- Life Sciences
+- SCIM
+- Authentication
 ---

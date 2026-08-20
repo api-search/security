@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vmware-t
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/authentication/vmware-tanzu-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Cloud Native
+- Cloud-Native
 - Containers
 - Enterprise
 - Kubernetes

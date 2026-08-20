@@ -31,7 +31,7 @@ tags:
 - Company
 - Ai Ml
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - AI Research
 - Scientific Discovery
 - Public Benefit Corporation

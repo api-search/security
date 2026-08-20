@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-augment
 summary_line: apiKey · 1 scheme
 tags:
 - Amazon Augmented AI
-- Human In The Loop
-- Machine Learning
+- Human-in-the-Loop
+- Machine-Learning
 - AI Review
 ---

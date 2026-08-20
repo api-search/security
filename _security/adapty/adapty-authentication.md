@@ -62,7 +62,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adapty/refs/he
 summary_line: apiKey · 1 scheme
 tags:
 - Mobile
-- Subscriptions
+- Subscription
 - In-App Purchases
 - Paywalls
 - Analytics

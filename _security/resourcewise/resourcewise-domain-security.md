@@ -33,9 +33,9 @@ tags:
 - Company
 - Market Intelligence
 - Commodities
-- Data and Analytics
+- Data & Analytics
 - Forest Products
-- Pulp and Paper
+- Pulp And Paper
 - Chemicals
 - Biofuels
 - Pricing Data

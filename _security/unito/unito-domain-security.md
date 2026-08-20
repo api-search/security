@@ -68,9 +68,9 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Integration
 - Two-Way Sync
-- Workflow Automation
+- Workflow-Automation
 - Project Management
 - Collaboration
 - Embedded Integrations
-- SaaS
+- Software-as-a-Service
 ---

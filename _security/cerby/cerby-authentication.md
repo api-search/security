@@ -66,5 +66,5 @@ tags:
 - Identity Governance
 - Nonfederated Applications
 - Automation
-- Webhooks
+- Webhook
 ---

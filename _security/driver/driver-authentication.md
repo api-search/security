@@ -58,7 +58,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/driver/refs/he
 summary_line: oauth2/http/apiKey · 4 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Code Documentation
 - MCP

@@ -84,9 +84,9 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Event Management
 - Event Registration
-- Events
+- Event
 - Sessions
 - Speakers
 - Attendees
-- SaaS
+- Software-as-a-Service
 ---

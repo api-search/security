@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/security-service-fcu/refs/heads/main/security/security-service-fcu-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Credit Union

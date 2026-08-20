@@ -511,7 +511,7 @@ tags:
 - Human Resources
 - Workforce Management
 - Hospitality
-- Restaurants
+- Restaurant
 - Scheduling
 - Time and Attendance
 - Payroll

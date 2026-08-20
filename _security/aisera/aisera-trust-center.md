@@ -27,12 +27,12 @@ tags:
 - Company
 - Agentic AI
 - Conversational AI
-- IT Service Management
+- ITSM
 - Customer Service
 - Enterprise Search
 - AI Copilot
-- Knowledge Management
-- Workflow Automation
+- Knowledge-Management
+- Workflow-Automation
 - Large Language Models
 trust_url: https://trust.aisera.com/
 ---

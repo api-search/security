@@ -34,5 +34,5 @@ tags:
 - Data Visualization
 - Data Storytelling
 - Dashboards
-- AI
+- Artificial Intelligence
 ---

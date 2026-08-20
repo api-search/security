@@ -101,10 +101,10 @@ tags:
 - Beauty
 - Scheduling
 - Booking
-- Point of Sale
+- Point-of-Sale
 - Studios
 - Salons
 - Spas
-- Webhooks
+- Webhook
 trust_url: https://trust.playlist.com/
 ---

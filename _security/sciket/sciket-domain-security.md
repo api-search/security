@@ -34,7 +34,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sciket/refs/he
 summary_line: TLSv1.2
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Marketplace
 - Scientific Research
 - Laboratory Supplies

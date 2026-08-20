@@ -47,12 +47,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coupang/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cancellations
-- E-commerce
+- E-Commerce
 - Korea
 - Marketplace
-- Open API
-- Orders
-- Products
+- OpenAPI
+- Order
+- Product
 - Returns
 - Sellers
 - Settlement

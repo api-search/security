@@ -182,5 +182,5 @@ tags:
 - Yield
 - Blockchain
 - Oracle
-- Vaults
+- Vault
 ---

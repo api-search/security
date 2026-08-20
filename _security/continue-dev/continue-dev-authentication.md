@@ -43,11 +43,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/continue
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/continue-dev/refs/heads/main/authentication/continue-dev-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
 - Artificial Intelligence
 - Developer Tools
 - Code Assistant
-- Open Source
+- Open-Source
 - VS Code
 - JetBrains
 - CLI

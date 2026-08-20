@@ -83,7 +83,7 @@ tags:
 - Event Tracking
 - GDPR
 - Goal Conversions
-- Open Source
+- Open-Source
 - Privacy
 - Self-Hosted
 - Site Management

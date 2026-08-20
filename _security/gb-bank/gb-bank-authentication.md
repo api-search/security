@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: derived\nsource: openapi/uk-open-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/authentication/gb-bank-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

@@ -142,9 +142,9 @@ tags:
 - Digital Signature
 - Identity
 - KYB
-- Document Management
+- Document-Management
 - Saudi Arabia
 - Nafath
-- Webhooks
+- Webhook
 - Agent Ready
 ---

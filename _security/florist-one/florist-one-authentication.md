@@ -54,7 +54,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/florist-one/re
 summary_line: http · 1 scheme
 tags:
 - Delivery
-- Ecommerce
+- E-Commerce
 - Florists
 - Flowers
 - Gifts

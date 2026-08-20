@@ -36,7 +36,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/federal-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-motor-carrier-safety-administration/refs/heads/main/authentication/federal-motor-carrier-safety-administration-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Federal Government
+- Federal-Government
 - Safety
 - Transportation
 ---

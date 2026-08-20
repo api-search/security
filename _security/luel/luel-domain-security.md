@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/luel/refs/head
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Training Data
 - Data Marketplace
-- Multimodal
+- Multi-Modal
 - Video
 - Audio
 - Data Licensing

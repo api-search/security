@@ -42,6 +42,6 @@ tags:
 - Mortgages
 - Cryptocurrency
 - Crypto-Backed Loans
-- Real Estate
+- Real-Estate
 - Consumer Finance
 ---

@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Fintech
-- Real Estate
+- Real-Estate
 - Property Data
 - Data
 - MCP

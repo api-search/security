@@ -189,5 +189,4 @@ tags:
 - Sequencing
 - Healthcare
 - Data Platform
-- API
 ---

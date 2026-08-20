@@ -50,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/casper/refs/he
 summary_line: openIdConnect/oauth2 · 1 scheme
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Retail
 - Sleep
 - Mattresses

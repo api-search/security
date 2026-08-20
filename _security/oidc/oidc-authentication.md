@@ -69,7 +69,6 @@ tags:
 - Authentication
 - Identity
 - JWT
-- OAuth
 - OIDC
 - OpenID Connect
 ---

@@ -35,12 +35,12 @@ source_yaml: "generated: '2026-06-20'\nmethod: derived\nsource: openapi/tensorfl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/authentication/tensorflow-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Deep Learning
 - JavaScript
-- Machine Learning
+- Machine-Learning
 - Model Serving
 - Neural Networks
-- Open Source
+- Open-Source
 - Python
 ---

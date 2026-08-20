@@ -53,9 +53,9 @@ tags:
 - Recommendations
 - A/B Testing
 - Search
-- eCommerce
+- E-Commerce
 - Retail
-- Machine Learning
+- Machine-Learning
 - MACH
 - Mastercard
 ---

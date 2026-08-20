@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nected/refs/he
 summary_line: apiKey · 1 scheme
 tags:
 - Low-Code
-- Workflow Automation
+- Workflow-Automation
 - Decision Engine
 - Business Rules
 ---

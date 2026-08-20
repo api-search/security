@@ -36,5 +36,5 @@ tags:
 - Marketing
 - Sales Prediction
 - Reputation Management
-- SaaS
+- Software-as-a-Service
 ---

@@ -197,8 +197,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/synctera
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synctera/refs/heads/main/authentication/synctera-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- FinTech
-- BaaS
+- Fintech
+- Backend-as-a-Service
 - Banking
 - Payments
 - Card Issuing

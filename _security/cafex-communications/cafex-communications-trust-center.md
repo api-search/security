@@ -23,7 +23,7 @@ summary_line: ISO 27001, SOC 2, ISO 42001
 tags:
 - Company
 - Low-Code
-- Workflow Automation
+- Workflow-Automation
 - Agentic AI
 - Audit and Compliance
 - Collaboration

@@ -59,12 +59,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/security/tensorflow-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- AI
+- Artificial Intelligence
 - Deep Learning
 - JavaScript
-- Machine Learning
+- Machine-Learning
 - Model Serving
 - Neural Networks
-- Open Source
+- Open-Source
 - Python
 ---

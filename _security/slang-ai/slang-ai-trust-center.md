@@ -18,7 +18,7 @@ summary_line: trust center published
 tags:
 - Company
 - Voice AI
-- Restaurants
+- Restaurant
 - Conversational AI
 - Reservations
 - Phone

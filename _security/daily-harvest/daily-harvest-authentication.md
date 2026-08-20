@@ -39,11 +39,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/daily-harvest/
 summary_line: openIdConnect/oauth2 · 1 scheme
 tags:
 - Company
-- Food & Beverage
-- Direct-to-Consumer
-- E-commerce
+- Food and Beverage
+- Direct to Consumer
+- E-Commerce
 - Food Delivery
-- Health & Wellness
+- Health and Wellness
 - Subscription
 - Shopify
 ---

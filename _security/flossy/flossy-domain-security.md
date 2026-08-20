@@ -32,7 +32,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Health Care
+- Healthcare
 - Dental
 - Veterinary
 - Scheduling

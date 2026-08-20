@@ -49,7 +49,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Luxury
 - Marketplace
 - Product Catalog

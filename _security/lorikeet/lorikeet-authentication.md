@@ -53,10 +53,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lorikeet
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/heads/main/authentication/lorikeet-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
-- Customer Support
+- Artificial Intelligence
+- Customer-Support
 - AI Agent
 - Support Automation
 - Workflows
-- Helpdesk
+- Help Desk
 ---

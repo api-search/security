@@ -178,5 +178,4 @@ tags:
 - Supplier Management
 - Biotech
 - Pharmaceuticals
-- API
 ---

@@ -35,7 +35,7 @@ tags:
 - Robotics
 - Precision Agriculture
 - AgTech
-- Machine Learning
-- Computer Vision
+- Machine-Learning
+- Computer-Vision
 - Autonomous Systems
 ---

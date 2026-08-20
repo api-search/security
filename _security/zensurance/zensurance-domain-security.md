@@ -59,7 +59,7 @@ tags:
 - Insurance
 - Canada
 - Insurtech
-- Broker
+- Brokers
 - Property and Casualty
 - Commercial Insurance
 - Small Business Insurance

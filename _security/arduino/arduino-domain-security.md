@@ -326,7 +326,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - IoT
 - Electronics
-- Open Source
+- Open-Source
 - Devices
 - Dashboards
 - Time Series

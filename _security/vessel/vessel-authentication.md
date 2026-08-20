@@ -186,11 +186,11 @@ tags:
 - Chat
 - Dialer
 - Embedded Integrations
-- GTM
-- Integrations
+- Go-To-Market
+- Integration
 - iPaaS
 - Marketing Automation
 - Sales Engagement
-- Unified API
-- Webhooks
+- Unified-API
+- Webhook
 ---

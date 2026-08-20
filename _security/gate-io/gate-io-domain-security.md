@@ -61,5 +61,5 @@ tags:
 - Options
 - WebSocket
 - Market Data
-- Wallet
+- Wallets
 ---

@@ -33,7 +33,7 @@ tags:
 - Company
 - Marketplaces
 - B2B
-- Ecommerce
+- E-Commerce
 - Procurement
 - Industrial Supplies
 - Supply Chain

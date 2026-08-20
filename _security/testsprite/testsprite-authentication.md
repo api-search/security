@@ -36,9 +36,9 @@ tags:
 - Software Testing
 - API Testing
 - Test Automation
-- AI
+- Artificial Intelligence
 - Developer Tools
-- Model Context Protocol
+- MCP
 - Quality Assurance
 - CI/CD
 - Agentic

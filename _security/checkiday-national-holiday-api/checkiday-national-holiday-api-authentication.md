@@ -39,7 +39,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Calendar
 - Holidays
-- Events
+- Event
 - Observances
 - Dates
 - Time

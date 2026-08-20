@@ -56,5 +56,5 @@ tags:
 - Finance
 - MCP
 - Export API
-- SaaS
+- Software-as-a-Service
 ---

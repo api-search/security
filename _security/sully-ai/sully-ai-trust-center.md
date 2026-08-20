@@ -30,17 +30,17 @@ tags:
 - ICD-10
 - CPT
 - SNOMED
-- Speech to Text
+- Speech-to-Text
 - Audio Transcription
-- Real Time Streaming
+- Real-Time Streaming
 - WebSockets
-- Webhooks
+- Webhook
 - EHR Integration
 - Epic
 - Cerner
 - HIPAA
 - AI Agents
-- Workflow Automation
+- Workflow-Automation
 - Healthcare Automation
 trust_url: https://trust.sully.ai/
 ---

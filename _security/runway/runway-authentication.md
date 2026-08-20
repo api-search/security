@@ -116,9 +116,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runway/refs/he
 summary_line: http · 1 scheme
 tags:
 - Video Generation
-- Image Generation
+- Image-Generation
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Generative AI
 - Avatars
 - Characters

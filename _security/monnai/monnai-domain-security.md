@@ -33,15 +33,15 @@ tags:
 - Company
 - Consumer Insights
 - Fintech
-- Financial Services
+- Financial-Services
 - Fraud Detection
 - Identity Verification
 - KYC
 - AML
 - Credit Decisioning
 - Risk Assessment
-- Collections
+- Collection
 - Emerging Markets
 - Decisioning
-- OAuth2
+- Authentication
 ---

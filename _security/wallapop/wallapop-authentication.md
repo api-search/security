@@ -77,9 +77,9 @@ tags:
 - Company
 - Consumer
 - Marketplace
-- Ecommerce
-- Second-Hand
+- E-Commerce
+- Secondhand
 - Classifieds
 - Shipping
-- Webhooks
+- Webhook
 ---

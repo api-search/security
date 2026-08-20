@@ -33,9 +33,9 @@ tags:
 - Company
 - TechBio
 - Biotechnology
-- Pharmaceutical
+- Pharmaceuticals
 - Drug Development
 - Clinical Trials
-- Real World Evidence
+- Real-World Evidence
 - Regulatory Strategy
 ---

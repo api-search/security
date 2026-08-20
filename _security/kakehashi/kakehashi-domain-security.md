@@ -32,7 +32,7 @@ tags:
 - Company
 - Healthcare
 - Pharmacy
-- SaaS
+- Software-as-a-Service
 - Japan
 - Medication
 - Digital Health

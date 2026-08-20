@@ -47,7 +47,7 @@ tags:
 - Conversions
 - Documents
 - Image Recognition
-- Natural Language
+- Natural-Language
 - OCR
 - Processing
 - Validation

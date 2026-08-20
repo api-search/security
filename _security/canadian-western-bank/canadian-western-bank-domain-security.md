@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canadian-western-bank/refs/heads/main/security/canadian-western-bank-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Canada
 - Schedule I Bank

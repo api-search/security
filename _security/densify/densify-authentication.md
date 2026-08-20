@@ -69,7 +69,7 @@ tags:
 - Container Optimization
 - FinOps
 - Kubernetes
-- Machine Learning
+- Machine-Learning
 - Recommendations
-- Right-Sizing
+- Rightsizing
 ---

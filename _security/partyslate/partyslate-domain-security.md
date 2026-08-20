@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/partyslate/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Events
+- Event
 - Event Planning
 - Marketplace
 - Venues
 - Weddings
-- SaaS
+- Software-as-a-Service
 - Vendors
 ---

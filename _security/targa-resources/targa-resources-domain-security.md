@@ -34,6 +34,6 @@ tags:
 - Midstream
 - Natural Gas
 - Natural Gas Liquids
-- Oil And Gas
+- Oil and Gas
 - Permian Basin
 ---

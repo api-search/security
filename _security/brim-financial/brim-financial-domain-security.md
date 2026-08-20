@@ -29,12 +29,12 @@ source_yaml: "generated: '2026-07-23'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brim-financial/refs/heads/main/security/brim-financial-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Canada
 - Fintech
 - Credit Cards
-- Platform as a Service
+- Platform-as-a-Service
 - Payments
 - Embedded Finance
 - Payments Canada

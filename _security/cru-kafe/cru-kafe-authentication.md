@@ -51,7 +51,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Coffee
-- Ecommerce
+- E-Commerce
 - Retail
 - Consumer Goods
 - Food and Beverage

@@ -32,7 +32,7 @@ tags:
 - HTTP Client
 - Browser
 - Desktop
-- Open Source
+- Open-Source
 - GraphQL
 - WebSocket
 ---

@@ -23,7 +23,7 @@ tags:
 - Skill Development
 - Learning Pathways
 - Workforce Upskilling
-- eLearning
+- E-Learning
 - HR Technology
 trust_url: https://trust.degreed.com/
 ---

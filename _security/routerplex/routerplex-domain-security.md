@@ -65,19 +65,19 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/routerplex/refs/heads/main/security/routerplex-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- llm
-- ai
-- ai-gateway
-- inference
-- model-router
-- openai-compatible
-- anthropic-compatible
-- claude
-- gpt
-- gemini
-- api-gateway
-- agent-infrastructure
-- developer-tools
-- mcp
-- llmops
+- LLM
+- Artificial Intelligence
+- AI Gateway
+- Inference
+- Model Router
+- OpenAI-Compatible
+- Anthropic Compatible
+- Claude
+- GPT
+- Gemini
+- API Gateway
+- Agent Infrastructure
+- Developer Tools
+- MCP
+- LLMOps
 ---

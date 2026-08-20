@@ -38,10 +38,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Fintech
-- Proptech
+- PropTech
 - Landlord Banking
 - Rent Collection
-- Real Estate
+- Real-Estate
 - Banking
 - Bookkeeping
 ---

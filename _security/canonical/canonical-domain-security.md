@@ -79,7 +79,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud
 - Linux
-- Open Source
+- Open-Source
 - Ubuntu
 - Containers
 - Bare Metal

@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/equitable/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Benefits
-- Financial Services
+- Financial-Services
 - Insurance
 - Retirement
 - Employee Benefits

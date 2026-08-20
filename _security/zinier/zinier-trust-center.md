@@ -19,10 +19,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zinier/refs/he
 summary_line: ISO 27001, SOC 2 Type II
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Field Service Management
 - No-Code
-- Workflow Automation
+- Workflow-Automation
 - Field Service
 - Enterprise Software
 trust_url: https://www.zinier.com/resources/security-compliance

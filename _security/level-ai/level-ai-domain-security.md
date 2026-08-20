@@ -37,7 +37,7 @@ tags:
 - Auto QA
 - Quality Assurance
 - Agent Assist
-- Voice Of The Customer
+- Voice of the Customer
 - Generative AI
 - Voice AI
 - Speech Recognition

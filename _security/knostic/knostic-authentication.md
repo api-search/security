@@ -65,7 +65,7 @@ tags:
 - AI Agents
 - Agent Security
 - Supply Chain Security
-- Model Context Protocol
+- MCP
 - Threat Intelligence
 - Developer Tools
 - Shadow AI

@@ -36,5 +36,5 @@ tags:
 - Genetic Medicines
 - Artificial Intelligence
 - Life Sciences
-- Pharmaceutical
+- Pharmaceuticals
 ---

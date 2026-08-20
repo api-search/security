@@ -32,7 +32,7 @@ tags:
 - Company
 - Consumer
 - Ghost Kitchens
-- Restaurants
+- Restaurant
 - Food Delivery
 - Food Service
 - Defunct

@@ -45,6 +45,6 @@ tags:
 - Translation
 - Machine Translation
 - Natural Language Processing
-- Open Source
+- Open-Source
 - Self-Hosted
 ---

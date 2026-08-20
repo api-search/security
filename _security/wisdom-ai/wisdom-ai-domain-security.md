@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Analytics
 - Business Intelligence
 - GraphQL

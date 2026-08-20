@@ -48,7 +48,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/confident-ai/r
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - LLM Evaluation
-- Open Source
+- Open-Source
 - Observability
 - Red Teaming
 - Guardrails

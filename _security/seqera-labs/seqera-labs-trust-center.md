@@ -190,7 +190,7 @@ tags:
 - Company
 - Bioinformatics
 - Workflow Orchestration
-- Data Pipelines
+- Data Pipeline
 - Scientific Computing
 - Nextflow
 - Cloud Compute

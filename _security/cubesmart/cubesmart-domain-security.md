@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cubesmart/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Self Storage
-- Real Estate
+- Real-Estate
 - REIT
 - Storage
 - Third-Party Management

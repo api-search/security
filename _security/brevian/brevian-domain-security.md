@@ -36,6 +36,6 @@ tags:
 - Revenue Execution
 - AI Agents
 - CRM
-- Model Context Protocol
+- MCP
 - Enterprise
 ---

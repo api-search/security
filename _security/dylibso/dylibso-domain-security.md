@@ -33,10 +33,10 @@ tags:
 - WebAssembly
 - Wasm
 - Extensibility
-- Plug-ins
+- Plugins
 - Developer Tools
-- SDKs
-- Model Context Protocol
-- Open Source
-- AI
+- SDK
+- MCP
+- Open-Source
+- Artificial Intelligence
 ---

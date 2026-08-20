@@ -36,6 +36,6 @@ tags:
 - Artificial Intelligence
 - Regulatory
 - Clinical Documentation
-- Pharmaceutical
+- Pharmaceuticals
 - AI Agents
 ---

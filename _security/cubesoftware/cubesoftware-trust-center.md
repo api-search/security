@@ -278,6 +278,6 @@ tags:
 - Forecasting
 - Analytics
 - Spreadsheets
-- SaaS
+- Software-as-a-Service
 trust_url: https://security.cubesoftware.com/
 ---

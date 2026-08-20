@@ -34,7 +34,7 @@ tags:
 - Credit
 - Lending
 - Fintech
-- Financial Services
+- Financial-Services
 - Consumer Finance
 - Financial Inclusion
 ---

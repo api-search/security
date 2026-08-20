@@ -108,7 +108,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Email Marketing
 - Marketing Automation
-- Ecommerce
+- E-Commerce
 - Customer Engagement
 - Campaigns
 - Workflows

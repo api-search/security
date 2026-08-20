@@ -88,7 +88,7 @@ tags:
 - Deposits
 - Fintech
 - Credit Unions
-- Financial Services
+- Financial-Services
 - Deposit Network
 - Treasury
 ---

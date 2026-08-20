@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Enterprise
-- Real Estate
+- Real-Estate
 - PropTech
 - Lead Nurture
 - Home Search

@@ -53,7 +53,7 @@ tags:
 - Cloud Accounting
 - Invoicing
 - Payments
-- SaaS
+- Software-as-a-Service
 - REST API
-- OAuth
+- Authentication
 ---

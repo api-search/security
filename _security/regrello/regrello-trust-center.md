@@ -24,7 +24,7 @@ tags:
 - Company
 - Manufacturing
 - Supply Chain
-- Workflow Automation
+- Workflow-Automation
 - Artificial Intelligence
 - Agentic AI
 - Process Orchestration

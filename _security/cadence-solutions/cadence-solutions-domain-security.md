@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cadence-soluti
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Health Care
+- Healthcare
 - Digital Health
 - Remote Patient Monitoring
 - Chronic Care Management

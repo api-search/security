@@ -37,5 +37,5 @@ tags:
 - Trust
 - Fraud Detection
 - Fintech
-- Machine Learning
+- Machine-Learning
 ---

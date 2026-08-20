@@ -50,10 +50,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ray/refs/heads
 summary_line: TLSv1.3 · DMARC
 tags:
 - Distributed Computing
-- Machine Learning
+- Machine-Learning
 - AI Infrastructure
 - Python
 - Model Serving
-- Open Source
+- Open-Source
 - Compute
 ---

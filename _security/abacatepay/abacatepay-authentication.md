@@ -63,6 +63,6 @@ tags:
 - Payments
 - Pix
 - Brazil
-- FinTech
+- Fintech
 - Developers
 ---

@@ -33,7 +33,7 @@ tags:
 - Fashion
 - Wholesale
 - Dropshipping
-- Ecommerce
+- E-Commerce
 - Apparel
 - Shopify
 - TikTok Shop

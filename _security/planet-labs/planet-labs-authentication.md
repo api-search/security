@@ -85,7 +85,7 @@ tags:
 - Tasking
 - Basemaps
 - Analytics
-- Subscriptions
+- Subscription
 - STAC
 - GIS
 ---

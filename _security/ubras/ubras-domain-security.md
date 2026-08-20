@@ -43,9 +43,9 @@ tags:
 - Company
 - Consumer
 - Retail
-- eCommerce
+- E-Commerce
 - Apparel
 - Intimate Apparel
-- Direct-to-Consumer
+- Direct to Consumer
 - Agentic Commerce
 ---

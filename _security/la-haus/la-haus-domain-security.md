@@ -57,8 +57,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/la-haus/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Real Estate
-- Proptech
+- Real-Estate
+- PropTech
 - Marketplace
 - Housing
 - Mortgages

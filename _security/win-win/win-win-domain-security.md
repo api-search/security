@@ -30,7 +30,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Charity
 - Donations
 - Gaming

@@ -68,12 +68,12 @@ summary_line: apiKey · 3 schemes
 tags:
 - Company
 - Ai Ml
-- Machine Learning
+- Machine-Learning
 - GPU Cloud
 - Model Inference
 - Model Training
 - Developer Platform
 - Sandboxes
 - LLM APIs
-- Open Source
+- Open-Source
 ---

@@ -75,5 +75,5 @@ tags:
 - Invoice Generation
 - Global Tax
 - Indirect Tax
-- FinTech
+- Fintech
 ---

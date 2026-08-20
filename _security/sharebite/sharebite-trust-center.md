@@ -30,7 +30,7 @@ tags:
 - Food Delivery
 - Catering
 - Prepaid Cards
-- FoodTech
-- SaaS
+- Food Tech
+- Software-as-a-Service
 trust_url: https://trust.sharebite.com/
 ---

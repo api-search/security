@@ -130,7 +130,7 @@ tags:
 - User Management
 - Identity
 - Sessions
-- Organizations
+- Organization
 - SSO
 - JWT
 - MFA

@@ -90,7 +90,7 @@ tags:
 - SMS
 - Messaging
 - Templates
-- Webhooks
+- Webhook
 - Email Verification
 - Deliverability
 - Analytics

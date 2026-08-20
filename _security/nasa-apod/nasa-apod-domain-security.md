@@ -40,7 +40,7 @@ tags:
 - NASA
 - Astronomy
 - Space
-- Images
+- Image
 - Science
 - Education
 - Open Data

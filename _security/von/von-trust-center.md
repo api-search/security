@@ -27,6 +27,6 @@ tags:
 - Sales
 - CRM
 - Analytics
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.vonlabs.ai/
 ---

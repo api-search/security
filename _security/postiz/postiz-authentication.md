@@ -109,9 +109,9 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/postiz-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/authentication/postiz-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
-- Social Media
+- Social-Media
 - Scheduling
-- Open Source
+- Open-Source
 - Content
 - Marketing
 - Agents

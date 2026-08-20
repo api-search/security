@@ -37,5 +37,5 @@ tags:
 - Cryptography
 - zkApps
 - Developer Tools
-- SDKs
+- SDK
 ---

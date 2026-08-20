@@ -34,7 +34,7 @@ tags:
 - Shipping
 - Logistics
 - Multi-Carrier
-- E-commerce
+- E-Commerce
 - Fulfillment
 - Package Tracking
 - Mexico

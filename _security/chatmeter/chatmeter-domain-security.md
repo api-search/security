@@ -45,7 +45,7 @@ tags:
 - Local SEO
 - Listings Management
 - Review Management
-- Social Media
+- Social-Media
 - Multi-Location
 - Competitive Intelligence
 ---

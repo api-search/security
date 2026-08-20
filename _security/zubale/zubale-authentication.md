@@ -95,5 +95,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/he
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 ---

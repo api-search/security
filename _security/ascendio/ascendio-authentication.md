@@ -34,7 +34,7 @@ tags:
 - Company
 - Big Data
 - Data Engineering
-- Data Pipelines
+- Data Pipeline
 - ETL
 - Orchestration
 - Data Automation

@@ -80,6 +80,6 @@ tags:
 - Captions
 - Media
 - Content Creation
-- Text to Speech
-- Machine Learning
+- Text-to-Speech
+- Machine-Learning
 ---

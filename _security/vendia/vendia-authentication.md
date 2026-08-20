@@ -111,7 +111,6 @@ summary_line: apiKey/http/oauth2/openIdConnect · 6 schemes
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - Artificial Intelligence
 - Data Sharing
 - Data Platform

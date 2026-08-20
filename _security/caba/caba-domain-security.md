@@ -34,8 +34,8 @@ tags:
 - Furniture
 - Home Goods
 - Home Furnishings
-- Direct-to-Consumer
-- E-commerce
+- Direct to Consumer
+- E-Commerce
 - Consumer Products
 - Design
 ---

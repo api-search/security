@@ -233,7 +233,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/discord/refs/h
 summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
 - Chat
-- Communication
+- Communications
 - Gaming
 - Messaging
 - Social

@@ -33,7 +33,7 @@ tags:
 - Security
 - Cloud Security
 - Network Security
-- Multicloud
+- Multi-Cloud
 - Firewall
 - Terraform
 ---

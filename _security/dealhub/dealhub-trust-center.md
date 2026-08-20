@@ -94,14 +94,14 @@ summary_line: ISO 42001, ISO 27701, ISO 27001, ISO 22301, SOC 1 Type II, SOC 2 T
 tags:
 - Company
 - CPQ
-- Quote to Cash
+- Quote-to-Cash
 - Contract Lifecycle Management
 - Subscription Management
 - Billing
 - Revenue Operations
 - Sales
 - Pricing
-- Usage Based Billing
+- Usage-Based Billing
 - Revenue Recognition
 - Sales Enablement
 trust_url: https://trust.dealhub.io/

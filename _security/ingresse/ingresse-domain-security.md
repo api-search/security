@@ -31,11 +31,11 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Ticketing
-- Events
+- Event
 - Ticketing as a Service
 - Payments
 - Entertainment
 - Event Management
 - Brazil
-- SDKs
+- SDK
 ---

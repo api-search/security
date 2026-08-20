@@ -34,7 +34,7 @@ tags:
 - Fintech
 - Payments
 - Financing
-- Point of Sale
+- Point-of-Sale
 - Patient Financing
 - Buy Now Pay Later
 - Healthcare

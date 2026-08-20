@@ -33,7 +33,7 @@ tags:
 - Company
 - Flowers
 - Gifting
-- Ecommerce
+- E-Commerce
 - Retail
 - Delivery
 - Logistics

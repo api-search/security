@@ -21,7 +21,7 @@ tags:
 - Business Applications
 - Artificial Intelligence
 - AI Agents
-- Real Estate
+- Real-Estate
 - Commercial Real Estate
 - Infrastructure
 - Construction

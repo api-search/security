@@ -224,15 +224,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Banking
 - Payments
-- Stablecoin
+- Stablecoins
 - USDC
 - Cross-Border Payments
 - Business Accounts
 - MCP
 - Agents
-- API
 ---

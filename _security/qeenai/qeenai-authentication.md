@@ -72,9 +72,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qeenai/refs/he
 summary_line: apiKey/cookie · 3 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Marketing
-- Ecommerce
+- E-Commerce
 - Advertising
 - MENA
 - Analytics

@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\ndocs: https://github.co
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/authentication/reso-authentication.yml
 summary_line: oauth2/http · 3 schemes
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - RESO
 - MLS

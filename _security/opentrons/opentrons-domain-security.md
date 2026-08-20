@@ -96,5 +96,5 @@ tags:
 - Life Sciences
 - Protocol Management
 - Hardware Control
-- Open Source
+- Open-Source
 ---

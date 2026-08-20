@@ -187,6 +187,5 @@ tags:
 - Automation
 - DevOps
 - Incident Management
-- Operations
 trust_url: https://aws.amazon.com/compliance/
 ---

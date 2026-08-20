@@ -107,7 +107,7 @@ tags:
 - Intake
 - Documents
 - LOIS
-- Webhooks
+- Webhook
 - Legal AI
 - Personal Injury
 - Mass Torts

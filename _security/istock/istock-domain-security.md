@@ -92,7 +92,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/istock/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Stock Media
-- Images
+- Image
 - Video
 - Illustrations
 - Royalty-Free

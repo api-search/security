@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/h
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, FedRAMP, GDPR, CSA STAR
 tags:
 - Agents
-- AI
+- Artificial Intelligence
 - ChatGPT
 - Embeddings
 - Fine-Tuning
@@ -46,6 +46,6 @@ tags:
 - GPT-5
 - Language Model
 - OpenAI
-- Realtime
+- Real-Time
 trust_url: https://trust.openai.com/
 ---

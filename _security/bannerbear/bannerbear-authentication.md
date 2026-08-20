@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bannerbe
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/authentication/bannerbear-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Image Generation
+- Image-Generation
 - Video Generation
 - Templates
 - Media

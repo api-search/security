@@ -33,8 +33,8 @@ tags:
 - Video
 - Video Editing
 - Content Creation
-- AI
+- Artificial Intelligence
 - Media
-- Social Media
+- Social-Media
 - Creator Tools
 ---

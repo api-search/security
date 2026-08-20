@@ -32,6 +32,6 @@ tags:
 - Multi-Location
 - CRM
 - Franchise Sales
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.franconnect.com/
 ---

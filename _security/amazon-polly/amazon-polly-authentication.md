@@ -62,10 +62,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-p
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/authentication/amazon-polly-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Speech Synthesis
-- Text-To-Speech
+- Text-to-Speech
 - TTS
 - Voice
 - SSML

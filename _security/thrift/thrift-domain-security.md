@@ -36,10 +36,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apache
 - Code Generation
-- Cross Language
-- Open Source
+- Cross-Language
+- Open-Source
 - RPC
-- SDKs
+- SDK
 - Serialization
 - Thrift
 ---

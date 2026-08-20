@@ -35,5 +35,5 @@ tags:
 - Decentralized
 - JSON-RPC
 - Developer Tools
-- Open Source
+- Open-Source
 ---

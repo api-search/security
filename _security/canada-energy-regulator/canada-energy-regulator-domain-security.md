@@ -56,7 +56,7 @@ summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Energy
 - Canada
-- Regulation
+- Regulations
 - Government
 - Pipelines
 - Electricity

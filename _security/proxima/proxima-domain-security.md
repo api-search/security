@@ -36,7 +36,7 @@ tags:
 - Biotechnology
 - Drug Discovery
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Structural Biology
 - Proteomics
 - Therapeutics

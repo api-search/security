@@ -36,8 +36,8 @@ tags:
 - Shipping
 - Fulfillment
 - Supply Chain
-- E-commerce
+- E-Commerce
 - Last Mile Delivery
-- Courier
+- Couriers
 - Indonesia
 ---

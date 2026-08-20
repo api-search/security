@@ -63,6 +63,6 @@ tags:
 - Reporting
 - Business Intelligence
 - Advertising
-- SaaS
+- Software-as-a-Service
 - MCP
 ---

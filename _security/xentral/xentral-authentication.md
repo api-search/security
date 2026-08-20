@@ -573,12 +573,12 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - ERP
-- eCommerce
+- E-Commerce
 - Fulfillment
 - Warehousing
 - Invoicing
 - Accounting
-- Orders
-- Products
+- Order
+- Product
 - Germany
 ---

@@ -33,7 +33,7 @@ tags:
 - Payments
 - Money Transfer
 - Fintech
-- Financial Services
+- Financial-Services
 - Mobile
 - Cross-Border Payments
 - Singapore

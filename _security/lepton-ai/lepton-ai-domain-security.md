@@ -40,7 +40,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lepton-ai/refs/heads/main/security/lepton-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - ML
 - Inference
 - Cloud

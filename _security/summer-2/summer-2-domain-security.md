@@ -36,7 +36,7 @@ tags:
 - Property Management
 - Analytics
 - Revenue Management
-- Proptech
+- PropTech
 - Artificial Intelligence
 - Market Intelligence
 ---

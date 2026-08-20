@@ -20,10 +20,10 @@ tags:
 - Company
 - AI Agents
 - Agent Platform
-- Workflow Automation
+- Workflow-Automation
 - Knowledge Work
 - MCP
-- Integrations
+- Integration
 - Artificial Intelligence
 trust_url: https://trust.tasklet.ai/
 ---

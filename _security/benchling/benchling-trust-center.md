@@ -383,6 +383,6 @@ tags:
 - Sequence Management
 - Experiment Workflows
 - REST
-- Webhooks
+- Webhook
 trust_url: ''
 ---

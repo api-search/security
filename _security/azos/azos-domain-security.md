@@ -36,6 +36,6 @@ tags:
 - Insurtech
 - Life Insurance
 - Brazil
-- Financial Services
+- Financial-Services
 - Digital Insurance
 ---

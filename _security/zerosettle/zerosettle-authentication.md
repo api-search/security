@@ -106,7 +106,7 @@ tags:
 - Company
 - Payments
 - In-App Purchase
-- Subscriptions
+- Subscription
 - Merchant of Record
 - Billing
 - Mobile

@@ -30,12 +30,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gut-wellness-c
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Wellness
 - Health
 - Consumer
 - Gut Health
 - Ayurveda
 - MCP
-- Agent Native
+- agent-native
 ---

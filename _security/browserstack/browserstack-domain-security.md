@@ -74,13 +74,13 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Accessibility
 - Appium
-- Applications
+- Application
 - Automation
 - CI/CD
 - Cross-Browser Testing
 - Enterprise
 - JavaScript
-- Low Code
+- Low-Code
 - Mobile Testing
 - QA
 - Regression Testing

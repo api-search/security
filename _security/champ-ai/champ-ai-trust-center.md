@@ -24,10 +24,9 @@ tags:
 - AI Agents
 - Automation
 - Business Process Outsourcing
-- Workflow Automation
+- Workflow-Automation
 - Document Intelligence
 - Voice AI
 - Healthcare
-- Operations
 trust_url: https://app.vanta.com/champ/trust/bq309cveyw7nelou3cks6
 ---

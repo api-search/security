@@ -59,10 +59,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zeffy/refs/hea
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Donations
 - Payments
 - Donor Management
 - Free
-- Webhooks
+- Webhook
 ---

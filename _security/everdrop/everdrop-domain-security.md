@@ -36,6 +36,6 @@ tags:
 - E-Commerce
 - Sustainability
 - Cleaning Products
-- Direct-to-Consumer
+- Direct to Consumer
 - Subscription
 ---

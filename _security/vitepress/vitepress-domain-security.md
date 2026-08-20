@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Documentation
 - Markdown
-- Open Source
+- Open-Source
 - Static Site Generator
 - Vite
 - Vue

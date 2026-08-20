@@ -35,7 +35,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openkrui
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openkruise/refs/heads/main/authentication/openkruise-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Cloud Native
+- Cloud-Native
 - Controllers
 - Deployment
 - Incubating

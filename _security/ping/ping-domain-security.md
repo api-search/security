@@ -41,8 +41,7 @@ tags:
 - Company
 - Payments
 - Aggregated Payment
-- 聚合支付
-- FinTech
+- Fintech
 - Payment Gateway
 - Split Settlement
 - WeChat Pay

@@ -46,6 +46,6 @@ tags:
 - API Discovery
 - Community
 - GraphQL
-- Open Source
+- Open-Source
 - OpenAPI
 ---

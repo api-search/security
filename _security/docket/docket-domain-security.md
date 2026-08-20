@@ -39,5 +39,5 @@ tags:
 - Lead Generation
 - B2B
 - CRM
-- SaaS
+- Software-as-a-Service
 ---

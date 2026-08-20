@@ -296,9 +296,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - BPM
 - Business Process Management
-- Workflow
+- Workflows
 - BPMN
-- Open Source
+- Open-Source
 - Process Automation
 - Java
 - REST API

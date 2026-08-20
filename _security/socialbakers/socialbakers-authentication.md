@@ -94,7 +94,7 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
 - Marketing
-- Social Media
+- Social-Media
 - Analytics
 - Social Media Analytics
 - Social Listening

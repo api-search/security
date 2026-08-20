@@ -33,6 +33,6 @@ tags:
 - Insurance
 - Auto Insurance
 - Life Insurance
-- Financial Services
+- Financial-Services
 - Fortune 1000
 ---

@@ -37,6 +37,6 @@ tags:
 - Sunset
 - Historical
 - Atlassian
-- Webhooks
+- Webhook
 trust_url: https://www.atlassian.com/trust
 ---

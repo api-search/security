@@ -34,7 +34,7 @@ tags:
 - Solar Energy
 - Renewable Energy
 - Energy Storage
-- FinTech
+- Fintech
 - Climate
 - Mexico
 - Y Combinator

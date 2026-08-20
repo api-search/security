@@ -52,5 +52,5 @@ tags:
 - Payment Gateway
 - Payments
 - Recurring Billing
-- Transactions
+- Transaction
 ---

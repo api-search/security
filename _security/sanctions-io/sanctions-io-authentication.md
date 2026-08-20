@@ -70,7 +70,7 @@ tags:
 - Sanctions Screening
 - Compliance
 - PEP Screening
-- Watchlists
+- Watchlist
 - KYC
 - RegTech
 ---

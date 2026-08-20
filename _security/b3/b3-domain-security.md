@@ -269,10 +269,10 @@ tags:
 - Crypto
 - Blockchain
 - Web3
-- Workflow Automation
-- Onchain Data
+- Workflow-Automation
+- On-Chain Data
 - Gaming
 - Payments
-- Layer 3
+- Layer-3
 - Developer Tools
 ---

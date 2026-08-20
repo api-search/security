@@ -506,6 +506,6 @@ tags:
 - Training
 - Online Courses
 - Certification
-- Webhooks
+- Webhook
 - Enrollment
 ---

@@ -33,7 +33,7 @@ tags:
 - API Testing
 - Clients
 - GraphQL
-- Open Source
+- Open-Source
 - Platform
 - REST
 - WebSockets

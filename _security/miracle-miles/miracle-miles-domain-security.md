@@ -32,7 +32,7 @@ tags:
 - Company
 - Consumer
 - Footwear
-- Ecommerce
+- E-Commerce
 - Retail
 - Consumer Goods
 - Direct to Consumer

@@ -579,6 +579,5 @@ tags:
 - Quoting
 - Production Operations
 - Manufacturing Execution
-- API
 trust_url: https://www.phas.io/security
 ---

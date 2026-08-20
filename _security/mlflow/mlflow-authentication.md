@@ -73,5 +73,5 @@ tags:
 - MLOps
 - GenAI
 - Experiment Tracking
-- Open Source
+- Open-Source
 ---

@@ -35,6 +35,6 @@ tags:
 - Quick Commerce
 - Grocery Delivery
 - Logistics
-- E-commerce
+- E-Commerce
 - India
 ---

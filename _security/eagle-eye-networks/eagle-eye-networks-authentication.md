@@ -68,11 +68,11 @@ tags:
 - Video Surveillance
 - Video Management
 - Cloud Video
-- Cameras
+- Camera
 - Physical Security
 - Video Analytics
 - License Plate Recognition
 - Streaming
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 ---

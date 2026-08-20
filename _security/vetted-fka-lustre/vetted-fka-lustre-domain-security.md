@@ -40,7 +40,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Shopping
-- E-commerce
+- E-Commerce
 - Consumer
 - Product Discovery
 - Price Comparison

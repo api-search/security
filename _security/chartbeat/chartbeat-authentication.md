@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chartbeat/refs
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Analytics
 - Content Analytics
 - Real-Time Analytics

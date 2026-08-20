@@ -22,7 +22,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notable/refs/h
 summary_line: SOC 2 Type 2, ISO/IEC 27001:2022, PCI DSS, HITRUST
 tags:
 - Company
-- Applications
+- Application
 - Healthcare
 - Artificial Intelligence
 - Automation

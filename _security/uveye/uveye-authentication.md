@@ -73,7 +73,7 @@ tags:
 - Automotive
 - Vehicle Inspection
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Dealerships
 - Fleet Management
 - Auctions and Remarketing

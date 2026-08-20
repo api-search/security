@@ -50,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tako/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Data
 - Search
 - Answer Engine

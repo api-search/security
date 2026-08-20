@@ -50,6 +50,6 @@ tags:
 - Referral Marketing
 - Customer Loyalty
 - Gamification
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 ---

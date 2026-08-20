@@ -61,7 +61,7 @@ tags:
 - Broadcasting
 - Numbering
 - Do Not Call Register
-- Radiocommunications
+- Radio Communications
 - Licensing
 - Open Data
 - Government

@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lonza/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Pharmaceutical
+- Pharmaceuticals
 - Biotech
 - CDMO
 - Manufacturing

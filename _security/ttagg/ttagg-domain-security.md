@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ttagg/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Social Media
+- Social-Media
 - Analytics
 - Sentiment Analysis
 - Brand Monitoring

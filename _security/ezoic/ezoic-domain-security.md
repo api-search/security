@@ -77,12 +77,12 @@ tags:
 - Publisher Monetization
 - Analytics
 - Reporting
-- Subscriptions
+- Subscription
 - Paywalls
 - Identity
 - CDN
 - Caching
 - MCP
-- OAuth
+- Authentication
 - Agents
 ---

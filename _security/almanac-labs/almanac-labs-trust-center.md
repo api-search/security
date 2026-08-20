@@ -21,10 +21,10 @@ tags:
 - Company
 - Enterprise
 - Documentation
-- Knowledge Management
+- Knowledge-Management
 - Collaboration
 - Wiki
 - Productivity
-- Workflow
+- Workflows
 trust_url: https://get.almanac.io/
 ---

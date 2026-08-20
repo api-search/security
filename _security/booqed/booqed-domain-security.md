@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/booqed/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Proptech
+- PropTech
 - Workspace Booking
 - Smart Office
 - Space Management
-- Coworking
+- Co-Working
 - Meeting Rooms
-- Real Estate
+- Real-Estate
 - Hardware
 ---

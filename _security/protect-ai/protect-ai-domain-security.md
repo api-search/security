@@ -44,7 +44,7 @@ tags:
 - Runtime Security
 - Supply Chain Security
 - AI Bug Bounty
-- Open Source
+- Open-Source
 - Acquired
 - Palo Alto Networks
 ---

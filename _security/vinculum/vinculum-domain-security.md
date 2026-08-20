@@ -133,7 +133,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vinculum/refs/
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Omnichannel
 - Order Management
 - Warehouse Management

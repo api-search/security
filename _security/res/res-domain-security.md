@@ -44,7 +44,7 @@ tags:
 - Trades
 - Maintenance
 - Hospitality
-- Restaurants
-- SaaS
+- Restaurant
+- Software-as-a-Service
 - Vendor Management
 ---

@@ -104,6 +104,6 @@ tags:
 - Alerting
 - Service Reliability
 - DevOps
-- Communication
-- Workflow Automation
+- Communications
+- Workflow-Automation
 ---

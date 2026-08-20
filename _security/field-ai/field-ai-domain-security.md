@@ -37,5 +37,5 @@ tags:
 - Foundation Models
 - Autonomy
 - Automation
-- Machine Learning
+- Machine-Learning
 ---

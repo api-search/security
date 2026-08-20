@@ -62,7 +62,7 @@ tags:
 - Freight
 - Supply Chain
 - Transportation
-- Webhooks
-- Orders
+- Webhook
+- Order
 trust_url: https://trust.airspace.com/
 ---

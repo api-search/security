@@ -86,11 +86,11 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Vector Database
 - Vector Search
-- Multimodal
+- Multi-Modal
 - Semantic Search
 - Embeddings
-- AI
-- Machine Learning
-- Open Source
+- Artificial Intelligence
+- Machine-Learning
+- Open-Source
 - Ecommerce Search
 ---

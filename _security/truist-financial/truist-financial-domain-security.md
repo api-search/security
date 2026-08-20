@@ -78,12 +78,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truist-financi
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - Open Banking
 - Commercial Banking
 - Personal Banking
 - Payments
-- Accounts
-- Transactions
+- Account
+- Transaction
 - Fortune 500
 ---

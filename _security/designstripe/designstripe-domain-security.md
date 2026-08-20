@@ -49,5 +49,5 @@ tags:
 - Go-To-Market
 - Marketing
 - Generative AI
-- SaaS
+- Software-as-a-Service
 ---

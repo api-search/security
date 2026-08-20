@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lavu/refs/head
 summary_line: apiKey · 1 scheme
 tags:
 - Restaurant
-- Point of Sale
+- Point-of-Sale
 - Payments
 - Inventory
 - Menu Management

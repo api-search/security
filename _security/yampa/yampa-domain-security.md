@@ -31,13 +31,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yampa/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai/Ml
+- Ai Ml
 - AI Agents
 - Customer Service
 - Contact Centers
 - Voice
 - Chat
 - Email
-- SaaS
+- Software-as-a-Service
 - France
 ---

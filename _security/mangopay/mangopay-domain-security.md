@@ -189,7 +189,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
 - Marketplace Payments
-- Digital Wallets
+- Digital Wallet
 - KYC
 - KYB
 - Fund Transfers

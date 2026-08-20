@@ -104,14 +104,14 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/security/ada-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- ai
-- customer-service
-- chatbot
-- automation
-- conversational-ai
-- helpdesk
-- crm
-- integrations
-- knowledge-management
-- data-export
+- Artificial Intelligence
+- Customer Service
+- Chatbots
+- Automation
+- Conversational AI
+- Help Desk
+- CRM
+- Integration
+- Knowledge-Management
+- Data Export
 ---

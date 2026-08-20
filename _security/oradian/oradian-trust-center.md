@@ -22,10 +22,9 @@ tags:
 - Banking
 - Core Banking
 - Fintech
-- Financial Services
+- Financial-Services
 - Lending
 - Microfinance
-- APIs
 - Emerging Markets
 trust_url: https://oradian.com/security
 ---

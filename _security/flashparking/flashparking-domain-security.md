@@ -48,8 +48,8 @@ tags:
 - Transportation
 - Payments
 - Internet of Things
-- Computer Vision
-- Real Estate
+- Computer-Vision
+- Real-Estate
 - Electric Vehicle Charging
 - Reservations
 ---

@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: derived\nsource: openapi/purplebr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/purplebricks/refs/heads/main/authentication/purplebricks-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Listings
 - Online Estate Agency

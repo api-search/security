@@ -31,7 +31,7 @@ tags:
 - Event Streaming
 - Real-Time
 - Data Platform
-- Open Source
+- Open-Source
 - C++
 - Stream Processing
 trust_url: https://trust.redpanda.com/

@@ -32,8 +32,8 @@ tags:
 - Company
 - Synthetic Biology
 - Biotechnology
-- Bio-manufacturing
+- Biomanufacturing
 - Materials Science
-- Machine Learning
+- Machine-Learning
 - Acquired
 ---

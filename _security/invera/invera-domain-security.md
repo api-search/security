@@ -35,7 +35,7 @@ tags:
 - Brokerage
 - Embedded Finance
 - WealthTech
-- Financial Services
+- Financial-Services
 - Latin America
 - Argentina
 ---

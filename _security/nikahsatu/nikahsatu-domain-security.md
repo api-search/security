@@ -32,7 +32,7 @@ tags:
 - Company
 - Weddings
 - Marketplace
-- Events
+- Event
 - E-Commerce
 - Malaysia
 - Consumer

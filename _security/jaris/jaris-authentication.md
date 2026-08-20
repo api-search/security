@@ -46,5 +46,5 @@ tags:
 - Instant Payouts
 - Merchant Onboarding
 - KYB
-- Settlements
+- Settlement
 ---

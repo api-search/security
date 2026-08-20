@@ -43,11 +43,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ema/refs/heads
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - AI Employees
 - Automation
 - Enterprise
-- Workflow Automation
+- Workflow-Automation
 - Conversational AI
 ---

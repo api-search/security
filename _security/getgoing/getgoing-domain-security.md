@@ -42,7 +42,7 @@ tags:
 - Travel Management
 - Expense Management
 - Booking
-- SaaS
+- Software-as-a-Service
 - Fintech
 - SMB
 ---

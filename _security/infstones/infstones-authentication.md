@@ -49,5 +49,4 @@ tags:
 - BNB Chain
 - Cosmos
 - Cryptocurrency
-- API
 ---

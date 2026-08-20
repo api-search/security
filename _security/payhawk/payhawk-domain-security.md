@@ -53,7 +53,7 @@ tags:
 - Budget Controls
 - ERP Integration
 - Accounts Payable
-- FinTech
+- Fintech
 - Finance Automation
-- Webhooks
+- Webhook
 ---

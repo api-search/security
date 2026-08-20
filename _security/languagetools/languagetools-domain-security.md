@@ -65,10 +65,10 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Grammar
 - Spell Check
-- Style
+- Styles
 - Proofreading
 - NLP
 - Natural Language Processing
 - Writing
-- Open Source
+- Open-Source
 ---

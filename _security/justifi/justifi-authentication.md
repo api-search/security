@@ -213,5 +213,4 @@ tags:
 - Payment Facilitation
 - Payouts
 - Developers
-- API
 ---

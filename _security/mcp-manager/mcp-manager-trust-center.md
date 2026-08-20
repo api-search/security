@@ -24,7 +24,6 @@ summary_line: SOC 2 Type 2, HIPAA, ISO 27001:2022, ISO 27701:2019, TISAX Level 3
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - AI Governance
 - API Gateway
 - Security

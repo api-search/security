@@ -76,5 +76,5 @@ tags:
 - Accounts Receivable
 - B2B Payments
 - Mass Payouts
-- FinTech
+- Fintech
 ---

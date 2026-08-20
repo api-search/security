@@ -28,9 +28,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-elastic-beanstalk/refs/heads/main/security/aws-elastic-beanstalk-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
-- Platform as a Service
+- Platform-as-a-Service
 - Application Deployment
-- Auto Scaling
+- Auto-Scaling
 - Cloud
 - DevOps
 trust_url: https://aws.amazon.com/compliance/

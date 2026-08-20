@@ -50,5 +50,5 @@ tags:
 - Provider Directory
 - Member Engagement
 - Insurance
-- FinTech
+- Fintech
 ---

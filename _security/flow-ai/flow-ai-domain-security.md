@@ -38,6 +38,6 @@ tags:
 - Data
 - Runtime
 - SDK
-- Model Context Protocol
+- MCP
 - Analytics
 ---

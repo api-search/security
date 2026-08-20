@@ -25,7 +25,7 @@ tags:
 - Insurance
 - Maintenance
 - Agentic AI
-- Model Context Protocol
+- MCP
 - Transportation
 trust_url: https://trust.serviceup.com/
 ---

@@ -54,16 +54,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superblocks/refs/heads/main/security/superblocks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- internal tools
-- low-code
-- no-code
-- applications
-- workflows
-- scheduled jobs
-- integrations
-- enterprise
-- AI
-- databases
+- Internal Tools
+- Low-Code
+- No-Code
+- Application
+- Workflows
+- Scheduled Jobs
+- Integration
+- Enterprise
+- Artificial Intelligence
+- Databases
 - REST API
-- developer tools
+- Developer Tools
 ---

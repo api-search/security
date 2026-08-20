@@ -35,7 +35,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mod_perl/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apache
-- mod_perl
 - Perl
 - Web Server
 - CGI

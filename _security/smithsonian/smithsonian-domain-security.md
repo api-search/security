@@ -66,8 +66,8 @@ tags:
 - Museums
 - Open Access
 - Cultural Heritage
-- Collections
-- Images
+- Collection
+- Image
 - 3D Models
 - Public Domain
 - CC0

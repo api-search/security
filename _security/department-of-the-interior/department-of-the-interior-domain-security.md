@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/department-of-the-interior/refs/heads/main/security/department-of-the-interior-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Federal Government
+- Federal-Government
 - Public Lands
 - Natural Resources
 - Geospatial

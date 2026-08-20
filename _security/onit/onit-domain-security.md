@@ -38,5 +38,5 @@ tags:
 - Kenya
 - Africa
 - Microfinance
-- Financial Services
+- Financial-Services
 ---

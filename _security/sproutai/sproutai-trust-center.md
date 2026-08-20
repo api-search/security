@@ -24,11 +24,11 @@ summary_line: ISO 27001, ISO 27018, SOC 2 (SSAE 16), PCI DSS, FedRAMP, HIPAA
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Claims Automation
 - Artificial Intelligence
 - Document Intelligence
 - Fraud Detection
-- Machine Learning
+- Machine-Learning
 trust_url: https://sprout.ai/data-privacy-security/
 ---

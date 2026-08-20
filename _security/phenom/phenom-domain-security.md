@@ -101,7 +101,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phenom/refs/he
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Hr Tech
+- HR Tech
 - Talent Experience
 - Recruiting
 - Applicant Tracking

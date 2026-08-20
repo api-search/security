@@ -144,8 +144,8 @@ tags:
 - Company
 - GPU
 - Inference
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Cloud Compute
 - Infrastructure
 - OpenAI-Compatible

@@ -33,5 +33,5 @@ tags:
 - Customer Experience
 - Review Management
 - Analytics
-- Integrations
+- Integration
 ---

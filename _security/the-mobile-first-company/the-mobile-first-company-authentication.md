@@ -128,13 +128,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-mobile-fir
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company
-- Communication
+- Communications
 - Telephony
 - Voice
 - SMS
 - CRM
 - Artificial Intelligence
 - MCP
-- Webhooks
+- Webhook
 - Small Business
 ---

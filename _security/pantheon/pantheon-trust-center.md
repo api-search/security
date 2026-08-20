@@ -32,7 +32,7 @@ tags:
 - Hosting
 - CDN
 - DevOps
-- Deployments
+- Deployment
 - Sites
 - Environments
 trust_url: https://pantheon.io/security

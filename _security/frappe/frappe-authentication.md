@@ -43,10 +43,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/frappe-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/frappe/refs/heads/main/authentication/frappe-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Open Source
+- Open-Source
 - ERP
 - Accounting
 - Inventory
 - Payroll
-- Low Code
+- Low-Code
 ---

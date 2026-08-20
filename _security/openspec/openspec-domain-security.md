@@ -34,6 +34,6 @@ tags:
 - CLI
 - Specifications
 - Context Engineering
-- Open Source
+- Open-Source
 - Coding Agents
 ---

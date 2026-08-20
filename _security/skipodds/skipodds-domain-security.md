@@ -35,16 +35,16 @@ source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/security/skipodds-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- sports
-- odds
+- Sports
+- Odds
 - probabilities
-- betting-data
+- Betting Data
 - de-vig
-- sports-data
-- real-time
-- webhooks
-- sports-betting
-- mcp
-- agent-ready
-- market-data
+- Sports Data
+- Real-Time
+- Webhook
+- Sports Betting
+- MCP
+- Agent Ready
+- Market Data
 ---

@@ -103,12 +103,12 @@ tags:
 - Consumer Packaged Goods
 - Beverages
 - Health and Wellness
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Retail
 - Shopify
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - GraphQL
 ---

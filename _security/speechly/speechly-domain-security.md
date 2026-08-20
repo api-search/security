@@ -39,7 +39,7 @@ tags:
 - Spoken Language Understanding
 - Speech-to-Text
 - Content Moderation
-- Machine Learning
+- Machine-Learning
 - gRPC
 - Artificial Intelligence
 ---

@@ -44,6 +44,6 @@ tags:
 - gRPC
 - JavaScript
 - MIT License
-- Open Source
+- Open-Source
 - REST
 ---

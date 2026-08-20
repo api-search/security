@@ -78,16 +78,16 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: openapi/diagnos
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/authentication/diagnostic-robotics-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
-- health
-- healthcare
-- clinical-ai
-- population-health
-- risk-adjustment
-- predictive-analytics
+- Health
+- Healthcare
+- Clinical AI
+- Population Health
+- Risk Adjustment
+- Predictive Analytics
 - triage
-- fhir
-- claims-data
-- care-management
-- payers
-- medical-coding
+- FHIR
+- Claims Data
+- Care Management
+- Payers
+- Medical Coding
 ---

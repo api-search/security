@@ -68,5 +68,5 @@ tags:
 - Ideas
 - Milestones
 - Swimlanes
-- Timeline
+- Timelines
 ---

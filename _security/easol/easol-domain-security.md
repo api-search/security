@@ -36,12 +36,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/easol/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Experience Commerce
 - Ticketing
 - Booking
 - Payments
-- Events
+- Event
 - Travel
 - CRM
 ---

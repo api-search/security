@@ -29,7 +29,7 @@ tags:
 - Network Security
 - Threat Detection
 - Zeek
-- Open Source
+- Open-Source
 - Network Monitoring
 trust_url: https://corelight.com/trust-and-compliance
 ---

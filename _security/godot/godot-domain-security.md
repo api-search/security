@@ -43,7 +43,7 @@ tags:
 - GDExtension
 - GDScript
 - Godot
-- Open Source
+- Open-Source
 - Plugin
 - SDK
 ---

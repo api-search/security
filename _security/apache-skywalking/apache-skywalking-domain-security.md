@@ -36,10 +36,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - APM
 - Application Performance Monitoring
-- Cloud Native
+- Cloud-Native
 - Distributed Tracing
 - Monitoring
 - Observability
-- Open Source
+- Open-Source
 - Tracing
 ---

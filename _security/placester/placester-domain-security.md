@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/placester/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Marketing
 - Websites
 - CRM
 - Lead Generation
 - IDX
-- SaaS
+- Software-as-a-Service
 ---

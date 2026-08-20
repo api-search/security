@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: openapi/domain-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/authentication/domain-group-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Property Listings
 - Property Data

@@ -32,7 +32,7 @@ tags:
 - Company
 - Healthcare
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Risk Adjustment
 - Value-Based Care
 - Payment Integrity

@@ -163,7 +163,7 @@ tags:
 - Privacy
 - Confidential Computing
 - Data
-- Machine Learning
+- Machine-Learning
 - Compliance
 - Cryptography
 ---

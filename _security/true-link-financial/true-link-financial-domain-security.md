@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/true-link-fina
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Prepaid Cards
 - Wealth Management

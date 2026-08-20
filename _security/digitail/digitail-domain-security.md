@@ -163,5 +163,5 @@ tags:
 - Healthcare
 - Scheduling
 - Billing
-- SaaS
+- Software-as-a-Service
 ---

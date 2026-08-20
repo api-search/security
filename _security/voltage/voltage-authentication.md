@@ -45,7 +45,7 @@ tags:
 - Lightning Network
 - Payments
 - Cryptocurrency
-- Financial Services
+- Financial-Services
 - Wallets
 - Infrastructure
 - Fintech

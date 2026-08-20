@@ -65,10 +65,10 @@ summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Data Transformation
 - Snowflake
-- Data Pipelines
+- Data Pipeline
 - Data Catalog
 - Data Quality
 - Analytics
-- AI
+- Artificial Intelligence
 trust_url: https://trust.coalesce.io/
 ---

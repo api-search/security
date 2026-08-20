@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/weavix-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/authentication/weavix-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Communication
+- Communications
 - Frontline Workers
 - Workforce Management
 - Messaging

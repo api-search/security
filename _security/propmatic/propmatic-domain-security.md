@@ -30,8 +30,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/propmatic/refs
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Proptech
-- Real Estate
+- PropTech
+- Real-Estate
 - Leasing
 - Multifamily
 - Artificial Intelligence

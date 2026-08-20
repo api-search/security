@@ -29,6 +29,6 @@ tags:
 - Reporting
 - Dashboards
 - MCP
-- AI
+- Artificial Intelligence
 trust_url: https://clarisights.com/legal/certifications
 ---

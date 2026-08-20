@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: university-of-oxford-ora-oai-pmh-openapi.yml
+  format: yaml
+  label: ORA — Oxford University Research Archive OAI-PMH
+  slug: ora-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-ora-oai-pmh-openapi.yml
+- filename: university-of-oxford-ora-search-openapi.yml
+  format: yaml
+  label: ORA — Research Archive Search & Record API
+  slug: ora-search
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-ora-search-openapi.yml
+- filename: university-of-oxford-bodleian-iiif-openapi.yml
+  format: yaml
+  label: Digital Bodleian IIIF API
+  slug: bodleian-iiif
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-bodleian-iiif-openapi.yml
+- filename: university-of-oxford-oxford-text-archive-oai-pmh-openapi.yml
+  format: yaml
+  label: Oxford Text Archive OAI-PMH
+  slug: oxford-text-archive-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-oxford-text-archive-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,12 +60,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/security/university-of-oxford-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
 - United Kingdom
-- Open Access
+- Russell Group
+- Research Repository
+- Library
+- Digital Collections
+- IIIF
 - OAI-PMH
-- Repository
+- Identity Federation
+- Open Access
+- Research Computing
 ---

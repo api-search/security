@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mysql/refs/hea
 summary_line: apiKey/http · 2 schemes
 tags:
 - Database
-- Open Source
+- Open-Source
 - RDBMS
 - Relational Database
 - SQL

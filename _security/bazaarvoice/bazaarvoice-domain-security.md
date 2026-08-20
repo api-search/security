@@ -145,7 +145,7 @@ tags:
 - Ratings
 - User Generated Content
 - Retail
-- eCommerce
+- E-Commerce
 - Product Reviews
 - Syndication
 - Social Commerce

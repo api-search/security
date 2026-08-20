@@ -85,10 +85,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openshift/refs
 summary_line: TLSv1.3
 tags:
 - CI/CD
-- Cloud Native
+- Cloud-Native
 - Containers
 - DevOps
 - Enterprise
 - Kubernetes
-- PaaS
+- Platform-as-a-Service
 ---

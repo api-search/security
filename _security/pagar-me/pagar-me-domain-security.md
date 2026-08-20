@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Payments
-- Financial Services
+- Financial-Services
 - Fintech
 - Brazil
 - Latin America
@@ -52,13 +52,13 @@ tags:
 - Credit Card
 - Marketplace
 - Split Payments
-- Subscriptions
+- Subscription
 - Recurring Billing
 - Anti-Fraud
 - 3DS
 - Checkout
 - Payment Links
-- Webhooks
-- E-commerce
+- Webhook
+- E-Commerce
 - Anticipation
 ---

@@ -31,10 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tulyp/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Treasury
 - Foreign Exchange
 - Risk Management
-- SaaS
+- Software-as-a-Service
 - France
 ---

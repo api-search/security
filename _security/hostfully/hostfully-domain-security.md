@@ -43,12 +43,12 @@ tags:
 - Hospitality
 - Channel Manager
 - Direct Booking
-- Real Estate
+- Real-Estate
 - Travel
 - Booking
 - Reservations
 - Guest Communication
-- Webhooks
+- Webhook
 - GraphQL
-- OAuth 2.0
+- Authentication
 ---

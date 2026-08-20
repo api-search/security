@@ -59,16 +59,16 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: https://console
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harmonic-ai/refs/heads/main/authentication/harmonic-ai-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- startup-intelligence
-- venture-capital
-- company-data
-- people-data
+- Startup Intelligence
+- Venture Capital
+- Company Data
+- People Data
 - investor-data
 - funding-data
-- data-enrichment
-- sales-intelligence
-- market-intelligence
-- graphql
-- mcp
+- Data Enrichment
+- Sales Intelligence
+- Market Intelligence
+- GraphQL
+- MCP
 - agent-native
 ---

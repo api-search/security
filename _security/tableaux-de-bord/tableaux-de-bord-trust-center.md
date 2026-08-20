@@ -77,6 +77,6 @@ tags:
 - Data Visualization
 - Monitoring
 - Grafana
-- Metabase
+- METABASE
 trust_url: https://trust.grafana.com/
 ---

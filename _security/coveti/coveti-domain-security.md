@@ -33,7 +33,7 @@ tags:
 - Fashion
 - Luxury
 - Marketplace
-- Ecommerce
+- E-Commerce
 - Retail
 - Agentic Commerce
 - AI Styling

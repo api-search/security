@@ -35,7 +35,7 @@ tags:
 - Industrial AI
 - Enterprise AI
 - Neuro-Symbolic AI
-- Machine Learning
+- Machine-Learning
 - Generative AI
 - Energy
 - Oil and Gas

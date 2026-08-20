@@ -254,11 +254,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ready2order/re
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Point of Sale
-- POS
+- Point-of-Sale
 - Payments
 - Retail
 - Gastronomy
 - Cash Register
-- SaaS
+- Software-as-a-Service
 ---

@@ -34,9 +34,9 @@ tags:
 - Data
 - Data Engineering
 - ETL
-- Data Pipelines
+- Data Pipeline
 - Python
-- Open Source
+- Open-Source
 - Data Integration
 - Agentic
 - MCP

@@ -62,7 +62,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-
 summary_line: apiKey · 1 scheme
 tags:
 - Economics
-- Federal Government
+- Federal-Government
 - GDP
 - National Accounts
 - Open Data

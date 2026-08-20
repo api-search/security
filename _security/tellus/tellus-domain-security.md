@@ -32,7 +32,7 @@ tags:
 - Company
 - Fintech
 - Savings
-- Real Estate
+- Real-Estate
 - Lending
 - Property Management
 - Mobile App

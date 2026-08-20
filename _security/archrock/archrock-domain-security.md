@@ -59,7 +59,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Natural Gas
 - Compression Services
-- Oil And Gas
+- Oil and Gas
 - Energy
 - Industrial
 - 'NYSE: AROC'

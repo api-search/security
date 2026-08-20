@@ -32,7 +32,7 @@ tags:
 - Biotechnology
 - Biopharmaceutical
 - Oncology
-- Inflammation
+- inflammation
 - Cardiovascular
 - Rare Disease
 - Biosimilars

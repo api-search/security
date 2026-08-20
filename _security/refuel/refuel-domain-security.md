@@ -37,7 +37,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Data Labeling
-- Machine Learning
+- Machine-Learning
 - LLM
 - Data Enrichment
 - Artificial Intelligence

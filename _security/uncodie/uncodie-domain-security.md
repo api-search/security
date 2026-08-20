@@ -62,10 +62,10 @@ tags:
 - Sales Automation
 - Marketing Automation
 - Lead Generation
-- No Code
+- No-Code
 - MCP
 - Commerce
 - Workflows
-- Webhooks
-- Open Source
+- Webhook
+- Open-Source
 ---

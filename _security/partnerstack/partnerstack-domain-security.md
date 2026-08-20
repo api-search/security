@@ -72,6 +72,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/partnerstack/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Partnerships
-- Affiliate
-- SaaS
+- Affiliates
+- Software-as-a-Service
 ---

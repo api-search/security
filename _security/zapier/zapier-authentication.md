@@ -107,6 +107,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zapier-p
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/authentication/zapier-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- Integrations
+- Integration
 - iPaaS
 ---

@@ -91,7 +91,7 @@ summary_line: http · 2 schemes
 tags:
 - Broadband
 - Contact Center
-- Managed Services
+- Managed Service
 - Network Communications
 - SD-WAN
 - Telecom

@@ -117,5 +117,4 @@ tags:
 - IoT
 - Weather
 - Carbon
-- API
 ---

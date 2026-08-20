@@ -39,5 +39,5 @@ tags:
 - Artificial Intelligence
 - Public Sector
 - Governance
-- Managed Services
+- Managed Service
 ---

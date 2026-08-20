@@ -224,5 +224,4 @@ tags:
 - Attack Surface Management
 - Crowdsourced Security
 - Compliance
-- API
 ---

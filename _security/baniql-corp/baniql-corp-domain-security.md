@@ -34,7 +34,7 @@ tags:
 - Battery Materials
 - Nickel
 - Cobalt
-- Lithium-ion
+- Lithium-Ion
 - Sustainability
 - Mining
 ---

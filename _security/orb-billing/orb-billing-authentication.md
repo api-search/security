@@ -98,7 +98,7 @@ tags:
 - Billing
 - Usage-Based Billing
 - Metering
-- Subscriptions
+- Subscription
 - Invoicing
 - FinOps
 ---

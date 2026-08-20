@@ -23,7 +23,7 @@ tags:
 - CSR
 - Funding
 - Case Management
-- SaaS
+- Software-as-a-Service
 - REST
 - OData
 - SOAP

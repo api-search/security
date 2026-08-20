@@ -57,7 +57,7 @@ tags:
 - Fiber
 - Lumen
 - Network
-- OAuth 2.0
+- Authentication
 - Quantum Fiber
 - SD-WAN
 - Telecom

@@ -38,5 +38,5 @@ tags:
 - Code Generation
 - Software Development
 - Automation
-- Model Context Protocol
+- MCP
 ---

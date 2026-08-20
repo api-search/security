@@ -28,7 +28,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tundra/refs/he
 summary_line: DNSSEC
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Wholesale
 - Retail

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Asset Management
 - Investment Management
-- Financial Services
+- Financial-Services
 - Acquired
 - Franklin Templeton
 - Fortune 1000

@@ -80,7 +80,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Payments
 - Billing
-- Subscriptions
+- Subscription
 - Charges
 - Refunds
 - Customer Management

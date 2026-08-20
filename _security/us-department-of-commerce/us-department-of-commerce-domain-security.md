@@ -67,7 +67,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-department-
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Commerce
-- Federal Government
+- Federal-Government
 - Open Data
 - Trade
 - Economic Data

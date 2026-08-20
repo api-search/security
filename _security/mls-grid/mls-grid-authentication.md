@@ -36,7 +36,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://docs.ml
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mls-grid/refs/heads/main/authentication/mls-grid-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - MLS
 - RESO

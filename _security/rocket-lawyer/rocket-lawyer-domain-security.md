@@ -97,12 +97,12 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Legal
 - Legal Technology
-- LegalTech
+- Legal Tech
 - Legal Documents
 - Electronic Signature
-- eSignature
+- E-Signature
 - Document Creation
-- Document Management
+- Document-Management
 - Business Formation
 - LLC Formation
 - Registered Agent

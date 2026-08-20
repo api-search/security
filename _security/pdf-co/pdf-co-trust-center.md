@@ -83,7 +83,7 @@ summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - PDF
 - Document Automation
-- AI
+- Artificial Intelligence
 - OCR
 - Invoice Parsing
 - Document Parsing

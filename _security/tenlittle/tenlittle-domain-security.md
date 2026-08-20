@@ -32,10 +32,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Consumer Goods
 - Children
 - Footwear
-- Direct-to-Consumer
+- Direct to Consumer
 - Shopify
 ---

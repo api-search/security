@@ -36,7 +36,7 @@ tags:
 - Low Power AI Compute
 - Blockchain
 - Bitcoin Mining
-- Data Center
+- Data-Center
 - Silicon
 - Edge Computing
 - Hardware

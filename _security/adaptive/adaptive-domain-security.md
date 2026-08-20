@@ -36,6 +36,6 @@ tags:
 - Construction Finance
 - Accounts Payable
 - AI Agents
-- SaaS
+- Software-as-a-Service
 - Fintech
 ---

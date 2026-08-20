@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Healthcare
-- AI
+- Artificial Intelligence
 - Agents
 - Care Coordination
 - Automation

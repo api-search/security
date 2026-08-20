@@ -33,7 +33,7 @@ tags:
 - GIF
 - Stickers
 - Search
-- Images
+- Image
 - Media
 - Emoji
 - Content

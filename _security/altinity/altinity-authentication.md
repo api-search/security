@@ -59,5 +59,5 @@ tags:
 - Managed Cloud
 - Kubernetes
 - Real-Time Analytics
-- Open Source
+- Open-Source
 ---

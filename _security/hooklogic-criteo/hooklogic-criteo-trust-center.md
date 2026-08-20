@@ -71,9 +71,8 @@ tags:
 - Commerce
 - Retail Media
 - Advertising
-- E-commerce
+- E-Commerce
 - Marketing
 - Retail
-- APIs
 trust_url: https://security.criteo.com/
 ---

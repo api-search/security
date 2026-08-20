@@ -257,11 +257,11 @@ tags:
 - Evaluation
 - Observability
 - Tracing
-- Open Source
+- Open-Source
 - LLMOps
 - RAG
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Monitoring
 trust_url: https://trust.comet.com/
 ---

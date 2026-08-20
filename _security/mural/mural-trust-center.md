@@ -30,6 +30,6 @@ tags:
 - Whiteboard
 - Workshops
 - Enterprise
-- OAuth
+- Authentication
 trust_url: https://www.mural.co/trust-and-security
 ---

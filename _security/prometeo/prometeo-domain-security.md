@@ -78,7 +78,7 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Open Banking
 - Payments
-- FinTech
+- Fintech
 - LatAm
 - Financial Data
 - Account Validation

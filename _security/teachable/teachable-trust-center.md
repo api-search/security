@@ -87,6 +87,6 @@ tags:
 - Enrollments
 - Coaching
 - Memberships
-- Transactions
+- Transaction
 trust_url: https://www.teachable.com/security
 ---

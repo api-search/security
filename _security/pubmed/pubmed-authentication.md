@@ -67,14 +67,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/entrez-e
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pubmed/refs/heads/main/authentication/pubmed-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- biomedical
-- life science
-- research
-- literature
-- citations
+- Biomedical
+- Life Science
+- Research
+- Literature
+- Citations
 - abstracts
-- MeSH
-- genomics
+- Mesh
+- Genomics
 - PubMed
 - NCBI
 ---

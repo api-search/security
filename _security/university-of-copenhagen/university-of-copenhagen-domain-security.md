@@ -48,5 +48,5 @@ tags:
 - Research
 - Denmark
 - Nordic
-- Open Source
+- Open-Source
 ---

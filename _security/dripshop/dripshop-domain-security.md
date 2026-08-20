@@ -42,7 +42,7 @@ tags:
 - Collectibles
 - Trading Cards
 - Marketplace
-- Ecommerce
+- E-Commerce
 - Auctions
 - Live Streaming
 - Payments

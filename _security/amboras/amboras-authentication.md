@@ -60,7 +60,7 @@ summary_line: 5 schemes
 tags:
 - Company
 - E-Commerce
-- AI
+- Artificial Intelligence
 - Generative AI
 - Automation
 - Conversion Rate Optimization

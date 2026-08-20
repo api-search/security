@@ -37,5 +37,5 @@ tags:
 - SportsTech
 - CRM
 - Marketing
-- SaaS
+- Software-as-a-Service
 ---

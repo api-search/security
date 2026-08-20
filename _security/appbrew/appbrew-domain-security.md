@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appbrew/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Shopify
 - Mobile Apps
 - Mobile Commerce
 - App Builder
-- DTC
+- Direct to Consumer
 - React Native
 - Push Notifications
 ---

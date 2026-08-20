@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dotloop-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/authentication/dotloop-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Real Estate
+- Real-Estate
 - Transaction Management
 - Loops
 - Documents

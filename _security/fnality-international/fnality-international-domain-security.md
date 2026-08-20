@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Payments
-- Financial Services
+- Financial-Services
 - Settlement
 - Wholesale Banking
 - Distributed Ledger

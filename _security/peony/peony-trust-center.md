@@ -29,6 +29,6 @@ tags:
 - Document Security
 - E-Signatures
 - Data Room
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.peony.ink/features/security
 ---

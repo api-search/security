@@ -37,7 +37,7 @@ tags:
 - Analytics
 - K-12
 - LTI
-- OAuth
+- Authentication
 - Student Data
 trust_url: https://www.classlink.com/company/security
 ---

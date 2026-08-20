@@ -32,10 +32,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Browser
-- AI
+- Artificial Intelligence
 - Consumer
 - Productivity
-- Agent
+- Agents
 - Automation
 - No-Code
 ---

@@ -26,7 +26,7 @@ tags:
 - Spend Management
 - Global Payments
 - Stablecoins
-- Financial Services
+- Financial-Services
 - Corporate Credit
 trust_url: https://trust.tryjeeves.com/
 ---

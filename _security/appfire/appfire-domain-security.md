@@ -81,16 +81,16 @@ source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appfire/refs/heads/main/security/appfire-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- atlassian
-- jira
-- confluence
-- project-portfolio-management
-- work-management
-- time-tracking
-- okr
-- workflow-automation
-- azure-devops
+- Atlassian
+- Jira
+- Confluence
+- Project Portfolio Management
+- Work Management
+- Time Tracking
+- OKR
+- Workflow-Automation
+- Azure DevOps
 - marketplace-apps
-- document-workflow
-- enterprise-software
+- Document Workflow
+- Enterprise Software
 ---

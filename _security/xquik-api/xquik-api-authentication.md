@@ -52,12 +52,12 @@ source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/xquik-re
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/authentication/xquik-api-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- social media data
+- social-media-data
 - X / Twitter
-- social listening
-- data extraction
-- automation
-- webhooks
+- Social Listening
+- Data Extraction
+- Automation
+- Webhook
 - MCP
-- developer API
+- Developer API
 ---

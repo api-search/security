@@ -75,5 +75,5 @@ tags:
 - Software Procurement
 - Cloud Management
 - License Management
-- SaaS
+- Software-as-a-Service
 ---

@@ -744,9 +744,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/security/merge-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Integrations
+- Integration
 - Platform
-- Unified API
+- Unified-API
 - Agent Handler
 - LLM Gateway
 ---

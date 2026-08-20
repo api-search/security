@@ -36,5 +36,5 @@ tags:
 - Procurement
 - ERP Integration
 - Manufacturing
-- SaaS
+- Software-as-a-Service
 ---

@@ -34,8 +34,8 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Agentic AI
-- Customer Support
-- IT Service Management
+- Customer-Support
+- ITSM
 - Business Process Automation
 - Enterprise Software
 - LLM

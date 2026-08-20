@@ -34,7 +34,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Data Labeling
-- Machine Learning
+- Machine-Learning
 - LLM
 - Data Enrichment
 - Artificial Intelligence

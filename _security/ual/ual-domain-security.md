@@ -72,7 +72,7 @@ tags:
 - Banking
 - Neobank
 - Checkout
-- Ecommerce
+- E-Commerce
 - Argentina
 - Mexico
 ---

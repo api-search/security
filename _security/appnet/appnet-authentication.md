@@ -52,9 +52,9 @@ tags:
 - Social
 - Microblogging
 - Messaging
-- Real Time
+- Real-Time
 - Streaming
 - Developer Platform
-- OAuth
+- Authentication
 - Defunct
 ---

@@ -135,7 +135,7 @@ tags:
 - Content Delivery
 - Developer Tools
 - MCP
-- Webhooks
+- Webhook
 - Localization
 - Digital Asset Management
 ---

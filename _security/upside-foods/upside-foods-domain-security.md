@@ -35,5 +35,5 @@ tags:
 - Cultivated Meat
 - Alternative Protein
 - Biotechnology
-- Foodservice
+- Food Service
 ---

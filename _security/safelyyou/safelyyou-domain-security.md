@@ -35,8 +35,8 @@ tags:
 - Senior Care
 - Fall Detection
 - Ambient AI
-- Computer Vision
-- Health Care
+- Computer-Vision
+- Healthcare
 - Aging
 - Staffing
 - Wellness

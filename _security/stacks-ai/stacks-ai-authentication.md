@@ -79,9 +79,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- AI
-- Agents
 - Artificial Intelligence
+- Agents
 - LLM
 - No-Code
 - Automation

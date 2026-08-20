@@ -69,6 +69,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/he
 summary_line: ISO 27001, SOC 3, CAIQ
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 trust_url: https://security.zubale.com/
 ---

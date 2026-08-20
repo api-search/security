@@ -80,6 +80,6 @@ tags:
 - Agriculture
 - Plant Disease
 - Pest Detection
-- AI
+- Artificial Intelligence
 - Crop Advisory
 ---

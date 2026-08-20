@@ -114,14 +114,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/security/aider-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
-- AI
+- Artificial Intelligence
 - AI Pair Programming
 - Developer Tools
 - CLI
 - Command Line
 - Coding Assistant
 - Code Generation
-- Open Source
+- Open-Source
 - Python
 - Apache 2.0
 - LLM
@@ -129,7 +129,7 @@ tags:
 - BYO LLM
 - Terminal
 - Polyglot
-- Tree Sitter
+- Tree-sitter
 - Repository Map
 - Pair Programming
 ---

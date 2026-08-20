@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://documen
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/authentication/onesignal-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
-- Notifications
+- Notification
 - Push
 - Email
 - SMS

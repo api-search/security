@@ -73,7 +73,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/parasail
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parasail-ai/refs/heads/main/authentication/parasail-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
 - Artificial Intelligence
 - GPU
 - Inference

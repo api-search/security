@@ -27,7 +27,7 @@ tags:
 - Food
 - Food Delivery
 - Corporate Catering
-- Restaurants
+- Restaurant
 - Workplace
 - E-Commerce
 trust_url: https://security.ezcater.com/

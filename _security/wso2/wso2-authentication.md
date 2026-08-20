@@ -578,7 +578,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - API Management
 - Gateways
-- Open Source
+- Open-Source
 - API Lifecycle
 - GraphQL
 - SOAP

@@ -34,7 +34,7 @@ tags:
 - Payments
 - Cross-Border Payments
 - Foreign Exchange
-- Financial Services
+- Financial-Services
 - Stablecoins
 - Fintech
 ---

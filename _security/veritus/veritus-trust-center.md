@@ -49,7 +49,7 @@ tags:
 - Company
 - Fintech
 - Consumer Lending
-- Collections
+- Collection
 - AI Agents
 - Voice AI
 - Communications

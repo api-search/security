@@ -80,7 +80,7 @@ tags:
 - Sales Tax
 - VAT
 - Tax Compliance
-- SaaS
+- Software-as-a-Service
 - Fintech
 - Tax Automation
 - Nexus

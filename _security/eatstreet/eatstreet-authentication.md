@@ -63,11 +63,11 @@ summary_line: 1 scheme
 tags:
 - Company
 - Food Delivery
-- Restaurants
+- Restaurant
 - Online Ordering
 - Marketplace
 - Local Commerce
 - Consumer
-- Point of Sale
-- OAuth
+- Point-of-Sale
+- Authentication
 ---

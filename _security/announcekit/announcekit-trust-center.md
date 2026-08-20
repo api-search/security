@@ -21,10 +21,10 @@ tags:
 - Changelog
 - Feature Requests
 - NPS
-- Notifications
+- Notification
 - Product Communication
-- Roadmap
-- SaaS
+- Roadmaps
+- Software-as-a-Service
 - Widgets
 trust_url: https://announcekit.app/trust
 ---

@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tractable/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Insurance
-- InsurTech
+- Insurtech
 - Claims
 - Auto Insurance
 - Property Insurance
-- Computer Vision
+- Computer-Vision
 - Deep Learning
 - Artificial Intelligence
 - Damage Assessment

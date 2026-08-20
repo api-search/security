@@ -38,7 +38,6 @@ tags:
 - Commercial Real Estate
 - Private Equity
 - Investor Relations
-- API
 - MCP
 - Agentic AI
 ---

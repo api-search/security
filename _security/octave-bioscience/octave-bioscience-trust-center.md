@@ -23,7 +23,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/octave-bioscie
 summary_line: HITRUST, ISO/IEC 27001:2022, ISO/IEC 42001:2023, HIPAA, GDPR
 tags:
 - Company
-- Health Care
+- Healthcare
 - Life Sciences
 - Diagnostics
 - Neurology

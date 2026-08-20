@@ -817,7 +817,7 @@ tags:
 - A/B Testing
 - Analytics
 - Feature Flags
-- Open Source
+- Open-Source
 - Product Analytics
 - Session Recording
 ---

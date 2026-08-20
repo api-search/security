@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/contextu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/authentication/contextual-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - RAG
 - LLM
 - Grounded Language Model

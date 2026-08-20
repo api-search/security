@@ -119,6 +119,6 @@ tags:
 - Video
 - Networking
 - Marketing
-- Events
-- Webhooks
+- Event
+- Webhook
 ---

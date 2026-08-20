@@ -37,5 +37,5 @@ tags:
 - Artificial Intelligence
 - Sourcing
 - HR Tech
-- SaaS
+- Software-as-a-Service
 ---

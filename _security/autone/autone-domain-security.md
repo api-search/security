@@ -37,5 +37,5 @@ tags:
 - Supply Chain
 - Artificial Intelligence
 - Merchandising
-- SaaS
+- Software-as-a-Service
 ---

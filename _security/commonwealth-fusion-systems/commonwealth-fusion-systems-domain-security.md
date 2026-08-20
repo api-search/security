@@ -32,7 +32,7 @@ tags:
 - Fusion Energy
 - Tokamak
 - SPARC
-- ARC
+- Arc
 - HTS Magnets
 - High-Temperature Superconductors
 - REBCO

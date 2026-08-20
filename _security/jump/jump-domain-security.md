@@ -34,7 +34,7 @@ tags:
 - Sports
 - Ticketing
 - Fan Experience
-- Events
+- Event
 - Marketing
 - Loyalty
 - Artificial Intelligence

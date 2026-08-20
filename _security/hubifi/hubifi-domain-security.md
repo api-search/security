@@ -43,7 +43,7 @@ tags:
 - ASC 606
 - Order-to-Cash
 - Reconciliation
-- SaaS
-- FinTech
-- Integrations
+- Software-as-a-Service
+- Fintech
+- Integration
 ---

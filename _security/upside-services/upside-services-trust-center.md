@@ -24,7 +24,7 @@ tags:
 - Retail
 - Fuel
 - Grocery
-- Restaurants
+- Restaurant
 - Loyalty
 - Consumer Incentives
 trust_url: https://trust.upside.com/

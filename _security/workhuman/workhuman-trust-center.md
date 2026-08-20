@@ -27,6 +27,6 @@ tags:
 - Employee Engagement
 - Rewards
 - People Analytics
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.workhuman.com/why-workhuman/security-and-privacy/
 ---

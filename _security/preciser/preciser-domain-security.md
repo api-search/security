@@ -48,7 +48,7 @@ tags:
 - Company
 - Sports
 - Sports Analytics
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Video Analysis
 - Statistics

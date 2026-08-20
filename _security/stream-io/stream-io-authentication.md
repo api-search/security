@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/stream-i
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stream-io/refs/heads/main/authentication/stream-io-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
-- Realtime
+- Real-Time
 - Chat
 - Messaging
 - Video

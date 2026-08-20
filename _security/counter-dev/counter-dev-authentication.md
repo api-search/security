@@ -63,7 +63,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Web Analytics
 - Privacy
-- Open Source
+- Open-Source
 - Tracking
 - Self-Hosted
 ---

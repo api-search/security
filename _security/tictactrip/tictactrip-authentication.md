@@ -75,9 +75,9 @@ tags:
 - Travel
 - Transportation
 - Trains
-- Buses
+- Bus
 - Booking
 - Mobility
-- Multimodal
+- Multi-Modal
 - Ticketing
 ---

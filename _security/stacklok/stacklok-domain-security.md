@@ -113,5 +113,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Open Source
+- Open-Source
 ---

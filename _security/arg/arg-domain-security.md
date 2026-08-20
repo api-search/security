@@ -34,7 +34,7 @@ tags:
 - Snowboarding
 - Skiing
 - Freeride
-- Events
-- Ecommerce
+- Event
+- E-Commerce
 - Lifestyle
 ---

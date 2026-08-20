@@ -52,5 +52,5 @@ tags:
 - Video Games
 - Game Data
 - Developer API
-- Open API
+- OpenAPI
 ---

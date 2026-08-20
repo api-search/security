@@ -90,7 +90,7 @@ tags:
 - Logistics
 - gRPC
 - Protobuf
-- Webhooks
+- Webhook
 - Internet of Things
 - Company
 ---

@@ -50,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/novicap/refs/h
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Working Capital
 - Invoice Finance

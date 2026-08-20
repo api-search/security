@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - HVAC
 - Data Center Cooling
-- Cleanroom
+- Clean Room
 - Manufacturing
 - Building Systems
 - Fortune 1000

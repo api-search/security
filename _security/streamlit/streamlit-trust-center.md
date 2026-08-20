@@ -38,8 +38,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs
 summary_line: SOC 2, ISO 27001
 tags:
 - Data Science
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 - Python
 - Web Applications
 trust_url: https://streamlit.io/security

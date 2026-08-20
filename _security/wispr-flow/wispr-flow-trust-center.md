@@ -27,7 +27,6 @@ tags:
 - Speech-to-Text
 - Transcription
 - Productivity
-- AI
 - Artificial Intelligence
 - Enterprise
 trust_url: https://trust.wispr.ai/

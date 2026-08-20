@@ -48,7 +48,7 @@ tags:
 - Company
 - Payments
 - Cross-Border Payments
-- Digital Wallets
+- Digital Wallet
 - Payment Gateway
 - BNPL
 - Global Payouts

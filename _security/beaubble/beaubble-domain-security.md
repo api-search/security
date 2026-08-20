@@ -32,8 +32,8 @@ tags:
 - Company
 - Beauty
 - Cosmetics
-- Ecommerce
+- E-Commerce
 - Creator Economy
-- Direct-to-Consumer
+- Direct to Consumer
 - Consumer
 ---

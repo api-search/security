@@ -25,6 +25,6 @@ tags:
 - HR Tech
 - Total Rewards
 - Compensation Management
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.complete.so/security
 ---

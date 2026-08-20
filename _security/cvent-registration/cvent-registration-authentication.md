@@ -85,12 +85,12 @@ tags:
 - Attendees
 - Conferences
 - Event Management
-- Events
-- OAuth 2.0
+- Event
+- Authentication
 - On-Site Check-In
 - Payments
 - Registration
 - REST API
 - Ticketing
-- Webhooks
+- Webhook
 ---

@@ -36,7 +36,7 @@ tags:
 - Biotechnology
 - AgTech
 - Photosynthesis
-- Machine Learning
+- Machine-Learning
 - Sustainability
 - Crop Science
 ---

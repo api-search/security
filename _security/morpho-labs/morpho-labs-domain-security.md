@@ -47,8 +47,8 @@ tags:
 - Blockchain
 - Ethereum
 - GraphQL
-- Onchain Data
-- Financial Services
+- On-Chain Data
+- Financial-Services
 - Web3
 - Crypto
 ---

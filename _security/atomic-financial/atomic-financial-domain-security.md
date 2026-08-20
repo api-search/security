@@ -53,6 +53,6 @@ tags:
 - Employment Verification
 - Open Banking
 - Financial
-- Subscriptions
+- Subscription
 - Bill Pay
 ---

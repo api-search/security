@@ -64,14 +64,14 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: https://serbia-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/serbia-company-data/refs/heads/main/authentication/serbia-company-data-authentication.yml
 summary_line: none/x402-payment · 1 scheme
 tags:
-- serbia
-- company-data
-- business-registry
-- open-data
+- Serbia
+- Company Data
+- Business Registry
+- Open Data
 - x402
 - base-usdc
-- openapi
-- financial-statements
+- OpenAPI
+- Financial Statements
 - pay-per-call
 - agent-native
 ---

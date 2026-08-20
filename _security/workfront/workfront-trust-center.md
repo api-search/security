@@ -49,9 +49,9 @@ tags:
 - Collaboration
 - Approvals
 - Resource Management
-- Workflow Automation
+- Workflow-Automation
 - Enterprise Software
 - Adobe
-- Model Context Protocol
+- MCP
 trust_url: https://www.adobe.com/trust.html
 ---

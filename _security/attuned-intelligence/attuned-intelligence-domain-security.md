@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/attuned-intell
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Healthcare
 - Voice AI
 - Call Center Automation

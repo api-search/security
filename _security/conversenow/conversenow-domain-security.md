@@ -32,8 +32,8 @@ tags:
 - Company
 - Voice AI
 - Conversational AI
-- Restaurants
-- Point of Sale
+- Restaurant
+- Point-of-Sale
 - Ordering
 - Drive-Thru
 - Speech Recognition

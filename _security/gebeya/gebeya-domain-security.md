@@ -34,7 +34,7 @@ tags:
 - Marketplace
 - Talent
 - Africa
-- SaaS
+- Software-as-a-Service
 - Marketplace as a Service
 - Artificial Intelligence
 - Ethiopia

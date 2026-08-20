@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Life Sciences
-- Pharmaceutical
+- Pharmaceuticals
 - HCP Engagement
 - Marketing
 - Artificial Intelligence

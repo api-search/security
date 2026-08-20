@@ -231,5 +231,5 @@ tags:
 - India
 - Campus
 - Prepaid Cards
-- Webhooks
+- Webhook
 ---

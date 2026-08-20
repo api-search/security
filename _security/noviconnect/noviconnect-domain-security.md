@@ -35,7 +35,7 @@ tags:
 - CPG
 - Retail
 - Product Data
-- E-commerce
+- E-Commerce
 - Product Discovery
 - AI Shopping Optimization
 ---

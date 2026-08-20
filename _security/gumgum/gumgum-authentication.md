@@ -37,18 +37,18 @@ source_yaml: "generated: '2026-08-01'\nmethod: derived\nsource: openapi/gumgum-c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/authentication/gumgum-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- advertising
-- adtech
-- contextual-advertising
-- brand-safety
-- content-classification
-- computer-vision
-- natural-language-processing
-- video-analysis
-- image-analysis
-- connected-tv
-- header-bidding
-- programmatic-advertising
+- Advertising
+- AdTech
+- Contextual Advertising
+- Brand Safety
+- Content Classification
+- Computer-Vision
+- Natural Language Processing
+- Video Analysis
+- Image Analysis
+- Connected TV
+- Header Bidding
+- Programmatic Advertising
 - iab-taxonomy
-- content-moderation
+- Content Moderation
 ---

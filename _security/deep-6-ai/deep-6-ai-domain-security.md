@@ -30,7 +30,7 @@ tags:
 - Clinical Trials
 - Healthcare
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - Electronic Health Records
 - Precision Medicine

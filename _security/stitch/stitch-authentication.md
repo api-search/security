@@ -57,7 +57,7 @@ tags:
 - Financial Data
 - Open Banking
 - Payments
-- Unified API
+- Unified-API
 - South Africa
 - Nigeria
 ---

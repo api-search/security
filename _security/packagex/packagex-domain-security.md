@@ -41,7 +41,7 @@ tags:
 - Logistics
 - Shipping
 - Supply Chain
-- Computer Vision
+- Computer-Vision
 - OCR
 - Package Tracking
 - Fulfillment

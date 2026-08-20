@@ -36,6 +36,6 @@ tags:
 - Cosmetics
 - Skincare
 - E-Commerce
-- Direct-to-Consumer
+- Direct to Consumer
 - Retail
 ---

@@ -55,14 +55,14 @@ source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/security/leia-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- 3d
-- spatial-computing
-- computer-vision
+- 3D
+- Spatial Computing
+- Computer-Vision
 - depth-estimation
-- image-processing
-- video-processing
-- generative-ai
-- displays
+- Image Processing
+- Video Processing
+- Generative AI
+- Displays
 - media-transformation
-- immersive-experiences
+- Immersive Experiences
 ---

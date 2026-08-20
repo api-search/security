@@ -54,7 +54,7 @@ tags:
 - Fintech
 - Mortgage
 - Lending
-- Real Estate
+- Real-Estate
 - Home Finance
 - HELOC
 - OpenID Connect

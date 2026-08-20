@@ -37,7 +37,7 @@ tags:
 - Neobroker
 - Brokerage
 - Stocks
-- ETF
+- ETFs
 - Europe
 - Wealth Management
 ---

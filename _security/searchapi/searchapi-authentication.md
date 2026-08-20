@@ -60,13 +60,13 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://www.sea
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/authentication/searchapi-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- search
-- serp-api
-- google-search
-- web-scraping
-- search-data
-- market-intelligence
-- seo
-- mcp
+- Search
+- SERP API
+- Google Search
+- Web Scraping
+- Search data
+- Market Intelligence
+- SEO
+- MCP
 - agent-native
 ---

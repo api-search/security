@@ -27,6 +27,6 @@ tags:
 - Financial Crime
 - Risk
 - Customer Intelligence
-- AI
+- Artificial Intelligence
 trust_url: https://trust.quantexa.com/
 ---

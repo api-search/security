@@ -50,12 +50,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/circle-pharma/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- oncology
-- drug-discovery
-- macrocycles
-- clinical-trials
-- life-sciences
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Drug Discovery
+- Macrocycles
+- Clinical Trials
+- Life Sciences
 - content-api
 ---

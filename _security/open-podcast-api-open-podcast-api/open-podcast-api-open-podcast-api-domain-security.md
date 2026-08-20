@@ -33,6 +33,6 @@ tags:
 - Episodes
 - Open Standards
 - Podcasts
-- Subscriptions
+- Subscription
 - Sync
 ---

@@ -39,7 +39,7 @@ tags:
 - Diagnostics
 - Life Sciences
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Multiomics
 - Clinical Screening
 ---

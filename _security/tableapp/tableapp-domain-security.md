@@ -34,7 +34,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tableapp/refs/
 summary_line: TLSv1.3
 tags:
 - Company
-- Restaurants
+- Restaurant
 - Reservations
 - Restaurant Booking
 - Hospitality

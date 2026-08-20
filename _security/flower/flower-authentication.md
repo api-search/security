@@ -41,11 +41,11 @@ tags:
 - Company
 - Federated Learning
 - Federated AI
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Privacy
 - SDK
 - On-Device AI
 - Confidential Computing
-- Open Source
+- Open-Source
 ---

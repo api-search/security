@@ -105,5 +105,5 @@ tags:
 - Bank Transfers
 - Fintech
 - Identity Verification
-- Webhooks
+- Webhook
 ---

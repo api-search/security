@@ -52,11 +52,11 @@ summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Company
 - Website Builder
-- eCommerce
+- E-Commerce
 - CMS
 - Bookings
 - Payments
 - Headless
-- SaaS
-- No Code
+- Software-as-a-Service
+- No-Code
 ---

@@ -34,7 +34,7 @@ tags:
 - Consumer
 - Food and Beverage
 - Cloud Kitchens
-- Restaurants
+- Restaurant
 - Food Delivery
 - Hospitality
 - Middle East

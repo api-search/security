@@ -20,12 +20,10 @@ summary_line: SOC 2, GDPR
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - AI Agents
 - Agentic Infrastructure
-- Integrations
+- Integration
 - Developer Tools
 - Serverless
-- API
 trust_url: https://metorial.com/security
 ---

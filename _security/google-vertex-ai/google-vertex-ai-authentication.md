@@ -66,6 +66,6 @@ tags:
 - Artificial Intelligence
 - Generative AI
 - Google Cloud
-- Machine Learning
+- Machine-Learning
 - ML Models
 ---

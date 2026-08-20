@@ -32,10 +32,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pi-labs/refs/h
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Evaluation
 - LLM
 - Scoring
-- Machine Learning
+- Machine-Learning
 - Developer Tools
 ---

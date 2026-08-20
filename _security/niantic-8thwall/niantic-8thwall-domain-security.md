@@ -31,7 +31,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Augmented Reality
 - WebAR
-- Web AR
 - XR
 - Extended Reality
 - 3D
@@ -42,7 +41,7 @@ tags:
 - Sky Segmentation
 - Niantic
 - Niantic Spatial
-- Open Source
+- Open-Source
 - JavaScript SDK
 - TypeScript
 - A-Frame

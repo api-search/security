@@ -27,12 +27,12 @@ summary_line: SOC 2 Type II, ISO 27001, ISO 27701, ISO 27017, ISO 27018, ISO 223
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Pricing
 - Rating
 - Underwriting
 - Banking
-- Financial Services
+- Financial-Services
 - Decisioning
 - Artificial Intelligence
 trust_url: https://earnix.com/why-earnix/how-we-do-it/trust-center/

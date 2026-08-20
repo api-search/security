@@ -17,7 +17,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vantara/refs/h
 summary_line: trust center published
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Session Replay
 - Product Analytics
 - Developer Tools

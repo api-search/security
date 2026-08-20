@@ -105,7 +105,7 @@ tags:
 - Quantum Computing
 - Quantum Cloud
 - Developer Tools
-- SDKs
+- SDK
 - Superconducting Qubits
 - Scientific Computing
 - Deep Tech

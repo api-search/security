@@ -33,7 +33,7 @@ tags:
 - Pets
 - Dog Food
 - Pet Nutrition
-- Direct-to-Consumer
+- Direct to Consumer
 - E-Commerce
 - Subscription
 - Consumer Brand

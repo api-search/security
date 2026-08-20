@@ -44,7 +44,7 @@ tags:
 - SQL
 - Cloud
 - Data Engineering
-- AI
+- Artificial Intelligence
 - Apache Iceberg
 - Database
 ---

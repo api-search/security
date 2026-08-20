@@ -47,7 +47,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Audio Processing
 - Google Cloud
-- Machine Learning
+- Machine-Learning
 - Speech Recognition
 - Transcription
 ---

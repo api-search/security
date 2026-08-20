@@ -33,7 +33,7 @@ tags:
 - Company
 - Help Desk
 - Ticketing
-- Customer Support
+- Customer-Support
 - Slack
 - Microsoft Teams
 - Conversational

@@ -140,7 +140,7 @@ tags:
 - Data Science
 - Interactive Computing
 - Jupyter
-- Machine Learning
+- Machine-Learning
 - Notebooks
 - Python
 ---

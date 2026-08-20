@@ -36,7 +36,7 @@ tags:
 - Practice Management
 - Health IT
 - Cloud Software
-- SaaS
+- Software-as-a-Service
 - Patient Engagement
 - Medical Billing
 - Imaging

@@ -74,6 +74,6 @@ tags:
 - Geospatial
 - Open Data
 - Metadata
-- Collections
+- Collection
 - Granules
 ---

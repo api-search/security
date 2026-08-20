@@ -24,10 +24,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlas-openai/refs/heads/main/security/atlas-openai-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, FedRAMP, GDPR, CSA STAR
 tags:
-- AI
+- Artificial Intelligence
 - Browser
 - Consumer
-- Agent
+- Agents
 - Chromium
 - ChatGPT
 - OpenAI

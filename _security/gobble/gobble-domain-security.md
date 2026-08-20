@@ -35,5 +35,5 @@ tags:
 - Subscription
 - Direct to Consumer
 - Consumer
-- Ecommerce
+- E-Commerce
 ---

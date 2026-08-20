@@ -32,7 +32,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Data
-- Data Pipelines
+- Data Pipeline
 - Data Lakehouse
 - Streaming
 - ETL

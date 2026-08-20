@@ -33,7 +33,7 @@ tags:
 - Consumer
 - Fashion
 - Apparel
-- Ecommerce
+- E-Commerce
 - Sustainability
 - Direct to Consumer
 - Retail

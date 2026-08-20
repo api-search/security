@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/usda-ars
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/authentication/usda-agricultural-research-service-ars--authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Federal Government
+- Federal-Government
 - Agriculture
 - Food Safety
 - Nutrition

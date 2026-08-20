@@ -39,9 +39,9 @@ tags:
 - Company
 - UI Components
 - React
-- Model Context Protocol
+- MCP
 - Developer Tools
-- AI
+- Artificial Intelligence
 - Agents
 - Design Systems
 - Frontend

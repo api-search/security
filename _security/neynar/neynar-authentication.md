@@ -276,7 +276,7 @@ tags:
 - Channels
 - Feeds
 - Reactions
-- Notifications
-- Webhooks
+- Notification
+- Webhook
 - Onchain
 ---

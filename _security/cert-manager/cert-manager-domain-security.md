@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cert-manager/r
 summary_line: TLSv1.3 · HSTS
 tags:
 - Certificates
-- Cloud Native
+- Cloud-Native
 - Graduated
 - Kubernetes
 - Security

@@ -77,11 +77,11 @@ summary_line: apiKey/http/oauth2 · 2 schemes
 tags:
 - Company
 - Sales
-- AI
+- Artificial Intelligence
 - Conversation Intelligence
 - Video Conferencing
 - CRM
 - Transcription
-- Webhooks
+- Webhook
 - MCP
 ---

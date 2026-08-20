@@ -337,7 +337,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/assistan
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/authentication/openai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
 - Artificial Intelligence
 - Large Language Models
 - T1

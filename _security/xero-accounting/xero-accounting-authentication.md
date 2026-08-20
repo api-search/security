@@ -74,5 +74,5 @@ tags:
 - Invoicing
 - Bookkeeping
 - Financial Reporting
-- SaaS
+- Software-as-a-Service
 ---

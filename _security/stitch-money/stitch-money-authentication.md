@@ -38,7 +38,7 @@ summary_line: http · 1 scheme
 tags:
 - Payments
 - Open Banking
-- Pay By Bank
+- Pay by Bank
 - GraphQL
 - Africa
 - South Africa

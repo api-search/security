@@ -21,10 +21,10 @@ tags:
 - Company
 - Legal Tech
 - Legal AI
-- Knowledge Management
+- Knowledge-Management
 - Enterprise Search
 - AI Agents
 - Document Intelligence
-- Model Context Protocol
+- MCP
 trust_url: https://www.deepjudge.ai/security
 ---

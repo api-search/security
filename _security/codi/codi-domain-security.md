@@ -37,7 +37,7 @@ tags:
 - Facilities Management
 - Workplace
 - Commercial Real Estate
-- Coworking
+- Co-Working
 - San Francisco
 - New York City
 ---

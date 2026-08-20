@@ -50,7 +50,7 @@ tags:
 - SAP
 - Cloud Platform
 - Integration
-- AI
+- Artificial Intelligence
 - Data Management
 - Analytics
 - Application Development

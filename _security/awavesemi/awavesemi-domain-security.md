@@ -30,9 +30,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/awavesemi/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Hardware
-- Data Center
+- Data-Center
 - Silicon
 - Qualcomm
 - Acquired

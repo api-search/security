@@ -31,13 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/theguarantors/
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Insurance
-- Real Estate
-- Rental
+- Real-Estate
+- Rentals
 - PropTech
 - Lease Guarantee
 - Renters Insurance
-- API
 ---

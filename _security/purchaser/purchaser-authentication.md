@@ -35,7 +35,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/purchaser/refs
 summary_line: 2 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Procurement
 - Sourcing
 - RFQ

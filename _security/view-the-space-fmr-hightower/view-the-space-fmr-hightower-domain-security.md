@@ -32,9 +32,9 @@ tags:
 - Company
 - Vertical Software
 - Commercial Real Estate
-- Real Estate
+- Real-Estate
 - PropTech
 - Leasing
 - Asset Management
-- SaaS
+- Software-as-a-Service
 ---

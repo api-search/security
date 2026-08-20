@@ -49,10 +49,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/security/recraft-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
-- AI
-- Image Generation
+- Artificial Intelligence
+- Image-Generation
 - Design
-- Vector
-- Style
+- Vectors
+- Styles
 trust_url: https://trust.recraft.com/
 ---

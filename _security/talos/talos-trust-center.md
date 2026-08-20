@@ -27,6 +27,6 @@ tags:
 - WebSocket
 - Fintech
 - Crypto Infrastructure
-- Portfolio Management
+- Portfolio-Management
 trust_url: https://trust.talos.com/
 ---

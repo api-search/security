@@ -71,7 +71,7 @@ tags:
 - Email
 - SMS
 - Messaging
-- eCommerce
+- E-Commerce
 - Consent
 trust_url: https://trust.bluecore.com/
 ---

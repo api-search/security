@@ -48,7 +48,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/authentication/gov-uk-notify-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Notifications
+- Notification
 - Email
 - SMS
 - Text Messages

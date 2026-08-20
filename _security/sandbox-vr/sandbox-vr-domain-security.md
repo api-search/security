@@ -34,6 +34,6 @@ tags:
 - Entertainment
 - Gaming
 - Location-Based Entertainment
-- Experiences
+- Experience
 - Consumer
 ---

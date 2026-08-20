@@ -98,7 +98,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/
 summary_line: apiKey/http · 2 schemes
 tags:
 - Vector Databases
-- AI
+- Artificial Intelligence
 - Embeddings
 - RAG
 ---

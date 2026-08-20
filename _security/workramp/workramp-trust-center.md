@@ -40,10 +40,10 @@ tags:
 - Assessments
 - Certifications
 - Coaching
-- Go-to-Market
+- Go-To-Market
 - SCIM
 - SCORM
-- Webhooks
+- Webhook
 - Customer Education
 trust_url: https://trust.confirm.com/
 ---

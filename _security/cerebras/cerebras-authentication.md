@@ -53,7 +53,7 @@ tags:
 - Wafer Scale
 - Hardware
 - Cloud
-- OpenAI Compatible
+- OpenAI-Compatible
 - LLM
 - SDK
 - Accelerator

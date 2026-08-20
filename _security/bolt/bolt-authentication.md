@@ -79,7 +79,7 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Checkout
 - Payments
-- eCommerce
+- E-Commerce
 - One-Click Checkout
 - Shopper Network
 - Fraud Protection

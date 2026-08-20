@@ -22,7 +22,7 @@ tags:
 - Company
 - Cloud Networking
 - Cloud Security
-- Multicloud
+- Multi-Cloud
 - Network Security
 - Zero Trust
 - Firewall

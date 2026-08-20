@@ -46,7 +46,7 @@ tags:
 - Product Protection
 - Extended Warranty
 - Shipping Protection
-- Ecommerce
+- E-Commerce
 - Warranty
 - Claims
 - Contracts

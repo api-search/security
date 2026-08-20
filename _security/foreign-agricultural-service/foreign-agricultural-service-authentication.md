@@ -50,5 +50,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/foreign-agricu
 summary_line: apiKey · 1 scheme
 tags:
 - Agriculture
-- Federal Government
+- Federal-Government
 ---

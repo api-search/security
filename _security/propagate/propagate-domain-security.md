@@ -27,7 +27,7 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - E-Commerce
-- Direct-to-Consumer
+- Direct to Consumer
 - Shopify
 - Accelerator
 - Investment

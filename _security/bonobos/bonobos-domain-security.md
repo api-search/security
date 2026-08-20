@@ -33,9 +33,9 @@ tags:
 - Company
 - Consumer
 - Retail
-- E-commerce
+- E-Commerce
 - Apparel
 - Menswear
 - Fashion
-- Direct-to-Consumer
+- Direct to Consumer
 ---

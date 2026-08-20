@@ -34,12 +34,12 @@ tags:
 - Company
 - Procurement
 - SRM
-- E-Procurement
+- eProcurement
 - Supplier Management
 - Digital Procurement
 - Enterprise Software
-- SaaS
+- Software-as-a-Service
 - B2B
 - China
-- AI
+- Artificial Intelligence
 ---

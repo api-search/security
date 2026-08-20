@@ -31,7 +31,7 @@ tags:
 - Mobile
 - SDK
 - Credit Cards
-- Computer Vision
+- Computer-Vision
 - Card Scanning
 - Defunct
 ---

@@ -37,5 +37,5 @@ tags:
 - Vulnerability Management
 - DevSecOps
 - Compliance
-- Open Source
+- Open-Source
 ---

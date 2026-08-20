@@ -43,9 +43,9 @@ tags:
 - Business Applications
 - Reviews
 - Ratings
-- Ecommerce
+- E-Commerce
 - Loyalty
 - Customer Marketing
 - Shopify
-- Webhooks
+- Webhook
 ---

@@ -33,7 +33,7 @@ tags:
 - Company
 - Fintech
 - Financing
-- Ecommerce
+- E-Commerce
 - Working Capital
 - Revenue-Based Financing
 - Embedded Finance

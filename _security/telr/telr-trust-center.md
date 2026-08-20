@@ -48,7 +48,7 @@ summary_line: PCI DSS v4.0 Level 1, NESA, Central Bank of the UAE Retail Payment
 tags:
 - Payments
 - Payment Gateway
-- FinTech
+- Fintech
 - MENA
 - UAE
 trust_url: https://telr.com/secure

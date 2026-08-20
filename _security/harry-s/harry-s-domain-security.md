@@ -54,6 +54,6 @@ tags:
 - E-Commerce
 - Personal Care
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Shopify
 ---

@@ -32,7 +32,7 @@ tags:
 - Company
 - Cloud
 - Mobile
-- eCommerce
+- E-Commerce
 - Shopify
 - Mobile Commerce
 - Push Notifications

@@ -35,8 +35,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dragoneye/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Image Recognition
 - Video Recognition
-- Machine Learning
+- Machine-Learning
 ---

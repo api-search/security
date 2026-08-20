@@ -34,7 +34,7 @@ tags:
 - Payment Security
 - Fraud Prevention
 - Authentication
-- 3-D Secure
+- 3D Secure
 - Cardholder Authentication
 - Risk-Based Authentication
 - Payments

@@ -48,10 +48,10 @@ tags:
 - Consumer
 - Personal Care
 - Skincare
-- Haircare
+- Hair Care
 - Suncare
 - Direct to Consumer
-- Ecommerce
+- E-Commerce
 - Shopify
 - Agentic Commerce
 ---

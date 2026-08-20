@@ -33,5 +33,5 @@ tags:
 - Retail
 - Beauty
 - Personal Care
-- Ecommerce
+- E-Commerce
 ---

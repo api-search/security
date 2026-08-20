@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Payments
-- Financial Services
+- Financial-Services
 - Fintech
 - KYC
 - Compliance

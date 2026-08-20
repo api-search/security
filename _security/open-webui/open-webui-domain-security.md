@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-webui/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - LLM
-- Open Source
+- Open-Source
 - Self-Hosted
 - Ollama
 - Chat UI

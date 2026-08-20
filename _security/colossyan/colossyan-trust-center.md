@@ -50,10 +50,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/security/colossyan-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
-- AI
+- Artificial Intelligence
 - Video Generation
 - Avatars
-- Text to Video
+- Text-to-Video
 - Learning and Development
 trust_url: https://security.colossyan.com/
 ---

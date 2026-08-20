@@ -79,7 +79,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Agriculture
 - Linux Foundation
-- Open Source
+- Open-Source
 - Geospatial
 - Precision Agriculture
 - Linked Data

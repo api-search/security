@@ -33,8 +33,8 @@ tags:
 - Enterprise
 - Collaboration
 - Digital Workplace
-- Knowledge Management
+- Knowledge-Management
 - Intranet
 - Enterprise Social
-- Communication
+- Communications
 ---

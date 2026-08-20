@@ -162,7 +162,7 @@ tags:
 - Fintech
 - Market Data
 - Stocks
-- ETF
+- ETFs
 - Fundamentals
 - Options
 - Forex

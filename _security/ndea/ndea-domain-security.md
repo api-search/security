@@ -31,7 +31,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AGI
-- Machine Learning
+- Machine-Learning
 - Program Synthesis
 - Deep Learning
 - Reasoning

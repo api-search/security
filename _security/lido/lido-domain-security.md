@@ -47,7 +47,7 @@ tags:
 - Governance
 - LDO
 - Oracle
-- Open Source
+- Open-Source
 - Web3
 - Smart Contracts
 - Distributed Validator Technology

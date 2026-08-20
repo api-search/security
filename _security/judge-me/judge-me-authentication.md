@@ -63,7 +63,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/
 summary_line: apiKey · 2 schemes
 tags:
 - Reviews
-- E-commerce
+- E-Commerce
 - Shopify
 - Ratings
 - Social Proof

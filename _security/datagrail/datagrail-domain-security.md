@@ -51,6 +51,6 @@ tags:
 - AI Risk
 - Data Mapping
 - Data Discovery
-- SaaS
+- Software-as-a-Service
 - Enterprise
 ---

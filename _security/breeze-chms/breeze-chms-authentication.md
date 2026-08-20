@@ -93,9 +93,9 @@ summary_line: apiKey · 1 scheme
 tags:
 - Church Management
 - ChMS
-- Nonprofit
+- Non-Profit
 - Giving
 - Membership
-- Events
+- Event
 - Faith
 ---

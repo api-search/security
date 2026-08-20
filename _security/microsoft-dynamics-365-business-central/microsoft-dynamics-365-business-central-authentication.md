@@ -81,7 +81,6 @@ tags:
 - Finance
 - Accounting
 - Supply Chain
-- Operations
 - Small Business
 - Mid-Market
 - Microsoft Dynamics 365

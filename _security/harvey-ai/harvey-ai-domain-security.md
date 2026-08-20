@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harvey-ai/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- LegalTech
+- Legal Tech
 - Law Firms
 - Legal Research
 - Contract Analysis

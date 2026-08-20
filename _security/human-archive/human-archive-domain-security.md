@@ -33,9 +33,9 @@ tags:
 - Company
 - Data
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Datasets
 - Robotics
-- Multimodal
+- Multi-Modal
 - Data Labeling
 ---

@@ -223,12 +223,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/chatwoot
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/authentication/chatwoot-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Customer Support
+- Customer-Support
 - Messaging
 - Live Chat
-- Omni-channel
+- Omnichannel
 - Conversations
 - Contacts
 - Agents
-- Open Source
+- Open-Source
 ---

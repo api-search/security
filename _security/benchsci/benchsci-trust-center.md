@@ -27,7 +27,7 @@ summary_line: SOC 2, GDPR
 tags:
 - Biopharma
 - Drug Discovery
-- AI
+- Artificial Intelligence
 - Reagents
 - Antibodies
 - Scientific Research

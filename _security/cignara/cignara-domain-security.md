@@ -33,7 +33,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Conversational AI
-- Customer Support
+- Customer-Support
 - Voice Agents
 - Chat Agents
 - Contact Center

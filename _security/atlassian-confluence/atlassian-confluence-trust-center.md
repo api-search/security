@@ -52,7 +52,7 @@ tags:
 - Collaboration
 - Content Management
 - Documentation
-- Knowledge Management
+- Knowledge-Management
 - Wiki
 trust_url: https://www.atlassian.com/trust
 ---

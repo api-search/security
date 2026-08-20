@@ -46,7 +46,7 @@ source_yaml: "name: Impact Security and Privacy Center\ndescription: impact.com'
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/security/impact-trust-center.yml
 summary_line: SOC 1 Type II, ISO/IEC 27001:2022, PCI DSS Level 4
 tags:
-- Affiliate
+- Affiliates
 - Partnerships
 - Performance Marketing
 - Commission

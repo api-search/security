@@ -143,14 +143,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/attom-ar
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/authentication/attomdata-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Real Estate
+- Real-Estate
 - Property Data
 - Property Intelligence
 - Mortgage
 - Assessment
 - AVM
 - Foreclosure
-- Transactions
+- Transaction
 - Owner Data
 - Building Permits
 - Geospatial

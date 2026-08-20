@@ -82,10 +82,10 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Security Automation
 - No-Code
-- Workflow Automation
+- Workflow-Automation
 - Security Operations
 - SOAR
 - Incident Response
 - REST API
-- Webhooks
+- Webhook
 ---

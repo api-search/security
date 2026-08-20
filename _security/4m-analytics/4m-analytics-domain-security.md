@@ -44,6 +44,6 @@ tags:
 - Infrastructure
 - Subsurface
 - Location Intelligence
-- AI
+- Artificial Intelligence
 - Construction Technology
 ---

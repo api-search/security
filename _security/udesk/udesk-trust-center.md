@@ -28,8 +28,8 @@ tags:
 - Ticketing
 - Chatbots
 - CRM
-- Knowledge Management
-- SaaS
+- Knowledge-Management
+- Software-as-a-Service
 - China
 trust_url: https://www.udesk.cn/product_safety_features.html
 ---

@@ -98,8 +98,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gelato/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Print on Demand
-- Ecommerce
+- E-Commerce
 - Fulfillment
 - Distributed Production
-- Orders
+- Order
 ---

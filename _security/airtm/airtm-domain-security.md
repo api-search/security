@@ -218,19 +218,19 @@ source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/security/airtm-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- payments
-- payouts
-- cross-border-payments
-- fintech
-- digital-wallet
-- stablecoin
-- usdc
-- stellar
-- mass-payouts
-- remittances
-- latin-america
-- emerging-markets
+- Payments
+- Payouts
+- Cross-Border Payments
+- Fintech
+- Digital Wallet
+- Stablecoins
+- USDC
+- Stellar
+- Mass Payouts
+- Remittances
+- Latin America
+- Emerging Markets
 - money-services-business
-- oauth2
-- openid-connect
+- Authentication
+- OpenID Connect
 ---

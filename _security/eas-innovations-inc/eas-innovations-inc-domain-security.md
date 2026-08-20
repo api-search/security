@@ -32,7 +32,7 @@ tags:
 - Automotive
 - Dealer Management
 - DMS
-- SaaS
+- Software-as-a-Service
 - CRM
 - Accounting
 - Inventory Management

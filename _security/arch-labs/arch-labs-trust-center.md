@@ -115,7 +115,7 @@ tags:
 - Private Markets
 - Wealth Management
 - Investment Management
-- Financial Services
+- Financial-Services
 - Data Aggregation
 trust_url: https://trust.arch.co/
 ---

@@ -88,11 +88,11 @@ tags:
 - Blockchain
 - Cryptocurrency
 - DeFi
-- Wallet
+- Wallets
 - NFT
 - Ethereum
 - Solana
 - Portfolio
-- Onchain Data
-- Transactions
+- On-Chain Data
+- Transaction
 ---

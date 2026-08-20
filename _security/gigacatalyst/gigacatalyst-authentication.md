@@ -46,7 +46,7 @@ summary_line: none/session · 2 schemes
 tags:
 - Company
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Sales Enablement
 - Solutions Engineering
 - Customer Success

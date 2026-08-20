@@ -37,7 +37,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Social Commerce
-- eCommerce
+- E-Commerce
 - Comment Selling
 - Retail
 - Facebook

@@ -39,7 +39,7 @@ tags:
 - Restaurant
 - Customer Data Platform
 - Guest Analytics
-- Integrations
+- Integration
 - Marketing
 - Loyalty
 ---

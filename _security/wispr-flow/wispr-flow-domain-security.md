@@ -40,7 +40,6 @@ tags:
 - Speech-to-Text
 - Transcription
 - Productivity
-- AI
 - Artificial Intelligence
 - Enterprise
 ---

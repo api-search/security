@@ -71,11 +71,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/agno-agi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agno-agi/refs/heads/main/authentication/agno-agi-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Multi-Agent
 - LLM
 - Framework
-- Open Source
+- Open-Source
 - Runtime
 ---

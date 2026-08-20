@@ -50,16 +50,16 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - lab-operations
 - laboratory-monitoring
-- iot
-- sensors
-- life-sciences
-- cold-chain
-- environmental-monitoring
+- IoT
+- Sensors
+- Life Sciences
+- Cold Chain
+- Environmental Monitoring
 - equipment-utilization
-- asset-management
-- alerting
-- compliance
-- gxp
-- manufacturing
-- time-series
+- Asset Management
+- Alerting
+- Compliance
+- GxP
+- Manufacturing
+- Time Series
 ---

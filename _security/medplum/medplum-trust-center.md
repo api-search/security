@@ -29,7 +29,7 @@ summary_line: SOC 2, HIPAA, GDPR, CSA STAR
 tags:
 - Healthcare
 - FHIR
-- Open Source
+- Open-Source
 - Developer Platform
 - HIPAA
 - SMART on FHIR

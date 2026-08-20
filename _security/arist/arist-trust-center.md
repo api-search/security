@@ -32,6 +32,6 @@ tags:
 - Messaging
 - Artificial Intelligence
 - Employee Communications
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.arist.co/
 ---

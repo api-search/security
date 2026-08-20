@@ -103,11 +103,11 @@ summary_line: http · 1 scheme
 tags:
 - Cloud
 - Containers
-- Devops
+- DevOps
 - Enterprise
 - Linux
 - Security
 - Ubuntu
 - Package Management
-- Open Source
+- Open-Source
 ---

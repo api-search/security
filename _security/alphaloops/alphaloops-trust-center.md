@@ -53,14 +53,14 @@ tags:
 - safer web api
 - dot lookup
 - carrier data
-- freight
-- trucking
+- Freight
+- Trucking
 - motor carrier
 - fleet intelligence
-- sales intelligence
-- mcp server
-- contact enrichment
-- risk
-- fraud
+- Sales Intelligence
+- MCP Server
+- Contact Enrichment
+- Risk
+- Fraud
 trust_url: https://trust.runalphaloops.com/
 ---

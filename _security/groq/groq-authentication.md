@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/groq-ope
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/authentication/groq-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - LPU

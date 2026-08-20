@@ -24,6 +24,6 @@ tags:
 - Non-Human Identity
 - Identity and Access Management
 - AI Agents
-- Model Context Protocol
+- MCP
 trust_url: https://trust.token.security/
 ---

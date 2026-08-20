@@ -28,7 +28,7 @@ tags:
 - Presto
 - Hive
 - Airflow
-- Machine Learning
+- Machine-Learning
 - Cloud
 - Data Engineering
 trust_url: https://www.qubole.com/products/trust

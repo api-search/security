@@ -120,10 +120,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/plandex-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plandex/refs/heads/main/authentication/plandex-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - AI Coding Agent
 - Developer Tools
-- Open Source
+- Open-Source
 - CLI
 - Terminal
 - LLM

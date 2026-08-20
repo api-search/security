@@ -46,7 +46,7 @@ tags:
 - Military
 - Bundeswehr
 - Ukraine
-- Vector
+- Vectors
 - Trinity Pro
 - Reliant
 - Sparta

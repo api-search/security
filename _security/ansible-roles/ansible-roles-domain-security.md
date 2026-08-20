@@ -89,9 +89,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Ansible
 - Automation
-- Collections
+- Collection
 - Configuration Management
 - DevOps
-- Infrastructure As Code
+- Infrastructure as Code
 - Roles
 ---

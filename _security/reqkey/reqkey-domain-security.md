@@ -35,14 +35,14 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reqkey/refs/heads/main/security/reqkey-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- api-keys
-- authentication
-- authorization
-- rate-limiting
-- usage-metering
-- api-analytics
-- api-management
-- developer-tools
-- middleware
-- observability
+- APIKeys
+- Authentication
+- Authorization
+- Rate Limiting
+- Usage Metering
+- API Analytics
+- API Management
+- Developer Tools
+- Middleware
+- Observability
 ---

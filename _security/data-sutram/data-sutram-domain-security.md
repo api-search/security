@@ -33,11 +33,11 @@ tags:
 - Company
 - Fraud Detection
 - Identity Verification
-- Financial Services
+- Financial-Services
 - Data Intelligence
 - Address Verification
 - Credit Risk
-- Collections
+- Collection
 - Artificial Intelligence
 - India
 ---

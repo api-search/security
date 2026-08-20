@@ -66,6 +66,78 @@ api_specs:
   slug: ory-wellknown-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-wellknown-api-openapi.yml
+- filename: ory-network-billing-api-openapi.yml
+  format: yaml
+  label: Ory Billing API
+  slug: ory-network-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-billing-api-openapi.yml
+- filename: ory-network-courier-api-openapi.yml
+  format: yaml
+  label: Ory Courier API
+  slug: ory-network-courier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-courier-api-openapi.yml
+- filename: ory-network-event-streams-api-openapi.yml
+  format: yaml
+  label: Ory Event Streams API
+  slug: ory-network-event-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-event-streams-api-openapi.yml
+- filename: ory-network-identity-admin-api-openapi.yml
+  format: yaml
+  label: Ory Identity (Admin) API
+  slug: ory-network-identity-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-identity-admin-api-openapi.yml
+- filename: ory-network-identity-self-service-api-openapi.yml
+  format: yaml
+  label: Ory Identity (Self-Service) API
+  slug: ory-network-identity-self-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-identity-self-service-api-openapi.yml
+- filename: ory-network-oauth2-admin-api-openapi.yml
+  format: yaml
+  label: Ory OAuth2 (Admin) API
+  slug: ory-network-oauth2-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-oauth2-admin-api-openapi.yml
+- filename: ory-network-oauth2-public-api-openapi.yml
+  format: yaml
+  label: Ory OAuth2 (Public) API
+  slug: ory-network-oauth2-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-oauth2-public-api-openapi.yml
+- filename: ory-network-organizations-api-openapi.yml
+  format: yaml
+  label: Ory Organizations API
+  slug: ory-network-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-organizations-api-openapi.yml
+- filename: ory-network-permissions-api-openapi.yml
+  format: yaml
+  label: Ory Permissions API
+  slug: ory-network-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-permissions-api-openapi.yml
+- filename: ory-network-project-tokens-api-openapi.yml
+  format: yaml
+  label: Ory Project Tokens API
+  slug: ory-network-project-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-project-tokens-api-openapi.yml
+- filename: ory-network-projects-api-openapi.yml
+  format: yaml
+  label: Ory Projects API
+  slug: ory-network-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-projects-api-openapi.yml
+- filename: ory-network-relationships-api-openapi.yml
+  format: yaml
+  label: Ory Relationships API
+  slug: ory-network-relationships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-relationships-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -82,7 +154,7 @@ domains:
   spf: true
 hosts:
 - cert_expires: Sep 23 04:28:42 2026 GMT
-  host: www.ory.sh
+  host: www.ory.com
   hsts: true
   hsts_max_age: 63072000
   https: true
@@ -99,14 +171,13 @@ slug: ory-domain-security
 source_filename: ory-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ory.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 04:28:42 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: ory.sh\n  dnssec: false\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ory.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 04:28:42 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: ory.sh\n  dnssec: false\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/security/ory-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Authentication
 - Authorization
 - Identity
-- OAuth2
 - OpenID Connect
-- Open Source
+- Open-Source
 ---

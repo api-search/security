@@ -37,6 +37,6 @@ tags:
 - Defense
 - Industrial
 - Training
-- Workflow Automation
+- Workflow-Automation
 - Predictive Maintenance
 ---

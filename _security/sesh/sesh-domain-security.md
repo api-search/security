@@ -33,7 +33,7 @@ tags:
 - Company
 - Consumer Packaged Goods
 - Nicotine Pouches
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Retail
 - Subscription

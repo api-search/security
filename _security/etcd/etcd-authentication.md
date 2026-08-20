@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/etcd-htt
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/authentication/etcd-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Cloud Native
+- Cloud-Native
 - Consensus
 - Distributed Systems
 - Graduated

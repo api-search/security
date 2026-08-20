@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/us-senat
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/authentication/us-senate-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Federal Government
+- Federal-Government
 - Lobbying
 - Government Transparency
 - Campaign Finance

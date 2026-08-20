@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gas-pos/refs/h
 summary_line: TLSv1.3
 tags:
 - Company
-- Point of Sale
+- Point-of-Sale
 - Payments
 - Fuel
 - Convenience Store

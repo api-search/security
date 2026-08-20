@@ -163,7 +163,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://login.p
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/authentication/propertyme-authentication.yml
 summary_line: openIdConnect/oauth2/http · 2 schemes
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Property Management
 - Rentals

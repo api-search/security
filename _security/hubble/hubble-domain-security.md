@@ -32,9 +32,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Workspace
-- Real Estate
+- Real-Estate
 - Marketplace
-- Coworking
+- Co-Working
 - Flexible Office
 - PropTech
 ---

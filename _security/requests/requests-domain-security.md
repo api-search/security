@@ -38,7 +38,7 @@ tags:
 - Clients
 - HTTP Client
 - HTTP Library
-- Open Source
+- Open-Source
 - Python
 - Python Software Foundation
 ---

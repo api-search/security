@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Logistics
-- Real Estate
+- Real-Estate
 - Mobility
 - Parking
 - Ghost Kitchens

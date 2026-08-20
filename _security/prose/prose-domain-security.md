@@ -33,10 +33,10 @@ tags:
 - Company
 - Consumer
 - Beauty
-- Haircare
+- Hair Care
 - Skincare
 - Personalization
-- Direct-to-Consumer
+- Direct to Consumer
 - Subscription
-- Ecommerce
+- E-Commerce
 ---

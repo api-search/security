@@ -241,7 +241,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nobueno/refs/h
 summary_line: apiKey · 4 schemes
 tags:
 - Company
-- Jobs
+- Job
 - Recruiting
 - Hiring
 - Talent

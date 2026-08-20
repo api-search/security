@@ -43,10 +43,10 @@ tags:
 - Company
 - Robotics
 - Industrial Automation
-- Robotics-as-a-Service
+- Robotics as a Service
 - Manufacturing
 - No-Code
-- Computer Vision
+- Computer-Vision
 - Physical AI
 - Automation
 ---

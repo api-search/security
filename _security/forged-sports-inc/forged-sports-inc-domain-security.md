@@ -36,5 +36,5 @@ tags:
 - Business Intelligence
 - Booking
 - Analytics
-- SaaS
+- Software-as-a-Service
 ---

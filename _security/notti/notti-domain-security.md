@@ -34,7 +34,7 @@ tags:
 - Pet Food
 - Pet Nutrition
 - Consumer Packaged Goods
-- Direct-to-Consumer
+- Direct to Consumer
 - E-Commerce
 - Pets
 - Malaysia

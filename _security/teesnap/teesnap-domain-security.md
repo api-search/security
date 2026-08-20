@@ -31,8 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teesnap/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Golf
-- Point of Sale
-- POS
+- Point-of-Sale
 - Tee Times
 - Golf Course Management
 - Booking

@@ -27,7 +27,7 @@ tags:
 - Risk Management
 - Anti-Money Laundering
 - RiskOps
-- Machine Learning
+- Machine-Learning
 - Payments
 - Transaction Monitoring
 - KYC

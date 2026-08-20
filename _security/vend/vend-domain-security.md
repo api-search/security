@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Retail
-- Point of Sale
+- Point-of-Sale
 - Commerce
 - Inventory
 - Acquired

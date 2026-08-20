@@ -29,9 +29,9 @@ tags:
 - Company
 - Algorithmic Trading
 - Quantitative Finance
-- FinTech
+- Fintech
 - Backtesting
-- Open Source
+- Open-Source
 - Python
 - Investing
 ---

@@ -40,14 +40,14 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: https://www.req
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reqkey/refs/heads/main/authentication/reqkey-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- api-keys
-- authentication
-- authorization
-- rate-limiting
-- usage-metering
-- api-analytics
-- api-management
-- developer-tools
-- middleware
-- observability
+- APIKeys
+- Authentication
+- Authorization
+- Rate Limiting
+- Usage Metering
+- API Analytics
+- API Management
+- Developer Tools
+- Middleware
+- Observability
 ---

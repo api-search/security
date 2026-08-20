@@ -180,7 +180,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chas
 summary_line: 0 schemes
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - Payments
 - Treasury
 - Fortune 100

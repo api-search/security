@@ -35,7 +35,7 @@ tags:
 - Meal Delivery
 - Food Delivery
 - E-Commerce
-- Restaurants
+- Restaurant
 - Consumer
 - Retail
 - United Kingdom

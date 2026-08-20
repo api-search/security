@@ -53,14 +53,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payoneer/refs/heads/main/security/payoneer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- payments
-- payouts
-- cross-border payments
-- currency conversion
-- marketplace payments
-- fintech
-- financial services
-- mass payouts
-- checkout
+- Payments
+- Payouts
+- Cross-Border Payments
+- Currency Conversion
+- Marketplace Payments
+- Fintech
+- Financial-Services
+- Mass Payouts
+- Checkout
 - REST
 ---

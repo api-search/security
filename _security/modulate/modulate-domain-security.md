@@ -110,15 +110,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Voice AI
-- Speech to Text
+- Speech-to-Text
 - Transcription
 - Deepfake Detection
 - Content Moderation
 - Trust and Safety
 - Audio
-- Machine Learning
+- Machine-Learning
 - PII Redaction
 - Voice Intelligence
 ---

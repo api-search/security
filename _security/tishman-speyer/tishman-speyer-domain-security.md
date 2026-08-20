@@ -31,14 +31,14 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Asset Management
 - Commercial Real Estate
-- Coworking
+- Co-Working
 - Investment Management
 - Life Sciences Real Estate
 - Mixed-Use Development
 - Office
 - Property Management
-- Proptech
-- Real Estate
+- PropTech
+- Real-Estate
 - Real Estate Development
 - Residential
 - Tenant Experience

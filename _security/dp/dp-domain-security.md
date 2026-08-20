@@ -138,6 +138,6 @@ tags:
 - Drug Discovery
 - Materials Science
 - Research Cloud
-- Machine Learning
+- Machine-Learning
 - HPC
 ---

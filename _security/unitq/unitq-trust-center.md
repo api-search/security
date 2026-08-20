@@ -22,7 +22,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unitq/refs/hea
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Customer Feedback
 - Product Quality
 - Feedback Analytics

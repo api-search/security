@@ -41,7 +41,7 @@ tags:
 - Smart Home
 - IoT
 - Birding
-- Computer Vision
+- Computer-Vision
 - Mobile App
 - GraphQL
 ---

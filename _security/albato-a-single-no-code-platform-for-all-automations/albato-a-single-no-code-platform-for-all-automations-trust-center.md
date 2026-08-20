@@ -51,10 +51,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/albato-a-singl
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - No-Code Automation
-- Workflow Automation
+- Workflow-Automation
 - App Integration
 - Embedded iPaaS
-- Integrations
-- Webhooks
+- Integration
+- Webhook
 trust_url: https://albato.com/security
 ---

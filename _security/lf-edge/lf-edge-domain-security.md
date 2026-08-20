@@ -33,5 +33,5 @@ tags:
 - Edge Computing
 - IoT
 - Linux Foundation
-- Open Source
+- Open-Source
 ---

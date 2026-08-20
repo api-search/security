@@ -45,7 +45,7 @@ tags:
 - Law Firm
 - Legal
 - Professional Services
-- Blogs
+- Blog
 - RSS
 - LexBlog
 - Publications

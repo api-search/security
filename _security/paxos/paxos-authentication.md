@@ -309,6 +309,6 @@ tags:
 - Trading
 - Custody
 - Blockchain
-- Financial Services
+- Financial-Services
 - Digital Assets
 ---

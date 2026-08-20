@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/diamond/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Infrastructure SaaS
+- Infrastructure Saas
 - Database
 - Serverless
 - Data Backend

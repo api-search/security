@@ -44,10 +44,10 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Image Generation
+- Image-Generation
 - Generative AI
 - Creative Tools
 - Brand
-- Machine Learning
+- Machine-Learning
 - Media
 ---

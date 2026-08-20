@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Travel
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Ticketing
 - Skiing

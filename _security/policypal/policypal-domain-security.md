@@ -29,8 +29,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/policypal/refs
 summary_line: TLSv1.3
 tags:
 - Company
-- InsurTech
-- FinTech
+- Insurtech
+- Fintech
 - Insurance
 - Insurance Broker
 - Personal Finance

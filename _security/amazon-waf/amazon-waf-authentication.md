@@ -50,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-waf/ref
 summary_line: apiKey · 1 scheme
 tags:
 - Bot Management
-- Ddos Protection
+- DDoS Protection
 - Security
 - WAF
 - Web Application Firewall

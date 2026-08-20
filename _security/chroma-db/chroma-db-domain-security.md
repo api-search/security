@@ -87,8 +87,8 @@ tags:
 - Similarity Search
 - RAG
 - Semantic Search
-- AI
+- Artificial Intelligence
 - AI Inference
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 ---

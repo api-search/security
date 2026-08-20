@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Developer Tools
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Artificial Intelligence
 - Data

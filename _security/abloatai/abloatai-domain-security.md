@@ -92,14 +92,14 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abloatai/refs/heads/main/security/abloatai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- agent-infrastructure
+- Agent Infrastructure
 - multi-agent-coordination
 - concurrency-control
-- state-management
-- database
-- postgres
+- State Management
+- Database
+- Postgres
 - real-time-sync
-- mcp
-- developer-tools
+- MCP
+- Developer Tools
 - backend-infrastructure
 ---

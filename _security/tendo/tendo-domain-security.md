@@ -37,5 +37,5 @@ tags:
 - Care Coordination
 - Clinical Documentation
 - Healthcare Analytics
-- SaaS
+- Software-as-a-Service
 ---

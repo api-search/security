@@ -106,9 +106,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airslate/refs/
 summary_line: http · 2 schemes
 tags:
 - Document Automation
-- eSignature
-- Workflow
+- E-Signature
+- Workflows
 - PDF
 - No-Code
-- AI
+- Artificial Intelligence
 ---

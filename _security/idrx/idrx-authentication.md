@@ -43,7 +43,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/idrx-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/authentication/idrx-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Stablecoin
+- Stablecoins
 - Cryptocurrency
 - Payments
 - Blockchain

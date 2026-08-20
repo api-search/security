@@ -34,8 +34,8 @@ tags:
 - Country Clubs
 - Golf
 - Hospitality
-- SaaS
+- Software-as-a-Service
 - Membership Management
-- Point of Sale
+- Point-of-Sale
 - CRM
 ---

@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leadstate-inco
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Property Technology
 - Artificial Intelligence
 - Generative Video

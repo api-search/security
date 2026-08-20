@@ -47,9 +47,9 @@ tags:
 - Hashed Email
 - Mobile Ad ID
 - Firmographics
-- Webhooks
+- Webhook
 - Pixel
-- Adtech
+- AdTech
 - Identity Graph
 - MCP
 ---

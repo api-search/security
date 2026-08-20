@@ -50,7 +50,7 @@ tags:
 - Suicide Prevention
 - Trust and Safety
 - Content Moderation
-- Nonprofit
+- Non-Profit
 - Health
 - Helplines
 ---

@@ -35,7 +35,7 @@ tags:
 - Human Resources
 - HR Tech
 - Payroll
-- SaaS
+- Software-as-a-Service
 - Total Rewards
 - Compensation Management
 ---

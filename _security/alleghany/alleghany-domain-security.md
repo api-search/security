@@ -32,11 +32,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
 - Reinsurance
-- Property And Casualty
+- Property and Casualty
 - Specialty Insurance
-- Excess And Surplus
+- Excess and Surplus
 - Surety
-- Financial Services
+- Financial-Services
 - Holding Company
 - Berkshire Hathaway Subsidiary
 - Toys And Collectibles

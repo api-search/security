@@ -52,9 +52,9 @@ tags:
 - Smart Home
 - IoT
 - Video
-- Cameras
+- Camera
 - Doorbells
-- Webhooks
+- Webhook
 - WebRTC
 - Amazon
 - Developer Platform

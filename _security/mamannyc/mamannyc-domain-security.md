@@ -37,7 +37,7 @@ tags:
 - Food and Beverage
 - Restaurant
 - Catering
-- Ecommerce
+- E-Commerce
 - Retail
 - Consumer
 ---

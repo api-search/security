@@ -72,6 +72,6 @@ tags:
 - Mobile
 - Artificial Intelligence
 - Cloud Storage
-- Machine Learning
+- Machine-Learning
 trust_url: https://trust.mi.com/
 ---

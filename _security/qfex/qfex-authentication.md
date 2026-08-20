@@ -104,8 +104,8 @@ tags:
 - FX
 - Commodities
 - Equities
-- Financial Services
+- Financial-Services
 - CLI
 - Fintech
-- Real-time
+- Real-Time
 ---

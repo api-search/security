@@ -563,7 +563,7 @@ summary_line: http/oauth2 · 3 schemes
 tags:
 - Company
 - Banking
-- Financial Services
+- Financial-Services
 - Lending
 - Mortgage
 - Loan Origination
@@ -572,6 +572,6 @@ tags:
 - Salesforce
 - eVault
 - eNote
-- Webhooks
+- Webhook
 - MCP
 ---

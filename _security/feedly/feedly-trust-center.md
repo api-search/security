@@ -27,21 +27,21 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/security/feedly-trust-center.yml
 summary_line: SOC 2 Type 1, SOC 2 Type 2
 tags:
-- threat-intelligence
-- cybersecurity
+- Threat Intelligence
+- Cybersecurity
 - cyber-threat-intelligence
-- content-aggregation
-- rss
-- news
-- vulnerability-management
-- indicators-of-compromise
-- malware
+- Content Aggregation
+- RSS
+- News
+- Vulnerability Management
+- Indicators of Compromise
+- Malware
 - threat-actors
 - mitre-attack
-- security-automation
-- artificial-intelligence
-- mcp
+- Security Automation
+- Artificial Intelligence
+- MCP
 - agent-native
-- webhooks
+- Webhook
 trust_url: https://trust.feedly.com/
 ---

@@ -44,5 +44,5 @@ tags:
 - Matter Management
 - Reporting
 - Artificial Intelligence
-- LegalTech
+- Legal Tech
 ---

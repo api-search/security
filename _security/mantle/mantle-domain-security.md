@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mantle/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Cap Table
 - Equity Management
-- Portfolio Management
+- Portfolio-Management
 - Alternative Assets
 - Fintech
-- SaaS
+- Software-as-a-Service
 - 409A Valuation
 ---

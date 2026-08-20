@@ -36,7 +36,7 @@ tags:
 - Attribution
 - Connected TV
 - Ad Operations
-- Measurement
+- Measurements
 - Agencies
 trust_url: https://trust.digitalremedy.com/
 ---

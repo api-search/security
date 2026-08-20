@@ -37,7 +37,7 @@ tags:
 - Privacy
 - Blockchain
 - Smart Contracts
-- Machine Learning
-- Open Source
-- SDKs
+- Machine-Learning
+- Open-Source
+- SDK
 ---

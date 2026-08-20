@@ -54,5 +54,5 @@ tags:
 - Reporting
 - Dashboards
 - MCP
-- AI
+- Artificial Intelligence
 ---

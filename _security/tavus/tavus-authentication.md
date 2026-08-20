@@ -109,7 +109,7 @@ tags:
 - Avatars
 - Replicas
 - Personalization
-- Real Time
+- Real-Time
 - CVI
-- Webhooks
+- Webhook
 ---

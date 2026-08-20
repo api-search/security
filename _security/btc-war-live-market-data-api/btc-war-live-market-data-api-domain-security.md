@@ -35,22 +35,22 @@ source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/btc-war-live-market-data-api/refs/heads/main/security/btc-war-live-market-data-api-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- finance
-- cryptocurrency
-- market-data
-- bitcoin
+- Finance
+- Cryptocurrency
+- Market Data
+- Bitcoin
 - crypto-price
 - binance-spot
-- order-flow
+- Orderflow
 - market-depth
-- json-ld
-- schema.org
-- openapi
-- mcp
-- read-only
-- no-authentication
+- JSON-LD
+- Schema.org
+- OpenAPI
+- MCP
+- Read Only
+- No Authentication
 - agent-native
-- arazzo
-- json-schema
-- agent-skill
+- Arazzo
+- JSON-Schema
+- AgentSkill
 ---

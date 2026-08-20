@@ -102,13 +102,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/security/nanonets-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- AI
 - Artificial Intelligence
 - OCR
 - Document AI
 - Intelligent Document Processing
 - Data Extraction
-- Workflow Automation
-- Computer Vision
+- Workflow-Automation
+- Computer-Vision
 - No-Code
 ---

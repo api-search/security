@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/intralin
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/authentication/intralinks-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Document Management
+- Document-Management
 - Secure File Sharing
 - Virtual Data Room
 ---

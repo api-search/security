@@ -29,5 +29,5 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/office-of-congressional-workplace-rights/refs/heads/main/security/office-of-congressional-workplace-rights-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Federal Government
+- Federal-Government
 ---

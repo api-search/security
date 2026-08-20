@@ -39,5 +39,5 @@ tags:
 - 3D Visualization
 - Estimating
 - PropTech
-- SaaS
+- Software-as-a-Service
 ---

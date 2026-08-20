@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dorsata/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Health
 - Electronic Health Records
 - EHR
@@ -45,5 +45,5 @@ tags:
 - Women's Health
 - Prenatal
 - Clinical Data
-- SaaS
+- Software-as-a-Service
 ---

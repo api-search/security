@@ -36,7 +36,7 @@ tags:
 - Wellness
 - Supplements
 - Nutrition
-- Ecommerce
+- E-Commerce
 - Subscription
-- Direct-to-Consumer
+- Direct to Consumer
 ---

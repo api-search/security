@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/furiosa/refs/h
 summary_line: 0 schemes
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Inference
 - Semiconductors
 - NPU

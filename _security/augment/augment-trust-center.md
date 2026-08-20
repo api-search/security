@@ -60,7 +60,7 @@ tags:
 - Freight
 - Supply Chain
 - Transportation
-- Webhooks
+- Webhook
 - Artificial Intelligence
 - Automation
 trust_url: https://trust.goaugment.com/

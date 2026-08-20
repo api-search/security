@@ -44,12 +44,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/baseten-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/baseten/refs/heads/main/authentication/baseten-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - ML
 - Inference
 - Deployment
 - MLOps
-- OpenAI Compatible
+- OpenAI-Compatible
 - Anthropic Compatible
 - Truss
 ---

@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intella/refs/h
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Voice AI
 - Conversational AI
 - Speech Recognition
-- Speech to Text
+- Speech-to-Text
 - Arabic
 - Customer Experience
 - Natural Language Processing

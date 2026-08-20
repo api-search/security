@@ -24,7 +24,7 @@ tags:
 - Data Analytics
 - Data Streaming
 - Real-Time Data
-- Data Pipelines
+- Data Pipeline
 - Change Data Capture
 - Developer Tools
 - Data Integration

@@ -100,7 +100,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/obsidian/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Productivity
-- Knowledge Management
+- Knowledge-Management
 - Markdown
 - Notes
 - Local-First

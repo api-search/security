@@ -17,7 +17,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/novo/refs/heads/main/security/novo-trust-center.yml
 summary_line: SOC 2
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Neobank

@@ -61,15 +61,15 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/security/tidio-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
-- live chat
-- chatbot
-- customer service
-- AI
-- help desk
-- ticketing
-- conversations
-- contacts
-- webhooks
-- widget
+- Live Chat
+- Chatbots
+- Customer Service
+- Artificial Intelligence
+- Help Desk
+- Ticketing
+- Conversations
+- Contacts
+- Webhook
+- Widget
 trust_url: https://trust.tidio.com/
 ---

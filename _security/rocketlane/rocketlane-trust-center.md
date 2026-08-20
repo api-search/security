@@ -107,6 +107,6 @@ tags:
 - Resource Management
 - Time Tracking
 - PSA
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.rocketlane.com/trust
 ---

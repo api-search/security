@@ -69,7 +69,6 @@ tags:
 - Authentication
 - Authorization
 - Identity Management
-- OAuth
 - OpenID Connect
 - Security
 - SSO

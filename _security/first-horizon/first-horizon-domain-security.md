@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - United States
 - Banking
-- Financial Services
+- Financial-Services
 - Treasury Management
 - API Banking
 - ACH

@@ -25,10 +25,10 @@ tags:
 - Notes
 - Documents
 - Note Taking
-- Tasks
+- Task
 - Collaboration
 - Writing
-- AI
+- Artificial Intelligence
 - MCP
 - Extensions
 trust_url: https://www.craft.do/security

@@ -33,11 +33,11 @@ tags:
 - Company
 - Consumer
 - Retail
-- Ecommerce
+- E-Commerce
 - Fashion
 - Apparel
 - Activewear
 - Athleisure
-- Direct-to-Consumer
+- Direct to Consumer
 - Shopify
 ---

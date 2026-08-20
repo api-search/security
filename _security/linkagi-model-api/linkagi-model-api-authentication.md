@@ -75,15 +75,15 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: openapi/linkagi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/authentication/linkagi-model-api-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- AI
+- Artificial Intelligence
 - LLM
-- AI API gateway
-- relay
-- OpenAI-compatible
-- Anthropic-compatible
+- AI API Gateway
+- Relay
+- OpenAI-Compatible
+- Anthropic Compatible
 - Gemini-compatible
-- developer tools
+- Developer Tools
 - CLI coding agents
-- model routing
+- Model Routing
 - China
 ---

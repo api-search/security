@@ -51,16 +51,16 @@ source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: https://api.acris
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acrisure/refs/heads/main/authentication/acrisure-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- insurance
-- insurance-brokerage
-- fintech
-- employee-benefits
+- Insurance
+- Insurance Brokerage
+- Fintech
+- Employee Benefits
 - payroll-hr
-- reinsurance
-- risk-management
-- cybersecurity
-- mortgage
-- surety-bonds
-- mcp
-- oauth2
+- Reinsurance
+- Risk Management
+- Cybersecurity
+- Mortgage
+- Surety Bonds
+- MCP
+- Authentication
 ---

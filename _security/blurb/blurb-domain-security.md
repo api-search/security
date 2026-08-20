@@ -46,9 +46,8 @@ tags:
 - Printing
 - Print on Demand
 - Books
-- Self Publishing
+- Self-Publishing
 - Photo Books
 - Fulfillment
-- E-commerce
-- API
+- E-Commerce
 ---

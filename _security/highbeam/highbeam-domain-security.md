@@ -34,8 +34,8 @@ tags:
 - Banking
 - Fintech
 - Business Banking
-- Financial Services
-- E-commerce
+- Financial-Services
+- E-Commerce
 - Working Capital
 - Consumer Brands
 ---

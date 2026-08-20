@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Fintech
-- Point of Sale
+- Point-of-Sale
 - Payments
 - Small Business
 - Philippines

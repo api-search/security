@@ -38,5 +38,5 @@ tags:
 - Contract Research Organization
 - CRO
 - Drug Development
-- Pharmaceutical
+- Pharmaceuticals
 ---

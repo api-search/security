@@ -79,6 +79,6 @@ summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Deep Learning
-- Machine Learning
+- Machine-Learning
 - MLOps
 ---

@@ -135,7 +135,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-word
 summary_line: SOC 1 Type 2, SOC 2 Type 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, FedRAMP, FIPS 140-2, HIPAA
 tags:
 - Documents
-- Microsoft 365
+- Microsoft-365
 - Office
 - Productivity
 - Word Processing

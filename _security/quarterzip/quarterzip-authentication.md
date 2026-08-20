@@ -38,12 +38,12 @@ summary_line: workspace-token/hmac-signature · 2 schemes
 tags:
 - Company
 - AI Agents
-- Customer Support
+- Customer-Support
 - Onboarding
 - User Activation
 - Screen Sharing
 - Voice
-- Webhooks
+- Webhook
 - SDK
 - Developer Tools
 ---

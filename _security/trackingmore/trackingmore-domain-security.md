@@ -58,6 +58,6 @@ tags:
 - Shipping
 - Tracking
 - Parcels
-- Webhooks
-- Ecommerce
+- Webhook
+- E-Commerce
 ---

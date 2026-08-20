@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jaipur-robotic
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Computer Vision
+- Computer-Vision
 - Robotics
 - Waste-to-Energy
 - Artificial Intelligence

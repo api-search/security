@@ -136,5 +136,5 @@ tags:
 - Data Version Control
 - Data Lake
 - Git-like
-- Open Source
+- Open-Source
 ---

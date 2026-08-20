@@ -32,7 +32,7 @@ tags:
 - Company
 - Infra Devtools
 - Cryptocurrency
-- Wallet
+- Wallets
 - DeFi
 - Payments
 - Web3

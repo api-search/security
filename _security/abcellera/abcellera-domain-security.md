@@ -35,7 +35,7 @@ tags:
 - Pharmaceuticals
 - Monoclonal Antibodies
 - Bispecifics
-- Antibody Drug Conjugates
+- Antibody-Drug Conjugates
 - GPCR
 - Ion Channels
 - Single Cell

@@ -38,7 +38,7 @@ tags:
 - Continuous Integration
 - Caching
 - Command Line Interface
-- Model Context Protocol
+- MCP
 - JavaScript
 - TypeScript
 - DevOps

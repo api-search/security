@@ -88,9 +88,9 @@ tags:
 - Contact Center
 - Banking
 - Credit Unions
-- Financial Services
+- Financial-Services
 - Conversational AI
 - Voice
-- CoBrowsing
+- Co-Browsing
 - Serverless
 ---

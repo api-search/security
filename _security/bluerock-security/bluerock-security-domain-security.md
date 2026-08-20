@@ -35,7 +35,6 @@ tags:
 - AI Agents
 - Agent Security
 - MCP
-- Model Context Protocol
 - Observability
 - Runtime Security
 - AI Governance

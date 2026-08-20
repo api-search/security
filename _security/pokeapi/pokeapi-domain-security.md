@@ -103,7 +103,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Pokémon
-- Open Source
+- Open-Source
 - Open Data
 - REST
 - GraphQL

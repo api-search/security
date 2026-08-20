@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: >-\n  Live prob
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/offerpad/refs/heads/main/authentication/offerpad-authentication.yml
 summary_line: http/oauth2/openIdConnect · 3 schemes
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - iBuyer
 - PropTech

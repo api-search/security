@@ -99,11 +99,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Developer-First
-- Workflow Automation
+- Workflow-Automation
 - Background Jobs
 - Durable Execution
 - TypeScript
 - AI Agents
-- Realtime
-- Open Source
+- Real-Time
+- Open-Source
 ---

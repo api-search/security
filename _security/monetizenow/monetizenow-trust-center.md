@@ -32,14 +32,14 @@ tags:
 - Company
 - Monetization
 - Billing
-- Subscriptions
+- Subscription
 - Usage-Based Pricing
 - Quote-to-Cash
 - CPQ
 - Payments
 - Invoicing
 - Revenue
-- SaaS
-- FinTech
+- Software-as-a-Service
+- Fintech
 trust_url: https://www.monetizenow.ai/information-security-policy
 ---

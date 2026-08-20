@@ -42,9 +42,9 @@ summary_line: SOC 2 Type II, SOC 3, CASA Tier 2, GDPR
 tags:
 - Company
 - Developer Tools
-- AI
+- Artificial Intelligence
 - Developer Experience
-- Knowledge Management
+- Knowledge-Management
 - Code Review
 - MCP
 - AI Agents

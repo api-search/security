@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/croissant/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Coworking
+- Co-Working
 - Workspace Management
 - Distributed Teams
-- Real Estate
+- Real-Estate
 - Spend Management
 - Booking
-- SaaS
+- Software-as-a-Service
 ---

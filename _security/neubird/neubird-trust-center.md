@@ -25,7 +25,7 @@ tags:
 - DevOps
 - AIOps
 - Root Cause Analysis
-- Model Context Protocol
+- MCP
 - Agentic AI
 trust_url: https://trust.neubird.ai/
 ---

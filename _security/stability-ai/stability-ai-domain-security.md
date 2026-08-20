@@ -156,12 +156,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stability-ai/r
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - 3D Generation
-- AI
+- Artificial Intelligence
 - Generative AI
-- Image Generation
+- Image-Generation
 - Image Editing
-- Machine Learning
+- Machine-Learning
 - Stable Diffusion
-- Text to Image
+- Text-to-Image
 - Video Generation
 ---

@@ -29,7 +29,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-capitol-visitor-center/refs/heads/main/security/us-capitol-visitor-center-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
-- Federal Government
+- Federal-Government
 - Legislative Branch
 - Tourism
 - Education

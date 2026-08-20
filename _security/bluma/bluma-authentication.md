@@ -119,18 +119,18 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluma/refs/hea
 summary_line: 3 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Video
 - Video Generation
 - Advertising
 - Marketing
 - Content Creation
 - Short-Form Video
-- Social Media
+- Social-Media
 - Generative AI
 - Creative Tools
-- Text To Speech
+- Text-to-Speech
 - Media
 - Automation
-- Webhooks
+- Webhook
 ---

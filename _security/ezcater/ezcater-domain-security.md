@@ -36,7 +36,7 @@ tags:
 - Food
 - Food Delivery
 - Corporate Catering
-- Restaurants
+- Restaurant
 - Workplace
 - E-Commerce
 ---

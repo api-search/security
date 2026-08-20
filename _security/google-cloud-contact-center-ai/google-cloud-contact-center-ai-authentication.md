@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-contact-center-ai/refs/heads/main/authentication/google-cloud-contact-center-ai-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Contact Center
 - Conversations
 - Customer Service

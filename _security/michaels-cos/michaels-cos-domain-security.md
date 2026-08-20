@@ -33,5 +33,5 @@ tags:
 - Retail
 - Arts and Crafts
 - Specialty Retail
-- E-commerce
+- E-Commerce
 ---

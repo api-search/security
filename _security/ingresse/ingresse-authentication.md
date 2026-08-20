@@ -31,11 +31,11 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Ticketing
-- Events
+- Event
 - Ticketing as a Service
 - Payments
 - Entertainment
 - Event Management
 - Brazil
-- SDKs
+- SDK
 ---

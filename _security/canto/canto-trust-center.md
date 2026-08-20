@@ -138,7 +138,7 @@ tags:
 - Digital Asset Management
 - DAM
 - Brand Assets
-- Images
+- Image
 - Videos
 - Documents
 - Media Library

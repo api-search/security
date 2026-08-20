@@ -80,7 +80,7 @@ tags:
 - Prospecting
 - Lead Generation
 - Email Finder
-- ABM
+- Account Based Marketing
 - CRM Enrichment
 - Marketing
 - Sales

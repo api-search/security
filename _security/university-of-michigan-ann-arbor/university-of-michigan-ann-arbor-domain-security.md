@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: university-of-michigan-ann-arbor-deep-blue-documents-oai-pmh-openapi.yml
+  format: yaml
+  label: Deep Blue Documents OAI-PMH
+  slug: deep-blue-documents-oai
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/openapi/university-of-michigan-ann-arbor-deep-blue-documents-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,12 +48,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/security/university-of-michigan-ann-arbor-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Library
-- Open Data
-- Institutional Repository
+- Higher Education
+- Education
+- Public Research University
 - United States
+- Michigan
+- Big Ten
+- Association of American Universities
+- Research Data
+- Institutional Repository
+- Identity Federation
+- OAI-PMH
+- Library
+- Research Computing
 ---

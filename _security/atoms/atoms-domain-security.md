@@ -35,6 +35,6 @@ tags:
 - Footwear
 - Retail
 - E-Commerce
-- Direct-to-Consumer
+- Direct to Consumer
 - Apparel
 ---

@@ -40,7 +40,6 @@ tags:
 - Artificial Intelligence
 - Agents
 - Messaging
-- Model Context Protocol
 - MCP
 - Productivity
 - Automation

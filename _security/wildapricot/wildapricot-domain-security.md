@@ -228,7 +228,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Membership Management
 - Associations
-- Nonprofit
-- Events
+- Non-Profit
+- Event
 - Payments
 ---

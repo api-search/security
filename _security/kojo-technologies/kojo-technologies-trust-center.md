@@ -26,6 +26,6 @@ tags:
 - Inventory
 - Accounts Payable
 - Field Service
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.usekojo.com/security
 ---

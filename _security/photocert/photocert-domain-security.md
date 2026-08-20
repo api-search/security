@@ -37,5 +37,5 @@ tags:
 - Insurtech
 - Deepfake Detection
 - Media Authentication
-- Computer Vision
+- Computer-Vision
 ---

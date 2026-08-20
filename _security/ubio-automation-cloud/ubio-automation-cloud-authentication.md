@@ -52,6 +52,6 @@ tags:
 - RPA
 - Travel
 - Booking
-- Jobs
+- Job
 - Company
 ---

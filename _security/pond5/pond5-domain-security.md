@@ -36,5 +36,5 @@ tags:
 - Video
 - Music
 - Marketplace
-- Images
+- Image
 ---

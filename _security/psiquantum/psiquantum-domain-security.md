@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Quantum Computing
 - Photonic Quantum Computing
-- Fault Tolerant Quantum Computing
+- Fault-Tolerant Quantum Computing
 - FTQC
 - Single Photon Qubits
 - Silicon Photonics
@@ -44,6 +44,6 @@ tags:
 - Circuit Designer
 - Bartiq
 - QREF
-- Semiconductor
+- Semiconductors
 - Hardware
 ---

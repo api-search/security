@@ -74,7 +74,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare
 - HIPAA
-- Machine Learning
+- Machine-Learning
 - Medical Imaging
 - DICOM
 ---

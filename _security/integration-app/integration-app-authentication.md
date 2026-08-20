@@ -131,7 +131,6 @@ tags:
 - Embedded iPaaS
 - Integration Marketplace
 - MCP
-- Model Context Protocol
 - Self-Hosting
-- Unified API
+- Unified-API
 ---

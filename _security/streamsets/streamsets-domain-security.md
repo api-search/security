@@ -51,7 +51,7 @@ tags:
 - Company
 - Data Integration
 - DataOps
-- Data Pipelines
+- Data Pipeline
 - ETL
 - Streaming Data
 - Change Data Capture

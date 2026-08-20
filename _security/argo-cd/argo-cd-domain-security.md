@@ -120,5 +120,5 @@ tags:
 - GitOps
 - Kubernetes
 - CNCF
-- Open Source
+- Open-Source
 ---

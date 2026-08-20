@@ -36,6 +36,6 @@ tags:
 - Expense Management
 - Spend Management
 - Fintech
-- SaaS
+- Software-as-a-Service
 - Accounting Integration
 ---

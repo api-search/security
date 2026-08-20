@@ -41,6 +41,6 @@ tags:
 - Retail
 - Luxury
 - Lifestyle
-- Direct To Consumer
+- Direct to Consumer
 - Fortune 500
 ---

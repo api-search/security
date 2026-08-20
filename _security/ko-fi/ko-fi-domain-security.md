@@ -55,6 +55,6 @@ tags:
 - Memberships
 - Shop
 - Payments
-- Webhooks
+- Webhook
 - Creator Monetization
 ---

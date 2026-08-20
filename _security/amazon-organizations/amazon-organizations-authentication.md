@@ -41,6 +41,6 @@ tags:
 - Consolidated Billing
 - Governance
 - Multi-Account
-- Organizations
+- Organization
 - Policies
 ---

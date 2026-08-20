@@ -34,6 +34,6 @@ tags:
 - Biotechnology
 - Drug Discovery
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Healthcare
 ---

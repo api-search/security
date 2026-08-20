@@ -36,5 +36,5 @@ tags:
 - Mobile Games
 - Game Development
 - Racing Games
-- Free To Play
+- Free-to-Play
 ---

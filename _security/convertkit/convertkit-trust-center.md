@@ -113,15 +113,15 @@ tags:
 - Sequences
 - Forms
 - Broadcasts
-- Webhooks
+- Webhook
 - MCP
 - Agents
-- OAuth
+- Authentication
 - Marketing Automation
 - Landing Pages
 - Segmentation
 - Email Campaigns
-- SaaS
+- Software-as-a-Service
 - Commerce
 trust_url: https://kit.com/security
 ---

@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/houzz/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Home Improvement
 - Interior Design
 - Home Renovation
 - Furniture
-- SaaS
+- Software-as-a-Service
 ---

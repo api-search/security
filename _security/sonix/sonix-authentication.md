@@ -72,6 +72,6 @@ tags:
 - Subtitles
 - Captions
 - Translation
-- AI
+- Artificial Intelligence
 - Media
 ---

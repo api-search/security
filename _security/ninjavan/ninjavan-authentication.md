@@ -70,7 +70,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/
 summary_line: oauth2/http · 2 schemes
 tags:
 - Logistics
-- Last-Mile Delivery
+- Last Mile Delivery
 - Shipping
 - Southeast Asia
 - Parcels
@@ -78,5 +78,5 @@ tags:
 - Fulfillment
 - E-commerce Logistics
 - Waybill
-- SaaS
+- Software-as-a-Service
 ---

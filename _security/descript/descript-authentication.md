@@ -47,7 +47,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/descript
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/authentication/descript-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Audio Editing
 - Captions
 - Media

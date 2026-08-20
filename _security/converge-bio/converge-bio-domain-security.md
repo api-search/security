@@ -39,9 +39,9 @@ tags:
 - Drug Discovery
 - Generative AI
 - Biotech
-- Pharmaceutical
+- Pharmaceuticals
 - Antibody Design
 - Genomics
 - Life Sciences
-- Machine Learning
+- Machine-Learning
 ---

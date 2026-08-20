@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: openapi/sprift-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/authentication/sprift-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Property Data

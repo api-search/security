@@ -57,14 +57,14 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Payments
-- Financial Services
+- Financial-Services
 - Fintech
 - Checkout
-- Point of Sale
+- Point-of-Sale
 - Acquiring
 - Pix
 - Brazil
 - Banking
-- Webhooks
+- Webhook
 - Tap to Pay
 ---

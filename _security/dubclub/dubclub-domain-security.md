@@ -34,7 +34,7 @@ tags:
 - Sports Betting
 - Creator Economy
 - Monetization
-- Subscriptions
+- Subscription
 - Messaging
 - Sports
 - Community

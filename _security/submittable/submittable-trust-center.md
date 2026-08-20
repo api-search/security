@@ -82,10 +82,10 @@ summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Submission Management
 - Grants Management
-- Applications
+- Application
 - Forms
-- Nonprofit
+- Non-Profit
 - Corporate Social Responsibility
-- Workflow
+- Workflows
 trust_url: https://www.submittable.com/security
 ---

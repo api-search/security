@@ -309,9 +309,9 @@ tags:
 - Collaboration
 - Productivity
 - Project Management
-- Projects
+- Project
 - Task Management
-- Tasks
-- Workflow
+- Task
+- Workflows
 trust_url: https://trustcenter.asana.com/
 ---

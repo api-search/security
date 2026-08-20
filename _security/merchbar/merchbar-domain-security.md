@@ -32,7 +32,7 @@ tags:
 - Company
 - Music
 - Merchandise
-- Ecommerce
+- E-Commerce
 - Retail
 - Vinyl
 - Consumer

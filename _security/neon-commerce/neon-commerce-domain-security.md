@@ -125,8 +125,8 @@ tags:
 - Gaming
 - Checkout
 - Storefront
-- Direct-to-Consumer
-- Subscriptions
+- Direct to Consumer
+- Subscription
 - Merchant of Record
 - Game Monetization
 - Company

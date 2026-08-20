@@ -33,7 +33,7 @@ tags:
 - B2B Commerce
 - Retail Distribution
 - FMCG
-- Ecommerce
+- E-Commerce
 - Mobile SDKs
 - Africa
 - Nigeria

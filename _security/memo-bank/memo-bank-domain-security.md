@@ -67,17 +67,17 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Fintech Insurtech
-- banking
-- business-banking
-- payments
-- sepa
-- sepa-direct-debit
-- virtual-iban
-- wire-transfers
-- open-banking
-- psd2
-- berlin-group
-- webhooks
-- mcp
-- france
+- Banking
+- Business Banking
+- Payments
+- SEPA
+- SEPA Direct Debit
+- Virtual IBAN
+- Wire Transfers
+- Open Banking
+- PSD2
+- Berlin Group
+- Webhook
+- MCP
+- France
 ---

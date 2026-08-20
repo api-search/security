@@ -42,6 +42,6 @@ tags:
 - Chip Design
 - Electronic Design Automation
 - Analog Circuits
-- Machine Learning
+- Machine-Learning
 - Reinforcement Learning
 ---

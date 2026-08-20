@@ -73,7 +73,7 @@ summary_line: http · 1 scheme
 tags:
 - Shipping
 - Logistics
-- Ecommerce
+- E-Commerce
 - Fulfillment
-- CrossBorder
+- Cross-Border
 ---

@@ -53,6 +53,6 @@ tags:
 - Service
 - Inventory
 - Parts
-- Webhooks
+- Webhook
 - Gated
 ---

@@ -44,5 +44,5 @@ tags:
 - Smart Contracts
 - Decentralized Applications
 - Web3
-- Open Source
+- Open-Source
 ---

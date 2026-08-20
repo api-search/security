@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unreal-estate/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - PropTech
 - MLS
 - Flat Fee Listings

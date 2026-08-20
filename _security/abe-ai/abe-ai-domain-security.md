@@ -32,9 +32,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Conversational AI
-- Financial Services
+- Financial-Services
 - Banking
-- Chatbot
+- Chatbots
 - Virtual Assistant
 - Fintech
 - Acquired

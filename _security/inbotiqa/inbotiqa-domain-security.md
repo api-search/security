@@ -32,11 +32,11 @@ tags:
 - Company
 - Email
 - Shared Inbox
-- Workflow
+- Workflows
 - Fintech
-- Financial Services
-- Machine Learning
+- Financial-Services
+- Machine-Learning
 - Productivity
 - Collaboration
-- SaaS
+- Software-as-a-Service
 ---

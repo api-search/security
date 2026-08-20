@@ -1190,7 +1190,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stripe/refs/he
 summary_line: http · 2 schemes
 tags:
 - Commerce
-- Financial Services
+- Financial-Services
 - Fintech
 - Payments
 - T1

@@ -36,5 +36,5 @@ tags:
 - Catering
 - Restaurant
 - Singapore
-- Ecommerce
+- E-Commerce
 ---

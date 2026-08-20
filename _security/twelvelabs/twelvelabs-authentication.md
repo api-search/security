@@ -67,9 +67,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/twelvela
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/authentication/twelvelabs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Video Understanding
-- Multimodal
+- Multi-Modal
 - Search
 - Embeddings
 ---

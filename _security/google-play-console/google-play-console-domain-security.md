@@ -58,7 +58,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics
 - Android
-- Apps
+- Application
 - Google Play Console
 - Quality
 - Reporting

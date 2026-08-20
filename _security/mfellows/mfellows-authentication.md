@@ -49,7 +49,7 @@ summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - Savings
 - Lending
 - ROSCA

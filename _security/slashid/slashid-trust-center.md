@@ -171,7 +171,6 @@ tags:
 - Passkeys
 - User Management
 - CIAM
-- OAuth2
 - OIDC
 - SSO
 - RBAC

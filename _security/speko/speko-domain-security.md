@@ -55,8 +55,8 @@ summary_line: TLSv1.3
 tags:
 - Voice
 - Voice AI
-- Speech to Text
-- Text to Speech
+- Speech-to-Text
+- Text-to-Speech
 - LLM
 - Telephony
 - API Gateway

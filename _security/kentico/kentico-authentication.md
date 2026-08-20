@@ -71,7 +71,7 @@ tags:
 - REST
 - .NET
 - Headless
-- E-commerce
+- E-Commerce
 - Digital Marketing
 - Personalization
 ---

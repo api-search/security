@@ -175,7 +175,7 @@ summary_line: SOC 2 Type 2, FedRAMP High, IRAP, HITECH
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Generative AI
 - Large Language Models

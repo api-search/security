@@ -249,12 +249,12 @@ summary_line: apiKey/http/oauth2 · 6 schemes
 tags:
 - Company
 - Commerce
-- eCommerce
+- E-Commerce
 - Marketplace
 - Dropship
 - Retail
 - Catalog
-- Orders
+- Order
 - Retail Media
 - B2B
 ---

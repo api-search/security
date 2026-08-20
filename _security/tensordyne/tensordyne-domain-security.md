@@ -35,8 +35,8 @@ tags:
 - AI Inference
 - Semiconductors
 - AI Hardware
-- Data Center
-- Machine Learning
+- Data-Center
+- Machine-Learning
 - Silicon
 - Generative AI
 - Deep Learning

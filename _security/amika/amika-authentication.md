@@ -134,5 +134,4 @@ tags:
 - CI/CD
 - Automation
 - Software Factory
-- API
 ---

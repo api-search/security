@@ -60,12 +60,12 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Payments
-- Collections
+- Collection
 - Disbursements
 - Reconciliation
 - Fintech
 - Colombia
-- Webhooks
+- Webhook
 - Fraud Prevention
 - WhatsApp Payments
 ---

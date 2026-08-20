@@ -127,7 +127,6 @@ summary_line: http · 1 scheme
 tags:
 - ITSM
 - Help Desk
-- IT Service Management
 - Asset Management
 - Ticketing
 - Service Desk

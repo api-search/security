@@ -37,5 +37,5 @@ tags:
 - Physical AI
 - Embodied AI
 - Robot Learning
-- Machine Learning
+- Machine-Learning
 ---

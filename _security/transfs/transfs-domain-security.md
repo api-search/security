@@ -35,5 +35,5 @@ tags:
 - Credit Card Processing
 - Payment Gateway
 - Chargebacks
-- Financial Services
+- Financial-Services
 ---

@@ -32,14 +32,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bungalow/refs/
 summary_line: none · 0 schemes
 tags:
 - Company
-- real-estate
-- residential-real-estate
-- rental-listings
-- property-management
-- co-living
-- single-family-rental
-- listings-syndication
-- housing
-- proptech
-- marketplace
+- Real-Estate
+- Residential Real Estate
+- Rental Listings
+- Property Management
+- Co-Living
+- Single-Family Rental
+- Listings Syndication
+- Housing
+- PropTech
+- Marketplace
 ---

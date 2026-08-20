@@ -38,7 +38,7 @@ tags:
 - Company
 - Analytics
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Forecasting
 - Commodities
 - Agriculture
@@ -49,5 +49,5 @@ tags:
 - Pricing
 - Risk Management
 - Decision Support
-- SaaS
+- Software-as-a-Service
 ---

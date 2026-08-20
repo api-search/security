@@ -350,10 +350,10 @@ tags:
 - Consumer
 - Classifieds
 - Marketplace
-- E-commerce
-- Real Estate
+- E-Commerce
+- Real-Estate
 - Automotive
-- Jobs
+- Job
 - Advertising
 - Messaging
 - Delivery

@@ -60,7 +60,6 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/security/lalal-ai-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- AI
 - Artificial Intelligence
 - Audio
 - Audio Processing
@@ -70,6 +69,6 @@ tags:
 - Voice Cloning
 - Voice Changer
 - Music
-- Machine Learning
+- Machine-Learning
 - DSP
 ---

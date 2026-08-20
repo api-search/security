@@ -41,5 +41,5 @@ tags:
 - Data Governance
 - Data Classification
 - Storage
-- AI Data
+- Ai Data
 ---

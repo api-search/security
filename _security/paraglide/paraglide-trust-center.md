@@ -22,7 +22,7 @@ tags:
 - Accounts Receivable
 - Fintech
 - Finance Automation
-- Collections
-- Order To Cash
+- Collection
+- Order-to-Cash
 trust_url: https://trust.paraglide.ai/
 ---

@@ -100,6 +100,6 @@ tags:
 - Audio
 - Moderation
 - WebSocket
-- Real Time
+- Real-Time
 trust_url: https://getstream.io/security/
 ---

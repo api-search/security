@@ -91,9 +91,9 @@ summary_line: http · 1 scheme
 tags:
 - Submission Management
 - Grants Management
-- Applications
+- Application
 - Forms
-- Nonprofit
+- Non-Profit
 - Corporate Social Responsibility
-- Workflow
+- Workflows
 ---

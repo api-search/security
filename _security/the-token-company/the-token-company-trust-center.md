@@ -38,6 +38,5 @@ tags:
 - Cost Optimization
 - Developer Tools
 - Middleware
-- API
 trust_url: https://trust.thetokencompany.com
 ---

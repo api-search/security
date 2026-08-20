@@ -136,8 +136,8 @@ tags:
 - Engagement
 - Promotions
 - Gamification
-- Events
-- eCommerce
+- Event
+- E-Commerce
 - Coupons
 - Points
 - Membership

@@ -122,7 +122,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/habiteo/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - PropTech
 - 3D Visualization
 - Property Marketing

@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codekarma/refs
 summary_line: TLSv1.3
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Production Intelligence
 - Observability
 - AI Agents

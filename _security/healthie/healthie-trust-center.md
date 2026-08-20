@@ -57,6 +57,6 @@ tags:
 - Scheduling
 - Telehealth
 - Wellness
-- Webhooks
+- Webhook
 trust_url: https://trust.gethealthie.com
 ---

@@ -33,10 +33,10 @@ tags:
 - Company
 - Vertical Software
 - Laundry
-- Point of Sale
+- Point-of-Sale
 - Payments
 - Business Management
 - Pickup and Delivery
-- SaaS
+- Software-as-a-Service
 - Small Business
 ---

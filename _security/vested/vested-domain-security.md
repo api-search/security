@@ -30,8 +30,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vested/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Financial Services
-- FinTech
+- Financial-Services
+- Fintech
 - Investing
 - Stocks
 - ETFs

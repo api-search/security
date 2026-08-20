@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avenue-one/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Single-Family Rental
 - PropTech
 - Institutional Investing

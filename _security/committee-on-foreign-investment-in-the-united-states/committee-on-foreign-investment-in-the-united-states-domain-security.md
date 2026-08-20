@@ -43,9 +43,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/committee-on-f
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - CFIUS
-- Federal Government
+- Federal-Government
 - Foreign Investment
 - National Security
-- Regulation
+- Regulations
 - Treasury
 ---

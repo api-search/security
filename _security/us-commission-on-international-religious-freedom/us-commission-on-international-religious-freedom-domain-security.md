@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-commission-on-international-religious-freedom/refs/heads/main/security/us-commission-on-international-religious-freedom-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Federal Government
+- Federal-Government
 - Religious Freedom
 - International Human Rights
 - Foreign Policy

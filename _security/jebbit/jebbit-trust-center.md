@@ -87,7 +87,7 @@ tags:
 - Marketing
 - Quizzes
 - Product Feeds
-- Webhooks
+- Webhook
 - Customer Data
 - JSON:API
 trust_url: https://www.blueconic.com/trust-center

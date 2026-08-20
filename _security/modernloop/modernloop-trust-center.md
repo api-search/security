@@ -20,12 +20,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modernloop/ref
 summary_line: SOC 2 Type 2, ISO 27001:2022, ISO 27701:2019
 tags:
 - Company
-- Hr Tech
+- HR Tech
 - Recruiting
 - Interview Scheduling
 - Talent Acquisition
 - Hiring
 - AI Agents
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.modernloop.io/
 ---

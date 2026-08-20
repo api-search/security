@@ -158,7 +158,7 @@ tags:
 - Fintech
 - General Ledger
 - Payroll
-- Agent-Native
+- agent-native
 - MCP
 trust_url: https://trust.puzzle.io
 ---

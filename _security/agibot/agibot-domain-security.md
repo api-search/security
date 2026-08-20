@@ -54,9 +54,9 @@ tags:
 - gRPC
 - Protocol Buffers
 - Simulation
-- Machine Learning
-- Open Source
-- Model Context Protocol
+- Machine-Learning
+- Open-Source
+- MCP
 - Agentic Commerce
 - China
 ---

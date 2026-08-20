@@ -155,7 +155,7 @@ tags:
 - AEC
 - Artificial Intelligence
 - Document Processing
-- Computer Vision
+- Computer-Vision
 - Agentic AI
-- Machine Learning
+- Machine-Learning
 ---

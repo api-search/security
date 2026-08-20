@@ -35,7 +35,7 @@ tags:
 - Credit Scores
 - Credit Monitoring
 - Personal Finance
-- FinTech
+- Fintech
 - Identity Protection
-- Financial Services
+- Financial-Services
 ---

@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/homelight/refs/heads/main/security/homelight-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Real Estate
+- Real-Estate
 - PropTech
 - Agent Matching
 - Cash Offers
@@ -39,7 +39,7 @@ tags:
 - Buy Before You Sell
 - Home Loans
 - HELOC
-- Title And Escrow
+- Title and Escrow
 - Closing Services
 - Lead Generation
 - Partner API

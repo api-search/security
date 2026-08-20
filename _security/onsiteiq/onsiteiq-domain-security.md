@@ -34,9 +34,9 @@ tags:
 - Construction Technology
 - Reality Capture
 - 360 Imaging
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
-- Real Estate
+- Real-Estate
 - Project Management
 - Construction Monitoring
 ---

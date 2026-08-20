@@ -33,8 +33,8 @@ tags:
 - Company
 - Skincare
 - Beauty
-- Ecommerce
-- Direct-to-Consumer
+- E-Commerce
+- Direct to Consumer
 - Consumer
 - Shopify
 ---

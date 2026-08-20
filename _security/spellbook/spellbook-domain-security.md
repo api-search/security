@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spellbook/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence
-- LegalTech
+- Legal Tech
 - Contracts
 - Contract Drafting
 - Contract Review

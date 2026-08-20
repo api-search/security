@@ -126,8 +126,8 @@ tags:
 - Payments
 - Payment Processing
 - Fintech
-- Financial Services
-- Subscriptions
+- Financial-Services
+- Subscription
 - Fraud Detection
 - Checkout
 - Marketplace

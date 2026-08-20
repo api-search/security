@@ -64,10 +64,10 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Database
 - Enterprise
-- Json
+- JSON
 - Machine-Learning
-- Nosql
+- NoSQL
 - Oracle
-- Rest
-- Sql
+- REST
+- SQL
 ---

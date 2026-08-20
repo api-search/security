@@ -89,5 +89,5 @@ tags:
 - Housing Market
 - Listings
 - Property Data
-- Real Estate
+- Real-Estate
 ---

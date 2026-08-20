@@ -33,7 +33,7 @@ tags:
 - Digital Biology
 - Drug Discovery
 - Molecular Simulation
-- Machine Learning
+- Machine-Learning
 - Quantum Chemistry
 - Computational Chemistry
 - Artificial Intelligence

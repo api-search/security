@@ -33,8 +33,8 @@ tags:
 - Fintech
 - Card Linking
 - Payments
-- Transactions
-- Webhooks
+- Transaction
+- Webhook
 - SDK
 - Card-Linked Offers
 - Financial Data

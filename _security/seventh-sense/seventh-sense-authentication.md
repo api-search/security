@@ -66,6 +66,6 @@ tags:
 - Identity Verification
 - Liveness Detection
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Security
 ---

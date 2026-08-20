@@ -36,6 +36,6 @@ tags:
 - Patents
 - Trademarks
 - Legal Tech
-- SaaS
+- Software-as-a-Service
 - Innovation Management
 ---

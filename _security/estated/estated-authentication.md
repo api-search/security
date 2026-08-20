@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/estated/refs/h
 summary_line: apiKey · 1 scheme
 tags:
 - Property Data
-- Real Estate
+- Real-Estate
 - Property Records
 - Assessor
 - Parcels

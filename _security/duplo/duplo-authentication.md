@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duplo/refs/hea
 summary_line: http · 1 scheme
 tags:
 - Company
-- FinTech
+- Fintech
 - Payments
 - B2B Payments
 - Cross-Border Payments

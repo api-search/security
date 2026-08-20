@@ -38,5 +38,5 @@ tags:
 - Blockchain
 - Mobile Banking
 - Africa
-- Financial Services
+- Financial-Services
 ---

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Title Insurance
 - Escrow
-- Real Estate
+- Real-Estate
 - Mortgage
 - Annuities
 - Fortune 500

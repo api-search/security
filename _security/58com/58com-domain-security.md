@@ -29,7 +29,7 @@ tags:
 - Consumer
 - Classifieds
 - Marketplace
-- Real Estate
+- Real-Estate
 - Recruitment
 - Local Services
 - China

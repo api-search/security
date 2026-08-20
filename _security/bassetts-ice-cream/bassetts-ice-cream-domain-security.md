@@ -32,13 +32,13 @@ tags:
 - Ice Cream
 - Frozen Desserts
 - Consumer Packaged Goods
-- Food And Beverage
+- Food and Beverage
 - Philadelphia
 - Reading Terminal Market
 - Family Business
 - Heritage Brand
 - Wholesale Distribution
-- Foodservice
+- Food Service
 - Catering
-- Direct To Consumer
+- Direct to Consumer
 ---

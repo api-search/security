@@ -52,6 +52,6 @@ tags:
 - Client Portal
 - Subcontractor Portal
 - Mobile Apps
-- SaaS
+- Software-as-a-Service
 - Vertical SaaS
 ---

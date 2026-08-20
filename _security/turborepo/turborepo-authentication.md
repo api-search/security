@@ -55,7 +55,7 @@ tags:
 - JavaScript
 - TypeScript
 - Caching
-- Open Source
+- Open-Source
 - Rust
 - Vercel
 - Developer Tools

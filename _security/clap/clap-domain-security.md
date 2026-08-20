@@ -33,7 +33,7 @@ tags:
 - Company
 - Human Resources
 - Performance Management
-- SaaS
+- Software-as-a-Service
 - OKR
 - Employee Feedback
 - Artificial Intelligence

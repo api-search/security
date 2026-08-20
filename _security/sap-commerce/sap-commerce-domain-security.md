@@ -52,7 +52,7 @@ tags:
 - SAP
 - Enterprise
 - Omnichannel
-- Products
-- Orders
-- Carts
+- Product
+- Order
+- Cart
 ---

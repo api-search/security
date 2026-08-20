@@ -32,10 +32,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - Growth Financing
 - Venture Debt
 - Artificial Intelligence
 - Investment
-- SaaS
+- Software-as-a-Service
 ---

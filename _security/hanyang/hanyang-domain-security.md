@@ -38,6 +38,6 @@ tags:
 - University
 - South Korea
 - Seoul
-- Open API
-- OAuth
+- OpenAPI
+- Authentication
 ---

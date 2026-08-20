@@ -404,6 +404,6 @@ tags:
 - Channel Management
 - Booking
 - Reservations
-- Point of Sale
+- Point-of-Sale
 trust_url: https://www.oracle.com/trust/
 ---

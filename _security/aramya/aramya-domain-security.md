@@ -32,7 +32,7 @@ tags:
 - Company
 - Consumer
 - Fashion
-- Ecommerce
+- E-Commerce
 - Retail
 - D2C
 - Apparel

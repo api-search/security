@@ -33,7 +33,7 @@ tags:
 - Company
 - Consumer
 - Sports Nutrition
-- Ecommerce
+- E-Commerce
 - Endurance Sports
 - Hydration
 - Supplements

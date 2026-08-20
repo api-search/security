@@ -69,5 +69,5 @@ tags:
 - Interoperability
 - Patient Access
 - Health Records
-- Model Context Protocol
+- MCP
 ---

@@ -46,6 +46,6 @@ tags:
 - Flight Operations
 - Aeronautical
 - Weather
-- AI
-- Webhooks
+- Artificial Intelligence
+- Webhook
 ---

@@ -45,9 +45,9 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Contract Management
 - CLM
-- AI
+- Artificial Intelligence
 - Legal Tech
 - Document Extraction
-- Workflow
+- Workflows
 trust_url: https://www.lexion.ai/products/security
 ---

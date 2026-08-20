@@ -71,14 +71,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/security/primer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- payments
-- payment orchestration
-- payment processing
-- fintech
-- fraud detection
-- smart routing
-- checkout
-- payment methods
-- reconciliation
-- webhooks
+- Payments
+- Payment Orchestration
+- Payment Processing
+- Fintech
+- Fraud Detection
+- Smart Routing
+- Checkout
+- Payment Methods
+- Reconciliation
+- Webhook
 ---

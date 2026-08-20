@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: openapi/obie-ac
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/authentication/first-direct-authentication.yml
 summary_line: oauth2/openIdConnect/mutualTLS · 2 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

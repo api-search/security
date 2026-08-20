@@ -25,7 +25,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payactiv/refs/
 summary_line: SOC 2, ISO 27001, PCI DSS, CCPA, Visa Service Provider, Certified B Corporation
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Earned Wage Access
 - Payments
 - Payroll

@@ -55,7 +55,7 @@ tags:
 - Bookkeeping
 - Accounting
 - Finance
-- FinTech
+- Fintech
 - MCP
 - AI Agents
 - Small Business

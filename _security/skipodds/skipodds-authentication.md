@@ -49,16 +49,16 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nsource: openapi/skipodd
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/authentication/skipodds-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- sports
-- odds
+- Sports
+- Odds
 - probabilities
-- betting-data
+- Betting Data
 - de-vig
-- sports-data
-- real-time
-- webhooks
-- sports-betting
-- mcp
-- agent-ready
-- market-data
+- Sports Data
+- Real-Time
+- Webhook
+- Sports Betting
+- MCP
+- Agent Ready
+- Market Data
 ---

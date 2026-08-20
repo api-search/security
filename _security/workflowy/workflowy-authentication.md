@@ -45,8 +45,8 @@ tags:
 - Notes
 - Outliner
 - Task Management
-- Lists
+- List
 - Collaboration
-- Knowledge Management
+- Knowledge-Management
 - AI Assistant
 ---

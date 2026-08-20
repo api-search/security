@@ -46,15 +46,15 @@ source_yaml: "generated: '2026-08-16'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/security/galatea-bio-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- genomics
-- bioinformatics
-- ancestry
-- precision-medicine
+- Genomics
+- Bioinformatics
+- Ancestry
+- Precision Medicine
 - polygenic-risk-score
-- clinical-laboratory
-- genetic-testing
-- biobank
-- life-sciences
-- health
-- sequencing
+- Clinical Laboratory
+- Genetic Testing
+- Biobank
+- Life Sciences
+- Health
+- Sequencing
 ---

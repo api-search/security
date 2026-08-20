@@ -354,5 +354,5 @@ tags:
 - Compensation
 - Skills
 - Artificial Intelligence
-- Model Context Protocol
+- MCP
 ---

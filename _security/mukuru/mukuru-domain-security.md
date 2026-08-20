@@ -31,17 +31,17 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Remittance
 - Money Transfer
-- Cross Border Payments
+- Cross-Border Payments
 - Africa
 - South Africa
 - Diaspora
 - Mobile Money
-- Wallet
+- Wallets
 - Prepaid Card
 - Funeral Insurance
 - Disbursements
-- Collections
-- Cash In Cash Out
+- Collection
+- Cash-In Cash-Out
 - Financial Inclusion
 - Fintech
 ---

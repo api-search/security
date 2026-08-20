@@ -41,7 +41,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/black-unicorn-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Venture Capital
 - Pre-IPO
 - Startup Accelerator

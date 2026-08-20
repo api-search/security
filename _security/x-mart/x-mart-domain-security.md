@@ -32,6 +32,6 @@ tags:
 - Dental
 - Healthcare
 - Marketplace
-- eCommerce
+- E-Commerce
 - Medical Supplies
 ---

@@ -32,5 +32,5 @@ tags:
 - Hedge Funds
 - Investment Analytics
 - Financial Data
-- Portfolio Management
+- Portfolio-Management
 ---

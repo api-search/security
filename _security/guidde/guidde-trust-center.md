@@ -22,12 +22,12 @@ tags:
 - Documentation
 - Video
 - Digital Adoption
-- Knowledge Management
+- Knowledge-Management
 - Training
 - Onboarding
 - Screen Recording
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Enterprise
 trust_url: https://www.guidde.com/security
 ---

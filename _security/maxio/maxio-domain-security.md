@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maxio/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Billing
-- Subscriptions
+- Subscription
 - Recurring Billing
 - Revenue Recognition
 - SaaS Metrics

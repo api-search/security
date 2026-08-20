@@ -109,7 +109,7 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Artificial Intelligence
 - Candidate Screening
-- Chatbot
+- Chatbots
 - Conversational AI
 - Hiring Automation
 - HR Technology

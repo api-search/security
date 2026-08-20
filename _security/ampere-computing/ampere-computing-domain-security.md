@@ -50,5 +50,5 @@ tags:
 - AI Inference
 - Edge Computing
 - Compute Hardware
-- Open Source
+- Open-Source
 ---

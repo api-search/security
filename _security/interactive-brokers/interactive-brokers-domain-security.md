@@ -69,7 +69,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Brokerage
 - Market Data
-- Orders
+- Order
 - Portfolio
 - Trading
 ---

@@ -147,7 +147,7 @@ tags:
 - GDPR
 - Python
 - TypeScript
-- Open Source
+- Open-Source
 - LSP
 trust_url: https://trust.daytona.io/
 ---

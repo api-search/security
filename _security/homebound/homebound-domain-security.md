@@ -33,8 +33,8 @@ tags:
 - Company
 - Construction Tech
 - Homebuilding
-- Real Estate
-- Proptech
+- Real-Estate
+- PropTech
 - Home Construction
 - Disaster Rebuild
 ---

@@ -39,5 +39,5 @@ tags:
 - Lean Construction
 - BIM
 - Germany
-- SaaS
+- Software-as-a-Service
 ---

@@ -34,7 +34,7 @@ tags:
 - Drug Discovery
 - Artificial Intelligence
 - Biotechnology
-- Machine Learning
+- Machine-Learning
 - Life Sciences
 - Laboratory Automation
 ---

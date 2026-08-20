@@ -36,5 +36,5 @@ tags:
 - Neuroscience
 - Pharmaceuticals
 - Drug Discovery
-- Parkinsons Disease
+- Parkinson's Disease
 ---

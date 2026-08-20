@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fritzai/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Mobile
 - On-Device ML
 - Developer Tools
-- SDKs
+- SDK
 - Defunct
 ---

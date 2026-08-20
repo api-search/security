@@ -31,12 +31,12 @@ summary_line: clientCredentials · 1 scheme
 tags:
 - Company
 - Location Intelligence
-- Real Estate
+- Real-Estate
 - Geospatial
 - Neighborhoods
 - Demographics
 - Points of Interest
-- Proptech
+- PropTech
 - Climate Risk
 - Location Scores
 ---

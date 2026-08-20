@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spellbook/refs
 summary_line: SOC 2, HIPAA
 tags:
 - Artificial Intelligence
-- LegalTech
+- Legal Tech
 - Contracts
 - Contract Drafting
 - Contract Review

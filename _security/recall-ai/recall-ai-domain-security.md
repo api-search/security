@@ -56,6 +56,6 @@ tags:
 - Google Meet
 - Microsoft Teams
 - Real-Time
-- AI
+- Artificial Intelligence
 - Infrastructure
 ---

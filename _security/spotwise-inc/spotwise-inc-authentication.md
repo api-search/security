@@ -93,7 +93,7 @@ tags:
 - Lead Generation
 - Artificial Intelligence
 - Radio
-- Model Context Protocol
+- MCP
 - Agents
 - Attribution
 ---

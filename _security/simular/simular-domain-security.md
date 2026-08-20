@@ -39,5 +39,5 @@ tags:
 - Agentic
 - SDK
 - Developer Tools
-- Open Source
+- Open-Source
 ---

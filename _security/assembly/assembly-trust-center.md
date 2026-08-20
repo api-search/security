@@ -28,7 +28,7 @@ tags:
 - Rewards
 - Human Resources
 - Workplace
-- SaaS
-- Integrations
+- Software-as-a-Service
+- Integration
 trust_url: https://trust.joinassembly.com/
 ---

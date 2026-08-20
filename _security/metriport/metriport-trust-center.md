@@ -68,6 +68,6 @@ tags:
 - FHIR
 - Health Data
 - Wearables
-- Open Source
+- Open-Source
 trust_url: ''
 ---

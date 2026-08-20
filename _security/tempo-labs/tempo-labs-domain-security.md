@@ -39,7 +39,7 @@ tags:
 - AI App Builder
 - Design to Code
 - Prompt to Code
-- Low Code
+- Low-Code
 - React
 - Next.js
 - Developer Tools

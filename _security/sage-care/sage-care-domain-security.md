@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sage-care/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Health Care
+- Healthcare
 - Home Care
 - Artificial Intelligence
 - CRM

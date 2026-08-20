@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Cloud
-- Managed Services
+- Managed Service
 - Consulting
 - DevOps
 - Cloud Migration

@@ -86,7 +86,7 @@ tags:
 - Private Equity
 - Venture Capital
 - Contacts
-- Organizations
+- Organization
 - Opportunities
 - Deal Management
 trust_url: https://trust.affinity.co/

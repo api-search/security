@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: derived\nsource: openapi/twentyci
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/authentication/twentyci-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Property Data

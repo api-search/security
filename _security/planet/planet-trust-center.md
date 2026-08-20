@@ -30,6 +30,9 @@ tags:
 - Location
 - Data
 - GIS
+- OGC
+- STAC
+- WMTS
 - Company
 trust_url: https://www.planet.com/security/
 ---

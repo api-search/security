@@ -70,5 +70,5 @@ tags:
 - Sub-Second Streaming
 - WebRTC
 - Analytics
-- Webhooks
+- Webhook
 ---

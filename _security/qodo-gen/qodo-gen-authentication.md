@@ -61,9 +61,9 @@ tags:
 - Test Generation
 - Developer Tools
 - LLM
-- AI
+- Artificial Intelligence
 - Pull Request Review
 - Code Quality
 - Agents
-- Open Source
+- Open-Source
 ---

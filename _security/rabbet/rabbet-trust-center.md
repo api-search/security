@@ -21,7 +21,7 @@ tags:
 - Fintech
 - Construction Finance
 - Construction Lending
-- Real Estate
+- Real-Estate
 - Draw Management
 - Loan Origination
 - Payments

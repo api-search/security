@@ -42,5 +42,5 @@ tags:
 - EdTech
 - Campus Life
 - Co-Curricular
-- SaaS
+- Software-as-a-Service
 ---

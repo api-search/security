@@ -32,7 +32,7 @@ tags:
 - Company
 - Sustainability
 - ESG
-- Real Estate
+- Real-Estate
 - Energy Efficiency
 - Climate
 - Consulting

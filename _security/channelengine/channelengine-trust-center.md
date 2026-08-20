@@ -19,14 +19,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/channelengine/
 summary_line: ISO 27001, GDPR
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Marketplace Integration
-- Multichannel Commerce
+- Multi-Channel Commerce
 - Order Management
 - Inventory Management
 - Product Information
 - Retail
-- Webhooks
+- Webhook
 - Netherlands
 trust_url: https://www.channelengine.com/security
 ---

@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fmcsa-qc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/department-of-transportation/refs/heads/main/authentication/department-of-transportation-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Federal Government
+- Federal-Government
 - Transportation
 - Vehicles
 - Aviation

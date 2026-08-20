@@ -270,10 +270,10 @@ tags:
 - Digital Experience Platform
 - Content Management
 - Personalization
-- AB Testing
+- A/B Testing
 - Composable
 - Headless CMS
 - AI Agents
-- Webhooks
+- Webhook
 trust_url: https://www.uniform.dev/trust
 ---

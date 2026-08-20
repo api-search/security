@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sem/refs/heads
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Private Domain
 - Content Commerce
 - Live Streaming

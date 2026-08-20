@@ -36,11 +36,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hebbia/refs/heads/main/security/hebbia-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Document AI
 - Due Diligence
 - Enterprise Search
-- Financial Services
+- Financial-Services
 - Generative AI
 - Investment Research
 - Knowledge

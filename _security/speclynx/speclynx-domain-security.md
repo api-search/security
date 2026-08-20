@@ -33,8 +33,8 @@ tags:
 - API Design
 - AsyncAPI
 - Developer Tools
-- JSON Schema
+- JSON-Schema
 - OpenAPI
 - Toolkit
-- VSCode
+- VS Code
 ---

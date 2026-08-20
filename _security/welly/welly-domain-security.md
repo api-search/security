@@ -36,7 +36,7 @@ tags:
 - Consumer Packaged Goods
 - First Aid
 - Personal Care
-- Ecommerce
+- E-Commerce
 - B Corporation
 - Retail
 ---

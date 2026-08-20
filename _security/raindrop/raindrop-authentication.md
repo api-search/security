@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/raindrop/refs/
 summary_line: 3 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - Observability
 - Monitoring

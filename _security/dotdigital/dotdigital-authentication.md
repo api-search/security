@@ -106,7 +106,7 @@ tags:
 - Consent Management
 - Personalization
 - Loyalty
-- Ecommerce
-- Events
-- Webhooks
+- E-Commerce
+- Event
+- Webhook
 ---

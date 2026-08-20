@@ -163,10 +163,10 @@ tags:
 - Company
 - Logistics
 - Freight
-- Computer Vision
+- Computer-Vision
 - Warehouses
 - Supply Chain
-- Measurement
-- Cameras
+- Measurements
+- Camera
 - Trucking
 ---

@@ -45,6 +45,5 @@ tags:
 - Employee Training
 - HIPAA
 - SOC 2
-- API
 trust_url: https://www.haekka.com/security
 ---

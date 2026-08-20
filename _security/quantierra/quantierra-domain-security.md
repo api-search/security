@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quantierra/ref
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - PropTech
 - Real Estate Advisory
 - Quantitative Analysis

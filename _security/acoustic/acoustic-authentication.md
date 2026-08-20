@@ -120,7 +120,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/
 summary_line: http/apiKey/oauth2 · 7 schemes
 tags:
 - Company
-- Martech
+- MarTech
 - Marketing
 - Marketing Automation
 - Customer Engagement

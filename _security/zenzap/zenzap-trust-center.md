@@ -76,8 +76,8 @@ tags:
 - Collaboration
 - Chat
 - Bots
-- Webhooks
+- Webhook
 - Productivity
-- Tasks
+- Task
 trust_url: https://trust.zenzap.co/
 ---

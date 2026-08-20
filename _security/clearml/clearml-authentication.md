@@ -85,7 +85,7 @@ summary_line: http · 2 schemes
 tags:
 - ML
 - MLOps
-- Open Source
+- Open-Source
 - Experiment Tracking
 - Orchestration
 ---

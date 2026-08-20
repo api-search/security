@@ -39,6 +39,6 @@ tags:
 - IoT
 - Linux Foundation
 - RTOS
-- Open Source
+- Open-Source
 - Edge
 ---

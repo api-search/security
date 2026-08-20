@@ -39,6 +39,5 @@ tags:
 - Embedded Insurance
 - Insurance Distribution
 - Fintech
-- API
 - Payments
 ---

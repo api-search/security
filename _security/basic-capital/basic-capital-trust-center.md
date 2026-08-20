@@ -23,6 +23,6 @@ tags:
 - 401k
 - Investing
 - Wealth Management
-- Financial Services
+- Financial-Services
 trust_url: https://app.vanta.com/basiccapital/trust/k0kvr8erc1cd6y8d3kibe6
 ---

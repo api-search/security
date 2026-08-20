@@ -214,10 +214,10 @@ tags:
 - Referral Marketing
 - Loyalty
 - Marketing
-- E-commerce
+- E-Commerce
 - Advocacy
 - Rewards
 - Customer Acquisition
-- Webhooks
+- Webhook
 - MCP
 ---

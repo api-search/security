@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/centml-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/authentication/centml-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - Serverless

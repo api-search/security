@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/security/f5-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Applications
+- Application
 - Security
 - Load Balancing
 - API Gateway

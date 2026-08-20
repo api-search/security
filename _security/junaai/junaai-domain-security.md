@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/junaai/refs/he
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Industrial AI
 - Manufacturing
 - AI Agents

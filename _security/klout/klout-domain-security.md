@@ -28,7 +28,7 @@ summary_line: DMARC
 tags:
 - Company
 - Consumer
-- Social Media
+- Social-Media
 - Social Analytics
 - Influence Scoring
 - Social Scoring

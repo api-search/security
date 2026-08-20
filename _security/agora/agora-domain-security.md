@@ -68,11 +68,10 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Fintech
-- Stablecoin
+- Stablecoins
 - Digital Dollar
 - Payments
 - Cryptocurrency
 - Blockchain
-- API
 - AUSD
 ---

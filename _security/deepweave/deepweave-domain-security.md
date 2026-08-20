@@ -30,7 +30,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepweave/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - Startup
 - Homebrew Portfolio

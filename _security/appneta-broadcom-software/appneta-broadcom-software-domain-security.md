@@ -39,5 +39,5 @@ tags:
 - Synthetic Monitoring
 - IT Operations
 - Broadcom
-- Ai Infrastructure
+- AI Infrastructure
 ---

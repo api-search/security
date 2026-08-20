@@ -61,7 +61,7 @@ tags:
 - Influencer Marketing
 - Social Listening
 - User Generated Content
-- E-commerce
+- E-Commerce
 - GraphQL
 - MCP
 ---

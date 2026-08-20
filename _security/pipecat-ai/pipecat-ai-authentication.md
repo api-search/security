@@ -59,10 +59,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pipecat-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pipecat-ai/refs/heads/main/authentication/pipecat-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Voice
-- Multimodal
+- Multi-Modal
 - Agents
-- Realtime
+- Real-Time
 - Framework
 ---

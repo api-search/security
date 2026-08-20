@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blend-labs/ref
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Mortgage
 - Lending
 - Banking

@@ -42,7 +42,7 @@ tags:
 - SaaS Integration
 - SMB
 - Triggers and Actions
-- Webhooks
-- Workflow Automation
+- Webhook
+- Workflow-Automation
 - Workflows
 ---

@@ -36,7 +36,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-capital-planning-commission/refs/heads/main/security/national-capital-planning-commission-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Federal Government
+- Federal-Government
 - Planning
 - National Capital Region
 ---

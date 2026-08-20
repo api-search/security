@@ -171,7 +171,7 @@ tags:
 - UPI
 - India
 - Payment Gateway
-- Subscriptions
+- Subscription
 - Refunds
 - QR Codes
 - Net Banking

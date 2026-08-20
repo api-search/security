@@ -35,7 +35,7 @@ tags:
 - Procurement
 - Legal Operations
 - Sales Enablement
-- AI
+- Artificial Intelligence
 - Contract Data
 - Document Analysis
 trust_url: https://security.termscout.com/

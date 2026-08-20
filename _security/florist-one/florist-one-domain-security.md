@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/florist-one/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Delivery
-- Ecommerce
+- E-Commerce
 - Florists
 - Flowers
 - Gifts

@@ -39,7 +39,7 @@ tags:
 - API Linting
 - API Style Guide
 - AsyncAPI
-- JSON Schema
+- JSON-Schema
 - OpenAPI
 - Quality Assurance
 ---

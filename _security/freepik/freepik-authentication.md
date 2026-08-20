@@ -66,10 +66,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/freepik-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freepik/refs/heads/main/authentication/freepik-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Graphics
 - Illustrations
-- Image Generation
+- Image-Generation
 - Photos
 - Video Generation
 ---

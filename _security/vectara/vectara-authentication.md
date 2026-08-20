@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vectara-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/authentication/vectara-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Corpora
 - Embeddings

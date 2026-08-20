@@ -53,7 +53,7 @@ summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Apparel
 - Outdoor
 - Shopify

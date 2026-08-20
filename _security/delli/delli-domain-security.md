@@ -38,10 +38,10 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Marketplace
-- Food and Drink
-- E-commerce
+- Food And Drink
+- E-Commerce
 - Consumer
 - Independent Makers
-- Foodtech
+- Food Tech
 - Shopify
 ---

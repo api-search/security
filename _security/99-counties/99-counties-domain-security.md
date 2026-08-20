@@ -36,6 +36,6 @@ tags:
 - Regenerative Agriculture
 - Food and Beverage
 - Shopify
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 ---

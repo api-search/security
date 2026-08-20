@@ -108,7 +108,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/replicas/refs/
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Coding Agents
 - Developer Tools
 - Automation

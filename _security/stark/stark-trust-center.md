@@ -25,6 +25,6 @@ tags:
 - Developer Tools
 - WCAG
 - Governance
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.getstark.co/
 ---

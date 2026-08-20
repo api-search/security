@@ -51,7 +51,7 @@ tags:
 - Artificial Intelligence
 - Large Language Models
 - Generative AI
-- Machine Learning
+- Machine-Learning
 - Chat
 - Embeddings
 - Agents

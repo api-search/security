@@ -38,6 +38,6 @@ tags:
 - Practice Management
 - Tax
 - CPA Firms
-- SaaS
+- Software-as-a-Service
 - Client Experience
 ---

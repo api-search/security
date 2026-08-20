@@ -81,7 +81,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Twitter
 - X
-- Social Media
+- Social-Media
 - Data Extraction
 - Real-Time
 ---

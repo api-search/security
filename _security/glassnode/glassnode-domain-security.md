@@ -116,7 +116,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Web3
 - Crypto
-- On-Chain
+- Onchain
 - Analytics
 - Metrics
 - Bitcoin

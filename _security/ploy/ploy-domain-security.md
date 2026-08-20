@@ -43,7 +43,7 @@ tags:
 - Website Builder
 - Growth
 - Advertising
-- Webhooks
+- Webhook
 - CLI
 - Agent Skills
 ---

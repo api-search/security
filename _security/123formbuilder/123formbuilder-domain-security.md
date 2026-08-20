@@ -80,10 +80,10 @@ tags:
 - Online Forms
 - Form Builder
 - Surveys
-- Workflow
+- Workflows
 - Data Collection
 - Submissions
-- Webhooks
+- Webhook
 - HIPAA
 - GDPR
 - Payments

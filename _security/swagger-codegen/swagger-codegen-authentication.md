@@ -49,7 +49,7 @@ summary_line: 0 schemes
 tags:
 - Client Libraries
 - Code Generation
-- Open Source
+- Open-Source
 - OpenAPI
 - SDK
 ---

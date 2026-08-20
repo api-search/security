@@ -31,7 +31,7 @@ tags:
 - Company
 - Frontier Tech
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Steel
 - Recycling
 - Manufacturing

@@ -35,6 +35,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - API Management
-- Open Source
+- Open-Source
 - REST API
 ---

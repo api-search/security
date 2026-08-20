@@ -36,12 +36,11 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Fintech
-- Machine Learning
+- Machine-Learning
 - Data Science
 - Hedge Fund
 - GraphQL
 - Crypto
 - Quantitative Finance
 - Tournament
-- API
 ---

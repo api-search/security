@@ -22,8 +22,8 @@ tags:
 - Customer Engagement
 - Messaging
 - Video Conferencing
-- Workflow
+- Workflows
 - Embedded SDK
-- Communication
+- Communications
 trust_url: https://www.moxo.com/
 ---

@@ -78,9 +78,9 @@ tags:
 - ChMS
 - Faith
 - Giving
-- Events
+- Event
 - Scheduling
 - People
-- Nonprofit
+- Non-Profit
 trust_url: https://www.planningcenter.com/security
 ---

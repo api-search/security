@@ -41,8 +41,8 @@ tags:
 - Collaboration
 - Workspace
 - CRM
-- Tasks
+- Task
 - AI Agents
 - MCP
-- Open Source
+- Open-Source
 ---

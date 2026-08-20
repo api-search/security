@@ -72,7 +72,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/garner/refs/he
 summary_line: oauth2/http · 2 schemes
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Healthcare
 - Provider Data
 - Care Navigation

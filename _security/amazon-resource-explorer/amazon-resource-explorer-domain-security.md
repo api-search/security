@@ -76,6 +76,5 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Discovery
 - Inventory
-- Operations
 - Resource Management
 ---

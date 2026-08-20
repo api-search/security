@@ -31,6 +31,6 @@ tags:
 - Service Intelligence
 - Equipment Maintenance
 - Enterprise
-- SaaS
+- Software-as-a-Service
 trust_url: https://security.aquant.ai/
 ---

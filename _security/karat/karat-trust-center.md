@@ -27,6 +27,5 @@ tags:
 - Talent Assessment
 - Engineering
 - GraphQL
-- API
 trust_url: https://karat.com/customer-faq/
 ---

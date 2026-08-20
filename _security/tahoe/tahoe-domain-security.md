@@ -32,12 +32,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Biotechnology
 - Life Sciences
 - Genomics
-- Single-Cell
+- Single Cell
 - Drug Discovery
 - Foundation Models
-- Open Source
+- Open-Source
 ---

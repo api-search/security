@@ -34,7 +34,7 @@ tags:
 - Beauty
 - Wellness
 - Aesthetics
-- Jobs
+- Job
 - Employment
 - Marketplace
 - Brazil

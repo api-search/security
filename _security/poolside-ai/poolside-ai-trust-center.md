@@ -31,7 +31,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/security/poolside-ai-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Foundation Models
 - Agentic Coding

@@ -37,7 +37,7 @@ tags:
 - Mobility
 - Connected Vehicle
 - Road Data
-- Machine Learning
+- Machine-Learning
 - ADAS
 - Hardware
 - Massachusetts

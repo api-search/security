@@ -67,13 +67,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arine/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Health Care
+- Healthcare
 - Medication Management
 - Pharmacy
 - Artificial Intelligence
 - Clinical Decision Support
 - Health Plans
 - Population Health
-- Value Based Care
-- SaaS
+- Value-Based Care
+- Software-as-a-Service
 ---

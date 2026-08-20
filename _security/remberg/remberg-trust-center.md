@@ -140,7 +140,7 @@ tags:
 - Field Service
 - Work Orders
 - Industrial
-- SaaS
+- Software-as-a-Service
 - Germany
 trust_url: https://remberg.com/trust
 ---

@@ -46,6 +46,6 @@ tags:
 - Distributed SQL
 - MySQL
 - NoSQL
-- Queries
+- Query
 - SQL
 ---

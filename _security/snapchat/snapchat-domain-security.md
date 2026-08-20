@@ -131,5 +131,5 @@ tags:
 - Augmented Reality
 - Marketing
 - Messaging
-- Social Media
+- Social-Media
 ---

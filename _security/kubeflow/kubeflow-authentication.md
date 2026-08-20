@@ -53,12 +53,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kubeflow
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kubeflow/refs/heads/main/authentication/kubeflow-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Deep Learning
 - Kubernetes
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Model Serving
 - Model Training
-- Open Source
+- Open-Source
 ---

@@ -84,9 +84,9 @@ tags:
 - Generative AI
 - Text-to-Video
 - Image-to-Video
-- AI
+- Artificial Intelligence
 - Generative Video
 - Lip Sync
 - Virtual Try-On
-- Image Generation
+- Image-Generation
 ---

@@ -22,7 +22,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/testsigma/refs
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR, CSA STAR
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Testing
 - Test Automation
 - QA

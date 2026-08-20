@@ -107,12 +107,12 @@ source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brella/refs/heads/main/security/brella-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Events
+- Event
 - Event Networking
 - Matchmaking
 - Event Platform
 - Attendees
 - Engagement
 - Conferences
-- SaaS
+- Software-as-a-Service
 ---

@@ -200,11 +200,11 @@ summary_line: SOC 2
 tags:
 - Company
 - Coding Agents
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Collaboration
 - Agentic Workflow
-- Model Context Protocol
+- MCP
 - Software Design
 trust_url: https://app.vanta.com/withjuno.dev/trust/wsfjgpgd3964nwxpqnuphh
 ---

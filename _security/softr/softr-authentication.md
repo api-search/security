@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/softr-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/softr/refs/heads/main/authentication/softr-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- No Code
+- No-Code
 - App Builder
 - Client Portals
 - User Management

@@ -31,7 +31,7 @@ summary_line: TLSv1.2 · HSTS
 tags:
 - Company
 - Communications
-- Push-To-Talk
+- Push To Talk
 - Walkie-Talkie
 - Voice
 - Messaging

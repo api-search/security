@@ -36,6 +36,5 @@ tags:
 - Litigation Analytics
 - Judicial Analytics
 - Legal Data
-- API
 - MCP
 ---

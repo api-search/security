@@ -62,5 +62,5 @@ tags:
 - World Chain
 - Web3
 - Biometrics
-- SDKs
+- SDK
 ---

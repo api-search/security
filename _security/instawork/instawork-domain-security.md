@@ -37,5 +37,5 @@ tags:
 - Workforce
 - Labor
 - MCP
-- Agent
+- Agents
 ---

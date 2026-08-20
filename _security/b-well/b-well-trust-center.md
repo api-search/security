@@ -43,6 +43,6 @@ tags:
 - Interoperability
 - Patient Access
 - Health Records
-- Model Context Protocol
+- MCP
 trust_url: https://www.icanbwell.com/health-data-security-for-consumers/
 ---

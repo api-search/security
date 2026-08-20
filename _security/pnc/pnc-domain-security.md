@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pnc/refs/heads
 summary_line: TLSv1.3 · DMARC
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - United States
 - Treasury Management
 - Payments

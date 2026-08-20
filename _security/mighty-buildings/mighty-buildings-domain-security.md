@@ -33,14 +33,14 @@ tags:
 - Company
 - Construction
 - Construction Technology
-- Contech
+- ConTech
 - 3D Printing
 - Additive Manufacturing
 - Advanced Manufacturing
 - Prefabrication
 - Modular Housing
 - Housing
-- Real Estate
+- Real-Estate
 - Building Materials
 - Robotics
 - Sustainability

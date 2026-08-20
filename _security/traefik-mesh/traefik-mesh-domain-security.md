@@ -62,7 +62,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Kubernetes
 - Service Mesh
-- Open Source
+- Open-Source
 - SMI
 - Traffic Management
 - Dormant

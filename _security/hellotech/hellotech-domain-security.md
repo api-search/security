@@ -35,6 +35,6 @@ tags:
 - Tech Support
 - Smart Home
 - Home Services
-- Installation
+- Installations
 - IT Services
 ---

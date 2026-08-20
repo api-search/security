@@ -69,7 +69,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unify-ai/refs/
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - LLM
-- AI
+- Artificial Intelligence
 - Large Language Models
 - LLM Routing
 - Model Gateway
@@ -80,6 +80,6 @@ tags:
 - Benchmarking
 - Model Comparison
 - AI Infrastructure
-- Machine Learning
+- Machine-Learning
 trust_url: https://unify.ai/security
 ---

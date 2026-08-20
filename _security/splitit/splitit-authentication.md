@@ -59,5 +59,5 @@ tags:
 - Buy Now Pay Later
 - Credit Card
 - Fintech
-- E-commerce
+- E-Commerce
 ---

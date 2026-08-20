@@ -31,5 +31,5 @@ tags:
 - Cloud
 - DevOps
 - Infrastructure as Code
-- Open Source
+- Open-Source
 ---

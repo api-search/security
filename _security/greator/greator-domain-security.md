@@ -40,6 +40,6 @@ tags:
 - Online Learning
 - E-Learning
 - Wellness
-- Events
+- Event
 - Germany
 ---

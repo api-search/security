@@ -77,8 +77,8 @@ tags:
 - Digital Business Cards
 - Marketing
 - Analytics
-- SaaS
+- Software-as-a-Service
 - Proximity
-- Webhooks
+- Webhook
 - MCP
 ---

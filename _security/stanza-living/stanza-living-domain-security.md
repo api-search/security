@@ -35,7 +35,7 @@ tags:
 - Co-Living
 - Managed Accommodation
 - Student Housing
-- Real Estate
+- Real-Estate
 - PropTech
 - Hospitality
 - India

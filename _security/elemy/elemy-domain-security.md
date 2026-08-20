@@ -36,6 +36,6 @@ tags:
 - ABA Therapy
 - Behavioral Health
 - Practice Management
-- SaaS
-- HealthTech
+- Software-as-a-Service
+- Health Tech
 ---

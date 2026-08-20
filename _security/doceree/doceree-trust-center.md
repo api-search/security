@@ -26,7 +26,7 @@ tags:
 - Programmatic
 - Header Bidding
 - Life Sciences
-- Pharmaceutical
+- Pharmaceuticals
 - Point of Care
 - Identity Resolution
 - Electronic Health Records

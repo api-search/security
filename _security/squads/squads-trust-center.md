@@ -26,7 +26,7 @@ tags:
 - Smart Accounts
 - Stablecoins
 - Payments
-- Wallet
+- Wallets
 - Web3
 trust_url: https://trust.squads.xyz/
 ---

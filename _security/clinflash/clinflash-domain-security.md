@@ -36,6 +36,6 @@ tags:
 - Life Sciences
 - EDC
 - Pharmacovigilance
-- SaaS
-- Pharmaceutical
+- Software-as-a-Service
+- Pharmaceuticals
 ---

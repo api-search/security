@@ -30,15 +30,15 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/konga/refs/heads/main/security/konga-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Retail
 - Online Shopping
 - Payments
 - Fintech
 - Mobile Money
-- Wallet
-- Pos
+- Wallets
+- Point-of-Sale
 - Bill Payments
 - Travel
 - Flights

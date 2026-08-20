@@ -35,6 +35,6 @@ tags:
 - Care Coordination
 - Health IT
 - Interoperability
-- Notifications
+- Notification
 - HL7 ADT
 ---

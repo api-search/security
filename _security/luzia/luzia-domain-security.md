@@ -37,11 +37,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/luzia/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - AI Assistant
-- Chatbot
+- Chatbots
 - Consumer
-- Image Generation
+- Image-Generation
 - WhatsApp
 ---

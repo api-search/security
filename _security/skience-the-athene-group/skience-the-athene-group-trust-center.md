@@ -20,12 +20,12 @@ summary_line: SOC 2 Type 2, SOC 2 + HITRUST
 tags:
 - Company
 - Wealth Management
-- Financial Services
+- Financial-Services
 - WealthTech
 - Salesforce
 - Onboarding
 - Account Opening
 - Data Management
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.skience.com/
 ---

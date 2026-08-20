@@ -46,7 +46,7 @@ tags:
 - Video
 - Video Generation
 - Media
-- Machine Learning
+- Machine-Learning
 - Creative Tools
 trust_url: https://trust.lightricks.com/
 ---

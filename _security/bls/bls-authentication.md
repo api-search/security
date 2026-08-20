@@ -62,6 +62,6 @@ tags:
 - Wages
 - Labor Statistics
 - Economic Indicators
-- Federal Government
+- Federal-Government
 - Open Data
 ---

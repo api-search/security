@@ -34,6 +34,6 @@ tags:
 - Analytics
 - Business Intelligence
 - Sales Performance
-- RevOps
+- Revenue Operations
 - CRM
 ---

@@ -33,7 +33,7 @@ tags:
 - Company
 - GovTech
 - Government
-- Nonprofits
+- Non-Profit
 - Foundations
 - Program Management
 - Case Management

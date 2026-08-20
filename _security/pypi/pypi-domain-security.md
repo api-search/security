@@ -81,7 +81,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pypi/refs/head
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Developer Tools
-- Open Source
+- Open-Source
 - Package Management
 - Packages
 - Python

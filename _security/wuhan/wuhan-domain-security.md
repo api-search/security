@@ -34,5 +34,5 @@ tags:
 - University
 - Research
 - China
-- Open Source
+- Open-Source
 ---

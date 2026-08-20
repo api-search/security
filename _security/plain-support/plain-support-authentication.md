@@ -35,10 +35,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/plain-su
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plain-support/refs/heads/main/authentication/plain-support-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Customer Support
+- Customer-Support
 - Help Desk
 - GraphQL
 - Threads
 - Customer Communication
-- API First
+- API-First
 ---

@@ -38,7 +38,7 @@ tags:
 - Language Learning
 - EdTech
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Spaced Repetition
 - Mobile
 - Estonia

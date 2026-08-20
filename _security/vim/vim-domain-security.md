@@ -80,5 +80,5 @@ tags:
 - Interoperability
 - Value-Based Care
 - Care Gaps
-- OAuth
+- Authentication
 ---

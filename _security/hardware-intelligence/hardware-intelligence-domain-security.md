@@ -33,7 +33,7 @@ tags:
 - Hardware
 - Semiconductors
 - Chip Design
-- AI
+- Artificial Intelligence
 - Developer Tools
 - EDA
 - Agentic

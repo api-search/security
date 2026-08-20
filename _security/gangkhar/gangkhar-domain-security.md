@@ -33,10 +33,10 @@ tags:
 - Company
 - Insurance
 - Embedded Insurance
-- InsurTech
+- Insurtech
 - Embedded Finance
 - Protection
-- AI
+- Artificial Intelligence
 - Fintech
 - Underwriting
 - Claims

@@ -36,7 +36,7 @@ tags:
 - Hotels
 - Car Hire
 - Metasearch
-- Affiliate
+- Affiliates
 - Distribution
 - Online Travel Agency
 - Trip.com Group

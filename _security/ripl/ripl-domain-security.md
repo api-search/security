@@ -35,6 +35,6 @@ tags:
 - Small Business
 - Content Scheduling
 - Marketing
-- SaaS
+- Software-as-a-Service
 - Social Media Management
 ---

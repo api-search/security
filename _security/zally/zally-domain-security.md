@@ -58,7 +58,7 @@ tags:
 - API Design
 - API Linting
 - API Quality
-- Open Source
+- Open-Source
 - OpenAPI
 - Zalando
 ---

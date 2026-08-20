@@ -31,11 +31,11 @@ tags:
 - Company
 - Customer Data Platform
 - Customer Intelligence
-- Restaurants
+- Restaurant
 - Retail
 - Marketing
 - Loyalty
 - Segmentation
-- Point of Sale
+- Point-of-Sale
 - Analytics
 ---

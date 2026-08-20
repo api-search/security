@@ -39,7 +39,7 @@ tags:
 - Food and Beverage
 - Meal Kits
 - Subscription
-- E-commerce
+- E-Commerce
 - Consumer
 - Recipes
 - Direct to Consumer

@@ -34,6 +34,6 @@ tags:
 - Food and Beverage
 - Mushrooms
 - Sustainability
-- E-commerce
+- E-Commerce
 - Consumer Products
 ---

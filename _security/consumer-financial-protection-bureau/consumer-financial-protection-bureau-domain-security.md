@@ -86,8 +86,8 @@ tags:
 - Banking
 - Complaints
 - Consumer Protection
-- Federal Government
-- Financial Services
+- Federal-Government
+- Financial-Services
 - HMDA
 - Mortgages
 - Open Data

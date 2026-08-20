@@ -34,7 +34,7 @@ tags:
 - Marketplace
 - Furniture
 - Resale
-- Ecommerce
+- E-Commerce
 - Logistics
 - Sustainability
 ---

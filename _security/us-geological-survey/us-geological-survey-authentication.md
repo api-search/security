@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/usgs-wat
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-geological-survey/refs/heads/main/authentication/us-geological-survey-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Federal Government
+- Federal-Government
 - Earth Science
 - Earthquakes
 - Water Data

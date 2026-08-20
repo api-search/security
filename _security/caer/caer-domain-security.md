@@ -31,7 +31,7 @@ tags:
 - Company
 - Consumer Packaged Goods
 - Food and Beverage
-- E-commerce
+- E-Commerce
 - Baby and Kids
 - Nutrition
 - Direct to Consumer

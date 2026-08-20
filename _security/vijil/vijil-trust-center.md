@@ -188,7 +188,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vijil/refs/hea
 summary_line: SOC 2
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Agents
 - Agent Security
 - AI Safety

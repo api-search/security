@@ -34,7 +34,7 @@ tags:
 - Location Intelligence
 - Site Selection
 - Geospatial
-- Real Estate
+- Real-Estate
 - Retail Analytics
 - Market Planning
 ---

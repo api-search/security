@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/unionai-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/heads/main/authentication/unionai-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - ML
 - Orchestration
 - Workflows

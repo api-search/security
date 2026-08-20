@@ -117,6 +117,6 @@ tags:
 - Communications
 - Campaigns
 - Contacts
-- Webhooks
+- Webhook
 - A2P 10DLC
 ---

@@ -45,5 +45,5 @@ tags:
 - Insurance
 - Investments
 - Mutual Funds
-- Non Profit
+- Non-Profit
 ---

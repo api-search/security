@@ -42,5 +42,5 @@ tags:
 - Staff Management
 - Retail
 - Food and Beverage
-- SaaS
+- Software-as-a-Service
 ---

@@ -51,9 +51,9 @@ tags:
 - Insurance
 - Life Insurance
 - Insurtech
-- Financial Services
+- Financial-Services
 - Underwriting
 - Policy Administration
-- SaaS
+- Software-as-a-Service
 - GraphQL
 ---

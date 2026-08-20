@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kouper-health/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Health Care
+- Healthcare
 - Health Technology
 - Artificial Intelligence
 - AI Agents

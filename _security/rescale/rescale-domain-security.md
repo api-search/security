@@ -47,6 +47,6 @@ tags:
 - CAE
 - HPC
 - AI Physics
-- Jobs
+- Job
 - Compute
 ---

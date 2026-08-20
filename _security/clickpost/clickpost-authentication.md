@@ -75,7 +75,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Carriers
 - Delivery
-- E-Commerce Logistics
+- E-commerce Logistics
 - Logistics
 - Returns
 - Shipping

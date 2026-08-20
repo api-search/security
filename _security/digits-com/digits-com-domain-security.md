@@ -104,6 +104,6 @@ tags:
 - Bookkeeping
 - Finance
 - General Ledger
-- AI
-- FinTech
+- Artificial Intelligence
+- Fintech
 ---

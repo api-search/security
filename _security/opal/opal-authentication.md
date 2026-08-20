@@ -100,13 +100,13 @@ tags:
 - Marketing Calendar
 - Campaign Management
 - Collaboration
-- SaaS
+- Software-as-a-Service
 - Content Marketing
 - Editorial Calendar
-- Workflow
+- Workflows
 - Approvals
 - Digital Asset Management
 - JSON:API
-- OAuth 2.0
+- Authentication
 - OpenAPI
 ---

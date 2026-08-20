@@ -33,7 +33,7 @@ tags:
 - Company
 - Biotech
 - Biopharmaceutical
-- Pharmaceutical
+- Pharmaceuticals
 - Life Sciences
 - Acquired
 ---

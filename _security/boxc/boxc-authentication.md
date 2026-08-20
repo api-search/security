@@ -179,10 +179,10 @@ tags:
 - Company
 - Logistics
 - Shipping
-- Ecommerce
+- E-Commerce
 - Cross-Border
 - Fulfillment
 - Customs
 - Tracking
-- Webhooks
+- Webhook
 ---

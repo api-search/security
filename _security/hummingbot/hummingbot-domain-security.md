@@ -144,7 +144,7 @@ tags:
 - Blockchain
 - DeFi
 - DEX
-- Open Source
+- Open-Source
 - Market Making
 - Algorithmic Trading
 - Bots

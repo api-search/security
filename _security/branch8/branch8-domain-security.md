@@ -34,9 +34,9 @@ tags:
 - E-Commerce
 - CRM
 - CDP
-- Managed Services
+- Managed Service
 - Digital Operations
 - Data Engineering
 - AI Automation
-- Asia-Pacific
+- Asia Pacific
 ---

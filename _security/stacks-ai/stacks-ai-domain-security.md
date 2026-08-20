@@ -83,9 +83,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- Agents
 - Artificial Intelligence
+- Agents
 - LLM
 - No-Code
 - Automation

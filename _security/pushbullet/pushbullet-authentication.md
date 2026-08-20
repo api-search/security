@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pushbull
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/authentication/pushbullet-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- Notifications
+- Notification
 - Messaging
 - Push Notifications
 - Device Sync

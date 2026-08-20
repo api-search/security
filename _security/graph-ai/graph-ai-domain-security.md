@@ -37,5 +37,5 @@ tags:
 - Life Sciences
 - Healthcare
 - Regulatory Compliance
-- SaaS
+- Software-as-a-Service
 ---

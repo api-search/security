@@ -224,8 +224,8 @@ tags:
 - Test Automation
 - Observability
 - DevOps
-- Cloud Native
+- Cloud-Native
 - Quality Assurance
-- Open Source
-- Model Context Protocol
+- Open-Source
+- MCP
 ---

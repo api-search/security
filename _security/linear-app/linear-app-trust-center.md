@@ -23,7 +23,7 @@ tags:
 - Project Management
 - Issue Tracking
 - Productivity
-- SaaS
+- Software-as-a-Service
 - GraphQL
 - Developer Tools
 - Agents

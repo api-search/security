@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/campus-apartme
 summary_line: TLSv1.3 · DMARC
 tags:
 - Student Housing
-- Real Estate
+- Real-Estate
 - Property Management
 - Higher Education
 - Multifamily

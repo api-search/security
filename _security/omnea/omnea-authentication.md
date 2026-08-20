@@ -62,7 +62,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/omnea/refs/hea
 summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Procurement
 - Source-to-Pay
 - Supplier Management

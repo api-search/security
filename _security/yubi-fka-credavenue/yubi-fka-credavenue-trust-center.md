@@ -25,7 +25,7 @@ tags:
 - Co-Lending
 - Securitisation
 - Supply Chain Finance
-- Financial Services
+- Financial-Services
 - India
 - Credit
 trust_url: https://trust.go-yubi.com/

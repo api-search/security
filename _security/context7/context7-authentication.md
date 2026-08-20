@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/context7
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/authentication/context7-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Context
 - Documentation
 - LLM

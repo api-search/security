@@ -35,10 +35,10 @@ tags:
 - Ecosystem Intelligence
 - Ecosystem Mapping
 - Resource Navigation
-- Nonprofit
+- Non-Profit
 - State and Local Government
 - Chambers of Commerce
 - Artificial Intelligence
 - Analytics
-- SaaS
+- Software-as-a-Service
 ---

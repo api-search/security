@@ -67,7 +67,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-aci/refs
 summary_line: 3 schemes
 tags:
 - SDN
-- Data Center
+- Data-Center
 - Networking
 - Fabric
 - Automation

@@ -52,7 +52,6 @@ tags:
 - India
 - Federal Bank
 - MCP
-- Model Context Protocol
 - AI Assistant
 - Mobile Banking
 ---

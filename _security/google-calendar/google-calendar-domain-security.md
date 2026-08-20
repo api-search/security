@@ -70,7 +70,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Availability
 - Calendar
-- Events
+- Event
 - Google
 - Google Workspace
 - Scheduling

@@ -39,7 +39,7 @@ tags:
 - Data
 - Streaming
 - Change Data Capture
-- Real-time
+- Real-Time
 - Data Integration
 - Streaming Analytics
 ---

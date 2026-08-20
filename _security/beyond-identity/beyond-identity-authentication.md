@@ -134,7 +134,6 @@ tags:
 - Passkeys
 - MFA
 - Device Security
-- OAuth 2.0
 - OIDC
 - SCIM
 ---

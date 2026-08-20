@@ -55,5 +55,5 @@ tags:
 - Notion
 - Salesforce
 - HubSpot
-- Workflow
+- Workflows
 ---

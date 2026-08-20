@@ -128,7 +128,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Open Source
+- Open-Source
 - Software Supply Chain
 - Dependency Management
 - Application Security

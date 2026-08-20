@@ -32,9 +32,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Vendor Management
-- VMS
+- VMs
 - Contingent Workforce
-- Human Capital Management
+- HCM
 - Procurement
 - Workday
 ---

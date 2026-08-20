@@ -206,10 +206,10 @@ tags:
 - SPEI
 - Mexico
 - Latin America
-- LATAM
+- LatAm
 - Fintech
-- Subscriptions
-- Antifraud
+- Subscription
+- Anti-Fraud
 - Checkout
 - BNPL
 - 3D Secure

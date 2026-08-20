@@ -36,6 +36,6 @@ tags:
 - Anti-Counterfeiting
 - Artificial Intelligence
 - Trust and Safety
-- E-commerce
+- E-Commerce
 - Content Enforcement
 ---

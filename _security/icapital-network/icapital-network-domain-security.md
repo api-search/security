@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/icapital-netwo
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Alternative Investments
 - Private Markets
 - Wealth Management

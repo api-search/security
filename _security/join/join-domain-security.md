@@ -32,9 +32,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Video Commerce
-- E-commerce
+- E-Commerce
 - Shoppable Video
-- User-Generated Content
+- User Generated Content
 - Video Analytics
 - AI Video
 - Retail

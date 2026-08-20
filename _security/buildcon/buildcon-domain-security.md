@@ -37,6 +37,6 @@ tags:
 - Construction Technology
 - Project Management
 - Warehouse Management
-- SaaS
+- Software-as-a-Service
 - Digitalisation
 ---

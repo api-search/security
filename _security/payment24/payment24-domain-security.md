@@ -37,7 +37,7 @@ tags:
 - Loyalty
 - Card Issuing
 - Acquiring
-- Point of Sale
+- Point-of-Sale
 - EV Charging
 - Telematics
 - Fintech

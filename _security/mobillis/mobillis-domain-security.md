@@ -37,6 +37,6 @@ tags:
 - Wallets
 - Fleet Management
 - Prepaid
-- Webhooks
+- Webhook
 - Ledger
 ---

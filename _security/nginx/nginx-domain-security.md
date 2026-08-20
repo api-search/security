@@ -200,9 +200,9 @@ summary_line: TLSv1.2 · HSTS
 tags:
 - API Gateway
 - Caching
-- Cloud Native
+- Cloud-Native
 - Load Balancer
-- Open Source
+- Open-Source
 - Reverse Proxy
 - Web Server
 ---

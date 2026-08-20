@@ -59,10 +59,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gradient
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/authentication/gradient-labs-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
-- Customer Support
+- Artificial Intelligence
+- Customer-Support
 - AI Agent
 - Conversations
-- Financial Services
+- Financial-Services
 - Regulated
 ---

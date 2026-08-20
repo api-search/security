@@ -59,6 +59,6 @@ tags:
 - Financial Crime
 - KYC
 - Compliance
-- Open Source
+- Open-Source
 - Acquired
 ---

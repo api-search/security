@@ -319,8 +319,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/
 summary_line: apiKey/http · 2 schemes
 tags:
 - Collaboration
-- Communication
-- Financial Services
+- Communications
+- Financial-Services
 - Messaging
 - Secure Communication
 ---

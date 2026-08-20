@@ -51,7 +51,6 @@ tags:
 - ACAS
 - AES
 - AESDirect
-- APIS
 - Borders
 - Cargo
 - CBP
@@ -59,8 +58,8 @@ tags:
 - Department of Homeland Security
 - DHS
 - EDI
-- Exports
-- Federal Government
+- Export
+- Federal-Government
 - Imports
 - International Trade
 - Manifests

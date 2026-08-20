@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Oilfield Services
 - Energy
-- Oil And Gas
+- Oil and Gas
 - Well Services
 - Pressure Pumping
 - Fortune 1000

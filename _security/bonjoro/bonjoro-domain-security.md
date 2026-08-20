@@ -41,14 +41,14 @@ source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/security/bonjoro-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- video-messaging
-- customer-engagement
-- customer-success
-- sales-engagement
-- marketing-automation
-- video
-- crm-integration
-- testimonials
-- saas
-- australia
+- Video Messaging
+- Customer Engagement
+- Customer Success
+- Sales Engagement
+- Marketing Automation
+- Video
+- CRM Integration
+- Testimonials
+- Software-as-a-Service
+- Australia
 ---

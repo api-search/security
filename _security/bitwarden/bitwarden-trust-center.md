@@ -57,7 +57,7 @@ summary_line: SOC 2, GDPR
 tags:
 - Security
 - Password Manager
-- Open Source
+- Open-Source
 - Vault
 - Identity
 - SCIM

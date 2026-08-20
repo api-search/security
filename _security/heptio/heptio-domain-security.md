@@ -27,9 +27,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heptio/refs/he
 summary_line: DMARC
 tags:
 - Company
-- Open Source
+- Open-Source
 - Kubernetes
-- Cloud Native
+- Cloud-Native
 - Containers
 - DevOps
 - Infrastructure

@@ -84,11 +84,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Customer Experience
-- Net Promoter Score
+- NPS
 - Surveys
 - Feedback
 - Reputation Management
-- SaaS
+- Software-as-a-Service
 - Customer Success
 - Reviews
 - SMS

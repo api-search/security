@@ -155,6 +155,6 @@ tags:
 - Wiki
 - Documents
 - Collaboration
-- Open Source
+- Open-Source
 - Team
 ---

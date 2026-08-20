@@ -36,6 +36,6 @@ tags:
 - EdTech
 - Study Tools
 - Homework Help
-- Machine Learning
+- Machine-Learning
 - Consumer
 ---

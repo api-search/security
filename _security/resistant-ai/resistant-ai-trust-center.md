@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/resistant-ai/r
 summary_line: trust center published
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Fraud Detection
 - Financial Crime
 - Document Verification
@@ -38,6 +38,6 @@ tags:
 - AML
 - Identity Verification
 - Fintech
-- Machine Learning
+- Machine-Learning
 trust_url: https://trust.resistant.ai/
 ---

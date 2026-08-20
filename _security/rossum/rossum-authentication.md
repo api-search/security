@@ -63,11 +63,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rossum-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rossum/refs/heads/main/authentication/rossum-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Document AI
 - IDP
 - Invoices
 - OCR
-- Workflow
+- Workflows
 - AP Automation
 ---

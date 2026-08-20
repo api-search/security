@@ -466,6 +466,6 @@ tags:
 - Marketing
 - Professional Networking
 - Recruiting
-- Social Media
+- Social-Media
 - Fortune 1000
 ---

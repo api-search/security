@@ -21,7 +21,7 @@ tags:
 - Appraisal Management
 - Mortgage
 - Lending
-- Real Estate
+- Real-Estate
 - Valuation
 - Loan Origination
 - LOS Integration

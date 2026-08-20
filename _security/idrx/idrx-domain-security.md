@@ -41,7 +41,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/security/idrx-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- Stablecoin
+- Stablecoins
 - Cryptocurrency
 - Payments
 - Blockchain

@@ -33,6 +33,6 @@ tags:
 - Restaurant Technology
 - Food Ordering
 - Online Ordering
-- Restaurants
+- Restaurant
 - Takeout and Delivery
 ---

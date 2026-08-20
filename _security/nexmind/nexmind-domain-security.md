@@ -36,5 +36,5 @@ tags:
 - Artificial Intelligence
 - Litigation
 - Document Analysis
-- SaaS
+- Software-as-a-Service
 ---

@@ -30,13 +30,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eloquentai/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
 - Artificial Intelligence
 - AI Agents
 - Agentic AI
 - Customer Service
 - Customer Support Automation
-- Financial Services
+- Financial-Services
 - Fintech
 - Regulated Industries
 ---

@@ -32,9 +32,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Formalwear
-- Ecommerce
+- E-Commerce
 - Retail
-- Rental
+- Rentals
 - Weddings
 - Apparel
 - Direct to Consumer

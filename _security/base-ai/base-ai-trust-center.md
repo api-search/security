@@ -29,7 +29,7 @@ tags:
 - Customer Success
 - Customer Marketing
 - Advocacy
-- RevOps
-- SaaS
+- Revenue Operations
+- Software-as-a-Service
 trust_url: https://www.base.ai/platform/security-and-privacy
 ---

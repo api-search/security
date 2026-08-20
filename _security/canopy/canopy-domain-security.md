@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Auto Insurance
 - Casualty
-- Financial Services
+- Financial-Services
 - Homeowners Insurance
 - Insurance
 - Insurance Verification

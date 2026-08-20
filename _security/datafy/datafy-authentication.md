@@ -42,5 +42,5 @@ tags:
 - Marketing
 - Visitation Data
 - Destination Marketing
-- Measurement
+- Measurements
 ---

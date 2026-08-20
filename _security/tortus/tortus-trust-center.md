@@ -25,7 +25,7 @@ tags:
 - Artificial Intelligence
 - Ambient Clinical Documentation
 - Medical Scribe
-- Speech to Text
+- Speech-to-Text
 - EHR Integration
 - NHS
 - Embed SDK

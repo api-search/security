@@ -66,8 +66,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs
 summary_line: http · 1 scheme
 tags:
 - Database
-- Realtime
+- Real-Time
 - Sync
 - Backend
-- Local First
+- Local-First
 ---

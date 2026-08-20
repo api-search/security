@@ -45,7 +45,7 @@ tags:
 - Company
 - Developer Productivity
 - Engineering Intelligence
-- AI
+- Artificial Intelligence
 - Software Development
 - Analytics
 - Metrics

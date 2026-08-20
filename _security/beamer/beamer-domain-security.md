@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Changelog
 - Deprecation
-- Notifications
+- Notification
 - Product Updates
 - User Engagement
 ---

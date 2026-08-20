@@ -72,9 +72,9 @@ summary_line: http-bearer/oauth2 · 2 schemes
 tags:
 - Company
 - Developer Tools
-- AI
+- Artificial Intelligence
 - Developer Experience
-- Knowledge Management
+- Knowledge-Management
 - Code Review
 - MCP
 - AI Agents

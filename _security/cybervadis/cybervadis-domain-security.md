@@ -36,5 +36,5 @@ tags:
 - Vendor Risk Management
 - Security Ratings
 - Governance Risk Compliance
-- Infrastructure SaaS
+- Infrastructure Saas
 ---

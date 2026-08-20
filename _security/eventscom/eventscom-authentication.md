@@ -702,16 +702,16 @@ source_yaml: "generated: '2026-08-04'\nmethod: derived\nsource: openapi/eventsco
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/authentication/eventscom-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- event-management
-- ticketing
-- event-registration
-- event-marketing
-- sponsorship
-- event-discovery
-- data-platform
-- business-intelligence
-- artificial-intelligence
-- mcp
+- Event Management
+- Ticketing
+- Event Registration
+- Event Marketing
+- Sponsorship
+- Event Discovery
+- Data Platform
+- Business Intelligence
+- Artificial Intelligence
+- MCP
 - agent-native
-- no-code
+- No-Code
 ---

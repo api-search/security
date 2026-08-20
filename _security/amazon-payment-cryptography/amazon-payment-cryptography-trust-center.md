@@ -143,7 +143,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Cryptography
-- Financial Services
+- Financial-Services
 - Payment Processing
 - PCI
 trust_url: https://aws.amazon.com/compliance/

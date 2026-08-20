@@ -23,7 +23,7 @@ tags:
 - Threat Detection
 - Security Operations
 - SIEM
-- AI
+- Artificial Intelligence
 - SOC
 - Cloud Security
 trust_url: https://artemissecurity.com/security/

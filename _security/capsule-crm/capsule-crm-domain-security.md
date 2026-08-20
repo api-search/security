@@ -80,7 +80,7 @@ tags:
 - Sales
 - Contacts
 - Pipeline Management
-- Tasks
-- Projects
+- Task
+- Project
 - SMB
 ---

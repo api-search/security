@@ -44,7 +44,7 @@ tags:
 - Staffing
 - Gig Economy
 - Workforce Management
-- Jobs
+- Job
 - Scheduling
 - On-Demand Staffing
 - Chat

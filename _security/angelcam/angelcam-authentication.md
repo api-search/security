@@ -223,12 +223,12 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company
 - Video Surveillance
-- Cameras
+- Camera
 - IP Camera
 - Cloud Recording
 - Video Streaming
 - IoT
 - ONVIF
 - Security
-- Webhooks
+- Webhook
 ---

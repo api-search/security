@@ -32,8 +32,8 @@ tags:
 - Ethereum
 - Trading
 - Fintech
-- Wallet
+- Wallets
 - Blockchain
-- Financial Services
+- Financial-Services
 trust_url: https://trust.luno.com/
 ---

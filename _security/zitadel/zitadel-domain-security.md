@@ -76,7 +76,6 @@ tags:
 - Authentication
 - Authorization
 - Identity Management
-- Open Source
-- OAuth 2.0
+- Open-Source
 - OIDC
 ---

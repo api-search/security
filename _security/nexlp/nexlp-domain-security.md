@@ -31,7 +31,7 @@ summary_line: DNSSEC · DMARC
 tags:
 - Company
 - Legal
-- LegalTech
+- Legal Tech
 - Artificial Intelligence
 - eDiscovery
 - Compliance

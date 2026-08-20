@@ -97,7 +97,6 @@ tags:
 - Invoicing
 - Metering
 - Usage-Based
-- Subscriptions
+- Subscription
 - Payments
-- API
 ---

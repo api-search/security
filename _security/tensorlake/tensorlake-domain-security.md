@@ -92,7 +92,7 @@ tags:
 - Document Parsing
 - OCR
 - Data Ingestion
-- AI
+- Artificial Intelligence
 - Unstructured Data
 - Document AI
 - RAG

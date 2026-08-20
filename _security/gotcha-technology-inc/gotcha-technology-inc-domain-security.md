@@ -30,9 +30,9 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Emotion AI
 - Facial Analysis
-- Machine Learning
+- Machine-Learning
 - Affective Computing
 ---

@@ -66,11 +66,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/security/stay-ai-trust-center.yml
 summary_line: SOC 2
 tags:
-- Subscriptions
+- Subscription
 - Retention
 - Churn
 - Shopify
-- Ecommerce
-- DTC
+- E-Commerce
+- Direct to Consumer
 trust_url: https://trust.stay.ai/
 ---

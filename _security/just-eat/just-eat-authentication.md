@@ -198,11 +198,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/just-eat/refs/
 summary_line: apiKey/http/openIdConnect · 4 schemes
 tags:
 - Food Delivery
-- Restaurants
+- Restaurant
 - Marketplace
 - Logistics
-- Orders
+- Order
 - Delivery
-- Point of Sale
-- E-commerce
+- Point-of-Sale
+- E-Commerce
 ---

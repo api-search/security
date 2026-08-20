@@ -28,6 +28,6 @@ tags:
 - Crash Reporting
 - Application Performance Monitoring
 - Developer Tools
-- Model Context Protocol
+- MCP
 trust_url: https://trust.embrace.io/
 ---

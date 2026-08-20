@@ -35,7 +35,7 @@ tags:
 - Blockchain
 - Democracy
 - Decentralized Identity
-- Open Source
+- Open-Source
 - Web3
-- Nonprofit
+- Non-Profit
 ---

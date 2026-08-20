@@ -73,8 +73,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics
 - Big Data
-- Cube
+- cube
 - OLAP
-- Open Source
+- Open-Source
 - SQL
 ---

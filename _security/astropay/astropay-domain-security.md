@@ -38,13 +38,13 @@ tags:
 - Payments
 - Payment Processing
 - Payouts
-- Wallet
+- Wallets
 - Digital Wallet
-- Multicurrency
+- Multi-Currency
 - Cards
 - Card Issuing
-- PIX
-- LATAM
+- Pix
+- LatAm
 - Latin America
 - Brazil
 - Argentina

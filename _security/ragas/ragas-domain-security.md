@@ -32,7 +32,7 @@ tags:
 - AI Evaluation
 - LLM
 - RAG
-- Open Source
+- Open-Source
 - Python
 - Metrics
 ---

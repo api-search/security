@@ -166,9 +166,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authlete/refs/
 summary_line: http · 1 scheme
 tags:
 - Company
-- OAuth 2.0
-- OpenID Connect
 - Authentication
+- OpenID Connect
 - Authorization
 - Identity
 - API Security

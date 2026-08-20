@@ -70,8 +70,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/
 summary_line: oauth2 · 1 scheme
 tags:
 - API Testing
-- Cloud Native
+- Cloud-Native
 - DevOps
 - Mocking
-- Open Source
+- Open-Source
 ---

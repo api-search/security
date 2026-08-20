@@ -90,7 +90,7 @@ tags:
 - Infrastructure
 - Private Cloud
 - Hosting
-- Data Center
+- Data-Center
 - Compute
 - Storage
 ---

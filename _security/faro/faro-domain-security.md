@@ -38,5 +38,5 @@ tags:
 - Artificial Intelligence
 - Biopharma
 - Protocol Authoring
-- Workflow Automation
+- Workflow-Automation
 ---

@@ -29,7 +29,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: live anonymous HT
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/authentication/connells-authentication.yml
 summary_line: 0 schemes
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Listings
 - Brokerage

@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-do
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/authentication/azure-document-intelligence-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Document AI
 - Azure
 - IDP

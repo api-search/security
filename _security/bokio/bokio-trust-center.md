@@ -122,6 +122,6 @@ tags:
 - Payments
 - Sweden
 - SMB
-- OAuth
+- Authentication
 trust_url: https://www.visma.com/trust-centre/
 ---

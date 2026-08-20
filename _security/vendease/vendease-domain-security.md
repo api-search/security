@@ -34,7 +34,7 @@ tags:
 - Marketplace
 - Food
 - Procurement
-- FoodTech
+- Food Tech
 - BNPL
 - Logistics
 - Nigeria

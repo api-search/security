@@ -34,9 +34,9 @@ tags:
 - Fintech Insurtech
 - Mortgage
 - Lending
-- Real Estate
+- Real-Estate
 - Brokerage
 - France
 - Consumer Finance
-- Financial Services
+- Financial-Services
 ---

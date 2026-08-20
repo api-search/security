@@ -100,7 +100,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lilt/refs/head
 summary_line: SOC 2 Type II, ISO 9001, ISO 18587
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Translation
 - Localization
 - Machine Translation

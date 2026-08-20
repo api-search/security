@@ -34,7 +34,7 @@ tags:
 - Print on Demand
 - Commercial Print
 - Marketplace
-- Ecommerce
+- E-Commerce
 - Brazil
 - Cimpress
 - Partner Gated

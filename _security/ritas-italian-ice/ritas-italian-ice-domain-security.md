@@ -29,7 +29,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ritas-italian-ice/refs/heads/main/security/ritas-italian-ice-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Restaurants
+- Restaurant
 - Food and Beverage
 - Frozen Desserts
 - Franchise

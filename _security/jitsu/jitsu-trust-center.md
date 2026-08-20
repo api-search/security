@@ -35,7 +35,7 @@ tags:
 - CDP
 - Data Pipeline
 - Analytics
-- Open Source
+- Open-Source
 - Ingestion
 trust_url: https://jitsu.com/security
 ---

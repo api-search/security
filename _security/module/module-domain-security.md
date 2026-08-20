@@ -35,6 +35,6 @@ tags:
 - Construction
 - Manufacturing
 - Modular
-- Real Estate
+- Real-Estate
 - Sustainability
 ---

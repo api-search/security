@@ -41,13 +41,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accelerant/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
-- InsurTech
+- Insurtech
 - Specialty Insurance
 - Underwriting
 - Risk Management
 - Reinsurance
 - Marketplace
 - Risk Scoring
-- Financial Services
+- Financial-Services
 - Artificial Intelligence
 ---

@@ -72,7 +72,7 @@ tags:
 - Knowledge Graph
 - Personalization
 - Data Privacy
-- Open Source
+- Open-Source
 - Developer Tools
 - RAG
 ---

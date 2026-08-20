@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zions-bancorp/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - Treasury Management
 - Payments
 - Fortune 1000

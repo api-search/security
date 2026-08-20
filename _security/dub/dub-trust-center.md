@@ -117,6 +117,6 @@ tags:
 - Analytics
 - Conversion Tracking
 - Affiliate Programs
-- Open Source
+- Open-Source
 trust_url: https://security.dub.co/
 ---

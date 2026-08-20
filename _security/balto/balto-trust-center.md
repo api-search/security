@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/balto/refs/hea
 summary_line: SOC 2, HIPAA, PCI DSS
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Contact Center
 - Conversation Intelligence
 - Agent Assist

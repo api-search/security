@@ -46,11 +46,11 @@ tags:
 - Payments
 - Payment Processing
 - Open Banking
-- E-commerce
+- E-Commerce
 - Shipping
 - Logistics
 - Financing
 - Baltics
-- Webhooks
+- Webhook
 - SDK
 ---

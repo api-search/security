@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/entera/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - PropTech
 - Single-Family Rental
 - SFR

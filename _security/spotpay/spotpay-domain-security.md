@@ -33,7 +33,7 @@ tags:
 - Company
 - Payments
 - Neobank
-- Stablecoin
+- Stablecoins
 - Blockchain
 - Fintech
 - Digital Wallet

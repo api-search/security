@@ -25,7 +25,7 @@ tags:
 - Business Operations
 - Adaptive OS
 - CRM
-- Workflow Automation
+- Workflow-Automation
 - Enterprise Software
 - Customer Interaction
 trust_url: https://widgera.com/

@@ -20,10 +20,10 @@ tags:
 - Insurance
 - Claims
 - Claims Management
-- InsurTech
+- Insurtech
 - Property and Casualty
 - Payments
-- Workflow Automation
+- Workflow-Automation
 - Analytics
 trust_url: https://app.vanta.com/snapsheet.me/trust/u2ikl0spltsrtythdhr25
 ---

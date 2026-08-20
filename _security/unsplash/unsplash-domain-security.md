@@ -79,10 +79,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Photos
-- Images
+- Image
 - Photography
 - Stock Photos
 - Creative
-- Open Source
+- Open-Source
 - Media
 ---

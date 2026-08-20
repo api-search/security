@@ -44,7 +44,7 @@ tags:
 - Consumer Brand
 - Personal Care
 - Beauty
-- E-commerce
+- E-Commerce
 - Direct to Consumer
 - China
 - No Public API

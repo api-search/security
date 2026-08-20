@@ -33,9 +33,9 @@ tags:
 - Company
 - Legal Tech
 - Legal AI
-- Knowledge Management
+- Knowledge-Management
 - Enterprise Search
 - AI Agents
 - Document Intelligence
-- Model Context Protocol
+- MCP
 ---

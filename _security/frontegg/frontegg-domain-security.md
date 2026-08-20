@@ -434,6 +434,5 @@ tags:
 - SSO
 - SCIM
 - Entitlements
-- OAuth
 - OpenID Connect
 ---

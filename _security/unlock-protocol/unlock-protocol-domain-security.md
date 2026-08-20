@@ -241,7 +241,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Blockchain
 - Memberships
-- Subscriptions
+- Subscription
 - NFT
 - Ticketing
 - Web3

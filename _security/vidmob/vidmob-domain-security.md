@@ -77,16 +77,16 @@ source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/security/vidmob-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- creative-intelligence
+- Creative Intelligence
 - creative-data
-- advertising
-- marketing
-- media-measurement
-- video
-- computer-vision
-- creative-analytics
-- adtech
-- mcp
+- Advertising
+- Marketing
+- Media Measurement
+- Video
+- Computer-Vision
+- Creative Analytics
+- AdTech
+- MCP
 - agent-native
-- martech
+- MarTech
 ---

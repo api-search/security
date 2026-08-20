@@ -556,17 +556,17 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/security/1fort-trust-center.yml
 summary_line: SOC 2 Type II, HIPAA, CCPA
 tags:
-- insurance
-- insurtech
-- commercial-insurance
-- cyber-insurance
-- insurance-broker
-- quoting
-- policy-management
+- Insurance
+- Insurtech
+- Commercial Insurance
+- Cyber Insurance
+- Insurance Broker
+- Quoting
+- Policy Management
 - premium-finance
-- payments
-- workflow-automation
-- artificial-intelligence
-- agentic-ai
+- Payments
+- Workflow-Automation
+- Artificial Intelligence
+- Agentic AI
 trust_url: https://security.1fort.com/
 ---

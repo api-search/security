@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/khmer-home/ref
 summary_line: TLSv1.3
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Property
 - Marketplace
 - Cambodia

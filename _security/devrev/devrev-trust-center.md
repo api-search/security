@@ -21,14 +21,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/devrev/refs/he
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Company
-- Customer Support
+- Customer-Support
 - Product Development
 - Issue Tracking
 - Knowledge Base
 - CRM
 - Developer Tools
-- AI
-- Webhooks
+- Artificial Intelligence
+- Webhook
 - Automation
 trust_url: https://security.devrev.ai/
 ---

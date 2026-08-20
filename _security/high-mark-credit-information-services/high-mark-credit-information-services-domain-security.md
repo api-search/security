@@ -34,7 +34,7 @@ tags:
 - Credit Bureau
 - Credit Information
 - Credit Scoring
-- Financial Services
+- Financial-Services
 - Risk Analytics
 - Microfinance
 - Lending

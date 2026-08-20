@@ -30,12 +30,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/el-dokan/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- eCommerce
+- E-Commerce
 - Headless Commerce
 - Composable Commerce
-- RetailTech
+- Retail Tech
 - API-First
-- SaaS
+- Software-as-a-Service
 - Multi-Vendor Marketplace
 - MENA
 - Egypt

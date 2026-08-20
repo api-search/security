@@ -25,7 +25,6 @@ tags:
 - Legal Tech
 - Law Firm
 - Artificial Intelligence
-- AI
 - Contracts
 - Y Combinator
 trust_url: https://trust.moritzlegal.com/

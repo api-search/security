@@ -31,7 +31,7 @@ tags:
 - Company
 - Cryptocurrency
 - Digital Asset Security
-- Wallet
+- Wallets
 - Custody
 - MPC
 - Blockchain

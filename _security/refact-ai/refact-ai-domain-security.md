@@ -36,7 +36,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/refact-ai/refs/heads/main/security/refact-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
 - Artificial Intelligence
 - Coding Assistant
 - AI Agent
@@ -49,10 +48,9 @@ tags:
 - JetBrains
 - Self-Hosting
 - On-Premise
-- Open Source
+- Open-Source
 - LSP
 - MCP
-- Model Context Protocol
 - Fine-Tuning
 - SWE-Bench
 - RAG

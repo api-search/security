@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/first-citizens
 summary_line: oauth2/http · 2 schemes
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - Commercial Banking
 - Payments
 - ACH

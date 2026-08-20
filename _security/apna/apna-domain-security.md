@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apna/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Jobs
+- Job
 - Recruiting
 - Professional Networking
 - Hiring

@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/he
 summary_line: SOC 2, ISO 27001
 tags:
 - Automation
-- Data Pipelines
+- Data Pipeline
 - Event-Driven
 - Orchestration
 - Workflows

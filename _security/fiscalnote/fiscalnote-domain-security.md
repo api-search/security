@@ -119,5 +119,5 @@ tags:
 - Legislation
 - Policy
 - Political Intelligence
-- Regulation
+- Regulations
 ---

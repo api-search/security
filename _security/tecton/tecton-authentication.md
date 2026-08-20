@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tecton/refs/he
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- Machine Learning
+- Machine-Learning
 - Feature Store
 - Feature Platform
 - MLOps

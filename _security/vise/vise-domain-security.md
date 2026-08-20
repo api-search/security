@@ -35,7 +35,7 @@ tags:
 - Wealth Management
 - Investment Management
 - Financial Advisors
-- Portfolio Management
+- Portfolio-Management
 - Direct Indexing
 - RIA
 ---

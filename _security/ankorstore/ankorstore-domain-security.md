@@ -172,10 +172,10 @@ tags:
 - Retail
 - Wholesale
 - Marketplace
-- E-commerce
+- E-Commerce
 - Ordering
 - Fulfillment
 - Catalog
-- Webhooks
+- Webhook
 - JSON:API
 ---

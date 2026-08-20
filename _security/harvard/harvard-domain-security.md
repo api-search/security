@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: harvard-dataverse-openapi.yml
+  format: yaml
+  label: Harvard Dataverse API
+  slug: dataverse
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-dataverse-openapi.yml
+- filename: harvard-lil-legal-ed-skills-hub-openapi.yml
+  format: yaml
+  label: Legal Ed Skills Hub (Harvard Law School Library Innovation Lab)
+  slug: lil-lawskills
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-lil-legal-ed-skills-hub-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,12 +58,19 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/security/harvard-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Libraries
-- Museums
+- Higher Education
+- Education
+- United States
+- Ivy League
+- Private Research University
+- Research Data
+- Research Repository
 - Open Metadata
 - OAI-PMH
+- Identity Federation
+- Libraries
+- Museums
+- Course Catalog
+- Research Computing
 ---

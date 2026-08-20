@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/business-softw
 summary_line: SOC 2, GDPR, CSA STAR
 tags:
 - B2B
-- SaaS
+- Software-as-a-Service
 - Software Reviews
 - Buyer Intent
 - Competitive Intelligence

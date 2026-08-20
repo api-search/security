@@ -522,7 +522,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/h
 summary_line: http · 1 scheme
 tags:
 - Databases
-- DBaaS
+- Database-as-a-Service
 - Multi-Cloud
 - Oracle
 - PostgreSQL

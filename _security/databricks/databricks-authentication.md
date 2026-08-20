@@ -48,7 +48,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/databric
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/authentication/databricks-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Analytics
 - Apache Spark
 - Big Data
@@ -63,7 +63,7 @@ tags:
 - ETL
 - Identity Management
 - Lakehouse
-- Machine Learning
+- Machine-Learning
 - MLflow
 - Model Serving
 - Security

@@ -36,6 +36,6 @@ tags:
 - ETL
 - Data Import
 - Artificial Intelligence
-- Data Pipelines
+- Data Pipeline
 - Data Quality
 ---

@@ -35,6 +35,6 @@ tags:
 - Personal Loans
 - Credit Builder
 - Consumer Finance
-- Financial Services
+- Financial-Services
 - CDFI
 ---

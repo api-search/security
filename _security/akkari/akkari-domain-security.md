@@ -35,8 +35,8 @@ tags:
 - Customer Success
 - Artificial Intelligence
 - Automation
-- Workflow Automation
-- SaaS
+- Workflow-Automation
+- Software-as-a-Service
 - Y Combinator
 - AI Agents
 ---

@@ -56,6 +56,6 @@ tags:
 - Content Recommendation
 - Marketing
 - Campaign Management
-- Demand Side Platform
+- Demand-Side Platform
 - Media Buying
 ---

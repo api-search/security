@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/torchmark/refs
 summary_line: TLSv1.3
 tags:
 - Annuities
-- Financial Services
+- Financial-Services
 - Fortune 1000
 - Insurance
 - Life Insurance

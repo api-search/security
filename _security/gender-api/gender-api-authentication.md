@@ -48,10 +48,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gender-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/authentication/gender-api-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Demographics
 - Gender
 - Identity
-- Names
+- Name
 - Personal Data
 ---

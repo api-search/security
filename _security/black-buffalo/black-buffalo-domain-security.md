@@ -51,12 +51,12 @@ tags:
 - Consumer Packaged Goods
 - Nicotine Pouches
 - Smokeless Tobacco Alternative
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Retail
 - Agentic Commerce
 - Shopify
 - GraphQL
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 ---

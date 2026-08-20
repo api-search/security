@@ -46,5 +46,5 @@ tags:
 - Fediverse
 - News
 - RSS
-- Social Media
+- Social-Media
 ---

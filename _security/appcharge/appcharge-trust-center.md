@@ -131,6 +131,6 @@ tags:
 - Checkout
 - In-Game Purchases
 - Web Store
-- eCommerce
+- E-Commerce
 trust_url: https://docs.appcharge.com/merchant-of-record/security/about-security-at-appcharge
 ---

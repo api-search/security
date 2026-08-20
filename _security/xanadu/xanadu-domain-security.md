@@ -51,7 +51,7 @@ tags:
 - Photonic Quantum Computing
 - Quantum Machine Learning
 - Continuous Variable
-- Open Source
+- Open-Source
 - Python
 - PennyLane
 - Strawberry Fields

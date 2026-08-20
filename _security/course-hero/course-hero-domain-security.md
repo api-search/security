@@ -36,11 +36,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/course-hero/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Edtech
+- EdTech
 - Education
 - Learning
 - Study Resources
 - Tutoring
-- AI
+- Artificial Intelligence
 - Consumer
 ---

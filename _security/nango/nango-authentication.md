@@ -60,9 +60,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nango/refs/hea
 summary_line: http · 1 scheme
 tags:
 - AI Agents
-- Integrations
-- OAuth
+- Integration
+- Authentication
 - Syncing
-- Unified API
-- Webhooks
+- Unified-API
+- Webhook
 ---

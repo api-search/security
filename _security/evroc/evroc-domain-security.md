@@ -41,5 +41,5 @@ tags:
 - AI Infrastructure
 - GPU
 - Europe
-- IaaS
+- Infrastructure-as-a-Service
 ---

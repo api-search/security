@@ -104,10 +104,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Commerce
 - Shopping Cart
-- Orders
-- Products
+- Order
+- Product
 - Payments
-- Webhooks
+- Webhook
 - Headless Commerce
-- Jamstack
+- JAMstack
 ---

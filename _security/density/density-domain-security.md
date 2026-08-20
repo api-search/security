@@ -46,10 +46,10 @@ tags:
 - Enterprise
 - Occupancy Sensors
 - Workplace Analytics
-- Real Time
+- Real-Time
 - Occupancy
 - Sensors
 - IoT
 - Space Utilization
-- Proptech
+- PropTech
 ---

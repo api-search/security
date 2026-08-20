@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alkymi/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Private Markets
 - Document Processing
 - Data Extraction
 - Artificial Intelligence
 - Alternative Investments
-- Webhooks
+- Webhook
 ---

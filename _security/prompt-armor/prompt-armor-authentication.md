@@ -43,7 +43,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/prompt-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prompt-armor/refs/heads/main/authentication/prompt-armor-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Security
 - Prompt Injection

@@ -38,6 +38,6 @@ tags:
 - Enterprise Integration
 - Integration
 - Messaging
-- Open Source
+- Open-Source
 - Routing
 ---

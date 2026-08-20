@@ -45,7 +45,7 @@ tags:
 - Cross-Border Payments
 - Foreign Exchange
 - Fintech
-- Collections
+- Collection
 - B2B Payments
 - Embedded Finance
 - Southeast Asia

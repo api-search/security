@@ -68,7 +68,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Shipping
 - Logistics
 - Parcel Delivery

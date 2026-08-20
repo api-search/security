@@ -70,11 +70,11 @@ tags:
 - SMS
 - Marketing
 - Messaging
-- E-commerce
+- E-Commerce
 - Shopify
 - RCS
 - Subscribers
-- Webhooks
+- Webhook
 - Compliance
 trust_url: https://trust.postscript.io/
 ---

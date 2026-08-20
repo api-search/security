@@ -105,6 +105,6 @@ tags:
 - Ingredients
 - Drug Discovery
 - Agrifood
-- Content API
+- content-api
 - WordPress
 ---

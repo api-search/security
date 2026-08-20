@@ -114,7 +114,7 @@ tags:
 - B2B
 - Data Integration
 - EDI
-- Integrations
+- Integration
 - Management
 - MFT
 - Platform

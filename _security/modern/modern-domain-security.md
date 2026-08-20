@@ -83,6 +83,6 @@ tags:
 - Field Service
 - Work Orders
 - Customer Communications
-- Notifications
+- Notification
 - Partner API
 ---

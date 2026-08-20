@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vlex-ice
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vlex/refs/heads/main/authentication/vlex-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Classification
 - Legal Research
 - Legal Tech

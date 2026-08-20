@@ -87,11 +87,11 @@ tags:
 - Code Generation
 - Developer Tools
 - OpenAPI
-- SDKs
+- SDK
 - TypeScript
 - Python
 - API Design
 - Specifications
 - Registry
-- Open Source
+- Open-Source
 ---

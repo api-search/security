@@ -33,7 +33,7 @@ tags:
 - E-Commerce
 - Retail
 - Apparel
-- Direct-to-Consumer
+- Direct to Consumer
 - Subscription
 - Consumer Products
 ---

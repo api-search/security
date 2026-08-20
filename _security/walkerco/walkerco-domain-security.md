@@ -44,7 +44,7 @@ tags:
 - Company
 - Health and Beauty
 - Consumer Products
-- Ecommerce
+- E-Commerce
 - Grooming
 - Personal Care
 - Shopify

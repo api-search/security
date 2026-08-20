@@ -71,7 +71,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Brokerage
 - Market Data
-- Orders
+- Order
 - Portfolio
 - Trading
 ---

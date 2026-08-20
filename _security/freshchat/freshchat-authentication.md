@@ -109,7 +109,7 @@ summary_line: http · 1 scheme
 tags:
 - Customer Messaging
 - Live Chat
-- Customer Support
+- Customer-Support
 - Conversational Engagement
 - Omnichannel Messaging
 - Chatbots

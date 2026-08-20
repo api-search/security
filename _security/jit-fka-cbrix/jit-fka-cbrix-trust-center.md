@@ -24,6 +24,5 @@ tags:
 - ASPM
 - Security
 - Vulnerability Management
-- API
 trust_url: https://trust.jit.io/
 ---

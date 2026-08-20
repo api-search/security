@@ -39,5 +39,5 @@ tags:
 - Workforce
 - Dispatch
 - Malaysia
-- Webhooks
+- Webhook
 ---

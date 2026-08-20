@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/agenta-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/authentication/agenta-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - LLMOps
 - Prompt Management
 - LLM Evaluation

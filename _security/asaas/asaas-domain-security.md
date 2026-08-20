@@ -42,13 +42,13 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
 - Billing
-- Subscriptions
+- Subscription
 - Pix
 - Boleto
 - Credit Card
 - Checkout
 - Split Payments
-- Webhooks
+- Webhook
 - Digital Account
 - Receivables
 - Invoicing

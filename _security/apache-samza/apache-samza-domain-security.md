@@ -59,5 +59,5 @@ tags:
 - Stream Processing
 - Streaming
 - Apache
-- Open Source
+- Open-Source
 ---

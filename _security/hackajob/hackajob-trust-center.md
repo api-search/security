@@ -22,7 +22,7 @@ tags:
 - Recruitment
 - Hiring
 - Talent
-- Jobs
+- Job
 - HR Tech
 - AI Agents
 - Contract Hiring

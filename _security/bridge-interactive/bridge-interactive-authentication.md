@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bridge-i
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/authentication/bridge-interactive-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Real Estate
+- Real-Estate
 - MLS
 - RESO
 - Listings

@@ -99,6 +99,6 @@ tags:
 - Data Integration
 - ETL
 - ELT
-- Data Pipelines
+- Data Pipeline
 - Cloud Data Warehouse
 ---

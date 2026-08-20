@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Advertising
-- Digital Out-of-Home
+- Digital Out Of Home
 - DOOH
 - Mobility
 - Rideshare

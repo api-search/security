@@ -32,6 +32,6 @@ tags:
 - Hospitality
 - Hotels
 - REIT
-- Real Estate
+- Real-Estate
 - Fortune 500
 ---

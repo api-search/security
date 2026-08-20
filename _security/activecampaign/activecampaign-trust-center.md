@@ -284,8 +284,8 @@ tags:
 - Sales Automation
 - Customer Experience
 - SMS Marketing
-- Ecommerce
+- E-Commerce
 - Segmentation
-- Webhooks
+- Webhook
 trust_url: https://www.activecampaign.com/security
 ---

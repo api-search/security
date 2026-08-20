@@ -52,5 +52,5 @@ tags:
 - Digital Wallet
 - Bangladesh
 - Checkout
-- Webhooks
+- Webhook
 ---

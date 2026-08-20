@@ -37,12 +37,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Retail
-- Ecommerce
+- E-Commerce
 - Apparel
 - Direct to Consumer
 - Commerce
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 ---

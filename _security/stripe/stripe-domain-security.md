@@ -1001,7 +1001,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stripe/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Commerce
-- Financial Services
+- Financial-Services
 - Fintech
 - Payments
 - T1

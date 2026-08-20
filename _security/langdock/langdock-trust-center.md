@@ -116,9 +116,9 @@ tags:
 - Enterprise AI
 - LLM
 - Agents
-- Model Context Protocol
+- MCP
 - Workflows
-- Knowledge Management
+- Knowledge-Management
 - Germany
 - Europe
 trust_url: https://trust.langdock.com/

@@ -47,9 +47,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paysafe/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
-- Digital Wallets
+- Digital Wallet
 - Prepaid Cards
-- Financial Services
+- Financial-Services
 - Fintech
 - High-Risk Payments
 ---

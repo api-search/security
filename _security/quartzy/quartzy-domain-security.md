@@ -83,5 +83,5 @@ tags:
 - Procurement
 - Ordering
 - Laboratory
-- Webhooks
+- Webhook
 ---

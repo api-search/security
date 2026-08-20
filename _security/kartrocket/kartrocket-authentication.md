@@ -43,9 +43,9 @@ tags:
 - Company
 - Shipping
 - Logistics
-- eCommerce
+- E-Commerce
 - Fulfillment
-- Last-Mile Delivery
+- Last Mile Delivery
 - India
 - Order Management
 ---

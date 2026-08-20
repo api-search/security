@@ -38,7 +38,7 @@ tags:
 - Advertising
 - AdTech
 - Analytics
-- Real Time
+- Real-Time
 - Data Ingestion
 - Programmatic Advertising
 - OpenRTB

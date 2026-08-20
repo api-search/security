@@ -62,6 +62,6 @@ tags:
 - Employment
 - Hiring
 - Job Search
-- Jobs
+- Job
 - Recruiting
 ---

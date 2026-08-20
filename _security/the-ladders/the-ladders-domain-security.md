@@ -37,7 +37,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Consumer
-- Jobs
+- Job
 - Careers
 - Recruiting
 - Job Search

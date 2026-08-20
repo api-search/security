@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thamarah-al-ji
 summary_line: openIdConnect/oauth2 · 1 scheme
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Marketplace
 - Luxury
 - Resale

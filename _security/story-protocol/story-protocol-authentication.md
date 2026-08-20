@@ -115,6 +115,5 @@ tags:
 - Royalties
 - Web3
 - NFT
-- API
 - Developer Tools
 ---

@@ -34,8 +34,8 @@ tags:
 - Booking
 - Scheduling
 - Payments
-- Point of Sale
+- Point-of-Sale
 - Barbershop
-- SaaS
+- Software-as-a-Service
 - Small Business
 ---

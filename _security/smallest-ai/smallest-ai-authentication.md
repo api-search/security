@@ -47,9 +47,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/smallest
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smallest-ai/refs/heads/main/authentication/smallest-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
-- Text to Speech
+- Artificial Intelligence
+- Text-to-Speech
 - Voice
-- Realtime
+- Real-Time
 - Voice Agents
 ---

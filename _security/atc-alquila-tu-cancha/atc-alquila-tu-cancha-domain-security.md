@@ -47,6 +47,6 @@ tags:
 - Sports Management
 - Payments
 - Mobile
-- SaaS
-- LATAM
+- Software-as-a-Service
+- LatAm
 ---

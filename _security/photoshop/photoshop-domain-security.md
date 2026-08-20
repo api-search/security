@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/photoshop/refs
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Adobe
-- AI
+- Artificial Intelligence
 - Image Editing
 - Photoshop
 - Firefly Services

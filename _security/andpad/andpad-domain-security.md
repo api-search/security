@@ -44,8 +44,7 @@ tags:
 - Construction
 - Construction Management
 - Construction DX
-- SaaS
+- Software-as-a-Service
 - Project Management
 - Japan
-- API
 ---

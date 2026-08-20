@@ -33,7 +33,7 @@ tags:
 - Biotechnology
 - Artificial Intelligence
 - Drug Manufacturing
-- Machine Learning
+- Machine-Learning
 - Pharmaceuticals
 - Foundation Models
 ---

@@ -2,22 +2,10 @@
 api_specs:
 - filename: imperial-college-london-core-api-openapi.yml
   format: yaml
-  label: Imperial College London Core API
-  slug: imperial-college-london-core-api
+  label: Spiral Open Access Repository (DSpace 7 REST API)
+  slug: spiral-dspace-rest
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/openapi/imperial-college-london-core-api-openapi.yml
-- filename: imperial-college-london-discover-api-openapi.yml
-  format: yaml
-  label: Imperial College London Discover API
-  slug: imperial-college-london-discover-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/openapi/imperial-college-london-discover-api-openapi.yml
-- filename: imperial-college-london-root-api-openapi.yml
-  format: yaml
-  label: Imperial College London Root API
-  slug: imperial-college-london-root-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/openapi/imperial-college-london-root-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,12 +43,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/security/imperial-college-london-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
+- Higher Education
+- Education
+- Russell Group
 - United Kingdom
+- London
+- Research
+- Institutional Repository
 - Open Access
-- Repository
-- Identity
+- Identity Federation
+- Learning Management
+- Library
 ---

@@ -35,7 +35,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dominos-pizza/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Food Service
-- Restaurants
+- Restaurant
 - QSR
 - Online Ordering
 ---

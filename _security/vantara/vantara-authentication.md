@@ -54,7 +54,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vantara/refs/h
 summary_line: oauth2/apiKey · 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Session Replay
 - Product Analytics
 - Developer Tools

@@ -34,7 +34,7 @@ tags:
 - Catering
 - Marketplace
 - Food
-- Events
+- Event
 - Corporate Catering
 - B2B
 - Germany

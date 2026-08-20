@@ -37,13 +37,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commitchange/r
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Donations
 - Payments
-- Events
+- Event
 - Ticketing
 - Donor Management
 - Crowdfunding
-- Open Source
+- Open-Source
 ---

@@ -51,11 +51,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/likeable-local
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Social Media
+- Social-Media
 - Marketing
 - Social Media Management
 - Advertising
 - Small Business
 - Agencies
-- SaaS
+- Software-as-a-Service
 ---

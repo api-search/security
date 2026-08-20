@@ -67,11 +67,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/smartrr-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/authentication/smartrr-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Subscriptions
+- Subscription
 - Loyalty
 - Shopify
-- Ecommerce
-- DTC
+- E-Commerce
+- Direct to Consumer
 - Recurring Revenue
 - Subscription Management
 ---

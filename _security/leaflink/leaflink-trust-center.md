@@ -38,7 +38,7 @@ tags:
 - Inventory
 - Compliance
 - Traceability
-- eCommerce
+- E-Commerce
 - Distribution
 - Retail
 trust_url: https://trust.leaflink.com/

@@ -92,5 +92,5 @@ tags:
 - Layer 1
 - gRPC
 - Node API
-- Open Source
+- Open-Source
 ---

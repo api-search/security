@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seezo/refs/hea
 summary_line: oauth2 · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Security
 - Application Security
 - Threat Modeling

@@ -23,7 +23,7 @@ tags:
 - Cryptocurrency
 - Trading
 - Futures
-- Financial Services
+- Financial-Services
 - Fintech
 - Market Data
 - Exchange

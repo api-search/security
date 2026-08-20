@@ -44,7 +44,7 @@ tags:
 - Frontier Tech
 - Data Capture
 - Barcode Scanning
-- Computer Vision
+- Computer-Vision
 - SDK
 - ID Verification
 - Retail

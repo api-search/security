@@ -32,8 +32,8 @@ tags:
 - Company
 - Health
 - Healthcare
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Clinical Data
 - Data Harmonization
 - Medical Imaging

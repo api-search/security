@@ -50,5 +50,5 @@ tags:
 - B2B
 - GraphQL
 - Inventory
-- E-commerce
+- E-Commerce
 ---

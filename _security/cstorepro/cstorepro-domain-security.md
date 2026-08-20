@@ -29,7 +29,7 @@ tags:
 - Company
 - Convenience Store
 - Retail
-- Point of Sale
+- Point-of-Sale
 - Back Office
 - Fuel
 - Scan Data

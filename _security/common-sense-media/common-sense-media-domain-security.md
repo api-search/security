@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/security/common-sense-media-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Apps
+- Application
 - Books
 - Media
 - Movies

@@ -63,7 +63,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Open Banking
 - Payments
-- FinTech
+- Fintech
 - LatAm
 - Financial Data
 - Account Validation

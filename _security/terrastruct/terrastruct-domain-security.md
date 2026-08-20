@@ -35,7 +35,7 @@ tags:
 - Diagrams as Code
 - Developer Tools
 - Software Architecture
-- Open Source
+- Open-Source
 - Data Visualization
 - CLI
 ---

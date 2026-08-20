@@ -51,11 +51,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/security/opentelemetry-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- Cloud Native
+- Cloud-Native
 - Logging
 - Metrics
 - Monitoring
 - Observability
-- Open Source
+- Open-Source
 - Tracing
 ---

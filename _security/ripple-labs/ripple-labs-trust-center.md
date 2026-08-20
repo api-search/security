@@ -236,15 +236,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/re
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Payments
 - Cross-Border Payments
 - Blockchain
 - Cryptocurrency
-- Stablecoin
+- Stablecoins
 - Digital Assets
 - Custody
-- Wallet
+- Wallets
 - Fintech
 trust_url: https://ripple.com/security/
 ---

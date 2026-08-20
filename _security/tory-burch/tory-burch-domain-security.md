@@ -37,7 +37,7 @@ tags:
 - Footwear
 - Handbags and Accessories
 - Retail
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Consumer Brands
 - United States

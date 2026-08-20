@@ -33,6 +33,6 @@ tags:
 - Vendor Management
 - Contract Management
 - Enterprise Software
-- FinTech
+- Fintech
 trust_url: https://zip.com/trust
 ---

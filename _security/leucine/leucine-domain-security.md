@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leucine/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Pharmaceutical
+- Pharmaceuticals
 - Manufacturing
 - Quality Management
 - Life Sciences

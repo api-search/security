@@ -35,6 +35,6 @@ tags:
 - Talent
 - Hiring
 - Recruiting
-- Jobs
-- Future of Work
+- Job
+- Future Of Work
 ---

@@ -67,5 +67,5 @@ tags:
 - Data Enrichment
 - MCP
 - Agents
-- Go To Market
+- Go-To-Market
 ---

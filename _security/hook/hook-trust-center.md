@@ -25,7 +25,7 @@ tags:
 - Churn Prediction
 - Retention
 - Net Revenue Retention
-- SaaS
+- Software-as-a-Service
 - Artificial Intelligence
 trust_url: https://hook.co/security
 ---

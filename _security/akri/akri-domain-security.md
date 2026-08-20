@@ -41,7 +41,7 @@ tags:
 - IoT
 - Kubernetes
 - CNCF
-- Open Source
+- Open-Source
 - OPC UA
 - ONVIF
 - udev

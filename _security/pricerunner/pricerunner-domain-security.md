@@ -33,7 +33,7 @@ tags:
 - Company
 - Consumer
 - Price Comparison
-- E-commerce
+- E-Commerce
 - Shopping
 - Product Data
 - Retail

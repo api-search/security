@@ -131,5 +131,4 @@ tags:
 - Artificial Intelligence
 - Factory
 - Manufacturing Analytics
-- API
 ---

@@ -58,7 +58,7 @@ tags:
 - Security
 - Privileged Access Management
 - Identity and Access Management
-- Just-in-Time Access
+- Just-In-Time Access
 - Cloud Security
 - Authorization
 - Zero Trust

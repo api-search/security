@@ -37,5 +37,5 @@ tags:
 - HR Tech
 - Total Rewards
 - Compensation Management
-- SaaS
+- Software-as-a-Service
 ---

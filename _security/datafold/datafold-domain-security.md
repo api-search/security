@@ -127,7 +127,7 @@ tags:
 - Data Diff
 - Data Quality
 - Column-Level Lineage
-- Data Pipelines
+- Data Pipeline
 - CI/CD Integration
 - Anomaly Detection
 - Data Observability

@@ -31,11 +31,11 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Consumer
-- Real Estate
-- Proptech
+- Real-Estate
+- PropTech
 - Fintech
 - Mortgage
-- Rent to Own
+- Rent-to-Own
 - Homeownership
 - Housing
 ---

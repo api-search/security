@@ -47,7 +47,7 @@ tags:
 - World Models
 - Obsidian
 - Weld World Model
-- Computer Vision
+- Computer-Vision
 - LiDAR
 - Defense
 - Shipbuilding

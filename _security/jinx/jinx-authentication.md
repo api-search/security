@@ -51,7 +51,7 @@ tags:
 - Consumer
 - Pet Food
 - Pet Nutrition
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Dogs
 - Cats

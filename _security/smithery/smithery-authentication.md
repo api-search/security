@@ -87,7 +87,6 @@ tags:
 - Artificial Intelligence
 - Large Language Models
 - MCP
-- Model Context Protocol
 - AI Agents
 - Developer Tools
 - Registry

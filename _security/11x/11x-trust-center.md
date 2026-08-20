@@ -28,6 +28,6 @@ tags:
 - Conversational AI
 - Voice
 - CRM
-- Go To Market
+- Go-To-Market
 trust_url: https://trust.11x.ai/
 ---

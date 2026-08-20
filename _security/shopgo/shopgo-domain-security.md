@@ -60,11 +60,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/he
 summary_line: TLSv1.3
 tags:
 - Company
-- eCommerce
+- E-Commerce
 - Online Stores
 - Payments
 - Shipping
-- SaaS
+- Software-as-a-Service
 - MENA
-- Orders
+- Order
 ---

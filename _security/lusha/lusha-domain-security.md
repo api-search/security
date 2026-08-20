@@ -133,6 +133,6 @@ tags:
 - Intent
 - Signals
 - Lookalikes
-- Webhooks
+- Webhook
 - MCP
 ---

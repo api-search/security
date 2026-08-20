@@ -117,5 +117,5 @@ tags:
 - Document Processing
 - Metadata
 - Text Extraction
-- Open Source
+- Open-Source
 ---

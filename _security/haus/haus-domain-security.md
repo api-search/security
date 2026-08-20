@@ -34,7 +34,7 @@ tags:
 - Marketing
 - Analytics
 - Incrementality
-- Measurement
+- Measurements
 - Attribution
 - Media Mix Modeling
 - Causal Inference

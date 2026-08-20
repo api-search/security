@@ -48,7 +48,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leap-legal/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Legal
-- LegalTech
+- Legal Tech
 - Practice Management
 - Legal Accounting
 - Trust Accounting

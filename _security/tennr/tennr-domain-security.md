@@ -33,7 +33,7 @@ tags:
 - Company
 - Healthcare
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Document Processing
 - Prior Authorization
 - Patient Referral

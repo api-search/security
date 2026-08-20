@@ -31,7 +31,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: 'live unauthentic
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendible/refs/heads/main/authentication/sendible-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Social Media
+- Social-Media
 - Social Media Management
 - Agencies
 - Scheduling

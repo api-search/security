@@ -80,7 +80,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - CMS
-- eCommerce
+- E-Commerce
 - Headless
 - Website Builder
 ---

@@ -52,6 +52,6 @@ tags:
 - Payroll
 - HR
 - Frontline
-- Webhooks
+- Webhook
 trust_url: https://security.teambridge.com/
 ---

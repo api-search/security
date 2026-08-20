@@ -53,10 +53,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/glide-ap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/authentication/glide-apps-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- No Code
+- No-Code
 - App Builder
 - Tables
 - Big Tables
 - Data
-- AI
+- Artificial Intelligence
 ---

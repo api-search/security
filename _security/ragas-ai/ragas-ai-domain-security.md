@@ -39,7 +39,7 @@ tags:
 - RAG Evaluation
 - Retrieval Augmented Generation
 - AI Evaluation
-- Open Source
+- Open-Source
 - Python
 - Metrics
 - Test Data Generation

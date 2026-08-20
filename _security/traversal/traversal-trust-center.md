@@ -28,7 +28,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/traversal/refs
 summary_line: SOC 2 Type II, GDPR, HIPAA
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI SRE
 - Site Reliability Engineering
 - Observability

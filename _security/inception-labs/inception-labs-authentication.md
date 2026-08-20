@@ -54,13 +54,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inception-labs
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Large Language Models
 - Diffusion Models
 - Generative AI
 - Code Completion
 - LLM API
-- OpenAI Compatible
+- OpenAI-Compatible
 - Developer Tools
 - Company
 ---

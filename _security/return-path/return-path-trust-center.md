@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/return-path/re
 summary_line: SOC 2 Type 2, ISO/IEC 27001, ISO/IEC 27701, GDPR, CCPA, EU-US Data Privacy Framework, Microsoft SSPA, Standard Contractual Clauses
 tags:
 - Company
-- Martech
+- MarTech
 - Email
 - Email Deliverability
 - Email Marketing

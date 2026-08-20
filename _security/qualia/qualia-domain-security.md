@@ -41,13 +41,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qualia/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Title Insurance
 - Escrow
 - Mortgage
 - Closing
 - Settlement Services
 - PropTech
-- Financial Services
+- Financial-Services
 - GraphQL
 ---

@@ -75,7 +75,7 @@ tags:
 - Games And Comics
 - Superheroes
 - Comic Books
-- Open Source
+- Open-Source
 - Static API
 - GitHub Pages
 - Public APIs

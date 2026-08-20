@@ -49,7 +49,7 @@ tags:
 - Artificial Intelligence
 - Generative AI
 - Video
-- Text to Video
+- Text-to-Video
 - Avatars
 - Media
 - Content Creation

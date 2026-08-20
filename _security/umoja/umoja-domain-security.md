@@ -32,7 +32,7 @@ tags:
 - Company
 - Biotechnology
 - Immunotherapy
-- CAR-T
+- Cart
 - Cell Therapy
 - Oncology
 - Gene Therapy

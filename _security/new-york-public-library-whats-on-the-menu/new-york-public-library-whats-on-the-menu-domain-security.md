@@ -47,7 +47,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Libraries
 - Menus
-- Restaurants
+- Restaurant
 - History
 - Open Data
 - Food

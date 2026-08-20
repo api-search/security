@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hamsa/refs/hea
 summary_line: signature · 1 scheme
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Blockchain
 - Payments
 - Tokenization

@@ -229,14 +229,14 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Delivery
-- Last-Mile Delivery
+- Last Mile Delivery
 - Logistics
 - Dispatch
 - Route Optimization
 - Fleet Management
-- Courier
+- Couriers
 - Shipping
-- Orders
-- Webhooks
+- Order
+- Webhook
 - AI Agents
 ---

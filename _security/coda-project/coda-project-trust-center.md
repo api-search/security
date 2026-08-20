@@ -224,8 +224,8 @@ tags:
 - Collaboration
 - No-Code
 - Workspace
-- AI
+- Artificial Intelligence
 - Content Management
-- SaaS
+- Software-as-a-Service
 trust_url: https://coda.io/trust/security
 ---

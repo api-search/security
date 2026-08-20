@@ -167,7 +167,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/howler/refs/he
 summary_line: apiKey/http/oauth2 · 5 schemes
 tags:
 - Company
-- Events
+- Event
 - Ticketing
 - Payments
 - Cashless

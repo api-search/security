@@ -267,14 +267,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/re
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Payments
 - Cross-Border Payments
 - Blockchain
 - Cryptocurrency
-- Stablecoin
+- Stablecoins
 - Digital Assets
 - Custody
-- Wallet
+- Wallets
 - Fintech
 ---

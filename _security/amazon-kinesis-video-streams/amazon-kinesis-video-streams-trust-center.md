@@ -35,7 +35,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - IoT
-- Machine Learning
+- Machine-Learning
 - Media
 - Video Streaming
 trust_url: https://aws.amazon.com/compliance/

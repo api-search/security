@@ -79,7 +79,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/h
 summary_line: GDPR
 tags:
 - Productivity
-- Tasks
+- Task
 - To-Do
 - Task Management
 - Collaboration

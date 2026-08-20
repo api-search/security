@@ -195,7 +195,7 @@ tags:
 - Company
 - Banking
 - Payments
-- Financial Services
+- Financial-Services
 - Fintech
 - Corporate Cards
 - Business Banking

@@ -126,9 +126,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/security/gorgias-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Customer Support
-- Helpdesk
-- Ecommerce
+- Customer-Support
+- Help Desk
+- E-Commerce
 - Shopify
 - Tickets
 - Conversations

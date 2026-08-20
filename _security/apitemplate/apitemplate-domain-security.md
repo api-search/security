@@ -37,8 +37,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Document Generation
 - PDF
-- Images
+- Image
 - Templates
-- API
 - Jinja2
 ---

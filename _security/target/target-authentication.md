@@ -68,9 +68,8 @@ tags:
 - Fortune 100
 - E-Commerce
 - Retail
-- Products
+- Product
 - Inventory
-- Fortune 100
 - Stores
-- Orders
+- Order
 ---

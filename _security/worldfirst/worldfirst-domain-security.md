@@ -53,7 +53,7 @@ tags:
 - Foreign Exchange
 - Payouts
 - Payment Gateway
-- E-commerce
+- E-Commerce
 - Multi-Currency
 - Card Issuing
 ---

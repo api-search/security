@@ -89,11 +89,11 @@ tags:
 - Form Builder
 - Multi-Step Forms
 - Document Intelligence
-- AI
-- Financial Services
+- Artificial Intelligence
+- Financial-Services
 - Insurance
 - Wealth Management
-- eSignature
+- E-Signature
 - Workflows
 - Data Intake
 - Submissions

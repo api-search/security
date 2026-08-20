@@ -34,7 +34,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/putty/refs/hea
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Network Tools
-- Open Source
+- Open-Source
 - Remote Access
 - SSH
 - Terminal

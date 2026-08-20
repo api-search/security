@@ -74,6 +74,6 @@ tags:
 - HRIS
 - LMS
 - Payroll
-- Unified API
+- Unified-API
 trust_url: https://security.kombo.dev/
 ---

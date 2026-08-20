@@ -106,7 +106,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knative/refs/h
 summary_line: TLSv1.3 · HSTS
 tags:
 - Auto-Scaling
-- Cloud Native
+- Cloud-Native
 - Event-Driven
 - Graduated
 - Kubernetes

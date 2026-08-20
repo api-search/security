@@ -325,19 +325,19 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: openapi/tradesh
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/authentication/tradeshift-authentication.yml
 summary_line: oauth1/oauth2/apiKey · 4 schemes
 tags:
-- e-invoicing
-- accounts-payable
-- ap-automation
-- procure-to-pay
-- supply-chain
-- b2b-commerce
-- invoicing
+- E-Invoicing
+- Accounts Payable
+- AP Automation
+- Procure-to-Pay
+- Supply Chain
+- B2B Commerce
+- Invoicing
 - ubl
-- peppol
+- PEPPOL
 - e-invoicing-compliance
-- supplier-network
+- Supplier Network
 - business-documents
-- fintech
-- mcp
+- Fintech
+- MCP
 - agent-native
 ---

@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getty/refs/hea
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Stock Media
-- Images
+- Image
 - Editorial
 - Video
 - Music

@@ -35,13 +35,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parse/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Backend as a Service
-- BaaS
+- Backend-as-a-Service
 - Mobile
-- Open Source
+- Open-Source
 - REST API
 - Database
 - Authentication
 - Push Notifications
-- Real Time
+- Real-Time
 ---

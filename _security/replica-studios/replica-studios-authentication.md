@@ -37,9 +37,9 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Company
 - Voice
-- Text to Speech
+- Text-to-Speech
 - Speech to Speech
-- AI
+- Artificial Intelligence
 - Audio
 - Voice AI
 - Generative AI

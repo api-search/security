@@ -33,7 +33,7 @@ tags:
 - Company
 - Coffee
 - Coffee Subscription
-- Direct-to-Consumer
+- Direct to Consumer
 - E-Commerce
 - Food and Beverage
 - Subscription Commerce

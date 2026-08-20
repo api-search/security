@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nimble-robotic
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Robotics
 - Logistics
 - Fulfillment
-- Ecommerce
+- E-Commerce
 - Automation
 - 3PL
 - Supply Chain

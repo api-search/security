@@ -88,8 +88,8 @@ tags:
 - DEX
 - Aggregator
 - Swap
-- Multi-chain
+- Multi-Chain
 - Limit Orders
 - Fusion
-- Cross-chain
+- Cross-Chain
 ---

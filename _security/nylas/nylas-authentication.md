@@ -94,7 +94,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/hea
 summary_line: http · 1 scheme
 tags:
 - Calendar
-- Communication
+- Communications
 - Contacts
 - Email
 - Messaging

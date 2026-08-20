@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/office-of-the-federal-register/refs/heads/main/security/office-of-the-federal-register-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Federal Government
+- Federal-Government
 - Regulations
 - Federal Register
 - Executive Orders

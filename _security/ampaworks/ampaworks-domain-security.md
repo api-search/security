@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Inventory Management
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Supply Chain
 - Healthcare

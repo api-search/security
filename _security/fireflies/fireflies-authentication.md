@@ -128,10 +128,10 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://docs.fi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/authentication/fireflies-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Meeting Assistant
 - Transcription
-- Summaries
+- Summary
 - Action Items
 - GraphQL
 - Meetings

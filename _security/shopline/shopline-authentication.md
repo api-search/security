@@ -58,11 +58,11 @@ tags:
 - E-Commerce
 - Commerce
 - Retail
-- Point of Sale
+- Point-of-Sale
 - Storefront
 - Payments
-- Webhooks
+- Webhook
 - GraphQL
 - Developer Platform
-- Apps
+- Application
 ---

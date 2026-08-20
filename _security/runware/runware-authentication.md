@@ -41,9 +41,9 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Inference
-- Image Generation
+- Image-Generation
 - Video Generation
 - Audio Generation
 - Text Generation

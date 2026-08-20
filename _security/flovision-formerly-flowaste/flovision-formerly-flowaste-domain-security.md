@@ -32,7 +32,7 @@ tags:
 - Company
 - Manufacturing
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Food Production
 - Quality Control
 - Yield Optimization

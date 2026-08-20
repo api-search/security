@@ -38,7 +38,7 @@ tags:
 - IT Management
 - RMM
 - PSA
-- Helpdesk
+- Help Desk
 - Ticketing
 - Patch Management
 - Remote Monitoring
@@ -48,6 +48,6 @@ tags:
 - Alerts
 - Devices
 - Billing
-- Webhooks
-- AI
+- Webhook
+- Artificial Intelligence
 ---

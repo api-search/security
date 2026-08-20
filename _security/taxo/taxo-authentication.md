@@ -50,5 +50,4 @@ tags:
 - Artificial Intelligence
 - Ecuador
 - Mexico
-- API
 ---

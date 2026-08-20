@@ -36,9 +36,9 @@ tags:
 - Contacts
 - E-Commerce
 - Payments
-- Subscriptions
+- Subscription
 - Membership
 - Landing Pages
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 ---

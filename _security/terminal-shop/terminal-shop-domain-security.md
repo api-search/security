@@ -114,7 +114,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Coffee
 - E-Commerce
-- Developer
+- Developers
 - SSH
 - Ordering
 ---

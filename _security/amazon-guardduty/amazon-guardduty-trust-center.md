@@ -48,7 +48,7 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Anomaly Detection
 - Compliance
-- Machine Learning
+- Machine-Learning
 - Monitoring
 - Security
 - Threat Detection

@@ -25,7 +25,7 @@ tags:
 - Spend Management
 - Supplier Management
 - Agentic AI
-- Workflow Automation
+- Workflow-Automation
 - Enterprise Software
 - ProcureTech
 trust_url: https://www.orolabs.ai/trust

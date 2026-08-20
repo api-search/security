@@ -45,7 +45,7 @@ tags:
 - Lending
 - Deposits
 - Payments
-- SaaS
+- Software-as-a-Service
 - Embedded Finance
 - Banking as a Service
 ---

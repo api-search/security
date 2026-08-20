@@ -37,6 +37,6 @@ tags:
 - Skincare
 - Supplements
 - Direct to Consumer
-- Ecommerce
+- E-Commerce
 - Shopify
 ---

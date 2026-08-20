@@ -272,7 +272,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/method-financi
 summary_line: SOC 2 Type 2, PCI DSS v4.0.1
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Lending
 - Payments

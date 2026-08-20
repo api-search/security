@@ -128,13 +128,13 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Wire Fraud Prevention
-- Real Estate
+- Real-Estate
 - Title Insurance
 - Identity Verification
 - Business Verification
 - Payments
 - Fraud Prevention
 - Escrow and Settlement
-- Financial Services
+- Financial-Services
 - Security
 ---

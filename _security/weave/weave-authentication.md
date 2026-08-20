@@ -105,7 +105,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weave/refs/hea
 summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company
-- Communication
+- Communications
 - Messaging
 - Payments
 - Healthcare
@@ -115,5 +115,5 @@ tags:
 - Scheduling
 - SMB
 - Developer Platform
-- OAuth
+- Authentication
 ---

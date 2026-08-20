@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/llmwhisp
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/authentication/llmwhisperer-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Document Extraction
 - OCR

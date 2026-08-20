@@ -242,7 +242,7 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Configuration
 - Data Lake
-- Data Pipelines
+- Data Pipeline
 - Data Routing
 - Edge Computing
 - Infrastructure as Code

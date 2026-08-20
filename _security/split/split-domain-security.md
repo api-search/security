@@ -148,5 +148,5 @@ tags:
 - Feature Flags
 - Feature Management
 - Rollouts
-- SDKs
+- SDK
 ---

@@ -34,7 +34,7 @@ tags:
 - Sustainability
 - Packaging
 - Reusable Packaging
-- E-commerce
+- E-Commerce
 - Logistics
 - Circular Economy
 ---

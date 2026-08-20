@@ -78,17 +78,17 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/security/chroma-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- AI
-- AI Native
+- Artificial Intelligence
+- AI-Native
 - Apache 2.0
 - Cloud
 - Embeddings
 - Hybrid Search
 - JavaScript
 - LLM
-- Machine Learning
+- Machine-Learning
 - Multi-Modal
-- Open Source
+- Open-Source
 - Python
 - RAG
 - Retrieval

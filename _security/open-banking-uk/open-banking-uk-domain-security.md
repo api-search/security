@@ -278,7 +278,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-banking-u
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Open Banking
-- Financial Services
+- Financial-Services
 - Payments
 - Account Information
 - PSD2

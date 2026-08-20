@@ -59,9 +59,9 @@ tags:
 - Marketing Automation
 - Matter Management
 - E-Signature
-- Workflow Automation
+- Workflow-Automation
 - Legal Tech
 - Time and Billing
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 ---

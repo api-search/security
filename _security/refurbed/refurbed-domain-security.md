@@ -169,6 +169,6 @@ tags:
 - Circular Economy
 - Retail
 - Merchant API
-- Affiliate
+- Affiliates
 - gRPC
 ---

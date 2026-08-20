@@ -156,20 +156,20 @@ source_yaml: "generated: '2026-08-06'\nmethod: probed\nprobe: true\nsource: http
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/security/airtm-trust-center.yml
 summary_line: trust center published
 tags:
-- payments
-- payouts
-- cross-border-payments
-- fintech
-- digital-wallet
-- stablecoin
-- usdc
-- stellar
-- mass-payouts
-- remittances
-- latin-america
-- emerging-markets
+- Payments
+- Payouts
+- Cross-Border Payments
+- Fintech
+- Digital Wallet
+- Stablecoins
+- USDC
+- Stellar
+- Mass Payouts
+- Remittances
+- Latin America
+- Emerging Markets
 - money-services-business
-- oauth2
-- openid-connect
+- Authentication
+- OpenID Connect
 trust_url: https://trust.airtm.com/
 ---

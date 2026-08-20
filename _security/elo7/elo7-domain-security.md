@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Marketplace
-- E-commerce
+- E-Commerce
 - Handmade
 - Crafts
 - Brazil

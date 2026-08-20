@@ -38,11 +38,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopify-storef
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Commerce
-- Ecommerce
+- E-Commerce
 - Headless
 - GraphQL
 - Storefront
-- Products
+- Product
 - Cart
 - Checkout
 ---

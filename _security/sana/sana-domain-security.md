@@ -112,7 +112,7 @@ tags:
 - Artificial Intelligence
 - Learning Management
 - LMS
-- Knowledge Management
+- Knowledge-Management
 - Agents
 - SCIM
 - xAPI

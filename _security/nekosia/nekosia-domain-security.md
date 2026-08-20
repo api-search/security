@@ -36,16 +36,14 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nekosia/refs/heads/main/security/nekosia-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- anime
+- Anime
 - neko
-- api
 - nekos
 - neko api
 - booru
-- image
-- media
-- entertainment
-- images
-- free api
-- open access
+- Image
+- Media
+- Entertainment
+- Free API
+- Open Access
 ---

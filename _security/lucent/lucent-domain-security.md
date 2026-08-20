@@ -75,5 +75,5 @@ tags:
 - Artificial Intelligence
 - Developer Tools
 - MCP
-- Webhooks
+- Webhook
 ---

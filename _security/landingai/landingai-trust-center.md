@@ -101,10 +101,10 @@ summary_line: SOC 2 Type II, HIPAA, GDPR
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Document Extraction
 - Document Processing
-- Computer Vision
+- Computer-Vision
 - OCR
 - Data Extraction
 - Agents

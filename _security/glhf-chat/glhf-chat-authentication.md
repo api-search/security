@@ -41,7 +41,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/glhf-cha
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glhf-chat/refs/heads/main/authentication/glhf-chat-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - Open Source Models

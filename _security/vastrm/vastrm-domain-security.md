@@ -31,7 +31,7 @@ tags:
 - Company
 - Apparel
 - Fashion
-- eCommerce
+- E-Commerce
 - Retail
 - Custom Clothing
 - Menswear

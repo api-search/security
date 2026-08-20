@@ -32,9 +32,9 @@ tags:
 - Company
 - Ai Ml
 - Edge AI
-- Machine Learning
+- Machine-Learning
 - Semiconductors
-- Computer Vision
+- Computer-Vision
 - Robotics
 - MLSoC
 ---

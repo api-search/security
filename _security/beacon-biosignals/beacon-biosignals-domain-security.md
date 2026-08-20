@@ -43,6 +43,6 @@ tags:
 - Sleep
 - Clinical Trials
 - Brain Health
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 ---

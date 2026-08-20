@@ -27,9 +27,9 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Consumer
-- Real Estate
+- Real-Estate
 - Rental Housing
-- Proptech
+- PropTech
 - Marketplace
 - China
 - Mobile

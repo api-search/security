@@ -179,7 +179,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/portworx
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/authentication/portworx-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Cloud Native
+- Cloud-Native
 - Containers
 - Data Management
 - Kubernetes

@@ -91,7 +91,7 @@ summary_line: http · 1 scheme
 tags:
 - BPM
 - Business Process Management
-- Workflow Automation
+- Workflow-Automation
 - BPMN 2.0
 - Low-Code
 - Intelligent Automation

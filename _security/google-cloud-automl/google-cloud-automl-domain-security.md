@@ -53,6 +53,6 @@ tags:
 - AutoML
 - Custom Models
 - Google Cloud
-- Machine Learning
+- Machine-Learning
 - Training
 ---

@@ -33,18 +33,18 @@ source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: https://trust.dal
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/security/daloopa-trust-center.yml
 summary_line: trust center published
 tags:
-- financial-data
-- fundamental-data
-- market-data
-- investment-research
-- equity-research
-- sec-filings
-- earnings
-- fintech
-- mcp
+- Financial Data
+- Fundamental Data
+- Market Data
+- Investment Research
+- Equity Research
+- SEC Filings
+- Earnings
+- Fintech
+- MCP
 - agent-native
-- agent-skills
-- webhooks
-- data-warehouse
+- Agent Skills
+- Webhook
+- Data Warehouse
 trust_url: ''
 ---

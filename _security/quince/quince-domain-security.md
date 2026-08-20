@@ -33,7 +33,7 @@ tags:
 - Company
 - E-Commerce
 - Retail
-- Direct-to-Consumer
+- Direct to Consumer
 - Apparel
 - Home Goods
 - Consumer

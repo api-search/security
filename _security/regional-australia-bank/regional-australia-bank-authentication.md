@@ -93,7 +93,7 @@ tags:
 - CDR
 - Consumer Banking
 - Australia
-- Customer-Owned
+- Customer Owned
 - Product Reference Data
 - Mutual Bank
 ---

@@ -36,11 +36,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flex/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- FinTech
-- Financial Services
+- Fintech
+- Financial-Services
 - Payments
 - Rent Payments
 - Consumer Finance
 - Bill Pay
-- Real Estate
+- Real-Estate
 ---

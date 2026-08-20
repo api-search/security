@@ -35,5 +35,5 @@ tags:
 - Drug Development
 - R&D Operations
 - Agentic AI
-- SaaS
+- Software-as-a-Service
 ---

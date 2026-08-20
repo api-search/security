@@ -42,7 +42,7 @@ tags:
 - Donations
 - Loyalty Points
 - Media Share
-- OAuth
-- Real-time
+- Authentication
+- Real-Time
 - Streaming Tools
 ---

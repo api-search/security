@@ -44,7 +44,7 @@ tags:
 - Test Automation
 - Developer Tools
 - DevOps
-- Machine Learning
+- Machine-Learning
 - Software Delivery
 - Predictive Test Selection
 - CI/CD

@@ -123,7 +123,7 @@ tags:
 - Social Networking
 - Decentralized
 - Federated
-- Open Source
+- Open-Source
 - Privacy
 - Fediverse
 - Messaging

@@ -116,7 +116,7 @@ summary_line: http · 2 schemes
 tags:
 - Payments
 - Payment Gateway
-- FinTech
+- Fintech
 - Peru
 - LatAm
 - Cards

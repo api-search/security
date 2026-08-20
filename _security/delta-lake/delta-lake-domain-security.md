@@ -39,7 +39,7 @@ tags:
 - Data Lake
 - Lakehouse
 - Linux Foundation
-- Open Source
+- Open-Source
 - Storage
 - Streaming
 ---

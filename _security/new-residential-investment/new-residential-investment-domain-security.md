@@ -40,6 +40,6 @@ tags:
 - Private Credit
 - Commercial Real Estate
 - Single-Family Rental
-- Financial Services
+- Financial-Services
 - Fortune 1000
 ---

@@ -31,7 +31,7 @@ tags:
 - Company
 - Graphics
 - GPU
-- Semiconductor
+- Semiconductors
 - Hardware
 - Drivers
 - Legacy

@@ -102,13 +102,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/security/reka-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
-- Multimodal
+- Artificial Intelligence
+- Multi-Modal
 - Large Language Models
 - Vision
 - Speech
 - Foundation Models
-- OpenAI Compatible
+- OpenAI-Compatible
 - SDK
 - Enterprise
 - On-Premises

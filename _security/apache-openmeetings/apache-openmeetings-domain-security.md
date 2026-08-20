@@ -100,6 +100,6 @@ tags:
 - Web Conferencing
 - Whiteboard
 - Apache
-- Open Source
+- Open-Source
 - Conferencing
 ---

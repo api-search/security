@@ -85,10 +85,10 @@ summary_line: http · 1 scheme
 tags:
 - E-Commerce
 - Shopping Cart
-- Orders
-- Products
+- Order
+- Product
 - Payments
-- Webhooks
+- Webhook
 - Headless Commerce
-- Jamstack
+- JAMstack
 ---

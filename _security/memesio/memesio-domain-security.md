@@ -284,7 +284,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Memes
 - Media
-- Image Generation
+- Image-Generation
 - Content
 - Developer Tools
 ---

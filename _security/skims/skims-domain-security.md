@@ -34,7 +34,7 @@ tags:
 - Consumer
 - Retail
 - Apparel
-- Ecommerce
-- Direct-to-Consumer
+- E-Commerce
+- Direct to Consumer
 - Fashion
 ---

@@ -20,13 +20,13 @@ summary_line: SOC 2
 tags:
 - Company
 - Legal
-- LegalTech
+- Legal Tech
 - Legal AI
 - Contract Lifecycle Management
 - CLM
 - Contract Management
 - Electronic Signature
 - Artificial Intelligence
-- Workflow Automation
+- Workflow-Automation
 trust_url: https://trust.aline.co/
 ---

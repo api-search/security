@@ -52,7 +52,7 @@ tags:
 - Contact Center
 - Agents
 - Speech Recognition
-- Text to Speech
-- Webhooks
+- Text-to-Speech
+- Webhook
 - Enterprise
 ---

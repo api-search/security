@@ -35,6 +35,6 @@ tags:
 - Pet Food
 - Subscription
 - Direct to Consumer
-- Ecommerce
+- E-Commerce
 - Pets
 ---

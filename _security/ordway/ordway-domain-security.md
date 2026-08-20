@@ -182,7 +182,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Billing
 - Revenue Automation
-- Subscriptions
+- Subscription
 - Invoicing
 - Payments
 - Revenue Recognition

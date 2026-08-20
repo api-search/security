@@ -30,12 +30,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/novoic/refs/he
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Speech
 - Healthcare
 - Alzheimers
 - Biomarkers
-- Machine Learning
+- Machine-Learning
 - Digital Health
 - Neurology
 - Cognitive Assessment

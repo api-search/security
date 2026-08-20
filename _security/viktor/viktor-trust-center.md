@@ -20,13 +20,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/viktor/refs/he
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
-- Cloud SaaS
+- Cloud Saas
 - Artificial Intelligence
 - AI Agents
 - Automation
 - Slack
 - Microsoft Teams
 - Productivity
-- Workflow
+- Workflows
 trust_url: https://viktor.com/security
 ---

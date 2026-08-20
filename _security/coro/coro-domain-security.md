@@ -37,6 +37,6 @@ tags:
 - Cloud Security
 - Data Protection
 - MSP
-- Webhooks
+- Webhook
 - MCP
 ---

@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://apiport
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/east-west-bank/refs/heads/main/authentication/east-west-bank-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Commercial Banking

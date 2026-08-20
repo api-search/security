@@ -72,5 +72,5 @@ tags:
 - Ordering
 - Food Distribution
 - Hospitality
-- eCommerce
+- E-Commerce
 ---

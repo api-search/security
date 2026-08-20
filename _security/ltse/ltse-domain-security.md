@@ -33,7 +33,7 @@ tags:
 - Company
 - Stock Exchange
 - Capital Markets
-- Financial Services
+- Financial-Services
 - Governance
 - Long-Term Investing
 - Trading

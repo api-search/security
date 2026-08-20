@@ -276,7 +276,7 @@ tags:
 - Microlearning
 - Employee Experience
 - REST
-- Webhooks
+- Webhook
 - SCIM
 trust_url: https://trust.yoobic.com/
 ---

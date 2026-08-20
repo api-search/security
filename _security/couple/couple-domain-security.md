@@ -32,7 +32,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Companion
-- Chatbot
+- Chatbots
 - Conversational AI
 - Consumer
 - Entertainment

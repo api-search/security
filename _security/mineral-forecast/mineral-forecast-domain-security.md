@@ -36,5 +36,5 @@ tags:
 - Mineral Exploration
 - Geology
 - Explainable AI
-- SaaS
+- Software-as-a-Service
 ---

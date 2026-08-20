@@ -34,7 +34,7 @@ tags:
 - Consumer Apps
 - Mobile Apps
 - Software
-- SaaS
+- Software-as-a-Service
 - Acquisitions
 - Publicly Traded
 - Italy

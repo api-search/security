@@ -388,21 +388,21 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/security/controlup-trust-center.yml
 summary_line: ISO/IEC 27001:2022, ISO/IEC 27017:2015, ISO/IEC 27018:2019, ISO/IEC 27701:2019, SOC 2 Type 2, SOC 3, FIPS 140-2 Level 1, CSA STAR Level 1, GDPR
 tags:
-- digital-employee-experience
-- endpoint-management
-- vdi
-- daas
-- virtual-desktop
-- observability
-- monitoring
-- synthetic-monitoring
-- device-management
-- compliance
-- vulnerability-management
-- workflow-automation
-- citrix
-- azure-virtual-desktop
-- mcp
+- Digital Employee Experience
+- Endpoint Management
+- VDI
+- DaaS
+- Virtual Desktop
+- Observability
+- Monitoring
+- Synthetic Monitoring
+- Device Management
+- Compliance
+- Vulnerability Management
+- Workflow-Automation
+- Citrix
+- Azure Virtual Desktop
+- MCP
 - agent-native
 trust_url: https://trustcenter.controlup.com/
 ---

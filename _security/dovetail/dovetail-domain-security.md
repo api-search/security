@@ -44,6 +44,6 @@ tags:
 - Customer Feedback
 - Research Repository
 - Analytics
-- AI
+- Artificial Intelligence
 - Product Management
 ---

@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zidisha/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Microlending
+- Micro-Lending
 - Crowdfunding
 - Fintech
-- Nonprofit
+- Non-Profit
 - Financial Inclusion
 - Philanthropy
-- Peer to Peer Lending
+- Peer-to-Peer Lending
 ---

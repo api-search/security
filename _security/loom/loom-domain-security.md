@@ -44,6 +44,6 @@ tags:
 - Productivity
 - Video
 - Async
-- Communication
-- SaaS
+- Communications
+- Software-as-a-Service
 ---

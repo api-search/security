@@ -33,7 +33,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/testsigma/refs
 summary_line: http · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Testing
 - Test Automation
 - QA

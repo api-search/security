@@ -72,7 +72,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/he
 summary_line: http · 1 scheme
 tags:
 - Company
-- Events
+- Event
 - Virtual Events
 - Webinars
 - Event Management

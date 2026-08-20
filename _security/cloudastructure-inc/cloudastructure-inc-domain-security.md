@@ -34,7 +34,7 @@ tags:
 - Video Surveillance
 - Physical Security
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Remote Guarding
 - Cloud Security
 - Facial Recognition

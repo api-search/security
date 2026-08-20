@@ -35,7 +35,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/copper-banking
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Consumer Finance
 - Financial Literacy
@@ -43,5 +43,5 @@ tags:
 - Neobank
 - Mobile Banking
 - Teen Banking
-- Model Context Protocol
+- MCP
 ---

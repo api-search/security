@@ -34,7 +34,7 @@ tags:
 - Out-of-Home
 - OOH
 - AdTech
-- Digital Out-of-Home
+- Digital Out Of Home
 - Media Buying
 - Marketing
 ---

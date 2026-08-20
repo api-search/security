@@ -21,7 +21,7 @@ tags:
 - Mental Health
 - Digital Therapeutics
 - CBT
-- Chatbot
+- Chatbots
 - Clinical
 - Healthcare
 - B2B

@@ -30,22 +30,22 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nsource: https://btcwar.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/btc-war-live-market-data-api/refs/heads/main/authentication/btc-war-live-market-data-api-authentication.yml
 summary_line: none · 0 schemes
 tags:
-- finance
-- cryptocurrency
-- market-data
-- bitcoin
+- Finance
+- Cryptocurrency
+- Market Data
+- Bitcoin
 - crypto-price
 - binance-spot
-- order-flow
+- Orderflow
 - market-depth
-- json-ld
-- schema.org
-- openapi
-- mcp
-- read-only
-- no-authentication
+- JSON-LD
+- Schema.org
+- OpenAPI
+- MCP
+- Read Only
+- No Authentication
 - agent-native
-- arazzo
-- json-schema
-- agent-skill
+- Arazzo
+- JSON-Schema
+- AgentSkill
 ---

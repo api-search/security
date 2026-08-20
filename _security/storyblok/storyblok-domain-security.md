@@ -114,5 +114,5 @@ tags:
 - Image Optimization
 - REST API
 - Visual Editor
-- Webhooks
+- Webhook
 ---

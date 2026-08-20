@@ -68,6 +68,6 @@ tags:
 - Monitoring
 - Artificial Intelligence
 - Fintech
-- Webhooks
+- Webhook
 trust_url: https://www.godiligent.ai/security
 ---

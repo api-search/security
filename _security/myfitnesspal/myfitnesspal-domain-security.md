@@ -66,6 +66,6 @@ tags:
 - Fitness Tracking
 - Food Diary
 - Wellness
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 ---

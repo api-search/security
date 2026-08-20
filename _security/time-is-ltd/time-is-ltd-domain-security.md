@@ -31,10 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/time-is-ltd/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Analytics
 - Collaboration
 - Productivity
 - People Analytics
-- SaaS
+- Software-as-a-Service
 ---

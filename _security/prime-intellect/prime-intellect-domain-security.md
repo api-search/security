@@ -163,7 +163,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/security/prime-intellect-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
 - Artificial Intelligence
 - Reinforcement Learning
 - GPU Compute
@@ -175,6 +174,6 @@ tags:
 - Environments
 - Evaluations
 - LoRA
-- Open Source
+- Open-Source
 - Agents
 ---

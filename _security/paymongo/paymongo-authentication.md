@@ -91,7 +91,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/
 summary_line: http · 1 scheme
 tags:
 - Payments
-- FinTech
+- Fintech
 - Philippines
 - Southeast Asia
 - GCash

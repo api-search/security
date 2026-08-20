@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Banking
-- Financial Services
+- Financial-Services
 - Neobank
 - Digital Banking
 - Fintech

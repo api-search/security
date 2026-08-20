@@ -104,13 +104,13 @@ summary_line: none/http/oauth2 · 3 schemes
 tags:
 - Company
 - Marketplace
-- Experiences
+- Experience
 - Booking
-- Events
+- Event
 - Workshops
 - Ticketing
 - Gift Cards
-- Travel and Leisure
+- Travel And Leisure
 - Germany
 - Commerce
 ---

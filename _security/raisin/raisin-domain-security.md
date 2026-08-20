@@ -35,6 +35,6 @@ tags:
 - Deposits
 - Banking
 - Marketplace
-- Banking-as-a-Service
+- Banking as a Service
 - Wealth
 ---

@@ -127,11 +127,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/navigate/refs/
 summary_line: 1 scheme
 tags:
 - Company
-- Proptech
+- PropTech
 - Construction
-- Real Estate
+- Real-Estate
 - Artificial Intelligence
 - Field Service
 - Construction Technology
-- API
 ---

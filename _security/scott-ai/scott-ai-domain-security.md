@@ -224,10 +224,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Coding Agents
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Collaboration
 - Agentic Workflow
-- Model Context Protocol
+- MCP
 - Software Design
 ---

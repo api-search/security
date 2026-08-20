@@ -77,5 +77,5 @@ tags:
 - Marketplace
 - Compute
 - Infrastructure
-- AI
+- Artificial Intelligence
 ---

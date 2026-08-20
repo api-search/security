@@ -35,7 +35,7 @@ tags:
 - Hardware
 - Liquid Cooling
 - Thermal Management
-- Data Center
+- Data-Center
 - High Performance Computing
 - Sim Racing
 ---

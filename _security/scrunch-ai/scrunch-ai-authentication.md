@@ -99,7 +99,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/ref
 summary_line: http · 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Search
 - Answer Engine Optimization
 - Generative Engine Optimization

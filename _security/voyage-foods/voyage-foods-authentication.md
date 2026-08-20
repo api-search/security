@@ -118,7 +118,7 @@ tags:
 - Company
 - Food and Beverage
 - Consumer Packaged Goods
-- Ecommerce
+- E-Commerce
 - Agentic Commerce
 - Universal Commerce Protocol
 - MCP

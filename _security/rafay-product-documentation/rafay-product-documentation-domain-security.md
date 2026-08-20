@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rafay-product-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Kubernetes
-- Cloud Native
+- Cloud-Native
 - GPU
-- AI
+- Artificial Intelligence
 - Platform
 ---

@@ -24,10 +24,10 @@ summary_line: 0 schemes
 tags:
 - Company
 - Data
-- Coding Agent
+- Coding Agents
 - AI Agents
 - Developer Tools
 - Automation
-- OAuth
+- Authentication
 - MCP
 ---

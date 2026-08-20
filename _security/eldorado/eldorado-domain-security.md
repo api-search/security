@@ -39,8 +39,8 @@ tags:
 - Crypto Web3
 - Stablecoins
 - Payments
-- Onramp
-- Offramp
+- On-Ramp
+- Off-Ramp
 - Cryptocurrency
 - Latin America
 - KYC

@@ -70,5 +70,5 @@ tags:
 - Inventory
 - Invoicing
 - Small Business
-- SaaS
+- Software-as-a-Service
 ---

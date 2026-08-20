@@ -33,7 +33,7 @@ tags:
 - Company
 - Insurtech
 - Fintech
-- Financial Services
+- Financial-Services
 - Prepaid Cards
 - Investment Management
 - Trust Services

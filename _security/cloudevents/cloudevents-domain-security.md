@@ -42,8 +42,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudevents/refs/heads/main/security/cloudevents-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- Cloud Native
-- Events
+- Cloud-Native
+- Event
 - Graduated
 - Interoperability
 - Messaging

@@ -25,6 +25,6 @@ tags:
 - Instant Payouts
 - Merchant Onboarding
 - KYB
-- Settlements
+- Settlement
 trust_url: https://trust.jaris.com/
 ---

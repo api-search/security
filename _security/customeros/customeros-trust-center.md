@@ -47,6 +47,6 @@ tags:
 - Email Verification
 - Enrichment
 - GraphQL
-- Open Source
+- Open-Source
 trust_url: https://docs.customeros.ai/security-and-compliance
 ---

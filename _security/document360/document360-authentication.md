@@ -68,5 +68,5 @@ summary_line: apiKey · 1 scheme
 tags:
 - Documentation
 - Knowledge Base
-- SaaS
+- Software-as-a-Service
 ---

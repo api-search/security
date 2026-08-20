@@ -409,7 +409,7 @@ tags:
 - Payments
 - Monetization
 - Usage-Based Pricing
-- Subscriptions
+- Subscription
 - Invoicing
 - Metering
 - Revenue Recognition

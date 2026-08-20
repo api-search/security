@@ -41,7 +41,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Enterprise API
 - Financial Analytics
-- Financial Services
+- Financial-Services
 - Market Data
 - Real-Time Data
 ---

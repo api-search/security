@@ -38,7 +38,7 @@ summary_line: trust center published
 tags:
 - Distributed
 - Git
-- Open Source
+- Open-Source
 - Source Code Management
 - Version Control
 trust_url: ''

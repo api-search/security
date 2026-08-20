@@ -35,7 +35,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heavyai/refs/h
 summary_line: username-password/tls · 2 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Analytics
 - Database
 - GPU

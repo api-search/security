@@ -57,8 +57,8 @@ tags:
 - Issuer Processor
 - Card Issuing
 - Payment Processing
-- Banking-as-a-Service
-- Digital Wallets
+- Banking as a Service
+- Digital Wallet
 - Cross-Border
 - Fraud
 - Open Banking

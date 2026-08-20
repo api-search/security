@@ -101,5 +101,5 @@ tags:
 - Chargebacks
 - Fraud Prevention
 - Invoicing
-- Subscriptions
+- Subscription
 ---

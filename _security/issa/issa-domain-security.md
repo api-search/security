@@ -37,5 +37,5 @@ tags:
 - Thailand
 - Compliance
 - Document Verification
-- LegalTech
+- Legal Tech
 ---

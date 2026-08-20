@@ -110,7 +110,7 @@ tags:
 - Settlement
 - Treasury
 - Multi-Currency
-- Accounts
+- Account
 - Foreign Exchange
-- Webhooks
+- Webhook
 ---

@@ -65,5 +65,5 @@ tags:
 - Marketing Analytics
 - Survey Data
 - Advertising
-- SaaS
+- Software-as-a-Service
 ---

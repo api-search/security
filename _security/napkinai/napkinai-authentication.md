@@ -48,7 +48,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Visualization
 - Diagrams
 - Charts

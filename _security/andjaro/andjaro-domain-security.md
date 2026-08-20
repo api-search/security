@@ -34,7 +34,7 @@ tags:
 - Human Resources
 - Workforce Management
 - Staffing
-- SaaS
+- Software-as-a-Service
 - HRIS
 - Employee Scheduling
 ---

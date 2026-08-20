@@ -34,7 +34,7 @@ tags:
 - Fraud Detection
 - Anti-Fraud
 - Risk Control
-- Financial Services
+- Financial-Services
 - Credit Risk
 - Artificial Intelligence
 - Decisioning

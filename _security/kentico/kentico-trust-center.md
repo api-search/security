@@ -26,7 +26,7 @@ tags:
 - REST
 - .NET
 - Headless
-- E-commerce
+- E-Commerce
 - Digital Marketing
 - Personalization
 trust_url: https://trust.kentico.com/

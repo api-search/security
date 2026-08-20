@@ -96,12 +96,12 @@ tags:
 - Canada
 - Accounts Receivable
 - AR Automation
-- Order to Cash
+- Order-to-Cash
 - Payment Acceptance
 - Payment Processing
 - B2B Payments
 - Invoicing
-- Ecommerce
+- E-Commerce
 - Card Present
-- Webhooks
+- Webhook
 ---

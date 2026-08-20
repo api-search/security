@@ -35,7 +35,6 @@ tags:
 - Supply Chain
 - Orchestration
 - Artificial Intelligence
-- Operations
 - ERP Integration
 - Manufacturing Execution
 ---

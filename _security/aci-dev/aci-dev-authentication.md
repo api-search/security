@@ -57,13 +57,11 @@ summary_line: apiKey · 1 scheme
 tags:
 - Agent Infrastructure
 - Agents
-- AI
 - Artificial Intelligence
 - Function Calling
 - MCP
-- Model Context Protocol
-- OAuth
-- Open Source
+- Authentication
+- Open-Source
 - Tool Calling
 - VibeOps
 ---

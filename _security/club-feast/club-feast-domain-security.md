@@ -32,7 +32,7 @@ tags:
 - Company
 - Food Delivery
 - Corporate Catering
-- Restaurants
+- Restaurant
 - Logistics
 - Meal Subscription
 - Office Pantry

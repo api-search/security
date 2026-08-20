@@ -150,7 +150,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reevo/refs/hea
 summary_line: apiKey/oauth2/openIdConnect · 3 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Sales
 - CRM
 - Revenue Operations

@@ -39,6 +39,6 @@ tags:
 - HL7
 - FHIR
 - Healthcare
-- AI
+- Artificial Intelligence
 - Pro Medicus
 ---

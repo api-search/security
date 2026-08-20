@@ -35,10 +35,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verse/refs/hea
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- API
 - Connect RPC
 - gRPC
 - Bessemer Portfolio
 - Cloudflare
-- Unknown
 ---

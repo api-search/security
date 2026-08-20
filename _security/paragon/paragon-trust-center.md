@@ -83,6 +83,6 @@ tags:
 - iPaaS
 - AI Agents
 - MCP
-- Integrations
+- Integration
 trust_url: https://docs.useparagon.com/security/security
 ---

@@ -36,5 +36,5 @@ tags:
 - Investing
 - Wealth Management
 - Alternative Investments
-- Financial Services
+- Financial-Services
 ---

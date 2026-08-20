@@ -32,12 +32,12 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Risk
 - Wildfire
 - Property
 - Catastrophe
 - Analytics
-- Machine Learning
+- Machine-Learning
 - Underwriting
 ---

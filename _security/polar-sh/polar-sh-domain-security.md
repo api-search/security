@@ -111,6 +111,6 @@ tags:
 - Payments
 - Merchant of Record
 - Monetization
-- Subscriptions
-- Usage Based Billing
+- Subscription
+- Usage-Based Billing
 ---

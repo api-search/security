@@ -35,7 +35,7 @@ tags:
 - Sales Enablement
 - Customer Success
 - Revenue Operations
-- AI
+- Artificial Intelligence
 - MCP
 trust_url: https://www.matik.io/security
 ---

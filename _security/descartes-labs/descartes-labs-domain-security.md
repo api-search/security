@@ -35,9 +35,9 @@ tags:
 - Satellite Imagery
 - Remote Sensing
 - Raster
-- Vector
+- Vectors
 - GIS
-- Machine Learning
+- Machine-Learning
 - Geospatial Analytics
 - Agriculture
 - Mining

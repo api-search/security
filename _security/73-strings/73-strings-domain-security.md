@@ -91,16 +91,16 @@ source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/security/73-strings-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- private-markets
-- valuation
-- portfolio-monitoring
-- private-equity
-- private-credit
-- venture-capital
-- alternative-assets
-- financial-data
-- data-extraction
-- fintech
-- asset-management
-- azure-api-management
+- Private Markets
+- Valuation
+- Portfolio Monitoring
+- Private Equity
+- Private Credit
+- Venture Capital
+- Alternative Assets
+- Financial Data
+- Data Extraction
+- Fintech
+- Asset Management
+- Azure API Management
 ---

@@ -48,12 +48,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/ref
 summary_line: trust center published
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Content Moderation
-- Trust And Safety
+- Trust and Safety
 - Artificial Intelligence
-- Machine Learning
-- Computer Vision
+- Machine-Learning
+- Computer-Vision
 - Video
 - Virtual Agents
 trust_url: https://trust.unitary.ai/

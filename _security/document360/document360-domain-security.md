@@ -86,5 +86,5 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Documentation
 - Knowledge Base
-- SaaS
+- Software-as-a-Service
 ---

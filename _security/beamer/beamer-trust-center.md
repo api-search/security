@@ -20,7 +20,7 @@ summary_line: SOC 2, GDPR
 tags:
 - Changelog
 - Deprecation
-- Notifications
+- Notification
 - Product Updates
 - User Engagement
 trust_url: https://www.getbeamer.com/security

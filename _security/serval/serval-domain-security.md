@@ -49,10 +49,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/serval/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- IT Service Management
 - ITSM
 - Help Desk
-- Workflow Automation
+- Workflow-Automation
 - AI Agents
 - Access Management
 - Employee Support

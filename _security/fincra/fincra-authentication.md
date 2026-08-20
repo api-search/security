@@ -88,7 +88,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Payments
 - Cross-Border
-- Collections
+- Collection
 - Payouts
 - FX
 - Fintech

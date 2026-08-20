@@ -96,7 +96,7 @@ tags:
 - HCM
 - Human Resources
 - Recruiting
-- SaaS
+- Software-as-a-Service
 - Talent Acquisition
 trust_url: https://security.workday.com/
 ---

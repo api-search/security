@@ -38,5 +38,5 @@ tags:
 - Decentralized
 - Web3
 - Developer Tools
-- Open Source
+- Open-Source
 ---

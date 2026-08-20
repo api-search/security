@@ -52,5 +52,5 @@ tags:
 - Aggregation
 - API Gateway
 - Go
-- Open Source
+- Open-Source
 ---

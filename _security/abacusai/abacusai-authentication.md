@@ -35,7 +35,7 @@ tags:
 - Company
 - Ai Ml
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Generative AI
 - LLM
 - AI Agents

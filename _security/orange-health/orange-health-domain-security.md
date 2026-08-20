@@ -76,6 +76,6 @@ tags:
 - Diagnostics
 - Lab Testing
 - Home Collection
-- Webhooks
+- Webhook
 - India
 ---

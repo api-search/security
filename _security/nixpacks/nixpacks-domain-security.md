@@ -35,7 +35,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nixpacks/refs/heads/main/security/nixpacks-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Build Tool
+- Build Tools
 - Buildpacks
 - Docker
 - OCI
@@ -44,9 +44,9 @@ tags:
 - Container Image
 - Application Packaging
 - Railway
-- Open Source
+- Open-Source
 - Rust
 - DevOps
 - Platform Engineering
-- PaaS
+- Platform-as-a-Service
 ---

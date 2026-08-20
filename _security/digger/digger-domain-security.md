@@ -55,8 +55,8 @@ tags:
 - Terraform
 - OpenTofu
 - Developer Tools
-- Webhooks
-- Open Source
-- SDKs
+- Webhook
+- Open-Source
+- SDK
 - CLI
 ---

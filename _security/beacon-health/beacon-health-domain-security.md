@@ -50,11 +50,11 @@ tags:
 - Company
 - Healthcare
 - Primary Care
-- Value Based Care
+- Value-Based Care
 - EHR
 - Artificial Intelligence
 - AI Agents
-- Workflow Automation
+- Workflow-Automation
 - Risk Adjustment
 - Prior Authorization
 - HIPAA

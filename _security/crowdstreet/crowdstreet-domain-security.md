@@ -55,13 +55,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crowdstreet/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Commercial Real Estate
 - Investing
 - Private Markets
 - Alternative Investments
 - Crowdfunding
-- Financial Services
-- FinTech
+- Financial-Services
+- Fintech
 - Wealth Management
 ---

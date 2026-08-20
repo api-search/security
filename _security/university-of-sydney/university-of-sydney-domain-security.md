@@ -46,11 +46,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-sydney/refs/heads/main/security/university-of-sydney-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Library
-- Research
-- Open Data
+- Higher Education
+- Education
 - Australia
+- Group of Eight
+- Research
+- Identity Federation
+- Research Repository
+- Course Catalog
+- Library
 ---

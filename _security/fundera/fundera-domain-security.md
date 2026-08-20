@@ -32,10 +32,10 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Small Business
 - Business Loans
-- Financial Services
+- Financial-Services
 - Lending Marketplace
 - Credit Cards
 - SBA Loans
 - NerdWallet
-- FinTech
+- Fintech
 ---

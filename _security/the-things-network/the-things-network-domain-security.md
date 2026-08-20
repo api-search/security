@@ -408,8 +408,8 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - LoRaWAN
 - IoT
-- Internet Of Things
-- Open Source
+- Internet of Things
+- Open-Source
 - Network Server
 - LPWAN
 - Telemetry

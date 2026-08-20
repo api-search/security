@@ -108,6 +108,6 @@ tags:
 - LTI
 - OneRoster
 - Rostering
-- Single Sign On
+- Single Sign-On
 - Interoperability
 ---

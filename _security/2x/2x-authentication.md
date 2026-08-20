@@ -85,7 +85,7 @@ tags:
 - Marketing Operations
 - Consulting
 - Artificial Intelligence
-- Go To Market
+- Go-To-Market
 - Revenue Operations
 - Commercial Intelligence
 - Customer Success

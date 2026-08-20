@@ -120,9 +120,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vapi-ope
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/authentication/vapi-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Voice
 - Agents
-- Realtime
+- Real-Time
 - CPaaS
 ---

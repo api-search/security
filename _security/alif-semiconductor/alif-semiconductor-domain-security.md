@@ -33,7 +33,7 @@ tags:
 - Semiconductors
 - Microcontrollers
 - Edge AI
-- Machine Learning
+- Machine-Learning
 - Embedded Systems
 - IoT
 - Hardware

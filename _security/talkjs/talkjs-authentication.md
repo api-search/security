@@ -61,7 +61,7 @@ summary_line: http · 1 scheme
 tags:
 - Chat
 - Messaging
-- Communication
+- Communications
 - SDK
-- Webhooks
+- Webhook
 ---

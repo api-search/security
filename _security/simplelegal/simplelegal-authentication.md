@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/simplele
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/authentication/simplelegal-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- eBilling
+- E-Billing
 - Enterprise Legal Management
 - Legal Operations
 - Legal Spend Management

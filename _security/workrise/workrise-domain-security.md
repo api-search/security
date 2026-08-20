@@ -44,9 +44,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Energy
-- Oil And Gas
+- Oil and Gas
 - Workforce Management
 - Vendor Management
 - Procurement
-- Source To Pay
+- Source-to-Pay
 ---

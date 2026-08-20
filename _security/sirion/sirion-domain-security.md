@@ -101,7 +101,7 @@ tags:
 - Contract Lifecycle Management
 - CLM
 - Contracts
-- AI
+- Artificial Intelligence
 - Enterprise
 - Legal
 - Agreements

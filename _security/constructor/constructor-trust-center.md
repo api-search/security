@@ -21,12 +21,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/constructor/re
 summary_line: SOC 2 Type 2, ISO 27001, CCPA, MACH Certified
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Search
 - Product Discovery
 - Recommendations
 - Personalization
 - Retail
-- AI
+- Artificial Intelligence
 trust_url: https://constructor.com/security-and-compliance
 ---

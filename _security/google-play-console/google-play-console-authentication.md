@@ -41,7 +41,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Analytics
 - Android
-- Apps
+- Application
 - Google Play Console
 - Quality
 - Reporting

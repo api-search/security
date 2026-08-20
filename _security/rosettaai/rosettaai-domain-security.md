@@ -31,13 +31,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rosettaai/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Personalization
 - Recommendations
 - Marketing Automation
 - Artificial Intelligence
 - Retail
 - Shopify
-- Machine Learning
+- Machine-Learning
 - Conversion Optimization
 ---

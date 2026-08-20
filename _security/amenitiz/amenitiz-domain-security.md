@@ -45,5 +45,5 @@ tags:
 - Channel Manager
 - Payments
 - Travel
-- SaaS
+- Software-as-a-Service
 ---

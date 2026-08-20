@@ -43,7 +43,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Behavioral Health
-- Health Care
+- Healthcare
 - Mental Health
 - Digital Health
 - Care Coordination

@@ -90,7 +90,7 @@ tags:
 - Life Sciences
 - Regulatory Affairs
 - Document Intelligence
-- Knowledge Management
+- Knowledge-Management
 - Pharmaceuticals
-- Machine Learning
+- Machine-Learning
 ---

@@ -36,6 +36,5 @@ tags:
 - Athlete Management
 - Performance
 - Compliance
-- Operations
-- SaaS
+- Software-as-a-Service
 ---

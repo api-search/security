@@ -387,7 +387,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prefect/refs/h
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Automation
-- Data Pipelines
+- Data Pipeline
 - Orchestration
 - Python
 - Workflows

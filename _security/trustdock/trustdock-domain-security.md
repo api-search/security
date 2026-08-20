@@ -37,6 +37,6 @@ tags:
 - Digital Identity
 - Authentication
 - RegTech
-- FinTech
+- Fintech
 - Japan
 ---

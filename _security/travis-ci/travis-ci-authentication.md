@@ -73,8 +73,8 @@ summary_line: apiKey · 1 scheme
 tags:
 - DevOps
 - CI/CD
-- Build
-- Open Source
+- Builds
+- Open-Source
 - Hosted
 - GitHub
 ---

@@ -24,7 +24,7 @@ tags:
 - Corporate Events
 - Hospitality
 - Travel
-- SaaS
+- Software-as-a-Service
 - Meetings and Events
 trust_url: https://boompop.com/data-security
 ---

@@ -75,7 +75,7 @@ tags:
 - Telecommunications
 - Data Center Interconnect
 - Hardware
-- Model Context Protocol
+- MCP
 - WordPress
 - Netherlands
 ---

@@ -37,7 +37,7 @@ tags:
 - Enterprise
 - Personalization
 - Conversion Rate Optimization
-- Ecommerce
+- E-Commerce
 - Marketing Technology
 - Customer Experience
 - A/B Testing

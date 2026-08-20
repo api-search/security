@@ -70,11 +70,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/launchmetrics/
 summary_line: apiKey/custom-signature · 2 schemes
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Marketing
 - Public Relations
 - Media Monitoring
-- Social Media
+- Social-Media
 - Analytics
 - Fashion
 - Luxury

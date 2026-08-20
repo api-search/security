@@ -38,6 +38,6 @@ tags:
 - Supply Planning
 - S&OP
 - Supply Chain Analytics
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 ---

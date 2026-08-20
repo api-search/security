@@ -70,7 +70,7 @@ tags:
 - Data
 - ELT
 - Metrics
-- Projects
+- Project
 - SQL
 - Transformation
 trust_url: https://trust.getdbt.com/

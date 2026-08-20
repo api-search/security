@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\ndocs: https://developer
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/authentication/hometrack-authentication.yml
 summary_line: oauth2/apiKey/http · 5 schemes
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Valuation

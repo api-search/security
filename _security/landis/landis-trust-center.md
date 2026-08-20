@@ -20,11 +20,11 @@ summary_line: SOC 2 Type 2
 tags:
 - Company
 - Consumer
-- Real Estate
-- Proptech
+- Real-Estate
+- PropTech
 - Fintech
 - Mortgage
-- Rent to Own
+- Rent-to-Own
 - Homeownership
 - Housing
 trust_url: https://www.landis.com/data-security-compliance/

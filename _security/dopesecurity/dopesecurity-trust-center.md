@@ -53,6 +53,5 @@ tags:
 - Data Loss Prevention
 - CASB
 - Endpoint Security
-- API
 trust_url: https://dope.security/legal/soc-2
 ---

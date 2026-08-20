@@ -31,13 +31,13 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Food and Beverage
-- Restaurants
+- Restaurant
 - Delivery
 - E-Commerce
 - Retail
 - Gifting
 - Consumer
-- Subscriptions
+- Subscription
 - Loyalty
 - Austin
 - Texas

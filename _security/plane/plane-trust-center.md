@@ -34,8 +34,8 @@ tags:
 - Pages
 - Analytics
 - Workspace
-- Open Source
+- Open-Source
 - Self-Hosted
-- AI
+- Artificial Intelligence
 trust_url: https://security.plane.so/
 ---

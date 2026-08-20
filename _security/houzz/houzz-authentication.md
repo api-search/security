@@ -35,11 +35,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/houzz/refs/hea
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Home Improvement
 - Interior Design
 - Home Renovation
 - Furniture
-- SaaS
+- Software-as-a-Service
 ---

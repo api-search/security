@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/invidica/refs/
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Wholesale
 - Retail

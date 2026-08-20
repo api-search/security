@@ -137,7 +137,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/langflow
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/authentication/langflow-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
-- AI
 - Artificial Intelligence
 - Agents
 - Workflows
@@ -146,6 +145,6 @@ tags:
 - LangChain
 - RAG
 - MCP
-- Open Source
+- Open-Source
 - FastAPI
 ---

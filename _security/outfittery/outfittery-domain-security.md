@@ -32,7 +32,7 @@ tags:
 - Company
 - Consumer
 - Fashion
-- E-commerce
+- E-Commerce
 - Retail
 - Personal Styling
 - Personalization

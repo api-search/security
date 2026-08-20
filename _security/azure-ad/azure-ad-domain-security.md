@@ -83,7 +83,6 @@ tags:
 - Authentication
 - Authorization
 - Identity
-- OAuth
 - OpenID Connect
 - Single Sign-On
 ---

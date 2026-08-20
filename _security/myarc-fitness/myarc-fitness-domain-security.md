@@ -36,5 +36,5 @@ tags:
 - Creator Economy
 - Coaching
 - Mobile App
-- SaaS
+- Software-as-a-Service
 ---

@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence
 - Drug Discovery
-- Pharmaceutical
+- Pharmaceuticals
 - Life Sciences
 - Biotechnology
 - Computational Biology

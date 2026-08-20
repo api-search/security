@@ -32,8 +32,8 @@ tags:
 - Loan Origination
 - Banking
 - Credit
-- SaaS
+- Software-as-a-Service
 - India
-- Financial Services
+- Financial-Services
 trust_url: https://trust.lentra.ai/
 ---

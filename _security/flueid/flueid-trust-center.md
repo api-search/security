@@ -29,12 +29,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/he
 summary_line: SOC 2 Type 1, SOC 2 Type 2, FIPS 140-2 Level 3 (AWS KMS HSM), NIST CSF alignment
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Title Insurance
 - Mortgage
 - Property Data
 - Verification of Title
-- Financial Services
+- Financial-Services
 - Lending
 - PropTech
 - Settlement Services

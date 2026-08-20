@@ -73,10 +73,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Restaurant
-- Point Of Sale
+- Point-of-Sale
 - Online Ordering
 - Delivery
 - Menus
-- Orders
+- Order
 - Integration
 ---

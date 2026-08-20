@@ -34,7 +34,7 @@ tags:
 - UPI
 - QR Payments
 - Merchant Payments
-- Point Of Sale
+- Point-of-Sale
 - SMB
 - Fintech
 - Lending

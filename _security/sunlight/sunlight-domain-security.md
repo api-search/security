@@ -41,6 +41,6 @@ tags:
 - Spending
 - Fintech
 - JSON:API
-- Groups
-- Orders
+- Group
+- Order
 ---

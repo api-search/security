@@ -38,6 +38,6 @@ tags:
 - Skill Development
 - Learning Pathways
 - Workforce Upskilling
-- eLearning
+- E-Learning
 - HR Technology
 ---

@@ -36,5 +36,5 @@ tags:
 - Marketplace
 - Consumer
 - Payments
-- SaaS
+- Software-as-a-Service
 ---

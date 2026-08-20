@@ -281,6 +281,6 @@ tags:
 - Model Monitoring
 - Prompt Management
 - Agents
-- Open Source
+- Open-Source
 trust_url: https://trust.comet.com/
 ---

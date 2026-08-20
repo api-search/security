@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/security/contextual-ai-trust-center.yml
 summary_line: SOC 2, ISO 27017, PCI DSS, CSA STAR
 tags:
-- AI
+- Artificial Intelligence
 - RAG
 - LLM
 - Grounded Language Model

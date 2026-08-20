@@ -44,12 +44,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Agentic AI
 - Data Science
 - MLOps
 - Enterprise AI
 - AI Governance
-- Low Code
+- Low-Code
 - Developer Tools
 ---

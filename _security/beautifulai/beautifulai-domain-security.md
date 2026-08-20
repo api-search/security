@@ -36,11 +36,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beautifulai/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Presentations
 - Slides
 - Design
 - Productivity
 - Collaboration
-- SaaS
+- Software-as-a-Service
 ---

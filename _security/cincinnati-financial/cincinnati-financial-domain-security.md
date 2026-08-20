@@ -36,7 +36,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Auto Insurance
 - Business Insurance
-- Financial Services
+- Financial-Services
 - Home Insurance
 - Independent Agency
 - Insurance

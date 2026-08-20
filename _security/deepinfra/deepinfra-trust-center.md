@@ -57,14 +57,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/security/deepinfra-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - Serverless
-- Open Source
-- OpenAI Compatible
+- Open-Source
+- OpenAI-Compatible
 - Anthropic Compatible
-- Image Generation
+- Image-Generation
 - Audio
 - Embeddings
 trust_url: https://trust.deepinfra.com/

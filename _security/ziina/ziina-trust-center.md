@@ -66,6 +66,6 @@ tags:
 - UAE
 - MENA
 - Money Transfer
-- Wallet
+- Wallets
 trust_url: https://ziina.com/help-center/7915275-is-ziina-safe-to-use
 ---

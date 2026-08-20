@@ -135,10 +135,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/re
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - MCP
-- Model Context Protocol
 - LLM
 - Inference
 - Gateway

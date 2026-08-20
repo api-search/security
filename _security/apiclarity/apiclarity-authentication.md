@@ -58,7 +58,7 @@ tags:
 - API Traffic Analysis
 - Cisco
 - Kubernetes
-- Open Source
+- Open-Source
 - OpenAPI Reconstruction
 - OpenClarity
 - Service Mesh

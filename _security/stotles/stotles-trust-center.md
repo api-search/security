@@ -33,10 +33,9 @@ tags:
 - Sales Intelligence
 - B2G
 - Market Intelligence
-- API
 - OpenAPI
 - MCP
-- Agent Native
+- agent-native
 - Contract Awards
 - Framework Agreements
 - CPV

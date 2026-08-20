@@ -188,13 +188,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs
 summary_line: SOC 2 Type I, SOC 2 Type II
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Email
-- API
 - AI Agents
 - Inbox
 - Messaging
-- Webhooks
+- Webhook
 - WebSockets
 - SMTP
 - IMAP

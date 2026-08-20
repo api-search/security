@@ -87,5 +87,5 @@ tags:
 - Omnichannel
 - Customer Conversations
 - WhatsApp
-- AI
+- Artificial Intelligence
 ---

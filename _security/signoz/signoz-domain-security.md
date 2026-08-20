@@ -215,5 +215,5 @@ tags:
 - Metrics
 - Observability
 - OpenTelemetry
-- Open Source
+- Open-Source
 ---

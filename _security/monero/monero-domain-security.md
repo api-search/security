@@ -94,7 +94,7 @@ tags:
 - Privacy
 - Blockchain
 - JSON-RPC
-- Wallet
+- Wallets
 - Mining
-- Transactions
+- Transaction
 ---

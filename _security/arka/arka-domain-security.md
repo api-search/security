@@ -33,7 +33,7 @@ tags:
 - Company
 - Packaging
 - Custom Packaging
-- Ecommerce
+- E-Commerce
 - Sustainability
 - Commerce
 - Agentic Commerce

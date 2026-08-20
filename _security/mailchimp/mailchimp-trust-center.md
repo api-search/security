@@ -747,7 +747,7 @@ tags:
 - Audience Management
 - SMS
 - E-Commerce
-- Webhooks
+- Webhook
 - Marketing Analytics
 trust_url: https://mailchimp.com/about/security/
 ---

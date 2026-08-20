@@ -178,7 +178,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Payments
 - Marketplace Payments
-- Digital Wallets
+- Digital Wallet
 - KYC
 - KYB
 - Fund Transfers

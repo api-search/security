@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chemius/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - ADR
-- AI
+- Artificial Intelligence
 - Chemicals
 - Chemists
 - Compliance
@@ -41,7 +41,7 @@ tags:
 - Regulatory
 - Research
 - Safety Data Sheets
-- SaaS
+- Software-as-a-Service
 - SDS
 - TDS
 ---

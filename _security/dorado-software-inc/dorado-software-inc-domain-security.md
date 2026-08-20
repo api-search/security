@@ -36,6 +36,6 @@ tags:
 - DCIM
 - Orchestration
 - Monitoring
-- Data Center
+- Data-Center
 - AIOps
 ---

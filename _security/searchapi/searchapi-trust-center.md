@@ -38,14 +38,14 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://www.sea
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/security/searchapi-trust-center.yml
 summary_line: ISO/IEC 27001:2022, GDPR, SOC 2, PCI DSS, HIPAA, FedRAMP
 tags:
-- search
-- serp-api
-- google-search
-- web-scraping
-- search-data
-- market-intelligence
-- seo
-- mcp
+- Search
+- SERP API
+- Google Search
+- Web Scraping
+- Search data
+- Market Intelligence
+- SEO
+- MCP
 - agent-native
 trust_url: ''
 ---

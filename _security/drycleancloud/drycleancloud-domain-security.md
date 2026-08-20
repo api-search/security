@@ -86,8 +86,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Dry Cleaning
 - Laundry
-- Point of Sale
-- POS
+- Point-of-Sale
 - Field Service
 - Pickup and Delivery
 - SMB Software

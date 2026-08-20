@@ -69,7 +69,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blablacar-bus-
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Booking
-- Buses
+- Bus
 - Coach
 - Europe
 - Mobility

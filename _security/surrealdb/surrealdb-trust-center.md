@@ -25,9 +25,9 @@ tags:
 - Graph Database
 - Document Database
 - Vector Database
-- Time-Series
+- Time Series
 - SurrealQL
-- AI
+- Artificial Intelligence
 - MCP
 trust_url: https://trust.surrealdb.com/
 ---

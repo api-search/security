@@ -84,11 +84,11 @@ source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revert-api/refs/heads/main/security/revert-api-domain-security.yml
 summary_line: DMARC
 tags:
-- Unified API
+- Unified-API
 - Embedded iPaaS
-- Integrations
+- Integration
 - Product Integrations
-- Open Source
+- Open-Source
 - CRM Integrations
 - Connectors
 - API Integration

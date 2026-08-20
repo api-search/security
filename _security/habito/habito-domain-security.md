@@ -34,8 +34,8 @@ tags:
 - Fintech
 - Mortgages
 - Lending
-- Financial Services
-- Real Estate
+- Financial-Services
+- Real-Estate
 - Home Buying
 - United Kingdom
 ---

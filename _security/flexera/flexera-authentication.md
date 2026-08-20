@@ -225,7 +225,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/spot-adm
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/authentication/flexera-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Autoscaling
+- Auto-Scaling
 - Cloud Infrastructure
 - Containers
 - Cost Optimization

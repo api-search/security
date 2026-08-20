@@ -81,8 +81,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Email
 - Messaging
-- Notifications
-- Pub/Sub
+- Notification
+- Pub-Sub
 - Push Notifications
 - SMS
 ---

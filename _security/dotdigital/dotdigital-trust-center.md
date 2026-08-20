@@ -58,8 +58,8 @@ tags:
 - Consent Management
 - Personalization
 - Loyalty
-- Ecommerce
-- Events
-- Webhooks
+- E-Commerce
+- Event
+- Webhook
 trust_url: https://dotdigital.com/trust-center/
 ---

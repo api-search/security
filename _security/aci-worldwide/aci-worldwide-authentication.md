@@ -48,11 +48,11 @@ tags:
 - Payment Processing
 - Acquiring
 - Card Payments
-- eCommerce
+- E-Commerce
 - Fraud
 - Tokenization
 - 3D Secure
-- Bill Payment
+- Bill Payments
 - Real-Time Payments
 - ISO 20022
 ---

@@ -57,7 +57,7 @@ tags:
 - Enterprise Search
 - Contract Analysis
 - Text Analytics
-- Machine Learning
+- Machine-Learning
 - Compliance
 - REST API
 - Germany

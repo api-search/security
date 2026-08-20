@@ -132,11 +132,11 @@ tags:
 - Context
 - LLMs
 - Retrieval
-- Vector
+- Vectors
 - LangChain
 - CrewAI
 - AutoGen
 - LlamaIndex
-- Open Source
+- Open-Source
 - Infrastructure
 ---

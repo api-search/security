@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/security/hyperscience-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, FedRAMP, GDPR
 tags:
-- AI
+- Artificial Intelligence
 - Document AI
 - IDP
 - Enterprise

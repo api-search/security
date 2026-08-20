@@ -207,7 +207,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/
 summary_line: http-basic · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Translation
 - Localization
 - Language

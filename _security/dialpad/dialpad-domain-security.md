@@ -121,7 +121,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Communications
 - Voice
-- AI
+- Artificial Intelligence
 - Contact Center
 - UCaaS
 ---

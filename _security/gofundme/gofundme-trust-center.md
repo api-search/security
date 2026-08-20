@@ -443,16 +443,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gofundme/refs/
 summary_line: PCI DSS, NIST Cybersecurity Framework, ISO 27001
 tags:
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Crowdfunding
 - Donations
 - Payments
 - Peer-to-Peer Fundraising
 - Recurring Giving
-- Events
+- Event
 - Philanthropy
 - Social Impact
 - CRM
-- Webhooks
+- Webhook
 trust_url: https://www.gofundme.com/c/security
 ---

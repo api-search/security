@@ -53,6 +53,6 @@ tags:
 - Invoice Generation
 - Global Tax
 - Indirect Tax
-- FinTech
+- Fintech
 trust_url: https://www.fonoa.com/resources/security
 ---

@@ -39,7 +39,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Regulatory
-- Pharmaceutical
+- Pharmaceuticals
 - Medical Devices
 - Life Sciences
 - Document Search

@@ -42,7 +42,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Company
 - Foundation Models
-- Machine Learning
+- Machine-Learning
 - Forecasting
 - Time Series
 - Tabular Data

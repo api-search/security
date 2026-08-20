@@ -63,7 +63,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Event Management
 - Ticketing
-- Events
+- Event
 - Registration
 - Virtual Events
 - Sessions

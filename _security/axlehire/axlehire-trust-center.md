@@ -56,8 +56,8 @@ tags:
 - Parcel
 - Transportation
 - Supply Chain
-- Ecommerce
+- E-Commerce
 - Tracking
-- Webhooks
+- Webhook
 trust_url: https://trust.gojitsu.com/
 ---

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Jewelry
-- Ecommerce
+- E-Commerce
 - Retail
 - Luxury Goods
 - Bespoke Manufacturing

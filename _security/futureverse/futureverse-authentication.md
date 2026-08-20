@@ -165,18 +165,18 @@ source_yaml: "generated: '2026-08-16'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/futureverse/refs/heads/main/authentication/futureverse-authentication.yml
 summary_line: openIdConnect/oauth2/apiKey/http · 6 schemes
 tags:
-- blockchain
-- web3
-- metaverse
-- digital-assets
-- nft
-- graphql
-- identity
-- openid-connect
+- Blockchain
+- Web3
+- Metaverse
+- Digital Assets
+- NFT
+- GraphQL
+- Identity
+- OpenID Connect
 - asset-registry
-- layer-1
-- evm
-- gaming
+- Layer 1
+- EVM
+- Gaming
 - agent-native
-- mcp
+- MCP
 ---

@@ -29,14 +29,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kovzy-co/refs/
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
-- Restaurants
-- Point of Sale
+- Restaurant
+- Point-of-Sale
 - Hospitality
 - Online Ordering
 - QR Menu
 - Website Builder
 - Food Delivery
-- SaaS
+- Software-as-a-Service
 - Georgia
 - Armenia
 ---

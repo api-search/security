@@ -32,7 +32,7 @@ tags:
 - Company
 - Crowdfunding
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Charity
 - Donations
 - Payments

@@ -69,7 +69,7 @@ tags:
 - File Sharing
 - Content Collaboration
 - Enterprise Storage
-- Document Management
+- Document-Management
 - Governance
 - Data Security
 ---

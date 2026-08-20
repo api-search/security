@@ -47,9 +47,9 @@ tags:
 - Sentiment Analysis
 - Market Data
 - Equities
-- Currencies
+- Currency
 - Commodities
 - Real-Time
-- Webhooks
+- Webhook
 - WebSocket
 ---

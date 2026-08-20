@@ -53,7 +53,7 @@ tags:
 - Automation
 - Internal Tools
 - Low-Code
-- Open Source
-- Workflow Automation
+- Open-Source
+- Workflow-Automation
 trust_url: https://budibase.com/security
 ---

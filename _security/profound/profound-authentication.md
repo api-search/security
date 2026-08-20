@@ -79,7 +79,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/profound/refs/
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Answer Engine Optimization
 - AEO
 - AI Search

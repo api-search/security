@@ -22,7 +22,7 @@ tags:
 - Company
 - Fintech
 - Wealth Management
-- Portfolio Management
+- Portfolio-Management
 - Investment Management
 - Financial Data
 - JSON:API

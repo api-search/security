@@ -114,16 +114,16 @@ source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/security/arkestro-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- procurement
-- sourcing
-- supply-chain
-- spend-management
-- e-sourcing
-- supplier-management
-- purchase-orders
+- Procurement
+- Sourcing
+- Supply Chain
+- Spend Management
+- eSourcing
+- Supplier Management
+- Purchase Orders
 - procurement-analytics
-- enterprise-software
+- Enterprise Software
 - predictive-procurement
-- mcp
-- webhooks
+- MCP
+- Webhook
 ---

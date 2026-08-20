@@ -33,7 +33,7 @@ tags:
 - Company
 - Fashion
 - Marketplace
-- E-commerce
+- E-Commerce
 - Retail
 - Apparel
 - Boutiques

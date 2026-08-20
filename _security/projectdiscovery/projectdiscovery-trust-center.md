@@ -149,6 +149,5 @@ tags:
 - Asset Discovery
 - DevSecOps
 - Nuclei
-- API
 trust_url: https://security.projectdiscovery.io/
 ---

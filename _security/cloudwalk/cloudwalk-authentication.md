@@ -33,14 +33,14 @@ summary_line: 0 schemes
 tags:
 - Company
 - Payments
-- Financial Services
+- Financial-Services
 - Fintech
 - Checkout
-- Point of Sale
+- Point-of-Sale
 - Acquiring
 - Pix
 - Brazil
 - Banking
-- Webhooks
+- Webhook
 - Tap to Pay
 ---

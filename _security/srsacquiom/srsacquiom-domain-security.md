@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Mergers and Acquisitions
-- Financial Services
+- Financial-Services
 - Escrow
 - Payments
 - Loan Agency

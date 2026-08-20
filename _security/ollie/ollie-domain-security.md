@@ -35,6 +35,6 @@ tags:
 - Dog Food
 - Direct to Consumer
 - Subscription
-- E-commerce
+- E-Commerce
 - Consumer Health
 ---

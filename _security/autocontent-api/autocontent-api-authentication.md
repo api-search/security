@@ -60,12 +60,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/autocont
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/authentication/autocontent-api-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Audio
 - Content Generation
 - Podcasts
 - Video
 - Generative AI
-- Text to Speech
+- Text-to-Speech
 - Automation
 ---

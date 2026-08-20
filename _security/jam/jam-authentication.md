@@ -60,5 +60,5 @@ tags:
 - Quality Assurance
 - Observability
 - Screen Recording
-- Model Context Protocol
+- MCP
 ---

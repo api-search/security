@@ -68,16 +68,16 @@ source_yaml: "generated: '2026-08-01'\nmethod: searched\nsource: openapi/measura
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/authentication/measurabl-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- esg
-- real-estate
-- sustainability
-- carbon-accounting
-- energy-management
-- building-performance
-- climate-risk
-- benchmarking
-- compliance
-- proptech
-- utility-data
-- capital-markets
+- ESG
+- Real-Estate
+- Sustainability
+- Carbon Accounting
+- Energy Management
+- Building Performance
+- Climate Risk
+- Benchmarking
+- Compliance
+- PropTech
+- Utility Data
+- Capital Markets
 ---

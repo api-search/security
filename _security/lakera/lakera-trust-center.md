@@ -42,6 +42,5 @@ tags:
 - Guardrails
 - Red Teaming
 - GenAI
-- API
 trust_url: https://www.lakera.ai/security
 ---

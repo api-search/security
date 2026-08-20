@@ -38,5 +38,5 @@ tags:
 - Pharmaceuticals
 - Life Sciences
 - Contract Research Organization
-- SaaS
+- Software-as-a-Service
 ---

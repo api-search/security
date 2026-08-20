@@ -37,5 +37,5 @@ tags:
 - Dynamic Pricing
 - Property Management
 - Vacation Rental
-- SaaS
+- Software-as-a-Service
 ---

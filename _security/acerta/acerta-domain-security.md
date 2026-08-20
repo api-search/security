@@ -34,7 +34,7 @@ tags:
 - Manufacturing
 - Analytics
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Quality
 - Automotive
 - Industrial IoT

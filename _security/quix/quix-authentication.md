@@ -79,7 +79,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quix/refs/head
 summary_line: http · 1 scheme
 tags:
 - Stream Processing
-- Real Time
+- Real-Time
 - Kafka
 - Python
 - Streaming Data

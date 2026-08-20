@@ -79,14 +79,14 @@ summary_line: apiKey/oauth2 · 5 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Ecommerce
+- E-Commerce
 - Retail
 - Personalization
 - Marketing
 - Agentic AI
 - Decisioning
 - Customer Data
-- Events
-- Real Time
+- Event
+- Real-Time
 - MCP
 ---

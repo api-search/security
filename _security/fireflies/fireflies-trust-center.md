@@ -58,10 +58,10 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/security/fireflies-trust-center.yml
 summary_line: SOC 2 Type II, HIPAA, GDPR
 tags:
-- AI
+- Artificial Intelligence
 - Meeting Assistant
 - Transcription
-- Summaries
+- Summary
 - Action Items
 - GraphQL
 - Meetings

@@ -53,7 +53,7 @@ tags:
 - Secure Execution
 - AI Agents
 - Firecracker
-- microVMs
+- MicroVMs
 - Code Execution
 - Data Analysis
 - Desktop Sandbox

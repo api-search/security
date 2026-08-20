@@ -34,7 +34,7 @@ tags:
 - Video
 - Video Editing
 - Content Creation
-- AI
+- Artificial Intelligence
 - Plugins
-- SaaS
+- Software-as-a-Service
 ---

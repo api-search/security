@@ -26,6 +26,6 @@ tags:
 - Artificial Intelligence
 - Threat Detection
 - Incident Response
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.qevlar.com/faq
 ---

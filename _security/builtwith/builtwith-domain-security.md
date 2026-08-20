@@ -128,7 +128,7 @@ tags:
 - Technographics
 - Sales Intelligence
 - AI Agents
-- Model Context Protocol
+- MCP
 - Agentic Commerce
-- Real-time Data
+- Real-Time Data
 ---

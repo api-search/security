@@ -34,7 +34,7 @@ tags:
 - Salons
 - Booking
 - Appointments
-- Point Of Sale
+- Point-of-Sale
 - Small Business
 - France
 - Acquired

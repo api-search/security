@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Commerce
-- Ecommerce
+- E-Commerce
 - Sustainability
 - Supply Chain
 - Agent Commerce

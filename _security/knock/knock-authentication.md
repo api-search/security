@@ -143,7 +143,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/knock-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knock/refs/heads/main/authentication/knock-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Notifications
+- Notification
 - Email
 - SMS
 - Push

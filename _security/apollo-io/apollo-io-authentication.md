@@ -156,5 +156,5 @@ tags:
 - Sales Engagement
 - Conversation Intelligence
 - MCP
-- SaaS
+- Software-as-a-Service
 ---

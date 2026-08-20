@@ -83,8 +83,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/treasury
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/authentication/treasury-prime-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- FinTech
-- BaaS
+- Fintech
+- Backend-as-a-Service
 - Banking
 - Payments
 - Card Issuing

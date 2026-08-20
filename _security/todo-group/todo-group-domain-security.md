@@ -49,6 +49,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Community
 - Linux Foundation
-- Open Source
+- Open-Source
 - OSPO
 ---

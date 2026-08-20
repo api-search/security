@@ -179,7 +179,7 @@ summary_line: http/oauth2 · 3 schemes
 tags:
 - Company
 - Social
-- Social Media
+- Social-Media
 - Posts
 - Real-Time
 - Streaming

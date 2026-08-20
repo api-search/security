@@ -126,6 +126,6 @@ tags:
 - ENS
 - POAP
 - Social Graph
-- Wallet
+- Wallets
 - Identity
 ---

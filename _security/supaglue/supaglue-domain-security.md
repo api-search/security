@@ -284,14 +284,14 @@ summary_line: TLSv1.3
 tags:
 - CRM
 - HRIS
-- Unified API
-- Open Source
-- Integrations
+- Unified-API
+- Open-Source
+- Integration
 - Sales Engagement
 - Ticketing
 - Data Synchronization
 - Marketing Automation
 - Enrichment
-- Webhooks
+- Webhook
 - Archived
 ---

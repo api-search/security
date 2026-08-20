@@ -46,9 +46,9 @@ tags:
 - Artificial Intelligence
 - Finance
 - Investment Management
-- Financial Services
+- Financial-Services
 - Agents
-- Machine Learning
+- Machine-Learning
 - Research
 - Fintech
 ---

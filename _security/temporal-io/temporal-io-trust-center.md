@@ -58,7 +58,7 @@ tags:
 - Workflow Orchestration
 - gRPC
 - Workflows
-- Open Source
+- Open-Source
 - Temporal Cloud
 trust_url: https://trust.temporal.io/
 ---

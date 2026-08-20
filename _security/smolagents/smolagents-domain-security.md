@@ -35,6 +35,6 @@ tags:
 - Code Generation
 - LLM
 - Hugging Face
-- Open Source
-- Machine Learning
+- Open-Source
+- Machine-Learning
 ---

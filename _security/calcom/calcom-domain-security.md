@@ -45,6 +45,6 @@ tags:
 - Scheduling
 - Calendars
 - Bookings
-- Open Source
+- Open-Source
 - Event Types
 ---

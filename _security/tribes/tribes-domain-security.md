@@ -31,7 +31,7 @@ tags:
 - Company
 - Web3
 - Crypto
-- Wallet
+- Wallets
 - Messaging
 - Social
 - DAO

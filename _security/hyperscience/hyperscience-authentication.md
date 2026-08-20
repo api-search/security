@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hypersci
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/authentication/hyperscience-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Document AI
 - IDP
 - Enterprise

@@ -30,10 +30,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lulus/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Fashion
 - Retail
 - Apparel
-- Direct To Consumer
+- Direct to Consumer
 - Online Shopping
 ---

@@ -37,6 +37,6 @@ tags:
 - Video Processing
 - Content Creation
 - Media
-- Webhooks
+- Webhook
 - Enterprise
 ---

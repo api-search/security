@@ -62,7 +62,7 @@ tags:
 - Product Reviews
 - Reputation Management
 - Reviews Management
-- E-commerce
+- E-Commerce
 - Trust and Safety
 - Google Seller Ratings
 - Customer Feedback

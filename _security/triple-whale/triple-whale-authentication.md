@@ -123,12 +123,12 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource:\n- https://trip
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/authentication/triple-whale-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- E-commerce
+- E-Commerce
 - Analytics
 - Attribution
 - Shopify
 - Pixel Tracking
 - ROAS
-- DTC
+- Direct to Consumer
 - Marketing
 ---

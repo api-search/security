@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bowery-valuati
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Commercial Real Estate
 - Appraisal
 - Valuation
 - Property Data
-- Proptech
+- PropTech
 - Lending
 ---

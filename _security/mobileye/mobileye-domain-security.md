@@ -36,9 +36,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - ADAS
 - Autonomous Vehicles
-- Computer Vision
+- Computer-Vision
 - EyeQ
-- SuperVision
+- Supervision
 - Chauffeur
 - REM
 - RSS

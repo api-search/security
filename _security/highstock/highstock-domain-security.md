@@ -34,7 +34,7 @@ tags:
 - Marketplace
 - Wholesale
 - Inventory
-- Ecommerce
+- E-Commerce
 - Retail
 - Beauty
 - B2B

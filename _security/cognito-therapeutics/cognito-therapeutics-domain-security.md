@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cognito-therap
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Health Care
+- Healthcare
 - Medical Devices
 - Neurotechnology
 - Neuroscience
-- Alzheimers Disease
+- Alzheimer's Disease
 - Clinical Trials
 - Digital Therapeutics
 - Biotechnology

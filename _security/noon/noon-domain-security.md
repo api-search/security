@@ -46,6 +46,6 @@ tags:
 - Payments
 - Digital Wallet
 - Logistics
-- Last-Mile Delivery
+- Last Mile Delivery
 - Super App
 ---

@@ -37,6 +37,6 @@ tags:
 - Automation
 - Logistics
 - Warehouse
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 ---

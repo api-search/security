@@ -57,11 +57,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/v7-labs/refs/heads/main/security/v7-labs-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
-- AI
+- Artificial Intelligence
 - Training Data
 - Data Labeling
 - Annotation
 - Document AI
-- Computer Vision
+- Computer-Vision
 trust_url: https://trust.v7labs.com/
 ---

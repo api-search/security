@@ -32,10 +32,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Healthcare
-- AI
+- Artificial Intelligence
 - Speech Recognition
 - Voice Documentation
 - Nursing
 - Electronic Health Records
-- Long-term Care
+- Long-Term Care
 ---

@@ -42,12 +42,12 @@ tags:
 - Offsets
 - Sustainability
 - Sustainable Development
-- REDD+
+- REDD Plus
 - Forestry
 - AFOLU
 - Nature-Based Solutions
 - Plastic Waste
 - Standards
 - Certification
-- Nonprofit
+- Non-Profit
 ---

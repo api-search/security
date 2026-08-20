@@ -56,7 +56,7 @@ tags:
 - Email Deliverability
 - Email Service
 - Marketing Email
-- Notifications
+- Notification
 - SMTP
 - Transactional Email
 - Bulk Email

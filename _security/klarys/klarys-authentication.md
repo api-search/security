@@ -69,7 +69,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/klarys/refs/he
 summary_line: oauth2 · 1 scheme
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - eProcurement
 - Procurement
 - Supply Chain

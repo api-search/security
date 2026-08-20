@@ -70,5 +70,5 @@ tags:
 - API Management
 - Federated API Management
 - Governance
-- Layer7
+- Layer-7
 ---

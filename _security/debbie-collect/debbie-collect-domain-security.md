@@ -105,9 +105,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/debbie-collect
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Accounts Receivable
-- Collections
+- Collection
 - Debt Collection
-- FinTech
+- Fintech
 - Payments
-- SaaS
+- Software-as-a-Service
 ---

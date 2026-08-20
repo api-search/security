@@ -35,7 +35,7 @@ tags:
 - AI Agents
 - Enterprise Software
 - Automation
-- Workflow Automation
+- Workflow-Automation
 - Field Service
 - Manufacturing
 ---

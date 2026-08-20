@@ -28,7 +28,7 @@ tags:
 - MCP
 - Contact Data
 - Lead Generation
-- Jobs
+- Job
 - Agents
 trust_url: https://theorg.com/trust
 ---

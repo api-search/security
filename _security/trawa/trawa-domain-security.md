@@ -44,6 +44,6 @@ tags:
 - Sustainability
 - Green Energy
 - Procurement
-- SaaS
+- Software-as-a-Service
 - Germany
 ---

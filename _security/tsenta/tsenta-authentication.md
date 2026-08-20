@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tsenta/refs/he
 summary_line: oauth2 · 1 scheme
 tags:
 - Company
-- Jobs
+- Job
 - Recruiting
 - Job Search
 - AI Agents

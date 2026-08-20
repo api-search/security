@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pemo/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Corporate Cards
 - Spend Management
 - Expense Management

@@ -29,8 +29,8 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Payments
 - Billing
-- Subscriptions
-- PIX
+- Subscription
+- Pix
 - Boleto
 - Boleto Pix
 - Credit Cards
@@ -38,7 +38,7 @@ tags:
 - Payment Split
 - Banking as a Service
 - Digital Account
-- Webhooks
+- Webhook
 - Brazil
 - Fintech
 - EBANX

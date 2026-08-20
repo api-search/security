@@ -18,11 +18,11 @@ summary_line: trust center published
 tags:
 - Company
 - Healthcare
-- AI
+- Artificial Intelligence
 - Speech Recognition
 - Voice Documentation
 - Nursing
 - Electronic Health Records
-- Long-term Care
+- Long-Term Care
 trust_url: https://trust.voize.ai/
 ---

@@ -43,15 +43,15 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Marketing
-- AI
+- Artificial Intelligence
 - Market Intelligence
 - Competitive Intelligence
 - Marketing Automation
 - Generative AI
-- SaaS
+- Software-as-a-Service
 - Answer Engine Optimization
 - Advertising
-- Social Media
+- Social-Media
 - Influencer Marketing
 - Campaign Management
 ---

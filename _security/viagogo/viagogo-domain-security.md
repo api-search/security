@@ -175,10 +175,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Ticketing
-- Events
+- Event
 - Marketplace
 - Entertainment
 - Secondary Market
 - Commerce
-- Travel and Leisure
+- Travel And Leisure
 ---

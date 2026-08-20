@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/viktor/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Cloud SaaS
+- Cloud Saas
 - Artificial Intelligence
 - AI Agents
 - Automation
 - Slack
 - Microsoft Teams
 - Productivity
-- Workflow
+- Workflows
 ---

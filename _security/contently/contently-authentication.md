@@ -43,5 +43,4 @@ tags:
 - Editorial Workflow
 - Regulated Content
 - Compliance
-- API
 ---

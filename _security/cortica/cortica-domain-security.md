@@ -30,8 +30,8 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Artificial Intelligence
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Autonomous Systems
 - Venture Builder
 - Israel

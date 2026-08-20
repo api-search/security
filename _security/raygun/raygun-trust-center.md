@@ -106,6 +106,6 @@ tags:
 - Monitoring
 - DevOps
 - Source Maps
-- Deployments
+- Deployment
 trust_url: https://raygun.com/security
 ---

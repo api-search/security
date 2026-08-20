@@ -284,7 +284,7 @@ tags:
 - Cloud Saas
 - PHP
 - Developer Tools
-- Platform as a Service
+- Platform-as-a-Service
 - Deployment
 - Server Management
 - Application Hosting

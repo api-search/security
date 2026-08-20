@@ -52,9 +52,9 @@ tags:
 - Attractions
 - Ticketing
 - Bookings
-- Point of Sale
+- Point-of-Sale
 - Payments
 - Leisure
 - Reservations
-- Webhooks
+- Webhook
 ---

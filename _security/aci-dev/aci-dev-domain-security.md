@@ -59,13 +59,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agent Infrastructure
 - Agents
-- AI
 - Artificial Intelligence
 - Function Calling
 - MCP
-- Model Context Protocol
-- OAuth
-- Open Source
+- Authentication
+- Open-Source
 - Tool Calling
 - VibeOps
 ---

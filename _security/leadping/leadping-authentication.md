@@ -207,19 +207,19 @@ source_yaml: "generated: '2026-08-18'\nmethod: searched\nsource: https://leadpin
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/authentication/leadping-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- Lead management
+- Lead Management
 - Sales & marketing automation
-- SMS/messaging
+- SMS Messaging
 - A2P 10DLC
 - CPaaS
 - Communications
 - Voice/calling
 - Compliance & consent
-- Agent-native
+- agent-native
 - MCP
 - Lead intake
 - Conversations
 - Automations
 - Suppression & opt-out
-- Webhooks
+- Webhook
 ---

@@ -66,7 +66,7 @@ tags:
 - Rewards
 - Points
 - Customer Retention
-- Ecommerce
-- SaaS
+- E-Commerce
+- Software-as-a-Service
 trust_url: https://www.trueloyal.com/terms-and-conditions
 ---

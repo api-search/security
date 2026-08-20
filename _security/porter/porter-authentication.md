@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/porter-b
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/authentication/porter-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Cloud Native
+- Cloud-Native
 - CNAB
 - DevOps
 - Kubernetes

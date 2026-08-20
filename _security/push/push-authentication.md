@@ -64,6 +64,6 @@ tags:
 - Email
 - SMS
 - Push Notifications
-- Webhooks
+- Webhook
 - Segmentation
 ---

@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harvey-ai/refs
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Artificial Intelligence
-- LegalTech
+- Legal Tech
 - Law Firms
 - Legal Research
 - Contract Analysis

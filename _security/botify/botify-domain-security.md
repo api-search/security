@@ -96,15 +96,14 @@ source_yaml: "generated: '2026-08-08'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/botify/refs/heads/main/security/botify-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- seo
+- SEO
 - organic-search
-- search-engine-optimization
-- web-crawling
-- log-analysis
-- search-console
-- marketing-analytics
-- ai-search
-- data-export
-- mcp
+- Web Crawling
+- Log Analysis
+- Search Console
+- Marketing Analytics
+- AI Search
+- Data Export
+- MCP
 - agent-native
 ---

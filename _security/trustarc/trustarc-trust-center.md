@@ -43,6 +43,6 @@ tags:
 - Certifications
 - RegTech
 - Trust Center
-- Enterprise SaaS
+- Enterprise Saas
 trust_url: https://trustarc.com/products/consent-consumer-rights/trust-center/
 ---

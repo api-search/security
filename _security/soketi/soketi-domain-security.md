@@ -36,9 +36,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soketi/refs/heads/main/security/soketi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Realtime
+- Real-Time
 - WebSockets
-- Open Source
+- Open-Source
 - Pusher Protocol
 - Self-Host
 - Drop-in

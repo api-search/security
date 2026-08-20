@@ -47,5 +47,5 @@ tags:
 - Payments
 - SMB
 - Brazil
-- OAuth
+- Authentication
 ---

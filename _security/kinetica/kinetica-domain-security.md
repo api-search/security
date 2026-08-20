@@ -42,18 +42,18 @@ source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/security/kinetica-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- database
-- analytics
+- Database
+- Analytics
 - gpu-acceleration
-- real-time-analytics
-- vector-search
-- graph-analytics
-- geospatial
-- time-series
-- sql
-- streaming
-- data-infrastructure
-- mcp
+- Real-Time Analytics
+- Vector Search
+- Graph Analytics
+- Geospatial
+- Time Series
+- SQL
+- Streaming
+- Data Infrastructure
+- MCP
 - agent-native
-- rag
+- RAG
 ---

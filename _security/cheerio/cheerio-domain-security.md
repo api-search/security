@@ -37,10 +37,10 @@ tags:
 - MIT License
 - Node.js
 - npm
-- Open Source
+- Open-Source
 - Parser
 - Scraping
-- Server-side
+- Server-Side
 - Web Scraping
 - XML
 ---

@@ -35,7 +35,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams-/refs/heads/main/security/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams--domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
-- Federal Government
+- Federal-Government
 - Health
 - NIH
 - Research

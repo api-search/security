@@ -61,7 +61,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scorecard/refs
 summary_line: SOC 2
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - Evaluation
 - Testing

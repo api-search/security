@@ -32,12 +32,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Enterprise
-- WiFi
+- Wi-Fi
 - ISP
 - Smart Home
 - Network Intelligence
-- Cyber Security
-- SaaS
+- Cybersecurity
+- Software-as-a-Service
 - OpenSync
 - CPE
 - Connectivity

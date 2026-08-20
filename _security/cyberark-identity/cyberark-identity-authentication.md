@@ -84,6 +84,6 @@ tags:
 - Single Sign-On
 - SSO
 - Multi-Factor Authentication
-- OAuth
+- Authentication
 - Zero Trust
 ---

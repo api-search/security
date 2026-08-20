@@ -54,7 +54,7 @@ tags:
 - Company
 - Data Privacy
 - Differential Privacy
-- Machine Learning
+- Machine-Learning
 - Analytics
 - Data Clean Rooms
 - Privacy Enhancing Technologies

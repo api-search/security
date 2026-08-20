@@ -55,5 +55,5 @@ tags:
 - Campaign Analytics
 - Marketing Automation
 - Transactional Email
-- Webhooks
+- Webhook
 ---

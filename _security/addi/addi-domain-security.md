@@ -48,7 +48,7 @@ tags:
 - Credit
 - Lending
 - Checkout
-- E-commerce
+- E-Commerce
 - Latin America
 - Colombia
 ---

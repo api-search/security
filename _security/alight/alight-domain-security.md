@@ -35,5 +35,5 @@ tags:
 - Payroll
 - Workforce
 - HR Technology
-- SaaS
+- Software-as-a-Service
 ---

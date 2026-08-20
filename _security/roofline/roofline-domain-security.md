@@ -35,7 +35,7 @@ tags:
 - AI Compiler
 - MLIR
 - IREE
-- Machine Learning
+- Machine-Learning
 - Model Deployment
 - Embedded
 - NPU

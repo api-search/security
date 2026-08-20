@@ -30,7 +30,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Camera Positioning
-- Computer Vision
+- Computer-Vision
 - Spatial Computing
 - Geolocation
 - Positioning

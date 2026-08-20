@@ -39,7 +39,7 @@ tags:
 - Technology News
 - Innovation
 - Media
-- Events
+- Event
 - Startups
 - Artificial Intelligence
 ---

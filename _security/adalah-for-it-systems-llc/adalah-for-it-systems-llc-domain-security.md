@@ -34,6 +34,6 @@ tags:
 - Legal Tech
 - Artificial Intelligence
 - Compliance
-- SaaS
+- Software-as-a-Service
 - Saudi Arabia
 ---

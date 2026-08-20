@@ -1218,7 +1218,7 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Calling
 - Collaboration
-- Communication
+- Communications
 - Enterprise
 - Messaging
 - Video Conferencing

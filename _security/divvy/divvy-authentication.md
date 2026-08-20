@@ -54,5 +54,5 @@ tags:
 - Corporate Cards
 - Expense Management
 - Fintech
-- BILL
+- Bill
 ---

@@ -45,7 +45,7 @@ tags:
 - Blockchain
 - Layer 2
 - Ethereum
-- Zero Knowledge Proofs
+- Zero-Knowledge Proofs
 - zkSharding
 - JSON-RPC
 - Smart Contracts

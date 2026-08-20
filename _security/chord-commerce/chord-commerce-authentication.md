@@ -105,8 +105,7 @@ tags:
 - Commerce Copilot
 - Solidus
 - Spree
-- Ruby On Rails
+- Ruby on Rails
 - Shopify
-- DTC
-- Direct To Consumer
+- Direct to Consumer
 ---

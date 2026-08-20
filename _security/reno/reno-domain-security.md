@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reno/refs/head
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Home Renovation
 - Interior Design
 - Construction

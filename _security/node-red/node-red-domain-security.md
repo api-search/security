@@ -67,7 +67,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Self-Hosted
-- Workflow Automation
+- Workflow-Automation
 - Flow-Based Programming
 - IoT
 ---

@@ -31,7 +31,7 @@ tags:
 - Company
 - Semiconductors
 - Networking
-- Data Center
+- Data-Center
 - Switch Silicon
 - DPU
 - AI Infrastructure

@@ -163,8 +163,8 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/security/roboflow-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Artificial Intelligence
 - Object Detection
 - Image Annotation

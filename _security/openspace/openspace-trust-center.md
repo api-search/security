@@ -27,9 +27,9 @@ tags:
 - Progress Tracking
 - BIM
 - Drone Imagery
-- Computer Vision
-- AI
-- SaaS
+- Computer-Vision
+- Artificial Intelligence
+- Software-as-a-Service
 - San Francisco
 trust_url: https://security.openspace.ai/
 ---

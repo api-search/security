@@ -61,7 +61,7 @@ tags:
 - Optimization
 - Personalization
 - A/B Testing
-- Machine Learning
+- Machine-Learning
 - Conversion Rate Optimization
 - Experience Optimization
 - Analytics

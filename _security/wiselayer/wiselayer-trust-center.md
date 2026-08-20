@@ -26,6 +26,6 @@ tags:
 - Agents
 - Accruals
 - Accounting Automation
-- FinTech
+- Fintech
 trust_url: https://www.wiselayer.com/trust-security
 ---

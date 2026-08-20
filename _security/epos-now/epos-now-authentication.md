@@ -67,12 +67,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/epos-now
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/authentication/epos-now-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Point of Sale
-- POS
+- Point-of-Sale
 - Retail
 - Hospitality
 - Payments
 - Inventory
 - Commerce
-- Ecommerce
+- E-Commerce
 ---

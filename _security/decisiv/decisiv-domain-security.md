@@ -85,14 +85,14 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - commercial-vehicle
-- fleet-management
+- Fleet Management
 - service-relationship-management
-- telematics
-- asset-management
+- Telematics
+- Asset Management
 - maintenance-and-repair
-- heavy-duty-trucking
-- transportation
-- dealer-management
-- json-api
-- webhooks
+- Heavy Duty Trucking
+- Transportation
+- Dealer Management
+- JSON:API
+- Webhook
 ---

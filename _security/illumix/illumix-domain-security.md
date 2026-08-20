@@ -33,7 +33,7 @@ tags:
 - Company
 - Spatial AI
 - Augmented Reality
-- Computer Vision
+- Computer-Vision
 - Localization
 - Edge AI
 - Robotics

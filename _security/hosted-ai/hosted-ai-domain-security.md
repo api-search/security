@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hosted-ai/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - GPU
 - GPUaaS
 - Cloud Infrastructure
 - Neocloud
-- Machine Learning
+- Machine-Learning
 - AI Infrastructure
 - Multi-Tenancy
 - Service Providers

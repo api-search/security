@@ -79,7 +79,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Event Tracking
 - Funnels
-- Open Source
+- Open-Source
 - Product Analytics
 - Real-Time Analytics
 - User Analytics

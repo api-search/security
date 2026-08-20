@@ -38,7 +38,7 @@ tags:
 - Clean Energy
 - Scientific Computing
 - Simulation
-- Open Source
+- Open-Source
 - Deep Tech
 - New Jersey
 ---

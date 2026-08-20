@@ -22,9 +22,9 @@ summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Data Labeling
 - AI Training
-- Machine Learning
+- Machine-Learning
 - Annotation
-- Computer Vision
+- Computer-Vision
 - RLHF
 - Model Evaluation
 - Dataset Management

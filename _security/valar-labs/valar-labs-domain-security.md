@@ -41,7 +41,7 @@ tags:
 - Cancer
 - Diagnostics
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Pathology
 - Digital Pathology
 - Precision Medicine

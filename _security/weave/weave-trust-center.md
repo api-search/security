@@ -69,7 +69,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weave/refs/hea
 summary_line: HIPAA, ISO 27001, SOC 2 Type 2
 tags:
 - Company
-- Communication
+- Communications
 - Messaging
 - Payments
 - Healthcare
@@ -79,6 +79,6 @@ tags:
 - Scheduling
 - SMB
 - Developer Platform
-- OAuth
+- Authentication
 trust_url: https://trust.getweave.com/
 ---

@@ -364,6 +364,6 @@ tags:
 - LLM Proxy
 - Multi-Gateway Federation
 - Developer Portal
-- Open Source
+- Open-Source
 - Apache 2.0
 ---

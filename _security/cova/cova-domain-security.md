@@ -34,7 +34,7 @@ tags:
 - Caregiving
 - Medicaid
 - Long-Term Care
-- AI
+- Artificial Intelligence
 - Marketplace
 - Detroit
 - Michigan

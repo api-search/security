@@ -50,7 +50,7 @@ tags:
 - Company
 - Consumer Packaged Goods
 - Infant Formula
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Retail
 - Health
@@ -58,5 +58,5 @@ tags:
 - Agentic Commerce
 - Shopify
 - GraphQL
-- Model Context Protocol
+- MCP
 ---

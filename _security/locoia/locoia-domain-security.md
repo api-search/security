@@ -33,6 +33,6 @@ tags:
 - Integration
 - iPaaS
 - Low-Code
-- Workflow Automation
+- Workflow-Automation
 - Connectors
 ---

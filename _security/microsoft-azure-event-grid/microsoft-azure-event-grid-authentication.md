@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsof
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-grid/refs/heads/main/authentication/microsoft-azure-event-grid-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Events
+- Event
 - Event-Driven
 - Pub-Sub
 - Serverless

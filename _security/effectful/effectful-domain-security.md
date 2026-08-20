@@ -33,9 +33,9 @@ tags:
 - Developer Tools
 - TypeScript
 - Libraries
-- Open Source
+- Open-Source
 - Functional Programming
-- SDKs
+- SDK
 - Observability
 - Concurrency
 ---

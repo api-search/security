@@ -208,24 +208,24 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs
 summary_line: SOC 1 Type 2, SOC 2 Type 1, SOC 2 Type 2, ISO/IEC 27001:2022, Regulation SCI, DORA, GDPR, CCPA, 23 NYCRR 500
 tags:
 - Company
-- crypto-infrastructure
-- digital-assets
-- stablecoins
-- payments
-- payouts
-- tokenization
-- custody
-- staking
-- settlement
-- embedded-finance
-- on-off-ramp
-- liquidity
-- fix-protocol
-- webhooks
-- websockets
-- kyc
-- compliance
-- remittances
-- agentic-finance
+- Crypto Infrastructure
+- Digital Assets
+- Stablecoins
+- Payments
+- Payouts
+- Tokenization
+- Custody
+- Staking
+- Settlement
+- Embedded Finance
+- On-Off Ramp
+- Liquidity
+- FIX Protocol
+- Webhook
+- WebSockets
+- KYC
+- Compliance
+- Remittances
+- Agentic Finance
 trust_url: https://trust.zerohash.com/
 ---

@@ -59,13 +59,13 @@ summary_line: 2 schemes
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Baby Products
 - Consumer Goods
 - Apparel
 - Direct to Consumer
 - Shopify
 - MCP
-- Agent Native
+- agent-native
 - Universal Commerce Protocol
 ---

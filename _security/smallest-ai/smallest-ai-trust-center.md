@@ -39,10 +39,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smallest-ai/refs/heads/main/security/smallest-ai-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
-- AI
-- Text to Speech
+- Artificial Intelligence
+- Text-to-Speech
 - Voice
-- Realtime
+- Real-Time
 - Voice Agents
 trust_url: https://security.smallest.ai/
 ---

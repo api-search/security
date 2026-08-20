@@ -35,5 +35,5 @@ tags:
 - Cardiology
 - Medical Technology
 - Clinical Research
-- Model Context Protocol
+- MCP
 ---

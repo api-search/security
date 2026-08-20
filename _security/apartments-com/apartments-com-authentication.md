@@ -23,7 +23,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: >-\n  https://p
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apartments-com/refs/heads/main/authentication/apartments-com-authentication.yml
 summary_line: 0 schemes
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - Rentals
 - Property Listings

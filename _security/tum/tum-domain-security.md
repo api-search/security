@@ -1,53 +1,23 @@
 ---
 api_specs:
-- filename: tum-calendar-api-openapi.yml
+- filename: tum-campus-backend-openapi.yml
   format: yaml
-  label: Technical University of Munich calendar API
-  slug: tum-calendar-api
+  label: TUM Campus App Backend API
+  slug: campus-backend
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-calendar-api-openapi.yml
-- filename: tum-feedback-api-openapi.yml
-  format: yaml
-  label: Technical University of Munich feedback API
-  slug: tum-feedback-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-feedback-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-campus-backend-openapi.yml
 - filename: tum-locations-api-openapi.yml
   format: yaml
-  label: Technical University of Munich locations API
-  slug: tum-locations-api
+  label: NavigaTUM
+  slug: navigatum
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-locations-api-openapi.yml
-- filename: tum-maps-api-openapi.yml
-  format: yaml
-  label: Technical University of Munich maps API
-  slug: tum-maps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-maps-api-openapi.yml
 - filename: tum-menu-api-openapi.yml
   format: yaml
-  label: Technical University of Munich menu API
-  slug: tum-menu-api
+  label: eat-api — Munich Student Canteen Menus
+  slug: eat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-menu-api-openapi.yml
-- filename: tum-openapi-json-api-openapi.yml
-  format: yaml
-  label: Technical University of Munich Openapi.json API
-  slug: tum-openapi-json-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-openapi-json-api-openapi.yml
-- filename: tum-static-api-openapi.yml
-  format: yaml
-  label: Technical University of Munich static API
-  slug: tum-static-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-static-api-openapi.yml
-- filename: tum-status-api-openapi.yml
-  format: yaml
-  label: Technical University of Munich Status API
-  slug: tum-status-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -84,11 +54,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/security/tum-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Germany
-- Open Source
+- Technical University
+- Universities of Excellence
 - Campus
-- Open Data
+- Course Catalog
+- Identity Federation
+- Research Repository
+- Open-Source
+- Student Information System
 ---

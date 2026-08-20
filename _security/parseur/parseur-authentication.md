@@ -67,7 +67,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/parseur-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/authentication/parseur-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
 - Artificial Intelligence
 - Document Parsing
 - Document Processing
@@ -77,7 +76,7 @@ tags:
 - Data Extraction
 - Vision AI
 - Automation
-- Webhooks
+- Webhook
 - Mailboxes
-- SaaS
+- Software-as-a-Service
 ---

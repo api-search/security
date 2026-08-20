@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Grocery
-- E-commerce
+- E-Commerce
 - Retail
 - Food Delivery
 - Consumer

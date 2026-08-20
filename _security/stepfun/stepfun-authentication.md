@@ -36,17 +36,16 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\ndocs: https://platform.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/authentication/stepfun-authentication.yml
 summary_line: http-bearer-api-key · 1 scheme
 tags:
-- AI
 - Artificial Intelligence
 - LLM
-- Multimodal
+- Multi-Modal
 - Chat Completion
 - Audio
 - Speech
-- Text to Speech
+- Text-to-Speech
 - Speech Recognition
-- Images
-- Realtime
+- Image
+- Real-Time
 - Vector Stores
 - China
 ---

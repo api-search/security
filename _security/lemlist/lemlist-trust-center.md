@@ -155,7 +155,7 @@ tags:
 - Deliverability
 - CRM
 - Multichannel Messaging
-- Webhooks
+- Webhook
 - MCP
 trust_url: https://trust.lemlist.com/
 ---

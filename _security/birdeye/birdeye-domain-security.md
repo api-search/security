@@ -216,5 +216,5 @@ tags:
 - Surveys
 - Messaging
 - Multi-Location
-- AI
+- Artificial Intelligence
 ---

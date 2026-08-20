@@ -27,5 +27,5 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Telecommunications
-- Managed Services
+- Managed Service
 ---

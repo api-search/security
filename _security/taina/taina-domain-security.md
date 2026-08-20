@@ -35,8 +35,7 @@ tags:
 - FATCA
 - CRS
 - Tax Forms
-- Financial Services
+- Financial-Services
 - Withholding Tax
 - Onboarding
-- API
 ---

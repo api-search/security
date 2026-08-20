@@ -26,21 +26,21 @@ source_yaml: "generated: '2026-08-17'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/security/dotfile-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
-- kyb
-- kyc
-- aml
-- business-verification
-- identity-verification
-- compliance
-- regtech
-- onboarding
-- sanctions-screening
-- document-verification
-- fraud-detection
-- company-data
-- beneficial-ownership
-- case-management
-- electronic-signature
-- webhooks
+- KYB
+- KYC
+- AML
+- Business Verification
+- Identity Verification
+- Compliance
+- RegTech
+- Onboarding
+- Sanctions Screening
+- Document Verification
+- Fraud Detection
+- Company Data
+- Beneficial Ownership
+- Case Management
+- Electronic Signature
+- Webhook
 trust_url: https://trust.dotfile.com/
 ---

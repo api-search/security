@@ -42,9 +42,9 @@ tags:
 - Manufacturing
 - Medical Devices
 - Industrial Equipment
-- Knowledge Management
+- Knowledge-Management
 - Voice AI
-- Model Context Protocol
+- MCP
 - Predictive Maintenance
 trust_url: https://security.aquant.ai/
 ---

@@ -34,7 +34,7 @@ tags:
 - Conversational AI
 - Voice
 - Hardware
-- Model Context Protocol
+- MCP
 - Agents
 - Y Combinator
 ---

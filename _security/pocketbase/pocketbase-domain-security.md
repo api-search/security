@@ -32,9 +32,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pocketbase/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Backend-as-a-Service
-- Open Source
+- Open-Source
 - SQLite
-- Realtime
+- Real-Time
 - Authentication
 - File Storage
 - REST API

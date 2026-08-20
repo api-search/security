@@ -32,9 +32,9 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Holding Company
 - Southeast Asia
-- E-commerce
+- E-Commerce
 - Digital Entertainment
-- Financial Services
+- Financial-Services
 - Shopee
 - Garena
 - SeaMoney

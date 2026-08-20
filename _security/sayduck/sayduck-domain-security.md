@@ -33,7 +33,7 @@ tags:
 - Company
 - 3D
 - Augmented Reality
-- Ecommerce
+- E-Commerce
 - Product Visualization
 - WebAR
 - 3D Configurator

@@ -32,14 +32,14 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Ai Enterprise Software
-- Ecommerce
+- E-Commerce
 - Shopify
-- No Code
+- No-Code
 - Page Builder
 - Artificial Intelligence
 - AI Agents
 - Conversion Rate Optimization
 - Developer Tools
 - MCP
-- Agent Native
+- agent-native
 ---

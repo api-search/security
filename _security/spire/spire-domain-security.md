@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spire/refs/hea
 summary_line: TLSv1.3 · HSTS
 tags:
 - Authentication
-- Cloud Native
+- Cloud-Native
 - Graduated
 - Identity
 - Security

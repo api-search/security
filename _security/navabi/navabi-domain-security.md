@@ -31,7 +31,7 @@ tags:
 - Company
 - Retail
 - Fashion
-- E-commerce
+- E-Commerce
 - Apparel
 - Plus Size Fashion
 ---

@@ -124,7 +124,7 @@ tags:
 - Covers
 - Libraries
 - Open Data
-- Reading Lists
+- Reading lists
 - Search
 - Subjects
 ---

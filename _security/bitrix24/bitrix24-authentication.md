@@ -256,10 +256,10 @@ tags:
 - CRM
 - Collaboration
 - Project Management
-- Tasks
+- Task
 - Telephony
 - Contact Center
-- Document Management
+- Document-Management
 - HR
 - Business Suite
 ---

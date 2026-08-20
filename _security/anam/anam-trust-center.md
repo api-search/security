@@ -74,7 +74,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anam/refs/head
 summary_line: SOC 2, HIPAA
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Avatars
 - Conversational AI
 - Video

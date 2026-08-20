@@ -50,7 +50,7 @@ tags:
 - Internet of Things
 - Edge Computing
 - Satellite Communications
-- Machine Learning
+- Machine-Learning
 - Data Management
 - Defense
 - Telemetry

@@ -75,12 +75,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Company
-- Communication
+- Communications
 - Messaging
 - SMS
 - Voice
 - Contacts
-- Webhooks
-- API
+- Webhook
 trust_url: https://www.quo.com/security
 ---

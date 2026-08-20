@@ -27,6 +27,6 @@ tags:
 - Onboarding
 - Learning
 - HR Technology
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.pageuppeople.com/how-we-do-it/security/
 ---

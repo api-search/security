@@ -106,7 +106,7 @@ tags:
 - Web3
 - Blockchain
 - Solana
-- Notifications
+- Notification
 - Messaging
 - Alerts
 - DeFi

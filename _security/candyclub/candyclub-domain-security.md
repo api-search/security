@@ -33,7 +33,7 @@ tags:
 - Company
 - Candy
 - Confectionery
-- Ecommerce
+- E-Commerce
 - Subscription
 - Retail
 - Shopify

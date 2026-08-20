@@ -37,5 +37,5 @@ tags:
 - Finance
 - Fintech
 - Lending
-- Wallet
+- Wallets
 ---

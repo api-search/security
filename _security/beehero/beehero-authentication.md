@@ -57,14 +57,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beehero/refs/h
 summary_line: http · 1 scheme
 tags:
 - Company
-- agriculture
-- agtech
-- pollination
+- Agriculture
+- AgTech
+- Pollination
 - beekeeping
-- precision-agriculture
-- iot
-- sensors
-- environmental-data
-- mcp
+- Precision Agriculture
+- IoT
+- Sensors
+- Environmental Data
+- MCP
 - agent-native
 ---

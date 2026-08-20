@@ -271,9 +271,9 @@ tags:
 - Campaigns
 - CRM
 - Sales
-- Ecommerce
+- E-Commerce
 - Loyalty
-- Events
+- Event
 - Live Chat
 - Email
 - SMS

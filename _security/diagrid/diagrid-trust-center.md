@@ -23,9 +23,9 @@ tags:
 - Durable Execution
 - Workflows
 - Dapr
-- Model Context Protocol
+- MCP
 - Microservices
-- Cloud Native
+- Cloud-Native
 - Distributed Systems
 trust_url: https://www.diagrid.io/pricing
 ---

@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-dwellin
 summary_line: TLSv1.3
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Housing
 - Accessory Dwelling Units
 - Construction

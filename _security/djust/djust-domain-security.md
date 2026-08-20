@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - B2B
-- eCommerce
+- E-Commerce
 - eProcurement
 - Commerce
 - Payments

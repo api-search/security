@@ -406,13 +406,13 @@ summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - BPM
 - Business Process Management
-- Workflow
+- Workflows
 - BPMN
 - CMMN
 - DMN
 - Process Automation
 - Case Management
-- Open Source
+- Open-Source
 - REST API
 trust_url: https://trust.flowable.com/
 ---

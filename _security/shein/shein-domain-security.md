@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Consumer
-- E-commerce
+- E-Commerce
 - Retail
 - Fashion
 - Marketplace

@@ -88,6 +88,6 @@ tags:
 - Rewards
 - Points
 - Customer Retention
-- Ecommerce
-- SaaS
+- E-Commerce
+- Software-as-a-Service
 ---

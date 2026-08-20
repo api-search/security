@@ -325,7 +325,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/h
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR
 tags:
 - Company
-- Platform as a Service
+- Platform-as-a-Service
 - Cloud Infrastructure
 - Deployment
 - Managed Databases

@@ -39,7 +39,7 @@ tags:
 - Medical Imaging
 - Healthcare
 - Data Management
-- Machine Learning
+- Machine-Learning
 - Research
 - DICOM
 - Life Sciences

@@ -110,6 +110,6 @@ tags:
 - Compute Grid
 - Distributed Database
 - In-Memory
-- Open Source
+- Open-Source
 - SQL
 ---

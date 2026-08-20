@@ -494,6 +494,6 @@ tags:
 - Issuing
 - Open Banking
 - Digital Banking
-- FinTech
+- Fintech
 - Europe
 ---

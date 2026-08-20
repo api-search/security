@@ -61,10 +61,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/windsurf
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/authentication/windsurf-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Code Editor
-- Agent
+- Agents
 - Cascade
 - IDE
 - MCP

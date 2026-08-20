@@ -96,19 +96,19 @@ source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/security/ironscales-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- email-security
-- cybersecurity
-- phishing
-- anti-phishing
-- business-email-compromise
-- account-takeover
-- threat-intelligence
-- incident-response
-- security-awareness-training
-- phishing-simulation
-- microsoft-365
-- google-workspace
-- soc-automation
-- deepfake-detection
-- mcp
+- Email Security
+- Cybersecurity
+- Phishing
+- Anti-Phishing
+- Business Email Compromise
+- Account Takeover
+- Threat Intelligence
+- Incident Response
+- Security Awareness Training
+- Phishing Simulation
+- Microsoft-365
+- Google Workspace
+- SOC Automation
+- Deepfake Detection
+- MCP
 ---

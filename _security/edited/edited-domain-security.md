@@ -37,7 +37,7 @@ tags:
 - Competitive Intelligence
 - Pricing Intelligence
 - Fashion
-- eCommerce
+- E-Commerce
 - Analytics
 - Data
 ---

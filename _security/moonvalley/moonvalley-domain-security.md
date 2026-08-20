@@ -37,5 +37,5 @@ tags:
 - Video
 - Media
 - Filmmaking
-- Machine Learning
+- Machine-Learning
 ---

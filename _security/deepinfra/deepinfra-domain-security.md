@@ -78,14 +78,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/security/deepinfra-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - Serverless
-- Open Source
-- OpenAI Compatible
+- Open-Source
+- OpenAI-Compatible
 - Anthropic Compatible
-- Image Generation
+- Image-Generation
 - Audio
 - Embeddings
 ---

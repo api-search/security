@@ -33,7 +33,7 @@ tags:
 - Mobile Games
 - Gaming
 - Fitness
-- Health & Fitness
+- Health and Fitness
 - Consumer
 - Entertainment
 ---

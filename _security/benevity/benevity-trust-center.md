@@ -56,7 +56,7 @@ tags:
 - Workplace Giving
 - Donations
 - Volunteering
-- Nonprofits
+- Non-Profit
 - Matching Gifts
 - CSR
 - ESG

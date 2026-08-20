@@ -105,11 +105,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vast-ai-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/authentication/vast-ai-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Cloud
 - Compute
 - GPU
-- Machine Learning
+- Machine-Learning
 - Marketplace
 - Serverless
 ---

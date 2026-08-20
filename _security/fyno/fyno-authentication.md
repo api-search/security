@@ -65,9 +65,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fyno-not
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/authentication/fyno-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Notifications
+- Notification
 - Messaging
-- Communication
+- Communications
 - Push Notifications
 - Email
 - SMS

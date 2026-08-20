@@ -103,7 +103,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/library-of-con
 summary_line: apiKey · 1 scheme
 tags:
 - Cultural Heritage
-- Federal Government
+- Federal-Government
 - Library
 - Legislative
 - Newspapers

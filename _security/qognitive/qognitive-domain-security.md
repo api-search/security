@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qognitive/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ai
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Quantum
 - Data Science
 - Python SDK
 - Analytics
-- Financial Services
+- Financial-Services
 ---

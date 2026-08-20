@@ -50,7 +50,7 @@ tags:
 - Edge Computing
 - Telemetry
 - Protocol Buffers
-- Open Source
+- Open-Source
 - Grid Edge
 - Power Quality
 ---

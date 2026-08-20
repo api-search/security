@@ -36,5 +36,5 @@ tags:
 - Hospitality
 - Property Management
 - Travel
-- Real Estate
+- Real-Estate
 ---

@@ -23,6 +23,6 @@ tags:
 - Artificial Intelligence
 - Employee Listening
 - Focus Groups
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.remesh.ai/
 ---

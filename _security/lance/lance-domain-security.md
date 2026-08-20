@@ -38,5 +38,5 @@ tags:
 - Voice AI
 - Customer Service
 - Computer Use Agents
-- SaaS
+- Software-as-a-Service
 ---

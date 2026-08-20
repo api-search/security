@@ -116,7 +116,7 @@ tags:
 - GPU
 - Inference
 - Large Language Models
-- Machine Learning
+- Machine-Learning
 - NVIDIA
 - Serverless
 ---

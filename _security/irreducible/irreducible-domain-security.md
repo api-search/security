@@ -32,11 +32,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Crypto Infrastructure
-- Zero Knowledge Proofs
+- Zero-Knowledge Proofs
 - Cryptography
 - SNARK
 - Blockchain
 - Privacy
-- Open Source
+- Open-Source
 - Rust
 ---

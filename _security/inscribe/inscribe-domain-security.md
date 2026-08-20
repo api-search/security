@@ -51,14 +51,14 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fraud Detection
 - Document Verification
-- Financial Services
+- Financial-Services
 - KYC
 - KYB
 - Bank Statements
-- Pay Stubs
+- Paystubs
 - Identity Verification
 - Risk Management
 - Fintech
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 ---

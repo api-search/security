@@ -35,7 +35,7 @@ summary_line: apiKey/http-bearer · 2 schemes
 tags:
 - Company
 - Education
-- eLearning
+- E-Learning
 - LMS
 - Online Courses
 - Employee Training

@@ -33,7 +33,7 @@ tags:
 - Scheduling
 - Appointments
 - Booking
-- Point of Sale
+- Point-of-Sale
 - Payments
 - Retail
 - Franchise

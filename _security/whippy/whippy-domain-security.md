@@ -90,12 +90,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/security/whippy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Communication
+- Communications
 - Messaging
 - SMS
 - Email
 - Voice
-- AI
+- Artificial Intelligence
 - Campaigns
 - Sequences
 ---

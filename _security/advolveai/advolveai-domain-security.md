@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/advolveai/refs
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Advertising
 - Marketing
 - AdTech
 - MarTech
 - Performance Marketing
-- E-commerce
+- E-Commerce
 - Brazil
 ---

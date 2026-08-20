@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Cross-Border Commerce
-- E-commerce
+- E-Commerce
 - Merchant of Record
 - Payments
 - Logistics

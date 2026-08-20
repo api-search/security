@@ -44,9 +44,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liberate/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Insurance
-- InsurTech
+- Insurtech
 - Voice AI
 - AI Agents
 - Workflow Orchestration

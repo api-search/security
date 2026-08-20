@@ -37,5 +37,5 @@ tags:
 - Patient Engagement
 - Weight Loss
 - SDK
-- Webhooks
+- Webhook
 ---

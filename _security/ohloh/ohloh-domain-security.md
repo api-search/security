@@ -30,12 +30,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ohloh/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Open Source
+- Open-Source
 - Open Source Directory
 - Code Analytics
 - Software Composition
 - Developer Data
-- Projects
+- Project
 - Contributors
 - Black Duck
 ---

@@ -54,6 +54,6 @@ tags:
 - Board Portal
 - Governance
 - Meetings
-- Nonprofit
+- Non-Profit
 - Diligent
 ---

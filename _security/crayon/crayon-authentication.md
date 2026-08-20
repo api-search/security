@@ -60,6 +60,6 @@ tags:
 - Battlecards
 - Win-Loss Analysis
 - Product Marketing
-- AI
+- Artificial Intelligence
 - MCP
 ---

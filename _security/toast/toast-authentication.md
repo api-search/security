@@ -124,7 +124,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toast/refs/hea
 summary_line: oauth2 · 1 scheme
 tags:
 - Food Service
-- Point of Sale
-- Restaurants
+- Point-of-Sale
+- Restaurant
 - Hospitality
 ---

@@ -55,14 +55,14 @@ source_yaml: "generated: '2026-08-09'\nmethod: derived\nsource: openapi/automati
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/authentication/automation-preflight-api-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- automation
-- integration
-- developer-tools
-- readiness
-- testing
-- url-analysis
-- web-scraping
-- agent-tools
-- quality-assurance
-- site-audit
+- Automation
+- Integration
+- Developer Tools
+- Readiness
+- Testing
+- URL Analysis
+- Web Scraping
+- Agent Tools
+- Quality Assurance
+- Site Audit
 ---

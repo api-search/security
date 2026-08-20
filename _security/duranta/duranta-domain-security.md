@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duranta/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Proptech
+- PropTech
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Geospatial
 - Digital Twin
 - Landscaping

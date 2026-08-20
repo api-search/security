@@ -24,7 +24,7 @@ tags:
 - Cyber Crisis Management
 - Security
 - Governance Risk Compliance
-- SaaS
+- Software-as-a-Service
 - Business
 trust_url: https://trust.cygnvs.com/
 ---

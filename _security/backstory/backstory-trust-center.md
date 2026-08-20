@@ -22,7 +22,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backstory/refs
 summary_line: SOC 2, ISO 27001, ISO 27017, GDPR, CSA STAR
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Revenue Intelligence
 - Sales
 - CRM

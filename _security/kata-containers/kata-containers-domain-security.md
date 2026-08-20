@@ -32,7 +32,7 @@ tags:
 - Containers
 - Isolation
 - Kubernetes
-- Open Source
+- Open-Source
 - Security
 - Virtual Machines
 ---

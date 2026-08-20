@@ -544,10 +544,10 @@ tags:
 - Edge Compute
 - WebAssembly
 - Security
-- AI
+- Artificial Intelligence
 - Observability
 - AsyncAPI
 - Streaming
-- Webhooks
+- Webhook
 - Logging
 ---

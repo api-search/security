@@ -37,6 +37,6 @@ tags:
 - Bioinformatics
 - Single Cell Analysis
 - Scientific Instruments
-- Open Source
+- Open-Source
 - Command Line Tools
 ---

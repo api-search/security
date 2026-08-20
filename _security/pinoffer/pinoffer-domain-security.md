@@ -51,7 +51,7 @@ tags:
 - Company
 - Advertising Technology
 - Marketing Technology
-- E-commerce
+- E-Commerce
 - Marketing Automation
 - Customer Data
 - Lead Generation
@@ -59,5 +59,5 @@ tags:
 - Emerging Markets
 - MENA
 - Advertising
-- Webhooks
+- Webhook
 ---

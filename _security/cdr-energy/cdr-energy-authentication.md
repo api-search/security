@@ -143,7 +143,7 @@ tags:
 - Smart Metering
 - DER
 - Energy Markets
-- Regulation
+- Regulations
 - Government
 - Open Data
 ---

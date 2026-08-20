@@ -37,5 +37,5 @@ tags:
 - Human Resources
 - Care Management
 - Wellbeing
-- HRTech
+- HR Tech
 ---

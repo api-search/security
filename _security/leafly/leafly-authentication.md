@@ -51,5 +51,5 @@ tags:
 - Retail
 - Marketplace
 - Strains
-- Ecommerce
+- E-Commerce
 ---

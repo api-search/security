@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Food Waste
-- Computer Vision
+- Computer-Vision
 - Food Service
 - Sustainability
 - Analytics

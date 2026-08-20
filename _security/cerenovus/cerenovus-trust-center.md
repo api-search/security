@@ -22,10 +22,10 @@ tags:
 - AI Agents
 - Enterprise Software
 - Decision Intelligence
-- Knowledge Management
+- Knowledge-Management
 - Private Equity
 - Due Diligence
-- Model Context Protocol
+- MCP
 - Y Combinator
 trust_url: https://www.cerenovus.ai/trust-and-security
 ---

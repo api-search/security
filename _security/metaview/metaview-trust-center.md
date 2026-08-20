@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metaview/refs/
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Recruiting
 - Hiring
 - Talent Acquisition

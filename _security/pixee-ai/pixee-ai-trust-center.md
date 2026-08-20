@@ -59,7 +59,7 @@ tags:
 - Static Analysis
 - SARIF
 - Code Security
-- AI
+- Artificial Intelligence
 - Developer Tools
 trust_url: https://trust.pixee.ai/
 ---

@@ -59,6 +59,6 @@ tags:
 - Web3
 - Market Data
 - Blockchain
-- Wallet
-- Real Time
+- Wallets
+- Real-Time
 ---

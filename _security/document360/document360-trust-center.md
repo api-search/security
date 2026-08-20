@@ -56,6 +56,6 @@ summary_line: SOC 2
 tags:
 - Documentation
 - Knowledge Base
-- SaaS
+- Software-as-a-Service
 trust_url: https://document360.com/compliance/soc2/
 ---

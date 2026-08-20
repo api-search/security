@@ -92,7 +92,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalable-servi
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - API Gateway
-- Cloud Native
+- Cloud-Native
 - Containers
 - Distributed Systems
 - High Availability

@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thread-ai/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Orchestration
-- Workflow Automation
+- Workflow-Automation
 - Agents
 - Enterprise
 - Governance

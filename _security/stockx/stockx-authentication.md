@@ -84,5 +84,5 @@ tags:
 - Collectibles
 - Catalog
 - Selling
-- Orders
+- Order
 ---

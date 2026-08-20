@@ -33,7 +33,7 @@ tags:
 - Consumer
 - Footwear
 - Retail
-- Ecommerce
+- E-Commerce
 - Apparel
 - Direct to Consumer
 - Shopify

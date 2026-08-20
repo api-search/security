@@ -34,7 +34,7 @@ tags:
 - Convenience Store
 - Scan Data
 - Loyalty
-- Point of Sale
-- SaaS
+- Point-of-Sale
+- Software-as-a-Service
 - Consumer Packaged Goods
 ---

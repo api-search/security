@@ -22,11 +22,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/giga/refs/head
 summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - AI Agents
 - Voice AI
-- Customer Support
+- Customer-Support
 - Conversational AI
 - Contact Center
 - Agentic AI

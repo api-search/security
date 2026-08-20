@@ -54,7 +54,7 @@ tags:
 - 5G
 - 4G LTE
 - Open RAN
-- Cloud Native
+- Cloud-Native
 - Symworld
 - Symphony
 - CPaaS

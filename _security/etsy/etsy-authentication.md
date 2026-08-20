@@ -212,13 +212,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/etsy/refs/head
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Marketplace
-- Ecommerce
+- E-Commerce
 - Handmade
 - Listings
-- Orders
+- Order
 - Payments
 - Reviews
 - Shipping
 - Taxonomy
-- OAuth2
+- Authentication
 ---

@@ -156,11 +156,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cartesia
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/authentication/cartesia-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Voice AI
-- Text to Speech
-- Speech to Text
-- Realtime
+- Text-to-Speech
+- Speech-to-Text
+- Real-Time
 - WebSocket
 - Voice Cloning
 - Voice Agents

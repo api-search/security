@@ -202,7 +202,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/assemble
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/authentication/assembled-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Customer Support
+- Customer-Support
 - Workforce Management
 - WFM
 - AI Agents

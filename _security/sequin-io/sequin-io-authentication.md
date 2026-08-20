@@ -63,6 +63,6 @@ tags:
 - CDC
 - Postgres
 - Streaming
-- Open Source
+- Open-Source
 - Data Pipeline
 ---

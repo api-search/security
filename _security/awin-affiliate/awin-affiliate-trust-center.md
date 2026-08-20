@@ -55,7 +55,7 @@ tags:
 - Advertising
 - Publishers
 - Advertisers
-- Transactions
+- Transaction
 - Reporting
 - Commissions
 - Performance Marketing

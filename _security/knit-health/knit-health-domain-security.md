@@ -34,7 +34,7 @@ tags:
 - Health
 - Healthcare
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Clinical Intelligence
 - Electronic Health Records
 - Health Systems

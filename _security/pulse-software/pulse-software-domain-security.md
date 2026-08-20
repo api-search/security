@@ -88,5 +88,5 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Pulse
 - Automation
-- Developer
+- Developers
 ---

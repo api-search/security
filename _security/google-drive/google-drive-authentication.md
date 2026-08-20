@@ -60,9 +60,9 @@ summary_line: oauth2/apiKey · 2 schemes
 tags:
 - Cloud Storage
 - Collaboration
-- Document Management
-- Drive
-- Files
+- Document-Management
+- Drives
+- File
 - Google
 - Storage
 ---

@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/security/hootsuite-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Social Media
+- Social-Media
 - Social Media Management
 - Marketing
 - Content Scheduling
@@ -82,6 +82,6 @@ tags:
 - Employee Advocacy
 - Customer Service
 - SCIM
-- OAuth 2.0
-- Webhooks
+- Authentication
+- Webhook
 ---

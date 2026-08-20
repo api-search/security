@@ -48,9 +48,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adaption/refs/
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- Ai
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Training Data
 - Datasets
 - Data Augmentation

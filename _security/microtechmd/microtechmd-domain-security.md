@@ -36,5 +36,4 @@ tags:
 - Glucose Monitoring
 - Continuous Glucose Monitoring
 - Blood Glucose Data
-- API
 ---

@@ -31,10 +31,10 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Conversation Intelligence
-- Speech to Text
+- Speech-to-Text
 - Voice AI
 - Artificial Intelligence
-- Machine Learning
-- Real Time
-- SDKs
+- Machine-Learning
+- Real-Time
+- SDK
 ---

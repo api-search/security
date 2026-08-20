@@ -49,7 +49,7 @@ tags:
 - Property and Casualty
 - Construction Insurance
 - Managing General Agent
-- Broker
+- Brokers
 - Wholesale Insurance
 - Insurtech
 - Partner Gated

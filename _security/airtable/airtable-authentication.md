@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/airtable
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/authentication/airtable-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Applications
+- Application
 - Collaboration
 - Data
 - Databases

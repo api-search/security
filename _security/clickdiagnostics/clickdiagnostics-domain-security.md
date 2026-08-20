@@ -35,7 +35,7 @@ tags:
 - Digital Health
 - Health Information Systems
 - Global Health
-- Open Source
+- Open-Source
 - DHIS2
 - OpenMRS
 - FHIR

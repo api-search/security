@@ -26,7 +26,7 @@ tags:
 - Lead Generation
 - Artificial Intelligence
 - Radio
-- Model Context Protocol
+- MCP
 - Agents
 - Attribution
 trust_url: https://spotwise.ai/security

@@ -31,10 +31,10 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Artifact Verification
 - CNCF
-- Cloud Native
+- Cloud-Native
 - Container Security
 - Kubernetes
-- Open Source
+- Open-Source
 - Policy Enforcement
 - Security
 - Supply Chain

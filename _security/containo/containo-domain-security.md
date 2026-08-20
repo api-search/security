@@ -37,13 +37,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/containo/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Cloud Native
+- Cloud-Native
 - Reverse Proxy
 - Load Balancer
 - Ingress Controller
 - API Gateway
 - Kubernetes
-- Open Source
+- Open-Source
 - Networking
 - Traefik
 ---

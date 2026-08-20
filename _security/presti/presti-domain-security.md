@@ -34,9 +34,9 @@ tags:
 - Applicative Saas
 - Artificial Intelligence
 - Generative AI
-- Ecommerce
+- E-Commerce
 - Product Photography
-- Image Generation
+- Image-Generation
 - Video Generation
 - Retail
 ---

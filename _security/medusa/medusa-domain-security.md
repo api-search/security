@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - E-Commerce
 - Headless Commerce
-- Open Source
+- Open-Source
 - GraphQL
 - Node.js
 ---

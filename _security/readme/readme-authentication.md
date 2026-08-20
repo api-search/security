@@ -116,9 +116,9 @@ tags:
 - Documentation
 - Developer Hub
 - API Reference
-- Portals
+- Portal
 - Analytics
-- AI
+- Artificial Intelligence
 - MCP
 - Bi-Directional Sync
 ---

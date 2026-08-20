@@ -26,7 +26,7 @@ tags:
 - Credit Scoring
 - Underwriting
 - KYC
-- Financial Services
+- Financial-Services
 - Latin America
 - Data Aggregation
 - Workflows

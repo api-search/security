@@ -41,12 +41,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/beatoven
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beatoven/refs/heads/main/authentication/beatoven-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
 - Artificial Intelligence
 - Music
 - Music Generation
 - Generative Audio
-- Text To Music
+- Text-to-Music
 - Text To SFX
 - Royalty-Free Music
 - Background Music

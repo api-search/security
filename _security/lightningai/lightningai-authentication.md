@@ -51,9 +51,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightningai/re
 summary_line: http-basic/http-bearer · 2 schemes
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - GPU Cloud
 - Model Inference
 - LLM Gateway

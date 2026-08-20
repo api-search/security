@@ -32,7 +32,7 @@ tags:
 - Company
 - Personal Finance
 - Fintech
-- AI
+- Artificial Intelligence
 - Consumer
 - Local-First
 - Mac

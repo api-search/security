@@ -102,6 +102,6 @@ tags:
 - Patient Recruitment
 - Healthcare
 - Blog
-- Content API
+- content-api
 - WordPress
 ---

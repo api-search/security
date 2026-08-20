@@ -198,11 +198,11 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Consumer
-- Images
+- Image
 - Image Processing
 - Video
 - Generative AI
-- Machine Learning
+- Machine-Learning
 - Media
 - Content Creation
 - Developer Tools

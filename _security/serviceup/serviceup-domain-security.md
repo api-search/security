@@ -42,6 +42,6 @@ tags:
 - Insurance
 - Maintenance
 - Agentic AI
-- Model Context Protocol
+- MCP
 - Transportation
 ---

@@ -52,7 +52,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trendyol/refs/
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Retail
 - Fashion
@@ -60,5 +60,5 @@ tags:
 - Order Management
 - Fulfillment
 - Logistics
-- Webhooks
+- Webhook
 ---

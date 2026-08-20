@@ -37,5 +37,5 @@ tags:
 - Generative AI
 - Digital Government
 - Japan
-- SaaS
+- Software-as-a-Service
 ---

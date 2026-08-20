@@ -29,7 +29,7 @@ tags:
 - Accounting
 - ERP Integration
 - HRIS
-- SaaS
+- Software-as-a-Service
 - Germany
 - Europe
 trust_url: https://trust.lanes-planes.com/

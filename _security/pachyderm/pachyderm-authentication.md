@@ -41,10 +41,10 @@ tags:
 - Company
 - MLOps
 - Data Versioning
-- Data Pipelines
+- Data Pipeline
 - Data Lineage
-- Machine Learning
+- Machine-Learning
 - Kubernetes
 - gRPC
-- Open Source
+- Open-Source
 ---

@@ -139,8 +139,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rackspace-tech
 summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Cloud
-- Managed Services
-- Multicloud
+- Managed Service
+- Multi-Cloud
 - Infrastructure
 - DevOps
 trust_url: https://www.rackspace.com/compliance

@@ -191,13 +191,13 @@ summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Company
 - Productivity
-- Workflow
-- Workflow Automation
+- Workflows
+- Workflow-Automation
 - Process Management
 - No-Code
 - Business Process
 - Task Management
-- SaaS
+- Software-as-a-Service
 - MCP
 trust_url: https://www.process.st/security/
 ---

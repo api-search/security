@@ -34,7 +34,7 @@ tags:
 - Mentoring
 - Recruitment
 - Education
-- Jobs
+- Job
 - Community
 - South Korea
 ---

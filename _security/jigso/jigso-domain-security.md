@@ -40,7 +40,7 @@ tags:
 - Enterprise
 - Business Intelligence
 - Revenue Operations
-- Model Context Protocol
+- MCP
 - Agents
 - Data Integration
 - Customer Success

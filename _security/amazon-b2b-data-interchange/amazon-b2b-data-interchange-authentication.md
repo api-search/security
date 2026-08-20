@@ -72,6 +72,6 @@ tags:
 - Data Interchange
 - Supply Chain
 - Healthcare
-- Financial Services
+- Financial-Services
 - Amazon Web Services
 ---

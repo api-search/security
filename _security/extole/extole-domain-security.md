@@ -301,5 +301,5 @@ tags:
 - Rewards
 - Marketing
 - Customer Acquisition
-- SaaS
+- Software-as-a-Service
 ---

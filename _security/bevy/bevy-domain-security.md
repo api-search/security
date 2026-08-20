@@ -34,8 +34,8 @@ tags:
 - Enterprise
 - Community
 - Community Management
-- Events
+- Event
 - Engagement
 - Analytics
-- SaaS
+- Software-as-a-Service
 ---

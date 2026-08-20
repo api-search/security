@@ -176,7 +176,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CMS
 - Content Management
-- Ecommerce
+- E-Commerce
 - No-Code
 - Publishing
 - Web Development

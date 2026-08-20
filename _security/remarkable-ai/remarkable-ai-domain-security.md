@@ -76,8 +76,8 @@ tags:
 - Applicative Saas
 - Customer Engagement
 - Personalization
-- Ecommerce
+- E-Commerce
 - Artificial Intelligence
-- Customer Support
+- Customer-Support
 - Marketing
 ---

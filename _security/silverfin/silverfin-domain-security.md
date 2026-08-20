@@ -58,6 +58,6 @@ tags:
 - Reporting
 - Compliance
 - Fintech
-- SaaS
+- Software-as-a-Service
 - Belgium
 ---

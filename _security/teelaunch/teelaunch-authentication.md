@@ -97,9 +97,9 @@ summary_line: http · 1 scheme
 tags:
 - Print on Demand
 - POD
-- Ecommerce
+- E-Commerce
 - Fulfillment
 - Dropshipping
-- Orders
+- Order
 - Shipping
 ---

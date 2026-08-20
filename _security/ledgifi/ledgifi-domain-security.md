@@ -32,8 +32,8 @@ tags:
 - Company
 - Cryptocurrency
 - Taxes
-- Portfolio Management
-- Financial Services
+- Portfolio-Management
+- Financial-Services
 - Accounting
 - Compliance
 - Latin America

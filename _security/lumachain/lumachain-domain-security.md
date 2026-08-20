@@ -32,7 +32,7 @@ tags:
 - Company
 - Deep Tech
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Food Supply Chain
 - Food Safety
 - Traceability

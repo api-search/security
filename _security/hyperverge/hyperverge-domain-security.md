@@ -109,5 +109,5 @@ tags:
 - AML
 - Onboarding
 - Fraud Prevention
-- AI
+- Artificial Intelligence
 ---

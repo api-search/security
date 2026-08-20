@@ -56,7 +56,7 @@ tags:
 - Company
 - Ai Ml
 - Content Moderation
-- Trust And Safety
+- Trust and Safety
 - AI Governance
 - Policy Enforcement
 - Content Evaluation

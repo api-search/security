@@ -87,7 +87,7 @@ tags:
 - Communications
 - Marketing
 - Civic Engagement
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 trust_url: https://hustle.com/security/
 ---

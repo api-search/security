@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Shipping
 - Logistics
-- Ecommerce
+- E-Commerce
 - Order Management
 - Warehouse Management
 - Transport Management
@@ -49,9 +49,9 @@ tags:
 - Fulfillment
 - 3PL
 - Marketplaces
-- Webhooks
-- OAuth2
-- SaaS
+- Webhook
+- Authentication
+- Software-as-a-Service
 - France
 - French Tech
 ---

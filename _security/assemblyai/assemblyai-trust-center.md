@@ -38,11 +38,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/security/assemblyai-trust-center.yml
 summary_line: SOC 2, PCI DSS, GDPR
 tags:
-- AI
 - Artificial Intelligence
 - Audio
 - Speech
 - Transcription
-- Speech to Text
+- Speech-to-Text
 trust_url: https://www.assemblyai.com/security
 ---

@@ -59,10 +59,10 @@ tags:
 - Workplace Giving
 - Corporate Social Responsibility
 - Employee Engagement
-- Nonprofits
+- Non-Profit
 - Grants Management
 - Donations
 - Volunteering
-- OAuth
+- Authentication
 - OpenID Connect
 ---

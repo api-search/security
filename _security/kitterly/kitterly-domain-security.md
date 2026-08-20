@@ -33,7 +33,7 @@ tags:
 - Company
 - E-Commerce
 - Retail
-- Subscriptions
+- Subscription
 - Consumer
 - Crafts
 - Textiles

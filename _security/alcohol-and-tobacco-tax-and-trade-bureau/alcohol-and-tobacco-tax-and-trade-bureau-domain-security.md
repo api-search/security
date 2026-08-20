@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Alcohol
 - Tobacco
-- Federal Government
+- Federal-Government
 - Excise Tax
-- Regulation
+- Regulations
 - Treasury
 ---

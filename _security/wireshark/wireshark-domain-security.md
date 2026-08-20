@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Debugging
 - Network Analysis
-- Open Source
+- Open-Source
 - Packet Capture
 - Protocol Analysis
 - Security

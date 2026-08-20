@@ -33,7 +33,7 @@ tags:
 - Company
 - Fraud Prevention
 - Payments
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Risk Management
 - Security

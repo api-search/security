@@ -92,7 +92,7 @@ tags:
 - Repositories
 - Pull Requests
 - Issue Tracking
-- Open Source
+- Open-Source
 - Forgejo
 - Non-Profit
 ---

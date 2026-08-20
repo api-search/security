@@ -108,12 +108,12 @@ tags:
 - Database
 - Event Sourcing
 - Event Streaming
-- Event Driven Architecture
+- Event-Driven Architecture
 - CQRS
 - Data Infrastructure
 - Developer Tools
 - Cloud
-- Open Source
+- Open-Source
 - gRPC
 - Agentic AI
 ---

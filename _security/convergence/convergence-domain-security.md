@@ -32,7 +32,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Machine Learning
+- Machine-Learning
 - Web Automation
 - Open Weights
 - Developer Tools

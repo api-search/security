@@ -41,8 +41,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/speechif
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/speechify/refs/heads/main/authentication/speechify-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
-- Text to Speech
+- Artificial Intelligence
+- Text-to-Speech
 - Voice
 - Speech Synthesis
 - Voice Cloning

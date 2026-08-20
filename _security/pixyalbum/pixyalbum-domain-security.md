@@ -34,7 +34,7 @@ tags:
 - Photo Printing
 - Photo Books
 - Consumer
-- E-commerce
+- E-Commerce
 - Printing
 - Mexico
 - Photography

@@ -49,16 +49,16 @@ source_yaml: "generated: '2026-08-16'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uchecker/refs/heads/main/security/uchecker-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- email-verification
-- email
-- smtp
-- dns
-- deliverability
+- Email Verification
+- Email
+- SMTP
+- DNS
+- Deliverability
 - mx
-- spf
-- dkim
-- dmarc
-- mcp
+- SPF
+- DKIM
+- DMARC
+- MCP
 - agent-native
-- data-quality
+- Data Quality
 ---

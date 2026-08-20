@@ -205,8 +205,8 @@ tags:
 - Cloud Storage
 - Metadata
 - Video
-- Images
-- Webhooks
+- Image
+- Webhook
 - Azure
 trust_url: https://www.mediavalet.com/why-mediavalet/security
 ---

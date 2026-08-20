@@ -112,7 +112,7 @@ tags:
 - Business Intelligence
 - Funding
 - Private Markets
-- Mergers And Acquisitions
+- Mergers and Acquisitions
 - SEC Filings
 - Signals
 - Sales Intelligence

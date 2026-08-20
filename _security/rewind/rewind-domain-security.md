@@ -39,7 +39,7 @@ tags:
 - Cloud
 - Backup
 - Data Recovery
-- SaaS
+- Software-as-a-Service
 - Data Protection
 - Disaster Recovery
 - Security

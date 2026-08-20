@@ -41,7 +41,7 @@ tags:
 - Drones
 - Autonomous Systems
 - Guidance Systems
-- Computer Vision
+- Computer-Vision
 - Hardware
 - Aerospace
 - Y Combinator

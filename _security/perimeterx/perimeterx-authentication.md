@@ -57,5 +57,4 @@ tags:
 - Account Takeover
 - Agentic AI
 - Cybersecurity
-- API
 ---

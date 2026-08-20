@@ -29,11 +29,11 @@ tags:
 - LLM API gateway
 - Responses-compatible API
 - Coding-agent tooling
-- Developer tools
-- Usage-based billing
+- Developer Tools
+- Usage-Based Billing
 - Prepaid billing
-- Agent-native
+- agent-native
 - Agent Skills
-- Model routing
+- Model Routing
 trust_url: ''
 ---

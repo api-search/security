@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: stanford-sdr-api-openapi.yml
+  format: yaml
+  label: SDR API
+  slug: sdr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-sdr-api-openapi.yml
+- filename: stanford-dor-services-api-openapi.yml
+  format: yaml
+  label: DOR Services API
+  slug: dor-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-dor-services-api-openapi.yml
+- filename: stanford-preservation-catalog-api-openapi.yml
+  format: yaml
+  label: Preservation Catalog HTTP API
+  slug: preservation-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-preservation-catalog-api-openapi.yml
+- filename: stanford-technical-metadata-api-openapi.yml
+  format: yaml
+  label: Technical Metadata API
+  slug: technical-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-technical-metadata-api-openapi.yml
+- filename: stanford-suri-api-openapi.yml
+  format: yaml
+  label: SURI API
+  slug: suri-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-suri-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,12 +73,19 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/security/stanford-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
+- United States
+- California
+- Private Research University
+- Association of American Universities
+- Research Repository
+- Course Catalog
+- Identity Federation
 - Library
 - Digital Repository
+- Artificial Intelligence
 - IIIF
-- Courses
 ---

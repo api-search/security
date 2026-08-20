@@ -31,8 +31,8 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Hospitality
-- Restaurants
-- Point of Sale
+- Restaurant
+- Point-of-Sale
 - Digital Ordering
 - Kitchen Management
 - Order Management

@@ -89,9 +89,8 @@ tags:
 - LDAP
 - MCP
 - MFA
-- OAuth
 - OIDC
-- Open Source
+- Open-Source
 - Passkeys
 - SAML
 - SCIM

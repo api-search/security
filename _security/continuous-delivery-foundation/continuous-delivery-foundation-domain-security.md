@@ -51,5 +51,5 @@ tags:
 - CI/CD
 - DevOps
 - Linux Foundation
-- Open Source
+- Open-Source
 ---

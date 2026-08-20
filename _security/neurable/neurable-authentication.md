@@ -121,17 +121,17 @@ source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: https://pipe.neur
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neurable/refs/heads/main/authentication/neurable-authentication.yml
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
-- neurotechnology
-- brain-computer-interface
-- eeg
-- neuroscience
-- wearables
+- Neurotechnology
+- Brain-Computer Interface
+- EEG
+- Neuroscience
+- Wearables
 - biosignals
-- hardware
-- consumer-electronics
-- research-tools
+- Hardware
+- Consumer Electronics
+- Research Tools
 - cognitive-analytics
-- health-data
-- oauth
-- openid-connect
+- Health Data
+- Authentication
+- OpenID Connect
 ---

@@ -44,7 +44,7 @@ tags:
 - Retail
 - Shopify
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - GraphQL
 - Universal Commerce Protocol
 ---

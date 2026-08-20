@@ -122,13 +122,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/h
 summary_line: http · 1 scheme
 tags:
 - Agents
-- AI
 - Artificial Intelligence
 - Custom Workflows
 - Data Sources
 - Dust
 - Enterprise AI
-- Knowledge Management
+- Knowledge-Management
 - LLM
 - MCP
 - Multi-Model

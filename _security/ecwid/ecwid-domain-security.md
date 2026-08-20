@@ -82,6 +82,6 @@ tags:
 - Online Store
 - Storefront
 - Retail
-- Point of Sale
+- Point-of-Sale
 - Multi-Channel Commerce
 ---

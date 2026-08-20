@@ -97,7 +97,7 @@ tags:
 - Accounting
 - Banking
 - Data Integration
-- Webhooks
+- Webhook
 - Fintech
 trust_url: https://trust.endclose.com/
 ---

@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - E-Commerce
-- AI
+- Artificial Intelligence
 - Generative AI
 - Automation
 - Conversion Rate Optimization

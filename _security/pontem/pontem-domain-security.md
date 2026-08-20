@@ -40,7 +40,7 @@ tags:
 - Crypto
 - Blockchain
 - Web3
-- Wallet
+- Wallets
 - Decentralized Exchange
 - Move Language
 - Aptos

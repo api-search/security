@@ -90,7 +90,7 @@ tags:
 - Digital Goods
 - E-Commerce
 - Payments
-- Wallet
+- Wallets
 - Listings
 - Steam
 - Gift Cards

@@ -96,6 +96,6 @@ tags:
 - Agents
 - Developer Tools
 - MCP
-- Webhooks
+- Webhook
 - Productivity
 ---

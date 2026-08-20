@@ -39,7 +39,7 @@ tags:
 - Engineering Collaboration
 - CAD
 - Product Development
-- AI
+- Artificial Intelligence
 - PLM
 - Manufacturing
 ---

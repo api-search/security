@@ -44,7 +44,7 @@ tags:
 - Company
 - Enterprise
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Foundation Models
 - Coding Assistant
 - Developer Tools
@@ -52,5 +52,5 @@ tags:
 - Agents
 - Code Generation
 - Inference
-- OpenAI Compatible
+- OpenAI-Compatible
 ---

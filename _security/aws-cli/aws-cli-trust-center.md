@@ -25,6 +25,6 @@ tags:
 - Cloud Computing
 - Command Line Interface
 - DevOps
-- Open Source
+- Open-Source
 trust_url: https://aws.amazon.com/compliance/
 ---

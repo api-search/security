@@ -36,5 +36,4 @@ tags:
 - Loan Origination
 - Pricing Engine
 - Embedded Finance
-- API
 ---

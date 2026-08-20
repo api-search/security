@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/osmapi-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/authentication/osmapi-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Anthropic
 - Gateway
 - LLM

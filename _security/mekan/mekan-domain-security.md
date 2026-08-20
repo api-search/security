@@ -32,6 +32,6 @@ tags:
 - Automotive
 - Auto Parts
 - Latin America
-- SaaS
+- Software-as-a-Service
 - Dealership
 ---

@@ -24,11 +24,11 @@ tags:
 - Company
 - Business Applications
 - Legal
-- Legaltech
+- Legal Tech
 - Contract Management
 - Contract Drafting
 - Artificial Intelligence
-- Document Management
+- Document-Management
 - Legal AI
 trust_url: https://security.draftwise.com/
 ---

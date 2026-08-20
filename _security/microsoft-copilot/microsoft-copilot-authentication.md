@@ -67,10 +67,10 @@ tags:
 - Agents
 - AI Assistant
 - Artificial Intelligence
-- Chatbot
+- Chatbots
 - Copilot
 - Extensibility
 - Generative AI
-- Microsoft 365
+- Microsoft-365
 - Productivity
 ---

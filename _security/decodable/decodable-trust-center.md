@@ -53,8 +53,8 @@ tags:
 - Stream Processing
 - Apache Flink
 - Debezium
-- Real Time Data
-- Data Pipelines
+- Real-Time Data
+- Data Pipeline
 - CDC
 trust_url: https://www.decodable.co/security
 ---

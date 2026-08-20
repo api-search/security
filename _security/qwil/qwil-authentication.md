@@ -31,7 +31,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - Payments
 - Banking
 - Plaid

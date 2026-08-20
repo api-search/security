@@ -38,5 +38,5 @@ tags:
 - Business Intelligence
 - Reporting
 - Revenue Operations
-- SaaS
+- Software-as-a-Service
 ---

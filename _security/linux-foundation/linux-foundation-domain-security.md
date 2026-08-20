@@ -37,8 +37,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linux-foundati
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Linux Foundation
-- Nonprofit
-- Open Source
+- Non-Profit
+- Open-Source
 - Technology
 - LFX
 ---

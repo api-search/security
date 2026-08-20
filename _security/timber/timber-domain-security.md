@@ -36,7 +36,7 @@ tags:
 - Data Pipeline
 - Logging
 - Monitoring
-- Open Source
+- Open-Source
 - gRPC
 - Rust
 - Datadog

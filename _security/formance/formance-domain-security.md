@@ -91,6 +91,6 @@ tags:
 - Payments
 - Orchestration
 - Money Movement
-- Open Source
+- Open-Source
 - Fintech
 ---

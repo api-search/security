@@ -50,7 +50,7 @@ tags:
 - Personalization
 - Artificial Intelligence
 - Video Messaging
-- Webhooks
+- Webhook
 - MCP
 trust_url: https://security.sendspark.com/
 ---

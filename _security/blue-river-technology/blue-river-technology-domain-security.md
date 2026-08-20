@@ -31,10 +31,10 @@ tags:
 - Company
 - Agriculture
 - Robotics
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Artificial Intelligence
-- Agtech
+- AgTech
 - Autonomy
 - Precision Agriculture
 - North America

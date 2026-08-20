@@ -33,8 +33,8 @@ tags:
 - Company
 - Artificial Intelligence
 - Agentic AI
-- Financial Services
+- Financial-Services
 - Fintech
 - Data Analytics
-- Machine Learning
+- Machine-Learning
 ---

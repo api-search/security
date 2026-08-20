@@ -56,8 +56,8 @@ tags:
 - Blogging
 - Sites
 - Pages
-- Products
-- Orders
+- Product
+- Order
 - Customers
 - Square
 ---

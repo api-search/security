@@ -33,7 +33,7 @@ tags:
 - Construction Technology
 - Build-to-Rent
 - PropTech
-- Real Estate
+- Real-Estate
 - Homebuilding
 - Construction Management
 ---

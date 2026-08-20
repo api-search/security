@@ -44,10 +44,10 @@ tags:
 - Crypto
 - Robotics
 - Robots
-- AI
+- Artificial Intelligence
 - Agents
 - LLM
-- ROS2
-- Machine Learning
+- ROS 2
+- Machine-Learning
 - Autonomy
 ---

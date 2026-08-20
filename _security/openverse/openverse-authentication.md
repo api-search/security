@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/authentication/openverse-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Images
+- Image
 - Audio
 - Creative Commons
 - Open Media

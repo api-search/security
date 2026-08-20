@@ -140,13 +140,12 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/6sense-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/authentication/6sense-authentication.yml
 summary_line: apiKey/oauth2 · 4 schemes
 tags:
-- ABM
-- Account-Based Marketing
+- Account Based Marketing
 - Intent Data
 - B2B
 - Predictive Analytics
 - Revenue
 - Sales Intelligence
-- AI
+- Artificial Intelligence
 - Marketing Technology
 ---

@@ -68,7 +68,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - DeFi
 - Yield Aggregator
-- Vaults
+- Vault
 - EVM
 - Web3
 - Blockchain

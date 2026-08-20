@@ -32,7 +32,7 @@ tags:
 - Company
 - Manufacturing
 - Industrial
-- Measurement
+- Measurements
 - Control
 - Artificial Intelligence
 - Hardware

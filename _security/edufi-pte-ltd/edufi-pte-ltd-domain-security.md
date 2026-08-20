@@ -33,7 +33,7 @@ tags:
 - Fintech
 - Education
 - Lending
-- Financial Services
+- Financial-Services
 - Study Now Pay Later
 - Islamic Finance
 - Pakistan

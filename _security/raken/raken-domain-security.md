@@ -51,7 +51,7 @@ tags:
 - Toolbox Talks
 - Checklists
 - Observations
-- Projects
+- Project
 - Subcontractors
 - General Contractors
 - Heavy Civil

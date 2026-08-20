@@ -53,7 +53,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-beard-club
 summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Retail
 - Men's Grooming
 - Consumer Goods

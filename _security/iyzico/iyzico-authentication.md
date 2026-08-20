@@ -43,11 +43,11 @@ summary_line: custom-hmac · 1 scheme
 tags:
 - Company
 - Payments
-- FinTech
+- Fintech
 - Payment Gateway
 - Card Payments
 - Checkout
-- Subscriptions
+- Subscription
 - Marketplace
 - Turkey
 - 3D Secure

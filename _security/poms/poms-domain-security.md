@@ -33,7 +33,7 @@ tags:
 - Manufacturing
 - Manufacturing Execution System
 - MES
-- Pharmaceutical
+- Pharmaceuticals
 - Electronic Batch Records
 - Life Sciences
 - Biotech

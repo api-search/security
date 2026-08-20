@@ -37,13 +37,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neurophos/refs
 summary_line: none/bearer-token · 2 schemes
 tags:
 - Company
-- photonics
+- Photonics
 - optical-computing
-- ai-inference
-- ai-accelerators
-- semiconductors
+- AI Inference
+- AI Accelerators
+- Semiconductors
 - metamaterials
-- data-center
-- deep-tech
-- mcp
+- Data-Center
+- Deep Tech
+- MCP
 ---

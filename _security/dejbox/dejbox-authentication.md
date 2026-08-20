@@ -62,6 +62,6 @@ tags:
 - B2B
 - France
 - Meal Delivery
-- OAuth2
+- Authentication
 - OpenID Connect
 ---

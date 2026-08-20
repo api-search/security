@@ -239,14 +239,14 @@ tags:
 - API-First
 - B2C
 - B2B
-- Subscriptions
+- Subscription
 - Marketplaces
 - Wholesale
 - Storefront
 - Checkout
 - Payments
-- Carts
-- Orders
+- Cart
+- Order
 - Catalog
 - Internationalization
 ---

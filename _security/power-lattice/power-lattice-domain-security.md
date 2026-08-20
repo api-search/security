@@ -31,9 +31,9 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Compute
-- Semiconductor
+- Semiconductors
 - Power Management
 - AI Infrastructure
 - Hardware
-- Data Center
+- Data-Center
 ---

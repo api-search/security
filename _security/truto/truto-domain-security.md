@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truto/refs/heads/main/security/truto-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Unified API
+- Unified-API
 - Integration Platform
 - HRIS
 - ATS
@@ -152,5 +152,5 @@ tags:
 - Embedded Integrations
 - MCP
 - AI Agents
-- SaaS
+- Software-as-a-Service
 ---

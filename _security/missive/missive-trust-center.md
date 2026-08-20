@@ -67,7 +67,7 @@ tags:
 - Messaging
 - Conversations
 - Contacts
-- Webhooks
+- Webhook
 - Automation
 - REST API
 trust_url: https://missiveapp.com/security

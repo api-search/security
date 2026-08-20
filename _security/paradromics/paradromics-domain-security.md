@@ -33,7 +33,7 @@ tags:
 - Brain-Computer Interface
 - Neurotechnology
 - Medical Devices
-- Health Care
+- Healthcare
 - Implantable Devices
 - Neural Data
 - Assistive Technology

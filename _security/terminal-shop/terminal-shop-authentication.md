@@ -97,7 +97,7 @@ summary_line: http · 1 scheme
 tags:
 - Coffee
 - E-Commerce
-- Developer
+- Developers
 - SSH
 - Ordering
 ---

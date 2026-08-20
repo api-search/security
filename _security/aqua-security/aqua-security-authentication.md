@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/aqua-sec
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/authentication/aqua-security-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Cloud Native
+- Cloud-Native
 - Containers
 - Kubernetes
 - Runtime Protection

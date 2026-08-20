@@ -106,7 +106,7 @@ tags:
 - Agent Analytics
 - Observability
 - OpenTelemetry
-- Model Context Protocol
+- MCP
 - Conversational AI
 - Monitoring
 - Developer Tools

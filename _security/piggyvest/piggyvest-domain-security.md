@@ -61,7 +61,7 @@ tags:
 - Transfers
 - Bank Transfers
 - Scheduled Payments
-- Webhooks
+- Webhook
 - Hosted Checkout
 - Pay With Pocket
 - Invoicing

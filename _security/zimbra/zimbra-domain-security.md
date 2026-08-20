@@ -37,7 +37,7 @@ tags:
 - Collaboration
 - Calendar
 - Messaging
-- Open Source
+- Open-Source
 - SOAP
 - GraphQL
 - Productivity

@@ -34,7 +34,7 @@ tags:
 - Frontend
 - Material Design
 - Material Design 3
-- Open Source
+- Open-Source
 - TypeScript
 - UI Components
 ---

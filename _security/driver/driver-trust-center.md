@@ -17,7 +17,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/driver/refs/he
 summary_line: trust center published
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Code Documentation
 - MCP

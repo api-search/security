@@ -69,7 +69,7 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Payments
 - Payment Gateway
-- FinTech
+- Fintech
 - MENA
 - UAE
 ---

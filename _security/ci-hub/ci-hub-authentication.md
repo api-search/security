@@ -49,7 +49,7 @@ tags:
 - Creative Tools
 - Marketing
 - Brand Management
-- Model Context Protocol
+- MCP
 - Cloud Storage
 - Germany
 ---

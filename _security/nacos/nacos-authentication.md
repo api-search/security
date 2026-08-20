@@ -68,7 +68,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/hea
 summary_line: apiKey · 1 scheme
 tags:
 - Alibaba
-- Cloud Native
+- Cloud-Native
 - Configuration Management
 - DNS
 - Java

@@ -48,7 +48,7 @@ tags:
 - KYC
 - Lending
 - Compliance
-- OAuth2
-- Webhooks
+- Authentication
+- Webhook
 - Germany
 ---

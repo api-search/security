@@ -40,6 +40,6 @@ tags:
 - Privacy
 - Communications
 - Second Phone Number
-- OAuth
-- Webhooks
+- Authentication
+- Webhook
 ---

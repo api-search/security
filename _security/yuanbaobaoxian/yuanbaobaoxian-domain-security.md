@@ -36,5 +36,5 @@ tags:
 - Online Insurance Distribution
 - China
 - Artificial Intelligence
-- Financial Services
+- Financial-Services
 ---

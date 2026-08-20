@@ -321,7 +321,7 @@ tags:
 - Restore
 - Replication
 - Data Protection
-- Microsoft 365
+- Microsoft-365
 - Azure
 - Google Cloud
 - Ransomware Recovery

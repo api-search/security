@@ -32,10 +32,10 @@ tags:
 - Check-in
 - Event Marketing
 - Virtual Events
-- Webhooks
+- Webhook
 - OpenAPI
 - MCP
-- AI
+- Artificial Intelligence
 - Hong Kong
 - APAC
 trust_url: https://eventx.io/data-protection-and-security

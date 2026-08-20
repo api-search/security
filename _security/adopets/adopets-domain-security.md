@@ -68,6 +68,6 @@ tags:
 - Adoption Management
 - Payments
 - Nonprofit Technology
-- SaaS
+- Software-as-a-Service
 - Company
 ---

@@ -108,8 +108,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suger/refs/hea
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Cloud Marketplace
-- GTM
-- SaaS
+- Go-To-Market
+- Software-as-a-Service
 - Billing
 - Entitlement
 - Revenue

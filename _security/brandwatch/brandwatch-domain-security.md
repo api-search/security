@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandwatch/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Analytics
-- Social Media
+- Social-Media
 - Social Media Monitoring
 - Consumer Intelligence
 - Brand Management

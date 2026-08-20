@@ -37,5 +37,5 @@ tags:
 - Sustainability
 - ESG
 - Supply Chain
-- SaaS
+- Software-as-a-Service
 ---

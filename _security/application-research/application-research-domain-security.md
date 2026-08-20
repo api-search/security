@@ -259,7 +259,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/application-re
 summary_line: TLSv1.3 · HSTS
 tags:
 - Application Dependencies
-- Cloud Native
+- Cloud-Native
 - Integration
 - Research
 - Specifications

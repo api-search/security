@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inksoft/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Custom Apparel
-- E-commerce
+- E-Commerce
 - Online Stores
 - Print Shop
 - Design Studio

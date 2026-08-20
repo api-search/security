@@ -31,7 +31,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Food and Beverage
-- Restaurants
+- Restaurant
 - Food Ordering
 - Rewards
 - Dine-In

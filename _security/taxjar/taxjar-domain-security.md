@@ -99,5 +99,5 @@ tags:
 - Tax Calculation
 - Tax Automation
 - Stripe
-- FinTech
+- Fintech
 ---

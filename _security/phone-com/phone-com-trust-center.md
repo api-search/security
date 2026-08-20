@@ -26,6 +26,5 @@ tags:
 - SMS
 - Video Conferencing
 - Communications
-- API
 trust_url: https://trust.phone.com/
 ---

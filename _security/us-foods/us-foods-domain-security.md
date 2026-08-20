@@ -46,5 +46,5 @@ tags:
 - Fortune 500
 - Distribution
 - Supply Chain
-- eCommerce
+- E-Commerce
 ---

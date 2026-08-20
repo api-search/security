@@ -59,8 +59,8 @@ tags:
 - Container Optimization
 - FinOps
 - Kubernetes
-- Machine Learning
+- Machine-Learning
 - Recommendations
-- Right-Sizing
+- Rightsizing
 trust_url: https://kubex.ai/product/security/
 ---

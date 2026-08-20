@@ -50,7 +50,7 @@ summary_line: openIdConnect · 1 scheme
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Auto Insurance
 - Insurance Broker
 - Automotive

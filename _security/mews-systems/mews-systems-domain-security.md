@@ -512,7 +512,7 @@ tags:
 - Bookings
 - Travel
 - Payments
-- Point of Sale
+- Point-of-Sale
 - Channel Manager
 - Booking Engine
 ---

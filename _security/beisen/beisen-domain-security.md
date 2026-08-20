@@ -33,10 +33,9 @@ tags:
 - Enterprise
 - HR
 - Human Resources
-- Human Capital Management
 - HCM
 - Talent Management
 - Recruiting
-- SaaS
+- Software-as-a-Service
 - China
 ---

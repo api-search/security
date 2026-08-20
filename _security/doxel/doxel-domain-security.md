@@ -39,8 +39,8 @@ tags:
 - Construction
 - Construction Technology
 - ConTech
-- AI
-- Computer Vision
+- Artificial Intelligence
+- Computer-Vision
 - Reality Capture
 - Progress Tracking
 - BIM

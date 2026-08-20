@@ -90,7 +90,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/routeros/refs/
 summary_line: http · 1 scheme
 tags:
 - Networking
-- Routers
+- Router
 - Network Management
 - Firewall
 - MikroTik

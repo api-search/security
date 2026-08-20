@@ -44,6 +44,6 @@ tags:
 - Containers
 - HPC
 - Scientific Computing
-- Open Source
+- Open-Source
 - Linux Foundation
 ---

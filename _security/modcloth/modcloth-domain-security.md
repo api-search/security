@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Fashion
 - Apparel
 - Shopify

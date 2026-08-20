@@ -97,7 +97,7 @@ tags:
 - Treasury Management
 - Cash Management
 - Payments
-- PIX
+- Pix
 - Financial Data
 - Bank Connectivity
 - Brazil

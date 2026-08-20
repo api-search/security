@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Consumer Packaged Goods
-- Ecommerce
+- E-Commerce
 - Food and Beverage
 - Direct to Consumer
 - Retail

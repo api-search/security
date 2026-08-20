@@ -48,6 +48,6 @@ tags:
 - Legal Technology
 - Document Review
 - Predictive Coding
-- AI
+- Artificial Intelligence
 - Legal
 ---

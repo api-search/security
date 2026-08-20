@@ -83,6 +83,6 @@ tags:
 - PayID
 - NPP
 - Direct Debit
-- Digital Wallets
+- Digital Wallet
 - Payouts
 ---

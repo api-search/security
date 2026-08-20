@@ -33,7 +33,7 @@ tags:
 - Company
 - Healthcare
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Predictive Analytics
 - Chronic Disease Management
 - Value-Based Care

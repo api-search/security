@@ -48,8 +48,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs
 summary_line: http · 1 scheme
 tags:
 - Data Science
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 - Python
 - Web Applications
 ---

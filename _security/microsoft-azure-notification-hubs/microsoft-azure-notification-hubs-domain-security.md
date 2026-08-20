@@ -71,6 +71,6 @@ tags:
 - Cross-Platform
 - Messaging
 - Mobile
-- Notifications
+- Notification
 - Push Notifications
 ---

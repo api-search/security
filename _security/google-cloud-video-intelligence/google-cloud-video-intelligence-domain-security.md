@@ -58,7 +58,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Content Moderation
 - Google Cloud
-- Machine Learning
+- Machine-Learning
 - Object Detection
 - Video Analysis
 - Video Intelligence

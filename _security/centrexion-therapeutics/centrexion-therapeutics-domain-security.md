@@ -101,13 +101,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centrexion-the
 summary_line: TLSv1.3
 tags:
 - Company
-- biopharmaceutical
-- pharmaceuticals
-- chronic-pain
+- Biopharmaceutical
+- Pharmaceuticals
+- Chronic Pain
 - non-opioid-analgesics
-- immunology
+- Immunology
 - inflammation
-- clinical-trials
-- life-sciences
+- Clinical Trials
+- Life Sciences
 - content-api
 ---

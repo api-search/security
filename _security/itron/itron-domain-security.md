@@ -72,7 +72,7 @@ tags:
 - Smart Meters
 - Smart Grid
 - Smart Cities
-- Internet Of Things
+- Internet of Things
 - IoT
 - Energy
 - Water

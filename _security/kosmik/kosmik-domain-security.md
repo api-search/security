@@ -37,6 +37,6 @@ tags:
 - Moodboard
 - Personal Knowledge Management
 - Artificial Intelligence
-- Local First
+- Local-First
 - Sunset
 ---

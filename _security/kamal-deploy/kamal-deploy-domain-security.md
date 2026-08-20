@@ -42,10 +42,10 @@ tags:
 - Rolling Deploys
 - Rails
 - Ruby
-- Open Source
+- Open-Source
 - 37signals
 - Basecamp
-- On Premises
+- On-Premises
 - Infrastructure
 - CLI
 - SSH

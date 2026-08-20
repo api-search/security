@@ -35,7 +35,7 @@ tags:
 - Programmable Chemistry
 - Robotics
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Drug Discovery
 - Materials Science
 - Automation

@@ -41,7 +41,7 @@ tags:
 - Billing
 - Payments
 - Invoice-to-Cash
-- E-invoicing
+- E-Invoicing
 - Fintech
-- Webhooks
+- Webhook
 ---

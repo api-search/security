@@ -29,7 +29,7 @@ tags:
 - Crypto
 - DeFi
 - DEX
-- Blast
+- BLAST
 - AMM
 - Ethereum
 ---

@@ -46,7 +46,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/collision/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Conferences
-- Events
+- Event
 - Historical
 - Rebrand
 - Startups

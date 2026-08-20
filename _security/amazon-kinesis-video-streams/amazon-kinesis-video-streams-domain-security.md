@@ -57,7 +57,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - IoT
-- Machine Learning
+- Machine-Learning
 - Media
 - Video Streaming
 ---

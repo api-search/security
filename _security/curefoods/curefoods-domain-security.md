@@ -33,7 +33,7 @@ tags:
 - Consumer
 - Food and Beverage
 - Cloud Kitchen
-- Restaurants
+- Restaurant
 - Food Delivery
 - India
 ---

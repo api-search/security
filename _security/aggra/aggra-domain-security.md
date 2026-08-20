@@ -32,8 +32,8 @@ tags:
 - Fintech
 - Debt Collection
 - Lending
-- Collections
-- SaaS
-- Machine Learning
+- Collection
+- Software-as-a-Service
+- Machine-Learning
 - India
 ---

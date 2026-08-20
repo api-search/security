@@ -59,7 +59,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fundamental-re
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - Spreadsheets
 - Excel

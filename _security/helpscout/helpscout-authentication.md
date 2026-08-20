@@ -134,10 +134,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/helpscou
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/authentication/helpscout-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Customer Support
+- Customer-Support
 - Help Desk
 - Email
 - Live Chat
 - Knowledge Base
-- SaaS
+- Software-as-a-Service
 ---

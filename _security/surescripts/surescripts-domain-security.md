@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/surescripts/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Healthcare
-- E-Prescribing
+- e-Prescribing
 - Health Information Network
 - NCPDP SCRIPT
 - Medication History

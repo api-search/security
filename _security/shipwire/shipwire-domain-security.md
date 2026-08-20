@@ -37,11 +37,11 @@ tags:
 - Fulfillment
 - Logistics
 - 3PL
-- eCommerce
+- E-Commerce
 - Shipping
 - Warehousing
 - Inventory
-- Orders
+- Order
 - Returns
 - Carriers
 ---

@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: anu-quantum-numbers-openapi.yml
+  format: yaml
+  label: ANU Quantum Numbers (AQN) API
+  slug: quantum-numbers
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/openapi/anu-quantum-numbers-openapi.yml
+- filename: anu-qrng-legacy-openapi.yml
+  format: yaml
+  label: QRNG@ANU Legacy JSON API
+  slug: qrng-legacy
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/openapi/anu-qrng-legacy-openapi.yml
+- filename: anu-open-research-oai-pmh-openapi.yml
+  format: yaml
+  label: ANU Open Research OAI-PMH
+  slug: openresearch-oai
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/openapi/anu-open-research-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,11 +60,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/security/anu-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
 - Australia
-- Open Data
+- Group of Eight
+- Research Repository
+- Identity Federation
+- Open Access
 - Quantum
+- Random Numbers
+- OAI-PMH
 ---

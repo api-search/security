@@ -215,6 +215,6 @@ tags:
 - Boleto
 - Banking as a Service
 - Brazil
-- Financial Services
+- Financial-Services
 trust_url: https://docs.starkbank.com/index.md#compliance
 ---

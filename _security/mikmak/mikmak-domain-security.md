@@ -61,14 +61,14 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics
 - Commerce
-- eCommerce
-- Multichannel
+- E-Commerce
+- Multi-Channel
 - Retail Media
 - Where to Buy
 - Shoppable Media
 - Product Availability
 - MCP
-- Agent Native
+- agent-native
 - Reporting
 - CPG
 ---

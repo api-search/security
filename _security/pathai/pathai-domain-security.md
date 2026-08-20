@@ -38,7 +38,7 @@ tags:
 - Company
 - Healthcare
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Pathology
 - Digital Diagnostics
 - Life Sciences

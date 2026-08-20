@@ -28,9 +28,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neeva/refs/hea
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- Applications
+- Application
 - Search
-- Search Engine
+- Search Engines
 - Artificial Intelligence
 - Consumer
 - Defunct

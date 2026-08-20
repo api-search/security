@@ -181,8 +181,8 @@ tags:
 - Offers
 - Online Ordering
 - PAR Technology
-- Point Of Sale
+- Point-of-Sale
 - Restaurant
 - Restaurant Technology
-- Webhooks
+- Webhook
 ---

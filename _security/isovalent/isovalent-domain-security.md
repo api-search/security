@@ -110,7 +110,7 @@ tags:
 - eBPF
 - Security
 - Observability
-- Cloud Native
+- Cloud-Native
 - Service Mesh
 - CNI
 - Container Networking

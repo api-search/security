@@ -65,7 +65,7 @@ summary_line: apiKey · 3 schemes
 tags:
 - Automations
 - Business Process Automation
-- Integrations
+- Integration
 - No-Code
 - Platform
 - Protocols

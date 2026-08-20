@@ -35,6 +35,6 @@ tags:
 - Email Marketing
 - Lead Generation
 - Customer Acquisition
-- SaaS
+- Software-as-a-Service
 - Acquired
 ---

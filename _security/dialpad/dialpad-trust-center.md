@@ -99,7 +99,7 @@ summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, GDPR, CSA 
 tags:
 - Communications
 - Voice
-- AI
+- Artificial Intelligence
 - Contact Center
 - UCaaS
 trust_url: https://trust.dialpad.com/

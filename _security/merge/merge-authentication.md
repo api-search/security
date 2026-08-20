@@ -739,9 +739,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/merge-ac
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/authentication/merge-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Integrations
+- Integration
 - Platform
-- Unified API
+- Unified-API
 - Agent Handler
 - LLM Gateway
 ---

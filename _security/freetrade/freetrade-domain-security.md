@@ -61,7 +61,7 @@ tags:
 - Investing
 - Stock Trading
 - Brokerage
-- Financial Services
+- Financial-Services
 - Fintech
 - Pensions
 - ISA

@@ -32,7 +32,7 @@ tags:
 - GraphQL
 - React
 - Meta
-- Open Source
+- Open-Source
 - TypeScript
 - Build Tools
 ---

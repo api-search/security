@@ -91,7 +91,7 @@ tags:
 - Vertical Farming
 - Food and Beverage
 - Consumer Products
-- Ecommerce
+- E-Commerce
 - Retail
 - Agent Commerce
 - Shopify

@@ -50,7 +50,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare
 - FHIR
-- Open Source
+- Open-Source
 - Developer Platform
 - HIPAA
 - SMART on FHIR

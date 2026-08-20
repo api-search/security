@@ -262,7 +262,7 @@ tags:
 - Company
 - Low-Code
 - Application Development
-- Platform as a Service
+- Platform-as-a-Service
 - DevOps
 - Deployment
 - Identity and Access Management

@@ -56,8 +56,8 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
-- Image Generation
+- Machine-Learning
+- Image-Generation
 - Video Generation
 - Generative AI
 - Model Optimization

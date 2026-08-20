@@ -22,7 +22,7 @@ tags:
 - LLM Guardrails
 - AI Agents
 - Red Teaming
-- Model Context Protocol
+- MCP
 - Agent Security
 - Compliance
 trust_url: https://trust.virtueai.com/

@@ -192,6 +192,6 @@ tags:
 - Surveys
 - Messaging
 - Multi-Location
-- AI
+- Artificial Intelligence
 trust_url: https://trust.birdeye.com/
 ---

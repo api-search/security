@@ -44,7 +44,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Collaboration
 - Microsoft
-- Microsoft 365
+- Microsoft-365
 - Visual Collaboration
 - Whiteboard
 ---

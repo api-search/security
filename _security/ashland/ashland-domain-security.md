@@ -30,7 +30,7 @@ summary_line: DMARC
 tags:
 - Chemicals
 - Specialty Chemicals
-- Pharmaceutical
+- Pharmaceuticals
 - Personal Care
 - Industrial
 - Fortune 500

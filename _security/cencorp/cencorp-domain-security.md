@@ -36,7 +36,7 @@ tags:
 - Laser Processing
 - Dispensing
 - Automated Optical Inspection
-- Semiconductor
+- Semiconductors
 - Electronics Manufacturing
 - New Energy
 ---

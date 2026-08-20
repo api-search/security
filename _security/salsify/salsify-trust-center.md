@@ -82,6 +82,6 @@ tags:
 - Retail
 - Syndication
 - Data Management
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.salsify.com/security-and-reliability
 ---

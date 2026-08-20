@@ -34,6 +34,6 @@ tags:
 - Crypto
 - Web3
 - Blockchain
-- Wallet
+- Wallets
 - DeFi
 ---

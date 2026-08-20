@@ -55,7 +55,7 @@ summary_line: 3 schemes
 tags:
 - Company
 - Ticketing
-- Events
+- Event
 - Event Management
 - Payments
 - Marketing

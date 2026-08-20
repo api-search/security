@@ -36,5 +36,5 @@ tags:
 - Sports
 - Wellness
 - Corporate Wellness
-- Subscriptions
+- Subscription
 ---

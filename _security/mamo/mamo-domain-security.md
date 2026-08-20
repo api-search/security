@@ -129,7 +129,7 @@ tags:
 - Payments
 - Fintech
 - Payment Links
-- Subscriptions
+- Subscription
 - Corporate Cards
 - Payouts
 - Expense Management

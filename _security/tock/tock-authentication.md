@@ -46,12 +46,12 @@ summary_line: apiKey · 1 scheme
 tags:
 - Hospitality
 - Reservations
-- Restaurants
+- Restaurant
 - Wineries
 - Ticketed Events
 - Takeout
 - Delivery
-- Experiences
+- Experience
 - Dining
 - American Express
 ---

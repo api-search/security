@@ -134,7 +134,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orange-busines
 summary_line: http/openIdConnect · 2 schemes
 tags:
 - 5G
-- AI
+- Artificial Intelligence
 - B2B
 - CAMARA
 - Cloud

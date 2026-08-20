@@ -44,7 +44,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/harmony
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harmony/refs/heads/main/authentication/harmony-authentication.yml
 summary_line: http/apiKey · 2 schemes
 tags:
-- IT Service Management
+- ITSM
 - Service Desk
 - Ticketing
 - Enterprise Service Management

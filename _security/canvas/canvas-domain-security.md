@@ -48,6 +48,6 @@ tags:
 - Learning Management System
 - LMS
 - LTI
-- Open Source
+- Open-Source
 - REST
 ---

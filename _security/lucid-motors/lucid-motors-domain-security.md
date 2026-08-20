@@ -37,7 +37,7 @@ tags:
 - Battery Technology
 - Powertrain
 - Manufacturing
-- Over The Air Updates
+- Over-the-Air Updates
 - Mobile App
 - Lucid Air
 - Lucid Gravity

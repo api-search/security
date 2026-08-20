@@ -38,5 +38,5 @@ tags:
 - Local Food
 - Payments
 - Logistics
-- SaaS
+- Software-as-a-Service
 ---

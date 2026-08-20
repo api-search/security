@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Consumer Goods
-- E-commerce
+- E-Commerce
 - Retail
 - Household Products
 - Personal Care

@@ -34,6 +34,6 @@ tags:
 - Cross-Device
 - AdTech
 - Device Recognition
-- Machine Learning
+- Machine-Learning
 - Acquired
 ---

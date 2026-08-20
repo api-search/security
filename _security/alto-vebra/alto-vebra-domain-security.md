@@ -123,7 +123,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/security/alto-vebra-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Property Listings
@@ -133,8 +133,8 @@ tags:
 - Conveyancing
 - Estate Agency
 - Tenancy
-- Webhooks
-- Events
+- Webhook
+- Event
 - Lettings
 - Sales Progression
 - Property Data

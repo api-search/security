@@ -35,7 +35,7 @@ tags:
 - Drug Discovery
 - Artificial Intelligence
 - Life Sciences
-- Pharmaceutical
+- Pharmaceuticals
 - Biosimulation
-- Machine Learning
+- Machine-Learning
 ---

@@ -50,7 +50,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Pricing
 - Packaging
-- SaaS
+- Software-as-a-Service
 - Monetization
 - Plans
 - Entitlements

@@ -41,7 +41,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/doctly-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doctly-ai/refs/heads/main/authentication/doctly-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Document Parsing
 - PDF
 - Markdown

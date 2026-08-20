@@ -31,7 +31,7 @@ tags:
 - Retail
 - Convenience Stores
 - Autonomous Stores
-- Computer Vision
+- Computer-Vision
 - France
 - Defunct
 ---

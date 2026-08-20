@@ -92,6 +92,6 @@ tags:
 - DEX Aggregator
 - Swaps
 - Blockchain
-- Wallet
+- Wallets
 - Self-Custody
 ---

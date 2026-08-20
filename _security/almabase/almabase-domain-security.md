@@ -34,9 +34,9 @@ tags:
 - Alumni Engagement
 - Fundraising
 - Education
-- Nonprofit
+- Non-Profit
 - CRM Integration
-- Events
+- Event
 - Online Giving
 - Advancement
 ---

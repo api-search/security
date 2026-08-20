@@ -283,7 +283,7 @@ tags:
 - Payments
 - Cards
 - Fintech
-- Accounts
+- Account
 - KYC
 - Company
 trust_url: https://security.weavr.io/

@@ -49,5 +49,5 @@ tags:
 - Registration
 - Video Streaming
 - Marketing Automation
-- SaaS
+- Software-as-a-Service
 ---

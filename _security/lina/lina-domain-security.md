@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Healthcare
-- Coworking
-- Real Estate
+- Co-Working
+- Real-Estate
 - Medical
 - Mental Health
 - Wellness

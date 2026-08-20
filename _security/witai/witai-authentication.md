@@ -36,12 +36,12 @@ tags:
 - Natural Language Processing
 - NLP
 - Speech Recognition
-- Speech to Text
-- Text to Speech
+- Speech-to-Text
+- Text-to-Speech
 - Intents
 - Entities
 - Voice
 - Conversational AI
-- Machine Learning
+- Machine-Learning
 - Meta
 ---

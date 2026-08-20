@@ -208,7 +208,7 @@ tags:
 - Derivatives
 - Custody
 - Market Data
-- Financial Services
+- Financial-Services
 - Institutional
 - FIX
 trust_url: https://www.bullish.com/us/trust

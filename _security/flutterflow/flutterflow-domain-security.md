@@ -49,7 +49,6 @@ tags:
 - Flutter
 - Mobile Development
 - Visual Development
-- API
 - CLI
 - MCP
 ---

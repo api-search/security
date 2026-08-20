@@ -45,7 +45,7 @@ tags:
 - Healthcare
 - Surgery
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Medical Documentation
 - Medical Billing
 - Clinical Intelligence

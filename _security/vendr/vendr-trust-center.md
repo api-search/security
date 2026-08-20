@@ -45,7 +45,7 @@ summary_line: SOC 2, GDPR
 tags:
 - Pricing
 - Procurement
-- SaaS
+- Software-as-a-Service
 - Software Spend Management
 - Negotiation
 trust_url: https://www.vendr.com/

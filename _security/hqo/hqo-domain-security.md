@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hqo/refs/heads
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Proptech
+- PropTech
 - Commercial Real Estate
 - Workplace Experience
 - Tenant Experience

@@ -487,7 +487,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/langsmit
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/authentication/langsmith-authentication.yml
 summary_line: apiKey/http · 4 schemes
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Observability
 - Evaluations

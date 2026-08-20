@@ -54,7 +54,7 @@ tags:
 - Tax Compliance
 - Payments
 - Billing
-- Collections
+- Collection
 - Mexico
 - Accounts Receivable
 ---

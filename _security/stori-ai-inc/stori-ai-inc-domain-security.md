@@ -33,10 +33,10 @@ tags:
 - Company
 - Artificial Intelligence
 - Content Marketing
-- Social Media
+- Social-Media
 - Marketing
 - Branding
 - Content Creation
-- SaaS
+- Software-as-a-Service
 - Generative AI
 ---

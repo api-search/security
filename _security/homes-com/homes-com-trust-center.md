@@ -24,7 +24,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/homes-com/refs/heads/main/security/homes-com-trust-center.yml
 summary_line: PCI DSS, ISO/IEC 27001, NIST CSF, SOC 1 Type 2, SOC 1 Type 2
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - Property Listings
 - MLS
@@ -32,7 +32,7 @@ tags:
 - IDX
 - Rentals
 - PropTech
-- Portals
+- Portal
 - Marketplaces
 - Residential Real Estate
 - Real Estate Agents

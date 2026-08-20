@@ -97,13 +97,12 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/limitle
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/authentication/limitless-ai-authentication.yml
 summary_line: apiKey/oauth2/openIdConnect · 3 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Wearable
 - Pendant
 - Meeting Notes
 - Lifelogs
 - Personal AI
-- API
 - MCP
 - OpenAPI
 ---

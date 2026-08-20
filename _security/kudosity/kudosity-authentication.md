@@ -61,11 +61,11 @@ tags:
 - WhatsApp
 - Communications
 - CPaaS
-- Webhooks
+- Webhook
 - MCP
-- Agent-native
+- agent-native
 - Australia
-- Notifications
+- Notification
 - Two-Way Messaging
 - Contact Management
 ---

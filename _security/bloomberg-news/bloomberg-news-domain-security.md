@@ -46,7 +46,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics
 - Business Intelligence
-- Financial Services
+- Financial-Services
 - Market Data
 - News
 ---

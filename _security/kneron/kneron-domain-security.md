@@ -52,8 +52,8 @@ tags:
 - Edge AI
 - Semiconductors
 - Neural Processing Unit
-- Machine Learning
-- Computer Vision
+- Machine-Learning
+- Computer-Vision
 - AIoT
 - Hardware
 - Large Language Models

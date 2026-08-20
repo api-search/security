@@ -29,6 +29,6 @@ tags:
 - Observability
 - Industrial Data
 - Data Platform
-- SDKs
+- SDK
 trust_url: https://trust.nominal.io
 ---

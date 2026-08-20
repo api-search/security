@@ -20,12 +20,12 @@ summary_line: SOC 2, GDPR
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Chemistry
 - Research and Development
 - Design of Experiments
 - Bayesian Optimization
 - Materials Science
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.sunthetics.io/trust-center
 ---

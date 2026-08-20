@@ -47,10 +47,10 @@ summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Banking
-- Financial Services
+- Financial-Services
 - Open Banking
 - Payments
-- Collections
+- Collection
 - Trade Finance
 - Corporate Banking
 - India

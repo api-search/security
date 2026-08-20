@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Coffee
 - Beverage
-- Foodservice
+- Food Service
 - Wholesale
 - Hospitality
 ---

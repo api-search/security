@@ -35,8 +35,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modelbit/refs/
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- Ai
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - MLOps
 - Model Deployment
 - Model Inference

@@ -59,10 +59,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unrealspeech/refs/heads/main/security/unrealspeech-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Text to Speech
+- Text-to-Speech
 - TTS
 - Speech Synthesis
 - Audio
 - Voice
-- AI
+- Artificial Intelligence
 ---

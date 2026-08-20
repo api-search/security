@@ -45,9 +45,9 @@ summary_line: apiKey · 1 scheme
 tags:
 - Foundation Models
 - Generative AI
-- Image Generation
-- Machine Learning
-- Multimodal
+- Image-Generation
+- Machine-Learning
+- Multi-Modal
 - Speech
 - Video Generation
 ---

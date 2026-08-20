@@ -264,5 +264,5 @@ tags:
 - Orchestration
 - Serverless
 - State Machine
-- Workflow
+- Workflows
 ---

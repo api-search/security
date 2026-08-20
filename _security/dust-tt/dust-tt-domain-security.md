@@ -133,13 +133,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agents
-- AI
 - Artificial Intelligence
 - Custom Workflows
 - Data Sources
 - Dust
 - Enterprise AI
-- Knowledge Management
+- Knowledge-Management
 - LLM
 - MCP
 - Multi-Model

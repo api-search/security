@@ -83,8 +83,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/intercom
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/authentication/intercom-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Customer Service
-- Customer Support
+- Customer-Support
 - Messaging
 ---

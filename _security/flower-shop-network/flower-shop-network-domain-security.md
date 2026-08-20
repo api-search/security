@@ -70,5 +70,5 @@ tags:
 - Florists
 - Flowers
 - Wire Orders
-- Point of Sale
+- Point-of-Sale
 ---

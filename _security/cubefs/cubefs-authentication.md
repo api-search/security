@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cubefs-s
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/authentication/cubefs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Cloud Native
+- Cloud-Native
 - CNCF Graduated
 - Distributed File System
 - Kubernetes

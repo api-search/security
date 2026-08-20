@@ -322,5 +322,5 @@ tags:
 - Reimbursement
 - Invoice Processing
 - Finance
-- FinTech
+- Fintech
 ---

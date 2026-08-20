@@ -96,17 +96,17 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\ndocs:\n- https://help.m
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/authentication/mntn-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- connected-tv
+- Connected TV
 - ctv-advertising
-- advertising
-- performance-marketing
-- streaming-tv
-- media-buying
-- attribution
-- audience-targeting
-- conversion-tracking
-- programmatic-advertising
+- Advertising
+- Performance Marketing
+- Streaming TV
+- Media Buying
+- Attribution
+- Audience Targeting
+- Conversion Tracking
+- Programmatic Advertising
 - private-marketplace
 - marketing-reporting
-- adtech
+- AdTech
 ---

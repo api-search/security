@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/profitero/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- eCommerce
+- E-Commerce
 - Digital Shelf
 - Retail Analytics
 - Retail Media

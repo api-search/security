@@ -68,8 +68,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/milvus/refs/he
 summary_line: http · 1 scheme
 tags:
 - Vector Database
-- AI
+- Artificial Intelligence
 - Embeddings
-- Open Source
+- Open-Source
 - Cloud-Native
 ---

@@ -32,6 +32,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
 - Auto Insurance
-- Property & Casualty
-- Direct-to-Consumer
+- Property and Casualty
+- Direct to Consumer
 ---

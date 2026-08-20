@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/h
 summary_line: SOC 2, HIPAA
 tags:
 - Company
-- Devtools
+- DevTools
 - Testing
 - Test Automation
 - QA

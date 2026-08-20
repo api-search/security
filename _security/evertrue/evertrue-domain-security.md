@@ -32,7 +32,7 @@ tags:
 - Company
 - Ai Apps
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Donor Management
 - Higher Education
 - Advancement

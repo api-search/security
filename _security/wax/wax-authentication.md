@@ -44,5 +44,5 @@ tags:
 - Web3
 - Gaming
 - Antelope
-- Wallet
+- Wallets
 ---

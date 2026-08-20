@@ -44,5 +44,5 @@ tags:
 - Digital Collectibles
 - Animation
 - Consumer
-- Webhooks
+- Webhook
 ---

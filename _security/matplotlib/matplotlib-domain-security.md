@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Charts
 - Data Science
-- Open Source
+- Open-Source
 - Plotting
 - Python
 - Scientific Computing

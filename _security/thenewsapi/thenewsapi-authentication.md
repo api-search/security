@@ -43,10 +43,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thenewsapi/refs/heads/main/authentication/thenewsapi-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- news
-- articles
-- headlines
-- media
-- aggregation
-- real-time
+- News
+- Articles
+- Headlines
+- Media
+- Aggregation
+- Real-Time
 ---

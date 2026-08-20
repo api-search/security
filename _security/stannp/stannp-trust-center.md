@@ -80,7 +80,7 @@ tags:
 - Campaigns
 - Address Verification
 - SMS
-- Webhooks
+- Webhook
 - Mailing Lists
 - Fulfillment
 trust_url: https://www.stannp.com/us/trust

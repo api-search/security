@@ -193,7 +193,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Workflow Orchestration
 - Data Pipeline
-- Open Source
+- Open-Source
 - Apache
 - DAG
 - Scheduling

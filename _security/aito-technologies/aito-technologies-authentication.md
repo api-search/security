@@ -54,7 +54,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Predictive Database
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Recommendations
 - Search

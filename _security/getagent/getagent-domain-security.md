@@ -36,7 +36,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - PropTech
-- Real Estate
+- Real-Estate
 - Estate Agents
 - Property
 - Comparison

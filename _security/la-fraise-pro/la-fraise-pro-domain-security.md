@@ -36,7 +36,7 @@ tags:
 - Health Tech
 - Electronic Signature
 - Patient Engagement
-- SaaS
+- Software-as-a-Service
 - France
 - Practice Management
 - Document Signing

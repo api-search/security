@@ -89,7 +89,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Voice
 - TTS
-- Text to Speech
+- Text-to-Speech
 - Voice Cloning
 - Voice Agents
 - Streaming

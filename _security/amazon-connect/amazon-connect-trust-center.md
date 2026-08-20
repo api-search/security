@@ -98,7 +98,7 @@ tags:
 - Contact Center
 - Customer Service
 - Voice
-- AI
+- Artificial Intelligence
 - Omnichannel
 trust_url: https://aws.amazon.com/compliance/
 ---

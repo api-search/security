@@ -59,7 +59,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nected/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Low-Code
-- Workflow Automation
+- Workflow-Automation
 - Decision Engine
 - Business Rules
 ---

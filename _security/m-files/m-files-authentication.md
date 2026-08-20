@@ -56,10 +56,10 @@ summary_line: oauth2/apiKey/http · 6 schemes
 tags:
 - Company
 - Infrastructure Saas
-- Document Management
+- Document-Management
 - Information Management
 - Content Services
-- Workflow Automation
+- Workflow-Automation
 - Compliance
 - Enterprise Content Management
 ---

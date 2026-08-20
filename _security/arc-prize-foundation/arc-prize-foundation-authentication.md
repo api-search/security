@@ -54,6 +54,6 @@ tags:
 - Benchmarks
 - Agents
 - Reasoning
-- Machine Learning
-- Nonprofit
+- Machine-Learning
+- Non-Profit
 ---

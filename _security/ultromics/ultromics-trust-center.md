@@ -23,7 +23,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ultromics/refs
 summary_line: ISO/IEC 27001:2022, ISO 13485:2016, HIPAA, GDPR, NHS DSPT
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Healthcare
 - Cardiology
 - Echocardiography

@@ -41,7 +41,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - 3D
 - Design
-- AI
+- Artificial Intelligence
 - Collaboration
 - Web
 - SDK

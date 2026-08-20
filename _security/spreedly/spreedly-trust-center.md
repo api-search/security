@@ -70,6 +70,6 @@ tags:
 - Tokenization
 - Network Tokenization
 - PCI Compliance
-- Subscriptions
+- Subscription
 trust_url: https://www.spreedly.com/security-compliance
 ---

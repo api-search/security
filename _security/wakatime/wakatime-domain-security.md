@@ -165,6 +165,6 @@ tags:
 - Coding Analytics
 - Leaderboards
 - IDE Plugins
-- Open Source
+- Open-Source
 - Public APIs
 ---

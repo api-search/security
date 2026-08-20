@@ -77,11 +77,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/he
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- eCommerce
+- E-Commerce
 - Online Stores
 - Payments
 - Shipping
-- SaaS
+- Software-as-a-Service
 - MENA
-- Orders
+- Order
 ---

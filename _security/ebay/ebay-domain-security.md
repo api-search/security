@@ -430,7 +430,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Auctions
 - Commerce
-- Products
+- Product
 - Marketplace
 - Fortune 500
 ---

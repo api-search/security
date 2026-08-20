@@ -76,7 +76,7 @@ tags:
 - Free
 - MEVN
 - No Auth
-- Open Source
+- Open-Source
 - Public APIs
 - Recreation
 - Riddles

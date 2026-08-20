@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pingo/refs/hea
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Language Learning
 - Education
 - Conversational AI

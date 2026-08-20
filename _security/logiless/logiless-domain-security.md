@@ -95,7 +95,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/
 summary_line: TLSv1.2 · DMARC
 tags:
 - Logistics
-- E-commerce
+- E-Commerce
 - Order Management
 - Warehouse Management
 - Inventory

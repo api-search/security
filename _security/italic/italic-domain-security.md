@@ -37,11 +37,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/italic/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Retail
 - Consumer
 - Home Goods
-- Direct-to-Consumer
+- Direct to Consumer
 - Marketplace
 - Membership
 ---

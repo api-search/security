@@ -55,7 +55,7 @@ tags:
 - Company
 - Advertising
 - Out-of-Home
-- Measurement
+- Measurements
 - Attribution
 - Analytics
 - Marketing

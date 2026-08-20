@@ -44,5 +44,5 @@ tags:
 - DevSecOps
 - Kubernetes
 - Machine Identity
-- Open Source
+- Open-Source
 ---

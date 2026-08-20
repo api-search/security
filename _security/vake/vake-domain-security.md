@@ -37,7 +37,7 @@ tags:
 - Vessel Tracking
 - AIS
 - Geospatial
-- Machine Learning
+- Machine-Learning
 - Dark Vessels
 - Defense
 - Situational Awareness

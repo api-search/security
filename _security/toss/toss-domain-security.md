@@ -59,6 +59,6 @@ tags:
 - Digital Wallet
 - Credit Scoring
 - Identity Verification
-- Financial Services
+- Financial-Services
 - Super App
 ---

@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brinker-international/refs/heads/main/security/brinker-international-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Restaurants
+- Restaurant
 - Casual Dining
 - Food Service
 - Franchise

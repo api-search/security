@@ -54,7 +54,7 @@ tags:
 - Fintech
 - Open Banking
 - Digital Banking
-- Banking-as-a-Service
+- Banking as a Service
 - Partner API
 - Business Banking
 - United States

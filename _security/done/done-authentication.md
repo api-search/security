@@ -217,20 +217,20 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nsource: https://undersc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/authentication/done-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- developer-tools
-- utility-apis
-- ai-agents
+- Developer Tools
+- Utility APIs
+- AI Agents
 - agent-native
 - x402
 - pay-per-call
-- web3
-- crypto-payments
-- dns
-- domains
-- email-security
-- network-security
-- seo
-- ocr
-- data
+- Web3
+- Crypto Payments
+- DNS
+- Domains
+- Email Security
+- Network Security
+- SEO
+- OCR
+- Data
 - fintech-calculators
 ---

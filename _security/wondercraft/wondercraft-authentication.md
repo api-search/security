@@ -54,9 +54,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/wondercr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wondercraft/refs/heads/main/authentication/wondercraft-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Audio
 - Podcast
-- Text to Speech
+- Text-to-Speech
 - Generative Audio
 ---

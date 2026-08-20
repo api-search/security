@@ -33,7 +33,7 @@ tags:
 - Company
 - Ai Ml
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Deep Learning
 - GPU Optimization
 - Research

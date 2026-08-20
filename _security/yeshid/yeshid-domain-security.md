@@ -38,6 +38,6 @@ tags:
 - Access Management
 - Lifecycle Management
 - Non-Human Identity
-- SaaS
-- OAuth
+- Software-as-a-Service
+- Authentication
 ---

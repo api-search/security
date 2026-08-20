@@ -39,7 +39,7 @@ tags:
 - Vertical Software
 - Construction
 - Payroll
-- Human Capital Management
+- HCM
 - HR
 - Field Operations
 - Expense Management

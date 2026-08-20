@@ -107,5 +107,5 @@ tags:
 - Crowdsourcing
 - Human-in-the-Loop
 - Training Data
-- AI
+- Artificial Intelligence
 ---

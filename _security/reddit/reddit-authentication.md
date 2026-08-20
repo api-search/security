@@ -158,6 +158,6 @@ tags:
 - Advertising
 - Communities
 - Content
-- Social Media
+- Social-Media
 - Social News
 ---

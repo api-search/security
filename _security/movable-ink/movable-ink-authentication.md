@@ -83,5 +83,5 @@ tags:
 - Artificial Intelligence
 - Advertising Technology
 - Content
-- Events
+- Event
 ---

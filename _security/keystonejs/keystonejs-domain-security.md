@@ -41,7 +41,7 @@ tags:
 - GraphQL
 - Node.js
 - Content Management
-- Open Source
+- Open-Source
 - TypeScript
 - Prisma
 ---

@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/us-space
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/authentication/us-space-comman-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Federal Government
+- Federal-Government
 - Space
 - Space Situational Awareness
 - Satellite Tracking

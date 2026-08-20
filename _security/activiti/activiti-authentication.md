@@ -283,9 +283,9 @@ summary_line: http · 1 scheme
 tags:
 - BPM
 - Business Process Management
-- Workflow
+- Workflows
 - BPMN
-- Open Source
+- Open-Source
 - Process Automation
 - Java
 - REST API

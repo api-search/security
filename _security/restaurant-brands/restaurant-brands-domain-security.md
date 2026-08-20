@@ -75,5 +75,5 @@ tags:
 - Hospitality
 - NYSE QSR
 - Quick Service Restaurants
-- Restaurants
+- Restaurant
 ---

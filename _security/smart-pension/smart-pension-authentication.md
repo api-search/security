@@ -957,16 +957,16 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: openapi/smart-p
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/authentication/smart-pension-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- pensions
-- retirement
+- Pensions
+- Retirement
 - workplace-pension
 - auto-enrolment
-- payroll
-- fintech
-- financial-services
-- united-kingdom
+- Payroll
+- Fintech
+- Financial-Services
+- United Kingdom
 - master-trust
-- employee-benefits
-- contributions
+- Employee Benefits
+- Contributions
 - papdis
 ---

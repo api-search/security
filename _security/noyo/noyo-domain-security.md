@@ -434,6 +434,6 @@ tags:
 - Benefits Administration
 - Insurance Carriers
 - Data Exchange
-- Webhooks
+- Webhook
 - Health Insurance
 ---

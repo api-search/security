@@ -63,7 +63,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/business-softw
 summary_line: http/oauth2 · 2 schemes
 tags:
 - B2B
-- SaaS
+- Software-as-a-Service
 - Software Reviews
 - Buyer Intent
 - Competitive Intelligence

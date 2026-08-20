@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beem/refs/head
 summary_line: SOC 2, PCI DSS, NIST CSF
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Consumer Finance
 - Cash Advance

@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hera/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Healthcare
-- HealthTech
+- Health Tech
 - Elder Care
 - Care Management
 - Medicare

@@ -29,11 +29,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/score/refs/hea
 summary_line: TLSv1.3
 tags:
 - Platform Engineering
-- Cloud Native
+- Cloud-Native
 - CNCF
 - Workload Specification
 - Kubernetes
 - Docker
 - Developer Experience
-- Open Source
+- Open-Source
 ---

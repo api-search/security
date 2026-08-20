@@ -29,12 +29,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/standard-intel
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
-- Ai
-- AGI
 - Artificial Intelligence
-- Machine Learning
+- AGI
+- Machine-Learning
 - Foundation Models
 - Speech AI
 - Research
-- Open Source
+- Open-Source
 ---

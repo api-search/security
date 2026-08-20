@@ -79,5 +79,5 @@ tags:
 - Embedded Finance
 - Revenue-Based Financing
 - Working Capital
-- eCommerce
+- E-Commerce
 ---

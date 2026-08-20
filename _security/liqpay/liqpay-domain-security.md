@@ -34,7 +34,7 @@ tags:
 - Fintech
 - Ukraine
 - Cards
-- Subscriptions
+- Subscription
 - Invoicing
 - P2P Transfers
 - PrivatBank

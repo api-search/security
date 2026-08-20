@@ -34,6 +34,6 @@ tags:
 - Customer Engagement
 - Transactional Communications
 - Messaging
-- Notifications
-- E-commerce
+- Notification
+- E-Commerce
 ---

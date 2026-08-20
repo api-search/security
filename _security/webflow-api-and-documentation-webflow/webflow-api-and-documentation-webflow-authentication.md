@@ -181,7 +181,7 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - CMS
 - Content Management
-- Ecommerce
+- E-Commerce
 - No-Code
 - Publishing
 - Web Development

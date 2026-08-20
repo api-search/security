@@ -49,12 +49,12 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - LLM
 - Inference
 - Serverless
 - Generative AI
 - Developer Tools
-- OpenAI Compatible
+- OpenAI-Compatible
 - RWKV
 ---

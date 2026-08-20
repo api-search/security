@@ -67,13 +67,13 @@ summary_line: http · 1 scheme
 tags:
 - Accessibility
 - Appium
-- Applications
+- Application
 - Automation
 - CI/CD
 - Cross-Browser Testing
 - Enterprise
 - JavaScript
-- Low Code
+- Low-Code
 - Mobile Testing
 - QA
 - Regression Testing

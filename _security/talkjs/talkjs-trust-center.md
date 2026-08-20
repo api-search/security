@@ -51,8 +51,8 @@ summary_line: ISO 27001, GDPR
 tags:
 - Chat
 - Messaging
-- Communication
+- Communications
 - SDK
-- Webhooks
+- Webhook
 trust_url: https://talkjs.com/security/
 ---

@@ -62,7 +62,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agency-for-tox
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Diseases
-- Federal Government
+- Federal-Government
 - Public Health
 - Toxic Substances
 - Environmental Health

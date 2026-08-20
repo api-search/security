@@ -54,11 +54,11 @@ tags:
 - Network Vendor
 - API Management
 - TM Forum
-- Open API
+- OpenAPI
 - CAMARA
 - Standards
 - Orchestration
 - Monetization
-- Open Source
+- Open-Source
 trust_url: https://www.netcracker.com/portfolio/services/netcracker-cybersecurity
 ---

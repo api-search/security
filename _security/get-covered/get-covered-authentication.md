@@ -25,10 +25,10 @@ summary_line: 0 schemes
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Renters Insurance
 - Property Management
-- Real Estate
+- Real-Estate
 - Compliance
 - Risk Management
 - Embedded Insurance

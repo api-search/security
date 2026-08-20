@@ -33,11 +33,11 @@ tags:
 - Company
 - Financial Forecasting
 - Financial Modeling
-- FinTech
+- Fintech
 - Startups
 - Fundraising
 - CFO Services
 - Budgeting
 - Cash Flow
-- SaaS
+- Software-as-a-Service
 ---

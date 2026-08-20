@@ -44,12 +44,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Physical Ai
+- Physical AI
 - Component Intelligence
 - Electronics
 - Supply Chain
 - Procurement
 - Manufacturing
 - Hardware
-- Bill Of Materials
+- Bill of Materials
 ---

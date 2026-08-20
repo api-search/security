@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sdsa/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Agents
 - Agentic
 - Operating System

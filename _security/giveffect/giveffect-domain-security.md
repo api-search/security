@@ -36,11 +36,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/giveffect/refs
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Nonprofit
+- Non-Profit
 - Fundraising
 - CRM
 - Donations
 - Volunteer Management
 - Marketing Automation
-- SaaS
+- Software-as-a-Service
 ---

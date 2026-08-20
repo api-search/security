@@ -24,7 +24,7 @@ tags:
 - IVF
 - Reproductive Health
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Clinical Decision Support
 - Digital Health
 trust_url: https://www.alifehealth.com/security/

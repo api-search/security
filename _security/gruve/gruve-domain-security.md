@@ -39,5 +39,5 @@ tags:
 - Customer Experience
 - Salesforce
 - Enterprise Services
-- Managed Services
+- Managed Service
 ---

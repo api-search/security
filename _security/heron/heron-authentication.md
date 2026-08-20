@@ -49,11 +49,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heron/refs/hea
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Document Automation
 - Underwriting
 - Lending
-- Cashflow Analytics
+- Cash Flow Analytics
 - Fintech
 - Data Enrichment
 - Bank Statements

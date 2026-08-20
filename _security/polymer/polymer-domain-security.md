@@ -49,5 +49,5 @@ tags:
 - Embedded Analytics
 - Dashboards
 - Data
-- AI
+- Artificial Intelligence
 ---

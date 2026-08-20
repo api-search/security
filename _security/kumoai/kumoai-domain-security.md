@@ -30,13 +30,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kumoai/refs/he
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- Ai
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Predictive Analytics
 - Graph Neural Networks
 - Foundation Models
 - Data Warehouse
-- Model Context Protocol
+- MCP
 - Agents
 - Relational Data
 ---

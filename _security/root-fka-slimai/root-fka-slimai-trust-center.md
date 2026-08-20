@@ -151,7 +151,7 @@ tags:
 - Software Supply Chain
 - CVE
 - SBOM
-- Open Source
+- Open-Source
 - Patching
 trust_url: https://docs.root.io/compliance/trust-center
 ---

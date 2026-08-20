@@ -56,7 +56,7 @@ tags:
 - Autonomous Systems
 - METOC
 - Maritime Domain Awareness
-- Anti Submarine Warfare
+- Anti-Submarine Warfare
 - Defense
 - Climate
 - Oceanography

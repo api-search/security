@@ -37,6 +37,6 @@ tags:
 - AutoML
 - Data Science
 - Distributed Computing
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 ---

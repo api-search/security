@@ -32,6 +32,6 @@ tags:
 - Mail Server
 - MTA
 - SMTP
-- Open Source
+- Open-Source
 - Infrastructure
 ---

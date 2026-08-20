@@ -69,5 +69,5 @@ tags:
 - Distributed Coordination
 - Leader Election
 - Service Discovery
-- Open Source
+- Open-Source
 ---

@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qvc/refs/heads
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Retail
-- Ecommerce
+- E-Commerce
 - Television Shopping
 - Fortune 500
 ---

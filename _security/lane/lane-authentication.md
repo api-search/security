@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lane/refs/head
 summary_line: openIdConnect · 2 schemes
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Commercial Real Estate
 - Property Technology
 - Workplace

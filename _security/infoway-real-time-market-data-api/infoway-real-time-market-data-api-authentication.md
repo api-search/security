@@ -84,10 +84,10 @@ tags:
 - crypto-api
 - commodities-api
 - futures-api
-- market-data
-- real-time-data
-- websocket
-- financial-data
-- fintech
-- historical-data
+- Market Data
+- Real-Time Data
+- WebSocket
+- Financial Data
+- Fintech
+- Historical Data
 ---

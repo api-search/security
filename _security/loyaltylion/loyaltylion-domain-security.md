@@ -79,7 +79,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Loyalty
 - Rewards
-- E-commerce
+- E-Commerce
 - Points
 - Shopify
 - Retention

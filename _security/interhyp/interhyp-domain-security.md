@@ -99,8 +99,8 @@ tags:
 - Mortgage
 - Lending
 - Baufinanzierung
-- Real Estate
+- Real-Estate
 - Banking
 - Germany
-- API First
+- API-First
 ---

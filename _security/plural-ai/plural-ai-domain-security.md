@@ -34,7 +34,7 @@ tags:
 - Private Markets
 - Private Equity
 - Private Debt
-- Financial Services
+- Financial-Services
 - Document Analysis
 - Agents
 - MCP

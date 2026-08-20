@@ -33,7 +33,7 @@ tags:
 - Company
 - Food and Beverage
 - Consumer Packaged Goods
-- Ecommerce
+- E-Commerce
 - Shopify
 - Direct to Consumer
 - MCP

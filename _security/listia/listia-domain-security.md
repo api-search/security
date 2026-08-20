@@ -37,8 +37,8 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Marketplace
-- Ecommerce
-- Peer to Peer
+- E-Commerce
+- Peer-to-Peer
 - Auctions
 - Reuse
 - Secondhand

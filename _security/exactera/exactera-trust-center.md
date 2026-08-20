@@ -24,8 +24,8 @@ tags:
 - Transfer Pricing
 - Tax Compliance
 - Regulatory Compliance
-- Financial Services
+- Financial-Services
 - R&D Tax Credits
-- SaaS
+- Software-as-a-Service
 trust_url: https://exactera.com/trust/
 ---

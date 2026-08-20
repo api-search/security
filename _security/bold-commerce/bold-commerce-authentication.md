@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/
 summary_line: http · 1 scheme
 tags:
 - E-Commerce
-- Subscriptions
+- Subscription
 - Checkout
 - Pricing
 - Headless Commerce

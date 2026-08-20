@@ -77,7 +77,7 @@ tags:
 - Retail
 - Banking
 - ATM
-- Point of Sale
+- Point-of-Sale
 - Commerce
 - Fortune 500
 ---

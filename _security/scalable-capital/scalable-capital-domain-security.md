@@ -35,12 +35,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalable-capit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Neobroker
 - Wealth Management
 - Investing
 - Banking
-- ETF
+- ETFs
 - Robo-Advisory
 ---

@@ -49,7 +49,7 @@ summary_line: openIdConnect/oauth2 · 1 scheme
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Health
 - Incontinence
 - Senior Care

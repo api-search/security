@@ -35,6 +35,6 @@ tags:
 - Internal Communications
 - Video
 - Webinars
-- Events
+- Event
 - Live Streaming
 ---

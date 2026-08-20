@@ -35,8 +35,8 @@ tags:
 - Monetization
 - Mobile
 - SDK
-- Ad Tech
+- AdTech
 - In-Game Ads
 - Rewarded Ads
-- Webhooks
+- Webhook
 ---

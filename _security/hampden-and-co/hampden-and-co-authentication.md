@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: derived\nsource: openapi/hampden-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/authentication/hampden-and-co-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Private Banking
 - Open Banking

@@ -79,6 +79,6 @@ tags:
 - Network Policy
 - Network Security
 - Networking
-- Open Source
+- Open-Source
 - Service Mesh
 ---

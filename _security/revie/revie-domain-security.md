@@ -33,7 +33,7 @@ tags:
 - Reviews
 - WhatsApp
 - Marketing
-- E-commerce
+- E-Commerce
 - Customer Experience
 - Messaging
 - Artificial Intelligence

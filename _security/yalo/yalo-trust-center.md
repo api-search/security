@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yalo/refs/head
 summary_line: ISO/IEC 27001, SOC 2 Type I, SOC 2 Type II
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Conversational Commerce
 - WhatsApp
 - Messaging

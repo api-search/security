@@ -26,7 +26,7 @@ tags:
 - Enterprise Sales
 - Marketing Technology
 - Sales Enablement
-- Model Context Protocol
+- MCP
 - Agent Tooling
 - Demo Analytics
 trust_url: https://trust.reprise.com/

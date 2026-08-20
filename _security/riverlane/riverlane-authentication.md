@@ -42,14 +42,14 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: https://github.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/riverlane/refs/heads/main/authentication/riverlane-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- quantum-computing
-- quantum-error-correction
+- Quantum Computing
+- Quantum Error Correction
 - decoders
-- scientific-computing
-- python-sdk
-- graphql
-- simulation
-- research-tools
-- open-source
-- hpc
+- Scientific Computing
+- Python SDK
+- GraphQL
+- Simulation
+- Research Tools
+- Open-Source
+- HPC
 ---

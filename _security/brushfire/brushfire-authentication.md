@@ -129,9 +129,9 @@ summary_line: apiKey · 1 scheme
 tags:
 - Event Ticketing
 - Registration
-- Events
+- Event
 - Ticketing
-- Check-In
+- Check-in
 - Churches
 - Payments
 ---

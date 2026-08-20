@@ -33,7 +33,7 @@ tags:
 - Company
 - Stock Exchange
 - Capital Markets
-- Financial Services
+- Financial-Services
 - Market Data
 - Trading
 - Securities

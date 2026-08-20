@@ -34,7 +34,7 @@ tags:
 - PropTech
 - Property Management
 - Vacation Rentals
-- Real Estate
+- Real-Estate
 - Multifamily
 - Insurance
 - Payments

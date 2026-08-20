@@ -38,7 +38,7 @@ tags:
 - Analytics
 - Sustainability
 - ESG
-- Real Estate
+- Real-Estate
 - Insurance
 - Banking
 ---

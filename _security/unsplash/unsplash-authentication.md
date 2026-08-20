@@ -85,10 +85,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Photos
-- Images
+- Image
 - Photography
 - Stock Photos
 - Creative
-- Open Source
+- Open-Source
 - Media
 ---

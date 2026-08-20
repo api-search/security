@@ -49,16 +49,16 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - lab-operations
 - laboratory-monitoring
-- iot
-- sensors
-- life-sciences
-- cold-chain
-- environmental-monitoring
+- IoT
+- Sensors
+- Life Sciences
+- Cold Chain
+- Environmental Monitoring
 - equipment-utilization
-- asset-management
-- alerting
-- compliance
-- gxp
-- manufacturing
-- time-series
+- Asset Management
+- Alerting
+- Compliance
+- GxP
+- Manufacturing
+- Time Series
 ---

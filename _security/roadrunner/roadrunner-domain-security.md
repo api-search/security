@@ -35,5 +35,5 @@ tags:
 - Waste Management
 - Recycling
 - Sustainability
-- Managed Services
+- Managed Service
 ---

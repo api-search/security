@@ -173,11 +173,11 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Consumer
-- Images
+- Image
 - Image Processing
 - Video
 - Generative AI
-- Machine Learning
+- Machine-Learning
 - Media
 - Content Creation
 - Developer Tools

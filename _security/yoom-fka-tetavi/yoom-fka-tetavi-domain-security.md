@@ -37,5 +37,5 @@ tags:
 - Unreal Engine
 - VFX
 - Neural Rendering
-- AI
+- Artificial Intelligence
 ---

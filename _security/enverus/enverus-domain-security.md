@@ -65,7 +65,7 @@ tags:
 - Analytics
 - Market Intelligence
 - Well Data
-- SaaS
-- DirectAccess
+- Software-as-a-Service
+- Direct Access
 - Trading and Risk
 ---

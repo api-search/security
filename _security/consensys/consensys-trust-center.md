@@ -26,7 +26,7 @@ tags:
 - Developer Tools
 - JSON-RPC
 - Node Infrastructure
-- Wallet
+- Wallets
 - Layer 2
 trust_url: https://trust.consensys.io/
 ---

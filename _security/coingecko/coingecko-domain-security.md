@@ -189,7 +189,7 @@ tags:
 - Exchanges
 - Liquidity Pools
 - Market Data
-- NFTs
-- Onchain Data
+- NFT
+- On-Chain Data
 - Prices
 ---

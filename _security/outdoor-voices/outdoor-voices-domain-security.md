@@ -33,9 +33,9 @@ tags:
 - Company
 - Consumer
 - Retail
-- Ecommerce
+- E-Commerce
 - Activewear
 - Apparel
-- Direct To Consumer
+- Direct to Consumer
 - Shopify
 ---

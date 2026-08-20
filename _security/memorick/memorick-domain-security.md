@@ -34,6 +34,6 @@ tags:
 - Marketplace
 - Travel
 - Photographers
-- OAuth
+- Authentication
 - Laravel
 ---

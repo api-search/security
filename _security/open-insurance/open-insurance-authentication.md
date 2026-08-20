@@ -94,5 +94,5 @@ tags:
 - Underwriting
 - Policy Administration
 - White Label
-- Quote
+- Quotes
 ---

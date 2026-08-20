@@ -81,6 +81,6 @@ tags:
 - Claims Technology
 - CIECA
 - Partner Gated
-- OAuth
+- Authentication
 - OpenID Connect
 ---

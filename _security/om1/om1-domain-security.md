@@ -35,7 +35,7 @@ tags:
 - Real-World Data
 - Real-World Evidence
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Analytics
 - Life Sciences
 - Clinical Data

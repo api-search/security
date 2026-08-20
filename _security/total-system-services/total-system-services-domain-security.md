@@ -108,6 +108,6 @@ tags:
 - Card Issuing
 - Merchant Services
 - Fintech
-- Financial Services
+- Financial-Services
 - Fortune 1000
 ---

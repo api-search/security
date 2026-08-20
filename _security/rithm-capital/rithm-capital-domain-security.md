@@ -32,8 +32,8 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Alternative Asset Management
 - Asset Management
-- Financial Services
+- Financial-Services
 - Mortgage
-- Real Estate
+- Real-Estate
 - REIT
 ---

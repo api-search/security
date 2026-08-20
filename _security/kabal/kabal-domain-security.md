@@ -35,6 +35,5 @@ tags:
 - Logistics
 - Supply Chain
 - Maritime
-- SaaS
-- Operations
+- Software-as-a-Service
 ---

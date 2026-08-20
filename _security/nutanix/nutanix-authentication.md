@@ -121,7 +121,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/h
 summary_line: http · 1 scheme
 tags:
 - Cloud Management
-- Hyperconverged
+- Hyper-Converged
 - Infrastructure
 - Virtualization
 - Kubernetes

@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Foundation Models
 - Agents
 - Consumer Hardware

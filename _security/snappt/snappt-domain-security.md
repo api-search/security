@@ -91,15 +91,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snappt/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- fraud-detection
-- document-verification
-- identity-verification
-- income-verification
-- property-management
-- multifamily
-- real-estate
-- proptech
-- tenant-screening
-- rental-applications
-- webhooks
+- Fraud Detection
+- Document Verification
+- Identity Verification
+- Income Verification
+- Property Management
+- Multifamily
+- Real-Estate
+- PropTech
+- Tenant Screening
+- Rental Applications
+- Webhook
 ---

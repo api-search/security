@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maxima/refs/he
 summary_line: SOC 1 Type 2, SOC 2 Type 2, ISO 42001
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Accounting
 - Financial Close
 - Fintech

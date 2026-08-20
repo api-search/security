@@ -30,7 +30,7 @@ tags:
 - Mobile App
 - Social Networking
 - Activity Planning
-- Events
+- Event
 - Consumer
 - Thailand
 ---

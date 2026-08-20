@@ -97,13 +97,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superscale/ref
 summary_line: oauth2 · 2 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Marketing
 - Advertising
 - Generative AI
 - Creative
 - AdTech
-- SaaS
+- Software-as-a-Service
 - Agents
 - MCP
 - A2A

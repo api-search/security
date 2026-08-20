@@ -92,6 +92,6 @@ tags:
 - Web Search
 - Proxies
 - AI Agents
-- Model Context Protocol
+- MCP
 trust_url: https://www.nimbleway.com/trust
 ---

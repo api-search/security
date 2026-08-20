@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getcalfresh/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Civic Tech
-- Nonprofit
+- Non-Profit
 - Government
 - Public Benefits
 - SNAP

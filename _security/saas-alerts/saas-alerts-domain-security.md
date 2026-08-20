@@ -59,7 +59,7 @@ tags:
 - SaaS Security
 - Security Monitoring
 - Threat Detection
-- Microsoft 365
+- Microsoft-365
 - Google Workspace
 - MSSP
 ---

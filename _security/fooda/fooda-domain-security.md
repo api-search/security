@@ -34,7 +34,7 @@ tags:
 - Food Service
 - Workplace
 - Catering
-- Restaurants
+- Restaurant
 - Corporate Dining
 - Marketplace
 ---

@@ -79,7 +79,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Logistics
-- Last-Mile Delivery
+- Last Mile Delivery
 - Shipping
 - Southeast Asia
 - Parcels
@@ -87,5 +87,5 @@ tags:
 - Fulfillment
 - E-commerce Logistics
 - Waybill
-- SaaS
+- Software-as-a-Service
 ---

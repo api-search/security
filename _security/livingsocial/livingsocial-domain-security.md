@@ -34,7 +34,7 @@ tags:
 - Consumer
 - Deals
 - Coupons
-- Ecommerce
+- E-Commerce
 - Local
 - Marketplace
 ---

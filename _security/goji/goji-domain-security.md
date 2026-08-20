@@ -49,6 +49,6 @@ tags:
 - Payments
 - ISA
 - Settlement
-- Webhooks
+- Webhook
 - Euroclear
 ---

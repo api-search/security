@@ -65,5 +65,5 @@ tags:
 - Payment Gateway
 - Payment Links
 - Refunds
-- Orders
+- Order
 ---

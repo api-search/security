@@ -262,6 +262,6 @@ tags:
 - Feature Management
 - Progressive Delivery
 - A/B Testing
-- Open Source
+- Open-Source
 - Developer Tools
 ---

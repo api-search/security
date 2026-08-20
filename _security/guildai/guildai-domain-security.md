@@ -33,7 +33,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guildai/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Agents
 - Agent Control Plane
 - Agent Runtime

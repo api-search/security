@@ -31,9 +31,9 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Inventory Management
-- Point of Sale
+- Point-of-Sale
 - Retail
-- eCommerce
+- E-Commerce
 - Reporting
 - Small Business
 - Techstars

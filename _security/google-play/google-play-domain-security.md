@@ -51,10 +51,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-play/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Android
-- Apps
+- Application
 - Google Play
 - In-App Purchases
 - Mobile
 - Publishing
-- Subscriptions
+- Subscription
 ---

@@ -59,5 +59,5 @@ tags:
 - File Format
 - Hadoop
 - Apache
-- Open Source
+- Open-Source
 ---

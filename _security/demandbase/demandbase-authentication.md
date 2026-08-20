@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/_origin
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/authentication/demandbase-authentication.yml
 summary_line: http/oauth2 · 1 scheme
 tags:
-- Account-Based Marketing
+- Account Based Marketing
 - Advertising
 - AI Agents
 - B2B Marketing

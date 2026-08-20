@@ -81,9 +81,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Commerce
 - Cryptocurrency
-- eCommerce
+- E-Commerce
 - Fintech
 - Payments
-- Point Of Sale
+- Point-of-Sale
 - Square
 ---

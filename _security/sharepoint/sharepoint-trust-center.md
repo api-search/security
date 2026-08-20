@@ -70,7 +70,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sharepoint/ref
 summary_line: SOC 1 Type 2, SOC 2 Type 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, ISO 27701, ISO 22301, ISO 9001, FedRAMP High, HIPAA / HITECH, HITRUST CSF, PCI DSS, GDPR, CSA STAR
 tags:
 - Collaboration
-- Document Management
+- Document-Management
 - Enterprise Content Management
 - Intranet
 - Microsoft

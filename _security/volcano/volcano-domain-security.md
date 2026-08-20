@@ -49,10 +49,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/volcano/refs/h
 summary_line: TLSv1.3 · HSTS
 tags:
 - Batch Processing
-- Cloud Native
+- Cloud-Native
 - HPC
 - Incubating
 - Kubernetes
 - Scheduling
-- Machine Learning
+- Machine-Learning
 ---

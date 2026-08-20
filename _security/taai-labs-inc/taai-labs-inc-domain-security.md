@@ -33,7 +33,7 @@ tags:
 - Company
 - Security
 - Application Security
-- AI
+- Artificial Intelligence
 - Secure SDLC
 - DevSecOps
 - Agents

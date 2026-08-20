@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Education
-- STEAM
+- Steam
 - Subscription Boxes
 - E-Commerce
 - Consumer

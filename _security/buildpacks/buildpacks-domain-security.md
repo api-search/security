@@ -37,10 +37,10 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Build Tools
 - CI/CD
-- Cloud Native
+- Cloud-Native
 - CNCF
 - Container Images
 - Containers
 - OCI
-- Open Source
+- Open-Source
 ---

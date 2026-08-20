@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/una-brands/ref
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- eCommerce
+- E-Commerce
 - House of Brands
 - Brand Aggregator
 - Consumer Goods

@@ -89,10 +89,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/classy-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/authentication/classy-org-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Donations
-- Peer to Peer
+- Peer-to-Peer
 - Philanthropy
 - Payments
 - GoFundMe Pro

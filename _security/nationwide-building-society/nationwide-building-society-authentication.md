@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://develop
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/authentication/nationwide-building-society-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 4 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Building Society
 - Open Banking

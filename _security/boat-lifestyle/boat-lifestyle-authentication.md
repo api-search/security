@@ -71,7 +71,7 @@ summary_line: openIdConnect/oauth2 · 2 schemes
 tags:
 - Company
 - Consumer Electronics
-- Ecommerce
+- E-Commerce
 - Retail
 - Audio
 - Wearables

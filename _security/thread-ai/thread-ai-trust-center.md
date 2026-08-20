@@ -22,9 +22,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thread-ai/refs
 summary_line: SOC 2 Type 2, HIPAA, GDPR, CJIS, CMMC 2.0 Level 1
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Orchestration
-- Workflow Automation
+- Workflow-Automation
 - Agents
 - Enterprise
 - Governance

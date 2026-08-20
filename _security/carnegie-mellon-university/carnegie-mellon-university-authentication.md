@@ -1,105 +1,99 @@
 ---
 api_key_in: []
 api_specs:
-- filename: carnegie-mellon-university-altmetric-api-openapi.yml
+- filename: carnegie-mellon-university-delphi-epidata-openapi.yml
   format: yaml
-  label: Carnegie Mellon University altmetric API
-  slug: carnegie-mellon-university-altmetric-api
+  label: Delphi Epidata API
+  slug: delphi-epidata
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-altmetric-api-openapi.yml
-- filename: carnegie-mellon-university-articles-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-delphi-epidata-openapi.yml
+- filename: carnegie-mellon-university-cert-vulnerability-notes-openapi.yml
   format: yaml
-  label: Carnegie Mellon University articles API
-  slug: carnegie-mellon-university-articles-api
+  label: CERT/CC Vulnerability Notes API
+  slug: cert-vulnerability-notes
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-articles-api-openapi.yml
-- filename: carnegie-mellon-university-authors-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-cert-vulnerability-notes-openapi.yml
+- filename: carnegie-mellon-university-library-publishing-openapi.yml
   format: yaml
-  label: Carnegie Mellon University authors API
-  slug: carnegie-mellon-university-authors-api
+  label: CMU Library Publishing Service API + OAI-PMH
+  slug: library-publishing
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-authors-api-openapi.yml
-- filename: carnegie-mellon-university-collections-api-openapi.yml
-  format: yaml
-  label: Carnegie Mellon University collections API
-  slug: carnegie-mellon-university-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-collections-api-openapi.yml
-- filename: carnegie-mellon-university-institutions-api-openapi.yml
-  format: yaml
-  label: Carnegie Mellon University institutions API
-  slug: carnegie-mellon-university-institutions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-institutions-api-openapi.yml
-- filename: carnegie-mellon-university-oauth-api-openapi.yml
-  format: yaml
-  label: Carnegie Mellon University oauth API
-  slug: carnegie-mellon-university-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-oauth-api-openapi.yml
-- filename: carnegie-mellon-university-other-api-openapi.yml
-  format: yaml
-  label: Carnegie Mellon University other API
-  slug: carnegie-mellon-university-other-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-other-api-openapi.yml
-- filename: carnegie-mellon-university-profiles-api-openapi.yml
-  format: yaml
-  label: Carnegie Mellon University profiles API
-  slug: carnegie-mellon-university-profiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-profiles-api-openapi.yml
-- filename: carnegie-mellon-university-projects-api-openapi.yml
-  format: yaml
-  label: Carnegie Mellon University projects API
-  slug: carnegie-mellon-university-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-projects-api-openapi.yml
-- filename: carnegie-mellon-university-symplectic-api-openapi.yml
-  format: yaml
-  label: Carnegie Mellon University symplectic API
-  slug: carnegie-mellon-university-symplectic-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-symplectic-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-library-publishing-openapi.yml
 auth_types:
-- oauth2
+- none
+- saml
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: probed
 name: Carnegie Mellon University Authentication
 name_suffix: Authentication
-oauth_flows:
-- authorizationCode
-overview: Carnegie Mellon University secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+oauth_flows: []
+overview: Carnegie Mellon University secures its APIs with none and saml across 3 declared security schemes, as derived from its OpenAPI definitions.
 provider_name: Carnegie Mellon University
 provider_slug: carnegie-mellon-university
-scheme_count: 1
+scheme_count: 3
 schemes:
-- flows:
-  - authorizationUrl: https://figshare.com/account/applications/authorize
-    flow: authorizationCode
-    scopes: 1
-    tokenUrl: https://api.figshare.com/v2/token
-  name: OAuth2
-  sources:
-  - openapi/carnegie-mellon-university-kilthub-figshare.yaml
-  type: oauth2
+- applies_to: https://api.delphi.cmu.edu/epidata
+  description: The Delphi Epidata API is public, read-only and anonymous. No key, token, header or registration is required; the documentation asks only that heavy users be considerate. Probed 2026-08-19 with no credential on five endpoints, all 200.
+  evidence:
+    content_type: application/json
+    status: 200
+    url: https://api.delphi.cmu.edu/epidata/version
+  name: DelphiEpidataPublic
+  operator: institution
+  type: none
+- applies_to: https://kb.cert.org/vuls/api
+  description: 'The CERT/CC Vulnerability Notes read API requires no credential. Note the failure mode: an unknown identifier returns HTTP 200 with {"error":"Content requested either does not exist or you do not have permissions to view it!"}, which conflates "not found" with "not authorized" — a client cannot distinguish a bad VU number from a permission boundary.'
+  evidence:
+    content_type: application/json
+    status: 200
+    url: https://kb.cert.org/vuls/api/421644/
+  name: CERTVulnerabilityNotesPublic
+  operator: institution
+  type: none
+- additional_evidence:
+  - content_type: application/samlmetadata+xml
+    note: InCommon MDQ returns a signed SAML 2.0 EntityDescriptor for CMU's IdP.
+    status: 200
+    url: https://mdq.incommon.org/entities/https%3A%2F%2Flogin.cmu.edu%2Fidp%2Fshibboleth
+  - note: CMU Computing Services documentation for service-provider onboarding to Web Login.
+    status: 200
+    url: https://www.cmu.edu/computing/services/security/identity-access/authentication/sso-provider.html
+  applies_to: https://login.cmu.edu/idp/shibboleth
+  description: CMU Web Login is the university's campus-wide SAML 2.0 identity provider, running Shibboleth on CMU's own host and IP space (login.cmu.edu resolves to 128.2.42.22, inside CMU's own /16). Its metadata is publicly readable at the canonical /idp/shibboleth location and it is a registered InCommon — and thereby eduGAIN — entity carrying the http://id.incommon.org/category/research-and-scholarship entity category. This is an authentication service for relying service providers, not a data API, and it is the single most unambiguously institution-operated machine-readable surface CMU publishes.
+  evidence:
+    content_type: application/xml
+    detail: Returns an <EntityDescriptor> with entityID="https://login.cmu.edu/idp/shibboleth" and an <mdattr:EntityAttributes> block asserting the InCommon Research & Scholarship category.
+    status: 200
+    url: https://login.cmu.edu/idp/shibboleth
+  name: CMUWebLoginShibboleth
+  operator: institution
+  type: saml
 slug: carnegie-mellon-university-authentication
 source_filename: carnegie-mellon-university-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/carnegie-mellon-university-kilthub-figshare.yaml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://figshare.com/account/applications/authorize\n    tokenUrl: https://api.figshare.com/v2/token\n    scopes: 1\n  sources:\n  - openapi/carnegie-mellon-university-kilthub-figshare.yaml\n"
+source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: >-\n  Live probes on 2026-08-19 of every surface attributed to Carnegie Mellon University, plus\n  openapi/carnegie-mellon-university-delphi-epidata-openapi.yml and\n  openapi/carnegie-mellon-university-cert-vulnerability-notes-openapi.yml. Replaces the\n  2026-06/2026-07 file, which described the figshare OAuth 2.0 model — a vendor's auth scheme\n  recorded as CMU's.\nprovider: Carnegie Mellon University\nproviderId: carnegie-mellon-university\nsummary:\n  types:\n  - none\n  - saml\n  institution_operated_public_apis_requiring_no_auth: 2\n  oauth_surfaces_operated_by_the_institution: 0\nschemes:\n- name: DelphiEpidataPublic\n  type: none\n  operator: institution\n  applies_to: https://api.delphi.cmu.edu/epidata\n  description: >-\n    The Delphi Epidata API is public, read-only and anonymous. No key, token, header or\n    registration is required; the documentation asks only that heavy users be considerate.\n    Probed 2026-08-19\
+  \ with no credential on five endpoints, all 200.\n  evidence:\n    url: https://api.delphi.cmu.edu/epidata/version\n    status: 200\n    content_type: application/json\n- name: CERTVulnerabilityNotesPublic\n  type: none\n  operator: institution\n  applies_to: https://kb.cert.org/vuls/api\n  description: >-\n    The CERT/CC Vulnerability Notes read API requires no credential. Note the failure mode: an\n    unknown identifier returns HTTP 200 with\n    {\"error\":\"Content requested either does not exist or you do not have permissions to view it!\"},\n    which conflates \"not found\" with \"not authorized\" — a client cannot distinguish a bad VU\n    number from a permission boundary.\n  evidence:\n    url: https://kb.cert.org/vuls/api/421644/\n    status: 200\n    content_type: application/json\n- name: CMUWebLoginShibboleth\n  type: saml\n  operator: institution\n  applies_to: https://login.cmu.edu/idp/shibboleth\n  description: >-\n    CMU Web Login is the university's campus-wide SAML\
+  \ 2.0 identity provider, running Shibboleth\n    on CMU's own host and IP space (login.cmu.edu resolves to 128.2.42.22, inside CMU's own\n    /16). Its metadata is publicly readable at the canonical /idp/shibboleth location and it is\n    a registered InCommon — and thereby eduGAIN — entity carrying the\n    http://id.incommon.org/category/research-and-scholarship entity category. This is an\n    authentication service for relying service providers, not a data API, and it is the single\n    most unambiguously institution-operated machine-readable surface CMU publishes.\n  evidence:\n    url: https://login.cmu.edu/idp/shibboleth\n    status: 200\n    content_type: application/xml\n    detail: >-\n      Returns an <EntityDescriptor> with entityID=\"https://login.cmu.edu/idp/shibboleth\" and an\n      <mdattr:EntityAttributes> block asserting the InCommon Research & Scholarship category.\n  additional_evidence:\n  - url: https://mdq.incommon.org/entities/https%3A%2F%2Flogin.cmu.edu%2Fidp%2Fshibboleth\n\
+  \    status: 200\n    content_type: application/samlmetadata+xml\n    note: InCommon MDQ returns a signed SAML 2.0 EntityDescriptor for CMU's IdP.\n  - url: https://www.cmu.edu/computing/services/security/identity-access/authentication/sso-provider.html\n    status: 200\n    note: CMU Computing Services documentation for service-provider onboarding to Web Login.\nnot_operated_by_the_institution:\n- name: figshare OAuth 2.0\n  operator: vendor\n  applies_to: https://api.figshare.com/v2\n  detail: >-\n    The 2026-06 profile recorded figshare's OAuth 2.0 authorization-code and personal-token\n    schemes as Carnegie Mellon's authentication model. They are figshare's. KiltHub\n    (kilthub.cmu.edu) is CMU's tenancy on that platform — kilthub.cmu.edu is a CNAME to\n    FIGSHARE.COM — so the data is CMU's and the auth model is not. Removed 2026-08-19.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/authentication/carnegie-mellon-university-authentication.yml
-summary_line: oauth2 · 1 scheme
+summary_line: none/saml · 3 schemes
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - United States
+- Private Research University
 - Research
 - Epidemiology
-- Open Data
-- Library
+- Public Health
+- Cybersecurity
+- Vulnerability Disclosure
+- Scholarly Publishing
 - Institutional Repository
+- Identity Federation
+- Open Access
+- Open Data
 ---

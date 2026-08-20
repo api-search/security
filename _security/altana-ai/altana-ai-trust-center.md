@@ -26,7 +26,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/altana-ai/refs
 summary_line: FedRAMP High, SOC 2, ISO/IEC 27001, IRAP, IC C2E, ACSC Essential Eight, Cyber Essentials, Cyber Essentials Plus
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Supply Chain
 - Trade Compliance
 - Supply Chain Intelligence

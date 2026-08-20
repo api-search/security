@@ -97,7 +97,7 @@ tags:
 - Inventory
 - Workforce
 - Payroll
-- Point of Sale
+- Point-of-Sale
 - Artificial Intelligence
 - Food and Beverage
 ---

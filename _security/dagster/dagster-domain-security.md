@@ -63,7 +63,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Engineering
 - Data Orchestration
-- Data Pipelines
+- Data Pipeline
 - ETL
 - Workflows
 - Assets

@@ -166,8 +166,8 @@ tags:
 - Online Store
 - Retail
 - Payments
-- Webhooks
+- Webhook
 - REST API
-- Apps
+- Application
 - Developer Platform
 ---

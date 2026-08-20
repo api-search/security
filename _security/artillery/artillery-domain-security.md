@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Load Testing
 - Performance Testing
-- Open Source
+- Open-Source
 - Testing
 - DevOps
 - Node.js

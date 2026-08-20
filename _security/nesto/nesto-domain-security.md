@@ -46,13 +46,13 @@ source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nesto/refs/heads/main/security/nesto-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Mortgage
 - Lending
 - PropTech
 - Mortgage Technology
-- Financial Services
+- Financial-Services
 - Underwriting
 - Loan Servicing
 ---

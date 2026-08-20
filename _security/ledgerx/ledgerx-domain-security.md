@@ -55,7 +55,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Enterprise
-- Financial Services
+- Financial-Services
 - Derivatives
 - Trading
 - Cryptocurrency

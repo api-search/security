@@ -33,8 +33,8 @@ tags:
 - Company
 - Cloud
 - Financial Planning
-- FinTech
-- SaaS
+- Fintech
+- Software-as-a-Service
 - Startups
 - Acquired
 - Forecasting

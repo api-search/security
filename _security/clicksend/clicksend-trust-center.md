@@ -87,7 +87,6 @@ tags:
 - MMS
 - Voice
 - Email
-- Post
 - Messaging
 - CPaaS
 trust_url: https://trust.sinch.com:443/?product=clicksend

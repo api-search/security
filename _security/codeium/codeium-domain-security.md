@@ -33,7 +33,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codeium/refs/heads/main/security/codeium-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Code Completion
 - IDE

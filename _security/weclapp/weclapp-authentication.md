@@ -82,5 +82,5 @@ tags:
 - Germany
 - Order Management
 - Business Software
-- SaaS
+- Software-as-a-Service
 ---

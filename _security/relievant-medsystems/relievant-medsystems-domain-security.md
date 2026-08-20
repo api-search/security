@@ -45,7 +45,7 @@ tags:
 - Company
 - Medical Devices
 - Healthcare
-- Medtech
+- MedTech
 - Pain Management
 - Spine
 - Neuromodulation

@@ -37,5 +37,5 @@ tags:
 - Supply Chain
 - Logistics
 - Warehouse
-- AI
+- Artificial Intelligence
 ---

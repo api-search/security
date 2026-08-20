@@ -80,11 +80,11 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Video
-- Real Time
+- Real-Time
 - Streaming
-- Machine Learning
+- Machine-Learning
 - Vision Language Models
 - Inference
 - Developer Tools

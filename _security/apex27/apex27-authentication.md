@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: derived\nsource: openapi/apex27-c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/authentication/apex27-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Property Listings

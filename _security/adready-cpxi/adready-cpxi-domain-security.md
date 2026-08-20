@@ -54,6 +54,6 @@ tags:
 - Attribution
 - Connected TV
 - Ad Operations
-- Measurement
+- Measurements
 - Agencies
 ---

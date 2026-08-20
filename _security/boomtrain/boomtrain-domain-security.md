@@ -33,7 +33,7 @@ tags:
 - Company
 - Marketing
 - Personalization
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Email
 - Customer Engagement

@@ -46,14 +46,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kive/refs/head
 summary_line: oauth2 · 1 scheme
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Artificial Intelligence
 - Generative AI
 - Creative
 - Product Photography
 - Digital Asset Management
 - E-Commerce
-- Images
+- Image
 - Video
 - MCP
 ---

@@ -129,7 +129,7 @@ tags:
 - Commerce Media
 - Card-Linked Offers
 - Purchase Intelligence
-- Financial Services
+- Financial-Services
 - Loyalty and Rewards
 - Marketing
 - Banking

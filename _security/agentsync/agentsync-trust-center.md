@@ -19,12 +19,12 @@ summary_line: SOC 2
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Compliance
 - Producer Management
 - Licensing
 - NIPR
 - REST
-- OAuth2
+- Authentication
 trust_url: https://trust.agentsync.io/
 ---

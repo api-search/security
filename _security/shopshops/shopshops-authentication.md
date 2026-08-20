@@ -60,7 +60,7 @@ summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company
 - Commerce
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Live Shopping
 - Luxury Resale

@@ -23,7 +23,7 @@ summary_line: SOC 2, ISO 27001, PCI DSS, GDPR, CSA STAR
 tags:
 - Company
 - Automation
-- Events
+- Event
 - Meetings
 - Scheduling
 - Event Marketing

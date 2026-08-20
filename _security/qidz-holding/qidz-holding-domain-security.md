@@ -30,7 +30,7 @@ summary_line: TLSv1.2
 tags:
 - Company
 - Family Activities
-- Events
+- Event
 - Booking
 - Entertainment
 - Mobile App

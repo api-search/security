@@ -117,13 +117,13 @@ tags:
 - Attendees
 - Collaboration
 - Communications
-- Events
+- Event
 - Meetings
 - Registrants
 - Sessions
 - Surveys
 - Video Conferencing
 - Virtual Events
-- Webhooks
+- Webhook
 - Webinars
 ---

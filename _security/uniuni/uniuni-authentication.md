@@ -86,8 +86,8 @@ tags:
 - Company
 - Logistics
 - Shipping
-- Last-Mile Delivery
-- Ecommerce
+- Last Mile Delivery
+- E-Commerce
 - Tracking
 - Delivery
 ---

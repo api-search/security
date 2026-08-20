@@ -162,7 +162,7 @@ tags:
 - Document Processing
 - Workflow Orchestration
 - Automation
-- Human In The Loop
+- Human-in-the-Loop
 - Artificial Intelligence
 - REST API
 ---

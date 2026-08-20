@@ -68,7 +68,7 @@ tags:
 - Apache
 - Distributed Systems
 - Log Storage
-- Open Source
+- Open-Source
 - Storage
 - Streaming
 ---

@@ -58,6 +58,6 @@ tags:
 - Preprints
 - Open Access
 - Research
-- Open Source
+- Open-Source
 - Public APIs
 ---

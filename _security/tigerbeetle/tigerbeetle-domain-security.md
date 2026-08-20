@@ -38,12 +38,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Financial
 - Accounting
-- Transactions
+- Transaction
 - Database
 - Double-Entry
 - Ledger
 - OLTP
 - Distributed
-- Open Source
+- Open-Source
 - Binary Protocol
 ---

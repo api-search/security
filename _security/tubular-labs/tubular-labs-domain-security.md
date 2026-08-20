@@ -32,12 +32,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Video
-- Social Media
+- Social-Media
 - Analytics
 - Intelligence
 - Creators
 - Influencer
 - Media
 - Audience
-- Measurement
+- Measurements
 ---

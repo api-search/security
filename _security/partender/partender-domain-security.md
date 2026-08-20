@@ -32,9 +32,9 @@ tags:
 - Company
 - Bar Inventory
 - Hospitality
-- Restaurants
+- Restaurant
 - Inventory Management
 - Beverage
-- Point of Sale
+- Point-of-Sale
 - Ordering
 ---

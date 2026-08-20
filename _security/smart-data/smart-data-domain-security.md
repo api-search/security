@@ -54,7 +54,7 @@ tags:
 - Point Cloud
 - 3D Visualization
 - Gaussian Splatting
-- Computer Vision
+- Computer-Vision
 - Infrastructure
 - Utilities
 - Mining

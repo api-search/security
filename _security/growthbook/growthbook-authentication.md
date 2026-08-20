@@ -267,7 +267,7 @@ summary_line: http · 2 schemes
 tags:
 - Feature Flags
 - Experimentation
-- Open Source
-- AB Testing
+- Open-Source
+- A/B Testing
 - Analytics
 ---

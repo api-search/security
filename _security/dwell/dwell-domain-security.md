@@ -35,5 +35,5 @@ tags:
 - Home Design
 - Architecture
 - Interior Design
-- Real Estate
+- Real-Estate
 ---

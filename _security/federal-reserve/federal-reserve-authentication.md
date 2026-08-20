@@ -79,6 +79,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-reserv
 summary_line: apiKey · 1 scheme
 tags:
 - Economics
-- Federal Government
+- Federal-Government
 - Finance
 ---

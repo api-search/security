@@ -33,7 +33,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Banking
-- Financial Services
+- Financial-Services
 - Compliance
 - Financial Crime
 - RegTech

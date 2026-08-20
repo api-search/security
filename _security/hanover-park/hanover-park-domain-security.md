@@ -41,7 +41,7 @@ tags:
 - Venture Capital
 - Fintech
 - Financial Operations
-- AI
+- Artificial Intelligence
 - ERP
 - Back Office
 ---

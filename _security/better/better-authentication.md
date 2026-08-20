@@ -56,8 +56,8 @@ tags:
 - Mortgage
 - Lending
 - Fintech
-- Real Estate
+- Real-Estate
 - Home Equity
 - Insurance
-- Financial Services
+- Financial-Services
 ---

@@ -36,12 +36,12 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Food
-- Restaurants
+- Restaurant
 - Meal Delivery
-- Ecommerce
+- E-Commerce
 - Agentic Commerce
 - Shopify
 - Social Enterprise
 - Nutrition
-- Subscriptions
+- Subscription
 ---

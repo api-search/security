@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-galle
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Art
-- Federal Government
+- Federal-Government
 - Museum
 - Open Data
 - Cultural Heritage

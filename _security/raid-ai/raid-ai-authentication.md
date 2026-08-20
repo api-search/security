@@ -64,7 +64,7 @@ tags:
 - Voice / Audio Detection
 - Image Forensics
 - Document Forensics
-- Fact-Checking
-- Trust & Safety
+- Fact Checking
+- Trust and Safety
 - Security
 ---

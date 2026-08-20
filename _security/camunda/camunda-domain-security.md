@@ -106,5 +106,5 @@ tags:
 - BPMN
 - Business Process Management
 - Process Automation
-- Workflow
+- Workflows
 ---

@@ -33,7 +33,7 @@ tags:
 - Company
 - Immigration
 - Legal
-- LegalTech
+- Legal Tech
 - Visas
 - Global Mobility
 - Compliance

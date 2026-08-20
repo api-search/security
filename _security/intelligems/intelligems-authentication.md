@@ -93,7 +93,7 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company
 - A/B Testing
-- Ecommerce
+- E-Commerce
 - Pricing
 - Personalization
 - Conversion Rate Optimization
@@ -101,6 +101,6 @@ tags:
 - Analytics
 - Experimentation
 - MCP
-- Webhooks
+- Webhook
 - Profit Optimization
 ---

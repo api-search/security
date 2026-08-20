@@ -44,5 +44,5 @@ tags:
 - Investor Onboarding
 - Fund Subscription
 - Data Room
-- FinTech
+- Fintech
 ---

@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nationstar-mor
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Mortgage
-- Financial Services
+- Financial-Services
 - Loan Servicing
 - Fortune 1000
 ---

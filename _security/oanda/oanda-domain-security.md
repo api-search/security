@@ -76,6 +76,6 @@ tags:
 - Forex
 - FX Trading
 - CFD Trading
-- Financial Services
+- Financial-Services
 - Trading APIs
 ---

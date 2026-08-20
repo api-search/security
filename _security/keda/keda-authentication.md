@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/keda-met
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keda/refs/heads/main/authentication/keda-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- Autoscaling
+- Auto-Scaling
 - CNCF
 - Event-Driven
 - Graduated

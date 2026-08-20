@@ -99,12 +99,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Vector Database
-- Multimodal
+- Multi-Modal
 - Lance Format
 - Lakehouse
 - RAG
 - Agent Memory
-- Open Source
+- Open-Source
 - Embeddings
 - Full-Text Search
 - Hybrid Search

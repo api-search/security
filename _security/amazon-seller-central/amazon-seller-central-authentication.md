@@ -103,13 +103,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-s
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/authentication/amazon-seller-central-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- eCommerce
+- E-Commerce
 - Marketplace
 - Selling Partner
 - Amazon
 - Seller Central
 - Catalog
-- Orders
+- Order
 - Inventory
 - Fulfillment
 ---

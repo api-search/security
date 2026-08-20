@@ -53,5 +53,5 @@ tags:
 - Memberships
 - License Keys
 - Affiliates
-- E-commerce
+- E-Commerce
 ---

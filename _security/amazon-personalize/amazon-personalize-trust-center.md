@@ -28,9 +28,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-personalize/refs/heads/main/security/amazon-personalize-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
-- AI
+- Artificial Intelligence
 - Customer Experience
-- Machine Learning
+- Machine-Learning
 - ML
 - Personalization
 - Recommendations

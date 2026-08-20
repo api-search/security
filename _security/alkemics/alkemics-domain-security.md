@@ -39,7 +39,7 @@ tags:
 - Product Information Management
 - CPG
 - Retail
-- Ecommerce
+- E-Commerce
 - Data Syndication
 - Acquired
 ---

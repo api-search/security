@@ -104,5 +104,5 @@ tags:
 - Business Phone
 - CPaaS
 - Contact Center
-- Webhooks
+- Webhook
 ---

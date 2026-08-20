@@ -33,7 +33,7 @@ tags:
 - Film Distribution
 - Streaming
 - Cinema
-- Events
+- Event
 - Entertainment
 - Media
 - Independent Film

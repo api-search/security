@@ -212,10 +212,10 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Coding Agents
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Collaboration
 - Agentic Workflow
-- Model Context Protocol
+- MCP
 - Software Design
 ---

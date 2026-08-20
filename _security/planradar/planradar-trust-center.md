@@ -237,13 +237,13 @@ summary_line: ISO 27001, GDPR
 tags:
 - Company
 - Construction
-- Real Estate
+- Real-Estate
 - Project Management
 - Documentation
 - Defect Management
 - Field Service
 - Facility Management
 - BIM
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.planradar.com/data-security-and-privacy-at-planradar/
 ---

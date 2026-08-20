@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Body Measurement
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Sizing
 - Retail

@@ -72,7 +72,7 @@ tags:
 - MCP
 - LLM
 - Agent-to-Agent
-- Open Source
+- Open-Source
 - CNCF
 - Observability
 - Security

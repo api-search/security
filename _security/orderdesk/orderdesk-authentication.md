@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/orderdes
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/authentication/orderdesk-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Ecommerce
+- E-Commerce
 - Order Management
 - Fulfillment
 - Dropshipping

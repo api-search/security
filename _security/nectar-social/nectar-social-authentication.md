@@ -58,8 +58,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nectar-social/
 summary_line: oauth2 · 1 scheme
 tags:
 - Company
-- AI
-- Social Media
+- Artificial Intelligence
+- Social-Media
 - Community Management
 - Social Listening
 - Influencer Marketing
@@ -67,5 +67,5 @@ tags:
 - Social Commerce
 - MCP
 - Agents
-- OAuth
+- Authentication
 ---

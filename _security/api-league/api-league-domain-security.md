@@ -35,6 +35,6 @@ tags:
 - Food
 - Humor
 - News
-- SDKs
+- SDK
 - Text Processing
 ---

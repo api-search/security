@@ -110,7 +110,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Communications
 - Voice
-- AI
+- Artificial Intelligence
 - Contact Center
 - UCaaS
 ---

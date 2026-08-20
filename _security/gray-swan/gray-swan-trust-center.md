@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gray-swan/refs
 summary_line: SOC 2 Type 2, Cyber Essentials
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Security
 - LLM Security
 - Guardrails

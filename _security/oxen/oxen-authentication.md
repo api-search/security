@@ -147,7 +147,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Data Version Control
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Fine-Tuning
 - Inference

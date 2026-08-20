@@ -81,11 +81,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fal-mode
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/authentication/fal-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
 - Artificial Intelligence
 - Generative AI
 - Generative Media
-- Image Generation
+- Image-Generation
 - Video Generation
 - Audio Generation
 - Inference

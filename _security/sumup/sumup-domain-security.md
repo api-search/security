@@ -102,8 +102,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
-- POS
-- Point of Sale
+- Point-of-Sale
 - Card Readers
 - Checkout
 - Fintech

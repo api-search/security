@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Customer Intelligence
-- Ecommerce
+- E-Commerce
 - Shopify
 - Marketing
 - Customer Data Platform

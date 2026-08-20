@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/donorbox
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/authentication/donorbox-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Donations
 - Payments

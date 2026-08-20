@@ -74,7 +74,7 @@ tags:
 - Single Sign-On
 - SSO
 - Multi-Factor Authentication
-- OAuth
+- Authentication
 - Zero Trust
 trust_url: https://trust.cyberark.com/
 ---

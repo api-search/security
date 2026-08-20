@@ -33,7 +33,7 @@ tags:
 - Frontier Tech
 - Defense Technology
 - Night Vision
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Imaging
 - Edge AI

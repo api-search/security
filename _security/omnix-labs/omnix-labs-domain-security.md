@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Machine Vision
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Video Analytics
 - Car Wash

@@ -39,5 +39,5 @@ tags:
 - Lien Waivers
 - Compliance
 - Construction Fintech
-- SaaS
+- Software-as-a-Service
 ---

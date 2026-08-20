@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vela-labs/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- eCommerce
+- E-Commerce
 - Sellers
 - Listings
 - Bulk Editing

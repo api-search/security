@@ -50,7 +50,7 @@ tags:
 - Document Generation
 - PDF
 - Templates
-- Open Source
+- Open-Source
 - Office
 - DOCX
 - XLSX

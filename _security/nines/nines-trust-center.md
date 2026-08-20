@@ -23,7 +23,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nines/refs/hea
 summary_line: SOC 2 Type II, HIPAA, FDA Class I, ISO 13485, EU MDR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Radiology
 - Medical Imaging
 - Healthcare

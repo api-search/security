@@ -30,7 +30,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flapping-airpl
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - Data Efficiency
 - Frontier AI

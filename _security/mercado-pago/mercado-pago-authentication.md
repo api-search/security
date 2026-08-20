@@ -149,12 +149,12 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Payments
 - Checkout
-- Subscriptions
-- POS
+- Subscription
+- Point-of-Sale
 - QR
-- PIX
-- SDKs
-- Wallet
+- Pix
+- SDK
+- Wallets
 - Acquiring
 - Lending
 - Issuing

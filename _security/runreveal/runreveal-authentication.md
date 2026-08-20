@@ -61,5 +61,5 @@ tags:
 - Observability
 - SQL
 - MCP
-- AI
+- Artificial Intelligence
 ---

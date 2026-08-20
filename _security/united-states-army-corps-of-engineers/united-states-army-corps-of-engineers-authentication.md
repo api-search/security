@@ -90,7 +90,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-states-
 summary_line: http · 1 scheme
 tags:
 - Engineering
-- Federal Government
+- Federal-Government
 - Water Resources
 - Hydrology
 - Civil Engineering

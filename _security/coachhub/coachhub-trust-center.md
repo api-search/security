@@ -27,9 +27,9 @@ tags:
 - Company
 - Ai Enterprise Software
 - Digital Coaching
-- Learning And Development
+- Learning and Development
 - HR Tech
 - Employee Development
-- SaaS
+- Software-as-a-Service
 trust_url: https://trustcenter.coachhub.com/
 ---

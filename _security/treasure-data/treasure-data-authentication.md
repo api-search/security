@@ -229,7 +229,7 @@ tags:
 - Hive
 - Presto
 - Enterprise
-- AI
+- Artificial Intelligence
 - Marketing
 - Analytics
 ---

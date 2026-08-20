@@ -56,6 +56,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-commun
 summary_line: apiKey · 1 scheme
 tags:
 - Communications
-- Federal Government
+- Federal-Government
 - Open Data
 ---

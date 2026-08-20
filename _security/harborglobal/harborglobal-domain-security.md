@@ -36,7 +36,7 @@ tags:
 - Consulting
 - Professional Services
 - Legal
-- Managed Services
+- Managed Service
 - Vendor Governance
 - Artificial Intelligence
 ---

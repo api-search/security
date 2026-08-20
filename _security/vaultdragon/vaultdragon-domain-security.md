@@ -34,7 +34,7 @@ tags:
 - Electronic Health Records
 - Clinic Management
 - Laboratory Information System
-- SaaS
+- Software-as-a-Service
 - Singapore
 - Health IT
 ---

@@ -91,8 +91,8 @@ summary_line: http · 1 scheme
 tags:
 - Payments
 - Payment Processing
-- eCommerce
+- E-Commerce
 - Finance
-- FinTech
+- Fintech
 - Fortune 1000
 ---

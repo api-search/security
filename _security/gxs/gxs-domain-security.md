@@ -27,5 +27,4 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gxs/refs/heads
 summary_line: DMARC
 tags:
 - Company
-- Unknown
 ---

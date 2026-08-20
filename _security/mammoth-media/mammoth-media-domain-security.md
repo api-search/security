@@ -52,7 +52,7 @@ tags:
 - Trading
 - Copy Trading
 - Fintech
-- Webhooks
+- Webhook
 - MCP
 - Developer Tools
 - CLI

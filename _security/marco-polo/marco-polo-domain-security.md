@@ -32,11 +32,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - Enterprise AI
 - Data Governance
 - AI Agents
 - Data Integration
 - Security
-- OAuth
+- Authentication
 ---

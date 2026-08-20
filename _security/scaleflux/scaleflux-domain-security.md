@@ -37,6 +37,6 @@ tags:
 - NVMe
 - SSD
 - CXL
-- Data Center
+- Data-Center
 - Infrastructure
 ---

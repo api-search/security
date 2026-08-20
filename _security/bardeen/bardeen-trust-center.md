@@ -19,6 +19,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bardeen/refs/h
 summary_line: SOC 2, GDPR
 tags:
 - AI Automation
-- Workflow Automation
+- Workflow-Automation
 trust_url: https://www.bardeen.ai/security
 ---

@@ -110,8 +110,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - LLM Gateway
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 - Model Routing
 - Evaluations
 - Fine-Tuning

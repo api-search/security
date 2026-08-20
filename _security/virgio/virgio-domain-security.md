@@ -39,7 +39,7 @@ tags:
 - Marketplaces
 - Fashion
 - Retail
-- E-commerce
+- E-Commerce
 - Sustainable Fashion
 - India
 ---

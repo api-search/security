@@ -25,6 +25,12 @@ api_specs:
   slug: virtuosis-voice-biomarker-api-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/openapi/virtuosis-voice-biomarker-api-usage-api-openapi.yml
+- filename: api-reference.yaml
+  format: yaml
+  label: Virtuosis Voice Biomarker API
+  slug: virtuosis-voice-biomarker-api
+  spec_type: OpenAPI
+  url: https://docs.virtuosis.ai/openapi/api-reference.yaml
 auth_types:
 - http
 description: ''
@@ -61,16 +67,18 @@ source_yaml: "generated: '2026-08-18'\nmethod: searched\nsource: https://docs.vi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/authentication/virtuosis-voice-biomarker-api-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- digital health
+- Digital Health
 - voice biomarkers
 - speech analysis
 - acoustic analysis
-- medical device
-- mental health
-- wellbeing
+- Medical Device
+- Mental Health
+- Wellbeing
 - neurodegenerative screening
-- telehealth
-- remote monitoring
+- Telehealth
+- Remote Monitoring
 - communication coaching
-- clinical research
+- Clinical Research
+- Health AI
+- Clinical Decision Support
 ---

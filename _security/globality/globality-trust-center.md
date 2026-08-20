@@ -26,6 +26,6 @@ tags:
 - Sourcing
 - Spend Management
 - Artificial Intelligence
-- Webhooks
+- Webhook
 trust_url: https://www.globality.com/security-trust/
 ---

@@ -63,9 +63,9 @@ summary_line: apiKey · 1 scheme
 tags:
 - Embedded Integrations
 - Integration Platform
-- Integrations
+- Integration
 - iPaaS
 - Marketplace
-- SaaS
-- Workflow Automation
+- Software-as-a-Service
+- Workflow-Automation
 ---

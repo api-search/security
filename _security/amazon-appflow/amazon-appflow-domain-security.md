@@ -63,10 +63,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Connectors
-- Data Flow
+- Dataflows
 - Data Integration
 - ETL
 - Integration
-- SaaS
+- Software-as-a-Service
 - Data Transfer
 ---

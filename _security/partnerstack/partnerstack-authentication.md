@@ -65,6 +65,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/partnerstack/r
 summary_line: http · 2 schemes
 tags:
 - Partnerships
-- Affiliate
-- SaaS
+- Affiliates
+- Software-as-a-Service
 ---

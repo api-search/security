@@ -52,14 +52,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bandsintown/refs/heads/main/security/bandsintown-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- concerts
-- live music
-- events
-- artists
-- venues
-- music discovery
+- Concerts
+- Live Music
+- Event
+- Artists
+- Venues
+- Music Discovery
 - tour dates
-- tickets
+- Tickets
 - fan notifications
-- entertainment
+- Entertainment
 ---

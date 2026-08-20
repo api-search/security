@@ -209,6 +209,5 @@ tags:
 - Infrastructure as Code
 - Cloud
 - Continuous Compliance
-- Node Management
 trust_url: https://www.progress.com/trust-center
 ---

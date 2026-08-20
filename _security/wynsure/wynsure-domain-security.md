@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wynsure/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Insurance
-- InsurTech
+- Insurtech
 - Policy Administration
 - Claims Management
 - Billing
@@ -45,5 +45,5 @@ tags:
 - Group Benefits
 - Voluntary Benefits
 - Brokers
-- Financial Services
+- Financial-Services
 ---

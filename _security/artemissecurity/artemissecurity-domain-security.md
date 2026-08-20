@@ -35,7 +35,7 @@ tags:
 - Threat Detection
 - Security Operations
 - SIEM
-- AI
+- Artificial Intelligence
 - SOC
 - Cloud Security
 ---

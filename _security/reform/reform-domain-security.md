@@ -36,9 +36,9 @@ tags:
 - Form Builder
 - Lead Generation
 - Headless Forms
-- Webhooks
+- Webhook
 - No-Code
-- Integrations
+- Integration
 - CRM
 - Conversion Rate Optimization
 - Embeddable Components

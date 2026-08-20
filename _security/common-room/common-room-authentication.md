@@ -166,7 +166,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/common-room/re
 summary_line: 0 schemes
 tags:
 - Community Intelligence
-- Go-to-Market
+- Go-To-Market
 - Member Signals
 - GitHub
 - Slack
@@ -174,7 +174,7 @@ tags:
 - LinkedIn
 - Sales Intelligence
 - Contact Management
-- Webhooks
+- Webhook
 - Buyer Intelligence
 - MCP
 - Agent Tooling

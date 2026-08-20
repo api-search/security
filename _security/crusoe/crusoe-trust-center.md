@@ -389,15 +389,15 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nprobe: false\nsource: h
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/security/crusoe-trust-center.yml
 summary_line: SOC 2 Type II, SOC 2 Type I, ISO 27001, ISO 42001, GDPR
 tags:
-- ai-infrastructure
-- cloud-computing
-- gpu-compute
-- machine-learning
-- inference
-- kubernetes
-- object-storage
-- infrastructure-as-a-service
-- energy
-- mcp
+- AI Infrastructure
+- Cloud Computing
+- GPU Compute
+- Machine-Learning
+- Inference
+- Kubernetes
+- Object Storage
+- Infrastructure-as-a-Service
+- Energy
+- MCP
 trust_url: https://trust.crusoe.ai/
 ---

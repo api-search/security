@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cast-ai-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/authentication/cast-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Autoscaling
+- Auto-Scaling
 - Cloud Infrastructure
 - Cost Optimization
 - DevOps

@@ -33,7 +33,7 @@ tags:
 - Company
 - Recommerce
 - Resale
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Sustainability
 - Shopify

@@ -97,7 +97,7 @@ tags:
 - Payment Gateway
 - Africa
 - Nigeria
-- Collections
+- Collection
 - Payouts
 - Disbursements
 - Virtual Bank Account

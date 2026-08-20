@@ -34,7 +34,6 @@ tags:
 - AI Browser
 - Browser Agent
 - Automation
-- Model Context Protocol
 - MCP
 - CLI
 - Password Manager

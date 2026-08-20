@@ -33,7 +33,7 @@ tags:
 - Company
 - Packaging
 - Custom Packaging
-- E-commerce
+- E-Commerce
 - Fulfillment
 - Logistics
 - Procurement

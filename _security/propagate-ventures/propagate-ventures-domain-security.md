@@ -36,6 +36,6 @@ tags:
 - Regenerative Agriculture
 - Climate
 - Farm Software
-- SaaS
+- Software-as-a-Service
 - Sustainability
 ---

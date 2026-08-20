@@ -35,7 +35,7 @@ tags:
 - Commercial
 - Leasing
 - Property Management
-- Real Estate
+- Real-Estate
 - Residential
 - Yardi
 ---

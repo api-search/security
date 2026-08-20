@@ -30,13 +30,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mosaic-ml/refs
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Generative AI
 - Large Language Models
 - Model Training
 - Deep Learning
 - MLOps
-- Open Source
+- Open-Source
 - PyTorch
 ---

@@ -58,5 +58,5 @@ tags:
 - Moderation
 - Identity
 - SSO
-- Webhooks
+- Webhook
 ---

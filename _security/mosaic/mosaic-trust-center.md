@@ -27,6 +27,6 @@ tags:
 - Field Marketing
 - Retail Merchandising
 - Integrated Commerce
-- Events
+- Event
 trust_url: https://www.acosta.group/security/
 ---

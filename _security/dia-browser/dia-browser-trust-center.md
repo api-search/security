@@ -19,7 +19,7 @@ summary_line: SOC 2
 tags:
 - Browser
 - AI Browser
-- Agent
+- Agents
 - Consumer
 - The Browser Company
 trust_url: https://www.diabrowser.com/security

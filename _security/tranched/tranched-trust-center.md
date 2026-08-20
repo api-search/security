@@ -22,7 +22,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tranched/refs/
 summary_line: GDPR, SOC 2 Type II, ISO/IEC 27001, ISO 22301
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Securitization
 - Asset-Based Finance

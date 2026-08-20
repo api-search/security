@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Consumer Technology
-- Cameras
+- Camera
 - Imaging
 - 360 Video
 - Action Cameras

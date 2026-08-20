@@ -69,8 +69,8 @@ tags:
 - Usage-Based Billing
 - Feature Flags
 - Product-Led Growth
-- Subscriptions
-- SaaS
+- Subscription
+- Software-as-a-Service
 - GraphQL
 - REST
 ---

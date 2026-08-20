@@ -260,7 +260,7 @@ summary_line: apiKey/http · 5 schemes
 tags:
 - Automation
 - Cloud
-- Data Center
+- Data-Center
 - Enterprise
 - Networking
 - SDN

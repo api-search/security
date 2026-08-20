@@ -30,6 +30,6 @@ summary_line: TLSv1.3 · DNSSEC
 tags:
 - Fediverse
 - Mastodon
-- Open Source
+- Open-Source
 - Social Networking
 ---

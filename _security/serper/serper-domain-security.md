@@ -123,10 +123,10 @@ tags:
 - Search
 - SERP
 - Google Search
-- AI
+- Artificial Intelligence
 - LLM
 - SEO
-- Images
+- Image
 - News
 - Maps
 - Shopping

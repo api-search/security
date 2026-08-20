@@ -27,6 +27,5 @@ tags:
 - Operations Management
 - Back Office
 - Supply Chain
-- API
 trust_url: https://trust.crunchtime.com/
 ---

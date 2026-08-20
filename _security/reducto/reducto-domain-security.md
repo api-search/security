@@ -151,8 +151,8 @@ tags:
 - PDF
 - OCR
 - Data Extraction
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Document Intelligence
 - Structured Data
 ---

@@ -64,12 +64,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/security/caspio-trust-center.yml
 summary_line: SOC 2, PCI DSS, HIPAA, GDPR, FIPS 140
 tags:
-- Low Code
-- No Code
+- Low-Code
+- No-Code
 - Database
 - Application Platform
 - Cloud Database
 - Online Forms
-- Workflow Automation
+- Workflow-Automation
 trust_url: https://www.caspio.com/compliance/
 ---

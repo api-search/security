@@ -33,9 +33,9 @@ tags:
 - Behavioral Health
 - Human Services
 - Electronic Health Records
-- Human Capital Management
+- HCM
 - Patient Engagement
 - Payroll
 - Healthcare
-- SaaS
+- Software-as-a-Service
 ---

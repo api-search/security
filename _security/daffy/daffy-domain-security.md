@@ -33,7 +33,7 @@ tags:
 - Fintech
 - Charitable Giving
 - Donor Advised Fund
-- Nonprofit
+- Non-Profit
 - Wealth Management
 - Investing
 - Philanthropy

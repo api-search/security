@@ -51,7 +51,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Education
 - EdTech
-- AI
+- Artificial Intelligence
 - Discussion
 - Writing Feedback
 - LTI

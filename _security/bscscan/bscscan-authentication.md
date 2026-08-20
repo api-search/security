@@ -90,13 +90,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/authentication/bscscan-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- blockchain
-- block-explorer
+- Blockchain
+- Block Explorer
 - BNB Smart Chain
 - BSC
 - BEP-20
-- transactions
-- smart-contracts
+- Transaction
+- Smart Contracts
 - DeFi
 - EVM
 ---

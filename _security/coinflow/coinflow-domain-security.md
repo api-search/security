@@ -123,7 +123,7 @@ tags:
 - Company
 - Crypto
 - Payments
-- Stablecoin
+- Stablecoins
 - USDC
 - Checkout
 - Payouts

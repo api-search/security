@@ -31,11 +31,11 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Business Applications
-- Proptech
+- PropTech
 - Property Management
-- Real Estate
+- Real-Estate
 - Condominium Management
 - Fintech
 - France
-- SaaS
+- Software-as-a-Service
 ---

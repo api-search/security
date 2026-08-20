@@ -36,6 +36,6 @@ tags:
 - Managing General Agent
 - Property and Casualty
 - Directors and Officers
-- Broker
+- Brokers
 - Crowdfunding
 ---

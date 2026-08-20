@@ -75,7 +75,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Sports
 - Sports Data
-- Teams
+- Team
 - Players
-- Events
+- Event
 ---

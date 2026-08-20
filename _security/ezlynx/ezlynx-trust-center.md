@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ezlynx/refs/he
 summary_line: SOC 2, CSA STAR
 tags:
 - Insurance
-- InsurTech
+- Insurtech
 - Comparative Rating
 - Agency Management System
 - CRM

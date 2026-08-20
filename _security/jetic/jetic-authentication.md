@@ -61,7 +61,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jetic/refs/hea
 summary_line: http · 1 scheme
 tags:
 - Apache Camel
-- Integrations
+- Integration
 - iPaaS
-- Pro-Code API Composition
+- Pro-Code-API-Composition
 ---

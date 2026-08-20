@@ -40,10 +40,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skio/refs/heads/main/security/skio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Subscriptions
+- Subscription
 - Shopify
-- Ecommerce
-- DTC
+- E-Commerce
+- Direct to Consumer
 - Recurring Billing
 - GraphQL
 ---

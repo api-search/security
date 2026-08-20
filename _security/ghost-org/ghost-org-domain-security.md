@@ -154,8 +154,8 @@ tags:
 - Publishing
 - Newsletters
 - Memberships
-- Subscriptions
+- Subscription
 - CMS
-- Open Source
+- Open-Source
 - Content
 ---

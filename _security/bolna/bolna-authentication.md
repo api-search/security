@@ -33,7 +33,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bolna/refs/hea
 summary_line: http · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Voice AI
 - Conversational AI
 - Voice Agents

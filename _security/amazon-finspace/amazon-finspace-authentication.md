@@ -70,5 +70,5 @@ tags:
 - Capital Markets
 - Data Analytics
 - Data Management
-- Financial Services
+- Financial-Services
 ---

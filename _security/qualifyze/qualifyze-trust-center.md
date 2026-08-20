@@ -20,7 +20,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Company
 - Healthcare
-- Pharmaceutical
+- Pharmaceuticals
 - Life Sciences
 - Supplier Risk
 - Auditing

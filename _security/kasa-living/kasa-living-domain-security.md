@@ -52,8 +52,8 @@ tags:
 - Company
 - Hospitality
 - Travel
-- Short Term Rental
-- Real Estate
+- Short-Term Rental
+- Real-Estate
 - Accommodations
 - Property Management
 - Corporate Housing

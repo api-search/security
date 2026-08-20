@@ -107,8 +107,8 @@ tags:
 - LPR
 - Physical Security
 - Surveillance
-- Computer Vision
-- Webhooks
+- Computer-Vision
+- Webhook
 - Geolocation
 - CAD
 ---

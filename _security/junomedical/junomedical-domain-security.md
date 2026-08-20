@@ -37,5 +37,5 @@ tags:
 - Medical Travel
 - Telehealth
 - Patient Relationship Management
-- SaaS
+- Software-as-a-Service
 ---

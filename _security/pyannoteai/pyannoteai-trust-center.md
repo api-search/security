@@ -31,9 +31,9 @@ tags:
 - Speaker Diarization
 - Audio
 - Voice AI
-- Machine Learning
+- Machine-Learning
 - Transcription
 - Streaming
-- Webhooks
+- Webhook
 trust_url: https://trust.pyannote.ai/
 ---

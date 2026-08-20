@@ -656,11 +656,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/h
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Company
-- Martech
+- MarTech
 - Community
-- Social Media
+- Social-Media
 - Customer Engagement
-- Customer Support
+- Customer-Support
 - Chatbots
 - Messaging
 - Analytics

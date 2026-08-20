@@ -127,7 +127,7 @@ tags:
 - NFC
 - Timestamping
 - LTV
-- Webhooks
+- Webhook
 - Identity
 - Trust Services
 - GDPR

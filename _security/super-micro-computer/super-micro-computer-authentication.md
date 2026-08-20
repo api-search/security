@@ -99,7 +99,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/super-micro-co
 summary_line: apiKey/http · 2 schemes
 tags:
 - Servers
-- Data Center
+- Data-Center
 - Hardware
 - Server Management
 - Redfish

@@ -32,9 +32,9 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Asset Management
 - Finance
-- FinTech
+- Fintech
 - Investment Management
-- Portfolio Management
+- Portfolio-Management
 - Risk Analytics
 - Fortune 500
 ---

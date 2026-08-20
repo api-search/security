@@ -47,14 +47,13 @@ source_yaml: "generated: '2026-08-16'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/secton-api/refs/heads/main/security/secton-api-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- ai
-- inference
-- llm
-- chat-completions
-- generative-ai
-- developer-tools
-- openai-compatible
-- streaming
-- machine-learning
-- api
+- Artificial Intelligence
+- Inference
+- LLM
+- Chat Completions
+- Generative AI
+- Developer Tools
+- OpenAI-Compatible
+- Streaming
+- Machine-Learning
 ---

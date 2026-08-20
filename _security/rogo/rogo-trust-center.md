@@ -26,7 +26,7 @@ summary_line: SOC 2 Type 1, SOC 2 Type 2, ISO/IEC 27001, ISO/IEC 42001:2023, GDP
 tags:
 - Company
 - Artificial Intelligence
-- Financial Services
+- Financial-Services
 - Investment Banking
 - Fintech
 - Enterprise AI

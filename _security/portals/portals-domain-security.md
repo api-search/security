@@ -34,6 +34,5 @@ tags:
 - Consumer
 - Play
 - Collect
-- Create
 - Creator
 ---

@@ -108,16 +108,16 @@ tags:
 - Calendaring
 - Case Management
 - Client Portal
-- Document Management
+- Document-Management
 - Invoicing
 - Law Firms
 - Legal
 - Legal Practice Management
-- LegalTech
+- Legal Tech
 - Matter Management
-- OAuth 2.0
+- Authentication
 - Payments
 - Practice Management
 - Time Tracking
-- Webhooks
+- Webhook
 ---

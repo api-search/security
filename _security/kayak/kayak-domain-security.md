@@ -44,5 +44,5 @@ tags:
 - Travel Search
 - Price Comparison
 - Booking Holdings
-- AI
+- Artificial Intelligence
 ---

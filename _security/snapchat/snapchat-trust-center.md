@@ -103,6 +103,6 @@ tags:
 - Augmented Reality
 - Marketing
 - Messaging
-- Social Media
+- Social-Media
 trust_url: https://trust.snap.com
 ---

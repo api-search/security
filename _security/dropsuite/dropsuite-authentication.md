@@ -38,7 +38,7 @@ tags:
 - Cloud Backup
 - Data Protection
 - Email Archiving
-- Microsoft 365
+- Microsoft-365
 - Google Workspace
 - MSP
 - Compliance

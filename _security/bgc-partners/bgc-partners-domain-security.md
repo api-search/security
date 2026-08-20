@@ -48,7 +48,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Brokerage
 - Inter-Dealer Broker
-- Financial Services
+- Financial-Services
 - Capital Markets
 - Market Data
 - Foreign Exchange

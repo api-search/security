@@ -47,5 +47,5 @@ tags:
 - Travel
 - Invoices
 - Fintech
-- SaaS
+- Software-as-a-Service
 ---

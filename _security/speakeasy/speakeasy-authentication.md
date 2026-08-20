@@ -123,11 +123,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/speakeas
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/authentication/speakeasy-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Documentation
 - MCP
 - Platform
-- SDKs
+- SDK
 - Terraform
 - Testing
 ---

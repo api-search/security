@@ -35,7 +35,6 @@ tags:
 - Insurtech
 - Commercial Insurance
 - Insurance Distribution
-- API
 - Embedded Insurance
 - Underwriting
 - Document AI

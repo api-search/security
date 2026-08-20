@@ -68,7 +68,7 @@ tags:
 - E-Commerce
 - Consumer Goods
 - Furniture
-- Home
+- Homes
 - Direct to Consumer
 - Agentic Commerce
 - Shopify

@@ -91,13 +91,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nanonets
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/authentication/nanonets-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
 - Artificial Intelligence
 - OCR
 - Document AI
 - Intelligent Document Processing
 - Data Extraction
-- Workflow Automation
-- Computer Vision
+- Workflow-Automation
+- Computer-Vision
 - No-Code
 ---

@@ -42,11 +42,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/relace/refs/he
 summary_line: http · 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Coding Agents
 - Code Generation
 - Developer Tools
-- Machine Learning
+- Machine-Learning
 - Code Search
 - LLM
 ---

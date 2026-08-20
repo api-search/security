@@ -96,13 +96,13 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Inference
 - LLM
 - Model Deployment
 - Fine-Tuning
 - MLOps
 - GPU
-- Speech to Text
-- Image Generation
+- Speech-to-Text
+- Image-Generation
 ---

@@ -36,7 +36,7 @@ tags:
 - Mining
 - Geospatial
 - Geoscience
-- Machine Learning
+- Machine-Learning
 - Natural Resources
 - Climate Tech
 ---

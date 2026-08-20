@@ -38,5 +38,5 @@ tags:
 - Public Relations
 - Marketing Technology
 - Commerce
-- Data and Analytics
+- Data & Analytics
 ---

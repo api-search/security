@@ -73,10 +73,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/h
 summary_line: no transport/DNS hardening detected
 tags:
 - Database
-- Real-time
+- Real-Time
 - Sync
-- Local-first
+- Local-First
 - Developer Tools
 - TypeScript
-- Open Source
+- Open-Source
 ---

@@ -46,5 +46,5 @@ tags:
 - Deal Intelligence
 - Revenue Enablement
 - Certifications
-- AI
+- Artificial Intelligence
 ---

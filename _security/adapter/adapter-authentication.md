@@ -209,7 +209,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/h
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Cognition
 - Knowledge Graph
 - Memory

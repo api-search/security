@@ -39,6 +39,6 @@ tags:
 - Manufacturing
 - Media
 - Publishing
-- Restaurants
+- Restaurant
 - Fortune 1000
 ---

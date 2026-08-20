@@ -22,7 +22,7 @@ summary_line: SOC 2 Type II, GDPR, EU AI Act, DORA
 tags:
 - Company
 - Artificial Intelligence
-- Model Context Protocol
+- MCP
 - AI Distribution
 - Conversational AI
 - Lead Generation

@@ -35,5 +35,5 @@ tags:
 - Robotics
 - Autonomous Vehicles
 - Agriculture
-- Agtech
+- AgTech
 ---

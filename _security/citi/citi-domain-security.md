@@ -40,7 +40,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/citi/refs/head
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - Open Banking
 - Payments
 - Treasury

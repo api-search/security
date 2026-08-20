@@ -72,11 +72,11 @@ summary_line: 3 schemes
 tags:
 - Company
 - Commerce
-- Ecommerce
+- E-Commerce
 - Personalization
 - Analytics
 - Conversion Rate Optimization
-- AI
+- Artificial Intelligence
 - Merchandising
 - MCP
 - Agentic Commerce

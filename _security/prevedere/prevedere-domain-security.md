@@ -159,5 +159,5 @@ tags:
 - Indicators
 - Time Series
 - Data Integration
-- Machine Learning
+- Machine-Learning
 ---

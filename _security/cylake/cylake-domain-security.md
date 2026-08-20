@@ -33,7 +33,7 @@ tags:
 - Company
 - Cybersecurity
 - Security
-- AI
+- Artificial Intelligence
 - Data Sovereignty
 - On-Premises
 - Endpoint Security

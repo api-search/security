@@ -32,7 +32,7 @@ tags:
 - Company
 - Consumer Electronics
 - Drones
-- Cameras
+- Camera
 - Gimbals
 - Aerial Imaging
 - Hardware

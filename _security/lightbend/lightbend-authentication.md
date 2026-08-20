@@ -30,13 +30,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightbend/refs
 summary_line: interactive-login/token/jwt/mtls/acl · 0 schemes
 tags:
 - Company
-- Ai Infrastructure
-- Agentic Ai
+- AI Infrastructure
+- Agentic AI
 - Actor Model
 - Distributed Systems
 - Reactive
 - Java
 - Scala
 - Orchestration
-- Ai Governance
+- AI Governance
 ---

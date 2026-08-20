@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: tu-delft-4tu-researchdata-openapi.yml
+  format: yaml
+  label: 4TU.ResearchData API
+  slug: 4tu-researchdata
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/openapi/tu-delft-4tu-researchdata-openapi.yml
 description: ''
 domains:
 - caa:
@@ -53,13 +60,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/security/tu-delft-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- Technical University
 - Research Data
 - Open Access
-- Library
-- Open Data
+- Identity Federation
+- Research Repository
+- Research Computing
+- 4TU.Federation
 - Netherlands
 - Europe
 ---

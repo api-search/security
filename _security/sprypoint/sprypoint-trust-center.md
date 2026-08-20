@@ -24,6 +24,6 @@ tags:
 - Billing
 - Payments
 - Field Service
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.sprypoint.com
 ---

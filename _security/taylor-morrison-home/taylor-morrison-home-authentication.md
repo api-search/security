@@ -67,7 +67,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taylor-morriso
 summary_line: apiKey · 1 scheme
 tags:
 - Homebuilding
-- Real Estate
+- Real-Estate
 - Fortune 1000
 - New Homes
 - Communities

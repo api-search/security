@@ -34,6 +34,6 @@ tags:
 - AI Hardware
 - Analog Computing
 - Energy Efficiency
-- Machine Learning
+- Machine-Learning
 - Semiconductors
 ---

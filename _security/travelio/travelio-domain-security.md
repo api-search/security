@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Property Rental
-- Real Estate
+- Real-Estate
 - Property Management
 - Hospitality
 - Travel

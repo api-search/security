@@ -118,10 +118,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/security/choreo-trust-center.yml
 summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
-- AI Apps
+- Ai Apps
 - API Management
 - CI/CD
-- Cloud Native
+- Cloud-Native
 - DevOps
 - Developer Portal
 - FinOps
@@ -132,7 +132,7 @@ tags:
 - Observability
 - Orchestration
 - Platform Engineering
-- Pro-Code API Composition
+- Pro-Code-API-Composition
 - Unified
 - WSO2
 - Workflows

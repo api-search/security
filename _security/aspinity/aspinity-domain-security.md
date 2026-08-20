@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Semiconductors
-- Machine Learning
+- Machine-Learning
 - Edge AI
 - IoT
 - Analog Computing

@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jules-google/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Coding Agent
+- Coding Agents
 - Autonomous Agent
 - Asynchronous Agent
 - Developer Tools

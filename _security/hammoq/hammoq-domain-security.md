@@ -31,10 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hammoq/refs/he
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Recommerce
 - Resale
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Machine Vision
 - Generative AI

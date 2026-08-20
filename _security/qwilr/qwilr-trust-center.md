@@ -29,8 +29,8 @@ tags:
 - Quotes
 - Contracts
 - E-Signature
-- Webhooks
+- Webhook
 - MCP
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.qwilr.com/
 ---

@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Rentals
-- Real Estate
+- Real-Estate
 - Housing
 - Apartments
 - Marketplace

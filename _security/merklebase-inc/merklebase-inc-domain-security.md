@@ -28,9 +28,9 @@ tags:
 - Company
 - Digital Assets
 - Cryptocurrency
-- Portfolio Management
+- Portfolio-Management
 - Risk Management
-- Financial Services
+- Financial-Services
 - Institutional Finance
 - Data Management
 ---

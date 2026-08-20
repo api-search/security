@@ -31,9 +31,9 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Consumer Goods
-- Direct-to-Consumer
+- Direct to Consumer
 - Multichannel Retail
 - Central and Eastern Europe
 ---

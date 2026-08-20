@@ -22,7 +22,7 @@ tags:
 - Fintech
 - Estate Planning
 - Wills
-- Nonprofit
+- Non-Profit
 - Planned Giving
 - Legal Tech
 trust_url: https://trust.freewill.com/

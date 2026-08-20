@@ -106,8 +106,8 @@ tags:
 - RTMP
 - Media
 - Compositing
-- Real Time
-- Events
+- Real-Time
+- Event
 - gRPC
 - Creator Tools
 ---

@@ -27,7 +27,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/re
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- RevOps
+- Revenue Operations
 - Marketing Operations
 - Observability
 - Monitoring
@@ -39,6 +39,6 @@ tags:
 - Salesforce
 - Marketo
 - gRPC
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.stackmoxie.com/security/
 ---

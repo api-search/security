@@ -67,7 +67,7 @@ tags:
 - Trading
 - Onchain
 - Web3
-- Financial Services
+- Financial-Services
 - Developer Platform
 - AI Agents
 - Stablecoins

@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: snu-s-space-oai-pmh-openapi.yml
+  format: yaml
+  label: S-Space OAI-PMH Repository Interface
+  slug: s-space-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/openapi/snu-s-space-oai-pmh-openapi.yml
+- filename: snu-kossda-oai-pmh-openapi.yml
+  format: yaml
+  label: KOSSDA OAI-PMH Repository Interface
+  slug: kossda-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/openapi/snu-kossda-oai-pmh-openapi.yml
+- filename: snu-s-space-opensearch-openapi.yml
+  format: yaml
+  label: S-Space OpenSearch Interface
+  slug: s-space-opensearch
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/openapi/snu-s-space-opensearch-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,12 +53,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/security/snu-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Access
-- Institutional Repository
-- OAI-PMH
+- Higher Education
+- Education
 - South Korea
+- Research
+- Research Data
+- Institutional Repository
+- Research Repository
+- Identity Federation
+- OAI-PMH
+- SAML
+- Open Access
+- Library
+- National University
 ---

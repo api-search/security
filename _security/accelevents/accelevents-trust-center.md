@@ -51,7 +51,7 @@ summary_line: SOC 2, GDPR
 tags:
 - Event Management
 - Ticketing
-- Events
+- Event
 - Registration
 - Virtual Events
 - Sessions

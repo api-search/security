@@ -36,5 +36,5 @@ tags:
 - Payer Enrollment
 - Health Insurance
 - Revenue Cycle Management
-- AI
+- Artificial Intelligence
 ---

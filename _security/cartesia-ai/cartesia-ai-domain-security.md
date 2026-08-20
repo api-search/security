@@ -174,11 +174,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/security/cartesia-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Voice AI
-- Text to Speech
-- Speech to Text
-- Realtime
+- Text-to-Speech
+- Speech-to-Text
+- Real-Time
 - WebSocket
 - Voice Cloning
 - Voice Agents

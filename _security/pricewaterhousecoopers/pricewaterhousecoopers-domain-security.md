@@ -46,7 +46,7 @@ tags:
 - Risk
 - Deals
 - Technology
-- AI
+- Artificial Intelligence
 - Generative AI
 - Research
 - Insights

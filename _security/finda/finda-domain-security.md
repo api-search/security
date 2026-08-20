@@ -31,7 +31,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - Loans
 - Lending
 - Loan Comparison

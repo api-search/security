@@ -256,5 +256,5 @@ tags:
 - Patients
 - Health Records
 - Insurance
-- Webhooks
+- Webhook
 ---

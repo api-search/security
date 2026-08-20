@@ -118,6 +118,6 @@ tags:
 - Collaboration
 - Messaging
 - Team Chat
-- Webhooks
+- Webhook
 trust_url: https://zulip.com/security/
 ---

@@ -22,7 +22,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/triblio/refs/h
 summary_line: no transport/DNS hardening detected
 tags:
 - Account Based Marketing
-- ABM
 - Advertising
 - Intent Data
 - Marketing Technology

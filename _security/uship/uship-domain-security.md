@@ -40,16 +40,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uship/refs/heads/main/security/uship-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- shipping
-- logistics
-- freight
-- marketplace
-- transportation
+- Shipping
+- Logistics
+- Freight
+- Marketplace
+- Transportation
 - auto-transport
 - ltl-freight
-- last-mile-delivery
-- shipment-tracking
-- ecommerce
-- supply-chain
+- Last Mile Delivery
+- Shipment Tracking
+- E-Commerce
+- Supply Chain
 - rate-quotes
 ---

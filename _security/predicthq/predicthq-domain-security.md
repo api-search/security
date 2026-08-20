@@ -63,8 +63,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/predicthq/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Demand Intelligence
-- Events
+- Event
 - Forecasting
-- Machine Learning
+- Machine-Learning
 - Real-World Events
 ---

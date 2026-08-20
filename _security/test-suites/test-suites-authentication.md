@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/test-suites/re
 summary_line: apiKey · 1 scheme
 tags:
 - API Testing
-- Collections
+- Collection
 - Quality Assurance
 - Software Development
 - Test Management

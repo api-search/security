@@ -190,12 +190,12 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Chess
 - Games
-- Open Source
-- Nonprofit
+- Open-Source
+- Non-Profit
 - Tournaments
 - Puzzles
 - Bots
 - Streaming
 - ND-JSON
-- OAuth
+- Authentication
 ---

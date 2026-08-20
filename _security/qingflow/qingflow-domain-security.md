@@ -32,7 +32,7 @@ tags:
 - Company
 - No-Code
 - Low-Code
-- Workflow
+- Workflows
 - Automation
 - Business Process Management
 - Open Platform

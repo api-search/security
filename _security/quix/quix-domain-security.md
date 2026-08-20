@@ -81,7 +81,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quix/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Stream Processing
-- Real Time
+- Real-Time
 - Kafka
 - Python
 - Streaming Data

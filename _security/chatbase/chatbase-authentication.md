@@ -59,9 +59,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/chatbase
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/authentication/chatbase-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
-- Chatbot
+- Artificial Intelligence
+- Chatbots
 - AI Agent
-- Customer Support
+- Customer-Support
 - Conversational AI
 ---

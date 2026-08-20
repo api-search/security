@@ -114,7 +114,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs
 summary_line: http · 2 schemes
 tags:
 - Company
-- eSignature
+- E-Signature
 - Electronic Signatures
 - Documents
 - Digital Agreements

@@ -85,8 +85,8 @@ summary_line: http · 1 scheme
 tags:
 - Backup
 - Block Storage
-- Cloud Native
+- Cloud-Native
 - Incubating
 - Kubernetes
-- Persistent Volumes
+- PersistentVolumes
 ---

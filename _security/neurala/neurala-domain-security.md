@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Edge AI
 - Deep Learning
 - Visual Inspection

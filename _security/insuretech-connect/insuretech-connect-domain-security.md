@@ -33,7 +33,7 @@ tags:
 - Company
 - Insurtech
 - Insurance
-- Events
+- Event
 - Conference
 - Innovation
 - Clarion Events

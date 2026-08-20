@@ -33,6 +33,6 @@ tags:
 - Solar Energy
 - Renewable Energy
 - Photovoltaics
-- Open Source
+- Open-Source
 - Python
 ---

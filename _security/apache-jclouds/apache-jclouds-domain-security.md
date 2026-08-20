@@ -38,5 +38,5 @@ tags:
 - Cloud
 - Java
 - Multi-Cloud
-- Open Source
+- Open-Source
 ---

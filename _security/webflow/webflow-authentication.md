@@ -204,7 +204,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webflow/refs/h
 summary_line: http/oauth2 · 2 schemes
 tags:
 - CMS
-- Ecommerce
+- E-Commerce
 - No-Code
 - Web Development
 ---

@@ -35,11 +35,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/granola-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/granola/refs/heads/main/authentication/granola-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Meeting Notes
 - Transcription
 - Productivity
-- API
 - MCP
 - Zapier
 - Business

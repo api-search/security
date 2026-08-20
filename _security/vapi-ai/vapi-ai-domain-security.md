@@ -138,7 +138,7 @@ source_yaml: "generated: '2026-07-16'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vapi-ai/refs/heads/main/security/vapi-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Voice AI
 - Voice Agents
 - Conversational AI

@@ -36,6 +36,6 @@ tags:
 - Risk Operations
 - Artificial Intelligence
 - Agentic AI
-- Financial Services
+- Financial-Services
 - Security
 ---

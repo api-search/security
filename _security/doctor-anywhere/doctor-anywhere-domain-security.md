@@ -53,5 +53,5 @@ tags:
 - Corporate Wellness
 - Singapore
 - Southeast Asia
-- Model Context Protocol
+- MCP
 ---

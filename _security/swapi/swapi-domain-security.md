@@ -77,7 +77,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/hea
 summary_line: TLSv1.3 · HSTS
 tags:
 - Star Wars
-- Open Source
+- Open-Source
 - Teaching API
 - Public API
 - REST

@@ -448,12 +448,12 @@ summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
 - Analytics
 - Web Analytics
-- Open Source
+- Open-Source
 - Privacy
 - Data Ownership
 - Self-Hosted
 - GDPR
 - Tag Management
 - Conversion Optimization
-- Model Context Protocol
+- MCP
 ---

@@ -174,12 +174,12 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Chess
 - Games
-- Open Source
-- Nonprofit
+- Open-Source
+- Non-Profit
 - Tournaments
 - Puzzles
 - Bots
 - Streaming
 - ND-JSON
-- OAuth
+- Authentication
 ---

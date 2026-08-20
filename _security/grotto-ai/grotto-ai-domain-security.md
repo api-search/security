@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grotto-ai/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Multifamily
 - Leasing
 - Sales Coaching
 - PropTech
-- Real Estate
+- Real-Estate
 - Conversation Intelligence
 ---

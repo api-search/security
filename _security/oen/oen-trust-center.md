@@ -21,10 +21,10 @@ summary_line: PCI DSS, ISO/IEC 27001, ISO/IEC 27701
 tags:
 - Company
 - Payments
-- FinTech
+- Fintech
 - CRM
 - Invoicing
 - Taiwan
-- Nonprofit
+- Non-Profit
 trust_url: ''
 ---

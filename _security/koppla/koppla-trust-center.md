@@ -29,6 +29,6 @@ tags:
 - Lean Construction
 - BIM
 - Germany
-- SaaS
+- Software-as-a-Service
 trust_url: https://security.koppla.de/
 ---

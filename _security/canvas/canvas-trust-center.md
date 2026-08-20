@@ -38,7 +38,7 @@ tags:
 - Learning Management System
 - LMS
 - LTI
-- Open Source
+- Open-Source
 - REST
 trust_url: https://trust.instructure.com/
 ---

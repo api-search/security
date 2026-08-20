@@ -52,7 +52,7 @@ tags:
 - Leads
 - Angie's List
 - HomeAdvisor
-- IAC
+- IaC
 - Webhook
 - No Public API
 ---

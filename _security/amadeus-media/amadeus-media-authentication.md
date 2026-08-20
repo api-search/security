@@ -49,7 +49,7 @@ summary_line: http · 1 scheme
 tags:
 - Content
 - Hotels
-- Images
+- Image
 - Media
 - Travel
 ---

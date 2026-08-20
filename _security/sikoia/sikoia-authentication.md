@@ -157,7 +157,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/he
 summary_line: oauth2/http/apiKey · 2 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Identity Verification
 - KYC
 - KYB

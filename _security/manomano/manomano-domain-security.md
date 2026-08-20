@@ -34,7 +34,7 @@ tags:
 - DIY
 - Home Improvement
 - Gardening
-- E-commerce
+- E-Commerce
 - Retail
 - France
 - Europe

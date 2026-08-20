@@ -36,5 +36,5 @@ tags:
 - Artificial Intelligence
 - Creative
 - AdTech
-- SaaS
+- Software-as-a-Service
 ---

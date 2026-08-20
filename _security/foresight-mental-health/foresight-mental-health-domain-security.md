@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/foresight-ment
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Health Care
+- Healthcare
 - Mental Health
 - Behavioral Health
 - Telehealth

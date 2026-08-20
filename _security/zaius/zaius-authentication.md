@@ -149,8 +149,8 @@ tags:
 - Marketing
 - Personalization
 - Segmentation
-- Ecommerce
+- E-Commerce
 - Customer Data
 - Real-Time Audiences
-- Events
+- Event
 ---

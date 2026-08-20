@@ -32,7 +32,7 @@ tags:
 - Company
 - Energy And Environmental
 - Electrification
-- Real Estate
+- Real-Estate
 - EV Charging
 - Cleantech
 - Infrastructure Intelligence

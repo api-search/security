@@ -46,8 +46,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightspeed/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Commerce
-- Point of Sale
-- POS
+- Point-of-Sale
 - Retail
 - Restaurant
 - Inventory

@@ -73,7 +73,7 @@ summary_line: http · 2 schemes
 tags:
 - Loyalty
 - Rewards
-- E-commerce
+- E-Commerce
 - Points
 - Shopify
 - Retention

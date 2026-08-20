@@ -62,5 +62,4 @@ tags:
 - Cost Optimization
 - Developer Tools
 - Middleware
-- API
 ---

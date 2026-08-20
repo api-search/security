@@ -70,16 +70,15 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linkpeek/refs/heads/main/security/linkpeek-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- screenshots
+- Screenshots
 - webpage-capture
 - website-thumbnails
-- image-generation
-- rendering
+- Image-Generation
+- Rendering
 - web-scraping-adjacent
-- developer-tools
-- saas
-- rest-image-api
 - Developer Tools
+- Software-as-a-Service
+- rest-image-api
 - Utility API
 - URL Metadata
 - Link Preview
@@ -92,12 +91,7 @@ tags:
 - IP Geolocation
 - Data Conversion
 - LLM-Compatible API
-- api-utilities
-- url-metadata
-- link-preview
-- qr-code-generation
+- API Utilities
 - dns-whois
-- web-security-scanning
-- data-conversion
 - openai-compatible-llm
 ---

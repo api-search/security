@@ -49,8 +49,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/listnr-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/authentication/listnr-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
-- Text to Speech
+- Artificial Intelligence
+- Text-to-Speech
 - TTS
 - Voice
 - Speech Synthesis

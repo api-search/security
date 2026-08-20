@@ -770,7 +770,6 @@ tags:
 - Authorization
 - Identity
 - Identity Provider
-- OAuth2
 - OIDC
 trust_url: https://aws.amazon.com/compliance/
 ---

@@ -34,7 +34,7 @@ tags:
 - Banking
 - Spend Management
 - Payments
-- Ecommerce
+- E-Commerce
 - Corporate Cards
 - Open Banking
 - Sweden

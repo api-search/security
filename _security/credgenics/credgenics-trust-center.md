@@ -39,11 +39,11 @@ summary_line: PCI DSS, ISO (certificate displayed; specific ISO standard not nam
 tags:
 - Company
 - Enterprise
-- Financial Services
+- Financial-Services
 - Debt Collection
 - Loan Recovery
 - Lending
-- Collections
+- Collection
 - Fintech
 - India
 trust_url: https://www.credgenics.com/security

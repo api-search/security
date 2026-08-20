@@ -77,6 +77,6 @@ tags:
 - Blockchain
 - Cryptocurrency
 - Block Explorer
-- Financial Services
+- Financial-Services
 - Infrastructure
 ---

@@ -33,7 +33,7 @@ tags:
 - Company
 - Enterprise
 - Operating System
-- ChromeOS
+- Chrome OS
 - Endpoint Management
 - Device Refurbishment
 - Acquired

@@ -323,9 +323,9 @@ tags:
 - Counterparties
 - Obligations
 - Analytics
-- Webhooks
-- AI
-- SaaS
+- Webhook
+- Artificial Intelligence
+- Software-as-a-Service
 - Bangalore
 trust_url: https://www.spotdraft.com/security
 ---

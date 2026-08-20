@@ -60,18 +60,18 @@ source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/security/happyrobot-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- ai-agents
-- agent-orchestration
-- voice-ai
-- conversational-ai
-- logistics
-- freight
-- supply-chain
-- workflow-automation
-- contact-center
-- telephony
-- mcp
+- AI Agents
+- Agent Orchestration
+- Voice AI
+- Conversational AI
+- Logistics
+- Freight
+- Supply Chain
+- Workflow-Automation
+- Contact Center
+- Telephony
+- MCP
 - agent-native
-- agent-governance
-- enterprise-automation
+- Agent Governance
+- Enterprise Automation
 ---

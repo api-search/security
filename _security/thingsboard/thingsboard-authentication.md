@@ -427,7 +427,7 @@ tags:
 - Internet of Things
 - Device Management
 - Telemetry
-- Open Source
+- Open-Source
 - Apache 2.0
 - MQTT
 - LwM2M
@@ -435,7 +435,7 @@ tags:
 - Rule Engine
 - Dashboards
 - Edge
-- Multi-tenant
+- Multi-Tenant
 - Java
 - Spring
 ---

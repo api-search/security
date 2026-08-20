@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reduct/refs/he
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Applications
+- Application
 - Video
 - Transcription
 - Translation

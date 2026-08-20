@@ -29,7 +29,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/golden-1/refs/heads/main/security/golden-1-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Credit Union
 - United States

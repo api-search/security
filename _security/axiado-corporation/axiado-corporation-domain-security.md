@@ -37,7 +37,7 @@ tags:
 - Semiconductors
 - Hardware Security
 - Platform Security
-- Data Center
+- Data-Center
 - Cybersecurity
 - Baseboard Management Controller
 - Root of Trust

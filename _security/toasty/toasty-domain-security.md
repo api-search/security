@@ -35,7 +35,7 @@ tags:
 - Consumer
 - Shopping
 - Sustainability
-- Ecommerce
+- E-Commerce
 - Retail
 - France
 ---

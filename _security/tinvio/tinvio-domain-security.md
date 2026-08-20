@@ -36,6 +36,6 @@ tags:
 - Supplier Management
 - Accounting
 - Fintech
-- SaaS
+- Software-as-a-Service
 - Southeast Asia
 ---

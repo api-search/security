@@ -62,8 +62,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airops/refs/he
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- Applications
-- AI
+- Application
+- Artificial Intelligence
 - Content
 - SEO
 - AEO

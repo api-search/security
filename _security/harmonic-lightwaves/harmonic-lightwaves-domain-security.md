@@ -36,6 +36,6 @@ tags:
 - Broadband
 - Media
 - DRM
-- Ad Tech
+- AdTech
 - Telecommunications
 ---

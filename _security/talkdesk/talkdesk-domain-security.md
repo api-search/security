@@ -51,8 +51,8 @@ tags:
 - Contact Center
 - CCaaS
 - Voice
-- Webhooks
-- Events
+- Webhook
+- Event
 - Telephony
 - Customer Experience
 - Digital Connect

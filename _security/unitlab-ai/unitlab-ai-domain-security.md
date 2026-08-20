@@ -45,8 +45,8 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Data Annotation
-- Machine Learning
-- Computer Vision
+- Machine-Learning
+- Computer-Vision
 - Datasets
 - Artificial Intelligence
 - Labeling

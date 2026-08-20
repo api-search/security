@@ -50,9 +50,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/flux-ima
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flux/refs/heads/main/authentication/flux-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
-- Image Generation
-- Machine Learning
-- Open Source
-- Text to Image
+- Artificial Intelligence
+- Image-Generation
+- Machine-Learning
+- Open-Source
+- Text-to-Image
 ---

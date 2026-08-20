@@ -112,7 +112,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agorapulse/ref
 summary_line: ISO 27001:2022, SOC 2 Type 2, GDPR
 tags:
 - Social Media Management
-- Social Media
+- Social-Media
 - CRM
 - Analytics
 - Publishing

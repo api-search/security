@@ -35,5 +35,5 @@ tags:
 - Crowdfunding
 - Investors
 - Fintech
-- SaaS
+- Software-as-a-Service
 ---

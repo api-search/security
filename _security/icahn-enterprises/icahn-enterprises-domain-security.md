@@ -35,5 +35,5 @@ tags:
 - Holding Company
 - Investment
 - Pharmaceuticals
-- Real Estate
+- Real-Estate
 ---

@@ -97,7 +97,7 @@ tags:
 - Workforce Management
 - Absence Management
 - Project Tracking
-- SaaS
+- Software-as-a-Service
 - Switzerland
 - SME
 ---

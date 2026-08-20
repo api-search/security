@@ -53,7 +53,7 @@ summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Content Creation
 - Microsoft
-- Microsoft 365
+- Microsoft-365
 - Presentations
 - Storytelling
 ---

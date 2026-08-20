@@ -46,9 +46,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lowes-pr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/authentication/lowes-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Ecommerce
+- E-Commerce
 - Home Improvement
-- Products
+- Product
 - Retail
 - Fortune 100
 ---

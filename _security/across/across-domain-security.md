@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Crypto Infrastructure
-- Cross Chain
+- Cross-Chain
 - Bridge
 - Interoperability
 - Blockchain

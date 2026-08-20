@@ -142,9 +142,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Event Ticketing
 - Registration
-- Events
+- Event
 - Ticketing
-- Check-In
+- Check-in
 - Churches
 - Payments
 ---

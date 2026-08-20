@@ -37,6 +37,6 @@ tags:
 - Telehealth
 - Practice Management
 - Patient Engagement
-- SaaS
+- Software-as-a-Service
 - France
 ---

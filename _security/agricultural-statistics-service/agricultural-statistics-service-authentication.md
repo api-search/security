@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agricultural-s
 summary_line: apiKey · 1 scheme
 tags:
 - Agriculture
-- Federal Government
+- Federal-Government
 - Statistics
 - Open Data
 - Geospatial

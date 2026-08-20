@@ -62,6 +62,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veeva-systems/
 summary_line: apiKey · 1 scheme
 tags:
 - Healthcare
-- SaaS
+- Software-as-a-Service
 - Life Sciences
 ---

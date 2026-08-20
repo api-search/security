@@ -35,6 +35,6 @@ tags:
 - E-Commerce
 - Apparel
 - Intimates
-- Direct-to-Consumer
+- Direct to Consumer
 - Fashion
 ---

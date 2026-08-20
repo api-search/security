@@ -41,9 +41,9 @@ tags:
 - Company
 - Consumer
 - Retail
-- Ecommerce
+- E-Commerce
 - Apparel
 - Children
 - Shopify
-- Agent
+- Agents
 ---

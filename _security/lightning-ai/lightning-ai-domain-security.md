@@ -38,12 +38,12 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Ai Ml
-- Machine Learning
+- Machine-Learning
 - GPU Cloud
 - Model Inference
 - Model Training
 - Developer Platform
 - Sandboxes
 - LLM APIs
-- Open Source
+- Open-Source
 ---

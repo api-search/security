@@ -145,12 +145,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/360learning/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Edtech
+- EdTech
 - Learning Management System
 - E-Learning
 - Training
 - Collaborative Learning
 - HR Tech
 - Skills
-- API
 ---

@@ -33,7 +33,7 @@ tags:
 - Multiplayer
 - Gaming
 - Game Development
-- Real-time
+- Real-Time
 - SDK
 - State Synchronization
 - Developer Tools

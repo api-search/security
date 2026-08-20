@@ -30,7 +30,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Robotics
-- Computer Vision
+- Computer-Vision
 - Perception
 - Hardware
 - Stereo Cameras

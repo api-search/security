@@ -170,5 +170,4 @@ tags:
 - Asset Discovery
 - DevSecOps
 - Nuclei
-- API
 ---

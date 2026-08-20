@@ -76,14 +76,14 @@ source_yaml: "generated: '2026-08-08'\nmethod: searched\nsource: openapi/buoy-he
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/authentication/buoy-health-authentication.yml
 summary_line: oauth2/openIdConnect · 1 scheme
 tags:
-- symptom-checker
+- Symptom Checker
 - medical-triage
-- digital-health
-- healthcare
-- clinical-ai
-- care-navigation
-- patient-engagement
-- diagnosis
-- telehealth
-- oauth2
+- Digital Health
+- Healthcare
+- Clinical AI
+- Care Navigation
+- Patient Engagement
+- Diagnosis
+- Telehealth
+- Authentication
 ---

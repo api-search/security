@@ -29,7 +29,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recursion-pharmaceuticals/refs/heads/main/security/recursion-pharmaceuticals-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- AI
 - Artificial Intelligence
 - Drug Discovery
 - Biotech
@@ -39,7 +38,7 @@ tags:
 - Transcriptomics
 - Proteomics
 - Chemistry
-- Machine Learning
+- Machine-Learning
 - Foundation Models
 - Open Datasets
 - Open Source Models

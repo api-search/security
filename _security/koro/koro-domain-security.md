@@ -50,5 +50,5 @@ tags:
 - Direct to Consumer
 - Germany
 - Shopware
-- Open Source
+- Open-Source
 ---

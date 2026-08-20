@@ -87,13 +87,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uncle-nearest/
 summary_line: http/none · 2 schemes
 tags:
 - Company
-- whiskey
-- spirits
-- beverage-alcohol
-- consumer-packaged-goods
-- distillery
-- hospitality
-- events
-- tennessee
-- wordpress
+- Whiskey
+- Spirits
+- Beverage Alcohol
+- Consumer Packaged Goods
+- Distillery
+- Hospitality
+- Event
+- Tennessee
+- WordPress
 ---

@@ -56,8 +56,8 @@ tags:
 - Grocery Delivery
 - On-Demand Delivery
 - Logistics
-- Restaurants
-- Point of Sale
+- Restaurant
+- Point-of-Sale
 - Marketplace
 - Turkey
 - Partner Integration

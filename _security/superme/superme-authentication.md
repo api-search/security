@@ -44,6 +44,5 @@ tags:
 - AI Agents
 - Professional Network
 - Expert Knowledge
-- Model Context Protocol
 - MCP
 ---

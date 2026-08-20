@@ -203,6 +203,6 @@ tags:
 - User Management
 - Identity
 - Authorization
-- SaaS
+- Software-as-a-Service
 - CIAM
 ---

@@ -18,7 +18,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chartbeat/refs
 summary_line: trust center published
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Analytics
 - Content Analytics
 - Real-Time Analytics

@@ -54,15 +54,15 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/security/refuel-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Data Labeling
 - Data Enrichment
 - Autolabel
-- Machine Learning
+- Machine-Learning
 - Data Quality
 - Training Data
-- Fine Tuning
+- Fine-Tuning
 - Data Transformation
 - Entity Resolution
 - Content Moderation

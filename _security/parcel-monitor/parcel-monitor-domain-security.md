@@ -37,6 +37,6 @@ tags:
 - Logistics
 - Carriers
 - Delivery
-- Webhooks
+- Webhook
 - E-Commerce
 ---

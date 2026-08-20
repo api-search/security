@@ -25,7 +25,7 @@ tags:
 - Investment Reporting
 - Account Aggregation
 - Client Portal
-- OAuth
+- Authentication
 - OpenID Connect
 trust_url: https://www.blueleaf.com/security/
 ---

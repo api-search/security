@@ -50,7 +50,7 @@ tags:
 - Blockchain
 - Tokenization
 - Digital Assets
-- Financial Services
+- Financial-Services
 - Distributed Ledger
 - Smart Contracts
 - Capital Markets

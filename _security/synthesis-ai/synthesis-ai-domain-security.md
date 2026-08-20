@@ -50,8 +50,8 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Synthetic Data
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Artificial Intelligence
 - Digital Humans
 - Training Data

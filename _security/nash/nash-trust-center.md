@@ -200,15 +200,15 @@ summary_line: SOC 2
 tags:
 - Company
 - Delivery
-- Last-Mile Delivery
+- Last Mile Delivery
 - Logistics
 - Dispatch
 - Route Optimization
 - Fleet Management
-- Courier
+- Couriers
 - Shipping
-- Orders
-- Webhooks
+- Order
+- Webhook
 - AI Agents
 trust_url: https://www.nash.ai/legal/security
 ---

@@ -83,12 +83,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/security/inworld-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
 - Artificial Intelligence
 - Voice
-- Text To Speech
-- Speech To Text
-- Realtime
+- Text-to-Speech
+- Speech-to-Text
+- Real-Time
 - LLM Routing
 - Voice Cloning
 - Conversational AI

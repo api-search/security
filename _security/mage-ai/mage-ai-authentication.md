@@ -63,9 +63,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mage-ai-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mage-ai/refs/heads/main/authentication/mage-ai-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Data Pipelines
+- Data Pipeline
 - Orchestration
 - ETL
 - Data Engineering
-- Open Source
+- Open-Source
 ---

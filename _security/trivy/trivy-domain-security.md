@@ -59,7 +59,7 @@ tags:
 - SBOM
 - Security
 - Vulnerability Scanning
-- Open Source
+- Open-Source
 - DevSecOps
 - Cloud Security
 ---

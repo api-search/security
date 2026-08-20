@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wedidit/refs/h
 summary_line: TLSv1.3
 tags:
 - Company
-- Nonprofits
+- Non-Profit
 - Fundraising
 - Crowdfunding
 - Donations

@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ai21-lab
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/authentication/ai21-labs-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Foundation Models
 - LLM
 - Jamba

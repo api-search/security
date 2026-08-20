@@ -22,7 +22,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kyash/refs/hea
 summary_line: ISO/IEC 27001:2022, PCI DSS, TRUSTe
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Payments
 - Fintech
 - Digital Wallet

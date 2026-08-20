@@ -40,5 +40,5 @@ tags:
 - Onboarding
 - Learning
 - HR Technology
-- SaaS
+- Software-as-a-Service
 ---

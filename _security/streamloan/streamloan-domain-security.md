@@ -29,10 +29,10 @@ tags:
 - Mortgage
 - Lending
 - Loan Origination
-- Point of Sale
+- Point-of-Sale
 - Fintech
-- Real Estate
-- SaaS
+- Real-Estate
+- Software-as-a-Service
 - Banking
-- Financial Services
+- Financial-Services
 ---

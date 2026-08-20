@@ -40,5 +40,5 @@ summary_line: TLSv1.3
 tags:
 - Insurance
 - Life Insurance
-- Financial Services
+- Financial-Services
 ---

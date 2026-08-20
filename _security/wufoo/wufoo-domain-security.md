@@ -107,7 +107,7 @@ tags:
 - Form Builder
 - Surveys
 - Data Collection
-- Webhooks
+- Webhook
 - Payments
 - SurveyMonkey
 ---

@@ -38,5 +38,4 @@ tags:
 - Fintech
 - Contractors
 - Merchant of Record
-- API
 ---

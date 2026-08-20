@@ -34,7 +34,7 @@ tags:
 - Company
 - Orchestration
 - Automation
-- Workflow Automation
+- Workflow-Automation
 - Integration
 - Kubernetes
 - Infrastructure as Code

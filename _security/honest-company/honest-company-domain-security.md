@@ -50,7 +50,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Consumer Goods
-- E-commerce
+- E-Commerce
 - Retail
 - Baby Care
 - Personal Care

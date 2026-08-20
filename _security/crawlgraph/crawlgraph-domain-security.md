@@ -38,12 +38,11 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - SEO
 - backlink-intelligence
-- martech
-- competitive-intelligence
-- web-data
+- MarTech
+- Competitive Intelligence
+- Web Data
 - Common-Crawl
 - link-building
-- developer-tools
-- API
+- Developer Tools
 - MCP
 ---

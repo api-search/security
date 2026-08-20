@@ -45,15 +45,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imagine-ai/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
 - Artificial Intelligence
 - B2B
 - Content Marketing
 - LinkedIn
 - Thought Leadership
-- Social Media
+- Social-Media
 - Lead Generation
 - Persona
 - Y Combinator
-- SaaS
+- Software-as-a-Service
 ---

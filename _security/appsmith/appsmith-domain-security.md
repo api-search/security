@@ -61,8 +61,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appsmith/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Low-Code
-- Open Source
+- Open-Source
 - Internal Tools
-- Workflow Automation
+- Workflow-Automation
 - Developer Tools
 ---

@@ -179,7 +179,7 @@ tags:
 - Distributed Tracing
 - Telemetry
 - OpenTelemetry
-- Events
+- Event
 - Logs
 - Metrics
 - SLO

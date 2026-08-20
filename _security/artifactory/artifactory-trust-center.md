@@ -129,7 +129,7 @@ tags:
 - Artifacts
 - DevOps
 - CI/CD
-- Docker Registry
+- docker-registry
 - Maven
 - Package Management
 - Repository

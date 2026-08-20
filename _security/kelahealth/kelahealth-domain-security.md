@@ -34,7 +34,7 @@ tags:
 - Artificial Intelligence
 - Predictive Analytics
 - Perioperative
-- Machine Learning
+- Machine-Learning
 - MedTech
 - Patient Risk
 - HIPAA

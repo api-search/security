@@ -75,7 +75,7 @@ tags:
 - Blockchain
 - Cryptocurrency
 - Fintech
-- Financial Services
+- Financial-Services
 - Custody
 - Tokenization
 - On-Ramp

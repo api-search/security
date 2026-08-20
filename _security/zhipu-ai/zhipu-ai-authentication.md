@@ -47,10 +47,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zhipu-ai
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zhipu-ai/refs/heads/main/authentication/zhipu-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - GLM
 - ChatGLM
-- Multimodal
+- Multi-Modal
 ---

@@ -36,6 +36,6 @@ tags:
 - Wellness
 - Virtual Classes
 - Creator Platform
-- SaaS
+- Software-as-a-Service
 - Health
 ---

@@ -39,7 +39,7 @@ tags:
 - Company
 - Website Builder
 - No-Code
-- eCommerce
+- E-Commerce
 - Creator Economy
 - Small Business
 - Mobile

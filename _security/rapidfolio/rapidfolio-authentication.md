@@ -35,9 +35,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rapidfolio/ref
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
-- Workflow Automation
+- Workflow-Automation
 - Artificial Intelligence
 - Agents
 - Compliance

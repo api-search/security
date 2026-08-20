@@ -67,7 +67,7 @@ tags:
 - University
 - Research
 - Agriculture
-- Agri-Food
+- Agrifood
 - Open Data
 - Netherlands
 ---

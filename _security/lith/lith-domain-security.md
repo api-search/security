@@ -35,7 +35,7 @@ tags:
 - NFT
 - Asset Valuation
 - Smart Contracts
-- Machine Learning
+- Machine-Learning
 - DAO
 - Blockchain
 ---

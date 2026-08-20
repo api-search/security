@@ -42,7 +42,7 @@ tags:
 - Human Capital
 - Strategy
 - Technology
-- AI
+- Artificial Intelligence
 - Research
 - Insights
 - Industry Analysis

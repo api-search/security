@@ -80,16 +80,15 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-cloud/refs/heads/main/security/azure-cloud-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Cloud Computing
 - Databases
-- IaaS
+- Infrastructure-as-a-Service
 - Infrastructure
-- Machine Learning
+- Machine-Learning
 - Microsoft
 - Networking
-- PaaS
-- Platform as a Service
-- SaaS
+- Platform-as-a-Service
+- Software-as-a-Service
 - Storage
 ---

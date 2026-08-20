@@ -62,5 +62,5 @@ tags:
 - Employee Benefits
 - Health
 - B2B
-- Subscriptions
+- Subscription
 ---

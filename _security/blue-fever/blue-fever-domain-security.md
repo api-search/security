@@ -33,7 +33,7 @@ tags:
 - Mental Health
 - Social
 - Wellness
-- AI
+- Artificial Intelligence
 - Consumer App
 - Teens
 - Emotional Support

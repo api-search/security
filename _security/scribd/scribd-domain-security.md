@@ -36,7 +36,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Documents
-- eBooks
+- Ebooks
 - Audiobooks
 - Publishing
 - Content

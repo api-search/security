@@ -32,7 +32,7 @@ tags:
 - Company
 - Consumer
 - Apparel
-- E-commerce
+- E-Commerce
 - Marketplace
 - Print on Demand
 - Design Community

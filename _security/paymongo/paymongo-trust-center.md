@@ -80,7 +80,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/
 summary_line: PCI DSS Level 1 Service Provider
 tags:
 - Payments
-- FinTech
+- Fintech
 - Philippines
 - Southeast Asia
 - GCash

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Health
-- Health Care
+- Healthcare
 - Health Insurance
 - Health Sharing
 - Crowdfunding

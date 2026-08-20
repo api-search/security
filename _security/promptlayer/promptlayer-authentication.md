@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/promptla
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/authentication/promptlayer-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Prompt Engineering
 - Prompt Management

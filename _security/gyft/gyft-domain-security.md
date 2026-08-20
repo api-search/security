@@ -36,5 +36,5 @@ tags:
 - Rewards
 - Incentives
 - Fintech
-- Ecommerce
+- E-Commerce
 ---

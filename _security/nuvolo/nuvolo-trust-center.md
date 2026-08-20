@@ -26,7 +26,7 @@ tags:
 - Connected Workplace
 - Healthcare Technology Management
 - Space Management
-- Real Estate
+- Real-Estate
 - Maintenance Management
 - ServiceNow
 - OT Security

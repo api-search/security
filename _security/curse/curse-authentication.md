@@ -75,7 +75,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Gaming
-- Mods
+- MODS
 - Minecraft
 - Game Content
 - Developer Platform

@@ -49,6 +49,6 @@ tags:
 - Software Development
 - GraphQL
 - SDK
-- Webhooks
+- Webhook
 - DevOps
 ---

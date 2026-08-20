@@ -26,7 +26,7 @@ tags:
 - Newsletters
 - Automation
 - Marketing Automation
-- Webhooks
+- Webhook
 - Email Deliverability
 - Marketing
 trust_url: https://trust.campaignmonitor.meetmarigold.com/

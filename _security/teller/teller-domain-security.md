@@ -62,8 +62,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Banking
 - Financial Data
-- FinTech
+- Fintech
 - Open Banking
-- Transactions
-- Unified API
+- Transaction
+- Unified-API
 ---

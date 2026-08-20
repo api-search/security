@@ -66,10 +66,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/security/glide-apps-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- No Code
+- No-Code
 - App Builder
 - Tables
 - Big Tables
 - Data
-- AI
+- Artificial Intelligence
 ---

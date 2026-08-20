@@ -37,7 +37,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - GraphQL
 - Python
-- Open Source
-- Code First
+- Open-Source
+- Code-First
 - Federation
 ---

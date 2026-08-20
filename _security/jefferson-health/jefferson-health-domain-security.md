@@ -159,7 +159,7 @@ tags:
 - Healthcare
 - Hospital System
 - MyChart
-- OAuth 2.0
+- Authentication
 - Patient Access
 - Provider Directory
 - SMART on FHIR

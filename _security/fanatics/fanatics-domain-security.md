@@ -33,7 +33,7 @@ tags:
 - Consumer
 - Sports
 - Retail
-- Ecommerce
+- E-Commerce
 - Merchandise
 - Collectibles
 ---

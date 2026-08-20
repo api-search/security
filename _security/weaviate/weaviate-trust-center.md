@@ -152,10 +152,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/
 summary_line: SOC 2, ISO 27001
 tags:
 - Vector Database
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Semantic Search
-- Open Source
+- Open-Source
 - GraphQL
 - Kubernetes
 trust_url: https://app.drata.com/trust/6e7c8db4-d0a7-4ed1-90ae-f4710a557ea5

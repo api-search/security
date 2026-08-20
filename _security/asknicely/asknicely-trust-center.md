@@ -57,11 +57,11 @@ summary_line: SOC 2, ISO 27001, PCI DSS, GDPR, CSA STAR (CAIQ), New Zealand Priv
 tags:
 - Company
 - Customer Experience
-- Net Promoter Score
+- NPS
 - Surveys
 - Feedback
 - Reputation Management
-- SaaS
+- Software-as-a-Service
 - Customer Success
 - Reviews
 - SMS

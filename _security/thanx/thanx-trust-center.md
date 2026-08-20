@@ -115,7 +115,7 @@ tags:
 - Marketing
 - CRM
 - Online Ordering
-- Webhooks
+- Webhook
 - Points
 - Rewards
 - Campaigns

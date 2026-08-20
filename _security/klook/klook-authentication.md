@@ -63,7 +63,7 @@ tags:
 - Travel
 - Tours and Activities
 - Booking
-- Experiences
+- Experience
 - Distribution
 - OCTO
 - Hospitality

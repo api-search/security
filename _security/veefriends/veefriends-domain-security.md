@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Collectibles
-- NFTs
+- NFT
 - Trading Cards
 - Entertainment
 - Comics

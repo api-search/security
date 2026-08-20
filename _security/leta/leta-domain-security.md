@@ -48,5 +48,5 @@ tags:
 - Transportation
 - Artificial Intelligence
 - Africa
-- SaaS
+- Software-as-a-Service
 ---

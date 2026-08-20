@@ -48,7 +48,7 @@ tags:
 - Professional Sports League
 - Sports Statistics
 - Media and Entertainment
-- Ecommerce
+- E-Commerce
 - Agent Commerce
 - GraphQL
 - Fantasy Sports

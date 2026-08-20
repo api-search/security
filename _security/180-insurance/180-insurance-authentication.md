@@ -40,6 +40,5 @@ tags:
 - Embedded Insurance
 - Brazil
 - Fintech
-- API
-- Webhooks
+- Webhook
 ---

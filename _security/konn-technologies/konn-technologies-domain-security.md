@@ -33,7 +33,7 @@ tags:
 - Company
 - Construction
 - Architecture
-- Real Estate
+- Real-Estate
 - Construction Technology
 - PropTech
 - Home Design

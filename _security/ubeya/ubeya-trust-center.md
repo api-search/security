@@ -24,7 +24,7 @@ tags:
 - Scheduling
 - Time and Attendance
 - Payroll
-- Events
+- Event
 - Hospitality
 - Human Resources
 trust_url: https://www.ubeya.com/trust-center

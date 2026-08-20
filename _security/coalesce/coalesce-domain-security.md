@@ -93,9 +93,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Transformation
 - Snowflake
-- Data Pipelines
+- Data Pipeline
 - Data Catalog
 - Data Quality
 - Analytics
-- AI
+- Artificial Intelligence
 ---

@@ -33,7 +33,7 @@ tags:
 - Planetary Health
 - Plant-Based
 - Food and Beverage
-- Ecommerce
+- E-Commerce
 - Shopify
 - Agent Commerce
 - UCP

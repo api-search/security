@@ -32,7 +32,7 @@ tags:
 - Company
 - Robotics
 - Robotic Hands
-- Machine Learning
+- Machine-Learning
 - Manipulation
 - Physical AI
 - Hardware

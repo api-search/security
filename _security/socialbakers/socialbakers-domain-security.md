@@ -81,7 +81,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Marketing
-- Social Media
+- Social-Media
 - Analytics
 - Social Media Analytics
 - Social Listening

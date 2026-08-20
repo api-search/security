@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mindtrip/refs/
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Travel
-- AI
+- Artificial Intelligence
 - Agentic AI
 - Itinerary Planning
 - Booking

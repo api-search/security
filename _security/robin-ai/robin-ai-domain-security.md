@@ -63,7 +63,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Legal
-- LegalTech
+- Legal Tech
 - Contract Review
 - Contract Analysis
 - Contract Lifecycle Management

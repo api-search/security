@@ -56,5 +56,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pixelixe/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Graphics
-- Images
+- Image
 ---

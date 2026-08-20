@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quissly-inc/re
 summary_line: TLSv1.3
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Search
 - Artificial Intelligence
 - Conversational Commerce

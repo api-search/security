@@ -21,7 +21,7 @@ summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Board Management
 - Governance
-- Nonprofit
+- Non-Profit
 - Meetings
 - Board Portal
 - Collaboration

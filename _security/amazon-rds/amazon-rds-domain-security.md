@@ -74,7 +74,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud Databases
 - Database Service
-- DBaaS
+- Database-as-a-Service
 - Managed Databases
 - Relational Databases
 ---

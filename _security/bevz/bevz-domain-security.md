@@ -51,12 +51,12 @@ tags:
 - Delivery Management
 - Liquor Retail
 - Convenience Store
-- Point of Sale
+- Point-of-Sale
 - Food Delivery
 - Retail Technology
 - Marketing
 - Menu Management
 - Order Management
-- Webhooks
+- Webhook
 - Integrator API
 ---

@@ -44,7 +44,7 @@ tags:
 - Marketplace
 - Sports
 - Sporting Goods
-- Ecommerce
+- E-Commerce
 - Commerce
 - Inventory
 - Resale

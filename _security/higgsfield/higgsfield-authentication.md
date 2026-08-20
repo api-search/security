@@ -41,11 +41,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/higgsfield/ref
 summary_line: http · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Generative AI
 - Video Generation
-- Image Generation
-- Machine Learning
+- Image-Generation
+- Machine-Learning
 - Media
 - Content Creation
 - Developer API

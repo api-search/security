@@ -63,6 +63,6 @@ tags:
 - Cryptocurrency
 - Web3
 - DeFi
-- Transactions
+- Transaction
 - Tokens
 ---

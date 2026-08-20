@@ -24,12 +24,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/handshake/refs
 summary_line: SOC 2 Type II, PCI DSS, TX-RAMP, UK Cyber Essentials, GDPR, CCPA, EU-U.S. Data Privacy Framework
 tags:
 - Company
-- Hr Tech
+- HR Tech
 - Careers
 - Recruiting
 - Higher Education
 - Talent
 - Students
-- Jobs
+- Job
 trust_url: https://trust.joinhandshake.com/
 ---

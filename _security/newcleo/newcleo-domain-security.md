@@ -36,6 +36,6 @@ tags:
 - Reactors
 - Deep Tech
 - Manufacturing
-- Open Source
+- Open-Source
 - Scientific Computing
 ---

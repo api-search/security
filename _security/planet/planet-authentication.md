@@ -68,5 +68,8 @@ tags:
 - Location
 - Data
 - GIS
+- OGC
+- STAC
+- WMTS
 - Company
 ---

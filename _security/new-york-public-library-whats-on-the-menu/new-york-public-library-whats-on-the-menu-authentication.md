@@ -45,7 +45,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Libraries
 - Menus
-- Restaurants
+- Restaurant
 - History
 - Open Data
 - Food

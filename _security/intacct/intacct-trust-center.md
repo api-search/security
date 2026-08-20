@@ -30,8 +30,8 @@ tags:
 - Cloud Accounting
 - Invoicing
 - Payments
-- SaaS
+- Software-as-a-Service
 - REST API
-- OAuth
+- Authentication
 trust_url: https://www.sage.com/en-gb/trust-security/
 ---

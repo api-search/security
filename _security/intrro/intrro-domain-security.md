@@ -36,5 +36,5 @@ tags:
 - Talent Acquisition
 - Hiring
 - ATS Integration
-- SaaS
+- Software-as-a-Service
 ---

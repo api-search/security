@@ -87,7 +87,7 @@ tags:
 - Beer
 - Brewing
 - Retail
-- eCommerce
+- E-Commerce
 - Consumer Packaged Goods
 - Hospitality
 - Agentic Commerce

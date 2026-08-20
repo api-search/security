@@ -35,7 +35,7 @@ tags:
 - Insurtech
 - Insurance Comparison
 - Personal Finance
-- Financial Services
+- Financial-Services
 - Consumer
 - Germany
 - Mobile App

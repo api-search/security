@@ -89,5 +89,5 @@ tags:
 - Bookings
 - Transportation
 - Location
-- Events
+- Event
 ---

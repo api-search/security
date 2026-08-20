@@ -30,11 +30,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/related-companies/refs/heads/main/security/related-companies-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Real Estate
+- Real-Estate
 - Real Estate Development
 - Residential
 - Affordable Housing
-- Mixed Use Development
+- Mixed-Use Development
 - Commercial Real Estate
 - Retail
 - Hospitality

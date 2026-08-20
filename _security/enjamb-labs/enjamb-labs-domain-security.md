@@ -33,7 +33,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Pharmaceutical
+- Pharmaceuticals
 - Drug Development
 - Clinical Research
 - Regulatory

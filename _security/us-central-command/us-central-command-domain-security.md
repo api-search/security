@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-central-command/refs/heads/main/security/us-central-command-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Federal Government
+- Federal-Government
 - Military
 - Department of Defense
 - National Security

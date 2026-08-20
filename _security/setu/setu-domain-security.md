@@ -41,7 +41,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/setu/refs/head
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Embedded Finance
-- APIs
 - UPI
 - BBPS
 - Account Aggregator

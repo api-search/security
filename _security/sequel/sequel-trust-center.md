@@ -98,7 +98,7 @@ tags:
 - Video
 - Networking
 - Marketing
-- Events
-- Webhooks
+- Event
+- Webhook
 trust_url: https://trust.sequel.io/
 ---

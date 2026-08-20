@@ -253,7 +253,7 @@ tags:
 - Collaboration
 - No-Code
 - Workspace
-- AI
+- Artificial Intelligence
 - Content Management
-- SaaS
+- Software-as-a-Service
 ---

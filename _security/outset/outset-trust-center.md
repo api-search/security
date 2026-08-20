@@ -24,11 +24,10 @@ tags:
 - Research
 - User Research
 - Qualitative Research
-- AI
 - Artificial Intelligence
 - Interviews
 - Market Research
 - Product Research
-- SaaS
+- Software-as-a-Service
 trust_url: https://outset.ai/platform/security
 ---

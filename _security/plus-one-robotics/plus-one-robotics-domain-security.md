@@ -33,7 +33,7 @@ tags:
 - Company
 - Robotics
 - Warehouse Automation
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Logistics
 - Supply Chain

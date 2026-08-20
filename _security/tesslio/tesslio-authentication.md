@@ -284,7 +284,7 @@ tags:
 - Agentic Development
 - Developer Tools
 - Skills Registry
-- Model Context Protocol
+- MCP
 - Spec-Driven Development
 - Code Review
 - CLI

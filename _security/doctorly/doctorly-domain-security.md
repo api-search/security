@@ -35,7 +35,7 @@ tags:
 - Health IT
 - Practice Management
 - Medical Software
-- SaaS
+- Software-as-a-Service
 - Germany
 - Digital Health
 ---

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: zhejiang-mirror-service-openapi.yml
+  format: yaml
+  label: Open Source Software Mirror Service (MirrorZ catalog)
+  slug: mirrors
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/openapi/zhejiang-mirror-service-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,11 +45,15 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/security/zhejiang-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
 - China
-- Identity
-- SSO
+- C9 League
+- Double First-Class
+- Identity Federation
+- Single Sign-On
+- Open Source Mirror
+- Library
 ---

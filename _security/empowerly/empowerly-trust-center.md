@@ -27,13 +27,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/empowerly/refs
 summary_line: SOC 2 Type 2
 tags:
 - Company
-- education
-- edtech
-- college-admissions
-- counseling
-- students
-- career-services
-- consumer-services
-- status-page
+- Education
+- EdTech
+- College Admissions
+- Counseling
+- Students
+- Career Services
+- Consumer Services
+- Status Page
 trust_url: https://empowerly.com/security
 ---

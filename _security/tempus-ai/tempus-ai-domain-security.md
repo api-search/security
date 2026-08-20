@@ -35,5 +35,5 @@ tags:
 - Molecular Diagnostics
 - Oncology
 - Real-World Data
-- AI
+- Artificial Intelligence
 ---

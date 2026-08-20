@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Asset Management
 - Investment Management
-- Financial Services
+- Financial-Services
 - Wealth Management
 - Institutional Investing
 - Fortune 1000

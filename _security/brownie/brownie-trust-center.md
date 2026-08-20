@@ -27,6 +27,6 @@ tags:
 - Artificial Intelligence
 - Developer Tools
 - Automation
-- Open Source
+- Open-Source
 trust_url: https://docs.incidentfox.ai/security
 ---

@@ -946,9 +946,9 @@ tags:
 - E-Commerce
 - Retail
 - Catalog
-- Orders
+- Order
 - Checkout
 - Payments
-- SaaS
+- Software-as-a-Service
 trust_url: https://security.bigcommerce.com/
 ---

@@ -41,7 +41,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/inferles
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/authentication/inferless-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - ML Inference
 - Serverless GPU
 - Model Deployment

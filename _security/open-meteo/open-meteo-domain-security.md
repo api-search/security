@@ -102,11 +102,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-meteo/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Weather
-- Forecasts
+- Forecast
 - Historical Weather
 - Air Quality
 - Marine
 - Climate
-- Open Source
+- Open-Source
 - Free
 ---

@@ -65,9 +65,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/black-crow-ai/
 summary_line: none/session · 3 schemes
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Marketing
 - Advertising
 - Personalization

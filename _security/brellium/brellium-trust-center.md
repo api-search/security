@@ -82,6 +82,5 @@ tags:
 - Audit
 - Behavioral Health
 - Digital Health
-- API
 trust_url: https://www.brellium.com/security
 ---

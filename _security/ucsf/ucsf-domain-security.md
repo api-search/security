@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: ucsf-profiles-json-openapi.yml
+  format: yaml
+  label: UCSF Profiles JSON API
+  slug: profiles-json
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/openapi/ucsf-profiles-json-openapi.yml
+- filename: ucsf-industry-documents-solr-openapi.yml
+  format: yaml
+  label: UCSF Industry Documents Library Solr API
+  slug: industry-documents-solr
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/openapi/ucsf-industry-documents-solr-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,12 +53,20 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/security/ucsf-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- United States
+- California
+- UC System
+- Public Research University
 - Health Sciences
 - Research
 - Researcher Profiles
+- Research Data
 - Open Data
-- United States
+- Library
+- Digital Archive
+- Identity Federation
+- Research Computing
 ---

@@ -58,9 +58,9 @@ tags:
 - HR Tech
 - Payroll
 - Employee Data
-- SaaS
+- Software-as-a-Service
 - Japan
 - Onboarding
 - Social Insurance
-- Webhooks
+- Webhook
 ---

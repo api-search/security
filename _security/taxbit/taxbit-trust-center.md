@@ -26,6 +26,6 @@ tags:
 - Digital Assets
 - Cryptocurrency
 - Accounting
-- Regtech
+- RegTech
 trust_url: https://trust.taxbit.com/
 ---

@@ -43,7 +43,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bls-publ
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/u-s-bureau-of-labor-statistics/refs/heads/main/authentication/u-s-bureau-of-labor-statistics-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Federal Government
+- Federal-Government
 - Labor
 - Statistics
 - Employment

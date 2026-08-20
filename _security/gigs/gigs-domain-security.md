@@ -49,8 +49,8 @@ tags:
 - eSIM
 - MVNO
 - Mobile
-- Subscriptions
+- Subscription
 - Payments
-- Webhooks
+- Webhook
 - Embedded Finance
 ---

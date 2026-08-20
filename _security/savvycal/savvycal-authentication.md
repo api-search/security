@@ -71,5 +71,5 @@ tags:
 - Availability
 - Booking
 - Meetings
-- Webhooks
+- Webhook
 ---

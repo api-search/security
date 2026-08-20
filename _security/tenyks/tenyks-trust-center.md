@@ -39,8 +39,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/he
 summary_line: SOC 2 Type II, GDPR, CCPA
 tags:
 - Company
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - MLOps
 - Data Quality
 - Model Validation

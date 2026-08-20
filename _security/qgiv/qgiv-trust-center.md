@@ -79,12 +79,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/security/qgiv-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Donations
 - Payments
-- Peer to Peer
-- Events
+- Peer-to-Peer
+- Event
 - Bloomerang
 trust_url: https://trust.qgiv.com/
 ---

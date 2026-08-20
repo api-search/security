@@ -51,7 +51,7 @@ tags:
 - Web3
 - Gaming
 - NFT
-- Wallet
+- Wallets
 - JSON-RPC
 - Cryptocurrency
 - Developer Tools

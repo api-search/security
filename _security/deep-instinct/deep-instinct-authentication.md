@@ -66,14 +66,14 @@ source_yaml: "generated: '2026-08-01'\nmethod: searched\nsource: >-\n  https://p
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deep-instinct/refs/heads/main/authentication/deep-instinct-authentication.yml
 summary_line: oauth2/apiKey · 2 schemes
 tags:
-- cybersecurity
-- endpoint-security
+- Cybersecurity
+- Endpoint Security
 - malware-prevention
-- ransomware
-- deep-learning
-- threat-prevention
-- data-security
-- edr
-- soc-automation
-- mcp
+- Ransomware
+- Deep Learning
+- Threat Prevention
+- Data Security
+- EDR
+- SOC Automation
+- MCP
 ---

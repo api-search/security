@@ -32,11 +32,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Customer Research
 - Market Research
 - Customer Feedback
 - Analytics
 - B2B
-- Workflow Automation
+- Workflow-Automation
 ---

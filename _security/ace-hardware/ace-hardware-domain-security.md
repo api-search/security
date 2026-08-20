@@ -48,5 +48,5 @@ tags:
 - Paint
 - Cooperative
 - EDI
-- Affiliate
+- Affiliates
 ---

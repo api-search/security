@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instruct/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Automation
 - Agents
 - Productivity
-- Workflow
-- Integrations
-- SaaS
+- Workflows
+- Integration
+- Software-as-a-Service
 ---

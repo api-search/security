@@ -71,7 +71,7 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Video Conferencing
 - Meetings
-- Communication
+- Communications
 - Collaboration
 - Google Workspace
 - Recordings

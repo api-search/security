@@ -42,7 +42,7 @@ tags:
 - Company
 - Geospatial
 - Augmented Reality
-- Computer Vision
+- Computer-Vision
 - Visual Positioning
 - Spatial Computing
 - SDK

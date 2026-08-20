@@ -46,13 +46,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trend/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- User-Generated Content
+- User Generated Content
 - Creator Economy
 - Content Marketing
 - Video Production
 - Photography
 - Marketing
-- eCommerce
+- E-Commerce
 - Creator Marketplace
 - Influencer Marketing
 - AI Image Generation

@@ -59,7 +59,7 @@ tags:
 - Agentic Analytics
 - Semantic Layer
 - Enterprise Data
-- Model Context Protocol
+- MCP
 - Federated Query
 - Data Governance
 ---

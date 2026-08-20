@@ -52,11 +52,11 @@ tags:
 - Payments
 - Invoicing
 - Payment Gateway
-- E-commerce
+- E-Commerce
 - Billing
 - Fintech
 - Checkout
 - MENA
 - Qatar
-- SaaS
+- Software-as-a-Service
 ---

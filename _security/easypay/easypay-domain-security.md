@@ -40,7 +40,7 @@ tags:
 - Payment Gateway
 - Invoicing
 - Fintech
-- E-commerce
+- E-Commerce
 - Egypt
 - Online Payments
 ---

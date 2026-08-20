@@ -117,6 +117,6 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Communities
 - Forums
-- Open Source
+- Open-Source
 trust_url: https://www.discourse.org/security
 ---

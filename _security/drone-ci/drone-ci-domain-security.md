@@ -69,7 +69,7 @@ tags:
 - DevOps
 - CI/CD
 - Container-Native
-- Open Source
+- Open-Source
 - YAML
 - Harness
 ---

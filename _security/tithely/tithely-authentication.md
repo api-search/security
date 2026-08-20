@@ -71,7 +71,7 @@ tags:
 - Donations
 - Fundraising
 - Payments
-- Nonprofit
+- Non-Profit
 - ChMS
 - Faith
 ---

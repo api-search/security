@@ -58,9 +58,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud Storage
 - Collaboration
-- Document Management
-- Drive
-- Files
+- Document-Management
+- Drives
+- File
 - Google
 - Storage
 ---

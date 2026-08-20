@@ -79,7 +79,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/even-financial
 summary_line: http · 3 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Embedded Finance
 - Fintech
 - Lending

@@ -132,7 +132,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Media
 - Streaming
-- Real-time Streaming
+- Real-Time Streaming
 - WebRTC
 - Live Streaming
 - Low Latency

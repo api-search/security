@@ -253,13 +253,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Facility Management
 - CMMS
 - Property Operations
 - Maintenance
 - Asset Management
-- Real Estate
+- Real-Estate
 - IoT
 - Buildings
 ---

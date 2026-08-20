@@ -44,7 +44,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/f5-opena
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/authentication/f5-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- Applications
+- Application
 - Security
 - Load Balancing
 - API Gateway

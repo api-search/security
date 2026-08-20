@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/catalyst/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Cloud SaaS
+- Cloud Saas
 - Customer Success
-- SaaS
+- Software-as-a-Service
 - Customer Growth
 - Retention
 - Revenue

@@ -33,7 +33,7 @@ tags:
 - Biotechnology
 - Cell Therapy
 - Immunotherapy
-- CAR-T
+- Cart
 - Pharmaceuticals
 - Oncology
 ---

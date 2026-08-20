@@ -34,7 +34,7 @@ tags:
 - Advertising
 - Brand Analytics
 - Brand Lift
-- Measurement
+- Measurements
 - Market Research
 - CTV
 ---

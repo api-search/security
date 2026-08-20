@@ -126,7 +126,7 @@ tags:
 - Developer Tools
 - Testing
 - Agents
-- Model Context Protocol
+- MCP
 - Sandboxes
 - Xcode
 ---

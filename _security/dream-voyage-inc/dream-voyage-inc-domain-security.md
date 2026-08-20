@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dream-voyage-i
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Consumer Apps
 - Mobile
 - Astrology

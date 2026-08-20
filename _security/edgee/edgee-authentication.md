@@ -83,7 +83,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edgee/refs/hea
 summary_line: apiKey/http · 5 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - LLM
 - AI Gateway
 - Agents

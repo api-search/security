@@ -50,6 +50,6 @@ tags:
 - Analytics
 - DRM
 - Advertising
-- Webhooks
+- Webhook
 - Player
 ---

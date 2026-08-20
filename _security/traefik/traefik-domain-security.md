@@ -92,7 +92,7 @@ tags:
 - Kubernetes
 - Load Balancer
 - MCP Gateway
-- Open Source
+- Open-Source
 - Reverse Proxy
 - WAF
 ---

@@ -96,7 +96,7 @@ tags:
 - Dictionaries
 - Linguistics
 - English
-- Thesaurus
+- thesaurus
 - Lexical Data
 - Public APIs
 ---

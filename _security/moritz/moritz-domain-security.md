@@ -35,7 +35,6 @@ tags:
 - Legal Tech
 - Law Firm
 - Artificial Intelligence
-- AI
 - Contracts
 - Y Combinator
 ---

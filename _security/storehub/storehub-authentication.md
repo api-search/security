@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/storehub/refs/
 summary_line: http · 1 scheme
 tags:
 - Company
-- Point of Sale
+- Point-of-Sale
 - Retail
 - Restaurant
 - Inventory Management
 - Payments
-- E-commerce
+- E-Commerce
 - Loyalty
 - Southeast Asia
 - Small Business

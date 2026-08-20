@@ -52,7 +52,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-c
 summary_line: oauth2 · 1 scheme
 tags:
 - Apache Airflow
-- Data Pipelines
+- Data Pipeline
 - Google Cloud
 - Workflow Orchestration
 ---

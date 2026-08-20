@@ -74,6 +74,6 @@ tags:
 - Collaboration
 - Project Management
 - CRM
-- Workflow
+- Workflows
 - Custom Apps
 ---

@@ -50,7 +50,7 @@ tags:
 - Loyalty
 - Membership
 - Coupons
-- Point of Sale
-- Webhooks
+- Point-of-Sale
+- Webhook
 - China
 ---

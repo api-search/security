@@ -54,9 +54,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-elastic-beanstalk/refs/heads/main/security/aws-elastic-beanstalk-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Platform as a Service
+- Platform-as-a-Service
 - Application Deployment
-- Auto Scaling
+- Auto-Scaling
 - Cloud
 - DevOps
 ---

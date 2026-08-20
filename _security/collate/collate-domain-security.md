@@ -61,6 +61,5 @@ tags:
 - Data Discovery
 - Data Quality
 - Data Lineage
-- Open Source
-- API
+- Open-Source
 ---

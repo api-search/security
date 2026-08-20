@@ -144,6 +144,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Billing
 - Metering
-- Open Source
+- Open-Source
 - Usage-Based
 ---

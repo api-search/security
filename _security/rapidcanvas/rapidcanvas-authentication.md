@@ -46,12 +46,12 @@ summary_line: oauth2/http · 2 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Agentic AI
 - Data Science
 - MLOps
 - Enterprise AI
 - AI Governance
-- Low Code
+- Low-Code
 - Developer Tools
 ---

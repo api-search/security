@@ -48,11 +48,11 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Website Builder
-- eCommerce
+- E-Commerce
 - CMS
 - Bookings
 - Payments
 - Headless
-- SaaS
-- No Code
+- Software-as-a-Service
+- No-Code
 ---

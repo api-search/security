@@ -34,5 +34,5 @@ tags:
 - Protein Synthesis
 - Biotechnology
 - Life Sciences
-- AI
+- Artificial Intelligence
 ---

@@ -34,7 +34,7 @@ tags:
 - Fintech
 - Personal Finance
 - Consumer Finance
-- Financial Services
+- Financial-Services
 - Credit Cards
 - Comparison
 ---

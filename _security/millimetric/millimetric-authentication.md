@@ -56,6 +56,6 @@ tags:
 - Privacy
 - MCP
 - AI Agents
-- Events
+- Event
 - Developer Tools
 ---

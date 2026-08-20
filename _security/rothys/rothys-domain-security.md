@@ -35,7 +35,7 @@ tags:
 - Retail
 - Sustainability
 - E-Commerce
-- Direct-to-Consumer
+- Direct to Consumer
 - Consumer Goods
 - Apparel
 ---

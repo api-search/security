@@ -56,7 +56,7 @@ tags:
 - Website Analytics
 - Cookieless
 - Page Views
-- Events
+- Event
 - Reporting
 trust_url: https://usefathom.com/security
 ---

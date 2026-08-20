@@ -32,14 +32,14 @@ tags:
 - AI Launcher
 - AI Browser
 - Local AI
-- Open Source
+- Open-Source
 - Desktop Application
 - Script Runner
 - One-Click Install
-- Image Generation
+- Image-Generation
 - Video Generation
 - Large Language Models
-- Text To Speech
+- Text-to-Speech
 - Voice Cloning
 - Hugging Face
 - Llama

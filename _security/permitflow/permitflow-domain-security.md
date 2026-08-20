@@ -35,7 +35,7 @@ tags:
 - Permitting
 - Government
 - Compliance
-- Real Estate
+- Real-Estate
 - Construction Tech
-- AI
+- Artificial Intelligence
 ---

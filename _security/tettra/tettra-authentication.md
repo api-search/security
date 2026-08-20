@@ -37,8 +37,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tettra/refs/heads/main/authentication/tettra-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Knowledge Management
-- AI
+- Knowledge-Management
+- Artificial Intelligence
 - Team Collaboration
 - Wiki
 - Slack Integration

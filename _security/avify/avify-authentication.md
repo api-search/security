@@ -36,14 +36,14 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Commerce
-- eCommerce
+- E-Commerce
 - CRM
 - WhatsApp
 - Conversational Commerce
 - Inventory
-- Point of Sale
+- Point-of-Sale
 - Payments
-- Orders
+- Order
 - GraphQL
 - Latin America
 - SMB

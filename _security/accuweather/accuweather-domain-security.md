@@ -162,7 +162,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accuweather/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Weather
-- Forecasts
+- Forecast
 - Meteorology
 - Location Services
 - Air Quality

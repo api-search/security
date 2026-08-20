@@ -33,5 +33,5 @@ tags:
 - Node.js
 - Federation
 - WebSocket
-- Open Source
+- Open-Source
 ---

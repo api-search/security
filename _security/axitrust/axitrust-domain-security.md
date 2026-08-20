@@ -33,7 +33,7 @@ tags:
 - Company
 - Fintech
 - Insurance
-- InsurTech
+- Insurtech
 - Surety Bonds
 - MSME
 - India

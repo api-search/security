@@ -36,6 +36,6 @@ tags:
 - Beverages
 - Supplements
 - Health
-- Direct-to-Consumer
+- Direct to Consumer
 - E-Commerce
 ---

@@ -43,9 +43,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/podcastl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/podcastle/refs/heads/main/authentication/podcastle-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Audio
-- Text to Speech
+- Text-to-Speech
 - Voice Cloning
 - Podcasting
 ---

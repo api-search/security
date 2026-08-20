@@ -32,7 +32,7 @@ tags:
 - Fintech
 - Lending
 - NBFC
-- Financial Services
+- Financial-Services
 - India
 - Loans
 - Mortgage

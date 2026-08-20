@@ -51,5 +51,5 @@ tags:
 - Telecom
 - Wireless
 - 5G
-- Open Source
+- Open-Source
 ---

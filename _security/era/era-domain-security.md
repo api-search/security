@@ -35,9 +35,8 @@ tags:
 - Artificial Intelligence
 - Personal Finance
 - Wealth Management
-- Model Context Protocol
 - MCP
-- Agent Native
+- agent-native
 - Open Banking
-- OAuth
+- Authentication
 ---

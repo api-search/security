@@ -73,5 +73,5 @@ tags:
 - Marketing
 - Content
 - Creators
-- AI
+- Artificial Intelligence
 ---

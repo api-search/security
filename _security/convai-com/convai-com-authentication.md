@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/convai-c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/authentication/convai-com-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Conversational AI
 - Characters
 - NPCs

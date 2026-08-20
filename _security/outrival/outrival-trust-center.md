@@ -177,6 +177,6 @@ tags:
 - Customer Engagement
 - Chatbots
 - Contact Center
-- Webhooks
+- Webhook
 trust_url: https://www.outrival.com/security
 ---

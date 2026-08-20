@@ -45,7 +45,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Company
 - Payments
-- FinTech
+- Fintech
 - Trade-In
 - Checkout
 - Commerce

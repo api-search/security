@@ -205,7 +205,6 @@ tags:
 - Authorization
 - Customer Identity
 - Identity Management
-- OAuth
 - OpenID Connect
 - Single Sign-On
 - Multi-Factor Authentication
@@ -213,7 +212,7 @@ tags:
 - Feature Flags
 - Billing
 - B2B
-- SaaS
+- Software-as-a-Service
 - Developer Platform
 trust_url: https://trust.kinde.com/
 ---

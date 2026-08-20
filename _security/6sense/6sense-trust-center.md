@@ -44,14 +44,13 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/security/6sense-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
-- ABM
-- Account-Based Marketing
+- Account Based Marketing
 - Intent Data
 - B2B
 - Predictive Analytics
 - Revenue
 - Sales Intelligence
-- AI
+- Artificial Intelligence
 - Marketing Technology
 trust_url: https://trust.6sense.com/
 ---

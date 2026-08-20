@@ -83,9 +83,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/maven-ag
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/authentication/maven-agi-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Agents
-- Customer Support
+- Customer-Support
 - Customer Experience
 - Conversational AI
 - Knowledge

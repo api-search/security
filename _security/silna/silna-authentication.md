@@ -292,5 +292,4 @@ tags:
 - Eligibility
 - Insurance
 - Revenue Cycle
-- API
 ---

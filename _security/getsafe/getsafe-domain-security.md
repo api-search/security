@@ -34,7 +34,7 @@ tags:
 - Insurtech
 - Insurance
 - Digital Insurance
-- Financial Services
+- Financial-Services
 - Germany
 - Mobile App
 - Embedded Insurance

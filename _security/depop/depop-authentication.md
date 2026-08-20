@@ -125,10 +125,10 @@ tags:
 - Company
 - Fashion
 - Marketplace
-- E-commerce
+- E-Commerce
 - Resale
 - Retail
 - Inventory Management
-- Orders
+- Order
 - Sustainability
 ---

@@ -33,11 +33,11 @@ tags:
 - Company
 - Enterprise
 - Fintech
-- Financial Services
+- Financial-Services
 - Credit
 - Credit Building
 - Rent Reporting
-- Real Estate
+- Real-Estate
 - Identity Verification
 - Income Verification
 ---

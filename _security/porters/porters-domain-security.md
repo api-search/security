@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Banking
-- Financial Services
+- Financial-Services
 - Back Office Automation
 - AI Agents
 - Compliance

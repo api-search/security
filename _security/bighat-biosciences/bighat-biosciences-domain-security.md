@@ -33,7 +33,7 @@ tags:
 - Company
 - Biotechnology
 - Antibody Design
-- Machine Learning
+- Machine-Learning
 - Drug Discovery
 - Therapeutics
 - Artificial Intelligence

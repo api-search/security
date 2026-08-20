@@ -57,5 +57,5 @@ tags:
 - Microservices
 - Monitoring
 - Observability
-- Open Source
+- Open-Source
 ---

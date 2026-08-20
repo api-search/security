@@ -37,6 +37,6 @@ tags:
 - Website Builder
 - Landing Page
 - Portfolio
-- AI
+- Artificial Intelligence
 - Lead Capture
 ---

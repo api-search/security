@@ -70,6 +70,6 @@ tags:
 - No-Code
 - Free
 - Notion-style
-- Webhooks
+- Webhook
 - MCP
 ---

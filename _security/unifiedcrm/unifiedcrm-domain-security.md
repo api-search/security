@@ -33,6 +33,6 @@ tags:
 - CRM
 - Sales
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Startups
 ---

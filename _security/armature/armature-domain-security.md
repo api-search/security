@@ -38,7 +38,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Agent Experience
-- Model Context Protocol
 - MCP
 - Analytics
 - Observability

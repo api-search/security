@@ -33,7 +33,7 @@ tags:
 - Energy Storage
 - Pumped Hydro
 - Offshore
-- Long-Duration Energy Storage
+- Long Duration Energy Storage
 - Renewable Energy
 - Clean Energy
 ---

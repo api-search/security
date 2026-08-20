@@ -38,11 +38,9 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - AI Agents
 - Agentic Infrastructure
-- Integrations
+- Integration
 - Developer Tools
 - Serverless
-- API
 ---

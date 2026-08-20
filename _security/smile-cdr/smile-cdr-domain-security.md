@@ -52,7 +52,7 @@ tags:
 - Terminology Services
 - MDM
 - Bulk Data
-- Subscriptions
+- Subscription
 - CMS Interoperability
 - Prior Authorization
 - Digital Quality Measures

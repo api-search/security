@@ -59,7 +59,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/koda-health/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Health Care
+- Healthcare
 - Digital Health
 - Advance Care Planning
 - Serious Illness Care
@@ -70,5 +70,5 @@ tags:
 - HL7 FHIR
 - Interoperability
 - HIPAA
-- Value Based Care
+- Value-Based Care
 ---

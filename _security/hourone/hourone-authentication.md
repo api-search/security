@@ -78,8 +78,8 @@ tags:
 - Video Generation
 - Generative AI
 - AI Avatars
-- Text to Speech
+- Text-to-Speech
 - Media
 - Content Creation
-- Webhooks
+- Webhook
 ---

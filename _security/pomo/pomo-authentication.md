@@ -67,15 +67,15 @@ summary_line: http/apiKey · 2 schemes
 tags:
 - Company
 - Marketing
-- AI
+- Artificial Intelligence
 - Market Intelligence
 - Competitive Intelligence
 - Marketing Automation
 - Generative AI
-- SaaS
+- Software-as-a-Service
 - Answer Engine Optimization
 - Advertising
-- Social Media
+- Social-Media
 - Influencer Marketing
 - Campaign Management
 ---

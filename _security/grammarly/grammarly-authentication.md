@@ -42,12 +42,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grammarly/refs
 summary_line: oauth2 · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Writing Assistance
 - Productivity
 - Natural Language Processing
 - Analytics
 - Content
-- OAuth
+- Authentication
 - Enterprise
 ---

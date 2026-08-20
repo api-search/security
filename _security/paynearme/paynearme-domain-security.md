@@ -35,8 +35,8 @@ tags:
 - Billing
 - ACH
 - Cash Payments
-- Digital Wallets
+- Digital Wallet
 - Lending
 - iGaming
-- Webhooks
+- Webhook
 ---

@@ -35,7 +35,7 @@ tags:
 - Shipping
 - Trade
 - Supply Chain
-- Exports
+- Export
 - Vessel Schedules
 - Freight Forwarding
 ---

@@ -24,13 +24,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR
 tags:
 - Company
-- Proptech
+- PropTech
 - Notarization
 - Remote Online Notarization
 - Identity Verification
-- eSignature
+- E-Signature
 - Digital Credentials
-- Real Estate
+- Real-Estate
 - Mortgage
 - Legal Tech
 trust_url: https://security.proof.com/

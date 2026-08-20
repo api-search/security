@@ -34,7 +34,7 @@ tags:
 - On-Demand
 - Food Delivery
 - Logistics
-- White-Label
-- SaaS
+- White Label
+- Software-as-a-Service
 - Marketplace
 ---

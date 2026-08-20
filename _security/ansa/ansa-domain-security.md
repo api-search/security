@@ -98,5 +98,4 @@ tags:
 - Digital Wallet
 - Loyalty
 - Incentives
-- API
 ---

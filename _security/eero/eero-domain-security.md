@@ -35,7 +35,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Networking
-- WiFi
+- Wi-Fi
 - Mesh Networking
 - Home Networking
 - Smart Home

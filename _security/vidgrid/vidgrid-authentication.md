@@ -82,7 +82,7 @@ tags:
 - Screen Recording
 - Captions
 - Video Hosting
-- Webhooks
+- Webhook
 - Training
 - HR
 ---

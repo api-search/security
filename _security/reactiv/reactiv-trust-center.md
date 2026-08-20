@@ -19,13 +19,13 @@ summary_line: trust center published
 tags:
 - Company
 - Mobile
-- eCommerce
+- E-Commerce
 - Shopify
 - Mobile App Builder
 - Commerce
 - App Clips
 - Retail
 - No-Code
-- AI
+- Artificial Intelligence
 trust_url: https://docs.reactivapp.com/
 ---

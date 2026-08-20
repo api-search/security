@@ -77,13 +77,13 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Embedded Finance
 - Banking as a Service
-- BaaS
+- Backend-as-a-Service
 - Payments
 - ACH
 - Wire
-- Push-to-Card
+- Push to Card
 - Lending
-- Accounts
+- Account
 - Cards
 - Fintech
 - RTP

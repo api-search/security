@@ -66,7 +66,7 @@ tags:
 - Security
 - Web3
 - Blockchain
-- Wallet
+- Wallets
 - Transaction Scanning
 - Fraud Prevention
 - Cryptocurrency

@@ -38,7 +38,7 @@ tags:
 - Company
 - Consumer
 - Marketplace
-- E-commerce
+- E-Commerce
 - Resale
 - Secondhand
 - Fashion

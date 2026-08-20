@@ -22,13 +22,13 @@ tags:
 - Company
 - Payments
 - Payment Recovery
-- Subscriptions
+- Subscription
 - Dunning
 - Involuntary Churn
 - Dispute Prevention
 - Chargebacks
 - Card Vault
 - Fintech
-- Machine Learning
+- Machine-Learning
 trust_url: https://security.butterpayments.com/
 ---

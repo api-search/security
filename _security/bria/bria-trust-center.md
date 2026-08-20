@@ -101,11 +101,11 @@ summary_line: SOC 2, ISO 27001, C2PA
 tags:
 - Artificial Intelligence
 - Generative AI
-- Images
-- Image Generation
+- Image
+- Image-Generation
 - Image Editing
 - Video
-- Machine Learning
+- Machine-Learning
 - Media
 - Content
 - Agents

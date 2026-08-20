@@ -54,7 +54,6 @@ tags:
 - Embedded Insurance
 - Claims
 - Policy
-- API
 - Fintech
 - Belgium
 ---

@@ -37,11 +37,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1mind/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Agents
 - Sales
 - Go-To-Market
 - Conversational AI
 - Sales Enablement
-- RevOps
+- Revenue Operations
 ---

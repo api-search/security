@@ -42,7 +42,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - AI Security
-- Machine Learning
+- Machine-Learning
 - LLM Security
 - Red Teaming
 - AI Firewall

@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Medical Devices
-- Medtech
+- MedTech
 - Healthcare
 - Cardiovascular
 - Medical Imaging

@@ -174,8 +174,8 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
 - Commercial Real Estate
-- Real Estate
-- Proptech
+- Real-Estate
+- PropTech
 - CRE Financing
 - Lending
 - CRM

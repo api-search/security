@@ -36,5 +36,5 @@ tags:
 - Artificial Intelligence
 - Content Generation
 - Marketing
-- SaaS
+- Software-as-a-Service
 ---

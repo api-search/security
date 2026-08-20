@@ -58,5 +58,5 @@ tags:
 - Multi-Agent
 - Memory
 - Tools
-- Open Source
+- Open-Source
 ---

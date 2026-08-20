@@ -811,10 +811,10 @@ summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Government
 - Environmental
-- OpenData
-- AirQuality
-- WaterQuality
-- HazardousWaste
+- Open Data
+- Air Quality
+- Water Quality
+- Hazardous Waste
 - Compliance
 - Emissions
 ---

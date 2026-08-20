@@ -32,7 +32,7 @@ summary_line: connection-string · 1 scheme
 tags:
 - Company
 - Ai Ml
-- Machine Learning
+- Machine-Learning
 - Vector Search
 - Embeddings
 - PostgreSQL

@@ -50,7 +50,7 @@ tags:
 - Customer Engagement
 - Messaging
 - Video Conferencing
-- Workflow
+- Workflows
 - Embedded SDK
-- Communication
+- Communications
 ---

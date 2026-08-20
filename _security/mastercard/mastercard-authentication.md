@@ -1101,7 +1101,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Credit Cards
 - Digital Identity
-- Financial Services
+- Financial-Services
 - Fraud Detection
 - Open Banking
 - Payments

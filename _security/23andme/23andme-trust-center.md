@@ -28,7 +28,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/23andme/refs/h
 summary_line: HIPAA Compliance, ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 27018, Genetic Information Nondiscrimination Act (GINA), General Data Protection Regulation (GDPR), State Consumer Privacy & Health Privacy Laws (U.S.), FDA Authorization, Common Rule
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Genetics
 - Genomics
 - DNA Testing

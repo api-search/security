@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doctor-droid/r
 summary_line: http · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AIOps
 - SRE
 - Incident Response

@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vesence/refs/h
 summary_line: TLSv1.3
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Agentic AI
 - Legal Tech
 - Professional Services

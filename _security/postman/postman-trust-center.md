@@ -251,7 +251,7 @@ tags:
 - Automation
 - CI/CD
 - Collaboration
-- Collections
+- Collection
 - Compliance
 - Discovery
 - Environments

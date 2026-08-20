@@ -86,7 +86,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azur
 summary_line: http · 2 schemes
 tags:
 - Automation
-- Build
+- Builds
 - CI/CD
 - Deployment
 - DevOps

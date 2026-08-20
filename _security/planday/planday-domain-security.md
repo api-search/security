@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planday/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Workforce Management
 - Scheduling
 - Time Tracking
@@ -39,5 +39,5 @@ tags:
 - Hospitality
 - Retail
 - REST
-- OAuth2
+- Authentication
 ---

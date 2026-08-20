@@ -72,8 +72,8 @@ tags:
 - Confluent
 - Data Governance
 - Data Streaming
-- JSON Schema
-- Open Source
+- JSON-Schema
+- Open-Source
 - Protobuf
 - REST
 - Schema Evolution

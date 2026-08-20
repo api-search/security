@@ -70,7 +70,7 @@ tags:
 - United Kingdom
 - Regulator
 - Market Infrastructure
-- Financial Services
+- Financial-Services
 - Public Register
 - Conduct Regulation
 - Open Finance

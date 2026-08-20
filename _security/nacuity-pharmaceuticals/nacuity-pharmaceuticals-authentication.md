@@ -81,13 +81,13 @@ summary_line: 0 schemes
 tags:
 - Company
 - biopharmaceuticals
-- pharmaceuticals
-- ophthalmology
-- rare-disease
-- clinical-trials
+- Pharmaceuticals
+- Ophthalmology
+- Rare Disease
+- Clinical Trials
 - retinitis-pigmentosa
 - oxidative-stress
-- life-sciences
-- drug-development
+- Life Sciences
+- Drug Development
 - content-api
 ---

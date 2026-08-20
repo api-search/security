@@ -31,11 +31,11 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Hospitality
-- Restaurants
+- Restaurant
 - Reservations
 - Booking
 - CRM
 - WhatsApp
 - Latin America
-- SaaS
+- Software-as-a-Service
 ---

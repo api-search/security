@@ -49,7 +49,7 @@ summary_line: http · 1 scheme
 tags:
 - Creator Economy
 - Memberships
-- Subscriptions
+- Subscription
 - Tips
 - Payments
 - Donations

@@ -140,8 +140,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare
 - HIPAA
-- Health Care
-- Communication
+- Communications
 - Secure Messaging
 - Telehealth
 - Patient Engagement
@@ -153,7 +152,7 @@ tags:
 - VoIP
 - Fax
 - Video
-- Webhooks
+- Webhook
 - Scheduling
 - Transcription
 - EHR Integration

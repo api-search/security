@@ -86,7 +86,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Insurance
 - Embedded Insurance
-- InsurTech
-- Insurance as a Service
+- Insurtech
+- Insurance As A Service
 - Protection
 ---

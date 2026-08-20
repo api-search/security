@@ -33,6 +33,6 @@ tags:
 - Benchmarks
 - Credit Ratings
 - Finance
-- Financial Services
+- Financial-Services
 - Fortune 500
 ---

@@ -43,23 +43,22 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nx-dev/refs/he
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Monorepo
-- Build
-- BuildSystem
+- Builds
+- Build System
 - TaskRunner
-- DependencyGraph
+- Dependency-Graph
 - Cache
-- RemoteCache
+- Remote Cache
 - CI
 - DistributedExecution
-- DeveloperTools
-- DeveloperExperience
+- Developer Tools
+- Developer Experience
 - IDE
-- AI
+- Artificial Intelligence
 - Agents
 - MCP
-- ModelContextProtocol
 - TypeScript
 - JavaScript
 - Rust
-- OpenSource
+- Open-Source
 ---

@@ -53,7 +53,7 @@ tags:
 - Company
 - Frontier Tech
 - Augmented Reality
-- Computer Vision
+- Computer-Vision
 - Mapping
 - Localization
 - Spatial Computing

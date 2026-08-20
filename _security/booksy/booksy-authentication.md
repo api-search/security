@@ -51,5 +51,5 @@ tags:
 - Spas
 - Payments
 - Small Business
-- Webhooks
+- Webhook
 ---

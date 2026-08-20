@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: unsw-sydney-unsworks-dspace-openapi.yml
+  format: yaml
+  label: UNSWorks Repository REST API (DSpace 7.0)
+  slug: unsworks-rest
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/openapi/unsw-sydney-unsworks-dspace-openapi.yml
+- filename: unsw-sydney-unsworks-oai-pmh-openapi.yml
+  format: yaml
+  label: UNSWorks Repository OAI-PMH
+  slug: unsworks-oai
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/openapi/unsw-sydney-unsworks-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa:
@@ -45,11 +58,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/security/unsw-sydney-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
-- Open Repository
 - Australia
+- Group of Eight
 - Sydney
+- Research Repository
+- Identity Federation
+- Course Catalog
+- Library
+- Open Repository
 ---

@@ -47,5 +47,5 @@ tags:
 - Zero Trust
 - DevSecOps
 - IAM
-- Open Source
+- Open-Source
 ---

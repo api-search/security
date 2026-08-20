@@ -37,8 +37,8 @@ tags:
 - AML
 - Accreditation
 - Compliance
-- Financial Services
+- Financial-Services
 - Onboarding
 - Investor Verification
-- Webhooks
+- Webhook
 ---

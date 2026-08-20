@@ -37,5 +37,5 @@ tags:
 - Software Evaluation
 - Sourcing
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 ---

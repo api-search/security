@@ -35,6 +35,6 @@ tags:
 - B2B Payments
 - Invoicing
 - Cash Application
-- Collections
-- Order to Cash
+- Collection
+- Order-to-Cash
 ---

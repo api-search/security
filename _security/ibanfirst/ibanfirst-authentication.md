@@ -108,18 +108,18 @@ summary_line: apiKey/oauth2/mutualTLS · 3 schemes
 tags:
 - Company
 - Fintech Insurtech
-- cross-border-payments
-- foreign-exchange
-- b2b-payments
-- treasury
+- Cross-Border Payments
+- Foreign Exchange
+- B2B Payments
+- Treasury
 - multi-currency-accounts
-- swift
-- sepa
-- psd2
-- open-banking
+- Swift
+- SEPA
+- PSD2
+- Open Banking
 - currency-risk-management
-- webhooks
-- mcp
-- belgium
-- europe
+- Webhook
+- MCP
+- Belgium
+- Europe
 ---

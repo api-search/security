@@ -30,8 +30,8 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Prefab
-- Proptech
-- Real Estate
+- PropTech
+- Real-Estate
 - Construction
 - Architecture
 - Design

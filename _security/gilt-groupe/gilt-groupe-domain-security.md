@@ -32,9 +32,9 @@ tags:
 - Company
 - Consumer
 - Retail
-- E-commerce
+- E-Commerce
 - Fashion
 - Flash Sale
 - Scala
-- Open Source
+- Open-Source
 ---

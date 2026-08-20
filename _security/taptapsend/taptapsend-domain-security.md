@@ -41,5 +41,5 @@ tags:
 - Fintech
 - Payments
 - Mobile Money
-- Financial Services
+- Financial-Services
 ---

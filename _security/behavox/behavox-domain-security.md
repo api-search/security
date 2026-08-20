@@ -35,6 +35,6 @@ tags:
 - Surveillance
 - RegTech
 - Artificial Intelligence
-- Financial Services
+- Financial-Services
 - Security
 ---

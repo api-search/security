@@ -37,5 +37,5 @@ tags:
 - Dental
 - Teledentistry
 - Consumer Health
-- Direct-to-Consumer
+- Direct to Consumer
 ---

@@ -49,8 +49,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/black-fo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/black-forest-labs/refs/heads/main/authentication/black-forest-labs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
-- Image Generation
+- Artificial Intelligence
+- Image-Generation
 - Flux
 - Open Weights
 - BFL

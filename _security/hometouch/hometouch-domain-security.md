@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hometouch/refs
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Health Care
+- Healthcare
 - Home Care
 - Elderly Care
 - Dementia Care

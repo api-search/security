@@ -32,6 +32,5 @@ tags:
 - Editorial Workflow
 - Regulated Content
 - Compliance
-- API
 trust_url: https://contently.com/trust/security/
 ---

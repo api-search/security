@@ -38,9 +38,9 @@ tags:
 - B2B
 - Marketing Automation
 - CRM Integration
-- Account-Based Marketing
+- Account Based Marketing
 - Sales Enablement
-- AI
+- Artificial Intelligence
 - Personalization
 - Direct Mail
 ---

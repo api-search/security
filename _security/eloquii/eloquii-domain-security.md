@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Retail
-- Ecommerce
+- E-Commerce
 - Fashion
 - Apparel
 - Plus Size

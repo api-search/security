@@ -61,6 +61,6 @@ tags:
 - Data Collaboration
 - Sales Intelligence
 - CRM
-- Webhooks
+- Webhook
 - MCP
 ---

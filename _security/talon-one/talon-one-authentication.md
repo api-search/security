@@ -165,6 +165,6 @@ tags:
 - Rules Engine
 - Referrals
 - Discounts
-- Ecommerce
+- E-Commerce
 - Retail
 ---

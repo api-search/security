@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finrep/refs/he
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Financial Reporting
 - SEC Filings
 - Accounting

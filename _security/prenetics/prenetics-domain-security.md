@@ -35,7 +35,7 @@ tags:
 - Longevity
 - Nutrition
 - Supplements
-- Ecommerce
+- E-Commerce
 - Agent Commerce
 - MCP
 - UCP

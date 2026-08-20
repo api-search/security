@@ -94,7 +94,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airwallex/refs
 summary_line: apiKey/http · 3 schemes
 tags:
 - Cross-Border Payments
-- FinTech
+- Fintech
 - Foreign Exchange
 - Payments
 - Global

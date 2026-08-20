@@ -1623,7 +1623,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce/ref
 summary_line: SOC 1 (SSAE 18 / ISAE 3402), SOC 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, ISO 42001 (AI management system), PCI DSS, HIPAA, HITRUST, FedRAMP, TX-RAMP, CSA STAR, NIST, GDPR
 tags:
 - Fortune 500
-- AI
+- Artificial Intelligence
 - Analytics
 - Cloud
 - Commerce

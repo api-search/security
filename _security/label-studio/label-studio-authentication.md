@@ -475,11 +475,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/label-st
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/authentication/label-studio-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
-- Annotation
 - Artificial Intelligence
+- Annotation
 - Data Labeling
 - LLM
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 ---

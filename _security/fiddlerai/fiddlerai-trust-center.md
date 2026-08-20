@@ -21,7 +21,7 @@ summary_line: SOC 2 Type II, HIPAA
 tags:
 - Company
 - AI Observability
-- Machine Learning
+- Machine-Learning
 - LLM
 - Model Monitoring
 - Guardrails

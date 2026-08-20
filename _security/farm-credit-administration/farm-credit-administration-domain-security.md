@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Agriculture
 - Farms
-- Federal Government
+- Federal-Government
 - Finance
-- Regulation
+- Regulations
 ---

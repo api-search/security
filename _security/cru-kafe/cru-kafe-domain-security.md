@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Coffee
-- Ecommerce
+- E-Commerce
 - Retail
 - Consumer Goods
 - Food and Beverage

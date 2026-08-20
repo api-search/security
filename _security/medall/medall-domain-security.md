@@ -35,7 +35,7 @@ tags:
 - Medical Education
 - Education
 - Training
-- Events
+- Event
 - Continuing Medical Education
-- HealthTech
+- Health Tech
 ---

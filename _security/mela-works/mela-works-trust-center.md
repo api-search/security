@@ -26,8 +26,8 @@ tags:
 - Project Management
 - Productivity
 - Mobile
-- AI
-- Document Management
-- SaaS
+- Artificial Intelligence
+- Document-Management
+- Software-as-a-Service
 trust_url: https://www.mela.work/compliance-center-legality-security-and-evidential-validity
 ---

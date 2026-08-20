@@ -63,7 +63,7 @@ tags:
 - AI Search
 - Full-Text Search
 - Hybrid Search
-- Open Source
+- Open-Source
 - Search
 trust_url: https://trust.meilisearch.com/
 ---

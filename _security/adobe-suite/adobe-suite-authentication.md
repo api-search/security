@@ -268,7 +268,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/ (70 do
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/authentication/adobe-suite-authentication.yml
 summary_line: apiKey/http · 12 schemes
 tags:
-- Ai
+- Artificial Intelligence
 - Analytics
 - Automation
 - Commerce

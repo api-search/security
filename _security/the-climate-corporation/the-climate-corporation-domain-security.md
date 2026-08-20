@@ -85,5 +85,4 @@ tags:
 - Digital Agriculture
 - Farm Management
 - Geospatial
-- APIs
 ---

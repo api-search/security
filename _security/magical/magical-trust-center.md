@@ -24,7 +24,7 @@ tags:
 - AI Agents
 - Healthcare
 - Revenue Cycle Management
-- Workflow Automation
+- Workflow-Automation
 - Automation
 - Productivity
 trust_url: https://www.getmagical.com/trust

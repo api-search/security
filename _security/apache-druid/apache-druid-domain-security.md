@@ -46,7 +46,7 @@ tags:
 - Database
 - Kafka
 - OLAP
-- Open Source
+- Open-Source
 - Real-Time
 - SQL
 - Time Series

@@ -76,5 +76,5 @@ tags:
 - Employee Recognition
 - Account Based Marketing
 - SCIM Provisioning
-- Webhooks
+- Webhook
 ---

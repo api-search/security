@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - B2B
 - Supply Chain
 - Wholesale Distribution

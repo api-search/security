@@ -43,13 +43,13 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/security/searchapi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- search
-- serp-api
-- google-search
-- web-scraping
-- search-data
-- market-intelligence
-- seo
-- mcp
+- Search
+- SERP API
+- Google Search
+- Web Scraping
+- Search data
+- Market Intelligence
+- SEO
+- MCP
 - agent-native
 ---

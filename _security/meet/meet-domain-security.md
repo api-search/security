@@ -82,7 +82,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Video Conferencing
 - Meetings
-- Communication
+- Communications
 - Collaboration
 - Google Workspace
 - Recordings

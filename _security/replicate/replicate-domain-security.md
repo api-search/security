@@ -133,8 +133,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/replicate/refs
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence
-- Machine Learning
-- Image Generation
+- Machine-Learning
+- Image-Generation
 - Language Models
 - Model Deployment
 ---

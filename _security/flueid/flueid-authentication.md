@@ -40,12 +40,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/he
 summary_line: http · 1 scheme
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Title Insurance
 - Mortgage
 - Property Data
 - Verification of Title
-- Financial Services
+- Financial-Services
 - Lending
 - PropTech
 - Settlement Services

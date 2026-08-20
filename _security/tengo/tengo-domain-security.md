@@ -35,7 +35,7 @@ tags:
 - Tenders
 - GovTech
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - France
 - Procurement
 ---

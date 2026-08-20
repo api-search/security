@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Education
-- eLearning
+- E-Learning
 - LMS
 - Online Courses
 - Employee Training

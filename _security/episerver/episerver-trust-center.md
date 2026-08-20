@@ -31,6 +31,6 @@ tags:
 - Experimentation
 - Personalization
 - GraphQL
-- SDKs
+- SDK
 trust_url: https://www.optimizely.com/trust-center/compliance
 ---

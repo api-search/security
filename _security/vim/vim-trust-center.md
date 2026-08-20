@@ -58,6 +58,6 @@ tags:
 - Interoperability
 - Value-Based Care
 - Care Gaps
-- OAuth
+- Authentication
 trust_url: https://compliance-self-service.getvim.com
 ---

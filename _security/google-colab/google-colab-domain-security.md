@@ -66,7 +66,7 @@ tags:
 - Data Science
 - Google Cloud
 - Jupyter
-- Machine Learning
+- Machine-Learning
 - Notebooks
 - Python
 ---

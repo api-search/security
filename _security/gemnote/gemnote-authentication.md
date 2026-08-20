@@ -54,7 +54,7 @@ tags:
 - Swag Management
 - Branded Merchandise
 - Fulfillment
-- E-commerce
+- E-Commerce
 - Shipping
 - Y Combinator
 ---

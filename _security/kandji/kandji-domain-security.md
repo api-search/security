@@ -67,15 +67,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/he
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- device-management
-- mobile-device-management
+- Device Management
+- Mobile Device Management
 - apple-management
-- endpoint-security
+- Endpoint Security
 - endpoint-detection-response
-- vulnerability-management
-- compliance-automation
-- workforce-identity
-- it-operations
-- mcp
+- Vulnerability Management
+- Compliance Automation
+- Workforce Identity
+- IT Operations
+- MCP
 - agent-native
 ---

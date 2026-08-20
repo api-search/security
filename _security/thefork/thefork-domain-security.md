@@ -75,6 +75,6 @@ tags:
 - Reservations
 - Booking
 - Dining
-- Point Of Sale
+- Point-of-Sale
 - Marketplace
 ---

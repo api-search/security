@@ -112,7 +112,7 @@ tags:
 - Payments
 - Payment Gateway
 - South Africa
-- Subscriptions
+- Subscription
 - Recurring Billing
 - Tokenization
 - Instant EFT

@@ -70,6 +70,6 @@ tags:
 - Data Management
 - Analytics
 - Query Optimization
-- AI
+- Artificial Intelligence
 - MCP
 ---

@@ -36,6 +36,6 @@ tags:
 - Precision Medicine
 - Oncology
 - Cancer Diagnostics
-- Machine Learning
+- Machine-Learning
 - Digital Pathology
 ---

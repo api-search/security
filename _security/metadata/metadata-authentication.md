@@ -77,7 +77,6 @@ tags:
 - B2B
 - Artificial Intelligence
 - MCP
-- Model Context Protocol
 - AI Agents
 - Paid Media
 - Account Based Marketing

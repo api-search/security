@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/aws-code
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/authentication/aws-codebuild-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Build
+- Builds
 - CI/CD
 - Continuous Integration
 - Developer Tools

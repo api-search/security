@@ -40,7 +40,7 @@ tags:
 - Company
 - Healthcare
 - Staffing
-- Jobs
+- Job
 - Marketplace
 - Travel Nursing
 - Allied Health

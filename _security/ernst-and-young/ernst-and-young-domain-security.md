@@ -38,18 +38,18 @@ tags:
 - Tax
 - Law
 - Strategy
-- Transactions
+- Transaction
 - Corporate Finance
 - Technology
-- Managed Services
+- Managed Service
 - People And Workforce
 - Sustainability
 - ESG
 - Risk
-- AI
+- Artificial Intelligence
 - Agentic AI
 - Blockchain
-- Zero Knowledge Proofs
+- Zero-Knowledge Proofs
 - Privacy
 - Insights
 - Research

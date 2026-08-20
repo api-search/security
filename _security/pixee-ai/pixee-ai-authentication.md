@@ -71,6 +71,6 @@ tags:
 - Static Analysis
 - SARIF
 - Code Security
-- AI
+- Artificial Intelligence
 - Developer Tools
 ---

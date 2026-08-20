@@ -75,9 +75,9 @@ tags:
 - Reverse Logistics
 - Returns Management
 - Donations
-- Nonprofits
+- Non-Profit
 - Retail
-- Ecommerce
+- E-Commerce
 - Sustainability
 - Circular Economy
 - Shipping

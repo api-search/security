@@ -171,6 +171,6 @@ tags:
 - Sourcing
 - Video Interviews
 - Assessments
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.workable.com/security
 ---

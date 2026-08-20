@@ -53,7 +53,7 @@ summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company
 - Commerce
-- E-commerce
+- E-Commerce
 - Retail
 - Pet Supplies
 - Agentic Commerce

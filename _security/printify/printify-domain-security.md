@@ -77,7 +77,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/printify/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Print on Demand
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Fulfillment
 - Merchandise

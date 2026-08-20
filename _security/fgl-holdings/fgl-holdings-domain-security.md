@@ -39,5 +39,5 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
 - Annuities
-- Financial Services
+- Financial-Services
 ---

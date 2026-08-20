@@ -34,6 +34,6 @@ tags:
 - Games
 - Natural Language Processing
 - ClojureScript
-- Open Source
+- Open-Source
 - Y Combinator
 ---

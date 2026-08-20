@@ -70,7 +70,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apps Script
 - Automation
-- Deployments
+- Deployment
 - Google
 - Google Workspace
 - Scripting

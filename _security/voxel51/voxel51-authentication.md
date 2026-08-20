@@ -49,9 +49,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/voxel51-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voxel51/refs/heads/main/authentication/voxel51-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
-- Computer Vision
+- Artificial Intelligence
+- Computer-Vision
 - Datasets
-- Machine Learning
+- Machine-Learning
 - Python SDK
 ---

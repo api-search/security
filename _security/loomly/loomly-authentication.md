@@ -27,7 +27,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: >-\n  Live probes
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/authentication/loomly-authentication.yml
 summary_line: oauth2/none · 0 schemes
 tags:
-- Social Media
+- Social-Media
 - Content Calendar
 - Scheduling
 - Approval Workflows

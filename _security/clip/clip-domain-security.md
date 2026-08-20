@@ -50,7 +50,7 @@ tags:
 - Payments
 - Acquiring
 - SMB Payments
-- Point of Sale
+- Point-of-Sale
 - mPOS
 - Tap to Pay
 - Card Acceptance

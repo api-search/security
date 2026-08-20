@@ -28,7 +28,7 @@ tags:
 - Donor-Advised Funds
 - Philanthropy
 - Employee Assistance
-- Nonprofit
+- Non-Profit
 - HR Tech
 trust_url: https://trust.groundswell.io/
 ---

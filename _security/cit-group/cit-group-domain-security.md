@@ -35,7 +35,7 @@ tags:
 - Commercial Lending
 - Equipment Finance
 - Factoring
-- Financial Services
+- Financial-Services
 - Leasing
 - Fortune 1000
 ---

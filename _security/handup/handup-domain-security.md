@@ -30,7 +30,7 @@ summary_line: TLSv1.2
 tags:
 - Company
 - Crowdfunding
-- Nonprofit
+- Non-Profit
 - Donations
 - Philanthropy
 - Fundraising

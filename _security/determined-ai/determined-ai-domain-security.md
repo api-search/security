@@ -81,6 +81,6 @@ summary_line: DMARC
 tags:
 - Artificial Intelligence
 - Deep Learning
-- Machine Learning
+- Machine-Learning
 - MLOps
 ---

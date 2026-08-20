@@ -43,6 +43,6 @@ tags:
 - Smart Contracts
 - Ethereum
 - Web3
-- Wallet
+- Wallets
 - Decentralized Finance
 ---

@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yplanapp/refs/
 summary_line: TLSv1.2 · HSTS
 tags:
 - Company
-- Events
+- Event
 - Event Discovery
 - Ticketing
 - Bookings

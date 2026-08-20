@@ -51,7 +51,7 @@ tags:
 - Metrics
 - Incident Management
 - AI Agents
-- Model Context Protocol
+- MCP
 - Developer Tools
 trust_url: https://trust.superlog.sh/
 ---

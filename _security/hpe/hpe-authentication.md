@@ -52,7 +52,7 @@ summary_line: http · 1 scheme
 tags:
 - Cloud
 - Edge to Cloud
-- Infrastructure as a Service
+- Infrastructure-as-a-Service
 - Compute
 - Storage
 - Networking

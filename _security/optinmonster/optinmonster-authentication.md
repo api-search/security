@@ -32,7 +32,7 @@ tags:
 - Email Marketing
 - Popups
 - WordPress
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 - Marketing Automation
 ---

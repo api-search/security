@@ -32,7 +32,7 @@ tags:
 - Company
 - Employment
 - Recruitment
-- Jobs
+- Job
 - Hiring
 - Human Resources
 - Saudi Arabia

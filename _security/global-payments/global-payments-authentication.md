@@ -62,10 +62,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/global-p
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/authentication/global-payments-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- eCommerce
+- E-Commerce
 - Payment Processing
 - Payment Technology
 - Payments
-- POS
+- Point-of-Sale
 - Fortune 1000
 ---

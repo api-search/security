@@ -27,6 +27,5 @@ tags:
 - Professional Services Automation
 - Time Tracking
 - PSA
-- API
 trust_url: https://www.accelo.com/company/security
 ---

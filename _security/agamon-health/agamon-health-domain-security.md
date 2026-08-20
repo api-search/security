@@ -35,7 +35,7 @@ tags:
 - Radiology
 - Medical Imaging
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - Clinical Workflow
 - Health Tech

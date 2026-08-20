@@ -124,6 +124,6 @@ tags:
 - ERP
 - General Ledger
 - Revenue Recognition
-- FinTech
-- AI
+- Fintech
+- Artificial Intelligence
 ---

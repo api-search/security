@@ -36,7 +36,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Grocery
-- eCommerce
+- E-Commerce
 - Retail
 - Online Shopping
 - Fulfillment

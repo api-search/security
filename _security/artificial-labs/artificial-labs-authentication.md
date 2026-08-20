@@ -98,7 +98,7 @@ tags:
 - Specialty Insurance
 - London Market
 - Lloyd's of London
-- Broker
+- Brokers
 - Policy Administration
 - ACORD
 - Algorithmic Underwriting

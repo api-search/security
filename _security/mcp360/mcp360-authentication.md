@@ -343,23 +343,23 @@ source_yaml: "generated: '2026-08-14'\nmethod: derived\nsource: openapi/mcp360-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mcp360/refs/heads/main/authentication/mcp360-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- mcp
-- mcp-server
-- mcp-gateway
-- ai-agents
-- agent-tools
-- tool-integration
-- unified-api
-- api-gateway
-- no-code
-- llmstxt
-- seo
-- search
-- serp
-- web-scraping
-- e-commerce
-- whois
-- dns
-- geolocation
-- email-verification
+- MCP
+- MCP Server
+- MCP Gateway
+- AI Agents
+- Agent Tools
+- Tool Integration
+- Unified-API
+- API Gateway
+- No-Code
+- llms-txt
+- SEO
+- Search
+- SERP
+- Web Scraping
+- E-Commerce
+- WHOIS
+- DNS
+- Geolocation
+- Email Verification
 ---

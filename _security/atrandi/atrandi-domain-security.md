@@ -32,7 +32,7 @@ tags:
 - Company
 - Biotech
 - Life Sciences
-- Single-Cell Analysis
+- Single Cell Analysis
 - Genomics
 - Microfluidics
 - Multiomics

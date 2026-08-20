@@ -31,10 +31,10 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Future Of Work
-- Coworking
+- Co-Working
 - Workspace
 - Flexible Office
 - Cultural Venue
-- Real Estate
+- Real-Estate
 - Community
 ---

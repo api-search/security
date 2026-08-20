@@ -40,7 +40,7 @@ tags:
 - Reporting
 - Forecasting
 - Hospitality
-- Point of Sale
+- Point-of-Sale
 - Data Aggregation
 - MCP
 - Artificial Intelligence

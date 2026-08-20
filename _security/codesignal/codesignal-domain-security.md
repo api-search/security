@@ -46,5 +46,5 @@ tags:
 - Assessment
 - Education
 - GraphQL
-- Webhooks
+- Webhook
 ---

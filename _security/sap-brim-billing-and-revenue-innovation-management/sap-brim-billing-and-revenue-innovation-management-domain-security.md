@@ -103,7 +103,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Billing
 - Enterprise
-- Order to Cash
+- Order-to-Cash
 - Revenue Management
 - SAP
 - Subscription Management

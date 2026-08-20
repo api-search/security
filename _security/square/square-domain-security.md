@@ -295,7 +295,7 @@ tags:
 - Checkout
 - Customers
 - Disputes
-- Ecommerce
+- E-Commerce
 - Financial Technology
 - Gift Cards
 - Inventory
@@ -304,13 +304,13 @@ tags:
 - Locations
 - Loyalty
 - Merchants
-- Orders
+- Order
 - Payments
-- Point of Sale
+- Point-of-Sale
 - Refunds
 - Retail
-- Subscriptions
+- Subscription
 - Team
 - Terminal
-- Webhooks
+- Webhook
 ---

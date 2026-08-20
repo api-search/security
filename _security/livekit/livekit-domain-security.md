@@ -59,11 +59,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/livekit/refs/heads/main/security/livekit-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Realtime
+- Real-Time
 - WebRTC
 - Audio
 - Video
-- Open Source
+- Open-Source
 - AI Agents
 - Voice
 - Cloud

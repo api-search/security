@@ -127,7 +127,7 @@ tags:
 - Landing Pages
 - Web Forms
 - Segments
-- Webhooks
-- OAuth 2.0
+- Webhook
+- Authentication
 - Small Business
 ---

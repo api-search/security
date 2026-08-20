@@ -112,8 +112,7 @@ tags:
 - File Storage
 - Serverless Functions
 - Real-Time
-- Open Source
+- Open-Source
 - Firebase Alternative
-- Backend as a Service
-- BaaS
+- Backend-as-a-Service
 ---

@@ -47,7 +47,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/savills/refs/heads/main/security/savills-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Commercial Real Estate
 - Property Listings

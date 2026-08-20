@@ -360,11 +360,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/card-on-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/authentication/visa-authentication.yml
 summary_line: mutualTLS · 1 scheme
 tags:
-- Accounts
+- Account
 - Banking
 - Credit Cards
 - Digital Commerce
-- Digital Wallets
+- Digital Wallet
 - Fintech
 - Foreign Exchange
 - Fraud Prevention

@@ -59,8 +59,8 @@ tags:
 - Health
 - Healthcare Data
 - Clinical Research
-- Real World Data
-- Machine Learning
+- Real-World Data
+- Machine-Learning
 - Medical Records
 - Life Sciences
 ---

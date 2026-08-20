@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sequen-ai/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Personalization
 - Ranking
 - Recommendations
-- Machine Learning
+- Machine-Learning
 ---

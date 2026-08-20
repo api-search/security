@@ -60,7 +60,7 @@ tags:
 - Geospatial
 - GIS
 - Maps
-- Download
+- Downloads
 - OSM
 - Routing
 - Geocoding

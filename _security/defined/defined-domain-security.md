@@ -51,5 +51,4 @@ tags:
 - GraphQL
 - Web3
 - Prediction Markets
-- API
 ---

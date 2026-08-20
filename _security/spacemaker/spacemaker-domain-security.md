@@ -31,8 +31,8 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Enterprise
-- Real Estate
-- Proptech
+- Real-Estate
+- PropTech
 - Architecture
 - Urban Planning
 - Artificial Intelligence

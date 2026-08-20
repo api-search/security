@@ -33,5 +33,5 @@ tags:
 - CNCF
 - Envoy
 - Kubernetes
-- Open Source
+- Open-Source
 ---

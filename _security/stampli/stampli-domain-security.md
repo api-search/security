@@ -42,7 +42,7 @@ tags:
 - Invoice Management
 - Vendor Management
 - ERP Integration
-- FinTech
+- Fintech
 - No Public API
 - Gated API
 ---

@@ -22,12 +22,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beautifulai/re
 summary_line: SOC 2 Type II, GDPR, CCPA, PCI DSS
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Presentations
 - Slides
 - Design
 - Productivity
 - Collaboration
-- SaaS
+- Software-as-a-Service
 trust_url: https://app.conveyor.com/profile/beautiful-ai
 ---

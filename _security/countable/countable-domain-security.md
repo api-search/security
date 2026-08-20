@@ -47,6 +47,6 @@ tags:
 - Government
 - Advocacy
 - Political Engagement
-- Nonprofit
-- SaaS
+- Non-Profit
+- Software-as-a-Service
 ---

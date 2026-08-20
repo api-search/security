@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/american-expre
 summary_line: mutualTLS/http/oauth2 · 3 schemes
 tags:
 - Credit Cards
-- Financial Services
+- Financial-Services
 - Payments
 - Card Network
 - Tokenization

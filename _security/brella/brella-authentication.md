@@ -67,12 +67,12 @@ source_yaml: "generated: '2026-07-12'\nmethod: documented\nsource: https://devel
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brella/refs/heads/main/authentication/brella-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Events
+- Event
 - Event Networking
 - Matchmaking
 - Event Platform
 - Attendees
 - Engagement
 - Conferences
-- SaaS
+- Software-as-a-Service
 ---

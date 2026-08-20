@@ -127,7 +127,7 @@ tags:
 - Wearables
 - Lab Testing
 - Digital Health
-- Healthtech
+- Health Tech
 - Healthcare
 - HIPAA
 - HealthKit
@@ -140,7 +140,7 @@ tags:
 - Sleep
 - Activity
 - Heart Rate
-- Webhooks
+- Webhook
 - Phlebotomy
 - Lab Orders
 trust_url: https://security.vital.io/

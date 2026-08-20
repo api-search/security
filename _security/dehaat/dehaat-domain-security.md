@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dehaat/refs/he
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Agtech
+- AgTech
 - Agriculture
 - Marketplace
 - Rural
 - Supply Chain
 - India
-- AI
+- Artificial Intelligence
 ---

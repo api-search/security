@@ -73,9 +73,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nango/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Agents
-- Integrations
-- OAuth
+- Integration
+- Authentication
 - Syncing
-- Unified API
-- Webhooks
+- Unified-API
+- Webhook
 ---

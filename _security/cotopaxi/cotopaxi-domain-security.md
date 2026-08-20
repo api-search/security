@@ -34,7 +34,7 @@ tags:
 - Consumer
 - Outdoor
 - Apparel
-- Ecommerce
+- E-Commerce
 - Retail
 - Shopify
 - MCP

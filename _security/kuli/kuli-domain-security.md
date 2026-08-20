@@ -37,5 +37,5 @@ tags:
 - Creator Economy
 - Brand Safety
 - Video Analysis
-- Social Media
+- Social-Media
 ---

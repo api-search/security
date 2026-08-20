@@ -34,7 +34,7 @@ tags:
 - Healthcare
 - Patient Payments
 - Payments
-- FinTech
+- Fintech
 - Financial Wellness
 - Health Savings
 - Revenue Cycle Management

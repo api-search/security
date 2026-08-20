@@ -52,9 +52,9 @@ tags:
 - Online Courses
 - E-Commerce
 - Payments
-- Subscriptions
+- Subscription
 - Affiliate Marketing
-- Webhooks
+- Webhook
 - Learning Management
 - Brazil
 ---

@@ -49,7 +49,7 @@ tags:
 - Tokenization
 - Blockchain
 - Trading
-- Financial Services
-- FinTech
+- Financial-Services
+- Fintech
 - Institutional
 ---

@@ -77,7 +77,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finditparts/re
 summary_line: http · 2 schemes
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Automotive
 - Parts
@@ -86,6 +86,6 @@ tags:
 - Logistics
 - Commerce
 - Catalog
-- Orders
+- Order
 - Shipping
 ---

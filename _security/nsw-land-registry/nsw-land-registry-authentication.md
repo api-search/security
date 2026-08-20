@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: >-\n  live anonym
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nsw-land-registry/refs/heads/main/authentication/nsw-land-registry-authentication.yml
 summary_line: none/contract-gated/session-login · 6 schemes
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Land Registry
 - Title

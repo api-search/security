@@ -42,7 +42,7 @@ tags:
 - Web Design
 - CMS
 - Website Builder
-- Webhooks
+- Webhook
 - React Components
 - Developer Tools
 ---

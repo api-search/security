@@ -31,6 +31,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Consumer Products
 - Personal Care
-- Food & Beverage
+- Food and Beverage
 - Household Products
 ---

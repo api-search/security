@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atla/refs/head
 summary_line: http · 1 scheme
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Artificial Intelligence
 - LLM Evaluation
 - AI Agents

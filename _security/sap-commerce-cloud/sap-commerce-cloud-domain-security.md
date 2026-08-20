@@ -184,7 +184,7 @@ tags:
 - B2C
 - Commerce
 - Customer Experience
-- Ecommerce
+- E-Commerce
 - Omnichannel
 - Retail
 ---

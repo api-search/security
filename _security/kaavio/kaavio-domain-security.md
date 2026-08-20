@@ -38,7 +38,7 @@ tags:
 - Catalog Management
 - B2B Distribution
 - Manufacturing
-- E-commerce
+- E-Commerce
 - Artificial Intelligence
 - Content Generation
 - Data Enrichment

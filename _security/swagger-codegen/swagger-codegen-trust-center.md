@@ -49,7 +49,7 @@ summary_line: SOC 2, ISO/IEC 27001, GDPR, CCPA, NIST CSF
 tags:
 - Client Libraries
 - Code Generation
-- Open Source
+- Open-Source
 - OpenAPI
 - SDK
 trust_url: https://trust.smartbear.com/

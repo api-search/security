@@ -36,6 +36,6 @@ tags:
 - Mobile
 - Privacy
 - Contacts
-- Events
+- Event
 - Location
 ---

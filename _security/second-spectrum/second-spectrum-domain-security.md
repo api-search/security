@@ -47,8 +47,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/second-spectru
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Sports Tracking
-- Computer Vision
-- AI
+- Computer-Vision
+- Artificial Intelligence
 - Broadcast
 - NBA
 - Premier League

@@ -29,9 +29,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mnt-halan/refs/heads/main/security/mnt-halan-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Financial Services
+- Financial-Services
 - Fintech
-- Micro-Finance
+- Microfinance
 - Consumer Lending
 - SME Lending
 - Digital Payments

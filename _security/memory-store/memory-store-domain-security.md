@@ -32,9 +32,8 @@ tags:
 - Company
 - Memory
 - AI Agents
-- Model Context Protocol
 - MCP
-- Knowledge Management
+- Knowledge-Management
 - Context
 - Productivity
 - Y Combinator

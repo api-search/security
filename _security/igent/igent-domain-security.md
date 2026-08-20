@@ -39,7 +39,7 @@ tags:
 - Ai Enterprise Software
 - Artificial Intelligence
 - Software Development
-- Coding Agent
+- Coding Agents
 - Developer Tools
 - AI Agents
 - Automation

@@ -23,7 +23,7 @@ summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27701, CSA STAR Level 2
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - KYC
 - Onboarding
 - Credit Decisioning

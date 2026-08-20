@@ -96,6 +96,6 @@ tags:
 - Training
 - CRM Integration
 - Digital Sales Rooms
-- Model Context Protocol
+- MCP
 - SCIM
 ---

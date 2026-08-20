@@ -79,6 +79,6 @@ tags:
 - Kafka
 - Flink
 - Data Integration
-- Real Time
+- Real-Time
 trust_url: https://trust.streamkap.com/
 ---

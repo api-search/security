@@ -33,6 +33,6 @@ tags:
 - Tours
 - Travel
 - Destinations
-- Experiences
+- Experience
 - Digital Tourism
 ---

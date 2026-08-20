@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Construction
-- Real Estate
+- Real-Estate
 - Artificial Intelligence
 - Project Management
 - Productivity

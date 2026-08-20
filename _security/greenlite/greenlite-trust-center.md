@@ -18,12 +18,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/greenlite/refs
 summary_line: SOC 2 Type 2
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Construction
 - Permitting
 - Plan Review
 - Compliance
 - Government
-- Real Estate
+- Real-Estate
 trust_url: https://trust.greenlite.com/
 ---

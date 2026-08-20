@@ -40,8 +40,8 @@ tags:
 - Payments
 - Mobile Payments
 - Carrier Billing
-- Digital Wallets
+- Digital Wallet
 - Local Payment Methods
-- Subscriptions
+- Subscription
 - Fintech
 ---

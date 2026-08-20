@@ -40,13 +40,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Document Signing
-- eSignature
+- E-Signature
 - Electronic Signature
-- Document Management
+- Document-Management
 - PDF
 - Templates
-- Open Source
-- Webhooks
+- Open-Source
+- Webhook
 - Embedding
 trust_url: https://trust.docuseal.com/
 ---

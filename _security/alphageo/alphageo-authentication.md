@@ -37,8 +37,8 @@ tags:
 - Geospatial
 - Analytics
 - Risk
-- Real Estate
+- Real-Estate
 - ESG
 - Data
-- Machine Learning
+- Machine-Learning
 ---

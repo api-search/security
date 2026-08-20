@@ -129,9 +129,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payjp/refs/hea
 summary_line: http · 2 schemes
 tags:
 - Payments
-- FinTech
+- Fintech
 - Japan
 - Credit Cards
-- Subscriptions
+- Subscription
 - Tokenization
 ---

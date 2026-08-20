@@ -73,6 +73,6 @@ tags:
 - B2B Data
 - Contact Data
 - Firmographics
-- Go To Market
+- Go-To-Market
 - Account Based Marketing
 ---

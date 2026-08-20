@@ -33,7 +33,7 @@ tags:
 - Security
 - Cybersecurity
 - Penetration Testing
-- AI
+- Artificial Intelligence
 - Application Security
 - DAST
 - Red Teaming

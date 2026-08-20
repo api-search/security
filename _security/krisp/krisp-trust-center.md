@@ -34,16 +34,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/krisp/refs/hea
 summary_line: SOC 2, PCI DSS, HIPAA
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Voice AI
 - Speech
 - Audio
 - Noise Cancellation
 - Speech Translation
-- Real Time Communications
+- Real-Time Communications
 - WebRTC
 - Conversational AI
 - SDK
-- Machine Learning
+- Machine-Learning
 trust_url: https://trust.krisp.ai/
 ---

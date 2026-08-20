@@ -79,7 +79,7 @@ summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Company
 - Notes
-- Knowledge Management
+- Knowledge-Management
 - Productivity
 - Artificial Intelligence
 - Note Taking

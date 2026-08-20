@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Education
 - Advancement
 - Alumni Engagement

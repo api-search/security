@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/y42/refs/heads
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - DataOps
-- Data Pipelines
+- Data Pipeline
 - Orchestration
 - dbt
 - Snowflake

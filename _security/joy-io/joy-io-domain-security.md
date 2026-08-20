@@ -73,9 +73,9 @@ tags:
 - Marketplace
 - Reservations
 - Bookings
-- Restaurants
+- Restaurant
 - Hospitality
-- Events
-- SaaS
+- Event
+- Software-as-a-Service
 - France
 ---

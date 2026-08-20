@@ -56,17 +56,17 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/security/moloco-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
-- advertising
-- adtech
-- demand-side-platform
-- retail-media
-- commerce-media
-- programmatic-advertising
-- campaign-management
-- ad-serving
-- machine-learning
-- mobile-marketing
-- reporting
+- Advertising
+- AdTech
+- Demand-Side Platform
+- Retail Media
+- Commerce Media
+- Programmatic Advertising
+- Campaign Management
+- Ad Serving
+- Machine-Learning
+- Mobile Marketing
+- Reporting
 - user-events
 trust_url: https://www.moloco.com/terms-and-policies/security
 ---

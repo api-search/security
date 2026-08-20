@@ -39,6 +39,6 @@ tags:
 - Bookings
 - Supply Chain Visibility
 - Freight
-- SaaS
+- Software-as-a-Service
 - GraphQL
 ---

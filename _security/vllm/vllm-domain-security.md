@@ -67,8 +67,8 @@ summary_line: TLSv1.3
 tags:
 - LLM
 - Inference
-- Open Source
+- Open-Source
 - GPU
-- OpenAI Compatible
+- OpenAI-Compatible
 - Self-Hosted
 ---

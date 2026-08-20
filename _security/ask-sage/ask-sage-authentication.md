@@ -225,7 +225,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Generative AI
 - Large Language Models
 - Government

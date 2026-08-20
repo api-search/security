@@ -34,5 +34,5 @@ tags:
 - Localization
 - Content
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 ---

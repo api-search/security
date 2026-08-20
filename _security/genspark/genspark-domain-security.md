@@ -31,11 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/genspark/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - AI Agents
 - MCP
-- Model Context Protocol
 - Productivity
 - Automation
 - Search

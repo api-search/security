@@ -19,7 +19,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://www.loo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/security/loomly-trust-center.yml
 summary_line: trust center published
 tags:
-- Social Media
+- Social-Media
 - Content Calendar
 - Scheduling
 - Approval Workflows

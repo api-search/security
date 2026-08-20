@@ -64,8 +64,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Electronic Signatures
-- eSignature
-- Document Management
+- E-Signature
+- Document-Management
 - Digital Signatures
 - Signature Workflows
 - Templates

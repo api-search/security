@@ -51,6 +51,6 @@ tags:
 - JavaScript Rendering
 - Proxy Rotation
 - Screenshots
-- Search Engine
+- Search Engines
 - Web Scraping
 ---

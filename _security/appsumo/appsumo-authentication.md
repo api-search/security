@@ -43,6 +43,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appsumo/refs/h
 summary_line: apiKey · 1 scheme
 tags:
 - Marketplace
-- SaaS
+- Software-as-a-Service
 - Software Deals
 ---

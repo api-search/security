@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - Market Maker
 - Electronic Trading
 - Liquidity

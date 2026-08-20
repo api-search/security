@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neuehealth/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare
-- Value Based Care
+- Value-Based Care
 - Health Insurance
 - Population Health
 - ACO

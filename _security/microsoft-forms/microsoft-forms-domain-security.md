@@ -57,7 +57,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Forms
 - Microsoft
-- Microsoft 365
+- Microsoft-365
 - Quizzes
 - Surveys
 ---

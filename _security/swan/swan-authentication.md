@@ -71,5 +71,5 @@ tags:
 - SEPA
 - GraphQL
 - Europe
-- Accounts
+- Account
 ---

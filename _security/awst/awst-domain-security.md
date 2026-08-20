@@ -33,10 +33,10 @@ tags:
 - Company
 - Productivity
 - Scheduling
-- Document Management
+- Document-Management
 - Electronic Signature
-- SaaS
-- Workflow
+- Software-as-a-Service
+- Workflows
 - Calendar
 - Small Business
 ---

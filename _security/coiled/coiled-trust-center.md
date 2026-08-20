@@ -25,7 +25,7 @@ tags:
 - Dask
 - Python
 - Distributed Computing
-- Machine Learning
+- Machine-Learning
 - Serverless
 trust_url: https://www.coiled.io/security
 ---

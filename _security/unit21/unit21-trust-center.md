@@ -22,7 +22,7 @@ tags:
 - AML
 - Anti-Money Laundering
 - Compliance
-- FinTech
+- Fintech
 - Transaction Monitoring
 - Risk
 - SAR

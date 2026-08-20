@@ -26,7 +26,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/re
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Revenue Intelligence
 - Sales
 - Account Intelligence
@@ -35,7 +35,7 @@ tags:
 - MCP
 - AI Agents
 - Enterprise
-- Open Source
+- Open-Source
 - Goals
 - Gong
 - Slack

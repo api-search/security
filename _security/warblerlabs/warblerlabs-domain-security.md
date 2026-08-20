@@ -52,6 +52,6 @@ tags:
 - GraphQL
 - Ethereum
 - Web3
-- Real-World Assets
+- Real World Assets
 - Identity
 ---

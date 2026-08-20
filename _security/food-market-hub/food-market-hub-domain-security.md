@@ -32,11 +32,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Food and Beverage
-- Restaurants
+- Restaurant
 - Supply Chain
 - Procurement
 - Inventory Management
 - Hospitality
-- SaaS
+- Software-as-a-Service
 - Southeast Asia
 ---

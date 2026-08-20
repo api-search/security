@@ -39,10 +39,9 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Model Inference
 - LLM
 - Open Source AI
-- API
 - Developers
 ---

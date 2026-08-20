@@ -27,7 +27,7 @@ tags:
 - FX
 - International Payments
 - B2B Payments
-- Financial Services
+- Financial-Services
 - Fintech
 trust_url: https://www.ascendant.world/compliance/
 ---

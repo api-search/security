@@ -26,9 +26,9 @@ tags:
 - Claims
 - Utilization Management
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Insurtech
-- Healthtech
+- Health Tech
 - United States
 trust_url: https://alaffiahealth.com/security
 ---

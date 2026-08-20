@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cognee/refs/heads/main/security/cognee-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Memory
 - Knowledge Graph
 - RAG
@@ -89,5 +89,5 @@ tags:
 - Graph Database
 - Vector Search
 - LLM
-- Open Source
+- Open-Source
 ---

@@ -142,7 +142,7 @@ tags:
 - Document Extraction
 - Fraud Detection
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Emerging Markets
 - Loan Origination
 ---

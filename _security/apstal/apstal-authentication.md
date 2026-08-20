@@ -77,19 +77,19 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://apstal.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/authentication/apstal-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
-- analytics
-- web-analytics
-- privacy
-- session-replay
-- heatmaps
-- mcp
+- Analytics
+- Web Analytics
+- Privacy
+- Session Replay
+- Heatmaps
+- MCP
 - agent-native
-- cookieless
+- Cookieless
 - llms-txt
-- bigquery
-- gdpr
-- a2a
-- agent-skills
-- bot-detection
-- core-web-vitals
+- BigQuery
+- GDPR
+- A2A
+- Agent Skills
+- Bot Detection
+- Core Web Vitals
 ---

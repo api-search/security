@@ -28,6 +28,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exude-api/refs/heads/main/security/exude-api-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- Machine Learning
+- Machine-Learning
 - Public APIs
 ---

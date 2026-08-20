@@ -47,7 +47,7 @@ tags:
 - Merchandise
 - E-Commerce
 - Retail
-- Orders
+- Order
 - Fulfillment
 - Partner API
 - Marketplace

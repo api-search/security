@@ -21,14 +21,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qualia/refs/he
 summary_line: SOC 2 Type II, ISO 27001, ALTA Best Practices Pillar 3
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Title Insurance
 - Escrow
 - Mortgage
 - Closing
 - Settlement Services
 - PropTech
-- Financial Services
+- Financial-Services
 - GraphQL
 trust_url: https://www.qualia.com/trust/
 ---

@@ -77,7 +77,7 @@ tags:
 - Freight
 - Supply Chain
 - Transportation
-- Webhooks
+- Webhook
 - Artificial Intelligence
 - Automation
 ---

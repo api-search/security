@@ -54,6 +54,6 @@ tags:
 - Observability
 - Testing
 - DevOps
-- AI
+- Artificial Intelligence
 - MCP
 ---

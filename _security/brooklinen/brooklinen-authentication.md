@@ -122,16 +122,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource:\n- https://www.br
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/authentication/brooklinen-authentication.yml
 summary_line: oauth2/openIdConnect/none · 4 schemes
 tags:
-- ecommerce
-- retail
-- direct-to-consumer
-- home-goods
-- bedding
-- shopify
-- agentic-commerce
-- universal-commerce-protocol
-- mcp
+- E-Commerce
+- Retail
+- Direct to Consumer
+- Home Goods
+- Bedding
+- Shopify
+- Agentic Commerce
+- Universal Commerce Protocol
+- MCP
 - agent-native
-- catalog
-- checkout
+- Catalog
+- Checkout
 ---

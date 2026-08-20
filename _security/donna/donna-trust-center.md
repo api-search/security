@@ -30,7 +30,7 @@ tags:
 - Sales Enablement
 - Voice AI
 - Productivity
-- SaaS
+- Software-as-a-Service
 - AI Assistant
 trust_url: https://trust.askdonna.com
 ---

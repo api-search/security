@@ -36,7 +36,7 @@ tags:
 - Loyalty Marketing
 - Payments
 - ERP
-- Point of Sale
+- Point-of-Sale
 - Analytics
 - Cybersecurity
 ---

@@ -75,6 +75,6 @@ tags:
 - Application Development
 - Low-Code
 - No-Code
-- Portals
-- Workflow Automation
+- Portal
+- Workflow-Automation
 ---

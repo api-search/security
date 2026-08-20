@@ -33,6 +33,6 @@ tags:
 - Contacts
 - Social Graph
 - Growth
-- Machine Learning
+- Machine-Learning
 - Invitations
 ---

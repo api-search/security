@@ -47,5 +47,5 @@ tags:
 - VAT
 - Sage
 - UK
-- OAuth 2.0
+- Authentication
 ---

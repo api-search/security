@@ -32,7 +32,7 @@ tags:
 - Canada
 - Life Insurance
 - Insurtech
-- Broker
+- Brokers
 - Agency Management
 - Marketplace
 - Distribution

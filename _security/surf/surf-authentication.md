@@ -144,7 +144,7 @@ tags:
 - Market Data
 - On-Chain Analytics
 - Wallet Intelligence
-- AI
+- Artificial Intelligence
 - DeFi
 - Prediction Markets
 - Developer API

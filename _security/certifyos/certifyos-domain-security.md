@@ -406,5 +406,5 @@ tags:
 - Roster Management
 - Compliance Monitoring
 - Healthcare API
-- Webhooks
+- Webhook
 ---

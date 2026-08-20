@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sierra/refs/he
 summary_line: PCI DSS, HIPAA
 tags:
 - Agents
-- AI
+- Artificial Intelligence
 - Chat
 - Conversational AI
 - Customer Experience

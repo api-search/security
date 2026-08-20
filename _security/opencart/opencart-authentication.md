@@ -91,12 +91,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/opencart
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/authentication/opencart-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- eCommerce
+- E-Commerce
 - Shopping Cart
-- Open Source
+- Open-Source
 - Self-Hosted
-- Products
-- Orders
+- Product
+- Order
 - Customers
 - Categories
 ---

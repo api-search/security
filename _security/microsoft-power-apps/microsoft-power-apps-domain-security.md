@@ -74,5 +74,5 @@ tags:
 - Microsoft
 - No-Code
 - Power Platform
-- SaaS
+- Software-as-a-Service
 ---

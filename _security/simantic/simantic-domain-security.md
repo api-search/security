@@ -41,7 +41,7 @@ tags:
 - Quality Assurance
 - Microcontroller
 - AI Agents
-- Model Context Protocol
+- MCP
 - Semiconductors
 - Continuous Integration
 ---

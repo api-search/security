@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/smithson
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smithsonian-institution/refs/heads/main/authentication/smithsonian-institution-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Collections
+- Collection
 - Cultural Heritage
 - Museums
 - Open Data

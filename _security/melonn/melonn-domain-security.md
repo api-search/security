@@ -33,7 +33,7 @@ tags:
 - Company
 - Fulfillment
 - Logistics
-- Ecommerce
+- E-Commerce
 - Supply Chain
 - Shipping
 - Latin America

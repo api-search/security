@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/hea
 summary_line: SOC 2 Type 2, SOC 3, ISO/IEC 27001:2022, GDPR, CCPA, EU-US DPF
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Sales Engagement
 - Sales Dialer
 - AI SDR

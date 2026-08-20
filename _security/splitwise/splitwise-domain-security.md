@@ -86,5 +86,5 @@ tags:
 - Bill Splitting
 - Payments
 - REST API
-- OAuth
+- Authentication
 ---

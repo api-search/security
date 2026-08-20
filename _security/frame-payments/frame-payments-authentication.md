@@ -43,7 +43,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Company
 - Payments
-- Financial Services
+- Financial-Services
 - Fintech
 - KYC
 - Compliance

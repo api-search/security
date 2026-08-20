@@ -31,10 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moksa-ai/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Surveillance
 - Video Analytics
 - Security
-- Computer Vision
+- Computer-Vision
 - Threat Detection
 ---

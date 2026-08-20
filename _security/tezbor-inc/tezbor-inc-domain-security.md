@@ -31,9 +31,9 @@ tags:
 - Company
 - Logistics
 - Delivery
-- Courier
+- Couriers
 - Shipping
 - Last Mile
-- E-commerce
+- E-Commerce
 - Uzbekistan
 ---

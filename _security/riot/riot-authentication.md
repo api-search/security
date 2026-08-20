@@ -114,17 +114,17 @@ source_yaml: "generated: '2026-08-05'\nmethod: derived\nsource: openapi/riot-pub
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/authentication/riot-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- cybersecurity
-- security-awareness
-- human-risk-management
-- phishing-simulation
+- Cybersecurity
+- Security Awareness
+- Human Risk Management
+- Phishing Simulation
 - employee-security
-- security-posture-management
+- Security Posture Management
 - breach-detection
-- email-security
-- saas-security
-- scim
-- webhooks
-- ocsf
-- france
+- Email Security
+- SaaS Security
+- SCIM
+- Webhook
+- OCSF
+- France
 ---

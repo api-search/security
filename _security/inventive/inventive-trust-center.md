@@ -19,12 +19,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inventive/refs
 summary_line: SOC 2 Type II
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - RFP
 - Proposal Automation
 - Sales Enablement
 - Questionnaire
-- Knowledge Management
-- SaaS
+- Knowledge-Management
+- Software-as-a-Service
 trust_url: https://www.inventive.ai/security
 ---

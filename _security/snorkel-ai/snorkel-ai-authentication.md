@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/snorkel-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snorkel-ai/refs/heads/main/authentication/snorkel-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Data Development
 - Programmatic Labeling
 - Weak Supervision

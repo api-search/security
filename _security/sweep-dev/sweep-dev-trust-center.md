@@ -30,7 +30,6 @@ tags:
 - AI Commit Messages
 - Inline Editing
 - MCP
-- Model Context Protocol
 - Developer Productivity
 - GitHub Issues
 - Pull Request Automation

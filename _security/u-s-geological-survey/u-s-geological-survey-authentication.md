@@ -9,12 +9,12 @@ api_specs:
   slug: u-s-geological-survey-catalog-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-catalog-api-openapi.yml
-- filename: u-s-geological-survey-collections-api-openapi.yml
+- filename: u-s-geological-survey-water-data-ogc-api-openapi.yml
   format: yaml
-  label: U.S. Geological Survey Collections API
-  slug: u-s-geological-survey-collections-api
+  label: USGS Water Data OGC API
+  slug: usgs-water-data-ogc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-collections-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-water-data-ogc-api-openapi.yml
 - filename: u-s-geological-survey-earthquakes-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Earthquakes API

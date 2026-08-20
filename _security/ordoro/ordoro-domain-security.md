@@ -214,7 +214,7 @@ tags:
 - Inventory Management
 - Shipping
 - Dropshipping
-- Ecommerce
+- E-Commerce
 - Multi-Channel
 - Fulfillment
 - Logistics

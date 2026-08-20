@@ -35,8 +35,8 @@ tags:
 - Hospital Operations
 - Capacity Management
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Predictive Analytics
 - Scheduling
-- SaaS
+- Software-as-a-Service
 ---

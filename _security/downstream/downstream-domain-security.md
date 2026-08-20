@@ -31,9 +31,9 @@ tags:
 - Company
 - Amazon Advertising
 - Retail Media
-- Ecommerce
+- E-Commerce
 - Advertising Technology
 - Marketing Analytics
-- SaaS
+- Software-as-a-Service
 - Acquired
 ---

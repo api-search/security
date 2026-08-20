@@ -17,12 +17,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/causaly/refs/h
 summary_line: trust center published
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Life Sciences
 - Biomedical
 - Drug Discovery
 - Knowledge Graph
-- Pharmaceutical
+- Pharmaceuticals
 - Research
 - Agentic AI
 trust_url: https://trust.causaly.com/

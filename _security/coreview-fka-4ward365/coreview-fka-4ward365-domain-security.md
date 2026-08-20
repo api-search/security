@@ -42,13 +42,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coreview-fka-4
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Microsoft 365
+- Microsoft-365
 - SaaS Management
 - Governance
 - Security
 - Identity
 - Automation
-- Workflow
+- Workflows
 - License Management
 - IT Operations
 ---

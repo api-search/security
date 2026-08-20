@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truly-experien
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Experiences
+- Experience
 - Gifting
-- Ecommerce
+- E-Commerce
 - Travel
 - Hospitality
 - Consumer

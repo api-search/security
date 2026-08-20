@@ -64,11 +64,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rilla/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Conversation Intelligence
 - Sales
 - Coaching
 - Sales Enablement
 - Speech Analytics
-- Machine Learning
+- Machine-Learning
 ---

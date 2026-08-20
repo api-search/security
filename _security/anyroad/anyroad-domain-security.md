@@ -32,10 +32,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Experiential Marketing
-- Events
-- Experiences
+- Event
+- Experience
 - Ticketing
 - Consumer Engagement
 - Analytics
-- Webhooks
+- Webhook
 ---

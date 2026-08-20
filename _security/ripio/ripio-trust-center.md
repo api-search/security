@@ -93,6 +93,5 @@ tags:
 - Latin America
 - Bitcoin
 - Stablecoins
-- API
 trust_url: https://www.ripio.com/es/seguridad
 ---

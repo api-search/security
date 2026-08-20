@@ -27,6 +27,6 @@ tags:
 - Spas
 - Payments
 - Small Business
-- Webhooks
+- Webhook
 trust_url: https://trust.booksy.com/
 ---

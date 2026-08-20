@@ -33,8 +33,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elium/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- SaaS
-- Knowledge Management
+- Software-as-a-Service
+- Knowledge-Management
 - Knowledge Base
 - Enterprise Search
 - AI Search

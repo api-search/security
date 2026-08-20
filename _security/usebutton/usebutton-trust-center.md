@@ -57,7 +57,7 @@ summary_line: SOC 2, GDPR
 tags:
 - Commerce
 - Mobile Commerce
-- Affiliate
+- Affiliates
 - Attribution
 - Deep Linking
 - Offers

@@ -119,10 +119,10 @@ summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Company Data
 - Web Intelligence
-- Funding Data
+- funding-data
 - Firmographics
 - B2B Data
-- Investor Data
+- investor-data
 - Reference Data
 - Private Markets
 - Predictions

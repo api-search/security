@@ -89,7 +89,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - MLS
 - Listings
 - Property Data

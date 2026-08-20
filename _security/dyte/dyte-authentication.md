@@ -67,7 +67,7 @@ summary_line: http · 1 scheme
 tags:
 - Video
 - Voice
-- Real Time
+- Real-Time
 - WebRTC
 - SDK
 - Communications

@@ -36,7 +36,7 @@ tags:
 - Manufacturing
 - OEM
 - Industrial
-- SaaS
+- Software-as-a-Service
 - Artificial Intelligence
 - Data Quality
 ---

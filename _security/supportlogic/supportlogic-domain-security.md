@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/supportlogic/r
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Customer Support
+- Customer-Support
 - Customer Experience
 - Artificial Intelligence
 - Service Experience
 - Sentiment Analysis
 - Escalation Management
 - MCP
-- SaaS
+- Software-as-a-Service
 ---

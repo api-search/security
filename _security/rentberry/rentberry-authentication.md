@@ -307,16 +307,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: derived\nsource: openapi/rentberr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rentberry/refs/heads/main/authentication/rentberry-authentication.yml
 summary_line: token · 1 scheme
 tags:
-- real-estate
-- proptech
-- rentals
-- rental-marketplace
-- property-management
-- tenant-screening
-- e-signature
-- payments
-- listings
-- search
-- geocoding
-- marketplace
+- Real-Estate
+- PropTech
+- Rentals
+- Rental Marketplace
+- Property Management
+- Tenant Screening
+- E-Signature
+- Payments
+- Listings
+- Search
+- Geocoding
+- Marketplace
 ---

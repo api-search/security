@@ -37,9 +37,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bland-ai
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bland-ai/refs/heads/main/authentication/bland-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Voice
 - Agents
 - Phone
-- Realtime
+- Real-Time
 ---

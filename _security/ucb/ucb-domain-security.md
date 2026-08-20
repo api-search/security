@@ -40,11 +40,20 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ucb/refs/heads/main/security/ucb-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
+- Higher Education
+- Education
+- Public Research University
 - United States
 - California
+- UC System
+- Research
+- Identity Federation
+- Research Repository
+- Research Computing
+- Course Catalog
+- Library
+- Open Data
+- Geospatial Data
+- OAI-PMH
 ---

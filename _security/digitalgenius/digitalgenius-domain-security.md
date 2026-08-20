@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Customer Service
-- Ecommerce
+- E-Commerce
 - Artificial Intelligence
 - AI Agents
 - Conversational AI

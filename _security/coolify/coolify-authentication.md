@@ -137,10 +137,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/coolify-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/authentication/coolify-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Platform as a Service
+- Platform-as-a-Service
 - Self-Hosting
 - Deployment
-- Open Source
+- Open-Source
 - Containers
 - Docker
 ---

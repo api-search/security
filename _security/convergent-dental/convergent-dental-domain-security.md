@@ -33,7 +33,7 @@ tags:
 - Company
 - Medical Devices
 - Dental
-- Health Care
+- Healthcare
 - Lasers
 - Dental Equipment
 - Manufacturing

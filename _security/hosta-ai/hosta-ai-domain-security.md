@@ -33,10 +33,10 @@ tags:
 - Property Technology
 - PropTech
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Property Assessment
 - Insurance
 - Construction
-- Real Estate
+- Real-Estate
 - Spatial Analytics
 ---

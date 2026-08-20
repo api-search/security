@@ -65,10 +65,10 @@ tags:
 - Company
 - Gaming
 - Payments
-- Wallet
+- Wallets
 - Loyalty
 - Fintech
-- Real Money Gaming
+- Real-Money Gaming
 - gRPC
 - Geolocation
 - Authentication

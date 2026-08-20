@@ -36,5 +36,5 @@ tags:
 - E-Commerce
 - Apparel
 - Kids
-- Direct-to-Consumer
+- Direct to Consumer
 ---

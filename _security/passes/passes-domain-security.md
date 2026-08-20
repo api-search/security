@@ -40,8 +40,8 @@ tags:
 - Creator
 - Creator Economy
 - Monetization
-- Subscriptions
+- Subscription
 - Payments
 - Content
-- Social Media
+- Social-Media
 ---

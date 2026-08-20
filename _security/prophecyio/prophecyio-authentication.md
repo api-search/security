@@ -64,13 +64,13 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Data Engineering
-- Data Pipelines
+- Data Pipeline
 - ETL
 - Apache Spark
 - Databricks
 - Snowflake
 - Low-Code
 - Analytics
-- AI
+- Artificial Intelligence
 - Data Transformation
 ---

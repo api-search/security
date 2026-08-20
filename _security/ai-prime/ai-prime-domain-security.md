@@ -28,7 +28,7 @@ summary_line: DMARC
 tags:
 - Company
 - Industrial Safety
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Deep Learning
 - Industrial IoT

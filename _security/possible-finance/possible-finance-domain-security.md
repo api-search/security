@@ -36,6 +36,6 @@ tags:
 - Credit Building
 - Personal Finance
 - Mobile App
-- Financial Services
+- Financial-Services
 - Public Benefit Corporation
 ---

@@ -29,10 +29,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/logseq/refs/he
 summary_line: TLSv1.3
 tags:
 - Company
-- Knowledge Management
+- Knowledge-Management
 - Note Taking
 - Productivity
-- Open Source
+- Open-Source
 - Plugins
 - SDK
 - Knowledge Graph

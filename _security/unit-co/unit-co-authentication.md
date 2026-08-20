@@ -132,8 +132,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/unit-co-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/authentication/unit-co-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- FinTech
-- BaaS
+- Fintech
+- Backend-as-a-Service
 - Banking
 - Payments
 - Card Issuing

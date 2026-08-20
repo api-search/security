@@ -50,6 +50,6 @@ tags:
 - Accounting
 - CRM
 - Inventory
-- SaaS
+- Software-as-a-Service
 - Oracle
 ---

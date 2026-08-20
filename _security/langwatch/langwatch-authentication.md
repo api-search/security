@@ -206,7 +206,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/langwatc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/authentication/langwatch-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- AI
 - Artificial Intelligence
 - LLM
 - LLM Observability
@@ -220,7 +219,7 @@ tags:
 - AI Gateway
 - DSPy
 - LangChain
-- Open Source
+- Open-Source
 - MCP
 - FinOps
 ---

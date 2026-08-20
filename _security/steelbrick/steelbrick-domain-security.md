@@ -31,8 +31,7 @@ tags:
 - Company
 - Enterprise Saas
 - CPQ
-- Configure Price Quote
-- Quote To Cash
+- Quote-to-Cash
 - Sales
 - Acquired
 - Salesforce

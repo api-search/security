@@ -22,7 +22,7 @@ tags:
 - Company
 - Museums
 - Cultural Institutions
-- Nonprofits
+- Non-Profit
 - Digital Membership
 - Mobile Wallet
 - Apple Wallet

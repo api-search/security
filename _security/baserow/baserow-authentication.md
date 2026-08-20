@@ -379,7 +379,7 @@ summary_line: http · 1 scheme
 tags:
 - No-Code
 - Database
-- Open Source
+- Open-Source
 - REST API
 - Self-Hosted
 - Tables

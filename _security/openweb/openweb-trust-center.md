@@ -27,6 +27,6 @@ tags:
 - Moderation
 - Identity
 - SSO
-- Webhooks
+- Webhook
 trust_url: https://trust.openweb.com
 ---

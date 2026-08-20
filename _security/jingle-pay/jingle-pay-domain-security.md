@@ -35,6 +35,6 @@ tags:
 - Remittances
 - Money Transfer
 - Digital Wallet
-- Financial Services
+- Financial-Services
 - MENA
 ---

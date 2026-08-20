@@ -54,7 +54,7 @@ tags:
 - Reference Data
 - Historical Data
 - Analytics
-- ETF
+- ETFs
 - Futures
 - Options
 ---

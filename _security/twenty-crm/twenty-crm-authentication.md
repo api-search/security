@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twenty-crm/ref
 summary_line: http · 1 scheme
 tags:
 - CRM
-- Open Source
+- Open-Source
 - Sales
 - GraphQL
 - REST

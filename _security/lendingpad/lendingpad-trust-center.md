@@ -21,9 +21,9 @@ tags:
 - Loan Origination System
 - LOS
 - Lending
-- FinTech
-- Financial Services
-- Real Estate
+- Fintech
+- Financial-Services
+- Real-Estate
 - Partner API
 - Gated API
 trust_url: https://trust.lendingpad.com/

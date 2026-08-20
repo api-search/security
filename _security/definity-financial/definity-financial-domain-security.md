@@ -96,7 +96,7 @@ tags:
 - Carrier
 - Underwriting
 - Claims
-- Broker
+- Brokers
 - Pet Insurance
 - Direct to Consumer
 - Partner Gated

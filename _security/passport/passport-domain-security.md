@@ -104,15 +104,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/passport/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- shipping
-- logistics
-- cross-border-ecommerce
-- international-shipping
-- customs-compliance
-- landed-cost
+- Shipping
+- Logistics
+- Cross-border eCommerce
+- International Shipping
+- Customs Compliance
+- Landed Cost
 - duties-and-taxes
-- parcel-delivery
-- ecommerce
-- merchant-of-record
-- trade-compliance
+- Parcel Delivery
+- E-Commerce
+- Merchant of Record
+- Trade Compliance
 ---

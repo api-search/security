@@ -67,9 +67,9 @@ summary_line: http · 1 scheme
 tags:
 - Event Management
 - Event Registration
-- Events
+- Event
 - Sessions
 - Speakers
 - Attendees
-- SaaS
+- Software-as-a-Service
 ---

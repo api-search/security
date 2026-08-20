@@ -126,14 +126,14 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/security/picus-security-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- cybersecurity
-- security-validation
-- breach-and-attack-simulation
-- adversarial-exposure-validation
-- continuous-threat-exposure-management
-- penetration-testing
-- threat-intelligence
+- Cybersecurity
+- Security Validation
+- Breach and Attack Simulation
+- Adversarial Exposure Validation
+- Continuous Threat Exposure Management
+- Penetration Testing
+- Threat Intelligence
 - mitre-attack
-- detection-engineering
-- security-operations
+- Detection Engineering
+- Security Operations
 ---

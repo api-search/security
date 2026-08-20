@@ -38,7 +38,7 @@ tags:
 - Batch Processing
 - Data Pipeline
 - ETL
-- Open Source
+- Open-Source
 - Python
 - Streaming
 - Unified Model

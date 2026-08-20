@@ -61,11 +61,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sapien/refs/he
 summary_line: http · 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Data Quality
 - Data Labeling
-- Machine Learning
-- Human in the Loop
+- Machine-Learning
+- Human-in-the-Loop
 - Attestation
 - Blockchain
 - Consensus

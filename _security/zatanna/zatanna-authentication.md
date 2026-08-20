@@ -54,12 +54,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zatanna/refs/h
 summary_line: oauth2/http · 2 schemes
 tags:
 - Company
-- API
 - MCP
 - AI Agents
 - Integration
 - Reverse Engineering
 - Automation
-- OAuth
+- Authentication
 - Y Combinator
 ---

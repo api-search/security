@@ -35,6 +35,6 @@ tags:
 - No-Code
 - Manufacturing
 - Robot Programming
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 ---

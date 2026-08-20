@@ -32,9 +32,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Investment Management
 - Asset Management
-- ETF
+- ETFs
 - QQQ
 - Mutual Funds
-- Financial Services
+- Financial-Services
 - Public Company
 ---

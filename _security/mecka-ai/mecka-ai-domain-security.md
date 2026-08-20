@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mecka-ai/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Physical AI
 - Robotics
 - Embodied AI
 - Training Data
 - Datasets
-- Machine Learning
-- Computer Vision
+- Machine-Learning
+- Computer-Vision
 ---

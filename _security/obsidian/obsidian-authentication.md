@@ -86,7 +86,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/obsidian/refs/
 summary_line: http · 1 scheme
 tags:
 - Productivity
-- Knowledge Management
+- Knowledge-Management
 - Markdown
 - Notes
 - Local-First

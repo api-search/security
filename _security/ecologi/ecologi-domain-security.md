@@ -58,5 +58,5 @@ tags:
 - Reporting
 - Zapier
 - Shopify
-- Webhooks
+- Webhook
 ---

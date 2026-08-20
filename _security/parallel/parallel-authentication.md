@@ -111,7 +111,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parallel/refs/
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Web Search
 - Agents
 - Deep Research

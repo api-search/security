@@ -122,8 +122,8 @@ summary_line: apiKey/http · 5 schemes
 tags:
 - Artificial Intelligence
 - LLM Gateway
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 - Model Routing
 - Evaluations
 - Fine-Tuning

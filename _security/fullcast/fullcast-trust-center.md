@@ -32,13 +32,12 @@ tags:
 - Revenue Operations
 - Sales Planning
 - Territory Management
-- Go-to-Market
+- Go-To-Market
 - Incentive Compensation
 - Forecasting
 - Lead Routing
 - MCP
 - AI Agents
-- Model Context Protocol
 - Sales Compensation
 trust_url: https://trust.fullcast.io/
 ---

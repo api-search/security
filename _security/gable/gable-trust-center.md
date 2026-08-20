@@ -27,7 +27,7 @@ tags:
 - Hybrid Work
 - Room Scheduling
 - Visitor Management
-- Coworking
+- Co-Working
 - Real Estate Analytics
 trust_url: https://www.gable.to/security
 ---

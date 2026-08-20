@@ -79,7 +79,7 @@ tags:
 - Logistics
 - Fulfillment
 - Inventory
-- Orders
+- Order
 - SecureWMS
 - Extensiv
 trust_url: https://trust.extensiv.com/

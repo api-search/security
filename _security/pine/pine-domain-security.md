@@ -33,9 +33,9 @@ tags:
 - Company
 - Fintech
 - Mortgage
-- Real Estate
+- Real-Estate
 - Lending
 - Home Buying
-- Financial Services
+- Financial-Services
 - Canada
 ---

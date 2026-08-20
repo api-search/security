@@ -93,5 +93,5 @@ tags:
 - Banking as a Service
 - Embedded Finance
 - GCC
-- Webhooks
+- Webhook
 ---

@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/brocade-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/authentication/brocade-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- Data Center
+- Data-Center
 - Directors
 - Fibre Channel
 - Network Automation

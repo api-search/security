@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/homeday/refs/h
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - PropTech
 - Germany
 - Brokerage

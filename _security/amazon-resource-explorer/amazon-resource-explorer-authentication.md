@@ -63,6 +63,5 @@ summary_line: apiKey · 1 scheme
 tags:
 - Discovery
 - Inventory
-- Operations
 - Resource Management
 ---

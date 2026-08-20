@@ -90,7 +90,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/h
 summary_line: http · 1 scheme
 tags:
 - Productivity
-- Tasks
+- Task
 - To-Do
 - Task Management
 - Collaboration

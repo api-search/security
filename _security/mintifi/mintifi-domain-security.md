@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mintifi/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Lending
 - Supply Chain Finance
 - Fintech

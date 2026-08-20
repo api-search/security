@@ -32,7 +32,7 @@ tags:
 - Company
 - Financial Literacy
 - Financial Education
-- FinTech
+- Fintech
 - Gamification
 - Banking
 - Credit Unions

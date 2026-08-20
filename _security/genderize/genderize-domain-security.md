@@ -42,9 +42,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/genderize/refs
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Gender
-- Names
+- Name
 - Prediction
 - Demographics
-- Machine Learning
+- Machine-Learning
 - Statistics
 ---

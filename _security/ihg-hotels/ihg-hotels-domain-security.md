@@ -108,6 +108,6 @@ tags:
 - Distribution
 - GDS
 - Loyalty
-- Affiliate
+- Affiliates
 - Partner Gated
 ---

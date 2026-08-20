@@ -60,19 +60,19 @@ source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/security/blueshift-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- customer-data-platform
-- customer-engagement
-- marketing-automation
-- cross-channel-messaging
-- email
-- sms
-- push-notifications
-- segmentation
-- personalization
-- product-recommendations
-- event-tracking
-- product-catalog
-- martech
-- mcp
+- Customer Data Platform
+- Customer Engagement
+- Marketing Automation
+- Cross-Channel Messaging
+- Email
+- SMS
+- Push Notifications
+- Segmentation
+- Personalization
+- Product Recommendations
+- Event Tracking
+- Product Catalog
+- MarTech
+- MCP
 - agent-native
 ---

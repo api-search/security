@@ -55,8 +55,8 @@ summary_line: http · 1 scheme
 tags:
 - Banking
 - Financial Data
-- FinTech
+- Fintech
 - Open Banking
-- Transactions
-- Unified API
+- Transaction
+- Unified-API
 ---

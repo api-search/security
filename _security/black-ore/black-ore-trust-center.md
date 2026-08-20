@@ -22,8 +22,8 @@ tags:
 - Tax
 - Accounting
 - Artificial Intelligence
-- Financial Services
+- Financial-Services
 - Automation
-- Machine Learning
+- Machine-Learning
 trust_url: https://blackore.ai/security
 ---

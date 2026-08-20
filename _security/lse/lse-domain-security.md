@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: lse-moodle-lti-platform-openapi.yml
+  format: yaml
+  label: LSE Moodle LTI 1.3 Platform
+  slug: moodle-lti-platform
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/openapi/lse-moodle-lti-platform-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,14 +49,19 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/security/lse-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - United Kingdom
+- Russell Group
+- Social Sciences
+- Identity Federation
+- Learning Management
+- Research Repository
 - Library
 - Open Research
-- Repository
 - OAI-PMH
+- SAML
+- LTI
 - IIIF
-- Identity
 ---

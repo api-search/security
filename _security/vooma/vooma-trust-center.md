@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/hea
 summary_line: SOC 2
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Freight
 - Logistics
 - Transportation

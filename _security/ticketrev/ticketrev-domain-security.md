@@ -35,6 +35,6 @@ tags:
 - Sports
 - Entertainment
 - Marketplace
-- Events
+- Event
 - Payments
 ---

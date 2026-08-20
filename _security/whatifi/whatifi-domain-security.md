@@ -35,7 +35,7 @@ tags:
 - Forecasting
 - Scenario Planning
 - Business Intelligence
-- FinTech
+- Fintech
 - SMB
 - Accounting
 ---

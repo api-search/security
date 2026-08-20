@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/xerox-pu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/authentication/xerox-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
-- Document Management
+- Document-Management
 - Enterprise
 - Fortune 500
 - Managed Print Services

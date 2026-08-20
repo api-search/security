@@ -101,7 +101,7 @@ tags:
 - Vehicle Specifications
 - Depreciation
 - Ownership Costs
-- Jobs
+- Job
 - Labor Market Data
 - REST
 - OpenAPI
@@ -113,5 +113,5 @@ tags:
 - Vehicle Images
 - MCP
 - Agent Tools
-- Machine Learning
+- Machine-Learning
 ---

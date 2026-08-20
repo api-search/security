@@ -36,5 +36,5 @@ tags:
 - EdTech
 - Mobile App
 - Consumer
-- AI
+- Artificial Intelligence
 ---

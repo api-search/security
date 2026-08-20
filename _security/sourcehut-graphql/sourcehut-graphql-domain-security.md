@@ -51,7 +51,7 @@ tags:
 - Developer Tools
 - Software Forge
 - Version Control
-- Open Source
+- Open-Source
 - CI/CD
 - Git
 ---

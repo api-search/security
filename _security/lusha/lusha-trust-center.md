@@ -105,7 +105,7 @@ tags:
 - Intent
 - Signals
 - Lookalikes
-- Webhooks
+- Webhook
 - MCP
 trust_url: https://www.lusha.com/trust-center
 ---

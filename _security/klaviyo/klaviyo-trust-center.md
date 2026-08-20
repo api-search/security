@@ -168,7 +168,7 @@ tags:
 - Email
 - SMS
 - Customer Data
-- Ecommerce
+- E-Commerce
 - Automation
 trust_url: https://trust.klaviyo.com/
 ---

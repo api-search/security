@@ -129,8 +129,8 @@ tags:
 - Company
 - Speech
 - Voice
-- Speech to Text
-- Text to Speech
+- Speech-to-Text
+- Text-to-Speech
 - Voice AI
 - Voice Agents
 - Transcription

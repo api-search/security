@@ -38,5 +38,5 @@ tags:
 - Telepharmacy
 - Hospital
 - 340B
-- SaaS
+- Software-as-a-Service
 ---

@@ -35,6 +35,6 @@ tags:
 - Business Cards
 - CRM
 - Sales
-- SaaS
+- Software-as-a-Service
 - Japan
 ---

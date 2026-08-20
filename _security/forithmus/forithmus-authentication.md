@@ -205,12 +205,11 @@ summary_line: http-bearer/oauth2/openIdConnect · 4 schemes
 tags:
 - Medical Imaging
 - Radiology
-- Machine Learning
+- Machine-Learning
 - Foundation Models
 - Healthcare AI
 - Challenge Platform
 - Benchmarks
 - Research
 - Developer Tools
-- API
 ---

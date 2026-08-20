@@ -406,7 +406,7 @@ tags:
 - Company
 - Artificial Intelligence
 - GPU
-- Machine Learning
+- Machine-Learning
 - Kubernetes
 - Orchestration
 - MLOps

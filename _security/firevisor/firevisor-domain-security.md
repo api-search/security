@@ -33,5 +33,5 @@ tags:
 - Artificial Intelligence
 - Industrial Automation
 - Defect Detection
-- Machine Learning
+- Machine-Learning
 ---

@@ -208,7 +208,7 @@ tags:
 - Alerting
 - Incident Management
 - Observability
-- Open Source
+- Open-Source
 - SRE
-- Workflow Automation
+- Workflow-Automation
 ---

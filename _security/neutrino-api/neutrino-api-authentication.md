@@ -97,8 +97,8 @@ tags:
 - IP Intelligence
 - Security
 - Networking
-- Anti-fraud
-- E-commerce
+- Anti-Fraud
+- E-Commerce
 - Payments
 - Imaging
 - Rendering

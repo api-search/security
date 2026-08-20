@@ -96,6 +96,6 @@ tags:
 - PDF
 - LaTeX
 - Handwriting
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 ---

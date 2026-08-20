@@ -36,6 +36,6 @@ tags:
 - Artificial Intelligence
 - Forecasting
 - Conversation Intelligence
-- RevOps
+- Revenue Operations
 - Analytics
 ---

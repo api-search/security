@@ -198,18 +198,18 @@ source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/security/banqu-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- supply-chain
-- traceability
-- sustainability
-- esg
-- agriculture
-- procurement
-- compliance
-- blockchain
-- eudr
-- carbon-accounting
-- recycling
+- Supply Chain
+- Traceability
+- Sustainability
+- ESG
+- Agriculture
+- Procurement
+- Compliance
+- Blockchain
+- EUDR
+- Carbon Accounting
+- Recycling
 - smallholder-farmers
-- distributed-ledger
-- supplier-management
+- Distributed Ledger
+- Supplier Management
 ---

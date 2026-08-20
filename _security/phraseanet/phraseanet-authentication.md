@@ -101,6 +101,6 @@ tags:
 - DAM
 - Media
 - Metadata
-- Open Source
+- Open-Source
 - Search
 ---

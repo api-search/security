@@ -110,7 +110,7 @@ tags:
 - Autonomy
 - Industrial Vehicles
 - Off-Highway
-- Machine Learning
+- Machine-Learning
 - Simulation
 - Teleoperation
 - Automation

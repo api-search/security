@@ -90,7 +90,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/
 summary_line: oauth2 · 1 scheme
 tags:
 - Logistics
-- E-commerce
+- E-Commerce
 - Order Management
 - Warehouse Management
 - Inventory

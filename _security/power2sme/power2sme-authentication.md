@@ -132,5 +132,4 @@ tags:
 - India
 - Onboarding
 - OTP
-- API
 ---

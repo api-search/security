@@ -64,7 +64,7 @@ tags:
 - Email
 - SMS
 - Behavioral Data
-- eCommerce
-- Webhooks
+- E-Commerce
+- Webhook
 trust_url: https://trust.wunderkind.co/
 ---

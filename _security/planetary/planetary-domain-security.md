@@ -30,12 +30,12 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Social
-- Social Media
+- Social-Media
 - Decentralized
 - Peer-to-Peer
 - Scuttlebutt
 - Nostr
-- Open Source
+- Open-Source
 - Protocol
 - iOS
 ---

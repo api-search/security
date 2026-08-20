@@ -67,7 +67,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Pricing
 - Procurement
-- SaaS
+- Software-as-a-Service
 - Software Spend Management
 - Negotiation
 ---

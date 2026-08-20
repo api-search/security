@@ -35,7 +35,7 @@ tags:
 - Last Mile Delivery
 - Grocery
 - E-Commerce
-- Real Estate
+- Real-Estate
 - Workplace
 - Amenities
 - Corporate Gifting

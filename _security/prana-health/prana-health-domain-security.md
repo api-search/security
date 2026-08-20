@@ -37,5 +37,5 @@ tags:
 - Body Composition
 - Personalized Medicine
 - Consumer Health
-- Machine Learning
+- Machine-Learning
 ---

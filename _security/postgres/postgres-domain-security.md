@@ -48,7 +48,7 @@ tags:
 - Database
 - Relational Database
 - SQL
-- Open Source
+- Open-Source
 - PostgreSQL
 - Object-Relational
 - Data Storage

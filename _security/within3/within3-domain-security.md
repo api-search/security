@@ -35,5 +35,5 @@ tags:
 - Medical Affairs
 - Insights Management
 - Virtual Engagement
-- Pharmaceutical
+- Pharmaceuticals
 ---

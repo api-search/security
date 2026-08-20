@@ -33,9 +33,9 @@ tags:
 - Company
 - Fintech
 - PropTech
-- Rental
+- Rentals
 - Deposits
 - Tenancy
-- Real Estate
+- Real-Estate
 - United Kingdom
 ---

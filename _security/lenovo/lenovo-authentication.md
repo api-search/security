@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lenovo-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lenovo/refs/heads/main/authentication/lenovo-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Data Center
+- Data-Center
 - Hardware
 - Infrastructure
 - Personal Computers

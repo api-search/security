@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agricultural-m
 summary_line: http · 1 scheme
 tags:
 - Agriculture
-- Federal Government
+- Federal-Government
 - Market News
 - Livestock
 - Dairy

@@ -72,5 +72,5 @@ tags:
 - Data Enrichment
 - Prospecting
 - Recruiting
-- Webhooks
+- Webhook
 ---

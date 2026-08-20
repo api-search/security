@@ -27,7 +27,7 @@ tags:
 - Analytics
 - DRM
 - Advertising
-- Webhooks
+- Webhook
 - Player
 trust_url: https://trust.jwplayer.com/
 ---

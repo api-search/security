@@ -91,6 +91,6 @@ tags:
 - B2B
 - Logistics
 - Retail
-- Transactions
+- Transaction
 - Integration
 ---

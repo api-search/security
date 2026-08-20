@@ -50,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-webui/ref
 summary_line: http · 1 scheme
 tags:
 - LLM
-- Open Source
+- Open-Source
 - Self-Hosted
 - Ollama
 - Chat UI

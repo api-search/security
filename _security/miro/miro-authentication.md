@@ -344,5 +344,5 @@ tags:
 - Whiteboard
 - Visual Collaboration
 - Diagramming
-- SaaS
+- Software-as-a-Service
 ---

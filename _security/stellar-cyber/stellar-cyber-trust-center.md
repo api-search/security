@@ -91,6 +91,6 @@ tags:
 - XDR
 - SIEM
 - SOAR
-- AI
+- Artificial Intelligence
 trust_url: https://security.stellarcyber.ai/
 ---

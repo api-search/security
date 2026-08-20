@@ -36,5 +36,5 @@ tags:
 - E-Commerce
 - Supply Chain
 - B2B
-- SaaS
+- Software-as-a-Service
 ---

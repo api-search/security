@@ -44,7 +44,7 @@ tags:
 - No-Code
 - Email Marketing
 - CRM
-- Webhooks
-- Model Context Protocol
+- Webhook
+- MCP
 - Austria
 ---

@@ -54,7 +54,7 @@ tags:
 - World Models
 - Generative AI
 - Video Generation
-- Machine Learning
+- Machine-Learning
 - Real-Time Streaming
 - SDK
 - WebRTC

@@ -32,6 +32,6 @@ tags:
 - Web Games
 - Mobile Games
 - Fintech
-- E-Sports
+- Esports
 - China
 ---

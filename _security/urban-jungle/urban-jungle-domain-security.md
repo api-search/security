@@ -53,6 +53,6 @@ tags:
 - Renters Insurance
 - Embedded Insurance
 - Underwriting
-- Broker
+- Brokers
 - Direct to Consumer
 ---

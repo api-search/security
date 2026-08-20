@@ -32,7 +32,7 @@ tags:
 - Company
 - Crypto
 - DeFi
-- Stablecoin
+- Stablecoins
 - Ethereum
 - GraphQL
 - Smart Contracts

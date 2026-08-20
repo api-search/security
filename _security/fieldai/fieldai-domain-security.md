@@ -36,6 +36,6 @@ tags:
 - Autonomous Systems
 - Physical AI
 - Foundation Models
-- Machine Learning
+- Machine-Learning
 - Automation
 ---

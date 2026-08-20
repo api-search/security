@@ -32,7 +32,7 @@ tags:
 - Company
 - IoT
 - Security
-- Cameras
+- Camera
 - Home Automation
 - Surveillance
 - Mobile

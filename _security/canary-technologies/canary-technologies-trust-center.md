@@ -24,7 +24,7 @@ tags:
 - Guest Management
 - Payments
 - Travel
-- Integrations
+- Integration
 - Artificial Intelligence
 trust_url: https://security.canarytechnologies.com/
 ---

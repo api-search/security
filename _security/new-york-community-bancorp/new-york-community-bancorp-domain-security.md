@@ -28,7 +28,7 @@ summary_line: DNSSEC · DMARC
 tags:
 - Fortune 500
 - Banking
-- Financial Services
+- Financial-Services
 - Commercial Banking
 - Mortgage
 ---

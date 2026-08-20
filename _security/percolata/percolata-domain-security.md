@@ -32,7 +32,7 @@ tags:
 - Company
 - Retail
 - Analytics
-- Machine Learning
+- Machine-Learning
 - Predictive Analytics
 - Workforce Optimization
 - Marketing Optimization

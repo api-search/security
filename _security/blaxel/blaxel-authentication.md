@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/blaxel-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/authentication/blaxel-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Infrastructure
 - Sandboxes

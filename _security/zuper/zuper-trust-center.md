@@ -112,6 +112,6 @@ tags:
 - Work Orders
 - Customer Management
 - Inventory
-- Projects
+- Project
 trust_url: https://trust.zuper.co/
 ---

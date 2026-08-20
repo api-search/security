@@ -36,15 +36,15 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chownow/refs/heads/main/security/chownow-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Restaurants
+- Restaurant
 - Online Ordering
-- Food And Beverage
+- Food and Beverage
 - Restaurant Technology
-- Point Of Sale
+- Point-of-Sale
 - Delivery
 - Catering
 - Marketing
 - Mobile Apps
 - Independent Restaurants
-- Commission Free
+- Commission-Free
 ---

@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plantshopme/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Retail
 - Plants
 - Gardening
 - Home & Garden
 - United Arab Emirates
 - Middle East
-- LLMsTxt
+- llms-txt
 ---

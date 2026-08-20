@@ -33,7 +33,7 @@ tags:
 - Fintech
 - Lending
 - Payments
-- Pharmaceutical
+- Pharmaceuticals
 - Commerce
 - India
 - Credit

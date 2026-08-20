@@ -77,8 +77,8 @@ summary_line: apiKey · 1 scheme
 tags:
 - ScanSource
 - Distribution
-- Barcode
-- Point Of Sale
+- Barcodes
+- Point-of-Sale
 - AIDC
 - Inventory
 - Order Management

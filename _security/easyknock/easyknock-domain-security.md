@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Defunct
-- Real Estate
+- Real-Estate
 - PropTech
 - Fintech
 - Sale Leaseback

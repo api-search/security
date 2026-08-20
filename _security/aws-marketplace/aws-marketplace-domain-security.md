@@ -74,7 +74,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud Marketplace
 - Procurement
-- SaaS
+- Software-as-a-Service
 - Software Distribution
 - Catalog
 ---

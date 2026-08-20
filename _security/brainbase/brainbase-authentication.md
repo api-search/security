@@ -50,5 +50,5 @@ tags:
 - Royalties
 - Contracts
 - Trademarks
-- SaaS
+- Software-as-a-Service
 ---

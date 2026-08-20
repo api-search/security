@@ -43,8 +43,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Commerce
 - Shopping Cart
-- Products
-- Orders
+- Product
+- Order
 - Customers
 - Categories
 - Coupons

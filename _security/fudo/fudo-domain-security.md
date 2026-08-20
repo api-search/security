@@ -156,11 +156,11 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Restaurant
-- Point of Sale
+- Point-of-Sale
 - Hospitality
 - Food and Beverage
 - Payments
 - Inventory
 - Latin America
-- SaaS
+- Software-as-a-Service
 ---

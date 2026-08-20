@@ -60,14 +60,14 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: openapi/mydenti
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/authentication/mydentify-public-api-authentication.yml
 summary_line: 0 schemes
 tags:
-- product discovery
+- Product Discovery
 - startup directories
-- leaderboards
-- research
-- SaaS
-- developer tools
+- Leaderboards
+- Research
+- Software-as-a-Service
+- Developer Tools
 - agent-native
-- llms.txt
-- agent skills
-- directories
+- llms-txt
+- Agent Skills
+- Directories
 ---

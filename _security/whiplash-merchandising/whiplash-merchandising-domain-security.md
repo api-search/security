@@ -174,7 +174,7 @@ tags:
 - Company
 - Fulfillment
 - Logistics
-- Ecommerce
+- E-Commerce
 - Shipping
 - Warehousing
 - Inventory

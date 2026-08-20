@@ -54,7 +54,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-army/refs/h
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Army
-- Federal Government
+- Federal-Government
 - Military
 - Defense
 - Open Data

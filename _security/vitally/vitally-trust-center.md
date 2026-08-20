@@ -75,7 +75,7 @@ summary_line: SOC 2, GDPR
 tags:
 - Company
 - Customer Success
-- SaaS
+- Software-as-a-Service
 - CRM
 - NPS
 - Surveys

@@ -36,6 +36,6 @@ tags:
 - Private Aviation
 - Travel
 - Payments
-- SaaS
+- Software-as-a-Service
 - B2B
 ---

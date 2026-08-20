@@ -113,7 +113,7 @@ tags:
 - Generative AI
 - Video Generation
 - Real-Time Streaming
-- Text to Video
+- Text-to-Video
 - Video Translation
 - Voice Cloning
 ---

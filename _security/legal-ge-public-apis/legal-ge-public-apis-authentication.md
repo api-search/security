@@ -36,17 +36,16 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: https://legal.g
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/authentication/legal-ge-public-apis-authentication.yml
 summary_line: none · 0 schemes
 tags:
-- legal
-- law
-- legal-services
-- directory
-- georgia
-- ai-agents
-- mcp
-- model-context-protocol
+- Legal
+- Law
+- Legal Services
+- Directory
+- Georgia
+- AI Agents
+- MCP
 - specialists
-- professional-services
-- marketplace
-- multilingual
-- legal-tech
+- Professional Services
+- Marketplace
+- Multilingual
+- Legal Tech
 ---

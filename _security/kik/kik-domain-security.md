@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kik/refs/heads
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Social Media
+- Social-Media
 - Messaging
 - Chat
 - Mobile

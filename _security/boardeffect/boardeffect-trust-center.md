@@ -23,7 +23,7 @@ tags:
 - Board Portal
 - Governance
 - Meetings
-- Nonprofit
+- Non-Profit
 - Diligent
 trust_url: https://www.boardeffect.com/security/
 ---

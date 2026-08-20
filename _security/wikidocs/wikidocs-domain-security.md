@@ -31,5 +31,5 @@ tags:
 - Documentation
 - Productivity
 - Acquired
-- SaaS
+- Software-as-a-Service
 ---

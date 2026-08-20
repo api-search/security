@@ -22,7 +22,7 @@ tags:
 - Revenue Intelligence
 - Sales Engagement
 - Conversation Intelligence
-- RevOps
+- Revenue Operations
 - Call Analytics
 - Real-Time Guidance
 - CRM Integration

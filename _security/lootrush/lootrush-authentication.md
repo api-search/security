@@ -69,5 +69,4 @@ tags:
 - Payments
 - Withdrawals
 - MCP
-- API
 ---

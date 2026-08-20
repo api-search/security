@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/higress/refs/h
 summary_line: TLSv1.3
 tags:
 - API Gateway
-- Cloud Native
+- Cloud-Native
 - Istio
 - Kubernetes
 ---

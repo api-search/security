@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Investment Analytics
-- Portfolio Management
+- Portfolio-Management
 - Risk Analytics
 - Institutional Investors
 - Asset Allocation

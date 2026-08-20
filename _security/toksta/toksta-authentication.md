@@ -91,7 +91,7 @@ tags:
 - AI Agents
 - LinkedIn
 - YouTube
-- SaaS
+- Software-as-a-Service
 - Creator Data
 - MCP
 - Brand Monitoring

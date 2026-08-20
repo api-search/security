@@ -23,6 +23,5 @@ tags:
 - Data Integration
 - Data Governance
 - AI Governance
-- API
 trust_url: https://trustcenter.cinchy.com/
 ---

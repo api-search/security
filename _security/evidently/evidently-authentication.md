@@ -60,7 +60,7 @@ tags:
 - Model Performance
 - AI Evaluation
 - Data Quality
-- Open Source
+- Open-Source
 - MLOps
 - LLMOps
 - Generative AI

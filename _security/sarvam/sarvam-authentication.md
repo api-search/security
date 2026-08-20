@@ -87,9 +87,9 @@ tags:
 - Company
 - Ai Ml
 - Artificial Intelligence
-- Machine Learning
-- Speech To Text
-- Text To Speech
+- Machine-Learning
+- Speech-to-Text
+- Text-to-Speech
 - Translation
 - Large Language Models
 - Document Intelligence

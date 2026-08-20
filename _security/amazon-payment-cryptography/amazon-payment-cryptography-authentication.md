@@ -152,7 +152,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment
 summary_line: apiKey · 1 scheme
 tags:
 - Cryptography
-- Financial Services
+- Financial-Services
 - Payment Processing
 - PCI
 ---

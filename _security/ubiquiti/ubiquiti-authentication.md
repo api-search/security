@@ -62,7 +62,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ubiquiti/refs/
 summary_line: apiKey · 1 scheme
 tags:
 - Networking
-- WiFi
+- Wi-Fi
 - Switching
 - Routing
 - Surveillance

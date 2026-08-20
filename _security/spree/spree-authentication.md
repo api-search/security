@@ -572,11 +572,11 @@ summary_line: apiKey/http · 3 schemes
 tags:
 - E-Commerce
 - Headless Commerce
-- Products
-- Orders
+- Product
+- Order
 - Inventory
 - Payments
 - Promotions
-- Open Source
+- Open-Source
 - Ruby on Rails
 ---

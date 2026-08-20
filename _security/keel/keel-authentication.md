@@ -39,14 +39,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keel/refs/head
 summary_line: http/oauth2/openIdConnect · 2 schemes
 tags:
 - Company
-- Operations
 - ERP
 - Backend
 - GraphQL
-- API
 - Low-Code
 - Developer Tools
-- Workflow
+- Workflows
 - Authentication
 - TypeScript
 ---

@@ -34,7 +34,7 @@ tags:
 - Semiconductors
 - Hardware
 - AI Infrastructure
-- Data Center
+- Data-Center
 - Connectivity
 - PCIe
 - CXL

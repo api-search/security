@@ -34,7 +34,7 @@ tags:
 - Legacy Modernization
 - Mainframe
 - Banking
-- Financial Services
+- Financial-Services
 - System Intelligence
 - Artificial Intelligence
 ---

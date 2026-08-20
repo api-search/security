@@ -68,9 +68,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/starbridge/ref
 summary_line: http · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Sales Intelligence
-- Go To Market
+- Go-To-Market
 - Public Sector
 - Education
 - Government

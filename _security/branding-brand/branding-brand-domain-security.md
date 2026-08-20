@@ -31,12 +31,12 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Commerce
-- eCommerce
+- E-Commerce
 - Mobile
 - React Native
 - Retail
 - Omnichannel
-- Open Source
+- Open-Source
 - SDK
 - CLI
 ---

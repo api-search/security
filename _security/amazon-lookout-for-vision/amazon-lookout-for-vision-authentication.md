@@ -43,8 +43,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-l
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/authentication/amazon-lookout-for-vision-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Manufacturing
 - Quality Inspection
 - Anomaly Detection

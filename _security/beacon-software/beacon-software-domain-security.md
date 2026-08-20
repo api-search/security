@@ -35,6 +35,6 @@ tags:
 - Vertical SaaS
 - Private Equity
 - Mergers and Acquisitions
-- AI
+- Artificial Intelligence
 - Main Street
 ---

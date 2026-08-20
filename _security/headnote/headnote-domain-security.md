@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Legal
-- LegalTech
+- Legal Tech
 - Payments
 - Accounts Receivable
 - Law Firms

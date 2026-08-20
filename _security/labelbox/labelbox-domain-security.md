@@ -49,9 +49,9 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Data Labeling
 - AI Training
-- Machine Learning
+- Machine-Learning
 - Annotation
-- Computer Vision
+- Computer-Vision
 - RLHF
 - Model Evaluation
 - Dataset Management

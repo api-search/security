@@ -38,7 +38,7 @@ tags:
 - Company
 - Fitness Tech
 - Endurance Sports
-- Events
+- Event
 - Event Registration
 - Marketplace
 - Ticketing

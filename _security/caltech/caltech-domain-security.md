@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: caltech-caltechdata-openapi.yml
+  format: yaml
+  label: CaltechDATA REST API
+  slug: caltechdata-rest
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/openapi/caltech-caltechdata-openapi.yml
+- filename: caltech-scedc-fdsn-openapi.yml
+  format: yaml
+  label: SCEDC FDSN Web Services
+  slug: scedc-fdsn
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/openapi/caltech-scedc-fdsn-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,11 +53,19 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/security/caltech-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research Data
-- Astronomy
-- Open Data
+- Higher Education
+- Education
+- Private Research University
+- Institute of Technology
 - United States
+- California
+- Research Data
+- Open Data
+- Research Repository
+- Identity Federation
+- Astronomy
+- Seismology
+- Research Computing
+- OAI-PMH
 ---

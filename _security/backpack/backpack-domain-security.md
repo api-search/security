@@ -134,7 +134,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Crypto
 - Exchange
-- Wallet
+- Wallets
 - Trading
 - Perpetuals
 - Solana

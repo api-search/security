@@ -33,7 +33,7 @@ tags:
 - Consumer
 - Retail
 - E-Commerce
-- SaaS
+- Software-as-a-Service
 - Digital Retail
 - Supply Chain
 - China

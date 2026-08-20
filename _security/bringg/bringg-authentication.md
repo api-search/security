@@ -219,7 +219,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bringg-d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bringg/refs/heads/main/authentication/bringg-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Last-Mile Delivery
+- Last Mile Delivery
 - Delivery Orchestration
 - Fulfillment
 - Logistics
@@ -230,7 +230,7 @@ tags:
 - Carrier Network
 - Fleet Management
 - Supply Chain
-- E-commerce
+- E-Commerce
 - Same-Day Delivery
 - Curbside Pickup
 - Returns

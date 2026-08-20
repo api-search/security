@@ -58,13 +58,13 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Backend
 - Database
-- Events
+- Event
 - Hooks
 - JavaScript
 - NoSQL
 - Queues
 - Serverless
-- Webhooks
+- Webhook
 - Workers
 - Workflows
 ---

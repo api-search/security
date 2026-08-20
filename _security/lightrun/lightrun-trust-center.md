@@ -149,7 +149,7 @@ tags:
 - Logging
 - Application Performance
 - Agent Skills
-- Model Context Protocol
+- MCP
 - DevOps
 trust_url: https://trust.lightrun.com/
 ---

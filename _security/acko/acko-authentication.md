@@ -45,8 +45,8 @@ tags:
 - Company
 - Consumer
 - Insurance
-- InsurTech
-- Financial Services
+- Insurtech
+- Financial-Services
 - Digital Insurance
 - India
 - Embedded Insurance

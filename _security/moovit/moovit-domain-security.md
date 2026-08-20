@@ -108,7 +108,7 @@ tags:
 - MaaS
 - Trip Planning
 - Multimodal Routing
-- Real Time
+- Real-Time
 - GTFS
 - GTFS Realtime
 - Service Alerts

@@ -162,5 +162,5 @@ tags:
 - SIEM
 - Identity Threat Detection
 - MSP
-- Webhooks
+- Webhook
 ---

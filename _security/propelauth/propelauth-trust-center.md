@@ -136,6 +136,6 @@ tags:
 - SSO
 - SCIM
 - MCP
-- API Keys
+- APIKeys
 trust_url: https://www.propelauth.com/security
 ---

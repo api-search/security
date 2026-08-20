@@ -36,6 +36,6 @@ tags:
 - Backup
 - Disaster Recovery
 - Data Protection
-- Cloud Native
+- Cloud-Native
 - DevOps
 ---

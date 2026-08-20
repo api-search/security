@@ -156,7 +156,7 @@ tags:
 - Banking
 - Banking as a Service
 - Payments
-- PIX
+- Pix
 - Boleto
 - Private Credit
 - Fintech

@@ -132,6 +132,6 @@ tags:
 - Commerce
 - Payments
 - MCP
-- Webhooks
+- Webhook
 - Rewards
 ---

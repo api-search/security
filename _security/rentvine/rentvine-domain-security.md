@@ -46,7 +46,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rentvine/refs/
 summary_line: TLSv1.2 · DMARC
 tags:
 - Property Management
-- Real Estate
+- Real-Estate
 - Leasing
 - Tenant Management
 - Maintenance

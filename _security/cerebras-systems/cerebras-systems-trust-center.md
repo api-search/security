@@ -50,9 +50,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cerebras-syste
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Inference
 - Large Language Models
 - Developer Tools

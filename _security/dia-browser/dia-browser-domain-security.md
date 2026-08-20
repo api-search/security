@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Browser
 - AI Browser
-- Agent
+- Agents
 - Consumer
 - The Browser Company
 ---

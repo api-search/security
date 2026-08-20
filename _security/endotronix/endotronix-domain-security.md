@@ -35,6 +35,6 @@ tags:
 - Remote Patient Monitoring
 - Cardiology
 - Heart Failure
-- Health Care
+- Healthcare
 - Connected Devices
 ---

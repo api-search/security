@@ -27,20 +27,20 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/security/blueshift-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
-- customer-data-platform
-- customer-engagement
-- marketing-automation
-- cross-channel-messaging
-- email
-- sms
-- push-notifications
-- segmentation
-- personalization
-- product-recommendations
-- event-tracking
-- product-catalog
-- martech
-- mcp
+- Customer Data Platform
+- Customer Engagement
+- Marketing Automation
+- Cross-Channel Messaging
+- Email
+- SMS
+- Push Notifications
+- Segmentation
+- Personalization
+- Product Recommendations
+- Event Tracking
+- Product Catalog
+- MarTech
+- MCP
 - agent-native
 trust_url: https://trust.blueshift.com/
 ---

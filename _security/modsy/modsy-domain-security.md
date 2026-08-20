@@ -33,6 +33,6 @@ tags:
 - Consumer
 - Interior Design
 - 3D Visualization
-- Home
-- Real Estate
+- Homes
+- Real-Estate
 ---

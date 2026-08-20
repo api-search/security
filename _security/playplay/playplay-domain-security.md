@@ -42,7 +42,7 @@ tags:
 - Content Creation
 - Marketing
 - Media
-- SaaS
-- AI
+- Software-as-a-Service
+- Artificial Intelligence
 - No-Code
 ---

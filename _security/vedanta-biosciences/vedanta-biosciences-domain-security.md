@@ -40,6 +40,6 @@ tags:
 - Infectious Disease
 - Clinical Research
 - Drug Development
-- Health Care
+- Healthcare
 - United States
 ---

@@ -21,8 +21,8 @@ tags:
 - Estate Planning
 - Wealth Management
 - Financial Advisors
-- FinTech
+- Fintech
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.justvanilla.com/
 ---

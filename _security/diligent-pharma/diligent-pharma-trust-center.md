@@ -29,6 +29,6 @@ tags:
 - Compliance
 - GxP
 - Auditing
-- SaaS
+- Software-as-a-Service
 trust_url: ''
 ---

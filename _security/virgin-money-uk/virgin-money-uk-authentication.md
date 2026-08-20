@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: well-known/virg
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/authentication/virgin-money-uk-authentication.yml
 summary_line: oauth2/openIdConnect/mutualTLS · 3 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

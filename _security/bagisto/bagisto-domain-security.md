@@ -55,9 +55,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Commerce
 - Laravel
-- Open Source
-- Products
-- Orders
+- Open-Source
+- Product
+- Order
 - Customers
 - Inventory
 - Multi-Channel

@@ -43,5 +43,5 @@ tags:
 - CRM
 - Pipeline
 - Forecasting
-- RevOps
+- Revenue Operations
 ---

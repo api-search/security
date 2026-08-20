@@ -61,7 +61,7 @@ summary_line: http/openIdConnect/oauth2 (SMART App Launch 2.0.0, not declared in
 tags:
 - Healthcare
 - FHIR
-- Open Source
+- Open-Source
 - Developer Platform
 - HIPAA
 - SMART on FHIR

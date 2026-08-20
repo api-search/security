@@ -149,7 +149,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/fincura-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fincura/refs/heads/main/authentication/fincura-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Financial Services
+- Financial-Services
 - Lending
 - Credit Analysis
 - Financial Spreading

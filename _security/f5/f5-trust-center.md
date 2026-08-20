@@ -25,7 +25,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/security/f5-trust-center.yml
 summary_line: PCI DSS, GDPR
 tags:
-- Applications
+- Application
 - Security
 - Load Balancing
 - API Gateway

@@ -33,8 +33,8 @@ tags:
 - Mechanical Keyboards
 - Hardware
 - Ergonomics
-- Open Source
+- Open-Source
 - Firmware
 - Keyboards
-- E-commerce
+- E-Commerce
 ---

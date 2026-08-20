@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/property-capsu
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - PropTech
 - Commercial Real Estate
 - Retail

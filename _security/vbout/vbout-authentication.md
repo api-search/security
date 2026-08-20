@@ -137,11 +137,11 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Marketing Automation
 - Email Marketing
-- Social Media
+- Social-Media
 - Lead Management
 - Landing Pages
 - Chatbots
 - Contacts
 - Campaigns
-- SaaS
+- Software-as-a-Service
 ---

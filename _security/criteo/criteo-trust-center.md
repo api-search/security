@@ -52,7 +52,7 @@ tags:
 - Marketing
 - MCP
 - Media
-- OAuth 2.0
+- Authentication
 - OpenAPI
 - Reporting
 - Retail

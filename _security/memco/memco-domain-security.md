@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/memco/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agents
-- AI
-- Knowledge Management
+- Artificial Intelligence
+- Knowledge-Management
 - Memory
 ---

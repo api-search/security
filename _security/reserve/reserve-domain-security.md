@@ -31,7 +31,7 @@ summary_line: TLSv1.2 · HSTS
 tags:
 - Company
 - Consumer
-- Restaurants
+- Restaurant
 - Reservations
 - Dining
 - Acquired

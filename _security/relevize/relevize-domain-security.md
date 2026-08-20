@@ -39,5 +39,5 @@ tags:
 - Expense Management
 - Payments
 - Demand Generation
-- SaaS
+- Software-as-a-Service
 ---

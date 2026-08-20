@@ -104,10 +104,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - ERP
-- E-commerce
+- E-Commerce
 - Order Management
 - Inventory
 - Warehouse Management
 - Manufacturing
-- Operations
 ---

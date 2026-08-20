@@ -285,12 +285,11 @@ summary_line: apiKey · 4 schemes
 tags:
 - AI Agents
 - Authentication
-- Integrations
+- Integration
 - MCP
-- OAuth
 - Sandbox
 - Tools
 - Triggers
-- Unified_API
-- Webhooks
+- Unified-API
+- Webhook
 ---

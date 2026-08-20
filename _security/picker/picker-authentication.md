@@ -421,8 +421,8 @@ tags:
 - Logistics
 - Delivery
 - Last Mile
-- Courier
-- E-commerce
+- Couriers
+- E-Commerce
 - Shipping
 - Tracking
 - Latin America

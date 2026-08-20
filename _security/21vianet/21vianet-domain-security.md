@@ -38,10 +38,10 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Infrastructure
-- Data Center
+- Data-Center
 - Cloud
 - Hosting
 - Colocation
 - China
-- Managed Services
+- Managed Service
 ---

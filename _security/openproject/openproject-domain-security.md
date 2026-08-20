@@ -427,7 +427,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Agile
 - Gantt
-- Open Source
+- Open-Source
 - Project Management
 - Time Tracking
 - Work Packages

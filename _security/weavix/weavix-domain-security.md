@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/security/weavix-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Communication
+- Communications
 - Frontline Workers
 - Workforce Management
 - Messaging

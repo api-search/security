@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/worktrace-ai/r
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Workflow Automation
+- Workflow-Automation
 - Artificial Intelligence
 - Process Intelligence
 - Enterprise

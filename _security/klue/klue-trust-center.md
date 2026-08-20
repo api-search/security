@@ -18,7 +18,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/klue/refs/head
 summary_line: SOC 2 Type II
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Competitive Intelligence
 - Competitive Enablement
 - Sales Enablement

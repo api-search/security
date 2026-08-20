@@ -54,5 +54,5 @@ tags:
 - Retail
 - Auto Finance
 - France
-- JSON Schema
+- JSON-Schema
 ---

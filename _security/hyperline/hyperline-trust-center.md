@@ -62,7 +62,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs
 summary_line: ISO 27001, GDPR
 tags:
 - Billing
-- Subscriptions
+- Subscription
 - Usage-Based
 - Metering
 - Payments

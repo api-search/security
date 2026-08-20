@@ -126,8 +126,8 @@ tags:
 - AEC
 - Artificial Intelligence
 - Document Processing
-- Computer Vision
+- Computer-Vision
 - Agentic AI
-- Machine Learning
+- Machine-Learning
 trust_url: https://conxai.eu.trust.site/
 ---

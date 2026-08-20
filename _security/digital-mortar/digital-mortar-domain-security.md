@@ -32,8 +32,8 @@ tags:
 - People Counting
 - Queue Management
 - Occupancy Analytics
-- Computer Vision
+- Computer-Vision
 - Shopper Journey
 - Physical Retail
-- SaaS
+- Software-as-a-Service
 ---

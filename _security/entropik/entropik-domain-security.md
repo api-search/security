@@ -39,5 +39,5 @@ tags:
 - Market Research
 - Insights Platform
 - Eye Tracking
-- SaaS
+- Software-as-a-Service
 ---

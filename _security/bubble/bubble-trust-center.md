@@ -58,7 +58,7 @@ tags:
 - No-Code
 - Application Platform
 - Database
-- Workflow Automation
+- Workflow-Automation
 - Plugins
 trust_url: https://bubble.io/security
 ---

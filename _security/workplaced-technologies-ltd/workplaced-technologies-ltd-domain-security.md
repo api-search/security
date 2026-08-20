@@ -34,6 +34,6 @@ tags:
 - Occupancy
 - Desk Booking
 - Workplace Analytics
-- Real Estate
-- SaaS
+- Real-Estate
+- Software-as-a-Service
 ---

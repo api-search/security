@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clair/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Financial Services
-- FinTech
+- Financial-Services
+- Fintech
 - Earned Wage Access
 - On-Demand Pay
 - Payroll

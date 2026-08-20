@@ -55,11 +55,11 @@ tags:
 - Payments
 - Acquirer
 - Brazil
-- LATAM
+- LatAm
 - Santander
 - E-Commerce
 - In-Store Payments
-- POS
+- Point-of-Sale
 - Pix
 - Boleto
 - Cards
@@ -71,8 +71,8 @@ tags:
 - Web Checkout
 - Onboarding
 - Chargeback
-- Webhooks
-- OAuth 2.0
+- Webhook
+- Authentication
 - Agentic Commerce
 - MCP
 ---

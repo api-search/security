@@ -60,14 +60,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Lending
 - Buy Now Pay Later
 - Installment Payments
 - Consumer Credit
 - Payments
-- E-commerce
+- E-Commerce
 - Peru
 - Latin America
 ---

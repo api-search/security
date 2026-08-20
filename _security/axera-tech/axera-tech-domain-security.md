@@ -30,12 +30,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axera-tech/ref
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Artificial Intelligence
 - Edge Computing
 - NPU
 - AI Inference
-- Computer Vision
+- Computer-Vision
 - Automotive
 - Chips
 - IoT

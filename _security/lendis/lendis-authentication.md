@@ -107,5 +107,5 @@ tags:
 - Workplace Technology
 - Procurement
 - Germany
-- SaaS
+- Software-as-a-Service
 ---

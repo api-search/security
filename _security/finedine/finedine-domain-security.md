@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finedine/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Restaurants
+- Restaurant
 - Hospitality
 - Digital Menu
 - Ordering
-- Point of Sale
+- Point-of-Sale
 - Reservations
 - Food and Beverage
-- SaaS
+- Software-as-a-Service
 ---

@@ -37,5 +37,5 @@ tags:
 - Service Intelligence
 - Equipment Maintenance
 - Enterprise
-- SaaS
+- Software-as-a-Service
 ---

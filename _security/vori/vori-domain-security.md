@@ -43,9 +43,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vori/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Applications
+- Application
 - Grocery
-- Point of Sale
+- Point-of-Sale
 - Retail
 - Inventory
 - Payments

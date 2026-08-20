@@ -80,14 +80,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codesphere/ref
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Cloud
 - Deployment
 - Developer Tools
-- Platform as a Service
+- Platform-as-a-Service
 - Infrastructure
 - Sovereign Cloud
 - CI/CD
-- Managed Services
+- Managed Service
 trust_url: https://app.drata.com/trust/be8cadd3-0d8d-48cf-ad18-2aecbc39cc9d
 ---

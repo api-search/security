@@ -128,7 +128,7 @@ tags:
 - Income Verification
 - Bank Statement Analysis
 - Mortgage
-- Machine Learning
+- Machine-Learning
 - Cash Flow Analytics
 trust_url: https://security.ocrolus.com/
 ---

@@ -98,10 +98,10 @@ summary_line: apiKey · 5 schemes
 tags:
 - Company
 - Cloud Saas
-- Events
+- Event
 - Virtual Events
 - Webinars
 - Event Management
 - Community
-- Webhooks
+- Webhook
 ---

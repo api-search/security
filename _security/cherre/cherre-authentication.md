@@ -41,7 +41,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cherre-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/authentication/cherre-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Real Estate
+- Real-Estate
 - Property Intelligence
 - Data Integration
 - Knowledge Graph

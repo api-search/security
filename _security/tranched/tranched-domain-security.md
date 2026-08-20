@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tranched/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Securitization
 - Asset-Based Finance

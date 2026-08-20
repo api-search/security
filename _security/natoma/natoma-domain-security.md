@@ -31,7 +31,6 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Cybersecurity
-- Model Context Protocol
 - MCP
 - AI Agents
 - Identity

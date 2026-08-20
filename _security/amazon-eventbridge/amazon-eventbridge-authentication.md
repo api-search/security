@@ -64,7 +64,7 @@ tags:
 - Amazon Web Services
 - Event Bus
 - Event-Driven
-- Events
+- Event
 - Integration
 - Serverless
 ---

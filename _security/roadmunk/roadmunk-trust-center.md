@@ -38,6 +38,6 @@ tags:
 - Ideas
 - Milestones
 - Swimlanes
-- Timeline
+- Timelines
 trust_url: https://trust.tempo.io/
 ---

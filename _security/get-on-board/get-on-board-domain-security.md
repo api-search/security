@@ -181,7 +181,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Recruitment
-- Jobs
+- Job
 - Hiring
 - ATS
 - Talent

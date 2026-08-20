@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://www.red
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/redwood-bank/refs/heads/main/authentication/redwood-bank-authentication.yml
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Business Banking
 - SME

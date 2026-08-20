@@ -36,7 +36,7 @@ tags:
 - 3D Avatars
 - Body Modeling
 - SMPL
-- Computer Vision
+- Computer-Vision
 - Animation
 - Artificial Intelligence
 ---

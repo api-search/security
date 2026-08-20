@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tiktok-shop/refs/heads/main/security/tiktok-shop-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- E-commerce
+- E-Commerce
 - Marketplace
 - Social Commerce
 - Order Management

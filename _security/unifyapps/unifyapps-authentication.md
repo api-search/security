@@ -42,12 +42,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unifyapps/refs
 summary_line: jwt/oauth2/basic/custom · 4 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Agentic AI
 - Integration Platform
 - iPaaS
 - Automation
-- No Code
+- No-Code
 - Enterprise
 - Data Replication
 - MCP

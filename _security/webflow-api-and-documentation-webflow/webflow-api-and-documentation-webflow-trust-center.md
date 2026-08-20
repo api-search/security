@@ -157,7 +157,7 @@ summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, GDPR
 tags:
 - CMS
 - Content Management
-- Ecommerce
+- E-Commerce
 - No-Code
 - Publishing
 - Web Development

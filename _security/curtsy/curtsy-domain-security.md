@@ -33,7 +33,7 @@ tags:
 - Resale
 - Marketplace
 - Fashion
-- E-commerce
+- E-Commerce
 - Secondhand
 - Consumer
 - Mobile

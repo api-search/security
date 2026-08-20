@@ -73,7 +73,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glama/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - MCP
-- Model Context Protocol
 - MCP Marketplace
 - MCP Gateway
 - MCP Hosting
@@ -81,7 +80,7 @@ tags:
 - AI Gateway
 - LLM Gateway
 - Connectors
-- OAuth
+- Authentication
 - Observability
 - Multi-Provider
 ---

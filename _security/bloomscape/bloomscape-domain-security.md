@@ -34,7 +34,7 @@ tags:
 - Consumer
 - Houseplants
 - E-Commerce
-- Direct-to-Consumer
+- Direct to Consumer
 - Gardening
 - Retail
 ---

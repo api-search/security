@@ -34,7 +34,7 @@ tags:
 - Legal Technology
 - Document Review
 - Predictive Coding
-- AI
+- Artificial Intelligence
 - Legal
 trust_url: https://www.everlaw.com/trust/
 ---

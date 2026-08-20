@@ -34,7 +34,6 @@ tags:
 - Hotels
 - Travel
 - Artificial Intelligence
-- Operations
 - Property Management
 - Y Combinator
 ---

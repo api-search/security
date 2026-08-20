@@ -125,7 +125,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/replicas/refs/
 summary_line: http/apiKey · 3 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Coding Agents
 - Developer Tools
 - Automation

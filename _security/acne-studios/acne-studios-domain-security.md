@@ -35,6 +35,6 @@ tags:
 - Fashion
 - Retail
 - Apparel
-- Ecommerce
+- E-Commerce
 - Sweden
 ---

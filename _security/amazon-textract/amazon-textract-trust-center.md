@@ -53,7 +53,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-textrac
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Document Processing
-- Machine Learning
+- Machine-Learning
 - OCR
 trust_url: https://aws.amazon.com/compliance/
 ---

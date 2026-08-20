@@ -194,7 +194,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Shipping
 - Logistics
-- Ecommerce
+- E-Commerce
 - Carriers
 - Labels
 - Returns

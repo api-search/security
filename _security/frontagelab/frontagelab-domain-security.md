@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Contract Research Organization
-- Pharmaceutical
+- Pharmaceuticals
 - Biotechnology
 - Drug Discovery
 - Drug Development

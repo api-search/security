@@ -36,7 +36,7 @@ tags:
 - Artificial Intelligence
 - Biometrics
 - Clinical Development
-- Pharmaceutical
+- Pharmaceuticals
 - CDISC
 - Regulatory
 ---

@@ -55,7 +55,7 @@ tags:
 - Audience Targeting
 - Dynamic Creative Optimization
 - Marketing
-- Machine Learning
+- Machine-Learning
 - Acquired
 - Defunct
 ---

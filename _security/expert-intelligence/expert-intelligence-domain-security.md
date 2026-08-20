@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/expert-intelli
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
-- Pharmaceutical
+- Artificial Intelligence
+- Pharmaceuticals
 - Laboratory Automation
 - Analytical Chemistry
 - Life Sciences

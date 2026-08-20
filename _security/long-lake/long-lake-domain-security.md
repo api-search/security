@@ -33,7 +33,7 @@ tags:
 - Artificial Intelligence
 - Holding Company
 - Services
-- Roll-up
+- Rollup
 - HOA Management
 - Corporate Travel
 ---

@@ -50,7 +50,6 @@ summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - CPG
 - Consumer Packaged Goods
 - Retail

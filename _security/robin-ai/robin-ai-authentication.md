@@ -61,7 +61,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/
 summary_line: apiKey · 1 scheme
 tags:
 - Legal
-- LegalTech
+- Legal Tech
 - Contract Review
 - Contract Analysis
 - Contract Lifecycle Management

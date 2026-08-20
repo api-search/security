@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: columbia-library-hours-openapi.yml
+  format: yaml
+  label: Columbia University Libraries Hours API
+  slug: library-hours
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/openapi/columbia-library-hours-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,11 +46,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/security/columbia-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Open Data
-- Library
-- Identity
+- Higher Education
+- Education
+- Ivy League
+- Private Research University
 - United States
+- New York
+- Identity Federation
+- Library
+- Open Data
+- Research Repository
+- Research Data
+- Course Catalog
+- Campus Life
 ---

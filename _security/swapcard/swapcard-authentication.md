@@ -44,7 +44,7 @@ source_yaml: "generated: '2026-07-12'\nmethod: documented\nsource: https://swapc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swapcard/refs/heads/main/authentication/swapcard-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Events
+- Event
 - Event Management
 - Community
 - Networking
@@ -52,5 +52,5 @@ tags:
 - GraphQL
 - Attendees
 - Exhibitors
-- SaaS
+- Software-as-a-Service
 ---

@@ -76,6 +76,6 @@ tags:
 - Lucene
 - Search
 - SolrCloud
-- Open Source
+- Open-Source
 - Java
 ---

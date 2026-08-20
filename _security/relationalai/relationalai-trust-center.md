@@ -26,9 +26,9 @@ tags:
 - Semantic Layer
 - Snowflake
 - Graph Analytics
-- Machine Learning
+- Machine-Learning
 - Optimization
 - Reasoning
-- AI
+- Artificial Intelligence
 trust_url: https://trust.relational.ai/
 ---

@@ -31,6 +31,6 @@ tags:
 - News
 - Journalism
 - Creator Economy
-- Social Media
+- Social-Media
 - Multistreaming
 ---

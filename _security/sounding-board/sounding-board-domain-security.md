@@ -36,5 +36,5 @@ tags:
 - Mentoring
 - Talent Development
 - Human Resources
-- SaaS
+- Software-as-a-Service
 ---

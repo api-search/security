@@ -36,5 +36,4 @@ tags:
 - Virtual Care
 - Clinical Workforce
 - Health Tech
-- API
 ---

@@ -49,8 +49,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pandium/refs/h
 summary_line: SOC 2
 tags:
 - B2B
-- Hubs
-- Integrations
+- Hub
+- Integration
 - Workflows
 trust_url: https://www.pandium.com/security
 ---

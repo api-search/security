@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cozy-finance/r
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Defi
+- DeFi
 - Risk Management
 - Smart Contracts
 - Ethereum

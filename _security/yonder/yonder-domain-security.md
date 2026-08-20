@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yonder/refs/he
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Credit Cards
 - Rewards

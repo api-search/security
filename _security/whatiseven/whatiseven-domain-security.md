@@ -34,6 +34,6 @@ tags:
 - Fintech
 - Earned Wage Access
 - Personal Finance
-- Financial Services
+- Financial-Services
 - Acquired
 ---

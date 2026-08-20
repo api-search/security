@@ -34,6 +34,6 @@ tags:
 - Resale Marketplace
 - E-Commerce
 - Sustainable Fashion
-- Re-Commerce
+- Recommerce
 - Retail
 ---

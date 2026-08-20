@@ -138,10 +138,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - MCP
-- Model Context Protocol
 - LLM
 - Inference
 - Gateway

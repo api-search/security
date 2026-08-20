@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: >-\n  https://w
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/co-operative-bank/refs/heads/main/authentication/co-operative-bank-authentication.yml
 summary_line: oauth2/openIdConnect/mutualTLS · 3 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

@@ -53,6 +53,6 @@ tags:
 - Launcher
 - Extensions
 - SDK
-- AI
+- Artificial Intelligence
 - macOS
 ---

@@ -40,6 +40,6 @@ tags:
 - Communications
 - Contact Center
 - Collaboration
-- AI
+- Artificial Intelligence
 - UCaaS
 ---

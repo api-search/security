@@ -63,6 +63,6 @@ tags:
 - Grafana
 - Microservices
 - Observability
-- Open Source
+- Open-Source
 trust_url: https://trust.grafana.com/
 ---

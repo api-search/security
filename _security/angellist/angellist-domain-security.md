@@ -57,8 +57,8 @@ tags:
 - Documents
 - Funds
 - Investing
-- Jobs
+- Job
 - Startups
-- Transactions
+- Transaction
 - Venture Capital
 ---

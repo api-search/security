@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - KYC
 - Onboarding
 - Credit Decisioning

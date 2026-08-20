@@ -33,7 +33,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groupthink/ref
 summary_line: http · 1 scheme
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Meetings
 - Transcription
 - Note Taking

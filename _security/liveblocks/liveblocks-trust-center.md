@@ -81,7 +81,7 @@ tags:
 - Yjs
 - Comments
 - Threads
-- Notifications
+- Notification
 - WebSockets
 trust_url: https://liveblocks.safebase.us/
 ---

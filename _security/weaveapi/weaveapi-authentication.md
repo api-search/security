@@ -28,16 +28,16 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nsource: https://weaveap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weaveapi/refs/heads/main/authentication/weaveapi-authentication.yml
 summary_line: apiKey · 0 schemes
 tags:
-- AI
+- Artificial Intelligence
 - LLM
-- AI inference
-- API gateway
-- aggregator
-- OpenAI-compatible
-- developer tools
-- model routing
-- LLM gateway
+- AI Inference
+- API Gateway
+- Aggregator
+- OpenAI-Compatible
+- Developer Tools
+- Model Routing
+- LLM Gateway
 - prepaid credits
-- agent tools
-- model marketplace
+- Agent Tools
+- Model Marketplace
 ---

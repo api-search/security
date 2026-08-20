@@ -32,8 +32,8 @@ tags:
 - Voice Agents
 - AI Agents
 - Conversational AI
-- Customer Support
+- Customer-Support
 - Contact Center
-- Collections
+- Collection
 - Compliance
 ---

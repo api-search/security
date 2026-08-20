@@ -92,13 +92,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-a
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Messaging
 - Business Automation
 - Chatbots
 - Mini Apps
 - Customer Requests
-- Workflow Automation
+- Workflow-Automation
 - MAX
 - Telegram
 - Russian Language

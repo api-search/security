@@ -37,5 +37,5 @@ tags:
 - Assurance
 - Accounting Software
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 ---

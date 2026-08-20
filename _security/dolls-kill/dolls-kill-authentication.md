@@ -97,7 +97,7 @@ summary_line: none/oauth2/openIdConnect/apiKey · 4 schemes
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Fashion
 - Apparel
 - Commerce

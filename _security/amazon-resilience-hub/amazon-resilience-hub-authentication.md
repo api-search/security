@@ -69,6 +69,5 @@ summary_line: apiKey · 1 scheme
 tags:
 - Disaster Recovery
 - High Availability
-- Operations
 - Resilience
 ---

@@ -27,5 +27,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crowdai/refs/h
 summary_line: DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 ---

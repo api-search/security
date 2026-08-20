@@ -37,5 +37,5 @@ tags:
 - Category Management
 - Pricing
 - Analytics
-- Ecommerce
+- E-Commerce
 ---

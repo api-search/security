@@ -41,15 +41,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/momento/refs/h
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Caching
 - Serverless
 - Cache
-- Pub/Sub
+- Pub-Sub
 - Messaging
 - Event Bus
 - Leaderboards
-- Real Time
+- Real-Time
 - gRPC
 - Developer Tools
 ---

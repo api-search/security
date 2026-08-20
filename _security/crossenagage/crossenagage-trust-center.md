@@ -69,7 +69,7 @@ tags:
 - Campaign Management
 - Product Feed
 - Data Export
-- Webhooks
+- Webhook
 - Web Tracking
 - Germany
 trust_url: https://trust.spotler.com/

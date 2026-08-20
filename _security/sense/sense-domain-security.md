@@ -79,5 +79,5 @@ tags:
 - Solar
 - Device Detection
 - Real-Time Data
-- ClimateTech
+- Climate Tech
 ---

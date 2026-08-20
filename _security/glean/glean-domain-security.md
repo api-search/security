@@ -170,7 +170,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glean/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Agents
-- AI
+- Artificial Intelligence
 - Answers
 - Chat
 - Connectors

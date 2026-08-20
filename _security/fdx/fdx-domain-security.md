@@ -79,15 +79,15 @@ tags:
 - Open Banking
 - Open Finance
 - Financial Data Exchange
-- Consumer Permissioned
+- Consumer-Permissioned
 - Account Data
-- Transactions
+- Transaction
 - Investments
 - Insurance
 - Tax Data
 - Payroll
 - REST
-- OAuth2
+- Authentication
 - FAPI
 - CFPB 1033
 ---

@@ -38,7 +38,7 @@ tags:
 - Email Marketing
 - Marketing Automation
 - Digital Marketing
-- SaaS
+- Software-as-a-Service
 - Acquired
 - Salesforce Marketing Cloud
 ---

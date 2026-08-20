@@ -72,10 +72,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/security/cursor-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Code Editor
-- Agent
+- Agents
 - IDE
 - Cloud Agents
 ---

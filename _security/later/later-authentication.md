@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/later-in
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/authentication/later-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- Social Media
+- Social-Media
 - Scheduling
 - Instagram
 - TikTok

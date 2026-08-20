@@ -34,7 +34,7 @@ tags:
 - Leak Detection
 - IoT
 - Sensors
-- Real Estate
+- Real-Estate
 - PropTech
 - Artificial Intelligence
 - Y Combinator

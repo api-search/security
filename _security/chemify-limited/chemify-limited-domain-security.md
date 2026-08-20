@@ -34,7 +34,7 @@ tags:
 - Biotech Therapeutics
 - Chemistry Automation
 - Robotics
-- Machine Learning
+- Machine-Learning
 - Drug Discovery
 - Programmable Chemistry
 ---

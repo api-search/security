@@ -34,7 +34,7 @@ tags:
 - Catalog
 - eProcurement
 - IT Distribution
-- PunchOut
+- Punchout
 - Technology
 - Fortune 500
 ---

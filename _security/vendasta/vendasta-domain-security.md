@@ -275,7 +275,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Marketplace
 - SMB
 - White Label

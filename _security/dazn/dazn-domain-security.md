@@ -39,5 +39,5 @@ tags:
 - Live Streaming
 - Broadcasting
 - Subscription
-- Open Source
+- Open-Source
 ---

@@ -42,6 +42,6 @@ tags:
 - Guest Management
 - Payments
 - Travel
-- Integrations
+- Integration
 - Artificial Intelligence
 ---

@@ -37,7 +37,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Networking
-- Data Center
+- Data-Center
 - Artificial Intelligence
 - Infrastructure
 - Telemetry

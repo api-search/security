@@ -224,7 +224,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Generative AI
 - Large Language Models
 - Government

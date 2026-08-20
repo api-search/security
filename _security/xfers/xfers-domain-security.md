@@ -169,7 +169,7 @@ tags:
 - Payments
 - Fintech
 - Bank Transfers
-- Digital Wallets
+- Digital Wallet
 - Lending
 - Singapore
 - Indonesia

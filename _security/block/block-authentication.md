@@ -72,9 +72,9 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Commerce
 - Cryptocurrency
-- eCommerce
+- E-Commerce
 - Fintech
 - Payments
-- Point Of Sale
+- Point-of-Sale
 - Square
 ---

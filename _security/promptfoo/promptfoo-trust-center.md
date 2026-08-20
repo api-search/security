@@ -22,7 +22,7 @@ tags:
 - Red Teaming
 - AI Security
 - Guardrails
-- Open Source
+- Open-Source
 - CLI
 - Developer Tools
 trust_url: https://www.promptfoo.dev/security/

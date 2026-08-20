@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Consumer
-- Events
+- Event
 - Invitations
 - Party Planning
 - RSVP

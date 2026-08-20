@@ -61,5 +61,5 @@ tags:
 - Employee Recognition
 - Market Research
 - Points
-- FinTech
+- Fintech
 ---

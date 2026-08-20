@@ -37,6 +37,6 @@ tags:
 - Body Care
 - Athletics
 - Direct to Consumer
-- E-commerce
+- E-Commerce
 - Shopify
 ---

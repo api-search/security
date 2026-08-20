@@ -114,5 +114,5 @@ tags:
 - Marketplace
 - Design
 - Retail
-- AI
+- Artificial Intelligence
 ---

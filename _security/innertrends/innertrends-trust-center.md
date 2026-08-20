@@ -24,7 +24,7 @@ tags:
 - Marketing
 - Growth
 - Data
-- SaaS
+- Software-as-a-Service
 - Consulting
 - Attribution
 trust_url: https://www.innertrends.com/security

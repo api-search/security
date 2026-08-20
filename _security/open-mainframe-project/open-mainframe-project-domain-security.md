@@ -46,14 +46,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-mainframe-project/refs/heads/main/security/open-mainframe-project-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Cloud Native
+- Cloud-Native
 - Education
 - Enterprise
 - IBM Z
 - Linux Foundation
 - Linux on Z
 - Mainframe
-- Open Source
+- Open-Source
 - z/OS
 - z/VM
 ---

@@ -32,7 +32,7 @@ tags:
 - Company
 - Travel
 - Travel Technology
-- SaaS
+- Software-as-a-Service
 - Resale
 - Airlines
 - Rail

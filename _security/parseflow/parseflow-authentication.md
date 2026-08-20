@@ -122,6 +122,6 @@ tags:
 - Search
 - BYOK
 - Async Jobs
-- Webhooks
+- Webhook
 - REST
 ---

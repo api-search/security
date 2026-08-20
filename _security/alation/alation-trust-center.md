@@ -100,6 +100,6 @@ tags:
 - Data Quality
 - Business Glossary
 - Metadata Management
-- AI
+- Artificial Intelligence
 trust_url: https://www.alation.com/legal/security/
 ---

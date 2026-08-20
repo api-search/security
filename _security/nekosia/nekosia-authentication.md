@@ -31,16 +31,14 @@ source_yaml: "generated: '2026-08-19'\nmethod: searched\nsource: >-\n  https://n
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nekosia/refs/heads/main/authentication/nekosia-authentication.yml
 summary_line: none · 1 scheme
 tags:
-- anime
+- Anime
 - neko
-- api
 - nekos
 - neko api
 - booru
-- image
-- media
-- entertainment
-- images
-- free api
-- open access
+- Image
+- Media
+- Entertainment
+- Free API
+- Open Access
 ---

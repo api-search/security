@@ -33,5 +33,5 @@ tags:
 - CPG
 - Artificial Intelligence
 - Revenue Management
-- SaaS
+- Software-as-a-Service
 ---

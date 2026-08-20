@@ -108,9 +108,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ably-con
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/authentication/ably-authentication.yml
 summary_line: http · 2 schemes
 tags:
-- Realtime
+- Real-Time
 - WebSockets
-- Pub/Sub
+- Pub-Sub
 - Messaging
 - Streaming
 - Push Notifications

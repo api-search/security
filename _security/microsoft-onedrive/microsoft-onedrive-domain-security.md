@@ -70,7 +70,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud Storage
 - File Storage
-- Files
+- File
 - Microsoft
-- Microsoft 365
+- Microsoft-365
 ---

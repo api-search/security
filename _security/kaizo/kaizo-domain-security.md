@@ -31,11 +31,11 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Quality Assurance
-- Customer Support
+- Customer-Support
 - Customer Service
 - Contact Center
 - Performance Management
-- AI
+- Artificial Intelligence
 - Zendesk
 - Salesforce
 ---

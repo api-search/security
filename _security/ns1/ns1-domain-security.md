@@ -48,6 +48,5 @@ tags:
 - Managed DNS
 - Traffic Management
 - DDI
-- API
 - Infrastructure
 ---

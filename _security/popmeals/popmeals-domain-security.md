@@ -34,7 +34,7 @@ tags:
 - Consumer
 - Food Delivery
 - Cloud Kitchen
-- Restaurants
+- Restaurant
 - Malaysia
 - Southeast Asia
 ---

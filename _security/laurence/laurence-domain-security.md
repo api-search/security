@@ -40,7 +40,7 @@ tags:
 - Amazon
 - E-Commerce
 - Marketing
-- Machine Learning
+- Machine-Learning
 - Retail Media
 - MCP
 ---

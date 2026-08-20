@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/m-0/refs/heads
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Stablecoin
+- Stablecoins
 - Cryptocurrency
 - Blockchain
 - Payments

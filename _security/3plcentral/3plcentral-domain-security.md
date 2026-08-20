@@ -108,7 +108,7 @@ tags:
 - Logistics
 - Fulfillment
 - Inventory
-- Orders
+- Order
 - SecureWMS
 - Extensiv
 ---

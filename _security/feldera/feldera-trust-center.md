@@ -62,6 +62,6 @@ tags:
 - Real-Time Analytics
 - Change Data Capture
 - Materialized Views
-- Data Pipelines
+- Data Pipeline
 trust_url: https://trust.feldera.com/
 ---

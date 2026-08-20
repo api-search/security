@@ -68,9 +68,9 @@ tags:
 - Automation
 - Debugging
 - HTTP Proxy
-- Integrations
+- Integration
 - Mock Servers
 - Platform
 - Testing
-- Webhooks
+- Webhook
 ---

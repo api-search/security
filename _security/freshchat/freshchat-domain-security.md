@@ -128,7 +128,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Customer Messaging
 - Live Chat
-- Customer Support
+- Customer-Support
 - Conversational Engagement
 - Omnichannel Messaging
 - Chatbots

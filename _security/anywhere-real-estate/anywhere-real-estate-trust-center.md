@@ -26,7 +26,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/security/anywhere-real-estate-trust-center.yml
 summary_line: SOC 1, SOC 2 Type 2, ISO/IEC 27001:2022, SOX, GDPR, EU-US Data Privacy Framework, Cyber Essentials
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - Property Listings
 - MLS
@@ -38,6 +38,6 @@ tags:
 - Escrow
 - Relocation
 - Leads
-- Transactions
+- Transaction
 trust_url: https://trust.anywhere.re/
 ---

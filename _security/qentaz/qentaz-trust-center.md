@@ -25,12 +25,12 @@ summary_line: trust center published
 tags:
 - Company
 - Payments
-- Collections
+- Collection
 - Disbursements
 - Reconciliation
 - Fintech
 - Colombia
-- Webhooks
+- Webhook
 - Fraud Prevention
 - WhatsApp Payments
 trust_url: https://trazo.trustshare.com

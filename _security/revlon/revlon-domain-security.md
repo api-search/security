@@ -59,6 +59,6 @@ tags:
 - Prestige
 - Private Company
 - Shopify
-- Skin Care
+- Skincare
 - Supplier Portal
 ---

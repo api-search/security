@@ -38,5 +38,5 @@ tags:
 - Sanctions Screening
 - Adverse Media
 - Entity Resolution
-- Machine Learning
+- Machine-Learning
 ---

@@ -31,10 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evolutioniq/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Insurance
-- InsurTech
+- Insurtech
 - Claims
-- Machine Learning
+- Machine-Learning
 - Health
 ---

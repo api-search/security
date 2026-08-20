@@ -100,5 +100,5 @@ tags:
 - Fitness Software
 - Wellness
 - Scheduling
-- SaaS
+- Software-as-a-Service
 ---

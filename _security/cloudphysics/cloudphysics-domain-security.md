@@ -36,5 +36,5 @@ tags:
 - VMware
 - Cloud Migration
 - Infrastructure
-- SaaS
+- Software-as-a-Service
 ---

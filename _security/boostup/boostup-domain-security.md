@@ -61,7 +61,7 @@ tags:
 - Sales
 - Forecasting
 - Analytics
-- RevOps
+- Revenue Operations
 - Conversation Intelligence
 - Data Export
 - CRM

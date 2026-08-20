@@ -33,7 +33,7 @@ tags:
 - Company
 - Pension
 - Retirement
-- FinTech
+- Fintech
 - Insurance
 - Savings
 - Denmark

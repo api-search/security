@@ -35,6 +35,6 @@ tags:
 - Beauty
 - Cosmetics
 - Direct to Consumer
-- Ecommerce
+- E-Commerce
 - India
 ---

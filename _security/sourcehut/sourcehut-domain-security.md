@@ -53,7 +53,7 @@ tags:
 - Mailing Lists
 - Issue Tracking
 - Developer Tools
-- Open Source
+- Open-Source
 - Privacy
 - GraphQL
 ---

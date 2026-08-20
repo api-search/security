@@ -170,7 +170,7 @@ tags:
 - Sensitive Data
 - Privacy
 - Compliance
-- Machine Learning
+- Machine-Learning
 - S3
 trust_url: https://aws.amazon.com/compliance/
 ---

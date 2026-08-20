@@ -34,7 +34,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Cybersecurity
-- Third Party Risk
+- Third-Party Risk
 - Vendor Risk Management
 - Risk Management
 - GRC

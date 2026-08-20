@@ -100,14 +100,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-rekogni
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Celebrity Recognition
-- Computer Vision
+- Computer-Vision
 - Content Moderation
 - Custom Labels
 - Deep Learning
 - Face Liveness
 - Facial Recognition
 - Image Analysis
-- Machine Learning
+- Machine-Learning
 - Object Detection
 - Text Detection
 - Video Analysis

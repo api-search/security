@@ -33,7 +33,7 @@ tags:
 - Biotechnology
 - Life Sciences
 - Cell Therapy
-- CAR T
+- Cart
 - Oncology
 - Immunotherapy
 - Precision Medicine

@@ -36,19 +36,19 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/security/apstal-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- analytics
-- web-analytics
-- privacy
-- session-replay
-- heatmaps
-- mcp
+- Analytics
+- Web Analytics
+- Privacy
+- Session Replay
+- Heatmaps
+- MCP
 - agent-native
-- cookieless
+- Cookieless
 - llms-txt
-- bigquery
-- gdpr
-- a2a
-- agent-skills
-- bot-detection
-- core-web-vitals
+- BigQuery
+- GDPR
+- A2A
+- Agent Skills
+- Bot Detection
+- Core Web Vitals
 ---

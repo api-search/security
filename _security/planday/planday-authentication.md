@@ -46,7 +46,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planday/refs/h
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Workforce Management
 - Scheduling
 - Time Tracking
@@ -55,5 +55,5 @@ tags:
 - Hospitality
 - Retail
 - REST
-- OAuth2
+- Authentication
 ---

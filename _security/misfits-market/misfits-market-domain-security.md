@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/misfits-market
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Grocery
 - Food Delivery
 - Sustainability

@@ -94,12 +94,12 @@ tags:
 - Conferences
 - Event Management
 - Event Marketing
-- Events
+- Event
 - Hospitality
 - Hospitality Cloud
 - Hybrid Events
 - Meetings
-- OAuth 2.0
+- Authentication
 - Passkey
 - Registration
 - REST API

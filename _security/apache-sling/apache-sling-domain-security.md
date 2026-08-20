@@ -40,6 +40,6 @@ tags:
 - OSGi
 - REST
 - Web Framework
-- Open Source
+- Open-Source
 - Adobe Experience Manager
 ---

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Debt Collection
-- Collections
+- Collection
 - Voice AI
 - Conversational AI
 - Fintech

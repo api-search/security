@@ -55,7 +55,7 @@ tags:
 - Catalog
 - Discovery
 - Entertainment
-- Images
+- Image
 - Media
 - Metadata
 - Movies

@@ -28,8 +28,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/engine-ml/refs
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- Ai
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - MLOps
 - Experiment Tracking
 - Distributed Training

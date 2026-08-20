@@ -48,7 +48,7 @@ tags:
 - Predictive Maintenance
 - Edge AI
 - Foundation Models
-- Model Context Protocol
+- MCP
 - Energy and Utilities
 - Water and Wastewater
 ---

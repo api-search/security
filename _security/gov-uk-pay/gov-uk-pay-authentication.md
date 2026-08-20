@@ -67,5 +67,5 @@ tags:
 - PCI DSS
 - Refunds
 - Recurring Payments
-- Webhooks
+- Webhook
 ---

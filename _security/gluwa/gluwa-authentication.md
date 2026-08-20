@@ -40,10 +40,10 @@ tags:
 - Company
 - Blockchain
 - Cryptocurrency
-- Stablecoin
+- Stablecoins
 - Payments
 - Fintech
-- Wallet
+- Wallets
 - Creditcoin
 - Smart Contracts
 - Emerging Markets

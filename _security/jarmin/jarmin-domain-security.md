@@ -34,7 +34,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Agentic Systems
-- Machine Learning
+- Machine-Learning
 - Automation
 - AI Employees
 - Y Combinator

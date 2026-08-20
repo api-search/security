@@ -23,7 +23,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/schoolai/refs/
 summary_line: SOC 2 Type 2, FERPA, COPPA, 1EdTech TrustEd Apps, FIPPA, ESSA Tier 3
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Education
 - EdTech
 - Learning

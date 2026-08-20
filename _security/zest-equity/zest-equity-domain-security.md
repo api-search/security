@@ -87,6 +87,6 @@ tags:
 - Escrow
 - Fund Administration
 - MENA
-- Webhooks
+- Webhook
 - Regulated
 ---

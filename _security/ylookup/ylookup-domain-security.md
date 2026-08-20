@@ -36,7 +36,7 @@ tags:
 - AI Agents
 - Fund Administration
 - Corporate Services
-- Financial Services
-- Workflow Automation
+- Financial-Services
+- Workflow-Automation
 - Tax and Audit
 ---

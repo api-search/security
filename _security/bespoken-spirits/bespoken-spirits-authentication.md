@@ -80,10 +80,10 @@ tags:
 - Company
 - Spirits
 - Beverage Alcohol
-- Ecommerce
+- E-Commerce
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 - Retail
 - Manufacturing

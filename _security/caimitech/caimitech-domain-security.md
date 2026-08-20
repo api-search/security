@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caimitech/refs
 summary_line: TLSv1.2 · DNSSEC
 tags:
 - Company
-- FinTech
+- Fintech
 - Personal Finance
 - Wealth Management
 - Accounting

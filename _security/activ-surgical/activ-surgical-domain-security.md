@@ -30,13 +30,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/activ-surgical
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Health Care
+- Healthcare
 - Medical Devices
 - Surgery
 - Surgical Robotics
 - Medical Imaging
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Augmented Reality
 - Digital Health
 ---

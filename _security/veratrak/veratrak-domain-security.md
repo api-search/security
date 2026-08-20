@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veratrak/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Pharmaceutical
+- Pharmaceuticals
 - Life Sciences
 - Supply Chain
 - Supply Chain Visibility

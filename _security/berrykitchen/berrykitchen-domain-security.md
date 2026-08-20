@@ -32,7 +32,7 @@ tags:
 - Food and Beverage
 - Catering
 - Food Delivery
-- Ecommerce
+- E-Commerce
 - Indonesia
 - Southeast Asia
 - Acquired

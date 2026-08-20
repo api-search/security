@@ -91,9 +91,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/security/ably-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
-- Realtime
+- Real-Time
 - WebSockets
-- Pub/Sub
+- Pub-Sub
 - Messaging
 - Streaming
 - Push Notifications

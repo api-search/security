@@ -75,7 +75,7 @@ tags:
 - Secure Messaging
 - Electronic Fax
 - Telehealth
-- Document Management
+- Document-Management
 - HIPAA
 - EverCommerce
 ---

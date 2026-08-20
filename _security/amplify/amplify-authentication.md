@@ -45,7 +45,7 @@ tags:
 - Insurance
 - Insurtech
 - Life Insurance
-- Financial Services
+- Financial-Services
 - Fintech
 - Embedded Finance
 - Annuities

@@ -105,6 +105,6 @@ tags:
 - Commerce
 - Content
 - E-Commerce
-- Social Media
+- Social-Media
 - Video
 ---

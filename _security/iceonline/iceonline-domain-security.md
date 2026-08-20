@@ -33,6 +33,6 @@ tags:
 - Facility Management
 - Enterprise Software
 - Sports and Recreation
-- SaaS
+- Software-as-a-Service
 - China
 ---

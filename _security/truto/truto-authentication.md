@@ -140,7 +140,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/truto-ad
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truto/refs/heads/main/authentication/truto-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Unified API
+- Unified-API
 - Integration Platform
 - HRIS
 - ATS
@@ -148,5 +148,5 @@ tags:
 - Embedded Integrations
 - MCP
 - AI Agents
-- SaaS
+- Software-as-a-Service
 ---

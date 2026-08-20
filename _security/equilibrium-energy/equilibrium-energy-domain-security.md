@@ -39,5 +39,5 @@ tags:
 - Forecasting
 - Optimization
 - Clean Energy
-- Machine Learning
+- Machine-Learning
 ---

@@ -42,5 +42,5 @@ tags:
 - Sales
 - CRM
 - Analytics
-- SaaS
+- Software-as-a-Service
 ---

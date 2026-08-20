@@ -36,6 +36,6 @@ tags:
 - Suncare
 - Beauty
 - SPF
-- Ecommerce
-- Direct-to-Consumer
+- E-Commerce
+- Direct to Consumer
 ---

@@ -37,5 +37,5 @@ tags:
 - Regulatory
 - Human Resources
 - Governance
-- SaaS
+- Software-as-a-Service
 ---

@@ -108,7 +108,7 @@ tags:
 - Analytics
 - Reverse ETL
 - Restaurant Technology
-- Point of Sale
+- Point-of-Sale
 - Gift Cards
 - Mobile Ordering
 ---

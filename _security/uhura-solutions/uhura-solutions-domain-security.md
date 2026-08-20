@@ -32,7 +32,7 @@ tags:
 - Artificial Intelligence
 - Document Processing
 - Process Automation
-- Financial Services
+- Financial-Services
 - Banking
 - Contract Intelligence
 ---

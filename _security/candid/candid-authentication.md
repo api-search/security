@@ -45,7 +45,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Charities
 - Donations
-- Non-Profits
+- Non-Profit
 - Philanthropy
 - Foundations
 - Grants

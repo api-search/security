@@ -115,6 +115,6 @@ tags:
 - EV Charging
 - Smart Buildings
 - Metering
-- Webhooks
+- Webhook
 - Climate Tech
 ---

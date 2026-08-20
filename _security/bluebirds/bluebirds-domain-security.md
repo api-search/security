@@ -37,6 +37,6 @@ tags:
 - Sales Intelligence
 - Outbound Sales
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Lead Generation
 ---

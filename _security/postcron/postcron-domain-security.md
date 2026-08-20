@@ -31,10 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postcron/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Social Media
+- Social-Media
 - Social Media Scheduling
 - Publishing
 - Marketing
 - Content Management
-- SaaS
+- Software-as-a-Service
 ---

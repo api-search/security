@@ -38,5 +38,5 @@ tags:
 - HORECA
 - Supply Chain
 - Saudi Arabia
-- Restaurants
+- Restaurant
 ---

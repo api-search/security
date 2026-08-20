@@ -73,8 +73,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-f
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/authentication/amazon-fraud-detector-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Financial Services
+- Financial-Services
 - Fraud Detection
-- Machine Learning
+- Machine-Learning
 - Security
 ---

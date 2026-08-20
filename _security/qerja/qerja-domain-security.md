@@ -30,7 +30,7 @@ tags:
 - Company
 - Human Resources
 - Recruitment
-- Jobs
+- Job
 - HR Technology
 - Indonesia
 ---

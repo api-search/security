@@ -100,13 +100,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/security/basescan-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
-- blockchain
+- Blockchain
 - Base
 - L2
-- explorer
+- Explorer
 - Ethereum
 - EVM
-- transactions
-- tokens
-- smart contracts
+- Transaction
+- Tokens
+- Smart Contracts
 ---

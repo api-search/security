@@ -46,14 +46,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/hea
 summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Meetings
 - Transcription
-- Notetaking
+- Note Taking
 - Conversation Intelligence
 - Productivity
 - Video
-- Webhooks
-- API
+- Webhook
 trust_url: https://trust.tldv.io/
 ---

@@ -123,7 +123,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/hea
 summary_line: query-credentials · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Lending
 - Credit
 - Fintech

@@ -40,8 +40,8 @@ tags:
 - Consumer
 - Eyewear
 - Retail
-- E-commerce
+- E-Commerce
 - Vision Care
 - Optical
-- Direct-to-Consumer
+- Direct to Consumer
 ---

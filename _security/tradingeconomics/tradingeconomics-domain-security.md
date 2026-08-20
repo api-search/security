@@ -87,6 +87,6 @@ tags:
 - Macroeconomics
 - Financial Data
 - Economic Calendar
-- Forecasts
+- Forecast
 - Markets
 ---

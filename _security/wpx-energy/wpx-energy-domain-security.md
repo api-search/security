@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wpx-energy/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy
-- Oil And Gas
+- Oil and Gas
 - Exploration
 - Production
 - Permian Basin

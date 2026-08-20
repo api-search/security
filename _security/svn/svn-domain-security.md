@@ -78,10 +78,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/svn/refs/heads
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apache
-- Open Source
+- Open-Source
 - Repository
 - Source Control
 - Svn
 - Version Control
-- Webdav
+- WebDAV
 ---

@@ -76,5 +76,5 @@ tags:
 - Customer Experience
 - Product Management
 - Surveys
-- SaaS
+- Software-as-a-Service
 ---

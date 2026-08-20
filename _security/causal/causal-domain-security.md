@@ -40,5 +40,5 @@ tags:
 - Forecasting
 - Spreadsheets
 - xP&A
-- SaaS
+- Software-as-a-Service
 ---

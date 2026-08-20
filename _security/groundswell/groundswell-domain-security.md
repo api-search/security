@@ -44,6 +44,6 @@ tags:
 - Donor-Advised Funds
 - Philanthropy
 - Employee Assistance
-- Nonprofit
+- Non-Profit
 - HR Tech
 ---

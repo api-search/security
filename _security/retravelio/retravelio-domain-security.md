@@ -34,6 +34,6 @@ tags:
 - Travel Technology
 - Marketing
 - Customer Retention
-- Machine Learning
+- Machine-Learning
 - Personalization
 ---

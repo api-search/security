@@ -33,7 +33,7 @@ tags:
 - Company
 - Biotechnology
 - Genetic Medicine
-- CAR-T
+- Cart
 - Cell Therapy
 - Oncology
 - Life Sciences

@@ -37,5 +37,5 @@ tags:
 - Data
 - MCP
 - Data Warehouse
-- SaaS
+- Software-as-a-Service
 ---

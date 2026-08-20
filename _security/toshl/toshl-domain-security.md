@@ -48,7 +48,7 @@ tags:
 - Personal Finance
 - Budgeting
 - Expense Tracking
-- FinTech
+- Fintech
 - Banking
 - Consumer Apps
 - Company

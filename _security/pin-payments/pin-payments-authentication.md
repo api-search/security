@@ -55,6 +55,6 @@ summary_line: http · 1 scheme
 tags:
 - Payments
 - Cards
-- Subscriptions
+- Subscription
 - Refunds
 ---

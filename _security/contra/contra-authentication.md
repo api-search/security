@@ -61,6 +61,6 @@ tags:
 - Talent
 - Hiring
 - Professional Network
-- Model Context Protocol
+- MCP
 - Developer API
 ---

@@ -20,7 +20,7 @@ summary_line: SOC 2 Type II
 tags:
 - Company
 - Ai Apps
-- Applicant Tracking System
+- ATS
 - Recruiting
 - Hiring
 - HR Tech

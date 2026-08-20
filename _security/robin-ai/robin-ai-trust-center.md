@@ -51,7 +51,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Legal
-- LegalTech
+- Legal Tech
 - Contract Review
 - Contract Analysis
 - Contract Lifecycle Management

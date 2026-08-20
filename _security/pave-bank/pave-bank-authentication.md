@@ -41,5 +41,4 @@ tags:
 - Stablecoins
 - Cross-Border Payments
 - Programmable Money
-- API
 ---

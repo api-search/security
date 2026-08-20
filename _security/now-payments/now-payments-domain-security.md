@@ -90,7 +90,7 @@ tags:
 - Cryptocurrency
 - Payment Gateway
 - Invoicing
-- Subscriptions
+- Subscription
 - Mass Payouts
 - Bitcoin
 - Ethereum

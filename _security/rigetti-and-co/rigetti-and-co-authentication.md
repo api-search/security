@@ -91,5 +91,4 @@ tags:
 - Developers
 - Cloud Computing
 - QPU
-- API
 ---

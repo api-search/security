@@ -33,5 +33,5 @@ tags:
 - Retail
 - Sporting Goods
 - Fortune 500
-- eCommerce
+- E-Commerce
 ---

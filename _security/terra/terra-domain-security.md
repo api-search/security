@@ -36,6 +36,6 @@ tags:
 - Penetration Testing
 - Offensive Security
 - Red Teaming
-- AI
+- Artificial Intelligence
 - Agentic AI
 ---

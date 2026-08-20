@@ -32,11 +32,11 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Food Delivery
-- Restaurants
+- Restaurant
 - Online Ordering
 - Marketplace
 - Local Commerce
 - Consumer
-- Point of Sale
-- OAuth
+- Point-of-Sale
+- Authentication
 ---

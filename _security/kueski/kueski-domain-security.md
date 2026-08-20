@@ -52,7 +52,7 @@ tags:
 - Buy Now Pay Later
 - Lending
 - Fintech
-- Financial Services
+- Financial-Services
 - Consumer Credit
 - E-Commerce
 - Checkout

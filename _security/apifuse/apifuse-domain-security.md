@@ -67,9 +67,9 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Embedded Integrations
 - Integration Platform
-- Integrations
+- Integration
 - iPaaS
 - Marketplace
-- SaaS
-- Workflow Automation
+- Software-as-a-Service
+- Workflow-Automation
 ---

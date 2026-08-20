@@ -29,7 +29,7 @@ summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - eDiscovery
 - Legal
-- Document Management
+- Document-Management
 - Legal Holds
 - Redaction
 - Production Sets

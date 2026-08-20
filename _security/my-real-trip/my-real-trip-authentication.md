@@ -40,7 +40,7 @@ tags:
 - Flights
 - Accommodation
 - Tours and Activities
-- Affiliate
+- Affiliates
 - MCP
 - South Korea
 ---

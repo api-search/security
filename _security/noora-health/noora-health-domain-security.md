@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noora-health/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Nonprofit
+- Non-Profit
 - Healthcare
 - Health Education
 - Caregivers

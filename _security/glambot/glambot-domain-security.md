@@ -35,7 +35,7 @@ tags:
 - Cosmetics
 - Makeup
 - Marketplace
-- Ecommerce
+- E-Commerce
 - Resale
 - Consumer
 ---

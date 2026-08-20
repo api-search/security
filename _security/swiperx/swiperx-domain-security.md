@@ -33,7 +33,7 @@ tags:
 - Healthcare
 - Pharmacy
 - B2B Commerce
-- E-commerce
+- E-Commerce
 - Southeast Asia
 - Marketplace
 - Digital Health

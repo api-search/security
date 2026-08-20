@@ -46,9 +46,9 @@ summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company
 - Fintech
-- ETF
+- ETFs
 - Asset Management
 - Investments
 - Leveraged ETFs
-- Financial Services
+- Financial-Services
 ---

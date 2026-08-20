@@ -35,6 +35,6 @@ tags:
 - Semiconductors
 - Hardware
 - Cooling
-- Data Center
+- Data-Center
 - Solid State Cooling
 ---

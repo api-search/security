@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deeploi/refs/h
 summary_line: GDPR, ISO 27001 (ISMS aligned)
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - IT Management
 - ITSM
 - Device Management

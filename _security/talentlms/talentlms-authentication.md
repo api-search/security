@@ -104,10 +104,10 @@ summary_line: apiKey · 1 scheme
 tags:
 - Learning Management System
 - LMS
-- eLearning
+- E-Learning
 - Training
 - Courses
-- Users
+- User
 - Enrollments
 - Education
 - HR Tech

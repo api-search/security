@@ -28,6 +28,6 @@ tags:
 - Employee Data
 - Reporting
 - Dashboards
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.employeecycle.com/security/
 ---

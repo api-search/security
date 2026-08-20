@@ -86,7 +86,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Auto Insurance
 - Insurance Broker
 - Automotive

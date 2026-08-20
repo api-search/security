@@ -55,6 +55,6 @@ tags:
 - Compute
 - Deep Learning
 - GPU
-- Machine Learning
+- Machine-Learning
 trust_url: https://trust.lambda.ai/
 ---

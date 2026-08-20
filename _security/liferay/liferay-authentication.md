@@ -34,11 +34,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/liferay-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liferay/refs/heads/main/authentication/liferay-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Open Source
+- Open-Source
 - Digital Experience
 - DXP
 - Roles
-- Users
+- User
 - Permissions
 - Headless
 ---

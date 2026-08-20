@@ -38,5 +38,5 @@ tags:
 - Contract Management
 - Compliance
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 ---

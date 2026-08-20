@@ -56,8 +56,8 @@ tags:
 - Printing
 - Branded Merchandise
 - Promotional Products
-- Print On Demand
-- eCommerce
+- Print on Demand
+- E-Commerce
 - Digital Asset Management
 - Procurement
 - Fulfillment

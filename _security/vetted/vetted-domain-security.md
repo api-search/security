@@ -34,7 +34,7 @@ tags:
 - Ai Ml
 - Artificial Intelligence
 - Shopping
-- Ecommerce
+- E-Commerce
 - Product Discovery
 - Consumer
 - Recommendations

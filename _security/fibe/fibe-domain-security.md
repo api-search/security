@@ -38,5 +38,5 @@ tags:
 - India
 - Credit
 - MCP
-- Agent
+- Agents
 ---

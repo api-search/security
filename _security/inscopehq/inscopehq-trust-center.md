@@ -26,6 +26,6 @@ tags:
 - Fintech
 - Financial Close
 - GAAP
-- SaaS
+- Software-as-a-Service
 trust_url: https://app.drata.com/trust/06809ee1-400c-4b4a-997e-df2e6b895b4d
 ---

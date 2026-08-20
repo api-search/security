@@ -70,7 +70,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Compute
 - Google Cloud
-- IaaS
+- Infrastructure-as-a-Service
 - Infrastructure
 - Virtual Machines
 ---

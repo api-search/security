@@ -59,6 +59,5 @@ tags:
 - Fintech
 - Checkout
 - Payouts
-- Subscriptions
-- API
+- Subscription
 ---

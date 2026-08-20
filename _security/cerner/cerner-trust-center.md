@@ -87,12 +87,12 @@ tags:
 - FHIR
 - Fortune 1000
 - HL7
-- HL7 v2
+- HL7v2
 - Healthcare
 - Interoperability
 - Millennium Platform
 - Multi-Tenant
-- OAuth 2.0
+- Authentication
 - Oracle
 - Oracle Health
 - Patient Access

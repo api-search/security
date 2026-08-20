@@ -30,7 +30,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Biotech
-- AI
+- Artificial Intelligence
 - Drug Development
 - Medical Devices
 - Clinical Data

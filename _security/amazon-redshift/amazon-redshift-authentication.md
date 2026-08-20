@@ -61,7 +61,7 @@ tags:
 - Data Lake
 - Data Warehouse
 - ETL
-- Machine Learning
+- Machine-Learning
 - Serverless
 - SQL
 ---

@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/legora/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- LegalTech
+- Legal Tech
 - Law Firms
 - Legal Research
 - Collaborative AI
@@ -39,7 +39,7 @@ tags:
 - Document Review
 - Drafting
 - Workflows
-- Mergers And Acquisitions
+- Mergers and Acquisitions
 - Litigation
 - Enterprise
 - Stockholm

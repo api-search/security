@@ -33,7 +33,7 @@ tags:
 - Company
 - Sports Nutrition
 - Dietary Supplements
-- E-commerce
+- E-Commerce
 - Health and Wellness
 - Consumer Products
 - Mexico

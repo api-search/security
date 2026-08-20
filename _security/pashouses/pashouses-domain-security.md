@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pashouses/refs
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Proptech
-- Real Estate
+- PropTech
+- Real-Estate
 - Indonesia
 - Marketplace
 - Mortgage

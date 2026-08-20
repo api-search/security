@@ -34,7 +34,7 @@ tags:
 - Gaming
 - Fandom
 - Community
-- Events
+- Event
 - Entertainment
 - Immersive Experiences
 ---

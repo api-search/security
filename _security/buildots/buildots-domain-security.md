@@ -38,9 +38,9 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Construction Tech
 - ConTech
-- Computer Vision
-- AI
-- Machine Learning
+- Computer-Vision
+- Artificial Intelligence
+- Machine-Learning
 - Construction Progress
 - 360 Camera
 - BIM

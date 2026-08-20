@@ -35,7 +35,7 @@ tags:
 - Data Analytics
 - Health Data
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Population Health
 - Interoperability
 ---

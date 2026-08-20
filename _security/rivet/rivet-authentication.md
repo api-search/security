@@ -54,7 +54,7 @@ tags:
 - Actors
 - Stateful Compute
 - AI Agents
-- Realtime
+- Real-Time
 - Serverless
 - Edge
 - WebSockets

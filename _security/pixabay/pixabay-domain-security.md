@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pixabay/refs/h
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Stock Media
-- Images
+- Image
 - Videos
 - Illustrations
 - Free

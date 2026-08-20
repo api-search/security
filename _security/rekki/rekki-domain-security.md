@@ -70,9 +70,9 @@ tags:
 - Food
 - Wholesale
 - Ordering
-- Restaurants
+- Restaurant
 - Supply Chain
 - Catalog
-- Orders
-- eCommerce
+- Order
+- E-Commerce
 ---

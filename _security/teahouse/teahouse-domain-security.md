@@ -52,7 +52,7 @@ tags:
 - Crypto
 - DeFi
 - Blockchain
-- Vaults
+- Vault
 - Liquidity Management
 - Asset Management
 - Uniswap

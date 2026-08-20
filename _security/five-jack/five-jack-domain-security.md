@@ -43,7 +43,7 @@ tags:
 - Marketplace
 - Gaming
 - Digital Goods
-- Ecommerce
+- E-Commerce
 - Indonesia
 - Game Top-Up
 - Consumer

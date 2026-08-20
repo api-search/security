@@ -68,7 +68,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - A/B Testing
-- Ecommerce
+- E-Commerce
 - Pricing
 - Personalization
 - Conversion Rate Optimization
@@ -76,6 +76,6 @@ tags:
 - Analytics
 - Experimentation
 - MCP
-- Webhooks
+- Webhook
 - Profit Optimization
 ---

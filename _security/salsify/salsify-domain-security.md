@@ -110,5 +110,5 @@ tags:
 - Retail
 - Syndication
 - Data Management
-- SaaS
+- Software-as-a-Service
 ---

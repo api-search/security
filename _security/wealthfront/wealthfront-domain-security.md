@@ -44,12 +44,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Finance
 - Investment
-- Portfolio Management
+- Portfolio-Management
 - Tax Optimization
 - Robo-Advisor
 - Wealth Management
 - Cash Management
 - Direct Indexing
 - Financial Planning
-- FinTech
+- Fintech
 ---

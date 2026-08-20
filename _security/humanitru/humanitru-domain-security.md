@@ -32,10 +32,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - CRM
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Donor Management
-- Integrations
+- Integration
 - Membership
 - Museums
 ---

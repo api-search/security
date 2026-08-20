@@ -48,7 +48,7 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Cloud Marketplace
 - Procurement
-- SaaS
+- Software-as-a-Service
 - Software Distribution
 - Catalog
 trust_url: https://aws.amazon.com/compliance/

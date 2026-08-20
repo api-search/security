@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/authentication/hopin-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Events
+- Event
 - Virtual Events
 - Hybrid Events
 - Webinars

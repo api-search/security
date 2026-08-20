@@ -32,7 +32,7 @@ tags:
 - Frameworks
 - High Performance
 - JavaScript
-- JSON Schema
+- JSON-Schema
 - Node.js
 - TypeScript
 ---

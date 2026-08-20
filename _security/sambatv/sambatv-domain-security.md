@@ -41,7 +41,7 @@ tags:
 - Television
 - Streaming
 - Advertising
-- Measurement
+- Measurements
 - Analytics
 - Audience Data
 ---

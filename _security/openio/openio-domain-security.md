@@ -30,7 +30,7 @@ tags:
 - Object Storage
 - S3
 - Cloud Storage
-- Open Source
+- Open-Source
 - OpenStack Swift
 - Storage
 ---

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - B2B Commerce
-- eCommerce
+- E-Commerce
 - Salesforce
 - CRM
 - Commerce Platform

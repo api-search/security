@@ -48,5 +48,5 @@ tags:
 - dbt
 - Embedded Analytics
 - Semantic Layer
-- Open Source
+- Open-Source
 ---

@@ -43,7 +43,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/marginal
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marginalia-search/refs/heads/main/authentication/marginalia-search-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Open Source
+- Open-Source
 - Search
 - Web Search
 ---

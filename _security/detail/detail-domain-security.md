@@ -37,5 +37,5 @@ tags:
 - Content Creation
 - Podcasting
 - Media
-- AI
+- Artificial Intelligence
 ---

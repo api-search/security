@@ -36,7 +36,7 @@ tags:
 - Hardware
 - Nail Art
 - Beauty
-- AI
+- Artificial Intelligence
 - Mobile App
 - Creator Marketplace
 ---

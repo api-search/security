@@ -80,14 +80,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/h
 summary_line: http/apiKey · 4 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Lending
 - Buy Now Pay Later
 - Installment Payments
 - Consumer Credit
 - Payments
-- E-commerce
+- E-Commerce
 - Peru
 - Latin America
 ---

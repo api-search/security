@@ -56,6 +56,6 @@ tags:
 - Search
 - Vector Search
 - RAG
-- Open Source
+- Open-Source
 - Search as a Service
 ---

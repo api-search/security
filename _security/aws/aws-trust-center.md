@@ -53,10 +53,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws/refs/heads
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Cloud Computing
-- IaaS
+- Infrastructure-as-a-Service
 - Infrastructure
-- PaaS
-- Platform as a Service
+- Platform-as-a-Service
 - Serverless
 trust_url: https://aws.amazon.com/compliance/
 ---

@@ -35,7 +35,7 @@ tags:
 - Leadership Development
 - Executive Coaching
 - Coaching
-- Learning And Development
+- Learning and Development
 - Talent Development
 - AI Agent
 - Organizational Change

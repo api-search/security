@@ -23,7 +23,7 @@ summary_line: SOC 2 Type II, ISO 27001, HIPAA, CCPA, GDPR
 tags:
 - Company
 - Life Sciences
-- Pharmaceutical
+- Pharmaceuticals
 - HCP Engagement
 - Marketing
 - Artificial Intelligence

@@ -31,11 +31,11 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Predictive Analytics
 - Data Science
 - MLOps
-- Financial Services
+- Financial-Services
 - Insurance
 - Healthcare
 ---

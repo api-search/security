@@ -98,8 +98,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/groove-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/authentication/groove-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- Customer Support
-- Helpdesk
+- Customer-Support
+- Help Desk
 - Shared Inbox
 - Knowledge Base
 - Conversations

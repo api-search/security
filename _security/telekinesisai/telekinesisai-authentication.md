@@ -33,7 +33,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Robotics
-- Computer Vision
+- Computer-Vision
 - Physical AI
 - Industrial Automation
 - Manufacturing Automation

@@ -68,18 +68,18 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  openapi/v
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voyant/refs/heads/main/authentication/voyant-authentication.yml
 summary_line: http/apiKey · 2 schemes
 tags:
-- artificial-intelligence
-- context-management
-- brand-governance
-- product-marketing
+- Artificial Intelligence
+- Context Management
+- Brand Governance
+- Product Marketing
 - gtm-operations
-- marketing-automation
-- content-generation
-- competitive-intelligence
-- semantic-search
-- rag
-- mcp
+- Marketing Automation
+- Content Generation
+- Competitive Intelligence
+- Semantic Search
+- RAG
+- MCP
 - agent-native
-- signals
-- telemetry
+- Signals
+- Telemetry
 ---

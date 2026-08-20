@@ -30,7 +30,7 @@ summary_line: TLSv1.2
 tags:
 - Company
 - Recruitment
-- Jobs
+- Job
 - Hiring
 - Human Resources
 - Talent

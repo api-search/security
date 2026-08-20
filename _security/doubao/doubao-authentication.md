@@ -59,10 +59,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/doubao-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/authentication/doubao-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - ByteDance
-- Multimodal
+- Multi-Modal
 - Volcano Engine
 ---

@@ -40,7 +40,7 @@ tags:
 - Vector Database
 - Data Exploration
 - LLM
-- Open Source
+- Open-Source
 - RAG
 - Atlas
 trust_url: https://security.nomic.ai/

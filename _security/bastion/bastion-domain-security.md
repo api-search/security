@@ -49,6 +49,6 @@ tags:
 - Web3
 - Compliance
 - Crypto Infrastructure
-- Financial Services
+- Financial-Services
 - On/Off-Ramps
 ---

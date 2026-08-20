@@ -44,6 +44,6 @@ tags:
 - VR Games
 - Meta Quest
 - Social Games
-- Ecommerce
+- E-Commerce
 - Entertainment
 ---

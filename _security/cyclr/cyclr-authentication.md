@@ -90,13 +90,13 @@ tags:
 - Embedded SaaS Integration
 - Embedded UI
 - Integration Platform
-- Integrations
+- Integration
 - Marketplace
-- OAuth 2.0
+- Authentication
 - REST API
-- SaaS
+- Software-as-a-Service
 - Templates
-- Webhooks
+- Webhook
 - White Label
 - Workflows
 ---

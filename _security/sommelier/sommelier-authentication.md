@@ -46,7 +46,7 @@ tags:
 - DeFi
 - Blockchain
 - Ethereum
-- Vaults
+- Vault
 - Yield
 - Analytics
 ---

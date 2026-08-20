@@ -59,6 +59,6 @@ tags:
 - Omnichannel
 - Customer Conversations
 - WhatsApp
-- AI
+- Artificial Intelligence
 trust_url: https://trust.respond.io/
 ---

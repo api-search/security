@@ -31,10 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zinier/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Field Service Management
 - No-Code
-- Workflow Automation
+- Workflow-Automation
 - Field Service
 - Enterprise Software
 ---

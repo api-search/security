@@ -50,6 +50,6 @@ tags:
 - Acquiring
 - Fintech
 - Brazil
-- Point of Sale
+- Point-of-Sale
 - Card Processing
 ---

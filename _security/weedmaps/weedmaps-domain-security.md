@@ -45,8 +45,8 @@ tags:
 - Dispensary
 - Marketplace
 - Menu Sync
-- Point of Sale
-- Orders
+- Point-of-Sale
+- Order
 - Brands
 - Partner API
 ---

@@ -49,9 +49,9 @@ tags:
 - Translation
 - Maps
 - Cloud Platform
-- AI
+- Artificial Intelligence
 - Korea
-- OAuth2
+- Authentication
 - SMS
 - OCR
 - Webtoon

@@ -33,7 +33,7 @@ tags:
 - Company
 - Media
 - Community
-- Ecommerce
+- E-Commerce
 - Retail
 - Women
 - Careers

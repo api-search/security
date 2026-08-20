@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Legal
 - Legal AI
-- LegalTech
+- Legal Tech
 - Legal Research
 - Legal Drafting
 - Document Analysis
@@ -45,5 +45,5 @@ tags:
 - Vertical AI
 - Law Firms
 - Attorneys
-- SaaS
+- Software-as-a-Service
 ---

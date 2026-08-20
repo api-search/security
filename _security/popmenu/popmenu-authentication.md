@@ -28,10 +28,10 @@ tags:
 - Online Ordering
 - Websites
 - Marketing
-- Integrations
+- Integration
 - Hospitality
 - GraphQL
-- Point Of Sale
+- Point-of-Sale
 - Reservations
 - Loyalty
 - AI Marketing

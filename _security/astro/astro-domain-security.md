@@ -35,7 +35,7 @@ tags:
 - Consumer
 - Quick Commerce
 - Grocery Delivery
-- E-commerce
+- E-Commerce
 - Retail
 - Indonesia
 - On-Demand Delivery

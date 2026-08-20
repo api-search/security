@@ -33,6 +33,6 @@ tags:
 - Query Planning
 - Execution Engine
 - Node.js
-- Open Source
+- Open-Source
 - Performance
 ---

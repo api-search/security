@@ -48,10 +48,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Warehouse Management
 - Fulfillment
-- eCommerce
+- E-Commerce
 - GraphQL
 - Inventory
-- Orders
+- Order
 - Shipments
 - 3PL
 - Logistics

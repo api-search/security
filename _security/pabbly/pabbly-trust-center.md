@@ -25,12 +25,12 @@ tags:
 - Subscription Billing
 - Billing
 - Payments
-- Webhooks
+- Webhook
 - Messaging
 - WhatsApp
 - Email Verification
 - Forms
 - No-Code
-- SaaS
+- Software-as-a-Service
 trust_url: ''
 ---

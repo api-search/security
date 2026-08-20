@@ -155,7 +155,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: |\n  POST /oaut
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/authentication/pricefinder-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - PropTech
 - Property Data

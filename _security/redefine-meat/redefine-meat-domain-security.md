@@ -51,5 +51,5 @@ tags:
 - WooCommerce
 - WordPress
 - Retail
-- Model Context Protocol
+- MCP
 ---

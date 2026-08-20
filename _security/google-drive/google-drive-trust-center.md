@@ -36,9 +36,9 @@ summary_line: SOC 1, SOC 2, SOC 3, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, 
 tags:
 - Cloud Storage
 - Collaboration
-- Document Management
-- Drive
-- Files
+- Document-Management
+- Drives
+- File
 - Google
 - Storage
 trust_url: https://cloud.google.com/security/compliance/offerings

@@ -36,7 +36,7 @@ tags:
 - Livestock
 - Poultry
 - Biosecurity
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Animal Health
 ---

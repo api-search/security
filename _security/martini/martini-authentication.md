@@ -35,7 +35,7 @@ tags:
 - Filmmaking
 - Generative AI
 - Creative Tools
-- Model Context Protocol
+- MCP
 - Agents
 - Collaboration
 - Media Production

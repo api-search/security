@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imperative-exe
 summary_line: none-public/network-access-control/contractual-eligibility · 4 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Capital Markets
 - Trading
 - Market Data

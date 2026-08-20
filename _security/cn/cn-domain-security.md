@@ -31,7 +31,7 @@ tags:
 - Biotechnology
 - Pharmaceuticals
 - Biopharmaceutical
-- Clinical-Stage
+- Clinical Stage
 - Oligonucleotide Therapeutics
 - Hepatitis B
 - Drug Development

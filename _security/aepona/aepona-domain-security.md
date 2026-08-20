@@ -28,7 +28,6 @@ tags:
 - Company
 - Infrastructure
 - Telecommunications
-- APIs
 - Network as a Service
 - API Monetization
 - Mobile

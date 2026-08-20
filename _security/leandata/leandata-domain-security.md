@@ -106,9 +106,7 @@ tags:
 - Account Based Marketing
 - Buying Groups
 - Signal Orchestration
-- Go to Market
-- RevOps
-- GTM
+- Go-To-Market
 - CRM
 - AppExchange
 ---

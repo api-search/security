@@ -40,7 +40,7 @@ tags:
 - Food and Beverage
 - Health and Wellness
 - Supplements
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Retail
 - Agentic Commerce

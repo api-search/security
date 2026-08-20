@@ -40,7 +40,7 @@ tags:
 - Fintech
 - Estate Planning
 - Wills
-- Nonprofit
+- Non-Profit
 - Planned Giving
 - Legal Tech
 ---

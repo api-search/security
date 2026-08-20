@@ -20,7 +20,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Grants Management
 - Grantmaking
-- Nonprofit
+- Non-Profit
 - Philanthropy
 - Foundations
 - REST API

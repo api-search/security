@@ -63,7 +63,7 @@ tags:
 - PEP Screening
 - Adverse Media
 - KYC
-- Watchlists
+- Watchlist
 - Transaction Monitoring
 - Financial Crime
 - RegTech

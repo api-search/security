@@ -22,7 +22,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suzy/refs/head
 summary_line: SOC 2 Type 2, ISO 27001, ISO 27701, ISO 42001, ESOMAR
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Consumer Insights
 - Market Research
 - Survey

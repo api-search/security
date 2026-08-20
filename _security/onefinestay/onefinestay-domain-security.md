@@ -36,5 +36,5 @@ tags:
 - Vacation Rentals
 - Luxury
 - Accommodation
-- Real Estate
+- Real-Estate
 ---

@@ -38,8 +38,8 @@ tags:
 - Insurance
 - Insurtech
 - Car Insurance
-- Financial Services
+- Financial-Services
 - Mobile
-- OAuth
+- Authentication
 - United Kingdom
 ---

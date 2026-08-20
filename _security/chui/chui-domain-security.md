@@ -31,8 +31,8 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Facial Recognition
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Identity Verification
 - Biometrics
 - SDK

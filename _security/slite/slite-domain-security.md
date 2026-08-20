@@ -87,6 +87,6 @@ tags:
 - Notes
 - Team
 - Asynchronous Work
-- AI
+- Artificial Intelligence
 - Search
 ---

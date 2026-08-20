@@ -106,7 +106,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/asapp/refs/hea
 summary_line: SOC 2, PCI DSS, HIPAA, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Conversational AI
 - Contact Center
 - Customer Experience

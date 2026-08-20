@@ -69,7 +69,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Commerce
-- Ecommerce
+- E-Commerce
 - Content
 - Photography
 - Video

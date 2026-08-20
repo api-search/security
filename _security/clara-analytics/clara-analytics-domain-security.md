@@ -35,7 +35,7 @@ tags:
 - Insurtech
 - Claims
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Document Intelligence
 - Analytics
 - Fraud Detection

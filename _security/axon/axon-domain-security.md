@@ -31,11 +31,11 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Predictive Intelligence
 - World Models
 - Edge Computing
 - Fintech
-- High-Frequency Trading
+- High Frequency Trading
 - Robotics
 ---

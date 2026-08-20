@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firstjobme/ref
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Jobs
+- Job
 - Recruiting
 - Employment
 - Career

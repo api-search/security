@@ -28,6 +28,6 @@ tags:
 - Policy Management
 - Audit
 - Incident Management
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.v-comply.com/security/
 ---

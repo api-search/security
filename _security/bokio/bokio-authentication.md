@@ -155,5 +155,5 @@ tags:
 - Payments
 - Sweden
 - SMB
-- OAuth
+- Authentication
 ---

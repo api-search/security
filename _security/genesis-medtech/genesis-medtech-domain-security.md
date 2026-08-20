@@ -34,5 +34,5 @@ tags:
 - Surgical
 - Structural Heart
 - Vascular Intervention
-- Medtech
+- MedTech
 ---

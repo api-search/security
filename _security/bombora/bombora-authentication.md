@@ -86,10 +86,10 @@ tags:
 - Identity Resolution
 - Audience Activation
 - Data Cooperative
-- Webhooks
+- Webhook
 - Reference Data
-- Adtech
-- Martech
+- AdTech
+- MarTech
 - B2B
 - Account Lists
 - Digital Audience Builder

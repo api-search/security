@@ -72,8 +72,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/segments-ai/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Labeling
-- Computer Vision
+- Computer-Vision
 - Point Cloud
 - Annotation
-- Machine Learning
+- Machine-Learning
 ---

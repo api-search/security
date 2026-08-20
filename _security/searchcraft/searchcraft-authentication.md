@@ -93,7 +93,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Search
 - Search as a Service
-- Full Text Search
+- Full-Text Search
 - Indexing
 - Developer Tools
 ---

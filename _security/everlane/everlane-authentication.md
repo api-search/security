@@ -47,7 +47,7 @@ tags:
 - E-Commerce
 - Apparel
 - Fashion
-- Direct-to-Consumer
+- Direct to Consumer
 - Shopify
 - Agentic Commerce
 ---

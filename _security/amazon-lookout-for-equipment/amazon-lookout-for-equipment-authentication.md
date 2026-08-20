@@ -39,6 +39,6 @@ summary_line: apiKey · 1 scheme
 tags:
 - Equipment Monitoring
 - Industrial IoT
-- Machine Learning
+- Machine-Learning
 - Predictive Maintenance
 ---

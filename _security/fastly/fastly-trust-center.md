@@ -507,11 +507,11 @@ tags:
 - Edge Compute
 - WebAssembly
 - Security
-- AI
+- Artificial Intelligence
 - Observability
 - AsyncAPI
 - Streaming
-- Webhooks
+- Webhook
 - Logging
 trust_url: https://www.fastly.com/compliance
 ---

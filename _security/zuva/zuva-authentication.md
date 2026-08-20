@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zuva-ope
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/authentication/zuva-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Document AI
 - Contract Analysis
 - Field Extraction

@@ -581,16 +581,16 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: openapi/1fort-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/authentication/1fort-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- insurance
-- insurtech
-- commercial-insurance
-- cyber-insurance
-- insurance-broker
-- quoting
-- policy-management
+- Insurance
+- Insurtech
+- Commercial Insurance
+- Cyber Insurance
+- Insurance Broker
+- Quoting
+- Policy Management
 - premium-finance
-- payments
-- workflow-automation
-- artificial-intelligence
-- agentic-ai
+- Payments
+- Workflow-Automation
+- Artificial Intelligence
+- Agentic AI
 ---

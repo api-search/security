@@ -51,5 +51,5 @@ tags:
 - Leaderboards
 - Matchmaking
 - Anti-Cheat
-- OAuth2
+- Authentication
 ---

@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bread-cl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/authentication/alliance-data-systems-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Fintech
 - Buy Now Pay Later
 - BNPL

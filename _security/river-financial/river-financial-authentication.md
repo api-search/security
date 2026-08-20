@@ -46,8 +46,7 @@ tags:
 - Company
 - Bitcoin Services
 - Cryptocurrency
-- Financial Services
+- Financial-Services
 - Banking
-- OAuth
-- API
+- Authentication
 ---

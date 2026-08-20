@@ -57,7 +57,7 @@ tags:
 - Natural Language Processing
 - Machine Translation
 - IBM Watson
-- AI
+- Artificial Intelligence
 - Text Analysis
 - Deprecated
 ---

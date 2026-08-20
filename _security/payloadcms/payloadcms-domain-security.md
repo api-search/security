@@ -35,7 +35,7 @@ tags:
 - REST API
 - GraphQL
 - Next.js
-- Open Source
+- Open-Source
 - Self-Hosted
 - TypeScript
 ---

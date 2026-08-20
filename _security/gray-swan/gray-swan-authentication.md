@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gray-swan/refs
 summary_line: 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Security
 - LLM Security
 - Guardrails

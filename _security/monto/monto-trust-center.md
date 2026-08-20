@@ -22,7 +22,7 @@ tags:
 - B2B Payments
 - Accounts Payable
 - Invoicing
-- Collections
+- Collection
 - Supplier Portals
 - ERP Integration
 trust_url: https://montopay.com/compliance-and-security-page/

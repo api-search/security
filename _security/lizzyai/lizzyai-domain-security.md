@@ -36,7 +36,7 @@ tags:
 - Generative AI
 - Artificial Intelligence
 - Legal Technology
-- Document Management
+- Document-Management
 - Contract Review
-- SaaS
+- Software-as-a-Service
 ---

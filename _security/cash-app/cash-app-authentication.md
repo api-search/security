@@ -163,7 +163,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: |\n  https://de
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/authentication/cash-app-authentication.yml
 summary_line: apiKey/http/hmac-signature · 2 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Payments
 - United States
 - Fintech

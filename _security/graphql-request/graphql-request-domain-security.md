@@ -33,6 +33,6 @@ tags:
 - GraphQL Client
 - JavaScript
 - TypeScript
-- Open Source
+- Open-Source
 - Isomorphic
 ---

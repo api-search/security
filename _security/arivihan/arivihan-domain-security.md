@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arivihan/refs/
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Education
 - EdTech
 - E-Learning

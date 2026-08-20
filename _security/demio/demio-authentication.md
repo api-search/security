@@ -81,6 +81,5 @@ tags:
 - Video
 - Engagement Marketing
 - Lead Generation
-- SaaS
-- API
+- Software-as-a-Service
 ---

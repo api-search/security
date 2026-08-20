@@ -125,9 +125,9 @@ tags:
 - Pix
 - Boleto
 - Cards
-- Subscriptions
+- Subscription
 - Recurring
-- POS
+- Point-of-Sale
 - Card Reader
 - Marketplace
 - Split

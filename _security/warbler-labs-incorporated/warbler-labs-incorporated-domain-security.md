@@ -36,5 +36,5 @@ tags:
 - Web3
 - Smart Contracts
 - Identity
-- Stablecoin
+- Stablecoins
 ---

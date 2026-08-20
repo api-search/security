@@ -315,6 +315,6 @@ tags:
 - IoT
 - Building Management
 - Access Control
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.getkisi.com/
 ---

@@ -105,6 +105,6 @@ summary_line: SOC 2, GDPR
 tags:
 - Agents
 - Artificial Intelligence
-- Integrations
+- Integration
 trust_url: https://trust.n8n.io/
 ---

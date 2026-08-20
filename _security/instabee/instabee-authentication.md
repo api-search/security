@@ -49,9 +49,9 @@ tags:
 - Company
 - Retail
 - Logistics
-- Last-Mile Delivery
+- Last Mile Delivery
 - Shipping
-- E-commerce
+- E-Commerce
 - Parcel Lockers
 - Returns
 - Nordics

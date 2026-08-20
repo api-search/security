@@ -34,9 +34,9 @@ tags:
 - Company
 - Fund Management
 - Donor Engagement
-- Nonprofit
+- Non-Profit
 - Higher Education
 - Fundraising
 - Compliance
-- Financial Services
+- Financial-Services
 ---

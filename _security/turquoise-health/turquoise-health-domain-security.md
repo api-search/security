@@ -53,7 +53,7 @@ tags:
 - Out-of-Pocket Costs
 - MRF
 - Consumer Pricing
-- Model Context Protocol
+- MCP
 - Eligibility
 - Standard Service Packages
 - HIPAA

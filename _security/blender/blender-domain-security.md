@@ -50,7 +50,7 @@ tags:
 - Animation
 - Game Development
 - Modeling
-- Open Source
+- Open-Source
 - Python
 - Rendering
 - VFX

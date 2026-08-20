@@ -809,7 +809,7 @@ tags:
 - A/B Testing
 - Analytics
 - Feature Flags
-- Open Source
+- Open-Source
 - Product Analytics
 - Session Recording
 trust_url: https://trust.posthog.com/

@@ -62,7 +62,6 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/_origin
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/authentication/lalal-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
 - Artificial Intelligence
 - Audio
 - Audio Processing
@@ -72,6 +71,6 @@ tags:
 - Voice Cloning
 - Voice Changer
 - Music
-- Machine Learning
+- Machine-Learning
 - DSP
 ---

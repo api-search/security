@@ -1319,6 +1319,6 @@ tags:
 - Artificial Intelligence
 - Network Automation
 - Location Services
-- Webhooks
+- Webhook
 - Juniper
 ---

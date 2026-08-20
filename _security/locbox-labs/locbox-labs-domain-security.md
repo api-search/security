@@ -45,5 +45,5 @@ tags:
 - Loyalty
 - Guest WiFi
 - Family Entertainment
-- Restaurants
+- Restaurant
 ---

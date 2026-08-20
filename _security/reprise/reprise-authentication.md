@@ -92,7 +92,7 @@ tags:
 - Enterprise Sales
 - Marketing Technology
 - Sales Enablement
-- Model Context Protocol
+- MCP
 - Agent Tooling
 - Demo Analytics
 ---

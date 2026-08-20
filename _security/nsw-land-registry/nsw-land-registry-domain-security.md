@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nsw-land-registry/refs/heads/main/security/nsw-land-registry-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Land Registry
 - Title

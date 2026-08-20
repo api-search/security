@@ -31,7 +31,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Ticketing
-- Events
+- Event
 - Marketplace
 - Entertainment
 - Consumer

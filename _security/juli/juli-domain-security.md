@@ -41,5 +41,5 @@ tags:
 - mHealth
 - Wearables
 - Artificial Intelligence
-- Healthtech
+- Health Tech
 ---

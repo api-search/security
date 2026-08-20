@@ -37,11 +37,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plumerai/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai/Ml
+- Ai Ml
 - Edge AI
-- Computer Vision
+- Computer-Vision
 - Embedded
-- Machine Learning
+- Machine-Learning
 - Inference
-- Cameras
+- Camera
 ---

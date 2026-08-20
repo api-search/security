@@ -71,6 +71,6 @@ tags:
 - Object Storage
 - Block Storage
 - File Storage
-- Open Source
+- Open-Source
 - Software-Defined Storage
 ---

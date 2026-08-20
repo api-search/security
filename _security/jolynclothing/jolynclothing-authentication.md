@@ -55,7 +55,7 @@ tags:
 - E-Commerce
 - Apparel
 - Swimwear
-- Direct-to-Consumer
+- Direct to Consumer
 - Shopify
 - Agentic Commerce
 ---

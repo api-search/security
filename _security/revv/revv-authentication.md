@@ -40,6 +40,6 @@ tags:
 - Electronic Signature
 - Contract Management
 - Sales Enablement
-- Workflow Automation
-- SaaS
+- Workflow-Automation
+- Software-as-a-Service
 ---

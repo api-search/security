@@ -38,5 +38,5 @@ tags:
 - Mobile App
 - Patient Engagement
 - Real-World Evidence
-- Machine Learning
+- Machine-Learning
 ---

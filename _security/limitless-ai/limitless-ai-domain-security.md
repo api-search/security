@@ -60,13 +60,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/security/limitless-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Wearable
 - Pendant
 - Meeting Notes
 - Lifelogs
 - Personal AI
-- API
 - MCP
 - OpenAPI
 ---

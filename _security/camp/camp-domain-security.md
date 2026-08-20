@@ -34,7 +34,7 @@ tags:
 - Family Entertainment
 - Experiential Retail
 - Kids
-- Ecommerce
+- E-Commerce
 - Consumer
 - Toys
 ---

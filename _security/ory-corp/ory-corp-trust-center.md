@@ -95,11 +95,10 @@ summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:
 - Identity
 - Authentication
-- OAuth2
 - OpenID Connect
 - Authorization
 - Permissions
 - IAM
-- Open Source
+- Open-Source
 trust_url: https://www.ory.com/security
 ---

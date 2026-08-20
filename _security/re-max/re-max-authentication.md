@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource:\n- collections/
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/authentication/re-max-authentication.yml
 summary_line: oauth2 · 3 schemes
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - Brokerage
 - Property Listings

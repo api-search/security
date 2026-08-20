@@ -30,6 +30,5 @@ tags:
 - Financial Close
 - Consolidation
 - Enterprise
-- API
 trust_url: https://trust.onestream.com/
 ---

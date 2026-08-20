@@ -116,10 +116,10 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Document Extraction
 - Document Processing
-- Computer Vision
+- Computer-Vision
 - OCR
 - Data Extraction
 - Agents

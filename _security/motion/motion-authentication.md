@@ -32,7 +32,7 @@ tags:
 - Performance Marketing
 - Ad Reporting
 - Creative Strategy
-- SaaS
+- Software-as-a-Service
 - MCP
 - Agent Surface
 ---

@@ -52,11 +52,11 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Enterprise
-- Financial Services
+- Financial-Services
 - Debt Collection
 - Loan Recovery
 - Lending
-- Collections
+- Collection
 - Fintech
 - India
 ---

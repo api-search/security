@@ -44,9 +44,9 @@ tags:
 - Company
 - Ai Ml
 - Documentation
-- Knowledge Management
+- Knowledge-Management
 - Search
-- Workflow
+- Workflows
 - Process Documentation
 - Enterprise
 trust_url: https://trust.scribehow.com/resources

@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/security/vmware-tanzu-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Cloud Native
+- Cloud-Native
 - Containers
 - Enterprise
 - Kubernetes

@@ -428,7 +428,7 @@ tags:
 - Employee Records
 - Latin America
 - Chile
-- SaaS
-- Webhooks
+- Software-as-a-Service
+- Webhook
 trust_url: https://trust.buk.cl/
 ---

@@ -76,7 +76,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Vector Databases
-- AI
+- Artificial Intelligence
 - Embeddings
 - RAG
 trust_url: https://security.pinecone.io/

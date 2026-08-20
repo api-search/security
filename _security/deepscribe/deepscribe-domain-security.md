@@ -40,6 +40,6 @@ tags:
 - EHR Integration
 - Oncology
 - Cardiology
-- Value Based Care
-- Enterprise SaaS
+- Value-Based Care
+- Enterprise Saas
 ---

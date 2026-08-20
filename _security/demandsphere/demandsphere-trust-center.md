@@ -51,7 +51,6 @@ tags:
 - LLM Visibility
 - Rank Tracking
 - Analytics
-- API
 - MCP
 trust_url: https://www.demandsphere.com/security/
 ---

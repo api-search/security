@@ -61,10 +61,10 @@ tags:
 - Music
 - Audio
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Stem Separation
 - Audio Processing
 - Media
 - Developer Platform
-- SDKs
+- SDK
 ---

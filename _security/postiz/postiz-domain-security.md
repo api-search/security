@@ -84,9 +84,9 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/security/postiz-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Social Media
+- Social-Media
 - Scheduling
-- Open Source
+- Open-Source
 - Content
 - Marketing
 - Agents

@@ -48,8 +48,8 @@ tags:
 - Artificial Intelligence
 - LLM
 - Structured Outputs
-- JSON Schema
-- Machine Learning
+- JSON-Schema
+- Machine-Learning
 - Developer Tools
 - Constrained Decoding
 ---

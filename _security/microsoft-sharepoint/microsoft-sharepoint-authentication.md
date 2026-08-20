@@ -68,6 +68,6 @@ tags:
 - Collaboration
 - Content Management
 - Microsoft
-- Microsoft 365
+- Microsoft-365
 - SharePoint
 ---

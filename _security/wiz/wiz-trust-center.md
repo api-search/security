@@ -28,7 +28,7 @@ tags:
 - CNAPP
 - CSPM
 - Vulnerability Management
-- Cloud Native
+- Cloud-Native
 - DevSecOps
 - Security
 trust_url: https://trust.wiz.io/

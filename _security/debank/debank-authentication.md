@@ -65,16 +65,16 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: openapi/debank-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/authentication/debank-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- web3
-- defi
-- blockchain
-- crypto
-- portfolio-tracking
-- on-chain-data
-- wallet
+- Web3
+- DeFi
+- Blockchain
+- Crypto
+- Portfolio Tracking
+- On-Chain Data
+- Wallets
 - token-data
-- nft
-- ethereum
-- oauth
-- market-data
+- NFT
+- Ethereum
+- Authentication
+- Market Data
 ---

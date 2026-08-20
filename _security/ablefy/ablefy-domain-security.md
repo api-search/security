@@ -39,6 +39,5 @@ tags:
 - Creator Economy
 - E-Commerce
 - Germany
-- API
-- Webhooks
+- Webhook
 ---

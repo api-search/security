@@ -1,47 +1,23 @@
 ---
 api_specs:
-- filename: cornell-config-api-openapi.yml
+- filename: cornell-class-roster-api-openapi.yml
   format: yaml
-  label: Cornell University config API
-  slug: cornell-config-api
+  label: Cornell Class Roster API
+  slug: class-roster
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-config-api-openapi.yml
-- filename: cornell-dining-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-class-roster-api-openapi.yml
+- filename: cornell-library-catalog-api-openapi.yml
   format: yaml
-  label: Cornell University dining API
-  slug: cornell-dining-api
+  label: Cornell University Library Catalog Search API
+  slug: library-catalog
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-dining-api-openapi.yml
-- filename: cornell-events-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-library-catalog-api-openapi.yml
+- filename: cugir-geospatial-api-openapi.yml
   format: yaml
-  label: Cornell University events API
-  slug: cornell-events-api
+  label: CUGIR — Cornell University Geospatial Information Repository API
+  slug: cugir
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-events-api-openapi.yml
-- filename: cornell-location-api-openapi.yml
-  format: yaml
-  label: Cornell University location API
-  slug: cornell-location-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-location-api-openapi.yml
-- filename: cornell-map-items-api-openapi.yml
-  format: yaml
-  label: Cornell University map items API
-  slug: cornell-map-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-map-items-api-openapi.yml
-- filename: cornell-search-api-openapi.yml
-  format: yaml
-  label: Cornell University search API
-  slug: cornell-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-search-api-openapi.yml
-- filename: cornell-tags-api-openapi.yml
-  format: yaml
-  label: Cornell University tags API
-  slug: cornell-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-tags-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cugir-geospatial-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,12 +59,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/security/cornell-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Open Data
+- Higher Education
+- Education
+- Ivy League
+- United States
 - Course Catalog
 - Library
-- Research
-- United States
+- Research Data
+- Geospatial
+- Identity Federation
 ---

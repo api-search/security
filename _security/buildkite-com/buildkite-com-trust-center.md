@@ -145,6 +145,6 @@ tags:
 - GraphQL
 - REST
 - MCP
-- Webhooks
+- Webhook
 trust_url: https://trust.buildkite.com/
 ---

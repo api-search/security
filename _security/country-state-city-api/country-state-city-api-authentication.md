@@ -51,7 +51,7 @@ tags:
 - Capitals
 - Cities
 - Countries
-- Currencies
+- Currency
 - Geography
 - Geolocation
 - ISO 3166
@@ -61,5 +61,5 @@ tags:
 - Reference Data
 - Regions
 - States
-- Time Zones
+- Timezones
 ---

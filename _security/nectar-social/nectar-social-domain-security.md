@@ -47,8 +47,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nectar-social/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
-- Social Media
+- Artificial Intelligence
+- Social-Media
 - Community Management
 - Social Listening
 - Influencer Marketing
@@ -56,5 +56,5 @@ tags:
 - Social Commerce
 - MCP
 - Agents
-- OAuth
+- Authentication
 ---

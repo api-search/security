@@ -34,5 +34,5 @@ tags:
 - Risk Management
 - Supplier Intelligence
 - Disruption Monitoring
-- AI
+- Artificial Intelligence
 ---

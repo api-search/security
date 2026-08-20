@@ -23,12 +23,12 @@ tags:
 - Physical Security
 - Video Surveillance
 - Access Control
-- Cameras
+- Camera
 - Sensors
 - Alarms
 - IoT
 - Cloud
-- Webhooks
+- Webhook
 - Building Management
 trust_url: https://security.verkada.com/
 ---

@@ -32,9 +32,9 @@ tags:
 - Company
 - Consumer
 - Shopping
-- E-commerce
+- E-Commerce
 - Coupons
-- Cash Back
+- Cashback
 - Loyalty
 - Browser Extension
 ---

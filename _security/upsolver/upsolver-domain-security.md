@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Data
-- Data Pipelines
+- Data Pipeline
 - Data Lakehouse
 - Streaming
 - ETL

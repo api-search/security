@@ -64,11 +64,11 @@ tags:
 - Artificial Intelligence
 - Enterprise Software
 - Human Resources
-- IT Service Management
+- ITSM
 - Employee Experience
-- Workflow Automation
+- Workflow-Automation
 - Conversational AI
-- Model Context Protocol
-- Knowledge Management
+- MCP
+- Knowledge-Management
 trust_url: https://trust.leena.ai/
 ---

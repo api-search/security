@@ -45,10 +45,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openfeat
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openfeature/refs/heads/main/authentication/openfeature-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- Cloud Native
+- Cloud-Native
 - Feature Flags
 - Feature Management
 - Incubating
-- SDKs
+- SDK
 - Specification
 ---

@@ -53,7 +53,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - AI Governance
 - AI Agents
-- Workflow Automation
+- Workflow-Automation
 - Enterprise AI
 - MCP
 - Semantic Layer

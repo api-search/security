@@ -45,9 +45,9 @@ tags:
 - Game Development
 - Godot
 - Multiplayer
-- Backend as a Service
+- Backend-as-a-Service
 - SDK
 - Cloud
 - Game Servers
-- Realtime
+- Real-Time
 ---

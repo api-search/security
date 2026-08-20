@@ -31,6 +31,6 @@ tags:
 - Banking
 - Cards
 - Card Issuing
-- Financial Services
+- Financial-Services
 trust_url: https://www.zeta.tech/us/resources/trust-center/
 ---

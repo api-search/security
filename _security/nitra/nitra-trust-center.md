@@ -18,7 +18,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nitra/refs/hea
 summary_line: SOC 2 Type II
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Healthcare
 - Fintech
 - Banking

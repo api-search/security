@@ -86,7 +86,7 @@ tags:
 - Company
 - Education
 - E-Commerce
-- Products
+- Product
 - Mock API
 - Prototyping
 - REST

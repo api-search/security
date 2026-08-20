@@ -39,5 +39,5 @@ tags:
 - SDK
 - GraphQL
 - WebXR
-- AR VR
+- AR/VR
 ---

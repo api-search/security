@@ -153,7 +153,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/prime-in
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/authentication/prime-intellect-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
 - Artificial Intelligence
 - Reinforcement Learning
 - GPU Compute
@@ -165,6 +164,6 @@ tags:
 - Environments
 - Evaluations
 - LoRA
-- Open Source
+- Open-Source
 - Agents
 ---

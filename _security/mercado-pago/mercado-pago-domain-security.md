@@ -161,12 +161,12 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Payments
 - Checkout
-- Subscriptions
-- POS
+- Subscription
+- Point-of-Sale
 - QR
-- PIX
-- SDKs
-- Wallet
+- Pix
+- SDK
+- Wallets
 - Acquiring
 - Lending
 - Issuing

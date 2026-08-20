@@ -104,5 +104,5 @@ tags:
 - iPaaS
 - AI Agents
 - MCP
-- Integrations
+- Integration
 ---

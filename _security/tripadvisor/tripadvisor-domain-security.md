@@ -90,7 +90,7 @@ tags:
 - Attractions
 - Hotels
 - Hospitality
-- Restaurants
+- Restaurant
 - Reviews
 - Travel
 ---

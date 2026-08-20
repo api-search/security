@@ -38,5 +38,5 @@ tags:
 - Motion Graphics
 - Artificial Intelligence
 - Creative Tools
-- SaaS
+- Software-as-a-Service
 ---

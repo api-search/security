@@ -90,7 +90,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Networking
-- Software-Defined Networking
+- Software Defined Networking
 - SDN
 - VPN
 - Security

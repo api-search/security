@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/envoy-ai
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/authentication/envoy-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Cloud Native
+- Cloud-Native
 - Load Balancing
 - Proxy
 - Service Mesh

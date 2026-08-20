@@ -79,7 +79,7 @@ tags:
 - Code Signing
 - Containers
 - Cryptography
-- Open Source
+- Open-Source
 - PKI
 - Security
 - Software Supply Chain

@@ -48,7 +48,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rent-a-center/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Retail
-- Lease-To-Own
+- Lease-to-Own
 - Consumer Finance
 - Electronics
 - Furniture

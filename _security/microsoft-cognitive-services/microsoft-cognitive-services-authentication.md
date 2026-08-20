@@ -49,9 +49,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-cogn
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Azure AI
-- Computer Vision
+- Computer-Vision
 - Speech
 - NLP
 - OpenAI
-- Machine Learning
+- Machine-Learning
 ---

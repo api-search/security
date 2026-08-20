@@ -31,6 +31,6 @@ tags:
 - Podcasting
 - Media
 - Monetization
-- Subscriptions
+- Subscription
 - Defunct
 ---

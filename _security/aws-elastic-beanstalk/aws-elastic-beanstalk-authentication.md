@@ -37,9 +37,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/aws-elas
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-elastic-beanstalk/refs/heads/main/authentication/aws-elastic-beanstalk-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Platform as a Service
+- Platform-as-a-Service
 - Application Deployment
-- Auto Scaling
+- Auto-Scaling
 - Cloud
 - DevOps
 ---

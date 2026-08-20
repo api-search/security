@@ -33,7 +33,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-products-and-platforms/refs/heads/main/security/bloomberg-products-and-platforms-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Products
+- Product
 - Platforms
 - Terminal
 - Enterprise

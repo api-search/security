@@ -229,7 +229,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clear-street/r
 summary_line: http/oauth2/openIdConnect · 5 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Capital Markets
 - Prime Brokerage
 - Trading

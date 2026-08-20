@@ -63,7 +63,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-c
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apache Airflow
-- Data Pipelines
+- Data Pipeline
 - Google Cloud
 - Workflow Orchestration
 ---

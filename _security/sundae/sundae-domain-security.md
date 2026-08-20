@@ -37,9 +37,9 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Fintech
-- Real Estate
-- Proptech
+- Real-Estate
+- PropTech
 - Marketplace
-- Homebuying
+- Home Buying
 - Investors
 ---

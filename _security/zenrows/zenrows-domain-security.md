@@ -55,7 +55,7 @@ tags:
 - Browser Automation
 - Screenshots
 - CAPTCHA
-- AI
+- Artificial Intelligence
 - MCP
 - Spain
 ---

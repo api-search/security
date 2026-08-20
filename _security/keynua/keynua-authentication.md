@@ -46,6 +46,6 @@ tags:
 - KYC
 - Onboarding
 - OTP
-- Webhooks
+- Webhook
 - Latin America
 ---

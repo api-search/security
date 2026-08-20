@@ -54,6 +54,6 @@ tags:
 - CDP
 - Data Pipeline
 - Analytics
-- Open Source
+- Open-Source
 - Ingestion
 ---

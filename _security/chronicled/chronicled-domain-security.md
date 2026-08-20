@@ -32,7 +32,7 @@ tags:
 - Crypto
 - Blockchain
 - Supply Chain
-- Pharmaceutical
+- Pharmaceuticals
 - Life Sciences
 - Healthcare
 - DSCSA

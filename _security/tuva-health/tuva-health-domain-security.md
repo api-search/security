@@ -56,7 +56,7 @@ tags:
 - Data Analytics
 - Data Transformation
 - Claims
-- Open Source
+- Open-Source
 - dbt
 - EMPI
 - Patient Matching

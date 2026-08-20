@@ -397,10 +397,10 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Automation
 - Internal Tools
-- Open Source
-- ProCode API Composition
+- Open-Source
+- Pro-Code-API-Composition
 - Scripts
-- Webhooks
+- Webhook
 - Workflow Engine
 - Workflows
 ---

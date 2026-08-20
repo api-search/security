@@ -36,7 +36,7 @@ tags:
 - .NET
 - C#
 - Framework
-- Open Source
+- Open-Source
 - TDD
 - Testing
 - Unit Testing

@@ -922,14 +922,14 @@ tags:
 - Headless Commerce
 - Composable Commerce
 - API-First
-- Ecommerce
+- E-Commerce
 - JSON:API
-- OAuth 2.0
+- Authentication
 - Multi-Market
 - Multi-Currency
 - B2C
 - B2B
-- Subscriptions
+- Subscription
 - Promotions
 - Inventory
 - Order Management

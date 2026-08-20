@@ -28,7 +28,7 @@ tags:
 - Service
 - Inventory
 - Parts
-- Webhooks
+- Webhook
 - Gated
 trust_url: https://trust.tekion.com/
 ---

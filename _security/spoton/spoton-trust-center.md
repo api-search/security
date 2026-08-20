@@ -110,7 +110,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spoton/refs/he
 summary_line: SOC 2, PCI DSS
 tags:
 - Restaurant
-- Point of Sale
+- Point-of-Sale
 - Payments
 - Online Ordering
 - Reservations

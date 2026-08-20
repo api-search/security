@@ -70,6 +70,6 @@ tags:
 - Destinations
 - Fivetran Activations
 - Reverse ETL
-- Unified API
+- Unified-API
 trust_url: https://www.fivetran.com/security
 ---

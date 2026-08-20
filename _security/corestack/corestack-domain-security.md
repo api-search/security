@@ -55,16 +55,16 @@ source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/security/corestack-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- cloud-governance
-- finops
-- cloud-cost-management
-- cloud-security-posture-management
-- compliance
-- multi-cloud
-- cnapp
-- policy-as-code
+- Cloud Governance
+- FinOps
+- Cloud Cost Management
+- Cloud Security Posture Management
+- Compliance
+- Multi-Cloud
+- CNAPP
+- Policy as Code
 - cloudops
-- mcp
+- MCP
 - agent-native
-- kubernetes
+- Kubernetes
 ---

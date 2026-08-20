@@ -42,6 +42,6 @@ tags:
 - Marketplace
 - Remarketing
 - Financing
-- Ecommerce
+- E-Commerce
 - Europe
 ---

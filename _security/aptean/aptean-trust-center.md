@@ -56,7 +56,7 @@ tags:
 - Supply Chain
 - Integration
 - Event-Driven
-- Webhooks
+- Webhook
 - Enterprise Software
 trust_url: https://trust.aptean.com/
 ---

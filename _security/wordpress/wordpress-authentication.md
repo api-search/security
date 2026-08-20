@@ -124,6 +124,6 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - CMS
 - Content Management
-- Open Source
+- Open-Source
 - WordPress
 ---

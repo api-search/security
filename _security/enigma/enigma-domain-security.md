@@ -48,7 +48,7 @@ tags:
 - Fraud
 - GraphQL
 - Data Enrichment
-- Financial Services
+- Financial-Services
 - MCP
 - Sanctions Screening
 - Agent Skills

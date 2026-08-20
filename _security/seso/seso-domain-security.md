@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seso/refs/head
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Hr Tech
+- HR Tech
 - Agriculture
 - Payroll
 - Onboarding

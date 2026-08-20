@@ -53,11 +53,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streaming/refs
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Streaming
-- Real Time
+- Real-Time
 - Event Streaming
 - Change Data Capture
 - Stream Processing
-- Server Sent Events
+- Server-Sent Events
 - WebSocket
 - gRPC
 - GraphQL Subscriptions

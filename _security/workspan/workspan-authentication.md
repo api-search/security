@@ -232,5 +232,5 @@ tags:
 - Cloud Marketplaces
 - Sales
 - B2B
-- SaaS
+- Software-as-a-Service
 ---

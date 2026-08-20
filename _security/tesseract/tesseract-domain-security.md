@@ -81,6 +81,6 @@ tags:
 - Digital Assets
 - Ethereum
 - MiCA
-- Vaults
+- Vault
 - Institutional
 ---

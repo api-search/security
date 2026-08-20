@@ -276,7 +276,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Cloud Platform
 - Deployment
-- PaaS
+- Platform-as-a-Service
 - Serverless
 - Serverless GPU
 - AI Infrastructure

@@ -166,13 +166,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightfield/ref
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- Applications
+- Application
 - CRM
 - Sales
 - Artificial Intelligence
 - Agents
-- Customer Relationship Management
-- Go To Market
+- Go-To-Market
 - Productivity
-- SaaS
+- Software-as-a-Service
 ---

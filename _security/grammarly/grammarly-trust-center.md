@@ -20,13 +20,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grammarly/refs
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Writing Assistance
 - Productivity
 - Natural Language Processing
 - Analytics
 - Content
-- OAuth
+- Authentication
 - Enterprise
 trust_url: https://www.grammarly.com/trust
 ---

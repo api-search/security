@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: >-\n  API Servi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/western-alliance/refs/heads/main/authentication/western-alliance-authentication.yml
 summary_line: oauth2/mutualTLS · 3 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Treasury Management

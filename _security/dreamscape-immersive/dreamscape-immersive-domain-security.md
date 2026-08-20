@@ -52,7 +52,7 @@ tags:
 - Company
 - Virtual Reality
 - Immersive Experiences
-- Location Based Entertainment
+- Location-Based Entertainment
 - Entertainment
 - Media
 - Ticketing

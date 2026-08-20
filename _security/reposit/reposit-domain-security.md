@@ -33,8 +33,8 @@ tags:
 - Fintech
 - PropTech
 - Insurance
-- Rental
+- Rentals
 - Deposits
-- Real Estate
+- Real-Estate
 - United Kingdom
 ---

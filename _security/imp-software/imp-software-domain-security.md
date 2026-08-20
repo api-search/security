@@ -31,11 +31,11 @@ tags:
 - Company
 - Education
 - EdTech
-- FinTech
+- Fintech
 - Financial Management
 - Budgeting
 - Forecasting
 - Multi-Academy Trust
-- SaaS
+- Software-as-a-Service
 - United Kingdom
 ---

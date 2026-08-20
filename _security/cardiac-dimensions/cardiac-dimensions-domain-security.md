@@ -35,6 +35,6 @@ tags:
 - Heart Failure
 - Structural Heart
 - Transcatheter
-- Health Care
+- Healthcare
 - Medical Technology
 ---

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Pets
-- Ecommerce
+- E-Commerce
 - Subscription
 - Consumer
 - Direct to Consumer

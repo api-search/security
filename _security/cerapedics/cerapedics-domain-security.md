@@ -42,5 +42,5 @@ tags:
 - Spine Surgery
 - Healthcare
 - Life Sciences
-- Model Context Protocol
+- MCP
 ---

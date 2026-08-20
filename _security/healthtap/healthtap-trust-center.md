@@ -21,7 +21,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/healthtap/refs
 summary_line: SOC 2 Type 2, HIPAA
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Telehealth
 - Telemedicine
 - Virtual Care

@@ -47,7 +47,7 @@ tags:
 - Procurement
 - Corporate Cards
 - Expense Management
-- FinTech
+- Fintech
 - Paylocity
 - Gated API
 ---

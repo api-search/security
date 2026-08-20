@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flock-homes/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Investment
 - Property Management
 - 721 Exchange
 - Fund
-- Proptech
+- PropTech
 - Fintech
 ---

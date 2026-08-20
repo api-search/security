@@ -31,5 +31,5 @@ tags:
 - Revenue Operations
 - Deal Collaboration
 - Team Selling
-- SaaS
+- Software-as-a-Service
 ---

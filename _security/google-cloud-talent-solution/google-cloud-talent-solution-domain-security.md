@@ -63,8 +63,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-t
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Google Cloud
-- Jobs
-- Machine Learning
+- Job
+- Machine-Learning
 - Recruitment
 - Search
 - Talent

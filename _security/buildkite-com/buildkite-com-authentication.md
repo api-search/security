@@ -179,5 +179,5 @@ tags:
 - GraphQL
 - REST
 - MCP
-- Webhooks
+- Webhook
 ---

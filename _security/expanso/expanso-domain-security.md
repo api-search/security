@@ -57,9 +57,9 @@ tags:
 - Distributed Computing
 - Edge Computing
 - Compute Orchestration
-- Data Pipelines
+- Data Pipeline
 - Data Governance
-- Open Source
-- AI
+- Open-Source
+- Artificial Intelligence
 - Job Orchestration
 ---

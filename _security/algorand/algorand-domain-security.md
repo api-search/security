@@ -156,7 +156,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Blockchain
 - Cryptocurrency
-- Proof-of-Stake
+- Proof of Stake
 - DeFi
 - Smart Contracts
 ---

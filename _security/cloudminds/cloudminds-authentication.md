@@ -34,6 +34,6 @@ tags:
 - gRPC
 - Protobuf
 - Robot Operating System
-- Computer Vision
+- Computer-Vision
 - Speech Recognition
 ---

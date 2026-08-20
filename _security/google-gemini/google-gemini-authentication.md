@@ -48,8 +48,8 @@ tags:
 - Code Generation
 - Embeddings
 - Generative AI
-- Image Generation
+- Image-Generation
 - LLM
-- Machine Learning
-- Multimodal
+- Machine-Learning
+- Multi-Modal
 ---

@@ -44,6 +44,6 @@ tags:
 - Developer Tools
 - React
 - SDK
-- Open Source
+- Open-Source
 - LLM
 ---

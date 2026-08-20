@@ -43,5 +43,5 @@ tags:
 - Procore
 - ERP Integration
 - Accounts Receivable
-- SaaS
+- Software-as-a-Service
 ---

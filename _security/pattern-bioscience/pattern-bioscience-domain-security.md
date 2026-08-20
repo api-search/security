@@ -37,6 +37,6 @@ tags:
 - Microbiology
 - Antimicrobial Resistance
 - Life Sciences
-- Machine Learning
+- Machine-Learning
 - Austin
 ---

@@ -50,5 +50,5 @@ tags:
 - Observability
 - Industrial Data
 - Data Platform
-- SDKs
+- SDK
 ---

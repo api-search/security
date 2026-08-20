@@ -37,10 +37,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evidence-dev/r
 summary_line: SOC 2
 tags:
 - Business Intelligence
-- BI as Code
+- BI-as-Code
 - SQL
 - Markdown
 - Data Apps
-- Open Source
+- Open-Source
 trust_url: https://security.evidence.dev/
 ---

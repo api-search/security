@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ncbi-dat
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/authentication/united-states-national-library-of-medicine-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Federal Government
+- Federal-Government
 - Biomedical Research
 - Healthcare
 - Genomics

@@ -74,13 +74,13 @@ summary_line: http/client-secret · 3 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Voice
 - Speech Recognition
-- Speech to Text
-- Text to Speech
+- Speech-to-Text
+- Text-to-Speech
 - Translation
-- Real Time
+- Real-Time
 - WebSockets
 - Audio
 - Transcription

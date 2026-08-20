@@ -108,14 +108,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/security/charles-schwab-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Accounts
+- Account
 - Banking
 - Brokerage
-- Financial Services
+- Financial-Services
 - Investing
 - Market Data
-- OAuth 2.0
-- Orders
+- Authentication
+- Order
 - Trading
 - Fortune 500
 ---

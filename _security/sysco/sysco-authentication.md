@@ -62,6 +62,5 @@ tags:
 - Food Distribution
 - Food Service
 - Supply Chain
-- Fortune 100
 - Wholesale
 ---

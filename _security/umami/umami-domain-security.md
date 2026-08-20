@@ -79,7 +79,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/umami/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cookieless Tracking
-- Open Source
+- Open-Source
 - Privacy
 - Web Analytics
 - Website Analytics

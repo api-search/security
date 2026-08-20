@@ -33,7 +33,7 @@ tags:
 - Company
 - Coffee
 - Subscription
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Consumer
 - Food and Beverage

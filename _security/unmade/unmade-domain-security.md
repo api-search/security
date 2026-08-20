@@ -73,7 +73,7 @@ tags:
 - Apparel
 - Manufacturing
 - Customization
-- eCommerce
+- E-Commerce
 - On-Demand Production
 - Embedded Commerce
 ---

@@ -40,7 +40,7 @@ tags:
 - Legal
 - Legal Tech
 - Case Management
-- Communication
-- OAuth
+- Communications
+- Authentication
 - OpenID Connect
 ---

@@ -32,7 +32,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Generative AI
-- Machine Learning
+- Machine-Learning
 - Predictive Analytics
 - Venture Backed
 - North America

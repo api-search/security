@@ -38,6 +38,6 @@ tags:
 - Wellness
 - Fitness
 - Coaching Platform
-- SaaS
+- Software-as-a-Service
 - Denmark
 ---

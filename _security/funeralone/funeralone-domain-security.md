@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/funeralone/ref
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Funeral Homes
-- Deathcare
+- Death Care
 - Obituaries
 - Tribute Videos
 - Memorial Websites

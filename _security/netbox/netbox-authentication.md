@@ -116,12 +116,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/netbox-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/authentication/netbox-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Data Center
+- Data-Center
 - DCIM
 - Infrastructure as Code
 - IPAM
 - Network Automation
 - Network Management
-- Open Source
+- Open-Source
 - Source of Truth
 ---

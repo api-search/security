@@ -35,7 +35,7 @@ tags:
 - Staffing
 - Temporary Work
 - Human Resources
-- Jobs
+- Job
 - Marketplace
 - France
 ---

@@ -36,7 +36,7 @@ tags:
 - Pipeline Integrity
 - Land Management
 - Geospatial
-- SaaS
+- Software-as-a-Service
 - Energy
 - Utilities
 - Telecom

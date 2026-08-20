@@ -34,9 +34,9 @@ tags:
 - Kotlin
 - React
 - React Three Fiber
-- GLTF
+- glTF
 - USDZ
-- Webhooks
+- Webhook
 - Real-time API
 - AI 3D Generation
 - Design Tools

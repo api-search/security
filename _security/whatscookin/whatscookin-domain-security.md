@@ -32,7 +32,7 @@ tags:
 - Company
 - Community
 - Social
-- Events
+- Event
 - Cooperation
 - Networking
 - Mobile App

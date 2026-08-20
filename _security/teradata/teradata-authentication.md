@@ -102,7 +102,7 @@ tags:
 - Data Warehousing
 - Database
 - Enterprise
-- Machine Learning
+- Machine-Learning
 - SQL
 - Fortune 1000
 ---

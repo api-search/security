@@ -61,16 +61,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: >-\n  uShip dev
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uship/refs/heads/main/authentication/uship-authentication.yml
 summary_line: oauth2/apiKey · 2 schemes
 tags:
-- shipping
-- logistics
-- freight
-- marketplace
-- transportation
+- Shipping
+- Logistics
+- Freight
+- Marketplace
+- Transportation
 - auto-transport
 - ltl-freight
-- last-mile-delivery
-- shipment-tracking
-- ecommerce
-- supply-chain
+- Last Mile Delivery
+- Shipment Tracking
+- E-Commerce
+- Supply Chain
 - rate-quotes
 ---

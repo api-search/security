@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/authentication/bigml-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Predictions
 - Datasets

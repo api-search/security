@@ -61,7 +61,7 @@ tags:
 - Exchange
 - Trading
 - Market Data
-- Financial Services
+- Financial-Services
 - WebSocket
 - Custody
 - Staking

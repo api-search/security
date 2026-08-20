@@ -54,9 +54,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Commerce
 - Headless
-- eCommerce
+- E-Commerce
 - GraphQL
-- Open Source
+- Open-Source
 - Python
 - TypeScript
 ---

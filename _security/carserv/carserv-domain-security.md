@@ -34,7 +34,7 @@ tags:
 - Shop Management
 - Vehicle Inspection
 - Field Service
-- SaaS
-- JSON API
+- Software-as-a-Service
+- JSON:API
 - Defunct
 ---

@@ -49,11 +49,11 @@ summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company
 - Shopping
-- Ecommerce
+- E-Commerce
 - Retail
 - Commerce
 - Agent Commerce
 - MCP
 - Shopify
-- AI
+- Artificial Intelligence
 ---

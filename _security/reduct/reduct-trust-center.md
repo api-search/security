@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reduct/refs/he
 summary_line: SOC 2 Type II, GDPR, HIPAA
 tags:
 - Company
-- Applications
+- Application
 - Video
 - Transcription
 - Translation

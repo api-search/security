@@ -71,7 +71,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/
 summary_line: http · 5 schemes
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Route Optimization
 - Vehicle Routing
 - Last Mile Delivery

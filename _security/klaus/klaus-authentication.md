@@ -47,11 +47,11 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Quality Assurance
-- Customer Support
+- Customer-Support
 - Customer Experience
 - Conversation Analytics
 - Contact Center
 - Coaching
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 ---

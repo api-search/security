@@ -34,7 +34,7 @@ tags:
 - Health
 - Healthcare
 - Digital Health
-- Real World Data
+- Real-World Data
 - Clinical Research
 - Wearables
 - Patient Engagement

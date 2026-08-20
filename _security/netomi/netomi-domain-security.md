@@ -53,12 +53,12 @@ tags:
 - Agentic AI
 - Customer Experience
 - Customer Service
-- Customer Support
+- Customer-Support
 - Conversational AI
 - Chatbots
 - Chat
 - Voice
 - Telephony
-- SDKs
+- SDK
 - Mobile
 ---

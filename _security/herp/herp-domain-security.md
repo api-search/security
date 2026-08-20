@@ -36,6 +36,6 @@ tags:
 - Applicant Tracking
 - ATS
 - Human Resources
-- SaaS
+- Software-as-a-Service
 - Japan
 ---

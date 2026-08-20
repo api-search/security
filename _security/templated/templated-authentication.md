@@ -41,7 +41,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/template
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/templated/refs/heads/main/authentication/templated-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Image Generation
+- Image-Generation
 - PDF Generation
 - Templates
 - Rendering

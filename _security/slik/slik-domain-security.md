@@ -35,6 +35,6 @@ tags:
 - Performance Management
 - OKRs
 - Employee Wellbeing
-- SaaS
+- Software-as-a-Service
 - Latin America
 ---

@@ -32,11 +32,11 @@ tags:
 - Company
 - Artificial Intelligence
 - Investment Banking
-- Financial Services
+- Financial-Services
 - Fintech
 - Mergers and Acquisitions
 - Deal Execution
 - Compliance
-- SaaS
+- Software-as-a-Service
 - Y Combinator
 ---

@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rent-manager/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - Property Management
-- Real Estate
+- Real-Estate
 - Tenants
 - Leases
 - Work Orders

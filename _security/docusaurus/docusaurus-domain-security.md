@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docusaurus/ref
 summary_line: TLSv1.3
 tags:
 - Documentation
-- Open Source
+- Open-Source
 - React
 - Static Site Generator
 - Developer Portals

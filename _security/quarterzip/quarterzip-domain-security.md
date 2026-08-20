@@ -38,12 +38,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - AI Agents
-- Customer Support
+- Customer-Support
 - Onboarding
 - User Activation
 - Screen Sharing
 - Voice
-- Webhooks
+- Webhook
 - SDK
 - Developer Tools
 ---

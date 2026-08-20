@@ -38,7 +38,7 @@ tags:
 - Company
 - Health
 - Healthcare
-- HealthTech
+- Health Tech
 - Diagnostics
 - Laboratory
 - Medical Testing

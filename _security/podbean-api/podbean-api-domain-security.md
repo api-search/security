@@ -77,6 +77,6 @@ tags:
 - Podcasting
 - Audio
 - Media
-- OAuth
+- Authentication
 - Episodes
 ---

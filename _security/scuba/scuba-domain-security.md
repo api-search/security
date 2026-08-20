@@ -36,7 +36,7 @@ tags:
 - Customer Analytics
 - Event Data
 - Product Analytics
-- AI
+- Artificial Intelligence
 - Agent Governance
 - Observability
 - Data

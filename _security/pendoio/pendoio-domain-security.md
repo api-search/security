@@ -146,5 +146,5 @@ tags:
 - User Analytics
 - In-App Guidance
 - Customer Feedback
-- SaaS
+- Software-as-a-Service
 ---

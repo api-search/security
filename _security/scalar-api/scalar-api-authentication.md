@@ -44,7 +44,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - API Documentation
 - API Client
-- Open Source
+- Open-Source
 - Developer Tools
 - API Reference
 - OpenAPI

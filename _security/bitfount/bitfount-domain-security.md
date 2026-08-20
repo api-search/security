@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Federated Learning
-- Machine Learning
+- Machine-Learning
 - Data Science
 - Privacy
 - Artificial Intelligence

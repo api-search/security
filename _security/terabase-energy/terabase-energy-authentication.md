@@ -219,16 +219,16 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: openapi/terabas
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/authentication/terabase-energy-authentication.yml
 summary_line: oauth2/http/apiKey · 4 schemes
 tags:
-- solar
-- renewable-energy
-- energy-modeling
+- Solar
+- Renewable Energy
+- Energy Modeling
 - utility-scale-solar
-- simulation
-- photovoltaics
-- construction-technology
-- geospatial
+- Simulation
+- Photovoltaics
+- Construction Technology
+- Geospatial
 - terrain-analysis
-- climate-tech
-- mcp
-- energy-storage
+- Climate Tech
+- MCP
+- Energy Storage
 ---

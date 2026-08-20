@@ -36,7 +36,7 @@ tags:
 - Artificial Intelligence
 - Adaptive Learning
 - K-12
-- eLearning
+- E-Learning
 - Personalization
 - AI Tutor
 ---

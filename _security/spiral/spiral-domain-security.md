@@ -36,6 +36,6 @@ tags:
 - Data Infrastructure
 - Columnar Format
 - Multimodal AI
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 ---

@@ -76,7 +76,7 @@ tags:
 - Fashion
 - Wholesale
 - Retail
-- eCommerce
+- E-Commerce
 - B2B
 - Marketplace
 - Payments

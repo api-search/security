@@ -53,5 +53,5 @@ tags:
 - Data Subject Rights
 - Legal
 - Privacy
-- Regulation
+- Regulations
 ---

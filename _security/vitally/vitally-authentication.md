@@ -90,7 +90,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Customer Success
-- SaaS
+- Software-as-a-Service
 - CRM
 - NPS
 - Surveys

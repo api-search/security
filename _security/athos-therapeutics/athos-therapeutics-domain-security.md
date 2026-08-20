@@ -35,7 +35,7 @@ tags:
 - Life Sciences
 - Drug Discovery
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Genomics
 - Precision Medicine
 - Health

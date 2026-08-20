@@ -74,7 +74,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/h
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Analytics
 - CRM
 - Email Marketing

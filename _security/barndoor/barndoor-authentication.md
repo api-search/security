@@ -78,9 +78,8 @@ tags:
 - AI Governance
 - Agentic AI
 - MCP
-- Model Context Protocol
 - Policy Enforcement
-- OAuth
+- Authentication
 - Identity
 - Security
 - Audit

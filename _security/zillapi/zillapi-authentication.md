@@ -115,15 +115,15 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: openapi/zillapi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/authentication/zillapi-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- real estate
-- proptech
-- property data
-- zillow
-- zestimate
-- valuation
+- Real-Estate
+- PropTech
+- Property Data
+- Zillow
+- Zestimate
+- Valuation
 - AVM
-- listings
+- Listings
 - MCP
-- AI agent
+- AI Agent
 - REST API
 ---

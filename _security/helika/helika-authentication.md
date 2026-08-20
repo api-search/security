@@ -44,8 +44,8 @@ tags:
 - Analytics
 - Game Analytics
 - Web3
-- Events
-- AI
+- Event
+- Artificial Intelligence
 - SDK
 - Player Data
 ---

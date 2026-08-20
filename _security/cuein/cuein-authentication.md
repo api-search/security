@@ -45,7 +45,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Customer Experience
-- Customer Support
+- Customer-Support
 - Conversation Intelligence
 - Generative AI
 - Insights

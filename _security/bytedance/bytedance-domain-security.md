@@ -32,10 +32,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Consumer Internet
-- Social Media
+- Social-Media
 - Video
 - Artificial Intelligence
 - Content Platforms
 - Cloud
-- Open Source
+- Open-Source
 ---

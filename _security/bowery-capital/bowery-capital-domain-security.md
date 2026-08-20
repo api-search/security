@@ -36,7 +36,7 @@ tags:
 - Seed
 - Pre-Seed
 - B2B
-- SaaS
+- Software-as-a-Service
 - Marketplaces
 - Vertical AI
 ---

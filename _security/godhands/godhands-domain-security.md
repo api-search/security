@@ -42,7 +42,7 @@ tags:
 - Computer Use
 - Desktop Automation
 - Robotic Process Automation
-- Workflow Automation
+- Workflow-Automation
 - Automation Infrastructure
 - Agent Runtime
 - Y Combinator

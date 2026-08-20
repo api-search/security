@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: openapi/hm-land
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/authentication/hm-land-registry-authentication.yml
 summary_line: http/apiKey/none · 5 schemes
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Land Registry
 - Open Data

@@ -103,8 +103,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - iPaaS
 - Integration
-- Unified API
+- Unified-API
 - Embedded
-- SaaS
+- Software-as-a-Service
 - Automation
 ---

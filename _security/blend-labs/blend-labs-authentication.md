@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blend-labs/ref
 summary_line: oauth2/http-bearer/http-basic · 3 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Mortgage
 - Lending
 - Banking

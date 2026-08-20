@@ -37,9 +37,9 @@ tags:
 - Digital Business Cards
 - Marketing
 - Analytics
-- SaaS
+- Software-as-a-Service
 - Proximity
-- Webhooks
+- Webhook
 - MCP
 trust_url: https://trust.uniqode.com/
 ---

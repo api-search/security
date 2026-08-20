@@ -40,5 +40,5 @@ tags:
 - CI/CD
 - Deployment
 - Kubernetes
-- Model Context Protocol
+- MCP
 ---

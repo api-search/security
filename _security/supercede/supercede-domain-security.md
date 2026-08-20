@@ -32,7 +32,7 @@ tags:
 - Company
 - Reinsurance
 - Insurance
-- InsurTech
+- Insurtech
 - Data
 - Analytics
 - Artificial Intelligence

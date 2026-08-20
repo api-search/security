@@ -51,12 +51,12 @@ tags:
 - Payments
 - Brazil
 - Invoicing
-- Subscriptions
+- Subscription
 - Boleto
 - Pix
 - Credit Card
 - Marketplace
 - Split Payments
 - Financial Infrastructure
-- FinTech
+- Fintech
 ---

@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ndata/refs/hea
 summary_line: TLSv1.2 · DNSSEC
 tags:
 - Company
-- Pharmaceutical
+- Pharmaceuticals
 - Regulatory Affairs
 - Quality Management
 - Compliance

@@ -33,6 +33,6 @@ tags:
 - Recreation
 - Availability
 - Alerts
-- Webhooks
+- Webhook
 - Reservations
 ---

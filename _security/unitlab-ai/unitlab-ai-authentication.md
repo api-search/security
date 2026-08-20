@@ -45,8 +45,8 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Data Annotation
-- Machine Learning
-- Computer Vision
+- Machine-Learning
+- Computer-Vision
 - Datasets
 - Artificial Intelligence
 - Labeling

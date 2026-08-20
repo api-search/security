@@ -32,6 +32,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Retail
 - Department Store
-- Ecommerce
+- E-Commerce
 - Fortune 500
 ---

@@ -213,7 +213,7 @@ summary_line: http/apiKey/openIdConnect · 6 schemes
 tags:
 - Company
 - Data Science
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Package Management
 - Python

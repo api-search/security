@@ -61,10 +61,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/urbanpip
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urbanpiper/refs/heads/main/authentication/urbanpiper-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Restaurants
+- Restaurant
 - Food Delivery
 - Ordering
-- POS
+- Point-of-Sale
 - Aggregators
 - Commerce
 ---

@@ -46,10 +46,10 @@ tags:
 - Artificial Intelligence
 - Generative AI
 - Video Generation
-- Image Generation
+- Image-Generation
 - Audio Generation
-- Text to Speech
+- Text-to-Speech
 - Avatars
 - Media
-- Machine Learning
+- Machine-Learning
 ---

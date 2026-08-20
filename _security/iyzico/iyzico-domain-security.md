@@ -49,11 +49,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Payments
-- FinTech
+- Fintech
 - Payment Gateway
 - Card Payments
 - Checkout
-- Subscriptions
+- Subscription
 - Marketplace
 - Turkey
 - 3D Secure

@@ -80,12 +80,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/security/lambda-labs-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017
 tags:
-- AI
+- Artificial Intelligence
 - Cloud
-- Clusters
+- Cluster
 - Compute
 - GPU
 - Inference
-- Machine Learning
+- Machine-Learning
 trust_url: https://trust.lambda.ai/
 ---

@@ -102,6 +102,6 @@ tags:
 - Advertising
 - Retail
 - Reporting
-- Products
-- eCommerce
+- Product
+- E-Commerce
 ---

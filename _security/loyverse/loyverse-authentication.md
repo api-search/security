@@ -144,8 +144,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/loyverse
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/authentication/loyverse-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- Point of Sale
-- POS
+- Point-of-Sale
 - Retail
 - Inventory
 - Cafe and Restaurant

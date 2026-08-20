@@ -52,8 +52,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elium/refs/hea
 summary_line: oauth2 · 1 scheme
 tags:
 - Company
-- SaaS
-- Knowledge Management
+- Software-as-a-Service
+- Knowledge-Management
 - Knowledge Base
 - Enterprise Search
 - AI Search

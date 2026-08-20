@@ -36,7 +36,7 @@ tags:
 - Social
 - Discovery
 - Local
-- Restaurants
+- Restaurant
 - User Generated Content
 - AI Training Data
 ---

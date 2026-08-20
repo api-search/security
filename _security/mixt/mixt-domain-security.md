@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Restaurant
-- Food & Beverage
+- Food and Beverage
 - Salad
 - Catering
 - Sustainable Food

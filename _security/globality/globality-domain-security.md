@@ -39,5 +39,5 @@ tags:
 - Sourcing
 - Spend Management
 - Artificial Intelligence
-- Webhooks
+- Webhook
 ---

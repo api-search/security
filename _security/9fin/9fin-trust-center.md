@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/9fin/refs/head
 summary_line: SOC 2 Type II, NIST CSF, GDPR
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fixed Income
 - Credit Intelligence
 - Leveraged Finance

@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/view/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Proptech
+- PropTech
 - Smart Glass
 - Smart Buildings
 - IoT
 - Electrochromic
 - Building Automation
-- Real Estate
+- Real-Estate
 ---

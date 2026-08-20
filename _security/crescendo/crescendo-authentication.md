@@ -70,7 +70,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Company
 - Customer Experience
-- Customer Support
+- Customer-Support
 - Artificial Intelligence
 - AI Agents
 - Contact Center

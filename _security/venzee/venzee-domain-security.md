@@ -49,9 +49,8 @@ tags:
 - Company
 - Product Information Management
 - PIM
-- Ecommerce
+- E-Commerce
 - Product Data Syndication
 - Retail
 - Catalog Management
-- API
 ---

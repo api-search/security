@@ -24,13 +24,12 @@ summary_line: SOC 1 Type 2, SOC 2 Type 2, ISO 27001, ISO 27701, PCI DSS
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Property and Casualty
 - Cloud
 - Policy Administration
 - Claims Management
 - Billing
-- APIs
 - Integration
 trust_url: https://public-profile.whistic.com/55ebe1b8-59fd-47a0-a2a2-6c5c830b2245
 ---

@@ -95,12 +95,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/h
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Vector Database
-- Multimodal
+- Multi-Modal
 - Lance Format
 - Lakehouse
 - RAG
 - Agent Memory
-- Open Source
+- Open-Source
 - Embeddings
 - Full-Text Search
 - Hybrid Search

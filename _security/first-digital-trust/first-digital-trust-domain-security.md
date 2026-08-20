@@ -39,7 +39,7 @@ tags:
 - Digital Assets
 - Custody
 - Trust Services
-- Financial Services
+- Financial-Services
 - Banking
 - Payments
 - Compliance

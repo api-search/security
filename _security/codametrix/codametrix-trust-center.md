@@ -54,16 +54,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codametrix/ref
 summary_line: SOC 2, SOC 2 Type 2, ISO 27001, HIPAA
 tags:
 - Company
-- healthcare
-- health-systems
-- medical-coding
-- autonomous-coding
-- revenue-cycle-management
-- clinical-documentation
-- healthcare-ai
-- machine-learning
-- natural-language-processing
-- ehr-integration
-- status
+- Healthcare
+- Health Systems
+- Medical Coding
+- Autonomous Coding
+- Revenue Cycle Management
+- Clinical Documentation
+- Healthcare AI
+- Machine-Learning
+- Natural Language Processing
+- EHR Integration
+- Status
 trust_url: https://trust.codametrix.com/
 ---

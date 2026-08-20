@@ -82,7 +82,7 @@ summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Company
 - Brand Management
-- Image Generation
+- Image-Generation
 - Artificial Intelligence
 - Agents
 - MCP

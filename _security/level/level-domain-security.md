@@ -34,7 +34,7 @@ tags:
 - Stablecoins
 - DeFi
 - Cryptocurrency
-- Financial Services
+- Financial-Services
 - Blockchain
 - Ethereum
 - Smart Contracts

@@ -49,16 +49,16 @@ source_yaml: "generated: '2026-08-01'\nmethod: searched\nsource: https://web.arc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/authentication/nowsta-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- workforce-management
+- Workforce Management
 - staff-scheduling
 - shift-scheduling
-- time-and-attendance
-- hourly-workforce
+- Time and Attendance
+- Hourly Workforce
 - gig-work
 - event-staffing
-- hospitality
+- Hospitality
 - staffing-agency
-- vendor-management
-- payroll
-- human-resources
+- Vendor Management
+- Payroll
+- Human Resources
 ---

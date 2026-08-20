@@ -34,7 +34,7 @@ tags:
 - DeFi
 - Yield
 - Fixed Income
-- Vaults
+- Vault
 - Ethereum
 - Smart Contracts
 - Governance

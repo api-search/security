@@ -36,5 +36,5 @@ tags:
 - Hotels
 - Booking
 - Brazil
-- E-commerce
+- E-Commerce
 ---

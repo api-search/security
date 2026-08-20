@@ -118,18 +118,18 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: openapi/0g-labs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/authentication/0g-labs-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- artificial-intelligence
-- ai-inference
-- llm
-- gpu-compute
-- decentralized-compute
-- blockchain
-- web3
-- evm
-- decentralized-storage
-- data-availability
-- openai-compatible
-- trusted-execution-environment
+- Artificial Intelligence
+- AI Inference
+- LLM
+- GPU Compute
+- Decentralized Compute
+- Blockchain
+- Web3
+- EVM
+- Decentralized Storage
+- Data Availability
+- OpenAI-Compatible
+- Trusted Execution Environment
 - agent-native
-- crypto-infrastructure
+- Crypto Infrastructure
 ---

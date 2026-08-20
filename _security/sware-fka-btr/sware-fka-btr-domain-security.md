@@ -38,6 +38,6 @@ tags:
 - Compliance
 - Quality Assurance
 - Regulatory
-- Pharmaceutical
+- Pharmaceuticals
 - Artificial Intelligence
 ---

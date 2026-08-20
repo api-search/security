@@ -54,8 +54,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/appwrite
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appwrite/refs/heads/main/authentication/appwrite-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Applications
-- Backends
+- Application
+- Backend
 - Mobile
-- Open Source
+- Open-Source
 ---

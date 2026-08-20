@@ -54,15 +54,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/klavis/refs/he
 summary_line: http · 1 scheme
 tags:
 - MCP
-- Model Context Protocol
 - MCP Servers
 - MCP Hosting
 - Connectors
-- OAuth
+- Authentication
 - Sandboxes
 - Agent Training
 - Reinforcement Learning
 - White Label
-- Open Source
+- Open-Source
 - Strata
 ---

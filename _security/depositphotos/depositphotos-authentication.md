@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/depositphotos/
 summary_line: apiKey · 2 schemes
 tags:
 - Stock Photos
-- Images
+- Image
 - Videos
 - Vectors
 - Media

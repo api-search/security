@@ -472,7 +472,7 @@ tags:
 - Security
 - DevOps
 - Developer Tools
-- Open Source
+- Open-Source
 - PKI
 - Certificates
 - Privileged Access Management

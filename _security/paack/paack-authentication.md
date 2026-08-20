@@ -53,7 +53,7 @@ tags:
 - Logistics
 - Last Mile Delivery
 - Parcel Delivery
-- E-commerce
+- E-Commerce
 - Shipping
 - Fulfillment
 - Tracking

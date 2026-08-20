@@ -64,8 +64,8 @@ tags:
 - Real-Time Collaboration
 - Comments
 - Presence
-- Notifications
+- Notification
 - SDK
-- Webhooks
+- Webhook
 trust_url: https://trust.velt.dev/
 ---

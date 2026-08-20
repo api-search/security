@@ -155,7 +155,7 @@ summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:
 - Company
 - Data Science
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Package Management
 - Python

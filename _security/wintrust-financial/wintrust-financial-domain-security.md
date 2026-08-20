@@ -35,7 +35,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wintrust-finan
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - Treasury Management
 - Commercial Banking
 - Open Banking

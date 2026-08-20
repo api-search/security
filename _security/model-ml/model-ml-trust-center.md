@@ -22,7 +22,7 @@ tags:
 - Company
 - Fintech
 - Artificial Intelligence
-- Financial Services
+- Financial-Services
 - AI Agents
 - Investment Banking
 - Enterprise

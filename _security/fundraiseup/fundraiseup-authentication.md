@@ -61,7 +61,7 @@ summary_line: http · 1 scheme
 tags:
 - Fundraising
 - Donations
-- Nonprofit
+- Non-Profit
 - Payments
 - Recurring Giving
 - Donor Management

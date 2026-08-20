@@ -72,7 +72,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/re
 summary_line: http/grpc-metadata/saml · 3 schemes
 tags:
 - Company
-- RevOps
+- Revenue Operations
 - Marketing Operations
 - Observability
 - Monitoring
@@ -84,5 +84,5 @@ tags:
 - Salesforce
 - Marketo
 - gRPC
-- SaaS
+- Software-as-a-Service
 ---

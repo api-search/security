@@ -36,16 +36,16 @@ source_yaml: "generated: '2026-08-11'\nmethod: derived\nsource: openapi/cyble-od
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/authentication/cyble-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- threat-intelligence
-- cybersecurity
-- attack-surface-management
-- internet-scanning
-- dark-web-monitoring
-- vulnerability-management
-- cve
+- Threat Intelligence
+- Cybersecurity
+- Attack Surface Management
+- Internet Scanning
+- Dark Web Monitoring
+- Vulnerability Management
+- CVE
 - exposed-buckets
-- domain-intelligence
-- whois
-- osint
-- security
+- Domain Intelligence
+- WHOIS
+- OSINT
+- Security
 ---

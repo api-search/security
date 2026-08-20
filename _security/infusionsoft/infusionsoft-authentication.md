@@ -99,7 +99,7 @@ tags:
 - E-Commerce
 - Small Business
 - Contacts
-- Subscriptions
-- Webhooks
-- OAuth 2.0
+- Subscription
+- Webhook
+- Authentication
 ---

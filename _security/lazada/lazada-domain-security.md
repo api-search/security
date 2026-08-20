@@ -40,12 +40,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lazada/refs/heads/main/security/lazada-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- E-commerce
+- E-Commerce
 - Marketplace
 - Southeast Asia
 - Alibaba
-- Orders
-- Products
+- Order
+- Product
 - Logistics
 - Lazada
 ---

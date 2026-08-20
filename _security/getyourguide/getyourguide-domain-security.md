@@ -114,8 +114,8 @@ tags:
 - Tours and Activities
 - Marketplace
 - Booking
-- Experiences
-- Affiliate
+- Experience
+- Affiliates
 - Partner API
-- Ecommerce
+- E-Commerce
 ---

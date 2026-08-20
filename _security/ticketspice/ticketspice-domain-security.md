@@ -115,7 +115,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Event Ticketing
 - Ticketing
-- Events
+- Event
 - Registration
 - Payments
 - Webconnex

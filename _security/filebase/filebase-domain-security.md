@@ -113,7 +113,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Object Storage
 - IPFS
-- S3-Compatible
+- S3 Compatible
 - Decentralized Storage
 - Pinning
 - Web3

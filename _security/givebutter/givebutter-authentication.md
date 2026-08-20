@@ -86,5 +86,5 @@ summary_line: http · 1 scheme
 tags:
 - Donations
 - Fundraising
-- Nonprofits
+- Non-Profit
 ---

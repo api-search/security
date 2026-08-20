@@ -36,7 +36,7 @@ tags:
 - Cargo
 - Logistics
 - Air Freight
-- Middle-Mile
+- Middle Mile
 - Delivery
 - Aerospace
 - Deep Tech

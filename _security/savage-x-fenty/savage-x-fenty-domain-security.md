@@ -36,7 +36,7 @@ tags:
 - Apparel
 - Lingerie
 - Retail
-- E-commerce
+- E-Commerce
 - Direct to Consumer
 - Subscription
 ---

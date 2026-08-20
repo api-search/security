@@ -91,7 +91,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twenty-crm/ref
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - CRM
-- Open Source
+- Open-Source
 - Sales
 - GraphQL
 - REST

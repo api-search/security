@@ -71,10 +71,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/minimax-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/authentication/minimax-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
-- Multimodal
+- Multi-Modal
 - Voice
 - Video
 - Music

@@ -48,6 +48,6 @@ tags:
 - Data Lineage
 - GraphQL
 - REST
-- AI
+- Artificial Intelligence
 - Analytics
 ---

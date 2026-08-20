@@ -63,7 +63,7 @@ tags:
 - Marketplace
 - Tutors
 - EdTech
-- Affiliate
+- Affiliates
 - Partner API
 - Data Feed
 ---

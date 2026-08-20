@@ -32,9 +32,9 @@ tags:
 - Company
 - Construction
 - Housing
-- Real Estate
+- Real-Estate
 - ADU
 - Prefabrication
 - Backyard Homes
-- Home Building
+- Homebuilding
 ---

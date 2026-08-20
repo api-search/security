@@ -36,16 +36,16 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sniffcat/refs/heads/main/security/sniffcat-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- threat-intelligence
-- ip-reputation
+- Threat Intelligence
+- IP Reputation
 - abuse-database
-- cybersecurity
-- osint
-- network-security
+- Cybersecurity
+- OSINT
+- Network Security
 - sysadmin-tools
-- blocklist
+- Blocklist
 - abuse-reporting
 - ip-blocklist
-- ip-intelligence
-- threat-feeds
+- IP Intelligence
+- Threat Feeds
 ---

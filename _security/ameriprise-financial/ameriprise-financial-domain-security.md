@@ -43,6 +43,6 @@ tags:
 - Insurance
 - Annuities
 - Investment Management
-- Financial Services
+- Financial-Services
 - Fortune 500
 ---

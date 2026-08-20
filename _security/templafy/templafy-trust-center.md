@@ -132,6 +132,6 @@ tags:
 - Document Automation
 - Productivity
 - Enterprise
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.templafy.com/home/platform/security/
 ---

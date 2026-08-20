@@ -34,7 +34,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Infrastructure Saas
-- Financial Services
+- Financial-Services
 - Market Data
 - FPGA
 - Low Latency

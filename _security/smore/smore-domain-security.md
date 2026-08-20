@@ -33,7 +33,7 @@ tags:
 - Education
 - EdTech
 - Newsletters
-- Communication
+- Communications
 - Family Engagement
 - Schools
 - Content Creation

@@ -88,13 +88,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/physna/refs/he
 summary_line: oauth2 · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - 3D
 - Geometric Search
 - Manufacturing
 - Engineering
-- Machine Learning
+- Machine-Learning
 - Search
-- Computer Vision
+- Computer-Vision
 - Product Development
 ---

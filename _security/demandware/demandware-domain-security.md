@@ -39,13 +39,13 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Commerce
-- E-commerce
+- E-Commerce
 - Retail
 - Commerce Cloud
 - Storefront
 - Shopper
 - Catalog
-- Orders
-- SaaS
+- Order
+- Software-as-a-Service
 - Salesforce
 ---

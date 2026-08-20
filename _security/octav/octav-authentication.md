@@ -123,5 +123,5 @@ tags:
 - Analytics
 - Web3
 - Financial Data
-- Wallet
+- Wallets
 ---

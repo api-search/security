@@ -50,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guildai/refs/h
 summary_line: http/apiKey/oauth2 · 3 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Agents
 - Agent Control Plane
 - Agent Runtime

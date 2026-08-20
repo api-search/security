@@ -1599,5 +1599,5 @@ tags:
 - ERP
 - Payments
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 ---

@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/first-national
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - Consumer Banking
 - Credit Cards
 - Commercial Banking

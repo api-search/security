@@ -111,5 +111,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/
 summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company
-- Open Source
+- Open-Source
 ---

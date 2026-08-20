@@ -1,0 +1,37 @@
+---
+api_key_in: []
+auth_types: []
+description: 'How access is obtained to the surfaces UC Berkeley itself operates. Berkeley runs a real, centrally governed API program, but it is an INTERNAL-FIRST program: the catalog is public and the contracts are not. There is no self-service public API key anywhere on the campus estate -- every credential path terminates in a CalNet identity and a named Data Owner''s approval.'
+kind: authentication
+layout: security
+method: searched
+name: Ucb Authentication
+name_suffix: Authentication
+oauth_flows: []
+overview: University of California, Berkeley declares 0 security scheme(s) across its OpenAPI definitions.
+provider_name: University of California, Berkeley
+provider_slug: ucb
+scheme_count: 0
+schemes: []
+slug: ucb-authentication
+source_filename: ucb-authentication.yml
+source_heading: Authentication Profile
+source_url: ''
+source_yaml: "specification: API Commons Authentication\nspecificationVersion: '0.1'\nprovider: University of California, Berkeley\nproviderId: ucb\ngenerated: '2026-08-19'\nmethod: searched\nsource: >-\n  https://developers.api.berkeley.edu/ , https://developers.api.berkeley.edu/apis ,\n  https://developers.api.berkeley.edu/terms_of_service ,\n  https://integration-services.berkeley.edu/api-management/api-gateway ,\n  https://shib.berkeley.edu/idp/shibboleth , https://mybrc.brc.berkeley.edu/api/\ncreated: '2026-08-19'\nmodified: '2026-08-19'\ndescription: >-\n  How access is obtained to the surfaces UC Berkeley itself operates. Berkeley runs a\n  real, centrally governed API program, but it is an INTERNAL-FIRST program: the\n  catalog is public and the contracts are not. There is no self-service public API key\n  anywhere on the campus estate -- every credential path terminates in a CalNet\n  identity and a named Data Owner's approval.\ntags:\n- Education\n- Higher Education\n- University\n\
+  - Authentication\n- SAML\n- Shibboleth\n- CAS\n\nmechanisms:\n\n- name: CalNet CAS single sign-on (API Central portal)\n  type: sso\n  protocol: CAS\n  x-operator: institution\n  applies_to: https://developers.api.berkeley.edu/\n  evidence:\n    url: https://developers.api.berkeley.edu/\n    status: 200\n    excerpt: >-\n      <a class=\"istapi-btn-primary\" rel=\"nofollow\" data-method=\"post\"\n      href=\"/auth/cas?url=https://developers.api.berkeley.edu/account\">CalNet Login</a>\n  self_service: false\n  notes: >-\n    The portal's browse and search surface is readable WITHOUT login -- the API list,\n    each API's description, its data-classification rating and its Data Owner contact\n    are public. Credentials, access plans and interactive documentation are behind CAS.\n\n- name: CalNet Shibboleth / SAML 2.0 federated identity\n  type: federated_identity\n  protocol: SAML 2.0\n  x-operator: institution\n  entity_id: urn:mace:incommon:berkeley.edu\n  metadata_url: https://shib.berkeley.edu/idp/shibboleth\n\
+  \  federation: InCommon (eduGAIN interfederation)\n  evidence:\n    url: https://shib.berkeley.edu/idp/shibboleth\n    status: 200\n    content_type: application/xml;charset=UTF-8\n  endpoints:\n    sso_post: https://shib.berkeley.edu/idp/profile/SAML2/POST/SSO\n    sso_redirect: https://shib.berkeley.edu/idp/profile/SAML2/Redirect/SSO\n    sso_post_simplesign: https://shib.berkeley.edu/idp/profile/SAML2/POST-SimpleSign/SSO\n    slo: https://shib.berkeley.edu/idp/logout\n    attribute_query_saml2: https://shib.berkeley.edu:8443/idp/profile/SAML2/SOAP/AttributeQuery\n  scope: berkeley.edu\n  self_service: false\n  notes: >-\n    This is the most consequential machine-readable artifact UC Berkeley publishes: a\n    complete, unauthenticated, machine-consumable description of how to federate with\n    the institution. It is institution-operated by definition and is the surface class\n    universities most reliably run and least reliably get catalogued for.\n\n- name: API Gateway credentials\
+  \ + access plan\n  type: api_key\n  x-operator: institution\n  applies_to: https://gateway.api.berkeley.edu/\n  self_service: false\n  approval_required: true\n  approver: Data Owner (via ServiceNow request)\n  evidence:\n  - url: https://gateway.api.berkeley.edu/\n    status: 200\n    excerpt: >-\n      It also centralizes functions common to all APIs, such load balancing,\n      authentication, authorization, and rate limiting.\n  - url: https://developers.api.berkeley.edu/terms_of_service\n    status: 200\n    excerpt: >-\n      API Central manages access to APIs through explicit plans. You must complete a\n      plan, and its appropriateness is your sole responsibility. An access plan adds an\n      additional layer of security on top of the security measures internal to [the API].\n  notes: >-\n    Every API page carries the line \"Credentials are required to access this API\"\n    together with a UC data-classification rating (P1/P2/P3, formerly DPL0/DPL1) and the\n    owning organization's\
+  \ email. Access is per-API and per-plan, not per-developer.\n\n- name: MyBRC session/token authentication\n  type: token\n  x-operator: institution\n  applies_to: https://mybrc.brc.berkeley.edu/api/\n  self_service: false\n  evidence:\n    url: https://mybrc.brc.berkeley.edu/api/\n    status: 401\n    content_type: application/json\n    body: '{\"detail\":\"Authentication credentials were not provided.\"}'\n  notes: >-\n    A live, JSON-speaking, Django-REST-Framework-shaped API for the Berkeley Research\n    Computing cluster access management system. It answers with a well-formed 401 rather\n    than a login redirect, which is why it is recorded as an API surface and not a web\n    page. No public schema is served at /api/schema/ or /api/docs/ (both 404).\n\n- name: Anonymous read (no authentication)\n  type: none\n  x-operator: institution\n  applies_to:\n  - https://geodata.lib.berkeley.edu/catalog.json\n  - https://developers.api.berkeley.edu/apis\n  evidence:\n  - url: https://geodata.lib.berkeley.edu/catalog.json?q=water\n\
+  \    status: 200\n    content_type: application/json; charset=utf-8\n    note: 5156 records returned across 516 pages, no credential presented.\n  notes: >-\n    The library's GeoData (GeoBlacklight) JSON interface is the only Berkeley-operated\n    API that returns institutional data to an anonymous caller.\n\n- name: Anonymous read (tenant surfaces)\n  type: none\n  x-operator: tenant\n  applies_to:\n  - https://digicoll.lib.berkeley.edu/oai2d\n  - https://escholarship.org/oai\n  notes: >-\n    Both OAI-PMH endpoints harvest without credentials. Neither contract is Berkeley's:\n    digicoll runs on TIND, eScholarship is a California Digital Library service for the\n    whole UC system.\n\nabsent:\n- oauth2: >-\n    No OAuth 2.0 authorization server, no /.well-known/oauth-authorization-server and no\n    /.well-known/openid-configuration found on any public Berkeley API host.\n- self_service_signup: >-\n    developers.api.berkeley.edu/signup exists but issues a sponsored-guest CalNet\n\
+  \    identity request, not an API key.\n- security_txt: >-\n    https://www.berkeley.edu/.well-known/security.txt returns 404. A security program\n    exists at https://security.berkeley.edu/ but is not machine-discoverable.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ucb/refs/heads/main/authentication/ucb-authentication.yml
+summary_line: 0 schemes
+tags:
+- Education
+- Higher Education
+- University
+- Authentication
+- SAML
+- Shibboleth
+- CAS
+---

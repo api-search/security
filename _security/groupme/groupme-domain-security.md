@@ -40,6 +40,6 @@ tags:
 - Chat
 - Bots
 - Group Messaging
-- Communication
+- Communications
 - Social
 ---

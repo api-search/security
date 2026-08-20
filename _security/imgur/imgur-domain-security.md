@@ -104,7 +104,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imgur/refs/hea
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Photography
-- Images
+- Image
 - Image Hosting
 - Albums
 - Gallery

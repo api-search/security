@@ -40,7 +40,7 @@ tags:
 - Estate Planning
 - Wealth Management
 - Financial Advisors
-- FinTech
+- Fintech
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 ---

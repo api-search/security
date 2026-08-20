@@ -145,15 +145,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/passivelogic/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- digital-twin
-- building-automation
-- hvac
-- smart-buildings
-- autonomous-systems
-- graphql
-- ontology
-- iot
-- edge-computing
-- physical-ai
-- energy
+- Digital Twin
+- Building Automation
+- HVAC
+- Smart Buildings
+- Autonomous Systems
+- GraphQL
+- Ontology
+- IoT
+- Edge Computing
+- Physical AI
+- Energy
 ---

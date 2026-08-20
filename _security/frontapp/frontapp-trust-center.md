@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/
 summary_line: SOC 2 Type II, ISO 27001, GDPR
 tags:
 - Company
-- Communication
+- Communications
 - Customer Service
 - Shared Inbox
 - Email

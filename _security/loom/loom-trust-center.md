@@ -20,7 +20,7 @@ tags:
 - Productivity
 - Video
 - Async
-- Communication
-- SaaS
+- Communications
+- Software-as-a-Service
 trust_url: https://www.atlassian.com/legal/security-measures
 ---

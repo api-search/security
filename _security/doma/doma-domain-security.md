@@ -34,7 +34,7 @@ tags:
 - Title Insurance
 - Mortgage
 - Real Estate Technology
-- Proptech
+- PropTech
 - Fintech
 - Closing
 - Artificial Intelligence

@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Marketplace
-- Real Estate
+- Real-Estate
 - PropTech
 - Property
 - Brokerage

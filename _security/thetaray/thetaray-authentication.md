@@ -51,17 +51,17 @@ source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: https://api.theta
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thetaray/refs/heads/main/authentication/thetaray-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- anti-money-laundering
-- financial-crime
-- transaction-monitoring
-- sanctions-screening
-- kyc
-- regtech
-- risk-assessment
-- artificial-intelligence
-- banking
-- fintech
-- payments
-- compliance
-- mcp
+- Anti-Money Laundering
+- Financial Crime
+- Transaction Monitoring
+- Sanctions Screening
+- KYC
+- RegTech
+- Risk Assessment
+- Artificial Intelligence
+- Banking
+- Fintech
+- Payments
+- Compliance
+- MCP
 ---

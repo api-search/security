@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bureau-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/authentication/bureau-of-consular-affairs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Federal Government
+- Federal-Government
 - Passports
 - Travel
 - Travel Advisories

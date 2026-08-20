@@ -66,9 +66,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/hea
 summary_line: trust center published
 tags:
 - Company
-- Ai/Ml
+- Ai Ml
 - MCP
-- Model Context Protocol
 - Cloud Platform
 - Developer Tools
 - Deployment

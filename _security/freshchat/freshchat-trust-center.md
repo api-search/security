@@ -100,7 +100,7 @@ summary_line: SOC 2, ISO 27001, CSA STAR
 tags:
 - Customer Messaging
 - Live Chat
-- Customer Support
+- Customer-Support
 - Conversational Engagement
 - Omnichannel Messaging
 - Chatbots

@@ -34,7 +34,7 @@ tags:
 - Memecoin
 - Launchpad
 - AMM
-- Livestreaming
+- Live Streaming
 - DeFi
 - Crypto
 ---

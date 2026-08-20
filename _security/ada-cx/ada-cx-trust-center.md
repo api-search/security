@@ -31,7 +31,7 @@ tags:
 - Chatbots
 - Conversational AI
 - Customer Service
-- Customer Support
+- Customer-Support
 - CX
 - Generative AI
 - Knowledge

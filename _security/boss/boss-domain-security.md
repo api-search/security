@@ -32,7 +32,7 @@ tags:
 - Technology
 - Recruitment
 - Human Resources
-- Jobs
+- Job
 - Hiring
 - Talent
 - Marketplace

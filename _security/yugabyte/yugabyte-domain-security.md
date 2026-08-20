@@ -102,8 +102,8 @@ tags:
 - Distributed SQL
 - PostgreSQL
 - Cloud
-- DBaaS
-- Open Source
+- Database-as-a-Service
+- Open-Source
 - SQL
 - Data
 - Infrastructure

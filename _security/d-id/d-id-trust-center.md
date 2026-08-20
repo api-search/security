@@ -85,7 +85,7 @@ tags:
 - Generative AI
 - Video Generation
 - Real-Time Streaming
-- Text to Video
+- Text-to-Video
 - Video Translation
 - Voice Cloning
 trust_url: https://www.d-id.com/security-and-privacy-compliance/

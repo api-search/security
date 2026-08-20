@@ -99,13 +99,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/security/bscscan-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
-- blockchain
-- block-explorer
+- Blockchain
+- Block Explorer
 - BNB Smart Chain
 - BSC
 - BEP-20
-- transactions
-- smart-contracts
+- Transaction
+- Smart Contracts
 - DeFi
 - EVM
 ---

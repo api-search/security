@@ -35,6 +35,6 @@ tags:
 - Food and Beverage
 - Consumer Packaged Goods
 - Plant-Based
-- Direct-to-Consumer
+- Direct to Consumer
 - E-Commerce
 ---

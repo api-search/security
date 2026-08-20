@@ -61,13 +61,13 @@ summary_line: http · 1 scheme
 tags:
 - Accounting
 - Commercial Real Estate
-- Coworking
+- Co-Working
 - Investment Management
 - MCP
 - Multifamily
 - Property Management
 - PropTech
-- Real Estate
+- Real-Estate
 - Residential
 - Self Storage
 - Senior Living

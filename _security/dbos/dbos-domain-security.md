@@ -40,5 +40,5 @@ tags:
 - Postgres
 - Queues
 - Scheduled Jobs
-- Workflow
+- Workflows
 ---

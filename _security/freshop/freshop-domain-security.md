@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Grocery
-- eCommerce
+- E-Commerce
 - Retail
 - Online Shopping
 - Fulfillment

@@ -50,5 +50,5 @@ tags:
 - Metadata Management
 - Data Trust
 - Data Products
-- Model Context Protocol
+- MCP
 ---

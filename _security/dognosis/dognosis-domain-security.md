@@ -36,5 +36,5 @@ tags:
 - Cancer Detection
 - Breath Analysis
 - Olfaction AI
-- Deeptech
+- Deep Tech
 ---

@@ -23,7 +23,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gloat/refs/hea
 summary_line: SOC 2 Type II, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, GDPR, CSA / Cloud Controls Matrix (CCM)
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Human Resources
 - Talent Marketplace
 - Skills

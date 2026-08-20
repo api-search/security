@@ -28,7 +28,7 @@ summary_line: DNSSEC · DMARC
 tags:
 - Company
 - Stock Exchange
-- Financial Services
+- Financial-Services
 - Market Data
 - Capital Markets
 - Trading

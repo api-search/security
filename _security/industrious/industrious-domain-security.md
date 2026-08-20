@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Flex Office
-- Coworking
+- Co-Working
 - Workspace
 - Commercial Real Estate
 - Office Space

@@ -31,7 +31,7 @@ tags:
 - Artificial Intelligence
 - Health
 - Digital Health
-- Machine Learning
+- Machine-Learning
 - Tokens
 - Defunct
 - Acquired

@@ -33,7 +33,7 @@ tags:
 - Company
 - Fintech
 - Cryptocurrency
-- Wallet
+- Wallets
 - Blockchain
 - Starknet
 - Ethereum

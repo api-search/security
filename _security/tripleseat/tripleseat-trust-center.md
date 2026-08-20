@@ -62,10 +62,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tripleseat/ref
 summary_line: SOC 2, ISO 27001
 tags:
 - Restaurant
-- Events
+- Event
 - Catering
 - Leads
-- Webhooks
+- Webhook
 - Sales
 trust_url: https://trust.tripleseat.com/
 ---

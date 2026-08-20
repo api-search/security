@@ -35,7 +35,7 @@ tags:
 - Comparison
 - AI Agents
 - Auto
-- Home
+- Homes
 - Renters
 - ChatGPT App
 - Voice

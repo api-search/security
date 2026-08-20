@@ -53,14 +53,14 @@ tags:
 - Super App
 - Nigeria
 - Africa
-- Wallet
+- Wallets
 - Savings
 - BNPL
 - Bank Transfer
 - Card Payments
 - USSD
 - Agent Banking
-- POS
+- Point-of-Sale
 - Bill Payments
 - Airtime
 - Cashier

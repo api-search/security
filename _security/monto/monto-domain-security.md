@@ -40,7 +40,7 @@ tags:
 - B2B Payments
 - Accounts Payable
 - Invoicing
-- Collections
+- Collection
 - Supplier Portals
 - ERP Integration
 ---

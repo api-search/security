@@ -32,7 +32,7 @@ tags:
 - Company
 - B2B
 - Wholesale
-- eCommerce
+- E-Commerce
 - Order Management
 - Inventory Management
 - Invoicing

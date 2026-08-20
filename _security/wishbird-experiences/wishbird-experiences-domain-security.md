@@ -29,10 +29,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wishbird-exper
 summary_line: TLSv1.3
 tags:
 - Company
-- Experiences
+- Experience
 - Gifting
 - Marketplace
-- Ecommerce
+- E-Commerce
 - Travel
 - Mexico
 ---

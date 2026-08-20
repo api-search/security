@@ -38,9 +38,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Fintech
-- Real Estate
+- Real-Estate
 - Lending
 - Mortgage
-- Financial Services
-- Proptech
+- Financial-Services
+- PropTech
 ---

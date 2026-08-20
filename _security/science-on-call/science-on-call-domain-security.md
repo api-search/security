@@ -31,10 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/science-on-cal
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Restaurants
+- Restaurant
 - Technology Support
-- Point of Sale
+- Point-of-Sale
 - Artificial Intelligence
 - Hospitality
-- Managed Services
+- Managed Service
 ---

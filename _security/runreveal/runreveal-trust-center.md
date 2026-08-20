@@ -28,6 +28,6 @@ tags:
 - Observability
 - SQL
 - MCP
-- AI
+- Artificial Intelligence
 trust_url: https://runreveal.com/security
 ---

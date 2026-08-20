@@ -29,6 +29,6 @@ tags:
 - Customer Experience
 - Salesforce
 - Enterprise Services
-- Managed Services
+- Managed Service
 trust_url: https://trust.gruve.ai/
 ---

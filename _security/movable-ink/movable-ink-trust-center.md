@@ -34,6 +34,6 @@ tags:
 - Artificial Intelligence
 - Advertising Technology
 - Content
-- Events
+- Event
 trust_url: https://trust.movableink.com/
 ---

@@ -25,7 +25,7 @@ tags:
 - Process Mining
 - Observability
 - Compliance
-- Workflow Automation
+- Workflow-Automation
 - DevOps
 trust_url: https://www.bloomfilter.ai/
 ---

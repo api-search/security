@@ -147,8 +147,8 @@ tags:
 - Payment Processing
 - Card Acquiring
 - Online Payments
-- Point of Sale
-- E-commerce
+- Point-of-Sale
+- E-Commerce
 - Fintech
 - Merchant Services
 - Europe

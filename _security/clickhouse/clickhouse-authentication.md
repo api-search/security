@@ -65,7 +65,7 @@ tags:
 - Column-Oriented
 - Database
 - OLAP
-- Open Source
+- Open-Source
 - Real-Time
 - SQL
 ---

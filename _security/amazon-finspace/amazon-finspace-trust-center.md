@@ -61,6 +61,6 @@ tags:
 - Capital Markets
 - Data Analytics
 - Data Management
-- Financial Services
+- Financial-Services
 trust_url: https://aws.amazon.com/compliance/
 ---

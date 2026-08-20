@@ -59,5 +59,4 @@ tags:
 - Agents
 - Traps
 - UDP
-- Operations
 ---

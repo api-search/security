@@ -56,6 +56,6 @@ tags:
 - Gaming
 - Tournaments
 - GraphQL
-- Events
+- Event
 - Developer API
 ---

@@ -47,5 +47,5 @@ tags:
 - Blockchain
 - NFT
 - Virtual Economy
-- AI
+- Artificial Intelligence
 ---

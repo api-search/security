@@ -116,10 +116,10 @@ tags:
 - Connected Equipment
 - Gym Management
 - Member Management
-- Check-In
+- Check-in
 - Measurements
 - Workouts
 - Analytics
-- Webhooks
+- Webhook
 - Germany
 ---

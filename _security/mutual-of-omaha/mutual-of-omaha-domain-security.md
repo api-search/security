@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fortune 500
 - Insurance
-- Financial Services
+- Financial-Services
 - Life Insurance
 - Medicare
 ---

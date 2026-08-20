@@ -127,15 +127,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/ref
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Voice
-- Text to Speech
+- Text-to-Speech
 - Speech Synthesis
 - Voice AI
 - Voice Cloning
 - Audio
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Streaming
-- Real Time
+- Real-Time
 - Conversational AI
 - Europe
 - Data Sovereignty

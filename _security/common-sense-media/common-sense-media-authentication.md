@@ -42,7 +42,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/common-s
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/authentication/common-sense-media-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Apps
+- Application
 - Books
 - Media
 - Movies

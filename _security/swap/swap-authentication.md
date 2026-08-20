@@ -84,7 +84,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swap/refs/head
 summary_line: apiKey/http · 8 schemes
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Cross-Border
 - Customs
 - Shipping

@@ -70,7 +70,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Albums
 - Google
-- Images
+- Image
 - Media
 - Photos
 - Sharing

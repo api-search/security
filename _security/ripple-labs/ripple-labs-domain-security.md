@@ -264,14 +264,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Payments
 - Cross-Border Payments
 - Blockchain
 - Cryptocurrency
-- Stablecoin
+- Stablecoins
 - Digital Assets
 - Custody
-- Wallet
+- Wallets
 - Fintech
 ---

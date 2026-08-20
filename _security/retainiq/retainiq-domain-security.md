@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/retainiq/refs/
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Retention Marketing
 - Email Marketing
 - SMS
-- Ecommerce
+- E-Commerce
 - Personalization
 - D2C
 - Klaviyo

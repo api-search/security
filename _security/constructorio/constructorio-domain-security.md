@@ -151,7 +151,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Search
-- Ecommerce
+- E-Commerce
 - Product Discovery
 - Recommendations
 - Personalization

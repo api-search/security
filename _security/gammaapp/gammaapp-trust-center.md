@@ -31,6 +31,6 @@ tags:
 - Productivity
 - MCP
 - Websites
-- Social Media
+- Social-Media
 trust_url: https://trust.gamma.app
 ---

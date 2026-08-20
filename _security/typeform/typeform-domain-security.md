@@ -74,7 +74,7 @@ tags:
 - Surveys
 - Conversational
 - Lead Capture
-- SaaS
-- Webhooks
+- Software-as-a-Service
+- Webhook
 - Embed
 ---

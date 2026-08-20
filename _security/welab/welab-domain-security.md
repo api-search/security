@@ -48,14 +48,14 @@ source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/welab/refs/heads/main/security/welab-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- fintech
-- digital-banking
+- Fintech
+- Digital Banking
 - virtual-bank
-- open-banking
-- hong-kong
-- indonesia
-- consumer-lending
-- payments
+- Open Banking
+- Hong Kong
+- Indonesia
+- Consumer Lending
+- Payments
 - hkma-open-api
-- financial-services
+- Financial-Services
 ---

@@ -31,10 +31,10 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Distributed Training
 - Decentralized AI
 - Model Parallelism
 - Research
-- Open Source
+- Open-Source
 ---

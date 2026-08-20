@@ -29,7 +29,7 @@ tags:
 - Surveillance
 - RegTech
 - Artificial Intelligence
-- Financial Services
+- Financial-Services
 - Security
 trust_url: https://trust.behavox.com/
 ---

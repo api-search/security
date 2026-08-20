@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dream-finders-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Homebuilding
-- Real Estate
+- Real-Estate
 - Construction
 - Residential
 - Housing

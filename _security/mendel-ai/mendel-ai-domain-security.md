@@ -31,7 +31,7 @@ tags:
 - Oncology
 - Clinical Trials
 - Patient Cohort Discovery
-- Real World Data
+- Real-World Data
 - Electronic Health Records
 - Natural Language Processing
 - Large Language Models

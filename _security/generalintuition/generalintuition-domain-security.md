@@ -36,7 +36,7 @@ tags:
 - AI Agents
 - Robotics
 - Gaming
-- Machine Learning
+- Machine-Learning
 - Simulation
 - Spatial AI
 ---

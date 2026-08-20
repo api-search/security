@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/corelayer/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - SRE
 - Incident Response
 - Observability
@@ -44,7 +44,7 @@ tags:
 - Root Cause Analysis
 - Anomaly Detection
 - DevOps
-- Agent Native
+- agent-native
 - MCP
 - Fintech
 ---

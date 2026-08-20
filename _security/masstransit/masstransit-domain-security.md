@@ -34,6 +34,6 @@ tags:
 - Event-Driven
 - Message Bus
 - Messaging
-- Open Source
+- Open-Source
 - Sagas
 ---

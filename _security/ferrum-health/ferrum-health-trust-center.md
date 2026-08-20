@@ -25,7 +25,7 @@ tags:
 - Medical Imaging
 - Radiology
 - Patient Safety
-- Machine Learning
+- Machine-Learning
 - Healthcare
 - Compliance
 trust_url: https://app.drata.com/trust/c68fe3bd-9955-4410-a324-c18c407d03a5/

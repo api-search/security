@@ -38,5 +38,5 @@ tags:
 - Silicon IP
 - Hardware
 - AI Infrastructure
-- Data Center
+- Data-Center
 ---

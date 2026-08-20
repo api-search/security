@@ -57,5 +57,5 @@ tags:
 - Market Research
 - Firmographics
 - Company Search
-- Funding Data
+- funding-data
 ---

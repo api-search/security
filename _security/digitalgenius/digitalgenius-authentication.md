@@ -31,7 +31,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Customer Service
-- Ecommerce
+- E-Commerce
 - Artificial Intelligence
 - AI Agents
 - Conversational AI

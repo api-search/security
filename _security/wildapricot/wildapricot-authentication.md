@@ -209,7 +209,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Membership Management
 - Associations
-- Nonprofit
-- Events
+- Non-Profit
+- Event
 - Payments
 ---

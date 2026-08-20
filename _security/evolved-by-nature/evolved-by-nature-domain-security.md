@@ -49,8 +49,8 @@ tags:
 - Cosmetics
 - Specialty Chemicals
 - Textiles
-- eCommerce
+- E-Commerce
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 ---

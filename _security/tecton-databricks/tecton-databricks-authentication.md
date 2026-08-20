@@ -41,11 +41,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tecton-databri
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Feature Store
 - Feature Platform
-- Machine Learning
+- Machine-Learning
 - MLOps
-- Real Time
+- Real-Time
 - Databricks
 ---

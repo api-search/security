@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/headlight/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Mental Health
 - Telehealth
 - Teletherapy

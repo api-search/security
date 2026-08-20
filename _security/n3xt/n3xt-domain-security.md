@@ -112,9 +112,8 @@ tags:
 - Crypto
 - Banking
 - Payments
-- Stablecoin
+- Stablecoins
 - Fintech
 - Blockchain
-- API
 - MCP
 ---

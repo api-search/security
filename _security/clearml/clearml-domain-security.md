@@ -86,7 +86,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - ML
 - MLOps
-- Open Source
+- Open-Source
 - Experiment Tracking
 - Orchestration
 ---

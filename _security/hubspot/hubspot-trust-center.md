@@ -370,7 +370,6 @@ tags:
 - Email Marketing
 - Marketing
 - Marketing Automation
-- Operations
 - Sales
 trust_url: https://trust.hubspot.com/
 ---

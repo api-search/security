@@ -103,7 +103,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/primis/refs/he
 summary_line: http · 1 scheme
 tags:
 - Company
-- eCommerce
+- E-Commerce
 - Logistics
 - Shipping
 - Returns

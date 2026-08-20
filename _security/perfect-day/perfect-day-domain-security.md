@@ -134,6 +134,6 @@ tags:
 - Sustainability
 - Biotechnology
 - Consumer Packaged Goods
-- Content API
+- content-api
 - WordPress
 ---

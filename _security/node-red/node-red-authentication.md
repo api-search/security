@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/
 summary_line: http · 1 scheme
 tags:
 - Self-Hosted
-- Workflow Automation
+- Workflow-Automation
 - Flow-Based Programming
 - IoT
 ---

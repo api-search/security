@@ -68,7 +68,7 @@ tags:
 - Capitals
 - Continents
 - Countries
-- Currencies
+- Currency
 - Currency Codes
 - Dialing Codes
 - Geography

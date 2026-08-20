@@ -53,9 +53,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ricoh-usa/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Printing
-- Document Management
+- Document-Management
 - Workplace Services
 - Imaging
 - 360 Cameras
-- Workflow Automation
+- Workflow-Automation
 ---

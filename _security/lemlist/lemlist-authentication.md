@@ -216,6 +216,6 @@ tags:
 - Deliverability
 - CRM
 - Multichannel Messaging
-- Webhooks
+- Webhook
 - MCP
 ---

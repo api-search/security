@@ -31,11 +31,11 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Developer Tools
-- AI
+- Artificial Intelligence
 - Agents
 - Coding Assistants
-- Model Context Protocol
+- MCP
 - CLI
-- Knowledge Management
+- Knowledge-Management
 - Y Combinator
 ---

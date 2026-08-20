@@ -56,7 +56,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Animals
 - Cats
-- Images
-- Open Source
+- Image
+- Open-Source
 - Public APIs
 ---

@@ -59,11 +59,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deconetwork/re
 summary_line: TLSv1.3
 tags:
 - Custom Apparel
-- Web to Print
+- Web-to-Print
 - Print Shop Management
-- Orders
-- Products
+- Order
+- Product
 - Inventory
 - Production Workflow
-- E-commerce
+- E-Commerce
 ---

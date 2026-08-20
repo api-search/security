@@ -23,7 +23,7 @@ tags:
 - Sports
 - Entertainment
 - Marketplace
-- Events
+- Event
 - Payments
 trust_url: https://www.ticketrev.com/security-and-compliance-commitments
 ---

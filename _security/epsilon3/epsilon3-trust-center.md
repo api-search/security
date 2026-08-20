@@ -26,13 +26,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/
 summary_line: SOC 2 Type II, FedRAMP High Authorization, NIST SP 800-171, DFARS 252.204-7012, CMMC, ITAR, EAR
 tags:
 - Company
-- Operations
 - Aerospace
 - Space
 - Defense
 - Manufacturing
 - Procedures
-- Workflow
+- Workflows
 - Inventory
 - Telemetry
 - Test Management

@@ -34,7 +34,7 @@ tags:
 - REST API
 - Headless CMS
 - Data Platform
-- Open Source
+- Open-Source
 - SQL Database
 - No-Code
 - Content Management

@@ -36,8 +36,8 @@ tags:
 - Data Migration
 - Data Integration
 - CRM
-- Helpdesk
-- SaaS
+- Help Desk
+- Software-as-a-Service
 - Migration
 - Onboarding
 trust_url: https://trust.import2.com/

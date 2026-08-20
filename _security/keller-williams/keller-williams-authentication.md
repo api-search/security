@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\ndocs: https://developer
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/authentication/keller-williams-authentication.yml
 summary_line: apiKey/http/oauth2/openIdConnect · 4 schemes
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - Residential Real Estate
 - Brokerage

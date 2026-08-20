@@ -61,18 +61,18 @@ source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/security/gumgum-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- advertising
-- adtech
-- contextual-advertising
-- brand-safety
-- content-classification
-- computer-vision
-- natural-language-processing
-- video-analysis
-- image-analysis
-- connected-tv
-- header-bidding
-- programmatic-advertising
+- Advertising
+- AdTech
+- Contextual Advertising
+- Brand Safety
+- Content Classification
+- Computer-Vision
+- Natural Language Processing
+- Video Analysis
+- Image Analysis
+- Connected TV
+- Header Bidding
+- Programmatic Advertising
 - iab-taxonomy
-- content-moderation
+- Content Moderation
 ---

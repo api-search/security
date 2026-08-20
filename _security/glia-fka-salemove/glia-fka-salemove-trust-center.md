@@ -27,13 +27,13 @@ summary_line: SOC 2 Type 2, SOC 1, SOC 3, PCI DSS, HIPAA/HITECH, ISO/IEC 27001, 
 tags:
 - Company
 - Customer Service
-- Customer Support
+- Customer-Support
 - Digital Customer Service
 - Contact Center
 - Conversational AI
 - Voice AI
 - Co-Browsing
-- Financial Services
+- Financial-Services
 - Banking
 - Serverless
 - SDK

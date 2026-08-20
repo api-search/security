@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snackpass/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Restaurants
-- Point of Sale
+- Restaurant
+- Point-of-Sale
 - Payments
 - Food Ordering
 - Loyalty

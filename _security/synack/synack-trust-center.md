@@ -198,6 +198,5 @@ tags:
 - Attack Surface Management
 - Crowdsourced Security
 - Compliance
-- API
 trust_url: https://trustcenter.synack.com/
 ---

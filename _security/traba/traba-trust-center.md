@@ -23,6 +23,6 @@ tags:
 - Supply Chain
 - Logistics
 - Warehouse
-- AI
+- Artificial Intelligence
 trust_url: https://app.drata.com/trust/8764b93f-6186-4f43-b1e0-7f1d8ce9a053
 ---

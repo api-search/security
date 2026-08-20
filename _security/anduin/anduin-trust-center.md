@@ -27,6 +27,6 @@ tags:
 - Venture Capital
 - Private Equity
 - E-Signature
-- FinTech
+- Fintech
 trust_url: https://anduintransact.com/security
 ---

@@ -55,6 +55,6 @@ tags:
 - AI Gateways
 - Gateways
 - Observability
-- Webhooks
+- Webhook
 trust_url: https://security.vercel.com/
 ---

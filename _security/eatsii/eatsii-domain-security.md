@@ -46,8 +46,8 @@ tags:
 - Food and Beverage
 - Cloud Kitchen
 - Food Delivery
-- Restaurants
-- Foodtech
+- Restaurant
+- Food Tech
 - Indonesia
 - Southeast Asia
 ---

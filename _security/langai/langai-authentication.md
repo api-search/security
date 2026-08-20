@@ -44,10 +44,10 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - Conversation Intelligence
-- Customer Support
+- Customer-Support
 - Text Classification
 - Analytics
 - Customer Experience

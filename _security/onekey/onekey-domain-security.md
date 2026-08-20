@@ -39,8 +39,8 @@ tags:
 - Crypto
 - Cryptocurrency
 - Hardware Wallet
-- Wallet
-- Self Custody
+- Wallets
+- Self-Custody
 - Web3
 - Blockchain
 - Bitcoin

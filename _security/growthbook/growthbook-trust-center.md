@@ -239,8 +239,8 @@ summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Feature Flags
 - Experimentation
-- Open Source
-- AB Testing
+- Open-Source
+- A/B Testing
 - Analytics
 trust_url: https://www.growthbook.io/platform/security
 ---

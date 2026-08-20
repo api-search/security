@@ -37,5 +37,5 @@ tags:
 - Security
 - Cybersecurity
 - Enterprise Software
-- SaaS
+- Software-as-a-Service
 ---

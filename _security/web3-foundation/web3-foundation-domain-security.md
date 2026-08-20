@@ -39,5 +39,5 @@ tags:
 - Research
 - Grants
 - Decentralization
-- Nonprofit
+- Non-Profit
 ---

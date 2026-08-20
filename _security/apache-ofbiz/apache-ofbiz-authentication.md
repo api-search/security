@@ -54,6 +54,6 @@ tags:
 - Business Applications
 - Apache
 - Java
-- Open Source
+- Open-Source
 - Supply Chain
 ---

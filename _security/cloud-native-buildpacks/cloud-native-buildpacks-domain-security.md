@@ -44,9 +44,9 @@ tags:
 - Buildpacks
 - CNCF
 - Containers
-- Images
+- Image
 - OCI
-- Open Source
+- Open-Source
 - Platform
 - Reproducible Builds
 ---

@@ -65,9 +65,9 @@ tags:
 - Conversational AI
 - AI Companions
 - Generative AI
-- Text to Speech
-- Image Generation
+- Text-to-Speech
+- Image-Generation
 - Video Generation
 - Avatars
-- Multimodal
+- Multi-Modal
 ---

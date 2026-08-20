@@ -33,7 +33,7 @@ tags:
 - Consumer
 - Esports
 - Gaming
-- Ecommerce
+- E-Commerce
 - Merchandise
 - Retail
 ---

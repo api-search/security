@@ -31,9 +31,9 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Property Management
-- Real Estate
+- Real-Estate
 - PropTech
-- Rental
+- Rentals
 - Leasing
 - Residential
 - Tenant Screening

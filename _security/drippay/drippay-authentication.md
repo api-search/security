@@ -236,7 +236,7 @@ tags:
 - Payments
 - AI Agents
 - Developer Tools
-- Webhooks
+- Webhook
 - MCP
 - CRM
 - Sales Automation

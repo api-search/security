@@ -30,9 +30,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thinking-machi
 summary_line: 1 scheme
 tags:
 - Company
-- Ai
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Fine-Tuning
 - LLM
 - Model Training

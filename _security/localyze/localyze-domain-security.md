@@ -37,5 +37,5 @@ tags:
 - Human Resources
 - HRIS Integration
 - Compliance
-- SaaS
+- Software-as-a-Service
 ---

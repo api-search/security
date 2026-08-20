@@ -43,5 +43,5 @@ tags:
 - Banking
 - Cards
 - Card Issuing
-- Financial Services
+- Financial-Services
 ---

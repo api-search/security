@@ -26,6 +26,6 @@ tags:
 - Vulnerability Management
 - DevSecOps
 - Compliance
-- Open Source
+- Open-Source
 trust_url: https://trust.echo.ai/
 ---

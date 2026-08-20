@@ -38,7 +38,7 @@ tags:
 - Spreadsheets
 - Dashboards
 - Analytics
-- AI
+- Artificial Intelligence
 - MCP
 - Agents
 ---

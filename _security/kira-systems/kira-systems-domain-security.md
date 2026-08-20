@@ -32,7 +32,7 @@ tags:
 - Company
 - Legal Tech
 - Contract Analysis
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Document Automation
 - Due Diligence

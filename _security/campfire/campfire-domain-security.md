@@ -109,5 +109,5 @@ tags:
 - Revenue Recognition
 - Accounts Payable
 - Accounts Receivable
-- AI
+- Artificial Intelligence
 ---

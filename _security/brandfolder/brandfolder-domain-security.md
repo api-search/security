@@ -63,6 +63,6 @@ tags:
 - Brand Management
 - Assets
 - Media
-- Collections
+- Collection
 - Smartsheet
 ---

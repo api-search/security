@@ -58,11 +58,11 @@ summary_line: ISO 27001:2022, SOC 2 Type 2
 tags:
 - Company
 - Cloud Saas
-- Events
+- Event
 - Virtual Events
 - Webinars
 - Event Management
 - Community
-- Webhooks
+- Webhook
 trust_url: https://www.airmeet.com/hub/security-and-compliance/
 ---

@@ -43,5 +43,5 @@ tags:
 - Europe
 - Germany
 - Berlin
-- Financial Services
+- Financial-Services
 ---

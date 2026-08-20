@@ -165,7 +165,7 @@ summary_line: ISO 27001, GDPR
 tags:
 - Shipping
 - Logistics
-- Ecommerce
+- E-Commerce
 - Carriers
 - Labels
 - Returns

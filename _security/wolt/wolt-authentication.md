@@ -52,7 +52,7 @@ tags:
 - Food Delivery
 - Last Mile Delivery
 - Logistics
-- Webhooks
-- OAuth
-- Point of Sale
+- Webhook
+- Authentication
+- Point-of-Sale
 ---

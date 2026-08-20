@@ -37,5 +37,5 @@ tags:
 - Analytics
 - Forecasting
 - Go-To-Market
-- SaaS
+- Software-as-a-Service
 ---

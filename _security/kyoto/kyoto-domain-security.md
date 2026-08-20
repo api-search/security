@@ -2,16 +2,22 @@
 api_specs:
 - filename: kyoto-oai-pmh-api-openapi.yml
   format: yaml
-  label: Kyoto University OAI-PMH API
+  label: KURENAI OAI-PMH API
   slug: kyoto-oai-pmh-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/openapi/kyoto-oai-pmh-api-openapi.yml
 - filename: kyoto-rest-api-openapi.yml
   format: yaml
-  label: Kyoto University REST API
+  label: KURENAI DSpace REST API
   slug: kyoto-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/openapi/kyoto-rest-api-openapi.yml
+- filename: kyoto-lms-api-openapi.yml
+  format: yaml
+  label: PandA Learning Support System API (Sakai Entity Broker + IMS LTI)
+  slug: kyoto-lms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/openapi/kyoto-lms-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,12 +59,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/security/kyoto-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
-- Scholarly
-- Repository
+- Higher Education
+- Education
 - Japan
+- National University
+- Research Repository
+- Research Data
+- Identity Federation
+- Learning Management
+- Open Access
+- Research Computing
+- Scholarly
 ---

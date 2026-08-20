@@ -39,7 +39,7 @@ tags:
 - Company
 - Consumer
 - Payments
-- Point of Sale
+- Point-of-Sale
 - Commerce
 - Merchant Services
 - Payment Processing

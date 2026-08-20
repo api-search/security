@@ -31,6 +31,6 @@ tags:
 - NBFC
 - Lending
 - Consumer Finance
-- Financial Services
+- Financial-Services
 - India
 ---

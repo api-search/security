@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/efreshli/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Furniture
 - Home Furnishing
 - Interior Design
 - Retail
-- AI
+- Artificial Intelligence
 - Egypt
 ---

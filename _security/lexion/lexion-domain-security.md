@@ -57,8 +57,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Contract Management
 - CLM
-- AI
+- Artificial Intelligence
 - Legal Tech
 - Document Extraction
-- Workflow
+- Workflows
 ---

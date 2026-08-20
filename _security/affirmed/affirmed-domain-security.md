@@ -36,7 +36,7 @@ tags:
 - Telecommunications
 - 5G
 - Mobile Core
-- Cloud Native
+- Cloud-Native
 - Network Functions Virtualization
 - Acquired
 ---

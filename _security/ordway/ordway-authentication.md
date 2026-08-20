@@ -180,7 +180,7 @@ summary_line: apiKey · 4 schemes
 tags:
 - Billing
 - Revenue Automation
-- Subscriptions
+- Subscription
 - Invoicing
 - Payments
 - Revenue Recognition

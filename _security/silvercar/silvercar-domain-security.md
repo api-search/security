@@ -65,6 +65,6 @@ tags:
 - Fleet Management
 - Mobility
 - Dealership
-- Rental
-- SaaS
+- Rentals
+- Software-as-a-Service
 ---

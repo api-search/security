@@ -54,8 +54,8 @@ tags:
 - Streaming
 - Performance Marketing
 - AdTech
-- Measurement
+- Measurements
 - Campaign Management
-- Real Time Bidding
+- Real-Time Bidding
 - Attribution
 ---

@@ -41,8 +41,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/railway/refs/heads/main/security/railway-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Platform as a Service
-- Deployments
+- Platform-as-a-Service
+- Deployment
 - GraphQL
 - Infrastructure
 - DevOps

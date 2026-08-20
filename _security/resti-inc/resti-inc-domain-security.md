@@ -34,8 +34,8 @@ tags:
 - Hospitality
 - HR
 - Payroll
-- SaaS
-- Point of Sale
+- Software-as-a-Service
+- Point-of-Sale
 - Reputation Management
 - Kazakhstan
 ---

@@ -20,14 +20,14 @@ summary_line: trust center published
 tags:
 - Affiliate Tracking
 - Referral Programs
-- SaaS
+- Software-as-a-Service
 - Stripe
 - Commissions
 - Payouts
 - Affiliate Marketing
 - Partner Programs
 - Attribution
-- Webhooks
+- Webhook
 - Paddle
 - Marketing
 trust_url: https://www.rewardful.com/trust-center

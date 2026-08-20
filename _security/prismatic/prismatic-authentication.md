@@ -52,7 +52,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prismatic/refs
 summary_line: apiKey/http · 2 schemes
 tags:
 - Embedded iPaaS
-- Integrations
+- Integration
 - Workflows
 - Connectors
 - AI Agents

@@ -56,9 +56,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/security/fyno-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
-- Notifications
+- Notification
 - Messaging
-- Communication
+- Communications
 - Push Notifications
 - Email
 - SMS

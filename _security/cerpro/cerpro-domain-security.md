@@ -35,7 +35,7 @@ tags:
 - Artificial Intelligence
 - Manufacturing Intelligence
 - Document Extraction
-- SaaS
+- Software-as-a-Service
 - Germany
 - Metalworking
 - Inspection

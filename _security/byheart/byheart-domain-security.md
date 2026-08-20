@@ -34,8 +34,8 @@ tags:
 - Consumer
 - Infant Nutrition
 - Baby Formula
-- Direct-to-Consumer
-- Ecommerce
+- Direct to Consumer
+- E-Commerce
 - Health
 - Shopify
 ---

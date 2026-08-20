@@ -36,5 +36,5 @@ tags:
 - Media
 - Entertainment
 - OTT
-- SaaS
+- Software-as-a-Service
 ---

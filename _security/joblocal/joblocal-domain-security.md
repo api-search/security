@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Recruiting
-- Jobs
+- Job
 - HR Technology
 - Job Portal
 - Talent Acquisition

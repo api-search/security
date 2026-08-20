@@ -52,6 +52,5 @@ tags:
 - Lending
 - Cards
 - Fintech
-- Financial Services
-- API
+- Financial-Services
 ---

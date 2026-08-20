@@ -19,13 +19,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edison-scienti
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - Drug Discovery
 - Biopharma
 - Life Sciences
 - Research
 - R&D
-- Machine Learning
+- Machine-Learning
 trust_url: https://trust.edisonscientific.com/
 ---

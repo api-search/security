@@ -79,8 +79,8 @@ summary_line: http · 1 scheme
 tags:
 - Email
 - Messaging
-- Notifications
-- Pub/Sub
+- Notification
+- Pub-Sub
 - Push Notifications
 - SMS
 ---

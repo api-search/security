@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/overview/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Machine Vision
 - Manufacturing
 - Quality Control
-- Computer Vision
+- Computer-Vision
 - Edge AI
 - Industrial Automation
 ---

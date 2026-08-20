@@ -127,6 +127,6 @@ tags:
 - Audience Demographics
 - App Intelligence
 - Market Research
-- E-commerce
+- E-Commerce
 - SEO
 ---

@@ -45,9 +45,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Foundation Models
 - Generative AI
-- Image Generation
-- Machine Learning
-- Multimodal
+- Image-Generation
+- Machine-Learning
+- Multi-Modal
 - Speech
 - Video Generation
 ---

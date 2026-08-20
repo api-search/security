@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Pets
-- E-commerce
+- E-Commerce
 - Marketplace
 - Retail
 - Consumer

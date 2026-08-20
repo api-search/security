@@ -478,7 +478,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/scaleway
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/authentication/scaleway-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Cloud Computing
 - Containers
 - Database

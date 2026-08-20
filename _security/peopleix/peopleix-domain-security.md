@@ -43,7 +43,7 @@ tags:
 - Conversation Intelligence
 - Human Resources
 - Workforce Analytics
-- AI
+- Artificial Intelligence
 - MCP
 - Germany
 ---

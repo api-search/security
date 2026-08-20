@@ -31,10 +31,9 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Cloud Saas
-- Operations
 - Observability
-- Workflow Automation
+- Workflow-Automation
 - Alerting
-- RevOps
+- Revenue Operations
 - Task Queue
 ---

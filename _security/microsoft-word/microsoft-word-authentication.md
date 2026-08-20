@@ -154,7 +154,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-word
 summary_line: oauth2 · 2 schemes
 tags:
 - Documents
-- Microsoft 365
+- Microsoft-365
 - Office
 - Productivity
 - Word Processing

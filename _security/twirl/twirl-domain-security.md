@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twirl/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Data
 - Data Platform
-- Data Pipelines
+- Data Pipeline
 - Orchestration
-- Dbt
+- dbt
 - BigQuery
 ---

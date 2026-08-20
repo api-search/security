@@ -34,9 +34,9 @@ tags:
 - Risk Management
 - Cryptocurrency
 - Institutional Investing
-- FinTech
+- Fintech
 - Artificial Intelligence
-- Portfolio Management
+- Portfolio-Management
 - Blockchain
 - Treasury Management
 ---

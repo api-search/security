@@ -30,10 +30,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/japan/refs/hea
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Customer Support
-- Helpdesk
-- Ecommerce
+- Customer-Support
+- Help Desk
+- E-Commerce
 - Shopify
-- DTC
-- SaaS
+- Direct to Consumer
+- Software-as-a-Service
 ---

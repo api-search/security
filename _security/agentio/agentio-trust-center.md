@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentio/refs/h
 summary_line: SOC 2 Type 2
 tags:
 - Company
-- Adtech
+- AdTech
 - Advertising
 - Creator Economy
 - Influencer Marketing
@@ -27,7 +27,6 @@ tags:
 - Artificial Intelligence
 - YouTube
 - MCP
-- Model Context Protocol
 - Agents
 - Analytics
 trust_url: https://www.agentio.com/security

@@ -33,7 +33,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intellimatch/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - Reconciliation
-- Financial Services
+- Financial-Services
 - Matching
 - Exception Management
 ---

@@ -191,8 +191,8 @@ summary_line: http · 1 scheme
 tags:
 - GPU
 - Cloud
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Deep Learning
 - Compute
 - DigitalOcean

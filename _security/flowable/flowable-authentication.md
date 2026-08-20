@@ -420,12 +420,12 @@ summary_line: http · 1 scheme
 tags:
 - BPM
 - Business Process Management
-- Workflow
+- Workflows
 - BPMN
 - CMMN
 - DMN
 - Process Automation
 - Case Management
-- Open Source
+- Open-Source
 - REST API
 ---

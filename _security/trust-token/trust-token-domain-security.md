@@ -37,5 +37,5 @@ tags:
 - Tokenization
 - Lending
 - Cryptocurrency
-- FinTech
+- Fintech
 ---

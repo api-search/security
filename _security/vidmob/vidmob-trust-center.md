@@ -43,17 +43,17 @@ source_yaml: "generated: '2026-08-05'\nmethod: probed\nprobe: true\nurl: https:/
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/security/vidmob-trust-center.yml
 summary_line: trust center published
 tags:
-- creative-intelligence
+- Creative Intelligence
 - creative-data
-- advertising
-- marketing
-- media-measurement
-- video
-- computer-vision
-- creative-analytics
-- adtech
-- mcp
+- Advertising
+- Marketing
+- Media Measurement
+- Video
+- Computer-Vision
+- Creative Analytics
+- AdTech
+- MCP
 - agent-native
-- martech
+- MarTech
 trust_url: https://trust.vidmob.com/
 ---

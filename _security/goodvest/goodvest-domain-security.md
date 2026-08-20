@@ -33,7 +33,7 @@ tags:
 - Company
 - Climate Tech
 - Fintech
-- Financial Services
+- Financial-Services
 - Investing
 - Wealth Management
 - Sustainable Finance

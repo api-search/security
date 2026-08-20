@@ -44,8 +44,8 @@ tags:
 - Scheduling
 - Payments
 - Marketplace
-- Point Of Sale
+- Point-of-Sale
 - Salon
 - Spa
-- SaaS
+- Software-as-a-Service
 ---

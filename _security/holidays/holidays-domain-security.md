@@ -61,7 +61,7 @@ tags:
 - Observances
 - Reference Data
 - Countries
-- Languages
+- Language
 - Workdays
 - Business Days
 - Localization

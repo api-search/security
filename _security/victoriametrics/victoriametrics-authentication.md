@@ -60,9 +60,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/victoriametric
 summary_line: http · 1 scheme
 tags:
 - Database
-- Time-Series
+- Time Series
 - Monitoring
-- Open Source
+- Open-Source
 - Prometheus
 - PromQL
 - MetricsQL

@@ -38,7 +38,7 @@ tags:
 - Transit
 - Flights
 - Trains
-- Buses
+- Bus
 - Ferries
 - Navigation
 ---

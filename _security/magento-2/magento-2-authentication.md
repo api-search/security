@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/magento-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magento-2/refs/heads/main/authentication/magento-2-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Ecommerce
+- E-Commerce
 - Commerce
 - Online Store
 - Catalog Management

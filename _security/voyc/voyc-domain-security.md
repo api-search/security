@@ -48,6 +48,6 @@ tags:
 - Call Monitoring
 - Speech Analytics
 - Contact Centers
-- Financial Services
+- Financial-Services
 - Artificial Intelligence
 ---

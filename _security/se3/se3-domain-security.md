@@ -35,7 +35,7 @@ tags:
 - Spatial AI
 - Autonomous Systems
 - Robotics
-- Computer Vision
+- Computer-Vision
 - Defence
 - Drones
 ---

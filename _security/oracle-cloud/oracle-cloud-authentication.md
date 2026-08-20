@@ -188,7 +188,7 @@ summary_line: http · 1 scheme
 tags:
 - Cloud Computing
 - Enterprise Cloud
-- Infrastructure as a Service
+- Infrastructure-as-a-Service
 - Oracle
-- Platform as a Service
+- Platform-as-a-Service
 ---

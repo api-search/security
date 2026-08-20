@@ -246,9 +246,9 @@ tags:
 - E-Commerce
 - Contacts
 - Email Marketing
-- Subscriptions
+- Subscription
 - Affiliate Management
-- Webhooks
+- Webhook
 - MCP
 - Payments
 ---

@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Market Research
 - Synthetic Personas
 - Consumer Insights

@@ -34,7 +34,7 @@ tags:
 - NoSQL
 - Document Database
 - Real-Time
-- Open Source
+- Open-Source
 - Change Feeds
 - ReQL
 ---

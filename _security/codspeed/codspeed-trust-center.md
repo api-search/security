@@ -25,7 +25,7 @@ tags:
 - Observability
 - Testing
 - DevOps
-- AI
+- Artificial Intelligence
 - MCP
 trust_url: https://trust.codspeed.io
 ---

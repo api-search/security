@@ -89,10 +89,9 @@ tags:
 - Crypto
 - Banking
 - Payments
-- Stablecoin
+- Stablecoins
 - Fintech
 - Blockchain
-- API
 - MCP
 trust_url: https://n3xt.io/security
 ---

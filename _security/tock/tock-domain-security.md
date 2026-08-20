@@ -56,12 +56,12 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Hospitality
 - Reservations
-- Restaurants
+- Restaurant
 - Wineries
 - Ticketed Events
 - Takeout
 - Delivery
-- Experiences
+- Experience
 - Dining
 - American Express
 ---

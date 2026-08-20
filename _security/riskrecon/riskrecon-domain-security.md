@@ -38,7 +38,7 @@ tags:
 - Company
 - Cybersecurity
 - Security Ratings
-- Third Party Risk
+- Third-Party Risk
 - Supply Chain Risk
 - Risk Management
 - GRC

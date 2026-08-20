@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: live probes of ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentbox/refs/heads/main/authentication/agentbox-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Property Listings
 - PropTech

@@ -41,12 +41,12 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Enterprise
-- E-commerce
+- E-Commerce
 - ERP
 - Order Management
 - Inventory Management
 - Warehouse Management
 - Retail
-- SaaS
+- Software-as-a-Service
 - China
 ---

@@ -91,6 +91,6 @@ tags:
 - Cryptocurrency
 - Staking
 - Web3
-- Financial Services
+- Financial-Services
 - GraphQL
 ---

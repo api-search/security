@@ -32,14 +32,14 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - Lending
 - SME Financing
 - Working Capital
 - Invoice Financing
 - Embedded Finance
-- Revenue Based Financing
+- Revenue-Based Financing
 - Saudi Arabia
 - MENA
-- Sharia Compliant
+- Sharia-Compliant
 ---

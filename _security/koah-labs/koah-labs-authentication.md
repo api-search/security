@@ -37,11 +37,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs
 summary_line: http · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Advertising
 - Ad Network
 - Monetization
 - Conversion Tracking
-- SDKs
+- SDK
 - Agents
 ---

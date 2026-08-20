@@ -40,7 +40,7 @@ tags:
 - Marketing
 - Advertising
 - Artificial Intelligence
-- Social Media
+- Social-Media
 - Campaigns
 - Content Generation
 - Y Combinator

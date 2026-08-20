@@ -37,5 +37,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orders-api/ref
 summary_line: apiKey · 1 scheme
 tags:
 - Application Programming Interface
-- Orders
+- Order
 ---

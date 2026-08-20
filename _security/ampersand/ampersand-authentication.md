@@ -146,10 +146,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ampersand/refs
 summary_line: apiKey/http · 2 schemes
 tags:
 - Developer Tools
-- Integrations
+- Integration
 - Platform
-- SaaS
-- OAuth
+- Software-as-a-Service
+- Authentication
 - Data Sync
-- Webhooks
+- Webhook
 ---

@@ -160,6 +160,6 @@ tags:
 - Advertising
 - Content Publishing
 - Messaging
-- Social Media
+- Social-Media
 - Social Networking
 ---

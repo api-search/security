@@ -84,6 +84,6 @@ tags:
 - BPMN
 - Business Process Management
 - Process Automation
-- Workflow
+- Workflows
 trust_url: https://trust.camunda.com/
 ---

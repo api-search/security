@@ -67,10 +67,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/samcart-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/authentication/samcart-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- E-commerce
+- E-Commerce
 - Checkout
 - Payments
-- Subscriptions
+- Subscription
 - Digital Products
 - Courses
 ---

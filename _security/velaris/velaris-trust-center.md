@@ -105,8 +105,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/velaris/refs/h
 summary_line: ISO 27001:2022, SOC 2 Type II, GDPR
 tags:
 - Customer Success
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Customer Data
 - CRM
 - Analytics

@@ -113,7 +113,7 @@ tags:
 - SMS
 - Email API
 - Deliverability
-- Webhooks
+- Webhook
 - Messaging
 - Communications
 - MCP

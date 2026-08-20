@@ -35,6 +35,6 @@ tags:
 - Investing
 - Finance
 - Fintech
-- Financial Services
+- Financial-Services
 - Robo-Advisor
 ---

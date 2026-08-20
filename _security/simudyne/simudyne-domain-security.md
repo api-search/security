@@ -33,7 +33,7 @@ tags:
 - Agent-Based Modeling
 - Synthetic Data
 - Market Data
-- Financial Services
-- Machine Learning
+- Financial-Services
+- Machine-Learning
 - Developer SDK
 ---

@@ -62,7 +62,7 @@ tags:
 - Rules Engine
 - Referrals
 - Discounts
-- Ecommerce
+- E-Commerce
 - Retail
 trust_url: https://trust.talon.one
 ---

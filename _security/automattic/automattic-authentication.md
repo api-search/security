@@ -183,7 +183,7 @@ tags:
 - Analytics
 - Domains
 - E-Commerce
-- Open Source
+- Open-Source
 - Developer Tools
-- Model Context Protocol
+- MCP
 ---

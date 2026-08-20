@@ -35,5 +35,5 @@ tags:
 - Order Management
 - Order Aggregation
 - POS Integration
-- Restaurants
+- Restaurant
 ---

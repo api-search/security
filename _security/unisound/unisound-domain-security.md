@@ -47,6 +47,6 @@ tags:
 - Large Language Models
 - OCR
 - Healthcare
-- Machine Learning
+- Machine-Learning
 - Voice
 ---

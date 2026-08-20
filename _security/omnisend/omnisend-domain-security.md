@@ -134,7 +134,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Email Marketing
 - Marketing Automation
-- Ecommerce
+- E-Commerce
 - SMS Marketing
 - Customer Engagement
 - Segmentation

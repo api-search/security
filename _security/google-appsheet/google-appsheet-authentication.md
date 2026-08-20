@@ -36,7 +36,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-appsheet/refs/heads/main/authentication/google-appsheet-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Applications
+- Application
 - Data
 - Google
 - Low-Code

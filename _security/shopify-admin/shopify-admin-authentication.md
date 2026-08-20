@@ -86,9 +86,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/
 summary_line: apiKey · 1 scheme
 tags:
 - Commerce
-- Ecommerce
+- E-Commerce
 - Admin
-- Products
-- Orders
+- Product
+- Order
 - Customers
 ---

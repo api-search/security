@@ -30,9 +30,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magic-dev/refs/heads/main/security/magic-dev-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - AGI Research
-- Coding Agent
+- Coding Agents
 - Long Context
 - LLM
 - Frontier Lab

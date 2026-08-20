@@ -185,10 +185,10 @@ tags:
 - Company
 - Accounting
 - Pre-Accounting
-- e-Invoicing
+- E-Invoicing
 - Invoicing
 - Fintech
-- SaaS
+- Software-as-a-Service
 - Turkey
 - ERP
 - JSON:API

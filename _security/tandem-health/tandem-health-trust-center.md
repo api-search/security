@@ -29,7 +29,7 @@ summary_line: CE Marked (EU MDR), MDR Class IIa, ISO 13485, ISO 14001, ISO 27001
 tags:
 - Company
 - Healthcare
-- AI
+- Artificial Intelligence
 - Clinical Documentation
 - Ambient AI
 - Medical Scribe

@@ -50,6 +50,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics
 - Financial
-- Financial Services
+- Financial-Services
 - Trading
 ---

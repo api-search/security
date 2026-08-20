@@ -80,7 +80,6 @@ tags:
 - Authentication
 - Authorization
 - Identity
-- OAuth
 - OIDC
 - SAML
 - Security

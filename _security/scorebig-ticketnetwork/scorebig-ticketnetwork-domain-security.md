@@ -35,7 +35,7 @@ tags:
 - Tickets
 - Ticketing
 - Marketplace
-- Events
+- Event
 - Live Events
 - Resale
 ---

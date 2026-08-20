@@ -47,7 +47,7 @@ summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company
 - Commerce
-- Ecommerce
+- E-Commerce
 - Sustainability
 - Supply Chain
 - Agent Commerce

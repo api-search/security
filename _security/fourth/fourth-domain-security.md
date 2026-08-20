@@ -32,12 +32,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Workforce Management
-- Restaurants
+- Restaurant
 - Hospitality
 - Inventory Management
 - Payroll
 - Scheduling
-- Human Capital Management
-- Point of Sale
+- HCM
+- Point-of-Sale
 - Food and Beverage
 ---

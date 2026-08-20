@@ -56,13 +56,13 @@ tags:
 - Company
 - Charity
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Prize Draws
 - Sweepstakes
-- Ecommerce
+- E-Commerce
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 - United Kingdom
 - Germany

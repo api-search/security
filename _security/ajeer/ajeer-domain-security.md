@@ -31,7 +31,6 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Maintenance
-- Operations
 - Facilities Management
 - Home Services
 - On-Demand Services

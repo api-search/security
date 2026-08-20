@@ -58,7 +58,7 @@ tags:
 - Marketplace
 - E-Commerce
 - Retail
-- Products
-- Orders
+- Product
+- Order
 - Sweden
 ---

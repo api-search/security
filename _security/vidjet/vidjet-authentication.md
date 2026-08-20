@@ -57,13 +57,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vidjet/refs/he
 summary_line: none/apiKey · 4 schemes
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Video
 - Shoppable Video
 - Shopify
 - Conversion
 - Marketing
-- No-code
+- No-Code
 - Widgets
 - Embed
 ---

@@ -52,8 +52,8 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
-- Computer Vision
+- Machine-Learning
+- Computer-Vision
 - Vision Language Model
 - Object Detection
 - Image Captioning

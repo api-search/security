@@ -50,9 +50,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/relay-app/refs
 summary_line: apiKey · 1 scheme
 tags:
 - Automation
-- Workflow
+- Workflows
 - Integration
 - No-Code
-- AI
-- Webhooks
+- Artificial Intelligence
+- Webhook
 ---

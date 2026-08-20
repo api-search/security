@@ -77,7 +77,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - Banking
 - API Integration
 - Software Development

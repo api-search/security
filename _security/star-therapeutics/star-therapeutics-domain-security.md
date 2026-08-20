@@ -95,13 +95,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/star-therapeut
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- hematology
-- immunology
-- rare-disease
-- antibody-therapeutics
-- clinical-trials
-- life-sciences
+- Biotechnology
+- Pharmaceuticals
+- Hematology
+- Immunology
+- Rare Disease
+- Antibody Therapeutics
+- Clinical Trials
+- Life Sciences
 - content-api
 ---

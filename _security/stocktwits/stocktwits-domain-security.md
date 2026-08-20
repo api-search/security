@@ -99,6 +99,6 @@ tags:
 - Investing
 - Market Data
 - Social Finance
-- Watchlists
+- Watchlist
 - Messaging
 ---

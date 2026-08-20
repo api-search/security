@@ -51,9 +51,9 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Developer Tools
-- AI
+- Artificial Intelligence
 - Developer Experience
-- Knowledge Management
+- Knowledge-Management
 - Code Review
 - MCP
 - AI Agents

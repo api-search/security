@@ -36,6 +36,6 @@ tags:
 - Payments
 - Prepaid
 - Consumer
-- eCommerce
+- E-Commerce
 - Rewards
 ---

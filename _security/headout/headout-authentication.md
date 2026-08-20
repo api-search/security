@@ -69,12 +69,12 @@ summary_line: apiKey · 1 scheme
 tags:
 - Travel
 - Tours and Activities
-- Experiences
+- Experience
 - Attractions
 - Ticketing
 - Bookings
 - Marketplace
 - Partner API
-- Affiliate
-- Events
+- Affiliates
+- Event
 ---

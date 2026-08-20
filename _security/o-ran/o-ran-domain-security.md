@@ -42,7 +42,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Linux Foundation
 - Mobile Network
-- Open Source
+- Open-Source
 - RAN
 - Radio
 - Telecom

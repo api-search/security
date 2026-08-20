@@ -33,7 +33,7 @@ tags:
 - Company
 - Fintech
 - Insurance
-- InsurTech
+- Insurtech
 - Insurance Marketplace
 - Comparison Shopping
 - Small Business Insurance

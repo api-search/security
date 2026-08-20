@@ -36,7 +36,7 @@ tags:
 - Wellness
 - Practice Management
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Scheduling
 - Patient CRM
 ---

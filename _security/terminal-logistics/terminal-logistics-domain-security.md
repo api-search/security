@@ -33,7 +33,7 @@ tags:
 - Logistics
 - Supply Chain
 - Yard Management
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Yard Operating System
 ---

@@ -104,7 +104,7 @@ tags:
 - API Rating
 - API Search
 - APIs.json
-- Search Engine
+- Search Engines
 - API Catalog
 - Agent Discovery
 - MCP

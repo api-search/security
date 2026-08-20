@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rally/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Alternative Assets
 - Investing
 - Collectibles

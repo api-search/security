@@ -33,7 +33,7 @@ tags:
 - Company
 - Consumer
 - Hospitality
-- Ecommerce
+- E-Commerce
 - Procurement
 - Short-Term Rental
 - Home Decor

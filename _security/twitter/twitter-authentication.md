@@ -170,7 +170,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/x-api-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/authentication/twitter-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
-- Social Media
+- Social-Media
 - Microblogging
 - Real-Time Data
 - Streaming

@@ -35,6 +35,6 @@ tags:
 - Semiconductors
 - Analog Computing
 - Hardware
-- Machine Learning
+- Machine-Learning
 - Edge AI
 ---

@@ -56,7 +56,7 @@ tags:
 - Fintech
 - India
 - UPI
-- Subscriptions
+- Subscription
 - Payouts
 - Checkout
 trust_url: https://razorpay.com/docs/security/

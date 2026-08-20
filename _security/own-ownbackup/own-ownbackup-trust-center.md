@@ -34,6 +34,6 @@ tags:
 - Data Security
 - Compliance
 - Salesforce
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.owndata.com/security
 ---

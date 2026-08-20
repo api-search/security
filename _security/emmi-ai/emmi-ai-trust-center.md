@@ -20,12 +20,12 @@ tags:
 - Company
 - Engineering AI
 - Physics Simulation
-- Machine Learning
+- Machine-Learning
 - Deep Learning
 - Scientific Computing
 - CAE
 - CFD
 - Manufacturing
-- Open Source
+- Open-Source
 trust_url: https://emmi.ai/security-compliance
 ---

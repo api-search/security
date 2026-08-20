@@ -51,5 +51,5 @@ tags:
 - Collaboration
 - GraphQL
 - Team Productivity
-- Open Source
+- Open-Source
 ---

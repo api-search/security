@@ -36,5 +36,5 @@ tags:
 - Wellness
 - Retail
 - Cafe24
-- OAuth
+- Authentication
 ---

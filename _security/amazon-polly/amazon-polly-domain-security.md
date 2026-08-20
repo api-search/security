@@ -74,10 +74,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/security/amazon-polly-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Speech Synthesis
-- Text-To-Speech
+- Text-to-Speech
 - TTS
 - Voice
 - SSML

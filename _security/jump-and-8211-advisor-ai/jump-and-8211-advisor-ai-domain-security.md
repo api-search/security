@@ -37,5 +37,5 @@ tags:
 - Fintech
 - AI Assistant
 - Meeting Notes
-- Integrations
+- Integration
 ---

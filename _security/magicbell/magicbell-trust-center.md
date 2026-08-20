@@ -186,17 +186,17 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magicbell/refs/heads/main/security/magicbell-trust-center.yml
 summary_line: GDPR
 tags:
-- notifications
-- push notifications
-- in-app notifications
-- email
+- Notification
+- Push Notifications
+- In-App Notifications
+- Email
 - SMS
 - Slack
 - Microsoft Teams
-- webhooks
+- Webhook
 - notification inbox
-- multichannel
-- mobile push
-- web push
+- Multi-Channel
+- Mobile Push
+- Web Push
 trust_url: https://www.magicbell.com/security
 ---

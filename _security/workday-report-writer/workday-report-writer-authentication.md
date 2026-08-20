@@ -88,9 +88,9 @@ summary_line: http · 2 schemes
 tags:
 - Analytics
 - Enterprise
-- Erp
+- ERP
 - Financials
-- Hrms
+- HRMS
 - Reporting
-- Saas
+- Software-as-a-Service
 ---

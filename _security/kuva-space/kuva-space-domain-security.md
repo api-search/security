@@ -48,7 +48,7 @@ tags:
 - Safety And Security
 - Crisis Response
 - Climate
-- AI
+- Artificial Intelligence
 - Insights As A Service
 - Finland
 - Nordic Space

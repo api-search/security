@@ -82,6 +82,6 @@ tags:
 - AI Search
 - Full-Text Search
 - Hybrid Search
-- Open Source
+- Open-Source
 - Search
 ---

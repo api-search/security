@@ -46,7 +46,6 @@ tags:
 - Industrial
 - Enterprise Asset Management
 - Maintenance
-- Operations
 - Warehouse
 - EHS
 - SAP

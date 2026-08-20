@@ -32,7 +32,7 @@ tags:
 - Company
 - Meeting Rooms
 - Event Spaces
-- Coworking
+- Co-Working
 - Workspace Booking
 - Venue Marketplace
 - Bookings

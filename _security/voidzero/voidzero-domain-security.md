@@ -34,7 +34,7 @@ tags:
 - JavaScript
 - Build Tools
 - Toolchain
-- Open Source
+- Open-Source
 - Testing
 - Bundler
 ---

@@ -293,6 +293,5 @@ tags:
 - Authorization
 - Identity Governance
 - Identity Management
-- OAuth
 - OpenID Connect
 ---

@@ -47,5 +47,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pixelixe/refs/
 summary_line: http · 1 scheme
 tags:
 - Graphics
-- Images
+- Image
 ---

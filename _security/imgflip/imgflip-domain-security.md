@@ -60,9 +60,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imgflip/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Memes
-- Images
+- Image
 - GIFs
 - Entertainment
-- AI
-- Image Generation
+- Artificial Intelligence
+- Image-Generation
 ---

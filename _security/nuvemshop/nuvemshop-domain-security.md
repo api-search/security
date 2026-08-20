@@ -118,15 +118,15 @@ source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/security/nuvemshop-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- E-commerce
+- E-Commerce
 - Online Store
 - Latin America
 - Brazil
 - Argentina
 - Storefront
-- Products
-- Orders
+- Product
+- Order
 - Merchants
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 ---

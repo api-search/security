@@ -136,11 +136,11 @@ tags:
 - Video
 - Physical Security
 - Surveillance
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
-- Cameras
+- Camera
 - Analytics
 - License Plate Recognition
-- Webhooks
-- Integrations
+- Webhook
+- Integration
 ---

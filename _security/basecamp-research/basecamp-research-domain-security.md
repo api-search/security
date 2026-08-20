@@ -34,7 +34,7 @@ tags:
 - Biotechnology
 - Life Sciences
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Protein Structure
 - Genomics
 - Knowledge Graph

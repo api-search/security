@@ -30,14 +30,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swytchcode/refs/heads/main/security/swytchcode-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI agent tooling
+- AI / Agent Tooling
 - agentic middleware
-- API integration
-- API orchestration
+- API Integration
+- API Orchestration
 - API execution layer
 - LLM tool execution
-- MCP server
-- developer tools
-- API documentation
+- MCP Server
+- Developer Tools
+- API Documentation
 - API playground
 ---

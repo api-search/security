@@ -33,6 +33,6 @@ tags:
 - Retail
 - ATM
 - Self-Service
-- Point of Sale
+- Point-of-Sale
 - Fortune 1000
 ---

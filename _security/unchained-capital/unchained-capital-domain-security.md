@@ -56,11 +56,11 @@ tags:
 - Company
 - Bitcoin
 - Cryptocurrency
-- Financial Services
+- Financial-Services
 - Custody
 - Wealth Management
 - Lending
 - Retirement
 - Trading
-- Open Source
+- Open-Source
 ---

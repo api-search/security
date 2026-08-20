@@ -31,7 +31,7 @@ summary_line: trust center published
 tags:
 - Company
 - Note Taking
-- Knowledge Management
+- Knowledge-Management
 - Productivity
 - Artificial Intelligence
 - Meetings

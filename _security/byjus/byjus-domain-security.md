@@ -27,7 +27,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/byjus/refs/hea
 summary_line: DMARC
 tags:
 - Company
-- Edtech
+- EdTech
 - Education
 - E-Learning
 - Online Learning

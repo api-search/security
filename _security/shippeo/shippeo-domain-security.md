@@ -96,5 +96,5 @@ tags:
 - ETA
 - Freight
 - Supply Chain Visibility
-- SaaS
+- Software-as-a-Service
 ---

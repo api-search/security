@@ -33,7 +33,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/speak/refs/hea
 summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Language Learning
 - Education
 - EdTech

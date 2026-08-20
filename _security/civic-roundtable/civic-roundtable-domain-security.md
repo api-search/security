@@ -36,7 +36,7 @@ tags:
 - Public Sector
 - Government Operations
 - Collaboration
-- Knowledge Management
+- Knowledge-Management
 - CRM
 - Civic
 ---

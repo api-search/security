@@ -461,15 +461,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gofundme/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Crowdfunding
 - Donations
 - Payments
 - Peer-to-Peer Fundraising
 - Recurring Giving
-- Events
+- Event
 - Philanthropy
 - Social Impact
 - CRM
-- Webhooks
+- Webhook
 ---

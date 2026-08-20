@@ -59,5 +59,5 @@ tags:
 - Conversational AI
 - Voice
 - CRM
-- Go To Market
+- Go-To-Market
 ---

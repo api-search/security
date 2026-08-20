@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/realtymo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/realtymole/refs/heads/main/authentication/realtymole-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Real Estate
+- Real-Estate
 - Property Data
 - Rental Estimate
 - Valuation

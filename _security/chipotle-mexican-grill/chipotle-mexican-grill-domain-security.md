@@ -40,6 +40,6 @@ tags:
 - Mobile App
 - Quick Service Restaurant
 - Restaurant Technology
-- Restaurants
+- Restaurant
 - Rewards
 ---

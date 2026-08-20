@@ -51,7 +51,7 @@ tags:
 - Data License
 - Enterprise
 - Execution Management
-- Financial Services
+- Financial-Services
 - Market Data
 - News
 - Quantitative Analysis

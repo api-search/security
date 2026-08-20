@@ -53,6 +53,6 @@ tags:
 - Customer Data
 - Marketing Automation
 - Retail
-- eCommerce
+- E-Commerce
 - Push Notifications
 ---

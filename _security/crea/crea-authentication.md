@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://ddfapi-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/authentication/crea-authentication.yml
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Property Listings
 - MLS

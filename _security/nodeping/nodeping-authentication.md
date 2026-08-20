@@ -88,6 +88,6 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Monitoring
 - Uptime
-- Notifications
-- SaaS
+- Notification
+- Software-as-a-Service
 ---

@@ -40,9 +40,9 @@ tags:
 - Infrastructure
 - GPU
 - AI Compute
-- Data Center
+- Data-Center
 - Sustainability
-- IaaS
+- Infrastructure-as-a-Service
 - Hosting
 - Storage
 ---

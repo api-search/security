@@ -69,7 +69,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Access Control
 - Authorization
-- Cloud Native
+- Cloud-Native
 - Fine-Grained
 - Incubating
 - Zanzibar

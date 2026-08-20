@@ -85,9 +85,9 @@ tags:
 - Campaigns
 - Automation
 - Contacts
-- Lists
+- List
 - Marketing
-- Webhooks
+- Webhook
 - Transactional Email
 - Subscriber Management
 - Reporting

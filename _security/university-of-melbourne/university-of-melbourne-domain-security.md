@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: university-of-melbourne-sudo-geonode-openapi.yml
+  format: yaml
+  label: Spatial Urban Data Observatory (SUDO) API
+  slug: sudo-spatial-urban-data-observatory
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-sudo-geonode-openapi.yml
+- filename: university-of-melbourne-minerva-access-dspace-openapi.yml
+  format: yaml
+  label: Minerva Access Repository REST API (DSpace 7.6)
+  slug: minerva-access-rest
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-minerva-access-dspace-openapi.yml
+- filename: university-of-melbourne-minerva-access-oai-pmh-openapi.yml
+  format: yaml
+  label: Minerva Access OAI-PMH 2.0 Endpoint
+  slug: minerva-access-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-minerva-access-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,12 +72,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/security/university-of-melbourne-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Australia
-- Open Data
+- Group of Eight
 - Research
+- Research Data
+- Research Repository
+- Open Data
+- Geospatial
+- Identity Federation
 - Library
-- Repository
 ---

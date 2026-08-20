@@ -33,7 +33,7 @@ tags:
 - Construction
 - BTP
 - ERP
-- SaaS
+- Software-as-a-Service
 - Invoicing
 - Project Management
 - Accounting

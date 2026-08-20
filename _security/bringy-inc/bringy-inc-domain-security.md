@@ -30,8 +30,8 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Insurance
-- InsurTech
-- Financial Services
+- Insurtech
+- Financial-Services
 - Insurance Brokerage
 - Fintech
 - Egypt

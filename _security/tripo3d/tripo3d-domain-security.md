@@ -40,10 +40,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tripo3d/refs/heads/main/security/tripo3d-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - 3D
 - Generation
-- API
 - Mesh
 - Texturing
 ---

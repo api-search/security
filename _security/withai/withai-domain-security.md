@@ -39,6 +39,6 @@ tags:
 - AI Agents
 - Investment Management
 - Hedge Funds
-- Financial Services
+- Financial-Services
 - Investment Research
 ---

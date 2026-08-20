@@ -31,12 +31,12 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Technology
-- FinTech
+- Fintech
 - Brokerage
 - Trading
 - Market Data
 - Stocks
 - Options
 - Investing
-- Financial Services
+- Financial-Services
 ---

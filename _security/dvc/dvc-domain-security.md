@@ -46,5 +46,5 @@ tags:
 - MLOps
 - Versioning
 - CLI
-- Open Source
+- Open-Source
 ---

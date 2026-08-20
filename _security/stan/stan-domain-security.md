@@ -41,7 +41,7 @@ tags:
 - Creator Economy
 - Link in Bio
 - Digital Products
-- Ecommerce
+- E-Commerce
 - Content Monetization
 - Payments
 ---

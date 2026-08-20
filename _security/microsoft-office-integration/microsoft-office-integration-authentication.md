@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsof
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-integration/refs/heads/main/authentication/microsoft-office-integration-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Microsoft 365
+- Microsoft-365
 - Microsoft Office Integration
 - Office 365
 ---

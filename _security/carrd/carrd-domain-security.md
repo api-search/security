@@ -31,10 +31,10 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Website Builder
-- No Code
+- No-Code
 - Landing Pages
 - Web Hosting
 - Site Builder
 - Forms
-- SaaS
+- Software-as-a-Service
 ---

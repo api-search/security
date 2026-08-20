@@ -87,7 +87,7 @@ tags:
 - Billing
 - Usage-Based Billing
 - Metering
-- Subscriptions
+- Subscription
 - Invoicing
 - FinOps
 trust_url: https://security.withorb.com/

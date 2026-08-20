@@ -51,7 +51,7 @@ tags:
 - Travel
 - Luggage
 - Backpacks
-- Ecommerce
+- E-Commerce
 - Retail
 - Sustainability
 - Agentic Commerce

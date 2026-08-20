@@ -30,13 +30,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finbotsai/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Credit Risk
 - Credit Scoring
 - Fintech
 - Lending
 - Banking
-- Machine Learning
+- Machine-Learning
 - Risk Management
 - Singapore
 ---

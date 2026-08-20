@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Fashion
-- E-commerce
+- E-Commerce
 - Styling
 - Shopping
 - Outfits

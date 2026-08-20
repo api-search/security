@@ -68,7 +68,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/impartner/refs
 summary_line: oauth2/openIdConnect/apiKey · 3 schemes
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Partner Relationship Management
 - PRM
 - Channel Management

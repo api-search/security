@@ -86,7 +86,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/ref
 summary_line: SOC 2 Type II
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Search
 - Answer Engine Optimization
 - Generative Engine Optimization

@@ -65,9 +65,9 @@ summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Artificial Intelligence
 - Deep Learning
-- Glossaries
+- Glossary
 - Localization
-- Machine Learning
+- Machine-Learning
 - Machine Translation
 - Translation
 trust_url: https://deepl.safebase.us/

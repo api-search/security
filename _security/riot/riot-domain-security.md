@@ -125,17 +125,17 @@ source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/security/riot-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- cybersecurity
-- security-awareness
-- human-risk-management
-- phishing-simulation
+- Cybersecurity
+- Security Awareness
+- Human Risk Management
+- Phishing Simulation
 - employee-security
-- security-posture-management
+- Security Posture Management
 - breach-detection
-- email-security
-- saas-security
-- scim
-- webhooks
-- ocsf
-- france
+- Email Security
+- SaaS Security
+- SCIM
+- Webhook
+- OCSF
+- France
 ---

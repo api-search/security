@@ -91,7 +91,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/super-micro-co
 summary_line: TLSv1.3 · DMARC
 tags:
 - Servers
-- Data Center
+- Data-Center
 - Hardware
 - Server Management
 - Redfish

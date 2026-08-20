@@ -80,7 +80,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spredfast/refs
 summary_line: SOC 2 Type II, ISO/IEC 27001, ISO/IEC 27701, ISO 22301, PCI DSS, TrustArc Privacy Seal
 tags:
 - Company
-- Social Media
+- Social-Media
 - Social Media Management
 - Marketing
 - Social Marketing
@@ -88,8 +88,8 @@ tags:
 - Analytics
 - Engagement
 - Content Management
-- Webhooks
-- Events
+- Webhook
+- Event
 - Enterprise
 trust_url: ''
 ---

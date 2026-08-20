@@ -98,5 +98,5 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Donations
 - Fundraising
-- Nonprofits
+- Non-Profit
 ---

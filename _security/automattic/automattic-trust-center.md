@@ -79,8 +79,8 @@ tags:
 - Analytics
 - Domains
 - E-Commerce
-- Open Source
+- Open-Source
 - Developer Tools
-- Model Context Protocol
+- MCP
 trust_url: https://wpvip.com/trust/
 ---

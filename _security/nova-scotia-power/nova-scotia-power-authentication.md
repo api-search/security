@@ -50,5 +50,5 @@ tags:
 - Solar
 - EV Charging
 - Energy Markets
-- Regulation
+- Regulations
 ---

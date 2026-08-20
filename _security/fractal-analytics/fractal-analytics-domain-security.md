@@ -36,7 +36,7 @@ tags:
 - Consulting
 - Agentic AI
 - Enterprise AI
-- Machine Learning
+- Machine-Learning
 - Decision Intelligence
 - Professional Services
 ---

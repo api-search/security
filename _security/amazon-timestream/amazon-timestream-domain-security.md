@@ -64,6 +64,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-timestr
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Database
-- Iot
+- IoT
 - Time Series
 ---

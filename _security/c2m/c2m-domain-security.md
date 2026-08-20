@@ -33,6 +33,6 @@ tags:
 - Messaging
 - Chat
 - Mobile
-- Communication
+- Communications
 - Consumer
 ---

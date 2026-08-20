@@ -94,15 +94,15 @@ source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: openapi/nuvemsho
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/authentication/nuvemshop-authentication.yml
 summary_line: apiKey/oauth2 · 1 scheme
 tags:
-- E-commerce
+- E-Commerce
 - Online Store
 - Latin America
 - Brazil
 - Argentina
 - Storefront
-- Products
-- Orders
+- Product
+- Order
 - Merchants
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 ---

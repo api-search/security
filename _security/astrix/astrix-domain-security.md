@@ -37,6 +37,6 @@ tags:
 - AI Agent Security
 - ITDR
 - Secrets Management
-- OAuth
+- Authentication
 - MCP Security
 ---

@@ -34,6 +34,6 @@ tags:
 - Conversational AI
 - Shopping Assistant
 - Retail Technology
-- SaaS
+- Software-as-a-Service
 - Sales Agent
 ---

@@ -30,7 +30,7 @@ tags:
 - Infinite Canvas
 - Node-Based Workflows
 - Creative Workspace
-- Image Generation
+- Image-Generation
 - Video Generation
 - Text-to-Image
 - Text-to-Video
@@ -49,6 +49,6 @@ tags:
 - FAUNA
 - MCP
 - Agent Tools
-- Workflow Automation
+- Workflow-Automation
 trust_url: https://trust.flora.ai/
 ---

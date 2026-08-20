@@ -119,5 +119,5 @@ tags:
 - 3D Secure
 - Risk Scoring
 - Payments
-- Machine Learning
+- Machine-Learning
 ---

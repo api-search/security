@@ -41,7 +41,7 @@ tags:
 - DevOps
 - FinOps
 - Kubernetes
-- Machine Learning
+- Machine-Learning
 - Resource Management
 - Rightsizing
 ---

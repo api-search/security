@@ -86,10 +86,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/he
 summary_line: http · 1 scheme
 tags:
 - CRM
-- Open Source
+- Open-Source
 - REST
 - GraphQL
-- Webhooks
+- Webhook
 - Self-Hosted
 - Companies
 - People

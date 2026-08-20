@@ -384,13 +384,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bentoml-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/authentication/bentoml-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- machine learning
-- model serving
-- inference
-- AI
+- Machine-Learning
+- Model Serving
+- Inference
+- Artificial Intelligence
 - REST API
 - MLOps
-- deployment
+- Deployment
 - GPU
 - LLM
 - BentoCloud

@@ -37,6 +37,6 @@ tags:
 - Defense
 - Software Delivery
 - Compliance
-- Open Source
+- Open-Source
 - Air Gap
 ---

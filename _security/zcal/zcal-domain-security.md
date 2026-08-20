@@ -58,5 +58,5 @@ tags:
 - Calendar
 - Booking
 - Meetings
-- Webhooks
+- Webhook
 ---

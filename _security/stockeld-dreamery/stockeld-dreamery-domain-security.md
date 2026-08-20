@@ -36,6 +36,6 @@ tags:
 - Plant-Based
 - Sustainability
 - CPG
-- Foodservice
+- Food Service
 - Sweden
 ---

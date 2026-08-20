@@ -152,5 +152,5 @@ tags:
 - Checkout
 - In-Game Purchases
 - Web Store
-- eCommerce
+- E-Commerce
 ---

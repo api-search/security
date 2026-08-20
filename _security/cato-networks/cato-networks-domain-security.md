@@ -44,5 +44,4 @@ tags:
 - SD-WAN
 - Zero Trust
 - GraphQL
-- API
 ---

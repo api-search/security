@@ -37,5 +37,5 @@ tags:
 - Artificial Intelligence
 - Natural Language Processing
 - Voice of Customer
-- SaaS
+- Software-as-a-Service
 ---

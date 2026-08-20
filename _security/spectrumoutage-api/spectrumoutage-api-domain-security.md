@@ -40,16 +40,16 @@ source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/security/spectrumoutage-api-domain-security.yml
 summary_line: TLSv1.2
 tags:
-- spectrum
+- Spectrum
 - outage
-- internet
-- tv
-- phone
-- monitoring
-- status
-- zip-code
-- telecom
-- isp
+- Internet
+- TV
+- Phone
+- Monitoring
+- Status
+- ZIP Code
+- Telecom
+- ISP
 - network-status
-- crowdsourced
+- Crowdsourced
 ---

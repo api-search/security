@@ -30,6 +30,6 @@ summary_line: TLSv1.3
 tags:
 - Credit Union
 - Banking
-- Financial Services
+- Financial-Services
 - Philadelphia
 ---

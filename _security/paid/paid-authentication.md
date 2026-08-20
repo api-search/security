@@ -166,7 +166,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paid/refs/head
 summary_line: http · 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Billing
 - Monetization
 - Payments

@@ -36,6 +36,6 @@ tags:
 - HR
 - Employee Engagement
 - Learning and Development
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 ---

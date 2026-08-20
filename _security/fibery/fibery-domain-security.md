@@ -48,5 +48,5 @@ tags:
 - No-Code
 - Automation
 - GraphQL
-- Webhooks
+- Webhook
 ---

@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/national
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-weather-service/refs/heads/main/authentication/national-weather-service-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Federal Government
+- Federal-Government
 - Forecasting
 - Weather
 ---

@@ -35,7 +35,7 @@ tags:
 - Energy
 - Asset Management
 - Software
-- SaaS
+- Software-as-a-Service
 - Analytics
 - Energy Optimization
 ---

@@ -41,5 +41,5 @@ tags:
 - Franchise
 - Healthcare
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 ---

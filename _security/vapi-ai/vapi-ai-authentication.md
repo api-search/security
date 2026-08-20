@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vapi-ana
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vapi-ai/refs/heads/main/authentication/vapi-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Voice AI
 - Voice Agents
 - Conversational AI

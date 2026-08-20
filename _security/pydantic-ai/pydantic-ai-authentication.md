@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pydantic
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/authentication/pydantic-ai-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Python
 - LLM

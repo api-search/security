@@ -54,7 +54,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tessl/refs/hea
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Agents
 - Agentic Development
 - Developer Tools

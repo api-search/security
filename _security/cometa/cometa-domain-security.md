@@ -33,7 +33,7 @@ tags:
 - Education
 - EdTech
 - School Management
-- SaaS
+- Software-as-a-Service
 - Admissions
 - Tuition Collections
 - Communications

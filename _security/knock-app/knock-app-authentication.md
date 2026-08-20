@@ -252,7 +252,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\ndocs: https://docs.knoc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knock-app/refs/heads/main/authentication/knock-app-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Notifications
+- Notification
 - Messaging
 - Infrastructure
 - Workflows
@@ -263,7 +263,7 @@ tags:
 - In-App
 - Chat
 - Slack
-- Webhooks
+- Webhook
 - MCP
 - AI Agents
 - Developer Platform

@@ -36,5 +36,5 @@ tags:
 - Insurance
 - Benefits Administration
 - Human Resources
-- InsurTech
+- Insurtech
 ---

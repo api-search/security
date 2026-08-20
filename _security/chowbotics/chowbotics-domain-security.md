@@ -32,7 +32,7 @@ tags:
 - Company
 - Robotics
 - Food Technology
-- Foodservice
+- Food Service
 - Automation
 - Acquired
 - DoorDash

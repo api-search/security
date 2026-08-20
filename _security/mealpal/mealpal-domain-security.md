@@ -34,6 +34,6 @@ tags:
 - Consumer
 - Food
 - Meal Subscription
-- Restaurants
+- Restaurant
 - Mobile App
 ---

@@ -87,13 +87,13 @@ tags:
 - Diagramming
 - Event Management
 - Event Marketing
-- Events
+- Event
 - Exhibitors
 - Hospitality
 - Hospitality Cloud
 - Hybrid Events
 - Meetings
-- OAuth 2.0
+- Authentication
 - Passkey
 - Registration
 - REST API
@@ -104,6 +104,6 @@ tags:
 - Venue Management
 - Venue Sourcing
 - Virtual Events
-- Webhooks
+- Webhook
 - White Label
 ---

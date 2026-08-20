@@ -41,8 +41,8 @@ tags:
 - Inference
 - LLM
 - SDK
-- Machine Learning
+- Machine-Learning
 - Edge AI
 - Apple Silicon
-- Text to Speech
+- Text-to-Speech
 ---

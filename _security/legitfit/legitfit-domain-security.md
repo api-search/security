@@ -36,7 +36,7 @@ tags:
 - Scheduling
 - Memberships
 - Payments
-- SaaS
+- Software-as-a-Service
 - MCP
 - Ireland
 ---

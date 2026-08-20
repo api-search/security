@@ -69,7 +69,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
 - Cryptocurrency
-- Wallet
+- Wallets
 - Payments
 - DeFi
 - Blockchain

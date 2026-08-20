@@ -36,6 +36,6 @@ tags:
 - Veterinary
 - Equine Health
 - Computed Tomography
-- Health Care
+- Healthcare
 - Hardware
 ---

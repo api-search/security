@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ulysses/refs/h
 summary_line: ISO 27001
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Frontline Operations
 - Manufacturing
 - Food Safety

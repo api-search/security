@@ -55,7 +55,7 @@ summary_line: SOC 2, ISO 27001, PCI DSS, FedRAMP, GDPR, CSA STAR
 tags:
 - Logging
 - Observability
-- Open Source
+- Open-Source
 - Grafana
 trust_url: https://trust.grafana.com/
 ---

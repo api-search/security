@@ -29,6 +29,5 @@ tags:
 - Instant Payments
 - Bank Transfers
 - Disbursements
-- API
 trust_url: https://trust.astrafi.com/
 ---

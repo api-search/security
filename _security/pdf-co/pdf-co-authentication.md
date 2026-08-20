@@ -92,7 +92,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - PDF
 - Document Automation
-- AI
+- Artificial Intelligence
 - OCR
 - Invoice Parsing
 - Document Parsing

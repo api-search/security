@@ -32,7 +32,7 @@ tags:
 - Company
 - Fintech
 - Banking as a Service
-- Financial Services
+- Financial-Services
 - Lending
 - Credit
 - Mobile Money

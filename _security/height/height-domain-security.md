@@ -86,6 +86,6 @@ tags:
 - Task Management
 - Collaboration
 - Productivity
-- Workflow Automation
-- AI
+- Workflow-Automation
+- Artificial Intelligence
 ---

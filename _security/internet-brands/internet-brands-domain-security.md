@@ -36,6 +36,6 @@ tags:
 - Legal
 - Dental
 - Automotive
-- SaaS
+- Software-as-a-Service
 - Holding Company
 ---

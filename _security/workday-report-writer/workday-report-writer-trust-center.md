@@ -71,10 +71,10 @@ summary_line: SOC 2, ISO 27001, FedRAMP, GDPR
 tags:
 - Analytics
 - Enterprise
-- Erp
+- ERP
 - Financials
-- Hrms
+- HRMS
 - Reporting
-- Saas
+- Software-as-a-Service
 trust_url: https://security.workday.com/
 ---

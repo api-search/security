@@ -267,7 +267,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Affiliate Marketing
 - Referral Tracking
-- SaaS
+- Software-as-a-Service
 - Commission Management
 - Reward Distribution
 - Promoters
@@ -275,6 +275,6 @@ tags:
 - Influencer Marketing
 - Payouts
 - Attribution
-- Webhooks
+- Webhook
 - MCP
 ---

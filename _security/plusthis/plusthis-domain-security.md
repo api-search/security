@@ -34,10 +34,10 @@ tags:
 - Marketing
 - CRM
 - Sales
-- No Code
+- No-Code
 - Automation
 - Integration
-- Webhooks
+- Webhook
 - Email Marketing
 - SMS
 - Small Business

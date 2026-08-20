@@ -99,8 +99,8 @@ tags:
 - Avatars
 - Replicas
 - Personalization
-- Real Time
+- Real-Time
 - CVI
-- Webhooks
+- Webhook
 trust_url: https://trust.tavus.io/
 ---

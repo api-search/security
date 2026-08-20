@@ -33,7 +33,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Biopharma
-- Pharmaceutical
+- Pharmaceuticals
 - Life Sciences
 - Drug Development
 - Knowledge Work

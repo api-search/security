@@ -124,14 +124,14 @@ tags:
 - LatAm
 - Andean Region
 - Card Payments
-- Subscriptions
+- Subscription
 - Cash
 - Bank Transfers
 - Payouts
 - PSE
 - Webpay
 - SPEI
-- PIX
+- Pix
 - OXXO
 - PagoEfectivo
 - Fintech

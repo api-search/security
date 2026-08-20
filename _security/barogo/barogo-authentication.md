@@ -72,10 +72,10 @@ tags:
 - Logistics
 - Last Mile Delivery
 - Food Delivery
-- Courier
+- Couriers
 - Fulfillment
-- Orders
-- Webhooks
+- Order
+- Webhook
 - South Korea
 - Transportation
 - Marketplace

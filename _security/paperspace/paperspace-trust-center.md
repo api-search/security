@@ -172,8 +172,8 @@ summary_line: SOC 2, ISO 27001, PCI DSS
 tags:
 - GPU
 - Cloud
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Deep Learning
 - Compute
 - DigitalOcean

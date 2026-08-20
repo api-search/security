@@ -37,5 +37,5 @@ tags:
 - Marketplace
 - Wholesale
 - Retail
-- Ecommerce
+- E-Commerce
 ---

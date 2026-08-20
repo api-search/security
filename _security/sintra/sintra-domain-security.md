@@ -42,8 +42,8 @@ tags:
 - Automation
 - No-Code
 - Productivity
-- Customer Support
+- Customer-Support
 - Marketing
-- SaaS
+- Software-as-a-Service
 - Small Business
 ---

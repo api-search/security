@@ -60,12 +60,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/attendease/ref
 summary_line: 4 schemes
 tags:
 - Company
-- Events
+- Event
 - Event Management
 - Event Marketing
 - Conferences
 - Webinars
 - Attendees
 - Registration
-- SaaS
+- Software-as-a-Service
 ---

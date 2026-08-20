@@ -37,5 +37,5 @@ tags:
 - Deep Tech
 - Chip Foundry
 - Hardware
-- Data Center
+- Data-Center
 ---

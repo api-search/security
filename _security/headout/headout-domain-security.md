@@ -80,12 +80,12 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Travel
 - Tours and Activities
-- Experiences
+- Experience
 - Attractions
 - Ticketing
 - Bookings
 - Marketplace
 - Partner API
-- Affiliate
-- Events
+- Affiliates
+- Event
 ---

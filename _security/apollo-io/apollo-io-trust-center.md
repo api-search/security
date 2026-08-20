@@ -107,6 +107,6 @@ tags:
 - Sales Engagement
 - Conversation Intelligence
 - MCP
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.apollo.io/
 ---

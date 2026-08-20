@@ -33,8 +33,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emtech/refs/he
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Financial Services
-- Regtech
+- Financial-Services
+- RegTech
 - Central Banking
 - CBDC
 - Digital Currency

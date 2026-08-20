@@ -51,10 +51,10 @@ tags:
 - Company
 - Classifieds
 - Marketplace
-- Real Estate
+- Real-Estate
 - Automotive
-- Jobs
-- Ecommerce
+- Job
+- E-Commerce
 - India
 - Developer Platform
 ---

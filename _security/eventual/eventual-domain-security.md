@@ -36,13 +36,13 @@ tags:
 - Company
 - Data
 - Data Engine
-- AI
-- Multimodal
+- Artificial Intelligence
+- Multi-Modal
 - Analytics
-- Open Source
+- Open-Source
 - Python
 - Rust
-- Dataframe
+- DataFrame
 - Physical AI
 - Distributed Computing
 ---

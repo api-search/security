@@ -62,12 +62,12 @@ tags:
 - Professional Services
 - Big Four
 - Advisory
-- AI
+- Artificial Intelligence
 - Trusted AI
 - ESG
 - Sustainability
 - Risk
-- Regulation
+- Regulations
 - Cybersecurity
 - Strategy
 - Technology

@@ -387,7 +387,7 @@ tags:
 - Push Notifications
 - Data Import
 - Privacy
-- Ecommerce
+- E-Commerce
 - Customer Data
 - Transactional Messaging
 - Segmentation

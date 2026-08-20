@@ -75,9 +75,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/security/layercode-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Voice
 - Voice Agents
-- Realtime
+- Real-Time
 - Low Latency
 ---

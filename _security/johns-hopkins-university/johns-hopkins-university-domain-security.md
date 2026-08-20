@@ -1,14 +1,20 @@
 ---
 api_specs:
+- filename: johns-hopkins-university-hub-api-openapi.yml
+  format: yaml
+  label: JHU Hub API
+  slug: hub
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/openapi/johns-hopkins-university-hub-api-openapi.yml
 - filename: johns-hopkins-university-classes-api-openapi.yml
   format: yaml
-  label: Johns Hopkins University Classes API
+  label: Johns Hopkins University SIS Classes API
   slug: johns-hopkins-university-classes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/openapi/johns-hopkins-university-classes-api-openapi.yml
 - filename: johns-hopkins-university-codes-api-openapi.yml
   format: yaml
-  label: Johns Hopkins University Codes API
+  label: Johns Hopkins University SIS Codes API
   slug: johns-hopkins-university-codes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/openapi/johns-hopkins-university-codes-api-openapi.yml
@@ -53,11 +59,17 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/security/johns-hopkins-university-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Course Catalog
-- News
+- Higher Education
+- Education
 - United States
+- Private Research University
+- Association of American Universities
+- Research
+- Research Data
+- Course Catalog
+- Identity Federation
+- OAI-PMH
+- Research Repository
+- News
 ---

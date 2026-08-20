@@ -34,7 +34,7 @@ tags:
 - Consumer
 - E-Commerce
 - Subscription
-- Direct-to-Consumer
+- Direct to Consumer
 - Retail
 - Grooming
 - Personal Care

@@ -216,7 +216,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/structify/refs
 summary_line: SOC 2 Type II, HIPAA, CMMC, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Data
 - Web Scraping
 - Data Extraction

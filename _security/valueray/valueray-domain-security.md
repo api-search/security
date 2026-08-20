@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/valueray/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - AI/LLM
-- ETF
+- ETFs
 - Financial Data
 - Quantitative
 - Stocks

@@ -170,6 +170,6 @@ tags:
 - Voice
 - Communications
 - CPaaS
-- Webhooks
+- Webhook
 - AI Agents
 ---

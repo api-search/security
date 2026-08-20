@@ -48,8 +48,8 @@ tags:
 - Company
 - Payments
 - Cross-Border Payments
-- Real Estate
-- FinTech
+- Real-Estate
+- Fintech
 - Philippines
 - Multi-Currency
 - Remittance

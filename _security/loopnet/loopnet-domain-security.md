@@ -41,7 +41,7 @@ tags:
 - Commercial Real Estate
 - Property Listings
 - CRE
-- Real Estate
+- Real-Estate
 - Market Analytics
 - CoStar
 - Lease Rates

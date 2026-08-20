@@ -93,5 +93,5 @@ tags:
 - Solana
 - Crypto Web3
 - Market Data
-- Webhooks
+- Webhook
 ---

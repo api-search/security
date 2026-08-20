@@ -94,7 +94,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Contingent Workforce
 - External Talent
-- Human Capital Management
+- HCM
 - Services Procurement
 - Statements of Work
 - Vendor Management

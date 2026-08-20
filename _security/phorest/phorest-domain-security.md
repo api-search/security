@@ -135,7 +135,7 @@ tags:
 - Salon Software
 - Spa Software
 - Scheduling
-- Point of Sale
+- Point-of-Sale
 - Business Management
 - Vertical SaaS
 ---

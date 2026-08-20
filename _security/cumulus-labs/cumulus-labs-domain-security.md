@@ -41,7 +41,7 @@ tags:
 - LLM
 - AI Infrastructure
 - GPU
-- Machine Learning
+- Machine-Learning
 - Model Serving
 - Fine-Tuning
 - API Gateway

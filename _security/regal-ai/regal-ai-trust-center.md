@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/security/regal-ai-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR, CCPA
 tags:
-- AI
+- Artificial Intelligence
 - AI Agents
 - Voice AI
 - Contact Center

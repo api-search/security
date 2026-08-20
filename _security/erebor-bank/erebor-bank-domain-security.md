@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Banking
-- Financial Services
+- Financial-Services
 - Business Banking
 - Fintech
 - Payments

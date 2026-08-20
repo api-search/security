@@ -76,7 +76,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/istock/refs/he
 summary_line: apiKey/http · 2 schemes
 tags:
 - Stock Media
-- Images
+- Image
 - Video
 - Illustrations
 - Royalty-Free

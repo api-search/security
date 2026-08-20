@@ -31,11 +31,11 @@ tags:
 - Code Generation
 - OpenAPI
 - Swagger
-- SDKs
+- SDK
 - TypeScript
 - Developer Tools
 - CLI
-- Open Source
+- Open-Source
 - Mocking
 - Schema Validation
 ---

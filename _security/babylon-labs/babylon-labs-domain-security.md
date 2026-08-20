@@ -64,5 +64,4 @@ tags:
 - Proof of Stake
 - DeFi
 - Staking
-- API
 ---

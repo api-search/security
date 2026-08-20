@@ -86,8 +86,8 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Backup
 - Block Storage
-- Cloud Native
+- Cloud-Native
 - Incubating
 - Kubernetes
-- Persistent Volumes
+- PersistentVolumes
 ---

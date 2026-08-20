@@ -48,7 +48,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-liberty/r
 summary_line: http · 1 scheme
 tags:
 - Application Server
-- Cloud Native
+- Cloud-Native
 - IBM
 - Jakarta EE
 - Java

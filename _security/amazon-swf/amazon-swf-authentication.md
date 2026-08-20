@@ -255,5 +255,5 @@ summary_line: apiKey · 1 scheme
 tags:
 - Automation
 - Task Coordination
-- Workflow
+- Workflows
 ---

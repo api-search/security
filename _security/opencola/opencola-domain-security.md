@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opencola/refs/
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Open Source
+- Open-Source
 - Decentralization
 - Local-First
 - Personal Data

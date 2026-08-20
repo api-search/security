@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Retail
-- Point of Sale
+- Point-of-Sale
 - Unified Commerce
 - Omnichannel
 - Order Management
@@ -39,5 +39,5 @@ tags:
 - Loyalty
 - CRM
 - Retail Analytics
-- SaaS
+- Software-as-a-Service
 ---

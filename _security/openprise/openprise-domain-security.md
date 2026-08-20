@@ -37,7 +37,7 @@ tags:
 - Data Enrichment
 - Deduplication
 - Marketing Operations
-- RevOps
+- Revenue Operations
 - Sales Operations
-- Go To Market
+- Go-To-Market
 ---

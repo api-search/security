@@ -35,5 +35,5 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Internet
 - Network
-- Data Center
+- Data-Center
 ---

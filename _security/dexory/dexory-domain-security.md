@@ -39,5 +39,5 @@ tags:
 - Warehouse Automation
 - Digital Twin
 - Physical AI
-- Computer Vision
+- Computer-Vision
 ---

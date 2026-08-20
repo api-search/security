@@ -101,10 +101,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/neonone-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/authentication/neonone-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Nonprofit
+- Non-Profit
 - CRM
 - Fundraising
 - Donor Management
 - Membership Management
-- Events
+- Event
 ---

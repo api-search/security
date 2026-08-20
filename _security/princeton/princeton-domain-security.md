@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: princeton-allsearch-api-openapi.yml
+  format: yaml
+  label: Princeton University Library Allsearch API
+  slug: allsearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-allsearch-api-openapi.yml
+- filename: princeton-art-museum-api-openapi.yml
+  format: yaml
+  label: Princeton University Art Museum API
+  slug: art-museum-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-art-museum-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -36,12 +49,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/security/princeton-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Ivy League
 - United States
+- New Jersey
+- Research Library
+- Research Data
 - Open Data
+- Digital Collections
+- Identity Federation
 - Museum
-- Library
 ---

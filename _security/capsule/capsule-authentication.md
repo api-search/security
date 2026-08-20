@@ -66,6 +66,6 @@ tags:
 - Project Management
 - REST
 - Sales
-- Tasks
-- Webhooks
+- Task
+- Webhook
 ---

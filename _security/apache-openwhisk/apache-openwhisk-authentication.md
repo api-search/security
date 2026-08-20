@@ -65,11 +65,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apache-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/authentication/apache-openwhisk-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Cloud Native
+- Cloud-Native
 - Event-Driven
-- FaaS
+- Function-as-a-Service
 - Serverless
 - Apache
-- Open Source
+- Open-Source
 - Functions
 ---

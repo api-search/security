@@ -70,7 +70,7 @@ tags:
 - DeFi
 - Risk Management
 - Yield
-- Vaults
+- Vault
 - Blockchain
 - Web3
 - Financial Modeling

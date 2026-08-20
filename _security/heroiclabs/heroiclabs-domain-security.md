@@ -59,7 +59,7 @@ tags:
 - Matchmaking
 - Leaderboards
 - Social Gaming
-- Open Source
+- Open-Source
 - LiveOps
 - gRPC
 ---

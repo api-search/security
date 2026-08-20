@@ -143,9 +143,9 @@ tags:
 - Enterprise AI
 - LLM
 - Agents
-- Model Context Protocol
+- MCP
 - Workflows
-- Knowledge Management
+- Knowledge-Management
 - Germany
 - Europe
 ---

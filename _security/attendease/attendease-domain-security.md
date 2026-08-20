@@ -45,12 +45,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/attendease/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Events
+- Event
 - Event Management
 - Event Marketing
 - Conferences
 - Webinars
 - Attendees
 - Registration
-- SaaS
+- Software-as-a-Service
 ---

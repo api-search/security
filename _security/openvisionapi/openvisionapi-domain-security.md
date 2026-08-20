@@ -27,6 +27,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openvisionapi/refs/heads/main/security/openvisionapi-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
-- Machine Learning
+- Machine-Learning
 - Public APIs
 ---

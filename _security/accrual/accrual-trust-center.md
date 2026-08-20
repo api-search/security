@@ -24,6 +24,6 @@ tags:
 - Assurance
 - Accounting Software
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.accrual.com
 ---

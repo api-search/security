@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/security/upload-post-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Social Media
+- Social-Media
 - Publishing
 - Video
 - Content

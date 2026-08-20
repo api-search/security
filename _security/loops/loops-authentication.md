@@ -194,8 +194,8 @@ tags:
 - Marketing Automation
 - Transactional Email
 - Lifecycle Email
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 - Communications
 - Developer Tools
 - MCP

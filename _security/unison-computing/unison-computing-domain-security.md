@@ -46,5 +46,5 @@ tags:
 - Developer Tools
 - Functional Programming
 - Distributed Systems
-- Platform as a Service
+- Platform-as-a-Service
 ---

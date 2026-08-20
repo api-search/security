@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Internal Tools
-- AI
+- Artificial Intelligence
 - Low-Code
 - No-Code
 - Automation

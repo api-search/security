@@ -54,7 +54,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/procuros/refs/
 summary_line: http · 1 scheme
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - EDI
 - E-Invoicing
 - Supply Chain

@@ -107,8 +107,8 @@ summary_line: apiKey/http · 3 schemes
 tags:
 - Commerce
 - Headless
-- eCommerce
-- Open Source
+- E-Commerce
+- Open-Source
 - Node.js
 - TypeScript
 - Framework

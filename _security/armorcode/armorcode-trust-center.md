@@ -26,6 +26,5 @@ tags:
 - Exposure Management
 - DevSecOps
 - Compliance
-- API
 trust_url: https://www.armorcode.com/security
 ---

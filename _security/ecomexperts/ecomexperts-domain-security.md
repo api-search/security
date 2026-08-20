@@ -31,13 +31,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ecomexperts/re
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - ERP
 - Omnichannel
 - Inventory Management
 - Electronic Invoicing
 - Marketplace Integration
 - Mercado Libre
-- SaaS
+- Software-as-a-Service
 - Latin America
 ---

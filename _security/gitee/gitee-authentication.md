@@ -122,6 +122,6 @@ tags:
 - Pull Requests
 - Issue Tracking
 - DevOps
-- Open Source
+- Open-Source
 - China
 ---

@@ -33,7 +33,7 @@ tags:
 - Payments
 - Group Payments
 - Fundraising
-- Nonprofits
+- Non-Profit
 - Schools
 - Forms
 - Fintech

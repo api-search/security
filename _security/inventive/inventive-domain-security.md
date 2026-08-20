@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inventive/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - RFP
 - Proposal Automation
 - Sales Enablement
 - Questionnaire
-- Knowledge Management
-- SaaS
+- Knowledge-Management
+- Software-as-a-Service
 ---

@@ -42,6 +42,6 @@ tags:
 - Network Analysis
 - Data Visualization
 - Graph Query
-- Machine Learning
+- Machine-Learning
 - Cybersecurity
 ---

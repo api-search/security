@@ -33,7 +33,7 @@ tags:
 - Human Resources
 - Earned Wage Access
 - On-Demand Pay
-- Financial Services
+- Financial-Services
 - Fintech
 - Money Transfer
 - Benefits

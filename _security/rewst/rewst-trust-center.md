@@ -19,13 +19,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rewst/refs/hea
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- Devops
+- DevOps
 - Automation
 - iPaaS
 - RPA
-- Workflow Automation
+- Workflow-Automation
 - MSP
 - Integration
-- Webhooks
+- Webhook
 trust_url: https://rewst.io/security
 ---

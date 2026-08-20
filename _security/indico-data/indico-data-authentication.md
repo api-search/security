@@ -73,7 +73,7 @@ tags:
 - Intelligent Document Processing
 - Intelligent Process Automation
 - Document AI
-- Machine Learning
+- Machine-Learning
 - Unstructured Data
 - Data Extraction
 - Insurance

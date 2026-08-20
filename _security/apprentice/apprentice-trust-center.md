@@ -24,7 +24,7 @@ tags:
 - Company
 - Healthcare
 - Life Sciences
-- Pharmaceutical
+- Pharmaceuticals
 - Manufacturing
 - Manufacturing Execution System
 - Cloud

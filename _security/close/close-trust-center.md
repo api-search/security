@@ -404,7 +404,7 @@ tags:
 - Pipeline Management
 - AI Agents
 - MCP
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 trust_url: https://trust.close.com/
 ---

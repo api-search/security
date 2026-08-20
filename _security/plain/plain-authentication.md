@@ -43,13 +43,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plain/refs/hea
 summary_line: apiKey/oauth2/mutualTLS · 4 schemes
 tags:
 - Company
-- Customer Support
+- Customer-Support
 - Customer Service
 - Help Desk
 - Support
-- SaaS
+- Software-as-a-Service
 - GraphQL
-- Webhooks
+- Webhook
 - MCP
 - Developer Tools
 ---

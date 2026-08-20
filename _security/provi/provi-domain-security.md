@@ -35,7 +35,7 @@ tags:
 - Alcohol
 - Marketplace
 - B2B
-- E-commerce
+- E-Commerce
 - Distribution
 - Hospitality
 ---

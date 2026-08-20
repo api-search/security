@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pluto/refs/hea
 summary_line: SOC 2, ISO 27001, HIPAA
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Healthcare
 - Clinical Intelligence
 - Health Data

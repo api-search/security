@@ -58,7 +58,7 @@ tags:
 - Home Improvement
 - ERP
 - Inventory
-- Point of Sale
+- Point-of-Sale
 - Accounting
 - Order Management
 ---

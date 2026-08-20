@@ -50,7 +50,7 @@ tags:
 - Anti-Money Laundering
 - Financial Crime
 - Risk Management
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Device Intelligence
 - Banking

@@ -35,7 +35,7 @@ tags:
 - Company
 - Consumer
 - Creator Commerce
-- Affiliate
+- Affiliates
 - E-Commerce
 - Influencer Marketing
 - Retail

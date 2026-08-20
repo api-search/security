@@ -25,6 +25,5 @@ tags:
 - Account Takeover
 - Agentic AI
 - Cybersecurity
-- API
 trust_url: https://trust.humansecurity.com/
 ---

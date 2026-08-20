@@ -73,9 +73,9 @@ summary_line: http · 1 scheme
 tags:
 - Data Transformation
 - Snowflake
-- Data Pipelines
+- Data Pipeline
 - Data Catalog
 - Data Quality
 - Analytics
-- AI
+- Artificial Intelligence
 ---

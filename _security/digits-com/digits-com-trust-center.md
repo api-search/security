@@ -76,7 +76,7 @@ tags:
 - Bookkeeping
 - Finance
 - General Ledger
-- AI
-- FinTech
+- Artificial Intelligence
+- Fintech
 trust_url: https://digits.com/security/
 ---

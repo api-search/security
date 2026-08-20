@@ -50,7 +50,7 @@ tags:
 - Contact Center
 - Power Dialer
 - CRM
-- Webhooks
+- Webhook
 - Communications
 - Revenue Operations
 ---

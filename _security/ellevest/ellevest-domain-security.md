@@ -32,11 +32,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ellevest/refs/heads/main/security/ellevest-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Financial Services
+- Financial-Services
 - Wealth Management
 - Investing
 - Financial Planning
 - Women Finance
 - Robo-Advisory
-- Portfolio Management
+- Portfolio-Management
 ---

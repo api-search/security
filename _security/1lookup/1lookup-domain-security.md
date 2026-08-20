@@ -36,14 +36,14 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/security/1lookup-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- phone validation
-- email validation
-- IP intelligence
-- fraud & risk
-- data enrichment
+- Phone Validation
+- Email Validation
+- IP Intelligence
+- Fraud and Risk
+- Data Enrichment
 - B2B contact & company data
 - SEO / web analytics
-- audio transcription
+- Audio Transcription
 - MCP / agent-native
 - REST API
 ---

@@ -28,9 +28,9 @@ tags:
 - Product Demos
 - Sales Enablement
 - Demo Analytics
-- Go-to-Market
+- Go-To-Market
 - AI-Powered
-- Webhooks
+- Webhook
 - MCP
 - Analytics
 trust_url: ''

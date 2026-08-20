@@ -32,7 +32,7 @@ tags:
 - Company
 - Pet
 - Insurance
-- Financial Services
+- Financial-Services
 - Credit Card
 - Consumer
 - Public Benefit Company

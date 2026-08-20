@@ -72,16 +72,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/security/positron-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- artificial-intelligence
-- ai-inference
+- Artificial Intelligence
+- AI Inference
 - inference-hardware
-- ai-accelerators
-- large-language-models
-- transformers
-- openai-compatible
-- machine-learning
-- semiconductors
-- data-center
+- AI Accelerators
+- Large Language Models
+- Transformers
+- OpenAI-Compatible
+- Machine-Learning
+- Semiconductors
+- Data-Center
 - llm-serving
-- model-hosting
+- Model Hosting
 ---

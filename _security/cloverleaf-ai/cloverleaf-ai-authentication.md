@@ -71,6 +71,6 @@ tags:
 - Procurement
 - RFP
 - Legislative Intelligence
-- Speech to Text
+- Speech-to-Text
 - Artificial Intelligence
 ---

@@ -39,5 +39,5 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Retail
 - Party Supplies
-- E-commerce
+- E-Commerce
 ---

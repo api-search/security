@@ -56,12 +56,12 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Inference
 - LLM
-- Image Generation
+- Image-Generation
 - Generative AI
 - Decentralized Compute
 - GPU
-- OpenAI Compatible
+- OpenAI-Compatible
 ---

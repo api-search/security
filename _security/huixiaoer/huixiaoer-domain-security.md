@@ -31,7 +31,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Enterprise
-- Events
+- Event
 - Meetings
 - Venue Booking
 - Hospitality

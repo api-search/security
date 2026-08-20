@@ -30,14 +30,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keel/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Operations
 - ERP
 - Backend
 - GraphQL
-- API
 - Low-Code
 - Developer Tools
-- Workflow
+- Workflows
 - Authentication
 - TypeScript
 ---

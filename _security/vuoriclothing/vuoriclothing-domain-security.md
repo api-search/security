@@ -35,8 +35,8 @@ tags:
 - Activewear
 - Athletic Clothing
 - Retail
-- E-commerce
-- Direct-to-Consumer
+- E-Commerce
+- Direct to Consumer
 - Shopify
 - Consumer Brand
 ---

@@ -105,7 +105,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imprint/refs/h
 summary_line: SOC 2, ISO 27001, PCI DSS
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Credit Cards
 - Co-Branded Cards

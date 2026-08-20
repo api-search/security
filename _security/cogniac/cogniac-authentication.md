@@ -42,9 +42,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cogniac/refs/h
 summary_line: apiKey/http/browserLogin · 4 schemes
 tags:
 - Company
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Visual Inspection
 - Defect Detection
 - Edge AI

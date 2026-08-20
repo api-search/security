@@ -21,12 +21,12 @@ summary_line: SOC 2 Type 2, HIPAA, GDPR
 tags:
 - Company
 - Fitness
-- Health & Wellness
+- Health and Wellness
 - Employee Wellbeing
 - Workouts
 - Mindfulness
 - Nutrition
 - Embeddable Components
-- SDKs
+- SDK
 trust_url: https://sworkit.com/security
 ---

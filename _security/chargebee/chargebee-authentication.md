@@ -78,9 +78,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chargebee/refs
 summary_line: http · 1 scheme
 tags:
 - Billing
-- Subscriptions
+- Subscription
 - Recurring Billing
 - Revenue
 - Payments
-- SaaS
+- Software-as-a-Service
 ---

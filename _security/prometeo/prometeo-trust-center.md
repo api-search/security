@@ -52,7 +52,7 @@ summary_line: ISO 27001, SOC 2, GDPR
 tags:
 - Open Banking
 - Payments
-- FinTech
+- Fintech
 - LatAm
 - Financial Data
 - Account Validation

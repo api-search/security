@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/worknmates/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Coworking
+- Co-Working
 - Flexible Workspace
 - Hybrid Work
 - Marketplace

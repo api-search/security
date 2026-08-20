@@ -27,7 +27,7 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - Startup
 - Venture Backed
 - Matrix Partners

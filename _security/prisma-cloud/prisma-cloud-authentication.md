@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/prisma-c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prisma-cloud/refs/heads/main/authentication/prisma-cloud-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Cloud Native
+- Cloud-Native
 - Cloud Security
 - Compliance
 - Containers

@@ -225,7 +225,7 @@ tags:
 - Compliance
 - Containers
 - Kubernetes
-- Open Source
+- Open-Source
 - Runtime Protection
 - Security
 - Vulnerability Scanning

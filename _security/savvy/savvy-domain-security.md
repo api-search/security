@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Wealth Management
-- Financial Services
+- Financial-Services
 - Investment Management
 - Financial Advisors
 - Financial Planning

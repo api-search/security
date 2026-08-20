@@ -55,9 +55,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/jina-ai-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/authentication/jina-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Embeddings
-- Machine Learning
+- Machine-Learning
 - Reranking
 - Search
 ---

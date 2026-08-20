@@ -37,7 +37,7 @@ tags:
 - Enterprise
 - Directory Sync
 - Google Workspace
-- Microsoft 365
+- Microsoft-365
 - Slack
 - Zoom
 ---

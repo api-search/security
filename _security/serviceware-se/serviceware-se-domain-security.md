@@ -34,7 +34,7 @@ tags:
 - Enterprise Service Management
 - IT Financial Management
 - Corporate Performance Management
-- Knowledge Management
+- Knowledge-Management
 - Field Service Management
 - Enterprise Software
 - Germany

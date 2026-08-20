@@ -56,15 +56,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chowbus/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Restaurants
-- Point of Sale
+- Restaurant
+- Point-of-Sale
 - Restaurant Technology
 - Food and Beverage
 - Online Ordering
 - Payments
 - Loyalty
 - Hospitality
-- SaaS
+- Software-as-a-Service
 - Artificial Intelligence
 - United States
 ---

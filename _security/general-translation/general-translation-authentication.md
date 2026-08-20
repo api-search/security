@@ -91,6 +91,6 @@ tags:
 - Developer Tools
 - Artificial Intelligence
 - i18n
-- SDKs
+- SDK
 - Machine Translation
 ---

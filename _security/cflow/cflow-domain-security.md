@@ -56,7 +56,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automations
 - Business Process Automation
-- Integrations
+- Integration
 - No-Code
 - Platform
 - Protocols

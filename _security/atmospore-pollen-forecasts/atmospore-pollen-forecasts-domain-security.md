@@ -64,16 +64,16 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/security/atmospore-pollen-forecasts-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- weather
-- pollen
-- allergy
-- environmental-data
-- health
-- geospatial
-- forecasting
-- smart-home
-- mcp
-- openapi
-- norway
-- climate
+- Weather
+- Pollen
+- Allergy
+- Environmental Data
+- Health
+- Geospatial
+- Forecasting
+- Smart Home
+- MCP
+- OpenAPI
+- Norway
+- Climate
 ---

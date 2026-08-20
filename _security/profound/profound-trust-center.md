@@ -26,7 +26,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/profound/refs/
 summary_line: SOC 2, HIPAA
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Answer Engine Optimization
 - AEO
 - AI Search

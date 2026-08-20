@@ -243,7 +243,7 @@ summary_line: trust center published
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Large Language Models
 - Generative AI
 - Sovereign AI
@@ -252,7 +252,7 @@ tags:
 - Semantic Search
 - Vector Search
 - Agents
-- Model Context Protocol
+- MCP
 - Germany
 - Enterprise Software
 - Government

@@ -23,9 +23,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liberate/refs/
 summary_line: SOC 2, HIPAA, PCI DSS, GDPR, CCPA
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Insurance
-- InsurTech
+- Insurtech
 - Voice AI
 - AI Agents
 - Workflow Orchestration

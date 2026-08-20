@@ -57,7 +57,7 @@ summary_line: http-basic/apiKey · 4 schemes
 tags:
 - Company
 - Ai Enterprise Software
-- Customer Support
+- Customer-Support
 - Conversational AI
 - Chatbots
 - AI Agents

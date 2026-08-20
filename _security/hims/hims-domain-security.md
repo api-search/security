@@ -43,5 +43,5 @@ tags:
 - Wellness
 - Pharmacy
 - Consumer
-- E-commerce
+- E-Commerce
 ---

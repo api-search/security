@@ -35,7 +35,7 @@ tags:
 - Cryptocurrency
 - Protocol
 - gRPC
-- Wallet
+- Wallets
 - Mining
 - Privacy
 - Web3

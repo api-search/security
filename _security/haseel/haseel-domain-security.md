@@ -36,6 +36,6 @@ tags:
 - Mobile App
 - Produce
 - Agriculture Technology
-- Last-Mile Delivery
+- Last Mile Delivery
 - Saudi Arabia
 ---

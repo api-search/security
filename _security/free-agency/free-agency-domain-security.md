@@ -35,7 +35,7 @@ tags:
 - Talent
 - Recruiting
 - Marketplace
-- Jobs
-- AI
+- Job
+- Artificial Intelligence
 - Newsletter
 ---

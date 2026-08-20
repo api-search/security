@@ -143,6 +143,6 @@ tags:
 - Monitoring
 - DevOps
 - SRE
-- AI
+- Artificial Intelligence
 trust_url: https://trust.edgedelta.com/
 ---

@@ -86,7 +86,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Search
 - Web Search
-- Images
+- Image
 - Videos
 - News
 - Azure AI

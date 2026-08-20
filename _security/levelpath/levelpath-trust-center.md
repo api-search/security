@@ -20,7 +20,7 @@ summary_line: SOC 2 Type II
 tags:
 - Company
 - Procurement
-- Source to Pay
+- Source-to-Pay
 - Spend Management
 - Contract Management
 - Supplier Management

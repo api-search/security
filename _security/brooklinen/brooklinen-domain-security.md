@@ -61,16 +61,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/security/brooklinen-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- ecommerce
-- retail
-- direct-to-consumer
-- home-goods
-- bedding
-- shopify
-- agentic-commerce
-- universal-commerce-protocol
-- mcp
+- E-Commerce
+- Retail
+- Direct to Consumer
+- Home Goods
+- Bedding
+- Shopify
+- Agentic Commerce
+- Universal Commerce Protocol
+- MCP
 - agent-native
-- catalog
-- checkout
+- Catalog
+- Checkout
 ---

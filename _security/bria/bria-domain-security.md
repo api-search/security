@@ -126,11 +126,11 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence
 - Generative AI
-- Images
-- Image Generation
+- Image
+- Image-Generation
 - Image Editing
 - Video
-- Machine Learning
+- Machine-Learning
 - Media
 - Content
 - Agents

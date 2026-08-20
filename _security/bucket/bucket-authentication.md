@@ -43,7 +43,7 @@ tags:
 - Feature Management
 - Feature Flagging
 - Developer Tools
-- SaaS
+- Software-as-a-Service
 - Entitlements
 - Experimentation
 - MCP

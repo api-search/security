@@ -22,7 +22,7 @@ tags:
 - Due Diligence
 - Private Equity
 - Artificial Intelligence
-- Financial Services
+- Financial-Services
 - Advisory
 trust_url: https://binocs.co/security
 ---

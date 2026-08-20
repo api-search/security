@@ -41,5 +41,5 @@ tags:
 - Surveys
 - Prototype Testing
 - Product Discovery
-- SaaS
+- Software-as-a-Service
 ---

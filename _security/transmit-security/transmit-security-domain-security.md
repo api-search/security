@@ -104,7 +104,6 @@ tags:
 - Risk Management
 - Identity Verification
 - Orchestration
-- OAuth2
 - Security
 - SSO
 ---

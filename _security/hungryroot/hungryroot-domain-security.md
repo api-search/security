@@ -36,6 +36,6 @@ tags:
 - Food Delivery
 - Direct to Consumer
 - Personalization
-- E-commerce
+- E-Commerce
 - Consumer
 ---

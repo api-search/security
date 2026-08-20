@@ -34,7 +34,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-data
 summary_line: TLSv1.3 · DMARC
 tags:
 - Analytics
-- Data Sets
-- Financial Services
+- Datasets
+- Financial-Services
 - Market Data
 ---

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Healthcare
-- Home Health Care
+- Home Healthcare
 - Caregiving
 - Family Caregiver
 - Medicaid

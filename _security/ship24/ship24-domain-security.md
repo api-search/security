@@ -64,7 +64,7 @@ tags:
 - Shipping
 - Couriers
 - Parcels
-- Webhooks
-- Ecommerce
-- PostPurchase
+- Webhook
+- E-Commerce
+- Post-Purchase
 ---

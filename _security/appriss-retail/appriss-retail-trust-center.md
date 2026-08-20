@@ -25,6 +25,6 @@ tags:
 - Retail Analytics
 - Artificial Intelligence
 - Loss Management
-- SaaS
+- Software-as-a-Service
 trust_url: https://trustportal.apprissretail.com/
 ---

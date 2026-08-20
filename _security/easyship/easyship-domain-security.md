@@ -91,7 +91,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Shipping
 - Logistics
-- Ecommerce
+- E-Commerce
 - Fulfillment
-- CrossBorder
+- Cross-Border
 ---

@@ -21,7 +21,7 @@ tags:
 - Conversational AI
 - Recruiting Automation
 - High-Volume Hiring
-- Chatbot
+- Chatbots
 - ATS
 - HR Tech
 trust_url: https://www.paradox.ai/legal/security

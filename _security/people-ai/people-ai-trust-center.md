@@ -27,6 +27,6 @@ tags:
 - CRM
 - Pipeline
 - Forecasting
-- RevOps
+- Revenue Operations
 trust_url: https://www.backstory.ai/platform/trust-security
 ---

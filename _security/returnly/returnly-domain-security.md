@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Fintech
-- E-commerce
+- E-Commerce
 - Returns
 - Exchanges
 - Payments

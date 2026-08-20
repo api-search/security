@@ -82,7 +82,7 @@ tags:
 - Churn
 - Marketing Automation
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Subscription
 - Customer Engagement
 - Event Ingestion

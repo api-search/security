@@ -178,10 +178,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/
 summary_line: http · 2 schemes
 tags:
 - Payments
-- POS
+- Point-of-Sale
 - Terminal Management
-- eCommerce
-- FinTech
+- E-Commerce
+- Fintech
 - Payment Processing
 - Omnichannel
 ---

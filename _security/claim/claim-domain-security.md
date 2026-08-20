@@ -34,8 +34,8 @@ tags:
 - Consumer Apps
 - Rewards
 - Loyalty
-- Cash Back
-- Restaurants
+- Cashback
+- Restaurant
 - Food and Beverage
 - Social Network
 - Brand Marketing

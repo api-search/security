@@ -53,7 +53,7 @@ tags:
 - Hardware
 - Electronics
 - Maker
-- eCommerce
+- E-Commerce
 - Open Source Hardware
-- Orders
+- Order
 ---

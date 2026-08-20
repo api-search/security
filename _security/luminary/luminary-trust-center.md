@@ -57,10 +57,10 @@ tags:
 - Company
 - Estate Planning
 - Wealth Management
-- Financial Services
+- Financial-Services
 - Legal Tech
 - Document AI
 - Family Office
-- OAuth2
+- Authentication
 trust_url: https://www.withluminary.com/security
 ---

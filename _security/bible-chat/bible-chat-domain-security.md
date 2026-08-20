@@ -35,7 +35,7 @@ tags:
 - Bible
 - Christianity
 - Faith
-- AI
+- Artificial Intelligence
 - Mobile App
 - Spirituality
 ---

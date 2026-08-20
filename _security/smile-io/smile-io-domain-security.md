@@ -102,7 +102,7 @@ tags:
 - Loyalty
 - Rewards
 - Referrals
-- E-commerce
+- E-Commerce
 - Points
 - Customer Retention
 - Shopify

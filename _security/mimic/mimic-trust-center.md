@@ -30,6 +30,6 @@ tags:
 - Endpoint Security
 - Threat Detection
 - AI Security
-- SaaS
+- Software-as-a-Service
 trust_url: https://mimic.com/technical-and-organizational-measures
 ---

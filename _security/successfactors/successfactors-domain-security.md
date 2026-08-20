@@ -50,7 +50,6 @@ tags:
 - Human Resources
 - HCM
 - HXM
-- Human Capital Management
 - Talent Management
 - Recruiting
 - Learning

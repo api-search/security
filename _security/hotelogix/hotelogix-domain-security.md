@@ -39,7 +39,7 @@ tags:
 - Booking Engine
 - Reservations
 - Front Desk
-- Point Of Sale
+- Point-of-Sale
 - Housekeeping
 - Revenue Management
 - OTA

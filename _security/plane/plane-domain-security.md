@@ -62,7 +62,7 @@ tags:
 - Pages
 - Analytics
 - Workspace
-- Open Source
+- Open-Source
 - Self-Hosted
-- AI
+- Artificial Intelligence
 ---

@@ -35,5 +35,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/south-state-co
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 ---

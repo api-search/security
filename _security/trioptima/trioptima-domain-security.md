@@ -69,7 +69,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CME Group
 - Derivatives
-- Financial Services
+- Financial-Services
 - OSTTRA
 - Portfolio Compression
 - Post-Trade Services

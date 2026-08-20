@@ -545,9 +545,8 @@ tags:
 - CIAM
 - Identity Management
 - MFA
-- OAuth
 - OpenID Connect
-- Organizations
+- Organization
 - Passkeys
 - SAML
 - Security

@@ -31,7 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spindle-techno
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - Agents
 - Salesforce

@@ -161,7 +161,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agorapulse/ref
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Social Media Management
-- Social Media
+- Social-Media
 - CRM
 - Analytics
 - Publishing

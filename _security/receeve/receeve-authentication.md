@@ -139,10 +139,10 @@ tags:
 - Debt Collection
 - Receivables Management
 - Debt Servicing
-- Collections
+- Collection
 - Fintech
 - Payments
-- Webhooks
-- Financial Services
+- Webhook
+- Financial-Services
 - Dunning
 ---

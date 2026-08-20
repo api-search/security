@@ -17,12 +17,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ema/refs/heads
 summary_line: trust center published
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - AI Employees
 - Automation
 - Enterprise
-- Workflow Automation
+- Workflow-Automation
 - Conversational AI
 trust_url: https://trust.ema.ai/
 ---

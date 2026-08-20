@@ -35,5 +35,5 @@ tags:
 - Employee Ownership
 - Small Business
 - Acquisitions
-- Financial Services
+- Financial-Services
 ---

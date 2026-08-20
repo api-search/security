@@ -28,6 +28,6 @@ tags:
 - Revenue Cycle Management
 - Patient Engagement
 - Payments
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.carestack.com/
 ---

@@ -32,7 +32,7 @@ tags:
 - Company
 - Food and Beverage
 - Consumer Brands
-- Restaurants
+- Restaurant
 - Korea
 - Food Service
 ---

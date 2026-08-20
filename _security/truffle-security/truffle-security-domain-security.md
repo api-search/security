@@ -50,5 +50,5 @@ tags:
 - Application Security
 - Credential Scanning
 - TruffleHog
-- Open Source
+- Open-Source
 ---

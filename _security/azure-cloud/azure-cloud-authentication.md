@@ -68,16 +68,15 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-cl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-cloud/refs/heads/main/authentication/azure-cloud-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Cloud Computing
 - Databases
-- IaaS
+- Infrastructure-as-a-Service
 - Infrastructure
-- Machine Learning
+- Machine-Learning
 - Microsoft
 - Networking
-- PaaS
-- Platform as a Service
-- SaaS
+- Platform-as-a-Service
+- Software-as-a-Service
 - Storage
 ---

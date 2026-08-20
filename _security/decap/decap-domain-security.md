@@ -36,6 +36,6 @@ tags:
 - Content Management
 - Static Site Generator
 - JAMstack
-- Open Source
+- Open-Source
 - Editorial Workflow
 ---

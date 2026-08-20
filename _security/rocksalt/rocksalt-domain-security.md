@@ -32,10 +32,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Marketing
-- Social Media
+- Social-Media
 - Sales Enablement
 - Content
 - Customer Relationship Management (CRM)
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 ---

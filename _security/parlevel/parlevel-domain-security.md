@@ -34,5 +34,5 @@ tags:
 - Micro Markets
 - Payments
 - Inventory Management
-- SaaS
+- Software-as-a-Service
 ---

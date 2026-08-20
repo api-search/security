@@ -99,7 +99,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - BPMN
 - Camunda
-- Cloud Native
+- Cloud-Native
 - Distributed Systems
 - Java
 - Microservices

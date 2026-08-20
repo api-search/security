@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/casavo/refs/he
 summary_line: 3 schemes
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - PropTech
 - Marketplace
 - Virtual Tours

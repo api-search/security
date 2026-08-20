@@ -36,6 +36,6 @@ tags:
 - Hybrid Work
 - Room Scheduling
 - Visitor Management
-- Coworking
+- Co-Working
 - Real Estate Analytics
 ---

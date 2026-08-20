@@ -43,9 +43,9 @@ tags:
 - Company
 - Conversational AI
 - Chatbots
-- Customer Support
+- Customer-Support
 - Lead Generation
 - Sales Automation
 - Enterprise
-- Model Context Protocol
+- MCP
 ---

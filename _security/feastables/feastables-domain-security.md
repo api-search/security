@@ -34,10 +34,10 @@ tags:
 - Consumer Packaged Goods
 - Food and Beverage
 - Chocolate
-- Ecommerce
+- E-Commerce
 - Retail
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 - Shopify
 ---

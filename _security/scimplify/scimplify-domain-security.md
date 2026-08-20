@@ -34,7 +34,7 @@ tags:
 - Chemicals
 - Specialty Chemicals
 - Manufacturing
-- Pharmaceutical
+- Pharmaceuticals
 - Agrochemicals
 - Sourcing
 - CRO

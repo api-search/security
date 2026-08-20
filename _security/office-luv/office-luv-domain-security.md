@@ -37,5 +37,5 @@ tags:
 - Workplace
 - Marketplace
 - Spend Management
-- SaaS
+- Software-as-a-Service
 ---

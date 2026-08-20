@@ -94,14 +94,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/charles-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/authentication/charles-schwab-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Accounts
+- Account
 - Banking
 - Brokerage
-- Financial Services
+- Financial-Services
 - Investing
 - Market Data
-- OAuth 2.0
-- Orders
+- Authentication
+- Order
 - Trading
 - Fortune 500
 ---

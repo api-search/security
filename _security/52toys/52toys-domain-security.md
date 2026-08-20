@@ -33,7 +33,7 @@ tags:
 - Collectibles
 - Toys
 - Retail
-- Ecommerce
+- E-Commerce
 - Shopify
 - Agentic Commerce
 ---

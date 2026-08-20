@@ -487,7 +487,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Cloud Database
 - Database
-- DBaaS
+- Database-as-a-Service
 - Distributed SQL
 - PostgreSQL
 ---

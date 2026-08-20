@@ -50,7 +50,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://www.ter
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teranet/refs/heads/main/authentication/teranet-authentication.yml
 summary_line: proprietary-account/hardware-otp · 4 schemes
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Land Registry
 - Title

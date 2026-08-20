@@ -64,9 +64,9 @@ tags:
 - Ideas
 - Notes
 - Productivity
-- Projects
+- Project
 - T1
-- Tasks
+- Task
 - Wiki
 - Workspace
 trust_url: https://www.notion.com/security

@@ -133,7 +133,7 @@ summary_line: TLSv1.3
 tags:
 - Project Management
 - Issue Tracking
-- Open Source
+- Open-Source
 - Ruby on Rails
 - Bug Tracking
 - Time Tracking

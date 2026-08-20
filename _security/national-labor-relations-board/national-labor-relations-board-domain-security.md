@@ -30,6 +30,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-labor
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Employment
-- Federal Government
+- Federal-Government
 - Labor
 ---

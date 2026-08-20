@@ -119,15 +119,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/he
 summary_line: http · 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Generative AI
 - Video Generation
-- Image Generation
+- Image-Generation
 - Music Generation
-- Text to Speech
+- Text-to-Speech
 - Face Swap
 - API Aggregator
-- Machine Learning
+- Machine-Learning
 - Media
-- Webhooks
+- Webhook
 ---

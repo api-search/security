@@ -212,7 +212,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/
 summary_line: FedRAMP, GDPR
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Generative AI
 - Large Language Models
 - Government

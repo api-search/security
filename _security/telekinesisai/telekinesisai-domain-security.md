@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Robotics
-- Computer Vision
+- Computer-Vision
 - Physical AI
 - Industrial Automation
 - Manufacturing Automation

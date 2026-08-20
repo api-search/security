@@ -36,7 +36,7 @@ tags:
 - Health Equity
 - Patient Recruitment
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Healthcare
 - Diversity
 ---

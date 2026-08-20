@@ -85,7 +85,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stonex/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Finance
-- Financial Services
+- Financial-Services
 - Payments
 - Clearing
 - Futures

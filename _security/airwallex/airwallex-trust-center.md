@@ -70,7 +70,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airwallex/refs
 summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:
 - Cross-Border Payments
-- FinTech
+- Fintech
 - Foreign Exchange
 - Payments
 - Global

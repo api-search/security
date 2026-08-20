@@ -36,7 +36,7 @@ tags:
 - Refurbished Electronics
 - Home Appliances
 - Retail
-- Ecommerce
+- E-Commerce
 - Shopify
 - Agentic Commerce
 - Universal Commerce Protocol

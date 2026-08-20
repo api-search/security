@@ -40,7 +40,7 @@ tags:
 - Authorization
 - TypeScript
 - Library
-- Open Source
+- Open-Source
 - SSO
 - Passkeys
 ---

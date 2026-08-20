@@ -93,8 +93,8 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Automation
 - No-Code
-- Open Source
-- Workflow
+- Open-Source
+- Workflows
 - AI Agents
 - MCP
 ---

@@ -67,9 +67,9 @@ tags:
 - Low-Code
 - Application Development
 - Enterprise Software
-- Platform as a Service
-- Workflow
-- Financial Services
+- Platform-as-a-Service
+- Workflows
+- Financial-Services
 - Insurance
 - Government
 - Application Modernization

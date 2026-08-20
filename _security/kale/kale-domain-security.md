@@ -32,9 +32,9 @@ tags:
 - Company
 - Fintech
 - Creator Economy
-- User-Generated Content
+- User Generated Content
 - Influencer Marketing
 - Rewards
-- Social Media
+- Social-Media
 - Marketing
 ---

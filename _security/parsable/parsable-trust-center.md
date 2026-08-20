@@ -24,7 +24,7 @@ tags:
 - Industrial
 - Digital Work Instructions
 - Frontline Operations
-- Workflow
+- Workflows
 - Analytics
 trust_url: https://parsable.com/compliance/
 ---

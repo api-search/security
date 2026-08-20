@@ -25,11 +25,11 @@ tags:
 - Churn
 - Retention
 - Revenue Operations
-- SaaS
+- Software-as-a-Service
 - AI Agents
 - GraphQL
 - MCP
-- Agent Native
+- agent-native
 - Customer Context Graph
 trust_url: https://www.getnoded.ai/security/
 ---

@@ -38,5 +38,5 @@ tags:
 - Reconciliation
 - Hospitality
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 ---

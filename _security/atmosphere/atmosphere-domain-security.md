@@ -62,7 +62,7 @@ tags:
 - Television
 - Advertising
 - Digital Signage
-- Out Of Home
+- Out-of-Home
 - Entertainment
 - Hospitality
 - Connected TV

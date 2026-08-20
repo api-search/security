@@ -187,7 +187,7 @@ tags:
 - Cryptography
 - Post-Quantum Cryptography
 - Agents
-- Model Context Protocol
+- MCP
 - Simulation
 - Drug Discovery
 - Materials Science

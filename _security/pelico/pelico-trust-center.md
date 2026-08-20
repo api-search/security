@@ -25,7 +25,6 @@ tags:
 - Supply Chain
 - Orchestration
 - Artificial Intelligence
-- Operations
 - ERP Integration
 - Manufacturing Execution
 trust_url: https://trust.pelico.ai/

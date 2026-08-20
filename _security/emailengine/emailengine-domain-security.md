@@ -118,5 +118,5 @@ tags:
 - Email API
 - IMAP
 - SMTP
-- Webhooks
+- Webhook
 ---

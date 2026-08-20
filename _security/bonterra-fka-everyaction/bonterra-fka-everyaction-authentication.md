@@ -37,9 +37,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bonterra-fka-e
 summary_line: http · 1 scheme
 tags:
 - Company
-- API
 - CRM
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Advocacy
 - Political

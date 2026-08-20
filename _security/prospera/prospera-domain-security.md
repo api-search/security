@@ -29,8 +29,8 @@ tags:
 - Ai Ml
 - Agriculture
 - AgTech
-- Machine Learning
-- Computer Vision
+- Machine-Learning
+- Computer-Vision
 - Crop Analytics
 - Acquired
 ---

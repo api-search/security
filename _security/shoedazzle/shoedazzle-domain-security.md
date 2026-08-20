@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Fashion
-- Ecommerce
+- E-Commerce
 - Retail
 - Subscription
 - Footwear

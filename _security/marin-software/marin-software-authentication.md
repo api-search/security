@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marin-software
 summary_line: http · 1 scheme
 tags:
 - Company
-- Martech
+- MarTech
 - Advertising
 - Marketing
 - Performance Marketing

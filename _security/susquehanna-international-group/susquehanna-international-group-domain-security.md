@@ -41,6 +41,6 @@ tags:
 - Institutional Sales
 - Growth Equity
 - Venture Capital
-- Machine Learning
-- Financial Services
+- Machine-Learning
+- Financial-Services
 ---

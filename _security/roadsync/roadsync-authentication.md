@@ -151,7 +151,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Payments
 - Logistics
 - Trucking

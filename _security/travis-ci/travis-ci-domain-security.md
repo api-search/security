@@ -80,8 +80,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - DevOps
 - CI/CD
-- Build
-- Open Source
+- Builds
+- Open-Source
 - Hosted
 - GitHub
 ---

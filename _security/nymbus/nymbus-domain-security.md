@@ -33,9 +33,8 @@ tags:
 - Company
 - Banking
 - Core Banking
-- FinTech
-- Financial Services
+- Fintech
+- Financial-Services
 - Banking as a Service
 - Digital Banking
-- APIs
 ---

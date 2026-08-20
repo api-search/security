@@ -94,12 +94,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tito/refs/head
 summary_line: apiKey · 1 scheme
 tags:
 - Event Ticketing
-- Events
+- Event
 - Registration
 - Ticketing
 - Conferences
 - Event Management
 - Attendees
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 ---

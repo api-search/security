@@ -107,15 +107,14 @@ source_yaml: "generated: '2026-08-08'\nmethod: searched\nsource: openapi/botify-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/botify/refs/heads/main/authentication/botify-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- seo
+- SEO
 - organic-search
-- search-engine-optimization
-- web-crawling
-- log-analysis
-- search-console
-- marketing-analytics
-- ai-search
-- data-export
-- mcp
+- Web Crawling
+- Log Analysis
+- Search Console
+- Marketing Analytics
+- AI Search
+- Data Export
+- MCP
 - agent-native
 ---

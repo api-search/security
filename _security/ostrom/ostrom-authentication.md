@@ -90,6 +90,5 @@ tags:
 - Dynamic Pricing
 - Germany
 - Sustainability
-- Webhooks
-- API
+- Webhook
 ---

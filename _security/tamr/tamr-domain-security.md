@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tamr/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Management
-- Machine Learning
+- Machine-Learning
 - Enterprise Software
 - Master Data Management
 ---

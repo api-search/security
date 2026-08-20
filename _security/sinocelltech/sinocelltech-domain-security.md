@@ -32,7 +32,7 @@ tags:
 - Company
 - Biotechnology
 - Biopharmaceutical
-- Pharmaceutical
+- Pharmaceuticals
 - Vaccines
 - Monoclonal Antibodies
 - Oncology

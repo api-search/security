@@ -42,6 +42,6 @@ tags:
 - Digital Commerce
 - Monetization
 - Cloud
-- SaaS
+- Software-as-a-Service
 - eSIM
 ---

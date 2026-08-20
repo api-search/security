@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/security/street-co-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - CRM

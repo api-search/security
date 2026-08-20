@@ -49,5 +49,4 @@ tags:
 - Instant Payments
 - Bank Transfers
 - Disbursements
-- API
 ---

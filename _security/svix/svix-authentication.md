@@ -169,14 +169,14 @@ source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/svix-app
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/authentication/svix-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Webhooks
+- Webhook
 - Webhooks As A Service
 - Webhook Delivery
 - Webhook Sending
-- Event Driven
+- Event-Driven
 - Eventing
 - Messaging
-- Pub Sub
+- Pub-Sub
 - Streaming
 - Ingest
 - Integration
@@ -187,18 +187,17 @@ tags:
 - Verification
 - HMAC
 - Standard Webhooks
-- Multi Tenant
-- Multi Region
+- Multi-Tenant
+- Multi-Region
 - Enterprise
-- SaaS
+- Software-as-a-Service
 - Developer Platform
-- API
 - REST
 - SOC 2
 - HIPAA
 - PCI DSS
 - GDPR
-- Open Source
+- Open-Source
 - Rust
 - Polyglot SDK
 - Terraform

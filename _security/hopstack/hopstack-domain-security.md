@@ -42,5 +42,5 @@ tags:
 - Supply Chain
 - Inventory
 - 3PL
-- E-commerce
+- E-Commerce
 ---

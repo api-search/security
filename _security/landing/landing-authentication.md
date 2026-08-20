@@ -31,13 +31,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landing/refs/h
 summary_line: none · 0 schemes
 tags:
 - Company
-- Proptech
-- Real Estate
+- PropTech
+- Real-Estate
 - Rentals
 - Furnished Apartments
 - Corporate Housing
 - Travel
-- Agent Native
+- agent-native
 - MCP
 - Search
 ---

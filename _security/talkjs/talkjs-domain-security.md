@@ -63,7 +63,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Chat
 - Messaging
-- Communication
+- Communications
 - SDK
-- Webhooks
+- Webhook
 ---

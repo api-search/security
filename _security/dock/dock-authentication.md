@@ -28,7 +28,7 @@ tags:
 - Cards
 - Card Issuing
 - Banking as a Service
-- Financial Services
+- Financial-Services
 - Fintech
 - Pix
 - Digital Accounts

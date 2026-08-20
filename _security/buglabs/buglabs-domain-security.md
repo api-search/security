@@ -32,7 +32,7 @@ tags:
 - Company
 - Enterprise Software
 - Internet of Things
-- Workflow Automation
+- Workflow-Automation
 - API Orchestration
 - Networking
 - Artificial Intelligence

@@ -33,6 +33,6 @@ tags:
 - Apparel
 - Fashion
 - Retail
-- Ecommerce
+- E-Commerce
 - Lifestyle Brand
 ---

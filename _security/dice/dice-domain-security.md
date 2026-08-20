@@ -35,7 +35,7 @@ tags:
 - Live Events
 - Ticketing
 - Music
-- Events
+- Event
 - Entertainment
 - Mobile
 - Marketplace

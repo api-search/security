@@ -41,7 +41,7 @@ tags:
 - Library
 - Literature
 - Metadata
-- Open Source
+- Open-Source
 - Project Gutenberg
 - Public APIs
 - Public Domain

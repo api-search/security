@@ -76,6 +76,6 @@ tags:
 - Data Warehouse
 - Hadoop
 - Hybrid Cloud
-- Machine Learning
+- Machine-Learning
 - Streaming
 ---

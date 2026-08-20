@@ -114,5 +114,5 @@ tags:
 - LMP
 - Load
 - Fuel Mix
-- Open Source
+- Open-Source
 ---

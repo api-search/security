@@ -92,7 +92,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Diagrams
 - Documentation
-- AI
+- Artificial Intelligence
 - Technical Documentation
 - Diagramming
 - Architecture

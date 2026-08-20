@@ -78,12 +78,12 @@ tags:
 - Insights
 - Orchestration
 - Queues
-- Realtime
+- Real-Time
 - Self-Hosting
 - Serverless
 - Signals
 - Step Functions
-- Webhooks
+- Webhook
 - Workflows
 trust_url: https://www.inngest.com/security
 ---

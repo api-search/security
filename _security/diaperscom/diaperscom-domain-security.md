@@ -26,7 +26,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/diaperscom/ref
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Retail
 - Baby Products
 - Consumer Goods

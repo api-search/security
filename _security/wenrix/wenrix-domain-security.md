@@ -42,5 +42,4 @@ tags:
 - Automation
 - Pricing
 - MCP
-- Model Context Protocol
 ---

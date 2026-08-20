@@ -143,7 +143,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/habiteo/refs/h
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - PropTech
 - 3D Visualization
 - Property Marketing

@@ -184,10 +184,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hugging-face-t
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Deep Learning
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
-- Open Source
+- Open-Source
 - Transformers
 ---

@@ -90,10 +90,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openhand
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/authentication/openhands-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Autonomous
-- Open Source
+- Open-Source
 - Developer Tools
 - Software Engineering
 - Code Generation

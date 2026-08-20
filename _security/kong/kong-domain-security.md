@@ -843,5 +843,5 @@ tags:
 - LLM
 - Kafka
 - Konnect
-- Open Source
+- Open-Source
 ---

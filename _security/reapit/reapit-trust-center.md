@@ -20,7 +20,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nprobe: false\nprobe_not
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/security/reapit-trust-center.yml
 summary_line: ISO 27001
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - CRM

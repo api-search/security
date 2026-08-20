@@ -33,7 +33,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Physics Simulation
-- Machine Learning
+- Machine-Learning
 - Engineering
 - Simulation
 - CFD

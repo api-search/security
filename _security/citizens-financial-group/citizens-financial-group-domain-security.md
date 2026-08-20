@@ -45,7 +45,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Banking
 - Buy Now Pay Later
-- Financial Services
+- Financial-Services
 - FDX
 - Locator
 - Open Banking

@@ -54,5 +54,4 @@ tags:
 - Digital Fashion
 - Body Measurement
 - Apparel
-- API
 ---

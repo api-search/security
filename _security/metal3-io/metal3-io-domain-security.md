@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metal3-io/refs
 summary_line: TLSv1.3
 tags:
 - Bare Metal
-- Cloud Native
+- Cloud-Native
 - Incubating
 - Infrastructure
 - Kubernetes

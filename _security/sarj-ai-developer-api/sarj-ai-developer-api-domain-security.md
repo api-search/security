@@ -209,15 +209,15 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/security/sarj-ai-developer-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- voice AI
-- voice agents
-- conversational AI
+- Voice AI
+- Voice Agents
+- Conversational AI
 - Arabic AI
-- outbound calls
-- telephony
-- speech to text
-- text to speech
-- voice cloning
+- Outbound Calls
+- Telephony
+- Speech-to-Text
+- Text-to-Speech
+- Voice Cloning
 - MCP
 - agent-native
 - Saudi Arabia

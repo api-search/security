@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avenue-one/ref
 summary_line: 1 scheme
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Single-Family Rental
 - PropTech
 - Institutional Investing

@@ -199,7 +199,7 @@ tags:
 - OpenID Connect
 - Participant Reporting
 - Property Data
-- Real Estate
+- Real-Estate
 - RESO Data Dictionary
 - RESO Web API
 - RETS

@@ -58,7 +58,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/napkin/refs/he
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Visualization
 - Diagrams
 - Infographics

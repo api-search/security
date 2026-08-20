@@ -33,7 +33,7 @@ tags:
 - Company
 - Marketplace
 - B2B
-- eCommerce
+- E-Commerce
 - Wholesale
 - Retail
 - India

@@ -44,7 +44,7 @@ tags:
 - AI Agents
 - Voice Agent
 - Case Auditing
-- SaaS
+- Software-as-a-Service
 - SOC 2
 - HIPAA
 - Butler Labs

@@ -34,7 +34,7 @@ tags:
 - Consumer
 - Family Tech
 - Personal Finance
-- FinTech
+- Fintech
 - EdTech
 - Streaming
 - Media and Entertainment

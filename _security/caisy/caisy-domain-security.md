@@ -39,6 +39,6 @@ tags:
 - GraphQL
 - Headless CMS
 - Content Management
-- Content API
-- Multi-site
+- content-api
+- Multi-Site
 ---

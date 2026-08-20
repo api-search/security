@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listen-labs/re
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Market Research
 - Customer Research
 - User Interviews

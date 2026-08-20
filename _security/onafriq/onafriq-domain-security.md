@@ -49,16 +49,16 @@ tags:
 - Cross-Border Payments
 - Disbursements
 - Payouts
-- Collections
+- Collection
 - Bank Transfers
 - Card Issuance
 - Agent Banking
 - Treasury
 - Foreign Exchange
-- Webhooks
+- Webhook
 - Africa
 - Fintech
-- Financial Services
+- Financial-Services
 - MFS Africa
 - Onafriq
 - Baxi

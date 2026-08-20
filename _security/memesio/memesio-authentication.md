@@ -292,7 +292,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Memes
 - Media
-- Image Generation
+- Image-Generation
 - Content
 - Developer Tools
 ---

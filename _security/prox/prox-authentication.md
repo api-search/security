@@ -73,7 +73,6 @@ tags:
 - Company
 - Artificial Intelligence
 - MCP
-- Model Context Protocol
 - Manufacturing
 - Product Support
 - Knowledge Base

@@ -33,7 +33,7 @@ tags:
 - Company
 - Consumer
 - Tickets
-- Events
+- Event
 - Ticketing Marketplace
 - Sports
 - Live Entertainment

@@ -44,7 +44,7 @@ tags:
 - Enterprise
 - Healthcare
 - Medical
-- Pharmaceutical
+- Pharmaceuticals
 - Life Sciences
 - Data
 - China

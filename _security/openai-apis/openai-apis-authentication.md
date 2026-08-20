@@ -110,7 +110,7 @@ summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Embeddings
-- Image Generation
+- Image-Generation
 - Language Models
 - Speech
 ---

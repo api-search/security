@@ -48,9 +48,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/forethou
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/authentication/forethought-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
 - Artificial Intelligence
-- Customer Support
+- Customer-Support
 - Customer Service
 - Generative AI
 - SupportGPT
@@ -58,6 +57,6 @@ tags:
 - Ticket Triage
 - Agentic AI
 - Voice AI
-- Helpdesk
+- Help Desk
 - Multi-Agent
 ---

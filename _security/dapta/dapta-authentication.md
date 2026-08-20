@@ -43,8 +43,8 @@ tags:
 - Conversational AI
 - Automation
 - No-Code
-- Model Context Protocol
-- Webhooks
+- MCP
+- Webhook
 - CRM
 - SMB
 ---

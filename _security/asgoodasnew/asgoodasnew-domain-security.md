@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/asgoodasnew/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Retail
 - Refurbished Electronics
 - Consumer Electronics

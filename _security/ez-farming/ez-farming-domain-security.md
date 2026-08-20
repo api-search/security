@@ -32,7 +32,7 @@ tags:
 - Agriculture
 - Farming
 - Investment
-- Agtech
+- AgTech
 - Cooperative
 - Land
 ---

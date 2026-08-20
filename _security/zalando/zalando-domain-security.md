@@ -168,6 +168,6 @@ tags:
 - Marketplace
 - Fulfillment
 - Merchant Platform
-- Orders
-- Products
+- Order
+- Product
 ---

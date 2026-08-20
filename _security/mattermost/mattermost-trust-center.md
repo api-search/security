@@ -57,7 +57,7 @@ tags:
 - Messaging
 - Collaboration
 - Team Chat
-- Open Source
+- Open-Source
 - DevOps
 - Self-Hosted
 trust_url: https://trust.mattermost.com/

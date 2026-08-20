@@ -37,5 +37,5 @@ tags:
 - Wellness
 - GraphQL
 - Reservations
-- Events
+- Event
 ---

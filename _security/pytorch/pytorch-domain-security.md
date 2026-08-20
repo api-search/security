@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Deep Learning
-- Machine Learning
+- Machine-Learning
 - Neural Networks
-- Open Source
+- Open-Source
 - Python
 ---

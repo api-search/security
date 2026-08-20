@@ -65,7 +65,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cardless/refs/
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Credit Cards
 - Card Issuing

@@ -54,5 +54,5 @@ tags:
 - Campaign Management
 - Business Intelligence
 - REST API
-- Webhooks
+- Webhook
 ---

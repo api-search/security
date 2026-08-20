@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - Cash Flow Forecasting
 - Working Capital
 - Treasury

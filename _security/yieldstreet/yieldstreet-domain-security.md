@@ -34,8 +34,8 @@ tags:
 - Private Markets
 - Investing
 - Wealth Management
-- Financial Services
+- Financial-Services
 - Fintech
-- Real Estate
+- Real-Estate
 - Private Credit
 ---

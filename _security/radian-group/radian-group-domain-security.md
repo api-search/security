@@ -31,10 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/radian-group/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
-- Financial Services
+- Financial-Services
 - Mortgage Insurance
 - Specialty Insurance
-- Real Estate
+- Real-Estate
 - Mortgage
 - Publicly Traded
 ---

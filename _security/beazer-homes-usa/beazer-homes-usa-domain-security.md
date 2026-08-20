@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beazer-homes-u
 summary_line: TLSv1.3 · DMARC
 tags:
 - Homebuilder
-- Real Estate
+- Real-Estate
 - Construction
 - Residential
 - Energy Efficiency

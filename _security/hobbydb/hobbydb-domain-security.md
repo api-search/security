@@ -33,8 +33,8 @@ tags:
 - Collectibles
 - Marketplace
 - Database
-- Collections
-- Ecommerce
+- Collection
+- E-Commerce
 - Auctions
 - Community
 ---

@@ -60,7 +60,7 @@ tags:
 - Acquiring
 - Hosted Payment Pages
 - Tokenization
-- 3-D Secure
+- 3D Secure
 - Alternative Payment Methods
-- Subscriptions
+- Subscription
 ---

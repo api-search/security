@@ -315,7 +315,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Amazon
 - CI/CD
-- Build
+- Builds
 - Continuous Integration
 - DevOps
 - Testing

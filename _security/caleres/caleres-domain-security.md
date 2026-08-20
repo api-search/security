@@ -32,6 +32,6 @@ tags:
 - Footwear
 - Retail
 - Consumer Brands
-- E-commerce
+- E-Commerce
 - Apparel
 ---

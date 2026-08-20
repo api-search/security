@@ -30,16 +30,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/echoleads/refs
 summary_line: TLSv1.3 · HSTS
 tags:
 - AI voice sales
-- AI voice agents
+- AI Voice Agents
 - cold calling automation
 - AI SDR
-- lead generation
-- conversational AI
+- Lead Generation
+- Conversational AI
 - omnichannel sales automation
-- appointment scheduling
+- Appointment Scheduling
 - WhatsApp automation
 - Instagram DM automation
-- voice AI
-- sales automation
+- Voice AI
+- Sales Automation
 - India
 ---

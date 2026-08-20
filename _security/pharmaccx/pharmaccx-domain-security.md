@@ -31,10 +31,10 @@ summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
 - Healthcare
-- Pharmaceutical
+- Pharmaceuticals
 - Market Access
 - Pricing
 - Contract Management
 - Payers
-- Enterprise SaaS
+- Enterprise Saas
 ---

@@ -43,6 +43,6 @@ tags:
 - Text to Audio
 - Game Development
 - Media and Entertainment
-- Machine Learning
+- Machine-Learning
 - Creator Tools
 ---

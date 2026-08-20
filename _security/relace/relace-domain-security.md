@@ -60,11 +60,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/relace/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Coding Agents
 - Code Generation
 - Developer Tools
-- Machine Learning
+- Machine-Learning
 - Code Search
 - LLM
 ---

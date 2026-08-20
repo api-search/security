@@ -36,7 +36,7 @@ tags:
 - Photonics
 - PASIC
 - Hardware
-- Data Center
+- Data-Center
 - Optical Interconnect
 - Chip Design
 - Deep Tech

@@ -76,7 +76,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - API Description
 - Data Integration
-- Open Source
+- Open-Source
 - Query Language
 - Schema
 - Semantic

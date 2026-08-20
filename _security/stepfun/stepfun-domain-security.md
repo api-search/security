@@ -46,17 +46,16 @@ source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/security/stepfun-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
-- AI
 - Artificial Intelligence
 - LLM
-- Multimodal
+- Multi-Modal
 - Chat Completion
 - Audio
 - Speech
-- Text to Speech
+- Text-to-Speech
 - Speech Recognition
-- Images
-- Realtime
+- Image
+- Real-Time
 - Vector Stores
 - China
 ---

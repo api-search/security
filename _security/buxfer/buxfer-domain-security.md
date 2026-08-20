@@ -73,7 +73,7 @@ tags:
 - Banking
 - Fintech
 - Financial Data
-- Transactions
+- Transaction
 - Investments
 - Expense Tracking
 ---

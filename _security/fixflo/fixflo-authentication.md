@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: openapi/fixflo-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/authentication/fixflo-authentication.yml
 summary_line: http/openIdConnect · 2 schemes
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Management
 - PropTech

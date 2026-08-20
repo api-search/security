@@ -34,11 +34,11 @@ tags:
 - Beverages
 - Consumer Packaged Goods
 - Direct to Consumer
-- Ecommerce
+- E-Commerce
 - Retail
 - Subscription Commerce
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 - Shopify
 - Hydration

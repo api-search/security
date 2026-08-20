@@ -31,7 +31,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Claims Management
 - Automotive
 - Mobile App

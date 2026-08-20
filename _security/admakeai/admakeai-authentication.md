@@ -73,7 +73,7 @@ tags:
 - Marketing
 - AdTech
 - Generative AI
-- Image Generation
+- Image-Generation
 - Video Generation
 - Meta Ads
 - Competitive Intelligence

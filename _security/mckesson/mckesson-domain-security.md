@@ -40,5 +40,5 @@ tags:
 - Fortune 500
 - Healthcare
 - Medical Supplies
-- Pharmaceutical
+- Pharmaceuticals
 ---

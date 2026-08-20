@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/braintru
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/braintrust-data/refs/heads/main/authentication/braintrust-data-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Evaluation
 - Observability

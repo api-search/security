@@ -57,10 +57,10 @@ tags:
 - Data Orchestration
 - Data Caching
 - AI Infrastructure
-- Machine Learning
+- Machine-Learning
 - Analytics
 - Distributed Storage
 - Object Storage
 - S3
-- Open Source
+- Open-Source
 ---

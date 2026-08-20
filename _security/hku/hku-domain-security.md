@@ -1,117 +1,71 @@
 ---
 api_specs:
-- filename: hku-altmetric-api-openapi.yml
+- filename: hku-identity-openapi.yml
   format: yaml
-  label: University of Hong Kong altmetric API
-  slug: hku-altmetric-api
+  label: HKU AD FS OAuth 2.0 / OpenID Connect Issuer
+  slug: adfs-oidc
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-altmetric-api-openapi.yml
-- filename: hku-articles-api-openapi.yml
-  format: yaml
-  label: University of Hong Kong articles API
-  slug: hku-articles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-articles-api-openapi.yml
-- filename: hku-authors-api-openapi.yml
-  format: yaml
-  label: University of Hong Kong authors API
-  slug: hku-authors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-authors-api-openapi.yml
-- filename: hku-collections-api-openapi.yml
-  format: yaml
-  label: University of Hong Kong collections API
-  slug: hku-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-collections-api-openapi.yml
-- filename: hku-institutions-api-openapi.yml
-  format: yaml
-  label: University of Hong Kong institutions API
-  slug: hku-institutions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-institutions-api-openapi.yml
-- filename: hku-oauth-api-openapi.yml
-  format: yaml
-  label: University of Hong Kong oauth API
-  slug: hku-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-oauth-api-openapi.yml
-- filename: hku-other-api-openapi.yml
-  format: yaml
-  label: University of Hong Kong other API
-  slug: hku-other-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-other-api-openapi.yml
-- filename: hku-profiles-api-openapi.yml
-  format: yaml
-  label: University of Hong Kong profiles API
-  slug: hku-profiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-profiles-api-openapi.yml
-- filename: hku-projects-api-openapi.yml
-  format: yaml
-  label: University of Hong Kong projects API
-  slug: hku-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-projects-api-openapi.yml
-- filename: hku-symplectic-api-openapi.yml
-  format: yaml
-  label: University of Hong Kong symplectic API
-  slug: hku-symplectic-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-symplectic-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-identity-openapi.yml
 description: ''
 domains:
 - caa:
-  - 0 issue "ecert.gov.hk"
-  - 0 issue "letsencrypt.org"
-  - 0 issue "comodoca.com"
+  - 0 issue "digicert.com"
+  - 0 issue "hongkongpost.gov.hk"
+  - 0 issue "amazon.com"
   - 0 issuewild "digicert.com"
-  - 0 issue "godaddy.com"
-  - 0 issue "sectigo.com"
+  - 0 issue "globalsign.com"
+  - 0 issuewild "globalsign.com"
   dmarc: true
   dmarc_policy: none
   dnssec: false
   domain: hku.hk
   spf: true
+- caa: []
+  dmarc: false
+  dnssec: false
+  domain: hkaf.edu.hk
+  spf: false
 hosts:
 - cert_expires: Dec 10 23:59:59 2026 GMT
   host: www.hku.hk
   hsts: true
   hsts_max_age: 31536000
   https: true
-  tls_version: TLSv1.3
-- cert_expires: Dec 10 23:59:59 2026 GMT
-  host: developer.hku.hk
-  hsts: true
-  hsts_max_age: 31536000
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Nov 21 23:59:59 2026 GMT
-  host: datahub.hku.hk
+  tls_version: TLSv1.2
+- cert_expires: Dec  3 23:59:59 2026 GMT
+  host: www.hkaf.edu.hk
   hsts: false
   https: true
   tls_version: TLSv1.3
+- cert_expires: Dec 10 23:59:59 2026 GMT
+  host: hkafidp.hku.hk
+  hsts: null
+  https: true
+  tls_version: TLSv1.2
 kind: domain-security
 layout: security
 method: probed
 name: Hku Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for University of Hong Kong, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+overview: 'Domain security posture for University of Hong Kong, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: University of Hong Kong
 provider_slug: hku
 slug: hku-domain-security
 source_filename: hku-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hku.hk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.hku.hk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: datahub.hku.hk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: hku.hk\n  dnssec: false\n  caa:\n  - 0 issue \"ecert.gov.hk\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"comodoca.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hku.hk\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.hkaf.edu.hk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 23:59:59 2026 GMT\n  hsts: false\n- host: hkafidp.hku.hk\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: hku.hk\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"hongkongpost.gov.hk\"\n  - 0 issue \"amazon.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issuewild \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: hkaf.edu.hk\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/security/hku-domain-security.yml
-summary_line: TLSv1.3 · HSTS · DMARC
+summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Education
 - Higher Education
 - University
+- Hong Kong
+- Identity Federation
+- Single Sign-On
 - Research Data
 - Open Access
-- Hong Kong
+- Artificial Intelligence
+- Research Computing
 ---

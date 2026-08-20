@@ -31,9 +31,9 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Fintech
-- ETF
+- ETFs
 - Asset Management
 - Investments
 - Leveraged ETFs
-- Financial Services
+- Financial-Services
 ---

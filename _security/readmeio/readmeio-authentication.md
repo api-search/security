@@ -42,7 +42,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/readmeio/refs/
 summary_line: http · 2 schemes
 tags:
 - Company
-- Apis
 - Documentation
 - API Documentation
 - Developer Experience

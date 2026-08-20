@@ -33,7 +33,7 @@ tags:
 - AgriTech
 - FishTech
 - IoT
-- FinTech
+- Fintech
 - Marketplace
 - Smart Feeder
 - Indonesia

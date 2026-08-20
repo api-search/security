@@ -77,7 +77,7 @@ tags:
 - Logging
 - Tracing
 - OpenTelemetry
-- Open Source
+- Open-Source
 - Frontend Monitoring
 - Full Stack Monitoring
 ---

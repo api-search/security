@@ -42,7 +42,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-bank-of-canada/refs/heads/main/security/national-bank-of-canada-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Canada
 - Big Six

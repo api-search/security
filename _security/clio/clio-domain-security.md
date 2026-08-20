@@ -541,11 +541,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Billing
 - Calendaring
-- Document Management
+- Document-Management
 - Law Firms
 - Legal
 - Matter Management
-- OAuth 2.0
+- Authentication
 - Practice Management
 - Time Tracking
 - Trust Accounting

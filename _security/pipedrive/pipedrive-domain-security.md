@@ -333,6 +333,6 @@ tags:
 - CRM
 - Sales
 - Pipeline Management
-- SaaS
+- Software-as-a-Service
 - Small Business
 ---

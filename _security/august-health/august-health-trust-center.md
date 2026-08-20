@@ -23,11 +23,10 @@ tags:
 - Healthcare
 - EHR
 - Senior Living
-- Eldercare
+- Elder Care
 - Electronic Health Records
 - eMAR
 - Billing
-- Webhooks
-- API
+- Webhook
 trust_url: https://trust.augusthealth.com/
 ---

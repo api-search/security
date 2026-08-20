@@ -145,7 +145,7 @@ tags:
 - Solar
 - Home Improvement
 - Sustainability
-- Point of Sale
+- Point-of-Sale
 - Loans
 - Payments
 ---

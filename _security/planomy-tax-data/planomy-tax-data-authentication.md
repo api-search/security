@@ -29,14 +29,14 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: https://planomy
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planomy-tax-data/refs/heads/main/authentication/planomy-tax-data-authentication.yml
 summary_line: 0 schemes
 tags:
-- tax
-- finance
-- open-data
-- retirement
-- government
-- personal-finance
-- irs
-- social-security
-- medicare
-- json
+- Tax
+- Finance
+- Open Data
+- Retirement
+- Government
+- Personal Finance
+- IRS
+- Social Security
+- Medicare
+- JSON
 ---

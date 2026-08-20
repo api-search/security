@@ -57,9 +57,9 @@ tags:
 - Conversation Intelligence
 - Field Sales
 - CRM
-- AI
-- Speech to Text
-- Webhooks
-- Integrations
+- Artificial Intelligence
+- Speech-to-Text
+- Webhook
+- Integration
 trust_url: https://trust.siro.ai/
 ---

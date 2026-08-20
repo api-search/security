@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openlaye
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/authentication/openlayer-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Evaluation
 - Testing
 - Observability

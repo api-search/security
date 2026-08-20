@@ -37,11 +37,11 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - IRS
 - Tax
-- Federal Government
+- Federal-Government
 - TIN Matching
 - Income Verification
 - Information Returns
-- e-File
+- E-File
 - Identity Verification
 - Taxpayer
 ---

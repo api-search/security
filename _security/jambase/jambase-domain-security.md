@@ -85,7 +85,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artists
 - Concerts
-- Events
+- Event
 - Festivals
 - Live Music
 - Music

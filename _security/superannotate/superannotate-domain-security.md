@@ -41,12 +41,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superannotate/refs/heads/main/security/superannotate-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Annotation
 - Data Labeling
-- Computer Vision
+- Computer-Vision
 - NLP
-- Machine Learning
+- Machine-Learning
 - Training Data
 - Image Annotation
 - Video Annotation

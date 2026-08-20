@@ -38,7 +38,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pika-ima
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pika/refs/heads/main/authentication/pika-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Video Generation
 - Text-to-Video
 - Image-to-Video

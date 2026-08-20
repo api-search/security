@@ -42,6 +42,6 @@ tags:
 - Pricing
 - Repricing
 - Marketplace
-- Machine Learning
+- Machine-Learning
 - Optimization
 ---

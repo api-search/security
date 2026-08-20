@@ -39,7 +39,7 @@ tags:
 - Email Signature Management
 - Email Marketing
 - Branding
-- SaaS
+- Software-as-a-Service
 - Productivity
 - Website Visitor Identification
 - GraphQL

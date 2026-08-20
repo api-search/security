@@ -92,7 +92,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/he
 summary_line: http · 1 scheme
 tags:
 - Agents
-- AI
+- Artificial Intelligence
 - JavaScript
 - RAG
 - TypeScript

@@ -86,7 +86,7 @@ tags:
 - Automation
 - Data Analysis
 - Microsoft
-- Microsoft 365
+- Microsoft-365
 - Office
 - Spreadsheets
 trust_url: https://www.microsoft.com/en-us/trust-center

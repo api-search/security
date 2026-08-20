@@ -59,7 +59,7 @@ tags:
 - Data Enrichment
 - Intent Data
 - Sales Intelligence
-- Account-Based Marketing
+- Account Based Marketing
 - Identity Resolution
 - Firmographics
 - Lead Scoring

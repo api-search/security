@@ -26,6 +26,6 @@ tags:
 - Generative AI
 - Digital Government
 - Japan
-- SaaS
+- Software-as-a-Service
 trust_url: https://graffer.jp/legal/isms-policy
 ---

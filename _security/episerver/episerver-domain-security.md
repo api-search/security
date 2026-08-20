@@ -39,5 +39,5 @@ tags:
 - Experimentation
 - Personalization
 - GraphQL
-- SDKs
+- SDK
 ---

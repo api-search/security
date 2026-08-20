@@ -38,6 +38,6 @@ tags:
 - Assisted Living
 - Memory Care
 - Independent Living
-- Nonprofit
-- Long Term Care
+- Non-Profit
+- Long-Term Care
 ---

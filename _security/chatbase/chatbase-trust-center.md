@@ -49,10 +49,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/security/chatbase-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
-- AI
-- Chatbot
+- Artificial Intelligence
+- Chatbots
 - AI Agent
-- Customer Support
+- Customer-Support
 - Conversational AI
 trust_url: https://www.chatbase.co/security
 ---

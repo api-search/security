@@ -63,10 +63,10 @@ tags:
 - Company
 - Retail
 - Grocery
-- E-commerce
+- E-Commerce
 - Delivery
 - Logistics
 - MCP
-- OAuth
+- Authentication
 - Europe
 ---

@@ -119,6 +119,5 @@ tags:
 - Hub
 - Multi-User
 - Notebooks
-- OAuth2
 - Python
 ---

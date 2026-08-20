@@ -45,5 +45,5 @@ tags:
 - Diagramming
 - Visualization
 - Visual Workspace
-- SaaS
+- Software-as-a-Service
 ---

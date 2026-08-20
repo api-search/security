@@ -58,10 +58,10 @@ tags:
 - MMLU
 - Synthetic Data Generation
 - Prompt Optimization
-- CI CD
+- CI/CD
 - Pytest
 - Python
-- Open Source
+- Open-Source
 - Apache 2.0
 - MCP
 ---

@@ -66,12 +66,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glue/refs/head
 summary_line: oauth2 · 2 schemes
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Team Communication
 - Messaging
 - Collaboration
 - GraphQL
-- Webhooks
+- Webhook
 - MCP
 - Productivity
 - AI Agents

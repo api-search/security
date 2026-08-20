@@ -171,10 +171,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hugging-face-t
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Deep Learning
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
-- Open Source
+- Open-Source
 - Transformers
 ---

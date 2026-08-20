@@ -50,6 +50,6 @@ tags:
 - Algorithmic Trading
 - DeFi
 - Market Data
-- FinTech
+- Fintech
 - Developer Tools
 ---

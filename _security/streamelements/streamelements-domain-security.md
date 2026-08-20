@@ -179,7 +179,7 @@ tags:
 - Live Streaming
 - Creator Economy
 - Overlays
-- Chatbot
+- Chatbots
 - Monetization
 - Donations
 - Loyalty Points
@@ -189,6 +189,6 @@ tags:
 - YouTube
 - Real-Time
 - WebSockets
-- Webhooks
+- Webhook
 - REST
 ---

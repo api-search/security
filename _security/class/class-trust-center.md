@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/class/refs/hea
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- Edtech
+- EdTech
 - Education
 - Virtual Classroom
 - Learning

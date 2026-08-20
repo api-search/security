@@ -67,7 +67,7 @@ tags:
 - Voice Agents
 - Telephony
 - Call Center
-- Customer Support
+- Customer-Support
 - Lead Generation
-- Webhooks
+- Webhook
 ---

@@ -34,6 +34,6 @@ tags:
 - Publishing
 - Content Management
 - Media
-- SaaS
+- Software-as-a-Service
 - Advertising Technology
 ---

@@ -60,8 +60,7 @@ tags:
 - Vacation Rentals
 - Short-Term Rentals
 - AI Agents
-- Operations
 - Hospitality
 - Task Management
-- Model Context Protocol
+- MCP
 ---

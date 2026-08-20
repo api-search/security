@@ -90,9 +90,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/polyapi-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/authentication/polyapi-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Integrations
+- Integration
 - Microservices
 - Middleware
 - Orchestrations
-- Pro-Code API Composition
+- Pro-Code-API-Composition
 ---

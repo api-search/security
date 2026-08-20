@@ -28,6 +28,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Observability
-- Open Source
+- Open-Source
 trust_url: https://oneuptime.com/trust
 ---

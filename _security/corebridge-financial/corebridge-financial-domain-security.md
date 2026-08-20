@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AIG
 - Annuities
-- Financial Services
+- Financial-Services
 - Fortune 500
 - Insurance
 - K-12

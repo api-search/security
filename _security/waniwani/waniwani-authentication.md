@@ -50,7 +50,7 @@ summary_line: oauth2/apiKey · 2 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Model Context Protocol
+- MCP
 - AI Distribution
 - Conversational AI
 - Lead Generation

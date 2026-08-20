@@ -147,6 +147,6 @@ tags:
 - Profiles
 - Entity Resolution
 - Defense
-- Financial Services
+- Financial-Services
 - Government
 ---

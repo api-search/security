@@ -44,16 +44,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/5ire/refs/heads/main/security/5ire-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- blockchain
-- layer-1
-- smart-contracts
-- evm
-- web3
-- substrate
-- json-rpc
-- sustainability
-- esg
-- proof-of-stake
-- cryptocurrency
-- developer-tools
+- Blockchain
+- Layer 1
+- Smart Contracts
+- EVM
+- Web3
+- Substrate
+- JSON-RPC
+- Sustainability
+- ESG
+- Proof of Stake
+- Cryptocurrency
+- Developer Tools
 ---

@@ -61,9 +61,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lm-studio/refs
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Local LLM
-- Machine Learning
+- Machine-Learning
 - Inference
 - Developer Tools
 - LLM

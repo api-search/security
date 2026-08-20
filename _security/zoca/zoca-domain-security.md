@@ -90,10 +90,10 @@ tags:
 - Booking
 - Local SEO
 - Google Business Profile
-- Social Media
+- Social-Media
 - Salon Software
 - Spa
-- SaaS
+- Software-as-a-Service
 - Lead Generation
 - Customer Retention
 - Small Business

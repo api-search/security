@@ -58,8 +58,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs
 summary_line: oauth2 · 1 scheme
 tags:
 - Electronic Signatures
-- eSignature
-- Document Management
+- E-Signature
+- Document-Management
 - Digital Signatures
 - Signature Workflows
 - Templates

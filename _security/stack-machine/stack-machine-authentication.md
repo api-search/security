@@ -45,7 +45,7 @@ tags:
 - Edge Compute
 - AI Applications
 - GraphQL
-- Platform as a Service
+- Platform-as-a-Service
 - Deployment
 - Hosting
 - DNS

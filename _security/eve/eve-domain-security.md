@@ -33,10 +33,10 @@ tags:
 - Company
 - Legal
 - Legal AI
-- LegalTech
+- Legal Tech
 - Personal Injury
 - Case Management
 - Artificial Intelligence
 - Document Review
-- SaaS
+- Software-as-a-Service
 ---

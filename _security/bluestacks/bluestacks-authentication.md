@@ -135,9 +135,9 @@ tags:
 - Mobile
 - Payments
 - In-App Purchases
-- Subscriptions
+- Subscription
 - Developer Platform
 - App Distribution
 - Advertising
-- OAuth
+- Authentication
 ---

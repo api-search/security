@@ -122,7 +122,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Payments
 - Merchant of Record
-- Subscriptions
+- Subscription
 - Billing
 - Global Commerce
 ---

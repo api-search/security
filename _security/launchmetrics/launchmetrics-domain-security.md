@@ -39,11 +39,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/launchmetrics/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Marketing
 - Public Relations
 - Media Monitoring
-- Social Media
+- Social-Media
 - Analytics
 - Fashion
 - Luxury

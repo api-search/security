@@ -48,7 +48,7 @@ tags:
 - Payments
 - Mobile Money
 - Fintech
-- Collections
+- Collection
 - Nigeria
 trust_url: https://www.paga.com/
 ---

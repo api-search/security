@@ -36,8 +36,8 @@ tags:
 - Customer Engagement
 - Customer Success
 - GraphQL
-- Webhooks
+- Webhook
 - No-Code
-- SaaS
-- Developer
+- Software-as-a-Service
+- Developers
 ---

@@ -99,11 +99,11 @@ tags:
 - Logistics
 - Last Mile Delivery
 - Shipping
-- Ecommerce
+- E-Commerce
 - Fulfillment
 - Freight
 - Tracking
-- Webhooks
+- Webhook
 - Latin America
 - Mexico
 ---

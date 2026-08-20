@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nebraska
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/authentication/flatcar-container-linux-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- Cloud Native
+- Cloud-Native
 - Containers
 - Immutable Infrastructure
 - Incubating

@@ -17,12 +17,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tryadonis/refs
 summary_line: trust center published
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Healthcare
 - Revenue Cycle Management
 - Medical Billing
 - Health Tech
-- SaaS
+- Software-as-a-Service
 - Claims
 trust_url: https://trust.adonis.io/
 ---

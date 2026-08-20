@@ -141,10 +141,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apache
 - API Gateway
-- Cloud Native
+- Cloud-Native
 - Kubernetes
 - Lua
 - NGINX
-- Open Source
+- Open-Source
 - Traffic Management
 ---

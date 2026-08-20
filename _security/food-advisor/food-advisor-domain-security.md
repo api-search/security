@@ -31,7 +31,7 @@ tags:
 - Company
 - Food
 - Food Discovery
-- Restaurants
+- Restaurant
 - Mobile App
 - Malaysia
 - Startup

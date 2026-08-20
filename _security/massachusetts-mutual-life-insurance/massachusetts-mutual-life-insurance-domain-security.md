@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/massachusetts-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Annuities
-- Financial Services
+- Financial-Services
 - Fortune 500
 - Insurance
 - Investment Management

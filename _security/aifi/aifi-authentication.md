@@ -94,7 +94,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aifi/refs/head
 summary_line: openIdConnect/oauth2 · 1 scheme
 tags:
 - Company
-- Computer Vision
+- Computer-Vision
 - Retail
 - Autonomous Checkout
 - Spatial Intelligence
@@ -102,5 +102,5 @@ tags:
 - Analytics
 - Identity
 - Fraud Prevention
-- Point of Sale
+- Point-of-Sale
 ---

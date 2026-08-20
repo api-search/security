@@ -101,5 +101,5 @@ tags:
 - XDR
 - SIEM
 - SOAR
-- AI
+- Artificial Intelligence
 ---

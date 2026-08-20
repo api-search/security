@@ -58,14 +58,13 @@ source_yaml: "generated: '2026-08-16'\nmethod: searched\nsource: >-\n  openapi/s
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/secton-api/refs/heads/main/authentication/secton-api-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- ai
-- inference
-- llm
-- chat-completions
-- generative-ai
-- developer-tools
-- openai-compatible
-- streaming
-- machine-learning
-- api
+- Artificial Intelligence
+- Inference
+- LLM
+- Chat Completions
+- Generative AI
+- Developer Tools
+- OpenAI-Compatible
+- Streaming
+- Machine-Learning
 ---

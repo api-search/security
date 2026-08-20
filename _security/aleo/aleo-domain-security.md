@@ -73,7 +73,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Blockchain
-- Zero-Knowledge
+- Zero Knowledge
 - Cryptography
 - Privacy
 - Web3

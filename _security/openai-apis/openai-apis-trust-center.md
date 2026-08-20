@@ -99,7 +99,7 @@ summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, FedRAMP, GDPR, CS
 tags:
 - Artificial Intelligence
 - Embeddings
-- Image Generation
+- Image-Generation
 - Language Models
 - Speech
 trust_url: https://trust.openai.com/

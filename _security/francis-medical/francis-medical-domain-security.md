@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/francis-medica
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Health Care
+- Healthcare
 - Medical Devices
 - Oncology
 - Urology

@@ -36,9 +36,9 @@ tags:
 - Company
 - Telecommunications
 - Cloud
-- Cyber Security
+- Cybersecurity
 - Connectivity
-- Managed Services
+- Managed Service
 - Unified Communications
 - Romania
 ---

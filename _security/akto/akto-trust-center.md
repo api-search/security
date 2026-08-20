@@ -28,7 +28,7 @@ tags:
 - API Discovery
 - AI Security
 - MCP Security
-- Open Source
+- Open-Source
 - DevSecOps
 - Governance
 trust_url: https://trust.akto.io/

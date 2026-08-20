@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gel-data/refs/
 summary_line: http/oauth2/webauthn/magic-link/apiKey · 7 schemes
 tags:
 - Company
-- Open Source
+- Open-Source
 - Database
 - PostgreSQL
 - Graph Database

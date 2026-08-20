@@ -91,7 +91,7 @@ tags:
 - Collaboration
 - Chat
 - Bots
-- Webhooks
+- Webhook
 - Productivity
-- Tasks
+- Task
 ---

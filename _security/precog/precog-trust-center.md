@@ -95,8 +95,8 @@ tags:
 - ETL
 - Artificial Intelligence
 - Semantic Layer
-- Model Context Protocol
-- Data Pipelines
+- MCP
+- Data Pipeline
 - Analytics
 - Enterprise
 trust_url: https://precog.com/express-security

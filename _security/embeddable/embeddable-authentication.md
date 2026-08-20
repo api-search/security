@@ -46,5 +46,5 @@ tags:
 - Data Visualization
 - Semantic Layer
 - Developer Tools
-- SaaS
+- Software-as-a-Service
 ---

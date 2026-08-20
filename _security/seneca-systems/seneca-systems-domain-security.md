@@ -29,11 +29,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seneca-systems
 summary_line: TLSv1.3
 tags:
 - Company
-- Govtech
+- GovTech
 - Government
 - CRM
 - Constituent Services
 - Case Management
 - Public Sector
-- SaaS
+- Software-as-a-Service
 ---

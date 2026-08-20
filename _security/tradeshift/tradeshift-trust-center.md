@@ -251,20 +251,20 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/security/tradeshift-trust-center.yml
 summary_line: SOC 1 Type II, SOC 2 Type II, ISAE 3402 Type II, PCI DSS Level 1, ISO 27001
 tags:
-- e-invoicing
-- accounts-payable
-- ap-automation
-- procure-to-pay
-- supply-chain
-- b2b-commerce
-- invoicing
+- E-Invoicing
+- Accounts Payable
+- AP Automation
+- Procure-to-Pay
+- Supply Chain
+- B2B Commerce
+- Invoicing
 - ubl
-- peppol
+- PEPPOL
 - e-invoicing-compliance
-- supplier-network
+- Supplier Network
 - business-documents
-- fintech
-- mcp
+- Fintech
+- MCP
 - agent-native
 trust_url: https://tradeshift.com/security/
 ---

@@ -55,8 +55,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/wellsaid
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wellsaid-labs/refs/heads/main/authentication/wellsaid-labs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
-- Text to Speech
+- Artificial Intelligence
+- Text-to-Speech
 - TTS
 - Voice
 - Voiceover

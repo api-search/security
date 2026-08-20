@@ -25,6 +25,6 @@ tags:
 - Quality Assurance
 - Observability
 - Screen Recording
-- Model Context Protocol
+- MCP
 trust_url: https://trust.jam.dev/
 ---

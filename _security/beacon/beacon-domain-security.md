@@ -43,8 +43,8 @@ tags:
 - Brain Health
 - Sleep Medicine
 - Clinical Trials
-- Machine Learning
+- Machine-Learning
 - Medical Devices
-- Open Source
+- Open-Source
 - Julia
 ---

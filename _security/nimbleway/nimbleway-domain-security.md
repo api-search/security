@@ -109,5 +109,5 @@ tags:
 - Web Search
 - Proxies
 - AI Agents
-- Model Context Protocol
+- MCP
 ---

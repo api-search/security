@@ -129,7 +129,7 @@ tags:
 - PISP
 - Consent
 - Bank Data
-- Transactions
+- Transaction
 - Balances
 - Payments
 - Fintech

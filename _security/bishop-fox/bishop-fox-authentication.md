@@ -52,15 +52,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bishop-fox/ref
 summary_line: oauth2/http · 2 schemes
 tags:
 - Company
-- cybersecurity
-- offensive-security
-- penetration-testing
-- attack-surface-management
-- exposure-management
-- red-teaming
-- vulnerability-management
-- security-findings
-- asset-discovery
-- continuous-threat-exposure-management
-- oauth2
+- Cybersecurity
+- Offensive Security
+- Penetration Testing
+- Attack Surface Management
+- Exposure Management
+- Red Teaming
+- Vulnerability Management
+- Security Findings
+- Asset Discovery
+- Continuous Threat Exposure Management
+- Authentication
 ---

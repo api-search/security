@@ -98,7 +98,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/hea
 summary_line: http · 3 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Freight
 - Logistics
 - Transportation

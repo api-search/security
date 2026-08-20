@@ -22,7 +22,7 @@ summary_line: SOC 2 Type II, SOC 1 Type II, ISO 27001, CSA CAIQ
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - Debt Repayment
 - Personal Finance
 - Payments

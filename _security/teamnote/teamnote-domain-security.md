@@ -33,7 +33,7 @@ tags:
 - Mobile
 - Collaboration
 - Productivity
-- Communication
+- Communications
 - Workforce
 - Hong Kong
 ---

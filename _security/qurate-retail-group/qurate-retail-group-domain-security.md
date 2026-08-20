@@ -27,7 +27,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qurate-retail-
 summary_line: DMARC
 tags:
 - Retail
-- Ecommerce
+- E-Commerce
 - Video Commerce
 - Fortune 500
 ---

@@ -49,14 +49,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dopost-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/authentication/dopost-co-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Social Media
+- Social-Media
 - Scheduling
 - Publishing
 - Instagram
 - Facebook
 - TikTok
 - Pinterest
-- X Twitter
+- X / Twitter
 - YouTube
 - Content Management
 - REST

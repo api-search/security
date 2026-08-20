@@ -35,7 +35,7 @@ tags:
 - Biotechnology
 - RNA
 - Drug Discovery
-- Machine Learning
+- Machine-Learning
 - Foundation Models
 - Life Sciences
 ---

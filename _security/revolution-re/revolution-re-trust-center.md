@@ -18,7 +18,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revolution-re/
 summary_line: SOC 2
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - PropTech
 - Multifamily
 - Data Intelligence

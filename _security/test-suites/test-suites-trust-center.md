@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/test-suites/re
 summary_line: SOC 2, ISO 27001, ISO 27017, PCI DSS, HIPAA, GDPR, CSA STAR
 tags:
 - API Testing
-- Collections
+- Collection
 - Quality Assurance
 - Software Development
 - Test Management

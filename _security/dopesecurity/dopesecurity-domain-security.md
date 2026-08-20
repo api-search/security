@@ -76,5 +76,4 @@ tags:
 - Data Loss Prevention
 - CASB
 - Endpoint Security
-- API
 ---

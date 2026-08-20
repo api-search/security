@@ -36,7 +36,7 @@ tags:
 - Staff Augmentation
 - Quality Assurance
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Cloud
 - DevOps
 - Data Science

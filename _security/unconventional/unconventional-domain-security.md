@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unconventional
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Hardware
 - Analog Computing
 - Energy Efficiency
 - Dynamical Systems
-- Image Generation
+- Image-Generation
 - Research
 ---

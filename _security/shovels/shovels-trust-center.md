@@ -57,7 +57,7 @@ tags:
 - Construction
 - Building Permits
 - Contractors
-- Real Estate
+- Real-Estate
 - Property Data
 - Market Intelligence
 trust_url: https://trust.shovels.ai/

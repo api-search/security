@@ -39,7 +39,7 @@ tags:
 - Company
 - Ai Data
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Diffusion Models
 - Generative AI
 - Distributed Training

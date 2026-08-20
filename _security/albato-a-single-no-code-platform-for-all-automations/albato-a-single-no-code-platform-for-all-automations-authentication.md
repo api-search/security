@@ -63,9 +63,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/albato-a-singl
 summary_line: apiKey · 1 scheme
 tags:
 - No-Code Automation
-- Workflow Automation
+- Workflow-Automation
 - App Integration
 - Embedded iPaaS
-- Integrations
-- Webhooks
+- Integration
+- Webhook
 ---

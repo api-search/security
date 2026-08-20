@@ -47,7 +47,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/htmlcsst
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/authentication/htmlcsstoimage-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Image Generation
+- Image-Generation
 - HTML to Image
 - CSS to Image
 - Rendering

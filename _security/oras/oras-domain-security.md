@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oras/refs/head
 summary_line: TLSv1.3 · HSTS
 tags:
 - Artifact Storage
-- Cloud Native
+- Cloud-Native
 - Container Registry
 - OCI
 ---

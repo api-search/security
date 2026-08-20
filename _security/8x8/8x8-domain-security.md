@@ -254,6 +254,6 @@ tags:
 - Voice
 - Video
 - Identity Verification
-- Webhooks
+- Webhook
 - Cloud Communications
 ---

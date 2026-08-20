@@ -34,9 +34,9 @@ tags:
 - Law Firm
 - Litigation
 - Corporate
-- Mergers And Acquisitions
+- Mergers and Acquisitions
 - Bankruptcy
-- Real Estate
+- Real-Estate
 - Public Finance
 - Life Sciences
 - Intellectual Property

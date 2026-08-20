@@ -198,6 +198,6 @@ tags:
 - LLM
 - ETL
 - Schema Inference
-- Webhooks
+- Webhook
 trust_url: https://trust.bem.ai
 ---

@@ -26,11 +26,11 @@ summary_line: SOC 2 Type II, HIPAA, PCI DSS, GDPR, CSA CAIQ
 tags:
 - Company
 - Conversation Intelligence
-- Speech to Text
+- Speech-to-Text
 - Voice AI
 - Artificial Intelligence
-- Machine Learning
-- Real Time
-- SDKs
+- Machine-Learning
+- Real-Time
+- SDK
 trust_url: ''
 ---

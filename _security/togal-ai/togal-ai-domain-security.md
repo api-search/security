@@ -36,10 +36,10 @@ tags:
 - Estimating
 - Takeoff
 - Blueprints
-- Computer Vision
+- Computer-Vision
 - Deep Learning
 - Document AI
 - Drawing Analysis
-- SaaS
+- Software-as-a-Service
 - Miami
 ---

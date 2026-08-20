@@ -46,10 +46,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lf-ai-and-data
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Data
 - Linux Foundation
-- Open Source
+- Open-Source
 - MLOps
 - Vector Database
 ---

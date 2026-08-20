@@ -41,7 +41,7 @@ tags:
 - Kubernetes
 - CNCF
 - Pipelines
-- Open Source
+- Open-Source
 - CRD
 - Operator
 ---

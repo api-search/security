@@ -26,6 +26,6 @@ tags:
 - Artificial Intelligence
 - Data Platform
 - Design System
-- Model Context Protocol
+- MCP
 trust_url: https://innovaccer.com/security
 ---

@@ -33,11 +33,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/predictionio/r
 summary_line: 2 schemes
 tags:
 - Company
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Predictive Analytics
 - Recommendation Engine
-- Open Source
+- Open-Source
 - Apache
 - Event Server
 - Retired

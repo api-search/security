@@ -53,17 +53,17 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Fintech Insurtech
-- payments
-- emv
+- Payments
+- EMV
 - emv-level-2
-- card-present
-- point-of-sale
-- softpos
-- tap-to-pay
-- payment-terminals
-- in-store-payments
+- Card Present
+- Point-of-Sale
+- SoftPOS
+- Tap to Pay
+- Payment Terminals
+- In-Store Payments
 - pci-mpoc
 - certification-testing
-- retail-payments
+- Retail Payments
 - estate-management
 ---

@@ -68,7 +68,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Gaming
 - Multiplayer
-- Realtime
+- Real-Time
 - Netcode
 - Game Networking
 - WebSocket

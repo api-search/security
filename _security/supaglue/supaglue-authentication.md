@@ -316,14 +316,14 @@ summary_line: apiKey · 1 scheme
 tags:
 - CRM
 - HRIS
-- Unified API
-- Open Source
-- Integrations
+- Unified-API
+- Open-Source
+- Integration
 - Sales Engagement
 - Ticketing
 - Data Synchronization
 - Marketing Automation
 - Enrichment
-- Webhooks
+- Webhook
 - Archived
 ---

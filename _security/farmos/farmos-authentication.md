@@ -86,9 +86,9 @@ summary_line: oauth2 · 2 schemes
 tags:
 - Agriculture
 - Farm Management
-- Open Source
+- Open-Source
 - JSON:API
-- Record Keeping
+- Recordkeeping
 - Self-Hosted
 - Drupal
 ---

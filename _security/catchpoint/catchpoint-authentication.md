@@ -219,7 +219,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/catchpoint/ref
 summary_line: http · 1 scheme
 tags:
 - Company
-- Devops
+- DevOps
 - Monitoring
 - Observability
 - Internet Performance Monitoring

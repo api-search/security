@@ -1,41 +1,53 @@
 ---
 api_specs:
-- filename: ucsd-audio-api-openapi.yml
-  format: yaml
-  label: University of California, San Diego audio API
-  slug: ucsd-audio-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-audio-api-openapi.yml
 - filename: ucsd-chat-api-openapi.yml
   format: yaml
-  label: University of California, San Diego chat API
-  slug: ucsd-chat-api
+  label: TritonAI Developer API — chat
+  slug: tritonai-chat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-chat-api-openapi.yml
 - filename: ucsd-completions-api-openapi.yml
   format: yaml
-  label: University of California, San Diego completions API
-  slug: ucsd-completions-api
+  label: TritonAI Developer API — completions
+  slug: tritonai-completions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-completions-api-openapi.yml
 - filename: ucsd-embeddings-api-openapi.yml
   format: yaml
-  label: University of California, San Diego embeddings API
-  slug: ucsd-embeddings-api
+  label: TritonAI Developer API — embeddings
+  slug: tritonai-embeddings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-embeddings-api-openapi.yml
-- filename: ucsd-images-api-openapi.yml
-  format: yaml
-  label: University of California, San Diego images API
-  slug: ucsd-images-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-images-api-openapi.yml
 - filename: ucsd-models-api-openapi.yml
   format: yaml
-  label: University of California, San Diego models API
-  slug: ucsd-models-api
+  label: TritonAI Developer API — models
+  slug: tritonai-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-models-api-openapi.yml
+- filename: ucsd-images-api-openapi.yml
+  format: yaml
+  label: TritonAI Developer API — images
+  slug: tritonai-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-images-api-openapi.yml
+- filename: ucsd-audio-api-openapi.yml
+  format: yaml
+  label: TritonAI Developer API — audio
+  slug: tritonai-audio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-audio-api-openapi.yml
+- filename: ucsd-scim-api-openapi.yml
+  format: yaml
+  label: TritonAI Developer API — SCIM 2.0 provisioning
+  slug: tritonai-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-scim-api-openapi.yml
+- filename: ucsd-library-digital-collections-openapi.yml
+  format: yaml
+  label: UC San Diego Library Digital Collections JSON API
+  slug: library-digital-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-library-digital-collections-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -80,7 +92,15 @@ tags:
 - Education
 - Higher Education
 - University
-- Research
+- Public Research University
+- UC System
 - United States
 - California
+- Research
+- Research Data
+- Digital Collections
+- Identity Federation
+- API Gateway
+- Artificial Intelligence
+- Research Computing
 ---

@@ -34,7 +34,7 @@ tags:
 - Fintech
 - Debt Negotiation
 - Debt Settlement
-- Financial Services
+- Financial-Services
 - Consumer Finance
 - Brazil
 ---

@@ -38,5 +38,5 @@ tags:
 - Revenue Cycle Management
 - Patient Engagement
 - Payments
-- SaaS
+- Software-as-a-Service
 ---

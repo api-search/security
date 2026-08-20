@@ -82,5 +82,5 @@ tags:
 - Compute
 - Deep Learning
 - GPU
-- Machine Learning
+- Machine-Learning
 ---

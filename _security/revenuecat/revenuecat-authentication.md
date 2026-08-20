@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/revenuec
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revenuecat/refs/heads/main/authentication/revenuecat-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Subscriptions
+- Subscription
 - In-App Purchases
 - Billing
 - Mobile

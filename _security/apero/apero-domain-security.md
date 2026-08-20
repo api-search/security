@@ -39,6 +39,5 @@ tags:
 - Practice Management
 - Insurance
 - Payments
-- API
-- Webhooks
+- Webhook
 ---

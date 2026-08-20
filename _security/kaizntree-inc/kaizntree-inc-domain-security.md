@@ -30,7 +30,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kaizntree-inc/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Operations
 - ERP
 - Inventory Management
 - CPG

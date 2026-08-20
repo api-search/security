@@ -59,10 +59,10 @@ summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:
 - Event Management
 - Event Registration
-- Events
+- Event
 - Sessions
 - Speakers
 - Attendees
-- SaaS
+- Software-as-a-Service
 trust_url: https://swoogo.events/security-compliance/
 ---

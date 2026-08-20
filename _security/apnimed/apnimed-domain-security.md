@@ -32,7 +32,7 @@ tags:
 - Company
 - Pharmaceuticals
 - Biotechnology
-- Health Care
+- Healthcare
 - Life Sciences
 - Sleep Medicine
 - Clinical Trials

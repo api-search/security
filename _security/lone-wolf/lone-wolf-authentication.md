@@ -133,10 +133,10 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: openapi/lone-wo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/authentication/lone-wolf-authentication.yml
 summary_line: apiKey/http/oauth2 · 6 schemes
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - PropTech
-- Transactions
+- Transaction
 - Transaction Management
 - Brokerage Back Office
 - Real Estate Accounting

@@ -34,7 +34,7 @@ tags:
 - Artificial Intelligence
 - AI Transformation
 - Enterprise Software
-- SaaS
+- Software-as-a-Service
 - AI Agents
 - Digital Transformation
 - Business Intelligence

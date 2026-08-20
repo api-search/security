@@ -110,7 +110,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-health-
 summary_line: apiKey · 1 scheme
 tags:
 - Health Monitoring
-- Notifications
-- Operations
+- Notification
 - Service Status
 ---

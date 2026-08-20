@@ -48,5 +48,5 @@ tags:
 - Risk Data
 - Digital Signatures
 - Insurance Applications
-- Webhooks
+- Webhook
 ---

@@ -71,8 +71,8 @@ tags:
 - Shipping
 - Last Mile Delivery
 - Package Tracking
-- eCommerce
-- Webhooks
+- E-Commerce
+- Webhook
 - Delivery
 trust_url: https://www.shipveho.com/security
 ---

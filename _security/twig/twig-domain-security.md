@@ -34,7 +34,7 @@ tags:
 - Bioengineering
 - Synthetic Biology
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Sustainability
 - Ingredients
 - Fermentation

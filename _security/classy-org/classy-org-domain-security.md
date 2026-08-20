@@ -108,10 +108,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/security/classy-org-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Donations
-- Peer to Peer
+- Peer-to-Peer
 - Philanthropy
 - Payments
 - GoFundMe Pro

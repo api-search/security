@@ -33,7 +33,7 @@ tags:
 - Company
 - Consumer Packaged Goods
 - Beauty
-- Haircare
+- Hair Care
 - E-Commerce
 - Direct to Consumer
 - Shopify

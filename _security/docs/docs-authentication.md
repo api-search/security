@@ -37,7 +37,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Large Language Models
 - Model as a Service
 - Inference

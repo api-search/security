@@ -29,8 +29,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atropos-health/refs/heads/main/security/atropos-health-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Real World Evidence
-- Real World Data
+- Real-World Evidence
+- Real-World Data
 - Clinical Evidence
 - Observational Studies
 - Healthcare Analytics

@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dot-regulation
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Compliance
-- Federal Government
+- Federal-Government
 - Regulations
 - Safety
 - Transportation

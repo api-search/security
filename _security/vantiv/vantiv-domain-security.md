@@ -102,8 +102,8 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Payments
 - Payment Processing
-- eCommerce
+- E-Commerce
 - Finance
-- FinTech
+- Fintech
 - Fortune 1000
 ---

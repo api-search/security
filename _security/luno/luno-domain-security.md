@@ -44,7 +44,7 @@ tags:
 - Ethereum
 - Trading
 - Fintech
-- Wallet
+- Wallets
 - Blockchain
-- Financial Services
+- Financial-Services
 ---

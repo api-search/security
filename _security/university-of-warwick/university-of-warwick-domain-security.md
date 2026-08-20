@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: university-of-warwick-tabula-openapi.yml
+  format: yaml
+  label: Tabula API
+  slug: tabula
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-warwick/refs/heads/main/openapi/university-of-warwick-tabula-openapi.yml
+- filename: university-of-warwick-wrap-oai-pmh-openapi.yml
+  format: yaml
+  label: WRAP OAI-PMH (Warwick Research Archive Portal)
+  slug: wrap-oai
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-warwick/refs/heads/main/openapi/university-of-warwick-wrap-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa:
@@ -54,11 +67,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-warwick/refs/heads/main/security/university-of-warwick-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
 - United Kingdom
-- Student Information System
+- Russell Group
+- Identity Federation
+- Research Repository
+- Course Catalog
 - Timetabling
+- Student Information System
+- Open Data
 ---

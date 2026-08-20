@@ -36,5 +36,5 @@ tags:
 - Artificial Intelligence
 - Employee Listening
 - Focus Groups
-- SaaS
+- Software-as-a-Service
 ---

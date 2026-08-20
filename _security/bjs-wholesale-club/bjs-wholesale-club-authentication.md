@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bjs-whol
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/authentication/bjs-wholesale-club-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Ecommerce
+- E-Commerce
 - Membership
 - Retail
 - Wholesale

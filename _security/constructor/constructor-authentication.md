@@ -49,11 +49,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/constructor/re
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Search
 - Product Discovery
 - Recommendations
 - Personalization
 - Retail
-- AI
+- Artificial Intelligence
 ---

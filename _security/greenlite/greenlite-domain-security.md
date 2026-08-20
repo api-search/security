@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/greenlite/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Construction
 - Permitting
 - Plan Review
 - Compliance
 - Government
-- Real Estate
+- Real-Estate
 ---

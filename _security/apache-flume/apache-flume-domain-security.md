@@ -45,6 +45,6 @@ tags:
 - Data Collection
 - ETL
 - Log Aggregation
-- Open Source
+- Open-Source
 - Streaming
 ---

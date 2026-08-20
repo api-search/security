@@ -27,6 +27,6 @@ tags:
 - Artificial Intelligence
 - Biopharma
 - Protocol Authoring
-- Workflow Automation
+- Workflow-Automation
 trust_url: https://farohealth.com/trust-center
 ---

@@ -55,5 +55,5 @@ tags:
 - Insights
 - Learning
 - Microsoft
-- Microsoft 365
+- Microsoft-365
 ---

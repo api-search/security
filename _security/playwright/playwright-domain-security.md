@@ -34,7 +34,7 @@ tags:
 - Browser Testing
 - End-to-End
 - Library
-- Open Source
+- Open-Source
 - Test Automation
 - Test Framework
 - Web Automation

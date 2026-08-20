@@ -48,12 +48,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glue/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Team Communication
 - Messaging
 - Collaboration
 - GraphQL
-- Webhooks
+- Webhook
 - MCP
 - Productivity
 - AI Agents

@@ -83,6 +83,6 @@ tags:
 - Pharmaceuticals
 - Clinical Trials
 - Healthcare
-- Model Context Protocol
+- MCP
 - WordPress
 ---

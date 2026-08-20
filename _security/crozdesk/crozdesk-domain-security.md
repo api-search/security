@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crozdesk/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - B2B
-- SaaS
+- Software-as-a-Service
 - Software Discovery
 - Reviews
 - Vendor Marketplace

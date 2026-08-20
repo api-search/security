@@ -46,10 +46,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thenewsapi/refs/heads/main/security/thenewsapi-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
-- news
-- articles
-- headlines
-- media
-- aggregation
-- real-time
+- News
+- Articles
+- Headlines
+- Media
+- Aggregation
+- Real-Time
 ---

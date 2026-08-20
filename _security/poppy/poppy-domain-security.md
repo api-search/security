@@ -33,8 +33,8 @@ tags:
 - Flowers
 - Weddings
 - Florist
-- Ecommerce
+- E-Commerce
 - Delivery
 - Consumer
-- Events
+- Event
 ---

@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/remind/refs/he
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Messaging
-- Communication
+- Communications
 - Education
 - K-12
 - School Communication
@@ -39,8 +39,8 @@ tags:
 - Teacher Messaging
 - SMS
 - Translation
-- OAuth
-- Webhooks
+- Authentication
+- Webhook
 - Share SDK
 - ParentSquare
 ---

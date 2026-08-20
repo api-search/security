@@ -54,9 +54,9 @@ tags:
 - Company
 - PDF
 - Documents
-- eSignature
+- E-Signature
 - Electronic Signature
-- Document Management
+- Document-Management
 - Document Intelligence
 - OCR
 - Data Extraction

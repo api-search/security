@@ -54,5 +54,5 @@ tags:
 - Fortune 500
 - Natural Gas
 - Energy
-- Oil And Gas
+- Oil and Gas
 ---

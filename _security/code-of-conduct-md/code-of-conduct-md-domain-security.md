@@ -32,7 +32,7 @@ tags:
 - Community
 - Contributor Covenant
 - Governance
-- Open Source
+- Open-Source
 - Repository File
 - Standards
 ---

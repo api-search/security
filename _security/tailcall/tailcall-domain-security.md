@@ -46,7 +46,7 @@ tags:
 - REST
 - gRPC
 - Rust
-- Open Source
+- Open-Source
 - API Composition
 - Caching
 - Batching

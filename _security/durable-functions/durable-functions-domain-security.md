@@ -47,5 +47,5 @@ tags:
 - API Composition
 - Durable Execution
 - Serverless Orchestration
-- Workflow
+- Workflows
 ---

@@ -30,9 +30,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/viso/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ai
-- Computer Vision
-- Machine Learning
+- Artificial Intelligence
+- Computer-Vision
+- Machine-Learning
 - Video Analytics
 - Vision Agents
 - Edge AI

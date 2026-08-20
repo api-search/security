@@ -117,6 +117,6 @@ tags:
 - Payroll
 - Invoicing
 - Finance
-- SaaS
+- Software-as-a-Service
 - Japan
 ---

@@ -202,12 +202,12 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Commerce
-- eCommerce
+- E-Commerce
 - Marketplace
 - Dropship
 - Retail
 - Catalog
-- Orders
+- Order
 - Retail Media
 - B2B
 ---

@@ -290,6 +290,6 @@ tags:
 - Rewards
 - Marketing
 - Customer Acquisition
-- SaaS
+- Software-as-a-Service
 trust_url: https://security.extole.com/
 ---

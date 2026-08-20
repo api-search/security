@@ -39,10 +39,10 @@ tags:
 - Insurance Claims
 - Insurance Underwriting
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Vehicle Inspection
 - Automotive
 - Claims Automation
 - Damage Assessment
-- InsurTech
+- Insurtech
 ---

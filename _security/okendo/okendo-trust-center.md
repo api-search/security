@@ -22,10 +22,10 @@ tags:
 - Business Applications
 - Reviews
 - Ratings
-- Ecommerce
+- E-Commerce
 - Loyalty
 - Customer Marketing
 - Shopify
-- Webhooks
+- Webhook
 trust_url: https://trust.okendo.io/
 ---

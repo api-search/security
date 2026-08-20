@@ -19,7 +19,6 @@ summary_line: SOC 2
 tags:
 - Company
 - Cybersecurity
-- Model Context Protocol
 - MCP
 - AI Agents
 - Identity

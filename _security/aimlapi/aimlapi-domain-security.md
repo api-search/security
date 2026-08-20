@@ -92,10 +92,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/h
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - AI Models
 - LLM
-- Image Generation
+- Image-Generation
 - Video Generation
 - Speech
 - Embeddings

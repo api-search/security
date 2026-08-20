@@ -30,13 +30,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/incident-iq/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Edtech
-- IT Service Management
+- EdTech
+- ITSM
 - Asset Management
 - Help Desk
 - Ticketing
 - K-12
 - Education
-- Webhooks
+- Webhook
 - REST
 ---

@@ -47,11 +47,11 @@ tags:
 - Company
 - Payments
 - Card Linking
-- Transactions
+- Transaction
 - Fintech
 - Embedded Finance
 - Loyalty
 - Rewards
-- Webhooks
-- SDKs
+- Webhook
+- SDK
 ---

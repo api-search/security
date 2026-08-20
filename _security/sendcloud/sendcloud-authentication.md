@@ -233,7 +233,7 @@ summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Shipping
 - Logistics
-- Ecommerce
+- E-Commerce
 - Carriers
 - Labels
 - Returns

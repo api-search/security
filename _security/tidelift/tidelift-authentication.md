@@ -119,7 +119,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/
 summary_line: http · 1 scheme
 tags:
 - Company
-- Open Source
+- Open-Source
 - Software Supply Chain
 - Dependency Management
 - Application Security

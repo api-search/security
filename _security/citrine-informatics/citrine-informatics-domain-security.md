@@ -32,7 +32,7 @@ tags:
 - Company
 - Materials Informatics
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Chemicals
 - Materials Science
 - Generative AI

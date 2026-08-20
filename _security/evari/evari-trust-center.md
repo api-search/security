@@ -33,7 +33,7 @@ tags:
 - Property and Casualty
 - Underwriting
 - Claims
-- Broker
+- Brokers
 - MGA
 - Artificial Intelligence
 - Quoting

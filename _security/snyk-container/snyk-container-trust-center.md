@@ -44,6 +44,6 @@ tags:
 - Security
 - Vulnerability Management
 - DevSecOps
-- Open Source
+- Open-Source
 trust_url: https://trust.snyk.io/
 ---

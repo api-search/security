@@ -92,6 +92,6 @@ tags:
 - Data Extraction
 - Scraping
 - URLs
-- AI
+- Artificial Intelligence
 - Markdown
 ---

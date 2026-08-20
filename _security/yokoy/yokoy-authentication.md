@@ -191,5 +191,5 @@ tags:
 - Finance Automation
 - Corporate Cards
 - Fintech
-- SaaS
+- Software-as-a-Service
 ---

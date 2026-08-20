@@ -78,7 +78,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/altoira/refs/h
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Retirement
 - Self-Directed IRA
 - Alternative Investments

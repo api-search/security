@@ -22,7 +22,7 @@ summary_line: SOC 2
 tags:
 - Company
 - Ticketing
-- Events
+- Event
 - Group Sales
 - Social Commerce
 - E-Commerce

@@ -35,9 +35,9 @@ tags:
 - Restaurant Engagement
 - Online Ordering
 - Loyalty
-- Point of Sale
+- Point-of-Sale
 - Food Service
-- eCommerce
+- E-Commerce
 - Marketing
 - Payments
 ---

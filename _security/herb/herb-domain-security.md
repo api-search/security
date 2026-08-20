@@ -34,7 +34,7 @@ tags:
 - Cannabis
 - Media
 - Content
-- E-commerce
+- E-Commerce
 - Marketplace
 - Education
 - Lifestyle

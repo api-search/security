@@ -54,6 +54,6 @@ tags:
 - Investment Management
 - Wealth Management
 - Brokerage
-- Financial Services
+- Financial-Services
 - Fintech
 ---

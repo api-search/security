@@ -127,7 +127,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-health-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Health Monitoring
-- Notifications
-- Operations
+- Notification
 - Service Status
 ---

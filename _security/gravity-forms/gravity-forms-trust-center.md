@@ -53,7 +53,7 @@ tags:
 - Forms
 - Form Builder
 - Surveys
-- Workflow
+- Workflows
 - Plugins
 trust_url: https://docs.gravityforms.com/information-for-security-researchers/
 ---

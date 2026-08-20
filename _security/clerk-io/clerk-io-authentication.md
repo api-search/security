@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://docs.cl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/authentication/clerk-io-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Commerce
 - E-Commerce
 - Email Marketing

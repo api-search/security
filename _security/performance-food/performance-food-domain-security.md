@@ -31,6 +31,6 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Food
 - Distribution
-- Foodservice
+- Food Service
 - Fortune 500
 ---

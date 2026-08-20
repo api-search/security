@@ -39,7 +39,7 @@ tags:
 - Website Builder
 - CMS
 - Blogging
-- eCommerce
+- E-Commerce
 - Membership
 - No-Code
 ---

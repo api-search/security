@@ -35,11 +35,11 @@ source_yaml: "generated: '2026-07-23'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vancity/refs/heads/main/security/vancity-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Canada
 - Credit Union
-- Co-operative
+- Cooperative
 - Interac
 - Payments
 - Data Aggregation

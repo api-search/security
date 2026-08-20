@@ -39,5 +39,5 @@ tags:
 - Field Marketing
 - Retail Merchandising
 - Integrated Commerce
-- Events
+- Event
 ---

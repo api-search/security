@@ -34,9 +34,9 @@ tags:
 - Developer Tools
 - Chemistry
 - Materials Science
-- Research And Development
+- Research and Development
 - Artificial Intelligence
 - Laboratory Informatics
 - Data Management
-- SaaS
+- Software-as-a-Service
 ---

@@ -34,6 +34,6 @@ tags:
 - Marketplace
 - Auction
 - Collectibles
-- Ecommerce
+- E-Commerce
 - Art
 ---

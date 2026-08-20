@@ -87,5 +87,5 @@ tags:
 - AI Gateways
 - Gateways
 - Observability
-- Webhooks
+- Webhook
 ---

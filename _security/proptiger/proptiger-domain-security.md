@@ -37,7 +37,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Consumer
-- Real Estate
+- Real-Estate
 - Property
 - PropTech
 - Marketplace

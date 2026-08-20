@@ -512,6 +512,6 @@ tags:
 - Billing
 - Reseller
 - Cloud Distribution
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 ---

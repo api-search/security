@@ -57,9 +57,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Commerce
 - Headless Commerce
-- eCommerce
+- E-Commerce
 - GraphQL
-- Open Source
+- Open-Source
 - TypeScript
 - NestJS
 - B2B

@@ -34,10 +34,10 @@ tags:
 - Biotechnology
 - Drug Discovery
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Chemistry
 - Life Sciences
 - Pharmaceuticals
 - Foundation Models
-- Open Source
+- Open-Source
 ---

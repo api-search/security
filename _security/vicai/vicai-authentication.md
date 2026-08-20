@@ -234,7 +234,7 @@ tags:
 - Invoicing
 - Payments
 - ERP Integration
-- AI
+- Artificial Intelligence
 - Finance Automation
-- Webhooks
+- Webhook
 ---

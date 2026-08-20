@@ -47,7 +47,7 @@ tags:
 - Marketing
 - Creator Economy
 - Advertising
-- Social Media
+- Social-Media
 - Advocacy
 - Media Processing
 - Public Sector

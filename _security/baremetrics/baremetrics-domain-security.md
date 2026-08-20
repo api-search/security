@@ -93,5 +93,5 @@ tags:
 - Revenue
 - Stripe
 - Financial Metrics
-- SaaS
+- Software-as-a-Service
 ---

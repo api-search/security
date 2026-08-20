@@ -76,12 +76,12 @@ tags:
 - Product Demos
 - Sales Enablement
 - Go-To-Market
-- SaaS
+- Software-as-a-Service
 - Conversational AI
 - Video
 - Y Combinator
-- mcp
+- MCP
 - agent-native
-- analytics
-- conversation-intelligence
+- Analytics
+- Conversation Intelligence
 ---

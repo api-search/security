@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/callsign/refs/
 summary_line: ISO/IEC 27001, SOC 2
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Identity
 - Authentication
 - Fraud Prevention

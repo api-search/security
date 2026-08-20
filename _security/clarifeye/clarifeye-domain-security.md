@@ -128,8 +128,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Knowledge Management
-- Model Context Protocol
+- Knowledge-Management
+- MCP
 - Document Intelligence
 - Agents
 - Enterprise AI

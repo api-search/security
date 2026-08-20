@@ -43,6 +43,6 @@ tags:
 - IoT
 - Sleep Tracking
 - Connected Devices
-- Computer Vision
+- Computer-Vision
 - Parenting
 ---

@@ -27,6 +27,6 @@ tags:
 - Identity Governance
 - Nonfederated Applications
 - Automation
-- Webhooks
+- Webhook
 trust_url: https://trust.cerby.com/
 ---

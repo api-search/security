@@ -313,7 +313,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/corestory/refs
 summary_line: http · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Code Intelligence
 - Legacy Modernization
 - Developer Tools

@@ -63,6 +63,6 @@ summary_line: apiKey · 1 scheme
 tags:
 - Animals
 - Cats
-- Images
+- Image
 - Media
 ---

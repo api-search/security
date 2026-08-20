@@ -31,7 +31,7 @@ tags:
 - Company
 - Artificial Intelligence
 - 3D
-- Ecommerce
+- E-Commerce
 - Product Imagery
 - Visualization
 - Generative AI

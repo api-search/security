@@ -84,7 +84,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Signature
-- Document Management
+- Document-Management
 - Electronic Signature
-- Workflow Automation
+- Workflow-Automation
 ---

@@ -44,15 +44,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delos/refs/hea
 summary_line: apiKey/openIdConnect · 1 scheme
 tags:
 - wellness-real-estate
-- indoor-air-quality
+- Indoor Air Quality
 - indoor-environmental-quality
-- iot
-- smart-buildings
-- building-automation
-- air-purification
+- IoT
+- Smart Buildings
+- Building Automation
+- Air Purification
 - environmental-sensors
-- commercial-real-estate
+- Commercial Real Estate
 - healthy-buildings
-- hospitality
-- esg
+- Hospitality
+- ESG
 ---

@@ -42,6 +42,6 @@ tags:
 - AI Gateway
 - Inference
 - Observability
-- Open Source
+- Open-Source
 - Model Routing
 ---

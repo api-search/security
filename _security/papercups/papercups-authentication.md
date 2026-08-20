@@ -61,7 +61,7 @@ summary_line: http · 1 scheme
 tags:
 - Customer Messaging
 - Live Chat
-- Open Source
+- Open-Source
 - Support
 - Intercom Alternative
 ---

@@ -140,14 +140,14 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\ndocs: https://docs.ada.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/authentication/ada-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
-- ai
-- customer-service
-- chatbot
-- automation
-- conversational-ai
-- helpdesk
-- crm
-- integrations
-- knowledge-management
-- data-export
+- Artificial Intelligence
+- Customer Service
+- Chatbots
+- Automation
+- Conversational AI
+- Help Desk
+- CRM
+- Integration
+- Knowledge-Management
+- Data Export
 ---

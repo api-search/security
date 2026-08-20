@@ -34,8 +34,8 @@ tags:
 - Consumer
 - Social
 - Community
-- Events
+- Event
 - Mobile App
 - Friendship
-- Experiences
+- Experience
 ---

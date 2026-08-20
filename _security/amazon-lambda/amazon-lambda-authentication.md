@@ -45,7 +45,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Compute
 - Event-Driven
-- FaaS
+- Function-as-a-Service
 - Functions
 - Serverless
 ---

@@ -34,7 +34,7 @@ tags:
 - Physical AI
 - Logistics
 - Warehouse Inventory
-- Computer Vision
+- Computer-Vision
 - Drones
 - Supply Chain
 - Robotics

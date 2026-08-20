@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seezo/refs/hea
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Security
 - Application Security
 - Threat Modeling

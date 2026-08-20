@@ -23,7 +23,7 @@ tags:
 - Scheduling
 - Calendars
 - Bookings
-- Open Source
+- Open-Source
 - Event Types
 trust_url: https://cal.com/security
 ---

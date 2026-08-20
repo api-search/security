@@ -55,7 +55,7 @@ tags:
 - Company
 - Enterprise Saas
 - Advertising
-- Out Of Home Advertising
+- Out-of-Home Advertising
 - DOOH
 - Programmatic Advertising
 - Media Buying

@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Consumer
-- FinTech
+- Fintech
 - Trading
 - Investing
 - Banking

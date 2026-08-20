@@ -32,12 +32,12 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Banking
 - Cards
-- Financial Services
+- Financial-Services
 - Fortune 500
 - Open Banking
 - Payments
 - United States
 - Card Network
-- 3-D Secure
+- 3D Secure
 - Tokenization
 ---

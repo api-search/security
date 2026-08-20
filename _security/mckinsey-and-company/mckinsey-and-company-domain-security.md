@@ -35,13 +35,12 @@ tags:
 - Professional Services
 - MBB
 - Big Three
-- AI
+- Artificial Intelligence
 - Data Science
 - Digital Transformation
-- Operations
 - Research
 - Insights
-- Open Source
+- Open-Source
 - Agentic AI
 - Kubernetes
 - Data Visualization

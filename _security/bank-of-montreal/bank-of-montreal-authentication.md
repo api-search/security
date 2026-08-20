@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: >-\n  https://a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-of-montreal/refs/heads/main/authentication/bank-of-montreal-authentication.yml
 summary_line: oauth2/openIdConnect · 3 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Canada
 - Big Six

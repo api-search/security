@@ -31,7 +31,7 @@ tags:
 - Company
 - Jewelry
 - Retail
-- Ecommerce
+- E-Commerce
 - Consumer Goods
 - Silver Jewellery
 - India

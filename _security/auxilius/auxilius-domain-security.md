@@ -37,5 +37,5 @@ tags:
 - Finance
 - Accounting
 - FinOps
-- SaaS
+- Software-as-a-Service
 ---

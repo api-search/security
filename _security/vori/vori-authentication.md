@@ -37,9 +37,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vori/refs/head
 summary_line: http · 1 scheme
 tags:
 - Company
-- Applications
+- Application
 - Grocery
-- Point of Sale
+- Point-of-Sale
 - Retail
 - Inventory
 - Payments

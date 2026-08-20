@@ -44,7 +44,7 @@ tags:
 - Banking
 - Brokerage
 - Capital Markets
-- Financial Services
+- Financial-Services
 - Fortune 500
 - Investment Banking
 - Investment Management

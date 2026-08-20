@@ -38,5 +38,4 @@ tags:
 - Crypto
 - Wallets
 - Money Movement
-- API
 ---

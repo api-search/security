@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: derived\nsource: openapi/c-hoare-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/authentication/c-hoare-and-co-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Private Bank
 - Open Banking

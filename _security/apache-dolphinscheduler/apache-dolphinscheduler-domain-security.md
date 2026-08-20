@@ -37,9 +37,9 @@ tags:
 - Apache
 - DAG
 - Data Pipeline
-- Open Source
+- Open-Source
 - Orchestration
 - Python
 - Scheduling
-- Workflow
+- Workflows
 ---

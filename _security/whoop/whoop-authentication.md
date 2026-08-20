@@ -89,7 +89,7 @@ tags:
 - Health
 - Recovery
 - Sleep
-- Workout
+- Workouts
 - Strain
 - Heart Rate
 - Performance

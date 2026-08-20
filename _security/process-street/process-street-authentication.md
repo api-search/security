@@ -207,12 +207,12 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Company
 - Productivity
-- Workflow
-- Workflow Automation
+- Workflows
+- Workflow-Automation
 - Process Management
 - No-Code
 - Business Process
 - Task Management
-- SaaS
+- Software-as-a-Service
 - MCP
 ---

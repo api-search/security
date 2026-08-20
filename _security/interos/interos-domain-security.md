@@ -68,5 +68,4 @@ tags:
 - Supplier Risk
 - Third-Party Risk
 - Artificial Intelligence
-- API
 ---

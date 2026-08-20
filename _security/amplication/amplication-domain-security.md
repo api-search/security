@@ -33,7 +33,7 @@ tags:
 - Backend
 - Code Generation
 - Developer Tools
-- Open Source
+- Open-Source
 - Platform Engineering
 - Microservices
 - API Development

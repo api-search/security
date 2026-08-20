@@ -46,7 +46,7 @@ tags:
 - Company
 - Sales Enablement
 - Sales Training
-- AI
+- Artificial Intelligence
 - Coaching
 - Role-Play Simulation
 - Revenue Operations

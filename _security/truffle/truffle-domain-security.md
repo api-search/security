@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truffle/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Restaurants
+- Restaurant
 - Hospitality
 - Restaurant Management
 - Back Office
 - Restaurant Operations
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 ---

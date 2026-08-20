@@ -73,7 +73,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fundamental-re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - Spreadsheets
 - Excel

@@ -30,12 +30,12 @@ summary_line: TLSv1.2
 tags:
 - Company
 - Consumer
-- E-commerce
+- E-Commerce
 - Retail
 - Flash Sales
 - Open Platform
 - China
-- Orders
+- Order
 - Inventory
 - Logistics
 ---

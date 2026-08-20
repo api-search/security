@@ -50,7 +50,7 @@ summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Banking
 - Federal
-- Regulation
+- Regulations
 - National Banks
 - Financial Institutions
 - CRA

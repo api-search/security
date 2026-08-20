@@ -31,7 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/river-health/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Health Care
 - Healthcare
 - Telemedicine
 - Telehealth

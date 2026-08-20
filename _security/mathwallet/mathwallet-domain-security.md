@@ -32,9 +32,9 @@ tags:
 - Company
 - Crypto Web3
 - Cryptocurrency
-- Wallet
+- Wallets
 - Blockchain
 - Web3
 - DApps
-- Multichain
+- Multi-Chain
 ---

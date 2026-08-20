@@ -73,12 +73,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/ref
 summary_line: TLSv1.3 · HSTS
 tags:
 - Chaos Engineering
-- Cloud Native
+- Cloud-Native
 - CNCF
 - Fault Injection
 - Kubernetes
 - Observability
-- Open Source
+- Open-Source
 - Reliability
 - Resilience
 - Testing

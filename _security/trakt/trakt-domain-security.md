@@ -185,6 +185,6 @@ tags:
 - Scrobble
 - Recommendations
 - Social
-- OAuth2
+- Authentication
 - Public APIs
 ---

@@ -62,9 +62,9 @@ tags:
 - Company
 - Compliance
 - Training
-- Governance, Risk and Compliance
+- Governance Risk and Compliance
 - Human Resources
 - Learning Management
-- Workflow
-- Webhooks
+- Workflows
+- Webhook
 ---

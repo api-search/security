@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/savant/refs/he
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- Knowledge Management
+- Knowledge-Management
 - Artificial Intelligence
 - AI Agents
 - Enterprise Knowledge

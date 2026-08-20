@@ -64,7 +64,7 @@ summary_line: apiKey/http-signature/oauth2 · 3 schemes
 tags:
 - Company
 - Technology
-- Financial Services
+- Financial-Services
 - Brokerage
 - Trading
 - Stock Market

@@ -30,7 +30,7 @@ tags:
 - Data Integration
 - Customer Data
 - Marketing
-- Real-time
+- Real-Time
 - iPaaS
 - Analytics
 trust_url: https://www.hull.io/security/

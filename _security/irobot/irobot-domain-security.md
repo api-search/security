@@ -38,7 +38,7 @@ tags:
 - Roomba
 - Braava
 - Smart Home
-- Internet Of Things
+- Internet of Things
 - Connected Devices
 - Hardware
 - Cleaning

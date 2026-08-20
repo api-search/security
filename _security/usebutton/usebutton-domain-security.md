@@ -81,7 +81,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Commerce
 - Mobile Commerce
-- Affiliate
+- Affiliates
 - Attribution
 - Deep Linking
 - Offers

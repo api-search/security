@@ -195,7 +195,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/
 summary_line: SOC 1, SOC 2, SOC 3
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Translation
 - Localization
 - Language

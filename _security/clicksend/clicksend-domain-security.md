@@ -111,7 +111,6 @@ tags:
 - MMS
 - Voice
 - Email
-- Post
 - Messaging
 - CPaaS
 ---

@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pipefy-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pipefy/refs/heads/main/authentication/pipefy-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Workflow Automation
+- Workflow-Automation
 - Business Process Management
 - No-Code
 - BPM

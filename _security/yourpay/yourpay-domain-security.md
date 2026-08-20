@@ -34,7 +34,7 @@ tags:
 - Payments
 - Remittances
 - Money Transfer
-- Bill Payment
+- Bill Payments
 - QRIS
 - Indonesia
 - Mobile Payments

@@ -39,5 +39,5 @@ tags:
 - Gremlin
 - OLAP
 - OLTP
-- Open Source
+- Open-Source
 ---

@@ -33,7 +33,7 @@ tags:
 - Food
 - Groceries
 - Menus
-- Restaurants
+- Restaurant
 - Food Delivery
 - Web Scraping
 ---

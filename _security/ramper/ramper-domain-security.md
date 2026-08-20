@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Web3
-- Wallet
+- Wallets
 - Embedded Wallet
 - Blockchain
 - Social Login

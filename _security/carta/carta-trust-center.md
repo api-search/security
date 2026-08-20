@@ -26,6 +26,6 @@ tags:
 - Employee Equity
 - Investor Portfolio
 - Private Markets
-- FinTech
+- Fintech
 trust_url: https://trust.carta.com/
 ---

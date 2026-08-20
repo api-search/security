@@ -29,6 +29,6 @@ tags:
 - Monitoring
 - DevOps
 - Analytics
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.solarwinds.com/trust-center
 ---

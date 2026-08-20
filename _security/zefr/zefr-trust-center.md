@@ -21,15 +21,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zefr/refs/head
 summary_line: read, published, note
 tags:
 - Company
-- Adtech
+- AdTech
 - Brand Safety
 - Brand Suitability
 - Content Intelligence
 - Content Moderation
 - Video
-- Social Media
+- Social-Media
 - Advertising
 - Media Measurement
-- Machine Learning
+- Machine-Learning
 trust_url: https://trust.zefr.com/
 ---

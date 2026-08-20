@@ -39,8 +39,8 @@ tags:
 - Company
 - Classifieds
 - Marketplace
-- Second-hand
-- E-commerce
+- Secondhand
+- E-Commerce
 - Consumer
 - Mobile App
 ---

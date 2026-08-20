@@ -39,5 +39,5 @@ tags:
 - B2B
 - Commercial Optimization
 - Margin Optimization
-- AI
+- Artificial Intelligence
 ---

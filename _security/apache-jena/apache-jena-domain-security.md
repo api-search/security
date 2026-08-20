@@ -63,7 +63,7 @@ tags:
 - Linked Data
 - OWL
 - Ontology
-- Open Source
+- Open-Source
 - RDF
 - Semantic Web
 - SPARQL

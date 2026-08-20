@@ -92,7 +92,7 @@ tags:
 - Time Series
 - Forecasting
 - Anomaly Detection
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Foundation Model
 - Predictive Analytics

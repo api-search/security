@@ -42,7 +42,7 @@ tags:
 - Robotic Process Automation
 - Document Processing
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Data Extraction
 - iPaaS
 - Agents

@@ -35,6 +35,6 @@ tags:
 - Superintelligence
 - Reinforcement Learning
 - AI Research
-- Machine Learning
+- Machine-Learning
 - AGI
 ---

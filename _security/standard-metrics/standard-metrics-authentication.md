@@ -138,7 +138,7 @@ tags:
 - Company
 - Venture Capital
 - Private Equity
-- Portfolio Management
+- Portfolio-Management
 - Financial Data
 - Investment Data
 - Cap Table

@@ -77,7 +77,7 @@ summary_line: SOC 2, ISO 27001, ISO 27018, GDPR
 tags:
 - BPMN
 - Camunda
-- Cloud Native
+- Cloud-Native
 - Distributed Systems
 - Java
 - Microservices

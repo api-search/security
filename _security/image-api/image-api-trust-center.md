@@ -22,7 +22,7 @@ tags:
 - Business Process Automation
 - Digital Mailroom
 - Digitization
-- Document Management
+- Document-Management
 - Electronic Signature
 - Forms
 trust_url: https://trust.docufree.com/

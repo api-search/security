@@ -37,5 +37,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pabbly-connect
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - No-Code
-- Workflow Automation
+- Workflow-Automation
 ---

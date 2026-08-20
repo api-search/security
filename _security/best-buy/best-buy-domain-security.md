@@ -57,6 +57,6 @@ tags:
 - Retail
 - Consumer Electronics
 - E-Commerce
-- Products
+- Product
 - Stores
 ---

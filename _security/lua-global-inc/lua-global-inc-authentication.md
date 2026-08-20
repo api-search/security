@@ -39,7 +39,7 @@ tags:
 - AI Agents
 - Agent Platform
 - Developer Tools
-- Model Context Protocol
+- MCP
 - Conversational AI
 - Chatbots
 - Automation

@@ -72,8 +72,8 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Email
 - Messaging
-- Notifications
-- Pub/Sub
+- Notification
+- Pub-Sub
 - Push Notifications
 - SMS
 trust_url: https://aws.amazon.com/compliance/

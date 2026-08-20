@@ -95,5 +95,5 @@ tags:
 - Real-Time
 - Streaming
 - WebSocket
-- OAuth2
+- Authentication
 ---

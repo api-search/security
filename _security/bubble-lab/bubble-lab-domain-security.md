@@ -29,13 +29,13 @@ source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bubble-lab/refs/heads/main/security/bubble-lab-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Workflow Automation
+- Workflow-Automation
 - AI Agents
 - Agentic Workflows
-- Integrations
+- Integration
 - Developer Tools
 - TypeScript
-- Open Source
+- Open-Source
 - Automation
 - SDK
 - Low-Code

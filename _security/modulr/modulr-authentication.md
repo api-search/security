@@ -94,7 +94,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Payments
 - United Kingdom
-- Banking-as-a-Service
+- Banking as a Service
 - Embedded Finance
 - Payment Processing
 - Account-to-Account

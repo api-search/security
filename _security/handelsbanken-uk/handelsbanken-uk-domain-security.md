@@ -54,7 +54,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Banking
 - Open Banking
-- Financial Services
+- Financial-Services
 - PSD2
 - Berlin Group
 - NextGenPSD2

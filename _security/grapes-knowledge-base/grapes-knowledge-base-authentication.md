@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/grapes-k
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grapes-knowledge-base/refs/heads/main/authentication/grapes-knowledge-base-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Knowledge Management
+- Knowledge-Management
 - Knowledge Base
 - Data Management
 - Automation

@@ -51,8 +51,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/security/amazon-lookout-for-vision-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Manufacturing
 - Quality Inspection
 - Anomaly Detection

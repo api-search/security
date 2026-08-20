@@ -48,8 +48,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appsmith/refs/
 summary_line: http · 1 scheme
 tags:
 - Low-Code
-- Open Source
+- Open-Source
 - Internal Tools
-- Workflow Automation
+- Workflow-Automation
 - Developer Tools
 ---

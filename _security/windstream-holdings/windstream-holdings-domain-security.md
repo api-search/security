@@ -100,7 +100,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Broadband
 - Contact Center
-- Managed Services
+- Managed Service
 - Network Communications
 - SD-WAN
 - Telecom

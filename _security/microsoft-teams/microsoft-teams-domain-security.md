@@ -104,8 +104,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Chat
 - Collaboration
-- Communication
-- Microsoft 365
+- Communications
+- Microsoft-365
 - Productivity
 - Video Conferencing
 ---

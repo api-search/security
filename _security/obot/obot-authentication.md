@@ -25,10 +25,9 @@ summary_line: oauth2/openIdConnect · 0 schemes
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - AI Agents
 - MCP Gateway
-- Open Source
+- Open-Source
 - Agent Governance
 - Access Control
 - Developer Tools

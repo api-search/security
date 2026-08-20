@@ -47,5 +47,5 @@ tags:
 - QR Payments
 - E-Commerce
 - Vietnam
-- Financial Services
+- Financial-Services
 ---

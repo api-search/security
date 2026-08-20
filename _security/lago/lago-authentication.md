@@ -132,6 +132,6 @@ summary_line: http · 1 scheme
 tags:
 - Billing
 - Metering
-- Open Source
+- Open-Source
 - Usage-Based
 ---

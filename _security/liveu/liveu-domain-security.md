@@ -36,7 +36,7 @@ tags:
 - Broadcast
 - Bonded Cellular
 - Video Contribution
-- Media & Entertainment
+- Media and Entertainment
 - Sports Production
 - Public Safety
 - 5G

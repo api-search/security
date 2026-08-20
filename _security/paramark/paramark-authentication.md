@@ -25,12 +25,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paramark/refs/
 summary_line: 0 schemes
 tags:
 - Company
-- Applications
+- Application
 - Marketing
 - Analytics
-- Measurement
+- Measurements
 - Marketing Mix Modeling
 - Incrementality
 - Advertising
-- AI
+- Artificial Intelligence
 ---

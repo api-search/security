@@ -80,5 +80,5 @@ tags:
 - Drug Development
 - Healthcare
 - Mental Health
-- Model Context Protocol
+- MCP
 ---

@@ -467,7 +467,7 @@ summary_line: oauth2 · 3 schemes
 tags:
 - Auctions
 - Commerce
-- Products
+- Product
 - Marketplace
 - Fortune 500
 ---

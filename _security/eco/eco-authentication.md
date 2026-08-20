@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads
 summary_line: none · 0 schemes
 tags:
 - Company
-- Stablecoin
+- Stablecoins
 - Cryptocurrency
 - Payments
 - Blockchain
@@ -51,5 +51,5 @@ tags:
 - DeFi
 - Web3
 - Infrastructure
-- Financial Services
+- Financial-Services
 ---

@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/in-focus-syste
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Audiovisual
+- Audio Visual
 - Projectors
 - Displays
 - Hardware

@@ -49,8 +49,8 @@ tags:
 - Marketplace
 - Retail
 - Sellers
-- Orders
+- Order
 - Fulfillment
 - India
-- OAuth
+- Authentication
 ---

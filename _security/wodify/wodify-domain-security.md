@@ -120,5 +120,5 @@ tags:
 - Class Scheduling
 - Billing
 - Wellness
-- SaaS
+- Software-as-a-Service
 ---

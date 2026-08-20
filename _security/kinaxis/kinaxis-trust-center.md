@@ -28,6 +28,6 @@ tags:
 - S&OP
 - Control Tower
 - Enterprise Software
-- AI
+- Artificial Intelligence
 trust_url: https://www.kinaxis.com/en/trust-center
 ---

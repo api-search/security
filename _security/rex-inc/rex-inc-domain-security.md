@@ -41,7 +41,7 @@ tags:
 - Fitness
 - Nutrition
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Wearables
 - Y Combinator
 ---

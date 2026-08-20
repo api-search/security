@@ -390,8 +390,8 @@ summary_line: apiKey · 1 scheme
 tags:
 - LoRaWAN
 - IoT
-- Internet Of Things
-- Open Source
+- Internet of Things
+- Open-Source
 - Network Server
 - LPWAN
 - Telemetry

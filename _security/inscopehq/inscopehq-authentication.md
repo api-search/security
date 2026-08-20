@@ -52,5 +52,5 @@ tags:
 - Fintech
 - Financial Close
 - GAAP
-- SaaS
+- Software-as-a-Service
 ---

@@ -36,5 +36,5 @@ tags:
 - Privacy
 - Security
 - Mobile
-- Communication
+- Communications
 ---

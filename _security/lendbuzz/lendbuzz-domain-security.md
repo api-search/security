@@ -42,11 +42,11 @@ tags:
 - Company
 - Auto Lending
 - Automotive
-- Financial Services
+- Financial-Services
 - Fintech
 - Lending
 - Credit
-- Machine Learning
+- Machine-Learning
 - Consumer Finance
 - Dealers
 ---

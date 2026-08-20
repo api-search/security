@@ -45,7 +45,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Shopify
-- Ecommerce
+- E-Commerce
 - Photo Editing
 - Image Optimization
 - Image Processing
@@ -53,7 +53,7 @@ tags:
 - Background Removal
 - SEO
 - Automation
-- AI
-- Webhooks
+- Artificial Intelligence
+- Webhook
 - Digital Asset Management
 ---

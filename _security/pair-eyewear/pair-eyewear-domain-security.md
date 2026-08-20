@@ -33,10 +33,10 @@ tags:
 - Company
 - Consumer
 - Eyewear
-- Ecommerce
+- E-Commerce
 - Retail
 - Shopify
-- Direct-to-Consumer
+- Direct to Consumer
 - Agent Commerce
 - MCP
 - UCP

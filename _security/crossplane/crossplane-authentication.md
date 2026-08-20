@@ -74,7 +74,7 @@ summary_line: http · 1 scheme
 tags:
 - Apache 2.0
 - CNCF
-- Cloud Native
+- Cloud-Native
 - Composition
 - Control Plane
 - Custom Resource Definitions
@@ -82,7 +82,7 @@ tags:
 - Infrastructure as Code
 - Kubernetes
 - Multi-Cloud
-- Open Source
+- Open-Source
 - Platform Engineering
 - Providers
 ---

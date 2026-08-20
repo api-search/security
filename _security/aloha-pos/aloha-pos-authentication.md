@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ncr-voyi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/authentication/aloha-pos-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- POS
+- Point-of-Sale
 - Restaurant
 - Hospitality
 - NCR

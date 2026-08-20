@@ -49,7 +49,7 @@ tags:
 - Life Insurance
 - Travel Insurance
 - Health Insurance
-- Broker
+- Brokers
 - Digital Distribution
 - Managing General Agent
 - Mobile

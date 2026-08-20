@@ -55,7 +55,7 @@ summary_line: http · 1 scheme
 tags:
 - Integration Platform
 - Automation
-- Workflow
+- Workflows
 - No-Code
 - IT Process Automation
 - Software As A Utility

@@ -638,12 +638,12 @@ tags:
 - Commerce
 - Headless Commerce
 - Composable Commerce
-- eCommerce
+- E-Commerce
 - B2B
-- Products
+- Product
 - Catalogs
-- Orders
+- Order
 - Promotions
-- Subscriptions
+- Subscription
 - Payments
 ---

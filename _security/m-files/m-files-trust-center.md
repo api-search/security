@@ -21,10 +21,10 @@ summary_line: ISO/IEC 27001, SOC 2, GDPR
 tags:
 - Company
 - Infrastructure Saas
-- Document Management
+- Document-Management
 - Information Management
 - Content Services
-- Workflow Automation
+- Workflow-Automation
 - Compliance
 - Enterprise Content Management
 trust_url: https://www.m-files.com/about/trust-center/

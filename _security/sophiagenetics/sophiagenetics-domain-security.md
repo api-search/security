@@ -39,5 +39,5 @@ tags:
 - Data Analytics
 - Radiomics
 - Life Sciences
-- SaaS
+- Software-as-a-Service
 ---

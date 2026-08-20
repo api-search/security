@@ -28,7 +28,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edgee/refs/hea
 summary_line: SOC 2 Type 1, SOC 2 Type 2
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - LLM
 - AI Gateway
 - Agents

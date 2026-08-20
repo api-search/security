@@ -33,6 +33,6 @@ tags:
 - Investing
 - Fintech
 - Investment Marketplace
-- Portfolio Management
+- Portfolio-Management
 - Latin America
 ---

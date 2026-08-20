@@ -33,11 +33,11 @@ summary_line: oauth2-browser · 1 scheme
 tags:
 - Company
 - Developer Tools
-- AI
+- Artificial Intelligence
 - Agents
 - Coding Assistants
-- Model Context Protocol
+- MCP
 - CLI
-- Knowledge Management
+- Knowledge-Management
 - Y Combinator
 ---

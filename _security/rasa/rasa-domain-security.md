@@ -68,12 +68,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Conversational AI
 - Chatbots
 - Voice Assistants
 - NLU
 - LLM
-- Machine Learning
+- Machine-Learning
 - Agents
 ---

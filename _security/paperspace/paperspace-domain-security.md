@@ -205,8 +205,8 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - GPU
 - Cloud
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Deep Learning
 - Compute
 - DigitalOcean

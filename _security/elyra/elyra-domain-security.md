@@ -36,5 +36,5 @@ tags:
 - Artificial Intelligence
 - Hospitality
 - Voice Agents
-- SaaS
+- Software-as-a-Service
 ---

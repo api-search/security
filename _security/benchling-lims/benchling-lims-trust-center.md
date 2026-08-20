@@ -151,7 +151,7 @@ tags:
 - Inventory Management
 - Assay Management
 - Workflows
-- Webhooks
+- Webhook
 - REST
 trust_url: https://www.benchling.com/trust
 ---

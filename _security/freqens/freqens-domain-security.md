@@ -36,5 +36,5 @@ tags:
 - CFO
 - Fintech
 - Agentic AI
-- SaaS
+- Software-as-a-Service
 ---

@@ -33,7 +33,7 @@ tags:
 - Company
 - Insurtech
 - Auto Insurance
-- Financial Services
+- Financial-Services
 - Mobile App
 - Consumer
 - Vehicle Coverage

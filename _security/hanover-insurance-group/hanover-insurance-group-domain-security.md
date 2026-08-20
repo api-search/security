@@ -34,6 +34,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
 - Property and Casualty
-- Financial Services
+- Financial-Services
 - Fortune 500
 ---

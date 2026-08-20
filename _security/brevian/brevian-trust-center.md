@@ -22,7 +22,7 @@ tags:
 - Revenue Execution
 - AI Agents
 - CRM
-- Model Context Protocol
+- MCP
 - Enterprise
 trust_url: https://trust.brevian.ai/
 ---

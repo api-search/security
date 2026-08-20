@@ -153,6 +153,6 @@ tags:
 - Campaign Management
 - No-Code
 - SCIM
-- Webhooks
+- Webhook
 trust_url: https://trust.knak.com/
 ---

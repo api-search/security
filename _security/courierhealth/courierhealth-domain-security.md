@@ -38,6 +38,6 @@ tags:
 - Patient Experience
 - Patient Services
 - Market Access
-- SaaS
+- Software-as-a-Service
 - Artificial Intelligence
 ---

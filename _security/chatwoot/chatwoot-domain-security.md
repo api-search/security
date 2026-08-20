@@ -234,12 +234,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/security/chatwoot-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Customer Support
+- Customer-Support
 - Messaging
 - Live Chat
-- Omni-channel
+- Omnichannel
 - Conversations
 - Contacts
 - Agents
-- Open Source
+- Open-Source
 ---

@@ -59,9 +59,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/recraft-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/authentication/recraft-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
-- Image Generation
+- Artificial Intelligence
+- Image-Generation
 - Design
-- Vector
-- Style
+- Vectors
+- Styles
 ---

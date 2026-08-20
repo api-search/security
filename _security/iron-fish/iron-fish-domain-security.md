@@ -37,5 +37,5 @@ tags:
 - Layer 1
 - Web3
 - RPC
-- Wallet
+- Wallets
 ---

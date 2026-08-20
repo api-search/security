@@ -50,7 +50,7 @@ tags:
 - Fashion
 - Beauty
 - Retail
-- Ecommerce
+- E-Commerce
 - Shopify
 - Agentic Commerce
 - Paris

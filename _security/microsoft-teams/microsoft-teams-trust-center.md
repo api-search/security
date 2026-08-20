@@ -86,8 +86,8 @@ summary_line: SOC 1, SOC 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, ISO 27701, F
 tags:
 - Chat
 - Collaboration
-- Communication
-- Microsoft 365
+- Communications
+- Microsoft-365
 - Productivity
 - Video Conferencing
 trust_url: https://www.microsoft.com/en-us/trust-center

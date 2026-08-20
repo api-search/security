@@ -65,13 +65,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cometapi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cometapi/refs/heads/main/authentication/cometapi-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Aggregator
 - Audio
 - Chat
 - Embeddings
 - Generative AI
-- Images
+- Image
 - LLM
 - Multi-Model
 - OpenAI-Compatible

@@ -36,6 +36,6 @@ tags:
 - Product Lifecycle Management
 - Manufacturing
 - Automotive
-- Low Code
-- AI
+- Low-Code
+- Artificial Intelligence
 ---

@@ -38,5 +38,4 @@ tags:
 - Fintech
 - Open Banking
 - Payments
-- API
 ---

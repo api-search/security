@@ -34,7 +34,7 @@ tags:
 - Low-Code
 - No-Code
 - Application Development
-- Workflow Automation
+- Workflow-Automation
 - Case Management
 - Government
 - Platform

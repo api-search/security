@@ -134,7 +134,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Web3
 - Explorer
-- Open Source
+- Open-Source
 - EVM
 - Multi-Chain
 - GraphQL

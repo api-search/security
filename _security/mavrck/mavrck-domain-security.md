@@ -1141,7 +1141,7 @@ tags:
 - Creator Economy
 - Marketing
 - Advertising
-- Social Media
+- Social-Media
 - Creators
 - Campaigns
 - Campaign Performance
@@ -1150,6 +1150,6 @@ tags:
 - Social Analytics
 - Advocacy Marketing
 - Payments
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 ---

@@ -29,13 +29,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sainapse/refs/
 summary_line: TLSv1.2
 tags:
 - Company
-- AI
-- Customer Support
+- Artificial Intelligence
+- Customer-Support
 - Customer Experience
 - Support Automation
 - Explainable AI
 - AI Agents
 - Enterprise AI
-- Machine Learning
+- Machine-Learning
 - Automation
 ---

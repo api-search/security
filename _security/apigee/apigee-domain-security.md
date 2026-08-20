@@ -300,9 +300,8 @@ tags:
 - Enterprise
 - Generative AI
 - Hybrid
-- Integrations
+- Integration
 - Microservices
 - MCP
-- Model Context Protocol
 - Monetization
 ---

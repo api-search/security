@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Entertainment
-- Social Media
+- Social-Media
 - Memes
 - Content
 - Media

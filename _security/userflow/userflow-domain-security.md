@@ -55,6 +55,6 @@ tags:
 - Announcements
 - NPS Surveys
 - User Flows
-- SaaS
+- Software-as-a-Service
 - Product-Led Growth
 ---

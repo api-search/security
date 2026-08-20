@@ -35,6 +35,6 @@ tags:
 - Payment Gateway
 - Payments
 - Recurring Billing
-- Transactions
+- Transaction
 trust_url: https://support.authorize.net/knowledgebase/article/000002490/
 ---

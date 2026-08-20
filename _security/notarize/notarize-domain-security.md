@@ -42,13 +42,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Proptech
+- PropTech
 - Notarization
 - Remote Online Notarization
 - Identity Verification
-- eSignature
+- E-Signature
 - Digital Credentials
-- Real Estate
+- Real-Estate
 - Mortgage
 - Legal Tech
 ---

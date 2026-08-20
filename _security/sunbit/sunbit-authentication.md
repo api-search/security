@@ -81,18 +81,18 @@ source_yaml: "generated: '2026-07-31'\nmethod: searched\nsource: https://docs.su
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/authentication/sunbit-authentication.yml
 summary_line: apiKey/http · 4 schemes
 tags:
-- buy-now-pay-later
+- Buy Now Pay Later
 - point-of-sale-financing
-- consumer-lending
-- payments
-- fintech
-- checkout
-- merchant-onboarding
-- webhooks
-- automotive
-- dental
-- veterinary
-- eyewear
-- healthcare-financing
-- embedded-finance
+- Consumer Lending
+- Payments
+- Fintech
+- Checkout
+- Merchant Onboarding
+- Webhook
+- Automotive
+- Dental
+- Veterinary
+- Eyewear
+- Healthcare Financing
+- Embedded Finance
 ---

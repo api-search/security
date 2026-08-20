@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ironplanet/ref
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Heavy Equipment
 - Auctions

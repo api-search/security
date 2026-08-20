@@ -44,5 +44,5 @@ tags:
 - Influencer Marketing
 - Marketing
 - Media Buying
-- Social Media
+- Social-Media
 ---

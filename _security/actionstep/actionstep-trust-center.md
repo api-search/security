@@ -236,6 +236,6 @@ tags:
 - Documents
 - Trust Accounting
 - Contacts
-- Workflow
+- Workflows
 trust_url: https://www.actionstep.com/trust-accounting/
 ---

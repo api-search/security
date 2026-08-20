@@ -38,7 +38,7 @@ tags:
 - IoT
 - Smart Home
 - Bluetooth
-- Webhooks
+- Webhook
 - SDK
 - Hardware
 ---

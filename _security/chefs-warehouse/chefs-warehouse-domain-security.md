@@ -31,10 +31,10 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Food Distribution
 - Specialty Food
-- Foodservice
+- Food Service
 - Wholesale
-- Restaurants
-- Ecommerce
+- Restaurant
+- E-Commerce
 - B2B Commerce
 - Supply Chain
 ---

@@ -50,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/premialab/refs
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Investment Management
 - Risk Analytics

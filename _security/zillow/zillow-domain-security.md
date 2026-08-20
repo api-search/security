@@ -56,7 +56,7 @@ tags:
 - Listings
 - Mortgage
 - MLS
-- Real Estate
+- Real-Estate
 - Rentals
 - RESO
 ---

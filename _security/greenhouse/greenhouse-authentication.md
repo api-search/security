@@ -117,7 +117,7 @@ tags:
 - ATS
 - Recruiting
 - Candidates
-- Jobs
+- Job
 - Onboarding
 - HR
 ---

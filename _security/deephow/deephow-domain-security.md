@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deephow/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Manufacturing
-- Knowledge Management
+- Knowledge-Management
 - Video
 - Training
-- Computer Vision
+- Computer-Vision
 - Industrial
 - SOP Verification
 ---

@@ -169,7 +169,7 @@ summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Infrastructure
 - Cloud Operations
-- Data Center
+- Data-Center
 - Compute
 - Networking
 - Enterprise

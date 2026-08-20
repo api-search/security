@@ -36,12 +36,11 @@ tags:
 - Field Data Collection
 - Construction
 - Maintenance
-- Operations
 - Mobile App
-- Offline First
+- Offline-First
 - Analytics
 - Reporting
 - Task Management
 - Latin America
-- SaaS
+- Software-as-a-Service
 ---

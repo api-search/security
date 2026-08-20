@@ -71,7 +71,7 @@ tags:
 - OpenStreetMap
 - Wikipedia
 - Attractions
-- Restaurants
+- Restaurant
 - Hotels
 - Museums
 - REST API

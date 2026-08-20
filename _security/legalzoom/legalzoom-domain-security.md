@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Legal
 - Legal Technology
-- LegalTech
+- Legal Tech
 - Business Formation
 - LLC Formation
 - Incorporation

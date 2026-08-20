@@ -34,9 +34,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/royco/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Defi
+- DeFi
 - Yield
-- Vaults
+- Vault
 - Ethereum
 - Avalanche
 - Blockchain

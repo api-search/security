@@ -37,7 +37,7 @@ tags:
 - Endoluminal Surgery
 - Gastroenterology
 - Minimally Invasive Surgery
-- Health Care
+- Healthcare
 - Medical Technology
 - Deep Tech
 - Texas

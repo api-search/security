@@ -107,7 +107,7 @@ tags:
 - Invoice Automation
 - Payments
 - Fintech
-- Restaurants
+- Restaurant
 - Procurement
 - Spend Management
 - ERP Integration

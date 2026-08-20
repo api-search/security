@@ -183,8 +183,8 @@ tags:
 - Expense Management
 - Company Cards
 - Spend Management
-- Reimbursements
+- Reimbursement
 - Accounting
-- FinTech
+- Fintech
 - Finance
 ---

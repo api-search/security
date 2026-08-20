@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/operator-frame
 summary_line: TLSv1.3 · HSTS
 tags:
 - Automation
-- Cloud Native
+- Cloud-Native
 - Incubating
 - Kubernetes
 - Lifecycle Management

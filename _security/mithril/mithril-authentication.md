@@ -119,7 +119,7 @@ tags:
 - Company
 - GPU Cloud
 - AI Infrastructure
-- Machine Learning
+- Machine-Learning
 - Cloud Computing
 - Compute
 - Spot Instances

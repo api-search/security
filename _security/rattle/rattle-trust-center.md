@@ -22,14 +22,14 @@ summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
 - Sales
-- RevOps
+- Revenue Operations
 - CRM
 - Salesforce
 - Slack
 - Microsoft Teams
 - Sales Automation
 - Revenue Intelligence
-- Workflow Automation
+- Workflow-Automation
 - Artificial Intelligence
 trust_url: https://www.gorattle.com/security
 ---

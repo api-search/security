@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/presentationsa
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Presentations
 - Generative AI
 - Productivity
-- SaaS
+- Software-as-a-Service
 - Slides
 - Design
 ---

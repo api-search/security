@@ -32,7 +32,7 @@ tags:
 - Company
 - Luxury
 - Resale
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Fashion
 - Handbags

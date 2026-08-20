@@ -17,14 +17,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keel/refs/head
 summary_line: trust center published
 tags:
 - Company
-- Operations
 - ERP
 - Backend
 - GraphQL
-- API
 - Low-Code
 - Developer Tools
-- Workflow
+- Workflows
 - Authentication
 - TypeScript
 trust_url: https://trust.keel.so/

@@ -38,5 +38,5 @@ tags:
 - Product Innovation
 - Trend Analysis
 - Generative AI
-- SaaS
+- Software-as-a-Service
 ---

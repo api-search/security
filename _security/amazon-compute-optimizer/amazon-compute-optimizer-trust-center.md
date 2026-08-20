@@ -150,7 +150,7 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Cost Optimization
 - FinOps
-- Machine Learning
+- Machine-Learning
 - Resource Recommendations
 trust_url: https://aws.amazon.com/compliance/
 ---

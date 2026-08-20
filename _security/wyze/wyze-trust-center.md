@@ -25,7 +25,7 @@ tags:
 - Smart Home
 - Internet of Things
 - Home Security
-- Cameras
+- Camera
 - Consumer Electronics
 - Home Automation
 - Video

@@ -35,6 +35,6 @@ tags:
 - Collaboration
 - Team Chat
 - Productivity
-- Communication
-- AI
+- Communications
+- Artificial Intelligence
 ---

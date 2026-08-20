@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Insurance Tech
-- InsurTech
+- Insurtech
 - Insurance
 - Underwriting
 - RiskOps

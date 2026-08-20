@@ -50,9 +50,9 @@ tags:
 - Nutrition
 - Food and Beverage
 - Meal Replacement
-- Ecommerce
+- E-Commerce
 - Retail
-- Direct-to-Consumer
+- Direct to Consumer
 - Agent Commerce
 - Universal Commerce Protocol
 - Shopify

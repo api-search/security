@@ -91,18 +91,18 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cb-insights/re
 summary_line: SOC 2 Type II, GDPR, CCPA, EU AI Act (deployer obligations)
 tags:
 - Company
-- market-intelligence
+- Market Intelligence
 - private-company-data
-- venture-capital
+- Venture Capital
 - funding-data
 - investor-data
-- company-data
-- people-data
-- business-relationships
+- Company Data
+- People Data
+- BusinessRelationships
 - predictive-scoring
-- mcp
+- MCP
 - agent-native
-- data-enrichment
-- snowflake
+- Data Enrichment
+- Snowflake
 trust_url: ''
 ---

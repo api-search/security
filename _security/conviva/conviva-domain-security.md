@@ -54,7 +54,7 @@ tags:
 - Monitoring
 - Media
 - Quality of Experience
-- Real Time
+- Real-Time
 - Telemetry
 - Agents
 - MCP

@@ -106,6 +106,6 @@ tags:
 - Analytics
 - Data Management
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Software
 ---

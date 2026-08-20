@@ -63,11 +63,11 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Vertical Software
-- Real Estate
+- Real-Estate
 - PropTech
 - CRM
 - Marketing
 - Websites
-- Webhooks
+- Webhook
 - Lead Generation
 ---

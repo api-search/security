@@ -94,5 +94,5 @@ tags:
 - Data Analytics
 - Data Preparation
 - ETL
-- Machine Learning
+- Machine-Learning
 ---

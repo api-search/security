@@ -78,10 +78,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/stay-ai-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/authentication/stay-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Subscriptions
+- Subscription
 - Retention
 - Churn
 - Shopify
-- Ecommerce
-- DTC
+- E-Commerce
+- Direct to Consumer
 ---

@@ -50,7 +50,7 @@ tags:
 - In Vitro Diagnostics
 - Molecular Diagnostics
 - Sepsis
-- Machine Learning
+- Machine-Learning
 - Life Sciences
 - Point of Care
 - Content

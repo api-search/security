@@ -89,7 +89,7 @@ tags:
 - Data
 - ELT
 - Metrics
-- Projects
+- Project
 - SQL
 - Transformation
 ---

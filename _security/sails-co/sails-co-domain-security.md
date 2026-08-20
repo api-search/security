@@ -34,9 +34,9 @@ tags:
 - Node.js
 - MVC
 - Web Development
-- Realtime
+- Real-Time
 - ORM
 - REST API
 - JavaScript
-- Open Source
+- Open-Source
 ---

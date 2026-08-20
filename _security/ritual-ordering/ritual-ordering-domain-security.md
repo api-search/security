@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ritual-ordering/refs/heads/main/security/ritual-ordering-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Restaurants
+- Restaurant
 - Order Ahead
 - Online Ordering
 - Food Ordering

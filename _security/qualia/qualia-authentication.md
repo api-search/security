@@ -33,13 +33,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qualia/refs/he
 summary_line: http · 1 scheme
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Title Insurance
 - Escrow
 - Mortgage
 - Closing
 - Settlement Services
 - PropTech
-- Financial Services
+- Financial-Services
 - GraphQL
 ---

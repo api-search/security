@@ -846,10 +846,10 @@ summary_line: apiKey/http · 5 schemes
 tags:
 - Government
 - Environmental
-- OpenData
-- AirQuality
-- WaterQuality
-- HazardousWaste
+- Open Data
+- Air Quality
+- Water Quality
+- Hazardous Waste
 - Compliance
 - Emissions
 ---

@@ -339,7 +339,7 @@ summary_line: apiKey/http · 3 schemes
 tags:
 - Affiliate Marketing
 - Referral Tracking
-- SaaS
+- Software-as-a-Service
 - Commission Management
 - Reward Distribution
 - Promoters
@@ -347,6 +347,6 @@ tags:
 - Influencer Marketing
 - Payouts
 - Attribution
-- Webhooks
+- Webhook
 - MCP
 ---

@@ -61,9 +61,8 @@ tags:
 - Salesforce
 - Revenue Operations
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - MCP
-- Model Context Protocol
 - Agents
 - Sales Intelligence
 ---

@@ -108,6 +108,6 @@ tags:
 - Wearables
 - Hardware
 - FIT Files
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 ---

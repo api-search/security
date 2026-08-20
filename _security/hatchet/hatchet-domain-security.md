@@ -213,5 +213,5 @@ tags:
 - AI Agents
 - Orchestration
 - PostgreSQL
-- Open Source
+- Open-Source
 ---

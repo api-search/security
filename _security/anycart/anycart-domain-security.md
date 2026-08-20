@@ -39,7 +39,7 @@ tags:
 - Company
 - Grocery
 - Delivery
-- eCommerce
+- E-Commerce
 - Retail
 - Shopping
 - Food

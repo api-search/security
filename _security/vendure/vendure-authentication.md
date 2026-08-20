@@ -67,9 +67,9 @@ summary_line: apiKey/http · 3 schemes
 tags:
 - Commerce
 - Headless Commerce
-- eCommerce
+- E-Commerce
 - GraphQL
-- Open Source
+- Open-Source
 - TypeScript
 - NestJS
 - B2B

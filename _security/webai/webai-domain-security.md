@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webai/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - On-Device AI
 - Edge AI
 - Sovereign AI
-- Machine Learning
+- Machine-Learning
 - Privacy
 - Local Inference
 - macOS

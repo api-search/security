@@ -162,7 +162,7 @@ summary_line: http · 2 schemes
 tags:
 - Company
 - Search
-- Ecommerce
+- E-Commerce
 - Product Discovery
 - Recommendations
 - Personalization

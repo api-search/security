@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sigtuple/refs/
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Healthcare
 - Diagnostics
 - Pathology
 - Medical Devices
 - Microscopy
-- Machine Learning
+- Machine-Learning
 ---

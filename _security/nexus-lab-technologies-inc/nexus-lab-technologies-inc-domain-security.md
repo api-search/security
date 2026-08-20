@@ -33,7 +33,7 @@ tags:
 - Aviation
 - Sustainability
 - Climate
-- Machine Learning
+- Machine-Learning
 - Contrails
 - Flight Optimization
 - Aerospace

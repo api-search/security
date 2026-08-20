@@ -62,6 +62,6 @@ tags:
 - AI Agents
 - SEO
 - Advertising
-- Webhooks
+- Webhook
 - Gaming
 ---

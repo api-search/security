@@ -41,8 +41,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zentail/refs/h
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company
-- Ecommerce
-- Multichannel
+- E-Commerce
+- Multi-Channel
 - Marketplace
 - Product Information Management
 - Inventory Management

@@ -32,7 +32,7 @@ tags:
 - Analytics
 - Data
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Business Intelligence
 - Data Engineering
 - Quality Assurance

@@ -57,5 +57,4 @@ tags:
 - Lead Qualification
 - Go-To-Market
 - MCP
-- Model Context Protocol
 ---

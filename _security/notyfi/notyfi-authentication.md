@@ -69,10 +69,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/he
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- Notifications
+- Notification
 - Monitoring
-- Webhooks
-- Real Time
+- Webhook
+- Real-Time
 - Agents
 - MCP
 - Alerts

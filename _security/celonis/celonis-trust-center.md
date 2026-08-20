@@ -130,7 +130,7 @@ tags:
 - Process Intelligence
 - Data
 - Analytics
-- Machine Learning
+- Machine-Learning
 - AI Agents
 - Enterprise
 trust_url: https://trust.celonis.com/

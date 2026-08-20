@@ -45,13 +45,13 @@ summary_line: SOC 2, ISO 27001
 tags:
 - AI Inference
 - Large Language Models
-- Dataflow
+- Dataflows
 - Hardware
 - Cloud
-- OpenAI Compatible
+- OpenAI-Compatible
 - Sovereign AI
 - SDK
 - Accelerator
-- Open Source
+- Open-Source
 trust_url: https://trust.sambanova.ai/
 ---

@@ -66,8 +66,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/
 summary_line: TLSv1.3
 tags:
 - API Testing
-- Cloud Native
+- Cloud-Native
 - DevOps
 - Mocking
-- Open Source
+- Open-Source
 ---

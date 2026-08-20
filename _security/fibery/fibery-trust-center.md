@@ -32,6 +32,6 @@ tags:
 - No-Code
 - Automation
 - GraphQL
-- Webhooks
+- Webhook
 trust_url: https://fibery.com/security
 ---

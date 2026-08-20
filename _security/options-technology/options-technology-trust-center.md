@@ -23,7 +23,7 @@ tags:
 - Streaming
 - Trading Infrastructure
 - Exchange Data
-- Managed Services
+- Managed Service
 - Low Latency
 trust_url: https://www.options-it.com/about/security/
 ---

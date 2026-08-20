@@ -31,7 +31,7 @@ tags:
 - Industrial Inspection
 - 3D Sensors
 - Optical Measurement
-- Computer Vision
+- Computer-Vision
 - Manufacturing
 - Quality Control
 - China

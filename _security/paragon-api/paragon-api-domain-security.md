@@ -91,10 +91,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paragon-api/re
 summary_line: HSTS · DMARC
 tags:
 - Embedded iPaaS
-- Integrations
+- Integration
 - Embedded Integrations
 - Native Integrations
-- Workflow Automation
+- Workflow-Automation
 - Integration Platform
 - API Integration
 - SaaS Integrations

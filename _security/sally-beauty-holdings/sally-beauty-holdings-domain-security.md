@@ -49,7 +49,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Beauty
 - Retail
-- Ecommerce
+- E-Commerce
 - Professional
 - Consumer
 - Fortune 1000

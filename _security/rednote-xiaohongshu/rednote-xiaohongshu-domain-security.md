@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Technology
-- Social Media
+- Social-Media
 - E-Commerce
 - Content
 - China

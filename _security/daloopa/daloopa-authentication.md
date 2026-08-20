@@ -98,17 +98,17 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nsource: https://docs.da
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/authentication/daloopa-authentication.yml
 summary_line: http/oauth2/apiKey · 4 schemes
 tags:
-- financial-data
-- fundamental-data
-- market-data
-- investment-research
-- equity-research
-- sec-filings
-- earnings
-- fintech
-- mcp
+- Financial Data
+- Fundamental Data
+- Market Data
+- Investment Research
+- Equity Research
+- SEC Filings
+- Earnings
+- Fintech
+- MCP
 - agent-native
-- agent-skills
-- webhooks
-- data-warehouse
+- Agent Skills
+- Webhook
+- Data Warehouse
 ---

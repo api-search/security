@@ -44,11 +44,11 @@ tags:
 - Company
 - Fintech
 - Billing
-- Subscriptions
+- Subscription
 - CPQ
 - Quote-to-Cash
 - Payments
-- SaaS
+- Software-as-a-Service
 - Invoicing
 - Revenue Operations
 - E-Signature

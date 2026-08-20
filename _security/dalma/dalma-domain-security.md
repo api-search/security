@@ -32,7 +32,7 @@ tags:
 - Company
 - Consumer
 - Insurance
-- InsurTech
+- Insurtech
 - Pet Insurance
 - Pets
 - Veterinary

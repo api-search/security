@@ -36,7 +36,7 @@ tags:
 - Timekeeping
 - Billing
 - Law Firms
-- AI
+- Artificial Intelligence
 - Productivity
-- SaaS
+- Software-as-a-Service
 ---

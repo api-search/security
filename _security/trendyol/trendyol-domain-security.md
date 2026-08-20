@@ -48,7 +48,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trendyol/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Retail
 - Fashion
@@ -56,5 +56,5 @@ tags:
 - Order Management
 - Fulfillment
 - Logistics
-- Webhooks
+- Webhook
 ---

@@ -18,7 +18,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/corelayer/refs
 summary_line: SOC 2 Type II
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - SRE
 - Incident Response
 - Observability
@@ -26,7 +26,7 @@ tags:
 - Root Cause Analysis
 - Anomaly Detection
 - DevOps
-- Agent Native
+- agent-native
 - MCP
 - Fintech
 trust_url: https://trust.corelayer.com

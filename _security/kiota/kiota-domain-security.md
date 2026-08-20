@@ -34,10 +34,10 @@ tags:
 - Code Generation
 - Microsoft
 - OpenAPI
-- SDKs
+- SDK
 - Developer Tools
 - API Clients
-- Open Source
+- Open-Source
 - CLI
-- JSON Schema
+- JSON-Schema
 ---

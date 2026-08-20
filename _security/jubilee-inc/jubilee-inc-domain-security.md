@@ -35,6 +35,6 @@ tags:
 - Video
 - Entertainment
 - Content Production
-- Social Media
+- Social-Media
 - YouTube
 ---

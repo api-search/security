@@ -34,7 +34,7 @@ tags:
 - Artificial Intelligence
 - Manufacturing
 - Machine Vision
-- Machine Learning
+- Machine-Learning
 - Industrial AI
 - China
 ---

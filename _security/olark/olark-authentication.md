@@ -68,7 +68,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/olark/refs/hea
 summary_line: apiKey · 1 scheme
 tags:
 - Live Chat
-- Customer Support
+- Customer-Support
 - Chatbots
 - Customer Engagement
 - Messaging

@@ -38,11 +38,11 @@ tags:
 - Live Streaming
 - Advertising
 - Marketing
-- Social Media
+- Social-Media
 - Content
 - China
-- AI
+- Artificial Intelligence
 - Generative AI
-- Machine Learning
+- Machine-Learning
 - MCP
 ---

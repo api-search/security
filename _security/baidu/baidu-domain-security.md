@@ -32,7 +32,7 @@ tags:
 - Company
 - Technology
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - LLM
 - Maps
 - Geolocation

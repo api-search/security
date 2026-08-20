@@ -48,7 +48,7 @@ tags:
 - Games And Comics
 - Trivia
 - Jeopardy
-- Open Source
+- Open-Source
 - Ruby
 - Rails
 - Public APIs

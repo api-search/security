@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/legendtrade/re
 summary_line: http · 1 scheme
 tags:
 - Company
-- Defi
+- DeFi
 - Trading
 - Cryptocurrency
 - Perpetual Futures

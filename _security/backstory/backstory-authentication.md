@@ -84,7 +84,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backstory/refs
 summary_line: oauth2/apiKey/http · 4 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Revenue Intelligence
 - Sales
 - CRM

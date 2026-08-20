@@ -36,10 +36,10 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://www.axo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axos-bank/refs/heads/main/authentication/axos-bank-authentication.yml
 summary_line: oauth2/apiKey · 2 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
-- Banking-as-a-Service
+- Banking as a Service
 - Open Finance
 - Payments
 - Digital Bank

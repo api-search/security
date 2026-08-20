@@ -40,7 +40,7 @@ tags:
 - Web Hosting
 - E-Commerce
 - White Label
-- SaaS
+- Software-as-a-Service
 - Small Business
 - Website Migration
 - Reseller

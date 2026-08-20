@@ -133,12 +133,12 @@ tags:
 - Screen Memory
 - Audio Transcription
 - Meeting Intelligence
-- Local First
+- Local-First
 - Privacy
 - AI Agents
 - MCP
 - Developer Tools
 - Productivity
-- Open Source
+- Open-Source
 trust_url: https://screenpipe.com/security
 ---

@@ -40,5 +40,4 @@ tags:
 - Exposure Management
 - DevSecOps
 - Compliance
-- API
 ---

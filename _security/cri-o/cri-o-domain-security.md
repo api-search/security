@@ -74,7 +74,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Apache 2.0
 - CNCF
-- Cloud Native
+- Cloud-Native
 - conmon
 - Container Runtime
 - Containers
@@ -83,7 +83,7 @@ tags:
 - Graduated
 - Kubernetes
 - OCI
-- Open Source
+- Open-Source
 - Prometheus
 - runc
 ---

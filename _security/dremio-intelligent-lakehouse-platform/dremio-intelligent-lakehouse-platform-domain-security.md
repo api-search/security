@@ -84,5 +84,5 @@ tags:
 - Lakehouse
 - Apache Iceberg
 - SQL
-- AI
+- Artificial Intelligence
 ---

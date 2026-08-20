@@ -33,8 +33,8 @@ tags:
 - Company
 - Apparel
 - Retail
-- E-commerce
+- E-Commerce
 - Socks
-- Direct-to-Consumer
+- Direct to Consumer
 - Shopify
 ---

@@ -66,9 +66,9 @@ tags:
 - FNOL
 - Supply Chain
 - GraphQL
-- Webhooks
+- Webhook
 - SDK
 - Extensions
-- Multi Tenant
+- Multi-Tenant
 - Partner Gated
 ---

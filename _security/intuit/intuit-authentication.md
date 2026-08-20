@@ -61,7 +61,7 @@ tags:
 - Accounting
 - Custom Fields
 - Financial
-- Financial Services
+- Financial-Services
 - Invoicing
 - Payments
 - Payroll

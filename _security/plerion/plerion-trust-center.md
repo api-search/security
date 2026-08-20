@@ -104,6 +104,5 @@ tags:
 - Compliance
 - AI Security
 - DevSecOps
-- API
 trust_url: https://trust.plerion.com/
 ---

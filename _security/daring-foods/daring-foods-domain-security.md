@@ -117,11 +117,11 @@ tags:
 - Company
 - Food
 - Consumer Packaged Goods
-- Plant Based
+- Plant-Based
 - Alternative Protein
 - Food and Beverage
 - Recipes
-- Foodservice
+- Food Service
 - Grocery
 - Content
 ---

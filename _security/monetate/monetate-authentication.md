@@ -86,7 +86,7 @@ tags:
 - Personalization
 - Experience Optimization
 - A/B Testing
-- Ecommerce
+- E-Commerce
 - Product Recommendations
 - Personalized Search
 - Marketing

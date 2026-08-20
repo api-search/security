@@ -31,10 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rocket/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - App Builder
-- No Code
-- Low Code
+- No-Code
+- Low-Code
 - Developer Tools
 - Web Development
 - Mobile Development

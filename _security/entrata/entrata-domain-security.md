@@ -41,7 +41,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Property Management
 - Multifamily Housing
-- Real Estate
+- Real-Estate
 - Resident Management
 - Leasing
 - Maintenance

@@ -76,6 +76,6 @@ tags:
 - 3D Models
 - Content Delivery
 - Developer Tools
-- SDKs
+- SDK
 - WebAR
 ---

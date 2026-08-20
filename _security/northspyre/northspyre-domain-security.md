@@ -34,12 +34,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/northspyre/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Real Estate Development
 - Project Management
 - Construction
 - Cost Management
 - Portfolio Analytics
-- Proptech
-- SaaS
+- PropTech
+- Software-as-a-Service
 ---

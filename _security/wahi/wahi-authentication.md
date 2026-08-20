@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: >-\n  https://w
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wahi/refs/heads/main/authentication/wahi-authentication.yml
 summary_line: none/http-basic/cookie · 3 schemes
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Property Listings
 - MLS

@@ -45,12 +45,12 @@ summary_line: none/session/oauth2 · 3 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - AI Agents
 - Data
 - Database
 - SQL
 - Knowledge Base
 - MCP
-- Open Source
+- Open-Source
 ---

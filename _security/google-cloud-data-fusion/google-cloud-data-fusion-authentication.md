@@ -52,7 +52,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-d
 summary_line: oauth2 · 1 scheme
 tags:
 - Data Integration
-- Data Pipelines
+- Data Pipeline
 - ETL
 - Google Cloud
 ---

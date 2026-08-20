@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Property Management
-- Real Estate
+- Real-Estate
 - Rental Marketplace
 - PropTech
 - Residential

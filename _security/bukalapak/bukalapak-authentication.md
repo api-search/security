@@ -44,5 +44,5 @@ tags:
 - Indonesia
 - Southeast Asia
 - Payments
-- OAuth2
+- Authentication
 ---

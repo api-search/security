@@ -49,7 +49,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - Enterprise
-- Real Estate
+- Real-Estate
 - PropTech
 - Lead Nurture
 - Home Search

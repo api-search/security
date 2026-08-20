@@ -37,12 +37,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capim/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Fintech
 - Dental
 - BNPL
 - Payments
-- SaaS
+- Software-as-a-Service
 - Practice Management
 - Lending
 - Brazil

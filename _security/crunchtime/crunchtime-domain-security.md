@@ -48,7 +48,7 @@ tags:
 - Labor & Scheduling
 - Food Cost
 - Kitchen Display
-- Point of Sale
+- Point-of-Sale
 - Supply Chain
 - Hospitality
 - REST API

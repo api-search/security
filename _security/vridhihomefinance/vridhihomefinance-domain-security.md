@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vridhihomefina
 summary_line: DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Housing Finance
 - Home Loans
 - Mortgage

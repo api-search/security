@@ -35,7 +35,7 @@ tags:
 - Industrial AI
 - Predictive Maintenance
 - Asset Performance Management
-- Computer Vision
+- Computer-Vision
 - Digital Twin
 - Renewable Energy
 - Oil and Gas

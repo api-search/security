@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Semiconductors
-- Data Center
+- Data-Center
 - Interconnect
 - Terahertz
 - AI Infrastructure

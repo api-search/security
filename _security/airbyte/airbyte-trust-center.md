@@ -286,7 +286,7 @@ tags:
 - Data Integration
 - ETL
 - ELT
-- Open Source
+- Open-Source
 - Data Pipeline
 - Connectors
 - Data

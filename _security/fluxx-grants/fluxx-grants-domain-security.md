@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Grants Management
 - Grantmaking
-- Nonprofit
+- Non-Profit
 - Philanthropy
 - Foundations
 - REST API

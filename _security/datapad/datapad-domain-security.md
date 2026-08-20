@@ -35,7 +35,7 @@ tags:
 - Artificial Intelligence
 - Data
 - Business Intelligence
-- Natural Language
+- Natural-Language
 - Dashboards
-- SaaS
+- Software-as-a-Service
 ---

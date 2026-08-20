@@ -65,15 +65,15 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Sales Funnels
 - Landing Pages
-- E-commerce
+- E-Commerce
 - Marketing
 - Checkout
 - CRM
 - Email Marketing
 - Online Courses
-- Webhooks
+- Webhook
 - Website Builder
-- Subscriptions
+- Subscription
 - Marketing Automation
 - Agent Skills
 ---

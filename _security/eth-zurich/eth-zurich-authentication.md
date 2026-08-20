@@ -212,6 +212,12 @@ api_specs:
   slug: eth-zurich-util-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/openapi/eth-zurich-util-api-openapi.yml
+- filename: eth-zurich-firecrest-v2-api-openapi.yml
+  format: yaml
+  label: ETH Zurich – CSCS FirecREST v2 HPC API
+  slug: eth-zurich-firecrest-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/openapi/eth-zurich-firecrest-v2-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -246,11 +252,17 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/eth-zuri
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/authentication/eth-zurich-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- Switzerland
+- ETH Domain
 - Research
+- Research Data
+- Research Computing
+- High Performance Computing
 - Library
 - Open Data
-- Switzerland
+- Identity Federation
+- Digital Collections
 ---

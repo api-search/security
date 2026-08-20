@@ -79,7 +79,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Checkout
 - Payments
-- eCommerce
+- E-Commerce
 - One-Click Checkout
 - Shopper Network
 - Fraud Protection

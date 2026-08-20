@@ -87,6 +87,6 @@ tags:
 - Agentic Commerce
 - MCP
 - Fintech
-- Wallet
+- Wallets
 - Visa
 ---

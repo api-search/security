@@ -18,7 +18,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paytient/refs/
 summary_line: SOC 2
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Healthcare
 - Payments
 - Fintech

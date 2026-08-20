@@ -34,7 +34,7 @@ tags:
 - Consumer
 - Tea
 - Food and Beverage
-- E-commerce
+- E-Commerce
 - Retail
 - Shopify
 - Agent Commerce

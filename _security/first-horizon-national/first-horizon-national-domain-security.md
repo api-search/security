@@ -33,7 +33,7 @@ tags:
 - Banking
 - Commercial Banking
 - Consumer Banking
-- Financial Services
+- Financial-Services
 - Wealth Management
 - Capital Markets
 - Treasury Management

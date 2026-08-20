@@ -62,7 +62,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Sales Intelligence
 - Outbound
-- ABM
+- Account Based Marketing
 - Champion Tracking
 - Job Changes
 - Buying Signals
@@ -70,7 +70,7 @@ tags:
 - Sales Engagement
 - CRM
 - Revenue Operations
-- GTM
+- Go-To-Market
 - MCP
 - AI Agents
 ---

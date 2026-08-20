@@ -109,6 +109,6 @@ tags:
 - Accounting
 - Banking
 - Data Integration
-- Webhooks
+- Webhook
 - Fintech
 ---

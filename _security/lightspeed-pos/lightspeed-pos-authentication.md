@@ -164,8 +164,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lightspe
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/authentication/lightspeed-pos-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- POS
+- Point-of-Sale
 - Retail
 - Restaurant
-- Ecommerce
+- E-Commerce
 ---

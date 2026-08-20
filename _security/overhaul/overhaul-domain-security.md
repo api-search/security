@@ -34,16 +34,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/overhaul/refs/heads/main/security/overhaul-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- supply-chain
-- supply-chain-visibility
-- logistics
-- transportation
+- Supply Chain
+- Supply Chain Visibility
+- Logistics
+- Transportation
 - cargo-security
-- risk-management
-- fraud-prevention
-- cold-chain
-- iot
-- track-and-trace
-- freight
-- compliance
+- Risk Management
+- Fraud Prevention
+- Cold Chain
+- IoT
+- Track and Trace
+- Freight
+- Compliance
 ---

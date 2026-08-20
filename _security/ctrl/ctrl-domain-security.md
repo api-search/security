@@ -37,5 +37,5 @@ tags:
 - Workspace
 - Automation
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 ---

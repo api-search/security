@@ -34,7 +34,7 @@ tags:
 - Consumer
 - Travel
 - Hospitality
-- E-commerce
+- E-Commerce
 - Membership
 - Flash Sales
 ---

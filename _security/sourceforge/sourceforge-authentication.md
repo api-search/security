@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sourcefo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sourceforge/refs/heads/main/authentication/sourceforge-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- Open Source
+- Open-Source
 - Developer Tools
 - Project Management
 - Code Hosting

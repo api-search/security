@@ -42,7 +42,7 @@ tags:
 - Power Derivatives
 - Trading
 - Exchange
-- Financial Services
+- Financial-Services
 - FIX API
 - Market Data
 - Futures

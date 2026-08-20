@@ -83,11 +83,11 @@ tags:
 - Embeddings
 - RAG
 - Agent Memory
-- Model Context Protocol
-- Open Source
+- MCP
+- Open-Source
 - Python
 - Data Orchestration
 - Computed Columns
 - Video Processing
-- Machine Learning
+- Machine-Learning
 ---

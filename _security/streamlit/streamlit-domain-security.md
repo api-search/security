@@ -58,8 +58,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Science
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 - Python
 - Web Applications
 ---

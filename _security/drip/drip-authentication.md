@@ -123,7 +123,7 @@ summary_line: http/oauth2 · 3 schemes
 tags:
 - Email Marketing
 - Marketing Automation
-- Ecommerce
+- E-Commerce
 - Customer Engagement
 - Campaigns
 - Workflows

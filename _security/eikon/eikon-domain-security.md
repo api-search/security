@@ -37,5 +37,5 @@ tags:
 - Oncology
 - Life Sciences
 - Microscopy
-- Machine Learning
+- Machine-Learning
 ---

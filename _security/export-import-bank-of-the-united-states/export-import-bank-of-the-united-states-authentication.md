@@ -46,7 +46,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/export-import-
 summary_line: apiKey · 1 scheme
 tags:
 - Export
-- Federal Government
+- Federal-Government
 - Finance
 - Import
 - Trade Finance

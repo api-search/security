@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://www.ctf
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canadian-tire-bank/refs/heads/main/authentication/canadian-tire-bank-authentication.yml
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Canada
 - Schedule I Bank

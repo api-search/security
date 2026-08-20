@@ -32,9 +32,9 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Semiconductors
-- AI
+- Artificial Intelligence
 - Hardware
-- Machine Learning
+- Machine-Learning
 - LLM
 - AI Accelerator
 - Inference

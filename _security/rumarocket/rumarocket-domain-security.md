@@ -34,6 +34,6 @@ tags:
 - Talent Management
 - Artificial Intelligence
 - HR Analytics
-- Machine Learning
+- Machine-Learning
 - Predictive Analytics
 ---

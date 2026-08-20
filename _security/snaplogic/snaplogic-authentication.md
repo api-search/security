@@ -60,11 +60,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/snaplogi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/authentication/snaplogic-authentication.yml
 summary_line: http · 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - API Management
 - Automation
 - Data Integration
-- Integrations
+- Integration
 - iPaaS
 - Management
 ---

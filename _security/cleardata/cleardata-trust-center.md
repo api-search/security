@@ -30,7 +30,7 @@ tags:
 - Compliance
 - HIPAA
 - HITRUST
-- Managed Services
+- Managed Service
 - Cybersecurity
 - Cloud
 trust_url: https://www.cleardata.com/security/

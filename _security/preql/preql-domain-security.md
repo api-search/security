@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/preql/refs/hea
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Developer
+- Developers
 - Data
 - Artificial Intelligence
 - Analytics

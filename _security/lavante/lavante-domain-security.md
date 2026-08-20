@@ -30,9 +30,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lavante/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Supplier Information Management
-- Procure To Pay
+- Procure-to-Pay
 - Accounts Payable
 - Spend Management
 - Recovery Audit

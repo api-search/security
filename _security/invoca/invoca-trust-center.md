@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/invoca/refs/he
 summary_line: SOC 2 Type 2, ISO 27001, PCI DSS, HIPAA, GDPR, CCPA, FSQS, TRUSTe
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Call Tracking
 - Conversation Intelligence
 - Marketing

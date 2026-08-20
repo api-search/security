@@ -72,13 +72,13 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Marketplace
-- Experiences
+- Experience
 - Booking
-- Events
+- Event
 - Workshops
 - Ticketing
 - Gift Cards
-- Travel and Leisure
+- Travel And Leisure
 - Germany
 - Commerce
 ---

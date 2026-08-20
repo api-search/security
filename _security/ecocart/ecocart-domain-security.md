@@ -36,7 +36,7 @@ tags:
 - Company
 - Sustainability
 - Carbon Offsets
-- E-commerce
+- E-Commerce
 - Climate
 - Checkout
 - Shipping Protection

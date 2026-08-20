@@ -24,7 +24,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-aci/refs
 summary_line: Common Criteria EAL2+ (ALC_FLR.2), Common Criteria EAL2, FIPS 140 (certificate 4747), FIPS 140
 tags:
 - SDN
-- Data Center
+- Data-Center
 - Networking
 - Fabric
 - Automation

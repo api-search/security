@@ -36,7 +36,7 @@ tags:
 - Quality Assurance
 - Quality Management
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Digital Construction Verification
 - Buildings
 ---

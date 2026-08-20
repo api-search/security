@@ -32,7 +32,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/csm/refs/heads/main/security/csm-domain-security.yml
 summary_line: DMARC
 tags:
-- AI
+- Artificial Intelligence
 - 3D
 - World Models
 - Scene Generation

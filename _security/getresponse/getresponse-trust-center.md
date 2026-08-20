@@ -328,7 +328,7 @@ tags:
 - CRM
 - Transactional Email
 - SMS
-- Ecommerce
+- E-Commerce
 - Web Push
 - Forms
 - Newsletters

@@ -34,7 +34,7 @@ tags:
 - Consumer
 - Education
 - Software Engineering
-- AI
+- Artificial Intelligence
 - Coding Bootcamp
 - Training
 ---

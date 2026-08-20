@@ -92,7 +92,7 @@ tags:
 - Parking
 - Payments
 - Automotive
-- Financial Services
-- OAuth
+- Financial-Services
+- Authentication
 - Taiwan
 ---

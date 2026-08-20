@@ -33,7 +33,7 @@ tags:
 - United States
 - Banking
 - Regional Bank
-- Financial Services
+- Financial-Services
 - Treasury Management
 - Consumer-Permissioned Data
 - Open Finance

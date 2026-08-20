@@ -33,6 +33,6 @@ tags:
 - Retail
 - E-Commerce
 - Fortune 500
-- Direct-to-Consumer
+- Direct to Consumer
 - Lifestyle
 ---

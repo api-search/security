@@ -116,5 +116,5 @@ tags:
 - Enrollments
 - Coaching
 - Memberships
-- Transactions
+- Transaction
 ---

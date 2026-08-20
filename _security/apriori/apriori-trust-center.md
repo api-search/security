@@ -34,15 +34,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apriori/refs/h
 summary_line: ISO/IEC 27001, SOC 2, GDPR
 tags:
 - Company
-- manufacturing
+- Manufacturing
 - product-cost-management
 - design-for-manufacturability
 - should-cost
 - plm-integration
 - cost-engineering
-- digital-manufacturing
-- sustainability
-- workflow-automation
-- cad
+- Digital Manufacturing
+- Sustainability
+- Workflow-Automation
+- CAD
 trust_url: https://www.apriori.com/security/
 ---

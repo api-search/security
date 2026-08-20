@@ -37,6 +37,6 @@ tags:
 - Kids Activities
 - Consumer
 - Deals
-- E-commerce
+- E-Commerce
 - South Korea
 ---

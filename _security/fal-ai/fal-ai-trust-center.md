@@ -67,11 +67,10 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/security/fal-ai-trust-center.yml
 summary_line: SOC 2 Type II
 tags:
-- AI
 - Artificial Intelligence
 - Generative AI
 - Generative Media
-- Image Generation
+- Image-Generation
 - Video Generation
 - Audio Generation
 - Inference

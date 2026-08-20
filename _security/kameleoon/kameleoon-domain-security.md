@@ -61,8 +61,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Experimentation
-- AB Testing
+- A/B Testing
 - Personalization
 - Feature Flags
-- AI
+- Artificial Intelligence
 ---

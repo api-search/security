@@ -86,13 +86,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kartos-therape
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- oncology
-- hematology
-- rare-disease
-- precision-medicine
-- clinical-trials
-- life-sciences
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Hematology
+- Rare Disease
+- Precision Medicine
+- Clinical Trials
+- Life Sciences
 - content-api
 ---

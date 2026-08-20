@@ -29,6 +29,6 @@ tags:
 - Quality Measurement
 - Revenue Cycle
 - Claims Management
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.inovalon.com/
 ---

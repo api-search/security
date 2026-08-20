@@ -76,6 +76,6 @@ tags:
 - Business Process
 - Diagramming
 - Flowcharts
-- Microsoft 365
+- Microsoft-365
 - Visualization
 ---

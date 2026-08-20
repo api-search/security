@@ -1193,8 +1193,8 @@ tags:
 - App Store
 - Push Notifications
 - In-App Purchases
-- Subscriptions
+- Subscription
 - Authentication
-- Wallet
+- Wallets
 - Developer Platform
 ---

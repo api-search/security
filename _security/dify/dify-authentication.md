@@ -65,6 +65,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dify/refs/head
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- Backend-As-A-Service
+- Backend-as-a-Service
 - LLMOps
 ---

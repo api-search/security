@@ -35,10 +35,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bubbles-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bubbles/refs/heads/main/authentication/bubbles-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Applications
-- Low Code
-- No Code
+- Application
+- Low-Code
+- No-Code
 - Visual Programming
-- Webhooks
-- Web Apps
+- Webhook
+- Web App
 ---

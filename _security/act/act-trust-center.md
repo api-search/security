@@ -34,7 +34,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads
 summary_line: SOC 2, SOC 3, ISO 27001, PCI DSS, HIPAA, FedRAMP
 tags:
 - CRM
-- Customer Relationship Management
 - Marketing Automation
 - Contact Management
 - Sales

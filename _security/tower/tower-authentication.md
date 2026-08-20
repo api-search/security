@@ -207,7 +207,7 @@ tags:
 - Apache Iceberg
 - Lakehouse
 - Orchestration
-- Data Pipelines
+- Data Pipeline
 - AI Agents
 - MCP
 - ETL

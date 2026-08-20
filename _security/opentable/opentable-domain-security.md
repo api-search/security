@@ -37,5 +37,5 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Hospitality
 - Reservations
-- Restaurants
+- Restaurant
 ---

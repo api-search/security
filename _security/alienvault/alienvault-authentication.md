@@ -62,5 +62,4 @@ tags:
 - Open Threat Exchange
 - Indicators of Compromise
 - Threat Feeds
-- API
 ---

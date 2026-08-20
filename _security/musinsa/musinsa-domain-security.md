@@ -32,7 +32,7 @@ tags:
 - Company
 - Technology
 - Fashion
-- E-commerce
+- E-Commerce
 - Marketplace
 - Retail
 - South Korea

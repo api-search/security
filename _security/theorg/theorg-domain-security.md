@@ -52,6 +52,6 @@ tags:
 - MCP
 - Contact Data
 - Lead Generation
-- Jobs
+- Job
 - Agents
 ---

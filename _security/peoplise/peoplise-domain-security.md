@@ -48,6 +48,6 @@ tags:
 - Talent Acquisition
 - Video Interview
 - Onboarding
-- SaaS
+- Software-as-a-Service
 - Turkey
 ---

@@ -30,7 +30,7 @@ summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
 - Crypto
-- Wallet
+- Wallets
 - Web3
 - Blockchain
 - Ethereum

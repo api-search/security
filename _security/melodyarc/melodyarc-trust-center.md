@@ -19,10 +19,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/melodyarc/refs
 summary_line: SOC 2 Type 2, HIPAA
 tags:
 - Company
-- AI
 - Artificial Intelligence
-- Operations
-- Workflow Automation
+- Workflow-Automation
 - Orchestration
 - AI Agents
 - Governance

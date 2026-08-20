@@ -109,6 +109,6 @@ tags:
 - Communications
 - Marketing
 - Civic Engagement
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 ---

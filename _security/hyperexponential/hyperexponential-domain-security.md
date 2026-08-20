@@ -41,5 +41,5 @@ tags:
 - Pricing
 - Property and Casualty
 - Actuarial
-- SaaS
+- Software-as-a-Service
 ---

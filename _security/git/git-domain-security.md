@@ -73,7 +73,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Distributed
 - Git
-- Open Source
+- Open-Source
 - Source Code Management
 - Version Control
 ---

@@ -30,11 +30,11 @@ source_yaml: "generated: '2026-07-23'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/umb-financial/refs/heads/main/security/umb-financial-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Open Finance
-- Banking-as-a-Service
+- Banking as a Service
 - Institutional Banking
 - Data Aggregation
 ---

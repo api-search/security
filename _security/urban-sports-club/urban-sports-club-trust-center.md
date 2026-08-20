@@ -22,6 +22,6 @@ tags:
 - Sports
 - Wellness
 - Corporate Wellness
-- Subscriptions
+- Subscription
 trust_url: https://trust.urbansportsclub.com/
 ---

@@ -36,7 +36,7 @@ tags:
 - Public Works
 - Emergency Response
 - Dispatch
-- Notifications
+- Notification
 - Water
-- SaaS
+- Software-as-a-Service
 ---

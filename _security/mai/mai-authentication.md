@@ -25,7 +25,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mai/refs/heads
 summary_line: 0 schemes
 tags:
 - Company
-- AI
 - Artificial Intelligence
 - Marketing
 - Advertising

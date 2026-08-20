@@ -43,7 +43,7 @@ tags:
 - Rebate Management
 - Compliance
 - Life Sciences
-- Pharmaceutical
+- Pharmaceuticals
 - Medicaid
 - Health Tech
 ---

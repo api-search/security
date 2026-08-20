@@ -88,7 +88,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Compute
 - Interactive Computing
-- Kernels
+- Kernel
 - Notebooks
 - Portable
 - Workbooks

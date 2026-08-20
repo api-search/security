@@ -62,7 +62,7 @@ tags:
 - Civic Tech
 - Elections
 - Government
-- Nonprofit
+- Non-Profit
 - Voter Information
 - Voting
 ---

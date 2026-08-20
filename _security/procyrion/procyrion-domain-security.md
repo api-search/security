@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Medical Devices
-- Health Care
+- Healthcare
 - Cardiology
 - Heart Failure
 - Mechanical Circulatory Support

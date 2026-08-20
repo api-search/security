@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: openapi/goodlor
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/authentication/goodlord-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Property Management

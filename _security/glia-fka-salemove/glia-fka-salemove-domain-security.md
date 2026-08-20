@@ -32,13 +32,13 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Customer Service
-- Customer Support
+- Customer-Support
 - Digital Customer Service
 - Contact Center
 - Conversational AI
 - Voice AI
 - Co-Browsing
-- Financial Services
+- Financial-Services
 - Banking
 - Serverless
 - SDK

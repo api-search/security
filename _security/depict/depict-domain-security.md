@@ -253,7 +253,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/depict/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Merchandising
 - Product Recommendations
 - Search

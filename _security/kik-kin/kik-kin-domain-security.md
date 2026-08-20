@@ -34,7 +34,7 @@ tags:
 - Crypto
 - Cryptocurrency
 - Blockchain
-- SDKs
+- SDK
 - Messaging
 - Defunct
 ---

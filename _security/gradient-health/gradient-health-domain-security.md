@@ -35,7 +35,7 @@ tags:
 - Healthcare Data
 - Health AI
 - DICOM
-- Machine Learning
+- Machine-Learning
 - Data Platform
 - Radiology
 ---

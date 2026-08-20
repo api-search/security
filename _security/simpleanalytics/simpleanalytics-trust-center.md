@@ -54,7 +54,7 @@ tags:
 - Privacy
 - Cookieless
 - GDPR
-- Events
+- Event
 - Data Export
 - Europe
 trust_url: https://www.simpleanalytics.com/security

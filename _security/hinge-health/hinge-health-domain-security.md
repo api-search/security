@@ -43,6 +43,6 @@ tags:
 - EMR Interoperability
 - Health Plans
 - Employer Health
-- Value Based Care
+- Value-Based Care
 - Public Company
 ---

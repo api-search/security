@@ -32,7 +32,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Physical AI
-- Machine Learning
+- Machine-Learning
 - Manufacturing
 - Aerospace
 - Engineering

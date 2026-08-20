@@ -69,6 +69,6 @@ tags:
 - Microsoft
 - Power Platform
 - RPA
-- Workflow
+- Workflows
 trust_url: https://servicetrust.microsoft.com/
 ---

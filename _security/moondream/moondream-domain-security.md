@@ -49,8 +49,8 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
-- Computer Vision
+- Machine-Learning
+- Computer-Vision
 - Vision Language Model
 - Object Detection
 - Image Captioning

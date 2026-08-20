@@ -47,7 +47,7 @@ tags:
 - ABI
 - Bytecode Alliance
 - Component
-- Interface
+- Interfaces
 - Modular
 - Specification
 - WASI

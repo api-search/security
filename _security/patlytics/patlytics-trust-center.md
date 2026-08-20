@@ -28,7 +28,7 @@ tags:
 - Artificial Intelligence
 - Patent Search
 - Prior Art
-- Model Context Protocol
+- MCP
 - Agents
 - Research
 trust_url: https://trust.patlytics.ai/

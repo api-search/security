@@ -66,8 +66,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wellsaid-labs/refs/heads/main/security/wellsaid-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
-- Text to Speech
+- Artificial Intelligence
+- Text-to-Speech
 - TTS
 - Voice
 - Voiceover

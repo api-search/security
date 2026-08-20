@@ -160,7 +160,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cryptography
-- Financial Services
+- Financial-Services
 - Payment Processing
 - PCI
 ---

@@ -54,5 +54,5 @@ tags:
 - Game Data
 - Leaderboards
 - Ronin
-- Play to Earn
+- Play-to-Earn
 ---

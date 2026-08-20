@@ -31,10 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apollo-agricul
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Agtech
+- AgTech
 - Agriculture
 - Fintech
-- Financial Services
+- Financial-Services
 - Insurance
 - Lending
 - Africa

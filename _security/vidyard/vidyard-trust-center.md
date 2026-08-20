@@ -35,6 +35,6 @@ tags:
 - CRM Integration
 - Marketing
 - AI Video
-- Webhooks
+- Webhook
 trust_url: https://trust.vidyard.com/
 ---

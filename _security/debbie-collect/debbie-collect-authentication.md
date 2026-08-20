@@ -90,9 +90,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/debbie-collect
 summary_line: http · 1 scheme
 tags:
 - Accounts Receivable
-- Collections
+- Collection
 - Debt Collection
-- FinTech
+- Fintech
 - Payments
-- SaaS
+- Software-as-a-Service
 ---

@@ -71,6 +71,6 @@ tags:
 - Remote Patient Monitoring
 - Wearables
 - Artificial Intelligence
-- Machine Learning
-- Model Context Protocol
+- Machine-Learning
+- MCP
 ---

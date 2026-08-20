@@ -135,14 +135,14 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\ndocs: https://apidocs.p
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/authentication/picus-security-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- cybersecurity
-- security-validation
-- breach-and-attack-simulation
-- adversarial-exposure-validation
-- continuous-threat-exposure-management
-- penetration-testing
-- threat-intelligence
+- Cybersecurity
+- Security Validation
+- Breach and Attack Simulation
+- Adversarial Exposure Validation
+- Continuous Threat Exposure Management
+- Penetration Testing
+- Threat Intelligence
 - mitre-attack
-- detection-engineering
-- security-operations
+- Detection Engineering
+- Security Operations
 ---

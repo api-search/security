@@ -43,7 +43,7 @@ tags:
 - BLS
 - Employment
 - Enforcement
-- Federal Government
+- Federal-Government
 - Labor
 - Open Data
 - Statistics

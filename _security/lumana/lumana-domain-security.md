@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Video Security
-- AI
-- Computer Vision
+- Artificial Intelligence
+- Computer-Vision
 - Physical Security
 - Surveillance
 - Video Management

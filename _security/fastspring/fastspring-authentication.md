@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fastspri
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/authentication/fastspring-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Ecommerce
+- E-Commerce
 - Merchant of Record
 - Subscription Billing
 - Payments

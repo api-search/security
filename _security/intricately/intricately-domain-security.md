@@ -36,7 +36,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intricately/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- API
 - Sales Intelligence
 - Cloud Intelligence
 - Technographics

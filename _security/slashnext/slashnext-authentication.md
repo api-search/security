@@ -37,5 +37,4 @@ tags:
 - Threat Intelligence
 - Email Security
 - Anti-Phishing
-- API
 ---

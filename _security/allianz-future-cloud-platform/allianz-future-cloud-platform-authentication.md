@@ -65,7 +65,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Cloud Platform
 - Enterprise
-- Financial Services
+- Financial-Services
 - Insurance
 - Platform Engineering
 - Kubernetes

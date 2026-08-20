@@ -51,7 +51,7 @@ tags:
 - Blockchain
 - Crypto
 - Cryptocurrency
-- Deeplinks
+- Deep Links
 - Embedded Wallet
 - Ethereum
 - EVM
@@ -62,6 +62,6 @@ tags:
 - Self-Custody
 - Solana
 - Sui
-- Wallet
+- Wallets
 - Web3
 ---

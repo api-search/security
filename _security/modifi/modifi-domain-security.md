@@ -32,5 +32,5 @@ tags:
 - Trade Finance
 - Financing
 - Partnerships
-- Transactions
+- Transaction
 ---

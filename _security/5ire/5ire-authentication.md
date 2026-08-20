@@ -43,16 +43,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/5ire/refs/heads/main/authentication/5ire-authentication.yml
 summary_line: none · 3 schemes
 tags:
-- blockchain
-- layer-1
-- smart-contracts
-- evm
-- web3
-- substrate
-- json-rpc
-- sustainability
-- esg
-- proof-of-stake
-- cryptocurrency
-- developer-tools
+- Blockchain
+- Layer 1
+- Smart Contracts
+- EVM
+- Web3
+- Substrate
+- JSON-RPC
+- Sustainability
+- ESG
+- Proof of Stake
+- Cryptocurrency
+- Developer Tools
 ---

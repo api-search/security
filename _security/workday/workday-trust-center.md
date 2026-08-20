@@ -301,6 +301,6 @@ tags:
 - Enterprise Software
 - Financial Management
 - HCM
-- SaaS
+- Software-as-a-Service
 trust_url: https://security.workday.com/
 ---

@@ -38,7 +38,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Legal
-- LegalTech
+- Legal Tech
 - Artificial Intelligence
 - Sales Enablement
 - Business Development

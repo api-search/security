@@ -84,7 +84,7 @@ tags:
 - Campaign Management
 - Product Feed
 - Data Export
-- Webhooks
+- Webhook
 - Web Tracking
 - Germany
 ---

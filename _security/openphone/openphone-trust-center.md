@@ -83,6 +83,6 @@ tags:
 - Business Phone
 - CPaaS
 - Contact Center
-- Webhooks
+- Webhook
 trust_url: https://www.quo.com/security
 ---

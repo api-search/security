@@ -172,10 +172,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/
 summary_line: apiKey/http · 2 schemes
 tags:
 - Vector Database
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Semantic Search
-- Open Source
+- Open-Source
 - GraphQL
 - Kubernetes
 ---

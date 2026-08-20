@@ -31,13 +31,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meetandy-ai/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - Developer Tools
 - DevOps
 - Software Delivery
 - MCP
-- Coding Agent
+- Coding Agents
 - Slack
 - Project Management
 ---

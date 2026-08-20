@@ -1300,9 +1300,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mist-ai-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mist-ai/refs/heads/main/authentication/mist-ai-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- AI
-- AIOps
 - Artificial Intelligence
+- AIOps
 - Networking
 - Wi-Fi
 - Wireless LAN
@@ -1312,7 +1311,7 @@ tags:
 - LAN
 - Access Points
 - Switches
-- Routers
+- Router
 - Marvis
 - NAC
 - Access Assurance

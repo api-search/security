@@ -42,7 +42,7 @@ tags:
 - Speech Recognition
 - Conversational AI
 - Natural Language Understanding
-- Text to Speech
+- Text-to-Speech
 - Speech Synthesis
 - Voice
 - Dialog

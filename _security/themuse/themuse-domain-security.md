@@ -46,7 +46,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/themuse/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Job Openings
-- Jobs
+- Job
 - Careers
 - Recruiting
 - Employment

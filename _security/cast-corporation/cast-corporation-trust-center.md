@@ -25,11 +25,11 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Revenue Operations
-- SaaS
+- Software-as-a-Service
 - Automation
 - Post-Sales
 - Analytics
-- Webhooks
+- Webhook
 - Embeddable
 trust_url: https://school.cast.app/security-documents/
 ---

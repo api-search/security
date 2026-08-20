@@ -78,13 +78,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/re
 summary_line: http · 1 scheme
 tags:
 - NHS
-- health
+- Health
 - FHIR
 - UK
-- patient demographics
-- prescriptions
-- referrals
-- clinical data
-- digital health
-- government
+- Patient Demographics
+- Prescriptions
+- Referrals
+- Clinical Data
+- Digital Health
+- Government
 ---

@@ -41,10 +41,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Agents
 - Agent Infrastructure
-- Model Context Protocol
+- MCP
 - API Gateway
 - Payments
 - Agentic Commerce

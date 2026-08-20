@@ -100,10 +100,10 @@ tags:
 - Affiliate Network
 - Commission
 - Product Search
-- Publisher
+- Publishers
 - Advertiser
 - GraphQL
-- Ecommerce
+- E-Commerce
 - Product Feeds
 - Conversion Tracking
 - Attribution

@@ -482,9 +482,9 @@ tags:
 - Company
 - Event Ticketing
 - Ticketing
-- Events
+- Event
 - Payments
 - Live Entertainment
-- Webhooks
-- API-first
+- Webhook
+- API-First
 ---

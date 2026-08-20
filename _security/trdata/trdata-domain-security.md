@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trdata/refs/he
 summary_line: TLSv1.2 · HSTS
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Market Data
 - Fixed Income
 - OTC Markets

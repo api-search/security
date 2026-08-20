@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Apparel
 - Consumer Goods
-- eCommerce
+- E-Commerce
 - Footwear
 - Retail
 - Fortune 1000

@@ -24,7 +24,7 @@ tags:
 - Artificial Intelligence
 - Forecasting
 - Conversation Intelligence
-- RevOps
+- Revenue Operations
 - Analytics
 trust_url: https://www.aviso.com/compliance
 ---

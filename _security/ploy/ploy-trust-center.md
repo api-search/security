@@ -28,7 +28,7 @@ tags:
 - Website Builder
 - Growth
 - Advertising
-- Webhooks
+- Webhook
 - CLI
 - Agent Skills
 trust_url: https://trust.ploy.ai/

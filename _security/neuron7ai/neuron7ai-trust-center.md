@@ -24,6 +24,6 @@ tags:
 - Technical Support
 - Customer Care
 - Service Intelligence
-- Knowledge Management
+- Knowledge-Management
 trust_url: https://trust.neuron7.ai/
 ---

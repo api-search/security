@@ -33,11 +33,11 @@ tags:
 - Ai Data
 - API Integration
 - API Governance
-- Model Context Protocol
+- MCP
 - Agent Skills
-- Open Source
+- Open-Source
 - Developer Tools
-- API Specifications
+- API Specification
 - Spec-Driven Integration
 - Capability Engine
 - API Linting

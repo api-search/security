@@ -76,7 +76,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-forecas
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Forecasting
-- Machine Learning
+- Machine-Learning
 - Predictive Analytics
 - Time Series
 ---

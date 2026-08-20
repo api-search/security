@@ -38,5 +38,5 @@ tags:
 - Compliance
 - Financial Reporting
 - ERP
-- FinTech
+- Fintech
 ---

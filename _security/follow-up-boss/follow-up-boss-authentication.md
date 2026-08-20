@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/follow-u
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/authentication/follow-up-boss-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Real Estate
+- Real-Estate
 - CRM
 - Lead Management
 - Sales Automation

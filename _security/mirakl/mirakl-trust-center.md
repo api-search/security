@@ -180,12 +180,12 @@ summary_line: SOC 1 Type II, SOC 2 Type II, ISO/IEC 27001, ISO/IEC 27018, ISO 22
 tags:
 - Company
 - Commerce
-- eCommerce
+- E-Commerce
 - Marketplace
 - Dropship
 - Retail
 - Catalog
-- Orders
+- Order
 - Retail Media
 - B2B
 trust_url: https://www.mirakl.com/why-mirakl/technology

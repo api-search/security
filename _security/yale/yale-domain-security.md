@@ -1,35 +1,53 @@
 ---
 api_specs:
-- filename: yale-configuration-api-openapi.yml
+- filename: yale-search-api-openapi.yml
   format: yaml
-  label: Yale University Configuration API
-  slug: yale-configuration-api
+  label: LUX Collections Discovery — Search API
+  slug: yale-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-configuration-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-search-api-openapi.yml
 - filename: yale-documents-api-openapi.yml
   format: yaml
-  label: Yale University Documents API
+  label: LUX Collections Discovery — Documents API
   slug: yale-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-documents-api-openapi.yml
 - filename: yale-facets-api-openapi.yml
   format: yaml
-  label: Yale University Facets API
+  label: LUX Collections Discovery — Facets API
   slug: yale-facets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-facets-api-openapi.yml
 - filename: yale-related-api-openapi.yml
   format: yaml
-  label: Yale University Related API
+  label: LUX Collections Discovery — Related API
   slug: yale-related-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-related-api-openapi.yml
-- filename: yale-search-api-openapi.yml
+- filename: yale-configuration-api-openapi.yml
   format: yaml
-  label: Yale University Search API
-  slug: yale-search-api
+  label: LUX Collections Discovery — Configuration API
+  slug: yale-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-search-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-configuration-api-openapi.yml
+- filename: yale-dataverse-openapi.yml
+  format: yaml
+  label: Yale Dataverse Repository API
+  slug: dataverse
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-dataverse-openapi.yml
+- filename: yale-digital-collections-iiif-openapi.yml
+  format: yaml
+  label: Yale University Library Digital Collections IIIF
+  slug: iiif
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-digital-collections-iiif-openapi.yml
+- filename: yale-identity-federation-openapi.yml
+  format: yaml
+  label: Yale University Identity Federation Metadata
+  slug: identity-federation
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-identity-federation-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -72,12 +90,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/security/yale-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- United States
+- Ivy League
 - Research
+- Research Data
+- Research Repository
+- Identity Federation
 - Library
 - Cultural Heritage
 - Linked Data
-- United States
+- IIIF
+- Course Catalog
 ---

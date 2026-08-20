@@ -85,7 +85,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Video
 - Voice
-- Real Time
+- Real-Time
 - WebRTC
 - SDK
 - Communications

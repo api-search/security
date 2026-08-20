@@ -28,20 +28,20 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/security/skyvia-trust-center.yml
 summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
-- data-integration
-- ipaas
-- etl
-- elt
-- data-replication
-- cloud-backup
-- odata
-- sql
-- workflow-automation
-- no-code
-- connectors
-- data-management
-- mcp
+- Data Integration
+- iPaaS
+- ETL
+- ELT
+- Data Replication
+- Cloud Backup
+- OData
+- SQL
+- Workflow-Automation
+- No-Code
+- Connectors
+- Data Management
+- MCP
 - agent-native
-- data-access
+- Data Access
 trust_url: https://skyvia.com/security
 ---

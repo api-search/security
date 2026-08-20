@@ -102,10 +102,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/security/tiendanube-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- E-commerce
+- E-Commerce
 - Retail
 - Latin America
 - Storefront
-- Products
-- Orders
+- Product
+- Order
 ---

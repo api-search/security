@@ -57,7 +57,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Anomaly Detection
 - Compliance
-- Machine Learning
+- Machine-Learning
 - Monitoring
 - Security
 - Threat Detection

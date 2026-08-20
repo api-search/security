@@ -105,6 +105,6 @@ tags:
 - Core Banking
 - Digital Banking
 - Enterprise
-- Financial Services
+- Financial-Services
 - Fintech
 ---

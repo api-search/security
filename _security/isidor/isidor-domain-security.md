@@ -33,8 +33,8 @@ tags:
 - Company
 - Artificial Intelligence
 - Enterprise AI
-- Machine Learning
-- Data Pipelines
+- Machine-Learning
+- Data Pipeline
 - Model Training
 - Evaluation
 - LLM

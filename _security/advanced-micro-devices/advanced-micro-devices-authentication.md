@@ -85,11 +85,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amd-deve
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/authentication/advanced-micro-devices-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Cloud Computing
 - GPU
 - HPC
-- Machine Learning
-- Semiconductor
+- Machine-Learning
+- Semiconductors
 - Fortune 500
 ---

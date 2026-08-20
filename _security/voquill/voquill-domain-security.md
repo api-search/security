@@ -34,8 +34,8 @@ tags:
 - Voice
 - Dictation
 - Speech-to-Text
-- AI
-- Open Source
+- Artificial Intelligence
+- Open-Source
 - Healthcare
 - Pathology
 - Productivity

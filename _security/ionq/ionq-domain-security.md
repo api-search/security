@@ -82,7 +82,7 @@ tags:
 - Quantum Computing
 - Trapped Ion
 - QPU
-- Aria
+- ARIA
 - Forte
 - Tempo
 - Quantum Cloud

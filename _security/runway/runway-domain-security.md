@@ -127,9 +127,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runway/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Video Generation
-- Image Generation
+- Image-Generation
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Generative AI
 - Avatars
 - Characters

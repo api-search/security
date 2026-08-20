@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://mcp.vir
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/authentication/yardi-canada-authentication.yml
 summary_line: oauth2/opaque-token/none · 4 schemes
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Property Management
 - Rentals
@@ -98,5 +98,5 @@ tags:
 - Tenancy
 - Payments
 - MCP
-- AI
+- Artificial Intelligence
 ---

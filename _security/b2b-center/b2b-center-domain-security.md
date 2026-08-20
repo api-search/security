@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Procurement
-- E-Procurement
+- eProcurement
 - Marketplace
 - B2B
 - Trading Platform

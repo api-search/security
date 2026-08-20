@@ -65,8 +65,8 @@ tags:
 - Distributed Systems
 - Microservices
 - Containers
-- Cloud Native
+- Cloud-Native
 - Kubernetes
 - Azure
-- Open Source
+- Open-Source
 ---

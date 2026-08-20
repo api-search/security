@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/facebook
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/facebook-pages/refs/heads/main/authentication/facebook-pages-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Social Media
+- Social-Media
 - Facebook
 - Meta Graph API
 - Pages

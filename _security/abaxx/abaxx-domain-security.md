@@ -38,5 +38,5 @@ tags:
 - Market Data
 - Energy
 - Trading
-- Financial Services
+- Financial-Services
 ---

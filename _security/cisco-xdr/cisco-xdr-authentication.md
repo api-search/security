@@ -462,8 +462,8 @@ tags:
 - SOC
 - Threat Intelligence
 - Extended Detection and Response
-- OAuth
-- Webhooks
+- Authentication
+- Webhook
 - Automation
 - MCP
 ---

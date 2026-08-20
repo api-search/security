@@ -35,12 +35,12 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Training Data
 - Robotics
 - Physical AI
 - Datasets
 - Data Infrastructure
 - Annotation
-- Multimodal
+- Multi-Modal
 ---

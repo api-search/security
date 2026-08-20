@@ -33,7 +33,7 @@ tags:
 - Company
 - Retail
 - Fashion
-- eCommerce
+- E-Commerce
 - Agentic Commerce
 - Shopping
 ---

@@ -38,7 +38,7 @@ tags:
 - API Discovery
 - AI Security
 - MCP Security
-- Open Source
+- Open-Source
 - DevSecOps
 - Governance
 ---

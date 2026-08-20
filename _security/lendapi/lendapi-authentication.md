@@ -115,7 +115,7 @@ tags:
 - Company
 - Lending
 - Loan Origination
-- Financial Services
+- Financial-Services
 - Fintech
 - Embedded Finance
 - Underwriting
@@ -126,5 +126,5 @@ tags:
 - KYC
 - KYB
 - Buy Now Pay Later
-- Point of Sale
+- Point-of-Sale
 ---

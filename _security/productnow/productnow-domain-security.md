@@ -34,11 +34,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/productnow/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Agents
-- Model Context Protocol
+- MCP
 - Documentation
-- Knowledge Management
+- Knowledge-Management
 - Developer Tools
 - Context
 ---

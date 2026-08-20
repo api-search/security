@@ -50,5 +50,5 @@ tags:
 - Merge Queue
 - Test Analytics
 - Static Analysis
-- Webhooks
+- Webhook
 ---

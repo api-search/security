@@ -20,12 +20,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/changeengine/r
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - HR Tech
 - Internal Communications
 - Employee Engagement
 - People Operations
 - Employee Experience
-- AI
+- Artificial Intelligence
 trust_url: https://trust.changeengine.com/
 ---

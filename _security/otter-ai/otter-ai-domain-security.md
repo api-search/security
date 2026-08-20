@@ -34,11 +34,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/otter-ai/refs/heads/main/security/otter-ai-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Transcription
 - Meeting Notes
 - Speech-to-Text
 - Speaker Identification
 - Meeting Intelligence
-- Summaries
+- Summary
 ---

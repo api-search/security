@@ -34,7 +34,7 @@ tags:
 - Healthcare
 - Pharmacy
 - Medicine
-- E-commerce
+- E-Commerce
 - Telehealth
 - India
 ---

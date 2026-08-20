@@ -223,7 +223,7 @@ tags:
 - Derivatives
 - Custody
 - Market Data
-- Financial Services
+- Financial-Services
 - Institutional
 - FIX
 ---

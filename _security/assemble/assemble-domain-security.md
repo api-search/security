@@ -38,6 +38,6 @@ tags:
 - ERP
 - CRM
 - HRIS
-- SaaS
+- Software-as-a-Service
 - Y Combinator
 ---

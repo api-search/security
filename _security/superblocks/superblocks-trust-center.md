@@ -31,17 +31,17 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superblocks/refs/heads/main/security/superblocks-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
-- internal tools
-- low-code
-- no-code
-- applications
-- workflows
-- scheduled jobs
-- integrations
-- enterprise
-- AI
-- databases
+- Internal Tools
+- Low-Code
+- No-Code
+- Application
+- Workflows
+- Scheduled Jobs
+- Integration
+- Enterprise
+- Artificial Intelligence
+- Databases
 - REST API
-- developer tools
+- Developer Tools
 trust_url: https://trust.superblocks.com/
 ---

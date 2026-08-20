@@ -38,7 +38,7 @@ tags:
 - Body Measurement
 - Artificial Intelligence
 - Retail
-- E-commerce
+- E-Commerce
 - Digital Twin
 - Agentic
 ---

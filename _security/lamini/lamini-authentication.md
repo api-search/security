@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lamini-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/authentication/lamini-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Fine-Tuning
 - Memory Tuning

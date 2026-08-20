@@ -95,6 +95,6 @@ tags:
 - Email
 - SMS
 - Behavioral Data
-- eCommerce
-- Webhooks
+- E-Commerce
+- Webhook
 ---

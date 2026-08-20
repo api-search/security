@@ -23,16 +23,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live probes of ap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/overhaul/refs/heads/main/authentication/overhaul-authentication.yml
 summary_line: 0 schemes
 tags:
-- supply-chain
-- supply-chain-visibility
-- logistics
-- transportation
+- Supply Chain
+- Supply Chain Visibility
+- Logistics
+- Transportation
 - cargo-security
-- risk-management
-- fraud-prevention
-- cold-chain
-- iot
-- track-and-trace
-- freight
-- compliance
+- Risk Management
+- Fraud Prevention
+- Cold Chain
+- IoT
+- Track and Trace
+- Freight
+- Compliance
 ---

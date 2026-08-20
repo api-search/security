@@ -37,5 +37,5 @@ tags:
 - Delivery Logistics
 - Energy
 - Transportation
-- SaaS
+- Software-as-a-Service
 ---

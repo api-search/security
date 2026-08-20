@@ -33,7 +33,7 @@ tags:
 - Company
 - Marketplaces
 - Art
-- E-commerce
+- E-Commerce
 - Collectibles
 - Contemporary Art
 - Prints

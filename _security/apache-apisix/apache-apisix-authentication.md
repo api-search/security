@@ -135,10 +135,10 @@ summary_line: apiKey · 1 scheme
 tags:
 - Apache
 - API Gateway
-- Cloud Native
+- Cloud-Native
 - Kubernetes
 - Lua
 - NGINX
-- Open Source
+- Open-Source
 - Traffic Management
 ---

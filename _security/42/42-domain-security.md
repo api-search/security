@@ -35,7 +35,7 @@ tags:
 - Business Intelligence
 - Analytics
 - Reporting
-- Ecommerce
+- E-Commerce
 - Omnichannel
 - Retail Analytics
 - Data

@@ -37,5 +37,5 @@ tags:
 - Direct Indexing
 - ESG
 - Values-Based Investing
-- Portfolio Management
+- Portfolio-Management
 ---

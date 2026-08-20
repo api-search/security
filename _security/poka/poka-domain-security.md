@@ -36,6 +36,6 @@ tags:
 - Frontline Operations
 - Industrial
 - Workforce Training
-- Integrations
-- SaaS
+- Integration
+- Software-as-a-Service
 ---

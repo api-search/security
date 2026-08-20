@@ -33,7 +33,7 @@ tags:
 - Micropayments
 - Payments
 - Tipping
-- Social Media
-- Wallet
+- Social-Media
+- Wallets
 - Defunct
 ---

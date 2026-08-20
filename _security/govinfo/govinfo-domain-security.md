@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/govinfo/refs/heads/main/security/govinfo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
-- Federal Government
+- Federal-Government
 - Government Publishing
 - Documents
 - Open Data

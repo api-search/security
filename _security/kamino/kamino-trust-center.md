@@ -164,6 +164,6 @@ tags:
 - Yield
 - Blockchain
 - Oracle
-- Vaults
+- Vault
 trust_url: https://kamino.com/security
 ---

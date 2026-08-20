@@ -25,11 +25,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bubbles/refs/heads/main/security/bubbles-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
-- Applications
-- Low Code
-- No Code
+- Application
+- Low-Code
+- No-Code
 - Visual Programming
-- Webhooks
-- Web Apps
+- Webhook
+- Web App
 trust_url: https://bubble.io/security
 ---

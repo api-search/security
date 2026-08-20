@@ -34,7 +34,7 @@ tags:
 - Consumer
 - Fashion
 - Retail
-- Ecommerce
+- E-Commerce
 - Shopify
 - Agent Commerce
 - UCP

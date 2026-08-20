@@ -34,6 +34,6 @@ tags:
 - Lifestyle
 - Consumer Goods
 - Variety Store
-- E-commerce
+- E-Commerce
 - Merchandise
 ---

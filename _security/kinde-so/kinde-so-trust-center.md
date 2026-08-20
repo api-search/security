@@ -187,7 +187,7 @@ tags:
 - User Management
 - Identity
 - Authorization
-- SaaS
+- Software-as-a-Service
 - CIAM
 trust_url: https://trust.kinde.com/
 ---

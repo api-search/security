@@ -35,8 +35,8 @@ tags:
 - Furniture
 - Vintage
 - Antiques
-- Ecommerce
-- Home
+- E-Commerce
+- Homes
 - Interior Design
 - Sustainability
 ---

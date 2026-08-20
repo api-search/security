@@ -72,10 +72,10 @@ tags:
 - Intelligent Document Processing
 - Document AI
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Automation
 - Data Extraction
 - LLM
-- Financial Services
+- Financial-Services
 - Insurance
 ---

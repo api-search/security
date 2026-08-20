@@ -37,6 +37,6 @@ tags:
 - Rewards
 - Human Resources
 - Workplace
-- SaaS
-- Integrations
+- Software-as-a-Service
+- Integration
 ---

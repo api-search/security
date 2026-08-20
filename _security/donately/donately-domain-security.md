@@ -81,7 +81,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fundraising
 - Donations
-- Nonprofit
+- Non-Profit
 - Payments
 - Donor Management
 - Recurring Giving

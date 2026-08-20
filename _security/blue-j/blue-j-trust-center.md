@@ -18,12 +18,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blue-j/refs/he
 summary_line: SOC 2
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Tax
 - Legal
 - Research
 - Compliance
-- SaaS
+- Software-as-a-Service
 - Professional Services
 trust_url: https://www.bluej.com/security
 ---

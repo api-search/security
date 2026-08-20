@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agents
-- AI
+- Artificial Intelligence
 - ChatGPT
 - Embeddings
 - Fine-Tuning
@@ -63,5 +63,5 @@ tags:
 - GPT-5
 - Language Model
 - OpenAI
-- Realtime
+- Real-Time
 ---

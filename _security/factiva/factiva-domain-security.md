@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/security/factiva-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Business Intelligence
 - Content Aggregation
 - Enterprise Data

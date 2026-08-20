@@ -69,8 +69,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fund Accounting
 - Asset Management
-- Portfolio Management
-- Financial Services
+- Portfolio-Management
+- Financial-Services
 - Hedge Funds
 - NAV Calculation
 ---

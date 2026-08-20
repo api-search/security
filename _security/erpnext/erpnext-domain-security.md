@@ -82,5 +82,5 @@ tags:
 - Sales
 - CRM
 - HR
-- Open Source
+- Open-Source
 ---

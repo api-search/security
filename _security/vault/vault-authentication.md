@@ -82,7 +82,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - DevOps
 - Encryption
-- Open Source
+- Open-Source
 - PKI
 - Secrets Management
 - Security

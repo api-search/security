@@ -37,5 +37,5 @@ tags:
 - Brand Protection
 - Trademark Search
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 ---

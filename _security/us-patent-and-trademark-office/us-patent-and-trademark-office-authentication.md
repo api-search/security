@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/uspto-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/authentication/us-patent-and-trademark-office-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Federal Government
+- Federal-Government
 - Patents
 - Trademarks
 - Intellectual Property

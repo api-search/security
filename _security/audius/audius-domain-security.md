@@ -169,6 +169,6 @@ tags:
 - Streaming
 - Decentralized
 - Web3
-- Open Source
+- Open-Source
 - Blockchain
 ---

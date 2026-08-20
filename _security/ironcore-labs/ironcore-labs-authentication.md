@@ -68,7 +68,7 @@ tags:
 - Application-Layer Encryption
 - Key Management
 - Cryptography
-- AI
+- Artificial Intelligence
 - Vector Database
-- SaaS
+- Software-as-a-Service
 ---

@@ -85,7 +85,7 @@ tags:
 - Loyalty
 - E-Commerce
 - Buy Now Pay Later
-- Point Of Sale
+- Point-of-Sale
 - Checkout
 - Singapore
 ---

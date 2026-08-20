@@ -43,7 +43,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sieve-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sieve/refs/heads/main/authentication/sieve-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Video
 - Audio
 - Media Processing

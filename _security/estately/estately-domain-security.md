@@ -35,10 +35,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/estately/refs/
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Homes for Sale
 - MLS
 - Property Search
 - RETS
-- Open Source
+- Open-Source
 ---

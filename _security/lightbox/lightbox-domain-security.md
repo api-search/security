@@ -32,5 +32,5 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Location Intelligence
 - Property Data
-- Real Estate
+- Real-Estate
 ---

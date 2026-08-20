@@ -143,12 +143,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stability-ai/r
 summary_line: http · 1 scheme
 tags:
 - 3D Generation
-- AI
+- Artificial Intelligence
 - Generative AI
-- Image Generation
+- Image-Generation
 - Image Editing
-- Machine Learning
+- Machine-Learning
 - Stable Diffusion
-- Text to Image
+- Text-to-Image
 - Video Generation
 ---

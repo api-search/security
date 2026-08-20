@@ -57,12 +57,12 @@ summary_line: http · 1 scheme
 tags:
 - AI Inference
 - Large Language Models
-- Dataflow
+- Dataflows
 - Hardware
 - Cloud
-- OpenAI Compatible
+- OpenAI-Compatible
 - Sovereign AI
 - SDK
 - Accelerator
-- Open Source
+- Open-Source
 ---

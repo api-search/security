@@ -65,9 +65,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/xano-ope
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xano/refs/heads/main/authentication/xano-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- No Code
-- Backend as a Service
-- BaaS
+- No-Code
+- Backend-as-a-Service
 - API Builder
 - Database
 - Serverless

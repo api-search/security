@@ -127,20 +127,20 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coorpacademy/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Saas
-- corporate-learning
-- lms
-- learning-experience-platform
-- edtech
-- elearning
-- scorm
+- Software-as-a-Service
+- Corporate Learning
+- LMS
+- Learning Experience Platform
+- EdTech
+- E-Learning
+- SCORM
 - h5p
-- scim
-- user-provisioning
-- learning-analytics
-- skills
-- certifications
-- gamification
-- france
-- switzerland
+- SCIM
+- User Provisioning
+- Learning Analytics
+- Skills
+- Certifications
+- Gamification
+- France
+- Switzerland
 ---

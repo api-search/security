@@ -35,5 +35,5 @@ tags:
 - Presentations
 - Productivity
 - Collaboration
-- SaaS
+- Software-as-a-Service
 ---

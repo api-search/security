@@ -74,6 +74,6 @@ tags:
 - Uptime
 - Status Pages
 - Incidents
-- Open Source
+- Open-Source
 - Observability
 ---

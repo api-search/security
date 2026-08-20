@@ -109,13 +109,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-mobile-fir
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Communication
+- Communications
 - Telephony
 - Voice
 - SMS
 - CRM
 - Artificial Intelligence
 - MCP
-- Webhooks
+- Webhook
 - Small Business
 ---

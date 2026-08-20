@@ -67,10 +67,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/uptrain-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/authentication/uptrain-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Evaluation
 - LLM Evaluation
 - Observability
-- Open Source
+- Open-Source
 ---

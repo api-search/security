@@ -790,7 +790,6 @@ summary_line: apiKey · 1 scheme
 tags:
 - Authentication
 - Identity
-- OAuth
 - OIDC
 - SAML
 - User Management

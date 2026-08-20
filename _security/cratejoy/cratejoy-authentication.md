@@ -35,12 +35,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cratejoy/refs/
 summary_line: http · 1 scheme
 tags:
 - Company
-- Ecommerce
-- Subscriptions
+- E-Commerce
+- Subscription
 - Subscription Boxes
 - Marketplace
 - Payments
-- Orders
-- Webhooks
+- Order
+- Webhook
 - REST
 ---

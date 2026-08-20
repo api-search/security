@@ -46,9 +46,9 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Logistics
-- Courier
+- Couriers
 - Shipping
-- E-commerce
+- E-Commerce
 - Fulfillment
 - Cash on Delivery
 - Payments

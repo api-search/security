@@ -30,12 +30,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/topline-pro/re
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Local Services
 - Home Services
 - Marketing
 - Scheduling
 - Invoicing
 - Payments
-- SaaS
+- Software-as-a-Service
 ---

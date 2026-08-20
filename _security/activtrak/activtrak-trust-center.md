@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/activtrak/refs
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Workforce Analytics
 - Productivity
 - Employee Monitoring

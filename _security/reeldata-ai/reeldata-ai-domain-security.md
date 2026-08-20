@@ -34,7 +34,7 @@ tags:
 - Company
 - Aquaculture
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Agriculture
 - Sustainability
 - Food Production

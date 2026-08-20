@@ -34,7 +34,7 @@ tags:
 - Marketplace
 - Media Production
 - Location Rental
-- Events
-- Real Estate
+- Event
+- Real-Estate
 - Mexico
 ---

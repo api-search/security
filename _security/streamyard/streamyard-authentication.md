@@ -54,7 +54,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Broadcasting
 - Live Streaming
-- Multi-Streaming
+- Multistreaming
 - Recordings
 - Video
 ---

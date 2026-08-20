@@ -50,7 +50,7 @@ tags:
 - User Monitoring
 - Digital Experience Analytics
 - Session Recording
-- Co-browsing
+- Co-Browsing
 - Error Tracking
 - Support Workflows
 - User Behavior Analytics

@@ -34,7 +34,7 @@ tags:
 - Artificial Intelligence
 - Autonomous Navigation
 - Spatial AI
-- Computer Vision
+- Computer-Vision
 - Foundation Models
 - Autonomy
 ---

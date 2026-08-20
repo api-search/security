@@ -33,7 +33,7 @@ tags:
 - Company
 - Wellness
 - Supplements
-- E-commerce
+- E-Commerce
 - Marketplace
 - Health
 - Agentic Commerce

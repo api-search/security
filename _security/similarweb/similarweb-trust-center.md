@@ -107,7 +107,7 @@ tags:
 - Audience Demographics
 - App Intelligence
 - Market Research
-- E-commerce
+- E-Commerce
 - SEO
 trust_url: https://trustcenter.similarweb.com/
 ---

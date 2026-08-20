@@ -75,6 +75,6 @@ tags:
 - Java
 - Servlet Container
 - Web Server
-- Open Source
+- Open-Source
 - Apache
 ---

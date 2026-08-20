@@ -42,5 +42,4 @@ tags:
 - Authorization
 - Access Management
 - Identity Governance
-- API
 ---

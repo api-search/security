@@ -76,7 +76,7 @@ tags:
 - Instagram
 - Meta
 - Photos
-- Social Media
+- Social-Media
 - Videos
 - Content Publishing
 ---

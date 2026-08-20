@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Consumer Electronics
-- Ecommerce
+- E-Commerce
 - Resale
 - Secondhand
 - Mobile Devices

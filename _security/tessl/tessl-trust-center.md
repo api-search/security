@@ -17,7 +17,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tessl/refs/hea
 summary_line: trust center published
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Agents
 - Agentic Development
 - Developer Tools

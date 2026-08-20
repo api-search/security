@@ -191,16 +191,16 @@ source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/security/terabase-energy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- solar
-- renewable-energy
-- energy-modeling
+- Solar
+- Renewable Energy
+- Energy Modeling
 - utility-scale-solar
-- simulation
-- photovoltaics
-- construction-technology
-- geospatial
+- Simulation
+- Photovoltaics
+- Construction Technology
+- Geospatial
 - terrain-analysis
-- climate-tech
-- mcp
-- energy-storage
+- Climate Tech
+- MCP
+- Energy Storage
 ---

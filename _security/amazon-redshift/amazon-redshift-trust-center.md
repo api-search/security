@@ -52,7 +52,7 @@ tags:
 - Data Lake
 - Data Warehouse
 - ETL
-- Machine Learning
+- Machine-Learning
 - Serverless
 - SQL
 trust_url: https://aws.amazon.com/compliance/

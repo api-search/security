@@ -39,6 +39,6 @@ tags:
 - BIM
 - Geospatial
 - Analytics
-- SaaS
+- Software-as-a-Service
 - Surveying
 ---

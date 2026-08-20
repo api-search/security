@@ -44,6 +44,6 @@ tags:
 - Chat
 - Automotive
 - Higher Education
-- Webhooks
+- Webhook
 trust_url: https://trust.conversica.com/
 ---

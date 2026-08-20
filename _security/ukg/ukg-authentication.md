@@ -83,7 +83,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ukg-pro-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/authentication/ukg-authentication.yml
 summary_line: http · 2 schemes
 tags:
-- Human Capital Management
 - HCM
 - Workforce Management
 - HR

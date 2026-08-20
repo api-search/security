@@ -65,7 +65,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Anomaly Detection
 - Compliance
-- Machine Learning
+- Machine-Learning
 - Monitoring
 - Security
 - Threat Detection

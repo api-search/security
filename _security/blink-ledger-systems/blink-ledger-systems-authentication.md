@@ -102,12 +102,11 @@ tags:
 - Payments
 - Identity
 - Authentication
-- OAuth
 - Publishing
 - Media
-- Subscriptions
+- Subscription
 - Donations
 - Micropayments
 - Paywall
-- Webhooks
+- Webhook
 ---

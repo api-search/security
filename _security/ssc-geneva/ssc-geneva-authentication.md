@@ -66,8 +66,8 @@ summary_line: http · 2 schemes
 tags:
 - Fund Accounting
 - Asset Management
-- Portfolio Management
-- Financial Services
+- Portfolio-Management
+- Financial-Services
 - Hedge Funds
 - NAV Calculation
 ---

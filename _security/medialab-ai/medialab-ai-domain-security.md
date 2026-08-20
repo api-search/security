@@ -101,7 +101,7 @@ tags:
 - Social
 - Advertising
 - Content
-- Images
+- Image
 - Music
 - Messaging
 - Communities

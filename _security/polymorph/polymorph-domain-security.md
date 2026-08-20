@@ -35,7 +35,7 @@ tags:
 - Experimentation
 - Consumer Internet
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Growth
 - Y Combinator
 ---

@@ -33,7 +33,7 @@ tags:
 - Furniture
 - Home Decor
 - Lighting
-- E-commerce
+- E-Commerce
 - Retail
 - Interior Design
 - Home Furnishings

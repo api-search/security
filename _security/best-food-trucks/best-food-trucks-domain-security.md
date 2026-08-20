@@ -33,7 +33,7 @@ tags:
 - Food Trucks
 - Food and Beverage
 - Mobile Ordering
-- Events
+- Event
 - Catering
-- Point of Sale
+- Point-of-Sale
 ---

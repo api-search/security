@@ -129,6 +129,6 @@ tags:
 - Logistics
 - Delivery
 - Last Mile Delivery
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 ---

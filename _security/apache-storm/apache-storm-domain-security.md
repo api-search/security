@@ -93,5 +93,5 @@ tags:
 - Event Processing
 - Real-Time
 - Stream Processing
-- Open Source
+- Open-Source
 ---

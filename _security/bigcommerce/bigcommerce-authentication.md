@@ -1054,8 +1054,8 @@ tags:
 - E-Commerce
 - Retail
 - Catalog
-- Orders
+- Order
 - Checkout
 - Payments
-- SaaS
+- Software-as-a-Service
 ---

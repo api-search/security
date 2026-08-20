@@ -58,13 +58,13 @@ tags:
 - Logistics
 - Fulfillment
 - 3PL
-- Ecommerce
+- E-Commerce
 - Warehousing
 - Inventory
 - Shipping
 - Returns
 - Supply Chain
-- Direct-to-Consumer
+- Direct to Consumer
 - Order Management
 trust_url: ''
 ---

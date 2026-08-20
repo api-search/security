@@ -60,7 +60,7 @@ tags:
 - Immunology
 - Drug Discovery
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Single-Cell Genomics
 - Multiomics
 - Clinical Trials

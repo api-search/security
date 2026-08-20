@@ -34,6 +34,6 @@ tags:
 - Cafe
 - Grocery
 - Food and Beverage
-- Ecommerce
+- E-Commerce
 - Chicago
 ---

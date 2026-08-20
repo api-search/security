@@ -128,5 +128,5 @@ tags:
 - Fintech
 - Nigeria
 - Payments
-- Financial Services
+- Financial-Services
 ---

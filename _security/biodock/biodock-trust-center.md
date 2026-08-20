@@ -98,12 +98,12 @@ summary_line: SOC 2 Type II, SOC 3, ISO 27001
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Image Analysis
 - Microscopy
 - Life Sciences
 - Biotechnology
-- Computer Vision
+- Computer-Vision
 - Cell Analysis
 - Research
 trust_url: https://www.biodock.ai/security

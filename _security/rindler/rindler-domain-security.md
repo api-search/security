@@ -36,7 +36,6 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - AI Agents
 - Web Automation
 - Browser Automation

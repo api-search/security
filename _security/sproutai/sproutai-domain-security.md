@@ -31,10 +31,10 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Claims Automation
 - Artificial Intelligence
 - Document Intelligence
 - Fraud Detection
-- Machine Learning
+- Machine-Learning
 ---

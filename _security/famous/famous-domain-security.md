@@ -58,11 +58,11 @@ tags:
 - Commerce
 - Live Shopping
 - Media
-- Ecommerce
+- E-Commerce
 - Marketing
 - Print on Demand
 - Merchandise
 - Storefronts
-- Orders
+- Order
 - Payouts
 ---

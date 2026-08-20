@@ -35,6 +35,6 @@ tags:
 - Startup Accelerator
 - Community
 - Entrepreneurship
-- Venture-Backed
+- Venture Backed
 - Education
 ---

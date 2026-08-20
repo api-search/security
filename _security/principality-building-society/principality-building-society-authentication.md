@@ -29,7 +29,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: derived\nsource: openapi/obie-ope
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/principality-building-society/refs/heads/main/authentication/principality-building-society-authentication.yml
 summary_line: none · 0 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Building Society
 - Savings

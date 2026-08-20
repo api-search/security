@@ -33,7 +33,7 @@ tags:
 - UAV
 - Aerial Surveillance
 - Industrial Inspection
-- Machine Learning
+- Machine-Learning
 - Robotics
 - Saudi Arabia
 ---

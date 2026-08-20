@@ -104,7 +104,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quadratic/refs
 summary_line: SOC 2, HIPAA
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Spreadsheet
 - Analytics
 - Data

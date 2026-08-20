@@ -38,7 +38,7 @@ tags:
 - Logistics
 - Trucking
 - Supply Chain
-- SaaS
+- Software-as-a-Service
 - AI Pricing
 - Rate Prediction
 - RFP

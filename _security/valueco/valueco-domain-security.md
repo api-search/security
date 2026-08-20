@@ -35,6 +35,6 @@ tags:
 - Sustainability
 - Finance
 - Investing
-- FinTech
+- Fintech
 - France
 ---

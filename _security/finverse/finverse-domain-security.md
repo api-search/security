@@ -42,5 +42,5 @@ tags:
 - Open Banking
 - Open Finance
 - Payments
-- Unified API
+- Unified-API
 ---

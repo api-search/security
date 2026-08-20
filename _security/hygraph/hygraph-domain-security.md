@@ -44,6 +44,6 @@ tags:
 - Headless CMS
 - Content Management
 - Content Federation
-- Webhooks
+- Webhook
 - Digital Experience
 ---

@@ -24,6 +24,6 @@ tags:
 - Financial Advisors
 - RIA
 - Investing
-- OAuth
+- Authentication
 trust_url: https://trust.altruist.com/
 ---

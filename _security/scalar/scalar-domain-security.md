@@ -186,6 +186,6 @@ tags:
 - Developer Tools
 - OpenAPI
 - Registry
-- SDKs
+- SDK
 - Swagger
 ---

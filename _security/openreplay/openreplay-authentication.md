@@ -67,7 +67,7 @@ summary_line: http · 1 scheme
 tags:
 - Debugging
 - Error Tracking
-- Open Source
+- Open-Source
 - Performance Monitoring
 - Session Replay
 - User Behavior

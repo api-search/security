@@ -33,7 +33,7 @@ tags:
 - Expense Management
 - Spend Management
 - Finance
-- SaaS
+- Software-as-a-Service
 - Fintech
 - Business Travel
 - Reimbursement

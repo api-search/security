@@ -52,7 +52,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs
 summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Analytics
 - Business Intelligence
 - GraphQL

@@ -71,9 +71,8 @@ tags:
 - Revenue Cycle Management
 - Clinical Documentation
 - Telehealth
-- API
 - OpenAPI
-- Webhooks
+- Webhook
 - Behavioral Health API
 - Substance Use Treatment
 - 42 CFR Part 2

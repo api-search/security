@@ -55,9 +55,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/photoroo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/photoroom/refs/heads/main/authentication/photoroom-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Image Editing
 - Background Removal
-- E-commerce
+- E-Commerce
 - Visual
 ---

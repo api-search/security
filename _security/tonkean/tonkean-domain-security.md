@@ -37,9 +37,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tonkean/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Process Orchestration
-- Workflow Automation
+- Workflow-Automation
 - No-Code
 - Enterprise
 - Procurement

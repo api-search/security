@@ -150,7 +150,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: openapi/ (16 do
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/authentication/arthur-online-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Management
 - PropTech

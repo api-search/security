@@ -22,9 +22,9 @@ tags:
 - Customer Experience
 - Voice of Customer
 - Sentiment Analysis
-- Customer Support
+- Customer-Support
 - Analytics
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.sentisum.com/
 ---

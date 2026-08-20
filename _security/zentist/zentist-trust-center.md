@@ -25,7 +25,7 @@ tags:
 - Claims Processing
 - Payments
 - Insurance
-- SaaS
+- Software-as-a-Service
 - Artificial Intelligence
 trust_url: https://trust.zentist.io/
 ---

@@ -37,7 +37,7 @@ tags:
 - Edge Computing
 - IoT
 - Lambda
-- Machine Learning
+- Machine-Learning
 - Real-Time Processing
 trust_url: https://aws.amazon.com/compliance/
 ---

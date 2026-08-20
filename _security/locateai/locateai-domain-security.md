@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/locateai/refs/
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Location Intelligence
 - Site Selection
 - Retail

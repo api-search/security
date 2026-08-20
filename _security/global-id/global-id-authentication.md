@@ -46,5 +46,4 @@ tags:
 - Self-Sovereign Identity
 - Verifiable Credentials
 - Authentication
-- OAuth
 ---

@@ -47,7 +47,6 @@ tags:
 - AI Observability
 - Endpoint Security
 - AI Agents
-- Model Context Protocol
 - MCP
 - Insight Partners
 ---

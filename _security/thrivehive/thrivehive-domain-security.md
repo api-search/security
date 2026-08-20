@@ -32,6 +32,6 @@ tags:
 - Marketing
 - Small Business
 - Advertising
-- SaaS
+- Software-as-a-Service
 - Acquired
 ---

@@ -85,17 +85,17 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - LLM Gateway
 - AI API Gateway
-- OpenAI Compatible
+- OpenAI-Compatible
 - Model Marketplace
 - LLM
 - GPT
 - Claude
 - Gemini
 - DeepSeek
-- Image Generation
+- Image-Generation
 - Video Generation
 - Audio
-- Multimodal
+- Multi-Modal
 - Routing
 - Failover
 ---

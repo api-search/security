@@ -40,10 +40,10 @@ summary_line: SOC 2, PCI DSS, GDPR
 tags:
 - Integration
 - Two-Way Sync
-- Workflow Automation
+- Workflow-Automation
 - Project Management
 - Collaboration
 - Embedded Integrations
-- SaaS
+- Software-as-a-Service
 trust_url: https://unito.io/security/
 ---

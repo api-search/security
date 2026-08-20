@@ -73,5 +73,5 @@ tags:
 - Open Access
 - AI Research Tools
 - IPFS
-- Model Context Protocol
+- MCP
 ---

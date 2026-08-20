@@ -36,5 +36,5 @@ tags:
 - EdTech
 - GraphQL
 - Marketplace
-- Webhooks
+- Webhook
 ---

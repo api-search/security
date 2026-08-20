@@ -35,7 +35,7 @@ tags:
 - Plant Care
 - Gardening
 - Plant Identification
-- Computer Vision
+- Computer-Vision
 - Mobile App
 - Consumer
 ---

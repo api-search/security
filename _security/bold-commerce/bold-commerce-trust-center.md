@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/
 summary_line: PCI DSS, GDPR
 tags:
 - E-Commerce
-- Subscriptions
+- Subscription
 - Checkout
 - Pricing
 - Headless Commerce

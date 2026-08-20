@@ -84,9 +84,9 @@ tags:
 - B2B Payments
 - Accounts Receivable
 - Invoicing
-- Collections
+- Collection
 - Usage-Based Billing
-- Subscriptions
+- Subscription
 - Contracts
 - Finance
 - Revenue Automation

@@ -202,10 +202,10 @@ tags:
 - Web Push
 - Chatbots
 - CRM
-- Multichannel
+- Multi-Channel
 - Messaging
 - Online Courses
-- Pop-ups
+- Popups
 - Email Verification
 - MCP
 - Agent Ready

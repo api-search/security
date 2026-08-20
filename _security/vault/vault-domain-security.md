@@ -93,7 +93,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - DevOps
 - Encryption
-- Open Source
+- Open-Source
 - PKI
 - Secrets Management
 - Security

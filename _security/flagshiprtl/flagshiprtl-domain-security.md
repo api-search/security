@@ -41,6 +41,6 @@ tags:
 - Artificial Intelligence
 - Apparel
 - Direct to Consumer
-- SaaS
+- Software-as-a-Service
 - Supply Chain
 ---

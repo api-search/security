@@ -118,5 +118,5 @@ tags:
 - Fintech
 - Cards
 - SPEI
-- Subscriptions
+- Subscription
 ---

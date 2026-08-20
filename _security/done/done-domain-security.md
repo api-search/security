@@ -196,20 +196,20 @@ source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/security/done-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- developer-tools
-- utility-apis
-- ai-agents
+- Developer Tools
+- Utility APIs
+- AI Agents
 - agent-native
 - x402
 - pay-per-call
-- web3
-- crypto-payments
-- dns
-- domains
-- email-security
-- network-security
-- seo
-- ocr
-- data
+- Web3
+- Crypto Payments
+- DNS
+- Domains
+- Email Security
+- Network Security
+- SEO
+- OCR
+- Data
 - fintech-calculators
 ---

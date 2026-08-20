@@ -87,7 +87,7 @@ tags:
 - Scraping
 - Data Extraction
 - URLs
-- AI
+- Artificial Intelligence
 - Markdown
 - MCP
 - Rust

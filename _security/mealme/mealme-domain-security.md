@@ -94,5 +94,5 @@ tags:
 - Food
 - Grocery
 - Ordering
-- Restaurants
+- Restaurant
 ---

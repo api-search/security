@@ -50,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chalk/refs/hea
 summary_line: oauth2/http · 3 schemes
 tags:
 - Company
-- Machine Learning
+- Machine-Learning
 - Feature Store
 - Artificial Intelligence
 - Data Platform

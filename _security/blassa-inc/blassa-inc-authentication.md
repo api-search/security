@@ -35,8 +35,8 @@ tags:
 - Address Verification
 - Maps
 - Logistics
-- Last-Mile Delivery
-- E-commerce
+- Last Mile Delivery
+- E-Commerce
 - Middle East
 - Africa
 ---

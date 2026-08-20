@@ -76,7 +76,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Entity Recognition
 - Google Cloud
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - Sentiment Analysis
 - Text Analysis

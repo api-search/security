@@ -39,7 +39,7 @@ tags:
 - Food Recovery
 - Recycling
 - ESG
-- SaaS
+- Software-as-a-Service
 - Supply Chain
 - Turkey
 ---

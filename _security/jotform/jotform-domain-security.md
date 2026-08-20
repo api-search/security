@@ -93,7 +93,7 @@ tags:
 - Surveys
 - No-Code
 - Data Collection
-- Workflow
+- Workflows
 - HIPAA
 - EU
 ---

@@ -173,11 +173,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/supabase
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/authentication/supabase-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- Backend As A Service
+- Backend-as-a-Service
 - PostgreSQL
-- Open Source
+- Open-Source
 - Authentication
-- Real Time
+- Real-Time
 - Storage
 - Edge Functions
 - Database

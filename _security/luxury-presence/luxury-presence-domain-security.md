@@ -67,11 +67,11 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Vertical Software
-- Real Estate
+- Real-Estate
 - PropTech
 - CRM
 - Marketing
 - Websites
-- Webhooks
+- Webhook
 - Lead Generation
 ---

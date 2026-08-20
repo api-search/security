@@ -60,7 +60,7 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - ERP Integration
 - Logistics
-- Machine Learning
+- Machine-Learning
 - Supply Chain
 trust_url: https://aws.amazon.com/compliance/
 ---

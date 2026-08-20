@@ -103,9 +103,9 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Print on Demand
 - POD
-- Ecommerce
+- E-Commerce
 - Fulfillment
 - Dropshipping
-- Orders
+- Order
 - Shipping
 ---

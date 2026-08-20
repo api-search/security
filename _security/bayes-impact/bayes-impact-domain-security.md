@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bayes-impact/r
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Nonprofit
+- Non-Profit
 - Artificial Intelligence
 - Data Science
 - Public Services
 - Civic Tech
 - Employment
-- Open Source
+- Open-Source
 - Protobuf
 ---

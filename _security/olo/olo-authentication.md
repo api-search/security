@@ -75,10 +75,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads
 summary_line: apiKey · 1 scheme
 tags:
 - Food Service
-- Restaurants
+- Restaurant
 - Online Ordering
 - Delivery
-- Point of Sale
+- Point-of-Sale
 - Hospitality
 - Payments
 - Loyalty

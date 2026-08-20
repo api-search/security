@@ -189,15 +189,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/security/daytona-io-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
-- AI
-- Agents
 - Artificial Intelligence
+- Agents
 - Cloud
 - Code Execution
 - Computer Use
 - Developer Tools
 - Infrastructure
-- Open Source
+- Open-Source
 - Sandbox
 - Secure Execution
 trust_url: https://trust.daytona.io/

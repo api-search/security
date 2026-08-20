@@ -36,5 +36,5 @@ tags:
 - Binary Analysis
 - Reverse Engineering
 - Critical Infrastructure
-- Open Source
+- Open-Source
 ---

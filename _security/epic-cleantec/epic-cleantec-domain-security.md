@@ -36,7 +36,7 @@ tags:
 - Cleantech
 - Sustainability
 - Buildings
-- Real Estate
+- Real-Estate
 - Climate Tech
 - Internet of Things
 ---

@@ -28,7 +28,7 @@ tags:
 - Manufacturing
 - Life Sciences
 - Compliance
-- Document Management
+- Document-Management
 - Regulatory
 - Enterprise Software
 trust_url: https://www.mastercontrol.com/ai-trust-center/

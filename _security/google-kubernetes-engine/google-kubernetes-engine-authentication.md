@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-k
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/authentication/google-kubernetes-engine-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Cloud Native
+- Cloud-Native
 - Containers
 - Google Cloud
 - Kubernetes

@@ -31,11 +31,11 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Agents
-- AI
+- Artificial Intelligence
 - Coding Agents
 - Developer Tools
 - Automation
-- Webhooks
+- Webhook
 - CLI
 - DevOps
 - Cloud Development Environments

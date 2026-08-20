@@ -42,6 +42,6 @@ tags:
 - Sentiment Analysis
 - Natural Language Processing
 - Consumer Insights
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 ---

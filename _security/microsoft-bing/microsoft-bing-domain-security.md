@@ -106,7 +106,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Search
 - Web Search
-- Images
+- Image
 - Videos
 - News
 - Azure AI

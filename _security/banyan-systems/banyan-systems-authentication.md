@@ -51,5 +51,5 @@ tags:
 - Fintech
 - Payments
 - Data Collaboration
-- Webhooks
+- Webhook
 ---

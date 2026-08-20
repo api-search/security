@@ -56,7 +56,7 @@ summary_line: none · 0 schemes
 tags:
 - Company
 - Cryptocurrency
-- Wallet
+- Wallets
 - Payments
 - DeFi
 - Blockchain

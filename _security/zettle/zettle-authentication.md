@@ -46,8 +46,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zettle-f
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/authentication/zettle-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Point of Sale
-- POS
+- Point-of-Sale
 - Payments
 - Inventory
 - Finance

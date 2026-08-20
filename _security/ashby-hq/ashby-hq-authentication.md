@@ -345,7 +345,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/
 summary_line: apiKey/http · 2 schemes
 tags:
 - ATS
-- Applicant Tracking System
 - Recruiting
 - Talent Acquisition
 - Sourcing
@@ -354,5 +353,5 @@ tags:
 - Analytics
 - Hiring
 - HR Tech
-- AI
+- Artificial Intelligence
 ---

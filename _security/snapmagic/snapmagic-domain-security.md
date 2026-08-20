@@ -51,6 +51,6 @@ tags:
 - Footprints
 - Hardware
 - Semiconductors
-- AI
+- Artificial Intelligence
 - Search
 ---

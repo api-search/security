@@ -40,16 +40,16 @@ source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weaveapi/refs/heads/main/security/weaveapi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - LLM
-- AI inference
-- API gateway
-- aggregator
-- OpenAI-compatible
-- developer tools
-- model routing
-- LLM gateway
+- AI Inference
+- API Gateway
+- Aggregator
+- OpenAI-Compatible
+- Developer Tools
+- Model Routing
+- LLM Gateway
 - prepaid credits
-- agent tools
-- model marketplace
+- Agent Tools
+- Model Marketplace
 ---

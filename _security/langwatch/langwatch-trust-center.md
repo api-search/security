@@ -187,7 +187,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/security/langwatch-trust-center.yml
 summary_line: ISO 27001, GDPR
 tags:
-- AI
 - Artificial Intelligence
 - LLM
 - LLM Observability
@@ -201,7 +200,7 @@ tags:
 - AI Gateway
 - DSPy
 - LangChain
-- Open Source
+- Open-Source
 - MCP
 - FinOps
 trust_url: https://langwatch.ai/trust

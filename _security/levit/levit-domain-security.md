@@ -30,7 +30,7 @@ summary_line: TLSv1.2
 tags:
 - Company
 - Commerce
-- E-commerce
+- E-Commerce
 - Marketplace
 - Retail
 - Mobile

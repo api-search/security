@@ -55,5 +55,5 @@ tags:
 - Genetic Medicine
 - Life Sciences
 - Pharmaceuticals
-- Model Context Protocol
+- MCP
 ---

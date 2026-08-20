@@ -36,6 +36,6 @@ tags:
 - Hotel Operations
 - Housekeeping
 - Property Management
-- Integrations
-- SaaS
+- Integration
+- Software-as-a-Service
 ---

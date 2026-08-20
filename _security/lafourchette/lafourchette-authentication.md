@@ -80,14 +80,14 @@ summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Company
 - Consumer
-- Restaurants
+- Restaurant
 - Reservations
 - Booking
 - Hospitality
-- Point of Sale
+- Point-of-Sale
 - Reviews
 - Marketplace
 - Travel and Dining
-- Webhooks
+- Webhook
 - France
 ---

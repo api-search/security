@@ -35,6 +35,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/potlatch/refs/
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Timber
-- Real Estate
+- Real-Estate
 - Wood Products
 ---

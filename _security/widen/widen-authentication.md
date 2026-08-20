@@ -137,7 +137,7 @@ tags:
 - Media
 - Assets
 - Metadata
-- Collections
+- Collection
 - Workflows
 - Acquia
 ---

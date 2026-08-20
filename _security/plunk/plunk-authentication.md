@@ -73,12 +73,12 @@ tags:
 - Transactional Email
 - Marketing
 - Automation
-- Open Source
-- SaaS
+- Open-Source
+- Software-as-a-Service
 - Email API
-- Webhooks
+- Webhook
 - Segmentation
-- Workflow Automation
+- Workflow-Automation
 - Self-Hosted
 - Developer Tools
 ---

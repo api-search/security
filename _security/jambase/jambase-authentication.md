@@ -73,7 +73,7 @@ summary_line: http · 1 scheme
 tags:
 - Artists
 - Concerts
-- Events
+- Event
 - Festivals
 - Live Music
 - Music

@@ -182,7 +182,7 @@ summary_line: http · 3 schemes
 tags:
 - Company
 - Recruitment
-- Jobs
+- Job
 - Hiring
 - ATS
 - Talent

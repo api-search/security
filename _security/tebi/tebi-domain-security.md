@@ -33,9 +33,9 @@ tags:
 - Company
 - Fintech
 - Payments
-- Point of Sale
+- Point-of-Sale
 - Hospitality
-- Restaurants
+- Restaurant
 - Reservations
 - Inventory
 - CRM

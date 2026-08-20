@@ -41,7 +41,7 @@ tags:
 - Market Data
 - Stocks
 - Indices
-- Currencies
+- Currency
 - Crypto
 - Commodities
 - Historical Data

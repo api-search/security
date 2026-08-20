@@ -109,7 +109,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wiktionary/ref
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Dictionaries
-- Open Source
+- Open-Source
 - Wikimedia
 - MediaWiki
 - Linguistics

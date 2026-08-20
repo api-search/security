@@ -96,7 +96,7 @@ tags:
 - Python
 - Headless CMS
 - REST API
-- Open Source
+- Open-Source
 - Pages
 - Plugins
 - Placeholders

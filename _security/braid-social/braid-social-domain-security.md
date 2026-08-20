@@ -43,5 +43,5 @@ tags:
 - Analytics
 - Consumer
 - Direct-to-Fan
-- SaaS
+- Software-as-a-Service
 ---

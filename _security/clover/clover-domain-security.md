@@ -97,7 +97,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clover/refs/he
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Restaurant
-- POS
+- Point-of-Sale
 - Payments
 - Retail
 - SMB

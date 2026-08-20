@@ -51,5 +51,4 @@ tags:
 - Operations Management
 - Back Office
 - Supply Chain
-- API
 ---

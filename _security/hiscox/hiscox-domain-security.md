@@ -84,7 +84,7 @@ tags:
 - Reinsurance
 - Lloyd's of London
 - Small Business Insurance
-- Quote
+- Quotes
 - ACORD
 - Carrier
 - Cargo

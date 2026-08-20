@@ -36,7 +36,7 @@ tags:
 - Hardware Engineering
 - Radio Frequency
 - Electromagnetics
-- Model Context Protocol
+- MCP
 - Applied Research
 - Semiconductors
 ---

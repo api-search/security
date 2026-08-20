@@ -33,7 +33,7 @@ tags:
 - Biotech Therapeutics
 - Biotechnology
 - Cell Therapy
-- CAR T
+- Cart
 - Autoimmune Disease
 - Immunology
 - Neurology

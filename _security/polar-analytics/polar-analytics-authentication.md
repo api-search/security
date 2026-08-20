@@ -45,7 +45,7 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
 - Analytics
-- Ecommerce
+- E-Commerce
 - Shopify
 - Business Intelligence
 - MCP

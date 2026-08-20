@@ -31,15 +31,15 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/security/refuel-ai-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Data Labeling
 - Data Enrichment
 - Autolabel
-- Machine Learning
+- Machine-Learning
 - Data Quality
 - Training Data
-- Fine Tuning
+- Fine-Tuning
 - Data Transformation
 - Entity Resolution
 - Content Moderation

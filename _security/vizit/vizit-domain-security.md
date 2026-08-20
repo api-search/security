@@ -42,12 +42,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Visual AI
-- Ecommerce
+- E-Commerce
 - Digital Shelf
 - Image Analytics
 - Content Effectiveness
 - Retail Media
 - Product Detail Pages
-- Machine Learning
+- Machine-Learning
 - Generative AI
 ---

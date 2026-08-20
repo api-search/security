@@ -79,10 +79,10 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Cloud Saas
-- Events
+- Event
 - Virtual Events
 - Webinars
 - Event Management
 - Community
-- Webhooks
+- Webhook
 ---

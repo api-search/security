@@ -37,5 +37,5 @@ tags:
 - Cervical Cancer Screening
 - HPV Testing
 - Diagnostics
-- FemTech
+- Femtech
 ---

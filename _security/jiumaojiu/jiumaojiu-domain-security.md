@@ -32,7 +32,7 @@ tags:
 - Company
 - Consumer
 - Food and Beverage
-- Restaurants
+- Restaurant
 - Dining
 - Hospitality
 - China

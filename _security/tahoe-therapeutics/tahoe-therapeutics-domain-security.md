@@ -33,7 +33,7 @@ tags:
 - Company
 - Digital Biology
 - Single Cell
-- Machine Learning
+- Machine-Learning
 - Foundation Models
 - Drug Discovery
 - Genomics

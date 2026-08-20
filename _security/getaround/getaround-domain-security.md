@@ -34,6 +34,6 @@ tags:
 - Mobility
 - Connected Car
 - Fleet Management
-- Peer to Peer
+- Peer-to-Peer
 - Discontinued
 ---

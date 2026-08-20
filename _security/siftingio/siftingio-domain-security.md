@@ -119,24 +119,20 @@ tags:
 - Cryptocurrency
 - DeFi/on-chain
 - Commodities
-- SEC filings
+- SEC Filings
 - XBRL
 - Fundamentals
 - Fintech
 - Quant/trading infrastructure
-- Real-time streaming
+- Real-Time Streaming
 - WebSocket
 - FIX
-- financial data
-- market data
-- stocks
-- forex
-- cryptocurrency
+- Financial Data
+- Market Data
+- Stocks
 - DeFi
-- commodities
-- real-time
-- websocket
+- Real-Time
 - REST API
-- MCP server
+- MCP Server
 - agent-native
 ---

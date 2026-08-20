@@ -56,6 +56,5 @@ tags:
 - Cloud Security
 - Managed Service Providers
 - Compliance
-- Webhooks
-- API
+- Webhook
 ---

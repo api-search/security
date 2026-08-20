@@ -74,6 +74,5 @@ tags:
 - LLM Visibility
 - Rank Tracking
 - Analytics
-- API
 - MCP
 ---

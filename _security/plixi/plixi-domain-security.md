@@ -36,11 +36,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plixi/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Social Media
+- Social-Media
 - Instagram
 - Marketing
 - Growth
 - Analytics
-- SaaS
+- Software-as-a-Service
 - Influencer
 ---

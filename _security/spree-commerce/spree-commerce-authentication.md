@@ -524,8 +524,8 @@ summary_line: apiKey/http · 3 schemes
 tags:
 - Commerce
 - Headless
-- eCommerce
-- Open Source
+- E-Commerce
+- Open-Source
 - Ruby on Rails
 - Ruby
 - TypeScript

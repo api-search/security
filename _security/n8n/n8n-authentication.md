@@ -123,5 +123,5 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Agents
 - Artificial Intelligence
-- Integrations
+- Integration
 ---

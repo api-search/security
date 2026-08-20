@@ -36,6 +36,6 @@ tags:
 - Foundation Models
 - Physical AI
 - Embodied AI
-- Machine Learning
+- Machine-Learning
 - Research
 ---

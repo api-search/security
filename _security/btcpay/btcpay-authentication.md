@@ -228,6 +228,6 @@ tags:
 - Cryptocurrency
 - Payments
 - Lightning Network
-- Open Source
+- Open-Source
 - Self-Hosted
 ---

@@ -98,6 +98,6 @@ tags:
 - Passkeys
 - MFA
 - B2B
-- Organizations
+- Organization
 - Billing
 ---

@@ -33,10 +33,9 @@ tags:
 - Company
 - Fintech
 - Investments
-- Portfolio Management
+- Portfolio-Management
 - Wealth Management
 - Financial Data
 - Investment Consolidation
 - Brazil
-- API
 ---

@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jobget/refs/he
 summary_line: visitor-token · 1 scheme
 tags:
 - Company
-- Jobs
+- Job
 - Recruiting
 - Hiring
 - Human Resources

@@ -47,7 +47,7 @@ tags:
 - Subscription Management
 - Revenue Recognition
 - Invoicing
-- FinTech
+- Fintech
 - Order-to-Cash
 - MCP
 ---

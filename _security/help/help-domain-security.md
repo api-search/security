@@ -36,5 +36,5 @@ tags:
 - CRM
 - Website Builder
 - Founder Tools
-- AI
+- Artificial Intelligence
 ---

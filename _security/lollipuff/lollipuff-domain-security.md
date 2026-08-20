@@ -35,6 +35,6 @@ tags:
 - Designer Fashion
 - Resale
 - Marketplace
-- Ecommerce
+- E-Commerce
 - Y Combinator
 ---

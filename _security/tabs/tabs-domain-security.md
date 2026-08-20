@@ -192,7 +192,7 @@ tags:
 - Revenue Recognition
 - Usage-Based Billing
 - Invoicing
-- Collections
+- Collection
 - Fintech
-- SaaS
+- Software-as-a-Service
 ---

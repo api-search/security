@@ -56,7 +56,7 @@ tags:
 - BNPL
 - Buy Now Pay Later
 - Consumer Finance
-- E-commerce
+- E-Commerce
 - Fintech
 - Installments
 - MENA

@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bbva/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - Open Banking
 - PSD2
 - Spain

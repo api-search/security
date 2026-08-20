@@ -55,12 +55,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/subbly-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/authentication/subbly-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Subscriptions
+- Subscription
 - Subscription Commerce
-- Ecommerce
+- E-Commerce
 - Subscription Box
 - Recurring Billing
 - Headless Commerce
 - SDK
-- Webhooks
+- Webhook
 ---

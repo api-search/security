@@ -259,7 +259,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/websphere/refs
 summary_line: apiKey/http · 3 schemes
 tags:
 - Application Server
-- Cloud Native
+- Cloud-Native
 - Enterprise Java
 - J2EE
 - Microservices

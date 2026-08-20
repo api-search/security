@@ -32,7 +32,7 @@ tags:
 - Company
 - Developer Tools
 - Design
-- Low Code
+- Low-Code
 - React
-- Open Source
+- Open-Source
 ---

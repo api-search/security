@@ -73,6 +73,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
 - Cards
-- Subscriptions
+- Subscription
 - Refunds
 ---

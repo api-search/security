@@ -33,6 +33,6 @@ tags:
 - Service Mesh
 - Proxy
 - API Gateway
-- Cloud Native
-- Open Source
+- Cloud-Native
+- Open-Source
 ---

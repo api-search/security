@@ -59,9 +59,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/layercod
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/authentication/layercode-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Voice
 - Voice Agents
-- Realtime
+- Real-Time
 - Low Latency
 ---

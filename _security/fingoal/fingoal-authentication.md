@@ -71,12 +71,12 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/fingoal
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/authentication/fingoal-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Fintech
 - Transaction Enrichment
 - Data Enrichment
 - Personal Financial Management
 - Banking
 - Categorization
-- Webhooks
+- Webhook
 ---

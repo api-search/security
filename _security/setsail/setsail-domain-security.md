@@ -39,7 +39,6 @@ tags:
 - Company
 - Sales
 - Revenue Operations
-- RevOps
 - Sales Intelligence
 - Artificial Intelligence
 - CRM

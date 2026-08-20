@@ -28,7 +28,7 @@ summary_line: DMARC
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - Payments
 - Banking
 - Plaid

@@ -91,7 +91,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/innago/refs/he
 summary_line: apiKey/http · 2 schemes
 tags:
 - Property Management
-- Real Estate
+- Real-Estate
 - Leases
 - Rent Collection
 - Maintenance

@@ -35,7 +35,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qiwi/refs/head
 summary_line: http · 1 scheme
 tags:
 - Payments
-- Wallet
+- Wallets
 - Payouts
 - Fintech
 - Banking

@@ -119,5 +119,5 @@ tags:
 - Crash Reporting
 - Application Performance Monitoring
 - Developer Tools
-- Model Context Protocol
+- MCP
 ---

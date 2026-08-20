@@ -108,7 +108,7 @@ tags:
 - Structured Products
 - Ethereum
 - Layer 2
-- Vaults
+- Vault
 - Perpetuals
 - Yield
 ---

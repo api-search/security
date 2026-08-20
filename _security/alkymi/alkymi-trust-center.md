@@ -21,12 +21,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alkymi/refs/he
 summary_line: SOC 2 Type 2, ISO 27001, GDPR
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Private Markets
 - Document Processing
 - Data Extraction
 - Artificial Intelligence
 - Alternative Investments
-- Webhooks
+- Webhook
 trust_url: https://www.alkymi.io/enterprise-platform/security
 ---

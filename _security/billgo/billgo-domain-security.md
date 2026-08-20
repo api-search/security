@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
 - Bill Pay
-- Financial Services
+- Financial-Services
 - Banking
 - ACH
 - Virtual Cards

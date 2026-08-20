@@ -57,10 +57,10 @@ tags:
 - Microservices
 - Middleware
 - Mocking
-- Open Source
+- Open-Source
 - Plugins
 - REST
-- SDKs
+- SDK
 - Scalars
 - Schema
 - Schema Composition
@@ -70,7 +70,7 @@ tags:
 - Schema Transformation
 - Schema Validation
 - Server
-- Subscriptions
+- Subscription
 - The Guild
 - Type Merging
 - Type Safety

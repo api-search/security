@@ -25,7 +25,7 @@ tags:
 - Life Sciences
 - Artificial Intelligence
 - Protocols
-- SaaS
+- Software-as-a-Service
 - Automation
 trust_url: https://www.infera.bio/security
 ---

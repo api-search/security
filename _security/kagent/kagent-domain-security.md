@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kagent/refs/he
 summary_line: TLSv1.3
 tags:
 - AI Agents
-- Cloud Native
+- Cloud-Native
 - DevOps
 - Framework
 - Kubernetes

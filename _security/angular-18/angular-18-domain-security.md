@@ -49,7 +49,7 @@ tags:
 - Frontend
 - JavaScript
 - Material 3
-- Open Source
+- Open-Source
 - Signals
 - Single Page Application
 - TypeScript

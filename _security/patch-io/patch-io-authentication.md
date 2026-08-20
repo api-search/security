@@ -62,5 +62,5 @@ tags:
 - Marketplace
 - Sustainability
 - OpenAPI
-- SDKs
+- SDK
 ---

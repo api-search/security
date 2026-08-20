@@ -66,8 +66,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/camb-ai-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/authentication/camb-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
-- Text to Speech
+- Artificial Intelligence
+- Text-to-Speech
 - Dubbing
 - Translation
 - Transcription

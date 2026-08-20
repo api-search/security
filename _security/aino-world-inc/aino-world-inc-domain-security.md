@@ -37,7 +37,7 @@ tags:
 - Mapping
 - Location Intelligence
 - Urban Planning
-- Real Estate
+- Real-Estate
 - Artificial Intelligence
 - Data
 ---

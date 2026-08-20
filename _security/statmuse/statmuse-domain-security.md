@@ -34,7 +34,7 @@ tags:
 - Sports
 - Statistics
 - Search
-- Natural Language
+- Natural-Language
 - Data
 - Finance
 - Analytics

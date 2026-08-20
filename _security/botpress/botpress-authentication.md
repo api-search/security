@@ -65,10 +65,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/botpress
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/authentication/botpress-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Conversational
 - Chat
-- Open Source
+- Open-Source
 - Bot Builder
 - LLM
 ---

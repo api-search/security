@@ -30,7 +30,7 @@ tags:
 - Video
 - Streaming
 - CDN
-- Peer To Peer
+- Peer-to-Peer
 - WebRTC
 - Media Delivery
 - SDK

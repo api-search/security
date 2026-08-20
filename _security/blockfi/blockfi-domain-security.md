@@ -34,7 +34,7 @@ tags:
 - Cryptocurrency
 - Digital Assets
 - Crypto Lending
-- Financial Services
+- Financial-Services
 - Fintech
 - Blockchain
 - Bankruptcy Estate

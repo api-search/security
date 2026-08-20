@@ -95,7 +95,7 @@ tags:
 - Governance Risk and Compliance
 - Risk Management
 - Compliance
-- Workflow Automation
+- Workflow-Automation
 - Audit
 - No-Code
 trust_url: https://trust.logicgate.com/

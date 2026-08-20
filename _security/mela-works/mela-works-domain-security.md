@@ -37,7 +37,7 @@ tags:
 - Project Management
 - Productivity
 - Mobile
-- AI
-- Document Management
-- SaaS
+- Artificial Intelligence
+- Document-Management
+- Software-as-a-Service
 ---

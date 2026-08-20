@@ -791,7 +791,7 @@ tags:
 - Infrastructure
 - Storage
 - Data
-- AI
+- Artificial Intelligence
 - Database
 - Kubernetes
 - HPC

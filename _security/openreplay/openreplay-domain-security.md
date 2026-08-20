@@ -74,7 +74,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Debugging
 - Error Tracking
-- Open Source
+- Open-Source
 - Performance Monitoring
 - Session Replay
 - User Behavior

@@ -48,8 +48,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rentec/refs/he
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Property Management
-- Real Estate
-- Rental
+- Real-Estate
+- Rentals
 - Tenant Screening
 - Payments
 - Maintenance

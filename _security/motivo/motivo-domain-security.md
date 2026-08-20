@@ -37,5 +37,5 @@ tags:
 - Healthcare Workforce
 - Telehealth
 - HIPAA
-- SaaS
+- Software-as-a-Service
 ---

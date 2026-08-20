@@ -32,6 +32,6 @@ tags:
 - Investor Onboarding
 - Fund Subscription
 - Data Room
-- FinTech
+- Fintech
 trust_url: https://anduintransact.com/anduin-trust-center
 ---

@@ -36,6 +36,6 @@ tags:
 - Fashion
 - E-Commerce
 - Photography
-- Computer Vision
+- Computer-Vision
 - Retail
 ---

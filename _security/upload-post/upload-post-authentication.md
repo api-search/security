@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/upload-p
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/authentication/upload-post-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Social Media
+- Social-Media
 - Publishing
 - Video
 - Content

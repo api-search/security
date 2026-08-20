@@ -387,13 +387,13 @@ summary_line: ISO 27001, GDPR
 tags:
 - Analytics
 - Web Analytics
-- Open Source
+- Open-Source
 - Privacy
 - Data Ownership
 - Self-Hosted
 - GDPR
 - Tag Management
 - Conversion Optimization
-- Model Context Protocol
+- MCP
 trust_url: https://matomo.org/security/
 ---

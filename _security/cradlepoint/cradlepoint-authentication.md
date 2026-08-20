@@ -99,7 +99,7 @@ tags:
 - Branch Networking
 - SD-WAN
 - SASE
-- Routers
+- Router
 - In-Vehicle
 - IoT
 - Cellular

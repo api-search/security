@@ -50,7 +50,7 @@ tags:
 - Financials
 - Accounting
 - Inventory
-- Ecommerce
+- E-Commerce
 - Business Management
 - Cloud ERP
 ---

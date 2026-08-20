@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-air-force/r
 summary_line: DNSSEC · DMARC
 tags:
 - Air Force
-- Federal Government
+- Federal-Government
 - Military
 - Defense
 - Open Data

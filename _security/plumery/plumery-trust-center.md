@@ -22,7 +22,7 @@ tags:
 - Fintech
 - Banking
 - Digital Banking
-- Financial Services
+- Financial-Services
 - Mobile Banking
 - Platform
 - Netherlands

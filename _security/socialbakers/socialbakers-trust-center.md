@@ -80,7 +80,7 @@ summary_line: SOC 2 Type II, SOC 1 Type II, ISO 27001, PCI, GDPR, CCPA, EU-US Da
 tags:
 - Company
 - Marketing
-- Social Media
+- Social-Media
 - Analytics
 - Social Media Analytics
 - Social Listening

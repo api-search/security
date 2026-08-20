@@ -133,17 +133,17 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/security/authenticx-trust-center.yml
 summary_line: SOC 2 Type I & II, HIPAA, GDPR, CCPA
 tags:
-- conversation-intelligence
-- healthcare
-- speech-analytics
-- contact-center
-- customer-experience
-- quality-assurance
-- pharmacovigilance
-- patient-experience
-- transcription
-- life-sciences
-- scim
-- oauth2
+- Conversation Intelligence
+- Healthcare
+- Speech Analytics
+- Contact Center
+- Customer Experience
+- Quality Assurance
+- Pharmacovigilance
+- Patient Experience
+- Transcription
+- Life Sciences
+- SCIM
+- Authentication
 trust_url: https://authenticx.com/privacy-security
 ---

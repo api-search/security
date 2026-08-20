@@ -20,13 +20,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hycu/refs/head
 summary_line: ISO 27001, HIPAA, GDPR
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Data Protection
 - Backup
 - Disaster Recovery
 - Ransomware
 - Data Resilience
-- SaaS
+- Software-as-a-Service
 - Cloud
 trust_url: https://www.hycu.com/solutions/security-compliance
 ---

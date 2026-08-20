@@ -87,9 +87,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Investing
-- Real Estate
+- Real-Estate
 - Private Credit
 - Venture Capital
 - Alternative Assets

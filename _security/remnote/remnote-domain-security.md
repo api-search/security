@@ -31,12 +31,12 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Note Taking
-- Knowledge Management
+- Knowledge-Management
 - Spaced Repetition
 - Flashcards
 - Education
 - Productivity
 - Plugin SDK
-- AI
+- Artificial Intelligence
 - Learning
 ---

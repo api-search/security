@@ -151,16 +151,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/
 summary_line: SOC 2
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Multimodal AI
-- Computer Vision
+- Computer-Vision
 - Video Intelligence
 - Image Search
 - Content Intelligence
 - Semantic Search
 - Contextual Advertising
 - Metadata
-- Machine Learning
+- Machine-Learning
 - Media
 trust_url: https://www.coactive.ai/security
 ---

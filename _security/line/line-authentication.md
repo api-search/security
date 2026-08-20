@@ -152,7 +152,7 @@ tags:
 - Social Login
 - Mini Apps
 - Marketing
-- Webhooks
+- Webhook
 - OpenID Connect
 - Audience
 - Analytics

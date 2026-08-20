@@ -32,7 +32,7 @@ tags:
 - Company
 - Fitness
 - Gym Management
-- SaaS
+- Software-as-a-Service
 - Latin America
 - Bookings
 - Memberships

@@ -34,7 +34,7 @@ tags:
 - Robotics
 - Humanoid Robots
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Manufacturing
 - Automation
 - Teleoperation

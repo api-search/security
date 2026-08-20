@@ -55,19 +55,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github-copilot
 summary_line: trust center published
 tags:
 - Agents
-- AI
 - Artificial Intelligence
 - Code Generation
 - Code Review
-- Coding Agent
+- Coding Agents
 - Custom Instructions
 - Developer Tools
 - Extensions
 - IDE
-- Machine Learning
+- Machine-Learning
 - MCP
 - Metrics
-- Model Context Protocol
 - Productivity
 trust_url: https://copilot.github.trust.page/
 ---

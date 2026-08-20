@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://clearba
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/authentication/clearbank-authentication.yml
 summary_line: http/custom-signature · 3 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Banking as a Service
 - Embedded Banking

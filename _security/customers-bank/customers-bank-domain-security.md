@@ -115,10 +115,10 @@ source_yaml: "generated: '2026-07-23'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/security/customers-bank-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
-- Banking-as-a-Service
+- Banking as a Service
 - Embedded Finance
 - Payments
 - Commercial Banking

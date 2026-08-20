@@ -67,6 +67,6 @@ tags:
 - Apache
 - Data Lake
 - Lakehouse
-- Open Source
+- Open-Source
 - Table Format
 ---

@@ -43,5 +43,5 @@ tags:
 - Blockchain
 - Fintech
 - Capital Markets
-- Financial Services
+- Financial-Services
 ---

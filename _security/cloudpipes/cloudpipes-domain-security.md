@@ -32,8 +32,8 @@ tags:
 - Integration
 - iPaaS
 - Automation
-- Workflow
-- SaaS
+- Workflows
+- Software-as-a-Service
 - Acquired
 - Defunct
 ---

@@ -32,7 +32,7 @@ tags:
 - Company
 - Venture Studio
 - Data Science
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Healthcare
 - Climate

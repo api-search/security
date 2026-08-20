@@ -38,5 +38,5 @@ tags:
 - Access Control
 - Terraform
 - SCIM
-- OAuth
+- Authentication
 ---

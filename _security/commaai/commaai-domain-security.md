@@ -52,8 +52,8 @@ tags:
 - Self-Driving
 - Robotics
 - Artificial Intelligence
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 - Connected Vehicles
 - Telematics
 - Developer API

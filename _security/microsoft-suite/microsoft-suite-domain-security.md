@@ -76,5 +76,5 @@ tags:
 - Cloud
 - Enterprise
 - Productivity
-- SaaS
+- Software-as-a-Service
 ---

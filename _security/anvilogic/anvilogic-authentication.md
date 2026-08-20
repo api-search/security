@@ -61,6 +61,6 @@ tags:
 - Threat Detection
 - Artificial Intelligence
 - Agents
-- Model Context Protocol
+- MCP
 - Data Lake
 ---

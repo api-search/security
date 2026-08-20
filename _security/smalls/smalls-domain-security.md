@@ -33,7 +33,7 @@ tags:
 - Company
 - Pet Care
 - Pet Food
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Subscription
 - Consumer Packaged Goods

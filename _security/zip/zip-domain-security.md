@@ -54,5 +54,5 @@ tags:
 - Vendor Management
 - Contract Management
 - Enterprise Software
-- FinTech
+- Fintech
 ---

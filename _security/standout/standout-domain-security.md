@@ -34,7 +34,7 @@ tags:
 - Hiring
 - Recruiting
 - Talent
-- Jobs
+- Job
 - AI Agents
 - Developer Tools
 ---

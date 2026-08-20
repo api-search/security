@@ -163,7 +163,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://planabl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/authentication/planable-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- Social Media
+- Social-Media
 - Content Collaboration
 - Approval Workflows
 - Social Media Management

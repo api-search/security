@@ -29,13 +29,13 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: >-\n  https://c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/authentication/catalog-guard-api-authentication.yml
 summary_line: 0 schemes
 tags:
-- ecommerce
+- E-Commerce
 - catalog-validation
-- shopify
-- data-quality
+- Shopify
+- Data Quality
 - csv-validation
 - product-data-qa
 - data-preflight
-- data-validation
-- retail
+- Data Validation
+- Retail
 ---

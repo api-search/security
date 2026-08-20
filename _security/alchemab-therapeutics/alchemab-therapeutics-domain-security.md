@@ -34,7 +34,7 @@ tags:
 - Antibody Therapeutics
 - Drug Discovery
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Immunology
 - Life Sciences
 - Healthcare

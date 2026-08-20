@@ -373,6 +373,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apideck-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apideck/refs/heads/main/authentication/apideck-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
-- Integrations
-- Unified API
+- Integration
+- Unified-API
 ---

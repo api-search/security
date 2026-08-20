@@ -103,7 +103,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Security
-- Third Party Risk Management
+- Third-Party Risk Management
 - TPRM
 - Vendor Risk
 - Risk Management

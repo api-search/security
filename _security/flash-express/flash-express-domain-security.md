@@ -48,9 +48,9 @@ tags:
 - Parcel Tracking
 - E-Commerce
 - Last Mile
-- Courier
+- Couriers
 - Cash on Delivery
 - Thailand
 - Southeast Asia
-- Webhooks
+- Webhook
 ---

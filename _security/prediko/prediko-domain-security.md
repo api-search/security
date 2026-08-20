@@ -34,9 +34,9 @@ tags:
 - Inventory Management
 - Demand Forecasting
 - Supply Chain
-- Ecommerce
+- E-Commerce
 - Shopify
 - Purchase Orders
 - Retail
-- AI
+- Artificial Intelligence
 ---

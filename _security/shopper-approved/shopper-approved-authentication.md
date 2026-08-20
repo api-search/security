@@ -57,7 +57,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Reviews
 - Ratings
-- Ecommerce
+- E-Commerce
 - Customer Feedback
 - Social Proof
 ---

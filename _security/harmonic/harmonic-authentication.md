@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harmonic/refs/
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Mathematics
 - Formal Verification
 - Theorem Proving

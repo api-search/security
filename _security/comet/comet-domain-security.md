@@ -293,5 +293,5 @@ tags:
 - Model Monitoring
 - Prompt Management
 - Agents
-- Open Source
+- Open-Source
 ---

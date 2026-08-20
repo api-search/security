@@ -31,8 +31,8 @@ tags:
 - Company
 - Art
 - Marketplace
-- E-commerce
-- AI
+- E-Commerce
+- Artificial Intelligence
 - MCP
 - Korea
 - Discovery

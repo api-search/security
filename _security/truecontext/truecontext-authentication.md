@@ -33,7 +33,7 @@ tags:
 - Company
 - Field Service
 - Mobile Forms
-- Workflow Automation
+- Workflow-Automation
 - Data Collection
 - Field Intelligence
 - Low-Code

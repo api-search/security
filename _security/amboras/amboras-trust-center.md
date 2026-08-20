@@ -26,7 +26,7 @@ summary_line: SOC 2 Type II, ISO 27001, PCI DSS, HIPAA Ready, GDPR, CCPA
 tags:
 - Company
 - E-Commerce
-- AI
+- Artificial Intelligence
 - Generative AI
 - Automation
 - Conversion Rate Optimization

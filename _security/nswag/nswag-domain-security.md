@@ -59,10 +59,10 @@ tags:
 - C#
 - Code Generation
 - Developer Tools
-- JSON Schema
-- Open Source
+- JSON-Schema
+- Open-Source
 - OpenAPI
-- SDKs
+- SDK
 - Swagger
 - TypeScript
 ---

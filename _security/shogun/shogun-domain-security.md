@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shogun/refs/he
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Page Builder
 - Headless Commerce
 - Shopify

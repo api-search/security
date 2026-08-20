@@ -34,6 +34,6 @@ tags:
 - Hiring
 - Developer Assessment
 - Recruiting
-- AI
+- Artificial Intelligence
 - Coding Assessment
 ---

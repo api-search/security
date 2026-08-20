@@ -23,9 +23,8 @@ tags:
 - FATCA
 - CRS
 - Tax Forms
-- Financial Services
+- Financial-Services
 - Withholding Tax
 - Onboarding
-- API
 trust_url: https://www.taina.tech/our-story
 ---

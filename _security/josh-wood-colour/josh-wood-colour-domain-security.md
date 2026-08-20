@@ -37,5 +37,5 @@ tags:
 - Beauty
 - Consumer Goods
 - Shopify
-- Direct-to-Consumer
+- Direct to Consumer
 ---

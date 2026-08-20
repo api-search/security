@@ -79,8 +79,8 @@ summary_line: apiKey · 1 scheme
 tags:
 - Aquaculture
 - Fish Farming
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Biomass Estimation
 - Sea Lice
 - Fish Welfare

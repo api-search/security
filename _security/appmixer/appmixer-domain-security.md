@@ -112,7 +112,7 @@ tags:
 - Agentic
 - Automation
 - Embedded iPaaS
-- Integrations
+- Integration
 - Low-Code
 - Workflows
 ---

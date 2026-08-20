@@ -44,12 +44,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hosted-ai/refs
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - GPU
 - GPUaaS
 - Cloud Infrastructure
 - Neocloud
-- Machine Learning
+- Machine-Learning
 - AI Infrastructure
 - Multi-Tenancy
 - Service Providers

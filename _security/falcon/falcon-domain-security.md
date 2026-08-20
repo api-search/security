@@ -43,7 +43,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Infrastructure
-- Financial Services
+- Financial-Services
 - Banking
 - Payments
 - Credit Cards

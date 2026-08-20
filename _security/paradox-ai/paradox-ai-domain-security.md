@@ -41,7 +41,7 @@ tags:
 - Conversational AI
 - Recruiting Automation
 - High-Volume Hiring
-- Chatbot
+- Chatbots
 - ATS
 - HR Tech
 ---

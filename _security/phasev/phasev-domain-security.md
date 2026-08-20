@@ -30,10 +30,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phasev/refs/he
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Clinical Trials
 - Biopharma
-- Machine Learning
+- Machine-Learning
 - Life Sciences
 - Healthcare
 - Drug Development

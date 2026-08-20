@@ -54,8 +54,8 @@ tags:
 - Association Management
 - AMS
 - Membership
-- Nonprofit
-- Events
+- Non-Profit
+- Event
 - Constituent Management
 - CRM
 ---

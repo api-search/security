@@ -37,5 +37,5 @@ tags:
 - Arduino
 - Firmware
 - Education
-- Open Source
+- Open-Source
 ---

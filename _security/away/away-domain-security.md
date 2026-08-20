@@ -34,7 +34,7 @@ tags:
 - Consumer
 - Travel
 - Retail
-- E-commerce
+- E-Commerce
 - Luggage
 - Agent Commerce
 - Shopify

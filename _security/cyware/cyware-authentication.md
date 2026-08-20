@@ -243,20 +243,20 @@ source_yaml: "generated: '2026-08-04'\nmethod: derived\nsource: openapi/cyware-i
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/authentication/cyware-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- threat-intelligence
+- Threat Intelligence
 - cyber-threat-intelligence
-- cybersecurity
-- security-operations
-- threat-intelligence-platform
-- stix
-- taxii
+- Cybersecurity
+- Security Operations
+- Threat Intelligence Platform
+- STIX
+- TAXII
 - mitre-attack
-- soar
-- security-orchestration
-- incident-response
+- SOAR
+- Security Orchestration
+- Incident Response
 - threat-intelligence-sharing
 - isac
-- indicators-of-compromise
-- mcp
-- agentic-ai
+- Indicators of Compromise
+- MCP
+- Agentic AI
 ---

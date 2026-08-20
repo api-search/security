@@ -63,7 +63,7 @@ tags:
 - Database
 - Free
 - Open Data
-- Teams
+- Team
 - Players
-- Events
+- Event
 ---

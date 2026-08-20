@@ -60,8 +60,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sail/refs/head
 summary_line: http · 1 scheme
 tags:
 - Company
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - LLM
 - Inference
 - Agents

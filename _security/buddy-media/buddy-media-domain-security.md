@@ -31,10 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buddy-media/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Martech
-- Social Media
+- MarTech
+- Social-Media
 - Marketing
 - Advertising
-- SaaS
+- Software-as-a-Service
 - Acquired
 ---

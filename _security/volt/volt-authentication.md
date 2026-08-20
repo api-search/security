@@ -49,5 +49,5 @@ tags:
 - MCP
 - AI Agents
 - Sales
-- Communication
+- Communications
 ---

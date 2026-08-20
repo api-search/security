@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rewst/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Devops
+- DevOps
 - Automation
 - iPaaS
 - RPA
-- Workflow Automation
+- Workflow-Automation
 - MSP
 - Integration
-- Webhooks
+- Webhook
 ---

@@ -48,6 +48,6 @@ tags:
 - Buy Now Pay Later
 - Lending
 - Mexico
-- Point of Sale
-- Ecommerce
+- Point-of-Sale
+- E-Commerce
 ---

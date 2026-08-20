@@ -34,7 +34,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - B2B
 - Big-Box
-- E-commerce
+- E-Commerce
 - EDI
 - Fortune 500
 - Grocery

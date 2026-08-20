@@ -82,6 +82,6 @@ tags:
 - Automation
 - Internal Tools
 - Low-Code
-- Open Source
-- Workflow Automation
+- Open-Source
+- Workflow-Automation
 ---

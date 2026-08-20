@@ -37,5 +37,4 @@ tags:
 - Accelerator
 - Entrepreneurship
 - Founders
-- Other
 ---

@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Retail Tech
-- Ecommerce
+- E-Commerce
 - B2B
 - ERP Integration
 - Ordering Portal

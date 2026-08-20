@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Enterprise Saas
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Retail Technology
 - Autonomous Checkout

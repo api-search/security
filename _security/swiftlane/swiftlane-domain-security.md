@@ -36,6 +36,6 @@ tags:
 - Video Intercom
 - Smart Building
 - Facial Recognition
-- Proptech
+- PropTech
 - IoT
 ---

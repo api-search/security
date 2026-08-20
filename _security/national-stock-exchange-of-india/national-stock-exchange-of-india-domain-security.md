@@ -49,7 +49,7 @@ tags:
 - Capital Markets
 - Market Data
 - Trading
-- Financial Services
+- Financial-Services
 - Securities
 - India
 - FIX Protocol

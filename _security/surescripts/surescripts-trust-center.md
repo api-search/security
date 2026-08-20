@@ -26,7 +26,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/surescripts/re
 summary_line: HITRUST r2, SOC 2 Type II, EHNAC, DirectTrust, WebTrust for Certification Authorities, HIPAA
 tags:
 - Healthcare
-- E-Prescribing
+- e-Prescribing
 - Health Information Network
 - NCPDP SCRIPT
 - Medication History

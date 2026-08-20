@@ -244,8 +244,8 @@ tags:
 - AISP
 - PISP
 - Financial Data
-- FinTech
+- Fintech
 - UK
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 ---

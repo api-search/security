@@ -96,6 +96,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-reserv
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Economics
-- Federal Government
+- Federal-Government
 - Finance
 ---

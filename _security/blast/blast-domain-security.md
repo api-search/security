@@ -35,5 +35,5 @@ tags:
 - Entertainment
 - Media
 - Streaming
-- Events
+- Event
 ---

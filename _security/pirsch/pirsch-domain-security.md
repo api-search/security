@@ -137,7 +137,7 @@ tags:
 - Cookie-Free
 - Page Views
 - Sessions
-- Events
+- Event
 - Conversion Goals
 - Funnels
 - Traffic Sources

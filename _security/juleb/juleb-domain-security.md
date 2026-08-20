@@ -34,7 +34,7 @@ tags:
 - Retail
 - Distribution
 - Pharmacy
-- Point of Sale
+- Point-of-Sale
 - Inventory
 - E-Prescription
 - ERP

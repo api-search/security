@@ -27,7 +27,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - eDiscovery
 - Legal Technology
-- AI
+- Artificial Intelligence
 - Document Review
 - Litigation
 - Legal

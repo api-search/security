@@ -50,8 +50,8 @@ tags:
 - Online Ordering
 - Food Delivery
 - Pizzerias
-- Restaurants
-- Point of Sale
+- Restaurant
+- Point-of-Sale
 - Payments
 - SMB
 - Partner API

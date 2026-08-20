@@ -187,7 +187,7 @@ tags:
 - Provisioning
 - Billing
 - Quoting
-- Subscriptions
-- Webhooks
+- Subscription
+- Webhook
 trust_url: https://trust.pax8.com/
 ---

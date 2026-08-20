@@ -22,11 +22,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superside/refs
 summary_line: SOC 2 Type II, GDPR, CCPA
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Creative Services
 - Design
 - Marketing
-- AI
+- Artificial Intelligence
 - Creative As A Service
 trust_url: https://www.superside.com/security
 ---

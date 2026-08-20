@@ -37,12 +37,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Events
+- Event
 - Event Management
 - Marketing
 - AI Agent
 - Attendee Intelligence
-- GTM
+- Go-To-Market
 - Field Marketing
 - Pipeline
 ---

@@ -37,11 +37,11 @@ tags:
 - Conversational AI
 - Customer Data Platform
 - Contact Center
-- Machine Learning
+- Machine-Learning
 - Large Language Models
 - Enterprise Software
 - Automation
 - Customer Experience
-- Knowledge Management
+- Knowledge-Management
 trust_url: https://trust.uniphore.com/
 ---

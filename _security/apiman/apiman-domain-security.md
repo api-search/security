@@ -124,5 +124,5 @@ tags:
 - API Management
 - Developer Portal
 - Java
-- Open Source
+- Open-Source
 ---

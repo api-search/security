@@ -39,11 +39,11 @@ tags:
 - Company
 - Enterprise
 - Website Builder
-- AI
+- Artificial Intelligence
 - No-Code
 - Small Business
 - Website Generation
-- Model Context Protocol
+- MCP
 - SEO
 - Payments
 ---

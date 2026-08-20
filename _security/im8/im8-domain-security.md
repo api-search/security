@@ -35,8 +35,8 @@ tags:
 - Wellness
 - Supplements
 - Nutrition
-- Ecommerce
-- Direct-to-Consumer
+- E-Commerce
+- Direct to Consumer
 - Agentic Commerce
 - Shopify
 - UCP

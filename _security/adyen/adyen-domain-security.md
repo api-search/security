@@ -1256,6 +1256,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
-- Financial Services
+- Financial-Services
 - Fintech
 ---

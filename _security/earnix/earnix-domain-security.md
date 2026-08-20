@@ -32,12 +32,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Pricing
 - Rating
 - Underwriting
 - Banking
-- Financial Services
+- Financial-Services
 - Decisioning
 - Artificial Intelligence
 ---

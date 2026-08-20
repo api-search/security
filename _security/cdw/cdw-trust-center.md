@@ -24,7 +24,7 @@ tags:
 - Catalog
 - eProcurement
 - IT Distribution
-- PunchOut
+- Punchout
 - Technology
 - Fortune 500
 trust_url: https://trust.cdw.com/

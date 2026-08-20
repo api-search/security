@@ -31,18 +31,18 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appfolio/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Property Management
-- Real Estate
+- Real-Estate
 - Residential
 - Commercial
 - Community Associations
 - HOA
 - Multifamily
-- Single Family Rentals
+- Single-Family Rentals
 - Student Housing
 - Affordable Housing
 - Investment Management
 - PropTech
-- SaaS
+- Software-as-a-Service
 - Accounting
 - Leasing
 - Maintenance

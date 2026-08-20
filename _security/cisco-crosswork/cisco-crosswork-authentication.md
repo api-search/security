@@ -739,9 +739,9 @@ tags:
 - RESTCONF
 - YANG
 - Zero Touch Provisioning
-- Workflow Automation
+- Workflow-Automation
 - Traffic Engineering
-- Model Context Protocol
+- MCP
 - Telemetry
 - On-Premises
 ---

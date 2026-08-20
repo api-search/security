@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/extropic/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Hardware
 - Semiconductors
 - Thermodynamic Computing
 - Probabilistic Computing
 - Energy-Based Models
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 ---

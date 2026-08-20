@@ -75,11 +75,11 @@ summary_line: http · 1 scheme
 tags:
 - Vector Database
 - Vector Search
-- Multimodal
+- Multi-Modal
 - Semantic Search
 - Embeddings
-- AI
-- Machine Learning
-- Open Source
+- Artificial Intelligence
+- Machine-Learning
+- Open-Source
 - Ecommerce Search
 ---

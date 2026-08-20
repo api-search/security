@@ -31,7 +31,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Marketplace
 - Luxury
 - Resale

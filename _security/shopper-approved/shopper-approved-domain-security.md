@@ -61,7 +61,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Reviews
 - Ratings
-- Ecommerce
+- E-Commerce
 - Customer Feedback
 - Social Proof
 ---

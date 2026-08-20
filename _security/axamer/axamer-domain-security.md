@@ -31,12 +31,12 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Restaurants
+- Restaurant
 - Food Service
 - Customer Engagement
 - Loyalty
 - Messaging
 - WhatsApp
 - Latin America
-- SaaS
+- Software-as-a-Service
 ---

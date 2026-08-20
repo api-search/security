@@ -34,8 +34,8 @@ tags:
 - Restaurant
 - Hospitality
 - Inventory Management
-- Food And Beverage
-- Point Of Sale
+- Food and Beverage
+- Point-of-Sale
 - Analytics
-- SaaS
+- Software-as-a-Service
 ---

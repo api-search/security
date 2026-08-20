@@ -173,7 +173,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs
 summary_line: apiKey · 3 schemes
 tags:
 - Company
-- Nonprofits
+- Non-Profit
 - Donations
 - Charitable Giving
 - Fundraising

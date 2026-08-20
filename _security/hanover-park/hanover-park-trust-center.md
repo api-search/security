@@ -25,7 +25,7 @@ tags:
 - Venture Capital
 - Fintech
 - Financial Operations
-- AI
+- Artificial Intelligence
 - ERP
 - Back Office
 trust_url: https://www.hanoverpark.com/security

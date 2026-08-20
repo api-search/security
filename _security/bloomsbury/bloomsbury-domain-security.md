@@ -31,11 +31,11 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - Question Answering
 - Machine Reading
 - Document Processing
-- Open Source
+- Open-Source
 - Acquired
 ---

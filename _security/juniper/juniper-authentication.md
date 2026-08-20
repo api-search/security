@@ -337,7 +337,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/juniper-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/juniper/refs/heads/main/authentication/juniper-authentication.yml
 summary_line: apiKey/http · 5 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Automation
 - Cloud
 - Enterprise

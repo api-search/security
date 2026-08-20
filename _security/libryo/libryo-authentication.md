@@ -50,5 +50,5 @@ tags:
 - Legal Registers
 - Regulatory Change Management
 - Sustainability
-- OAuth
+- Authentication
 ---

@@ -26,6 +26,5 @@ tags:
 - Fintech
 - Investments
 - Open Banking
-- APIs
 trust_url: https://www.flanks.io/security-and-privacy
 ---

@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\ndocs: https://publer.co
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/authentication/publer-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Social Media
+- Social-Media
 - Scheduling
 - Publishing
 - Content Management

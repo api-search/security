@@ -27,7 +27,7 @@ tags:
 - Fleet Safety
 - Fleet Management
 - Telematics
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Dash Cameras
 - Driver Coaching

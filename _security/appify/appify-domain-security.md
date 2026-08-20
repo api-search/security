@@ -40,10 +40,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Application Development
-- No Code
-- Low Code
+- No-Code
+- Low-Code
 - Enterprise Software
-- Workflow Automation
+- Workflow-Automation
 - Artificial Intelligence
 - Integration
 - Field Service

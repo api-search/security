@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://develop
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/authentication/halifax-authentication.yml
 summary_line: none/oauth2/mutualTLS · 4 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

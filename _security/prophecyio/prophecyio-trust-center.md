@@ -52,14 +52,14 @@ summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
 - Data Engineering
-- Data Pipelines
+- Data Pipeline
 - ETL
 - Apache Spark
 - Databricks
 - Snowflake
 - Low-Code
 - Analytics
-- AI
+- Artificial Intelligence
 - Data Transformation
 trust_url: https://trust.prophecy.ai:443/
 ---

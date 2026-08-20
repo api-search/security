@@ -34,7 +34,7 @@ tags:
 - Apparel
 - Retail
 - E-Commerce
-- Direct-to-Consumer
+- Direct to Consumer
 - Consumer
 - Shopify
 - B Corporation

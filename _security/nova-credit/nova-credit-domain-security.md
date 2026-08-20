@@ -37,7 +37,7 @@ tags:
 - Income Verification
 - Underwriting
 - Fintech
-- Financial Services
+- Financial-Services
 - Lending
 - Cash Flow Underwriting
 - Identity

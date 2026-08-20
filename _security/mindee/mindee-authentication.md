@@ -74,10 +74,10 @@ tags:
 - Document Parsing
 - OCR
 - IDP
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Invoices
 - Receipts
-- IDs
-- Computer Vision
+- IDS
+- Computer-Vision
 ---

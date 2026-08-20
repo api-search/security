@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-deeprac
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Autonomous Vehicles
-- Machine Learning
+- Machine-Learning
 - Reinforcement Learning
 - Robotics
 trust_url: https://aws.amazon.com/compliance/

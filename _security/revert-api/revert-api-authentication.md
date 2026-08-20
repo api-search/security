@@ -83,11 +83,11 @@ source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: openapi/revert-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revert-api/refs/heads/main/authentication/revert-api-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
-- Unified API
+- Unified-API
 - Embedded iPaaS
-- Integrations
+- Integration
 - Product Integrations
-- Open Source
+- Open-Source
 - CRM Integrations
 - Connectors
 - API Integration

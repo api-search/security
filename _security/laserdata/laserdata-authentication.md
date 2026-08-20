@@ -159,7 +159,7 @@ tags:
 - Message Streaming
 - Event Streaming
 - Data Infrastructure
-- Real Time
+- Real-Time
 - Apache Iggy
 - Rust
 - Cloud Infrastructure

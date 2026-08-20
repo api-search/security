@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flyhomes/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Real Estate
-- Proptech
+- Real-Estate
+- PropTech
 - Mortgage
 - Lending
 - Fintech
-- Financial Services
+- Financial-Services
 - Home Buying
 ---

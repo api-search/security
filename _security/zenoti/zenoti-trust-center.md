@@ -40,6 +40,6 @@ tags:
 - Fitness
 - Booking
 - Payments
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.zenoti.com/
 ---

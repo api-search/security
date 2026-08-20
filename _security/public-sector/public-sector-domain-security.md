@@ -51,7 +51,7 @@ tags:
 - Public Sector
 - Government
 - Federal
-- State
+- States
 - Local
 - Civic Tech
 - Open Data

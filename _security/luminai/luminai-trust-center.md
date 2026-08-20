@@ -25,7 +25,7 @@ tags:
 - Automation
 - Artificial Intelligence
 - AI Agents
-- Workflow Automation
+- Workflow-Automation
 - Revenue Cycle Management
 - Business Process Automation
 trust_url: https://www.luminai.com/security

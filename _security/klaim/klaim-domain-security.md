@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/klaim/refs/hea
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Healthcare
 - Insurance
@@ -39,6 +39,6 @@ tags:
 - Working Capital
 - Receivables
 - Embedded Finance
-- Real Estate
+- Real-Estate
 - United Arab Emirates
 ---

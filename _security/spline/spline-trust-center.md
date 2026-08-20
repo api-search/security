@@ -21,7 +21,7 @@ summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - 3D
 - Design
-- AI
+- Artificial Intelligence
 - Collaboration
 - Web
 - SDK

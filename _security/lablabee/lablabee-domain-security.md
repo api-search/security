@@ -36,7 +36,7 @@ tags:
 - Training
 - Education
 - Artificial Intelligence
-- Cloud Native
+- Cloud-Native
 - 5G
 - Open RAN
 - Kubernetes

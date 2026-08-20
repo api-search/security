@@ -34,6 +34,6 @@ tags:
 - Telehealth
 - Telemedicine
 - Digital Health
-- Direct-to-Consumer
+- Direct to Consumer
 - Pharmacy
 ---

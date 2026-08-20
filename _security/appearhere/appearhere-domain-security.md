@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Retail
-- Real Estate
+- Real-Estate
 - Marketplace
 - Pop-Up Shops
 - Commercial Property

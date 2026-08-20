@@ -44,13 +44,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/security/tooljet-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
-- low-code
-- internal tools
-- open-source
-- application builder
-- workflow automation
-- no-code
-- dashboards
-- AI agents
+- Low-Code
+- Internal Tools
+- Open-Source
+- Application Builder
+- Workflow-Automation
+- No-Code
+- Dashboards
+- AI Agents
 trust_url: https://trust.tooljet.com/
 ---

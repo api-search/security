@@ -26,13 +26,13 @@ summary_line: ISAE 3402 Type II, ISAE 3000 (SOC 2) Type II, ISO 27001, SOC 1, SO
 tags:
 - Company
 - Workforce Management
-- Restaurants
+- Restaurant
 - Hospitality
 - Inventory Management
 - Payroll
 - Scheduling
-- Human Capital Management
-- Point of Sale
+- HCM
+- Point-of-Sale
 - Food and Beverage
 trust_url: https://www.fourth.com/legal/fourth-hosting-data-security
 ---

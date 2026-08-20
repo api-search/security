@@ -339,7 +339,7 @@ tags:
 - E-Commerce
 - Card Issuing
 - Remittance
-- Financial Services
+- Financial-Services
 - B2B Payments
 - Digital Wallet
 - China

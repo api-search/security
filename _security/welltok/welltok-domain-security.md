@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Healthcare
-- SaaS
+- Software-as-a-Service
 - Consumer Engagement
 - Consumer Activation
 - Health Plans

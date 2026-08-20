@@ -22,7 +22,7 @@ tags:
 - Plant-Based
 - CPG
 - Food and Beverage
-- Machine Learning
+- Machine-Learning
 - Sustainability
 trust_url: https://trust.notco.com/
 ---

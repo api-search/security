@@ -72,12 +72,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/ref
 summary_line: http · 1 scheme
 tags:
 - Chaos Engineering
-- Cloud Native
+- Cloud-Native
 - CNCF
 - Fault Injection
 - Kubernetes
 - Observability
-- Open Source
+- Open-Source
 - Reliability
 - Resilience
 - Testing

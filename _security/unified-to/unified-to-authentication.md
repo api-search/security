@@ -869,6 +869,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/unified-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/authentication/unified-to-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Integrations
-- Unified API
+- Integration
+- Unified-API
 ---

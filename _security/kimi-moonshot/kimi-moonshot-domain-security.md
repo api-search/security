@@ -79,8 +79,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - LLM
 - Long Context
-- AI
-- OpenAI Compatible
-- Multimodal
+- Artificial Intelligence
+- OpenAI-Compatible
+- Multi-Modal
 - China
 ---

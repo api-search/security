@@ -29,14 +29,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/newgen-softwar
 summary_line: DMARC
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Low-Code
 - Content Management
 - Business Process Management
 - Customer Communication Management
-- Document Management
+- Document-Management
 - Intelligent Document Processing
-- Workflow Automation
+- Workflow-Automation
 - Enterprise Software
 - Digital Transformation
 ---

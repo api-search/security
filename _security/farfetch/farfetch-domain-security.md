@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Consumer
-- Ecommerce
+- E-Commerce
 - Fashion
 - Luxury
 - Marketplace

@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bostongene/ref
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Health Care
+- Healthcare
 - Oncology
 - Precision Medicine
 - Genomics

@@ -91,7 +91,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Twitter
 - X
-- Social Media
+- Social-Media
 - Data Extraction
 - Real-Time
 ---

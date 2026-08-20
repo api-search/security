@@ -63,7 +63,7 @@ tags:
 - Investor Reporting
 - Product Pricing Engine
 - Real Estate Data
-- FinTech
+- Fintech
 - Acquired Company
 - ICE Mortgage Technology
 ---

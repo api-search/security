@@ -84,12 +84,12 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/security/triple-whale-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- E-commerce
+- E-Commerce
 - Analytics
 - Attribution
 - Shopify
 - Pixel Tracking
 - ROAS
-- DTC
+- Direct to Consumer
 - Marketing
 ---

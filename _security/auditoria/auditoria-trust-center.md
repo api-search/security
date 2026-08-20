@@ -28,7 +28,7 @@ tags:
 - Automation
 - ERP
 - Agents
-- SaaS
+- Software-as-a-Service
 - Invoicing
 - Procurement
 trust_url: https://www.auditoria.ai/trust/

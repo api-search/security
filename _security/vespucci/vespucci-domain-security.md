@@ -33,8 +33,8 @@ tags:
 - Analytics
 - Product Analytics
 - Data
-- Machine Learning
+- Machine-Learning
 - User Behavior
 - Segmentation
-- SaaS
+- Software-as-a-Service
 ---

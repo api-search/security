@@ -42,5 +42,5 @@ tags:
 - Technical Support
 - Customer Care
 - Service Intelligence
-- Knowledge Management
+- Knowledge-Management
 ---

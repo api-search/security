@@ -78,7 +78,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unify-ai/refs/
 summary_line: http · 1 scheme
 tags:
 - LLM
-- AI
+- Artificial Intelligence
 - Large Language Models
 - LLM Routing
 - Model Gateway
@@ -89,5 +89,5 @@ tags:
 - Benchmarking
 - Model Comparison
 - AI Infrastructure
-- Machine Learning
+- Machine-Learning
 ---

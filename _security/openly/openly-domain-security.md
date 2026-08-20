@@ -44,10 +44,10 @@ tags:
 - Insurance
 - Homeowners Insurance
 - Home Insurance
-- Quote
+- Quotes
 - Bind
 - Policy
 - Endorsement
 - Renewal
-- InsurTech
+- Insurtech
 ---

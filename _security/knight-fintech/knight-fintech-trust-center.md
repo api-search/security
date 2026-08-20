@@ -25,7 +25,7 @@ summary_line: CMMI Maturity Level 5, ISO 9001:2015, ISO 27001:2013, SOC 2 Type I
 tags:
 - Company
 - Enterprise
-- Financial Services
+- Financial-Services
 - Banking
 - Lending
 - Fintech

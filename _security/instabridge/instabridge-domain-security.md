@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instabridge/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- WiFi
+- Wi-Fi
 - eSIM
 - Connectivity
 - Mobile Data

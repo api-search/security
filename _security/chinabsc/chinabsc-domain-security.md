@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chinabsc/refs/
 summary_line: TLSv1.2 · DNSSEC
 tags:
 - Company
-- Health Care
+- Healthcare
 - Telemedicine
 - Remote Consultation
 - Medical Imaging

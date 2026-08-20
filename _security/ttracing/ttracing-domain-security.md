@@ -32,7 +32,7 @@ tags:
 - Company
 - Gaming Chairs
 - Gaming Furniture
-- Ecommerce
+- E-Commerce
 - Retail
 - Agent Commerce
 - MCP

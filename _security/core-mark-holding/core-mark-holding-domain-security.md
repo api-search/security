@@ -34,7 +34,7 @@ tags:
 - Consumer Packaged Goods
 - Convenience Stores
 - Distribution
-- Foodservice
+- Food Service
 - Logistics
 - Retail
 - Snacks

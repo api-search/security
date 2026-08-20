@@ -32,7 +32,7 @@ tags:
 - Company
 - Retail
 - Jewelry
-- Ecommerce
+- E-Commerce
 - Consumer
 - Accessories
 ---

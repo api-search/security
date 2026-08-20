@@ -50,10 +50,10 @@ tags:
 - Automation
 - Integration
 - iPaaS
-- Webhooks
+- Webhook
 - EHR
 - Patient Communication
 - HIPAA
-- Workflow
+- Workflows
 - Digital Health
 ---

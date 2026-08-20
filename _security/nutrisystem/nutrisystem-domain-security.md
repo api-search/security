@@ -31,9 +31,9 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Consumer Subscription
 - Diet
-- Direct To Consumer
-- E Commerce
-- Health And Wellness
+- Direct to Consumer
+- E-Commerce
+- Health and Wellness
 - Meal Delivery
 - Mobile App
 - Nutrition

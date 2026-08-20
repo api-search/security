@@ -19,12 +19,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grotto-ai/refs
 summary_line: SOC 2 Type II, ISO 27701
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Multifamily
 - Leasing
 - Sales Coaching
 - PropTech
-- Real Estate
+- Real-Estate
 - Conversation Intelligence
 trust_url: https://trust.grotto.ai/
 ---

@@ -33,7 +33,7 @@ tags:
 - Carbon Credits
 - Carbon Removal
 - Carbon Markets
-- Nature Based Solutions
+- Nature-Based Solutions
 - Forest Carbon
 - Reforestation
 - Afforestation
@@ -42,7 +42,7 @@ tags:
 - Monitoring Reporting Verification
 - Satellite Imagery
 - Remote Sensing
-- Machine Learning
+- Machine-Learning
 - Biomass Estimation
 - Climate Tech
 - Sustainability

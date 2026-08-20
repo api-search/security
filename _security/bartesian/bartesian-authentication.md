@@ -96,7 +96,7 @@ summary_line: oauth2/openIdConnect/custom-header · 3 schemes
 tags:
 - Company
 - Retail
-- Ecommerce
+- E-Commerce
 - Consumer Products
 - Appliances
 - Beverages
@@ -104,6 +104,6 @@ tags:
 - Commerce
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 ---

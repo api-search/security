@@ -167,6 +167,5 @@ tags:
 - Supplier Management
 - Biotech
 - Pharmaceuticals
-- API
 trust_url: https://www.scienceexchange.com/trust
 ---

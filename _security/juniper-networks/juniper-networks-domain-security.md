@@ -258,7 +258,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automation
 - Cloud
-- Data Center
+- Data-Center
 - Enterprise
 - Networking
 - SDN

@@ -33,7 +33,7 @@ tags:
 - Company
 - Education
 - E-Learning
-- AI
+- Artificial Intelligence
 - EdTech
 - Online Courses
 - Personalized Learning

@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helm/refs/head
 summary_line: TLSv1.3 · HSTS
 tags:
 - Charts
-- Cloud Native
+- Cloud-Native
 - Container Orchestration
 - DevOps
 - Kubernetes

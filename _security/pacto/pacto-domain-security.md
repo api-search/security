@@ -32,9 +32,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Payments
-- Point of Sale
+- Point-of-Sale
 - Fintech
-- Restaurants
+- Restaurant
 - Payment Processing
 - Mexico
 - Merchant Services

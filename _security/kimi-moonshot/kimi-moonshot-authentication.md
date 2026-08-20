@@ -67,8 +67,8 @@ summary_line: http · 1 scheme
 tags:
 - LLM
 - Long Context
-- AI
-- OpenAI Compatible
-- Multimodal
+- Artificial Intelligence
+- OpenAI-Compatible
+- Multi-Modal
 - China
 ---

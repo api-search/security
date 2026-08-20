@@ -41,7 +41,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/security/goodlord-trust-center.yml
 summary_line: ISO 27001, GDPR
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Property Management

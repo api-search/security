@@ -60,7 +60,7 @@ tags:
 - Prime Brokerage
 - Trading
 - Institutional
-- Financial Services
+- Financial-Services
 - Custody
 - Derivatives
 - OTC

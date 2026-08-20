@@ -38,7 +38,7 @@ tags:
 - API Testing
 - HTTP Debugging
 - HTTPS Proxy
-- Open Source
+- Open-Source
 - Security Testing
 - Traffic Analysis
 - Traffic Interception

@@ -98,7 +98,7 @@ tags:
 - Commerce
 - Payments
 - MCP
-- Webhooks
+- Webhook
 - Rewards
 trust_url: https://trust.ongoody.com/
 ---

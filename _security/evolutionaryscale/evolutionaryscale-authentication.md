@@ -67,7 +67,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/evolutio
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/authentication/evolutionaryscale-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
 - Artificial Intelligence
 - Biology
 - Bioinformatics
@@ -79,7 +78,7 @@ tags:
 - Foundation Models
 - Generative Biology
 - Life Sciences
-- Machine Learning
+- Machine-Learning
 - Protein Design
 - Protein Folding
 - Protein Language Models

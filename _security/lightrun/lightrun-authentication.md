@@ -156,6 +156,6 @@ tags:
 - Logging
 - Application Performance
 - Agent Skills
-- Model Context Protocol
+- MCP
 - DevOps
 ---

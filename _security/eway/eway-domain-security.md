@@ -52,7 +52,7 @@ tags:
 - Payment Processing
 - Card Payments
 - Tokenization
-- E-commerce
+- E-Commerce
 - Recurring Payments
-- Subscriptions
+- Subscription
 ---

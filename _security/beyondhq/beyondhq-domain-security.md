@@ -32,7 +32,7 @@ tags:
 - Workforce Planning
 - Distributed Work
 - Hybrid Work
-- Real Estate
+- Real-Estate
 - HR Tech
 - Location Intelligence
 - Talent Analytics

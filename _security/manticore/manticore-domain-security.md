@@ -59,6 +59,6 @@ tags:
 - Full-Text Search
 - Vector Search
 - Elasticsearch Compatible
-- Open Source
+- Open-Source
 - Database
 ---

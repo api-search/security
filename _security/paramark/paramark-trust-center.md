@@ -18,13 +18,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paramark/refs/
 summary_line: trust center published
 tags:
 - Company
-- Applications
+- Application
 - Marketing
 - Analytics
-- Measurement
+- Measurements
 - Marketing Mix Modeling
 - Incrementality
 - Advertising
-- AI
+- Artificial Intelligence
 trust_url: ''
 ---

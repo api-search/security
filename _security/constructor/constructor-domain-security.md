@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/constructor/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Search
 - Product Discovery
 - Recommendations
 - Personalization
 - Retail
-- AI
+- Artificial Intelligence
 ---

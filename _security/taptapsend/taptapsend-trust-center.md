@@ -24,6 +24,6 @@ tags:
 - Fintech
 - Payments
 - Mobile Money
-- Financial Services
+- Financial-Services
 trust_url: https://www.taptapsend.com/en/security
 ---

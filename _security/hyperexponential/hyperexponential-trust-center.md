@@ -25,6 +25,6 @@ tags:
 - Pricing
 - Property and Casualty
 - Actuarial
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.hyperexponential.com/
 ---

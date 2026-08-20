@@ -43,7 +43,7 @@ tags:
 - Streaming Payments
 - Web3
 - DeFi
-- SDKs
+- SDK
 - Stablecoins
 - Solana
 - Cards

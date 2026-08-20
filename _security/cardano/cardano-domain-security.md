@@ -170,7 +170,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Blockchain
 - Cryptocurrency
-- Proof-of-Stake
+- Proof of Stake
 - Smart Contracts
 - Web3
 ---

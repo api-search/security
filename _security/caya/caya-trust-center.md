@@ -27,7 +27,7 @@ tags:
 - Ai Enterprise Software
 - Document Automation
 - Intelligent Document Processing
-- Document Management
+- Document-Management
 - OCR
 - Data Extraction
 - Mail Digitization

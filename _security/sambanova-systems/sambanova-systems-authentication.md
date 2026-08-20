@@ -114,13 +114,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sambanova-syst
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- Ai
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - LLM
 - Inference
 - Generative AI
-- API
 - Agents
 - Embeddings
 ---

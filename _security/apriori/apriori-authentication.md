@@ -63,14 +63,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apriori/refs/h
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- manufacturing
+- Manufacturing
 - product-cost-management
 - design-for-manufacturability
 - should-cost
 - plm-integration
 - cost-engineering
-- digital-manufacturing
-- sustainability
-- workflow-automation
-- cad
+- Digital Manufacturing
+- Sustainability
+- Workflow-Automation
+- CAD
 ---

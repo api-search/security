@@ -52,5 +52,5 @@ tags:
 - Templates
 - Handlebars
 - REST API
-- Webhooks
+- Webhook
 ---

@@ -94,10 +94,10 @@ tags:
 - Data Enrichment
 - Sequences
 - Analytics
-- Tasks
+- Task
 - Bulk API
 - MCP
 - Agent Skills
-- Webhooks
+- Webhook
 trust_url: https://trust.unifygtm.com/
 ---

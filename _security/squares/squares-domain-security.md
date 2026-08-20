@@ -32,8 +32,8 @@ tags:
 - Company
 - Marketplace
 - Workspaces
-- Coworking
+- Co-Working
 - Travel
 - Booking
-- Real Estate
+- Real-Estate
 ---

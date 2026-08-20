@@ -212,8 +212,8 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\ndocs: https://docs.robo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/authentication/roboflow-authentication.yml
 summary_line: apiKey/http/oauth2/openIdConnect · 5 schemes
 tags:
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Artificial Intelligence
 - Object Detection
 - Image Annotation

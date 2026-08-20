@@ -146,6 +146,6 @@ tags:
 - Payments
 - Fiat On-Ramp
 - Custody
-- Webhooks
+- Webhook
 - FIX Protocol
 ---

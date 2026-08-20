@@ -60,8 +60,8 @@ tags:
 - Cloud Computing
 - E-Commerce
 - Commerce
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Big Data
 - Storage
 - Networking

@@ -256,5 +256,5 @@ tags:
 - Testing
 - Vulnerability Scanner
 - DAST
-- Open Source
+- Open-Source
 ---

@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/looksharp/refs
 summary_line: TLSv1.2 · HSTS
 tags:
 - Company
-- Jobs
+- Job
 - Recruiting
 - Internships
 - Careers

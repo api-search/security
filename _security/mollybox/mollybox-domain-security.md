@@ -57,7 +57,6 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Consumer
-- API
 - Bookmarking
 - Resource Capture
 - Read It Later

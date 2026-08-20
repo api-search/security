@@ -33,7 +33,7 @@ tags:
 - Recruiting
 - Talent Marketplace
 - Hiring
-- Jobs
+- Job
 - Tech Talent
-- LATAM
+- LatAm
 ---

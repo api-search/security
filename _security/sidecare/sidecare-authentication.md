@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sidecare/refs/
 summary_line: openIdConnect/oauth2 · 1 scheme
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Insurance
 - Insurtech
 - Health Insurance

@@ -312,7 +312,7 @@ tags:
 - Sales Automation
 - Customer Experience
 - SMS Marketing
-- Ecommerce
+- E-Commerce
 - Segmentation
-- Webhooks
+- Webhook
 ---

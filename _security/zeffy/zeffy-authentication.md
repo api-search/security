@@ -48,10 +48,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zeffy/refs/hea
 summary_line: http · 1 scheme
 tags:
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Donations
 - Payments
 - Donor Management
 - Free
-- Webhooks
+- Webhook
 ---

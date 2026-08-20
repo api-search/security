@@ -33,7 +33,7 @@ tags:
 - Company
 - Quantum
 - Quantum Sensing
-- Semiconductor
+- Semiconductors
 - Failure Analysis
 - Deep Tech
 - Hardware

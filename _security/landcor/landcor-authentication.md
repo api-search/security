@@ -42,7 +42,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: derived\nsource: openapi/landcor-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/authentication/landcor-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Valuation
 - AVM

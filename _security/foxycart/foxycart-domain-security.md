@@ -61,9 +61,9 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - E-Commerce
 - Shopping Cart
-- Subscriptions
+- Subscription
 - Payments
-- Transactions
+- Transaction
 - Customers
 - Digital Products
 ---

@@ -42,6 +42,6 @@ tags:
 - FX
 - International Payments
 - B2B Payments
-- Financial Services
+- Financial-Services
 - Fintech
 ---

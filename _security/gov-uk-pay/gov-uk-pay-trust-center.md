@@ -56,6 +56,6 @@ tags:
 - PCI DSS
 - Refunds
 - Recurring Payments
-- Webhooks
+- Webhook
 trust_url: https://docs.payments.service.gov.uk/security/
 ---

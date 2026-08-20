@@ -113,12 +113,12 @@ tags:
 - GitOps
 - Continuous Delivery
 - Kubernetes
-- Argo CD
+- ArgoCD
 - Kargo
 - Platform Engineering
 - DevOps
 - Progressive Delivery
-- Cloud Native
+- Cloud-Native
 - AIOps
 - Developer Tools
 ---

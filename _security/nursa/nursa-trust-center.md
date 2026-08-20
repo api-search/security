@@ -107,6 +107,6 @@ tags:
 - Human Resources
 - Per Diem
 - Shifts
-- Webhooks
+- Webhook
 trust_url: https://trust.nursa.com/
 ---

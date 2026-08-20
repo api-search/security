@@ -43,7 +43,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/scrapfly
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/authentication/scrapfly-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Data Extraction
 - Screenshots
 - Web Scraping

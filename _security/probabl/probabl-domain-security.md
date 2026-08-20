@@ -47,15 +47,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Open Source
-- machine-learning
-- data-science
+- Open-Source
+- Machine-Learning
+- Data Science
 - scikit-learn
-- mlops
-- model-evaluation
-- experiment-tracking
-- agent-skills
-- artificial-intelligence
-- python
-- france
+- MLOps
+- Model Evaluation
+- Experiment Tracking
+- Agent Skills
+- Artificial Intelligence
+- Python
+- France
 ---

@@ -38,11 +38,11 @@ tags:
 - Company
 - Crowdfunding
 - Donations
-- Nonprofit
+- Non-Profit
 - Philanthropy
 - Zakat
 - Social Impact
 - Insurance
 - Indonesia
-- Open Source
+- Open-Source
 ---

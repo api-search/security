@@ -35,7 +35,7 @@ tags:
 - Solar Energy
 - Clean Energy
 - Renewable Energy
-- Real Estate
+- Real-Estate
 - Battery Storage
 - EV Charging
 - Energy

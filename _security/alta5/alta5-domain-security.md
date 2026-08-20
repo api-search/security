@@ -41,7 +41,7 @@ tags:
 - Automated Trading
 - Fintech
 - Bots
-- Webhooks
+- Webhook
 - Backtesting
 - Brokerage
 ---

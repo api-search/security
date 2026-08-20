@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: openapi/obie-ac
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/authentication/investec-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

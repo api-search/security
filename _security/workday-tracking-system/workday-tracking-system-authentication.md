@@ -114,7 +114,6 @@ tags:
 - Attendance
 - Enterprise
 - HCM
-- Human Capital Management
 - Payroll
 - Scheduling
 - Time Tracking

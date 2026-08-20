@@ -34,6 +34,6 @@ tags:
 - Autoimmune Disease
 - Drug Discovery
 - Precision Medicine
-- Multi-Omics
+- Multiomics
 - Therapeutics
 ---

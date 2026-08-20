@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meal-ticket/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Foodservice
+- Food Service
 - Foodservice Distribution
-- Restaurants
+- Restaurant
 - Rebate Management
 - Profitability Management
 - Supply Chain
-- SaaS
+- Software-as-a-Service
 ---

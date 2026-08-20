@@ -47,5 +47,5 @@ tags:
 - Data Security
 - Endpoint Security
 - Cybersecurity
-- SaaS
+- Software-as-a-Service
 ---

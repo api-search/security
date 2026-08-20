@@ -34,13 +34,13 @@ tags:
 - IDE
 - Rust
 - GPU Accelerated
-- Open Source
+- Open-Source
 - AI Coding
 - Agentic Editing
 - Real-Time Collaboration
 - Language Server Protocol
 - Debug Adapter Protocol
-- Model Context Protocol
+- MCP
 - Agent Client Protocol
 - WebAssembly Extensions
 - Tree-sitter

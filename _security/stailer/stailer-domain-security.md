@@ -33,9 +33,9 @@ tags:
 - Company
 - Enterprise
 - Retail
-- E-commerce
+- E-Commerce
 - Grocery
 - Japan
-- SaaS
+- Software-as-a-Service
 - Digital Transformation
 ---

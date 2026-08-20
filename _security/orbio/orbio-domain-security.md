@@ -39,5 +39,5 @@ tags:
 - Geospatial
 - Oil and Gas
 - Environmental
-- Machine Learning
+- Machine-Learning
 ---

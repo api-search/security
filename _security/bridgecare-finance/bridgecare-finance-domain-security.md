@@ -32,12 +32,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Early Childhood Education
-- Child Care
+- Childcare
 - Government
 - GovTech
 - Education
 - Eligibility & Enrollment
 - Grants Management
 - Subsidy Management
-- SaaS
+- Software-as-a-Service
 ---

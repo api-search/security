@@ -68,7 +68,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandwatch/ref
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Analytics
-- Social Media
+- Social-Media
 - Social Media Monitoring
 - Consumer Intelligence
 - Brand Management

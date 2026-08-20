@@ -40,6 +40,6 @@ tags:
 - Task Management
 - Forms
 - Deskless
-- SaaS
+- Software-as-a-Service
 trust_url: https://connecteam.com/trust-center/
 ---

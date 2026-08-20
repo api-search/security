@@ -92,5 +92,5 @@ tags:
 - Coaching
 - Fitness Software
 - Client Management
-- SaaS
+- Software-as-a-Service
 ---

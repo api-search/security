@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: >-\n  https://f
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/authentication/reapit-authentication.yml
 summary_line: oauth2/openIdConnect · 3 schemes
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - CRM

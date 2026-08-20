@@ -329,6 +329,6 @@ tags:
 - Whiteboard
 - Visual Collaboration
 - Diagramming
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.miro.com/
 ---

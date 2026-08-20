@@ -104,6 +104,6 @@ tags:
 - Buyer Engagement
 - Training
 - Coaching
-- AI
+- Artificial Intelligence
 - MCP Server
 ---

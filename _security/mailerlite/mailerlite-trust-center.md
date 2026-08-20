@@ -80,8 +80,8 @@ tags:
 - Newsletters
 - Subscribers
 - Campaigns
-- Webhooks
-- E-commerce
+- Webhook
+- E-Commerce
 - Segmentation
 - Transactional Email
 - MCP

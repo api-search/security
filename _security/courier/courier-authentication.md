@@ -160,9 +160,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/courier-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/authentication/courier-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Notifications
+- Notification
 - Email
 - SMS
 - Push
-- API
 ---

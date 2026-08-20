@@ -24,12 +24,12 @@ summary_line: ISO 27001, ISO 27017, ISO 27018, SOC 2 Type 2, PCI DSS Level 1, HI
 tags:
 - Company
 - Website Builder
-- eCommerce
+- E-Commerce
 - CMS
 - Bookings
 - Payments
 - Headless
-- SaaS
-- No Code
+- Software-as-a-Service
+- No-Code
 trust_url: https://www.wix.com/website-security
 ---

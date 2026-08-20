@@ -60,18 +60,18 @@ source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voyant/refs/heads/main/security/voyant-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- artificial-intelligence
-- context-management
-- brand-governance
-- product-marketing
+- Artificial Intelligence
+- Context Management
+- Brand Governance
+- Product Marketing
 - gtm-operations
-- marketing-automation
-- content-generation
-- competitive-intelligence
-- semantic-search
-- rag
-- mcp
+- Marketing Automation
+- Content Generation
+- Competitive Intelligence
+- Semantic Search
+- RAG
+- MCP
 - agent-native
-- signals
-- telemetry
+- Signals
+- Telemetry
 ---

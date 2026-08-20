@@ -63,7 +63,6 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Consumer
-- API
 - Bookmarking
 - Resource Capture
 - Read It Later

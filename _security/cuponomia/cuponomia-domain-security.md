@@ -33,7 +33,7 @@ tags:
 - Coupons
 - Cashback
 - Discounts
-- E-commerce
+- E-Commerce
 - Affiliate Marketing
 - Deals
 - Brazil

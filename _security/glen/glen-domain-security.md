@@ -35,9 +35,9 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Model Context Protocol
+- MCP
 - Organizational Memory
-- Knowledge Management
+- Knowledge-Management
 - Developer Tools
 - Y Combinator
 ---

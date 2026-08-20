@@ -94,13 +94,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-a
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Messaging
 - Business Automation
 - Chatbots
 - Mini Apps
 - Customer Requests
-- Workflow Automation
+- Workflow-Automation
 - MAX
 - Telegram
 - Russian Language

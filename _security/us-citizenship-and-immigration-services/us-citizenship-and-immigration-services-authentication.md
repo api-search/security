@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/uscis-ca
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/authentication/us-citizenship-and-immigration-services-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Federal Government
+- Federal-Government
 - Immigration
 - Citizenship
 - Case Status

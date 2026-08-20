@@ -47,7 +47,7 @@ tags:
 - Energy Transition
 - Graphite
 - Lithium
-- Lithium Ion
+- Lithium-Ion
 - Market Intelligence
 - Mining
 - Nickel

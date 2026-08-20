@@ -152,5 +152,5 @@ tags:
 - HIV
 - Rare Disease
 - Clinical Stage
-- Content API
+- content-api
 ---

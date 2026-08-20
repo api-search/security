@@ -103,7 +103,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Contingent Workforce
 - External Talent
-- Human Capital Management
+- HCM
 - Services Procurement
 - Statements of Work
 - Vendor Management

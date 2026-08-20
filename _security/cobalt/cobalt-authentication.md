@@ -100,5 +100,5 @@ summary_line: apiKey · 2 schemes
 tags:
 - Automation
 - Embedded iPaaS
-- Integrations
+- Integration
 ---

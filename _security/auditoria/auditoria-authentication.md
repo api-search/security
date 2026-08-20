@@ -106,7 +106,7 @@ tags:
 - Automation
 - ERP
 - Agents
-- SaaS
+- Software-as-a-Service
 - Invoicing
 - Procurement
 ---

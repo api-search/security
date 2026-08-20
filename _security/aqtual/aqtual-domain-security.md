@@ -40,6 +40,6 @@ tags:
 - Biotechnology
 - Oncology
 - Rheumatology
-- Health Care
+- Healthcare
 - United States
 ---

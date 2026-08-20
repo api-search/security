@@ -86,13 +86,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/reka-ope
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/authentication/reka-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
-- Multimodal
+- Artificial Intelligence
+- Multi-Modal
 - Large Language Models
 - Vision
 - Speech
 - Foundation Models
-- OpenAI Compatible
+- OpenAI-Compatible
 - SDK
 - Enterprise
 - On-Premises

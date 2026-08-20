@@ -23,9 +23,9 @@ tags:
 - Geospatial
 - Analytics
 - Risk
-- Real Estate
+- Real-Estate
 - ESG
 - Data
-- Machine Learning
+- Machine-Learning
 trust_url: https://alphageo.ai/security/
 ---

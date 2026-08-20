@@ -43,11 +43,11 @@ tags:
 - Company
 - Payments
 - Cross-Border Payments
-- FinTech
+- Fintech
 - Education Payments
 - Healthcare Payments
 - Travel Payments
 - B2B Payments
 - Checkout
-- Webhooks
+- Webhook
 ---

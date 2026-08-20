@@ -91,9 +91,9 @@ tags:
 - SDK
 - Developer Platform
 - Extensions
-- Print On Demand
+- Print on Demand
 - E-Commerce
-- AI
+- Artificial Intelligence
 - Mockups
 - Typography
 ---

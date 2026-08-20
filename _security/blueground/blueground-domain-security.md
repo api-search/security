@@ -61,8 +61,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blueground/ref
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Real Estate
-- Proptech
+- Real-Estate
+- PropTech
 - Travel
 - Hospitality
 - Furnished Rentals

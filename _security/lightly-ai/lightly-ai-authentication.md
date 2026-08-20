@@ -81,8 +81,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lightly-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/authentication/lightly-ai-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- AI
-- Computer Vision
+- Artificial Intelligence
+- Computer-Vision
 - Data Curation
 - Active Learning
 - Embeddings

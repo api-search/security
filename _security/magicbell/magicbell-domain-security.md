@@ -203,16 +203,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magicbell/refs/heads/main/security/magicbell-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- notifications
-- push notifications
-- in-app notifications
-- email
+- Notification
+- Push Notifications
+- In-App Notifications
+- Email
 - SMS
 - Slack
 - Microsoft Teams
-- webhooks
+- Webhook
 - notification inbox
-- multichannel
-- mobile push
-- web push
+- Multi-Channel
+- Mobile Push
+- Web Push
 ---

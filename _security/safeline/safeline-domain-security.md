@@ -81,7 +81,7 @@ tags:
 - Proxy
 - WAF
 - Security
-- Open Source
+- Open-Source
 - Reverse Proxy
 - API Gateway
 ---

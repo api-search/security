@@ -32,13 +32,13 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Banking
-- Financial Services
+- Financial-Services
 - Core Banking
 - Digital Banking
 - Credit Unions
 - Fintech
 - Account Opening
-- Workflow Automation
+- Workflow-Automation
 - CRM
 - BPM
 - Bank Servicing

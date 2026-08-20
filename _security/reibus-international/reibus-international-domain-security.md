@@ -36,5 +36,5 @@ tags:
 - Marketplace
 - Transportation
 - Supply Chain
-- SaaS
+- Software-as-a-Service
 ---

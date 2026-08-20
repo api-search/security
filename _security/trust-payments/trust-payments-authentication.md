@@ -49,9 +49,9 @@ tags:
 - Acquiring
 - Card Payments
 - Tokenization
-- Subscriptions
-- 3-D Secure
-- Point of Sale
-- Webhooks
+- Subscription
+- 3D Secure
+- Point-of-Sale
+- Webhook
 - Payouts
 ---

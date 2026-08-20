@@ -33,7 +33,7 @@ tags:
 - Company
 - Crypto Defi
 - DeFi
-- Stablecoin
+- Stablecoins
 - Ethereum
 - Smart Contracts
 - Blockchain

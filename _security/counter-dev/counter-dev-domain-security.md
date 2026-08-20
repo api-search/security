@@ -55,7 +55,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Web Analytics
 - Privacy
-- Open Source
+- Open-Source
 - Tracking
 - Self-Hosted
 ---

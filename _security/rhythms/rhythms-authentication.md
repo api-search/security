@@ -102,11 +102,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/h
 summary_line: undocumented · 0 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Productivity
 - Goal Tracking
 - OKR
-- Workflow Automation
+- Workflow-Automation
 - Team Collaboration
 - Business Reviews
 - MCP

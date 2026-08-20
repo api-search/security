@@ -32,7 +32,7 @@ tags:
 - Enterprise Software
 - Back Office Automation
 - AI Agents
-- Workflow Automation
+- Workflow-Automation
 - Finance Operations
 - Procurement
 - ERP

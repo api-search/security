@@ -57,16 +57,16 @@ source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/security/nowsta-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- workforce-management
+- Workforce Management
 - staff-scheduling
 - shift-scheduling
-- time-and-attendance
-- hourly-workforce
+- Time and Attendance
+- Hourly Workforce
 - gig-work
 - event-staffing
-- hospitality
+- Hospitality
 - staffing-agency
-- vendor-management
-- payroll
-- human-resources
+- Vendor Management
+- Payroll
+- Human Resources
 ---

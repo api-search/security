@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Social Network
-- Social Media
+- Social-Media
 - Consumer
 - Mobile
 - Privacy

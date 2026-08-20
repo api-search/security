@@ -114,16 +114,16 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/authentication/traveloka-authentication.yml
 summary_line: oauth2/apiKey/http · 0 schemes
 tags:
-- travel
-- online-travel-agency
-- accommodation
-- hotel-booking
-- flights
-- activities
-- hospitality
-- distribution
-- channel-manager
-- opentravel
-- southeast-asia
-- indonesia
+- Travel
+- Online Travel Agency
+- Accommodation
+- Hotel Booking
+- Flights
+- Activities
+- Hospitality
+- Distribution
+- Channel Manager
+- OpenTravel
+- Southeast Asia
+- Indonesia
 ---

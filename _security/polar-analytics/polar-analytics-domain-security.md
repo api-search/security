@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Analytics
-- Ecommerce
+- E-Commerce
 - Shopify
 - Business Intelligence
 - MCP

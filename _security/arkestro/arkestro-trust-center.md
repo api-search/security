@@ -99,17 +99,17 @@ source_yaml: "generated: '2026-08-06'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/security/arkestro-trust-center.yml
 summary_line: ISO 27001:2022, SOC 2 Type II
 tags:
-- procurement
-- sourcing
-- supply-chain
-- spend-management
-- e-sourcing
-- supplier-management
-- purchase-orders
+- Procurement
+- Sourcing
+- Supply Chain
+- Spend Management
+- eSourcing
+- Supplier Management
+- Purchase Orders
 - procurement-analytics
-- enterprise-software
+- Enterprise Software
 - predictive-procurement
-- mcp
-- webhooks
+- MCP
+- Webhook
 trust_url: https://trust.arkestro.com/
 ---

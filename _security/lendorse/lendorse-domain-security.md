@@ -30,8 +30,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lendorse/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Financial Services
-- FinTech
+- Financial-Services
+- Fintech
 - Lending
 - Education
 - Student Finance

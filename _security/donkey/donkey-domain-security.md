@@ -39,5 +39,5 @@ tags:
 - Customs
 - Cross-Border
 - Y Combinator
-- AI
+- Artificial Intelligence
 ---

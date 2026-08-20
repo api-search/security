@@ -33,9 +33,9 @@ tags:
 - Consumer
 - Hospitality
 - Travel
-- Real Estate
-- Proptech
-- Short Term Rental
+- Real-Estate
+- PropTech
+- Short-Term Rental
 - Aparthotel
 - Germany
 - Europe

@@ -125,10 +125,10 @@ tags:
 - Revenue Operations
 - Artificial Intelligence
 - Contacts
-- Accounts
+- Account
 - Opportunities
 - Pipeline
-- Go To Market
+- Go-To-Market
 - MCP
 - Campaigns
 - Audiences

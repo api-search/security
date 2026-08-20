@@ -35,7 +35,7 @@ tags:
 - Hiring
 - Temporary Work
 - Human Resources
-- Jobs
+- Job
 - Gig Economy
 - Hong Kong
 ---

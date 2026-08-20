@@ -33,9 +33,9 @@ tags:
 - AI Agents
 - Agent Orchestration
 - Developer Tools
-- Open Source
+- Open-Source
 - Programming Language
 - LLM
-- Workflow Automation
+- Workflow-Automation
 - Y Combinator
 ---

@@ -37,5 +37,5 @@ tags:
 - Financial Crime
 - Risk
 - Customer Intelligence
-- AI
+- Artificial Intelligence
 ---

@@ -39,7 +39,7 @@ tags:
 - API Testing
 - CI/CD
 - CLI
-- Collections
+- Collection
 - GraphQL
 - REST Client
 - VS Code

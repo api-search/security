@@ -29,7 +29,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: derived\nsource: openapi/obie-ope
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skipton-building-society/refs/heads/main/authentication/skipton-building-society-authentication.yml
 summary_line: 0 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Building Society
 - Open Banking

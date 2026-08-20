@@ -53,5 +53,5 @@ tags:
 - Marketing
 - Analytics
 - Event Management
-- Martech
+- MarTech
 ---

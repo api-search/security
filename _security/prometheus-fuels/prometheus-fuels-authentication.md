@@ -112,6 +112,6 @@ tags:
 - Synthetic Fuels
 - Direct Air Capture
 - Energy Storage
-- Content API
+- content-api
 - WordPress
 ---

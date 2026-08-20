@@ -87,6 +87,6 @@ tags:
 - Voice Agents
 - Productivity
 - Collaboration
-- Model Context Protocol
+- MCP
 - REST API
 ---

@@ -31,7 +31,7 @@ tags:
 - Insurance
 - Patient Access
 - Analytics
-- SaaS
+- Software-as-a-Service
 - United States
 trust_url: https://finthrive.com/security-and-data-trust-center
 ---

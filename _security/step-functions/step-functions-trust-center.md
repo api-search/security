@@ -30,7 +30,7 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - API Composition
 - Serverless Orchestration
-- Workflow
+- Workflows
 - State Machine
 - Automation
 trust_url: https://aws.amazon.com/compliance/

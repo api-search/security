@@ -1111,7 +1111,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Credit Cards
 - Digital Identity
-- Financial Services
+- Financial-Services
 - Fraud Detection
 - Open Banking
 - Payments

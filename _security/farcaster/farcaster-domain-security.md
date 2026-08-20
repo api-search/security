@@ -104,5 +104,5 @@ tags:
 - Frames
 - Authentication
 - Web3
-- SDKs
+- SDK
 ---

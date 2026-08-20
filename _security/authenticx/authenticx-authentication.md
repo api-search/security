@@ -152,16 +152,16 @@ source_yaml: "generated: '2026-08-06'\nmethod: searched\nsource: openapi/authent
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/authentication/authenticx-authentication.yml
 summary_line: oauth2/openIdConnect · 1 scheme
 tags:
-- conversation-intelligence
-- healthcare
-- speech-analytics
-- contact-center
-- customer-experience
-- quality-assurance
-- pharmacovigilance
-- patient-experience
-- transcription
-- life-sciences
-- scim
-- oauth2
+- Conversation Intelligence
+- Healthcare
+- Speech Analytics
+- Contact Center
+- Customer Experience
+- Quality Assurance
+- Pharmacovigilance
+- Patient Experience
+- Transcription
+- Life Sciences
+- SCIM
+- Authentication
 ---

@@ -143,7 +143,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typeface/refs/
 summary_line: http-bearer/oauth2 · 3 schemes
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - Content Generation
 - Marketing

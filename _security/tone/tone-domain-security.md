@@ -37,5 +37,5 @@ tags:
 - Music
 - Music Rights
 - Fintech
-- SaaS
+- Software-as-a-Service
 ---

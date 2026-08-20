@@ -22,14 +22,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/
 summary_line: ISO/IEC 27001, SOC 2 Type II, CSA STAR, EcoVadis
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - CRM
 - Sales
 - Marketing
 - Customer Service
 - Sales Automation
 - REST API
-- Webhooks
+- Webhook
 - Sales Intelligence
 trust_url: https://www.sugarai.com/legal/security-trust
 ---

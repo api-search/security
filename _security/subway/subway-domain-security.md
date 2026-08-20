@@ -36,8 +36,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/subway/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Fast Food
-- Restaurants
-- Food & Beverage
+- Restaurant
+- Food and Beverage
 - Quick Service Restaurant
 - Loyalty
 ---

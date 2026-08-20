@@ -36,5 +36,5 @@ tags:
 - Plant-Based
 - CPG
 - Non-Dairy
-- Foodservice
+- Food Service
 ---

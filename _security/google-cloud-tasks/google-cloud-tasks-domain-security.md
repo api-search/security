@@ -55,5 +55,5 @@ tags:
 - Distributed Systems
 - Google Cloud
 - Queues
-- Tasks
+- Task
 ---

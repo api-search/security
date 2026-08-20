@@ -32,9 +32,9 @@ tags:
 - Company
 - Analytics
 - Predictive Analytics
-- Financial Services
+- Financial-Services
 - Banking
 - Capital Markets
 - Natural Language Processing
-- Machine Learning
+- Machine-Learning
 ---

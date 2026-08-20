@@ -34,7 +34,7 @@ tags:
 - Tournaments
 - Leagues
 - Sports Management
-- SaaS
+- Software-as-a-Service
 - Facilities
 - Academies
 - Payments

@@ -104,6 +104,6 @@ tags:
 - Lending
 - Direct Deposit
 - API-First
-- Webhooks
+- Webhook
 - Pay by Paycheck
 ---

@@ -30,7 +30,7 @@ summary_line: TLSv1.2
 tags:
 - Company
 - Food
-- Restaurants
+- Restaurant
 - Dining
 - Discovery
 - Reviews

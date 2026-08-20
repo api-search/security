@@ -62,6 +62,6 @@ tags:
 - Data Marketplace
 - Third-Party Data
 - Analytics
-- Subscriptions
+- Subscription
 trust_url: https://aws.amazon.com/compliance/
 ---

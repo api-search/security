@@ -53,7 +53,7 @@ summary_line: oauth2/mutualTLS · 4 schemes
 tags:
 - Banking
 - Open Banking
-- Financial Services
+- Financial-Services
 - PSD2
 - Berlin Group
 - NextGenPSD2

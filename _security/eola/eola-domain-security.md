@@ -35,9 +35,9 @@ tags:
 - Reservations
 - Activities
 - Leisure
-- Experiences
+- Experience
 - Tours
 - Watersports
 - Payments
-- SaaS
+- Software-as-a-Service
 ---

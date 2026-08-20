@@ -34,7 +34,7 @@ tags:
 - Game Engine
 - Game Development
 - No-Code
-- Open Source
+- Open-Source
 - Developer Tools
 - Cross-Platform
 - Multiplayer

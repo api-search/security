@@ -41,9 +41,9 @@ tags:
 - Accounting
 - Finance
 - Payments
-- Document Management
+- Document-Management
 - E-Invoicing
-- SaaS
+- Software-as-a-Service
 - Japan
 - Ricoh
 ---

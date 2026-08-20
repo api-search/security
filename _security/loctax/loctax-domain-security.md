@@ -36,6 +36,6 @@ tags:
 - Governance
 - Risk Management
 - Legal Tech
-- SaaS
+- Software-as-a-Service
 - Fintech
 ---

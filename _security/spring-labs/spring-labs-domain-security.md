@@ -33,7 +33,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Compliance
-- Financial Services
+- Financial-Services
 - Banking
 - Customer Experience
 - Governance Risk Compliance

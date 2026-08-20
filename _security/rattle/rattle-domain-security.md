@@ -52,13 +52,13 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Sales
-- RevOps
+- Revenue Operations
 - CRM
 - Salesforce
 - Slack
 - Microsoft Teams
 - Sales Automation
 - Revenue Intelligence
-- Workflow Automation
+- Workflow-Automation
 - Artificial Intelligence
 ---

@@ -38,5 +38,4 @@ tags:
 - Climate Risk
 - Agriculture
 - Renewable Energy
-- API
 ---

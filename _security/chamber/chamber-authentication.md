@@ -56,7 +56,7 @@ summary_line: http · 1 scheme
 tags:
 - GPU
 - AIOps
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Infrastructure
 - Cloud

@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: derived\nsource: openapi/coutts-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coutts/refs/heads/main/authentication/coutts-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Private Bank
 - Wealth Management

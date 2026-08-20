@@ -64,6 +64,6 @@ tags:
 - Policy as Code
 - Open Policy Agent
 - Access Control
-- Cloud Native
+- Cloud-Native
 - API Security
 ---

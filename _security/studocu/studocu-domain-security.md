@@ -42,5 +42,5 @@ tags:
 - Study Materials
 - Document Sharing
 - Learning
-- AI
+- Artificial Intelligence
 ---

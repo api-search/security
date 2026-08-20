@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://www.can
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/authentication/canva-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- Apps
+- Application
 - Automation
 - Brand Management
 - Collaboration

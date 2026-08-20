@@ -48,7 +48,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duroflexworld/
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Retail
 - Sleep
 - Mattresses

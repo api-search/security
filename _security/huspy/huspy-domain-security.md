@@ -31,9 +31,9 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Mortgage
-- Real Estate
+- Real-Estate
 - PropTech
-- FinTech
+- Fintech
 - Lending
 - UAE
 - Dubai

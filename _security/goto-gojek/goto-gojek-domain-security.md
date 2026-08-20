@@ -59,11 +59,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/security/goto-gojek-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Superapp
+- Super App
 - Ride Hailing
 - Food Delivery
 - Last-Mile Logistics
-- E-commerce
+- E-Commerce
 - Digital Payments
 - Indonesia
 - Southeast Asia

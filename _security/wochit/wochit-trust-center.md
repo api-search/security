@@ -25,8 +25,8 @@ tags:
 - Media
 - Content Creation
 - White Label
-- SaaS
+- Software-as-a-Service
 - Enterprise
-- AI
+- Artificial Intelligence
 trust_url: https://www.wochit.com/security/
 ---

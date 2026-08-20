@@ -42,7 +42,7 @@ tags:
 - Anti-Money Laundering
 - Behavioral Analytics
 - Risk Scoring
-- Machine Learning
+- Machine-Learning
 - Payments
 - Company
 ---

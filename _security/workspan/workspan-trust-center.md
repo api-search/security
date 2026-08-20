@@ -181,6 +181,6 @@ tags:
 - Cloud Marketplaces
 - Sales
 - B2B
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.workspan.com/platform/security
 ---

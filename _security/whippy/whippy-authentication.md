@@ -73,12 +73,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/whippy-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/authentication/whippy-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Communication
+- Communications
 - Messaging
 - SMS
 - Email
 - Voice
-- AI
+- Artificial Intelligence
 - Campaigns
 - Sequences
 ---

@@ -126,7 +126,7 @@ summary_line: SOC 2 Type 2, ISO 27001, CCPA, MACH Certified
 tags:
 - Company
 - Search
-- Ecommerce
+- E-Commerce
 - Product Discovery
 - Recommendations
 - Personalization

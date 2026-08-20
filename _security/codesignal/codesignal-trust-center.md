@@ -32,6 +32,6 @@ tags:
 - Assessment
 - Education
 - GraphQL
-- Webhooks
+- Webhook
 trust_url: https://trust.codesignal.com/
 ---

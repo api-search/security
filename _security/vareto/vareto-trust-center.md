@@ -25,6 +25,6 @@ tags:
 - Financial Planning
 - Forecasting
 - Budgeting
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.vareto.com/
 ---

@@ -57,13 +57,13 @@ summary_line: SOC 2, GDPR
 tags:
 - Accessibility
 - Appium
-- Applications
+- Application
 - Automation
 - CI/CD
 - Cross-Browser Testing
 - Enterprise
 - JavaScript
-- Low Code
+- Low-Code
 - Mobile Testing
 - QA
 - Regression Testing

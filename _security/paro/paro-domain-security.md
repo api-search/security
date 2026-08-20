@@ -37,5 +37,5 @@ tags:
 - Fractional CFO
 - Bookkeeping
 - Professional Services
-- AI
+- Artificial Intelligence
 ---

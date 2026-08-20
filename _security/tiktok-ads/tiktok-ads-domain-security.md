@@ -49,7 +49,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Advertising
 - Marketing
-- Social Media
+- Social-Media
 - Ad Campaigns
 - Performance Marketing
 - Conversion Tracking

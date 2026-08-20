@@ -46,11 +46,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Data Management
 - Data Annotation
 - MLOps
-- Computer Vision
+- Computer-Vision
 - Generative AI
 - Data Labeling
 - Pipelines

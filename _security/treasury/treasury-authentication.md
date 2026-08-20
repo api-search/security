@@ -48,5 +48,5 @@ tags:
 - Brokerage
 - Financial Education
 - MCP
-- Agent
+- Agents
 ---

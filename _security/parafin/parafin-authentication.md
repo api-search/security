@@ -46,5 +46,4 @@ tags:
 - Payments
 - Small Business
 - Working Capital
-- API
 ---

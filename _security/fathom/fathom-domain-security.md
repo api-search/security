@@ -72,6 +72,6 @@ tags:
 - Website Analytics
 - Cookieless
 - Page Views
-- Events
+- Event
 - Reporting
 ---

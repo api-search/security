@@ -64,15 +64,15 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/security/linkagi-model-api-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- AI
+- Artificial Intelligence
 - LLM
-- AI API gateway
-- relay
-- OpenAI-compatible
-- Anthropic-compatible
+- AI API Gateway
+- Relay
+- OpenAI-Compatible
+- Anthropic Compatible
 - Gemini-compatible
-- developer tools
+- Developer Tools
 - CLI coding agents
-- model routing
+- Model Routing
 - China
 ---

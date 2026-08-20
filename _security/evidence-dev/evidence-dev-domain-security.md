@@ -56,9 +56,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evidence-dev/r
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Business Intelligence
-- BI as Code
+- BI-as-Code
 - SQL
 - Markdown
 - Data Apps
-- Open Source
+- Open-Source
 ---

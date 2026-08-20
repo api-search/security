@@ -36,5 +36,4 @@ tags:
 - Digital Insurance
 - Claims
 - Europe
-- API
 ---

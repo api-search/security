@@ -78,10 +78,10 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/security/fireflies-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Meeting Assistant
 - Transcription
-- Summaries
+- Summary
 - Action Items
 - GraphQL
 - Meetings

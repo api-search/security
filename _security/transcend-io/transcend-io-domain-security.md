@@ -101,7 +101,7 @@ tags:
 - GDPR
 - CCPA
 - Compliance
-- Webhooks
+- Webhook
 - GraphQL
 - MCP
 - SDK

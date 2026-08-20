@@ -90,9 +90,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tripleseat/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Restaurant
-- Events
+- Event
 - Catering
 - Leads
-- Webhooks
+- Webhook
 - Sales
 ---

@@ -25,7 +25,6 @@ tags:
 - Flutter
 - Mobile Development
 - Visual Development
-- API
 - CLI
 - MCP
 trust_url: https://trust.flutterflow.io/

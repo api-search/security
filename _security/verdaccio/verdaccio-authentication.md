@@ -85,15 +85,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs
 summary_line: http · 2 schemes
 tags:
 - npm
-- registry
-- package-manager
+- Registry
+- Package Manager
 - private-registry
-- proxy
-- nodejs
-- open-source
-- self-hosted
-- yarn
+- Proxy
+- Node.js
+- Open-Source
+- Self-Hosted
+- YARN
 - pnpm
-- docker
-- kubernetes
+- Docker
+- Kubernetes
 ---

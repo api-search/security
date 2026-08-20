@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fern/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agent Ready
-- AI
+- Artificial Intelligence
 - API Definitions
 - AsyncAPI
 - Code Generation
@@ -39,12 +39,12 @@ tags:
 - Developer Portal
 - Documentation
 - gRPC
-- llms.txt
+- llms-txt
 - MCP
 - OpenAPI
 - OpenRPC
 - Platform
 - Protobuf
-- SDKs
+- SDK
 - WebSockets
 ---

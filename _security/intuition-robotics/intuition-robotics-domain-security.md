@@ -33,7 +33,7 @@ tags:
 - Company
 - Robotics
 - Artificial Intelligence
-- Eldercare
+- Elder Care
 - Consumer Electronics
 - Healthcare
 - Agentic Commerce

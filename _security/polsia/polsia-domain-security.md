@@ -35,6 +35,6 @@ tags:
 - AI Agents
 - Automation
 - Business Automation
-- SaaS
+- Software-as-a-Service
 - Autonomous Agents
 ---

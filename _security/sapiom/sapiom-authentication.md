@@ -58,10 +58,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/he
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Agents
 - Agent Infrastructure
-- Model Context Protocol
+- MCP
 - API Gateway
 - Payments
 - Agentic Commerce

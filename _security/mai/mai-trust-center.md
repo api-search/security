@@ -18,7 +18,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mai/refs/heads
 summary_line: trust center published
 tags:
 - Company
-- AI
 - Artificial Intelligence
 - Marketing
 - Advertising

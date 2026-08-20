@@ -99,7 +99,7 @@ tags:
 - Baby Food
 - Consumer Packaged Goods
 - Food and Beverage
-- eCommerce
+- E-Commerce
 - Retail
 - Direct to Consumer
 - Shopify

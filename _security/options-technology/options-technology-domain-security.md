@@ -49,6 +49,6 @@ tags:
 - Streaming
 - Trading Infrastructure
 - Exchange Data
-- Managed Services
+- Managed Service
 - Low Latency
 ---

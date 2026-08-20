@@ -83,11 +83,11 @@ tags:
 - Documentation
 - Mock Servers
 - Platform
-- SDKs
+- SDK
 - API Tooling
 - SDK Generation
 - MCP Generation
-- AI
+- Artificial Intelligence
 - Hybrid Codegen
 - OpenAPI Linting
 ---

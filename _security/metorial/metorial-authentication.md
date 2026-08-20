@@ -40,11 +40,9 @@ summary_line: apiKey · 2 schemes
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - AI Agents
 - Agentic Infrastructure
-- Integrations
+- Integration
 - Developer Tools
 - Serverless
-- API
 ---

@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: peking-institutional-repository-rest-openapi.yml
+  format: yaml
+  label: PKU Institutional Repository REST API
+  slug: ir-rest
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/openapi/peking-institutional-repository-rest-openapi.yml
+- filename: peking-institutional-repository-oai-pmh-openapi.yml
+  format: yaml
+  label: PKU Institutional Repository OAI-PMH API
+  slug: ir-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/openapi/peking-institutional-repository-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,10 +48,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/security/peking-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- China
+- Public Research University
+- C9 League
+- Research Repository
+- Identity Federation
 - Research Data
 - Open Data
-- China
+- Research Computing
+- OAI-PMH
 ---

@@ -39,5 +39,5 @@ tags:
 - CSRD
 - Supply Chain
 - KPIs
-- Apps
+- Application
 ---

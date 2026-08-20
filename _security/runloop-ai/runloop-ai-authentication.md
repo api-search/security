@@ -186,7 +186,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/runloop-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/authentication/runloop-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - AI Agents
 - Coding Agents
 - Sandboxes
@@ -197,7 +197,7 @@ tags:
 - SWE-Bench
 - MCP
 - Snapshots
-- microVM
+- MicroVM
 - Enterprise
 - SOC 2
 ---

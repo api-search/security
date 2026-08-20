@@ -47,11 +47,11 @@ summary_line: oauth2/apiKey · 3 schemes
 tags:
 - Company
 - Agents
-- AI
+- Artificial Intelligence
 - Coding Agents
 - Developer Tools
 - Automation
-- Webhooks
+- Webhook
 - CLI
 - DevOps
 - Cloud Development Environments

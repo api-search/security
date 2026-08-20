@@ -40,7 +40,7 @@ tags:
 - Healthcare
 - Practice Management
 - Dental Software
-- SaaS
+- Software-as-a-Service
 - Artificial Intelligence
 - Payments
 - Insurance

@@ -58,5 +58,5 @@ tags:
 - Market Data
 - Web3
 - Blockchain
-- Wallet
+- Wallets
 ---

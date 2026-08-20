@@ -42,5 +42,5 @@ tags:
 - Risk Management
 - Assurance
 - Space
-- Model Context Protocol
+- MCP
 ---

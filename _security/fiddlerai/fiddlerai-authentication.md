@@ -32,7 +32,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - AI Observability
-- Machine Learning
+- Machine-Learning
 - LLM
 - Model Monitoring
 - Guardrails

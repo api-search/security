@@ -22,8 +22,8 @@ tags:
 - Estate Planning
 - Legal
 - Wills And Trusts
-- Financial Services
-- Legaltech
+- Financial-Services
+- Legal Tech
 - Fintech
 trust_url: https://trustandwill.com/security
 ---

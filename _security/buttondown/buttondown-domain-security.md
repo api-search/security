@@ -229,9 +229,9 @@ tags:
 - Markdown
 - Newsletters
 - Paid Subscriptions
-- SaaS
+- Software-as-a-Service
 - Subscribers
-- Webhooks
+- Webhook
 - Segmentation
 - Developer Tools
 - Marketing

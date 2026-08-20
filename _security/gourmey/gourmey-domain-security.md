@@ -33,7 +33,7 @@ tags:
 - Company
 - Food & Agritech
 - Cultivated Meat
-- Foodtech
+- Food Tech
 - Sustainability
 - Biotechnology
 - France

@@ -61,7 +61,7 @@ tags:
 - Company
 - Ticketing
 - Access Control
-- Events
+- Event
 - Developer Platform
 - SDK
 - Sports

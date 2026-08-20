@@ -49,13 +49,13 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/security/triple-whale-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
-- E-commerce
+- E-Commerce
 - Analytics
 - Attribution
 - Shopify
 - Pixel Tracking
 - ROAS
-- DTC
+- Direct to Consumer
 - Marketing
 trust_url: https://trust.triplewhale.com/
 ---

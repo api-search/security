@@ -63,12 +63,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terrapay/refs/
 summary_line: apiKey/custom-signed-headers/mutualTLS · 6 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Payments
 - Cross-Border Payments
 - Remittances
 - Mobile Money
-- Digital Wallets
+- Digital Wallet
 - Money Transfer
 - Fintech
 - GSMA Mobile Money API

@@ -35,7 +35,7 @@ tags:
 - Fintech
 - Embedded Finance
 - Lending
-- Point of Sale
+- Point-of-Sale
 - Pay Over Time
 - Buy Now Pay Later
 - Payments

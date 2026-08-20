@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloom--wild/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Retail
 - Flowers
 - Gifting
 - Direct to Consumer
-- Subscriptions
+- Subscription
 - Consumer Goods
 - Logistics
 - United Kingdom

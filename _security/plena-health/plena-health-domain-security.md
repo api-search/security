@@ -35,6 +35,6 @@ tags:
 - Medical Practice
 - Artificial Intelligence
 - Automation
-- Workflow
+- Workflows
 - Y Combinator
 ---

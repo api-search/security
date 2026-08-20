@@ -37,9 +37,9 @@ tags:
 - Company
 - Consumer
 - Fashion
-- E-commerce
+- E-Commerce
 - Shopping
 - Retail
 - Aggregator
-- Affiliate
+- Affiliates
 ---

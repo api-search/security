@@ -60,6 +60,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pact/refs/head
 summary_line: http · 1 scheme
 tags:
 - Contract Testing
-- Open Source
+- Open-Source
 - Testing
 ---

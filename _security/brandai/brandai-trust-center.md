@@ -24,11 +24,11 @@ tags:
 - Brand Management
 - Artificial Intelligence
 - Marketing
-- SaaS
+- Software-as-a-Service
 - Brand Operating System
 - AI Agents
 - Design
-- Model Context Protocol
+- MCP
 - Brand Governance
 - Brand Intelligence
 trust_url: https://brand.ai/security/

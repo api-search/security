@@ -121,10 +121,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Learning Management System
 - LMS
-- eLearning
+- E-Learning
 - Training
 - Courses
-- Users
+- User
 - Enrollments
 - Education
 - HR Tech

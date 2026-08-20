@@ -222,7 +222,7 @@ tags:
 - CRM
 - AI Agents
 - Sales Automation
-- Customer Support
+- Customer-Support
 - Workflows
 - Conversational AI
 trust_url: https://trust.getfrontline.ai/

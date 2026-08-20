@@ -38,5 +38,5 @@ tags:
 - Industrials
 - Fintech
 - Data
-- AI
+- Artificial Intelligence
 ---

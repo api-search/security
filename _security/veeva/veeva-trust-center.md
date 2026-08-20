@@ -61,14 +61,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/hea
 summary_line: ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO 9001, SOC 2 Type II
 tags:
 - Life Sciences
-- Pharmaceutical
+- Pharmaceuticals
 - Clinical Trials
 - Regulatory
 - Quality Management
-- Document Management
+- Document-Management
 - Content Management
 - Healthcare
-- SaaS
+- Software-as-a-Service
 - Enterprise
 - MCP
 - Agents

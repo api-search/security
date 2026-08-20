@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vaya/refs/head
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Astrology
 - Vedic Astrology
 - Consultations

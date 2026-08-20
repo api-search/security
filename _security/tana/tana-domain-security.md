@@ -45,7 +45,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Note Taking
-- Knowledge Management
+- Knowledge-Management
 - Productivity
 - Artificial Intelligence
 - Meetings

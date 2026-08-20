@@ -79,5 +79,5 @@ tags:
 - Small Business
 - Billing
 - Expense Tracking
-- SaaS
+- Software-as-a-Service
 ---

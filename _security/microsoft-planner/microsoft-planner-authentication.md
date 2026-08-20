@@ -65,7 +65,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-plan
 summary_line: oauth2 · 1 scheme
 tags:
 - Collaboration
-- Microsoft 365
+- Microsoft-365
 - Productivity
 - Project Management
 - Task Management

@@ -143,7 +143,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Payments
 - Payouts
-- EmergingMarkets
+- Emerging Markets
 - LatAm
 - Africa
 - Asia

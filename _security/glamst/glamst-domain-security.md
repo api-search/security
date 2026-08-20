@@ -33,7 +33,7 @@ tags:
 - Beauty
 - Augmented Reality
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Virtual Try-On
 - Cosmetics
 - Retail

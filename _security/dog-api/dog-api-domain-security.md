@@ -48,7 +48,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/h
 summary_line: TLSv1.3
 tags:
 - Dogs
-- Images
+- Image
 - Open Data
-- Open Source
+- Open-Source
 ---

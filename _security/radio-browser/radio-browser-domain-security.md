@@ -74,7 +74,7 @@ tags:
 - Music
 - Radio
 - Streaming
-- Open Source
+- Open-Source
 - Open Data
 - Community
 - Public APIs

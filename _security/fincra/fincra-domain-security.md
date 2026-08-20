@@ -91,7 +91,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
 - Cross-Border
-- Collections
+- Collection
 - Payouts
 - FX
 - Fintech

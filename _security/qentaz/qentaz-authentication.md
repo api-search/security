@@ -61,12 +61,12 @@ summary_line: apiKey/http · 4 schemes
 tags:
 - Company
 - Payments
-- Collections
+- Collection
 - Disbursements
 - Reconciliation
 - Fintech
 - Colombia
-- Webhooks
+- Webhook
 - Fraud Prevention
 - WhatsApp Payments
 ---

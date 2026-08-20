@@ -360,7 +360,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/security/getty-images-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Images
+- Image
 - Media
 - Photos
 - Videos

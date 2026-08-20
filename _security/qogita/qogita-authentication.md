@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qogita/refs/he
 summary_line: oauth2 · 1 scheme
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Wholesale
 - Marketplace
 - Health and Beauty

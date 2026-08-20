@@ -44,6 +44,6 @@ tags:
 - Geospatial
 - Open Data
 - GeoParquet
-- Open Source
+- Open-Source
 - Linux Foundation
 ---

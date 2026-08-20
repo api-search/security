@@ -252,10 +252,9 @@ tags:
 - GSMA Open Gateway
 - Linux Foundation
 - Network APIs
-- Open API
-- Open Gateway
-- Open Source
 - OpenAPI
+- Open Gateway
+- Open-Source
 - Standards
 - Standards Body
 - Telco

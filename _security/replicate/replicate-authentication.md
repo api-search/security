@@ -132,8 +132,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/replicate/refs
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- Machine Learning
-- Image Generation
+- Machine-Learning
+- Image-Generation
 - Language Models
 - Model Deployment
 ---

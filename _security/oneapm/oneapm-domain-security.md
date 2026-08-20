@@ -43,5 +43,5 @@ tags:
 - IT Operations
 - Log Analytics
 - Real User Monitoring
-- SaaS
+- Software-as-a-Service
 ---

@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Asset Management
 - Banking
-- Financial Services
+- Financial-Services
 - Insurance
 - Life Insurance
 - Wealth Management

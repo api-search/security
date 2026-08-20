@@ -79,9 +79,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-k
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/authentication/amazon-kendra-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Enterprise Search
-- Knowledge Management
-- Machine Learning
-- Natural Language
+- Knowledge-Management
+- Machine-Learning
+- Natural-Language
 ---

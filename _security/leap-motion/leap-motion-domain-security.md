@@ -42,7 +42,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Hand Tracking
-- Computer Vision
+- Computer-Vision
 - Spatial Computing
 - Augmented Reality
 - Virtual Reality
@@ -50,6 +50,6 @@ tags:
 - Gesture Recognition
 - SDK
 - Hardware
-- Human Computer Interaction
+- Human-Computer Interaction
 - OpenXR
 ---

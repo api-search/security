@@ -27,7 +27,7 @@ tags:
 - Semantic Layer
 - Artificial Intelligence
 - AI Agents
-- Model Context Protocol
+- MCP
 - ETL
 trust_url: https://trust.definite.app/
 ---

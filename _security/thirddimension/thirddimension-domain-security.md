@@ -38,5 +38,5 @@ tags:
 - Embodied AI
 - Spatial Computing
 - Gaming
-- Computer Vision
+- Computer-Vision
 ---

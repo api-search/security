@@ -34,6 +34,6 @@ tags:
 - Fintech
 - Payments
 - Refunds
-- Ecommerce
+- E-Commerce
 - Returns
 ---

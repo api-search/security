@@ -117,8 +117,8 @@ tags:
 - Email Workflows
 - Contacts
 - Audience Management
-- Events
-- Webhooks
-- SaaS
+- Event
+- Webhook
+- Software-as-a-Service
 - Developer Tools
 ---

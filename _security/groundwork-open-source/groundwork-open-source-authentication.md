@@ -95,7 +95,7 @@ tags:
 - IT Infrastructure
 - Observability
 - Metrics
-- Events
-- Open Source
+- Event
+- Open-Source
 - Nagios
 ---

@@ -20,10 +20,10 @@ summary_line: SOC 2, GDPR
 tags:
 - Warehouse Management
 - Fulfillment
-- eCommerce
+- E-Commerce
 - GraphQL
 - Inventory
-- Orders
+- Order
 - Shipments
 - 3PL
 - Logistics

@@ -34,6 +34,6 @@ tags:
 - Speech
 - Audio
 - Voice
-- AI
+- Artificial Intelligence
 - Accessibility
 ---

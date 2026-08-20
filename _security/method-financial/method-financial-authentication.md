@@ -305,7 +305,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/method-financi
 summary_line: http · 3 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Lending
 - Payments

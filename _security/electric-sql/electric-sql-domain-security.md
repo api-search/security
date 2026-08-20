@@ -59,5 +59,5 @@ tags:
 - Local-First
 - Postgres
 - Real-Time
-- Open Source
+- Open-Source
 ---

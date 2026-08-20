@@ -38,5 +38,5 @@ tags:
 - Fitness
 - Booking
 - Payments
-- SaaS
+- Software-as-a-Service
 ---

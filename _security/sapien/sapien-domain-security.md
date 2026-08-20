@@ -86,11 +86,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sapien/refs/he
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Data Quality
 - Data Labeling
-- Machine Learning
-- Human in the Loop
+- Machine-Learning
+- Human-in-the-Loop
 - Attestation
 - Blockchain
 - Consensus

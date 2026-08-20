@@ -141,7 +141,6 @@ tags:
 - Billing
 - Claims
 - Underwriting
-- API
 - MCP
 trust_url: https://trust.socotra.com/
 ---

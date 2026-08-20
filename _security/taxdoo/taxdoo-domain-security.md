@@ -33,7 +33,7 @@ tags:
 - Company
 - Fintech
 - Accounting
-- E-commerce
+- E-Commerce
 - Tax Compliance
 - VAT
 - DATEV

@@ -42,11 +42,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magicx/refs/he
 summary_line: http · 3 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Autocomplete
 - Developer Tools
 - SDK
-- Natural Language
+- Natural-Language
 - Productivity
-- Machine Learning
+- Machine-Learning
 ---

@@ -33,7 +33,7 @@ tags:
 - Company
 - Shapewear
 - Apparel
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Retail
 - Intimates

@@ -29,7 +29,7 @@ tags:
 - Backend
 - Static Sites
 - Email
-- Webhooks
+- Webhook
 - JAMstack
 - CLI
 trust_url: https://formspree.io/security/

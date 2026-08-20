@@ -35,7 +35,6 @@ tags:
 - AI Agents
 - Automation
 - Enterprise
-- Workflow Automation
+- Workflow-Automation
 - Digital Workers
-- Operations
 ---

@@ -36,5 +36,5 @@ tags:
 - Product Sourcing
 - Invoicing
 - Payments
-- SaaS
+- Software-as-a-Service
 ---

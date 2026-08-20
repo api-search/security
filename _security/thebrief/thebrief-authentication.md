@@ -89,9 +89,9 @@ tags:
 - Artificial Intelligence
 - Marketing
 - Ad Serving
-- SaaS
+- Software-as-a-Service
 - GraphQL
 - Creative Automation
 - Digital Asset Management
-- Webhooks
+- Webhook
 ---

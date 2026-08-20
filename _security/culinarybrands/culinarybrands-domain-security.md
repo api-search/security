@@ -32,7 +32,7 @@ tags:
 - Company
 - Food
 - Beverage
-- Foodservice
+- Food Service
 - QSR
 - Coffee
 - Franchise

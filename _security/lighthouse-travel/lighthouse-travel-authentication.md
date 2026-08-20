@@ -92,6 +92,6 @@ tags:
 - Parity
 - Channel Manager
 - Demand Forecasting
-- SaaS
-- AI
+- Software-as-a-Service
+- Artificial Intelligence
 ---

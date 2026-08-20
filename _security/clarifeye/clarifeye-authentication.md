@@ -123,8 +123,8 @@ summary_line: apiKey/http/oauth2 · 2 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Knowledge Management
-- Model Context Protocol
+- Knowledge-Management
+- MCP
 - Document Intelligence
 - Agents
 - Enterprise AI

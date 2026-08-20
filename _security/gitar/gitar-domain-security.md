@@ -60,7 +60,7 @@ tags:
 - Code Review
 - CI/CD
 - Code Quality
-- AI
+- Artificial Intelligence
 - Developer Productivity
 - Automation
 ---

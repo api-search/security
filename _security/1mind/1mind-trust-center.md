@@ -21,12 +21,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1mind/refs/hea
 summary_line: SOC 2 Type II, ISO 27001, ISO 42001
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Agents
 - Sales
 - Go-To-Market
 - Conversational AI
 - Sales Enablement
-- RevOps
+- Revenue Operations
 trust_url: https://trustcenter.1mind.com/
 ---

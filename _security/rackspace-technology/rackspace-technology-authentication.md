@@ -149,8 +149,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rackspace-tech
 summary_line: apiKey · 1 scheme
 tags:
 - Cloud
-- Managed Services
-- Multicloud
+- Managed Service
+- Multi-Cloud
 - Infrastructure
 - DevOps
 ---

@@ -80,6 +80,6 @@ tags:
 - Social
 - Content
 - Media
-- Open Source
+- Open-Source
 - MCP
 ---

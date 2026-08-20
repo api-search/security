@@ -48,6 +48,6 @@ tags:
 - Live Streaming
 - IAM
 - SDK
-- AI
+- Artificial Intelligence
 - China
 ---

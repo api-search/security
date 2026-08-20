@@ -35,7 +35,7 @@ tags:
 - Travel
 - Lodging
 - Apartment Hotels
-- Short Term Rental
-- Real Estate
+- Short-Term Rental
+- Real-Estate
 - Property Management
 ---

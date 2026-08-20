@@ -47,15 +47,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-tekn
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Retail
 - Storefront
-- Orders
-- Products
+- Order
+- Product
 - Inventory
 - GraphQL
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 - SDK
 - MCP
 ---

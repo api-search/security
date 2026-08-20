@@ -34,8 +34,8 @@ tags:
 - Beauty
 - Cosmetics
 - Subscription
-- E-commerce
-- Direct-to-Consumer
+- E-Commerce
+- Direct to Consumer
 - Personalization
 - Membership
 ---

@@ -118,10 +118,10 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://cubiapi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/authentication/customers-bank-authentication.yml
 summary_line: oauth2/http-bearer/hmac · 3 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
-- Banking-as-a-Service
+- Banking as a Service
 - Embedded Finance
 - Payments
 - Commercial Banking

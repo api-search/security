@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/corelayer/refs
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - SRE
 - Incident Response
 - Observability
@@ -45,7 +45,7 @@ tags:
 - Root Cause Analysis
 - Anomaly Detection
 - DevOps
-- Agent Native
+- agent-native
 - MCP
 - Fintech
 ---

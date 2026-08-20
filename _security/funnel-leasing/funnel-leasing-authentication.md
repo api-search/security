@@ -48,11 +48,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/funnel-leasing
 summary_line: http · 2 schemes
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - PropTech
 - Property Management
 - Multifamily
 - Leasing
 - CRM
-- Webhooks
+- Webhook
 ---

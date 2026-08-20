@@ -66,20 +66,20 @@ summary_line: http · 1 scheme
 tags:
 - dermatology-api
 - ai-dermatology
-- medical-imaging
-- telemedicine
+- Medical Imaging
+- Telemedicine
 - skin-analysis
-- rest-api
-- openapi
+- REST API
+- OpenAPI
 - llms-txt
 - ce-marked
-- white-label
-- healthcare
-- medical-ai
-- computer-vision
-- medical-device
-- icd-10
+- White Label
+- Healthcare
+- Medical AI
+- Computer-Vision
+- Medical Device
+- ICD-10
 - image-classification
-- clinical-decision-support
+- Clinical Decision Support
 - triage
 ---

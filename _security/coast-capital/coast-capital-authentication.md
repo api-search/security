@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://www.coa
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coast-capital/refs/heads/main/authentication/coast-capital-authentication.yml
 summary_line: openIdConnect/oauth2 · 1 scheme
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Canada
 - Credit Union

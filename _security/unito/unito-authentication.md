@@ -50,9 +50,9 @@ summary_line: apiKey · 1 scheme
 tags:
 - Integration
 - Two-Way Sync
-- Workflow Automation
+- Workflow-Automation
 - Project Management
 - Collaboration
 - Embedded Integrations
-- SaaS
+- Software-as-a-Service
 ---

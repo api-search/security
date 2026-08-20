@@ -120,7 +120,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/library-of-con
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cultural Heritage
-- Federal Government
+- Federal-Government
 - Library
 - Legislative
 - Newspapers

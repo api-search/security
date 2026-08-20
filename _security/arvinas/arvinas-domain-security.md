@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Biotechnology
-- Pharmaceutical
+- Pharmaceuticals
 - Protein Degradation
 - PROTAC
 - Oncology

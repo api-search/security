@@ -219,6 +219,6 @@ tags:
 - Private Offers
 - Metering
 - SCIM
-- Webhooks
+- Webhook
 - B2B SaaS
 ---

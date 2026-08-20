@@ -78,16 +78,16 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nsource: https://docs.co
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/authentication/corestack-authentication.yml
 summary_line: apiKey/oauth2 · 4 schemes
 tags:
-- cloud-governance
-- finops
-- cloud-cost-management
-- cloud-security-posture-management
-- compliance
-- multi-cloud
-- cnapp
-- policy-as-code
+- Cloud Governance
+- FinOps
+- Cloud Cost Management
+- Cloud Security Posture Management
+- Compliance
+- Multi-Cloud
+- CNAPP
+- Policy as Code
 - cloudops
-- mcp
+- MCP
 - agent-native
-- kubernetes
+- Kubernetes
 ---

@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/coval-ai
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/authentication/coval-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Voice AI
 - Simulation

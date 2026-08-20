@@ -24,7 +24,7 @@ tags:
 - Writing
 - Literacy
 - K-12
-- OAuth
+- Authentication
 - OpenID Connect
 - Single Sign-On
 - Rostering

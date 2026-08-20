@@ -70,9 +70,9 @@ tags:
 - Artificial Intelligence
 - Image Processing
 - Image Enhancement
-- Image Generation
-- Computer Vision
-- Ecommerce
+- Image-Generation
+- Computer-Vision
+- E-Commerce
 - Media
 - Photography
 - Video Generation

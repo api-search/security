@@ -46,17 +46,17 @@ source_yaml: "generated: '2026-08-06'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appfire/refs/heads/main/security/appfire-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, HIPAA, GDPR
 tags:
-- atlassian
-- jira
-- confluence
-- project-portfolio-management
-- work-management
-- time-tracking
-- okr
-- workflow-automation
-- azure-devops
+- Atlassian
+- Jira
+- Confluence
+- Project Portfolio Management
+- Work Management
+- Time Tracking
+- OKR
+- Workflow-Automation
+- Azure DevOps
 - marketplace-apps
-- document-workflow
-- enterprise-software
+- Document Workflow
+- Enterprise Software
 trust_url: https://trust.appfire.com/
 ---

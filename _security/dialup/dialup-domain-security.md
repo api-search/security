@@ -33,7 +33,7 @@ tags:
 - Company
 - Voice
 - Social
-- Communication
+- Communications
 - Consumer App
 - Telephony
 - Community

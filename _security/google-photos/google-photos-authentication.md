@@ -59,7 +59,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Albums
 - Google
-- Images
+- Image
 - Media
 - Photos
 - Sharing

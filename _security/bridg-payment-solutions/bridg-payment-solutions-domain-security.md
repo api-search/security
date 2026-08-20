@@ -31,7 +31,7 @@ tags:
 - Payments
 - Fintech
 - Mobile Payments
-- Point of Sale
+- Point-of-Sale
 - Bluetooth
 - Offline Payments
 - Digital Wallet

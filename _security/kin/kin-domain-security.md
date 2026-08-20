@@ -35,5 +35,5 @@ tags:
 - Property Data
 - Underwriting
 - Claims
-- Direct-to-Consumer
+- Direct to Consumer
 ---

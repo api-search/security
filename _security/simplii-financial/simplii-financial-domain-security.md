@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simplii-financial/refs/heads/main/security/simplii-financial-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Canada
 - Digital Bank

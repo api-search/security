@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blackbird-labs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Restaurants
+- Restaurant
 - Payments
 - Loyalty
 - Blockchain

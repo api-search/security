@@ -37,10 +37,10 @@ tags:
 - Cannabis
 - Dispensary
 - Retail
-- Ecommerce
-- Point of Sale
+- E-Commerce
+- Point-of-Sale
 - Headless Commerce
 - GraphQL
-- Menu
+- Menus
 - Checkout
 ---

@@ -38,6 +38,6 @@ tags:
 - Clinical Trials
 - Osteoarthritis
 - Small Molecule Therapeutics
-- Health Care
+- Healthcare
 - San Diego
 ---

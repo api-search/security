@@ -90,7 +90,7 @@ tags:
 - Project Management
 - Issue Tracking
 - Work Management
-- Open Source
+- Open-Source
 - Productivity
 trust_url: https://security.plane.so/
 ---

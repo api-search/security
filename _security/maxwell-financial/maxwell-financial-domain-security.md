@@ -34,7 +34,7 @@ tags:
 - Mortgage
 - Lending
 - Fintech
-- Financial Services
+- Financial-Services
 - Loan Origination
 - Mortgage Technology
 ---

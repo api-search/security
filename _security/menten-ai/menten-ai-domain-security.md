@@ -34,7 +34,7 @@ tags:
 - Drug Discovery
 - Generative AI
 - Peptides
-- Machine Learning
+- Machine-Learning
 - Life Sciences
 - Quantum Simulation
 ---

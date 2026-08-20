@@ -1233,7 +1233,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/hea
 summary_line: SOC 2, ISO 27001, PCI DSS
 tags:
 - Payments
-- Financial Services
+- Financial-Services
 - Fintech
 trust_url: https://trust.adyen.com/
 ---

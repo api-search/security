@@ -158,15 +158,15 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hookdeck
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/authentication/hookdeck-authentication.yml
 summary_line: http · 2 schemes
 tags:
-- Webhooks
+- Webhook
 - Event Gateways
 - Gateways
-- Events
+- Event
 - Event Infrastructure
 - Event-Driven
 - Messaging
 - Queues
 - Retries
-- Transformations
+- Transformation
 - Observability
 ---

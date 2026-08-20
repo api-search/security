@@ -44,7 +44,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Large Language Models
-- Machine Learning
+- Machine-Learning
 - Generative AI
 - Sovereign AI
 - Inference API

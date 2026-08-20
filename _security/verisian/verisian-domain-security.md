@@ -34,7 +34,7 @@ tags:
 - Clinical Trials
 - Life Sciences
 - Artificial Intelligence
-- Pharmaceutical
+- Pharmaceuticals
 - Regulatory Submissions
 - Data Validation
 - Healthcare

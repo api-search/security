@@ -35,7 +35,7 @@ tags:
 - Artificial Intelligence
 - Video
 - Content Generation
-- Social Media
+- Social-Media
 - Transcription
 - Online Learning
 ---

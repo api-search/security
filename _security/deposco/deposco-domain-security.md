@@ -42,6 +42,6 @@ tags:
 - Fulfillment
 - Inventory
 - Logistics
-- Ecommerce
+- E-Commerce
 - 3PL
 ---

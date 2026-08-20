@@ -36,6 +36,6 @@ tags:
 - Reporting
 - Compliance
 - Private Markets
-- FinTech
+- Fintech
 - Carbon Accounting
 ---

@@ -114,7 +114,7 @@ tags:
 - Retail
 - Marketplace Sellers
 - Offers
-- Orders
+- Order
 - Sales
 - Stock Management
 - Fulfilment

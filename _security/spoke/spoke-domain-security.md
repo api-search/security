@@ -34,6 +34,6 @@ tags:
 - Menswear
 - Apparel
 - Retail
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 ---

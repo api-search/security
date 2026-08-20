@@ -35,7 +35,7 @@ tags:
 - Pricing Intelligence
 - Market Intelligence
 - Commerce
-- E-commerce
+- E-Commerce
 - Analytics
 - Data
 ---

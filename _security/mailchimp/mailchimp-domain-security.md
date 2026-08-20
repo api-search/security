@@ -771,6 +771,6 @@ tags:
 - Audience Management
 - SMS
 - E-Commerce
-- Webhooks
+- Webhook
 - Marketing Analytics
 ---

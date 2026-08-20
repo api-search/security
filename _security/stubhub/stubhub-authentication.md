@@ -135,11 +135,11 @@ tags:
 - Company
 - Marketplaces
 - Tickets
-- Events
+- Event
 - Ticketing
 - Live Events
 - Secondary Market
-- E-commerce
+- E-Commerce
 - Sports
 - Concerts
 ---

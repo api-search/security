@@ -32,12 +32,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Cryptocurrency
-- Wallet
+- Wallets
 - Web3
 - Blockchain
 - NFT
 - Self-Custody
 - Fintech
 - Digital Assets
-- dApps
+- DApps
 ---

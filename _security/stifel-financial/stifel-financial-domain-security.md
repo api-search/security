@@ -51,6 +51,6 @@ tags:
 - Wealth Management
 - Investment Banking
 - Open Banking
-- Financial Services
+- Financial-Services
 - Fortune 1000
 ---

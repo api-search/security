@@ -20,9 +20,9 @@ tags:
 - Company
 - Artificial Intelligence
 - Investment Research
-- FinTech
-- Financial Services
-- Portfolio Management
+- Fintech
+- Financial-Services
+- Portfolio-Management
 - Trade Analytics
 - Research Automation
 - Hedge Funds

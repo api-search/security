@@ -32,7 +32,7 @@ tags:
 - Company
 - Fintech Insurtech
 - Lending
-- Revenue Based Financing
+- Revenue-Based Financing
 - Embedded Finance
 - Working Capital
 - Invoice Financing

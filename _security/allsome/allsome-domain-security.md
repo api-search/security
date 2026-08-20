@@ -29,11 +29,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allsome/refs/h
 summary_line: TLSv1.3
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Fulfillment
 - Logistics
 - Warehousing
-- Cross-border
+- Cross-Border
 - Supply Chain
 - Southeast Asia
 ---

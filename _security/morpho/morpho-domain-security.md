@@ -42,6 +42,6 @@ tags:
 - Liquidations
 - Rewards
 - Markets
-- Vaults
+- Vault
 - Web3
 ---

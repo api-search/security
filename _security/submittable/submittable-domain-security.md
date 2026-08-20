@@ -108,9 +108,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Submission Management
 - Grants Management
-- Applications
+- Application
 - Forms
-- Nonprofit
+- Non-Profit
 - Corporate Social Responsibility
-- Workflow
+- Workflows
 ---

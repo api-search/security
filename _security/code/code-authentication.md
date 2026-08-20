@@ -38,7 +38,7 @@ tags:
 - Company
 - Payments
 - Micropayments
-- Wallet
+- Wallets
 - Solana
 - Blockchain
 - Cryptocurrency

@@ -33,7 +33,7 @@ tags:
 - Company
 - Manufacturing Analytics
 - Industrial AI
-- Machine Learning
+- Machine-Learning
 - Quality
 - Automotive
 - Manufacturing

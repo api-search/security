@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cluely/refs/he
 summary_line: oauth2 · 2 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Meeting Assistant
 - Productivity
 - Transcription

@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sajilni/refs/h
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- Events
+- Event
 - Event Management
 - Ticketing
 - Event Registration

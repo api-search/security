@@ -37,11 +37,11 @@ tags:
 - Company
 - Reviews
 - User Generated Content
-- Ecommerce
+- E-Commerce
 - Social Proof
 - Conversion Rate Optimization
 - Marketing
 - Shopify
 - Customer Feedback
-- SaaS
+- Software-as-a-Service
 ---

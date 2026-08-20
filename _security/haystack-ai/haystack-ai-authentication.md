@@ -53,9 +53,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/haystack
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/authentication/haystack-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - RAG
-- Open Source
+- Open-Source
 - Orchestration
 ---

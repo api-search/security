@@ -43,6 +43,6 @@ tags:
 - Appliances
 - Connected Devices
 - IoT
-- E-commerce
+- E-Commerce
 - Agentic Commerce
 ---

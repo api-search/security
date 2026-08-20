@@ -38,5 +38,5 @@ tags:
 - Contract Management
 - Supplier Management
 - RFP
-- SaaS
+- Software-as-a-Service
 ---

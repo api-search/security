@@ -34,6 +34,6 @@ tags:
 - AgTech
 - Robotics
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Automation
 ---

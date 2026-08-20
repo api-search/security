@@ -59,11 +59,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/signeasy
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/authentication/signeasy-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- eSignature
+- E-Signature
 - Electronic Signature
 - Documents
 - Contract Management
 - Embedded Signing
 - Templates
-- Webhooks
+- Webhook
 ---

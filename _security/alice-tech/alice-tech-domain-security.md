@@ -45,7 +45,7 @@ tags:
 - Microsoft Project
 - Schedule Optimization
 - DCMA 14-Point
-- AI
+- Artificial Intelligence
 - LLM
 - Capital Projects
 - Infrastructure

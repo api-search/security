@@ -34,13 +34,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/channelengine/
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Marketplace Integration
-- Multichannel Commerce
+- Multi-Channel Commerce
 - Order Management
 - Inventory Management
 - Product Information
 - Retail
-- Webhooks
+- Webhook
 - Netherlands
 ---

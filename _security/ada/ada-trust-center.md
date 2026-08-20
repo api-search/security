@@ -88,15 +88,15 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/security/ada-trust-center.yml
 summary_line: SOC 2 Type 2, SOC 3, PCI DSS (Attestation of Compliance), HIPAA, GDPR, CCPA, CPRA, PIPEDA, VPAT 2024 (WCAG 2.1 AA)
 tags:
-- ai
-- customer-service
-- chatbot
-- automation
-- conversational-ai
-- helpdesk
-- crm
-- integrations
-- knowledge-management
-- data-export
+- Artificial Intelligence
+- Customer Service
+- Chatbots
+- Automation
+- Conversational AI
+- Help Desk
+- CRM
+- Integration
+- Knowledge-Management
+- Data Export
 trust_url: https://security.ada.cx/
 ---

@@ -66,7 +66,6 @@ summary_line: oauth2/http · 3 schemes
 tags:
 - Company
 - Agent Experience
-- Model Context Protocol
 - MCP
 - Analytics
 - Observability

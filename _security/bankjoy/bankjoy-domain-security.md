@@ -36,7 +36,7 @@ tags:
 - Banking
 - Credit Unions
 - Community Banks
-- Financial Services
+- Financial-Services
 - Account Opening
 - Lending
 ---

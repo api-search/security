@@ -45,7 +45,7 @@ tags:
 - Company
 - Enterprise
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Model Monitoring
 - Analytics

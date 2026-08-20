@@ -48,13 +48,13 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/security/catalog-guard-api-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- ecommerce
+- E-Commerce
 - catalog-validation
-- shopify
-- data-quality
+- Shopify
+- Data Quality
 - csv-validation
 - product-data-qa
 - data-preflight
-- data-validation
-- retail
+- Data Validation
+- Retail
 ---

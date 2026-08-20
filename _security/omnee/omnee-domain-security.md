@@ -31,10 +31,10 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Artificial Intelligence
-- Customer Support
-- Home Building
-- Real Estate
+- Customer-Support
+- Homebuilding
+- Real-Estate
 - Warranty
-- SaaS
+- Software-as-a-Service
 - Conversational AI
 ---

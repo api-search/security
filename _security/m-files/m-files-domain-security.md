@@ -37,10 +37,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Infrastructure Saas
-- Document Management
+- Document-Management
 - Information Management
 - Content Services
-- Workflow Automation
+- Workflow-Automation
 - Compliance
 - Enterprise Content Management
 ---

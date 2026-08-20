@@ -36,6 +36,6 @@ tags:
 - Customer Health Score
 - Churn Prediction
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Revenue Operations
 ---

@@ -110,8 +110,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/figure-eight/r
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Ai
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Data Labeling
 - Data Annotation
 - Training Data

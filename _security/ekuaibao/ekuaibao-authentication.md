@@ -90,11 +90,11 @@ tags:
 - Enterprise
 - Expense Management
 - Spend Management
-- Travel and Expense
+- Travel And Expense
 - Reimbursement
 - Finance
 - Accounting
 - Invoicing
-- SaaS
+- Software-as-a-Service
 - China
 ---

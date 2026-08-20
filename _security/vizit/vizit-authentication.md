@@ -60,12 +60,12 @@ summary_line: oauth2/http · 2 schemes
 tags:
 - Company
 - Visual AI
-- Ecommerce
+- E-Commerce
 - Digital Shelf
 - Image Analytics
 - Content Effectiveness
 - Retail Media
 - Product Detail Pages
-- Machine Learning
+- Machine-Learning
 - Generative AI
 ---

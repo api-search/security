@@ -72,7 +72,7 @@ tags:
 - Containers
 - Docker
 - Google Cloud
-- Images
+- Image
 - Registries
 - Storage
 ---

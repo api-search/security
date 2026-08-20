@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alexi/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Legal
-- LegalTech
+- Legal Tech
 - Legal AI
 - Litigation
 - Legal Research
@@ -42,7 +42,7 @@ tags:
 - Agentic AI
 - Private AI
 - Single Tenant
-- Knowledge Management
+- Knowledge-Management
 - Canada
 - Toronto
 ---

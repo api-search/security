@@ -71,5 +71,5 @@ tags:
 - Financial Data
 - Fintech
 - Open Banking
-- Transactions
+- Transaction
 ---

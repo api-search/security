@@ -35,7 +35,7 @@ tags:
 - Growth Marketing
 - Experimentation
 - Content Marketing
-- Events
+- Event
 - Education
 - Agency Services
 - AI Marketing

@@ -171,7 +171,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/security/adobe-suite-trust-center.yml
 summary_line: SOC 2 Type 2, SOC 3, ISO 27001:2022, ISO 27017:2015, ISO 27018:2019, ISO 22301:2019, ISO 9001:2015, PCI DSS, HIPAA ready, FedRAMP Tailored, CSA STAR Level 2, C5 (Germany), IRAP Assessed (Australia), ISMAP Registered (Japan), TISAX, CMMC Level 1, GDPR, CCPA, FERPA ready, GLBA ready
 tags:
-- Ai
+- Artificial Intelligence
 - Analytics
 - Automation
 - Commerce

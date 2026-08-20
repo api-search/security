@@ -95,8 +95,8 @@ tags:
 - Commerce
 - Headless
 - Composable
-- eCommerce
+- E-Commerce
 - JSON:API
-- Orders
+- Order
 trust_url: https://commercelayer.io/security
 ---

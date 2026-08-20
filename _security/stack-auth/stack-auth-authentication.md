@@ -140,9 +140,9 @@ summary_line: apiKey · 5 schemes
 tags:
 - Authentication
 - User Management
-- Open Source
+- Open-Source
 - Self-Hosted
 - Identity
-- Organizations
+- Organization
 - RBAC
 ---

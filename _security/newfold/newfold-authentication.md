@@ -33,7 +33,7 @@ tags:
 - Digital Marketing
 - Small Business
 - WordPress
-- Open Source
-- Model Context Protocol
-- eCommerce
+- Open-Source
+- MCP
+- E-Commerce
 ---

@@ -108,7 +108,7 @@ tags:
 - Payment Processing
 - Direct Debit
 - Card Payments
-- Subscriptions
+- Subscription
 - Billing
 - Payment Facilitator
 - Account-to-Account

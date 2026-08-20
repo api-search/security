@@ -55,8 +55,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - MLOps
 - Data Quality
 - Model Validation

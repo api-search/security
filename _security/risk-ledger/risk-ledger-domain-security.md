@@ -38,5 +38,5 @@ tags:
 - Risk Management
 - Compliance
 - Governance
-- SaaS
+- Software-as-a-Service
 ---

@@ -38,6 +38,5 @@ tags:
 - Phishing
 - Anti-Phishing
 - Brand Protection
-- API
 - REST
 ---

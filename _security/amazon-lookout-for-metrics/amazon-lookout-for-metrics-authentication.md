@@ -201,7 +201,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Anomaly Detection
 - Business Intelligence
-- Machine Learning
+- Machine-Learning
 - Metrics
 - Monitoring
 ---

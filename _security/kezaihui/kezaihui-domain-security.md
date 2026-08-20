@@ -30,7 +30,7 @@ summary_line: TLSv1.2 · DNSSEC
 tags:
 - Company
 - Enterprise
-- SaaS
+- Software-as-a-Service
 - Local Commerce
 - China
 - Restaurant Technology

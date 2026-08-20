@@ -84,5 +84,5 @@ tags:
 - Low-Code
 - Process Automation
 - RPA
-- Workflow
+- Workflows
 ---

@@ -81,17 +81,17 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/chroma-c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/authentication/chroma-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- AI
-- AI Native
+- Artificial Intelligence
+- AI-Native
 - Apache 2.0
 - Cloud
 - Embeddings
 - Hybrid Search
 - JavaScript
 - LLM
-- Machine Learning
+- Machine-Learning
 - Multi-Modal
-- Open Source
+- Open-Source
 - Python
 - RAG
 - Retrieval

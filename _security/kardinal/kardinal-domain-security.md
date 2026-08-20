@@ -50,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Route Optimization
 - Vehicle Routing
 - Last Mile Delivery

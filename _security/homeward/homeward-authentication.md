@@ -50,10 +50,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/homeward/refs/
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Home Finance
 - Mortgage
-- Proptech
+- PropTech
 - Cash Offer
 - Title
 - Lending

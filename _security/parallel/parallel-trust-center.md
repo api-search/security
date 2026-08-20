@@ -69,7 +69,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parallel/refs/
 summary_line: SOC 2 Type I, SOC 2 Type II
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Web Search
 - Agents
 - Deep Research

@@ -35,10 +35,10 @@ tags:
 - Hardware
 - Linux Foundation
 - Open Hardware
-- Open Source
+- Open-Source
 - RISC-V
 - SiFive
 - Silicon
-- SoC
+- SOC
 - SystemVerilog
 ---

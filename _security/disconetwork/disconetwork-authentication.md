@@ -66,7 +66,7 @@ tags:
 - Retail Media
 - Post-Purchase
 - Advertising
-- Ecommerce
+- E-Commerce
 - AdTech
 - Marketing
 - Analytics

@@ -34,7 +34,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Ticketing
-- Ride Sharing
+- Ridesharing
 - Mobility
 - Travel
 - Transportation

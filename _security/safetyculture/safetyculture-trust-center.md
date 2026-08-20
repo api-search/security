@@ -27,6 +27,6 @@ tags:
 - Compliance
 - Training
 - Field Service
-- Webhooks
+- Webhook
 trust_url: https://safetyculture.com/security
 ---

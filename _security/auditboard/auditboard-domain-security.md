@@ -70,5 +70,5 @@ tags:
 - Cybersecurity Compliance
 - ESG
 - AI Governance
-- SaaS
+- Software-as-a-Service
 ---

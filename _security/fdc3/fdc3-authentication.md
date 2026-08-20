@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/app-dire
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/authentication/fdc3-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Financial Services
+- Financial-Services
 - Fintech
 - Desktop Interoperability
 - Open Standard

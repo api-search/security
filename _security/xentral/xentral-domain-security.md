@@ -583,12 +583,12 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - ERP
-- eCommerce
+- E-Commerce
 - Fulfillment
 - Warehousing
 - Invoicing
 - Accounting
-- Orders
-- Products
+- Order
+- Product
 - Germany
 ---

@@ -325,7 +325,7 @@ tags:
 - Deliverability
 - SMTP
 - Email API
-- Webhooks
+- Webhook
 - Inbound Email
 - Email Templates
 - Email Analytics

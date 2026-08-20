@@ -41,7 +41,7 @@ tags:
 - User Onboarding
 - Customer Success
 - Guidance
-- Self Service
+- Self-Service
 - Enterprise Software
 - Walkthroughs
 ---

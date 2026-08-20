@@ -50,13 +50,13 @@ summary_line: oauth2 · 2 schemes
 tags:
 - Company
 - Commerce
-- E-commerce
+- E-Commerce
 - Retail
 - Commerce Cloud
 - Storefront
 - Shopper
 - Catalog
-- Orders
-- SaaS
+- Order
+- Software-as-a-Service
 - Salesforce
 ---

@@ -164,7 +164,7 @@ tags:
 - Money Movement
 - Instant Payments
 - Open Banking
-- Webhooks
+- Webhook
 - KYC
 - United States
 - Open Finance
@@ -173,6 +173,6 @@ tags:
 - FedNow
 - Mass Payments
 - Drop-in Components
-- SDKs
+- SDK
 - Sandbox
 ---

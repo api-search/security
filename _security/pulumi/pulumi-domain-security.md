@@ -252,6 +252,6 @@ tags:
 - Infrastructure as Code
 - Multi-Cloud
 - Stacks
-- Deployments
+- Deployment
 - Policy
 ---

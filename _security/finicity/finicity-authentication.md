@@ -44,7 +44,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: derived\nsource: openapi/finicity
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/authentication/finicity-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Data Aggregation
 - Open Finance
 - Open Banking

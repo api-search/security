@@ -39,10 +39,10 @@ tags:
 - Credit Cards
 - Credit Offers
 - DevExchange
-- Financial Services
+- Financial-Services
 - FDX
 - Open Banking
-- OAuth 2.0
+- Authentication
 - Payments
 - Rewards
 - United States

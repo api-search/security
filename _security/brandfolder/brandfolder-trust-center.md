@@ -30,7 +30,7 @@ tags:
 - Brand Management
 - Assets
 - Media
-- Collections
+- Collection
 - Smartsheet
 trust_url: https://www.smartsheet.com/legal/security
 ---

@@ -35,6 +35,6 @@ tags:
 - Video
 - Conversion Optimization
 - Shoppable Video
-- AI
+- Artificial Intelligence
 - Retail
 ---

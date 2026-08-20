@@ -32,6 +32,6 @@ tags:
 - Banking as a Service
 - Embedded Finance
 - Payments
-- Financial Services
+- Financial-Services
 - Brokerage
 ---

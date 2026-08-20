@@ -235,7 +235,7 @@ tags:
 - Voice
 - Video
 - Identity Verification
-- Webhooks
+- Webhook
 - Cloud Communications
 trust_url: https://www.8x8.com/why-8x8/security-and-compliance
 ---

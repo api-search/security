@@ -74,10 +74,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signaturely/re
 summary_line: apiKey · 1 scheme
 tags:
 - Electronic Signature
-- eSignature
+- E-Signature
 - Document Signing
 - E-Signature API
 - Contracts
 - Signature Requests
-- SaaS
+- Software-as-a-Service
 ---

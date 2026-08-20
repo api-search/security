@@ -74,6 +74,6 @@ tags:
 - GPU
 - Cloud
 - Infrastructure
-- AI
+- Artificial Intelligence
 - Compute
 ---

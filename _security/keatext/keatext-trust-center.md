@@ -30,6 +30,6 @@ tags:
 - Artificial Intelligence
 - Natural Language Processing
 - Voice of Customer
-- SaaS
+- Software-as-a-Service
 trust_url: https://keatext.ai/en/security/
 ---

@@ -241,10 +241,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arthur-ai/refs
 summary_line: oauth2/apiKey · 4 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Governance
 - AI Observability
-- Machine Learning
+- Machine-Learning
 - LLM Evaluation
 - Model Monitoring
 - MLOps

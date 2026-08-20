@@ -33,11 +33,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mycrypto/refs/
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Wallet
+- Wallets
 - Ethereum
 - Blockchain
 - Cryptocurrency
 - Web3
-- Open Source
+- Open-Source
 - Non-Custodial
 ---

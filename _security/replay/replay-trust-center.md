@@ -26,6 +26,6 @@ tags:
 - MCP
 - GraphQL
 - Browser Automation
-- AI
+- Artificial Intelligence
 trust_url: https://www.replay.io/blog/replay-achieves-soc2
 ---

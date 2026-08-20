@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Weddings
-- Events
+- Event
 - Marketplace
 - Hospitality
 - Consumer

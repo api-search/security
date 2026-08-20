@@ -72,5 +72,4 @@ tags:
 - Governance
 - Market Data
 - Futarchy
-- API
 ---

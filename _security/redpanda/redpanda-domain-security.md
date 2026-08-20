@@ -42,7 +42,7 @@ tags:
 - Event Streaming
 - Real-Time
 - Data Platform
-- Open Source
+- Open-Source
 - C++
 - Stream Processing
 ---

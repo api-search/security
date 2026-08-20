@@ -36,5 +36,5 @@ tags:
 - HR Automation
 - AI Agents
 - Employee Experience
-- SaaS
+- Software-as-a-Service
 ---

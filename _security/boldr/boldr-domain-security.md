@@ -38,5 +38,5 @@ tags:
 - Consumer Hardware
 - Thermostat
 - HVAC
-- Ecommerce
+- E-Commerce
 ---

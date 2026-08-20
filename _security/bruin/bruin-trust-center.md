@@ -21,13 +21,13 @@ tags:
 - Company
 - Data
 - Data Engineering
-- Data Pipelines
+- Data Pipeline
 - ETL
 - ELT
 - Analytics
 - Data Quality
 - CLI
 - MCP
-- Open Source
+- Open-Source
 trust_url: https://getbruin.com/security/
 ---

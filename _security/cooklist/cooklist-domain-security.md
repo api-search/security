@@ -35,7 +35,7 @@ tags:
 - Grocery
 - Retail
 - AI Assistant
-- Model Context Protocol
+- MCP
 - Recipes
 - Meal Planning
 - E-Commerce

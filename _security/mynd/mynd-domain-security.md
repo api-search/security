@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Property Management
-- Real Estate
+- Real-Estate
 - Single-Family Rental
-- Proptech
+- PropTech
 - Real Estate Investing
 ---

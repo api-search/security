@@ -124,9 +124,9 @@ tags:
 - Company
 - Defi Yield
 - DeFi
-- Vaults
+- Vault
 - Yield Aggregation
-- Cross Chain
+- Cross-Chain
 - Onchain
 - Blockchain
 - Smart Accounts

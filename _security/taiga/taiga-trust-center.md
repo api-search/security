@@ -24,10 +24,10 @@ tags:
 - Scrum
 - Kanban
 - Issue Tracking
-- Open Source
+- Open-Source
 - Sprints
 - User Stories
 - Epics
-- Tasks
+- Task
 trust_url: https://taiga.io/security/
 ---

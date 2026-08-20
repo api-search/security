@@ -1,39 +1,9 @@
 ---
 api_specs:
-- filename: ntu-discover-api-openapi.yml
-  format: yaml
-  label: Nanyang Technological University Discover API
-  slug: ntu-discover-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/openapi/ntu-discover-api-openapi.yml
-- filename: ntu-info-api-openapi.yml
-  format: yaml
-  label: Nanyang Technological University Info API
-  slug: ntu-info-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/openapi/ntu-info-api-openapi.yml
-- filename: ntu-items-api-openapi.yml
-  format: yaml
-  label: Nanyang Technological University Items API
-  slug: ntu-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/openapi/ntu-items-api-openapi.yml
-- filename: ntu-oai-pmh-api-openapi.yml
-  format: yaml
-  label: Nanyang Technological University OAI-PMH API
-  slug: ntu-oai-pmh-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/openapi/ntu-oai-pmh-api-openapi.yml
-- filename: ntu-root-api-openapi.yml
-  format: yaml
-  label: Nanyang Technological University Root API
-  slug: ntu-root-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/openapi/ntu-root-api-openapi.yml
 - filename: ntu-search-api-openapi.yml
   format: yaml
-  label: Nanyang Technological University Search API
-  slug: ntu-search-api
+  label: DR-NTU (Data) — Dataverse API
+  slug: ntu-drntu-data
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/openapi/ntu-search-api-openapi.yml
 description: ''
@@ -79,12 +49,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/security/ntu-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Singapore
+- Public Research University
 - Research Data
-- Open Data
-- Repository
+- Research Repository
+- Identity Federation
+- Open Access
+- Course Catalog
 - Library
+- OAI-PMH
 ---

@@ -66,16 +66,16 @@ source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/security/measurabl-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- esg
-- real-estate
-- sustainability
-- carbon-accounting
-- energy-management
-- building-performance
-- climate-risk
-- benchmarking
-- compliance
-- proptech
-- utility-data
-- capital-markets
+- ESG
+- Real-Estate
+- Sustainability
+- Carbon Accounting
+- Energy Management
+- Building Performance
+- Climate Risk
+- Benchmarking
+- Compliance
+- PropTech
+- Utility Data
+- Capital Markets
 ---

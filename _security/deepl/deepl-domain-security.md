@@ -92,9 +92,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Deep Learning
-- Glossaries
+- Glossary
 - Localization
-- Machine Learning
+- Machine-Learning
 - Machine Translation
 - Translation
 ---

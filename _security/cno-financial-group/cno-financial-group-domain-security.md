@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cno-financial-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Annuities
-- Financial Services
+- Financial-Services
 - Health Insurance
 - Insurance
 - Life Insurance

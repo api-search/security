@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-cyber-comma
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Cybersecurity
-- Federal Government
+- Federal-Government
 - Military
 - Threat Intelligence
 - Defense

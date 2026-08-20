@@ -68,7 +68,7 @@ tags:
 - Identity
 - Profiles
 - Social
-- Images
+- Image
 - GraphQL
 - REST
 ---

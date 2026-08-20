@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/complyance/ref
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Governance Risk Compliance
 - GRC
 - Compliance

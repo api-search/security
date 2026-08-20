@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Quick Commerce
-- E-commerce
+- E-Commerce
 - Grocery Delivery
 - Retail
 - Consumer

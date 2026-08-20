@@ -44,5 +44,5 @@ tags:
 - QuickBooks
 - Intuit
 - Financial Data
-- OAuth 2.0
+- Authentication
 ---

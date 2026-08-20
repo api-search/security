@@ -55,15 +55,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/krisp/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Voice AI
 - Speech
 - Audio
 - Noise Cancellation
 - Speech Translation
-- Real Time Communications
+- Real-Time Communications
 - WebRTC
 - Conversational AI
 - SDK
-- Machine Learning
+- Machine-Learning
 ---

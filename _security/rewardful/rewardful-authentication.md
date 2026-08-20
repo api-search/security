@@ -55,14 +55,14 @@ summary_line: http-basic · 4 schemes
 tags:
 - Affiliate Tracking
 - Referral Programs
-- SaaS
+- Software-as-a-Service
 - Stripe
 - Commissions
 - Payouts
 - Affiliate Marketing
 - Partner Programs
 - Attribution
-- Webhooks
+- Webhook
 - Paddle
 - Marketing
 ---

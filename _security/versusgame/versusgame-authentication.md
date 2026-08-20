@@ -232,15 +232,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/versusgame/ref
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- gaming
+- Gaming
 - prediction-games
-- audience-engagement
-- gamification
-- media-and-entertainment
-- publishing
-- widgets
-- leaderboards
-- creator-economy
+- Audience Engagement
+- Gamification
+- Media and Entertainment
+- Publishing
+- Widgets
+- Leaderboards
+- Creator Economy
 - ai-content-generation
-- payments
+- Payments
 ---

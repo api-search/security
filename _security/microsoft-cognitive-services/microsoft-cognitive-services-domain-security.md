@@ -57,9 +57,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-cogn
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Azure AI
-- Computer Vision
+- Computer-Vision
 - Speech
 - NLP
 - OpenAI
-- Machine Learning
+- Machine-Learning
 ---

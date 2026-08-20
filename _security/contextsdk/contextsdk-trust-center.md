@@ -23,7 +23,7 @@ tags:
 - SDK
 - On-Device
 - Context
-- Machine Learning
+- Machine-Learning
 - Push Notifications
 - Privacy
 - iOS

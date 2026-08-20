@@ -32,11 +32,11 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Knowledge Management
+- Knowledge-Management
 - AI Agents
-- Workflow Automation
-- Model Context Protocol
+- Workflow-Automation
+- MCP
 - Enterprise Software
-- SaaS
+- Software-as-a-Service
 - Y Combinator
 ---

@@ -27,6 +27,6 @@ tags:
 - Marketing Intelligence
 - Data Pipeline
 - MCP
-- Webhooks
+- Webhook
 trust_url: https://trust.improvado.io/
 ---

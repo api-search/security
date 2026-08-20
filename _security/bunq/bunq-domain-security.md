@@ -100,7 +100,7 @@ tags:
 - Banking
 - Neobank
 - Payments
-- Accounts
+- Account
 - SEPA
 - Open Banking
 - Fintech

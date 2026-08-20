@@ -57,7 +57,6 @@ summary_line: oauth2/apiKey/saml2/scim · 4 schemes
 tags:
 - Company
 - Cybersecurity
-- Model Context Protocol
 - MCP
 - AI Agents
 - Identity

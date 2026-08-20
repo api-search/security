@@ -40,7 +40,7 @@ tags:
 - Compliance
 - Escheatment
 - Unclaimed Property
-- Financial Services
+- Financial-Services
 - RegTech
 - Disbursements
 - Tax Reporting

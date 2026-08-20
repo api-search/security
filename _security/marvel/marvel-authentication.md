@@ -85,7 +85,7 @@ tags:
 - Comics
 - Creators
 - Entertainment
-- Events
+- Event
 - Media
 - Series
 - Stories

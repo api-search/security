@@ -34,7 +34,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Business Automation
-- SaaS
+- Software-as-a-Service
 - Marketing Automation
 - Startup Tools
 - Y Combinator

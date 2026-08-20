@@ -37,6 +37,6 @@ tags:
 - Network Security
 - Threat Detection
 - Zeek
-- Open Source
+- Open-Source
 - Network Monitoring
 ---

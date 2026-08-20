@@ -36,5 +36,5 @@ tags:
 - HR Tech
 - AI Coaching
 - Simulation
-- SaaS
+- Software-as-a-Service
 ---

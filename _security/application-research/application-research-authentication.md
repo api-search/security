@@ -280,7 +280,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/application-re
 summary_line: apiKey/http/oauth2/openIdConnect · 4 schemes
 tags:
 - Application Dependencies
-- Cloud Native
+- Cloud-Native
 - Integration
 - Research
 - Specifications

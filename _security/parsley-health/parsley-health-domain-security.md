@@ -83,7 +83,7 @@ tags:
 - Membership
 - Digital Health
 - Consumer Health
-- Ecommerce
+- E-Commerce
 - Agentic Commerce
 - MCP
 - Supplements

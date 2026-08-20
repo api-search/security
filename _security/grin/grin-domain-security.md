@@ -47,6 +47,6 @@ tags:
 - Creator Management
 - Affiliate Marketing
 - Marketing
-- Social Media
-- eCommerce
+- Social-Media
+- E-Commerce
 ---

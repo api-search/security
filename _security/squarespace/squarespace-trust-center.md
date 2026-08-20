@@ -77,6 +77,6 @@ tags:
 - Payments
 - Retail
 - Website Builder
-- Webhooks
+- Webhook
 trust_url: ''
 ---

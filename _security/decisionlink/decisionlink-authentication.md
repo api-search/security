@@ -102,7 +102,7 @@ tags:
 - Revenue Operations
 - Customer Value Management
 - Artificial Intelligence
-- Go To Market
+- Go-To-Market
 - Sales
 - Analytics
 - Value Selling

@@ -43,6 +43,6 @@ tags:
 - API Gateway
 - Envoy
 - Kubernetes
-- Open Source
+- Open-Source
 - Service Mesh
 ---

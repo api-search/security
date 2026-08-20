@@ -23,6 +23,6 @@ tags:
 - Construction Technology
 - Estimating
 - Cost Management
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.ediphi.com/
 ---

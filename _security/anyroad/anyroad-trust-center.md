@@ -21,11 +21,11 @@ summary_line: SOC 2, PCI DSS, GDPR
 tags:
 - Company
 - Experiential Marketing
-- Events
-- Experiences
+- Event
+- Experience
 - Ticketing
 - Consumer Engagement
 - Analytics
-- Webhooks
+- Webhook
 trust_url: https://trust.anyroad.com/
 ---

@@ -47,7 +47,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/protecta
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/protectai/refs/heads/main/authentication/protectai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - ML
 - Security
 - LLM

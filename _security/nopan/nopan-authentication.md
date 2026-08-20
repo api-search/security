@@ -83,7 +83,7 @@ summary_line: oauth2/mutualTLS/http-bearer/jws-signing · 4 schemes
 tags:
 - Payments
 - Payment Service Provider
-- Account to Account
+- Account-to-Account
 - Wallet Payments
 - Open Banking
 - PSD2

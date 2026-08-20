@@ -35,7 +35,7 @@ tags:
 - Sales Intelligence
 - Customer Data Platform
 - Lead Scoring
-- Machine Learning
+- Machine-Learning
 - B2B Marketing
 - Historical
 ---

@@ -151,14 +151,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/security/attomdata-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Real Estate
+- Real-Estate
 - Property Data
 - Property Intelligence
 - Mortgage
 - Assessment
 - AVM
 - Foreclosure
-- Transactions
+- Transaction
 - Owner Data
 - Building Permits
 - Geospatial

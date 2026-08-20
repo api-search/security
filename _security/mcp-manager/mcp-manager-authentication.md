@@ -48,7 +48,6 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - AI Governance
 - API Gateway
 - Security

@@ -130,7 +130,7 @@ tags:
 - Drug Discovery
 - Life Sciences
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Single Cell
 - Transcriptomics
 - Pharmaceuticals

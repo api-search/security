@@ -68,6 +68,5 @@ tags:
 - Background Checks
 - Credit Monitoring
 - Consumer Data
-- Financial Services
-- API
+- Financial-Services
 ---

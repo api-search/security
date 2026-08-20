@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://online.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/steinbach-credit-union/refs/heads/main/authentication/steinbach-credit-union-authentication.yml
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Canada
 - Credit Union

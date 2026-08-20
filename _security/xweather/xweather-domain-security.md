@@ -99,7 +99,7 @@ tags:
 - Air Quality
 - Company
 - Data
-- Forecasts
+- Forecast
 - Lightning
 - Maritime
 - Observations

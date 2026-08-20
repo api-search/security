@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: >-\n  https://s
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/authentication/spark-platform-authentication.yml
 summary_line: http-bearer/oauth2/openIdConnect/saml/apiKey-signed · 4 schemes
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - MLS
 - RESO

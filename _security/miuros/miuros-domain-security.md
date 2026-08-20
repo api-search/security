@@ -32,10 +32,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Customer Service
-- Customer Support
+- Customer-Support
 - Analytics
 - Quality Assurance
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Techstars
 ---

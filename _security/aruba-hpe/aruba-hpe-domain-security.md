@@ -59,7 +59,7 @@ tags:
 - Network Access Control
 - Cloud Networking
 - AIOps
-- Data Center
+- Data-Center
 - Campus
 - Branch
 - Edge

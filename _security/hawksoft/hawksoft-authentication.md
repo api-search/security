@@ -62,7 +62,7 @@ tags:
 - Insurance
 - Agency Management System
 - AMS
-- InsurTech
+- Insurtech
 - Property and Casualty
 - Partner API
 - Gated API

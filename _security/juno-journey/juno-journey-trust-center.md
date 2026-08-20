@@ -27,6 +27,6 @@ tags:
 - Performance Management
 - Skills Analytics
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.junojourney.com/
 ---

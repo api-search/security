@@ -33,10 +33,10 @@ tags:
 - Crypto Web3
 - Donations
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Payments
 - Cryptocurrency
 - Stock Donations
-- Webhooks
+- Webhook
 - Widgets
 ---

@@ -37,5 +37,5 @@ tags:
 - Inventory Management
 - Control Tower
 - Manufacturing
-- SaaS
+- Software-as-a-Service
 ---

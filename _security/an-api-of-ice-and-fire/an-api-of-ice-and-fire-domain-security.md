@@ -56,7 +56,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Video
 - Public APIs
-- Open Source
+- Open-Source
 - Game of Thrones
 - A Song of Ice and Fire
 - Fan API

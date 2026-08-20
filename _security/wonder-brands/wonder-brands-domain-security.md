@@ -30,11 +30,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wonder-brands/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ecommerce
 - E-Commerce
 - Consumer Goods
 - Retail
 - Brand Aggregator
 - Latin America
-- Direct To Consumer
+- Direct to Consumer
 ---

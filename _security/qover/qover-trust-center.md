@@ -30,7 +30,6 @@ tags:
 - Embedded Insurance
 - Claims
 - Policy
-- API
 - Fintech
 - Belgium
 trust_url: https://trust.qover.com/

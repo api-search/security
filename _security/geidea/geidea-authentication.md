@@ -74,7 +74,7 @@ tags:
 - MENA
 - mada
 - Cards
-- POS
+- Point-of-Sale
 - Checkout
 - Fintech
 ---

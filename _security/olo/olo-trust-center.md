@@ -62,10 +62,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads
 summary_line: SOC 2, PCI DSS
 tags:
 - Food Service
-- Restaurants
+- Restaurant
 - Online Ordering
 - Delivery
-- Point of Sale
+- Point-of-Sale
 - Hospitality
 - Payments
 - Loyalty

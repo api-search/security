@@ -33,8 +33,8 @@ tags:
 - Company
 - Retail
 - Inventory
-- E-commerce
-- Point of Sale
+- E-Commerce
+- Point-of-Sale
 - Resale
 - Payments
 - Marketplace

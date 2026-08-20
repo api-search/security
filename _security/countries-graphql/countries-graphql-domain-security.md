@@ -33,6 +33,6 @@ tags:
 - Geography
 - Open Data
 - Free
-- Languages
+- Language
 - Continents
 ---

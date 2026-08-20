@@ -38,5 +38,5 @@ tags:
 - Workforce
 - Education
 - LMS
-- AI
+- Artificial Intelligence
 ---

@@ -106,7 +106,7 @@ tags:
 - South Africa
 - Online Payments
 - Checkout
-- Point of Sale
+- Point-of-Sale
 - SMB
 - Financial Infrastructure
 ---

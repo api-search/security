@@ -92,7 +92,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/land-insight/r
 summary_line: ISO 27001, GDPR
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Property
 - Land
 - Planning

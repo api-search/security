@@ -36,5 +36,5 @@ tags:
 - Key-Value Store
 - Redis
 - Memcached
-- Open Source
+- Open-Source
 ---

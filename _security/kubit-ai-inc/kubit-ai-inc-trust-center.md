@@ -24,9 +24,9 @@ tags:
 - Product Analytics
 - Data Warehouse
 - LLM Observability
-- Model Context Protocol
+- MCP
 - Agent Analytics
 - OpenTelemetry
-- Devops
+- DevOps
 trust_url: ''
 ---

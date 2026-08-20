@@ -45,17 +45,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magnific-ai/refs/heads/main/security/magnific-ai-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- AI
 - Artificial Intelligence
 - Image Upscaling
 - Image Enhancement
 - Generative AI
-- Image Generation
-- Computer Vision
+- Image-Generation
+- Computer-Vision
 - Creative Tools
 - Relight
 - Style Transfer
-- Text To Image
+- Text-to-Image
 - Freepik
 - Spain
 ---

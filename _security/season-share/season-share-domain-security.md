@@ -33,7 +33,7 @@ tags:
 - Ticketing
 - Sports
 - Entertainment
-- Events
+- Event
 - Fan Engagement
-- SaaS
+- Software-as-a-Service
 ---

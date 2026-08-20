@@ -27,7 +27,7 @@ tags:
 - Software Development
 - GraphQL
 - SDK
-- Webhooks
+- Webhook
 - DevOps
 trust_url: https://trust.perforce.com/
 ---

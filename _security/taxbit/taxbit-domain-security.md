@@ -37,5 +37,5 @@ tags:
 - Digital Assets
 - Cryptocurrency
 - Accounting
-- Regtech
+- RegTech
 ---

@@ -144,7 +144,7 @@ tags:
 - Human Resources
 - HR Tech
 - Postings
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 trust_url: https://www.lever.co/security
 ---

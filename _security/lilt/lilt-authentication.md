@@ -115,7 +115,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lilt/refs/head
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Translation
 - Localization
 - Machine Translation

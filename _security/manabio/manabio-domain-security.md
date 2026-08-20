@@ -35,7 +35,7 @@ tags:
 - Lipid Nanoparticles
 - Gene Therapy
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Genetic Medicine
 - mRNA
 ---

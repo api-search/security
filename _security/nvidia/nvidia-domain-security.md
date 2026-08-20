@@ -36,8 +36,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nvidia/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - GPU
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Computing
 - Graphics
 - Fortune 1000

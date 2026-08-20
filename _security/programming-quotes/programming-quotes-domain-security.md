@@ -41,7 +41,7 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Personality
 - Public APIs
-- Open Source
+- Open-Source
 - Quotes
 - Programming
 - Developer Tools

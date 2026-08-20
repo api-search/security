@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/route/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- SaaS
-- E-commerce
+- Software-as-a-Service
+- E-Commerce
 - Shipping
 - Package Tracking
 - Shipping Protection

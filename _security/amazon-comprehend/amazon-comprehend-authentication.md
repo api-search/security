@@ -535,7 +535,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/authentication/amazon-comprehend-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - NLP
 - Text Analysis

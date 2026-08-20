@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hycu/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Data Protection
 - Backup
 - Disaster Recovery
 - Ransomware
 - Data Resilience
-- SaaS
+- Software-as-a-Service
 - Cloud
 ---

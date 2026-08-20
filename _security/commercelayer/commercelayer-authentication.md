@@ -105,7 +105,7 @@ tags:
 - Commerce
 - Headless
 - Composable
-- eCommerce
+- E-Commerce
 - JSON:API
-- Orders
+- Order
 ---

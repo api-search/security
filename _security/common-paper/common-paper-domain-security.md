@@ -42,7 +42,6 @@ tags:
 - Agreements
 - SaaS Contracts
 - E-Signature
-- API
-- Webhooks
+- Webhook
 - MCP
 ---

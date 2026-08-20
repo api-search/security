@@ -260,7 +260,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Feature Flags
 - Experimentation
-- Open Source
-- AB Testing
+- Open-Source
+- A/B Testing
 - Analytics
 ---

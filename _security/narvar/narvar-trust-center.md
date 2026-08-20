@@ -32,7 +32,7 @@ tags:
 - Delivery Notifications
 - Returns
 - Exchanges
-- Ecommerce
+- E-Commerce
 - Shipments
 - Customer Experience
 trust_url: https://trust.narvar.com/

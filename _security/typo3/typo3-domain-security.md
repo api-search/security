@@ -70,6 +70,6 @@ tags:
 - Enterprise
 - PHP
 - Headless
-- JSON API
-- Open Source
+- JSON:API
+- Open-Source
 ---

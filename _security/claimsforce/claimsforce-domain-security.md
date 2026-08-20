@@ -36,6 +36,6 @@ tags:
 - Claims Management
 - Underwriting
 - Risk Management
-- SaaS
+- Software-as-a-Service
 - Germany
 ---

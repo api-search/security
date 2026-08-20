@@ -36,5 +36,5 @@ tags:
 - Cell Therapy
 - Immunotherapy
 - Oncology
-- CAR-T
+- Cart
 ---

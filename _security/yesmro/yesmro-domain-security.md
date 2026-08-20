@@ -31,7 +31,7 @@ tags:
 - Company
 - MRO
 - Industrial Supply
-- E-commerce
+- E-Commerce
 - Procurement
 - Factory Automation
 - Industrial Parts

@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentiq/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Banking
-- Financial Services
+- Financial-Services
 - Conversational AI
 - Customer Engagement
 - Relationship Banking

@@ -27,6 +27,6 @@ tags:
 - Analytics
 - Artificial Intelligence
 - MCP
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.enterpret.com/security
 ---

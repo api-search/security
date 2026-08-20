@@ -60,16 +60,16 @@ source_yaml: "generated: '2026-08-05'\nmethod: derived\nsource: openapi/wagestre
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wagestream/refs/heads/main/authentication/wagestream-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- financial-wellbeing
-- earned-wage-access
-- fintech
-- payroll
-- human-resources
-- workforce-management
-- time-and-attendance
-- employee-benefits
-- workplace-savings
-- hr-integrations
-- b-corp
-- united-kingdom
+- Financial Wellbeing
+- Earned Wage Access
+- Fintech
+- Payroll
+- Human Resources
+- Workforce Management
+- Time and Attendance
+- Employee Benefits
+- Workplace Savings
+- HR Integrations
+- B Corp
+- United Kingdom
 ---

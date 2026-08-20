@@ -25,7 +25,7 @@ tags:
 - Commercial Real Estate
 - Loan Servicing
 - Fintech
-- Financial Services
+- Financial-Services
 - GraphQL
 trust_url: https://trust.hypercore.ai/
 ---

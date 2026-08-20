@@ -33,11 +33,11 @@ tags:
 - Company
 - Biotechnology
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Protein Engineering
 - Drug Discovery
 - Antibodies
 - Computational Biology
-- Open Source
+- Open-Source
 - Life Sciences
 ---

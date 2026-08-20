@@ -37,16 +37,16 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nutrientsdb/refs/heads/main/security/nutrientsdb-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- nutrition
-- food
-- nutrients
-- food-composition
-- data
-- search
-- sample-data
-- dataset
+- Nutrition
+- Food
+- Nutrients
+- Food Composition
+- Data
+- Search
+- Sample Data
+- Dataset
 - ai-builders
-- reference-data
-- open-data
+- Reference Data
+- Open Data
 - keyless-api
 ---

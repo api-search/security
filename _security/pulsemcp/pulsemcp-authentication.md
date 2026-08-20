@@ -41,7 +41,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pulsemcp/refs/
 summary_line: 2 schemes
 tags:
 - MCP
-- Model Context Protocol
 - AI Agents
 - Agentic Engineering
 - Directory

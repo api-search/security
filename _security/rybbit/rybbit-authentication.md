@@ -81,6 +81,6 @@ tags:
 - Web Analytics
 - Product Analytics
 - Privacy
-- Open Source
+- Open-Source
 - Cookieless
 ---

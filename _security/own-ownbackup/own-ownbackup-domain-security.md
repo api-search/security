@@ -38,5 +38,5 @@ tags:
 - Data Security
 - Compliance
 - Salesforce
-- SaaS
+- Software-as-a-Service
 ---

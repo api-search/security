@@ -299,7 +299,7 @@ tags:
 - Payments
 - Cards
 - Fintech
-- Accounts
+- Account
 - KYC
 - Company
 ---

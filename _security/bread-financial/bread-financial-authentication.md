@@ -50,6 +50,6 @@ tags:
 - Buy Now Pay Later
 - Lending
 - Consumer Finance
-- Point of Sale
-- Ecommerce
+- Point-of-Sale
+- E-Commerce
 ---

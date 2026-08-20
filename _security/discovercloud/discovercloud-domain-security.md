@@ -30,6 +30,6 @@ summary_line: TLSv1.3
 tags:
 - Cloud Services
 - Marketplace
-- SaaS
+- Software-as-a-Service
 - Software Discovery
 ---

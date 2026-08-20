@@ -35,7 +35,7 @@ tags:
 - Healthcare
 - Supplier Management
 - Pharma
-- SaaS
+- Software-as-a-Service
 - France
 - Procurement
 ---

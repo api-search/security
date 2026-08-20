@@ -90,8 +90,8 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Chat
 - Collaboration
-- Communication
-- Microsoft 365
+- Communications
+- Microsoft-365
 - Productivity
 - Video Conferencing
 ---

@@ -116,7 +116,7 @@ tags:
 - Dental Insurance
 - Disability
 - Wealth Management
-- Financial Services
+- Financial-Services
 - Carrier
 - FHIR
 - Patient Access

@@ -37,5 +37,5 @@ tags:
 - Temporary Work
 - Scheduling
 - Time Tracking
-- Integrations
+- Integration
 ---

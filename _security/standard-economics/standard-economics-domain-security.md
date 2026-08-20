@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/standard-econo
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Financial Inclusion
 - Capital Allocation

@@ -33,7 +33,7 @@ tags:
 - Company
 - Networking
 - AI Infrastructure
-- Data Center
+- Data-Center
 - Ethernet Switches
 - Optics and Cables
 - Networking Hardware

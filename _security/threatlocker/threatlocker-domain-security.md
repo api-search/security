@@ -154,16 +154,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/security/threatlocker-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- cybersecurity
-- zero-trust
-- endpoint-security
-- application-control
+- Cybersecurity
+- Zero Trust
+- Endpoint Security
+- Application-Control
 - allowlisting
-- ransomware-prevention
-- privileged-access-management
-- network-access-control
-- managed-detection-and-response
-- device-management
-- msp
-- compliance
+- Ransomware Prevention
+- Privileged Access Management
+- Network Access Control
+- Managed Detection and Response
+- Device Management
+- MSP
+- Compliance
 ---

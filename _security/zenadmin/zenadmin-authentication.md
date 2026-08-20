@@ -83,5 +83,5 @@ tags:
 - Identity and Access Management
 - IT Procurement
 - Employee Lifecycle
-- Webhooks
+- Webhook
 ---

@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/resistant-ai/r
 summary_line: oauth2 · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Fraud Detection
 - Financial Crime
 - Document Verification
@@ -53,5 +53,5 @@ tags:
 - AML
 - Identity Verification
 - Fintech
-- Machine Learning
+- Machine-Learning
 ---

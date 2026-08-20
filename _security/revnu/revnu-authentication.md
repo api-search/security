@@ -95,7 +95,7 @@ tags:
 - Growth Automation
 - Marketing
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Startups
 - Lead Generation
 - SEO

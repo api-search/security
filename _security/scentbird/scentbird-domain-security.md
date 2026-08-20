@@ -37,5 +37,5 @@ tags:
 - E-Commerce
 - Beauty
 - Consumer
-- Direct-to-Consumer
+- Direct to Consumer
 ---

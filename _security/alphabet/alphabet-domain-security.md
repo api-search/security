@@ -36,6 +36,6 @@ tags:
 - Search
 - Advertising
 - Cloud Computing
-- AI
+- Artificial Intelligence
 - Fortune 100
 ---

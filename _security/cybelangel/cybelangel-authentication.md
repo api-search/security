@@ -98,16 +98,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cybelangel/ref
 summary_line: oauth2/http · 2 schemes
 tags:
 - Company
-- cybersecurity
-- threat-intelligence
+- Cybersecurity
+- Threat Intelligence
 - external-attack-surface-management
 - data-breach-prevention
-- credential-intelligence
-- brand-protection
-- dark-web-monitoring
-- digital-risk-protection
-- stix
+- Credential Intelligence
+- Brand Protection
+- Dark Web Monitoring
+- Digital Risk Protection
+- STIX
 - security-alerts
-- asset-inventory
-- audit-logs
+- Asset Inventory
+- Audit Logs
 ---

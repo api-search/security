@@ -39,7 +39,7 @@ tags:
 - Company
 - Consumer
 - Retail
-- Ecommerce
+- E-Commerce
 - Fashion
 - Apparel
 - Personalization

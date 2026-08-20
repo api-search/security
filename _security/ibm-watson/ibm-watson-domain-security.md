@@ -37,7 +37,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - IBM
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - Speech Recognition
 ---

@@ -109,7 +109,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/
 summary_line: DMARC
 tags:
 - Payments
-- FinTech
+- Fintech
 - Philippines
 - Southeast Asia
 - GCash

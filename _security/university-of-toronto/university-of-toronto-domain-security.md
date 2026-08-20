@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: university-of-toronto-timetable-builder-openapi.yml
+  format: yaml
+  label: Timetable Builder API
+  slug: ttb-course-timetable
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/openapi/university-of-toronto-timetable-builder-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,12 +49,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/security/university-of-toronto-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
+- Higher Education
+- Education
 - Canada
-- Library
+- U15
+- Research
+- Course Catalog
+- Identity Federation
+- Research Data
 - Institutional Repository
+- Library
+- Public Research University
 ---

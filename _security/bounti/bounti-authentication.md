@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bounti/refs/he
 summary_line: none · 1 scheme
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Artificial Intelligence
 - Marketing
 - Sales Enablement

@@ -44,5 +44,5 @@ tags:
 - Venture Capital
 - Private Equity
 - E-Signature
-- FinTech
+- Fintech
 ---

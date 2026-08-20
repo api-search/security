@@ -34,7 +34,7 @@ tags:
 - Drug Discovery
 - Biotechnology
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Pharmaceuticals
 - Natural Products
 ---

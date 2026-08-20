@@ -30,12 +30,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cline/refs/heads/main/security/cline-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Developer Tools
-- Agent
+- Agents
 - VS Code
 - JetBrains
 - CLI
 - MCP
-- Open Source
+- Open-Source
 ---

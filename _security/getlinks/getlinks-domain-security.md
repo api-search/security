@@ -34,7 +34,7 @@ tags:
 - Recruitment
 - Hiring
 - Talent
-- Jobs
+- Job
 - Human Resources
 - Artificial Intelligence
 - Southeast Asia

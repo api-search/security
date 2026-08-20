@@ -35,7 +35,7 @@ tags:
 - Creator Marketing
 - Influencer Marketing
 - Social Commerce
-- E-commerce
+- E-Commerce
 - Marketing Automation
 - AI Agents
 ---

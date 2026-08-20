@@ -80,6 +80,6 @@ tags:
 - Analytics
 - Meetings
 - CRM
-- OAuth
+- Authentication
 - SCIM
 ---

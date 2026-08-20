@@ -38,7 +38,7 @@ tags:
 - JAX-RS
 - JAX-WS
 - Java
-- Open Source
+- Open-Source
 - REST
 - SOAP
 - WS-Security

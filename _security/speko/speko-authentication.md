@@ -55,8 +55,8 @@ summary_line: http · 1 scheme
 tags:
 - Voice
 - Voice AI
-- Speech to Text
-- Text to Speech
+- Speech-to-Text
+- Text-to-Speech
 - LLM
 - Telephony
 - API Gateway

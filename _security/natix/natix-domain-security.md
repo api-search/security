@@ -36,7 +36,7 @@ tags:
 - Autonomous Driving
 - Physical AI
 - Geospatial
-- Computer Vision
+- Computer-Vision
 - Web3
 - Data
 ---

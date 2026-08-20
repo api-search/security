@@ -34,7 +34,7 @@ tags:
 - Media
 - Entertainment
 - Content Licensing
-- SaaS
+- Software-as-a-Service
 - Metadata
 - Royalties
 - Rights Management

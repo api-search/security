@@ -31,6 +31,6 @@ tags:
 - GraphQL
 - Go
 - Code Generation
-- Schema First
-- Open Source
+- Schema-First
+- Open-Source
 ---

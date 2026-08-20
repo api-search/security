@@ -36,7 +36,7 @@ tags:
 - Claims Management
 - Medical Billing
 - Data Analytics
-- SaaS
+- Software-as-a-Service
 - Healthcare Providers
 - Medicare
 ---

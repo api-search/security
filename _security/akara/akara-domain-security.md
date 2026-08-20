@@ -36,6 +36,6 @@ tags:
 - Operating Room
 - Automation
 - Disinfection
-- Computer Vision
+- Computer-Vision
 - MedTech
 ---

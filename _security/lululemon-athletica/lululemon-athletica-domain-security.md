@@ -38,6 +38,6 @@ tags:
 - Apparel
 - Athletic Wear
 - Retail
-- Ecommerce
+- E-Commerce
 - Fortune 500
 ---

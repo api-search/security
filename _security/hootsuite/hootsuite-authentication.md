@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/authentication/hootsuite-authentication.yml
 summary_line: oauth2/http/apiKey · 6 schemes
 tags:
-- Social Media
+- Social-Media
 - Social Media Management
 - Marketing
 - Content Scheduling
@@ -114,6 +114,6 @@ tags:
 - Employee Advocacy
 - Customer Service
 - SCIM
-- OAuth 2.0
-- Webhooks
+- Authentication
+- Webhook
 ---

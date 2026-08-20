@@ -34,7 +34,7 @@ tags:
 - Drug Development
 - R&D Operations
 - Biotech
-- Pharmaceutical
+- Pharmaceuticals
 - AI Agents
 - Operations Platform
 ---

@@ -37,11 +37,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopkeep/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Point of Sale
+- Point-of-Sale
 - Retail
 - Payments
 - Small Business
-- POS
 - iPad
 - Lightspeed
 ---

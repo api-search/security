@@ -34,7 +34,7 @@ tags:
 - Home Equity
 - Mortgage
 - Lending
-- Real Estate
+- Real-Estate
 - Consumer Finance
 - HELOC
 ---

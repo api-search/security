@@ -30,7 +30,7 @@ tags:
 - Database
 - API Management
 - Backend
-- No Code
+- No-Code
 - SQL
 - PostgreSQL
 - MySQL
@@ -39,9 +39,9 @@ tags:
 - Agents
 - Data
 - SQL Server
-- Webhooks
+- Webhook
 - OpenAPI
-- Low Code
+- Low-Code
 - Egypt
 trust_url: ''
 ---

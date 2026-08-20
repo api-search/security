@@ -79,7 +79,7 @@ summary_line: http · 1 scheme
 tags:
 - Live Chat
 - Customer Service
-- Customer Support
+- Customer-Support
 - Messaging
 - Sales
 - Help Desk

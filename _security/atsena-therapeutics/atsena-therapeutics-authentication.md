@@ -108,6 +108,6 @@ tags:
 - Rare Disease
 - Healthcare
 - Research and Development
-- Content API
+- content-api
 - WordPress
 ---

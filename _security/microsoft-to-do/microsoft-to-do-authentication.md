@@ -54,7 +54,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-to-d
 summary_line: http · 1 scheme
 tags:
 - Microsoft
-- Microsoft 365
+- Microsoft-365
 - Productivity
-- Tasks
+- Task
 ---

@@ -49,9 +49,9 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Commerce
 - Headless
-- eCommerce
+- E-Commerce
 - GraphQL
-- Open Source
+- Open-Source
 - Python
 - TypeScript
 ---

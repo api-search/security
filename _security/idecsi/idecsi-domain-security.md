@@ -33,7 +33,7 @@ tags:
 - Company
 - Infrastructure Saas
 - Data Security
-- Microsoft 365
+- Microsoft-365
 - Data Access Governance
 - DSPM
 - Cybersecurity

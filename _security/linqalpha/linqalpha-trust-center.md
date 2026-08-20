@@ -82,7 +82,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs
 summary_line: SOC 1 Type II, SOC 2 Type II, ISO 27001
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Investment Research
 - Artificial Intelligence
 - Agents

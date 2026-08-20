@@ -49,5 +49,5 @@ tags:
 - Reservations
 - Distribution
 - Central Reservation System
-- OAuth2
+- Authentication
 ---

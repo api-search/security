@@ -41,16 +41,16 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nsource: openapi/spectru
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/authentication/spectrumoutage-api-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- spectrum
+- Spectrum
 - outage
-- internet
-- tv
-- phone
-- monitoring
-- status
-- zip-code
-- telecom
-- isp
+- Internet
+- TV
+- Phone
+- Monitoring
+- Status
+- ZIP Code
+- Telecom
+- ISP
 - network-status
-- crowdsourced
+- Crowdsourced
 ---

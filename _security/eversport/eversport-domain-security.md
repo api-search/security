@@ -56,5 +56,5 @@ tags:
 - GraphQL
 - Reservations
 - Studio Management
-- Events
+- Event
 ---

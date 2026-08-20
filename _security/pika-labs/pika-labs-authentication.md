@@ -55,9 +55,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pika-lab
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/authentication/pika-labs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Video Generation
 - Text-to-Video
-- Multimodal
+- Multi-Modal
 - Generative
 ---

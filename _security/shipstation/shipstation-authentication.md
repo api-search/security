@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/shipstat
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/authentication/shipstation-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Ecommerce
+- E-Commerce
 - Labels
 - Logistics
 - Order Management

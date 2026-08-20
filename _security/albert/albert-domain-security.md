@@ -36,7 +36,7 @@ tags:
 - Materials Science
 - R&D
 - Electronic Lab Notebook
-- Machine Learning
+- Machine-Learning
 - Life Sciences
 - Formulation
 ---

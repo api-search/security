@@ -67,10 +67,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/v7-labs-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/v7-labs/refs/heads/main/authentication/v7-labs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Training Data
 - Data Labeling
 - Annotation
 - Document AI
-- Computer Vision
+- Computer-Vision
 ---

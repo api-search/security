@@ -45,5 +45,5 @@ tags:
 - eIDAS
 - Trust Services
 - Regulatory Checking
-- Financial Services
+- Financial-Services
 ---

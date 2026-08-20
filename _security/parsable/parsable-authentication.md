@@ -45,6 +45,6 @@ tags:
 - Industrial
 - Digital Work Instructions
 - Frontline Operations
-- Workflow
+- Workflows
 - Analytics
 ---

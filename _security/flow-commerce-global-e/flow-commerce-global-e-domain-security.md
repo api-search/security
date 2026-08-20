@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Commerce
-- Ecommerce
+- E-Commerce
 - Cross-Border
 - Payments
 - Localization

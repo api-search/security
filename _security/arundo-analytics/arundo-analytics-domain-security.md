@@ -40,7 +40,7 @@ tags:
 - Industrial AI
 - Industrial IoT
 - Analytics
-- Machine Learning
+- Machine-Learning
 - Time Series
 - Asset Performance Management
 - Anomaly Detection

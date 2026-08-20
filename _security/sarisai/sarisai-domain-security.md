@@ -35,7 +35,7 @@ tags:
 - Banking
 - Credit Unions
 - AI Agents
-- Workflow Automation
+- Workflow-Automation
 - Lending
 - Compliance
 ---

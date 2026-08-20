@@ -147,11 +147,11 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Restaurant
-- Point of Sale
+- Point-of-Sale
 - Hospitality
 - Food and Beverage
 - Payments
 - Inventory
 - Latin America
-- SaaS
+- Software-as-a-Service
 ---

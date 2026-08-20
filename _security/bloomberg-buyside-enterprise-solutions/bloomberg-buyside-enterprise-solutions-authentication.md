@@ -169,8 +169,8 @@ tags:
 - Asset Management
 - Buy-Side
 - Enterprise Solutions
-- Financial Services
+- Financial-Services
 - Market Data
-- Portfolio Management
+- Portfolio-Management
 - Trading
 ---

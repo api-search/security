@@ -35,14 +35,14 @@ summary_line: SOC 2, ISO 27001, GDPR, CSA STAR
 tags:
 - Analytics
 - Commerce
-- eCommerce
-- Multichannel
+- E-Commerce
+- Multi-Channel
 - Retail Media
 - Where to Buy
 - Shoppable Media
 - Product Availability
 - MCP
-- Agent Native
+- agent-native
 - Reporting
 - CPG
 trust_url: https://www.mikmak.com/security

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Retail
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Gifts
 - Homeware

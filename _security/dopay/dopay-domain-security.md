@@ -37,5 +37,5 @@ tags:
 - Earned Wage Access
 - Salary Disbursement
 - Egypt
-- Financial Services
+- Financial-Services
 ---

@@ -20,9 +20,9 @@ summary_line: SOC 2 Type II
 tags:
 - Company
 - Retirement
-- 401(k)
+- 401k
 - IRA
-- Financial Services
+- Financial-Services
 - Fintech
 - Payroll
 - Investing

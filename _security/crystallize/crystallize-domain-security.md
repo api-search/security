@@ -47,6 +47,6 @@ tags:
 - GraphQL
 - Catalog
 - Search
-- Orders
-- Subscriptions
+- Order
+- Subscription
 ---

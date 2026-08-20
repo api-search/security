@@ -36,6 +36,6 @@ tags:
 - Energy Drink
 - Beverage
 - Wellness
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 ---

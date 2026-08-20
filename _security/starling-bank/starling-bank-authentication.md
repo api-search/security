@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://api.sta
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/authentication/starling-bank-authentication.yml
 summary_line: oauth2/http · 3 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

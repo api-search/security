@@ -1638,7 +1638,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce/ref
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Fortune 500
-- AI
+- Artificial Intelligence
 - Analytics
 - Cloud
 - Commerce

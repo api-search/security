@@ -33,12 +33,12 @@ tags:
 - Capability-Based Security
 - Code Generation
 - IPC
-- Open Source
+- Open-Source
 - Protocol
 - RPC
 - Schema
-- SDKs
+- SDK
 - Serialization
 - Specification
-- Zero Copy
+- Zero-Copy
 ---

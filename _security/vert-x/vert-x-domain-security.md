@@ -37,5 +37,5 @@ tags:
 - Polyglot
 - Reactive
 - Eclipse Foundation
-- Open Source
+- Open-Source
 ---

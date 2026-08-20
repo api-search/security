@@ -51,7 +51,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads
 summary_line: TLSv1.3 · DMARC
 tags:
 - CRM
-- Customer Relationship Management
 - Marketing Automation
 - Contact Management
 - Sales

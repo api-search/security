@@ -413,7 +413,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-aut
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Amazon Web Services
-- Auto Scaling
+- Auto-Scaling
 - Compute
 - EC2
 - High Availability

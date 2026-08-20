@@ -33,7 +33,7 @@ tags:
 - Semiconductors
 - Edge AI
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - TinyML
 - Neural Processors
 - Embedded Systems

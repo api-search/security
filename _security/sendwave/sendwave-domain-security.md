@@ -36,5 +36,5 @@ tags:
 - Remittances
 - Payments
 - Mobile
-- Financial Services
+- Financial-Services
 ---

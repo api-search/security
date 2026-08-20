@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - 529 Plans
 - Education Savings
 - College Savings

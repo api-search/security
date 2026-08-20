@@ -74,7 +74,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/miriel/refs/he
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Context Engine
 - Retrieval
 - RAG

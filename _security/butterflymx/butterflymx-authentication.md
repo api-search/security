@@ -135,16 +135,16 @@ source_yaml: "generated: '2026-08-08'\nmethod: searched\nsource: https://apidocs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/authentication/butterflymx-authentication.yml
 summary_line: oauth2/apiKey · 2 schemes
 tags:
-- access-control
+- Access Control
 - physical-access
 - smart-intercom
-- proptech
-- property-management
-- multifamily
-- building-automation
-- visitor-management
-- iot
+- PropTech
+- Property Management
+- Multifamily
+- Building Automation
+- Visitor Management
+- IoT
 - smart-locks
-- oauth2
-- webhooks
+- Authentication
+- Webhook
 ---

@@ -31,7 +31,7 @@ tags:
 - Product Sampling
 - Consumer Packaged Goods
 - Advertising
-- SaaS
+- Software-as-a-Service
 - Defunct
 - Retail
 ---

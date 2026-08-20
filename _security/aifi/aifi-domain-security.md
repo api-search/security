@@ -53,7 +53,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aifi/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Computer Vision
+- Computer-Vision
 - Retail
 - Autonomous Checkout
 - Spatial Intelligence
@@ -61,5 +61,5 @@ tags:
 - Analytics
 - Identity
 - Fraud Prevention
-- Point of Sale
+- Point-of-Sale
 ---

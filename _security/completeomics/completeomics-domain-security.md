@@ -32,7 +32,7 @@ tags:
 - Company
 - Molecular Diagnostics
 - Proteomics
-- Multi-Omics
+- Multiomics
 - Genomics
 - Healthcare
 - Life Sciences

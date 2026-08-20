@@ -47,7 +47,7 @@ tags:
 - ACMI
 - Air Cargo
 - Aircraft Leasing
-- Airfreight
+- Air Freight
 - Airlines
 - Aviation
 - Charter

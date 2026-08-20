@@ -102,7 +102,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tratta/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Billing
-- Collections
+- Collection
 - Payments
 - Debt Collection
 - Fintech

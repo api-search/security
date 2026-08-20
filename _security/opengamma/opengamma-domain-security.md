@@ -38,6 +38,6 @@ tags:
 - Analytics
 - Margin
 - Collateral
-- Open Source
+- Open-Source
 - Java
 ---

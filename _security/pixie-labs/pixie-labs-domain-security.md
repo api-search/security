@@ -47,13 +47,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pixie-labs/ref
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Observability
 - Kubernetes
 - eBPF
 - Monitoring
 - Tracing
-- Open Source
+- Open-Source
 - CNCF
 - gRPC
 - Developer Tools

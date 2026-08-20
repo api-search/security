@@ -50,7 +50,7 @@ tags:
 - Historical
 - Listings
 - Neighborhoods
-- Real Estate
+- Real-Estate
 - Rentals
 - Schools
 - Sunset

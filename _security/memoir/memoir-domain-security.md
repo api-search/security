@@ -35,6 +35,6 @@ tags:
 - Artificial Intelligence
 - Content Generation
 - Developer Marketing
-- SaaS
+- Software-as-a-Service
 - Y Combinator
 ---

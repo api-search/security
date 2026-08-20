@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prime-roots/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Foodtech
+- Food Tech
 - Plant-Based
 - Deli Meat
 - Food Service
@@ -39,5 +39,5 @@ tags:
 - Universal Commerce Protocol
 - MCP
 - Shopify
-- Ecommerce
+- E-Commerce
 ---

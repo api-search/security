@@ -104,7 +104,7 @@ tags:
 - Document Processing
 - ETL
 - Financial Data
-- Financial Services
+- Financial-Services
 - Intelligent Document Processing
 - Reconciliations
 - Trade Operations

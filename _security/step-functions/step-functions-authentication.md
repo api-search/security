@@ -39,7 +39,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - API Composition
 - Serverless Orchestration
-- Workflow
+- Workflows
 - State Machine
 - Automation
 ---

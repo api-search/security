@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Agents
 - Linux Foundation
-- Open Source
+- Open-Source
 - Standards
 - MCP
 - Agentic AI

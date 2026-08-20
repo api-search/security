@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bloomera
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/authentication/bloomerang-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- Nonprofit
+- Non-Profit
 - Donor Management
 - CRM
 - Fundraising

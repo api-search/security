@@ -42,7 +42,7 @@ tags:
 - Cross-Chain
 - EVM
 - Solana
-- Notifications
+- Notification
 - Messaging
 - Wallet Abstraction
 - Fee Abstraction

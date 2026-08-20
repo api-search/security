@@ -33,7 +33,7 @@ tags:
 - Company
 - Fintech
 - Wealth Management
-- Financial Services
+- Financial-Services
 - Registered Investment Advisor
 - Financial Planning
 - Investment Management

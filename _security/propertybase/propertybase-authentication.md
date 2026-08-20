@@ -29,10 +29,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/propertybase/r
 summary_line: 1 scheme
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - CRM
 - PropTech
 - Salesforce
 - Lead Management
-- API
 ---

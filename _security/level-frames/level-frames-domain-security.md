@@ -37,6 +37,6 @@ tags:
 - Home Decor
 - E-Commerce
 - Consumer
-- Direct To Consumer
+- Direct to Consumer
 - Y Combinator
 ---

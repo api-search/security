@@ -59,7 +59,7 @@ tags:
 - Group Benefits
 - Health Insurance
 - Insurtech
-- Broker
+- Brokers
 - Enrollment
 - EDI
 - Payroll

@@ -47,7 +47,6 @@ tags:
 - iMessage
 - Communications
 - Conversational
-- Webhooks
+- Webhook
 - CRM Integration
-- API
 ---

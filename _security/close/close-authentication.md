@@ -459,6 +459,6 @@ tags:
 - Pipeline Management
 - AI Agents
 - MCP
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 ---

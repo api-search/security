@@ -98,12 +98,12 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Data Protection
-- Document Management
+- Document-Management
 - Digital Vault
 - Identity
 - Tokenization
 - Web3
 - Compliance
-- HealthTech
-- FinTech
+- Health Tech
+- Fintech
 ---

@@ -38,6 +38,6 @@ tags:
 - Supply Chain
 - Sourcing
 - Contract Management
-- SaaS
-- AI
+- Software-as-a-Service
+- Artificial Intelligence
 ---

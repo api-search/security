@@ -59,7 +59,7 @@ tags:
 - Music
 - Entertainment
 - Audio Advertising
-- Ad Tech
+- AdTech
 - Programmatic Audio
 - Audacy
 - Entercom

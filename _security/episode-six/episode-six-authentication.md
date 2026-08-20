@@ -62,9 +62,9 @@ tags:
 - Issuer Processing
 - Ledger
 - Banking
-- Financial Services
+- Financial-Services
 - Embedded Finance
-- FinTech
+- Fintech
 - Virtual Accounts
 - Virtual Cards
 - Credit

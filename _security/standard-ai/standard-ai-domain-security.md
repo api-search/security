@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Retail
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Autonomous Checkout
 - Retail Technology

@@ -35,7 +35,7 @@ tags:
 - Data Collaboration
 - Sales Intelligence
 - CRM
-- Webhooks
+- Webhook
 - MCP
 trust_url: https://security.crossbeam.com/
 ---

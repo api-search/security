@@ -33,9 +33,9 @@ tags:
 - Company
 - Insurance
 - Insurtech
-- Real Estate
+- Real-Estate
 - Rental Housing
 - Property Management
 - Risk Management
-- Financial Services
+- Financial-Services
 ---

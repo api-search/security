@@ -37,9 +37,9 @@ tags:
 - Cloud
 - Data Management
 - Enterprise
-- Financial Services
+- Financial-Services
 - Market Data
-- Open Source
+- Open-Source
 - Real-Time Data
 - Trading
 ---

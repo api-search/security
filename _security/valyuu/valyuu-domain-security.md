@@ -46,5 +46,5 @@ tags:
 - Circular Economy
 - Consumer Electronics
 - Sustainability
-- eCommerce
+- E-Commerce
 ---

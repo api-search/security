@@ -38,5 +38,5 @@ tags:
 - Consumer Products
 - Retail Analytics
 - Predictive Analytics
-- SaaS
+- Software-as-a-Service
 ---

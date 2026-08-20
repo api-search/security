@@ -36,11 +36,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jome/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - PropTech
 - New Construction
 - Homebuilding
 - Marketplace
-- Homebuying
+- Home Buying
 - Artificial Intelligence
 ---

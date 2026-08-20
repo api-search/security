@@ -78,5 +78,5 @@ tags:
 - Reporting
 - Analytics
 - OData
-- OAuth
+- Authentication
 ---

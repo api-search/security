@@ -39,7 +39,7 @@ tags:
 - BrewDog
 - DIY Dog
 - Recipes
-- Open Source
+- Open-Source
 - Public APIs
 - REST
 - Deprecated

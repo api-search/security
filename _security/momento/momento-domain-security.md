@@ -47,15 +47,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/momento/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Caching
 - Serverless
 - Cache
-- Pub/Sub
+- Pub-Sub
 - Messaging
 - Event Bus
 - Leaderboards
-- Real Time
+- Real-Time
 - gRPC
 - Developer Tools
 ---

@@ -54,5 +54,5 @@ tags:
 - Employee Equity
 - Investor Portfolio
 - Private Markets
-- FinTech
+- Fintech
 ---

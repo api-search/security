@@ -36,7 +36,7 @@ tags:
 - Data Apps
 - Data Science
 - Low-Code
-- Open Source
+- Open-Source
 - Dashboards
 - Web Development
 - ORM

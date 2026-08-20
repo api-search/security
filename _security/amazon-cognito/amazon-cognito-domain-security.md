@@ -806,7 +806,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Authentication
 - Identity
-- OAuth
 - OIDC
 - SAML
 - User Management

@@ -33,7 +33,7 @@ tags:
 - Life Sciences
 - Metabolomics
 - Proteomics
-- Multi-Omics
+- Multiomics
 - Mass Spectrometry
 - Biotechnology
 - CDMO

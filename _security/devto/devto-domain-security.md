@@ -162,5 +162,5 @@ tags:
 - Blogging
 - Social
 - Content
-- Open Source
+- Open-Source
 ---

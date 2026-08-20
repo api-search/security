@@ -30,9 +30,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qeenai/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Marketing
-- Ecommerce
+- E-Commerce
 - Advertising
 - MENA
 - Analytics

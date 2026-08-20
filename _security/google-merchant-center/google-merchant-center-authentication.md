@@ -67,7 +67,7 @@ tags:
 - Google Shopping
 - Inventory
 - Merchant Center
-- Products
+- Product
 - Promotions
 - Shopping
 ---

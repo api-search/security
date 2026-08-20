@@ -38,6 +38,6 @@ tags:
 - Accounts Payable
 - B2B BNPL
 - Business Lending
-- Cashflow
+- Cash Flow
 - Working Capital
 ---

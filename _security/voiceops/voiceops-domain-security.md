@@ -58,6 +58,6 @@ tags:
 - Customer Experience
 - Artificial Intelligence
 - Speech Analytics
-- Model Context Protocol
+- MCP
 - Agents
 ---

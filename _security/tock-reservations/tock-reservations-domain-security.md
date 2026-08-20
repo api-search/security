@@ -42,12 +42,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tock-reservati
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Reservations
-- Restaurants
+- Restaurant
 - Hospitality
-- Events
+- Event
 - Ordering
 - Guest Data
-- Webhooks
+- Webhook
 - Partner API
 - American Express
 ---

@@ -215,6 +215,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/
 summary_line: http · 1 scheme
 tags:
 - Digital Products
-- Ecommerce
-- Products
+- E-Commerce
+- Product
 ---

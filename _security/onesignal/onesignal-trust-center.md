@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://documen
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/security/onesignal-trust-center.yml
 summary_line: SOC 2 Type II, ISO 27001, ISO 27701, EU-U.S. Data Privacy Framework
 tags:
-- Notifications
+- Notification
 - Push
 - Email
 - SMS

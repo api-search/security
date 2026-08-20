@@ -53,5 +53,5 @@ tags:
 - Metering
 - Utilities
 - Meter-to-Cash
-- SaaS
+- Software-as-a-Service
 ---

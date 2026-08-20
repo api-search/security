@@ -151,7 +151,7 @@ tags:
 - Hive
 - Presto
 - Enterprise
-- AI
+- Artificial Intelligence
 - Marketing
 - Analytics
 trust_url: https://www.treasure.ai/security/

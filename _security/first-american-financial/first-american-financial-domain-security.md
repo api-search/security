@@ -37,8 +37,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/first-american
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Title Insurance
-- Real Estate
+- Real-Estate
 - Settlement Services
-- Financial Services
+- Financial-Services
 - Fortune 1000
 ---

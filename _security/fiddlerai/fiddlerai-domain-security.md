@@ -44,7 +44,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - AI Observability
-- Machine Learning
+- Machine-Learning
 - LLM
 - Model Monitoring
 - Guardrails

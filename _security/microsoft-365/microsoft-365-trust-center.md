@@ -64,7 +64,7 @@ tags:
 - Collaboration
 - Email
 - Calendar
-- Files
+- File
 - Identity
 - Microsoft
 - Microsoft Graph

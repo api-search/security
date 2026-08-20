@@ -60,7 +60,7 @@ tags:
 - Cybersecurity
 - Cyber Insurance
 - Insurance
-- InsurTech
+- Insurtech
 - Endpoint Security
 - Managed Detection and Response
 - Email Security

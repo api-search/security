@@ -35,7 +35,7 @@ tags:
 - Aerial Imagery
 - Inspection
 - Asset Intelligence
-- Computer Vision
+- Computer-Vision
 - Renewable Energy
 - Geospatial
 ---

@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\ndocs: https://developer
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/authentication/street-co-authentication.yml
 summary_line: http · 2 schemes
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - CRM

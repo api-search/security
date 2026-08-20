@@ -133,10 +133,10 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Food Delivery
-- Restaurants
+- Restaurant
 - Order Management
 - Logistics
 - Delivery
 - Menu Management
-- Point of Sale
+- Point-of-Sale
 ---

@@ -57,7 +57,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Cloud Computing
 - GPU
 - Infrastructure

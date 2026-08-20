@@ -31,11 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netbeez/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Infrastructure SaaS
+- Infrastructure Saas
 - Network Monitoring
 - Network Performance Monitoring
 - Observability
 - Wi-Fi Monitoring
 - Digital Experience Monitoring
-- API
 ---

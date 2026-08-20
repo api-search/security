@@ -55,8 +55,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ideogram
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/authentication/ideogram-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
-- Image Generation
+- Artificial Intelligence
+- Image-Generation
 - Text
 - Realistic
 - Editing

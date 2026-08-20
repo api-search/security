@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Mentorship
-- Nonprofits
+- Non-Profit
 - Education
 - Volunteering
 - Impact Measurement

@@ -56,5 +56,4 @@ tags:
 - Employee Training
 - HIPAA
 - SOC 2
-- API
 ---

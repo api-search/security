@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/superviz
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/authentication/superviz-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Real Time
+- Real-Time
 - Collaboration
 - Presence
 - Synchronization

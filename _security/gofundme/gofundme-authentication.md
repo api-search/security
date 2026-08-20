@@ -481,15 +481,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gofundme/refs/
 summary_line: oauth2 · 2 schemes
 tags:
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Crowdfunding
 - Donations
 - Payments
 - Peer-to-Peer Fundraising
 - Recurring Giving
-- Events
+- Event
 - Philanthropy
 - Social Impact
 - CRM
-- Webhooks
+- Webhook
 ---

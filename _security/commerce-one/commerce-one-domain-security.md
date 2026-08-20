@@ -62,7 +62,7 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - B2B
-- eCommerce
+- E-Commerce
 - Procurement
 - Supply Chain
 - XML

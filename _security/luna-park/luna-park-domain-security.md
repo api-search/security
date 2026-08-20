@@ -33,7 +33,7 @@ tags:
 - Consumer
 - GV
 - Portfolio
-- AI
+- Artificial Intelligence
 - Trades
 - Training
 ---

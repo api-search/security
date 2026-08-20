@@ -39,7 +39,7 @@ summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Health
 - Open Data
-- Federal Government
+- Federal-Government
 - Medicare
 - Medicaid
 - Hospital Quality

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Consumer
-- Financial Services
+- Financial-Services
 - Personal Finance
 - Financial Planning
 - Budgeting

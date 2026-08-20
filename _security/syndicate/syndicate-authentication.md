@@ -55,11 +55,11 @@ tags:
 - Blockchain
 - Web3
 - Ethereum
-- Transactions
+- Transaction
 - Wallets
 - EVM
 - Infrastructure
 - Signing
-- Webhooks
+- Webhook
 - Cryptography
 ---

@@ -36,7 +36,7 @@ tags:
 - Insurtech
 - Comparison Marketplace
 - Insurance Broker
-- Financial Services
+- Financial-Services
 - Latin America
 - Chile
 ---

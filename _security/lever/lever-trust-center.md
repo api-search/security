@@ -229,6 +229,6 @@ tags:
 - ATS
 - Recruiting
 - Talent Acquisition
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.lever.co/security
 ---

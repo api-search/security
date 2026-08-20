@@ -31,11 +31,11 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Compliance
 - Producer Management
 - Licensing
 - NIPR
 - REST
-- OAuth2
+- Authentication
 ---

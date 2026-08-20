@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clockwise/refs
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Calendar
-- AI
+- Artificial Intelligence
 - Scheduling
 - Focus Time
 - Productivity

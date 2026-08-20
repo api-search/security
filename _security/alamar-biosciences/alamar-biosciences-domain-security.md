@@ -37,5 +37,5 @@ tags:
 - Diagnostics
 - Bioinformatics
 - Laboratory Instruments
-- Open Source
+- Open-Source
 ---

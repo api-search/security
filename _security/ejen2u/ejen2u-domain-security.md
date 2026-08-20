@@ -33,7 +33,7 @@ tags:
 - Reseller Management
 - Agent Management
 - E-Commerce
-- SaaS
+- Software-as-a-Service
 - Fintech
 - Logistics
 - MSME

@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roam/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Proptech
-- Real Estate
+- PropTech
+- Real-Estate
 - Mortgage
 - Assumable Mortgage
 - FHA

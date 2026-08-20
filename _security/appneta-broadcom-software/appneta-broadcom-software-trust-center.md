@@ -33,6 +33,6 @@ tags:
 - Synthetic Monitoring
 - IT Operations
 - Broadcom
-- Ai Infrastructure
+- AI Infrastructure
 trust_url: https://www.broadcom.com/support/trust-center
 ---

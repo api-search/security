@@ -84,7 +84,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seel/refs/head
 summary_line: 1 scheme
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Insurance
 - Post-Purchase
 - Returns

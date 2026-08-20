@@ -98,7 +98,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knative/refs/h
 summary_line: http · 1 scheme
 tags:
 - Auto-Scaling
-- Cloud Native
+- Cloud-Native
 - Event-Driven
 - Graduated
 - Kubernetes

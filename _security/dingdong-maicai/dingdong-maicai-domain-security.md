@@ -31,7 +31,7 @@ tags:
 - Company
 - Consumer
 - Grocery
-- E-commerce
+- E-Commerce
 - Food Delivery
 - Retail
 - Fresh Produce

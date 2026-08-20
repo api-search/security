@@ -42,7 +42,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Software Discovery
 - Business Software
-- SaaS
+- Software-as-a-Service
 - Software Reviews
 - B2B
 ---

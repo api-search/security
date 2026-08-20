@@ -33,7 +33,7 @@ tags:
 - Company
 - Fintech
 - Credit Underwriting
-- Machine Learning
+- Machine-Learning
 - Consumer Lending
 - Loan Securitization
 - Capital Markets

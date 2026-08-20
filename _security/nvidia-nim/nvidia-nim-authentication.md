@@ -104,7 +104,6 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/*-opena
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/authentication/nvidia-nim-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
 - Artificial Intelligence
 - Inference
 - Microservices
@@ -113,5 +112,5 @@ tags:
 - GPU
 - Kubernetes
 - NVIDIA
-- OpenAI Compatible
+- OpenAI-Compatible
 ---

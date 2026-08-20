@@ -33,7 +33,7 @@ tags:
 - Company
 - Banking
 - Fintech
-- Financial Services
+- Financial-Services
 - Artificial Intelligence
 - Personalization
 - Cognitive Banking

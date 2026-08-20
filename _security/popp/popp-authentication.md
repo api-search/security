@@ -46,7 +46,7 @@ tags:
 - Automation
 - Scheduling
 - Workflows
-- Webhooks
+- Webhook
 - MCP
 - Agents
 ---

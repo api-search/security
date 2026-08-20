@@ -56,6 +56,6 @@ tags:
 - Semantic Layer
 - Artificial Intelligence
 - AI Agents
-- Model Context Protocol
+- MCP
 - ETL
 ---

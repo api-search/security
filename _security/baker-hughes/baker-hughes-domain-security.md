@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Energy Technology
 - Industrial IoT
-- Oil And Gas
+- Oil and Gas
 - Asset Performance Management
 - Digital Energy
 - Fortune 500

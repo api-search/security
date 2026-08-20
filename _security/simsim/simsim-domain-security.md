@@ -29,7 +29,7 @@ tags:
 - Consumer
 - Social Commerce
 - Video Commerce
-- E-commerce
+- E-Commerce
 - India
 - Acquired
 ---

@@ -40,6 +40,6 @@ tags:
 - AI Infrastructure
 - GPU
 - Cloud
-- Machine Learning
+- Machine-Learning
 - Y Combinator
 ---

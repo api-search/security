@@ -71,13 +71,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs
 summary_line: oauth2/http/apiKey · 5 schemes
 tags:
 - Company
-- E-commerce
-- Cross-border Commerce
+- E-Commerce
+- Cross-Border Commerce
 - Marketing
 - Shopify Apps
 - REST API
-- OAuth
-- Webhooks
+- Authentication
+- Webhook
 - Themes
 - Payments
 ---

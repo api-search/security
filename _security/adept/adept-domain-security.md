@@ -40,10 +40,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adept/refs/heads/main/security/adept-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Foundation Models
 - Action Models
-- Workflow Automation
-- Multimodal
+- Workflow-Automation
+- Multi-Modal
 ---

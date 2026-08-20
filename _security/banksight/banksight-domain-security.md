@@ -32,10 +32,10 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Banking
-- Financial Services
+- Financial-Services
 - CRM
 - Customer Engagement
 - Digital Banking
-- FinTech
+- Fintech
 - Cloud
 ---

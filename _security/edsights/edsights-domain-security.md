@@ -35,7 +35,7 @@ tags:
 - Higher Education
 - Student Success
 - Retention
-- Chatbot
+- Chatbots
 - SMS
 - Conversational AI
 - Analytics

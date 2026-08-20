@@ -53,6 +53,6 @@ tags:
 - Healthcare IT
 - Insurance Technology
 - Legal Technology
-- SaaS
+- Software-as-a-Service
 - Vertical Software
 ---

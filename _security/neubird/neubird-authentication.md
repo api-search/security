@@ -49,6 +49,6 @@ tags:
 - DevOps
 - AIOps
 - Root Cause Analysis
-- Model Context Protocol
+- MCP
 - Agentic AI
 ---

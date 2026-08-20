@@ -32,7 +32,7 @@ tags:
 - Recycling
 - Waste Management
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Robotics
 - Sustainability
 - Circular Economy

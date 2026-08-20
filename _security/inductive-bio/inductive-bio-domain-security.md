@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Drug Discovery
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - ADMET
 - Small Molecule

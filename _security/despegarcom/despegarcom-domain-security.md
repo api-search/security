@@ -39,5 +39,5 @@ tags:
 - Latin America
 - B2B
 - MCP
-- Webhooks
+- Webhook
 ---

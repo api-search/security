@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/waabi/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Autonomous Vehicles
-- Self Driving
+- Self-Driving
 - Trucking
 - Robotics
 - Simulation
-- Physical Ai
+- Physical AI
 ---

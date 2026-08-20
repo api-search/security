@@ -33,7 +33,7 @@ tags:
 - Future Of Work
 - Leadership Development
 - Corporate Training
-- Learning And Development
+- Learning and Development
 - Employee Development
 - Coaching
 - HR Technology

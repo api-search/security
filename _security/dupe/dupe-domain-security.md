@@ -32,11 +32,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Shopping
-- E-commerce
+- E-Commerce
 - Retail
 - Visual Search
 - Product Discovery
 - Artificial Intelligence
-- Affiliate
+- Affiliates
 - MCP
 ---

@@ -38,5 +38,5 @@ tags:
 - Ticketing
 - Analytics
 - Loyalty
-- SaaS
+- Software-as-a-Service
 ---

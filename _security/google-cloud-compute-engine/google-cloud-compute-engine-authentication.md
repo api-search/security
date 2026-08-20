@@ -59,7 +59,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Compute
 - Google Cloud
-- IaaS
+- Infrastructure-as-a-Service
 - Infrastructure
 - Virtual Machines
 ---

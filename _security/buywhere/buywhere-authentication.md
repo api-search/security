@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/buywhere
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/authentication/buywhere-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- E-commerce
+- E-Commerce
 - Shopping
 - Price Comparison
 - SEA

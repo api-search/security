@@ -30,7 +30,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ursula/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - AI Characters
 - Gaming

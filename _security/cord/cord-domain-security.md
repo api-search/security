@@ -33,6 +33,6 @@ tags:
 - Messaging
 - Voice
 - Audio
-- Communication
+- Communications
 - Mobile
 ---

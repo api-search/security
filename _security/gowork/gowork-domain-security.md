@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gowork/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Coworking
+- Co-Working
 - Office Space
 - Flexible Workspace
 - Workspace
-- Real Estate
+- Real-Estate
 - PropTech
 - Indonesia
 ---

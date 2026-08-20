@@ -32,7 +32,7 @@ tags:
 - Consolidated Billing
 - Governance
 - Multi-Account
-- Organizations
+- Organization
 - Policies
 trust_url: https://aws.amazon.com/compliance/
 ---

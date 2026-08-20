@@ -34,6 +34,6 @@ tags:
 - Electronic Signature
 - Business Intelligence
 - Brazil
-- SaaS
+- Software-as-a-Service
 trust_url: ''
 ---

@@ -93,7 +93,7 @@ tags:
 - CRM Enrichment
 - Sales Engagement
 - GraphQL
-- Model Context Protocol
+- MCP
 - Revenue Operations
-- Go To Market
+- Go-To-Market
 ---

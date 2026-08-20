@@ -35,12 +35,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zatanna/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
 - MCP
 - AI Agents
 - Integration
 - Reverse Engineering
 - Automation
-- OAuth
+- Authentication
 - Y Combinator
 ---

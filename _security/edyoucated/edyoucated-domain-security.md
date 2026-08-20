@@ -38,6 +38,6 @@ tags:
 - Skills Management
 - Corporate Training
 - Talent Development
-- SaaS
+- Software-as-a-Service
 - Artificial Intelligence
 ---

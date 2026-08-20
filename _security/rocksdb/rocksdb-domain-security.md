@@ -32,5 +32,5 @@ tags:
 - Key-Value Store
 - Embedded Database
 - Storage Engine
-- Open Source
+- Open-Source
 ---

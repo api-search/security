@@ -108,8 +108,8 @@ summary_line: none/http/oauth2 · 3 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Fashion
 - Trend Forecasting
 - Demand Forecasting

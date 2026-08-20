@@ -487,11 +487,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/security/label-studio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
-- Annotation
 - Artificial Intelligence
+- Annotation
 - Data Labeling
 - LLM
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 ---

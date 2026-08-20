@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/djamo/refs/hea
 summary_line: TLSv1.3
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Payments
 - Banking

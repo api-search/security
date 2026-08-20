@@ -30,7 +30,7 @@ summary_line: TLSv1.3
 tags:
 - Code Generation
 - IDL
-- SDKs
+- SDK
 - API Design
 - Interface Definition Language
 - Toolchain

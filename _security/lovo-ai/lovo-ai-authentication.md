@@ -49,8 +49,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lovo-ai-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lovo-ai/refs/heads/main/authentication/lovo-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
-- Text to Speech
+- Artificial Intelligence
+- Text-to-Speech
 - TTS
 - Voice Generation
 - Voice Cloning

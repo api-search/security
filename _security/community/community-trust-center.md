@@ -43,7 +43,7 @@ tags:
 - Conversational
 - Marketing
 - Creators
-- Webhooks
+- Webhook
 - Company
 trust_url: https://trust.community.com/
 ---

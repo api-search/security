@@ -34,7 +34,7 @@ tags:
 - Enterprise
 - B2B Commerce
 - Wholesale
-- eCommerce
+- E-Commerce
 - Retail
 - Fashion
 - Order Management

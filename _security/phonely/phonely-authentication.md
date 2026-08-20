@@ -43,7 +43,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/phonely-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phonely/refs/heads/main/authentication/phonely-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
 - Artificial Intelligence
 - Voice AI
 - Voice Agents
@@ -53,8 +52,8 @@ tags:
 - Call Center
 - Contact Center
 - SMS
-- Webhooks
-- Workflow Automation
+- Webhook
+- Workflow-Automation
 - Scheduling
 - CRM
 ---

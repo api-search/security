@@ -25,7 +25,7 @@ tags:
 - Defense
 - Industrial
 - Training
-- Workflow Automation
+- Workflow-Automation
 - Predictive Maintenance
 trust_url: https://trust.kilsar.com/
 ---

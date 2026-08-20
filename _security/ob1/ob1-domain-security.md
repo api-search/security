@@ -34,7 +34,7 @@ tags:
 - Cryptocurrency
 - Bitcoin
 - Peer-to-Peer
-- E-commerce
+- E-Commerce
 - Blockchain
-- Open Source
+- Open-Source
 ---

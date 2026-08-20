@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/worq/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Coworking
+- Co-Working
 - Office Space
 - Workspace
-- Real Estate
+- Real-Estate
 - Malaysia
 ---

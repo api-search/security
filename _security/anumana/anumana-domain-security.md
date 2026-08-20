@@ -49,9 +49,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anumana/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Health Care
+- Healthcare
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Medical Devices
 - Cardiology
 - Diagnostics

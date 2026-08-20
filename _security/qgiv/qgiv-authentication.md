@@ -91,11 +91,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/qgiv-ope
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/authentication/qgiv-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Donations
 - Payments
-- Peer to Peer
-- Events
+- Peer-to-Peer
+- Event
 - Bloomerang
 ---

@@ -130,7 +130,7 @@ source_yaml: "name: Impact Authentication Profile\ndescription: Every authentica
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/authentication/impact-authentication.yml
 summary_line: 5 schemes
 tags:
-- Affiliate
+- Affiliates
 - Partnerships
 - Performance Marketing
 - Commission

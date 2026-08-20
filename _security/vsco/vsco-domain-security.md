@@ -263,5 +263,5 @@ tags:
 - Photo Editing
 - Creative Community
 - Studio Management
-- SaaS
+- Software-as-a-Service
 ---

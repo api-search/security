@@ -97,7 +97,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Customer Success
-- SaaS
+- Software-as-a-Service
 - CRM
 - NPS
 - Surveys

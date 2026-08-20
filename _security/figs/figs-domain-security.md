@@ -34,7 +34,7 @@ tags:
 - Apparel
 - Medical
 - E-Commerce
-- Direct-to-Consumer
+- Direct to Consumer
 - Retail
 - Consumer Goods
 ---

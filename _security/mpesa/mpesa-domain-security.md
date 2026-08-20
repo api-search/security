@@ -119,5 +119,5 @@ tags:
 - Fintech
 - Kenya
 - Africa
-- M-Pesa
+- M-PESA
 ---

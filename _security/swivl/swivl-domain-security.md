@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Self Storage
-- Proptech
+- PropTech
 - Artificial Intelligence
 - CRM
 - Contact Center

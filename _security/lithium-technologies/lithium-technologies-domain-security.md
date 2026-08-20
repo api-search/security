@@ -57,8 +57,8 @@ tags:
 - Online Community
 - Social Media Management
 - Customer Engagement
-- Customer Support
+- Customer-Support
 - Marketing
 - Conversational AI
-- Martech
+- MarTech
 ---

@@ -34,8 +34,8 @@ tags:
 - Ordering
 - Food Distribution
 - Supply Chain
-- eCommerce
+- E-Commerce
 - ERP Integration
-- Foodservice
+- Food Service
 - Marketplace
 ---

@@ -55,7 +55,7 @@ summary_line: TLSv1.3
 tags:
 - Customers
 - Fake Data
-- Orders
-- Products
+- Order
+- Product
 - Synthetic Data
 ---

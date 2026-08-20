@@ -67,7 +67,6 @@ tags:
 - Identity
 - Microsoft
 - Microsoft Entra
-- OAuth
 - OpenID Connect
 - SAML
 - SCIM

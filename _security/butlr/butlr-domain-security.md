@@ -54,6 +54,6 @@ tags:
 - Spatial Intelligence
 - IoT
 - GraphQL
-- Webhooks
-- Real Estate
+- Webhook
+- Real-Estate
 ---

@@ -169,10 +169,9 @@ tags:
 - Cloud Services
 - Digital Workflows
 - Enterprise Platform
-- IT Service Management
 - ITSM
 - Processes
 - T1
-- Workflow Automation
+- Workflow-Automation
 - Workflows
 ---

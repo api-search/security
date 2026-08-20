@@ -39,5 +39,5 @@ tags:
 - B2B
 - ACH
 - Wholesale
-- Collections
+- Collection
 ---

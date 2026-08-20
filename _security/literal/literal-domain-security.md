@@ -39,7 +39,7 @@ tags:
 - Social
 - GraphQL
 - Book Tracking
-- Reading Lists
+- Reading lists
 - Shelves
 - Reviews
 - Highlights

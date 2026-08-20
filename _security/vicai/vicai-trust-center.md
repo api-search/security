@@ -224,8 +224,8 @@ tags:
 - Invoicing
 - Payments
 - ERP Integration
-- AI
+- Artificial Intelligence
 - Finance Automation
-- Webhooks
+- Webhook
 trust_url: https://www.vic.ai/trust-and-security
 ---

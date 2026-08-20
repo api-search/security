@@ -35,6 +35,6 @@ tags:
 - Artificial Intelligence
 - Clinical Trials
 - Digital Twins
-- Machine Learning
+- Machine-Learning
 - Healthcare
 ---

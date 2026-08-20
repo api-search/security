@@ -31,9 +31,8 @@ tags:
 - Credit Decisioning
 - Underwriting
 - Fintech
-- Financial Services
+- Financial-Services
 - Identity Verification
 - Lending
 - No-Code
-- API
 ---

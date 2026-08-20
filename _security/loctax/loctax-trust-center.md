@@ -25,7 +25,7 @@ tags:
 - Governance
 - Risk Management
 - Legal Tech
-- SaaS
+- Software-as-a-Service
 - Fintech
 trust_url: https://trust.loctax.com
 ---

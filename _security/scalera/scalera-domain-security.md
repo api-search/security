@@ -37,5 +37,5 @@ tags:
 - Tenders
 - Procurement
 - Product Matching
-- SaaS
+- Software-as-a-Service
 ---

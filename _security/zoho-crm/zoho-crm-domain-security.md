@@ -682,14 +682,13 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CRM
 - Sales
-- Customer Relationship Management
 - Marketing Automation
 - Lead Management
 - Customer Engagement
 - Sales Automation
 - Contact Management
 - Pipeline Management
-- SaaS
+- Software-as-a-Service
 - OpenAPI
-- OAuth
+- Authentication
 ---

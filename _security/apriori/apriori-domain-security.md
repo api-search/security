@@ -49,14 +49,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apriori/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- manufacturing
+- Manufacturing
 - product-cost-management
 - design-for-manufacturability
 - should-cost
 - plm-integration
 - cost-engineering
-- digital-manufacturing
-- sustainability
-- workflow-automation
-- cad
+- Digital Manufacturing
+- Sustainability
+- Workflow-Automation
+- CAD
 ---

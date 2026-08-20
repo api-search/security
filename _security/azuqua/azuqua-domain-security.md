@@ -33,7 +33,7 @@ tags:
 - Company
 - Integration
 - iPaaS
-- Workflow Automation
+- Workflow-Automation
 - Integration Platform
 - Automation
 - Connectors

@@ -41,7 +41,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/security/buffer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Social Media
+- Social-Media
 - Scheduling
 - Analytics
 - Publishing

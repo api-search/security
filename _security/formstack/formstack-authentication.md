@@ -90,8 +90,8 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Forms
 - Documents
-- eSignature
-- Workflow Automation
+- E-Signature
+- Workflow-Automation
 - No-Code
-- OAuth2
+- Authentication
 ---

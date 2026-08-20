@@ -33,6 +33,6 @@ tags:
 - Consumer
 - Streetwear
 - Fashion
-- Ecommerce
+- E-Commerce
 - Retail
 ---

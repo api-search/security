@@ -30,7 +30,7 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Equipment Monitoring
 - Industrial IoT
-- Machine Learning
+- Machine-Learning
 - Predictive Maintenance
 trust_url: https://aws.amazon.com/compliance/
 ---

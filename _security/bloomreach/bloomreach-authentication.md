@@ -200,5 +200,5 @@ tags:
 - Marketing Automation
 - Headless CMS
 - Personalization
-- E-commerce
+- E-Commerce
 ---

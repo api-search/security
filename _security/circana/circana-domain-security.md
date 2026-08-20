@@ -83,7 +83,7 @@ tags:
 - Market Research
 - Retail
 - CPG
-- Point Of Sale
+- Point-of-Sale
 - Consumer Insights
 - Business Intelligence
 ---

@@ -33,6 +33,6 @@ tags:
 - Activities
 - Family
 - Travel
-- AI
+- Artificial Intelligence
 - MCP
 ---

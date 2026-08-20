@@ -35,6 +35,6 @@ tags:
 - Generative AI
 - Creative Tools
 - Content Creation
-- Multimodal
+- Multi-Modal
 - Media
 ---

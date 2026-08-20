@@ -45,7 +45,7 @@ tags:
 - Defense
 - Department of Defense
 - DSCA
-- Federal Government
+- Federal-Government
 - Foreign Military Sales
 - International
 - Security Cooperation

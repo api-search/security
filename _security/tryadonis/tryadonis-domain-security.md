@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tryadonis/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Healthcare
 - Revenue Cycle Management
 - Medical Billing
 - Health Tech
-- SaaS
+- Software-as-a-Service
 - Claims
 ---

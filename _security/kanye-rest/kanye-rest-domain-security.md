@@ -42,7 +42,7 @@ summary_line: TLSv1.3
 tags:
 - Personality
 - Quotes
-- Open Source
+- Open-Source
 - Cloudflare Workers
 - Public APIs
 ---

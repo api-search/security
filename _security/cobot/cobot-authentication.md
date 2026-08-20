@@ -309,19 +309,19 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cobot/refs/hea
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Company
-- Coworking
+- Co-Working
 - Workspace Management
 - Space Management
-- Real Estate
+- Real-Estate
 - Bookings
 - Reservations
 - Memberships
 - Invoicing
 - Payments
-- Events
+- Event
 - Access Control
-- SaaS
+- Software-as-a-Service
 - Germany
 - JSON:API
-- OAuth
+- Authentication
 ---

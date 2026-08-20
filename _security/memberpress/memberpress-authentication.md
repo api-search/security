@@ -57,12 +57,12 @@ summary_line: apiKey/wordpress-capability · 3 schemes
 tags:
 - Company
 - Membership
-- Subscriptions
+- Subscription
 - WordPress
 - Payments
 - E-Commerce
 - Courses
 - Content Management
-- Webhooks
+- Webhook
 - MCP
 ---

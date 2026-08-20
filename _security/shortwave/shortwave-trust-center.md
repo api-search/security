@@ -24,7 +24,7 @@ tags:
 - Artificial Intelligence
 - AI Assistant
 - Productivity
-- Model Context Protocol
+- MCP
 - Gmail
 - Google Workspace
 - Collaboration

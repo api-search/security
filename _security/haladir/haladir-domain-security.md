@@ -34,7 +34,7 @@ tags:
 - Logistics
 - Supply Chain
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Optimization
 - Warehouse Management
 - Y Combinator

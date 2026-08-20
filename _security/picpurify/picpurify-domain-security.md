@@ -44,6 +44,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Image Moderation
 - Content Moderation
-- Computer Vision
+- Computer-Vision
 - Weapon Detection
 ---

@@ -262,7 +262,7 @@ tags:
 - Sales Enablement
 - Route Optimization
 - Geospatial
-- Webhooks
+- Webhook
 - MCP
 - Door to Door
 trust_url: https://spotio.com/features/security-compliance/

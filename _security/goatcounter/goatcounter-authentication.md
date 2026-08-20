@@ -92,13 +92,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goatcounter/re
 summary_line: http · 2 schemes
 tags:
 - Analytics
-- Pageviews
+- Page Views
 - Privacy
 - Statistics
 - Web Analytics
-- Open Source
+- Open-Source
 - Self-Hosted
-- Events
+- Event
 - Data Export
 - Developer Tools
 ---

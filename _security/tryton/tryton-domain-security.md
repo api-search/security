@@ -51,5 +51,5 @@ tags:
 - Purchasing
 - Production
 - Project Management
-- Open Source
+- Open-Source
 ---

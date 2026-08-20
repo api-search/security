@@ -78,6 +78,6 @@ tags:
 - Location
 - Street View
 - Mobility
-- Machine Learning
+- Machine-Learning
 - Web3
 ---

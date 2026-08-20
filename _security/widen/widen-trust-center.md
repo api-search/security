@@ -131,7 +131,7 @@ tags:
 - Media
 - Assets
 - Metadata
-- Collections
+- Collection
 - Workflows
 - Acquia
 trust_url: https://security.acquia.com/

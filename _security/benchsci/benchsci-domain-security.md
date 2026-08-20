@@ -49,7 +49,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Biopharma
 - Drug Discovery
-- AI
+- Artificial Intelligence
 - Reagents
 - Antibodies
 - Scientific Research

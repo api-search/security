@@ -57,7 +57,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Cloud Marketplace
 - Procurement
-- SaaS
+- Software-as-a-Service
 - Software Distribution
 - Catalog
 ---

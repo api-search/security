@@ -55,5 +55,5 @@ tags:
 - Data
 - HyperSync
 - HyperIndex
-- Multichain
+- Multi-Chain
 ---

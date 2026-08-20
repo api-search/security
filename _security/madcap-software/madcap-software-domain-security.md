@@ -37,7 +37,7 @@ tags:
 - DITA
 - CCMS
 - Knowledge Base
-- eLearning
+- E-Learning
 - Localization
 - AI-Ready Content
 ---

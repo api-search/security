@@ -32,7 +32,7 @@ tags:
 - Company
 - Energy Storage
 - Batteries
-- Data Center
+- Data-Center
 - Power
 - UPS
 - Hardware

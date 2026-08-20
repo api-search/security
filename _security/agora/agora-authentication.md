@@ -69,11 +69,10 @@ summary_line: http · 2 schemes
 tags:
 - Company
 - Fintech
-- Stablecoin
+- Stablecoins
 - Digital Dollar
 - Payments
 - Cryptocurrency
 - Blockchain
-- API
 - AUSD
 ---

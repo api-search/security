@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Property Management
-- Real Estate
+- Real-Estate
 - PropTech
 - HOA Management
 - Germany

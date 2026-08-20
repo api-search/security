@@ -102,5 +102,4 @@ tags:
 - Task Management
 - Compliance
 - Food Safety
-- Operations
 ---

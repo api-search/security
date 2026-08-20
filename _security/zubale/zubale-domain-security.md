@@ -89,5 +89,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/he
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 ---

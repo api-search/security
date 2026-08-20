@@ -35,6 +35,6 @@ tags:
 - Healthcare
 - Skincare
 - Dermatology
-- E-commerce
+- E-Commerce
 - Consumer
 ---

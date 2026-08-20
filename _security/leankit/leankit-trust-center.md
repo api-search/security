@@ -172,8 +172,8 @@ tags:
 - Work Management
 - Collaboration
 - Enterprise Software
-- Portfolio Management
-- Workflow Automation
-- SaaS
+- Portfolio-Management
+- Workflow-Automation
+- Software-as-a-Service
 trust_url: https://trust.planview.com/
 ---

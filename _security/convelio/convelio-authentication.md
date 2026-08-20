@@ -60,9 +60,9 @@ tags:
 - Shipping
 - Fine Art
 - Freight
-- Ecommerce
+- E-Commerce
 - Quotes
-- Webhooks
+- Webhook
 - Customs
 - Insurance
 ---

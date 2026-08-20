@@ -25,11 +25,11 @@ tags:
 - Video Personalization
 - Marketing
 - Customer Experience
-- AI
+- Artificial Intelligence
 - Enterprise
 - Video Generation
 - Media
 - Analytics
-- Martech
+- MarTech
 trust_url: https://trust.sundaysky.com/
 ---

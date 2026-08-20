@@ -135,11 +135,11 @@ tags:
 - Marketing
 - SMS
 - Messaging
-- eCommerce
+- E-Commerce
 - Marketing Automation
 - Text Message Marketing
 - Conversational Commerce
-- Webhooks
+- Webhook
 - Customer Data
 - Segmentation
 - Attribution

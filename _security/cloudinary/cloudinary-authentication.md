@@ -58,6 +58,6 @@ tags:
 - Image Processing
 - Image Transformation
 - Media
-- SaaS
+- Software-as-a-Service
 - Video Processing
 ---

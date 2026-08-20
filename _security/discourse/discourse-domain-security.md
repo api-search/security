@@ -137,5 +137,5 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Communities
 - Forums
-- Open Source
+- Open-Source
 ---

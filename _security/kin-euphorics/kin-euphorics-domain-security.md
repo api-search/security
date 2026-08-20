@@ -49,7 +49,7 @@ tags:
 - Adaptogens
 - Nootropics
 - Consumer Packaged Goods
-- Ecommerce
+- E-Commerce
 - Shopify
 - Direct to Consumer
 - Agentic Commerce

@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - Financial Inclusion
 - Earned Wage Access
 - Payments

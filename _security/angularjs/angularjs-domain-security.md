@@ -41,13 +41,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/angularjs/refs/heads/main/security/angularjs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
-- End Of Life
+- End of Life
 - Framework
 - Frontend
 - Google
 - JavaScript
 - Legacy
 - MVC
-- Open Source
+- Open-Source
 - Single Page Application
 ---

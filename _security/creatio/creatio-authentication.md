@@ -60,12 +60,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/h
 summary_line: http/oauth2/cookie · 4 schemes
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - CRM
 - No-Code
 - Low-Code
 - Business Process Management
-- Workflow Automation
+- Workflow-Automation
 - Sales
 - Marketing
 - Customer Service

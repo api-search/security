@@ -124,7 +124,7 @@ tags:
 - Security
 - Cryptocurrency
 - Digital Assets
-- Wallet
+- Wallets
 - Custody
 - Blockchain
 - DeFi

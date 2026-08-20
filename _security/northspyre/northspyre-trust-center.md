@@ -18,13 +18,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/northspyre/ref
 summary_line: SOC 2
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Real Estate Development
 - Project Management
 - Construction
 - Cost Management
 - Portfolio Analytics
-- Proptech
-- SaaS
+- PropTech
+- Software-as-a-Service
 trust_url: https://www.northspyre.com/soc-2-northspyre-compliance
 ---

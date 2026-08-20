@@ -37,5 +37,5 @@ tags:
 - Savings
 - Shopping
 - Retail
-- Ecommerce
+- E-Commerce
 ---

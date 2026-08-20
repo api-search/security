@@ -38,7 +38,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Automation
-- Events
+- Event
 - Meetings
 - Scheduling
 - Event Marketing

@@ -40,7 +40,7 @@ tags:
 - Big Data
 - Distributed SQL
 - Linux Foundation
-- Open Source
+- Open-Source
 - Query Engine
 - SQL
 ---

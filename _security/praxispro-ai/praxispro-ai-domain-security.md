@@ -30,8 +30,8 @@ tags:
 - Sales Training
 - Sales Enablement
 - Life Sciences
-- Pharmaceutical
+- Pharmaceuticals
 - Medical Devices
-- Roleplay Simulation
+- Role-Play Simulation
 - Learning and Development
 ---

@@ -35,6 +35,6 @@ tags:
 - Containers
 - Daemonless
 - OCI
-- Open Source
+- Open-Source
 - Rootless
 ---

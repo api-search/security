@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/aligned-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/authentication/aligned-news-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - News
 - Intelligence
 - MCP

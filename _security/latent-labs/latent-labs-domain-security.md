@@ -41,7 +41,7 @@ tags:
 - Macrocycles
 - Protein Binders
 - Biotech
-- Pharmaceutical
+- Pharmaceuticals
 - Life Sciences
 - AlphaFold
 - Computational Biology

@@ -55,7 +55,7 @@ tags:
 - Amazon Web Services
 - Event Bus
 - Event-Driven
-- Events
+- Event
 - Integration
 - Serverless
 trust_url: https://aws.amazon.com/compliance/

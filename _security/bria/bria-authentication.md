@@ -155,11 +155,11 @@ summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Artificial Intelligence
 - Generative AI
-- Images
-- Image Generation
+- Image
+- Image-Generation
 - Image Editing
 - Video
-- Machine Learning
+- Machine-Learning
 - Media
 - Content
 - Agents

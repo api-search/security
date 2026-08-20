@@ -70,11 +70,11 @@ tags:
 - Video
 - Live Streaming
 - Marketing
-- Events
+- Event
 - CRM
 - Lead Generation
 - Automation
 - Identity
-- OAuth
-- SaaS
+- Authentication
+- Software-as-a-Service
 ---

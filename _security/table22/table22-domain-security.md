@@ -34,7 +34,7 @@ tags:
 - Subscription Commerce
 - Food and Beverage
 - Hospitality
-- Ecommerce
+- E-Commerce
 - Memberships
 - Recurring Revenue
 - Wine Clubs

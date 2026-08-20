@@ -64,7 +64,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Integration Platform
 - Automation
-- Workflow
+- Workflows
 - No-Code
 - IT Process Automation
 - Software As A Utility

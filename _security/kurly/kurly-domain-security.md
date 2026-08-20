@@ -54,7 +54,7 @@ tags:
 - Fulfillment
 - Supply Chain
 - Delivery
-- Ecommerce
+- E-Commerce
 - Grocery
 - Shipping
 - Order Management

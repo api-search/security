@@ -51,7 +51,7 @@ tags:
 - Object Storage
 - Storage
 - S3 Compatible
-- Cloud Native
+- Cloud-Native
 - Kubernetes
 - Data Infrastructure
 - AI Storage

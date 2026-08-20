@@ -35,7 +35,7 @@ tags:
 - Blockchain
 - Web3
 - Crypto
-- SDKs
+- SDK
 - Solana
 - DeFi
 ---

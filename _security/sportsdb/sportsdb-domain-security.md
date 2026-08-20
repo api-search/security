@@ -73,7 +73,7 @@ summary_line: TLSv1.3
 tags:
 - Sports
 - Sports Data
-- Teams
+- Team
 - Players
-- Events
+- Event
 ---

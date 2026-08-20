@@ -33,7 +33,7 @@ tags:
 - Company
 - Ai Ml
 - Fintech
-- Financial Services
+- Financial-Services
 - Wealth Management
 - Wealth Advisory
 - AI Agents

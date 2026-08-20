@@ -51,7 +51,7 @@ summary_line: oauth2/apiKey · 2 schemes
 tags:
 - Company
 - Grants
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Grant Management
 - Foundation Data

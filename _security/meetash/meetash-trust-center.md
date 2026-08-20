@@ -29,6 +29,5 @@ tags:
 - Digital Health
 - Telehealth
 - HIPAA
-- API
 trust_url: https://trust.poweredbyash.com
 ---

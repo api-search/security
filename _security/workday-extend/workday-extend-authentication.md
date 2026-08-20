@@ -125,8 +125,7 @@ tags:
 - Enterprise
 - Extensions
 - HCM
-- Human Capital Management
 - Integration
 - Orchestration
-- PaaS
+- Platform-as-a-Service
 ---

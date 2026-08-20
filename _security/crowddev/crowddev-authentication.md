@@ -166,7 +166,7 @@ tags:
 - Developer Relations
 - Developer Data Platform
 - Identity Resolution
-- Open Source
+- Open-Source
 - Community Data Platform
 - Open Source Intelligence
 ---

@@ -298,6 +298,6 @@ tags:
 - Microlearning
 - Employee Experience
 - REST
-- Webhooks
+- Webhook
 - SCIM
 ---

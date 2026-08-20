@@ -371,6 +371,6 @@ tags:
 - Metering
 - Billing
 - Pricing
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.m3ter.com/
 ---

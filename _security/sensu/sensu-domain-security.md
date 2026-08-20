@@ -40,7 +40,7 @@ tags:
 - Infrastructure
 - DevOps
 - Metrics
-- Events
+- Event
 - Alerting
 - Monitoring as Code
 - Kubernetes

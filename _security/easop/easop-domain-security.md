@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/easop/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Applicative SaaS
+- Applicative Saas
 - Equity Compensation
 - Stock Options
 - HR Tech

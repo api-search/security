@@ -97,9 +97,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/civitai-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/authentication/civitai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
 - Artificial Intelligence
-- Image Generation
+- Image-Generation
 - Video Generation
 - Stable Diffusion
 - SDXL

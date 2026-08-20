@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/funeralone/ref
 summary_line: http · 1 scheme
 tags:
 - Funeral Homes
-- Deathcare
+- Death Care
 - Obituaries
 - Tribute Videos
 - Memorial Websites

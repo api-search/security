@@ -41,6 +41,6 @@ tags:
 - Calendar
 - Booking
 - Meetings
-- Webhooks
+- Webhook
 trust_url: https://zcal.co/security
 ---

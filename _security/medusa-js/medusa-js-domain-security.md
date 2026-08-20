@@ -115,8 +115,8 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Commerce
 - Headless
-- eCommerce
-- Open Source
+- E-Commerce
+- Open-Source
 - Node.js
 - TypeScript
 - Framework

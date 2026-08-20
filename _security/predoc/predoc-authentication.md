@@ -43,9 +43,9 @@ tags:
 - Health Information Exchange
 - FHIR
 - Clinical Data
-- AI
+- Artificial Intelligence
 - Interoperability
 - EHR Integration
-- Webhooks
+- Webhook
 - Clinical Research
 ---

@@ -48,9 +48,9 @@ tags:
 - Self Storage
 - Property Management
 - Facility Management
-- Real Estate
+- Real-Estate
 - Payments
-- SaaS
+- Software-as-a-Service
 - Artificial Intelligence
 - Revenue Management
 - E-Commerce

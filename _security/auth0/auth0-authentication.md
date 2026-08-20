@@ -483,7 +483,6 @@ tags:
 - FGA
 - Identity Management
 - MCP
-- OAuth
 - Okta
 - OpenID Connect
 - SAML

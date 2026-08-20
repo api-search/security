@@ -72,6 +72,6 @@ tags:
 - Forms
 - Form Builder
 - Surveys
-- Workflow
+- Workflows
 - Plugins
 ---

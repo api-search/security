@@ -103,7 +103,7 @@ summary_line: http · 1 scheme
 tags:
 - Payments
 - Merchant of Record
-- Subscriptions
+- Subscription
 - Billing
 - Global Commerce
 ---

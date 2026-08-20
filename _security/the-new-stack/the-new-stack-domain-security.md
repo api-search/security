@@ -47,7 +47,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-new-stack/refs/heads/main/security/the-new-stack-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Cloud Native
+- Cloud-Native
 - DevOps
 - Media
 - Technology News

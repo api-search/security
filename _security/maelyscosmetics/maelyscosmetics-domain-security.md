@@ -33,7 +33,7 @@ tags:
 - Cosmetics
 - Beauty
 - Body Care
-- E-commerce
-- Direct-to-Consumer
+- E-Commerce
+- Direct to Consumer
 - Skincare
 ---

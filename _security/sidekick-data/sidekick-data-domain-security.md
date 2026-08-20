@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sidekick-data/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Artificial Intelligence
 - AI Assistant
 - MLS
 - Real Estate Agents
-- SaaS
+- Software-as-a-Service
 - Brokerage
 ---

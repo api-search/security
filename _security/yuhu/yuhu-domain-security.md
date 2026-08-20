@@ -37,9 +37,9 @@ tags:
 - Company
 - Property Management
 - PropTech
-- Real Estate
+- Real-Estate
 - Multifamily
-- Rental
+- Rentals
 - Leasing
 - Payments
 - Partners API

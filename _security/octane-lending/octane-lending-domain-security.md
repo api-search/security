@@ -31,10 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/octane-lending
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Lending
 - Consumer Finance
-- Powersports
+- Power-Sports
 - Fintech
 - Loan Origination
 - Dealer Software

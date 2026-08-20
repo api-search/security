@@ -43,13 +43,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - CRM
 - Sales
 - Marketing
 - Customer Service
 - Sales Automation
 - REST API
-- Webhooks
+- Webhook
 - Sales Intelligence
 ---

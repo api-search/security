@@ -26,6 +26,6 @@ tags:
 - B2B
 - ACH
 - Wholesale
-- Collections
+- Collection
 trust_url: https://www.paywholesail.com/security/
 ---

@@ -39,9 +39,9 @@ tags:
 - Company
 - Retirement
 - Workplace Savings
-- 401(k)
+- 401k
 - 529 College Savings
-- Financial Services
+- Financial-Services
 - Fintech
 - Recordkeeping
 - Payroll Integration

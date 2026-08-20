@@ -34,7 +34,7 @@ tags:
 - Corporate Cards
 - Accounts Payable
 - Card Issuing
-- Reimbursements
+- Reimbursement
 - Budgets
 - Fintech
 trust_url: https://trust.letsweel.com/

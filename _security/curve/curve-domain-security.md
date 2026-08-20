@@ -35,5 +35,5 @@ tags:
 - Digital Wallet
 - Cards
 - Open Banking
-- Financial Services
+- Financial-Services
 ---

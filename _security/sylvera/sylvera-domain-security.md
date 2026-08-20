@@ -42,7 +42,7 @@ tags:
 - Remote Sensing
 - Biomass
 - REDD Plus
-- Nature Based Solutions
+- Nature-Based Solutions
 - Carbon Removals
 - CORSIA
 - Article 6

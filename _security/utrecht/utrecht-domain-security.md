@@ -177,5 +177,5 @@ tags:
 - Research Data
 - Open Access
 - Library
-- Open Source
+- Open-Source
 ---

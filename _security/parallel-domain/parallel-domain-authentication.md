@@ -46,12 +46,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parallel-domai
 summary_line: apiKey · 3 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Synthetic Data
 - Simulation
 - Autonomous Vehicles
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Robotics
 - SDK
 ---

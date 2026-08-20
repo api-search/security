@@ -33,7 +33,7 @@ tags:
 - Company
 - Film Distribution
 - Streaming
-- Media & Entertainment
+- Media and Entertainment
 - Video
 - Marketplace
 - Content Licensing

@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swap/refs/head
 summary_line: ISO 27001:2022
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Cross-Border
 - Customs
 - Shipping

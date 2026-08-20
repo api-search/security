@@ -1326,6 +1326,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/hea
 summary_line: apiKey/http · 3 schemes
 tags:
 - Payments
-- Financial Services
+- Financial-Services
 - Fintech
 ---

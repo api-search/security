@@ -36,5 +36,5 @@ tags:
 - Biotechnology
 - Healthcare
 - Life Sciences
-- Machine Learning
+- Machine-Learning
 ---

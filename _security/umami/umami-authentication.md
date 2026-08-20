@@ -105,7 +105,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/umami/refs/hea
 summary_line: http · 2 schemes
 tags:
 - Cookieless Tracking
-- Open Source
+- Open-Source
 - Privacy
 - Web Analytics
 - Website Analytics

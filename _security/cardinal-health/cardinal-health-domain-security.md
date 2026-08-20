@@ -35,7 +35,7 @@ tags:
 - Healthcare
 - Medical-Surgical
 - Order-to-Cash
-- Pharmaceutical
+- Pharmaceuticals
 - Supply Chain
 - Trading Partner
 - Fortune 100

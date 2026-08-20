@@ -32,5 +32,5 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cloud Services
 - Directory
-- SaaS
+- Software-as-a-Service
 ---

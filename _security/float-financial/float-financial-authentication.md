@@ -42,16 +42,16 @@ source_yaml: "generated: '2026-08-16'\nmethod: searched\nsource: openapi/float-f
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/authentication/float-financial-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- spend-management
-- corporate-cards
-- expense-management
-- accounts-payable
-- bill-pay
-- reimbursements
-- business-banking
-- accounting-integration
-- fintech
-- canada
-- payments
-- erp-integration
+- Spend Management
+- Corporate Cards
+- Expense Management
+- Accounts Payable
+- Bill Pay
+- Reimbursement
+- Business Banking
+- Accounting Integration
+- Fintech
+- Canada
+- Payments
+- ERP Integration
 ---

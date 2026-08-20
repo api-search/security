@@ -37,7 +37,7 @@ tags:
 - Construction
 - Estimating
 - Project Management
-- Projects
+- Project
 - Scheduling
 - Subcontractors
 - Time Tracking

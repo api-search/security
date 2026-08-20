@@ -65,13 +65,13 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Backend
 - Database
-- Events
+- Event
 - Hooks
 - JavaScript
 - NoSQL
 - Queues
 - Serverless
-- Webhooks
+- Webhook
 - Workers
 - Workflows
 ---

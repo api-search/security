@@ -49,7 +49,7 @@ tags:
 - Framework
 - Frontend
 - JavaScript
-- Open Source
+- Open-Source
 - Single Page Application
 - Standalone Components
 - TypeScript

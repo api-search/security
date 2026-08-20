@@ -127,7 +127,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/hea
 summary_line: TLSv1.3
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Lending
 - Credit
 - Fintech

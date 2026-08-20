@@ -35,7 +35,7 @@ tags:
 - Generative AI
 - Generative Chemistry
 - Target Discovery
-- Multi-Omics
+- Multiomics
 - Aging
 - Longevity
 - Clinical Trials

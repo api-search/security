@@ -30,9 +30,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cadre/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Investment
-- Real Estate
+- Real-Estate
 - Private Markets
 - Wealth Management
 - Alternative Investments

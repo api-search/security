@@ -33,7 +33,7 @@ tags:
 - Company
 - Consumer
 - Retail
-- E-commerce
+- E-Commerce
 - Collectibles
 - Toys
 - Consumer Products

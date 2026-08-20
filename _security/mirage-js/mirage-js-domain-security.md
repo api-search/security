@@ -32,5 +32,5 @@ tags:
 - API Mocking
 - Testing
 - JavaScript
-- Open Source
+- Open-Source
 ---

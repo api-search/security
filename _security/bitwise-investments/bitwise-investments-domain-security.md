@@ -43,9 +43,9 @@ tags:
 - Company
 - Crypto
 - Asset Management
-- ETF
+- ETFs
 - Index Funds
 - Market Data
-- Financial Services
+- Financial-Services
 - Investment Management
 ---

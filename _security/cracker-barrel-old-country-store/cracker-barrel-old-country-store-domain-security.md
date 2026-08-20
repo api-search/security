@@ -36,7 +36,7 @@ tags:
 - Gift Shops
 - Loyalty Programs
 - Mobile Ordering
-- Restaurants
+- Restaurant
 - Retail
 - Southern Cuisine
 - Fortune 1000

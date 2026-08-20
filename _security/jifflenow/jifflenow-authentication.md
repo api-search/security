@@ -56,7 +56,7 @@ summary_line: oauth2 · 2 schemes
 tags:
 - Company
 - Automation
-- Events
+- Event
 - Meetings
 - Scheduling
 - Event Marketing

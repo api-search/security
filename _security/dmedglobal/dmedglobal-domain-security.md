@@ -33,6 +33,6 @@ tags:
 - Contract Research Organization
 - Healthcare
 - Life Sciences
-- Pharmaceutical
+- Pharmaceuticals
 - Clinical Trials
 ---

@@ -113,7 +113,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Search
 - Answer Engine Optimization
 - Generative Engine Optimization

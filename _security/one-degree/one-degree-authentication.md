@@ -83,7 +83,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/one-degree/ref
 summary_line: apiKey/custom-signature · 2 schemes
 tags:
 - Company
-- Nonprofit
+- Non-Profit
 - Social Services
 - Community Resources
 - Human Services
@@ -91,5 +91,4 @@ tags:
 - Housing
 - Open Data
 - Civic Tech
-- API
 ---

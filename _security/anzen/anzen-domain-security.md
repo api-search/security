@@ -37,5 +37,5 @@ tags:
 - Insurance Agency
 - Artificial Intelligence
 - Automation
-- SaaS
+- Software-as-a-Service
 ---

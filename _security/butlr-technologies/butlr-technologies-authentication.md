@@ -68,5 +68,5 @@ tags:
 - Thermal Sensors
 - Real-Time Data
 - GraphQL
-- Webhooks
+- Webhook
 ---

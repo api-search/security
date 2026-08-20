@@ -38,6 +38,6 @@ tags:
 - Artificial Intelligence
 - Product Development
 - Trend Detection
-- SaaS
+- Software-as-a-Service
 - Analytics
 ---

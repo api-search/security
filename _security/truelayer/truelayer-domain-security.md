@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Data API
-- Financial Services
+- Financial-Services
 - Open Banking
 - Payments
 - PSD2

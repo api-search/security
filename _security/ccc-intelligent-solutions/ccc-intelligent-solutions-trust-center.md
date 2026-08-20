@@ -27,7 +27,7 @@ tags:
 - Claims Technology
 - CIECA
 - Partner Gated
-- OAuth
+- Authentication
 - OpenID Connect
 trust_url: https://trust.cccis.com/
 ---

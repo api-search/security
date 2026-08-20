@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cisco-ne
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/authentication/cisco-nexus-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Data Center
+- Data-Center
 - Infrastructure
 - Network Automation
 - Networking

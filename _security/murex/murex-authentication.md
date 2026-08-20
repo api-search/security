@@ -174,7 +174,7 @@ summary_line: http · 1 scheme
 tags:
 - Capital Markets
 - Enterprise Software
-- Financial Services
+- Financial-Services
 - Fintech
 - Risk Management
 - Trading

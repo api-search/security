@@ -56,5 +56,5 @@ tags:
 - Industrial
 - Maintenance
 - Inspections
-- SaaS
+- Software-as-a-Service
 ---

@@ -182,6 +182,6 @@ tags:
 - SMS
 - Email
 - Help Center
-- Webhooks
+- Webhook
 - Knowledge Base
 ---

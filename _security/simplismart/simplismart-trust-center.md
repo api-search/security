@@ -71,14 +71,14 @@ summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Inference
 - LLM
 - Model Deployment
 - Fine-Tuning
 - MLOps
 - GPU
-- Speech to Text
-- Image Generation
+- Speech-to-Text
+- Image-Generation
 trust_url: https://security.simplismart.ai/
 ---

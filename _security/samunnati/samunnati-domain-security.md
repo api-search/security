@@ -34,8 +34,8 @@ tags:
 - Consumer
 - Agriculture
 - Agri Finance
-- Financial Services
+- Financial-Services
 - Marketplace
 - India
-- FinTech
+- Fintech
 ---

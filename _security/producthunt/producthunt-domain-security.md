@@ -44,7 +44,7 @@ tags:
 - Product Discovery
 - GraphQL
 - Community
-- Products
+- Product
 - Startups
 - Launches
 - Voting

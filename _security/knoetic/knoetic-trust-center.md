@@ -19,13 +19,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knoetic/refs/h
 summary_line: SOC 2 Type II
 tags:
 - Company
-- Hr Tech
+- HR Tech
 - People Analytics
 - Human Resources
 - Workforce Analytics
 - Artificial Intelligence
 - AI Agents
-- SaaS
+- Software-as-a-Service
 - Community
 - Benchmarking
 trust_url: https://trust.knoetic.com

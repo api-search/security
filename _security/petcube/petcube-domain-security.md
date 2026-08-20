@@ -34,7 +34,7 @@ tags:
 - Pet Tech
 - Internet of Things
 - Consumer Hardware
-- Cameras
+- Camera
 - Pet Care
 - Telehealth
 - Y Combinator

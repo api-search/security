@@ -36,7 +36,7 @@ tags:
 - Wellness
 - Cardiometabolic
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Remote Photoplethysmography
 - Screening
 - SDK

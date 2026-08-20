@@ -68,7 +68,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Edtech
+- EdTech
 - Learning
 - E-Learning
 - Corporate Training
@@ -76,5 +76,5 @@ tags:
 - Learning Management
 - LMS
 - Education
-- Webhooks
+- Webhook
 ---

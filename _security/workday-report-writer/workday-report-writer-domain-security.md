@@ -92,9 +92,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics
 - Enterprise
-- Erp
+- ERP
 - Financials
-- Hrms
+- HRMS
 - Reporting
-- Saas
+- Software-as-a-Service
 ---

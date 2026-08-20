@@ -37,11 +37,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fund-that-flip
 summary_line: http · 1 scheme
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Lending
 - Construction
 - Project Management
-- Financial Services
+- Financial-Services
 - Investing
 - Fintech
 - Property Technology

@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/security/flatcar-container-linux-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- Cloud Native
+- Cloud-Native
 - Containers
 - Immutable Infrastructure
 - Incubating

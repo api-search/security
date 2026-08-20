@@ -65,5 +65,5 @@ tags:
 - Financial Crime
 - Identity Verification
 - Chargeback Protection
-- FinTech
+- Fintech
 ---

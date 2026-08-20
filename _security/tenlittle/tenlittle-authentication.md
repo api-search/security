@@ -51,10 +51,10 @@ summary_line: openIdConnect/oauth2 · 1 scheme
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Consumer Goods
 - Children
 - Footwear
-- Direct-to-Consumer
+- Direct to Consumer
 - Shopify
 ---

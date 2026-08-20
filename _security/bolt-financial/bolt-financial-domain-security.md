@@ -74,11 +74,11 @@ tags:
 - Company
 - Payments
 - Checkout
-- eCommerce
+- E-Commerce
 - Fintech
-- Subscriptions
+- Subscription
 - Tokenization
 - Fraud
 - Identity
-- Webhooks
+- Webhook
 ---

@@ -31,8 +31,8 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Autonomous Apps
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Inventory
 - Warehouse
 - Supply Chain

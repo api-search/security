@@ -32,9 +32,9 @@ tags:
 - Company
 - Marketplaces
 - Construction
-- Home Building
-- Real Estate
-- Proptech
+- Homebuilding
+- Real-Estate
+- PropTech
 - India
 - Project Management
 ---

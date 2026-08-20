@@ -36,5 +36,5 @@ tags:
 - Antibody Discovery
 - Therapeutics
 - Drug Discovery
-- Machine Learning
+- Machine-Learning
 ---

@@ -39,12 +39,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Membership
-- Subscriptions
+- Subscription
 - WordPress
 - Payments
 - E-Commerce
 - Courses
 - Content Management
-- Webhooks
+- Webhook
 - MCP
 ---

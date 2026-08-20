@@ -40,9 +40,9 @@ tags:
 - Community Association Management
 - CAM
 - Property Management
-- Real Estate
+- Real-Estate
 - Accounting
-- Workflow Automation
+- Workflow-Automation
 - Vendor Management
 trust_url: https://www.vantaca.com/security
 ---

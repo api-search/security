@@ -52,7 +52,7 @@ tags:
 - E-Learning
 - Talent Development
 - Human Resources
-- SaaS
+- Software-as-a-Service
 - Learning Management
 - China
 ---

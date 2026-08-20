@@ -41,7 +41,7 @@ tags:
 - Appointments
 - Booking
 - Patient Engagement
-- OAuth
+- Authentication
 - FHIR
 - Telemedicine
 - Germany

@@ -70,12 +70,12 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/security/fingoal-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Financial Services
+- Financial-Services
 - Fintech
 - Transaction Enrichment
 - Data Enrichment
 - Personal Financial Management
 - Banking
 - Categorization
-- Webhooks
+- Webhook
 ---

@@ -29,6 +29,6 @@ tags:
 - Human Resources
 - HRIS Integration
 - Compliance
-- SaaS
+- Software-as-a-Service
 trust_url: https://localyze.com/legal/security
 ---

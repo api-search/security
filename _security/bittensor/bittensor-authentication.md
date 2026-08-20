@@ -24,10 +24,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bittensor/refs
 summary_line: substrate-keypair-signature · 0 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Blockchain
 - Decentralized AI
-- Machine Learning
+- Machine-Learning
 - Cryptocurrency
 - Web3
 - SDK

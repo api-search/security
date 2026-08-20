@@ -33,11 +33,11 @@ tags:
 - Company
 - Accounting
 - Bookkeeping
-- Ecommerce
+- E-Commerce
 - Finance
 - Inventory
 - Analytics
 - Tax
 - Financial Operations
-- DTC
+- Direct to Consumer
 ---

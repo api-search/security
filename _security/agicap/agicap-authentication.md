@@ -418,7 +418,7 @@ tags:
 - Banking
 - Accounts Receivable
 - E-Invoicing
-- Financial Services
-- FinTech
+- Financial-Services
+- Fintech
 - Applicative Saas
 ---

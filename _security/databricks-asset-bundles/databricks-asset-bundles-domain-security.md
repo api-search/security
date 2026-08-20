@@ -49,8 +49,8 @@ tags:
 - Databricks
 - Deployment
 - Infrastructure as Code
-- Jobs
-- Machine Learning
+- Job
+- Machine-Learning
 - MLOps
 - Pipelines
 - Workflows

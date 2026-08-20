@@ -19,12 +19,11 @@ summary_line: SOC 2 Type II
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - Enterprise AI
 - Data Governance
 - AI Agents
 - Data Integration
 - Security
-- OAuth
+- Authentication
 trust_url: ''
 ---

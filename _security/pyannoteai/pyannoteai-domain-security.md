@@ -54,8 +54,8 @@ tags:
 - Speaker Diarization
 - Audio
 - Voice AI
-- Machine Learning
+- Machine-Learning
 - Transcription
 - Streaming
-- Webhooks
+- Webhook
 ---

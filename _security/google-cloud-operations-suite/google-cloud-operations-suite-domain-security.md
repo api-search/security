@@ -72,7 +72,6 @@ tags:
 - Logging
 - Monitoring
 - Observability
-- Operations
 - Profiling
 - Stackdriver
 - Tracing

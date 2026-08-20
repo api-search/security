@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regions-financ
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - Open Banking
 - FDX
 - Consumer Banking

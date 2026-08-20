@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/myr/refs/heads
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Point of Sale
-- Restaurants
+- Point-of-Sale
+- Restaurant
 - Quick Service Restaurants
 - Food Service Technology
 - Payments
 - Loyalty
 - Restaurant Management
-- Integrations
+- Integration
 ---

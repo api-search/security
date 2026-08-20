@@ -531,7 +531,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Company
 - Banking
-- Financial Services
+- Financial-Services
 - Lending
 - Mortgage
 - Loan Origination
@@ -540,7 +540,7 @@ tags:
 - Salesforce
 - eVault
 - eNote
-- Webhooks
+- Webhook
 - MCP
 trust_url: https://www.ncino.com/compliance
 ---

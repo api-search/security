@@ -66,7 +66,7 @@ tags:
 - SCIM
 - Identity Provisioning
 - Procurement
-- Future of Work
+- Future Of Work
 - France
 - Europe
 ---

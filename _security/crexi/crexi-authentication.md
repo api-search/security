@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: searched\nsource: https://api.cre
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crexi/refs/heads/main/authentication/crexi-authentication.yml
 summary_line: apiKey/http/oauth2/openIdConnect · 5 schemes
 tags:
-- Real Estate
+- Real-Estate
 - Commercial Real Estate
 - Marketplace
 - Property Data

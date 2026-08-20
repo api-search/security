@@ -179,7 +179,7 @@ tags:
 - Recruiting
 - Hiring
 - Talent Acquisition
-- Enterprise SaaS
+- Enterprise Saas
 - Human Resources
 - Onboarding
 trust_url: https://trust.greenhouse.com/

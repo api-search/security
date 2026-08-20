@@ -86,7 +86,7 @@ tags:
 - Agents
 - Computer Use
 - Automation
-- Machine Learning
+- Machine-Learning
 - Browser Automation
 - LLMs
 - MCP

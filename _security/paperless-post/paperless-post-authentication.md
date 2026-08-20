@@ -59,7 +59,7 @@ summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Company
 - Invitations
-- Events
+- Event
 - Greeting Cards
 - Stationery
 - Consumer

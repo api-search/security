@@ -67,7 +67,7 @@ tags:
 - Company
 - Web Hosting
 - Static Hosting
-- Front-End
+- Frontend
 - Deployment
 - Developer Tools
 - Defunct

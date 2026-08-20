@@ -30,9 +30,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/numpy/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Data Science
-- Machine Learning
+- Machine-Learning
 - Numerical Analysis
-- Open Source
+- Open-Source
 - Python Library
 - Scientific Computing
 ---

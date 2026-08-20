@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mysql/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Database
-- Open Source
+- Open-Source
 - RDBMS
 - Relational Database
 - SQL

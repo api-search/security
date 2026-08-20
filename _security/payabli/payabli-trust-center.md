@@ -229,6 +229,6 @@ tags:
 - ACH
 - Cards
 - Tokenization
-- Webhooks
+- Webhook
 trust_url: https://trust.payabli.com/
 ---

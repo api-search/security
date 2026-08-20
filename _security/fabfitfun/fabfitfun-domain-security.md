@@ -37,5 +37,5 @@ tags:
 - Consumer
 - Beauty
 - Lifestyle
-- Direct-to-Consumer
+- Direct to Consumer
 ---

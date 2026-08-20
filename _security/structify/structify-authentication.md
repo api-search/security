@@ -229,7 +229,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/structify/refs
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Data
 - Web Scraping
 - Data Extraction

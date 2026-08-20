@@ -68,6 +68,6 @@ tags:
 - Business Intelligence
 - Cloud
 - Data Integration
-- SaaS
+- Software-as-a-Service
 - Visualization
 ---

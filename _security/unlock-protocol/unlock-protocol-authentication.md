@@ -240,7 +240,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Blockchain
 - Memberships
-- Subscriptions
+- Subscription
 - NFT
 - Ticketing
 - Web3

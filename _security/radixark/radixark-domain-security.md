@@ -36,11 +36,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/radixark/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Infrastructure
-- Machine Learning
+- Machine-Learning
 - LLM
 - Inference
 - Reinforcement Learning
-- Open Source
+- Open-Source
 ---

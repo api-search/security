@@ -29,5 +29,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ohouse/refs/he
 summary_line: TLSv1.3
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 ---

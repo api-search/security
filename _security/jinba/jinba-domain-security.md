@@ -127,9 +127,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
-- Workflow Automation
+- Workflow-Automation
 - Enterprise
 - MCP
 - Low-Code

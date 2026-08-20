@@ -123,7 +123,7 @@ summary_line: SOC 2, GDPR
 tags:
 - Billing
 - Metering
-- Open Source
+- Open-Source
 - Usage-Based
 trust_url: https://getlago.com/security
 ---

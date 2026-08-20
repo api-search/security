@@ -55,6 +55,6 @@ tags:
 - Legal Tech
 - Contract Drafting
 - Clause Search
-- Knowledge Management
-- AI
+- Knowledge-Management
+- Artificial Intelligence
 ---

@@ -22,10 +22,10 @@ tags:
 - Company
 - Accounting
 - Bookkeeping
-- Financial Services
+- Financial-Services
 - Artificial Intelligence
 - Automation
-- SaaS
+- Software-as-a-Service
 - Banking Data
 - Practice Management
 - Small Business

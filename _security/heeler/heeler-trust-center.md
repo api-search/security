@@ -21,7 +21,7 @@ tags:
 - Security
 - Application Security
 - DevSecOps
-- AI
+- Artificial Intelligence
 - Agents
 - MCP
 - Agent Skills

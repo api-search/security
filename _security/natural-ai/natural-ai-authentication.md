@@ -133,7 +133,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/natural-ai/ref
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Payments
 - Agents
 - Fintech

@@ -31,7 +31,7 @@ tags:
 - Company
 - Payments
 - Cryptocurrency
-- Subscriptions
+- Subscription
 - Recurring Billing
 - Web3
 - Blockchain

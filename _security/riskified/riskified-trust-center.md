@@ -24,10 +24,10 @@ tags:
 - Fraud
 - Fraud Prevention
 - Chargebacks
-- Ecommerce
+- E-Commerce
 - Payments
 - Risk
-- Machine Learning
+- Machine-Learning
 - Account Takeover
 - Policy Abuse
 - 3DS

@@ -39,10 +39,10 @@ tags:
 - File Conversion
 - PDF
 - Documents
-- Images
+- Image
 - Audio
 - Video
-- E-books
+- Ebooks
 - Office Documents
 - Batch Processing
 trust_url: https://www.convertapi.com/compliance

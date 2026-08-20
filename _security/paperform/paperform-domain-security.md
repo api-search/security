@@ -57,7 +57,7 @@ tags:
 - Payments
 - Submissions
 - Surveys
-- eSignature
-- Webhooks
+- E-Signature
+- Webhook
 - No-Code
 ---

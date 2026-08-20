@@ -232,6 +232,6 @@ tags:
 - Testing
 - Vulnerability Scanner
 - DAST
-- Open Source
+- Open-Source
 trust_url: https://security.projectdiscovery.io/
 ---

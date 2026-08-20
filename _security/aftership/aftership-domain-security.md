@@ -40,5 +40,5 @@ tags:
 - Tracking
 - E-Commerce
 - Post-Purchase
-- Notifications
+- Notification
 ---

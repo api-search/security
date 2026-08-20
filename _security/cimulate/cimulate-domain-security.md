@@ -30,8 +30,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cimulate/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ai
-- Ecommerce
+- Artificial Intelligence
+- E-Commerce
 - Search
 - Product Discovery
 - Recommendations

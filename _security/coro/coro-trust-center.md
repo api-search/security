@@ -29,7 +29,7 @@ tags:
 - Cloud Security
 - Data Protection
 - MSP
-- Webhooks
+- Webhook
 - MCP
 trust_url: https://www.coro.net/compliance
 ---

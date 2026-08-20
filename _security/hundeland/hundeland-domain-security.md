@@ -34,7 +34,7 @@ tags:
 - Pets
 - Dogs
 - Pet Supplies
-- Ecommerce
+- E-Commerce
 - Retail
 - Germany
 - Closed

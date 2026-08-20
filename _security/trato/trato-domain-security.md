@@ -65,8 +65,8 @@ tags:
 - Contract Management
 - Contract Lifecycle Management
 - Electronic Signature
-- Legaltech
-- Document Management
-- Workflow Automation
+- Legal Tech
+- Document-Management
+- Workflow-Automation
 - Legal
 ---

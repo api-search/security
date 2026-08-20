@@ -33,9 +33,9 @@ tags:
 - Company
 - Business Applications
 - Customer Retention
-- Ecommerce
+- E-Commerce
 - Shopify
-- Subscriptions
-- Customer Support
+- Subscription
+- Customer-Support
 - AI Agent
 ---

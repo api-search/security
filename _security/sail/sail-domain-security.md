@@ -67,8 +67,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sail/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - LLM
 - Inference
 - Agents

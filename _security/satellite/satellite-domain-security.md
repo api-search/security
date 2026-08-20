@@ -32,7 +32,7 @@ tags:
 - Crypto Web3
 - Decentralized
 - Messaging
-- Communication
+- Communications
 - End-to-End Encryption
 - IPFS
 - Peer-to-Peer

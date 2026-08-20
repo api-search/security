@@ -255,7 +255,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/doi-usgs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/authentication/doi-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Federal Government
+- Federal-Government
 - National Parks
 - Federal Lands
 - Water Resources

@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tuf/refs/heads
 summary_line: TLSv1.3 · HSTS
 tags:
 - CNCF
-- Cloud Native
+- Cloud-Native
 - Graduated
 - Security
 - Software Supply Chain

@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/parsio-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/authentication/parsio-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Document Parsing
 - Email Parsing
 - OCR

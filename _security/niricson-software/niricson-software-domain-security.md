@@ -33,7 +33,7 @@ tags:
 - Infrastructure
 - Construction
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Inspection
 - Drones
 - Condition Assessment

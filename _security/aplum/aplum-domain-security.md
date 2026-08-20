@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aplum/refs/hea
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- Second-Hand
+- Secondhand
 - Luxury Fashion
 - Resale Marketplace
 - E-Commerce

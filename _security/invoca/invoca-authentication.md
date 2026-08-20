@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/invoca/refs/he
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Call Tracking
 - Conversation Intelligence
 - Marketing

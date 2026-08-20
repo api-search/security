@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/literala
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/authentication/literalai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Observability
 - Evaluation

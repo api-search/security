@@ -62,7 +62,7 @@ tags:
 - Apache
 - Cluster Management
 - Distributed Systems
-- Open Source
+- Open-Source
 - Partitioning
 - Replication
 ---

@@ -20,14 +20,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yampa/refs/hea
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- Ai/Ml
+- Ai Ml
 - AI Agents
 - Customer Service
 - Contact Centers
 - Voice
 - Chat
 - Email
-- SaaS
+- Software-as-a-Service
 - France
 trust_url: https://app.eu.vanta.com/yampa.ai/trust/iw4926mop7tstkl23byez
 ---

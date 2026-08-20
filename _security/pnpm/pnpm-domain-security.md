@@ -34,7 +34,7 @@ tags:
 - Package Manager
 - Monorepo
 - JavaScript
-- Open Source
+- Open-Source
 - Developer Tools
 - Dependency Management
 - CLI

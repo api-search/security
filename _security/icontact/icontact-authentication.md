@@ -60,9 +60,9 @@ tags:
 - Marketing Automation
 - Campaigns
 - Contacts
-- Lists
+- List
 - Segments
-- Webhooks
+- Webhook
 - Email Deliverability
 - SMB
 ---

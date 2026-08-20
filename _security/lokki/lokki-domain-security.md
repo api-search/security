@@ -69,7 +69,7 @@ tags:
 - Company
 - Climate Tech
 - Circular Economy
-- Rental
+- Rentals
 - Equipment Rental
 - Bike Rental
 - Marketplace
@@ -81,8 +81,8 @@ tags:
 - Availability
 - Mobility
 - Outdoor Recreation
-- Point of Sale
-- SaaS
+- Point-of-Sale
+- Software-as-a-Service
 - France
 - MCP
 - Agents

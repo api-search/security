@@ -67,7 +67,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/printify/refs/
 summary_line: http · 1 scheme
 tags:
 - Print on Demand
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Fulfillment
 - Merchandise

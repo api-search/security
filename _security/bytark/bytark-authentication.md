@@ -49,7 +49,7 @@ summary_line: http · 1 scheme
 tags:
 - Video
 - Streaming
-- Video on Demand
+- Video-on-Demand
 - Live Streaming
 - CDN
 - Object Storage

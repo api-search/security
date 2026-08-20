@@ -37,6 +37,6 @@ tags:
 - SerDes
 - Artificial Intelligence
 - High Performance Computing
-- Data Center
+- Data-Center
 - Hardware
 ---

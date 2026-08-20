@@ -34,7 +34,7 @@ tags:
 - Payments
 - Cross-Border Payments
 - Banking Infrastructure
-- FinTech
+- Fintech
 - Compliance
-- Financial Services
+- Financial-Services
 ---

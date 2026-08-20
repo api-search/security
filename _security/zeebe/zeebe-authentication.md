@@ -84,7 +84,7 @@ summary_line: http · 1 scheme
 tags:
 - BPMN
 - Camunda
-- Cloud Native
+- Cloud-Native
 - Distributed Systems
 - Java
 - Microservices

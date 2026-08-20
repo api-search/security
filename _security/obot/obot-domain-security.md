@@ -36,10 +36,9 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - AI Agents
 - MCP Gateway
-- Open Source
+- Open-Source
 - Agent Governance
 - Access Control
 - Developer Tools

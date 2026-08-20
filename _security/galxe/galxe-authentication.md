@@ -62,6 +62,6 @@ tags:
 - Quests
 - Loyalty
 - GraphQL
-- OAuth
+- Authentication
 - Blockchain
 ---

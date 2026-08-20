@@ -79,7 +79,7 @@ tags:
 - Contact Center
 - Customer Service
 - Live Chat
-- Chatbot
+- Chatbots
 - Voice
 - Ticketing
 - WhatsApp

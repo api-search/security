@@ -194,6 +194,6 @@ tags:
 - Provisioning
 - Billing
 - Quoting
-- Subscriptions
-- Webhooks
+- Subscription
+- Webhook
 ---

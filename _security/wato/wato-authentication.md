@@ -54,7 +54,6 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - AI Agents
 - Agent Governance
 - Team Memory

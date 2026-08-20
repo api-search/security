@@ -74,9 +74,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/victoriametric
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Database
-- Time-Series
+- Time Series
 - Monitoring
-- Open Source
+- Open-Source
 - Prometheus
 - PromQL
 - MetricsQL

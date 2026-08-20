@@ -48,9 +48,9 @@ tags:
 - Health
 - Vision Care
 - Contact Lenses
-- Subscriptions
+- Subscription
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Shopify
 - GraphQL
 ---

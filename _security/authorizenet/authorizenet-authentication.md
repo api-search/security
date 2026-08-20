@@ -47,9 +47,9 @@ tags:
 - Payments
 - Payment Gateway
 - Credit Cards
-- eCommerce
+- E-Commerce
 - Recurring Billing
 - Fraud Detection
-- Webhooks
-- Financial Services
+- Webhook
+- Financial-Services
 ---

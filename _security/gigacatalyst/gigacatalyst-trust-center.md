@@ -21,7 +21,7 @@ summary_line: trust center published
 tags:
 - Company
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Sales Enablement
 - Solutions Engineering
 - Customer Success

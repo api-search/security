@@ -37,5 +37,5 @@ tags:
 - Artificial Intelligence
 - Energy Management
 - Sustainability
-- SaaS
+- Software-as-a-Service
 ---

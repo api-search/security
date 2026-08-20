@@ -34,7 +34,7 @@ tags:
 - Enterprise
 - Construction
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Risk Management
 - Project Controls
 - Analytics

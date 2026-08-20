@@ -25,10 +25,10 @@ summary_line: Cyber Essentials, ISO/IEC 27001, ISO/IEC 27001 SoA, PCI DSS v4.0.0
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Pet Insurance
 - Pet Care
-- Financial Services
+- Financial-Services
 - Consumer
 - United Kingdom
 trust_url: https://trust.manypets.com/

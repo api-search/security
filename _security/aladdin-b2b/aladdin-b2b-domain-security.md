@@ -33,7 +33,7 @@ tags:
 - B2B
 - Matchmaking
 - Meetings
-- Events
+- Event
 - Trade Shows
 - Networking
 - Middle East

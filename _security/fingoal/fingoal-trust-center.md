@@ -43,13 +43,13 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://fingoal
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/security/fingoal-trust-center.yml
 summary_line: SOC 2 Type II, GDPR
 tags:
-- Financial Services
+- Financial-Services
 - Fintech
 - Transaction Enrichment
 - Data Enrichment
 - Personal Financial Management
 - Banking
 - Categorization
-- Webhooks
+- Webhook
 trust_url: https://fingoal.com/fingoal-privacy-security
 ---

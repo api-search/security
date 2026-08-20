@@ -37,7 +37,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Retail
 - Fashion
-- E-commerce
+- E-Commerce
 - Apparel
 - Lifestyle
 ---

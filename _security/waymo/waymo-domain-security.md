@@ -34,10 +34,10 @@ tags:
 - Autonomous Vehicles
 - Self-Driving
 - Robotaxi
-- Ride-Hailing
+- Ride Hailing
 - Alphabet
-- Lidar
-- Computer Vision
+- LiDAR
+- Computer-Vision
 - Open Dataset
 - Simulation
 ---

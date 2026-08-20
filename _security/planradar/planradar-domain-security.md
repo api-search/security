@@ -249,12 +249,12 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Construction
-- Real Estate
+- Real-Estate
 - Project Management
 - Documentation
 - Defect Management
 - Field Service
 - Facility Management
 - BIM
-- SaaS
+- Software-as-a-Service
 ---

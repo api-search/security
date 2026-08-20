@@ -107,6 +107,6 @@ tags:
 - CNCF
 - Kubernetes
 - Microservices
-- Open Source
+- Open-Source
 - Service Mesh
 ---

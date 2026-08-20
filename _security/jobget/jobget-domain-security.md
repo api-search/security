@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jobget/refs/he
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Jobs
+- Job
 - Recruiting
 - Hiring
 - Human Resources

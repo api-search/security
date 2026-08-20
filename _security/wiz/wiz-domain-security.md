@@ -44,7 +44,7 @@ tags:
 - CNAPP
 - CSPM
 - Vulnerability Management
-- Cloud Native
+- Cloud-Native
 - DevSecOps
 - Security
 ---

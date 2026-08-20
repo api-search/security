@@ -113,12 +113,12 @@ tags:
 - Video
 - Physical Security
 - Surveillance
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
-- Cameras
+- Camera
 - Analytics
 - License Plate Recognition
-- Webhooks
-- Integrations
+- Webhook
+- Integration
 trust_url: https://www.spot.ai/security
 ---

@@ -31,6 +31,6 @@ tags:
 - Fintech
 - Lending
 - Gold Loan
-- Financial Services
+- Financial-Services
 - India
 ---

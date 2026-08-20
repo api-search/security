@@ -30,7 +30,7 @@ tags:
 - Procurement
 - Treasury
 - ERP
-- SaaS
+- Software-as-a-Service
 - Automation
 trust_url: https://trust.zoneandco.com/
 ---

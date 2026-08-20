@@ -56,6 +56,6 @@ tags:
 - Smart Accounts
 - Stablecoins
 - Payments
-- Wallet
+- Wallets
 - Web3
 ---

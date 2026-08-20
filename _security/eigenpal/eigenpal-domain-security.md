@@ -87,8 +87,8 @@ tags:
 - Company
 - Document Processing
 - Artificial Intelligence
-- Workflow Automation
-- Machine Learning
+- Workflow-Automation
+- Machine-Learning
 - Data Extraction
 - OCR
 - Developer Tools

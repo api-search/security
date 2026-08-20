@@ -65,10 +65,10 @@ tags:
 - Marketplace
 - Ethereum
 - Web3
-- Orders
-- Collections
+- Order
+- Collection
 - Tokens
-- Events
+- Event
 - ERC-721
 - ERC-1155
 - Seaport

@@ -32,14 +32,14 @@ source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: https://api-sandb
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/welab/refs/heads/main/authentication/welab-authentication.yml
 summary_line: mutualTLS · 1 scheme
 tags:
-- fintech
-- digital-banking
+- Fintech
+- Digital Banking
 - virtual-bank
-- open-banking
-- hong-kong
-- indonesia
-- consumer-lending
-- payments
+- Open Banking
+- Hong Kong
+- Indonesia
+- Consumer Lending
+- Payments
 - hkma-open-api
-- financial-services
+- Financial-Services
 ---

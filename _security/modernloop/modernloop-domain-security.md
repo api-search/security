@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modernloop/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Hr Tech
+- HR Tech
 - Recruiting
 - Interview Scheduling
 - Talent Acquisition
 - Hiring
 - AI Agents
-- SaaS
+- Software-as-a-Service
 ---

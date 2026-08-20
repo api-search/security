@@ -54,17 +54,17 @@ source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/security/daloopa-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- financial-data
-- fundamental-data
-- market-data
-- investment-research
-- equity-research
-- sec-filings
-- earnings
-- fintech
-- mcp
+- Financial Data
+- Fundamental Data
+- Market Data
+- Investment Research
+- Equity Research
+- SEC Filings
+- Earnings
+- Fintech
+- MCP
 - agent-native
-- agent-skills
-- webhooks
-- data-warehouse
+- Agent Skills
+- Webhook
+- Data Warehouse
 ---

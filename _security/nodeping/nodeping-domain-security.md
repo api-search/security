@@ -89,6 +89,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Monitoring
 - Uptime
-- Notifications
-- SaaS
+- Notification
+- Software-as-a-Service
 ---

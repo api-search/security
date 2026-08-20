@@ -63,7 +63,7 @@ tags:
 - E-Learning
 - Courses
 - Grades
-- Users
+- User
 - Enrollments
 - Quizzes
 - Discussions

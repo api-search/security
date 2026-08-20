@@ -82,5 +82,5 @@ tags:
 - Single Sign-On
 - Multi-Factor Authentication
 - SAML
-- OAuth
+- Authentication
 ---

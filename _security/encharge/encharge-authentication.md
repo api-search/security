@@ -191,9 +191,9 @@ tags:
 - Email Marketing
 - Marketing Automation
 - Transactional Email
-- SaaS
+- Software-as-a-Service
 - Behavioral Email
 - Customer Engagement
 - Customer Data
-- Webhooks
+- Webhook
 ---

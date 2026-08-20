@@ -34,7 +34,7 @@ tags:
 - Semiconductors
 - Manufacturing
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Industrial Automation
 - Inspection
 ---

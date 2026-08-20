@@ -184,18 +184,18 @@ source_yaml: "generated: '2026-08-06'\nmethod: searched\nsource: openapi/banqu-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/authentication/banqu-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- supply-chain
-- traceability
-- sustainability
-- esg
-- agriculture
-- procurement
-- compliance
-- blockchain
-- eudr
-- carbon-accounting
-- recycling
+- Supply Chain
+- Traceability
+- Sustainability
+- ESG
+- Agriculture
+- Procurement
+- Compliance
+- Blockchain
+- EUDR
+- Carbon Accounting
+- Recycling
 - smallholder-farmers
-- distributed-ledger
-- supplier-management
+- Distributed Ledger
+- Supplier Management
 ---

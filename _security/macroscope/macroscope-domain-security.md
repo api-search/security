@@ -47,7 +47,7 @@ tags:
 - Code Intelligence
 - Developer Tools
 - Pull Requests
-- Agent
-- Webhooks
+- Agents
+- Webhook
 - DevOps
 ---

@@ -63,7 +63,7 @@ tags:
 - File Sharing
 - Collaboration
 - Self-Hosted
-- Open Source
+- Open-Source
 - Productivity
 - WebDAV
 ---

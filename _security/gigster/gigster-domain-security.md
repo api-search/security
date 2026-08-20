@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Software Development
-- Managed Services
+- Managed Service
 - Staff Augmentation
 - Artificial Intelligence
 - Talent Marketplace

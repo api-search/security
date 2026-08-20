@@ -37,7 +37,7 @@ tags:
 - Beauty and Wellness
 - Cleaning
 - Childcare
-- On Demand
+- On-Demand
 - France
 - Mobile Apps
 ---

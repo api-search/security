@@ -35,7 +35,6 @@ tags:
 - Developer Tools
 - Agents
 - MCP
-- Model Context Protocol
 - Developer Experience
 - CLI
 - Observability

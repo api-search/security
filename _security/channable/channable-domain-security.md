@@ -86,7 +86,7 @@ tags:
 - Applicative Saas
 - Feed Management
 - Marketplaces
-- E-commerce
+- E-Commerce
 - Product Data
 - Order Management
 - Advertising

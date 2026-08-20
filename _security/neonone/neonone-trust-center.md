@@ -90,11 +90,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/security/neonone-trust-center.yml
 summary_line: PCI DSS
 tags:
-- Nonprofit
+- Non-Profit
 - CRM
 - Fundraising
 - Donor Management
 - Membership Management
-- Events
+- Event
 trust_url: https://trust.neonone.com/
 ---

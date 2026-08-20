@@ -40,5 +40,5 @@ tags:
 - Library
 - Logging
 - Monitoring
-- Open Source
+- Open-Source
 ---

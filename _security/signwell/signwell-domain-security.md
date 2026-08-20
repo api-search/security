@@ -93,5 +93,5 @@ tags:
 - Templates
 - Workflows
 - HIPAA
-- SOC2
+- SOC 2
 ---

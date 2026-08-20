@@ -46,5 +46,5 @@ tags:
 - Linux
 - Linux Foundation
 - Long-Term Support
-- Open Source
+- Open-Source
 ---

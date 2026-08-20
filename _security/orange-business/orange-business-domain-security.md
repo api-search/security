@@ -134,7 +134,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orange-busines
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - 5G
-- AI
+- Artificial Intelligence
 - B2B
 - CAMARA
 - Cloud

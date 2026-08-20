@@ -72,9 +72,9 @@ tags:
 - Publishers
 - Creators
 - Conversions
-- Deeplinks
+- Deep Links
 - Commissions
-- Ecommerce
+- E-Commerce
 - Southeast Asia
 - Shopee
 - Company

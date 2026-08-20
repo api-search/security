@@ -59,6 +59,6 @@ tags:
 - Endpoint Security
 - Vulnerability Management
 - osquery
-- Open Source
+- Open-Source
 - DevOps
 ---

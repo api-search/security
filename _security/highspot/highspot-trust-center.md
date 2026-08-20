@@ -25,7 +25,7 @@ tags:
 - Buyer Engagement
 - Training
 - Coaching
-- AI
+- Artificial Intelligence
 - MCP Server
 trust_url: https://www.highspot.com/trust/
 ---

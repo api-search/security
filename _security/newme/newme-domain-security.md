@@ -35,6 +35,6 @@ tags:
 - E-Commerce
 - Retail
 - Apparel
-- Direct-to-Consumer
+- Direct to Consumer
 - Mobile Commerce
 ---

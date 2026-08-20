@@ -34,6 +34,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/primerica/refs
 summary_line: TLSv1.2 · DMARC
 tags:
 - Insurance
-- Financial Services
+- Financial-Services
 - Life Insurance
 ---

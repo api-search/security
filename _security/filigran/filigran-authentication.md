@@ -50,6 +50,6 @@ tags:
 - STIX
 - GraphQL
 - Breach and Attack Simulation
-- Open Source
+- Open-Source
 - Security
 ---

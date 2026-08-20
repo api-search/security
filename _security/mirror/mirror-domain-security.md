@@ -33,5 +33,5 @@ tags:
 - GraphQL
 - Terra
 - Web3
-- Financial Services
+- Financial-Services
 ---

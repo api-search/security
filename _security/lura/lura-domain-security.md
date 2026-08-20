@@ -30,5 +30,5 @@ summary_line: TLSv1.3
 tags:
 - API Gateway
 - Framework
-- Open Source
+- Open-Source
 ---

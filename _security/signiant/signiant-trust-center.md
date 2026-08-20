@@ -24,8 +24,8 @@ tags:
 - Managed File Transfer
 - Content Delivery
 - Storage
-- Webhooks
-- OAuth
-- Media & Entertainment
+- Webhook
+- Authentication
+- Media and Entertainment
 trust_url: https://trust.signiant.com/
 ---

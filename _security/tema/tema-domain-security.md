@@ -32,10 +32,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Consumer
-- ETF
+- ETFs
 - Asset Management
 - Investing
-- Financial Services
+- Financial-Services
 - Thematic Investing
 - Fintech
 ---

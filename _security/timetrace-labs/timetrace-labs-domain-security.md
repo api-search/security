@@ -32,7 +32,7 @@ tags:
 - Company
 - Healthcare
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Clinical Trials
 - Digital Biomarkers
 - Physiological Data

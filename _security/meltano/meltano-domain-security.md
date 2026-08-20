@@ -40,9 +40,9 @@ tags:
 - Enterprise
 - Data Integration
 - ELT
-- Data Pipelines
+- Data Pipeline
 - Data Engineering
-- Open Source
+- Open-Source
 - DataOps
 - Singer
 ---

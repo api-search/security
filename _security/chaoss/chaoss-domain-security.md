@@ -53,7 +53,7 @@ tags:
 - Linux Foundation
 - Metrics
 - Observability
-- Open Source
+- Open-Source
 - Risk
 - Sustainability
 ---

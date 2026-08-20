@@ -42,9 +42,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Blockchain
-- Financial Services
+- Financial-Services
 - Tokenization
-- Real-World Assets
+- Real World Assets
 - Cosmos SDK
 - gRPC
 - Web3

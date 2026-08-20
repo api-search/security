@@ -36,6 +36,6 @@ tags:
 - DeFi
 - Rewards
 - Onboarding
-- Wallet
+- Wallets
 - Quests
 ---

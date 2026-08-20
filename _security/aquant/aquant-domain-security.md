@@ -73,8 +73,8 @@ tags:
 - Manufacturing
 - Medical Devices
 - Industrial Equipment
-- Knowledge Management
+- Knowledge-Management
 - Voice AI
-- Model Context Protocol
+- MCP
 - Predictive Maintenance
 ---

@@ -57,7 +57,7 @@ tags:
 - Fortune 500
 - Malls
 - Outlet Centers
-- Real Estate
+- Real-Estate
 - REIT
 - Retail
 ---

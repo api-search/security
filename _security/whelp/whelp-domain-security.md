@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whelp/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Customer Support
+- Customer-Support
 - Omnichannel
 - Messaging
 - Live Chat
 - WhatsApp
 - CRM
-- Chatbot
+- Chatbots
 - Customer Communication
 ---

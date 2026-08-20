@@ -107,6 +107,6 @@ tags:
 - Financial Advisors
 - Wealth Management
 - Contact Management
-- Workflow Automation
-- SaaS
+- Workflow-Automation
+- Software-as-a-Service
 ---

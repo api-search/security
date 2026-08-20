@@ -57,7 +57,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Pricing
 - Procurement
-- SaaS
+- Software-as-a-Service
 - Software Spend Management
 - Negotiation
 ---

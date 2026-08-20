@@ -64,7 +64,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Banking
 - Core Banking
-- Financial Services
+- Financial-Services
 - Payments
 - Fintech
 ---

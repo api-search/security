@@ -23,6 +23,6 @@ tags:
 - Tracking
 - E-Commerce
 - Post-Purchase
-- Notifications
+- Notification
 trust_url: https://www.aftership.com/trustcentre
 ---

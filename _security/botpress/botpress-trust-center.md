@@ -55,10 +55,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/security/botpress-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
-- AI
+- Artificial Intelligence
 - Conversational
 - Chat
-- Open Source
+- Open-Source
 - Bot Builder
 - LLM
 trust_url: https://app.drata.com/trust/9cb618e1-0c38-11ee-865f-029d78a187d9

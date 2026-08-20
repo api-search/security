@@ -29,5 +29,4 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/powerexindia/r
 summary_line: TLSv1.2
 tags:
 - Company
-- Unknown
 ---

@@ -72,7 +72,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-recl
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Energy
-- Federal Government
+- Federal-Government
 - Infrastructure
 - Water
 - Hydrology

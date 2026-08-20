@@ -30,7 +30,7 @@ tags:
 - API Reference
 - Documentation
 - Developer Tools
-- Open Source
+- Open-Source
 - OpenAPI
 - Static Site
 ---

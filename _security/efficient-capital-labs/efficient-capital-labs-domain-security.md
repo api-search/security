@@ -37,6 +37,6 @@ tags:
 - Revenue-Based Financing
 - Embedded Finance
 - Payments
-- SaaS
-- AI
+- Software-as-a-Service
+- Artificial Intelligence
 ---

@@ -49,7 +49,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Wine
-- Ecommerce
+- E-Commerce
 - Retail
 - Subscription
 - Agentic Commerce

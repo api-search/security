@@ -34,7 +34,7 @@ tags:
 - Content Management
 - Marketing
 - Sales Enablement
-- Webhooks
+- Webhook
 - REST API
 - B2B
 - Upland Software

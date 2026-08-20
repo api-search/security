@@ -162,7 +162,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/elastic-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elastic-io/refs/heads/main/authentication/elastic-io-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Integrations
+- Integration
 - iPaaS
 - SaaS Integration
 ---

@@ -37,7 +37,7 @@ tags:
 - Fine Arts
 - Museum
 - National Historic Landmark
-- Nonprofit
+- Non-Profit
 - Philadelphia
 - Visual Arts
 ---

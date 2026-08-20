@@ -34,8 +34,8 @@ tags:
 - Marketplace
 - Furniture
 - Home Decor
-- Second-hand
+- Secondhand
 - Vintage
-- E-commerce
+- E-Commerce
 - France
 ---

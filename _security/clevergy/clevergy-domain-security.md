@@ -56,5 +56,5 @@ tags:
 - Spain
 - White Label
 - Embedded Components
-- Webhooks
+- Webhook
 ---

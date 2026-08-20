@@ -111,7 +111,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - BPM
 - Business Process Management
-- Workflow Automation
+- Workflow-Automation
 - BPMN 2.0
 - Low-Code
 - Intelligent Automation

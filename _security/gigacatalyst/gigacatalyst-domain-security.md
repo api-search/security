@@ -36,7 +36,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Sales Enablement
 - Solutions Engineering
 - Customer Success

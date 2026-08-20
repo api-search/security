@@ -125,10 +125,10 @@ tags:
 - LegalOps
 - Enterprise
 - Workflows
-- eSignature
+- E-Signature
 - Clickwrap
-- AI
-- OAuth
+- Artificial Intelligence
+- Authentication
 - SCIM
-- Webhooks
+- Webhook
 ---

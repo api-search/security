@@ -32,5 +32,5 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
 - Specialty Insurance
-- Financial Services
+- Financial-Services
 ---

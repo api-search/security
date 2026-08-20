@@ -36,7 +36,7 @@ tags:
 - Payment Gateway
 - Tokenization
 - Fraud Detection
-- 3-D Secure
+- 3D Secure
 - Authentication
 - Digital Wallet
 - Prepaid Cards

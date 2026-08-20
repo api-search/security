@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/veryfi-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/authentication/veryfi-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Document Processing
 - Finance
 - Invoices

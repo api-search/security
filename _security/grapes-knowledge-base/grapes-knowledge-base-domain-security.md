@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grapes-knowledge-base/refs/heads/main/security/grapes-knowledge-base-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- Knowledge Management
+- Knowledge-Management
 - Knowledge Base
 - Data Management
 - Automation

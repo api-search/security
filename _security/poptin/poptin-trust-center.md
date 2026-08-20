@@ -29,8 +29,8 @@ tags:
 - Forms
 - Popups
 - Contact Management
-- Webhooks
-- Ecommerce
-- SaaS
+- Webhook
+- E-Commerce
+- Software-as-a-Service
 trust_url: ''
 ---

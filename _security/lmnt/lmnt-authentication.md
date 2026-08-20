@@ -49,11 +49,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lmnt-spe
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lmnt/refs/heads/main/authentication/lmnt-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- text-to-speech
-- voice synthesis
-- voice cloning
-- audio streaming
-- conversational AI
-- low latency
-- real-time audio
+- Text-to-Speech
+- Voice Synthesis
+- Voice Cloning
+- Audio Streaming
+- Conversational AI
+- Low Latency
+- Real-Time Audio
 ---

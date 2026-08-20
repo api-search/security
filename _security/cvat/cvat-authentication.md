@@ -86,9 +86,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cvat-ope
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cvat/refs/heads/main/authentication/cvat-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- Computer Vision
+- Computer-Vision
 - Data Annotation
 - Labeling
 - Datasets
-- Open Source
+- Open-Source
 ---

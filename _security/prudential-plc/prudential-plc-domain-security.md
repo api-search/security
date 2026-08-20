@@ -160,5 +160,5 @@ tags:
 - Philippines
 - Eastspring
 - Responsible AI
-- llms.txt
+- llms-txt
 ---

@@ -61,7 +61,7 @@ tags:
 - Rate Limiting
 - Resilience
 - Traffic Shaping
-- Open Source
-- Cloud Native
+- Open-Source
+- Cloud-Native
 - Spring Cloud
 ---

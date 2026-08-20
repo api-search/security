@@ -33,7 +33,7 @@ tags:
 - Company
 - Compliance
 - RegTech
-- Financial Services
+- Financial-Services
 - Regulatory Technology
 - MiCA
 - PSD2

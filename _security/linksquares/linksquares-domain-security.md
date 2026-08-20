@@ -89,9 +89,9 @@ tags:
 - Contract Lifecycle Management
 - CLM
 - Contracts
-- AI
+- Artificial Intelligence
 - Legal
 - Agreements
-- Document Management
+- Document-Management
 - Contract Analytics
 ---

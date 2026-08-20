@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Consumer
-- E-commerce
+- E-Commerce
 - Shopping
 - Marketplace
 - Mobile

@@ -38,5 +38,5 @@ tags:
 - Drug Development
 - Biotech
 - Biometrics
-- Pharmaceutical
+- Pharmaceuticals
 ---

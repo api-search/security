@@ -104,8 +104,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/
 summary_line: apiKey · 1 scheme
 tags:
 - RPA
-- Workflow Automation
+- Workflow-Automation
 - Python
-- Open Source
+- Open-Source
 - Automation
 ---

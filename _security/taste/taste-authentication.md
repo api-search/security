@@ -56,9 +56,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taste/refs/hea
 summary_line: http · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Design
-- Machine Learning
+- Machine-Learning
 - Developer Tools
 - Prompt Engineering
 - Content Generation

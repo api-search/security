@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/multiverse/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Edtech
+- EdTech
 - Education
 - Apprenticeships
 - Workforce Development

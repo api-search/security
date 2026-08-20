@@ -177,7 +177,7 @@ summary_line: oauth2/openIdConnect/mutualTLS · 2 schemes
 tags:
 - Banking
 - Open Banking
-- Financial Services
+- Financial-Services
 - Payments
 - PSD2
 - FAPI

@@ -60,10 +60,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/svn/refs/heads
 summary_line: http · 2 schemes
 tags:
 - Apache
-- Open Source
+- Open-Source
 - Repository
 - Source Control
 - Svn
 - Version Control
-- Webdav
+- WebDAV
 ---

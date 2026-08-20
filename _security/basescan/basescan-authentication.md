@@ -90,13 +90,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/authentication/basescan-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- blockchain
+- Blockchain
 - Base
 - L2
-- explorer
+- Explorer
 - Ethereum
 - EVM
-- transactions
-- tokens
-- smart contracts
+- Transaction
+- Tokens
+- Smart Contracts
 ---

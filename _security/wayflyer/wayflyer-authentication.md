@@ -110,7 +110,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/
 summary_line: http · 2 schemes
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Fintech
 - Embedded Finance
 - Lending

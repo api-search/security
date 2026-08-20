@@ -479,6 +479,6 @@ tags:
 - Booking
 - Reservations
 - Cloud
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.mews.com/
 ---

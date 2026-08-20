@@ -200,7 +200,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/radius/refs/he
 summary_line: oauth2 · 1 scheme
 tags:
 - Application Platform
-- Cloud Native
+- Cloud-Native
 - Infrastructure
-- Multi Cloud
+- Multi-Cloud
 ---

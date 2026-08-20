@@ -166,7 +166,7 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Email Marketing
 - Marketing Automation
-- Ecommerce
+- E-Commerce
 - SMS Marketing
 - Customer Engagement
 - Segmentation

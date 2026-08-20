@@ -87,7 +87,7 @@ tags:
 - Consumer
 - Messaging
 - Chat
-- Communication
+- Communications
 - Matrix
 - MCP
 - Desktop

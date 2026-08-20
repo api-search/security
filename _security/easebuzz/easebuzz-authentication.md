@@ -48,6 +48,6 @@ tags:
 - Banking
 - India
 - UPI
-- Subscriptions
+- Subscription
 - SDK
 ---

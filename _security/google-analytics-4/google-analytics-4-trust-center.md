@@ -36,7 +36,7 @@ tags:
 - Analytics
 - Data Collection
 - Marketing
-- Measurement
+- Measurements
 - Mobile Analytics
 - Reporting
 - Web Analytics

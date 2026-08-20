@@ -31,6 +31,6 @@ tags:
 - mHealth
 - Wearables
 - Artificial Intelligence
-- Healthtech
+- Health Tech
 trust_url: https://www.juli.co/compliance-1
 ---

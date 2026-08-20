@@ -30,8 +30,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datavolo/refs/
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Data Pipelines
-- Dataflow
+- Data Pipeline
+- Dataflows
 - Apache NiFi
 - Unstructured Data
 - Generative AI

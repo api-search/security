@@ -94,5 +94,5 @@ tags:
 - Tokenization
 - Network Tokenization
 - PCI Compliance
-- Subscriptions
+- Subscription
 ---

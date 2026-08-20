@@ -42,7 +42,7 @@ tags:
 - Oncology
 - Small Molecules
 - Computational Chemistry
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 - Acquired
 ---

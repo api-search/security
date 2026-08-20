@@ -22,10 +22,10 @@ tags:
 - Company
 - Note Taking
 - Productivity
-- Knowledge Management
+- Knowledge-Management
 - Notes
 - Content
-- SaaS
+- Software-as-a-Service
 - Sync
 trust_url: https://evernote.com/security
 ---

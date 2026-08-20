@@ -48,5 +48,5 @@ tags:
 - Transportation
 - Experiential Entertainment
 - Booking
-- Model Context Protocol
+- MCP
 ---

@@ -34,8 +34,8 @@ tags:
 - Fashion
 - Apparel
 - Womenswear
-- Ecommerce
+- E-Commerce
 - Retail
 - Shopify
-- Direct-to-Consumer
+- Direct to Consumer
 ---

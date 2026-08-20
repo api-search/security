@@ -36,5 +36,5 @@ tags:
 - Concerts
 - Ticketing
 - Entertainment
-- Events
+- Event
 ---

@@ -33,7 +33,7 @@ tags:
 - Auto Finance
 - Dealerships
 - Sales Enablement
-- SaaS
+- Software-as-a-Service
 - Lending
 - Loan Origination
 - Credit Decisioning

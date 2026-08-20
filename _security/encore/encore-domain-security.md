@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/encore/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Backend
-- Cloud Native
+- Cloud-Native
 - Frameworks
 - Go
 - Infrastructure Automation
 - Microservices
-- Open Source
+- Open-Source
 - TypeScript
 ---

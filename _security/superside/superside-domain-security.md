@@ -31,10 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superside/refs
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Creative Services
 - Design
 - Marketing
-- AI
+- Artificial Intelligence
 - Creative As A Service
 ---

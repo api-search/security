@@ -32,7 +32,7 @@ tags:
 - Company
 - Education
 - EdTech
-- Well-being
+- Wellbeing
 - Social Emotional Learning
 - Student Engagement
 - Schools

@@ -186,10 +186,10 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - Ticketing
-- Events
+- Event
 - Marketplace
 - Entertainment
 - Secondary Market
 - Commerce
-- Travel and Leisure
+- Travel And Leisure
 ---

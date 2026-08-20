@@ -61,8 +61,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apache
 - Cloud
-- IaaS
+- Infrastructure-as-a-Service
 - Infrastructure
-- Open Source
+- Open-Source
 - Virtualization
 ---

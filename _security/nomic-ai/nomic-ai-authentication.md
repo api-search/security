@@ -53,7 +53,7 @@ tags:
 - Vector Database
 - Data Exploration
 - LLM
-- Open Source
+- Open-Source
 - RAG
 - Atlas
 ---

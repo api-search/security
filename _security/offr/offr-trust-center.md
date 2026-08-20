@@ -18,7 +18,7 @@ summary_line: trust center published
 tags:
 - Company
 - PropTech
-- Real Estate
+- Real-Estate
 - Property Transactions
 - Auctions
 - Lettings

@@ -32,9 +32,9 @@ tags:
 - Insurance
 - Claims
 - Claims Management
-- InsurTech
+- Insurtech
 - Property and Casualty
 - Payments
-- Workflow Automation
+- Workflow-Automation
 - Analytics
 ---

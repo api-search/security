@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/naroiq/refs/he
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- ETF
+- ETFs
 - Exchange-Traded Funds
 - Fund Infrastructure
 - Asset Management
-- Financial Services
+- Financial-Services
 - Fintech
 - Indexing
 - Regulatory Compliance

@@ -32,13 +32,13 @@ tags:
 - Company
 - Enterprise Content Management
 - ECM
-- Document Management
+- Document-Management
 - Archiving
 - Invoice Processing
 - Contract Management
 - Human Resources
 - SAP Integration
-- Microsoft 365
+- Microsoft-365
 - Germany
 - B2B Software
 ---

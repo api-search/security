@@ -37,7 +37,6 @@ tags:
 - E-Commerce
 - Commerce
 - Embedded Commerce
-- API
-- SDKs
-- Webhooks
+- SDK
+- Webhook
 ---

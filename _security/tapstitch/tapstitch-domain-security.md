@@ -35,7 +35,7 @@ tags:
 - Print on Demand
 - Apparel
 - Dropshipping
-- Ecommerce
+- E-Commerce
 - Fashion
 - Fulfillment
 ---

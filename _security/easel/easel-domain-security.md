@@ -35,11 +35,11 @@ tags:
 - Company
 - Artificial Intelligence
 - Generative AI
-- Image Generation
+- Image-Generation
 - Avatars
 - Fashion
 - Virtual Try-On
 - Advertising
-- Computer Vision
+- Computer-Vision
 - Consumer Applications
 ---

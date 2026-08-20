@@ -23,7 +23,7 @@ tags:
 - Certification
 - Regulatory
 - Testing Inspection Certification
-- Workflow Automation
+- Workflow-Automation
 - Medical Devices
 trust_url: https://trust.seamflow.com/
 ---

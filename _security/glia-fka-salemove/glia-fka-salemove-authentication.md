@@ -42,13 +42,13 @@ summary_line: bearer/apiKey · 2 schemes
 tags:
 - Company
 - Customer Service
-- Customer Support
+- Customer-Support
 - Digital Customer Service
 - Contact Center
 - Conversational AI
 - Voice AI
 - Co-Browsing
-- Financial Services
+- Financial-Services
 - Banking
 - Serverless
 - SDK

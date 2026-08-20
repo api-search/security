@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ignitetech/ref
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Enterprise Software
 - Artificial Intelligence
 - Software Portfolio
 - Customer Engagement
 - Supply Chain
-- Knowledge Management
+- Knowledge-Management
 ---

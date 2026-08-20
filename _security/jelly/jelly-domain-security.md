@@ -42,11 +42,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Hospitality
-- Restaurants
+- Restaurant
 - Kitchen Management
 - Food Costing
 - Recipe Costing
 - Invoice Processing
 - GraphQL
-- SaaS
+- Software-as-a-Service
 ---

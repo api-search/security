@@ -125,15 +125,15 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toast-tab/refs/heads/main/security/toast-tab-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Restaurants
-- Point Of Sale
+- Restaurant
+- Point-of-Sale
 - Payments
 - Online Ordering
 - Delivery
 - Loyalty
 - Gift Cards
 - Menus
-- Orders
+- Order
 - Kitchen
 - Labor
 - Scheduling

@@ -393,7 +393,7 @@ tags:
 - Cloud Banking
 - Core Banking
 - Digital Banking
-- Financial Services
+- Financial-Services
 - Fintech
 - Open Banking
 - Payments

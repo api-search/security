@@ -35,7 +35,7 @@ tags:
 - Retail
 - Fuel
 - Grocery
-- Restaurants
+- Restaurant
 - Loyalty
 - Consumer Incentives
 ---

@@ -38,7 +38,7 @@ tags:
 - Test Data
 - Synthetic Data
 - Mock Data
-- Open Source
+- Open-Source
 - Public API
 - Free API
 ---

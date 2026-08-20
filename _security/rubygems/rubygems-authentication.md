@@ -95,6 +95,6 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Ruby
 - Package Manager
-- Open Source
+- Open-Source
 - Developer Tools
 ---

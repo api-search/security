@@ -142,7 +142,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - ITSM
 - Help Desk
-- IT Service Management
 - Asset Management
 - Ticketing
 - Service Desk

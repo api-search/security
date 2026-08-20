@@ -128,13 +128,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/attentive/refs
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- Martech
+- MarTech
 - SMS Marketing
 - Email Marketing
-- Ecommerce
+- E-Commerce
 - Marketing Automation
 - Subscribers
-- Webhooks
+- Webhook
 - Customer Engagement
 trust_url: https://security.attentive.com/
 ---

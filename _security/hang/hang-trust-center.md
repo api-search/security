@@ -135,8 +135,8 @@ tags:
 - Membership
 - Customer Engagement
 - Marketing
-- Restaurants
-- Point of Sale
-- Webhooks
+- Restaurant
+- Point-of-Sale
+- Webhook
 trust_url: https://www.hang.com/security
 ---

@@ -150,20 +150,20 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/security/novu-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Notifications
+- Notification
 - Messaging
-- In App
+- In-App
 - Email
 - SMS
 - Push
 - Chat
 - Workflows
-- Open Source
+- Open-Source
 - Subscribers
 - Topics
 - Inbox
 - Workflow Orchestration
-- Multi Channel
+- Multi-Channel
 - Digest
 - MCP
 - Framework

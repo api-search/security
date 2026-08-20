@@ -145,7 +145,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Agents
 - Multi-Agent
 - Agent Infrastructure

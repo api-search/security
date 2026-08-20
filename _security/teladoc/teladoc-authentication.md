@@ -30,12 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/h
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Telehealth
 - Telemedicine
 - Virtual Care
 - Healthcare
 - Behavioral Health
-- Webhooks
-- API
+- Webhook
 ---

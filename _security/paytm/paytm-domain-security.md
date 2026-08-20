@@ -65,7 +65,7 @@ tags:
 - Payment Gateway
 - UPI
 - Payouts
-- Subscriptions
+- Subscription
 - Refunds
 - Settlement
 - QR

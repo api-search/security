@@ -38,6 +38,6 @@ summary_line: apiKey · 1 scheme
 tags:
 - Analytics
 - Financial
-- Financial Services
+- Financial-Services
 - Trading
 ---

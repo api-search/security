@@ -528,16 +528,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: derived\nsource: openapi/onerail-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/authentication/onerail-authentication.yml
 summary_line: apiKey/http/oauth2 · 5 schemes
 tags:
-- last-mile-delivery
-- delivery-orchestration
-- logistics
-- supply-chain
-- route-optimization
+- Last Mile Delivery
+- Delivery Orchestration
+- Logistics
+- Supply Chain
+- Route Optimization
 - courier-network
-- shipping
-- fleet-management
-- transportation
-- order-management
-- webhooks
-- final-mile
+- Shipping
+- Fleet Management
+- Transportation
+- Order Management
+- Webhook
+- Final Mile
 ---

@@ -31,7 +31,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Church Management
 - ChMS
-- Nonprofit
+- Non-Profit
 - Membership
 - Online Giving
 - Church Accounting

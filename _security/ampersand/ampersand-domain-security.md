@@ -151,10 +151,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ampersand/refs
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Developer Tools
-- Integrations
+- Integration
 - Platform
-- SaaS
-- OAuth
+- Software-as-a-Service
+- Authentication
 - Data Sync
-- Webhooks
+- Webhook
 ---

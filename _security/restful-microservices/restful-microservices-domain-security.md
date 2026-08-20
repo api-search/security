@@ -34,5 +34,5 @@ tags:
 - REST
 - Kubernetes
 - Service Mesh
-- Cloud Native
+- Cloud-Native
 ---

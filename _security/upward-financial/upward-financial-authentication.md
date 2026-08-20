@@ -151,7 +151,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upward-financi
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Company
-- FinTech
+- Fintech
 - Credit
 - Credit Building
 - Payments

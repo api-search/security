@@ -57,7 +57,7 @@ summary_line: http · 1 scheme
 tags:
 - Inference
 - Kubernetes
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Model Serving
 ---

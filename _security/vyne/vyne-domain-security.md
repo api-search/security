@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vyne/refs/head
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Payments
 - Open Banking
 - Account-to-Account
-- Pay-by-Bank
+- Pay by Bank
 - Fintech
 - Acquired
 - Defunct

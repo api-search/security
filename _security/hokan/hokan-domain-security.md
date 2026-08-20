@@ -30,10 +30,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hokan/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- InsurTech
+- Insurtech
 - Insurance
 - CRM
-- SaaS
+- Software-as-a-Service
 - Japan
 - Insurance Agency
 - Contract Management

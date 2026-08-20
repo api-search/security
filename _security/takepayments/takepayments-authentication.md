@@ -65,7 +65,7 @@ tags:
 - Card Payments
 - Card Machines
 - In-Person Payments
-- Ecommerce
+- E-Commerce
 - PSP
 - Acquiring
 ---

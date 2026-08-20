@@ -35,8 +35,8 @@ tags:
 - Logistics
 - Supply Chain
 - Freight
-- Workflow Automation
+- Workflow-Automation
 - Email
 - Document Processing
-- SaaS
+- Software-as-a-Service
 ---

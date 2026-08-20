@@ -101,6 +101,6 @@ tags:
 - Privacy
 - Chromium
 - Web3
-- AI
+- Artificial Intelligence
 - Advertising
 ---

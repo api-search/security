@@ -33,7 +33,7 @@ tags:
 - Branded Foods
 - CPG
 - Consumer Packaged Goods
-- Foodservice
+- Food Service
 - Fortune 500
 - Frozen Foods
 - Grocery

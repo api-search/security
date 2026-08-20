@@ -34,10 +34,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tri-pointe-gro
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Homebuilding
-- Real Estate
+- Real-Estate
 - Residential Construction
 - Mortgage
-- Title And Escrow
+- Title and Escrow
 - Insurance
 - Smart Home
 - Fortune 1000

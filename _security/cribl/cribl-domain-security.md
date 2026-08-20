@@ -248,7 +248,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Configuration
 - Data Lake
-- Data Pipelines
+- Data Pipeline
 - Data Routing
 - Edge Computing
 - Infrastructure as Code

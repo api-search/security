@@ -153,7 +153,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/h
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Agents
 - Multi-Agent
 - Agent Infrastructure

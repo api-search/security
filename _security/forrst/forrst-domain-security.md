@@ -32,7 +32,7 @@ tags:
 - Company
 - Community
 - Design
-- Developer
+- Developers
 - Feedback
 - Defunct
 - Acquired

@@ -35,6 +35,6 @@ tags:
 - Analytics
 - Business Intelligence
 - Data
-- SaaS
+- Software-as-a-Service
 - Acquired
 ---

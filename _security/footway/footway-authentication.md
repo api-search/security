@@ -54,7 +54,7 @@ summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company
 - Consumer
-- E-commerce
+- E-Commerce
 - Marketplace
 - Retail
 - Footwear

@@ -86,7 +86,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Company
 - Ticketing
-- Events
+- Event
 - Marketplace
 - Travel & Experiences
 - Entertainment

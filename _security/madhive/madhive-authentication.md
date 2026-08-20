@@ -476,5 +476,5 @@ tags:
 - Marketing
 - Audiences
 - Campaign Management
-- Model Context Protocol
+- MCP
 ---

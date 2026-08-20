@@ -31,12 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polars/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Apis
 - DataFrames
 - Data Processing
 - Query Engine
 - Rust
 - Python
 - Analytics
-- Open Source
+- Open-Source
 ---

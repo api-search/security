@@ -42,12 +42,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Location Intelligence
-- Real Estate
+- Real-Estate
 - Geospatial
 - Neighborhoods
 - Demographics
 - Points of Interest
-- Proptech
+- PropTech
 - Climate Risk
 - Location Scores
 ---

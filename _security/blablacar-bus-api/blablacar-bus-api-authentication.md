@@ -62,7 +62,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blablacar-bus-
 summary_line: apiKey · 1 scheme
 tags:
 - Booking
-- Buses
+- Bus
 - Coach
 - Europe
 - Mobility

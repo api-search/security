@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
 - Merchant Services
-- Financial Services
+- Financial-Services
 - Transaction Processing
 - Fortune 500
 ---

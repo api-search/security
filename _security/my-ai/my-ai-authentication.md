@@ -44,7 +44,6 @@ tags:
 - Loyalty
 - Web3
 - Blockchain
-- API
 - SDK
 - AI Agent
 - Payments

@@ -33,7 +33,7 @@ tags:
 - Asset Management
 - Capital Markets
 - Equities
-- Financial Services
+- Financial-Services
 - Fixed Income
 - Fortune 500
 - Investment Banking

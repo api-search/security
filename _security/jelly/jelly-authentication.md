@@ -32,11 +32,11 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Hospitality
-- Restaurants
+- Restaurant
 - Kitchen Management
 - Food Costing
 - Recipe Costing
 - Invoice Processing
 - GraphQL
-- SaaS
+- Software-as-a-Service
 ---

@@ -34,7 +34,7 @@ tags:
 - Investing
 - Stock Trading
 - Brokerage
-- FinTech
+- Fintech
 - Japan
 - MCP
 - AI Agents

@@ -34,7 +34,7 @@ tags:
 - Wine
 - Beverage
 - Consumer Products
-- Ecommerce
+- E-Commerce
 - Shopify
 - Agentic Commerce
 - Universal Commerce Protocol

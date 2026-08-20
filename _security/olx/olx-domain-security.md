@@ -51,8 +51,8 @@ tags:
 - Consumer
 - Marketplace
 - Classifieds
-- Ecommerce
+- E-Commerce
 - Automotive
-- Real Estate
+- Real-Estate
 - Partner API
 ---

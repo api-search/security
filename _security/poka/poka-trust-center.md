@@ -22,7 +22,7 @@ tags:
 - Frontline Operations
 - Industrial
 - Workforce Training
-- Integrations
-- SaaS
+- Integration
+- Software-as-a-Service
 trust_url: https://trust.poka.io/
 ---

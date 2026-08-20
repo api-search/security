@@ -68,7 +68,7 @@ summary_line: tenantIdentifier/http-basic/apiKey · 4 schemes
 tags:
 - Company
 - Marketing
-- Ecommerce
+- E-Commerce
 - Personalization
 - Zero-Party Data
 - Forms

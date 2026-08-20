@@ -33,7 +33,7 @@ tags:
 - Biotech
 - Drug Discovery
 - Proteins
-- Machine Learning
+- Machine-Learning
 - Protein Engineering
 - Intrinsically Disordered Proteins
 ---

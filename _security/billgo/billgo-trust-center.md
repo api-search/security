@@ -23,7 +23,7 @@ summary_line: SOC 2 Type II, SOC 1 Type I, PCI DSS Level 1 (via service provider
 tags:
 - Payments
 - Bill Pay
-- Financial Services
+- Financial-Services
 - Banking
 - ACH
 - Virtual Cards

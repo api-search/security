@@ -61,7 +61,7 @@ summary_line: oauth2/http · 2 schemes
 tags:
 - Company
 - Shopify
-- Ecommerce
+- E-Commerce
 - Photo Editing
 - Image Optimization
 - Image Processing
@@ -69,7 +69,7 @@ tags:
 - Background Removal
 - SEO
 - Automation
-- AI
-- Webhooks
+- Artificial Intelligence
+- Webhook
 - Digital Asset Management
 ---

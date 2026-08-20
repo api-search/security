@@ -101,11 +101,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lambda-l
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/authentication/lambda-labs-authentication.yml
 summary_line: http · 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Cloud
-- Clusters
+- Cluster
 - Compute
 - GPU
 - Inference
-- Machine Learning
+- Machine-Learning
 ---

@@ -52,7 +52,7 @@ tags:
 - Company
 - Churn Prevention
 - Customer Retention
-- Subscriptions
+- Subscription
 - Cancellation
-- SaaS
+- Software-as-a-Service
 ---

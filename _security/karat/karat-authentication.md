@@ -39,5 +39,4 @@ tags:
 - Talent Assessment
 - Engineering
 - GraphQL
-- API
 ---

@@ -789,14 +789,13 @@ summary_line: oauth2 · 2 schemes
 tags:
 - CRM
 - Sales
-- Customer Relationship Management
 - Marketing Automation
 - Lead Management
 - Customer Engagement
 - Sales Automation
 - Contact Management
 - Pipeline Management
-- SaaS
+- Software-as-a-Service
 - OpenAPI
-- OAuth
+- Authentication
 ---

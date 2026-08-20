@@ -28,14 +28,13 @@ tags:
 - Company
 - Cloud
 - Salesforce
-- RevOps
+- Revenue Operations
 - Metadata
 - Governance
 - AI Agents
-- Model Context Protocol
+- MCP
 - Automation
 - Documentation
-- API
 - REST API
 - OpenAPI
 - Enterprise Systems

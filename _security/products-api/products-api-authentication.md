@@ -37,5 +37,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/products-api/r
 summary_line: apiKey · 1 scheme
 tags:
 - Application Programming Interface
-- Products
+- Product
 ---

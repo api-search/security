@@ -61,10 +61,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runlayer/refs/
 summary_line: apiKey/oauth2/openIdConnect · 4 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Agents
 - MCP
-- Model Context Protocol
 - API Gateway
 - Security
 - Governance

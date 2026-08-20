@@ -35,7 +35,7 @@ tags:
 - Biotechnology
 - Drug Discovery
 - RNA
-- Machine Learning
+- Machine-Learning
 - Life Sciences
 - Artificial Intelligence
 ---

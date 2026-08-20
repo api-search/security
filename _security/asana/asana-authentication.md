@@ -383,8 +383,8 @@ tags:
 - Collaboration
 - Productivity
 - Project Management
-- Projects
+- Project
 - Task Management
-- Tasks
-- Workflow
+- Task
+- Workflows
 ---

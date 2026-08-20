@@ -37,5 +37,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Observability
-- Open Source
+- Open-Source
 ---

@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tanaza/refs/he
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- WiFi
+- Wi-Fi
 - Networking
 - Cloud Management
 - Access Points

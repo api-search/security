@@ -49,12 +49,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/decart/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Video
 - Video Generation
 - Video Editing
 - Image Editing
-- Real Time
+- Real-Time
 - Generative AI
 - World Models
 - Streaming

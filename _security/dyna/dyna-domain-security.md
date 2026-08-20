@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dyna/refs/head
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Robotics
 - Automation
 - Embodied AI

@@ -90,7 +90,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tratta/refs/he
 summary_line: http · 1 scheme
 tags:
 - Billing
-- Collections
+- Collection
 - Payments
 - Debt Collection
 - Fintech

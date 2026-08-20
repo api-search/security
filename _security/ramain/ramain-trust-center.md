@@ -25,7 +25,7 @@ tags:
 - Automation
 - Robotic Process Automation
 - Computer Use
-- Workflow Automation
+- Workflow-Automation
 - UI Automation
 trust_url: https://trust.ramain.ai/
 ---

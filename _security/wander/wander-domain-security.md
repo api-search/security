@@ -43,5 +43,5 @@ tags:
 - Vacation Rentals
 - Smart Homes
 - Concierge
-- AI
+- Artificial Intelligence
 ---

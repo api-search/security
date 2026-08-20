@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monell-chemica
 summary_line: TLSv1.3 · DMARC
 tags:
 - Chemosensory Science
-- Nonprofit
+- Non-Profit
 - Nutrition
 - Olfaction
 - Research Institute

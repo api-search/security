@@ -48,12 +48,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beatoven/refs/heads/main/security/beatoven-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
 - Artificial Intelligence
 - Music
 - Music Generation
 - Generative Audio
-- Text To Music
+- Text-to-Music
 - Text To SFX
 - Royalty-Free Music
 - Background Music

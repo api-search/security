@@ -46,7 +46,7 @@ tags:
 - Financial Inclusion
 - Grants
 - Social Impact
-- Nonprofit
+- Non-Profit
 - Housing
 - Government
 - Welfare Benefits

@@ -32,11 +32,11 @@ tags:
 - Life Insurance
 - Health Insurance
 - Digital Distribution
-- No Code
+- No-Code
 - Core Systems
 - MGA
-- Broker
-- Webhooks
+- Brokers
+- Webhook
 - Microsoft Azure
 - Embedded Insurance
 trust_url: https://app.trustero.com/trust/instanda

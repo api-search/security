@@ -25,8 +25,8 @@ tags:
 - Company
 - Applicative Saas
 - Document Automation
-- Financial Services
-- Microsoft 365
+- Financial-Services
+- Microsoft-365
 - PowerPoint
 - Excel
 - AI Assistants

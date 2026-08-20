@@ -35,7 +35,7 @@ tags:
 - Travel
 - Hospitality
 - Hotels
-- Experiences
+- Experience
 - Booking
 - Activities
 - Tours

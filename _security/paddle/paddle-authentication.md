@@ -115,7 +115,7 @@ summary_line: http · 1 scheme
 tags:
 - Billing
 - Payments
-- Subscriptions
+- Subscription
 - Merchant of Record
-- SaaS
+- Software-as-a-Service
 ---

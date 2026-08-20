@@ -53,9 +53,9 @@ tags:
 - Artificial Intelligence
 - Video
 - Video Generation
-- Machine Learning
+- Machine-Learning
 - Education
 - Media
-- Model Context Protocol
+- MCP
 - Content Generation
 ---

@@ -40,6 +40,6 @@ tags:
 - Classes
 - Marketplace
 - Registration
-- Webhooks
+- Webhook
 - Education
 ---

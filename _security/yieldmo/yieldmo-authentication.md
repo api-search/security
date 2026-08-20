@@ -88,7 +88,7 @@ tags:
 - Header Bidding
 - Contextual Targeting
 - Ad Formats
-- Supply-Side Platform
+- Supply Side Platform
 - SSP
 - Campaign Reporting
 - Attention Analytics

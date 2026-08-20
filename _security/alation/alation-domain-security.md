@@ -121,5 +121,5 @@ tags:
 - Data Quality
 - Business Glossary
 - Metadata Management
-- AI
+- Artificial Intelligence
 ---

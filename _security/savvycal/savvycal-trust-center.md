@@ -61,6 +61,6 @@ tags:
 - Availability
 - Booking
 - Meetings
-- Webhooks
+- Webhook
 trust_url: https://savvycal.com/security
 ---

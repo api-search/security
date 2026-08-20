@@ -22,7 +22,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Sales
 - Sales Engagement
 - Sales Dialer
@@ -31,7 +31,7 @@ tags:
 - Conversation Intelligence
 - Telephony
 - Revenue Operations
-- Webhooks
+- Webhook
 - Parallel Dialing
 - Sales Automation
 trust_url: https://trust.orum.com/

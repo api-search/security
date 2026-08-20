@@ -128,9 +128,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/leonardo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/authentication/leonardo-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
 - Artificial Intelligence
-- Image Generation
+- Image-Generation
 - Video Generation
 - Generative AI
 - Creative

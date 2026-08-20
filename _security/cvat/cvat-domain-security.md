@@ -84,9 +84,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cvat/refs/heads/main/security/cvat-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Computer Vision
+- Computer-Vision
 - Data Annotation
 - Labeling
 - Datasets
-- Open Source
+- Open-Source
 ---

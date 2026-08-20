@@ -30,15 +30,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tradebb/refs/h
 summary_line: TLSv1.3 · HSTS
 tags:
 - trading-journal
-- trade-analytics
-- fintech
+- Trade Analytics
+- Fintech
 - trading-tools
-- stocks
-- options
-- futures
-- forex
-- crypto
-- cfd
-- ai-assistant
+- Stocks
+- Options
+- Futures
+- Forex
+- Crypto
+- CFD
+- AI Assistant
 - llms-txt
 ---

@@ -60,5 +60,5 @@ tags:
 - Calendar
 - Booking
 - HIPAA
-- Webhooks
+- Webhook
 ---

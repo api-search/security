@@ -65,7 +65,7 @@ tags:
 - Private Markets
 - Secondary Markets
 - Market Data
-- Financial Services
+- Financial-Services
 - Valuations
 - Pre-IPO Equity
 - Capital Markets

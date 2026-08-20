@@ -54,7 +54,7 @@ tags:
 - Hosting
 - CDN
 - DevOps
-- Deployments
+- Deployment
 - Sites
 - Environments
 ---

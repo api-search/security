@@ -263,7 +263,6 @@ tags:
 - Authorization
 - Identity
 - CIAM
-- OAuth
 - OpenID Connect
 - Single Sign-On
 - Multi-Factor Authentication

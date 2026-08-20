@@ -42,8 +42,8 @@ tags:
 - Personal Assistant
 - Automation
 - Managed Hosting
-- Integrations
-- Webhooks
+- Integration
+- Webhook
 - Command Line
 - Messaging
 - Y Combinator

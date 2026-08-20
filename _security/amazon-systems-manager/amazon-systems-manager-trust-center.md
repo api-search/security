@@ -54,6 +54,5 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Automation
 - Management
-- Operations
 trust_url: https://aws.amazon.com/compliance/
 ---

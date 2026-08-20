@@ -42,6 +42,6 @@ tags:
 - Procurement
 - Treasury
 - ERP
-- SaaS
+- Software-as-a-Service
 - Automation
 ---

@@ -32,8 +32,8 @@ tags:
 - Company
 - Mortgage
 - Fintech
-- Financial Services
+- Financial-Services
 - United Kingdom
-- Broker
+- Brokers
 - Acquired
 ---

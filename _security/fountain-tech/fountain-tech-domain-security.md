@@ -57,7 +57,7 @@ tags:
 - Scheduling
 - Background Checks
 - I-9 Verification
-- Webhooks
+- Webhook
 - HRIS
 - Talent Acquisition
 - AI Agents

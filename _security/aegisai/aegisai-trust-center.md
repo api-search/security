@@ -19,13 +19,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aegisai/refs/h
 summary_line: SOC 2 Type II
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Email Security
 - Cybersecurity
 - Anti-Phishing
 - Threat Detection
 - Agentic AI
-- Microsoft 365
+- Microsoft-365
 - Google Workspace
 - Email
 trust_url: https://trust.aegisai.ai/

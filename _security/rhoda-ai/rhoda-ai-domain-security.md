@@ -34,5 +34,5 @@ tags:
 - Artificial Intelligence
 - Foundation Models
 - Industrial Automation
-- Machine Learning
+- Machine-Learning
 ---

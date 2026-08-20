@@ -37,7 +37,7 @@ tags:
 - E-Commerce
 - Merchant of Record
 - Payments
-- SaaS
+- Software-as-a-Service
 - Subscription Billing
 - Tax Compliance
 ---

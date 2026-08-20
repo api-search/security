@@ -33,10 +33,10 @@ tags:
 - Company
 - Marketplace
 - E-Commerce
-- Merchant Of Record
+- Merchant of Record
 - Multi-Marketplace
 - Cross-Border Commerce
 - Seller Enablement
 - Payments
-- AI Enterprise Software
+- Ai Enterprise Software
 ---

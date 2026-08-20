@@ -63,7 +63,7 @@ tags:
 - Agent Commerce
 - Artificial Intelligence
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Holding Company
 - Shopping
 ---

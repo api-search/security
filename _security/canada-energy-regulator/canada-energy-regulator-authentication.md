@@ -27,7 +27,7 @@ summary_line: none · 0 schemes
 tags:
 - Energy
 - Canada
-- Regulation
+- Regulations
 - Government
 - Pipelines
 - Electricity

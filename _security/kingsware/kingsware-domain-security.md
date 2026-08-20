@@ -38,5 +38,5 @@ tags:
 - Digital Employees
 - Large Language Models
 - Enterprise Software
-- Financial Services
+- Financial-Services
 ---

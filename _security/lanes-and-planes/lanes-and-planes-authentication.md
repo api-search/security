@@ -42,7 +42,7 @@ tags:
 - Accounting
 - ERP Integration
 - HRIS
-- SaaS
+- Software-as-a-Service
 - Germany
 - Europe
 ---

@@ -121,7 +121,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fourthwall/ref
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Creator Commerce
-- Ecommerce
+- E-Commerce
 - Merch
 - Storefront
 - Memberships

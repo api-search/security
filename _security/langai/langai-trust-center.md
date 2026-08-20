@@ -35,10 +35,10 @@ summary_line: SOC 2 Type II, HIPAA, GDPR
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - Conversation Intelligence
-- Customer Support
+- Customer-Support
 - Text Classification
 - Analytics
 - Customer Experience

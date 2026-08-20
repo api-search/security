@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/equator-princi
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Environmental Social Governance
-- Financial Services
+- Financial-Services
 - Risk Management
 - Sustainability
 ---

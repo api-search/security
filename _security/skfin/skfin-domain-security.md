@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skfin/refs/hea
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Lending
 - NBFC
 - Vehicle Finance

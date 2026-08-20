@@ -70,11 +70,10 @@ tags:
 - API Tooling
 - Developer Experience
 - MCP
-- Model Context Protocol
 - Documentation
 - Code Generation
 - Terraform Provider
 - API Reference
 - DevTools
-- API First
+- API-First
 ---

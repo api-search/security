@@ -32,8 +32,8 @@ tags:
 - Company
 - Beauty
 - Cosmetics
-- Ecommerce
-- Direct-to-Consumer
+- E-Commerce
+- Direct to Consumer
 - Custom Manufacturing
 - Nails
 ---

@@ -33,7 +33,7 @@ tags:
 - Telemedicine
 - Appointment Booking
 - Marketplace
-- SaaS
+- Software-as-a-Service
 - Practice Management
 - Electronic Health Records
 - Brazil

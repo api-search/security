@@ -49,5 +49,4 @@ tags:
 - Fintech
 - Investments
 - Open Banking
-- APIs
 ---

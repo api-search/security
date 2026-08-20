@@ -130,6 +130,6 @@ tags:
 - SIEM
 - Identity Threat Detection
 - MSP
-- Webhooks
+- Webhook
 trust_url: https://trust.huntress.com/
 ---

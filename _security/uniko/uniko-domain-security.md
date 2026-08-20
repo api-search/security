@@ -33,8 +33,8 @@ tags:
 - Company
 - Gift Registry
 - Weddings
-- Events
-- Ecommerce
+- Event
+- E-Commerce
 - Payments
 - Mexico
 ---

@@ -109,10 +109,9 @@ tags:
 - Company
 - Sales Tech
 - CPQ
-- Configure Price Quote
 - Product Configuration
 - Bill of Materials
-- Ecommerce
+- E-Commerce
 - Salesforce
 - API-First
 ---

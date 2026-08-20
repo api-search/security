@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agricultural-s
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Agriculture
-- Federal Government
+- Federal-Government
 - Statistics
 - Open Data
 - Geospatial

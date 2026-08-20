@@ -27,7 +27,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/security/later-trust-center.yml
 summary_line: SOC 2 Type 2, SOC 2 Type 1, ISO/IEC 27001
 tags:
-- Social Media
+- Social-Media
 - Scheduling
 - Instagram
 - TikTok

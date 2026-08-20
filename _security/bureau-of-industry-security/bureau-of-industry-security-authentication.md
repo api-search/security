@@ -39,7 +39,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Compliance
 - Export Controls
-- Federal Government
+- Federal-Government
 - Industries
 - National Security
 - Screening Lists

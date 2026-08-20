@@ -109,8 +109,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://docs.ko
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/authentication/konbiniapi-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
-- API
-- Social Media
+- Social-Media
 - Instagram
 - TikTok
 - X
@@ -124,7 +123,6 @@ tags:
 - Social Listening
 - Creator Tools
 - MCP
-- Model Context Protocol
 - Agent Skills
 - Agents
 ---

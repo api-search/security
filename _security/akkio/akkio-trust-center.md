@@ -39,9 +39,9 @@ summary_line: SOC 2 Type 2, HIPAA
 tags:
 - Company
 - Ai Apps
-- Machine Learning
+- Machine-Learning
 - Predictive Analytics
-- No Code
+- No-Code
 - Data Science
 - Marketing
 - Media

@@ -36,6 +36,6 @@ tags:
 - Dementia
 - Telehealth
 - Digital Therapeutics
-- AI
+- Artificial Intelligence
 - Medicare
 ---

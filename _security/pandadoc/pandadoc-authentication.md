@@ -135,7 +135,7 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Document Automation
 - E-Signature
-- Document Management
+- Document-Management
 - Document Generation
-- Webhooks
+- Webhook
 ---

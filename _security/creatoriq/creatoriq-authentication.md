@@ -161,17 +161,17 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nsource: https://apidocs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/authentication/creatoriq-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- influencer-marketing
-- creator-economy
-- social-media
-- marketing
-- campaign-management
+- Influencer Marketing
+- Creator Economy
+- Social-Media
+- Marketing
+- Campaign Management
 - creator-crm
-- social-analytics
-- brand-safety
-- affiliate-marketing
-- creator-payments
-- ecommerce
-- reporting
-- webhooks
+- Social Analytics
+- Brand Safety
+- Affiliate Marketing
+- Creator Payments
+- E-Commerce
+- Reporting
+- Webhook
 ---

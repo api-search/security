@@ -48,9 +48,9 @@ tags:
 - Company
 - Sales Tech
 - Sales Engagement
-- Financial Services
+- Financial-Services
 - Insurance
 - Distribution Management
 - CRM
-- Collections
+- Collection
 ---

@@ -785,6 +785,5 @@ tags:
 - Authorization
 - Identity
 - Identity Provider
-- OAuth2
 - OIDC
 ---

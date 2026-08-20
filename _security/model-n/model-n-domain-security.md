@@ -33,8 +33,8 @@ tags:
 - Company
 - Healthcare
 - Life Sciences
-- Pharmaceutical
-- Medtech
+- Pharmaceuticals
+- MedTech
 - Revenue Management
 - Government Pricing
 - Compliance

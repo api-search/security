@@ -33,6 +33,6 @@ tags:
 - Finance
 - MCP
 - Export API
-- SaaS
+- Software-as-a-Service
 trust_url: https://runway.cfo.ai/security
 ---

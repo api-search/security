@@ -31,9 +31,9 @@ tags:
 - Accounting
 - Lease Accounting
 - Investment Management
-- Nonprofit
+- Non-Profit
 - Higher Education
 - Healthcare
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.debtbook.com/
 ---

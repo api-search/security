@@ -37,7 +37,7 @@ tags:
 - Instruction Set Architecture
 - Linux Foundation
 - Open Hardware
-- Open Source
+- Open-Source
 - Processor
 - RISC-V
 - Simulator

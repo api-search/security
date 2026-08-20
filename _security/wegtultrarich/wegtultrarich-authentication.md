@@ -51,13 +51,12 @@ summary_line: none · 0 schemes
 tags:
 - wealth inequality
 - economic inequality
-- finance
-- economics
-- education
-- journalism
-- open data
-- comparison
-- mcp
-- model context protocol
-- agents
+- Finance
+- Economics
+- Education
+- Journalism
+- Open Data
+- Comparison
+- MCP
+- Agents
 ---

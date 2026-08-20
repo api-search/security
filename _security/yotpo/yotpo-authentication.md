@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/yotpo-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/authentication/yotpo-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
-- eCommerce
+- E-Commerce
 - Reviews
 - Loyalty
 - Retention Marketing

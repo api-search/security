@@ -31,7 +31,7 @@ tags:
 - Blockchain
 - Zero Knowledge
 - Cryptocurrency
-- Wallet
+- Wallets
 - Privacy
 - Web3
 - Developer Tools

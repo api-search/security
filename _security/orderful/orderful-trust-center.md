@@ -78,7 +78,7 @@ tags:
 - B2B
 - Logistics
 - Retail
-- Transactions
+- Transaction
 - Integration
 trust_url: https://trust.orderful.com/
 ---

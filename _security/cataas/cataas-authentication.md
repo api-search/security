@@ -56,7 +56,7 @@ summary_line: http · 1 scheme
 tags:
 - Animals
 - Cats
-- Images
-- Open Source
+- Image
+- Open-Source
 - Public APIs
 ---

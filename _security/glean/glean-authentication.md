@@ -163,7 +163,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glean/refs/hea
 summary_line: http · 1 scheme
 tags:
 - Agents
-- AI
+- Artificial Intelligence
 - Answers
 - Chat
 - Connectors

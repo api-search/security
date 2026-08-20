@@ -29,8 +29,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pebblely/refs/heads/main/security/pebblely-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - AI Photography
-- Image Generation
+- Image-Generation
 - Product Photos
 ---

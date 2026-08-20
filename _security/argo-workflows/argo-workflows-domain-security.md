@@ -106,7 +106,7 @@ tags:
 - Containers
 - Data Processing
 - Kubernetes
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 - Workflow Engine
 ---

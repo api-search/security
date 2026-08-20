@@ -57,13 +57,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bazel-build/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Build Systems
-- Build Tool
+- Build Tools
 - Bzlmod
 - CI/CD
 - Developer Tools
 - Hermetic Builds
 - Monorepo
-- Open Source
+- Open-Source
 - Remote Execution
 - Starlark
 ---

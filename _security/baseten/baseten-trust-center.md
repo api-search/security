@@ -34,12 +34,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/baseten/refs/heads/main/security/baseten-trust-center.yml
 summary_line: SOC 2, PCI DSS, HIPAA, GDPR, CSA STAR
 tags:
-- AI
+- Artificial Intelligence
 - ML
 - Inference
 - Deployment
 - MLOps
-- OpenAI Compatible
+- OpenAI-Compatible
 - Anthropic Compatible
 - Truss
 trust_url: https://trust.baseten.co/

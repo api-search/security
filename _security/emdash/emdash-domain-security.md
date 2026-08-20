@@ -34,7 +34,7 @@ tags:
 - Developer Tools
 - AI Coding Agents
 - Agentic Development Environment
-- Open Source
+- Open-Source
 - Desktop Application
 - Developer Productivity
 - Git Worktrees

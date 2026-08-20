@@ -32,7 +32,7 @@ tags:
 - Company
 - Consumer
 - Cryptocurrency
-- Wallet
+- Wallets
 - Web3
 - Blockchain
 - Security

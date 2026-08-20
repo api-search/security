@@ -38,5 +38,5 @@ tags:
 - Reviews
 - Consumer
 - Entertainment
-- Affiliate
+- Affiliates
 ---

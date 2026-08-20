@@ -39,11 +39,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meal-ticket/re
 summary_line: openIdConnect · 1 scheme
 tags:
 - Company
-- Foodservice
+- Food Service
 - Foodservice Distribution
-- Restaurants
+- Restaurant
 - Rebate Management
 - Profitability Management
 - Supply Chain
-- SaaS
+- Software-as-a-Service
 ---

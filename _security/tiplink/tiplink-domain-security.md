@@ -33,7 +33,7 @@ tags:
 - Company
 - Crypto Web3
 - Solana
-- Wallet
+- Wallets
 - SDK
 - Payments
 - Web3

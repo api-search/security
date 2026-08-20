@@ -34,7 +34,7 @@ tags:
 - Consumer
 - Daily Deals
 - Group Buying
-- E-commerce
+- E-Commerce
 - Gift Cards
 - Retail
 - Spain

@@ -35,6 +35,6 @@ tags:
 - Documentation
 - MDX
 - Next.js
-- Open Source
+- Open-Source
 - Static Site Generator
 ---

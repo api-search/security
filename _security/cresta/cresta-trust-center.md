@@ -25,7 +25,6 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cresta/refs/heads/main/security/cresta-trust-center.yml
 summary_line: ISO/IEC 42001, SOC 2 Type II, ISO 27001, PCI DSS, HIPAA, GDPR, TISAX, CCPA
 tags:
-- AI
 - Artificial Intelligence
 - Contact Center
 - Contact Center AI

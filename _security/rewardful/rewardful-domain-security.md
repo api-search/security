@@ -49,14 +49,14 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Affiliate Tracking
 - Referral Programs
-- SaaS
+- Software-as-a-Service
 - Stripe
 - Commissions
 - Payouts
 - Affiliate Marketing
 - Partner Programs
 - Attribution
-- Webhooks
+- Webhook
 - Paddle
 - Marketing
 ---

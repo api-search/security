@@ -49,10 +49,10 @@ tags:
 - Company
 - Enterprise
 - Retail
-- Computer Vision
+- Computer-Vision
 - Image Recognition
 - CPG
 - Retail Execution
 - Merchandising
-- SaaS
+- Software-as-a-Service
 ---

@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axiom-controll
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics
-- Cloud Native
+- Cloud-Native
 - Logging
 - Monitoring
 - Observability

@@ -435,6 +435,6 @@ tags:
 - AML
 - Sanctions Screening
 - Identity Verification
-- Financial Services
+- Financial-Services
 - Artificial Intelligence
 ---

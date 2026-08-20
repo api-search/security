@@ -53,11 +53,11 @@ tags:
 - Networking
 - Network Security
 - Container Security
-- Cloud Native
+- Cloud-Native
 - Observability
 - Microsegmentation
 - Zero Trust
 - eBPF
-- Open Source
+- Open-Source
 trust_url: https://www.tigera.io/tigera-products/calico-cloud-trust-center/
 ---

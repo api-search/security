@@ -32,11 +32,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Data Center
+- Data-Center
 - Observability
 - Infrastructure
 - Monitoring
-- Workflow Automation
+- Workflow-Automation
 - DCIM
 - Telemetry
 - Mission-Critical Infrastructure

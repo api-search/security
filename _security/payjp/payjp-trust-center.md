@@ -104,10 +104,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payjp/refs/hea
 summary_line: PCI DSS
 tags:
 - Payments
-- FinTech
+- Fintech
 - Japan
 - Credit Cards
-- Subscriptions
+- Subscription
 - Tokenization
 trust_url: https://pay.jp/
 ---

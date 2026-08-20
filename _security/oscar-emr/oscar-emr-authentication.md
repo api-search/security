@@ -46,10 +46,10 @@ tags:
 - EHR
 - EMR
 - Primary Care
-- Open Source
+- Open-Source
 - FHIR
 - HL7
 - Interoperability
 - SMART on FHIR
-- OAuth
+- Authentication
 ---

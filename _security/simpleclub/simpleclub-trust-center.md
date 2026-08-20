@@ -26,7 +26,7 @@ tags:
 - Learning Platform
 - Vocational Training
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Germany
 trust_url: https://trust.simpleclub.com/
 ---

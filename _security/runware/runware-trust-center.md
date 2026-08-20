@@ -21,9 +21,9 @@ summary_line: ISO 27001, SOC 2, GDPR
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Inference
-- Image Generation
+- Image-Generation
 - Video Generation
 - Audio Generation
 - Text Generation

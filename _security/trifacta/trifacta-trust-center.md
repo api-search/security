@@ -30,7 +30,7 @@ tags:
 - Data Engineering
 - ETL
 - Analytics
-- Machine Learning
+- Machine-Learning
 - Data Quality
 trust_url: https://trust.alteryx.com/
 ---

@@ -33,9 +33,9 @@ tags:
 - Company
 - Chatbots
 - Conversational AI
-- Customer Support
+- Customer-Support
 - CX Automation
 - Messaging
-- Webhooks
+- Webhook
 - Developer Platform
 ---

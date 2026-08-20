@@ -31,6 +31,5 @@ tags:
 - SD-WAN
 - Zero Trust
 - GraphQL
-- API
 trust_url: https://security.catonetworks.com/
 ---

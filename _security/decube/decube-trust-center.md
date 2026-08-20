@@ -29,6 +29,6 @@ tags:
 - Metadata Management
 - Data Trust
 - Data Products
-- Model Context Protocol
+- MCP
 trust_url: https://www.decube.io/security
 ---

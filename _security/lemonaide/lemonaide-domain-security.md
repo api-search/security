@@ -35,7 +35,7 @@ tags:
 - Insurance
 - Insurtech
 - Dealer Management
-- SaaS
+- Software-as-a-Service
 - Southeast Asia
 - Thailand
 - Escrow

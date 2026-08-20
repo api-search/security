@@ -352,13 +352,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/validere/refs/
 summary_line: SOC 2, ISO 27001, ISO 27018, GDPR
 tags:
 - Company
-- Applications
+- Application
 - Energy
 - Emissions
 - Methane
-- Oil And Gas
+- Oil and Gas
 - Environmental Data
-- Measurement
+- Measurements
 - Carbon Intensity
 - EHS
 trust_url: https://www.validere.com/security

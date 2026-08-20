@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/hea
 summary_line: TLSv1.3
 tags:
 - Alibaba
-- Cloud Native
+- Cloud-Native
 - Configuration Management
 - DNS
 - Java

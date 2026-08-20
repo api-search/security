@@ -87,7 +87,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Agriculture
 - Linux Foundation
-- Open Source
+- Open-Source
 - Geospatial
 - Precision Agriculture
 - Linked Data

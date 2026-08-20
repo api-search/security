@@ -34,10 +34,10 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - Banking
-- Financial Services
+- Financial-Services
 - Open Banking
 - Payments
-- Collections
+- Collection
 - Trade Finance
 - Corporate Banking
 - India

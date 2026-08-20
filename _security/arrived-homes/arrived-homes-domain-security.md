@@ -31,8 +31,8 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Fintech
-- Proptech
-- Real Estate
+- PropTech
+- Real-Estate
 - Real Estate Investing
 - Fractional Ownership
 - Passive Income

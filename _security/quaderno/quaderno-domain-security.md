@@ -146,5 +146,5 @@ tags:
 - VAT
 - Invoicing
 - Billing
-- FinTech
+- Fintech
 ---

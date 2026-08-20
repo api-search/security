@@ -163,7 +163,7 @@ tags:
 - Membership
 - Customer Engagement
 - Marketing
-- Restaurants
-- Point of Sale
-- Webhooks
+- Restaurant
+- Point-of-Sale
+- Webhook
 ---

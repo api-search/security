@@ -33,7 +33,7 @@ tags:
 - Company
 - Enterprise
 - Facial Recognition
-- Computer Vision
+- Computer-Vision
 - Video Analytics
 - Physical Security
 - Access Control

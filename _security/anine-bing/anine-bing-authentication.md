@@ -50,7 +50,7 @@ tags:
 - Retail
 - Fashion
 - Apparel
-- Ecommerce
+- E-Commerce
 - Shopify
 - Agent Commerce
 - MCP

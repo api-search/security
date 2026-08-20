@@ -32,11 +32,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Shopping
-- Ecommerce
+- E-Commerce
 - Retail
 - Commerce
 - Agent Commerce
 - MCP
 - Shopify
-- AI
+- Artificial Intelligence
 ---

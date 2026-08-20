@@ -31,6 +31,6 @@ tags:
 - Record-to-Report
 - Compliance
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 trust_url: https://floqast.com/trust-and-security
 ---

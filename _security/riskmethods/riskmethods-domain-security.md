@@ -36,5 +36,5 @@ tags:
 - Risk Management
 - Procurement
 - Supplier Intelligence
-- SaaS
+- Software-as-a-Service
 ---

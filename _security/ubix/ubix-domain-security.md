@@ -34,7 +34,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Analytics
-- Machine Learning
+- Machine-Learning
 - Data Integration
 - No-Code
 - Enterprise

@@ -129,11 +129,11 @@ tags:
 - Company
 - Infrastructure Saas
 - Network Automation
-- Source Of Truth
+- Source of Truth
 - Data Management
 - GraphQL
 - DevOps
 - Configuration Management
 - AIOps
-- Open Source
+- Open-Source
 ---

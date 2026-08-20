@@ -67,10 +67,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Database
 - Enterprise
-- Json
+- JSON
 - Machine-Learning
-- Nosql
+- NoSQL
 - Oracle
-- Rest
-- Sql
+- REST
+- SQL
 ---

@@ -52,5 +52,4 @@ tags:
 - Retail
 - Hospitality
 - Audio
-- API
 ---

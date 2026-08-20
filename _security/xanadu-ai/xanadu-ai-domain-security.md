@@ -53,7 +53,7 @@ tags:
 - Quantum Chemistry
 - Differentiable Programming
 - PennyLane
-- Open Source
+- Open-Source
 - Compilers
 - Simulators
 - Continuous Variable

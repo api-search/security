@@ -36,7 +36,7 @@ tags:
 - Payment Processing
 - Acquiring
 - Merchant Services
-- Point of Sale
+- Point-of-Sale
 - In-Person Payments
 - Tap to Pay
 - SME

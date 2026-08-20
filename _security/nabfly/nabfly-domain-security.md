@@ -36,11 +36,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nabfly/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Retail
 - Subscription
 - Consumer
-- Direct-to-Consumer
+- Direct to Consumer
 - Menswear
 - Lifestyle
 ---

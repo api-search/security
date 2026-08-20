@@ -50,7 +50,7 @@ summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company
 - Consumer Goods
-- E-commerce
+- E-Commerce
 - Retail
 - Baby Care
 - Personal Care

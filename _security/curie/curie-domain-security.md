@@ -63,7 +63,7 @@ tags:
 - E-Commerce
 - Shopify
 - Artificial Intelligence
-- Model Context Protocol
+- MCP
 - Agentic Commerce
 - Product Discovery
 - 3D

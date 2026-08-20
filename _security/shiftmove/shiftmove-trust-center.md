@@ -87,6 +87,6 @@ tags:
 - Telematics
 - Vehicles
 - Fleet API
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.shiftmove.com/legal/legal-overview
 ---

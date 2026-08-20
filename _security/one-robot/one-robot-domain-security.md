@@ -33,7 +33,7 @@ tags:
 - Robotics
 - Simulation
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - World Models
 - Y Combinator
 ---

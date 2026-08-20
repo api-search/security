@@ -37,5 +37,5 @@ tags:
 - Medical Billing
 - Claims Processing
 - Health Tech
-- SaaS
+- Software-as-a-Service
 ---

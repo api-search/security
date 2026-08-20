@@ -58,7 +58,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Company
-- Communication
+- Communications
 - Customer Service
 - Shared Inbox
 - Email

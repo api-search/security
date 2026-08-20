@@ -42,7 +42,7 @@ tags:
 - Cryptocurrency
 - Stocks
 - Sentiment Analysis
-- Social Media
+- Social-Media
 - Market Data
 - Analytics
 - AI Agents

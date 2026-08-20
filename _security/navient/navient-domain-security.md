@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/navient/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Student Loans
-- Financial Services
+- Financial-Services
 - Loan Servicing
 - Fortune 500
 ---

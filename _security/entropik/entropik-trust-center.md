@@ -29,6 +29,6 @@ tags:
 - Market Research
 - Insights Platform
 - Eye Tracking
-- SaaS
+- Software-as-a-Service
 trust_url: https://trustcenter.entropik.io/
 ---

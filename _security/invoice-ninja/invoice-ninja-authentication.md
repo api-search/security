@@ -97,7 +97,7 @@ tags:
 - Billing
 - Payments
 - Accounting
-- Open Source
+- Open-Source
 - Freelancers
 - SMB
 ---

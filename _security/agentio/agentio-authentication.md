@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentio/refs/h
 summary_line: oauth2 · 1 scheme
 tags:
 - Company
-- Adtech
+- AdTech
 - Advertising
 - Creator Economy
 - Influencer Marketing
@@ -68,7 +68,6 @@ tags:
 - Artificial Intelligence
 - YouTube
 - MCP
-- Model Context Protocol
 - Agents
 - Analytics
 ---

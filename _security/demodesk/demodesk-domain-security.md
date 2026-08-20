@@ -51,11 +51,11 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Sales
-- AI
+- Artificial Intelligence
 - Conversation Intelligence
 - Video Conferencing
 - CRM
 - Transcription
-- Webhooks
+- Webhook
 - MCP
 ---

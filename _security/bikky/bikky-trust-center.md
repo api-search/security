@@ -22,7 +22,7 @@ tags:
 - Restaurant
 - Customer Data Platform
 - Guest Analytics
-- Integrations
+- Integration
 - Marketing
 - Loyalty
 trust_url: https://trust.bikky.com/

@@ -59,6 +59,6 @@ tags:
 - Social
 - Database
 - GraphQL
-- OAuth2
+- Authentication
 - Public APIs
 ---

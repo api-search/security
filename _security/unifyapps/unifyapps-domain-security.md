@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unifyapps/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Agentic AI
 - Integration Platform
 - iPaaS
 - Automation
-- No Code
+- No-Code
 - Enterprise
 - Data Replication
 - MCP

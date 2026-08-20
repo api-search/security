@@ -66,6 +66,6 @@ tags:
 - Voice AI
 - Transcription
 - Diarization
-- Machine Learning
+- Machine-Learning
 - Developers
 ---

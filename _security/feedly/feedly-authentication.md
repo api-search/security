@@ -60,20 +60,20 @@ source_yaml: "generated: '2026-08-12'\nmethod: derived\nsource: openapi/feedly-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/authentication/feedly-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- threat-intelligence
-- cybersecurity
+- Threat Intelligence
+- Cybersecurity
 - cyber-threat-intelligence
-- content-aggregation
-- rss
-- news
-- vulnerability-management
-- indicators-of-compromise
-- malware
+- Content Aggregation
+- RSS
+- News
+- Vulnerability Management
+- Indicators of Compromise
+- Malware
 - threat-actors
 - mitre-attack
-- security-automation
-- artificial-intelligence
-- mcp
+- Security Automation
+- Artificial Intelligence
+- MCP
 - agent-native
-- webhooks
+- Webhook
 ---

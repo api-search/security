@@ -21,11 +21,11 @@ summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
 - Quality Assurance
-- Customer Support
+- Customer-Support
 - Customer Service
 - Contact Center
 - Performance Management
-- AI
+- Artificial Intelligence
 - Zendesk
 - Salesforce
 trust_url: https://trust.kaizo.com

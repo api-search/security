@@ -69,7 +69,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yutori/refs/he
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - Web Automation
 - Browser Automation

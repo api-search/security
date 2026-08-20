@@ -94,6 +94,6 @@ tags:
 - Banking
 - Digital Assets
 - Stablecoins
-- Financial Services
+- Financial-Services
 - Fintech
 ---

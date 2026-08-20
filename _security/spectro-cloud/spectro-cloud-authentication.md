@@ -294,7 +294,7 @@ tags:
 - Company
 - Infrastructure
 - Kubernetes
-- Cloud Native
+- Cloud-Native
 - Cluster Management
 - Edge Computing
 - Multi-Cloud

@@ -227,21 +227,21 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: https://www.cyw
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/security/cyware-trust-center.yml
 summary_line: SOC 2 Type 2, ISO/IEC 27001:2022, VPAT / Section 508, Privacy Shield
 tags:
-- threat-intelligence
+- Threat Intelligence
 - cyber-threat-intelligence
-- cybersecurity
-- security-operations
-- threat-intelligence-platform
-- stix
-- taxii
+- Cybersecurity
+- Security Operations
+- Threat Intelligence Platform
+- STIX
+- TAXII
 - mitre-attack
-- soar
-- security-orchestration
-- incident-response
+- SOAR
+- Security Orchestration
+- Incident Response
 - threat-intelligence-sharing
 - isac
-- indicators-of-compromise
-- mcp
-- agentic-ai
+- Indicators of Compromise
+- MCP
+- Agentic AI
 trust_url: https://www.cyware.com/compliance
 ---

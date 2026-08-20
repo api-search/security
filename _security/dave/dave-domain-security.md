@@ -39,7 +39,7 @@ tags:
 - Neobank
 - Personal Finance
 - Cash Advance
-- Financial Services
+- Financial-Services
 - Mobile Banking
 - United States
 - Open Finance

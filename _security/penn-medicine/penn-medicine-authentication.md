@@ -65,7 +65,7 @@ tags:
 - Hospital
 - Academic Medical Center
 - FHIR
-- SMART On FHIR
+- SMART on FHIR
 - Patient Access
 - Provider Directory
 - CMS Interoperability

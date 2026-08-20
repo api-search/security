@@ -88,7 +88,7 @@ tags:
 - Analytics
 - Marketing
 - Link Management
-- Webhooks
+- Webhook
 - Attribution
 - Agents
 - MCP

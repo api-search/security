@@ -103,10 +103,10 @@ tags:
 - Mobile
 - Commerce
 - Shopify
-- Ecommerce
+- E-Commerce
 - Mobile Apps
 - Push Notifications
 - Analytics
-- Webhooks
+- Webhook
 - Developer Tools
 ---

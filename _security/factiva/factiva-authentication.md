@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/factiva
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/authentication/factiva-authentication.yml
 summary_line: apiKey/http/oauth2 · 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Business Intelligence
 - Content Aggregation
 - Enterprise Data

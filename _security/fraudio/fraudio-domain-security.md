@@ -40,7 +40,7 @@ tags:
 - Payment Service Providers
 - Card Issuers
 - Banking
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Risk Scoring
 - Netherlands

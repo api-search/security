@@ -43,6 +43,6 @@ tags:
 - Istio
 - Kubernetes
 - Multi-Cluster
-- Open Source
+- Open-Source
 - Service Mesh
 ---

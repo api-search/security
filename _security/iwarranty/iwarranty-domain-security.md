@@ -36,7 +36,7 @@ tags:
 - Warranty
 - Retail
 - Manufacturing
-- SaaS
+- Software-as-a-Service
 - Sustainability
 - Fraud Detection
 ---

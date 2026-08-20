@@ -49,17 +49,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di
 summary_line: apiKey/http · 2 schemes
 tags:
 - digital notarization
-- timestamping
+- Timestamping
 - proof-of-existence
 - content authenticity
-- provenance
-- copyright
+- Provenance
+- Copyright
 - IP protection
-- blockchain
+- Blockchain
 - Bitcoin
 - OpenTimestamps
-- security
-- document
-- e-signature
+- Security
+- Document
+- E-Signature
 - MCP
 ---

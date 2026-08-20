@@ -35,7 +35,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toll-brothers/refs/heads/main/security/toll-brothers-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Real Estate
+- Real-Estate
 - Homebuilding
 - Luxury Homes
 - Construction

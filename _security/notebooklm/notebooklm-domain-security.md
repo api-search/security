@@ -30,9 +30,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notebooklm/refs/heads/main/security/notebooklm-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Research
-- Knowledge Management
+- Knowledge-Management
 - Document Analysis
 - Generative AI
 - Google

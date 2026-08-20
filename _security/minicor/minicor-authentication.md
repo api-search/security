@@ -62,7 +62,7 @@ tags:
 - Desktop Automation
 - RPA
 - Computer Use Agents
-- Workflow Automation
+- Workflow-Automation
 - Healthcare
 - Legacy Systems
 - AI Agents

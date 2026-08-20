@@ -55,7 +55,7 @@ tags:
 - Marketing
 - Automation
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Campaign Management
 - Search Advertising
 - Yelp Ads

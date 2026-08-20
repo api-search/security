@@ -38,7 +38,7 @@ tags:
 - BNPL
 - Investing
 - Payments
-- Financial Services
+- Financial-Services
 - Mobile Banking
 - Central Asia
 - Uzbekistan

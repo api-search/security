@@ -47,8 +47,8 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - E-Commerce
 - Online Store
-- Products
-- Orders
+- Product
+- Order
 - Customers
 - Inventory
 - Shopping Cart

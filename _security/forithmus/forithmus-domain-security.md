@@ -182,12 +182,11 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Medical Imaging
 - Radiology
-- Machine Learning
+- Machine-Learning
 - Foundation Models
 - Healthcare AI
 - Challenge Platform
 - Benchmarks
 - Research
 - Developer Tools
-- API
 ---

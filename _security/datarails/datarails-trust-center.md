@@ -40,9 +40,9 @@ tags:
 - Business Intelligence
 - Reporting
 - Data Integration
-- Model Context Protocol
+- MCP
 - Artificial Intelligence
 - Excel
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.datarails.com/
 ---

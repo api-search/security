@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snorkel-ai/refs/heads/main/security/snorkel-ai-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
-- AI
+- Artificial Intelligence
 - Data Development
 - Programmatic Labeling
 - Weak Supervision

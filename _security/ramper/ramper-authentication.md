@@ -47,7 +47,7 @@ summary_line: apiKey/oauth2/openIdConnect · 3 schemes
 tags:
 - Company
 - Web3
-- Wallet
+- Wallets
 - Embedded Wallet
 - Blockchain
 - Social Login

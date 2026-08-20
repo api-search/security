@@ -37,6 +37,6 @@ tags:
 - Online Games
 - Browser Games
 - Free-to-Play
-- Publisher
+- Publishers
 - Entertainment
 ---

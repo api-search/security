@@ -40,7 +40,6 @@ summary_line: TLSv1.2 · HSTS
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - AI Agents
 - Agent Governance
 - Team Memory

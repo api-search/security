@@ -34,7 +34,7 @@ tags:
 - Fintech
 - Payments
 - Payment Aggregator
-- Point of Sale
+- Point-of-Sale
 - Retail
 - UPI
 - India

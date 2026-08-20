@@ -94,13 +94,13 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Data Engineering
-- Data Pipelines
+- Data Pipeline
 - ETL
 - Apache Spark
 - Databricks
 - Snowflake
 - Low-Code
 - Analytics
-- AI
+- Artificial Intelligence
 - Data Transformation
 ---

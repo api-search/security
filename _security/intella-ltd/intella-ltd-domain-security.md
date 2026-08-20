@@ -32,7 +32,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Speech Recognition
-- Speech to Text
+- Speech-to-Text
 - Voice AI
 - Conversational AI
 - Call Center Analytics

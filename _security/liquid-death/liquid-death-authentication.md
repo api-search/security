@@ -105,7 +105,7 @@ tags:
 - Beverages
 - Consumer Packaged Goods
 - Direct to Consumer
-- Ecommerce
+- E-Commerce
 - Retail
 - Agentic Commerce
 - Universal Commerce Protocol

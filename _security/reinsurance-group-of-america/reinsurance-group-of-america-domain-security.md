@@ -43,7 +43,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reinsurance-group-of-america/refs/heads/main/security/reinsurance-group-of-america-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Financial Services
+- Financial-Services
 - Health Insurance
 - Insurance Technology
 - Life Insurance

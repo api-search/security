@@ -35,6 +35,6 @@ tags:
 - Mergers and Acquisitions
 - Startups
 - Business Brokerage
-- SaaS
+- Software-as-a-Service
 - Deal Flow
 ---

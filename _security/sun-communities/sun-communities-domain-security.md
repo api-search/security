@@ -29,7 +29,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sun-communities/refs/heads/main/security/sun-communities-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
-- Real Estate
+- Real-Estate
 - Manufactured Housing
 - RV Resorts
 - Marinas

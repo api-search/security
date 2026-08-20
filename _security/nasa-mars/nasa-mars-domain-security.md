@@ -53,7 +53,7 @@ tags:
 - Mars
 - Rovers
 - Photos
-- Images
+- Image
 - Space
 - Planetary Science
 - Open Data

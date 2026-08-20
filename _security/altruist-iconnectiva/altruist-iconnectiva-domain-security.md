@@ -36,5 +36,5 @@ tags:
 - Fraud Management
 - Analytics
 - Big Data
-- Managed Services
+- Managed Service
 ---

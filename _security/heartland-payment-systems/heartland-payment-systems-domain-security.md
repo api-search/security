@@ -44,10 +44,10 @@ tags:
 - Bill Pay
 - Card Present
 - Card Not Present
-- Ecommerce
+- E-Commerce
 - Payment Processing
 - Payments
 - Payroll
-- Point of Sale
+- Point-of-Sale
 - Fortune 1000
 ---

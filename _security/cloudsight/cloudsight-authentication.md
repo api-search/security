@@ -52,8 +52,8 @@ summary_line: apiKey/oauth1 · 2 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
-- Computer Vision
+- Machine-Learning
+- Computer-Vision
 - Image Recognition
 - Image Captioning
 - Classification

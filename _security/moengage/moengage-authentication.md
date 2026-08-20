@@ -145,19 +145,19 @@ source_yaml: "generated: '2026-08-01'\nmethod: derived\nsource: openapi/moengage
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/authentication/moengage-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- customer-engagement
-- marketing-automation
-- customer-data-platform
-- push-notifications
-- email
-- sms
-- whatsapp
-- in-app-messaging
-- segmentation
-- personalization
-- campaign-management
-- analytics
-- mobile-sdk
-- mcp
-- martech
+- Customer Engagement
+- Marketing Automation
+- Customer Data Platform
+- Push Notifications
+- Email
+- SMS
+- WhatsApp
+- In-App Messaging
+- Segmentation
+- Personalization
+- Campaign Management
+- Analytics
+- Mobile SDK
+- MCP
+- MarTech
 ---

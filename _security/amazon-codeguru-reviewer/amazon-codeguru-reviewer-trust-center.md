@@ -56,7 +56,7 @@ tags:
 - Code Review
 - Security
 - DevOps
-- Machine Learning
+- Machine-Learning
 - Developer Tools
 trust_url: https://aws.amazon.com/compliance/
 ---

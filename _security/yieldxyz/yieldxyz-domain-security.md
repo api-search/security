@@ -47,7 +47,7 @@ tags:
 - Yield
 - Blockchain
 - Restaking
-- Vaults
+- Vault
 - Web3 Infrastructure
 - Non-Custodial
 ---

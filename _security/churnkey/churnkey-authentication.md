@@ -74,6 +74,6 @@ tags:
 - Failed Payment Recovery
 - Dunning
 - Reactivation
-- Subscriptions
-- SaaS
+- Subscription
+- Software-as-a-Service
 ---

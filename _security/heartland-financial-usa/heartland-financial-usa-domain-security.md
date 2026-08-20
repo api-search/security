@@ -33,5 +33,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heartland-fina
 summary_line: DMARC
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 ---

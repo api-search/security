@@ -25,7 +25,7 @@ summary_line: seller-authorization · 0 schemes
 tags:
 - Company
 - Consumer
-- E-commerce
+- E-Commerce
 - Retail
 - Fashion
 - Marketplace

@@ -57,15 +57,15 @@ summary_line: ISO 27001, GDPR
 tags:
 - Company
 - commercial-vehicle
-- fleet-management
+- Fleet Management
 - service-relationship-management
-- telematics
-- asset-management
+- Telematics
+- Asset Management
 - maintenance-and-repair
-- heavy-duty-trucking
-- transportation
-- dealer-management
-- json-api
-- webhooks
+- Heavy Duty Trucking
+- Transportation
+- Dealer Management
+- JSON:API
+- Webhook
 trust_url: https://www.decisiv.com/trust-center/
 ---

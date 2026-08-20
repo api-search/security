@@ -93,5 +93,5 @@ tags:
 - Scheduling
 - Telehealth
 - Wellness
-- Webhooks
+- Webhook
 ---

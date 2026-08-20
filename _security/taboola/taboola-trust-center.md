@@ -139,7 +139,7 @@ tags:
 - Realize
 - Backstage
 - Recommendation
-- Publisher
+- Publishers
 - Programmatic
 trust_url: https://www.taboola.com/trust-center
 ---

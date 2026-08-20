@@ -51,7 +51,7 @@ tags:
 - Energy Markets
 - Consumer Data Right
 - Retail Energy
-- Regulation
+- Regulations
 - Government
 - Open Data
 - Smart Metering

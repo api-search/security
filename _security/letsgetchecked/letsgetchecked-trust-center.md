@@ -30,9 +30,9 @@ tags:
 - Telehealth
 - Medical Testing
 - Pharmacy
-- Orders
+- Order
 - Results
-- Webhooks
+- Webhook
 - HL7
 - LOINC
 trust_url: https://trust.letsgetchecked.com/

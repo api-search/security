@@ -43,5 +43,5 @@ tags:
 - Policies
 - Embedded Insurance
 - Partnership API
-- Financial Services
+- Financial-Services
 ---

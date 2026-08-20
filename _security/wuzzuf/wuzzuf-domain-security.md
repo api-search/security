@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wuzzuf/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Jobs
+- Job
 - Recruitment
 - Careers
 - Employment

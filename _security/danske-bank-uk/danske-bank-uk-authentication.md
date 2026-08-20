@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: derived\nsource: openapi/danske-b
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/danske-bank-uk/refs/heads/main/authentication/danske-bank-uk-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

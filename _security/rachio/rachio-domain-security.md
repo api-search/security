@@ -36,5 +36,5 @@ tags:
 - Irrigation
 - Home Automation
 - Water Management
-- Webhooks
+- Webhook
 ---

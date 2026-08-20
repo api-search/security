@@ -71,9 +71,9 @@ tags:
 - Card Processing
 - ACH
 - Invoicing
-- Subscriptions
+- Subscription
 - Tokenization
-- Webhooks
+- Webhook
 - Reporting
 - Data Analytics
 - Marketing

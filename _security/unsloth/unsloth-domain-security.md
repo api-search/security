@@ -33,8 +33,8 @@ tags:
 - Company
 - Artificial Intelligence
 - LLM Fine-Tuning
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 - Reinforcement Learning
 - Quantization
 - Local AI

@@ -48,5 +48,4 @@ tags:
 - SMS
 - Video Conferencing
 - Communications
-- API
 ---

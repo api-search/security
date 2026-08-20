@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepmind/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Foundation Models
 - LLMs
 - Research

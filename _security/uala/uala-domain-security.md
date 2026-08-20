@@ -41,7 +41,7 @@ tags:
 - Investing
 - Brokerage
 - Insurance
-- Point Of Sale
+- Point-of-Sale
 - Merchant Acquiring
 - Payment Links
 - Latin America

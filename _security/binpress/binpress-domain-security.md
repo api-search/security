@@ -32,7 +32,7 @@ tags:
 - Company
 - Source Code Marketplace
 - Developer Tools
-- SDKs
+- SDK
 - Software Components
 - Digital Goods
 - Defunct

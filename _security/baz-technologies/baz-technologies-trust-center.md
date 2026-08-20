@@ -24,7 +24,7 @@ tags:
 - Application Security
 - Agentic Coding
 - DevOps
-- Model Context Protocol
+- MCP
 - Software Engineering
 trust_url: https://trust.baz.ai
 ---

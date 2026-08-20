@@ -41,7 +41,7 @@ tags:
 - Social Media Analytics
 - AI Caption Generation
 - Social Media Publishing
-- Model Context Protocol
+- MCP
 - Marketing Automation
-- SaaS
+- Software-as-a-Service
 ---

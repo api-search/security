@@ -43,7 +43,7 @@ tags:
 - Legal
 - Legal Technology
 - Procurement
-- Source To Pay
+- Source-to-Pay
 - Finance
 - Enterprise Software
 ---

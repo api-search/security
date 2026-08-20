@@ -51,6 +51,6 @@ tags:
 - EdTech
 - LMS
 - Moodle
-- Open Source
+- Open-Source
 - Web Services
 ---

@@ -99,9 +99,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Church Management
 - ChMS
-- Nonprofit
+- Non-Profit
 - Giving
 - Membership
-- Events
+- Event
 - Faith
 ---

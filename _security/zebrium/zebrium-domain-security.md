@@ -30,9 +30,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zebrium/refs/h
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AIOps
-- Machine Learning
+- Machine-Learning
 - Log Management
 - Observability
 - Anomaly Detection

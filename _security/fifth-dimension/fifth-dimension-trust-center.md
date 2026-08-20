@@ -21,7 +21,7 @@ summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
 - Artificial Intelligence
-- Real Estate
+- Real-Estate
 - PropTech
 - Decision Intelligence
 - Document Processing

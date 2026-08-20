@@ -33,7 +33,7 @@ tags:
 - Company
 - Fintech
 - Brazil
-- Financial Services
+- Financial-Services
 - Insurance
 - Lending
 - Bereavement

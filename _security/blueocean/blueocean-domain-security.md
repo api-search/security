@@ -45,6 +45,6 @@ tags:
 - Marketing Automation
 - Analytics
 - Go-To-Market
-- Model Context Protocol
+- MCP
 - Undocumented API
 ---

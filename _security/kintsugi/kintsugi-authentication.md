@@ -98,5 +98,5 @@ tags:
 - VAT
 - GST
 - Nexus
-- AI
+- Artificial Intelligence
 ---

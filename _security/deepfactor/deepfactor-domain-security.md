@@ -34,5 +34,5 @@ tags:
 - Software Composition Analysis
 - Container Security
 - Supply Chain Security
-- Cloud Native
+- Cloud-Native
 ---

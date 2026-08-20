@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pulte/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Homebuilding
-- Real Estate
+- Real-Estate
 - Construction
 - Fortune 500
 ---

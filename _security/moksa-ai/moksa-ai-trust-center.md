@@ -19,11 +19,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moksa-ai/refs/
 summary_line: SOC 2 Type 2, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Surveillance
 - Video Analytics
 - Security
-- Computer Vision
+- Computer-Vision
 - Threat Detection
 trust_url: ''
 ---

@@ -95,7 +95,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Search
 - Recommendations
 - Personalization
@@ -105,6 +105,6 @@ tags:
 - Publishing
 - Media
 - Retail
-- Ecommerce
+- E-Commerce
 - Developers
 ---

@@ -87,7 +87,7 @@ tags:
 - Company
 - Pricing
 - Retail
-- E-commerce
+- E-Commerce
 - Competitive Intelligence
 - Price Optimization
 - Artificial Intelligence

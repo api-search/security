@@ -36,5 +36,5 @@ tags:
 - Artificial Intelligence
 - Data Platform
 - Control Plane
-- Open Source
+- Open-Source
 ---

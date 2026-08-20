@@ -35,6 +35,6 @@ tags:
 - Financial Crime
 - Identity Verification
 - Chargeback Protection
-- FinTech
+- Fintech
 trust_url: https://www.sardine.ai/security
 ---

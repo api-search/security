@@ -31,7 +31,7 @@ tags:
 - Observability
 - Developer Tools
 - Non-Breaking Breakpoints
-- Cloud Native
+- Cloud-Native
 - Kubernetes
 - Dynatrace
 - APM

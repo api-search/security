@@ -95,6 +95,6 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Eclipse Foundation
 - Foundation
-- Open Source
+- Open-Source
 - Standards
 ---

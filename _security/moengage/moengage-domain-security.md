@@ -100,19 +100,19 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/security/moengage-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- customer-engagement
-- marketing-automation
-- customer-data-platform
-- push-notifications
-- email
-- sms
-- whatsapp
-- in-app-messaging
-- segmentation
-- personalization
-- campaign-management
-- analytics
-- mobile-sdk
-- mcp
-- martech
+- Customer Engagement
+- Marketing Automation
+- Customer Data Platform
+- Push Notifications
+- Email
+- SMS
+- WhatsApp
+- In-App Messaging
+- Segmentation
+- Personalization
+- Campaign Management
+- Analytics
+- Mobile SDK
+- MCP
+- MarTech
 ---

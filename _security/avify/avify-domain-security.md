@@ -43,14 +43,14 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Commerce
-- eCommerce
+- E-Commerce
 - CRM
 - WhatsApp
 - Conversational Commerce
 - Inventory
-- Point of Sale
+- Point-of-Sale
 - Payments
-- Orders
+- Order
 - GraphQL
 - Latin America
 - SMB

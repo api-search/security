@@ -32,9 +32,9 @@ tags:
 - Company
 - Compute
 - Superconducting
-- Semiconductor
+- Semiconductors
 - Hardware
 - Artificial Intelligence
-- Data Center
+- Data-Center
 - Deep Tech
 ---

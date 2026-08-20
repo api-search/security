@@ -18,11 +18,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hebbia/refs/heads/main/security/hebbia-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
-- AI
+- Artificial Intelligence
 - Document AI
 - Due Diligence
 - Enterprise Search
-- Financial Services
+- Financial-Services
 - Generative AI
 - Investment Research
 - Knowledge

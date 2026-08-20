@@ -57,7 +57,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Checkout
 - Payments
-- eCommerce
+- E-Commerce
 - One-Click Checkout
 - Shopper Network
 - Fraud Protection

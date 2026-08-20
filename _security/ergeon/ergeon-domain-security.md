@@ -36,5 +36,5 @@ tags:
 - Fencing
 - Home Services
 - Field Services
-- Proptech
+- PropTech
 ---

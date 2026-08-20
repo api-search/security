@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Food
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Gourmet Food
 - Food Delivery

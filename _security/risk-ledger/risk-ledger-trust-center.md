@@ -26,6 +26,6 @@ tags:
 - Risk Management
 - Compliance
 - Governance
-- SaaS
+- Software-as-a-Service
 trust_url: https://riskledger.com/security-profile
 ---

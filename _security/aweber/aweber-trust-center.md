@@ -103,8 +103,8 @@ tags:
 - Landing Pages
 - Web Forms
 - Segments
-- Webhooks
-- OAuth 2.0
+- Webhook
+- Authentication
 - Small Business
 trust_url: https://www.aweber.com/dpst.htm
 ---

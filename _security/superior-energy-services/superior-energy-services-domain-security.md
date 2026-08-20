@@ -29,7 +29,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superior-energy-services/refs/heads/main/security/superior-energy-services-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Oil And Gas
+- Oil and Gas
 - Oilfield Services
 - Energy
 - Well Services

@@ -45,6 +45,6 @@ tags:
 - Sales Enablement
 - Customer Success
 - Revenue Operations
-- AI
+- Artificial Intelligence
 - MCP
 ---

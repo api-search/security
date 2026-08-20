@@ -60,14 +60,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/primer-p
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/authentication/primer-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- payments
-- payment orchestration
-- payment processing
-- fintech
-- fraud detection
-- smart routing
-- checkout
-- payment methods
-- reconciliation
-- webhooks
+- Payments
+- Payment Orchestration
+- Payment Processing
+- Fintech
+- Fraud Detection
+- Smart Routing
+- Checkout
+- Payment Methods
+- Reconciliation
+- Webhook
 ---

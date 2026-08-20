@@ -27,6 +27,5 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spitab/refs/heads/main/security/spitab-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
-- API
 - Digital Services
 ---

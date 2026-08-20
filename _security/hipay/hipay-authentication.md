@@ -173,7 +173,7 @@ tags:
 - Fintech
 - Europe
 - Omnichannel
-- Point of Sale
+- Point-of-Sale
 - Fraud Prevention
 - Tokenization
 - Marketplace

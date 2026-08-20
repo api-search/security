@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/security/weavix-trust-center.yml
 summary_line: SOC 2
 tags:
-- Communication
+- Communications
 - Frontline Workers
 - Workforce Management
 - Messaging

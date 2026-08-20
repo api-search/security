@@ -80,7 +80,7 @@ tags:
 - Order Management
 - Pricing
 - Inventory
-- Point of Sale
+- Point-of-Sale
 - Omnichannel
 - Oracle
 ---

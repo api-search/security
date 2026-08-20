@@ -47,14 +47,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vespa-qu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vespa-ai/refs/heads/main/authentication/vespa-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Search
 - Vector Database
 - Big Data
-- Machine Learning
+- Machine-Learning
 - Semantic Search
 - Retrieval Augmented Generation
-- Open Source
+- Open-Source
 - Tensor
 - Recommendations
 ---

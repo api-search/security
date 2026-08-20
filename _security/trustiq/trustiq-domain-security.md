@@ -36,7 +36,7 @@ tags:
 - Fraud Detection
 - Identity Verification
 - Artificial Intelligence
-- Financial Services
+- Financial-Services
 - Emerging Markets
 - Alternative Data
 ---

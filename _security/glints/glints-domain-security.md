@@ -34,7 +34,7 @@ tags:
 - Enterprise
 - Recruitment
 - Talent
-- Jobs
+- Job
 - Human Resources
 - Careers
 - Hiring

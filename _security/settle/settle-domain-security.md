@@ -38,6 +38,6 @@ tags:
 - Working Capital
 - Bill Pay
 - CPG
-- Ecommerce
+- E-Commerce
 - Financing
 ---

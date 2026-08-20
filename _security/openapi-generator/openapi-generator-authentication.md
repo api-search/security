@@ -37,7 +37,7 @@ summary_line: 0 schemes
 tags:
 - Code Generation
 - Documentation
-- Open Source
+- Open-Source
 - OpenAPI
 - SDK
 - API Tooling

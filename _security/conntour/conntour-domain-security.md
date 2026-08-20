@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Video Intelligence
-- Computer Vision
+- Computer-Vision
 - Physical Security
 - Surveillance
 - Artificial Intelligence

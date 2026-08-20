@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amartha/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Lending
 - Microfinance
-- Peer to Peer Lending
+- Peer-to-Peer Lending
 - Financial Inclusion
 - Payments
 - Indonesia

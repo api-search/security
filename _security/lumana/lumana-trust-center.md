@@ -22,8 +22,8 @@ summary_line: SOC 2 Type II, HIPAA, GDPR, NDAA Section 889
 tags:
 - Company
 - Video Security
-- AI
-- Computer Vision
+- Artificial Intelligence
+- Computer-Vision
 - Physical Security
 - Surveillance
 - Video Management

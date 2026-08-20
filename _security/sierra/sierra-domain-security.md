@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sierra/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agents
-- AI
+- Artificial Intelligence
 - Chat
 - Conversational AI
 - Customer Experience

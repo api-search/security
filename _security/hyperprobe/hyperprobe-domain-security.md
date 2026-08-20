@@ -35,7 +35,7 @@ tags:
 - Debugging
 - Developer Tools
 - Runtime
-- AI
+- Artificial Intelligence
 - MCP
 - SDK
 - Production Debugging

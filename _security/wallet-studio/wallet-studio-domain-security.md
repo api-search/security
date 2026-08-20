@@ -45,11 +45,11 @@ tags:
 - Passes
 - Insurance
 - Insurtech
-- SaaS
+- Software-as-a-Service
 - No-Code
 - Fintech
 - REST API
-- Webhooks
+- Webhook
 - Customer Engagement
 - GDPR
 ---

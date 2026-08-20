@@ -34,7 +34,7 @@ tags:
 - Drug Discovery
 - Genomics
 - Bioinformatics
-- Machine Learning
+- Machine-Learning
 - Pharmaceuticals
 - Precision Medicine
 ---

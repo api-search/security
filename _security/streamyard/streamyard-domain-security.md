@@ -61,7 +61,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Broadcasting
 - Live Streaming
-- Multi-Streaming
+- Multistreaming
 - Recordings
 - Video
 ---

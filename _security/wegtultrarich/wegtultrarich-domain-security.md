@@ -57,13 +57,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - wealth inequality
 - economic inequality
-- finance
-- economics
-- education
-- journalism
-- open data
-- comparison
-- mcp
-- model context protocol
-- agents
+- Finance
+- Economics
+- Education
+- Journalism
+- Open Data
+- Comparison
+- MCP
+- Agents
 ---

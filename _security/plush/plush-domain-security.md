@@ -33,7 +33,7 @@ tags:
 - Company
 - Fashion
 - Retail
-- Ecommerce
+- E-Commerce
 - Artificial Intelligence
 - Search
 - Shopping

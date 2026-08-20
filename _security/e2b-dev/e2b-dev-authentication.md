@@ -129,16 +129,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/e2b-api-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/authentication/e2b-dev-authentication.yml
 summary_line: apiKey/http · 5 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Code Execution
 - Code Interpreter
 - Sandboxes
 - Firecracker
-- microVMs
+- MicroVMs
 - Computer Use
 - Desktop Sandbox
 - Templates
 - MCP
-- Open Source
+- Open-Source
 ---

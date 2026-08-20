@@ -39,7 +39,7 @@ tags:
 - Company
 - Crypto
 - Cryptocurrency
-- Wallet
+- Wallets
 - Cold Storage
 - Bitcoin
 - Hardware Wallet

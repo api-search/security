@@ -40,7 +40,7 @@ tags:
 - Developer Tools
 - Java
 - Spring Framework
-- Open Source
+- Open-Source
 - Application Framework
 - Acquired
 - VMware

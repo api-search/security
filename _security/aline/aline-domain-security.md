@@ -32,12 +32,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Legal
-- LegalTech
+- Legal Tech
 - Legal AI
 - Contract Lifecycle Management
 - CLM
 - Contract Management
 - Electronic Signature
 - Artificial Intelligence
-- Workflow Automation
+- Workflow-Automation
 ---

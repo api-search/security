@@ -243,7 +243,7 @@ tags:
 - MMO
 - EVE Online
 - Developer Platform
-- OAuth
+- Authentication
 - OpenID Connect
 - Player Data
 - Virtual Economy

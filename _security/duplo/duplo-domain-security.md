@@ -40,7 +40,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duplo/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Payments
 - B2B Payments
 - Cross-Border Payments

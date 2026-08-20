@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Fintech
-- Proptech
+- PropTech
 - Rentals
 - Wealth
-- Financial Services
+- Financial-Services
 ---

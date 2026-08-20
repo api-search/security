@@ -37,6 +37,6 @@ tags:
 - Building Operations
 - IoT
 - Sensors
-- SaaS
+- Software-as-a-Service
 - Occupancy
 ---

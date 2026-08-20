@@ -56,7 +56,7 @@ tags:
 - Account-to-Account
 - Bank Payments
 - Recurring Payments
-- Subscriptions
+- Subscription
 - Direct Debit
 - Money Movement
 - Open Banking

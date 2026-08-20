@@ -35,7 +35,7 @@ tags:
 - Fintech
 - Artificial Intelligence
 - Conversational AI
-- Financial Services
+- Financial-Services
 - Latin America
 - Agents
 - Lending

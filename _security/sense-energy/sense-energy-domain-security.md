@@ -41,7 +41,7 @@ tags:
 - Demand Response
 - Virtual Power Plant
 - Disaggregation
-- Machine Learning
+- Machine-Learning
 - Smart Home
 - IoT
 - Solar

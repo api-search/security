@@ -31,7 +31,7 @@ tags:
 - Company
 - Consumer
 - Legal
-- LegalTech
+- Legal Tech
 - Justice
 - Dispute Resolution
 - France

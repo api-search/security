@@ -48,5 +48,4 @@ tags:
 - ASPM
 - Security
 - Vulnerability Management
-- API
 ---

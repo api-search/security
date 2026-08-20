@@ -53,13 +53,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company
-- Proptech
+- PropTech
 - Notarization
 - Remote Online Notarization
 - Identity Verification
-- eSignature
+- E-Signature
 - Digital Credentials
-- Real Estate
+- Real-Estate
 - Mortgage
 - Legal Tech
 ---

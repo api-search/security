@@ -102,16 +102,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cybelangel/ref
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- cybersecurity
-- threat-intelligence
+- Cybersecurity
+- Threat Intelligence
 - external-attack-surface-management
 - data-breach-prevention
-- credential-intelligence
-- brand-protection
-- dark-web-monitoring
-- digital-risk-protection
-- stix
+- Credential Intelligence
+- Brand Protection
+- Dark Web Monitoring
+- Digital Risk Protection
+- STIX
 - security-alerts
-- asset-inventory
-- audit-logs
+- Asset Inventory
+- Audit Logs
 ---

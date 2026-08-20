@@ -37,9 +37,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/security/forethought-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
-- AI
 - Artificial Intelligence
-- Customer Support
+- Customer-Support
 - Customer Service
 - Generative AI
 - SupportGPT
@@ -47,7 +46,7 @@ tags:
 - Ticket Triage
 - Agentic AI
 - Voice AI
-- Helpdesk
+- Help Desk
 - Multi-Agent
 trust_url: https://forethought.ai/compliance
 ---

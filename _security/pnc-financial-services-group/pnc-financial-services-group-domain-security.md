@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pnc-financial-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - Fortune 500
 - Retail Banking
 - Corporate Banking

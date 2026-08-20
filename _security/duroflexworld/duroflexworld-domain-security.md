@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duroflexworld/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Retail
 - Sleep
 - Mattresses

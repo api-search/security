@@ -279,12 +279,12 @@ tags:
 - Automation
 - Transactional Email
 - Marketing
-- Lists
+- List
 - Segmentation
 - Reporting
 - Deliverability
 - Sending Domains
 - Email Templates
-- Webhooks
+- Webhook
 - Agent Ready
 ---

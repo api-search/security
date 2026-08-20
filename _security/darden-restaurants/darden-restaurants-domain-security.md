@@ -32,5 +32,5 @@ tags:
 - Casual Dining
 - Fortune 500
 - Hospitality
-- Restaurants
+- Restaurant
 ---

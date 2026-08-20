@@ -36,12 +36,12 @@ summary_line: apiKey/signature · 2 schemes
 tags:
 - Company
 - Consumer
-- E-commerce
+- E-Commerce
 - Retail
 - Flash Sales
 - Open Platform
 - China
-- Orders
+- Order
 - Inventory
 - Logistics
 ---

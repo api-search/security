@@ -153,7 +153,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glean/refs/hea
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Agents
-- AI
+- Artificial Intelligence
 - Answers
 - Chat
 - Connectors

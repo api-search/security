@@ -111,6 +111,6 @@ tags:
 - CRM
 - Lead Management
 - Marketing
-- Webhooks
-- Sales Engagement Platform
+- Webhook
+- SEP
 ---

@@ -35,7 +35,7 @@ tags:
 - Crypto Exchange
 - Digital Assets
 - Bitcoin
-- Financial Services
+- Financial-Services
 - Fintech
 - Trading
 - Custody

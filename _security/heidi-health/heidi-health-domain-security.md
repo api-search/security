@@ -103,7 +103,7 @@ tags:
 - Clinical Documentation
 - Clinical Decision Support
 - Artificial Intelligence
-- Speech To Text
+- Speech-to-Text
 - Transcription
 - EHR Integration
 - Electronic Health Records

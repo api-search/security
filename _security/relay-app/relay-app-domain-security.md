@@ -58,9 +58,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/relay-app/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automation
-- Workflow
+- Workflows
 - Integration
 - No-Code
-- AI
-- Webhooks
+- Artificial Intelligence
+- Webhook
 ---

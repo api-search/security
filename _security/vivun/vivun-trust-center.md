@@ -23,9 +23,9 @@ tags:
 - B2B
 - Sales
 - Artificial Intelligence
-- PreSales
+- Presales
 - Sales Engineering
 - Revenue
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.vivun.com/trust
 ---

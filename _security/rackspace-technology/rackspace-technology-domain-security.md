@@ -163,8 +163,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rackspace-tech
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Cloud
-- Managed Services
-- Multicloud
+- Managed Service
+- Multi-Cloud
 - Infrastructure
 - DevOps
 ---

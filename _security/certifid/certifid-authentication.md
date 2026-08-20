@@ -125,13 +125,13 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - Wire Fraud Prevention
-- Real Estate
+- Real-Estate
 - Title Insurance
 - Identity Verification
 - Business Verification
 - Payments
 - Fraud Prevention
 - Escrow and Settlement
-- Financial Services
+- Financial-Services
 - Security
 ---

@@ -39,6 +39,6 @@ tags:
 - Design Systems
 - React
 - Components
-- AI
+- Artificial Intelligence
 - Developer Tools
 ---

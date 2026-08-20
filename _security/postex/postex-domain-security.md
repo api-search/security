@@ -49,9 +49,9 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Logistics
-- Courier
+- Couriers
 - Shipping
-- E-commerce
+- E-Commerce
 - Fulfillment
 - Cash on Delivery
 - Payments

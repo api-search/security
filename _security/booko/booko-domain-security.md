@@ -31,7 +31,7 @@ tags:
 - Company
 - Books
 - Price Comparison
-- Ecommerce
+- E-Commerce
 - Retail
 - Shopping
 - Media

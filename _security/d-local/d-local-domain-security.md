@@ -138,7 +138,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Payments
 - Payouts
-- EmergingMarkets
+- Emerging Markets
 - LatAm
 - Africa
 - Asia

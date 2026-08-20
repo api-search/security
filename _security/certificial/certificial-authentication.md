@@ -34,7 +34,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/certificial/re
 summary_line: http · 1 scheme
 tags:
 - Insurance
-- InsurTech
+- Insurtech
 - Certificate of Insurance
 - Risk Management
 - Compliance

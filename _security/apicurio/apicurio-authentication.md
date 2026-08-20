@@ -158,7 +158,7 @@ tags:
 - Avro
 - AsyncAPI
 - Java
-- Open Source
+- Open-Source
 - OpenAPI
 - Red Hat
 - Schema Registry

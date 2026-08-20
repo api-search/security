@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snapdocs/refs/
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Proptech
+- PropTech
 - Mortgage
-- Real Estate
+- Real-Estate
 - Fintech
 - eClosing
 - Title and Settlement

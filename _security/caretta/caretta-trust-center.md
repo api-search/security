@@ -30,8 +30,8 @@ tags:
 - Conversation Intelligence
 - Revenue Operations
 - Y Combinator
-- Model Context Protocol
-- Webhooks
+- MCP
+- Webhook
 - Agents
 trust_url: https://trust.caretta.so
 ---

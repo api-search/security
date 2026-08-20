@@ -31,6 +31,6 @@ tags:
 - Travel Search
 - Price Comparison
 - Booking Holdings
-- AI
+- Artificial Intelligence
 trust_url: https://www.kayak.com/c/security/
 ---

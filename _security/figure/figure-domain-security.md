@@ -96,6 +96,6 @@ tags:
 - Home Equity
 - Mortgage
 - Loan Origination
-- Webhooks
+- Webhook
 - Capital Markets
 ---

@@ -622,9 +622,9 @@ tags:
 - RESTCONF
 - YANG
 - Zero Touch Provisioning
-- Workflow Automation
+- Workflow-Automation
 - Traffic Engineering
-- Model Context Protocol
+- MCP
 - Telemetry
 - On-Premises
 trust_url: https://trustportal.cisco.com/

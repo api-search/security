@@ -57,5 +57,5 @@ tags:
 - Microsoft
 - Office
 - Productivity
-- SaaS
+- Software-as-a-Service
 ---

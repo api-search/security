@@ -98,5 +98,5 @@ tags:
 - Change Data Capture
 - CDC
 - Real-Time Data
-- Data Pipelines
+- Data Pipeline
 ---

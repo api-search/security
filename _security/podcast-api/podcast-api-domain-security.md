@@ -40,5 +40,5 @@ tags:
 - Transcripts
 - Search
 - GraphQL
-- Webhooks
+- Webhook
 ---

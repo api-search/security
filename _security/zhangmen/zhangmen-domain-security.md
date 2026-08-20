@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zhangmen/refs/
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Edtech
+- EdTech
 - Education
 - Online Tutoring
 - K-12

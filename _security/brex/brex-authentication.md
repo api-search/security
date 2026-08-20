@@ -50,6 +50,6 @@ tags:
 - Bill Pay
 - Corporate Cards
 - Expenses
-- Reimbursements
+- Reimbursement
 - Spending
 ---

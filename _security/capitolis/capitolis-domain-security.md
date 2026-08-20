@@ -30,9 +30,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capitolis/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Capital Markets
-- FinTech
+- Fintech
 - Capital Optimization
 - Portfolio Optimization
 - Derivatives

@@ -245,5 +245,5 @@ tags:
 - ATS
 - Recruiting
 - Talent Acquisition
-- SaaS
+- Software-as-a-Service
 ---

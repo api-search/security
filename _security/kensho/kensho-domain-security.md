@@ -41,15 +41,15 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Financial Data
-- Speech to Text
+- Speech-to-Text
 - Transcription
 - Document Extraction
 - Named Entity Recognition
 - Natural Language Processing
 - LLM
-- Model Context Protocol
+- MCP
 - Retrieval
 - S&P Global
 ---

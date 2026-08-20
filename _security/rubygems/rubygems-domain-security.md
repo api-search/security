@@ -98,6 +98,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Ruby
 - Package Manager
-- Open Source
+- Open-Source
 - Developer Tools
 ---

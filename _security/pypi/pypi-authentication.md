@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pypi/refs/head
 summary_line: http · 1 scheme
 tags:
 - Developer Tools
-- Open Source
+- Open-Source
 - Package Management
 - Packages
 - Python

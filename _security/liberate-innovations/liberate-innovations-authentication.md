@@ -39,7 +39,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Artificial Intelligence
 - Voice AI
 - Conversational AI

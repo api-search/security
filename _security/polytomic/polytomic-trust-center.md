@@ -148,7 +148,7 @@ summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Data Integration
 - Reverse ETL
-- Unified API
+- Unified-API
 - ELT
 - Data Sync
 trust_url: https://www.polytomic.com/security

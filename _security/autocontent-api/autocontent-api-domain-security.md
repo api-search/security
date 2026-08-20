@@ -66,12 +66,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/security/autocontent-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Audio
 - Content Generation
 - Podcasts
 - Video
 - Generative AI
-- Text to Speech
+- Text-to-Speech
 - Automation
 ---

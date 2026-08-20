@@ -19,10 +19,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kuraseru/refs/
 summary_line: ISO/IEC 27001
 tags:
 - Company
-- Health Care
+- Healthcare
 - Elder Care
 - Nursing Care
-- Long Term Care
+- Long-Term Care
 - Digital Transformation
 - System Development
 - Japan

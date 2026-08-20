@@ -47,7 +47,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Database
 - Managed Database
-- Open Source
+- Open-Source
 - PostgreSQL
 - Relational
 ---

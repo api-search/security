@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bstow/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Donations
 - Charitable Giving

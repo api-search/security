@@ -33,7 +33,7 @@ tags:
 - Credit
 - Credit Score
 - Fintech
-- Financial Services
+- Financial-Services
 - Consumer Credit
 - Open Banking
 - Identity Protection

@@ -73,10 +73,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openshift/refs
 summary_line: http · 1 scheme
 tags:
 - CI/CD
-- Cloud Native
+- Cloud-Native
 - Containers
 - DevOps
 - Enterprise
 - Kubernetes
-- PaaS
+- Platform-as-a-Service
 ---

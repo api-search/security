@@ -34,8 +34,8 @@ tags:
 - Construction
 - Construction Technology
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Document Intelligence
-- Workflow Automation
-- SaaS
+- Workflow-Automation
+- Software-as-a-Service
 ---

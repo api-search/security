@@ -110,7 +110,7 @@ tags:
 - Monitoring
 - Infrastructure Monitoring
 - Network Monitoring
-- Open Source
+- Open-Source
 - IT Operations
 - Alerting
 - Observability

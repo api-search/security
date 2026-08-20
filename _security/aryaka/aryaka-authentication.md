@@ -76,7 +76,7 @@ tags:
 - Zero Trust
 - ZTNA
 - Cloud Connectivity
-- Managed Services
+- Managed Service
 - Firewall
 - Secure Web Gateway
 - WAN Optimization

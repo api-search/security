@@ -41,12 +41,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/true-footage/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Appraisal
 - Valuation
 - PropTech
 - Mortgage
 - Property Data
 - Analytics
-- Machine Learning
+- Machine-Learning
 ---

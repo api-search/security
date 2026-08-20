@@ -48,13 +48,13 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Voice
 - Speech Recognition
-- Speech to Text
-- Text to Speech
+- Speech-to-Text
+- Text-to-Speech
 - Translation
-- Real Time
+- Real-Time
 - WebSockets
 - Audio
 - Transcription

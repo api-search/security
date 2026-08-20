@@ -194,7 +194,7 @@ tags:
 - Company
 - Mobile Games
 - Game Publishing
-- Direct-to-Consumer
+- Direct to Consumer
 - Payments
 - Merchant of Record
 - Web Shop

@@ -30,10 +30,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solveai/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - Enterprise AI
 - AI Applications
 - AI Platform
-- Machine Learning
+- Machine-Learning
 ---

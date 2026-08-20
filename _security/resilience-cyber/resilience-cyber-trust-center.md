@@ -26,7 +26,7 @@ tags:
 - Claims
 - Risk Data
 - Technology Errors and Omissions
-- Broker
+- Brokers
 - Specialty Insurance
 trust_url: https://trust.cyberresilience.com/
 ---

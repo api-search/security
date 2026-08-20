@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://www.alt
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alterna-savings/refs/heads/main/authentication/alterna-savings-authentication.yml
 summary_line: 1 scheme
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Canada
 - Credit Union

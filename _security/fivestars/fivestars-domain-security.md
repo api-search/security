@@ -34,7 +34,7 @@ tags:
 - Loyalty
 - Rewards
 - Payments
-- Point of Sale
+- Point-of-Sale
 - Customer Engagement
 - Marketing
 - Small Business

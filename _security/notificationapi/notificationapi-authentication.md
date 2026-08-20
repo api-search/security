@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/notifica
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/authentication/notificationapi-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Notifications
+- Notification
 - Messaging
 - Email
 - SMS

@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/resistant-ai/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Fraud Detection
 - Financial Crime
 - Document Verification
@@ -52,5 +52,5 @@ tags:
 - AML
 - Identity Verification
 - Fintech
-- Machine Learning
+- Machine-Learning
 ---

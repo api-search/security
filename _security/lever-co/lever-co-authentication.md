@@ -163,6 +163,6 @@ tags:
 - Human Resources
 - HR Tech
 - Postings
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 ---

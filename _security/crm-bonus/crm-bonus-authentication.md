@@ -59,10 +59,10 @@ tags:
 - Cashback
 - CRM
 - Retail Media
-- E-commerce
+- E-Commerce
 - Brazil
 - WhatsApp
 - Customer Data
 - Data Ingestion
-- Point of Sale
+- Point-of-Sale
 ---

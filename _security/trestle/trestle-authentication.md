@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: >-\n  https://t
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/authentication/trestle-authentication.yml
 summary_line: oauth2/openIdConnect/http · 4 schemes
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - MLS
 - RESO

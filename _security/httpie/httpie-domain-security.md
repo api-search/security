@@ -45,10 +45,10 @@ tags:
 - API Client
 - API Testing
 - CLI
-- Client
+- Clients
 - Command Line
 - Developer Tools
 - HTTP
-- Open Source
+- Open-Source
 - Sessions
 ---

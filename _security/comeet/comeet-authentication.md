@@ -41,7 +41,7 @@ tags:
 - Candidates
 - Careers
 - Interviews
-- Jobs
+- Job
 - Recruiting
 - Talent Acquisition
 ---

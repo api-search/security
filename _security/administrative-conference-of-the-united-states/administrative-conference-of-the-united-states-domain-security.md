@@ -34,7 +34,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/administrative-conference-of-the-united-states/refs/heads/main/security/administrative-conference-of-the-united-states-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Federal Government
+- Federal-Government
 - Regulatory Reform
 - Administrative Law
 - Government Efficiency

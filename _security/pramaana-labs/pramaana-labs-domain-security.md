@@ -31,11 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pramaana-labs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - Verification
 - Formal Methods
-- Machine Learning
+- Machine-Learning
 - Research
 - Compiler
 - LLM

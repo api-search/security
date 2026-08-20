@@ -35,6 +35,6 @@ tags:
 - Conversational AI
 - Chatbots
 - Consumer Applications
-- Machine Learning
+- Machine-Learning
 - Model Hosting
 ---

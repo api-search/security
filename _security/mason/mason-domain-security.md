@@ -100,13 +100,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mason/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Commerce
-- AI
+- Artificial Intelligence
 - Agents
 - Content Generation
 - Discounts
 - Promotions
-- Webhooks
+- Webhook
 - Shopify
 ---

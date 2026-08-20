@@ -98,10 +98,10 @@ tags:
 - Company
 - Consumer
 - Video
-- AI
+- Artificial Intelligence
 - Video Editing
 - Short-Form Video
-- Social Media
+- Social-Media
 - Content Creation
 - MCP
 - Developer API

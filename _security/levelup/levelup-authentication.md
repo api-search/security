@@ -57,8 +57,8 @@ tags:
 - Consumer
 - Payments
 - Mobile Payments
-- Point of Sale
+- Point-of-Sale
 - Loyalty
-- Restaurants
+- Restaurant
 - Retired
 ---

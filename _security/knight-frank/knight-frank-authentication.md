@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: >-\n  Live prob
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/authentication/knight-frank-authentication.yml
 summary_line: none/oauth2/openIdConnect · 2 schemes
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Listings
 - Commercial Real Estate

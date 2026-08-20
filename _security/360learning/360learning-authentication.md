@@ -154,12 +154,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/360learning/re
 summary_line: oauth2 · 1 scheme
 tags:
 - Company
-- Edtech
+- EdTech
 - Learning Management System
 - E-Learning
 - Training
 - Collaborative Learning
 - HR Tech
 - Skills
-- API
 ---

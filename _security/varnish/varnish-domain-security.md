@@ -33,7 +33,7 @@ tags:
 - Caching Proxy
 - Content Delivery
 - HTTP Accelerator
-- Open Source
+- Open-Source
 - Proxy
 - Reverse Proxy
 ---

@@ -34,6 +34,6 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Customer Success
-- SaaS
+- Software-as-a-Service
 - Revenue Operations
 ---

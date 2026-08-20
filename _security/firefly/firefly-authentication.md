@@ -109,12 +109,12 @@ summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company
 - Advertising
-- Digital Out-of-Home
+- Digital Out Of Home
 - DOOH
 - Mobility
 - Advertising Technology
 - AdTech
 - Marketing
-- Measurement
+- Measurements
 - Programmatic Advertising
 ---

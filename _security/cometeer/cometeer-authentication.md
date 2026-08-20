@@ -96,5 +96,5 @@ tags:
 - Subscription
 - Agentic Commerce
 - Shopify
-- Model Context Protocol
+- MCP
 ---

@@ -51,11 +51,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/citizens
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/citizens-financial/refs/heads/main/authentication/citizens-financial-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Accounts
+- Account
 - ATMs
 - Banking
 - Open Banking
 - Payments
-- Point of Sale
-- Transactions
+- Point-of-Sale
+- Transaction
 ---

@@ -32,7 +32,7 @@ tags:
 - Fashion
 - Apparel
 - E-Commerce
-- Direct-to-Consumer
+- Direct to Consumer
 - Retail
 - Consumer
 - Hong Kong

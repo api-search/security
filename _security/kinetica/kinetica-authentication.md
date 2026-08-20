@@ -82,18 +82,18 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: https://docs.ki
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/authentication/kinetica-authentication.yml
 summary_line: http/oauth2 · 4 schemes
 tags:
-- database
-- analytics
+- Database
+- Analytics
 - gpu-acceleration
-- real-time-analytics
-- vector-search
-- graph-analytics
-- geospatial
-- time-series
-- sql
-- streaming
-- data-infrastructure
-- mcp
+- Real-Time Analytics
+- Vector Search
+- Graph Analytics
+- Geospatial
+- Time Series
+- SQL
+- Streaming
+- Data Infrastructure
+- MCP
 - agent-native
-- rag
+- RAG
 ---

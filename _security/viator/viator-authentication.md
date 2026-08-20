@@ -103,11 +103,11 @@ tags:
 - Travel
 - United States
 - Tours and Activities
-- Experiences
+- Experience
 - OTA
 - Booking
 - Distribution
 - Marketplace
-- Affiliate
+- Affiliates
 - Hospitality
 ---

@@ -37,5 +37,5 @@ tags:
 - Skincare
 - Makeup
 - E-Commerce
-- Direct-to-Consumer
+- Direct to Consumer
 ---

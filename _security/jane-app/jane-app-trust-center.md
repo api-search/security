@@ -35,7 +35,7 @@ tags:
 - Telehealth
 - Health and Wellness
 - REST API
-- OAuth2
-- Webhooks
+- Authentication
+- Webhook
 trust_url: https://jane.app/security-and-trust
 ---

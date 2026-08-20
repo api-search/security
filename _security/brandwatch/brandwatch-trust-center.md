@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandwatch/ref
 summary_line: ISO/IEC 27001:2022
 tags:
 - Analytics
-- Social Media
+- Social-Media
 - Social Media Monitoring
 - Consumer Intelligence
 - Brand Management

@@ -31,12 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuance-labs/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - Foundation Model
 - Emotional Intelligence
 - Conversational AI
-- Multimodal
+- Multi-Modal
 - Real-Time
 - Seattle
 ---

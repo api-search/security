@@ -33,7 +33,7 @@ tags:
 - SCADA
 - Industrial
 - Monitoring
-- Workflow Automation
+- Workflow-Automation
 - Manufacturing
 - Analytics
 - Real-Time

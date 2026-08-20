@@ -32,5 +32,5 @@ tags:
 - Defunct Brand
 - Healthcare
 - Johnson & Johnson
-- Pharmaceutical
+- Pharmaceuticals
 ---

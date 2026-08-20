@@ -28,7 +28,7 @@ summary_line: DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Food and Beverage
 - Sensory Analytics
 - Consumer Insights

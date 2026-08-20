@@ -35,6 +35,6 @@ tags:
 - Healthcare
 - Logistics
 - Last Mile Delivery
-- Courier
+- Couriers
 - HIPAA
 ---

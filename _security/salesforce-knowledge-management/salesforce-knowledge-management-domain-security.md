@@ -60,6 +60,6 @@ tags:
 - CRM
 - Customer Service
 - Documentation
-- Knowledge Management
+- Knowledge-Management
 - Support
 ---

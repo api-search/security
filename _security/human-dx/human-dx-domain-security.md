@@ -35,7 +35,7 @@ tags:
 - Healthcare
 - Medical
 - Diagnosis
-- Machine Learning
-- Nonprofit
+- Machine-Learning
+- Non-Profit
 - Clinical Decision Support
 ---

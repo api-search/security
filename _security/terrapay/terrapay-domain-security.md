@@ -35,12 +35,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terrapay/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Payments
 - Cross-Border Payments
 - Remittances
 - Mobile Money
-- Digital Wallets
+- Digital Wallet
 - Money Transfer
 - Fintech
 - GSMA Mobile Money API

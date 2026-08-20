@@ -62,5 +62,5 @@ tags:
 - Clojure
 - Package Registry
 - Artifact Repository
-- Open Source
+- Open-Source
 ---

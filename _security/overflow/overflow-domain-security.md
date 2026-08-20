@@ -124,9 +124,9 @@ tags:
 - Payments
 - Donations
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Giving
 - Recurring Payments
-- Webhooks
+- Webhook
 - Cryptocurrency
 ---

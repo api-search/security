@@ -43,13 +43,13 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Scientific Research
 - Developer Tools
 - Agents
 - Foundation Models
 - Knowledge Graph
-- Model Context Protocol
+- MCP
 - CLI
 - Research Infrastructure
 ---

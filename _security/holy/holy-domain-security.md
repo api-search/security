@@ -33,8 +33,8 @@ tags:
 - Company
 - Consumer
 - Beverages
-- Direct-to-Consumer
-- Ecommerce
+- Direct to Consumer
+- E-Commerce
 - Agentic Commerce
 - Shopify
 - Germany

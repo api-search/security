@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/raseedi/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- FinTech
-- Financial Services
+- Fintech
+- Financial-Services
 - Mobile Payments
 - Egypt
 - Lending

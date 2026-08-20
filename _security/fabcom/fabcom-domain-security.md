@@ -35,7 +35,7 @@ tags:
 - 3D Content
 - Game Development
 - Creator Economy
-- Ecommerce
+- E-Commerce
 - Unreal Engine
 - Epic Games
 ---

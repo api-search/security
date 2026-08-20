@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/local-holdings
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Payments
 - QR Payments
 - Hospitality
 - Loyalty
-- Point of Sale
-- Restaurants
+- Point-of-Sale
+- Restaurant
 - GCC
 ---

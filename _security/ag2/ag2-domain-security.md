@@ -56,9 +56,9 @@ tags:
 - AgentOS
 - AutoGen
 - Python
-- Open Source
+- Open-Source
 - LLM
-- GroupChat
+- Group Chat
 - Tool Use
-- Human-in-the-loop
+- Human-in-the-Loop
 ---

@@ -135,7 +135,7 @@ tags:
 - Metered Billing
 - Pricing Plans
 - SaaS Monetization
-- FinTech
+- Fintech
 - Payments
 - Usage Tracking
 - Meters

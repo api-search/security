@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/security/factiva-trust-center.yml
 summary_line: ISO/IEC 27001, ISAE 3000
 tags:
-- AI
+- Artificial Intelligence
 - Business Intelligence
 - Content Aggregation
 - Enterprise Data

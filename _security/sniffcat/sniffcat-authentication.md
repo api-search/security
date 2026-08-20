@@ -38,16 +38,16 @@ source_yaml: "generated: '2026-08-19'\nmethod: searched\nsource: https://sniffca
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sniffcat/refs/heads/main/authentication/sniffcat-authentication.yml
 summary_line: 1 scheme
 tags:
-- threat-intelligence
-- ip-reputation
+- Threat Intelligence
+- IP Reputation
 - abuse-database
-- cybersecurity
-- osint
-- network-security
+- Cybersecurity
+- OSINT
+- Network Security
 - sysadmin-tools
-- blocklist
+- Blocklist
 - abuse-reporting
 - ip-blocklist
-- ip-intelligence
-- threat-feeds
+- IP Intelligence
+- Threat Feeds
 ---

@@ -48,12 +48,12 @@ summary_line: oauth2/http · 2 schemes
 tags:
 - Company
 - Workforce Management
-- Restaurants
+- Restaurant
 - Hospitality
 - Inventory Management
 - Payroll
 - Scheduling
-- Human Capital Management
-- Point of Sale
+- HCM
+- Point-of-Sale
 - Food and Beverage
 ---

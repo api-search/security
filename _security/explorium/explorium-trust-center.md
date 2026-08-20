@@ -163,7 +163,7 @@ tags:
 - Agent Readiness
 - Sales Intelligence
 - Business Events
-- Webhooks
+- Webhook
 - Market Intelligence
 trust_url: https://www.explorium.ai/data-security/
 ---

@@ -103,5 +103,4 @@ tags:
 - Latin America
 - Bitcoin
 - Stablecoins
-- API
 ---

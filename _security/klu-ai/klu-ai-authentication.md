@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/klu-ai-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/authentication/klu-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - LLM App Platform
 - Prompt Engineering

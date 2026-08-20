@@ -37,7 +37,7 @@ tags:
 - Medical Imaging
 - Radiology
 - Patient Safety
-- Machine Learning
+- Machine-Learning
 - Healthcare
 - Compliance
 ---

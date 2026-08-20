@@ -35,7 +35,7 @@ tags:
 - Mobile Payments
 - Loyalty
 - Rewards
-- Restaurants
+- Restaurant
 - Ordering
 - Acquired
 ---

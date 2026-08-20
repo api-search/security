@@ -82,11 +82,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kubernetes/ref
 summary_line: TLSv1.3 · HSTS
 tags:
 - Automation
-- Cloud Native
+- Cloud-Native
 - CNCF
 - Containers
 - Deployment
-- Open Source
+- Open-Source
 - Orchestration
 - Scaling
 ---

@@ -37,6 +37,6 @@ tags:
 - Careers
 - AI Agents
 - Voice AI
-- Jobs
+- Job
 - Y Combinator
 ---

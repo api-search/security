@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/greentoe/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Retail
 - Marketplace
 - Consumer

@@ -33,10 +33,10 @@ tags:
 - Company
 - Artificial Intelligence
 - Edge Computing
-- Machine Learning
+- Machine-Learning
 - Inference
 - Semiconductors
-- Computer Vision
+- Computer-Vision
 - MLOps
 - Hardware
 ---

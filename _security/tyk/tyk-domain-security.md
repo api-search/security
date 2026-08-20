@@ -274,5 +274,5 @@ tags:
 - API Gateway
 - API Management
 - GraphQL
-- Open Source
+- Open-Source
 ---

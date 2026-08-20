@@ -49,7 +49,7 @@ tags:
 - Video Conferencing
 - WebRTC
 - Real-Time Communication
-- Open Source
+- Open-Source
 - Voice
 - Video
 - SIP

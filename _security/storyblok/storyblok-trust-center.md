@@ -96,6 +96,6 @@ tags:
 - Image Optimization
 - REST API
 - Visual Editor
-- Webhooks
+- Webhook
 trust_url: https://www.storyblok.com/trust-center
 ---

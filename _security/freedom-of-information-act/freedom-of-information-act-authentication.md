@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/freedom-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/authentication/freedom-of-information-act-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Federal Government
+- Federal-Government
 - FOIA
 - Transparency
 ---

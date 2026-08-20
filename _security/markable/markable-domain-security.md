@@ -36,9 +36,9 @@ tags:
 - Social Commerce
 - Influencer Marketing
 - Content Monetization
-- Social Media
+- Social-Media
 - Visual Search
-- Computer Vision
+- Computer-Vision
 - Product Discovery
 - Image Recognition
 - Video Search

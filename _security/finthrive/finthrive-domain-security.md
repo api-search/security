@@ -57,6 +57,6 @@ tags:
 - Insurance
 - Patient Access
 - Analytics
-- SaaS
+- Software-as-a-Service
 - United States
 ---

@@ -51,10 +51,10 @@ tags:
 - Company
 - Banking
 - Fintech
-- Financial Services
+- Financial-Services
 - Payments
 - Open Banking
-- Accounts
-- Transactions
-- OAuth
+- Account
+- Transaction
+- Authentication
 ---

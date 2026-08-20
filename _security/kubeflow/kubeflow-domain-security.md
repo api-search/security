@@ -54,12 +54,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kubeflow/refs/heads/main/security/kubeflow-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- AI
+- Artificial Intelligence
 - Deep Learning
 - Kubernetes
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Model Serving
 - Model Training
-- Open Source
+- Open-Source
 ---

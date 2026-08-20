@@ -105,5 +105,5 @@ tags:
 - Grocery
 - Marketplace
 - Logistics
-- Restaurants
+- Restaurant
 ---

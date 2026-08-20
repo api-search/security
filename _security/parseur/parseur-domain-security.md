@@ -78,7 +78,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/security/parseur-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- AI
 - Artificial Intelligence
 - Document Parsing
 - Document Processing
@@ -88,7 +87,7 @@ tags:
 - Data Extraction
 - Vision AI
 - Automation
-- Webhooks
+- Webhook
 - Mailboxes
-- SaaS
+- Software-as-a-Service
 ---

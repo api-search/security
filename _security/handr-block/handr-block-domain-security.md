@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/handr-block/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Tax Preparation
-- Financial Services
+- Financial-Services
 - Consumer Finance
 - Fortune 1000
 ---

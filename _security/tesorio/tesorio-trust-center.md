@@ -22,9 +22,9 @@ tags:
 - Financial Operations
 - Accounts Receivable
 - Cash Flow
-- Collections
+- Collection
 - Treasury
-- FinTech
+- Fintech
 - MCP
 trust_url: https://security.tesorio.com/
 ---

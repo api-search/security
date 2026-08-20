@@ -39,7 +39,7 @@ tags:
 - Benchmarking
 - Reporting
 - Casino Resorts
-- SaaS
+- Software-as-a-Service
 - Property Management Systems
 - Channel Management
 - Travel Technology

@@ -33,8 +33,8 @@ tags:
 - Consulting
 - Systems Integration
 - Staff Augmentation
-- Managed Services
-- Data and Analytics
+- Managed Service
+- Data & Analytics
 - Enterprise Applications
 - Internet of Things
 - HR Technology

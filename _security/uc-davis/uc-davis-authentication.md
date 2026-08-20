@@ -2,57 +2,69 @@
 api_key_in:
 - header
 api_specs:
+- filename: uc-davis-aggie-experts-api-openapi.yml
+  format: yaml
+  label: Aggie Experts API
+  slug: aggie-experts
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-aggie-experts-api-openapi.yml
+- filename: uc-davis-dams-api-openapi.yml
+  format: yaml
+  label: DAMS API — UC Davis Library Digital Collections
+  slug: dams
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-dams-api-openapi.yml
 - filename: uc-davis-access-api-openapi.yml
   format: yaml
-  label: University of California, Davis Access API
+  label: PEAKS (CAES) — Access API
   slug: uc-davis-access-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-access-api-openapi.yml
 - filename: uc-davis-documents-api-openapi.yml
   format: yaml
-  label: University of California, Davis Documents API
+  label: PEAKS (CAES) — Documents API
   slug: uc-davis-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-documents-api-openapi.yml
 - filename: uc-davis-equipment-api-openapi.yml
   format: yaml
-  label: University of California, Davis Equipment API
+  label: PEAKS (CAES) — Equipment API
   slug: uc-davis-equipment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-equipment-api-openapi.yml
 - filename: uc-davis-keys-api-openapi.yml
   format: yaml
-  label: University of California, Davis Keys API
+  label: PEAKS (CAES) — Keys API
   slug: uc-davis-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-keys-api-openapi.yml
 - filename: uc-davis-keyserials-api-openapi.yml
   format: yaml
-  label: University of California, Davis KeySerials API
+  label: PEAKS (CAES) — KeySerials API
   slug: uc-davis-keyserials-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-keyserials-api-openapi.yml
 - filename: uc-davis-people-api-openapi.yml
   format: yaml
-  label: University of California, Davis People API
+  label: PEAKS (CAES) — People API
   slug: uc-davis-people-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-people-api-openapi.yml
 - filename: uc-davis-peopleadmin-api-openapi.yml
   format: yaml
-  label: University of California, Davis PeopleAdmin API
+  label: PEAKS (CAES) — PeopleAdmin API
   slug: uc-davis-peopleadmin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-peopleadmin-api-openapi.yml
 - filename: uc-davis-spaces-api-openapi.yml
   format: yaml
-  label: University of California, Davis Spaces API
+  label: PEAKS (CAES) — Spaces API
   slug: uc-davis-spaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-spaces-api-openapi.yml
 - filename: uc-davis-workstations-api-openapi.yml
   format: yaml
-  label: University of California, Davis Workstations API
+  label: PEAKS (CAES) — Workstations API
   slug: uc-davis-workstations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-workstations-api-openapi.yml
@@ -85,12 +97,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/uc-davis
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/authentication/uc-davis-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Education
-- Higher Education
 - University
-- Research
+- Higher Education
+- Education
 - United States
 - California
-- Identity
+- UC System
+- Public Research University
+- Research
+- Research Data
+- Identity Federation
+- Digital Collections
+- Library
 - Health
+- Open-Source
 ---

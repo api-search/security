@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/binti/refs/hea
 summary_line: HIPAA, SOC 2 Type II
 tags:
 - Company
-- Govtech
+- GovTech
 - Child Welfare
 - Foster Care
 - Government

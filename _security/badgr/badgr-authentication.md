@@ -85,5 +85,5 @@ tags:
 - Credentialing
 - Verifiable Credentials
 - Education
-- Open Source
+- Open-Source
 ---

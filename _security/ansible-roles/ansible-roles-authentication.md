@@ -75,9 +75,9 @@ summary_line: apiKey · 1 scheme
 tags:
 - Ansible
 - Automation
-- Collections
+- Collection
 - Configuration Management
 - DevOps
-- Infrastructure As Code
+- Infrastructure as Code
 - Roles
 ---

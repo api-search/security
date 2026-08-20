@@ -35,7 +35,7 @@ tags:
 - SmartNIC
 - Ethernet Switch
 - Chips
-- Data Center
+- Data-Center
 - SONiC
 - Hardware
 ---

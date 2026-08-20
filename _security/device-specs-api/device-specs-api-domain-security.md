@@ -45,15 +45,15 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/security/device-specs-api-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
-- mobile
-- smartphones
-- phone-specs
-- chipsets
-- hardware
+- Mobile
+- Smartphones
+- Phone Specs
+- Chipsets
+- Hardware
 - mobile-specs
-- devices
+- Devices
 - rapidapi
 - gsmarena
-- reference-data
-- developer-tools
+- Reference Data
+- Developer Tools
 ---

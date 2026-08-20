@@ -32,11 +32,11 @@ tags:
 - Checkout
 - Shopping Cart
 - Payments
-- eCommerce
-- Subscriptions
+- E-Commerce
+- Subscription
 - Affiliate Marketing
 - Learning Management
 - Creator Economy
-- Webhooks
+- Webhook
 trust_url: ''
 ---

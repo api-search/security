@@ -76,7 +76,7 @@ tags:
 - Event-Driven
 - Microservices
 - Netflix
-- Open Source
+- Open-Source
 - Orchestration
 - Workflow Engine
 - Workflows

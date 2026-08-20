@@ -125,7 +125,7 @@ tags:
 - Self-Hosted
 - DevOps
 - CI/CD
-- Open Source
+- Open-Source
 - Forge
 - Repositories
 - Issues

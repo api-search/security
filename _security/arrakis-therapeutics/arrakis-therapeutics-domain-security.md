@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Biotechnology
-- Pharmaceutical
+- Pharmaceuticals
 - RNA
 - Drug Discovery
 - Genetic Medicine

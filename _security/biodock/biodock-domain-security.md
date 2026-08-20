@@ -62,12 +62,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Image Analysis
 - Microscopy
 - Life Sciences
 - Biotechnology
-- Computer Vision
+- Computer-Vision
 - Cell Analysis
 - Research
 ---

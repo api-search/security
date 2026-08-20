@@ -39,5 +39,5 @@ tags:
 - Indexing
 - GraphQL
 - Subgraphs
-- Multi-chain
+- Multi-Chain
 ---

@@ -53,5 +53,5 @@ tags:
 - Whiteboard
 - Workshops
 - Enterprise
-- OAuth
+- Authentication
 ---

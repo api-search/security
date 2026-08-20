@@ -109,7 +109,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/10web/refs/hea
 summary_line: 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Website Builder
 - WordPress
 - Hosting

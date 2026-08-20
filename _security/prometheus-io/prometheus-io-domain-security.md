@@ -149,9 +149,9 @@ tags:
 - Observability
 - Time Series
 - Alerting
-- Cloud Native
+- Cloud-Native
 - CNCF
-- Open Source
+- Open-Source
 - PromQL
 - Telemetry
 ---

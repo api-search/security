@@ -34,7 +34,7 @@ tags:
 - Charity
 - Fundraising
 - Sweepstakes
-- Nonprofit
+- Non-Profit
 - Donations
 - Payments
 - Entertainment

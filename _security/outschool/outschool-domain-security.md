@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/outschool/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Edtech
+- EdTech
 - Online Learning
 - Education
 - Marketplace

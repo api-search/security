@@ -33,7 +33,7 @@ tags:
 - Company
 - MLOps
 - Data Science
-- Machine Learning
+- Machine-Learning
 - AI Platform
 - Model Monitoring
 - Enterprise AI

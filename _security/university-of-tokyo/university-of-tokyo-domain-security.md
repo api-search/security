@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: university-of-tokyo-archives-portal-openapi.yml
+  format: yaml
+  label: UTokyo Academic Assets Archives Portal API
+  slug: archives-portal
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-archives-portal-openapi.yml
+- filename: university-of-tokyo-archives-portal-openapi.yml
+  format: yaml
+  label: UTokyo IIIF Presentation and Image APIs
+  slug: iiif
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-archives-portal-openapi.yml
+- filename: university-of-tokyo-oai-pmh-openapi.yml
+  format: yaml
+  label: UTokyo OAI-PMH Metadata Harvesting
+  slug: oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-oai-pmh-openapi.yml
+- filename: university-of-tokyo-repository-records-openapi.yml
+  format: yaml
+  label: UTokyo Repository Records API
+  slug: repository-records
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-repository-records-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,14 +65,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/security/university-of-tokyo-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Japan
-- Research
+- Public Research University
+- Research Data
+- Research Repository
 - Library
 - Digital Archives
+- Identity Federation
 - IIIF
-- Open Data
 - OAI-PMH
+- Open Access
+- Metadata
 ---

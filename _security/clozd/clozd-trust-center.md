@@ -64,16 +64,16 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/security/clozd-trust-center.yml
 summary_line: ISO 27001, ISO 27701, SOC 2 Type II
 tags:
-- win-loss-analysis
-- customer-feedback
-- decision-intelligence
-- sales-intelligence
-- market-research
-- competitive-intelligence
-- voice-of-customer
-- revenue-intelligence
-- saas
-- mcp
+- Win-Loss Analysis
+- Customer Feedback
+- Decision Intelligence
+- Sales Intelligence
+- Market Research
+- Competitive Intelligence
+- Voice of Customer
+- Revenue Intelligence
+- Software-as-a-Service
+- MCP
 - agent-native
 trust_url: https://trust.clozd.com
 ---

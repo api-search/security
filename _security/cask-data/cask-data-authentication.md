@@ -42,11 +42,11 @@ tags:
 - Company
 - Developer Tools
 - Data Integration
-- Data Pipelines
+- Data Pipeline
 - ETL
 - Big Data
 - Analytics
-- Open Source
+- Open-Source
 - Hadoop
 - CDAP
 ---

@@ -35,7 +35,7 @@ tags:
 - Health and Beauty
 - Personal Care
 - Grooming
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Shopify
 ---

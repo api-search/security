@@ -44,19 +44,19 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Business Operations
-- SaaS
+- Software-as-a-Service
 - Entrepreneurship
 - Payments
 - Marketing
 - No-Code
 - Startups
 - Artificial Intelligence
-- Backend as a Service
-- Model Context Protocol
+- Backend-as-a-Service
+- MCP
 - Agents
 - Database
 - Authentication
 - Storage
 - Serverless
-- Realtime
+- Real-Time
 ---

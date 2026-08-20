@@ -210,7 +210,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vijil/refs/hea
 summary_line: http/cookie · 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Agents
 - Agent Security
 - AI Safety

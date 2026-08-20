@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Consumer
-- Financial Services
+- Financial-Services
 - Lending
 - Small Business
 - Working Capital

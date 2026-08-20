@@ -39,10 +39,10 @@ tags:
 - Company
 - Delivery
 - Logistics
-- Courier
+- Couriers
 - Last Mile Delivery
 - Route Optimization
 - Fulfillment
 - Local Delivery
-- Webhooks
+- Webhook
 ---

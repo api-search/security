@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/owkin/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Biotech
 - Drug Discovery
 - Healthcare
-- Machine Learning
+- Machine-Learning
 - Precision Medicine
 - Life Sciences
 - Federated Learning

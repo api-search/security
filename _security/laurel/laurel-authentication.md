@@ -273,7 +273,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/laurel/refs/he
 summary_line: http · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Timekeeping
 - Time Tracking
 - Legal

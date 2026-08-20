@@ -39,7 +39,7 @@ tags:
 - Compliance
 - KYC
 - AML
-- Financial Services
+- Financial-Services
 - AI Agents
 - Index Fund
 ---

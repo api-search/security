@@ -108,5 +108,5 @@ tags:
 - Transactional Email
 - Developer Tools
 - SMTP
-- Webhooks
+- Webhook
 ---

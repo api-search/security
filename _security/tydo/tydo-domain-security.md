@@ -30,9 +30,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tydo/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Applications
+- Application
 - Shopify
-- eCommerce
+- E-Commerce
 - Audits
 - AI Agents
 - Analytics

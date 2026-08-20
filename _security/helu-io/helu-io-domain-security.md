@@ -37,7 +37,7 @@ tags:
 - Analytics
 - Accounting
 - DATEV
-- FinTech
+- Fintech
 - Business Intelligence
 - SME
 ---

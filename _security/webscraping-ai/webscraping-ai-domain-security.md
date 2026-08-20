@@ -71,14 +71,12 @@ tags:
 - Proxies
 - Artificial Intelligence
 - Browser Automation
-- Model Context Protocol
+- MCP
 - Development
 - Public APIs
-- ai
-- html
-- mcp
-- llm-tools
-- structured-data
-- headless-browser
-- captcha
+- HTML
+- LLM Tools
+- Structured Data
+- Headless Browser
+- CAPTCHA
 ---

@@ -126,6 +126,6 @@ tags:
 - Private Markets
 - Wealth Management
 - Investment Management
-- Financial Services
+- Financial-Services
 - Data Aggregation
 ---

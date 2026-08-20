@@ -33,14 +33,14 @@ tags:
 - Company
 - Enterprise
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - On-Device Inference
 - Speech Recognition
-- Speech to Text
+- Speech-to-Text
 - Transcription
 - Speaker Diarization
-- Image Generation
-- SDKs
+- Image-Generation
+- SDK
 - Apple Silicon
 - Edge AI
 ---

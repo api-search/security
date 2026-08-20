@@ -138,15 +138,15 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/security/hookdeck-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Webhooks
+- Webhook
 - Event Gateways
 - Gateways
-- Events
+- Event
 - Event Infrastructure
 - Event-Driven
 - Messaging
 - Queues
 - Retries
-- Transformations
+- Transformation
 - Observability
 ---

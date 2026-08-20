@@ -31,12 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/letswork/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Coworking
+- Co-Working
 - Workspace
 - Booking
 - Marketplace
-- Real Estate
+- Real-Estate
 - Productivity
-- Future of Work
+- Future Of Work
 - Travel
 ---

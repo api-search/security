@@ -123,9 +123,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/
 summary_line: http · 2 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Investing
-- Real Estate
+- Real-Estate
 - Private Credit
 - Venture Capital
 - Alternative Assets

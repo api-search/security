@@ -32,9 +32,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Marketplace
-- Real Estate
+- Real-Estate
 - Property Management
-- Rental
-- Proptech
+- Rentals
+- PropTech
 - France
 ---

@@ -33,7 +33,7 @@ tags:
 - Company
 - Networking
 - Network Operating System
-- Cloud Native
+- Cloud-Native
 - SDN
 - Infrastructure
 - Defunct

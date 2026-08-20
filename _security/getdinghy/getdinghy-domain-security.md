@@ -29,9 +29,9 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Freelancers
 - Contractors
 - United Kingdom
-- Financial Services
+- Financial-Services
 ---

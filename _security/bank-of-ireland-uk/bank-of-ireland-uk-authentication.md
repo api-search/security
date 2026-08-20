@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: well-known/bank
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/authentication/bank-of-ireland-uk-authentication.yml
 summary_line: oauth2/openIdConnect/mutualTLS · 4 schemes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

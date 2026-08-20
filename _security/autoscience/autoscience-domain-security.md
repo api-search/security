@@ -30,8 +30,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autoscience/re
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Ai
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - AI Research
 - Automated Research
 - Model Training

@@ -67,7 +67,7 @@ tags:
 - Data Preparation
 - Data Science
 - ETL
-- Machine Learning
+- Machine-Learning
 - Predictive Analytics
 trust_url: https://trust.alteryx.com/
 ---

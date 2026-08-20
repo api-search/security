@@ -45,7 +45,7 @@ tags:
 - Payments
 - Payment Gateway
 - Fintech
-- E-commerce
+- E-Commerce
 - Card Payments
 - Azerbaijan
 - Apple Pay

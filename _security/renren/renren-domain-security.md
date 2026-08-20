@@ -33,7 +33,7 @@ tags:
 - Company
 - Consumer
 - Social Networking
-- Social Media
+- Social-Media
 - Web
 - China
 ---

@@ -37,6 +37,6 @@ tags:
 - Co-Lending
 - Securitisation
 - Supply Chain Finance
-- Financial Services
+- Financial-Services
 - India
 ---

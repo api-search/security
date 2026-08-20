@@ -79,10 +79,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/v7-labs/refs/heads/main/security/v7-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Training Data
 - Data Labeling
 - Annotation
 - Document AI
-- Computer Vision
+- Computer-Vision
 ---

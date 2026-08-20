@@ -191,11 +191,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/just-eat/refs/
 summary_line: TLSv1.2 · DMARC
 tags:
 - Food Delivery
-- Restaurants
+- Restaurant
 - Marketplace
 - Logistics
-- Orders
+- Order
 - Delivery
-- Point of Sale
-- E-commerce
+- Point-of-Sale
+- E-Commerce
 ---

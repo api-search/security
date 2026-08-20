@@ -34,7 +34,7 @@ tags:
 - Artificial Intelligence
 - Defense
 - National Security
-- Machine Learning
+- Machine-Learning
 - Autonomous Systems
 - Government
 ---

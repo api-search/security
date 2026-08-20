@@ -26,7 +26,7 @@ tags:
 - Design Systems
 - React
 - Components
-- AI
+- Artificial Intelligence
 - Developer Tools
 trust_url: https://www.uxpin.com/security
 ---

@@ -47,7 +47,7 @@ tags:
 - Acquiring
 - Card Payments
 - In-Person Payments
-- 3-D Secure
+- 3D Secure
 - Recurring Payments
-- Webhooks
+- Webhook
 ---

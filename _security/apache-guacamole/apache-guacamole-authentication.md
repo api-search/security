@@ -68,7 +68,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-guacamo
 summary_line: apiKey · 1 scheme
 tags:
 - Apache
-- Open Source
+- Open-Source
 - RDP
 - Remote Access
 - Remote Desktop

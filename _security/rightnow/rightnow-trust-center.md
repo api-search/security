@@ -64,12 +64,12 @@ summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - LLM Inference
 - GPU
 - Model Deployment
 - Serverless
-- OpenAI Compatible
+- OpenAI-Compatible
 - Embeddings
 - MLOps
 trust_url: https://runinfra.ai/security

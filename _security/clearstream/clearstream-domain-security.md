@@ -33,11 +33,11 @@ tags:
 - Capital Markets
 - Collateral Management
 - Custody
-- Financial Services
+- Financial-Services
 - ISO 15022
 - ISO 20022
 - Post-Trade Infrastructure
 - Securities
 - Settlement
-- SWIFT
+- Swift
 ---

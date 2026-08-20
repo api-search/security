@@ -34,7 +34,7 @@ tags:
 - T-Shirts
 - Print on Demand
 - Promotional Products
-- eCommerce
+- E-Commerce
 - Design
 - No Public API
 ---

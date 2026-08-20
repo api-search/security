@@ -32,7 +32,7 @@ tags:
 - Travel
 - Trip Planning
 - Group Travel
-- Experiences
+- Experience
 - Booking
 - Mobile App
 - Tourism

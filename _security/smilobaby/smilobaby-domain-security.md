@@ -35,5 +35,5 @@ tags:
 - E-Commerce
 - Retail
 - Parenting
-- Direct-to-Consumer
+- Direct to Consumer
 ---

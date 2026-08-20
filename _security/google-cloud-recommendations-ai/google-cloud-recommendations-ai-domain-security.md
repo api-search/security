@@ -52,7 +52,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Commerce
 - Google Cloud
-- Machine Learning
+- Machine-Learning
 - Personalization
 - Recommendations
 - Retail

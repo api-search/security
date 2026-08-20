@@ -34,7 +34,7 @@ tags:
 - Pharmaceutical Manufacturing
 - Life Sciences
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Manufacturing Intelligence
 - GxP
 - Data Platform

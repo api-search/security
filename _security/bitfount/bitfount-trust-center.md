@@ -20,7 +20,7 @@ summary_line: ISO 27001
 tags:
 - Company
 - Federated Learning
-- Machine Learning
+- Machine-Learning
 - Data Science
 - Privacy
 - Artificial Intelligence

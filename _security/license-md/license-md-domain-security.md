@@ -36,7 +36,7 @@ tags:
 - Compliance
 - Legal
 - Licensing
-- Open Source
+- Open-Source
 - SPDX
 - License
 ---

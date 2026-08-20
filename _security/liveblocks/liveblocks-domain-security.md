@@ -102,6 +102,6 @@ tags:
 - Yjs
 - Comments
 - Threads
-- Notifications
+- Notification
 - WebSockets
 ---

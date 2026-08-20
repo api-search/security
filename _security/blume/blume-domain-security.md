@@ -34,7 +34,7 @@ tags:
 - Skincare
 - Beauty
 - Self-Care
-- E-commerce
+- E-Commerce
 - Consumer
 - Shopify
 - Agent Commerce

@@ -36,6 +36,6 @@ tags:
 - Corporate Events
 - Hospitality
 - Travel
-- SaaS
+- Software-as-a-Service
 - Meetings and Events
 ---

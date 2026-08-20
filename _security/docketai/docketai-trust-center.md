@@ -30,6 +30,5 @@ tags:
 - Lead Qualification
 - Go-To-Market
 - MCP
-- Model Context Protocol
 trust_url: https://security.docketai.com/
 ---

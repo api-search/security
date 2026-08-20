@@ -30,7 +30,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Medical Devices
-- Health Care
+- Healthcare
 - Cardiology
 - Heart Failure
 - Clinical Trials

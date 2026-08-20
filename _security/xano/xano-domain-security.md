@@ -73,9 +73,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xano/refs/heads/main/security/xano-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- No Code
-- Backend as a Service
-- BaaS
+- No-Code
+- Backend-as-a-Service
 - API Builder
 - Database
 - Serverless

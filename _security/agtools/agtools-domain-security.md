@@ -38,5 +38,5 @@ tags:
 - Commodities
 - Market Intelligence
 - Forecasting
-- SaaS
+- Software-as-a-Service
 ---

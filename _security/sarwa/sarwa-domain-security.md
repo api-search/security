@@ -34,7 +34,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sarwa/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Investing
 - Wealth Management
 - Robo-Advisor

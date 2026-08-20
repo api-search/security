@@ -97,7 +97,7 @@ tags:
 - Social Networking
 - Decentralized
 - Federated
-- Open Source
+- Open-Source
 - Bluesky
 - Fediverse
 - Identity

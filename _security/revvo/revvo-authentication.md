@@ -92,5 +92,4 @@ tags:
 - Telematics
 - IoT
 - Logistics
-- API
 ---

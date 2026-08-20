@@ -34,7 +34,7 @@ tags:
 - Robotics
 - Aerospace
 - Defense
-- Hard Tech
+- Hardtech
 - UAV
 - Surveillance
 - Y Combinator

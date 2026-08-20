@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vonage-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/authentication/vonage-authentication.yml
 summary_line: http · 2 schemes
 tags:
-- Communication
+- Communications
 - Messaging
 - Telecommunications
 - Video Conferencing

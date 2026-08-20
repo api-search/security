@@ -36,10 +36,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/serval/refs/he
 summary_line: http-basic/http-bearer/oauth2 · 0 schemes
 tags:
 - Company
-- IT Service Management
 - ITSM
 - Help Desk
-- Workflow Automation
+- Workflow-Automation
 - AI Agents
 - Access Management
 - Employee Support

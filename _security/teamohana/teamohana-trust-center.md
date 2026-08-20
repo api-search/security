@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teamohana/refs
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- Hr Tech
+- HR Tech
 - Headcount Management
 - Headcount Planning
 - Workforce Planning
@@ -52,6 +52,6 @@ tags:
 - Talent Acquisition
 - Finance
 - SCIM
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.teamohana.com/
 ---

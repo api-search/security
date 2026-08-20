@@ -29,7 +29,7 @@ tags:
 - Company
 - Footwear
 - Fashion
-- Ecommerce
+- E-Commerce
 - Retail
 - Accessories
 - Handbags

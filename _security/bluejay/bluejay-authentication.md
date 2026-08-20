@@ -392,7 +392,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/h
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Agents
 - Voice AI
 - Conversational AI

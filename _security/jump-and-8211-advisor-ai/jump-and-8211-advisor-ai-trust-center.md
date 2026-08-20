@@ -26,6 +26,6 @@ tags:
 - Fintech
 - AI Assistant
 - Meeting Notes
-- Integrations
+- Integration
 trust_url: https://security.jump.ai/
 ---

@@ -49,7 +49,7 @@ summary_line: http · 1 scheme
 tags:
 - Cloud Storage
 - File Storage
-- Files
+- File
 - Microsoft
-- Microsoft 365
+- Microsoft-365
 ---

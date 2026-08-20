@@ -24,11 +24,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/giveffect/refs
 summary_line: 0 schemes
 tags:
 - Company
-- Nonprofit
+- Non-Profit
 - Fundraising
 - CRM
 - Donations
 - Volunteer Management
 - Marketing Automation
-- SaaS
+- Software-as-a-Service
 ---

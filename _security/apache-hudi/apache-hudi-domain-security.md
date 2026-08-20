@@ -53,5 +53,5 @@ tags:
 - Data Lake
 - Incremental Processing
 - Lakehouse
-- Open Source
+- Open-Source
 ---

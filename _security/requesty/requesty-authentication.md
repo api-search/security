@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/requesty
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/authentication/requesty-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Routing
 - Gateway

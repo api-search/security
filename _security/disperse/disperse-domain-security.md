@@ -34,8 +34,8 @@ tags:
 - Enterprise
 - Construction
 - Construction Technology
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Reality Capture
 - Progress Tracking
 - BIM

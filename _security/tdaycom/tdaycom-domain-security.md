@@ -35,7 +35,7 @@ tags:
 - Content Generation
 - Design
 - Video
-- Social Media
+- Social-Media
 - Developer Tools
 - MCP
 - Agents

@@ -113,16 +113,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/security/e2b-dev-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Code Execution
 - Code Interpreter
 - Sandboxes
 - Firecracker
-- microVMs
+- MicroVMs
 - Computer Use
 - Desktop Sandbox
 - Templates
 - MCP
-- Open Source
+- Open-Source
 ---
