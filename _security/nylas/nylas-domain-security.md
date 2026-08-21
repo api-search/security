@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: nylas-api.yaml
+  format: yaml
+  label: Nylas API
+  slug: nylas-api
+  spec_type: OpenAPI
+  url: https://developer.nylas.com/_spec-files/nylas-api.yaml
 - filename: nylas-admin-api-openapi.yml
   format: yaml
   label: Nylas Admin API
@@ -60,6 +66,24 @@ api_specs:
   slug: nylas-threads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-threads-api-openapi.yml
+- filename: nylas-notifications-api-openapi.yml
+  format: yaml
+  label: Nylas Notifications API
+  slug: nylas-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-notifications-api-openapi.yml
+- filename: nylas-notetaker-api-openapi.yml
+  format: yaml
+  label: Nylas Notetaker API
+  slug: nylas-notetaker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-notetaker-api-openapi.yml
+- filename: nylas-templates-workflows-api-openapi.yml
+  format: yaml
+  label: Nylas Templates and Workflows API
+  slug: nylas-templates-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-templates-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []

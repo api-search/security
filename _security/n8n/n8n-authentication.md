@@ -86,6 +86,12 @@ api_specs:
   slug: n8n-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-workflow-api-openapi.yml
+- filename: openapi.yml
+  format: yaml
+  label: n8n Public API
+  slug: n8n-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/n8n-io/n8n-docs/main/docs/api/v1/openapi.yml
 auth_types:
 - apiKey
 - http
@@ -96,8 +102,8 @@ method: derived
 name: N8N Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: N8n secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: N8n
+overview: n8n secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: n8n
 provider_slug: n8n
 scheme_count: 2
 schemes:
@@ -124,4 +130,12 @@ tags:
 - Agents
 - Artificial Intelligence
 - Integration
+- Workflow Automation
+- iPaaS
+- No-Code
+- Low-Code
+- AI Agents
+- Orchestration
+- DevOps
+- MCP
 ---

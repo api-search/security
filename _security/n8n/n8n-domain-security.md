@@ -84,6 +84,12 @@ api_specs:
   slug: n8n-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-workflow-api-openapi.yml
+- filename: openapi.yml
+  format: yaml
+  label: n8n Public API
+  slug: n8n-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/n8n-io/n8n-docs/main/docs/api/v1/openapi.yml
 description: ''
 domains:
 - caa:
@@ -128,8 +134,8 @@ layout: security
 method: probed
 name: N8N Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for N8n, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
-provider_name: N8n
+overview: 'Domain security posture for n8n, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+provider_name: n8n
 provider_slug: n8n
 slug: n8n-domain-security
 source_filename: n8n-domain-security.yml
@@ -142,4 +148,12 @@ tags:
 - Agents
 - Artificial Intelligence
 - Integration
+- Workflow Automation
+- iPaaS
+- No-Code
+- Low-Code
+- AI Agents
+- Orchestration
+- DevOps
+- MCP
 ---

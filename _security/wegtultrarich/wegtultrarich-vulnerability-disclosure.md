@@ -5,7 +5,7 @@ api_specs:
   label: We > Ultrarich MCP Server
   slug: wegtultrarich-mcp-server
   spec_type: Postman
-  url: https://www.postman.com/wegtultrarich/we-ultrarich-extreme-wealth-api-mcp/collection/6a68bfdcf1d9df57e26c3545
+  url: https://www.postman.com/wegtultrarich/we-ultrarich-extreme-wealth-api-mcp-server/collection/6a68bfdcf1d9df57e26c3545
 - filename: wegtultrarich-comparison-api-openapi.yml
   format: yaml
   label: We > Ultrarich Comparison API

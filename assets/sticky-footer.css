@@ -1,10 +1,16 @@
-/* Sticky footer styles
+/* Sticky footer + footer layout
 --------------------------------------------------
-   Flexbox, not the old fixed-60px absolute footer. The footer now carries ten
-   links (About + Add API moved down out of the top-level nav), which wraps to
-   two rows on a phone — a fixed-height absolute footer would have overlapped
-   the page content. `margin-top: auto` still pins it to the bottom of short
-   pages, at whatever height its contents need.
+   Flexbox, not the old fixed-60px absolute footer. As of 2026-07-28 the footer
+   is a five-column link grid (Catalog / Artifacts / Signals / Platform /
+   APIs.io) plus a legal bar, built from _data/nav.yml by _includes/footer.html.
+   It is a crawl surface for a 32-site, ~300k-page network, not decoration —
+   which is why it carries real sections rather than the flat ten-link legal row
+   it used to be. `margin-top: auto` still pins it to the bottom of short pages,
+   at whatever height its contents need.
+
+   The .footer colour/link rules used to live in the inline <style> block of
+   _shared/_layouts/default.html. They're here now so all footer styling is in
+   one file.
 */
 html {
   position: relative;
@@ -21,9 +27,84 @@ body > main {
   flex-shrink: 0;
   margin-top: auto;
   width: 100%;
-  background-color: #f5f5f5;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
 }
-.footer .footer-links {
-  min-height: 60px;
+
+/* ---- Link grid ---- */
+.footer .footer-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1.25rem 1.5rem;
+  padding: 2.25rem 0 1.5rem;
+}
+.footer .footer-col-title {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  font-weight: 700;
+  color: #212529;
+  margin-bottom: 0.6rem;
+}
+.footer .footer-col-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .footer-col-list li {
+  margin-bottom: 0.35rem;
+}
+.footer a {
+  color: #555;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+.footer a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* ---- Legal bar ---- */
+.footer .footer-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1.25rem;
+  border-top: 1px solid #e9ecef;
   padding: 0.9rem 0;
+}
+.footer .footer-copy {
+  color: #6c757d;
+  font-size: 0.825rem;
+}
+.footer .footer-legal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.25rem;
+}
+.footer .footer-legal a {
+  font-size: 0.825rem;
+}
+
+/* Tablet: five columns are too narrow to hold "JSON Structure" on one line. */
+@media (max-width: 991px) {
+  .footer .footer-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding-top: 1.75rem;
+  }
+}
+
+/* Phone: two columns keeps the footer from becoming a mile-long single stack. */
+@media (max-width: 575px) {
+  .footer .footer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  .footer .footer-bar {
+    justify-content: center;
+  }
+  .footer .footer-legal {
+    justify-content: center;
+  }
 }

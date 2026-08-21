@@ -84,6 +84,12 @@ api_specs:
   slug: n8n-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-workflow-api-openapi.yml
+- filename: openapi.yml
+  format: yaml
+  label: n8n Public API
+  slug: n8n-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/n8n-io/n8n-docs/main/docs/api/v1/openapi.yml
 certifications:
 - SOC 2
 - GDPR
@@ -92,8 +98,8 @@ kind: trust-center
 layout: security
 name: N8N Trust Center
 name_suffix: Trust Center
-overview: N8n maintains a public trust center documenting SOC 2 and GDPR compliance.
-provider_name: N8n
+overview: n8n maintains a public trust center documenting SOC 2 and GDPR compliance.
+provider_name: n8n
 provider_slug: n8n
 slug: n8n-trust-center
 source_filename: n8n-trust-center.yml
@@ -106,5 +112,13 @@ tags:
 - Agents
 - Artificial Intelligence
 - Integration
+- Workflow Automation
+- iPaaS
+- No-Code
+- Low-Code
+- AI Agents
+- Orchestration
+- DevOps
+- MCP
 trust_url: https://trust.n8n.io/
 ---
