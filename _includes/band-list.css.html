@@ -35,18 +35,84 @@
   .band-group-body::-webkit-scrollbar { width: 10px; }
   .band-group-body::-webkit-scrollbar-thumb { background: #cdd6e4; border-radius: 999px; border: 3px solid #fff; }
 
-  .band-row { display: grid; grid-template-columns: minmax(9rem, 15rem) 1fr auto; gap: 0.75rem; align-items: baseline;
+  /* FOUR TRACKS, AND EVERY CELL NAMES ITS OWN.
+     The row emits up to four children — name, middle (tags or description),
+     meta, glyph — and any of the last three can be absent on a given provider.
+     This grid used to declare three tracks and let them auto-place, so a rated
+     provider's fourth cell (the K'in sun) wrapped onto a second line under the
+     name, and a provider with no description slid its meta cell left into the
+     description track. Neither is a spacing tweak away from correct: the cure is
+     explicit `grid-column` on each cell, which is why every rule below carries
+     one. Add a cell, give it a column.
+
+     `grid-row: 1` on every child is HALF the fix and the half that is easy to
+     miss. `grid-column` pins the column and leaves the ROW auto, and grid's
+     default sparse auto-placement never moves its cursor backwards — so the
+     glyph, which is the LAST child but sits in column 1 under layout='kin',
+     was placed on a second row underneath the name. Pinning the row is what
+     lets a cell's DOM position and its column disagree. */
+  .band-row { display: grid; grid-template-columns: minmax(9rem, 15rem) 1fr auto auto; gap: 0.75rem; align-items: baseline;
               padding: 0.55rem 1rem; border-bottom: 1px solid #f4f6f9; text-decoration: none; color: inherit; }
+  .band-row > * { grid-row: 1; }
   .band-row:last-child { border-bottom: none; }
   .band-row:hover { background: #f7f9fc; }
-  .band-row-name { font-weight: 600; color: #1a1a2e; font-size: 0.9rem; }
+  .band-row-name { grid-column: 1; font-weight: 600; color: #1a1a2e; font-size: 0.9rem; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .band-row:hover .band-row-name { color: #0d6efd; }
-  .band-row-desc { font-size: 0.82rem; color: #6c757d; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .band-row-meta { display: flex; gap: 0.6rem; align-items: baseline; font-size: 0.75rem; color: #8a94a6; font-variant-numeric: tabular-nums; white-space: nowrap; }
-  .band-row-score { font-weight: 700; color: #4a5568; }
+  .band-row-desc { grid-column: 2; min-width: 0; font-size: 0.82rem; color: #6c757d; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .band-row-tags { grid-column: 2; min-width: 0; display: flex; flex-wrap: nowrap; overflow: hidden; gap: 0.3rem; align-items: baseline; }
+  .band-tag { flex: 0 0 auto; font-size: 0.7rem; line-height: 1.5; padding: 0.05em 0.55em; border-radius: 999px; background: #eef2f7; color: #5a6570; white-space: nowrap; }
+  .band-row:hover .band-tag { background: #e3ebf6; }
+  .band-row-meta { grid-column: 3; justify-self: end; display: flex; gap: 0.6rem; align-items: baseline; font-size: 0.75rem; color: #8a94a6; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  /* Fixed cells inside the meta group so the numerals stack into a true column
+     down the listing instead of ragging with the API count's width. */
+  .band-row-apis { min-width: 3.6rem; text-align: right; }
+  .band-row-score { min-width: 2.4rem; text-align: right; font-weight: 700; color: #4a5568; }
+
+  /* layout='kin' — sun | name | tags | score, used by the /tags/<slug>/ pages.
+     Column ORDER only: the markup band-list.html emits is identical, so the
+     default anatomy on the other 35 sites is untouched by anything here.
+
+     EVERY TRACK IS A FIXED LENGTH, and that is the point. Each row is its own
+     grid container — nothing here is a table — so a content-sized track
+     (`auto`, `max-content`, `minmax(9rem,15rem)`) resolves PER ROW and the
+     listing rags: "Twilio" and "Cvent Event Cloud" get different name widths and
+     the four cells never stack into columns. Fixed tracks + a single `1fr` are
+     identical in every row of the group, which is what makes these four actual
+     columns. Do not "improve" one of them back to `auto`.
+
+     3rem reserves the 44px sun whether or not it has painted yet — the glyph is
+     drawn by JS after load, and an unreserved track would shift every row
+     sideways the moment it runs. */
+  .band-list-kin .band-row { grid-template-columns: 3rem 15rem minmax(0, 1fr) 7.5rem; align-items: center; }
+  .band-list-kin .kin-row-glyph { grid-column: 1; width: 44px; height: 44px; margin-left: 0; }
+  .band-list-kin .band-row-name { grid-column: 2; }
+  .band-list-kin .band-row-desc,
+  .band-list-kin .band-row-tags { grid-column: 3; }
+  .band-list-kin .band-row-meta { grid-column: 4; }
+
+  /* The sun is hidden below 767px (see the rule at the foot of this file), so
+     its track has to go with it or every row carries 3rem of dead gutter. */
+  @media (max-width: 767px) {
+    .band-list-kin .band-row { grid-template-columns: 15rem minmax(0, 1fr) 7.5rem; }
+    .band-list-kin .band-row-name { grid-column: 1; }
+    .band-list-kin .band-row-desc,
+    .band-list-kin .band-row-tags { grid-column: 2; }
+    .band-list-kin .band-row-meta { grid-column: 3; }
+  }
+
   @media (max-width: 700px) {
-    .band-row { grid-template-columns: 1fr auto; }
-    .band-row-desc { display: none; }
+    /* Phone: the middle column goes and the name takes the slack. The sun is
+       already display:none by 767px, so it needs no track here — a hidden grid
+       item occupies none. */
+    .band-row { grid-template-columns: minmax(0, 1fr) auto; }
+    .band-row-desc, .band-row-tags { display: none; }
+    .band-row-meta { grid-column: 2; }
+    /* Phone: name and score only. The 767px block above already dropped the
+       sun's track, so this just drops the tags' — and it must re-state the
+       columns because it is the LATER rule of the two. */
+    .band-list-kin .band-row { grid-template-columns: minmax(0, 1fr) 7.5rem; }
+    .band-list-kin .band-row-name { grid-column: 1; }
+    .band-list-kin .band-row-meta { grid-column: 2; }
   }
   .band-empty { color: #8a94a6; font-size: 0.9rem; padding: 1rem 0; }
   /* Disclosure line closing a capped band group — see band-list.html. */
@@ -54,7 +120,11 @@
   .band-truncated a { color: #0d6efd; font-weight: 600; text-decoration: none; }
   .band-truncated a:hover { text-decoration: underline; }
 
-.kin-row-glyph { line-height: 0; flex: 0 0 auto; margin-left: 0.75rem; }
+/* grid-column 4 by default, 1 under .band-list-kin — both set above. `align-self`
+   matters: the row is baseline-aligned and the glyph is a 44px box with
+   line-height 0, so without it the sun hangs its bottom edge off the text
+   baseline and stretches the row. */
+.kin-row-glyph { grid-column: 4; align-self: center; line-height: 0; margin-left: 0.75rem; }
 .kin-row-glyph svg { display: block; }
 @media (max-width: 767px) { .kin-row-glyph { display: none; } }
 </style>

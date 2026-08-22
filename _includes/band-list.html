@@ -15,19 +15,44 @@
   pairs, so a full row per pair is ~200 MB of data. They pass slug STRINGS in
   `group.items` plus a shared `rows` lookup table, and the join happens here.
 
+  EVERY ROW IS A FOUR-COLUMN GRID, and each cell declares its OWN column in
+  band-list.css.html rather than relying on auto-placement. That is the fix for
+  the jumble on /tags/<slug>/: the row emits up to four cells (name, middle,
+  meta, glyph) but the grid declared only three tracks, so on a rated provider
+  the K'in sun wrapped onto a second line underneath the name, and on a provider
+  with no description the meta cell slid left into the description track. Cells
+  are optional and the column each one lands in is not, so a row missing any of
+  them still lines up with every other row in the group.
+
   Params:
     bands      - array of {band,label,blurb,open,count,items} from group_by_band()
     rows       - OPTIONAL slug -> row map. When present, each `items` entry is
                  read as a slug into it instead of as the row itself.
     link_base  - URL prefix for each item (default /providers/)
+    layout     - OPTIONAL 'kin' to lead each row with the K'in sun:
+                 sun | name | tags | score. The default keeps the network's
+                 shared listing anatomy — name | description | meta | sun —
+                 because 30+ capability sites and apievangelist.com render the
+                 sun on the far right. Only the column ORDER changes; the markup
+                 is identical either way, so nothing else has to branch.
+    omit_tag   - OPTIONAL tag label to leave OUT of every row's tag chips. A tag
+                 page passes its own name: every provider on /tags/video/ is
+                 tagged Video, so repeating it 1,000 times says nothing and eats
+                 the width the other tags need.
     more_url   - OPTIONAL destination for the "see them all" link a capped group shows
     empty_text - shown when there are no items at all
+
+  The middle cell shows `item.tags` when the row carries them and falls back to
+  `item.description`. Tag chips are plain text, never links: the whole row is an
+  <a>, and a nested anchor is invalid HTML that browsers silently unnest.
 {% endcomment %}
 {% assign _base = include.link_base | default: '/providers/' %}
 {% assign _rows = include.rows %}
+{% if include.layout == 'kin' %}{% assign _variant = ' band-list-kin' %}{% else %}{% assign _variant = '' %}{% endif %}
+{% assign _omit = include.omit_tag %}
 
 {% if include.bands and include.bands.size > 0 %}
-<div class="band-list">
+<div class="band-list{{ _variant }}">
   {% for group in include.bands %}
   <details class="band-group band-group-{{ group.band }}"{% if group.open %} open{% endif %}>
     <summary>
@@ -54,12 +79,15 @@
       {%- if item -%}
       <a class="band-row" href="{{ _base }}{{ _slug }}/"
         ><span class="band-row-name">{{ item.name }}</span
-        >{% if item.description and item.description != '' %}<span class="band-row-desc">{{ item.description | strip_html | truncate: 110 }}</span>{% endif %}<span class="band-row-meta"
+        >{% if item.tags and item.tags.size > 0 %}<span class="band-row-tags">{% for t in item.tags %}{% unless t == _omit %}<span class="band-tag">{{ t }}</span>{% endunless %}{% endfor %}</span>{% elsif item.description and item.description != '' %}<span class="band-row-desc">{{ item.description | strip_html | truncate: 110 }}</span>{% endif %}<span class="band-row-meta"
           >{% if item.api_count and item.api_count > 0 %}<span class="band-row-apis">{{ item.api_count }} API{% if item.api_count != 1 %}s{% endif %}</span>{% endif %}{% if item.score_composite %}<span class="band-row-score">{{ item.score_composite | round: 1 }}</span>{% endif %}</span
         >{%- comment -%}
-          The K'in sun, far right of the row — the listing anatomy shared with
-          apievangelist.com. Only where a facet breakdown exists; the home-page
-          quick list deliberately shows the number alone, no sun.
+          The K'in sun. Far right of the row by default — the listing anatomy
+          shared with apievangelist.com — and FIRST under layout='kin', which
+          the tag pages use. Emitted here in the same place either way; the
+          column it lands in is CSS, so this loop never branches on layout.
+          Only where a facet breakdown exists; the home-page quick list
+          deliberately shows the number alone, no sun.
           See api-evangelist/kin-score/glyph/GLYPH.md.
         {%- endcomment -%}
         {%- if item.score_composite and item.facets -%}
