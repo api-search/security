@@ -1,0 +1,285 @@
+{%- comment -%}
+  cohort-brief.html — the auto-generated brief on every tag / industry / area / region / VC page.
+  Roadmap#79.
+
+  ONE shared file rather than a copy per site: copy_shared() in bootstrap-sites.py copies
+  network/_includes wholesale AND PRUNES anything the network does not have, so a per-site copy
+  would be deleted on the next bootstrap run.
+
+  Data: <section>/_data/cohort_brief.json, written by network/scripts/build_cohort_briefs.mjs from
+  the SAME functions the /v1/cohorts/{kind}/{slug} endpoints serve. Nothing is computed in Liquid —
+  a number rendered here that the API would not return is the one thing this must never do.
+
+  Renders only where the generator wrote an entry, which is only the `brief` tier and above. Below
+  that the block is simply absent: a distribution over four providers is not a small brief, it is a
+  wrong one, and MIN_COHORT exists to stop it being published.
+
+  WHAT THIS BLOCK DELIBERATELY DOES NOT SAY
+
+  It never calls a cohort a "market". 1,171 of the 1,243 briefs are tags, and the tag vocabulary
+  mixes real markets (`payments`, `open-banking`) with API resource nouns lifted out of OpenAPI
+  operations (`activities`, `addresses`, `webhooks`). "The FinOps market scores 45.8" is a claim;
+  "the 30 providers in the catalog tagged FinOps score 45.8" is a measurement, and it is true for
+  every kind on the ladder. So the population sentence states the roster and nothing more.
+
+  CSS is `cb-`-prefixed and self-contained. The five detail layouts each define their own
+  .section-anchor / .breakdown-card / .stat-badge with different rules, and this block has to look
+  the same on all of them.
+{%- endcomment -%}
+{%- assign _cb_data = site.data.cohort_brief -%}
+{%- assign _cb = _cb_data.briefs[page.slug] -%}
+{%- if _cb -%}
+{%- assign kind = site.nav_active -%}
+{%- case kind -%}
+  {%- when 'tags' -%}       {%- assign roster = 'providers in the APIs.io catalog tagged' -%}
+  {%- when 'industries' -%} {%- assign roster = 'providers in the APIs.io catalog classified under' -%}
+  {%- when 'areas' -%}      {%- assign roster = 'providers in the APIs.io catalog working in' -%}
+  {%- when 'regions' -%}    {%- assign roster = 'providers in the APIs.io catalog based in' -%}
+  {%- when 'vcs' -%}        {%- assign roster = 'portfolio companies with APIs in the catalog, backed by' -%}
+  {%- else -%}              {%- assign roster = 'providers in the APIs.io catalog in' -%}
+{%- endcase -%}
+
+<style>
+  .cb-wrap { margin: 2rem 0; }
+  .cb-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.6rem; margin: 2rem 0 0.35rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e3e7ee; }
+  .cb-head h2 { font-size: 1.2rem; font-weight: 700; color: #1a1a2e; margin: 0; }
+  .cb-auto { font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #6c757d; background: #eef2f7; border-radius: 999px; padding: 0.2em 0.7em; }
+  .cb-lede { font-size: 0.9rem; color: #4a5568; margin: 0 0 1.1rem; }
+  .cb-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 0.85rem; margin-bottom: 1.4rem; }
+  .cb-stat { background: white; border: 1px solid #e3e7ee; border-radius: 10px; padding: 0.9rem 1rem; }
+  .cb-stat .cb-l { font-size: 0.72rem; color: #6c757d; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 0.25rem; }
+  .cb-stat .cb-v { font-size: 1.5rem; font-weight: 700; color: #1a1a2e; line-height: 1.1; }
+  .cb-stat .cb-s { font-size: 0.74rem; color: #9aa3b2; margin-top: 0.2rem; }
+  .cb-up { color: #0f5132; font-weight: 600; }
+  .cb-down { color: #842029; font-weight: 600; }
+  .cb-flat { color: #6c757d; font-weight: 600; }
+  .cb-sub { font-size: 0.95rem; font-weight: 700; color: #1a1a2e; margin: 1.5rem 0 0.6rem; }
+  .cb-bands { display: flex; width: 100%; height: 26px; border-radius: 6px; overflow: hidden; border: 1px solid #e3e7ee; background: #f8f9fb; }
+  .cb-bands span { display: block; height: 100%; }
+  .cb-b-exemplar { background: #0f5132; }
+  .cb-b-strong { background: #2f9e5f; }
+  .cb-b-developing { background: #7cc4a0; }
+  .cb-b-thin { background: #ffd68a; }
+  .cb-b-emerging { background: #f0a868; }
+  .cb-b-minimal { background: #e3e7ee; }
+  .cb-b-other { background: #c4c9d4; }
+  .cb-legend { display: flex; flex-wrap: wrap; gap: 0.35rem 0.9rem; margin-top: 0.55rem; font-size: 0.78rem; color: #4a5568; }
+  .cb-legend i { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 0.35rem; }
+  .cb-legend .cb-zero { color: #9aa3b2; }
+  .cb-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+  .cb-table th { text-align: left; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em; color: #6c757d; font-weight: 600; padding: 0.4rem 0.6rem; border-bottom: 1px solid #e3e7ee; }
+  .cb-table td { padding: 0.45rem 0.6rem; border-bottom: 1px solid #f0f2f6; color: #1a1a2e; }
+  .cb-table th.cb-n, .cb-table td.cb-n { text-align: right; font-variant-numeric: tabular-nums; }
+  .cb-scroll { overflow-x: auto; }
+  .cb-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 1.5rem; }
+  .cb-rank { list-style: none; margin: 0; padding: 0; }
+  .cb-rank li { display: flex; align-items: baseline; gap: 0.55rem; padding: 0.4rem 0; border-bottom: 1px solid #f0f2f6; font-size: 0.87rem; }
+  .cb-rank .cb-i { color: #9aa3b2; font-size: 0.78rem; min-width: 1.4em; font-variant-numeric: tabular-nums; }
+  .cb-rank a { color: #1a1a2e; text-decoration: none; font-weight: 500; }
+  .cb-rank a:hover { color: #0d6efd; text-decoration: underline; }
+  .cb-rank .cb-sc { margin-left: auto; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .cb-note { font-size: 0.78rem; color: #6c757d; margin-top: 0.6rem; line-height: 1.5; }
+  .cb-prov { font-size: 0.75rem; color: #9aa3b2; margin-top: 1.2rem; padding-top: 0.75rem; border-top: 1px solid #f0f2f6; line-height: 1.6; }
+  .cb-prov a { color: #6c757d; }
+</style>
+
+<div class="cb-wrap">
+
+  <div class="cb-head">
+    <h2 id="brief"><a href="#brief" style="color:inherit;text-decoration:none;">Cohort brief</a></h2>
+    <span class="cb-auto">Auto-generated</span>
+  </div>
+  <p class="cb-lede">
+    The <strong>{{ _cb.coverage.scored_members }}</strong> {{ roster }}
+    <strong>{{ _cb.name }}</strong>, scored on the Kin Score. Every figure below is computed from
+    the catalog — nothing here is written.
+  </p>
+
+  {%- comment -%} Headline: the cohort against the catalog, which is the only comparison that makes a mean readable. {%- endcomment -%}
+  <div class="cb-stats">
+    <div class="cb-stat">
+      <div class="cb-l">Providers</div>
+      <div class="cb-v">{{ _cb.coverage.scored_members }}</div>
+      <div class="cb-s">
+        {%- if _cb.coverage.declared_members > _cb.coverage.resolved_members -%}
+          of {{ _cb.coverage.declared_members }} on the roster
+        {%- else -%}
+          all scored
+        {%- endif -%}
+      </div>
+    </div>
+    <div class="cb-stat">
+      <div class="cb-l">Mean Kin Score</div>
+      <div class="cb-v">{{ _cb.kin_score.mean }}</div>
+      <div class="cb-s">
+        {%- assign d = _cb.kin_score.mean | minus: _cb.catalog_kin_score_mean -%}
+        {%- if d > 0 -%}<span class="cb-up">+{{ d }}</span>
+        {%- elsif d < 0 -%}<span class="cb-down">{{ d }}</span>
+        {%- else -%}<span class="cb-flat">even</span>{%- endif %} vs catalog {{ _cb.catalog_kin_score_mean }}
+      </div>
+    </div>
+    {%- if _cb.agent_readiness -%}
+    <div class="cb-stat">
+      <div class="cb-l">Mean Agent Readiness</div>
+      <div class="cb-v">{{ _cb.agent_readiness.mean }}</div>
+      <div class="cb-s">
+        {%- assign da = _cb.agent_readiness.mean | minus: _cb.catalog_agent_mean -%}
+        {%- if da > 0 -%}<span class="cb-up">+{{ da }}</span>
+        {%- elsif da < 0 -%}<span class="cb-down">{{ da }}</span>
+        {%- else -%}<span class="cb-flat">even</span>{%- endif %} vs catalog {{ _cb.catalog_agent_mean }}
+      </div>
+    </div>
+    {%- endif -%}
+    <div class="cb-stat">
+      <div class="cb-l">Spread</div>
+      <div class="cb-v">{{ _cb.kin_score.min }}&ndash;{{ _cb.kin_score.max }}</div>
+      <div class="cb-s">median {{ _cb.kin_score.median }} &middot; &sigma; {{ _cb.kin_score.stdev }}</div>
+    </div>
+  </div>
+
+  {%- comment -%}
+    The band split. Rendered as one bar rather than six numbers because the SHAPE is the finding —
+    a cohort with 73% Developing and nothing above Strong reads completely differently from one
+    with a long tail, and a table of counts hides that.
+  {%- endcomment -%}
+  <div class="cb-sub">How the {{ _cb.coverage.scored_members }} split by band</div>
+  <div class="cb-bands">
+    {%- for b in _cb.bands -%}
+      {%- if b.count > 0 -%}
+        {%- assign known = 'exemplar,strong,developing,thin,emerging,minimal' | split: ',' -%}
+        {%- if known contains b.band -%}{%- assign bc = b.band -%}{%- else -%}{%- assign bc = 'other' -%}{%- endif -%}
+        <span class="cb-b-{{ bc }}" style="width: {{ b.pct }}%;" title="{{ b.label }}: {{ b.count }} ({{ b.pct }}%)"></span>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+  <div class="cb-legend">
+    {%- for b in _cb.bands -%}
+      {%- assign known = 'exemplar,strong,developing,thin,emerging,minimal' | split: ',' -%}
+      {%- if known contains b.band -%}{%- assign bc = b.band -%}{%- else -%}{%- assign bc = 'other' -%}{%- endif -%}
+      <span{% if b.count == 0 %} class="cb-zero"{% endif %}><i class="cb-b-{{ bc }}"></i>{{ b.label }} {{ b.count }}</span>
+    {%- endfor -%}
+  </div>
+
+  {%- comment -%}
+    Facets against the catalog. The delta is the column that matters — a governance mean of 19 is
+    unreadable on its own and obvious once you know the catalog sits at 6.4.
+  {%- endcomment -%}
+  {%- if _cb.facets and _cb.facets.size > 0 -%}
+  <div class="cb-sub">Facet averages, against the whole catalog</div>
+  <div class="cb-scroll">
+    <table class="cb-table">
+      <thead>
+        <tr><th>Facet</th><th class="cb-n">This cohort</th><th class="cb-n">Catalog</th><th class="cb-n">Difference</th><th class="cb-n">Scored</th></tr>
+      </thead>
+      <tbody>
+        {%- for f in _cb.facets -%}
+        <tr>
+          <td>{{ f.label }}</td>
+          <td class="cb-n">{{ f.mean }}</td>
+          <td class="cb-n">{{ f.catalog_mean }}</td>
+          <td class="cb-n">
+            {%- if f.delta > 0 -%}<span class="cb-up">+{{ f.delta }}</span>
+            {%- elsif f.delta < 0 -%}<span class="cb-down">{{ f.delta }}</span>
+            {%- else -%}<span class="cb-flat">0</span>{%- endif -%}
+          </td>
+          <td class="cb-n">{{ f.n }}</td>
+        </tr>
+        {%- endfor -%}
+      </tbody>
+    </table>
+  </div>
+  <p class="cb-note">
+    A facet is averaged over the members that carry it, not over the whole cohort &mdash; the
+    &ldquo;Scored&rdquo; column is that count. Averaging an absent facet as zero would score our own
+    coverage gaps as the providers&rsquo; posture.
+  </p>
+  {%- endif -%}
+
+  {%- comment -%} Artifact adoption. mcp_pct and mcp_first_party_pct are both carried on purpose; see the note. {%- endcomment -%}
+  {%- if _cb.adoption and _cb.adoption.size > 0 -%}
+  <div class="cb-sub">What this cohort publishes</div>
+  <div class="cb-scroll">
+    <table class="cb-table">
+      <thead>
+        <tr><th>Artifact</th><th class="cb-n">This cohort</th><th class="cb-n">Catalog</th><th class="cb-n">Difference</th></tr>
+      </thead>
+      <tbody>
+        {%- for a in _cb.adoption -%}
+        <tr>
+          <td>{{ a.label }}</td>
+          <td class="cb-n">{{ a.pct }}%</td>
+          <td class="cb-n">{{ a.catalog_pct }}%</td>
+          <td class="cb-n">
+            {%- if a.delta > 0 -%}<span class="cb-up">+{{ a.delta }}</span>
+            {%- elsif a.delta < 0 -%}<span class="cb-down">{{ a.delta }}</span>
+            {%- else -%}<span class="cb-flat">0</span>{%- endif -%}
+          </td>
+        </tr>
+        {%- endfor -%}
+      </tbody>
+    </table>
+  </div>
+  {%- if _cb.adoption_note -%}
+  <p class="cb-note">{{ _cb.adoption_note }}</p>
+  {%- endif -%}
+  {%- endif -%}
+
+  {%- comment -%}
+    Two leaderboards, not one. The agent rank routinely disagrees with the composite rank, and that
+    disagreement is the most useful thing on the page for anyone picking an API for an agent to
+    drive rather than a developer to read.
+  {%- endcomment -%}
+  <div class="cb-cols">
+    {%- if _cb.top_composite and _cb.top_composite.size > 0 -%}
+    <div>
+      <div class="cb-sub">Top by Kin Score</div>
+      <ol class="cb-rank">
+        {%- for p in _cb.top_composite -%}
+        <li>
+          <span class="cb-i">{{ p.rank }}</span>
+          <a href="https://apis.io/providers/{{ p.slug }}/">{{ p.name }}</a>
+          <span class="cb-sc">{{ p.score }}</span>
+        </li>
+        {%- endfor -%}
+      </ol>
+    </div>
+    {%- endif -%}
+    {%- if _cb.top_agent and _cb.top_agent.size > 0 -%}
+    <div>
+      <div class="cb-sub">Top by Agent Readiness</div>
+      <ol class="cb-rank">
+        {%- for p in _cb.top_agent -%}
+        <li>
+          <span class="cb-i">{{ p.rank }}</span>
+          <a href="https://apis.io/providers/{{ p.slug }}/">{{ p.name }}</a>
+          <span class="cb-sc">{{ p.score }}</span>
+        </li>
+        {%- endfor -%}
+      </ol>
+    </div>
+    {%- endif -%}
+  </div>
+
+  {%- comment -%}
+    Coverage disclosure, always rendered. A cohort whose roster declares more members than the
+    catalog can score produces a real-looking mean over the remainder, and the reader has to be
+    able to see that without asking.
+  {%- endcomment -%}
+  <div class="cb-prov">
+    {%- if _cb.coverage.declared_members > _cb.coverage.resolved_members -%}
+      This roster declares {{ _cb.coverage.declared_members }} members; {{ _cb.coverage.resolved_members }}
+      resolve to a provider in the catalog and {{ _cb.coverage.scored_members }} carry a score
+      ({{ _cb.coverage.scored_share_pct }}%). The figures above describe the scored members only.
+    {%- else -%}
+      All {{ _cb.coverage.resolved_members }} members of this roster resolve to a scored provider in
+      the catalog.
+    {%- endif -%}
+    Generated from the catalog build of
+    {{ _cb_data.catalog_generated_at | date: "%-d %B %Y" }}, across {{ _cb_data.catalog_providers }}
+    providers, using the same computation served by the
+    <a href="https://apis.io/api/">APIs.io cohort API</a>. Briefs are published for rosters of
+    {{ _cb_data.min_cohort }} or more scored providers; below that a distribution is not meaningful.
+  </div>
+
+</div>
+{%- endif -%}

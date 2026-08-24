@@ -1,0 +1,41 @@
+---
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: reject
+  dnssec: false
+  domain: idplanet.io
+  spf: true
+hosts:
+- cert_expires: Mar  1 12:15:02 2027 GMT
+  host: idplanet.io
+  hsts: false
+  https: true
+  tls_version: TLSv1.2
+kind: domain-security
+layout: security
+method: probed
+name: Id Planet Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for ID Planet, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: ID Planet
+provider_slug: id-planet
+slug: id-planet-domain-security
+source_filename: id-planet-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-08-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: idplanet.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  1 12:15:02 2027 GMT\n  hsts: false\ndomains:\n- domain: idplanet.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/id-planet/refs/heads/main/security/id-planet-domain-security.yml
+summary_line: TLSv1.2 · DMARC
+tags:
+- Company
+- Web3
+- Blockchain
+- Gaming
+- GameFi
+- Cryptocurrency
+- NFT
+- Digital Wallet
+- Cryptocurrency Exchange
+---
