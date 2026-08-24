@@ -184,7 +184,6 @@ footer:
         - { label: Insights, url: 'https://apis.io/insights/' }
         - { label: Analytics, url: 'https://apis.io/analytics/' }
         - { label: Search Terms, url: 'https://apis.io/search-terms/' }
-        - { label: Roadmap, url: 'https://apis.io/roadmap/' }
         - { label: Changelog, url: 'https://apis.io/changelog/' }
 
     - header: APIs.io
