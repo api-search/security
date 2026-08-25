@@ -53,7 +53,7 @@
         {% when 'channel-provider' %}{% assign _title_suffix = ' — Event-Driven API Provider' %}
       {% endcase %}
     {% endif %}
-    <title>{% if page.meta_title %}{{ page.meta_title }}{% elsif page.name %}{{ page.name }}{{ _title_suffix }} | {{ site.name }}{% elsif page.title %}{{ page.title }} | {{ site.name }}{% else %}{{ site.name }} - {{ site.description }}{% endif %}</title>
+    <title>{% if page.meta_title %}{{ page.meta_title }}{% elsif page.title %}{{ page.title }} | {{ site.name }}{% elsif page.name %}{{ page.name }}{{ _title_suffix }} | {{ site.name }}{% else %}{{ site.name }} - {{ site.description }}{% endif %}</title>
     <meta name="description" content="{% if page.meta_description %}{{ page.meta_description }}{% elsif page.overview %}{{ page.overview | markdownify | strip_html | strip_newlines | truncate: 160 }}{% elsif page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', ' }}, {% endif %}{{ site.keywords | join: ', ' }}">
     <link rel="canonical" href="{% if page.canonical %}{{ page.canonical }}{% else %}{{ page.url | prepend: site.url }}{% endif %}">
