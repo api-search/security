@@ -84,6 +84,246 @@ api_specs:
   slug: toast-time-entries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-time-entries-api-openapi.yml
+- filename: toast-aggregated-sales-api-openapi.yml
+  format: yaml
+  label: Toast Aggregated sales API
+  slug: toast-aggregated-sales-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-aggregated-sales-api-openapi.yml
+- filename: toast-alternate-payment-types-api-openapi.yml
+  format: yaml
+  label: Toast Alternate Payment Types API
+  slug: toast-alternate-payment-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-alternate-payment-types-api-openapi.yml
+- filename: toast-availability-api-openapi.yml
+  format: yaml
+  label: Toast Availability API
+  slug: toast-availability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-availability-api-openapi.yml
+- filename: toast-break-types-api-openapi.yml
+  format: yaml
+  label: Toast Break Types API
+  slug: toast-break-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-break-types-api-openapi.yml
+- filename: toast-cash-drawers-api-openapi.yml
+  format: yaml
+  label: Toast Cash Drawers API
+  slug: toast-cash-drawers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-cash-drawers-api-openapi.yml
+- filename: toast-check-api-openapi.yml
+  format: yaml
+  label: Toast Check API
+  slug: toast-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-check-api-openapi.yml
+- filename: toast-deposits-api-openapi.yml
+  format: yaml
+  label: Toast Deposits API
+  slug: toast-deposits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-deposits-api-openapi.yml
+- filename: toast-device-details-api-openapi.yml
+  format: yaml
+  label: Toast Device details API
+  slug: toast-device-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-device-details-api-openapi.yml
+- filename: toast-dining-options-api-openapi.yml
+  format: yaml
+  label: Toast Dining Options API
+  slug: toast-dining-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-dining-options-api-openapi.yml
+- filename: toast-entries-api-openapi.yml
+  format: yaml
+  label: Toast Entries API
+  slug: toast-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-entries-api-openapi.yml
+- filename: toast-export-api-openapi.yml
+  format: yaml
+  label: Toast Export API
+  slug: toast-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-export-api-openapi.yml
+- filename: toast-guest-api-openapi.yml
+  format: yaml
+  label: Toast Guest API
+  slug: toast-guest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-guest-api-openapi.yml
+- filename: toast-labor-api-openapi.yml
+  format: yaml
+  label: Toast Labor API
+  slug: toast-labor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-labor-api-openapi.yml
+- filename: toast-menu-api-openapi.yml
+  format: yaml
+  label: Toast Menu API
+  slug: toast-menu-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-menu-api-openapi.yml
+- filename: toast-menu-groups-api-openapi.yml
+  format: yaml
+  label: Toast Menu Groups API
+  slug: toast-menu-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-menu-groups-api-openapi.yml
+- filename: toast-menu-items-api-openapi.yml
+  format: yaml
+  label: Toast Menu Items API
+  slug: toast-menu-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-menu-items-api-openapi.yml
+- filename: toast-merchants-api-openapi.yml
+  format: yaml
+  label: Toast Merchants API
+  slug: toast-merchants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-merchants-api-openapi.yml
+- filename: toast-modifier-groups-api-openapi.yml
+  format: yaml
+  label: Toast Modifier Groups API
+  slug: toast-modifier-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-modifier-groups-api-openapi.yml
+- filename: toast-no-sale-reasons-api-openapi.yml
+  format: yaml
+  label: Toast No Sale Reasons API
+  slug: toast-no-sale-reasons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-no-sale-reasons-api-openapi.yml
+- filename: toast-ordering-schedule-api-openapi.yml
+  format: yaml
+  label: Toast Ordering Schedule API
+  slug: toast-ordering-schedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-ordering-schedule-api-openapi.yml
+- filename: toast-payout-by-payments-api-openapi.yml
+  format: yaml
+  label: Toast Payout by payments API
+  slug: toast-payout-by-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-payout-by-payments-api-openapi.yml
+- filename: toast-payout-by-sales-date-api-openapi.yml
+  format: yaml
+  label: Toast Payout by sales date API
+  slug: toast-payout-by-sales-date-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-payout-by-sales-date-api-openapi.yml
+- filename: toast-payout-by-settled-date-api-openapi.yml
+  format: yaml
+  label: Toast Payout by settled date API
+  slug: toast-payout-by-settled-date-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-payout-by-settled-date-api-openapi.yml
+- filename: toast-payout-reasons-api-openapi.yml
+  format: yaml
+  label: Toast Payout Reasons API
+  slug: toast-payout-reasons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-payout-reasons-api-openapi.yml
+- filename: toast-pre-modifier-groups-api-openapi.yml
+  format: yaml
+  label: Toast Pre Modifier Groups API
+  slug: toast-pre-modifier-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-pre-modifier-groups-api-openapi.yml
+- filename: toast-pre-modifiers-api-openapi.yml
+  format: yaml
+  label: Toast Pre Modifiers API
+  slug: toast-pre-modifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-pre-modifiers-api-openapi.yml
+- filename: toast-price-groups-api-openapi.yml
+  format: yaml
+  label: Toast Price Groups API
+  slug: toast-price-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-price-groups-api-openapi.yml
+- filename: toast-printers-api-openapi.yml
+  format: yaml
+  label: Toast Printers API
+  slug: toast-printers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-printers-api-openapi.yml
+- filename: toast-published-api-openapi.yml
+  format: yaml
+  label: Toast Published API
+  slug: toast-published-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-published-api-openapi.yml
+- filename: toast-restaurant-services-api-openapi.yml
+  format: yaml
+  label: Toast Restaurant Services API
+  slug: toast-restaurant-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-restaurant-services-api-openapi.yml
+- filename: toast-restaurants-information-api-openapi.yml
+  format: yaml
+  label: Toast Restaurants information API
+  slug: toast-restaurants-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-restaurants-information-api-openapi.yml
+- filename: toast-revenue-centers-api-openapi.yml
+  format: yaml
+  label: Toast Revenue Centers API
+  slug: toast-revenue-centers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-revenue-centers-api-openapi.yml
+- filename: toast-sales-categories-api-openapi.yml
+  format: yaml
+  label: Toast Sales Categories API
+  slug: toast-sales-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-sales-categories-api-openapi.yml
+- filename: toast-service-areas-api-openapi.yml
+  format: yaml
+  label: Toast Service Areas API
+  slug: toast-service-areas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-service-areas-api-openapi.yml
+- filename: toast-service-charges-api-openapi.yml
+  format: yaml
+  label: Toast Service Charges API
+  slug: toast-service-charges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-service-charges-api-openapi.yml
+- filename: toast-tables-api-openapi.yml
+  format: yaml
+  label: Toast Tables API
+  slug: toast-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-tables-api-openapi.yml
+- filename: toast-tax-rates-api-openapi.yml
+  format: yaml
+  label: Toast Tax Rates API
+  slug: toast-tax-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-tax-rates-api-openapi.yml
+- filename: toast-tip-withholding-api-openapi.yml
+  format: yaml
+  label: Toast Tip Withholding API
+  slug: toast-tip-withholding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-tip-withholding-api-openapi.yml
+- filename: toast-void-reasons-api-openapi.yml
+  format: yaml
+  label: Toast Void Reasons API
+  slug: toast-void-reasons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-void-reasons-api-openapi.yml
+- filename: toast-yourendpointname-api-openapi.yml
+  format: yaml
+  label: Toast Yourendpointname API
+  slug: toast-yourendpointname-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/openapi/toast-yourendpointname-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,7 +333,7 @@ domains:
   domain: toasttab.com
   spf: true
 hosts:
-- cert_expires: Sep 25 19:10:05 2026 GMT
+- cert_expires: Nov 23 19:27:13 2026 GMT
   host: pos.toasttab.com
   hsts: true
   hsts_max_age: 31536000
@@ -116,7 +356,7 @@ slug: toast-domain-security
 source_filename: toast-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pos.toasttab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 19:10:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: doc.toasttab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: toasttab.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pos.toasttab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 19:27:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: doc.toasttab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: toasttab.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/security/toast-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -124,4 +364,10 @@ tags:
 - Point-of-Sale
 - Restaurant
 - Hospitality
+- Restaurant Technology
+- Payments
+- Online Ordering
+- Labor Management
+- Inventory
+- API Partner Program
 ---

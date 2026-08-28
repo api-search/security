@@ -60,4 +60,5 @@ tags:
 - IHE XDS
 - Interoperability
 - Partner API
+- Sweden
 ---

@@ -41,4 +41,5 @@ tags:
 - Wearables
 - Digital Health
 - Medical Device
+- Sweden
 ---

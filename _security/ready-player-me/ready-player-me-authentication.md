@@ -39,13 +39,14 @@ schemes:
   parameter: X-APP-ID
   sources:
   - openapi/ready-player-me-assets-api-openapi.yml
+  - openapi/ready-player-me-auth-api-openapi.yml
   - openapi/ready-player-me-avatars-api-openapi.yml
   type: apiKey
 slug: ready-player-me-authentication
 source_filename: ready-player-me-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ready-player-me-assets-api-openapi.yml, openapi/ready-player-me-avatars-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: AppId\n  type: apiKey\n  in: header\n  parameter: X-APP-ID\n  sources:\n  - openapi/ready-player-me-assets-api-openapi.yml\n  - openapi/ready-player-me-avatars-api-openapi.yml\n"
+source_yaml: "generated: '2026-08-26'\nmethod: derived\nsource: openapi/ready-player-me-assets-api-openapi.yml, openapi/ready-player-me-auth-api-openapi.yml,\n  openapi/ready-player-me-avatars-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: AppId\n  type: apiKey\n  in: header\n  parameter: X-APP-ID\n  sources:\n  - openapi/ready-player-me-assets-api-openapi.yml\n  - openapi/ready-player-me-auth-api-openapi.yml\n  - openapi/ready-player-me-avatars-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/authentication/ready-player-me-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

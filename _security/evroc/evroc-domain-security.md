@@ -42,4 +42,5 @@ tags:
 - GPU
 - Europe
 - Infrastructure-as-a-Service
+- Sweden
 ---

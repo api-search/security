@@ -126,6 +126,12 @@ api_specs:
   slug: honeycomb-io-triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-triggers-api-openapi.yml
+- filename: honeycomb-io-anomaly-detection-api-openapi.yml
+  format: yaml
+  label: Honeycomb Anomaly Detection API
+  slug: honeycomb-io-anomaly-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-anomaly-detection-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001
@@ -147,7 +153,7 @@ slug: honeycomb-io-trust-center
 source_filename: honeycomb-io-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.honeycomb.io/\nurl: https://trust.honeycomb.io/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- HIPAA\n- FedRAMP\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.honeycomb.io/\n  keywords:\n  - soc 2\n  - soc2\n  - hipaa\n  - fedramp\n  - trust center\n  - gdpr\n  - csa star\n"
+source_yaml: "generated: '2026-08-24'\nmethod: searched\nprobe: true\nsource: https://trust.honeycomb.io/\nurl: https://trust.honeycomb.io/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- HIPAA\n- FedRAMP\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.honeycomb.io/\n  keywords:\n  - soc 2\n  - soc2\n  - hipaa\n  - fedramp\n  - trust center\n  - gdpr\n  - csa star\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/security/honeycomb-io-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR, CSA STAR
 tags:

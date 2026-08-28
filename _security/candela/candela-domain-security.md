@@ -38,4 +38,5 @@ tags:
 - Clean Energy
 - Mobility
 - Zero Emission
+- Sweden
 ---

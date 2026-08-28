@@ -50,15 +50,15 @@ schemes:
   sources:
   - openapi/sendle-manifests-api-openapi.yml
   - openapi/sendle-orders-api-openapi.yml
-  - openapi/sendle-ping-api-openapi.yml
   - openapi/sendle-products-api-openapi.yml
   - openapi/sendle-tracking-api-openapi.yml
+  - openapi/sendle-utility-api-openapi.yml
   type: http
 slug: sendle-authentication
 source_filename: sendle-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sendle-manifests-api-openapi.yml, openapi/sendle-orders-api-openapi.yml, openapi/sendle-ping-api-openapi.yml,\n  openapi/sendle-products-api-openapi.yml, openapi/sendle-tracking-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/sendle-manifests-api-openapi.yml\n  - openapi/sendle-orders-api-openapi.yml\n  - openapi/sendle-ping-api-openapi.yml\n  - openapi/sendle-products-api-openapi.yml\n  - openapi/sendle-tracking-api-openapi.yml\n"
+source_yaml: "generated: '2026-08-26'\nmethod: derived\nsource: openapi/sendle-manifests-api-openapi.yml, openapi/sendle-orders-api-openapi.yml, openapi/sendle-products-api-openapi.yml,\n  openapi/sendle-tracking-api-openapi.yml, openapi/sendle-utility-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/sendle-manifests-api-openapi.yml\n  - openapi/sendle-orders-api-openapi.yml\n  - openapi/sendle-products-api-openapi.yml\n  - openapi/sendle-tracking-api-openapi.yml\n  - openapi/sendle-utility-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/authentication/sendle-authentication.yml
 summary_line: http · 1 scheme
 tags:

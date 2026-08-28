@@ -1186,33 +1186,80 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/openapi/shopify-zones-api-openapi.yml
 auth_types:
 - apiKey
+- oauth2
+- openIdConnect
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Shopify Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Shopify secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+overview: Shopify secures its APIs with apiKey, oauth2, and openIdConnect across 5 declared security schemes, as derived from its OpenAPI definitions.
 provider_name: Shopify
 provider_slug: shopify
-scheme_count: 1
+scheme_count: 5
 schemes:
-- description: Access token obtained via OAuth
+- api: Admin REST API, GraphQL Admin API
+  description: Access token obtained via the OAuth authorization code grant or token exchange.
   in: header
   name: AccessToken
   parameter: X-Shopify-Access-Token
   sources:
-  - openapi/shopify-admin-rest-api-openapi.yml
-  - openapi/shopify-webhooks-api-openapi.yml
+  - openapi/_original/shopify-admin-rest-api-openapi.yml
+  - https://shopify.dev/docs/apps/build/authentication-authorization
   type: apiKey
+- api: Storefront API
+  description: Public or private storefront access token. Server-side requests with a private token must also send the correct Buyer IP header or risk a 430 Shopify Security Rejection.
+  in: header
+  name: StorefrontAccessToken
+  parameter: X-Shopify-Storefront-Access-Token
+  sources:
+  - https://shopify.dev/docs/api/storefront
+  type: apiKey
+- api: Customer Account API, Customer Accounts MCP
+  description: Per-customer authorization. A 401 from the Customer Accounts MCP server is the documented signal to start the flow. Requires a custom domain on the store and Level 2 protected customer data approval from the Partner Dashboard.
+  discovery: https://{shop-domain}/.well-known/openid-configuration
+  flow: authorization_code with PKCE
+  name: CustomerAccountOAuth
+  sources:
+  - https://shopify.dev/docs/apps/build/storefront-mcp/servers/customer-account
+  type: oauth2
+- api: UCP Catalog / Cart / Checkout MCP
+  description: Agent authorization for the UCP surfaces. Buys the token tier — the highest rate limits, and the only tier that can call complete_checkout. Metadata is served per RFC 8414 at https://api.shopify.com/.well-known/oauth-authorization-server, with the protected resource declared per RFC 9728 at https://catalog.shopify.com/.well-known/oauth-protected-resource.
+  flows:
+  - client_credentials
+  - urn:shopify:params:oauth:grant-type:ecp-credentials
+  - urn:ietf:params:oauth:grant-type:jwt-bearer
+  issuer: https://api.shopify.com
+  name: AgentClientCredentials
+  sources:
+  - well-known/shopify-api-oauth-authorization-server.json
+  - well-known/shopify-catalog-oauth-protected-resource.json
+  - https://shopify.dev/docs/agents/carts-and-checkout/checkout-mcp
+  token_endpoint_auth_methods:
+  - client_secret_post
+  token_url: https://api.shopify.com/auth/access_token
+  type: oauth2
+- api: Global Catalog MCP, Storefront MCP, mock.shop
+  description: Genuinely anonymous surfaces. https://catalog.shopify.com/api/ucp/mcp answered a tools/list with no credential at all (HTTP 200, verified 2026-08-27), the per-store Storefront MCP endpoints are documented as requiring no authentication, and https://mock.shop/api answers full GraphQL introspection unauthenticated. Anonymous callers get the lowest rate-limit tier and cannot reach Checkout MCP.
+  name: None (anonymous)
+  sources:
+  - mcp/shopify-catalog-mcp-tools.json
+  - https://shopify.dev/docs/apps/build/storefront-mcp/servers/storefront
+  type: none
 slug: shopify-authentication
 source_filename: shopify-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/shopify-admin-rest-api-openapi.yml, openapi/shopify-webhooks-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: AccessToken\n  type: apiKey\n  in: header\n  parameter: X-Shopify-Access-Token\n  description: Access token obtained via OAuth\n  sources:\n  - openapi/shopify-admin-rest-api-openapi.yml\n  - openapi/shopify-webhooks-api-openapi.yml\n"
+source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  https://shopify.dev/docs/apps/build/authentication-authorization,\n  https://shopify.dev/docs/api/usage/access-scopes.md (HTTP 200),\n  https://shopify.dev/docs/api/usage/response-codes.md (HTTP 200),\n  https://api.shopify.com/.well-known/oauth-authorization-server (HTTP 200),\n  https://catalog.shopify.com/.well-known/oauth-protected-resource (HTTP 200),\n  https://shopify.dev/docs/apps/build/storefront-mcp/servers/customer-account.md (HTTP 200)\n  — all fetched 2026-08-27. Supersedes the 2026-07-11 derived profile, which read only the\n  Admin REST OpenAPI and therefore saw one apiKey scheme where five distinct schemes exist.\ndocs: https://shopify.dev/docs/apps/build/authentication-authorization\nprovider: Shopify\nproviderId: shopify\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  - openIdConnect\n  api_key_in:\n  - header\n  versioned: false\n  versioning_note: >-\n    The OAuth endpoints — including AccessScope\
+  \ — are explicitly listed as UNVERSIONED. They can\n    change at any time, with no deprecation window, while every API they authorize is versioned\n    quarterly.\nschemes:\n- name: AccessToken\n  type: apiKey\n  in: header\n  parameter: X-Shopify-Access-Token\n  api: Admin REST API, GraphQL Admin API\n  description: Access token obtained via the OAuth authorization code grant or token exchange.\n  sources:\n  - openapi/_original/shopify-admin-rest-api-openapi.yml\n  - https://shopify.dev/docs/apps/build/authentication-authorization\n- name: StorefrontAccessToken\n  type: apiKey\n  in: header\n  parameter: X-Shopify-Storefront-Access-Token\n  api: Storefront API\n  description: >-\n    Public or private storefront access token. Server-side requests with a private token must also\n    send the correct Buyer IP header or risk a 430 Shopify Security Rejection.\n  sources:\n  - https://shopify.dev/docs/api/storefront\n- name: CustomerAccountOAuth\n  type: oauth2\n  flow: authorization_code\
+  \ with PKCE\n  api: Customer Account API, Customer Accounts MCP\n  discovery: https://{shop-domain}/.well-known/openid-configuration\n  description: >-\n    Per-customer authorization. A 401 from the Customer Accounts MCP server is the documented signal\n    to start the flow. Requires a custom domain on the store and Level 2 protected customer data\n    approval from the Partner Dashboard.\n  sources:\n  - https://shopify.dev/docs/apps/build/storefront-mcp/servers/customer-account\n- name: AgentClientCredentials\n  type: oauth2\n  flows: [client_credentials, 'urn:shopify:params:oauth:grant-type:ecp-credentials', 'urn:ietf:params:oauth:grant-type:jwt-bearer']\n  issuer: https://api.shopify.com\n  token_url: https://api.shopify.com/auth/access_token\n  token_endpoint_auth_methods: [client_secret_post]\n  api: UCP Catalog / Cart / Checkout MCP\n  description: >-\n    Agent authorization for the UCP surfaces. Buys the token tier — the highest rate limits, and the\n    only tier that can call\
+  \ complete_checkout. Metadata is served per RFC 8414 at\n    https://api.shopify.com/.well-known/oauth-authorization-server, with the protected resource\n    declared per RFC 9728 at https://catalog.shopify.com/.well-known/oauth-protected-resource.\n  sources:\n  - well-known/shopify-api-oauth-authorization-server.json\n  - well-known/shopify-catalog-oauth-protected-resource.json\n  - https://shopify.dev/docs/agents/carts-and-checkout/checkout-mcp\n- name: None (anonymous)\n  type: none\n  api: Global Catalog MCP, Storefront MCP, mock.shop\n  description: >-\n    Genuinely anonymous surfaces. https://catalog.shopify.com/api/ucp/mcp answered a tools/list with\n    no credential at all (HTTP 200, verified 2026-08-27), the per-store Storefront MCP endpoints are\n    documented as requiring no authentication, and https://mock.shop/api answers full GraphQL\n    introspection unauthenticated. Anonymous callers get the lowest rate-limit tier and cannot reach\n    Checkout MCP.\n  sources:\n \
+  \ - mcp/shopify-catalog-mcp-tools.json\n  - https://shopify.dev/docs/apps/build/storefront-mcp/servers/storefront\ntoken_lifetimes:\n  note: >-\n    Non-expiring offline access tokens are being retired. From 2027-01-01 an Admin API request\n    presenting a public app's non-expiring offline access token returns 403 with the message\n    \"Non-expiring access tokens are no longer accepted for the Admin API\".\n  docs: https://shopify.dev/docs/apps/build/authentication-authorization/migrate-to-expiring-offline-access-tokens\nfailure_signals:\n  '401': Missing, incorrect or expired credentials. A 401 carrying invalid_request with \"This request requires an active refresh_token\" is FINAL — do not retry.\n  '403': Missing scope. From 2027-01-01, also a non-expiring offline token on the Admin API.\n  '430': Shopify Security Rejection — often a server-side Storefront request without the Buyer IP header.\nscopes:\n  cross_reference: scopes/shopify-scopes.yml\n  count: 137\n  families: [authenticated,\
+  \ unauthenticated, customer]\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/authentication/shopify-authentication.yml
-summary_line: apiKey · 1 scheme
+summary_line: apiKey/oauth2/openIdConnect · 5 schemes
 tags:
 - Commerce
 - E-Commerce

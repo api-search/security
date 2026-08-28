@@ -39,4 +39,5 @@ tags:
 - Apparel
 - Fashion
 - Fast Fashion
+- Sweden
 ---

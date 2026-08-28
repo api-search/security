@@ -37,4 +37,5 @@ tags:
 - Telecommunications
 - Travel
 - VPN
+- Sweden
 ---

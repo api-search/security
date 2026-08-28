@@ -28,5 +28,6 @@ tags:
 - GPU
 - Europe
 - Infrastructure-as-a-Service
+- Sweden
 trust_url: https://evroc.com/security/
 ---

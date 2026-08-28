@@ -25,5 +25,6 @@ tags:
 - Surveys
 - Interactive Presentations
 - Education
+- Sweden
 trust_url: https://www.mentimeter.com/trust
 ---

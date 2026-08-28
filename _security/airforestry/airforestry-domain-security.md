@@ -39,4 +39,5 @@ tags:
 - Artificial Intelligence
 - Sustainability
 - Carbon
+- Sweden
 ---

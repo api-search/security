@@ -312,32 +312,67 @@ schemes:
 - name: ApiKeyAuth
   scheme: bearer
   sources:
-  - openapi/assistants-openapi-original.yml
-  - openapi/audio-openapi-original.yml
-  - openapi/chat-openapi-original.yml
-  - openapi/completions-openapi-original.yml
-  - openapi/embeddings-openapi-original.yml
-  - openapi/files-openapi-original.yml
-  - openapi/fine-tuning-openapi-original.yml
-  - openapi/images-openapi-original.yml
-  - openapi/models-openapi-original.yml
-  - openapi/openai-audio-openapi.yml
-  - openapi/openai-chat-completions-openapi.yml
-  - openapi/openai-embeddings-openapi.yml
-  - openapi/openai-images-openapi.yml
-  - openapi/openai-openapi-master.yml
-  - openapi/threads-openapi-original.yml
+  - openapi/openai-assistants-api-openapi.yml
+  - openapi/openai-audio-api-openapi.yml
+  - openapi/openai-audit-logs-api-openapi.yml
+  - openapi/openai-batch-api-openapi.yml
+  - openapi/openai-certificates-api-openapi.yml
+  - openapi/openai-chat-api-openapi.yml
+  - openapi/openai-chatkit-api-openapi.yml
+  - openapi/openai-completions-api-openapi.yml
+  - openapi/openai-containers-api-openapi.yml
+  - openapi/openai-conversations-api-openapi.yml
+  - openapi/openai-embeddings-api-openapi.yml
+  - openapi/openai-evals-api-openapi.yml
+  - openapi/openai-files-api-openapi.yml
+  - openapi/openai-fine-tuning-api-openapi.yml
+  - openapi/openai-group-organization-role-assignments-api-openapi.yml
+  - openapi/openai-group-users-api-openapi.yml
+  - openapi/openai-groups-api-openapi.yml
+  - openapi/openai-images-api-openapi.yml
+  - openapi/openai-invites-api-openapi.yml
+  - openapi/openai-models-api-openapi.yml
+  - openapi/openai-moderations-api-openapi.yml
+  - openapi/openai-organization-api-openapi.yml
+  - openapi/openai-project-group-role-assignments-api-openapi.yml
+  - openapi/openai-project-groups-api-openapi.yml
+  - openapi/openai-project-user-role-assignments-api-openapi.yml
+  - openapi/openai-projects-api-openapi.yml
+  - openapi/openai-realtime-api-openapi.yml
+  - openapi/openai-responses-api-openapi.yml
+  - openapi/openai-roles-api-openapi.yml
+  - openapi/openai-skills-api-openapi.yml
+  - openapi/openai-threads-api-openapi.yml
+  - openapi/openai-uploads-api-openapi.yml
+  - openapi/openai-usage-api-openapi.yml
+  - openapi/openai-user-organization-role-assignments-api-openapi.yml
+  - openapi/openai-users-api-openapi.yml
+  - openapi/openai-vector-stores-api-openapi.yml
+  - openapi/openai-videos-api-openapi.yml
   type: http
 slug: openai-authentication
 source_filename: openai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/assistants-openapi-original.yml, openapi/audio-openapi-original.yml, openapi/chat-openapi-original.yml,\n  openapi/completions-openapi-original.yml, openapi/embeddings-openapi-original.yml, openapi/files-openapi-original.yml,\n  openapi/fine-tuning-openapi-original.yml, openapi/images-openapi-original.yml, openapi/models-openapi-original.yml,\n  openapi/openai-audio-openapi.yml, openapi/openai-chat-completions-openapi.yml, openapi/openai-embeddings-openapi.yml\n  ...\nsummary:\n  types:\n  - http\nschemes:\n- name: ApiKeyAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/assistants-openapi-original.yml\n  - openapi/audio-openapi-original.yml\n  - openapi/chat-openapi-original.yml\n  - openapi/completions-openapi-original.yml\n  - openapi/embeddings-openapi-original.yml\n  - openapi/files-openapi-original.yml\n  - openapi/fine-tuning-openapi-original.yml\n  - openapi/images-openapi-original.yml\n  - openapi/models-openapi-original.yml\n\
-  \  - openapi/openai-audio-openapi.yml\n  - openapi/openai-chat-completions-openapi.yml\n  - openapi/openai-embeddings-openapi.yml\n  - openapi/openai-images-openapi.yml\n  - openapi/openai-openapi-master.yml\n  - openapi/threads-openapi-original.yml\n"
+source_yaml: "generated: '2026-08-27'\nmethod: derived\nsource: openapi/openai-assistants-api-openapi.yml, openapi/openai-audio-api-openapi.yml, openapi/openai-audit-logs-api-openapi.yml,\n  openapi/openai-batch-api-openapi.yml, openapi/openai-certificates-api-openapi.yml, openapi/openai-chat-api-openapi.yml,\n  openapi/openai-chatkit-api-openapi.yml, openapi/openai-completions-api-openapi.yml, openapi/openai-containers-api-openapi.yml,\n  openapi/openai-conversations-api-openapi.yml, openapi/openai-embeddings-api-openapi.yml, openapi/openai-evals-api-openapi.yml\n  ...\nsummary:\n  types:\n  - http\nschemes:\n- name: ApiKeyAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/openai-assistants-api-openapi.yml\n  - openapi/openai-audio-api-openapi.yml\n  - openapi/openai-audit-logs-api-openapi.yml\n  - openapi/openai-batch-api-openapi.yml\n  - openapi/openai-certificates-api-openapi.yml\n  - openapi/openai-chat-api-openapi.yml\n  - openapi/openai-chatkit-api-openapi.yml\n  - openapi/openai-completions-api-openapi.yml\n\
+  \  - openapi/openai-containers-api-openapi.yml\n  - openapi/openai-conversations-api-openapi.yml\n  - openapi/openai-embeddings-api-openapi.yml\n  - openapi/openai-evals-api-openapi.yml\n  - openapi/openai-files-api-openapi.yml\n  - openapi/openai-fine-tuning-api-openapi.yml\n  - openapi/openai-group-organization-role-assignments-api-openapi.yml\n  - openapi/openai-group-users-api-openapi.yml\n  - openapi/openai-groups-api-openapi.yml\n  - openapi/openai-images-api-openapi.yml\n  - openapi/openai-invites-api-openapi.yml\n  - openapi/openai-models-api-openapi.yml\n  - openapi/openai-moderations-api-openapi.yml\n  - openapi/openai-organization-api-openapi.yml\n  - openapi/openai-project-group-role-assignments-api-openapi.yml\n  - openapi/openai-project-groups-api-openapi.yml\n  - openapi/openai-project-user-role-assignments-api-openapi.yml\n  - openapi/openai-projects-api-openapi.yml\n  - openapi/openai-realtime-api-openapi.yml\n  - openapi/openai-responses-api-openapi.yml\n  - openapi/openai-roles-api-openapi.yml\n\
+  \  - openapi/openai-skills-api-openapi.yml\n  - openapi/openai-threads-api-openapi.yml\n  - openapi/openai-uploads-api-openapi.yml\n  - openapi/openai-usage-api-openapi.yml\n  - openapi/openai-user-organization-role-assignments-api-openapi.yml\n  - openapi/openai-users-api-openapi.yml\n  - openapi/openai-vector-stores-api-openapi.yml\n  - openapi/openai-videos-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/authentication/openai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Large Language Models
+- Machine Learning
+- Generative AI
+- Foundation Models
+- Embeddings
+- Speech Recognition
+- Text To Speech
+- Image Generation
+- Content Moderation
+- Vector Search
+- Agents
+- Model Context Protocol
+- Developer Tools
 - T1
 ---

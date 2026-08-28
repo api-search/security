@@ -1,6 +1,5 @@
 ---
-api_key_in:
-- header
+api_key_in: []
 api_specs:
 - filename: instacart-authentication-api-openapi.yml
   format: yaml
@@ -56,8 +55,13 @@ api_specs:
   slug: instacart-replacements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-replacements-api-openapi.yml
+- filename: instacart-rest-api-openapi.yml
+  format: yaml
+  label: instacart Rest API
+  slug: instacart-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-rest-api-openapi.yml
 auth_types:
-- apiKey
 - http
 description: ''
 kind: authentication
@@ -66,32 +70,43 @@ method: derived
 name: Instacart Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: instacart secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
+overview: instacart secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
 provider_name: instacart
 provider_slug: instacart
-scheme_count: 2
+scheme_count: 1
 schemes:
 - description: OAuth 2.0 Bearer token obtained using client credentials with the connect:data_ingestion scope.
   name: bearerAuth
   scheme: bearer
   sources:
-  - openapi/instacart-catalog-api-openapi.yml
-  - openapi/instacart-connect-fulfillment-api-openapi.yml
-  - openapi/instacart-connect-post-checkout-api-openapi.yml
+  - openapi/instacart-authentication-api-openapi.yml
+  - openapi/instacart-chat-api-openapi.yml
+  - openapi/instacart-delivery-api-openapi.yml
+  - openapi/instacart-items-api-openapi.yml
+  - openapi/instacart-last-mile-delivery-api-openapi.yml
+  - openapi/instacart-orders-api-openapi.yml
+  - openapi/instacart-pickup-api-openapi.yml
+  - openapi/instacart-products-api-openapi.yml
+  - openapi/instacart-replacements-api-openapi.yml
   type: http
-- description: API key authentication. Include your API key in the Authorization header.
-  in: header
-  name: apiKeyAuth
-  parameter: Authorization
-  sources:
-  - openapi/instacart-developer-platform-api-openapi.yml
-  type: apiKey
 slug: instacart-authentication
 source_filename: instacart-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/instacart-catalog-api-openapi.yml, openapi/instacart-connect-fulfillment-api-openapi.yml,\n  openapi/instacart-connect-post-checkout-api-openapi.yml, openapi/instacart-developer-platform-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 Bearer token obtained using client credentials with the connect:data_ingestion\n    scope.\n  sources:\n  - openapi/instacart-catalog-api-openapi.yml\n  - openapi/instacart-connect-fulfillment-api-openapi.yml\n  - openapi/instacart-connect-post-checkout-api-openapi.yml\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API key authentication. Include your API key in the Authorization header.\n  sources:\n  - openapi/instacart-developer-platform-api-openapi.yml\n"
+source_yaml: "generated: '2026-08-27'\nmethod: derived\nsource: openapi/instacart-authentication-api-openapi.yml, openapi/instacart-chat-api-openapi.yml,\n  openapi/instacart-delivery-api-openapi.yml, openapi/instacart-items-api-openapi.yml, openapi/instacart-last-mile-delivery-api-openapi.yml,\n  openapi/instacart-orders-api-openapi.yml, openapi/instacart-pickup-api-openapi.yml, openapi/instacart-products-api-openapi.yml,\n  openapi/instacart-replacements-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 Bearer token obtained using client credentials with the connect:data_ingestion\n    scope.\n  sources:\n  - openapi/instacart-authentication-api-openapi.yml\n  - openapi/instacart-chat-api-openapi.yml\n  - openapi/instacart-delivery-api-openapi.yml\n  - openapi/instacart-items-api-openapi.yml\n  - openapi/instacart-last-mile-delivery-api-openapi.yml\n  - openapi/instacart-orders-api-openapi.yml\n  - openapi/instacart-pickup-api-openapi.yml\n\
+  \  - openapi/instacart-products-api-openapi.yml\n  - openapi/instacart-replacements-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/authentication/instacart-authentication.yml
-summary_line: apiKey/http · 2 schemes
-tags: []
+summary_line: http · 1 scheme
+tags:
+- Grocery
+- E-Commerce
+- Marketplace
+- Retail
+- Logistics
+- Last Mile Delivery
+- Fulfillment
+- Catalog
+- Advertising
+- Agents
+- MCP
 ---

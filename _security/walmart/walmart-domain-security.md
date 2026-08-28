@@ -153,8 +153,9 @@ api_specs:
 description: ''
 domains:
 - caa:
-  - 0 issue "globalsign.com"
+  - 0 issue "amazon.com"
   - 0 issue "digicert.com"
+  - 0 issue "globalsign.com"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
@@ -168,19 +169,19 @@ domains:
   domain: walmartapis.com
   spf: false
 hosts:
-- cert_expires: Dec 21 07:41:22 2026 GMT
+- cert_expires: Feb  7 08:56:19 2027 GMT
   host: developer.walmart.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Dec 21 07:41:22 2026 GMT
-  host: api-gateway.walmart.com
+- cert_expires: Feb  7 08:56:19 2027 GMT
+  host: marketplace.walmartapis.com
   hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Apr  7 07:15:00 2027 GMT
-  host: sandbox.walmartapis.com
+- cert_expires: Feb  7 08:56:19 2027 GMT
+  host: api-gateway.walmart.com
   hsts: null
   https: true
   tls_version: TLSv1.3
@@ -196,11 +197,20 @@ slug: walmart-domain-security
 source_filename: walmart-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.walmart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 07:41:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-gateway.walmart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 07:41:22 2026 GMT\n  hsts: null\n- host: sandbox.walmartapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  7 07:15:00 2027 GMT\n  hsts: null\ndomains:\n- domain: walmart.com\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: walmartapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.walmart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  7 08:56:19 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: marketplace.walmartapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  7 08:56:19 2027 GMT\n  hsts: null\n- host: api-gateway.walmart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  7 08:56:19 2027 GMT\n  hsts: null\ndomains:\n- domain: walmart.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: walmartapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/security/walmart-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Commerce
 - Retail
 - Fortune 100
+- Marketplace
+- E-Commerce
+- Orders
+- Inventory
+- Fulfillment
+- Supply Chain
+- Seller APIs
+- Webhooks
+- MCP
 ---

@@ -1,5 +1,17 @@
 ---
 api_specs:
+- filename: snyk-oauth2-app-openapi.yml
+  format: yaml
+  label: Snyk OAuth2 API - Authorize
+  slug: oauth2-authorize
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-oauth2-app-openapi.yml
+- filename: snyk-oauth2-token-openapi.yml
+  format: yaml
+  label: Snyk OAuth2 API - Token
+  slug: oauth2-token
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-oauth2-token-openapi.yml
 - filename: snyk-accessrequests-api-openapi.yml
   format: yaml
   label: Snyk AccessRequests API
@@ -292,7 +304,7 @@ slug: snyk-trust-center
 source_filename: snyk-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.snyk.io/\nurl: https://trust.snyk.io/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.snyk.io/\n  keywords:\n  - soc2\n  - iso 27001\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-08-27'\nmethod: searched\nprobe: true\nsource: https://trust.snyk.io/\nurl: https://trust.snyk.io/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.snyk.io/\n  keywords:\n  - soc2\n  - iso 27001\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/security/snyk-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:

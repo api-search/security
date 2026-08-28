@@ -63,4 +63,5 @@ tags:
 - Manufacturing
 - Energy
 - Cloud
+- Sweden
 ---

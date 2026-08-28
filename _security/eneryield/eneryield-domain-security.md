@@ -36,4 +36,5 @@ tags:
 - Analytics
 - Predictive Maintenance
 - Fault Detection
+- Sweden
 ---

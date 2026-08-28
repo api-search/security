@@ -153,7 +153,7 @@ slug: lever-co-domain-security
 source_filename: lever-co-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lever.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 08:49:28 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: hire.lever.co\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.lever.co\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: lever.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lever.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 08:49:28 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: hire.lever.co\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.lever.co\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: lever.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lever-co/refs/heads/main/security/lever-co-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

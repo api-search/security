@@ -36,4 +36,5 @@ tags:
 - Streaming
 - Entertainment
 - Consumer
+- Sweden
 ---

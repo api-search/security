@@ -68,6 +68,7 @@ header:
         items:
           - { key: vcs, label: Venture Capital, url: 'https://apis.io/vcs/' }
           - { key: secondary-market, label: Secondary Market, url: 'https://apis.io/secondary-market/' }
+          - { key: estates, label: API Estates, url: 'https://apis.io/estates/' }
 
   # Machine-readable artifacts. Examples (61,836) and JSON Structure (52,894)
   # were live sections with ZERO nav entry anywhere before 2026-07-28.

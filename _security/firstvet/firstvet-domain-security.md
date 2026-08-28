@@ -39,4 +39,5 @@ tags:
 - Pet Care
 - Telemedicine
 - Health
+- Sweden
 ---

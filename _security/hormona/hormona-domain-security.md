@@ -38,4 +38,5 @@ tags:
 - Wellness
 - Consumer Health
 - Mobile App
+- Sweden
 ---

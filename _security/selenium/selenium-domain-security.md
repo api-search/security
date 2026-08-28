@@ -44,7 +44,7 @@ domains:
   domain: selenium.dev
   spf: true
 hosts:
-- cert_expires: Sep 20 14:29:51 2026 GMT
+- cert_expires: Nov 19 17:58:08 2026 GMT
   host: www.selenium.dev
   hsts: false
   https: true
@@ -61,7 +61,7 @@ slug: selenium-domain-security
 source_filename: selenium-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.selenium.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 14:29:51 2026 GMT\n  hsts: false\ndomains:\n- domain: selenium.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.selenium.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 17:58:08 2026 GMT\n  hsts: false\ndomains:\n- domain: selenium.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/security/selenium-domain-security.yml
 summary_line: TLSv1.3
 tags:

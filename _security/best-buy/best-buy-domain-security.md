@@ -32,7 +32,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct  4 07:11:54 2026 GMT
+- cert_expires: Feb 26 05:20:03 2027 GMT
   host: api.bestbuy.com
   hsts: null
   https: true
@@ -49,7 +49,7 @@ slug: best-buy-domain-security
 source_filename: best-buy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bestbuy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 11 23:59:59 2027 GMT\n  hsts: null\n- host: api.bestbuy.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  4 07:11:54 2026 GMT\n  hsts: null\ndomains:\n- domain: bestbuy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bestbuy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 11 23:59:59 2027 GMT\n  hsts: null\n- host: api.bestbuy.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 26 05:20:03 2027 GMT\n  hsts: null\ndomains:\n- domain: bestbuy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/security/best-buy-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

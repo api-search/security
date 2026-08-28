@@ -75,7 +75,7 @@ domains:
   domain: mercedes-benz.com
   spf: true
 hosts:
-- cert_expires: Aug 24 07:24:23 2026 GMT
+- cert_expires: Oct 23 06:26:18 2026 GMT
   host: developer.mercedes-benz.com
   hsts: false
   https: true
@@ -97,7 +97,7 @@ slug: mercedes-me-domain-security
 source_filename: mercedes-me-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.mercedes-benz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 07:24:23 2026 GMT\n  hsts: false\n- host: api.mercedes-benz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: mercedes-benz.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.mercedes-benz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 06:26:18 2026 GMT\n  hsts: false\n- host: api.mercedes-benz.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: mercedes-benz.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/security/mercedes-me-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

@@ -100,4 +100,5 @@ tags:
 - Learning
 - LMS
 - Agents
+- Sweden
 ---

@@ -38,4 +38,5 @@ tags:
 - Remittance
 - Consumer
 - Messaging
+- Sweden
 ---

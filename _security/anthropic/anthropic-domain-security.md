@@ -159,7 +159,7 @@ domains:
   domain: anthropic.com
   spf: true
 hosts:
-- cert_expires: Sep 24 00:48:33 2026 GMT
+- cert_expires: Nov 22 04:51:00 2026 GMT
   host: platform.claude.com
   hsts: true
   hsts_max_age: 31536000
@@ -171,7 +171,7 @@ hosts:
   hsts_max_age: 3600
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 17 19:48:08 2026 GMT
+- cert_expires: Nov 15 21:33:08 2026 GMT
   host: docs.anthropic.com
   hsts: true
   hsts_max_age: 31536000
@@ -189,7 +189,7 @@ slug: anthropic-domain-security
 source_filename: anthropic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: platform.claude.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 00:48:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.anthropic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 15:03:46 2026 GMT\n  hsts: true\n  hsts_max_age: 3600\n- host: docs.anthropic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 19:48:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: claude.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n- domain: anthropic.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: platform.claude.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 04:51:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.anthropic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 15:03:46 2026 GMT\n  hsts: true\n  hsts_max_age: 3600\n- host: docs.anthropic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 21:33:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: claude.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n- domain: anthropic.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/security/anthropic-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -200,4 +200,9 @@ tags:
 - Machine-Learning
 - MCP
 - Agents
+- Agent Skills
+- Generative AI
+- Model Context Protocol
+- LLM APIs
+- AI Safety
 ---

@@ -60,4 +60,5 @@ tags:
 - Android Automotive
 - OEM
 - Mobility
+- Sweden
 ---

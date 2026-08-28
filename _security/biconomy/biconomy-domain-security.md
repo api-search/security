@@ -27,7 +27,7 @@ domains:
   domain: biconomy.io
   spf: true
 hosts:
-- cert_expires: Aug 16 21:13:15 2026 GMT
+- cert_expires: Oct 18 08:09:04 2026 GMT
   host: www.biconomy.io
   hsts: true
   hsts_max_age: 63072000
@@ -39,7 +39,7 @@ hosts:
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 11 05:36:04 2026 GMT
+- cert_expires: Oct 28 16:14:40 2026 GMT
   host: api.biconomy.io
   hsts: null
   https: true
@@ -56,7 +56,7 @@ slug: biconomy-domain-security
 source_filename: biconomy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.biconomy.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 21:13:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.biconomy.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 16:06:44 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.biconomy.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 05:36:04 2026 GMT\n  hsts: null\ndomains:\n- domain: biconomy.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-24'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.biconomy.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 08:09:04 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.biconomy.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 16:06:44 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.biconomy.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 16:14:40 2026 GMT\n  hsts: null\ndomains:\n- domain: biconomy.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/security/biconomy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

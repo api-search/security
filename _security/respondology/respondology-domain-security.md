@@ -1,0 +1,60 @@
+---
+api_specs:
+- filename: respondology-api-openapi.json
+  format: json
+  label: Respondology API
+  slug: respondology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/respondology/refs/heads/main/openapi/respondology-api-openapi.json
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: none
+  dnssec: false
+  domain: respondology.com
+  spf: true
+- caa: []
+  dmarc: false
+  dnssec: false
+  domain: respondology.io
+  spf: true
+hosts:
+- cert_expires: Oct 20 03:50:55 2026 GMT
+  host: respondology.com
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Nov 19 23:59:59 2026 GMT
+  host: webhooks.respondology.io
+  hsts: true
+  hsts_max_age: 63072000
+  https: true
+  tls_version: TLSv1.3
+kind: domain-security
+layout: security
+method: probed
+name: Respondology Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Respondology, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Respondology
+provider_slug: respondology
+slug: respondology-domain-security
+source_filename: respondology-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: respondology.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 03:50:55 2026 GMT\n  hsts: false\n- host: webhooks.respondology.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: respondology.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: respondology.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/respondology/refs/heads/main/security/respondology-domain-security.yml
+summary_line: TLSv1.3 · HSTS · DMARC
+tags:
+- Company
+- Content Moderation
+- Social Media
+- Comment Moderation
+- Trust and Safety
+- Artificial Intelligence
+- Brand Protection
+- Social Listening
+- Webhooks
+- Marketing
+---

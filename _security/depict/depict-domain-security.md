@@ -262,4 +262,5 @@ tags:
 - Retail
 - Fashion
 - Shopify
+- Sweden
 ---

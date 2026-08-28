@@ -97,4 +97,5 @@ tags:
 - Community
 - Unofficial API
 - Smart Home
+- Sweden
 ---

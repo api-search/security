@@ -1,5 +1,17 @@
 ---
 api_specs:
+- filename: snyk-oauth2-app-openapi.yml
+  format: yaml
+  label: Snyk OAuth2 API - Authorize
+  slug: oauth2-authorize
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-oauth2-app-openapi.yml
+- filename: snyk-oauth2-token-openapi.yml
+  format: yaml
+  label: Snyk OAuth2 API - Token
+  slug: oauth2-token
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-oauth2-token-openapi.yml
 - filename: snyk-accessrequests-api-openapi.yml
   format: yaml
   label: Snyk AccessRequests API
@@ -279,12 +291,12 @@ api_specs:
 description: ''
 domains:
 - caa:
-  - 0 issue "pki.goog"
-  - 0 issue "digicert.com"
-  - 0 issue "awstrust.com"
   - 0 issue "comodoca.com"
-  - 0 issue "amazontrust.com"
+  - 0 issue "amazon.com"
+  - 0 issue "pki.goog"
+  - 0 issue "sectigo.com"
   - 0 issue "amazonaws.com"
+  - 0 issue "letsencrypt.org"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
@@ -297,9 +309,10 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 14 05:49:58 2026 GMT
-  host: apidocs.snyk.io
-  hsts: false
+- cert_expires: Oct 31 00:40:37 2026 GMT
+  host: docs.snyk.io
+  hsts: true
+  hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
 - cert_expires: Dec  8 23:59:59 2026 GMT
@@ -313,14 +326,14 @@ layout: security
 method: probed
 name: Snyk Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Snyk, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for Snyk, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Snyk
 provider_slug: snyk
 slug: snyk-domain-security
 source_filename: snyk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: snyk.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apidocs.snyk.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 05:49:58 2026 GMT\n  hsts: false\n- host: api.snyk.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: snyk.io\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: snyk.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.snyk.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 00:40:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.snyk.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: snyk.io\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/security/snyk-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

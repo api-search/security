@@ -119,7 +119,7 @@ certifications:
 - ISO 27001
 - PCI DSS
 - GDPR
-description: ''
+description: Lever's public security and compliance page, operated under parent company Employ Inc. Certifications are named on the page; Lever does not run a self-serve trust portal with downloadable evidence — reports are obtained through sales or support under NDA.
 kind: trust-center
 layout: security
 name: Lever Co Trust Center
@@ -131,7 +131,8 @@ slug: lever-co-trust-center
 source_filename: lever-co-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.lever.co/security\nurl: https://www.lever.co/security\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\n- GDPR\nevidence:\n- source: https://www.lever.co/security\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - iso/iec 27001\n  - pci-dss\n  - compliance certification\n  - gdpr\n"
+source_yaml: "generated: '2026-08-26'\nmethod: searched\nprobe: true\nsource: >-\n  https://www.lever.co/security (HTTP 200, fetched 2026-08-26) and\n  https://www.employinc.com/legal/ — the parent company's legal and security\n  hub. Baseline written by 0-working/probe-security-programs.py.\nurl: https://www.lever.co/security\nowner: Employ Inc.\ndescription: >-\n  Lever's public security and compliance page, operated under parent company\n  Employ Inc. Certifications are named on the page; Lever does not run a\n  self-serve trust portal with downloadable evidence — reports are obtained\n  through sales or support under NDA.\ncertifications:\n  - SOC 2\n  - ISO 27001\n  - PCI DSS\n  - GDPR\ndata_residency:\n  regions: [US, EU]\n  evidence: >-\n    Lever operates a separate EU data centre. OAuth authorization and API\n    actions for EU customers are routed to the appropriate data centre\n    automatically (https://hire.lever.co/developer/oauth), and the public\n    Postings API has an EU\
+  \ host at https://api.eu.lever.co/v0/postings.\nself_serve_evidence_portal: false\nsubprocessor_list_published: null\nstatus_page: https://status.lever.co/\nvulnerability_disclosure: security/lever-co-vulnerability-disclosure.yml\ndomain_security: security/lever-co-domain-security.yml\nevidence:\n  - source: https://www.lever.co/security\n    status: 200\n    checked: '2026-08-26'\n    keywords:\n      - soc 2\n      - iso 27001\n      - pci-dss\n      - gdpr\n  - source: https://www.employinc.com/legal/\n    status: 200\n    checked: '2026-08-26'\n    kind: parent-company legal and security hub\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lever-co/refs/heads/main/security/lever-co-trust-center.yml
 summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:
