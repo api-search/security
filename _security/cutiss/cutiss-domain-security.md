@@ -24,12 +24,6 @@ api_specs:
   slug: cutiss-team-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cutiss/refs/heads/main/openapi/cutiss-team-api-openapi.yml
-- filename: cutiss-teams-api-openapi.yml
-  format: yaml
-  label: CUTISS Teams Taxonomy API
-  slug: cutiss-teams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cutiss/refs/heads/main/openapi/cutiss-teams-api-openapi.yml
 - filename: cutiss-media-api-openapi.yml
   format: yaml
   label: CUTISS Media API
@@ -48,6 +42,12 @@ api_specs:
   slug: cutiss-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cutiss/refs/heads/main/openapi/cutiss-search-api-openapi.yml
+- filename: cutiss-teams-taxonomy-api-openapi.yml
+  format: yaml
+  label: CUTISS Teams Taxonomy API
+  slug: cutiss-teams-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cutiss/refs/heads/main/openapi/cutiss-teams-taxonomy-api-openapi.yml
 description: ''
 domains:
 - caa: []

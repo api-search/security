@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: sendlane-openapi.yml
+- filename: sendlane-automations-api-openapi.yml
   format: yaml
-  label: Sendlane API
-  slug: sendlane-api
+  label: Sendlane Automations API
+  slug: sendlane-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/openapi/sendlane-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/openapi/sendlane-automations-api-openapi.yml
+- filename: sendlane-campaigns-api-openapi.yml
+  format: yaml
+  label: Sendlane Campaigns API
+  slug: sendlane-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/openapi/sendlane-campaigns-api-openapi.yml
+- filename: sendlane-contacts-api-openapi.yml
+  format: yaml
+  label: Sendlane Contacts API
+  slug: sendlane-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/openapi/sendlane-contacts-api-openapi.yml
+- filename: sendlane-custom-fields-api-openapi.yml
+  format: yaml
+  label: Sendlane Custom Fields API
+  slug: sendlane-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/openapi/sendlane-custom-fields-api-openapi.yml
+- filename: sendlane-custom-integration-events-api-openapi.yml
+  format: yaml
+  label: Sendlane Custom Integration Events API
+  slug: sendlane-custom-integration-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/openapi/sendlane-custom-integration-events-api-openapi.yml
+- filename: sendlane-custom-integration-webhooks-api-openapi.yml
+  format: yaml
+  label: Sendlane Custom Integration Webhooks API
+  slug: sendlane-custom-integration-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/openapi/sendlane-custom-integration-webhooks-api-openapi.yml
+- filename: sendlane-custom-integrations-api-openapi.yml
+  format: yaml
+  label: Sendlane Custom Integrations API
+  slug: sendlane-custom-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/openapi/sendlane-custom-integrations-api-openapi.yml
+- filename: sendlane-list-contacts-api-openapi.yml
+  format: yaml
+  label: Sendlane List Contacts API
+  slug: sendlane-list-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/openapi/sendlane-list-contacts-api-openapi.yml
+- filename: sendlane-lists-api-openapi.yml
+  format: yaml
+  label: Sendlane Lists API
+  slug: sendlane-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/openapi/sendlane-lists-api-openapi.yml
+- filename: sendlane-segments-api-openapi.yml
+  format: yaml
+  label: Sendlane Segments API
+  slug: sendlane-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/openapi/sendlane-segments-api-openapi.yml
+- filename: sendlane-senders-api-openapi.yml
+  format: yaml
+  label: Sendlane Senders API
+  slug: sendlane-senders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/openapi/sendlane-senders-api-openapi.yml
+- filename: sendlane-sms-api-openapi.yml
+  format: yaml
+  label: Sendlane SMS API
+  slug: sendlane-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/openapi/sendlane-sms-api-openapi.yml
+- filename: sendlane-suppression-api-openapi.yml
+  format: yaml
+  label: Sendlane Suppression API
+  slug: sendlane-suppression-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/openapi/sendlane-suppression-api-openapi.yml
+- filename: sendlane-tags-api-openapi.yml
+  format: yaml
+  label: Sendlane Tags API
+  slug: sendlane-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/openapi/sendlane-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

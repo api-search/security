@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: samaya-ai-public-api-openapi.json
-  format: json
-  label: Samaya Public API
-  slug: samaya-public-api
+- filename: samaya-ai-organizations-api-openapi.yml
+  format: yaml
+  label: Samaya AI Organizations API
+  slug: samaya-ai-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/openapi/samaya-ai-public-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/openapi/samaya-ai-organizations-api-openapi.yml
+- filename: samaya-ai-teams-api-openapi.yml
+  format: yaml
+  label: Samaya AI Teams API
+  slug: samaya-ai-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/openapi/samaya-ai-teams-api-openapi.yml
+- filename: samaya-ai-users-api-openapi.yml
+  format: yaml
+  label: Samaya AI Users API
+  slug: samaya-ai-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/openapi/samaya-ai-users-api-openapi.yml
 certifications:
 - SOC 2
 description: ''

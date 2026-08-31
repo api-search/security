@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: sybilion-operational-api-openapi.yml
+- filename: sybilion-alerts-api-openapi.yml
   format: yaml
-  label: Sybilion Operational API
-  slug: sybilion-operational-api
+  label: Sybilion Alerts API
+  slug: sybilion-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-operational-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-alerts-api-openapi.yml
+- filename: sybilion-categories-api-openapi.yml
+  format: yaml
+  label: Sybilion Categories API
+  slug: sybilion-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-categories-api-openapi.yml
+- filename: sybilion-drivers-api-openapi.yml
+  format: yaml
+  label: Sybilion Drivers API
+  slug: sybilion-drivers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-drivers-api-openapi.yml
+- filename: sybilion-forecasts-api-openapi.yml
+  format: yaml
+  label: Sybilion Forecasts API
+  slug: sybilion-forecasts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-forecasts-api-openapi.yml
+- filename: sybilion-health-api-openapi.yml
+  format: yaml
+  label: Sybilion Health API
+  slug: sybilion-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-health-api-openapi.yml
+- filename: sybilion-jobs-api-openapi.yml
+  format: yaml
+  label: Sybilion Jobs API
+  slug: sybilion-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-jobs-api-openapi.yml
+- filename: sybilion-me-api-openapi.yml
+  format: yaml
+  label: Sybilion Me API
+  slug: sybilion-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-me-api-openapi.yml
+- filename: sybilion-regions-api-openapi.yml
+  format: yaml
+  label: Sybilion Regions API
+  slug: sybilion-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-regions-api-openapi.yml
+- filename: sybilion-usage-api-openapi.yml
+  format: yaml
+  label: Sybilion Usage API
+  slug: sybilion-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []

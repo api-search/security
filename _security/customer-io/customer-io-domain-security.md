@@ -48,24 +48,6 @@ api_specs:
   slug: customer-io-customers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-customers-api-openapi.yml
-- filename: customer-io-devices-api-openapi.yml
-  format: yaml
-  label: Customer.io Devices API
-  slug: customer-io-devices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-devices-api-openapi.yml
-- filename: customer-io-entity-api-openapi.yml
-  format: yaml
-  label: Customer.io Entity API
-  slug: customer-io-entity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-entity-api-openapi.yml
-- filename: customer-io-events-api-openapi.yml
-  format: yaml
-  label: Customer.io Events API
-  slug: customer-io-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-events-api-openapi.yml
 - filename: customer-io-exports-api-openapi.yml
   format: yaml
   label: Customer.io Exports API
@@ -84,12 +66,6 @@ api_specs:
   slug: customer-io-identify-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-identify-api-openapi.yml
-- filename: customer-io-merge-api-openapi.yml
-  format: yaml
-  label: Customer.io Merge API
-  slug: customer-io-merge-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-merge-api-openapi.yml
 - filename: customer-io-messages-api-openapi.yml
   format: yaml
   label: Customer.io Messages API
@@ -138,24 +114,138 @@ api_specs:
   slug: customer-io-transactional-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-transactional-api-openapi.yml
-- filename: customer-io-app-api-openapi.json
-  format: json
-  label: Customer.io App API
-  slug: app-api
+- filename: customer-io-assets-api-openapi.yml
+  format: yaml
+  label: Customer.io Assets API
+  slug: customer-io-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/_original/customer-io-app-api-openapi.json
-- filename: customer-io-pipelines-api-openapi.json
-  format: json
-  label: Customer.io Pipelines API
-  slug: pipelines-api
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-assets-api-openapi.yml
+- filename: customer-io-customer-io-app-api-api-openapi.yml
+  format: yaml
+  label: Customer.io Customer.io App API
+  slug: customer-io-customer-io-app-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/_original/customer-io-pipelines-api-openapi.json
-- filename: customer-io-reporting-webhooks-openapi.json
-  format: json
-  label: Customer.io Reporting Webhooks
-  slug: reporting-webhooks
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-customer-io-app-api-api-openapi.yml
+- filename: customer-io-data-index-api-openapi.yml
+  format: yaml
+  label: Customer.io Data Index API
+  slug: customer-io-data-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/_original/customer-io-reporting-webhooks-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-data-index-api-openapi.yml
+- filename: customer-io-design-studio-api-openapi.yml
+  format: yaml
+  label: Customer.io Design Studio API
+  slug: customer-io-design-studio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-design-studio-api-openapi.yml
+- filename: customer-io-esp-suppression-api-openapi.yml
+  format: yaml
+  label: Customer.io ESP Suppression API
+  slug: customer-io-esp-suppression-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-esp-suppression-api-openapi.yml
+- filename: customer-io-forms-api-openapi.yml
+  format: yaml
+  label: Customer.io Forms API
+  slug: customer-io-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-forms-api-openapi.yml
+- filename: customer-io-imports-api-openapi.yml
+  format: yaml
+  label: Customer.io Imports API
+  slug: customer-io-imports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-imports-api-openapi.yml
+- filename: customer-io-info-api-openapi.yml
+  format: yaml
+  label: Customer.io Info API
+  slug: customer-io-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-info-api-openapi.yml
+- filename: customer-io-live-notifications-api-openapi.yml
+  format: yaml
+  label: Customer.io Live Notifications API
+  slug: customer-io-live-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-live-notifications-api-openapi.yml
+- filename: customer-io-newsletter-metrics-api-openapi.yml
+  format: yaml
+  label: Customer.io Newsletter Metrics API
+  slug: customer-io-newsletter-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-newsletter-metrics-api-openapi.yml
+- filename: customer-io-newsletter-variants-api-openapi.yml
+  format: yaml
+  label: Customer.io Newsletter Variants API
+  slug: customer-io-newsletter-variants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-newsletter-variants-api-openapi.yml
+- filename: customer-io-objects-api-openapi.yml
+  format: yaml
+  label: Customer.io Objects API
+  slug: customer-io-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-objects-api-openapi.yml
+- filename: customer-io-opt-outs-api-openapi.yml
+  format: yaml
+  label: Customer.io Opt Outs API
+  slug: customer-io-opt-outs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-opt-outs-api-openapi.yml
+- filename: customer-io-reporting-webhooks-api-openapi.yml
+  format: yaml
+  label: Customer.io Reporting Webhooks API
+  slug: customer-io-reporting-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-reporting-webhooks-api-openapi.yml
+- filename: customer-io-send-messages-api-openapi.yml
+  format: yaml
+  label: Customer.io Send Messages API
+  slug: customer-io-send-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-send-messages-api-openapi.yml
+- filename: customer-io-subscription-center-api-openapi.yml
+  format: yaml
+  label: Customer.io Subscription Center API
+  slug: customer-io-subscription-center-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-subscription-center-api-openapi.yml
+- filename: customer-io-track-customers-api-openapi.yml
+  format: yaml
+  label: Customer.io Track Customers API
+  slug: customer-io-track-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-track-customers-api-openapi.yml
+- filename: customer-io-track-events-api-openapi.yml
+  format: yaml
+  label: Customer.io Track Events API
+  slug: customer-io-track-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-track-events-api-openapi.yml
+- filename: customer-io-track-segments-api-openapi.yml
+  format: yaml
+  label: Customer.io Track Segments API
+  slug: customer-io-track-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-track-segments-api-openapi.yml
+- filename: customer-io-track-v2-api-openapi.yml
+  format: yaml
+  label: Customer.io Track V2 API
+  slug: customer-io-track-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-track-v2-api-openapi.yml
+- filename: customer-io-trackregion-api-openapi.yml
+  format: yaml
+  label: Customer.io Track Region API
+  slug: customer-io-trackregion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-trackregion-api-openapi.yml
+- filename: customer-io-workspaces-api-openapi.yml
+  format: yaml
+  label: Customer.io Workspaces API
+  slug: customer-io-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

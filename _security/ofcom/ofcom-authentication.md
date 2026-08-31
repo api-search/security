@@ -3,18 +3,12 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: ofcom-connected-nations-broadband-api-openapi.yml
+- filename: ofcom-coverage-api-openapi.yml
   format: yaml
-  label: Ofcom Connected Nations Broadband API
-  slug: ofcom-connected-nations-broadband-api
+  label: Ofcom Coverage API
+  slug: ofcom-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ofcom/refs/heads/main/openapi/ofcom-connected-nations-broadband-api-openapi.yml
-- filename: ofcom-connected-nations-mobile-api-openapi.yml
-  format: yaml
-  label: Ofcom Connected Nations Mobile API
-  slug: ofcom-connected-nations-mobile-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ofcom/refs/heads/main/openapi/ofcom-connected-nations-mobile-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ofcom/refs/heads/main/openapi/ofcom-coverage-api-openapi.yml
 auth_types:
 - apiKey
 description: 'Azure API Management subscription key, and nothing else. There is no OAuth, no

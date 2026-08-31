@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: lafourchette-b2b-api-openapi.yml
+- filename: lafourchette-booking-flow-api-openapi.yml
   format: yaml
-  label: TheFork B2B API
-  slug: thefork-b2b-api
+  label: LaFourchette Booking flow API
+  slug: lafourchette-booking-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lafourchette/refs/heads/main/openapi/lafourchette-b2b-api-openapi.yml
-- filename: lafourchette-pos-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lafourchette/refs/heads/main/openapi/lafourchette-booking-flow-api-openapi.yml
+- filename: lafourchette-data-api-openapi.yml
   format: yaml
-  label: TheFork POS API v1
-  slug: thefork-pos-api
+  label: LaFourchette Data API
+  slug: lafourchette-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lafourchette/refs/heads/main/openapi/lafourchette-pos-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lafourchette/refs/heads/main/openapi/lafourchette-data-api-openapi.yml
+- filename: lafourchette-phone-api-openapi.yml
+  format: yaml
+  label: LaFourchette Phone API
+  slug: lafourchette-phone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lafourchette/refs/heads/main/openapi/lafourchette-phone-api-openapi.yml
+- filename: lafourchette-review-flow-api-openapi.yml
+  format: yaml
+  label: LaFourchette Review flow API
+  slug: lafourchette-review-flow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lafourchette/refs/heads/main/openapi/lafourchette-review-flow-api-openapi.yml
+- filename: lafourchette-v1-api-openapi.yml
+  format: yaml
+  label: LaFourchette V1 API
+  slug: lafourchette-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lafourchette/refs/heads/main/openapi/lafourchette-v1-api-openapi.yml
 description: ''
 domains:
 - caa: []

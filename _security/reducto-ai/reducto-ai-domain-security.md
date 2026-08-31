@@ -91,8 +91,8 @@ layout: security
 method: probed
 name: Reducto Ai Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for reducto-ai, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: reducto-ai
+overview: 'Domain security posture for Reducto, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Reducto
 provider_slug: reducto-ai
 slug: reducto-ai-domain-security
 source_filename: reducto-ai-domain-security.yml

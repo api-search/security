@@ -1,60 +1,6 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ribbon-health-api-openapi.json
-  format: json
-  label: H1 Ribbon Providers API
-  slug: ribbon-providers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/ribbon-health-api-openapi.json
-- filename: ribbon-health-api-openapi.json
-  format: json
-  label: H1 Ribbon Locations API
-  slug: ribbon-locations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/ribbon-health-api-openapi.json
-- filename: ribbon-health-api-openapi.json
-  format: json
-  label: H1 Ribbon Custom Filters API
-  slug: ribbon-filters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/ribbon-health-api-openapi.json
-- filename: ribbon-health-api-openapi.json
-  format: json
-  label: H1 Ribbon Focus Areas API
-  slug: ribbon-focus-areas-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/ribbon-health-api-openapi.json
-- filename: ribbon-health-api-openapi.json
-  format: json
-  label: H1 Ribbon Price Transparency API
-  slug: ribbon-price-transparency-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/ribbon-health-api-openapi.json
-- filename: ribbon-health-api-openapi.json
-  format: json
-  label: H1 Ribbon Cost Estimates & Eligibility API
-  slug: ribbon-cost-estimates-eligibility-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/ribbon-health-api-openapi.json
-- filename: ribbon-health-api-openapi.json
-  format: json
-  label: H1 Ribbon Organizations API
-  slug: ribbon-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/ribbon-health-api-openapi.json
-- filename: ribbon-health-api-openapi.json
-  format: json
-  label: H1 Ribbon Reference Data API
-  slug: ribbon-reference-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/ribbon-health-api-openapi.json
-- filename: ribbon-health-api-openapi.json
-  format: json
-  label: H1 Ribbon Network Analysis API
-  slug: ribbon-network-analysis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/ribbon-health-api-openapi.json
 - filename: h1-cost-estimates-api-openapi.yml
   format: yaml
   label: H1 Cost Estimates API
@@ -121,12 +67,12 @@ api_specs:
   slug: h1-insights-virtual-care-platforms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/h1-virtual-care-platforms-api-openapi.yml
-- filename: h1-price-transparency-v2-openapi.json
-  format: json
+- filename: h1-price-transparency-v2-api-openapi.yml
+  format: yaml
   label: H1 Price Transparency v2 API
   slug: h1-price-transparency-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/h1-price-transparency-v2-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/h1-price-transparency-v2-api-openapi.yml
 auth_types:
 - http
 description: ''

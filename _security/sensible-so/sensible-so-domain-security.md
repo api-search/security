@@ -73,8 +73,8 @@ layout: security
 method: probed
 name: Sensible So Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for sensible-so, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: sensible-so
+overview: 'Domain security posture for Sensible, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Sensible
 provider_slug: sensible-so
 slug: sensible-so-domain-security
 source_filename: sensible-so-domain-security.yml

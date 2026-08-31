@@ -55,6 +55,12 @@ api_specs:
   slug: canoe-intelligence-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-user-api-openapi.yml
+- filename: canoe-intelligence-introduction-api-openapi.yml
+  format: yaml
+  label: Canoe Intelligence Introduction API
+  slug: canoe-intelligence-introduction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-introduction-api-openapi.yml
 auth_types:
 - http
 - oauth2

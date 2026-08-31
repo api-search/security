@@ -81,12 +81,12 @@ api_specs:
   slug: serper-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-videos-api-openapi.yml
-- filename: serper-webpage-scrape-api-openapi.yml
+- filename: serper-scrape-api-openapi.yml
   format: yaml
-  label: Serper Webpage Scrape API
-  slug: serper-webpage-scrape-api
+  label: Serper Scrape API
+  slug: serper-scrape-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-webpage-scrape-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-scrape-api-openapi.yml
 auth_types:
 - apiKey
 description: Serper uses a single static API key. The documented path is an X-API-KEY request header on a POST. Serper's own playground can also emit the call as a GET with the key in an `apiKey` query-string parameter — a second, weaker convention that puts the credential in the URL. There is no OAuth, no OIDC, no scopes, no token exchange and no expiry. Keys are created and revoked in the account dashboard at https://serper.dev/api-keys, which supports multiple named keys per account.

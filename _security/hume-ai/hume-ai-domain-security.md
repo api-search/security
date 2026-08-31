@@ -54,6 +54,12 @@ api_specs:
   slug: hume-ai-subpackage-voices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-voices-api-openapi.yml
+- filename: hume-ai-speech-to-speech-evi-api-openapi.yml
+  format: yaml
+  label: Hume AI Speech To Speech (EVI) API
+  slug: hume-ai-speech-to-speech-evi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-speech-to-speech-evi-api-openapi.yml
 description: ''
 domains:
 - caa: []

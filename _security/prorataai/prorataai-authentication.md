@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: prorataai-openapi.json
-  format: json
-  label: Prorata API Service
-  slug: prorataai-prorata-api-service
+- filename: prorataai-chat-api-openapi.yml
+  format: yaml
+  label: ProRata.ai Chat API
+  slug: prorataai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/openapi/prorataai-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/openapi/prorataai-chat-api-openapi.yml
+- filename: prorataai-health-api-openapi.yml
+  format: yaml
+  label: ProRata.ai Health API
+  slug: prorataai-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/openapi/prorataai-health-api-openapi.yml
+- filename: prorataai-publishers-api-openapi.yml
+  format: yaml
+  label: ProRata.ai Publishers API
+  slug: prorataai-publishers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/openapi/prorataai-publishers-api-openapi.yml
+- filename: prorataai-questions-api-openapi.yml
+  format: yaml
+  label: ProRata.ai Questions API
+  slug: prorataai-questions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/openapi/prorataai-questions-api-openapi.yml
+- filename: prorataai-root-api-openapi.yml
+  format: yaml
+  label: ProRata.ai Root API
+  slug: prorataai-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/openapi/prorataai-root-api-openapi.yml
+- filename: prorataai-summaries-api-openapi.yml
+  format: yaml
+  label: ProRata.ai Summaries API
+  slug: prorataai-summaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/openapi/prorataai-summaries-api-openapi.yml
+- filename: prorataai-threads-api-openapi.yml
+  format: yaml
+  label: ProRata.ai Threads API
+  slug: prorataai-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/openapi/prorataai-threads-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

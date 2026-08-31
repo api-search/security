@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: equals-memories-openapi.yml
+- filename: equals-memories-api-openapi.yml
   format: yaml
   label: Equals Memories API
   slug: equals-memories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/openapi/equals-memories-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/openapi/equals-memories-api-openapi.yml
 description: ''
 domains:
 - caa: []

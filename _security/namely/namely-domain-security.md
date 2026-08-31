@@ -1,11 +1,119 @@
 ---
 api_specs:
-- filename: namely-api-openapi.json
-  format: json
-  label: Namely API
-  slug: namely-api
+- filename: namely-comments-api-openapi.yml
+  format: yaml
+  label: Namely Comments API
+  slug: namely-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-comments-api-openapi.yml
+- filename: namely-company-info-api-openapi.yml
+  format: yaml
+  label: Namely Company Info API
+  slug: namely-company-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-company-info-api-openapi.yml
+- filename: namely-company-resources-api-openapi.yml
+  format: yaml
+  label: Namely Company Resources API
+  slug: namely-company-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-company-resources-api-openapi.yml
+- filename: namely-countries-api-openapi.yml
+  format: yaml
+  label: Namely Countries API
+  slug: namely-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-countries-api-openapi.yml
+- filename: namely-events-api-openapi.yml
+  format: yaml
+  label: Namely Events API
+  slug: namely-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-events-api-openapi.yml
+- filename: namely-groups-api-openapi.yml
+  format: yaml
+  label: Namely Groups API
+  slug: namely-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-groups-api-openapi.yml
+- filename: namely-groups-teams-api-openapi.yml
+  format: yaml
+  label: Namely Groups & Teams API
+  slug: namely-groups-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-groups-teams-api-openapi.yml
+- filename: namely-home-feed-api-openapi.yml
+  format: yaml
+  label: Namely Home Feed API
+  slug: namely-home-feed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-home-feed-api-openapi.yml
+- filename: namely-job-tier-api-openapi.yml
+  format: yaml
+  label: Namely Job Tier API
+  slug: namely-job-tier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-job-tier-api-openapi.yml
+- filename: namely-job-title-api-openapi.yml
+  format: yaml
+  label: Namely Job Title API
+  slug: namely-job-title-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-job-title-api-openapi.yml
+- filename: namely-jobs-info-api-openapi.yml
+  format: yaml
+  label: Namely Jobs Info API
+  slug: namely-jobs-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-jobs-info-api-openapi.yml
+- filename: namely-likes-api-openapi.yml
+  format: yaml
+  label: Namely Likes API
+  slug: namely-likes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-likes-api-openapi.yml
+- filename: namely-namely-system-info-api-openapi.yml
+  format: yaml
+  label: Namely Namely System Info API
+  slug: namely-namely-system-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-namely-system-info-api-openapi.yml
+- filename: namely-notifications-api-openapi.yml
+  format: yaml
+  label: Namely Notifications API
+  slug: namely-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-notifications-api-openapi.yml
+- filename: namely-profile-fields-api-openapi.yml
+  format: yaml
+  label: Namely Profile Fields API
+  slug: namely-profile-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-profile-fields-api-openapi.yml
+- filename: namely-profile-fields-sections-api-openapi.yml
+  format: yaml
+  label: Namely Profile Fields Sections API
+  slug: namely-profile-fields-sections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-profile-fields-sections-api-openapi.yml
+- filename: namely-profiles-api-openapi.yml
+  format: yaml
+  label: Namely Profiles API
+  slug: namely-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-profiles-api-openapi.yml
+- filename: namely-reports-api-openapi.yml
+  format: yaml
+  label: Namely Reports API
+  slug: namely-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-reports-api-openapi.yml
+- filename: namely-teams-api-openapi.yml
+  format: yaml
+  label: Namely Teams API
+  slug: namely-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []

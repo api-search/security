@@ -320,6 +320,12 @@ api_specs:
   slug: ashby-workflow-update-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ashby/refs/heads/main/openapi/ashby-workflow-update-api-openapi.yml
+- filename: ashby-webhook-payloads-api-openapi.yml
+  format: yaml
+  label: Ashby Webhook Payloads API
+  slug: ashby-webhook-payloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ashby/refs/heads/main/openapi/ashby-webhook-payloads-api-openapi.yml
 auth_types:
 - apiKey
 - http

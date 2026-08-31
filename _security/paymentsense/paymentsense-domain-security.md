@@ -1,17 +1,107 @@
 ---
 api_specs:
-- filename: paymentsense-connect-v2.json
-  format: json
-  label: Paymentsense Connect REST API
-  slug: connect-rest-api
+- filename: paymentsense-access-token-api-openapi.yml
+  format: yaml
+  label: Paymentsense Access Token API
+  slug: paymentsense-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-connect-v2.json
-- filename: paymentsense-connect-e-v0.json
-  format: json
-  label: Paymentsense Connect-E REST API
-  slug: connect-e-rest-api
+  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-access-token-api-openapi.yml
+- filename: paymentsense-cross-reference-payment-api-openapi.yml
+  format: yaml
+  label: Paymentsense Cross Reference Payment API
+  slug: paymentsense-cross-reference-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-connect-e-v0.json
+  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-cross-reference-payment-api-openapi.yml
+- filename: paymentsense-hospitality-reports-api-openapi.yml
+  format: yaml
+  label: Paymentsense Hospitality Reports API
+  slug: paymentsense-hospitality-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-hospitality-reports-api-openapi.yml
+- filename: paymentsense-hospitality-tables-api-openapi.yml
+  format: yaml
+  label: Paymentsense Hospitality Tables API
+  slug: paymentsense-hospitality-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-hospitality-tables-api-openapi.yml
+- filename: paymentsense-pac-reports-api-openapi.yml
+  format: yaml
+  label: Paymentsense PAC Reports API
+  slug: paymentsense-pac-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-pac-reports-api-openapi.yml
+- filename: paymentsense-pac-reports-ingenico-only-api-openapi.yml
+  format: yaml
+  label: Paymentsense PAC Reports (Ingenico Only) API
+  slug: paymentsense-pac-reports-ingenico-only-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-pac-reports-ingenico-only-api-openapi.yml
+- filename: paymentsense-pac-terminals-api-openapi.yml
+  format: yaml
+  label: Paymentsense PAC Terminals API
+  slug: paymentsense-pac-terminals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-pac-terminals-api-openapi.yml
+- filename: paymentsense-pac-transactions-api-openapi.yml
+  format: yaml
+  label: Paymentsense PAC Transactions API
+  slug: paymentsense-pac-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-pac-transactions-api-openapi.yml
+- filename: paymentsense-pat-reports-api-openapi.yml
+  format: yaml
+  label: Paymentsense PAT Reports API
+  slug: paymentsense-pat-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-pat-reports-api-openapi.yml
+- filename: paymentsense-pat-tables-api-openapi.yml
+  format: yaml
+  label: Paymentsense PAT Tables API
+  slug: paymentsense-pat-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-pat-tables-api-openapi.yml
+- filename: paymentsense-payment-details-api-openapi.yml
+  format: yaml
+  label: Paymentsense Payment Details API
+  slug: paymentsense-payment-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-payment-details-api-openapi.yml
+- filename: paymentsense-payment-methods-api-openapi.yml
+  format: yaml
+  label: Paymentsense Payment Methods API
+  slug: paymentsense-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-payment-methods-api-openapi.yml
+- filename: paymentsense-resume-payment-api-openapi.yml
+  format: yaml
+  label: Paymentsense Resume Payment API
+  slug: paymentsense-resume-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-resume-payment-api-openapi.yml
+- filename: paymentsense-retail-reports-api-openapi.yml
+  format: yaml
+  label: Paymentsense Retail Reports API
+  slug: paymentsense-retail-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-retail-reports-api-openapi.yml
+- filename: paymentsense-retail-terminals-api-openapi.yml
+  format: yaml
+  label: Paymentsense Retail Terminals API
+  slug: paymentsense-retail-terminals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-retail-terminals-api-openapi.yml
+- filename: paymentsense-retail-transactions-api-openapi.yml
+  format: yaml
+  label: Paymentsense Retail Transactions API
+  slug: paymentsense-retail-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-retail-transactions-api-openapi.yml
+- filename: paymentsense-revoke-access-token-api-openapi.yml
+  format: yaml
+  label: Paymentsense Revoke Access Token API
+  slug: paymentsense-revoke-access-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-revoke-access-token-api-openapi.yml
 description: ''
 domains:
 - caa: []

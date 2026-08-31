@@ -210,36 +210,42 @@ api_specs:
   slug: supaglue-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-users-api-openapi.yml
-- filename: supaglue-actions-api-openapi.yml
+- filename: supaglue-forms-api-openapi.yml
   format: yaml
-  label: Supaglue Actions API
-  slug: supaglue-actions-api
+  label: Supaglue Forms API
+  slug: supaglue-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-actions-api-openapi.yml
-- filename: supaglue-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-forms-api-openapi.yml
+- filename: supaglue-hubspot-api-openapi.yml
   format: yaml
-  label: Supaglue Data Listing API
-  slug: supaglue-data-api
+  label: Supaglue Hubspot API
+  slug: supaglue-hubspot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-data-api-openapi.yml
-- filename: supaglue-enrichment-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-hubspot-api-openapi.yml
+- filename: supaglue-passthrough-api-openapi.yml
   format: yaml
-  label: Supaglue Unified Enrichment API
-  slug: supaglue-enrichment-api
+  label: Supaglue Passthrough API
+  slug: supaglue-passthrough-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-enrichment-api-openapi.yml
-- filename: supaglue-marketing-automation-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-passthrough-api-openapi.yml
+- filename: supaglue-persons-api-openapi.yml
   format: yaml
-  label: Supaglue Unified Marketing Automation API
-  slug: supaglue-marketing-automation-api
+  label: Supaglue Persons API
+  slug: supaglue-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-marketing-automation-api-openapi.yml
-- filename: supaglue-metadata-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-persons-api-openapi.yml
+- filename: supaglue-salesforce-api-openapi.yml
   format: yaml
-  label: Supaglue Metadata API
-  slug: supaglue-metadata-api
+  label: Supaglue Salesforce API
+  slug: supaglue-salesforce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-metadata-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-salesforce-api-openapi.yml
+- filename: supaglue-webhook-events-api-openapi.yml
+  format: yaml
+  label: Supaglue Webhook Events API
+  slug: supaglue-webhook-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-webhook-events-api-openapi.yml
 description: ''
 domains:
 - caa: []

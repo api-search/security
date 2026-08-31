@@ -1,18 +1,6 @@
 ---
 api_key_in: []
 api_specs:
-- filename: pypi-index-api-openapi.yml
-  format: yaml
-  label: PyPI Index API
-  slug: index
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/openapi/pypi-index-api-openapi.yml
-- filename: pypi-upload-api-openapi.yml
-  format: yaml
-  label: PyPI Upload API
-  slug: upload
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/openapi/pypi-upload-api-openapi.yml
 - filename: pypi-downloads-api-openapi.yml
   format: yaml
   label: PyPI Downloads API

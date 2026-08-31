@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Occidental Petroleum Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for occidental-petroleum, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: occidental-petroleum
+overview: 'Domain security posture for Occidental Petroleum, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Occidental Petroleum
 provider_slug: occidental-petroleum
 slug: occidental-petroleum-domain-security
 source_filename: occidental-petroleum-domain-security.yml

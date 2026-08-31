@@ -52,8 +52,8 @@ layout: security
 method: probed
 name: Microsoft Azure Cosmos Db Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for microsoft-azure-cosmos-db, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: microsoft-azure-cosmos-db
+overview: 'Domain security posture for Azure Cosmos DB, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Azure Cosmos DB
 provider_slug: microsoft-azure-cosmos-db
 slug: microsoft-azure-cosmos-db-domain-security
 source_filename: microsoft-azure-cosmos-db-domain-security.yml

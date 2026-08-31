@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: fullcast-assistant-openapi-original.json
-  format: json
-  label: Fullcast Assistant API
-  slug: fullcast-assistant-api
+- filename: fullcast-copilot-api-api-openapi.yml
+  format: yaml
+  label: Fullcast Copilot API
+  slug: fullcast-copilot-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-assistant-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-copilot-api-api-openapi.yml
+- filename: fullcast-mcp-info-api-openapi.yml
+  format: yaml
+  label: Fullcast Mcp Info API
+  slug: fullcast-mcp-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-mcp-info-api-openapi.yml
+- filename: fullcast-oauth-api-openapi.yml
+  format: yaml
+  label: Fullcast OAUTH API
+  slug: fullcast-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-oauth-api-openapi.yml
+- filename: fullcast-well-known-api-openapi.yml
+  format: yaml
+  label: Fullcast .well Known API
+  slug: fullcast-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-well-known-api-openapi.yml
 certifications:
 - SOC 2 Type 2
 - GDPR

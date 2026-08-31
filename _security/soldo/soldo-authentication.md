@@ -277,6 +277,12 @@ api_specs:
   slug: soldo-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/openapi/soldo-workflows-api-openapi.yml
+- filename: soldo-webhooks-api-openapi.yml
+  format: yaml
+  label: Soldo Webhooks API
+  slug: soldo-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/openapi/soldo-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,161 +1,161 @@
 ---
 api_specs:
-- filename: done-asn-lookup-openapi.yml
+- filename: done-asn-lookup-api-openapi.yml
   format: yaml
-  label: ASN Lookup
-  slug: asn-lookup
+  label: _done asn lookup API
+  slug: done-asn-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-asn-lookup-openapi.yml
-- filename: done-bimi-checker-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-asn-lookup-api-openapi.yml
+- filename: done-cors-headers-api-openapi.yml
   format: yaml
-  label: BIMI Checker
-  slug: bimi-checker
+  label: _done cors headers API
+  slug: done-cors-headers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-bimi-checker-openapi.yml
-- filename: done-cors-header-checker-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-cors-headers-api-openapi.yml
+- filename: done-data-api-openapi.yml
   format: yaml
-  label: CORS Header Checker
-  slug: cors-header-checker
+  label: _done Data API
+  slug: done-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-cors-header-checker-openapi.yml
-- filename: done-cpi-report-us-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-data-api-openapi.yml
+- filename: done-directory-submission-api-openapi.yml
   format: yaml
-  label: US CPI Data & Inflation Report
-  slug: us-cpi-data-inflation-report
+  label: _done directory submission API
+  slug: done-directory-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-cpi-report-us-openapi.yml
-- filename: done-curl-http-request-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-directory-submission-api-openapi.yml
+- filename: done-dmarc-api-openapi.yml
   format: yaml
-  label: Curl HTTP Request
-  slug: curl-http-request
+  label: _done Dmarc API
+  slug: done-dmarc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-curl-http-request-openapi.yml
-- filename: done-directory-submission-lite-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-dmarc-api-openapi.yml
+- filename: done-dns-lookup-api-openapi.yml
   format: yaml
-  label: Directory Submission Lite
-  slug: directory-submission-lite
+  label: _done dns lookup API
+  slug: done-dns-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-directory-submission-lite-openapi.yml
-- filename: done-dmarc-lookup-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-dns-lookup-api-openapi.yml
+- filename: done-domain-age-api-openapi.yml
   format: yaml
-  label: Bulk DMARC Record Lookup
-  slug: bulk-dmarc-record-lookup
+  label: _done domain age API
+  slug: done-domain-age-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-dmarc-lookup-openapi.yml
-- filename: done-dns-whois-lookup-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-domain-age-api-openapi.yml
+- filename: done-domain-availability-api-openapi.yml
   format: yaml
-  label: DNS & WHOIS Lookup
-  slug: dns-whois-lookup
+  label: _done domain availability API
+  slug: done-domain-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-dns-whois-lookup-openapi.yml
-- filename: done-domain-age-checker-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-domain-availability-api-openapi.yml
+- filename: done-ens-api-openapi.yml
   format: yaml
-  label: Domain Age Checker
-  slug: domain-age-checker
+  label: _done Ens API
+  slug: done-ens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-domain-age-checker-openapi.yml
-- filename: done-domain-availability-checker-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-ens-api-openapi.yml
+- filename: done-hacker-news-api-openapi.yml
   format: yaml
-  label: Domain Availability Checker
-  slug: domain-availability-checker
+  label: _done hacker news API
+  slug: done-hacker-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-domain-availability-checker-openapi.yml
-- filename: done-ens-resolver-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-hacker-news-api-openapi.yml
+- filename: done-http-headers-api-openapi.yml
   format: yaml
-  label: ENS Resolver
-  slug: ens-resolver
+  label: _done http headers API
+  slug: done-http-headers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-ens-resolver-openapi.yml
-- filename: done-hackernews-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-http-headers-api-openapi.yml
+- filename: done-http-request-api-openapi.yml
   format: yaml
-  label: Hacker News Data
-  slug: hacker-news-data
+  label: _done http request API
+  slug: done-http-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-hackernews-data-openapi.yml
-- filename: done-hash-hmac-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-http-request-api-openapi.yml
+- filename: done-http-status-code-api-openapi.yml
   format: yaml
-  label: Hashing, HMAC & Checksum Suite
-  slug: hashing-hmac-checksum-suite
+  label: _done http status code API
+  slug: done-http-status-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-hash-hmac-openapi.yml
-- filename: done-http-header-checker-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-http-status-code-api-openapi.yml
+- filename: done-json-api-openapi.yml
   format: yaml
-  label: HTTP Header Checker
-  slug: http-header-checker
+  label: _done JSON API
+  slug: done-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-http-header-checker-openapi.yml
-- filename: done-http-status-checker-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-json-api-openapi.yml
+- filename: done-leetspeak-api-openapi.yml
   format: yaml
-  label: HTTP Status Code Checker
-  slug: http-status-code-checker
+  label: _done Leetspeak API
+  slug: done-leetspeak-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-http-status-checker-openapi.yml
-- filename: done-json-suite-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-leetspeak-api-openapi.yml
+- filename: done-mortgage-calculator-api-openapi.yml
   format: yaml
-  label: JSON Validate, Repair, Convert, Query & Diff
-  slug: json-validate-repair-convert-query-diff
+  label: _done mortgage calculator API
+  slug: done-mortgage-calculator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-json-suite-openapi.yml
-- filename: done-leetspeak-translator-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-mortgage-calculator-api-openapi.yml
+- filename: done-ocr-api-openapi.yml
   format: yaml
-  label: Leetspeak Translator
-  slug: leetspeak-translator
+  label: _done Ocr API
+  slug: done-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-leetspeak-translator-openapi.yml
-- filename: done-mortgage-amortization-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-ocr-api-openapi.yml
+- filename: done-port-scanner-api-openapi.yml
   format: yaml
-  label: Mortgage & Loan Amortization Calculator
-  slug: mortgage-loan-amortization-calculator
+  label: _done port scanner API
+  slug: done-port-scanner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-mortgage-amortization-openapi.yml
-- filename: done-ocr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-port-scanner-api-openapi.yml
+- filename: done-qr-code-api-openapi.yml
   format: yaml
-  label: OCR Text Extractor
-  slug: ocr-text-extractor
+  label: _done qr code API
+  slug: done-qr-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-ocr-openapi.yml
-- filename: done-port-scanner-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-qr-code-api-openapi.yml
+- filename: done-seo-api-openapi.yml
   format: yaml
-  label: TCP Port Scanner
-  slug: tcp-port-scanner
+  label: _done Seo API
+  slug: done-seo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-port-scanner-openapi.yml
-- filename: done-qr-code-generator-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-seo-api-openapi.yml
+- filename: done-sha256-hash-api-openapi.yml
   format: yaml
-  label: Bulk QR Code Generator
-  slug: bulk-qr-code-generator
+  label: _done sha256 hash API
+  slug: done-sha256-hash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-qr-code-generator-openapi.yml
-- filename: done-screenshots-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-sha256-hash-api-openapi.yml
+- filename: done-shopify-rank-api-openapi.yml
   format: yaml
-  label: Screenshots
-  slug: screenshots
+  label: _done shopify rank API
+  slug: done-shopify-rank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-screenshots-openapi.yml
-- filename: done-seo-data-extractor-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-shopify-rank-api-openapi.yml
+- filename: done-sitemap-api-openapi.yml
   format: yaml
-  label: SEO Data Extractor
-  slug: seo-data-extractor
+  label: _done Sitemap API
+  slug: done-sitemap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-seo-data-extractor-openapi.yml
-- filename: done-shopify-ai-rank-checker-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-sitemap-api-openapi.yml
+- filename: done-validation-api-openapi.yml
   format: yaml
-  label: Shopify AI Rank Checker
-  slug: shopify-ai-rank-checker
+  label: _done Validation API
+  slug: done-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-shopify-ai-rank-checker-openapi.yml
-- filename: done-sitemap-url-extractor-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-validation-api-openapi.yml
+- filename: done-website-screenshot-api-openapi.yml
   format: yaml
-  label: Sitemap URL Extractor
-  slug: sitemap-url-extractor
+  label: _done website screenshot API
+  slug: done-website-screenshot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-sitemap-url-extractor-openapi.yml
-- filename: done-url-uptime-checker-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-website-screenshot-api-openapi.yml
+- filename: done-website-uptime-api-openapi.yml
   format: yaml
-  label: URL Uptime Checker
-  slug: url-uptime-checker
+  label: _done website uptime API
+  slug: done-website-uptime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-url-uptime-checker-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-website-uptime-api-openapi.yml
 description: ''
 domains:
 - caa: []

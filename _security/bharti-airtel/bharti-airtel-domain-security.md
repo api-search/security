@@ -1,29 +1,119 @@
 ---
 api_specs:
-- filename: bharti-airtel-iq-sms-openapi.yml
+- filename: bharti-airtel-account-authorization-api-openapi.yml
   format: yaml
-  label: Airtel IQ SMS API
-  slug: airtel-iq-sms-api
+  label: Bharti Airtel Account Authorization API
+  slug: bharti-airtel-account-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-iq-sms-openapi.yml
-- filename: bharti-airtel-iq-reporting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-account-authorization-api-openapi.yml
+- filename: bharti-airtel-account-details-api-openapi.yml
   format: yaml
-  label: Airtel IQ Reporting API
-  slug: airtel-iq-reporting-api
+  label: Bharti Airtel Account Details API
+  slug: bharti-airtel-account-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-iq-reporting-openapi.yml
-- filename: bharti-airtel-iot-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-account-details-api-openapi.yml
+- filename: bharti-airtel-airtel-iq-sample-cdr-call-data-record-api-api-openapi.yml
   format: yaml
-  label: Airtel IoT API
-  slug: airtel-iot-api
+  label: Bharti Airtel Airtel IQ Sample CDR(Call Data Record) API
+  slug: bharti-airtel-airtel-iq-sample-cdr-call-data-record-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-iot-openapi.yml
-- filename: bharti-airtel-locate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-airtel-iq-sample-cdr-call-data-record-api-api-openapi.yml
+- filename: bharti-airtel-authorization-api-api-openapi.yml
   format: yaml
-  label: Airtel Locate API
-  slug: airtel-locate-api
+  label: Bharti Airtel Authorization API
+  slug: bharti-airtel-authorization-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-locate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-authorization-api-api-openapi.yml
+- filename: bharti-airtel-bulk-sms-apis-api-openapi.yml
+  format: yaml
+  label: Bharti Airtel Bulk SMS APIs API
+  slug: bharti-airtel-bulk-sms-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-bulk-sms-apis-api-openapi.yml
+- filename: bharti-airtel-device-session-information-api-openapi.yml
+  format: yaml
+  label: Bharti Airtel Device & Session Information API
+  slug: bharti-airtel-device-session-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-device-session-information-api-openapi.yml
+- filename: bharti-airtel-individual-sms-apis-api-openapi.yml
+  format: yaml
+  label: Bharti Airtel Individual SMS APIs API
+  slug: bharti-airtel-individual-sms-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-individual-sms-apis-api-openapi.yml
+- filename: bharti-airtel-inventory-management-api-openapi.yml
+  format: yaml
+  label: Bharti Airtel Inventory Management API
+  slug: bharti-airtel-inventory-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-inventory-management-api-openapi.yml
+- filename: bharti-airtel-job-status-api-openapi.yml
+  format: yaml
+  label: Bharti Airtel Job Status API
+  slug: bharti-airtel-job-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-job-status-api-openapi.yml
+- filename: bharti-airtel-kyc-manager-api-openapi.yml
+  format: yaml
+  label: Bharti Airtel KYC Manager API
+  slug: bharti-airtel-kyc-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-kyc-manager-api-openapi.yml
+- filename: bharti-airtel-location-api-api-openapi.yml
+  format: yaml
+  label: Bharti Airtel Location API
+  slug: bharti-airtel-location-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-location-api-api-openapi.yml
+- filename: bharti-airtel-messaging-centre-api-openapi.yml
+  format: yaml
+  label: Bharti Airtel Messaging Centre API
+  slug: bharti-airtel-messaging-centre-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-messaging-centre-api-openapi.yml
+- filename: bharti-airtel-resource-consent-api-api-openapi.yml
+  format: yaml
+  label: Bharti Airtel Resource Consent API
+  slug: bharti-airtel-resource-consent-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-resource-consent-api-api-openapi.yml
+- filename: bharti-airtel-sim-lifecycle-api-openapi.yml
+  format: yaml
+  label: Bharti Airtel SIM LifeCycle API
+  slug: bharti-airtel-sim-lifecycle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-sim-lifecycle-api-openapi.yml
+- filename: bharti-airtel-sim-lifecycle-bulk-api-openapi.yml
+  format: yaml
+  label: Bharti Airtel SIM LifeCycle Bulk API
+  slug: bharti-airtel-sim-lifecycle-bulk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-sim-lifecycle-bulk-api-openapi.yml
+- filename: bharti-airtel-tenant-api-api-openapi.yml
+  format: yaml
+  label: Bharti Airtel Tenant API
+  slug: bharti-airtel-tenant-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-tenant-api-api-openapi.yml
+- filename: bharti-airtel-validation-api-api-openapi.yml
+  format: yaml
+  label: Bharti Airtel Validation API
+  slug: bharti-airtel-validation-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-validation-api-api-openapi.yml
+- filename: bharti-airtel-whitelisting-api-openapi.yml
+  format: yaml
+  label: Bharti Airtel Whitelisting API
+  slug: bharti-airtel-whitelisting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-whitelisting-api-openapi.yml
+- filename: bharti-airtel-whitelisting-apis-api-openapi.yml
+  format: yaml
+  label: Bharti Airtel Whitelisting APIs API
+  slug: bharti-airtel-whitelisting-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-whitelisting-apis-api-openapi.yml
 description: ''
 domains:
 - caa: []

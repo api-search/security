@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: bybe-api-openapi-original.yml
+- filename: bybe-clips-api-openapi.yml
   format: yaml
-  label: BYBE API
-  slug: bybe-api
+  label: BYBE Clips API
+  slug: bybe-clips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/openapi/bybe-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/openapi/bybe-clips-api-openapi.yml
+- filename: bybe-consumers-api-openapi.yml
+  format: yaml
+  label: BYBE Consumers API
+  slug: bybe-consumers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/openapi/bybe-consumers-api-openapi.yml
+- filename: bybe-manufacturers-api-openapi.yml
+  format: yaml
+  label: BYBE Manufacturers API
+  slug: bybe-manufacturers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/openapi/bybe-manufacturers-api-openapi.yml
+- filename: bybe-offers-api-openapi.yml
+  format: yaml
+  label: BYBE Offers API
+  slug: bybe-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/openapi/bybe-offers-api-openapi.yml
+- filename: bybe-products-api-openapi.yml
+  format: yaml
+  label: BYBE Products API
+  slug: bybe-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/openapi/bybe-products-api-openapi.yml
+- filename: bybe-redemptions-api-openapi.yml
+  format: yaml
+  label: BYBE Redemptions API
+  slug: bybe-redemptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/openapi/bybe-redemptions-api-openapi.yml
+- filename: bybe-stores-api-openapi.yml
+  format: yaml
+  label: BYBE Stores API
+  slug: bybe-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/openapi/bybe-stores-api-openapi.yml
 description: ''
 domains:
 - caa: []

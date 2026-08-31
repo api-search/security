@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: circle-pharma-content-openapi.yml
+- filename: circle-pharma-categories-api-openapi.yml
   format: yaml
-  label: Circle Pharma Content API
-  slug: circle-pharma-content-api
+  label: Circle Pharma Categories API
+  slug: circle-pharma-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/openapi/circle-pharma-content-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/openapi/circle-pharma-categories-api-openapi.yml
+- filename: circle-pharma-comments-api-openapi.yml
+  format: yaml
+  label: Circle Pharma Comments API
+  slug: circle-pharma-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/openapi/circle-pharma-comments-api-openapi.yml
+- filename: circle-pharma-discovery-api-openapi.yml
+  format: yaml
+  label: Circle Pharma Discovery API
+  slug: circle-pharma-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/openapi/circle-pharma-discovery-api-openapi.yml
+- filename: circle-pharma-events-api-openapi.yml
+  format: yaml
+  label: Circle Pharma Events API
+  slug: circle-pharma-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/openapi/circle-pharma-events-api-openapi.yml
+- filename: circle-pharma-media-api-openapi.yml
+  format: yaml
+  label: Circle Pharma Media API
+  slug: circle-pharma-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/openapi/circle-pharma-media-api-openapi.yml
+- filename: circle-pharma-pages-api-openapi.yml
+  format: yaml
+  label: Circle Pharma Pages API
+  slug: circle-pharma-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/openapi/circle-pharma-pages-api-openapi.yml
+- filename: circle-pharma-posts-api-openapi.yml
+  format: yaml
+  label: Circle Pharma Posts API
+  slug: circle-pharma-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/openapi/circle-pharma-posts-api-openapi.yml
+- filename: circle-pharma-search-api-openapi.yml
+  format: yaml
+  label: Circle Pharma Search API
+  slug: circle-pharma-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/openapi/circle-pharma-search-api-openapi.yml
+- filename: circle-pharma-tags-api-openapi.yml
+  format: yaml
+  label: Circle Pharma Tags API
+  slug: circle-pharma-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/openapi/circle-pharma-tags-api-openapi.yml
+- filename: circle-pharma-team-api-openapi.yml
+  format: yaml
+  label: Circle Pharma Team API
+  slug: circle-pharma-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/openapi/circle-pharma-team-api-openapi.yml
 description: ''
 domains:
 - caa: []

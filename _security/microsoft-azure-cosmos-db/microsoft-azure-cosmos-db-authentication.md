@@ -29,8 +29,8 @@ method: derived
 name: Microsoft Azure Cosmos Db Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: microsoft-azure-cosmos-db secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: microsoft-azure-cosmos-db
+overview: Azure Cosmos DB secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Azure Cosmos DB
 provider_slug: microsoft-azure-cosmos-db
 scheme_count: 1
 schemes:

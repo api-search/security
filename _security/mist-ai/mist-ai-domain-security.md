@@ -1254,6 +1254,12 @@ api_specs:
   slug: mist-ai-utilities-wi-fi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mist-ai/refs/heads/main/openapi/mist-ai-utilities-wi-fi-api-openapi.yml
+- filename: mist-ai-mist-api-api-openapi.yml
+  format: yaml
+  label: Juniper Mist AI Mist API
+  slug: mist-ai-mist-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mist-ai/refs/heads/main/openapi/mist-ai-mist-api-api-openapi.yml
 description: ''
 domains:
 - caa:

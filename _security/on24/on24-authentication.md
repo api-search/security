@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: on24-client-level-analytics-openapi.yml
+- filename: on24-client-level-analytics-api-openapi.yml
   format: yaml
-  label: ON24 Platform API
-  slug: on24-platform-api
+  label: On24 Client Level Analytics API
+  slug: on24-client-level-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/on24/refs/heads/main/openapi/on24-client-level-analytics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/on24/refs/heads/main/openapi/on24-client-level-analytics-api-openapi.yml
+- filename: on24-content-listings-api-openapi.yml
+  format: yaml
+  label: On24 Content Listings API
+  slug: on24-content-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/on24/refs/heads/main/openapi/on24-content-listings-api-openapi.yml
+- filename: on24-event-level-analytics-api-openapi.yml
+  format: yaml
+  label: On24 Event Level Analytics API
+  slug: on24-event-level-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/on24/refs/heads/main/openapi/on24-event-level-analytics-api-openapi.yml
+- filename: on24-event-management-api-openapi.yml
+  format: yaml
+  label: On24 Event Management API
+  slug: on24-event-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/on24/refs/heads/main/openapi/on24-event-management-api-openapi.yml
+- filename: on24-helpers-api-openapi.yml
+  format: yaml
+  label: On24 Helpers API
+  slug: on24-helpers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/on24/refs/heads/main/openapi/on24-helpers-api-openapi.yml
+- filename: on24-rest-registration-api-openapi.yml
+  format: yaml
+  label: On24 REST Registration API
+  slug: on24-rest-registration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/on24/refs/heads/main/openapi/on24-rest-registration-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

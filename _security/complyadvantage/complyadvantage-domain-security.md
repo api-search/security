@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: complyadvantage-mesh-api-openapi.json
+  format: json
+  label: ComplyAdvantage Mesh Platform API
+  slug: complyadvantage-mesh-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-mesh-api-openapi.json
 - filename: complyadvantage-case-management-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Case Management API
@@ -27,35 +33,35 @@ api_specs:
 description: ''
 domains:
 - caa:
-  - 0 issue "amazontrust.com"
-  - 0 issue "awstrust.com"
-  - 0 issue "comodoca.com"
   - 0 issue "digicert.com; cansignhttpexchanges=yes"
   - 0 issue "letsencrypt.org"
   - 0 issue "pki.goog; cansignhttpexchanges=yes"
+  - 0 issue "sectigo.com"
+  - 0 issue "ssl.com"
+  - 0 issuewild "amazon.com"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: true
   domain: complyadvantage.com
   spf: true
 hosts:
-- cert_expires: Sep 13 08:00:33 2026 GMT
+- cert_expires: Nov 11 09:34:28 2026 GMT
   host: complyadvantage.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Dec 22 23:59:59 2026 GMT
-  host: docs.complyadvantage.com
+- cert_expires: Nov 23 13:11:48 2026 GMT
+  host: docs.mesh.complyadvantage.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 20 23:59:59 2026 GMT
-  host: api.complyadvantage.com
+- cert_expires: Oct  4 19:37:38 2026 GMT
+  host: api.mesh.complyadvantage.com
   hsts: null
   https: true
-  tls_version: TLSv1.2
+  tls_version: TLSv1.3
 kind: domain-security
 layout: security
 method: probed
@@ -68,7 +74,7 @@ slug: complyadvantage-domain-security
 source_filename: complyadvantage-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: complyadvantage.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 08:00:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.complyadvantage.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 22 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.complyadvantage.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 20 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: complyadvantage.com\n  dnssec: true\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: complyadvantage.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 09:34:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.mesh.complyadvantage.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 13:11:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.mesh.complyadvantage.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 19:37:38 2026 GMT\n  hsts: null\ndomains:\n- domain: complyadvantage.com\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/security/complyadvantage-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

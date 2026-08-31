@@ -1,41 +1,5 @@
 ---
 api_specs:
-- filename: edlink-agents-api-openapi.yml
-  format: yaml
-  label: Edlink Agents API
-  slug: edlink-agents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/openapi/edlink-agents-api-openapi.yml
-- filename: edlink-classes-api-openapi.yml
-  format: yaml
-  label: Edlink Classes API
-  slug: edlink-classes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/openapi/edlink-classes-api-openapi.yml
-- filename: edlink-courses-api-openapi.yml
-  format: yaml
-  label: Edlink Courses API
-  slug: edlink-courses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/openapi/edlink-courses-api-openapi.yml
-- filename: edlink-districts-api-openapi.yml
-  format: yaml
-  label: Edlink Districts API
-  slug: edlink-districts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/openapi/edlink-districts-api-openapi.yml
-- filename: edlink-enrollments-api-openapi.yml
-  format: yaml
-  label: Edlink Enrollments API
-  slug: edlink-enrollments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/openapi/edlink-enrollments-api-openapi.yml
-- filename: edlink-events-api-openapi.yml
-  format: yaml
-  label: Edlink Events API
-  slug: edlink-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/openapi/edlink-events-api-openapi.yml
 - filename: edlink-graph-api-openapi.yml
   format: yaml
   label: Edlink Graph API
@@ -48,24 +12,6 @@ api_specs:
   slug: edlink-integrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/openapi/edlink-integrations-api-openapi.yml
-- filename: edlink-people-api-openapi.yml
-  format: yaml
-  label: Edlink People API
-  slug: edlink-people-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/openapi/edlink-people-api-openapi.yml
-- filename: edlink-schools-api-openapi.yml
-  format: yaml
-  label: Edlink Schools API
-  slug: edlink-schools-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/openapi/edlink-schools-api-openapi.yml
-- filename: edlink-sections-api-openapi.yml
-  format: yaml
-  label: Edlink Sections API
-  slug: edlink-sections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/openapi/edlink-sections-api-openapi.yml
 - filename: edlink-sso-api-openapi.yml
   format: yaml
   label: Edlink SSO API

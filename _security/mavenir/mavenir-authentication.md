@@ -1,18 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: mavenir-byon-call-handling-openapi.yml
+- filename: mavenir-onetoonecall-api-openapi.yml
   format: yaml
-  label: Mavenir BYON Call Handling API (VVoIP Service)
-  slug: mavenir-byon-call-handling-api
+  label: Mavenir One To One Call API
+  slug: mavenir-onetoonecall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavenir/refs/heads/main/openapi/mavenir-byon-call-handling-openapi.yml
-- filename: mavenir-byon-racm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mavenir/refs/heads/main/openapi/mavenir-onetoonecall-api-openapi.yml
+- filename: mavenir-push-token-api-openapi.yml
   format: yaml
-  label: Mavenir BYON Registration and Connectivity Management (RACM) API
-  slug: mavenir-byon-racm-api
+  label: Mavenir Push Token API
+  slug: mavenir-push-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavenir/refs/heads/main/openapi/mavenir-byon-racm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mavenir/refs/heads/main/openapi/mavenir-push-token-api-openapi.yml
+- filename: mavenir-racm-api-openapi.yml
+  format: yaml
+  label: Mavenir RACM API
+  slug: mavenir-racm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mavenir/refs/heads/main/openapi/mavenir-racm-api-openapi.yml
 auth_types:
 - http
 description: ''

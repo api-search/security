@@ -1,17 +1,77 @@
 ---
 api_specs:
-- filename: madkudu-madapi-openapi.yml
+- filename: madkudu-accounts-api-openapi.yml
   format: yaml
-  label: MadKudu API (MadAPI)
-  slug: madkudu-api-madapi
+  label: MadKudu Accounts API
+  slug: madkudu-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-madapi-openapi.yml
-- filename: madkudu-legacy-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-accounts-api-openapi.yml
+- filename: madkudu-ai-api-openapi.yml
   format: yaml
-  label: MadKudu Legacy Scoring API
-  slug: madkudu-legacy-scoring-api
+  label: MadKudu AI API
+  slug: madkudu-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-legacy-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-ai-api-openapi.yml
+- filename: madkudu-companies-api-openapi.yml
+  format: yaml
+  label: MadKudu Companies API
+  slug: madkudu-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-companies-api-openapi.yml
+- filename: madkudu-enrichment-api-openapi.yml
+  format: yaml
+  label: MadKudu Enrichment API
+  slug: madkudu-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-enrichment-api-openapi.yml
+- filename: madkudu-ingestion-api-openapi.yml
+  format: yaml
+  label: MadKudu Ingestion API
+  slug: madkudu-ingestion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-ingestion-api-openapi.yml
+- filename: madkudu-job-changes-api-openapi.yml
+  format: yaml
+  label: MadKudu Job Changes API
+  slug: madkudu-job-changes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-job-changes-api-openapi.yml
+- filename: madkudu-lookup-api-openapi.yml
+  format: yaml
+  label: MadKudu Lookup API
+  slug: madkudu-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-lookup-api-openapi.yml
+- filename: madkudu-organisation-api-openapi.yml
+  format: yaml
+  label: MadKudu Organisation API
+  slug: madkudu-organisation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-organisation-api-openapi.yml
+- filename: madkudu-persons-api-openapi.yml
+  format: yaml
+  label: MadKudu Persons API
+  slug: madkudu-persons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-persons-api-openapi.yml
+- filename: madkudu-search-api-openapi.yml
+  format: yaml
+  label: MadKudu Search API
+  slug: madkudu-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-search-api-openapi.yml
+- filename: madkudu-sourcing-api-openapi.yml
+  format: yaml
+  label: MadKudu Sourcing API
+  slug: madkudu-sourcing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-sourcing-api-openapi.yml
+- filename: madkudu-utilities-api-openapi.yml
+  format: yaml
+  label: MadKudu Utilities API
+  slug: madkudu-utilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-utilities-api-openapi.yml
 certifications:
 - SOC 2 Type 2
 - CAIQ

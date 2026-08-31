@@ -26,6 +26,12 @@ api_specs:
   slug: goodhire-requestors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/openapi/goodhire-requestors-api-openapi.yml
+- filename: goodhire-goodhire-api-api-openapi.yml
+  format: yaml
+  label: GoodHire GoodHire API
+  slug: goodhire-goodhire-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/openapi/goodhire-goodhire-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

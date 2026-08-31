@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: nus-identity-openapi.yml
+- filename: nus-authorization-api-openapi.yml
   format: yaml
-  label: NUS Federated Identity Service (VAFS)
-  slug: identity
+  label: National University of Singapore Authorization API
+  slug: nus-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-identity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-authorization-api-openapi.yml
+- filename: nus-discovery-api-openapi.yml
+  format: yaml
+  label: National University of Singapore Discovery API
+  slug: nus-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-discovery-api-openapi.yml
+- filename: nus-session-api-openapi.yml
+  format: yaml
+  label: National University of Singapore Session API
+  slug: nus-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-session-api-openapi.yml
 description: 'Transport and domain security posture per host, with the operator recorded alongside. The organization field in each TLS certificate is the load-bearing column here: it is the hardest public evidence available of who actually runs a host, and it is what separates NUS''s own engineering from the platforms NUS rents.'
 domains:
 - caa: []

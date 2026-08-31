@@ -139,42 +139,120 @@ api_specs:
   slug: zoominfo-websights-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-websights-api-api-openapi.yml
-- filename: zoominfo-gtm-data-v1-openapi.json
-  format: json
-  label: ZoomInfo Data API
-  slug: zoominfo-data-api
+- filename: zoominfo-account-summary-api-openapi.yml
+  format: yaml
+  label: ZoomInfo Account Summary API
+  slug: zoominfo-account-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-gtm-data-v1-openapi.json
-- filename: zoominfo-gtm-copilot-v1-openapi.json
-  format: json
-  label: ZoomInfo Copilot API
-  slug: zoominfo-copilot-api
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-account-summary-api-openapi.yml
+- filename: zoominfo-agent-teams-api-openapi.yml
+  format: yaml
+  label: ZoomInfo Agent Teams API
+  slug: zoominfo-agent-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-gtm-copilot-v1-openapi.json
-- filename: zoominfo-gtm-gtm-studio-v1-openapi.json
-  format: json
-  label: ZoomInfo GTM Studio API
-  slug: zoominfo-gtm-studio-api
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-agent-teams-api-openapi.yml
+- filename: zoominfo-audiences-api-openapi.yml
+  format: yaml
+  label: ZoomInfo Audiences API
+  slug: zoominfo-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-gtm-gtm-studio-v1-openapi.json
-- filename: zoominfo-gtm-marketing-v1-openapi.json
-  format: json
-  label: ZoomInfo Marketing API
-  slug: zoominfo-marketing-api
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-audiences-api-openapi.yml
+- filename: zoominfo-customer-buyer-persona-api-openapi.yml
+  format: yaml
+  label: ZoomInfo Customer Buyer Persona API
+  slug: zoominfo-customer-buyer-persona-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-gtm-marketing-v1-openapi.json
-- filename: zoominfo-gtm-agent-v1-openapi.json
-  format: json
-  label: ZoomInfo Agent API
-  slug: zoominfo-agent-api
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-customer-buyer-persona-api-openapi.yml
+- filename: zoominfo-customer-competitors-api-openapi.yml
+  format: yaml
+  label: ZoomInfo Customer Competitors API
+  slug: zoominfo-customer-competitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-gtm-agent-v1-openapi.json
-- filename: zoominfo-gtm-platform-v1-openapi.json
-  format: json
-  label: ZoomInfo Platform API
-  slug: zoominfo-platform-api
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-customer-competitors-api-openapi.yml
+- filename: zoominfo-customer-settings-api-openapi.yml
+  format: yaml
+  label: ZoomInfo Customer Settings API
+  slug: zoominfo-customer-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-gtm-platform-v1-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-customer-settings-api-openapi.yml
+- filename: zoominfo-engagements-api-openapi.yml
+  format: yaml
+  label: ZoomInfo Engagements API
+  slug: zoominfo-engagements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-engagements-api-openapi.yml
+- filename: zoominfo-enrich-api-openapi.yml
+  format: yaml
+  label: ZoomInfo Enrich API
+  slug: zoominfo-enrich-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-enrich-api-openapi.yml
+- filename: zoominfo-entities-api-openapi.yml
+  format: yaml
+  label: ZoomInfo Entities API
+  slug: zoominfo-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-entities-api-openapi.yml
+- filename: zoominfo-entitlements-api-openapi.yml
+  format: yaml
+  label: ZoomInfo Entitlements API
+  slug: zoominfo-entitlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-entitlements-api-openapi.yml
+- filename: zoominfo-ideal-customer-profile-api-openapi.yml
+  format: yaml
+  label: ZoomInfo Ideal Customer Profile API
+  slug: zoominfo-ideal-customer-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-ideal-customer-profile-api-openapi.yml
+- filename: zoominfo-insights-api-openapi.yml
+  format: yaml
+  label: ZoomInfo Insights API
+  slug: zoominfo-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-insights-api-openapi.yml
+- filename: zoominfo-interact-experimental-api-openapi.yml
+  format: yaml
+  label: ZoomInfo Interact [Experimental] API
+  slug: zoominfo-interact-experimental-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-interact-experimental-api-openapi.yml
+- filename: zoominfo-products-and-services-api-openapi.yml
+  format: yaml
+  label: ZoomInfo Products and Services API
+  slug: zoominfo-products-and-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-products-and-services-api-openapi.yml
+- filename: zoominfo-pulses-api-openapi.yml
+  format: yaml
+  label: ZoomInfo Pulses API
+  slug: zoominfo-pulses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-pulses-api-openapi.yml
+- filename: zoominfo-recommendations-api-openapi.yml
+  format: yaml
+  label: ZoomInfo Recommendations API
+  slug: zoominfo-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-recommendations-api-openapi.yml
+- filename: zoominfo-search-api-openapi.yml
+  format: yaml
+  label: ZoomInfo Search API
+  slug: zoominfo-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-search-api-openapi.yml
+- filename: zoominfo-user-api-openapi.yml
+  format: yaml
+  label: ZoomInfo User API
+  slug: zoominfo-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-user-api-openapi.yml
+- filename: zoominfo-workflows-api-openapi.yml
+  format: yaml
+  label: ZoomInfo Workflows API
+  slug: zoominfo-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-workflows-api-openapi.yml
 auth_types:
 - http
 - oauth2

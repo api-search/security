@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: zhejiang-mirror-service-openapi.yml
+- filename: zhejiang-catalog-api-openapi.yml
   format: yaml
-  label: Open Source Software Mirror Service (MirrorZ catalog)
-  slug: mirrors
+  label: Zhejiang University Catalog API
+  slug: zhejiang-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/openapi/zhejiang-mirror-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/openapi/zhejiang-catalog-api-openapi.yml
+- filename: zhejiang-repositories-api-openapi.yml
+  format: yaml
+  label: Zhejiang University Repositories API
+  slug: zhejiang-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/openapi/zhejiang-repositories-api-openapi.yml
 description: ''
 domains:
 - caa: []

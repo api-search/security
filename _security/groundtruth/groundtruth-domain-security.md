@@ -1,17 +1,113 @@
 ---
 api_specs:
-- filename: groundtruth-ads-manager-openapi.yml
+- filename: groundtruth-accounts-api-openapi.yml
   format: yaml
-  label: GroundTruth Ads Manager Public API
-  slug: groundtruth-ads-manager-public-api
+  label: GroundTruth Accounts API
+  slug: groundtruth-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-ads-manager-openapi.yml
-- filename: groundtruth-reporting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-accounts-api-openapi.yml
+- filename: groundtruth-ad-groups-api-openapi.yml
   format: yaml
-  label: Groundtruth Reporting API
+  label: GroundTruth Ad Groups API
+  slug: groundtruth-ad-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-ad-groups-api-openapi.yml
+- filename: groundtruth-audiences-api-openapi.yml
+  format: yaml
+  label: GroundTruth Audiences API
+  slug: groundtruth-audiences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-audiences-api-openapi.yml
+- filename: groundtruth-campaigns-api-openapi.yml
+  format: yaml
+  label: GroundTruth Campaigns API
+  slug: groundtruth-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-campaigns-api-openapi.yml
+- filename: groundtruth-creative-assets-api-openapi.yml
+  format: yaml
+  label: GroundTruth Creative Assets API
+  slug: groundtruth-creative-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-creative-assets-api-openapi.yml
+- filename: groundtruth-creatives-api-openapi.yml
+  format: yaml
+  label: GroundTruth Creatives API
+  slug: groundtruth-creatives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-creatives-api-openapi.yml
+- filename: groundtruth-demand-api-openapi.yml
+  format: yaml
+  label: GroundTruth Demand API
+  slug: groundtruth-demand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-demand-api-openapi.yml
+- filename: groundtruth-direct-mail-api-openapi.yml
+  format: yaml
+  label: GroundTruth Direct Mail API
+  slug: groundtruth-direct-mail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-direct-mail-api-openapi.yml
+- filename: groundtruth-health-api-openapi.yml
+  format: yaml
+  label: GroundTruth Health API
+  slug: groundtruth-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-health-api-openapi.yml
+- filename: groundtruth-jobs-api-openapi.yml
+  format: yaml
+  label: GroundTruth Jobs API
+  slug: groundtruth-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-jobs-api-openapi.yml
+- filename: groundtruth-miscellaneous-api-openapi.yml
+  format: yaml
+  label: GroundTruth Miscellaneous API
+  slug: groundtruth-miscellaneous-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-miscellaneous-api-openapi.yml
+- filename: groundtruth-organizations-api-openapi.yml
+  format: yaml
+  label: GroundTruth Organizations API
+  slug: groundtruth-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-organizations-api-openapi.yml
+- filename: groundtruth-reporting-api-openapi.yml
+  format: yaml
+  label: GroundTruth Reporting API
   slug: groundtruth-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-reporting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-reporting-api-openapi.yml
+- filename: groundtruth-search-api-openapi.yml
+  format: yaml
+  label: GroundTruth Search API
+  slug: groundtruth-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-search-api-openapi.yml
+- filename: groundtruth-static-api-openapi.yml
+  format: yaml
+  label: GroundTruth Static API
+  slug: groundtruth-static-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-static-api-openapi.yml
+- filename: groundtruth-tenants-api-openapi.yml
+  format: yaml
+  label: GroundTruth Tenants API
+  slug: groundtruth-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-tenants-api-openapi.yml
+- filename: groundtruth-upload-api-openapi.yml
+  format: yaml
+  label: GroundTruth Upload API
+  slug: groundtruth-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-upload-api-openapi.yml
+- filename: groundtruth-users-api-openapi.yml
+  format: yaml
+  label: GroundTruth Users API
+  slug: groundtruth-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: columbia-library-hours-openapi.yml
+- filename: columbia-locations-api-openapi.yml
   format: yaml
-  label: Columbia University Libraries Hours API
-  slug: library-hours
+  label: Columbia University Locations API
+  slug: columbia-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/openapi/columbia-library-hours-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/openapi/columbia-locations-api-openapi.yml
 description: ''
 domains:
 - caa: []

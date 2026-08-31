@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Insight Enterprises Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for insight-enterprises, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=quarantine).'
-provider_name: insight-enterprises
+overview: 'Domain security posture for Insight Enterprises, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=quarantine).'
+provider_name: Insight Enterprises
 provider_slug: insight-enterprises
 slug: insight-enterprises-domain-security
 source_filename: insight-enterprises-domain-security.yml

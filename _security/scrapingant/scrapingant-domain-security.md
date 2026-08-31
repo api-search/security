@@ -6,6 +6,12 @@ api_specs:
   slug: scrapingant-scraping-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scrapingant/refs/heads/main/openapi/scrapingant-scraping-api-openapi.yml
+- filename: scrapingant-usage-api-openapi.yml
+  format: yaml
+  label: ScrapingAnt Usage API
+  slug: scrapingant-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scrapingant/refs/heads/main/openapi/scrapingant-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -15,7 +21,7 @@ domains:
   domain: scrapingant.com
   spf: true
 hosts:
-- cert_expires: Sep  2 00:11:25 2026 GMT
+- cert_expires: Oct 31 23:13:19 2026 GMT
   host: scrapingant.com
   hsts: false
   https: true
@@ -37,11 +43,18 @@ slug: scrapingant-domain-security
 source_filename: scrapingant-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: scrapingant.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 00:11:25 2026 GMT\n  hsts: false\n- host: api.scrapingant.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 08:39:52 2026 GMT\n  hsts: null\ndomains:\n- domain: scrapingant.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: scrapingant.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 23:13:19 2026 GMT\n  hsts: false\n- host: api.scrapingant.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 08:39:52 2026 GMT\n  hsts: null\ndomains:\n- domain: scrapingant.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrapingant/refs/heads/main/security/scrapingant-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Data Extraction
 - Proxies
 - Scraping
+- Web Scraping
+- Headless Browsers
+- AI Agents
+- MCP
+- LLM
+- Data Collection
+- Web Data
 ---

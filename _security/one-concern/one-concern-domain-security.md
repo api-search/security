@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: one-concern-domino-ai-openapi.json
-  format: json
-  label: One Concern Domino AI API
-  slug: one-concern-domino-ai-api
+- filename: one-concern-location-api-openapi.yml
+  format: yaml
+  label: One Concern Location API
+  slug: one-concern-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-concern/refs/heads/main/openapi/one-concern-domino-ai-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/one-concern/refs/heads/main/openapi/one-concern-location-api-openapi.yml
 description: ''
 domains:
 - caa:

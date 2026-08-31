@@ -2,12 +2,102 @@
 api_key_in:
 - query
 api_specs:
-- filename: eia-api-v2-openapi.yml
+- filename: eia-aeo-api-openapi.yml
   format: yaml
-  label: EIA Open Data API (APIv2)
-  slug: eia-open-data-api-v2
+  label: EIA AEO API
+  slug: eia-aeo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-api-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-aeo-api-openapi.yml
+- filename: eia-coal-api-openapi.yml
+  format: yaml
+  label: EIA COAL API
+  slug: eia-coal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-coal-api-openapi.yml
+- filename: eia-crud-imports-api-openapi.yml
+  format: yaml
+  label: EIA CRUD IMPORTS API
+  slug: eia-crud-imports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-crud-imports-api-openapi.yml
+- filename: eia-dbf-api-openapi.yml
+  format: yaml
+  label: EIA DBF API
+  slug: eia-dbf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-dbf-api-openapi.yml
+- filename: eia-elec-api-openapi.yml
+  format: yaml
+  label: EIA ELEC API
+  slug: eia-elec-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-elec-api-openapi.yml
+- filename: eia-emiss-api-openapi.yml
+  format: yaml
+  label: EIA EMISS API
+  slug: eia-emiss-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-emiss-api-openapi.yml
+- filename: eia-ieo-api-openapi.yml
+  format: yaml
+  label: EIA IEO API
+  slug: eia-ieo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-ieo-api-openapi.yml
+- filename: eia-intl-api-openapi.yml
+  format: yaml
+  label: EIA INTL API
+  slug: eia-intl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-intl-api-openapi.yml
+- filename: eia-ng-api-openapi.yml
+  format: yaml
+  label: EIA NG API
+  slug: eia-ng-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-ng-api-openapi.yml
+- filename: eia-nuc-status-api-openapi.yml
+  format: yaml
+  label: EIA NUC STATUS API
+  slug: eia-nuc-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-nuc-status-api-openapi.yml
+- filename: eia-root-api-openapi.yml
+  format: yaml
+  label: EIA Root API
+  slug: eia-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-root-api-openapi.yml
+- filename: eia-rto-api-openapi.yml
+  format: yaml
+  label: EIA RTO API
+  slug: eia-rto-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-rto-api-openapi.yml
+- filename: eia-seds-api-openapi.yml
+  format: yaml
+  label: EIA SEDS API
+  slug: eia-seds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-seds-api-openapi.yml
+- filename: eia-sep-api-openapi.yml
+  format: yaml
+  label: EIA SEP API
+  slug: eia-sep-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-sep-api-openapi.yml
+- filename: eia-steo-api-openapi.yml
+  format: yaml
+  label: EIA STEO API
+  slug: eia-steo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-steo-api-openapi.yml
+- filename: eia-total-api-openapi.yml
+  format: yaml
+  label: EIA TOTAL API
+  slug: eia-total-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-total-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

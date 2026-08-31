@@ -246,6 +246,84 @@ api_specs:
   slug: cvent-event-cloud-webcasts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-webcasts-api-openapi.yml
+- filename: cvent-event-cloud-housing-api-openapi.yml
+  format: yaml
+  label: Cvent Event Cloud Housing API
+  slug: cvent-event-cloud-housing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-housing-api-openapi.yml
+- filename: cvent-event-cloud-housing-hotels-api-openapi.yml
+  format: yaml
+  label: Cvent Event Cloud Housing Hotels API
+  slug: cvent-event-cloud-housing-hotels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-housing-hotels-api-openapi.yml
+- filename: cvent-event-cloud-meeting-request-api-openapi.yml
+  format: yaml
+  label: Cvent Event Cloud Meeting Request API
+  slug: cvent-event-cloud-meeting-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-meeting-request-api-openapi.yml
+- filename: cvent-event-cloud-proposal-draft-api-openapi.yml
+  format: yaml
+  label: Cvent Event Cloud Proposal Draft API
+  slug: cvent-event-cloud-proposal-draft-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-proposal-draft-api-openapi.yml
+- filename: cvent-event-cloud-rfp-additional-details-api-openapi.yml
+  format: yaml
+  label: Cvent Event Cloud RFP Additional Details API
+  slug: cvent-event-cloud-rfp-additional-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-rfp-additional-details-api-openapi.yml
+- filename: cvent-event-cloud-rfp-management-api-openapi.yml
+  format: yaml
+  label: Cvent Event Cloud RFP Management API
+  slug: cvent-event-cloud-rfp-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-rfp-management-api-openapi.yml
+- filename: cvent-event-cloud-rfp-requirements-api-openapi.yml
+  format: yaml
+  label: Cvent Event Cloud RFP Requirements API
+  slug: cvent-event-cloud-rfp-requirements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-rfp-requirements-api-openapi.yml
+- filename: cvent-event-cloud-rfp-suppliers-api-openapi.yml
+  format: yaml
+  label: Cvent Event Cloud RFP Suppliers API
+  slug: cvent-event-cloud-rfp-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-rfp-suppliers-api-openapi.yml
+- filename: cvent-event-cloud-travel-accounts-api-openapi.yml
+  format: yaml
+  label: Cvent Event Cloud Travel Accounts API
+  slug: cvent-event-cloud-travel-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-travel-accounts-api-openapi.yml
+- filename: cvent-event-cloud-travel-rfps-api-openapi.yml
+  format: yaml
+  label: Cvent Event Cloud Travel RFPs API
+  slug: cvent-event-cloud-travel-rfps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-travel-rfps-api-openapi.yml
+- filename: cvent-event-cloud-travel-suppliers-api-openapi.yml
+  format: yaml
+  label: Cvent Event Cloud Travel Suppliers API
+  slug: cvent-event-cloud-travel-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-travel-suppliers-api-openapi.yml
+- filename: cvent-event-cloud-venue-meeting-rooms-api-openapi.yml
+  format: yaml
+  label: Cvent Event Cloud Venue Meeting Rooms API
+  slug: cvent-event-cloud-venue-meeting-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-venue-meeting-rooms-api-openapi.yml
+- filename: cvent-event-cloud-venue-profiles-api-openapi.yml
+  format: yaml
+  label: Cvent Event Cloud Venue Profiles API
+  slug: cvent-event-cloud-venue-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-venue-profiles-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,11 +1,107 @@
 ---
 api_specs:
-- filename: unqork-customer-api-openapi.yml
+- filename: unqork-applications-api-openapi.yml
   format: yaml
-  label: Unqork Customer API
-  slug: unqork-customer-api
+  label: Unqork Applications API
+  slug: unqork-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-customer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-applications-api-openapi.yml
+- filename: unqork-authentication-api-openapi.yml
+  format: yaml
+  label: Unqork Authentication API
+  slug: unqork-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-authentication-api-openapi.yml
+- filename: unqork-credentials-api-openapi.yml
+  format: yaml
+  label: Unqork Credentials API
+  slug: unqork-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-credentials-api-openapi.yml
+- filename: unqork-data-collections-api-openapi.yml
+  format: yaml
+  label: Unqork Data Collections API
+  slug: unqork-data-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-data-collections-api-openapi.yml
+- filename: unqork-data-model-records-api-openapi.yml
+  format: yaml
+  label: Unqork Data Model Records API
+  slug: unqork-data-model-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-data-model-records-api-openapi.yml
+- filename: unqork-global-variables-api-openapi.yml
+  format: yaml
+  label: Unqork Global Variables API
+  slug: unqork-global-variables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-global-variables-api-openapi.yml
+- filename: unqork-groups-api-openapi.yml
+  format: yaml
+  label: Unqork Groups API
+  slug: unqork-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-groups-api-openapi.yml
+- filename: unqork-logs-api-openapi.yml
+  format: yaml
+  label: Unqork Logs API
+  slug: unqork-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-logs-api-openapi.yml
+- filename: unqork-modules-api-openapi.yml
+  format: yaml
+  label: Unqork Modules API
+  slug: unqork-modules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-modules-api-openapi.yml
+- filename: unqork-promotions-api-openapi.yml
+  format: yaml
+  label: Unqork Promotions API
+  slug: unqork-promotions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-promotions-api-openapi.yml
+- filename: unqork-query-api-openapi.yml
+  format: yaml
+  label: Unqork Query API
+  slug: unqork-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-query-api-openapi.yml
+- filename: unqork-revisions-api-openapi.yml
+  format: yaml
+  label: Unqork Revisions API
+  slug: unqork-revisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-revisions-api-openapi.yml
+- filename: unqork-search-configs-api-openapi.yml
+  format: yaml
+  label: Unqork Search Configs API
+  slug: unqork-search-configs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-search-configs-api-openapi.yml
+- filename: unqork-submissions-api-openapi.yml
+  format: yaml
+  label: Unqork Submissions API
+  slug: unqork-submissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-submissions-api-openapi.yml
+- filename: unqork-transforms-api-openapi.yml
+  format: yaml
+  label: Unqork Transforms API
+  slug: unqork-transforms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-transforms-api-openapi.yml
+- filename: unqork-users-api-openapi.yml
+  format: yaml
+  label: Unqork Users API
+  slug: unqork-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-users-api-openapi.yml
+- filename: unqork-workflow-api-openapi.yml
+  format: yaml
+  label: Unqork Workflow API
+  slug: unqork-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-workflow-api-openapi.yml
 certifications:
 - SOC 2 Type II
 - ISO/IEC 27001:2013

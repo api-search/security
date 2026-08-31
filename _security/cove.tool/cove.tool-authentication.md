@@ -2,18 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: cove.tool-rest-api-v2-openapi.yml
+- filename: cove.tool-authentication-token-api-openapi.yml
   format: yaml
-  label: cove.tool REST API v2
-  slug: rest-api-v2
+  label: Cove.Tool Authentication Token API
+  slug: cove.tool-authentication-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-rest-api-v2-openapi.yml
-- filename: cove.tool-api-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-authentication-token-api-openapi.yml
+- filename: cove.tool-daylight-analysis-api-openapi.yml
   format: yaml
-  label: cove.tool API v1
-  slug: api-v1
+  label: Cove.Tool Daylight Analysis API
+  slug: cove.tool-daylight-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-api-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-daylight-analysis-api-openapi.yml
+- filename: cove.tool-energy-codes-api-openapi.yml
+  format: yaml
+  label: Cove.Tool Energy Codes API
+  slug: cove.tool-energy-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-energy-codes-api-openapi.yml
+- filename: cove.tool-profiles-api-openapi.yml
+  format: yaml
+  label: Cove.Tool Profiles API
+  slug: cove.tool-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-profiles-api-openapi.yml
+- filename: cove.tool-project-geometry-api-openapi.yml
+  format: yaml
+  label: Cove.Tool Project Geometry API
+  slug: cove.tool-project-geometry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-project-geometry-api-openapi.yml
+- filename: cove.tool-projects-api-openapi.yml
+  format: yaml
+  label: Cove.Tool Projects API
+  slug: cove.tool-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-projects-api-openapi.yml
+- filename: cove.tool-user-api-openapi.yml
+  format: yaml
+  label: Cove.Tool User API
+  slug: cove.tool-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-user-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

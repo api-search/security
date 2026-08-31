@@ -24,6 +24,12 @@ api_specs:
   slug: crescendo-lab-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/openapi/crescendo-lab-teams-api-openapi.yml
+- filename: crescendo-lab-maac-go-api-api-openapi.yml
+  format: yaml
+  label: Crescendo Lab MAAC Go API
+  slug: crescendo-lab-maac-go-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/openapi/crescendo-lab-maac-go-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

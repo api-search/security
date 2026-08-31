@@ -1,59 +1,119 @@
 ---
 api_specs:
-- filename: beazley-data-capture-quote-and-risk-data-v2.yml
+- filename: beazley-audit-api-openapi.yml
   format: yaml
-  label: 'Beazley Data Capture: Quote and Risk Data v2'
-  slug: beazley-data-capture-quote-and-risk-data-v2
+  label: Beazley Audit API
+  slug: beazley-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-data-capture-quote-and-risk-data-v2.yml
-- filename: beazley-data-capture-quote-and-risk-data.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-audit-api-openapi.yml
+- filename: beazley-check-api-openapi.yml
   format: yaml
-  label: 'Beazley Data Capture: Quote and Risk Data v1'
-  slug: beazley-data-capture-quote-and-risk-data-v1
+  label: Beazley Check API
+  slug: beazley-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-data-capture-quote-and-risk-data.yml
-- filename: beazley-data-capture-quote-and-risk-data-v3-pre-release.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-check-api-openapi.yml
+- filename: beazley-contacts-api-openapi.yml
   format: yaml
-  label: 'Beazley Data Capture: Quote and Risk Data v3 (pre-release)'
-  slug: beazley-data-capture-quote-and-risk-data-v3
+  label: Beazley Contacts API
+  slug: beazley-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-data-capture-quote-and-risk-data-v3-pre-release.yml
-- filename: beazley-compliance-web-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-contacts-api-openapi.yml
+- filename: beazley-currencies-api-openapi.yml
   format: yaml
-  label: Beazley Compliance Web API
-  slug: beazley-compliance-web-api
+  label: Beazley Currencies API
+  slug: beazley-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-compliance-web-api.yml
-- filename: beazley-broker-and-insured-marketing-data-v2.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-currencies-api-openapi.yml
+- filename: beazley-cyber-api-openapi.yml
   format: yaml
-  label: Beazley Broker and Insured Marketing Data v2
-  slug: beazley-broker-and-insured-marketing-data-v2
+  label: Beazley Cyber API
+  slug: beazley-cyber-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-broker-and-insured-marketing-data-v2.yml
-- filename: beazley-currency-exchange.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-cyber-api-openapi.yml
+- filename: beazley-definitions-api-openapi.yml
   format: yaml
-  label: Beazley Currency Exchange
-  slug: beazley-currency-exchange
+  label: Beazley Definitions API
+  slug: beazley-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-currency-exchange.yml
-- filename: beazley-about-beazley.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-definitions-api-openapi.yml
+- filename: beazley-faqs-api-openapi.yml
   format: yaml
-  label: About Beazley
-  slug: beazley-about-beazley
+  label: Beazley Faqs API
+  slug: beazley-faqs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-about-beazley.yml
-- filename: beazley-fast-reader.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-faqs-api-openapi.yml
+- filename: beazley-health-api-openapi.yml
   format: yaml
-  label: Beazley Fast Reader
-  slug: beazley-fast-reader
+  label: Beazley Health API
+  slug: beazley-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-fast-reader.yml
-- filename: beazley-simple-raters.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-health-api-openapi.yml
+- filename: beazley-lockstate-api-openapi.yml
   format: yaml
-  label: Beazley Simple Raters
-  slug: beazley-simple-raters
+  label: Beazley Lockstate API
+  slug: beazley-lockstate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-simple-raters.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-lockstate-api-openapi.yml
+- filename: beazley-microsites-api-openapi.yml
+  format: yaml
+  label: Beazley Microsites API
+  slug: beazley-microsites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-microsites-api-openapi.yml
+- filename: beazley-organisations-api-openapi.yml
+  format: yaml
+  label: Beazley Organisations API
+  slug: beazley-organisations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-organisations-api-openapi.yml
+- filename: beazley-people-api-openapi.yml
+  format: yaml
+  label: Beazley People API
+  slug: beazley-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-people-api-openapi.yml
+- filename: beazley-ping-api-openapi.yml
+  format: yaml
+  label: Beazley Ping API
+  slug: beazley-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-ping-api-openapi.yml
+- filename: beazley-products-api-openapi.yml
+  format: yaml
+  label: Beazley Products API
+  slug: beazley-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-products-api-openapi.yml
+- filename: beazley-providers-api-openapi.yml
+  format: yaml
+  label: Beazley Providers API
+  slug: beazley-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-providers-api-openapi.yml
+- filename: beazley-rates-api-openapi.yml
+  format: yaml
+  label: Beazley Rates API
+  slug: beazley-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-rates-api-openapi.yml
+- filename: beazley-report-api-openapi.yml
+  format: yaml
+  label: Beazley Report API
+  slug: beazley-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-report-api-openapi.yml
+- filename: beazley-risks-api-openapi.yml
+  format: yaml
+  label: Beazley Risks API
+  slug: beazley-risks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-risks-api-openapi.yml
+- filename: beazley-search-api-openapi.yml
+  format: yaml
+  label: Beazley Search API
+  slug: beazley-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-search-api-openapi.yml
 certifications:
 - ISO/IEC 27001
 - ISO/IEC 27701

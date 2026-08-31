@@ -1,12 +1,168 @@
 ---
 api_key_in: []
 api_specs:
-- filename: das-technology-daswebapi-v1-openapi.yml
+- filename: das-technology-account-api-openapi.yml
   format: yaml
-  label: DAS Web API
-  slug: das-web-api
+  label: DAS Technology Account API
+  slug: das-technology-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-daswebapi-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-account-api-openapi.yml
+- filename: das-technology-accountv2-api-openapi.yml
+  format: yaml
+  label: DAS Technology Account V2 API
+  slug: das-technology-accountv2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-accountv2-api-openapi.yml
+- filename: das-technology-client-api-openapi.yml
+  format: yaml
+  label: DAS Technology Client API
+  slug: das-technology-client-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-client-api-openapi.yml
+- filename: das-technology-configuration-api-openapi.yml
+  format: yaml
+  label: DAS Technology Configuration API
+  slug: das-technology-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-configuration-api-openapi.yml
+- filename: das-technology-employee-api-openapi.yml
+  format: yaml
+  label: DAS Technology Employee API
+  slug: das-technology-employee-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-employee-api-openapi.yml
+- filename: das-technology-hierarchyv2-api-openapi.yml
+  format: yaml
+  label: DAS Technology Hierarchy V2 API
+  slug: das-technology-hierarchyv2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-hierarchyv2-api-openapi.yml
+- filename: das-technology-incentives-api-openapi.yml
+  format: yaml
+  label: DAS Technology Incentives API
+  slug: das-technology-incentives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-incentives-api-openapi.yml
+- filename: das-technology-mail-api-openapi.yml
+  format: yaml
+  label: DAS Technology Mail API
+  slug: das-technology-mail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-mail-api-openapi.yml
+- filename: das-technology-media-api-openapi.yml
+  format: yaml
+  label: DAS Technology Media API
+  slug: das-technology-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-media-api-openapi.yml
+- filename: das-technology-notification-api-openapi.yml
+  format: yaml
+  label: DAS Technology Notification API
+  slug: das-technology-notification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-notification-api-openapi.yml
+- filename: das-technology-promotions-api-openapi.yml
+  format: yaml
+  label: DAS Technology Promotions API
+  slug: das-technology-promotions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-promotions-api-openapi.yml
+- filename: das-technology-review-api-openapi.yml
+  format: yaml
+  label: DAS Technology Review API
+  slug: das-technology-review-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-review-api-openapi.yml
+- filename: das-technology-rlcustomer-api-openapi.yml
+  format: yaml
+  label: DAS Technology RL Customer API
+  slug: das-technology-rlcustomer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-rlcustomer-api-openapi.yml
+- filename: das-technology-site-api-openapi.yml
+  format: yaml
+  label: DAS Technology Site API
+  slug: das-technology-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-site-api-openapi.yml
+- filename: das-technology-smartfacts-api-openapi.yml
+  format: yaml
+  label: DAS Technology Smart Facts API
+  slug: das-technology-smartfacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-smartfacts-api-openapi.yml
+- filename: das-technology-soci-api-openapi.yml
+  format: yaml
+  label: DAS Technology SO Ci API
+  slug: das-technology-soci-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-soci-api-openapi.yml
+- filename: das-technology-sociv2-api-openapi.yml
+  format: yaml
+  label: DAS Technology Soci V2 API
+  slug: das-technology-sociv2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-sociv2-api-openapi.yml
+- filename: das-technology-stats-api-openapi.yml
+  format: yaml
+  label: DAS Technology Stats API
+  slug: das-technology-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-stats-api-openapi.yml
+- filename: das-technology-statsv2-api-openapi.yml
+  format: yaml
+  label: DAS Technology Stats V2 API
+  slug: das-technology-statsv2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-statsv2-api-openapi.yml
+- filename: das-technology-survey-api-openapi.yml
+  format: yaml
+  label: DAS Technology Survey API
+  slug: das-technology-survey-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-survey-api-openapi.yml
+- filename: das-technology-surveyresponse-api-openapi.yml
+  format: yaml
+  label: DAS Technology Survey Response API
+  slug: das-technology-surveyresponse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-surveyresponse-api-openapi.yml
+- filename: das-technology-surveysv2-api-openapi.yml
+  format: yaml
+  label: DAS Technology Surveys V2 API
+  slug: das-technology-surveysv2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-surveysv2-api-openapi.yml
+- filename: das-technology-transaction-api-openapi.yml
+  format: yaml
+  label: DAS Technology Transaction API
+  slug: das-technology-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-transaction-api-openapi.yml
+- filename: das-technology-user-api-openapi.yml
+  format: yaml
+  label: DAS Technology User API
+  slug: das-technology-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-user-api-openapi.yml
+- filename: das-technology-userv2-api-openapi.yml
+  format: yaml
+  label: DAS Technology User V2 API
+  slug: das-technology-userv2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-userv2-api-openapi.yml
+- filename: das-technology-vehicle-api-openapi.yml
+  format: yaml
+  label: DAS Technology Vehicle API
+  slug: das-technology-vehicle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-vehicle-api-openapi.yml
+- filename: das-technology-zuora-api-openapi.yml
+  format: yaml
+  label: DAS Technology Zuora API
+  slug: das-technology-zuora-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-zuora-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

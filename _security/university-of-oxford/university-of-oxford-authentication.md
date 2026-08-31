@@ -1,30 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: university-of-oxford-ora-oai-pmh-openapi.yml
+- filename: university-of-oxford-iiif-api-openapi.yml
   format: yaml
-  label: ORA — Oxford University Research Archive OAI-PMH
-  slug: ora-oai-pmh
+  label: University of Oxford IIIF API
+  slug: university-of-oxford-iiif-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-ora-oai-pmh-openapi.yml
-- filename: university-of-oxford-ora-search-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-iiif-api-openapi.yml
+- filename: university-of-oxford-oai-pmh-api-openapi.yml
   format: yaml
-  label: ORA — Research Archive Search & Record API
-  slug: ora-search
+  label: University of Oxford OAI PMH API
+  slug: university-of-oxford-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-ora-search-openapi.yml
-- filename: university-of-oxford-bodleian-iiif-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-oai-pmh-api-openapi.yml
+- filename: university-of-oxford-repository-api-openapi.yml
   format: yaml
-  label: Digital Bodleian IIIF API
-  slug: bodleian-iiif
+  label: University of Oxford Repository API
+  slug: university-of-oxford-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-bodleian-iiif-openapi.yml
-- filename: university-of-oxford-oxford-text-archive-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-repository-api-openapi.yml
+- filename: university-of-oxford-textarchive-api-openapi.yml
   format: yaml
-  label: Oxford Text Archive OAI-PMH
-  slug: oxford-text-archive-oai-pmh
+  label: University of Oxford Text Archive API
+  slug: university-of-oxford-textarchive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-oxford-text-archive-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-textarchive-api-openapi.yml
 auth_types: []
 description: 'Every institution-operated API surface found at Oxford is unauthenticated and read-only. Authentication at Oxford exists, and is substantial, but it sits on the identity-federation side of the house rather than in front of any public API: there is no API key, no OAuth client registration, no developer account and no token endpoint anywhere in the estate.'
 kind: authentication

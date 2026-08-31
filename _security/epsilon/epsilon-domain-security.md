@@ -1,23 +1,47 @@
 ---
 api_specs:
-- filename: epsilon-retail-media-integration-openapi.json
-  format: json
-  label: Epsilon Retail Media Integration API
-  slug: epsilon-retail-media-integration-api
+- filename: epsilon-ads-api-openapi.yml
+  format: yaml
+  label: Epsilon Ads API
+  slug: epsilon-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/openapi/epsilon-retail-media-integration-openapi.json
-- filename: epsilon-retail-media-filter-mapping-openapi.json
-  format: json
-  label: Epsilon Retail Media Filter Mapping API
-  slug: epsilon-retail-media-filter-mapping-api
+  url: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/openapi/epsilon-ads-api-openapi.yml
+- filename: epsilon-catalog-products-api-openapi.yml
+  format: yaml
+  label: Epsilon Catalog Products API
+  slug: epsilon-catalog-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/openapi/epsilon-retail-media-filter-mapping-openapi.json
-- filename: epsilon-retail-media-cross-sell-category-openapi.json
-  format: json
-  label: Epsilon Retail Media Cross-Sell Category API
-  slug: epsilon-retail-media-cross-sell-category-api
+  url: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/openapi/epsilon-catalog-products-api-openapi.yml
+- filename: epsilon-catalogs-api-openapi.yml
+  format: yaml
+  label: Epsilon Catalogs API
+  slug: epsilon-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/openapi/epsilon-retail-media-cross-sell-category-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/openapi/epsilon-catalogs-api-openapi.yml
+- filename: epsilon-crosssellcategory-api-openapi.yml
+  format: yaml
+  label: Epsilon Cross Sell Category API
+  slug: epsilon-crosssellcategory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/openapi/epsilon-crosssellcategory-api-openapi.yml
+- filename: epsilon-customers-api-openapi.yml
+  format: yaml
+  label: Epsilon Customers API
+  slug: epsilon-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/openapi/epsilon-customers-api-openapi.yml
+- filename: epsilon-filtermapping-api-openapi.yml
+  format: yaml
+  label: Epsilon Filter Mapping API
+  slug: epsilon-filtermapping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/openapi/epsilon-filtermapping-api-openapi.yml
+- filename: epsilon-orders-api-openapi.yml
+  format: yaml
+  label: Epsilon Orders API
+  slug: epsilon-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/openapi/epsilon-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []

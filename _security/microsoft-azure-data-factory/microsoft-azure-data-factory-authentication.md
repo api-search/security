@@ -23,8 +23,8 @@ name: Microsoft Azure Data Factory Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit
-overview: microsoft-azure-data-factory secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the implicit flow(s).
-provider_name: microsoft-azure-data-factory
+overview: Azure Data Factory secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the implicit flow(s).
+provider_name: Azure Data Factory
 provider_slug: microsoft-azure-data-factory
 scheme_count: 1
 schemes:

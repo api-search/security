@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: brandfolder-openapi-original.yml
+- filename: brandfolder-assets-api-openapi.yml
   format: yaml
-  label: Brandfolder API
-  slug: brandfolder-api
+  label: Brandfolder Assets API
+  slug: brandfolder-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-assets-api-openapi.yml
+- filename: brandfolder-attachments-api-openapi.yml
+  format: yaml
+  label: Brandfolder Attachments API
+  slug: brandfolder-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-attachments-api-openapi.yml
+- filename: brandfolder-binary-upload-api-openapi.yml
+  format: yaml
+  label: Brandfolder Binary Upload API
+  slug: brandfolder-binary-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-binary-upload-api-openapi.yml
+- filename: brandfolder-brandfolders-api-openapi.yml
+  format: yaml
+  label: Brandfolder Brandfolders API
+  slug: brandfolder-brandfolders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-brandfolders-api-openapi.yml
+- filename: brandfolder-collections-api-openapi.yml
+  format: yaml
+  label: Brandfolder Collections API
+  slug: brandfolder-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-collections-api-openapi.yml
+- filename: brandfolder-custom-fields-api-openapi.yml
+  format: yaml
+  label: Brandfolder Custom Fields API
+  slug: brandfolder-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-custom-fields-api-openapi.yml
+- filename: brandfolder-invitations-api-openapi.yml
+  format: yaml
+  label: Brandfolder Invitations API
+  slug: brandfolder-invitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-invitations-api-openapi.yml
+- filename: brandfolder-labels-api-openapi.yml
+  format: yaml
+  label: Brandfolder Labels API
+  slug: brandfolder-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-labels-api-openapi.yml
+- filename: brandfolder-organizations-api-openapi.yml
+  format: yaml
+  label: Brandfolder Organizations API
+  slug: brandfolder-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-organizations-api-openapi.yml
+- filename: brandfolder-sections-api-openapi.yml
+  format: yaml
+  label: Brandfolder Sections API
+  slug: brandfolder-sections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-sections-api-openapi.yml
+- filename: brandfolder-tags-api-openapi.yml
+  format: yaml
+  label: Brandfolder Tags API
+  slug: brandfolder-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-tags-api-openapi.yml
+- filename: brandfolder-user-permissions-api-openapi.yml
+  format: yaml
+  label: Brandfolder User Permissions API
+  slug: brandfolder-user-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-user-permissions-api-openapi.yml
+- filename: brandfolder-webhooks-api-openapi.yml
+  format: yaml
+  label: Brandfolder Webhooks API
+  slug: brandfolder-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-webhooks-api-openapi.yml
 certifications:
 - SOC 2
 - HIPAA

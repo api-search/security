@@ -2,18 +2,18 @@
 api_key_in:
 - query
 api_specs:
-- filename: uk-power-networks-explore-api-v2-1-openapi.json
-  format: json
-  label: UK Power Networks Open Data Explore API v2.1
-  slug: uk-power-networks-explore-api-v2-1
+- filename: uk-power-networks-catalog-api-openapi.yml
+  format: yaml
+  label: UK Power Networks Catalog API
+  slug: uk-power-networks-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/openapi/uk-power-networks-explore-api-v2-1-openapi.json
-- filename: uk-power-networks-explore-api-v2-0-openapi.json
-  format: json
-  label: UK Power Networks Open Data Explore API v2.0
-  slug: uk-power-networks-explore-api-v2-0
+  url: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/openapi/uk-power-networks-catalog-api-openapi.yml
+- filename: uk-power-networks-dataset-api-openapi.yml
+  format: yaml
+  label: UK Power Networks Dataset API
+  slug: uk-power-networks-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/openapi/uk-power-networks-explore-api-v2-0-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/openapi/uk-power-networks-dataset-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: cognism-api-openapi.yml
+- filename: cognism-compliance-api-openapi.yml
   format: yaml
-  label: Cognism Enrichment API
-  slug: enrichment
+  label: Cognism Compliance API
+  slug: cognism-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-compliance-api-openapi.yml
+- filename: cognism-enrich-api-openapi.yml
+  format: yaml
+  label: Cognism Enrich API
+  slug: cognism-enrich-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-enrich-api-openapi.yml
+- filename: cognism-entitlement-api-openapi.yml
+  format: yaml
+  label: Cognism Entitlement API
+  slug: cognism-entitlement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-entitlement-api-openapi.yml
+- filename: cognism-filter-api-openapi.yml
+  format: yaml
+  label: Cognism Filter API
+  slug: cognism-filter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-filter-api-openapi.yml
+- filename: cognism-redeem-api-openapi.yml
+  format: yaml
+  label: Cognism Redeem API
+  slug: cognism-redeem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-redeem-api-openapi.yml
+- filename: cognism-search-api-openapi.yml
+  format: yaml
+  label: Cognism Search API
+  slug: cognism-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-search-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

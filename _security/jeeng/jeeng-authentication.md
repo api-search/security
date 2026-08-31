@@ -1,24 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: jeeng-advertisers-openapi.yml
+- filename: jeeng-management-api-openapi.yml
   format: yaml
-  label: Jeeng Email Monetization — Advertisers API
-  slug: jeeng-email-monetization-advertisers-api
+  label: Jeeng Management API
+  slug: jeeng-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/openapi/jeeng-advertisers-openapi.yml
-- filename: jeeng-publishers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/openapi/jeeng-management-api-openapi.yml
+- filename: jeeng-reporting-api-openapi.yml
   format: yaml
-  label: Jeeng Email Monetization — Publishers API
-  slug: jeeng-email-monetization-publishers-api
+  label: Jeeng Reporting API
+  slug: jeeng-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/openapi/jeeng-publishers-openapi.yml
-- filename: jeeng-authentication-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/openapi/jeeng-reporting-api-openapi.yml
+- filename: jeeng-revenuestripe-onmicrosoft-com-api-openapi.yml
   format: yaml
-  label: Jeeng Email Monetization — Authentication
-  slug: jeeng-email-monetization-authentication
+  label: Jeeng Revenuestripe.onmicrosoft.com API
+  slug: jeeng-revenuestripe-onmicrosoft-com-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/openapi/jeeng-authentication-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/openapi/jeeng-revenuestripe-onmicrosoft-com-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

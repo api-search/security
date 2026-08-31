@@ -1,47 +1,11 @@
 ---
 api_specs:
-- filename: d-local-payments-api-openapi.yml
-  format: yaml
-  label: dLocal Payments API
-  slug: d-local-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-local/refs/heads/main/openapi/d-local-payments-api-openapi.yml
-- filename: d-local-refunds-api-openapi.yml
-  format: yaml
-  label: dLocal Refunds API
-  slug: d-local-refunds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-local/refs/heads/main/openapi/d-local-refunds-api-openapi.yml
-- filename: d-local-cards-api-openapi.yml
-  format: yaml
-  label: dLocal Cards API
-  slug: d-local-cards-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-local/refs/heads/main/openapi/d-local-cards-api-openapi.yml
-- filename: d-local-chargebacks-api-openapi.yml
-  format: yaml
-  label: dLocal Chargebacks API
-  slug: d-local-chargebacks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-local/refs/heads/main/openapi/d-local-chargebacks-api-openapi.yml
-- filename: d-local-enrollments-api-openapi.yml
-  format: yaml
-  label: dLocal Enrollments API
-  slug: d-local-enrollments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-local/refs/heads/main/openapi/d-local-enrollments-api-openapi.yml
 - filename: d-local-accounts-api-openapi.yml
   format: yaml
   label: dLocal Accounts API
   slug: d-local-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/d-local/refs/heads/main/openapi/d-local-accounts-api-openapi.yml
-- filename: d-local-authorizations-api-openapi.yml
-  format: yaml
-  label: dLocal Authorizations API
-  slug: d-local-authorizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-local/refs/heads/main/openapi/d-local-authorizations-api-openapi.yml
 - filename: d-local-balance-api-openapi.yml
   format: yaml
   label: dLocal Balance API

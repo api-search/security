@@ -2,30 +2,126 @@
 api_key_in:
 - header
 api_specs:
-- filename: hootsuite-rest-api-openapi.yml
+- filename: hootsuite-analytics-api-api-openapi.yml
   format: yaml
-  label: Hootsuite REST API
-  slug: rest-api
+  label: Hootsuite Analytics API
+  slug: hootsuite-analytics-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-rest-api-openapi.yml
-- filename: hootsuite-analytics-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-analytics-api-api-openapi.yml
+- filename: hootsuite-authentication-api-openapi.yml
   format: yaml
-  label: Hootsuite Analytics REST API
-  slug: analytics-api
+  label: Hootsuite Authentication API
+  slug: hootsuite-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-analytics-api-openapi.yml
-- filename: hootsuite-inbox-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-authentication-api-openapi.yml
+- filename: hootsuite-comments-api-openapi.yml
   format: yaml
-  label: Hootsuite Inbox 2.0 API
-  slug: inbox-api
+  label: Hootsuite Comments API
+  slug: hootsuite-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-inbox-api-openapi.yml
-- filename: hootsuite-amplify-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-comments-api-openapi.yml
+- filename: hootsuite-crm-rest-api-api-openapi.yml
   format: yaml
-  label: Hootsuite Amplify REST API
-  slug: amplify-api
+  label: Hootsuite CRM Rest API
+  slug: hootsuite-crm-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-amplify-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-crm-rest-api-api-openapi.yml
+- filename: hootsuite-crm-webhooks-api-openapi.yml
+  format: yaml
+  label: Hootsuite CRM Webhooks API
+  slug: hootsuite-crm-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-crm-webhooks-api-openapi.yml
+- filename: hootsuite-me-api-openapi.yml
+  format: yaml
+  label: Hootsuite Me API
+  slug: hootsuite-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-me-api-openapi.yml
+- filename: hootsuite-media-api-openapi.yml
+  format: yaml
+  label: Hootsuite Media API
+  slug: hootsuite-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-media-api-openapi.yml
+- filename: hootsuite-members-api-openapi.yml
+  format: yaml
+  label: Hootsuite Members API
+  slug: hootsuite-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-members-api-openapi.yml
+- filename: hootsuite-messages-api-openapi.yml
+  format: yaml
+  label: Hootsuite Messages API
+  slug: hootsuite-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-messages-api-openapi.yml
+- filename: hootsuite-organizations-api-openapi.yml
+  format: yaml
+  label: Hootsuite Organizations API
+  slug: hootsuite-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-organizations-api-openapi.yml
+- filename: hootsuite-proactive-messaging-rest-api-api-openapi.yml
+  format: yaml
+  label: Hootsuite Proactive Messaging Rest API
+  slug: hootsuite-proactive-messaging-rest-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-proactive-messaging-rest-api-api-openapi.yml
+- filename: hootsuite-queue-rest-api-api-openapi.yml
+  format: yaml
+  label: Hootsuite Queue Rest API
+  slug: hootsuite-queue-rest-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-queue-rest-api-api-openapi.yml
+- filename: hootsuite-real-time-metrics-rest-api-api-openapi.yml
+  format: yaml
+  label: Hootsuite Real Time Metrics Rest API
+  slug: hootsuite-real-time-metrics-rest-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-real-time-metrics-rest-api-api-openapi.yml
+- filename: hootsuite-rest-api-authentication-api-openapi.yml
+  format: yaml
+  label: Hootsuite Rest API Authentication API
+  slug: hootsuite-rest-api-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-rest-api-authentication-api-openapi.yml
+- filename: hootsuite-scim-2-0-api-openapi.yml
+  format: yaml
+  label: Hootsuite SCIM 2.0 API
+  slug: hootsuite-scim-2-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-scim-2-0-api-openapi.yml
+- filename: hootsuite-social-profiles-api-openapi.yml
+  format: yaml
+  label: Hootsuite Social Profiles API
+  slug: hootsuite-social-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-social-profiles-api-openapi.yml
+- filename: hootsuite-teams-api-openapi.yml
+  format: yaml
+  label: Hootsuite Teams API
+  slug: hootsuite-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-teams-api-openapi.yml
+- filename: hootsuite-user-presence-rest-api-api-openapi.yml
+  format: yaml
+  label: Hootsuite User Presence Rest API
+  slug: hootsuite-user-presence-rest-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-user-presence-rest-api-api-openapi.yml
+- filename: hootsuite-vai-rest-api-api-openapi.yml
+  format: yaml
+  label: Hootsuite Vai Rest API
+  slug: hootsuite-vai-rest-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-vai-rest-api-api-openapi.yml
+- filename: hootsuite-vai-webhooks-api-openapi.yml
+  format: yaml
+  label: Hootsuite Vai Webhooks API
+  slug: hootsuite-vai-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-vai-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 - http

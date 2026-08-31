@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: gist-answers-api-openapi.yml
+- filename: gist-chat-api-openapi.yml
   format: yaml
-  label: Gist Answers API (Prorata API Service)
-  slug: gist-answers-api-prorata-api-service
+  label: Gist Chat API
+  slug: gist-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/openapi/gist-answers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/openapi/gist-chat-api-openapi.yml
+- filename: gist-health-api-openapi.yml
+  format: yaml
+  label: Gist Health API
+  slug: gist-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/openapi/gist-health-api-openapi.yml
+- filename: gist-publishers-api-openapi.yml
+  format: yaml
+  label: Gist Publishers API
+  slug: gist-publishers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/openapi/gist-publishers-api-openapi.yml
+- filename: gist-questions-api-openapi.yml
+  format: yaml
+  label: Gist Questions API
+  slug: gist-questions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/openapi/gist-questions-api-openapi.yml
+- filename: gist-root-api-openapi.yml
+  format: yaml
+  label: Gist Root API
+  slug: gist-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/openapi/gist-root-api-openapi.yml
+- filename: gist-summaries-api-openapi.yml
+  format: yaml
+  label: Gist Summaries API
+  slug: gist-summaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/openapi/gist-summaries-api-openapi.yml
+- filename: gist-threads-api-openapi.yml
+  format: yaml
+  label: Gist Threads API
+  slug: gist-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/openapi/gist-threads-api-openapi.yml
 description: ''
 domains:
 - caa: []

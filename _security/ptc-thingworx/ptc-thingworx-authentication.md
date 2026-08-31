@@ -55,8 +55,8 @@ name: Ptc Thingworx Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
-overview: ptc-thingworx secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
-provider_name: ptc-thingworx
+overview: PTC ThingWorx secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+provider_name: PTC ThingWorx
 provider_slug: ptc-thingworx
 scheme_count: 2
 schemes:

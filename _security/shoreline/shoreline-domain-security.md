@@ -22,10 +22,16 @@ slug: shoreline-domain-security
 source_filename: shoreline-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: shoreline.io\n  https: false\ndomains:\n- domain: shoreline.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: shoreline.io\n  https: false\ndomains:\n- domain: shoreline.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shoreline/refs/heads/main/security/shoreline-domain-security.yml
 summary_line: DMARC
 tags:
 - AIOps
 - Automation
+- Incident Response
+- Site Reliability Engineering
+- Cloud Operations
+- Remediation
+- Observability
+- Terraform
 ---

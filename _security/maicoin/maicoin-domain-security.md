@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: maicoin-max-v3-openapi.json
-  format: json
-  label: MAX Exchange REST API v3
-  slug: maicoin-max-rest-v3
+- filename: maicoin-convert-api-openapi.yml
+  format: yaml
+  label: MaiCoin Convert API
+  slug: maicoin-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/openapi/maicoin-max-v3-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/openapi/maicoin-convert-api-openapi.yml
+- filename: maicoin-order-api-openapi.yml
+  format: yaml
+  label: MaiCoin Order API
+  slug: maicoin-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/openapi/maicoin-order-api-openapi.yml
+- filename: maicoin-public-api-openapi.yml
+  format: yaml
+  label: MaiCoin Public API
+  slug: maicoin-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/openapi/maicoin-public-api-openapi.yml
+- filename: maicoin-trade-api-openapi.yml
+  format: yaml
+  label: MaiCoin Trade API
+  slug: maicoin-trade-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/openapi/maicoin-trade-api-openapi.yml
+- filename: maicoin-transaction-api-openapi.yml
+  format: yaml
+  label: MaiCoin Transaction API
+  slug: maicoin-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/openapi/maicoin-transaction-api-openapi.yml
+- filename: maicoin-user-api-openapi.yml
+  format: yaml
+  label: MaiCoin User API
+  slug: maicoin-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/openapi/maicoin-user-api-openapi.yml
+- filename: maicoin-wallet-api-openapi.yml
+  format: yaml
+  label: MaiCoin Wallet API
+  slug: maicoin-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/openapi/maicoin-wallet-api-openapi.yml
 description: ''
 domains:
 - caa:

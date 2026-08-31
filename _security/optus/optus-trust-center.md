@@ -1,29 +1,59 @@
 ---
 api_specs:
-- filename: optus-sms-suite-rest-v1-openapi.yml
+- filename: optus-delete-multiple-lists-api-openapi.yml
   format: yaml
-  label: Optus SMS Suite REST API v1
-  slug: optus-sms-suite-rest-api-v1
+  label: Optus Delete Multiple Lists API
+  slug: optus-delete-multiple-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-sms-suite-rest-v1-openapi.yml
-- filename: optus-sms-suite-rest-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-delete-multiple-lists-api-openapi.yml
+- filename: optus-documentation-api-openapi.yml
   format: yaml
-  label: Optus SMS Suite SMS Gateway REST API v2
-  slug: optus-sms-suite-rest-api-v2
+  label: Optus Documentation API
+  slug: optus-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-sms-suite-rest-v2-openapi.yml
-- filename: optus-sms-suite-campaign-manager-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-documentation-api-openapi.yml
+- filename: optus-lists-api-openapi.yml
   format: yaml
-  label: Optus SMS Suite Campaign Manager API
-  slug: optus-sms-suite-campaign-manager-api
+  label: Optus Lists API
+  slug: optus-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-sms-suite-campaign-manager-openapi.yml
-- filename: optus-sms-suite-status-openapi.json
-  format: json
-  label: Optus SMS Suite Health Monitoring API
-  slug: optus-sms-suite-health-monitoring-api
+  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-lists-api-openapi.yml
+- filename: optus-messages-api-openapi.yml
+  format: yaml
+  label: Optus Messages API
+  slug: optus-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-sms-suite-status-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-messages-api-openapi.yml
+- filename: optus-report-api-openapi.yml
+  format: yaml
+  label: Optus Report API
+  slug: optus-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-report-api-openapi.yml
+- filename: optus-scheduled-campaigns-api-openapi.yml
+  format: yaml
+  label: Optus Scheduled Campaigns API
+  slug: optus-scheduled-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-scheduled-campaigns-api-openapi.yml
+- filename: optus-services-api-openapi.yml
+  format: yaml
+  label: Optus Services API
+  slug: optus-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-services-api-openapi.yml
+- filename: optus-status-api-openapi.yml
+  format: yaml
+  label: Optus Status API
+  slug: optus-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-status-api-openapi.yml
+- filename: optus-templates-api-openapi.yml
+  format: yaml
+  label: Optus Templates API
+  slug: optus-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-templates-api-openapi.yml
 certifications:
 - ISO 27001
 - SOC 2

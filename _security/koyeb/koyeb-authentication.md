@@ -254,6 +254,18 @@ api_specs:
   slug: koyeb-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-users-api-openapi.yml
+- filename: koyeb-instancesnapshots-api-openapi.yml
+  format: yaml
+  label: Koyeb Instance Snapshots API
+  slug: koyeb-instancesnapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-instancesnapshots-api-openapi.yml
+- filename: koyeb-test-api-openapi.yml
+  format: yaml
+  label: Koyeb Test API
+  slug: koyeb-test-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-test-api-openapi.yml
 auth_types:
 - apiKey
 description: 'Koyeb has one API credential and one way to send it: a personal API token, minted in the control panel, sent as an Authorization bearer header. There is no OAuth, no OIDC, no mTLS, no scopes and no read-only variant. Upgraded from the 2026-07-11 spec-derived baseline with the token lifecycle, env-var names and live 401 behaviour, which the spec alone does not carry.'

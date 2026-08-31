@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: hydro-ottawa-green-button-espi-openapi.yml
+- filename: hydro-ottawa-applicationinformation-api-openapi.yml
   format: yaml
-  label: Hydro Ottawa Green Button Connect My Data (CMD) API
-  slug: hydro-ottawa-green-button-connect-my-data-api
+  label: Hydro Ottawa Application Information API
+  slug: hydro-ottawa-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/openapi/hydro-ottawa-green-button-espi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/openapi/hydro-ottawa-applicationinformation-api-openapi.yml
+- filename: hydro-ottawa-authorization-api-openapi.yml
+  format: yaml
+  label: Hydro Ottawa Authorization API
+  slug: hydro-ottawa-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/openapi/hydro-ottawa-authorization-api-openapi.yml
+- filename: hydro-ottawa-batch-api-openapi.yml
+  format: yaml
+  label: Hydro Ottawa Batch API
+  slug: hydro-ottawa-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/openapi/hydro-ottawa-batch-api-openapi.yml
+- filename: hydro-ottawa-usagepoint-api-openapi.yml
+  format: yaml
+  label: Hydro Ottawa Usage Point API
+  slug: hydro-ottawa-usagepoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/openapi/hydro-ottawa-usagepoint-api-openapi.yml
 description: ''
 domains:
 - caa: []

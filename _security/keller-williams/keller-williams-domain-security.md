@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: keller-williams-listings-search-openapi.json
-  format: json
-  label: KW Worldwide Listings Search API
-  slug: keller-williams-worldwide-listings-search-api
+- filename: keller-williams-search-api-openapi.yml
+  format: yaml
+  label: Keller Williams Search API
+  slug: keller-williams-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/openapi/keller-williams-listings-search-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/openapi/keller-williams-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

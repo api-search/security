@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: insightera-nlp-platform-openapi.yml
+- filename: insightera-classification-api-openapi.yml
   format: yaml
-  label: InsightEra NLP Platform API
-  slug: insightera-nlp-platform-api
+  label: InsightEra Classification API
+  slug: insightera-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/openapi/insightera-nlp-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/openapi/insightera-classification-api-openapi.yml
+- filename: insightera-nlp-api-openapi.yml
+  format: yaml
+  label: InsightEra Nlp API
+  slug: insightera-nlp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/openapi/insightera-nlp-api-openapi.yml
 description: ''
 domains:
 - caa: []

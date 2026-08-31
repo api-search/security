@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: interswitch-transfers-api-openapi.yml
-  format: yaml
-  label: Interswitch Transfers API
-  slug: interswitch-transfers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/openapi/interswitch-transfers-api-openapi.yml
-- filename: interswitch-refunds-api-openapi.yml
-  format: yaml
-  label: Interswitch Refunds API
-  slug: interswitch-refunds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/openapi/interswitch-refunds-api-openapi.yml
 - filename: interswitch-airtime-api-openapi.yml
   format: yaml
   label: Interswitch Airtime API
@@ -24,24 +12,12 @@ api_specs:
   slug: interswitch-balance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/openapi/interswitch-balance-api-openapi.yml
-- filename: interswitch-bank-codes-api-openapi.yml
-  format: yaml
-  label: Interswitch Bank Codes API
-  slug: interswitch-bank-codes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/openapi/interswitch-bank-codes-api-openapi.yml
 - filename: interswitch-billers-api-openapi.yml
   format: yaml
   label: Interswitch Billers API
   slug: interswitch-billers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/openapi/interswitch-billers-api-openapi.yml
-- filename: interswitch-bulk-transfers-api-openapi.yml
-  format: yaml
-  label: Interswitch Bulk Transfers API
-  slug: interswitch-bulk-transfers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/openapi/interswitch-bulk-transfers-api-openapi.yml
 - filename: interswitch-cards-api-openapi.yml
   format: yaml
   label: Interswitch Cards API
@@ -114,12 +90,6 @@ api_specs:
   slug: interswitch-loans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/openapi/interswitch-loans-api-openapi.yml
-- filename: interswitch-name-inquiry-api-openapi.yml
-  format: yaml
-  label: Interswitch Name Inquiry API
-  slug: interswitch-name-inquiry-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/openapi/interswitch-name-inquiry-api-openapi.yml
 - filename: interswitch-offers-api-openapi.yml
   format: yaml
   label: Interswitch Offers API

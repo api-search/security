@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: secureframe-public-api-openapi.yml
+  format: yaml
+  label: Secureframe Public API
+  slug: public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/openapi/secureframe-public-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -8,7 +15,7 @@ domains:
   domain: secureframe.com
   spf: true
 hosts:
-- cert_expires: Aug  8 15:58:26 2026 GMT
+- cert_expires: Oct 10 02:54:18 2026 GMT
   host: secureframe.com
   hsts: true
   hsts_max_age: 63072000
@@ -37,7 +44,7 @@ slug: secureframe-domain-security
 source_filename: secureframe-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: secureframe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  8 15:58:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.secureframe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 07:29:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: api.secureframe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 07:29:23 2026 GMT\n  hsts: null\ndomains:\n- domain: secureframe.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: secureframe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 02:54:18 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.secureframe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 07:29:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: api.secureframe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 07:29:23 2026 GMT\n  hsts: null\ndomains:\n- domain: secureframe.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/security/secureframe-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
@@ -46,4 +53,9 @@ tags:
 - SOC 2
 - ISO 27001
 - Risk
+- CMMC
+- FedRAMP
+- Security
+- Audit
+- Trust
 ---

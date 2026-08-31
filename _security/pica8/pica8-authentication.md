@@ -1,12 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: pica8-ampcon-openapi.yml
+- filename: pica8-backup-api-openapi.yml
   format: yaml
-  label: Pica8 AmpCon Network Controller API
-  slug: pica8-ampcon-network-controller-api
+  label: Pica8 Backup API
+  slug: pica8-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/openapi/pica8-ampcon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/openapi/pica8-backup-api-openapi.yml
+- filename: pica8-configuration-api-openapi.yml
+  format: yaml
+  label: Pica8 Configuration API
+  slug: pica8-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/openapi/pica8-configuration-api-openapi.yml
+- filename: pica8-configurationfile-api-openapi.yml
+  format: yaml
+  label: Pica8 Configuration File API
+  slug: pica8-configurationfile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/openapi/pica8-configurationfile-api-openapi.yml
+- filename: pica8-group-api-openapi.yml
+  format: yaml
+  label: Pica8 Group API
+  slug: pica8-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/openapi/pica8-group-api-openapi.yml
+- filename: pica8-job-api-openapi.yml
+  format: yaml
+  label: Pica8 Job API
+  slug: pica8-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/openapi/pica8-job-api-openapi.yml
+- filename: pica8-license-api-openapi.yml
+  format: yaml
+  label: Pica8 License API
+  slug: pica8-license-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/openapi/pica8-license-api-openapi.yml
+- filename: pica8-playbook-api-openapi.yml
+  format: yaml
+  label: Pica8 Playbook API
+  slug: pica8-playbook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/openapi/pica8-playbook-api-openapi.yml
+- filename: pica8-settings-api-openapi.yml
+  format: yaml
+  label: Pica8 Settings API
+  slug: pica8-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/openapi/pica8-settings-api-openapi.yml
+- filename: pica8-switch-api-openapi.yml
+  format: yaml
+  label: Pica8 Switch API
+  slug: pica8-switch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/openapi/pica8-switch-api-openapi.yml
+- filename: pica8-template-api-openapi.yml
+  format: yaml
+  label: Pica8 Template API
+  slug: pica8-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/openapi/pica8-template-api-openapi.yml
+- filename: pica8-token-api-openapi.yml
+  format: yaml
+  label: Pica8 Token API
+  slug: pica8-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/openapi/pica8-token-api-openapi.yml
 auth_types:
 - http
 description: ''

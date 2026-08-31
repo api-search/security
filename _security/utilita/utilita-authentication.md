@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: utilita-status-openapi.yml
+- filename: utilita-components-api-openapi.yml
+  format: yaml
+  label: Utilita Components API
+  slug: utilita-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utilita/refs/heads/main/openapi/utilita-components-api-openapi.yml
+- filename: utilita-incidents-api-openapi.yml
+  format: yaml
+  label: Utilita Incidents API
+  slug: utilita-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utilita/refs/heads/main/openapi/utilita-incidents-api-openapi.yml
+- filename: utilita-scheduled-maintenance-api-openapi.yml
+  format: yaml
+  label: Utilita Scheduled Maintenance API
+  slug: utilita-scheduled-maintenance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/utilita/refs/heads/main/openapi/utilita-scheduled-maintenance-api-openapi.yml
+- filename: utilita-status-api-openapi.yml
   format: yaml
   label: Utilita Status API
   slug: utilita-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utilita/refs/heads/main/openapi/utilita-status-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/utilita/refs/heads/main/openapi/utilita-status-api-openapi.yml
 auth_types:
 - none
 description: ''

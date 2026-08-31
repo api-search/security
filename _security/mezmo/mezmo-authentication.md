@@ -2,24 +2,6 @@
 api_key_in:
 - header
 api_specs:
-- filename: mezmo-views-api-openapi.yml
-  format: yaml
-  label: Mezmo Views API
-  slug: mezmo-views-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-views-api-openapi.yml
-- filename: mezmo-archiving-api-openapi.yml
-  format: yaml
-  label: Mezmo Archiving API
-  slug: mezmo-archiving-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-archiving-api-openapi.yml
-- filename: mezmo-usage-api-openapi.yml
-  format: yaml
-  label: Mezmo Usage API
-  slug: mezmo-usage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-usage-api-openapi.yml
 - filename: mezmo-auditevents-api-openapi.yml
   format: yaml
   label: Mezmo AuditEvents API

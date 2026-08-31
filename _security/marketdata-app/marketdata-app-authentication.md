@@ -26,6 +26,12 @@ api_specs:
   slug: marketdata-app-stocks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-stocks-api-openapi.yml
+- filename: marketdata-app-v1-api-openapi.yml
+  format: yaml
+  label: Market Data V1 API
+  slug: marketdata-app-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-v1-api-openapi.yml
 auth_types:
 - http
 - apiKey

@@ -110,8 +110,8 @@ layout: security
 method: probed
 name: Wellcare Health Plans Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for wellcare-health-plans, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: wellcare-health-plans
+overview: 'Domain security posture for WellCare Health Plans, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: WellCare Health Plans
 provider_slug: wellcare-health-plans
 slug: wellcare-health-plans-domain-security
 source_filename: wellcare-health-plans-domain-security.yml

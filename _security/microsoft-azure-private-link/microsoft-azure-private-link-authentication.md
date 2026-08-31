@@ -23,8 +23,8 @@ name: Microsoft Azure Private Link Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit
-overview: microsoft-azure-private-link secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the implicit flow(s).
-provider_name: microsoft-azure-private-link
+overview: Microsoft Azure Private Link secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the implicit flow(s).
+provider_name: Microsoft Azure Private Link
 provider_slug: microsoft-azure-private-link
 scheme_count: 1
 schemes:

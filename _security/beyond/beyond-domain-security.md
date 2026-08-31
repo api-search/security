@@ -42,6 +42,12 @@ api_specs:
   slug: beyond-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/openapi/beyond-users-api-openapi.yml
+- filename: beyond-webhooks-api-openapi.yml
+  format: yaml
+  label: Beyond Webhooks API
+  slug: beyond-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/openapi/beyond-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

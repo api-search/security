@@ -6,12 +6,6 @@ api_specs:
   slug: revcontent-access-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-access-api-openapi.yml
-- filename: revcontent-boosts-api-openapi.yml
-  format: yaml
-  label: RevContent Campaigns (Boosts) API
-  slug: revcontent-boosts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-boosts-api-openapi.yml
 - filename: revcontent-ccpa-api-openapi.yml
   format: yaml
   label: RevContent CCPA API
@@ -48,12 +42,6 @@ api_specs:
   slug: revcontent-targeting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-targeting-api-openapi.yml
-- filename: revcontent-widgets-api-openapi.yml
-  format: yaml
-  label: RevContent Widgets API
-  slug: revcontent-widgets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-widgets-api-openapi.yml
 - filename: revcontent-widget-internal-content-api-openapi.yml
   format: yaml
   label: RevContent Widget Internal Content API
@@ -66,6 +54,18 @@ api_specs:
   slug: revcontent-widget-optimizer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-widget-optimizer-api-openapi.yml
+- filename: revcontent-campaigns-api-openapi.yml
+  format: yaml
+  label: RevContent Campaigns API
+  slug: revcontent-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-campaigns-api-openapi.yml
+- filename: revcontent-widget-api-openapi.yml
+  format: yaml
+  label: RevContent Widget API
+  slug: revcontent-widget-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-widget-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -41,8 +41,8 @@ name: Regions Financial Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
-overview: regions-financial secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
-provider_name: regions-financial
+overview: Regions Financial Corporation secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+provider_name: Regions Financial Corporation
 provider_slug: regions-financial
 scheme_count: 1
 schemes:

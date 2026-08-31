@@ -115,54 +115,12 @@ api_specs:
   slug: postmark-messages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-messages-api-openapi.yml
-- filename: postmark-messages-inbound-messageid-api-openapi.yml
-  format: yaml
-  label: Postmark Messages > Inbound > {Messageid} API
-  slug: postmark-messages-inbound-messageid-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-messages-inbound-messageid-api-openapi.yml
-- filename: postmark-messages-outbound-clicks-api-openapi.yml
-  format: yaml
-  label: Postmark Messages > Outbound > Clicks API
-  slug: postmark-messages-outbound-clicks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-messages-outbound-clicks-api-openapi.yml
-- filename: postmark-messages-outbound-messageid-api-openapi.yml
-  format: yaml
-  label: Postmark Messages > Outbound > {Messageid} API
-  slug: postmark-messages-outbound-messageid-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-messages-outbound-messageid-api-openapi.yml
-- filename: postmark-messages-outbound-opens-api-openapi.yml
-  format: yaml
-  label: Postmark Messages > Outbound > Opens API
-  slug: postmark-messages-outbound-opens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-messages-outbound-opens-api-openapi.yml
 - filename: postmark-outbound-api-openapi.yml
   format: yaml
   label: Postmark Outbound API
   slug: postmark-outbound-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-outbound-api-openapi.yml
-- filename: postmark-platforms-api-openapi.yml
-  format: yaml
-  label: Postmark Platforms API
-  slug: postmark-platforms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-platforms-api-openapi.yml
-- filename: postmark-readtimes-api-openapi.yml
-  format: yaml
-  label: Postmark Readtimes API
-  slug: postmark-readtimes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-readtimes-api-openapi.yml
-- filename: postmark-retry-api-openapi.yml
-  format: yaml
-  label: Postmark Retry API
-  slug: postmark-retry-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-retry-api-openapi.yml
 - filename: postmark-sender-signatures-api-api-openapi.yml
   format: yaml
   label: Postmark Sender Signatures API API
@@ -175,12 +133,6 @@ api_specs:
   slug: postmark-sending-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-sending-api-api-openapi.yml
-- filename: postmark-sends-api-openapi.yml
-  format: yaml
-  label: Postmark Sends API
-  slug: postmark-sends-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-sends-api-openapi.yml
 - filename: postmark-server-configuration-api-api-openapi.yml
   format: yaml
   label: Postmark Server Configuration API API
@@ -199,48 +151,12 @@ api_specs:
   slug: postmark-servers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-servers-api-openapi.yml
-- filename: postmark-spam-api-openapi.yml
-  format: yaml
-  label: Postmark Spam API
-  slug: postmark-spam-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-spam-api-openapi.yml
-- filename: postmark-statistics-api-openapi.yml
-  format: yaml
-  label: Postmark Statistics API
-  slug: postmark-statistics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-statistics-api-openapi.yml
 - filename: postmark-stats-api-api-openapi.yml
   format: yaml
   label: Postmark Stats API API
   slug: postmark-stats-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-stats-api-api-openapi.yml
-- filename: postmark-stats-outbound-api-openapi.yml
-  format: yaml
-  label: Postmark Stats/Outbound API
-  slug: postmark-stats-outbound-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-stats-outbound-api-openapi.yml
-- filename: postmark-stats-outbound-clicks-api-openapi.yml
-  format: yaml
-  label: Postmark Stats/Outbound > Clicks API
-  slug: postmark-stats-outbound-clicks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-stats-outbound-clicks-api-openapi.yml
-- filename: postmark-stats-outbound-opens-api-openapi.yml
-  format: yaml
-  label: Postmark Stats/Outbound > Opens API
-  slug: postmark-stats-outbound-opens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-stats-outbound-opens-api-openapi.yml
-- filename: postmark-template-api-openapi.yml
-  format: yaml
-  label: Postmark Template API
-  slug: postmark-template-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-template-api-openapi.yml
 - filename: postmark-templates-api-api-openapi.yml
   format: yaml
   label: Postmark Templates API API
@@ -265,24 +181,6 @@ api_specs:
   slug: postmark-triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-triggers-api-openapi.yml
-- filename: postmark-triggers-inboundrules-api-openapi.yml
-  format: yaml
-  label: Postmark Triggers > Inboundrules API
-  slug: postmark-triggers-inboundrules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-triggers-inboundrules-api-openapi.yml
-- filename: postmark-triggers-tags-api-openapi.yml
-  format: yaml
-  label: Postmark Triggers > Tags API
-  slug: postmark-triggers-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-triggers-tags-api-openapi.yml
-- filename: postmark-validate-api-openapi.yml
-  format: yaml
-  label: Postmark Validate API
-  slug: postmark-validate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-validate-api-openapi.yml
 auth_types: []
 description: Postmark authenticates every REST request with a static API token sent in a custom HTTP header. There is no OAuth 2.0, no OIDC, no mTLS and no scoped credential of any kind — a token grants everything at its level. Derived automatically from the OpenAPI first, but every spec in openapi/ declares an EMPTY components.securitySchemes, so the whole profile below is authored from Postmark's own authentication documentation.
 kind: authentication

@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: alectra-utilities-green-button-espi-openapi.json
-  format: json
-  label: Alectra Utilities Green Button Connect My Data (CMD) API
-  slug: alectra-green-button-connect-my-data-api
+- filename: alectra-utilities-applicationinformation-api-openapi.yml
+  format: yaml
+  label: Alectra Utilities Application Information API
+  slug: alectra-utilities-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/openapi/alectra-utilities-green-button-espi-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/openapi/alectra-utilities-applicationinformation-api-openapi.yml
+- filename: alectra-utilities-authorization-api-openapi.yml
+  format: yaml
+  label: Alectra Utilities Authorization API
+  slug: alectra-utilities-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/openapi/alectra-utilities-authorization-api-openapi.yml
+- filename: alectra-utilities-batch-api-openapi.yml
+  format: yaml
+  label: Alectra Utilities Batch API
+  slug: alectra-utilities-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/openapi/alectra-utilities-batch-api-openapi.yml
+- filename: alectra-utilities-usagepoint-api-openapi.yml
+  format: yaml
+  label: Alectra Utilities Usage Point API
+  slug: alectra-utilities-usagepoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/openapi/alectra-utilities-usagepoint-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

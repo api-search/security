@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: koreai-abl-runtime-conversation-openapi.json
-  format: json
-  label: Kore.ai Agent Platform ABL Runtime API — Conversation
-  slug: koreai-agent-platform-abl-runtime-api-conversation
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/openapi/koreai-abl-runtime-conversation-openapi.json
-- filename: koreai-abl-runtime-workflows-openapi.json
-  format: json
-  label: Kore.ai Agent Platform ABL Runtime API — Workflows
-  slug: koreai-agent-platform-abl-runtime-api-workflows
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/openapi/koreai-abl-runtime-workflows-openapi.json
-- filename: koreai-abl-runtime-sessions-openapi.json
-  format: json
-  label: Kore.ai Agent Platform ABL Runtime API — Sessions
-  slug: koreai-agent-platform-abl-runtime-api-sessions
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/openapi/koreai-abl-runtime-sessions-openapi.json
 - filename: Public-APIs
   format: yaml
   label: Kore.ai AI for Service Platform APIs
   slug: koreai-ai-for-service-platform-apis
   spec_type: Postman
   url: https://github.com/Koredotcom/Public-APIs
+- filename: koreai-chat-api-openapi.yml
+  format: yaml
+  label: Kore.ai Chat API
+  slug: koreai-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/openapi/koreai-chat-api-openapi.yml
+- filename: koreai-conversation-api-openapi.yml
+  format: yaml
+  label: Kore.ai Conversation API
+  slug: koreai-conversation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/openapi/koreai-conversation-api-openapi.yml
+- filename: koreai-workflows-api-openapi.yml
+  format: yaml
+  label: Kore.ai Workflows API
+  slug: koreai-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/openapi/koreai-workflows-api-openapi.yml
 certifications:
 - SOC 2 Type 2
 - PCI DSS

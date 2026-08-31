@@ -2,36 +2,156 @@
 api_key_in:
 - header
 api_specs:
-- filename: xe-currency-data-api-openapi.json
-  format: json
-  label: Xe Currency Data API
-  slug: xe-currency-data-api
+- filename: euronet-account-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Account API
+  slug: euronet-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/xe-currency-data-api-openapi.json
-- filename: xe-payments-api-openapi.json
-  format: json
-  label: Xe Payments API
-  slug: xe-payments-api
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-account-api-openapi.yml
+- filename: euronet-account-information-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Account Information API
+  slug: euronet-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/xe-payments-api-openapi.json
-- filename: xe-mass-payments-api-openapi.json
-  format: json
-  label: Xe Mass Payments API
-  slug: xe-mass-payments-api
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-account-information-api-openapi.yml
+- filename: euronet-budget-category-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Budget Category API
+  slug: euronet-budget-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/xe-mass-payments-api-openapi.json
-- filename: xe-currency-data-tradable-rates-api-openapi.json
-  format: json
-  label: Xe Currency Data Tradable Rates API
-  slug: xe-currency-data-tradable-rates-api
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-budget-category-api-openapi.yml
+- filename: euronet-conversions-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Conversions API
+  slug: euronet-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/xe-currency-data-tradable-rates-api-openapi.json
-- filename: xeta-api-openapi.json
-  format: json
-  label: XETA API
-  slug: xeta-api
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-conversions-api-openapi.yml
+- filename: euronet-currency-information-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Currency Information API
+  slug: euronet-currency-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/xeta-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-currency-information-api-openapi.yml
+- filename: euronet-expense-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Expense API
+  slug: euronet-expense-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-expense-api-openapi.yml
+- filename: euronet-friend-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Friend API
+  slug: euronet-friend-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-friend-api-openapi.yml
+- filename: euronet-historic-rates-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Historic Rates API
+  slug: euronet-historic-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-historic-rates-api-openapi.yml
+- filename: euronet-invitation-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Invitation API
+  slug: euronet-invitation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-invitation-api-openapi.yml
+- filename: euronet-invoice-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Invoice API
+  slug: euronet-invoice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-invoice-api-openapi.yml
+- filename: euronet-monthly-averages-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Monthly Averages API
+  slug: euronet-monthly-averages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-monthly-averages-api-openapi.yml
+- filename: euronet-payments-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Payments API
+  slug: euronet-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-payments-api-openapi.yml
+- filename: euronet-permission-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Permission API
+  slug: euronet-permission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-permission-api-openapi.yml
+- filename: euronet-permissions-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Permissions API
+  slug: euronet-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-permissions-api-openapi.yml
+- filename: euronet-purposesofpayment-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Purposes Of Payment API
+  slug: euronet-purposesofpayment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-purposesofpayment-api-openapi.yml
+- filename: euronet-quote-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Quote API
+  slug: euronet-quote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-quote-api-openapi.yml
+- filename: euronet-recipient-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Recipient API
+  slug: euronet-recipient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-recipient-api-openapi.yml
+- filename: euronet-stats-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Stats API
+  slug: euronet-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-stats-api-openapi.yml
+- filename: euronet-terms-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Terms API
+  slug: euronet-terms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-terms-api-openapi.yml
+- filename: euronet-tradable-rates-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Tradable Rates API
+  slug: euronet-tradable-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-tradable-rates-api-openapi.yml
+- filename: euronet-tradeablecurrency-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Tradeable Currency API
+  slug: euronet-tradeablecurrency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-tradeablecurrency-api-openapi.yml
+- filename: euronet-transaction-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Transaction API
+  slug: euronet-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-transaction-api-openapi.yml
+- filename: euronet-trip-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Trip API
+  slug: euronet-trip-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-trip-api-openapi.yml
+- filename: euronet-user-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide User API
+  slug: euronet-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-user-api-openapi.yml
+- filename: euronet-xeta-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide XETA API
+  slug: euronet-xeta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/openapi/euronet-xeta-api-openapi.yml
 auth_types:
 - apiKey
 - http

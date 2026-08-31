@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: till-payments-gateway.yml
+- filename: till-payments-continue-dcc-api-openapi.yml
   format: yaml
-  label: Till Payments Gateway API
-  slug: till-payments-gateway
+  label: Till Payments Continue Dcc API
+  slug: till-payments-continue-dcc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/openapi/till-payments-gateway.yml
-- filename: till-payments-direct-pci.yml
+  url: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/openapi/till-payments-continue-dcc-api-openapi.yml
+- filename: till-payments-dispute-api-openapi.yml
   format: yaml
-  label: Till Payments Direct PCI-enabled API
-  slug: till-payments-direct-pci
+  label: Till Payments Dispute API
+  slug: till-payments-dispute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/openapi/till-payments-direct-pci.yml
+  url: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/openapi/till-payments-dispute-api-openapi.yml
+- filename: till-payments-options-api-openapi.yml
+  format: yaml
+  label: Till Payments Options API
+  slug: till-payments-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/openapi/till-payments-options-api-openapi.yml
+- filename: till-payments-prepare-transaction-api-openapi.yml
+  format: yaml
+  label: Till Payments Prepare Transaction API
+  slug: till-payments-prepare-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/openapi/till-payments-prepare-transaction-api-openapi.yml
+- filename: till-payments-schedule-api-openapi.yml
+  format: yaml
+  label: Till Payments Schedule API
+  slug: till-payments-schedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/openapi/till-payments-schedule-api-openapi.yml
+- filename: till-payments-status-api-openapi.yml
+  format: yaml
+  label: Till Payments Status API
+  slug: till-payments-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/openapi/till-payments-status-api-openapi.yml
+- filename: till-payments-transaction-api-openapi.yml
+  format: yaml
+  label: Till Payments Transaction API
+  slug: till-payments-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/openapi/till-payments-transaction-api-openapi.yml
 description: ''
 domains:
 - caa: []

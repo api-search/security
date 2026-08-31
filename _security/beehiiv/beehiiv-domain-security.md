@@ -1,161 +1,185 @@
 ---
 api_specs:
-- filename: beehiiv-subpackage-advertisement-opportunities-api-openapi.yml
+- filename: beehiiv-authorizations-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_advertisement_opportunities API
-  slug: beehiiv-subpackage-advertisement-opportunities-api
+  label: beehiiv Authorizations API
+  slug: beehiiv-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-advertisement-opportunities-api-openapi.yml
-- filename: beehiiv-subpackage-authors-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-authorizations-api-openapi.yml
+- filename: beehiiv-tokens-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_authors API
-  slug: beehiiv-subpackage-authors-api
+  label: beehiiv Tokens API
+  slug: beehiiv-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-authors-api-openapi.yml
-- filename: beehiiv-subpackage-automationjourneys-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-tokens-api-openapi.yml
+- filename: beehiiv-webhooks-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_automationJourneys API
-  slug: beehiiv-subpackage-automationjourneys-api
+  label: beehiiv Webhooks API
+  slug: beehiiv-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-automationjourneys-api-openapi.yml
-- filename: beehiiv-subpackage-automations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-webhooks-api-openapi.yml
+- filename: beehiiv-ad-network-offers-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_automations API
-  slug: beehiiv-subpackage-automations-api
+  label: beehiiv Ad Network Offers API
+  slug: beehiiv-ad-network-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-automations-api-openapi.yml
-- filename: beehiiv-subpackage-bulk-subscriptions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-ad-network-offers-api-openapi.yml
+- filename: beehiiv-ad-network-reports-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_bulk_subscriptions API
-  slug: beehiiv-subpackage-bulk-subscriptions-api
+  label: beehiiv Ad Network Reports API
+  slug: beehiiv-ad-network-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-bulk-subscriptions-api-openapi.yml
-- filename: beehiiv-subpackage-bulksubscriptionupdates-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-ad-network-reports-api-openapi.yml
+- filename: beehiiv-advertisement-opportunities-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_bulkSubscriptionUpdates API
-  slug: beehiiv-subpackage-bulksubscriptionupdates-api
+  label: beehiiv Advertisement Opportunities API
+  slug: beehiiv-advertisement-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-bulksubscriptionupdates-api-openapi.yml
-- filename: beehiiv-subpackage-conditionsets-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-advertisement-opportunities-api-openapi.yml
+- filename: beehiiv-authors-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_conditionSets API
-  slug: beehiiv-subpackage-conditionsets-api
+  label: beehiiv Authors API
+  slug: beehiiv-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-conditionsets-api-openapi.yml
-- filename: beehiiv-subpackage-customfields-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-authors-api-openapi.yml
+- filename: beehiiv-automation-journeys-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_customFields API
-  slug: beehiiv-subpackage-customfields-api
+  label: beehiiv Automation Journeys API
+  slug: beehiiv-automation-journeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-customfields-api-openapi.yml
-- filename: beehiiv-subpackage-datadeletion-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-automation-journeys-api-openapi.yml
+- filename: beehiiv-automations-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_dataDeletion API
-  slug: beehiiv-subpackage-datadeletion-api
+  label: beehiiv Automations API
+  slug: beehiiv-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-datadeletion-api-openapi.yml
-- filename: beehiiv-subpackage-engagements-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-automations-api-openapi.yml
+- filename: beehiiv-bulk-subscription-updates-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_engagements API
-  slug: beehiiv-subpackage-engagements-api
+  label: beehiiv Bulk Subscription Updates API
+  slug: beehiiv-bulk-subscription-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-engagements-api-openapi.yml
-- filename: beehiiv-subpackage-newsletterlists-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-bulk-subscription-updates-api-openapi.yml
+- filename: beehiiv-bulk-subscriptions-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_newsletterLists API
-  slug: beehiiv-subpackage-newsletterlists-api
+  label: beehiiv Bulk Subscriptions API
+  slug: beehiiv-bulk-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-newsletterlists-api-openapi.yml
-- filename: beehiiv-subpackage-newsletterlistsubscriptions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-bulk-subscriptions-api-openapi.yml
+- filename: beehiiv-complimentary-access-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_newsletterListSubscriptions API
-  slug: beehiiv-subpackage-newsletterlistsubscriptions-api
+  label: beehiiv Complimentary Access API
+  slug: beehiiv-complimentary-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-newsletterlistsubscriptions-api-openapi.yml
-- filename: beehiiv-subpackage-oauth-users-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-complimentary-access-api-openapi.yml
+- filename: beehiiv-condition-sets-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_oauth_users API
-  slug: beehiiv-subpackage-oauth-users-api
+  label: beehiiv Condition Sets API
+  slug: beehiiv-condition-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-oauth-users-api-openapi.yml
-- filename: beehiiv-subpackage-polls-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-condition-sets-api-openapi.yml
+- filename: beehiiv-custom-fields-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_polls API
-  slug: beehiiv-subpackage-polls-api
+  label: beehiiv Custom Fields API
+  slug: beehiiv-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-polls-api-openapi.yml
-- filename: beehiiv-subpackage-posts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-custom-fields-api-openapi.yml
+- filename: beehiiv-data-deletion-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_posts API
-  slug: beehiiv-subpackage-posts-api
+  label: beehiiv Data Deletion API
+  slug: beehiiv-data-deletion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-posts-api-openapi.yml
-- filename: beehiiv-subpackage-posttemplates-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-data-deletion-api-openapi.yml
+- filename: beehiiv-engagements-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_postTemplates API
-  slug: beehiiv-subpackage-posttemplates-api
+  label: beehiiv Engagements API
+  slug: beehiiv-engagements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-posttemplates-api-openapi.yml
-- filename: beehiiv-subpackage-publications-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-engagements-api-openapi.yml
+- filename: beehiiv-newsletter-list-subscriptions-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_publications API
-  slug: beehiiv-subpackage-publications-api
+  label: beehiiv Newsletter List Subscriptions API
+  slug: beehiiv-newsletter-list-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-publications-api-openapi.yml
-- filename: beehiiv-subpackage-referralprogram-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-newsletter-list-subscriptions-api-openapi.yml
+- filename: beehiiv-newsletter-lists-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_referralProgram API
-  slug: beehiiv-subpackage-referralprogram-api
+  label: beehiiv Newsletter Lists API
+  slug: beehiiv-newsletter-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-referralprogram-api-openapi.yml
-- filename: beehiiv-subpackage-segments-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-newsletter-lists-api-openapi.yml
+- filename: beehiiv-oauth-users-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_segments API
-  slug: beehiiv-subpackage-segments-api
+  label: beehiiv OAUTH Users API
+  slug: beehiiv-oauth-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-segments-api-openapi.yml
-- filename: beehiiv-subpackage-subscriptions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-oauth-users-api-openapi.yml
+- filename: beehiiv-podcasts-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_subscriptions API
-  slug: beehiiv-subpackage-subscriptions-api
+  label: beehiiv Podcasts API
+  slug: beehiiv-podcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-subscriptions-api-openapi.yml
-- filename: beehiiv-subpackage-subscriptiontags-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-podcasts-api-openapi.yml
+- filename: beehiiv-polls-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_subscriptionTags API
-  slug: beehiiv-subpackage-subscriptiontags-api
+  label: beehiiv Polls API
+  slug: beehiiv-polls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-subscriptiontags-api-openapi.yml
-- filename: beehiiv-subpackage-tiers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-polls-api-openapi.yml
+- filename: beehiiv-post-templates-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_tiers API
-  slug: beehiiv-subpackage-tiers-api
+  label: beehiiv Post Templates API
+  slug: beehiiv-post-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-tiers-api-openapi.yml
-- filename: beehiiv-subpackage-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-post-templates-api-openapi.yml
+- filename: beehiiv-posts-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_webhooks API
-  slug: beehiiv-subpackage-webhooks-api
+  label: beehiiv Posts API
+  slug: beehiiv-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-webhooks-api-openapi.yml
-- filename: beehiiv-subpackage-workspaces-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-posts-api-openapi.yml
+- filename: beehiiv-publications-api-openapi.yml
   format: yaml
-  label: beehiiv subpackage_workspaces API
-  slug: beehiiv-subpackage-workspaces-api
+  label: beehiiv Publications API
+  slug: beehiiv-publications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-workspaces-api-openapi.yml
-- filename: beehiiv-oauth2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-publications-api-openapi.yml
+- filename: beehiiv-referral-program-api-openapi.yml
   format: yaml
-  label: beehiiv OAuth2 API
-  slug: beehiiv-oauth2-api
+  label: beehiiv Referral Program API
+  slug: beehiiv-referral-program-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-oauth2-api-openapi.yml
-- filename: beehiiv-webhook-events-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-referral-program-api-openapi.yml
+- filename: beehiiv-segments-api-openapi.yml
   format: yaml
-  label: beehiiv Webhook Events
-  slug: beehiiv-webhook-events-api
+  label: beehiiv Segments API
+  slug: beehiiv-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-webhook-events-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-segments-api-openapi.yml
+- filename: beehiiv-subscription-tags-api-openapi.yml
+  format: yaml
+  label: beehiiv Subscription Tags API
+  slug: beehiiv-subscription-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subscription-tags-api-openapi.yml
+- filename: beehiiv-subscriptions-api-openapi.yml
+  format: yaml
+  label: beehiiv Subscriptions API
+  slug: beehiiv-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subscriptions-api-openapi.yml
+- filename: beehiiv-tiers-api-openapi.yml
+  format: yaml
+  label: beehiiv Tiers API
+  slug: beehiiv-tiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-tiers-api-openapi.yml
+- filename: beehiiv-workspaces-api-openapi.yml
+  format: yaml
+  label: beehiiv Workspaces API
+  slug: beehiiv-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

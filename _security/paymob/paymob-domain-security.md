@@ -1,23 +1,5 @@
 ---
 api_specs:
-- filename: paymob-intentions-api-openapi.yml
-  format: yaml
-  label: Paymob Intentions API
-  slug: paymob-intentions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-intentions-api-openapi.yml
-- filename: paymob-subscriptions-api-openapi.yml
-  format: yaml
-  label: Paymob Subscriptions API
-  slug: paymob-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-subscriptions-api-openapi.yml
-- filename: paymob-card-tokens-api-openapi.yml
-  format: yaml
-  label: Paymob Card Tokens API
-  slug: paymob-card-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-card-tokens-api-openapi.yml
 - filename: paymob-accounts-api-openapi.yml
   format: yaml
   label: Paymob Accounts API
@@ -36,12 +18,6 @@ api_specs:
   slug: paymob-capture-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-capture-api-openapi.yml
-- filename: paymob-checkout-api-openapi.yml
-  format: yaml
-  label: Paymob Checkout API
-  slug: paymob-checkout-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-checkout-api-openapi.yml
 - filename: paymob-disbursement-api-openapi.yml
   format: yaml
   label: Paymob Disbursement API
@@ -72,24 +48,6 @@ api_specs:
   slug: paymob-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-payments-api-openapi.yml
-- filename: paymob-refund-api-openapi.yml
-  format: yaml
-  label: Paymob Refund API
-  slug: paymob-refund-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-refund-api-openapi.yml
-- filename: paymob-saved-card-payments-api-openapi.yml
-  format: yaml
-  label: Paymob Saved Card Payments API
-  slug: paymob-saved-card-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-saved-card-payments-api-openapi.yml
-- filename: paymob-subscription-plans-api-openapi.yml
-  format: yaml
-  label: Paymob Subscription Plans API
-  slug: paymob-subscription-plans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-subscription-plans-api-openapi.yml
 - filename: paymob-topup-api-openapi.yml
   format: yaml
   label: Paymob Topup API
@@ -102,12 +60,6 @@ api_specs:
   slug: paymob-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-transactions-api-openapi.yml
-- filename: paymob-void-api-openapi.yml
-  format: yaml
-  label: Paymob Void API
-  slug: paymob-void-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-void-api-openapi.yml
 description: ''
 domains:
 - caa: []

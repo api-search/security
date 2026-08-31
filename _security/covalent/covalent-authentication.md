@@ -79,12 +79,6 @@ api_specs:
   slug: covalent-pricing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-pricing-api-openapi.yml
-- filename: covalent-queries-api-openapi.yml
-  format: yaml
-  label: Covalent Queries API
-  slug: covalent-queries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-queries-api-openapi.yml
 - filename: covalent-security-api-openapi.yml
   format: yaml
   label: Covalent Security API

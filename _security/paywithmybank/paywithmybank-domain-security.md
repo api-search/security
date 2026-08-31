@@ -66,6 +66,12 @@ api_specs:
   slug: paywithmybank-verifycustomer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-verifycustomer-api-openapi.yml
+- filename: paywithmybank-api-api-openapi.yml
+  format: yaml
+  label: PayWithMyBank (Trustly) API
+  slug: paywithmybank-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

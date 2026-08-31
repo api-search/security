@@ -1,23 +1,5 @@
 ---
 api_specs:
-- filename: losant-application-api-openapi.yml
-  format: yaml
-  label: Losant Application API
-  slug: losant-application-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/openapi/losant-application-api-openapi.yml
-- filename: losant-device-api-openapi.yml
-  format: yaml
-  label: Losant Device API
-  slug: losant-device-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/openapi/losant-device-api-openapi.yml
-- filename: losant-experience-api-openapi.yml
-  format: yaml
-  label: Losant Experience API
-  slug: losant-experience-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/openapi/losant-experience-api-openapi.yml
 - filename: losant-authentication-and-account-api-openapi.yml
   format: yaml
   label: Losant Authentication and Account API

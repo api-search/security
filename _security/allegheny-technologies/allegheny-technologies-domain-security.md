@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Allegheny Technologies Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for allegheny-technologies, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: allegheny-technologies
+overview: 'Domain security posture for Allegheny Technologies Incorporated, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Allegheny Technologies Incorporated
 provider_slug: allegheny-technologies
 slug: allegheny-technologies-domain-security
 source_filename: allegheny-technologies-domain-security.yml

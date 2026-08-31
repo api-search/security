@@ -29,8 +29,8 @@ layout: security
 method: probed
 name: Alexion Pharmaceuticals Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for alexion-pharmaceuticals, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: alexion-pharmaceuticals
+overview: 'Domain security posture for Alexion Pharmaceuticals, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Alexion Pharmaceuticals
 provider_slug: alexion-pharmaceuticals
 slug: alexion-pharmaceuticals-domain-security
 source_filename: alexion-pharmaceuticals-domain-security.yml

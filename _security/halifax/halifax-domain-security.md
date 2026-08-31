@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: openbanking-opendata-standard-swagger.json
-  format: json
-  label: Halifax Open Data ATM Locator API
-  slug: halifax-open-data-atm-locator-api
+- filename: halifax-atm-api-openapi.yml
+  format: yaml
+  label: Halifax ATM API
+  slug: halifax-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/openapi/openbanking-opendata-standard-swagger.json
-- filename: openbanking-opendata-standard-swagger.json
-  format: json
-  label: Halifax Open Data Branch Locator API
-  slug: halifax-open-data-branch-locator-api
+  url: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/openapi/halifax-atm-api-openapi.yml
+- filename: halifax-bca-api-openapi.yml
+  format: yaml
+  label: Halifax BCA API
+  slug: halifax-bca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/openapi/openbanking-opendata-standard-swagger.json
-- filename: openbanking-opendata-standard-swagger.json
-  format: json
-  label: Halifax Open Data Personal Current Accounts API
-  slug: halifax-open-data-personal-current-accounts-api
+  url: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/openapi/halifax-bca-api-openapi.yml
+- filename: halifax-branch-api-openapi.yml
+  format: yaml
+  label: Halifax Branch API
+  slug: halifax-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/openapi/openbanking-opendata-standard-swagger.json
-- filename: openbanking-opendata-standard-swagger.json
-  format: json
-  label: Halifax Open Data Business Current Accounts API
-  slug: halifax-open-data-business-current-accounts-api
+  url: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/openapi/halifax-branch-api-openapi.yml
+- filename: halifax-ccc-api-openapi.yml
+  format: yaml
+  label: Halifax CCC API
+  slug: halifax-ccc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/openapi/openbanking-opendata-standard-swagger.json
-- filename: openbanking-opendata-standard-swagger.json
-  format: json
-  label: Halifax Open Data Unsecured SME Loans API
-  slug: halifax-open-data-unsecured-sme-loans-api
+  url: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/openapi/halifax-ccc-api-openapi.yml
+- filename: halifax-pca-api-openapi.yml
+  format: yaml
+  label: Halifax PCA API
+  slug: halifax-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/openapi/openbanking-opendata-standard-swagger.json
-- filename: openbanking-opendata-standard-swagger.json
-  format: json
-  label: Halifax Open Data Commercial Credit Cards API
-  slug: halifax-open-data-commercial-credit-cards-api
+  url: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/openapi/halifax-pca-api-openapi.yml
+- filename: halifax-sme-api-openapi.yml
+  format: yaml
+  label: Halifax SME API
+  slug: halifax-sme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/openapi/openbanking-opendata-standard-swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/openapi/halifax-sme-api-openapi.yml
 description: ''
 domains:
 - caa: []

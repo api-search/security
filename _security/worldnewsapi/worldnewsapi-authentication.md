@@ -45,6 +45,12 @@ api_specs:
   slug: worldnewsapi-top-news-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/openapi/worldnewsapi-top-news-api-openapi.yml
+- filename: worldnewsapi-news-api-openapi.yml
+  format: yaml
+  label: World News API News API
+  slug: worldnewsapi-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/openapi/worldnewsapi-news-api-openapi.yml
 auth_types:
 - apiKey
 description: World News API uses a single static API key and nothing else. The provider states plainly in its authentication guide that "no OAuth or token refresh is required". The same key authenticates the REST API, the SDKs and the first-party MCP server; there are no scopes, no per-key permissions, no expiry, and no documented rotation policy. Upgraded from derived to searched on 2026-08-13 against the provider's own authentication page and its published OpenAPI 3 document.

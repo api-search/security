@@ -3,12 +3,42 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: carbonfarm-cms-openapi.json
-  format: json
-  label: CarbonFarm CMS Content API
-  slug: carbonfarm-cms-content-api
+- filename: carbonfarm-assets-api-openapi.yml
+  format: yaml
+  label: CarbonFarm Assets API
+  slug: carbonfarm-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbonfarm/refs/heads/main/openapi/carbonfarm-cms-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/carbonfarm/refs/heads/main/openapi/carbonfarm-assets-api-openapi.yml
+- filename: carbonfarm-authentication-api-openapi.yml
+  format: yaml
+  label: CarbonFarm Authentication API
+  slug: carbonfarm-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carbonfarm/refs/heads/main/openapi/carbonfarm-authentication-api-openapi.yml
+- filename: carbonfarm-files-api-openapi.yml
+  format: yaml
+  label: CarbonFarm Files API
+  slug: carbonfarm-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carbonfarm/refs/heads/main/openapi/carbonfarm-files-api-openapi.yml
+- filename: carbonfarm-items-api-openapi.yml
+  format: yaml
+  label: CarbonFarm Items API
+  slug: carbonfarm-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carbonfarm/refs/heads/main/openapi/carbonfarm-items-api-openapi.yml
+- filename: carbonfarm-itemspost-api-openapi.yml
+  format: yaml
+  label: CarbonFarm Items Post API
+  slug: carbonfarm-itemspost-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carbonfarm/refs/heads/main/openapi/carbonfarm-itemspost-api-openapi.yml
+- filename: carbonfarm-server-api-openapi.yml
+  format: yaml
+  label: CarbonFarm Server API
+  slug: carbonfarm-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carbonfarm/refs/heads/main/openapi/carbonfarm-server-api-openapi.yml
 auth_types:
 - apiKey
 - openIdConnect

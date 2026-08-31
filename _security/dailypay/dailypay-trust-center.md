@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: dailypay-rest-openapi-original.yml
+- filename: dailypay-accounts-api-openapi.yml
   format: yaml
-  label: DailyPay Rest API
-  slug: dailypay-rest-api
+  label: DailyPay Accounts API
+  slug: dailypay-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-rest-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-accounts-api-openapi.yml
+- filename: dailypay-card-tokenization-api-openapi.yml
+  format: yaml
+  label: DailyPay Card Tokenization API
+  slug: dailypay-card-tokenization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-card-tokenization-api-openapi.yml
+- filename: dailypay-health-api-openapi.yml
+  format: yaml
+  label: DailyPay Health API
+  slug: dailypay-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-health-api-openapi.yml
+- filename: dailypay-jobs-api-openapi.yml
+  format: yaml
+  label: DailyPay Jobs API
+  slug: dailypay-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-jobs-api-openapi.yml
+- filename: dailypay-organizations-api-openapi.yml
+  format: yaml
+  label: DailyPay Organizations API
+  slug: dailypay-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-organizations-api-openapi.yml
+- filename: dailypay-paychecks-api-openapi.yml
+  format: yaml
+  label: DailyPay Paychecks API
+  slug: dailypay-paychecks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-paychecks-api-openapi.yml
+- filename: dailypay-people-api-openapi.yml
+  format: yaml
+  label: DailyPay People API
+  slug: dailypay-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-people-api-openapi.yml
+- filename: dailypay-transfers-api-openapi.yml
+  format: yaml
+  label: DailyPay Transfers API
+  slug: dailypay-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-transfers-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

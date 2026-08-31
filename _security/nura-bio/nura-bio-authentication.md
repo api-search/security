@@ -1,12 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: nura-bio-content-api-openapi.yml
+- filename: nura-bio-directory-api-openapi.yml
   format: yaml
-  label: Nura Bio Content API
-  slug: nura-bio-content-api
+  label: Nura Bio Directory API
+  slug: nura-bio-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/openapi/nura-bio-content-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/openapi/nura-bio-directory-api-openapi.yml
+- filename: nura-bio-discovery-api-openapi.yml
+  format: yaml
+  label: Nura Bio Discovery API
+  slug: nura-bio-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/openapi/nura-bio-discovery-api-openapi.yml
+- filename: nura-bio-media-api-openapi.yml
+  format: yaml
+  label: Nura Bio Media API
+  slug: nura-bio-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/openapi/nura-bio-media-api-openapi.yml
+- filename: nura-bio-pages-api-openapi.yml
+  format: yaml
+  label: Nura Bio Pages API
+  slug: nura-bio-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/openapi/nura-bio-pages-api-openapi.yml
+- filename: nura-bio-portfolio-api-openapi.yml
+  format: yaml
+  label: Nura Bio Portfolio API
+  slug: nura-bio-portfolio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/openapi/nura-bio-portfolio-api-openapi.yml
+- filename: nura-bio-posts-api-openapi.yml
+  format: yaml
+  label: Nura Bio Posts API
+  slug: nura-bio-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/openapi/nura-bio-posts-api-openapi.yml
+- filename: nura-bio-taxonomy-api-openapi.yml
+  format: yaml
+  label: Nura Bio Taxonomy API
+  slug: nura-bio-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/openapi/nura-bio-taxonomy-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

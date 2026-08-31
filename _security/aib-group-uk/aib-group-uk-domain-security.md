@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: aib-group-uk-open-data-openapi.json
-  format: json
-  label: AIB Group (UK) Open Data API
-  slug: aib-group-uk-open-data-api
+- filename: aib-group-uk-atm-api-openapi.yml
+  format: yaml
+  label: AIB Group (UK) ATM API
+  slug: aib-group-uk-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/openapi/aib-group-uk-open-data-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/openapi/aib-group-uk-atm-api-openapi.yml
+- filename: aib-group-uk-bca-api-openapi.yml
+  format: yaml
+  label: AIB Group (UK) BCA API
+  slug: aib-group-uk-bca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/openapi/aib-group-uk-bca-api-openapi.yml
+- filename: aib-group-uk-branch-api-openapi.yml
+  format: yaml
+  label: AIB Group (UK) Branch API
+  slug: aib-group-uk-branch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/openapi/aib-group-uk-branch-api-openapi.yml
+- filename: aib-group-uk-ccc-api-openapi.yml
+  format: yaml
+  label: AIB Group (UK) CCC API
+  slug: aib-group-uk-ccc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/openapi/aib-group-uk-ccc-api-openapi.yml
+- filename: aib-group-uk-pca-api-openapi.yml
+  format: yaml
+  label: AIB Group (UK) PCA API
+  slug: aib-group-uk-pca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/openapi/aib-group-uk-pca-api-openapi.yml
+- filename: aib-group-uk-sme-api-openapi.yml
+  format: yaml
+  label: AIB Group (UK) SME API
+  slug: aib-group-uk-sme-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/openapi/aib-group-uk-sme-api-openapi.yml
 description: ''
 domains:
 - caa: []

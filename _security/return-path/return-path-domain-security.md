@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: return-path-everest-api-openapi.yml
+- filename: return-path-account-services-api-openapi.yml
   format: yaml
-  label: Everest API
-  slug: everest-api
+  label: Return Path Account Services API
+  slug: return-path-account-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/return-path/refs/heads/main/openapi/return-path-everest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/return-path/refs/heads/main/openapi/return-path-account-services-api-openapi.yml
+- filename: return-path-apps-integrations-api-openapi.yml
+  format: yaml
+  label: Return Path Apps & Integrations API
+  slug: return-path-apps-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/return-path/refs/heads/main/openapi/return-path-apps-integrations-api-openapi.yml
+- filename: return-path-certification-api-openapi.yml
+  format: yaml
+  label: Return Path Certification API
+  slug: return-path-certification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/return-path/refs/heads/main/openapi/return-path-certification-api-openapi.yml
+- filename: return-path-competitive-intel-api-openapi.yml
+  format: yaml
+  label: Return Path Competitive Intel API
+  slug: return-path-competitive-intel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/return-path/refs/heads/main/openapi/return-path-competitive-intel-api-openapi.yml
+- filename: return-path-engagement-api-openapi.yml
+  format: yaml
+  label: Return Path Engagement API
+  slug: return-path-engagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/return-path/refs/heads/main/openapi/return-path-engagement-api-openapi.yml
+- filename: return-path-inbox-placement-api-openapi.yml
+  format: yaml
+  label: Return Path Inbox Placement API
+  slug: return-path-inbox-placement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/return-path/refs/heads/main/openapi/return-path-inbox-placement-api-openapi.yml
+- filename: return-path-infrastructure-dmarc-api-openapi.yml
+  format: yaml
+  label: Return Path Infrastructure (DMARC) API
+  slug: return-path-infrastructure-dmarc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/return-path/refs/heads/main/openapi/return-path-infrastructure-dmarc-api-openapi.yml
+- filename: return-path-legacy-api-1-0-api-openapi.yml
+  format: yaml
+  label: Return Path Legacy API (1.0) API
+  slug: return-path-legacy-api-1-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/return-path/refs/heads/main/openapi/return-path-legacy-api-1-0-api-openapi.yml
+- filename: return-path-list-validation-api-openapi.yml
+  format: yaml
+  label: Return Path List Validation API
+  slug: return-path-list-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/return-path/refs/heads/main/openapi/return-path-list-validation-api-openapi.yml
+- filename: return-path-reputation-api-openapi.yml
+  format: yaml
+  label: Return Path Reputation API
+  slug: return-path-reputation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/return-path/refs/heads/main/openapi/return-path-reputation-api-openapi.yml
+- filename: return-path-view-time-optimization-api-openapi.yml
+  format: yaml
+  label: Return Path View Time Optimization API
+  slug: return-path-view-time-optimization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/return-path/refs/heads/main/openapi/return-path-view-time-optimization-api-openapi.yml
 description: ''
 domains:
 - caa: []

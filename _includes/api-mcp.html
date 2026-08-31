@@ -6,6 +6,12 @@
   wholesale AND PRUNES anything the network does not have, so a per-site copy would be deleted on
   the next bootstrap run.
 
+  SELF-CONTAINED STYLING (2026-08-30). This block used to reuse `.card-grid` / `.item-card`, which
+  only providers/_layouts/provider.html ever defines — on the other 37 sections the four cards fell
+  back to unstyled block divs and stacked into four full-width rows with a stray left border. The
+  CSS now ships WITH the include under an `apimcp-` prefix so the toolbar renders the same wherever
+  it is included, and cannot be repainted by (or repaint) a host layout's own card classes.
+
   Ten sections have no collection endpoint on the v1 API. Their entry carries no `collection` and
   a `no_collection_note` instead — this template must never print a curl for a path that 404s.
 
@@ -18,71 +24,102 @@
 {%- if sec -%}
 {%- assign slug = page.slug | default: page.name | default: '' -%}
 
+<style>
+  /* One row of options, not four stacked blocks. align-items:start so opening a
+     <details> grows only its own card instead of stretching every sibling. */
+  .apimcp-bar { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 0.75rem; margin: 1rem 0 0; }
+  /* flex over a fixed 4-column grid: two of the four cards are conditional, and a
+     grid would leave a hole in the row on the sections that render three or two. */
+  .apimcp-card { flex: 1 1 220px; min-width: 0; background: #fff; border: 1px solid #e3e7ee; border-left: 3px solid var(--apimcp-accent, #6c757d); border-radius: 10px; padding: 0.9rem 1rem; }
+  .apimcp-card h4 { font-size: 0.9rem; font-weight: 700; color: #1a1a2e; margin: 0 0 0.35rem; }
+  .apimcp-card p { font-size: 0.78rem; line-height: 1.4; color: #6c757d; margin: 0; }
+  .apimcp-card p + p, .apimcp-card > * + p { margin-top: 0.5rem; }
+  .apimcp-card code { font-size: 0.72rem; word-break: break-all; }
+  .apimcp-card summary { font-size: 0.78rem; color: #0d6efd; font-weight: 600; cursor: pointer; }
+  .apimcp-card summary:hover { text-decoration: underline; }
+  .apimcp-card details { margin-top: 0.15rem; }
+  .apimcp-card ul { list-style: none; padding: 0; margin: 0.5rem 0 0; font-size: 0.78rem; }
+  .apimcp-card ul li { margin-bottom: 0.5rem; }
+  .apimcp-card ul li span { display: block; color: #6c757d; }
+  .apimcp-card pre { background: #f6f8fa; border: 1px solid #e3e7ee; border-radius: 6px; padding: 0.5rem; margin: 0; white-space: pre-wrap; word-break: break-all; }
+  .apimcp-curl { margin-top: 0.6rem; }
+  .apimcp-curl .apimcp-label { display: block; font-size: 0.72rem; color: #6c757d; margin-bottom: 0.25rem; }
+  .apimcp-link { display: inline-block; margin-top: 0.55rem; font-size: 0.78rem; font-weight: 600; color: #0d6efd; text-decoration: none; }
+  .apimcp-link:hover { text-decoration: underline; }
+  /* Three auth providers side by side keeps this card the same height as the
+     others; stacked buttons were what made the row ragged. */
+  .apimcp-auth { display: flex; gap: 0.4rem; margin-top: 0.15rem; }
+  .apimcp-auth a { flex: 1 1 0; min-width: 0; display: inline-flex; align-items: center; justify-content: center; gap: 0.3rem; padding: 0.35rem 0.4rem; border: 1px solid #d7dce5; border-radius: 6px; background: #fff; color: #4a5568; font-size: 0.72rem; font-weight: 600; text-decoration: none; }
+  .apimcp-auth a:hover { border-color: #0d6efd; color: #0d6efd; }
+  .apimcp-auth svg { flex: none; }
+  @media (max-width: 575.98px) { .apimcp-card { flex-basis: 100%; } }
+</style>
+
 <h2 class="section-anchor" id="api-mcp"><a href="#api-mcp">Work with this as data</a></h2>
 <p class="section-blurb">
   Every {{ sec.noun }} here is available over the APIs.io API and to AI agents over MCP.
   {%- if sec.no_collection_note %} {{ sec.no_collection_note }}{%- endif -%}
 </p>
 
-<div class="card-grid">
+<div class="apimcp-bar">
 
-  <div class="item-card" style="border-left: 3px solid #3098d8;">
+  <div class="apimcp-card" style="--apimcp-accent: #3098d8;">
     <h4>MCP server</h4>
-    <p class="text-muted small mb-2">One button, every client — Claude, Cursor, VS Code and the rest.</p>
+    <p>One button, every client — Claude, Cursor, VS Code and the rest.</p>
     <script src="https://install.apicommons.org/button.js" async></script>
     <mcp-install-button server="{{ S.server_json }}" label="Install the MCP server" color="#3098d8"></mcp-install-button>
-    <p class="text-muted small mb-0 mt-2"><code>{{ S.mcp }}</code></p>
+    <p><code>{{ S.mcp }}</code></p>
   </div>
 
   {%- if sec.tools and sec.tools.size > 0 %}
-  <div class="item-card" style="border-left: 3px solid #6d28d9;">
+  <div class="apimcp-card" style="--apimcp-accent: #6d28d9;">
     <h4>Tools for {{ sec.label | downcase }}</h4>
     <details>
-      <summary class="small text-muted" style="cursor:pointer;">{{ sec.tools.size }} MCP tools reach this</summary>
-      <ul class="list-unstyled small mt-2 mb-0">
+      <summary>{{ sec.tools.size }} MCP tools reach this</summary>
+      <ul>
         {%- for t in sec.tools %}
-        <li class="mb-2"><code>{{ t.name }}</code>{% if t.about %}<span class="d-block text-muted">{{ t.about }}</span>{% endif %}</li>
+        <li><code>{{ t.name }}</code>{% if t.about %}<span>{{ t.about }}</span>{% endif %}</li>
         {%- endfor %}
       </ul>
     </details>
-    <a href="{{ S.docs }}mcp-server/" class="btn btn-sm btn-outline-secondary mt-2">All 92 tools</a>
+    <a href="{{ S.docs }}mcp-server/" class="apimcp-link">All 92 tools &rarr;</a>
   </div>
   {%- endif -%}
 
   {%- if sec.curl and sec.curl.size > 0 %}
-  <div class="item-card" style="border-left: 3px solid #198754;">
+  <div class="apimcp-card" style="--apimcp-accent: #198754;">
     <h4>Call it yourself</h4>
     <details>
-      <summary class="small text-muted" style="cursor:pointer;">curl for this page</summary>
+      <summary>curl for this page</summary>
       {%- for c in sec.curl %}
-      <div class="mt-2">
-        <span class="text-muted small d-block mb-1">{{ c.label }}</span>
-        <pre class="small mb-0" style="white-space:pre-wrap;word-break:break-all;"><code>{{ c.cmd | replace: '__SLUG__', slug }}</code></pre>
+      <div class="apimcp-curl">
+        <span class="apimcp-label">{{ c.label }}</span>
+        <pre><code>{{ c.cmd | replace: '__SLUG__', slug }}</code></pre>
       </div>
       {%- endfor %}
     </details>
-    <p class="text-muted small mb-0 mt-2">Discovery needs no key. Ratings and market analysis are Pro.</p>
+    <p>Discovery needs no key. Ratings and market analysis are Pro.</p>
   </div>
   {%- endif -%}
 
-  <div class="item-card" style="border-left: 3px solid #6c757d;">
+  <div class="apimcp-card" style="--apimcp-accent: #6c757d;">
     <h4>Get an API key</h4>
-    <p class="text-muted small mb-2">Free tier, no email required.</p>
-    <div class="d-flex flex-column gap-2">
-      <a href="{{ S.api_base }}/auth/login?provider=github" class="btn btn-sm btn-outline-secondary d-flex align-items-center justify-content-center gap-2">
-        <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+    <p>Free tier, no email required.</p>
+    <div class="apimcp-auth">
+      <a href="{{ S.api_base }}/auth/login?provider=github">
+        <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
         <span>GitHub</span>
       </a>
-      <a href="{{ S.api_base }}/auth/login?provider=google" class="btn btn-sm btn-outline-secondary d-flex align-items-center justify-content-center gap-2">
-        <svg viewBox="0 0 18 18" width="16" height="16" aria-hidden="true"><path fill="#4285F4" d="M17.64 9.2c0-.64-.06-1.25-.16-1.84H9v3.48h4.84a4.14 4.14 0 0 1-1.8 2.72v2.26h2.92c1.7-1.57 2.68-3.88 2.68-6.62Z"/><path fill="#34A853" d="M9 18c2.43 0 4.47-.8 5.96-2.18l-2.92-2.26c-.81.54-1.84.86-3.04.86-2.34 0-4.32-1.58-5.03-3.7H.96v2.33A9 9 0 0 0 9 18Z"/><path fill="#FBBC05" d="M3.97 10.72a5.41 5.41 0 0 1 0-3.44V4.95H.96a9 9 0 0 0 0 8.1l3.01-2.33Z"/><path fill="#EA4335" d="M9 3.58c1.32 0 2.5.45 3.44 1.35l2.58-2.58C13.46.89 11.43 0 9 0A9 9 0 0 0 .96 4.95l3.01 2.33C4.68 5.16 6.66 3.58 9 3.58Z"/></svg>
+      <a href="{{ S.api_base }}/auth/login?provider=google">
+        <svg viewBox="0 0 18 18" width="14" height="14" aria-hidden="true"><path fill="#4285F4" d="M17.64 9.2c0-.64-.06-1.25-.16-1.84H9v3.48h4.84a4.14 4.14 0 0 1-1.8 2.72v2.26h2.92c1.7-1.57 2.68-3.88 2.68-6.62Z"/><path fill="#34A853" d="M9 18c2.43 0 4.47-.8 5.96-2.18l-2.92-2.26c-.81.54-1.84.86-3.04.86-2.34 0-4.32-1.58-5.03-3.7H.96v2.33A9 9 0 0 0 9 18Z"/><path fill="#FBBC05" d="M3.97 10.72a5.41 5.41 0 0 1 0-3.44V4.95H.96a9 9 0 0 0 0 8.1l3.01-2.33Z"/><path fill="#EA4335" d="M9 3.58c1.32 0 2.5.45 3.44 1.35l2.58-2.58C13.46.89 11.43 0 9 0A9 9 0 0 0 .96 4.95l3.01 2.33C4.68 5.16 6.66 3.58 9 3.58Z"/></svg>
         <span>Google</span>
       </a>
-      <a href="{{ S.api_base }}/auth/login?provider=linkedin" class="btn btn-sm btn-outline-secondary d-flex align-items-center justify-content-center gap-2">
-        <svg viewBox="0 0 24 24" width="16" height="16" fill="#0A66C2" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0Z"/></svg>
+      <a href="{{ S.api_base }}/auth/login?provider=linkedin">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="#0A66C2" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0Z"/></svg>
         <span>LinkedIn</span>
       </a>
     </div>
-    <p class="text-muted small mb-0 mt-2">A second provider on the same verified email joins the account you already have.</p>
+    <p>A second provider on the same verified email joins the account you already have.</p>
   </div>
 
 </div>

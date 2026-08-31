@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: steadfast-group-flood-risk-tracker-openapi.yml
+- filename: steadfast-group-address-api-openapi.yml
   format: yaml
-  label: Steadfast Flood Risk Tracker API
-  slug: flood-risk-tracker
+  label: Steadfast Group Address API
+  slug: steadfast-group-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadfast-group/refs/heads/main/openapi/steadfast-group-flood-risk-tracker-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/steadfast-group/refs/heads/main/openapi/steadfast-group-address-api-openapi.yml
+- filename: steadfast-group-risk-api-openapi.yml
+  format: yaml
+  label: Steadfast Group Risk API
+  slug: steadfast-group-risk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steadfast-group/refs/heads/main/openapi/steadfast-group-risk-api-openapi.yml
 description: ''
 domains:
 - caa: []

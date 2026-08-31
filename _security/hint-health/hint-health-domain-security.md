@@ -294,6 +294,114 @@ api_specs:
   slug: hint-health-webhookendpoint-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-webhookendpoint-api-openapi.yml
+- filename: hint-health-affiliateancillarycharge-api-openapi.yml
+  format: yaml
+  label: Hint Health Affiliate Ancillary Charge API
+  slug: hint-health-affiliateancillarycharge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-affiliateancillarycharge-api-openapi.yml
+- filename: hint-health-apikey-api-openapi.yml
+  format: yaml
+  label: Hint Health API Key API
+  slug: hint-health-apikey-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-apikey-api-openapi.yml
+- filename: hint-health-app-api-openapi.yml
+  format: yaml
+  label: Hint Health App API
+  slug: hint-health-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-app-api-openapi.yml
+- filename: hint-health-appointment-api-openapi.yml
+  format: yaml
+  label: Hint Health Appointment API
+  slug: hint-health-appointment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-appointment-api-openapi.yml
+- filename: hint-health-appsurface-api-openapi.yml
+  format: yaml
+  label: Hint Health App Surface API
+  slug: hint-health-appsurface-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-appsurface-api-openapi.yml
+- filename: hint-health-backend-api-openapi.yml
+  format: yaml
+  label: Hint Health Backend API
+  slug: hint-health-backend-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-backend-api-openapi.yml
+- filename: hint-health-installation-api-openapi.yml
+  format: yaml
+  label: Hint Health Installation API
+  slug: hint-health-installation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-installation-api-openapi.yml
+- filename: hint-health-installationapikeys-api-openapi.yml
+  format: yaml
+  label: Hint Health Installation API Keys API
+  slug: hint-health-installationapikeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-installationapikeys-api-openapi.yml
+- filename: hint-health-installationwebhookendpoints-api-openapi.yml
+  format: yaml
+  label: Hint Health Installation Webhook Endpoints API
+  slug: hint-health-installationwebhookendpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-installationwebhookendpoints-api-openapi.yml
+- filename: hint-health-partnerproducthighlight-api-openapi.yml
+  format: yaml
+  label: Hint Health Partner Product Highlight API
+  slug: hint-health-partnerproducthighlight-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-partnerproducthighlight-api-openapi.yml
+- filename: hint-health-partnerproductlink-api-openapi.yml
+  format: yaml
+  label: Hint Health Partner Product Link API
+  slug: hint-health-partnerproductlink-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-partnerproductlink-api-openapi.yml
+- filename: hint-health-partnerproductoverview-api-openapi.yml
+  format: yaml
+  label: Hint Health Partner Product Overview API
+  slug: hint-health-partnerproductoverview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-partnerproductoverview-api-openapi.yml
+- filename: hint-health-partnerproductprecondition-api-openapi.yml
+  format: yaml
+  label: Hint Health Partner Product Precondition API
+  slug: hint-health-partnerproductprecondition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-partnerproductprecondition-api-openapi.yml
+- filename: hint-health-product-api-openapi.yml
+  format: yaml
+  label: Hint Health Product API
+  slug: hint-health-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-product-api-openapi.yml
+- filename: hint-health-productcategory-api-openapi.yml
+  format: yaml
+  label: Hint Health Product Category API
+  slug: hint-health-productcategory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-productcategory-api-openapi.yml
+- filename: hint-health-testimonial-api-openapi.yml
+  format: yaml
+  label: Hint Health Testimonial API
+  slug: hint-health-testimonial-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-testimonial-api-openapi.yml
+- filename: hint-health-webhookevent-api-openapi.yml
+  format: yaml
+  label: Hint Health Webhook Event API
+  slug: hint-health-webhookevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-webhookevent-api-openapi.yml
+- filename: hint-health-webhookrequest-api-openapi.yml
+  format: yaml
+  label: Hint Health Webhook Request API
+  slug: hint-health-webhookrequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-webhookrequest-api-openapi.yml
 description: ''
 domains:
 - caa:

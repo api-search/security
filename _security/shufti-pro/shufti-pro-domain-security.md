@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: shufti-pro-status-api-openapi.yml
+  format: yaml
+  label: Shufti Pro Status API
+  slug: shufti-pro-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/openapi/shufti-pro-status-api-openapi.yml
+- filename: shufti-pro-verification-api-openapi.yml
+  format: yaml
+  label: Shufti Pro Verification API
+  slug: shufti-pro-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/openapi/shufti-pro-verification-api-openapi.yml
 description: ''
 domains:
 - caa: []

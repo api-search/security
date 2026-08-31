@@ -1,0 +1,793 @@
+---
+api_specs:
+- filename: confluent-acls-api-openapi.yml
+  format: yaml
+  label: Confluent ACLs API
+  slug: confluent-acls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-acls-api-openapi.yml
+- filename: confluent-api-keys-api-openapi.yml
+  format: yaml
+  label: Confluent API Keys API
+  slug: confluent-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-api-keys-api-openapi.yml
+- filename: confluent-clusters-api-openapi.yml
+  format: yaml
+  label: Confluent Clusters API
+  slug: confluent-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-clusters-api-openapi.yml
+- filename: confluent-consumer-groups-api-openapi.yml
+  format: yaml
+  label: Confluent Consumer Groups API
+  slug: confluent-consumer-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-consumer-groups-api-openapi.yml
+- filename: confluent-environments-api-openapi.yml
+  format: yaml
+  label: Confluent Environments API
+  slug: confluent-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-environments-api-openapi.yml
+- filename: confluent-partitions-api-openapi.yml
+  format: yaml
+  label: Confluent Partitions API
+  slug: confluent-partitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-partitions-api-openapi.yml
+- filename: confluent-service-accounts-api-openapi.yml
+  format: yaml
+  label: Confluent Service Accounts API
+  slug: confluent-service-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-service-accounts-api-openapi.yml
+- filename: confluent-topics-api-openapi.yml
+  format: yaml
+  label: Confluent Topics API
+  slug: confluent-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-topics-api-openapi.yml
+- filename: confluent-access-points-networking-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Access Points (networking/v1) API
+  slug: confluent-access-points-networking-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-access-points-networking-v1-api-openapi.yml
+- filename: confluent-acl-v3-api-openapi.yml
+  format: yaml
+  label: Confluent ACL (v3) API
+  slug: confluent-acl-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-acl-v3-api-openapi.yml
+- filename: confluent-agents-sql-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Agents (sql/v1) API
+  slug: confluent-agents-sql-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-agents-sql-v1-api-openapi.yml
+- filename: confluent-api-keys-iam-v2-api-openapi.yml
+  format: yaml
+  label: Confluent API Keys (iam/v2) API
+  slug: confluent-api-keys-iam-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-api-keys-iam-v2-api-openapi.yml
+- filename: confluent-applied-quotas-service-quota-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Applied Quotas (service-quota/v1) API
+  slug: confluent-applied-quotas-service-quota-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-applied-quotas-service-quota-v1-api-openapi.yml
+- filename: confluent-catalog-integrations-tableflow-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Catalog Integrations (tableflow/v1) API
+  slug: confluent-catalog-integrations-tableflow-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-catalog-integrations-tableflow-v1-api-openapi.yml
+- filename: confluent-certificate-authorities-iam-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Certificate Authorities (iam/v2) API
+  slug: confluent-certificate-authorities-iam-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-certificate-authorities-iam-v2-api-openapi.yml
+- filename: confluent-certificate-identity-pools-iam-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Certificate Identity Pools (iam/v2) API
+  slug: confluent-certificate-identity-pools-iam-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-certificate-identity-pools-iam-v2-api-openapi.yml
+- filename: confluent-client-quotas-kafka-quotas-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Client Quotas (kafka-quotas/v1) API
+  slug: confluent-client-quotas-kafka-quotas-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-client-quotas-kafka-quotas-v1-api-openapi.yml
+- filename: confluent-cluster-linking-v3-api-openapi.yml
+  format: yaml
+  label: Confluent Cluster Linking (v3) API
+  slug: confluent-cluster-linking-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-cluster-linking-v3-api-openapi.yml
+- filename: confluent-cluster-v3-api-openapi.yml
+  format: yaml
+  label: Confluent Cluster (v3) API
+  slug: confluent-cluster-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-cluster-v3-api-openapi.yml
+- filename: confluent-clusters-cmk-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Clusters (cmk/v2) API
+  slug: confluent-clusters-cmk-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-clusters-cmk-v2-api-openapi.yml
+- filename: confluent-clusters-ksqldbcm-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Clusters (ksqldbcm/v2) API
+  slug: confluent-clusters-ksqldbcm-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-clusters-ksqldbcm-v2-api-openapi.yml
+- filename: confluent-clusters-srcm-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Clusters (srcm/v2) API
+  slug: confluent-clusters-srcm-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-clusters-srcm-v2-api-openapi.yml
+- filename: confluent-clusters-srcm-v3-api-openapi.yml
+  format: yaml
+  label: Confluent Clusters (srcm/v3) API
+  slug: confluent-clusters-srcm-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-clusters-srcm-v3-api-openapi.yml
+- filename: confluent-compatibility-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Compatibility (v1) API
+  slug: confluent-compatibility-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-compatibility-v1-api-openapi.yml
+- filename: confluent-compute-pools-fcpm-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Compute Pools (fcpm/v2) API
+  slug: confluent-compute-pools-fcpm-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-compute-pools-fcpm-v2-api-openapi.yml
+- filename: confluent-config-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Config (v1) API
+  slug: confluent-config-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-config-v1-api-openapi.yml
+- filename: confluent-configs-v3-api-openapi.yml
+  format: yaml
+  label: Confluent Configs (v3) API
+  slug: confluent-configs-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-configs-v3-api-openapi.yml
+- filename: confluent-connect-artifacts-cam-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Connect Artifacts (cam/v1) API
+  slug: confluent-connect-artifacts-cam-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-connect-artifacts-cam-v1-api-openapi.yml
+- filename: confluent-connect-clusters-usm-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Connect Clusters (usm/v1) API
+  slug: confluent-connect-clusters-usm-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-connect-clusters-usm-v1-api-openapi.yml
+- filename: confluent-connections-sql-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Connections (sql/v1) API
+  slug: confluent-connections-sql-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-connections-sql-v1-api-openapi.yml
+- filename: confluent-connectors-connect-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Connectors (connect/v1) API
+  slug: confluent-connectors-connect-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-connectors-connect-v1-api-openapi.yml
+- filename: confluent-consumer-group-v3-api-openapi.yml
+  format: yaml
+  label: Confluent Consumer Group (v3) API
+  slug: confluent-consumer-group-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-consumer-group-v3-api-openapi.yml
+- filename: confluent-consumer-shared-resources-cdx-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Consumer Shared Resources (cdx/v1) API
+  slug: confluent-consumer-shared-resources-cdx-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-consumer-shared-resources-cdx-v1-api-openapi.yml
+- filename: confluent-consumer-shares-cdx-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Consumer Shares (cdx/v1) API
+  slug: confluent-consumer-shares-cdx-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-consumer-shares-cdx-v1-api-openapi.yml
+- filename: confluent-contexts-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Contexts (v1) API
+  slug: confluent-contexts-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-contexts-v1-api-openapi.yml
+- filename: confluent-costs-billing-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Costs (billing/v1) API
+  slug: confluent-costs-billing-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-costs-billing-v1-api-openapi.yml
+- filename: confluent-custom-code-loggings-ccl-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Custom Code Loggings (ccl/v1) API
+  slug: confluent-custom-code-loggings-ccl-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-custom-code-loggings-ccl-v1-api-openapi.yml
+- filename: confluent-custom-connect-plugin-versions-ccpm-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Custom Connect Plugin Versions (ccpm/v1) API
+  slug: confluent-custom-connect-plugin-versions-ccpm-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-custom-connect-plugin-versions-ccpm-v1-api-openapi.yml
+- filename: confluent-custom-connect-plugins-ccpm-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Custom Connect Plugins (ccpm/v1) API
+  slug: confluent-custom-connect-plugins-ccpm-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-custom-connect-plugins-ccpm-v1-api-openapi.yml
+- filename: confluent-custom-connector-plugins-connect-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Custom Connector Plugins (connect/v1) API
+  slug: confluent-custom-connector-plugins-connect-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-custom-connector-plugins-connect-v1-api-openapi.yml
+- filename: confluent-custom-connector-runtimes-connect-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Custom Connector Runtimes (connect/v1) API
+  slug: confluent-custom-connector-runtimes-connect-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-custom-connector-runtimes-connect-v1-api-openapi.yml
+- filename: confluent-data-encryption-keys-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Data Encryption Keys (v1) API
+  slug: confluent-data-encryption-keys-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-data-encryption-keys-v1-api-openapi.yml
+- filename: confluent-dns-forwarders-networking-v1-api-openapi.yml
+  format: yaml
+  label: Confluent DNS Forwarders (networking/v1) API
+  slug: confluent-dns-forwarders-networking-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-dns-forwarders-networking-v1-api-openapi.yml
+- filename: confluent-dns-records-networking-v1-api-openapi.yml
+  format: yaml
+  label: Confluent DNS Records (networking/v1) API
+  slug: confluent-dns-records-networking-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-dns-records-networking-v1-api-openapi.yml
+- filename: confluent-endpoints-endpoint-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Endpoints (endpoint/v1) API
+  slug: confluent-endpoints-endpoint-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-endpoints-endpoint-v1-api-openapi.yml
+- filename: confluent-entitlements-partner-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Entitlements (partner/v2) API
+  slug: confluent-entitlements-partner-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-entitlements-partner-v2-api-openapi.yml
+- filename: confluent-entity-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Entity (v1) API
+  slug: confluent-entity-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-entity-v1-api-openapi.yml
+- filename: confluent-environments-org-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Environments (org/v2) API
+  slug: confluent-environments-org-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-environments-org-v2-api-openapi.yml
+- filename: confluent-exporters-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Exporters (v1) API
+  slug: confluent-exporters-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-exporters-v1-api-openapi.yml
+- filename: confluent-flink-artifacts-artifact-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Flink Artifacts (artifact/v1) API
+  slug: confluent-flink-artifacts-artifact-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-flink-artifacts-artifact-v1-api-openapi.yml
+- filename: confluent-gateways-networking-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Gateways (networking/v1) API
+  slug: confluent-gateways-networking-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-gateways-networking-v1-api-openapi.yml
+- filename: confluent-group-mappings-iam-v2-sso-api-openapi.yml
+  format: yaml
+  label: Confluent Group Mappings (iam/v2/sso) API
+  slug: confluent-group-mappings-iam-v2-sso-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-group-mappings-iam-v2-sso-api-openapi.yml
+- filename: confluent-identity-pools-iam-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Identity Pools (iam/v2) API
+  slug: confluent-identity-pools-iam-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-identity-pools-iam-v2-api-openapi.yml
+- filename: confluent-identity-providers-iam-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Identity Providers (iam/v2) API
+  slug: confluent-identity-providers-iam-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-identity-providers-iam-v2-api-openapi.yml
+- filename: confluent-integrations-notifications-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Integrations (notifications/v1) API
+  slug: confluent-integrations-notifications-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-integrations-notifications-v1-api-openapi.yml
+- filename: confluent-integrations-pim-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Integrations (pim/v1) API
+  slug: confluent-integrations-pim-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-integrations-pim-v1-api-openapi.yml
+- filename: confluent-integrations-pim-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Integrations (pim/v2) API
+  slug: confluent-integrations-pim-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-integrations-pim-v2-api-openapi.yml
+- filename: confluent-invitations-iam-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Invitations (iam/v2) API
+  slug: confluent-invitations-iam-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-invitations-iam-v2-api-openapi.yml
+- filename: confluent-ip-addresses-networking-v1-api-openapi.yml
+  format: yaml
+  label: Confluent IP Addresses (networking/v1) API
+  slug: confluent-ip-addresses-networking-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-ip-addresses-networking-v1-api-openapi.yml
+- filename: confluent-ip-filter-summaries-iam-v2-api-openapi.yml
+  format: yaml
+  label: Confluent IP Filter Summaries (iam/v2) API
+  slug: confluent-ip-filter-summaries-iam-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-ip-filter-summaries-iam-v2-api-openapi.yml
+- filename: confluent-ip-filters-iam-v2-api-openapi.yml
+  format: yaml
+  label: Confluent IP Filters (iam/v2) API
+  slug: confluent-ip-filters-iam-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-ip-filters-iam-v2-api-openapi.yml
+- filename: confluent-ip-groups-iam-v2-api-openapi.yml
+  format: yaml
+  label: Confluent IP Groups (iam/v2) API
+  slug: confluent-ip-groups-iam-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-ip-groups-iam-v2-api-openapi.yml
+- filename: confluent-jwks-iam-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Jwks (iam/v2) API
+  slug: confluent-jwks-iam-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-jwks-iam-v2-api-openapi.yml
+- filename: confluent-kafka-clusters-usm-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Kafka Clusters (usm/v1) API
+  slug: confluent-kafka-clusters-usm-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-kafka-clusters-usm-v1-api-openapi.yml
+- filename: confluent-key-encryption-keys-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Key Encryption Keys (v1) API
+  slug: confluent-key-encryption-keys-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-key-encryption-keys-v1-api-openapi.yml
+- filename: confluent-keys-byok-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Keys (byok/v1) API
+  slug: confluent-keys-byok-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-keys-byok-v1-api-openapi.yml
+- filename: confluent-lifecycle-connect-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Lifecycle (connect/v1) API
+  slug: confluent-lifecycle-connect-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-lifecycle-connect-v1-api-openapi.yml
+- filename: confluent-managed-connector-plugins-connect-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Managed Connector Plugins (connect/v1) API
+  slug: confluent-managed-connector-plugins-connect-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-managed-connector-plugins-connect-v1-api-openapi.yml
+- filename: confluent-materialized-table-versions-sql-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Materialized Table Versions (sql/v1) API
+  slug: confluent-materialized-table-versions-sql-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-materialized-table-versions-sql-v1-api-openapi.yml
+- filename: confluent-materialized-tables-sql-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Materialized Tables (sql/v1) API
+  slug: confluent-materialized-tables-sql-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-materialized-tables-sql-v1-api-openapi.yml
+- filename: confluent-modes-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Modes (v1) API
+  slug: confluent-modes-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-modes-v1-api-openapi.yml
+- filename: confluent-network-link-endpoints-networking-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Network Link Endpoints (networking/v1) API
+  slug: confluent-network-link-endpoints-networking-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-network-link-endpoints-networking-v1-api-openapi.yml
+- filename: confluent-network-link-service-associations-networking-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Network Link Service Associations (networking/v1) API
+  slug: confluent-network-link-service-associations-networking-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-network-link-service-associations-networking-v1-api-openapi.yml
+- filename: confluent-network-link-services-networking-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Network Link Services (networking/v1) API
+  slug: confluent-network-link-services-networking-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-network-link-services-networking-v1-api-openapi.yml
+- filename: confluent-networks-networking-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Networks (networking/v1) API
+  slug: confluent-networks-networking-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-networks-networking-v1-api-openapi.yml
+- filename: confluent-notification-types-notifications-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Notification Types (notifications/v1) API
+  slug: confluent-notification-types-notifications-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-notification-types-notifications-v1-api-openapi.yml
+- filename: confluent-oauth-tokens-sts-v1-api-openapi.yml
+  format: yaml
+  label: Confluent OAuth Tokens (sts/v1) API
+  slug: confluent-oauth-tokens-sts-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-oauth-tokens-sts-v1-api-openapi.yml
+- filename: confluent-offsets-connect-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Offsets (connect/v1) API
+  slug: confluent-offsets-connect-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-offsets-connect-v1-api-openapi.yml
+- filename: confluent-opt-ins-cdx-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Opt Ins (cdx/v1) API
+  slug: confluent-opt-ins-cdx-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-opt-ins-cdx-v1-api-openapi.yml
+- filename: confluent-org-compute-pool-configs-fcpm-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Org Compute Pool Configs (fcpm/v2) API
+  slug: confluent-org-compute-pool-configs-fcpm-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-org-compute-pool-configs-fcpm-v2-api-openapi.yml
+- filename: confluent-organizations-org-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Organizations (org/v2) API
+  slug: confluent-organizations-org-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-organizations-org-v2-api-openapi.yml
+- filename: confluent-organizations-partner-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Organizations (partner/v2) API
+  slug: confluent-organizations-partner-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-organizations-partner-v2-api-openapi.yml
+- filename: confluent-partition-v3-api-openapi.yml
+  format: yaml
+  label: Confluent Partition (v3) API
+  slug: confluent-partition-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-partition-v3-api-openapi.yml
+- filename: confluent-peerings-networking-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Peerings (networking/v1) API
+  slug: confluent-peerings-networking-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-peerings-networking-v1-api-openapi.yml
+- filename: confluent-presigned-urls-artifact-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Presigned Urls (artifact/v1) API
+  slug: confluent-presigned-urls-artifact-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-presigned-urls-artifact-v1-api-openapi.yml
+- filename: confluent-presigned-urls-cam-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Presigned Urls (cam/v1) API
+  slug: confluent-presigned-urls-cam-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-presigned-urls-cam-v1-api-openapi.yml
+- filename: confluent-presigned-urls-ccpm-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Presigned Urls (ccpm/v1) API
+  slug: confluent-presigned-urls-ccpm-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-presigned-urls-ccpm-v1-api-openapi.yml
+- filename: confluent-presigned-urls-connect-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Presigned Urls (connect/v1) API
+  slug: confluent-presigned-urls-connect-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-presigned-urls-connect-v1-api-openapi.yml
+- filename: confluent-private-link-accesses-networking-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Private Link Accesses (networking/v1) API
+  slug: confluent-private-link-accesses-networking-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-private-link-accesses-networking-v1-api-openapi.yml
+- filename: confluent-private-link-attachment-connections-networking-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Private Link Attachment Connections (networking/v1) API
+  slug: confluent-private-link-attachment-connections-networking-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-private-link-attachment-connections-networking-v1-api-openapi.yml
+- filename: confluent-private-link-attachments-networking-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Private Link Attachments (networking/v1) API
+  slug: confluent-private-link-attachments-networking-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-private-link-attachments-networking-v1-api-openapi.yml
+- filename: confluent-provider-shared-resources-cdx-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Provider Shared Resources (cdx/v1) API
+  slug: confluent-provider-shared-resources-cdx-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-provider-shared-resources-cdx-v1-api-openapi.yml
+- filename: confluent-provider-shares-cdx-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Provider Shares (cdx/v1) API
+  slug: confluent-provider-shares-cdx-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-provider-shares-cdx-v1-api-openapi.yml
+- filename: confluent-records-v3-api-openapi.yml
+  format: yaml
+  label: Confluent Records (v3) API
+  slug: confluent-records-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-records-v3-api-openapi.yml
+- filename: confluent-regions-fcpm-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Regions (fcpm/v2) API
+  slug: confluent-regions-fcpm-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-regions-fcpm-v2-api-openapi.yml
+- filename: confluent-regions-rtce-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Regions (rtce/v1) API
+  slug: confluent-regions-rtce-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-regions-rtce-v1-api-openapi.yml
+- filename: confluent-regions-srcm-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Regions (srcm/v2) API
+  slug: confluent-regions-srcm-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-regions-srcm-v2-api-openapi.yml
+- filename: confluent-regions-tableflow-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Regions (tableflow/v1) API
+  slug: confluent-regions-tableflow-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-regions-tableflow-v1-api-openapi.yml
+- filename: confluent-resource-preferences-notifications-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Resource Preferences (notifications/v1) API
+  slug: confluent-resource-preferences-notifications-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-resource-preferences-notifications-v1-api-openapi.yml
+- filename: confluent-resource-subscriptions-notifications-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Resource Subscriptions (notifications/v1) API
+  slug: confluent-resource-subscriptions-notifications-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-resource-subscriptions-notifications-v1-api-openapi.yml
+- filename: confluent-role-bindings-iam-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Role Bindings (iam/v2) API
+  slug: confluent-role-bindings-iam-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-role-bindings-iam-v2-api-openapi.yml
+- filename: confluent-rtce-topics-rtce-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Rtce Topics (rtce/v1) API
+  slug: confluent-rtce-topics-rtce-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-rtce-topics-rtce-v1-api-openapi.yml
+- filename: confluent-schemas-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Schemas (v1) API
+  slug: confluent-schemas-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-schemas-v1-api-openapi.yml
+- filename: confluent-scopes-service-quota-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Scopes (service-quota/v1) API
+  slug: confluent-scopes-service-quota-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-scopes-service-quota-v1-api-openapi.yml
+- filename: confluent-search-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Search (v1) API
+  slug: confluent-search-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-search-v1-api-openapi.yml
+- filename: confluent-service-accounts-iam-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Service Accounts (iam/v2) API
+  slug: confluent-service-accounts-iam-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-service-accounts-iam-v2-api-openapi.yml
+- filename: confluent-share-group-v3-api-openapi.yml
+  format: yaml
+  label: Confluent Share Group (v3) API
+  slug: confluent-share-group-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-share-group-v3-api-openapi.yml
+- filename: confluent-shared-tokens-cdx-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Shared Tokens (cdx/v1) API
+  slug: confluent-shared-tokens-cdx-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-shared-tokens-cdx-v1-api-openapi.yml
+- filename: confluent-signup-partner-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Signup (partner/v2) API
+  slug: confluent-signup-partner-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-signup-partner-v2-api-openapi.yml
+- filename: confluent-statement-exceptions-sql-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Statement Exceptions (sql/v1) API
+  slug: confluent-statement-exceptions-sql-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-statement-exceptions-sql-v1-api-openapi.yml
+- filename: confluent-statement-results-sql-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Statement Results (sql/v1) API
+  slug: confluent-statement-results-sql-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-statement-results-sql-v1-api-openapi.yml
+- filename: confluent-statements-query-v1alpha1-api-openapi.yml
+  format: yaml
+  label: Confluent Statements (query/v1alpha1) API
+  slug: confluent-statements-query-v1alpha1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-statements-query-v1alpha1-api-openapi.yml
+- filename: confluent-statements-sql-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Statements (sql/v1) API
+  slug: confluent-statements-sql-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-statements-sql-v1-api-openapi.yml
+- filename: confluent-status-connect-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Status (connect/v1) API
+  slug: confluent-status-connect-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-status-connect-v1-api-openapi.yml
+- filename: confluent-streams-group-v3-api-openapi.yml
+  format: yaml
+  label: Confluent Streams Group (v3) API
+  slug: confluent-streams-group-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-streams-group-v3-api-openapi.yml
+- filename: confluent-subjects-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Subjects (v1) API
+  slug: confluent-subjects-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-subjects-v1-api-openapi.yml
+- filename: confluent-subscriptions-notifications-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Subscriptions (notifications/v1) API
+  slug: confluent-subscriptions-notifications-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-subscriptions-notifications-v1-api-openapi.yml
+- filename: confluent-tableflow-topics-tableflow-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Tableflow Topics (tableflow/v1) API
+  slug: confluent-tableflow-topics-tableflow-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-tableflow-topics-tableflow-v1-api-openapi.yml
+- filename: confluent-tools-sql-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Tools (sql/v1) API
+  slug: confluent-tools-sql-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-tools-sql-v1-api-openapi.yml
+- filename: confluent-topic-v3-api-openapi.yml
+  format: yaml
+  label: Confluent Topic (v3) API
+  slug: confluent-topic-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-topic-v3-api-openapi.yml
+- filename: confluent-transit-gateway-attachments-networking-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Transit Gateway Attachments (networking/v1) API
+  slug: confluent-transit-gateway-attachments-networking-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-transit-gateway-attachments-networking-v1-api-openapi.yml
+- filename: confluent-types-v1-api-openapi.yml
+  format: yaml
+  label: Confluent Types (v1) API
+  slug: confluent-types-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-types-v1-api-openapi.yml
+- filename: confluent-user-notifications-notifications-v1-api-openapi.yml
+  format: yaml
+  label: Confluent User Notifications (notifications/v1) API
+  slug: confluent-user-notifications-notifications-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-user-notifications-notifications-v1-api-openapi.yml
+- filename: confluent-users-iam-v2-api-openapi.yml
+  format: yaml
+  label: Confluent Users (iam/v2) API
+  slug: confluent-users-iam-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-users-iam-v2-api-openapi.yml
+- filename: confluent-version-2-api-openapi.yml
+  format: yaml
+  label: Confluent Version 2 API
+  slug: confluent-version-2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-version-2-api-openapi.yml
+certifications:
+- SOC 1 Type 2
+- SOC 2 Type 2
+- SOC 3
+- ISO 27001
+- ISO 27701
+- PCI DSS
+- CSA STAR Level 2
+- TISAX
+description: Confluent publishes a trust and security page carrying named third-party attestations, with a request path for the reports that are not public downloads.
+kind: trust-center
+layout: security
+name: Confluent Trust Center
+name_suffix: Trust Center
+overview: Confluent maintains a public trust center documenting SOC 1 Type 2, SOC 2 Type 2, SOC 3, ISO 27001, ISO 27701, PCI DSS, CSA STAR Level 2, and TISAX compliance.
+provider_name: Confluent
+provider_slug: confluent
+slug: confluent-trust-center
+source_filename: confluent-trust-center.yml
+source_heading: Trust Center
+source_url: ''
+source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: https://www.confluent.io/trust-and-security/\nhttp_status: 200\nverified: '2026-08-27'\ndescription: >-\n  Confluent publishes a trust and security page carrying named third-party attestations, with a\n  request path for the reports that are not public downloads.\ntrust_center:\n  url: https://www.confluent.io/trust-and-security/\n  name: Trust and Compliance\n  statement: >-\n    \"Compliance is built into our platform and processes and verified by independent third\n    parties.\"\ncertifications:\n  - name: SOC 1 Type 2\n    description: >-\n      Focuses on user entities' internal control over financial reporting. Offered for\n      Confluent Cloud and Confluent Platform.\n    access: request\n  - name: SOC 2 Type 2\n    description: >-\n      Non-financial reporting controls for security, availability and confidentiality. Offered\n      for Confluent Cloud and Confluent Platform.\n    access: request\n  - name: SOC 3\n\
+  \    description: General use report covering security, availability and confidentiality.\n    access: public download\n  - name: ISO 27001\n    description: Information security management. Certificate and Statement of Applicability published.\n    access: public download\n  - name: ISO 27701\n    description: >-\n      ISO/IEC 27701:2019 — international framework for managing privacy information in relation\n      to the processing of personal data.\n  - name: PCI DSS\n    description: Attestation of Compliance (AOC) available on request.\n    access: request\n  - name: CSA STAR Level 2\n    description: >-\n      Cloud Security Alliance STAR registry, Level 2. CSA's self-assessment tool is referenced\n      on the page.\n  - name: TISAX\n    description: Automotive-sector information security assessment exchange.\nreadiness_programs:\n  - {name: GDPR Readiness, description: 'Confluent is committed to supporting customers in their GDPR compliance efforts.'}\n  - {name: HIPAA Readiness}\n\
+  \  - {name: Financial Services Regulation Compliance}\nsecurity_contact:\n  email: security@confluent.io\n  security_txt: https://www.confluent.io/.well-known/security.txt\n  policy: https://www.confluent.io/trust-and-security/\nsee_also:\n  - security/confluent-vulnerability-disclosure.yml\n  - security/confluent-domain-security.yml\n  - conformance/confluent-conformance.yml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/security/confluent-trust-center.yml
+summary_line: SOC 1 Type 2, SOC 2 Type 2, SOC 3, ISO 27001, ISO 27701, PCI DSS, CSA STAR Level 2, TISAX
+tags:
+- Data Streaming
+- Apache Kafka
+- Event Streaming
+- Stream Processing
+- Schema Registry
+- Apache Flink
+- Data Integration
+- Connectors
+- Data Governance
+- Real-Time Data
+- Messaging
+- Cloud Infrastructure
+trust_url: ''
+---

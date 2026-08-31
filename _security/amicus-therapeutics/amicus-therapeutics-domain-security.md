@@ -24,8 +24,8 @@ layout: security
 method: probed
 name: Amicus Therapeutics Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for amicus-therapeutics, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: amicus-therapeutics
+overview: 'Domain security posture for Amicus Therapeutics, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Amicus Therapeutics
 provider_slug: amicus-therapeutics
 slug: amicus-therapeutics-domain-security
 source_filename: amicus-therapeutics-domain-security.yml

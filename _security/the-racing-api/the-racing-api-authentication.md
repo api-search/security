@@ -7,12 +7,6 @@ api_specs:
   slug: the-racing-api-australia-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/openapi/the-racing-api-australia-api-openapi.yml
-- filename: the-racing-api-basic-plan-api-openapi.yml
-  format: yaml
-  label: The Racing API Basic Plan API
-  slug: the-racing-api-basic-plan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/openapi/the-racing-api-basic-plan-api-openapi.yml
 - filename: the-racing-api-courses-api-openapi.yml
   format: yaml
   label: The Racing API Courses API
@@ -31,12 +25,6 @@ api_specs:
   slug: the-racing-api-damsires-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/openapi/the-racing-api-damsires-api-openapi.yml
-- filename: the-racing-api-free-plan-api-openapi.yml
-  format: yaml
-  label: The Racing API Free Plan API
-  slug: the-racing-api-free-plan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/openapi/the-racing-api-free-plan-api-openapi.yml
 - filename: the-racing-api-horses-api-openapi.yml
   format: yaml
   label: The Racing API Horses API
@@ -91,12 +79,6 @@ api_specs:
   slug: the-racing-api-sires-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/openapi/the-racing-api-sires-api-openapi.yml
-- filename: the-racing-api-standard-plan-api-openapi.yml
-  format: yaml
-  label: The Racing API Standard Plan API
-  slug: the-racing-api-standard-plan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/openapi/the-racing-api-standard-plan-api-openapi.yml
 - filename: the-racing-api-trainers-api-openapi.yml
   format: yaml
   label: The Racing API Trainers API

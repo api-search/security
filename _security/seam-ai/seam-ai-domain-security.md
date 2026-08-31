@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: seam-ai-enrichment-openapi.json
-  format: json
-  label: Seam AI Enrichment API
-  slug: seam-ai-enrichment-api
+- filename: seam-ai-completions-api-openapi.yml
+  format: yaml
+  label: Seam AI Completions API
+  slug: seam-ai-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/openapi/seam-ai-enrichment-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/openapi/seam-ai-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

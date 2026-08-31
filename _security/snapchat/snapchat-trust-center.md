@@ -1,77 +1,17 @@
 ---
 api_specs:
-- filename: snapchat-ads-api-openapi.yml
-  format: yaml
-  label: Snapchat Ads API
-  slug: snapchat-ads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-ads-api-openapi.yml
-- filename: snapchat-ad-accounts-api-openapi.yml
-  format: yaml
-  label: Snapchat Ad Accounts API
-  slug: snapchat-ad-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-ad-accounts-api-openapi.yml
-- filename: snapchat-ad-squads-api-openapi.yml
-  format: yaml
-  label: Snapchat Ad Squads API
-  slug: snapchat-ad-squads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-ad-squads-api-openapi.yml
-- filename: snapchat-audience-segments-api-openapi.yml
-  format: yaml
-  label: Snapchat Audience Segments API
-  slug: snapchat-audience-segments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-audience-segments-api-openapi.yml
-- filename: snapchat-campaigns-api-openapi.yml
-  format: yaml
-  label: Snapchat Campaigns API
-  slug: snapchat-campaigns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-campaigns-api-openapi.yml
 - filename: snapchat-conversion-events-api-openapi.yml
   format: yaml
   label: Snapchat Conversion Events API
   slug: snapchat-conversion-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-conversion-events-api-openapi.yml
-- filename: snapchat-creatives-api-openapi.yml
-  format: yaml
-  label: Snapchat Creatives API
-  slug: snapchat-creatives-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-creatives-api-openapi.yml
-- filename: snapchat-funding-sources-api-openapi.yml
-  format: yaml
-  label: Snapchat Funding Sources API
-  slug: snapchat-funding-sources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-funding-sources-api-openapi.yml
-- filename: snapchat-measurement-api-openapi.yml
-  format: yaml
-  label: Snapchat Measurement API
-  slug: snapchat-measurement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-measurement-api-openapi.yml
-- filename: snapchat-media-api-openapi.yml
-  format: yaml
-  label: Snapchat Media API
-  slug: snapchat-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-media-api-openapi.yml
 - filename: snapchat-oauth-api-openapi.yml
   format: yaml
   label: Snapchat OAuth API
   slug: snapchat-oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-oauth-api-openapi.yml
-- filename: snapchat-organizations-api-openapi.yml
-  format: yaml
-  label: Snapchat Organizations API
-  slug: snapchat-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-organizations-api-openapi.yml
 - filename: snapchat-user-profile-api-openapi.yml
   format: yaml
   label: Snapchat User Profile API

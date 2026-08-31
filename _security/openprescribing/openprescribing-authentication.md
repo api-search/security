@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openprescribing-openapi.yml
+- filename: openprescribing-spending-api-openapi.yml
   format: yaml
-  label: OpenPrescribing API
-  slug: openprescribing-openapi
+  label: OpenPrescribing Spending API
+  slug: openprescribing-spending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-spending-api-openapi.yml
+- filename: openprescribing-measures-api-openapi.yml
+  format: yaml
+  label: OpenPrescribing Measures API
+  slug: openprescribing-measures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-measures-api-openapi.yml
+- filename: openprescribing-measures-api-openapi.yml
+  format: yaml
+  label: OpenPrescribing Measures API
+  slug: openprescribing-measures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-measures-api-openapi.yml
+- filename: openprescribing-reference-api-openapi.yml
+  format: yaml
+  label: OpenPrescribing Reference API
+  slug: openprescribing-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-reference-api-openapi.yml
+- filename: openprescribing-spending-api-openapi.yml
+  format: yaml
+  label: OpenPrescribing Spending API
+  slug: openprescribing-spending-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-spending-api-openapi.yml
+- filename: openprescribing-tariff-api-openapi.yml
+  format: yaml
+  label: OpenPrescribing Tariff API
+  slug: openprescribing-tariff-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-tariff-api-openapi.yml
 auth_types:
 - none
 description: ''

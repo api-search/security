@@ -58,8 +58,8 @@ method: derived
 name: Osisoft Pi Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: osisoft-pi secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: osisoft-pi
+overview: OSIsoft PI System secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: OSIsoft PI System
 provider_slug: osisoft-pi
 scheme_count: 2
 schemes:

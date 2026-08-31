@@ -42,6 +42,18 @@ api_specs:
   slug: captions-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-videos-api-openapi.yml
+- filename: captions-ai-ads-api-openapi.yml
+  format: yaml
+  label: Captions AI Ads API
+  slug: captions-ai-ads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-ai-ads-api-openapi.yml
+- filename: captions-ai-creator-api-openapi.yml
+  format: yaml
+  label: Captions AI Creator API
+  slug: captions-ai-creator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-ai-creator-api-openapi.yml
 description: ''
 domains:
 - caa: []

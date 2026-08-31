@@ -1,12 +1,96 @@
 ---
 api_key_in: []
 api_specs:
-- filename: loopio-openapi.yaml
+- filename: loopio-asynchronous-api-openapi.yml
   format: yaml
-  label: Loopio Public API v2
-  slug: loopio-public-api-v2
+  label: Loopio Asynchronous API
+  slug: loopio-asynchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-asynchronous-api-openapi.yml
+- filename: loopio-crm-api-openapi.yml
+  format: yaml
+  label: Loopio CRM API
+  slug: loopio-crm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-crm-api-openapi.yml
+- filename: loopio-custom-project-fields-api-openapi.yml
+  format: yaml
+  label: Loopio Custom Project Fields API
+  slug: loopio-custom-project-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-custom-project-fields-api-openapi.yml
+- filename: loopio-customers-api-openapi.yml
+  format: yaml
+  label: Loopio Customers API
+  slug: loopio-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-customers-api-openapi.yml
+- filename: loopio-files-api-openapi.yml
+  format: yaml
+  label: Loopio Files API
+  slug: loopio-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-files-api-openapi.yml
+- filename: loopio-library-entries-api-openapi.yml
+  format: yaml
+  label: Loopio Library Entries API
+  slug: loopio-library-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-library-entries-api-openapi.yml
+- filename: loopio-merge-variables-api-openapi.yml
+  format: yaml
+  label: Loopio Merge Variables API
+  slug: loopio-merge-variables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-merge-variables-api-openapi.yml
+- filename: loopio-project-templates-api-openapi.yml
+  format: yaml
+  label: Loopio Project Templates API
+  slug: loopio-project-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-project-templates-api-openapi.yml
+- filename: loopio-projects-api-openapi.yml
+  format: yaml
+  label: Loopio Projects API
+  slug: loopio-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-projects-api-openapi.yml
+- filename: loopio-roles-api-openapi.yml
+  format: yaml
+  label: Loopio Roles API
+  slug: loopio-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-roles-api-openapi.yml
+- filename: loopio-stacks-api-openapi.yml
+  format: yaml
+  label: Loopio Stacks API
+  slug: loopio-stacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-stacks-api-openapi.yml
+- filename: loopio-tags-api-openapi.yml
+  format: yaml
+  label: Loopio Tags API
+  slug: loopio-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-tags-api-openapi.yml
+- filename: loopio-teams-api-openapi.yml
+  format: yaml
+  label: Loopio Teams API
+  slug: loopio-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-teams-api-openapi.yml
+- filename: loopio-users-api-openapi.yml
+  format: yaml
+  label: Loopio Users API
+  slug: loopio-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-users-api-openapi.yml
+- filename: loopio-webhooks-api-openapi.yml
+  format: yaml
+  label: Loopio Webhooks API
+  slug: loopio-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

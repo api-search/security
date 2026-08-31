@@ -117,12 +117,6 @@ api_specs:
   slug: yext-publisher-disruptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-publisher-disruptions-api-openapi.yml
-- filename: yext-publisher-notify-review-api-openapi.yml
-  format: yaml
-  label: Yext Webhooks API
-  slug: yext-publisher-notify-review-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-publisher-notify-review-api-openapi.yml
 - filename: yext-reviews-api-openapi.yml
   format: yaml
   label: Yext Reviews API
@@ -141,12 +135,6 @@ api_specs:
   slug: yext-suggestions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-suggestions-api-openapi.yml
-- filename: yext-webhooks-openapi.yml
-  format: yaml
-  label: Yext Webhooks
-  slug: yext-webhooks-openapi
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-webhooks-openapi.yml
 auth_types:
 - apiKey
 - http

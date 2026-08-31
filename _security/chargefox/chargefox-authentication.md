@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: chargefox-fleets-api-openapi.json
-  format: json
+- filename: chargefox-fleets-api-openapi.yml
+  format: yaml
   label: Chargefox Fleets API
   slug: chargefox-fleets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/openapi/chargefox-fleets-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/openapi/chargefox-fleets-api-openapi.yml
 auth_types:
 - http
 - custom

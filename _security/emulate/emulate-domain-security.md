@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: emulate-content-api-openapi.yml
+- filename: emulate-discovery-api-openapi.yml
   format: yaml
-  label: Emulate Content REST API
-  slug: content-api
+  label: Emulate Discovery API
+  slug: emulate-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emulate/refs/heads/main/openapi/emulate-content-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emulate/refs/heads/main/openapi/emulate-discovery-api-openapi.yml
+- filename: emulate-forms-api-openapi.yml
+  format: yaml
+  label: Emulate Forms API
+  slug: emulate-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emulate/refs/heads/main/openapi/emulate-forms-api-openapi.yml
+- filename: emulate-jobs-api-openapi.yml
+  format: yaml
+  label: Emulate Jobs API
+  slug: emulate-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emulate/refs/heads/main/openapi/emulate-jobs-api-openapi.yml
+- filename: emulate-news-api-openapi.yml
+  format: yaml
+  label: Emulate News API
+  slug: emulate-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emulate/refs/heads/main/openapi/emulate-news-api-openapi.yml
+- filename: emulate-posts-api-openapi.yml
+  format: yaml
+  label: Emulate Posts API
+  slug: emulate-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emulate/refs/heads/main/openapi/emulate-posts-api-openapi.yml
+- filename: emulate-resources-api-openapi.yml
+  format: yaml
+  label: Emulate Resources API
+  slug: emulate-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emulate/refs/heads/main/openapi/emulate-resources-api-openapi.yml
+- filename: emulate-support-api-openapi.yml
+  format: yaml
+  label: Emulate Support API
+  slug: emulate-support-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emulate/refs/heads/main/openapi/emulate-support-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: ucsf-profiles-json-openapi.yml
+- filename: ucsf-documents-api-openapi.yml
   format: yaml
-  label: UCSF Profiles JSON API
-  slug: profiles-json
+  label: University of California, San Francisco Documents API
+  slug: ucsf-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/openapi/ucsf-profiles-json-openapi.yml
-- filename: ucsf-industry-documents-solr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/openapi/ucsf-documents-api-openapi.yml
+- filename: ucsf-profiles-api-openapi.yml
   format: yaml
-  label: UCSF Industry Documents Library Solr API
-  slug: industry-documents-solr
+  label: University of California, San Francisco Profiles API
+  slug: ucsf-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/openapi/ucsf-industry-documents-solr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/openapi/ucsf-profiles-api-openapi.yml
 description: ''
 domains:
 - caa: []

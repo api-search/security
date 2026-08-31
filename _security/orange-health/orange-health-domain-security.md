@@ -18,6 +18,12 @@ api_specs:
   slug: orange-health-serviceability-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/openapi/orange-health-serviceability-api-openapi.yml
+- filename: orange-health-orange-health-partner-api-api-openapi.yml
+  format: yaml
+  label: Orange Health Orange Health Partner API
+  slug: orange-health-orange-health-partner-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/openapi/orange-health-orange-health-partner-api-api-openapi.yml
 description: ''
 domains:
 - caa:

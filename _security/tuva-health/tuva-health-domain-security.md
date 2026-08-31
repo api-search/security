@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: tuva-health-empi-openapi.yml
+- filename: tuva-health-config-api-openapi.yml
   format: yaml
-  label: Tuva EMPI API
-  slug: tuva-empi
+  label: Tuva Health Config API
+  slug: tuva-health-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/openapi/tuva-health-empi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/openapi/tuva-health-config-api-openapi.yml
+- filename: tuva-health-data-sources-api-openapi.yml
+  format: yaml
+  label: Tuva Health Data Sources API
+  slug: tuva-health-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/openapi/tuva-health-data-sources-api-openapi.yml
+- filename: tuva-health-health-check-api-openapi.yml
+  format: yaml
+  label: Tuva Health Health Check API
+  slug: tuva-health-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/openapi/tuva-health-health-check-api-openapi.yml
+- filename: tuva-health-matches-api-openapi.yml
+  format: yaml
+  label: Tuva Health Matches API
+  slug: tuva-health-matches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/openapi/tuva-health-matches-api-openapi.yml
+- filename: tuva-health-person-records-api-openapi.yml
+  format: yaml
+  label: Tuva Health Person Records API
+  slug: tuva-health-person-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/openapi/tuva-health-person-records-api-openapi.yml
+- filename: tuva-health-persons-api-openapi.yml
+  format: yaml
+  label: Tuva Health Persons API
+  slug: tuva-health-persons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/openapi/tuva-health-persons-api-openapi.yml
+- filename: tuva-health-potential-matches-api-openapi.yml
+  format: yaml
+  label: Tuva Health Potential Matches API
+  slug: tuva-health-potential-matches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/openapi/tuva-health-potential-matches-api-openapi.yml
+- filename: tuva-health-users-api-openapi.yml
+  format: yaml
+  label: Tuva Health Users API
+  slug: tuva-health-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/openapi/tuva-health-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

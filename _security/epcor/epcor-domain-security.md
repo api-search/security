@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: epcor-outages-arcgis-openapi.yml
+- filename: epcor-boundaries-api-openapi.yml
   format: yaml
-  label: EPCOR Public Outage and Service Area Feature Services (ArcGIS REST)
-  slug: epcor-outages-arcgis
+  label: EPCOR Boundaries API
+  slug: epcor-boundaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/openapi/epcor-outages-arcgis-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/openapi/epcor-boundaries-api-openapi.yml
+- filename: epcor-catalog-api-openapi.yml
+  format: yaml
+  label: EPCOR Catalog API
+  slug: epcor-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/openapi/epcor-catalog-api-openapi.yml
+- filename: epcor-infrastructure-api-openapi.yml
+  format: yaml
+  label: EPCOR Infrastructure API
+  slug: epcor-infrastructure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/openapi/epcor-infrastructure-api-openapi.yml
+- filename: epcor-power-outages-api-openapi.yml
+  format: yaml
+  label: EPCOR Power Outages API
+  slug: epcor-power-outages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/openapi/epcor-power-outages-api-openapi.yml
+- filename: epcor-service-areas-api-openapi.yml
+  format: yaml
+  label: EPCOR Service Areas API
+  slug: epcor-service-areas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/openapi/epcor-service-areas-api-openapi.yml
+- filename: epcor-us-water-outages-api-openapi.yml
+  format: yaml
+  label: EPCOR Us Water Outages API
+  slug: epcor-us-water-outages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/openapi/epcor-us-water-outages-api-openapi.yml
+- filename: epcor-water-outages-api-openapi.yml
+  format: yaml
+  label: EPCOR Water Outages API
+  slug: epcor-water-outages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/openapi/epcor-water-outages-api-openapi.yml
 description: ''
 domains:
 - caa: []

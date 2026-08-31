@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: landcor-property-api-openapi.json
-  format: json
-  label: Landcor Property API
+- filename: landcor-avm-summary-api-openapi.yml
+  format: yaml
+  label: Landcor Data AVM Summary API
+  slug: landcor-avm-summary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/openapi/landcor-avm-summary-api-openapi.yml
+- filename: landcor-comparables-api-openapi.yml
+  format: yaml
+  label: Landcor Data Comparables API
+  slug: landcor-comparables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/openapi/landcor-comparables-api-openapi.yml
+- filename: landcor-health-api-openapi.yml
+  format: yaml
+  label: Landcor Data Health API
+  slug: landcor-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/openapi/landcor-health-api-openapi.yml
+- filename: landcor-property-api-openapi.yml
+  format: yaml
+  label: Landcor Data Property API
   slug: landcor-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/openapi/landcor-property-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/openapi/landcor-property-api-openapi.yml
+- filename: landcor-valuation-api-openapi.yml
+  format: yaml
+  label: Landcor Data Valuation API
+  slug: landcor-valuation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/openapi/landcor-valuation-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,305 +1,299 @@
 ---
 api_specs:
-- filename: getresponse-open-api-original.json
-  format: json
-  label: GetResponse API v3
-  slug: rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/_original/getresponse-open-api-original.json
-- filename: getresponse-a-b-tests-openapi.yml
+- filename: getresponse-a-b-tests-api-openapi.yml
   format: yaml
   label: GetResponse A/B tests API
-  slug: getresponse-a-b-tests
+  slug: getresponse-a-b-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-a-b-tests-openapi.yml
-- filename: getresponse-a-b-tests-subject-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-a-b-tests-api-openapi.yml
+- filename: getresponse-a-b-tests-subject-api-openapi.yml
   format: yaml
   label: GetResponse A/B tests - subject API
-  slug: getresponse-a-b-tests-subject
+  slug: getresponse-a-b-tests-subject-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-a-b-tests-subject-openapi.yml
-- filename: getresponse-accounts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-a-b-tests-subject-api-openapi.yml
+- filename: getresponse-accounts-api-openapi.yml
   format: yaml
   label: GetResponse Accounts API
-  slug: getresponse-accounts
+  slug: getresponse-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-accounts-openapi.yml
-- filename: getresponse-addresses-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-accounts-api-openapi.yml
+- filename: getresponse-addresses-api-openapi.yml
   format: yaml
   label: GetResponse Addresses API
-  slug: getresponse-addresses
+  slug: getresponse-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-addresses-openapi.yml
-- filename: getresponse-autoresponders-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-addresses-api-openapi.yml
+- filename: getresponse-autoresponders-api-openapi.yml
   format: yaml
   label: GetResponse Autoresponders API
-  slug: getresponse-autoresponders
+  slug: getresponse-autoresponders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-autoresponders-openapi.yml
-- filename: getresponse-campaigns-lists-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-autoresponders-api-openapi.yml
+- filename: getresponse-campaigns-lists-api-openapi.yml
   format: yaml
   label: GetResponse Campaigns (Lists) API
-  slug: getresponse-campaigns-lists
+  slug: getresponse-campaigns-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-campaigns-lists-openapi.yml
-- filename: getresponse-carts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-campaigns-lists-api-openapi.yml
+- filename: getresponse-carts-api-openapi.yml
   format: yaml
   label: GetResponse Carts API
-  slug: getresponse-carts
+  slug: getresponse-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-carts-openapi.yml
-- filename: getresponse-categories-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-carts-api-openapi.yml
+- filename: getresponse-categories-api-openapi.yml
   format: yaml
   label: GetResponse Categories API
-  slug: getresponse-categories
+  slug: getresponse-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-categories-openapi.yml
-- filename: getresponse-click-tracks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-categories-api-openapi.yml
+- filename: getresponse-click-tracks-api-openapi.yml
   format: yaml
   label: GetResponse Click Tracks API
-  slug: getresponse-click-tracks
+  slug: getresponse-click-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-click-tracks-openapi.yml
-- filename: getresponse-contacts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-click-tracks-api-openapi.yml
+- filename: getresponse-contacts-api-openapi.yml
   format: yaml
   label: GetResponse Contacts API
-  slug: getresponse-contacts
+  slug: getresponse-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-contacts-openapi.yml
-- filename: getresponse-custom-events-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-contacts-api-openapi.yml
+- filename: getresponse-custom-events-api-openapi.yml
   format: yaml
   label: GetResponse Custom Events API
-  slug: getresponse-custom-events
+  slug: getresponse-custom-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-custom-events-openapi.yml
-- filename: getresponse-custom-fields-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-custom-events-api-openapi.yml
+- filename: getresponse-custom-fields-api-openapi.yml
   format: yaml
   label: GetResponse Custom Fields API
-  slug: getresponse-custom-fields
+  slug: getresponse-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-custom-fields-openapi.yml
-- filename: getresponse-custom-reports-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-custom-fields-api-openapi.yml
+- filename: getresponse-custom-reports-api-openapi.yml
   format: yaml
   label: GetResponse Custom Reports API
-  slug: getresponse-custom-reports
+  slug: getresponse-custom-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-custom-reports-openapi.yml
-- filename: getresponse-ecommerce-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-custom-reports-api-openapi.yml
+- filename: getresponse-ecommerce-api-openapi.yml
   format: yaml
   label: GetResponse Ecommerce API
-  slug: getresponse-ecommerce
+  slug: getresponse-ecommerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-ecommerce-openapi.yml
-- filename: getresponse-file-library-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-ecommerce-api-openapi.yml
+- filename: getresponse-file-library-api-openapi.yml
   format: yaml
   label: GetResponse File Library API
-  slug: getresponse-file-library
+  slug: getresponse-file-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-file-library-openapi.yml
-- filename: getresponse-form-and-popup-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-file-library-api-openapi.yml
+- filename: getresponse-form-and-popup-api-openapi.yml
   format: yaml
   label: GetResponse Form and Popup API
-  slug: getresponse-form-and-popup
+  slug: getresponse-form-and-popup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-form-and-popup-openapi.yml
-- filename: getresponse-forms-openapi.yml
-  format: yaml
-  label: GetResponse Forms API
-  slug: getresponse-forms
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-forms-openapi.yml
-- filename: getresponse-forms-and-popups-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-form-and-popup-api-openapi.yml
+- filename: getresponse-forms-and-popups-api-openapi.yml
   format: yaml
   label: GetResponse Forms and Popups API
-  slug: getresponse-forms-and-popups
+  slug: getresponse-forms-and-popups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-forms-and-popups-openapi.yml
-- filename: getresponse-from-fields-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-forms-and-popups-api-openapi.yml
+- filename: getresponse-forms-api-openapi.yml
+  format: yaml
+  label: GetResponse Forms API
+  slug: getresponse-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-forms-api-openapi.yml
+- filename: getresponse-from-fields-api-openapi.yml
   format: yaml
   label: GetResponse From Fields API
-  slug: getresponse-from-fields
+  slug: getresponse-from-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-from-fields-openapi.yml
-- filename: getresponse-gdpr-fields-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-from-fields-api-openapi.yml
+- filename: getresponse-gdpr-fields-api-openapi.yml
   format: yaml
   label: GetResponse GDPR Fields API
-  slug: getresponse-gdpr-fields
+  slug: getresponse-gdpr-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-gdpr-fields-openapi.yml
-- filename: getresponse-imports-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-gdpr-fields-api-openapi.yml
+- filename: getresponse-imports-api-openapi.yml
   format: yaml
   label: GetResponse Imports API
-  slug: getresponse-imports
+  slug: getresponse-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-imports-openapi.yml
-- filename: getresponse-landing-page-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-imports-api-openapi.yml
+- filename: getresponse-landing-page-api-openapi.yml
   format: yaml
   label: GetResponse Landing Page API
-  slug: getresponse-landing-page
+  slug: getresponse-landing-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-landing-page-openapi.yml
-- filename: getresponse-landing-pages-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-landing-page-api-openapi.yml
+- filename: getresponse-landing-pages-api-openapi.yml
   format: yaml
   label: GetResponse Landing Pages API
-  slug: getresponse-landing-pages
+  slug: getresponse-landing-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-landing-pages-openapi.yml
-- filename: getresponse-legacy-forms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-landing-pages-api-openapi.yml
+- filename: getresponse-legacy-forms-api-openapi.yml
   format: yaml
   label: GetResponse Legacy Forms API
-  slug: getresponse-legacy-forms
+  slug: getresponse-legacy-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-legacy-forms-openapi.yml
-- filename: getresponse-legacy-landing-pages-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-legacy-forms-api-openapi.yml
+- filename: getresponse-legacy-landing-pages-api-openapi.yml
   format: yaml
   label: GetResponse Legacy Landing Pages API
-  slug: getresponse-legacy-landing-pages
+  slug: getresponse-legacy-landing-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-legacy-landing-pages-openapi.yml
-- filename: getresponse-meta-fields-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-legacy-landing-pages-api-openapi.yml
+- filename: getresponse-meta-fields-api-openapi.yml
   format: yaml
   label: GetResponse Meta Fields API
-  slug: getresponse-meta-fields
+  slug: getresponse-meta-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-meta-fields-openapi.yml
-- filename: getresponse-multimedia-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-meta-fields-api-openapi.yml
+- filename: getresponse-multimedia-api-openapi.yml
   format: yaml
   label: GetResponse Multimedia API
-  slug: getresponse-multimedia
+  slug: getresponse-multimedia-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-multimedia-openapi.yml
-- filename: getresponse-newsletters-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-multimedia-api-openapi.yml
+- filename: getresponse-newsletters-api-openapi.yml
   format: yaml
   label: GetResponse Newsletters API
-  slug: getresponse-newsletters
+  slug: getresponse-newsletters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-newsletters-openapi.yml
-- filename: getresponse-orders-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-newsletters-api-openapi.yml
+- filename: getresponse-orders-api-openapi.yml
   format: yaml
   label: GetResponse Orders API
-  slug: getresponse-orders
+  slug: getresponse-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-orders-openapi.yml
-- filename: getresponse-predefined-fields-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-orders-api-openapi.yml
+- filename: getresponse-predefined-fields-api-openapi.yml
   format: yaml
   label: GetResponse Predefined Fields API
-  slug: getresponse-predefined-fields
+  slug: getresponse-predefined-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-predefined-fields-openapi.yml
-- filename: getresponse-product-variants-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-predefined-fields-api-openapi.yml
+- filename: getresponse-product-variants-api-openapi.yml
   format: yaml
   label: GetResponse Product Variants API
-  slug: getresponse-product-variants
+  slug: getresponse-product-variants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-product-variants-openapi.yml
-- filename: getresponse-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-product-variants-api-openapi.yml
+- filename: getresponse-products-api-openapi.yml
   format: yaml
   label: GetResponse Products API
-  slug: getresponse-products
+  slug: getresponse-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-products-openapi.yml
-- filename: getresponse-rss-newsletters-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-products-api-openapi.yml
+- filename: getresponse-rss-newsletters-api-openapi.yml
   format: yaml
   label: GetResponse RSS Newsletters API
-  slug: getresponse-rss-newsletters
+  slug: getresponse-rss-newsletters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-rss-newsletters-openapi.yml
-- filename: getresponse-sms-automation-messages-openapi.yml
-  format: yaml
-  label: GetResponse SMS Automation Messages API
-  slug: getresponse-sms-automation-messages
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-sms-automation-messages-openapi.yml
-- filename: getresponse-sms-messages-openapi.yml
-  format: yaml
-  label: GetResponse SMS Messages API
-  slug: getresponse-sms-messages
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-sms-messages-openapi.yml
-- filename: getresponse-search-contacts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-rss-newsletters-api-openapi.yml
+- filename: getresponse-search-contacts-api-openapi.yml
   format: yaml
   label: GetResponse Search Contacts API
-  slug: getresponse-search-contacts
+  slug: getresponse-search-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-search-contacts-openapi.yml
-- filename: getresponse-shops-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-search-contacts-api-openapi.yml
+- filename: getresponse-shops-api-openapi.yml
   format: yaml
   label: GetResponse Shops API
-  slug: getresponse-shops
+  slug: getresponse-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-shops-openapi.yml
-- filename: getresponse-sms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-shops-api-openapi.yml
+- filename: getresponse-sms-api-openapi.yml
   format: yaml
   label: GetResponse Sms API
-  slug: getresponse-sms
+  slug: getresponse-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-sms-openapi.yml
-- filename: getresponse-subscription-confirmations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-sms-api-openapi.yml
+- filename: getresponse-sms-automation-messages-api-openapi.yml
+  format: yaml
+  label: GetResponse SMS Automation Messages API
+  slug: getresponse-sms-automation-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-sms-automation-messages-api-openapi.yml
+- filename: getresponse-sms-messages-api-openapi.yml
+  format: yaml
+  label: GetResponse SMS Messages API
+  slug: getresponse-sms-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-sms-messages-api-openapi.yml
+- filename: getresponse-subscription-confirmations-api-openapi.yml
   format: yaml
   label: GetResponse Subscription Confirmations API
-  slug: getresponse-subscription-confirmations
+  slug: getresponse-subscription-confirmations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-subscription-confirmations-openapi.yml
-- filename: getresponse-suppressions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-subscription-confirmations-api-openapi.yml
+- filename: getresponse-suppressions-api-openapi.yml
   format: yaml
   label: GetResponse Suppressions API
-  slug: getresponse-suppressions
+  slug: getresponse-suppressions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-suppressions-openapi.yml
-- filename: getresponse-tags-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-suppressions-api-openapi.yml
+- filename: getresponse-tags-api-openapi.yml
   format: yaml
   label: GetResponse Tags API
-  slug: getresponse-tags
+  slug: getresponse-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-tags-openapi.yml
-- filename: getresponse-taxes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-tags-api-openapi.yml
+- filename: getresponse-taxes-api-openapi.yml
   format: yaml
   label: GetResponse Taxes API
-  slug: getresponse-taxes
+  slug: getresponse-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-taxes-openapi.yml
-- filename: getresponse-tracking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-taxes-api-openapi.yml
+- filename: getresponse-tracking-api-openapi.yml
   format: yaml
   label: GetResponse Tracking API
-  slug: getresponse-tracking
+  slug: getresponse-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-tracking-openapi.yml
-- filename: getresponse-transactional-emails-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-tracking-api-openapi.yml
+- filename: getresponse-transactional-emails-api-openapi.yml
   format: yaml
   label: GetResponse Transactional Emails API
-  slug: getresponse-transactional-emails
+  slug: getresponse-transactional-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-transactional-emails-openapi.yml
-- filename: getresponse-transactional-emails-templates-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-transactional-emails-api-openapi.yml
+- filename: getresponse-transactional-emails-templates-api-openapi.yml
   format: yaml
   label: GetResponse Transactional Emails Templates API
-  slug: getresponse-transactional-emails-templates
+  slug: getresponse-transactional-emails-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-transactional-emails-templates-openapi.yml
-- filename: getresponse-webinars-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-transactional-emails-templates-api-openapi.yml
+- filename: getresponse-webinars-api-openapi.yml
   format: yaml
   label: GetResponse Webinars API
-  slug: getresponse-webinars
+  slug: getresponse-webinars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-webinars-openapi.yml
-- filename: getresponse-website-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-webinars-api-openapi.yml
+- filename: getresponse-website-api-openapi.yml
   format: yaml
   label: GetResponse Website API
-  slug: getresponse-website
+  slug: getresponse-website-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-website-openapi.yml
-- filename: getresponse-websites-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-website-api-openapi.yml
+- filename: getresponse-websites-api-openapi.yml
   format: yaml
   label: GetResponse Websites API
-  slug: getresponse-websites
+  slug: getresponse-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-websites-openapi.yml
-- filename: getresponse-workflows-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-websites-api-openapi.yml
+- filename: getresponse-workflows-api-openapi.yml
   format: yaml
   label: GetResponse Workflows API
-  slug: getresponse-workflows
+  slug: getresponse-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-workflows-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/getresponse-workflows-api-openapi.yml
 certifications:
 - SOC 2
 - PCI DSS

@@ -14,8 +14,8 @@ layout: security
 method: probed
 name: Philip Morris Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for philip-morris, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: philip-morris
+overview: 'Domain security posture for Philip Morris International, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Philip Morris International
 provider_slug: philip-morris
 slug: philip-morris-domain-security
 source_filename: philip-morris-domain-security.yml

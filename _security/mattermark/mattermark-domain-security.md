@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: mattermark-rest-api-openapi.yml
+- filename: mattermark-companies-api-openapi.yml
   format: yaml
-  label: Mattermark REST API
-  slug: mattermark-rest-api
+  label: Mattermark Companies API
+  slug: mattermark-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/mattermark-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/mattermark-companies-api-openapi.yml
+- filename: mattermark-complex-queries-api-openapi.yml
+  format: yaml
+  label: Mattermark Complex Queries API
+  slug: mattermark-complex-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/mattermark-complex-queries-api-openapi.yml
+- filename: mattermark-funding-events-api-openapi.yml
+  format: yaml
+  label: Mattermark Funding Events API
+  slug: mattermark-funding-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/mattermark-funding-events-api-openapi.yml
+- filename: mattermark-investors-api-openapi.yml
+  format: yaml
+  label: Mattermark Investors API
+  slug: mattermark-investors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/mattermark-investors-api-openapi.yml
+- filename: mattermark-search-api-openapi.yml
+  format: yaml
+  label: Mattermark Search API
+  slug: mattermark-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/mattermark-search-api-openapi.yml
+- filename: mattermark-utilities-api-openapi.yml
+  format: yaml
+  label: Mattermark Utilities API
+  slug: mattermark-utilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/mattermark-utilities-api-openapi.yml
 description: ''
 domains:
 - caa: []

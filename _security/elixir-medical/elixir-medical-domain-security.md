@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: elixir-medical-wordpress-content-openapi.yml
+- filename: elixir-medical-categories-api-openapi.yml
   format: yaml
-  label: Elixir Medical Website Content API (WordPress REST)
-  slug: elixir-medical-wordpress-content
+  label: Elixir Medical Categories API
+  slug: elixir-medical-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elixir-medical/refs/heads/main/openapi/elixir-medical-wordpress-content-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elixir-medical/refs/heads/main/openapi/elixir-medical-categories-api-openapi.yml
+- filename: elixir-medical-comments-api-openapi.yml
+  format: yaml
+  label: Elixir Medical Comments API
+  slug: elixir-medical-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elixir-medical/refs/heads/main/openapi/elixir-medical-comments-api-openapi.yml
+- filename: elixir-medical-media-api-openapi.yml
+  format: yaml
+  label: Elixir Medical Media API
+  slug: elixir-medical-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elixir-medical/refs/heads/main/openapi/elixir-medical-media-api-openapi.yml
+- filename: elixir-medical-pages-api-openapi.yml
+  format: yaml
+  label: Elixir Medical Pages API
+  slug: elixir-medical-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elixir-medical/refs/heads/main/openapi/elixir-medical-pages-api-openapi.yml
+- filename: elixir-medical-posts-api-openapi.yml
+  format: yaml
+  label: Elixir Medical Posts API
+  slug: elixir-medical-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elixir-medical/refs/heads/main/openapi/elixir-medical-posts-api-openapi.yml
+- filename: elixir-medical-search-api-openapi.yml
+  format: yaml
+  label: Elixir Medical Search API
+  slug: elixir-medical-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elixir-medical/refs/heads/main/openapi/elixir-medical-search-api-openapi.yml
+- filename: elixir-medical-statuses-api-openapi.yml
+  format: yaml
+  label: Elixir Medical Statuses API
+  slug: elixir-medical-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elixir-medical/refs/heads/main/openapi/elixir-medical-statuses-api-openapi.yml
+- filename: elixir-medical-tags-api-openapi.yml
+  format: yaml
+  label: Elixir Medical Tags API
+  slug: elixir-medical-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elixir-medical/refs/heads/main/openapi/elixir-medical-tags-api-openapi.yml
+- filename: elixir-medical-taxonomies-api-openapi.yml
+  format: yaml
+  label: Elixir Medical Taxonomies API
+  slug: elixir-medical-taxonomies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elixir-medical/refs/heads/main/openapi/elixir-medical-taxonomies-api-openapi.yml
+- filename: elixir-medical-types-api-openapi.yml
+  format: yaml
+  label: Elixir Medical Types API
+  slug: elixir-medical-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elixir-medical/refs/heads/main/openapi/elixir-medical-types-api-openapi.yml
+- filename: elixir-medical-users-api-openapi.yml
+  format: yaml
+  label: Elixir Medical Users API
+  slug: elixir-medical-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elixir-medical/refs/heads/main/openapi/elixir-medical-users-api-openapi.yml
+- filename: elixir-medical-wpfm-designations-api-openapi.yml
+  format: yaml
+  label: Elixir Medical Wpfm Designations API
+  slug: elixir-medical-wpfm-designations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elixir-medical/refs/heads/main/openapi/elixir-medical-wpfm-designations-api-openapi.yml
+- filename: elixir-medical-wpfm-locations-api-openapi.yml
+  format: yaml
+  label: Elixir Medical Wpfm Locations API
+  slug: elixir-medical-wpfm-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elixir-medical/refs/heads/main/openapi/elixir-medical-wpfm-locations-api-openapi.yml
 description: ''
 domains:
 - caa: []

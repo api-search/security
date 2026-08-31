@@ -1,12 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: jnana-therapeutics-content-openapi.yml
+- filename: jnana-therapeutics-comments-api-openapi.yml
   format: yaml
-  label: Jnana Therapeutics Content API
-  slug: jnana-therapeutics-content-api
+  label: Jnana Therapeutics Comments API
+  slug: jnana-therapeutics-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jnana-therapeutics/refs/heads/main/openapi/jnana-therapeutics-content-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jnana-therapeutics/refs/heads/main/openapi/jnana-therapeutics-comments-api-openapi.yml
+- filename: jnana-therapeutics-discovery-api-openapi.yml
+  format: yaml
+  label: Jnana Therapeutics Discovery API
+  slug: jnana-therapeutics-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jnana-therapeutics/refs/heads/main/openapi/jnana-therapeutics-discovery-api-openapi.yml
+- filename: jnana-therapeutics-media-api-openapi.yml
+  format: yaml
+  label: Jnana Therapeutics Media API
+  slug: jnana-therapeutics-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jnana-therapeutics/refs/heads/main/openapi/jnana-therapeutics-media-api-openapi.yml
+- filename: jnana-therapeutics-oembed-api-openapi.yml
+  format: yaml
+  label: Jnana Therapeutics Oembed API
+  slug: jnana-therapeutics-oembed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jnana-therapeutics/refs/heads/main/openapi/jnana-therapeutics-oembed-api-openapi.yml
+- filename: jnana-therapeutics-pages-api-openapi.yml
+  format: yaml
+  label: Jnana Therapeutics Pages API
+  slug: jnana-therapeutics-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jnana-therapeutics/refs/heads/main/openapi/jnana-therapeutics-pages-api-openapi.yml
+- filename: jnana-therapeutics-posts-api-openapi.yml
+  format: yaml
+  label: Jnana Therapeutics Posts API
+  slug: jnana-therapeutics-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jnana-therapeutics/refs/heads/main/openapi/jnana-therapeutics-posts-api-openapi.yml
+- filename: jnana-therapeutics-search-api-openapi.yml
+  format: yaml
+  label: Jnana Therapeutics Search API
+  slug: jnana-therapeutics-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jnana-therapeutics/refs/heads/main/openapi/jnana-therapeutics-search-api-openapi.yml
+- filename: jnana-therapeutics-seo-api-openapi.yml
+  format: yaml
+  label: Jnana Therapeutics Seo API
+  slug: jnana-therapeutics-seo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jnana-therapeutics/refs/heads/main/openapi/jnana-therapeutics-seo-api-openapi.yml
+- filename: jnana-therapeutics-taxonomy-api-openapi.yml
+  format: yaml
+  label: Jnana Therapeutics Taxonomy API
+  slug: jnana-therapeutics-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jnana-therapeutics/refs/heads/main/openapi/jnana-therapeutics-taxonomy-api-openapi.yml
+- filename: jnana-therapeutics-team-api-openapi.yml
+  format: yaml
+  label: Jnana Therapeutics Team API
+  slug: jnana-therapeutics-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jnana-therapeutics/refs/heads/main/openapi/jnana-therapeutics-team-api-openapi.yml
+- filename: jnana-therapeutics-theme-api-openapi.yml
+  format: yaml
+  label: Jnana Therapeutics Theme API
+  slug: jnana-therapeutics-theme-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jnana-therapeutics/refs/heads/main/openapi/jnana-therapeutics-theme-api-openapi.yml
+- filename: jnana-therapeutics-users-api-openapi.yml
+  format: yaml
+  label: Jnana Therapeutics Users API
+  slug: jnana-therapeutics-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jnana-therapeutics/refs/heads/main/openapi/jnana-therapeutics-users-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

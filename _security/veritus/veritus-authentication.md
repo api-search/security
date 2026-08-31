@@ -25,6 +25,12 @@ api_specs:
   slug: veritus-interactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/openapi/veritus-interactions-api-openapi.yml
+- filename: veritus-veritus-api-api-openapi.yml
+  format: yaml
+  label: Veritus Veritus API
+  slug: veritus-veritus-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/openapi/veritus-veritus-api-api-openapi.yml
 auth_types:
 - http
 description: ''

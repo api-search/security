@@ -15,7 +15,7 @@ domains:
   domain: crimeometer.com
   spf: true
 hosts:
-- cert_expires: Sep 17 18:28:48 2026 GMT
+- cert_expires: Nov 26 04:34:29 2026 GMT
   host: www.crimeometer.com
   hsts: true
   hsts_max_age: 31556952
@@ -38,9 +38,18 @@ slug: sex-offenders-api-domain-security
 source_filename: sex-offenders-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.crimeometer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 18:28:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: api.crimeometer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 17 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: crimeometer.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.crimeometer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 04:34:29 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: api.crimeometer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 17 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: crimeometer.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sex-offenders-api/refs/heads/main/security/sex-offenders-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Sex Offenders
+- Public Safety
+- Crime Data
+- Background Checks
+- Criminal Justice
+- Government Data
+- Geospatial
+- Real Estate
+- Risk
+- People Data
 ---

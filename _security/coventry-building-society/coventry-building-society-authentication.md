@@ -1,30 +1,210 @@
 ---
 api_key_in: []
 api_specs:
-- filename: obie-opendata-swagger.json
-  format: json
-  label: Coventry Building Society Open Data FCA Service Metrics API
-  slug: coventry-building-society-open-data-fca-service-metrics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/obie-opendata-swagger.json
-- filename: obie-account-info-openapi.yaml
+- filename: coventry-building-society-account-access-consents-api-openapi.yml
   format: yaml
-  label: Coventry Building Society Account & Transaction Information API (AIS)
-  slug: coventry-building-society-account-information-api
+  label: Coventry Building Society Account Access Consents API
+  slug: coventry-building-society-account-access-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/obie-account-info-openapi.yaml
-- filename: obie-payment-initiation-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-account-access-consents-api-openapi.yml
+- filename: coventry-building-society-accounts-api-openapi.yml
   format: yaml
-  label: Coventry Building Society Payment Initiation API (PIS)
-  slug: coventry-building-society-payment-initiation-api
+  label: Coventry Building Society Accounts API
+  slug: coventry-building-society-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/obie-payment-initiation-openapi.yaml
-- filename: obie-confirmation-funds-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-accounts-api-openapi.yml
+- filename: coventry-building-society-atm-api-openapi.yml
   format: yaml
-  label: Coventry Building Society Confirmation of Funds API (CBPII)
-  slug: coventry-building-society-confirmation-of-funds-api
+  label: Coventry Building Society ATM API
+  slug: coventry-building-society-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/obie-confirmation-funds-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-atm-api-openapi.yml
+- filename: coventry-building-society-balances-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society Balances API
+  slug: coventry-building-society-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-balances-api-openapi.yml
+- filename: coventry-building-society-bca-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society BCA API
+  slug: coventry-building-society-bca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-bca-api-openapi.yml
+- filename: coventry-building-society-beneficiaries-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society Beneficiaries API
+  slug: coventry-building-society-beneficiaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-beneficiaries-api-openapi.yml
+- filename: coventry-building-society-branch-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society Branch API
+  slug: coventry-building-society-branch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-branch-api-openapi.yml
+- filename: coventry-building-society-ccc-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society CCC API
+  slug: coventry-building-society-ccc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-ccc-api-openapi.yml
+- filename: coventry-building-society-direct-debits-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society Direct Debits API
+  slug: coventry-building-society-direct-debits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-direct-debits-api-openapi.yml
+- filename: coventry-building-society-domestic-payment-consents-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society Domestic Payment Consents API
+  slug: coventry-building-society-domestic-payment-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-domestic-payment-consents-api-openapi.yml
+- filename: coventry-building-society-domestic-payments-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society Domestic Payments API
+  slug: coventry-building-society-domestic-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-domestic-payments-api-openapi.yml
+- filename: coventry-building-society-domestic-scheduled-payment-consents-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society Domestic Scheduled Payment Consents API
+  slug: coventry-building-society-domestic-scheduled-payment-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-domestic-scheduled-payment-consents-api-openapi.yml
+- filename: coventry-building-society-domestic-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society Domestic Scheduled Payments API
+  slug: coventry-building-society-domestic-scheduled-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-domestic-scheduled-payments-api-openapi.yml
+- filename: coventry-building-society-domestic-standing-order-consents-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society Domestic Standing Order Consents API
+  slug: coventry-building-society-domestic-standing-order-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-domestic-standing-order-consents-api-openapi.yml
+- filename: coventry-building-society-domestic-standing-orders-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society Domestic Standing Orders API
+  slug: coventry-building-society-domestic-standing-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-domestic-standing-orders-api-openapi.yml
+- filename: coventry-building-society-file-payment-consents-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society File Payment Consents API
+  slug: coventry-building-society-file-payment-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-file-payment-consents-api-openapi.yml
+- filename: coventry-building-society-file-payments-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society File Payments API
+  slug: coventry-building-society-file-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-file-payments-api-openapi.yml
+- filename: coventry-building-society-funds-confirmation-consents-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society Funds Confirmation Consents API
+  slug: coventry-building-society-funds-confirmation-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-funds-confirmation-consents-api-openapi.yml
+- filename: coventry-building-society-funds-confirmations-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society Funds Confirmations API
+  slug: coventry-building-society-funds-confirmations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-funds-confirmations-api-openapi.yml
+- filename: coventry-building-society-international-payment-consents-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society International Payment Consents API
+  slug: coventry-building-society-international-payment-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-international-payment-consents-api-openapi.yml
+- filename: coventry-building-society-international-payments-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society International Payments API
+  slug: coventry-building-society-international-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-international-payments-api-openapi.yml
+- filename: coventry-building-society-international-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society International Scheduled Payments API
+  slug: coventry-building-society-international-scheduled-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-international-scheduled-payments-api-openapi.yml
+- filename: coventry-building-society-international-scheduled-payments-consents-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society International Scheduled Payments Consents API
+  slug: coventry-building-society-international-scheduled-payments-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-international-scheduled-payments-consents-api-openapi.yml
+- filename: coventry-building-society-international-standing-orders-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society International Standing Orders API
+  slug: coventry-building-society-international-standing-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-international-standing-orders-api-openapi.yml
+- filename: coventry-building-society-international-standing-orders-consents-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society International Standing Orders Consents API
+  slug: coventry-building-society-international-standing-orders-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-international-standing-orders-consents-api-openapi.yml
+- filename: coventry-building-society-offers-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society Offers API
+  slug: coventry-building-society-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-offers-api-openapi.yml
+- filename: coventry-building-society-parties-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society Parties API
+  slug: coventry-building-society-parties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-parties-api-openapi.yml
+- filename: coventry-building-society-pca-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society PCA API
+  slug: coventry-building-society-pca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-pca-api-openapi.yml
+- filename: coventry-building-society-products-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society Products API
+  slug: coventry-building-society-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-products-api-openapi.yml
+- filename: coventry-building-society-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society Scheduled Payments API
+  slug: coventry-building-society-scheduled-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-scheduled-payments-api-openapi.yml
+- filename: coventry-building-society-sme-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society SME API
+  slug: coventry-building-society-sme-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-sme-api-openapi.yml
+- filename: coventry-building-society-standing-orders-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society Standing Orders API
+  slug: coventry-building-society-standing-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-standing-orders-api-openapi.yml
+- filename: coventry-building-society-statements-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society Statements API
+  slug: coventry-building-society-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-statements-api-openapi.yml
+- filename: coventry-building-society-transactions-api-openapi.yml
+  format: yaml
+  label: Coventry Building Society Transactions API
+  slug: coventry-building-society-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/openapi/coventry-building-society-transactions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

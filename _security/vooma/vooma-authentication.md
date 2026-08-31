@@ -55,6 +55,12 @@ api_specs:
   slug: vooma-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-webhooks-api-openapi.yml
+- filename: vooma-api-api-openapi.yml
+  format: yaml
+  label: Vooma API
+  slug: vooma-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-api-api-openapi.yml
 auth_types:
 - http
 description: Auth profile for the Vooma Public API. All 25 REST operations require the "bearer" scheme — an organization API key sent as a bearer token (bearerFormat "API Key"). API keys are created by an organization admin in the Vooma app and require an enterprise license. The spec also defines a basic scheme and an "auth0" bearer JWT scheme (Auth0-issued user tokens for the app), but no public operation references them. Webhook callbacks Vooma sends to your server declare no security scheme in the spec.

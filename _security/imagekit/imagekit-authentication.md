@@ -13,12 +13,6 @@ api_specs:
   slug: imagekit-caching-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-caching-api-openapi.yml
-- filename: imagekit-custom-metadata-fields-api-openapi.yml
-  format: yaml
-  label: ImageKit Custom metadata fields API
-  slug: imagekit-custom-metadata-fields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-custom-metadata-fields-api-openapi.yml
 - filename: imagekit-digital-asset-management-dam-api-openapi.yml
   format: yaml
   label: ImageKit Digital Asset Management (DAM) API
@@ -37,42 +31,12 @@ api_specs:
   slug: imagekit-file-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-file-metadata-api-openapi.yml
-- filename: imagekit-managing-assets-api-openapi.yml
-  format: yaml
-  label: ImageKit Managing assets API
-  slug: imagekit-managing-assets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-managing-assets-api-openapi.yml
-- filename: imagekit-managing-folders-api-openapi.yml
-  format: yaml
-  label: ImageKit Managing folders API
-  slug: imagekit-managing-folders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-managing-folders-api-openapi.yml
-- filename: imagekit-origins-api-openapi.yml
-  format: yaml
-  label: ImageKit Origins API
-  slug: imagekit-origins-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-origins-api-openapi.yml
-- filename: imagekit-saved-extensions-api-openapi.yml
-  format: yaml
-  label: ImageKit Saved Extensions API
-  slug: imagekit-saved-extensions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-saved-extensions-api-openapi.yml
 - filename: imagekit-upload-file-api-openapi.yml
   format: yaml
   label: ImageKit Upload File API
   slug: imagekit-upload-file-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-upload-file-api-openapi.yml
-- filename: imagekit-url-endpoints-api-openapi.yml
-  format: yaml
-  label: ImageKit URL endpoints API
-  slug: imagekit-url-endpoints-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-url-endpoints-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Duke Energy Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for duke-energy, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: duke-energy
+overview: 'Domain security posture for Duke Energy, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Duke Energy
 provider_slug: duke-energy
 slug: duke-energy-domain-security
 source_filename: duke-energy-domain-security.yml

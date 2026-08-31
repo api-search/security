@@ -52,8 +52,8 @@ method: derived
 name: Agilent Technologies Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: agilent-technologies secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: agilent-technologies
+overview: Agilent Technologies secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Agilent Technologies
 provider_slug: agilent-technologies
 scheme_count: 1
 schemes:

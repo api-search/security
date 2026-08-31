@@ -1,30 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: university-of-tokyo-archives-portal-openapi.yml
+- filename: university-of-tokyo-iiif-api-openapi.yml
   format: yaml
-  label: UTokyo Academic Assets Archives Portal API
-  slug: archives-portal
+  label: University of Tokyo Iiif API
+  slug: university-of-tokyo-iiif-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-archives-portal-openapi.yml
-- filename: university-of-tokyo-archives-portal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-iiif-api-openapi.yml
+- filename: university-of-tokyo-items-api-openapi.yml
   format: yaml
-  label: UTokyo IIIF Presentation and Image APIs
-  slug: iiif
+  label: University of Tokyo Items API
+  slug: university-of-tokyo-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-archives-portal-openapi.yml
-- filename: university-of-tokyo-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-items-api-openapi.yml
+- filename: university-of-tokyo-oai-pmh-api-openapi.yml
   format: yaml
-  label: UTokyo OAI-PMH Metadata Harvesting
-  slug: oai-pmh
+  label: University of Tokyo Oai Pmh API
+  slug: university-of-tokyo-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-oai-pmh-openapi.yml
-- filename: university-of-tokyo-repository-records-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-oai-pmh-api-openapi.yml
+- filename: university-of-tokyo-records-api-openapi.yml
   format: yaml
-  label: UTokyo Repository Records API
-  slug: repository-records
+  label: University of Tokyo Records API
+  slug: university-of-tokyo-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-repository-records-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-records-api-openapi.yml
+- filename: university-of-tokyo-search-api-openapi.yml
+  format: yaml
+  label: University of Tokyo Search API
+  slug: university-of-tokyo-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-search-api-openapi.yml
 auth_types:
 - none
 - saml2

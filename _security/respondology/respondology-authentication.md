@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: respondology-api-openapi.json
-  format: json
-  label: Respondology API
-  slug: respondology-api
+- filename: respondology-comment-results-api-openapi.yml
+  format: yaml
+  label: Respondology Comment Results API
+  slug: respondology-comment-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respondology/refs/heads/main/openapi/respondology-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/respondology/refs/heads/main/openapi/respondology-comment-results-api-openapi.yml
+- filename: respondology-comments-api-openapi.yml
+  format: yaml
+  label: Respondology Comments API
+  slug: respondology-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/respondology/refs/heads/main/openapi/respondology-comments-api-openapi.yml
+- filename: respondology-moderation-reasons-api-openapi.yml
+  format: yaml
+  label: Respondology Moderation Reasons API
+  slug: respondology-moderation-reasons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/respondology/refs/heads/main/openapi/respondology-moderation-reasons-api-openapi.yml
+- filename: respondology-post-results-api-openapi.yml
+  format: yaml
+  label: Respondology Post Results API
+  slug: respondology-post-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/respondology/refs/heads/main/openapi/respondology-post-results-api-openapi.yml
+- filename: respondology-posts-api-openapi.yml
+  format: yaml
+  label: Respondology Posts API
+  slug: respondology-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/respondology/refs/heads/main/openapi/respondology-posts-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

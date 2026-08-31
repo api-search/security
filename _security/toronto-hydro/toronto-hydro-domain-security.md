@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: toronto-hydro-green-button-espi-openapi.yml
+- filename: toronto-hydro-applicationinformation-api-openapi.yml
   format: yaml
-  label: Toronto Hydro Green Button Connect My Data
-  slug: toronto-hydro-green-button-connect-my-data
+  label: Toronto Hydro Application Information API
+  slug: toronto-hydro-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/openapi/toronto-hydro-green-button-espi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/openapi/toronto-hydro-applicationinformation-api-openapi.yml
+- filename: toronto-hydro-authorization-api-openapi.yml
+  format: yaml
+  label: Toronto Hydro Authorization API
+  slug: toronto-hydro-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/openapi/toronto-hydro-authorization-api-openapi.yml
+- filename: toronto-hydro-batch-api-openapi.yml
+  format: yaml
+  label: Toronto Hydro Batch API
+  slug: toronto-hydro-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/openapi/toronto-hydro-batch-api-openapi.yml
+- filename: toronto-hydro-usagepoint-api-openapi.yml
+  format: yaml
+  label: Toronto Hydro Usage Point API
+  slug: toronto-hydro-usagepoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/openapi/toronto-hydro-usagepoint-api-openapi.yml
 description: ''
 domains:
 - caa: []

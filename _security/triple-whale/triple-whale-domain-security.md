@@ -24,12 +24,12 @@ api_specs:
   slug: triple-whale-data-out-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-data-out-api-openapi.yml
-- filename: triple-whale-bi-benchmarks-openapi.json
-  format: json
-  label: Triple Whale Benchmarks API
-  slug: triple-whale-benchmarks-api
+- filename: triple-whale-bi-api-openapi.yml
+  format: yaml
+  label: Triple Whale Bi API
+  slug: triple-whale-bi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-bi-benchmarks-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-bi-api-openapi.yml
 description: ''
 domains:
 - caa:

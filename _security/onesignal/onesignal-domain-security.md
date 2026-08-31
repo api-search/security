@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: onesignal-api-openapi.json
-  format: json
-  label: OneSignal REST API
-  slug: onesignal-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/_original/onesignal-api-openapi.json
 - filename: onesignal-apps-api-openapi.yml
   format: yaml
   label: OneSignal Apps API
@@ -30,6 +24,42 @@ api_specs:
   slug: onesignal-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-templates-api-openapi.yml
+- filename: onesignal-notifications-app-id-app-id-limit-limit-offset-offset-kind-kind-template-id-template-id-time-offset-time-offset-api-openapi.yml
+  format: yaml
+  label: OneSignal Notifications?app Id={app Id}&limit={limit}&offset={offset}&kind={kind}&template Id={template Id}&time Offset={time Offset} API
+  slug: onesignal-notifications-app-id-app-id-limit-limit-offset-offset-kind-kind-template-id-template-id-time-offset-time-offset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-notifications-app-id-app-id-limit-limit-offset-offset-kind-kind-template-id-template-id-time-offset-time-offset-api-openapi.yml
+- filename: onesignal-notifications-c-email-api-openapi.yml
+  format: yaml
+  label: OneSignal Notifications?c=email API
+  slug: onesignal-notifications-c-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-notifications-c-email-api-openapi.yml
+- filename: onesignal-notifications-c-push-api-openapi.yml
+  format: yaml
+  label: OneSignal Notifications?c=push API
+  slug: onesignal-notifications-c-push-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-notifications-c-push-api-openapi.yml
+- filename: onesignal-notifications-c-sms-api-openapi.yml
+  format: yaml
+  label: OneSignal Notifications?c=sms API
+  slug: onesignal-notifications-c-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-notifications-c-sms-api-openapi.yml
+- filename: onesignal-organizations-api-openapi.yml
+  format: yaml
+  label: OneSignal Organizations API
+  slug: onesignal-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-organizations-api-openapi.yml
+- filename: onesignal-templates-app-id-app-id-limit-limit-offset-offset-api-openapi.yml
+  format: yaml
+  label: OneSignal Templates?app Id={app Id}&limit={limit}&offset={offset} API
+  slug: onesignal-templates-app-id-app-id-limit-limit-offset-offset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-templates-app-id-app-id-limit-limit-offset-offset-api-openapi.yml
 description: ''
 domains:
 - caa:

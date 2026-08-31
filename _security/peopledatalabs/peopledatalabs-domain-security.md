@@ -60,6 +60,30 @@ api_specs:
   slug: peopledatalabs-subject-request-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-subject-request-api-openapi.yml
+- filename: peopledatalabs-company-api-openapi.yml
+  format: yaml
+  label: People Data Labs Company API
+  slug: peopledatalabs-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-company-api-openapi.yml
+- filename: peopledatalabs-ip-api-openapi.yml
+  format: yaml
+  label: People Data Labs IP API
+  slug: peopledatalabs-ip-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-ip-api-openapi.yml
+- filename: peopledatalabs-jobs-api-openapi.yml
+  format: yaml
+  label: People Data Labs Jobs API
+  slug: peopledatalabs-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-jobs-api-openapi.yml
+- filename: peopledatalabs-person-api-openapi.yml
+  format: yaml
+  label: People Data Labs Person API
+  slug: peopledatalabs-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-person-api-openapi.yml
 description: ''
 domains:
 - caa:

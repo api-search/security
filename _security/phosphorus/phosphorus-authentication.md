@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: phosphorus-api-openapi.yml
+- filename: phosphorus-alerts-api-openapi.yml
   format: yaml
-  label: Phosphorus API
-  slug: phosphorus-api
+  label: Phosphorus Alerts API
+  slug: phosphorus-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phosphorus/refs/heads/main/openapi/phosphorus-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/phosphorus/refs/heads/main/openapi/phosphorus-alerts-api-openapi.yml
+- filename: phosphorus-device-api-openapi.yml
+  format: yaml
+  label: Phosphorus Device API
+  slug: phosphorus-device-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phosphorus/refs/heads/main/openapi/phosphorus-device-api-openapi.yml
+- filename: phosphorus-devices-api-openapi.yml
+  format: yaml
+  label: Phosphorus Devices API
+  slug: phosphorus-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phosphorus/refs/heads/main/openapi/phosphorus-devices-api-openapi.yml
+- filename: phosphorus-dynamic-scans-api-openapi.yml
+  format: yaml
+  label: Phosphorus Dynamic Scans API
+  slug: phosphorus-dynamic-scans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phosphorus/refs/heads/main/openapi/phosphorus-dynamic-scans-api-openapi.yml
+- filename: phosphorus-providers-api-openapi.yml
+  format: yaml
+  label: Phosphorus Providers API
+  slug: phosphorus-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phosphorus/refs/heads/main/openapi/phosphorus-providers-api-openapi.yml
+- filename: phosphorus-search-api-openapi.yml
+  format: yaml
+  label: Phosphorus Search API
+  slug: phosphorus-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phosphorus/refs/heads/main/openapi/phosphorus-search-api-openapi.yml
+- filename: phosphorus-sites-api-openapi.yml
+  format: yaml
+  label: Phosphorus Sites API
+  slug: phosphorus-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phosphorus/refs/heads/main/openapi/phosphorus-sites-api-openapi.yml
+- filename: phosphorus-vault-api-openapi.yml
+  format: yaml
+  label: Phosphorus Vault API
+  slug: phosphorus-vault-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phosphorus/refs/heads/main/openapi/phosphorus-vault-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

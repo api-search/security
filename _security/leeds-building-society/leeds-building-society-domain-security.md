@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: obie-opendata-standard-swagger.json
-  format: json
-  label: OBIE Open Data API (shared standard)
-  slug: obie-open-data-api
+- filename: leeds-building-society-atm-api-openapi.yml
+  format: yaml
+  label: Leeds Building Society ATM API
+  slug: leeds-building-society-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leeds-building-society/refs/heads/main/openapi/obie-opendata-standard-swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/leeds-building-society/refs/heads/main/openapi/leeds-building-society-atm-api-openapi.yml
+- filename: leeds-building-society-bca-api-openapi.yml
+  format: yaml
+  label: Leeds Building Society BCA API
+  slug: leeds-building-society-bca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leeds-building-society/refs/heads/main/openapi/leeds-building-society-bca-api-openapi.yml
+- filename: leeds-building-society-branch-api-openapi.yml
+  format: yaml
+  label: Leeds Building Society Branch API
+  slug: leeds-building-society-branch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leeds-building-society/refs/heads/main/openapi/leeds-building-society-branch-api-openapi.yml
+- filename: leeds-building-society-ccc-api-openapi.yml
+  format: yaml
+  label: Leeds Building Society CCC API
+  slug: leeds-building-society-ccc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leeds-building-society/refs/heads/main/openapi/leeds-building-society-ccc-api-openapi.yml
+- filename: leeds-building-society-pca-api-openapi.yml
+  format: yaml
+  label: Leeds Building Society PCA API
+  slug: leeds-building-society-pca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leeds-building-society/refs/heads/main/openapi/leeds-building-society-pca-api-openapi.yml
+- filename: leeds-building-society-sme-api-openapi.yml
+  format: yaml
+  label: Leeds Building Society SME API
+  slug: leeds-building-society-sme-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leeds-building-society/refs/heads/main/openapi/leeds-building-society-sme-api-openapi.yml
 description: ''
 domains:
 - caa: []

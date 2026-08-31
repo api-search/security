@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: openapi-public.json
-  format: json
-  label: Infer Responses API
-  slug: infer-responses-api
+- filename: infer-by-flow7-catalog-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Catalog API
+  slug: infer-by-flow7-catalog-api
   spec_type: OpenAPI
-  url: https://infer.flow7.org/openapi-public.json
+  url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-catalog-api-openapi.yml
+- filename: infer-by-flow7-inference-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Inference API
+  slug: infer-by-flow7-inference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-inference-api-openapi.yml
+- filename: infer-by-flow7-status-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Status API
+  slug: infer-by-flow7-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-status-api-openapi.yml
 certifications: []
 description: Infer publishes no trust center and holds no named third-party certification. It does publish a complete, versioned legal and data-protection document set, which is the closest thing it has to a trust surface. Recorded so the absence is a checked fact rather than an unchecked one.
 kind: trust-center

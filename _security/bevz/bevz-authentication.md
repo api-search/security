@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: bevz-integrator-service-openapi.yaml
+- filename: bevz-integrator-users-api-openapi.yml
   format: yaml
-  label: Bevz Integrator Service
-  slug: bevz-integrator-service
+  label: Bevz Integrator Users API
+  slug: bevz-integrator-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/openapi/bevz-integrator-service-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/openapi/bevz-integrator-users-api-openapi.yml
+- filename: bevz-integrators-api-openapi.yml
+  format: yaml
+  label: Bevz Integrators API
+  slug: bevz-integrators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/openapi/bevz-integrators-api-openapi.yml
+- filename: bevz-lotto-scratcher-games-api-openapi.yml
+  format: yaml
+  label: Bevz Lotto Scratcher Games API
+  slug: bevz-lotto-scratcher-games-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/openapi/bevz-lotto-scratcher-games-api-openapi.yml
+- filename: bevz-order-api-openapi.yml
+  format: yaml
+  label: Bevz Order API
+  slug: bevz-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/openapi/bevz-order-api-openapi.yml
+- filename: bevz-pick-a-delivery-service-for-onboarding-api-api-openapi.yml
+  format: yaml
+  label: Bevz Pick a Delivery Service for Onboarding API
+  slug: bevz-pick-a-delivery-service-for-onboarding-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/openapi/bevz-pick-a-delivery-service-for-onboarding-api-api-openapi.yml
+- filename: bevz-store-products-api-openapi.yml
+  format: yaml
+  label: Bevz Store Products API
+  slug: bevz-store-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/openapi/bevz-store-products-api-openapi.yml
+- filename: bevz-stores-api-openapi.yml
+  format: yaml
+  label: Bevz Stores API
+  slug: bevz-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/openapi/bevz-stores-api-openapi.yml
+- filename: bevz-uber-eats-onboarding-api-workflow-api-openapi.yml
+  format: yaml
+  label: Bevz Uber Eats Onboarding API Workflow API
+  slug: bevz-uber-eats-onboarding-api-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/openapi/bevz-uber-eats-onboarding-api-workflow-api-openapi.yml
+- filename: bevz-webhooks-api-openapi.yml
+  format: yaml
+  label: Bevz Webhooks API
+  slug: bevz-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/openapi/bevz-webhooks-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

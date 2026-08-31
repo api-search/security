@@ -10,30 +10,12 @@ api_specs:
   slug: thetadata-streaming-websocket-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/asyncapi/thetadata-streaming-asyncapi.yml
-- filename: thetadata-at-time-api-openapi.yml
-  format: yaml
-  label: ThetaData At-Time API
-  slug: thetadata-at-time-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/openapi/thetadata-at-time-api-openapi.yml
 - filename: thetadata-calendar-api-openapi.yml
   format: yaml
   label: ThetaData Calendar API
   slug: thetadata-calendar-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/openapi/thetadata-calendar-api-openapi.yml
-- filename: thetadata-flatfile-api-openapi.yml
-  format: yaml
-  label: ThetaData FlatFile API
-  slug: thetadata-flatfile-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/openapi/thetadata-flatfile-api-openapi.yml
-- filename: thetadata-history-api-openapi.yml
-  format: yaml
-  label: ThetaData History API
-  slug: thetadata-history-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/openapi/thetadata-history-api-openapi.yml
 - filename: thetadata-index-api-openapi.yml
   format: yaml
   label: ThetaData Index API
@@ -46,42 +28,18 @@ api_specs:
   slug: thetadata-interest-rate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/openapi/thetadata-interest-rate-api-openapi.yml
-- filename: thetadata-list-api-openapi.yml
-  format: yaml
-  label: ThetaData List API
-  slug: thetadata-list-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/openapi/thetadata-list-api-openapi.yml
 - filename: thetadata-option-api-openapi.yml
   format: yaml
   label: ThetaData Option API
   slug: thetadata-option-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/openapi/thetadata-option-api-openapi.yml
-- filename: thetadata-single-day-api-openapi.yml
-  format: yaml
-  label: ThetaData Single Day API
-  slug: thetadata-single-day-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/openapi/thetadata-single-day-api-openapi.yml
-- filename: thetadata-snapshot-api-openapi.yml
-  format: yaml
-  label: ThetaData Snapshot API
-  slug: thetadata-snapshot-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/openapi/thetadata-snapshot-api-openapi.yml
 - filename: thetadata-stock-api-openapi.yml
   format: yaml
   label: ThetaData Stock API
   slug: thetadata-stock-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/openapi/thetadata-stock-api-openapi.yml
-- filename: thetadata-year-api-openapi.yml
-  format: yaml
-  label: ThetaData Year API
-  slug: thetadata-year-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/openapi/thetadata-year-api-openapi.yml
 auth_types:
 - apiKey
 - credentials

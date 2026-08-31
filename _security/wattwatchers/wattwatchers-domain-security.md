@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: wattwatchers-rest-api-v3-openapi.json
-  format: json
-  label: Wattwatchers REST API v3 (Mercury)
-  slug: wattwatchers-rest-api-v3
+- filename: wattwatchers-devices-api-openapi.yml
+  format: yaml
+  label: Wattwatchers Devices API
+  slug: wattwatchers-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/openapi/wattwatchers-rest-api-v3-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/openapi/wattwatchers-devices-api-openapi.yml
+- filename: wattwatchers-long-energy-api-openapi.yml
+  format: yaml
+  label: Wattwatchers Long Energy API
+  slug: wattwatchers-long-energy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/openapi/wattwatchers-long-energy-api-openapi.yml
+- filename: wattwatchers-modbus-api-openapi.yml
+  format: yaml
+  label: Wattwatchers Modbus API
+  slug: wattwatchers-modbus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/openapi/wattwatchers-modbus-api-openapi.yml
+- filename: wattwatchers-short-energy-api-openapi.yml
+  format: yaml
+  label: Wattwatchers Short Energy API
+  slug: wattwatchers-short-energy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/openapi/wattwatchers-short-energy-api-openapi.yml
 description: ''
 domains:
 - caa: []

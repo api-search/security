@@ -260,6 +260,78 @@ api_specs:
   slug: weavr-wiretransfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-wiretransfers-api-openapi.yml
+- filename: weavr-authentication-factors-webhooks-api-openapi.yml
+  format: yaml
+  label: Weavr Authentication Factors Webhooks API
+  slug: weavr-authentication-factors-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-authentication-factors-webhooks-api-openapi.yml
+- filename: weavr-bulk-operations-api-openapi.yml
+  format: yaml
+  label: Weavr Bulk Operations API
+  slug: weavr-bulk-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-bulk-operations-api-openapi.yml
+- filename: weavr-buyers-webhooks-api-openapi.yml
+  format: yaml
+  label: Weavr Buyers Webhooks API
+  slug: weavr-buyers-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-buyers-webhooks-api-openapi.yml
+- filename: weavr-ibans-api-openapi.yml
+  format: yaml
+  label: Weavr Ibans API
+  slug: weavr-ibans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-ibans-api-openapi.yml
+- filename: weavr-linked-accounts-webhooks-api-openapi.yml
+  format: yaml
+  label: Weavr Linked Accounts Webhooks API
+  slug: weavr-linked-accounts-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-linked-accounts-webhooks-api-openapi.yml
+- filename: weavr-login-api-openapi.yml
+  format: yaml
+  label: Weavr Login API
+  slug: weavr-login-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-login-api-openapi.yml
+- filename: weavr-manual-transactions-api-openapi.yml
+  format: yaml
+  label: Weavr Manual Transactions API
+  slug: weavr-manual-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-manual-transactions-api-openapi.yml
+- filename: weavr-payment-runs-webhooks-api-openapi.yml
+  format: yaml
+  label: Weavr Payment runs Webhooks API
+  slug: weavr-payment-runs-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-payment-runs-webhooks-api-openapi.yml
+- filename: weavr-stepup-api-openapi.yml
+  format: yaml
+  label: Weavr Stepup API
+  slug: weavr-stepup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-stepup-api-openapi.yml
+- filename: weavr-stepup-webhooks-api-openapi.yml
+  format: yaml
+  label: Weavr Stepup Webhooks API
+  slug: weavr-stepup-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-stepup-webhooks-api-openapi.yml
+- filename: weavr-tokens-webhooks-api-openapi.yml
+  format: yaml
+  label: Weavr Tokens Webhooks API
+  slug: weavr-tokens-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-tokens-webhooks-api-openapi.yml
+- filename: weavr-transactions-webhooks-api-openapi.yml
+  format: yaml
+  label: Weavr Transactions Webhooks API
+  slug: weavr-transactions-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-transactions-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http

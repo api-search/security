@@ -30,24 +30,66 @@ api_specs:
   slug: mailmodo-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-templates-api-openapi.yml
-- filename: mailmodo-user-journeys-api-openapi.yml
+- filename: mailmodo-addevent-api-openapi.yml
   format: yaml
-  label: Mailmodo User Journeys API
-  slug: mailmodo-user-journeys-api
+  label: Mailmodo Add Event API
+  slug: mailmodo-addevent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-user-journeys-api-openapi.yml
-- filename: mailmodo-dynamic-form-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-addevent-api-openapi.yml
+- filename: mailmodo-addtolist-api-openapi.yml
   format: yaml
-  label: Mailmodo Dynamic Form API
-  slug: mailmodo-dynamic-form-api
+  label: Mailmodo Add To List API
+  slug: mailmodo-addtolist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-dynamic-form-api-openapi.yml
-- filename: mailmodo-repeatable-block-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-addtolist-api-openapi.yml
+- filename: mailmodo-bulktriggercampaign-api-openapi.yml
   format: yaml
-  label: Mailmodo Repeatable Block API
-  slug: mailmodo-repeatable-block-api
+  label: Mailmodo Bulktrigger Campaign API
+  slug: mailmodo-bulktriggercampaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-repeatable-block-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-bulktriggercampaign-api-openapi.yml
+- filename: mailmodo-campaignreports-api-openapi.yml
+  format: yaml
+  label: Mailmodo Campaign Reports API
+  slug: mailmodo-campaignreports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-campaignreports-api-openapi.yml
+- filename: mailmodo-getallcontactlists-api-openapi.yml
+  format: yaml
+  label: Mailmodo Get All Contact Lists API
+  slug: mailmodo-getallcontactlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-getallcontactlists-api-openapi.yml
+- filename: mailmodo-getalltemplates-api-openapi.yml
+  format: yaml
+  label: Mailmodo Get All Templates API
+  slug: mailmodo-getalltemplates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-getalltemplates-api-openapi.yml
+- filename: mailmodo-getcontactdetails-api-openapi.yml
+  format: yaml
+  label: Mailmodo Get Contact Details API
+  slug: mailmodo-getcontactdetails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-getcontactdetails-api-openapi.yml
+- filename: mailmodo-hooks-api-openapi.yml
+  format: yaml
+  label: Mailmodo Hooks API
+  slug: mailmodo-hooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-hooks-api-openapi.yml
+- filename: mailmodo-removefromlist-api-openapi.yml
+  format: yaml
+  label: Mailmodo Remove From List API
+  slug: mailmodo-removefromlist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-removefromlist-api-openapi.yml
+- filename: mailmodo-triggercampaign-api-openapi.yml
+  format: yaml
+  label: Mailmodo Trigger Campaign API
+  slug: mailmodo-triggercampaign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-triggercampaign-api-openapi.yml
 certifications:
 - SOC 2 Type 2
 - GDPR

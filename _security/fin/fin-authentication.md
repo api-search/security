@@ -55,6 +55,12 @@ api_specs:
   slug: fin-virtual-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-virtual-accounts-api-openapi.yml
+- filename: fin-webhooks-api-openapi.yml
+  format: yaml
+  label: Fin Webhooks API
+  slug: fin-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2

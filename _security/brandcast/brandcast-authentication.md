@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: brandcast-websites-openapi.yml
+- filename: brandcast-account-api-openapi.yml
   format: yaml
-  label: Brandcast API
-  slug: brandcast-api
+  label: Brandcast Account API
+  slug: brandcast-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/openapi/brandcast-websites-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/openapi/brandcast-account-api-openapi.yml
+- filename: brandcast-salesforce-api-openapi.yml
+  format: yaml
+  label: Brandcast Salesforce API
+  slug: brandcast-salesforce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/openapi/brandcast-salesforce-api-openapi.yml
+- filename: brandcast-templates-api-openapi.yml
+  format: yaml
+  label: Brandcast Templates API
+  slug: brandcast-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/openapi/brandcast-templates-api-openapi.yml
+- filename: brandcast-websites-api-openapi.yml
+  format: yaml
+  label: Brandcast Websites API
+  slug: brandcast-websites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/openapi/brandcast-websites-api-openapi.yml
 auth_types:
 - apiKey
 - http

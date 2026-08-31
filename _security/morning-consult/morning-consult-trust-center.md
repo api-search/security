@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: morning-consult-openapi-original.yml
+- filename: morning-consult-ai-api-openapi.yml
   format: yaml
-  label: Morning Consult API
-  slug: morning-consult-api
+  label: Morning Consult AI API
+  slug: morning-consult-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/openapi/morning-consult-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/openapi/morning-consult-ai-api-openapi.yml
+- filename: morning-consult-authentication-api-openapi.yml
+  format: yaml
+  label: Morning Consult Authentication API
+  slug: morning-consult-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/openapi/morning-consult-authentication-api-openapi.yml
+- filename: morning-consult-data-api-openapi.yml
+  format: yaml
+  label: Morning Consult Data API
+  slug: morning-consult-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/openapi/morning-consult-data-api-openapi.yml
+- filename: morning-consult-lookup-api-openapi.yml
+  format: yaml
+  label: Morning Consult Lookup API
+  slug: morning-consult-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/openapi/morning-consult-lookup-api-openapi.yml
 certifications:
 - SOC 2 Type II
 - GDPR

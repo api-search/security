@@ -1,6 +1,13 @@
 ---
-api_key_in: []
+api_key_in:
+- header
 api_specs:
+- filename: firehydrant-api-openapi.yml
+  format: yaml
+  label: FireHydrant
+  slug: firehydrant
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/firehydrant-api-openapi.yml
 - filename: firehydrant-audits-api-openapi.yml
   format: yaml
   label: FireHydrant Audits API
@@ -92,6 +99,7 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/firehydrant-teams-api-openapi.yml
 auth_types:
+- apiKey
 - http
 description: ''
 kind: authentication
@@ -100,24 +108,53 @@ method: derived
 name: Firehydrant Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: FireHydrant secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+overview: FireHydrant secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
 provider_name: FireHydrant
 provider_slug: firehydrant
-scheme_count: 1
+scheme_count: 2
 schemes:
+- in: header
+  name: api_key
+  parameter: Authorization
+  sources:
+  - openapi/firehydrant-api-openapi.yml
+  type: apiKey
 - name: bearerAuth
   scheme: bearer
   sources:
-  - openapi/firehydrant-openapi.yml
+  - openapi/firehydrant-audits-api-openapi.yml
+  - openapi/firehydrant-change-events-api-openapi.yml
+  - openapi/firehydrant-changes-api-openapi.yml
+  - openapi/firehydrant-conversations-api-openapi.yml
+  - openapi/firehydrant-environments-api-openapi.yml
+  - openapi/firehydrant-functionalities-api-openapi.yml
+  - openapi/firehydrant-incidents-api-openapi.yml
+  - openapi/firehydrant-ping-api-openapi.yml
+  - openapi/firehydrant-priorities-api-openapi.yml
+  - openapi/firehydrant-runbooks-api-openapi.yml
+  - openapi/firehydrant-scheduled-maintenances-api-openapi.yml
+  - openapi/firehydrant-services-api-openapi.yml
+  - openapi/firehydrant-severities-api-openapi.yml
+  - openapi/firehydrant-signals-api-openapi.yml
+  - openapi/firehydrant-teams-api-openapi.yml
   type: http
 slug: firehydrant-authentication
 source_filename: firehydrant-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/firehydrant-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/firehydrant-openapi.yml\n"
+source_yaml: "generated: '2026-08-29'\nmethod: derived\nsource: openapi/firehydrant-api-openapi.yml, openapi/firehydrant-audits-api-openapi.yml, openapi/firehydrant-change-events-api-openapi.yml,\n  openapi/firehydrant-changes-api-openapi.yml, openapi/firehydrant-conversations-api-openapi.yml,\n  openapi/firehydrant-environments-api-openapi.yml, openapi/firehydrant-functionalities-api-openapi.yml,\n  openapi/firehydrant-incidents-api-openapi.yml, openapi/firehydrant-ping-api-openapi.yml, openapi/firehydrant-priorities-api-openapi.yml,\n  openapi/firehydrant-runbooks-api-openapi.yml, openapi/firehydrant-scheduled-maintenances-api-openapi.yml\n  ...\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/firehydrant-api-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/firehydrant-audits-api-openapi.yml\n  - openapi/firehydrant-change-events-api-openapi.yml\n\
+  \  - openapi/firehydrant-changes-api-openapi.yml\n  - openapi/firehydrant-conversations-api-openapi.yml\n  - openapi/firehydrant-environments-api-openapi.yml\n  - openapi/firehydrant-functionalities-api-openapi.yml\n  - openapi/firehydrant-incidents-api-openapi.yml\n  - openapi/firehydrant-ping-api-openapi.yml\n  - openapi/firehydrant-priorities-api-openapi.yml\n  - openapi/firehydrant-runbooks-api-openapi.yml\n  - openapi/firehydrant-scheduled-maintenances-api-openapi.yml\n  - openapi/firehydrant-services-api-openapi.yml\n  - openapi/firehydrant-severities-api-openapi.yml\n  - openapi/firehydrant-signals-api-openapi.yml\n  - openapi/firehydrant-teams-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/authentication/firehydrant-authentication.yml
-summary_line: http · 1 scheme
+summary_line: apiKey/http · 2 schemes
 tags:
 - AIOps
 - Incident Management
+- On-Call
+- Alerting
+- Status Pages
+- Runbooks
+- Site Reliability Engineering
+- Observability
+- Retrospectives
+- DevOps
 ---

@@ -2,42 +2,144 @@
 api_key_in:
 - header
 api_specs:
-- filename: sk-telecom-ax-tts-openapi.json
-  format: json
-  label: SK Telecom A.X TTS API
-  slug: sk-telecom-ax-tts-api
+- filename: sk-telecom-apartment-api-openapi.yml
+  format: yaml
+  label: SK Telecom Apartment API
+  slug: sk-telecom-apartment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-ax-tts-openapi.json
-- filename: sk-telecom-facecan-openapi.json
-  format: json
-  label: SK Telecom A. facecan API
-  slug: sk-telecom-facecan-api
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-apartment-api-openapi.yml
+- filename: sk-telecom-area-info-api-openapi.yml
+  format: yaml
+  label: SK Telecom Area Info API
+  slug: sk-telecom-area-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-facecan-openapi.json
-- filename: sk-telecom-puzzle-place-congestion-openapi.json
-  format: json
-  label: SK Telecom Puzzle Place Congestion API
-  slug: sk-telecom-puzzle-place-congestion-api
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-area-info-api-openapi.yml
+- filename: sk-telecom-company-api-openapi.yml
+  format: yaml
+  label: SK Telecom Company API
+  slug: sk-telecom-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-puzzle-place-congestion-openapi.json
-- filename: sk-telecom-puzzle-residence-openapi.json
-  format: json
-  label: SK Telecom Puzzle Residence API
-  slug: sk-telecom-puzzle-residence-api
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-company-api-openapi.yml
+- filename: sk-telecom-congestion-api-openapi.yml
+  format: yaml
+  label: SK Telecom Congestion API
+  slug: sk-telecom-congestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-puzzle-residence-openapi.json
-- filename: sk-telecom-meta-openapi.json
-  format: json
-  label: SK Telecom META API
-  slug: sk-telecom-meta-api
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-congestion-api-openapi.yml
+- filename: sk-telecom-detect-api-openapi.yml
+  format: yaml
+  label: SK Telecom Detect API
+  slug: sk-telecom-detect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-meta-openapi.json
-- filename: sk-telecom-ovs-openapi.json
-  format: json
-  label: SK Telecom OVS API
-  slug: sk-telecom-ovs-api
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-detect-api-openapi.yml
+- filename: sk-telecom-device-api-openapi.yml
+  format: yaml
+  label: SK Telecom Device API
+  slug: sk-telecom-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-ovs-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-device-api-openapi.yml
+- filename: sk-telecom-face-api-openapi.yml
+  format: yaml
+  label: SK Telecom Face API
+  slug: sk-telecom-face-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-face-api-openapi.yml
+- filename: sk-telecom-golf-swing-analyzer-api-openapi.yml
+  format: yaml
+  label: SK Telecom Golf Swing Analyzer API
+  slug: sk-telecom-golf-swing-analyzer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-golf-swing-analyzer-api-openapi.yml
+- filename: sk-telecom-group-api-openapi.yml
+  format: yaml
+  label: SK Telecom Group API
+  slug: sk-telecom-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-group-api-openapi.yml
+- filename: sk-telecom-landmark-api-openapi.yml
+  format: yaml
+  label: SK Telecom Landmark API
+  slug: sk-telecom-landmark-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-landmark-api-openapi.yml
+- filename: sk-telecom-license-plate-recognizer-api-openapi.yml
+  format: yaml
+  label: SK Telecom License Plate Recognizer API
+  slug: sk-telecom-license-plate-recognizer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-license-plate-recognizer-api-openapi.yml
+- filename: sk-telecom-life-style-api-openapi.yml
+  format: yaml
+  label: SK Telecom Life style API
+  slug: sk-telecom-life-style-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-life-style-api-openapi.yml
+- filename: sk-telecom-message-api-openapi.yml
+  format: yaml
+  label: SK Telecom Message API
+  slug: sk-telecom-message-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-message-api-openapi.yml
+- filename: sk-telecom-place-api-openapi.yml
+  format: yaml
+  label: SK Telecom Place API
+  slug: sk-telecom-place-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-place-api-openapi.yml
+- filename: sk-telecom-pose-estimation-api-openapi.yml
+  format: yaml
+  label: SK Telecom Pose Estimation API
+  slug: sk-telecom-pose-estimation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-pose-estimation-api-openapi.yml
+- filename: sk-telecom-recognize-api-openapi.yml
+  format: yaml
+  label: SK Telecom Recognize API
+  slug: sk-telecom-recognize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-recognize-api-openapi.yml
+- filename: sk-telecom-resident-api-openapi.yml
+  format: yaml
+  label: SK Telecom Resident API
+  slug: sk-telecom-resident-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-resident-api-openapi.yml
+- filename: sk-telecom-segmentation-api-openapi.yml
+  format: yaml
+  label: SK Telecom Segmentation API
+  slug: sk-telecom-segmentation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-segmentation-api-openapi.yml
+- filename: sk-telecom-statistics-api-openapi.yml
+  format: yaml
+  label: SK Telecom Statistics API
+  slug: sk-telecom-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-statistics-api-openapi.yml
+- filename: sk-telecom-subject-api-openapi.yml
+  format: yaml
+  label: SK Telecom Subject API
+  slug: sk-telecom-subject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-subject-api-openapi.yml
+- filename: sk-telecom-tts-api-openapi.yml
+  format: yaml
+  label: SK Telecom Tts API
+  slug: sk-telecom-tts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-tts-api-openapi.yml
+- filename: sk-telecom-visit-api-openapi.yml
+  format: yaml
+  label: SK Telecom Visit API
+  slug: sk-telecom-visit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-visit-api-openapi.yml
+- filename: sk-telecom-voice-api-openapi.yml
+  format: yaml
+  label: SK Telecom Voice API
+  slug: sk-telecom-voice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/openapi/sk-telecom-voice-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

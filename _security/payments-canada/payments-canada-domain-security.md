@@ -1,53 +1,65 @@
 ---
 api_specs:
-- filename: rtr-inbound-participant-payment-api-openapi.yml
+- filename: payments-canada-application-level-heartbeat-api-openapi.yml
   format: yaml
-  label: RTR Sandbox - Inbound Participant Payment API
-  slug: rtr-inbound-participant-payment-api
+  label: Payments Canada application level heartbeat API
+  slug: payments-canada-application-level-heartbeat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/rtr-inbound-participant-payment-api-openapi.yml
-- filename: rtr-inbound-csp-heartbeat-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/payments-canada-application-level-heartbeat-api-openapi.yml
+- filename: payments-canada-ccin-extract-resource-api-openapi.yml
   format: yaml
-  label: RTR Sandbox - Inbound Exchange Heartbeat API
-  slug: rtr-inbound-heartbeat-api
+  label: Payments Canada Ccin Extract Resource API
+  slug: payments-canada-ccin-extract-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/rtr-inbound-csp-heartbeat-api-openapi.yml
-- filename: rtr-interest-report-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/payments-canada-ccin-extract-resource-api-openapi.yml
+- filename: payments-canada-fif-branches-resource-api-openapi.yml
   format: yaml
-  label: RTR Sandbox - Interest Report API
-  slug: rtr-interest-report-api
+  label: Payments Canada Fif Branches Resource API
+  slug: payments-canada-fif-branches-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/rtr-interest-report-api-openapi.yml
-- filename: rtr-balance-report-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/payments-canada-fif-branches-resource-api-openapi.yml
+- filename: payments-canada-fif-extracts-resource-api-openapi.yml
   format: yaml
-  label: RTR Sandbox - Payment Capacity Balance Report API
-  slug: rtr-balance-report-api
+  label: Payments Canada Fif Extracts Resource API
+  slug: payments-canada-fif-extracts-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/rtr-balance-report-api-openapi.yml
-- filename: fif-extracts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/payments-canada-fif-extracts-resource-api-openapi.yml
+- filename: payments-canada-interest-report-api-openapi.yml
   format: yaml
-  label: FIF Extracts API
-  slug: fif-extracts-api
+  label: Payments Canada Interest Report API
+  slug: payments-canada-interest-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/fif-extracts-api-openapi.yml
-- filename: fif-branch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/payments-canada-interest-report-api-openapi.yml
+- filename: payments-canada-master-extract-resource-api-openapi.yml
   format: yaml
-  label: FIF Branch API
-  slug: fif-branch-api
+  label: Payments Canada Master Extract Resource API
+  slug: payments-canada-master-extract-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/fif-branch-api-openapi.yml
-- filename: ccin-extracts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/payments-canada-master-extract-resource-api-openapi.yml
+- filename: payments-canada-report-api-openapi.yml
   format: yaml
-  label: CCIN Extracts API
-  slug: ccin-extracts-api
+  label: Payments Canada Report API
+  slug: payments-canada-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/ccin-extracts-api-openapi.yml
-- filename: ccin-lookup-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/payments-canada-report-api-openapi.yml
+- filename: payments-canada-single-credit-transfer-api-openapi.yml
   format: yaml
-  label: CCIN Lookup API
-  slug: ccin-lookup-api
+  label: Payments Canada single credit transfer API
+  slug: payments-canada-single-credit-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/ccin-lookup-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/payments-canada-single-credit-transfer-api-openapi.yml
+- filename: payments-canada-single-credit-transfer-status-enquiry-api-openapi.yml
+  format: yaml
+  label: Payments Canada single credit transfer status enquiry API
+  slug: payments-canada-single-credit-transfer-status-enquiry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/payments-canada-single-credit-transfer-status-enquiry-api-openapi.yml
+- filename: payments-canada-update-extract-resource-api-openapi.yml
+  format: yaml
+  label: Payments Canada Update Extract Resource API
+  slug: payments-canada-update-extract-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/payments-canada-update-extract-resource-api-openapi.yml
 description: ''
 domains:
 - caa: []

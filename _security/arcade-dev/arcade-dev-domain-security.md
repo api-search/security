@@ -79,8 +79,8 @@ layout: security
 method: probed
 name: Arcade Dev Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for arcade-dev, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
-provider_name: arcade-dev
+overview: 'Domain security posture for Arcade.dev, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+provider_name: Arcade.dev
 provider_slug: arcade-dev
 slug: arcade-dev-domain-security
 source_filename: arcade-dev-domain-security.yml

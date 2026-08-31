@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: futureverse-rootrewards-quest-api-openapi.yml
+- filename: futureverse-campaigns-api-openapi.yml
   format: yaml
-  label: RootRewards Quest API
-  slug: rootrewards-quest-api
+  label: Futureverse Campaigns API
+  slug: futureverse-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/futureverse/refs/heads/main/openapi/futureverse-rootrewards-quest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/futureverse/refs/heads/main/openapi/futureverse-campaigns-api-openapi.yml
+- filename: futureverse-quests-api-openapi.yml
+  format: yaml
+  label: Futureverse Quests API
+  slug: futureverse-quests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/futureverse/refs/heads/main/openapi/futureverse-quests-api-openapi.yml
 description: ''
 domains:
 - caa: []

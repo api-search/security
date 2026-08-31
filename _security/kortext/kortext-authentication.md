@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: kortext-labs-api-openapi.json
-  format: json
-  label: Kortext Labs AI Study Tools API
-  slug: kortext-labs-ai-study-tools-api
+- filename: kortext-chat-api-openapi.yml
+  format: yaml
+  label: Kortext Chat API
+  slug: kortext-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-labs-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-chat-api-openapi.yml
+- filename: kortext-content-api-openapi.yml
+  format: yaml
+  label: Kortext Content API
+  slug: kortext-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-content-api-openapi.yml
+- filename: kortext-health-checks-api-openapi.yml
+  format: yaml
+  label: Kortext Health Checks API
+  slug: kortext-health-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-health-checks-api-openapi.yml
+- filename: kortext-labs-api-openapi.yml
+  format: yaml
+  label: Kortext Labs API
+  slug: kortext-labs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-labs-api-openapi.yml
+- filename: kortext-podcast-api-openapi.yml
+  format: yaml
+  label: Kortext Podcast API
+  slug: kortext-podcast-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-podcast-api-openapi.yml
+- filename: kortext-quiz-api-openapi.yml
+  format: yaml
+  label: Kortext Quiz API
+  slug: kortext-quiz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-quiz-api-openapi.yml
+- filename: kortext-reading-list-api-openapi.yml
+  format: yaml
+  label: Kortext Reading List API
+  slug: kortext-reading-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-reading-list-api-openapi.yml
+- filename: kortext-test-api-openapi.yml
+  format: yaml
+  label: Kortext Test API
+  slug: kortext-test-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-test-api-openapi.yml
 auth_types:
 - http
 description: ''

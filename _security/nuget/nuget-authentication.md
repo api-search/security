@@ -2,30 +2,6 @@
 api_key_in:
 - header
 api_specs:
-- filename: nuget-catalog-api-openapi.yml
-  format: yaml
-  label: NuGet Catalog API
-  slug: nuget-catalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-catalog-api-openapi.yml
-- filename: nuget-search-api-openapi.yml
-  format: yaml
-  label: NuGet Search API
-  slug: nuget-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-search-api-openapi.yml
-- filename: nuget-package-content-api-openapi.yml
-  format: yaml
-  label: NuGet Package Content API
-  slug: nuget-package-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-package-content-api-openapi.yml
-- filename: nuget-autocomplete-api-openapi.yml
-  format: yaml
-  label: NuGet Autocomplete API
-  slug: nuget-autocomplete-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-autocomplete-api-openapi.yml
 - filename: nuget-package-publish-api-openapi.yml
   format: yaml
   label: NuGet Package Publish API

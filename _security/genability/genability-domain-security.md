@@ -1,89 +1,17 @@
 ---
 api_specs:
-- filename: genability-signal-openapi.json
-  format: json
-  label: Genability Signal Tariff API
-  slug: genability-signal-tariff-api
+- filename: genability-get-api-openapi.yml
+  format: yaml
+  label: Genability GET API
+  slug: genability-get-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/openapi/genability-signal-openapi.json
-- filename: genability-signal-openapi.json
-  format: json
-  label: Genability Signal Load Serving Entity API
-  slug: genability-signal-load-serving-entity-api
+  url: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/openapi/genability-get-api-openapi.yml
+- filename: genability-rest-api-openapi.yml
+  format: yaml
+  label: Genability Rest API
+  slug: genability-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/openapi/genability-signal-openapi.json
-- filename: genability-signal-openapi.json
-  format: json
-  label: Genability Signal Territory API
-  slug: genability-signal-territory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/openapi/genability-signal-openapi.json
-- filename: genability-signal-openapi.json
-  format: json
-  label: Genability Signal Cost Calculation API
-  slug: genability-signal-cost-calculation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/openapi/genability-signal-openapi.json
-- filename: genability-signal-openapi.json
-  format: json
-  label: Genability Signal Smart Price API
-  slug: genability-signal-smart-price-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/openapi/genability-signal-openapi.json
-- filename: genability-signal-openapi.json
-  format: json
-  label: Genability Signal Time of Use API
-  slug: genability-signal-time-of-use-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/openapi/genability-signal-openapi.json
-- filename: genability-signal-openapi.json
-  format: json
-  label: Genability Signal Calendar API
-  slug: genability-signal-calendar-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/openapi/genability-signal-openapi.json
-- filename: genability-signal-openapi.json
-  format: json
-  label: Genability Signal Season API
-  slug: genability-signal-season-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/openapi/genability-signal-openapi.json
-- filename: genability-signal-openapi.json
-  format: json
-  label: Genability Signal Property and Lookup API
-  slug: genability-signal-property-and-lookup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/openapi/genability-signal-openapi.json
-- filename: genability-signal-openapi.json
-  format: json
-  label: Genability Signal Typical Baseline API
-  slug: genability-signal-typical-baseline-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/openapi/genability-signal-openapi.json
-- filename: genability-signal-openapi.json
-  format: json
-  label: Genability Signal ZIP Code API
-  slug: genability-signal-zip-code-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/openapi/genability-signal-openapi.json
-- filename: genability-signal-openapi.json
-  format: json
-  label: Genability Signal Utility Tax API
-  slug: genability-signal-utility-tax-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/openapi/genability-signal-openapi.json
-- filename: genability-signal-openapi.json
-  format: json
-  label: Genability Signal Organization Usage API
-  slug: genability-signal-organization-usage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/openapi/genability-signal-openapi.json
-- filename: genability-signal-openapi.json
-  format: json
-  label: Genability Signal Echo API
-  slug: genability-signal-echo-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/openapi/genability-signal-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/openapi/genability-rest-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,95 +1,95 @@
 ---
 api_specs:
-- filename: spot-analytics-api-openapi.yml
+- filename: spot-ai-analytics-api-openapi.yml
   format: yaml
-  label: Spot Analytics API
-  slug: spot-analytics-api
+  label: Spot AI Analytics API
+  slug: spot-ai-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-analytics-api-openapi.yml
-- filename: spot-appliances-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-analytics-api-openapi.yml
+- filename: spot-ai-appliances-api-openapi.yml
   format: yaml
-  label: Spot Appliances API
-  slug: spot-appliances-api
+  label: Spot AI Appliances API
+  slug: spot-ai-appliances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-appliances-api-openapi.yml
-- filename: spot-audio-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-appliances-api-openapi.yml
+- filename: spot-ai-audio-api-openapi.yml
   format: yaml
-  label: Spot Audio API
-  slug: spot-audio-api
+  label: Spot AI Audio API
+  slug: spot-ai-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-audio-api-openapi.yml
-- filename: spot-cameras-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-audio-api-openapi.yml
+- filename: spot-ai-cameras-api-openapi.yml
   format: yaml
-  label: Spot Cameras API
-  slug: spot-cameras-api
+  label: Spot AI Cameras API
+  slug: spot-ai-cameras-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-cameras-api-openapi.yml
-- filename: spot-embeds-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-cameras-api-openapi.yml
+- filename: spot-ai-embeds-api-openapi.yml
   format: yaml
-  label: Spot Embeds API
-  slug: spot-embeds-api
+  label: Spot AI Embeds API
+  slug: spot-ai-embeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-embeds-api-openapi.yml
-- filename: spot-historical-footage-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-embeds-api-openapi.yml
+- filename: spot-ai-historical-footage-api-openapi.yml
   format: yaml
-  label: Spot Historical Footage API
-  slug: spot-historical-footage-api
+  label: Spot AI Historical Footage API
+  slug: spot-ai-historical-footage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-historical-footage-api-openapi.yml
-- filename: spot-integration-devices-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-historical-footage-api-openapi.yml
+- filename: spot-ai-integration-devices-api-openapi.yml
   format: yaml
-  label: Spot Integration Devices API
-  slug: spot-integration-devices-api
+  label: Spot AI Integration Devices API
+  slug: spot-ai-integration-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-integration-devices-api-openapi.yml
-- filename: spot-integration-event-types-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-integration-devices-api-openapi.yml
+- filename: spot-ai-integration-event-types-api-openapi.yml
   format: yaml
-  label: Spot Integration Event Types API
-  slug: spot-integration-event-types-api
+  label: Spot AI Integration Event Types API
+  slug: spot-ai-integration-event-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-integration-event-types-api-openapi.yml
-- filename: spot-integration-events-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-integration-event-types-api-openapi.yml
+- filename: spot-ai-integration-events-api-openapi.yml
   format: yaml
-  label: Spot Integration Events API
-  slug: spot-integration-events-api
+  label: Spot AI Integration Events API
+  slug: spot-ai-integration-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-integration-events-api-openapi.yml
-- filename: spot-integrations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-integration-events-api-openapi.yml
+- filename: spot-ai-integrations-api-openapi.yml
   format: yaml
-  label: Spot Integrations API
-  slug: spot-integrations-api
+  label: Spot AI Integrations API
+  slug: spot-ai-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-integrations-api-openapi.yml
-- filename: spot-locations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-integrations-api-openapi.yml
+- filename: spot-ai-locations-api-openapi.yml
   format: yaml
-  label: Spot Locations API
-  slug: spot-locations-api
+  label: Spot AI Locations API
+  slug: spot-ai-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-locations-api-openapi.yml
-- filename: spot-lpi-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-locations-api-openapi.yml
+- filename: spot-ai-lpi-api-openapi.yml
   format: yaml
-  label: Spot LPI API
-  slug: spot-lpi-api
+  label: Spot AI LPI API
+  slug: spot-ai-lpi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-lpi-api-openapi.yml
-- filename: spot-lpr-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-lpi-api-openapi.yml
+- filename: spot-ai-lpr-api-openapi.yml
   format: yaml
-  label: Spot LPR API
-  slug: spot-lpr-api
+  label: Spot AI LPR API
+  slug: spot-ai-lpr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-lpr-api-openapi.yml
-- filename: spot-shared-search-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-lpr-api-openapi.yml
+- filename: spot-ai-shared-search-api-openapi.yml
   format: yaml
-  label: Spot Shared Search API
-  slug: spot-shared-search-api
+  label: Spot AI Shared Search API
+  slug: spot-ai-shared-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-shared-search-api-openapi.yml
-- filename: spot-zones-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-shared-search-api-openapi.yml
+- filename: spot-ai-zones-api-openapi.yml
   format: yaml
-  label: Spot Zones API
-  slug: spot-zones-api
+  label: Spot AI Zones API
+  slug: spot-ai-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-zones-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-zones-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,17 +1,65 @@
 ---
 api_specs:
-- filename: fintary-open-api-openapi.yml
+- filename: fintary-agents-api-openapi.yml
   format: yaml
-  label: Fintary Open API
-  slug: fintary-open-api
+  label: Fintary Agents API
+  slug: fintary-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-open-api-openapi.yml
-- filename: fintary-ams-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-agents-api-openapi.yml
+- filename: fintary-ams-agents-api-openapi.yml
   format: yaml
-  label: Fintary AMS API
-  slug: fintary-ams-api
+  label: Fintary AMS - Agents API
+  slug: fintary-ams-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-ams-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-ams-agents-api-openapi.yml
+- filename: fintary-ams-configs-api-openapi.yml
+  format: yaml
+  label: Fintary AMS - Configs API
+  slug: fintary-ams-configs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-ams-configs-api-openapi.yml
+- filename: fintary-ams-customers-api-openapi.yml
+  format: yaml
+  label: Fintary AMS - Customers API
+  slug: fintary-ams-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-ams-customers-api-openapi.yml
+- filename: fintary-ams-policies-api-openapi.yml
+  format: yaml
+  label: Fintary AMS - Policies API
+  slug: fintary-ams-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-ams-policies-api-openapi.yml
+- filename: fintary-ams-registry-api-openapi.yml
+  format: yaml
+  label: Fintary AMS - Registry API
+  slug: fintary-ams-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-ams-registry-api-openapi.yml
+- filename: fintary-ams-tasks-api-openapi.yml
+  format: yaml
+  label: Fintary AMS - Tasks API
+  slug: fintary-ams-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-ams-tasks-api-openapi.yml
+- filename: fintary-analytics-api-openapi.yml
+  format: yaml
+  label: Fintary Analytics API
+  slug: fintary-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-analytics-api-openapi.yml
+- filename: fintary-commission-reports-api-openapi.yml
+  format: yaml
+  label: Fintary Commission Reports API
+  slug: fintary-commission-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-commission-reports-api-openapi.yml
+- filename: fintary-documents-api-openapi.yml
+  format: yaml
+  label: Fintary Documents API
+  slug: fintary-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-documents-api-openapi.yml
 description: ''
 domains:
 - caa: []

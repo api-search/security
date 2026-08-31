@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: university-of-michigan-ann-arbor-deep-blue-documents-oai-pmh-openapi.yml
+- filename: university-of-michigan-ann-arbor-repository-api-openapi.yml
   format: yaml
-  label: Deep Blue Documents OAI-PMH
-  slug: deep-blue-documents-oai
+  label: University of Michigan-Ann Arbor Repository API
+  slug: university-of-michigan-ann-arbor-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/openapi/university-of-michigan-ann-arbor-deep-blue-documents-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/openapi/university-of-michigan-ann-arbor-repository-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

@@ -38,7 +38,7 @@ domains:
   domain: openexr.com
   spf: false
 hosts:
-- cert_expires: Sep  6 18:54:28 2026 GMT
+- cert_expires: Nov  5 17:59:39 2026 GMT
   host: www.aswf.io
   hsts: true
   hsts_max_age: 300
@@ -66,7 +66,7 @@ slug: academy-software-foundation-domain-security
 source_filename: academy-software-foundation-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aswf.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 18:54:28 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: openexr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 20:19:25 2026 GMT\n  hsts: false\n- host: www.openvdb.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 16:04:23 2026 GMT\n  hsts: false\ndomains:\n- domain: aswf.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: openexr.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aswf.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 17:59:39 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: openexr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 20:19:25 2026 GMT\n  hsts: false\n- host: www.openvdb.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 16:04:23 2026 GMT\n  hsts: false\ndomains:\n- domain: aswf.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: openexr.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/security/academy-software-foundation-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

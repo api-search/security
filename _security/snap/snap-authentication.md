@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: snap-conversions-api-v3-openapi.yml
+- filename: snap-conversion-api-openapi.yml
   format: yaml
-  label: Snap Conversions API
-  slug: snap-conversions-api
+  label: Snap Conversion API
+  slug: snap-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/openapi/snap-conversions-api-v3-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/openapi/snap-conversion-api-openapi.yml
+- filename: snap-events-api-openapi.yml
+  format: yaml
+  label: Snap Events API
+  slug: snap-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/openapi/snap-events-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

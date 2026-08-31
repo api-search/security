@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: hyperdx-external-api-openapi.json
-  format: json
-  label: HyperDX External API
-  slug: hyperdx-external-api
+- filename: hyperdx-alerts-api-openapi.yml
+  format: yaml
+  label: HyperDX Alerts API
+  slug: hyperdx-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/hyperdx-external-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/hyperdx-alerts-api-openapi.yml
+- filename: hyperdx-charts-api-openapi.yml
+  format: yaml
+  label: HyperDX Charts API
+  slug: hyperdx-charts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/hyperdx-charts-api-openapi.yml
+- filename: hyperdx-connections-api-openapi.yml
+  format: yaml
+  label: HyperDX Connections API
+  slug: hyperdx-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/hyperdx-connections-api-openapi.yml
+- filename: hyperdx-dashboards-api-openapi.yml
+  format: yaml
+  label: HyperDX Dashboards API
+  slug: hyperdx-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/hyperdx-dashboards-api-openapi.yml
+- filename: hyperdx-saved-searches-api-openapi.yml
+  format: yaml
+  label: HyperDX Saved Searches API
+  slug: hyperdx-saved-searches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/hyperdx-saved-searches-api-openapi.yml
+- filename: hyperdx-search-api-openapi.yml
+  format: yaml
+  label: HyperDX Search API
+  slug: hyperdx-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/hyperdx-search-api-openapi.yml
+- filename: hyperdx-sources-api-openapi.yml
+  format: yaml
+  label: HyperDX Sources API
+  slug: hyperdx-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/hyperdx-sources-api-openapi.yml
+- filename: hyperdx-team-api-openapi.yml
+  format: yaml
+  label: HyperDX Team API
+  slug: hyperdx-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/hyperdx-team-api-openapi.yml
+- filename: hyperdx-webhooks-api-openapi.yml
+  format: yaml
+  label: HyperDX Webhooks API
+  slug: hyperdx-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/hyperdx-webhooks-api-openapi.yml
 auth_types:
 - http
 description: One credential, one scheme, across every HyperDX surface. The REST API (v1 and v2), the MCP server and the CLI all authenticate with a personal API access key presented as an HTTP Bearer token. There is no OAuth, no OpenID Connect, no mTLS, no scopes and no service-account concept — the key carries whatever the person it belongs to can do in their team.

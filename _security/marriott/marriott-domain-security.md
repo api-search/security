@@ -1,41 +1,77 @@
 ---
 api_specs:
-- filename: marriott-tip-internet-portal-api-openapi.json
-  format: json
-  label: Marriott TIP Internet Portal API
-  slug: marriott-tip-internet-portal-api
+- filename: marriott-actuator-api-openapi.yml
+  format: yaml
+  label: Marriott International Actuator API
+  slug: marriott-actuator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/openapi/marriott-tip-internet-portal-api-openapi.json
-- filename: marriott-loyalty-account-merge-api-openapi.json
-  format: json
-  label: Marriott Loyalty Account Merge API
-  slug: marriott-loyalty-account-merge-api
+  url: https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/openapi/marriott-actuator-api-openapi.yml
+- filename: marriott-auth-api-openapi.yml
+  format: yaml
+  label: Marriott International Auth API
+  slug: marriott-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/openapi/marriott-loyalty-account-merge-api-openapi.json
-- filename: marriott-data-collection-api-openapi.json
-  format: json
-  label: Marriott Data Collection API
-  slug: marriott-data-collection-api
+  url: https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/openapi/marriott-auth-api-openapi.yml
+- filename: marriott-data-api-openapi.yml
+  format: yaml
+  label: Marriott International Data API
+  slug: marriott-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/openapi/marriott-data-collection-api-openapi.json
-- filename: marriott-commerce-payment-processor-api-openapi.json
-  format: json
-  label: Marriott Commerce Payment Processor API
-  slug: marriott-commerce-payment-processor-api
+  url: https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/openapi/marriott-data-api-openapi.yml
+- filename: marriott-data-collection-event-api-openapi.yml
+  format: yaml
+  label: Marriott International Data Collection Event API
+  slug: marriott-data-collection-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/openapi/marriott-commerce-payment-processor-api-openapi.json
-- filename: marriott-finance-status-notifier-api-openapi.json
-  format: json
-  label: Marriott Finance Status Notifier API
-  slug: marriott-finance-status-notifier-api
+  url: https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/openapi/marriott-data-collection-event-api-openapi.yml
+- filename: marriott-freedompay-freeway-service-api-openapi.yml
+  format: yaml
+  label: Marriott International FreedomPay Freeway Service API
+  slug: marriott-freedompay-freeway-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/openapi/marriott-finance-status-notifier-api-openapi.json
-- filename: marriott-hotel-operations-ara-api-openapi.json
-  format: json
-  label: Marriott Hotel Operations ARA Preview Submit API
-  slug: marriott-hotel-operations-ara-api
+  url: https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/openapi/marriott-freedompay-freeway-service-api-openapi.yml
+- filename: marriott-guest-validation-api-openapi.yml
+  format: yaml
+  label: Marriott International Guest Validation API
+  slug: marriott-guest-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/openapi/marriott-hotel-operations-ara-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/openapi/marriott-guest-validation-api-openapi.yml
+- filename: marriott-internet-purchase-update-api-openapi.yml
+  format: yaml
+  label: Marriott International Internet Purchase Update API
+  slug: marriott-internet-purchase-update-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/openapi/marriott-internet-purchase-update-api-openapi.yml
+- filename: marriott-landing-page-api-openapi.yml
+  format: yaml
+  label: Marriott International Landing Page API
+  slug: marriott-landing-page-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/openapi/marriott-landing-page-api-openapi.yml
+- filename: marriott-loyalty-api-openapi.yml
+  format: yaml
+  label: Marriott International Loyalty API
+  slug: marriott-loyalty-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/openapi/marriott-loyalty-api-openapi.yml
+- filename: marriott-postpreviewsubmit-api-openapi.yml
+  format: yaml
+  label: Marriott International Post Preview Submit API
+  slug: marriott-postpreviewsubmit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/openapi/marriott-postpreviewsubmit-api-openapi.yml
+- filename: marriott-retrieveconfigsmonitoredbyconfigwatcher-api-openapi.yml
+  format: yaml
+  label: Marriott International Retrieve Configs Monitored By Config Watcher API
+  slug: marriott-retrieveconfigsmonitoredbyconfigwatcher-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/openapi/marriott-retrieveconfigsmonitoredbyconfigwatcher-api-openapi.yml
+- filename: marriott-status-api-openapi.yml
+  format: yaml
+  label: Marriott International Status API
+  slug: marriott-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/openapi/marriott-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

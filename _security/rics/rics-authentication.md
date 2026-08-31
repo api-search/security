@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: rics-digitalcommunity-api-openapi.json
-  format: json
-  label: RICS DigitalCommunity API
-  slug: rics-digitalcommunity-api
+- filename: rics-azurestorage-api-openapi.yml
+  format: yaml
+  label: RICS (Royal Institution of Chartered Surveyors) Azure Storage API
+  slug: rics-azurestorage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-digitalcommunity-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-azurestorage-api-openapi.yml
+- filename: rics-olamerchantpost-api-openapi.yml
+  format: yaml
+  label: RICS (Royal Institution of Chartered Surveyors) Ola Merchant Post API
+  slug: rics-olamerchantpost-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-olamerchantpost-api-openapi.yml
+- filename: rics-payment-api-openapi.yml
+  format: yaml
+  label: RICS (Royal Institution of Chartered Surveyors) Payment API
+  slug: rics-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-payment-api-openapi.yml
+- filename: rics-profile-api-openapi.yml
+  format: yaml
+  label: RICS (Royal Institution of Chartered Surveyors) Profile API
+  slug: rics-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-profile-api-openapi.yml
+- filename: rics-regulation-api-openapi.yml
+  format: yaml
+  label: RICS (Royal Institution of Chartered Surveyors) Regulation API
+  slug: rics-regulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-regulation-api-openapi.yml
+- filename: rics-surveywriter-api-openapi.yml
+  format: yaml
+  label: RICS (Royal Institution of Chartered Surveyors) Survey Writer API
+  slug: rics-surveywriter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-surveywriter-api-openapi.yml
+- filename: rics-token-api-openapi.yml
+  format: yaml
+  label: RICS (Royal Institution of Chartered Surveyors) Token API
+  slug: rics-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-token-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

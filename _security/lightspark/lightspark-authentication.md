@@ -134,6 +134,12 @@ api_specs:
   slug: lightspark-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-transactions-api-openapi.yml
+- filename: lightspark-webhooks-api-openapi.yml
+  format: yaml
+  label: Lightspark Webhooks API
+  slug: lightspark-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http

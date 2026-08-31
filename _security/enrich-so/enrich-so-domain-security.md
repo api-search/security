@@ -1,41 +1,17 @@
 ---
 api_specs:
-- filename: enrich-so-account-api-openapi.yml
-  format: yaml
-  label: Enrich Account API
-  slug: enrich-so-account-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-account-api-openapi.yml
-- filename: enrich-so-company-intelligence-api-openapi.yml
-  format: yaml
-  label: Enrich Company Intelligence API
-  slug: enrich-so-company-intelligence-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-company-intelligence-api-openapi.yml
 - filename: enrich-so-email-finder-api-openapi.yml
   format: yaml
   label: Enrich Email Finder API
   slug: enrich-so-email-finder-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-email-finder-api-openapi.yml
-- filename: enrich-so-email-verification-api-openapi.yml
-  format: yaml
-  label: Enrich Email Verification API
-  slug: enrich-so-email-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-email-verification-api-openapi.yml
 - filename: enrich-so-lead-finder-api-openapi.yml
   format: yaml
   label: Enrich Lead Finder API
   slug: enrich-so-lead-finder-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-lead-finder-api-openapi.yml
-- filename: enrich-so-person-enrichment-api-openapi.yml
-  format: yaml
-  label: Enrich Person Enrichment API
-  slug: enrich-so-person-enrichment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-person-enrichment-api-openapi.yml
 - filename: enrich-so-phone-finder-api-openapi.yml
   format: yaml
   label: Enrich Phone Finder API
@@ -54,12 +30,84 @@ api_specs:
   slug: enrich-so-people-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-people-search-api-openapi.yml
-- filename: enrich-so-legacy-api-openapi.json
-  format: json
-  label: Enrich Labs Legacy API (v1/v2)
-  slug: enrich-so-legacy-api
+- filename: enrich-so-authentication-api-openapi.yml
+  format: yaml
+  label: Enrich Authentication API
+  slug: enrich-so-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-legacy-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-authentication-api-openapi.yml
+- filename: enrich-so-company-followers-api-openapi.yml
+  format: yaml
+  label: Enrich Company Followers API
+  slug: enrich-so-company-followers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-company-followers-api-openapi.yml
+- filename: enrich-so-company-followers-count-estimation-api-openapi.yml
+  format: yaml
+  label: Enrich Company Followers/Count Estimation API
+  slug: enrich-so-company-followers-count-estimation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-company-followers-count-estimation-api-openapi.yml
+- filename: enrich-so-email-validation-api-openapi.yml
+  format: yaml
+  label: Enrich Email Validation API
+  slug: enrich-so-email-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-email-validation-api-openapi.yml
+- filename: enrich-so-enrich-api-openapi.yml
+  format: yaml
+  label: Enrich Enrich API
+  slug: enrich-so-enrich-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-enrich-api-openapi.yml
+- filename: enrich-so-ip-to-company-api-openapi.yml
+  format: yaml
+  label: Enrich IP to Company API
+  slug: enrich-so-ip-to-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-ip-to-company-api-openapi.yml
+- filename: enrich-so-reverse-email-lookup-api-openapi.yml
+  format: yaml
+  label: Enrich Reverse Email Lookup API
+  slug: enrich-so-reverse-email-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-reverse-email-lookup-api-openapi.yml
+- filename: enrich-so-wallets-api-openapi.yml
+  format: yaml
+  label: Enrich Wallets API
+  slug: enrich-so-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-wallets-api-openapi.yml
+- filename: enrich-so-account-api-openapi.yml
+  format: yaml
+  label: Enrich Account API
+  slug: enrich-so-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-account-api-openapi.yml
+- filename: enrich-so-company-intelligence-api-openapi.yml
+  format: yaml
+  label: Enrich Company Intelligence API
+  slug: enrich-so-company-intelligence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-company-intelligence-api-openapi.yml
+- filename: enrich-so-email-verification-api-openapi.yml
+  format: yaml
+  label: Enrich Email Verification API
+  slug: enrich-so-email-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-email-verification-api-openapi.yml
+- filename: enrich-so-person-enrichment-api-openapi.yml
+  format: yaml
+  label: Enrich Person Enrichment API
+  slug: enrich-so-person-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-person-enrichment-api-openapi.yml
+- filename: enrich-so-webhooks-api-openapi.yml
+  format: yaml
+  label: Enrich Webhooks API
+  slug: enrich-so-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

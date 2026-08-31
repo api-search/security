@@ -192,6 +192,24 @@ api_specs:
   slug: codat-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/codat/refs/heads/main/openapi/codat-webhooks-api-openapi.yml
+- filename: codat-bank-feeds-api-openapi.yml
+  format: yaml
+  label: Codat Bank Feeds API
+  slug: codat-bank-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codat/refs/heads/main/openapi/codat-bank-feeds-api-openapi.yml
+- filename: codat-lending-api-openapi.yml
+  format: yaml
+  label: Codat Lending API
+  slug: codat-lending-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codat/refs/heads/main/openapi/codat-lending-api-openapi.yml
+- filename: codat-platform-api-api-openapi.yml
+  format: yaml
+  label: Codat Platform API
+  slug: codat-platform-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codat/refs/heads/main/openapi/codat-platform-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

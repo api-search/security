@@ -1,17 +1,77 @@
 ---
 api_specs:
-- filename: santeacademie-frontstage-openapi.json
-  format: json
-  label: Santé Académie Frontstage API
-  slug: santé-académie-frontstage-api
+- filename: santeacademie-article-api-openapi.yml
+  format: yaml
+  label: Santé Académie Article API
+  slug: santeacademie-article-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santeacademie/refs/heads/main/openapi/santeacademie-frontstage-openapi.json
-- filename: santeacademie-connector-openapi.json
-  format: json
-  label: Santé Académie Connector API
-  slug: santé-académie-connector-api
+  url: https://raw.githubusercontent.com/api-evangelist/santeacademie/refs/heads/main/openapi/santeacademie-article-api-openapi.yml
+- filename: santeacademie-customcatalog-api-openapi.yml
+  format: yaml
+  label: Santé Académie Custom Catalog API
+  slug: santeacademie-customcatalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santeacademie/refs/heads/main/openapi/santeacademie-connector-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/santeacademie/refs/heads/main/openapi/santeacademie-customcatalog-api-openapi.yml
+- filename: santeacademie-faq-api-openapi.yml
+  format: yaml
+  label: Santé Académie Faq API
+  slug: santeacademie-faq-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santeacademie/refs/heads/main/openapi/santeacademie-faq-api-openapi.yml
+- filename: santeacademie-health-facility-api-openapi.yml
+  format: yaml
+  label: Santé Académie Health Facility API
+  slug: santeacademie-health-facility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santeacademie/refs/heads/main/openapi/santeacademie-health-facility-api-openapi.yml
+- filename: santeacademie-job-api-openapi.yml
+  format: yaml
+  label: Santé Académie Job API
+  slug: santeacademie-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santeacademie/refs/heads/main/openapi/santeacademie-job-api-openapi.yml
+- filename: santeacademie-jobspace-api-openapi.yml
+  format: yaml
+  label: Santé Académie Job Space API
+  slug: santeacademie-jobspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santeacademie/refs/heads/main/openapi/santeacademie-jobspace-api-openapi.yml
+- filename: santeacademie-mediacategory-api-openapi.yml
+  format: yaml
+  label: Santé Académie Media Category API
+  slug: santeacademie-mediacategory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santeacademie/refs/heads/main/openapi/santeacademie-mediacategory-api-openapi.yml
+- filename: santeacademie-pharmacy-api-openapi.yml
+  format: yaml
+  label: Santé Académie Pharmacy API
+  slug: santeacademie-pharmacy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santeacademie/refs/heads/main/openapi/santeacademie-pharmacy-api-openapi.yml
+- filename: santeacademie-resource-api-openapi.yml
+  format: yaml
+  label: Santé Académie Resource API
+  slug: santeacademie-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santeacademie/refs/heads/main/openapi/santeacademie-resource-api-openapi.yml
+- filename: santeacademie-sitemap-api-openapi.yml
+  format: yaml
+  label: Santé Académie Sitemap API
+  slug: santeacademie-sitemap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santeacademie/refs/heads/main/openapi/santeacademie-sitemap-api-openapi.yml
+- filename: santeacademie-testimonial-api-openapi.yml
+  format: yaml
+  label: Santé Académie Testimonial API
+  slug: santeacademie-testimonial-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santeacademie/refs/heads/main/openapi/santeacademie-testimonial-api-openapi.yml
+- filename: santeacademie-topic-api-openapi.yml
+  format: yaml
+  label: Santé Académie Topic API
+  slug: santeacademie-topic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santeacademie/refs/heads/main/openapi/santeacademie-topic-api-openapi.yml
 description: ''
 domains:
 - caa: []

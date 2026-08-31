@@ -1,17 +1,113 @@
 ---
 api_specs:
-- filename: princeton-allsearch-api-openapi.yml
-  format: yaml
-  label: Princeton University Library Allsearch API
-  slug: allsearch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-allsearch-api-openapi.yml
 - filename: princeton-art-museum-api-openapi.yml
   format: yaml
   label: Princeton University Art Museum API
   slug: art-museum-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-art-museum-api-openapi.yml
+- filename: princeton-article-api-openapi.yml
+  format: yaml
+  label: Princeton University Article API
+  slug: princeton-article-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-article-api-openapi.yml
+- filename: princeton-banner-api-openapi.yml
+  format: yaml
+  label: Princeton University Banner API
+  slug: princeton-banner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-banner-api-openapi.yml
+- filename: princeton-best-bets-api-openapi.yml
+  format: yaml
+  label: Princeton University Best Bets API
+  slug: princeton-best-bets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-best-bets-api-openapi.yml
+- filename: princeton-catalog-api-openapi.yml
+  format: yaml
+  label: Princeton University Catalog API
+  slug: princeton-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-catalog-api-openapi.yml
+- filename: princeton-dpul-api-openapi.yml
+  format: yaml
+  label: Princeton University Dpul API
+  slug: princeton-dpul-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-dpul-api-openapi.yml
+- filename: princeton-findingaids-api-openapi.yml
+  format: yaml
+  label: Princeton University Findingaids API
+  slug: princeton-findingaids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-findingaids-api-openapi.yml
+- filename: princeton-journals-api-openapi.yml
+  format: yaml
+  label: Princeton University Journals API
+  slug: princeton-journals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-journals-api-openapi.yml
+- filename: princeton-libanswers-api-openapi.yml
+  format: yaml
+  label: Princeton University Libanswers API
+  slug: princeton-libanswers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-libanswers-api-openapi.yml
+- filename: princeton-libguides-api-openapi.yml
+  format: yaml
+  label: Princeton University Libguides API
+  slug: princeton-libguides-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-libguides-api-openapi.yml
+- filename: princeton-library-databases-api-openapi.yml
+  format: yaml
+  label: Princeton University Library Databases API
+  slug: princeton-library-databases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-library-databases-api-openapi.yml
+- filename: princeton-library-staff-api-openapi.yml
+  format: yaml
+  label: Princeton University Library Staff API
+  slug: princeton-library-staff-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-library-staff-api-openapi.yml
+- filename: princeton-library-website-api-openapi.yml
+  format: yaml
+  label: Princeton University Library Website API
+  slug: princeton-library-website-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-library-website-api-openapi.yml
+- filename: princeton-makers-api-openapi.yml
+  format: yaml
+  label: Princeton University Makers API
+  slug: princeton-makers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-makers-api-openapi.yml
+- filename: princeton-objects-api-openapi.yml
+  format: yaml
+  label: Princeton University Objects API
+  slug: princeton-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-objects-api-openapi.yml
+- filename: princeton-packages-api-openapi.yml
+  format: yaml
+  label: Princeton University Packages API
+  slug: princeton-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-packages-api-openapi.yml
+- filename: princeton-pulmap-api-openapi.yml
+  format: yaml
+  label: Princeton University Pulmap API
+  slug: princeton-pulmap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-pulmap-api-openapi.yml
+- filename: princeton-search-api-openapi.yml
+  format: yaml
+  label: Princeton University Search API
+  slug: princeton-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/openapi/princeton-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

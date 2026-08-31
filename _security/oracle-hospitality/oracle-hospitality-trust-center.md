@@ -1,365 +1,479 @@
 ---
 api_specs:
-- filename: oracle-hospitality-distribution-outbound-aripublication.json
-  format: json
-  label: OPERA Cloud Distribution ARI Publication
-  slug: opera-cloud-distribution-ari-publication
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-distribution-outbound-aripublication.json
-- filename: oracle-hospitality-distribution-outbound-lookup.json
-  format: json
-  label: OPERA Cloud Distribution Outbound Lookup
-  slug: opera-cloud-distribution-outbound-lookup
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-distribution-outbound-lookup.json
-- filename: oracle-hospitality-distribution-outbound-notification.json
-  format: json
-  label: OPERA Cloud Distribution Content Notification
-  slug: opera-cloud-distribution-content-notification
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-distribution-outbound-notification.json
-- filename: oracle-hospitality-distribution-v1-book.json
-  format: json
-  label: OPERA Cloud Distribution Book
-  slug: opera-cloud-distribution-book
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-distribution-v1-book.json
-- filename: oracle-hospitality-distribution-v1-content.json
-  format: json
-  label: OPERA Cloud Distribution Content
-  slug: opera-cloud-distribution-content
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-distribution-v1-content.json
-- filename: oracle-hospitality-distribution-v1-controls.json
-  format: json
-  label: OPERA Cloud Distribution Property Controls
-  slug: opera-cloud-distribution-property-controls
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-distribution-v1-controls.json
-- filename: oracle-hospitality-distribution-v1-distribution.json
-  format: json
-  label: OPERA Cloud Distribution Reservation Service
-  slug: opera-cloud-distribution-reservation-service
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-distribution-v1-distribution.json
-- filename: oracle-hospitality-distribution-v1-hdpbaoauth2.json
-  format: json
-  label: OPERA Cloud Distribution Authentication API
-  slug: opera-cloud-distribution-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-distribution-v1-hdpbaoauth2.json
-- filename: oracle-hospitality-distribution-v1-onboard.json
-  format: json
-  label: OPERA Cloud Distribution Onboarding
-  slug: opera-cloud-distribution-onboarding
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-distribution-v1-onboard.json
-- filename: oracle-hospitality-distribution-v1-resnotif.json
-  format: json
-  label: OPERA Cloud Distribution Reservation Notification
-  slug: opera-cloud-distribution-reservation-notification
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-distribution-v1-resnotif.json
-- filename: oracle-hospitality-distribution-v1-shop.json
-  format: json
-  label: OPERA Cloud Distribution Shop
-  slug: opera-cloud-distribution-shop
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-distribution-v1-shop.json
-- filename: oracle-hospitality-nor1-v1-upselloffers.json
-  format: json
-  label: Nor1 Integrated Upsell API
-  slug: nor1-integrated-upsell-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-nor1-v1-upselloffers.json
-- filename: oracle-hospitality-property-outbound-crmoutbound.json
-  format: json
-  label: OPERA Cloud Customer Relationship Management Outbound API
-  slug: opera-cloud-customer-relationship-management-outbound-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-outbound-crmoutbound.json
-- filename: oracle-hospitality-property-outbound-cshoutbound.json
-  format: json
-  label: OPERA Cloud Cashiering Outbound API
-  slug: opera-cloud-cashiering-outbound-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-outbound-cshoutbound.json
-- filename: oracle-hospitality-property-outbound-fofoutbound.json
-  format: json
-  label: OPERA Cloud Front Desk Operations Outbound API
-  slug: opera-cloud-front-desk-operations-outbound-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-outbound-fofoutbound.json
-- filename: oracle-hospitality-property-v1-act.json
-  format: json
-  label: OPERA Cloud Activity API
-  slug: opera-cloud-activity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-act.json
-- filename: oracle-hospitality-property-v1-actcfg.json
-  format: json
-  label: OPERA Cloud Activity Management API
-  slug: opera-cloud-activity-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-actcfg.json
-- filename: oracle-hospitality-property-v1-ars.json
-  format: json
-  label: OPERA Cloud Accounts Receivables API
-  slug: opera-cloud-accounts-receivables-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-ars.json
-- filename: oracle-hospitality-property-v1-blk.json
-  format: json
-  label: OPERA Cloud Block API
-  slug: opera-cloud-block-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-blk.json
-- filename: oracle-hospitality-property-v1-blkasync.json
-  format: json
-  label: OPERA Cloud Block Reservation Asynchronous API
-  slug: opera-cloud-block-reservation-asynchronous-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-blkasync.json
-- filename: oracle-hospitality-property-v1-blkcfg.json
-  format: json
-  label: OPERA Cloud Block Configuration API
-  slug: opera-cloud-block-configuration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-blkcfg.json
-- filename: oracle-hospitality-property-v1-bof.json
-  format: json
-  label: OPERA Cloud Back Office Operations API
-  slug: opera-cloud-back-office-operations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-bof.json
-- filename: oracle-hospitality-property-v1-chl.json
-  format: json
-  label: OPERA Cloud Channel Configuration API
-  slug: opera-cloud-channel-configuration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-chl.json
-- filename: oracle-hospitality-property-v1-cms.json
-  format: json
-  label: OPERA Cloud API for Customer Management Service
-  slug: opera-cloud-api-for-customer-management-service
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-cms.json
-- filename: oracle-hospitality-property-v1-crm.json
-  format: json
-  label: OPERA Cloud Customer Relationship Management API
-  slug: opera-cloud-customer-relationship-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-crm.json
-- filename: oracle-hospitality-property-v1-crmasync.json
-  format: json
-  label: OPERA Cloud CRM Asynchronous API
-  slug: opera-cloud-crm-asynchronous-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-crmasync.json
-- filename: oracle-hospitality-property-v1-crmcfg.json
-  format: json
-  label: OPERA Cloud CRM Configuration API
-  slug: opera-cloud-crm-configuration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-crmcfg.json
-- filename: oracle-hospitality-property-v1-csh.json
-  format: json
-  label: OPERA Cloud Cashiering API
-  slug: opera-cloud-cashiering-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-csh.json
-- filename: oracle-hospitality-property-v1-cshasync.json
-  format: json
-  label: OPERA Cloud Cashiering Asynchronous API
-  slug: opera-cloud-cashiering-asynchronous-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-cshasync.json
-- filename: oracle-hospitality-property-v1-dvm.json
-  format: json
-  label: OPERA Cloud DataValueMapping Service API
-  slug: opera-cloud-datavaluemapping-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-dvm.json
-- filename: oracle-hospitality-property-v1-ecommtokenization.json
-  format: json
-  label: Cloud OPI Tokenization ECommerce API
-  slug: cloud-opi-tokenization-ecommerce-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-ecommtokenization.json
-- filename: oracle-hospitality-property-v1-entcfg.json
-  format: json
-  label: OPERA Cloud Enterprise Configuration API
-  slug: opera-cloud-enterprise-configuration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-entcfg.json
-- filename: oracle-hospitality-property-v1-evm.json
-  format: json
-  label: OPERA Cloud Sales Event Management API
-  slug: opera-cloud-sales-event-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-evm.json
-- filename: oracle-hospitality-property-v1-evmcfg.json
-  format: json
-  label: OPERA Cloud Event Configuration API
-  slug: opera-cloud-event-configuration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-evmcfg.json
-- filename: oracle-hospitality-property-v1-expcfg.json
-  format: json
-  label: OPERA Cloud Export Configuration API
-  slug: opera-cloud-export-configuration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-expcfg.json
-- filename: oracle-hospitality-property-v1-fof.json
-  format: json
-  label: OPERA Cloud Front Desk Operations Service
-  slug: opera-cloud-front-desk-operations-service
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-fof.json
-- filename: oracle-hospitality-property-v1-fofcfg.json
-  format: json
-  label: OPERA Cloud Front Desk Configuration API
-  slug: opera-cloud-front-desk-configuration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-fofcfg.json
-- filename: oracle-hospitality-property-v1-hsk.json
-  format: json
-  label: OPERA Cloud Housekeeping Service API
-  slug: opera-cloud-housekeeping-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-hsk.json
-- filename: oracle-hospitality-property-v1-int.json
-  format: json
-  label: OPERA Cloud Integration Processor API
-  slug: opera-cloud-integration-processor-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-int.json
-- filename: oracle-hospitality-property-v1-intcfg.json
-  format: json
-  label: OPERA Cloud Integration Configuration API
-  slug: opera-cloud-integration-configuration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-intcfg.json
-- filename: oracle-hospitality-property-v1-inv.json
-  format: json
-  label: OPERA Cloud Inventory API
-  slug: opera-cloud-inventory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-inv.json
-- filename: oracle-hospitality-property-v1-invasync.json
-  format: json
-  label: Opera Cloud Inventory Asynchronous API
-  slug: opera-cloud-inventory-asynchronous-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-invasync.json
-- filename: oracle-hospitality-property-v1-lms.json
-  format: json
-  label: OPERA Cloud Leisure Management API
-  slug: opera-cloud-leisure-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-lms.json
-- filename: oracle-hospitality-property-v1-lov.json
-  format: json
-  label: OPERA Cloud List of Values Management API
-  slug: opera-cloud-list-of-values-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-lov.json
-- filename: oracle-hospitality-property-v1-medcfg.json
-  format: json
-  label: OPERA Cloud Content Service
-  slug: opera-cloud-content-service
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-medcfg.json
-- filename: oracle-hospitality-property-v1-oauth.json
-  format: json
-  label: oAuth API for OHIP
-  slug: oauth-api-for-ohip
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-oauth.json
-- filename: oracle-hospitality-property-v1-ops.json
-  format: json
-  label: OPERA Provisioning Service API
-  slug: opera-provisioning-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-ops.json
-- filename: oracle-hospitality-property-v1-par.json
-  format: json
-  label: OPERA Cloud Price Availability Rate API
-  slug: opera-cloud-price-availability-rate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-par.json
-- filename: oracle-hospitality-property-v1-parasync.json
-  format: json
-  label: OPERA Cloud Price Availability Rate Async API
-  slug: opera-cloud-price-availability-rate-async-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-parasync.json
-- filename: oracle-hospitality-property-v1-repcfg.json
-  format: json
-  label: OPERA Cloud Report Master Data Management API
-  slug: opera-cloud-report-master-data-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-repcfg.json
-- filename: oracle-hospitality-property-v1-rmcfg.json
-  format: json
-  label: OPERA Cloud Room Configuration API
-  slug: opera-cloud-room-configuration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-rmcfg.json
-- filename: oracle-hospitality-property-v1-rmr.json
-  format: json
-  label: OPERA Cloud Room Rotation Service API
-  slug: opera-cloud-room-rotation-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-rmr.json
-- filename: oracle-hospitality-property-v1-rmrcfg.json
-  format: json
-  label: OPERA Cloud Room Rotation Configuration Service API
-  slug: opera-cloud-room-rotation-configuration-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-rmrcfg.json
-- filename: oracle-hospitality-property-v1-rsv.json
-  format: json
-  label: OPERA Cloud Reservation API
-  slug: opera-cloud-reservation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-rsv.json
-- filename: oracle-hospitality-property-v1-rsvasync.json
-  format: json
-  label: OPERA Cloud Reservation Asynchronous API
-  slug: opera-cloud-reservation-asynchronous-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-rsvasync.json
-- filename: oracle-hospitality-property-v1-rsvcfg.json
-  format: json
-  label: OPERA Cloud Reservation Master Data Management API
-  slug: opera-cloud-reservation-master-data-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-rsvcfg.json
-- filename: oracle-hospitality-property-v1-rtp.json
-  format: json
-  label: OPERA Cloud Rate API
-  slug: opera-cloud-rate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-rtp.json
-- filename: oracle-hospitality-property-v1-rtpasync.json
-  format: json
-  label: Opera Cloud Rate Plan Asynchronous Service API
-  slug: opera-cloud-rate-plan-asynchronous-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-rtpasync.json
-- filename: oracle-hospitality-property-v1-tokenexchange.json
-  format: json
-  label: OPI Token Exchange Service API
-  slug: opi-token-exchange-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-property-v1-tokenexchange.json
 - filename: oracle-hospitality-outbound-asyncapi.yml
   format: yaml
   label: OPERA Cloud Business Events Streaming API
   slug: opera-cloud-business-events-streaming
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/asyncapi/oracle-hospitality-outbound-asyncapi.yml
+- filename: oracle-hospitality-accountsreceivables-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Accounts Receivables API
+  slug: oracle-hospitality-accountsreceivables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-accountsreceivables-api-openapi.yml
+- filename: oracle-hospitality-accountsreceivablesconfig-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Accounts Receivables Config API
+  slug: oracle-hospitality-accountsreceivablesconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-accountsreceivablesconfig-api-openapi.yml
+- filename: oracle-hospitality-activity-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Activity API
+  slug: oracle-hospitality-activity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-activity-api-openapi.yml
+- filename: oracle-hospitality-activitymanagement-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Activity Management API
+  slug: oracle-hospitality-activitymanagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-activitymanagement-api-openapi.yml
+- filename: oracle-hospitality-api-to-fulfill-upsell-offers-to-customers-and-third-parties-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality API to Fulfill Upsell Offers to customers and third parties API
+  slug: oracle-hospitality-api-to-fulfill-upsell-offers-to-customers-and-third-parties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-api-to-fulfill-upsell-offers-to-customers-and-third-parties-api-openapi.yml
+- filename: oracle-hospitality-ari-publication-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality ARI Publication API
+  slug: oracle-hospitality-ari-publication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-ari-publication-api-openapi.yml
+- filename: oracle-hospitality-authentication-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Authentication API
+  slug: oracle-hospitality-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-authentication-api-openapi.yml
+- filename: oracle-hospitality-availability-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Availability API
+  slug: oracle-hospitality-availability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-availability-api-openapi.yml
+- filename: oracle-hospitality-availabilityasync-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Availability Async API
+  slug: oracle-hospitality-availabilityasync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-availabilityasync-api-openapi.yml
+- filename: oracle-hospitality-availabilityexternal-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Availability External API
+  slug: oracle-hospitality-availabilityexternal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-availabilityexternal-api-openapi.yml
+- filename: oracle-hospitality-backofficeoperations-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Back Office Operations API
+  slug: oracle-hospitality-backofficeoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-backofficeoperations-api-openapi.yml
+- filename: oracle-hospitality-beprocessor-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality BE Processor API
+  slug: oracle-hospitality-beprocessor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-beprocessor-api-openapi.yml
+- filename: oracle-hospitality-block-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Block API
+  slug: oracle-hospitality-block-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-block-api-openapi.yml
+- filename: oracle-hospitality-blockasync-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Block Async API
+  slug: oracle-hospitality-blockasync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-blockasync-api-openapi.yml
+- filename: oracle-hospitality-blockconfig-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Block Config API
+  slug: oracle-hospitality-blockconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-blockconfig-api-openapi.yml
+- filename: oracle-hospitality-blockexternal-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Block External API
+  slug: oracle-hospitality-blockexternal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-blockexternal-api-openapi.yml
+- filename: oracle-hospitality-blockstats-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Block Stats API
+  slug: oracle-hospitality-blockstats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-blockstats-api-openapi.yml
+- filename: oracle-hospitality-cashiering-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Cashiering API
+  slug: oracle-hospitality-cashiering-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-cashiering-api-openapi.yml
+- filename: oracle-hospitality-cashieringasync-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Cashiering Async API
+  slug: oracle-hospitality-cashieringasync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-cashieringasync-api-openapi.yml
+- filename: oracle-hospitality-cashieringconfig-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Cashiering Config API
+  slug: oracle-hospitality-cashieringconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-cashieringconfig-api-openapi.yml
+- filename: oracle-hospitality-chainconfig-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Chain Config API
+  slug: oracle-hospitality-chainconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-chainconfig-api-openapi.yml
+- filename: oracle-hospitality-channel-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Channel API
+  slug: oracle-hospitality-channel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-channel-api-openapi.yml
+- filename: oracle-hospitality-commissionconfig-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Commission Config API
+  slug: oracle-hospitality-commissionconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-commissionconfig-api-openapi.yml
+- filename: oracle-hospitality-commissions-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Commissions API
+  slug: oracle-hospitality-commissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-commissions-api-openapi.yml
+- filename: oracle-hospitality-content-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Content API
+  slug: oracle-hospitality-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-content-api-openapi.yml
+- filename: oracle-hospitality-content-notification-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Content Notification API
+  slug: oracle-hospitality-content-notification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-content-notification-api-openapi.yml
+- filename: oracle-hospitality-creditcard-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Credit Card API
+  slug: oracle-hospitality-creditcard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-creditcard-api-openapi.yml
+- filename: oracle-hospitality-crmasync-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality CRM Async API
+  slug: oracle-hospitality-crmasync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-crmasync-api-openapi.yml
+- filename: oracle-hospitality-customermanagement-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Customer Management API
+  slug: oracle-hospitality-customermanagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-customermanagement-api-openapi.yml
+- filename: oracle-hospitality-datavaluemapping-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Data Value Mapping API
+  slug: oracle-hospitality-datavaluemapping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-datavaluemapping-api-openapi.yml
+- filename: oracle-hospitality-distribution-controls-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Distribution Controls API
+  slug: oracle-hospitality-distribution-controls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-distribution-controls-api-openapi.yml
+- filename: oracle-hospitality-endofdayconfig-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality End Of Day Config API
+  slug: oracle-hospitality-endofdayconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-endofdayconfig-api-openapi.yml
+- filename: oracle-hospitality-eventmanagement-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Event Management API
+  slug: oracle-hospitality-eventmanagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-eventmanagement-api-openapi.yml
+- filename: oracle-hospitality-export-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Export API
+  slug: oracle-hospitality-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-export-api-openapi.yml
+- filename: oracle-hospitality-externalconfig-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality External Config API
+  slug: oracle-hospitality-externalconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-externalconfig-api-openapi.yml
+- filename: oracle-hospitality-externalsystemsconfig-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality External Systems Config API
+  slug: oracle-hospitality-externalsystemsconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-externalsystemsconfig-api-openapi.yml
+- filename: oracle-hospitality-fofstats-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality FOF Stats API
+  slug: oracle-hospitality-fofstats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-fofstats-api-openapi.yml
+- filename: oracle-hospitality-frontdeskoperations-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Front Desk Operations API
+  slug: oracle-hospitality-frontdeskoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-frontdeskoperations-api-openapi.yml
+- filename: oracle-hospitality-frontofficeexternal-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Front Office External API
+  slug: oracle-hospitality-frontofficeexternal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-frontofficeexternal-api-openapi.yml
+- filename: oracle-hospitality-hotelconfig-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Hotel Config API
+  slug: oracle-hospitality-hotelconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-hotelconfig-api-openapi.yml
+- filename: oracle-hospitality-hotels-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Hotels API
+  slug: oracle-hospitality-hotels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-hotels-api-openapi.yml
+- filename: oracle-hospitality-housekeeping-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Housekeeping API
+  slug: oracle-hospitality-housekeeping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-housekeeping-api-openapi.yml
+- filename: oracle-hospitality-integrationprocessor-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Integration Processor API
+  slug: oracle-hospitality-integrationprocessor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-integrationprocessor-api-openapi.yml
+- filename: oracle-hospitality-inventory-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Inventory API
+  slug: oracle-hospitality-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-inventory-api-openapi.yml
+- filename: oracle-hospitality-inventoryasync-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Inventory Async API
+  slug: oracle-hospitality-inventoryasync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-inventoryasync-api-openapi.yml
+- filename: oracle-hospitality-invstats-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality INV Stats API
+  slug: oracle-hospitality-invstats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-invstats-api-openapi.yml
+- filename: oracle-hospitality-leisuremanagement-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Leisure Management API
+  slug: oracle-hospitality-leisuremanagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-leisuremanagement-api-openapi.yml
+- filename: oracle-hospitality-leisuremanagementconfig-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Leisure Management Config API
+  slug: oracle-hospitality-leisuremanagementconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-leisuremanagementconfig-api-openapi.yml
+- filename: oracle-hospitality-lookup-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Lookup API
+  slug: oracle-hospitality-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-lookup-api-openapi.yml
+- filename: oracle-hospitality-lov-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality LOV API
+  slug: oracle-hospitality-lov-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-lov-api-openapi.yml
+- filename: oracle-hospitality-membershipconfig-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Membership Config API
+  slug: oracle-hospitality-membershipconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-membershipconfig-api-openapi.yml
+- filename: oracle-hospitality-oedsconfig-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality OEDS Config API
+  slug: oracle-hospitality-oedsconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-oedsconfig-api-openapi.yml
+- filename: oracle-hospitality-onboarding-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Onboarding API
+  slug: oracle-hospitality-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-onboarding-api-openapi.yml
+- filename: oracle-hospitality-operacontent-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Opera Content API
+  slug: oracle-hospitality-operacontent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-operacontent-api-openapi.yml
+- filename: oracle-hospitality-packagecategory-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Package Category API
+  slug: oracle-hospitality-packagecategory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-packagecategory-api-openapi.yml
+- filename: oracle-hospitality-profile-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Profile API
+  slug: oracle-hospitality-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-profile-api-openapi.yml
+- filename: oracle-hospitality-profileconfiguration-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Profile Configuration API
+  slug: oracle-hospitality-profileconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-profileconfiguration-api-openapi.yml
+- filename: oracle-hospitality-profileexternal-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Profile External API
+  slug: oracle-hospitality-profileexternal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-profileexternal-api-openapi.yml
+- filename: oracle-hospitality-profilelov-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Profile LOV API
+  slug: oracle-hospitality-profilelov-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-profilelov-api-openapi.yml
+- filename: oracle-hospitality-profilemembership-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Profile Membership API
+  slug: oracle-hospitality-profilemembership-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-profilemembership-api-openapi.yml
+- filename: oracle-hospitality-profilestatistics-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Profile Statistics API
+  slug: oracle-hospitality-profilestatistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-profilestatistics-api-openapi.yml
+- filename: oracle-hospitality-provisioning-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Provisioning API
+  slug: oracle-hospitality-provisioning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-provisioning-api-openapi.yml
+- filename: oracle-hospitality-rateplan-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Rate Plan API
+  slug: oracle-hospitality-rateplan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-rateplan-api-openapi.yml
+- filename: oracle-hospitality-rateplanasync-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Rate Plan Async API
+  slug: oracle-hospitality-rateplanasync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-rateplanasync-api-openapi.yml
+- filename: oracle-hospitality-report-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Report API
+  slug: oracle-hospitality-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-report-api-openapi.yml
+- filename: oracle-hospitality-reservation-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Reservation API
+  slug: oracle-hospitality-reservation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-reservation-api-openapi.yml
+- filename: oracle-hospitality-reservation-notification-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Reservation Notification API
+  slug: oracle-hospitality-reservation-notification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-reservation-notification-api-openapi.yml
+- filename: oracle-hospitality-reservation-request-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Reservation Request API
+  slug: oracle-hospitality-reservation-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-reservation-request-api-openapi.yml
+- filename: oracle-hospitality-reservationasync-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Reservation Async API
+  slug: oracle-hospitality-reservationasync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-reservationasync-api-openapi.yml
+- filename: oracle-hospitality-reservationconfig-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Reservation Config API
+  slug: oracle-hospitality-reservationconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-reservationconfig-api-openapi.yml
+- filename: oracle-hospitality-reservationexternal-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Reservation External API
+  slug: oracle-hospitality-reservationexternal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-reservationexternal-api-openapi.yml
+- filename: oracle-hospitality-resourceconfig-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Resource Config API
+  slug: oracle-hospitality-resourceconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-resourceconfig-api-openapi.yml
+- filename: oracle-hospitality-roomrotation-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Room Rotation API
+  slug: oracle-hospitality-roomrotation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-roomrotation-api-openapi.yml
+- filename: oracle-hospitality-roomrotationconfig-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Room Rotation Config API
+  slug: oracle-hospitality-roomrotationconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-roomrotationconfig-api-openapi.yml
+- filename: oracle-hospitality-rsvstats-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality RSV Stats API
+  slug: oracle-hospitality-rsvstats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-rsvstats-api-openapi.yml
+- filename: oracle-hospitality-shop-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Shop API
+  slug: oracle-hospitality-shop-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-shop-api-openapi.yml
+- filename: oracle-hospitality-suspendedstay-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Suspended Stay API
+  slug: oracle-hospitality-suspendedstay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-suspendedstay-api-openapi.yml
+- filename: oracle-hospitality-upsell-offers-api-openapi.yml
+  format: yaml
+  label: Oracle Hospitality Upsell Offers API
+  slug: oracle-hospitality-upsell-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-upsell-offers-api-openapi.yml
 certifications:
 - SOC 1
 - SOC 2

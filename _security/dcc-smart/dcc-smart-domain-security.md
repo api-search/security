@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: dcc-boxed-duis-signing-tool-openapi.yml
+- filename: dcc-smart-sign-api-openapi.yml
   format: yaml
-  label: DCC Boxed DUIS Signing Tool API
-  slug: dcc-boxed-duis-signing-tool-api
+  label: Smart DCC Sign API
+  slug: dcc-smart-sign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/openapi/dcc-boxed-duis-signing-tool-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/openapi/dcc-smart-sign-api-openapi.yml
+- filename: dcc-smart-verify-api-openapi.yml
+  format: yaml
+  label: Smart DCC Verify API
+  slug: dcc-smart-verify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/openapi/dcc-smart-verify-api-openapi.yml
 description: ''
 domains:
 - caa: []

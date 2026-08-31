@@ -217,12 +217,54 @@ api_specs:
   slug: ku-leuven-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-workflows-api-openapi.yml
-- filename: ku-leuven-data-services-api-openapi.yml
+- filename: ku-leuven-curriculum-api-openapi.yml
   format: yaml
-  label: KU Leuven ICTS Data Services API (OpenSearch gateway)
-  slug: data-services
+  label: KU Leuven Curriculum API
+  slug: ku-leuven-curriculum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-data-services-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-curriculum-api-openapi.yml
+- filename: ku-leuven-organigram-api-openapi.yml
+  format: yaml
+  label: KU Leuven Organigram API
+  slug: ku-leuven-organigram-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-organigram-api-openapi.yml
+- filename: ku-leuven-person-api-openapi.yml
+  format: yaml
+  label: KU Leuven Person API
+  slug: ku-leuven-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-person-api-openapi.yml
+- filename: ku-leuven-programs-api-openapi.yml
+  format: yaml
+  label: KU Leuven Programs API
+  slug: ku-leuven-programs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-programs-api-openapi.yml
+- filename: ku-leuven-researchinfrastructure-api-openapi.yml
+  format: yaml
+  label: KU Leuven Research Infrastructure API
+  slug: ku-leuven-researchinfrastructure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-researchinfrastructure-api-openapi.yml
+- filename: ku-leuven-researchprojects-api-openapi.yml
+  format: yaml
+  label: KU Leuven Research Projects API
+  slug: ku-leuven-researchprojects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-researchprojects-api-openapi.yml
+- filename: ku-leuven-researchteams-api-openapi.yml
+  format: yaml
+  label: KU Leuven Research Teams API
+  slug: ku-leuven-researchteams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-researchteams-api-openapi.yml
+- filename: ku-leuven-vacancies-api-openapi.yml
+  format: yaml
+  label: KU Leuven Vacancies API
+  slug: ku-leuven-vacancies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-vacancies-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

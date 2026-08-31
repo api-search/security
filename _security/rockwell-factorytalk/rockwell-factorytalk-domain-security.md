@@ -53,8 +53,8 @@ layout: security
 method: probed
 name: Rockwell Factorytalk Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for rockwell-factorytalk, probed live across 2 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: rockwell-factorytalk
+overview: 'Domain security posture for Rockwell FactoryTalk, probed live across 2 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Rockwell FactoryTalk
 provider_slug: rockwell-factorytalk
 slug: rockwell-factorytalk-domain-security
 source_filename: rockwell-factorytalk-domain-security.yml

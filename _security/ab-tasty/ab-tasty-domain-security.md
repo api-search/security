@@ -18,18 +18,6 @@ api_specs:
   slug: ab-tasty-environments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/openapi/ab-tasty-environments-api-openapi.yml
-- filename: ab-tasty-flags-api-openapi.yml
-  format: yaml
-  label: AB Tasty Flags API
-  slug: ab-tasty-flags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/openapi/ab-tasty-flags-api-openapi.yml
-- filename: ab-tasty-post-api-openapi.yml
-  format: yaml
-  label: AB Tasty Post API
-  slug: ab-tasty-post-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/openapi/ab-tasty-post-api-openapi.yml
 description: ''
 domains:
 - caa: []

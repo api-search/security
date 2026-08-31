@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: openapi.yaml
+- filename: un-comtrade-bulk-download-api-openapi.yml
   format: yaml
-  label: UN Comtrade Data API
-  slug: un-comtrade-data-api
+  label: UN Comtrade Bulk Download API
+  slug: un-comtrade-bulk-download-api
   spec_type: OpenAPI
-  url: https://comtradedeveloper.un.org/
+  url: https://raw.githubusercontent.com/api-evangelist/un-comtrade/refs/heads/main/openapi/un-comtrade-bulk-download-api-openapi.yml
+- filename: un-comtrade-data-availability-api-openapi.yml
+  format: yaml
+  label: UN Comtrade Data Availability API
+  slug: un-comtrade-data-availability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/un-comtrade/refs/heads/main/openapi/un-comtrade-data-availability-api-openapi.yml
+- filename: un-comtrade-final-trade-data-api-openapi.yml
+  format: yaml
+  label: UN Comtrade Final Trade Data API
+  slug: un-comtrade-final-trade-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/un-comtrade/refs/heads/main/openapi/un-comtrade-final-trade-data-api-openapi.yml
+- filename: un-comtrade-public-preview-api-openapi.yml
+  format: yaml
+  label: UN Comtrade Public Preview API
+  slug: un-comtrade-public-preview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/un-comtrade/refs/heads/main/openapi/un-comtrade-public-preview-api-openapi.yml
+- filename: un-comtrade-reference-data-api-openapi.yml
+  format: yaml
+  label: UN Comtrade Reference Data API
+  slug: un-comtrade-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/un-comtrade/refs/heads/main/openapi/un-comtrade-reference-data-api-openapi.yml
+- filename: un-comtrade-tariffline-data-api-openapi.yml
+  format: yaml
+  label: UN Comtrade Tariffline Data API
+  slug: un-comtrade-tariffline-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/un-comtrade/refs/heads/main/openapi/un-comtrade-tariffline-data-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -31,8 +31,8 @@ layout: security
 method: probed
 name: Agl Resources Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for agl-resources, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: agl-resources
+overview: 'Domain security posture for AGL Resources, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: AGL Resources
 provider_slug: agl-resources
 slug: agl-resources-domain-security
 source_filename: agl-resources-domain-security.yml

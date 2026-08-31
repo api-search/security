@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Regeneron Pharmaceuticals Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for regeneron-pharmaceuticals, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: regeneron-pharmaceuticals
+overview: 'Domain security posture for Regeneron Pharmaceuticals, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Regeneron Pharmaceuticals
 provider_slug: regeneron-pharmaceuticals
 slug: regeneron-pharmaceuticals-domain-security
 source_filename: regeneron-pharmaceuticals-domain-security.yml

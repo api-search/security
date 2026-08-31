@@ -34,8 +34,8 @@ method: derived
 name: Acuity Brands Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: acuity-brands secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: acuity-brands
+overview: Acuity Brands secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Acuity Brands
 provider_slug: acuity-brands
 scheme_count: 1
 schemes:

@@ -26,8 +26,8 @@ layout: security
 method: probed
 name: Ford Motor Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for ford-motor, probed live across 2 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: ford-motor
+overview: 'Domain security posture for Ford Motor Company, probed live across 2 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Ford Motor Company
 provider_slug: ford-motor
 slug: ford-motor-domain-security
 source_filename: ford-motor-domain-security.yml

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: btc-war-live-market-data-api-market-data-openapi.yml
+- filename: btc-war-live-market-data-api-market-data-api-openapi.yml
   format: yaml
-  label: BTC War Live Market Data API
-  slug: btc-war-live-market-data-api
+  label: BTC War Live Market Data API Market data API
+  slug: btc-war-live-market-data-api-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btc-war-live-market-data-api/refs/heads/main/openapi/btc-war-live-market-data-api-market-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/btc-war-live-market-data-api/refs/heads/main/openapi/btc-war-live-market-data-api-market-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

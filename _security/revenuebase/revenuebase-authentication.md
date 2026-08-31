@@ -26,12 +26,18 @@ api_specs:
   slug: revenuebase-organization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-organization-api-openapi.yml
-- filename: revenuebase-contact-refresh-openapi.json
-  format: json
-  label: RevenueBase Contact Refresh API
-  slug: revenuebase-contact-refresh-api
+- filename: revenuebase-health-api-openapi.yml
+  format: yaml
+  label: RevenueBase Health API
+  slug: revenuebase-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/_original/revenuebase-contact-refresh-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-health-api-openapi.yml
+- filename: revenuebase-v2-api-openapi.yml
+  format: yaml
+  label: RevenueBase V2 API
+  slug: revenuebase-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-v2-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,60 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: sovrn-commerce-link-check-openapi.yml
+- filename: sovrn-account-api-openapi.yml
   format: yaml
-  label: Sovrn Commerce Link Check API
-  slug: sovrn-commerce-link-check-api
+  label: Sovrn Account API
+  slug: sovrn-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-commerce-link-check-openapi.yml
-- filename: sovrn-commerce-bid-check-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-account-api-openapi.yml
+- filename: sovrn-ai-orchestration-api-openapi.yml
   format: yaml
-  label: Sovrn Commerce Bid Check API
-  slug: sovrn-commerce-bid-check-api
+  label: Sovrn Ai Orchestration API
+  slug: sovrn-ai-orchestration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-commerce-bid-check-openapi.yml
-- filename: sovrn-commerce-campaigns-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-ai-orchestration-api-openapi.yml
+- filename: sovrn-bid-api-openapi.yml
   format: yaml
-  label: Sovrn Commerce Campaigns API
-  slug: sovrn-commerce-campaigns-api
+  label: Sovrn Bid API
+  slug: sovrn-bid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-commerce-campaigns-openapi.yml
-- filename: sovrn-commerce-reports-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-bid-api-openapi.yml
+- filename: sovrn-link-api-openapi.yml
   format: yaml
-  label: Sovrn Commerce Real-Time Reports API
-  slug: sovrn-commerce-real-time-reports-api
+  label: Sovrn Link API
+  slug: sovrn-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-commerce-reports-openapi.yml
-- filename: sovrn-merchant-summaries-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-link-api-openapi.yml
+- filename: sovrn-merchant-group-summaries-api-openapi.yml
   format: yaml
-  label: Sovrn Commerce Merchant Group Summaries API
-  slug: sovrn-commerce-merchant-group-summaries-api
+  label: Sovrn Merchant Group Summaries API
+  slug: sovrn-merchant-group-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-merchant-summaries-openapi.yml
-- filename: sovrn-product-recommendations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-merchant-group-summaries-api-openapi.yml
+- filename: sovrn-product-coupons-api-openapi.yml
   format: yaml
-  label: Sovrn Commerce Product Recommendation API
-  slug: sovrn-commerce-product-recommendation-api
+  label: Sovrn Product Coupons API
+  slug: sovrn-product-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-product-recommendations-openapi.yml
-- filename: sovrn-price-comparisons-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-product-coupons-api-openapi.yml
+- filename: sovrn-reporting-api-openapi.yml
   format: yaml
-  label: Sovrn Commerce Price Comparisons (Product Affiliate) API
-  slug: sovrn-commerce-price-comparisons-product-affiliate-api
+  label: Sovrn Reporting API
+  slug: sovrn-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-price-comparisons-openapi.yml
-- filename: sovrn-product-coupons-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-reporting-api-openapi.yml
+- filename: sovrn-reports-api-openapi.yml
   format: yaml
-  label: Sovrn Commerce Product Promo Codes API
-  slug: sovrn-commerce-product-promo-codes-api
+  label: Sovrn Reports API
+  slug: sovrn-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-product-coupons-openapi.yml
-- filename: sovrn-advertising-reporting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-reports-api-openapi.yml
+- filename: sovrn-sites-api-openapi.yml
   format: yaml
-  label: Sovrn Advertising Performance Reporting API
-  slug: sovrn-advertising-performance-reporting-api
+  label: Sovrn Sites API
+  slug: sovrn-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-advertising-reporting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/openapi/sovrn-sites-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

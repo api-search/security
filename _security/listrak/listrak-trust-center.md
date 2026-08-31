@@ -318,24 +318,24 @@ api_specs:
   slug: listrak-transactionalmessageresend-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-transactionalmessageresend-api-openapi.yml
-- filename: listrak-media-directories-api-openapi.yml
+- filename: listrak-directories-api-openapi.yml
   format: yaml
-  label: Listrak Media Directories API
-  slug: listrak-media-directories-api
+  label: Listrak Directories API
+  slug: listrak-directories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-media-directories-api-openapi.yml
-- filename: listrak-media-files-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-directories-api-openapi.yml
+- filename: listrak-files-api-openapi.yml
   format: yaml
-  label: Listrak Media Files API
-  slug: listrak-media-files-api
+  label: Listrak Files API
+  slug: listrak-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-media-files-api-openapi.yml
-- filename: listrak-media-fonts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-files-api-openapi.yml
+- filename: listrak-fonts-api-openapi.yml
   format: yaml
-  label: Listrak Media Fonts API
-  slug: listrak-media-fonts-api
+  label: Listrak Fonts API
+  slug: listrak-fonts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-media-fonts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-fonts-api-openapi.yml
 certifications: []
 description: ''
 kind: trust-center

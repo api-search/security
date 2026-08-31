@@ -47,25 +47,35 @@ schemes:
     tokenUrl: https://auth.insurer-internal.example.com/oauth/token
   name: oauth2
   sources:
-  - openapi/acord-ngds-openapi.yml
+  - openapi/acord-claims-api-openapi.yml
+  - openapi/acord-party-api-openapi.yml
+  - openapi/acord-policy-api-openapi.yml
+  - openapi/acord-underwriting-api-openapi.yml
   type: oauth2
 - bearerFormat: JWT
   name: bearerAuth
   scheme: bearer
   sources:
-  - openapi/acord-ngds-openapi.yml
+  - openapi/acord-claims-api-openapi.yml
+  - openapi/acord-party-api-openapi.yml
+  - openapi/acord-policy-api-openapi.yml
+  - openapi/acord-underwriting-api-openapi.yml
   type: http
 slug: acord-authentication
 source_filename: acord-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/acord-ngds-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.insurer-internal.example.com/oauth/token\n    scopes: 4\n  sources:\n  - openapi/acord-ngds-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/acord-ngds-openapi.yml\n"
+source_yaml: "generated: '2026-08-30'\nmethod: derived\nsource: openapi/acord-claims-api-openapi.yml, openapi/acord-party-api-openapi.yml, openapi/acord-policy-api-openapi.yml,\n  openapi/acord-underwriting-api-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.insurer-internal.example.com/oauth/token\n    scopes: 4\n  sources:\n  - openapi/acord-claims-api-openapi.yml\n  - openapi/acord-party-api-openapi.yml\n  - openapi/acord-policy-api-openapi.yml\n  - openapi/acord-underwriting-api-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/acord-claims-api-openapi.yml\n  - openapi/acord-party-api-openapi.yml\n  - openapi/acord-policy-api-openapi.yml\n  - openapi/acord-underwriting-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/authentication/acord-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Claims
+- Data Standards
 - Insurance
 - Policy
+- Property Casualty
+- Reinsurance
 - Standards
 - Underwriting
+- XML
 ---

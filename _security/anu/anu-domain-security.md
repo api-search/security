@@ -1,23 +1,17 @@
 ---
 api_specs:
-- filename: anu-quantum-numbers-openapi.yml
+- filename: anu-harvesting-api-openapi.yml
   format: yaml
-  label: ANU Quantum Numbers (AQN) API
-  slug: quantum-numbers
+  label: Australian National University Harvesting API
+  slug: anu-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/openapi/anu-quantum-numbers-openapi.yml
-- filename: anu-qrng-legacy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/openapi/anu-harvesting-api-openapi.yml
+- filename: anu-random-numbers-api-openapi.yml
   format: yaml
-  label: QRNG@ANU Legacy JSON API
-  slug: qrng-legacy
+  label: Australian National University Random Numbers API
+  slug: anu-random-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/openapi/anu-qrng-legacy-openapi.yml
-- filename: anu-open-research-oai-pmh-openapi.yml
-  format: yaml
-  label: ANU Open Research OAI-PMH
-  slug: openresearch-oai
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/openapi/anu-open-research-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/openapi/anu-random-numbers-api-openapi.yml
 description: ''
 domains:
 - caa: []

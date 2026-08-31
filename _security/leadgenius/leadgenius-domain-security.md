@@ -30,6 +30,12 @@ api_specs:
   slug: leadgenius-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-usage-api-openapi.yml
+- filename: leadgenius-leadgenius-enrichment-api-api-openapi.yml
+  format: yaml
+  label: LeadGenius LeadGenius Enrichment API
+  slug: leadgenius-leadgenius-enrichment-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-leadgenius-enrichment-api-api-openapi.yml
 description: ''
 domains:
 - caa:

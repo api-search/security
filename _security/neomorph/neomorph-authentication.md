@@ -1,12 +1,6 @@
 ---
 api_key_in: []
 api_specs:
-- filename: neomorph-news-api-openapi.yml
-  format: yaml
-  label: Neomorph News API
-  slug: neomorph-news-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neomorph/refs/heads/main/openapi/neomorph-news-api-openapi.yml
 - filename: neomorph-pages-api-openapi.yml
   format: yaml
   label: Neomorph Pages API
@@ -31,12 +25,6 @@ api_specs:
   slug: neomorph-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neomorph/refs/heads/main/openapi/neomorph-media-api-openapi.yml
-- filename: neomorph-taxonomy-api-openapi.yml
-  format: yaml
-  label: Neomorph Taxonomy API
-  slug: neomorph-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neomorph/refs/heads/main/openapi/neomorph-taxonomy-api-openapi.yml
 - filename: neomorph-comments-api-openapi.yml
   format: yaml
   label: Neomorph Comments API
@@ -61,6 +49,30 @@ api_specs:
   slug: neomorph-oembed-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neomorph/refs/heads/main/openapi/neomorph-oembed-api-openapi.yml
+- filename: neomorph-categories-api-openapi.yml
+  format: yaml
+  label: Neomorph Categories API
+  slug: neomorph-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neomorph/refs/heads/main/openapi/neomorph-categories-api-openapi.yml
+- filename: neomorph-posts-api-openapi.yml
+  format: yaml
+  label: Neomorph Posts API
+  slug: neomorph-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neomorph/refs/heads/main/openapi/neomorph-posts-api-openapi.yml
+- filename: neomorph-tags-api-openapi.yml
+  format: yaml
+  label: Neomorph Tags API
+  slug: neomorph-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neomorph/refs/heads/main/openapi/neomorph-tags-api-openapi.yml
+- filename: neomorph-team-categories-api-openapi.yml
+  format: yaml
+  label: Neomorph Team Categories API
+  slug: neomorph-team-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neomorph/refs/heads/main/openapi/neomorph-team-categories-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

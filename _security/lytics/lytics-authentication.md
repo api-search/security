@@ -3,18 +3,210 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: lytics-api-v2-openapi.json
-  format: json
-  label: Lytics API v2
-  slug: lytics-api-v2
+- filename: lytics-account-api-openapi.yml
+  format: yaml
+  label: Lytics Account API
+  slug: lytics-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-api-v2-openapi.json
-- filename: lytics-api-v1-openapi.json
-  format: json
-  label: V1 Lytics API
-  slug: lytics-api-v1
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-account-api-openapi.yml
+- filename: lytics-account-settings-api-openapi.yml
+  format: yaml
+  label: Lytics Account Settings API
+  slug: lytics-account-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-api-v1-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-account-settings-api-openapi.yml
+- filename: lytics-auth-api-openapi.yml
+  format: yaml
+  label: Lytics Auth API
+  slug: lytics-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-auth-api-openapi.yml
+- filename: lytics-auths-api-openapi.yml
+  format: yaml
+  label: Lytics Auths API
+  slug: lytics-auths-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-auths-api-openapi.yml
+- filename: lytics-catalog-api-openapi.yml
+  format: yaml
+  label: Lytics Catalog API
+  slug: lytics-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-catalog-api-openapi.yml
+- filename: lytics-connections-api-openapi.yml
+  format: yaml
+  label: Lytics Connections API
+  slug: lytics-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-connections-api-openapi.yml
+- filename: lytics-content-api-openapi.yml
+  format: yaml
+  label: Lytics Content API
+  slug: lytics-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-content-api-openapi.yml
+- filename: lytics-datamodels-api-openapi.yml
+  format: yaml
+  label: Lytics Data Models API
+  slug: lytics-datamodels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-datamodels-api-openapi.yml
+- filename: lytics-dataupload-api-openapi.yml
+  format: yaml
+  label: Lytics Data Upload API
+  slug: lytics-dataupload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-dataupload-api-openapi.yml
+- filename: lytics-experience-api-openapi.yml
+  format: yaml
+  label: Lytics Experience API
+  slug: lytics-experience-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-experience-api-openapi.yml
+- filename: lytics-flows-api-openapi.yml
+  format: yaml
+  label: Lytics Flows API
+  slug: lytics-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-flows-api-openapi.yml
+- filename: lytics-jobs-api-openapi.yml
+  format: yaml
+  label: Lytics Jobs API
+  slug: lytics-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-jobs-api-openapi.yml
+- filename: lytics-metric-api-openapi.yml
+  format: yaml
+  label: Lytics Metric API
+  slug: lytics-metric-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-metric-api-openapi.yml
+- filename: lytics-metrics-api-openapi.yml
+  format: yaml
+  label: Lytics Metrics API
+  slug: lytics-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-metrics-api-openapi.yml
+- filename: lytics-ml-models-api-openapi.yml
+  format: yaml
+  label: Lytics ML Models API
+  slug: lytics-ml-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-ml-models-api-openapi.yml
+- filename: lytics-personalization-api-openapi.yml
+  format: yaml
+  label: Lytics Personalization API
+  slug: lytics-personalization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-personalization-api-openapi.yml
+- filename: lytics-profiles-api-openapi.yml
+  format: yaml
+  label: Lytics Profiles API
+  slug: lytics-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-profiles-api-openapi.yml
+- filename: lytics-provider-api-openapi.yml
+  format: yaml
+  label: Lytics Provider API
+  slug: lytics-provider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-provider-api-openapi.yml
+- filename: lytics-query-api-openapi.yml
+  format: yaml
+  label: Lytics Query API
+  slug: lytics-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-query-api-openapi.yml
+- filename: lytics-reports-api-openapi.yml
+  format: yaml
+  label: Lytics Reports API
+  slug: lytics-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-reports-api-openapi.yml
+- filename: lytics-schema-api-openapi.yml
+  format: yaml
+  label: Lytics Schema API
+  slug: lytics-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-schema-api-openapi.yml
+- filename: lytics-segment-api-openapi.yml
+  format: yaml
+  label: Lytics Segment API
+  slug: lytics-segment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-segment-api-openapi.yml
+- filename: lytics-segmentcollection-api-openapi.yml
+  format: yaml
+  label: Lytics Segment Collection API
+  slug: lytics-segmentcollection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-segmentcollection-api-openapi.yml
+- filename: lytics-segmentml-api-openapi.yml
+  format: yaml
+  label: Lytics Segment ML API
+  slug: lytics-segmentml-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-segmentml-api-openapi.yml
+- filename: lytics-segments-api-openapi.yml
+  format: yaml
+  label: Lytics Segments API
+  slug: lytics-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-segments-api-openapi.yml
+- filename: lytics-stream-api-openapi.yml
+  format: yaml
+  label: Lytics Stream API
+  slug: lytics-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-stream-api-openapi.yml
+- filename: lytics-streams-api-openapi.yml
+  format: yaml
+  label: Lytics Streams API
+  slug: lytics-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-streams-api-openapi.yml
+- filename: lytics-subscription-api-openapi.yml
+  format: yaml
+  label: Lytics Subscription API
+  slug: lytics-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-subscription-api-openapi.yml
+- filename: lytics-system-api-openapi.yml
+  format: yaml
+  label: Lytics System API
+  slug: lytics-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-system-api-openapi.yml
+- filename: lytics-system-events-api-openapi.yml
+  format: yaml
+  label: Lytics System Events API
+  slug: lytics-system-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-system-events-api-openapi.yml
+- filename: lytics-templates-api-openapi.yml
+  format: yaml
+  label: Lytics Templates API
+  slug: lytics-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-templates-api-openapi.yml
+- filename: lytics-user-api-openapi.yml
+  format: yaml
+  label: Lytics User API
+  slug: lytics-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-user-api-openapi.yml
+- filename: lytics-work-api-openapi.yml
+  format: yaml
+  label: Lytics Work API
+  slug: lytics-work-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-work-api-openapi.yml
+- filename: lytics-workflow-api-openapi.yml
+  format: yaml
+  label: Lytics Workflow API
+  slug: lytics-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-workflow-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

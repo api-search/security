@@ -3,450 +3,504 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: aemo-cdr-openapi.yml
+- filename: aemo-b2bmessagingasync-api-openapi.yml
   format: yaml
-  label: AEMO CDR
-  slug: aemo-cdr
+  label: AEMO B2 B Messaging Async API
+  slug: aemo-b2bmessagingasync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-cdr-openapi.yml
-- filename: aemo-cdr-common-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-b2bmessagingasync-api-openapi.yml
+- filename: aemo-b2bmessagingpull-api-openapi.yml
   format: yaml
-  label: AEMO CDR Common
-  slug: aemo-cdr-common
+  label: AEMO B2 B Messaging Pull API
+  slug: aemo-b2bmessagingpull-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-cdr-common-openapi.yml
-- filename: aemo-attributes-report-external-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-b2bmessagingpull-api-openapi.yml
+- filename: aemo-b2bmessagingsync-api-openapi.yml
   format: yaml
-  label: AEMO WEM Attributes Report
-  slug: aemo-attributes-report-external-v1-openapi
+  label: AEMO B2 B Messaging Sync API
+  slug: aemo-b2bmessagingsync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-attributes-report-external-v1-openapi.yml
-- filename: aemo-b2bmessaging-async-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-b2bmessagingsync-api-openapi.yml
+- filename: aemo-b2mmessagingasync-api-openapi.yml
   format: yaml
-  label: AEMO B2BMessagingAsync
-  slug: aemo-b2bmessaging-async-v1-openapi
+  label: AEMO B2 M Messaging Async API
+  slug: aemo-b2mmessagingasync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-b2bmessaging-async-v1-openapi.yml
-- filename: aemo-b2bmessaging-pull-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-b2mmessagingasync-api-openapi.yml
+- filename: aemo-b2mmessagingpull-api-openapi.yml
   format: yaml
-  label: AEMO B2BMessagingPull
-  slug: aemo-b2bmessaging-pull-v1-openapi
+  label: AEMO B2 M Messaging Pull API
+  slug: aemo-b2mmessagingpull-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-b2bmessaging-pull-v1-openapi.yml
-- filename: aemo-b2bmessaging-sync-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-b2mmessagingpull-api-openapi.yml
+- filename: aemo-b2mmessagingsync-api-openapi.yml
   format: yaml
-  label: AEMO B2BMessagingSync
-  slug: aemo-b2bmessaging-sync-v1-openapi
+  label: AEMO B2 M Messaging Sync API
+  slug: aemo-b2mmessagingsync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-b2bmessaging-sync-v1-openapi.yml
-- filename: aemo-b2mmessaging-async-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-b2mmessagingsync-api-openapi.yml
+- filename: aemo-balancing-reports-v2-1-api-openapi.yml
   format: yaml
-  label: AEMO B2MMessagingAsync
-  slug: aemo-b2mmessaging-async-v1-openapi
+  label: AEMO Balancing Reports v2.1 API
+  slug: aemo-balancing-reports-v2-1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-b2mmessaging-async-v1-openapi.yml
-- filename: aemo-b2mmessaging-pull-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-balancing-reports-v2-1-api-openapi.yml
+- filename: aemo-balancing-reports-v2-2-api-openapi.yml
   format: yaml
-  label: AEMO B2MMessagingPull
-  slug: aemo-b2mmessaging-pull-v1-openapi
+  label: AEMO Balancing Reports v2.2 API
+  slug: aemo-balancing-reports-v2-2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-b2mmessaging-pull-v1-openapi.yml
-- filename: aemo-b2mmessaging-sync-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-balancing-reports-v2-2-api-openapi.yml
+- filename: aemo-balancing-reports-v2-3-api-openapi.yml
   format: yaml
-  label: AEMO B2MMessagingSync
-  slug: aemo-b2mmessaging-sync-v1-openapi
+  label: AEMO Balancing Reports v2.3 API
+  slug: aemo-balancing-reports-v2-3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-b2mmessaging-sync-v1-openapi.yml
-- filename: aemo-balancing-reports-v2-1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-balancing-reports-v2-3-api-openapi.yml
+- filename: aemo-balancing-reports-v2-4-api-openapi.yml
   format: yaml
-  label: AEMO Balancing Reports v2.1
-  slug: aemo-balancing-reports-v2-1-openapi
+  label: AEMO Balancing Reports v2.4 API
+  slug: aemo-balancing-reports-v2-4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-balancing-reports-v2-1-openapi.yml
-- filename: aemo-balancing-reports-v2-2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-balancing-reports-v2-4-api-openapi.yml
+- filename: aemo-balancing-reports-v2-5-api-openapi.yml
   format: yaml
-  label: AEMO Balancing Reports v2.2
-  slug: aemo-balancing-reports-v2-2-openapi
+  label: AEMO Balancing Reports v2.5 API
+  slug: aemo-balancing-reports-v2-5-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-balancing-reports-v2-2-openapi.yml
-- filename: aemo-balancing-reports-v2-3-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-balancing-reports-v2-5-api-openapi.yml
+- filename: aemo-balancing-reports-v2-api-openapi.yml
   format: yaml
-  label: AEMO Balancing Reports v2.3
-  slug: aemo-balancing-reports-v2-3-openapi
+  label: AEMO Balancing Reports v2 API
+  slug: aemo-balancing-reports-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-balancing-reports-v2-3-openapi.yml
-- filename: aemo-balancing-reports-v2-4-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-balancing-reports-v2-api-openapi.yml
+- filename: aemo-balancing-submission-v2-api-openapi.yml
   format: yaml
-  label: AEMO Balancing Reports v2.4
-  slug: aemo-balancing-reports-v2-4-openapi
+  label: AEMO Balancing Submission v2 API
+  slug: aemo-balancing-submission-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-balancing-reports-v2-4-openapi.yml
-- filename: aemo-balancing-reports-v2-5-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-balancing-submission-v2-api-openapi.yml
+- filename: aemo-bilateral-stem-submission-v1-api-openapi.yml
   format: yaml
-  label: AEMO Balancing Reports v2.5
-  slug: aemo-balancing-reports-v2-5-openapi
+  label: AEMO Bilateral/Stem Submission v1 API
+  slug: aemo-bilateral-stem-submission-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-balancing-reports-v2-5-openapi.yml
-- filename: aemo-balancing-reports-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-bilateral-stem-submission-v1-api-openapi.yml
+- filename: aemo-blindupdate-api-openapi.yml
   format: yaml
-  label: AEMO Balancing Reports v2
-  slug: aemo-balancing-reports-v2-openapi
+  label: AEMO Blind Update API
+  slug: aemo-blindupdate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-balancing-reports-v2-openapi.yml
-- filename: aemo-balancing-submission-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-blindupdate-api-openapi.yml
+- filename: aemo-capacity-api-openapi.yml
   format: yaml
-  label: AEMO Balancing Submission v2
-  slug: aemo-balancing-submission-v2-openapi
+  label: AEMO Capacity API
+  slug: aemo-capacity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-balancing-submission-v2-openapi.yml
-- filename: aemo-bidding-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-capacity-api-openapi.yml
+- filename: aemo-capacityauction-api-openapi.yml
   format: yaml
-  label: AEMO NEMDispatchBidding
-  slug: aemo-bidding-v1-openapi
+  label: AEMO Capacity Auction API
+  slug: aemo-capacityauction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-bidding-v1-openapi.yml
-- filename: aemo-bilateral-stem-submission-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-capacityauction-api-openapi.yml
+- filename: aemo-cdr-api-openapi.yml
   format: yaml
-  label: AEMO Bilateral/Stem Submission v1
-  slug: aemo-bilateral-stem-submission-v1-openapi
+  label: AEMO CDR API
+  slug: aemo-cdr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-bilateral-stem-submission-v1-openapi.yml
-- filename: aemo-blindupdate-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-cdr-api-openapi.yml
+- filename: aemo-cdr-common-api-openapi.yml
   format: yaml
-  label: AEMO BlindUpdate
-  slug: aemo-blindupdate-v1-openapi
+  label: AEMO CDR Common API
+  slug: aemo-cdr-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-blindupdate-v1-openapi.yml
-- filename: aemo-capacity-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-cdr-common-api-openapi.yml
+- filename: aemo-data-holder-customers-api-openapi.yml
   format: yaml
-  label: AEMO Capacity
-  slug: aemo-capacity-v1-openapi
+  label: AEMO Data Holder Customers API
+  slug: aemo-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-capacity-v1-openapi.yml
-- filename: aemo-capacityAuction-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-data-holder-customers-api-openapi.yml
+- filename: aemo-data-holder-operations-api-openapi.yml
   format: yaml
-  label: AEMO CapacityAuction
-  slug: aemo-capacityauction-v1-openapi
+  label: AEMO Data Holder Operations API
+  slug: aemo-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-capacityAuction-v1-openapi.yml
-- filename: aemo-der-business-registration-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-data-holder-operations-api-openapi.yml
+- filename: aemo-der-registration-for-account-holders-api-openapi.yml
   format: yaml
-  label: AEMO DER Registration for NSPs
-  slug: aemo-der-business-registration-v1-openapi
+  label: AEMO DER Registration For Account Holders API
+  slug: aemo-der-registration-for-account-holders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-der-business-registration-v1-openapi.yml
-- filename: aemo-der-consumer-registration-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-der-registration-for-account-holders-api-openapi.yml
+- filename: aemo-der-registration-for-nsps-api-openapi.yml
   format: yaml
-  label: AEMO DER Registration For Account Holders
-  slug: aemo-der-consumer-registration-v1-openapi
+  label: AEMO DER Registration for NSPs API
+  slug: aemo-der-registration-for-nsps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-der-consumer-registration-v1-openapi.yml
-- filename: aemo-der-register-installation-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-der-registration-for-nsps-api-openapi.yml
+- filename: aemo-distributed-energy-resources-api-openapi.yml
   format: yaml
-  label: AEMO WEM DER Installation V2
-  slug: aemo-der-register-installation-v2-openapi
+  label: AEMO Distributed Energy Resources API
+  slug: aemo-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-der-register-installation-v2-openapi.yml
-- filename: aemo-der-register-nmi-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-distributed-energy-resources-api-openapi.yml
+- filename: aemo-ee-simulation-status-update-api-openapi.yml
   format: yaml
-  label: AEMO WEM DER NMI
-  slug: aemo-der-register-nmi-v1-openapi
+  label: AEMO EE Simulation Status Update API
+  slug: aemo-ee-simulation-status-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-der-register-nmi-v1-openapi.yml
-- filename: aemo-ee-simulation-status-update-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-ee-simulation-status-update-api-openapi.yml
+- filename: aemo-electricity-service-points-api-openapi.yml
   format: yaml
-  label: AEMO EE Simulation Status Update
-  slug: aemo-ee-simulation-status-update-v1-openapi
+  label: AEMO Electricity Service Points API
+  slug: aemo-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-ee-simulation-status-update-v1-openapi.yml
-- filename: aemo-enablementinstruction-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-electricity-service-points-api-openapi.yml
+- filename: aemo-electricity-usage-api-openapi.yml
   format: yaml
-  label: AEMO EnablementInstruction
-  slug: aemo-enablementinstruction-v1-openapi
+  label: AEMO Electricity Usage API
+  slug: aemo-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-enablementinstruction-v1-openapi.yml
-- filename: aemo-gasbb-reporting-public-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-electricity-usage-api-openapi.yml
+- filename: aemo-enablementinstruction-api-openapi.yml
   format: yaml
-  label: AEMO GasBB Reporting Public Data
-  slug: aemo-gasbb-reporting-public-data-openapi
+  label: AEMO Enablement Instruction API
+  slug: aemo-enablementinstruction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-gasbb-reporting-public-data-openapi.yml
-- filename: aemo-generatorRecall-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-enablementinstruction-api-openapi.yml
+- filename: aemo-energy-account-balances-api-openapi.yml
   format: yaml
-  label: AEMO GeneratorRecall
-  slug: aemo-generatorrecall-v1-openapi
+  label: AEMO Energy Account Balances API
+  slug: aemo-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-generatorRecall-v1-openapi.yml
-- filename: aemo-hubmsgmgt-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-energy-account-balances-api-openapi.yml
+- filename: aemo-energy-account-billing-api-openapi.yml
   format: yaml
-  label: AEMO HubMessageManagement
-  slug: aemo-hubmsgmgt-v1-openapi
+  label: AEMO Energy Account Billing API
+  slug: aemo-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-hubmsgmgt-v1-openapi.yml
-- filename: aemo-hubmsgmgt-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-energy-account-billing-api-openapi.yml
+- filename: aemo-energy-accounts-api-openapi.yml
   format: yaml
-  label: AEMO HubMessageManagementV2
-  slug: aemo-hubmsgmgt-v2-openapi
+  label: AEMO Energy Accounts API
+  slug: aemo-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-hubmsgmgt-v2-openapi.yml
-- filename: aemo-identityService-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-energy-accounts-api-openapi.yml
+- filename: aemo-energy-plans-api-openapi.yml
   format: yaml
-  label: AEMO IdentityService(v2)
-  slug: aemo-identityservice-v2-openapi
+  label: AEMO Energy Plans API
+  slug: aemo-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-identityService-v2-openapi.yml
-- filename: aemo-lfas-reports-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-energy-plans-api-openapi.yml
+- filename: aemo-gasbb-reporting-public-data-api-openapi.yml
   format: yaml
-  label: AEMO LFAS Reports v2
-  slug: aemo-lfas-reports-v2-openapi
+  label: AEMO GasBB Reporting Public Data API
+  slug: aemo-gasbb-reporting-public-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-lfas-reports-v2-openapi.yml
-- filename: aemo-lfas-submission-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-gasbb-reporting-public-data-api-openapi.yml
+- filename: aemo-generatorrecall-api-openapi.yml
   format: yaml
-  label: AEMO LFAS Submission v2
-  slug: aemo-lfas-submission-v2-openapi
+  label: AEMO Generator Recall API
+  slug: aemo-generatorrecall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-lfas-submission-v2-openapi.yml
-- filename: aemo-market-reports-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-generatorrecall-api-openapi.yml
+- filename: aemo-hubmessagemanagement-api-openapi.yml
   format: yaml
-  label: AEMO Market Reports v2
-  slug: aemo-market-reports-v2-openapi
+  label: AEMO Hub Message Management API
+  slug: aemo-hubmessagemanagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-market-reports-v2-openapi.yml
-- filename: aemo-meterexemption-external-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-hubmessagemanagement-api-openapi.yml
+- filename: aemo-hubmessagemanagementv2-api-openapi.yml
   format: yaml
-  label: AEMO MeterExemption
-  slug: aemo-meterexemption-external-v1-openapi
+  label: AEMO Hub Message Management V2 API
+  slug: aemo-hubmessagemanagementv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-meterexemption-external-v1-openapi.yml
-- filename: aemo-mtpasaoffers-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-hubmessagemanagementv2-api-openapi.yml
+- filename: aemo-identityservice-v2-api-openapi.yml
   format: yaml
-  label: AEMO MT PASA Offers
-  slug: aemo-mtpasaoffers-v1-openapi
+  label: AEMO Identity Service(v2) API
+  slug: aemo-identityservice-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-mtpasaoffers-v1-openapi.yml
-- filename: aemo-oauth-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-identityservice-v2-api-openapi.yml
+- filename: aemo-intermittent-generation-availability-submissions-api-openapi.yml
   format: yaml
-  label: AEMO Oauth-v1
-  slug: aemo-oauth-v1-openapi
+  label: AEMO Intermittent Generation Availability Submissions API
+  slug: aemo-intermittent-generation-availability-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-oauth-v1-openapi.yml
-- filename: aemo-oip-external-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-intermittent-generation-availability-submissions-api-openapi.yml
+- filename: aemo-lfas-reports-v2-api-openapi.yml
   format: yaml
-  label: AEMO OIP
-  slug: aemo-oip-external-v1-openapi
+  label: AEMO LFAS Reports v2 API
+  slug: aemo-lfas-reports-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-oip-external-v1-openapi.yml
-- filename: aemo-opsforecasting-intermittentgen-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-lfas-reports-v2-api-openapi.yml
+- filename: aemo-lfas-submission-v2-api-openapi.yml
   format: yaml
-  label: AEMO Intermittent Generation Availability Submissions
-  slug: aemo-opsforecasting-intermittentgen-v1-openapi
+  label: AEMO LFAS Submission v2 API
+  slug: aemo-lfas-submission-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-opsforecasting-intermittentgen-v1-openapi.yml
-- filename: aemo-outage-management-external-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-lfas-submission-v2-api-openapi.yml
+- filename: aemo-market-reports-v2-api-openapi.yml
   format: yaml
-  label: AEMO Outage Management
-  slug: aemo-outage-management-external-v1-openapi
+  label: AEMO Market Reports v2 API
+  slug: aemo-market-reports-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-outage-management-external-v1-openapi.yml
-- filename: aemo-p2pmessaging-sync-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-market-reports-v2-api-openapi.yml
+- filename: aemo-meterexemption-api-openapi.yml
   format: yaml
-  label: AEMO P2PMessagingSync
-  slug: aemo-p2pmessaging-sync-v1-openapi
+  label: AEMO Meter Exemption API
+  slug: aemo-meterexemption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-p2pmessaging-sync-v1-openapi.yml
-- filename: aemo-pre-balancing-reports-v6-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-meterexemption-api-openapi.yml
+- filename: aemo-mt-pasa-offers-api-openapi.yml
   format: yaml
-  label: AEMO Pre-Balancing Reports v6
-  slug: aemo-pre-balancing-reports-v6-openapi
+  label: AEMO MT PASA Offers API
+  slug: aemo-mt-pasa-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-pre-balancing-reports-v6-openapi.yml
-- filename: aemo-pre-balancing-reports-v7-1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-mt-pasa-offers-api-openapi.yml
+- filename: aemo-nemdispatchbidding-api-openapi.yml
   format: yaml
-  label: AEMO Pre-Balancing Reports v7.1
-  slug: aemo-pre-balancing-reports-v7-1-openapi
+  label: AEMO NEM Dispatch Bidding API
+  slug: aemo-nemdispatchbidding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-pre-balancing-reports-v7-1-openapi.yml
-- filename: aemo-pre-balancing-reports-v7-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-nemdispatchbidding-api-openapi.yml
+- filename: aemo-oauth-v1-api-openapi.yml
   format: yaml
-  label: AEMO Pre-Balancing Reports v7
-  slug: aemo-pre-balancing-reports-v7-openapi
+  label: AEMO OAUTH V1 API
+  slug: aemo-oauth-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-pre-balancing-reports-v7-openapi.yml
-- filename: aemo-pre-balancing-reports-v8-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-oauth-v1-api-openapi.yml
+- filename: aemo-oip-api-openapi.yml
   format: yaml
-  label: AEMO Pre-Balancing Reports v8
-  slug: aemo-pre-balancing-reports-v8-openapi
+  label: AEMO OIP API
+  slug: aemo-oip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-pre-balancing-reports-v8-openapi.yml
-- filename: aemo-prudentials-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-oip-api-openapi.yml
+- filename: aemo-outage-management-api-openapi.yml
   format: yaml
-  label: AEMO Prudentials
-  slug: aemo-prudentials-v1-openapi
+  label: AEMO Outage Management API
+  slug: aemo-outage-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-prudentials-v1-openapi.yml
-- filename: aemo-rcm-ops-external-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-outage-management-api-openapi.yml
+- filename: aemo-p2pmessagingsync-api-openapi.yml
   format: yaml
-  label: AEMO RCM Operations
-  slug: aemo-rcm-ops-external-v1-openapi
+  label: AEMO P2 P Messaging Sync API
+  slug: aemo-p2pmessagingsync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-rcm-ops-external-v1-openapi.yml
-- filename: aemo-reallocations-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-p2pmessagingsync-api-openapi.yml
+- filename: aemo-pre-balancing-reports-v6-api-openapi.yml
   format: yaml
-  label: AEMO Reallocations
-  slug: aemo-reallocations-v1-openapi
+  label: AEMO Pre-Balancing Reports v6 API
+  slug: aemo-pre-balancing-reports-v6-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-reallocations-v1-openapi.yml
-- filename: aemo-report-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-pre-balancing-reports-v6-api-openapi.yml
+- filename: aemo-pre-balancing-reports-v7-1-api-openapi.yml
   format: yaml
-  label: AEMO Report
-  slug: aemo-report-v1-openapi
+  label: AEMO Pre-Balancing Reports v7.1 API
+  slug: aemo-pre-balancing-reports-v7-1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-report-v1-openapi.yml
-- filename: aemo-rtms-external-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-pre-balancing-reports-v7-1-api-openapi.yml
+- filename: aemo-pre-balancing-reports-v7-api-openapi.yml
   format: yaml
-  label: AEMO RTMS
-  slug: aemo-rtms-external-v1-openapi
+  label: AEMO Pre-Balancing Reports v7 API
+  slug: aemo-pre-balancing-reports-v7-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-rtms-external-v1-openapi.yml
-- filename: aemo-selfForecast-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-pre-balancing-reports-v7-api-openapi.yml
+- filename: aemo-pre-balancing-reports-v8-api-openapi.yml
   format: yaml
-  label: AEMO SelfForecast
-  slug: aemo-selfforecast-v1-openapi
+  label: AEMO Pre-Balancing Reports v8 API
+  slug: aemo-pre-balancing-reports-v8-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-selfForecast-v1-openapi.yml
-- filename: aemo-settlementDirect-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-pre-balancing-reports-v8-api-openapi.yml
+- filename: aemo-prudentials-api-openapi.yml
   format: yaml
-  label: AEMO Settlement Direct
-  slug: aemo-settlementdirect-v1-openapi
+  label: AEMO Prudentials API
+  slug: aemo-prudentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-settlementDirect-v1-openapi.yml
-- filename: aemo-submission-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-prudentials-api-openapi.yml
+- filename: aemo-rcm-operations-api-openapi.yml
   format: yaml
-  label: AEMO Submission
-  slug: aemo-submission-v1-openapi
+  label: AEMO RCM Operations API
+  slug: aemo-rcm-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-submission-v1-openapi.yml
-- filename: aemo-system-management-reports-v2-1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-rcm-operations-api-openapi.yml
+- filename: aemo-reallocations-api-openapi.yml
   format: yaml
-  label: AEMO System Management Reports v2.1
-  slug: aemo-system-management-reports-v2-1-openapi
+  label: AEMO Reallocations API
+  slug: aemo-reallocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-system-management-reports-v2-1-openapi.yml
-- filename: aemo-system-management-reports-v2-2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-reallocations-api-openapi.yml
+- filename: aemo-report-api-openapi.yml
   format: yaml
-  label: AEMO System Management Reports v2.2
-  slug: aemo-system-management-reports-v2-2-openapi
+  label: AEMO Report API
+  slug: aemo-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-system-management-reports-v2-2-openapi.yml
-- filename: aemo-system-management-reports-v2-3-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-report-api-openapi.yml
+- filename: aemo-rtms-api-openapi.yml
   format: yaml
-  label: AEMO System Management Reports v2.3
-  slug: aemo-system-management-reports-v2-3-openapi
+  label: AEMO RTMS API
+  slug: aemo-rtms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-system-management-reports-v2-3-openapi.yml
-- filename: aemo-system-management-reports-v2-4-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-rtms-api-openapi.yml
+- filename: aemo-selfforecast-api-openapi.yml
   format: yaml
-  label: AEMO System Management Reports v2.4
-  slug: aemo-system-management-reports-v2-4-openapi
+  label: AEMO Self Forecast API
+  slug: aemo-selfforecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-system-management-reports-v2-4-openapi.yml
-- filename: aemo-system-management-reports-v2-5-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-selfforecast-api-openapi.yml
+- filename: aemo-settlement-direct-api-openapi.yml
   format: yaml
-  label: AEMO System Management Reports v2.5
-  slug: aemo-system-management-reports-v2-5-openapi
+  label: AEMO Settlement Direct API
+  slug: aemo-settlement-direct-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-system-management-reports-v2-5-openapi.yml
-- filename: aemo-system-management-reports-v2-6-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-settlement-direct-api-openapi.yml
+- filename: aemo-submission-api-openapi.yml
   format: yaml
-  label: AEMO System Management Reports v2.6
-  slug: aemo-system-management-reports-v2-6-openapi
+  label: AEMO Submission API
+  slug: aemo-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-system-management-reports-v2-6-openapi.yml
-- filename: aemo-system-management-reports-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-submission-api-openapi.yml
+- filename: aemo-system-management-reports-v2-1-api-openapi.yml
   format: yaml
-  label: AEMO System Management Reports v2
-  slug: aemo-system-management-reports-v2-openapi
+  label: AEMO System Management Reports v2.1 API
+  slug: aemo-system-management-reports-v2-1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-system-management-reports-v2-openapi.yml
-- filename: aemo-tls-certificate-mgmt-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-system-management-reports-v2-1-api-openapi.yml
+- filename: aemo-system-management-reports-v2-2-api-openapi.yml
   format: yaml
-  label: AEMO TLS Certificate Mgmt v1
-  slug: aemo-tls-certificate-mgmt-v1-openapi
+  label: AEMO System Management Reports v2.2 API
+  slug: aemo-system-management-reports-v2-2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-tls-certificate-mgmt-v1-openapi.yml
-- filename: aemo-variableparameter-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-system-management-reports-v2-2-api-openapi.yml
+- filename: aemo-system-management-reports-v2-3-api-openapi.yml
   format: yaml
-  label: AEMO VariableParameter
-  slug: aemo-variableparameter-v1-openapi
+  label: AEMO System Management Reports v2.3 API
+  slug: aemo-system-management-reports-v2-3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-variableparameter-v1-openapi.yml
-- filename: aemo-wemde-dispatchcase-external-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-system-management-reports-v2-3-api-openapi.yml
+- filename: aemo-system-management-reports-v2-4-api-openapi.yml
   format: yaml
-  label: AEMO WEMDE DispatchCase
-  slug: aemo-wemde-dispatchcase-external-v1-openapi
+  label: AEMO System Management Reports v2.4 API
+  slug: aemo-system-management-reports-v2-4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-dispatchcase-external-v1-openapi.yml
-- filename: aemo-wemde-dispatchcase-external-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-system-management-reports-v2-4-api-openapi.yml
+- filename: aemo-system-management-reports-v2-5-api-openapi.yml
   format: yaml
-  label: AEMO WEMDE DispatchCase V2
-  slug: aemo-wemde-dispatchcase-external-v2-openapi
+  label: AEMO System Management Reports v2.5 API
+  slug: aemo-system-management-reports-v2-5-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-dispatchcase-external-v2-openapi.yml
-- filename: aemo-wemde-dispatchinstruction-external-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-system-management-reports-v2-5-api-openapi.yml
+- filename: aemo-system-management-reports-v2-6-api-openapi.yml
   format: yaml
-  label: AEMO WEMDE DispatchInstruction
-  slug: aemo-wemde-dispatchinstruction-external-v1-openapi
+  label: AEMO System Management Reports v2.6 API
+  slug: aemo-system-management-reports-v2-6-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-dispatchinstruction-external-v1-openapi.yml
-- filename: aemo-wemde-dispatchsolution-external-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-system-management-reports-v2-6-api-openapi.yml
+- filename: aemo-system-management-reports-v2-api-openapi.yml
   format: yaml
-  label: AEMO WEMDE DispatchSolution
-  slug: aemo-wemde-dispatchsolution-external-v1-openapi
+  label: AEMO System Management Reports v2 API
+  slug: aemo-system-management-reports-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-dispatchsolution-external-v1-openapi.yml
-- filename: aemo-wemde-dispatchsolution-external-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-system-management-reports-v2-api-openapi.yml
+- filename: aemo-tls-certificate-mgmt-v1-api-openapi.yml
   format: yaml
-  label: AEMO WEMDE DispatchSolution V2
-  slug: aemo-wemde-dispatchsolution-external-v2-openapi
+  label: AEMO TLS Certificate Mgmt v1 API
+  slug: aemo-tls-certificate-mgmt-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-dispatchsolution-external-v2-openapi.yml
-- filename: aemo-wemde-dispatchsummary-external-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-tls-certificate-mgmt-v1-api-openapi.yml
+- filename: aemo-variableparameter-api-openapi.yml
   format: yaml
-  label: AEMO WEMDE DispatchSummary
-  slug: aemo-wemde-dispatchsummary-external-v1-openapi
+  label: AEMO Variable Parameter API
+  slug: aemo-variableparameter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-dispatchsummary-external-v1-openapi.yml
-- filename: aemo-wemde-dspdispatchinstruction-external-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-variableparameter-api-openapi.yml
+- filename: aemo-wem-attributes-report-api-openapi.yml
   format: yaml
-  label: AEMO WEMDE DSPDispatchInstruction
-  slug: aemo-wemde-dspdispatchinstruction-external-v1-openapi
+  label: AEMO WEM Attributes Report API
+  slug: aemo-wem-attributes-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-dspdispatchinstruction-external-v1-openapi.yml
-- filename: aemo-wemde-ncess-external-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wem-attributes-report-api-openapi.yml
+- filename: aemo-wem-der-installation-v2-api-openapi.yml
   format: yaml
-  label: AEMO WEMDE NCESS
-  slug: aemo-wemde-ncess-external-v1-openapi
+  label: AEMO WEM DER Installation V2 API
+  slug: aemo-wem-der-installation-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-ncess-external-v1-openapi.yml
-- filename: aemo-wemde-notinservicecapacity-external-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wem-der-installation-v2-api-openapi.yml
+- filename: aemo-wem-der-nmi-api-openapi.yml
   format: yaml
-  label: AEMO WEMDE NotInServiceCapacity
-  slug: aemo-wemde-notinservicecapacity-external-v1-openapi
+  label: AEMO WEM DER NMI API
+  slug: aemo-wem-der-nmi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-notinservicecapacity-external-v1-openapi.yml
-- filename: aemo-wemde-referencetradingprice-external-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wem-der-nmi-api-openapi.yml
+- filename: aemo-wemde-dispatchcase-api-openapi.yml
   format: yaml
-  label: AEMO WEMDE ReferenceTradingPrice
-  slug: aemo-wemde-referencetradingprice-external-v1-openapi
+  label: AEMO WEMDE DispatchCase API
+  slug: aemo-wemde-dispatchcase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-referencetradingprice-external-v1-openapi.yml
-- filename: aemo-wemde-tradingdayreport-external-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-dispatchcase-api-openapi.yml
+- filename: aemo-wemde-dispatchcase-v2-api-openapi.yml
   format: yaml
-  label: AEMO WEMDE TradingDayReport
-  slug: aemo-wemde-tradingdayreport-external-v1-openapi
+  label: AEMO WEMDE DispatchCase V2 API
+  slug: aemo-wemde-dispatchcase-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-tradingdayreport-external-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-dispatchcase-v2-api-openapi.yml
+- filename: aemo-wemde-dispatchinstruction-api-openapi.yml
+  format: yaml
+  label: AEMO WEMDE DispatchInstruction API
+  slug: aemo-wemde-dispatchinstruction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-dispatchinstruction-api-openapi.yml
+- filename: aemo-wemde-dispatchsolution-api-openapi.yml
+  format: yaml
+  label: AEMO WEMDE DispatchSolution API
+  slug: aemo-wemde-dispatchsolution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-dispatchsolution-api-openapi.yml
+- filename: aemo-wemde-dispatchsolution-v2-api-openapi.yml
+  format: yaml
+  label: AEMO WEMDE DispatchSolution V2 API
+  slug: aemo-wemde-dispatchsolution-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-dispatchsolution-v2-api-openapi.yml
+- filename: aemo-wemde-dispatchsummary-api-openapi.yml
+  format: yaml
+  label: AEMO WEMDE DispatchSummary API
+  slug: aemo-wemde-dispatchsummary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-dispatchsummary-api-openapi.yml
+- filename: aemo-wemde-dspdispatchinstruction-api-openapi.yml
+  format: yaml
+  label: AEMO WEMDE DSPDispatchInstruction API
+  slug: aemo-wemde-dspdispatchinstruction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-dspdispatchinstruction-api-openapi.yml
+- filename: aemo-wemde-ncess-api-openapi.yml
+  format: yaml
+  label: AEMO WEMDE NCESS API
+  slug: aemo-wemde-ncess-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-ncess-api-openapi.yml
+- filename: aemo-wemde-notinservicecapacity-api-openapi.yml
+  format: yaml
+  label: AEMO WEMDE NotInServiceCapacity API
+  slug: aemo-wemde-notinservicecapacity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-notinservicecapacity-api-openapi.yml
+- filename: aemo-wemde-referencetradingprice-api-openapi.yml
+  format: yaml
+  label: AEMO WEMDE ReferenceTradingPrice API
+  slug: aemo-wemde-referencetradingprice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-referencetradingprice-api-openapi.yml
+- filename: aemo-wemde-tradingdayreport-api-openapi.yml
+  format: yaml
+  label: AEMO WEMDE TradingDayReport API
+  slug: aemo-wemde-tradingdayreport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/openapi/aemo-wemde-tradingdayreport-api-openapi.yml
 auth_types:
 - apiKey
 description: 'AEMO fronts its participant APIs with Azure API Management (dev.aemo.com.au / api.aemo.com.au). Every published OpenAPI declares an APIM subscription key as an apiKey security scheme, in a header (Ocp-Apim-Subscription-Key, x-apikey, x-eHub-APIKey, x-aemo-api-key, X-DC-DEVKEY, client_id) or in the subscription-key / clientId query parameter. The subscription key is only the gateway credential: most operations additionally require an AEMO-signed TLS client certificate (mutual TLS to the e-Hub gateway) and a caller identity - either URM (User Rights Management) username/password sent as HTTP Basic in the Authorization header, or an OAuth 2.0 client_credentials bearer token issued by api.aemo.com.au. The DER Register consumer registration API uses an Azure AD B2C OpenID Connect provider instead.'

@@ -78,6 +78,24 @@ api_specs:
   slug: moov-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/openapi/moov-wallets-api-openapi.yml
+- filename: moov-card-issuing-api-openapi.yml
+  format: yaml
+  label: Moov Card Issuing API
+  slug: moov-card-issuing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/openapi/moov-card-issuing-api-openapi.yml
+- filename: moov-institutions-api-openapi.yml
+  format: yaml
+  label: Moov Institutions API
+  slug: moov-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/openapi/moov-institutions-api-openapi.yml
+- filename: moov-underwriting-api-openapi.yml
+  format: yaml
+  label: Moov Underwriting API
+  slug: moov-underwriting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/openapi/moov-underwriting-api-openapi.yml
 description: ''
 domains:
 - caa: []

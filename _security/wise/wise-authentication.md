@@ -283,6 +283,12 @@ api_specs:
   slug: wise-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wise/refs/heads/main/openapi/wise-webhook-api-openapi.yml
+- filename: wise-webhook-event-api-openapi.yml
+  format: yaml
+  label: Wise Webhook Event API
+  slug: wise-webhook-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wise/refs/heads/main/openapi/wise-webhook-event-api-openapi.yml
 auth_types:
 - http
 description: ''

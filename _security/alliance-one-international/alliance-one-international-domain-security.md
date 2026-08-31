@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Alliance One International Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for alliance-one-international, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: alliance-one-international
+overview: 'Domain security posture for Alliance One International, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Alliance One International
 provider_slug: alliance-one-international
 slug: alliance-one-international-domain-security
 source_filename: alliance-one-international-domain-security.yml

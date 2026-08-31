@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: stack-moxie-rest-api-openapi.yml
+- filename: stack-moxie-how-to-administer-api-openapi.yml
   format: yaml
-  label: Stack Moxie REST API
-  slug: stack-moxie-rest-api
+  label: 'Stack Moxie How To: Administer API'
+  slug: stack-moxie-how-to-administer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-administer-api-openapi.yml
+- filename: stack-moxie-how-to-automate-api-openapi.yml
+  format: yaml
+  label: 'Stack Moxie How To: Automate API'
+  slug: stack-moxie-how-to-automate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-automate-api-openapi.yml
+- filename: stack-moxie-how-to-integrate-api-openapi.yml
+  format: yaml
+  label: 'Stack Moxie How To: Integrate API'
+  slug: stack-moxie-how-to-integrate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-integrate-api-openapi.yml
+- filename: stack-moxie-how-to-organize-api-openapi.yml
+  format: yaml
+  label: 'Stack Moxie How To: Organize API'
+  slug: stack-moxie-how-to-organize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-organize-api-openapi.yml
+- filename: stack-moxie-how-to-test-api-openapi.yml
+  format: yaml
+  label: 'Stack Moxie How To: Test API'
+  slug: stack-moxie-how-to-test-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-test-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,30 +1,84 @@
 ---
 api_key_in: []
 api_specs:
-- filename: lakekeeper-management-api-openapi.yml
-  format: yaml
-  label: Lakekeeper Management API
-  slug: lakekeeper-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-management-api-openapi.yml
-- filename: lakekeeper-catalog-api-openapi.yml
-  format: yaml
-  label: Lakekeeper Iceberg REST Catalog API
-  slug: lakekeeper-iceberg-rest-catalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-catalog-api-openapi.yml
 - filename: lakekeeper-generic-table-api-openapi.yml
   format: yaml
   label: Lakekeeper Generic Table (Data) API
   slug: lakekeeper-generic-table-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-generic-table-api-openapi.yml
-- filename: lakekeeper-management-plus-api-openapi.yml
+- filename: lakekeeper-authorization-api-openapi.yml
   format: yaml
-  label: Lakekeeper+ Management API
-  slug: lakekeeper-management-api
+  label: Lakekeeper Authorization API
+  slug: lakekeeper-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-management-plus-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-authorization-api-openapi.yml
+- filename: lakekeeper-catalog-api-api-openapi.yml
+  format: yaml
+  label: Lakekeeper Catalog API
+  slug: lakekeeper-catalog-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-catalog-api-api-openapi.yml
+- filename: lakekeeper-configuration-api-api-openapi.yml
+  format: yaml
+  label: Lakekeeper Configuration API
+  slug: lakekeeper-configuration-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-configuration-api-api-openapi.yml
+- filename: lakekeeper-oauth2-api-api-openapi.yml
+  format: yaml
+  label: Lakekeeper OAuth2 API
+  slug: lakekeeper-oauth2-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-oauth2-api-api-openapi.yml
+- filename: lakekeeper-permissions-cedar-api-openapi.yml
+  format: yaml
+  label: Lakekeeper Permissions Cedar API
+  slug: lakekeeper-permissions-cedar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-permissions-cedar-api-openapi.yml
+- filename: lakekeeper-permissions-openfga-api-openapi.yml
+  format: yaml
+  label: Lakekeeper Permissions Openfga API
+  slug: lakekeeper-permissions-openfga-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-permissions-openfga-api-openapi.yml
+- filename: lakekeeper-project-api-openapi.yml
+  format: yaml
+  label: Lakekeeper Project API
+  slug: lakekeeper-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-project-api-openapi.yml
+- filename: lakekeeper-role-api-openapi.yml
+  format: yaml
+  label: Lakekeeper Role API
+  slug: lakekeeper-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-role-api-openapi.yml
+- filename: lakekeeper-server-api-openapi.yml
+  format: yaml
+  label: Lakekeeper Server API
+  slug: lakekeeper-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-server-api-openapi.yml
+- filename: lakekeeper-tasks-api-openapi.yml
+  format: yaml
+  label: Lakekeeper Tasks API
+  slug: lakekeeper-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-tasks-api-openapi.yml
+- filename: lakekeeper-user-api-openapi.yml
+  format: yaml
+  label: Lakekeeper User API
+  slug: lakekeeper-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-user-api-openapi.yml
+- filename: lakekeeper-warehouse-api-openapi.yml
+  format: yaml
+  label: Lakekeeper Warehouse API
+  slug: lakekeeper-warehouse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-warehouse-api-openapi.yml
 auth_types:
 - http
 - oauth2

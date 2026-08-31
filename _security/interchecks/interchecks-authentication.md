@@ -1,12 +1,102 @@
 ---
 api_key_in: []
 api_specs:
-- filename: interchecks-payments-api-v2.json
-  format: json
-  label: Interchecks Payments API v2
-  slug: interchecks-payments-api-v2
+- filename: interchecks-accounts-api-openapi.yml
+  format: yaml
+  label: Interchecks Accounts API
+  slug: interchecks-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-payments-api-v2.json
+  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-accounts-api-openapi.yml
+- filename: interchecks-authentication-api-openapi.yml
+  format: yaml
+  label: Interchecks Authentication API
+  slug: interchecks-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-authentication-api-openapi.yml
+- filename: interchecks-oauth2-api-openapi.yml
+  format: yaml
+  label: Interchecks Oauth2 API
+  slug: interchecks-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-oauth2-api-openapi.yml
+- filename: interchecks-payers-api-openapi.yml
+  format: yaml
+  label: Interchecks Payers API
+  slug: interchecks-payers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-payers-api-openapi.yml
+- filename: interchecks-payload-api-openapi.yml
+  format: yaml
+  label: Interchecks Payload API
+  slug: interchecks-payload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-payload-api-openapi.yml
+- filename: interchecks-payment-accounts-bank-api-openapi.yml
+  format: yaml
+  label: Interchecks Payment Accounts - Bank API
+  slug: interchecks-payment-accounts-bank-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-payment-accounts-bank-api-openapi.yml
+- filename: interchecks-payment-accounts-card-api-openapi.yml
+  format: yaml
+  label: Interchecks Payment Accounts - Card API
+  slug: interchecks-payment-accounts-card-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-payment-accounts-card-api-openapi.yml
+- filename: interchecks-payment-accounts-paypal-api-openapi.yml
+  format: yaml
+  label: Interchecks Payment Accounts - PayPal API
+  slug: interchecks-payment-accounts-paypal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-payment-accounts-paypal-api-openapi.yml
+- filename: interchecks-payments-api-openapi.yml
+  format: yaml
+  label: Interchecks Payments API
+  slug: interchecks-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-payments-api-openapi.yml
+- filename: interchecks-recipient-emails-api-openapi.yml
+  format: yaml
+  label: Interchecks Recipient Emails API
+  slug: interchecks-recipient-emails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-recipient-emails-api-openapi.yml
+- filename: interchecks-recipient-verification-api-openapi.yml
+  format: yaml
+  label: Interchecks Recipient Verification API
+  slug: interchecks-recipient-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-recipient-verification-api-openapi.yml
+- filename: interchecks-recipients-api-openapi.yml
+  format: yaml
+  label: Interchecks Recipients API
+  slug: interchecks-recipients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-recipients-api-openapi.yml
+- filename: interchecks-reports-api-openapi.yml
+  format: yaml
+  label: Interchecks Reports API
+  slug: interchecks-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-reports-api-openapi.yml
+- filename: interchecks-test-harness-api-openapi.yml
+  format: yaml
+  label: Interchecks Test Harness API
+  slug: interchecks-test-harness-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-test-harness-api-openapi.yml
+- filename: interchecks-transactions-api-openapi.yml
+  format: yaml
+  label: Interchecks Transactions API
+  slug: interchecks-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-transactions-api-openapi.yml
+- filename: interchecks-widgets-api-openapi.yml
+  format: yaml
+  label: Interchecks Widgets API
+  slug: interchecks-widgets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-widgets-api-openapi.yml
 auth_types:
 - oauth2
 - http

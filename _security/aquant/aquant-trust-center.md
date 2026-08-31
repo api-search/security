@@ -1,17 +1,71 @@
 ---
 api_specs:
-- filename: aquant-mcp-server-openapi.json
-  format: json
-  label: Aquant MCP Server
-  slug: mcp-server
+- filename: aquant-agent-data-api-openapi.yml
+  format: yaml
+  label: Aquant Agent Data API
+  slug: aquant-agent-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-mcp-server-openapi.json
-- filename: aquant-voiceai-api-openapi.json
-  format: json
-  label: Aquant Conversation Platform (VoiceAI) API
-  slug: acp-voiceai
+  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-agent-data-api-openapi.yml
+- filename: aquant-asset-location-api-openapi.yml
+  format: yaml
+  label: Aquant Asset Location API
+  slug: aquant-asset-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-voiceai-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-asset-location-api-openapi.yml
+- filename: aquant-health-api-openapi.yml
+  format: yaml
+  label: Aquant Health API
+  slug: aquant-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-health-api-openapi.yml
+- filename: aquant-next-symptom-api-openapi.yml
+  format: yaml
+  label: Aquant Next Symptom API
+  slug: aquant-next-symptom-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-next-symptom-api-openapi.yml
+- filename: aquant-observation-existence-api-openapi.yml
+  format: yaml
+  label: Aquant Observation Existence API
+  slug: aquant-observation-existence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-observation-existence-api-openapi.yml
+- filename: aquant-part-catalog-lookup-api-openapi.yml
+  format: yaml
+  label: Aquant Part Catalog Lookup API
+  slug: aquant-part-catalog-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-part-catalog-lookup-api-openapi.yml
+- filename: aquant-part-info-api-openapi.yml
+  format: yaml
+  label: Aquant Part Info API
+  slug: aquant-part-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-part-info-api-openapi.yml
+- filename: aquant-part-sources-api-openapi.yml
+  format: yaml
+  label: Aquant Part Sources API
+  slug: aquant-part-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-part-sources-api-openapi.yml
+- filename: aquant-preventive-maintenance-check-list-api-openapi.yml
+  format: yaml
+  label: Aquant Preventive Maintenance Check List API
+  slug: aquant-preventive-maintenance-check-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-preventive-maintenance-check-list-api-openapi.yml
+- filename: aquant-summary-report-api-openapi.yml
+  format: yaml
+  label: Aquant Summary Report API
+  slug: aquant-summary-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-summary-report-api-openapi.yml
+- filename: aquant-technician-proximity-api-openapi.yml
+  format: yaml
+  label: Aquant Technician Proximity API
+  slug: aquant-technician-proximity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-technician-proximity-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

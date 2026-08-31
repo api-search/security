@@ -66,6 +66,18 @@ api_specs:
   slug: rentle-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-webhooks-api-openapi.yml
+- filename: rentle-order-api-openapi.yml
+  format: yaml
+  label: Rentle Order API
+  slug: rentle-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-order-api-openapi.yml
+- filename: rentle-product-api-openapi.yml
+  format: yaml
+  label: Rentle Product API
+  slug: rentle-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-product-api-openapi.yml
 description: ''
 domains:
 - caa: []

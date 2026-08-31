@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: appstorespy-openapi.json
-  format: json
-  label: AppstoreSpy API
-  slug: appstorespy-api
+- filename: appstorespy-app-store-api-openapi.yml
+  format: yaml
+  label: AppstoreSpy App Store API
+  slug: appstorespy-app-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/openapi/appstorespy-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/openapi/appstorespy-app-store-api-openapi.yml
+- filename: appstorespy-events-api-openapi.yml
+  format: yaml
+  label: AppstoreSpy Events API
+  slug: appstorespy-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/openapi/appstorespy-events-api-openapi.yml
+- filename: appstorespy-google-play-api-openapi.yml
+  format: yaml
+  label: AppstoreSpy Google Play API
+  slug: appstorespy-google-play-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/openapi/appstorespy-google-play-api-openapi.yml
+- filename: appstorespy-jobs-api-openapi.yml
+  format: yaml
+  label: AppstoreSpy Jobs API
+  slug: appstorespy-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/openapi/appstorespy-jobs-api-openapi.yml
+- filename: appstorespy-search-filter-v-2-api-openapi.yml
+  format: yaml
+  label: AppstoreSpy Search Filter v.2 API
+  slug: appstorespy-search-filter-v-2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/openapi/appstorespy-search-filter-v-2-api-openapi.yml
+- filename: appstorespy-suggestions-api-openapi.yml
+  format: yaml
+  label: AppstoreSpy Suggestions API
+  slug: appstorespy-suggestions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/openapi/appstorespy-suggestions-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: connells-website-openapi.yml
+- filename: connells-branches-api-openapi.yml
   format: yaml
-  label: Connells Website JSON API (undocumented)
-  slug: connells-website-json-api-undocumented
+  label: Connells Group Branches API
+  slug: connells-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/openapi/connells-website-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/openapi/connells-branches-api-openapi.yml
+- filename: connells-locations-api-openapi.yml
+  format: yaml
+  label: Connells Group Locations API
+  slug: connells-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/openapi/connells-locations-api-openapi.yml
+- filename: connells-people-api-openapi.yml
+  format: yaml
+  label: Connells Group People API
+  slug: connells-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/openapi/connells-people-api-openapi.yml
+- filename: connells-testimonials-api-openapi.yml
+  format: yaml
+  label: Connells Group Testimonials API
+  slug: connells-testimonials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/openapi/connells-testimonials-api-openapi.yml
 description: ''
 domains:
 - caa: []

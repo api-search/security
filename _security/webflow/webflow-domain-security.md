@@ -36,18 +36,6 @@ api_specs:
   slug: webflow-custom-code-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/openapi/webflow-custom-code-api-openapi.yml
-- filename: webflow-custom-code-pages-api-openapi.yml
-  format: yaml
-  label: Webflow Custom Code - Pages API
-  slug: webflow-custom-code-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/openapi/webflow-custom-code-pages-api-openapi.yml
-- filename: webflow-custom-code-sites-api-openapi.yml
-  format: yaml
-  label: Webflow Custom Code - Sites API
-  slug: webflow-custom-code-sites-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/openapi/webflow-custom-code-sites-api-openapi.yml
 - filename: webflow-forms-api-openapi.yml
   format: yaml
   label: Webflow Forms API
@@ -90,12 +78,6 @@ api_specs:
   slug: webflow-products-skus-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/openapi/webflow-products-skus-api-openapi.yml
-- filename: webflow-registered-scripts-api-openapi.yml
-  format: yaml
-  label: Webflow Registered Scripts API
-  slug: webflow-registered-scripts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/openapi/webflow-registered-scripts-api-openapi.yml
 - filename: webflow-settings-api-openapi.yml
   format: yaml
   label: Webflow Settings API

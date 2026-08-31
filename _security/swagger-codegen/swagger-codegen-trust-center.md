@@ -24,6 +24,24 @@ api_specs:
   slug: swagger-codegen-utilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/openapi/swagger-codegen-utilities-api-openapi.yml
+- filename: swagger-codegen-clients-api-openapi.yml
+  format: yaml
+  label: Swagger Codegen Clients API
+  slug: swagger-codegen-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/openapi/swagger-codegen-clients-api-openapi.yml
+- filename: swagger-codegen-documentation-api-openapi.yml
+  format: yaml
+  label: Swagger Codegen Documentation API
+  slug: swagger-codegen-documentation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/openapi/swagger-codegen-documentation-api-openapi.yml
+- filename: swagger-codegen-servers-api-openapi.yml
+  format: yaml
+  label: Swagger Codegen Servers API
+  slug: swagger-codegen-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/openapi/swagger-codegen-servers-api-openapi.yml
 certifications:
 - SOC 2
 - ISO/IEC 27001

@@ -60,6 +60,12 @@ api_specs:
   slug: boom-ai-whatsapp-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-whatsapp-templates-api-openapi.yml
+- filename: boom-ai-environments-api-openapi.yml
+  format: yaml
+  label: Boom Ai Environments API
+  slug: boom-ai-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-environments-api-openapi.yml
 certifications:
 - SOC 2 Type 1
 - SOC 2 Type 2

@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: merqube-api-openapi.json
-  format: json
+- filename: merqube-api-api-openapi.yml
+  format: yaml
   label: MerQube API
-  slug: merqube-api
+  slug: merqube-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merqube/refs/heads/main/openapi/merqube-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/merqube/refs/heads/main/openapi/merqube-api-api-openapi.yml
+- filename: merqube-helper-api-openapi.yml
+  format: yaml
+  label: MerQube Helper API
+  slug: merqube-helper-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merqube/refs/heads/main/openapi/merqube-helper-api-openapi.yml
+- filename: merqube-identifier-api-openapi.yml
+  format: yaml
+  label: MerQube Identifier API
+  slug: merqube-identifier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merqube/refs/heads/main/openapi/merqube-identifier-api-openapi.yml
+- filename: merqube-index-api-openapi.yml
+  format: yaml
+  label: MerQube Index API
+  slug: merqube-index-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merqube/refs/heads/main/openapi/merqube-index-api-openapi.yml
+- filename: merqube-legacy-equity-security-api-openapi.yml
+  format: yaml
+  label: MerQube Legacy Equity Security API
+  slug: merqube-legacy-equity-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merqube/refs/heads/main/openapi/merqube-legacy-equity-security-api-openapi.yml
+- filename: merqube-options-api-openapi.yml
+  format: yaml
+  label: MerQube Options API
+  slug: merqube-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merqube/refs/heads/main/openapi/merqube-options-api-openapi.yml
+- filename: merqube-portfolio-handler-api-openapi.yml
+  format: yaml
+  label: MerQube Portfolio Handler API
+  slug: merqube-portfolio-handler-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merqube/refs/heads/main/openapi/merqube-portfolio-handler-api-openapi.yml
+- filename: merqube-security-api-openapi.yml
+  format: yaml
+  label: MerQube Security API
+  slug: merqube-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merqube/refs/heads/main/openapi/merqube-security-api-openapi.yml
+- filename: merqube-security-list-api-openapi.yml
+  format: yaml
+  label: MerQube Security List API
+  slug: merqube-security-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merqube/refs/heads/main/openapi/merqube-security-list-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

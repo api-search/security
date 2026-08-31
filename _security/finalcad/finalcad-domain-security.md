@@ -1,41 +1,155 @@
 ---
 api_specs:
-- filename: finalcad-projects-openapi.yml
+- filename: finalcad-authentication-api-openapi.yml
   format: yaml
-  label: Finalcad One Project API
-  slug: finalcad-one-project-api
+  label: Finalcad Authentication API
+  slug: finalcad-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-projects-openapi.yml
-- filename: finalcad-organizations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-authentication-api-openapi.yml
+- filename: finalcad-chunk-upload-api-openapi.yml
   format: yaml
-  label: Finalcad One Organization Management API
-  slug: finalcad-one-organization-api
+  label: Finalcad Chunk Upload API
+  slug: finalcad-chunk-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-organizations-openapi.yml
-- filename: finalcad-medias-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-chunk-upload-api-openapi.yml
+- filename: finalcad-companies-api-openapi.yml
   format: yaml
-  label: Finalcad One Medias API
-  slug: finalcad-one-medias-api
+  label: Finalcad Companies API
+  slug: finalcad-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-medias-openapi.yml
-- filename: finalcad-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-companies-api-openapi.yml
+- filename: finalcad-datasets-api-openapi.yml
   format: yaml
-  label: Finalcad One Webhooks API
-  slug: finalcad-one-webhooks-api
+  label: Finalcad Datasets API
+  slug: finalcad-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-webhooks-openapi.yml
-- filename: finalcad-libraries-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-datasets-api-openapi.yml
+- filename: finalcad-discussion-groups-api-openapi.yml
   format: yaml
-  label: Finalcad One Libraries API
-  slug: finalcad-one-libraries-api
+  label: Finalcad Discussion groups API
+  slug: finalcad-discussion-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-libraries-openapi.yml
-- filename: finalcad-authentication-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-discussion-groups-api-openapi.yml
+- filename: finalcad-documents-api-openapi.yml
   format: yaml
-  label: Finalcad One Authentication API
-  slug: finalcad-one-authentication-api
+  label: Finalcad Documents API
+  slug: finalcad-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-authentication-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-documents-api-openapi.yml
+- filename: finalcad-exports-api-openapi.yml
+  format: yaml
+  label: Finalcad Exports API
+  slug: finalcad-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-exports-api-openapi.yml
+- filename: finalcad-forms-api-openapi.yml
+  format: yaml
+  label: Finalcad Forms API
+  slug: finalcad-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-forms-api-openapi.yml
+- filename: finalcad-languages-api-openapi.yml
+  format: yaml
+  label: Finalcad Languages API
+  slug: finalcad-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-languages-api-openapi.yml
+- filename: finalcad-libraries-api-openapi.yml
+  format: yaml
+  label: Finalcad Libraries API
+  slug: finalcad-libraries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-libraries-api-openapi.yml
+- filename: finalcad-locations-api-openapi.yml
+  format: yaml
+  label: Finalcad Locations API
+  slug: finalcad-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-locations-api-openapi.yml
+- filename: finalcad-medias-api-openapi.yml
+  format: yaml
+  label: Finalcad Medias API
+  slug: finalcad-medias-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-medias-api-openapi.yml
+- filename: finalcad-medias-handeling-api-openapi.yml
+  format: yaml
+  label: Finalcad Medias handeling API
+  slug: finalcad-medias-handeling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-medias-handeling-api-openapi.yml
+- filename: finalcad-meetings-api-openapi.yml
+  format: yaml
+  label: Finalcad Meetings API
+  slug: finalcad-meetings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-meetings-api-openapi.yml
+- filename: finalcad-members-api-openapi.yml
+  format: yaml
+  label: Finalcad Members API
+  slug: finalcad-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-members-api-openapi.yml
+- filename: finalcad-modules-api-openapi.yml
+  format: yaml
+  label: Finalcad Modules API
+  slug: finalcad-modules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-modules-api-openapi.yml
+- filename: finalcad-observations-api-openapi.yml
+  format: yaml
+  label: Finalcad Observations API
+  slug: finalcad-observations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-observations-api-openapi.yml
+- filename: finalcad-phases-api-openapi.yml
+  format: yaml
+  label: Finalcad Phases API
+  slug: finalcad-phases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-phases-api-openapi.yml
+- filename: finalcad-project-details-api-openapi.yml
+  format: yaml
+  label: Finalcad Project  details API
+  slug: finalcad-project-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-project-details-api-openapi.yml
+- filename: finalcad-project-libraries-api-openapi.yml
+  format: yaml
+  label: Finalcad Project libraries API
+  slug: finalcad-project-libraries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-project-libraries-api-openapi.yml
+- filename: finalcad-project-members-management-api-openapi.yml
+  format: yaml
+  label: Finalcad Project members management API
+  slug: finalcad-project-members-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-project-members-management-api-openapi.yml
+- filename: finalcad-referential-api-openapi.yml
+  format: yaml
+  label: Finalcad Referential API
+  slug: finalcad-referential-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-referential-api-openapi.yml
+- filename: finalcad-user-organizations-api-openapi.yml
+  format: yaml
+  label: Finalcad User organizations API
+  slug: finalcad-user-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-user-organizations-api-openapi.yml
+- filename: finalcad-webhooks-api-openapi.yml
+  format: yaml
+  label: Finalcad Webhooks API
+  slug: finalcad-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-webhooks-api-openapi.yml
+- filename: finalcad-workspaces-api-openapi.yml
+  format: yaml
+  label: Finalcad Workspaces API
+  slug: finalcad-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/openapi/finalcad-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

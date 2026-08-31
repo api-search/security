@@ -1,23 +1,77 @@
 ---
 api_specs:
-- filename: carnegie-mellon-university-delphi-epidata-openapi.yml
+- filename: carnegie-mellon-university-articles-api-openapi.yml
   format: yaml
-  label: Delphi Epidata API
-  slug: delphi-epidata
+  label: Carnegie Mellon University Articles API
+  slug: carnegie-mellon-university-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-delphi-epidata-openapi.yml
-- filename: carnegie-mellon-university-cert-vulnerability-notes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-articles-api-openapi.yml
+- filename: carnegie-mellon-university-covidcast-api-openapi.yml
   format: yaml
-  label: CERT/CC Vulnerability Notes API
-  slug: cert-vulnerability-notes
+  label: Carnegie Mellon University Covidcast API
+  slug: carnegie-mellon-university-covidcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-cert-vulnerability-notes-openapi.yml
-- filename: carnegie-mellon-university-library-publishing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-covidcast-api-openapi.yml
+- filename: carnegie-mellon-university-feeds-api-openapi.yml
   format: yaml
-  label: CMU Library Publishing Service API + OAI-PMH
-  slug: library-publishing
+  label: Carnegie Mellon University Feeds API
+  slug: carnegie-mellon-university-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-library-publishing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-feeds-api-openapi.yml
+- filename: carnegie-mellon-university-fluview-api-openapi.yml
+  format: yaml
+  label: Carnegie Mellon University Fluview API
+  slug: carnegie-mellon-university-fluview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-fluview-api-openapi.yml
+- filename: carnegie-mellon-university-forecasts-api-openapi.yml
+  format: yaml
+  label: Carnegie Mellon University Forecasts API
+  slug: carnegie-mellon-university-forecasts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-forecasts-api-openapi.yml
+- filename: carnegie-mellon-university-issues-api-openapi.yml
+  format: yaml
+  label: Carnegie Mellon University Issues API
+  slug: carnegie-mellon-university-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-issues-api-openapi.yml
+- filename: carnegie-mellon-university-journals-api-openapi.yml
+  format: yaml
+  label: Carnegie Mellon University Journals API
+  slug: carnegie-mellon-university-journals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-journals-api-openapi.yml
+- filename: carnegie-mellon-university-meta-api-openapi.yml
+  format: yaml
+  label: Carnegie Mellon University Meta API
+  slug: carnegie-mellon-university-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-meta-api-openapi.yml
+- filename: carnegie-mellon-university-notes-api-openapi.yml
+  format: yaml
+  label: Carnegie Mellon University Notes API
+  slug: carnegie-mellon-university-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-notes-api-openapi.yml
+- filename: carnegie-mellon-university-oai-pmh-api-openapi.yml
+  format: yaml
+  label: Carnegie Mellon University Oai Pmh API
+  slug: carnegie-mellon-university-oai-pmh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-oai-pmh-api-openapi.yml
+- filename: carnegie-mellon-university-preprints-api-openapi.yml
+  format: yaml
+  label: Carnegie Mellon University Preprints API
+  slug: carnegie-mellon-university-preprints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-preprints-api-openapi.yml
+- filename: carnegie-mellon-university-vendors-api-openapi.yml
+  format: yaml
+  label: Carnegie Mellon University Vendors API
+  slug: carnegie-mellon-university-vendors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-vendors-api-openapi.yml
 description: ''
 domains:
 - caa: []

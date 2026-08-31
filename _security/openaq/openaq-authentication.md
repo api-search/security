@@ -86,12 +86,6 @@ api_specs:
   slug: openaq-measurements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-measurements-api-openapi.yml
-- filename: openaq-monthly-api-openapi.yml
-  format: yaml
-  label: OpenAQ Monthly API
-  slug: openaq-monthly-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-monthly-api-openapi.yml
 - filename: openaq-owners-api-openapi.yml
   format: yaml
   label: OpenAQ Owners API
@@ -128,24 +122,12 @@ api_specs:
   slug: openaq-readme-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-readme-api-openapi.yml
-- filename: openaq-sensor-api-openapi.yml
-  format: yaml
-  label: OpenAQ Sensor API
-  slug: openaq-sensor-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-sensor-api-openapi.yml
 - filename: openaq-sensors-api-openapi.yml
   format: yaml
   label: OpenAQ Sensors API
   slug: openaq-sensors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-sensors-api-openapi.yml
-- filename: openaq-slug-api-openapi.yml
-  format: yaml
-  label: OpenAQ Slug API
-  slug: openaq-slug-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-slug-api-openapi.yml
 - filename: openaq-sources-api-openapi.yml
   format: yaml
   label: OpenAQ Sources API
@@ -158,18 +140,6 @@ api_specs:
   slug: openaq-summary-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-summary-api-openapi.yml
-- filename: openaq-yearly-api-openapi.yml
-  format: yaml
-  label: OpenAQ Yearly API
-  slug: openaq-yearly-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-yearly-api-openapi.yml
-- filename: openaq-years-api-openapi.yml
-  format: yaml
-  label: OpenAQ Years API
-  slug: openaq-years-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-years-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

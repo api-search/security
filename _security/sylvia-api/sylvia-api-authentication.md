@@ -73,6 +73,30 @@ api_specs:
   slug: sylvia-api-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-templates-api-openapi.yml
+- filename: sylvia-api-comments-api-openapi.yml
+  format: yaml
+  label: Sylvia API Comments API
+  slug: sylvia-api-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-comments-api-openapi.yml
+- filename: sylvia-api-datasets-api-openapi.yml
+  format: yaml
+  label: Sylvia API Datasets API
+  slug: sylvia-api-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-datasets-api-openapi.yml
+- filename: sylvia-api-posts-api-openapi.yml
+  format: yaml
+  label: Sylvia API Posts API
+  slug: sylvia-api-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-posts-api-openapi.yml
+- filename: sylvia-api-usage-api-openapi.yml
+  format: yaml
+  label: Sylvia API Usage API
+  slug: sylvia-api-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/openapi/sylvia-api-usage-api-openapi.yml
 auth_types: []
 description: API key authentication, read from the provider-published specification.
 kind: authentication

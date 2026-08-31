@@ -102,12 +102,6 @@ api_specs:
   slug: specterops-collectors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/openapi/specterops-collectors-api-openapi.yml
-- filename: specterops-community-api-openapi.yml
-  format: yaml
-  label: SpecterOps Community API
-  slug: specterops-community-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/openapi/specterops-community-api-openapi.yml
 - filename: specterops-computers-api-openapi.yml
   format: yaml
   label: SpecterOps Computers API
@@ -162,12 +156,6 @@ api_specs:
   slug: specterops-domains-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/openapi/specterops-domains-api-openapi.yml
-- filename: specterops-enterprise-api-openapi.yml
-  format: yaml
-  label: SpecterOps Enterprise API
-  slug: specterops-enterprise-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/openapi/specterops-enterprise-api-openapi.yml
 - filename: specterops-enterprise-cas-api-openapi.yml
   format: yaml
   label: SpecterOps Enterprise CAs API

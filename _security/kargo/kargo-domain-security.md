@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: kargo-document-intake-openapi.yml
-  format: yaml
-  label: Kargo Document Intake API
-  slug: kargo-document-intake-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/openapi/kargo-document-intake-openapi.yml
 - filename: kargo-public-graphql.postman_collection.json
   format: json
   label: Kargo Public GraphQL API
   slug: kargo-public-graphql-api
   spec_type: Postman
   url: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/postman/kargo-public-graphql.postman_collection.json
+- filename: kargo-documents-api-openapi.yml
+  format: yaml
+  label: Kargo Documents API
+  slug: kargo-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/openapi/kargo-documents-api-openapi.yml
+- filename: kargo-sku-master-api-openapi.yml
+  format: yaml
+  label: Kargo SKU Master API
+  slug: kargo-sku-master-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/openapi/kargo-sku-master-api-openapi.yml
 description: ''
 domains:
 - caa: []

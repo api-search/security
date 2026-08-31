@@ -3,12 +3,12 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: centrica-fieldops-identity-api-openapi.yml
+- filename: centrica-oauth2-api-openapi.yml
   format: yaml
-  label: Centrica FieldOps Identity API
-  slug: centrica-fieldops-identity-api
+  label: Centrica Oauth2 API
+  slug: centrica-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/openapi/centrica-fieldops-identity-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/openapi/centrica-oauth2-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

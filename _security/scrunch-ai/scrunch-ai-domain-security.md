@@ -66,6 +66,18 @@ api_specs:
   slug: scrunch-ai-signals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-signals-api-openapi.yml
+- filename: scrunch-ai-collections-api-openapi.yml
+  format: yaml
+  label: Scrunch AI Collections API
+  slug: scrunch-ai-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-collections-api-openapi.yml
+- filename: scrunch-ai-scrunch-data-api-api-openapi.yml
+  format: yaml
+  label: Scrunch AI Scrunch Data API
+  slug: scrunch-ai-scrunch-data-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-scrunch-data-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -114,6 +114,54 @@ api_specs:
   slug: otter-storefront-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-storefront-endpoints-api-openapi.yml
+- filename: otter-account-pairing-webhooks-api-openapi.yml
+  format: yaml
+  label: Otter Account Pairing Webhooks API
+  slug: otter-account-pairing-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-account-pairing-webhooks-api-openapi.yml
+- filename: otter-delivery-webhooks-api-openapi.yml
+  format: yaml
+  label: Otter Delivery Webhooks API
+  slug: otter-delivery-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-delivery-webhooks-api-openapi.yml
+- filename: otter-manager-orders-webhooks-api-openapi.yml
+  format: yaml
+  label: Otter Manager Orders Webhooks API
+  slug: otter-manager-orders-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-manager-orders-webhooks-api-openapi.yml
+- filename: otter-menus-webhooks-api-openapi.yml
+  format: yaml
+  label: Otter Menus Webhooks API
+  slug: otter-menus-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-menus-webhooks-api-openapi.yml
+- filename: otter-orders-webhooks-api-openapi.yml
+  format: yaml
+  label: Otter Orders Webhooks API
+  slug: otter-orders-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-orders-webhooks-api-openapi.yml
+- filename: otter-ping-webhooks-api-openapi.yml
+  format: yaml
+  label: Otter Ping Webhooks API
+  slug: otter-ping-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-ping-webhooks-api-openapi.yml
+- filename: otter-reports-webhooks-api-openapi.yml
+  format: yaml
+  label: Otter Reports Webhooks API
+  slug: otter-reports-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-reports-webhooks-api-openapi.yml
+- filename: otter-storefront-webhooks-api-openapi.yml
+  format: yaml
+  label: Otter Storefront Webhooks API
+  slug: otter-storefront-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-storefront-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

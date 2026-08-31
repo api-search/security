@@ -18,12 +18,18 @@ api_specs:
   slug: localytics-push-campaigns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/openapi/localytics-push-campaigns-api-openapi.yml
-- filename: localytics-transactional-push-openapi.json
-  format: json
-  label: Localytics Transactional Push API
-  slug: localytics-transactional-push-api
+- filename: localytics-meta-api-openapi.yml
+  format: yaml
+  label: Localytics Meta API
+  slug: localytics-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/openapi/_original/localytics-transactional-push-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/openapi/localytics-meta-api-openapi.yml
+- filename: localytics-push-api-openapi.yml
+  format: yaml
+  label: Localytics Push API
+  slug: localytics-push-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/openapi/localytics-push-api-openapi.yml
 description: ''
 domains:
 - caa: []

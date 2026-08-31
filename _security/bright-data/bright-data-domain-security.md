@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: bright-data-serp-api-openapi.yml
-  format: yaml
-  label: Bright Data SERP API
-  slug: serp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-serp-api-openapi.yml
 - filename: bright-data-access-api-openapi.yml
   format: yaml
   label: Bright Data Access API

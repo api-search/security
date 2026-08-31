@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rose-rocket-platform-model-api.json
-  format: json
-  label: Rose Rocket Platform Model API
-  slug: rose-rocket-platform-model-api
+- filename: rose-rocket-boards-api-openapi.yml
+  format: yaml
+  label: Rose Rocket Boards API
+  slug: rose-rocket-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/openapi/rose-rocket-platform-model-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/openapi/rose-rocket-boards-api-openapi.yml
+- filename: rose-rocket-events-api-openapi.yml
+  format: yaml
+  label: Rose Rocket Events API
+  slug: rose-rocket-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/openapi/rose-rocket-events-api-openapi.yml
+- filename: rose-rocket-object-records-api-openapi.yml
+  format: yaml
+  label: Rose Rocket Object Records API
+  slug: rose-rocket-object-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/openapi/rose-rocket-object-records-api-openapi.yml
+- filename: rose-rocket-user-groups-api-openapi.yml
+  format: yaml
+  label: Rose Rocket User Groups API
+  slug: rose-rocket-user-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/openapi/rose-rocket-user-groups-api-openapi.yml
 auth_types: []
 description: 'Rose Rocket authenticates every Platform API request with an OAuth 2.0 bearer access token issued by a.roserocket.com, an Auth0-hosted authorization server that publishes a full OIDC discovery document. Two documented paths exist: the authorization-code flow for applications acting on behalf of an end user, and a client-credentials "service account" flow for machine-to-machine access. NOTE THE GAP: the published OpenAPI (openapi/rose-rocket-platform-model-api.json) declares NO components.securitySchemes and NO security requirement on any of its 19 operations. The auth model below is real but lives only in prose — a client generated from the spec alone would emit unauthenticated requests. The overlay in overlays/ records this as our enhancement without mutating the original.'
 kind: authentication

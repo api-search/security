@@ -1,18 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ubc-open-collections-api-openapi.yml
-  format: yaml
-  label: UBC Library Open Collections API
-  slug: open-collections
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/openapi/ubc-open-collections-api-openapi.yml
 - filename: ubc-access-api-openapi.yml
   format: yaml
   label: UBC Library Abacus Dataverse API
   slug: abacus-dataverse
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/openapi/ubc-access-api-openapi.yml
+- filename: ubc-collections-api-openapi.yml
+  format: yaml
+  label: University of British Columbia Collections API
+  slug: ubc-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/openapi/ubc-collections-api-openapi.yml
 auth_types: []
 description: 'How authentication actually works across UBC''s institution-operated programmable surfaces. UBC has no single developer identity: each surface authenticates on its own terms, and the enterprise gateway is not self-service at all.'
 kind: authentication

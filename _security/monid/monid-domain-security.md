@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: monid-openapi.json
-  format: json
-  label: Monid API
-  slug: monid-api
+- filename: monid-api-keys-api-openapi.yml
+  format: yaml
+  label: Monid API Keys API
+  slug: monid-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-api-keys-api-openapi.yml
+- filename: monid-auth-api-openapi.yml
+  format: yaml
+  label: Monid Auth API
+  slug: monid-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-auth-api-openapi.yml
+- filename: monid-controls-api-openapi.yml
+  format: yaml
+  label: Monid Controls API
+  slug: monid-controls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-controls-api-openapi.yml
+- filename: monid-discover-api-openapi.yml
+  format: yaml
+  label: Monid Discover API
+  slug: monid-discover-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-discover-api-openapi.yml
+- filename: monid-endpoints-api-openapi.yml
+  format: yaml
+  label: Monid Endpoints API
+  slug: monid-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-endpoints-api-openapi.yml
+- filename: monid-inspect-api-openapi.yml
+  format: yaml
+  label: Monid Inspect API
+  slug: monid-inspect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-inspect-api-openapi.yml
+- filename: monid-public-registry-api-openapi.yml
+  format: yaml
+  label: Monid Public Registry API
+  slug: monid-public-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-public-registry-api-openapi.yml
+- filename: monid-resources-api-openapi.yml
+  format: yaml
+  label: Monid Resources API
+  slug: monid-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-resources-api-openapi.yml
+- filename: monid-runs-api-openapi.yml
+  format: yaml
+  label: Monid Runs API
+  slug: monid-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-runs-api-openapi.yml
+- filename: monid-wallet-api-openapi.yml
+  format: yaml
+  label: Monid Wallet API
+  slug: monid-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-wallet-api-openapi.yml
 description: ''
 domains:
 - caa: []

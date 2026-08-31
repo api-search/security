@@ -43,8 +43,8 @@ name: Rockwell Factorytalk Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials
-overview: rockwell-factorytalk secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
-provider_name: rockwell-factorytalk
+overview: Rockwell FactoryTalk secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
+provider_name: Rockwell FactoryTalk
 provider_slug: rockwell-factorytalk
 scheme_count: 2
 schemes:

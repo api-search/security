@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: elastic-observability-agent-configuration-api-openapi.yml
-  format: yaml
-  label: Elastic Observability Agent Configuration API
-  slug: elastic-observability-agent-configuration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/openapi/elastic-observability-agent-configuration-api-openapi.yml
-- filename: elastic-observability-intake-api-openapi.yml
-  format: yaml
-  label: Elastic Observability Intake API
-  slug: elastic-observability-intake-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/openapi/elastic-observability-intake-api-openapi.yml
-- filename: elastic-observability-opentelemetry-api-openapi.yml
-  format: yaml
-  label: Elastic Observability OpenTelemetry API
-  slug: elastic-observability-opentelemetry-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/openapi/elastic-observability-opentelemetry-api-openapi.yml
 - filename: elastic-observability-server-info-api-openapi.yml
   format: yaml
   label: Elastic Observability Server Info API
   slug: elastic-observability-server-info-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/openapi/elastic-observability-server-info-api-openapi.yml
+- filename: elastic-observability-agent-config-api-openapi.yml
+  format: yaml
+  label: Elastic Observability agent config API
+  slug: elastic-observability-agent-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/openapi/elastic-observability-agent-config-api-openapi.yml
+- filename: elastic-observability-event-intake-api-openapi.yml
+  format: yaml
+  label: Elastic Observability event intake API
+  slug: elastic-observability-event-intake-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/openapi/elastic-observability-event-intake-api-openapi.yml
+- filename: elastic-observability-opentelemetry-intake-api-openapi.yml
+  format: yaml
+  label: Elastic Observability opentelemetry intake API
+  slug: elastic-observability-opentelemetry-intake-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/openapi/elastic-observability-opentelemetry-intake-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,10 +50,17 @@ slug: elastic-observability-domain-security
 source_filename: elastic-observability-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.elastic.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 21:06:03 2026 GMT\n  hsts: false\ndomains:\n- domain: elastic.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.elastic.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 21:06:03 2026 GMT\n  hsts: false\ndomains:\n- domain: elastic.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/security/elastic-observability-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - AIOps
 - Observability
+- APM
+- Logging
+- Metrics
+- Tracing
+- OpenTelemetry
+- Monitoring
+- Telemetry
 ---

@@ -1,65 +1,143 @@
 ---
 api_specs:
-- filename: ordnance-survey-ngd-features-openapi.json
-  format: json
-  label: OS NGD API - Features
-  slug: os-ngd-api-features
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-ngd-features-openapi.json
-- filename: ordnance-survey-ngd-tiles-openapi.json
-  format: json
-  label: OS NGD API - Tiles
-  slug: os-ngd-api-tiles
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-ngd-tiles-openapi.json
-- filename: ordnance-survey-downloads-openapi.yaml
+- filename: ordnance-survey-bounding-box-api-openapi.yml
   format: yaml
-  label: OS Downloads API
-  slug: os-downloads-api
+  label: Ordnance Survey Bounding box API
+  slug: ordnance-survey-bounding-box-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-downloads-openapi.yaml
-- filename: ordnance-survey-osnet-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-bounding-box-api-openapi.yml
+- filename: ordnance-survey-collections-api-openapi.yml
   format: yaml
-  label: OS Net API
-  slug: os-net-api
+  label: Ordnance Survey Collections API
+  slug: ordnance-survey-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-osnet-openapi.yaml
-- filename: ordnance-survey-places-openapi.json
-  format: json
-  label: OS Places API
-  slug: os-places-api
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-collections-api-openapi.yml
+- filename: ordnance-survey-data-collections-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Data Collections API
+  slug: ordnance-survey-data-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-places-openapi.json
-- filename: ordnance-survey-names-openapi.json
-  format: json
-  label: OS Names API
-  slug: os-names-api
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-data-collections-api-openapi.yml
+- filename: ordnance-survey-data-packages-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Data Packages API
+  slug: ordnance-survey-data-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-names-openapi.json
-- filename: ordnance-survey-linked-identifiers-openapi.json
-  format: json
-  label: OS Linked Identifiers API
-  slug: os-linked-identifiers-api
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-data-packages-api-openapi.yml
+- filename: ordnance-survey-features-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Features API
+  slug: ordnance-survey-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-linked-identifiers-openapi.json
-- filename: ordnance-survey-features-wfs-openapi.json
-  format: json
-  label: OS Features API
-  slug: os-features-api
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-features-api-openapi.yml
+- filename: ordnance-survey-find-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Find API
+  slug: ordnance-survey-find-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-features-wfs-openapi.json
-- filename: ordnance-survey-maps-openapi.json
-  format: json
-  label: OS Maps API
-  slug: os-maps-api
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-find-api-openapi.yml
+- filename: ordnance-survey-getcapabilities-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Get Capabilities API
+  slug: ordnance-survey-getcapabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-maps-openapi.json
-- filename: ordnance-survey-vector-tile-openapi.json
-  format: json
-  label: OS Vector Tile API
-  slug: os-vector-tile-api
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-getcapabilities-api-openapi.yml
+- filename: ordnance-survey-landing-page-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Landing Page API
+  slug: ordnance-survey-landing-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-vector-tile-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-landing-page-api-openapi.yml
+- filename: ordnance-survey-nearest-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Nearest API
+  slug: ordnance-survey-nearest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-nearest-api-openapi.yml
+- filename: ordnance-survey-opendata-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Open Data API
+  slug: ordnance-survey-opendata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-opendata-api-openapi.yml
+- filename: ordnance-survey-os-opendata-users-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey OS OpenData Users API
+  slug: ordnance-survey-os-opendata-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-os-opendata-users-api-openapi.yml
+- filename: ordnance-survey-polygon-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Polygon API
+  slug: ordnance-survey-polygon-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-polygon-api-openapi.yml
+- filename: ordnance-survey-postcode-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Postcode API
+  slug: ordnance-survey-postcode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-postcode-api-openapi.yml
+- filename: ordnance-survey-radius-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Radius API
+  slug: ordnance-survey-radius-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-radius-api-openapi.yml
+- filename: ordnance-survey-rinex-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Rinex API
+  slug: ordnance-survey-rinex-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-rinex-api-openapi.yml
+- filename: ordnance-survey-service-metadata-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Service Metadata API
+  slug: ordnance-survey-service-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-service-metadata-api-openapi.yml
+- filename: ordnance-survey-stations-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Stations API
+  slug: ordnance-survey-stations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-stations-api-openapi.yml
+- filename: ordnance-survey-styles-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Styles API
+  slug: ordnance-survey-styles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-styles-api-openapi.yml
+- filename: ordnance-survey-tile-request-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Tile Request API
+  slug: ordnance-survey-tile-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-tile-request-api-openapi.yml
+- filename: ordnance-survey-tile-sets-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Tile Sets API
+  slug: ordnance-survey-tile-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-tile-sets-api-openapi.yml
+- filename: ordnance-survey-tiling-schemes-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Tiling Schemes API
+  slug: ordnance-survey-tiling-schemes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-tiling-schemes-api-openapi.yml
+- filename: ordnance-survey-uprn-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey UPRN API
+  slug: ordnance-survey-uprn-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-uprn-api-openapi.yml
+- filename: ordnance-survey-vector-tiles-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Vector Tiles API
+  slug: ordnance-survey-vector-tiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-vector-tiles-api-openapi.yml
 description: ''
 domains:
 - caa: []

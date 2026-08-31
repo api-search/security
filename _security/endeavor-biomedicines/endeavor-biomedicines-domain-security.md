@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: endeavor-biomedicines-wordpress-rest-openapi.yml
+- filename: endeavor-biomedicines-mcp-api-openapi.yml
   format: yaml
-  label: Endeavor BioMedicines WordPress REST API
-  slug: endeavor-biomedicines-wordpress-rest-api
+  label: Endeavor BioMedicines MCP API
+  slug: endeavor-biomedicines-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endeavor-biomedicines/refs/heads/main/openapi/endeavor-biomedicines-wordpress-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/endeavor-biomedicines/refs/heads/main/openapi/endeavor-biomedicines-mcp-api-openapi.yml
+- filename: endeavor-biomedicines-oembed-1-0-api-openapi.yml
+  format: yaml
+  label: Endeavor BioMedicines Oembed/1.0 API
+  slug: endeavor-biomedicines-oembed-1-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/endeavor-biomedicines/refs/heads/main/openapi/endeavor-biomedicines-oembed-1-0-api-openapi.yml
+- filename: endeavor-biomedicines-wp-abilities-v1-api-openapi.yml
+  format: yaml
+  label: Endeavor BioMedicines Wp Abilities/v1 API
+  slug: endeavor-biomedicines-wp-abilities-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/endeavor-biomedicines/refs/heads/main/openapi/endeavor-biomedicines-wp-abilities-v1-api-openapi.yml
+- filename: endeavor-biomedicines-wp-block-editor-v1-api-openapi.yml
+  format: yaml
+  label: Endeavor BioMedicines Wp Block Editor/v1 API
+  slug: endeavor-biomedicines-wp-block-editor-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/endeavor-biomedicines/refs/heads/main/openapi/endeavor-biomedicines-wp-block-editor-v1-api-openapi.yml
+- filename: endeavor-biomedicines-wp-site-health-v1-api-openapi.yml
+  format: yaml
+  label: Endeavor BioMedicines Wp Site Health/v1 API
+  slug: endeavor-biomedicines-wp-site-health-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/endeavor-biomedicines/refs/heads/main/openapi/endeavor-biomedicines-wp-site-health-v1-api-openapi.yml
+- filename: endeavor-biomedicines-wp-v2-api-openapi.yml
+  format: yaml
+  label: Endeavor BioMedicines Wp/v2 API
+  slug: endeavor-biomedicines-wp-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/endeavor-biomedicines/refs/heads/main/openapi/endeavor-biomedicines-wp-v2-api-openapi.yml
 description: ''
 domains:
 - caa: []

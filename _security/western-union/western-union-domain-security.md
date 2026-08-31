@@ -69,8 +69,8 @@ layout: security
 method: probed
 name: Western Union Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for western-union, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: western-union
+overview: 'Domain security posture for The Western Union Company, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: The Western Union Company
 provider_slug: western-union
 slug: western-union-domain-security
 source_filename: western-union-domain-security.yml

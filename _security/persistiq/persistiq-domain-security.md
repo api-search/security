@@ -42,24 +42,36 @@ api_specs:
   slug: persistiq-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-users-api-openapi.yml
-- filename: persistiq-api-v1-openapi.json
-  format: json
-  label: PersistIQ Tags API
-  slug: persistiq-tags-api
+- filename: persistiq-campaign-leads-api-openapi.yml
+  format: yaml
+  label: PersistIQ Campaign Leads API
+  slug: persistiq-campaign-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-api-v1-openapi.json
-- filename: persistiq-api-v1-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-campaign-leads-api-openapi.yml
+- filename: persistiq-dnc-domains-api-openapi.yml
+  format: yaml
+  label: PersistIQ DNC Domains API
+  slug: persistiq-dnc-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-dnc-domains-api-openapi.yml
+- filename: persistiq-replies-api-openapi.yml
+  format: yaml
   label: PersistIQ Replies API
   slug: persistiq-replies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-api-v1-openapi.json
-- filename: persistiq-api-v1-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-replies-api-openapi.yml
+- filename: persistiq-tags-api-openapi.yml
+  format: yaml
+  label: PersistIQ Tags API
+  slug: persistiq-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-tags-api-openapi.yml
+- filename: persistiq-webhook-plugin-api-openapi.yml
+  format: yaml
   label: PersistIQ Webhook Plugin API
   slug: persistiq-webhook-plugin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-api-v1-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-webhook-plugin-api-openapi.yml
 description: ''
 domains:
 - caa:

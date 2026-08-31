@@ -2,24 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: haloconnect-integrator-openapi.json
-  format: json
-  label: Halo Cloud API for Integrators
-  slug: halo-cloud-integrator-api
+- filename: best-practice-fhir-api-openapi.yml
+  format: yaml
+  label: Best Practice Software FHIR API
+  slug: best-practice-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/openapi/haloconnect-integrator-openapi.json
-- filename: haloconnect-desktop-openapi.json
-  format: json
-  label: Halo Cloud API for Desktop Applications
-  slug: halo-cloud-desktop-api
+  url: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/openapi/best-practice-fhir-api-openapi.yml
+- filename: best-practice-registered-queries-api-openapi.yml
+  format: yaml
+  label: Best Practice Software Registered Queries API
+  slug: best-practice-registered-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/openapi/haloconnect-desktop-openapi.json
-- filename: haloconnect-integrator-openapi.json
-  format: json
-  label: FHIR API for Bp Premier
-  slug: fhir-api-bp-premier
+  url: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/openapi/best-practice-registered-queries-api-openapi.yml
+- filename: best-practice-sites-api-openapi.yml
+  format: yaml
+  label: Best Practice Software Sites API
+  slug: best-practice-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/openapi/haloconnect-integrator-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/openapi/best-practice-sites-api-openapi.yml
+- filename: best-practice-sql-passthrough-api-openapi.yml
+  format: yaml
+  label: Best Practice Software SQL Passthrough API
+  slug: best-practice-sql-passthrough-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/openapi/best-practice-sql-passthrough-api-openapi.yml
+- filename: best-practice-tokens-api-openapi.yml
+  format: yaml
+  label: Best Practice Software Tokens API
+  slug: best-practice-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/openapi/best-practice-tokens-api-openapi.yml
 auth_types:
 - apiKey
 - http

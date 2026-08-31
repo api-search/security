@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: omnisend-analytics-api-openapi.yml
-  format: yaml
-  label: Omnisend Analytics API
-  slug: omnisend-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-analytics-api-openapi.yml
-- filename: omnisend-batches-api-openapi.yml
-  format: yaml
-  label: Omnisend Batches API
-  slug: omnisend-batches-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-batches-api-openapi.yml
 - filename: omnisend-brands-api-openapi.yml
   format: yaml
   label: Omnisend Brands API
@@ -30,24 +18,6 @@ api_specs:
   slug: omnisend-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-contacts-api-openapi.yml
-- filename: omnisend-emailcontent-api-openapi.yml
-  format: yaml
-  label: Omnisend EmailContent API
-  slug: omnisend-emailcontent-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-emailcontent-api-openapi.yml
-- filename: omnisend-emailtemplates-api-openapi.yml
-  format: yaml
-  label: Omnisend EmailTemplates API
-  slug: omnisend-emailtemplates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-emailtemplates-api-openapi.yml
-- filename: omnisend-emailuniversallayouts-api-openapi.yml
-  format: yaml
-  label: Omnisend EmailUniversalLayouts API
-  slug: omnisend-emailuniversallayouts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-emailuniversallayouts-api-openapi.yml
 - filename: omnisend-events-api-openapi.yml
   format: yaml
   label: Omnisend Events API
@@ -60,12 +30,6 @@ api_specs:
   slug: omnisend-images-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-images-api-openapi.yml
-- filename: omnisend-productcategories-api-openapi.yml
-  format: yaml
-  label: Omnisend ProductCategories API
-  slug: omnisend-productcategories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-productcategories-api-openapi.yml
 - filename: omnisend-products-api-openapi.yml
   format: yaml
   label: Omnisend Products API
@@ -90,6 +54,48 @@ api_specs:
   slug: omnisend-event-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-event-metadata-api-openapi.yml
+- filename: omnisend-batch-api-openapi.yml
+  format: yaml
+  label: Omnisend Batch API
+  slug: omnisend-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-batch-api-openapi.yml
+- filename: omnisend-email-content-api-openapi.yml
+  format: yaml
+  label: Omnisend Email Content API
+  slug: omnisend-email-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-email-content-api-openapi.yml
+- filename: omnisend-email-templates-api-openapi.yml
+  format: yaml
+  label: Omnisend Email Templates API
+  slug: omnisend-email-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-email-templates-api-openapi.yml
+- filename: omnisend-email-universal-layouts-api-openapi.yml
+  format: yaml
+  label: Omnisend Email Universal Layouts API
+  slug: omnisend-email-universal-layouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-email-universal-layouts-api-openapi.yml
+- filename: omnisend-product-categories-api-openapi.yml
+  format: yaml
+  label: Omnisend Product Categories API
+  slug: omnisend-product-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-product-categories-api-openapi.yml
+- filename: omnisend-reports-api-openapi.yml
+  format: yaml
+  label: Omnisend Reports API
+  slug: omnisend-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-reports-api-openapi.yml
+- filename: omnisend-statistics-api-openapi.yml
+  format: yaml
+  label: Omnisend Statistics API
+  slug: omnisend-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-statistics-api-openapi.yml
 description: ''
 domains:
 - caa: []

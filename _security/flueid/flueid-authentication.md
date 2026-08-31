@@ -1,12 +1,102 @@
 ---
 api_key_in: []
 api_specs:
-- filename: flueid-pro-openapi.yml
+- filename: flueid-account-api-openapi.yml
   format: yaml
-  label: Flueid Pro API
-  slug: flueid-pro
+  label: Flueid Account API
+  slug: flueid-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-pro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-account-api-openapi.yml
+- filename: flueid-accountpartner-api-openapi.yml
+  format: yaml
+  label: Flueid Account Partner API
+  slug: flueid-accountpartner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-accountpartner-api-openapi.yml
+- filename: flueid-clientcompanies-api-openapi.yml
+  format: yaml
+  label: Flueid Client Companies API
+  slug: flueid-clientcompanies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-clientcompanies-api-openapi.yml
+- filename: flueid-documents-api-openapi.yml
+  format: yaml
+  label: Flueid Documents API
+  slug: flueid-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-documents-api-openapi.yml
+- filename: flueid-farms-api-openapi.yml
+  format: yaml
+  label: Flueid Farms API
+  slug: flueid-farms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-farms-api-openapi.yml
+- filename: flueid-neworders-api-openapi.yml
+  format: yaml
+  label: Flueid New Orders API
+  slug: flueid-neworders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-neworders-api-openapi.yml
+- filename: flueid-orderdocumentsettings-api-openapi.yml
+  format: yaml
+  label: Flueid Order Document Settings API
+  slug: flueid-orderdocumentsettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-orderdocumentsettings-api-openapi.yml
+- filename: flueid-orderevents-api-openapi.yml
+  format: yaml
+  label: Flueid Order Events API
+  slug: flueid-orderevents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-orderevents-api-openapi.yml
+- filename: flueid-orderoptions-api-openapi.yml
+  format: yaml
+  label: Flueid Order Options API
+  slug: flueid-orderoptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-orderoptions-api-openapi.yml
+- filename: flueid-orders-api-openapi.yml
+  format: yaml
+  label: Flueid Orders API
+  slug: flueid-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-orders-api-openapi.yml
+- filename: flueid-partnerordersettings-api-openapi.yml
+  format: yaml
+  label: Flueid Partner Order Settings API
+  slug: flueid-partnerordersettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-partnerordersettings-api-openapi.yml
+- filename: flueid-partners-api-openapi.yml
+  format: yaml
+  label: Flueid Partners API
+  slug: flueid-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-partners-api-openapi.yml
+- filename: flueid-permissions-api-openapi.yml
+  format: yaml
+  label: Flueid Permissions API
+  slug: flueid-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-permissions-api-openapi.yml
+- filename: flueid-propertydata-api-openapi.yml
+  format: yaml
+  label: Flueid Property Data API
+  slug: flueid-propertydata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-propertydata-api-openapi.yml
+- filename: flueid-public-api-openapi.yml
+  format: yaml
+  label: Flueid Public API
+  slug: flueid-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-public-api-openapi.yml
+- filename: flueid-settings-api-openapi.yml
+  format: yaml
+  label: Flueid Settings API
+  slug: flueid-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-settings-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -2,12 +2,6 @@
 api_key_in:
 - query
 api_specs:
-- filename: lavu-inventory-api-openapi.yml
-  format: yaml
-  label: Lavu Inventory API
-  slug: lavu-inventory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/openapi/lavu-inventory-api-openapi.yml
 - filename: lavu-menu-api-openapi.yml
   format: yaml
   label: Lavu Menu API
@@ -20,12 +14,6 @@ api_specs:
   slug: lavu-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/openapi/lavu-orders-api-openapi.yml
-- filename: lavu-tables-api-openapi.yml
-  format: yaml
-  label: Lavu Tables API
-  slug: lavu-tables-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/openapi/lavu-tables-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

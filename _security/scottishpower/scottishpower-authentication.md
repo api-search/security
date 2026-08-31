@@ -3,12 +3,18 @@ api_key_in:
 - query
 - header
 api_specs:
-- filename: scottishpower-spen-open-data-explore-api-openapi.json
-  format: json
-  label: SP Energy Networks Open Data Explore API
-  slug: spen-open-data-explore-api
+- filename: scottishpower-catalog-api-openapi.yml
+  format: yaml
+  label: ScottishPower Catalog API
+  slug: scottishpower-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scottishpower/refs/heads/main/openapi/scottishpower-spen-open-data-explore-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/scottishpower/refs/heads/main/openapi/scottishpower-catalog-api-openapi.yml
+- filename: scottishpower-dataset-api-openapi.yml
+  format: yaml
+  label: ScottishPower Dataset API
+  slug: scottishpower-dataset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scottishpower/refs/heads/main/openapi/scottishpower-dataset-api-openapi.yml
 auth_types:
 - apiKey
 description: 'The auth profile for ScottishPower''s only public API. Derived from the OpenAPI securityScheme, then upgraded from the Opendatasoft Explore API authentication documentation and live probes on 2026-07-27. The headline is that authentication is optional: the catalogue and a subset of dataset records are readable with no key and no account at all.'

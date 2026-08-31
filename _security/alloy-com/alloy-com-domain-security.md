@@ -102,6 +102,18 @@ api_specs:
   slug: alloy-com-reviews-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-reviews-api-openapi.yml
+- filename: alloy-com-entity-groups-api-openapi.yml
+  format: yaml
+  label: Alloy Entity Groups API
+  slug: alloy-com-entity-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-entity-groups-api-openapi.yml
+- filename: alloy-com-transactions-api-openapi.yml
+  format: yaml
+  label: Alloy Transactions API
+  slug: alloy-com-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

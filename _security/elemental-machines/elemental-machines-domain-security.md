@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: elemental-machines-api-openapi.yml
+- filename: elemental-machines-alert-logs-api-openapi.yml
   format: yaml
-  label: Elemental Machines API
-  slug: elemental-machines-api
+  label: Elemental Machines Alert Logs API
+  slug: elemental-machines-alert-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-alert-logs-api-openapi.yml
+- filename: elemental-machines-alert-rules-api-openapi.yml
+  format: yaml
+  label: Elemental Machines Alert Rules API
+  slug: elemental-machines-alert-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-alert-rules-api-openapi.yml
+- filename: elemental-machines-authentication-api-openapi.yml
+  format: yaml
+  label: Elemental Machines Authentication API
+  slug: elemental-machines-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-authentication-api-openapi.yml
+- filename: elemental-machines-groups-api-openapi.yml
+  format: yaml
+  label: Elemental Machines Groups API
+  slug: elemental-machines-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-groups-api-openapi.yml
+- filename: elemental-machines-machines-api-openapi.yml
+  format: yaml
+  label: Elemental Machines Machines API
+  slug: elemental-machines-machines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-machines-api-openapi.yml
+- filename: elemental-machines-machines-sample-stats-api-openapi.yml
+  format: yaml
+  label: Elemental Machines Machines Sample Stats API
+  slug: elemental-machines-machines-sample-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-machines-sample-stats-api-openapi.yml
+- filename: elemental-machines-machines-samples-api-openapi.yml
+  format: yaml
+  label: Elemental Machines Machines Samples API
+  slug: elemental-machines-machines-samples-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-machines-samples-api-openapi.yml
+- filename: elemental-machines-machines-usage-api-openapi.yml
+  format: yaml
+  label: Elemental Machines Machines Usage API
+  slug: elemental-machines-machines-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-machines-usage-api-openapi.yml
+- filename: elemental-machines-release-notes-api-openapi.yml
+  format: yaml
+  label: Elemental Machines Release Notes API
+  slug: elemental-machines-release-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-release-notes-api-openapi.yml
+- filename: elemental-machines-status-api-openapi.yml
+  format: yaml
+  label: Elemental Machines Status API
+  slug: elemental-machines-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-status-api-openapi.yml
+- filename: elemental-machines-user-activities-api-openapi.yml
+  format: yaml
+  label: Elemental Machines User Activities API
+  slug: elemental-machines-user-activities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-user-activities-api-openapi.yml
+- filename: elemental-machines-users-api-openapi.yml
+  format: yaml
+  label: Elemental Machines Users API
+  slug: elemental-machines-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

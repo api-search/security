@@ -1,35 +1,23 @@
 ---
 api_specs:
-- filename: browser-use-billing-api-openapi.yml
-  format: yaml
-  label: Browser Use Billing API
-  slug: browser-use-billing-api
+- filename: browser-use-api-v4-openapi.json
+  format: json
+  label: Browser Use Public API v4
+  slug: browser-use-api-v4
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-billing-api-openapi.yml
-- filename: browser-use-browsers-api-openapi.yml
-  format: yaml
-  label: Browser Use Browsers API
-  slug: browser-use-browsers-api
+  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-api-v4-openapi.json
+- filename: browser-use-api-v3-openapi.json
+  format: json
+  label: Browser Use Public API v3
+  slug: browser-use-api-v3
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-browsers-api-openapi.yml
-- filename: browser-use-profiles-api-openapi.yml
-  format: yaml
-  label: Browser Use Profiles API
-  slug: browser-use-profiles-api
+  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-api-v3-openapi.json
+- filename: browser-use-api-v2-openapi.json
+  format: json
+  label: Browser Use Public API v2
+  slug: browser-use-api-v2
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-profiles-api-openapi.yml
-- filename: browser-use-sessions-api-openapi.yml
-  format: yaml
-  label: Browser Use Sessions API
-  slug: browser-use-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-sessions-api-openapi.yml
-- filename: browser-use-workspaces-api-openapi.yml
-  format: yaml
-  label: Browser Use Workspaces API
-  slug: browser-use-workspaces-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-workspaces-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-api-v2-openapi.json
 description: ''
 domains:
 - caa: []
@@ -39,13 +27,19 @@ domains:
   domain: browser-use.com
   spf: true
 hosts:
-- cert_expires: Aug 26 10:19:25 2026 GMT
+- cert_expires: Oct 27 06:22:02 2026 GMT
   host: browser-use.com
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 11 23:59:59 2026 GMT
+- cert_expires: Oct  1 21:16:21 2026 GMT
+  host: docs.browser-use.com
+  hsts: true
+  hsts_max_age: 63072000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Mar 13 23:59:59 2027 GMT
   host: api.browser-use.com
   hsts: null
   https: true
@@ -55,17 +49,23 @@ layout: security
 method: probed
 name: Browser Use Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Browser Use, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+overview: 'Domain security posture for Browser Use, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Browser Use
 provider_slug: browser-use
 slug: browser-use-domain-security
 source_filename: browser-use-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: browser-use.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 10:19:25 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.browser-use.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: browser-use.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: browser-use.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 06:22:02 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.browser-use.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 21:16:21 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.browser-use.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 13 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: browser-use.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/security/browser-use-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Automation
 - Browser Automation
+- Web Agents
+- Web Scraping
+- Headless Browsers
+- Agent Infrastructure
+- Model Context Protocol
+- Cloud Browsers
 ---

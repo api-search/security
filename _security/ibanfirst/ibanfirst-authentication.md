@@ -2,12 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: ibanfirst-clientapi-openapi.yml
+- filename: ibanfirst-accounts-api-openapi.yml
   format: yaml
-  label: iBanFirst API
-  slug: ibanfirst-api
+  label: iBanFirst Accounts API
+  slug: ibanfirst-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-clientapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-accounts-api-openapi.yml
+- filename: ibanfirst-beneficiaries-api-openapi.yml
+  format: yaml
+  label: iBanFirst Beneficiaries API
+  slug: ibanfirst-beneficiaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-beneficiaries-api-openapi.yml
+- filename: ibanfirst-documents-api-openapi.yml
+  format: yaml
+  label: iBanFirst Documents API
+  slug: ibanfirst-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-documents-api-openapi.yml
+- filename: ibanfirst-financial-movements-api-openapi.yml
+  format: yaml
+  label: iBanFirst Financial movements API
+  slug: ibanfirst-financial-movements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-financial-movements-api-openapi.yml
+- filename: ibanfirst-fixed-forward-payment-contract-api-openapi.yml
+  format: yaml
+  label: iBanFirst Fixed forward payment contract API
+  slug: ibanfirst-fixed-forward-payment-contract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-fixed-forward-payment-contract-api-openapi.yml
+- filename: ibanfirst-logs-api-openapi.yml
+  format: yaml
+  label: iBanFirst Logs API
+  slug: ibanfirst-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-logs-api-openapi.yml
+- filename: ibanfirst-payments-api-openapi.yml
+  format: yaml
+  label: iBanFirst Payments API
+  slug: ibanfirst-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-payments-api-openapi.yml
+- filename: ibanfirst-spot-trades-api-openapi.yml
+  format: yaml
+  label: iBanFirst Spot trades API
+  slug: ibanfirst-spot-trades-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-spot-trades-api-openapi.yml
+- filename: ibanfirst-webhook-subscriptions-api-openapi.yml
+  format: yaml
+  label: iBanFirst Webhook subscriptions API
+  slug: ibanfirst-webhook-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-webhook-subscriptions-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

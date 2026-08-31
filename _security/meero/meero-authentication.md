@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: meero-carcutter-openapi.json
-  format: json
-  label: Car-Cutter API
-  slug: carcutter-api
+- filename: meero-asynchronous-api-openapi.yml
+  format: yaml
+  label: Meero Asynchronous API
+  slug: meero-asynchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/openapi/meero-carcutter-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/openapi/meero-asynchronous-api-openapi.yml
+- filename: meero-feature-api-openapi.yml
+  format: yaml
+  label: Meero Feature API
+  slug: meero-feature-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/openapi/meero-feature-api-openapi.yml
+- filename: meero-synchronous-api-openapi.yml
+  format: yaml
+  label: Meero Synchronous API
+  slug: meero-synchronous-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/openapi/meero-synchronous-api-openapi.yml
+- filename: meero-vehicle-api-openapi.yml
+  format: yaml
+  label: Meero Vehicle API
+  slug: meero-vehicle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/openapi/meero-vehicle-api-openapi.yml
 auth_types:
 - http
 - oauth2

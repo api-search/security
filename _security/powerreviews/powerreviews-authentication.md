@@ -2,18 +2,54 @@
 api_key_in:
 - query
 api_specs:
-- filename: powerreviews-readservices-openapi.yml
+- filename: powerreviews-b2b-answer-api-openapi.yml
   format: yaml
-  label: PowerReviews Read API
-  slug: powerreviews-api
+  label: PowerReviews B2B Answer API
+  slug: powerreviews-b2b-answer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/openapi/powerreviews-readservices-openapi.yml
-- filename: powerreviews-writeservices-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/openapi/powerreviews-b2b-answer-api-openapi.yml
+- filename: powerreviews-b2b-merchantresponse-api-openapi.yml
   format: yaml
-  label: PowerReviews Write API
-  slug: powerreviews-write-api
+  label: PowerReviews B2B MerchantResponse API
+  slug: powerreviews-b2b-merchantresponse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/openapi/powerreviews-writeservices-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/openapi/powerreviews-b2b-merchantresponse-api-openapi.yml
+- filename: powerreviews-b2b-question-api-openapi.yml
+  format: yaml
+  label: PowerReviews B2B Question API
+  slug: powerreviews-b2b-question-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/openapi/powerreviews-b2b-question-api-openapi.yml
+- filename: powerreviews-b2b-write-a-review-api-openapi.yml
+  format: yaml
+  label: PowerReviews B2B Write a Review API
+  slug: powerreviews-b2b-write-a-review-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/openapi/powerreviews-b2b-write-a-review-api-openapi.yml
+- filename: powerreviews-configuration-api-openapi.yml
+  format: yaml
+  label: PowerReviews Configuration API
+  slug: powerreviews-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/openapi/powerreviews-configuration-api-openapi.yml
+- filename: powerreviews-q-a-api-openapi.yml
+  format: yaml
+  label: PowerReviews Q&A API
+  slug: powerreviews-q-a-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/openapi/powerreviews-q-a-api-openapi.yml
+- filename: powerreviews-reviews-api-openapi.yml
+  format: yaml
+  label: PowerReviews Reviews API
+  slug: powerreviews-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/openapi/powerreviews-reviews-api-openapi.yml
+- filename: powerreviews-snippets-api-openapi.yml
+  format: yaml
+  label: PowerReviews Snippets API
+  slug: powerreviews-snippets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/openapi/powerreviews-snippets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

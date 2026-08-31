@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: university-of-manchester-iiif-presentation-api-openapi.yml
+- filename: university-of-manchester-image-api-openapi.yml
   format: yaml
-  label: Manchester Digital Collections — IIIF Presentation API
-  slug: iiif-presentation-api
+  label: University of Manchester Image API
+  slug: university-of-manchester-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-iiif-presentation-api-openapi.yml
-- filename: university-of-manchester-iiif-image-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-image-api-openapi.yml
+- filename: university-of-manchester-presentation-api-openapi.yml
   format: yaml
-  label: Manchester Digital Collections — IIIF Image API
-  slug: iiif-image-api
+  label: University of Manchester Presentation API
+  slug: university-of-manchester-presentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-iiif-image-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-presentation-api-openapi.yml
 description: ''
 domains:
 - caa: []

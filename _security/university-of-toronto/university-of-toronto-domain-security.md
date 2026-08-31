@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: university-of-toronto-timetable-builder-openapi.yml
+- filename: university-of-toronto-courses-api-openapi.yml
   format: yaml
-  label: Timetable Builder API
-  slug: ttb-course-timetable
+  label: University of Toronto Courses API
+  slug: university-of-toronto-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/openapi/university-of-toronto-timetable-builder-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/openapi/university-of-toronto-courses-api-openapi.yml
+- filename: university-of-toronto-reference-data-api-openapi.yml
+  format: yaml
+  label: University of Toronto Reference Data API
+  slug: university-of-toronto-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/openapi/university-of-toronto-reference-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

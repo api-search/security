@@ -27,6 +27,12 @@ api_specs:
   slug: kickbox-verification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/openapi/kickbox-verification-api-openapi.yml
+- filename: kickbox-disposable-api-openapi.yml
+  format: yaml
+  label: Kickbox Disposable API
+  slug: kickbox-disposable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/openapi/kickbox-disposable-api-openapi.yml
 auth_types:
 - apiKey
 - http

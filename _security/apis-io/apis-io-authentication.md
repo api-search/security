@@ -68,6 +68,18 @@ api_specs:
   slug: apis-io-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-tags-api-openapi.yml
+- filename: apis-io-v1-cohorts-openapi.yml
+  format: yaml
+  label: APIs.io Cohorts API
+  slug: apis-io-cohorts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-v1-cohorts-openapi.yml
+- filename: apis-io-v1-editorial-openapi.yml
+  format: yaml
+  label: APIs.io Editorial API
+  slug: apis-io-editorial-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-v1-editorial-openapi.yml
 auth_types:
 - apiKey
 description: ''

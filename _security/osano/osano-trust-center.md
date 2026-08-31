@@ -1,17 +1,101 @@
 ---
 api_specs:
-- filename: osano-customer-rest-api-openapi.yml
+- filename: osano-cmp-api-openapi.yml
   format: yaml
-  label: Osano Customer REST API
-  slug: osano-customer-rest-api
+  label: Osano Cmp API
+  slug: osano-cmp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-customer-rest-api-openapi.yml
-- filename: osano-unified-consent-core-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-cmp-api-openapi.yml
+- filename: osano-cmprules-api-openapi.yml
+  format: yaml
+  label: Osano Cmp Rules API
+  slug: osano-cmprules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-cmprules-api-openapi.yml
+- filename: osano-collections-api-openapi.yml
+  format: yaml
+  label: Osano Collections API
+  slug: osano-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-collections-api-openapi.yml
+- filename: osano-config-api-openapi.yml
+  format: yaml
+  label: Osano Config API
+  slug: osano-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-config-api-openapi.yml
+- filename: osano-connectors-api-openapi.yml
+  format: yaml
+  label: Osano Connectors API
+  slug: osano-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-connectors-api-openapi.yml
+- filename: osano-consent-profiles-api-openapi.yml
+  format: yaml
+  label: Osano Consent Profiles API
+  slug: osano-consent-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-consent-profiles-api-openapi.yml
+- filename: osano-consents-api-openapi.yml
+  format: yaml
+  label: Osano Consents API
+  slug: osano-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-consents-api-openapi.yml
+- filename: osano-customerinsights-api-openapi.yml
+  format: yaml
+  label: Osano Customer Insights API
+  slug: osano-customerinsights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-customerinsights-api-openapi.yml
+- filename: osano-datadiscovery-api-openapi.yml
+  format: yaml
+  label: Osano Data Discovery API
+  slug: osano-datadiscovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-datadiscovery-api-openapi.yml
+- filename: osano-dsar-api-openapi.yml
+  format: yaml
+  label: Osano Dsar API
+  slug: osano-dsar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-dsar-api-openapi.yml
+- filename: osano-dsaractionitems-api-openapi.yml
+  format: yaml
+  label: Osano Dsar Action Items API
+  slug: osano-dsaractionitems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-dsaractionitems-api-openapi.yml
+- filename: osano-sessions-api-openapi.yml
+  format: yaml
+  label: Osano Sessions API
+  slug: osano-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-sessions-api-openapi.yml
+- filename: osano-subjectrightsportal-api-openapi.yml
+  format: yaml
+  label: Osano Subject Rights Portal API
+  slug: osano-subjectrightsportal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-subjectrightsportal-api-openapi.yml
+- filename: osano-subjects-api-openapi.yml
+  format: yaml
+  label: Osano Subjects API
+  slug: osano-subjects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-subjects-api-openapi.yml
+- filename: osano-token-api-openapi.yml
+  format: yaml
+  label: Osano Token API
+  slug: osano-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-token-api-openapi.yml
+- filename: osano-unified-consent-core-api-api-openapi.yml
   format: yaml
   label: Osano Unified Consent Core API
-  slug: osano-unified-consent-core-api
+  slug: osano-unified-consent-core-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-unified-consent-core-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-unified-consent-core-api-api-openapi.yml
 certifications:
 - SOC 2
 - Enterprise audit package

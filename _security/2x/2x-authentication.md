@@ -2,12 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: 2x-knownwell-openapi.json
-  format: json
-  label: Knownwell Commercial Intelligence API
-  slug: knownwell-commercial-intelligence-api
+- filename: 2x-alignment-api-openapi.yml
+  format: yaml
+  label: 2X Alignment API
+  slug: 2x-alignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-knownwell-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-alignment-api-openapi.yml
+- filename: 2x-api-keys-api-openapi.yml
+  format: yaml
+  label: 2X API Keys API
+  slug: 2x-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-api-keys-api-openapi.yml
+- filename: 2x-clients-api-openapi.yml
+  format: yaml
+  label: 2X Clients API
+  slug: 2x-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-clients-api-openapi.yml
+- filename: 2x-documentation-api-openapi.yml
+  format: yaml
+  label: 2X Documentation API
+  slug: 2x-documentation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-documentation-api-openapi.yml
+- filename: 2x-health-api-openapi.yml
+  format: yaml
+  label: 2X Health API
+  slug: 2x-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-health-api-openapi.yml
+- filename: 2x-portfolios-api-openapi.yml
+  format: yaml
+  label: 2X Portfolios API
+  slug: 2x-portfolios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-portfolios-api-openapi.yml
+- filename: 2x-root-api-openapi.yml
+  format: yaml
+  label: 2X Root API
+  slug: 2x-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-root-api-openapi.yml
+- filename: 2x-status-api-openapi.yml
+  format: yaml
+  label: 2X Status API
+  slug: 2x-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-status-api-openapi.yml
+- filename: 2x-streams-api-openapi.yml
+  format: yaml
+  label: 2X Streams API
+  slug: 2x-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-streams-api-openapi.yml
+- filename: 2x-topics-api-openapi.yml
+  format: yaml
+  label: 2X Topics API
+  slug: 2x-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/2x/refs/heads/main/openapi/2x-topics-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

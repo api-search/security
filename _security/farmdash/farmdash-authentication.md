@@ -1,12 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: farmdash-agent-api-openapi.yaml
+- filename: farmdash-account-api-openapi.yml
   format: yaml
-  label: FarmDash Agent Hub API
-  slug: farmdash-agent-hub-api
+  label: FarmDash Agent Hub Account API
+  slug: farmdash-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-agent-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-account-api-openapi.yml
+- filename: farmdash-autopilot-api-openapi.yml
+  format: yaml
+  label: FarmDash Agent Hub Autopilot API
+  slug: farmdash-autopilot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-autopilot-api-openapi.yml
+- filename: farmdash-delegation-api-openapi.yml
+  format: yaml
+  label: FarmDash Agent Hub Delegation API
+  slug: farmdash-delegation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-delegation-api-openapi.yml
+- filename: farmdash-execution-api-openapi.yml
+  format: yaml
+  label: FarmDash Agent Hub Execution API
+  slug: farmdash-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-execution-api-openapi.yml
+- filename: farmdash-history-api-openapi.yml
+  format: yaml
+  label: FarmDash Agent Hub History API
+  slug: farmdash-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-history-api-openapi.yml
+- filename: farmdash-intelligence-api-openapi.yml
+  format: yaml
+  label: FarmDash Agent Hub Intelligence API
+  slug: farmdash-intelligence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-intelligence-api-openapi.yml
+- filename: farmdash-research-api-openapi.yml
+  format: yaml
+  label: FarmDash Agent Hub Research API
+  slug: farmdash-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-research-api-openapi.yml
+- filename: farmdash-risk-api-openapi.yml
+  format: yaml
+  label: FarmDash Agent Hub Risk API
+  slug: farmdash-risk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-risk-api-openapi.yml
+- filename: farmdash-session-api-openapi.yml
+  format: yaml
+  label: FarmDash Agent Hub Session API
+  slug: farmdash-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-session-api-openapi.yml
+- filename: farmdash-strategy-api-openapi.yml
+  format: yaml
+  label: FarmDash Agent Hub Strategy API
+  slug: farmdash-strategy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-strategy-api-openapi.yml
+- filename: farmdash-swap-api-openapi.yml
+  format: yaml
+  label: FarmDash Agent Hub Swap API
+  slug: farmdash-swap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-swap-api-openapi.yml
 auth_types:
 - http
 - apiKey-literal

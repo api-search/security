@@ -1,24 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: crea-realtor-ca-ddf-web-api-openapi.json
-  format: json
-  label: REALTOR.ca DDF Web API
-  slug: realtor-ca-ddf-web-api
+- filename: crea-destination-api-openapi.yml
+  format: yaml
+  label: CREA (REALTOR.ca) Destination API
+  slug: crea-destination-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-realtor-ca-ddf-web-api-openapi.json
-- filename: crea-realtor-ca-ddf-web-api-openapi.json
-  format: json
-  label: REALTOR.ca DDF Lead API
-  slug: realtor-ca-ddf-lead-api
+  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-destination-api-openapi.yml
+- filename: crea-lead-api-openapi.yml
+  format: yaml
+  label: CREA (REALTOR.ca) Lead API
+  slug: crea-lead-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-realtor-ca-ddf-web-api-openapi.json
-- filename: crea-realtor-ca-board-api-openapi.json
-  format: json
-  label: REALTOR.ca Board API
-  slug: realtor-ca-board-api
+  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-lead-api-openapi.yml
+- filename: crea-member-api-openapi.yml
+  format: yaml
+  label: CREA (REALTOR.ca) Member API
+  slug: crea-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-realtor-ca-board-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-member-api-openapi.yml
+- filename: crea-office-api-openapi.yml
+  format: yaml
+  label: CREA (REALTOR.ca) Office API
+  slug: crea-office-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-office-api-openapi.yml
+- filename: crea-openhouse-api-openapi.yml
+  format: yaml
+  label: CREA (REALTOR.ca) Open House API
+  slug: crea-openhouse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-openhouse-api-openapi.yml
+- filename: crea-property-api-openapi.yml
+  format: yaml
+  label: CREA (REALTOR.ca) Property API
+  slug: crea-property-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-property-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect

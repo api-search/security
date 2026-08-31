@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: domob-media-data-api-openapi.yml
+- filename: domob-reporting-api-openapi.yml
   format: yaml
-  label: Domob Media Data API
-  slug: domob-media-data-api
+  label: domob Reporting API
+  slug: domob-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/openapi/domob-media-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/openapi/domob-reporting-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -198,6 +198,24 @@ api_specs:
   slug: kota-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-webhooks-api-openapi.yml
+- filename: kota-api-reference-api-openapi.yml
+  format: yaml
+  label: Kota API Reference API
+  slug: kota-api-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-api-reference-api-openapi.yml
+- filename: kota-types-of-events-api-openapi.yml
+  format: yaml
+  label: Kota Types of events API
+  slug: kota-types-of-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-types-of-events-api-openapi.yml
+- filename: kota-types-of-events-v2-api-openapi.yml
+  format: yaml
+  label: Kota Types of events V2 API
+  slug: kota-types-of-events-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-types-of-events-v2-api-openapi.yml
 description: ''
 domains:
 - caa: []

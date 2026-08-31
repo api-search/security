@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: websitepros-international-platform-openapi-derived.yml
+- filename: websitepros-domains-api-openapi.yml
   format: yaml
-  label: Web.com International Platform API
-  slug: international-platform
+  label: WebsitePros Domains API
+  slug: websitepros-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/openapi/websitepros-international-platform-openapi-derived.yml
+  url: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/openapi/websitepros-domains-api-openapi.yml
+- filename: websitepros-health-api-openapi.yml
+  format: yaml
+  label: WebsitePros Health API
+  slug: websitepros-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/openapi/websitepros-health-api-openapi.yml
+- filename: websitepros-sales-orders-api-openapi.yml
+  format: yaml
+  label: WebsitePros Sales Orders API
+  slug: websitepros-sales-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/openapi/websitepros-sales-orders-api-openapi.yml
+- filename: websitepros-service-orders-api-openapi.yml
+  format: yaml
+  label: WebsitePros Service Orders API
+  slug: websitepros-service-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/openapi/websitepros-service-orders-api-openapi.yml
+- filename: websitepros-sso-api-openapi.yml
+  format: yaml
+  label: WebsitePros SSO API
+  slug: websitepros-sso-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/openapi/websitepros-sso-api-openapi.yml
 description: ''
 domains:
 - caa: []

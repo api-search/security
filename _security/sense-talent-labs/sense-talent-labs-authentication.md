@@ -1,12 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sense-talent-labs-sense-api-openapi.json
-  format: json
-  label: Sense API
-  slug: sense-talent-labs-sense-api
+- filename: sense-talent-labs-appointment-api-openapi.yml
+  format: yaml
+  label: Sense Talent Labs Appointment API
+  slug: sense-talent-labs-appointment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-sense-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-appointment-api-openapi.yml
+- filename: sense-talent-labs-authentication-api-openapi.yml
+  format: yaml
+  label: Sense Talent Labs Authentication API
+  slug: sense-talent-labs-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-authentication-api-openapi.yml
+- filename: sense-talent-labs-candidate-api-openapi.yml
+  format: yaml
+  label: Sense Talent Labs Candidate API
+  slug: sense-talent-labs-candidate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-candidate-api-openapi.yml
+- filename: sense-talent-labs-certification-api-openapi.yml
+  format: yaml
+  label: Sense Talent Labs Certification API
+  slug: sense-talent-labs-certification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-certification-api-openapi.yml
+- filename: sense-talent-labs-clientcontact-api-openapi.yml
+  format: yaml
+  label: Sense Talent Labs Client Contact API
+  slug: sense-talent-labs-clientcontact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-clientcontact-api-openapi.yml
+- filename: sense-talent-labs-company-api-openapi.yml
+  format: yaml
+  label: Sense Talent Labs Company API
+  slug: sense-talent-labs-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-company-api-openapi.yml
+- filename: sense-talent-labs-internaluser-api-openapi.yml
+  format: yaml
+  label: Sense Talent Labs Internal User API
+  slug: sense-talent-labs-internaluser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-internaluser-api-openapi.yml
+- filename: sense-talent-labs-joborder-api-openapi.yml
+  format: yaml
+  label: Sense Talent Labs Job Order API
+  slug: sense-talent-labs-joborder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-joborder-api-openapi.yml
+- filename: sense-talent-labs-lead-api-openapi.yml
+  format: yaml
+  label: Sense Talent Labs Lead API
+  slug: sense-talent-labs-lead-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-lead-api-openapi.yml
+- filename: sense-talent-labs-placement-api-openapi.yml
+  format: yaml
+  label: Sense Talent Labs Placement API
+  slug: sense-talent-labs-placement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-placement-api-openapi.yml
+- filename: sense-talent-labs-submission-api-openapi.yml
+  format: yaml
+  label: Sense Talent Labs Submission API
+  slug: sense-talent-labs-submission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-submission-api-openapi.yml
 auth_types:
 - http
 - oauth2

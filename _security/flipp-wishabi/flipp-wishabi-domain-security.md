@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: flipp-wishabi-flyerkit-openapi.yml
+- filename: flipp-wishabi-copyright-api-openapi.yml
   format: yaml
-  label: Flipp FlyerKit API
-  slug: flipp-flyerkit-api
+  label: Flipp (Wishabi) Copyright API
+  slug: flipp-wishabi-copyright-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/openapi/flipp-wishabi-flyerkit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/openapi/flipp-wishabi-copyright-api-openapi.yml
+- filename: flipp-wishabi-fsa-api-openapi.yml
+  format: yaml
+  label: Flipp (Wishabi) Fsa API
+  slug: flipp-wishabi-fsa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/openapi/flipp-wishabi-fsa-api-openapi.yml
+- filename: flipp-wishabi-products-api-openapi.yml
+  format: yaml
+  label: Flipp (Wishabi) Products API
+  slug: flipp-wishabi-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/openapi/flipp-wishabi-products-api-openapi.yml
+- filename: flipp-wishabi-publications-api-openapi.yml
+  format: yaml
+  label: Flipp (Wishabi) Publications API
+  slug: flipp-wishabi-publications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/openapi/flipp-wishabi-publications-api-openapi.yml
+- filename: flipp-wishabi-stores-api-openapi.yml
+  format: yaml
+  label: Flipp (Wishabi) Stores API
+  slug: flipp-wishabi-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/openapi/flipp-wishabi-stores-api-openapi.yml
 description: ''
 domains:
 - caa: []

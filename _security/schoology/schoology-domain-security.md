@@ -66,6 +66,12 @@ api_specs:
   slug: schoology-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-users-api-openapi.yml
+- filename: schoology-events-api-openapi.yml
+  format: yaml
+  label: Schoology Events API
+  slug: schoology-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-events-api-openapi.yml
 description: ''
 domains:
 - caa: []

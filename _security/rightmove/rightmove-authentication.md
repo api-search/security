@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: rightmove-commercial-listings-openapi.yml
+- filename: rightmove-property-api-openapi.yml
   format: yaml
-  label: Rightmove Commercial Listings API
-  slug: rightmove-commercial-listings-api
+  label: Rightmove Property API
+  slug: rightmove-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rightmove/refs/heads/main/openapi/rightmove-commercial-listings-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rightmove/refs/heads/main/openapi/rightmove-property-api-openapi.yml
 auth_types:
 - oauth2
 - mutualTLS

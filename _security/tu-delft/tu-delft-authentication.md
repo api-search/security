@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tu-delft-4tu-researchdata-openapi.yml
+- filename: tu-delft-account-api-openapi.yml
   format: yaml
-  label: 4TU.ResearchData API
-  slug: 4tu-researchdata
+  label: Delft University of Technology Account API
+  slug: tu-delft-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/openapi/tu-delft-4tu-researchdata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/openapi/tu-delft-account-api-openapi.yml
+- filename: tu-delft-collections-api-openapi.yml
+  format: yaml
+  label: Delft University of Technology Collections API
+  slug: tu-delft-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/openapi/tu-delft-collections-api-openapi.yml
+- filename: tu-delft-datasets-api-openapi.yml
+  format: yaml
+  label: Delft University of Technology Datasets API
+  slug: tu-delft-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/openapi/tu-delft-datasets-api-openapi.yml
+- filename: tu-delft-reference-api-openapi.yml
+  format: yaml
+  label: Delft University of Technology Reference API
+  slug: tu-delft-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/openapi/tu-delft-reference-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

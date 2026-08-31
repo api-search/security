@@ -49,8 +49,8 @@ name_suffix: Authentication
 oauth_flows:
 - authorizationCode
 - clientCredentials
-overview: wells-fargo secures its APIs with http and oauth2 across 3 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode and clientCredentials flow(s).
-provider_name: wells-fargo
+overview: Wells Fargo secures its APIs with http and oauth2 across 3 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode and clientCredentials flow(s).
+provider_name: Wells Fargo
 provider_slug: wells-fargo
 scheme_count: 3
 schemes:

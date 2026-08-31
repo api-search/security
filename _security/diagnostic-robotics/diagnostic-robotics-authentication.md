@@ -2,24 +2,78 @@
 api_key_in:
 - header
 api_specs:
-- filename: diagnostic-robotics-precision-population-health-openapi.yml
+- filename: diagnostic-robotics-api-auth-api-openapi.yml
   format: yaml
-  label: Diagnostic Robotics Precision Population Health API
-  slug: diagnostic-robotics-precision-population-health-api
+  label: Diagnostic Robotics API Auth API
+  slug: diagnostic-robotics-api-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-precision-population-health-openapi.yml
-- filename: diagnostic-robotics-patient-questionnaire-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-api-auth-api-openapi.yml
+- filename: diagnostic-robotics-dataset-upload-api-api-openapi.yml
   format: yaml
-  label: Diagnostic Robotics Patient Questionnaire API
-  slug: diagnostic-robotics-patient-questionnaire-api
+  label: Diagnostic Robotics Dataset Upload API
+  slug: diagnostic-robotics-dataset-upload-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-patient-questionnaire-openapi.yml
-- filename: diagnostic-robotics-symptom-search-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-dataset-upload-api-api-openapi.yml
+- filename: diagnostic-robotics-default-api-openapi.yml
   format: yaml
-  label: Diagnostic Robotics Symptom Search Service
-  slug: diagnostic-robotics-symptom-search-service
+  label: Diagnostic Robotics Default API
+  slug: diagnostic-robotics-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-symptom-search-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-default-api-openapi.yml
+- filename: diagnostic-robotics-patient-profile-api-openapi.yml
+  format: yaml
+  label: Diagnostic Robotics Patient Profile API
+  slug: diagnostic-robotics-patient-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-patient-profile-api-openapi.yml
+- filename: diagnostic-robotics-patients-v2-api-openapi.yml
+  format: yaml
+  label: Diagnostic Robotics Patients v2 API
+  slug: diagnostic-robotics-patients-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-patients-v2-api-openapi.yml
+- filename: diagnostic-robotics-questions-v2-api-openapi.yml
+  format: yaml
+  label: Diagnostic Robotics Questions v2 API
+  slug: diagnostic-robotics-questions-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-questions-v2-api-openapi.yml
+- filename: diagnostic-robotics-risk-adjustment-profile-api-openapi.yml
+  format: yaml
+  label: Diagnostic Robotics Risk Adjustment Profile API
+  slug: diagnostic-robotics-risk-adjustment-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-risk-adjustment-profile-api-openapi.yml
+- filename: diagnostic-robotics-risk-list-api-api-openapi.yml
+  format: yaml
+  label: Diagnostic Robotics Risk List API
+  slug: diagnostic-robotics-risk-list-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-risk-list-api-api-openapi.yml
+- filename: diagnostic-robotics-risk-profile-api-openapi.yml
+  format: yaml
+  label: Diagnostic Robotics Risk Profile API
+  slug: diagnostic-robotics-risk-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-risk-profile-api-openapi.yml
+- filename: diagnostic-robotics-visits-api-openapi.yml
+  format: yaml
+  label: Diagnostic Robotics Visits API
+  slug: diagnostic-robotics-visits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-visits-api-openapi.yml
+- filename: diagnostic-robotics-visits-v2-api-openapi.yml
+  format: yaml
+  label: Diagnostic Robotics Visits v2 API
+  slug: diagnostic-robotics-visits-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-visits-v2-api-openapi.yml
+- filename: diagnostic-robotics-widgets-api-api-openapi.yml
+  format: yaml
+  label: Diagnostic Robotics Widgets API
+  slug: diagnostic-robotics-widgets-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-widgets-api-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

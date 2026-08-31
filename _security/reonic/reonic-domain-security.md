@@ -174,6 +174,12 @@ api_specs:
   slug: reonic-wiki-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/openapi/reonic-wiki-api-openapi.yml
+- filename: reonic-webhooks-api-openapi.yml
+  format: yaml
+  label: Reonic Webhooks API
+  slug: reonic-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/openapi/reonic-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

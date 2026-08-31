@@ -168,6 +168,12 @@ api_specs:
   slug: dropbox-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-users-api-openapi.yml
+- filename: dropbox-callbacks-and-events-api-openapi.yml
+  format: yaml
+  label: Dropbox Callbacks and Events API
+  slug: dropbox-callbacks-and-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-callbacks-and-events-api-openapi.yml
 description: ''
 domains:
 - caa:

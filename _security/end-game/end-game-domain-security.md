@@ -6,6 +6,18 @@ api_specs:
   slug: end-game-threads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/openapi/end-game-threads-api-openapi.yml
+- filename: end-game-internal-api-openapi.yml
+  format: yaml
+  label: Endgame Internal API
+  slug: end-game-internal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/openapi/end-game-internal-api-openapi.yml
+- filename: end-game-protected-static-api-openapi.yml
+  format: yaml
+  label: Endgame Protected Static API
+  slug: end-game-protected-static-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/openapi/end-game-protected-static-api-openapi.yml
 description: ''
 domains:
 - caa: []

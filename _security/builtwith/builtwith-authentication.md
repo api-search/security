@@ -3,30 +3,96 @@ api_key_in:
 - header
 - query
 api_specs:
+- filename: builtwith-domain-api-openapi.yml
+  format: yaml
+  label: BuiltWith Domain API
+  slug: builtwith-domain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-domain-api-openapi.yml
+- filename: builtwith-lists-api-openapi.yml
+  format: yaml
+  label: BuiltWith Lists API
+  slug: builtwith-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-lists-api-openapi.yml
+- filename: builtwith-trends-api-openapi.yml
+  format: yaml
+  label: BuiltWith Trends API
+  slug: builtwith-trends-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-trends-api-openapi.yml
+- filename: builtwith-change-api-openapi.yml
+  format: yaml
+  label: BuiltWith Change API
+  slug: builtwith-change-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-change-api-openapi.yml
+- filename: builtwith-relationships-api-openapi.yml
+  format: yaml
+  label: BuiltWith Relationships API
+  slug: builtwith-relationships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-relationships-api-openapi.yml
+- filename: builtwith-free-api-openapi.yml
+  format: yaml
+  label: BuiltWith Free API
+  slug: builtwith-free-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-free-api-openapi.yml
+- filename: builtwith-ask-api-openapi.yml
+  format: yaml
+  label: BuiltWith Ask API
+  slug: builtwith-ask-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-ask-api-openapi.yml
 - filename: builtwith-live-feed-asyncapi.yml
   format: yaml
   label: BuiltWith Live Feed API
   slug: builtwith-live-feed-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/asyncapi/builtwith-live-feed-asyncapi.yml
-- filename: builtwith-agent-stripe-topup-openapi.json
-  format: json
-  label: BuiltWith Agent Payment API
-  slug: builtwith-agent-payment-api
+- filename: builtwith-tags-api-openapi.yml
+  format: yaml
+  label: BuiltWith Tags API
+  slug: builtwith-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-agent-stripe-topup-openapi.json
-- filename: builtwith-rest-api-openapi.json
-  format: json
-  label: BuiltWith REST API
-  slug: builtwith-rest-api
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-tags-api-openapi.yml
+- filename: builtwith-recommendations-api-openapi.yml
+  format: yaml
+  label: BuiltWith Recommendations API
+  slug: builtwith-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-rest-api-openapi.json
-- filename: builtwith-x402-pay-per-call-openapi.json
-  format: json
-  label: BuiltWith x402 Pay-per-Call API
-  slug: builtwith-x402-pay-per-call-api
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-recommendations-api-openapi.yml
+- filename: builtwith-keywords-api-openapi.yml
+  format: yaml
+  label: BuiltWith Keywords API
+  slug: builtwith-keywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-x402-pay-per-call-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-keywords-api-openapi.yml
+- filename: builtwith-redirects-api-openapi.yml
+  format: yaml
+  label: BuiltWith Redirects API
+  slug: builtwith-redirects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-redirects-api-openapi.yml
+- filename: builtwith-product-api-openapi.yml
+  format: yaml
+  label: BuiltWith Product API
+  slug: builtwith-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-product-api-openapi.yml
+- filename: builtwith-trust-api-openapi.yml
+  format: yaml
+  label: BuiltWith Trust API
+  slug: builtwith-trust-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-trust-api-openapi.yml
+- filename: builtwith-financial-api-openapi.yml
+  format: yaml
+  label: BuiltWith Financial API
+  slug: builtwith-financial-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-financial-api-openapi.yml
 - filename: builtwith-bulk-processing-api-openapi.yml
   format: yaml
   label: BuiltWith Bulk Processing API
@@ -75,6 +141,180 @@ api_specs:
   slug: builtwith-technology-trends-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-technology-trends-api-openapi.yml
+- filename: builtwith-agentauth-api-openapi.yml
+  format: yaml
+  label: BuiltWith Agent Auth API
+  slug: builtwith-agentauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-agentauth-api-openapi.yml
+- filename: builtwith-agentpayments-api-openapi.yml
+  format: yaml
+  label: BuiltWith Agent Payments API
+  slug: builtwith-agentpayments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-agentpayments-api-openapi.yml
+- filename: builtwith-ask-api-openapi.yml
+  format: yaml
+  label: BuiltWith Ask API
+  slug: builtwith-ask-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-ask-api-openapi.yml
+- filename: builtwith-change-api-openapi.yml
+  format: yaml
+  label: BuiltWith Change API
+  slug: builtwith-change-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-change-api-openapi.yml
+- filename: builtwith-company-research-api-openapi.yml
+  format: yaml
+  label: BuiltWith Company Research API
+  slug: builtwith-company-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-company-research-api-openapi.yml
+- filename: builtwith-companytourl-api-openapi.yml
+  format: yaml
+  label: BuiltWith Company To URL API
+  slug: builtwith-companytourl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-companytourl-api-openapi.yml
+- filename: builtwith-domain-api-openapi.yml
+  format: yaml
+  label: BuiltWith Domain API
+  slug: builtwith-domain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-domain-api-openapi.yml
+- filename: builtwith-domain-intelligence-api-openapi.yml
+  format: yaml
+  label: BuiltWith Domain Intelligence API
+  slug: builtwith-domain-intelligence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-domain-intelligence-api-openapi.yml
+- filename: builtwith-financial-api-openapi.yml
+  format: yaml
+  label: BuiltWith Financial API
+  slug: builtwith-financial-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-financial-api-openapi.yml
+- filename: builtwith-free-api-openapi.yml
+  format: yaml
+  label: BuiltWith Free API
+  slug: builtwith-free-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-free-api-openapi.yml
+- filename: builtwith-keywords-api-openapi.yml
+  format: yaml
+  label: BuiltWith Keywords API
+  slug: builtwith-keywords-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-keywords-api-openapi.yml
+- filename: builtwith-keywordsearch-api-openapi.yml
+  format: yaml
+  label: BuiltWith Keyword Search API
+  slug: builtwith-keywordsearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-keywordsearch-api-openapi.yml
+- filename: builtwith-list-passes-api-openapi.yml
+  format: yaml
+  label: BuiltWith List Passes API
+  slug: builtwith-list-passes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-list-passes-api-openapi.yml
+- filename: builtwith-lists-api-openapi.yml
+  format: yaml
+  label: BuiltWith Lists API
+  slug: builtwith-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-lists-api-openapi.yml
+- filename: builtwith-meta-api-openapi.yml
+  format: yaml
+  label: BuiltWith Meta API
+  slug: builtwith-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-meta-api-openapi.yml
+- filename: builtwith-mppx-api-openapi.yml
+  format: yaml
+  label: BuiltWith Mppx API
+  slug: builtwith-mppx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-mppx-api-openapi.yml
+- filename: builtwith-product-api-openapi.yml
+  format: yaml
+  label: BuiltWith Product API
+  slug: builtwith-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-product-api-openapi.yml
+- filename: builtwith-recommendations-api-openapi.yml
+  format: yaml
+  label: BuiltWith Recommendations API
+  slug: builtwith-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-recommendations-api-openapi.yml
+- filename: builtwith-redirects-api-openapi.yml
+  format: yaml
+  label: BuiltWith Redirects API
+  slug: builtwith-redirects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-redirects-api-openapi.yml
+- filename: builtwith-relationships-api-openapi.yml
+  format: yaml
+  label: BuiltWith Relationships API
+  slug: builtwith-relationships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-relationships-api-openapi.yml
+- filename: builtwith-social-api-openapi.yml
+  format: yaml
+  label: BuiltWith Social API
+  slug: builtwith-social-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-social-api-openapi.yml
+- filename: builtwith-tags-api-openapi.yml
+  format: yaml
+  label: BuiltWith Tags API
+  slug: builtwith-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-tags-api-openapi.yml
+- filename: builtwith-technology-discovery-api-openapi.yml
+  format: yaml
+  label: BuiltWith Technology Discovery API
+  slug: builtwith-technology-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-technology-discovery-api-openapi.yml
+- filename: builtwith-technology-intelligence-api-openapi.yml
+  format: yaml
+  label: BuiltWith Technology Intelligence API
+  slug: builtwith-technology-intelligence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-technology-intelligence-api-openapi.yml
+- filename: builtwith-trends-api-openapi.yml
+  format: yaml
+  label: BuiltWith Trends API
+  slug: builtwith-trends-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-trends-api-openapi.yml
+- filename: builtwith-trust-and-risk-api-openapi.yml
+  format: yaml
+  label: BuiltWith Trust and Risk API
+  slug: builtwith-trust-and-risk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-trust-and-risk-api-openapi.yml
+- filename: builtwith-trust-api-openapi.yml
+  format: yaml
+  label: BuiltWith Trust API
+  slug: builtwith-trust-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-trust-api-openapi.yml
+- filename: builtwith-vector-api-openapi.yml
+  format: yaml
+  label: BuiltWith Vector API
+  slug: builtwith-vector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-vector-api-openapi.yml
+- filename: builtwith-website-search-api-openapi.yml
+  format: yaml
+  label: BuiltWith Website Search API
+  slug: builtwith-website-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-website-search-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -60,6 +60,96 @@ api_specs:
   slug: canva-connect-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-connect-api-openapi.yml
+- filename: canva-analytics-api-openapi.yml
+  format: yaml
+  label: Canva Analytics API
+  slug: canva-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-analytics-api-openapi.yml
+- filename: canva-app-api-openapi.yml
+  format: yaml
+  label: Canva App API
+  slug: canva-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-app-api-openapi.yml
+- filename: canva-asset-api-openapi.yml
+  format: yaml
+  label: Canva Asset API
+  slug: canva-asset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-asset-api-openapi.yml
+- filename: canva-autofill-api-openapi.yml
+  format: yaml
+  label: Canva Autofill API
+  slug: canva-autofill-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-autofill-api-openapi.yml
+- filename: canva-brand-template-api-openapi.yml
+  format: yaml
+  label: Canva Brand Template API
+  slug: canva-brand-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-brand-template-api-openapi.yml
+- filename: canva-comment-api-openapi.yml
+  format: yaml
+  label: Canva Comment API
+  slug: canva-comment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-comment-api-openapi.yml
+- filename: canva-design-api-openapi.yml
+  format: yaml
+  label: Canva Design API
+  slug: canva-design-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-design-api-openapi.yml
+- filename: canva-design-import-api-openapi.yml
+  format: yaml
+  label: Canva Design Import API
+  slug: canva-design-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-design-import-api-openapi.yml
+- filename: canva-export-api-openapi.yml
+  format: yaml
+  label: Canva Export API
+  slug: canva-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-export-api-openapi.yml
+- filename: canva-folder-api-openapi.yml
+  format: yaml
+  label: Canva Folder API
+  slug: canva-folder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-folder-api-openapi.yml
+- filename: canva-merge-api-openapi.yml
+  format: yaml
+  label: Canva Merge API
+  slug: canva-merge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-merge-api-openapi.yml
+- filename: canva-oauth-api-openapi.yml
+  format: yaml
+  label: Canva OAUTH API
+  slug: canva-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-oauth-api-openapi.yml
+- filename: canva-oidc-api-openapi.yml
+  format: yaml
+  label: Canva Oidc API
+  slug: canva-oidc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-oidc-api-openapi.yml
+- filename: canva-resize-api-openapi.yml
+  format: yaml
+  label: Canva Resize API
+  slug: canva-resize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-resize-api-openapi.yml
+- filename: canva-user-api-openapi.yml
+  format: yaml
+  label: Canva User API
+  slug: canva-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

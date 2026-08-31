@@ -127,6 +127,12 @@ api_specs:
   slug: lightspeed-pos-tax-breakdown-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-tax-breakdown-api-openapi.yml
+- filename: lightspeed-pos-pms-integration-api-openapi.yml
+  format: yaml
+  label: Lightspeed PMS Integration API
+  slug: lightspeed-pos-pms-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-pms-integration-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: telia-lso-sonata-site-management.yml
+- filename: telia-listgeographicsite-api-openapi.yml
   format: yaml
-  label: Telia LSO Sonata Geographic Site Management API
-  slug: telia-lso-sonata-geographic-site-management-api
+  label: Telia Company List Geographic Site API
+  slug: telia-listgeographicsite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/openapi/telia-lso-sonata-site-management.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/openapi/telia-listgeographicsite-api-openapi.yml
+- filename: telia-retrievegeographicsite-api-openapi.yml
+  format: yaml
+  label: Telia Company Retrieve Geographic Site API
+  slug: telia-retrievegeographicsite-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/openapi/telia-retrievegeographicsite-api-openapi.yml
 description: ''
 domains:
 - caa: []

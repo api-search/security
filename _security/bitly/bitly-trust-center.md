@@ -30,12 +30,6 @@ api_specs:
   slug: bitly-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-groups-api-openapi.yml
-- filename: bitly-oauth-apps-api-openapi.yml
-  format: yaml
-  label: Bitly OAuth Apps API
-  slug: bitly-oauth-apps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-oauth-apps-api-openapi.yml
 - filename: bitly-organizations-api-openapi.yml
   format: yaml
   label: Bitly Organizations API
@@ -60,6 +54,12 @@ api_specs:
   slug: bitly-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-webhooks-api-openapi.yml
+- filename: bitly-apps-api-openapi.yml
+  format: yaml
+  label: Bitly Apps API
+  slug: bitly-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-apps-api-openapi.yml
 certifications:
 - SOC 2 Type 2
 - GDPR

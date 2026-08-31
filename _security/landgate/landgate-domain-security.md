@@ -1,23 +1,59 @@
 ---
 api_specs:
-- filename: landgate-slip-public-arcgis-openapi.yml
+- filename: landgate-datasets-api-openapi.yml
   format: yaml
-  label: SLIP Public Services (ArcGIS REST)
-  slug: slip-public-arcgis-rest-services
+  label: Landgate Datasets API
+  slug: landgate-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-slip-public-arcgis-openapi.yml
-- filename: landgate-slip-public-ogc-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-datasets-api-openapi.yml
+- filename: landgate-discovery-api-openapi.yml
   format: yaml
-  label: SLIP Public OGC Web Services (WMS / WFS)
-  slug: slip-public-ogc-services
+  label: Landgate Discovery API
+  slug: landgate-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-slip-public-ogc-openapi.yml
-- filename: landgate-data-wa-ckan-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-discovery-api-openapi.yml
+- filename: landgate-organizations-api-openapi.yml
   format: yaml
-  label: Data WA CKAN Action API
-  slug: data-wa-ckan-action-api
+  label: Landgate Organizations API
+  slug: landgate-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-data-wa-ckan-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-organizations-api-openapi.yml
+- filename: landgate-query-api-openapi.yml
+  format: yaml
+  label: Landgate Query API
+  slug: landgate-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-query-api-openapi.yml
+- filename: landgate-server-api-openapi.yml
+  format: yaml
+  label: Landgate Server API
+  slug: landgate-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-server-api-openapi.yml
+- filename: landgate-services-api-openapi.yml
+  format: yaml
+  label: Landgate Services API
+  slug: landgate-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-services-api-openapi.yml
+- filename: landgate-site-api-openapi.yml
+  format: yaml
+  label: Landgate Site API
+  slug: landgate-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-site-api-openapi.yml
+- filename: landgate-wfs-api-openapi.yml
+  format: yaml
+  label: Landgate WFS API
+  slug: landgate-wfs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-wfs-api-openapi.yml
+- filename: landgate-wms-api-openapi.yml
+  format: yaml
+  label: Landgate WMS API
+  slug: landgate-wms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-wms-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: ripe-insurance-umbraco-content-delivery-openapi.json
-  format: json
-  label: Ripe Insurance Umbraco Content Delivery API
-  slug: ripe-insurance-umbraco-content-delivery-api
+- filename: ripe-insurance-content-api-openapi.yml
+  format: yaml
+  label: Ripe Insurance Content API
+  slug: ripe-insurance-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/openapi/ripe-insurance-umbraco-content-delivery-openapi.json
-- filename: ripe-insurance-cycleplan-content-delivery-openapi.json
-  format: json
-  label: Cycleplan Umbraco Content Delivery API
-  slug: ripe-insurance-cycleplan-content-delivery-api
+  url: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/openapi/ripe-insurance-content-api-openapi.yml
+- filename: ripe-insurance-media-api-openapi.yml
+  format: yaml
+  label: Ripe Insurance Media API
+  slug: ripe-insurance-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/openapi/ripe-insurance-cycleplan-content-delivery-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/openapi/ripe-insurance-media-api-openapi.yml
 description: ''
 domains:
 - caa: []

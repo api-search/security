@@ -2,78 +2,120 @@
 api_key_in:
 - header
 api_specs:
-- filename: cash-app-network-api-openapi.json
-  format: json
-  label: Cash App Pay Network API
-  slug: cash-app-pay-network-api
+- filename: cash-app-add-cash-app-pay-to-your-site-api-openapi.yml
+  format: yaml
+  label: Cash App Add Cash App Pay To Your Site API
+  slug: cash-app-add-cash-app-pay-to-your-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-network-api-openapi.json
-- filename: cash-app-customer-request-api-openapi.json
-  format: json
-  label: Cash App Pay Customer Request API
-  slug: cash-app-pay-customer-request-api
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-add-cash-app-pay-to-your-site-api-openapi.yml
+- filename: cash-app-apikeys-api-openapi.yml
+  format: yaml
+  label: Cash App API Keys API
+  slug: cash-app-apikeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-customer-request-api-openapi.json
-- filename: cash-app-management-api-openapi.json
-  format: json
-  label: Cash App Pay Management API
-  slug: cash-app-pay-management-api
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-apikeys-api-openapi.yml
+- filename: cash-app-balances-api-openapi.yml
+  format: yaml
+  label: Cash App Balances API
+  slug: cash-app-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-management-api-openapi.json
-- filename: cash-app-payments-openapi.json
-  format: json
-  label: Afterpay Payments API
-  slug: afterpay-payments-api
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-balances-api-openapi.yml
+- filename: cash-app-billing-agreements-deprecated-api-openapi.yml
+  format: yaml
+  label: Cash App Billing Agreements (Deprecated) API
+  slug: cash-app-billing-agreements-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-payments-openapi.json
-- filename: cash-app-checkouts-openapi.json
-  format: json
-  label: Afterpay Checkouts API
-  slug: afterpay-checkouts-api
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-billing-agreements-deprecated-api-openapi.yml
+- filename: cash-app-brands-api-openapi.yml
+  format: yaml
+  label: Cash App Brands API
+  slug: cash-app-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-checkouts-openapi.json
-- filename: cash-app-orders-openapi.json
-  format: json
-  label: Afterpay Orders API
-  slug: afterpay-orders-api
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-brands-api-openapi.yml
+- filename: cash-app-customer-request-api-api-openapi.yml
+  format: yaml
+  label: Cash App Customer Request API
+  slug: cash-app-customer-request-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-orders-openapi.json
-- filename: cash-app-configuration-openapi.json
-  format: json
-  label: Afterpay Configuration API
-  slug: afterpay-configuration-api
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-customer-request-api-api-openapi.yml
+- filename: cash-app-customers-api-openapi.yml
+  format: yaml
+  label: Cash App Customers API
+  slug: cash-app-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-configuration-openapi.json
-- filename: cash-app-disputes-openapi.json
-  format: json
-  label: Afterpay Disputes API
-  slug: afterpay-disputes-api
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-customers-api-openapi.yml
+- filename: cash-app-default-api-openapi.yml
+  format: yaml
+  label: Cash App App Default API
+  slug: cash-app-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-disputes-openapi.json
-- filename: cash-app-grants-afterpay-openapi.json
-  format: json
-  label: Afterpay Grants API
-  slug: afterpay-grants-api
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-default-api-openapi.yml
+- filename: cash-app-disputes-api-openapi.yml
+  format: yaml
+  label: Cash App Disputes API
+  slug: cash-app-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-grants-afterpay-openapi.json
-- filename: cash-app-grants-cash-app-pay-openapi.json
-  format: json
-  label: Add Cash App Pay to Your Site (Grants) API
-  slug: cash-app-pay-site-grants-api
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-disputes-api-openapi.yml
+- filename: cash-app-feeplans-api-openapi.yml
+  format: yaml
+  label: Cash App Fee Plans API
+  slug: cash-app-feeplans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-grants-cash-app-pay-openapi.json
-- filename: cash-app-service-status-openapi.json
-  format: json
-  label: Afterpay Service Status API
-  slug: afterpay-service-status-api
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-feeplans-api-openapi.yml
+- filename: cash-app-grants-afterpay-api-openapi.yml
+  format: yaml
+  label: Cash App Grants Afterpay API
+  slug: cash-app-grants-afterpay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-service-status-openapi.json
-- filename: cash-app-billing-agreements-deprecated-openapi.json
-  format: json
-  label: Afterpay Billing Agreements API (Deprecated)
-  slug: afterpay-billing-agreements-api
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-grants-afterpay-api-openapi.yml
+- filename: cash-app-merchants-api-openapi.yml
+  format: yaml
+  label: Cash App Merchants API
+  slug: cash-app-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-billing-agreements-deprecated-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-merchants-api-openapi.yml
+- filename: cash-app-network-api-api-openapi.yml
+  format: yaml
+  label: Cash App Network API
+  slug: cash-app-network-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-network-api-api-openapi.yml
+- filename: cash-app-payments-api-openapi.yml
+  format: yaml
+  label: Cash App Payments API
+  slug: cash-app-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-payments-api-openapi.yml
+- filename: cash-app-payouts-api-openapi.yml
+  format: yaml
+  label: Cash App Payouts API
+  slug: cash-app-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-payouts-api-openapi.yml
+- filename: cash-app-refunds-api-openapi.yml
+  format: yaml
+  label: Cash App Refunds API
+  slug: cash-app-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-refunds-api-openapi.yml
+- filename: cash-app-requestchains-api-openapi.yml
+  format: yaml
+  label: Cash App Request Chains API
+  slug: cash-app-requestchains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-requestchains-api-openapi.yml
+- filename: cash-app-requests-api-openapi.yml
+  format: yaml
+  label: Cash App Requests API
+  slug: cash-app-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-requests-api-openapi.yml
+- filename: cash-app-webhooks-api-openapi.yml
+  format: yaml
+  label: Cash App Webhooks API
+  slug: cash-app-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http

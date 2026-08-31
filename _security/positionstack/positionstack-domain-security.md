@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: positionstack-batch-geocoding-api-openapi.yml
-  format: yaml
-  label: positionstack Batch Geocoding API
-  slug: positionstack-batch-geocoding-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/openapi/positionstack-batch-geocoding-api-openapi.yml
 - filename: positionstack-forward-geocoding-api-openapi.yml
   format: yaml
   label: positionstack Forward Geocoding API

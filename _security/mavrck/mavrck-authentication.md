@@ -8,12 +8,6 @@ api_specs:
   slug: mavrck-reporting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-instance-level-api-openapi.yml
-- filename: mavrck-workflow-stage-change-event-webhook-openapi.json
-  format: json
-  label: Mavrck Workflow Stage Change Event Webhook
-  slug: mavrck-workflow-stage-change-webhook
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/webhooks/mavrck-workflow-stage-change-event-webhook-openapi.json
 - filename: mavrck-accountinvitations-api-openapi.yml
   format: yaml
   label: Mavrck Account Invitations API

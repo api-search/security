@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: payem-ai-discovery-openapi.json
-  format: json
+- filename: payem-ai-discovery-api-openapi.yml
+  format: yaml
   label: Payem AI Discovery API
   slug: payem-ai-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payem/refs/heads/main/openapi/payem-ai-discovery-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/payem/refs/heads/main/openapi/payem-ai-discovery-api-openapi.yml
+- filename: payem-business-api-openapi.yml
+  format: yaml
+  label: Payem Business API
+  slug: payem-business-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payem/refs/heads/main/openapi/payem-business-api-openapi.yml
+- filename: payem-categories-api-openapi.yml
+  format: yaml
+  label: Payem Categories API
+  slug: payem-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payem/refs/heads/main/openapi/payem-categories-api-openapi.yml
+- filename: payem-faq-api-openapi.yml
+  format: yaml
+  label: Payem Faq API
+  slug: payem-faq-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payem/refs/heads/main/openapi/payem-faq-api-openapi.yml
+- filename: payem-qa-api-openapi.yml
+  format: yaml
+  label: Payem Qa API
+  slug: payem-qa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payem/refs/heads/main/openapi/payem-qa-api-openapi.yml
+- filename: payem-search-api-openapi.yml
+  format: yaml
+  label: Payem Search API
+  slug: payem-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payem/refs/heads/main/openapi/payem-search-api-openapi.yml
+- filename: payem-testimonials-api-openapi.yml
+  format: yaml
+  label: Payem Testimonials API
+  slug: payem-testimonials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payem/refs/heads/main/openapi/payem-testimonials-api-openapi.yml
 description: ''
 domains:
 - caa: []

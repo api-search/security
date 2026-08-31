@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: nerdio-distributor-api-openapi.json
-  format: json
-  label: Nerdio Manager Distributor API
-  slug: nerdio-manager-distributor-api
+- filename: nerdio-health-api-openapi.yml
+  format: yaml
+  label: Nerdio Health API
+  slug: nerdio-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/openapi/nerdio-distributor-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/openapi/nerdio-health-api-openapi.yml
+- filename: nerdio-install-api-openapi.yml
+  format: yaml
+  label: Nerdio Install API
+  slug: nerdio-install-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/openapi/nerdio-install-api-openapi.yml
+- filename: nerdio-invoices-api-openapi.yml
+  format: yaml
+  label: Nerdio Invoices API
+  slug: nerdio-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/openapi/nerdio-invoices-api-openapi.yml
+- filename: nerdio-usage-api-openapi.yml
+  format: yaml
+  label: Nerdio Usage API
+  slug: nerdio-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/openapi/nerdio-usage-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

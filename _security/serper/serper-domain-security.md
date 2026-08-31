@@ -78,12 +78,12 @@ api_specs:
   slug: serper-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-videos-api-openapi.yml
-- filename: serper-webpage-scrape-api-openapi.yml
+- filename: serper-scrape-api-openapi.yml
   format: yaml
-  label: Serper Webpage Scrape API
-  slug: serper-webpage-scrape-api
+  label: Serper Scrape API
+  slug: serper-scrape-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-webpage-scrape-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-scrape-api-openapi.yml
 description: ''
 domains:
 - caa: []

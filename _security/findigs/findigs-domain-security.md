@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: findigs-client-api-openapi.yml
+- filename: findigs-applications-api-openapi.yml
   format: yaml
-  label: Findigs Client API
-  slug: findigs-client-api
+  label: Findigs Applications API
+  slug: findigs-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/openapi/findigs-client-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/openapi/findigs-applications-api-openapi.yml
+- filename: findigs-groups-api-openapi.yml
+  format: yaml
+  label: Findigs Groups API
+  slug: findigs-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/openapi/findigs-groups-api-openapi.yml
+- filename: findigs-listings-api-openapi.yml
+  format: yaml
+  label: Findigs Listings API
+  slug: findigs-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/openapi/findigs-listings-api-openapi.yml
 description: ''
 domains:
 - caa:

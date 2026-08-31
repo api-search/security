@@ -6,18 +6,6 @@ api_specs:
   slug: analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-analytics-api-openapi.yml
-- filename: contentstack-knowledge-vault-api-openapi.yml
-  format: yaml
-  label: Contentstack Knowledge Vault API
-  slug: knowledge-vault-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-knowledge-vault-api-openapi.yml
-- filename: contentstack-generative-ai-api-openapi.yml
-  format: yaml
-  label: Contentstack Generative AI API
-  slug: generative-ai-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-generative-ai-api-openapi.yml
 - filename: contentstack-accounts-api-openapi.yml
   format: yaml
   label: contentstack Accounts API
@@ -60,12 +48,6 @@ api_specs:
   slug: contentstack-brand-kits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-brand-kits-api-openapi.yml
-- filename: contentstack-cache-analytics-api-openapi.yml
-  format: yaml
-  label: contentstack Cache Analytics API
-  slug: contentstack-cache-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-cache-analytics-api-openapi.yml
 - filename: contentstack-content-types-api-openapi.yml
   format: yaml
   label: contentstack Content Types API
@@ -78,12 +60,6 @@ api_specs:
   slug: contentstack-deployments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-deployments-api-openapi.yml
-- filename: contentstack-device-usage-api-openapi.yml
-  format: yaml
-  label: contentstack Device Usage API
-  slug: contentstack-device-usage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-device-usage-api-openapi.yml
 - filename: contentstack-entries-api-openapi.yml
   format: yaml
   label: contentstack Entries API
@@ -138,12 +114,6 @@ api_specs:
   slug: contentstack-global-fields-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-global-fields-api-openapi.yml
-- filename: contentstack-jobs-api-openapi.yml
-  format: yaml
-  label: contentstack Jobs API
-  slug: contentstack-jobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-jobs-api-openapi.yml
 - filename: contentstack-llm-configuration-api-openapi.yml
   format: yaml
   label: contentstack LLM Configuration API
@@ -186,48 +156,18 @@ api_specs:
   slug: contentstack-scim-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-scim-users-api-openapi.yml
-- filename: contentstack-sdk-usage-api-openapi.yml
-  format: yaml
-  label: contentstack SDK Usage API
-  slug: contentstack-sdk-usage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-sdk-usage-api-openapi.yml
 - filename: contentstack-stacks-api-openapi.yml
   format: yaml
   label: contentstack Stacks API
   slug: contentstack-stacks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-stacks-api-openapi.yml
-- filename: contentstack-status-code-analytics-api-openapi.yml
-  format: yaml
-  label: contentstack Status Code Analytics API
-  slug: contentstack-status-code-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-status-code-analytics-api-openapi.yml
-- filename: contentstack-subscription-usage-api-openapi.yml
-  format: yaml
-  label: contentstack Subscription Usage API
-  slug: contentstack-subscription-usage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-subscription-usage-api-openapi.yml
 - filename: contentstack-synchronization-api-openapi.yml
   format: yaml
   label: contentstack Synchronization API
   slug: contentstack-synchronization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-synchronization-api-openapi.yml
-- filename: contentstack-url-analytics-api-openapi.yml
-  format: yaml
-  label: contentstack URL Analytics API
-  slug: contentstack-url-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-url-analytics-api-openapi.yml
-- filename: contentstack-usage-analytics-api-openapi.yml
-  format: yaml
-  label: contentstack Usage Analytics API
-  slug: contentstack-usage-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-usage-analytics-api-openapi.yml
 - filename: contentstack-user-attributes-api-openapi.yml
   format: yaml
   label: contentstack User Attributes API

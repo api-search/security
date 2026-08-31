@@ -61,12 +61,6 @@ api_specs:
   slug: qargo-use-case-accounting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-accounting-api-openapi.yml
-- filename: qargo-use-case-customer-portal-api-openapi.yml
-  format: yaml
-  label: Qargo Use case / Customer portal API
-  slug: qargo-use-case-customer-portal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-customer-portal-api-openapi.yml
 - filename: qargo-use-case-document-import-api-openapi.yml
   format: yaml
   label: Qargo Use case / Document import API
@@ -97,12 +91,6 @@ api_specs:
   slug: qargo-use-case-location-booking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-location-booking-api-openapi.yml
-- filename: qargo-use-case-master-data-sync-api-openapi.yml
-  format: yaml
-  label: Qargo Use case / Master data sync API
-  slug: qargo-use-case-master-data-sync-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-master-data-sync-api-openapi.yml
 - filename: qargo-use-case-order-api-openapi.yml
   format: yaml
   label: Qargo Use case / Order API
@@ -133,18 +121,6 @@ api_specs:
   slug: qargo-use-case-visibility-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-visibility-api-openapi.yml
-- filename: qargo-webhooks-inbound-api-openapi.yml
-  format: yaml
-  label: Qargo Webhooks / Inbound API
-  slug: qargo-webhooks-inbound-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-webhooks-inbound-api-openapi.yml
-- filename: qargo-webhooks-outbound-api-openapi.yml
-  format: yaml
-  label: Qargo Webhooks / Outbound API
-  slug: qargo-webhooks-outbound-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-webhooks-outbound-api-openapi.yml
 auth_types:
 - oauth2
 - http

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: bungalow-openapi-original.yml
+- filename: bungalow-applications-api-openapi.yml
   format: yaml
-  label: Bungalow API
-  slug: bungalow-api
+  label: Bungalow Applications API
+  slug: bungalow-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bungalow/refs/heads/main/openapi/bungalow-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bungalow/refs/heads/main/openapi/bungalow-applications-api-openapi.yml
+- filename: bungalow-listings-api-openapi.yml
+  format: yaml
+  label: Bungalow Listings API
+  slug: bungalow-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bungalow/refs/heads/main/openapi/bungalow-listings-api-openapi.yml
+- filename: bungalow-markets-api-openapi.yml
+  format: yaml
+  label: Bungalow Markets API
+  slug: bungalow-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bungalow/refs/heads/main/openapi/bungalow-markets-api-openapi.yml
+- filename: bungalow-showings-api-openapi.yml
+  format: yaml
+  label: Bungalow Showings API
+  slug: bungalow-showings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bungalow/refs/heads/main/openapi/bungalow-showings-api-openapi.yml
 description: ''
 domains:
 - caa: []

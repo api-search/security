@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: fipto-customer-api-openapi.yml
+- filename: fipto-aisp-pisp-api-openapi.yml
   format: yaml
-  label: Fipto API
-  slug: customer-api
+  label: Fipto AISP/PISP API
+  slug: fipto-aisp-pisp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-customer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-aisp-pisp-api-openapi.yml
+- filename: fipto-assets-api-openapi.yml
+  format: yaml
+  label: Fipto Assets API
+  slug: fipto-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-assets-api-openapi.yml
+- filename: fipto-automations-api-openapi.yml
+  format: yaml
+  label: Fipto Automations API
+  slug: fipto-automations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-automations-api-openapi.yml
+- filename: fipto-beneficiaries-api-openapi.yml
+  format: yaml
+  label: Fipto Beneficiaries API
+  slug: fipto-beneficiaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-beneficiaries-api-openapi.yml
+- filename: fipto-companies-api-openapi.yml
+  format: yaml
+  label: Fipto Companies API
+  slug: fipto-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-companies-api-openapi.yml
+- filename: fipto-conversions-api-openapi.yml
+  format: yaml
+  label: Fipto Conversions API
+  slug: fipto-conversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-conversions-api-openapi.yml
+- filename: fipto-internal-transfers-api-openapi.yml
+  format: yaml
+  label: Fipto Internal Transfers API
+  slug: fipto-internal-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-internal-transfers-api-openapi.yml
+- filename: fipto-payin-simulation-api-openapi.yml
+  format: yaml
+  label: Fipto Payin Simulation API
+  slug: fipto-payin-simulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-payin-simulation-api-openapi.yml
+- filename: fipto-payment-links-api-openapi.yml
+  format: yaml
+  label: Fipto Payment links API
+  slug: fipto-payment-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-payment-links-api-openapi.yml
+- filename: fipto-transactions-api-openapi.yml
+  format: yaml
+  label: Fipto Transactions API
+  slug: fipto-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-transactions-api-openapi.yml
+- filename: fipto-travel-rule-api-openapi.yml
+  format: yaml
+  label: Fipto Travel Rule API
+  slug: fipto-travel-rule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-travel-rule-api-openapi.yml
+- filename: fipto-wallets-api-openapi.yml
+  format: yaml
+  label: Fipto Wallets API
+  slug: fipto-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-wallets-api-openapi.yml
 description: ''
 domains:
 - caa: []

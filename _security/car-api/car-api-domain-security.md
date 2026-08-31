@@ -84,6 +84,18 @@ api_specs:
   slug: car-api-years-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-years-api-openapi.yml
+- filename: car-api-authentication-api-openapi.yml
+  format: yaml
+  label: Car API (carapi.app) Authentication API
+  slug: car-api-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-authentication-api-openapi.yml
+- filename: car-api-vehicles-api-openapi.yml
+  format: yaml
+  label: Car API (carapi.app) Vehicles API
+  slug: car-api-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-vehicles-api-openapi.yml
 description: ''
 domains:
 - caa: []

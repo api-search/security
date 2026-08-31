@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: engrail-therapeutics-content-openapi.yml
+- filename: engrail-therapeutics-categories-api-openapi.yml
   format: yaml
-  label: Engrail Therapeutics Site Content API
-  slug: content
+  label: Engrail Therapeutics Categories API
+  slug: engrail-therapeutics-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engrail-therapeutics/refs/heads/main/openapi/engrail-therapeutics-content-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/engrail-therapeutics/refs/heads/main/openapi/engrail-therapeutics-categories-api-openapi.yml
+- filename: engrail-therapeutics-comments-api-openapi.yml
+  format: yaml
+  label: Engrail Therapeutics Comments API
+  slug: engrail-therapeutics-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engrail-therapeutics/refs/heads/main/openapi/engrail-therapeutics-comments-api-openapi.yml
+- filename: engrail-therapeutics-media-api-openapi.yml
+  format: yaml
+  label: Engrail Therapeutics Media API
+  slug: engrail-therapeutics-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engrail-therapeutics/refs/heads/main/openapi/engrail-therapeutics-media-api-openapi.yml
+- filename: engrail-therapeutics-pages-api-openapi.yml
+  format: yaml
+  label: Engrail Therapeutics Pages API
+  slug: engrail-therapeutics-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engrail-therapeutics/refs/heads/main/openapi/engrail-therapeutics-pages-api-openapi.yml
+- filename: engrail-therapeutics-posts-api-openapi.yml
+  format: yaml
+  label: Engrail Therapeutics Posts API
+  slug: engrail-therapeutics-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engrail-therapeutics/refs/heads/main/openapi/engrail-therapeutics-posts-api-openapi.yml
+- filename: engrail-therapeutics-search-api-openapi.yml
+  format: yaml
+  label: Engrail Therapeutics Search API
+  slug: engrail-therapeutics-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engrail-therapeutics/refs/heads/main/openapi/engrail-therapeutics-search-api-openapi.yml
+- filename: engrail-therapeutics-statuses-api-openapi.yml
+  format: yaml
+  label: Engrail Therapeutics Statuses API
+  slug: engrail-therapeutics-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engrail-therapeutics/refs/heads/main/openapi/engrail-therapeutics-statuses-api-openapi.yml
+- filename: engrail-therapeutics-tags-api-openapi.yml
+  format: yaml
+  label: Engrail Therapeutics Tags API
+  slug: engrail-therapeutics-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engrail-therapeutics/refs/heads/main/openapi/engrail-therapeutics-tags-api-openapi.yml
+- filename: engrail-therapeutics-taxonomies-api-openapi.yml
+  format: yaml
+  label: Engrail Therapeutics Taxonomies API
+  slug: engrail-therapeutics-taxonomies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engrail-therapeutics/refs/heads/main/openapi/engrail-therapeutics-taxonomies-api-openapi.yml
+- filename: engrail-therapeutics-types-api-openapi.yml
+  format: yaml
+  label: Engrail Therapeutics Types API
+  slug: engrail-therapeutics-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engrail-therapeutics/refs/heads/main/openapi/engrail-therapeutics-types-api-openapi.yml
 description: ''
 domains:
 - caa: []

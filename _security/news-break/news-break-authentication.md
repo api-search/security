@@ -3,18 +3,60 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: news-break-advertising-openapi.yml
+- filename: news-break-account-billing-api-openapi.yml
   format: yaml
-  label: NewsBreak Advertising API
-  slug: advertising
+  label: News Break Account Billing API
+  slug: news-break-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-advertising-openapi.yml
-- filename: news-break-monetization-reporting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-account-billing-api-openapi.yml
+- filename: news-break-ad-account-api-openapi.yml
   format: yaml
-  label: NewsBreak MSP Monetization Reporting API
-  slug: monetization-reporting
+  label: News Break Ad Account API
+  slug: news-break-ad-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-monetization-reporting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-ad-account-api-openapi.yml
+- filename: news-break-ad-api-openapi.yml
+  format: yaml
+  label: News Break Ad API
+  slug: news-break-ad-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-ad-api-openapi.yml
+- filename: news-break-ad-set-api-openapi.yml
+  format: yaml
+  label: News Break Ad Set API
+  slug: news-break-ad-set-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-ad-set-api-openapi.yml
+- filename: news-break-campaign-api-openapi.yml
+  format: yaml
+  label: News Break Campaign API
+  slug: news-break-campaign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-campaign-api-openapi.yml
+- filename: news-break-event-management-api-openapi.yml
+  format: yaml
+  label: News Break Event Management API
+  slug: news-break-event-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-event-management-api-openapi.yml
+- filename: news-break-organization-api-openapi.yml
+  format: yaml
+  label: News Break Organization API
+  slug: news-break-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-organization-api-openapi.yml
+- filename: news-break-report-api-openapi.yml
+  format: yaml
+  label: News Break Report API
+  slug: news-break-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-report-api-openapi.yml
+- filename: news-break-reporting-api-openapi.yml
+  format: yaml
+  label: News Break Reporting API
+  slug: news-break-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-reporting-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: autofi-api-openapi.yml
+- filename: autofi-authorization-api-openapi.yml
   format: yaml
-  label: AutoFi API
-  slug: autofi-api
+  label: AutoFi Authorization API
+  slug: autofi-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/openapi/autofi-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/openapi/autofi-authorization-api-openapi.yml
+- filename: autofi-calculate-payment-api-openapi.yml
+  format: yaml
+  label: AutoFi Calculate Payment API
+  slug: autofi-calculate-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/openapi/autofi-calculate-payment-api-openapi.yml
+- filename: autofi-dealers-api-openapi.yml
+  format: yaml
+  label: AutoFi Dealers API
+  slug: autofi-dealers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/openapi/autofi-dealers-api-openapi.yml
+- filename: autofi-dealmaker-api-openapi.yml
+  format: yaml
+  label: AutoFi Dealmaker API
+  slug: autofi-dealmaker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/openapi/autofi-dealmaker-api-openapi.yml
+- filename: autofi-loan-applications-api-openapi.yml
+  format: yaml
+  label: AutoFi Loan Applications API
+  slug: autofi-loan-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/openapi/autofi-loan-applications-api-openapi.yml
+- filename: autofi-prequalification-api-openapi.yml
+  format: yaml
+  label: AutoFi Prequalification API
+  slug: autofi-prequalification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/openapi/autofi-prequalification-api-openapi.yml
 description: ''
 domains:
 - caa: []

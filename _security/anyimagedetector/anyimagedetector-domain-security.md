@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: anyimagedetector-ai-image-detector-openapi.yml
+- filename: anyimagedetector-detection-api-openapi.yml
   format: yaml
-  label: AI Image Detector API
-  slug: ai-image-detector-api
+  label: AnyImageDetector Detection API
+  slug: anyimagedetector-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/openapi/anyimagedetector-ai-image-detector-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/openapi/anyimagedetector-detection-api-openapi.yml
 description: ''
 domains:
 - caa: []

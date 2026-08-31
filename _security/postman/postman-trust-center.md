@@ -210,6 +210,78 @@ api_specs:
   slug: postman-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-users-api-openapi.yml
+- filename: postman-api-comments-api-openapi.yml
+  format: yaml
+  label: Postman API Comments API
+  slug: postman-api-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-api-comments-api-openapi.yml
+- filename: postman-api-schemas-api-openapi.yml
+  format: yaml
+  label: Postman API Schemas API
+  slug: postman-api-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-api-schemas-api-openapi.yml
+- filename: postman-api-versions-api-openapi.yml
+  format: yaml
+  label: Postman API Versions API
+  slug: postman-api-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-api-versions-api-openapi.yml
+- filename: postman-apis-api-openapi.yml
+  format: yaml
+  label: Postman APIS API
+  slug: postman-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-apis-api-openapi.yml
+- filename: postman-audit-logs-api-openapi.yml
+  format: yaml
+  label: Postman Audit Logs API
+  slug: postman-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-audit-logs-api-openapi.yml
+- filename: postman-collection-runs-api-openapi.yml
+  format: yaml
+  label: Postman Collection Runs API
+  slug: postman-collection-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-collection-runs-api-openapi.yml
+- filename: postman-network-elements-api-openapi.yml
+  format: yaml
+  label: Postman Network Elements API
+  slug: postman-network-elements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-network-elements-api-openapi.yml
+- filename: postman-network-folders-api-openapi.yml
+  format: yaml
+  label: Postman Network Folders API
+  slug: postman-network-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-network-folders-api-openapi.yml
+- filename: postman-network-requests-api-openapi.yml
+  format: yaml
+  label: Postman Network Requests API
+  slug: postman-network-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-network-requests-api-openapi.yml
+- filename: postman-private-api-network-api-openapi.yml
+  format: yaml
+  label: Postman Private API Network API
+  slug: postman-private-api-network-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-private-api-network-api-openapi.yml
+- filename: postman-secret-scanner-api-openapi.yml
+  format: yaml
+  label: Postman Secret Scanner API
+  slug: postman-secret-scanner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-secret-scanner-api-openapi.yml
+- filename: postman-server-responses-api-openapi.yml
+  format: yaml
+  label: Postman Server Responses API
+  slug: postman-server-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-server-responses-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

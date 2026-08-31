@@ -6,12 +6,12 @@ api_specs:
   slug: seamless-ai-public-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/_original/seamless-ai-public-api-openapi-original.json
-- filename: seamless-ai-mcp-server-openapi-original.yaml
+- filename: seamless-ai-mcp-api-openapi.yml
   format: yaml
-  label: Seamless.AI MCP Server
-  slug: seamless-ai-mcp-server
+  label: Seamless.AI MCP API
+  slug: seamless-ai-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/_original/seamless-ai-mcp-server-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/seamless-ai-mcp-api-openapi.yml
 certifications: []
 description: ''
 kind: trust-center

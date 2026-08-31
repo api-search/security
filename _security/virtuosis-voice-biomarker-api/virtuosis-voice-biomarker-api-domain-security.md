@@ -24,12 +24,6 @@ api_specs:
   slug: virtuosis-voice-biomarker-api-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/openapi/virtuosis-voice-biomarker-api-usage-api-openapi.yml
-- filename: api-reference.yaml
-  format: yaml
-  label: Virtuosis Voice Biomarker API
-  slug: virtuosis-voice-biomarker-api
-  spec_type: OpenAPI
-  url: https://docs.virtuosis.ai/openapi/api-reference.yaml
 description: ''
 domains:
 - caa: []

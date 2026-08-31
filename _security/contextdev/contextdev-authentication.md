@@ -43,12 +43,6 @@ api_specs:
   slug: contextdev-web-scraping-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-web-scraping-api-openapi.yml
-- filename: contextdev-batch-api-openapi.yml
-  format: yaml
-  label: Context.dev Batch API
-  slug: contextdev-batch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-batch-api-openapi.yml
 auth_types:
 - http
 - oauth2

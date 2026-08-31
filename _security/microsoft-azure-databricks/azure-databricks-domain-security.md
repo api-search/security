@@ -1,29 +1,23 @@
 ---
 api_specs:
-- filename: azure-databricks-openapi.yml
+- filename: microsoft-azure-databricks-clusters-api-openapi.yml
   format: yaml
-  label: Azure Databricks REST API
-  slug: azure-databricks-rest-api
+  label: Azure Databricks Clusters API
+  slug: microsoft-azure-databricks-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/_original/azure-databricks-openapi.yml
-- filename: azure-databricks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/microsoft-azure-databricks-clusters-api-openapi.yml
+- filename: microsoft-azure-databricks-jobs-api-openapi.yml
   format: yaml
-  label: Clusters API
-  slug: clusters-api
+  label: Azure Databricks Jobs API
+  slug: microsoft-azure-databricks-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/_original/azure-databricks-openapi.yml
-- filename: azure-databricks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/microsoft-azure-databricks-jobs-api-openapi.yml
+- filename: microsoft-azure-databricks-workspace-api-openapi.yml
   format: yaml
-  label: Jobs API
-  slug: jobs-api
+  label: Azure Databricks Workspace API
+  slug: microsoft-azure-databricks-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/_original/azure-databricks-openapi.yml
-- filename: azure-databricks-openapi.yml
-  format: yaml
-  label: Workspace API
-  slug: workspace-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/_original/azure-databricks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/microsoft-azure-databricks-workspace-api-openapi.yml
 description: ''
 domains:
 - caa:

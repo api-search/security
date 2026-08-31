@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: poggio-labs-goalkeeper-openapi.json
-  format: json
-  label: Goalkeeper API
-  slug: goalkeeper-api
+- filename: poggio-labs-api-tokens-api-openapi.yml
+  format: yaml
+  label: Poggio Labs API Tokens API
+  slug: poggio-labs-api-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-goalkeeper-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-api-tokens-api-openapi.yml
+- filename: poggio-labs-authentication-api-openapi.yml
+  format: yaml
+  label: Poggio Labs Authentication API
+  slug: poggio-labs-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-authentication-api-openapi.yml
+- filename: poggio-labs-goals-api-openapi.yml
+  format: yaml
+  label: Poggio Labs Goals API
+  slug: poggio-labs-goals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-goals-api-openapi.yml
+- filename: poggio-labs-organizations-api-openapi.yml
+  format: yaml
+  label: Poggio Labs Organizations API
+  slug: poggio-labs-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-organizations-api-openapi.yml
+- filename: poggio-labs-system-api-openapi.yml
+  format: yaml
+  label: Poggio Labs System API
+  slug: poggio-labs-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-system-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

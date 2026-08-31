@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: whisperr-inc-runtime-openapi.json
-  format: json
-  label: Whisperr Runtime API
-  slug: whisperr-runtime-api
+- filename: whisperr-inc-dashboard-api-openapi.yml
+  format: yaml
+  label: Whisperr, Inc. Dashboard API
+  slug: whisperr-inc-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-runtime-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-dashboard-api-openapi.yml
+- filename: whisperr-inc-decisioning-api-openapi.yml
+  format: yaml
+  label: Whisperr, Inc. Decisioning API
+  slug: whisperr-inc-decisioning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-decisioning-api-openapi.yml
+- filename: whisperr-inc-delivery-api-openapi.yml
+  format: yaml
+  label: Whisperr, Inc. Delivery API
+  slug: whisperr-inc-delivery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-delivery-api-openapi.yml
+- filename: whisperr-inc-ingestion-api-openapi.yml
+  format: yaml
+  label: Whisperr, Inc. Ingestion API
+  slug: whisperr-inc-ingestion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-ingestion-api-openapi.yml
+- filename: whisperr-inc-internal-api-openapi.yml
+  format: yaml
+  label: Whisperr, Inc. Internal API
+  slug: whisperr-inc-internal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-internal-api-openapi.yml
+- filename: whisperr-inc-system-api-openapi.yml
+  format: yaml
+  label: Whisperr, Inc. System API
+  slug: whisperr-inc-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-system-api-openapi.yml
+- filename: whisperr-inc-users-api-openapi.yml
+  format: yaml
+  label: Whisperr, Inc. Users API
+  slug: whisperr-inc-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

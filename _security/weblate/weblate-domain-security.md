@@ -126,6 +126,12 @@ api_specs:
   slug: weblate-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-users-api-openapi.yml
+- filename: weblate-webhooks-api-openapi.yml
+  format: yaml
+  label: Weblate Webhooks API
+  slug: weblate-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,36 +1,222 @@
 ---
 api_key_in: []
 api_specs:
-- filename: obie-opendata-swagger.json
-  format: json
-  label: Lloyds Banking Group Open Data API
-  slug: open-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/obie-opendata-swagger.json
-- filename: obie-account-info-openapi.yaml
+- filename: lloyds-banking-group-account-access-consents-api-openapi.yml
   format: yaml
-  label: Lloyds Banking Group Account and Transaction Information API
-  slug: account-information-api
+  label: Lloyds Banking Group Account Access Consents API
+  slug: lloyds-banking-group-account-access-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/obie-account-info-openapi.yaml
-- filename: obie-payment-initiation-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-account-access-consents-api-openapi.yml
+- filename: lloyds-banking-group-accounts-api-openapi.yml
   format: yaml
-  label: Lloyds Banking Group Payment Initiation API
-  slug: payment-initiation-api
+  label: Lloyds Banking Group Accounts API
+  slug: lloyds-banking-group-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/obie-payment-initiation-openapi.yaml
-- filename: obie-confirmation-funds-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-accounts-api-openapi.yml
+- filename: lloyds-banking-group-atm-api-openapi.yml
   format: yaml
-  label: Lloyds Banking Group Confirmation of Funds API
-  slug: confirmation-of-funds-api
+  label: Lloyds Banking Group ATM API
+  slug: lloyds-banking-group-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/obie-confirmation-funds-openapi.yaml
-- filename: obie-vrp-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-atm-api-openapi.yml
+- filename: lloyds-banking-group-balances-api-openapi.yml
   format: yaml
-  label: Lloyds Banking Group Variable Recurring Payments API
-  slug: variable-recurring-payments-api
+  label: Lloyds Banking Group Balances API
+  slug: lloyds-banking-group-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/obie-vrp-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-balances-api-openapi.yml
+- filename: lloyds-banking-group-bca-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group BCA API
+  slug: lloyds-banking-group-bca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-bca-api-openapi.yml
+- filename: lloyds-banking-group-beneficiaries-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group Beneficiaries API
+  slug: lloyds-banking-group-beneficiaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-beneficiaries-api-openapi.yml
+- filename: lloyds-banking-group-branch-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group Branch API
+  slug: lloyds-banking-group-branch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-branch-api-openapi.yml
+- filename: lloyds-banking-group-ccc-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group CCC API
+  slug: lloyds-banking-group-ccc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-ccc-api-openapi.yml
+- filename: lloyds-banking-group-direct-debits-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group Direct Debits API
+  slug: lloyds-banking-group-direct-debits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-direct-debits-api-openapi.yml
+- filename: lloyds-banking-group-domestic-payment-consents-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group Domestic Payment Consents API
+  slug: lloyds-banking-group-domestic-payment-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-domestic-payment-consents-api-openapi.yml
+- filename: lloyds-banking-group-domestic-payments-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group Domestic Payments API
+  slug: lloyds-banking-group-domestic-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-domestic-payments-api-openapi.yml
+- filename: lloyds-banking-group-domestic-scheduled-payment-consents-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group Domestic Scheduled Payment Consents API
+  slug: lloyds-banking-group-domestic-scheduled-payment-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-domestic-scheduled-payment-consents-api-openapi.yml
+- filename: lloyds-banking-group-domestic-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group Domestic Scheduled Payments API
+  slug: lloyds-banking-group-domestic-scheduled-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-domestic-scheduled-payments-api-openapi.yml
+- filename: lloyds-banking-group-domestic-standing-order-consents-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group Domestic Standing Order Consents API
+  slug: lloyds-banking-group-domestic-standing-order-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-domestic-standing-order-consents-api-openapi.yml
+- filename: lloyds-banking-group-domestic-standing-orders-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group Domestic Standing Orders API
+  slug: lloyds-banking-group-domestic-standing-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-domestic-standing-orders-api-openapi.yml
+- filename: lloyds-banking-group-domestic-vrp-consents-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group Domestic VRP Consents API
+  slug: lloyds-banking-group-domestic-vrp-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-domestic-vrp-consents-api-openapi.yml
+- filename: lloyds-banking-group-domestic-vrps-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group Domestic VRPs API
+  slug: lloyds-banking-group-domestic-vrps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-domestic-vrps-api-openapi.yml
+- filename: lloyds-banking-group-file-payment-consents-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group File Payment Consents API
+  slug: lloyds-banking-group-file-payment-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-file-payment-consents-api-openapi.yml
+- filename: lloyds-banking-group-file-payments-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group File Payments API
+  slug: lloyds-banking-group-file-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-file-payments-api-openapi.yml
+- filename: lloyds-banking-group-funds-confirmation-consents-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group Funds Confirmation Consents API
+  slug: lloyds-banking-group-funds-confirmation-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-funds-confirmation-consents-api-openapi.yml
+- filename: lloyds-banking-group-funds-confirmations-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group Funds Confirmations API
+  slug: lloyds-banking-group-funds-confirmations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-funds-confirmations-api-openapi.yml
+- filename: lloyds-banking-group-international-payment-consents-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group International Payment Consents API
+  slug: lloyds-banking-group-international-payment-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-international-payment-consents-api-openapi.yml
+- filename: lloyds-banking-group-international-payments-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group International Payments API
+  slug: lloyds-banking-group-international-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-international-payments-api-openapi.yml
+- filename: lloyds-banking-group-international-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group International Scheduled Payments API
+  slug: lloyds-banking-group-international-scheduled-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-international-scheduled-payments-api-openapi.yml
+- filename: lloyds-banking-group-international-scheduled-payments-consents-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group International Scheduled Payments Consents API
+  slug: lloyds-banking-group-international-scheduled-payments-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-international-scheduled-payments-consents-api-openapi.yml
+- filename: lloyds-banking-group-international-standing-orders-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group International Standing Orders API
+  slug: lloyds-banking-group-international-standing-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-international-standing-orders-api-openapi.yml
+- filename: lloyds-banking-group-international-standing-orders-consents-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group International Standing Orders Consents API
+  slug: lloyds-banking-group-international-standing-orders-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-international-standing-orders-consents-api-openapi.yml
+- filename: lloyds-banking-group-offers-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group Offers API
+  slug: lloyds-banking-group-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-offers-api-openapi.yml
+- filename: lloyds-banking-group-parties-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group Parties API
+  slug: lloyds-banking-group-parties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-parties-api-openapi.yml
+- filename: lloyds-banking-group-pca-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group PCA API
+  slug: lloyds-banking-group-pca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-pca-api-openapi.yml
+- filename: lloyds-banking-group-products-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group Products API
+  slug: lloyds-banking-group-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-products-api-openapi.yml
+- filename: lloyds-banking-group-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group Scheduled Payments API
+  slug: lloyds-banking-group-scheduled-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-scheduled-payments-api-openapi.yml
+- filename: lloyds-banking-group-sme-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group SME API
+  slug: lloyds-banking-group-sme-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-sme-api-openapi.yml
+- filename: lloyds-banking-group-standing-orders-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group Standing Orders API
+  slug: lloyds-banking-group-standing-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-standing-orders-api-openapi.yml
+- filename: lloyds-banking-group-statements-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group Statements API
+  slug: lloyds-banking-group-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-statements-api-openapi.yml
+- filename: lloyds-banking-group-transactions-api-openapi.yml
+  format: yaml
+  label: Lloyds Banking Group Transactions API
+  slug: lloyds-banking-group-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/openapi/lloyds-banking-group-transactions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

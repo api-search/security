@@ -3,18 +3,18 @@ api_key_in:
 - query
 - header
 api_specs:
-- filename: northern-powergrid-open-data-explore-api-v2-1-openapi.json
-  format: json
-  label: Northern Powergrid Open Data Explore API
-  slug: northern-powergrid-open-data-explore-api
+- filename: northern-powergrid-catalog-api-openapi.yml
+  format: yaml
+  label: Northern Powergrid Catalog API
+  slug: northern-powergrid-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/openapi/northern-powergrid-open-data-explore-api-v2-1-openapi.json
-- filename: northern-powergrid-open-data-explore-api-v2-0-openapi.json
-  format: json
-  label: Northern Powergrid Open Data Explore API v2.0
-  slug: northern-powergrid-open-data-explore-api-v2-0
+  url: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/openapi/northern-powergrid-catalog-api-openapi.yml
+- filename: northern-powergrid-dataset-api-openapi.yml
+  format: yaml
+  label: Northern Powergrid Dataset API
+  slug: northern-powergrid-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/openapi/northern-powergrid-open-data-explore-api-v2-0-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/openapi/northern-powergrid-dataset-api-openapi.yml
 auth_types:
 - none
 - apiKey

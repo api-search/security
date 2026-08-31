@@ -1,78 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: evervault-3d-secure-api-openapi.yml
-  format: yaml
-  label: Evervault 3D Secure API
-  slug: evervault-3d-secure-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/openapi/evervault-3d-secure-api-openapi.yml
-- filename: evervault-acquirers-api-openapi.yml
-  format: yaml
-  label: Evervault Acquirers API
-  slug: evervault-acquirers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/openapi/evervault-acquirers-api-openapi.yml
-- filename: evervault-card-account-updates-api-openapi.yml
-  format: yaml
-  label: Evervault Card Account Updates API
-  slug: evervault-card-account-updates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/openapi/evervault-card-account-updates-api-openapi.yml
-- filename: evervault-client-tokens-api-openapi.yml
-  format: yaml
-  label: Evervault Client Tokens API
-  slug: evervault-client-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/openapi/evervault-client-tokens-api-openapi.yml
 - filename: evervault-core-api-openapi.yml
   format: yaml
   label: Evervault Core API
   slug: evervault-core-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/openapi/evervault-core-api-openapi.yml
-- filename: evervault-functions-api-openapi.yml
-  format: yaml
-  label: Evervault Functions API
-  slug: evervault-functions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/openapi/evervault-functions-api-openapi.yml
-- filename: evervault-insights-api-openapi.yml
-  format: yaml
-  label: Evervault Insights API
-  slug: evervault-insights-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/openapi/evervault-insights-api-openapi.yml
-- filename: evervault-merchants-api-openapi.yml
-  format: yaml
-  label: Evervault Merchants API
-  slug: evervault-merchants-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/openapi/evervault-merchants-api-openapi.yml
-- filename: evervault-network-tokens-api-openapi.yml
-  format: yaml
-  label: Evervault Network Tokens API
-  slug: evervault-network-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/openapi/evervault-network-tokens-api-openapi.yml
 - filename: evervault-payments-api-openapi.yml
   format: yaml
   label: Evervault Payments API
   slug: evervault-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/openapi/evervault-payments-api-openapi.yml
-- filename: evervault-relays-api-openapi.yml
-  format: yaml
-  label: Evervault Relays API
-  slug: evervault-relays-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/openapi/evervault-relays-api-openapi.yml
 - filename: evervault-webhooks-api-openapi.yml
   format: yaml
   label: Evervault Webhooks API
   slug: evervault-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/openapi/evervault-webhooks-api-openapi.yml
+- filename: evervault-evervault-api-api-openapi.yml
+  format: yaml
+  label: Evervault Evervault API
+  slug: evervault-evervault-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/openapi/evervault-evervault-api-api-openapi.yml
 auth_types:
 - http
 description: ''

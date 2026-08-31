@@ -2,24 +2,78 @@
 api_key_in:
 - header
 api_specs:
-- filename: paubox-email-api-openapi.yaml
+- filename: paubox-analytics-api-openapi.yml
   format: yaml
-  label: Paubox Email API
-  slug: paubox-email-api
+  label: Paubox Analytics API
+  slug: paubox-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-email-api-openapi.yaml
-- filename: paubox-marketing-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-analytics-api-openapi.yml
+- filename: paubox-campaign-mailings-api-openapi.yml
   format: yaml
-  label: Paubox Marketing API
-  slug: paubox-marketing-api
+  label: Paubox Campaign Mailings API
+  slug: paubox-campaign-mailings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-marketing-api-openapi.yaml
-- filename: paubox-forms-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-campaign-mailings-api-openapi.yml
+- filename: paubox-drip-campaigns-api-openapi.yml
+  format: yaml
+  label: Paubox Drip Campaigns API
+  slug: paubox-drip-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-drip-campaigns-api-openapi.yml
+- filename: paubox-dynamic-templates-api-openapi.yml
+  format: yaml
+  label: Paubox Dynamic Templates API
+  slug: paubox-dynamic-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-dynamic-templates-api-openapi.yml
+- filename: paubox-form-management-api-openapi.yml
+  format: yaml
+  label: Paubox Form management API
+  slug: paubox-form-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-form-management-api-openapi.yml
+- filename: paubox-forms-api-openapi.yml
   format: yaml
   label: Paubox Forms API
   slug: paubox-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-forms-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-forms-api-openapi.yml
+- filename: paubox-messages-api-openapi.yml
+  format: yaml
+  label: Paubox Messages API
+  slug: paubox-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-messages-api-openapi.yml
+- filename: paubox-submissions-api-openapi.yml
+  format: yaml
+  label: Paubox Submissions API
+  slug: paubox-submissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-submissions-api-openapi.yml
+- filename: paubox-subscribers-api-openapi.yml
+  format: yaml
+  label: Paubox Subscribers API
+  slug: paubox-subscribers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-subscribers-api-openapi.yml
+- filename: paubox-subscription-lists-api-openapi.yml
+  format: yaml
+  label: Paubox Subscription Lists API
+  slug: paubox-subscription-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-subscription-lists-api-openapi.yml
+- filename: paubox-subscriptions-api-openapi.yml
+  format: yaml
+  label: Paubox Subscriptions API
+  slug: paubox-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-subscriptions-api-openapi.yml
+- filename: paubox-tracking-links-api-openapi.yml
+  format: yaml
+  label: Paubox Tracking Links API
+  slug: paubox-tracking-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-tracking-links-api-openapi.yml
 auth_types:
 - apiKey
 - http

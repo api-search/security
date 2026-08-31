@@ -17,8 +17,8 @@ layout: security
 method: probed
 name: Education Management Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for education-management, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: education-management
+overview: 'Domain security posture for Education Management Corporation, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Education Management Corporation
 provider_slug: education-management
 slug: education-management-domain-security
 source_filename: education-management-domain-security.yml

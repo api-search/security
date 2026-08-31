@@ -74,6 +74,12 @@ api_specs:
   slug: depop-shop-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-shop-management-api-openapi.yml
+- filename: depop-seller-api-api-openapi.yml
+  format: yaml
+  label: depop Seller API
+  slug: depop-seller-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-seller-api-api-openapi.yml
 auth_types:
 - http
 - oauth2

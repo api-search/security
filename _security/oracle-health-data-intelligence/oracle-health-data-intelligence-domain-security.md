@@ -9,7 +9,8 @@ api_specs:
 description: ''
 domains:
 - caa: []
-  dmarc: false
+  dmarc: true
+  dmarc_policy: reject
   dnssec: false
   domain: healtheintent.com
   spf: false
@@ -29,18 +30,23 @@ layout: security
 method: probed
 name: Oracle Health Data Intelligence Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Oracle Health Data Intelligence, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+overview: 'Domain security posture for Oracle Health Data Intelligence, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=reject).'
 provider_name: Oracle Health Data Intelligence
 provider_slug: oracle-health-data-intelligence
 slug: oracle-health-data-intelligence-domain-security
 source_filename: oracle-health-data-intelligence-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.healtheintent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  1 23:59:59 2027 GMT\n  hsts: false\n- host: cernerdemo.api.us-1.healtheintent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 28 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: healtheintent.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.healtheintent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  1 23:59:59 2027 GMT\n  hsts: false\n- host: cernerdemo.api.us-1.healtheintent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 28 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: healtheintent.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/security/oracle-health-data-intelligence-domain-security.yml
-summary_line: TLSv1.3
+summary_line: TLSv1.3 · DMARC
 tags:
 - Genomic
 - Health Records
 - Healthcare
+- Population Health
+- Longitudinal Record
+- Interoperability
+- Clinical Data
+- Analytics
 ---

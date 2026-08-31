@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: mediamath-marketplaces-api-v2-openapi.yml
-  format: yaml
-  label: MediaMath Marketplaces API V2.0
-  slug: mediamath-marketplaces-api-v20
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-marketplaces-api-v2-openapi.yml
-- filename: mediamath-byoa-api-openapi.yml
-  format: yaml
-  label: MediaMath Bring Your Own Algorithm (BYOA) API
-  slug: mediamath-bring-your-own-algorithm-byoa-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-byoa-api-openapi.yml
 - filename: mediamath-ad-servers-api-openapi.yml
   format: yaml
   label: MediaMath Ad Servers API
@@ -234,36 +222,120 @@ api_specs:
   slug: mediamath-verticals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-verticals-api-openapi.yml
-- filename: mediamath-audience-segments-api-openapi.yml
-  format: yaml
-  label: MediaMath Audience Segments API
-  slug: mediamath-audience-segments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-audience-segments-api-openapi.yml
-- filename: mediamath-bof-config-api-openapi.yml
-  format: yaml
-  label: MediaMath BOF Config API
-  slug: mediamath-bof-config-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-bof-config-api-openapi.yml
 - filename: mediamath-component-creatives-api-openapi.yml
   format: yaml
   label: MediaMath Component Creatives API
   slug: mediamath-component-creatives-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-component-creatives-api-openapi.yml
-- filename: mediamath-reporting-api-v1-openapi.yml
+- filename: mediamath-approvals-api-openapi.yml
   format: yaml
-  label: MediaMath Reporting API V1
-  slug: mediamath-reporting-api-v1
+  label: MediaMath Approvals API
+  slug: mediamath-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-reporting-api-v1-openapi.yml
-- filename: mediamath-video-creatives-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-approvals-api-openapi.yml
+- filename: mediamath-campaign-settings-api-openapi.yml
   format: yaml
-  label: MediaMath Video Creatives API
-  slug: mediamath-video-creatives-api
+  label: MediaMath Campaign Settings API
+  slug: mediamath-campaign-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-video-creatives-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-campaign-settings-api-openapi.yml
+- filename: mediamath-classification-v1-0-deprecated-api-openapi.yml
+  format: yaml
+  label: MediaMath Classification (V1.0 - Deprecated) API
+  slug: mediamath-classification-v1-0-deprecated-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-classification-v1-0-deprecated-api-openapi.yml
+- filename: mediamath-classification-v3-api-openapi.yml
+  format: yaml
+  label: MediaMath Classification (V3) API
+  slug: mediamath-classification-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-classification-v3-api-openapi.yml
+- filename: mediamath-components-api-openapi.yml
+  format: yaml
+  label: MediaMath Components API
+  slug: mediamath-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-components-api-openapi.yml
+- filename: mediamath-consumer-management-api-openapi.yml
+  format: yaml
+  label: MediaMath Consumer Management API
+  slug: mediamath-consumer-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-consumer-management-api-openapi.yml
+- filename: mediamath-creatives-native-api-openapi.yml
+  format: yaml
+  label: MediaMath Creatives - Native API
+  slug: mediamath-creatives-native-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-creatives-native-api-openapi.yml
+- filename: mediamath-custom-bid-router-api-openapi.yml
+  format: yaml
+  label: MediaMath Custom Bid Router API
+  slug: mediamath-custom-bid-router-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-custom-bid-router-api-openapi.yml
+- filename: mediamath-custom-brain-api-openapi.yml
+  format: yaml
+  label: MediaMath Custom Brain API
+  slug: mediamath-custom-brain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-custom-brain-api-openapi.yml
+- filename: mediamath-data-retrieval-api-openapi.yml
+  format: yaml
+  label: MediaMath Data Retrieval API
+  slug: mediamath-data-retrieval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-data-retrieval-api-openapi.yml
+- filename: mediamath-iab-data-v3-api-openapi.yml
+  format: yaml
+  label: MediaMath IAB Data (V3) API
+  slug: mediamath-iab-data-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-iab-data-v3-api-openapi.yml
+- filename: mediamath-iab-v1-0-deprecated-api-openapi.yml
+  format: yaml
+  label: MediaMath IAB (V1.0 - Deprecated) API
+  slug: mediamath-iab-v1-0-deprecated-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-iab-v1-0-deprecated-api-openapi.yml
+- filename: mediamath-metadata-api-openapi.yml
+  format: yaml
+  label: MediaMath Metadata API
+  slug: mediamath-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-metadata-api-openapi.yml
+- filename: mediamath-permission-taxonomies-api-openapi.yml
+  format: yaml
+  label: MediaMath Permission Taxonomies API
+  slug: mediamath-permission-taxonomies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-permission-taxonomies-api-openapi.yml
+- filename: mediamath-private-marketplace-exchange-pmp-e-api-openapi.yml
+  format: yaml
+  label: MediaMath Private Marketplace Exchange (PMP-E) API
+  slug: mediamath-private-marketplace-exchange-pmp-e-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-private-marketplace-exchange-pmp-e-api-openapi.yml
+- filename: mediamath-reports-api-openapi.yml
+  format: yaml
+  label: MediaMath Reports API
+  slug: mediamath-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-reports-api-openapi.yml
+- filename: mediamath-video-creative-management-v2-api-openapi.yml
+  format: yaml
+  label: MediaMath Video Creative Management (V2) API
+  slug: mediamath-video-creative-management-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-video-creative-management-v2-api-openapi.yml
+- filename: mediamath-video-creative-management-v3-api-openapi.yml
+  format: yaml
+  label: MediaMath Video Creative Management (V3) API
+  slug: mediamath-video-creative-management-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-video-creative-management-v3-api-openapi.yml
 description: ''
 domains:
 - caa: []

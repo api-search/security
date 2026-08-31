@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: mastercard-universal-specification-submission-api-openapi.yml
-  format: yaml
-  label: Mastercard Universal Specification Submission API
-  slug: mastercard-universal-specification-submission-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-universal-specification-submission-api-openapi.yml
-- filename: mastercard-bill-pay-api-openapi.yml
-  format: yaml
-  label: Mastercard Bill Pay API
-  slug: mastercard-bill-pay-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-bill-pay-api-openapi.yml
 - filename: mastercard-business-payment-controls-openapi.yml
   format: yaml
   label: Mastercard Business Payment Controls
@@ -66,12 +54,6 @@ api_specs:
   slug: mastercard-direct-services
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-direct-services-openapi.yml
-- filename: mastercard-access-a-user-identity-api-openapi.yml
-  format: yaml
-  label: Mastercard Access A  User  Identity API
-  slug: mastercard-access-a-user-identity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-access-a-user-identity-api-openapi.yml
 - filename: mastercard-access-api-openapi.yml
   format: yaml
   label: Mastercard Access API
@@ -126,12 +108,6 @@ api_specs:
   slug: mastercard-aggregate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-aggregate-api-openapi.yml
-- filename: mastercard-aggregates-api-openapi.yml
-  format: yaml
-  label: Mastercard Aggregates API
-  slug: mastercard-aggregates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-aggregates-api-openapi.yml
 - filename: mastercard-agreement-api-openapi.yml
   format: yaml
   label: Mastercard Agreement API
@@ -168,12 +144,6 @@ api_specs:
   slug: mastercard-approvals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-approvals-api-openapi.yml
-- filename: mastercard-arid-api-openapi.yml
-  format: yaml
-  label: Mastercard Arid API
-  slug: mastercard-arid-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-arid-api-openapi.yml
 - filename: mastercard-audit-api-openapi.yml
   format: yaml
   label: Mastercard Audit API
@@ -186,12 +156,6 @@ api_specs:
   slug: mastercard-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-authentication-api-openapi.yml
-- filename: mastercard-b-i-n-lookup-api-openapi.yml
-  format: yaml
-  label: Mastercard B I N  Lookup API
-  slug: mastercard-b-i-n-lookup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-b-i-n-lookup-api-openapi.yml
 - filename: mastercard-batch-api-openapi.yml
   format: yaml
   label: Mastercard Batch API
@@ -222,12 +186,6 @@ api_specs:
   slug: mastercard-benefits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-benefits-api-openapi.yml
-- filename: mastercard-bill-pay-api-openapi.yml
-  format: yaml
-  label: Mastercard Bill Pay API
-  slug: mastercard-bill-pay-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-bill-pay-api-openapi.yml
 - filename: mastercard-bin-api-openapi.yml
   format: yaml
   label: Mastercard Bin API
@@ -240,12 +198,6 @@ api_specs:
   slug: mastercard-callbacks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-callbacks-api-openapi.yml
-- filename: mastercard-carbon-api-openapi.yml
-  format: yaml
-  label: Mastercard Carbon API
-  slug: mastercard-carbon-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-carbon-api-openapi.yml
 - filename: mastercard-card-api-openapi.yml
   format: yaml
   label: Mastercard Card API
@@ -258,12 +210,6 @@ api_specs:
   slug: mastercard-cards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-cards-api-openapi.yml
-- filename: mastercard-catalog-api-openapi.yml
-  format: yaml
-  label: Mastercard Catalog API
-  slug: mastercard-catalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-catalog-api-openapi.yml
 - filename: mastercard-catalogs-api-openapi.yml
   format: yaml
   label: Mastercard Catalogs API
@@ -294,12 +240,6 @@ api_specs:
   slug: mastercard-claims-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-claims-api-openapi.yml
-- filename: mastercard-client-api-openapi.yml
-  format: yaml
-  label: Mastercard Client API
-  slug: mastercard-client-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-client-api-openapi.yml
 - filename: mastercard-cls-activations-api-openapi.yml
   format: yaml
   label: Mastercard CLS Activations API
@@ -366,36 +306,18 @@ api_specs:
   slug: mastercard-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-data-api-openapi.yml
-- filename: mastercard-debit-api-openapi.yml
-  format: yaml
-  label: Mastercard Debit API
-  slug: mastercard-debit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-debit-api-openapi.yml
 - filename: mastercard-debtor-api-openapi.yml
   format: yaml
   label: Mastercard Debtor API
   slug: mastercard-debtor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-debtor-api-openapi.yml
-- filename: mastercard-decisions-api-openapi.yml
-  format: yaml
-  label: Mastercard Decisions API
-  slug: mastercard-decisions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-decisions-api-openapi.yml
 - filename: mastercard-deletions-api-openapi.yml
   format: yaml
   label: Mastercard Deletions API
   slug: mastercard-deletions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-deletions-api-openapi.yml
-- filename: mastercard-deregistrations-api-openapi.yml
-  format: yaml
-  label: Mastercard Deregistrations API
-  slug: mastercard-deregistrations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-deregistrations-api-openapi.yml
 - filename: mastercard-documents-api-openapi.yml
   format: yaml
   label: Mastercard Documents API
@@ -420,42 +342,12 @@ api_specs:
   slug: mastercard-donors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-donors-api-openapi.yml
-- filename: mastercard-driving-api-openapi.yml
-  format: yaml
-  label: Mastercard Driving API
-  slug: mastercard-driving-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-driving-api-openapi.yml
 - filename: mastercard-email-api-openapi.yml
   format: yaml
   label: Mastercard Email API
   slug: mastercard-email-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-email-api-openapi.yml
-- filename: mastercard-email-o-t-p-api-openapi.yml
-  format: yaml
-  label: Mastercard Email  O T P API
-  slug: mastercard-email-o-t-p-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-email-o-t-p-api-openapi.yml
-- filename: mastercard-environmental-impact-api-openapi.yml
-  format: yaml
-  label: Mastercard Environmental  Impact API
-  slug: mastercard-environmental-impact-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-environmental-impact-api-openapi.yml
-- filename: mastercard-events-api-openapi.yml
-  format: yaml
-  label: Mastercard Events API
-  slug: mastercard-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-events-api-openapi.yml
-- filename: mastercard-extractions-api-openapi.yml
-  format: yaml
-  label: Mastercard Extractions API
-  slug: mastercard-extractions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-extractions-api-openapi.yml
 - filename: mastercard-field-mapping-api-openapi.yml
   format: yaml
   label: Mastercard Field Mapping API
@@ -474,72 +366,12 @@ api_specs:
   slug: mastercard-fraud-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-fraud-api-openapi.yml
-- filename: mastercard-guest-donation-api-openapi.yml
-  format: yaml
-  label: Mastercard Guest  Donation API
-  slug: mastercard-guest-donation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-guest-donation-api-openapi.yml
 - filename: mastercard-guid-api-openapi.yml
   format: yaml
   label: Mastercard Guid API
   slug: mastercard-guid-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-guid-api-openapi.yml
-- filename: mastercard-health-checks-api-openapi.yml
-  format: yaml
-  label: Mastercard Health Checks API
-  slug: mastercard-health-checks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-health-checks-api-openapi.yml
-- filename: mastercard-i-d-document-data-extraction-api-openapi.yml
-  format: yaml
-  label: Mastercard I D  Document  Data  Extraction API
-  slug: mastercard-i-d-document-data-extraction-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-i-d-document-data-extraction-api-openapi.yml
-- filename: mastercard-i-d-document-data-source-verification-api-openapi.yml
-  format: yaml
-  label: Mastercard I D  Document  Data  Source  Verification API
-  slug: mastercard-i-d-document-data-source-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-i-d-document-data-source-verification-api-openapi.yml
-- filename: mastercard-i-d-p-claim-share-insights-api-openapi.yml
-  format: yaml
-  label: Mastercard I D P  Claim  Share  Insights API
-  slug: mastercard-i-d-p-claim-share-insights-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-i-d-p-claim-share-insights-api-openapi.yml
-- filename: mastercard-i-d-p-scopes-request-api-openapi.yml
-  format: yaml
-  label: Mastercard I D P  Scopes  Request API
-  slug: mastercard-i-d-p-scopes-request-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-i-d-p-scopes-request-api-openapi.yml
-- filename: mastercard-ica-api-openapi.yml
-  format: yaml
-  label: Mastercard Ica API
-  slug: mastercard-ica-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-ica-api-openapi.yml
-- filename: mastercard-id-api-openapi.yml
-  format: yaml
-  label: Mastercard Id API
-  slug: mastercard-id-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-id-api-openapi.yml
-- filename: mastercard-identity-api-openapi.yml
-  format: yaml
-  label: Mastercard Identity API
-  slug: mastercard-identity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-identity-api-openapi.yml
-- filename: mastercard-ids-api-openapi.yml
-  format: yaml
-  label: Mastercard Ids API
-  slug: mastercard-ids-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-ids-api-openapi.yml
 - filename: mastercard-initiate-api-openapi.yml
   format: yaml
   label: Mastercard Initiate API
@@ -558,54 +390,18 @@ api_specs:
   slug: mastercard-insights-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-insights-api-openapi.yml
-- filename: mastercard-issued-api-openapi.yml
-  format: yaml
-  label: Mastercard Issued API
-  slug: mastercard-issued-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-issued-api-openapi.yml
 - filename: mastercard-issuer-api-openapi.yml
   format: yaml
   label: Mastercard Issuer API
   slug: mastercard-issuer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-issuer-api-openapi.yml
-- filename: mastercard-issuing-api-openapi.yml
-  format: yaml
-  label: Mastercard Issuing API
-  slug: mastercard-issuing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-issuing-api-openapi.yml
-- filename: mastercard-items-api-openapi.yml
-  format: yaml
-  label: Mastercard Items API
-  slug: mastercard-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-items-api-openapi.yml
-- filename: mastercard-languages-api-openapi.yml
-  format: yaml
-  label: Mastercard Languages API
-  slug: mastercard-languages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-languages-api-openapi.yml
-- filename: mastercard-licenses-api-openapi.yml
-  format: yaml
-  label: Mastercard Licenses API
-  slug: mastercard-licenses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-licenses-api-openapi.yml
 - filename: mastercard-lifecycle-api-openapi.yml
   format: yaml
   label: Mastercard Lifecycle API
   slug: mastercard-lifecycle-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-lifecycle-api-openapi.yml
-- filename: mastercard-locations-api-openapi.yml
-  format: yaml
-  label: Mastercard Locations API
-  slug: mastercard-locations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-locations-api-openapi.yml
 - filename: mastercard-lookup-identifiers-api-openapi.yml
   format: yaml
   label: Mastercard Lookup Identifiers API
@@ -618,12 +414,6 @@ api_specs:
   slug: mastercard-lost-stolen-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-lost-stolen-api-openapi.yml
-- filename: mastercard-manage-a-user-identity-api-openapi.yml
-  format: yaml
-  label: Mastercard Manage A  User  Identity API
-  slug: mastercard-manage-a-user-identity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-manage-a-user-identity-api-openapi.yml
 - filename: mastercard-mastercard-api-openapi.yml
   format: yaml
   label: Mastercard Mastercard API
@@ -636,24 +426,6 @@ api_specs:
   slug: mastercard-member-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-member-api-openapi.yml
-- filename: mastercard-merchant-api-openapi.yml
-  format: yaml
-  label: Mastercard Merchant API
-  slug: mastercard-merchant-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-merchant-api-openapi.yml
-- filename: mastercard-merchant-logos-api-openapi.yml
-  format: yaml
-  label: Mastercard Merchant  Logos API
-  slug: mastercard-merchant-logos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-merchant-logos-api-openapi.yml
-- filename: mastercard-merchant-participation-api-openapi.yml
-  format: yaml
-  label: Mastercard Merchant  Participation API
-  slug: mastercard-merchant-participation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-merchant-participation-api-openapi.yml
 - filename: mastercard-merchant-registration-api-openapi.yml
   format: yaml
   label: Mastercard Merchant  Registration API
@@ -672,12 +444,6 @@ api_specs:
   slug: mastercard-multi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-multi-api-openapi.yml
-- filename: mastercard-names-api-openapi.yml
-  format: yaml
-  label: Mastercard Names API
-  slug: mastercard-names-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-names-api-openapi.yml
 - filename: mastercard-notifications-api-openapi.yml
   format: yaml
   label: Mastercard Notifications API
@@ -690,24 +456,6 @@ api_specs:
   slug: mastercard-offers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-offers-api-openapi.yml
-- filename: mastercard-orders-api-openapi.yml
-  format: yaml
-  label: Mastercard Orders API
-  slug: mastercard-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-orders-api-openapi.yml
-- filename: mastercard-organization-api-openapi.yml
-  format: yaml
-  label: Mastercard Organization API
-  slug: mastercard-organization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-organization-api-openapi.yml
-- filename: mastercard-organizations-api-openapi.yml
-  format: yaml
-  label: Mastercard Organizations API
-  slug: mastercard-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-organizations-api-openapi.yml
 - filename: mastercard-otps-api-openapi.yml
   format: yaml
   label: Mastercard Otps API
@@ -720,18 +468,6 @@ api_specs:
   slug: mastercard-pan-blocks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-pan-blocks-api-openapi.yml
-- filename: mastercard-payment-api-openapi.yml
-  format: yaml
-  label: Mastercard Payment API
-  slug: mastercard-payment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-payment-api-openapi.yml
-- filename: mastercard-payment-card-api-openapi.yml
-  format: yaml
-  label: Mastercard Payment  Card API
-  slug: mastercard-payment-card-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-payment-card-api-openapi.yml
 - filename: mastercard-payment-requests-api-openapi.yml
   format: yaml
   label: Mastercard Payment  Requests API
@@ -744,24 +480,12 @@ api_specs:
   slug: mastercard-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-payments-api-openapi.yml
-- filename: mastercard-plan-api-openapi.yml
-  format: yaml
-  label: Mastercard Plan API
-  slug: mastercard-plan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-plan-api-openapi.yml
 - filename: mastercard-plans-api-openapi.yml
   format: yaml
   label: Mastercard Plans API
   slug: mastercard-plans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-plans-api-openapi.yml
-- filename: mastercard-premium-api-openapi.yml
-  format: yaml
-  label: Mastercard Premium API
-  slug: mastercard-premium-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-premium-api-openapi.yml
 - filename: mastercard-products-api-openapi.yml
   format: yaml
   label: Mastercard Products API
@@ -774,78 +498,18 @@ api_specs:
   slug: mastercard-profiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-profiles-api-openapi.yml
-- filename: mastercard-program-api-openapi.yml
-  format: yaml
-  label: Mastercard Program API
-  slug: mastercard-program-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-program-api-openapi.yml
-- filename: mastercard-providers-api-openapi.yml
-  format: yaml
-  label: Mastercard Providers API
-  slug: mastercard-providers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-providers-api-openapi.yml
 - filename: mastercard-rates-api-openapi.yml
   format: yaml
   label: Mastercard Rates API
   slug: mastercard-rates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-rates-api-openapi.yml
-- filename: mastercard-real-card-api-openapi.yml
-  format: yaml
-  label: Mastercard Real  Card API
-  slug: mastercard-real-card-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-real-card-api-openapi.yml
-- filename: mastercard-record-api-openapi.yml
-  format: yaml
-  label: Mastercard Record API
-  slug: mastercard-record-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-record-api-openapi.yml
-- filename: mastercard-references-api-openapi.yml
-  format: yaml
-  label: Mastercard References API
-  slug: mastercard-references-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-references-api-openapi.yml
-- filename: mastercard-refunds-api-openapi.yml
-  format: yaml
-  label: Mastercard Refunds API
-  slug: mastercard-refunds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-refunds-api-openapi.yml
-- filename: mastercard-registrations-api-openapi.yml
-  format: yaml
-  label: Mastercard Registrations API
-  slug: mastercard-registrations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-registrations-api-openapi.yml
-- filename: mastercard-request-api-openapi.yml
-  format: yaml
-  label: Mastercard Request API
-  slug: mastercard-request-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-request-api-openapi.yml
-- filename: mastercard-retrievals-api-openapi.yml
-  format: yaml
-  label: Mastercard Retrievals API
-  slug: mastercard-retrievals-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-retrievals-api-openapi.yml
 - filename: mastercard-routing-api-openapi.yml
   format: yaml
   label: Mastercard Routing API
   slug: mastercard-routing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-routing-api-openapi.yml
-- filename: mastercard-scans-api-openapi.yml
-  format: yaml
-  label: Mastercard Scans API
-  slug: mastercard-scans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-scans-api-openapi.yml
 - filename: mastercard-scopes-api-openapi.yml
   format: yaml
   label: Mastercard Scopes API
@@ -870,78 +534,12 @@ api_specs:
   slug: mastercard-service-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-service-api-openapi.yml
-- filename: mastercard-settlements-api-openapi.yml
-  format: yaml
-  label: Mastercard Settlements API
-  slug: mastercard-settlements-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-settlements-api-openapi.yml
-- filename: mastercard-setup-api-openapi.yml
-  format: yaml
-  label: Mastercard Setup API
-  slug: mastercard-setup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-setup-api-openapi.yml
-- filename: mastercard-setup-donation-api-openapi.yml
-  format: yaml
-  label: Mastercard Setup  Donation API
-  slug: mastercard-setup-donation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-setup-donation-api-openapi.yml
-- filename: mastercard-share-a-user-identity-api-openapi.yml
-  format: yaml
-  label: Mastercard Share A  User  Identity API
-  slug: mastercard-share-a-user-identity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-share-a-user-identity-api-openapi.yml
-- filename: mastercard-share-api-openapi.yml
-  format: yaml
-  label: Mastercard Share API
-  slug: mastercard-share-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-share-api-openapi.yml
-- filename: mastercard-shares-api-openapi.yml
-  format: yaml
-  label: Mastercard Shares API
-  slug: mastercard-shares-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-shares-api-openapi.yml
 - filename: mastercard-sources-api-openapi.yml
   format: yaml
   label: Mastercard Sources API
   slug: mastercard-sources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-sources-api-openapi.yml
-- filename: mastercard-srci-api-openapi.yml
-  format: yaml
-  label: Mastercard Srci API
-  slug: mastercard-srci-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-srci-api-openapi.yml
-- filename: mastercard-states-api-openapi.yml
-  format: yaml
-  label: Mastercard States API
-  slug: mastercard-states-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-states-api-openapi.yml
-- filename: mastercard-status-api-openapi.yml
-  format: yaml
-  label: Mastercard Status API
-  slug: mastercard-status-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-status-api-openapi.yml
-- filename: mastercard-statuses-api-openapi.yml
-  format: yaml
-  label: Mastercard Statuses API
-  slug: mastercard-statuses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-statuses-api-openapi.yml
-- filename: mastercard-step-api-openapi.yml
-  format: yaml
-  label: Mastercard Step API
-  slug: mastercard-step-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-step-api-openapi.yml
 - filename: mastercard-subscription-api-openapi.yml
   format: yaml
   label: Mastercard Subscription API
@@ -960,48 +558,12 @@ api_specs:
   slug: mastercard-summaries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-summaries-api-openapi.yml
-- filename: mastercard-supported-api-openapi.yml
-  format: yaml
-  label: Mastercard Supported API
-  slug: mastercard-supported-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-supported-api-openapi.yml
-- filename: mastercard-supported-parameters-api-openapi.yml
-  format: yaml
-  label: Mastercard Supported  Parameters API
-  slug: mastercard-supported-parameters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-supported-parameters-api-openapi.yml
 - filename: mastercard-surveys-api-openapi.yml
   format: yaml
   label: Mastercard Surveys API
   slug: mastercard-surveys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-surveys-api-openapi.yml
-- filename: mastercard-suspected-fraud-management-api-openapi.yml
-  format: yaml
-  label: Mastercard Suspected  Fraud  Management API
-  slug: mastercard-suspected-fraud-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-suspected-fraud-management-api-openapi.yml
-- filename: mastercard-suspected-fraud-submission-api-openapi.yml
-  format: yaml
-  label: Mastercard Suspected  Fraud  Submission API
-  slug: mastercard-suspected-fraud-submission-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-suspected-fraud-submission-api-openapi.yml
-- filename: mastercard-token-api-openapi.yml
-  format: yaml
-  label: Mastercard Token API
-  slug: mastercard-token-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-token-api-openapi.yml
-- filename: mastercard-tokens-api-openapi.yml
-  format: yaml
-  label: Mastercard Tokens API
-  slug: mastercard-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-tokens-api-openapi.yml
 - filename: mastercard-transaction-api-openapi.yml
   format: yaml
   label: Mastercard Transaction API
@@ -1014,30 +576,12 @@ api_specs:
   slug: mastercard-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-transactions-api-openapi.yml
-- filename: mastercard-universal-specification-submission-api-openapi.yml
-  format: yaml
-  label: Mastercard Universal Specification Submission API
-  slug: mastercard-universal-specification-submission-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-universal-specification-submission-api-openapi.yml
-- filename: mastercard-up-api-openapi.yml
-  format: yaml
-  label: Mastercard Up API
-  slug: mastercard-up-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-up-api-openapi.yml
 - filename: mastercard-users-api-openapi.yml
   format: yaml
   label: Mastercard Users API
   slug: mastercard-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-users-api-openapi.yml
-- filename: mastercard-valid-api-openapi.yml
-  format: yaml
-  label: Mastercard Valid API
-  slug: mastercard-valid-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-valid-api-openapi.yml
 - filename: mastercard-validations-api-openapi.yml
   format: yaml
   label: Mastercard Validations API
@@ -1056,12 +600,6 @@ api_specs:
   slug: mastercard-verifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-verifications-api-openapi.yml
-- filename: mastercard-virtual-api-openapi.yml
-  format: yaml
-  label: Mastercard Virtual API
-  slug: mastercard-virtual-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-virtual-api-openapi.yml
 - filename: mastercard-widgets-api-openapi.yml
   format: yaml
   label: Mastercard Widgets API

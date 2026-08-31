@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: ssen-transmission-opendatasoft-explore-v2.1-openapi.json
-  format: json
-  label: SSEN Transmission Open Data Explore API
-  slug: ssen-transmission-open-data-explore-api
+- filename: ssen-catalog-api-openapi.yml
+  format: yaml
+  label: Scottish and Southern Electricity Networks Catalog API
+  slug: ssen-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/openapi/ssen-transmission-opendatasoft-explore-v2.1-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/openapi/ssen-catalog-api-openapi.yml
+- filename: ssen-dataset-api-openapi.yml
+  format: yaml
+  label: Scottish and Southern Electricity Networks Dataset API
+  slug: ssen-dataset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/openapi/ssen-dataset-api-openapi.yml
 description: ''
 domains:
 - caa: []

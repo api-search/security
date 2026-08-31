@@ -1008,6 +1008,12 @@ api_specs:
   slug: telnyx-x402-payment-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-x402-payment-transactions-api-openapi.yml
+- filename: telnyx-callbacks-api-openapi.yml
+  format: yaml
+  label: Telnyx Callbacks API
+  slug: telnyx-callbacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-callbacks-api-openapi.yml
 description: ''
 domains:
 - caa:

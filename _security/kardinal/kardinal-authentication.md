@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: kardinal-aro-openapi-original.yml
+- filename: kardinal-authenticate-api-openapi.yml
   format: yaml
-  label: Kardinal ARO API
-  slug: aro
+  label: Kardinal Authenticate API
+  slug: kardinal-authenticate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/openapi/kardinal-aro-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/openapi/kardinal-authenticate-api-openapi.yml
+- filename: kardinal-core-api-openapi.yml
+  format: yaml
+  label: Kardinal Core API
+  slug: kardinal-core-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/openapi/kardinal-core-api-openapi.yml
+- filename: kardinal-management-api-openapi.yml
+  format: yaml
+  label: Kardinal Management API
+  slug: kardinal-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/openapi/kardinal-management-api-openapi.yml
+- filename: kardinal-order-api-openapi.yml
+  format: yaml
+  label: Kardinal Order API
+  slug: kardinal-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/openapi/kardinal-order-api-openapi.yml
+- filename: kardinal-plan-api-openapi.yml
+  format: yaml
+  label: Kardinal Plan API
+  slug: kardinal-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/openapi/kardinal-plan-api-openapi.yml
+- filename: kardinal-resource-api-openapi.yml
+  format: yaml
+  label: Kardinal Resource API
+  slug: kardinal-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/openapi/kardinal-resource-api-openapi.yml
+- filename: kardinal-simpleplan-api-openapi.yml
+  format: yaml
+  label: Kardinal Simple Plan API
+  slug: kardinal-simpleplan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/openapi/kardinal-simpleplan-api-openapi.yml
+- filename: kardinal-solution-api-openapi.yml
+  format: yaml
+  label: Kardinal Solution API
+  slug: kardinal-solution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/openapi/kardinal-solution-api-openapi.yml
 auth_types:
 - http
 description: ''

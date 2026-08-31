@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: moosend-openapi.yml
+- filename: moosend-campaigns-api-openapi.yml
   format: yaml
-  label: Moosend API
-  slug: moosend-api
+  label: Moosend Campaigns API
+  slug: moosend-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/openapi/moosend-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/openapi/moosend-campaigns-api-openapi.yml
+- filename: moosend-mailing-lists-api-openapi.yml
+  format: yaml
+  label: Moosend Mailing Lists API
+  slug: moosend-mailing-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/openapi/moosend-mailing-lists-api-openapi.yml
+- filename: moosend-segments-api-openapi.yml
+  format: yaml
+  label: Moosend Segments API
+  slug: moosend-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/openapi/moosend-segments-api-openapi.yml
+- filename: moosend-subscribers-api-openapi.yml
+  format: yaml
+  label: Moosend Subscribers API
+  slug: moosend-subscribers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/openapi/moosend-subscribers-api-openapi.yml
 description: ''
 domains:
 - caa:

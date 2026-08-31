@@ -1,35 +1,59 @@
 ---
 api_specs:
-- filename: vim-rest-api-openapi-original.json
-  format: json
-  label: Vim Applications & Organizations API
+- filename: vim-access-token-retrieval-api-openapi.yml
+  format: yaml
+  label: Vim Access Token Retrieval API
+  slug: vim-access-token-retrieval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-access-token-retrieval-api-openapi.yml
+- filename: vim-applications-api-openapi.yml
+  format: yaml
+  label: Vim Applications API
   slug: vim-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-rest-api-openapi-original.json
-- filename: vim-rest-api-openapi-original.json
-  format: json
-  label: Vim Invitations API
-  slug: vim-invitations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-rest-api-openapi-original.json
-- filename: vim-rest-api-openapi-original.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-applications-api-openapi.yml
+- filename: vim-appointments-api-openapi.yml
+  format: yaml
   label: Vim Appointments API
   slug: vim-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-rest-api-openapi-original.json
-- filename: vim-rest-api-openapi-original.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-appointments-api-openapi.yml
+- filename: vim-authentication-api-openapi.yml
+  format: yaml
+  label: Vim Authentication API
+  slug: vim-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-authentication-api-openapi.yml
+- filename: vim-chart-retrieval-api-openapi.yml
+  format: yaml
   label: Vim Chart Retrieval API
   slug: vim-chart-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-rest-api-openapi-original.json
-- filename: vim-data-source-openapi-original.json
-  format: json
-  label: Vim Data Source
-  slug: vim-data-source
+  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-chart-retrieval-api-openapi.yml
+- filename: vim-get-patient-care-insights-api-openapi.yml
+  format: yaml
+  label: Vim Get Patient Care Insights API
+  slug: vim-get-patient-care-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-data-source-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-get-patient-care-insights-api-openapi.yml
+- filename: vim-invitations-api-openapi.yml
+  format: yaml
+  label: Vim Invitations API
+  slug: vim-invitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-invitations-api-openapi.yml
+- filename: vim-patient-care-insights-feedback-api-openapi.yml
+  format: yaml
+  label: Vim Patient Care Insights Feedback API
+  slug: vim-patient-care-insights-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-patient-care-insights-feedback-api-openapi.yml
+- filename: vim-patient-identification-api-openapi.yml
+  format: yaml
+  label: Vim Patient Identification API
+  slug: vim-patient-identification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-patient-identification-api-openapi.yml
 description: ''
 domains:
 - caa: []

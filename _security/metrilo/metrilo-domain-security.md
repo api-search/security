@@ -24,12 +24,12 @@ api_specs:
   slug: metrilo-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/openapi/metrilo-products-api-openapi.yml
-- filename: metrilo-tracking-api-openapi.yml
+- filename: metrilo-api-api-openapi.yml
   format: yaml
-  label: Metrilo Tracking API
-  slug: metrilo-tracking-api
+  label: Metrilo API
+  slug: metrilo-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/openapi/metrilo-tracking-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/openapi/metrilo-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

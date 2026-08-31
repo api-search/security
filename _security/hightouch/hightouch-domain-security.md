@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: hightouch-api-openapi.json
-  format: json
-  label: Hightouch API
-  slug: hightouch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/_original/hightouch-api-openapi.json
 - filename: hightouch-sources-api-openapi.yml
   format: yaml
   label: Hightouch Sources API

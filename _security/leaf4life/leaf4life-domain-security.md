@@ -48,6 +48,12 @@ api_specs:
   slug: leaf4life-oembed-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leaf4life/refs/heads/main/openapi/leaf4life-oembed-api-openapi.yml
+- filename: leaf4life-comments-api-openapi.yml
+  format: yaml
+  label: LEAF4Life Comments API
+  slug: leaf4life-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leaf4life/refs/heads/main/openapi/leaf4life-comments-api-openapi.yml
 description: ''
 domains:
 - caa: []

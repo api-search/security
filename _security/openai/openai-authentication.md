@@ -295,6 +295,12 @@ api_specs:
   slug: openai-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-videos-api-openapi.yml
+- filename: openai-openai-api-api-openapi.yml
+  format: yaml
+  label: OpenAI OpenAI API
+  slug: openai-openai-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-openai-api-api-openapi.yml
 auth_types:
 - http
 description: ''

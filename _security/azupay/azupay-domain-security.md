@@ -1,41 +1,65 @@
 ---
 api_specs:
-- filename: azupay-payment-request.yml
+- filename: azupay-api-keys-api-openapi.yml
   format: yaml
-  label: Azupay PaymentRequest API (AzupayId)
-  slug: azupay-payment-request-api
+  label: Azupay API Keys API
+  slug: azupay-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-payment-request.yml
-- filename: azupay-payment.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-api-keys-api-openapi.yml
+- filename: azupay-billing-and-transaction-reports-api-openapi.yml
   format: yaml
-  label: Azupay Payment API (AzupayOut)
-  slug: azupay-payment-api
+  label: Azupay Billing and Transaction Reports API
+  slug: azupay-billing-and-transaction-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-payment.yml
-- filename: azupay-payment-agreement.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-billing-and-transaction-reports-api-openapi.yml
+- filename: azupay-check-accounts-api-openapi.yml
   format: yaml
-  label: Azupay PaymentAgreement & Initiation API (AzupayTo / PayTo)
-  slug: azupay-payment-agreement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-payment-agreement.yml
-- filename: azupay-check-accounts.yml
-  format: yaml
-  label: Azupay Account Check API (Confirmation of Payee)
+  label: Azupay Check Accounts API
   slug: azupay-check-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-check-accounts.yml
-- filename: azupay-reports.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-check-accounts-api-openapi.yml
+- filename: azupay-clients-api-openapi.yml
   format: yaml
-  label: Azupay Report & Balance API
-  slug: azupay-reports-api
+  label: Azupay Clients API
+  slug: azupay-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-reports.yml
-- filename: azupay-configuration.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-clients-api-openapi.yml
+- filename: azupay-current-balances-api-openapi.yml
   format: yaml
-  label: Azupay Clients & API Key Management API
-  slug: azupay-configuration-api
+  label: Azupay Current Balances API
+  slug: azupay-current-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-configuration.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-current-balances-api-openapi.yml
+- filename: azupay-payment-agreement-api-openapi.yml
+  format: yaml
+  label: Azupay Payment Agreement API
+  slug: azupay-payment-agreement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-payment-agreement-api-openapi.yml
+- filename: azupay-payment-agreement-request-api-openapi.yml
+  format: yaml
+  label: Azupay Payment Agreement Request API
+  slug: azupay-payment-agreement-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-payment-agreement-request-api-openapi.yml
+- filename: azupay-payment-api-openapi.yml
+  format: yaml
+  label: Azupay Payment API
+  slug: azupay-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-payment-api-openapi.yml
+- filename: azupay-payment-initiation-api-openapi.yml
+  format: yaml
+  label: Azupay Payment Initiation API
+  slug: azupay-payment-initiation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-payment-initiation-api-openapi.yml
+- filename: azupay-payment-request-api-openapi.yml
+  format: yaml
+  label: Azupay Payment Request API
+  slug: azupay-payment-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-payment-request-api-openapi.yml
 description: ''
 domains:
 - caa: []

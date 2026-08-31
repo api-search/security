@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: debank-pro-openapi.yml
+- filename: debank-account-api-openapi.yml
   format: yaml
-  label: DeBank OpenAPI
-  slug: debank-openapi
+  label: DeBank Account API
+  slug: debank-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-pro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-account-api-openapi.yml
+- filename: debank-app-protocol-api-openapi.yml
+  format: yaml
+  label: DeBank App Protocol API
+  slug: debank-app-protocol-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-app-protocol-api-openapi.yml
+- filename: debank-chain-api-openapi.yml
+  format: yaml
+  label: DeBank Chain API
+  slug: debank-chain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-chain-api-openapi.yml
+- filename: debank-cloud-api-openapi.yml
+  format: yaml
+  label: DeBank Cloud API
+  slug: debank-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-cloud-api-openapi.yml
+- filename: debank-official-api-openapi.yml
+  format: yaml
+  label: DeBank Official API
+  slug: debank-official-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-official-api-openapi.yml
+- filename: debank-pool-api-openapi.yml
+  format: yaml
+  label: DeBank Pool API
+  slug: debank-pool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-pool-api-openapi.yml
+- filename: debank-protocol-api-openapi.yml
+  format: yaml
+  label: DeBank Protocol API
+  slug: debank-protocol-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-protocol-api-openapi.yml
+- filename: debank-token-api-openapi.yml
+  format: yaml
+  label: DeBank Token API
+  slug: debank-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-token-api-openapi.yml
+- filename: debank-user-api-openapi.yml
+  format: yaml
+  label: DeBank User API
+  slug: debank-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-user-api-openapi.yml
+- filename: debank-wallet-api-openapi.yml
+  format: yaml
+  label: DeBank Wallet API
+  slug: debank-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-wallet-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -44,6 +44,36 @@ api_specs:
   slug: electricitymaps-zones-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-zones-api-openapi.yml
+- filename: electricitymaps-carbonintensity-api-openapi.yml
+  format: yaml
+  label: Electricity Maps Carbon Intensity API
+  slug: electricitymaps-carbonintensity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-carbonintensity-api-openapi.yml
+- filename: electricitymaps-electricitymix-api-openapi.yml
+  format: yaml
+  label: Electricity Maps Electricity Mix API
+  slug: electricitymaps-electricitymix-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-electricitymix-api-openapi.yml
+- filename: electricitymaps-gridmetrics-api-openapi.yml
+  format: yaml
+  label: Electricity Maps Grid Metrics API
+  slug: electricitymaps-gridmetrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-gridmetrics-api-openapi.yml
+- filename: electricitymaps-pricing-api-openapi.yml
+  format: yaml
+  label: Electricity Maps Pricing API
+  slug: electricitymaps-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-pricing-api-openapi.yml
+- filename: electricitymaps-renewables-api-openapi.yml
+  format: yaml
+  label: Electricity Maps Renewables API
+  slug: electricitymaps-renewables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-renewables-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: amuncore-dynamic-api-openapi.yml
+- filename: amuncore-dynamic-api-api-openapi.yml
   format: yaml
-  label: AmunCore API
-  slug: amuncore-api
+  label: AmunCore Dynamic API
+  slug: amuncore-dynamic-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/openapi/amuncore-dynamic-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/openapi/amuncore-dynamic-api-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: columbia-library-hours-openapi.yml
+- filename: columbia-locations-api-openapi.yml
   format: yaml
-  label: Columbia University Libraries Hours API
-  slug: library-hours
+  label: Columbia University Locations API
+  slug: columbia-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/openapi/columbia-library-hours-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/openapi/columbia-locations-api-openapi.yml
 auth_types: []
 description: 'How authentication works across the surfaces Columbia University operates. The shape of this file is the shape of the institution: one small API that needs no credential at all, and an otherwise complete estate that is reachable only with a Columbia UNI. There is no API key, no OAuth client registration, no developer account and no self-service path to any Columbia surface for a caller who is not affiliated with the university.'
 kind: authentication

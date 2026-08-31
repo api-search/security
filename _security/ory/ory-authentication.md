@@ -68,78 +68,72 @@ api_specs:
   slug: ory-wellknown-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-wellknown-api-openapi.yml
-- filename: ory-network-billing-api-openapi.yml
+- filename: ory-billing-api-openapi.yml
   format: yaml
   label: Ory Billing API
-  slug: ory-network-billing-api
+  slug: ory-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-billing-api-openapi.yml
-- filename: ory-network-courier-api-openapi.yml
-  format: yaml
-  label: Ory Courier API
-  slug: ory-network-courier-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-courier-api-openapi.yml
-- filename: ory-network-event-streams-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-billing-api-openapi.yml
+- filename: ory-event-streams-api-openapi.yml
   format: yaml
   label: Ory Event Streams API
-  slug: ory-network-event-streams-api
+  slug: ory-event-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-event-streams-api-openapi.yml
-- filename: ory-network-identity-admin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-event-streams-api-openapi.yml
+- filename: ory-identity-admin-api-openapi.yml
   format: yaml
   label: Ory Identity (Admin) API
-  slug: ory-network-identity-admin-api
+  slug: ory-identity-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-identity-admin-api-openapi.yml
-- filename: ory-network-identity-self-service-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-identity-admin-api-openapi.yml
+- filename: ory-identity-self-service-api-openapi.yml
   format: yaml
   label: Ory Identity (Self-Service) API
-  slug: ory-network-identity-self-service-api
+  slug: ory-identity-self-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-identity-self-service-api-openapi.yml
-- filename: ory-network-oauth2-admin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-identity-self-service-api-openapi.yml
+- filename: ory-oauth2-admin-api-openapi.yml
   format: yaml
   label: Ory OAuth2 (Admin) API
-  slug: ory-network-oauth2-admin-api
+  slug: ory-oauth2-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-oauth2-admin-api-openapi.yml
-- filename: ory-network-oauth2-public-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-oauth2-admin-api-openapi.yml
+- filename: ory-oauth2-public-api-openapi.yml
   format: yaml
   label: Ory OAuth2 (Public) API
-  slug: ory-network-oauth2-public-api
+  slug: ory-oauth2-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-oauth2-public-api-openapi.yml
-- filename: ory-network-organizations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-oauth2-public-api-openapi.yml
+- filename: ory-organizations-api-openapi.yml
   format: yaml
   label: Ory Organizations API
-  slug: ory-network-organizations-api
+  slug: ory-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-organizations-api-openapi.yml
-- filename: ory-network-permissions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-organizations-api-openapi.yml
+- filename: ory-permissions-api-openapi.yml
   format: yaml
   label: Ory Permissions API
-  slug: ory-network-permissions-api
+  slug: ory-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-permissions-api-openapi.yml
-- filename: ory-network-project-tokens-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-permissions-api-openapi.yml
+- filename: ory-project-tokens-api-openapi.yml
   format: yaml
   label: Ory Project Tokens API
-  slug: ory-network-project-tokens-api
+  slug: ory-project-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-project-tokens-api-openapi.yml
-- filename: ory-network-projects-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-project-tokens-api-openapi.yml
+- filename: ory-projects-api-openapi.yml
   format: yaml
   label: Ory Projects API
-  slug: ory-network-projects-api
+  slug: ory-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-projects-api-openapi.yml
-- filename: ory-network-relationships-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-projects-api-openapi.yml
+- filename: ory-relationships-api-openapi.yml
   format: yaml
   label: Ory Relationships API
-  slug: ory-network-relationships-api
+  slug: ory-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-network-relationships-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-relationships-api-openapi.yml
 auth_types:
 - apiKey
 - http

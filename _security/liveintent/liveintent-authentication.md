@@ -2,18 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: liveintent-audiences-openapi.yml
+- filename: liveintent-api-references-api-openapi.yml
+  format: yaml
+  label: LiveIntent API references API
+  slug: liveintent-api-references-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-api-references-api-openapi.yml
+- filename: liveintent-audiences-api-openapi.yml
   format: yaml
   label: LiveIntent Audiences API
-  slug: audiences
+  slug: liveintent-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-audiences-openapi.yml
-- filename: liveintent-privacy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-audiences-api-openapi.yml
+- filename: liveintent-eventtrackers-api-openapi.yml
   format: yaml
-  label: LiveIntent Privacy Management API
-  slug: privacy
+  label: LiveIntent Eventtrackers API
+  slug: liveintent-eventtrackers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-privacy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-eventtrackers-api-openapi.yml
+- filename: liveintent-legacy-api-openapi.yml
+  format: yaml
+  label: LiveIntent Legacy API
+  slug: liveintent-legacy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-legacy-api-openapi.yml
+- filename: liveintent-search-api-openapi.yml
+  format: yaml
+  label: LiveIntent Search API
+  slug: liveintent-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-search-api-openapi.yml
+- filename: liveintent-trackers-api-openapi.yml
+  format: yaml
+  label: LiveIntent Trackers API
+  slug: liveintent-trackers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-trackers-api-openapi.yml
+- filename: liveintent-urltrackers-api-openapi.yml
+  format: yaml
+  label: LiveIntent Urltrackers API
+  slug: liveintent-urltrackers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-urltrackers-api-openapi.yml
 auth_types:
 - apiKey
 - http

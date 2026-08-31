@@ -25,24 +25,12 @@ api_specs:
   slug: gradle-comparison-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/openapi/gradle-comparison-api-openapi.yml
-- filename: gradle-develocity-api-openapi.yml
-  format: yaml
-  label: Gradle Develocity API
-  slug: gradle-develocity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/openapi/gradle-develocity-api-openapi.yml
 - filename: gradle-failures-api-openapi.yml
   format: yaml
   label: Gradle Failures API
   slug: gradle-failures-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/openapi/gradle-failures-api-openapi.yml
-- filename: gradle-gradleenterprise-api-openapi.yml
-  format: yaml
-  label: Gradle GradleEnterprise API
-  slug: gradle-gradleenterprise-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/openapi/gradle-gradleenterprise-api-openapi.yml
 - filename: gradle-meta-api-openapi.yml
   format: yaml
   label: Gradle Meta API

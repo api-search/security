@@ -1,23 +1,41 @@
 ---
 api_specs:
-- filename: tata-communications-number-intelligence-api.json
-  format: json
-  label: Number Intelligence API
+- filename: tata-communications-cdr-by-customer-message-id-api-openapi.yml
+  format: yaml
+  label: Tata Communications CDR by Customer Message Id API
+  slug: tata-communications-cdr-by-customer-message-id-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/openapi/tata-communications-cdr-by-customer-message-id-api-openapi.yml
+- filename: tata-communications-destination-api-openapi.yml
+  format: yaml
+  label: Tata Communications Destination API
+  slug: tata-communications-destination-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/openapi/tata-communications-destination-api-openapi.yml
+- filename: tata-communications-number-intelligence-api-openapi.yml
+  format: yaml
+  label: Tata Communications Number Intelligence API
   slug: tata-communications-number-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/openapi/tata-communications-number-intelligence-api.json
-- filename: tata-communications-mobile-messaging-exchange-account-administration.json
-  format: json
-  label: Mobile Messaging Exchange - Account Administration
-  slug: tata-communications-mobile-messaging-exchange-account-administration
+  url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/openapi/tata-communications-number-intelligence-api-openapi.yml
+- filename: tata-communications-report-api-openapi.yml
+  format: yaml
+  label: Tata Communications Report API
+  slug: tata-communications-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/openapi/tata-communications-mobile-messaging-exchange-account-administration.json
-- filename: tata-communications-mobile-messaging-exchange-cdr-report-api.json
-  format: json
-  label: Mobile Messaging Exchange - CDR Report API
-  slug: tata-communications-mobile-messaging-exchange-cdr-report-api
+  url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/openapi/tata-communications-report-api-openapi.yml
+- filename: tata-communications-senderid-api-openapi.yml
+  format: yaml
+  label: Tata Communications Sender ID API
+  slug: tata-communications-senderid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/openapi/tata-communications-mobile-messaging-exchange-cdr-report-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/openapi/tata-communications-senderid-api-openapi.yml
+- filename: tata-communications-top-25-cdr-by-account-id-time-frame-api-openapi.yml
+  format: yaml
+  label: Tata Communications TOP 25 CDR by account Id & Time Frame API
+  slug: tata-communications-top-25-cdr-by-account-id-time-frame-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/openapi/tata-communications-top-25-cdr-by-account-id-time-frame-api-openapi.yml
 description: ''
 domains:
 - caa: []

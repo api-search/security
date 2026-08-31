@@ -140,12 +140,18 @@ api_specs:
   slug: stedi-eligibility-pdf-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/openapi/stedi-eligibility-pdf-api-openapi.yml
-- filename: stedi-event-destinations-api-openapi.yml
+- filename: stedi-destinations-api-openapi.yml
   format: yaml
-  label: Stedi Event Destinations API
-  slug: stedi-event-destinations-api
+  label: Stedi Destinations API
+  slug: stedi-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/openapi/stedi-event-destinations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/openapi/stedi-destinations-api-openapi.yml
+- filename: stedi-eligibility-check-api-openapi.yml
+  format: yaml
+  label: Stedi Eligibility Check API
+  slug: stedi-eligibility-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/openapi/stedi-eligibility-check-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

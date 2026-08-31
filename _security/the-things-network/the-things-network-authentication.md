@@ -352,41 +352,71 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-usersessionregistry-api-openapi.yml
 auth_types:
 - apiKey
-description: ''
+- oauth2
+- http
+description: 'The Things Stack supports three caller identities — API keys, OAuth 2.0 access tokens, and browser session cookies — plus two link credentials used by infrastructure rather than by people. All of them resolve to the same authorization model: a list of Rights (see scopes/the-things-network-scopes.yml) checked per RPC. The harvested OpenAPI declares only ApiKeyAuth because the gRPC-gateway generator does not emit the OAuth flows; this file is the searched superset.'
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: The Things Network Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: The Things Network / The Things Stack secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+overview: The Things Network / The Things Stack secures its APIs with apiKey, oauth2, and http across 5 declared security schemes, as derived from its OpenAPI definitions.
 provider_name: The Things Network / The Things Stack
 provider_slug: the-things-network
-scheme_count: 1
+scheme_count: 5
 schemes:
-- description: 'Bearer API key. Set Authorization: Bearer NNSXS.xxxxxxxxxx.'
+- description: 'The most common method. An API key is a three-part dotted string — token-type (5 chars, fixed "NNSXS", base32 for "key"), token-id (39 chars), token-secret (52 chars). Keys carry an explicit Rights list and, by default, NO expiry — an expiry must be set explicitly at create or update time. Keys are revoked by deleting them. Scoped variants exist per entity: user, application, gateway and organization API keys.'
+  expiry_default: none
+  format: Bearer NNSXS.<token-id>.<token-secret>
   in: header
   name: ApiKeyAuth
   parameter: Authorization
+  revocation: delete the key
+  rights_model: explicit Rights list per key
   sources:
-  - openapi/the-things-stack-application-server-openapi.yml
-  - openapi/the-things-stack-end-device-registry-openapi.yml
-  - openapi/the-things-stack-events-openapi.yml
-  - openapi/the-things-stack-gateway-server-openapi.yml
-  - openapi/the-things-stack-identity-server-openapi.yml
-  - openapi/the-things-stack-integrations-openapi.yml
-  - openapi/the-things-stack-join-server-openapi.yml
-  - openapi/the-things-stack-network-server-openapi.yml
-  - openapi/the-things-stack-packet-broker-agent-openapi.yml
+  - openapi/
+  - https://www.thethingsindustries.com/docs/api/concepts/auth/
+  type: apiKey
+- authorization_endpoint: https://eu1.cloud.thethings.network/oauth/authorize
+  description: The Things Stack Identity Server is an OAuth 2.0 authorization server. Third-party applications register as OAuth clients (ClientRegistry) and receive access tokens scoped to a Rights list. Used by the Console, the CLI (ttn-lw-cli login) and third-party integrations. User accounts live in the eu1 cluster, so all OAuth flows go through eu1.
+  flow: authorization_code
+  name: OAuth2
+  probe:
+    note: redirects to /oauth/login — endpoint is live
+    status: 302
+    url: https://eu1.cloud.thethings.network/oauth/authorize
+  scopes_artifact: scopes/the-things-network-scopes.yml
+  token_endpoint: https://eu1.cloud.thethings.network/oauth/token
+  type: oauth2
+- description: Browser session cookies issued by the Account app, used by the Console. Session TTL is configurable since v3.36.1 (is.user-login.session-ttl). Not intended for machine callers.
+  in: cookie
+  name: SessionCookie
+  type: http
+- description: An API-key-only credential that lets an application link to the Network Server for traffic exchange (read uplink, write downlink). Not grantable to an OAuth token.
+  in: header
+  name: ApplicationLink
+  parameter: Authorization
+  right: RIGHT_APPLICATION_LINK
+  type: apiKey
+- description: An API-key-only credential a gateway uses to link to the Gateway Server (write uplink, read downlink). Gateways may also authenticate with gateway tokens or, for BasicStation, via CUPS/LNS credentials.
+  in: header
+  name: GatewayLink
+  parameter: Authorization
+  right: RIGHT_GATEWAY_LINK
   type: apiKey
 slug: the-things-network-authentication
 source_filename: the-things-network-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/the-things-stack-application-server-openapi.yml, openapi/the-things-stack-end-device-registry-openapi.yml,\n  openapi/the-things-stack-events-openapi.yml, openapi/the-things-stack-gateway-server-openapi.yml,\n  openapi/the-things-stack-identity-server-openapi.yml, openapi/the-things-stack-integrations-openapi.yml,\n  openapi/the-things-stack-join-server-openapi.yml, openapi/the-things-stack-network-server-openapi.yml,\n  openapi/the-things-stack-packet-broker-agent-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Bearer API key. Set Authorization: Bearer NNSXS.xxxxxxxxxx.'\n  sources:\n  - openapi/the-things-stack-application-server-openapi.yml\n  - openapi/the-things-stack-end-device-registry-openapi.yml\n  - openapi/the-things-stack-events-openapi.yml\n  - openapi/the-things-stack-gateway-server-openapi.yml\n\
-  \  - openapi/the-things-stack-identity-server-openapi.yml\n  - openapi/the-things-stack-integrations-openapi.yml\n  - openapi/the-things-stack-join-server-openapi.yml\n  - openapi/the-things-stack-network-server-openapi.yml\n  - openapi/the-things-stack-packet-broker-agent-openapi.yml\n"
+source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  https://www.thethingsindustries.com/docs/api/concepts/auth/ ,\n  https://www.thethingsindustries.com/docs/concepts/ttn/addresses/ ,\n  https://github.com/TheThingsNetwork/lorawan-stack/blob/v3.36.2/api/ttn/lorawan/v3/rights.proto ,\n  live probe of https://eu1.cloud.thethings.network/api/v3/users/me ,\n  openapi/ (58 documents, ApiKeyAuth securityScheme)\ndocs: https://www.thethingsindustries.com/docs/api/concepts/auth/\naid: the-things-network\nname: The Things Stack — Authentication\ndescription: >-\n  The Things Stack supports three caller identities — API keys, OAuth 2.0 access tokens, and\n  browser session cookies — plus two link credentials used by infrastructure rather than by\n  people. All of them resolve to the same authorization model: a list of Rights (see\n  scopes/the-things-network-scopes.yml) checked per RPC. The harvested OpenAPI declares only\n  ApiKeyAuth because the gRPC-gateway generator does not\
+  \ emit the OAuth flows; this file is the\n  searched superset.\nsummary:\n  types: [apiKey, oauth2, http]\n  api_key_in: [header]\n  primary: apiKey\nbase_urls:\n  - https://eu1.cloud.thethings.network/api/v3\n  - https://nam1.cloud.thethings.network/api/v3\n  - https://au1.cloud.thethings.network/api/v3\n  - note: >-\n      Identity Server APIs (users, applications, gateways, organizations, API keys) are served\n      ONLY from eu1 on The Things Stack Sandbox. Requests to nam1/au1 for those services fail.\n      Application/Network/Join Server APIs are available on every regional cluster. The Things\n      Stack Cloud tenants use https://<tenant-id>.<cluster>.cloud.thethings.industries/api/v3.\n    source: https://www.thethingsindustries.com/docs/concepts/ttn/addresses/\nschemes:\n  - name: ApiKeyAuth\n    type: apiKey\n    in: header\n    parameter: Authorization\n    format: 'Bearer NNSXS.<token-id>.<token-secret>'\n    description: >-\n      The most common method. An API key is a\
+  \ three-part dotted string — token-type (5 chars,\n      fixed \"NNSXS\", base32 for \"key\"), token-id (39 chars), token-secret (52 chars). Keys carry\n      an explicit Rights list and, by default, NO expiry — an expiry must be set explicitly at\n      create or update time. Keys are revoked by deleting them. Scoped variants exist per entity:\n      user, application, gateway and organization API keys.\n    expiry_default: none\n    revocation: delete the key\n    rights_model: explicit Rights list per key\n    sources: [openapi/, https://www.thethingsindustries.com/docs/api/concepts/auth/]\n  - name: OAuth2\n    type: oauth2\n    flow: authorization_code\n    authorization_endpoint: https://eu1.cloud.thethings.network/oauth/authorize\n    token_endpoint: https://eu1.cloud.thethings.network/oauth/token\n    description: >-\n      The Things Stack Identity Server is an OAuth 2.0 authorization server. Third-party\n      applications register as OAuth clients (ClientRegistry) and receive\
+  \ access tokens scoped\n      to a Rights list. Used by the Console, the CLI (ttn-lw-cli login) and third-party\n      integrations. User accounts live in the eu1 cluster, so all OAuth flows go through eu1.\n    scopes_artifact: scopes/the-things-network-scopes.yml\n    probe:\n      url: https://eu1.cloud.thethings.network/oauth/authorize\n      status: 302\n      note: redirects to /oauth/login — endpoint is live\n  - name: SessionCookie\n    type: http\n    in: cookie\n    description: >-\n      Browser session cookies issued by the Account app, used by the Console. Session TTL is\n      configurable since v3.36.1 (is.user-login.session-ttl). Not intended for machine callers.\n  - name: ApplicationLink\n    type: apiKey\n    in: header\n    parameter: Authorization\n    right: RIGHT_APPLICATION_LINK\n    description: >-\n      An API-key-only credential that lets an application link to the Network Server for traffic\n      exchange (read uplink, write downlink). Not grantable to an\
+  \ OAuth token.\n  - name: GatewayLink\n    type: apiKey\n    in: header\n    parameter: Authorization\n    right: RIGHT_GATEWAY_LINK\n    description: >-\n      An API-key-only credential a gateway uses to link to the Gateway Server (write uplink, read\n      downlink). Gateways may also authenticate with gateway tokens or, for BasicStation, via\n      CUPS/LNS credentials.\nmfa:\n  documented: false\n  note: No multi-factor requirement is documented for the API surface itself.\nobserved_response:\n  url: https://eu1.cloud.thethings.network/api/v3/users/me\n  status: 401\n  www_authenticate: 'error:pkg/identityserver:unauthenticated (unauthenticated)'\n  note: >-\n    Anonymous request returns HTTP 401 with a ttn.lorawan.v3.ErrorDetails body and a correlation\n    id. The WWW-Authenticate header carries the namespaced error name rather than an RFC 7235\n    challenge scheme.\nsecurity_notes:\n  - API keys have no expiry unless one is set — the docs say so explicitly.\n  - >-\n    Pseudo-rights\
+  \ (RIGHT_*_ALL) expand to all future rights on that entity, so a key granted\n    RIGHT_APPLICATION_ALL widens automatically as the API grows.\n  - >-\n    The webhook surface can carry a \"Downlink API key\" and optional HTTP Basic credentials so a\n    third-party endpoint can schedule downlinks without embedding a full key.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/authentication/the-things-network-authentication.yml
-summary_line: apiKey · 1 scheme
+summary_line: apiKey/oauth2/http · 5 schemes
 tags:
 - LoRaWAN
 - IoT

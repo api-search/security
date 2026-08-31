@@ -3,12 +3,168 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: affise-openapi.yml
+- filename: affise-admin-adcosts-api-openapi.yml
   format: yaml
-  label: Affise Performance API
-  slug: affise-performance-api
+  label: Affise Admin Adcosts API
+  slug: affise-admin-adcosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-adcosts-api-openapi.yml
+- filename: affise-admin-advertisers-api-openapi.yml
+  format: yaml
+  label: Affise Admin Advertisers API
+  slug: affise-admin-advertisers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-advertisers-api-openapi.yml
+- filename: affise-admin-affiliates-api-openapi.yml
+  format: yaml
+  label: Affise Admin Affiliates API
+  slug: affise-admin-affiliates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-affiliates-api-openapi.yml
+- filename: affise-admin-automation-api-openapi.yml
+  format: yaml
+  label: Affise Admin Automation API
+  slug: affise-admin-automation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-automation-api-openapi.yml
+- filename: affise-admin-billing-api-openapi.yml
+  format: yaml
+  label: Affise Admin Billing API
+  slug: affise-admin-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-billing-api-openapi.yml
+- filename: affise-admin-conversions-api-openapi.yml
+  format: yaml
+  label: Affise Admin Conversions API
+  slug: affise-admin-conversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-conversions-api-openapi.yml
+- filename: affise-admin-offers-api-openapi.yml
+  format: yaml
+  label: Affise Admin Offers API
+  slug: affise-admin-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-offers-api-openapi.yml
+- filename: affise-admin-other-api-openapi.yml
+  format: yaml
+  label: Affise Admin Other API
+  slug: affise-admin-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-other-api-openapi.yml
+- filename: affise-admin-payments-api-openapi.yml
+  format: yaml
+  label: Affise Admin Payments API
+  slug: affise-admin-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-payments-api-openapi.yml
+- filename: affise-admin-presets-api-openapi.yml
+  format: yaml
+  label: Affise Admin Presets API
+  slug: affise-admin-presets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-presets-api-openapi.yml
+- filename: affise-admin-smartlinks-api-openapi.yml
+  format: yaml
+  label: Affise Admin Smartlinks API
+  slug: affise-admin-smartlinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-smartlinks-api-openapi.yml
+- filename: affise-admin-stats-api-openapi.yml
+  format: yaml
+  label: Affise Admin Stats API
+  slug: affise-admin-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-stats-api-openapi.yml
+- filename: affise-admin-tickets-api-openapi.yml
+  format: yaml
+  label: Affise Admin Tickets API
+  slug: affise-admin-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-tickets-api-openapi.yml
+- filename: affise-admin-users-api-openapi.yml
+  format: yaml
+  label: Affise Admin Users API
+  slug: affise-admin-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-users-api-openapi.yml
+- filename: affise-advertiser-auth-api-openapi.yml
+  format: yaml
+  label: Affise Advertiser Auth API
+  slug: affise-advertiser-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-advertiser-auth-api-openapi.yml
+- filename: affise-advertiser-offers-api-openapi.yml
+  format: yaml
+  label: Affise Advertiser Offers API
+  slug: affise-advertiser-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-advertiser-offers-api-openapi.yml
+- filename: affise-advertiser-stats-api-openapi.yml
+  format: yaml
+  label: Affise Advertiser Stats API
+  slug: affise-advertiser-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-advertiser-stats-api-openapi.yml
+- filename: affise-affiliate-conversions-api-openapi.yml
+  format: yaml
+  label: Affise Affiliate Conversions API
+  slug: affise-affiliate-conversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-conversions-api-openapi.yml
+- filename: affise-affiliate-news-api-openapi.yml
+  format: yaml
+  label: Affise Affiliate News API
+  slug: affise-affiliate-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-news-api-openapi.yml
+- filename: affise-affiliate-offers-api-openapi.yml
+  format: yaml
+  label: Affise Affiliate Offers API
+  slug: affise-affiliate-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-offers-api-openapi.yml
+- filename: affise-affiliate-other-api-openapi.yml
+  format: yaml
+  label: Affise Affiliate Other API
+  slug: affise-affiliate-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-other-api-openapi.yml
+- filename: affise-affiliate-pixels-api-openapi.yml
+  format: yaml
+  label: Affise Affiliate Pixels API
+  slug: affise-affiliate-pixels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-pixels-api-openapi.yml
+- filename: affise-affiliate-postbacks-api-openapi.yml
+  format: yaml
+  label: Affise Affiliate Postbacks API
+  slug: affise-affiliate-postbacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-postbacks-api-openapi.yml
+- filename: affise-affiliate-profile-api-openapi.yml
+  format: yaml
+  label: Affise Affiliate Profile API
+  slug: affise-affiliate-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-profile-api-openapi.yml
+- filename: affise-affiliate-smartlinks-api-openapi.yml
+  format: yaml
+  label: Affise Affiliate Smartlinks API
+  slug: affise-affiliate-smartlinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-smartlinks-api-openapi.yml
+- filename: affise-affiliate-stats-api-openapi.yml
+  format: yaml
+  label: Affise Affiliate Stats API
+  slug: affise-affiliate-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-stats-api-openapi.yml
+- filename: affise-resources-api-openapi.yml
+  format: yaml
+  label: Affise Resources API
+  slug: affise-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-resources-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

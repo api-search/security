@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tandoor-api-openapi.yml
+- filename: tandoor-api-api-openapi.yml
   format: yaml
-  label: Tandoor API
-  slug: tandoor-api
+  label: Tandoor Recipes API
+  slug: tandoor-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/openapi/tandoor-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/openapi/tandoor-api-api-openapi.yml
+- filename: tandoor-api-token-auth-api-openapi.yml
+  format: yaml
+  label: Tandoor Recipes API Token Auth API
+  slug: tandoor-api-token-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/openapi/tandoor-api-token-auth-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

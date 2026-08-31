@@ -1,23 +1,29 @@
 ---
 api_specs:
-- filename: america-movil-claro-sim-swap-openapi.json
-  format: json
-  label: Claro SIM Swap API
-  slug: claro-sim-swap-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/openapi/america-movil-claro-sim-swap-openapi.json
-- filename: america-movil-claro-device-location-openapi.json
-  format: json
-  label: Claro Device Location API
-  slug: claro-device-location-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/openapi/america-movil-claro-device-location-openapi.json
-- filename: america-movil-claro-device-location-verify-camara-openapi.yaml
+- filename: america-movil-check-sim-swap-api-openapi.yml
   format: yaml
-  label: Claro Device Location Verify API
-  slug: claro-device-location-verify-api
+  label: América Móvil Check SIM swap API
+  slug: america-movil-check-sim-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/openapi/america-movil-claro-device-location-verify-camara-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/openapi/america-movil-check-sim-swap-api-openapi.yml
+- filename: america-movil-device-locations-api-openapi.yml
+  format: yaml
+  label: América Móvil Device Locations API
+  slug: america-movil-device-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/openapi/america-movil-device-locations-api-openapi.yml
+- filename: america-movil-location-verification-api-openapi.yml
+  format: yaml
+  label: América Móvil Location verification API
+  slug: america-movil-location-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/openapi/america-movil-location-verification-api-openapi.yml
+- filename: america-movil-retrieve-sim-swap-date-api-openapi.yml
+  format: yaml
+  label: América Móvil Retrieve SIM swap date API
+  slug: america-movil-retrieve-sim-swap-date-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/openapi/america-movil-retrieve-sim-swap-date-api-openapi.yml
 description: ''
 domains:
 - caa: []

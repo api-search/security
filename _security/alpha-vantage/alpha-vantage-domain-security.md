@@ -6,6 +6,12 @@ api_specs:
   slug: alpha-vantage-stock-time-series-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpha-vantage/refs/heads/main/openapi/alpha-vantage-stock-time-series-api-openapi.yml
+- filename: alpha-vantage-query-api-openapi.yml
+  format: yaml
+  label: Alpha Vantage Query API
+  slug: alpha-vantage-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpha-vantage/refs/heads/main/openapi/alpha-vantage-query-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openadr-3-1-1-openapi.yaml
+- filename: openadr-alliance-auth-api-openapi.yml
   format: yaml
-  label: OpenADR 3 API
-  slug: openadr-3-api
+  label: OpenADR Alliance Auth API
+  slug: openadr-alliance-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-3-1-1-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-auth-api-openapi.yml
+- filename: openadr-alliance-events-api-openapi.yml
+  format: yaml
+  label: OpenADR Alliance Events API
+  slug: openadr-alliance-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-events-api-openapi.yml
+- filename: openadr-alliance-mqtt-notifier-api-openapi.yml
+  format: yaml
+  label: OpenADR Alliance MQTT Notifier API
+  slug: openadr-alliance-mqtt-notifier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-mqtt-notifier-api-openapi.yml
+- filename: openadr-alliance-notifiers-api-openapi.yml
+  format: yaml
+  label: OpenADR Alliance Notifiers API
+  slug: openadr-alliance-notifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-notifiers-api-openapi.yml
+- filename: openadr-alliance-programs-api-openapi.yml
+  format: yaml
+  label: OpenADR Alliance Programs API
+  slug: openadr-alliance-programs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-programs-api-openapi.yml
+- filename: openadr-alliance-reports-api-openapi.yml
+  format: yaml
+  label: OpenADR Alliance Reports API
+  slug: openadr-alliance-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-reports-api-openapi.yml
+- filename: openadr-alliance-resources-api-openapi.yml
+  format: yaml
+  label: OpenADR Alliance Resources API
+  slug: openadr-alliance-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-resources-api-openapi.yml
+- filename: openadr-alliance-subscriptions-api-openapi.yml
+  format: yaml
+  label: OpenADR Alliance Subscriptions API
+  slug: openadr-alliance-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-subscriptions-api-openapi.yml
+- filename: openadr-alliance-vens-api-openapi.yml
+  format: yaml
+  label: OpenADR Alliance Vens API
+  slug: openadr-alliance-vens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-vens-api-openapi.yml
 auth_types:
 - http
 - oauth2

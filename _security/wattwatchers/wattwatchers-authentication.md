@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: wattwatchers-rest-api-v3-openapi.json
-  format: json
-  label: Wattwatchers REST API v3 (Mercury)
-  slug: wattwatchers-rest-api-v3
+- filename: wattwatchers-devices-api-openapi.yml
+  format: yaml
+  label: Wattwatchers Devices API
+  slug: wattwatchers-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/openapi/wattwatchers-rest-api-v3-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/openapi/wattwatchers-devices-api-openapi.yml
+- filename: wattwatchers-long-energy-api-openapi.yml
+  format: yaml
+  label: Wattwatchers Long Energy API
+  slug: wattwatchers-long-energy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/openapi/wattwatchers-long-energy-api-openapi.yml
+- filename: wattwatchers-modbus-api-openapi.yml
+  format: yaml
+  label: Wattwatchers Modbus API
+  slug: wattwatchers-modbus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/openapi/wattwatchers-modbus-api-openapi.yml
+- filename: wattwatchers-short-energy-api-openapi.yml
+  format: yaml
+  label: Wattwatchers Short Energy API
+  slug: wattwatchers-short-energy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/openapi/wattwatchers-short-energy-api-openapi.yml
 auth_types:
 - http
 description: 'Wattwatchers REST API v3 (Mercury) uses a single authentication mechanism: an HTTP Bearer token ("API key") issued by hand by Wattwatchers. There is no OAuth, no OpenID Connect, no mTLS and no scope surface. Authorization is not expressed in the token — it is expressed as the SET OF DEVICES Wattwatchers assigns to that key, plus coarse permission levels (added in v3.5) that control whether the key may change device metadata and/or configuration. Derived from the OpenAPI securityScheme and upgraded from the published auth page.'

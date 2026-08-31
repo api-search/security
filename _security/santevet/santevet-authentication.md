@@ -2,18 +2,162 @@
 api_key_in:
 - header
 api_specs:
-- filename: santevet-toolkit-openapi.yml
+- filename: santevet-appareil-api-openapi.yml
   format: yaml
-  label: SantéVet Toolkit API
-  slug: santevet-toolkit
+  label: SantéVet Appareil API
+  slug: santevet-appareil-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-toolkit-openapi.yml
-- filename: santevet-reimbursement-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-appareil-api-openapi.yml
+- filename: santevet-civilite-api-openapi.yml
+  format: yaml
+  label: SantéVet Civilite API
+  slug: santevet-civilite-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-civilite-api-openapi.yml
+- filename: santevet-contratraisonannulation-api-openapi.yml
+  format: yaml
+  label: SantéVet Contrat Raison Annulation API
+  slug: santevet-contratraisonannulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-contratraisonannulation-api-openapi.yml
+- filename: santevet-espece-api-openapi.yml
+  format: yaml
+  label: SantéVet Espece API
+  slug: santevet-espece-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-espece-api-openapi.yml
+- filename: santevet-fractionnement-api-openapi.yml
+  format: yaml
+  label: SantéVet Fractionnement API
+  slug: santevet-fractionnement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-fractionnement-api-openapi.yml
+- filename: santevet-langue-api-openapi.yml
+  format: yaml
+  label: SantéVet Langue API
+  slug: santevet-langue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-langue-api-openapi.yml
+- filename: santevet-motifnonremboursement-api-openapi.yml
+  format: yaml
+  label: SantéVet Motif Non Remboursement API
+  slug: santevet-motifnonremboursement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-motifnonremboursement-api-openapi.yml
+- filename: santevet-motifperiode-api-openapi.yml
+  format: yaml
+  label: SantéVet Motif Periode API
+  slug: santevet-motifperiode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-motifperiode-api-openapi.yml
+- filename: santevet-originecommerciale-api-openapi.yml
+  format: yaml
+  label: SantéVet Origine Commerciale API
+  slug: santevet-originecommerciale-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-originecommerciale-api-openapi.yml
+- filename: santevet-origineconnaissance-api-openapi.yml
+  format: yaml
+  label: SantéVet Origine Connaissance API
+  slug: santevet-origineconnaissance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-origineconnaissance-api-openapi.yml
+- filename: santevet-pays-api-openapi.yml
+  format: yaml
+  label: SantéVet Pays API
+  slug: santevet-pays-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-pays-api-openapi.yml
+- filename: santevet-race-api-openapi.yml
+  format: yaml
+  label: SantéVet Race API
+  slug: santevet-race-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-race-api-openapi.yml
+- filename: santevet-reimbursement-api-openapi.yml
   format: yaml
   label: SantéVet Reimbursement API
-  slug: santevet-reimbursement
+  slug: santevet-reimbursement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-reimbursement-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-reimbursement-api-openapi.yml
+- filename: santevet-sinistremotifretour-api-openapi.yml
+  format: yaml
+  label: SantéVet Sinistre Motif Retour API
+  slug: santevet-sinistremotifretour-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-sinistremotifretour-api-openapi.yml
+- filename: santevet-statutsocialpartenaire-api-openapi.yml
+  format: yaml
+  label: SantéVet Statut Social Partenaire API
+  slug: santevet-statutsocialpartenaire-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-statutsocialpartenaire-api-openapi.yml
+- filename: santevet-svdefcontratassurance-api-openapi.yml
+  format: yaml
+  label: SantéVet Sv Def Contrat Assurance API
+  slug: santevet-svdefcontratassurance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-svdefcontratassurance-api-openapi.yml
+- filename: santevet-svdefoptionappliqueeaudefcontrat-api-openapi.yml
+  format: yaml
+  label: SantéVet Sv Def Option Appliquee Au Def Contrat API
+  slug: santevet-svdefoptionappliqueeaudefcontrat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-svdefoptionappliqueeaudefcontrat-api-openapi.yml
+- filename: santevet-svgrouperace-api-openapi.yml
+  format: yaml
+  label: SantéVet Sv Groupe Race API
+  slug: santevet-svgrouperace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-svgrouperace-api-openapi.yml
+- filename: santevet-svmarquetel-api-openapi.yml
+  format: yaml
+  label: SantéVet Sv Marque Tel API
+  slug: santevet-svmarquetel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-svmarquetel-api-openapi.yml
+- filename: santevet-svpromo-api-openapi.yml
+  format: yaml
+  label: SantéVet Sv Promo API
+  slug: santevet-svpromo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-svpromo-api-openapi.yml
+- filename: santevet-svtarifscontrat-api-openapi.yml
+  format: yaml
+  label: SantéVet Sv Tarifs Contrat API
+  slug: santevet-svtarifscontrat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-svtarifscontrat-api-openapi.yml
+- filename: santevet-typeidentifiantofficielpartenaire-api-openapi.yml
+  format: yaml
+  label: SantéVet Type Identifiant Officiel Partenaire API
+  slug: santevet-typeidentifiantofficielpartenaire-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-typeidentifiantofficielpartenaire-api-openapi.yml
+- filename: santevet-typeoption-api-openapi.yml
+  format: yaml
+  label: SantéVet Type Option API
+  slug: santevet-typeoption-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-typeoption-api-openapi.yml
+- filename: santevet-typepartenaire-api-openapi.yml
+  format: yaml
+  label: SantéVet Type Partenaire API
+  slug: santevet-typepartenaire-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-typepartenaire-api-openapi.yml
+- filename: santevet-typereglement-api-openapi.yml
+  format: yaml
+  label: SantéVet Type Reglement API
+  slug: santevet-typereglement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-typereglement-api-openapi.yml
+- filename: santevet-typesinistre-api-openapi.yml
+  format: yaml
+  label: SantéVet Type Sinistre API
+  slug: santevet-typesinistre-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-typesinistre-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,35 +1,41 @@
 ---
 api_specs:
-- filename: coviu-rest-api-openapi.json
-  format: json
-  label: Coviu Sessions API
-  slug: coviu-sessions-api
+- filename: coviu-auth-api-openapi.yml
+  format: yaml
+  label: Coviu Auth API
+  slug: coviu-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-rest-api-openapi.json
-- filename: coviu-rest-api-openapi.json
-  format: json
-  label: Coviu Participants API
-  slug: coviu-participants-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-rest-api-openapi.json
-- filename: coviu-rest-api-openapi.json
-  format: json
-  label: Coviu Waiting Area API
-  slug: coviu-waiting-area-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-rest-api-openapi.json
-- filename: coviu-rest-api-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-auth-api-openapi.yml
+- filename: coviu-collections-api-openapi.yml
+  format: yaml
   label: Coviu Collections API
   slug: coviu-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-rest-api-openapi.json
-- filename: coviu-rest-api-openapi.json
-  format: json
-  label: Coviu Webhooks
-  slug: coviu-webhooks
+  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-collections-api-openapi.yml
+- filename: coviu-participants-api-openapi.yml
+  format: yaml
+  label: Coviu Participants API
+  slug: coviu-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-rest-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-participants-api-openapi.yml
+- filename: coviu-sessions-api-openapi.yml
+  format: yaml
+  label: Coviu Sessions API
+  slug: coviu-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-sessions-api-openapi.yml
+- filename: coviu-waiting-area-api-openapi.yml
+  format: yaml
+  label: Coviu Waiting Area API
+  slug: coviu-waiting-area-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-waiting-area-api-openapi.yml
+- filename: coviu-webhook-requests-api-openapi.yml
+  format: yaml
+  label: Coviu Webhook Requests API
+  slug: coviu-webhook-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-webhook-requests-api-openapi.yml
 certifications:
 - ISO 27001
 - HIPAA

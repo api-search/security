@@ -1,18 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cosmoplat-iot-platform-openapi.yml
-  format: yaml
-  label: COSMOPlat IoT Platform OpenAPI
-  slug: cosmoplat-iot-platform-openapi
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-iot-platform-openapi.yml
 - filename: cosmoplat-iot-telemetry-asyncapi.yml
   format: yaml
   label: COSMOPlat IoT Telemetry (MQTT)
   slug: cosmoplat-iot-telemetry-mqtt
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/asyncapi/cosmoplat-iot-telemetry-asyncapi.yml
+- filename: cosmoplat-alarm-records-api-openapi.yml
+  format: yaml
+  label: Cosmoplat Alarm Records API
+  slug: cosmoplat-alarm-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-alarm-records-api-openapi.yml
+- filename: cosmoplat-alarm-rules-api-openapi.yml
+  format: yaml
+  label: Cosmoplat Alarm Rules API
+  slug: cosmoplat-alarm-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-alarm-rules-api-openapi.yml
+- filename: cosmoplat-attribute-data-api-openapi.yml
+  format: yaml
+  label: Cosmoplat Attribute Data API
+  slug: cosmoplat-attribute-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-attribute-data-api-openapi.yml
+- filename: cosmoplat-device-management-api-openapi.yml
+  format: yaml
+  label: Cosmoplat Device Management API
+  slug: cosmoplat-device-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-device-management-api-openapi.yml
+- filename: cosmoplat-device-rpc-api-openapi.yml
+  format: yaml
+  label: Cosmoplat Device RPC API
+  slug: cosmoplat-device-rpc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-device-rpc-api-openapi.yml
+- filename: cosmoplat-product-management-api-openapi.yml
+  format: yaml
+  label: Cosmoplat Product Management API
+  slug: cosmoplat-product-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-product-management-api-openapi.yml
+- filename: cosmoplat-rule-chains-api-openapi.yml
+  format: yaml
+  label: Cosmoplat Rule Chains API
+  slug: cosmoplat-rule-chains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-rule-chains-api-openapi.yml
+- filename: cosmoplat-thing-model-telemetry-profile-api-openapi.yml
+  format: yaml
+  label: Cosmoplat Thing Model (Telemetry Profile) API
+  slug: cosmoplat-thing-model-telemetry-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-thing-model-telemetry-profile-api-openapi.yml
+- filename: cosmoplat-time-series-data-api-openapi.yml
+  format: yaml
+  label: Cosmoplat Time-series Data API
+  slug: cosmoplat-time-series-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/openapi/cosmoplat-time-series-data-api-openapi.yml
 auth_types:
 - userPassword
 - deviceToken

@@ -1,35 +1,53 @@
 ---
 api_specs:
-- filename: landmark-information-order-experience-api-openapi.yml
+- filename: landmark-information-activities-api-openapi.yml
   format: yaml
-  label: Landmark Order Experience API
-  slug: landmark-order-experience-api
+  label: Landmark Information Group Activities API
+  slug: landmark-information-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-order-experience-api-openapi.yml
-- filename: landmark-information-conveyancing-experience-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-activities-api-openapi.yml
+- filename: landmark-information-cases-api-openapi.yml
   format: yaml
-  label: Landmark Conveyancing Experience API
-  slug: landmark-conveyancing-experience-api
+  label: Landmark Information Group Cases API
+  slug: landmark-information-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-conveyancing-experience-api-openapi.yml
-- filename: landmark-information-intelliworks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-cases-api-openapi.yml
+- filename: landmark-information-document-vaults-api-openapi.yml
   format: yaml
-  label: Landmark Intelliworks APIs
-  slug: landmark-intelliworks-api
+  label: Landmark Information Group Document Vaults API
+  slug: landmark-information-document-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-intelliworks-api-openapi.yml
-- filename: landmark-information-document-vault-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-document-vaults-api-openapi.yml
+- filename: landmark-information-documents-api-openapi.yml
   format: yaml
-  label: Landmark Document Vault API
-  slug: landmark-document-vault-api
+  label: Landmark Information Group Documents API
+  slug: landmark-information-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-document-vault-api-openapi.yml
-- filename: landmark-information-milestone-notification-service-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-documents-api-openapi.yml
+- filename: landmark-information-milestones-api-openapi.yml
   format: yaml
-  label: Landmark Milestone Notification Service API
-  slug: landmark-milestone-notification-service-api
+  label: Landmark Information Group Milestones API
+  slug: landmark-information-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-milestone-notification-service-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-milestones-api-openapi.yml
+- filename: landmark-information-order-experience-api-api-openapi.yml
+  format: yaml
+  label: Landmark Information Group Order Experience API
+  slug: landmark-information-order-experience-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-order-experience-api-api-openapi.yml
+- filename: landmark-information-quotes-api-openapi.yml
+  format: yaml
+  label: Landmark Information Group Quotes API
+  slug: landmark-information-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-quotes-api-openapi.yml
+- filename: landmark-information-transaction-requests-api-openapi.yml
+  format: yaml
+  label: Landmark Information Group Transaction Requests API
+  slug: landmark-information-transaction-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-transaction-requests-api-openapi.yml
 description: ''
 domains:
 - caa: []

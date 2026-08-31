@@ -15,8 +15,8 @@ layout: security
 method: probed
 name: News Corporation Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for news-corporation, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC present, SPF absent, DMARC absent.'
-provider_name: news-corporation
+overview: 'Domain security posture for News Corporation, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC present, SPF absent, DMARC absent.'
+provider_name: News Corporation
 provider_slug: news-corporation
 slug: news-corporation-domain-security
 source_filename: news-corporation-domain-security.yml

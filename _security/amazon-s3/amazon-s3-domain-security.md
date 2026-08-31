@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: amazon-s3-tables-api-openapi.yml
-  format: yaml
-  label: Amazon S3 Tables API
-  slug: amazon-s3-tables-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-tables-api-openapi.yml
 - filename: amazon-s3-access-control-api-openapi.yml
   format: yaml
   label: Amazon S3 Access Control API
@@ -54,12 +48,6 @@ api_specs:
   slug: amazon-s3-multipart-upload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-multipart-upload-api-openapi.yml
-- filename: amazon-s3-namespaces-api-openapi.yml
-  format: yaml
-  label: Amazon S3 Namespaces API
-  slug: amazon-s3-namespaces-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-namespaces-api-openapi.yml
 - filename: amazon-s3-objects-api-openapi.yml
   format: yaml
   label: Amazon S3 Objects API
@@ -78,24 +66,6 @@ api_specs:
   slug: amazon-s3-storage-lens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-storage-lens-api-openapi.yml
-- filename: amazon-s3-table-buckets-api-openapi.yml
-  format: yaml
-  label: Amazon S3 Table Buckets API
-  slug: amazon-s3-table-buckets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-table-buckets-api-openapi.yml
-- filename: amazon-s3-table-maintenance-api-openapi.yml
-  format: yaml
-  label: Amazon S3 Table Maintenance API
-  slug: amazon-s3-table-maintenance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-table-maintenance-api-openapi.yml
-- filename: amazon-s3-table-policy-api-openapi.yml
-  format: yaml
-  label: Amazon S3 Table Policy API
-  slug: amazon-s3-table-policy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-table-policy-api-openapi.yml
 - filename: amazon-s3-tagging-api-openapi.yml
   format: yaml
   label: Amazon S3 Tagging API

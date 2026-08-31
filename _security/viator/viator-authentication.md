@@ -3,60 +3,108 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: viator-partner-api-v2-openapi.json
-  format: json
-  label: Viator Partner Products API
-  slug: viator-partner-products-api
+- filename: viator-attraction-services-api-openapi.yml
+  format: yaml
+  label: Viator Attraction services API
+  slug: viator-attraction-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-partner-api-v2-openapi.json
-- filename: viator-partner-api-v2-openapi.json
-  format: json
-  label: Viator Partner Availability API
-  slug: viator-partner-availability-api
+  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-attraction-services-api-openapi.yml
+- filename: viator-attractions-api-openapi.yml
+  format: yaml
+  label: Viator Attractions API
+  slug: viator-attractions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-partner-api-v2-openapi.json
-- filename: viator-partner-api-v2-openapi.json
-  format: json
-  label: Viator Partner Bookings API
-  slug: viator-partner-bookings-api
+  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-attractions-api-openapi.yml
+- filename: viator-auxiliary-api-openapi.yml
+  format: yaml
+  label: Viator Auxiliary API
+  slug: viator-auxiliary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-partner-api-v2-openapi.json
-- filename: viator-partner-api-v2-openapi.json
-  format: json
-  label: Viator Partner Payments API
-  slug: viator-partner-payments-api
+  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-auxiliary-api-openapi.yml
+- filename: viator-availability-api-openapi.yml
+  format: yaml
+  label: Viator Availability API
+  slug: viator-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-partner-api-v2-openapi.json
-- filename: viator-partner-api-v2-openapi.json
-  format: json
-  label: Viator Partner Attractions API
-  slug: viator-partner-attractions-api
+  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-availability-api-openapi.yml
+- filename: viator-booking-services-api-openapi.yml
+  format: yaml
+  label: Viator Booking services API
+  slug: viator-booking-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-partner-api-v2-openapi.json
-- filename: viator-partner-api-v2-openapi.json
-  format: json
-  label: Viator Partner Auxiliary API
-  slug: viator-partner-auxiliary-api
+  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-booking-services-api-openapi.yml
+- filename: viator-bookings-api-openapi.yml
+  format: yaml
+  label: Viator Bookings API
+  slug: viator-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-partner-api-v2-openapi.json
-- filename: viator-reservation-system-api-openapi.json
-  format: json
-  label: Viator Reservation System API
-  slug: viator-reservation-system-api
+  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-bookings-api-openapi.yml
+- filename: viator-deprecated-api-openapi.yml
+  format: yaml
+  label: Viator Deprecated API
+  slug: viator-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-reservation-system-api-openapi.json
-- filename: viator-merchant-api-v1-openapi.json
-  format: json
-  label: Viator Merchant API v1
-  slug: viator-merchant-api-v1
+  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-deprecated-api-openapi.yml
+- filename: viator-deprecated-services-api-openapi.yml
+  format: yaml
+  label: Viator Deprecated services API
+  slug: viator-deprecated-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-merchant-api-v1-openapi.json
-- filename: viator-affiliate-api-v1-openapi.json
-  format: json
-  label: Viator Affiliate API v1
-  slug: viator-affiliate-api-v1
+  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-deprecated-services-api-openapi.yml
+- filename: viator-general-services-api-openapi.yml
+  format: yaml
+  label: Viator General services API
+  slug: viator-general-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-affiliate-api-v1-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-general-services-api-openapi.yml
+- filename: viator-payments-api-openapi.yml
+  format: yaml
+  label: Viator Payments API
+  slug: viator-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-payments-api-openapi.yml
+- filename: viator-product-services-api-openapi.yml
+  format: yaml
+  label: Viator Product services API
+  slug: viator-product-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-product-services-api-openapi.yml
+- filename: viator-products-api-openapi.yml
+  format: yaml
+  label: Viator Products API
+  slug: viator-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-products-api-openapi.yml
+- filename: viator-reservation-system-apis-api-openapi.yml
+  format: yaml
+  label: Viator Reservation system APIs API
+  slug: viator-reservation-system-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-reservation-system-apis-api-openapi.yml
+- filename: viator-support-services-api-openapi.yml
+  format: yaml
+  label: Viator Support services API
+  slug: viator-support-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-support-services-api-openapi.yml
+- filename: viator-taxonomy-services-api-openapi.yml
+  format: yaml
+  label: Viator Taxonomy services API
+  slug: viator-taxonomy-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-taxonomy-services-api-openapi.yml
+- filename: viator-utility-services-api-openapi.yml
+  format: yaml
+  label: Viator Utility services API
+  slug: viator-utility-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-utility-services-api-openapi.yml
+- filename: viator-viator-apis-api-openapi.yml
+  format: yaml
+  label: Viator Viator APIs API
+  slug: viator-viator-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-viator-apis-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

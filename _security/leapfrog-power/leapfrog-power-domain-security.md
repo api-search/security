@@ -1,53 +1,71 @@
 ---
 api_specs:
-- filename: leapfrog-power-create-meters-openapi.yml
+- filename: leapfrog-power-create-meters-api-openapi.yml
   format: yaml
-  label: Leap Create Meters API
+  label: Leap create meters API
   slug: leapfrog-power-create-meters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/openapi/leapfrog-power-create-meters-openapi.yml
-- filename: leapfrog-power-meter-enrollment-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/openapi/leapfrog-power-create-meters-api-openapi.yml
+- filename: leapfrog-power-group-dispatches-api-openapi.yml
   format: yaml
-  label: Leap Meter Enrollment API
-  slug: leapfrog-power-meter-enrollment-api
+  label: Leap Group Dispatches API
+  slug: leapfrog-power-group-dispatches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/openapi/leapfrog-power-meter-enrollment-openapi.yml
-- filename: leapfrog-power-meter-details-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/openapi/leapfrog-power-group-dispatches-api-openapi.yml
+- filename: leapfrog-power-interval-data-upload-api-openapi.yml
+  format: yaml
+  label: Leap Interval Data Upload API
+  slug: leapfrog-power-interval-data-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/openapi/leapfrog-power-interval-data-upload-api-openapi.yml
+- filename: leapfrog-power-meter-details-api-openapi.yml
   format: yaml
   label: Leap Meter Details API
   slug: leapfrog-power-meter-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/openapi/leapfrog-power-meter-details-openapi.yml
-- filename: leapfrog-power-nominations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/openapi/leapfrog-power-meter-details-api-openapi.yml
+- filename: leapfrog-power-meter-dispatches-api-openapi.yml
   format: yaml
-  label: Leap Meter Nomination API
+  label: Leap Meter Dispatches API
+  slug: leapfrog-power-meter-dispatches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/openapi/leapfrog-power-meter-dispatches-api-openapi.yml
+- filename: leapfrog-power-meter-enrollment-api-openapi.yml
+  format: yaml
+  label: Leap meter enrollment API
+  slug: leapfrog-power-meter-enrollment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/openapi/leapfrog-power-meter-enrollment-api-openapi.yml
+- filename: leapfrog-power-nominations-api-openapi.yml
+  format: yaml
+  label: Leap Nominations API
   slug: leapfrog-power-nominations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/openapi/leapfrog-power-nominations-openapi.yml
-- filename: leapfrog-power-dispatch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/openapi/leapfrog-power-nominations-api-openapi.yml
+- filename: leapfrog-power-performance-api-openapi.yml
   format: yaml
-  label: Leap Dispatch API
-  slug: leapfrog-power-dispatch-api
+  label: Leap Performance API
+  slug: leapfrog-power-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/openapi/leapfrog-power-dispatch-openapi.yml
-- filename: leapfrog-power-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/openapi/leapfrog-power-performance-api-openapi.yml
+- filename: leapfrog-power-provisional-assets-api-openapi.yml
   format: yaml
-  label: Leap Webhook Subscription API
+  label: Leap provisional assets API
+  slug: leapfrog-power-provisional-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/openapi/leapfrog-power-provisional-assets-api-openapi.yml
+- filename: leapfrog-power-revenue-api-openapi.yml
+  format: yaml
+  label: Leap Revenue API
+  slug: leapfrog-power-revenue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/openapi/leapfrog-power-revenue-api-openapi.yml
+- filename: leapfrog-power-webhooks-api-openapi.yml
+  format: yaml
+  label: Leap Webhooks API
   slug: leapfrog-power-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/openapi/leapfrog-power-webhooks-openapi.yml
-- filename: leapfrog-power-revenue-analytics-openapi.yml
-  format: yaml
-  label: Leap Revenue and Analytics API
-  slug: leapfrog-power-revenue-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/openapi/leapfrog-power-revenue-analytics-openapi.yml
-- filename: leapfrog-power-interval-data-upload-openapi.json
-  format: json
-  label: Leap Interval Data Upload API
-  slug: leapfrog-power-interval-data-upload-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/openapi/leapfrog-power-interval-data-upload-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/openapi/leapfrog-power-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

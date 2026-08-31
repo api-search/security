@@ -16,8 +16,8 @@ method: derived
 name: Home Depot Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: home-depot secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: home-depot
+overview: The Home Depot secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: The Home Depot
 provider_slug: home-depot
 scheme_count: 1
 schemes:

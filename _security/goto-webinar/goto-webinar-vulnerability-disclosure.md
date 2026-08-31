@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: goto-webinar-openapi.yml
-  format: yaml
-  label: GoTo Webinar REST API v2
-  slug: rest-api-v2
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goto-webinar/refs/heads/main/openapi/_original/goto-webinar-openapi.yml
 - filename: goto-webinar-attendees-api-openapi.yml
   format: yaml
   label: GoTo Webinar Attendees API

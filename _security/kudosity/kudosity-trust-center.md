@@ -1,17 +1,77 @@
 ---
 api_specs:
-- filename: kudosity-transmit-message-openapi-original.yml
+- filename: kudosity-account-api-openapi.yml
   format: yaml
-  label: Transmit Message API
-  slug: transmit-message-api
+  label: Kudosity Account API
+  slug: kudosity-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-transmit-message-openapi-original.yml
-- filename: kudosity-transmit-sms-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-account-api-openapi.yml
+- filename: kudosity-contacts-lists-api-openapi.yml
   format: yaml
-  label: Transmit SMS API
-  slug: transmit-sms-api
+  label: Kudosity Contacts & Lists API
+  slug: kudosity-contacts-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-transmit-sms-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-contacts-lists-api-openapi.yml
+- filename: kudosity-email-sms-api-openapi.yml
+  format: yaml
+  label: Kudosity Email SMS API
+  slug: kudosity-email-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-email-sms-api-openapi.yml
+- filename: kudosity-keywords-api-openapi.yml
+  format: yaml
+  label: Kudosity Keywords API
+  slug: kudosity-keywords-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-keywords-api-openapi.yml
+- filename: kudosity-mms-api-openapi.yml
+  format: yaml
+  label: Kudosity MMS API
+  slug: kudosity-mms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-mms-api-openapi.yml
+- filename: kudosity-numbers-api-openapi.yml
+  format: yaml
+  label: Kudosity Numbers API
+  slug: kudosity-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-numbers-api-openapi.yml
+- filename: kudosity-rcs-api-openapi.yml
+  format: yaml
+  label: Kudosity RCS API
+  slug: kudosity-rcs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-rcs-api-openapi.yml
+- filename: kudosity-reporting-api-openapi.yml
+  format: yaml
+  label: Kudosity Reporting API
+  slug: kudosity-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-reporting-api-openapi.yml
+- filename: kudosity-senders-api-openapi.yml
+  format: yaml
+  label: Kudosity Senders API
+  slug: kudosity-senders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-senders-api-openapi.yml
+- filename: kudosity-sms-api-openapi.yml
+  format: yaml
+  label: Kudosity SMS API
+  slug: kudosity-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-sms-api-openapi.yml
+- filename: kudosity-webhook-api-openapi.yml
+  format: yaml
+  label: Kudosity Webhook API
+  slug: kudosity-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-webhook-api-openapi.yml
+- filename: kudosity-whatsapp-api-openapi.yml
+  format: yaml
+  label: Kudosity Whats App API
+  slug: kudosity-whatsapp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-whatsapp-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

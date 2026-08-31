@@ -1,17 +1,59 @@
 ---
 api_specs:
-- filename: icon-aircraft-content-api-openapi.yml
-  format: yaml
-  label: ICON Aircraft Content API
-  slug: icon-aircraft-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icon-aircraft/refs/heads/main/openapi/icon-aircraft-content-api-openapi.yml
 - filename: icon-aircraft-store-api-openapi.yml
   format: yaml
   label: Shop ICON Storefront API
   slug: icon-aircraft-store-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/icon-aircraft/refs/heads/main/openapi/icon-aircraft-store-api-openapi.yml
+- filename: icon-aircraft-catalog-api-openapi.yml
+  format: yaml
+  label: ICON Aircraft Catalog API
+  slug: icon-aircraft-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/icon-aircraft/refs/heads/main/openapi/icon-aircraft-catalog-api-openapi.yml
+- filename: icon-aircraft-collections-api-openapi.yml
+  format: yaml
+  label: ICON Aircraft Collections API
+  slug: icon-aircraft-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/icon-aircraft/refs/heads/main/openapi/icon-aircraft-collections-api-openapi.yml
+- filename: icon-aircraft-discovery-api-openapi.yml
+  format: yaml
+  label: ICON Aircraft Discovery API
+  slug: icon-aircraft-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/icon-aircraft/refs/heads/main/openapi/icon-aircraft-discovery-api-openapi.yml
+- filename: icon-aircraft-media-api-openapi.yml
+  format: yaml
+  label: ICON Aircraft Media API
+  slug: icon-aircraft-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/icon-aircraft/refs/heads/main/openapi/icon-aircraft-media-api-openapi.yml
+- filename: icon-aircraft-pages-api-openapi.yml
+  format: yaml
+  label: ICON Aircraft Pages API
+  slug: icon-aircraft-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/icon-aircraft/refs/heads/main/openapi/icon-aircraft-pages-api-openapi.yml
+- filename: icon-aircraft-posts-api-openapi.yml
+  format: yaml
+  label: ICON Aircraft Posts API
+  slug: icon-aircraft-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/icon-aircraft/refs/heads/main/openapi/icon-aircraft-posts-api-openapi.yml
+- filename: icon-aircraft-search-api-openapi.yml
+  format: yaml
+  label: ICON Aircraft Search API
+  slug: icon-aircraft-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/icon-aircraft/refs/heads/main/openapi/icon-aircraft-search-api-openapi.yml
+- filename: icon-aircraft-taxonomy-api-openapi.yml
+  format: yaml
+  label: ICON Aircraft Taxonomy API
+  slug: icon-aircraft-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/icon-aircraft/refs/heads/main/openapi/icon-aircraft-taxonomy-api-openapi.yml
 description: ''
 domains:
 - caa: []

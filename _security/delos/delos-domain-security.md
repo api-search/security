@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: delos-wellcube-cloud-be-openapi.yml
+- filename: delos-actions-api-openapi.yml
   format: yaml
-  label: WellCube Cloud BE API
-  slug: wellcube-cloud-be-api
+  label: Delos Actions API
+  slug: delos-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-wellcube-cloud-be-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-actions-api-openapi.yml
+- filename: delos-admin-installations-api-openapi.yml
+  format: yaml
+  label: Delos Admin/installations API
+  slug: delos-admin-installations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-admin-installations-api-openapi.yml
+- filename: delos-admin-products-api-openapi.yml
+  format: yaml
+  label: Delos Admin/products API
+  slug: delos-admin-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-admin-products-api-openapi.yml
+- filename: delos-admin-products-bundles-api-openapi.yml
+  format: yaml
+  label: Delos Admin/products Bundles API
+  slug: delos-admin-products-bundles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-admin-products-bundles-api-openapi.yml
+- filename: delos-admin-users-api-openapi.yml
+  format: yaml
+  label: Delos Admin/users API
+  slug: delos-admin-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-admin-users-api-openapi.yml
+- filename: delos-global-api-openapi.yml
+  format: yaml
+  label: Delos Global API
+  slug: delos-global-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-global-api-openapi.yml
+- filename: delos-installations-api-openapi.yml
+  format: yaml
+  label: Delos Installations API
+  slug: delos-installations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-installations-api-openapi.yml
+- filename: delos-local-accounts-api-openapi.yml
+  format: yaml
+  label: Delos Local Accounts API
+  slug: delos-local-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-local-accounts-api-openapi.yml
+- filename: delos-products-api-openapi.yml
+  format: yaml
+  label: Delos Products API
+  slug: delos-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-products-api-openapi.yml
+- filename: delos-sessions-api-openapi.yml
+  format: yaml
+  label: Delos Sessions API
+  slug: delos-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-sessions-api-openapi.yml
+- filename: delos-users-api-openapi.yml
+  format: yaml
+  label: Delos Users API
+  slug: delos-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

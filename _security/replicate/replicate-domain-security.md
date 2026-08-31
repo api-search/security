@@ -42,18 +42,6 @@ api_specs:
   slug: replicate-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-models-api-openapi.yml
-- filename: replicate-name-api-openapi.yml
-  format: yaml
-  label: Replicate Name API
-  slug: replicate-name-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-name-api-openapi.yml
-- filename: replicate-owner-api-openapi.yml
-  format: yaml
-  label: Replicate Owner API
-  slug: replicate-owner-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-owner-api-openapi.yml
 - filename: replicate-predictions-api-openapi.yml
   format: yaml
   label: Replicate Predictions API
@@ -66,12 +54,6 @@ api_specs:
   slug: replicate-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-secrets-api-openapi.yml
-- filename: replicate-slug-api-openapi.yml
-  format: yaml
-  label: Replicate Slug API
-  slug: replicate-slug-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-slug-api-openapi.yml
 - filename: replicate-training-api-openapi.yml
   format: yaml
   label: Replicate Training API
@@ -84,18 +66,6 @@ api_specs:
   slug: replicate-trainings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-trainings-api-openapi.yml
-- filename: replicate-version-api-openapi.yml
-  format: yaml
-  label: Replicate Version API
-  slug: replicate-version-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-version-api-openapi.yml
-- filename: replicate-webhooks-api-openapi.yml
-  format: yaml
-  label: Replicate Webhooks API
-  slug: replicate-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

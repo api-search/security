@@ -52,8 +52,8 @@ method: derived
 name: Sensible So Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: sensible-so secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: sensible-so
+overview: Sensible secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Sensible
 provider_slug: sensible-so
 scheme_count: 1
 schemes:

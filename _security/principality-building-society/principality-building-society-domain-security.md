@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: obie-open-data-swagger.json
-  format: json
-  label: OBIE Open Data API (Shared Standard - Unverified for Principality)
-  slug: obie-open-data-api
+- filename: principality-building-society-atm-api-openapi.yml
+  format: yaml
+  label: Principality Building Society ATM API
+  slug: principality-building-society-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/principality-building-society/refs/heads/main/openapi/obie-open-data-swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/principality-building-society/refs/heads/main/openapi/principality-building-society-atm-api-openapi.yml
+- filename: principality-building-society-bca-api-openapi.yml
+  format: yaml
+  label: Principality Building Society BCA API
+  slug: principality-building-society-bca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/principality-building-society/refs/heads/main/openapi/principality-building-society-bca-api-openapi.yml
+- filename: principality-building-society-branch-api-openapi.yml
+  format: yaml
+  label: Principality Building Society Branch API
+  slug: principality-building-society-branch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/principality-building-society/refs/heads/main/openapi/principality-building-society-branch-api-openapi.yml
+- filename: principality-building-society-ccc-api-openapi.yml
+  format: yaml
+  label: Principality Building Society CCC API
+  slug: principality-building-society-ccc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/principality-building-society/refs/heads/main/openapi/principality-building-society-ccc-api-openapi.yml
+- filename: principality-building-society-pca-api-openapi.yml
+  format: yaml
+  label: Principality Building Society PCA API
+  slug: principality-building-society-pca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/principality-building-society/refs/heads/main/openapi/principality-building-society-pca-api-openapi.yml
+- filename: principality-building-society-sme-api-openapi.yml
+  format: yaml
+  label: Principality Building Society SME API
+  slug: principality-building-society-sme-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/principality-building-society/refs/heads/main/openapi/principality-building-society-sme-api-openapi.yml
 description: ''
 domains:
 - caa: []

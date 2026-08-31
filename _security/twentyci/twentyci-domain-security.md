@@ -1,59 +1,59 @@
 ---
 api_specs:
-- filename: twentyci-twentyapi-oauth-openapi.json
-  format: json
-  label: TwentyAPI OAuth Token API
-  slug: twentyapi-oauth-token-api
+- filename: twentyci-address-match-api-openapi.yml
+  format: yaml
+  label: TwentyCi Address Match API
+  slug: twentyci-address-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-twentyapi-oauth-openapi.json
-- filename: twentyci-twentyapi-openapi.json
-  format: json
-  label: TwentyAPI Properties API
-  slug: twentyapi-properties-api
+  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-address-match-api-openapi.yml
+- filename: twentyci-agent-performance-api-openapi.yml
+  format: yaml
+  label: TwentyCi Agent Performance API
+  slug: twentyci-agent-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-twentyapi-openapi.json
-- filename: twentyci-twentyapi-openapi.json
-  format: json
-  label: TwentyAPI Agent Performance API
-  slug: twentyapi-agent-performance-api
+  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-agent-performance-api-openapi.yml
+- filename: twentyci-authorisation-api-openapi.yml
+  format: yaml
+  label: TwentyCi Authorisation API
+  slug: twentyci-authorisation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-twentyapi-openapi.json
-- filename: twentyci-twentyapi-openapi.json
-  format: json
-  label: TwentyAPI Trigger Information API
-  slug: twentyapi-trigger-information-api
+  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-authorisation-api-openapi.yml
+- filename: twentyci-categories-api-openapi.yml
+  format: yaml
+  label: TwentyCi Categories API
+  slug: twentyci-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-twentyapi-openapi.json
-- filename: twentyci-twentyapi-openapi.json
-  format: json
-  label: TwentyAPI Categories API
-  slug: twentyapi-categories-api
+  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-categories-api-openapi.yml
+- filename: twentyci-properties-api-openapi.yml
+  format: yaml
+  label: TwentyCi Properties API
+  slug: twentyci-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-twentyapi-openapi.json
-- filename: twentyci-twentyapi-openapi.json
-  format: json
-  label: TwentyAPI Address Match API
-  slug: twentyapi-address-match-api
+  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-properties-api-openapi.yml
+- filename: twentyci-schools-api-openapi.yml
+  format: yaml
+  label: TwentyCi Schools API
+  slug: twentyci-schools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-twentyapi-openapi.json
-- filename: twentyci-twentyapi-openapi.json
-  format: json
-  label: TwentyAPI Schools API
-  slug: twentyapi-schools-api
+  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-schools-api-openapi.yml
+- filename: twentyci-this-is-now-retail-propensity-to-buy-goods-api-openapi.yml
+  format: yaml
+  label: TwentyCi This is Now | Retail Propensity To Buy Goods API
+  slug: twentyci-this-is-now-retail-propensity-to-buy-goods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-twentyapi-openapi.json
-- filename: twentyci-twentyapi-openapi.json
-  format: json
-  label: TwentyAPI UK Housing Market Metrics API
-  slug: twentyapi-uk-housing-market-metrics-api
+  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-this-is-now-retail-propensity-to-buy-goods-api-openapi.yml
+- filename: twentyci-trigger-information-api-openapi.yml
+  format: yaml
+  label: TwentyCi Trigger Information API
+  slug: twentyci-trigger-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-twentyapi-openapi.json
-- filename: twentyci-twentyapi-openapi.json
-  format: json
-  label: TwentyAPI This is Now API
-  slug: twentyapi-this-is-now-api
+  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-trigger-information-api-openapi.yml
+- filename: twentyci-uk-housing-market-metrics-api-openapi.yml
+  format: yaml
+  label: TwentyCi UK Housing Market Metrics API
+  slug: twentyci-uk-housing-market-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-twentyapi-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-uk-housing-market-metrics-api-openapi.yml
 description: ''
 domains:
 - caa: []

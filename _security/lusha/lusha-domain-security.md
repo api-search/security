@@ -78,6 +78,36 @@ api_specs:
   slug: lusha-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/openapi/lusha-account-api-openapi.yml
+- filename: lusha-account-management-api-openapi.yml
+  format: yaml
+  label: Lusha Account Management API
+  slug: lusha-account-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/openapi/lusha-account-management-api-openapi.yml
+- filename: lusha-company-filters-api-openapi.yml
+  format: yaml
+  label: Lusha Company Filters API
+  slug: lusha-company-filters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/openapi/lusha-company-filters-api-openapi.yml
+- filename: lusha-contact-filters-api-openapi.yml
+  format: yaml
+  label: Lusha Contact Filters API
+  slug: lusha-contact-filters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/openapi/lusha-contact-filters-api-openapi.yml
+- filename: lusha-enrichment-api-openapi.yml
+  format: yaml
+  label: Lusha Enrichment API
+  slug: lusha-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/openapi/lusha-enrichment-api-openapi.yml
+- filename: lusha-prospecting-search-enrich-api-openapi.yml
+  format: yaml
+  label: Lusha Prospecting - Search & Enrich API
+  slug: lusha-prospecting-search-enrich-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/openapi/lusha-prospecting-search-enrich-api-openapi.yml
 description: ''
 domains:
 - caa:

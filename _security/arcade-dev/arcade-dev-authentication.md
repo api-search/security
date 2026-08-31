@@ -59,8 +59,8 @@ method: derived
 name: Arcade Dev Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: arcade-dev secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: arcade-dev
+overview: Arcade.dev secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Arcade.dev
 provider_slug: arcade-dev
 scheme_count: 1
 schemes:

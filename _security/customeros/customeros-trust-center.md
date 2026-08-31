@@ -1,23 +1,65 @@
 ---
 api_specs:
-- filename: customeros-customerbase-openapi.yml
-  format: yaml
-  label: CustomerOS REST API
-  slug: customeros-customerbase-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-customerbase-openapi.yml
-- filename: customeros-flow-api-openapi.yml
-  format: yaml
-  label: CustomerOS Flow API
-  slug: customeros-flow-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-flow-api-openapi.yml
 - filename: customeros-graphql-api-openapi.yml
   format: yaml
   label: CustomerOS GraphQL API
   slug: customeros-graphql-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-graphql-api-openapi.yml
+- filename: customeros-billing-api-api-openapi.yml
+  format: yaml
+  label: CustomerOS Billing API
+  slug: customeros-billing-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-billing-api-api-openapi.yml
+- filename: customeros-customerbase-api-api-openapi.yml
+  format: yaml
+  label: CustomerOS CustomerBASE API
+  slug: customeros-customerbase-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-customerbase-api-api-openapi.yml
+- filename: customeros-domains-api-openapi.yml
+  format: yaml
+  label: CustomerOS Domains API
+  slug: customeros-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-domains-api-openapi.yml
+- filename: customeros-email-verification-api-openapi.yml
+  format: yaml
+  label: CustomerOS Email Verification API
+  slug: customeros-email-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-email-verification-api-openapi.yml
+- filename: customeros-enrichment-api-api-openapi.yml
+  format: yaml
+  label: CustomerOS Enrichment API
+  slug: customeros-enrichment-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-enrichment-api-api-openapi.yml
+- filename: customeros-flows-api-openapi.yml
+  format: yaml
+  label: CustomerOS Flows API
+  slug: customeros-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-flows-api-openapi.yml
+- filename: customeros-ip-intelligence-api-openapi.yml
+  format: yaml
+  label: CustomerOS IP Intelligence API
+  slug: customeros-ip-intelligence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-ip-intelligence-api-openapi.yml
+- filename: customeros-mailboxes-api-openapi.yml
+  format: yaml
+  label: CustomerOS Mailboxes API
+  slug: customeros-mailboxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-mailboxes-api-openapi.yml
+- filename: customeros-outreach-api-openapi.yml
+  format: yaml
+  label: CustomerOS Outreach API
+  slug: customeros-outreach-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-outreach-api-openapi.yml
 certifications:
 - CASA Type 2
 description: CustomerOS has no trust center in the usual sense — trust.customeros.ai and security.customeros.ai do not resolve, and customeros.ai/security and /trust return 404. What it does publish is a single Security & Compliance page inside the documentation, which names one real third-party certification and states a GDPR position. That page is the trust surface, so it is recorded as such.

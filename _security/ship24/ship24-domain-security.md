@@ -18,6 +18,12 @@ api_specs:
   slug: ship24-trackers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/openapi/ship24-trackers-api-openapi.yml
+- filename: ship24-ship24-tracking-api-api-openapi.yml
+  format: yaml
+  label: Ship24 Ship24 Tracking API
+  slug: ship24-ship24-tracking-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/openapi/ship24-ship24-tracking-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

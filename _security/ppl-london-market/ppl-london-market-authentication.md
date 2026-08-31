@@ -1,36 +1,84 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ppl-london-market-placements.json
-  format: json
-  label: PPL Placements API
-  slug: ppl-placements-api
+- filename: ppl-london-market-contract-api-openapi.yml
+  format: yaml
+  label: PPL Contract API
+  slug: ppl-london-market-contract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-placements.json
-- filename: ppl-london-market-submissions.json
-  format: json
-  label: PPL Submissions API
-  slug: ppl-submissions-api
+  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-contract-api-openapi.yml
+- filename: ppl-london-market-document-api-openapi.yml
+  format: yaml
+  label: PPL Document API
+  slug: ppl-london-market-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-submissions.json
-- filename: ppl-london-market-organisations.json
-  format: json
-  label: PPL Organisations API
-  slug: ppl-organisations-api
+  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-document-api-openapi.yml
+- filename: ppl-london-market-health-api-openapi.yml
+  format: yaml
+  label: PPL Health API
+  slug: ppl-london-market-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-organisations.json
-- filename: ppl-london-market-documents.json
-  format: json
-  label: PPL Documents API
-  slug: ppl-documents-api
+  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-health-api-openapi.yml
+- filename: ppl-london-market-negotiation-api-openapi.yml
+  format: yaml
+  label: PPL Negotiation API
+  slug: ppl-london-market-negotiation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-documents.json
-- filename: ppl-london-market-events.json
-  format: json
-  label: PPL Events API
-  slug: ppl-events-api
+  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-negotiation-api-openapi.yml
+- filename: ppl-london-market-notification-api-openapi.yml
+  format: yaml
+  label: PPL Notification API
+  slug: ppl-london-market-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-events.json
+  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-notification-api-openapi.yml
+- filename: ppl-london-market-organisation-api-openapi.yml
+  format: yaml
+  label: PPL Organisation API
+  slug: ppl-london-market-organisation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-organisation-api-openapi.yml
+- filename: ppl-london-market-participation-api-openapi.yml
+  format: yaml
+  label: PPL Participation API
+  slug: ppl-london-market-participation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-participation-api-openapi.yml
+- filename: ppl-london-market-placement-api-openapi.yml
+  format: yaml
+  label: PPL Placement API
+  slug: ppl-london-market-placement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-placement-api-openapi.yml
+- filename: ppl-london-market-programme-api-openapi.yml
+  format: yaml
+  label: PPL Programme API
+  slug: ppl-london-market-programme-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-programme-api-openapi.yml
+- filename: ppl-london-market-section-api-openapi.yml
+  format: yaml
+  label: PPL Section API
+  slug: ppl-london-market-section-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-section-api-openapi.yml
+- filename: ppl-london-market-submission-api-openapi.yml
+  format: yaml
+  label: PPL Submission API
+  slug: ppl-london-market-submission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-submission-api-openapi.yml
+- filename: ppl-london-market-transaction-api-openapi.yml
+  format: yaml
+  label: PPL Transaction API
+  slug: ppl-london-market-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-transaction-api-openapi.yml
+- filename: ppl-london-market-version-api-openapi.yml
+  format: yaml
+  label: PPL Version API
+  slug: ppl-london-market-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-version-api-openapi.yml
 auth_types:
 - oauth2
 - mutualTLS

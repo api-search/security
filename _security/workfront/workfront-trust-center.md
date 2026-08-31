@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: workfront-planning-v2-openapi.json
-  format: json
-  label: Adobe Workfront Planning API v2
-  slug: workfront-planning-api-v2
+- filename: workfront-fields-api-openapi.yml
+  format: yaml
+  label: Adobe Workfront Fields API
+  slug: workfront-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-planning-v2-openapi.json
-- filename: workfront-planning-v1-openapi.json
-  format: json
-  label: Adobe Workfront Planning API v1
-  slug: workfront-planning-api-v1
+  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-fields-api-openapi.yml
+- filename: workfront-permissions-api-openapi.yml
+  format: yaml
+  label: Adobe Workfront Permissions API
+  slug: workfront-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-planning-v1-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-permissions-api-openapi.yml
+- filename: workfront-record-types-api-openapi.yml
+  format: yaml
+  label: Adobe Workfront Record Types API
+  slug: workfront-record-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-record-types-api-openapi.yml
+- filename: workfront-records-api-openapi.yml
+  format: yaml
+  label: Adobe Workfront Records API
+  slug: workfront-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-records-api-openapi.yml
+- filename: workfront-views-api-openapi.yml
+  format: yaml
+  label: Adobe Workfront Views API
+  slug: workfront-views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-views-api-openapi.yml
+- filename: workfront-workspaces-api-openapi.yml
+  format: yaml
+  label: Adobe Workfront Workspaces API
+  slug: workfront-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-workspaces-api-openapi.yml
 certifications:
 - SOC 2 Type 2 (Security, Availability & Confidentiality)
 - SOC 3 (Security, Availability & Confidentiality)

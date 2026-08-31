@@ -1,29 +1,77 @@
 ---
 api_specs:
-- filename: bolt-financial-bolt-api-openapi.yml
+- filename: bolt-financial-account-api-openapi.yml
   format: yaml
-  label: Bolt API
-  slug: bolt-api
+  label: Bolt Financial Account API
+  slug: bolt-financial-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-bolt-api-openapi.yml
-- filename: bolt-financial-embeddable-checkout-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-account-api-openapi.yml
+- filename: bolt-financial-callbacks-api-openapi.yml
   format: yaml
-  label: Bolt Embeddable Checkout v1 API
-  slug: embeddable-checkout-v1
+  label: Bolt Financial Callbacks API
+  slug: bolt-financial-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-embeddable-checkout-v1-openapi.yml
-- filename: bolt-financial-embeddable-checkout-v3-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-callbacks-api-openapi.yml
+- filename: bolt-financial-configuration-api-openapi.yml
   format: yaml
-  label: Bolt Embeddable Checkout v3 API
-  slug: embeddable-checkout-v3
+  label: Bolt Financial Configuration API
+  slug: bolt-financial-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-embeddable-checkout-v3-openapi.yml
-- filename: bolt-financial-tokenizer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-configuration-api-openapi.yml
+- filename: bolt-financial-oauth-api-openapi.yml
   format: yaml
-  label: Bolt Tokenizer API
-  slug: tokenizer
+  label: Bolt Financial O Auth API
+  slug: bolt-financial-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-tokenizer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-oauth-api-openapi.yml
+- filename: bolt-financial-orders-api-openapi.yml
+  format: yaml
+  label: Bolt Financial Orders API
+  slug: bolt-financial-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-orders-api-openapi.yml
+- filename: bolt-financial-payments-api-openapi.yml
+  format: yaml
+  label: Bolt Financial Payments API
+  slug: bolt-financial-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-payments-api-openapi.yml
+- filename: bolt-financial-statements-api-openapi.yml
+  format: yaml
+  label: Bolt Financial Statements API
+  slug: bolt-financial-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-statements-api-openapi.yml
+- filename: bolt-financial-subscriptions-api-openapi.yml
+  format: yaml
+  label: Bolt Financial Subscriptions API
+  slug: bolt-financial-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-subscriptions-api-openapi.yml
+- filename: bolt-financial-testing-api-openapi.yml
+  format: yaml
+  label: Bolt Financial Testing API
+  slug: bolt-financial-testing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-testing-api-openapi.yml
+- filename: bolt-financial-tokenizer-api-openapi.yml
+  format: yaml
+  label: Bolt Financial Tokenizer API
+  slug: bolt-financial-tokenizer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-tokenizer-api-openapi.yml
+- filename: bolt-financial-transactions-api-openapi.yml
+  format: yaml
+  label: Bolt Financial Transactions API
+  slug: bolt-financial-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-transactions-api-openapi.yml
+- filename: bolt-financial-webhooks-api-openapi.yml
+  format: yaml
+  label: Bolt Financial Webhooks API
+  slug: bolt-financial-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

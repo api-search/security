@@ -51,8 +51,8 @@ layout: security
 method: probed
 name: Microsoft Azure Private Link Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for microsoft-azure-private-link, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: microsoft-azure-private-link
+overview: 'Domain security posture for Microsoft Azure Private Link, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Microsoft Azure Private Link
 provider_slug: microsoft-azure-private-link
 slug: microsoft-azure-private-link-domain-security
 source_filename: microsoft-azure-private-link-domain-security.yml

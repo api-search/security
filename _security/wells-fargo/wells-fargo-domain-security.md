@@ -67,8 +67,8 @@ layout: security
 method: probed
 name: Wells Fargo Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for wells-fargo, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: wells-fargo
+overview: 'Domain security posture for Wells Fargo, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Wells Fargo
 provider_slug: wells-fargo
 slug: wells-fargo-domain-security
 source_filename: wells-fargo-domain-security.yml

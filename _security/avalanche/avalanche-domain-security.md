@@ -132,6 +132,12 @@ api_specs:
   slug: avalanche-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/avalanche/refs/heads/main/openapi/avalanche-webhooks-api-openapi.yml
+- filename: avalanche-data-api-api-openapi.yml
+  format: yaml
+  label: Avalanche Data API
+  slug: avalanche-data-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalanche/refs/heads/main/openapi/avalanche-data-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

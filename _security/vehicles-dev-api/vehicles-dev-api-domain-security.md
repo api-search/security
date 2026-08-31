@@ -1,29 +1,11 @@
 ---
 api_specs:
-- filename: vehicles-dev-api-admin-api-openapi.yml
-  format: yaml
-  label: Vehicles.dev Admin API
-  slug: vehicles-dev-api-admin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/openapi/vehicles-dev-api-admin-api-openapi.yml
-- filename: vehicles-dev-api-billing-api-openapi.yml
-  format: yaml
-  label: Vehicles.dev Billing API
-  slug: vehicles-dev-api-billing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/openapi/vehicles-dev-api-billing-api-openapi.yml
 - filename: vehicles-dev-api-control-api-openapi.yml
   format: yaml
   label: Vehicles.dev Control API
   slug: vehicles-dev-api-control-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/openapi/vehicles-dev-api-control-api-openapi.yml
-- filename: vehicles-dev-api-data-api-openapi.yml
-  format: yaml
-  label: Vehicles.dev Data API
-  slug: vehicles-dev-api-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/openapi/vehicles-dev-api-data-api-openapi.yml
 - filename: vehicles-dev-api-employment-api-openapi.yml
   format: yaml
   label: Vehicles.dev Employment API
@@ -42,12 +24,6 @@ api_specs:
   slug: vehicles-dev-api-operator-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/openapi/vehicles-dev-api-operator-api-openapi.yml
-- filename: vehicles-dev-api-reports-api-openapi.yml
-  format: yaml
-  label: Vehicles.dev Reports API
-  slug: vehicles-dev-api-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/openapi/vehicles-dev-api-reports-api-openapi.yml
 - filename: vehicles-dev-api-vehicles-api-openapi.yml
   format: yaml
   label: Vehicles.dev Vehicles API

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: multiverse-computing-compactifai-openapi.yml
+- filename: multiverse-computing-audio-api-openapi.yml
   format: yaml
-  label: CompactifAI API
-  slug: multiverse-computing-compactifai-api
+  label: Multiverse Computing Audio API
+  slug: multiverse-computing-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/openapi/multiverse-computing-compactifai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/openapi/multiverse-computing-audio-api-openapi.yml
+- filename: multiverse-computing-batches-api-openapi.yml
+  format: yaml
+  label: Multiverse Computing Batches API
+  slug: multiverse-computing-batches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/openapi/multiverse-computing-batches-api-openapi.yml
+- filename: multiverse-computing-completions-api-openapi.yml
+  format: yaml
+  label: Multiverse Computing Completions API
+  slug: multiverse-computing-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/openapi/multiverse-computing-completions-api-openapi.yml
+- filename: multiverse-computing-files-api-openapi.yml
+  format: yaml
+  label: Multiverse Computing Files API
+  slug: multiverse-computing-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/openapi/multiverse-computing-files-api-openapi.yml
+- filename: multiverse-computing-model-info-api-openapi.yml
+  format: yaml
+  label: Multiverse Computing Model info API
+  slug: multiverse-computing-model-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/openapi/multiverse-computing-model-info-api-openapi.yml
+- filename: multiverse-computing-responses-api-openapi.yml
+  format: yaml
+  label: Multiverse Computing Responses API
+  slug: multiverse-computing-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/openapi/multiverse-computing-responses-api-openapi.yml
 description: ''
 domains:
 - caa: []

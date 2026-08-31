@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cloudwalk-infinitepay-checkout-openapi.yml
+- filename: cloudwalk-checkout-links-api-openapi.yml
   format: yaml
-  label: InfinitePay Checkout API
-  slug: infinitepay-checkout-api
+  label: CloudWalk Checkout Links API
+  slug: cloudwalk-checkout-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/openapi/cloudwalk-infinitepay-checkout-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/openapi/cloudwalk-checkout-links-api-openapi.yml
+- filename: cloudwalk-infinitepay-checkout-api-api-openapi.yml
+  format: yaml
+  label: CloudWalk InfinitePay Checkout API
+  slug: cloudwalk-infinitepay-checkout-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/openapi/cloudwalk-infinitepay-checkout-api-api-openapi.yml
+- filename: cloudwalk-payments-api-openapi.yml
+  format: yaml
+  label: CloudWalk Payments API
+  slug: cloudwalk-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/openapi/cloudwalk-payments-api-openapi.yml
 auth_types: []
 description: CloudWalk's public InfinitePay Checkout API has NO transport-level authentication. The mechanical derivation from the captured OpenAPI produced no security schemes because there are none to derive — the provider genuinely publishes an unauthenticated write endpoint. The merchant is identified by its InfiniteTag `handle` in the JSON request body, and the InfiniteTap FAQ states outright that no API key is needed to integrate. This is recorded as a finding, not a gap in our harvest.
 kind: authentication

@@ -41,8 +41,8 @@ method: derived
 name: Regal Entertainment Group Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: regal-entertainment-group secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: regal-entertainment-group
+overview: Regal Entertainment Group secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Regal Entertainment Group
 provider_slug: regal-entertainment-group
 scheme_count: 1
 schemes:

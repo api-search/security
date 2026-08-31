@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: navattic-website-openapi.json
-  format: json
-  label: Navattic API
-  slug: navattic-api
+- filename: navattic-health-api-openapi.yml
+  format: yaml
+  label: Navattic Health API
+  slug: navattic-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/openapi/navattic-website-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/openapi/navattic-health-api-openapi.yml
 description: ''
 domains:
 - caa:

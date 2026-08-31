@@ -13,24 +13,12 @@ api_specs:
   slug: energyx-pages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/openapi/energyx-pages-api-openapi.yml
-- filename: energyx-press-api-openapi.yml
-  format: yaml
-  label: EnergyX Press and News API
-  slug: energyx-press-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/openapi/energyx-press-api-openapi.yml
 - filename: energyx-leadership-api-openapi.yml
   format: yaml
   label: EnergyX Leadership API
   slug: energyx-leadership-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/openapi/energyx-leadership-api-openapi.yml
-- filename: energyx-careers-api-openapi.yml
-  format: yaml
-  label: EnergyX Careers API
-  slug: energyx-careers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/openapi/energyx-careers-api-openapi.yml
 - filename: energyx-partners-api-openapi.yml
   format: yaml
   label: EnergyX Partners API
@@ -91,6 +79,36 @@ api_specs:
   slug: energyx-seo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/openapi/energyx-seo-api-openapi.yml
+- filename: energyx-in-the-news-api-openapi.yml
+  format: yaml
+  label: EnergyX In The News API
+  slug: energyx-in-the-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/openapi/energyx-in-the-news-api-openapi.yml
+- filename: energyx-industry-news-api-openapi.yml
+  format: yaml
+  label: EnergyX Industry News API
+  slug: energyx-industry-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/openapi/energyx-industry-news-api-openapi.yml
+- filename: energyx-job-positions-api-openapi.yml
+  format: yaml
+  label: EnergyX Job Positions API
+  slug: energyx-job-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/openapi/energyx-job-positions-api-openapi.yml
+- filename: energyx-press-releases-api-openapi.yml
+  format: yaml
+  label: EnergyX Press Releases API
+  slug: energyx-press-releases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/openapi/energyx-press-releases-api-openapi.yml
+- filename: energyx-products-api-openapi.yml
+  format: yaml
+  label: EnergyX Products API
+  slug: energyx-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/openapi/energyx-products-api-openapi.yml
 auth_types: []
 description: EnergyX publishes no developer program and issues no API credentials. The WordPress REST content API behind energyx.com is anonymously readable — no key, token, signature or account is required to read posts, pages, press releases, in-the-news coverage, leadership, job positions, partners, videos, resource guides, media, taxonomies, search, the storefront catalog or the discovery metadata. The server declares exactly one authentication method in its own root document, WordPress application passwords, and that method gates only the write and privileged-read operations that are not part of the public surface.
 kind: authentication

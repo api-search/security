@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: lse-moodle-lti-platform-openapi.yml
+- filename: lse-lti-api-openapi.yml
   format: yaml
-  label: LSE Moodle LTI 1.3 Platform
-  slug: moodle-lti-platform
+  label: London School of Economics and Political Science LTI API
+  slug: lse-lti-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/openapi/lse-moodle-lti-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/openapi/lse-lti-api-openapi.yml
 description: ''
 domains:
 - caa: []

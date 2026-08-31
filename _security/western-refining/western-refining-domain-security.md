@@ -15,8 +15,8 @@ layout: security
 method: probed
 name: Western Refining Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for western-refining, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: western-refining
+overview: 'Domain security posture for Western Refining, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Western Refining
 provider_slug: western-refining
 slug: western-refining-domain-security
 source_filename: western-refining-domain-security.yml

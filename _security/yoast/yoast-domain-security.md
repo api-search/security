@@ -24,18 +24,36 @@ api_specs:
   slug: yoast-abilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-abilities-api-openapi.yml
-- filename: yoast-schema-aggregator-openapi.yml
+- filename: yoast-provisioning-account-api-openapi.yml
+  format: yaml
+  label: Yoast Provisioning Account API
+  slug: yoast-provisioning-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-provisioning-account-api-openapi.yml
+- filename: yoast-provisioning-downloads-api-openapi.yml
+  format: yaml
+  label: Yoast Provisioning Downloads API
+  slug: yoast-provisioning-downloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-provisioning-downloads-api-openapi.yml
+- filename: yoast-provisioning-users-api-openapi.yml
+  format: yaml
+  label: Yoast Provisioning Users API
+  slug: yoast-provisioning-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-provisioning-users-api-openapi.yml
+- filename: yoast-schema-aggregator-api-openapi.yml
   format: yaml
   label: Yoast Schema Aggregator API
   slug: yoast-schema-aggregator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-schema-aggregator-openapi.yml
-- filename: yoast-myyoast-provisioning-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-schema-aggregator-api-openapi.yml
+- filename: yoast-subscription-provisioning-api-openapi.yml
   format: yaml
-  label: MyYoast Provisioning API
-  slug: myyoast-provisioning-api
+  label: Yoast Subscription Provisioning API
+  slug: yoast-subscription-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-myyoast-provisioning-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-subscription-provisioning-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,30 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: opentravel-2020a-hotel-descriptive-content-resource-defs-openapi.json
-  format: json
-  label: OpenTravel 2020A Hotel Descriptive Content Resource
-  slug: opentravel-2020a-hotel-descriptive-content-resource
+- filename: opentravel-alliance-facilities-api-openapi.yml
+  format: yaml
+  label: OpenTravel Alliance Facilities API
+  slug: opentravel-alliance-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-2020a-hotel-descriptive-content-resource-defs-openapi.json
-- filename: opentravel-2020a-facility-resource-defs-openapi.json
-  format: json
-  label: OpenTravel 2020A Facility Resource
-  slug: opentravel-2020a-facility-resource
+  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-alliance-facilities-api-openapi.yml
+- filename: opentravel-alliance-hospitalityfindhospitalityavailability-api-openapi.yml
+  format: yaml
+  label: OpenTravel Alliance Hospitality Find Hospitality Availability API
+  slug: opentravel-alliance-hospitalityfindhospitalityavailability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-2020a-facility-resource-defs-openapi.json
-- filename: opentravel-2018a-hospitality-offers-resource-defs-openapi.json
-  format: json
-  label: OpenTravel 2018A Hospitality Offers Resource
-  slug: opentravel-2018a-hospitality-offers-resource
+  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-alliance-hospitalityfindhospitalityavailability-api-openapi.yml
+- filename: opentravel-alliance-hospitalityoffers-api-openapi.yml
+  format: yaml
+  label: OpenTravel Alliance Hospitality Offers API
+  slug: opentravel-alliance-hospitalityoffers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-2018a-hospitality-offers-resource-defs-openapi.json
-- filename: opentravel-2018a-facility-resource-defs-openapi.json
-  format: json
-  label: OpenTravel 2018A Facility Resource
-  slug: opentravel-2018a-facility-resource
+  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-alliance-hospitalityoffers-api-openapi.yml
+- filename: opentravel-alliance-hospitalitypropertyoffers-api-openapi.yml
+  format: yaml
+  label: OpenTravel Alliance Hospitality Property Offers API
+  slug: opentravel-alliance-hospitalitypropertyoffers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-2018a-facility-resource-defs-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-alliance-hospitalitypropertyoffers-api-openapi.yml
+- filename: opentravel-alliance-hospitalityretrievefacilityavailability-api-openapi.yml
+  format: yaml
+  label: OpenTravel Alliance Hospitality Retrieve Facility Availability API
+  slug: opentravel-alliance-hospitalityretrievefacilityavailability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-alliance-hospitalityretrievefacilityavailability-api-openapi.yml
+- filename: opentravel-alliance-hoteldescriptivecontents-api-openapi.yml
+  format: yaml
+  label: OpenTravel Alliance Hotel Descriptive Contents API
+  slug: opentravel-alliance-hoteldescriptivecontents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-alliance-hoteldescriptivecontents-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -51,8 +51,8 @@ layout: security
 method: probed
 name: Microsoft Azure Cost Management Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for microsoft-azure-cost-management, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: microsoft-azure-cost-management
+overview: 'Domain security posture for Azure Cost Management, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Azure Cost Management
 provider_slug: microsoft-azure-cost-management
 slug: microsoft-azure-cost-management-domain-security
 source_filename: microsoft-azure-cost-management-domain-security.yml

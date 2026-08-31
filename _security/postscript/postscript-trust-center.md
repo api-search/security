@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: postscript-partner-api-openapi.yml
-  format: yaml
-  label: Postscript Partner API
-  slug: postscript-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/openapi/_original/postscript-partner-api-openapi.yml
 - filename: postscript-subscribers-api-openapi.yml
   format: yaml
   label: Postscript Subscribers API

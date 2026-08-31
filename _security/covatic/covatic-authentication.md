@@ -1,12 +1,114 @@
 ---
 api_key_in: []
 api_specs:
-- filename: covatic-audience-builder-openapi.yml
+- filename: covatic-audience-builder-agent-api-openapi.yml
+  format: yaml
+  label: Covatic Audience Builder Agent API
+  slug: covatic-audience-builder-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-audience-builder-agent-api-openapi.yml
+- filename: covatic-audience-builder-api-openapi.yml
   format: yaml
   label: Covatic Audience Builder API
   slug: covatic-audience-builder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-audience-builder-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-audience-builder-api-openapi.yml
+- filename: covatic-auth-api-openapi.yml
+  format: yaml
+  label: Covatic Auth API
+  slug: covatic-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-auth-api-openapi.yml
+- filename: covatic-campaigns-api-openapi.yml
+  format: yaml
+  label: Covatic Campaigns API
+  slug: covatic-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-campaigns-api-openapi.yml
+- filename: covatic-chatgpt-api-openapi.yml
+  format: yaml
+  label: Covatic Chat GPT API
+  slug: covatic-chatgpt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-chatgpt-api-openapi.yml
+- filename: covatic-commons-api-openapi.yml
+  format: yaml
+  label: Covatic Commons API
+  slug: covatic-commons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-commons-api-openapi.yml
+- filename: covatic-company-api-openapi.yml
+  format: yaml
+  label: Covatic Company API
+  slug: covatic-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-company-api-openapi.yml
+- filename: covatic-event-traits-api-openapi.yml
+  format: yaml
+  label: Covatic Event Traits API
+  slug: covatic-event-traits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-event-traits-api-openapi.yml
+- filename: covatic-insights-api-openapi.yml
+  format: yaml
+  label: Covatic Insights API
+  slug: covatic-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-insights-api-openapi.yml
+- filename: covatic-notes-api-openapi.yml
+  format: yaml
+  label: Covatic Notes API
+  slug: covatic-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-notes-api-openapi.yml
+- filename: covatic-profiles-api-openapi.yml
+  format: yaml
+  label: Covatic Profiles API
+  slug: covatic-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-profiles-api-openapi.yml
+- filename: covatic-qa-and-debug-api-openapi.yml
+  format: yaml
+  label: Covatic QA and Debug API
+  slug: covatic-qa-and-debug-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-qa-and-debug-api-openapi.yml
+- filename: covatic-retargeting-traits-api-openapi.yml
+  format: yaml
+  label: Covatic Retargeting Traits API
+  slug: covatic-retargeting-traits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-retargeting-traits-api-openapi.yml
+- filename: covatic-root-api-openapi.yml
+  format: yaml
+  label: Covatic Root API
+  slug: covatic-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-root-api-openapi.yml
+- filename: covatic-seeders-api-openapi.yml
+  format: yaml
+  label: Covatic Seeders API
+  slug: covatic-seeders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-seeders-api-openapi.yml
+- filename: covatic-tags-api-openapi.yml
+  format: yaml
+  label: Covatic Tags API
+  slug: covatic-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-tags-api-openapi.yml
+- filename: covatic-traits-api-openapi.yml
+  format: yaml
+  label: Covatic Traits API
+  slug: covatic-traits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-traits-api-openapi.yml
+- filename: covatic-users-api-openapi.yml
+  format: yaml
+  label: Covatic Users API
+  slug: covatic-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-users-api-openapi.yml
 auth_types:
 - http
 - openIdConnect

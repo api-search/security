@@ -12,24 +12,12 @@ api_specs:
   slug: plansource-administrators-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-administrators-api-openapi.yml
-- filename: plansource-all-api-openapi.yml
-  format: yaml
-  label: PlanSource All API
-  slug: plansource-all-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-all-api-openapi.yml
 - filename: plansource-collections-api-openapi.yml
   format: yaml
   label: PlanSource Collections API
   slug: plansource-collections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-collections-api-openapi.yml
-- filename: plansource-composites-api-openapi.yml
-  format: yaml
-  label: PlanSource Composites API
-  slug: plansource-composites-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-composites-api-openapi.yml
 - filename: plansource-coverage-api-openapi.yml
   format: yaml
   label: PlanSource Coverage API
@@ -60,18 +48,6 @@ api_specs:
   slug: plansource-payroll-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-payroll-api-openapi.yml
-- filename: plansource-processing-api-openapi.yml
-  format: yaml
-  label: PlanSource Processing API
-  slug: plansource-processing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-processing-api-openapi.yml
-- filename: plansource-resources-api-openapi.yml
-  format: yaml
-  label: PlanSource Resources API
-  slug: plansource-resources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-resources-api-openapi.yml
 - filename: plansource-security-api-openapi.yml
   format: yaml
   label: PlanSource Security API

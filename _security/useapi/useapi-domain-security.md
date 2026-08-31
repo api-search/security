@@ -1,71 +1,77 @@
 ---
 api_specs:
-- filename: useapi-google-flow-v1-openapi.yml
+- filename: useapi-account-api-openapi.yml
   format: yaml
-  label: Google Flow API v1
-  slug: google-flow-v1
+  label: useapi.net Account API
+  slug: useapi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-google-flow-v1-openapi.yml
-- filename: useapi-flowmusic-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-account-api-openapi.yml
+- filename: useapi-dreamina-api-openapi.yml
   format: yaml
-  label: Flow Music API v1
-  slug: flowmusic-v1
+  label: useapi.net Dreamina API
+  slug: useapi-dreamina-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-flowmusic-v1-openapi.yml
-- filename: useapi-dreamina-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-dreamina-api-openapi.yml
+- filename: useapi-faceswap-api-openapi.yml
   format: yaml
-  label: Dreamina API v1
-  slug: dreamina-v1
+  label: useapi.net Faceswap API
+  slug: useapi-faceswap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-dreamina-v1-openapi.yml
-- filename: useapi-kling-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-faceswap-api-openapi.yml
+- filename: useapi-flowmusic-api-openapi.yml
   format: yaml
-  label: Kling AI API v1
-  slug: kling-v1
+  label: useapi.net Flowmusic API
+  slug: useapi-flowmusic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-kling-v1-openapi.yml
-- filename: useapi-minimax-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-flowmusic-api-openapi.yml
+- filename: useapi-google-flow-api-openapi.yml
   format: yaml
-  label: MiniMax / Hailuo AI API v1
-  slug: minimax-v1
+  label: useapi.net Google Flow API
+  slug: useapi-google-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-minimax-v1-openapi.yml
-- filename: useapi-runwayml-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-google-flow-api-openapi.yml
+- filename: useapi-jobs-api-openapi.yml
   format: yaml
-  label: Runway API v1
-  slug: runwayml-v1
+  label: useapi.net Jobs API
+  slug: useapi-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-runwayml-v1-openapi.yml
-- filename: useapi-pixverse-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-jobs-api-openapi.yml
+- filename: useapi-kling-api-openapi.yml
   format: yaml
-  label: PixVerse API v2
-  slug: pixverse-v2
+  label: useapi.net Kling API
+  slug: useapi-kling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-pixverse-v2-openapi.yml
-- filename: useapi-mureka-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-kling-api-openapi.yml
+- filename: useapi-minimax-api-openapi.yml
   format: yaml
-  label: Mureka API v1
-  slug: mureka-v1
+  label: useapi.net Minimax API
+  slug: useapi-minimax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-mureka-v1-openapi.yml
-- filename: useapi-tempolor-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-minimax-api-openapi.yml
+- filename: useapi-mureka-api-openapi.yml
   format: yaml
-  label: TemPolor API v1
-  slug: tempolor-v1
+  label: useapi.net Mureka API
+  slug: useapi-mureka-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-tempolor-v1-openapi.yml
-- filename: useapi-faceswap-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-mureka-api-openapi.yml
+- filename: useapi-pixverse-api-openapi.yml
   format: yaml
-  label: InsightFaceSwap API v1
-  slug: faceswap-v1
+  label: useapi.net Pixverse API
+  slug: useapi-pixverse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-faceswap-v1-openapi.yml
-- filename: useapi-midjourney-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-pixverse-api-openapi.yml
+- filename: useapi-runwayml-api-openapi.yml
   format: yaml
-  label: Midjourney REST API v2 (retired)
-  slug: midjourney-v2
+  label: useapi.net Runwayml API
+  slug: useapi-runwayml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-midjourney-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-runwayml-api-openapi.yml
+- filename: useapi-tempolor-api-openapi.yml
+  format: yaml
+  label: useapi.net Tempolor API
+  slug: useapi-tempolor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-tempolor-api-openapi.yml
 description: ''
 domains:
 - caa: []

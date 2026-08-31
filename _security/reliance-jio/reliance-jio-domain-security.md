@@ -1,23 +1,17 @@
 ---
 api_specs:
-- filename: reliance-jio-jiomeet-platform-openapi.yml
+- filename: reliance-jio-jioeventscpaasplatform-api-openapi.yml
   format: yaml
-  label: JioMeet Platform Server API
-  slug: jiomeet-platform-server-api
+  label: Reliance Jio Jio Events Cpaas Platform API
+  slug: reliance-jio-jioeventscpaasplatform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/openapi/reliance-jio-jiomeet-platform-openapi.yml
-- filename: reliance-jio-jiomeet-oauth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/openapi/reliance-jio-jioeventscpaasplatform-api-openapi.yml
+- filename: reliance-jio-jiomeetcpaasplatform-api-openapi.yml
   format: yaml
-  label: JioMeet Platform OAuth API
-  slug: jiomeet-platform-oauth-api
+  label: Reliance Jio Jio Meet Cpaas Platform API
+  slug: reliance-jio-jiomeetcpaasplatform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/openapi/reliance-jio-jiomeet-oauth-openapi.yml
-- filename: reliance-jio-jioevents-platform-openapi.yml
-  format: yaml
-  label: JioEvents Platform Server API
-  slug: jioevents-platform-server-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/openapi/reliance-jio-jioevents-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/openapi/reliance-jio-jiomeetcpaasplatform-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,24 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: obie-open-data-atm-locator-openapi.json
-  format: json
-  label: Nationwide ATM Locator API
-  slug: nationwide-atm-locator-api
+- filename: nationwide-building-society-atm-api-openapi.yml
+  format: yaml
+  label: Nationwide Building Society ATM API
+  slug: nationwide-building-society-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/openapi/obie-open-data-atm-locator-openapi.json
-- filename: obie-open-data-branch-locator-openapi.json
-  format: json
-  label: Nationwide Branch Locator API
-  slug: nationwide-branch-locator-api
+  url: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/openapi/nationwide-building-society-atm-api-openapi.yml
+- filename: nationwide-building-society-branch-api-openapi.yml
+  format: yaml
+  label: Nationwide Building Society Branch API
+  slug: nationwide-building-society-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/openapi/obie-open-data-branch-locator-openapi.json
-- filename: obie-open-data-personal-current-accounts-openapi.json
-  format: json
-  label: Nationwide Personal Current Accounts API
-  slug: nationwide-personal-current-accounts-api
+  url: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/openapi/nationwide-building-society-branch-api-openapi.yml
+- filename: nationwide-building-society-pca-api-openapi.yml
+  format: yaml
+  label: Nationwide Building Society PCA API
+  slug: nationwide-building-society-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/openapi/obie-open-data-personal-current-accounts-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/openapi/nationwide-building-society-pca-api-openapi.yml
 auth_types:
 - none
 - oauth2

@@ -1,23 +1,107 @@
 ---
 api_specs:
-- filename: mntn-ptv-advertisers-openapi.yml
-  format: yaml
-  label: MNTN Performance TV (PTV) API
-  slug: mntn-performance-tv-ptv-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-ptv-advertisers-openapi.yml
 - filename: mntn-reporting-api-openapi.yml
   format: yaml
   label: MNTN Reporting API 3.0
   slug: mntn-reporting-api-30
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-reporting-api-openapi.yml
-- filename: mntn-batch-export-openapi.yml
+- filename: mntn-advertisers-api-openapi.yml
   format: yaml
-  label: MNTN Async Batch Export API
-  slug: mntn-async-batch-export-api
+  label: MNTN Advertisers API
+  slug: mntn-advertisers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-batch-export-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-advertisers-api-openapi.yml
+- filename: mntn-api-api-openapi.yml
+  format: yaml
+  label: MNTN API
+  slug: mntn-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-api-api-openapi.yml
+- filename: mntn-attribution-api-openapi.yml
+  format: yaml
+  label: MNTN Attribution API
+  slug: mntn-attribution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-attribution-api-openapi.yml
+- filename: mntn-audiences-api-openapi.yml
+  format: yaml
+  label: MNTN Audiences API
+  slug: mntn-audiences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-audiences-api-openapi.yml
+- filename: mntn-batch-api-openapi.yml
+  format: yaml
+  label: MNTN Batch API
+  slug: mntn-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-batch-api-openapi.yml
+- filename: mntn-campaigns-api-openapi.yml
+  format: yaml
+  label: MNTN Campaigns API
+  slug: mntn-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-campaigns-api-openapi.yml
+- filename: mntn-creatives-api-openapi.yml
+  format: yaml
+  label: MNTN Creatives API
+  slug: mntn-creatives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-creatives-api-openapi.yml
+- filename: mntn-flights-api-openapi.yml
+  format: yaml
+  label: MNTN Flights API
+  slug: mntn-flights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-flights-api-openapi.yml
+- filename: mntn-organizations-api-openapi.yml
+  format: yaml
+  label: MNTN Organizations API
+  slug: mntn-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-organizations-api-openapi.yml
+- filename: mntn-pixel-api-openapi.yml
+  format: yaml
+  label: MNTN Pixel API
+  slug: mntn-pixel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-pixel-api-openapi.yml
+- filename: mntn-pmp-campaign-deals-api-openapi.yml
+  format: yaml
+  label: MNTN Pmp Campaign Deals API
+  slug: mntn-pmp-campaign-deals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-pmp-campaign-deals-api-openapi.yml
+- filename: mntn-pmp-channels-api-openapi.yml
+  format: yaml
+  label: MNTN Pmp Channels API
+  slug: mntn-pmp-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-pmp-channels-api-openapi.yml
+- filename: mntn-pmp-deal-groups-api-openapi.yml
+  format: yaml
+  label: MNTN Pmp Deal Groups API
+  slug: mntn-pmp-deal-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-pmp-deal-groups-api-openapi.yml
+- filename: mntn-pmp-deals-api-openapi.yml
+  format: yaml
+  label: MNTN Pmp Deals API
+  slug: mntn-pmp-deals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-pmp-deals-api-openapi.yml
+- filename: mntn-pmp-partners-api-openapi.yml
+  format: yaml
+  label: MNTN Pmp Partners API
+  slug: mntn-pmp-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-pmp-partners-api-openapi.yml
+- filename: mntn-reference-api-openapi.yml
+  format: yaml
+  label: MNTN Reference API
+  slug: mntn-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-reference-api-openapi.yml
 certifications:
 - SOC 2 Type II
 description: ''

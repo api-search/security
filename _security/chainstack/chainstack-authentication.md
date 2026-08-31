@@ -93,12 +93,6 @@ api_specs:
   slug: chainstack-general-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-general-api-openapi.yml
-- filename: chainstack-history-api-openapi.yml
-  format: yaml
-  label: Chainstack History API
-  slug: chainstack-history-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-history-api-openapi.yml
 - filename: chainstack-logs-and-events-api-openapi.yml
   format: yaml
   label: Chainstack Logs And Events API

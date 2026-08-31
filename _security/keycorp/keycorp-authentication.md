@@ -1,66 +1,114 @@
 ---
 api_key_in: []
 api_specs:
-- filename: keycorp-commercial-accounts-reporting-openapi.yml
+- filename: keycorp-account-information-api-openapi.yml
   format: yaml
-  label: KeyBank Account Information API
-  slug: account-information-api
+  label: KeyCorp Account Information API
+  slug: keycorp-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-commercial-accounts-reporting-openapi.yml
-- filename: keycorp-ach-originations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-account-information-api-openapi.yml
+- filename: keycorp-account-transactions-api-openapi.yml
   format: yaml
-  label: KeyBank ACH Origination API
-  slug: ach-origination-api
+  label: KeyCorp Account Transactions API
+  slug: keycorp-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-ach-originations-openapi.yml
-- filename: keycorp-rtp-wire-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-account-transactions-api-openapi.yml
+- filename: keycorp-accounts-api-openapi.yml
   format: yaml
-  label: KeyBank Wire Transfer API
-  slug: wire-transfer-api
+  label: KeyCorp Accounts API
+  slug: keycorp-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-rtp-wire-payments-openapi.yml
-- filename: keycorp-rtp-wire-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-accounts-api-openapi.yml
+- filename: keycorp-ach-api-openapi.yml
   format: yaml
-  label: KeyBank RTP Send Payment API
-  slug: rtp-send-payment-api
+  label: KeyCorp ACH API
+  slug: keycorp-ach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-rtp-wire-payments-openapi.yml
-- filename: keycorp-account-validation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-ach-api-openapi.yml
+- filename: keycorp-ach-payment-origination-api-openapi.yml
   format: yaml
-  label: KeyBank Account Validation API
-  slug: account-validation-api
+  label: KeyCorp ACH Payment Origination API
+  slug: keycorp-ach-payment-origination-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-account-validation-openapi.yml
-- filename: keycorp-ach-inquiry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-ach-payment-origination-api-openapi.yml
+- filename: keycorp-ach-payment-request-inquiry-api-openapi.yml
   format: yaml
-  label: KeyBank ACH Inquiry API
-  slug: ach-inquiry-api
+  label: KeyCorp ACH Payment Request Inquiry API
+  slug: keycorp-ach-payment-request-inquiry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-ach-inquiry-openapi.yml
-- filename: keycorp-wire-inquiry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-ach-payment-request-inquiry-api-openapi.yml
+- filename: keycorp-ach-transactions-api-openapi.yml
   format: yaml
-  label: KeyBank Wire Inquiry API
-  slug: wire-inquiry-api
+  label: KeyCorp ACH Transactions API
+  slug: keycorp-ach-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-wire-inquiry-openapi.yml
-- filename: keycorp-rtp-inquiry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-ach-transactions-api-openapi.yml
+- filename: keycorp-healthcheck-api-openapi.yml
   format: yaml
-  label: KeyBank RTP Inquiry API
-  slug: rtp-inquiry-api
+  label: KeyCorp Health Check API
+  slug: keycorp-healthcheck-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-rtp-inquiry-openapi.yml
-- filename: keycorp-check-services-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-healthcheck-api-openapi.yml
+- filename: keycorp-imagecheck-api-openapi.yml
   format: yaml
-  label: KeyBank Check Services API
-  slug: check-services-api
+  label: KeyCorp Image Check API
+  slug: keycorp-imagecheck-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-check-services-openapi.yml
-- filename: keycorp-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-imagecheck-api-openapi.yml
+- filename: keycorp-initiate-api-openapi.yml
   format: yaml
-  label: KeyBank Webhooks
-  slug: webhooks
+  label: KeyCorp Initiate API
+  slug: keycorp-initiate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-initiate-api-openapi.yml
+- filename: keycorp-participant-api-openapi.yml
+  format: yaml
+  label: KeyCorp Participant API
+  slug: keycorp-participant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-participant-api-openapi.yml
+- filename: keycorp-rtp-api-openapi.yml
+  format: yaml
+  label: KeyCorp RTP API
+  slug: keycorp-rtp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-rtp-api-openapi.yml
+- filename: keycorp-stoppayments-api-openapi.yml
+  format: yaml
+  label: KeyCorp Stop Payments API
+  slug: keycorp-stoppayments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-stoppayments-api-openapi.yml
+- filename: keycorp-undo-ach-payment-request-api-openapi.yml
+  format: yaml
+  label: KeyCorp Undo ACH Payment Request API
+  slug: keycorp-undo-ach-payment-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-undo-ach-payment-request-api-openapi.yml
+- filename: keycorp-validate-api-openapi.yml
+  format: yaml
+  label: KeyCorp Validate API
+  slug: keycorp-validate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-validate-api-openapi.yml
+- filename: keycorp-wire-api-openapi.yml
+  format: yaml
+  label: KeyCorp Wire API
+  slug: keycorp-wire-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-wire-api-openapi.yml
+- filename: keycorp-wire-rtp-v1-api-openapi.yml
+  format: yaml
+  label: KeyCorp Wire/RTP v1 API
+  slug: keycorp-wire-rtp-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-wire-rtp-v1-api-openapi.yml
+- filename: keycorp-wire-rtp-v2-api-openapi.yml
+  format: yaml
+  label: KeyCorp Wire/RTP v2 API
+  slug: keycorp-wire-rtp-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-wire-rtp-v2-api-openapi.yml
 auth_types:
 - http
 - mutualTLS

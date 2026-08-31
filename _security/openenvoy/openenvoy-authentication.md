@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: openenvoy-openapi.json
-  format: json
-  label: OpenEnvoy API
-  slug: openenvoy-api
+- filename: openenvoy-job-api-openapi.yml
+  format: yaml
+  label: OpenEnvoy Job API
+  slug: openenvoy-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openenvoy/refs/heads/main/openapi/openenvoy-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/openenvoy/refs/heads/main/openapi/openenvoy-job-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

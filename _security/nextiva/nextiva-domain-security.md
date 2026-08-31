@@ -1,35 +1,65 @@
 ---
 api_specs:
-- filename: nextiva-authentication-openapi.yml
+- filename: nextiva-authentication-api-openapi.yml
   format: yaml
-  label: Nextiva Provider Authentication API
-  slug: provider-authentication
+  label: Nextiva Authentication API
+  slug: nextiva-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-authentication-openapi.yml
-- filename: nextiva-provider-authentication-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-authentication-api-openapi.yml
+- filename: nextiva-call-management-api-openapi.yml
   format: yaml
-  label: Nextiva Provider Token Service API
-  slug: provider-token-service
+  label: Nextiva Call Management API
+  slug: nextiva-call-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-provider-authentication-openapi.yml
-- filename: nextiva-workitem-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-call-management-api-openapi.yml
+- filename: nextiva-campaigns-api-openapi.yml
   format: yaml
-  label: Nextiva Workitem Service API
-  slug: workitem-service
+  label: Nextiva Campaigns API
+  slug: nextiva-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-workitem-service-openapi.yml
-- filename: nextiva-conversation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-campaigns-api-openapi.yml
+- filename: nextiva-conversations-api-openapi.yml
   format: yaml
-  label: Nextiva Conversation API
-  slug: conversation
+  label: Nextiva Conversations API
+  slug: nextiva-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-conversation-openapi.yml
-- filename: nextiva-sms-messaging-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-conversations-api-openapi.yml
+- filename: nextiva-dtmf-api-openapi.yml
+  format: yaml
+  label: Nextiva DTMF API
+  slug: nextiva-dtmf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-dtmf-api-openapi.yml
+- filename: nextiva-email-api-openapi.yml
+  format: yaml
+  label: Nextiva Email API
+  slug: nextiva-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-email-api-openapi.yml
+- filename: nextiva-sms-messaging-api-openapi.yml
   format: yaml
   label: Nextiva SMS Messaging API
-  slug: sms-messaging
+  slug: nextiva-sms-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-sms-messaging-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-sms-messaging-api-openapi.yml
+- filename: nextiva-tickets-api-openapi.yml
+  format: yaml
+  label: Nextiva Tickets API
+  slug: nextiva-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-tickets-api-openapi.yml
+- filename: nextiva-transfers-api-openapi.yml
+  format: yaml
+  label: Nextiva Transfers API
+  slug: nextiva-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-transfers-api-openapi.yml
+- filename: nextiva-workitems-api-openapi.yml
+  format: yaml
+  label: Nextiva Workitems API
+  slug: nextiva-workitems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-workitems-api-openapi.yml
 description: ''
 domains:
 - caa: []

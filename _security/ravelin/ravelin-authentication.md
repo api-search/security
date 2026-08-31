@@ -2,12 +2,6 @@
 api_key_in:
 - header
 api_specs:
-- filename: ravelin-callbacks-api-openapi.yml
-  format: yaml
-  label: Ravelin Callbacks API
-  slug: ravelin-callbacks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ravelin/refs/heads/main/openapi/ravelin-callbacks-api-openapi.yml
 - filename: ravelin-3d-secure-api-openapi.yml
   format: yaml
   label: Ravelin 3D Secure API

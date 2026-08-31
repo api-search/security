@@ -1,23 +1,11 @@
 ---
 api_specs:
-- filename: lili-application-api-openapi.yml
+- filename: lili-lili-api-openapi.yml
   format: yaml
-  label: Lili Application API
-  slug: lili-application-api
+  label: Lili Lili API
+  slug: lili-lili-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/openapi/lili-application-api-openapi.yml
-- filename: lili-customer-management-api-openapi.yml
-  format: yaml
-  label: Lili Customer Management API
-  slug: lili-customer-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/openapi/lili-customer-management-api-openapi.yml
-- filename: lili-webhooks-api-openapi.yml
-  format: yaml
-  label: Lili Webhooks API
-  slug: lili-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/openapi/lili-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/openapi/lili-lili-api-openapi.yml
 description: ''
 domains:
 - caa:

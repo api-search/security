@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: kelvin-api-openapi.yml
+- filename: kelvin-documents-api-openapi.yml
   format: yaml
-  label: kelvin API
-  slug: kelvin-api
+  label: Kelvin Documents API
+  slug: kelvin-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/openapi/kelvin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/openapi/kelvin-documents-api-openapi.yml
+- filename: kelvin-qualification-api-openapi.yml
+  format: yaml
+  label: Kelvin Qualification API
+  slug: kelvin-qualification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/openapi/kelvin-qualification-api-openapi.yml
+- filename: kelvin-simulateur-api-openapi.yml
+  format: yaml
+  label: Kelvin Simulateur API
+  slug: kelvin-simulateur-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/openapi/kelvin-simulateur-api-openapi.yml
+- filename: kelvin-simulations-api-openapi.yml
+  format: yaml
+  label: Kelvin Simulations API
+  slug: kelvin-simulations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/openapi/kelvin-simulations-api-openapi.yml
 auth_types:
 - http
 description: ''

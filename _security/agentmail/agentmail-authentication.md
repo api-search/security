@@ -169,6 +169,12 @@ api_specs:
   slug: agentmail-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-webhooks-api-openapi.yml
+- filename: agentmail-api-reference-api-openapi.yml
+  format: yaml
+  label: AgentMail API Reference API
+  slug: agentmail-api-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-api-reference-api-openapi.yml
 auth_types:
 - http
 description: ''

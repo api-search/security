@@ -38,12 +38,18 @@ api_specs:
   slug: bluecore-transactional-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-transactional-api-openapi.yml
-- filename: bluecore-transactional-legacy-api-openapi.yml
+- filename: bluecore-get-status-api-openapi.yml
   format: yaml
-  label: Bluecore Transactional API (legacy)
-  slug: bluecore-transactional-legacy-api
+  label: Bluecore GET STATUS API
+  slug: bluecore-get-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-transactional-legacy-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-get-status-api-openapi.yml
+- filename: bluecore-send-email-api-openapi.yml
+  format: yaml
+  label: Bluecore SEND EMAIL API
+  slug: bluecore-send-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-send-email-api-openapi.yml
 auth_types:
 - oauth2
 - http-bearer

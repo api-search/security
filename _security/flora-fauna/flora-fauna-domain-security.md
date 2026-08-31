@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: flora-fauna-flora-api-openapi.yml
+- filename: flora-fauna-actions-api-openapi.yml
   format: yaml
-  label: Flora.ai API
-  slug: flora-api
+  label: FLORA Actions API
+  slug: flora-fauna-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-flora-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-actions-api-openapi.yml
+- filename: flora-fauna-assets-api-openapi.yml
+  format: yaml
+  label: FLORA Assets API
+  slug: flora-fauna-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-assets-api-openapi.yml
+- filename: flora-fauna-canvas-api-openapi.yml
+  format: yaml
+  label: FLORA Canvas API
+  slug: flora-fauna-canvas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-canvas-api-openapi.yml
+- filename: flora-fauna-feedback-api-openapi.yml
+  format: yaml
+  label: FLORA Feedback API
+  slug: flora-fauna-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-feedback-api-openapi.yml
+- filename: flora-fauna-generations-api-openapi.yml
+  format: yaml
+  label: FLORA Generations API
+  slug: flora-fauna-generations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-generations-api-openapi.yml
+- filename: flora-fauna-models-api-openapi.yml
+  format: yaml
+  label: FLORA Models API
+  slug: flora-fauna-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-models-api-openapi.yml
+- filename: flora-fauna-projects-api-openapi.yml
+  format: yaml
+  label: FLORA Projects API
+  slug: flora-fauna-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-projects-api-openapi.yml
+- filename: flora-fauna-runs-api-openapi.yml
+  format: yaml
+  label: FLORA Runs API
+  slug: flora-fauna-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-runs-api-openapi.yml
+- filename: flora-fauna-technique-runs-api-openapi.yml
+  format: yaml
+  label: FLORA Technique Runs API
+  slug: flora-fauna-technique-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-technique-runs-api-openapi.yml
+- filename: flora-fauna-techniques-api-openapi.yml
+  format: yaml
+  label: FLORA Techniques API
+  slug: flora-fauna-techniques-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-techniques-api-openapi.yml
+- filename: flora-fauna-workspaces-api-openapi.yml
+  format: yaml
+  label: FLORA Workspaces API
+  slug: flora-fauna-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

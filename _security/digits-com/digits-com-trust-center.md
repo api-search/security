@@ -54,6 +54,24 @@ api_specs:
   slug: digits-com-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-webhooks-api-openapi.yml
+- filename: digits-com-llms-txt-api-openapi.yml
+  format: yaml
+  label: Digits Llms.txt API
+  slug: digits-com-llms-txt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-llms-txt-api-openapi.yml
+- filename: digits-com-sitemap-xml-api-openapi.yml
+  format: yaml
+  label: Digits Sitemap.xml API
+  slug: digits-com-sitemap-xml-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-sitemap-xml-api-openapi.yml
+- filename: digits-com-well-known-api-openapi.yml
+  format: yaml
+  label: Digits .well Known API
+  slug: digits-com-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-well-known-api-openapi.yml
 certifications:
 - SOC 2
 description: ''

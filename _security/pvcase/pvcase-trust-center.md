@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: pvcase-anderson-optimization-openapi.json
-  format: json
-  label: PVcase Prospect API (Anderson Optimization API)
-  slug: pvcase-prospect-api
+- filename: pvcase-asset-api-openapi.yml
+  format: yaml
+  label: PVcase Asset API
+  slug: pvcase-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/openapi/pvcase-anderson-optimization-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/openapi/pvcase-asset-api-openapi.yml
+- filename: pvcase-company-api-openapi.yml
+  format: yaml
+  label: PVcase Company API
+  slug: pvcase-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/openapi/pvcase-company-api-openapi.yml
+- filename: pvcase-project-api-openapi.yml
+  format: yaml
+  label: PVcase Project API
+  slug: pvcase-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/openapi/pvcase-project-api-openapi.yml
+- filename: pvcase-team-api-openapi.yml
+  format: yaml
+  label: PVcase Team API
+  slug: pvcase-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/openapi/pvcase-team-api-openapi.yml
 certifications:
 - SOC 2 Type I
 - SOC 2 Type II

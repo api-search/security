@@ -2,12 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: openserp-oss-openapi.yml
+- filename: openserp-docs-api-openapi.yml
   format: yaml
-  label: OpenSERP Server (self-hosted)
-  slug: openserp-oss
+  label: OpenSERP Docs API
+  slug: openserp-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-oss-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-docs-api-openapi.yml
+- filename: openserp-health-api-openapi.yml
+  format: yaml
+  label: OpenSERP Health API
+  slug: openserp-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-health-api-openapi.yml
+- filename: openserp-mega-api-openapi.yml
+  format: yaml
+  label: OpenSERP Mega API
+  slug: openserp-mega-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-mega-api-openapi.yml
+- filename: openserp-search-api-openapi.yml
+  format: yaml
+  label: OpenSERP Search API
+  slug: openserp-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-search-api-openapi.yml
+- filename: openserp-stats-api-openapi.yml
+  format: yaml
+  label: OpenSERP Stats API
+  slug: openserp-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-stats-api-openapi.yml
 auth_types:
 - http
 description: ''

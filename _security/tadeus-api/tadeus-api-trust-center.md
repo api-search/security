@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: tadeus-api-integration-openapi.json
-  format: json
-  label: Tadeus Integration API
-  slug: tadeus-integration-api
+- filename: tadeus-api-attempts-api-openapi.yml
+  format: yaml
+  label: Tadeus API Attempts API
+  slug: tadeus-api-attempts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/openapi/tadeus-api-integration-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/openapi/tadeus-api-attempts-api-openapi.yml
+- filename: tadeus-api-billing-api-openapi.yml
+  format: yaml
+  label: Tadeus API Billing API
+  slug: tadeus-api-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/openapi/tadeus-api-billing-api-openapi.yml
+- filename: tadeus-api-campaigns-api-openapi.yml
+  format: yaml
+  label: Tadeus API Campaigns API
+  slug: tadeus-api-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/openapi/tadeus-api-campaigns-api-openapi.yml
+- filename: tadeus-api-insights-api-openapi.yml
+  format: yaml
+  label: Tadeus API Insights API
+  slug: tadeus-api-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/openapi/tadeus-api-insights-api-openapi.yml
+- filename: tadeus-api-organisation-api-openapi.yml
+  format: yaml
+  label: Tadeus API Organisation API
+  slug: tadeus-api-organisation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/openapi/tadeus-api-organisation-api-openapi.yml
+- filename: tadeus-api-results-api-openapi.yml
+  format: yaml
+  label: Tadeus API Results API
+  slug: tadeus-api-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/openapi/tadeus-api-results-api-openapi.yml
+- filename: tadeus-api-sessions-api-openapi.yml
+  format: yaml
+  label: Tadeus API Sessions API
+  slug: tadeus-api-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/openapi/tadeus-api-sessions-api-openapi.yml
+- filename: tadeus-api-templates-api-openapi.yml
+  format: yaml
+  label: Tadeus API Templates API
+  slug: tadeus-api-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/openapi/tadeus-api-templates-api-openapi.yml
+- filename: tadeus-api-transcripts-api-openapi.yml
+  format: yaml
+  label: Tadeus API Transcripts API
+  slug: tadeus-api-transcripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/openapi/tadeus-api-transcripts-api-openapi.yml
 certifications:
 - count
 - audited

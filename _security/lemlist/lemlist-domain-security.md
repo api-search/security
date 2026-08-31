@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: lemlist-openapi-v2.json
-  format: json
-  label: lemlist REST API
-  slug: rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/_original/lemlist-openapi-v2.json
 - filename: lemlist-campaigns-api-openapi.yml
   format: yaml
   label: lemlist Campaigns API
@@ -126,6 +120,12 @@ api_specs:
   slug: lemlist-fields-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-fields-api-openapi.yml
+- filename: lemlist-stats-api-openapi.yml
+  format: yaml
+  label: lemlist Stats API
+  slug: lemlist-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-stats-api-openapi.yml
 description: ''
 domains:
 - caa:

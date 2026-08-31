@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: replyrai-platform-api-swagger.json
-  format: json
-  label: Replyr Platform API
-  slug: replyr-platform-api
+- filename: replyrai-accounts-api-openapi.yml
+  format: yaml
+  label: Replyr.ai Accounts API
+  slug: replyrai-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replyrai/refs/heads/main/openapi/replyrai-platform-api-swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/replyrai/refs/heads/main/openapi/replyrai-accounts-api-openapi.yml
+- filename: replyrai-ai-agents-api-openapi.yml
+  format: yaml
+  label: Replyr.ai AI Agents API
+  slug: replyrai-ai-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replyrai/refs/heads/main/openapi/replyrai-ai-agents-api-openapi.yml
+- filename: replyrai-appointment-management-api-openapi.yml
+  format: yaml
+  label: Replyr.ai Appointment Management API
+  slug: replyrai-appointment-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replyrai/refs/heads/main/openapi/replyrai-appointment-management-api-openapi.yml
+- filename: replyrai-contacts-api-openapi.yml
+  format: yaml
+  label: Replyr.ai Contacts API
+  slug: replyrai-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replyrai/refs/heads/main/openapi/replyrai-contacts-api-openapi.yml
+- filename: replyrai-ecommerce-api-openapi.yml
+  format: yaml
+  label: Replyr.ai Ecommerce API
+  slug: replyrai-ecommerce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replyrai/refs/heads/main/openapi/replyrai-ecommerce-api-openapi.yml
+- filename: replyrai-pipelines-api-openapi.yml
+  format: yaml
+  label: Replyr.ai Pipelines API
+  slug: replyrai-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replyrai/refs/heads/main/openapi/replyrai-pipelines-api-openapi.yml
+- filename: replyrai-templates-api-openapi.yml
+  format: yaml
+  label: Replyr.ai Templates API
+  slug: replyrai-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replyrai/refs/heads/main/openapi/replyrai-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []

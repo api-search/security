@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Wynn Resorts Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for wynn-resorts, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: wynn-resorts
+overview: 'Domain security posture for Wynn Resorts, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Wynn Resorts
 provider_slug: wynn-resorts
 slug: wynn-resorts-domain-security
 source_filename: wynn-resorts-domain-security.yml

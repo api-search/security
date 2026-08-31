@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: nowsta-integration-openapi.yml
+- filename: nowsta-clients-api-openapi.yml
   format: yaml
-  label: Nowsta Integration API
-  slug: nowsta-integration-api
+  label: Nowsta Clients API
+  slug: nowsta-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-integration-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-clients-api-openapi.yml
+- filename: nowsta-events-api-openapi.yml
+  format: yaml
+  label: Nowsta Events API
+  slug: nowsta-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-events-api-openapi.yml
+- filename: nowsta-positions-api-openapi.yml
+  format: yaml
+  label: Nowsta Positions API
+  slug: nowsta-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-positions-api-openapi.yml
+- filename: nowsta-uniforms-api-openapi.yml
+  format: yaml
+  label: Nowsta Uniforms API
+  slug: nowsta-uniforms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-uniforms-api-openapi.yml
+- filename: nowsta-venues-api-openapi.yml
+  format: yaml
+  label: Nowsta Venues API
+  slug: nowsta-venues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-venues-api-openapi.yml
+- filename: nowsta-workers-api-openapi.yml
+  format: yaml
+  label: Nowsta Workers API
+  slug: nowsta-workers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-workers-api-openapi.yml
 description: ''
 domains:
 - caa: []

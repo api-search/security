@@ -252,6 +252,18 @@ api_specs:
   slug: methodfi-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/openapi/methodfi-webhooks-api-openapi.yml
+- filename: methodfi-connect-api-openapi.yml
+  format: yaml
+  label: MethodFi Connect API
+  slug: methodfi-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/openapi/methodfi-connect-api-openapi.yml
+- filename: methodfi-transactions-api-openapi.yml
+  format: yaml
+  label: MethodFi Transactions API
+  slug: methodfi-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/openapi/methodfi-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

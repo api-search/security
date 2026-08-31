@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: mindmaze-content-openapi.yml
+- filename: mindmaze-discovery-api-openapi.yml
   format: yaml
-  label: MindMaze Therapeutics Content API
-  slug: mindmaze-therapeutics-content-api
+  label: MindMaze Discovery API
+  slug: mindmaze-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-content-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-discovery-api-openapi.yml
+- filename: mindmaze-media-api-openapi.yml
+  format: yaml
+  label: MindMaze Media API
+  slug: mindmaze-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-media-api-openapi.yml
+- filename: mindmaze-oembed-api-openapi.yml
+  format: yaml
+  label: MindMaze O Embed API
+  slug: mindmaze-oembed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-oembed-api-openapi.yml
+- filename: mindmaze-pages-api-openapi.yml
+  format: yaml
+  label: MindMaze Pages API
+  slug: mindmaze-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-pages-api-openapi.yml
+- filename: mindmaze-posts-api-openapi.yml
+  format: yaml
+  label: MindMaze Posts API
+  slug: mindmaze-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-posts-api-openapi.yml
+- filename: mindmaze-search-api-openapi.yml
+  format: yaml
+  label: MindMaze Search API
+  slug: mindmaze-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-search-api-openapi.yml
+- filename: mindmaze-taxonomy-api-openapi.yml
+  format: yaml
+  label: MindMaze Taxonomy API
+  slug: mindmaze-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-taxonomy-api-openapi.yml
 description: ''
 domains:
 - caa: []

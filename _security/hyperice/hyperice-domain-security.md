@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: hyperice-storefront-openapi.yml
+- filename: hyperice-collections-api-openapi.yml
   format: yaml
-  label: Hyperice Storefront JSON API
-  slug: hyperice-storefront-json-api
+  label: Hyperice Collections API
+  slug: hyperice-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/openapi/hyperice-storefront-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/openapi/hyperice-collections-api-openapi.yml
+- filename: hyperice-discovery-api-openapi.yml
+  format: yaml
+  label: Hyperice Discovery API
+  slug: hyperice-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/openapi/hyperice-discovery-api-openapi.yml
+- filename: hyperice-products-api-openapi.yml
+  format: yaml
+  label: Hyperice Products API
+  slug: hyperice-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/openapi/hyperice-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

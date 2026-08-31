@@ -36,6 +36,30 @@ api_specs:
   slug: validic-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-users-api-openapi.yml
+- filename: validic-measurements-api-openapi.yml
+  format: yaml
+  label: Validic Measurements API
+  slug: validic-measurements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-measurements-api-openapi.yml
+- filename: validic-organizations-api-openapi.yml
+  format: yaml
+  label: Validic Organizations API
+  slug: validic-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-organizations-api-openapi.yml
+- filename: validic-streams-api-openapi.yml
+  format: yaml
+  label: Validic Streams API
+  slug: validic-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-streams-api-openapi.yml
+- filename: validic-streams-token-token-api-openapi.yml
+  format: yaml
+  label: Validic Streams?token={token} API
+  slug: validic-streams-token-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-streams-token-token-api-openapi.yml
 description: ''
 domains:
 - caa: []

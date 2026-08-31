@@ -2,18 +2,30 @@
 api_key_in:
 - query
 api_specs:
-- filename: leia-immersity-cloud-api-openapi.yml
+- filename: leia-media-transformation-api-openapi.yml
   format: yaml
-  label: Immersity Cloud API
-  slug: immersity-cloud-api
+  label: Leia Media Transformation API
+  slug: leia-media-transformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/openapi/leia-immersity-cloud-api-openapi.yml
-- filename: leia-immersity-authentication-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/openapi/leia-media-transformation-api-openapi.yml
+- filename: leia-product-pricing-api-openapi.yml
   format: yaml
-  label: Immersity AI Authentication API
-  slug: immersity-ai-authentication-api
+  label: Leia Product Pricing API
+  slug: leia-product-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/openapi/leia-immersity-authentication-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/openapi/leia-product-pricing-api-openapi.yml
+- filename: leia-protocol-api-openapi.yml
+  format: yaml
+  label: Leia Protocol API
+  slug: leia-protocol-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/openapi/leia-protocol-api-openapi.yml
+- filename: leia-storage-api-openapi.yml
+  format: yaml
+  label: Leia Storage API
+  slug: leia-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/openapi/leia-storage-api-openapi.yml
 auth_types:
 - oauth2
 - http

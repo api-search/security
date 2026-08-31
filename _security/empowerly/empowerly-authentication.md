@@ -7,6 +7,24 @@ api_specs:
   slug: empowerly-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/openapi/empowerly-status-api-openapi.yml
+- filename: empowerly-components-api-openapi.yml
+  format: yaml
+  label: Empowerly Components API
+  slug: empowerly-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/openapi/empowerly-components-api-openapi.yml
+- filename: empowerly-incidents-api-openapi.yml
+  format: yaml
+  label: Empowerly Incidents API
+  slug: empowerly-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/openapi/empowerly-incidents-api-openapi.yml
+- filename: empowerly-maintenance-api-openapi.yml
+  format: yaml
+  label: Empowerly Maintenance API
+  slug: empowerly-maintenance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/openapi/empowerly-maintenance-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

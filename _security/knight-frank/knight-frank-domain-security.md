@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: knight-frank-api-v3-openapi.json
-  format: json
-  label: KnightFrank Api v3
-  slug: knight-frank-api-v3
+- filename: knight-frank-cmspage-api-openapi.yml
+  format: yaml
+  label: Knight Frank CMS Page API
+  slug: knight-frank-cmspage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/openapi/knight-frank-api-v3-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/openapi/knight-frank-cmspage-api-openapi.yml
+- filename: knight-frank-intelligencelab-api-openapi.yml
+  format: yaml
+  label: Knight Frank Intelligence Lab API
+  slug: knight-frank-intelligencelab-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/openapi/knight-frank-intelligencelab-api-openapi.yml
+- filename: knight-frank-office-api-openapi.yml
+  format: yaml
+  label: Knight Frank Office API
+  slug: knight-frank-office-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/openapi/knight-frank-office-api-openapi.yml
+- filename: knight-frank-person-api-openapi.yml
+  format: yaml
+  label: Knight Frank Person API
+  slug: knight-frank-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/openapi/knight-frank-person-api-openapi.yml
+- filename: knight-frank-search-api-openapi.yml
+  format: yaml
+  label: Knight Frank Search API
+  slug: knight-frank-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/openapi/knight-frank-search-api-openapi.yml
+- filename: knight-frank-serviceline-api-openapi.yml
+  format: yaml
+  label: Knight Frank Service Line API
+  slug: knight-frank-serviceline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/openapi/knight-frank-serviceline-api-openapi.yml
+- filename: knight-frank-telemetry-api-openapi.yml
+  format: yaml
+  label: Knight Frank Telemetry API
+  slug: knight-frank-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/openapi/knight-frank-telemetry-api-openapi.yml
 description: ''
 domains:
 - caa: []

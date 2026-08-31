@@ -51,8 +51,8 @@ layout: security
 method: probed
 name: Microsoft Azure Container Instances Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for microsoft-azure-container-instances, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: microsoft-azure-container-instances
+overview: 'Domain security posture for Azure Container Instances, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Azure Container Instances
 provider_slug: microsoft-azure-container-instances
 slug: microsoft-azure-container-instances-domain-security
 source_filename: microsoft-azure-container-instances-domain-security.yml

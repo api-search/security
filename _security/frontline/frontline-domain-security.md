@@ -180,12 +180,6 @@ api_specs:
   slug: frontline-tables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/openapi/frontline-tables-api-openapi.yml
-- filename: frontline-tools-api-openapi.yml
-  format: yaml
-  label: Frontline Tools API
-  slug: frontline-tools-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/openapi/frontline-tools-api-openapi.yml
 - filename: frontline-workflow-variables-api-openapi.yml
   format: yaml
   label: Frontline Workflow Variables API
@@ -198,6 +192,72 @@ api_specs:
   slug: frontline-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/openapi/frontline-workflows-api-openapi.yml
+- filename: frontline-account-integrations-api-openapi.yml
+  format: yaml
+  label: Frontline Account Integrations API
+  slug: frontline-account-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/openapi/frontline-account-integrations-api-openapi.yml
+- filename: frontline-agent-channels-api-openapi.yml
+  format: yaml
+  label: Frontline Agent Channels API
+  slug: frontline-agent-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/openapi/frontline-agent-channels-api-openapi.yml
+- filename: frontline-agent-playbooks-api-openapi.yml
+  format: yaml
+  label: Frontline Agent Playbooks API
+  slug: frontline-agent-playbooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/openapi/frontline-agent-playbooks-api-openapi.yml
+- filename: frontline-channels-api-openapi.yml
+  format: yaml
+  label: Frontline Channels API
+  slug: frontline-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/openapi/frontline-channels-api-openapi.yml
+- filename: frontline-custom-tools-api-openapi.yml
+  format: yaml
+  label: Frontline Custom Tools API
+  slug: frontline-custom-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/openapi/frontline-custom-tools-api-openapi.yml
+- filename: frontline-guidance-api-openapi.yml
+  format: yaml
+  label: Frontline Guidance API
+  slug: frontline-guidance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/openapi/frontline-guidance-api-openapi.yml
+- filename: frontline-integration-resources-api-openapi.yml
+  format: yaml
+  label: Frontline Integration Resources API
+  slug: frontline-integration-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/openapi/frontline-integration-resources-api-openapi.yml
+- filename: frontline-integrations-api-openapi.yml
+  format: yaml
+  label: Frontline Integrations API
+  slug: frontline-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/openapi/frontline-integrations-api-openapi.yml
+- filename: frontline-knowledge-bases-api-openapi.yml
+  format: yaml
+  label: Frontline Knowledge Bases API
+  slug: frontline-knowledge-bases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/openapi/frontline-knowledge-bases-api-openapi.yml
+- filename: frontline-user-tasks-api-openapi.yml
+  format: yaml
+  label: Frontline User Tasks API
+  slug: frontline-user-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/openapi/frontline-user-tasks-api-openapi.yml
+- filename: frontline-users-api-openapi.yml
+  format: yaml
+  label: Frontline Users API
+  slug: frontline-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/openapi/frontline-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

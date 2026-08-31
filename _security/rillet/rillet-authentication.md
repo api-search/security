@@ -170,6 +170,12 @@ api_specs:
   slug: rillet-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-vendors-api-openapi.yml
+- filename: rillet-webhooks-api-openapi.yml
+  format: yaml
+  label: Rillet Webhooks API
+  slug: rillet-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2

@@ -42,8 +42,8 @@ name_suffix: Authentication
 oauth_flows:
 - authorizationCode
 - clientCredentials
-overview: activision-blizzard secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode and clientCredentials flow(s).
-provider_name: activision-blizzard
+overview: Activision Blizzard secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode and clientCredentials flow(s).
+provider_name: Activision Blizzard
 provider_slug: activision-blizzard
 scheme_count: 1
 schemes:

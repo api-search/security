@@ -1,18 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tegna-content-api-openapi.yml
+- filename: tegna-aioseo-v1-api-openapi.yml
   format: yaml
-  label: TEGNA Content API (WordPress REST)
-  slug: tegna-content-api
+  label: TEGNA Aioseo/v1 API
+  slug: tegna-aioseo-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-content-api-openapi.yml
-- filename: tegna-premion-content-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-aioseo-v1-api-openapi.yml
+- filename: tegna-contact-form-7-v1-api-openapi.yml
   format: yaml
-  label: PREMION Content API (WordPress REST)
-  slug: tegna-premion-content-api
+  label: TEGNA Contact Form 7/v1 API
+  slug: tegna-contact-form-7-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-premion-content-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-contact-form-7-v1-api-openapi.yml
+- filename: tegna-oembed-1-0-api-openapi.yml
+  format: yaml
+  label: TEGNA Oembed/1.0 API
+  slug: tegna-oembed-1-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-oembed-1-0-api-openapi.yml
+- filename: tegna-wp-abilities-v1-api-openapi.yml
+  format: yaml
+  label: TEGNA Wp Abilities/v1 API
+  slug: tegna-wp-abilities-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-wp-abilities-v1-api-openapi.yml
+- filename: tegna-wp-v2-api-openapi.yml
+  format: yaml
+  label: TEGNA Wp/v2 API
+  slug: tegna-wp-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-wp-v2-api-openapi.yml
+- filename: tegna-yoast-v1-api-openapi.yml
+  format: yaml
+  label: TEGNA Yoast/v1 API
+  slug: tegna-yoast-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/openapi/tegna-yoast-v1-api-openapi.yml
 auth_types:
 - http
 description: ''

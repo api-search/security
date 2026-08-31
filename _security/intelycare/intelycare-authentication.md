@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: intelycare-external-scheduling-openapi.yml
+- filename: intelycare-check-in-check-out-api-openapi.yml
   format: yaml
-  label: IntelyCare External Scheduling API
-  slug: intelycare-external-scheduling-api
+  label: IntelyCare Check In / Check Out API
+  slug: intelycare-check-in-check-out-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-external-scheduling-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-check-in-check-out-api-openapi.yml
+- filename: intelycare-shift-api-openapi.yml
+  format: yaml
+  label: IntelyCare Shift API
+  slug: intelycare-shift-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-shift-api-openapi.yml
+- filename: intelycare-timecard-api-openapi.yml
+  format: yaml
+  label: IntelyCare Timecard API
+  slug: intelycare-timecard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-timecard-api-openapi.yml
+- filename: intelycare-webhook-events-api-openapi.yml
+  format: yaml
+  label: IntelyCare Webhook Events API
+  slug: intelycare-webhook-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-webhook-events-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

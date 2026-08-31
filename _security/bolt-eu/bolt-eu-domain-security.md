@@ -18,6 +18,24 @@ api_specs:
   slug: bolt-eu-validateloyaltycard-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-validateloyaltycard-api-openapi.yml
+- filename: bolt-eu-bolt-delivery-api-api-openapi.yml
+  format: yaml
+  label: Bolt Bolt Delivery API
+  slug: bolt-eu-bolt-delivery-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-bolt-delivery-api-api-openapi.yml
+- filename: bolt-eu-bolt-food-api-api-openapi.yml
+  format: yaml
+  label: Bolt Bolt Food API
+  slug: bolt-eu-bolt-food-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-bolt-food-api-api-openapi.yml
+- filename: bolt-eu-bolt-stores-api-api-openapi.yml
+  format: yaml
+  label: Bolt Bolt Stores API
+  slug: bolt-eu-bolt-stores-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-bolt-stores-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

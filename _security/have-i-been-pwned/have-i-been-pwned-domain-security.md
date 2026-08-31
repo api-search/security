@@ -84,6 +84,42 @@ api_specs:
   slug: have-i-been-pwned-subscription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-subscription-api-openapi.yml
+- filename: have-i-been-pwned-breached-accounts-api-openapi.yml
+  format: yaml
+  label: Have I Been Pwned Breached Accounts API
+  slug: have-i-been-pwned-breached-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-breached-accounts-api-openapi.yml
+- filename: have-i-been-pwned-data-classes-api-openapi.yml
+  format: yaml
+  label: Have I Been Pwned Data Classes API
+  slug: have-i-been-pwned-data-classes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-data-classes-api-openapi.yml
+- filename: have-i-been-pwned-domain-search-api-openapi.yml
+  format: yaml
+  label: Have I Been Pwned Domain Search API
+  slug: have-i-been-pwned-domain-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-domain-search-api-openapi.yml
+- filename: have-i-been-pwned-pastes-api-openapi.yml
+  format: yaml
+  label: Have I Been Pwned Pastes API
+  slug: have-i-been-pwned-pastes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-pastes-api-openapi.yml
+- filename: have-i-been-pwned-range-search-api-openapi.yml
+  format: yaml
+  label: Have I Been Pwned Range Search API
+  slug: have-i-been-pwned-range-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-range-search-api-openapi.yml
+- filename: have-i-been-pwned-stealer-logs-api-openapi.yml
+  format: yaml
+  label: Have I Been Pwned Stealer Logs API
+  slug: have-i-been-pwned-stealer-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-stealer-logs-api-openapi.yml
 description: ''
 domains:
 - caa:

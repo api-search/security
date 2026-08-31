@@ -1,120 +1,114 @@
 ---
 api_key_in: []
 api_specs:
-- filename: dwolla-accounts-openapi.yml
+- filename: dwolla-accounts-api-openapi.yml
   format: yaml
   label: Dwolla Accounts API
   slug: dwolla-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-accounts-openapi.yml
-- filename: dwolla-customers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-accounts-api-openapi.yml
+- filename: dwolla-beneficial-owners-api-openapi.yml
+  format: yaml
+  label: Dwolla beneficial owners API
+  slug: dwolla-beneficial-owners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-beneficial-owners-api-openapi.yml
+- filename: dwolla-client-tokens-api-openapi.yml
+  format: yaml
+  label: Dwolla client tokens API
+  slug: dwolla-client-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-client-tokens-api-openapi.yml
+- filename: dwolla-customers-api-openapi.yml
   format: yaml
   label: Dwolla Customers API
   slug: dwolla-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-customers-openapi.yml
-- filename: dwolla-beneficial-owners-openapi.yml
-  format: yaml
-  label: Dwolla Beneficial Owners API
-  slug: dwolla-beneficial-owners-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-beneficial-owners-openapi.yml
-- filename: dwolla-kba-openapi.yml
-  format: yaml
-  label: Dwolla KBA API
-  slug: dwolla-kba-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-kba-openapi.yml
-- filename: dwolla-documents-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-customers-api-openapi.yml
+- filename: dwolla-documents-api-openapi.yml
   format: yaml
   label: Dwolla Documents API
   slug: dwolla-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-documents-openapi.yml
-- filename: dwolla-funding-sources-openapi.yml
-  format: yaml
-  label: Dwolla Funding Sources API
-  slug: dwolla-funding-sources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-funding-sources-openapi.yml
-- filename: dwolla-transfers-openapi.yml
-  format: yaml
-  label: Dwolla Transfers API
-  slug: dwolla-transfers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-transfers-openapi.yml
-- filename: dwolla-mass-payments-openapi.yml
-  format: yaml
-  label: Dwolla Mass Payments API
-  slug: dwolla-mass-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-mass-payments-openapi.yml
-- filename: dwolla-labels-openapi.yml
-  format: yaml
-  label: Dwolla Labels API
-  slug: dwolla-labels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-labels-openapi.yml
-- filename: dwolla-exchanges-openapi.yml
-  format: yaml
-  label: Dwolla Exchanges API
-  slug: dwolla-exchanges-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-exchanges-openapi.yml
-- filename: dwolla-exchange-sessions-openapi.yml
-  format: yaml
-  label: Dwolla Exchange Sessions API
-  slug: dwolla-exchange-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-exchange-sessions-openapi.yml
-- filename: dwolla-events-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-documents-api-openapi.yml
+- filename: dwolla-events-api-openapi.yml
   format: yaml
   label: Dwolla Events API
   slug: dwolla-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-events-openapi.yml
-- filename: dwolla-webhook-subscriptions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-events-api-openapi.yml
+- filename: dwolla-exchange-sessions-api-openapi.yml
   format: yaml
-  label: Dwolla Webhook Subscriptions API
-  slug: dwolla-webhook-subscriptions-api
+  label: Dwolla exchange sessions API
+  slug: dwolla-exchange-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-webhook-subscriptions-openapi.yml
-- filename: dwolla-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-exchange-sessions-api-openapi.yml
+- filename: dwolla-exchanges-api-openapi.yml
   format: yaml
-  label: Dwolla Webhooks API
-  slug: dwolla-webhooks-api
+  label: Dwolla Exchanges API
+  slug: dwolla-exchanges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-webhooks-openapi.yml
-- filename: dwolla-client-tokens-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-exchanges-api-openapi.yml
+- filename: dwolla-funding-sources-api-openapi.yml
   format: yaml
-  label: Dwolla Client Tokens API
-  slug: dwolla-client-tokens-api
+  label: Dwolla funding sources API
+  slug: dwolla-funding-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-client-tokens-openapi.yml
-- filename: dwolla-tokens-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-funding-sources-api-openapi.yml
+- filename: dwolla-kba-api-openapi.yml
   format: yaml
-  label: Dwolla Tokens API
-  slug: dwolla-tokens-api
+  label: Dwolla Kba API
+  slug: dwolla-kba-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-tokens-openapi.yml
-- filename: dwolla-root-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-kba-api-openapi.yml
+- filename: dwolla-labels-api-openapi.yml
+  format: yaml
+  label: Dwolla Labels API
+  slug: dwolla-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-labels-api-openapi.yml
+- filename: dwolla-mass-payments-api-openapi.yml
+  format: yaml
+  label: Dwolla mass payments API
+  slug: dwolla-mass-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-mass-payments-api-openapi.yml
+- filename: dwolla-root-api-openapi.yml
   format: yaml
   label: Dwolla Root API
   slug: dwolla-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-root-openapi.yml
-- filename: dwolla-sandbox-simulations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-root-api-openapi.yml
+- filename: dwolla-sandbox-simulations-api-openapi.yml
   format: yaml
-  label: Dwolla Sandbox Simulations API
+  label: Dwolla sandbox simulations API
   slug: dwolla-sandbox-simulations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-sandbox-simulations-openapi.yml
-- filename: dwolla-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-sandbox-simulations-api-openapi.yml
+- filename: dwolla-tokens-api-openapi.yml
   format: yaml
-  label: Dwolla API
-  slug: dwolla-openapi
+  label: Dwolla Tokens API
+  slug: dwolla-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-tokens-api-openapi.yml
+- filename: dwolla-transfers-api-openapi.yml
+  format: yaml
+  label: Dwolla Transfers API
+  slug: dwolla-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-transfers-api-openapi.yml
+- filename: dwolla-webhook-subscriptions-api-openapi.yml
+  format: yaml
+  label: Dwolla webhook subscriptions API
+  slug: dwolla-webhook-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-webhook-subscriptions-api-openapi.yml
+- filename: dwolla-webhooks-api-openapi.yml
+  format: yaml
+  label: Dwolla Webhooks API
+  slug: dwolla-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

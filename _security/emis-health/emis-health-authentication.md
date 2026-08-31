@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: emis-health-partner-api-openapi.json
-  format: json
-  label: EMIS Partner API (PAPI)
-  slug: emis-partner-api
+- filename: emis-health-appointments-api-openapi.yml
+  format: yaml
+  label: EMIS Health Appointments API
+  slug: emis-health-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-partner-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-appointments-api-openapi.yml
+- filename: emis-health-cors-api-openapi.yml
+  format: yaml
+  label: EMIS Health CORS API
+  slug: emis-health-cors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-cors-api-openapi.yml
+- filename: emis-health-health-api-openapi.yml
+  format: yaml
+  label: EMIS Health Health API
+  slug: emis-health-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-health-api-openapi.yml
+- filename: emis-health-medicalrecord-api-openapi.yml
+  format: yaml
+  label: EMIS Health Medical Record API
+  slug: emis-health-medicalrecord-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-medicalrecord-api-openapi.yml
+- filename: emis-health-organisation-api-openapi.yml
+  format: yaml
+  label: EMIS Health Organisation API
+  slug: emis-health-organisation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-organisation-api-openapi.yml
+- filename: emis-health-patient-api-openapi.yml
+  format: yaml
+  label: EMIS Health Patient API
+  slug: emis-health-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-patient-api-openapi.yml
+- filename: emis-health-patientmatching-api-openapi.yml
+  format: yaml
+  label: EMIS Health Patient Matching API
+  slug: emis-health-patientmatching-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-patientmatching-api-openapi.yml
+- filename: emis-health-search-api-openapi.yml
+  format: yaml
+  label: EMIS Health Search API
+  slug: emis-health-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-search-api-openapi.yml
+- filename: emis-health-swagger-api-openapi.yml
+  format: yaml
+  label: EMIS Health Swagger API
+  slug: emis-health-swagger-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-swagger-api-openapi.yml
+- filename: emis-health-user-api-openapi.yml
+  format: yaml
+  label: EMIS Health User API
+  slug: emis-health-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-user-api-openapi.yml
 auth_types:
 - http
 - oauth2

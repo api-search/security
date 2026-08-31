@@ -14,8 +14,8 @@ layout: security
 method: probed
 name: Eog Resources Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for eog-resources, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC present, SPF absent, DMARC absent.'
-provider_name: eog-resources
+overview: 'Domain security posture for EOG Resources, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC present, SPF absent, DMARC absent.'
+provider_name: EOG Resources
 provider_slug: eog-resources
 slug: eog-resources-domain-security
 source_filename: eog-resources-domain-security.yml

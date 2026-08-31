@@ -1,41 +1,29 @@
 ---
 api_specs:
-- filename: university-of-edinburgh-datashare-repository-api-openapi.yml
-  format: yaml
-  label: Edinburgh DataShare REST API
-  slug: datashare-repository-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-datashare-repository-api-openapi.yml
-- filename: university-of-edinburgh-datashare-oai-pmh-openapi.yml
-  format: yaml
-  label: Edinburgh DataShare OAI-PMH
-  slug: datashare-oai
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-datashare-oai-pmh-openapi.yml
-- filename: university-of-edinburgh-era-repository-api-openapi.yml
-  format: yaml
-  label: Edinburgh Research Archive (ERA) REST API
-  slug: era-repository-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-era-repository-api-openapi.yml
-- filename: university-of-edinburgh-era-oai-pmh-openapi.yml
-  format: yaml
-  label: Edinburgh Research Archive (ERA) OAI-PMH
-  slug: era-oai
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-era-oai-pmh-openapi.yml
-- filename: university-of-edinburgh-eidf-data-catalogue-api-openapi.yml
-  format: yaml
-  label: EIDF Data Catalogue API
-  slug: eidf-data-catalogue-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-eidf-data-catalogue-api-openapi.yml
 - filename: university-of-edinburgh-elm-api-openapi.yml
   format: yaml
   label: ELM — Edinburgh Language Models API
   slug: elm-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-elm-api-openapi.yml
+- filename: university-of-edinburgh-catalogue-api-openapi.yml
+  format: yaml
+  label: University of Edinburgh Catalogue API
+  slug: university-of-edinburgh-catalogue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-catalogue-api-openapi.yml
+- filename: university-of-edinburgh-oai-pmh-api-openapi.yml
+  format: yaml
+  label: University of Edinburgh OAI PMH API
+  slug: university-of-edinburgh-oai-pmh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-oai-pmh-api-openapi.yml
+- filename: university-of-edinburgh-repository-api-openapi.yml
+  format: yaml
+  label: University of Edinburgh Repository API
+  slug: university-of-edinburgh-repository-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-repository-api-openapi.yml
 description: ''
 domains:
 - caa: []

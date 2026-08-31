@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: simon-data-audience-api-openapi.yml
+- filename: simon-data-contacts-api-openapi.yml
   format: yaml
-  label: Simon Data Audience API
+  label: Simon Data Contacts API
   slug: simon-data-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-audience-api-openapi.yml
-- filename: simon-data-event-ingestion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-contacts-api-openapi.yml
+- filename: simon-data-events-api-openapi.yml
   format: yaml
-  label: Simon Data Event Ingestion API
+  label: Simon Data Events API
   slug: simon-data-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-event-ingestion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-events-api-openapi.yml
 description: ''
 domains:
 - caa: []

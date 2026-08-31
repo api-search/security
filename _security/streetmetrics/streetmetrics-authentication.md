@@ -1,12 +1,72 @@
 ---
 api_key_in: []
 api_specs:
-- filename: streetmetrics-public-api-openapi.json
-  format: json
-  label: StreetMetrics Public API
-  slug: streetmetrics-public-api
+- filename: streetmetrics-ad-groups-api-openapi.yml
+  format: yaml
+  label: StreetMetrics Ad Groups API
+  slug: streetmetrics-ad-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-public-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-ad-groups-api-openapi.yml
+- filename: streetmetrics-assets-api-openapi.yml
+  format: yaml
+  label: StreetMetrics Assets API
+  slug: streetmetrics-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-assets-api-openapi.yml
+- filename: streetmetrics-attribution-studies-api-openapi.yml
+  format: yaml
+  label: StreetMetrics Attribution Studies API
+  slug: streetmetrics-attribution-studies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-attribution-studies-api-openapi.yml
+- filename: streetmetrics-authentication-api-openapi.yml
+  format: yaml
+  label: StreetMetrics Authentication API
+  slug: streetmetrics-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-authentication-api-openapi.yml
+- filename: streetmetrics-campaigns-api-openapi.yml
+  format: yaml
+  label: StreetMetrics Campaigns API
+  slug: streetmetrics-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-campaigns-api-openapi.yml
+- filename: streetmetrics-creatives-api-openapi.yml
+  format: yaml
+  label: StreetMetrics Creatives API
+  slug: streetmetrics-creatives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-creatives-api-openapi.yml
+- filename: streetmetrics-frames-api-openapi.yml
+  format: yaml
+  label: StreetMetrics Frames API
+  slug: streetmetrics-frames-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-frames-api-openapi.yml
+- filename: streetmetrics-markets-api-openapi.yml
+  format: yaml
+  label: StreetMetrics Markets API
+  slug: streetmetrics-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-markets-api-openapi.yml
+- filename: streetmetrics-media-api-openapi.yml
+  format: yaml
+  label: StreetMetrics Media API
+  slug: streetmetrics-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-media-api-openapi.yml
+- filename: streetmetrics-pixels-api-openapi.yml
+  format: yaml
+  label: StreetMetrics Pixels API
+  slug: streetmetrics-pixels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-pixels-api-openapi.yml
+- filename: streetmetrics-reporting-api-openapi.yml
+  format: yaml
+  label: StreetMetrics Reporting API
+  slug: streetmetrics-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/openapi/streetmetrics-reporting-api-openapi.yml
 auth_types:
 - http
 description: ''

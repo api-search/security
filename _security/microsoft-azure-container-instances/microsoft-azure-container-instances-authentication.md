@@ -23,8 +23,8 @@ name: Microsoft Azure Container Instances Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit
-overview: microsoft-azure-container-instances secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the implicit flow(s).
-provider_name: microsoft-azure-container-instances
+overview: Azure Container Instances secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the implicit flow(s).
+provider_name: Azure Container Instances
 provider_slug: microsoft-azure-container-instances
 scheme_count: 1
 schemes:

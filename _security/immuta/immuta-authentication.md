@@ -2,12 +2,72 @@
 api_key_in:
 - header
 api_specs:
-- filename: immuta-marketplace-api-openapi.yml
+- filename: immuta-access-request-api-openapi.yml
   format: yaml
-  label: Immuta Data Marketplace API
-  slug: marketplace-api
+  label: Immuta Access Request API
+  slug: immuta-access-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-marketplace-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-access-request-api-openapi.yml
+- filename: immuta-asset-api-openapi.yml
+  format: yaml
+  label: Immuta Asset API
+  slug: immuta-asset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-asset-api-openapi.yml
+- filename: immuta-auth-api-openapi.yml
+  format: yaml
+  label: Immuta Auth API
+  slug: immuta-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-auth-api-openapi.yml
+- filename: immuta-data-product-api-openapi.yml
+  format: yaml
+  label: Immuta Data Product API
+  slug: immuta-data-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-data-product-api-openapi.yml
+- filename: immuta-data-source-api-openapi.yml
+  format: yaml
+  label: Immuta Data Source API
+  slug: immuta-data-source-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-data-source-api-openapi.yml
+- filename: immuta-data-use-agreement-api-openapi.yml
+  format: yaml
+  label: Immuta Data Use Agreement API
+  slug: immuta-data-use-agreement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-data-use-agreement-api-openapi.yml
+- filename: immuta-health-api-openapi.yml
+  format: yaml
+  label: Immuta Health API
+  slug: immuta-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-health-api-openapi.yml
+- filename: immuta-metadata-api-openapi.yml
+  format: yaml
+  label: Immuta Metadata API
+  slug: immuta-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-metadata-api-openapi.yml
+- filename: immuta-notification-api-openapi.yml
+  format: yaml
+  label: Immuta Notification API
+  slug: immuta-notification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-notification-api-openapi.yml
+- filename: immuta-request-form-api-openapi.yml
+  format: yaml
+  label: Immuta Request Form API
+  slug: immuta-request-form-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-request-form-api-openapi.yml
+- filename: immuta-settings-api-openapi.yml
+  format: yaml
+  label: Immuta Settings API
+  slug: immuta-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-settings-api-openapi.yml
 auth_types:
 - http
 - apiKey

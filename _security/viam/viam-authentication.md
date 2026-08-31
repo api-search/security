@@ -2,12 +2,6 @@
 api_key_in:
 - header
 api_specs:
-- filename: viam-provisioning-api-openapi.yml
-  format: yaml
-  label: Viam Provisioning API
-  slug: viam-provisioning-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/openapi/viam-provisioning-api-openapi.yml
 - filename: viam-arm-api-openapi.yml
   format: yaml
   label: Viam Arm API

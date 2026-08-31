@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: green-button-alliance-espi-openapi.json
-  format: json
-  label: PG&E Share My Data (Green Button Connect My Data) ESPI API
-  slug: pge-share-my-data-espi-api
+- filename: pge-applicationinformation-api-openapi.yml
+  format: yaml
+  label: Pacific Gas and Electric Application Information API
+  slug: pge-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/green-button-alliance-espi-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-applicationinformation-api-openapi.yml
+- filename: pge-authorization-api-openapi.yml
+  format: yaml
+  label: Pacific Gas and Electric Authorization API
+  slug: pge-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-authorization-api-openapi.yml
+- filename: pge-batch-api-openapi.yml
+  format: yaml
+  label: Pacific Gas and Electric Batch API
+  slug: pge-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-batch-api-openapi.yml
+- filename: pge-usagepoint-api-openapi.yml
+  format: yaml
+  label: Pacific Gas and Electric Usage Point API
+  slug: pge-usagepoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-usagepoint-api-openapi.yml
 auth_types:
 - oauth2
 - mutualTLS

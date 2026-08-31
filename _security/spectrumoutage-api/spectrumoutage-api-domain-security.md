@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: spectrumoutage-api-locations-api-openapi.yml
   format: yaml
-  label: SpectrumOutage API v1
-  slug: spectrumoutage-api-v1
+  label: SpectrumOutage API Locations API
+  slug: spectrumoutage-api-locations-api
   spec_type: OpenAPI
-  url: https://api.spectrumoutage.us/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/openapi/spectrumoutage-api-locations-api-openapi.yml
+- filename: spectrumoutage-api-map-api-openapi.yml
+  format: yaml
+  label: SpectrumOutage API Map API
+  slug: spectrumoutage-api-map-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/openapi/spectrumoutage-api-map-api-openapi.yml
+- filename: spectrumoutage-api-reports-api-openapi.yml
+  format: yaml
+  label: SpectrumOutage API Reports API
+  slug: spectrumoutage-api-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/openapi/spectrumoutage-api-reports-api-openapi.yml
+- filename: spectrumoutage-api-stats-api-openapi.yml
+  format: yaml
+  label: SpectrumOutage API Stats API
+  slug: spectrumoutage-api-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/openapi/spectrumoutage-api-stats-api-openapi.yml
 description: ''
 domains:
 - caa: []

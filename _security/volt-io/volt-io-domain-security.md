@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: volt-io-accounts-openapi-original.yaml
+- filename: volt-io-account-holder-verification-api-openapi.yml
+  format: yaml
+  label: Volt Account Holder Verification API
+  slug: volt-io-account-holder-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/openapi/volt-io-account-holder-verification-api-openapi.yml
+- filename: volt-io-accounts-api-openapi.yml
   format: yaml
   label: Volt Accounts API
-  slug: volt-accounts-api
+  slug: volt-io-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/openapi/volt-io-accounts-openapi-original.yaml
-- filename: volt-io-accounts-common.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/openapi/volt-io-accounts-api-openapi.yml
+- filename: volt-io-aliases-api-openapi.yml
   format: yaml
-  label: Volt Global Api Accounts
-  slug: volt-io-accounts-common
+  label: Volt Aliases API
+  slug: volt-io-aliases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/openapi/volt-io-accounts-common.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/openapi/volt-io-aliases-api-openapi.yml
+- filename: volt-io-named-accounts-api-openapi.yml
+  format: yaml
+  label: Volt Named Accounts API
+  slug: volt-io-named-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/openapi/volt-io-named-accounts-api-openapi.yml
+- filename: volt-io-sandbox-api-openapi.yml
+  format: yaml
+  label: Volt Sandbox API
+  slug: volt-io-sandbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/openapi/volt-io-sandbox-api-openapi.yml
+- filename: volt-io-transactions-api-openapi.yml
+  format: yaml
+  label: Volt Transactions API
+  slug: volt-io-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/openapi/volt-io-transactions-api-openapi.yml
+- filename: volt-io-trusted-accounts-api-openapi.yml
+  format: yaml
+  label: Volt Trusted accounts API
+  slug: volt-io-trusted-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/openapi/volt-io-trusted-accounts-api-openapi.yml
 description: ''
 domains:
 - caa: []

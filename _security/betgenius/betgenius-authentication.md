@@ -2,24 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: betgenius-booking-v2-openapi.yml
+- filename: betgenius-bookingv1-api-openapi.yml
   format: yaml
-  label: BetGenius Booking API V2
-  slug: betgenius-booking-api-v2
+  label: BetGenius Booking V1 API
+  slug: betgenius-bookingv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-booking-v2-openapi.yml
-- filename: betgenius-booking-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-bookingv1-api-openapi.yml
+- filename: betgenius-bookingv2-api-openapi.yml
   format: yaml
-  label: BetGenius Booking API V1
-  slug: betgenius-booking-api-v1
+  label: BetGenius Booking V2 API
+  slug: betgenius-bookingv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-booking-v1-openapi.yml
-- filename: betgenius-video-v3-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-bookingv2-api-openapi.yml
+- filename: betgenius-fixtures-api-openapi.yml
   format: yaml
-  label: BetGenius Video Streaming API v3
-  slug: betgenius-video-streaming-api-v3
+  label: BetGenius Fixtures API
+  slug: betgenius-fixtures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-video-v3-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-fixtures-api-openapi.yml
+- filename: betgenius-regions-api-openapi.yml
+  format: yaml
+  label: BetGenius Regions API
+  slug: betgenius-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-regions-api-openapi.yml
 auth_types:
 - http
 - apiKey

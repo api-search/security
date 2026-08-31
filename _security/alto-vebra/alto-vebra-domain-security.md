@@ -1,29 +1,179 @@
 ---
 api_specs:
-- filename: alto-api-openapi.json
-  format: json
-  label: Alto API
-  slug: alto-api
+- filename: alto-vebra-appointments-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Appointments API
+  slug: alto-vebra-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-api-openapi.json
-- filename: zoopla-leads-api-openapi.json
-  format: json
-  label: Zoopla Leads API
-  slug: zoopla-leads-api
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-appointments-api-openapi.yml
+- filename: alto-vebra-appraisals-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Appraisals API
+  slug: alto-vebra-appraisals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/zoopla-leads-api-openapi.json
-- filename: zoopla-premium-listing-activations-openapi.json
-  format: json
-  label: Zoopla Premium Listing Activations API
-  slug: zoopla-premium-listing-activations-api
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-appraisals-api-openapi.yml
+- filename: alto-vebra-branches-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Branches API
+  slug: alto-vebra-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/zoopla-premium-listing-activations-openapi.json
-- filename: zoopla-weekly-featured-property-openapi.json
-  format: json
-  label: Zoopla Weekly Featured Property (WFP) Activations API
-  slug: zoopla-weekly-featured-property-api
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-branches-api-openapi.yml
+- filename: alto-vebra-charges-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Charges API
+  slug: alto-vebra-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/zoopla-weekly-featured-property-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-charges-api-openapi.yml
+- filename: alto-vebra-clients-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Clients API
+  slug: alto-vebra-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-clients-api-openapi.yml
+- filename: alto-vebra-contacts-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Contacts API
+  slug: alto-vebra-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-contacts-api-openapi.yml
+- filename: alto-vebra-documents-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Documents API
+  slug: alto-vebra-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-documents-api-openapi.yml
+- filename: alto-vebra-filenotes-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) File Notes API
+  slug: alto-vebra-filenotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-filenotes-api-openapi.yml
+- filename: alto-vebra-inventory-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Inventory API
+  slug: alto-vebra-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-inventory-api-openapi.yml
+- filename: alto-vebra-landlords-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Landlords API
+  slug: alto-vebra-landlords-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-landlords-api-openapi.yml
+- filename: alto-vebra-leads-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Leads API
+  slug: alto-vebra-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-leads-api-openapi.yml
+- filename: alto-vebra-lettingsprogression-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Lettings Progression API
+  slug: alto-vebra-lettingsprogression-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-lettingsprogression-api-openapi.yml
+- filename: alto-vebra-listing-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Listing API
+  slug: alto-vebra-listing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-listing-api-openapi.yml
+- filename: alto-vebra-managementevents-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Management Events API
+  slug: alto-vebra-managementevents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-managementevents-api-openapi.yml
+- filename: alto-vebra-media-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Media API
+  slug: alto-vebra-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-media-api-openapi.yml
+- filename: alto-vebra-negotiators-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Negotiators API
+  slug: alto-vebra-negotiators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-negotiators-api-openapi.yml
+- filename: alto-vebra-offers-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Offers API
+  slug: alto-vebra-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-offers-api-openapi.yml
+- filename: alto-vebra-owners-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Owners API
+  slug: alto-vebra-owners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-owners-api-openapi.yml
+- filename: alto-vebra-parameters-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Parameters API
+  slug: alto-vebra-parameters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-parameters-api-openapi.yml
+- filename: alto-vebra-partners-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Partners API
+  slug: alto-vebra-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-partners-api-openapi.yml
+- filename: alto-vebra-products-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Products API
+  slug: alto-vebra-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-products-api-openapi.yml
+- filename: alto-vebra-referencechecks-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Reference Checks API
+  slug: alto-vebra-referencechecks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-referencechecks-api-openapi.yml
+- filename: alto-vebra-referral-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Referral API
+  slug: alto-vebra-referral-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-referral-api-openapi.yml
+- filename: alto-vebra-referrals-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Referrals API
+  slug: alto-vebra-referrals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-referrals-api-openapi.yml
+- filename: alto-vebra-rest-endpoints-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) REST Endpoints API
+  slug: alto-vebra-rest-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-rest-endpoints-api-openapi.yml
+- filename: alto-vebra-salesprogression-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Sales Progression API
+  slug: alto-vebra-salesprogression-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-salesprogression-api-openapi.yml
+- filename: alto-vebra-suppliers-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Suppliers API
+  slug: alto-vebra-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-suppliers-api-openapi.yml
+- filename: alto-vebra-tenancies-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Tenancies API
+  slug: alto-vebra-tenancies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-tenancies-api-openapi.yml
+- filename: alto-vebra-workorders-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) Work Orders API
+  slug: alto-vebra-workorders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-workorders-api-openapi.yml
 description: ''
 domains:
 - caa: []

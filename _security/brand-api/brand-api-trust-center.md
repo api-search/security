@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: brand-api-brandfetch-openapi.yml
-  format: yaml
-  label: Brandfetch API
-  slug: brandfetch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-brandfetch-openapi.yml
 - filename: brand-api-brands-api-openapi.yml
   format: yaml
   label: Brand API (Brandfetch) Brands API
   slug: brand-api-brands-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-brands-api-openapi.yml
+- filename: brand-api-context-api-openapi.yml
+  format: yaml
+  label: Brand API (Brandfetch) Context API
+  slug: brand-api-context-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-context-api-openapi.yml
+- filename: brand-api-search-api-openapi.yml
+  format: yaml
+  label: Brand API (Brandfetch) Search API
+  slug: brand-api-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-search-api-openapi.yml
+- filename: brand-api-viewer-api-openapi.yml
+  format: yaml
+  label: Brand API (Brandfetch) Viewer API
+  slug: brand-api-viewer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-viewer-api-openapi.yml
 certifications:
 - SOC 2 Type 2
 description: ''

@@ -23,8 +23,8 @@ name: Microsoft Azure Cost Management Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit
-overview: microsoft-azure-cost-management secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the implicit flow(s).
-provider_name: microsoft-azure-cost-management
+overview: Azure Cost Management secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the implicit flow(s).
+provider_name: Azure Cost Management
 provider_slug: microsoft-azure-cost-management
 scheme_count: 1
 schemes:

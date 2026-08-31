@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: color-external-api-v1-openapi.yml
+- filename: color-eligibility-api-openapi.yml
   format: yaml
-  label: Color External API V1
+  label: Color Eligibility API
   slug: color-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/openapi/color-external-api-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/openapi/color-eligibility-api-openapi.yml
+- filename: color-populations-api-openapi.yml
+  format: yaml
+  label: Color Populations API
+  slug: color-populations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/openapi/color-populations-api-openapi.yml
+- filename: color-samples-api-openapi.yml
+  format: yaml
+  label: Color Samples API
+  slug: color-samples-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/openapi/color-samples-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -22,8 +22,8 @@ layout: security
 method: probed
 name: Pinnacle Entertainment Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for pinnacle-entertainment, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: pinnacle-entertainment
+overview: 'Domain security posture for Pinnacle Entertainment, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Pinnacle Entertainment
 provider_slug: pinnacle-entertainment
 slug: pinnacle-entertainment-domain-security
 source_filename: pinnacle-entertainment-domain-security.yml

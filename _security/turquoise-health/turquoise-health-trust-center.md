@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: turquoise-health-consumer-pricing-openapi.yml
+- filename: turquoise-health-consumer-pricing-api-openapi.yml
   format: yaml
-  label: Turquoise Consumer Pricing API
-  slug: turquoise-consumer-pricing-api
+  label: Turquoise Health Consumer Pricing API
+  slug: turquoise-health-consumer-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/openapi/turquoise-health-consumer-pricing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/openapi/turquoise-health-consumer-pricing-api-openapi.yml
 certifications:
 - SOC 2 Type II
 - HIPAA

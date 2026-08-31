@@ -14,6 +14,12 @@ api_specs:
   slug: idrx-transaction-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/openapi/idrx-transaction-api-openapi.yml
+- filename: idrx-idrx-api-api-openapi.yml
+  format: yaml
+  label: IDRX IDRX API
+  slug: idrx-idrx-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/openapi/idrx-idrx-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

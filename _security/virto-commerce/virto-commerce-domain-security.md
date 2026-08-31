@@ -66,18 +66,18 @@ api_specs:
   slug: virto-commerce-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-webhooks-api-openapi.yml
-- filename: virto-commerce-event-bus-api-openapi.yml
-  format: yaml
-  label: Virto Commerce Event Bus API
-  slug: virto-commerce-event-bus-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-event-bus-api-openapi.yml
 - filename: virto-commerce-returns-api-openapi.yml
   format: yaml
   label: Virto Commerce Returns API
   slug: virto-commerce-returns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-returns-api-openapi.yml
+- filename: virto-commerce-event-bus-module-api-openapi.yml
+  format: yaml
+  label: Virto Commerce Event Bus module API
+  slug: virto-commerce-event-bus-module-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-event-bus-module-api-openapi.yml
 description: ''
 domains:
 - caa:

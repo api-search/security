@@ -12,30 +12,6 @@ api_specs:
   slug: tollbit-dev-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-dev-api-openapi.yml
-- filename: tollbit-get-catalog-of-pages-for-property-api-openapi.yml
-  format: yaml
-  label: Tollbit Get Catalog of Pages for Property API
-  slug: tollbit-get-catalog-of-pages-for-property-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-get-catalog-of-pages-for-property-api-openapi.yml
-- filename: tollbit-get-tollbit-content-api-openapi.yml
-  format: yaml
-  label: Tollbit Get Tollbit Content API
-  slug: tollbit-get-tollbit-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-get-tollbit-content-api-openapi.yml
-- filename: tollbit-get-tollbit-rates-api-openapi.yml
-  format: yaml
-  label: Tollbit Get Tollbit Rates API
-  slug: tollbit-get-tollbit-rates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-get-tollbit-rates-api-openapi.yml
-- filename: tollbit-report-content-usage-api-openapi.yml
-  format: yaml
-  label: Tollbit Report Content Usage API
-  slug: tollbit-report-content-usage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-report-content-usage-api-openapi.yml
 - filename: tollbit-reporting-api-openapi.yml
   format: yaml
   label: Tollbit Reporting API
@@ -48,12 +24,6 @@ api_specs:
   slug: tollbit-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-search-api-openapi.yml
-- filename: tollbit-search-content-api-openapi.yml
-  format: yaml
-  label: Tollbit Search Content API
-  slug: tollbit-search-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-search-content-api-openapi.yml
 - filename: tollbit-tollbit-content-api-openapi.yml
   format: yaml
   label: Tollbit Tollbit Content API

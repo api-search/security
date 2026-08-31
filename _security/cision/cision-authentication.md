@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: cision-cisionone-openapi.yml
+- filename: cision-mentions-api-openapi.yml
   format: yaml
-  label: CisionOne API
-  slug: cisionone-api
+  label: Cision Mentions API
+  slug: cision-mentions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/openapi/cision-cisionone-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/openapi/cision-mentions-api-openapi.yml
+- filename: cision-stream-api-openapi.yml
+  format: yaml
+  label: Cision Stream API
+  slug: cision-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/openapi/cision-stream-api-openapi.yml
 auth_types:
 - apiKey
 description: Cision runs two separately-authenticated API surfaces, both token-based and neither using OAuth. The CisionOne API takes a long-lived API token minted in the CisionOne Admin panel and passed as the X-Auth-Token header. The Next Generation Cision Communications Cloud API (served on the api.trendkite.com host Cision inherited with its 2019 TrendKite acquisition) exchanges platform username/password credentials for an access_token at POST /api/login and then passes that token on the same X-Auth-Token header.

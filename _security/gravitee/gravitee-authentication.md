@@ -80,12 +80,6 @@ api_specs:
   slug: gravitee-dataplane-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-dataplane-api-openapi.yml
-- filename: gravitee-device-identifier-api-openapi.yml
-  format: yaml
-  label: Gravitee Device Identifier API
-  slug: gravitee-device-identifier-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-device-identifier-api-openapi.yml
 - filename: gravitee-device-identifiers-api-openapi.yml
   format: yaml
   label: Gravitee device identifiers API
@@ -176,12 +170,6 @@ api_specs:
   slug: gravitee-newsletter-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-newsletter-api-openapi.yml
-- filename: gravitee-notifier-api-openapi.yml
-  format: yaml
-  label: Gravitee Notifier API
-  slug: gravitee-notifier-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-notifier-api-openapi.yml
 - filename: gravitee-organizations-api-openapi.yml
   format: yaml
   label: Gravitee Organizations API
@@ -218,18 +206,6 @@ api_specs:
   slug: gravitee-plugins-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-plugins-api-openapi.yml
-- filename: gravitee-policy-api-openapi.yml
-  format: yaml
-  label: Gravitee Policy API
-  slug: gravitee-policy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-policy-api-openapi.yml
-- filename: gravitee-preview-api-openapi.yml
-  format: yaml
-  label: Gravitee preview API
-  slug: gravitee-preview-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-preview-api-openapi.yml
 - filename: gravitee-protected-resource-api-openapi.yml
   format: yaml
   label: Gravitee protected-resource API

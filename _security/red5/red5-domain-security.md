@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: red5-server-api-openapi.yml
-  format: yaml
-  label: Red5 Pro Server API
-  slug: server-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/openapi/red5-server-api-openapi.yml
 - filename: red5-webrtc-streaming-asyncapi.yml
   format: yaml
   label: Red5 Pro WebRTC SDK
@@ -18,12 +12,6 @@ api_specs:
   slug: red5-admin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/openapi/red5-admin-api-openapi.yml
-- filename: red5-applications-api-openapi.yml
-  format: yaml
-  label: Red5 Applications API
-  slug: red5-applications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/openapi/red5-applications-api-openapi.yml
 - filename: red5-file-restreamer-api-openapi.yml
   format: yaml
   label: Red5 File Restreamer API
@@ -42,12 +30,6 @@ api_specs:
   slug: red5-inputs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/openapi/red5-inputs-api-openapi.yml
-- filename: red5-logs-api-openapi.yml
-  format: yaml
-  label: Red5 Logs API
-  slug: red5-logs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/openapi/red5-logs-api-openapi.yml
 - filename: red5-mixers-api-openapi.yml
   format: yaml
   label: Red5 Mixers API

@@ -1,11 +1,107 @@
 ---
 api_specs:
-- filename: dyno-phi-openapi.yml
+- filename: dyno-admin-api-openapi.yml
   format: yaml
-  label: Dyno Phi — Protein Design API
-  slug: dyno-phi-protein-design-api
+  label: Dyno Admin API
+  slug: dyno-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-phi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-admin-api-openapi.yml
+- filename: dyno-agents-api-openapi.yml
+  format: yaml
+  label: Dyno Agents API
+  slug: dyno-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-agents-api-openapi.yml
+- filename: dyno-artifacts-api-openapi.yml
+  format: yaml
+  label: Dyno Artifacts API
+  slug: dyno-artifacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-artifacts-api-openapi.yml
+- filename: dyno-assets-api-openapi.yml
+  format: yaml
+  label: Dyno Assets API
+  slug: dyno-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-assets-api-openapi.yml
+- filename: dyno-auth-api-openapi.yml
+  format: yaml
+  label: Dyno Auth API
+  slug: dyno-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-auth-api-openapi.yml
+- filename: dyno-datasets-api-openapi.yml
+  format: yaml
+  label: Dyno Datasets API
+  slug: dyno-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-datasets-api-openapi.yml
+- filename: dyno-files-api-openapi.yml
+  format: yaml
+  label: Dyno Files API
+  slug: dyno-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-files-api-openapi.yml
+- filename: dyno-health-api-openapi.yml
+  format: yaml
+  label: Dyno Health API
+  slug: dyno-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-health-api-openapi.yml
+- filename: dyno-ingest-api-openapi.yml
+  format: yaml
+  label: Dyno Ingest API
+  slug: dyno-ingest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-ingest-api-openapi.yml
+- filename: dyno-jobs-api-openapi.yml
+  format: yaml
+  label: Dyno Jobs API
+  slug: dyno-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-jobs-api-openapi.yml
+- filename: dyno-phi-api-openapi.yml
+  format: yaml
+  label: Dyno Phi API
+  slug: dyno-phi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-phi-api-openapi.yml
+- filename: dyno-protocols-api-openapi.yml
+  format: yaml
+  label: Dyno Protocols API
+  slug: dyno-protocols-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-protocols-api-openapi.yml
+- filename: dyno-research-notes-api-openapi.yml
+  format: yaml
+  label: Dyno Research Notes API
+  slug: dyno-research-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-research-notes-api-openapi.yml
+- filename: dyno-runs-api-openapi.yml
+  format: yaml
+  label: Dyno Runs API
+  slug: dyno-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-runs-api-openapi.yml
+- filename: dyno-tools-api-openapi.yml
+  format: yaml
+  label: Dyno Tools API
+  slug: dyno-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-tools-api-openapi.yml
+- filename: dyno-tutorial-api-openapi.yml
+  format: yaml
+  label: Dyno Tutorial API
+  slug: dyno-tutorial-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-tutorial-api-openapi.yml
+- filename: dyno-workflows-api-openapi.yml
+  format: yaml
+  label: Dyno Workflows API
+  slug: dyno-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/openapi/dyno-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []

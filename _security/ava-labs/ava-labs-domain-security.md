@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: ava-labs-platform-api-openapi.yml
-  format: yaml
-  label: Avalanche Platform Chain API
-  slug: avalanche-platform-chain-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-platform-api-openapi.yml
 - filename: ava-labs-avax-supply-api-openapi.yml
   format: yaml
   label: Ava Labs AVAX Supply API
@@ -168,6 +162,12 @@ api_specs:
   slug: ava-labs-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-webhooks-api-openapi.yml
+- filename: ava-labs-data-api-api-openapi.yml
+  format: yaml
+  label: Ava Labs Data API
+  slug: ava-labs-data-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-data-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

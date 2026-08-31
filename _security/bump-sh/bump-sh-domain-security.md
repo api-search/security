@@ -48,6 +48,12 @@ api_specs:
   slug: bump-sh-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bump-sh/refs/heads/main/openapi/bump-sh-versions-api-openapi.yml
+- filename: bump-sh-documentation-change-api-openapi.yml
+  format: yaml
+  label: Bump.sh Documentation change API
+  slug: bump-sh-documentation-change-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bump-sh/refs/heads/main/openapi/bump-sh-documentation-change-api-openapi.yml
 description: ''
 domains:
 - caa: []

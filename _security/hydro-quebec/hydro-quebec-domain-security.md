@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: hydro-quebec-open-data-explore-api-v2-1-openapi.json
-  format: json
-  label: Hydro-Québec Open Data Explore API v2.1
-  slug: hydro-quebec-open-data-explore-api-v2-1
+- filename: hydro-quebec-catalog-api-openapi.yml
+  format: yaml
+  label: Hydro-Québec Catalog API
+  slug: hydro-quebec-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/openapi/hydro-quebec-open-data-explore-api-v2-1-openapi.json
-- filename: hydro-quebec-open-data-explore-api-v2-0-openapi.json
-  format: json
-  label: Hydro-Québec Open Data Explore API v2.0
-  slug: hydro-quebec-open-data-explore-api-v2-0
+  url: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/openapi/hydro-quebec-catalog-api-openapi.yml
+- filename: hydro-quebec-dataset-api-openapi.yml
+  format: yaml
+  label: Hydro-Québec Dataset API
+  slug: hydro-quebec-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/openapi/hydro-quebec-open-data-explore-api-v2-0-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/openapi/hydro-quebec-dataset-api-openapi.yml
 description: ''
 domains:
 - caa: []

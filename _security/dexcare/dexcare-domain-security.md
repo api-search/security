@@ -1,41 +1,119 @@
 ---
 api_specs:
-- filename: dexcare-visit-service-openapi.yml
+- filename: dexcare-assignmentqualifiers-api-openapi.yml
   format: yaml
-  label: DexCare Visit Service API
-  slug: dexcare-visit-service-api
+  label: DexCare Assignmentqualifiers API
+  slug: dexcare-assignmentqualifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-visit-service-openapi.yml
-- filename: dexcare-care-options-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-assignmentqualifiers-api-openapi.yml
+- filename: dexcare-external-api-openapi.yml
   format: yaml
-  label: DexCare Care Options API
-  slug: dexcare-care-options-api
+  label: DexCare External API
+  slug: dexcare-external-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-care-options-openapi.yml
-- filename: dexcare-slots-availability-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-external-api-openapi.yml
+- filename: dexcare-modalities-api-openapi.yml
   format: yaml
-  label: DexCare Slots Availability API
-  slug: dexcare-slots-availability-api
+  label: DexCare Modalities API
+  slug: dexcare-modalities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-slots-availability-openapi.yml
-- filename: dexcare-visit-booking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-modalities-api-openapi.yml
+- filename: dexcare-omnianalytics-api-openapi.yml
   format: yaml
-  label: DexCare Visit Booking API
-  slug: dexcare-visit-booking-api
+  label: DexCare Omni Analytics API
+  slug: dexcare-omnianalytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-visit-booking-openapi.yml
-- filename: dexcare-omni-search-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-omnianalytics-api-openapi.yml
+- filename: dexcare-omnidata-api-openapi.yml
+  format: yaml
+  label: DexCare Omni Data API
+  slug: dexcare-omnidata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-omnidata-api-openapi.yml
+- filename: dexcare-omnisearch-api-openapi.yml
   format: yaml
   label: DexCare Omni Search API
-  slug: dexcare-omni-search-api
+  slug: dexcare-omnisearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-omni-search-openapi.yml
-- filename: dexcare-provider-data-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-omnisearch-api-openapi.yml
+- filename: dexcare-omnisearchanalytics-api-openapi.yml
   format: yaml
-  label: DexCare Provider Data Management API
-  slug: dexcare-provider-data-management-api
+  label: DexCare Omni Search Analytics API
+  slug: dexcare-omnisearchanalytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-provider-data-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-omnisearchanalytics-api-openapi.yml
+- filename: dexcare-omnisearchfacets-api-openapi.yml
+  format: yaml
+  label: DexCare Omni Search Facets API
+  slug: dexcare-omnisearchfacets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-omnisearchfacets-api-openapi.yml
+- filename: dexcare-omnisitemap-api-openapi.yml
+  format: yaml
+  label: DexCare Omni Sitemap API
+  slug: dexcare-omnisitemap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-omnisitemap-api-openapi.yml
+- filename: dexcare-omnislugs-api-openapi.yml
+  format: yaml
+  label: DexCare Omni Slugs API
+  slug: dexcare-omnislugs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-omnislugs-api-openapi.yml
+- filename: dexcare-omnisynonyms-api-openapi.yml
+  format: yaml
+  label: DexCare Omni Synonyms API
+  slug: dexcare-omnisynonyms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-omnisynonyms-api-openapi.yml
+- filename: dexcare-pdm-api-openapi.yml
+  format: yaml
+  label: DexCare Pdm API
+  slug: dexcare-pdm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-pdm-api-openapi.yml
+- filename: dexcare-providers-api-openapi.yml
+  format: yaml
+  label: DexCare Providers API
+  slug: dexcare-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-providers-api-openapi.yml
+- filename: dexcare-queued-guest-visit-api-openapi.yml
+  format: yaml
+  label: DexCare Queued Guest Visit API
+  slug: dexcare-queued-guest-visit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-queued-guest-visit-api-openapi.yml
+- filename: dexcare-slots-api-openapi.yml
+  format: yaml
+  label: DexCare Slots API
+  slug: dexcare-slots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-slots-api-openapi.yml
+- filename: dexcare-tokbox-api-openapi.yml
+  format: yaml
+  label: DexCare Tokbox API
+  slug: dexcare-tokbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-tokbox-api-openapi.yml
+- filename: dexcare-virtual-visits-api-openapi.yml
+  format: yaml
+  label: DexCare Virtual Visits API
+  slug: dexcare-virtual-visits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-virtual-visits-api-openapi.yml
+- filename: dexcare-visits-api-openapi.yml
+  format: yaml
+  label: DexCare Visits API
+  slug: dexcare-visits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-visits-api-openapi.yml
+- filename: dexcare-waittimes-api-openapi.yml
+  format: yaml
+  label: DexCare Waittimes API
+  slug: dexcare-waittimes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/openapi/dexcare-waittimes-api-openapi.yml
 description: ''
 domains:
 - caa: []

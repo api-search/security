@@ -116,48 +116,96 @@ api_specs:
   slug: mirakl-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-users-api-openapi.yml
-- filename: mirakl-connect-openapi.yaml
+- filename: mirakl-catalog-api-openapi.yml
   format: yaml
-  label: Mirakl Connect APIs
-  slug: mirakl-connect-api
+  label: Mirakl Catalog API
+  slug: mirakl-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-connect-openapi.yaml
-- filename: mirakl-connect-channel-openapi.json
-  format: json
-  label: Mirakl Connect Channel Platform APIs
-  slug: mirakl-connect-channel-platform-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-connect-channel-openapi.json
-- filename: mirakl-account-channel-platform-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-catalog-api-openapi.yml
+- filename: mirakl-channel-api-openapi.yml
   format: yaml
-  label: Mirakl Account Channel Platform APIs
-  slug: mirakl-account-channel-platform-api
+  label: Mirakl Channel API
+  slug: mirakl-channel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-account-channel-platform-openapi.yaml
-- filename: mirakl-mmp-front-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-channel-api-openapi.yml
+- filename: mirakl-checkout-api-openapi.yml
   format: yaml
-  label: Mirakl Marketplace Front APIs
-  slug: mirakl-marketplace-front-api
+  label: Mirakl Checkout API
+  slug: mirakl-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-mmp-front-openapi.yaml
-- filename: mirakl-mcm-front-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-checkout-api-openapi.yml
+- filename: mirakl-connection-api-openapi.yml
   format: yaml
-  label: Mirakl Catalog Manager Front APIs
-  slug: mirakl-catalog-manager-front-api
+  label: Mirakl Connection API
+  slug: mirakl-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-mcm-front-openapi.yaml
-- filename: mirakl-mms-front-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-connection-api-openapi.yml
+- filename: mirakl-conversations-api-openapi.yml
   format: yaml
-  label: Mirakl Platform for Services Front APIs
-  slug: mirakl-services-front-api
+  label: Mirakl Conversations API
+  slug: mirakl-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-mms-front-openapi.yaml
-- filename: mirakl-shopify-operator-connector-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-conversations-api-openapi.yml
+- filename: mirakl-mapping-api-openapi.yml
   format: yaml
-  label: Mirakl Shopify Operator Connector APIs
-  slug: mirakl-shopify-operator-connector-api
+  label: Mirakl Mapping API
+  slug: mirakl-mapping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/_original/mirakl-shopify-operator-connector-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-mapping-api-openapi.yml
+- filename: mirakl-mirakl-connect-channel-platform-webhooks-api-openapi.yml
+  format: yaml
+  label: Mirakl Mirakl Connect Channel Platform Webhooks API
+  slug: mirakl-mirakl-connect-channel-platform-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-mirakl-connect-channel-platform-webhooks-api-openapi.yml
+- filename: mirakl-product-bindings-api-openapi.yml
+  format: yaml
+  label: Mirakl Product Bindings API
+  slug: mirakl-product-bindings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-product-bindings-api-openapi.yml
+- filename: mirakl-public-api-openapi.yml
+  format: yaml
+  label: Mirakl Public API
+  slug: mirakl-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-public-api-openapi.yml
+- filename: mirakl-settings-api-openapi.yml
+  format: yaml
+  label: Mirakl Settings API
+  slug: mirakl-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-settings-api-openapi.yml
+- filename: mirakl-setup-api-openapi.yml
+  format: yaml
+  label: Mirakl Setup API
+  slug: mirakl-setup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-setup-api-openapi.yml
+- filename: mirakl-shipments-api-openapi.yml
+  format: yaml
+  label: Mirakl Shipments API
+  slug: mirakl-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-shipments-api-openapi.yml
+- filename: mirakl-storefront-api-openapi.yml
+  format: yaml
+  label: Mirakl Storefront API
+  slug: mirakl-storefront-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-storefront-api-openapi.yml
+- filename: mirakl-synchronization-api-openapi.yml
+  format: yaml
+  label: Mirakl Synchronization API
+  slug: mirakl-synchronization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-synchronization-api-openapi.yml
+- filename: mirakl-synchronization-errors-api-openapi.yml
+  format: yaml
+  label: Mirakl Synchronization Errors API
+  slug: mirakl-synchronization-errors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-synchronization-errors-api-openapi.yml
 auth_types:
 - apiKey
 - http

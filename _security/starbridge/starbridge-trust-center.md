@@ -18,12 +18,6 @@ api_specs:
   slug: starbridge-columns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/starbridge-columns-api-openapi.yml
-- filename: starbridge-external-api-api-openapi.yml
-  format: yaml
-  label: Starbridge External API API
-  slug: starbridge-external-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/starbridge-external-api-api-openapi.yml
 - filename: starbridge-external-mcp-api-openapi.yml
   format: yaml
   label: Starbridge External MCP API

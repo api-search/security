@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: quandela-perceval-job-openapi.yml
+- filename: quandela-api-job-token-api-openapi.yml
   format: yaml
-  label: Quandela Cloud API
-  slug: quandela-cloud-api
+  label: Quandela Api - Job Token API
+  slug: quandela-api-job-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-perceval-job-openapi.yml
-- filename: quandela-quantum-toolbox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-api-job-token-api-openapi.yml
+- filename: quandela-api-perceval-job-api-openapi.yml
+  format: yaml
+  label: Quandela Api - Perceval Job API
+  slug: quandela-api-perceval-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-api-perceval-job-api-openapi.yml
+- filename: quandela-api-perceval-job-token-api-openapi.yml
+  format: yaml
+  label: Quandela Api - Perceval Job Token API
+  slug: quandela-api-perceval-job-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-api-perceval-job-token-api-openapi.yml
+- filename: quandela-platform-api-openapi.yml
+  format: yaml
+  label: Quandela Platform API
+  slug: quandela-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-platform-api-openapi.yml
+- filename: quandela-qrng-api-openapi.yml
+  format: yaml
+  label: Quandela QRNG API
+  slug: quandela-qrng-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-qrng-api-openapi.yml
+- filename: quandela-quantumtoolbox-api-openapi.yml
   format: yaml
   label: Quandela Quantum Toolbox API
-  slug: quandela-quantum-toolbox-api
+  slug: quandela-quantumtoolbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-quantum-toolbox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-quantumtoolbox-api-openapi.yml
 description: ''
 domains:
 - caa: []

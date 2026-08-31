@@ -15,8 +15,8 @@ layout: security
 method: probed
 name: Gxo Logistics Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for gxo-logistics, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=reject).'
-provider_name: gxo-logistics
+overview: 'Domain security posture for GXO Logistics, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=reject).'
+provider_name: GXO Logistics
 provider_slug: gxo-logistics
 slug: gxo-logistics-domain-security
 source_filename: gxo-logistics-domain-security.yml

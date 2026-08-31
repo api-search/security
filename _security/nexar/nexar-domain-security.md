@@ -1,29 +1,41 @@
 ---
 api_specs:
-- filename: nexar-virtualcam-openapi.yml
+- filename: nexar-citystream-live-feed-api-v4-api-openapi.yml
   format: yaml
-  label: CityStream VirtualCam API
-  slug: virtualcam
+  label: Nexar CityStream™ Live Feed API V4 API
+  slug: nexar-citystream-live-feed-api-v4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-virtualcam-openapi.yml
-- filename: nexar-livefeed-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-citystream-live-feed-api-v4-api-openapi.yml
+- filename: nexar-get-a-collection-of-road-signs-api-openapi.yml
   format: yaml
-  label: CityStream Live Feed API
-  slug: livefeed
+  label: Nexar Get a collection of road signs API
+  slug: nexar-get-a-collection-of-road-signs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-livefeed-openapi.yml
-- filename: nexar-workzones-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-get-a-collection-of-road-signs-api-openapi.yml
+- filename: nexar-get-a-collection-of-work-zones-api-openapi.yml
   format: yaml
-  label: CityStream Work Zones API
-  slug: workzones
+  label: Nexar Get a collection of work zones API
+  slug: nexar-get-a-collection-of-work-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-workzones-openapi.yml
-- filename: nexar-roadinventory-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-get-a-collection-of-work-zones-api-openapi.yml
+- filename: nexar-get-a-specific-work-zone-api-openapi.yml
   format: yaml
-  label: CityStream Road Inventory API
-  slug: roadinventory
+  label: Nexar Get a specific work zone API
+  slug: nexar-get-a-specific-work-zone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-roadinventory-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-get-a-specific-work-zone-api-openapi.yml
+- filename: nexar-get-the-details-of-a-specific-road-sign-api-openapi.yml
+  format: yaml
+  label: Nexar Get the details of a specific road sign API
+  slug: nexar-get-the-details-of-a-specific-road-sign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-get-the-details-of-a-specific-road-sign-api-openapi.yml
+- filename: nexar-virtualcam-api-api-openapi.yml
+  format: yaml
+  label: Nexar VirtualCam API
+  slug: nexar-virtualcam-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-virtualcam-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

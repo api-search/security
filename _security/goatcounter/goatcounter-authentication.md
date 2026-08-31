@@ -38,6 +38,24 @@ api_specs:
   slug: goatcounter-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-users-api-openapi.yml
+- filename: goatcounter-count-api-openapi.yml
+  format: yaml
+  label: GoatCounter Count API
+  slug: goatcounter-count-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-count-api-openapi.yml
+- filename: goatcounter-export-api-openapi.yml
+  format: yaml
+  label: GoatCounter Export API
+  slug: goatcounter-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-export-api-openapi.yml
+- filename: goatcounter-stats-api-openapi.yml
+  format: yaml
+  label: GoatCounter Stats API
+  slug: goatcounter-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-stats-api-openapi.yml
 auth_types:
 - http
 description: GoatCounter authenticates the JSON API with a per-site API key. The primary documented scheme is an HTTP bearer token in the Authorization header; HTTP Basic is also accepted with an empty username and the API key as the password, which the docs describe as mostly useful for testing from a browser. Note that the provider-published OpenAPI 2.0 document declares only basicAuth under securityDefinitions, so the bearer scheme — the one the docs lead with — is documented in prose but absent from the machine-readable contract. Both are recorded here.

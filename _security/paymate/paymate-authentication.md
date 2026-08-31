@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: paymate-global-partner-api-openapi.yml
+- filename: paymate-businesses-api-openapi.yml
   format: yaml
-  label: PayMate Global Partner API
-  slug: paymate-global-partner-api
+  label: PayMate Businesses API
+  slug: paymate-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/openapi/paymate-global-partner-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/openapi/paymate-businesses-api-openapi.yml
+- filename: paymate-cards-api-openapi.yml
+  format: yaml
+  label: PayMate Cards API
+  slug: paymate-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/openapi/paymate-cards-api-openapi.yml
+- filename: paymate-collections-api-openapi.yml
+  format: yaml
+  label: PayMate Collections API
+  slug: paymate-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/openapi/paymate-collections-api-openapi.yml
+- filename: paymate-contacts-api-openapi.yml
+  format: yaml
+  label: PayMate Contacts API
+  slug: paymate-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/openapi/paymate-contacts-api-openapi.yml
+- filename: paymate-payments-api-openapi.yml
+  format: yaml
+  label: PayMate Payments API
+  slug: paymate-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/openapi/paymate-payments-api-openapi.yml
+- filename: paymate-reference-api-openapi.yml
+  format: yaml
+  label: PayMate Reference API
+  slug: paymate-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/openapi/paymate-reference-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

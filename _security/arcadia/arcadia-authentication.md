@@ -55,6 +55,18 @@ api_specs:
   slug: arcadia-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/arcadia/refs/heads/main/openapi/arcadia-webhooks-api-openapi.yml
+- filename: arcadia-bundle-webhook-events-api-openapi.yml
+  format: yaml
+  label: Arcadia Bundle Webhook Events API
+  slug: arcadia-bundle-webhook-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia/refs/heads/main/openapi/arcadia-bundle-webhook-events-api-openapi.yml
+- filename: arcadia-webhook-events-api-openapi.yml
+  format: yaml
+  label: Arcadia Webhook Events API
+  slug: arcadia-webhook-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia/refs/heads/main/openapi/arcadia-webhook-events-api-openapi.yml
 auth_types:
 - http
 description: ''

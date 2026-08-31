@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: melorra-catalog-api-openapi.yml
+- filename: melorra-discovery-api-openapi.yml
   format: yaml
-  label: Melorra Catalog API
-  slug: melorra-catalog-api
+  label: Melorra Discovery API
+  slug: melorra-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/melorra/refs/heads/main/openapi/melorra-catalog-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/melorra/refs/heads/main/openapi/melorra-discovery-api-openapi.yml
+- filename: melorra-products-api-openapi.yml
+  format: yaml
+  label: Melorra Products API
+  slug: melorra-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/melorra/refs/heads/main/openapi/melorra-products-api-openapi.yml
+- filename: melorra-recommendations-api-openapi.yml
+  format: yaml
+  label: Melorra Recommendations API
+  slug: melorra-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/melorra/refs/heads/main/openapi/melorra-recommendations-api-openapi.yml
+- filename: melorra-silver-api-openapi.yml
+  format: yaml
+  label: Melorra Silver API
+  slug: melorra-silver-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/melorra/refs/heads/main/openapi/melorra-silver-api-openapi.yml
 description: ''
 domains:
 - caa: []

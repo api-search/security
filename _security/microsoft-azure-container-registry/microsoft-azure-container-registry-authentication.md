@@ -34,8 +34,8 @@ method: derived
 name: Microsoft Azure Container Registry Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: microsoft-azure-container-registry secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: microsoft-azure-container-registry
+overview: Azure Container Registry secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Azure Container Registry
 provider_slug: microsoft-azure-container-registry
 scheme_count: 1
 schemes:

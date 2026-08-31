@@ -62,6 +62,12 @@ api_specs:
   slug: brl-withdrawals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-withdrawals-api-openapi.yml
+- filename: brl-crown-api-webhooks-api-openapi.yml
+  format: yaml
+  label: BRL Crown API & Webhooks API
+  slug: brl-crown-api-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-crown-api-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http

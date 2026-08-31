@@ -86,12 +86,6 @@ api_specs:
   slug: n8n-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-workflow-api-openapi.yml
-- filename: openapi.yml
-  format: yaml
-  label: n8n Public API
-  slug: n8n-public-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/n8n-io/n8n-docs/main/docs/api/v1/openapi.yml
 auth_types:
 - apiKey
 - http

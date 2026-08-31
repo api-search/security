@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi-public.json
-  format: json
-  label: Infer Responses API
-  slug: infer-responses-api
+- filename: infer-by-flow7-catalog-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Catalog API
+  slug: infer-by-flow7-catalog-api
   spec_type: OpenAPI
-  url: https://infer.flow7.org/openapi-public.json
+  url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-catalog-api-openapi.yml
+- filename: infer-by-flow7-inference-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Inference API
+  slug: infer-by-flow7-inference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-inference-api-openapi.yml
+- filename: infer-by-flow7-status-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Status API
+  slug: infer-by-flow7-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-status-api-openapi.yml
 auth_types: []
 description: 'Infer exposes exactly one authentication mechanism: an HTTP Bearer API key issued inside a workspace. There is no OAuth 2.0, no OIDC, no mTLS and no signed-request scheme. Two of the four published operations are deliberately unauthenticated (public catalog and public status), which is what makes the price and availability surface machine-readable without an account.'
 kind: authentication

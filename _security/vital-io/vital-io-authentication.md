@@ -104,6 +104,18 @@ api_specs:
   slug: vital-io-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-user-api-openapi.yml
+- filename: vital-io-aggregation-api-openapi.yml
+  format: yaml
+  label: Vital Aggregation API
+  slug: vital-io-aggregation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-aggregation-api-openapi.yml
+- filename: vital-io-lab-testing-api-openapi.yml
+  format: yaml
+  label: Vital Lab Testing API
+  slug: vital-io-lab-testing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-lab-testing-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

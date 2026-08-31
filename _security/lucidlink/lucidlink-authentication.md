@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: lucidlink-service-api.json
-  format: json
-  label: LucidLink Service API
-  slug: lucidlink-service-api
+- filename: lucidlink-billing-api-openapi.yml
+  format: yaml
+  label: LucidLink Billing API
+  slug: lucidlink-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/openapi/lucidlink-service-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/openapi/lucidlink-billing-api-openapi.yml
+- filename: lucidlink-domain-api-openapi.yml
+  format: yaml
+  label: LucidLink Domain API
+  slug: lucidlink-domain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/openapi/lucidlink-domain-api-openapi.yml
+- filename: lucidlink-filespace-api-openapi.yml
+  format: yaml
+  label: LucidLink Filespace API
+  slug: lucidlink-filespace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/openapi/lucidlink-filespace-api-openapi.yml
 auth_types:
 - oauth2
 - http-bearer

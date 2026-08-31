@@ -6,6 +6,66 @@ api_specs:
   slug: web-api
   spec_type: OpenAPI
   url: https://apimta.act.com/act.web.api/swagger/docs/v1
+- filename: act-activityseries-api-openapi.yml
+  format: yaml
+  label: Act! CRM Activity Series API
+  slug: act-activityseries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-activityseries-api-openapi.yml
+- filename: act-customentities-api-openapi.yml
+  format: yaml
+  label: Act! CRM Custom Entities API
+  slug: act-customentities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-customentities-api-openapi.yml
+- filename: act-documenttypes-api-openapi.yml
+  format: yaml
+  label: Act! CRM Document Types API
+  slug: act-documenttypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-documenttypes-api-openapi.yml
+- filename: act-historytypes-api-openapi.yml
+  format: yaml
+  label: Act! CRM History Types API
+  slug: act-historytypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-historytypes-api-openapi.yml
+- filename: act-marketingautomations-api-openapi.yml
+  format: yaml
+  label: Act! CRM Marketing Automations API
+  slug: act-marketingautomations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-marketingautomations-api-openapi.yml
+- filename: act-metadatainfo-api-openapi.yml
+  format: yaml
+  label: Act! CRM Metadata Info API
+  slug: act-metadatainfo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-metadatainfo-api-openapi.yml
+- filename: act-secondarycontacts-api-openapi.yml
+  format: yaml
+  label: Act! CRM Secondary Contacts API
+  slug: act-secondarycontacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-secondarycontacts-api-openapi.yml
+- filename: act-supplementalfiles-api-openapi.yml
+  format: yaml
+  label: Act! CRM Supplemental Files API
+  slug: act-supplementalfiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-supplementalfiles-api-openapi.yml
+- filename: act-syncdata-api-openapi.yml
+  format: yaml
+  label: Act! CRM Sync Data API
+  slug: act-syncdata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-syncdata-api-openapi.yml
+- filename: act-tasktypes-api-openapi.yml
+  format: yaml
+  label: Act! CRM Task Types API
+  slug: act-tasktypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-tasktypes-api-openapi.yml
 certifications:
 - SOC 2
 - SOC 3

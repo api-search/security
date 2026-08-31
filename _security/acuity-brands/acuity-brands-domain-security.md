@@ -62,8 +62,8 @@ layout: security
 method: probed
 name: Acuity Brands Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for acuity-brands, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: acuity-brands
+overview: 'Domain security posture for Acuity Brands, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Acuity Brands
 provider_slug: acuity-brands
 slug: acuity-brands-domain-security
 source_filename: acuity-brands-domain-security.yml

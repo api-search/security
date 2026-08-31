@@ -133,6 +133,30 @@ api_specs:
   slug: puzzle-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/puzzle/refs/heads/main/openapi/puzzle-vendors-api-openapi.yml
+- filename: puzzle-categories-api-openapi.yml
+  format: yaml
+  label: Puzzle Categories API
+  slug: puzzle-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle/refs/heads/main/openapi/puzzle-categories-api-openapi.yml
+- filename: puzzle-companies-api-openapi.yml
+  format: yaml
+  label: Puzzle Companies API
+  slug: puzzle-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle/refs/heads/main/openapi/puzzle-companies-api-openapi.yml
+- filename: puzzle-integrations-api-openapi.yml
+  format: yaml
+  label: Puzzle Integrations API
+  slug: puzzle-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle/refs/heads/main/openapi/puzzle-integrations-api-openapi.yml
+- filename: puzzle-journal-entries-api-openapi.yml
+  format: yaml
+  label: Puzzle Journal Entries API
+  slug: puzzle-journal-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle/refs/heads/main/openapi/puzzle-journal-entries-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

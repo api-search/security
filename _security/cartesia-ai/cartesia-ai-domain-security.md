@@ -126,6 +126,18 @@ api_specs:
   slug: cartesia-ai-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-webhooks-api-openapi.yml
+- filename: cartesia-ai-stt-api-openapi.yml
+  format: yaml
+  label: Cartesia STT API
+  slug: cartesia-ai-stt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-stt-api-openapi.yml
+- filename: cartesia-ai-tts-api-openapi.yml
+  format: yaml
+  label: Cartesia TTS API
+  slug: cartesia-ai-tts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-tts-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -16,8 +16,8 @@ method: derived
 name: Ford Motor Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: ford-motor secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: ford-motor
+overview: Ford Motor Company secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Ford Motor Company
 provider_slug: ford-motor
 scheme_count: 1
 schemes:

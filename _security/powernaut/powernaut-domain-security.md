@@ -78,6 +78,12 @@ api_specs:
   slug: powernaut-uploading-forecasts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/openapi/powernaut-uploading-forecasts-api-openapi.yml
+- filename: powernaut-accepting-bids-api-openapi.yml
+  format: yaml
+  label: Powernaut Accepting Bids API
+  slug: powernaut-accepting-bids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/openapi/powernaut-accepting-bids-api-openapi.yml
 description: ''
 domains:
 - caa: []

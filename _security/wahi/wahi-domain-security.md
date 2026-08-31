@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: wahi-listing-search-openapi.yaml
+- filename: wahi-search-api-openapi.yml
   format: yaml
-  label: Wahi Listing Search API
-  slug: wahi-listing-search-api
+  label: Wahi Search API
+  slug: wahi-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wahi/refs/heads/main/openapi/wahi-listing-search-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/wahi/refs/heads/main/openapi/wahi-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

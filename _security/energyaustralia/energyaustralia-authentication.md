@@ -1,24 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: energyaustralia-cds-energy-api-openapi.yml
+- filename: energyaustralia-data-holder-customers-api-openapi.yml
   format: yaml
-  label: EnergyAustralia CDR Energy Plans API
-  slug: energyaustralia-cdr-energy-plans-api
+  label: EnergyAustralia Data Holder Customers API
+  slug: energyaustralia-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-cds-energy-api-openapi.yml
-- filename: energyaustralia-cds-common-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-data-holder-customers-api-openapi.yml
+- filename: energyaustralia-data-holder-operations-api-openapi.yml
   format: yaml
-  label: EnergyAustralia CDR Discovery Status API
-  slug: energyaustralia-cdr-discovery-api
+  label: EnergyAustralia Data Holder Operations API
+  slug: energyaustralia-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-cds-common-api-openapi.yml
-- filename: energyaustralia-cds-energy-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-data-holder-operations-api-openapi.yml
+- filename: energyaustralia-distributed-energy-resources-api-openapi.yml
   format: yaml
-  label: EnergyAustralia CDR Energy Consumer Data Sharing API
-  slug: energyaustralia-cdr-energy-consumer-data-api
+  label: EnergyAustralia Distributed Energy Resources API
+  slug: energyaustralia-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-cds-energy-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-distributed-energy-resources-api-openapi.yml
+- filename: energyaustralia-electricity-service-points-api-openapi.yml
+  format: yaml
+  label: EnergyAustralia Electricity Service Points API
+  slug: energyaustralia-electricity-service-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-electricity-service-points-api-openapi.yml
+- filename: energyaustralia-electricity-usage-api-openapi.yml
+  format: yaml
+  label: EnergyAustralia Electricity Usage API
+  slug: energyaustralia-electricity-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-electricity-usage-api-openapi.yml
+- filename: energyaustralia-energy-account-balances-api-openapi.yml
+  format: yaml
+  label: EnergyAustralia Energy Account Balances API
+  slug: energyaustralia-energy-account-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-energy-account-balances-api-openapi.yml
+- filename: energyaustralia-energy-account-billing-api-openapi.yml
+  format: yaml
+  label: EnergyAustralia Energy Account Billing API
+  slug: energyaustralia-energy-account-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-energy-account-billing-api-openapi.yml
+- filename: energyaustralia-energy-accounts-api-openapi.yml
+  format: yaml
+  label: EnergyAustralia Energy Accounts API
+  slug: energyaustralia-energy-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-energy-accounts-api-openapi.yml
+- filename: energyaustralia-energy-plans-api-openapi.yml
+  format: yaml
+  label: EnergyAustralia Energy Plans API
+  slug: energyaustralia-energy-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-energy-plans-api-openapi.yml
 auth_types:
 - none
 - mutualTLS

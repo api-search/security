@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: peking-institutional-repository-rest-openapi.yml
+- filename: peking-collections-api-openapi.yml
   format: yaml
-  label: PKU Institutional Repository REST API
-  slug: ir-rest
+  label: Peking University Collections API
+  slug: peking-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/openapi/peking-institutional-repository-rest-openapi.yml
-- filename: peking-institutional-repository-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/openapi/peking-collections-api-openapi.yml
+- filename: peking-communities-api-openapi.yml
   format: yaml
-  label: PKU Institutional Repository OAI-PMH API
-  slug: ir-oai-pmh
+  label: Peking University Communities API
+  slug: peking-communities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/openapi/peking-institutional-repository-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/openapi/peking-communities-api-openapi.yml
+- filename: peking-harvesting-api-openapi.yml
+  format: yaml
+  label: Peking University Harvesting API
+  slug: peking-harvesting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/openapi/peking-harvesting-api-openapi.yml
+- filename: peking-items-api-openapi.yml
+  format: yaml
+  label: Peking University Items API
+  slug: peking-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/openapi/peking-items-api-openapi.yml
+- filename: peking-status-api-openapi.yml
+  format: yaml
+  label: Peking University Status API
+  slug: peking-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/openapi/peking-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

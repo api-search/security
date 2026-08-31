@@ -146,6 +146,18 @@ api_specs:
   slug: sendcloud-user-carriers-and-shipping-methods-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-user-carriers-and-shipping-methods-api-openapi.yml
+- filename: sendcloud-events-api-openapi.yml
+  format: yaml
+  label: Sendcloud Events API
+  slug: sendcloud-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-events-api-openapi.yml
+- filename: sendcloud-webhooks-api-openapi.yml
+  format: yaml
+  label: Sendcloud Webhooks API
+  slug: sendcloud-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: probabl-skore-hub-openapi.json
-  format: json
-  label: Skore Hub API
-  slug: skore-hub-api
+- filename: probabl-anthropic-compatible-agent-api-openapi.yml
+  format: yaml
+  label: Probabl Anthropic Compatible Agent API
+  slug: probabl-anthropic-compatible-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-skore-hub-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-anthropic-compatible-agent-api-openapi.yml
+- filename: probabl-health-api-openapi.yml
+  format: yaml
+  label: Probabl Health API
+  slug: probabl-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-health-api-openapi.yml
+- filename: probabl-identity-api-openapi.yml
+  format: yaml
+  label: Probabl Identity API
+  slug: probabl-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-identity-api-openapi.yml
+- filename: probabl-liveness-api-openapi.yml
+  format: yaml
+  label: Probabl Liveness API
+  slug: probabl-liveness-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-liveness-api-openapi.yml
+- filename: probabl-llm-provider-api-openapi.yml
+  format: yaml
+  label: Probabl LLM Provider API
+  slug: probabl-llm-provider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-llm-provider-api-openapi.yml
+- filename: probabl-openai-compatible-agent-api-openapi.yml
+  format: yaml
+  label: Probabl OpenAI Compatible Agent API
+  slug: probabl-openai-compatible-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-openai-compatible-agent-api-openapi.yml
+- filename: probabl-projects-api-openapi.yml
+  format: yaml
+  label: Probabl Projects API
+  slug: probabl-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-projects-api-openapi.yml
+- filename: probabl-readiness-api-openapi.yml
+  format: yaml
+  label: Probabl Readiness API
+  slug: probabl-readiness-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/openapi/probabl-readiness-api-openapi.yml
 description: ''
 domains:
 - caa: []

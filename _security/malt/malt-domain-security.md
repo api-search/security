@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: malt-exposed-apis-openapi.yml
+- filename: malt-fee-invoices-api-openapi.yml
   format: yaml
-  label: Malt Exposed APIs
-  slug: malt-exposed-apis
+  label: Malt Fee Invoices API
+  slug: malt-fee-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/openapi/malt-exposed-apis-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/openapi/malt-fee-invoices-api-openapi.yml
+- filename: malt-invoices-api-openapi.yml
+  format: yaml
+  label: Malt Invoices API
+  slug: malt-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/openapi/malt-invoices-api-openapi.yml
+- filename: malt-payments-api-openapi.yml
+  format: yaml
+  label: Malt Payments API
+  slug: malt-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/openapi/malt-payments-api-openapi.yml
+- filename: malt-scim-api-openapi.yml
+  format: yaml
+  label: Malt SCIM API
+  slug: malt-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/openapi/malt-scim-api-openapi.yml
 description: ''
 domains:
 - caa: []

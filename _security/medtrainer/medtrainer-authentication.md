@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: medtrainer-public-api-openapi.json
-  format: json
-  label: MedTrainer Public API
-  slug: medtrainer-public-api
+- filename: medtrainer-departments-api-openapi.yml
+  format: yaml
+  label: MedTrainer Departments API
+  slug: medtrainer-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/openapi/medtrainer-public-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/openapi/medtrainer-departments-api-openapi.yml
+- filename: medtrainer-divisions-api-openapi.yml
+  format: yaml
+  label: MedTrainer Divisions API
+  slug: medtrainer-divisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/openapi/medtrainer-divisions-api-openapi.yml
+- filename: medtrainer-locations-api-openapi.yml
+  format: yaml
+  label: MedTrainer Locations API
+  slug: medtrainer-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/openapi/medtrainer-locations-api-openapi.yml
+- filename: medtrainer-positions-api-openapi.yml
+  format: yaml
+  label: MedTrainer Positions API
+  slug: medtrainer-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/openapi/medtrainer-positions-api-openapi.yml
+- filename: medtrainer-practitioner-categories-api-openapi.yml
+  format: yaml
+  label: MedTrainer Practitioner Categories API
+  slug: medtrainer-practitioner-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/openapi/medtrainer-practitioner-categories-api-openapi.yml
+- filename: medtrainer-practitioners-api-openapi.yml
+  format: yaml
+  label: MedTrainer Practitioners API
+  slug: medtrainer-practitioners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/openapi/medtrainer-practitioners-api-openapi.yml
 auth_types:
 - apiKey
 - http

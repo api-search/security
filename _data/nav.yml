@@ -56,7 +56,10 @@ header:
           - { key: tags, label: Tags, url: 'https://apis.io/tags/' }
           - { key: industries, label: Industries, url: 'https://apis.io/industries/' }
           - { key: areas, label: Areas, url: 'https://apis.io/areas/' }
-      - header: Capabilities
+      - header: Business Architecture
+        items:
+          - { key: capabilities, label: Business Capabilities, url: 'https://apis.io/capabilities/' }
+      - header: Use Cases & Features
         items:
           - { key: use-cases, label: Use Cases, url: 'https://apis.io/use-cases/' }
           - { key: features, label: Features, url: 'https://apis.io/features/' }
@@ -153,9 +156,12 @@ footer:
         - { label: Areas, url: 'https://apis.io/areas/' }
         - { label: Regions, url: 'https://apis.io/regions/' }
         - { label: Countries, url: 'https://apis.io/countries/' }
+        - { label: API Estates, url: 'https://apis.io/estates/' }
+        - { label: Business Capabilities, url: 'https://apis.io/capabilities/' }
 
     - header: Artifacts
       items:
+        - { label: Business Capabilities, url: 'https://apis.io/capabilities/' }
         - { label: OpenAPI Extensions, url: 'https://apis.io/extensions/' }
         - { label: HTTP Headers, url: 'https://apis.io/headers/' }
         - { label: Schemas, url: 'https://apis.io/schemas/' }

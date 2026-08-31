@@ -52,8 +52,8 @@ method: derived
 name: Western Digital Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: western-digital secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: western-digital
+overview: Western Digital secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Western Digital
 provider_slug: western-digital
 scheme_count: 1
 schemes:

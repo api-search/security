@@ -2,12 +2,108 @@
 api_key_in:
 - header
 api_specs:
-- filename: channel99-pulsar-openapi.json
-  format: json
-  label: Channel99 Pulsar Reporting API
-  slug: channel99-pulsar-reporting-api
+- filename: channel99-ad-accounts-api-openapi.yml
+  format: yaml
+  label: Channel99 Ad Accounts API
+  slug: channel99-ad-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-pulsar-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-ad-accounts-api-openapi.yml
+- filename: channel99-ad-campaign-groups-api-openapi.yml
+  format: yaml
+  label: Channel99 Ad Campaign Groups API
+  slug: channel99-ad-campaign-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-ad-campaign-groups-api-openapi.yml
+- filename: channel99-ad-campaigns-api-openapi.yml
+  format: yaml
+  label: Channel99 Ad Campaigns API
+  slug: channel99-ad-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-ad-campaigns-api-openapi.yml
+- filename: channel99-ad-groups-api-openapi.yml
+  format: yaml
+  label: Channel99 Ad Groups API
+  slug: channel99-ad-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-ad-groups-api-openapi.yml
+- filename: channel99-ad-units-api-openapi.yml
+  format: yaml
+  label: Channel99 Ad Units API
+  slug: channel99-ad-units-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-ad-units-api-openapi.yml
+- filename: channel99-ads-api-openapi.yml
+  format: yaml
+  label: Channel99 Ads API
+  slug: channel99-ads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-ads-api-openapi.yml
+- filename: channel99-audiences-api-openapi.yml
+  format: yaml
+  label: Channel99 Audiences API
+  slug: channel99-audiences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-audiences-api-openapi.yml
+- filename: channel99-auth-api-openapi.yml
+  format: yaml
+  label: Channel99 Auth API
+  slug: channel99-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-auth-api-openapi.yml
+- filename: channel99-channels-api-openapi.yml
+  format: yaml
+  label: Channel99 Channels API
+  slug: channel99-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-channels-api-openapi.yml
+- filename: channel99-companies-api-openapi.yml
+  format: yaml
+  label: Channel99 Companies API
+  slug: channel99-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-companies-api-openapi.yml
+- filename: channel99-health-api-openapi.yml
+  format: yaml
+  label: Channel99 Health API
+  slug: channel99-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-health-api-openapi.yml
+- filename: channel99-impressions-api-openapi.yml
+  format: yaml
+  label: Channel99 Impressions API
+  slug: channel99-impressions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-impressions-api-openapi.yml
+- filename: channel99-intents-api-openapi.yml
+  format: yaml
+  label: Channel99 Intents API
+  slug: channel99-intents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-intents-api-openapi.yml
+- filename: channel99-ip-lookup-api-openapi.yml
+  format: yaml
+  label: Channel99 IP Lookup API
+  slug: channel99-ip-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-ip-lookup-api-openapi.yml
+- filename: channel99-pageviews-api-openapi.yml
+  format: yaml
+  label: Channel99 Pageviews API
+  slug: channel99-pageviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-pageviews-api-openapi.yml
+- filename: channel99-vendors-api-openapi.yml
+  format: yaml
+  label: Channel99 Vendors API
+  slug: channel99-vendors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-vendors-api-openapi.yml
+- filename: channel99-visits-api-openapi.yml
+  format: yaml
+  label: Channel99 Visits API
+  slug: channel99-visits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-visits-api-openapi.yml
 auth_types:
 - apiKey
 - http

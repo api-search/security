@@ -1,18 +1,6 @@
 ---
 api_key_in: []
 api_specs:
-- filename: boltic-tables-api-openapi.yml
-  format: yaml
-  label: Boltic Tables API
-  slug: tables-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-tables-api-openapi.yml
-- filename: boltic-pipes-api-openapi.yml
-  format: yaml
-  label: Boltic Pipes API
-  slug: pipes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-pipes-api-openapi.yml
 - filename: boltic-certificates-api-openapi.yml
   format: yaml
   label: Boltic Certificates API
@@ -49,48 +37,24 @@ api_specs:
   slug: boltic-plugins-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-plugins-api-openapi.yml
-- filename: boltic-queries-api-openapi.yml
-  format: yaml
-  label: Boltic Queries API
-  slug: boltic-queries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-queries-api-openapi.yml
 - filename: boltic-routes-api-openapi.yml
   format: yaml
   label: Boltic Routes API
   slug: boltic-routes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-routes-api-openapi.yml
-- filename: boltic-rows-api-openapi.yml
-  format: yaml
-  label: Boltic Rows API
-  slug: boltic-rows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-rows-api-openapi.yml
 - filename: boltic-services-api-openapi.yml
   format: yaml
   label: Boltic Services API
   slug: boltic-services-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-services-api-openapi.yml
-- filename: boltic-sources-api-openapi.yml
-  format: yaml
-  label: Boltic Sources API
-  slug: boltic-sources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-sources-api-openapi.yml
 - filename: boltic-stream-sources-api-openapi.yml
   format: yaml
   label: Boltic Stream Sources API
   slug: boltic-stream-sources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-stream-sources-api-openapi.yml
-- filename: boltic-sync-runs-api-openapi.yml
-  format: yaml
-  label: Boltic Sync Runs API
-  slug: boltic-sync-runs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-sync-runs-api-openapi.yml
 - filename: boltic-triggers-api-openapi.yml
   format: yaml
   label: Boltic Triggers API

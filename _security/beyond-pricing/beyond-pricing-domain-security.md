@@ -42,6 +42,12 @@ api_specs:
   slug: beyond-pricing-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-users-api-openapi.yml
+- filename: beyond-pricing-webhooks-api-openapi.yml
+  format: yaml
+  label: Beyond Pricing Webhooks API
+  slug: beyond-pricing-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

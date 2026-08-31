@@ -67,12 +67,66 @@ api_specs:
   slug: barchart-weather-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-weather-api-openapi.yml
-- filename: barchart-ondemand-official-openapi.yml
+- filename: barchart-charts-and-analytics-api-openapi.yml
   format: yaml
-  label: Barchart OnDemand APIs
-  slug: barchart-ondemand-official-openapi
+  label: Barchart Charts and Analytics API
+  slug: barchart-charts-and-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-ondemand-official-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-charts-and-analytics-api-openapi.yml
+- filename: barchart-cryptocurrency-data-api-openapi.yml
+  format: yaml
+  label: Barchart Cryptocurrency Data API
+  slug: barchart-cryptocurrency-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-cryptocurrency-data-api-openapi.yml
+- filename: barchart-etfs-api-openapi.yml
+  format: yaml
+  label: Barchart ET Fs API
+  slug: barchart-etfs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-etfs-api-openapi.yml
+- filename: barchart-leaderboards-and-lists-api-openapi.yml
+  format: yaml
+  label: Barchart Leaderboards and Lists API
+  slug: barchart-leaderboards-and-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-leaderboards-and-lists-api-openapi.yml
+- filename: barchart-metadata-api-openapi.yml
+  format: yaml
+  label: Barchart Metadata API
+  slug: barchart-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-metadata-api-openapi.yml
+- filename: barchart-news-and-filings-api-openapi.yml
+  format: yaml
+  label: Barchart News and Filings API
+  slug: barchart-news-and-filings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-news-and-filings-api-openapi.yml
+- filename: barchart-other-data-api-openapi.yml
+  format: yaml
+  label: Barchart Other Data API
+  slug: barchart-other-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-other-data-api-openapi.yml
+- filename: barchart-price-data-api-openapi.yml
+  format: yaml
+  label: Barchart Price Data API
+  slug: barchart-price-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-price-data-api-openapi.yml
+- filename: barchart-profiles-and-financial-data-api-openapi.yml
+  format: yaml
+  label: Barchart Profiles and Financial Data API
+  slug: barchart-profiles-and-financial-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-profiles-and-financial-data-api-openapi.yml
+- filename: barchart-splits-dividends-and-earnings-api-openapi.yml
+  format: yaml
+  label: Barchart Splits, Dividends, and Earnings API
+  slug: barchart-splits-dividends-and-earnings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-splits-dividends-and-earnings-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

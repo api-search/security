@@ -52,8 +52,8 @@ method: derived
 name: Western Union Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: western-union secures its APIs with mutualTLS across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: western-union
+overview: The Western Union Company secures its APIs with mutualTLS across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: The Western Union Company
 provider_slug: western-union
 scheme_count: 1
 schemes:

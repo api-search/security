@@ -1,23 +1,59 @@
 ---
 api_specs:
-- filename: agl-energy-cds-energy-openapi.json
-  format: json
-  label: AGL CDR Energy API
-  slug: agl-cdr-energy-api
+- filename: agl-energy-data-holder-customers-api-openapi.yml
+  format: yaml
+  label: AGL Energy Data Holder Customers API
+  slug: agl-energy-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-cds-energy-openapi.json
-- filename: agl-energy-cds-common-openapi.json
-  format: json
-  label: AGL CDR Discovery (Common) API
-  slug: agl-cdr-discovery-api
+  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-data-holder-customers-api-openapi.yml
+- filename: agl-energy-data-holder-operations-api-openapi.yml
+  format: yaml
+  label: AGL Energy Data Holder Operations API
+  slug: agl-energy-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-cds-common-openapi.json
-- filename: agl-energy-cds-energy-openapi.json
-  format: json
-  label: AGL Energy Product Reference Data (PRD) API
-  slug: agl-energy-product-reference-data-api
+  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-data-holder-operations-api-openapi.yml
+- filename: agl-energy-distributed-energy-resources-api-openapi.yml
+  format: yaml
+  label: AGL Energy Distributed Energy Resources API
+  slug: agl-energy-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-cds-energy-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-distributed-energy-resources-api-openapi.yml
+- filename: agl-energy-electricity-service-points-api-openapi.yml
+  format: yaml
+  label: AGL Energy Electricity Service Points API
+  slug: agl-energy-electricity-service-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-electricity-service-points-api-openapi.yml
+- filename: agl-energy-electricity-usage-api-openapi.yml
+  format: yaml
+  label: AGL Energy Electricity Usage API
+  slug: agl-energy-electricity-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-electricity-usage-api-openapi.yml
+- filename: agl-energy-energy-account-balances-api-openapi.yml
+  format: yaml
+  label: AGL Energy Energy Account Balances API
+  slug: agl-energy-energy-account-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-energy-account-balances-api-openapi.yml
+- filename: agl-energy-energy-account-billing-api-openapi.yml
+  format: yaml
+  label: AGL Energy Energy Account Billing API
+  slug: agl-energy-energy-account-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-energy-account-billing-api-openapi.yml
+- filename: agl-energy-energy-accounts-api-openapi.yml
+  format: yaml
+  label: AGL Energy Energy Accounts API
+  slug: agl-energy-energy-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-energy-accounts-api-openapi.yml
+- filename: agl-energy-energy-plans-api-openapi.yml
+  format: yaml
+  label: AGL Energy Energy Plans API
+  slug: agl-energy-energy-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-energy-plans-api-openapi.yml
 description: ''
 domains:
 - caa:

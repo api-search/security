@@ -1,59 +1,71 @@
 ---
 api_specs:
-- filename: line-messaging-api-openapi.yml
-  format: yaml
-  label: LINE Messaging API
-  slug: line-messaging-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-messaging-api-openapi.yml
-- filename: line-webhook-openapi.yml
-  format: yaml
-  label: LINE Messaging API Webhook
-  slug: line-webhook
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-webhook-openapi.yml
-- filename: line-channel-access-token-openapi.yml
+- filename: line-channel-access-token-api-openapi.yml
   format: yaml
   label: LINE Channel Access Token API
   slug: line-channel-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-channel-access-token-openapi.yml
-- filename: line-insight-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-channel-access-token-api-openapi.yml
+- filename: line-dummy-api-openapi.yml
+  format: yaml
+  label: LINE Dummy API
+  slug: line-dummy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-dummy-api-openapi.yml
+- filename: line-insight-api-openapi.yml
   format: yaml
   label: LINE Insight API
   slug: line-insight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-insight-openapi.yml
-- filename: line-manage-audience-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-insight-api-openapi.yml
+- filename: line-liff-api-openapi.yml
+  format: yaml
+  label: LINE Liff API
+  slug: line-liff-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-liff-api-openapi.yml
+- filename: line-line-module-api-openapi.yml
+  format: yaml
+  label: LINE Line Module API
+  slug: line-line-module-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-line-module-api-openapi.yml
+- filename: line-line-module-attach-api-openapi.yml
+  format: yaml
+  label: LINE Line Module Attach API
+  slug: line-line-module-attach-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-line-module-attach-api-openapi.yml
+- filename: line-manage-audience-api-openapi.yml
   format: yaml
   label: LINE Manage Audience API
   slug: line-manage-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-manage-audience-openapi.yml
-- filename: line-liff-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-manage-audience-api-openapi.yml
+- filename: line-manage-audience-blob-api-openapi.yml
   format: yaml
-  label: LIFF Server API
-  slug: line-liff-api
+  label: LINE Manage Audience Blob API
+  slug: line-manage-audience-blob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-liff-openapi.yml
-- filename: line-module-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-manage-audience-blob-api-openapi.yml
+- filename: line-messaging-api-api-openapi.yml
   format: yaml
-  label: LINE Module API
-  slug: line-module-api
+  label: LINE Messaging API
+  slug: line-messaging-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-module-openapi.yml
-- filename: line-module-attach-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-messaging-api-api-openapi.yml
+- filename: line-messaging-api-blob-api-openapi.yml
   format: yaml
-  label: LINE Module Attach API
-  slug: line-module-attach-api
+  label: LINE Messaging API Blob API
+  slug: line-messaging-api-blob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-module-attach-openapi.yml
-- filename: line-shop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-messaging-api-blob-api-openapi.yml
+- filename: line-shop-api-openapi.yml
   format: yaml
-  label: LINE Mission Sticker API
+  label: LINE Shop API
   slug: line-shop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-shop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-shop-api-openapi.yml
 description: ''
 domains:
 - caa: []

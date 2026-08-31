@@ -49,12 +49,6 @@ api_specs:
   slug: factset-agents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-agents-api-openapi.yml
-- filename: factset-aggregate-api-openapi.yml
-  format: yaml
-  label: Factset Aggregate API
-  slug: factset-aggregate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-aggregate-api-openapi.yml
 - filename: factset-aggregated-api-openapi.yml
   format: yaml
   label: Factset Aggregated API
@@ -223,12 +217,6 @@ api_specs:
   slug: factset-batch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-batch-api-openapi.yml
-- filename: factset-batch-processing-api-openapi.yml
-  format: yaml
-  label: Factset Batch Processing API
-  slug: factset-batch-processing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-batch-processing-api-openapi.yml
 - filename: factset-batch-result-api-openapi.yml
   format: yaml
   label: Factset Batch Result API
@@ -247,24 +235,6 @@ api_specs:
   slug: factset-benchmark-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-benchmark-api-openapi.yml
-- filename: factset-benchmarks-api-openapi.yml
-  format: yaml
-  label: Factset Benchmarks API
-  slug: factset-benchmarks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-benchmarks-api-openapi.yml
-- filename: factset-bid-api-openapi.yml
-  format: yaml
-  label: Factset Bid API
-  slug: factset-bid-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-bid-api-openapi.yml
-- filename: factset-board-api-openapi.yml
-  format: yaml
-  label: Factset Board API
-  slug: factset-board-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-board-api-openapi.yml
 - filename: factset-book-api-openapi.yml
   format: yaml
   label: Factset Book API
@@ -313,30 +283,6 @@ api_specs:
   slug: factset-calculations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-calculations-api-openapi.yml
-- filename: factset-calls-api-openapi.yml
-  format: yaml
-  label: Factset Calls API
-  slug: factset-calls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-calls-api-openapi.yml
-- filename: factset-card-api-openapi.yml
-  format: yaml
-  label: Factset Card API
-  slug: factset-card-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-card-api-openapi.yml
-- filename: factset-cargo-api-openapi.yml
-  format: yaml
-  label: Factset Cargo API
-  slug: factset-cargo-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-cargo-api-openapi.yml
-- filename: factset-cash-api-openapi.yml
-  format: yaml
-  label: Factset Cash API
-  slug: factset-cash-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-cash-api-openapi.yml
 - filename: factset-cash-flow-api-openapi.yml
   format: yaml
   label: Factset Cash Flow API
@@ -361,12 +307,6 @@ api_specs:
   slug: factset-category-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-category-api-openapi.yml
-- filename: factset-chain-api-openapi.yml
-  format: yaml
-  label: Factset Chain API
-  slug: factset-chain-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-chain-api-openapi.yml
 - filename: factset-chart-api-openapi.yml
   format: yaml
   label: Factset Chart API
@@ -385,12 +325,6 @@ api_specs:
   slug: factset-child-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-child-orders-api-openapi.yml
-- filename: factset-class-api-openapi.yml
-  format: yaml
-  label: Factset Class API
-  slug: factset-class-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-class-api-openapi.yml
 - filename: factset-classifications-api-openapi.yml
   format: yaml
   label: Factset Classifications API
@@ -409,18 +343,6 @@ api_specs:
   slug: factset-code-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-code-api-openapi.yml
-- filename: factset-column-statistics-api-openapi.yml
-  format: yaml
-  label: Factset Column Statistics API
-  slug: factset-column-statistics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-column-statistics-api-openapi.yml
-- filename: factset-columns-api-openapi.yml
-  format: yaml
-  label: Factset Columns API
-  slug: factset-columns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-columns-api-openapi.yml
 - filename: factset-comments-api-openapi.yml
   format: yaml
   label: Factset Comments API
@@ -433,24 +355,12 @@ api_specs:
   slug: factset-company-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-company-api-openapi.yml
-- filename: factset-compensation-api-openapi.yml
-  format: yaml
-  label: Factset Compensation API
-  slug: factset-compensation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-compensation-api-openapi.yml
 - filename: factset-compliance-api-openapi.yml
   format: yaml
   label: Factset Compliance API
   slug: factset-compliance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-compliance-api-openapi.yml
-- filename: factset-components-api-openapi.yml
-  format: yaml
-  label: Factset Components API
-  slug: factset-components-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-components-api-openapi.yml
 - filename: factset-composite-api-openapi.yml
   format: yaml
   label: Factset Composite API
@@ -469,18 +379,6 @@ api_specs:
   slug: factset-configurations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-configurations-api-openapi.yml
-- filename: factset-consensus-api-openapi.yml
-  format: yaml
-  label: Factset Consensus API
-  slug: factset-consensus-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-consensus-api-openapi.yml
-- filename: factset-constituents-api-openapi.yml
-  format: yaml
-  label: Factset Constituents API
-  slug: factset-constituents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-constituents-api-openapi.yml
 - filename: factset-contact-api-openapi.yml
   format: yaml
   label: Factset Contact API
@@ -517,30 +415,12 @@ api_specs:
   slug: factset-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-contacts-api-openapi.yml
-- filename: factset-continent-api-openapi.yml
-  format: yaml
-  label: Factset Continent API
-  slug: factset-continent-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-continent-api-openapi.yml
 - filename: factset-conversations-api-openapi.yml
   format: yaml
   label: Factset Conversations API
   slug: factset-conversations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-conversations-api-openapi.yml
-- filename: factset-convertible-api-openapi.yml
-  format: yaml
-  label: Factset Convertible API
-  slug: factset-convertible-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-convertible-api-openapi.yml
-- filename: factset-corporate-api-openapi.yml
-  format: yaml
-  label: Factset Corporate API
-  slug: factset-corporate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-corporate-api-openapi.yml
 - filename: factset-costs-api-openapi.yml
   format: yaml
   label: Factset Costs API
@@ -553,30 +433,12 @@ api_specs:
   slug: factset-count-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-count-api-openapi.yml
-- filename: factset-country-api-openapi.yml
-  format: yaml
-  label: Factset Country API
-  slug: factset-country-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-country-api-openapi.yml
-- filename: factset-coupon-api-openapi.yml
-  format: yaml
-  label: Factset Coupon API
-  slug: factset-coupon-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-coupon-api-openapi.yml
 - filename: factset-coupons-api-openapi.yml
   format: yaml
   label: Factset Coupons API
   slug: factset-coupons-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-coupons-api-openapi.yml
-- filename: factset-covenant-api-openapi.yml
-  format: yaml
-  label: Factset Covenant API
-  slug: factset-covenant-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-covenant-api-openapi.yml
 - filename: factset-coverage-api-openapi.yml
   format: yaml
   label: Factset Coverage API
@@ -619,24 +481,6 @@ api_specs:
   slug: factset-cross-sectional-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-cross-sectional-api-openapi.yml
-- filename: factset-currencies-api-openapi.yml
-  format: yaml
-  label: Factset Currencies API
-  slug: factset-currencies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-currencies-api-openapi.yml
-- filename: factset-currency-api-openapi.yml
-  format: yaml
-  label: Factset Currency API
-  slug: factset-currency-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-currency-api-openapi.yml
-- filename: factset-current-api-openapi.yml
-  format: yaml
-  label: Factset Current API
-  slug: factset-current-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-current-api-openapi.yml
 - filename: factset-current-cap-api-openapi.yml
   format: yaml
   label: Factset Current Cap API
@@ -721,18 +565,6 @@ api_specs:
   slug: factset-date-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-date-api-openapi.yml
-- filename: factset-dates-api-openapi.yml
-  format: yaml
-  label: Factset Dates API
-  slug: factset-dates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-dates-api-openapi.yml
-- filename: factset-day-api-openapi.yml
-  format: yaml
-  label: Factset Day API
-  slug: factset-day-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-day-api-openapi.yml
 - filename: factset-dcs-detail-api-openapi.yml
   format: yaml
   label: Factset Dcs Detail API
@@ -757,90 +589,36 @@ api_specs:
   slug: factset-defined-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-defined-api-openapi.yml
-- filename: factset-definitions-api-openapi.yml
-  format: yaml
-  label: Factset Definitions API
-  slug: factset-definitions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-definitions-api-openapi.yml
-- filename: factset-deliveries-api-openapi.yml
-  format: yaml
-  label: Factset Deliveries API
-  slug: factset-deliveries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-deliveries-api-openapi.yml
 - filename: factset-derivative-api-openapi.yml
   format: yaml
   label: Factset Derivative API
   slug: factset-derivative-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-derivative-api-openapi.yml
-- filename: factset-detail-api-openapi.yml
-  format: yaml
-  label: Factset Detail API
-  slug: factset-detail-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-detail-api-openapi.yml
 - filename: factset-dfsnapshot-api-openapi.yml
   format: yaml
   label: Factset DFSnapshot API
   slug: factset-dfsnapshot-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-dfsnapshot-api-openapi.yml
-- filename: factset-dictionaries-api-openapi.yml
-  format: yaml
-  label: Factset Dictionaries API
-  slug: factset-dictionaries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-dictionaries-api-openapi.yml
 - filename: factset-distributor-api-openapi.yml
   format: yaml
   label: Factset Distributor API
   slug: factset-distributor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-distributor-api-openapi.yml
-- filename: factset-dividends-api-openapi.yml
-  format: yaml
-  label: Factset Dividends API
-  slug: factset-dividends-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-dividends-api-openapi.yml
 - filename: factset-docs-distributor-api-openapi.yml
   format: yaml
   label: Factset Docs Distributor API
   slug: factset-docs-distributor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-docs-distributor-api-openapi.yml
-- filename: factset-document-api-openapi.yml
-  format: yaml
-  label: Factset Document API
-  slug: factset-document-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-document-api-openapi.yml
-- filename: factset-documentation-api-openapi.yml
-  format: yaml
-  label: Factset Documentation API
-  slug: factset-documentation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-documentation-api-openapi.yml
-- filename: factset-documents-api-openapi.yml
-  format: yaml
-  label: Factset Documents API
-  slug: factset-documents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-documents-api-openapi.yml
 - filename: factset-download-api-book-aws-api-openapi.yml
   format: yaml
   label: Factset Download Api Book Aws API
   slug: factset-download-api-book-aws-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-download-api-book-aws-api-openapi.yml
-- filename: factset-download-api-openapi.yml
-  format: yaml
-  label: Factset Download API
-  slug: factset-download-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-download-api-openapi.yml
 - filename: factset-downloads-api-openapi.yml
   format: yaml
   label: Factset Downloads API
@@ -853,12 +631,6 @@ api_specs:
   slug: factset-elements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-elements-api-openapi.yml
-- filename: factset-engines-api-openapi.yml
-  format: yaml
-  label: Factset Engines API
-  slug: factset-engines-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-engines-api-openapi.yml
 - filename: factset-entities-api-openapi.yml
   format: yaml
   label: Factset Entities API
@@ -871,18 +643,6 @@ api_specs:
   slug: factset-entity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-entity-api-openapi.yml
-- filename: factset-estimates-api-openapi.yml
-  format: yaml
-  label: Factset Estimates API
-  slug: factset-estimates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-estimates-api-openapi.yml
-- filename: factset-evaluations-api-openapi.yml
-  format: yaml
-  label: Factset Evaluations API
-  slug: factset-evaluations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-evaluations-api-openapi.yml
 - filename: factset-event-api-openapi.yml
   format: yaml
   label: Factset Event API
@@ -1057,12 +817,6 @@ api_specs:
   slug: factset-financial-highlights-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-financial-highlights-api-openapi.yml
-- filename: factset-financial-statements-api-openapi.yml
-  format: yaml
-  label: Factset Financial Statements API
-  slug: factset-financial-statements-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-financial-statements-api-openapi.yml
 - filename: factset-financials-api-openapi.yml
   format: yaml
   label: Factset Financials API
@@ -1075,60 +829,18 @@ api_specs:
   slug: factset-firsttrade-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-firsttrade-api-openapi.yml
-- filename: factset-fiscal-api-openapi.yml
-  format: yaml
-  label: Factset Fiscal API
-  slug: factset-fiscal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-fiscal-api-openapi.yml
-- filename: factset-fixed-api-openapi.yml
-  format: yaml
-  label: Factset Fixed API
-  slug: factset-fixed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-fixed-api-openapi.yml
 - filename: factset-flows-api-openapi.yml
   format: yaml
   label: Factset Flows API
   slug: factset-flows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-flows-api-openapi.yml
-- filename: factset-focus-api-openapi.yml
-  format: yaml
-  label: Factset Focus API
-  slug: factset-focus-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-focus-api-openapi.yml
 - filename: factset-foreign-exchange-api-openapi.yml
   format: yaml
   label: Factset Foreign Exchange API
   slug: factset-foreign-exchange-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-foreign-exchange-api-openapi.yml
-- filename: factset-fractional-api-openapi.yml
-  format: yaml
-  label: Factset Fractional API
-  slug: factset-fractional-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-fractional-api-openapi.yml
-- filename: factset-frequencies-api-openapi.yml
-  format: yaml
-  label: Factset Frequencies API
-  slug: factset-frequencies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-frequencies-api-openapi.yml
-- filename: factset-frequency-api-openapi.yml
-  format: yaml
-  label: Factset Frequency API
-  slug: factset-frequency-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-frequency-api-openapi.yml
-- filename: factset-functions-api-openapi.yml
-  format: yaml
-  label: Factset Functions API
-  slug: factset-functions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-functions-api-openapi.yml
 - filename: factset-fund-api-openapi.yml
   format: yaml
   label: Factset fund API
@@ -1153,12 +865,6 @@ api_specs:
   slug: factset-geographic-segments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-geographic-segments-api-openapi.yml
-- filename: factset-get-api-openapi.yml
-  format: yaml
-  label: Factset Get API
-  slug: factset-get-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-get-api-openapi.yml
 - filename: factset-global-api-openapi.yml
   format: yaml
   label: Factset Global API
@@ -1183,12 +889,6 @@ api_specs:
   slug: factset-group-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-group-api-openapi.yml
-- filename: factset-grouping-api-openapi.yml
-  format: yaml
-  label: Factset Grouping API
-  slug: factset-grouping-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-grouping-api-openapi.yml
 - filename: factset-groups-api-openapi.yml
   format: yaml
   label: Factset Groups API
@@ -1207,18 +907,6 @@ api_specs:
   slug: factset-helper-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-helper-api-openapi.yml
-- filename: factset-high-api-openapi.yml
-  format: yaml
-  label: Factset High API
-  slug: factset-high-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-high-api-openapi.yml
-- filename: factset-historical-api-openapi.yml
-  format: yaml
-  label: Factset Historical API
-  slug: factset-historical-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-historical-api-openapi.yml
 - filename: factset-history-api-openapi.yml
   format: yaml
   label: Factset History API
@@ -1249,12 +937,6 @@ api_specs:
   slug: factset-i-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-i-api-openapi.yml
-- filename: factset-id-api-openapi.yml
-  format: yaml
-  label: Factset Id API
-  slug: factset-id-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-id-api-openapi.yml
 - filename: factset-identifiers-api-openapi.yml
   format: yaml
   label: Factset Identifiers API
@@ -1273,42 +955,18 @@ api_specs:
   slug: factset-image-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-image-api-openapi.yml
-- filename: factset-income-api-openapi.yml
-  format: yaml
-  label: Factset Income API
-  slug: factset-income-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-income-api-openapi.yml
 - filename: factset-income-statement-api-openapi.yml
   format: yaml
   label: Factset Income Statement API
   slug: factset-income-statement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-income-statement-api-openapi.yml
-- filename: factset-index-api-openapi.yml
-  format: yaml
-  label: Factset Index API
-  slug: factset-index-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-index-api-openapi.yml
-- filename: factset-indexed-api-openapi.yml
-  format: yaml
-  label: Factset Indexed API
-  slug: factset-indexed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-indexed-api-openapi.yml
 - filename: factset-industry-metrics-api-openapi.yml
   format: yaml
   label: Factset Industry Metrics API
   slug: factset-industry-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-industry-metrics-api-openapi.yml
-- filename: factset-info-api-openapi.yml
-  format: yaml
-  label: Factset Info API
-  slug: factset-info-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-info-api-openapi.yml
 - filename: factset-instance-api-openapi.yml
   format: yaml
   label: Factset Instance API
@@ -1327,48 +985,18 @@ api_specs:
   slug: factset-instrument-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-instrument-api-openapi.yml
-- filename: factset-instruments-api-openapi.yml
-  format: yaml
-  label: Factset Instruments API
-  slug: factset-instruments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-instruments-api-openapi.yml
-- filename: factset-interest-api-openapi.yml
-  format: yaml
-  label: Factset Interest API
-  slug: factset-interest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-interest-api-openapi.yml
 - filename: factset-intraday-api-openapi.yml
   format: yaml
   label: Factset Intraday API
   slug: factset-intraday-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-intraday-api-openapi.yml
-- filename: factset-issue-api-openapi.yml
-  format: yaml
-  label: Factset Issue API
-  slug: factset-issue-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-issue-api-openapi.yml
-- filename: factset-issuer-api-openapi.yml
-  format: yaml
-  label: Factset Issuer API
-  slug: factset-issuer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-issuer-api-openapi.yml
 - filename: factset-issues-api-openapi.yml
   format: yaml
   label: Factset Issues API
   slug: factset-issues-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-issues-api-openapi.yml
-- filename: factset-items-api-openapi.yml
-  format: yaml
-  label: Factset Items API
-  slug: factset-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-items-api-openapi.yml
 - filename: factset-job-api-openapi.yml
   format: yaml
   label: Factset Job API
@@ -1381,54 +1009,12 @@ api_specs:
   slug: factset-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-jobs-api-openapi.yml
-- filename: factset-key-api-openapi.yml
-  format: yaml
-  label: Factset Key API
-  slug: factset-key-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-key-api-openapi.yml
 - filename: factset-key-stats-api-openapi.yml
   format: yaml
   label: Factset Key Stats API
   slug: factset-key-stats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-key-stats-api-openapi.yml
-- filename: factset-keys-api-openapi.yml
-  format: yaml
-  label: Factset Keys API
-  slug: factset-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-keys-api-openapi.yml
-- filename: factset-kind-api-openapi.yml
-  format: yaml
-  label: Factset Kind API
-  slug: factset-kind-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-kind-api-openapi.yml
-- filename: factset-language-api-openapi.yml
-  format: yaml
-  label: Factset Language API
-  slug: factset-language-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-language-api-openapi.yml
-- filename: factset-last-trade-api-openapi.yml
-  format: yaml
-  label: Factset Last Trade API
-  slug: factset-last-trade-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-last-trade-api-openapi.yml
-- filename: factset-lead-api-openapi.yml
-  format: yaml
-  label: Factset Lead API
-  slug: factset-lead-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-lead-api-openapi.yml
-- filename: factset-legal-api-openapi.yml
-  format: yaml
-  label: Factset Legal API
-  slug: factset-legal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-legal-api-openapi.yml
 - filename: factset-level-api-openapi.yml
   format: yaml
   label: Factset Level API
@@ -1447,30 +1033,12 @@ api_specs:
   slug: factset-level2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-level2-api-openapi.yml
-- filename: factset-levels-api-openapi.yml
-  format: yaml
-  label: Factset Levels API
-  slug: factset-levels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-levels-api-openapi.yml
 - filename: factset-linear-api-openapi.yml
   format: yaml
   label: Factset Linear API
   slug: factset-linear-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-linear-api-openapi.yml
-- filename: factset-link-api-openapi.yml
-  format: yaml
-  label: Factset Link API
-  slug: factset-link-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-link-api-openapi.yml
-- filename: factset-linked-api-openapi.yml
-  format: yaml
-  label: Factset Linked API
-  slug: factset-linked-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-linked-api-openapi.yml
 - filename: factset-linkup-api-openapi.yml
   format: yaml
   label: Factset Linkup API
@@ -1501,30 +1069,6 @@ api_specs:
   slug: factset-locations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-locations-api-openapi.yml
-- filename: factset-log-api-openapi.yml
-  format: yaml
-  label: Factset Log API
-  slug: factset-log-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-log-api-openapi.yml
-- filename: factset-logs-api-openapi.yml
-  format: yaml
-  label: Factset Logs API
-  slug: factset-logs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-logs-api-openapi.yml
-- filename: factset-lookups-api-openapi.yml
-  format: yaml
-  label: Factset Lookups API
-  slug: factset-lookups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-lookups-api-openapi.yml
-- filename: factset-low-api-openapi.yml
-  format: yaml
-  label: Factset Low API
-  slug: factset-low-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-low-api-openapi.yml
 - filename: factset-luxembourg-api-openapi.yml
   format: yaml
   label: Factset Luxembourg API
@@ -1549,12 +1093,6 @@ api_specs:
   slug: factset-markit-bond-prices-and-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-markit-bond-prices-and-analytics-api-openapi.yml
-- filename: factset-media-api-openapi.yml
-  format: yaml
-  label: Factset Media API
-  slug: factset-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-media-api-openapi.yml
 - filename: factset-meetings-api-openapi.yml
   format: yaml
   label: Factset Meetings API
@@ -1573,60 +1111,24 @@ api_specs:
   slug: factset-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-metrics-api-openapi.yml
-- filename: factset-minute-api-openapi.yml
-  format: yaml
-  label: Factset Minute API
-  slug: factset-minute-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-minute-api-openapi.yml
-- filename: factset-modeling-api-openapi.yml
-  format: yaml
-  label: Factset Modeling API
-  slug: factset-modeling-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-modeling-api-openapi.yml
-- filename: factset-models-api-openapi.yml
-  format: yaml
-  label: Factset Models API
-  slug: factset-models-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-models-api-openapi.yml
 - filename: factset-modify-api-openapi.yml
   format: yaml
   label: Factset Modify API
   slug: factset-modify-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-modify-api-openapi.yml
-- filename: factset-month-api-openapi.yml
-  format: yaml
-  label: Factset Month API
-  slug: factset-month-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-month-api-openapi.yml
 - filename: factset-mpo-api-openapi.yml
   format: yaml
   label: Factset Mpo API
   slug: factset-mpo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-mpo-api-openapi.yml
-- filename: factset-n-api-openapi.yml
-  format: yaml
-  label: Factset N API
-  slug: factset-n-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-n-api-openapi.yml
 - filename: factset-name-api-openapi.yml
   format: yaml
   label: Factset Name API
   slug: factset-name-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-name-api-openapi.yml
-- filename: factset-namespaces-api-openapi.yml
-  format: yaml
-  label: Factset Namespaces API
-  slug: factset-namespaces-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-namespaces-api-openapi.yml
 - filename: factset-navigator-api-openapi.yml
   format: yaml
   label: Factset Navigator API
@@ -1669,36 +1171,12 @@ api_specs:
   slug: factset-numbers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-numbers-api-openapi.yml
-- filename: factset-objects-api-openapi.yml
-  format: yaml
-  label: Factset Objects API
-  slug: factset-objects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-objects-api-openapi.yml
-- filename: factset-officer-api-openapi.yml
-  format: yaml
-  label: Factset Officer API
-  slug: factset-officer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-officer-api-openapi.yml
 - filename: factset-ofs-api-openapi.yml
   format: yaml
   label: Factset Ofs API
   slug: factset-ofs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-ofs-api-openapi.yml
-- filename: factset-operating-api-openapi.yml
-  format: yaml
-  label: Factset Operating API
-  slug: factset-operating-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-operating-api-openapi.yml
-- filename: factset-optimizations-api-openapi.yml
-  format: yaml
-  label: Factset Optimizations API
-  slug: factset-optimizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-optimizations-api-openapi.yml
 - filename: factset-orbit-api-openapi.yml
   format: yaml
   label: Factset Orbit API
@@ -1711,24 +1189,6 @@ api_specs:
   slug: factset-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-orders-api-openapi.yml
-- filename: factset-output-api-openapi.yml
-  format: yaml
-  label: Factset Output API
-  slug: factset-output-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-output-api-openapi.yml
-- filename: factset-owner-api-openapi.yml
-  format: yaml
-  label: Factset Owner API
-  slug: factset-owner-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-owner-api-openapi.yml
-- filename: factset-ownership-api-openapi.yml
-  format: yaml
-  label: Factset Ownership API
-  slug: factset-ownership-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-ownership-api-openapi.yml
 - filename: factset-ozmosi-api-openapi.yml
   format: yaml
   label: Factset Ozmosi API
@@ -1747,42 +1207,18 @@ api_specs:
   slug: factset-path-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-path-api-openapi.yml
-- filename: factset-payouts-api-openapi.yml
-  format: yaml
-  label: Factset Payouts API
-  slug: factset-payouts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-payouts-api-openapi.yml
 - filename: factset-peer-list-api-openapi.yml
   format: yaml
   label: Factset Peer List API
   slug: factset-peer-list-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-peer-list-api-openapi.yml
-- filename: factset-people-api-openapi.yml
-  format: yaml
-  label: Factset People API
-  slug: factset-people-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-people-api-openapi.yml
 - filename: factset-per-share-api-openapi.yml
   format: yaml
   label: Factset Per Share API
   slug: factset-per-share-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-per-share-api-openapi.yml
-- filename: factset-periodic-api-openapi.yml
-  format: yaml
-  label: Factset Periodic API
-  slug: factset-periodic-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-periodic-api-openapi.yml
-- filename: factset-phone-api-openapi.yml
-  format: yaml
-  label: Factset Phone API
-  slug: factset-phone-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-phone-api-openapi.yml
 - filename: factset-phone-number-types-api-openapi.yml
   format: yaml
   label: Factset Phone Number Types API
@@ -1807,30 +1243,12 @@ api_specs:
   slug: factset-prices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-prices-api-openapi.yml
-- filename: factset-pricing-api-openapi.yml
-  format: yaml
-  label: Factset Pricing API
-  slug: factset-pricing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-pricing-api-openapi.yml
 - filename: factset-private-api-openapi.yml
   format: yaml
   label: Factset Private API
   slug: factset-private-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-private-api-openapi.yml
-- filename: factset-proceeds-api-openapi.yml
-  format: yaml
-  label: Factset Proceeds API
-  slug: factset-proceeds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-proceeds-api-openapi.yml
-- filename: factset-product-api-openapi.yml
-  format: yaml
-  label: Factset Product API
-  slug: factset-product-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-product-api-openapi.yml
 - filename: factset-product-segments-api-openapi.yml
   format: yaml
   label: Factset Product Segments API
@@ -1849,90 +1267,24 @@ api_specs:
   slug: factset-profile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-profile-api-openapi.yml
-- filename: factset-profiles-api-openapi.yml
-  format: yaml
-  label: Factset Profiles API
-  slug: factset-profiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-profiles-api-openapi.yml
-- filename: factset-properties-api-openapi.yml
-  format: yaml
-  label: Factset Properties API
-  slug: factset-properties-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-properties-api-openapi.yml
 - filename: factset-providers-api-openapi.yml
   format: yaml
   label: Factset Providers API
   slug: factset-providers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-providers-api-openapi.yml
-- filename: factset-publisher-api-openapi.yml
-  format: yaml
-  label: Factset Publisher API
-  slug: factset-publisher-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-publisher-api-openapi.yml
-- filename: factset-q-api-openapi.yml
-  format: yaml
-  label: Factset Q API
-  slug: factset-q-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-q-api-openapi.yml
 - filename: factset-qna-api-openapi.yml
   format: yaml
   label: Factset Qna API
   slug: factset-qna-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-qna-api-openapi.yml
-- filename: factset-quant-api-openapi.yml
-  format: yaml
-  label: Factset Quant API
-  slug: factset-quant-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-quant-api-openapi.yml
 - filename: factset-range-api-openapi.yml
   format: yaml
   label: Factset Range API
   slug: factset-range-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-range-api-openapi.yml
-- filename: factset-ranges-api-openapi.yml
-  format: yaml
-  label: Factset Ranges API
-  slug: factset-ranges-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-ranges-api-openapi.yml
-- filename: factset-rankings-api-openapi.yml
-  format: yaml
-  label: Factset Rankings API
-  slug: factset-rankings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-rankings-api-openapi.yml
-- filename: factset-ranks-api-openapi.yml
-  format: yaml
-  label: Factset Ranks API
-  slug: factset-ranks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-ranks-api-openapi.yml
-- filename: factset-rates-api-openapi.yml
-  format: yaml
-  label: Factset Rates API
-  slug: factset-rates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-rates-api-openapi.yml
-- filename: factset-ratings-api-openapi.yml
-  format: yaml
-  label: Factset Ratings API
-  slug: factset-ratings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-ratings-api-openapi.yml
-- filename: factset-ratios-api-openapi.yml
-  format: yaml
-  label: Factset Ratios API
-  slug: factset-ratios-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-ratios-api-openapi.yml
 - filename: factset-recommendation-list-api-openapi.yml
   format: yaml
   label: Factset Recommendation List API
@@ -1945,42 +1297,12 @@ api_specs:
   slug: factset-recommendations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-recommendations-api-openapi.yml
-- filename: factset-record-api-openapi.yml
-  format: yaml
-  label: Factset Record API
-  slug: factset-record-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-record-api-openapi.yml
-- filename: factset-records-api-openapi.yml
-  format: yaml
-  label: Factset Records API
-  slug: factset-records-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-records-api-openapi.yml
-- filename: factset-reference-api-openapi.yml
-  format: yaml
-  label: Factset Reference API
-  slug: factset-reference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-reference-api-openapi.yml
-- filename: factset-references-api-openapi.yml
-  format: yaml
-  label: Factset References API
-  slug: factset-references-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-references-api-openapi.yml
 - filename: factset-refresh-api-openapi.yml
   format: yaml
   label: Factset Refresh API
   slug: factset-refresh-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-refresh-api-openapi.yml
-- filename: factset-region-api-openapi.yml
-  format: yaml
-  label: Factset Region API
-  slug: factset-region-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-region-api-openapi.yml
 - filename: factset-related-api-openapi.yml
   format: yaml
   label: Factset Related API
@@ -2005,18 +1327,6 @@ api_specs:
   slug: factset-relationships-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-relationships-api-openapi.yml
-- filename: factset-reorder-api-openapi.yml
-  format: yaml
-  label: Factset Reorder API
-  slug: factset-reorder-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-reorder-api-openapi.yml
-- filename: factset-report-api-openapi.yml
-  format: yaml
-  label: Factset Report API
-  slug: factset-report-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-report-api-openapi.yml
 - filename: factset-report-instances-api-openapi.yml
   format: yaml
   label: Factset Report Instances API
@@ -2029,24 +1339,6 @@ api_specs:
   slug: factset-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-reports-api-openapi.yml
-- filename: factset-representative-api-openapi.yml
-  format: yaml
-  label: Factset Representative API
-  slug: factset-representative-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-representative-api-openapi.yml
-- filename: factset-request-api-openapi.yml
-  format: yaml
-  label: Factset Request API
-  slug: factset-request-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-request-api-openapi.yml
-- filename: factset-resolutions-api-openapi.yml
-  format: yaml
-  label: Factset Resolutions API
-  slug: factset-resolutions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-resolutions-api-openapi.yml
 - filename: factset-resources-api-openapi.yml
   format: yaml
   label: Factset Resources API
@@ -2059,12 +1351,6 @@ api_specs:
   slug: factset-result-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-result-api-openapi.yml
-- filename: factset-results-api-openapi.yml
-  format: yaml
-  label: Factset Results API
-  slug: factset-results-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-results-api-openapi.yml
 - filename: factset-returns-api-openapi.yml
   format: yaml
   label: Factset Returns API
@@ -2077,48 +1363,12 @@ api_specs:
   slug: factset-returns-composite-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-returns-composite-api-openapi.yml
-- filename: factset-roles-api-openapi.yml
-  format: yaml
-  label: Factset Roles API
-  slug: factset-roles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-roles-api-openapi.yml
-- filename: factset-rolling-api-openapi.yml
-  format: yaml
-  label: Factset Rolling API
-  slug: factset-rolling-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-rolling-api-openapi.yml
-- filename: factset-rollover-api-openapi.yml
-  format: yaml
-  label: Factset Rollover API
-  slug: factset-rollover-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-rollover-api-openapi.yml
 - filename: factset-runs-api-openapi.yml
   format: yaml
   label: Factset Runs API
   slug: factset-runs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-runs-api-openapi.yml
-- filename: factset-sales-api-openapi.yml
-  format: yaml
-  label: Factset Sales API
-  slug: factset-sales-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-sales-api-openapi.yml
-- filename: factset-schedules-api-openapi.yml
-  format: yaml
-  label: Factset Schedules API
-  slug: factset-schedules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-schedules-api-openapi.yml
-- filename: factset-schema-api-openapi.yml
-  format: yaml
-  label: Factset Schema API
-  slug: factset-schema-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-schema-api-openapi.yml
 - filename: factset-schemas-api-openapi.yml
   format: yaml
   label: Factset Schemas API
@@ -2131,24 +1381,6 @@ api_specs:
   slug: factset-scim-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-scim-api-openapi.yml
-- filename: factset-scopes-api-openapi.yml
-  format: yaml
-  label: Factset Scopes API
-  slug: factset-scopes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-scopes-api-openapi.yml
-- filename: factset-scores-api-openapi.yml
-  format: yaml
-  label: Factset Scores API
-  slug: factset-scores-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-scores-api-openapi.yml
-- filename: factset-screener-api-openapi.yml
-  format: yaml
-  label: Factset Screener API
-  slug: factset-screener-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-screener-api-openapi.yml
 - filename: factset-scripts-asia-api-openapi.yml
   format: yaml
   label: Factset Scripts Asia API
@@ -2161,36 +1393,12 @@ api_specs:
   slug: factset-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-search-api-openapi.yml
-- filename: factset-sectional-api-openapi.yml
-  format: yaml
-  label: Factset Sectional API
-  slug: factset-sectional-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-sectional-api-openapi.yml
-- filename: factset-securities-api-openapi.yml
-  format: yaml
-  label: Factset Securities API
-  slug: factset-securities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-securities-api-openapi.yml
-- filename: factset-security-api-openapi.yml
-  format: yaml
-  label: Factset Security API
-  slug: factset-security-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-security-api-openapi.yml
 - filename: factset-segments-api-openapi.yml
   format: yaml
   label: Factset Segments API
   slug: factset-segments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-segments-api-openapi.yml
-- filename: factset-selections-api-openapi.yml
-  format: yaml
-  label: Factset Selections API
-  slug: factset-selections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-selections-api-openapi.yml
 - filename: factset-sentiments-api-openapi.yml
   format: yaml
   label: Factset Sentiments API
@@ -2203,54 +1411,18 @@ api_specs:
   slug: factset-series-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-series-api-openapi.yml
-- filename: factset-servers-api-openapi.yml
-  format: yaml
-  label: Factset Servers API
-  slug: factset-servers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-servers-api-openapi.yml
 - filename: factset-serviceproviderconfig-api-openapi.yml
   format: yaml
   label: Factset ServiceProviderConfig API
   slug: factset-serviceproviderconfig-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-serviceproviderconfig-api-openapi.yml
-- filename: factset-set-api-openapi.yml
-  format: yaml
-  label: Factset Set API
-  slug: factset-set-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-set-api-openapi.yml
-- filename: factset-shares-api-openapi.yml
-  format: yaml
-  label: Factset Shares API
-  slug: factset-shares-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-shares-api-openapi.yml
-- filename: factset-signal-api-openapi.yml
-  format: yaml
-  label: Factset Signal API
-  slug: factset-signal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-signal-api-openapi.yml
-- filename: factset-size-api-openapi.yml
-  format: yaml
-  label: Factset Size API
-  slug: factset-size-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-size-api-openapi.yml
 - filename: factset-snapshots-api-openapi.yml
   format: yaml
   label: Factset Snapshots API
   slug: factset-snapshots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-snapshots-api-openapi.yml
-- filename: factset-snippets-api-openapi.yml
-  format: yaml
-  label: Factset Snippets API
-  slug: factset-snippets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-snippets-api-openapi.yml
 - filename: factset-source-of-capital-api-openapi.yml
   format: yaml
   label: Factset Source of Capital API
@@ -2263,30 +1435,6 @@ api_specs:
   slug: factset-sources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-sources-api-openapi.yml
-- filename: factset-splits-api-openapi.yml
-  format: yaml
-  label: Factset Splits API
-  slug: factset-splits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-splits-api-openapi.yml
-- filename: factset-spotlights-api-openapi.yml
-  format: yaml
-  label: Factset Spotlights API
-  slug: factset-spotlights-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-spotlights-api-openapi.yml
-- filename: factset-standard-api-openapi.yml
-  format: yaml
-  label: Factset Standard API
-  slug: factset-standard-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-standard-api-openapi.yml
-- filename: factset-statistics-api-openapi.yml
-  format: yaml
-  label: Factset Statistics API
-  slug: factset-statistics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-statistics-api-openapi.yml
 - filename: factset-status-api-openapi.yml
   format: yaml
   label: Factset Status API
@@ -2299,12 +1447,6 @@ api_specs:
   slug: factset-stock-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-stock-api-openapi.yml
-- filename: factset-strategies-api-openapi.yml
-  format: yaml
-  label: Factset Strategies API
-  slug: factset-strategies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-strategies-api-openapi.yml
 - filename: factset-street-account-api-openapi.yml
   format: yaml
   label: Factset Street Account API
@@ -2341,24 +1483,6 @@ api_specs:
   slug: factset-summary-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-summary-api-openapi.yml
-- filename: factset-surprise-api-openapi.yml
-  format: yaml
-  label: Factset Surprise API
-  slug: factset-surprise-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-surprise-api-openapi.yml
-- filename: factset-swivel-api-openapi.yml
-  format: yaml
-  label: Factset Swivel API
-  slug: factset-swivel-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-swivel-api-openapi.yml
-- filename: factset-symbol-api-openapi.yml
-  format: yaml
-  label: Factset Symbol API
-  slug: factset-symbol-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-symbol-api-openapi.yml
 - filename: factset-symbol-relationships-api-openapi.yml
   format: yaml
   label: Factset Symbol Relationships API
@@ -2371,12 +1495,6 @@ api_specs:
   slug: factset-symbology-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-symbology-api-openapi.yml
-- filename: factset-symbols-api-openapi.yml
-  format: yaml
-  label: Factset Symbols API
-  slug: factset-symbols-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-symbols-api-openapi.yml
 - filename: factset-symbols-relationships-api-openapi.yml
   format: yaml
   label: Factset Symbols Relationships API
@@ -2419,36 +1537,6 @@ api_specs:
   slug: factset-template-list-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-template-list-api-openapi.yml
-- filename: factset-templated-api-openapi.yml
-  format: yaml
-  label: Factset Templated API
-  slug: factset-templated-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-templated-api-openapi.yml
-- filename: factset-templates-api-openapi.yml
-  format: yaml
-  label: Factset Templates API
-  slug: factset-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-templates-api-openapi.yml
-- filename: factset-tenant-api-openapi.yml
-  format: yaml
-  label: Factset Tenant API
-  slug: factset-tenant-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-tenant-api-openapi.yml
-- filename: factset-terms-api-openapi.yml
-  format: yaml
-  label: Factset Terms API
-  slug: factset-terms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-terms-api-openapi.yml
-- filename: factset-text-api-openapi.yml
-  format: yaml
-  label: Factset Text API
-  slug: factset-text-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-text-api-openapi.yml
 - filename: factset-themes-api-openapi.yml
   format: yaml
   label: Factset Themes API
@@ -2461,144 +1549,30 @@ api_specs:
   slug: factset-tickhistory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-tickhistory-api-openapi.yml
-- filename: factset-tile-api-openapi.yml
-  format: yaml
-  label: Factset Tile API
-  slug: factset-tile-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-tile-api-openapi.yml
-- filename: factset-time-api-openapi.yml
-  format: yaml
-  label: Factset Time API
-  slug: factset-time-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-time-api-openapi.yml
 - filename: factset-time-series-api-openapi.yml
   format: yaml
   label: Factset Time Series API
   slug: factset-time-series-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-time-series-api-openapi.yml
-- filename: factset-trade-api-openapi.yml
-  format: yaml
-  label: Factset Trade API
-  slug: factset-trade-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-trade-api-openapi.yml
 - filename: factset-trade-data-api-openapi.yml
   format: yaml
   label: Factset Trade Data API
   slug: factset-trade-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-trade-data-api-openapi.yml
-- filename: factset-trades-at-time-api-openapi.yml
-  format: yaml
-  label: Factset Trades at Time API
-  slug: factset-trades-at-time-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-trades-at-time-api-openapi.yml
-- filename: factset-trading-api-openapi.yml
-  format: yaml
-  label: Factset Trading API
-  slug: factset-trading-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-trading-api-openapi.yml
-- filename: factset-transaction-api-openapi.yml
-  format: yaml
-  label: Factset Transaction API
-  slug: factset-transaction-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-transaction-api-openapi.yml
 - filename: factset-transactions-api-openapi.yml
   format: yaml
   label: Factset Transactions API
   slug: factset-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-transactions-api-openapi.yml
-- filename: factset-trigger-api-openapi.yml
-  format: yaml
-  label: Factset Trigger API
-  slug: factset-trigger-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-trigger-api-openapi.yml
-- filename: factset-type-api-openapi.yml
-  format: yaml
-  label: Factset Type API
-  slug: factset-type-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-type-api-openapi.yml
-- filename: factset-types-api-openapi.yml
-  format: yaml
-  label: Factset Types API
-  slug: factset-types-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-types-api-openapi.yml
-- filename: factset-underlying-api-openapi.yml
-  format: yaml
-  label: Factset Underlying API
-  slug: factset-underlying-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-underlying-api-openapi.yml
-- filename: factset-underwriters-api-openapi.yml
-  format: yaml
-  label: Factset Underwriters API
-  slug: factset-underwriters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-underwriters-api-openapi.yml
-- filename: factset-unit-api-openapi.yml
-  format: yaml
-  label: Factset Unit API
-  slug: factset-unit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-unit-api-openapi.yml
-- filename: factset-units-api-openapi.yml
-  format: yaml
-  label: Factset Units API
-  slug: factset-units-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-units-api-openapi.yml
-- filename: factset-universe-api-openapi.yml
-  format: yaml
-  label: Factset Universe API
-  slug: factset-universe-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-universe-api-openapi.yml
-- filename: factset-unlinked-api-openapi.yml
-  format: yaml
-  label: Factset Unlinked API
-  slug: factset-unlinked-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-unlinked-api-openapi.yml
-- filename: factset-upload-api-openapi.yml
-  format: yaml
-  label: Factset Upload API
-  slug: factset-upload-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-upload-api-openapi.yml
 - filename: factset-upload-custom-document-api-openapi.yml
   format: yaml
   label: Factset Upload Custom Document API
   slug: factset-upload-custom-document-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-upload-custom-document-api-openapi.yml
-- filename: factset-uploads-api-openapi.yml
-  format: yaml
-  label: Factset Uploads API
-  slug: factset-uploads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-uploads-api-openapi.yml
-- filename: factset-use-api-openapi.yml
-  format: yaml
-  label: Factset Use API
-  slug: factset-use-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-use-api-openapi.yml
-- filename: factset-used-api-openapi.yml
-  format: yaml
-  label: Factset Used API
-  slug: factset-used-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-used-api-openapi.yml
 - filename: factset-user-api-openapi.yml
   format: yaml
   label: Factset User API
@@ -2629,60 +1603,18 @@ api_specs:
   slug: factset-valuation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-valuation-api-openapi.yml
-- filename: factset-value-api-openapi.yml
-  format: yaml
-  label: Factset Value API
-  slug: factset-value-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-value-api-openapi.yml
-- filename: factset-values-api-openapi.yml
-  format: yaml
-  label: Factset Values API
-  slug: factset-values-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-values-api-openapi.yml
-- filename: factset-vault-api-openapi.yml
-  format: yaml
-  label: Factset Vault API
-  slug: factset-vault-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-vault-api-openapi.yml
 - filename: factset-vendor-api-openapi.yml
   format: yaml
   label: Factset Vendor API
   slug: factset-vendor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-vendor-api-openapi.yml
-- filename: factset-vendors-api-openapi.yml
-  format: yaml
-  label: Factset Vendors API
-  slug: factset-vendors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-vendors-api-openapi.yml
-- filename: factset-views-api-openapi.yml
-  format: yaml
-  label: Factset Views API
-  slug: factset-views-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-views-api-openapi.yml
 - filename: factset-watchlist-api-openapi.yml
   format: yaml
   label: Factset Watchlist API
   slug: factset-watchlist-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-watchlist-api-openapi.yml
-- filename: factset-week-api-openapi.yml
-  format: yaml
-  label: Factset Week API
-  slug: factset-week-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-week-api-openapi.yml
-- filename: factset-year-api-openapi.yml
-  format: yaml
-  label: Factset Year API
-  slug: factset-year-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-year-api-openapi.yml
 auth_types:
 - http
 - oauth2

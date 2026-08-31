@@ -3,12 +3,6 @@ api_key_in:
 - query
 - body
 api_specs:
-- filename: smartlead-ai-openapi.yml
-  format: yaml
-  label: SmartLead API
-  slug: smartlead-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-openapi.yml
 - filename: smartlead-ai-campaign-statistics-api-openapi.yml
   format: yaml
   label: Smartlead Campaign Statistics API
@@ -21,6 +15,60 @@ api_specs:
   slug: smartlead-ai-campaigns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-campaigns-api-openapi.yml
+- filename: smartlead-ai-analytics-api-openapi.yml
+  format: yaml
+  label: Smartlead Analytics API
+  slug: smartlead-ai-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-analytics-api-openapi.yml
+- filename: smartlead-ai-authentication-api-openapi.yml
+  format: yaml
+  label: Smartlead Authentication API
+  slug: smartlead-ai-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-authentication-api-openapi.yml
+- filename: smartlead-ai-email-accounts-api-openapi.yml
+  format: yaml
+  label: Smartlead Email Accounts API
+  slug: smartlead-ai-email-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-email-accounts-api-openapi.yml
+- filename: smartlead-ai-leads-api-openapi.yml
+  format: yaml
+  label: Smartlead Leads API
+  slug: smartlead-ai-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-leads-api-openapi.yml
+- filename: smartlead-ai-master-inbox-api-openapi.yml
+  format: yaml
+  label: Smartlead Master Inbox API
+  slug: smartlead-ai-master-inbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-master-inbox-api-openapi.yml
+- filename: smartlead-ai-smart-delivery-api-openapi.yml
+  format: yaml
+  label: Smartlead Smart Delivery API
+  slug: smartlead-ai-smart-delivery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-smart-delivery-api-openapi.yml
+- filename: smartlead-ai-smart-senders-api-openapi.yml
+  format: yaml
+  label: Smartlead Smart Senders API
+  slug: smartlead-ai-smart-senders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-smart-senders-api-openapi.yml
+- filename: smartlead-ai-utilities-api-openapi.yml
+  format: yaml
+  label: Smartlead Utilities API
+  slug: smartlead-ai-utilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-utilities-api-openapi.yml
+- filename: smartlead-ai-webhooks-api-openapi.yml
+  format: yaml
+  label: Smartlead Webhooks API
+  slug: smartlead-ai-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

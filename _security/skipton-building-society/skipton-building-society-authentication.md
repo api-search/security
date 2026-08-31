@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: obie-opendata-openapi.json
-  format: json
-  label: Skipton Open Banking Open Data API (OBIE Standard)
-  slug: skipton-open-data-api
+- filename: skipton-building-society-atm-api-openapi.yml
+  format: yaml
+  label: Skipton Building Society ATM API
+  slug: skipton-building-society-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skipton-building-society/refs/heads/main/openapi/obie-opendata-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/skipton-building-society/refs/heads/main/openapi/skipton-building-society-atm-api-openapi.yml
+- filename: skipton-building-society-bca-api-openapi.yml
+  format: yaml
+  label: Skipton Building Society BCA API
+  slug: skipton-building-society-bca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skipton-building-society/refs/heads/main/openapi/skipton-building-society-bca-api-openapi.yml
+- filename: skipton-building-society-branch-api-openapi.yml
+  format: yaml
+  label: Skipton Building Society Branch API
+  slug: skipton-building-society-branch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skipton-building-society/refs/heads/main/openapi/skipton-building-society-branch-api-openapi.yml
+- filename: skipton-building-society-ccc-api-openapi.yml
+  format: yaml
+  label: Skipton Building Society CCC API
+  slug: skipton-building-society-ccc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skipton-building-society/refs/heads/main/openapi/skipton-building-society-ccc-api-openapi.yml
+- filename: skipton-building-society-pca-api-openapi.yml
+  format: yaml
+  label: Skipton Building Society PCA API
+  slug: skipton-building-society-pca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skipton-building-society/refs/heads/main/openapi/skipton-building-society-pca-api-openapi.yml
+- filename: skipton-building-society-sme-api-openapi.yml
+  format: yaml
+  label: Skipton Building Society SME API
+  slug: skipton-building-society-sme-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skipton-building-society/refs/heads/main/openapi/skipton-building-society-sme-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

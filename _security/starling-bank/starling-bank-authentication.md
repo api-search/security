@@ -1,12 +1,42 @@
 ---
 api_key_in: []
 api_specs:
-- filename: obie-opendata-swagger.json
-  format: json
-  label: Starling Open Data API (OBIE Standard)
-  slug: starling-open-data-api
+- filename: starling-bank-atm-api-openapi.yml
+  format: yaml
+  label: Starling Bank ATM API
+  slug: starling-bank-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/openapi/obie-opendata-swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/openapi/starling-bank-atm-api-openapi.yml
+- filename: starling-bank-bca-api-openapi.yml
+  format: yaml
+  label: Starling Bank BCA API
+  slug: starling-bank-bca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/openapi/starling-bank-bca-api-openapi.yml
+- filename: starling-bank-branch-api-openapi.yml
+  format: yaml
+  label: Starling Bank Branch API
+  slug: starling-bank-branch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/openapi/starling-bank-branch-api-openapi.yml
+- filename: starling-bank-ccc-api-openapi.yml
+  format: yaml
+  label: Starling Bank CCC API
+  slug: starling-bank-ccc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/openapi/starling-bank-ccc-api-openapi.yml
+- filename: starling-bank-pca-api-openapi.yml
+  format: yaml
+  label: Starling Bank PCA API
+  slug: starling-bank-pca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/openapi/starling-bank-pca-api-openapi.yml
+- filename: starling-bank-sme-api-openapi.yml
+  format: yaml
+  label: Starling Bank SME API
+  slug: starling-bank-sme-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/openapi/starling-bank-sme-api-openapi.yml
 auth_types:
 - oauth2
 - http

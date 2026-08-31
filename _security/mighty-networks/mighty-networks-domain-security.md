@@ -150,6 +150,12 @@ api_specs:
   slug: mighty-networks-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-tags-api-openapi.yml
+- filename: mighty-networks-webhooks-api-openapi.yml
+  format: yaml
+  label: Mighty Networks Webhooks API
+  slug: mighty-networks-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

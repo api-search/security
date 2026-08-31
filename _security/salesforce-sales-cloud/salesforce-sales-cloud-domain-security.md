@@ -1,23 +1,5 @@
 ---
 api_specs:
-- filename: salesforce-sales-cloud-platform-events-api-openapi.yml
-  format: yaml
-  label: Platform Events API
-  slug: platform-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/openapi/salesforce-sales-cloud-platform-events-api-openapi.yml
-- filename: salesforce-sales-cloud-composite-api-openapi.yml
-  format: yaml
-  label: Salesforce Composite API
-  slug: salesforce-composite-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/openapi/salesforce-sales-cloud-composite-api-openapi.yml
-- filename: salesforce-sales-cloud-graphql-api-openapi.yml
-  format: yaml
-  label: Salesforce GraphQL API
-  slug: salesforce-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/openapi/salesforce-sales-cloud-graphql-api-openapi.yml
 - filename: salesforce-sales-cloud-change-events-api-openapi.yml
   format: yaml
   label: Salesforce Sales Cloud Change Events API
@@ -36,18 +18,6 @@ api_specs:
   slug: salesforce-sales-cloud-completions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/openapi/salesforce-sales-cloud-completions-api-openapi.yml
-- filename: salesforce-sales-cloud-composite-batch-api-openapi.yml
-  format: yaml
-  label: Salesforce Sales Cloud Composite Batch API
-  slug: salesforce-sales-cloud-composite-batch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/openapi/salesforce-sales-cloud-composite-batch-api-openapi.yml
-- filename: salesforce-sales-cloud-composite-graph-api-openapi.yml
-  format: yaml
-  label: Salesforce Sales Cloud Composite Graph API
-  slug: salesforce-sales-cloud-composite-graph-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/openapi/salesforce-sales-cloud-composite-graph-api-openapi.yml
 - filename: salesforce-sales-cloud-custom-endpoints-api-openapi.yml
   format: yaml
   label: Salesforce Sales Cloud Custom Endpoints API
@@ -246,12 +216,6 @@ api_specs:
   slug: salesforce-sales-cloud-sobject-rows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/openapi/salesforce-sales-cloud-sobject-rows-api-openapi.yml
-- filename: salesforce-sales-cloud-sobject-tree-api-openapi.yml
-  format: yaml
-  label: Salesforce Sales Cloud SObject Tree API
-  slug: salesforce-sales-cloud-sobject-tree-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/openapi/salesforce-sales-cloud-sobject-tree-api-openapi.yml
 - filename: salesforce-sales-cloud-tabs-api-openapi.yml
   format: yaml
   label: Salesforce Sales Cloud Tabs API

@@ -36,18 +36,6 @@ api_specs:
   slug: webflow-api-and-documentation-webflow-custom-code-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-custom-code-api-openapi.yml
-- filename: webflow-api-and-documentation-webflow-custom-code-pages-api-openapi.yml
-  format: yaml
-  label: Webflow API and Documentation Custom Code - Pages API
-  slug: webflow-api-and-documentation-webflow-custom-code-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-custom-code-pages-api-openapi.yml
-- filename: webflow-api-and-documentation-webflow-custom-code-sites-api-openapi.yml
-  format: yaml
-  label: Webflow API and Documentation Custom Code - Sites API
-  slug: webflow-api-and-documentation-webflow-custom-code-sites-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-custom-code-sites-api-openapi.yml
 - filename: webflow-api-and-documentation-webflow-forms-api-openapi.yml
   format: yaml
   label: Webflow API and Documentation Forms API
@@ -90,12 +78,6 @@ api_specs:
   slug: webflow-api-and-documentation-webflow-products-skus-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-products-skus-api-openapi.yml
-- filename: webflow-api-and-documentation-webflow-registered-scripts-api-openapi.yml
-  format: yaml
-  label: Webflow API and Documentation Registered Scripts API
-  slug: webflow-api-and-documentation-webflow-registered-scripts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-registered-scripts-api-openapi.yml
 - filename: webflow-api-and-documentation-webflow-settings-api-openapi.yml
   format: yaml
   label: Webflow API and Documentation Settings API

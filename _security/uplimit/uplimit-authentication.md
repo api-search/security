@@ -7,12 +7,6 @@ api_specs:
   slug: uplimit-course-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/openapi/uplimit-course-api-openapi.yml
-- filename: uplimit-enrollment-api-openapi.yml
-  format: yaml
-  label: Uplimit Enrollment API
-  slug: uplimit-enrollment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/openapi/uplimit-enrollment-api-openapi.yml
 - filename: uplimit-export-api-openapi.yml
   format: yaml
   label: Uplimit Export API

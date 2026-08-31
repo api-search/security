@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: relex-data-api-openapi.json
-  format: json
-  label: RELEX Data API
-  slug: relex-data-api
+- filename: relex-environments-api-openapi.yml
+  format: yaml
+  label: RELEX Solutions Environments API
+  slug: relex-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-data-api-openapi.json
-- filename: relex-monitoring-api-openapi.json
-  format: json
-  label: RELEX Monitoring API
-  slug: relex-monitoring-api
+  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-environments-api-openapi.yml
+- filename: relex-events-api-openapi.yml
+  format: yaml
+  label: RELEX Solutions Events API
+  slug: relex-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-monitoring-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-events-api-openapi.yml
+- filename: relex-health-api-openapi.yml
+  format: yaml
+  label: RELEX Solutions Health API
+  slug: relex-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-health-api-openapi.yml
+- filename: relex-master-data-api-openapi.yml
+  format: yaml
+  label: RELEX Solutions Master data API
+  slug: relex-master-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-master-data-api-openapi.yml
+- filename: relex-metadata-api-openapi.yml
+  format: yaml
+  label: RELEX Solutions Metadata API
+  slug: relex-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-metadata-api-openapi.yml
+- filename: relex-metrics-api-openapi.yml
+  format: yaml
+  label: RELEX Solutions Metrics API
+  slug: relex-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-metrics-api-openapi.yml
+- filename: relex-transactions-api-openapi.yml
+  format: yaml
+  label: RELEX Solutions Transactions API
+  slug: relex-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-transactions-api-openapi.yml
 certifications:
 - ISO/IEC 27001:2013
 - SOC 2 (ISAE 3000)

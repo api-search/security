@@ -8,48 +8,6 @@ api_specs:
   slug: arbiscan-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/arbiscan/refs/heads/main/openapi/arbiscan-accounts-api-openapi.yml
-- filename: arbiscan-blocks-api-openapi.yml
-  format: yaml
-  label: Arbiscan Blocks API
-  slug: arbiscan-blocks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arbiscan/refs/heads/main/openapi/arbiscan-blocks-api-openapi.yml
-- filename: arbiscan-contracts-api-openapi.yml
-  format: yaml
-  label: Arbiscan Contracts API
-  slug: arbiscan-contracts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arbiscan/refs/heads/main/openapi/arbiscan-contracts-api-openapi.yml
-- filename: arbiscan-gas-tracker-api-openapi.yml
-  format: yaml
-  label: Arbiscan Gas Tracker API
-  slug: arbiscan-gas-tracker-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arbiscan/refs/heads/main/openapi/arbiscan-gas-tracker-api-openapi.yml
-- filename: arbiscan-logs-api-openapi.yml
-  format: yaml
-  label: Arbiscan Logs API
-  slug: arbiscan-logs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arbiscan/refs/heads/main/openapi/arbiscan-logs-api-openapi.yml
-- filename: arbiscan-stats-api-openapi.yml
-  format: yaml
-  label: Arbiscan Stats API
-  slug: arbiscan-stats-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arbiscan/refs/heads/main/openapi/arbiscan-stats-api-openapi.yml
-- filename: arbiscan-tokens-api-openapi.yml
-  format: yaml
-  label: Arbiscan Tokens API
-  slug: arbiscan-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arbiscan/refs/heads/main/openapi/arbiscan-tokens-api-openapi.yml
-- filename: arbiscan-transactions-api-openapi.yml
-  format: yaml
-  label: Arbiscan Transactions API
-  slug: arbiscan-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arbiscan/refs/heads/main/openapi/arbiscan-transactions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

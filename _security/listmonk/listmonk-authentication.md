@@ -50,6 +50,42 @@ api_specs:
   slug: listmonk-transactional-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-transactional-api-openapi.yml
+- filename: listmonk-admin-api-openapi.yml
+  format: yaml
+  label: listmonk Admin API
+  slug: listmonk-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-admin-api-openapi.yml
+- filename: listmonk-logs-api-openapi.yml
+  format: yaml
+  label: listmonk Logs API
+  slug: listmonk-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-logs-api-openapi.yml
+- filename: listmonk-maintenance-api-openapi.yml
+  format: yaml
+  label: listmonk Maintenance API
+  slug: listmonk-maintenance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-maintenance-api-openapi.yml
+- filename: listmonk-miscellaneous-api-openapi.yml
+  format: yaml
+  label: listmonk Miscellaneous API
+  slug: listmonk-miscellaneous-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-miscellaneous-api-openapi.yml
+- filename: listmonk-public-api-openapi.yml
+  format: yaml
+  label: listmonk Public API
+  slug: listmonk-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-public-api-openapi.yml
+- filename: listmonk-settings-api-openapi.yml
+  format: yaml
+  label: listmonk Settings API
+  slug: listmonk-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-settings-api-openapi.yml
 auth_types:
 - http
 - apiKey

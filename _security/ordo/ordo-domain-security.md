@@ -1,41 +1,59 @@
 ---
 api_specs:
-- filename: ordo-single-payments.yml
+- filename: ordo-account-data-client-hosted-api-openapi.yml
   format: yaml
-  label: Ordo Single Payments API
-  slug: ordo-single-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-single-payments.yml
-- filename: ordo-smart-request-manager.yml
-  format: yaml
-  label: Ordo Smart Request Manager API
-  slug: ordo-smart-request-manager-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-smart-request-manager.yml
-- filename: ordo-recurring-payment-mandates.yml
-  format: yaml
-  label: Ordo Recurring Payment Mandates (VRP) API
-  slug: ordo-recurring-payment-mandates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-recurring-payment-mandates.yml
-- filename: ordo-account-data-ordo-hosted.yml
-  format: yaml
-  label: Ordo Account Data (Ordo Hosted) API
-  slug: ordo-account-data-ordo-hosted-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-account-data-ordo-hosted.yml
-- filename: ordo-account-data-client-hosted.yml
-  format: yaml
-  label: Ordo Account Data (Client Hosted) API
+  label: Ordo Account Data - Client Hosted API
   slug: ordo-account-data-client-hosted-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-account-data-client-hosted.yml
-- filename: ordo-registry-manager.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-account-data-client-hosted-api-openapi.yml
+- filename: ordo-account-data-ordo-hosted-api-openapi.yml
   format: yaml
-  label: Ordo Registry Manager API
-  slug: ordo-registry-manager-api
+  label: Ordo Account Data - Ordo Hosted API
+  slug: ordo-account-data-ordo-hosted-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-registry-manager.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-account-data-ordo-hosted-api-openapi.yml
+- filename: ordo-account-verification-client-hosted-api-openapi.yml
+  format: yaml
+  label: Ordo Account Verification - Client Hosted API
+  slug: ordo-account-verification-client-hosted-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-account-verification-client-hosted-api-openapi.yml
+- filename: ordo-account-verification-ordo-hosted-api-openapi.yml
+  format: yaml
+  label: Ordo Account Verification - Ordo Hosted API
+  slug: ordo-account-verification-ordo-hosted-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-account-verification-ordo-hosted-api-openapi.yml
+- filename: ordo-bank-accounts-api-openapi.yml
+  format: yaml
+  label: Ordo Bank accounts API
+  slug: ordo-bank-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-bank-accounts-api-openapi.yml
+- filename: ordo-client-hosted-api-openapi.yml
+  format: yaml
+  label: Ordo Client hosted API
+  slug: ordo-client-hosted-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-client-hosted-api-openapi.yml
+- filename: ordo-create-a-mandate-api-openapi.yml
+  format: yaml
+  label: Ordo Create a mandate API
+  slug: ordo-create-a-mandate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-create-a-mandate-api-openapi.yml
+- filename: ordo-ordo-hosted-api-openapi.yml
+  format: yaml
+  label: Ordo Ordo hosted API
+  slug: ordo-ordo-hosted-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-ordo-hosted-api-openapi.yml
+- filename: ordo-retrieve-mandate-details-api-openapi.yml
+  format: yaml
+  label: Ordo Retrieve mandate details API
+  slug: ordo-retrieve-mandate-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-retrieve-mandate-details-api-openapi.yml
 description: ''
 domains:
 - caa: []

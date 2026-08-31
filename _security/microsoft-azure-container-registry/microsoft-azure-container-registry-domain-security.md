@@ -58,8 +58,8 @@ layout: security
 method: probed
 name: Microsoft Azure Container Registry Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for microsoft-azure-container-registry, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: microsoft-azure-container-registry
+overview: 'Domain security posture for Azure Container Registry, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Azure Container Registry
 provider_slug: microsoft-azure-container-registry
 slug: microsoft-azure-container-registry-domain-security
 source_filename: microsoft-azure-container-registry-domain-security.yml

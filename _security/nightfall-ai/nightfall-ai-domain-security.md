@@ -6,12 +6,6 @@ api_specs:
   slug: nightfall-ai-scan-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/openapi/nightfall-ai-scan-api-openapi.yml
-- filename: nightfall-ai-scans-api-openapi.yml
-  format: yaml
-  label: Nightfall AI Scans API
-  slug: nightfall-ai-scans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/openapi/nightfall-ai-scans-api-openapi.yml
 description: ''
 domains:
 - caa: []

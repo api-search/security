@@ -102,6 +102,18 @@ api_specs:
   slug: constant-contact-technology-partners-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-technology-partners-webhooks-api-openapi.yml
+- filename: constant-contact-automations-api-openapi.yml
+  format: yaml
+  label: Constant Contact Automations API
+  slug: constant-contact-automations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-automations-api-openapi.yml
+- filename: constant-contact-social-api-openapi.yml
+  format: yaml
+  label: Constant Contact Social API
+  slug: constant-contact-social-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-social-api-openapi.yml
 description: ''
 domains:
 - caa: []

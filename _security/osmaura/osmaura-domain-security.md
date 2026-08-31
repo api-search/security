@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: osmaura-prospect-openapi.yml
+- filename: osmaura-prospect-editions-api-openapi.yml
   format: yaml
-  label: Osmaura Prospect API
-  slug: osmaura-prospect-api
+  label: Osmaura Prospect Editions API
+  slug: osmaura-prospect-editions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/openapi/osmaura-prospect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/openapi/osmaura-prospect-editions-api-openapi.yml
+- filename: osmaura-prospects-api-openapi.yml
+  format: yaml
+  label: Osmaura Prospects API
+  slug: osmaura-prospects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/openapi/osmaura-prospects-api-openapi.yml
+- filename: osmaura-signal-editions-api-openapi.yml
+  format: yaml
+  label: Osmaura Signal Editions API
+  slug: osmaura-signal-editions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/openapi/osmaura-signal-editions-api-openapi.yml
+- filename: osmaura-signals-api-openapi.yml
+  format: yaml
+  label: Osmaura Signals API
+  slug: osmaura-signals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/openapi/osmaura-signals-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: qc-ware-promethium-openapi.yml
+- filename: qc-ware-files-api-openapi.yml
   format: yaml
-  label: Promethium REST API
-  slug: qc-ware-promethium-rest-api
+  label: QC Ware Files API
+  slug: qc-ware-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/openapi/qc-ware-promethium-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/openapi/qc-ware-files-api-openapi.yml
+- filename: qc-ware-workflows-api-openapi.yml
+  format: yaml
+  label: QC Ware Workflows API
+  slug: qc-ware-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/openapi/qc-ware-workflows-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

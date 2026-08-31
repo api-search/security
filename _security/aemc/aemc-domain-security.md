@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: aemc-energy-rules-openapi-derived.yml
+- filename: aemc-glossary-api-openapi.yml
   format: yaml
-  label: AEMC Energy Rules API
-  slug: aemc-energy-rules-api
+  label: Australian Energy Market Commission Glossary API
+  slug: aemc-glossary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/openapi/aemc-energy-rules-openapi-derived.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/openapi/aemc-glossary-api-openapi.yml
+- filename: aemc-rule-content-api-openapi.yml
+  format: yaml
+  label: Australian Energy Market Commission Rule Content API
+  slug: aemc-rule-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/openapi/aemc-rule-content-api-openapi.yml
+- filename: aemc-rule-versions-api-openapi.yml
+  format: yaml
+  label: Australian Energy Market Commission Rule Versions API
+  slug: aemc-rule-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/openapi/aemc-rule-versions-api-openapi.yml
+- filename: aemc-search-api-openapi.yml
+  format: yaml
+  label: Australian Energy Market Commission Search API
+  slug: aemc-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/openapi/aemc-search-api-openapi.yml
+- filename: aemc-settings-api-openapi.yml
+  format: yaml
+  label: Australian Energy Market Commission Settings API
+  slug: aemc-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/openapi/aemc-settings-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: red-hat-ansible-automation-platform-automation-controller-openapi.json
+  format: json
+  label: Red Hat Ansible Automation Controller API
+  slug: controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/openapi/red-hat-ansible-automation-platform-automation-controller-openapi.json
+- filename: red-hat-ansible-automation-platform-automation-hub-openapi.json
+  format: json
+  label: Red Hat Ansible Private Automation Hub API
+  slug: private-hub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/openapi/red-hat-ansible-automation-platform-automation-hub-openapi.json
+- filename: red-hat-ansible-automation-platform-event-driven-ansible-openapi.json
+  format: json
+  label: Red Hat Event-Driven Ansible Controller API
+  slug: eda-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/openapi/red-hat-ansible-automation-platform-event-driven-ansible-openapi.json
+- filename: red-hat-ansible-automation-platform-platform-gateway-openapi.json
+  format: json
+  label: Red Hat Ansible Automation Platform Gateway API
+  slug: platform-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/openapi/red-hat-ansible-automation-platform-platform-gateway-openapi.json
+- filename: red-hat-ansible-automation-platform-ansible-lightspeed-openapi.json
+  format: json
+  label: Red Hat Ansible Lightspeed with IBM watsonx Code Assistant API
+  slug: ansible-lightspeed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/openapi/red-hat-ansible-automation-platform-ansible-lightspeed-openapi.json
+- filename: red-hat-ansible-automation-platform-automation-hub-openapi.json
+  format: json
+  label: Red Hat Automation Hub API (Hybrid Cloud Console)
+  slug: hosted-automation-hub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/openapi/red-hat-ansible-automation-platform-automation-hub-openapi.json
 description: ''
 domains:
 - caa:
@@ -11,8 +48,13 @@ domains:
   dnssec: false
   domain: redhat.com
   spf: true
+- caa: []
+  dmarc: false
+  dnssec: false
+  domain: cluster.local
+  spf: false
 hosts:
-- cert_expires: Oct 10 23:59:59 2026 GMT
+- cert_expires: Mar 10 23:59:59 2027 GMT
   host: www.redhat.com
   hsts: true
   hsts_max_age: 31536000
@@ -24,19 +66,21 @@ hosts:
   hsts_max_age: 86400
   https: true
   tls_version: TLSv1.3
+- host: automation-hub-backend-cwa.automation-hub-prod.svc.cluster.local
+  https: false
 kind: domain-security
 layout: security
 method: probed
 name: Red Hat Ansible Automation Platform Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Red Hat Ansible Automation Platform, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for Red Hat Ansible Automation Platform, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Red Hat Ansible Automation Platform
 provider_slug: red-hat-ansible-automation-platform
 slug: red-hat-ansible-automation-platform-domain-security
 source_filename: red-hat-ansible-automation-platform-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.redhat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: access.redhat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 86400\ndomains:\n- domain: redhat.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 iodef \"mailto:it-cert-admin@redhat.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.redhat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: access.redhat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 86400\n- host: automation-hub-backend-cwa.automation-hub-prod.svc.cluster.local\n  https: false\ndomains:\n- domain: redhat.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 iodef \"mailto:it-cert-admin@redhat.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: cluster.local\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/security/red-hat-ansible-automation-platform-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -45,4 +89,9 @@ tags:
 - DevOps
 - Enterprise
 - Red Hat
+- Ansible
+- IT Operations
+- Event-Driven Architecture
+- Infrastructure as Code
+- MCP
 ---

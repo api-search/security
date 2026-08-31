@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: genialis-base-openapi.yaml
+- filename: genialis-about-api-openapi.yml
   format: yaml
-  label: Genialis Expressions API
-  slug: genialis-expressions-api
+  label: Genialis About API
+  slug: genialis-about-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genialis/refs/heads/main/openapi/genialis-base-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/genialis/refs/heads/main/openapi/genialis-about-api-openapi.yml
+- filename: genialis-api-api-openapi.yml
+  format: yaml
+  label: Genialis API
+  slug: genialis-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genialis/refs/heads/main/openapi/genialis-api-api-openapi.yml
+- filename: genialis-health-check-api-openapi.yml
+  format: yaml
+  label: Genialis Health Check API
+  slug: genialis-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genialis/refs/heads/main/openapi/genialis-health-check-api-openapi.yml
+- filename: genialis-rest-auth-api-openapi.yml
+  format: yaml
+  label: Genialis Rest Auth API
+  slug: genialis-rest-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genialis/refs/heads/main/openapi/genialis-rest-auth-api-openapi.yml
+- filename: genialis-saml-auth-api-openapi.yml
+  format: yaml
+  label: Genialis Saml Auth API
+  slug: genialis-saml-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genialis/refs/heads/main/openapi/genialis-saml-auth-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -66,8 +66,8 @@ method: derived
 name: Ibm Quantum Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: ibm-quantum secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: ibm-quantum
+overview: IBM Quantum secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: IBM Quantum
 provider_slug: ibm-quantum
 scheme_count: 3
 schemes:

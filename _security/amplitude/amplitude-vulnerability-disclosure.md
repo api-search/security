@@ -1,29 +1,5 @@
 ---
 api_specs:
-- filename: amplitude-identify-api-openapi.yml
-  format: yaml
-  label: Amplitude Identify API
-  slug: identify-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-identify-api-openapi.yml
-- filename: amplitude-export-api-openapi.yml
-  format: yaml
-  label: Amplitude Export API
-  slug: export-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-export-api-openapi.yml
-- filename: amplitude-attribution-api-openapi.yml
-  format: yaml
-  label: Amplitude Attribution API
-  slug: attribution-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-attribution-api-openapi.yml
-- filename: amplitude-user-mapping-api-openapi.yml
-  format: yaml
-  label: Amplitude User Mapping API
-  slug: user-mapping-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-user-mapping-api-openapi.yml
 - filename: amplitude-webhooks-cohort-sync-asyncapi.yml
   format: yaml
   label: Amplitude Webhooks and Cohort Sync

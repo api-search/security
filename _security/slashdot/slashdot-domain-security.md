@@ -1,47 +1,11 @@
 ---
 api_specs:
-- filename: slashdot-apple-api-openapi.yml
-  format: yaml
-  label: Slashdot Apple API
-  slug: slashdot-apple-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/openapi/slashdot-apple-api-openapi.yml
-- filename: slashdot-developers-api-openapi.yml
-  format: yaml
-  label: Slashdot Developers API
-  slug: slashdot-developers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/openapi/slashdot-developers-api-openapi.yml
 - filename: slashdot-feeds-api-openapi.yml
   format: yaml
   label: Slashdot Feeds API
   slug: slashdot-feeds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/openapi/slashdot-feeds-api-openapi.yml
-- filename: slashdot-games-api-openapi.yml
-  format: yaml
-  label: Slashdot Games API
-  slug: slashdot-games-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/openapi/slashdot-games-api-openapi.yml
-- filename: slashdot-linux-api-openapi.yml
-  format: yaml
-  label: Slashdot Linux API
-  slug: slashdot-linux-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/openapi/slashdot-linux-api-openapi.yml
-- filename: slashdot-rights-api-openapi.yml
-  format: yaml
-  label: Slashdot Rights API
-  slug: slashdot-rights-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/openapi/slashdot-rights-api-openapi.yml
-- filename: slashdot-science-api-openapi.yml
-  format: yaml
-  label: Slashdot Science API
-  slug: slashdot-science-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/openapi/slashdot-science-api-openapi.yml
 description: ''
 domains:
 - caa:

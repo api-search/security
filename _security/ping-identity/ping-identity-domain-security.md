@@ -6,12 +6,6 @@ api_specs:
   slug: ping-identity-configuration-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/openapi/ping-identity-configuration-management-api-openapi.yml
-- filename: ping-identity-davinci-admin-apis-api-openapi.yml
-  format: yaml
-  label: Ping Identity DaVinci Admin APIs API
-  slug: ping-identity-davinci-admin-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/openapi/ping-identity-davinci-admin-apis-api-openapi.yml
 - filename: ping-identity-davinci-admin-application-flow-policies-api-openapi.yml
   format: yaml
   label: Ping Identity DaVinci Admin Application Flow Policies API
@@ -54,12 +48,6 @@ api_specs:
   slug: ping-identity-davinci-admin-variables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/openapi/ping-identity-davinci-admin-variables-api-openapi.yml
-- filename: ping-identity-environment-management-api-openapi.yml
-  format: yaml
-  label: Ping Identity Environment Management API
-  slug: ping-identity-environment-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/openapi/ping-identity-environment-management-api-openapi.yml
 - filename: ping-identity-environments-api-openapi.yml
   format: yaml
   label: Ping Identity Environments API
@@ -72,24 +60,6 @@ api_specs:
   slug: ping-identity-flow-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/openapi/ping-identity-flow-policies-api-openapi.yml
-- filename: ping-identity-metrics-api-openapi.yml
-  format: yaml
-  label: Ping Identity Metrics API
-  slug: ping-identity-metrics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/openapi/ping-identity-metrics-api-openapi.yml
-- filename: ping-identity-pingone-davinci-api-openapi.yml
-  format: yaml
-  label: Ping Identity PingOne DaVinci API
-  slug: ping-identity-pingone-davinci-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/openapi/ping-identity-pingone-davinci-api-openapi.yml
-- filename: ping-identity-snapshots-api-openapi.yml
-  format: yaml
-  label: Ping Identity Snapshots API
-  slug: ping-identity-snapshots-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/openapi/ping-identity-snapshots-api-openapi.yml
 - filename: ping-identity-total-identities-api-openapi.yml
   format: yaml
   label: Ping Identity Total Identities API

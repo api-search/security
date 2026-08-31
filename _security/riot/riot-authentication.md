@@ -56,36 +56,6 @@ api_specs:
   slug: riot-sonar-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-sonar-api-openapi.yml
-- filename: riot-team-awareness-api-openapi.yml
-  format: yaml
-  label: Riot Team awareness API
-  slug: riot-team-awareness-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-team-awareness-api-openapi.yml
-- filename: riot-team-inbox-api-openapi.yml
-  format: yaml
-  label: Riot Team inbox API
-  slug: riot-team-inbox-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-team-inbox-api-openapi.yml
-- filename: riot-team-platform-api-openapi.yml
-  format: yaml
-  label: Riot Team platform API
-  slug: riot-team-platform-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-team-platform-api-openapi.yml
-- filename: riot-team-simulation-api-openapi.yml
-  format: yaml
-  label: Riot Team simulation API
-  slug: riot-team-simulation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-team-simulation-api-openapi.yml
-- filename: riot-webhook-events-api-openapi.yml
-  format: yaml
-  label: Riot Webhook Events API
-  slug: riot-webhook-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-webhook-events-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

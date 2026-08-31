@@ -1,23 +1,35 @@
 ---
 api_specs:
-- filename: origami-risk-authentication-openapi.json
-  format: json
+- filename: origami-risk-authentication-api-openapi.yml
+  format: yaml
   label: Origami Risk Authentication API
   slug: origami-risk-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origami-risk/refs/heads/main/openapi/origami-risk-authentication-openapi.json
-- filename: origami-risk-public-api-openapi.json
-  format: json
-  label: Origami Risk Public API
-  slug: origami-risk-public-api
+  url: https://raw.githubusercontent.com/api-evangelist/origami-risk/refs/heads/main/openapi/origami-risk-authentication-api-openapi.yml
+- filename: origami-risk-hastokenexpired-api-openapi.yml
+  format: yaml
+  label: Origami Risk Has Token Expired API
+  slug: origami-risk-hastokenexpired-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origami-risk/refs/heads/main/openapi/origami-risk-public-api-openapi.json
-- filename: origami-risk-standard-rating-api-openapi.json
-  format: json
-  label: Origami Risk Standard Rating API
-  slug: origami-risk-standard-rating-api
+  url: https://raw.githubusercontent.com/api-evangelist/origami-risk/refs/heads/main/openapi/origami-risk-hastokenexpired-api-openapi.yml
+- filename: origami-risk-new-endpoint-1-api-openapi.yml
+  format: yaml
+  label: Origami Risk New Endpoint 1 API
+  slug: origami-risk-new-endpoint-1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origami-risk/refs/heads/main/openapi/origami-risk-standard-rating-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/origami-risk/refs/heads/main/openapi/origami-risk-new-endpoint-1-api-openapi.yml
+- filename: origami-risk-new-endpoint-api-openapi.yml
+  format: yaml
+  label: Origami Risk New Endpoint API
+  slug: origami-risk-new-endpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/origami-risk/refs/heads/main/openapi/origami-risk-new-endpoint-api-openapi.yml
+- filename: origami-risk-requests-api-openapi.yml
+  format: yaml
+  label: Origami Risk Requests API
+  slug: origami-risk-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/origami-risk/refs/heads/main/openapi/origami-risk-requests-api-openapi.yml
 description: ''
 domains:
 - caa: []

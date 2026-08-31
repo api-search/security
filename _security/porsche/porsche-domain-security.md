@@ -14,7 +14,7 @@ domains:
   domain: porsche.com
   spf: true
 hosts:
-- cert_expires: Sep 17 01:14:19 2026 GMT
+- cert_expires: Nov 16 11:19:18 2026 GMT
   host: developer.porsche.com
   hsts: true
   hsts_max_age: 31556952
@@ -32,11 +32,18 @@ slug: porsche-domain-security
 source_filename: porsche-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.porsche.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 01:14:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: porsche.com\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"quovadisglobal.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \";\"\n  - 0 iodef \"mailto:certadm@porsche.de\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.porsche.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 11:19:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: porsche.com\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"quovadisglobal.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \";\"\n  - 0 iodef \"mailto:certadm@porsche.de\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/porsche/refs/heads/main/security/porsche-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Automobiles
 - Cars
 - Vehicles
+- Automotive
+- Connected Car
+- Identity
+- OpenID Connect
+- Design System
+- Open Source
+- Germany
 ---

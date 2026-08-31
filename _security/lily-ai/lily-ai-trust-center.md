@@ -1,11 +1,125 @@
 ---
 api_specs:
-- filename: lily-ai-lilyapp-api-openapi.yml
+- filename: lily-ai-auth-api-openapi.yml
   format: yaml
-  label: LilyApp Middleware API
-  slug: lilyapp-middleware-api
+  label: Lily AI Auth API
+  slug: lily-ai-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-lilyapp-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-auth-api-openapi.yml
+- filename: lily-ai-batch-api-openapi.yml
+  format: yaml
+  label: Lily AI Batch API
+  slug: lily-ai-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-batch-api-openapi.yml
+- filename: lily-ai-config-api-openapi.yml
+  format: yaml
+  label: Lily AI Config API
+  slug: lily-ai-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-config-api-openapi.yml
+- filename: lily-ai-enrichment-platform-proxy-api-openapi.yml
+  format: yaml
+  label: Lily AI Enrichment Platform Proxy API
+  slug: lily-ai-enrichment-platform-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-enrichment-platform-proxy-api-openapi.yml
+- filename: lily-ai-faqs-api-openapi.yml
+  format: yaml
+  label: Lily AI Faqs API
+  slug: lily-ai-faqs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-faqs-api-openapi.yml
+- filename: lily-ai-health-api-openapi.yml
+  format: yaml
+  label: Lily AI Health API
+  slug: lily-ai-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-health-api-openapi.yml
+- filename: lily-ai-integration-api-openapi.yml
+  format: yaml
+  label: Lily AI Integration API
+  slug: lily-ai-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-integration-api-openapi.yml
+- filename: lily-ai-lilyapp-api-nest-based-application-api-openapi.yml
+  format: yaml
+  label: Lily AI LilyApp API Nest Based Application API
+  slug: lily-ai-lilyapp-api-nest-based-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-lilyapp-api-nest-based-application-api-openapi.yml
+- filename: lily-ai-metrics-api-openapi.yml
+  format: yaml
+  label: Lily AI Metrics API
+  slug: lily-ai-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-metrics-api-openapi.yml
+- filename: lily-ai-mock-data-api-openapi.yml
+  format: yaml
+  label: Lily AI Mock Data API
+  slug: lily-ai-mock-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-mock-data-api-openapi.yml
+- filename: lily-ai-pi-api-proxy-api-openapi.yml
+  format: yaml
+  label: Lily AI Pi Api Proxy API
+  slug: lily-ai-pi-api-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-pi-api-proxy-api-openapi.yml
+- filename: lily-ai-pi-config-proxy-api-openapi.yml
+  format: yaml
+  label: Lily AI Pi Config Proxy API
+  slug: lily-ai-pi-config-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-pi-config-proxy-api-openapi.yml
+- filename: lily-ai-pi-connector-proxy-api-openapi.yml
+  format: yaml
+  label: Lily AI Pi Connector Proxy API
+  slug: lily-ai-pi-connector-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-pi-connector-proxy-api-openapi.yml
+- filename: lily-ai-productcopy-api-openapi.yml
+  format: yaml
+  label: Lily AI Productcopy API
+  slug: lily-ai-productcopy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-productcopy-api-openapi.yml
+- filename: lily-ai-productcopyv2-api-openapi.yml
+  format: yaml
+  label: Lily AI Productcopy V2 API
+  slug: lily-ai-productcopyv2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-productcopyv2-api-openapi.yml
+- filename: lily-ai-products-api-openapi.yml
+  format: yaml
+  label: Lily AI Products API
+  slug: lily-ai-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-products-api-openapi.yml
+- filename: lily-ai-search-api-openapi.yml
+  format: yaml
+  label: Lily AI Search API
+  slug: lily-ai-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-search-api-openapi.yml
+- filename: lily-ai-subsidiary-api-openapi.yml
+  format: yaml
+  label: Lily AI Subsidiary API
+  slug: lily-ai-subsidiary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-subsidiary-api-openapi.yml
+- filename: lily-ai-superset-api-openapi.yml
+  format: yaml
+  label: Lily AI Superset API
+  slug: lily-ai-superset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-superset-api-openapi.yml
+- filename: lily-ai-tce-api-proxy-api-openapi.yml
+  format: yaml
+  label: Lily AI Tce Api Proxy API
+  slug: lily-ai-tce-api-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-tce-api-proxy-api-openapi.yml
 certifications: []
 description: ''
 kind: trust-center

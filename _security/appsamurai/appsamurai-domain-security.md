@@ -6,12 +6,42 @@ api_specs:
   slug: appsamurai-campaign-spend-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/openapi/appsamurai-campaign-spend-api-openapi.yml
-- filename: appsamurai-storyly-external-api-openapi.json
-  format: json
-  label: Appsamurai Storyly External API
-  slug: appsamurai-storyly-external-api
+- filename: appsamurai-app-api-openapi.yml
+  format: yaml
+  label: Appsamurai App API
+  slug: appsamurai-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/openapi/appsamurai-storyly-external-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/openapi/appsamurai-app-api-openapi.yml
+- filename: appsamurai-audience-api-openapi.yml
+  format: yaml
+  label: Appsamurai Audience API
+  slug: appsamurai-audience-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/openapi/appsamurai-audience-api-openapi.yml
+- filename: appsamurai-instance-api-openapi.yml
+  format: yaml
+  label: Appsamurai Instance API
+  slug: appsamurai-instance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/openapi/appsamurai-instance-api-openapi.yml
+- filename: appsamurai-segment-api-openapi.yml
+  format: yaml
+  label: Appsamurai Segment API
+  slug: appsamurai-segment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/openapi/appsamurai-segment-api-openapi.yml
+- filename: appsamurai-story-api-openapi.yml
+  format: yaml
+  label: Appsamurai Story API
+  slug: appsamurai-story-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/openapi/appsamurai-story-api-openapi.yml
+- filename: appsamurai-story-group-api-openapi.yml
+  format: yaml
+  label: Appsamurai Story Group API
+  slug: appsamurai-story-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/openapi/appsamurai-story-group-api-openapi.yml
 description: ''
 domains:
 - caa: []

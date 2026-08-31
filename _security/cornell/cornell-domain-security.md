@@ -12,12 +12,12 @@ api_specs:
   slug: library-catalog
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-library-catalog-api-openapi.yml
-- filename: cugir-geospatial-api-openapi.yml
+- filename: cornell-cugir-api-openapi.yml
   format: yaml
-  label: CUGIR — Cornell University Geospatial Information Repository API
-  slug: cugir
+  label: Cornell University Cugir API
+  slug: cornell-cugir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cugir-geospatial-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-cugir-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,71 +1,17 @@
 ---
 api_specs:
-- filename: jp-morgan-chase-digital-onboarding-api-openapi.yml
-  format: yaml
-  label: Digital Onboarding API
-  slug: digital-onboarding-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-digital-onboarding-api-openapi.yml
-- filename: jp-morgan-chase-consumer-profile-management-api-openapi.yml
-  format: yaml
-  label: Consumer Profile Management API
-  slug: consumer-profile-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-consumer-profile-management-api-openapi.yml
-- filename: jp-morgan-chase-tokenization-api-openapi.yml
-  format: yaml
-  label: Tokenization API
-  slug: tokenization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-tokenization-api-openapi.yml
-- filename: jp-morgan-chase-reporting-api-openapi.yml
-  format: yaml
-  label: Reporting API
-  slug: reporting-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-reporting-api-openapi.yml
 - filename: jp-morgan-chase-notifications-api-openapi.yml
   format: yaml
   label: Notifications API
   slug: notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-notifications-api-openapi.yml
-- filename: jp-morgan-chase-request-to-pay-via-qr-code-api-openapi.yml
-  format: yaml
-  label: Request to Pay via QR Code API
-  slug: request-to-pay-via-qr-code-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-request-to-pay-via-qr-code-api-openapi.yml
-- filename: jp-morgan-chase-checkout-api-openapi.yml
-  format: yaml
-  label: Checkout API
-  slug: checkout-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-checkout-api-openapi.yml
-- filename: jp-morgan-chase-dispute-management-api-openapi.yml
-  format: yaml
-  label: Dispute Management API
-  slug: dispute-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-dispute-management-api-openapi.yml
 - filename: jp-morgan-chase-accounts-api-openapi.yml
   format: yaml
   label: Accounts API
   slug: accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-accounts-api-openapi.yml
-- filename: jp-morgan-chase-alerts-and-decisioning-api-openapi.yml
-  format: yaml
-  label: Alerts and Decisioning API
-  slug: alerts-and-decisioning-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-alerts-and-decisioning-api-openapi.yml
-- filename: jp-morgan-chase-product-configuration-api-openapi.yml
-  format: yaml
-  label: Product Configuration API
-  slug: product-configuration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-product-configuration-api-openapi.yml
 - filename: jp-morgan-chase-recipients-api-openapi.yml
   format: yaml
   label: Recipients API
@@ -78,84 +24,366 @@ api_specs:
   slug: webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-webhooks-api-openapi.yml
-- filename: jp-morgan-chase-3-d-secure-api-openapi.yml
-  format: yaml
-  label: 3-D Secure API
-  slug: 3-d-secure-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-3-d-secure-api-openapi.yml
-- filename: jp-morgan-chase-account-updater-api-openapi.yml
-  format: yaml
-  label: Account Updater API
-  slug: account-updater-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-account-updater-api-openapi.yml
-- filename: jp-morgan-chase-global-payments-api-openapi.yml
-  format: yaml
-  label: Global Payments API
-  slug: global-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-global-payments-api-openapi.yml
 - filename: jp-morgan-chase-transactions-api-openapi.yml
   format: yaml
   label: Transactions API
   slug: transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-transactions-api-openapi.yml
-- filename: jp-morgan-chase-blockchain-deposit-account-balances-api-openapi.yml
-  format: yaml
-  label: Blockchain Deposit Account Balances API
-  slug: blockchain-deposit-account-balances-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-blockchain-deposit-account-balances-api-openapi.yml
 - filename: jp-morgan-chase-documents-api-openapi.yml
   format: yaml
   label: Documents API
   slug: documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-documents-api-openapi.yml
-- filename: jp-morgan-chase-validation-services-api-openapi.yml
+- filename: jp-morgan-chase-account-information-api-openapi.yml
   format: yaml
-  label: Validation Services API
-  slug: validation-services-api
+  label: JPMorgan Chase Account Information API
+  slug: jp-morgan-chase-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-validation-services-api-openapi.yml
-- filename: jp-morgan-chase-wallet-decryption-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-account-information-api-openapi.yml
+- filename: jp-morgan-chase-account-restrictions-api-openapi.yml
   format: yaml
-  label: Wallet Decryption API
-  slug: wallet-decryption-api
+  label: JPMorgan Chase Account Restrictions API
+  slug: jp-morgan-chase-account-restrictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-wallet-decryption-api-openapi.yml
-- filename: jp-morgan-chase-account-information-services-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-account-restrictions-api-openapi.yml
+- filename: jp-morgan-chase-account-services-api-openapi.yml
   format: yaml
-  label: JPMorgan Chase Account Information Services
-  slug: jp-morgan-chase-account-information-services-openapi
+  label: JPMorgan Chase Account Services API
+  slug: jp-morgan-chase-account-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-account-information-services-openapi.yml
-- filename: jp-morgan-chase-global-payments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-account-services-api-openapi.yml
+- filename: jp-morgan-chase-account-statements-api-openapi.yml
   format: yaml
-  label: JPMorgan Chase Global Payments
-  slug: jp-morgan-chase-global-payments-openapi
+  label: JPMorgan Chase Account Statements API
+  slug: jp-morgan-chase-account-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-global-payments-openapi.yml
-- filename: jp-morgan-chase-j-p-morgan-business-direct-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-account-statements-api-openapi.yml
+- filename: jp-morgan-chase-account-transactions-api-openapi.yml
   format: yaml
-  label: JPMorgan Chase J.P. Morgan Business Direct Connect
-  slug: jp-morgan-chase-j-p-morgan-business-direct-connect-openapi
+  label: JPMorgan Chase Account Transactions API
+  slug: jp-morgan-chase-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-j-p-morgan-business-direct-connect-openapi.yml
-- filename: jp-morgan-chase-pay-by-bank-pis-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-account-transactions-api-openapi.yml
+- filename: jp-morgan-chase-account-updates-api-openapi.yml
   format: yaml
-  label: JPMorgan Chase Pay By Bank PIS
-  slug: jp-morgan-chase-pay-by-bank-pis-openapi
+  label: JPMorgan Chase Account Updates API
+  slug: jp-morgan-chase-account-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-pay-by-bank-pis-openapi.yml
-- filename: jp-morgan-chase-payment-initiation-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-account-updates-api-openapi.yml
+- filename: jp-morgan-chase-account-validation-api-openapi.yml
   format: yaml
-  label: JPMorgan Chase Payment Initiation Service
-  slug: jp-morgan-chase-payment-initiation-service-openapi
+  label: JPMorgan Chase Account Validation API
+  slug: jp-morgan-chase-account-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-payment-initiation-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-account-validation-api-openapi.yml
+- filename: jp-morgan-chase-addresses-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Addresses API
+  slug: jp-morgan-chase-addresses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-addresses-api-openapi.yml
+- filename: jp-morgan-chase-ais-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase AIS API
+  slug: jp-morgan-chase-ais-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-ais-api-openapi.yml
+- filename: jp-morgan-chase-authentication-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Authentication API
+  slug: jp-morgan-chase-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-authentication-api-openapi.yml
+- filename: jp-morgan-chase-balances-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Balances API
+  slug: jp-morgan-chase-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-balances-api-openapi.yml
+- filename: jp-morgan-chase-bulk-import-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Bulk Import API
+  slug: jp-morgan-chase-bulk-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-bulk-import-api-openapi.yml
+- filename: jp-morgan-chase-bulk-key-management-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Bulk Key Management API
+  slug: jp-morgan-chase-bulk-key-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-bulk-key-management-api-openapi.yml
+- filename: jp-morgan-chase-bulk-operation-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Bulk Operation API
+  slug: jp-morgan-chase-bulk-operation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-bulk-operation-api-openapi.yml
+- filename: jp-morgan-chase-checkout-intent-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Checkout Intent API
+  slug: jp-morgan-chase-checkout-intent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-checkout-intent-api-openapi.yml
+- filename: jp-morgan-chase-clients-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Clients API
+  slug: jp-morgan-chase-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-clients-api-openapi.yml
+- filename: jp-morgan-chase-communication-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Communication API
+  slug: jp-morgan-chase-communication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-communication-api-openapi.yml
+- filename: jp-morgan-chase-connectivity-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Connectivity API
+  slug: jp-morgan-chase-connectivity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-connectivity-api-openapi.yml
+- filename: jp-morgan-chase-consents-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Consents API
+  slug: jp-morgan-chase-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-consents-api-openapi.yml
+- filename: jp-morgan-chase-consumer-profiles-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Consumer Profiles API
+  slug: jp-morgan-chase-consumer-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-consumer-profiles-api-openapi.yml
+- filename: jp-morgan-chase-cryptograms-request-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Cryptograms Request API
+  slug: jp-morgan-chase-cryptograms-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-cryptograms-request-api-openapi.yml
+- filename: jp-morgan-chase-disputes-actions-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Disputes Actions API
+  slug: jp-morgan-chase-disputes-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-disputes-actions-api-openapi.yml
+- filename: jp-morgan-chase-disputes-data-retrieval-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Disputes Data Retrieval API
+  slug: jp-morgan-chase-disputes-data-retrieval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-disputes-data-retrieval-api-openapi.yml
+- filename: jp-morgan-chase-document-requests-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Document requests API
+  slug: jp-morgan-chase-document-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-document-requests-api-openapi.yml
+- filename: jp-morgan-chase-entity-validation-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Entity Validation API
+  slug: jp-morgan-chase-entity-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-entity-validation-api-openapi.yml
+- filename: jp-morgan-chase-health-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Health API
+  slug: jp-morgan-chase-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-health-api-openapi.yml
+- filename: jp-morgan-chase-health-check-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Health Check API
+  slug: jp-morgan-chase-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-health-check-api-openapi.yml
+- filename: jp-morgan-chase-merchant-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Merchant API
+  slug: jp-morgan-chase-merchant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-merchant-api-openapi.yml
+- filename: jp-morgan-chase-merchant-catalog-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Merchant Catalog API
+  slug: jp-morgan-chase-merchant-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-merchant-catalog-api-openapi.yml
+- filename: jp-morgan-chase-merchant-notification-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Merchant Notification API
+  slug: jp-morgan-chase-merchant-notification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-merchant-notification-api-openapi.yml
+- filename: jp-morgan-chase-merchant-onboarding-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Merchant Onboarding API
+  slug: jp-morgan-chase-merchant-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-merchant-onboarding-api-openapi.yml
+- filename: jp-morgan-chase-money-movement-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Money Movement API
+  slug: jp-morgan-chase-money-movement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-money-movement-api-openapi.yml
+- filename: jp-morgan-chase-party-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Party API
+  slug: jp-morgan-chase-party-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-party-api-openapi.yml
+- filename: jp-morgan-chase-payment-holds-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Payment Holds API
+  slug: jp-morgan-chase-payment-holds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-payment-holds-api-openapi.yml
+- filename: jp-morgan-chase-payment-information-retrieval-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Payment Information Retrieval API
+  slug: jp-morgan-chase-payment-information-retrieval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-payment-information-retrieval-api-openapi.yml
+- filename: jp-morgan-chase-payment-initiation-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Payment Initiation API
+  slug: jp-morgan-chase-payment-initiation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-payment-initiation-api-openapi.yml
+- filename: jp-morgan-chase-payment-link-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Payment Link API
+  slug: jp-morgan-chase-payment-link-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-payment-link-api-openapi.yml
+- filename: jp-morgan-chase-payment-links-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Payment Links API
+  slug: jp-morgan-chase-payment-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-payment-links-api-openapi.yml
+- filename: jp-morgan-chase-payment-methods-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Payment Methods API
+  slug: jp-morgan-chase-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-payment-methods-api-openapi.yml
+- filename: jp-morgan-chase-payment-request-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Payment Request API
+  slug: jp-morgan-chase-payment-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-payment-request-api-openapi.yml
+- filename: jp-morgan-chase-payment-request-bulk-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Payment Request - Bulk API
+  slug: jp-morgan-chase-payment-request-bulk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-payment-request-bulk-api-openapi.yml
+- filename: jp-morgan-chase-payment-returns-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Payment Returns API
+  slug: jp-morgan-chase-payment-returns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-payment-returns-api-openapi.yml
+- filename: jp-morgan-chase-payments-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Payments API
+  slug: jp-morgan-chase-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-payments-api-openapi.yml
+- filename: jp-morgan-chase-payouts-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Payouts API
+  slug: jp-morgan-chase-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-payouts-api-openapi.yml
+- filename: jp-morgan-chase-personal-information-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Personal Information API
+  slug: jp-morgan-chase-personal-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-personal-information-api-openapi.yml
+- filename: jp-morgan-chase-pis-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase PIS API
+  slug: jp-morgan-chase-pis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-pis-api-openapi.yml
+- filename: jp-morgan-chase-questions-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Questions API
+  slug: jp-morgan-chase-questions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-questions-api-openapi.yml
+- filename: jp-morgan-chase-recommendations-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Recommendations API
+  slug: jp-morgan-chase-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-recommendations-api-openapi.yml
+- filename: jp-morgan-chase-refunds-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Refunds API
+  slug: jp-morgan-chase-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-refunds-api-openapi.yml
+- filename: jp-morgan-chase-report-configurations-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Report Configurations API
+  slug: jp-morgan-chase-report-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-report-configurations-api-openapi.yml
+- filename: jp-morgan-chase-report-files-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Report Files API
+  slug: jp-morgan-chase-report-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-report-files-api-openapi.yml
+- filename: jp-morgan-chase-report-types-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Report Types API
+  slug: jp-morgan-chase-report-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-report-types-api-openapi.yml
+- filename: jp-morgan-chase-reporting-groups-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Reporting Groups API
+  slug: jp-morgan-chase-reporting-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-reporting-groups-api-openapi.yml
+- filename: jp-morgan-chase-reports-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Reports API
+  slug: jp-morgan-chase-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-reports-api-openapi.yml
+- filename: jp-morgan-chase-session-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Session API
+  slug: jp-morgan-chase-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-session-api-openapi.yml
+- filename: jp-morgan-chase-subscriptions-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Subscriptions API
+  slug: jp-morgan-chase-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-subscriptions-api-openapi.yml
+- filename: jp-morgan-chase-token-lifecycle-management-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Token Lifecycle Management API
+  slug: jp-morgan-chase-token-lifecycle-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-token-lifecycle-management-api-openapi.yml
+- filename: jp-morgan-chase-token-processing-api-openapi.yml
+  format: yaml
+  label: JPMorgan Chase Token Processing API
+  slug: jp-morgan-chase-token-processing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-token-processing-api-openapi.yml
 description: ''
 domains:
 - caa:

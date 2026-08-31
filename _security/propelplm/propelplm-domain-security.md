@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: propelplm-assembly-api-openapi.yml
-  format: yaml
-  label: Propel Software (Propel PLM) Assembly API
-  slug: propelplm-assembly-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-assembly-api-openapi.yml
 - filename: propelplm-assets-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) assets API

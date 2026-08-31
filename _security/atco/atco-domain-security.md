@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: atco-electric-hosting-capacity-openapi.yml
+- filename: atco-query-api-openapi.yml
   format: yaml
-  label: ATCO Electric Hosting Capacity Feature Service
-  slug: atco-electric-hosting-capacity-feature-service
+  label: ATCO Query API
+  slug: atco-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atco/refs/heads/main/openapi/atco-electric-hosting-capacity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/atco/refs/heads/main/openapi/atco-query-api-openapi.yml
+- filename: atco-service-api-openapi.yml
+  format: yaml
+  label: ATCO Service API
+  slug: atco-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atco/refs/heads/main/openapi/atco-service-api-openapi.yml
 description: ''
 domains:
 - atco_controlled: true

@@ -222,18 +222,216 @@ api_specs:
   slug: b3-x402-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-x402-endpoints-api-openapi.yml
-- filename: b3-b3os-workflow-openapi.json
-  format: json
-  label: B3OS Workflow API
-  slug: b3-b3os-workflow-openapi
+- filename: b3-activity-api-openapi.yml
+  format: yaml
+  label: B3 Activity API
+  slug: b3-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-b3os-workflow-openapi.json
-- filename: b3-data-api-openapi.json
-  format: json
-  label: B3 Data API - Multi-Chain Data API
-  slug: b3-data-api-openapi
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-activity-api-openapi.yml
+- filename: b3-agent-runs-api-openapi.yml
+  format: yaml
+  label: B3 Agent Runs API
+  slug: b3-agent-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-data-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-agent-runs-api-openapi.yml
+- filename: b3-app-gateway-api-openapi.yml
+  format: yaml
+  label: B3 App Gateway API
+  slug: b3-app-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-app-gateway-api-openapi.yml
+- filename: b3-block-cursors-api-openapi.yml
+  format: yaml
+  label: B3 Block Cursors API
+  slug: b3-block-cursors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-block-cursors-api-openapi.yml
+- filename: b3-blockscout-api-openapi.yml
+  format: yaml
+  label: B3 Blockscout API
+  slug: b3-blockscout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-blockscout-api-openapi.yml
+- filename: b3-blockscout-blocks-api-openapi.yml
+  format: yaml
+  label: B3 Blockscout/blocks API
+  slug: b3-blockscout-blocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-blockscout-blocks-api-openapi.yml
+- filename: b3-blockscout-main-page-api-openapi.yml
+  format: yaml
+  label: B3 Blockscout/main Page API
+  slug: b3-blockscout-main-page-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-blockscout-main-page-api-openapi.yml
+- filename: b3-blockscout-search-api-openapi.yml
+  format: yaml
+  label: B3 Blockscout/search API
+  slug: b3-blockscout-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-blockscout-search-api-openapi.yml
+- filename: b3-blockscout-stats-api-openapi.yml
+  format: yaml
+  label: B3 Blockscout/stats API
+  slug: b3-blockscout-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-blockscout-stats-api-openapi.yml
+- filename: b3-blockscout-tokens-api-openapi.yml
+  format: yaml
+  label: B3 Blockscout/tokens API
+  slug: b3-blockscout-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-blockscout-tokens-api-openapi.yml
+- filename: b3-blockscout-transactions-api-openapi.yml
+  format: yaml
+  label: B3 Blockscout/transactions API
+  slug: b3-blockscout-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-blockscout-transactions-api-openapi.yml
+- filename: b3-execution-webhooks-api-openapi.yml
+  format: yaml
+  label: B3 Execution Webhooks API
+  slug: b3-execution-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-execution-webhooks-api-openapi.yml
+- filename: b3-executions-api-openapi.yml
+  format: yaml
+  label: B3 Executions API
+  slug: b3-executions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-executions-api-openapi.yml
+- filename: b3-incentive-api-openapi.yml
+  format: yaml
+  label: B3 Incentive API
+  slug: b3-incentive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-incentive-api-openapi.yml
+- filename: b3-insights-blocks-api-openapi.yml
+  format: yaml
+  label: B3 Insights/blocks API
+  slug: b3-insights-blocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-insights-blocks-api-openapi.yml
+- filename: b3-insights-contracts-api-openapi.yml
+  format: yaml
+  label: B3 Insights/contracts API
+  slug: b3-insights-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-insights-contracts-api-openapi.yml
+- filename: b3-insights-decode-api-openapi.yml
+  format: yaml
+  label: B3 Insights/decode API
+  slug: b3-insights-decode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-insights-decode-api-openapi.yml
+- filename: b3-insights-events-api-openapi.yml
+  format: yaml
+  label: B3 Insights/events API
+  slug: b3-insights-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-insights-events-api-openapi.yml
+- filename: b3-insights-nfts-api-openapi.yml
+  format: yaml
+  label: B3 Insights/nfts API
+  slug: b3-insights-nfts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-insights-nfts-api-openapi.yml
+- filename: b3-insights-resolve-api-openapi.yml
+  format: yaml
+  label: B3 Insights/resolve API
+  slug: b3-insights-resolve-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-insights-resolve-api-openapi.yml
+- filename: b3-insights-tokens-api-openapi.yml
+  format: yaml
+  label: B3 Insights/tokens API
+  slug: b3-insights-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-insights-tokens-api-openapi.yml
+- filename: b3-insights-transactions-api-openapi.yml
+  format: yaml
+  label: B3 Insights/transactions API
+  slug: b3-insights-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-insights-transactions-api-openapi.yml
+- filename: b3-insights-wallets-api-openapi.yml
+  format: yaml
+  label: B3 Insights/wallets API
+  slug: b3-insights-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-insights-wallets-api-openapi.yml
+- filename: b3-mcp-api-openapi.yml
+  format: yaml
+  label: B3 MCP API
+  slug: b3-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-mcp-api-openapi.yml
+- filename: b3-mcp-connectors-api-openapi.yml
+  format: yaml
+  label: B3 Mcp Connectors API
+  slug: b3-mcp-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-mcp-connectors-api-openapi.yml
+- filename: b3-run-api-openapi.yml
+  format: yaml
+  label: B3 Run API
+  slug: b3-run-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-run-api-openapi.yml
+- filename: b3-service-accounts-api-openapi.yml
+  format: yaml
+  label: B3 Service Accounts API
+  slug: b3-service-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-service-accounts-api-openapi.yml
+- filename: b3-sessions-api-openapi.yml
+  format: yaml
+  label: B3 Sessions API
+  slug: b3-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-sessions-api-openapi.yml
+- filename: b3-situation-api-openapi.yml
+  format: yaml
+  label: B3 Situation API
+  slug: b3-situation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-situation-api-openapi.yml
+- filename: b3-sms-api-openapi.yml
+  format: yaml
+  label: B3 Sms API
+  slug: b3-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-sms-api-openapi.yml
+- filename: b3-tiers-api-openapi.yml
+  format: yaml
+  label: B3 Tiers API
+  slug: b3-tiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-tiers-api-openapi.yml
+- filename: b3-user-api-openapi.yml
+  format: yaml
+  label: B3 User API
+  slug: b3-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-user-api-openapi.yml
+- filename: b3-webhook-api-openapi.yml
+  format: yaml
+  label: B3 Webhook API
+  slug: b3-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-webhook-api-openapi.yml
+- filename: b3-workflow-api-openapi.yml
+  format: yaml
+  label: B3 Workflow API
+  slug: b3-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-workflow-api-openapi.yml
+- filename: b3-workflowvariables-api-openapi.yml
+  format: yaml
+  label: B3 Workflow Variables API
+  slug: b3-workflowvariables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-workflowvariables-api-openapi.yml
 description: ''
 domains:
 - caa: []

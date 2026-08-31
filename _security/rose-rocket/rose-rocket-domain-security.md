@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: rose-rocket-platform-model-api.json
-  format: json
-  label: Rose Rocket Platform Model API
-  slug: rose-rocket-platform-model-api
+- filename: rose-rocket-boards-api-openapi.yml
+  format: yaml
+  label: Rose Rocket Boards API
+  slug: rose-rocket-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/openapi/rose-rocket-platform-model-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/openapi/rose-rocket-boards-api-openapi.yml
+- filename: rose-rocket-events-api-openapi.yml
+  format: yaml
+  label: Rose Rocket Events API
+  slug: rose-rocket-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/openapi/rose-rocket-events-api-openapi.yml
+- filename: rose-rocket-object-records-api-openapi.yml
+  format: yaml
+  label: Rose Rocket Object Records API
+  slug: rose-rocket-object-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/openapi/rose-rocket-object-records-api-openapi.yml
+- filename: rose-rocket-user-groups-api-openapi.yml
+  format: yaml
+  label: Rose Rocket User Groups API
+  slug: rose-rocket-user-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/openapi/rose-rocket-user-groups-api-openapi.yml
 description: ''
 domains:
 - caa:

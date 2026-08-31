@@ -1,17 +1,107 @@
 ---
 api_specs:
-- filename: inflammatix-content-openapi.yml
+- filename: inflammatix-categories-api-openapi.yml
   format: yaml
-  label: Inflammatix Site Content API
-  slug: site-content
+  label: Inflammatix Categories API
+  slug: inflammatix-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-content-openapi.yml
-- filename: inflammatix-support-content-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-categories-api-openapi.yml
+- filename: inflammatix-comments-api-openapi.yml
   format: yaml
-  label: Inflammatix Support and Training Content API
-  slug: support-content
+  label: Inflammatix Comments API
+  slug: inflammatix-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-support-content-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-comments-api-openapi.yml
+- filename: inflammatix-coursecategories-api-openapi.yml
+  format: yaml
+  label: Inflammatix Course Categories API
+  slug: inflammatix-coursecategories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-coursecategories-api-openapi.yml
+- filename: inflammatix-courses-api-openapi.yml
+  format: yaml
+  label: Inflammatix Courses API
+  slug: inflammatix-courses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-courses-api-openapi.yml
+- filename: inflammatix-coursetags-api-openapi.yml
+  format: yaml
+  label: Inflammatix Course Tags API
+  slug: inflammatix-coursetags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-coursetags-api-openapi.yml
+- filename: inflammatix-lessons-api-openapi.yml
+  format: yaml
+  label: Inflammatix Lessons API
+  slug: inflammatix-lessons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-lessons-api-openapi.yml
+- filename: inflammatix-media-api-openapi.yml
+  format: yaml
+  label: Inflammatix Media API
+  slug: inflammatix-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-media-api-openapi.yml
+- filename: inflammatix-pages-api-openapi.yml
+  format: yaml
+  label: Inflammatix Pages API
+  slug: inflammatix-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-pages-api-openapi.yml
+- filename: inflammatix-posts-api-openapi.yml
+  format: yaml
+  label: Inflammatix Posts API
+  slug: inflammatix-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-posts-api-openapi.yml
+- filename: inflammatix-publicationcategories-api-openapi.yml
+  format: yaml
+  label: Inflammatix Publication Categories API
+  slug: inflammatix-publicationcategories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-publicationcategories-api-openapi.yml
+- filename: inflammatix-publications-api-openapi.yml
+  format: yaml
+  label: Inflammatix Publications API
+  slug: inflammatix-publications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-publications-api-openapi.yml
+- filename: inflammatix-quizzes-api-openapi.yml
+  format: yaml
+  label: Inflammatix Quizzes API
+  slug: inflammatix-quizzes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-quizzes-api-openapi.yml
+- filename: inflammatix-search-api-openapi.yml
+  format: yaml
+  label: Inflammatix Search API
+  slug: inflammatix-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-search-api-openapi.yml
+- filename: inflammatix-statuses-api-openapi.yml
+  format: yaml
+  label: Inflammatix Statuses API
+  slug: inflammatix-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-statuses-api-openapi.yml
+- filename: inflammatix-tags-api-openapi.yml
+  format: yaml
+  label: Inflammatix Tags API
+  slug: inflammatix-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-tags-api-openapi.yml
+- filename: inflammatix-taxonomies-api-openapi.yml
+  format: yaml
+  label: Inflammatix Taxonomies API
+  slug: inflammatix-taxonomies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-taxonomies-api-openapi.yml
+- filename: inflammatix-types-api-openapi.yml
+  format: yaml
+  label: Inflammatix Types API
+  slug: inflammatix-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-types-api-openapi.yml
 description: ''
 domains:
 - caa: []

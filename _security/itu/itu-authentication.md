@@ -2,18 +2,54 @@
 api_key_in:
 - query
 api_specs:
-- filename: itu-datahub-openapi.yml
+- filename: itu-dashboards-api-openapi.yml
   format: yaml
-  label: ITU DataHub API
-  slug: itu-datahub-api
+  label: ITU Dashboards API
+  slug: itu-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/openapi/itu-datahub-openapi.yml
-- filename: itu-proximity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/openapi/itu-dashboards-api-openapi.yml
+- filename: itu-data-api-openapi.yml
   format: yaml
-  label: ITU Proximity to Fibre Node API
-  slug: itu-proximity-to-fibre-node-api
+  label: ITU Data API
+  slug: itu-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/openapi/itu-proximity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/openapi/itu-data-api-openapi.yml
+- filename: itu-idi-api-openapi.yml
+  format: yaml
+  label: ITU IDI API
+  slug: itu-idi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/openapi/itu-idi-api-openapi.yml
+- filename: itu-indicators-api-openapi.yml
+  format: yaml
+  label: ITU Indicators API
+  slug: itu-indicators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/openapi/itu-indicators-api-openapi.yml
+- filename: itu-methodology-api-openapi.yml
+  format: yaml
+  label: ITU Methodology API
+  slug: itu-methodology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/openapi/itu-methodology-api-openapi.yml
+- filename: itu-proximity-api-openapi.yml
+  format: yaml
+  label: ITU Proximity API
+  slug: itu-proximity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/openapi/itu-proximity-api-openapi.yml
+- filename: itu-reference-api-openapi.yml
+  format: yaml
+  label: ITU Reference API
+  slug: itu-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/openapi/itu-reference-api-openapi.yml
+- filename: itu-umc-api-openapi.yml
+  format: yaml
+  label: ITU UMC API
+  slug: itu-umc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/openapi/itu-umc-api-openapi.yml
 auth_types:
 - none
 - apiKey

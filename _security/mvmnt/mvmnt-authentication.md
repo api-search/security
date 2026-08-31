@@ -163,6 +163,12 @@ api_specs:
   slug: mvmnt-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mvmnt/refs/heads/main/openapi/mvmnt-vendors-api-openapi.yml
+- filename: mvmnt-event-notifications-api-openapi.yml
+  format: yaml
+  label: MVMNT Event Notifications API
+  slug: mvmnt-event-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mvmnt/refs/heads/main/openapi/mvmnt-event-notifications-api-openapi.yml
 auth_types:
 - oauth2
 - http

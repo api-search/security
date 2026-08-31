@@ -1,84 +1,132 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tyro-connect-pay.yml
+- filename: tyro-bookings-api-openapi.yml
   format: yaml
-  label: Tyro Connect Pay API
-  slug: tyro-connect-pay-api
+  label: Tyro Payments Bookings API
+  slug: tyro-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-connect-pay.yml
-- filename: tyro-pos-pay-terminal.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-bookings-api-openapi.yml
+- filename: tyro-connections-api-openapi.yml
   format: yaml
-  label: Tyro Pay Terminal API
-  slug: tyro-pos-pay-terminal-api
+  label: Tyro Payments Connections API
+  slug: tyro-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-pos-pay-terminal.yml
-- filename: tyro-pos-embedded-payments.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-connections-api-openapi.yml
+- filename: tyro-locations-api-openapi.yml
   format: yaml
-  label: Tyro Embedded Payments API
-  slug: tyro-pos-embedded-payments-api
+  label: Tyro Payments Locations API
+  slug: tyro-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-pos-embedded-payments.yml
-- filename: tyro-connect-booking.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-locations-api-openapi.yml
+- filename: tyro-loyalty-api-openapi.yml
   format: yaml
-  label: Tyro Connect Booking API
-  slug: tyro-connect-booking-api
+  label: Tyro Payments Loyalty API
+  slug: tyro-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-connect-booking.yml
-- filename: tyro-connect-ordering.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-loyalty-api-openapi.yml
+- filename: tyro-member-api-openapi.yml
   format: yaml
-  label: Tyro Connect Ordering API
-  slug: tyro-connect-ordering-api
+  label: Tyro Payments Member API
+  slug: tyro-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-connect-ordering.yml
-- filename: tyro-connect-menu.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-member-api-openapi.yml
+- filename: tyro-menus-api-openapi.yml
   format: yaml
-  label: Tyro Connect Menu API
-  slug: tyro-connect-menu-api
+  label: Tyro Payments Menus API
+  slug: tyro-menus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-connect-menu.yml
-- filename: tyro-connect-tables.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-menus-api-openapi.yml
+- filename: tyro-merchants-api-openapi.yml
   format: yaml
-  label: Tyro Connect Tables Management API
-  slug: tyro-connect-tables-api
+  label: Tyro Payments Merchants API
+  slug: tyro-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-connect-tables.yml
-- filename: tyro-connect-sales.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-merchants-api-openapi.yml
+- filename: tyro-onboarding-api-openapi.yml
   format: yaml
-  label: Tyro Connect Sales Data API
-  slug: tyro-connect-sales-api
+  label: Tyro Payments Onboarding API
+  slug: tyro-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-connect-sales.yml
-- filename: tyro-connect-reporting.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-onboarding-api-openapi.yml
+- filename: tyro-orders-api-openapi.yml
   format: yaml
-  label: Tyro Connect Reporting API
-  slug: tyro-connect-reporting-api
+  label: Tyro Payments Orders API
+  slug: tyro-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-connect-reporting.yml
-- filename: tyro-connect-loyalty.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-orders-api-openapi.yml
+- filename: tyro-pay-methods-api-openapi.yml
   format: yaml
-  label: Tyro Connect Loyalty Data API
-  slug: tyro-connect-loyalty-api
+  label: Tyro Payments Pay Methods API
+  slug: tyro-pay-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-connect-loyalty.yml
-- filename: tyro-connect-refunds.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-pay-methods-api-openapi.yml
+- filename: tyro-pay-refunds-api-openapi.yml
   format: yaml
-  label: Tyro Connect Refunds API
-  slug: tyro-connect-refunds-api
+  label: Tyro Payments Pay Refunds API
+  slug: tyro-pay-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-connect-refunds.yml
-- filename: tyro-connect-locations.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-pay-refunds-api-openapi.yml
+- filename: tyro-pay-requests-api-openapi.yml
   format: yaml
-  label: Tyro Connect Location API
-  slug: tyro-connect-locations-api
+  label: Tyro Payments Pay Requests API
+  slug: tyro-pay-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-connect-locations.yml
-- filename: tyro-connect-referrals.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-pay-requests-api-openapi.yml
+- filename: tyro-payments-api-openapi.yml
   format: yaml
-  label: Tyro Connect Referrals API
-  slug: tyro-connect-referrals-api
+  label: Tyro Payments Payments API
+  slug: tyro-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-connect-referrals.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-payments-api-openapi.yml
+- filename: tyro-readers-api-openapi.yml
+  format: yaml
+  label: Tyro Payments Readers API
+  slug: tyro-readers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-readers-api-openapi.yml
+- filename: tyro-referrals-api-openapi.yml
+  format: yaml
+  label: Tyro Payments Referrals API
+  slug: tyro-referrals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-referrals-api-openapi.yml
+- filename: tyro-refunds-api-openapi.yml
+  format: yaml
+  label: Tyro Payments Refunds API
+  slug: tyro-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-refunds-api-openapi.yml
+- filename: tyro-registered-card-api-openapi.yml
+  format: yaml
+  label: Tyro Payments Registered Card API
+  slug: tyro-registered-card-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-registered-card-api-openapi.yml
+- filename: tyro-reporting-api-openapi.yml
+  format: yaml
+  label: Tyro Payments Reporting API
+  slug: tyro-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-reporting-api-openapi.yml
+- filename: tyro-sales-api-openapi.yml
+  format: yaml
+  label: Tyro Payments Sales API
+  slug: tyro-sales-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-sales-api-openapi.yml
+- filename: tyro-tables-api-openapi.yml
+  format: yaml
+  label: Tyro Payments Tables API
+  slug: tyro-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-tables-api-openapi.yml
+- filename: tyro-transactions-api-openapi.yml
+  format: yaml
+  label: Tyro Payments Transactions API
+  slug: tyro-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-transactions-api-openapi.yml
 auth_types:
 - openIdConnect
 description: ''

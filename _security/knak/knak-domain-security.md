@@ -126,6 +126,42 @@ api_specs:
   slug: knak-validation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/openapi/knak-validation-api-openapi.yml
+- filename: knak-asset-approval-status-updated-api-openapi.yml
+  format: yaml
+  label: Knak Asset.approval Status Updated API
+  slug: knak-asset-approval-status-updated-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/openapi/knak-asset-approval-status-updated-api-openapi.yml
+- filename: knak-asset-created-api-openapi.yml
+  format: yaml
+  label: Knak Asset.created API
+  slug: knak-asset-created-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/openapi/knak-asset-created-api-openapi.yml
+- filename: knak-asset-sync-confirmation-responded-api-openapi.yml
+  format: yaml
+  label: Knak Asset.sync Confirmation Responded API
+  slug: knak-asset-sync-confirmation-responded-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/openapi/knak-asset-sync-confirmation-responded-api-openapi.yml
+- filename: knak-asset-sync-requested-api-openapi.yml
+  format: yaml
+  label: Knak Asset.sync Requested API
+  slug: knak-asset-sync-requested-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/openapi/knak-asset-sync-requested-api-openapi.yml
+- filename: knak-asset-translation-requested-api-openapi.yml
+  format: yaml
+  label: Knak Asset.translation Requested API
+  slug: knak-asset-translation-requested-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/openapi/knak-asset-translation-requested-api-openapi.yml
+- filename: knak-translation-request-created-api-openapi.yml
+  format: yaml
+  label: Knak Translation Request.created API
+  slug: knak-translation-request-created-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/openapi/knak-translation-request-created-api-openapi.yml
 description: ''
 domains:
 - caa:

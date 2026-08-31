@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: optilogic-rest-api-openapi.json
-  format: json
-  label: Optilogic REST API
-  slug: optilogic-rest-api
+- filename: optilogic-authentication-api-openapi.yml
+  format: yaml
+  label: Optilogic Authentication API
+  slug: optilogic-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optilogic/refs/heads/main/openapi/optilogic-rest-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/optilogic/refs/heads/main/openapi/optilogic-authentication-api-openapi.yml
+- filename: optilogic-job-api-openapi.yml
+  format: yaml
+  label: Optilogic Job API
+  slug: optilogic-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optilogic/refs/heads/main/openapi/optilogic-job-api-openapi.yml
+- filename: optilogic-storage-api-openapi.yml
+  format: yaml
+  label: Optilogic Storage API
+  slug: optilogic-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optilogic/refs/heads/main/openapi/optilogic-storage-api-openapi.yml
+- filename: optilogic-storage-custom-columns-api-openapi.yml
+  format: yaml
+  label: 'Optilogic storage : custom columns API'
+  slug: optilogic-storage-custom-columns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optilogic/refs/heads/main/openapi/optilogic-storage-custom-columns-api-openapi.yml
+- filename: optilogic-storage-custom-tables-api-openapi.yml
+  format: yaml
+  label: 'Optilogic storage : custom tables API'
+  slug: optilogic-storage-custom-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optilogic/refs/heads/main/openapi/optilogic-storage-custom-tables-api-openapi.yml
+- filename: optilogic-storage-labels-api-openapi.yml
+  format: yaml
+  label: 'Optilogic storage : labels API'
+  slug: optilogic-storage-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optilogic/refs/heads/main/openapi/optilogic-storage-labels-api-openapi.yml
+- filename: optilogic-storage-sharing-api-openapi.yml
+  format: yaml
+  label: 'Optilogic storage : sharing API'
+  slug: optilogic-storage-sharing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optilogic/refs/heads/main/openapi/optilogic-storage-sharing-api-openapi.yml
+- filename: optilogic-storage-tags-api-openapi.yml
+  format: yaml
+  label: 'Optilogic storage : tags API'
+  slug: optilogic-storage-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optilogic/refs/heads/main/openapi/optilogic-storage-tags-api-openapi.yml
+- filename: optilogic-storage-templates-api-openapi.yml
+  format: yaml
+  label: 'Optilogic storage : templates API'
+  slug: optilogic-storage-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optilogic/refs/heads/main/openapi/optilogic-storage-templates-api-openapi.yml
+- filename: optilogic-utility-api-openapi.yml
+  format: yaml
+  label: Optilogic Utility API
+  slug: optilogic-utility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optilogic/refs/heads/main/openapi/optilogic-utility-api-openapi.yml
+- filename: optilogic-workspace-api-openapi.yml
+  format: yaml
+  label: Optilogic Workspace API
+  slug: optilogic-workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optilogic/refs/heads/main/openapi/optilogic-workspace-api-openapi.yml
 certifications:
 - SOC 2 Type II
 - CMMC Level 1

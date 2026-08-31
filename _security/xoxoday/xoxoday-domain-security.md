@@ -6,42 +6,18 @@ api_specs:
   slug: xoxoday-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/xoxoday-authentication-api-openapi.yml
-- filename: xoxoday-balance-api-openapi.yml
-  format: yaml
-  label: Xoxoday Balance API
-  slug: xoxoday-balance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/xoxoday-balance-api-openapi.yml
 - filename: xoxoday-gift-cards-api-openapi.yml
   format: yaml
   label: Xoxoday Gift Cards API
   slug: xoxoday-gift-cards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/xoxoday-gift-cards-api-openapi.yml
-- filename: xoxoday-orders-api-openapi.yml
-  format: yaml
-  label: Xoxoday Orders API
-  slug: xoxoday-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/xoxoday-orders-api-openapi.yml
-- filename: xoxoday-payments-api-openapi.yml
-  format: yaml
-  label: Xoxoday Payments API
-  slug: xoxoday-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/xoxoday-payments-api-openapi.yml
 - filename: xoxoday-reward-links-api-openapi.yml
   format: yaml
   label: Xoxoday Reward Links API
   slug: xoxoday-reward-links-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/xoxoday-reward-links-api-openapi.yml
-- filename: xoxoday-reward-points-api-openapi.yml
-  format: yaml
-  label: Xoxoday Reward Points API
-  slug: xoxoday-reward-points-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/xoxoday-reward-points-api-openapi.yml
 description: ''
 domains:
 - caa: []

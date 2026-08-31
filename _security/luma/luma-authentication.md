@@ -38,6 +38,12 @@ api_specs:
   slug: luma-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-webhooks-api-openapi.yml
+- filename: luma-webhook-types-api-openapi.yml
+  format: yaml
+  label: Luma Webhook Types API
+  slug: luma-webhook-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-webhook-types-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

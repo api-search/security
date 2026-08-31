@@ -30,18 +30,6 @@ api_specs:
   slug: opus-collection-content-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-collection-content-api-openapi.yml
-- filename: opus-enterprise-api-openapi.yml
-  format: yaml
-  label: Opus enterprise API
-  slug: opus-enterprise-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-enterprise-api-openapi.yml
-- filename: opus-exportable-clips-api-openapi.yml
-  format: yaml
-  label: Opus exportable-clips API
-  slug: opus-exportable-clips-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-exportable-clips-api-openapi.yml
 - filename: opus-exportableclip-api-openapi.yml
   format: yaml
   label: Opus ExportableClip API

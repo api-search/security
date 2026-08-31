@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: stoplight-platform-v1-openapi.yml
+- filename: stoplight-versions-api-openapi.yml
   format: yaml
-  label: Stoplight v1 Platform API
-  slug: stoplight-platform-api-v1
+  label: Stoplight Versions API
+  slug: stoplight-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/openapi/stoplight-platform-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/openapi/stoplight-versions-api-openapi.yml
 auth_types: []
 description: Authentication profile for the Stoplight surfaces. Stoplight publishes no consolidated API authentication reference; the two credential models below are the ones it actually documents.
 kind: authentication

@@ -1,12 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: AI for Database API
-  slug: ai-for-database-api
+- filename: aifordatabase-chat-api-openapi.yml
+  format: yaml
+  label: AI for Database Chat API
+  slug: aifordatabase-chat-api
   spec_type: OpenAPI
-  url: https://app.aifordatabase.com/api/v1/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/openapi/aifordatabase-chat-api-openapi.yml
+- filename: aifordatabase-connections-api-openapi.yml
+  format: yaml
+  label: AI for Database Connections API
+  slug: aifordatabase-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/openapi/aifordatabase-connections-api-openapi.yml
+- filename: aifordatabase-conversations-api-openapi.yml
+  format: yaml
+  label: AI for Database Conversations API
+  slug: aifordatabase-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/openapi/aifordatabase-conversations-api-openapi.yml
+- filename: aifordatabase-dashboards-api-openapi.yml
+  format: yaml
+  label: AI for Database Dashboards API
+  slug: aifordatabase-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/openapi/aifordatabase-dashboards-api-openapi.yml
+- filename: aifordatabase-keys-api-openapi.yml
+  format: yaml
+  label: AI for Database Keys API
+  slug: aifordatabase-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/openapi/aifordatabase-keys-api-openapi.yml
+- filename: aifordatabase-metrics-api-openapi.yml
+  format: yaml
+  label: AI for Database Metrics API
+  slug: aifordatabase-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/openapi/aifordatabase-metrics-api-openapi.yml
+- filename: aifordatabase-query-approval-api-openapi.yml
+  format: yaml
+  label: AI for Database Query Approval API
+  slug: aifordatabase-query-approval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/openapi/aifordatabase-query-approval-api-openapi.yml
+- filename: aifordatabase-saved-queries-api-openapi.yml
+  format: yaml
+  label: AI for Database Saved Queries API
+  slug: aifordatabase-saved-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/openapi/aifordatabase-saved-queries-api-openapi.yml
+- filename: aifordatabase-usage-api-openapi.yml
+  format: yaml
+  label: AI for Database Usage API
+  slug: aifordatabase-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/openapi/aifordatabase-usage-api-openapi.yml
+- filename: aifordatabase-webhooks-api-openapi.yml
+  format: yaml
+  label: AI for Database Webhooks API
+  slug: aifordatabase-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/openapi/aifordatabase-webhooks-api-openapi.yml
+- filename: aifordatabase-workflow-credentials-api-openapi.yml
+  format: yaml
+  label: AI for Database Workflow Credentials API
+  slug: aifordatabase-workflow-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/openapi/aifordatabase-workflow-credentials-api-openapi.yml
+- filename: aifordatabase-workflows-api-openapi.yml
+  format: yaml
+  label: AI for Database Workflows API
+  slug: aifordatabase-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/openapi/aifordatabase-workflows-api-openapi.yml
 auth_types:
 - http
 description: ''

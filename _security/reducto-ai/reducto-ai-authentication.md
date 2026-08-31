@@ -70,8 +70,8 @@ method: derived
 name: Reducto Ai Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: reducto-ai secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: reducto-ai
+overview: Reducto secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Reducto
 provider_slug: reducto-ai
 scheme_count: 1
 schemes:

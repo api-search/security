@@ -1,24 +1,174 @@
 ---
 api_key_in: []
 api_specs:
-- filename: obie-account-info-openapi.yaml
+- filename: chase-uk-account-access-consents-api-openapi.yml
   format: yaml
-  label: Chase UK Account and Transaction Information API (AIS)
-  slug: chase-uk-account-information-api
+  label: Chase UK Account Access Consents API
+  slug: chase-uk-account-access-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/obie-account-info-openapi.yaml
-- filename: obie-payment-initiation-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-account-access-consents-api-openapi.yml
+- filename: chase-uk-accounts-api-openapi.yml
   format: yaml
-  label: Chase UK Payment Initiation API (PIS)
-  slug: chase-uk-payment-initiation-api
+  label: Chase UK Accounts API
+  slug: chase-uk-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/obie-payment-initiation-openapi.yaml
-- filename: obie-confirmation-funds-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-accounts-api-openapi.yml
+- filename: chase-uk-balances-api-openapi.yml
   format: yaml
-  label: Chase UK Confirmation of Funds API (CBPII)
-  slug: chase-uk-confirmation-of-funds-api
+  label: Chase UK Balances API
+  slug: chase-uk-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/obie-confirmation-funds-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-balances-api-openapi.yml
+- filename: chase-uk-beneficiaries-api-openapi.yml
+  format: yaml
+  label: Chase UK Beneficiaries API
+  slug: chase-uk-beneficiaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-beneficiaries-api-openapi.yml
+- filename: chase-uk-direct-debits-api-openapi.yml
+  format: yaml
+  label: Chase UK Direct Debits API
+  slug: chase-uk-direct-debits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-direct-debits-api-openapi.yml
+- filename: chase-uk-domestic-payment-consents-api-openapi.yml
+  format: yaml
+  label: Chase UK Domestic Payment Consents API
+  slug: chase-uk-domestic-payment-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-domestic-payment-consents-api-openapi.yml
+- filename: chase-uk-domestic-payments-api-openapi.yml
+  format: yaml
+  label: Chase UK Domestic Payments API
+  slug: chase-uk-domestic-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-domestic-payments-api-openapi.yml
+- filename: chase-uk-domestic-scheduled-payment-consents-api-openapi.yml
+  format: yaml
+  label: Chase UK Domestic Scheduled Payment Consents API
+  slug: chase-uk-domestic-scheduled-payment-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-domestic-scheduled-payment-consents-api-openapi.yml
+- filename: chase-uk-domestic-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Chase UK Domestic Scheduled Payments API
+  slug: chase-uk-domestic-scheduled-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-domestic-scheduled-payments-api-openapi.yml
+- filename: chase-uk-domestic-standing-order-consents-api-openapi.yml
+  format: yaml
+  label: Chase UK Domestic Standing Order Consents API
+  slug: chase-uk-domestic-standing-order-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-domestic-standing-order-consents-api-openapi.yml
+- filename: chase-uk-domestic-standing-orders-api-openapi.yml
+  format: yaml
+  label: Chase UK Domestic Standing Orders API
+  slug: chase-uk-domestic-standing-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-domestic-standing-orders-api-openapi.yml
+- filename: chase-uk-file-payment-consents-api-openapi.yml
+  format: yaml
+  label: Chase UK File Payment Consents API
+  slug: chase-uk-file-payment-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-file-payment-consents-api-openapi.yml
+- filename: chase-uk-file-payments-api-openapi.yml
+  format: yaml
+  label: Chase UK File Payments API
+  slug: chase-uk-file-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-file-payments-api-openapi.yml
+- filename: chase-uk-funds-confirmation-consents-api-openapi.yml
+  format: yaml
+  label: Chase UK Funds Confirmation Consents API
+  slug: chase-uk-funds-confirmation-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-funds-confirmation-consents-api-openapi.yml
+- filename: chase-uk-funds-confirmations-api-openapi.yml
+  format: yaml
+  label: Chase UK Funds Confirmations API
+  slug: chase-uk-funds-confirmations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-funds-confirmations-api-openapi.yml
+- filename: chase-uk-international-payment-consents-api-openapi.yml
+  format: yaml
+  label: Chase UK International Payment Consents API
+  slug: chase-uk-international-payment-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-international-payment-consents-api-openapi.yml
+- filename: chase-uk-international-payments-api-openapi.yml
+  format: yaml
+  label: Chase UK International Payments API
+  slug: chase-uk-international-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-international-payments-api-openapi.yml
+- filename: chase-uk-international-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Chase UK International Scheduled Payments API
+  slug: chase-uk-international-scheduled-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-international-scheduled-payments-api-openapi.yml
+- filename: chase-uk-international-scheduled-payments-consents-api-openapi.yml
+  format: yaml
+  label: Chase UK International Scheduled Payments Consents API
+  slug: chase-uk-international-scheduled-payments-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-international-scheduled-payments-consents-api-openapi.yml
+- filename: chase-uk-international-standing-orders-api-openapi.yml
+  format: yaml
+  label: Chase UK International Standing Orders API
+  slug: chase-uk-international-standing-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-international-standing-orders-api-openapi.yml
+- filename: chase-uk-international-standing-orders-consents-api-openapi.yml
+  format: yaml
+  label: Chase UK International Standing Orders Consents API
+  slug: chase-uk-international-standing-orders-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-international-standing-orders-consents-api-openapi.yml
+- filename: chase-uk-offers-api-openapi.yml
+  format: yaml
+  label: Chase UK Offers API
+  slug: chase-uk-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-offers-api-openapi.yml
+- filename: chase-uk-parties-api-openapi.yml
+  format: yaml
+  label: Chase UK Parties API
+  slug: chase-uk-parties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-parties-api-openapi.yml
+- filename: chase-uk-products-api-openapi.yml
+  format: yaml
+  label: Chase UK Products API
+  slug: chase-uk-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-products-api-openapi.yml
+- filename: chase-uk-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Chase UK Scheduled Payments API
+  slug: chase-uk-scheduled-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-scheduled-payments-api-openapi.yml
+- filename: chase-uk-standing-orders-api-openapi.yml
+  format: yaml
+  label: Chase UK Standing Orders API
+  slug: chase-uk-standing-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-standing-orders-api-openapi.yml
+- filename: chase-uk-statements-api-openapi.yml
+  format: yaml
+  label: Chase UK Statements API
+  slug: chase-uk-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-statements-api-openapi.yml
+- filename: chase-uk-transactions-api-openapi.yml
+  format: yaml
+  label: Chase UK Transactions API
+  slug: chase-uk-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/openapi/chase-uk-transactions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: tana-docs-api-openapi.yml
-  format: yaml
-  label: Tana Documentation API
-  slug: tana-documentation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tana/refs/heads/main/openapi/tana-docs-api-openapi.yml
 - filename: tana-addtonodev2-api-openapi.yml
   format: yaml
   label: Tana AddToNodeV2 API

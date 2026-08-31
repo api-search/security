@@ -1,24 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: keap-rest-hooks-v1-api-openapi.yml
-  format: yaml
-  label: Keap REST Hooks
-  slug: rest-hooks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-rest-hooks-v1-api-openapi.yml
 - filename: keap-affiliate-api-openapi.yml
   format: yaml
   label: Keap Affiliate API
   slug: keap-affiliate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-affiliate-api-openapi.yml
-- filename: keap-appointment-v1-api-openapi.yml
-  format: yaml
-  label: Keap Appointment API (v1)
-  slug: keap-appointment-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-appointment-v1-api-openapi.yml
 - filename: keap-automation-api-openapi.yml
   format: yaml
   label: Keap Automation API
@@ -49,24 +37,12 @@ api_specs:
   slug: keap-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-contact-api-openapi.yml
-- filename: keap-e-commerce-v1-api-openapi.yml
-  format: yaml
-  label: Keap E-Commerce API (v1)
-  slug: keap-e-commerce-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-e-commerce-v1-api-openapi.yml
 - filename: keap-email-api-openapi.yml
   format: yaml
   label: Keap Email API
   slug: keap-email-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-email-api-openapi.yml
-- filename: keap-file-v1-api-openapi.yml
-  format: yaml
-  label: Keap File API (v1)
-  slug: keap-file-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-file-v1-api-openapi.yml
 - filename: keap-files-api-openapi.yml
   format: yaml
   label: Keap Files API
@@ -145,12 +121,6 @@ api_specs:
   slug: keap-product-interest-bundles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-product-interest-bundles-api-openapi.yml
-- filename: keap-product-v1-api-openapi.yml
-  format: yaml
-  label: Keap Product API (v1)
-  slug: keap-product-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-product-v1-api-openapi.yml
 - filename: keap-products-api-openapi.yml
   format: yaml
   label: Keap Products API
@@ -193,6 +163,150 @@ api_specs:
   slug: keap-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-users-api-openapi.yml
+- filename: keap-appointment-api-openapi.yml
+  format: yaml
+  label: Keap Appointment API
+  slug: keap-appointment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-appointment-api-openapi.yml
+- filename: keap-e-commerce-api-openapi.yml
+  format: yaml
+  label: Keap E Commerce API
+  slug: keap-e-commerce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-e-commerce-api-openapi.yml
+- filename: keap-file-api-openapi.yml
+  format: yaml
+  label: Keap File API
+  slug: keap-file-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-file-api-openapi.yml
+- filename: keap-product-api-openapi.yml
+  format: yaml
+  label: Keap Product API
+  slug: keap-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-product-api-openapi.yml
+- filename: keap-rest-hooks-api-openapi.yml
+  format: yaml
+  label: Keap REST Hooks API
+  slug: keap-rest-hooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-rest-hooks-api-openapi.yml
+- filename: keap-account-info-api-openapi.yml
+  format: yaml
+  label: Keap Account Info API
+  slug: keap-account-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-account-info-api-openapi.yml
+- filename: keap-automationcategory-api-openapi.yml
+  format: yaml
+  label: Keap Automation Category API
+  slug: keap-automationcategory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-automationcategory-api-openapi.yml
+- filename: keap-business-profile-api-openapi.yml
+  format: yaml
+  label: Keap Business Profile API
+  slug: keap-business-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-business-profile-api-openapi.yml
+- filename: keap-email-address-api-openapi.yml
+  format: yaml
+  label: Keap Email Address API
+  slug: keap-email-address-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-email-address-api-openapi.yml
+- filename: keap-integrations-api-openapi.yml
+  format: yaml
+  label: Keap Integrations API
+  slug: keap-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-integrations-api-openapi.yml
+- filename: keap-leadscore-api-openapi.yml
+  format: yaml
+  label: Keap Lead Score API
+  slug: keap-leadscore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-leadscore-api-openapi.yml
+- filename: keap-locale-api-openapi.yml
+  format: yaml
+  label: Keap Locale API
+  slug: keap-locale-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-locale-api-openapi.yml
+- filename: keap-merchant-api-openapi.yml
+  format: yaml
+  label: Keap Merchant API
+  slug: keap-merchant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-merchant-api-openapi.yml
+- filename: keap-merchants-api-openapi.yml
+  format: yaml
+  label: Keap Merchants API
+  slug: keap-merchants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-merchants-api-openapi.yml
+- filename: keap-payment-method-configs-api-openapi.yml
+  format: yaml
+  label: Keap Payment Method Configs API
+  slug: keap-payment-method-configs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-payment-method-configs-api-openapi.yml
+- filename: keap-payment-methods-api-openapi.yml
+  format: yaml
+  label: Keap Payment Methods API
+  slug: keap-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-payment-methods-api-openapi.yml
+- filename: keap-referral-api-openapi.yml
+  format: yaml
+  label: Keap Referral API
+  slug: keap-referral-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-referral-api-openapi.yml
+- filename: keap-reporting-api-openapi.yml
+  format: yaml
+  label: Keap Reporting API
+  slug: keap-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-reporting-api-openapi.yml
+- filename: keap-sales-api-openapi.yml
+  format: yaml
+  label: Keap Sales API
+  slug: keap-sales-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-sales-api-openapi.yml
+- filename: keap-setting-api-openapi.yml
+  format: yaml
+  label: Keap Setting API
+  slug: keap-setting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-setting-api-openapi.yml
+- filename: keap-settings-api-openapi.yml
+  format: yaml
+  label: Keap Settings API
+  slug: keap-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-settings-api-openapi.yml
+- filename: keap-shipping-api-openapi.yml
+  format: yaml
+  label: Keap Shipping API
+  slug: keap-shipping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-shipping-api-openapi.yml
+- filename: keap-user-groups-api-openapi.yml
+  format: yaml
+  label: Keap User Groups API
+  slug: keap-user-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-user-groups-api-openapi.yml
+- filename: keap-webforms-api-openapi.yml
+  format: yaml
+  label: Keap Webforms API
+  slug: keap-webforms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-webforms-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

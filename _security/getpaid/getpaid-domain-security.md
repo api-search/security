@@ -36,6 +36,18 @@ api_specs:
   slug: getpaid-queries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-queries-api-openapi.yml
+- filename: getpaid-accept-payments-webhooks-api-openapi.yml
+  format: yaml
+  label: GetPaid Accept payments webhooks API
+  slug: getpaid-accept-payments-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-accept-payments-webhooks-api-openapi.yml
+- filename: getpaid-onboard-sellers-webhooks-api-openapi.yml
+  format: yaml
+  label: GetPaid Onboard sellers webhooks API
+  slug: getpaid-onboard-sellers-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-onboard-sellers-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

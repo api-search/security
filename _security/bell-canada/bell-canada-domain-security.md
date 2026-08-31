@@ -1,29 +1,59 @@
 ---
 api_specs:
-- filename: bell-canada-trouble-ticket-api-openapi.json
-  format: json
-  label: Bell Canada Trouble Ticket API
-  slug: bell-canada-trouble-ticket-api
+- filename: bell-canada-cancelserviceorder-api-openapi.yml
+  format: yaml
+  label: Bell Canada Cancel Service Order API
+  slug: bell-canada-cancelserviceorder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-trouble-ticket-api-openapi.json
-- filename: bell-canada-service-order-api-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-cancelserviceorder-api-openapi.yml
+- filename: bell-canada-changerequest-api-openapi.yml
+  format: yaml
+  label: Bell Canada Change Request API
+  slug: bell-canada-changerequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-changerequest-api-openapi.yml
+- filename: bell-canada-events-subscription-api-openapi.yml
+  format: yaml
+  label: Bell Canada events subscription API
+  slug: bell-canada-events-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-events-subscription-api-openapi.yml
+- filename: bell-canada-logicalresource-api-openapi.yml
+  format: yaml
+  label: Bell Canada Logical Resource API
+  slug: bell-canada-logicalresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-logicalresource-api-openapi.yml
+- filename: bell-canada-notification-listeners-client-side-api-openapi.yml
+  format: yaml
+  label: Bell Canada notification listeners (client side) API
+  slug: bell-canada-notification-listeners-client-side-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-notification-listeners-client-side-api-openapi.yml
+- filename: bell-canada-physicalresource-api-openapi.yml
+  format: yaml
+  label: Bell Canada Physical Resource API
+  slug: bell-canada-physicalresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-physicalresource-api-openapi.yml
+- filename: bell-canada-resource-api-openapi.yml
+  format: yaml
+  label: Bell Canada Resource API
+  slug: bell-canada-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-resource-api-openapi.yml
+- filename: bell-canada-serviceorder-api-openapi.yml
+  format: yaml
   label: Bell Canada Service Order API
-  slug: bell-canada-service-order-api
+  slug: bell-canada-serviceorder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-service-order-api-openapi.json
-- filename: bell-canada-resource-inventory-api-openapi.json
-  format: json
-  label: Bell Canada Resource Inventory Management API
-  slug: bell-canada-resource-inventory-api
+  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-serviceorder-api-openapi.yml
+- filename: bell-canada-troubleticket-api-openapi.yml
+  format: yaml
+  label: Bell Canada Trouble Ticket API
+  slug: bell-canada-troubleticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-resource-inventory-api-openapi.json
-- filename: bell-canada-change-management-api-openapi.json
-  format: json
-  label: Bell Canada Change Management API
-  slug: bell-canada-change-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-change-management-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-troubleticket-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -42,6 +42,12 @@ api_specs:
   slug: worldnewsapi-top-news-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/openapi/worldnewsapi-top-news-api-openapi.yml
+- filename: worldnewsapi-news-api-openapi.yml
+  format: yaml
+  label: World News API News API
+  slug: worldnewsapi-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/openapi/worldnewsapi-news-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,12 +2,42 @@
 api_key_in:
 - query
 api_specs:
-- filename: trolie-standard-openapi.yml
+- filename: spp-forecasting-api-openapi.yml
   format: yaml
-  label: SPP LEP/TROLIE Ratings API
-  slug: spp-lep-trolie-api
+  label: Southwest Power Pool Forecasting API
+  slug: spp-forecasting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/trolie-standard-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-forecasting-api-openapi.yml
+- filename: spp-monitoring-sets-api-openapi.yml
+  format: yaml
+  label: Southwest Power Pool Monitoring Sets API
+  slug: spp-monitoring-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-monitoring-sets-api-openapi.yml
+- filename: spp-real-time-api-openapi.yml
+  format: yaml
+  label: Southwest Power Pool Real Time API
+  slug: spp-real-time-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-real-time-api-openapi.yml
+- filename: spp-seasonal-api-openapi.yml
+  format: yaml
+  label: Southwest Power Pool Seasonal API
+  slug: spp-seasonal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-seasonal-api-openapi.yml
+- filename: spp-seasonal-overrides-api-openapi.yml
+  format: yaml
+  label: Southwest Power Pool Seasonal Overrides API
+  slug: spp-seasonal-overrides-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-seasonal-overrides-api-openapi.yml
+- filename: spp-temporary-aar-exceptions-api-openapi.yml
+  format: yaml
+  label: Southwest Power Pool Temporary AAR Exceptions API
+  slug: spp-temporary-aar-exceptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-temporary-aar-exceptions-api-openapi.yml
 auth_types:
 - none
 - apiKey

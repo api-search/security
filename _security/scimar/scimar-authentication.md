@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: scimar-content-openapi.yml
+- filename: scimar-comments-api-openapi.yml
   format: yaml
-  label: Scimar Content API (WordPress REST wp/v2)
-  slug: content
+  label: Scimar Comments API
+  slug: scimar-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/openapi/scimar-content-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/openapi/scimar-comments-api-openapi.yml
+- filename: scimar-discovery-api-openapi.yml
+  format: yaml
+  label: Scimar Discovery API
+  slug: scimar-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/openapi/scimar-discovery-api-openapi.yml
+- filename: scimar-media-api-openapi.yml
+  format: yaml
+  label: Scimar Media API
+  slug: scimar-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/openapi/scimar-media-api-openapi.yml
+- filename: scimar-pages-api-openapi.yml
+  format: yaml
+  label: Scimar Pages API
+  slug: scimar-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/openapi/scimar-pages-api-openapi.yml
+- filename: scimar-posts-api-openapi.yml
+  format: yaml
+  label: Scimar Posts API
+  slug: scimar-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/openapi/scimar-posts-api-openapi.yml
+- filename: scimar-search-api-openapi.yml
+  format: yaml
+  label: Scimar Search API
+  slug: scimar-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/openapi/scimar-search-api-openapi.yml
+- filename: scimar-settings-api-openapi.yml
+  format: yaml
+  label: Scimar Settings API
+  slug: scimar-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/openapi/scimar-settings-api-openapi.yml
+- filename: scimar-taxonomy-api-openapi.yml
+  format: yaml
+  label: Scimar Taxonomy API
+  slug: scimar-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/openapi/scimar-taxonomy-api-openapi.yml
+- filename: scimar-users-api-openapi.yml
+  format: yaml
+  label: Scimar Users API
+  slug: scimar-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/openapi/scimar-users-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,23 +1,113 @@
 ---
 api_specs:
-- filename: nabis-platform-api-v2-openapi.yml
+- filename: nabis-collection-api-openapi.yml
   format: yaml
-  label: Nabis Platform API v2
-  slug: nabis-platform-api-v2
+  label: Nabis Collection API
+  slug: nabis-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-platform-api-v2-openapi.yml
-- filename: nabis-platform-api-v1-openapi.json
-  format: json
-  label: Nabis Platform API v1 (deprecated)
-  slug: nabis-platform-api-v1-deprecated
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-platform-api-v1-openapi.json
-- filename: nabis-universal-qr-code-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-collection-api-openapi.yml
+- filename: nabis-inventory-api-openapi.yml
   format: yaml
-  label: Nabis Universal QR Code API (design specification)
-  slug: nabis-universal-qr-code-api-design-specification
+  label: Nabis Inventory API
+  slug: nabis-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-universal-qr-code-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-inventory-api-openapi.yml
+- filename: nabis-inventory-history-api-openapi.yml
+  format: yaml
+  label: Nabis Inventory History API
+  slug: nabis-inventory-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-inventory-history-api-openapi.yml
+- filename: nabis-invoice-api-openapi.yml
+  format: yaml
+  label: Nabis Invoice API
+  slug: nabis-invoice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-invoice-api-openapi.yml
+- filename: nabis-invoices-api-openapi.yml
+  format: yaml
+  label: Nabis Invoices API
+  slug: nabis-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-invoices-api-openapi.yml
+- filename: nabis-nabisdaysoff-api-openapi.yml
+  format: yaml
+  label: Nabis Nabis Days Off API
+  slug: nabis-nabisdaysoff-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-nabisdaysoff-api-openapi.yml
+- filename: nabis-ny-inventory-api-openapi.yml
+  format: yaml
+  label: Nabis NY Inventory API
+  slug: nabis-ny-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-ny-inventory-api-openapi.yml
+- filename: nabis-ny-invoice-api-openapi.yml
+  format: yaml
+  label: Nabis NY Invoice API
+  slug: nabis-ny-invoice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-ny-invoice-api-openapi.yml
+- filename: nabis-ny-order-api-openapi.yml
+  format: yaml
+  label: Nabis NY Order API
+  slug: nabis-ny-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-ny-order-api-openapi.yml
+- filename: nabis-ny-retailer-api-openapi.yml
+  format: yaml
+  label: Nabis NY Retailer API
+  slug: nabis-ny-retailer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-ny-retailer-api-openapi.yml
+- filename: nabis-nywarehouse-api-openapi.yml
+  format: yaml
+  label: Nabis NY Warehouse API
+  slug: nabis-nywarehouse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-nywarehouse-api-openapi.yml
+- filename: nabis-order-api-openapi.yml
+  format: yaml
+  label: Nabis Order API
+  slug: nabis-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-order-api-openapi.yml
+- filename: nabis-orders-api-openapi.yml
+  format: yaml
+  label: Nabis Orders API
+  slug: nabis-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-orders-api-openapi.yml
+- filename: nabis-retailer-api-openapi.yml
+  format: yaml
+  label: Nabis Retailer API
+  slug: nabis-retailer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-retailer-api-openapi.yml
+- filename: nabis-sku-api-openapi.yml
+  format: yaml
+  label: Nabis Sku API
+  slug: nabis-sku-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-sku-api-openapi.yml
+- filename: nabis-skubatch-api-openapi.yml
+  format: yaml
+  label: Nabis Skubatch API
+  slug: nabis-skubatch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-skubatch-api-openapi.yml
+- filename: nabis-universal-cannabis-labeling-api-openapi.yml
+  format: yaml
+  label: Nabis Universal Cannabis Labeling API
+  slug: nabis-universal-cannabis-labeling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-universal-cannabis-labeling-api-openapi.yml
+- filename: nabis-warehouses-api-openapi.yml
+  format: yaml
+  label: Nabis Warehouses API
+  slug: nabis-warehouses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-warehouses-api-openapi.yml
 description: ''
 domains:
 - caa: []

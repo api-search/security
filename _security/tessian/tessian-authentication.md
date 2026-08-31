@@ -2,66 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: tessian-anomalies-api-openapi.yml
-  format: yaml
-  label: Tessian Anomalies API
-  slug: tessian-anomalies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tessian/refs/heads/main/openapi/tessian-anomalies-api-openapi.yml
-- filename: tessian-audits-api-openapi.yml
-  format: yaml
-  label: Tessian Audits API
-  slug: tessian-audits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tessian/refs/heads/main/openapi/tessian-audits-api-openapi.yml
 - filename: tessian-beta-endpoints-api-openapi.yml
   format: yaml
   label: Tessian Beta Endpoints API
   slug: tessian-beta-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessian/refs/heads/main/openapi/tessian-beta-endpoints-api-openapi.yml
-- filename: tessian-deprecated-api-openapi.yml
-  format: yaml
-  label: Tessian Deprecated API
-  slug: tessian-deprecated-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tessian/refs/heads/main/openapi/tessian-deprecated-api-openapi.yml
 - filename: tessian-endpoints-api-openapi.yml
   format: yaml
   label: Tessian Endpoints API
   slug: tessian-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessian/refs/heads/main/openapi/tessian-endpoints-api-openapi.yml
-- filename: tessian-events-api-openapi.yml
-  format: yaml
-  label: Tessian Events API
-  slug: tessian-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tessian/refs/heads/main/openapi/tessian-events-api-openapi.yml
-- filename: tessian-groups-api-openapi.yml
-  format: yaml
-  label: Tessian Groups API
-  slug: tessian-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tessian/refs/heads/main/openapi/tessian-groups-api-openapi.yml
-- filename: tessian-monitoring-api-openapi.yml
-  format: yaml
-  label: Tessian Monitoring API
-  slug: tessian-monitoring-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tessian/refs/heads/main/openapi/tessian-monitoring-api-openapi.yml
-- filename: tessian-risk-api-openapi.yml
-  format: yaml
-  label: Tessian Risk API
-  slug: tessian-risk-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tessian/refs/heads/main/openapi/tessian-risk-api-openapi.yml
-- filename: tessian-triggers-api-openapi.yml
-  format: yaml
-  label: Tessian Triggers API
-  slug: tessian-triggers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tessian/refs/heads/main/openapi/tessian-triggers-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

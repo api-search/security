@@ -1,18 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: zotgpt-api-openapi.yml
+- filename: zotgpt-chat-api-openapi.yml
   format: yaml
-  label: ZotGPT API (Deprecated)
-  slug: api
+  label: ZotGPT (UC Irvine) Chat API
+  slug: zotgpt-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zotgpt/refs/heads/main/openapi/zotgpt-api-openapi.yml
-- filename: zotgpt-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zotgpt/refs/heads/main/openapi/zotgpt-chat-api-openapi.yml
+- filename: zotgpt-embeddings-api-openapi.yml
   format: yaml
-  label: ZotGPT (UC Irvine) ZotGPT Gateway
-  slug: zotgpt-gateway-openapi
+  label: ZotGPT (UC Irvine) Embeddings API
+  slug: zotgpt-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zotgpt/refs/heads/main/openapi/zotgpt-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zotgpt/refs/heads/main/openapi/zotgpt-embeddings-api-openapi.yml
 auth_types: []
 description: 'ZotGPT runs two distinct authentication planes. Human access to every interactive product is federated campus SSO — a Shibboleth SAML2 redirect to shib.service.uci.edu, observed live on chat.zotgpt.uci.edu. Machine access is key-based, and the key is always minted only after a human has authenticated with UCInetID: an Azure API Management subscription key for the deprecated API, and a workspace virtual key for the Gateway. There is no anonymous self-service signup on either plane, and there is no public OAuth authorization server.'
 kind: authentication

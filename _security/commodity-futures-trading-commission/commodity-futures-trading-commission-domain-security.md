@@ -6,30 +6,6 @@ api_specs:
   slug: commodity-futures-trading-commission-cot-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/commodity-futures-trading-commission/refs/heads/main/openapi/commodity-futures-trading-commission-cot-api-openapi.yml
-- filename: commodity-futures-trading-commission-disaggregated-api-openapi.yml
-  format: yaml
-  label: Commodity Futures Trading Commission Disaggregated API
-  slug: commodity-futures-trading-commission-disaggregated-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commodity-futures-trading-commission/refs/heads/main/openapi/commodity-futures-trading-commission-disaggregated-api-openapi.yml
-- filename: commodity-futures-trading-commission-legacy-api-openapi.yml
-  format: yaml
-  label: Commodity Futures Trading Commission Legacy API
-  slug: commodity-futures-trading-commission-legacy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commodity-futures-trading-commission/refs/heads/main/openapi/commodity-futures-trading-commission-legacy-api-openapi.yml
-- filename: commodity-futures-trading-commission-supplemental-api-openapi.yml
-  format: yaml
-  label: Commodity Futures Trading Commission Supplemental API
-  slug: commodity-futures-trading-commission-supplemental-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commodity-futures-trading-commission/refs/heads/main/openapi/commodity-futures-trading-commission-supplemental-api-openapi.yml
-- filename: commodity-futures-trading-commission-tff-api-openapi.yml
-  format: yaml
-  label: Commodity Futures Trading Commission TFF API
-  slug: commodity-futures-trading-commission-tff-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commodity-futures-trading-commission/refs/heads/main/openapi/commodity-futures-trading-commission-tff-api-openapi.yml
 description: ''
 domains:
 - caa: []

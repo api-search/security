@@ -506,12 +506,6 @@ api_specs:
   slug: bigcommerce-payment-actions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/openapi/bigcommerce-payment-actions-api-openapi.yml
-- filename: bigcommerce-payments-api-openapi.yml
-  format: yaml
-  label: BigCommerce Payments API
-  slug: bigcommerce-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/openapi/bigcommerce-payments-api-openapi.yml
 - filename: bigcommerce-placement-api-openapi.yml
   format: yaml
   label: BigCommerce Placement API

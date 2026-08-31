@@ -1,23 +1,17 @@
 ---
 api_specs:
-- filename: zoopla-leads-api-openapi.json
-  format: json
-  label: Zoopla Leads API
-  slug: zoopla-leads-api
+- filename: zoopla-products-api-openapi.yml
+  format: yaml
+  label: Zoopla Products API
+  slug: zoopla-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoopla/refs/heads/main/openapi/zoopla-leads-api-openapi.json
-- filename: zoopla-premium-listing-activations-openapi.json
-  format: json
-  label: Zoopla Premium Listing Activations API
-  slug: zoopla-premium-listing-activations-api
+  url: https://raw.githubusercontent.com/api-evangelist/zoopla/refs/heads/main/openapi/zoopla-products-api-openapi.yml
+- filename: zoopla-rest-endpoints-api-openapi.yml
+  format: yaml
+  label: Zoopla REST Endpoints API
+  slug: zoopla-rest-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoopla/refs/heads/main/openapi/zoopla-premium-listing-activations-openapi.json
-- filename: zoopla-weekly-featured-property-activations-openapi.json
-  format: json
-  label: Zoopla Weekly Featured Property (WFP) Activations API
-  slug: zoopla-weekly-featured-property-activations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoopla/refs/heads/main/openapi/zoopla-weekly-featured-property-activations-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/zoopla/refs/heads/main/openapi/zoopla-rest-endpoints-api-openapi.yml
 description: ''
 domains:
 - caa:

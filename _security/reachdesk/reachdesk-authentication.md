@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: reachdesk-api-openapi.yml
+- filename: reachdesk-bulk-sends-api-openapi.yml
   format: yaml
-  label: Reachdesk API
-  slug: reachdesk-api
+  label: Reachdesk Bulk Sends API
+  slug: reachdesk-bulk-sends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-bulk-sends-api-openapi.yml
+- filename: reachdesk-campaigns-api-openapi.yml
+  format: yaml
+  label: Reachdesk Campaigns API
+  slug: reachdesk-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-campaigns-api-openapi.yml
+- filename: reachdesk-contacts-api-openapi.yml
+  format: yaml
+  label: Reachdesk Contacts API
+  slug: reachdesk-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-contacts-api-openapi.yml
+- filename: reachdesk-gdpr-api-openapi.yml
+  format: yaml
+  label: Reachdesk Gdpr API
+  slug: reachdesk-gdpr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-gdpr-api-openapi.yml
+- filename: reachdesk-organization-api-openapi.yml
+  format: yaml
+  label: Reachdesk Organization API
+  slug: reachdesk-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-organization-api-openapi.yml
+- filename: reachdesk-sends-api-openapi.yml
+  format: yaml
+  label: Reachdesk Sends API
+  slug: reachdesk-sends-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-sends-api-openapi.yml
+- filename: reachdesk-sends-start-date-start-date-end-date-end-date-api-openapi.yml
+  format: yaml
+  label: Reachdesk Sends?start Date={start Date}&end Date={end Date} API
+  slug: reachdesk-sends-start-date-start-date-end-date-end-date-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-sends-start-date-start-date-end-date-end-date-api-openapi.yml
+- filename: reachdesk-transactions-api-openapi.yml
+  format: yaml
+  label: Reachdesk Transactions API
+  slug: reachdesk-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-transactions-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

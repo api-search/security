@@ -2,30 +2,126 @@
 api_key_in:
 - header
 api_specs:
-- filename: agntcy-oasf-schema-swagger.json
-  format: json
-  label: OASF Schema API
-  slug: oasf-schema-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-oasf-schema-swagger.json
-- filename: agntcy-acp-openapi.json
-  format: json
-  label: Agent Connect Protocol (ACP)
-  slug: agent-connect-protocol-acp
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-acp-openapi.json
-- filename: agntcy-identity-service-openapi.yaml
+- filename: agntcy-agents-api-openapi.yml
   format: yaml
-  label: AGNTCY Identity Service API
-  slug: agntcy-identity-service-api
+  label: AGNTCY Agents API
+  slug: agntcy-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-identity-service-openapi.yaml
-- filename: agntcy-identity-node-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-agents-api-openapi.yml
+- filename: agntcy-appservice-api-openapi.yml
   format: yaml
-  label: AGNTCY Identity Node API
-  slug: agntcy-identity-node-api
+  label: AGNTCY App Service API
+  slug: agntcy-appservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-identity-node-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-appservice-api-openapi.yml
+- filename: agntcy-authservice-api-openapi.yml
+  format: yaml
+  label: AGNTCY Auth Service API
+  slug: agntcy-authservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-authservice-api-openapi.yml
+- filename: agntcy-badgeservice-api-openapi.yml
+  format: yaml
+  label: AGNTCY Badge Service API
+  slug: agntcy-badgeservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-badgeservice-api-openapi.yml
+- filename: agntcy-classes-and-objects-api-openapi.yml
+  format: yaml
+  label: AGNTCY Classes and Objects API
+  slug: agntcy-classes-and-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-classes-and-objects-api-openapi.yml
+- filename: agntcy-deviceservice-api-openapi.yml
+  format: yaml
+  label: AGNTCY Device Service API
+  slug: agntcy-deviceservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-deviceservice-api-openapi.yml
+- filename: agntcy-idservice-api-openapi.yml
+  format: yaml
+  label: AGNTCY ID Service API
+  slug: agntcy-idservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-idservice-api-openapi.yml
+- filename: agntcy-issuerservice-api-openapi.yml
+  format: yaml
+  label: AGNTCY Issuer Service API
+  slug: agntcy-issuerservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-issuerservice-api-openapi.yml
+- filename: agntcy-json-schema-api-openapi.yml
+  format: yaml
+  label: AGNTCY JSON Schema API
+  slug: agntcy-json-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-json-schema-api-openapi.yml
+- filename: agntcy-policyservice-api-openapi.yml
+  format: yaml
+  label: AGNTCY Policy Service API
+  slug: agntcy-policyservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-policyservice-api-openapi.yml
+- filename: agntcy-sample-data-api-openapi.yml
+  format: yaml
+  label: AGNTCY Sample Data API
+  slug: agntcy-sample-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-sample-data-api-openapi.yml
+- filename: agntcy-schema-api-openapi.yml
+  format: yaml
+  label: AGNTCY Schema API
+  slug: agntcy-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-schema-api-openapi.yml
+- filename: agntcy-settingsservice-api-openapi.yml
+  format: yaml
+  label: AGNTCY Settings Service API
+  slug: agntcy-settingsservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-settingsservice-api-openapi.yml
+- filename: agntcy-stateless-runs-api-openapi.yml
+  format: yaml
+  label: AGNTCY Stateless Runs API
+  slug: agntcy-stateless-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-stateless-runs-api-openapi.yml
+- filename: agntcy-taxonomy-api-openapi.yml
+  format: yaml
+  label: AGNTCY Taxonomy API
+  slug: agntcy-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-taxonomy-api-openapi.yml
+- filename: agntcy-thread-runs-api-openapi.yml
+  format: yaml
+  label: AGNTCY Thread Runs API
+  slug: agntcy-thread-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-thread-runs-api-openapi.yml
+- filename: agntcy-threads-api-openapi.yml
+  format: yaml
+  label: AGNTCY Threads API
+  slug: agntcy-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-threads-api-openapi.yml
+- filename: agntcy-translation-api-openapi.yml
+  format: yaml
+  label: AGNTCY Translation API
+  slug: agntcy-translation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-translation-api-openapi.yml
+- filename: agntcy-validation-api-openapi.yml
+  format: yaml
+  label: AGNTCY Validation API
+  slug: agntcy-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-validation-api-openapi.yml
+- filename: agntcy-vcservice-api-openapi.yml
+  format: yaml
+  label: AGNTCY Vc Service API
+  slug: agntcy-vcservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-vcservice-api-openapi.yml
 auth_types:
 - apiKey
 - http

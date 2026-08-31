@@ -43,6 +43,24 @@ api_specs:
   slug: sfcompute-prices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-prices-api-openapi.yml
+- filename: sfcompute-images-api-openapi.yml
+  format: yaml
+  label: SF Compute Images API
+  slug: sfcompute-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-images-api-openapi.yml
+- filename: sfcompute-money-api-openapi.yml
+  format: yaml
+  label: SF Compute Money API
+  slug: sfcompute-money-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-money-api-openapi.yml
+- filename: sfcompute-vms-api-openapi.yml
+  format: yaml
+  label: SF Compute V Ms API
+  slug: sfcompute-vms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-vms-api-openapi.yml
 auth_types:
 - http
 description: ''

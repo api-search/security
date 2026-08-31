@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: playable-api-openapi.yml
+- filename: playable-campaigns-api-openapi.yml
   format: yaml
-  label: Playable API
-  slug: playable-api
+  label: Playable Campaigns API
+  slug: playable-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/openapi/playable-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/openapi/playable-campaigns-api-openapi.yml
+- filename: playable-media-api-openapi.yml
+  format: yaml
+  label: Playable Media API
+  slug: playable-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/openapi/playable-media-api-openapi.yml
+- filename: playable-oauth-api-openapi.yml
+  format: yaml
+  label: Playable OAUTH API
+  slug: playable-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/openapi/playable-oauth-api-openapi.yml
+- filename: playable-user-api-openapi.yml
+  format: yaml
+  label: Playable User API
+  slug: playable-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/openapi/playable-user-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

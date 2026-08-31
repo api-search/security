@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: obie-opendata-atm-locator-standard.json
-  format: json
-  label: Weatherbys Bank Open Data ATM Locator API
-  slug: weatherbys-open-data-atm-locator-api
+- filename: weatherbys-bank-atm-api-openapi.yml
+  format: yaml
+  label: Weatherbys Bank ATM API
+  slug: weatherbys-bank-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/openapi/obie-opendata-atm-locator-standard.json
-- filename: obie-opendata-branch-locator-standard.json
-  format: json
-  label: Weatherbys Bank Open Data Branch Locator API
-  slug: weatherbys-open-data-branch-locator-api
+  url: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/openapi/weatherbys-bank-atm-api-openapi.yml
+- filename: weatherbys-bank-bca-api-openapi.yml
+  format: yaml
+  label: Weatherbys Bank BCA API
+  slug: weatherbys-bank-bca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/openapi/obie-opendata-branch-locator-standard.json
-- filename: obie-opendata-personal-current-accounts-standard.json
-  format: json
-  label: Weatherbys Bank Open Data Personal Current Accounts API
-  slug: weatherbys-open-data-personal-current-accounts-api
+  url: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/openapi/weatherbys-bank-bca-api-openapi.yml
+- filename: weatherbys-bank-branch-api-openapi.yml
+  format: yaml
+  label: Weatherbys Bank Branch API
+  slug: weatherbys-bank-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/openapi/obie-opendata-personal-current-accounts-standard.json
-- filename: obie-opendata-business-current-accounts-standard.json
-  format: json
-  label: Weatherbys Bank Open Data Business Current Accounts API
-  slug: weatherbys-open-data-business-current-accounts-api
+  url: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/openapi/weatherbys-bank-branch-api-openapi.yml
+- filename: weatherbys-bank-pca-api-openapi.yml
+  format: yaml
+  label: Weatherbys Bank PCA API
+  slug: weatherbys-bank-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/openapi/obie-opendata-business-current-accounts-standard.json
+  url: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/openapi/weatherbys-bank-pca-api-openapi.yml
 description: ''
 domains:
 - caa: []

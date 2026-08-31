@@ -218,48 +218,132 @@ api_specs:
   slug: activecampaign-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-webhooks-api-openapi.yml
-- filename: activecampaign-segments-api-openapi.json
-  format: json
+- filename: activecampaign-ai-customization-documents-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign AI Customization Documents API
+  slug: activecampaign-ai-customization-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-ai-customization-documents-api-openapi.yml
+- filename: activecampaign-ai-customization-instructions-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign AI Customization Instructions API
+  slug: activecampaign-ai-customization-instructions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-ai-customization-instructions-api-openapi.yml
+- filename: activecampaign-ai-customization-profiles-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign AI Customization Profiles API
+  slug: activecampaign-ai-customization-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-ai-customization-profiles-api-openapi.yml
+- filename: activecampaign-child-account-snapshots-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Child Account Snapshots API
+  slug: activecampaign-child-account-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-child-account-snapshots-api-openapi.yml
+- filename: activecampaign-child-accounts-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Child Accounts API
+  slug: activecampaign-child-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-child-accounts-api-openapi.yml
+- filename: activecampaign-conversations-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Conversations API
+  slug: activecampaign-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-conversations-api-openapi.yml
+- filename: activecampaign-count-history-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Count History API
+  slug: activecampaign-count-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-count-history-api-openapi.yml
+- filename: activecampaign-crm-reporting-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign CRM Reporting API
+  slug: activecampaign-crm-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-crm-reporting-api-openapi.yml
+- filename: activecampaign-crm-sync-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign CRM Sync API
+  slug: activecampaign-crm-sync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-crm-sync-api-openapi.yml
+- filename: activecampaign-crm-sync-settings-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign CRM Sync Settings API
+  slug: activecampaign-crm-sync-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-crm-sync-settings-api-openapi.yml
+- filename: activecampaign-event-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Event API
+  slug: activecampaign-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-event-api-openapi.yml
+- filename: activecampaign-files-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Files API
+  slug: activecampaign-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-files-api-openapi.yml
+- filename: activecampaign-flows-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Flows API
+  slug: activecampaign-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-flows-api-openapi.yml
+- filename: activecampaign-insight-cards-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Insight Cards API
+  slug: activecampaign-insight-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-insight-cards-api-openapi.yml
+- filename: activecampaign-locales-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Locales API
+  slug: activecampaign-locales-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-locales-api-openapi.yml
+- filename: activecampaign-match-all-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Match All API
+  slug: activecampaign-match-all-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-match-all-api-openapi.yml
+- filename: activecampaign-match-one-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Match One API
+  slug: activecampaign-match-one-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-match-one-api-openapi.yml
+- filename: activecampaign-most-recent-count-history-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Most Recent Count History API
+  slug: activecampaign-most-recent-count-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-most-recent-count-history-api-openapi.yml
+- filename: activecampaign-saved-segment-summaries-api-openapi.yml
+  format: yaml
+  label: ActiveCampaign Saved Segment Summaries API
+  slug: activecampaign-saved-segment-summaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-saved-segment-summaries-api-openapi.yml
+- filename: activecampaign-segments-api-openapi.yml
+  format: yaml
   label: ActiveCampaign Segments API
   slug: activecampaign-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-segments-api-openapi.json
-- filename: activecampaign-segment-matching-api-openapi.json
-  format: json
-  label: ActiveCampaign Segment Matching API
-  slug: activecampaign-segment-matching-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-segment-matching-api-openapi.json
-- filename: activecampaign-segment-match-one-api-openapi.json
-  format: json
-  label: ActiveCampaign Segment Match One API
-  slug: activecampaign-segment-match-one-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-segment-match-one-api-openapi.json
-- filename: activecampaign-partners-api-openapi.json
-  format: json
-  label: ActiveCampaign Partners API
-  slug: activecampaign-partners-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-partners-api-openapi.json
-- filename: activecampaign-whatsapp-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-segments-api-openapi.yml
+- filename: activecampaign-template-api-openapi.yml
   format: yaml
-  label: ActiveCampaign WhatsApp API
-  slug: activecampaign-whatsapp-api
+  label: ActiveCampaign Template API
+  slug: activecampaign-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-whatsapp-api-openapi.yml
-- filename: activecampaign-trackcmp-api-openapi.json
-  format: json
-  label: ActiveCampaign trackcmp Event API
-  slug: activecampaign-trackcmp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-trackcmp-api-openapi.json
-- filename: activecampaign-v2-api-openapi.json
-  format: json
-  label: ActiveCampaign v2 Legacy API
-  slug: activecampaign-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-v2-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-template-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -2,12 +2,114 @@
 api_key_in:
 - header
 api_specs:
-- filename: green-check-verified-access-openapi.yaml
+- filename: green-check-verified-authentication-api-openapi.yml
   format: yaml
-  label: Green Check Access
-  slug: green-check-access
+  label: Green Check Verified Authentication API
+  slug: green-check-verified-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-access-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-authentication-api-openapi.yml
+- filename: green-check-verified-crb-api-openapi.yml
+  format: yaml
+  label: Green Check Verified CRB API
+  slug: green-check-verified-crb-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-crb-api-openapi.yml
+- filename: green-check-verified-crb-customers-api-openapi.yml
+  format: yaml
+  label: Green Check Verified CRB Customers API
+  slug: green-check-verified-crb-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-crb-customers-api-openapi.yml
+- filename: green-check-verified-crb-documents-api-openapi.yml
+  format: yaml
+  label: Green Check Verified CRB Documents API
+  slug: green-check-verified-crb-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-crb-documents-api-openapi.yml
+- filename: green-check-verified-crb-info-api-openapi.yml
+  format: yaml
+  label: Green Check Verified CRB Info API
+  slug: green-check-verified-crb-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-crb-info-api-openapi.yml
+- filename: green-check-verified-crb-inventory-api-openapi.yml
+  format: yaml
+  label: Green Check Verified CRB Inventory API
+  slug: green-check-verified-crb-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-crb-inventory-api-openapi.yml
+- filename: green-check-verified-crb-inventory-locations-api-openapi.yml
+  format: yaml
+  label: Green Check Verified CRB Inventory Locations API
+  slug: green-check-verified-crb-inventory-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-crb-inventory-locations-api-openapi.yml
+- filename: green-check-verified-crb-products-api-openapi.yml
+  format: yaml
+  label: Green Check Verified CRB Products API
+  slug: green-check-verified-crb-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-crb-products-api-openapi.yml
+- filename: green-check-verified-crb-sales-api-openapi.yml
+  format: yaml
+  label: Green Check Verified CRB Sales API
+  slug: green-check-verified-crb-sales-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-crb-sales-api-openapi.yml
+- filename: green-check-verified-crb-templates-api-openapi.yml
+  format: yaml
+  label: Green Check Verified CRB Templates API
+  slug: green-check-verified-crb-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-crb-templates-api-openapi.yml
+- filename: green-check-verified-customers-api-openapi.yml
+  format: yaml
+  label: Green Check Verified Customers API
+  slug: green-check-verified-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-customers-api-openapi.yml
+- filename: green-check-verified-documents-api-openapi.yml
+  format: yaml
+  label: Green Check Verified Documents API
+  slug: green-check-verified-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-documents-api-openapi.yml
+- filename: green-check-verified-inventory-api-openapi.yml
+  format: yaml
+  label: Green Check Verified Inventory API
+  slug: green-check-verified-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-inventory-api-openapi.yml
+- filename: green-check-verified-inventory-locations-api-openapi.yml
+  format: yaml
+  label: Green Check Verified Inventory Locations API
+  slug: green-check-verified-inventory-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-inventory-locations-api-openapi.yml
+- filename: green-check-verified-products-api-openapi.yml
+  format: yaml
+  label: Green Check Verified Products API
+  slug: green-check-verified-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-products-api-openapi.yml
+- filename: green-check-verified-sales-api-openapi.yml
+  format: yaml
+  label: Green Check Verified Sales API
+  slug: green-check-verified-sales-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-sales-api-openapi.yml
+- filename: green-check-verified-service-provider-api-openapi.yml
+  format: yaml
+  label: Green Check Verified Service Provider API
+  slug: green-check-verified-service-provider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-service-provider-api-openapi.yml
+- filename: green-check-verified-trace-api-openapi.yml
+  format: yaml
+  label: Green Check Verified Trace API
+  slug: green-check-verified-trace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-trace-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey

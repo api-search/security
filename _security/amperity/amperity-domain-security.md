@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: amperity-control-plane-2024-04-01-openapi.json
-  format: json
-  label: Amperity API
-  slug: amperity-api
+- filename: amperity-audit-events-api-openapi.yml
+  format: yaml
+  label: Amperity Audit Events API
+  slug: amperity-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/openapi/amperity-control-plane-2024-04-01-openapi.json
-- filename: amperity-control-plane-unstable-openapi.json
-  format: json
-  label: Amperity API (Unstable)
-  slug: amperity-api-unstable
+  url: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/openapi/amperity-audit-events-api-openapi.yml
+- filename: amperity-campaigns-api-openapi.yml
+  format: yaml
+  label: Amperity Campaigns API
+  slug: amperity-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/openapi/amperity-control-plane-unstable-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/openapi/amperity-campaigns-api-openapi.yml
+- filename: amperity-ingest-api-openapi.yml
+  format: yaml
+  label: Amperity Ingest API
+  slug: amperity-ingest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/openapi/amperity-ingest-api-openapi.yml
+- filename: amperity-segments-api-openapi.yml
+  format: yaml
+  label: Amperity Segments API
+  slug: amperity-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/openapi/amperity-segments-api-openapi.yml
+- filename: amperity-workflow-api-openapi.yml
+  format: yaml
+  label: Amperity Workflow API
+  slug: amperity-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/openapi/amperity-workflow-api-openapi.yml
 description: ''
 domains:
 - caa: []

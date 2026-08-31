@@ -1,11 +1,95 @@
 ---
 api_specs:
-- filename: ritten-external-api-openapi.yaml
+- filename: ritten-calendar-api-openapi.yml
   format: yaml
-  label: Ritten External API
-  slug: ritten-external-api
+  label: Ritten Calendar API
+  slug: ritten-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/openapi/ritten-external-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/openapi/ritten-calendar-api-openapi.yml
+- filename: ritten-cases-api-openapi.yml
+  format: yaml
+  label: Ritten Cases API
+  slug: ritten-cases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/openapi/ritten-cases-api-openapi.yml
+- filename: ritten-contacts-api-openapi.yml
+  format: yaml
+  label: Ritten Contacts API
+  slug: ritten-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/openapi/ritten-contacts-api-openapi.yml
+- filename: ritten-encounters-api-openapi.yml
+  format: yaml
+  label: Ritten Encounters API
+  slug: ritten-encounters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/openapi/ritten-encounters-api-openapi.yml
+- filename: ritten-facilities-api-openapi.yml
+  format: yaml
+  label: Ritten Facilities API
+  slug: ritten-facilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/openapi/ritten-facilities-api-openapi.yml
+- filename: ritten-forms-api-openapi.yml
+  format: yaml
+  label: Ritten Forms API
+  slug: ritten-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/openapi/ritten-forms-api-openapi.yml
+- filename: ritten-insights-api-openapi.yml
+  format: yaml
+  label: Ritten Insights API
+  slug: ritten-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/openapi/ritten-insights-api-openapi.yml
+- filename: ritten-insurance-api-openapi.yml
+  format: yaml
+  label: Ritten Insurance API
+  slug: ritten-insurance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/openapi/ritten-insurance-api-openapi.yml
+- filename: ritten-oauth-api-openapi.yml
+  format: yaml
+  label: Ritten OAUTH API
+  slug: ritten-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/openapi/ritten-oauth-api-openapi.yml
+- filename: ritten-organizations-api-openapi.yml
+  format: yaml
+  label: Ritten Organizations API
+  slug: ritten-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/openapi/ritten-organizations-api-openapi.yml
+- filename: ritten-patients-api-openapi.yml
+  format: yaml
+  label: Ritten Patients API
+  slug: ritten-patients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/openapi/ritten-patients-api-openapi.yml
+- filename: ritten-programs-api-openapi.yml
+  format: yaml
+  label: Ritten Programs API
+  slug: ritten-programs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/openapi/ritten-programs-api-openapi.yml
+- filename: ritten-tasks-api-openapi.yml
+  format: yaml
+  label: Ritten Tasks API
+  slug: ritten-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/openapi/ritten-tasks-api-openapi.yml
+- filename: ritten-users-api-openapi.yml
+  format: yaml
+  label: Ritten Users API
+  slug: ritten-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/openapi/ritten-users-api-openapi.yml
+- filename: ritten-webhooks-api-openapi.yml
+  format: yaml
+  label: Ritten Webhooks API
+  slug: ritten-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/openapi/ritten-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

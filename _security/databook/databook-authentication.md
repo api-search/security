@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: databook-openapi-original.json
-  format: json
-  label: DatabookAI REST API
-  slug: databookai-rest-api
+- filename: databook-batch-create-api-openapi.yml
+  format: yaml
+  label: Databook batch - create API
+  slug: databook-batch-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/openapi/databook-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/openapi/databook-batch-create-api-openapi.yml
+- filename: databook-batch-query-api-openapi.yml
+  format: yaml
+  label: Databook batch - query API
+  slug: databook-batch-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/openapi/databook-batch-query-api-openapi.yml
+- filename: databook-chat-api-openapi.yml
+  format: yaml
+  label: Databook Chat API
+  slug: databook-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/openapi/databook-chat-api-openapi.yml
+- filename: databook-reasoning-api-openapi.yml
+  format: yaml
+  label: Databook Reasoning API
+  slug: databook-reasoning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/openapi/databook-reasoning-api-openapi.yml
 auth_types:
 - http
 description: ''

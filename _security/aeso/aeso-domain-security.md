@@ -1,89 +1,83 @@
 ---
 api_specs:
-- filename: aeso-poolprice-api-v1-1-openapi.json
-  format: json
-  label: AESO Pool Price Report API
-  slug: aeso-pool-price-report-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-poolprice-api-v1-1-openapi.json
-- filename: aeso-systemmarginalprice-api-v1-1-openapi.json
-  format: json
-  label: AESO System Marginal Price Report API
-  slug: aeso-system-marginal-price-report-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-systemmarginalprice-api-v1-1-openapi.json
-- filename: aeso-currentsupplydemand-api-v2-openapi.json
-  format: json
-  label: AESO Current Supply Demand API (v2)
-  slug: aeso-current-supply-demand-api-v2
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-currentsupplydemand-api-v2-openapi.json
-- filename: aeso-currentsupplydemand-api-v1-openapi.json
-  format: json
-  label: AESO Current Supply Demand API (v1)
-  slug: aeso-current-supply-demand-api-v1
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-currentsupplydemand-api-v1-openapi.json
-- filename: aeso-actualforecast-api-v1-openapi.json
-  format: json
-  label: AESO Actual Forecast Report API
-  slug: aeso-actual-forecast-report-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-actualforecast-api-v1-openapi.json
-- filename: aeso-aiesgencapacity-api-v1-openapi.json
-  format: json
+- filename: aeso-aiesgencapacity-api-openapi.yml
+  format: yaml
   label: AESO AIES Gen Capacity API
-  slug: aeso-aies-gen-capacity-api
+  slug: aeso-aiesgencapacity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-aiesgencapacity-api-v1-openapi.json
-- filename: aeso-loadoutageforecast-api-v1-openapi.json
-  format: json
-  label: AESO Load Outage Forecast API
-  slug: aeso-load-outage-forecast-api
+  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-aiesgencapacity-api-openapi.yml
+- filename: aeso-assetlist-api-openapi.yml
+  format: yaml
+  label: AESO Assetlist API
+  slug: aeso-assetlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-loadoutageforecast-api-v1-openapi.json
-- filename: aeso-itc-api-v1-openapi.json
-  format: json
-  label: AESO Intertie Public Reports API
-  slug: aeso-intertie-public-reports-api
+  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-assetlist-api-openapi.yml
+- filename: aeso-csd-api-openapi.yml
+  format: yaml
+  label: AESO Csd API
+  slug: aeso-csd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-itc-api-v1-openapi.json
-- filename: aeso-energymeritorder-api-v1-openapi.json
-  format: json
-  label: AESO Energy Merit Order Report API
-  slug: aeso-energy-merit-order-report-api
+  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-csd-api-openapi.yml
+- filename: aeso-interchange-api-openapi.yml
+  format: yaml
+  label: AESO Interchange API
+  slug: aeso-interchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-energymeritorder-api-v1-openapi.json
-- filename: aeso-meteredvolume-api-v1-openapi.json
-  format: json
-  label: AESO Metered Volume Report API
-  slug: aeso-metered-volume-report-api
+  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-interchange-api-openapi.yml
+- filename: aeso-load-api-openapi.yml
+  format: yaml
+  label: AESO Load API
+  slug: aeso-load-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-meteredvolume-api-v1-openapi.json
-- filename: aeso-operatingreserveoffercontrol-api-v1-openapi.json
-  format: json
-  label: AESO Operating Reserve Offer Control Report API
-  slug: aeso-operating-reserve-offer-control-api
+  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-load-api-openapi.yml
+- filename: aeso-loadoutagereport-api-openapi.yml
+  format: yaml
+  label: AESO Load Outage Report API
+  slug: aeso-loadoutagereport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-operatingreserveoffercontrol-api-v1-openapi.json
-- filename: aeso-assetlist-api-v1-openapi.json
-  format: json
-  label: AESO Asset List API
-  slug: aeso-asset-list-api
+  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-loadoutagereport-api-openapi.yml
+- filename: aeso-meritorder-api-openapi.yml
+  format: yaml
+  label: AESO Merit Order API
+  slug: aeso-meritorder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-assetlist-api-v1-openapi.json
-- filename: aeso-poolparticipant-api-v1-openapi.json
-  format: json
-  label: AESO Pool Participant API
-  slug: aeso-pool-participant-api
+  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-meritorder-api-openapi.yml
+- filename: aeso-meteredvolume-api-openapi.yml
+  format: yaml
+  label: AESO Meteredvolume API
+  slug: aeso-meteredvolume-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-poolparticipant-api-v1-openapi.json
-- filename: aeso-unitcommitmentdata-api-v2-openapi.json
-  format: json
-  label: AESO Unit Commitment Data API
-  slug: aeso-unit-commitment-data-api
+  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-meteredvolume-api-openapi.yml
+- filename: aeso-operatingreserveoffercontrol-api-openapi.yml
+  format: yaml
+  label: AESO Operating Reserve Offer Control API
+  slug: aeso-operatingreserveoffercontrol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-unitcommitmentdata-api-v2-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-operatingreserveoffercontrol-api-openapi.yml
+- filename: aeso-outage-api-openapi.yml
+  format: yaml
+  label: AESO Outage API
+  slug: aeso-outage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-outage-api-openapi.yml
+- filename: aeso-poolparticipantlist-api-openapi.yml
+  format: yaml
+  label: AESO Poolparticipantlist API
+  slug: aeso-poolparticipantlist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-poolparticipantlist-api-openapi.yml
+- filename: aeso-price-api-openapi.yml
+  format: yaml
+  label: AESO Price API
+  slug: aeso-price-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-price-api-openapi.yml
+- filename: aeso-unitcommitment-api-openapi.yml
+  format: yaml
+  label: AESO Unit Commitment API
+  slug: aeso-unitcommitment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-unitcommitment-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,18 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: hevy-public-api-openapi.json
-  format: json
-  label: Hevy Public API
-  slug: hevy-public-api
+- filename: hevy-exercisehistory-api-openapi.yml
+  format: yaml
+  label: Hevy Exercise History API
+  slug: hevy-exercisehistory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/openapi/hevy-public-api-openapi.json
-- filename: hevy-gpt-action-openapi.json
-  format: json
-  label: Hevy GPT Action API
-  slug: hevy-gpt-action-api
+  url: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/openapi/hevy-exercisehistory-api-openapi.yml
+- filename: hevy-exercisetemplates-api-openapi.yml
+  format: yaml
+  label: Hevy Exercise Templates API
+  slug: hevy-exercisetemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/openapi/hevy-gpt-action-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/openapi/hevy-exercisetemplates-api-openapi.yml
+- filename: hevy-measurements-api-openapi.yml
+  format: yaml
+  label: Hevy Measurements API
+  slug: hevy-measurements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/openapi/hevy-measurements-api-openapi.yml
+- filename: hevy-routinefolders-api-openapi.yml
+  format: yaml
+  label: Hevy Routine Folders API
+  slug: hevy-routinefolders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/openapi/hevy-routinefolders-api-openapi.yml
+- filename: hevy-routines-api-openapi.yml
+  format: yaml
+  label: Hevy Routines API
+  slug: hevy-routines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/openapi/hevy-routines-api-openapi.yml
+- filename: hevy-users-api-openapi.yml
+  format: yaml
+  label: Hevy Users API
+  slug: hevy-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/openapi/hevy-users-api-openapi.yml
+- filename: hevy-workouts-api-openapi.yml
+  format: yaml
+  label: Hevy Workouts API
+  slug: hevy-workouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/openapi/hevy-workouts-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

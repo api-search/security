@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Oceaneering International Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for oceaneering-international, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: oceaneering-international
+overview: 'Domain security posture for Oceaneering International, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Oceaneering International
 provider_slug: oceaneering-international
 slug: oceaneering-international-domain-security
 source_filename: oceaneering-international-domain-security.yml

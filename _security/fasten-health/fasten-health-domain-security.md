@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: fasten-health-bridge-api-openapi.yml
   format: yaml
-  label: Fasten Connect API
-  slug: fasten-connect
+  label: Fasten Health Bridge API
+  slug: fasten-health-bridge-api
   spec_type: OpenAPI
-  url: https://docs.connect.fastenhealth.com/api-reference/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/fasten-health/refs/heads/main/openapi/fasten-health-bridge-api-openapi.yml
 description: ''
 domains:
 - caa: []

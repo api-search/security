@@ -120,18 +120,126 @@ api_specs:
   slug: adobe-split-pdf-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-split-pdf-api-openapi.yml
-- filename: adobe-substance-3d-api-openapi.yml
+- filename: adobe-composites-api-openapi.yml
   format: yaml
-  label: Adobe Substance 3D API
-  slug: adobe-substance-3d-api
+  label: Adobe Composites API
+  slug: adobe-composites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/_original/adobe-substance-3d-api-openapi.yml
-- filename: adobe-cc-libraries-api-openapi.json
-  format: json
-  label: Adobe Creative Cloud Libraries API
-  slug: adobe-cc-libraries-api
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-composites-api-openapi.yml
+- filename: adobe-export-pdf-form-data-api-openapi.yml
+  format: yaml
+  label: Adobe Export PDF Form Data API
+  slug: adobe-export-pdf-form-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/_original/adobe-cc-libraries-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-export-pdf-form-data-api-openapi.yml
+- filename: adobe-generate-token-api-openapi.yml
+  format: yaml
+  label: Adobe Generate Token API
+  slug: adobe-generate-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-generate-token-api-openapi.yml
+- filename: adobe-html-to-pdf-api-openapi.yml
+  format: yaml
+  label: Adobe Html to PDF API
+  slug: adobe-html-to-pdf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-html-to-pdf-api-openapi.yml
+- filename: adobe-import-pdf-form-data-api-openapi.yml
+  format: yaml
+  label: Adobe Import PDF Form Data API
+  slug: adobe-import-pdf-form-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-import-pdf-form-data-api-openapi.yml
+- filename: adobe-library-service-api-openapi.yml
+  format: yaml
+  label: Adobe Library Service API
+  slug: adobe-library-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-library-service-api-openapi.yml
+- filename: adobe-library-service-bookmarks-api-openapi.yml
+  format: yaml
+  label: Adobe Library Service - Bookmarks API
+  slug: adobe-library-service-bookmarks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-library-service-bookmarks-api-openapi.yml
+- filename: adobe-library-service-public-api-openapi.yml
+  format: yaml
+  label: Adobe Library Service - Public API
+  slug: adobe-library-service-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-library-service-public-api-openapi.yml
+- filename: adobe-page-manipulation-api-openapi.yml
+  format: yaml
+  label: Adobe Page Manipulation API
+  slug: adobe-page-manipulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-page-manipulation-api-openapi.yml
+- filename: adobe-pdf-accessibility-auto-tag-api-openapi.yml
+  format: yaml
+  label: Adobe PDF Accessibility Auto-Tag API
+  slug: adobe-pdf-accessibility-auto-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-pdf-accessibility-auto-tag-api-openapi.yml
+- filename: adobe-pdf-accessibility-checker-api-openapi.yml
+  format: yaml
+  label: Adobe PDF Accessibility Checker API
+  slug: adobe-pdf-accessibility-checker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-pdf-accessibility-checker-api-openapi.yml
+- filename: adobe-pdf-electronic-seal-api-openapi.yml
+  format: yaml
+  label: Adobe PDF Electronic Seal API
+  slug: adobe-pdf-electronic-seal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-pdf-electronic-seal-api-openapi.yml
+- filename: adobe-pdf-to-images-api-openapi.yml
+  format: yaml
+  label: Adobe PDF To Images API
+  slug: adobe-pdf-to-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-pdf-to-images-api-openapi.yml
+- filename: adobe-pdf-to-markdown-api-openapi.yml
+  format: yaml
+  label: Adobe PDF To Markdown API
+  slug: adobe-pdf-to-markdown-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-pdf-to-markdown-api-openapi.yml
+- filename: adobe-pdf-watermark-api-openapi.yml
+  format: yaml
+  label: Adobe PDF Watermark API
+  slug: adobe-pdf-watermark-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-pdf-watermark-api-openapi.yml
+- filename: adobe-scenes-api-openapi.yml
+  format: yaml
+  label: Adobe Scenes API
+  slug: adobe-scenes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-scenes-api-openapi.yml
+- filename: adobe-spaces-api-openapi.yml
+  format: yaml
+  label: Adobe Spaces API
+  slug: adobe-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-spaces-api-openapi.yml
+- filename: adobe-spacesframeio-api-openapi.yml
+  format: yaml
+  label: Adobe Spaces Frame IO API
+  slug: adobe-spacesframeio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-spacesframeio-api-openapi.yml
+- filename: adobe-spacesnextframeio-api-openapi.yml
+  format: yaml
+  label: Adobe Spaces Next Frame IO API
+  slug: adobe-spacesnextframeio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-spacesnextframeio-api-openapi.yml
+- filename: adobe-spacesurl-api-openapi.yml
+  format: yaml
+  label: Adobe Spaces URL API
+  slug: adobe-spacesurl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-spacesurl-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

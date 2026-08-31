@@ -3,12 +3,18 @@ api_key_in:
 - header
 - body
 api_specs:
-- filename: invoca-sms-messaging-openapi.json
-  format: json
-  label: Invoca API
-  slug: invoca-api
+- filename: invoca-messages-api-openapi.yml
+  format: yaml
+  label: Invoca Messages API
+  slug: invoca-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/openapi/invoca-sms-messaging-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/openapi/invoca-messages-api-openapi.yml
+- filename: invoca-phone-numbers-api-openapi.yml
+  format: yaml
+  label: Invoca Phone Numbers API
+  slug: invoca-phone-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/openapi/invoca-phone-numbers-api-openapi.yml
 auth_types:
 - apiKey
 - http

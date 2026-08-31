@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: finditparts-reseller-api-openapi.yml
+- filename: finditparts-addresses-api-openapi.yml
   format: yaml
-  label: FinditParts Reseller API
-  slug: finditparts-reseller-api
+  label: FinditParts Addresses API
+  slug: finditparts-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-reseller-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-addresses-api-openapi.yml
+- filename: finditparts-carts-api-openapi.yml
+  format: yaml
+  label: FinditParts Carts API
+  slug: finditparts-carts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-carts-api-openapi.yml
+- filename: finditparts-orders-api-openapi.yml
+  format: yaml
+  label: FinditParts Orders API
+  slug: finditparts-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-orders-api-openapi.yml
+- filename: finditparts-partners-api-openapi.yml
+  format: yaml
+  label: FinditParts Partners API
+  slug: finditparts-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-partners-api-openapi.yml
+- filename: finditparts-products-api-openapi.yml
+  format: yaml
+  label: FinditParts Products API
+  slug: finditparts-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-products-api-openapi.yml
+- filename: finditparts-reseller-customer-sessions-api-openapi.yml
+  format: yaml
+  label: FinditParts Reseller Customer Sessions API
+  slug: finditparts-reseller-customer-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-reseller-customer-sessions-api-openapi.yml
+- filename: finditparts-reseller-customers-api-openapi.yml
+  format: yaml
+  label: FinditParts Reseller Customers API
+  slug: finditparts-reseller-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-reseller-customers-api-openapi.yml
+- filename: finditparts-sessions-api-openapi.yml
+  format: yaml
+  label: FinditParts Sessions API
+  slug: finditparts-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-sessions-api-openapi.yml
+- filename: finditparts-shipping-api-openapi.yml
+  format: yaml
+  label: FinditParts Shipping API
+  slug: finditparts-shipping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-shipping-api-openapi.yml
+- filename: finditparts-users-api-openapi.yml
+  format: yaml
+  label: FinditParts Users API
+  slug: finditparts-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-users-api-openapi.yml
+- filename: finditparts-variants-api-openapi.yml
+  format: yaml
+  label: FinditParts Variants API
+  slug: finditparts-variants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-variants-api-openapi.yml
 description: ''
 domains:
 - caa: []

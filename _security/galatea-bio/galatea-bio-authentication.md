@@ -2,12 +2,66 @@
 api_key_in:
 - header
 api_specs:
-- filename: galatea-bio-octopod-openapi.yml
+- filename: galatea-bio-auth-api-openapi.yml
   format: yaml
-  label: Octopod Ancestry API
-  slug: octopod-ancestry-api
+  label: Galatea Bio Auth API
+  slug: galatea-bio-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-octopod-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-auth-api-openapi.yml
+- filename: galatea-bio-credit-api-openapi.yml
+  format: yaml
+  label: Galatea Bio Credit API
+  slug: galatea-bio-credit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-credit-api-openapi.yml
+- filename: galatea-bio-dashboard-api-openapi.yml
+  format: yaml
+  label: Galatea Bio Dashboard API
+  slug: galatea-bio-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-dashboard-api-openapi.yml
+- filename: galatea-bio-data-api-openapi.yml
+  format: yaml
+  label: Galatea Bio Data API
+  slug: galatea-bio-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-data-api-openapi.yml
+- filename: galatea-bio-exec-api-openapi.yml
+  format: yaml
+  label: Galatea Bio Exec API
+  slug: galatea-bio-exec-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-exec-api-openapi.yml
+- filename: galatea-bio-internal-api-openapi.yml
+  format: yaml
+  label: Galatea Bio Internal API
+  slug: galatea-bio-internal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-internal-api-openapi.yml
+- filename: galatea-bio-notification-api-openapi.yml
+  format: yaml
+  label: Galatea Bio Notification API
+  slug: galatea-bio-notification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-notification-api-openapi.yml
+- filename: galatea-bio-organizations-api-openapi.yml
+  format: yaml
+  label: Galatea Bio Organizations API
+  slug: galatea-bio-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-organizations-api-openapi.yml
+- filename: galatea-bio-statistics-api-openapi.yml
+  format: yaml
+  label: Galatea Bio Statistics API
+  slug: galatea-bio-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-statistics-api-openapi.yml
+- filename: galatea-bio-users-api-openapi.yml
+  format: yaml
+  label: Galatea Bio Users API
+  slug: galatea-bio-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-users-api-openapi.yml
 auth_types:
 - apiKey
 - http-bearer

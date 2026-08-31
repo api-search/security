@@ -36,18 +36,18 @@ api_specs:
   slug: parallel-web-systems-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/parallel-web-systems/refs/heads/main/openapi/parallel-web-systems-tasks-api-openapi.yml
-- filename: parallel-web-systems-responses-api-openapi.yml
-  format: yaml
-  label: Parallel Web Systems Responses API
-  slug: parallel-web-systems-responses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-web-systems/refs/heads/main/openapi/parallel-web-systems-responses-api-openapi.yml
 - filename: parallel-web-systems-memory-api-openapi.yml
   format: yaml
   label: Parallel Web Systems Memory API (Beta)
   slug: parallel-web-systems-memory-api-beta
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/parallel-web-systems/refs/heads/main/openapi/parallel-web-systems-memory-api-openapi.yml
+- filename: parallel-web-systems-responses-api-api-openapi.yml
+  format: yaml
+  label: Parallel Web Systems Responses API
+  slug: parallel-web-systems-responses-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parallel-web-systems/refs/heads/main/openapi/parallel-web-systems-responses-api-api-openapi.yml
 certifications:
 - SOC 2 Type II
 description: ''

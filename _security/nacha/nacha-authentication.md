@@ -2,150 +2,120 @@
 api_key_in:
 - query
 api_specs:
-- filename: nacha-initiate-payment.json
-  format: json
-  label: Afinis Initiate ACH Payment API
-  slug: nacha-initiate-payment
+- filename: nacha-account-validation-api-openapi.yml
+  format: yaml
+  label: Nacha Account Validation API
+  slug: nacha-account-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-initiate-payment.json
-- filename: nacha-iar.json
-  format: json
-  label: Afinis International ACH Remittance (IAR) API
-  slug: nacha-iar
+  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-account-validation-api-openapi.yml
+- filename: nacha-accounts-api-openapi.yml
+  format: yaml
+  label: Nacha Accounts API
+  slug: nacha-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-iar.json
-- filename: nacha-iar-plus.json
-  format: json
-  label: Afinis IAR Plus API
-  slug: nacha-iar-plus
+  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-accounts-api-openapi.yml
+- filename: nacha-ach-payments-api-openapi.yml
+  format: yaml
+  label: Nacha ACH Payments API
+  slug: nacha-ach-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-iar-plus.json
-- filename: nacha-transaction-status.json
-  format: json
-  label: Afinis Transaction Status API
-  slug: nacha-transaction-status
+  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-ach-payments-api-openapi.yml
+- filename: nacha-ach-transaction-status-api-openapi.yml
+  format: yaml
+  label: Nacha ACH Transaction Status API
+  slug: nacha-ach-transaction-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-transaction-status.json
-- filename: nacha-initiate-wire-payment.json
-  format: json
-  label: Afinis Initiate Wire Payment API
-  slug: nacha-initiate-wire-payment
+  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-ach-transaction-status-api-openapi.yml
+- filename: nacha-authorize-to-pay-api-openapi.yml
+  format: yaml
+  label: Nacha Authorize to Pay API
+  slug: nacha-authorize-to-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-initiate-wire-payment.json
-- filename: nacha-get-wire-status.json
-  format: json
-  label: Afinis Get Wire Status API
-  slug: nacha-get-wire-status
+  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-authorize-to-pay-api-openapi.yml
+- filename: nacha-banks-api-openapi.yml
+  format: yaml
+  label: Nacha Banks API
+  slug: nacha-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-get-wire-status.json
-- filename: nacha-initiate-instant-payment.json
-  format: json
-  label: Afinis Initiate Instant Payment API (IIP)
-  slug: nacha-initiate-instant-payment
+  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-banks-api-openapi.yml
+- filename: nacha-expand-bank-contact-v2-api-openapi.yml
+  format: yaml
+  label: Nacha Expand Bank Contact V2 API
+  slug: nacha-expand-bank-contact-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-initiate-instant-payment.json
-- filename: nacha-instant-payment-transfer.json
-  format: json
-  label: Afinis Instant Payment Transfer API (IPT)
-  slug: nacha-instant-payment-transfer
+  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-expand-bank-contact-v2-api-openapi.yml
+- filename: nacha-get-corporate-account-balances-api-openapi.yml
+  format: yaml
+  label: Nacha Get Corporate Account Balances API
+  slug: nacha-get-corporate-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-instant-payment-transfer.json
-- filename: nacha-initiate-payment-api.json
-  format: json
-  label: Afinis Initiate Payment API
+  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-get-corporate-account-balances-api-openapi.yml
+- filename: nacha-get-corporate-transaction-history-api-openapi.yml
+  format: yaml
+  label: Nacha Get Corporate Transaction History API
+  slug: nacha-get-corporate-transaction-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-get-corporate-transaction-history-api-openapi.yml
+- filename: nacha-get-participants-profile-api-openapi.yml
+  format: yaml
+  label: Nacha Get Participants Profile API
+  slug: nacha-get-participants-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-get-participants-profile-api-openapi.yml
+- filename: nacha-initiate-payment-api-openapi.yml
+  format: yaml
+  label: Nacha Initiate Payment API
   slug: nacha-initiate-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-initiate-payment-api.json
-- filename: nacha-ret.json
-  format: json
-  label: Afinis Reporting ACH Return (RET) API
-  slug: nacha-ret
+  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-initiate-payment-api-openapi.yml
+- filename: nacha-instant-payment-api-openapi.yml
+  format: yaml
+  label: Nacha Instant Payment API
+  slug: nacha-instant-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-ret.json
-- filename: nacha-authorize-to-pay.json
-  format: json
-  label: Afinis Authorize to Pay (Debit Authorizations) API
-  slug: nacha-authorize-to-pay
+  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-instant-payment-api-openapi.yml
+- filename: nacha-instant-payment-transfer-api-openapi.yml
+  format: yaml
+  label: Nacha Instant Payment Transfer API
+  slug: nacha-instant-payment-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-authorize-to-pay.json
-- filename: nacha-pay-me.json
-  format: json
-  label: Afinis Pay Me API
-  slug: nacha-pay-me
+  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-instant-payment-transfer-api-openapi.yml
+- filename: nacha-international-ach-remittance-iar-api-openapi.yml
+  format: yaml
+  label: Nacha International ACH Remittance (IAR) API
+  slug: nacha-international-ach-remittance-iar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-pay-me.json
-- filename: nacha-account-validation.json
-  format: json
-  label: Afinis Account Validation API
-  slug: nacha-account-validation
+  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-international-ach-remittance-iar-api-openapi.yml
+- filename: nacha-proof-of-authorization-api-openapi.yml
+  format: yaml
+  label: Nacha Proof of Authorization API
+  slug: nacha-proof-of-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-account-validation.json
-- filename: nacha-account-validation-plus-name.json
-  format: json
-  label: Afinis Account Validation Plus Ownership (Name) API
-  slug: nacha-account-validation-plus-name
+  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-proof-of-authorization-api-openapi.yml
+- filename: nacha-reporting-ach-return-payments-api-openapi.yml
+  format: yaml
+  label: Nacha Reporting ACH Return Payments API
+  slug: nacha-reporting-ach-return-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-account-validation-plus-name.json
-- filename: nacha-account-validation-plus-name-ret.json
-  format: json
-  label: Afinis Account Validation Plus Name Plus Return API
-  slug: nacha-account-validation-plus-name-ret
+  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-reporting-ach-return-payments-api-openapi.yml
+- filename: nacha-route-billing-information-api-openapi.yml
+  format: yaml
+  label: Nacha Route Billing Information API
+  slug: nacha-route-billing-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-account-validation-plus-name-ret.json
-- filename: nacha-realtime-billing-account-validation.json
-  format: json
-  label: Afinis Real-Time Billing Account Validation API
-  slug: nacha-realtime-billing-account-validation
+  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-route-billing-information-api-openapi.yml
+- filename: nacha-wire-transfer-api-openapi.yml
+  format: yaml
+  label: Nacha Wire Transfer API
+  slug: nacha-wire-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-realtime-billing-account-validation.json
-- filename: nacha-corporate-account-balances.json
-  format: json
-  label: Afinis Get Corporate Account Balances API
-  slug: nacha-corporate-account-balances
+  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-wire-transfer-api-openapi.yml
+- filename: nacha-written-statement-of-unauthorized-debit-wsud-api-openapi.yml
+  format: yaml
+  label: Nacha Written Statement of Unauthorized Debit (WSUD) API
+  slug: nacha-written-statement-of-unauthorized-debit-wsud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-corporate-account-balances.json
-- filename: nacha-corporate-transaction-history.json
-  format: json
-  label: Afinis Get Corporate Transaction History API
-  slug: nacha-corporate-transaction-history
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-corporate-transaction-history.json
-- filename: nacha-corporate-transaction-detail.json
-  format: json
-  label: Afinis Get Transaction Detail API
-  slug: nacha-corporate-transaction-detail
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-corporate-transaction-detail.json
-- filename: nacha-payee-profile.json
-  format: json
-  label: Afinis Payee Profile API
-  slug: nacha-payee-profile
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-payee-profile.json
-- filename: nacha-wsud.json
-  format: json
-  label: Afinis Written Statement of Unauthorized Debit (WSUD) API
-  slug: nacha-wsud
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-wsud.json
-- filename: nacha-proof-of-authorization.json
-  format: json
-  label: Afinis Proof of Authorization API
-  slug: nacha-proof-of-authorization
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-proof-of-authorization.json
-- filename: nacha-bank-contacts.json
-  format: json
-  label: Afinis Bank Contacts API
-  slug: nacha-bank-contacts
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-bank-contacts.json
-- filename: nacha-bank-contact-v2.json
-  format: json
-  label: Afinis Bank Contact V2 API
-  slug: nacha-bank-contact-v2
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-bank-contact-v2.json
+  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-written-statement-of-unauthorized-debit-wsud-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

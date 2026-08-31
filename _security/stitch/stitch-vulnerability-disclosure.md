@@ -6,18 +6,6 @@ api_specs:
   slug: stitch-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stitch/refs/heads/main/openapi/stitch-authentication-api-openapi.yml
-- filename: stitch-disbursements-api-openapi.yml
-  format: yaml
-  label: Stitch Disbursements API
-  slug: stitch-disbursements-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stitch/refs/heads/main/openapi/stitch-disbursements-api-openapi.yml
-- filename: stitch-financial-data-api-openapi.yml
-  format: yaml
-  label: Stitch Financial Data API
-  slug: stitch-financial-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stitch/refs/heads/main/openapi/stitch-financial-data-api-openapi.yml
 - filename: stitch-payments-api-openapi.yml
   format: yaml
   label: Stitch Payments API

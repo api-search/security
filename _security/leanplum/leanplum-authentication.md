@@ -3,12 +3,6 @@ api_key_in:
 - query
 - body
 api_specs:
-- filename: leanplum-api-openapi.json
-  format: json
-  label: Leanplum API
-  slug: leanplum-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-api-openapi.json
 - filename: leanplum-a-b-tests-api-openapi.yml
   format: yaml
   label: Leanplum A/B Tests API
@@ -51,6 +45,48 @@ api_specs:
   slug: leanplum-user-device-attributes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-user-device-attributes-api-openapi.yml
+- filename: leanplum-campaigns-api-openapi.yml
+  format: yaml
+  label: Leanplum Campaigns API
+  slug: leanplum-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-campaigns-api-openapi.yml
+- filename: leanplum-export-data-api-openapi.yml
+  format: yaml
+  label: Leanplum Export Data API
+  slug: leanplum-export-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-export-data-api-openapi.yml
+- filename: leanplum-files-and-variables-api-openapi.yml
+  format: yaml
+  label: Leanplum Files and Variables API
+  slug: leanplum-files-and-variables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-files-and-variables-api-openapi.yml
+- filename: leanplum-import-data-api-openapi.yml
+  format: yaml
+  label: Leanplum Import Data API
+  slug: leanplum-import-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-import-data-api-openapi.yml
+- filename: leanplum-messages-api-openapi.yml
+  format: yaml
+  label: Leanplum Messages API
+  slug: leanplum-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-messages-api-openapi.yml
+- filename: leanplum-user-behavior-api-openapi.yml
+  format: yaml
+  label: Leanplum User Behavior API
+  slug: leanplum-user-behavior-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-user-behavior-api-openapi.yml
+- filename: leanplum-user-information-api-openapi.yml
+  format: yaml
+  label: Leanplum User Information API
+  slug: leanplum-user-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-user-information-api-openapi.yml
 auth_types:
 - apiKey
 description: Leanplum authenticates every request with two API-key parameters carried in the query string or the request body — an `appId` identifying the Leanplum app, and a `clientKey` whose CLASS determines which methods you may call. There is no OAuth, no OIDC, no bearer token, no signature scheme, and no Authorization header. Keys are long-lived and are read from the dashboard.

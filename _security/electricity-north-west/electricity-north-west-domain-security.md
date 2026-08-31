@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: electricity-north-west-explore-api-v2-1-openapi.json
-  format: json
-  label: SP Electricity North West Open Data Explore API v2.1
-  slug: explore-api-v2-1
+- filename: electricity-north-west-catalog-api-openapi.yml
+  format: yaml
+  label: Electricity North West Catalog API
+  slug: electricity-north-west-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricity-north-west/refs/heads/main/openapi/electricity-north-west-explore-api-v2-1-openapi.json
-- filename: electricity-north-west-explore-api-v2-0-openapi.json
-  format: json
-  label: SP Electricity North West Open Data Explore API v2.0
-  slug: explore-api-v2-0
+  url: https://raw.githubusercontent.com/api-evangelist/electricity-north-west/refs/heads/main/openapi/electricity-north-west-catalog-api-openapi.yml
+- filename: electricity-north-west-dataset-api-openapi.yml
+  format: yaml
+  label: Electricity North West Dataset API
+  slug: electricity-north-west-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricity-north-west/refs/heads/main/openapi/electricity-north-west-explore-api-v2-0-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/electricity-north-west/refs/heads/main/openapi/electricity-north-west-dataset-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: QRCodeCrafter API
-  slug: qrcodecrafter-api
+- filename: qr-code-crafter-dynamic-qr-api-openapi.yml
+  format: yaml
+  label: QR Code Crafter Dynamic Qr API
+  slug: qr-code-crafter-dynamic-qr-api
   spec_type: OpenAPI
-  url: https://qrcodecrafter.com/.well-known/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/qr-code-crafter/refs/heads/main/openapi/qr-code-crafter-dynamic-qr-api-openapi.yml
+- filename: qr-code-crafter-dynamic-qr-vaults-api-openapi.yml
+  format: yaml
+  label: QR Code Crafter Dynamic Qr Vaults API
+  slug: qr-code-crafter-dynamic-qr-vaults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qr-code-crafter/refs/heads/main/openapi/qr-code-crafter-dynamic-qr-vaults-api-openapi.yml
+- filename: qr-code-crafter-netlify-api-openapi.yml
+  format: yaml
+  label: QR Code Crafter .netlify API
+  slug: qr-code-crafter-netlify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qr-code-crafter/refs/heads/main/openapi/qr-code-crafter-netlify-api-openapi.yml
+- filename: qr-code-crafter-r-api-openapi.yml
+  format: yaml
+  label: QR Code Crafter R API
+  slug: qr-code-crafter-r-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qr-code-crafter/refs/heads/main/openapi/qr-code-crafter-r-api-openapi.yml
+- filename: qr-code-crafter-send-feedback-api-openapi.yml
+  format: yaml
+  label: QR Code Crafter Send Feedback API
+  slug: qr-code-crafter-send-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qr-code-crafter/refs/heads/main/openapi/qr-code-crafter-send-feedback-api-openapi.yml
 description: ''
 domains:
 - caa: []

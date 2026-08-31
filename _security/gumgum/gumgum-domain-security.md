@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: gumgum-contextual-api-openapi.yml
+- filename: gumgum-image-api-openapi.yml
   format: yaml
-  label: GumGum Contextual API
-  slug: gumgum-contextual-api
+  label: GumGum Image API
+  slug: gumgum-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/openapi/gumgum-contextual-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/openapi/gumgum-image-api-openapi.yml
+- filename: gumgum-intravideo-api-openapi.yml
+  format: yaml
+  label: GumGum Intravideo API
+  slug: gumgum-intravideo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/openapi/gumgum-intravideo-api-openapi.yml
+- filename: gumgum-page-api-openapi.yml
+  format: yaml
+  label: GumGum Page API
+  slug: gumgum-page-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/openapi/gumgum-page-api-openapi.yml
+- filename: gumgum-text-api-openapi.yml
+  format: yaml
+  label: GumGum Text API
+  slug: gumgum-text-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/openapi/gumgum-text-api-openapi.yml
+- filename: gumgum-video-api-openapi.yml
+  format: yaml
+  label: GumGum Video API
+  slug: gumgum-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/openapi/gumgum-video-api-openapi.yml
 description: ''
 domains:
 - caa: []

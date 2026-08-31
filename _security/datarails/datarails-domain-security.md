@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: datarails-financeos-mcp-openapi.json
-  format: json
-  label: Datarails FinanceOS MCP Server
-  slug: financeos-mcp
+- filename: datarails-health-api-openapi.yml
+  format: yaml
+  label: Datarails Health API
+  slug: datarails-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-financeos-mcp-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-health-api-openapi.yml
+- filename: datarails-oauth-api-openapi.yml
+  format: yaml
+  label: Datarails OAUTH API
+  slug: datarails-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-oauth-api-openapi.yml
+- filename: datarails-ready-api-openapi.yml
+  format: yaml
+  label: Datarails Ready API
+  slug: datarails-ready-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-ready-api-openapi.yml
+- filename: datarails-well-known-api-openapi.yml
+  format: yaml
+  label: Datarails .well Known API
+  slug: datarails-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-well-known-api-openapi.yml
 description: Transport and DNS security posture, probed directly. The application and API hosts are consistently strong (TLS 1.3, HSTS at 180 days); the marketing host ships no HSTS header at all, and the registrable domain has neither DNSSEC nor a CAA record. Email authentication is the strongest part of the posture — SPF with a hard fail and DMARC at p=reject.
 domains:
 - caa: []

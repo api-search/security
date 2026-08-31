@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: arbor-biotechnologies-content-openapi.yml
+- filename: arbor-biotechnologies-embed-api-openapi.yml
   format: yaml
-  label: Arbor Biotechnologies Content API (WordPress REST)
-  slug: arbor-biotechnologies-content-api
+  label: Arbor Biotechnologies Embed API
+  slug: arbor-biotechnologies-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arbor-biotechnologies/refs/heads/main/openapi/arbor-biotechnologies-content-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arbor-biotechnologies/refs/heads/main/openapi/arbor-biotechnologies-embed-api-openapi.yml
+- filename: arbor-biotechnologies-forms-api-openapi.yml
+  format: yaml
+  label: Arbor Biotechnologies Forms API
+  slug: arbor-biotechnologies-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arbor-biotechnologies/refs/heads/main/openapi/arbor-biotechnologies-forms-api-openapi.yml
+- filename: arbor-biotechnologies-media-api-openapi.yml
+  format: yaml
+  label: Arbor Biotechnologies Media API
+  slug: arbor-biotechnologies-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arbor-biotechnologies/refs/heads/main/openapi/arbor-biotechnologies-media-api-openapi.yml
+- filename: arbor-biotechnologies-metadata-api-openapi.yml
+  format: yaml
+  label: Arbor Biotechnologies Metadata API
+  slug: arbor-biotechnologies-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arbor-biotechnologies/refs/heads/main/openapi/arbor-biotechnologies-metadata-api-openapi.yml
+- filename: arbor-biotechnologies-pages-api-openapi.yml
+  format: yaml
+  label: Arbor Biotechnologies Pages API
+  slug: arbor-biotechnologies-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arbor-biotechnologies/refs/heads/main/openapi/arbor-biotechnologies-pages-api-openapi.yml
+- filename: arbor-biotechnologies-posts-api-openapi.yml
+  format: yaml
+  label: Arbor Biotechnologies Posts API
+  slug: arbor-biotechnologies-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arbor-biotechnologies/refs/heads/main/openapi/arbor-biotechnologies-posts-api-openapi.yml
+- filename: arbor-biotechnologies-search-api-openapi.yml
+  format: yaml
+  label: Arbor Biotechnologies Search API
+  slug: arbor-biotechnologies-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arbor-biotechnologies/refs/heads/main/openapi/arbor-biotechnologies-search-api-openapi.yml
+- filename: arbor-biotechnologies-taxonomies-api-openapi.yml
+  format: yaml
+  label: Arbor Biotechnologies Taxonomies API
+  slug: arbor-biotechnologies-taxonomies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arbor-biotechnologies/refs/heads/main/openapi/arbor-biotechnologies-taxonomies-api-openapi.yml
 auth_types:
 - http
 description: ''

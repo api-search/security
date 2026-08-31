@@ -47,8 +47,8 @@ name: Manhattan Associates Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials
-overview: manhattan-associates secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
-provider_name: manhattan-associates
+overview: Manhattan Associates secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
+provider_name: Manhattan Associates
 provider_slug: manhattan-associates
 scheme_count: 1
 schemes:

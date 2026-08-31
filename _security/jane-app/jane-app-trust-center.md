@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: jane-app-jdp-openapi.yml
+- filename: jane-app-appointments-api-openapi.yml
   format: yaml
-  label: Jane JDP API
-  slug: jane-app-jdp-openapi
+  label: Jane Appointments API
+  slug: jane-app-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-jdp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-appointments-api-openapi.yml
+- filename: jane-app-careplans-api-openapi.yml
+  format: yaml
+  label: Jane Care Plans API
+  slug: jane-app-careplans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-careplans-api-openapi.yml
+- filename: jane-app-catalog-api-openapi.yml
+  format: yaml
+  label: Jane Catalog API
+  slug: jane-app-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-catalog-api-openapi.yml
+- filename: jane-app-company-api-openapi.yml
+  format: yaml
+  label: Jane Company API
+  slug: jane-app-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-company-api-openapi.yml
+- filename: jane-app-disciplines-api-openapi.yml
+  format: yaml
+  label: Jane Disciplines API
+  slug: jane-app-disciplines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-disciplines-api-openapi.yml
+- filename: jane-app-documentuploads-api-openapi.yml
+  format: yaml
+  label: Jane Document Uploads API
+  slug: jane-app-documentuploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-documentuploads-api-openapi.yml
+- filename: jane-app-extensions-api-openapi.yml
+  format: yaml
+  label: Jane Extensions API
+  slug: jane-app-extensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-extensions-api-openapi.yml
+- filename: jane-app-locations-api-openapi.yml
+  format: yaml
+  label: Jane Locations API
+  slug: jane-app-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-locations-api-openapi.yml
+- filename: jane-app-medications-api-openapi.yml
+  format: yaml
+  label: Jane Medications API
+  slug: jane-app-medications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-medications-api-openapi.yml
+- filename: jane-app-observations-api-openapi.yml
+  format: yaml
+  label: Jane Observations API
+  slug: jane-app-observations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-observations-api-openapi.yml
+- filename: jane-app-patients-api-openapi.yml
+  format: yaml
+  label: Jane Patients API
+  slug: jane-app-patients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-patients-api-openapi.yml
+- filename: jane-app-staffmembers-api-openapi.yml
+  format: yaml
+  label: Jane Staff Members API
+  slug: jane-app-staffmembers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-staffmembers-api-openapi.yml
+- filename: jane-app-treatments-api-openapi.yml
+  format: yaml
+  label: Jane Treatments API
+  slug: jane-app-treatments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-treatments-api-openapi.yml
+- filename: jane-app-webhooks-api-openapi.yml
+  format: yaml
+  label: Jane Webhooks API
+  slug: jane-app-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-webhooks-api-openapi.yml
 certifications:
 - SOC 2
 - PCI DSS

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: obie-open-data-api-standard-v1.3-swagger.json
-  format: json
-  label: Metro Bank Open Data API
-  slug: metro-bank-open-data-api
+- filename: metro-bank-atm-api-openapi.yml
+  format: yaml
+  label: Metro Bank ATM API
+  slug: metro-bank-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/openapi/obie-open-data-api-standard-v1.3-swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/openapi/metro-bank-atm-api-openapi.yml
+- filename: metro-bank-bca-api-openapi.yml
+  format: yaml
+  label: Metro Bank BCA API
+  slug: metro-bank-bca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/openapi/metro-bank-bca-api-openapi.yml
+- filename: metro-bank-branch-api-openapi.yml
+  format: yaml
+  label: Metro Bank Branch API
+  slug: metro-bank-branch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/openapi/metro-bank-branch-api-openapi.yml
+- filename: metro-bank-ccc-api-openapi.yml
+  format: yaml
+  label: Metro Bank CCC API
+  slug: metro-bank-ccc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/openapi/metro-bank-ccc-api-openapi.yml
+- filename: metro-bank-pca-api-openapi.yml
+  format: yaml
+  label: Metro Bank PCA API
+  slug: metro-bank-pca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/openapi/metro-bank-pca-api-openapi.yml
+- filename: metro-bank-sme-api-openapi.yml
+  format: yaml
+  label: Metro Bank SME API
+  slug: metro-bank-sme-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/openapi/metro-bank-sme-api-openapi.yml
 description: ''
 domains:
 - caa: []

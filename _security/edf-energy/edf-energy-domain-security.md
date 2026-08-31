@@ -1,17 +1,53 @@
 ---
 api_specs:
-- filename: edf-energy-kraken-openapi.yml
+- filename: edf-energy-account-import-api-openapi.yml
   format: yaml
-  label: EDF Kraken REST API
-  slug: edf-kraken-rest-api
+  label: EDF Energy Account Import API
+  slug: edf-energy-account-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-kraken-openapi.yml
-- filename: edf-energy-kraken-data-import-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-account-import-api-openapi.yml
+- filename: edf-energy-data-import-api-openapi.yml
   format: yaml
-  label: EDF Kraken Customer Migration (Data Import) API
-  slug: edf-kraken-customer-migration-api
+  label: EDF Energy Data Import API
+  slug: edf-energy-data-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-kraken-data-import-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-data-import-api-openapi.yml
+- filename: edf-energy-external-client-healthcheck-api-openapi.yml
+  format: yaml
+  label: EDF Energy External Client Healthcheck API
+  slug: edf-energy-external-client-healthcheck-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-external-client-healthcheck-api-openapi.yml
+- filename: edf-energy-external-events-api-openapi.yml
+  format: yaml
+  label: EDF Energy External Events API
+  slug: edf-energy-external-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-external-events-api-openapi.yml
+- filename: edf-energy-post-account-import-api-openapi.yml
+  format: yaml
+  label: EDF Energy Post Account Import API
+  slug: edf-energy-post-account-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-post-account-import-api-openapi.yml
+- filename: edf-energy-query-api-openapi.yml
+  format: yaml
+  label: EDF Energy Query API
+  slug: edf-energy-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-query-api-openapi.yml
+- filename: edf-energy-v1-api-openapi.yml
+  format: yaml
+  label: EDF Energy V1 API
+  slug: edf-energy-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-v1-api-openapi.yml
+- filename: edf-energy-v2-api-openapi.yml
+  format: yaml
+  label: EDF Energy V2 API
+  slug: edf-energy-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-v2-api-openapi.yml
 description: ''
 domains:
 - caa:

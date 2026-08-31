@@ -1,30 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: alphaloops-fmcsa-carrier-data-api-carriers-api-openapi.yml
+- filename: alphaloops-carriers-api-openapi.yml
   format: yaml
   label: AlphaLoops FMCSA Carrier Data API Carriers API
-  slug: alphaloops-fmcsa-carrier-data-api-carriers-api
+  slug: alphaloops-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaloops/refs/heads/main/openapi/alphaloops-fmcsa-carrier-data-api-carriers-api-openapi.yml
-- filename: alphaloops-fmcsa-carrier-data-api-contacts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alphaloops/refs/heads/main/openapi/alphaloops-carriers-api-openapi.yml
+- filename: alphaloops-contacts-api-openapi.yml
   format: yaml
   label: AlphaLoops FMCSA Carrier Data API Contacts API
-  slug: alphaloops-fmcsa-carrier-data-api-contacts-api
+  slug: alphaloops-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaloops/refs/heads/main/openapi/alphaloops-fmcsa-carrier-data-api-contacts-api-openapi.yml
-- filename: alphaloops-fmcsa-carrier-data-api-inspections-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alphaloops/refs/heads/main/openapi/alphaloops-contacts-api-openapi.yml
+- filename: alphaloops-inspections-api-openapi.yml
   format: yaml
   label: AlphaLoops FMCSA Carrier Data API Inspections API
-  slug: alphaloops-fmcsa-carrier-data-api-inspections-api
+  slug: alphaloops-inspections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaloops/refs/heads/main/openapi/alphaloops-fmcsa-carrier-data-api-inspections-api-openapi.yml
-- filename: alphaloops-fmcsa-carrier-data-api-vins-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alphaloops/refs/heads/main/openapi/alphaloops-inspections-api-openapi.yml
+- filename: alphaloops-vins-api-openapi.yml
   format: yaml
   label: AlphaLoops FMCSA Carrier Data API Vins API
-  slug: alphaloops-fmcsa-carrier-data-api-vins-api
+  slug: alphaloops-vins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaloops/refs/heads/main/openapi/alphaloops-fmcsa-carrier-data-api-vins-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alphaloops/refs/heads/main/openapi/alphaloops-vins-api-openapi.yml
 auth_types:
 - http
 description: ''

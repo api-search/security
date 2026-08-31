@@ -66,6 +66,18 @@ api_specs:
   slug: ripio-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-wallets-api-openapi.yml
+- filename: ripio-websocket-api-api-openapi.yml
+  format: yaml
+  label: Ripio WebSocket API
+  slug: ripio-websocket-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-websocket-api-api-openapi.yml
+- filename: ripio-websocket-stream-api-openapi.yml
+  format: yaml
+  label: Ripio WebSocket Stream API
+  slug: ripio-websocket-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-websocket-stream-api-openapi.yml
 certifications:
 - SOC 2 Type II
 description: ''

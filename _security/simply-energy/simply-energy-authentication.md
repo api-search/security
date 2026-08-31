@@ -1,24 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: simply-energy-cds-energy-openapi.yml
+- filename: simply-energy-data-holder-customers-api-openapi.yml
   format: yaml
-  label: Simply Energy (ENGIE) CDR Energy Generic Plans API
-  slug: simply-energy-cdr-energy-generic-plans-api
+  label: Simply Energy Data Holder Customers API
+  slug: simply-energy-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-cds-energy-openapi.yml
-- filename: simply-energy-cds-common-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-data-holder-customers-api-openapi.yml
+- filename: simply-energy-data-holder-operations-api-openapi.yml
   format: yaml
-  label: Simply Energy (ENGIE) CDR Discovery API
-  slug: simply-energy-cdr-discovery-api
+  label: Simply Energy Data Holder Operations API
+  slug: simply-energy-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-cds-common-openapi.yml
-- filename: simply-energy-cds-energy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-data-holder-operations-api-openapi.yml
+- filename: simply-energy-distributed-energy-resources-api-openapi.yml
   format: yaml
-  label: Simply Energy (ENGIE) CDR Energy Consumer Data API
-  slug: simply-energy-cdr-energy-consumer-data-api
+  label: Simply Energy Distributed Energy Resources API
+  slug: simply-energy-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-cds-energy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-distributed-energy-resources-api-openapi.yml
+- filename: simply-energy-electricity-service-points-api-openapi.yml
+  format: yaml
+  label: Simply Energy Electricity Service Points API
+  slug: simply-energy-electricity-service-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-electricity-service-points-api-openapi.yml
+- filename: simply-energy-electricity-usage-api-openapi.yml
+  format: yaml
+  label: Simply Energy Electricity Usage API
+  slug: simply-energy-electricity-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-electricity-usage-api-openapi.yml
+- filename: simply-energy-energy-account-balances-api-openapi.yml
+  format: yaml
+  label: Simply Energy Energy Account Balances API
+  slug: simply-energy-energy-account-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-energy-account-balances-api-openapi.yml
+- filename: simply-energy-energy-account-billing-api-openapi.yml
+  format: yaml
+  label: Simply Energy Energy Account Billing API
+  slug: simply-energy-energy-account-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-energy-account-billing-api-openapi.yml
+- filename: simply-energy-energy-accounts-api-openapi.yml
+  format: yaml
+  label: Simply Energy Energy Accounts API
+  slug: simply-energy-energy-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-energy-accounts-api-openapi.yml
+- filename: simply-energy-energy-plans-api-openapi.yml
+  format: yaml
+  label: Simply Energy Energy Plans API
+  slug: simply-energy-energy-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-energy-plans-api-openapi.yml
 auth_types:
 - none
 - oauth2

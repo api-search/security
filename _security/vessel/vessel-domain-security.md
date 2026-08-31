@@ -1,125 +1,227 @@
 ---
 api_specs:
-- filename: vessel-platform-openapi.yml
+- filename: vessel-accounts-api-openapi.yml
   format: yaml
-  label: Vessel Platform API
-  slug: platform-api
+  label: Vessel Accounts API
+  slug: vessel-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-platform-openapi.yml
-- filename: vessel-crm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-accounts-api-openapi.yml
+- filename: vessel-actions-api-openapi.yml
   format: yaml
-  label: Vessel CRM Unified API
-  slug: crm-unified-api
+  label: Vessel Actions API
+  slug: vessel-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-crm-openapi.yml
-- filename: vessel-engagement-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-actions-api-openapi.yml
+- filename: vessel-attendees-api-openapi.yml
   format: yaml
-  label: Vessel Sales Engagement Unified API
-  slug: engagement-unified-api
+  label: Vessel Attendees API
+  slug: vessel-attendees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-engagement-openapi.yml
-- filename: vessel-chat-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-attendees-api-openapi.yml
+- filename: vessel-auth-api-openapi.yml
   format: yaml
-  label: Vessel Chat Unified API
-  slug: chat-unified-api
+  label: Vessel Auth API
+  slug: vessel-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-chat-openapi.yml
-- filename: vessel-dialer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-auth-api-openapi.yml
+- filename: vessel-connection-api-openapi.yml
   format: yaml
-  label: Vessel Dialer Unified API
-  slug: dialer-unified-api
+  label: Vessel Connection API
+  slug: vessel-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-dialer-openapi.yml
-- filename: vessel-marketing-automation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-connection-api-openapi.yml
+- filename: vessel-connections-api-openapi.yml
   format: yaml
-  label: Vessel Marketing Automation Unified API
-  slug: marketing-automation-unified-api
+  label: Vessel Connections API
+  slug: vessel-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-marketing-automation-openapi.yml
-- filename: vessel-crm-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-connections-api-openapi.yml
+- filename: vessel-contactcustomfields-api-openapi.yml
   format: yaml
-  label: Vessel CRM API (v1, legacy)
-  slug: crm-api-v1
+  label: Vessel Contact Custom Fields API
+  slug: vessel-contactcustomfields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-crm-v1-openapi.yml
-- filename: vessel-engagement-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-contactcustomfields-api-openapi.yml
+- filename: vessel-contacts-api-openapi.yml
   format: yaml
-  label: Vessel Engagement API (v1, legacy)
-  slug: engagement-api-v1
+  label: Vessel Contacts API
+  slug: vessel-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-engagement-v1-openapi.yml
-- filename: vessel-salesforce-actions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-contacts-api-openapi.yml
+- filename: vessel-crm-api-openapi.yml
   format: yaml
-  label: Vessel Salesforce Actions API
-  slug: salesforce-actions-api
+  label: Vessel CRM API
+  slug: vessel-crm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-salesforce-actions-openapi.yml
-- filename: vessel-slack-actions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-crm-api-openapi.yml
+- filename: vessel-deals-api-openapi.yml
   format: yaml
-  label: Vessel Slack Actions API
-  slug: slack-actions-api
+  label: Vessel Deals API
+  slug: vessel-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-slack-actions-openapi.yml
-- filename: vessel-teams-actions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-deals-api-openapi.yml
+- filename: vessel-emails-api-openapi.yml
   format: yaml
-  label: Vessel Microsoft Teams Actions API
-  slug: teams-actions-api
+  label: Vessel Emails API
+  slug: vessel-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-teams-actions-openapi.yml
-- filename: vessel-outreach-actions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-emails-api-openapi.yml
+- filename: vessel-engaccounts-api-openapi.yml
   format: yaml
-  label: Vessel Outreach Actions API
-  slug: outreach-actions-api
+  label: Vessel Eng Accounts API
+  slug: vessel-engaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-outreach-actions-openapi.yml
-- filename: vessel-salesloft-actions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-engaccounts-api-openapi.yml
+- filename: vessel-engaccountss-api-openapi.yml
   format: yaml
-  label: Vessel Salesloft Actions API
-  slug: salesloft-actions-api
+  label: Vessel Eng Accountss API
+  slug: vessel-engaccountss-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-salesloft-actions-openapi.yml
-- filename: vessel-apollo-actions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-engaccountss-api-openapi.yml
+- filename: vessel-engactions-api-openapi.yml
   format: yaml
-  label: Vessel Apollo Actions API
-  slug: apollo-actions-api
+  label: Vessel Eng Actions API
+  slug: vessel-engactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-apollo-actions-openapi.yml
-- filename: vessel-aircall-actions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-engactions-api-openapi.yml
+- filename: vessel-engcalls-api-openapi.yml
   format: yaml
-  label: Vessel Aircall Actions API
-  slug: aircall-actions-api
+  label: Vessel Eng Calls API
+  slug: vessel-engcalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-aircall-actions-openapi.yml
-- filename: vessel-dialpad-actions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-engcalls-api-openapi.yml
+- filename: vessel-engcontacts-api-openapi.yml
   format: yaml
-  label: Vessel Dialpad Actions API
-  slug: dialpad-actions-api
+  label: Vessel Eng Contacts API
+  slug: vessel-engcontacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-dialpad-actions-openapi.yml
-- filename: vessel-ringcentral-actions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-engcontacts-api-openapi.yml
+- filename: vessel-engcustomfields-api-openapi.yml
   format: yaml
-  label: Vessel RingCentral Actions API
-  slug: ringcentral-actions-api
+  label: Vessel Eng Custom Fields API
+  slug: vessel-engcustomfields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-ringcentral-actions-openapi.yml
-- filename: vessel-mailchimp-actions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-engcustomfields-api-openapi.yml
+- filename: vessel-engdispositions-api-openapi.yml
   format: yaml
-  label: Vessel Mailchimp Actions API
-  slug: mailchimp-actions-api
+  label: Vessel Eng Dispositions API
+  slug: vessel-engdispositions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-mailchimp-actions-openapi.yml
-- filename: vessel-activecampaign-actions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-engdispositions-api-openapi.yml
+- filename: vessel-engemails-api-openapi.yml
   format: yaml
-  label: Vessel ActiveCampaign Actions API
-  slug: activecampaign-actions-api
+  label: Vessel Eng Emails API
+  slug: vessel-engemails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-activecampaign-actions-openapi.yml
-- filename: vessel-monday-actions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-engemails-api-openapi.yml
+- filename: vessel-engmailboxes-api-openapi.yml
   format: yaml
-  label: Vessel monday.com Actions API
-  slug: monday-actions-api
+  label: Vessel Eng Mailboxes API
+  slug: vessel-engmailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-monday-actions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-engmailboxes-api-openapi.yml
+- filename: vessel-engpassthrough-api-openapi.yml
+  format: yaml
+  label: Vessel Eng Passthrough API
+  slug: vessel-engpassthrough-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-engpassthrough-api-openapi.yml
+- filename: vessel-engsequences-api-openapi.yml
+  format: yaml
+  label: Vessel Eng Sequences API
+  slug: vessel-engsequences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-engsequences-api-openapi.yml
+- filename: vessel-engtasks-api-openapi.yml
+  format: yaml
+  label: Vessel Eng Tasks API
+  slug: vessel-engtasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-engtasks-api-openapi.yml
+- filename: vessel-engusers-api-openapi.yml
+  format: yaml
+  label: Vessel Eng Users API
+  slug: vessel-engusers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-engusers-api-openapi.yml
+- filename: vessel-events-api-openapi.yml
+  format: yaml
+  label: Vessel Events API
+  slug: vessel-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-events-api-openapi.yml
+- filename: vessel-integrations-api-openapi.yml
+  format: yaml
+  label: Vessel Integrations API
+  slug: vessel-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-integrations-api-openapi.yml
+- filename: vessel-leadcustomfields-api-openapi.yml
+  format: yaml
+  label: Vessel Lead Custom Fields API
+  slug: vessel-leadcustomfields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-leadcustomfields-api-openapi.yml
+- filename: vessel-leads-api-openapi.yml
+  format: yaml
+  label: Vessel Leads API
+  slug: vessel-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-leads-api-openapi.yml
+- filename: vessel-links-api-openapi.yml
+  format: yaml
+  label: Vessel Links API
+  slug: vessel-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-links-api-openapi.yml
+- filename: vessel-lists-api-openapi.yml
+  format: yaml
+  label: Vessel Lists API
+  slug: vessel-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-lists-api-openapi.yml
+- filename: vessel-notes-api-openapi.yml
+  format: yaml
+  label: Vessel Notes API
+  slug: vessel-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-notes-api-openapi.yml
+- filename: vessel-passthrough-api-openapi.yml
+  format: yaml
+  label: Vessel Passthrough API
+  slug: vessel-passthrough-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-passthrough-api-openapi.yml
+- filename: vessel-tasks-api-openapi.yml
+  format: yaml
+  label: Vessel Tasks API
+  slug: vessel-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-tasks-api-openapi.yml
+- filename: vessel-tokens-api-openapi.yml
+  format: yaml
+  label: Vessel Tokens API
+  slug: vessel-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-tokens-api-openapi.yml
+- filename: vessel-unifications-api-openapi.yml
+  format: yaml
+  label: Vessel Unifications API
+  slug: vessel-unifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-unifications-api-openapi.yml
+- filename: vessel-users-api-openapi.yml
+  format: yaml
+  label: Vessel Users API
+  slug: vessel-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-users-api-openapi.yml
+- filename: vessel-webhooks-api-openapi.yml
+  format: yaml
+  label: Vessel Webhooks API
+  slug: vessel-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

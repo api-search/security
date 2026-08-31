@@ -2,42 +2,72 @@
 api_key_in:
 - header
 api_specs:
-- filename: solera-dashboard-assignment-openapi.json
-  format: json
-  label: Solera Dashboard Assignment API
-  slug: solera-dashboard-assignment-api
+- filename: solera-assignment-api-openapi.yml
+  format: yaml
+  label: Solera Assignment API
+  slug: solera-assignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-dashboard-assignment-openapi.json
-- filename: solera-claim-images-openapi.json
-  format: json
-  label: Solera ClaimImages API
-  slug: solera-claim-images-api
+  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-assignment-api-openapi.yml
+- filename: solera-estimatereturn-api-openapi.yml
+  format: yaml
+  label: Solera Estimate Return API
+  slug: solera-estimatereturn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-claim-images-openapi.json
-- filename: solera-gic-integration-openapi.json
-  format: json
-  label: Solera EAPI GIC Integration API
-  slug: solera-gic-integration-api
+  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-estimatereturn-api-openapi.yml
+- filename: solera-getclaimimageresponse-api-openapi.yml
+  format: yaml
+  label: Solera Get Claim Image Response API
+  slug: solera-getclaimimageresponse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-gic-integration-openapi.json
-- filename: solera-getdocuments-v1-openapi.json
-  format: json
-  label: Audatex GetDocuments API
+  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-getclaimimageresponse-api-openapi.yml
+- filename: solera-getdocument-api-openapi.yml
+  format: yaml
+  label: Solera Get Document API
+  slug: solera-getdocument-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-getdocument-api-openapi.yml
+- filename: solera-getdocuments-api-openapi.yml
+  format: yaml
+  label: Solera Get Documents API
   slug: solera-getdocuments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-getdocuments-v1-openapi.json
-- filename: solera-getimage-v1-openapi.json
-  format: json
-  label: Audatex Assignment Get Document API (GetImage)
+  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-getdocuments-api-openapi.yml
+- filename: solera-getimage-api-openapi.yml
+  format: yaml
+  label: Solera Get Image API
   slug: solera-getimage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-getimage-v1-openapi.json
-- filename: solera-eapi-getdocument-openapi.json
-  format: json
-  label: Solera EAPI Get Document API
-  slug: solera-eapi-getdocument-api
+  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-getimage-api-openapi.yml
+- filename: solera-getvaluation-api-openapi.yml
+  format: yaml
+  label: Solera Get Valuation API
+  slug: solera-getvaluation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-eapi-getdocument-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-getvaluation-api-openapi.yml
+- filename: solera-getvaluationresponse-api-openapi.yml
+  format: yaml
+  label: Solera Get Valuation Response API
+  slug: solera-getvaluationresponse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-getvaluationresponse-api-openapi.yml
+- filename: solera-gicintegration-api-openapi.yml
+  format: yaml
+  label: Solera GIC Integration API
+  slug: solera-gicintegration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-gicintegration-api-openapi.yml
+- filename: solera-valuationreturn-api-openapi.yml
+  format: yaml
+  label: Solera Valuation Return API
+  slug: solera-valuationreturn-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-valuationreturn-api-openapi.yml
+- filename: solera-version-api-openapi.yml
+  format: yaml
+  label: Solera Version API
+  slug: solera-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-version-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: hku-identity-openapi.yml
+- filename: hku-discovery-api-openapi.yml
   format: yaml
-  label: HKU AD FS OAuth 2.0 / OpenID Connect Issuer
-  slug: adfs-oidc
+  label: University of Hong Kong Discovery API
+  slug: hku-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-identity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-discovery-api-openapi.yml
+- filename: hku-oauth-api-openapi.yml
+  format: yaml
+  label: University of Hong Kong O Auth API
+  slug: hku-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-oauth-api-openapi.yml
 description: ''
 domains:
 - caa:

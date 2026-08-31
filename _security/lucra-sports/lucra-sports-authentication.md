@@ -2,12 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: lucra-sports-forge-openapi.json
-  format: json
-  label: Lucra Forge API
-  slug: lucra-sports-forge-api
+- filename: lucra-sports-health-api-openapi.yml
+  format: yaml
+  label: Lucra Sports Health API
+  slug: lucra-sports-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucra-sports/refs/heads/main/openapi/lucra-sports-forge-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/lucra-sports/refs/heads/main/openapi/lucra-sports-health-api-openapi.yml
+- filename: lucra-sports-locations-api-openapi.yml
+  format: yaml
+  label: Lucra Sports Locations API
+  slug: lucra-sports-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucra-sports/refs/heads/main/openapi/lucra-sports-locations-api-openapi.yml
+- filename: lucra-sports-recreational-games-api-openapi.yml
+  format: yaml
+  label: Lucra Sports Recreational Games API
+  slug: lucra-sports-recreational-games-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucra-sports/refs/heads/main/openapi/lucra-sports-recreational-games-api-openapi.yml
+- filename: lucra-sports-states-api-openapi.yml
+  format: yaml
+  label: Lucra Sports States API
+  slug: lucra-sports-states-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucra-sports/refs/heads/main/openapi/lucra-sports-states-api-openapi.yml
+- filename: lucra-sports-tenanttaggroups-api-openapi.yml
+  format: yaml
+  label: Lucra Sports Tenant Tag Groups API
+  slug: lucra-sports-tenanttaggroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucra-sports/refs/heads/main/openapi/lucra-sports-tenanttaggroups-api-openapi.yml
+- filename: lucra-sports-tournaments-api-openapi.yml
+  format: yaml
+  label: Lucra Sports Tournaments API
+  slug: lucra-sports-tournaments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucra-sports/refs/heads/main/openapi/lucra-sports-tournaments-api-openapi.yml
+- filename: lucra-sports-tournaments-legacy-api-openapi.yml
+  format: yaml
+  label: Lucra Sports Tournaments (Legacy) API
+  slug: lucra-sports-tournaments-legacy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucra-sports/refs/heads/main/openapi/lucra-sports-tournaments-legacy-api-openapi.yml
+- filename: lucra-sports-user-score-api-openapi.yml
+  format: yaml
+  label: Lucra Sports User Score API
+  slug: lucra-sports-user-score-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucra-sports/refs/heads/main/openapi/lucra-sports-user-score-api-openapi.yml
+- filename: lucra-sports-webhooks-api-openapi.yml
+  format: yaml
+  label: Lucra Sports Webhooks API
+  slug: lucra-sports-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucra-sports/refs/heads/main/openapi/lucra-sports-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

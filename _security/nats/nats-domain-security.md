@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: nats-monitoring-api-openapi.yml
-  format: yaml
-  label: NATS Monitoring API
-  slug: nats-monitoring-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-monitoring-api-openapi.yml
 - filename: nats-messaging-asyncapi.yml
   format: yaml
   label: NATS Messaging API
@@ -78,6 +72,12 @@ api_specs:
   slug: nats-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-subscriptions-api-openapi.yml
+- filename: nats-monitoring-api-openapi.yml
+  format: yaml
+  label: NATS Monitoring API
+  slug: nats-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-monitoring-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -60,8 +60,8 @@ layout: security
 method: probed
 name: Regal Entertainment Group Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for regal-entertainment-group, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: regal-entertainment-group
+overview: 'Domain security posture for Regal Entertainment Group, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Regal Entertainment Group
 provider_slug: regal-entertainment-group
 slug: regal-entertainment-group-domain-security
 source_filename: regal-entertainment-group-domain-security.yml

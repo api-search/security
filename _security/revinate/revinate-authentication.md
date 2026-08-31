@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: revinate-porter-openapi.yml
+- filename: revinate-hotel-sets-api-openapi.yml
   format: yaml
-  label: Revinate Porter API
-  slug: porter
+  label: Revinate Hotel Sets API
+  slug: revinate-hotel-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revinate/refs/heads/main/openapi/revinate-porter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/revinate/refs/heads/main/openapi/revinate-hotel-sets-api-openapi.yml
+- filename: revinate-hotels-api-openapi.yml
+  format: yaml
+  label: Revinate Hotels API
+  slug: revinate-hotels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revinate/refs/heads/main/openapi/revinate-hotels-api-openapi.yml
+- filename: revinate-languages-api-openapi.yml
+  format: yaml
+  label: Revinate Languages API
+  slug: revinate-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revinate/refs/heads/main/openapi/revinate-languages-api-openapi.yml
+- filename: revinate-review-sites-api-openapi.yml
+  format: yaml
+  label: Revinate Review Sites API
+  slug: revinate-review-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revinate/refs/heads/main/openapi/revinate-review-sites-api-openapi.yml
+- filename: revinate-reviews-api-openapi.yml
+  format: yaml
+  label: Revinate Reviews API
+  slug: revinate-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revinate/refs/heads/main/openapi/revinate-reviews-api-openapi.yml
+- filename: revinate-widget-reviews-api-openapi.yml
+  format: yaml
+  label: Revinate Widget Reviews API
+  slug: revinate-widget-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revinate/refs/heads/main/openapi/revinate-widget-reviews-api-openapi.yml
 auth_types:
 - apiKey
 - openIdConnect

@@ -143,8 +143,8 @@ layout: security
 method: probed
 name: Token Io Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for token-io, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: token-io
+overview: 'Domain security posture for Token.io, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Token.io
 provider_slug: token-io
 slug: token-io-domain-security
 source_filename: token-io-domain-security.yml

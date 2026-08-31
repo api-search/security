@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: chargefox-fleets-api-openapi.json
-  format: json
+- filename: chargefox-fleets-api-openapi.yml
+  format: yaml
   label: Chargefox Fleets API
   slug: chargefox-fleets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/openapi/chargefox-fleets-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/openapi/chargefox-fleets-api-openapi.yml
 certifications: []
 description: 'Chargefox operates a public Trust Center at trust.chargefox.com, hosted on Vanta''s Australian instance (app.aus.vanta.com). Verified live on 2026-07-27: the page returns 200, carries `<link rel="canonical" href="https://trust.chargefox.com">`, the title "Chargefox Trust Center" and an og:description written by Chargefox describing the company and platform. The page body is rendered client-side from Vanta''s trust-report bundle, so the framework list, control set and document library are not readable anonymously by a non-JS client — they are not asserted here. No named certification could be verified without executing the page, and none is claimed in this artifact.'
 kind: trust-center

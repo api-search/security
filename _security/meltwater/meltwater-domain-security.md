@@ -72,12 +72,24 @@ api_specs:
   slug: meltwater-owned-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-owned-analytics-api-openapi.yml
-- filename: meltwater-api-v4-openapi.yml
+- filename: meltwater-analyze-api-openapi.yml
   format: yaml
-  label: Meltwater API v4
-  slug: meltwater-api-v4
+  label: Meltwater Analyze API
+  slug: meltwater-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-api-v4-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-analyze-api-openapi.yml
+- filename: meltwater-export-api-openapi.yml
+  format: yaml
+  label: Meltwater Export API
+  slug: meltwater-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-export-api-openapi.yml
+- filename: meltwater-llm-api-openapi.yml
+  format: yaml
+  label: Meltwater LLM API
+  slug: meltwater-llm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-llm-api-openapi.yml
 description: ''
 domains:
 - caa: []

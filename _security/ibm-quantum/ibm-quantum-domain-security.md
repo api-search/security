@@ -86,8 +86,8 @@ layout: security
 method: probed
 name: Ibm Quantum Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for ibm-quantum, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: ibm-quantum
+overview: 'Domain security posture for IBM Quantum, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: IBM Quantum
 provider_slug: ibm-quantum
 slug: ibm-quantum-domain-security
 source_filename: ibm-quantum-domain-security.yml

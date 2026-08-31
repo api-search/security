@@ -7,6 +7,12 @@ api_specs:
   slug: events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/openapi/knotch-events-api-openapi.yml
+- filename: knotch-health-api-openapi.yml
+  format: yaml
+  label: Knotch Health API
+  slug: knotch-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/openapi/knotch-health-api-openapi.yml
 auth_types:
 - http
 description: ''

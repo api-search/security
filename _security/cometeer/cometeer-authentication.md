@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: cometeer-storefront-openapi.yml
+- filename: cometeer-collections-api-openapi.yml
   format: yaml
-  label: Cometeer Storefront (read-only)
-  slug: storefront
+  label: Cometeer Collections API
+  slug: cometeer-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cometeer/refs/heads/main/openapi/cometeer-storefront-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cometeer/refs/heads/main/openapi/cometeer-collections-api-openapi.yml
+- filename: cometeer-products-api-openapi.yml
+  format: yaml
+  label: Cometeer Products API
+  slug: cometeer-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cometeer/refs/heads/main/openapi/cometeer-products-api-openapi.yml
+- filename: cometeer-search-api-openapi.yml
+  format: yaml
+  label: Cometeer Search API
+  slug: cometeer-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cometeer/refs/heads/main/openapi/cometeer-search-api-openapi.yml
 auth_types:
 - none
 - openIdConnect

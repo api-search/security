@@ -15,18 +15,6 @@ api_specs:
   slug: xoserve-supplier-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/openapi/xoserve-supplier-api-openapi.yml
-- filename: xoserve-meter-asset-api-v1-openapi.yml
-  format: yaml
-  label: Xoserve Meter Asset (Xoserve Meter Asset Api V1)
-  slug: xoserve-meter-asset-api-v1-openapi
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/openapi/xoserve-meter-asset-api-v1-openapi.yml
-- filename: xoserve-meter-asset-api-v2-openapi.yml
-  format: yaml
-  label: Xoserve Meter Asset (Xoserve Meter Asset Api V2)
-  slug: xoserve-meter-asset-api-v2-openapi
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/openapi/xoserve-meter-asset-api-v2-openapi.yml
 auth_types:
 - apiKey
 description: 'A single auth model across the whole estate: an Azure API Management subscription key, passed either as the `APIKey` request header or as a `subscription-key` query parameter, over HTTPS only. There is no OAuth 2.0, no OpenID Connect, no mTLS and no consumer-consent grant of any kind — the portal reports empty oAuth2AuthenticationSettings and empty openidAuthenticationSettings for all four APIs, and /.well-known/openid-configuration returns 404 on every host. Prefer the header form so the secret does not leak into logs, referrers or browser history.'

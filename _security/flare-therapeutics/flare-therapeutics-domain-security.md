@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: flare-therapeutics-content-openapi.yml
+- filename: flare-therapeutics-comments-api-openapi.yml
   format: yaml
-  label: Flare Therapeutics Content API
-  slug: flare-therapeutics-content-api
+  label: Flare Therapeutics Comments API
+  slug: flare-therapeutics-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flare-therapeutics/refs/heads/main/openapi/flare-therapeutics-content-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flare-therapeutics/refs/heads/main/openapi/flare-therapeutics-comments-api-openapi.yml
+- filename: flare-therapeutics-discovery-api-openapi.yml
+  format: yaml
+  label: Flare Therapeutics Discovery API
+  slug: flare-therapeutics-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flare-therapeutics/refs/heads/main/openapi/flare-therapeutics-discovery-api-openapi.yml
+- filename: flare-therapeutics-media-api-openapi.yml
+  format: yaml
+  label: Flare Therapeutics Media API
+  slug: flare-therapeutics-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flare-therapeutics/refs/heads/main/openapi/flare-therapeutics-media-api-openapi.yml
+- filename: flare-therapeutics-oembed-api-openapi.yml
+  format: yaml
+  label: Flare Therapeutics Oembed API
+  slug: flare-therapeutics-oembed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flare-therapeutics/refs/heads/main/openapi/flare-therapeutics-oembed-api-openapi.yml
+- filename: flare-therapeutics-pages-api-openapi.yml
+  format: yaml
+  label: Flare Therapeutics Pages API
+  slug: flare-therapeutics-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flare-therapeutics/refs/heads/main/openapi/flare-therapeutics-pages-api-openapi.yml
+- filename: flare-therapeutics-patterns-api-openapi.yml
+  format: yaml
+  label: Flare Therapeutics Patterns API
+  slug: flare-therapeutics-patterns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flare-therapeutics/refs/heads/main/openapi/flare-therapeutics-patterns-api-openapi.yml
+- filename: flare-therapeutics-posts-api-openapi.yml
+  format: yaml
+  label: Flare Therapeutics Posts API
+  slug: flare-therapeutics-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flare-therapeutics/refs/heads/main/openapi/flare-therapeutics-posts-api-openapi.yml
+- filename: flare-therapeutics-search-api-openapi.yml
+  format: yaml
+  label: Flare Therapeutics Search API
+  slug: flare-therapeutics-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flare-therapeutics/refs/heads/main/openapi/flare-therapeutics-search-api-openapi.yml
+- filename: flare-therapeutics-taxonomy-api-openapi.yml
+  format: yaml
+  label: Flare Therapeutics Taxonomy API
+  slug: flare-therapeutics-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flare-therapeutics/refs/heads/main/openapi/flare-therapeutics-taxonomy-api-openapi.yml
 description: ''
 domains:
 - caa: []

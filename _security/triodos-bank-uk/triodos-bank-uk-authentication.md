@@ -1,30 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: triodos-bank-uk-xs2a-openapi.json
-  format: json
-  label: Triodos Account Information Service (AIS) API
-  slug: triodos-account-information-api
+- filename: triodos-bank-uk-account-information-service-api-openapi.yml
+  format: yaml
+  label: Triodos Bank UK Account Information Service API
+  slug: triodos-bank-uk-account-information-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-xs2a-openapi.json
-- filename: triodos-bank-uk-xs2a-openapi.json
-  format: json
-  label: Triodos Payment Initiation Service (PIS) API
-  slug: triodos-payment-initiation-api
+  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-account-information-service-api-openapi.yml
+- filename: triodos-bank-uk-authorization-endpoint-api-openapi.yml
+  format: yaml
+  label: Triodos Bank UK Authorization Endpoint API
+  slug: triodos-bank-uk-authorization-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-xs2a-openapi.json
-- filename: triodos-bank-uk-xs2a-openapi.json
-  format: json
-  label: Triodos Confirmation of Funds Service (CoF) API
-  slug: triodos-confirmation-of-funds-api
+  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-authorization-endpoint-api-openapi.yml
+- filename: triodos-bank-uk-client-registration-endpoint-api-openapi.yml
+  format: yaml
+  label: Triodos Bank UK Client Registration Endpoint API
+  slug: triodos-bank-uk-client-registration-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-xs2a-openapi.json
-- filename: triodos-bank-uk-auth-openapi.json
-  format: json
-  label: Triodos XS2A Authorization (OAuth2/OIDC) API
-  slug: triodos-authorization-api
+  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-client-registration-endpoint-api-openapi.yml
+- filename: triodos-bank-uk-configuration-endpoint-api-openapi.yml
+  format: yaml
+  label: Triodos Bank UK Configuration Endpoint API
+  slug: triodos-bank-uk-configuration-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-auth-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-configuration-endpoint-api-openapi.yml
+- filename: triodos-bank-uk-confirmation-of-funds-service-api-openapi.yml
+  format: yaml
+  label: Triodos Bank UK Confirmation of Funds Service API
+  slug: triodos-bank-uk-confirmation-of-funds-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-confirmation-of-funds-service-api-openapi.yml
+- filename: triodos-bank-uk-extended-account-information-service-api-openapi.yml
+  format: yaml
+  label: Triodos Bank UK Extended Account Information Service API
+  slug: triodos-bank-uk-extended-account-information-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-extended-account-information-service-api-openapi.yml
+- filename: triodos-bank-uk-initial-access-token-service-api-openapi.yml
+  format: yaml
+  label: Triodos Bank UK Initial Access Token Service API
+  slug: triodos-bank-uk-initial-access-token-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-initial-access-token-service-api-openapi.yml
+- filename: triodos-bank-uk-payment-initiation-service-api-openapi.yml
+  format: yaml
+  label: Triodos Bank UK Payment Initiation Service API
+  slug: triodos-bank-uk-payment-initiation-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-payment-initiation-service-api-openapi.yml
+- filename: triodos-bank-uk-token-endpoint-api-openapi.yml
+  format: yaml
+  label: Triodos Bank UK Token Endpoint API
+  slug: triodos-bank-uk-token-endpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-token-endpoint-api-openapi.yml
+- filename: triodos-bank-uk-userinfo-endpoint-api-openapi.yml
+  format: yaml
+  label: Triodos Bank UK UserInfo Endpoint API
+  slug: triodos-bank-uk-userinfo-endpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-userinfo-endpoint-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect

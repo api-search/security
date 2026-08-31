@@ -30,12 +30,12 @@ api_specs:
   slug: tealium-privacy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-privacy-api-openapi.yml
-- filename: tealium-ai-read-openapi.yml
+- filename: tealium-wp-json-api-openapi.yml
   format: yaml
-  label: Tealium AI Read API
-  slug: tealium-ai-read-api
+  label: Tealium Wp Json API
+  slug: tealium-wp-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-ai-read-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-wp-json-api-openapi.yml
 certifications:
 - SSAE18 SOC 2 Type II
 - ISO/IEC 27001

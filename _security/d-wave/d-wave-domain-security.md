@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: d-wave-solvers-api-openapi.yml
-  format: yaml
-  label: D-Wave Solver API (SAPI) - Solvers
-  slug: d-wave-solver-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-solvers-api-openapi.yml
-- filename: d-wave-problems-api-openapi.yml
-  format: yaml
-  label: D-Wave Solver API (SAPI) - Problems
-  slug: d-wave-problems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-problems-api-openapi.yml
 - filename: d-wave-account-api-openapi.yml
   format: yaml
   label: D-Wave Account API

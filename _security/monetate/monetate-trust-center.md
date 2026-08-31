@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: monetate-engine-api-openapi.yml
-  format: yaml
-  label: Monetate Engine API
-  slug: monetate-engine-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/openapi/monetate-engine-api-openapi.yml
 - filename: monetate-data-api-openapi.yml
   format: yaml
   label: Monetate Data API
@@ -18,12 +12,36 @@ api_specs:
   slug: monetate-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/openapi/monetate-metadata-api-openapi.yml
-- filename: monetate-auth-api-openapi.yml
+- filename: monetate-decision-api-openapi.yml
   format: yaml
-  label: Monetate Auth API
-  slug: monetate-auth-api
+  label: Monetate Decision API
+  slug: monetate-decision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/openapi/monetate-auth-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/openapi/monetate-decision-api-openapi.yml
+- filename: monetate-product-catalog-api-openapi.yml
+  format: yaml
+  label: Monetate Product Catalog API
+  slug: monetate-product-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/openapi/monetate-product-catalog-api-openapi.yml
+- filename: monetate-schema-api-openapi.yml
+  format: yaml
+  label: Monetate Schema API
+  slug: monetate-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/openapi/monetate-schema-api-openapi.yml
+- filename: monetate-token-api-openapi.yml
+  format: yaml
+  label: Monetate Token API
+  slug: monetate-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/openapi/monetate-token-api-openapi.yml
+- filename: monetate-upload-api-openapi.yml
+  format: yaml
+  label: Monetate Upload API
+  slug: monetate-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/openapi/monetate-upload-api-openapi.yml
 certifications: []
 description: ''
 kind: trust-center

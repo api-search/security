@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: accessibe-partners-openapi-original.yml
+- filename: accessibe-accounts-api-openapi.yml
   format: yaml
-  label: accessiBe Partners API License
-  slug: partners-api
+  label: accessiBe Accounts API
+  slug: accessibe-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/openapi/accessibe-partners-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/openapi/accessibe-accounts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

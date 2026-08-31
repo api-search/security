@@ -62,24 +62,24 @@ api_specs:
   slug: settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/habiteo/refs/heads/main/openapi/habiteo-settings-api-openapi.yml
-- filename: habiteo-contact-forms-api-openapi.yml
-  format: yaml
-  label: Habiteo Site Content API — Contact Forms API
-  slug: contact-forms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/habiteo/refs/heads/main/openapi/habiteo-contact-forms-api-openapi.yml
 - filename: habiteo-oembed-api-openapi.yml
   format: yaml
   label: Habiteo Site Content API — oEmbed API
   slug: oembed-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/habiteo/refs/heads/main/openapi/habiteo-oembed-api-openapi.yml
-- filename: habiteo-site-tools-api-openapi.yml
+- filename: habiteo-contactforms-api-openapi.yml
   format: yaml
-  label: Habiteo Site Content API — Site Tools API
-  slug: site-tools-api
+  label: Habiteo Contact Forms API
+  slug: habiteo-contactforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/habiteo/refs/heads/main/openapi/habiteo-site-tools-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/habiteo/refs/heads/main/openapi/habiteo-contactforms-api-openapi.yml
+- filename: habiteo-sitetools-api-openapi.yml
+  format: yaml
+  label: Habiteo Site Tools API
+  slug: habiteo-sitetools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/habiteo/refs/heads/main/openapi/habiteo-sitetools-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -79,8 +79,8 @@ layout: security
 method: probed
 name: Agilent Technologies Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for agilent-technologies, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
-provider_name: agilent-technologies
+overview: 'Domain security posture for Agilent Technologies, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+provider_name: Agilent Technologies
 provider_slug: agilent-technologies
 slug: agilent-technologies-domain-security
 source_filename: agilent-technologies-domain-security.yml

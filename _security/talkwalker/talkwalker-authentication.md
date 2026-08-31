@@ -2,42 +2,78 @@
 api_key_in:
 - query
 api_specs:
-- filename: talkwalker-search-openapi.yml
-  format: yaml
-  label: Talkwalker Search API
-  slug: search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/openapi/talkwalker-search-openapi.yml
-- filename: talkwalker-streaming-openapi.yml
-  format: yaml
-  label: Talkwalker Streaming API
-  slug: streaming-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/openapi/talkwalker-streaming-openapi.yml
-- filename: talkwalker-histogram-openapi.yml
-  format: yaml
-  label: Talkwalker Histogram API
-  slug: histogram-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/openapi/talkwalker-histogram-openapi.yml
-- filename: talkwalker-resources-openapi.yml
-  format: yaml
-  label: Talkwalker Resources API
-  slug: resources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/openapi/talkwalker-resources-openapi.yml
-- filename: talkwalker-documents-openapi.yml
-  format: yaml
-  label: Talkwalker Document API
-  slug: document-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/openapi/talkwalker-documents-openapi.yml
-- filename: talkwalker-image-openapi.yml
+- filename: talkwalker-image-api-api-openapi.yml
   format: yaml
   label: Talkwalker Image API
-  slug: image-api
+  slug: talkwalker-image-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/openapi/talkwalker-image-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/openapi/talkwalker-image-api-api-openapi.yml
+- filename: talkwalker-modify-documents-api-api-openapi.yml
+  format: yaml
+  label: Talkwalker Modify documents API
+  slug: talkwalker-modify-documents-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/openapi/talkwalker-modify-documents-api-api-openapi.yml
+- filename: talkwalker-resources-api-api-openapi.yml
+  format: yaml
+  label: Talkwalker Resources API
+  slug: talkwalker-resources-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/openapi/talkwalker-resources-api-api-openapi.yml
+- filename: talkwalker-search-api-api-openapi.yml
+  format: yaml
+  label: Talkwalker Search API
+  slug: talkwalker-search-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/openapi/talkwalker-search-api-api-openapi.yml
+- filename: talkwalker-search-api-histogram-api-api-openapi.yml
+  format: yaml
+  label: Talkwalker Search API > Histogram API
+  slug: talkwalker-search-api-histogram-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/openapi/talkwalker-search-api-histogram-api-api-openapi.yml
+- filename: talkwalker-source-panels-api-api-openapi.yml
+  format: yaml
+  label: Talkwalker Source panels API
+  slug: talkwalker-source-panels-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/openapi/talkwalker-source-panels-api-api-openapi.yml
+- filename: talkwalker-status-api-api-openapi.yml
+  format: yaml
+  label: Talkwalker Status API
+  slug: talkwalker-status-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/openapi/talkwalker-status-api-api-openapi.yml
+- filename: talkwalker-streaming-api-api-openapi.yml
+  format: yaml
+  label: Talkwalker Streaming API
+  slug: talkwalker-streaming-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/openapi/talkwalker-streaming-api-api-openapi.yml
+- filename: talkwalker-streaming-api-collector-api-api-openapi.yml
+  format: yaml
+  label: Talkwalker Streaming API > Collector API
+  slug: talkwalker-streaming-api-collector-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/openapi/talkwalker-streaming-api-collector-api-api-openapi.yml
+- filename: talkwalker-streaming-api-task-api-api-openapi.yml
+  format: yaml
+  label: Talkwalker Streaming API > Task API
+  slug: talkwalker-streaming-api-task-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/openapi/talkwalker-streaming-api-task-api-api-openapi.yml
+- filename: talkwalker-summary-api-api-openapi.yml
+  format: yaml
+  label: Talkwalker Summary API
+  slug: talkwalker-summary-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/openapi/talkwalker-summary-api-api-openapi.yml
+- filename: talkwalker-topic-api-api-openapi.yml
+  format: yaml
+  label: Talkwalker Topic API
+  slug: talkwalker-topic-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/openapi/talkwalker-topic-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

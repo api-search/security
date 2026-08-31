@@ -1,12 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: karmacheck-api-openapi.yml
+- filename: karmacheck-authentication-api-openapi.yml
   format: yaml
-  label: KarmaCheck API
-  slug: karmacheck-api
+  label: KarmaCheck Authentication API
+  slug: karmacheck-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/openapi/karmacheck-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/openapi/karmacheck-authentication-api-openapi.yml
+- filename: karmacheck-candidate-onboarding-api-openapi.yml
+  format: yaml
+  label: KarmaCheck Candidate onboarding API
+  slug: karmacheck-candidate-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/openapi/karmacheck-candidate-onboarding-api-openapi.yml
+- filename: karmacheck-case-api-openapi.yml
+  format: yaml
+  label: KarmaCheck Case API
+  slug: karmacheck-case-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/openapi/karmacheck-case-api-openapi.yml
+- filename: karmacheck-cases-api-openapi.yml
+  format: yaml
+  label: KarmaCheck Cases API
+  slug: karmacheck-cases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/openapi/karmacheck-cases-api-openapi.yml
+- filename: karmacheck-packages-api-openapi.yml
+  format: yaml
+  label: KarmaCheck Packages API
+  slug: karmacheck-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/openapi/karmacheck-packages-api-openapi.yml
+- filename: karmacheck-secure-documents-api-openapi.yml
+  format: yaml
+  label: KarmaCheck Secure documents API
+  slug: karmacheck-secure-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/openapi/karmacheck-secure-documents-api-openapi.yml
+- filename: karmacheck-services-api-openapi.yml
+  format: yaml
+  label: KarmaCheck Services API
+  slug: karmacheck-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/openapi/karmacheck-services-api-openapi.yml
+- filename: karmacheck-users-api-openapi.yml
+  format: yaml
+  label: KarmaCheck Users API
+  slug: karmacheck-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/openapi/karmacheck-users-api-openapi.yml
+- filename: karmacheck-verification-book-api-openapi.yml
+  format: yaml
+  label: KarmaCheck Verification Book API
+  slug: karmacheck-verification-book-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/openapi/karmacheck-verification-book-api-openapi.yml
 auth_types:
 - http
 description: ''

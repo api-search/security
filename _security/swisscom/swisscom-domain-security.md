@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: swisscom-sign-integration-api-openapi.json
-  format: json
-  label: Swisscom Sign Integration API
-  slug: swisscom-sign-integration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/openapi/swisscom-sign-integration-api-openapi.json
-- filename: swisscom-all-in-signing-service-openapi.yml
+- filename: swisscom-process-create-api-openapi.yml
   format: yaml
-  label: Swisscom All-in Signing Service (AIS) API
-  slug: swisscom-all-in-signing-service-api
+  label: 'Swisscom Process: create API'
+  slug: swisscom-process-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/openapi/swisscom-all-in-signing-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/openapi/swisscom-process-create-api-openapi.yml
+- filename: swisscom-process-read-api-openapi.yml
+  format: yaml
+  label: 'Swisscom Process: read API'
+  slug: swisscom-process-read-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/openapi/swisscom-process-read-api-openapi.yml
+- filename: swisscom-signatures-api-openapi.yml
+  format: yaml
+  label: Swisscom Signatures API
+  slug: swisscom-signatures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/openapi/swisscom-signatures-api-openapi.yml
 description: ''
 domains:
 - caa: []

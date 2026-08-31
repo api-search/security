@@ -24,6 +24,12 @@ api_specs:
   slug: truework-subpackage-tenantproperties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-subpackage-tenantproperties-api-openapi.yml
+- filename: truework-truework-webhooks-api-openapi.yml
+  format: yaml
+  label: Truework Truework Webhooks API
+  slug: truework-truework-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-truework-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

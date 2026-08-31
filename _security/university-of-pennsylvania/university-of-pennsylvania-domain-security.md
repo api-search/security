@@ -6,18 +6,18 @@ api_specs:
   slug: penn-courses
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/openapi/university-of-pennsylvania-accounts-user-api-openapi.yml
-- filename: university-of-pennsylvania-scholarlycommons-oai-pmh-openapi.yml
+- filename: university-of-pennsylvania-catalog-api-openapi.yml
   format: yaml
-  label: ScholarlyCommons at Penn — OAI-PMH
-  slug: scholarlycommons-oai-pmh
+  label: University of Pennsylvania Catalog API
+  slug: university-of-pennsylvania-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/openapi/university-of-pennsylvania-scholarlycommons-oai-pmh-openapi.yml
-- filename: university-of-pennsylvania-franklin-catalog-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/openapi/university-of-pennsylvania-catalog-api-openapi.yml
+- filename: university-of-pennsylvania-request-api-openapi.yml
   format: yaml
-  label: Penn Libraries Franklin Catalog — JSON API
-  slug: franklin-catalog
+  label: University of Pennsylvania Request API
+  slug: university-of-pennsylvania-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/openapi/university-of-pennsylvania-franklin-catalog-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/openapi/university-of-pennsylvania-request-api-openapi.yml
 description: ''
 domains:
 - caa: []

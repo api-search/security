@@ -1,108 +1,234 @@
 ---
 api_key_in: []
 api_specs:
-- filename: constructorio-search-openapi.yml
+- filename: constructorio-autocomplete-results-api-openapi.yml
   format: yaml
-  label: Constructor Search API
-  slug: constructor-search-api
+  label: Constructor.io Autocomplete results API
+  slug: constructorio-autocomplete-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-search-openapi.yml
-- filename: constructorio-autocomplete-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-autocomplete-results-api-openapi.yml
+- filename: constructorio-behavioral-actions-api-openapi.yml
   format: yaml
-  label: Constructor Autocomplete API
-  slug: constructor-autocomplete-api
+  label: Constructor.io Behavioral actions API
+  slug: constructorio-behavioral-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-autocomplete-openapi.yml
-- filename: constructorio-browse-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-behavioral-actions-api-openapi.yml
+- filename: constructorio-browse-collections-api-openapi.yml
   format: yaml
-  label: Constructor Browse API
-  slug: constructor-browse-api
+  label: Constructor.io Browse collections API
+  slug: constructorio-browse-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-browse-openapi.yml
-- filename: constructorio-recommendations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-browse-collections-api-openapi.yml
+- filename: constructorio-browse-facets-api-openapi.yml
   format: yaml
-  label: Constructor Recommendations API
-  slug: constructor-recommendations-api
+  label: Constructor.io Browse facets API
+  slug: constructorio-browse-facets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-recommendations-openapi.yml
-- filename: constructorio-image-search-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-browse-facets-api-openapi.yml
+- filename: constructorio-browse-groups-api-openapi.yml
   format: yaml
-  label: Constructor Image Search API
-  slug: constructor-image-search-api
+  label: Constructor.io Browse groups API
+  slug: constructorio-browse-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-image-search-openapi.yml
-- filename: constructorio-ai-shopping-agent-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-browse-groups-api-openapi.yml
+- filename: constructorio-browse-results-api-openapi.yml
   format: yaml
-  label: Constructor AI Shopping Agent API
-  slug: constructor-ai-shopping-agent-api
+  label: Constructor.io Browse results API
+  slug: constructorio-browse-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-ai-shopping-agent-openapi.yml
-- filename: constructorio-catalog-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-browse-results-api-openapi.yml
+- filename: constructorio-catalog-api-openapi.yml
   format: yaml
-  label: Constructor Catalog Management API
-  slug: constructor-catalog-management-api
+  label: Constructor.io Catalog API
+  slug: constructorio-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-catalog-management-openapi.yml
-- filename: constructorio-catalog-batching-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-catalog-api-openapi.yml
+- filename: constructorio-collections-api-openapi.yml
   format: yaml
-  label: Constructor Catalog Batching API
-  slug: constructor-catalog-batching-api
+  label: Constructor.io Collections API
+  slug: constructorio-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-catalog-batching-openapi.yml
-- filename: constructorio-configuration-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-collections-api-openapi.yml
+- filename: constructorio-display-ads-api-openapi.yml
   format: yaml
-  label: Constructor Configuration API
-  slug: constructor-configuration-api
+  label: Constructor.io Display Ads API
+  slug: constructorio-display-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-configuration-openapi.yml
-- filename: constructorio-searchandising-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-display-ads-api-openapi.yml
+- filename: constructorio-engagements-api-openapi.yml
   format: yaml
-  label: Constructor Searchandising API
-  slug: constructor-searchandising-api
+  label: Constructor.io Engagements API
+  slug: constructorio-engagements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-searchandising-openapi.yml
-- filename: constructorio-quizzes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-engagements-api-openapi.yml
+- filename: constructorio-facet-campaigns-api-openapi.yml
   format: yaml
-  label: Constructor Quizzes API
-  slug: constructor-quizzes-api
+  label: Constructor.io Facet campaigns API
+  slug: constructorio-facet-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-quizzes-openapi.yml
-- filename: constructorio-offsite-discovery-recommendations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-facet-campaigns-api-openapi.yml
+- filename: constructorio-facets-api-openapi.yml
   format: yaml
-  label: Constructor Offsite Discovery Recommendations API
-  slug: constructor-offsite-discovery-recommendations-api
+  label: Constructor.io Facets API
+  slug: constructorio-facets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-offsite-discovery-recommendations-openapi.yml
-- filename: constructorio-retail-media-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-facets-api-openapi.yml
+- filename: constructorio-image-search-results-api-openapi.yml
   format: yaml
-  label: Constructor Retail Media API
-  slug: constructor-retail-media-api
+  label: Constructor.io Image Search results API
+  slug: constructorio-image-search-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-retail-media-openapi.yml
-- filename: constructorio-retail-media-display-ads-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-image-search-results-api-openapi.yml
+- filename: constructorio-item-groups-api-openapi.yml
   format: yaml
-  label: Constructor Retail Media Display Ads API
-  slug: constructor-retail-media-display-ads-api
+  label: Constructor.io Item groups API
+  slug: constructorio-item-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-retail-media-display-ads-openapi.yml
-- filename: constructorio-product-details-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-item-groups-api-openapi.yml
+- filename: constructorio-item-statistics-api-openapi.yml
   format: yaml
-  label: Constructor Product Details API
-  slug: constructor-product-details-api
+  label: Constructor.io Item statistics API
+  slug: constructorio-item-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-product-details-openapi.yml
-- filename: constructorio-behavioral-actions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-item-statistics-api-openapi.yml
+- filename: constructorio-items-api-openapi.yml
   format: yaml
-  label: Constructor Behavioral Actions API
-  slug: constructor-behavioral-actions-api
+  label: Constructor.io Items API
+  slug: constructorio-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-behavioral-actions-openapi.yml
-- filename: constructorio-user-profile-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-items-api-openapi.yml
+- filename: constructorio-metadata-overrides-api-openapi.yml
   format: yaml
-  label: Constructor User Profile API
-  slug: constructor-user-profile-api
+  label: Constructor.io Metadata overrides API
+  slug: constructorio-metadata-overrides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-user-profile-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-metadata-overrides-api-openapi.yml
+- filename: constructorio-natural-language-search-results-api-openapi.yml
+  format: yaml
+  label: Constructor.io Natural language search results API
+  slug: constructorio-natural-language-search-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-natural-language-search-results-api-openapi.yml
+- filename: constructorio-offsite-discovery-results-api-openapi.yml
+  format: yaml
+  label: Constructor.io Offsite Discovery results API
+  slug: constructorio-offsite-discovery-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-offsite-discovery-results-api-openapi.yml
+- filename: constructorio-product-details-api-openapi.yml
+  format: yaml
+  label: Constructor.io Product details API
+  slug: constructorio-product-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-product-details-api-openapi.yml
+- filename: constructorio-product-resources-api-openapi.yml
+  format: yaml
+  label: Constructor.io Product resources API
+  slug: constructorio-product-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-product-resources-api-openapi.yml
+- filename: constructorio-quizzes-api-openapi.yml
+  format: yaml
+  label: Constructor.io Quizzes API
+  slug: constructorio-quizzes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-quizzes-api-openapi.yml
+- filename: constructorio-recommendation-results-api-openapi.yml
+  format: yaml
+  label: Constructor.io Recommendation results API
+  slug: constructorio-recommendation-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-recommendation-results-api-openapi.yml
+- filename: constructorio-redirect-rules-api-openapi.yml
+  format: yaml
+  label: Constructor.io Redirect rules API
+  slug: constructorio-redirect-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-redirect-rules-api-openapi.yml
+- filename: constructorio-results-api-openapi.yml
+  format: yaml
+  label: Constructor.io Results API
+  slug: constructorio-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-results-api-openapi.yml
+- filename: constructorio-search-results-api-openapi.yml
+  format: yaml
+  label: Constructor.io Search results API
+  slug: constructorio-search-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-search-results-api-openapi.yml
+- filename: constructorio-searchabilities-api-openapi.yml
+  format: yaml
+  label: Constructor.io Searchabilities API
+  slug: constructorio-searchabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-searchabilities-api-openapi.yml
+- filename: constructorio-searchandising-by-user-request-data-api-openapi.yml
+  format: yaml
+  label: Constructor.io Searchandising by User Request Data API
+  slug: constructorio-searchandising-by-user-request-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-searchandising-by-user-request-data-api-openapi.yml
+- filename: constructorio-searchandising-campaigns-api-openapi.yml
+  format: yaml
+  label: Constructor.io Searchandising campaigns API
+  slug: constructorio-searchandising-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-searchandising-campaigns-api-openapi.yml
+- filename: constructorio-searchandising-for-browse-api-openapi.yml
+  format: yaml
+  label: Constructor.io Searchandising for Browse API
+  slug: constructorio-searchandising-for-browse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-searchandising-for-browse-api-openapi.yml
+- filename: constructorio-searchandising-for-collections-api-openapi.yml
+  format: yaml
+  label: Constructor.io Searchandising for Collections API
+  slug: constructorio-searchandising-for-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-searchandising-for-collections-api-openapi.yml
+- filename: constructorio-searchandising-for-search-api-openapi.yml
+  format: yaml
+  label: Constructor.io Searchandising for Search API
+  slug: constructorio-searchandising-for-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-searchandising-for-search-api-openapi.yml
+- filename: constructorio-sort-options-api-openapi.yml
+  format: yaml
+  label: Constructor.io Sort options API
+  slug: constructorio-sort-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-sort-options-api-openapi.yml
+- filename: constructorio-synonym-groups-api-openapi.yml
+  format: yaml
+  label: Constructor.io Synonym groups API
+  slug: constructorio-synonym-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-synonym-groups-api-openapi.yml
+- filename: constructorio-synonyms-api-openapi.yml
+  format: yaml
+  label: Constructor.io Synonyms API
+  slug: constructorio-synonyms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-synonyms-api-openapi.yml
+- filename: constructorio-tasks-api-openapi.yml
+  format: yaml
+  label: Constructor.io Tasks API
+  slug: constructorio-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-tasks-api-openapi.yml
+- filename: constructorio-user-preferences-api-openapi.yml
+  format: yaml
+  label: Constructor.io User preferences API
+  slug: constructorio-user-preferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-user-preferences-api-openapi.yml
+- filename: constructorio-variations-api-openapi.yml
+  format: yaml
+  label: Constructor.io Variations API
+  slug: constructorio-variations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-variations-api-openapi.yml
 auth_types:
 - http
 description: ''

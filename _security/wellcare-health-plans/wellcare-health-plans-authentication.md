@@ -90,8 +90,8 @@ name: Wellcare Health Plans Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
-overview: wellcare-health-plans secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
-provider_name: wellcare-health-plans
+overview: WellCare Health Plans secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+provider_name: WellCare Health Plans
 provider_slug: wellcare-health-plans
 scheme_count: 2
 schemes:

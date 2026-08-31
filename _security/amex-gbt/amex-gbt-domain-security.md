@@ -1,107 +1,161 @@
 ---
 api_specs:
-- filename: amex-gbt-user-sync-api-openapi.json
-  format: json
-  label: Egencia User Sync API
-  slug: egencia-user-sync-api
+- filename: amex-gbt-agent-assist-notes-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel Agent Assist Notes API
+  slug: amex-gbt-agent-assist-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-user-sync-api-openapi.json
-- filename: amex-gbt-sso-context-api-openapi.json
-  format: json
-  label: Egencia Context SSO API
-  slug: egencia-context-sso-api
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-agent-assist-notes-api-openapi.yml
+- filename: amex-gbt-approval-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel Approval API
+  slug: amex-gbt-approval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-sso-context-api-openapi.json
-- filename: amex-gbt-company-info-api-openapi.json
-  format: json
-  label: Egencia Company Details API
-  slug: egencia-company-details-api
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-approval-api-openapi.yml
+- filename: amex-gbt-availability-probes-controller-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel Availability Probes Controller API
+  slug: amex-gbt-availability-probes-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-company-info-api-openapi.json
-- filename: amex-gbt-company-cdf-api-openapi.json
-  format: json
-  label: Egencia Company CDF API
-  slug: egencia-company-cdf-api
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-availability-probes-controller-api-openapi.yml
+- filename: amex-gbt-bookings-v1-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel bookings v1 API
+  slug: amex-gbt-bookings-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-company-cdf-api-openapi.json
-- filename: amex-gbt-validation-spi-openapi.json
-  format: json
-  label: Egencia Validation SPI
-  slug: egencia-validation-spi
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-bookings-v1-api-openapi.yml
+- filename: amex-gbt-bookings-v2-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel bookings v2 API
+  slug: amex-gbt-bookings-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-validation-spi-openapi.json
-- filename: amex-gbt-expense-spi-openapi.json
-  format: json
-  label: Egencia Expense SPI
-  slug: egencia-expense-spi
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-bookings-v2-api-openapi.yml
+- filename: amex-gbt-company-details-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel Company Details API
+  slug: amex-gbt-company-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-expense-spi-openapi.json
-- filename: amex-gbt-booking-api-openapi.json
-  format: json
-  label: Egencia Get Booking API
-  slug: egencia-get-booking-api
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-company-details-api-openapi.yml
+- filename: amex-gbt-custom-data-field-cleanup-controller-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel Custom Data Field Cleanup Controller API
+  slug: amex-gbt-custom-data-field-cleanup-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-booking-api-openapi.json
-- filename: amex-gbt-cancellation-deletion-api-openapi.json
-  format: json
-  label: Egencia Expense Cancellation and Deletion API
-  slug: egencia-cancellation-deletion-api
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-custom-data-field-cleanup-controller-api-openapi.yml
+- filename: amex-gbt-custom-data-fields-cdf-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel Custom Data Fields (CDF) API
+  slug: amex-gbt-custom-data-fields-cdf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-cancellation-deletion-api-openapi.json
-- filename: amex-gbt-approval-workflow-api-openapi.json
-  format: json
-  label: Egencia Approval Workflow API
-  slug: egencia-approval-workflow-api
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-custom-data-fields-cdf-api-openapi.yml
+- filename: amex-gbt-doc-audit-clean-up-controller-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel Doc Audit Clean Up Controller API
+  slug: amex-gbt-doc-audit-clean-up-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-approval-workflow-api-openapi.json
-- filename: amex-gbt-approval-customisation-spi-openapi.json
-  format: json
-  label: Egencia Approval Customisation SPI
-  slug: egencia-approval-customisation-spi
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-doc-audit-clean-up-controller-api-openapi.yml
+- filename: amex-gbt-dutyofcare-data-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel DutyOfCare Data API
+  slug: amex-gbt-dutyofcare-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-approval-customisation-spi-openapi.json
-- filename: amex-gbt-receipt-api-openapi.json
-  format: json
-  label: Egencia Receipt API
-  slug: egencia-receipt-api
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-dutyofcare-data-api-openapi.yml
+- filename: amex-gbt-ecommerce-settings-controller-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel Ecommerce Settings Controller API
+  slug: amex-gbt-ecommerce-settings-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-receipt-api-openapi.json
-- filename: amex-gbt-duty-of-care-api-openapi.json
-  format: json
-  label: Egencia Duty of Care API
-  slug: egencia-duty-of-care-api
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-ecommerce-settings-controller-api-openapi.yml
+- filename: amex-gbt-expense-spi-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel Expense SPI API
+  slug: amex-gbt-expense-spi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-duty-of-care-api-openapi.json
-- filename: amex-gbt-reporting-api-openapi.json
-  format: json
-  label: Egencia Reporting API (BI Transactions)
-  slug: egencia-reporting-api
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-expense-spi-api-openapi.yml
+- filename: amex-gbt-gdpr-controller-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel Gdpr Controller API
+  slug: amex-gbt-gdpr-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-reporting-api-openapi.json
-- filename: amex-gbt-service-bi-openapi.json
-  format: json
-  label: American Express Global Business Travel BI API
-  slug: amex-gbt-service-bi-openapi
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-gdpr-controller-api-openapi.yml
+- filename: amex-gbt-pos-iata-controller-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel Pos Iata Controller API
+  slug: amex-gbt-pos-iata-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-service-bi-openapi.json
-- filename: amex-gbt-service-company-openapi.json
-  format: json
-  label: American Express Global Business Travel OpenAPI definition (Amex Gbt Service Company)
-  slug: amex-gbt-service-company-openapi
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-pos-iata-controller-api-openapi.yml
+- filename: amex-gbt-receipts-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel Receipts API
+  slug: amex-gbt-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-service-company-openapi.json
-- filename: amex-gbt-service-dutyofcare-openapi.json
-  format: json
-  label: American Express Global Business Travel Duty Of Care API
-  slug: amex-gbt-service-dutyofcare-openapi
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-receipts-api-openapi.yml
+- filename: amex-gbt-redirection-controller-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel Redirection Controller API
+  slug: amex-gbt-redirection-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-service-dutyofcare-openapi.json
-- filename: amex-gbt-service-openconnect-openapi.json
-  format: json
-  label: American Express Global Business Travel OpenAPI definition (Amex Gbt Service Openconnect)
-  slug: amex-gbt-service-openconnect-openapi
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-redirection-controller-api-openapi.yml
+- filename: amex-gbt-resolve-controller-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel Resolve Controller API
+  slug: amex-gbt-resolve-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-service-openconnect-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-resolve-controller-api-openapi.yml
+- filename: amex-gbt-schemas-controller-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel Schemas Controller API
+  slug: amex-gbt-schemas-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-schemas-controller-api-openapi.yml
+- filename: amex-gbt-scim-user-sync-v1-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel SCIM User Sync V1 API
+  slug: amex-gbt-scim-user-sync-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-scim-user-sync-v1-api-openapi.yml
+- filename: amex-gbt-scim-user-sync-v2-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel SCIM User Sync V2 API
+  slug: amex-gbt-scim-user-sync-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-scim-user-sync-v2-api-openapi.yml
+- filename: amex-gbt-scim-user-sync-v3-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel SCIM User Sync V3 API
+  slug: amex-gbt-scim-user-sync-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-scim-user-sync-v3-api-openapi.yml
+- filename: amex-gbt-scim-v1-admin-users-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel SCIM V1 Admin Users API
+  slug: amex-gbt-scim-v1-admin-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-scim-v1-admin-users-api-openapi.yml
+- filename: amex-gbt-third-party-acknowledgement-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel Third Party Acknowledgement API
+  slug: amex-gbt-third-party-acknowledgement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-third-party-acknowledgement-api-openapi.yml
+- filename: amex-gbt-transaction-service-controller-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel Transaction Service Controller API
+  slug: amex-gbt-transaction-service-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-transaction-service-controller-api-openapi.yml
+- filename: amex-gbt-validation-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel Validation API
+  slug: amex-gbt-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-validation-api-openapi.yml
+- filename: amex-gbt-version-controller-api-openapi.yml
+  format: yaml
+  label: American Express Global Business Travel Version Controller API
+  slug: amex-gbt-version-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-version-controller-api-openapi.yml
 description: ''
 domains:
 - caa: []

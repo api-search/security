@@ -115,6 +115,12 @@ api_specs:
   slug: loops-webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/asyncapi/loops-webhooks-asyncapi.yml
+- filename: loops-webhooks-api-openapi.yml
+  format: yaml
+  label: Loops Webhooks API
+  slug: loops-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2

@@ -210,6 +210,48 @@ api_specs:
   slug: netlify-x-internal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-x-internal-api-openapi.yml
+- filename: netlify-agentrunner-api-openapi.yml
+  format: yaml
+  label: Netlify Agent Runner API
+  slug: netlify-agentrunner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-agentrunner-api-openapi.yml
+- filename: netlify-agentrunnerhook-api-openapi.yml
+  format: yaml
+  label: Netlify Agent Runner Hook API
+  slug: netlify-agentrunnerhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-agentrunnerhook-api-openapi.yml
+- filename: netlify-agentrunnersession-api-openapi.yml
+  format: yaml
+  label: Netlify Agent Runner Session API
+  slug: netlify-agentrunnersession-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-agentrunnersession-api-openapi.yml
+- filename: netlify-aigateway-api-openapi.yml
+  format: yaml
+  label: Netlify AI Gateway API
+  slug: netlify-aigateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-aigateway-api-openapi.yml
+- filename: netlify-database-api-openapi.yml
+  format: yaml
+  label: Netlify Database API
+  slug: netlify-database-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-database-api-openapi.yml
+- filename: netlify-edgefunction-api-openapi.yml
+  format: yaml
+  label: Netlify Edge Function API
+  slug: netlify-edgefunction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-edgefunction-api-openapi.yml
+- filename: netlify-service-api-openapi.yml
+  format: yaml
+  label: Netlify Service API
+  slug: netlify-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-service-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001
@@ -229,7 +271,8 @@ slug: netlify-trust-center
 source_filename: netlify-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust-center.netlify-corp.com/\nurl: https://trust-center.netlify-corp.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27018\n- PCI DSS\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust-center.netlify-corp.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - hipaa\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-08-27'\nmethod: searched\nprobe: true\nsource: https://trust-center.netlify-corp.com/\nurl: https://trust-center.netlify-corp.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27018\n- PCI DSS\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust-center.netlify-corp.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - hipaa\n  - trust center\n  - gdpr\ncanonical_url: https://trust.netlify.com/\ncanonical_url_note: >-\n  https://www.netlify.com/security/ links its Trust Center as https://trust.netlify.com/, which\n  is the customer-facing hostname; the probe above reached the same Trust Center at its\n  netlify-corp.com origin. trust.netlify.com returned HTTP 403 to this crawler on 2026-08-27\n  (bot challenge, not a dead page) — the certifications below are therefore read from the\n  netlify-corp.com origin and from Netlify's own security page, not from a 403.\nenriched: '2026-08-27'\nenriched_method: searched\nadditional_certifications:\n- CCPA\n\
+  - DORA\ncompliance_detail:\n  soc2: SOC 2 Type 2, audited annually by an independent third party. Report available to Enterprise customers through the Trust Center.\n  iso27001: ISO 27001 certificate viewable online by all customers.\n  iso27018: ISO 27018.\n  pci_dss: PCI DSS v4.0. Compliant for SAQ-A, with a full RoC assessment completed.\n  hipaa: HIPAA.\n  gdpr_ccpa: GDPR and CCPA, with a published GDPR/CCPA policy at https://www.netlify.com/gdpr-ccpa/.\n  dora: DORA listed among certifications on the security page.\ncompliance_sources:\n- url: https://www.netlify.com/security/\n  status: 200\n- url: https://www.netlify.com/security.md\n  status: 200\n  note: Netlify serves a Markdown twin of the security page at the same path plus .md.\n- url: https://trust.netlify.com/\n  status: 403\n  note: Bot challenge to this crawler; the page demonstrably exists and is linked from the security page.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/security/netlify-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27018, PCI DSS, HIPAA, GDPR
 tags:

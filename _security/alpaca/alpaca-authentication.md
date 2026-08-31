@@ -14,18 +14,6 @@ api_specs:
   slug: oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-oauth-api-openapi.yml
-- filename: alpaca-account-activities-api-openapi.yml
-  format: yaml
-  label: Alpaca Account Activities API
-  slug: alpaca-account-activities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-account-activities-api-openapi.yml
-- filename: alpaca-account-configurations-api-openapi.yml
-  format: yaml
-  label: Alpaca Account Configurations API
-  slug: alpaca-account-configurations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-account-configurations-api-openapi.yml
 - filename: alpaca-accounts-api-openapi.yml
   format: yaml
   label: Alpaca Accounts API
@@ -98,24 +86,6 @@ api_specs:
   slug: alpaca-news-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-news-api-openapi.yml
-- filename: alpaca-orders-api-openapi.yml
-  format: yaml
-  label: Alpaca Orders API
-  slug: alpaca-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-orders-api-openapi.yml
-- filename: alpaca-portfolio-history-api-openapi.yml
-  format: yaml
-  label: Alpaca Portfolio History API
-  slug: alpaca-portfolio-history-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-portfolio-history-api-openapi.yml
-- filename: alpaca-positions-api-openapi.yml
-  format: yaml
-  label: Alpaca Positions API
-  slug: alpaca-positions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-positions-api-openapi.yml
 - filename: alpaca-screener-api-openapi.yml
   format: yaml
   label: Alpaca Screener API
@@ -134,12 +104,6 @@ api_specs:
   slug: alpaca-watchlist-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-watchlist-api-openapi.yml
-- filename: alpaca-watchlists-api-openapi.yml
-  format: yaml
-  label: Alpaca Watchlists API
-  slug: alpaca-watchlists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-watchlists-api-openapi.yml
 auth_types:
 - apiKey
 - http

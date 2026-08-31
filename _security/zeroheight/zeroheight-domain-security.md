@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: zeroheight-open-api-v2.yml
+  format: yaml
+  label: Zeroheight API
+  slug: zeroheight
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/openapi/zeroheight-open-api-v2.yml
 description: ''
 domains:
 - caa: []
@@ -8,13 +15,13 @@ domains:
   domain: zeroheight.com
   spf: true
 hosts:
-- cert_expires: Aug 28 16:18:32 2026 GMT
+- cert_expires: Oct 26 16:18:32 2026 GMT
   host: zeroheight.com
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 20 16:18:39 2026 GMT
+- cert_expires: Nov 18 16:19:38 2026 GMT
   host: developers.zeroheight.com
   hsts: true
   hsts_max_age: 31536000
@@ -32,8 +39,18 @@ slug: zeroheight-domain-security
 source_filename: zeroheight-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: zeroheight.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 16:18:32 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.zeroheight.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 16:18:39 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: zeroheight.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: zeroheight.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 16:18:32 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.zeroheight.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 16:19:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: zeroheight.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/security/zeroheight-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
-tags: []
+tags:
+- Design Systems
+- Design Tokens
+- Documentation
+- Model Context Protocol
+- Agent Readiness
+- Developer Tools
+- Design
+- Figma
+- Storybook
+- Design Operations
 ---

@@ -25,6 +25,12 @@ api_specs:
   slug: sobot-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sobot/refs/heads/main/openapi/sobot-user-api-openapi.yml
+- filename: sobot-openapi-plant-store-api-openapi.yml
+  format: yaml
+  label: Sobot OpenAPI Plant Store API
+  slug: sobot-openapi-plant-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sobot/refs/heads/main/openapi/sobot-openapi-plant-store-api-openapi.yml
 auth_types:
 - http
 description: ''

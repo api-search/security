@@ -1,47 +1,53 @@
 ---
 api_specs:
-- filename: tmt-id-verify.yml
+- filename: tmt-id-authenticate-api-openapi.yml
   format: yaml
-  label: TMT Verify API
-  slug: tmt-id-verify
+  label: TMT ID Authenticate API
+  slug: tmt-id-authenticate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-verify.yml
-- filename: tmt-id-velocity.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-authenticate-api-openapi.yml
+- filename: tmt-id-http-api-api-openapi.yml
   format: yaml
-  label: TMT Velocity API
-  slug: tmt-id-velocity
+  label: TMT ID HTTP API
+  slug: tmt-id-http-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-velocity.yml
-- filename: tmt-id-live.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-http-api-api-openapi.yml
+- filename: tmt-id-http-api-v1-3-api-openapi.yml
   format: yaml
-  label: TMT Live API
-  slug: tmt-id-live
+  label: TMT ID HTTP API v1.3 API
+  slug: tmt-id-http-api-v1-3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-live.yml
-- filename: tmt-id-teleshield.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-http-api-v1-3-api-openapi.yml
+- filename: tmt-id-http-api-v2-0-api-openapi.yml
   format: yaml
-  label: TMT TeleShield API
-  slug: tmt-id-teleshield
+  label: TMT ID HTTP API v2.0 API
+  slug: tmt-id-http-api-v2-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-teleshield.yml
-- filename: tmt-id-score.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-http-api-v2-0-api-openapi.yml
+- filename: tmt-id-network-biometrics-api-openapi.yml
   format: yaml
-  label: TMT Score API
-  slug: tmt-id-score
+  label: TMT ID Network Biometrics API
+  slug: tmt-id-network-biometrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-score.yml
-- filename: tmt-id-authenticate.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-network-biometrics-api-openapi.yml
+- filename: tmt-id-service-api-openapi.yml
   format: yaml
-  label: TMT Authenticate API
-  slug: tmt-id-authenticate
+  label: TMT ID Service API
+  slug: tmt-id-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-authenticate.yml
-- filename: tmt-id-network-biometrics.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-service-api-openapi.yml
+- filename: tmt-id-standard-api-call-api-openapi.yml
   format: yaml
-  label: Network Biometrics API
-  slug: tmt-id-network-biometrics
+  label: TMT ID Standard API Call API
+  slug: tmt-id-standard-api-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-network-biometrics.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-standard-api-call-api-openapi.yml
+- filename: tmt-id-v2-deprecated-api-openapi.yml
+  format: yaml
+  label: TMT ID v2 (deprecated) API
+  slug: tmt-id-v2-deprecated-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-v2-deprecated-api-openapi.yml
 description: ''
 domains:
 - caa: []

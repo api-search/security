@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: yieldmo-dcs-mcp-openapi.json
-  format: json
-  label: Yieldmo DCS Reporting API
-  slug: yieldmo-dcs-reporting-api
+- filename: yieldmo-canned-reports-api-openapi.yml
+  format: yaml
+  label: Yieldmo Canned Reports API
+  slug: yieldmo-canned-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-dcs-mcp-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-canned-reports-api-openapi.yml
+- filename: yieldmo-dcs-api-openapi.yml
+  format: yaml
+  label: Yieldmo Dcs API
+  slug: yieldmo-dcs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-dcs-api-openapi.yml
+- filename: yieldmo-manage-api-openapi.yml
+  format: yaml
+  label: Yieldmo Manage API
+  slug: yieldmo-manage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-manage-api-openapi.yml
+- filename: yieldmo-mcp-api-openapi.yml
+  format: yaml
+  label: Yieldmo MCP API
+  slug: yieldmo-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-mcp-api-openapi.yml
+- filename: yieldmo-ping-api-openapi.yml
+  format: yaml
+  label: Yieldmo Ping API
+  slug: yieldmo-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-ping-api-openapi.yml
+- filename: yieldmo-register-api-openapi.yml
+  format: yaml
+  label: Yieldmo Register API
+  slug: yieldmo-register-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-register-api-openapi.yml
+- filename: yieldmo-well-known-api-openapi.yml
+  format: yaml
+  label: Yieldmo .well Known API
+  slug: yieldmo-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-well-known-api-openapi.yml
 description: ''
 domains:
 - caa:

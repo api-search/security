@@ -42,6 +42,12 @@ api_specs:
   slug: finnhub-stock-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/openapi/finnhub-stock-api-openapi.yml
+- filename: finnhub-default-api-openapi.yml
+  format: yaml
+  label: Finnhub Default API
+  slug: finnhub-default-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/openapi/finnhub-default-api-openapi.yml
 description: ''
 domains:
 - caa: []

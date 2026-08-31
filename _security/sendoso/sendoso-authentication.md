@@ -1,30 +1,48 @@
 ---
 api_key_in: []
 api_specs:
-- filename: sendoso-core-api-openapi.yml
-  format: yaml
-  label: Sendoso Core API
-  slug: sendoso-core-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-core-api-openapi.yml
 - filename: sendoso-marketplace-api-openapi.yml
   format: yaml
   label: Sendoso Marketplace and SmartSend API
   slug: sendoso-marketplace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-marketplace-api-openapi.yml
-- filename: sendoso-scim-api-openapi.yml
-  format: yaml
-  label: Sendoso SCIM API
-  slug: sendoso-scim-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-scim-api-openapi.yml
 - filename: sendoso-webhooks-asyncapi.yml
   format: yaml
   label: Sendoso Webhooks
   slug: sendoso-webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/asyncapi/sendoso-webhooks-asyncapi.yml
+- filename: sendoso-campaigns-api-openapi.yml
+  format: yaml
+  label: Sendoso Campaigns API
+  slug: sendoso-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-campaigns-api-openapi.yml
+- filename: sendoso-sends-api-openapi.yml
+  format: yaml
+  label: Sendoso Sends API
+  slug: sendoso-sends-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-sends-api-openapi.yml
+- filename: sendoso-smartsend-api-openapi.yml
+  format: yaml
+  label: Sendoso Smart Send API
+  slug: sendoso-smartsend-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-smartsend-api-openapi.yml
+- filename: sendoso-teams-api-openapi.yml
+  format: yaml
+  label: Sendoso Teams API
+  slug: sendoso-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-teams-api-openapi.yml
+- filename: sendoso-users-api-openapi.yml
+  format: yaml
+  label: Sendoso Users API
+  slug: sendoso-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-users-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

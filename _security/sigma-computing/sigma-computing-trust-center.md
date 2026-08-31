@@ -186,6 +186,48 @@ api_specs:
   slug: sigma-computing-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-workspaces-api-openapi.yml
+- filename: sigma-computing-allowedips-api-openapi.yml
+  format: yaml
+  label: Sigma Computing Allowed Ips API
+  slug: sigma-computing-allowedips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-allowedips-api-openapi.yml
+- filename: sigma-computing-allowedips-batchcreate-api-openapi.yml
+  format: yaml
+  label: Sigma Computing Allowed Ips\:batch Create API
+  slug: sigma-computing-allowedips-batchcreate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-allowedips-batchcreate-api-openapi.yml
+- filename: sigma-computing-allowedips-batchdelete-api-openapi.yml
+  format: yaml
+  label: Sigma Computing Allowed Ips\:batch Delete API
+  slug: sigma-computing-allowedips-batchdelete-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-allowedips-batchdelete-api-openapi.yml
+- filename: sigma-computing-api-connectors-api-openapi.yml
+  format: yaml
+  label: Sigma Computing API Connectors API
+  slug: sigma-computing-api-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-api-connectors-api-openapi.yml
+- filename: sigma-computing-api-credentials-api-openapi.yml
+  format: yaml
+  label: Sigma Computing API Credentials API
+  slug: sigma-computing-api-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-api-credentials-api-openapi.yml
+- filename: sigma-computing-shared-templates-api-openapi.yml
+  format: yaml
+  label: Sigma Computing Shared Templates API
+  slug: sigma-computing-shared-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-shared-templates-api-openapi.yml
+- filename: sigma-computing-user-attributes-api-openapi.yml
+  format: yaml
+  label: Sigma Computing User Attributes API
+  slug: sigma-computing-user-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-user-attributes-api-openapi.yml
 certifications:
 - SOC 1
 - SOC 2

@@ -2,12 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: madeiramadeira-marketplace-openapi.yml
+- filename: madeiramadeira-callbacks-api-openapi.yml
   format: yaml
-  label: Marketplace MadeiraMadeira API
-  slug: marketplace
+  label: Madeiramadeira Callbacks API
+  slug: madeiramadeira-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madeiramadeira/refs/heads/main/openapi/madeiramadeira-marketplace-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/madeiramadeira/refs/heads/main/openapi/madeiramadeira-callbacks-api-openapi.yml
+- filename: madeiramadeira-categorias-api-openapi.yml
+  format: yaml
+  label: Madeiramadeira Categorias API
+  slug: madeiramadeira-categorias-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/madeiramadeira/refs/heads/main/openapi/madeiramadeira-categorias-api-openapi.yml
+- filename: madeiramadeira-financeiro-api-openapi.yml
+  format: yaml
+  label: Madeiramadeira Financeiro API
+  slug: madeiramadeira-financeiro-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/madeiramadeira/refs/heads/main/openapi/madeiramadeira-financeiro-api-openapi.yml
+- filename: madeiramadeira-frete-api-openapi.yml
+  format: yaml
+  label: Madeiramadeira Frete API
+  slug: madeiramadeira-frete-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/madeiramadeira/refs/heads/main/openapi/madeiramadeira-frete-api-openapi.yml
+- filename: madeiramadeira-mensageria-api-openapi.yml
+  format: yaml
+  label: Madeiramadeira Mensageria API
+  slug: madeiramadeira-mensageria-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/madeiramadeira/refs/heads/main/openapi/madeiramadeira-mensageria-api-openapi.yml
+- filename: madeiramadeira-pedido-api-openapi.yml
+  format: yaml
+  label: Madeiramadeira Pedido API
+  slug: madeiramadeira-pedido-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/madeiramadeira/refs/heads/main/openapi/madeiramadeira-pedido-api-openapi.yml
+- filename: madeiramadeira-produtos-api-openapi.yml
+  format: yaml
+  label: Madeiramadeira Produtos API
+  slug: madeiramadeira-produtos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/madeiramadeira/refs/heads/main/openapi/madeiramadeira-produtos-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -1,83 +1,83 @@
 ---
 api_specs:
-- filename: newline-platform-api.json
-  format: json
-  label: Newline Auth API
-  slug: newline-auth-api
+- filename: fifth-third-bancorp-auth-api-openapi.yml
+  format: yaml
+  label: Fifth Third Bancorp Auth API
+  slug: fifth-third-bancorp-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
-- filename: newline-platform-api.json
-  format: json
-  label: Newline Customers API
-  slug: newline-customers-api
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-auth-api-openapi.yml
+- filename: fifth-third-bancorp-combined-transfers-api-openapi.yml
+  format: yaml
+  label: Fifth Third Bancorp Combined Transfers API
+  slug: fifth-third-bancorp-combined-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
-- filename: newline-platform-api.json
-  format: json
-  label: Newline Customer Products API
-  slug: newline-customer-products-api
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-combined-transfers-api-openapi.yml
+- filename: fifth-third-bancorp-custodial-accounts-api-openapi.yml
+  format: yaml
+  label: Fifth Third Bancorp Custodial Accounts API
+  slug: fifth-third-bancorp-custodial-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
-- filename: newline-platform-api.json
-  format: json
-  label: Newline Products API
-  slug: newline-products-api
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-custodial-accounts-api-openapi.yml
+- filename: fifth-third-bancorp-customer-products-api-openapi.yml
+  format: yaml
+  label: Fifth Third Bancorp Customer Products API
+  slug: fifth-third-bancorp-customer-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
-- filename: newline-platform-api.json
-  format: json
-  label: Newline Pools API
-  slug: newline-pools-api
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-customer-products-api-openapi.yml
+- filename: fifth-third-bancorp-customers-api-openapi.yml
+  format: yaml
+  label: Fifth Third Bancorp Customers API
+  slug: fifth-third-bancorp-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
-- filename: newline-platform-api.json
-  format: json
-  label: Newline Custodial Accounts API
-  slug: newline-custodial-accounts-api
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-customers-api-openapi.yml
+- filename: fifth-third-bancorp-pools-api-openapi.yml
+  format: yaml
+  label: Fifth Third Bancorp Pools API
+  slug: fifth-third-bancorp-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
-- filename: newline-platform-api.json
-  format: json
-  label: Newline Synthetic Accounts API
-  slug: newline-synthetic-accounts-api
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-pools-api-openapi.yml
+- filename: fifth-third-bancorp-products-api-openapi.yml
+  format: yaml
+  label: Fifth Third Bancorp Products API
+  slug: fifth-third-bancorp-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
-- filename: newline-platform-api.json
-  format: json
-  label: Newline Transfers API
-  slug: newline-transfers-api
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-products-api-openapi.yml
+- filename: fifth-third-bancorp-returns-api-openapi.yml
+  format: yaml
+  label: Fifth Third Bancorp Returns API
+  slug: fifth-third-bancorp-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
-- filename: newline-platform-api.json
-  format: json
-  label: Newline Combined Transfers API
-  slug: newline-combined-transfers-api
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-returns-api-openapi.yml
+- filename: fifth-third-bancorp-sandbox-api-openapi.yml
+  format: yaml
+  label: Fifth Third Bancorp Sandbox API
+  slug: fifth-third-bancorp-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
-- filename: newline-platform-api.json
-  format: json
-  label: Newline Transactions API
-  slug: newline-transactions-api
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-sandbox-api-openapi.yml
+- filename: fifth-third-bancorp-synthetic-accounts-api-openapi.yml
+  format: yaml
+  label: Fifth Third Bancorp Synthetic Accounts API
+  slug: fifth-third-bancorp-synthetic-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
-- filename: newline-platform-api.json
-  format: json
-  label: Newline Returns API
-  slug: newline-returns-api
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-synthetic-accounts-api-openapi.yml
+- filename: fifth-third-bancorp-transactions-api-openapi.yml
+  format: yaml
+  label: Fifth Third Bancorp Transactions API
+  slug: fifth-third-bancorp-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
-- filename: newline-platform-api.json
-  format: json
-  label: Newline Virtual Reference Numbers API
-  slug: newline-virtual-reference-numbers-api
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-transactions-api-openapi.yml
+- filename: fifth-third-bancorp-transfers-api-openapi.yml
+  format: yaml
+  label: Fifth Third Bancorp Transfers API
+  slug: fifth-third-bancorp-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
-- filename: newline-platform-api.json
-  format: json
-  label: Newline Sandbox API
-  slug: newline-sandbox-api
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-transfers-api-openapi.yml
+- filename: fifth-third-bancorp-virtual-reference-numbers-api-openapi.yml
+  format: yaml
+  label: Fifth Third Bancorp Virtual Reference Numbers API
+  slug: fifth-third-bancorp-virtual-reference-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/newline-platform-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-virtual-reference-numbers-api-openapi.yml
 description: ''
 domains:
 - caa: []

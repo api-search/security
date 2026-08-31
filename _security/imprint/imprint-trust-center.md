@@ -84,6 +84,12 @@ api_specs:
   slug: imprint-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/openapi/imprint-transactions-api-openapi.yml
+- filename: imprint-webhooks-api-openapi.yml
+  format: yaml
+  label: Imprint Webhooks API
+  slug: imprint-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/openapi/imprint-webhooks-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

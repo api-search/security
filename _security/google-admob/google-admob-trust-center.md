@@ -1,17 +1,71 @@
 ---
 api_specs:
-- filename: google-admob-api-v1-openapi.yml
+- filename: google-admob-accounts-api-openapi.yml
   format: yaml
-  label: Google AdMob API v1
-  slug: google-admob-api-v1
+  label: Google AdMob Accounts API
+  slug: google-admob-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-api-v1-openapi.yml
-- filename: google-admob-api-v1beta-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-accounts-api-openapi.yml
+- filename: google-admob-adapters-api-openapi.yml
   format: yaml
-  label: Google AdMob API v1beta
-  slug: google-admob-api-v1beta
+  label: Google AdMob Adapters API
+  slug: google-admob-adapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-api-v1beta-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-adapters-api-openapi.yml
+- filename: google-admob-adsources-api-openapi.yml
+  format: yaml
+  label: Google AdMob Ad Sources API
+  slug: google-admob-adsources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-adsources-api-openapi.yml
+- filename: google-admob-adunitmappings-api-openapi.yml
+  format: yaml
+  label: Google AdMob Ad Unit Mappings API
+  slug: google-admob-adunitmappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-adunitmappings-api-openapi.yml
+- filename: google-admob-adunits-api-openapi.yml
+  format: yaml
+  label: Google AdMob Ad Units API
+  slug: google-admob-adunits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-adunits-api-openapi.yml
+- filename: google-admob-apps-api-openapi.yml
+  format: yaml
+  label: Google AdMob Apps API
+  slug: google-admob-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-apps-api-openapi.yml
+- filename: google-admob-campaignreport-api-openapi.yml
+  format: yaml
+  label: Google AdMob Campaign Report API
+  slug: google-admob-campaignreport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-campaignreport-api-openapi.yml
+- filename: google-admob-mediationabexperiments-api-openapi.yml
+  format: yaml
+  label: Google AdMob Mediation Ab Experiments API
+  slug: google-admob-mediationabexperiments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-mediationabexperiments-api-openapi.yml
+- filename: google-admob-mediationgroups-api-openapi.yml
+  format: yaml
+  label: Google AdMob Mediation Groups API
+  slug: google-admob-mediationgroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-mediationgroups-api-openapi.yml
+- filename: google-admob-mediationreport-api-openapi.yml
+  format: yaml
+  label: Google AdMob Mediation Report API
+  slug: google-admob-mediationreport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-mediationreport-api-openapi.yml
+- filename: google-admob-networkreport-api-openapi.yml
+  format: yaml
+  label: Google AdMob Network Report API
+  slug: google-admob-networkreport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-networkreport-api-openapi.yml
 certifications:
 - ISO/IEC 27001
 - ISO/IEC 27017

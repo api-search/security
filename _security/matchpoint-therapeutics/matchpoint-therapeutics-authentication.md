@@ -1,60 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: matchpoint-therapeutics-team-openapi.yml
-  format: yaml
-  label: Matchpoint Therapeutics Team API
-  slug: matchpoint-therapeutics-team-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-team-openapi.yml
-- filename: matchpoint-therapeutics-posts-openapi.yml
-  format: yaml
-  label: Matchpoint Therapeutics Posts API
-  slug: matchpoint-therapeutics-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-posts-openapi.yml
-- filename: matchpoint-therapeutics-pages-openapi.yml
-  format: yaml
-  label: Matchpoint Therapeutics Pages API
-  slug: matchpoint-therapeutics-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-pages-openapi.yml
-- filename: matchpoint-therapeutics-media-openapi.yml
-  format: yaml
-  label: Matchpoint Therapeutics Media API
-  slug: matchpoint-therapeutics-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-media-openapi.yml
-- filename: matchpoint-therapeutics-search-openapi.yml
-  format: yaml
-  label: Matchpoint Therapeutics Search API
-  slug: matchpoint-therapeutics-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-search-openapi.yml
-- filename: matchpoint-therapeutics-discovery-openapi.yml
-  format: yaml
-  label: Matchpoint Therapeutics Discovery API
-  slug: matchpoint-therapeutics-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-discovery-openapi.yml
-- filename: matchpoint-therapeutics-taxonomy-openapi.yml
-  format: yaml
-  label: Matchpoint Therapeutics Taxonomy API
-  slug: matchpoint-therapeutics-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-taxonomy-openapi.yml
-- filename: matchpoint-therapeutics-oembed-openapi.yml
-  format: yaml
-  label: Matchpoint Therapeutics oEmbed API
-  slug: matchpoint-therapeutics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-oembed-openapi.yml
-- filename: matchpoint-therapeutics-comments-openapi.yml
+- filename: matchpoint-therapeutics-comments-api-openapi.yml
   format: yaml
   label: Matchpoint Therapeutics Comments API
   slug: matchpoint-therapeutics-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-comments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-comments-api-openapi.yml
+- filename: matchpoint-therapeutics-discovery-api-openapi.yml
+  format: yaml
+  label: Matchpoint Therapeutics Discovery API
+  slug: matchpoint-therapeutics-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-discovery-api-openapi.yml
+- filename: matchpoint-therapeutics-media-api-openapi.yml
+  format: yaml
+  label: Matchpoint Therapeutics Media API
+  slug: matchpoint-therapeutics-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-media-api-openapi.yml
+- filename: matchpoint-therapeutics-oembed-api-openapi.yml
+  format: yaml
+  label: Matchpoint Therapeutics Oembed API
+  slug: matchpoint-therapeutics-oembed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-oembed-api-openapi.yml
+- filename: matchpoint-therapeutics-pages-api-openapi.yml
+  format: yaml
+  label: Matchpoint Therapeutics Pages API
+  slug: matchpoint-therapeutics-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-pages-api-openapi.yml
+- filename: matchpoint-therapeutics-posts-api-openapi.yml
+  format: yaml
+  label: Matchpoint Therapeutics Posts API
+  slug: matchpoint-therapeutics-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-posts-api-openapi.yml
+- filename: matchpoint-therapeutics-search-api-openapi.yml
+  format: yaml
+  label: Matchpoint Therapeutics Search API
+  slug: matchpoint-therapeutics-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-search-api-openapi.yml
+- filename: matchpoint-therapeutics-taxonomy-api-openapi.yml
+  format: yaml
+  label: Matchpoint Therapeutics Taxonomy API
+  slug: matchpoint-therapeutics-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-taxonomy-api-openapi.yml
+- filename: matchpoint-therapeutics-team-api-openapi.yml
+  format: yaml
+  label: Matchpoint Therapeutics Team API
+  slug: matchpoint-therapeutics-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-team-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

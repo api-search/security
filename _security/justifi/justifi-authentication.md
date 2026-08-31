@@ -164,6 +164,12 @@ api_specs:
   slug: justifi-web-component-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/justifi/refs/heads/main/openapi/justifi-web-component-tokens-api-openapi.yml
+- filename: justifi-events-api-openapi.yml
+  format: yaml
+  label: JustiFi Events API
+  slug: justifi-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justifi/refs/heads/main/openapi/justifi-events-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey

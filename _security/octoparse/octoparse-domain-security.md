@@ -54,30 +54,6 @@ api_specs:
   slug: octoparse-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-items-api-openapi.yml
-- filename: octoparse-loop-api-openapi.yml
-  format: yaml
-  label: Octoparse Loop API
-  slug: octoparse-loop-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-loop-api-openapi.yml
-- filename: octoparse-move-api-openapi.yml
-  format: yaml
-  label: Octoparse Move API
-  slug: octoparse-move-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-move-api-openapi.yml
-- filename: octoparse-properties-api-openapi.yml
-  format: yaml
-  label: Octoparse Properties API
-  slug: octoparse-properties-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-properties-api-openapi.yml
-- filename: octoparse-remove-api-openapi.yml
-  format: yaml
-  label: Octoparse Remove API
-  slug: octoparse-remove-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-remove-api-openapi.yml
 - filename: octoparse-search-api-openapi.yml
   format: yaml
   label: Octoparse Search API
@@ -102,12 +78,6 @@ api_specs:
   slug: octoparse-subtasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-subtasks-api-openapi.yml
-- filename: octoparse-task-api-openapi.yml
-  format: yaml
-  label: Octoparse Task API
-  slug: octoparse-task-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-task-api-openapi.yml
 - filename: octoparse-token-api-openapi.yml
   format: yaml
   label: Octoparse Token API

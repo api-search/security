@@ -48,12 +48,6 @@ api_specs:
   slug: seldon-explain-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-explain-api-openapi.yml
-- filename: seldon-external-ambassador-api-api-openapi.yml
-  format: yaml
-  label: Seldon External Ambassador API API
-  slug: seldon-external-ambassador-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-external-ambassador-api-api-openapi.yml
 - filename: seldon-gitops-api-openapi.yml
   format: yaml
   label: Seldon GitOps API
@@ -108,12 +102,6 @@ api_specs:
   slug: seldon-metricsserver-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-metricsserver-api-openapi.yml
-- filename: seldon-model-api-openapi.yml
-  format: yaml
-  label: Seldon model API
-  slug: seldon-model-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-model-api-openapi.yml
 - filename: seldon-modelmetadataservice-api-openapi.yml
   format: yaml
   label: Seldon ModelMetadataService API
@@ -168,12 +156,6 @@ api_specs:
   slug: seldon-seldondeployments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-seldondeployments-api-openapi.yml
-- filename: seldon-server-api-openapi.yml
-  format: yaml
-  label: Seldon server API
-  slug: seldon-server-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-server-api-openapi.yml
 description: ''
 domains:
 - caa: []

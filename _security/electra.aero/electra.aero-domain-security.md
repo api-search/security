@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: electra.aero-content-openapi.yml
+- filename: electra.aero-news-api-openapi.yml
   format: yaml
-  label: Electra.aero Content API
-  slug: electraaero-content-api
+  label: Electra.aero News API
+  slug: electra.aero-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electra.aero/refs/heads/main/openapi/electra.aero-content-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/electra.aero/refs/heads/main/openapi/electra.aero-news-api-openapi.yml
 description: ''
 domains:
 - caa: []

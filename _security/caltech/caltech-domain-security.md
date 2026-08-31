@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: caltech-caltechdata-openapi.yml
+- filename: caltech-dataselect-api-openapi.yml
   format: yaml
-  label: CaltechDATA REST API
-  slug: caltechdata-rest
+  label: California Institute of Technology Data Select API
+  slug: caltech-dataselect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/openapi/caltech-caltechdata-openapi.yml
-- filename: caltech-scedc-fdsn-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/openapi/caltech-dataselect-api-openapi.yml
+- filename: caltech-event-api-openapi.yml
   format: yaml
-  label: SCEDC FDSN Web Services
-  slug: scedc-fdsn
+  label: California Institute of Technology Event API
+  slug: caltech-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/openapi/caltech-scedc-fdsn-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/openapi/caltech-event-api-openapi.yml
+- filename: caltech-records-api-openapi.yml
+  format: yaml
+  label: California Institute of Technology Records API
+  slug: caltech-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/openapi/caltech-records-api-openapi.yml
+- filename: caltech-station-api-openapi.yml
+  format: yaml
+  label: California Institute of Technology Station API
+  slug: caltech-station-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/openapi/caltech-station-api-openapi.yml
 description: ''
 domains:
 - caa: []

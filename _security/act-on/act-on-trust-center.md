@@ -1,17 +1,155 @@
 ---
 api_specs:
-- filename: act-on-rest-api-openapi.yml
+- filename: act-on-account-api-openapi.yml
   format: yaml
-  label: Act-On REST API
-  slug: act-on-rest-api
+  label: Act-On Account API
+  slug: act-on-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-rest-api-openapi.yml
-- filename: act-on-custom-objects-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-account-api-openapi.yml
+- filename: act-on-campaigns-api-openapi.yml
   format: yaml
-  label: Act-On Custom Objects Service
-  slug: act-on-custom-objects-service
+  label: Act-On Campaigns API
+  slug: act-on-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-custom-objects-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-campaigns-api-openapi.yml
+- filename: act-on-custom-data-dataset-api-api-openapi.yml
+  format: yaml
+  label: Act-On Custom Data Dataset API
+  slug: act-on-custom-data-dataset-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-custom-data-dataset-api-api-openapi.yml
+- filename: act-on-custom-data-query-api-api-openapi.yml
+  format: yaml
+  label: Act-On Custom Data Query API
+  slug: act-on-custom-data-query-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-custom-data-query-api-api-openapi.yml
+- filename: act-on-custom-data-schema-api-api-openapi.yml
+  format: yaml
+  label: Act-On Custom Data Schema API
+  slug: act-on-custom-data-schema-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-custom-data-schema-api-api-openapi.yml
+- filename: act-on-customevents-api-openapi.yml
+  format: yaml
+  label: Act-On Customevents API
+  slug: act-on-customevents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-customevents-api-openapi.yml
+- filename: act-on-ete-api-openapi.yml
+  format: yaml
+  label: Act-On Ete API
+  slug: act-on-ete-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-ete-api-openapi.yml
+- filename: act-on-footer-api-openapi.yml
+  format: yaml
+  label: Act-On Footer API
+  slug: act-on-footer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-footer-api-openapi.yml
+- filename: act-on-form-api-openapi.yml
+  format: yaml
+  label: Act-On Form API
+  slug: act-on-form-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-form-api-openapi.yml
+- filename: act-on-header-api-openapi.yml
+  format: yaml
+  label: Act-On Header API
+  slug: act-on-header-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-header-api-openapi.yml
+- filename: act-on-image-api-openapi.yml
+  format: yaml
+  label: Act-On Image API
+  slug: act-on-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-image-api-openapi.yml
+- filename: act-on-list-api-openapi.yml
+  format: yaml
+  label: Act-On List API
+  slug: act-on-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-list-api-openapi.yml
+- filename: act-on-logo-api-openapi.yml
+  format: yaml
+  label: Act-On Logo API
+  slug: act-on-logo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-logo-api-openapi.yml
+- filename: act-on-media-api-openapi.yml
+  format: yaml
+  label: Act-On Media API
+  slug: act-on-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-media-api-openapi.yml
+- filename: act-on-medialink-api-openapi.yml
+  format: yaml
+  label: Act-On Medialink API
+  slug: act-on-medialink-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-medialink-api-openapi.yml
+- filename: act-on-message-api-openapi.yml
+  format: yaml
+  label: Act-On Message API
+  slug: act-on-message-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-message-api-openapi.yml
+- filename: act-on-page-api-openapi.yml
+  format: yaml
+  label: Act-On Page API
+  slug: act-on-page-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-page-api-openapi.yml
+- filename: act-on-program-api-openapi.yml
+  format: yaml
+  label: Act-On Program API
+  slug: act-on-program-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-program-api-openapi.yml
+- filename: act-on-seokeywords-api-openapi.yml
+  format: yaml
+  label: Act-On Seokeywords API
+  slug: act-on-seokeywords-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-seokeywords-api-openapi.yml
+- filename: act-on-seoreport-api-openapi.yml
+  format: yaml
+  label: Act-On Seoreport API
+  slug: act-on-seoreport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-seoreport-api-openapi.yml
+- filename: act-on-subscription-api-openapi.yml
+  format: yaml
+  label: Act-On Subscription API
+  slug: act-on-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-subscription-api-openapi.yml
+- filename: act-on-token-api-openapi.yml
+  format: yaml
+  label: Act-On Token API
+  slug: act-on-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-token-api-openapi.yml
+- filename: act-on-token-grant-type-password-api-openapi.yml
+  format: yaml
+  label: Act-On Token?grant Type=password API
+  slug: act-on-token-grant-type-password-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-token-grant-type-password-api-openapi.yml
+- filename: act-on-ucl-api-openapi.yml
+  format: yaml
+  label: Act-On Ucl API
+  slug: act-on-ucl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-ucl-api-openapi.yml
+- filename: act-on-user-api-openapi.yml
+  format: yaml
+  label: Act-On User API
+  slug: act-on-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-user-api-openapi.yml
 certifications:
 - ISO 27001
 - HIPAA

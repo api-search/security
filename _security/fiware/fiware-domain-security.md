@@ -42,18 +42,6 @@ api_specs:
   slug: fiware-context-subscription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-context-subscription-api-openapi.yml
-- filename: fiware-csourceregistrations-api-openapi.yml
-  format: yaml
-  label: FIWARE CSourceRegistrations API
-  slug: fiware-csourceregistrations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-csourceregistrations-api-openapi.yml
-- filename: fiware-csourcesubscriptions-api-openapi.yml
-  format: yaml
-  label: FIWARE CSourceSubscriptions API
-  slug: fiware-csourcesubscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-csourcesubscriptions-api-openapi.yml
 - filename: fiware-entities-api-openapi.yml
   format: yaml
   label: FIWARE Entities API
@@ -72,12 +60,6 @@ api_specs:
   slug: fiware-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-subscriptions-api-openapi.yml
-- filename: fiware-temporal-api-openapi.yml
-  format: yaml
-  label: FIWARE Temporal API
-  slug: fiware-temporal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-temporal-api-openapi.yml
 - filename: fiware-temporal-evolution-api-openapi.yml
   format: yaml
   label: FIWARE Temporal Evolution API

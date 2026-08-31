@@ -500,102 +500,102 @@ api_specs:
   slug: cisco-crosswork-yang-library-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-yang-library-version-api-openapi.yml
-- filename: cisco-crosswork-cwm-adapters-api-openapi.yml
+- filename: cisco-crosswork-adapters-api-openapi.yml
   format: yaml
-  label: Cisco Crosswork Workflow Manager Adapters API
-  slug: cisco-crosswork-cwm-adapters-api
+  label: Cisco Crosswork Adapters API
+  slug: cisco-crosswork-adapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-cwm-adapters-api-openapi.yml
-- filename: cisco-crosswork-cwm-defaults-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-adapters-api-openapi.yml
+- filename: cisco-crosswork-defaults-api-openapi.yml
   format: yaml
-  label: Cisco Crosswork Workflow Manager Config Defaults API
-  slug: cisco-crosswork-cwm-defaults-api
+  label: Cisco Crosswork Defaults API
+  slug: cisco-crosswork-defaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-cwm-defaults-api-openapi.yml
-- filename: cisco-crosswork-cwm-event-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-defaults-api-openapi.yml
+- filename: cisco-crosswork-event-api-openapi.yml
   format: yaml
-  label: Cisco Crosswork Workflow Manager Events API
-  slug: cisco-crosswork-cwm-event-api
+  label: Cisco Crosswork Event API
+  slug: cisco-crosswork-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-cwm-event-api-openapi.yml
-- filename: cisco-crosswork-cwm-event-type-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-event-api-openapi.yml
+- filename: cisco-crosswork-eventtype-api-openapi.yml
   format: yaml
-  label: Cisco Crosswork Workflow Manager Event Types API
-  slug: cisco-crosswork-cwm-event-type-api
+  label: Cisco Crosswork Event Type API
+  slug: cisco-crosswork-eventtype-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-cwm-event-type-api-openapi.yml
-- filename: cisco-crosswork-cwm-forms-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-eventtype-api-openapi.yml
+- filename: cisco-crosswork-forms-api-openapi.yml
   format: yaml
-  label: Cisco Crosswork Workflow Manager Forms API
-  slug: cisco-crosswork-cwm-forms-api
+  label: Cisco Crosswork Forms API
+  slug: cisco-crosswork-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-cwm-forms-api-openapi.yml
-- filename: cisco-crosswork-cwm-jobs-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-forms-api-openapi.yml
+- filename: cisco-crosswork-jobs-api-openapi.yml
   format: yaml
-  label: Cisco Crosswork Workflow Manager Jobs API
-  slug: cisco-crosswork-cwm-jobs-api
+  label: Cisco Crosswork Jobs API
+  slug: cisco-crosswork-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-cwm-jobs-api-openapi.yml
-- filename: cisco-crosswork-cwm-mcp-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-jobs-api-openapi.yml
+- filename: cisco-crosswork-mcp-api-openapi.yml
   format: yaml
-  label: Cisco Crosswork Workflow Manager MCP API
-  slug: cisco-crosswork-cwm-mcp-api
+  label: Cisco Crosswork MCP API
+  slug: cisco-crosswork-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-cwm-mcp-api-openapi.yml
-- filename: cisco-crosswork-cwm-payload-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-mcp-api-openapi.yml
+- filename: cisco-crosswork-payload-api-openapi.yml
   format: yaml
-  label: Cisco Crosswork Workflow Manager Payload API
-  slug: cisco-crosswork-cwm-payload-api
+  label: Cisco Crosswork Payload API
+  slug: cisco-crosswork-payload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-cwm-payload-api-openapi.yml
-- filename: cisco-crosswork-cwm-public-key-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-payload-api-openapi.yml
+- filename: cisco-crosswork-publickey-api-openapi.yml
   format: yaml
-  label: Cisco Crosswork Workflow Manager Public Keys API
-  slug: cisco-crosswork-cwm-public-key-api
+  label: Cisco Crosswork Public Key API
+  slug: cisco-crosswork-publickey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-cwm-public-key-api-openapi.yml
-- filename: cisco-crosswork-cwm-resources-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-publickey-api-openapi.yml
+- filename: cisco-crosswork-resources-api-openapi.yml
   format: yaml
-  label: Cisco Crosswork Workflow Manager Resources API
-  slug: cisco-crosswork-cwm-resources-api
+  label: Cisco Crosswork Resources API
+  slug: cisco-crosswork-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-cwm-resources-api-openapi.yml
-- filename: cisco-crosswork-cwm-scheduler-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-resources-api-openapi.yml
+- filename: cisco-crosswork-scheduler-api-openapi.yml
   format: yaml
-  label: Cisco Crosswork Workflow Manager Scheduler API
-  slug: cisco-crosswork-cwm-scheduler-api
+  label: Cisco Crosswork Scheduler API
+  slug: cisco-crosswork-scheduler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-cwm-scheduler-api-openapi.yml
-- filename: cisco-crosswork-cwm-secrets-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-scheduler-api-openapi.yml
+- filename: cisco-crosswork-secrets-api-openapi.yml
   format: yaml
-  label: Cisco Crosswork Workflow Manager Secrets API
-  slug: cisco-crosswork-cwm-secrets-api
+  label: Cisco Crosswork Secrets API
+  slug: cisco-crosswork-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-cwm-secrets-api-openapi.yml
-- filename: cisco-crosswork-cwm-tasks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-secrets-api-openapi.yml
+- filename: cisco-crosswork-tasks-api-openapi.yml
   format: yaml
-  label: Cisco Crosswork Workflow Manager Tasks API
-  slug: cisco-crosswork-cwm-tasks-api
+  label: Cisco Crosswork Tasks API
+  slug: cisco-crosswork-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-cwm-tasks-api-openapi.yml
-- filename: cisco-crosswork-cwm-worker-profiles-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-tasks-api-openapi.yml
+- filename: cisco-crosswork-workerprofiles-api-openapi.yml
   format: yaml
-  label: Cisco Crosswork Workflow Manager Worker Profiles API
-  slug: cisco-crosswork-cwm-worker-profiles-api
+  label: Cisco Crosswork Worker Profiles API
+  slug: cisco-crosswork-workerprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-cwm-worker-profiles-api-openapi.yml
-- filename: cisco-crosswork-cwm-workers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-workerprofiles-api-openapi.yml
+- filename: cisco-crosswork-workers-api-openapi.yml
   format: yaml
-  label: Cisco Crosswork Workflow Manager Workers API
-  slug: cisco-crosswork-cwm-workers-api
+  label: Cisco Crosswork Workers API
+  slug: cisco-crosswork-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-cwm-workers-api-openapi.yml
-- filename: cisco-crosswork-cwm-workflow-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-workers-api-openapi.yml
+- filename: cisco-crosswork-workflow-api-openapi.yml
   format: yaml
-  label: Cisco Crosswork Workflow Manager Workflows API
-  slug: cisco-crosswork-cwm-workflow-api
+  label: Cisco Crosswork Workflow API
+  slug: cisco-crosswork-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-cwm-workflow-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-workflow-api-openapi.yml
 auth_types:
 - apiKey
 - http

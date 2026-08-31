@@ -1,23 +1,59 @@
 ---
 api_specs:
-- filename: powershop-cdr-energy-api-openapi.json
-  format: json
-  label: Powershop CDR Generic Tariff (Energy Plans) API
-  slug: powershop-cdr-generic-tariff-api
+- filename: powershop-data-holder-customers-api-openapi.yml
+  format: yaml
+  label: Powershop Data Holder Customers API
+  slug: powershop-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-cdr-energy-api-openapi.json
-- filename: powershop-cdr-common-api-openapi.json
-  format: json
-  label: Powershop CDR Discovery API
-  slug: powershop-cdr-discovery-api
+  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-data-holder-customers-api-openapi.yml
+- filename: powershop-data-holder-operations-api-openapi.yml
+  format: yaml
+  label: Powershop Data Holder Operations API
+  slug: powershop-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-cdr-common-api-openapi.json
-- filename: powershop-cdr-energy-api-openapi.json
-  format: json
-  label: Powershop CDR Energy Consumer Data API
-  slug: powershop-cdr-energy-consumer-data-api
+  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-data-holder-operations-api-openapi.yml
+- filename: powershop-distributed-energy-resources-api-openapi.yml
+  format: yaml
+  label: Powershop Distributed Energy Resources API
+  slug: powershop-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-cdr-energy-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-distributed-energy-resources-api-openapi.yml
+- filename: powershop-electricity-service-points-api-openapi.yml
+  format: yaml
+  label: Powershop Electricity Service Points API
+  slug: powershop-electricity-service-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-electricity-service-points-api-openapi.yml
+- filename: powershop-electricity-usage-api-openapi.yml
+  format: yaml
+  label: Powershop Electricity Usage API
+  slug: powershop-electricity-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-electricity-usage-api-openapi.yml
+- filename: powershop-energy-account-balances-api-openapi.yml
+  format: yaml
+  label: Powershop Energy Account Balances API
+  slug: powershop-energy-account-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-energy-account-balances-api-openapi.yml
+- filename: powershop-energy-account-billing-api-openapi.yml
+  format: yaml
+  label: Powershop Energy Account Billing API
+  slug: powershop-energy-account-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-energy-account-billing-api-openapi.yml
+- filename: powershop-energy-accounts-api-openapi.yml
+  format: yaml
+  label: Powershop Energy Accounts API
+  slug: powershop-energy-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-energy-accounts-api-openapi.yml
+- filename: powershop-energy-plans-api-openapi.yml
+  format: yaml
+  label: Powershop Energy Plans API
+  slug: powershop-energy-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-energy-plans-api-openapi.yml
 description: ''
 domains:
 - caa:

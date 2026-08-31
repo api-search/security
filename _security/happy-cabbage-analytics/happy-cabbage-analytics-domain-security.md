@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: happy-cabbage-analytics-happy-buyers-external-openapi.yml
+- filename: happy-cabbage-analytics-blockout-dates-api-openapi.yml
   format: yaml
-  label: Happy Buyers External API
-  slug: happy-buyers-external-api
+  label: Happy Cabbage Analytics Blockout Dates API
+  slug: happy-cabbage-analytics-blockout-dates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/openapi/happy-cabbage-analytics-happy-buyers-external-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/openapi/happy-cabbage-analytics-blockout-dates-api-openapi.yml
+- filename: happy-cabbage-analytics-daily-sales-metadata-api-openapi.yml
+  format: yaml
+  label: Happy Cabbage Analytics Daily Sales Metadata API
+  slug: happy-cabbage-analytics-daily-sales-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/openapi/happy-cabbage-analytics-daily-sales-metadata-api-openapi.yml
+- filename: happy-cabbage-analytics-identity-api-openapi.yml
+  format: yaml
+  label: Happy Cabbage Analytics Identity API
+  slug: happy-cabbage-analytics-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/openapi/happy-cabbage-analytics-identity-api-openapi.yml
+- filename: happy-cabbage-analytics-inventory-health-api-openapi.yml
+  format: yaml
+  label: Happy Cabbage Analytics Inventory Health API
+  slug: happy-cabbage-analytics-inventory-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/openapi/happy-cabbage-analytics-inventory-health-api-openapi.yml
+- filename: happy-cabbage-analytics-orders-api-openapi.yml
+  format: yaml
+  label: Happy Cabbage Analytics Orders API
+  slug: happy-cabbage-analytics-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/openapi/happy-cabbage-analytics-orders-api-openapi.yml
+- filename: happy-cabbage-analytics-packages-api-openapi.yml
+  format: yaml
+  label: Happy Cabbage Analytics Packages API
+  slug: happy-cabbage-analytics-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/openapi/happy-cabbage-analytics-packages-api-openapi.yml
+- filename: happy-cabbage-analytics-pos-brands-api-openapi.yml
+  format: yaml
+  label: Happy Cabbage Analytics POS Brands API
+  slug: happy-cabbage-analytics-pos-brands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/openapi/happy-cabbage-analytics-pos-brands-api-openapi.yml
+- filename: happy-cabbage-analytics-pos-categories-api-openapi.yml
+  format: yaml
+  label: Happy Cabbage Analytics POS Categories API
+  slug: happy-cabbage-analytics-pos-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/openapi/happy-cabbage-analytics-pos-categories-api-openapi.yml
+- filename: happy-cabbage-analytics-product-inventory-api-openapi.yml
+  format: yaml
+  label: Happy Cabbage Analytics Product Inventory API
+  slug: happy-cabbage-analytics-product-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/openapi/happy-cabbage-analytics-product-inventory-api-openapi.yml
+- filename: happy-cabbage-analytics-product-line-inventory-api-openapi.yml
+  format: yaml
+  label: Happy Cabbage Analytics Product Line Inventory API
+  slug: happy-cabbage-analytics-product-line-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/openapi/happy-cabbage-analytics-product-line-inventory-api-openapi.yml
+- filename: happy-cabbage-analytics-product-lines-api-openapi.yml
+  format: yaml
+  label: Happy Cabbage Analytics Product Lines API
+  slug: happy-cabbage-analytics-product-lines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/openapi/happy-cabbage-analytics-product-lines-api-openapi.yml
+- filename: happy-cabbage-analytics-stores-api-openapi.yml
+  format: yaml
+  label: Happy Cabbage Analytics Stores API
+  slug: happy-cabbage-analytics-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/openapi/happy-cabbage-analytics-stores-api-openapi.yml
+- filename: happy-cabbage-analytics-universal-brands-api-openapi.yml
+  format: yaml
+  label: Happy Cabbage Analytics Universal Brands API
+  slug: happy-cabbage-analytics-universal-brands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/openapi/happy-cabbage-analytics-universal-brands-api-openapi.yml
+- filename: happy-cabbage-analytics-universal-categories-api-openapi.yml
+  format: yaml
+  label: Happy Cabbage Analytics Universal Categories API
+  slug: happy-cabbage-analytics-universal-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/openapi/happy-cabbage-analytics-universal-categories-api-openapi.yml
 description: ''
 domains:
 - caa: []

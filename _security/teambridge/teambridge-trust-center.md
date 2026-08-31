@@ -24,6 +24,12 @@ api_specs:
   slug: teambridge-utilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/openapi/teambridge-utilities-api-openapi.yml
+- filename: teambridge-teambridge-external-api-api-openapi.yml
+  format: yaml
+  label: Teambridge Teambridge External API
+  slug: teambridge-teambridge-external-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/openapi/teambridge-teambridge-external-api-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

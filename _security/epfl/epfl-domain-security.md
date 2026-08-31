@@ -12,12 +12,12 @@ api_specs:
   slug: memento-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/openapi/_original/epfl-memento.yaml
-- filename: epfl-getprime-api-openapi.yml
+- filename: epfl-primers-api-openapi.yml
   format: yaml
-  label: EPFL GETprime qPCR Primer API
-  slug: getprime
+  label: EPFL Primers API
+  slug: epfl-primers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/openapi/epfl-getprime-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/openapi/epfl-primers-api-openapi.yml
 description: ''
 domains:
 - caa: []

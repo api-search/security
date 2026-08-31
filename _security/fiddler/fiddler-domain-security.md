@@ -8,7 +8,7 @@ domains:
   domain: telerik.com
   spf: true
 hosts:
-- cert_expires: Sep 16 21:12:01 2026 GMT
+- cert_expires: Nov 15 00:09:16 2026 GMT
   host: www.telerik.com
   hsts: true
   hsts_max_age: 31536000
@@ -26,7 +26,7 @@ slug: fiddler-domain-security
 source_filename: fiddler-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.telerik.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 21:12:01 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: telerik.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.telerik.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 00:09:16 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: telerik.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/security/fiddler-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -36,4 +36,7 @@ tags:
 - Performance Testing
 - Traffic Inspection
 - Web Development
+- Developer Tools
+- Model Context Protocol
+- Agent Tooling
 ---

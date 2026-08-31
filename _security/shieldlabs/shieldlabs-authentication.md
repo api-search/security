@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: shieldlabs-server-api-openapi.yml
+- filename: shieldlabs-history-api-api-openapi.yml
   format: yaml
-  label: ShieldLabs Server API
-  slug: shieldlabs-server-api
+  label: ShieldLabs History API
+  slug: shieldlabs-history-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/openapi/shieldlabs-server-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/openapi/shieldlabs-history-api-api-openapi.yml
+- filename: shieldlabs-management-api-api-openapi.yml
+  format: yaml
+  label: ShieldLabs Management API
+  slug: shieldlabs-management-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/openapi/shieldlabs-management-api-api-openapi.yml
+- filename: shieldlabs-shieldlabs-api-api-openapi.yml
+  format: yaml
+  label: ShieldLabs ShieldLabs API
+  slug: shieldlabs-shieldlabs-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/openapi/shieldlabs-shieldlabs-api-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: chronosphere-config-v1-openapi3.json
+  format: json
+  label: Chronosphere
+  slug: chronosphere
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/_original/chronosphere-config-v1-openapi3.json
 - filename: chronosphere-bucket-api-openapi.yml
   format: yaml
   label: Chronosphere Bucket API
@@ -192,6 +198,18 @@ api_specs:
   slug: chronosphere-tracetailsamplingrules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-tracetailsamplingrules-api-openapi.yml
+- filename: chronosphere-data-v1-api-openapi.json
+  format: json
+  label: Chronosphere Data V1 API
+  slug: chronosphere-data-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-data-v1-api-openapi.json
+- filename: chronosphere-state-v1-api-openapi.json
+  format: json
+  label: Chronosphere State V1 API
+  slug: chronosphere-state-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-state-v1-api-openapi.json
 description: ''
 domains:
 - caa: []
@@ -201,7 +219,7 @@ domains:
   domain: chronosphere.io
   spf: true
 hosts:
-- cert_expires: Sep 26 07:13:04 2026 GMT
+- cert_expires: Nov 24 08:02:49 2026 GMT
   host: chronosphere.io
   hsts: false
   https: true
@@ -218,10 +236,22 @@ slug: chronosphere-domain-security
 source_filename: chronosphere-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: chronosphere.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 07:13:04 2026 GMT\n  hsts: false\ndomains:\n- domain: chronosphere.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: chronosphere.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 08:02:49 2026 GMT\n  hsts: false\ndomains:\n- domain: chronosphere.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/security/chronosphere-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- AIOps
 - Observability
+- AIOps
+- Monitoring
+- Metrics
+- Logging
+- Distributed Tracing
+- Telemetry
+- OpenTelemetry
+- Prometheus
+- Alerting
+- SLO
+- Infrastructure as Code
+- MCP
+- Agent Ready
 ---

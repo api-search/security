@@ -48,30 +48,36 @@ api_specs:
   slug: aweber-subscribers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-subscribers-api-openapi.yml
-- filename: aweber-web-forms-api-openapi.yml
-  format: yaml
-  label: AWeber Web Forms API
-  slug: aweber-web-forms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-web-forms-api-openapi.yml
 - filename: aweber-integrations-api-openapi.yml
   format: yaml
   label: AWeber Integrations API
   slug: aweber-integrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-integrations-api-openapi.yml
-- filename: aweber-authentication-api-openapi.yml
+- filename: aweber-beta-endpoints-api-openapi.yml
   format: yaml
-  label: AWeber Authentication API
-  slug: aweber-authentication-api
+  label: AWeber Beta Endpoints API
+  slug: aweber-beta-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-authentication-api-openapi.yml
-- filename: aweber-beta-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-beta-endpoints-api-openapi.yml
+- filename: aweber-oauth-1-0a-reference-api-openapi.yml
   format: yaml
-  label: AWeber Beta API
-  slug: aweber-beta-api
+  label: AWeber OAuth 1.0a Reference API
+  slug: aweber-oauth-1-0a-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-beta-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-oauth-1-0a-reference-api-openapi.yml
+- filename: aweber-oauth-2-0-reference-api-openapi.yml
+  format: yaml
+  label: AWeber OAuth 2.0 Reference API
+  slug: aweber-oauth-2-0-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-oauth-2-0-reference-api-openapi.yml
+- filename: aweber-webforms-api-openapi.yml
+  format: yaml
+  label: AWeber Webforms API
+  slug: aweber-webforms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-webforms-api-openapi.yml
 certifications:
 - PCI Security certification
 - Privacy Shield certification

@@ -138,8 +138,8 @@ method: derived
 name: Automation Anywhere Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: automation-anywhere secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: automation-anywhere
+overview: Automation Anywhere secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Automation Anywhere
 provider_slug: automation-anywhere
 scheme_count: 2
 schemes:

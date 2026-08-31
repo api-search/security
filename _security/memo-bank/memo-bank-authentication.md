@@ -1,24 +1,96 @@
 ---
 api_key_in: []
 api_specs:
-- filename: memo-bank-premium-bank-api-openapi.yml
+- filename: memo-bank-account-assessments-api-openapi.yml
   format: yaml
-  label: Memo Bank Premium Bank API
-  slug: memo-bank-premium-bank-api
+  label: Memo Bank Account assessments API
+  slug: memo-bank-account-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-premium-bank-api-openapi.yml
-- filename: memo-bank-marketplace-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-account-assessments-api-openapi.yml
+- filename: memo-bank-accounts-api-openapi.yml
   format: yaml
-  label: Memo Bank Marketplace API
-  slug: memo-bank-marketplace-api
+  label: Memo Bank Accounts API
+  slug: memo-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-marketplace-api-openapi.yml
-- filename: memo-bank-nextgenpsd2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-accounts-api-openapi.yml
+- filename: memo-bank-ais-api-openapi.yml
   format: yaml
-  label: Memo Bank NextGenPSD2 API
-  slug: memo-bank-nextgenpsd2-api
+  label: Memo Bank AIS API
+  slug: memo-bank-ais-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-nextgenpsd2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-ais-api-openapi.yml
+- filename: memo-bank-attachments-api-openapi.yml
+  format: yaml
+  label: Memo Bank Attachments API
+  slug: memo-bank-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-attachments-api-openapi.yml
+- filename: memo-bank-collections-api-openapi.yml
+  format: yaml
+  label: Memo Bank Collections API
+  slug: memo-bank-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-collections-api-openapi.yml
+- filename: memo-bank-ibans-api-openapi.yml
+  format: yaml
+  label: Memo Bank IBA Ns API
+  slug: memo-bank-ibans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-ibans-api-openapi.yml
+- filename: memo-bank-mandate-signature-requests-api-openapi.yml
+  format: yaml
+  label: Memo Bank Mandate signature requests API
+  slug: memo-bank-mandate-signature-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-mandate-signature-requests-api-openapi.yml
+- filename: memo-bank-oauth2-api-openapi.yml
+  format: yaml
+  label: Memo Bank O Auth2 API
+  slug: memo-bank-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-oauth2-api-openapi.yml
+- filename: memo-bank-pis-api-openapi.yml
+  format: yaml
+  label: Memo Bank PIS API
+  slug: memo-bank-pis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-pis-api-openapi.yml
+- filename: memo-bank-sandbox-api-openapi.yml
+  format: yaml
+  label: Memo Bank Sandbox API
+  slug: memo-bank-sandbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-sandbox-api-openapi.yml
+- filename: memo-bank-transactions-api-openapi.yml
+  format: yaml
+  label: Memo Bank Transactions API
+  slug: memo-bank-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-transactions-api-openapi.yml
+- filename: memo-bank-transfers-api-openapi.yml
+  format: yaml
+  label: Memo Bank Transfers API
+  slug: memo-bank-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-transfers-api-openapi.yml
+- filename: memo-bank-webhook-api-openapi.yml
+  format: yaml
+  label: Memo Bank Webhook API
+  slug: memo-bank-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-webhook-api-openapi.yml
+- filename: memo-bank-webhooks-api-openapi.yml
+  format: yaml
+  label: Memo Bank Webhooks API
+  slug: memo-bank-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-webhooks-api-openapi.yml
+- filename: memo-bank-wire-transfers-api-openapi.yml
+  format: yaml
+  label: Memo Bank Wire Transfers API
+  slug: memo-bank-wire-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-wire-transfers-api-openapi.yml
 auth_types:
 - http
 - oauth2

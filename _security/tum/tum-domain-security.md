@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: tum-campus-backend-openapi.yml
-  format: yaml
-  label: TUM Campus App Backend API
-  slug: campus-backend
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-campus-backend-openapi.yml
 - filename: tum-locations-api-openapi.yml
   format: yaml
   label: NavigaTUM
@@ -18,6 +12,12 @@ api_specs:
   slug: eat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-menu-api-openapi.yml
+- filename: tum-campus-api-openapi.yml
+  format: yaml
+  label: Technical University of Munich Campus API
+  slug: tum-campus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-campus-api-openapi.yml
 description: ''
 domains:
 - caa: []

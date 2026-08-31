@@ -1,35 +1,17 @@
 ---
 api_specs:
-- filename: debian-sources-api-openapi.yml
-  format: yaml
-  label: Debian Sources API
-  slug: debian-sources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/openapi/debian-sources-api-openapi.yml
 - filename: debian-bugs-api-openapi.yml
   format: yaml
   label: Debian Bugs API
   slug: debian-bugs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/openapi/debian-bugs-api-openapi.yml
-- filename: debian-copyright-api-openapi.yml
-  format: yaml
-  label: Debian Copyright API
-  slug: debian-copyright-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/openapi/debian-copyright-api-openapi.yml
 - filename: debian-maintainers-api-openapi.yml
   format: yaml
   label: Debian Maintainers API
   slug: debian-maintainers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/openapi/debian-maintainers-api-openapi.yml
-- filename: debian-patches-api-openapi.yml
-  format: yaml
-  label: Debian Patches API
-  slug: debian-patches-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/openapi/debian-patches-api-openapi.yml
 - filename: debian-reproducibility-api-openapi.yml
   format: yaml
   label: Debian Reproducibility API

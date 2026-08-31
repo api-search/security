@@ -2,24 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: halo-connect-integrator-openapi.json
-  format: json
-  label: Halo Cloud API for Integrators
-  slug: halo-cloud-integrator-api
+- filename: halo-connect-fhir-api-openapi.yml
+  format: yaml
+  label: Halo Connect FHIR API
+  slug: halo-connect-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-integrator-openapi.json
-- filename: halo-connect-desktop-openapi.json
-  format: json
-  label: Halo Cloud API for Desktop Applications
-  slug: halo-cloud-desktop-api
+  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-fhir-api-openapi.yml
+- filename: halo-connect-registered-queries-api-openapi.yml
+  format: yaml
+  label: Halo Connect Registered Queries API
+  slug: halo-connect-registered-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-desktop-openapi.json
-- filename: halo-connect-integrator-openapi.json
-  format: json
-  label: Halo Cloud FHIR API
-  slug: halo-cloud-fhir-api
+  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-registered-queries-api-openapi.yml
+- filename: halo-connect-sites-api-openapi.yml
+  format: yaml
+  label: Halo Connect Sites API
+  slug: halo-connect-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-integrator-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-sites-api-openapi.yml
+- filename: halo-connect-sql-passthrough-api-openapi.yml
+  format: yaml
+  label: Halo Connect SQL Passthrough API
+  slug: halo-connect-sql-passthrough-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-sql-passthrough-api-openapi.yml
+- filename: halo-connect-tokens-api-openapi.yml
+  format: yaml
+  label: Halo Connect Tokens API
+  slug: halo-connect-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-tokens-api-openapi.yml
 auth_types:
 - apiKey
 - http

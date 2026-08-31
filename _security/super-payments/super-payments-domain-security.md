@@ -48,6 +48,12 @@ api_specs:
   slug: super-payments-settlements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-settlements-api-openapi.yml
+- filename: super-payments-webhooks-api-openapi.yml
+  format: yaml
+  label: Super Payments Webhooks API
+  slug: super-payments-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

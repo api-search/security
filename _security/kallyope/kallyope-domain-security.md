@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: kallyope-content-api-openapi.yml
+- filename: kallyope-discovery-api-openapi.yml
   format: yaml
-  label: Kallyope Content REST API
-  slug: content-api
+  label: Kallyope Discovery API
+  slug: kallyope-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/openapi/kallyope-content-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/openapi/kallyope-discovery-api-openapi.yml
+- filename: kallyope-documents-api-openapi.yml
+  format: yaml
+  label: Kallyope Documents API
+  slug: kallyope-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/openapi/kallyope-documents-api-openapi.yml
+- filename: kallyope-media-api-openapi.yml
+  format: yaml
+  label: Kallyope Media API
+  slug: kallyope-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/openapi/kallyope-media-api-openapi.yml
+- filename: kallyope-news-api-openapi.yml
+  format: yaml
+  label: Kallyope News API
+  slug: kallyope-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/openapi/kallyope-news-api-openapi.yml
+- filename: kallyope-pages-api-openapi.yml
+  format: yaml
+  label: Kallyope Pages API
+  slug: kallyope-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/openapi/kallyope-pages-api-openapi.yml
+- filename: kallyope-taxonomies-api-openapi.yml
+  format: yaml
+  label: Kallyope Taxonomies API
+  slug: kallyope-taxonomies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/openapi/kallyope-taxonomies-api-openapi.yml
 description: ''
 domains:
 - caa: []

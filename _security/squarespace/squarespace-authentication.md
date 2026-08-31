@@ -43,12 +43,36 @@ api_specs:
   slug: squarespace-site-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-site-api-openapi.yml
-- filename: squarespace-commerce-api-v2-openapi.json
-  format: json
-  label: Squarespace Commerce API
-  slug: squarespace-commerce-api
+- filename: squarespace-analytics-api-openapi.yml
+  format: yaml
+  label: Squarespace Analytics API
+  slug: squarespace-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-commerce-api-v2-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-analytics-api-openapi.yml
+- filename: squarespace-contacts-api-openapi.yml
+  format: yaml
+  label: Squarespace Contacts API
+  slug: squarespace-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-contacts-api-openapi.yml
+- filename: squarespace-discounts-api-openapi.yml
+  format: yaml
+  label: Squarespace Discounts API
+  slug: squarespace-discounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-discounts-api-openapi.yml
+- filename: squarespace-webhooksubscriptions-api-openapi.yml
+  format: yaml
+  label: Squarespace Webhook Subscriptions API
+  slug: squarespace-webhooksubscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-webhooksubscriptions-api-openapi.yml
+- filename: squarespace-websites-api-openapi.yml
+  format: yaml
+  label: Squarespace Websites API
+  slug: squarespace-websites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-websites-api-openapi.yml
 auth_types:
 - http
 - oauth2

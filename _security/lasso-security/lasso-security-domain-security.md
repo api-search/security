@@ -6,12 +6,6 @@ api_specs:
   slug: lasso-security-classify-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/openapi/lasso-security-classify-api-openapi.yml
-- filename: lasso-security-masking-api-openapi.yml
-  format: yaml
-  label: Lasso Security Masking API
-  slug: lasso-security-masking-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/openapi/lasso-security-masking-api-openapi.yml
 description: ''
 domains:
 - caa:

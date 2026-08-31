@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: swagger.json
-  format: json
-  label: OwnLocal API
-  slug: ownlocal-api
+- filename: ownlocal-ads-api-openapi.yml
+  format: yaml
+  label: OwnLocal Ads API
+  slug: ownlocal-ads-api
   spec_type: OpenAPI
-  url: https://admin.austin.ownlocal.com/api-docs/v1/swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/openapi/ownlocal-ads-api-openapi.yml
+- filename: ownlocal-businesses-api-openapi.yml
+  format: yaml
+  label: OwnLocal Businesses API
+  slug: ownlocal-businesses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/openapi/ownlocal-businesses-api-openapi.yml
+- filename: ownlocal-categories-api-openapi.yml
+  format: yaml
+  label: OwnLocal Categories API
+  slug: ownlocal-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/openapi/ownlocal-categories-api-openapi.yml
+- filename: ownlocal-reports-data-api-api-openapi.yml
+  format: yaml
+  label: OwnLocal Reports Data API
+  slug: ownlocal-reports-data-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/openapi/ownlocal-reports-data-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

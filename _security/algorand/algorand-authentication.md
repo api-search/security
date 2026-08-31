@@ -8,18 +8,6 @@ api_specs:
   slug: algorand-common-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-common-api-openapi.yml
-- filename: algorand-data-api-openapi.yml
-  format: yaml
-  label: Algorand data API
-  slug: algorand-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-data-api-openapi.yml
-- filename: algorand-experimental-api-openapi.yml
-  format: yaml
-  label: Algorand experimental API
-  slug: algorand-experimental-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-experimental-api-openapi.yml
 - filename: algorand-key-api-openapi.yml
   format: yaml
   label: Algorand Key API
@@ -44,18 +32,6 @@ api_specs:
   slug: algorand-multisig-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-multisig-api-openapi.yml
-- filename: algorand-nonparticipating-api-openapi.yml
-  format: yaml
-  label: Algorand nonparticipating API
-  slug: algorand-nonparticipating-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-nonparticipating-api-openapi.yml
-- filename: algorand-participating-api-openapi.yml
-  format: yaml
-  label: Algorand participating API
-  slug: algorand-participating-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-participating-api-openapi.yml
 - filename: algorand-private-api-openapi.yml
   format: yaml
   label: Algorand private API

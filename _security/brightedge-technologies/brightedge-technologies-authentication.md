@@ -51,42 +51,18 @@ api_specs:
   slug: brightedge-technologies-chrome-extension-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-chrome-extension-api-openapi.yml
-- filename: brightedge-technologies-chrome-extension-keywords-api-openapi.yml
-  format: yaml
-  label: BrightEdge Technologies Chrome Extension Keywords API
-  slug: brightedge-technologies-chrome-extension-keywords-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-chrome-extension-keywords-api-openapi.yml
-- filename: brightedge-technologies-chrome-extension-overview-api-openapi.yml
-  format: yaml
-  label: BrightEdge Technologies Chrome Extension Overview API
-  slug: brightedge-technologies-chrome-extension-overview-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-chrome-extension-overview-api-openapi.yml
 - filename: brightedge-technologies-chromeextension-api-openapi.yml
   format: yaml
   label: BrightEdge Technologies chromeextension API
   slug: brightedge-technologies-chromeextension-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-chromeextension-api-openapi.yml
-- filename: brightedge-technologies-competitors-api-openapi.yml
-  format: yaml
-  label: BrightEdge Technologies competitors API
-  slug: brightedge-technologies-competitors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-competitors-api-openapi.yml
 - filename: brightedge-technologies-core-api-openapi.yml
   format: yaml
   label: BrightEdge Technologies core API
   slug: brightedge-technologies-core-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-core-api-openapi.yml
-- filename: brightedge-technologies-datacube-searchengines-api-openapi.yml
-  format: yaml
-  label: BrightEdge Technologies datacube_searchengines API
-  slug: brightedge-technologies-datacube-searchengines-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-datacube-searchengines-api-openapi.yml
 - filename: brightedge-technologies-dataset-api-openapi.yml
   format: yaml
   label: BrightEdge Technologies dataset API
@@ -147,60 +123,18 @@ api_specs:
   slug: brightedge-technologies-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-organizations-api-openapi.yml
-- filename: brightedge-technologies-paa-per-keyword-api-openapi.yml
-  format: yaml
-  label: BrightEdge Technologies paa per keyword API
-  slug: brightedge-technologies-paa-per-keyword-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-paa-per-keyword-api-openapi.yml
-- filename: brightedge-technologies-page-cache-api-openapi.yml
-  format: yaml
-  label: BrightEdge Technologies page cache API
-  slug: brightedge-technologies-page-cache-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-page-cache-api-openapi.yml
-- filename: brightedge-technologies-page-crawl-api-openapi.yml
-  format: yaml
-  label: BrightEdge Technologies page crawl API
-  slug: brightedge-technologies-page-crawl-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-page-crawl-api-openapi.yml
 - filename: brightedge-technologies-pages-api-openapi.yml
   format: yaml
   label: BrightEdge Technologies Pages API
   slug: brightedge-technologies-pages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-pages-api-openapi.yml
-- filename: brightedge-technologies-people-also-ask-api-openapi.yml
-  format: yaml
-  label: BrightEdge Technologies people_also_ask API
-  slug: brightedge-technologies-people-also-ask-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-people-also-ask-api-openapi.yml
-- filename: brightedge-technologies-ping-api-openapi.yml
-  format: yaml
-  label: BrightEdge Technologies ping API
-  slug: brightedge-technologies-ping-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-ping-api-openapi.yml
 - filename: brightedge-technologies-product-grid-api-openapi.yml
   format: yaml
   label: BrightEdge Technologies product_grid API
   slug: brightedge-technologies-product-grid-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-product-grid-api-openapi.yml
-- filename: brightedge-technologies-qa-api-openapi.yml
-  format: yaml
-  label: BrightEdge Technologies qa API
-  slug: brightedge-technologies-qa-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-qa-api-openapi.yml
-- filename: brightedge-technologies-query-api-openapi.yml
-  format: yaml
-  label: BrightEdge Technologies query API
-  slug: brightedge-technologies-query-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-query-api-openapi.yml
 - filename: brightedge-technologies-recommendations-api-openapi.yml
   format: yaml
   label: BrightEdge Technologies recommendations API
@@ -225,24 +159,6 @@ api_specs:
   slug: brightedge-technologies-time-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-time-api-openapi.yml
-- filename: brightedge-technologies-top-keywords-for-a-domain-api-openapi.yml
-  format: yaml
-  label: BrightEdge Technologies top keywords for a domain API
-  slug: brightedge-technologies-top-keywords-for-a-domain-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-top-keywords-for-a-domain-api-openapi.yml
-- filename: brightedge-technologies-top-keywords-per-page-api-openapi.yml
-  format: yaml
-  label: BrightEdge Technologies top keywords per page API
-  slug: brightedge-technologies-top-keywords-per-page-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-top-keywords-per-page-api-openapi.yml
-- filename: brightedge-technologies-top-pages-api-openapi.yml
-  format: yaml
-  label: BrightEdge Technologies top pages API
-  slug: brightedge-technologies-top-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-top-pages-api-openapi.yml
 - filename: brightedge-technologies-user-settings-api-openapi.yml
   format: yaml
   label: BrightEdge Technologies user_settings API
@@ -261,12 +177,6 @@ api_specs:
   slug: brightedge-technologies-web-vitals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-web-vitals-api-openapi.yml
-- filename: brightedge-technologies-webhook-api-openapi.yml
-  format: yaml
-  label: BrightEdge Technologies webhook API
-  slug: brightedge-technologies-webhook-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/openapi/brightedge-technologies-webhook-api-openapi.yml
 auth_types:
 - apiKey
 - http

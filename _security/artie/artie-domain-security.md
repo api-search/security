@@ -54,6 +54,12 @@ api_specs:
   slug: artie-ssh-tunnels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-ssh-tunnels-api-openapi.yml
+- filename: artie-artie-api-api-openapi.yml
+  format: yaml
+  label: Artie Artie API
+  slug: artie-artie-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-artie-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

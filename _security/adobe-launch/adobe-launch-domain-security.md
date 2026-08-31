@@ -24,12 +24,12 @@ api_specs:
   slug: adobe-launch-data-elements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-data-elements-api-openapi.yml
-- filename: adobe-launch-edge-network-published-openapi.yml
+- filename: adobe-launch-edge-network-api-api-openapi.yml
   format: yaml
   label: Adobe Launch Edge Network API API
   slug: adobe-launch-edge-network-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-edge-network-published-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-edge-network-api-api-openapi.yml
 - filename: adobe-launch-environments-api-openapi.yml
   format: yaml
   label: Adobe Launch Environments API
@@ -60,12 +60,12 @@ api_specs:
   slug: adobe-launch-libraries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-libraries-api-openapi.yml
-- filename: adobe-launch-media-edge-published-openapi.yml
+- filename: adobe-launch-media-edge-api-api-openapi.yml
   format: yaml
   label: Adobe Launch Media Edge API API
   slug: adobe-launch-media-edge-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-media-edge-published-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-media-edge-api-api-openapi.yml
 - filename: adobe-launch-properties-api-openapi.yml
   format: yaml
   label: Adobe Launch Properties API
@@ -96,12 +96,126 @@ api_specs:
   slug: adobe-launch-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-secrets-api-openapi.yml
-- filename: adobe-launch-reactor-api-published-openapi.yml
+- filename: adobe-launch-ad-api-openapi.yml
   format: yaml
-  label: Adobe Launch Reactor API
-  slug: adobe-launch-reactor-api
+  label: Adobe Launch Ad API
+  slug: adobe-launch-ad-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-reactor-api-published-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-ad-api-openapi.yml
+- filename: adobe-launch-ad-break-api-openapi.yml
+  format: yaml
+  label: Adobe Launch Ad Break API
+  slug: adobe-launch-ad-break-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-ad-break-api-openapi.yml
+- filename: adobe-launch-app-configurations-api-openapi.yml
+  format: yaml
+  label: Adobe Launch App configurations API
+  slug: adobe-launch-app-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-app-configurations-api-openapi.yml
+- filename: adobe-launch-audit-events-api-openapi.yml
+  format: yaml
+  label: Adobe Launch Audit events API
+  slug: adobe-launch-audit-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-audit-events-api-openapi.yml
+- filename: adobe-launch-bitrate-api-openapi.yml
+  format: yaml
+  label: Adobe Launch Bitrate API
+  slug: adobe-launch-bitrate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-bitrate-api-openapi.yml
+- filename: adobe-launch-buffer-api-openapi.yml
+  format: yaml
+  label: Adobe Launch Buffer API
+  slug: adobe-launch-buffer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-buffer-api-openapi.yml
+- filename: adobe-launch-chapter-api-openapi.yml
+  format: yaml
+  label: Adobe Launch Chapter API
+  slug: adobe-launch-chapter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-chapter-api-openapi.yml
+- filename: adobe-launch-client-to-server-collection-api-openapi.yml
+  format: yaml
+  label: Adobe Launch Client-to-server collection API
+  slug: adobe-launch-client-to-server-collection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-client-to-server-collection-api-openapi.yml
+- filename: adobe-launch-download-api-openapi.yml
+  format: yaml
+  label: Adobe Launch Download API
+  slug: adobe-launch-download-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-download-api-openapi.yml
+- filename: adobe-launch-error-api-openapi.yml
+  format: yaml
+  label: Adobe Launch Error API
+  slug: adobe-launch-error-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-error-api-openapi.yml
+- filename: adobe-launch-extension-package-usage-authorization-api-openapi.yml
+  format: yaml
+  label: Adobe Launch Extension package usage authorization API
+  slug: adobe-launch-extension-package-usage-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-extension-package-usage-authorization-api-openapi.yml
+- filename: adobe-launch-notes-api-openapi.yml
+  format: yaml
+  label: Adobe Launch Notes API
+  slug: adobe-launch-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-notes-api-openapi.yml
+- filename: adobe-launch-pause-api-openapi.yml
+  format: yaml
+  label: Adobe Launch Pause API
+  slug: adobe-launch-pause-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-pause-api-openapi.yml
+- filename: adobe-launch-ping-api-openapi.yml
+  format: yaml
+  label: Adobe Launch Ping API
+  slug: adobe-launch-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-ping-api-openapi.yml
+- filename: adobe-launch-play-api-openapi.yml
+  format: yaml
+  label: Adobe Launch Play API
+  slug: adobe-launch-play-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-play-api-openapi.yml
+- filename: adobe-launch-profile-updates-api-openapi.yml
+  format: yaml
+  label: Adobe Launch Profile updates API
+  slug: adobe-launch-profile-updates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-profile-updates-api-openapi.yml
+- filename: adobe-launch-profiles-api-openapi.yml
+  format: yaml
+  label: Adobe Launch Profiles API
+  slug: adobe-launch-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-profiles-api-openapi.yml
+- filename: adobe-launch-server-to-server-collection-api-openapi.yml
+  format: yaml
+  label: Adobe Launch Server-to-server collection API
+  slug: adobe-launch-server-to-server-collection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-server-to-server-collection-api-openapi.yml
+- filename: adobe-launch-session-api-openapi.yml
+  format: yaml
+  label: Adobe Launch Session API
+  slug: adobe-launch-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-session-api-openapi.yml
+- filename: adobe-launch-states-api-openapi.yml
+  format: yaml
+  label: Adobe Launch States API
+  slug: adobe-launch-states-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-states-api-openapi.yml
 description: ''
 domains:
 - caa: []

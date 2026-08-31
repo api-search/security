@@ -66,6 +66,18 @@ api_specs:
   slug: mistral-ocr-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-ocr-api-openapi.yml
+- filename: mistral-chat-completions-api-openapi.yml
+  format: yaml
+  label: Mistral AI Chat Completions API
+  slug: mistral-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-chat-completions-api-openapi.yml
+- filename: mistral-training-jobs-api-openapi.yml
+  format: yaml
+  label: Mistral AI Training Jobs API
+  slug: mistral-training-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-training-jobs-api-openapi.yml
 description: ''
 domains:
 - caa:

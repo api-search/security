@@ -61,6 +61,24 @@ api_specs:
   slug: spring-threads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-threads-api-openapi.yml
+- filename: spring-filters-api-openapi.yml
+  format: yaml
+  label: Spring Framework Filters API
+  slug: spring-filters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-filters-api-openapi.yml
+- filename: spring-predicates-api-openapi.yml
+  format: yaml
+  label: Spring Framework Predicates API
+  slug: spring-predicates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-predicates-api-openapi.yml
+- filename: spring-routes-api-openapi.yml
+  format: yaml
+  label: Spring Framework Routes API
+  slug: spring-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-routes-api-openapi.yml
 auth_types:
 - http
 description: ''

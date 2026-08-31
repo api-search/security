@@ -6,6 +6,12 @@ api_specs:
   slug: treasure-data-bulk-loads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-bulk-loads-api-openapi.yml
+- filename: treasure-data-user-api-openapi.yml
+  format: yaml
+  label: Treasure Data User API
+  slug: treasure-data-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-user-api-openapi.yml
 - filename: treasure-data-system-api-openapi.yml
   format: yaml
   label: Treasure Data System API
@@ -72,54 +78,318 @@ api_specs:
   slug: treasure-data-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-users-api-openapi.yml
-- filename: treasure-data-td-api-v3-openapi.yml
-  format: yaml
-  label: Treasure Data API v3
-  slug: treasure-data-api-v3
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-td-api-v3-openapi.yml
-- filename: treasure-data-cdp-api-openapi.yml
-  format: yaml
-  label: Treasure Data CDP API
-  slug: treasure-data-cdp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-cdp-api-openapi.yml
-- filename: treasure-data-llm-api-openapi.yml
-  format: yaml
-  label: Treasure Data LLM API
-  slug: treasure-data-llm-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-llm-api-openapi.yml
 - filename: treasure-data-workflow-api-openapi.yml
   format: yaml
   label: Treasure Workflow API
   slug: treasure-data-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-workflow-api-openapi.yml
-- filename: treasure-data-dwh-integration-api-openapi.yml
-  format: yaml
-  label: Treasure Data Data Warehouse Integration API
-  slug: treasure-data-dwh-integration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-dwh-integration-api-openapi.yml
-- filename: treasure-data-personalization-api-openapi.yml
-  format: yaml
-  label: Treasure Data Personalization Service
-  slug: treasure-data-personalization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-personalization-api-openapi.yml
 - filename: treasure-data-postback-api-openapi.yml
   format: yaml
   label: Treasure Data Postback API
   slug: treasure-data-postback-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-postback-api-openapi.yml
-- filename: treasure-data-postback-api-v2-openapi.yml
+- filename: treasure-data-access-control-permissions-api-openapi.yml
   format: yaml
-  label: Treasure Data Postback API v2
-  slug: treasure-data-postback-api-v2
+  label: Treasure Data Access Control - Permissions API
+  slug: treasure-data-access-control-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-postback-api-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-access-control-permissions-api-openapi.yml
+- filename: treasure-data-access-control-policies-api-openapi.yml
+  format: yaml
+  label: Treasure Data Access Control - Policies API
+  slug: treasure-data-access-control-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-access-control-policies-api-openapi.yml
+- filename: treasure-data-access-control-policy-groups-api-openapi.yml
+  format: yaml
+  label: Treasure Data Access Control - Policy Groups API
+  slug: treasure-data-access-control-policy-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-access-control-policy-groups-api-openapi.yml
+- filename: treasure-data-access-control-users-api-openapi.yml
+  format: yaml
+  label: Treasure Data Access Control - Users API
+  slug: treasure-data-access-control-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-access-control-users-api-openapi.yml
+- filename: treasure-data-action-api-openapi.yml
+  format: yaml
+  label: Treasure Data Action API
+  slug: treasure-data-action-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-action-api-openapi.yml
+- filename: treasure-data-activation-templates-api-openapi.yml
+  format: yaml
+  label: Treasure Data Activation Templates API
+  slug: treasure-data-activation-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-activation-templates-api-openapi.yml
+- filename: treasure-data-activations-api-openapi.yml
+  format: yaml
+  label: Treasure Data Activations API
+  slug: treasure-data-activations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-activations-api-openapi.yml
+- filename: treasure-data-agent-api-openapi.yml
+  format: yaml
+  label: Treasure Data Agent API
+  slug: treasure-data-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-agent-api-openapi.yml
+- filename: treasure-data-agentschedule-api-openapi.yml
+  format: yaml
+  label: Treasure Data Agent Schedule API
+  slug: treasure-data-agentschedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-agentschedule-api-openapi.yml
+- filename: treasure-data-artifact-api-openapi.yml
+  format: yaml
+  label: Treasure Data Artifact API
+  slug: treasure-data-artifact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-artifact-api-openapi.yml
+- filename: treasure-data-attempt-api-openapi.yml
+  format: yaml
+  label: Treasure Data Attempt API
+  slug: treasure-data-attempt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-attempt-api-openapi.yml
+- filename: treasure-data-chat-api-openapi.yml
+  format: yaml
+  label: Treasure Data Chat API
+  slug: treasure-data-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-chat-api-openapi.yml
+- filename: treasure-data-chatattachment-api-openapi.yml
+  format: yaml
+  label: Treasure Data Chat Attachment API
+  slug: treasure-data-chatattachment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-chatattachment-api-openapi.yml
+- filename: treasure-data-chatinterface-api-openapi.yml
+  format: yaml
+  label: Treasure Data Chat Interface API
+  slug: treasure-data-chatinterface-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-chatinterface-api-openapi.yml
+- filename: treasure-data-connections-api-openapi.yml
+  format: yaml
+  label: Treasure Data Connections API
+  slug: treasure-data-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-connections-api-openapi.yml
+- filename: treasure-data-data-connector-restrictions-api-openapi.yml
+  format: yaml
+  label: Treasure Data Data Connector Restrictions API
+  slug: treasure-data-data-connector-restrictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-data-connector-restrictions-api-openapi.yml
+- filename: treasure-data-dwh-api-openapi.yml
+  format: yaml
+  label: Treasure Data Dwh API
+  slug: treasure-data-dwh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-dwh-api-openapi.yml
+- filename: treasure-data-folders-api-openapi.yml
+  format: yaml
+  label: Treasure Data Folders API
+  slug: treasure-data-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-folders-api-openapi.yml
+- filename: treasure-data-forminterface-api-openapi.yml
+  format: yaml
+  label: Treasure Data Form Interface API
+  slug: treasure-data-forminterface-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-forminterface-api-openapi.yml
+- filename: treasure-data-funnels-api-openapi.yml
+  format: yaml
+  label: Treasure Data Funnels API
+  slug: treasure-data-funnels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-funnels-api-openapi.yml
+- filename: treasure-data-guess-api-openapi.yml
+  format: yaml
+  label: Treasure Data Guess API
+  slug: treasure-data-guess-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-guess-api-openapi.yml
+- filename: treasure-data-imagegenerator-api-openapi.yml
+  format: yaml
+  label: Treasure Data Image Generator API
+  slug: treasure-data-imagegenerator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-imagegenerator-api-openapi.yml
+- filename: treasure-data-integration-api-openapi.yml
+  format: yaml
+  label: Treasure Data Integration API
+  slug: treasure-data-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-integration-api-openapi.yml
+- filename: treasure-data-journeys-api-openapi.yml
+  format: yaml
+  label: Treasure Data Journeys API
+  slug: treasure-data-journeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-journeys-api-openapi.yml
+- filename: treasure-data-knowledgebase-api-openapi.yml
+  format: yaml
+  label: Treasure Data Knowledge Base API
+  slug: treasure-data-knowledgebase-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-knowledgebase-api-openapi.yml
+- filename: treasure-data-log-api-openapi.yml
+  format: yaml
+  label: Treasure Data Log API
+  slug: treasure-data-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-log-api-openapi.yml
+- filename: treasure-data-parent-segment-configurations-api-openapi.yml
+  format: yaml
+  label: Treasure Data Parent Segment Configurations API
+  slug: treasure-data-parent-segment-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-parent-segment-configurations-api-openapi.yml
+- filename: treasure-data-parent-segments-api-openapi.yml
+  format: yaml
+  label: Treasure Data Parent Segments API
+  slug: treasure-data-parent-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-parent-segments-api-openapi.yml
+- filename: treasure-data-personalization-service-api-openapi.yml
+  format: yaml
+  label: Treasure Data Personalization Service API
+  slug: treasure-data-personalization-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-personalization-service-api-openapi.yml
+- filename: treasure-data-plazmaquerytool-api-openapi.yml
+  format: yaml
+  label: Treasure Data Plazma Query Tool API
+  slug: treasure-data-plazmaquerytool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-plazmaquerytool-api-openapi.yml
+- filename: treasure-data-policy-group-tags-api-openapi.yml
+  format: yaml
+  label: Treasure Data Policy Group Tags API
+  slug: treasure-data-policy-group-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-policy-group-tags-api-openapi.yml
+- filename: treasure-data-pool-api-openapi.yml
+  format: yaml
+  label: Treasure Data Pool API
+  slug: treasure-data-pool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-pool-api-openapi.yml
+- filename: treasure-data-predictive-segments-api-openapi.yml
+  format: yaml
+  label: Treasure Data Predictive Segments API
+  slug: treasure-data-predictive-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-predictive-segments-api-openapi.yml
+- filename: treasure-data-presentationartifacttool-api-openapi.yml
+  format: yaml
+  label: Treasure Data Presentation Artifact Tool API
+  slug: treasure-data-presentationartifacttool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-presentationartifacttool-api-openapi.yml
+- filename: treasure-data-project-api-openapi.yml
+  format: yaml
+  label: Treasure Data Project API
+  slug: treasure-data-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-project-api-openapi.yml
+- filename: treasure-data-prompt-api-openapi.yml
+  format: yaml
+  label: Treasure Data Prompt API
+  slug: treasure-data-prompt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-prompt-api-openapi.yml
+- filename: treasure-data-realtime-journeys-api-openapi.yml
+  format: yaml
+  label: Treasure Data Realtime Journeys API
+  slug: treasure-data-realtime-journeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-realtime-journeys-api-openapi.yml
+- filename: treasure-data-realtime-personalization-api-openapi.yml
+  format: yaml
+  label: Treasure Data Realtime Personalization API
+  slug: treasure-data-realtime-personalization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-realtime-personalization-api-openapi.yml
+- filename: treasure-data-schedule-api-openapi.yml
+  format: yaml
+  label: Treasure Data Schedule API
+  slug: treasure-data-schedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-schedule-api-openapi.yml
+- filename: treasure-data-schedules-api-openapi.yml
+  format: yaml
+  label: Treasure Data Schedules API
+  slug: treasure-data-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-schedules-api-openapi.yml
+- filename: treasure-data-segments-api-openapi.yml
+  format: yaml
+  label: Treasure Data Segments API
+  slug: treasure-data-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-segments-api-openapi.yml
+- filename: treasure-data-session-api-openapi.yml
+  format: yaml
+  label: Treasure Data Session API
+  slug: treasure-data-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-session-api-openapi.yml
+- filename: treasure-data-textknowledgebase-api-openapi.yml
+  format: yaml
+  label: Treasure Data Text Knowledge Base API
+  slug: treasure-data-textknowledgebase-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-textknowledgebase-api-openapi.yml
+- filename: treasure-data-textresource-api-openapi.yml
+  format: yaml
+  label: Treasure Data Text Resource API
+  slug: treasure-data-textresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-textresource-api-openapi.yml
+- filename: treasure-data-tokens-api-openapi.yml
+  format: yaml
+  label: Treasure Data Tokens API
+  slug: treasure-data-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-tokens-api-openapi.yml
+- filename: treasure-data-tooltarget-api-openapi.yml
+  format: yaml
+  label: Treasure Data Tool Target API
+  slug: treasure-data-tooltarget-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-tooltarget-api-openapi.yml
+- filename: treasure-data-user-api-openapi.yml
+  format: yaml
+  label: Treasure Data User API
+  slug: treasure-data-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-user-api-openapi.yml
+- filename: treasure-data-util-api-openapi.yml
+  format: yaml
+  label: Treasure Data Util API
+  slug: treasure-data-util-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-util-api-openapi.yml
+- filename: treasure-data-websearchtool-api-openapi.yml
+  format: yaml
+  label: Treasure Data Web Search Tool API
+  slug: treasure-data-websearchtool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-websearchtool-api-openapi.yml
+- filename: treasure-data-workflowexecutor-api-openapi.yml
+  format: yaml
+  label: Treasure Data Workflow Executor API
+  slug: treasure-data-workflowexecutor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-workflowexecutor-api-openapi.yml
 certifications:
 - SOC 2
 - ISO 27001

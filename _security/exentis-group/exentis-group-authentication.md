@@ -31,12 +31,6 @@ api_specs:
   slug: exentis-group-categories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/exentis-group/refs/heads/main/openapi/exentis-group-categories-api-openapi.yml
-- filename: exentis-group-blog-categories-api-openapi.yml
-  format: yaml
-  label: Exentis Group Blog Categories API
-  slug: exentis-group-blog-categories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exentis-group/refs/heads/main/openapi/exentis-group-blog-categories-api-openapi.yml
 - filename: exentis-group-search-api-openapi.yml
   format: yaml
   label: Exentis Group Search API
@@ -49,6 +43,12 @@ api_specs:
   slug: exentis-group-languages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/exentis-group/refs/heads/main/openapi/exentis-group-languages-api-openapi.yml
+- filename: exentis-group-taxonomy-api-openapi.yml
+  format: yaml
+  label: Exentis Group Taxonomy API
+  slug: exentis-group-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exentis-group/refs/heads/main/openapi/exentis-group-taxonomy-api-openapi.yml
 auth_types:
 - http
 description: ''

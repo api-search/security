@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ibotta-product-api-openapi.yml
+- filename: ibotta-products-api-openapi.yml
   format: yaml
-  label: Ibotta Product API
-  slug: ibotta-product-api
+  label: Ibotta Products API
+  slug: ibotta-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibotta/refs/heads/main/openapi/ibotta-product-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ibotta/refs/heads/main/openapi/ibotta-products-api-openapi.yml
 auth_types:
 - http
 - oauth2

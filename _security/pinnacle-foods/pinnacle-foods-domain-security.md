@@ -17,8 +17,8 @@ layout: security
 method: probed
 name: Pinnacle Foods Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for pinnacle-foods, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: pinnacle-foods
+overview: 'Domain security posture for Pinnacle Foods, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Pinnacle Foods
 provider_slug: pinnacle-foods
 slug: pinnacle-foods-domain-security
 source_filename: pinnacle-foods-domain-security.yml

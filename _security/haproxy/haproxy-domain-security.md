@@ -1,18 +1,18 @@
 ---
 api_specs:
-- filename: swagger.yaml
+- filename: haproxy-data-plane-api-openapi.yml
   format: yaml
   label: HAProxy Data Plane API
   slug: haproxy-data-plane-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/haproxytech/dataplaneapi/master/swagger.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/haproxy/refs/heads/main/openapi/haproxy-data-plane-api-openapi.yml
 description: ''
 domains:
 - caa: []
   dmarc: false
   dnssec: false
   domain: haproxy.org
-  spf: false
+  spf: true
 - caa: []
   dmarc: true
   dmarc_policy: none
@@ -35,14 +35,14 @@ layout: security
 method: probed
 name: Haproxy Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for HAProxy, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+overview: 'Domain security posture for HAProxy, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: HAProxy
 provider_slug: haproxy
 slug: haproxy-domain-security
 source_filename: haproxy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.haproxy.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: false\n- host: www.haproxy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: haproxy.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: haproxy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.haproxy.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: false\n- host: www.haproxy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: haproxy.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: haproxy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/haproxy/refs/heads/main/security/haproxy-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
@@ -50,4 +50,10 @@ tags:
 - Load Balancing
 - Networking
 - Reverse Proxy
+- Proxy
+- Kubernetes
+- Ingress
+- Open Source
+- Infrastructure
+- Application Delivery
 ---

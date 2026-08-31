@@ -2,18 +2,78 @@
 api_key_in:
 - header
 api_specs:
-- filename: paperless-parts-v2-openapi.yml
+- filename: paperless-parts-contacts-api-openapi.yml
   format: yaml
-  label: Paperless Parts API v2
-  slug: paperless-parts-api-v2
+  label: Paperless Parts Contacts API
+  slug: paperless-parts-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/openapi/paperless-parts-v2-openapi.yml
-- filename: paperless-parts-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/openapi/paperless-parts-contacts-api-openapi.yml
+- filename: paperless-parts-custom-tables-api-openapi.yml
   format: yaml
-  label: Paperless Parts API v1
-  slug: paperless-parts-api-v1
+  label: Paperless Parts Custom Tables API
+  slug: paperless-parts-custom-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/openapi/paperless-parts-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/openapi/paperless-parts-custom-tables-api-openapi.yml
+- filename: paperless-parts-customers-api-openapi.yml
+  format: yaml
+  label: Paperless Parts Customers API
+  slug: paperless-parts-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/openapi/paperless-parts-customers-api-openapi.yml
+- filename: paperless-parts-events-api-openapi.yml
+  format: yaml
+  label: Paperless Parts Events API
+  slug: paperless-parts-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/openapi/paperless-parts-events-api-openapi.yml
+- filename: paperless-parts-integration-actions-api-openapi.yml
+  format: yaml
+  label: Paperless Parts Integration Actions API
+  slug: paperless-parts-integration-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/openapi/paperless-parts-integration-actions-api-openapi.yml
+- filename: paperless-parts-jobs-api-openapi.yml
+  format: yaml
+  label: Paperless Parts Jobs API
+  slug: paperless-parts-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/openapi/paperless-parts-jobs-api-openapi.yml
+- filename: paperless-parts-orders-api-openapi.yml
+  format: yaml
+  label: Paperless Parts Orders API
+  slug: paperless-parts-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/openapi/paperless-parts-orders-api-openapi.yml
+- filename: paperless-parts-parts-api-openapi.yml
+  format: yaml
+  label: Paperless Parts Parts API
+  slug: paperless-parts-parts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/openapi/paperless-parts-parts-api-openapi.yml
+- filename: paperless-parts-processes-api-openapi.yml
+  format: yaml
+  label: Paperless Parts Processes API
+  slug: paperless-parts-processes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/openapi/paperless-parts-processes-api-openapi.yml
+- filename: paperless-parts-purchased-components-api-openapi.yml
+  format: yaml
+  label: Paperless Parts Purchased Components API
+  slug: paperless-parts-purchased-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/openapi/paperless-parts-purchased-components-api-openapi.yml
+- filename: paperless-parts-quote-items-api-openapi.yml
+  format: yaml
+  label: Paperless Parts Quote Items API
+  slug: paperless-parts-quote-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/openapi/paperless-parts-quote-items-api-openapi.yml
+- filename: paperless-parts-quotes-api-openapi.yml
+  format: yaml
+  label: Paperless Parts Quotes API
+  slug: paperless-parts-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/openapi/paperless-parts-quotes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

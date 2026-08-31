@@ -1,24 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: alinta-energy-cds-common-api-openapi.yml
+- filename: alinta-energy-data-holder-customers-api-openapi.yml
   format: yaml
-  label: Alinta Energy CDR Discovery API
-  slug: alinta-energy-cdr-discovery-api
+  label: Alinta Energy Data Holder Customers API
+  slug: alinta-energy-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-cds-common-api-openapi.yml
-- filename: alinta-energy-cds-energy-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-data-holder-customers-api-openapi.yml
+- filename: alinta-energy-data-holder-operations-api-openapi.yml
   format: yaml
-  label: Alinta Energy CDR Generic Plan Data API
-  slug: alinta-energy-cdr-generic-plan-data-api
+  label: Alinta Energy Data Holder Operations API
+  slug: alinta-energy-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-cds-energy-api-openapi.yml
-- filename: alinta-energy-cds-energy-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-data-holder-operations-api-openapi.yml
+- filename: alinta-energy-distributed-energy-resources-api-openapi.yml
   format: yaml
-  label: Alinta Energy CDR Energy API
-  slug: alinta-energy-cdr-energy-api
+  label: Alinta Energy Distributed Energy Resources API
+  slug: alinta-energy-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-cds-energy-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-distributed-energy-resources-api-openapi.yml
+- filename: alinta-energy-electricity-service-points-api-openapi.yml
+  format: yaml
+  label: Alinta Energy Electricity Service Points API
+  slug: alinta-energy-electricity-service-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-electricity-service-points-api-openapi.yml
+- filename: alinta-energy-electricity-usage-api-openapi.yml
+  format: yaml
+  label: Alinta Energy Electricity Usage API
+  slug: alinta-energy-electricity-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-electricity-usage-api-openapi.yml
+- filename: alinta-energy-energy-account-balances-api-openapi.yml
+  format: yaml
+  label: Alinta Energy Energy Account Balances API
+  slug: alinta-energy-energy-account-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-energy-account-balances-api-openapi.yml
+- filename: alinta-energy-energy-account-billing-api-openapi.yml
+  format: yaml
+  label: Alinta Energy Energy Account Billing API
+  slug: alinta-energy-energy-account-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-energy-account-billing-api-openapi.yml
+- filename: alinta-energy-energy-accounts-api-openapi.yml
+  format: yaml
+  label: Alinta Energy Energy Accounts API
+  slug: alinta-energy-energy-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-energy-accounts-api-openapi.yml
+- filename: alinta-energy-energy-plans-api-openapi.yml
+  format: yaml
+  label: Alinta Energy Energy Plans API
+  slug: alinta-energy-energy-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-energy-plans-api-openapi.yml
 auth_types:
 - none
 - oauth2

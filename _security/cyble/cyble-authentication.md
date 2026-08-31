@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: cyble-odin-openapi.yml
+- filename: cyble-domain-api-openapi.yml
   format: yaml
-  label: ODIN API
-  slug: odin-api
+  label: Cyble Domain API
+  slug: cyble-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/openapi/cyble-odin-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/openapi/cyble-domain-api-openapi.yml
+- filename: cyble-exposedbuckets-api-openapi.yml
+  format: yaml
+  label: Cyble Exposed Buckets API
+  slug: cyble-exposedbuckets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/openapi/cyble-exposedbuckets-api-openapi.yml
+- filename: cyble-exposedfiles-api-openapi.yml
+  format: yaml
+  label: Cyble Exposed Files API
+  slug: cyble-exposedfiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/openapi/cyble-exposedfiles-api-openapi.yml
+- filename: cyble-fields-api-openapi.yml
+  format: yaml
+  label: Cyble Fields API
+  slug: cyble-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/openapi/cyble-fields-api-openapi.yml
+- filename: cyble-health-api-openapi.yml
+  format: yaml
+  label: Cyble Health API
+  slug: cyble-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/openapi/cyble-health-api-openapi.yml
+- filename: cyble-hosts-api-openapi.yml
+  format: yaml
+  label: Cyble Hosts API
+  slug: cyble-hosts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/openapi/cyble-hosts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

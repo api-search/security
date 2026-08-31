@@ -324,6 +324,48 @@ api_specs:
   slug: sumo-logic-usermanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-usermanagement-api-openapi.yml
+- filename: sumo-logic-collectors-api-openapi.yml
+  format: yaml
+  label: Sumo Logic Collectors API
+  slug: sumo-logic-collectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-collectors-api-openapi.yml
+- filename: sumo-logic-content-api-openapi.yml
+  format: yaml
+  label: Sumo Logic Content API
+  slug: sumo-logic-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-content-api-openapi.yml
+- filename: sumo-logic-dashboards-api-openapi.yml
+  format: yaml
+  label: Sumo Logic Dashboards API
+  slug: sumo-logic-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-dashboards-api-openapi.yml
+- filename: sumo-logic-monitors-api-openapi.yml
+  format: yaml
+  label: Sumo Logic Monitors API
+  slug: sumo-logic-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-monitors-api-openapi.yml
+- filename: sumo-logic-roles-api-openapi.yml
+  format: yaml
+  label: Sumo Logic Roles API
+  slug: sumo-logic-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-roles-api-openapi.yml
+- filename: sumo-logic-search-jobs-api-openapi.yml
+  format: yaml
+  label: Sumo Logic Search Jobs API
+  slug: sumo-logic-search-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-search-jobs-api-openapi.yml
+- filename: sumo-logic-users-api-openapi.yml
+  format: yaml
+  label: Sumo Logic Users API
+  slug: sumo-logic-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-users-api-openapi.yml
 description: ''
 domains:
 - caa:

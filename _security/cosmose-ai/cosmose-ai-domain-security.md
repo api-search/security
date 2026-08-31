@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: cosmose-ai-deal-hunter-registration-api-openapi.yml
+- filename: cosmose-ai-contact-form-controller-api-openapi.yml
   format: yaml
-  label: Cosmose AI Deal Hunter Registration API
-  slug: cosmose-ai-deal-hunter-registration-api
+  label: Cosmose AI Contact Form Controller API
+  slug: cosmose-ai-contact-form-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-deal-hunter-registration-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-contact-form-controller-api-openapi.yml
+- filename: cosmose-ai-crucible-token-controller-api-openapi.yml
+  format: yaml
+  label: Cosmose AI Crucible Token Controller API
+  slug: cosmose-ai-crucible-token-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-crucible-token-controller-api-openapi.yml
+- filename: cosmose-ai-forget-me-controller-api-openapi.yml
+  format: yaml
+  label: Cosmose AI Forget Me Controller API
+  slug: cosmose-ai-forget-me-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-forget-me-controller-api-openapi.yml
+- filename: cosmose-ai-invitation-controller-api-openapi.yml
+  format: yaml
+  label: Cosmose AI Invitation Controller API
+  slug: cosmose-ai-invitation-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-invitation-controller-api-openapi.yml
+- filename: cosmose-ai-kkn-onboarding-controller-api-openapi.yml
+  format: yaml
+  label: Cosmose AI Kkn Onboarding Controller API
+  slug: cosmose-ai-kkn-onboarding-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-kkn-onboarding-controller-api-openapi.yml
+- filename: cosmose-ai-learn-to-code-controller-api-openapi.yml
+  format: yaml
+  label: Cosmose AI Learn To Code Controller API
+  slug: cosmose-ai-learn-to-code-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-learn-to-code-controller-api-openapi.yml
+- filename: cosmose-ai-merchant-controller-api-openapi.yml
+  format: yaml
+  label: Cosmose AI Merchant Controller API
+  slug: cosmose-ai-merchant-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-merchant-controller-api-openapi.yml
+- filename: cosmose-ai-newsletter-controller-api-openapi.yml
+  format: yaml
+  label: Cosmose AI Newsletter Controller API
+  slug: cosmose-ai-newsletter-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-newsletter-controller-api-openapi.yml
+- filename: cosmose-ai-onboarding-controller-api-openapi.yml
+  format: yaml
+  label: Cosmose AI Onboarding Controller API
+  slug: cosmose-ai-onboarding-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-onboarding-controller-api-openapi.yml
+- filename: cosmose-ai-registration-admin-controller-api-openapi.yml
+  format: yaml
+  label: Cosmose AI Registration Admin Controller API
+  slug: cosmose-ai-registration-admin-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-registration-admin-controller-api-openapi.yml
+- filename: cosmose-ai-registration-controller-api-openapi.yml
+  format: yaml
+  label: Cosmose AI Registration Controller API
+  slug: cosmose-ai-registration-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-registration-controller-api-openapi.yml
+- filename: cosmose-ai-school-controller-api-openapi.yml
+  format: yaml
+  label: Cosmose AI School Controller API
+  slug: cosmose-ai-school-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-school-controller-api-openapi.yml
+- filename: cosmose-ai-token-controller-api-openapi.yml
+  format: yaml
+  label: Cosmose AI Token Controller API
+  slug: cosmose-ai-token-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/openapi/cosmose-ai-token-controller-api-openapi.yml
 description: ''
 domains:
 - caa: []

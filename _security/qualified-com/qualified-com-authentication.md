@@ -1,12 +1,78 @@
 ---
 api_key_in: []
 api_specs:
-- filename: qualified-com-enterprise-api-openapi.json
-  format: json
-  label: Qualified Enterprise API
-  slug: qualified-com-enterprise-api
+- filename: qualified-com-bot-conversations-api-openapi.yml
+  format: yaml
+  label: Qualified Bot Conversations API
+  slug: qualified-com-bot-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/openapi/qualified-com-enterprise-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/openapi/qualified-com-bot-conversations-api-openapi.yml
+- filename: qualified-com-bulk-api-openapi.yml
+  format: yaml
+  label: Qualified Bulk API
+  slug: qualified-com-bulk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/openapi/qualified-com-bulk-api-openapi.yml
+- filename: qualified-com-cancel-meeting-api-openapi.yml
+  format: yaml
+  label: Qualified Cancel Meeting API
+  slug: qualified-com-cancel-meeting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/openapi/qualified-com-cancel-meeting-api-openapi.yml
+- filename: qualified-com-companies-api-openapi.yml
+  format: yaml
+  label: Qualified Companies API
+  slug: qualified-com-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/openapi/qualified-com-companies-api-openapi.yml
+- filename: qualified-com-conversations-api-openapi.yml
+  format: yaml
+  label: Qualified Conversations API
+  slug: qualified-com-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/openapi/qualified-com-conversations-api-openapi.yml
+- filename: qualified-com-emails-api-openapi.yml
+  format: yaml
+  label: Qualified Emails API
+  slug: qualified-com-emails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/openapi/qualified-com-emails-api-openapi.yml
+- filename: qualified-com-gdpr-api-openapi.yml
+  format: yaml
+  label: Qualified GDPR API
+  slug: qualified-com-gdpr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/openapi/qualified-com-gdpr-api-openapi.yml
+- filename: qualified-com-leads-api-openapi.yml
+  format: yaml
+  label: Qualified Leads API
+  slug: qualified-com-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/openapi/qualified-com-leads-api-openapi.yml
+- filename: qualified-com-meetings-api-openapi.yml
+  format: yaml
+  label: Qualified Meetings API
+  slug: qualified-com-meetings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/openapi/qualified-com-meetings-api-openapi.yml
+- filename: qualified-com-messages-api-openapi.yml
+  format: yaml
+  label: Qualified Messages API
+  slug: qualified-com-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/openapi/qualified-com-messages-api-openapi.yml
+- filename: qualified-com-rep-conversations-api-openapi.yml
+  format: yaml
+  label: Qualified Rep Conversations API
+  slug: qualified-com-rep-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/openapi/qualified-com-rep-conversations-api-openapi.yml
+- filename: qualified-com-sessions-api-openapi.yml
+  format: yaml
+  label: Qualified Sessions API
+  slug: qualified-com-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/openapi/qualified-com-sessions-api-openapi.yml
 auth_types:
 - http
 description: ''

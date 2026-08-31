@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: pay-i-openapi.yml
+- filename: pay-i-anthropic-requests-api-openapi.yml
   format: yaml
-  label: Pay-i API
-  slug: pay-i-api
+  label: Pay-i Anthropic Requests API
+  slug: pay-i-anthropic-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pay-i/refs/heads/main/openapi/pay-i-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pay-i/refs/heads/main/openapi/pay-i-anthropic-requests-api-openapi.yml
+- filename: pay-i-aws-bedrock-requests-api-openapi.yml
+  format: yaml
+  label: Pay-i AWS Bedrock Requests API
+  slug: pay-i-aws-bedrock-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pay-i/refs/heads/main/openapi/pay-i-aws-bedrock-requests-api-openapi.yml
+- filename: pay-i-azure-anthropic-requests-api-openapi.yml
+  format: yaml
+  label: Pay-i Azure Anthropic Requests API
+  slug: pay-i-azure-anthropic-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pay-i/refs/heads/main/openapi/pay-i-azure-anthropic-requests-api-openapi.yml
+- filename: pay-i-azure-openai-requests-api-openapi.yml
+  format: yaml
+  label: Pay-i Azure OpenAI Requests API
+  slug: pay-i-azure-openai-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pay-i/refs/heads/main/openapi/pay-i-azure-openai-requests-api-openapi.yml
+- filename: pay-i-categories-api-openapi.yml
+  format: yaml
+  label: Pay-i Categories API
+  slug: pay-i-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pay-i/refs/heads/main/openapi/pay-i-categories-api-openapi.yml
+- filename: pay-i-google-vertex-requests-api-openapi.yml
+  format: yaml
+  label: Pay-i Google Vertex Requests API
+  slug: pay-i-google-vertex-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pay-i/refs/heads/main/openapi/pay-i-google-vertex-requests-api-openapi.yml
+- filename: pay-i-ingest-events-api-openapi.yml
+  format: yaml
+  label: Pay-i Ingest Events API
+  slug: pay-i-ingest-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pay-i/refs/heads/main/openapi/pay-i-ingest-events-api-openapi.yml
+- filename: pay-i-kpis-api-openapi.yml
+  format: yaml
+  label: Pay-i KP Is API
+  slug: pay-i-kpis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pay-i/refs/heads/main/openapi/pay-i-kpis-api-openapi.yml
+- filename: pay-i-limits-api-openapi.yml
+  format: yaml
+  label: Pay-i Limits API
+  slug: pay-i-limits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pay-i/refs/heads/main/openapi/pay-i-limits-api-openapi.yml
+- filename: pay-i-openai-requests-api-openapi.yml
+  format: yaml
+  label: Pay-i OpenAI Requests API
+  slug: pay-i-openai-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pay-i/refs/heads/main/openapi/pay-i-openai-requests-api-openapi.yml
+- filename: pay-i-reports-api-openapi.yml
+  format: yaml
+  label: Pay-i Reports API
+  slug: pay-i-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pay-i/refs/heads/main/openapi/pay-i-reports-api-openapi.yml
+- filename: pay-i-requests-api-openapi.yml
+  format: yaml
+  label: Pay-i Requests API
+  slug: pay-i-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pay-i/refs/heads/main/openapi/pay-i-requests-api-openapi.yml
+- filename: pay-i-resources-api-openapi.yml
+  format: yaml
+  label: Pay-i Resources API
+  slug: pay-i-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pay-i/refs/heads/main/openapi/pay-i-resources-api-openapi.yml
+- filename: pay-i-use-cases-api-openapi.yml
+  format: yaml
+  label: Pay-i Use Cases API
+  slug: pay-i-use-cases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pay-i/refs/heads/main/openapi/pay-i-use-cases-api-openapi.yml
 description: ''
 domains:
 - caa: []

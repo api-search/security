@@ -1,11 +1,95 @@
 ---
 api_specs:
-- filename: push-cendyn-crm-openapi.yml
+- filename: push-account-api-openapi.yml
   format: yaml
-  label: Cendyn CRM (PUSHTech) REST API
-  slug: cendyn-crm-pushtech-rest-api
+  label: Push Account API
+  slug: push-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-cendyn-crm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-account-api-openapi.yml
+- filename: push-audience-list-api-openapi.yml
+  format: yaml
+  label: Push Audience List API
+  slug: push-audience-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-audience-list-api-openapi.yml
+- filename: push-campaigns-api-openapi.yml
+  format: yaml
+  label: Push Campaigns API
+  slug: push-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-campaigns-api-openapi.yml
+- filename: push-company-api-openapi.yml
+  format: yaml
+  label: Push Company API
+  slug: push-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-company-api-openapi.yml
+- filename: push-company-custom-fields-api-openapi.yml
+  format: yaml
+  label: Push Company custom fields API
+  slug: push-company-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-company-custom-fields-api-openapi.yml
+- filename: push-contact-api-openapi.yml
+  format: yaml
+  label: Push Contact API
+  slug: push-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-contact-api-openapi.yml
+- filename: push-contact-custom-fields-api-openapi.yml
+  format: yaml
+  label: Push Contact Custom fields API
+  slug: push-contact-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-contact-custom-fields-api-openapi.yml
+- filename: push-coupon-lists-api-openapi.yml
+  format: yaml
+  label: Push Coupon lists API
+  slug: push-coupon-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-coupon-lists-api-openapi.yml
+- filename: push-deliveries-api-openapi.yml
+  format: yaml
+  label: Push Deliveries API
+  slug: push-deliveries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-deliveries-api-openapi.yml
+- filename: push-hotel-data-api-openapi.yml
+  format: yaml
+  label: Push Hotel Data API
+  slug: push-hotel-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-hotel-data-api-openapi.yml
+- filename: push-hotel-data-custom-fields-api-openapi.yml
+  format: yaml
+  label: Push Hotel Data custom fields API
+  slug: push-hotel-data-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-hotel-data-custom-fields-api-openapi.yml
+- filename: push-product-api-openapi.yml
+  format: yaml
+  label: Push Product API
+  slug: push-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-product-api-openapi.yml
+- filename: push-product-custom-fields-api-openapi.yml
+  format: yaml
+  label: Push Product custom fields API
+  slug: push-product-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-product-custom-fields-api-openapi.yml
+- filename: push-purchase-api-openapi.yml
+  format: yaml
+  label: Push Purchase API
+  slug: push-purchase-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-purchase-api-openapi.yml
+- filename: push-sync-data-api-openapi.yml
+  format: yaml
+  label: Push Sync Data API
+  slug: push-sync-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-sync-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

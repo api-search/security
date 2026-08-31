@@ -85,8 +85,8 @@ layout: security
 method: probed
 name: Osisoft Pi Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for osisoft-pi, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: osisoft-pi
+overview: 'Domain security posture for OSIsoft PI System, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: OSIsoft PI System
 provider_slug: osisoft-pi
 slug: osisoft-pi-domain-security
 source_filename: osisoft-pi-domain-security.yml

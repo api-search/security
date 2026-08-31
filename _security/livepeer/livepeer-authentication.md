@@ -73,6 +73,48 @@ api_specs:
   slug: livepeer-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-webhook-api-openapi.yml
+- filename: livepeer-ethereum-api-openapi.yml
+  format: yaml
+  label: Livepeer Ethereum API
+  slug: livepeer-ethereum-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-ethereum-api-openapi.yml
+- filename: livepeer-gateway-api-openapi.yml
+  format: yaml
+  label: Livepeer Gateway API
+  slug: livepeer-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-gateway-api-openapi.yml
+- filename: livepeer-hardware-api-openapi.yml
+  format: yaml
+  label: Livepeer Hardware API
+  slug: livepeer-hardware-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-hardware-api-openapi.yml
+- filename: livepeer-health-api-openapi.yml
+  format: yaml
+  label: Livepeer Health API
+  slug: livepeer-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-health-api-openapi.yml
+- filename: livepeer-orchestrator-api-openapi.yml
+  format: yaml
+  label: Livepeer Orchestrator API
+  slug: livepeer-orchestrator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-orchestrator-api-openapi.yml
+- filename: livepeer-staking-api-openapi.yml
+  format: yaml
+  label: Livepeer Staking API
+  slug: livepeer-staking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-staking-api-openapi.yml
+- filename: livepeer-status-api-openapi.yml
+  format: yaml
+  label: Livepeer Status API
+  slug: livepeer-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-status-api-openapi.yml
 auth_types:
 - http
 description: ''

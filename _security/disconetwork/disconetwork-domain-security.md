@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: disconetwork-partner-api.yml
+- filename: disconetwork-discobeat-api-openapi.yml
   format: yaml
-  label: Disco Partner Integration API
-  slug: disconetwork-partner-api
+  label: Disconetwork Discobeat API
+  slug: disconetwork-discobeat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/openapi/disconetwork-partner-api.yml
-- filename: disconetwork-reporting-api-v1.yml
+  url: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/openapi/disconetwork-discobeat-api-openapi.yml
+- filename: disconetwork-events-api-openapi.yml
   format: yaml
-  label: Disco Reporting API
-  slug: disconetwork-reporting-api
+  label: Disconetwork Events API
+  slug: disconetwork-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/openapi/disconetwork-reporting-api-v1.yml
+  url: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/openapi/disconetwork-events-api-openapi.yml
+- filename: disconetwork-recommendations-api-openapi.yml
+  format: yaml
+  label: Disconetwork Recommendations API
+  slug: disconetwork-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/openapi/disconetwork-recommendations-api-openapi.yml
 description: ''
 domains:
 - caa: []

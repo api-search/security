@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: commure-fhir-openapi.yml
+- filename: commure-auth-api-openapi.yml
+  format: yaml
+  label: Commure Auth API
+  slug: commure-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/openapi/commure-auth-api-openapi.yml
+- filename: commure-fhir-api-openapi.yml
   format: yaml
   label: Commure FHIR API
   slug: commure-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/openapi/commure-fhir-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/openapi/commure-fhir-api-openapi.yml
 auth_types:
 - http
 - oauth2

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: sciencelogic-skylar-compliance-openapi.json
+  format: json
+  label: Skylar Compliance API
+  slug: skylar-compliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sciencelogic/refs/heads/main/openapi/sciencelogic-skylar-compliance-openapi.json
 description: ''
 domains:
 - caa: []
@@ -8,7 +15,7 @@ domains:
   domain: sciencelogic.com
   spf: true
 hosts:
-- cert_expires: Aug 30 09:03:28 2026 GMT
+- cert_expires: Oct 28 08:51:54 2026 GMT
   host: sciencelogic.com
   hsts: false
   https: true
@@ -25,10 +32,16 @@ slug: sciencelogic-domain-security
 source_filename: sciencelogic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sciencelogic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 09:03:28 2026 GMT\n  hsts: false\ndomains:\n- domain: sciencelogic.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sciencelogic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 08:51:54 2026 GMT\n  hsts: false\ndomains:\n- domain: sciencelogic.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sciencelogic/refs/heads/main/security/sciencelogic-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - AIOps
 - IT Operations
+- Observability
+- Monitoring
+- Network Configuration Management
+- Compliance
+- Automation
+- Incident Management
 ---

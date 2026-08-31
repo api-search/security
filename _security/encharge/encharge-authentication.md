@@ -3,12 +3,6 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: encharge-openapi.yml
-  format: yaml
-  label: Encharge REST API
-  slug: rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/_original/encharge-openapi.yml
 - filename: TVRj5o3E
   format: yaml
   label: Encharge Transactional Email API

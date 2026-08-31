@@ -1,13 +1,20 @@
 ---
+api_specs:
+- filename: ics_postman_apis.htm
+  format: yaml
+  label: Ivanti Connect Secure REST API
+  slug: ivanti-connect-secure-rest-api
+  spec_type: Postman
+  url: https://help.ivanti.com/ps/help/en_US/ICS/22.x/apig/rest_api_soln_guide/ics_postman_apis.htm
 description: ''
 domains:
 - caa:
-  - 0 issuewild "digicert.com; cansignhttpexchanges=yes"
-  - 0 issuewild "letsencrypt.org"
-  - 0 issuewild "pki.goog; cansignhttpexchanges=yes"
-  - 0 issuewild "ssl.com"
   - 0 issue "amazon.com"
   - 0 issue "amazonaws.com"
+  - 0 issue "amazontrust.com"
+  - 0 issue "awstrust.com"
+  - 0 issue "comodoca.com"
+  - 0 issue "digicert.com; cansignhttpexchanges=yes"
   dmarc: true
   dmarc_policy: reject
   dnssec: true
@@ -38,7 +45,7 @@ slug: pulse-domain-security
 source_filename: pulse-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ivanti.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 00:49:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: help.ivanti.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 00:49:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: ivanti.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ivanti.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 00:49:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: help.ivanti.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 00:49:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: ivanti.com\n  dnssec: true\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/security/pulse-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
@@ -48,4 +55,10 @@ tags:
 - SSL VPN
 - VPN
 - Zero Trust
+- ZTNA
+- Network Access Control
+- Remote Access
+- Identity and Access Management
+- Security
+- Pulse Secure
 ---

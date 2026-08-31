@@ -645,6 +645,30 @@ sections:
       cmd: curl "https://apis.io/api/v1/tags/__SLUG__"
     no_collection_note: Secondary Market is not yet its own endpoint on the v1 API. Reach it through catalog
       search and the tag graph, or the MCP server.
+  capabilities:
+    label: Business Capabilities
+    noun: capability
+    collection: capabilities
+    tools:
+    - name: find_capabilities
+      about: Browse and filter every capability in the catalog.
+    - name: get_capability
+      about: 'One capability: definition, sub-capabilities, and which providers reach it.'
+    - name: get_capability_edges
+      about: PRO — every edge, with the quoted contract fragment that evidences it.
+    - name: get_provider_business_capabilities
+      about: PRO — what one vendor's APIs let a business DO.
+    - name: apis_io_search
+      about: START HERE — APIs, providers and tags for one query, each with its total.
+    - name: resolve
+      about: Turn a domain, URL or GitHub org into the provider it belongs to.
+    - name: find_cohorts
+      about: Every scored population of providers in the catalog.
+    curl:
+    - label: This capability
+      cmd: curl "https://apis.io/api/v1/capabilities/__SLUG__"
+    - label: All business capabilities
+      cmd: curl "https://apis.io/api/v1/capabilities?limit=25"
   use-cases:
     label: Use Cases
     noun: use case

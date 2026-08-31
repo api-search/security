@@ -2,12 +2,18 @@
 api_key_in:
 - header
 api_specs:
-- filename: resultid-api-openapi.yml
+- filename: resultid-endpoints-api-openapi.yml
   format: yaml
-  label: Resultid API
-  slug: resultid-api
+  label: Resultid Endpoints API
+  slug: resultid-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/openapi/resultid-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/openapi/resultid-endpoints-api-openapi.yml
+- filename: resultid-insight-endpoints-api-openapi.yml
+  format: yaml
+  label: Resultid Insight endpoints API
+  slug: resultid-insight-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/openapi/resultid-insight-endpoints-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,12 +2,6 @@
 api_key_in:
 - query
 api_specs:
-- filename: johns-hopkins-university-hub-api-openapi.yml
-  format: yaml
-  label: JHU Hub API
-  slug: hub
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/openapi/johns-hopkins-university-hub-api-openapi.yml
 - filename: johns-hopkins-university-classes-api-openapi.yml
   format: yaml
   label: Johns Hopkins University SIS Classes API
@@ -20,6 +14,18 @@ api_specs:
   slug: johns-hopkins-university-codes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/openapi/johns-hopkins-university-codes-api-openapi.yml
+- filename: johns-hopkins-university-content-api-openapi.yml
+  format: yaml
+  label: Johns Hopkins University Content API
+  slug: johns-hopkins-university-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/openapi/johns-hopkins-university-content-api-openapi.yml
+- filename: johns-hopkins-university-taxonomy-api-openapi.yml
+  format: yaml
+  label: Johns Hopkins University Taxonomy API
+  slug: johns-hopkins-university-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/openapi/johns-hopkins-university-taxonomy-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

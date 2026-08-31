@@ -31,24 +31,24 @@ api_specs:
   slug: yale-configuration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-configuration-api-openapi.yml
-- filename: yale-dataverse-openapi.yml
+- filename: yale-federation-api-openapi.yml
   format: yaml
-  label: Yale Dataverse Repository API
-  slug: dataverse
+  label: Yale University Federation API
+  slug: yale-federation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-dataverse-openapi.yml
-- filename: yale-digital-collections-iiif-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-federation-api-openapi.yml
+- filename: yale-iiif-api-openapi.yml
   format: yaml
-  label: Yale University Library Digital Collections IIIF
-  slug: iiif
+  label: Yale University IIIF API
+  slug: yale-iiif-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-digital-collections-iiif-openapi.yml
-- filename: yale-identity-federation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-iiif-api-openapi.yml
+- filename: yale-info-api-openapi.yml
   format: yaml
-  label: Yale University Identity Federation Metadata
-  slug: identity-federation
+  label: Yale University Info API
+  slug: yale-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-identity-federation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-info-api-openapi.yml
 auth_types: []
 description: 'How authentication works across Yale University''s machine-readable surfaces. Yale is unusual for its cohort in running a genuinely bifurcated estate: an entirely open cultural-heritage and research-data tier that needs no credential at all, and an entirely closed administrative tier that needs a Yale NetID before a key can even be requested.'
 kind: authentication

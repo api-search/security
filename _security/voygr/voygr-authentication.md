@@ -7,6 +7,12 @@ api_specs:
   slug: voygr-calls-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/voygr/refs/heads/main/openapi/voygr-calls-api-openapi.yml
+- filename: voygr-core-api-openapi.yml
+  format: yaml
+  label: VOYGR Core API
+  slug: voygr-core-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voygr/refs/heads/main/openapi/voygr-core-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

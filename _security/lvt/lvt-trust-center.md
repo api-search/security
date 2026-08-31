@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: lvt-partner-api-openapi.yml
+- filename: lvt-cameras-api-openapi.yml
   format: yaml
-  label: LVT Partner API
-  slug: lvt-partner-api
+  label: LVT Cameras API
+  slug: lvt-cameras-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-partner-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-cameras-api-openapi.yml
+- filename: lvt-events-api-openapi.yml
+  format: yaml
+  label: LVT Events API
+  slug: lvt-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-events-api-openapi.yml
+- filename: lvt-liveunits-api-openapi.yml
+  format: yaml
+  label: LVT Live Units API
+  slug: lvt-liveunits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-liveunits-api-openapi.yml
+- filename: lvt-locations-api-openapi.yml
+  format: yaml
+  label: LVT Locations API
+  slug: lvt-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-locations-api-openapi.yml
+- filename: lvt-media-api-openapi.yml
+  format: yaml
+  label: LVT Media API
+  slug: lvt-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-media-api-openapi.yml
+- filename: lvt-publickeys-api-openapi.yml
+  format: yaml
+  label: LVT Public Keys API
+  slug: lvt-publickeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-publickeys-api-openapi.yml
+- filename: lvt-streams-api-openapi.yml
+  format: yaml
+  label: LVT Streams API
+  slug: lvt-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-streams-api-openapi.yml
+- filename: lvt-talkdown-api-openapi.yml
+  format: yaml
+  label: LVT Talkdown API
+  slug: lvt-talkdown-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-talkdown-api-openapi.yml
+- filename: lvt-webhooks-api-openapi.yml
+  format: yaml
+  label: LVT Webhooks API
+  slug: lvt-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-webhooks-api-openapi.yml
 certifications: []
 description: ''
 kind: trust-center

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: marketaux-openapi.yml
+- filename: marketaux-entities-api-openapi.yml
   format: yaml
-  label: MarketAux API
-  slug: marketaux-api
+  label: MarketAux Entities API
+  slug: marketaux-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/openapi/marketaux-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/openapi/marketaux-entities-api-openapi.yml
+- filename: marketaux-news-api-openapi.yml
+  format: yaml
+  label: MarketAux News API
+  slug: marketaux-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/openapi/marketaux-news-api-openapi.yml
+- filename: marketaux-sources-api-openapi.yml
+  format: yaml
+  label: MarketAux Sources API
+  slug: marketaux-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/openapi/marketaux-sources-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,41 +1,59 @@
 ---
 api_specs:
-- filename: helcim-api.json
-  format: json
-  label: Helcim Payment API
-  slug: helcim-payment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-api.json
-- filename: helcim-api.json
-  format: json
+- filename: helcim-ach-payment-api-openapi.yml
+  format: yaml
   label: Helcim ACH Payment API
   slug: helcim-ach-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-api.json
-- filename: helcim-api.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-ach-payment-api-openapi.yml
+- filename: helcim-card-batch-api-openapi.yml
+  format: yaml
+  label: Helcim Card Batch API
+  slug: helcim-card-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-card-batch-api-openapi.yml
+- filename: helcim-card-terminal-api-openapi.yml
+  format: yaml
+  label: Helcim Card Terminal API
+  slug: helcim-card-terminal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-card-terminal-api-openapi.yml
+- filename: helcim-card-transaction-api-openapi.yml
+  format: yaml
+  label: Helcim Card Transaction API
+  slug: helcim-card-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-card-transaction-api-openapi.yml
+- filename: helcim-customer-api-openapi.yml
+  format: yaml
   label: Helcim Customer API
   slug: helcim-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-api.json
-- filename: helcim-api.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-customer-api-openapi.yml
+- filename: helcim-device-api-openapi.yml
+  format: yaml
+  label: Helcim Device API
+  slug: helcim-device-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-device-api-openapi.yml
+- filename: helcim-general-api-openapi.yml
+  format: yaml
+  label: Helcim General API
+  slug: helcim-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-general-api-openapi.yml
+- filename: helcim-invoice-api-openapi.yml
+  format: yaml
   label: Helcim Invoice API
   slug: helcim-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-api.json
-- filename: helcim-api.json
-  format: json
-  label: Helcim Card Transaction & Batch API
-  slug: helcim-card-transaction-batch-api
+  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-invoice-api-openapi.yml
+- filename: helcim-payment-api-openapi.yml
+  format: yaml
+  label: Helcim Payment API
+  slug: helcim-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-api.json
-- filename: helcim-api.json
-  format: json
-  label: Helcim Card Terminal & Device API
-  slug: helcim-terminal-device-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-payment-api-openapi.yml
 description: ''
 domains:
 - caa:

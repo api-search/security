@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: growthspace-public-api-management-openapi-original.yml
+- filename: growthspace-admin-api-openapi.yml
   format: yaml
-  label: Growthspace Public API Management
-  slug: growthspace-public-api-management
+  label: GrowthSpace Admin API
+  slug: growthspace-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/openapi/growthspace-public-api-management-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/openapi/growthspace-admin-api-openapi.yml
+- filename: growthspace-ah-api-openapi.yml
+  format: yaml
+  label: GrowthSpace Ah API
+  slug: growthspace-ah-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/openapi/growthspace-ah-api-openapi.yml
+- filename: growthspace-growthspace-engineering-public-api-management-api-openapi.yml
+  format: yaml
+  label: GrowthSpace @growthspace Engineering/public Api Management API
+  slug: growthspace-growthspace-engineering-public-api-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/openapi/growthspace-growthspace-engineering-public-api-management-api-openapi.yml
+- filename: growthspace-healthz-api-openapi.yml
+  format: yaml
+  label: GrowthSpace Healthz API
+  slug: growthspace-healthz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/openapi/growthspace-healthz-api-openapi.yml
+- filename: growthspace-public-api-openapi.yml
+  format: yaml
+  label: GrowthSpace Public API
+  slug: growthspace-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/openapi/growthspace-public-api-openapi.yml
+- filename: growthspace-up-time-check-api-openapi.yml
+  format: yaml
+  label: GrowthSpace Up Time Check API
+  slug: growthspace-up-time-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/openapi/growthspace-up-time-check-api-openapi.yml
 description: ''
 domains:
 - caa: []

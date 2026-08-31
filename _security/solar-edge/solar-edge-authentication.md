@@ -50,6 +50,12 @@ api_specs:
   slug: solar-edge-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/openapi/solar-edge-version-api-openapi.yml
+- filename: solar-edge-account-api-openapi.yml
+  format: yaml
+  label: SolarEdge Account API
+  slug: solar-edge-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/openapi/solar-edge-account-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

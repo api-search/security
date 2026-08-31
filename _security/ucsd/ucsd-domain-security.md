@@ -42,12 +42,18 @@ api_specs:
   slug: tritonai-scim-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-scim-api-openapi.yml
-- filename: ucsd-library-digital-collections-openapi.yml
+- filename: ucsd-objects-api-openapi.yml
   format: yaml
-  label: UC San Diego Library Digital Collections JSON API
-  slug: library-digital-collections-api
+  label: University of California, San Diego Objects API
+  slug: ucsd-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-library-digital-collections-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-objects-api-openapi.yml
+- filename: ucsd-search-api-openapi.yml
+  format: yaml
+  label: University of California, San Diego Search API
+  slug: ucsd-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -36,6 +36,18 @@ api_specs:
   slug: lunar-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/openapi/lunar-policies-api-openapi.yml
+- filename: lunar-health-api-openapi.yml
+  format: yaml
+  label: Lunar Health API
+  slug: lunar-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/openapi/lunar-health-api-openapi.yml
+- filename: lunar-proxy-api-openapi.yml
+  format: yaml
+  label: Lunar Proxy API
+  slug: lunar-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/openapi/lunar-proxy-api-openapi.yml
 description: ''
 domains:
 - caa: []

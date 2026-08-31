@@ -2,12 +2,54 @@
 api_key_in:
 - cookie
 api_specs:
-- filename: infinidat-infinibox-openapi.yml
+- filename: infinidat-components-api-openapi.yml
   format: yaml
-  label: InfiniBox REST API (InfiniAPI)
-  slug: infinibox-rest-api
+  label: Infinidat Components API
+  slug: infinidat-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/openapi/infinidat-infinibox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/openapi/infinidat-components-api-openapi.yml
+- filename: infinidat-config-api-openapi.yml
+  format: yaml
+  label: Infinidat Config API
+  slug: infinidat-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/openapi/infinidat-config-api-openapi.yml
+- filename: infinidat-filesystems-api-openapi.yml
+  format: yaml
+  label: Infinidat Filesystems API
+  slug: infinidat-filesystems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/openapi/infinidat-filesystems-api-openapi.yml
+- filename: infinidat-hosts-api-openapi.yml
+  format: yaml
+  label: Infinidat Hosts API
+  slug: infinidat-hosts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/openapi/infinidat-hosts-api-openapi.yml
+- filename: infinidat-metadata-api-openapi.yml
+  format: yaml
+  label: Infinidat Metadata API
+  slug: infinidat-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/openapi/infinidat-metadata-api-openapi.yml
+- filename: infinidat-pools-api-openapi.yml
+  format: yaml
+  label: Infinidat Pools API
+  slug: infinidat-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/openapi/infinidat-pools-api-openapi.yml
+- filename: infinidat-system-api-openapi.yml
+  format: yaml
+  label: Infinidat System API
+  slug: infinidat-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/openapi/infinidat-system-api-openapi.yml
+- filename: infinidat-users-api-openapi.yml
+  format: yaml
+  label: Infinidat Users API
+  slug: infinidat-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/openapi/infinidat-users-api-openapi.yml
 auth_types:
 - apiKey
 - http

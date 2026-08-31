@@ -42,6 +42,12 @@ api_specs:
   slug: sigma-ratings-utilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sigma-ratings/refs/heads/main/openapi/sigma-ratings-utilities-api-openapi.yml
+- filename: sigma-ratings-webhooks-api-openapi.yml
+  format: yaml
+  label: Sigma360 Webhooks API
+  slug: sigma-ratings-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-ratings/refs/heads/main/openapi/sigma-ratings-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

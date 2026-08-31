@@ -2,18 +2,6 @@
 api_key_in:
 - header
 api_specs:
-- filename: aws-braket-devices-api-openapi.yml
-  format: yaml
-  label: AWS Braket Devices API
-  slug: aws-braket-devices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-braket/refs/heads/main/openapi/aws-braket-devices-api-openapi.yml
-- filename: aws-braket-tags-api-openapi.yml
-  format: yaml
-  label: AWS Braket Tags API
-  slug: aws-braket-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-braket/refs/heads/main/openapi/aws-braket-tags-api-openapi.yml
 - filename: aws-braket-hybridjobs-api-openapi.yml
   format: yaml
   label: AWS Braket HybridJobs API

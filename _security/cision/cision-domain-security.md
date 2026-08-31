@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: cision-cisionone-openapi.yml
+- filename: cision-mentions-api-openapi.yml
   format: yaml
-  label: CisionOne API
-  slug: cisionone-api
+  label: Cision Mentions API
+  slug: cision-mentions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/openapi/cision-cisionone-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/openapi/cision-mentions-api-openapi.yml
+- filename: cision-stream-api-openapi.yml
+  format: yaml
+  label: Cision Stream API
+  slug: cision-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/openapi/cision-stream-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -194,6 +194,48 @@ api_specs:
   slug: chatwoot-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/openapi/chatwoot-webhooks-api-openapi.yml
+- filename: chatwoot-automation-rules-api-openapi.yml
+  format: yaml
+  label: Chatwoot Automation Rules API
+  slug: chatwoot-automation-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/openapi/chatwoot-automation-rules-api-openapi.yml
+- filename: chatwoot-client-contacts-api-openapi.yml
+  format: yaml
+  label: Chatwoot Client Contacts API
+  slug: chatwoot-client-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/openapi/chatwoot-client-contacts-api-openapi.yml
+- filename: chatwoot-client-conversations-api-openapi.yml
+  format: yaml
+  label: Chatwoot Client Conversations API
+  slug: chatwoot-client-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/openapi/chatwoot-client-conversations-api-openapi.yml
+- filename: chatwoot-client-messages-api-openapi.yml
+  format: yaml
+  label: Chatwoot Client Messages API
+  slug: chatwoot-client-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/openapi/chatwoot-client-messages-api-openapi.yml
+- filename: chatwoot-platform-accounts-api-openapi.yml
+  format: yaml
+  label: Chatwoot Platform Accounts API
+  slug: chatwoot-platform-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/openapi/chatwoot-platform-accounts-api-openapi.yml
+- filename: chatwoot-platform-agent-bots-api-openapi.yml
+  format: yaml
+  label: Chatwoot Platform Agent Bots API
+  slug: chatwoot-platform-agent-bots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/openapi/chatwoot-platform-agent-bots-api-openapi.yml
+- filename: chatwoot-platform-users-api-openapi.yml
+  format: yaml
+  label: Chatwoot Platform Users API
+  slug: chatwoot-platform-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/openapi/chatwoot-platform-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

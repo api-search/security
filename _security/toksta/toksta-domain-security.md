@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: toksta-public-api-openapi.yml
+- filename: toksta-account-api-openapi.yml
   format: yaml
-  label: Toksta Public API
-  slug: toksta-public-api
+  label: toksta Account API
+  slug: toksta-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-public-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-account-api-openapi.yml
+- filename: toksta-analysis-api-openapi.yml
+  format: yaml
+  label: toksta Analysis API
+  slug: toksta-analysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-analysis-api-openapi.yml
+- filename: toksta-campaigns-api-openapi.yml
+  format: yaml
+  label: toksta Campaigns API
+  slug: toksta-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-campaigns-api-openapi.yml
+- filename: toksta-creator-lists-api-openapi.yml
+  format: yaml
+  label: toksta Creator Lists API
+  slug: toksta-creator-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-creator-lists-api-openapi.yml
+- filename: toksta-creators-api-openapi.yml
+  format: yaml
+  label: toksta Creators API
+  slug: toksta-creators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-creators-api-openapi.yml
+- filename: toksta-enrichment-api-openapi.yml
+  format: yaml
+  label: toksta Enrichment API
+  slug: toksta-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-enrichment-api-openapi.yml
+- filename: toksta-evidence-api-openapi.yml
+  format: yaml
+  label: toksta Evidence API
+  slug: toksta-evidence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-evidence-api-openapi.yml
+- filename: toksta-jobs-api-openapi.yml
+  format: yaml
+  label: toksta Jobs API
+  slug: toksta-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-jobs-api-openapi.yml
+- filename: toksta-system-api-openapi.yml
+  format: yaml
+  label: toksta System API
+  slug: toksta-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-system-api-openapi.yml
 description: ''
 domains:
 - caa: []

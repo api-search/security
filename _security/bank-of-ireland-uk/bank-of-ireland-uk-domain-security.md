@@ -1,29 +1,209 @@
 ---
 api_specs:
-- filename: bank-of-ireland-uk-open-data-openapi.json
-  format: json
-  label: Bank of Ireland (UK) Open Data API
-  slug: bank-of-ireland-uk-open-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-open-data-openapi.json
-- filename: bank-of-ireland-uk-account-info-openapi.yaml
+- filename: bank-of-ireland-uk-account-access-consents-api-openapi.yml
   format: yaml
-  label: Bank of Ireland (UK) Account & Transaction Information API
-  slug: bank-of-ireland-uk-account-information-api
+  label: Bank of Ireland (UK) Account Access Consents API
+  slug: bank-of-ireland-uk-account-access-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-account-info-openapi.yaml
-- filename: bank-of-ireland-uk-payment-initiation-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-account-access-consents-api-openapi.yml
+- filename: bank-of-ireland-uk-accounts-api-openapi.yml
   format: yaml
-  label: Bank of Ireland (UK) Payment Initiation API
-  slug: bank-of-ireland-uk-payment-initiation-api
+  label: Bank of Ireland (UK) Accounts API
+  slug: bank-of-ireland-uk-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-payment-initiation-openapi.yaml
-- filename: bank-of-ireland-uk-confirmation-funds-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-accounts-api-openapi.yml
+- filename: bank-of-ireland-uk-atm-api-openapi.yml
   format: yaml
-  label: Bank of Ireland (UK) Confirmation of Funds API
-  slug: bank-of-ireland-uk-confirmation-of-funds-api
+  label: Bank of Ireland (UK) ATM API
+  slug: bank-of-ireland-uk-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-confirmation-funds-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-atm-api-openapi.yml
+- filename: bank-of-ireland-uk-balances-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) Balances API
+  slug: bank-of-ireland-uk-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-balances-api-openapi.yml
+- filename: bank-of-ireland-uk-bca-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) BCA API
+  slug: bank-of-ireland-uk-bca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-bca-api-openapi.yml
+- filename: bank-of-ireland-uk-beneficiaries-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) Beneficiaries API
+  slug: bank-of-ireland-uk-beneficiaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-beneficiaries-api-openapi.yml
+- filename: bank-of-ireland-uk-branch-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) Branch API
+  slug: bank-of-ireland-uk-branch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-branch-api-openapi.yml
+- filename: bank-of-ireland-uk-ccc-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) CCC API
+  slug: bank-of-ireland-uk-ccc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-ccc-api-openapi.yml
+- filename: bank-of-ireland-uk-direct-debits-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) Direct Debits API
+  slug: bank-of-ireland-uk-direct-debits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-direct-debits-api-openapi.yml
+- filename: bank-of-ireland-uk-domestic-payment-consents-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) Domestic Payment Consents API
+  slug: bank-of-ireland-uk-domestic-payment-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-domestic-payment-consents-api-openapi.yml
+- filename: bank-of-ireland-uk-domestic-payments-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) Domestic Payments API
+  slug: bank-of-ireland-uk-domestic-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-domestic-payments-api-openapi.yml
+- filename: bank-of-ireland-uk-domestic-scheduled-payment-consents-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) Domestic Scheduled Payment Consents API
+  slug: bank-of-ireland-uk-domestic-scheduled-payment-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-domestic-scheduled-payment-consents-api-openapi.yml
+- filename: bank-of-ireland-uk-domestic-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) Domestic Scheduled Payments API
+  slug: bank-of-ireland-uk-domestic-scheduled-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-domestic-scheduled-payments-api-openapi.yml
+- filename: bank-of-ireland-uk-domestic-standing-order-consents-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) Domestic Standing Order Consents API
+  slug: bank-of-ireland-uk-domestic-standing-order-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-domestic-standing-order-consents-api-openapi.yml
+- filename: bank-of-ireland-uk-domestic-standing-orders-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) Domestic Standing Orders API
+  slug: bank-of-ireland-uk-domestic-standing-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-domestic-standing-orders-api-openapi.yml
+- filename: bank-of-ireland-uk-file-payment-consents-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) File Payment Consents API
+  slug: bank-of-ireland-uk-file-payment-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-file-payment-consents-api-openapi.yml
+- filename: bank-of-ireland-uk-file-payments-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) File Payments API
+  slug: bank-of-ireland-uk-file-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-file-payments-api-openapi.yml
+- filename: bank-of-ireland-uk-funds-confirmation-consents-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) Funds Confirmation Consents API
+  slug: bank-of-ireland-uk-funds-confirmation-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-funds-confirmation-consents-api-openapi.yml
+- filename: bank-of-ireland-uk-funds-confirmations-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) Funds Confirmations API
+  slug: bank-of-ireland-uk-funds-confirmations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-funds-confirmations-api-openapi.yml
+- filename: bank-of-ireland-uk-international-payment-consents-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) International Payment Consents API
+  slug: bank-of-ireland-uk-international-payment-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-international-payment-consents-api-openapi.yml
+- filename: bank-of-ireland-uk-international-payments-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) International Payments API
+  slug: bank-of-ireland-uk-international-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-international-payments-api-openapi.yml
+- filename: bank-of-ireland-uk-international-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) International Scheduled Payments API
+  slug: bank-of-ireland-uk-international-scheduled-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-international-scheduled-payments-api-openapi.yml
+- filename: bank-of-ireland-uk-international-scheduled-payments-consents-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) International Scheduled Payments Consents API
+  slug: bank-of-ireland-uk-international-scheduled-payments-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-international-scheduled-payments-consents-api-openapi.yml
+- filename: bank-of-ireland-uk-international-standing-orders-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) International Standing Orders API
+  slug: bank-of-ireland-uk-international-standing-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-international-standing-orders-api-openapi.yml
+- filename: bank-of-ireland-uk-international-standing-orders-consents-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) International Standing Orders Consents API
+  slug: bank-of-ireland-uk-international-standing-orders-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-international-standing-orders-consents-api-openapi.yml
+- filename: bank-of-ireland-uk-offers-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) Offers API
+  slug: bank-of-ireland-uk-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-offers-api-openapi.yml
+- filename: bank-of-ireland-uk-parties-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) Parties API
+  slug: bank-of-ireland-uk-parties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-parties-api-openapi.yml
+- filename: bank-of-ireland-uk-pca-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) PCA API
+  slug: bank-of-ireland-uk-pca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-pca-api-openapi.yml
+- filename: bank-of-ireland-uk-products-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) Products API
+  slug: bank-of-ireland-uk-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-products-api-openapi.yml
+- filename: bank-of-ireland-uk-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) Scheduled Payments API
+  slug: bank-of-ireland-uk-scheduled-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-scheduled-payments-api-openapi.yml
+- filename: bank-of-ireland-uk-sme-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) SME API
+  slug: bank-of-ireland-uk-sme-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-sme-api-openapi.yml
+- filename: bank-of-ireland-uk-standing-orders-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) Standing Orders API
+  slug: bank-of-ireland-uk-standing-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-standing-orders-api-openapi.yml
+- filename: bank-of-ireland-uk-statements-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) Statements API
+  slug: bank-of-ireland-uk-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-statements-api-openapi.yml
+- filename: bank-of-ireland-uk-transactions-api-openapi.yml
+  format: yaml
+  label: Bank of Ireland (UK) Transactions API
+  slug: bank-of-ireland-uk-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/openapi/bank-of-ireland-uk-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,71 +1,41 @@
 ---
 api_specs:
-- filename: propertyme-openapi.json
-  format: json
-  label: PropertyMe Contacts API
-  slug: propertyme-contacts-api
+- filename: propertyme-connection-api-openapi.yml
+  format: yaml
+  label: PropertyMe Connection API
+  slug: propertyme-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-openapi.json
-- filename: propertyme-openapi.json
-  format: json
-  label: PropertyMe Properties API
-  slug: propertyme-properties-api
+  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-connection-api-openapi.yml
+- filename: propertyme-scope-activities-api-openapi.yml
+  format: yaml
+  label: 'PropertyMe Scope: Activities API'
+  slug: propertyme-scope-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-openapi.json
-- filename: propertyme-openapi.json
-  format: json
-  label: PropertyMe Tenancies API
-  slug: propertyme-tenancies-api
+  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-activities-api-openapi.yml
+- filename: propertyme-scope-bills-api-openapi.yml
+  format: yaml
+  label: 'PropertyMe Scope: Bills API'
+  slug: propertyme-scope-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-openapi.json
-- filename: propertyme-openapi.json
-  format: json
-  label: PropertyMe Inspections API
-  slug: propertyme-inspections-api
+  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-bills-api-openapi.yml
+- filename: propertyme-scope-contacts-api-openapi.yml
+  format: yaml
+  label: 'PropertyMe Scope: Contacts API'
+  slug: propertyme-scope-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-openapi.json
-- filename: propertyme-openapi.json
-  format: json
-  label: PropertyMe Job Tasks API
-  slug: propertyme-job-tasks-api
+  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-contacts-api-openapi.yml
+- filename: propertyme-scope-messages-api-openapi.yml
+  format: yaml
+  label: 'PropertyMe Scope: Messages API'
+  slug: propertyme-scope-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-openapi.json
-- filename: propertyme-openapi.json
-  format: json
-  label: PropertyMe Tasks API
-  slug: propertyme-tasks-api
+  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-messages-api-openapi.yml
+- filename: propertyme-scope-properties-api-openapi.yml
+  format: yaml
+  label: 'PropertyMe Scope: Properties API'
+  slug: propertyme-scope-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-openapi.json
-- filename: propertyme-openapi.json
-  format: json
-  label: PropertyMe Bills API
-  slug: propertyme-bills-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-openapi.json
-- filename: propertyme-openapi.json
-  format: json
-  label: PropertyMe Dashboards API
-  slug: propertyme-dashboards-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-openapi.json
-- filename: propertyme-openapi.json
-  format: json
-  label: PropertyMe Documents and Images API
-  slug: propertyme-documents-and-images-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-openapi.json
-- filename: propertyme-openapi.json
-  format: json
-  label: PropertyMe Members API
-  slug: propertyme-members-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-openapi.json
-- filename: propertyme-openapi.json
-  format: json
-  label: PropertyMe Portfolio Connection API
-  slug: propertyme-portfolio-connection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-properties-api-openapi.yml
 description: ''
 domains:
 - caa: []

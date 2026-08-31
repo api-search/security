@@ -1,12 +1,6 @@
 ---
 api_key_in: []
 api_specs:
-- filename: blng-journey-api-openapi.yml
-  format: yaml
-  label: BLNG Journey API
-  slug: blng-journey-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-journey-api-openapi.yml
 - filename: blng-user-api-openapi.yml
   format: yaml
   label: BLNG User API
@@ -19,6 +13,78 @@ api_specs:
   slug: blng-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-billing-api-openapi.yml
+- filename: blng-chat-prompts-api-openapi.yml
+  format: yaml
+  label: Blng Chat Prompts API
+  slug: blng-chat-prompts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-chat-prompts-api-openapi.yml
+- filename: blng-composite-api-openapi.yml
+  format: yaml
+  label: Blng Composite API
+  slug: blng-composite-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-composite-api-openapi.yml
+- filename: blng-design-journey-api-openapi.yml
+  format: yaml
+  label: Blng Design Journey API
+  slug: blng-design-journey-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-design-journey-api-openapi.yml
+- filename: blng-invitation-api-openapi.yml
+  format: yaml
+  label: Blng Invitation API
+  slug: blng-invitation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-invitation-api-openapi.yml
+- filename: blng-journeys-api-openapi.yml
+  format: yaml
+  label: Blng Journeys API
+  slug: blng-journeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-journeys-api-openapi.yml
+- filename: blng-organization-api-openapi.yml
+  format: yaml
+  label: Blng Organization API
+  slug: blng-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-organization-api-openapi.yml
+- filename: blng-prompts-api-openapi.yml
+  format: yaml
+  label: Blng Prompts API
+  slug: blng-prompts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-prompts-api-openapi.yml
+- filename: blng-subscription-api-openapi.yml
+  format: yaml
+  label: Blng Subscription API
+  slug: blng-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-subscription-api-openapi.yml
+- filename: blng-user-subscription-api-openapi.yml
+  format: yaml
+  label: Blng User Subscription API
+  slug: blng-user-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-user-subscription-api-openapi.yml
+- filename: blng-user-tooltip-api-openapi.yml
+  format: yaml
+  label: Blng User Tooltip API
+  slug: blng-user-tooltip-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-user-tooltip-api-openapi.yml
+- filename: blng-webhook-api-openapi.yml
+  format: yaml
+  label: Blng Webhook API
+  slug: blng-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-webhook-api-openapi.yml
+- filename: blng-workspace-api-openapi.yml
+  format: yaml
+  label: Blng Workspace API
+  slug: blng-workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-workspace-api-openapi.yml
 auth_types:
 - http
 - oauth2

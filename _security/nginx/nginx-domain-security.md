@@ -72,30 +72,6 @@ api_specs:
   slug: nginx-license-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/openapi/nginx-license-api-openapi.yml
-- filename: nginx-method-delete-api-openapi.yml
-  format: yaml
-  label: NGINX Method DELETE API
-  slug: nginx-method-delete-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/openapi/nginx-method-delete-api-openapi.yml
-- filename: nginx-method-get-api-openapi.yml
-  format: yaml
-  label: NGINX Method GET API
-  slug: nginx-method-get-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/openapi/nginx-method-get-api-openapi.yml
-- filename: nginx-method-patch-api-openapi.yml
-  format: yaml
-  label: NGINX Method PATCH API
-  slug: nginx-method-patch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/openapi/nginx-method-patch-api-openapi.yml
-- filename: nginx-method-post-api-openapi.yml
-  format: yaml
-  label: NGINX Method POST API
-  slug: nginx-method-post-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/openapi/nginx-method-post-api-openapi.yml
 - filename: nginx-processes-api-openapi.yml
   format: yaml
   label: NGINX Processes API

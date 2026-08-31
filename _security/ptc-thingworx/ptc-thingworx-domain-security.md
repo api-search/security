@@ -69,8 +69,8 @@ layout: security
 method: probed
 name: Ptc Thingworx Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for ptc-thingworx, probed live across 2 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: ptc-thingworx
+overview: 'Domain security posture for PTC ThingWorx, probed live across 2 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: PTC ThingWorx
 provider_slug: ptc-thingworx
 slug: ptc-thingworx-domain-security
 source_filename: ptc-thingworx-domain-security.yml

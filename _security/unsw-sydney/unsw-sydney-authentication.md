@@ -1,18 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: unsw-sydney-unsworks-dspace-openapi.yml
+- filename: unsw-sydney-core-api-openapi.yml
   format: yaml
-  label: UNSWorks Repository REST API (DSpace 7.0)
-  slug: unsworks-rest
+  label: University of New South Wales Core API
+  slug: unsw-sydney-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/openapi/unsw-sydney-unsworks-dspace-openapi.yml
-- filename: unsw-sydney-unsworks-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/openapi/unsw-sydney-core-api-openapi.yml
+- filename: unsw-sydney-discover-api-openapi.yml
   format: yaml
-  label: UNSWorks Repository OAI-PMH
-  slug: unsworks-oai
+  label: University of New South Wales Discover API
+  slug: unsw-sydney-discover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/openapi/unsw-sydney-unsworks-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/openapi/unsw-sydney-discover-api-openapi.yml
+- filename: unsw-sydney-oai-pmh-api-openapi.yml
+  format: yaml
+  label: University of New South Wales Oai Pmh API
+  slug: unsw-sydney-oai-pmh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/openapi/unsw-sydney-oai-pmh-api-openapi.yml
+- filename: unsw-sydney-root-api-openapi.yml
+  format: yaml
+  label: University of New South Wales Root API
+  slug: unsw-sydney-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/openapi/unsw-sydney-root-api-openapi.yml
 auth_types: []
 description: How each UNSW surface authenticates, established by probing rather than by reading marketing copy. The institution's most substantial API platform is fully gated; its readable surfaces are anonymous; and its own identity plane is a federated SAML IdP rather than an API key system.
 kind: authentication

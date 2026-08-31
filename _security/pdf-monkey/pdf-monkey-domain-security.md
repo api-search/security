@@ -18,6 +18,12 @@ api_specs:
   slug: pdf-monkey-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/openapi/pdf-monkey-templates-api-openapi.yml
+- filename: pdf-monkey-document-cards-api-openapi.yml
+  format: yaml
+  label: PDF Monkey Document Cards API
+  slug: pdf-monkey-document-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/openapi/pdf-monkey-document-cards-api-openapi.yml
 description: ''
 domains:
 - caa: []

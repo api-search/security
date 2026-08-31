@@ -360,6 +360,12 @@ api_specs:
   slug: bluejay-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/openapi/bluejay-workflows-api-openapi.yml
+- filename: bluejay-bluejay-api-api-openapi.yml
+  format: yaml
+  label: Bluejay Bluejay API
+  slug: bluejay-bluejay-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/openapi/bluejay-bluejay-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

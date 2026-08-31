@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: pyannoteai-api-openapi.yml
+- filename: pyannoteai-api-api-openapi.yml
   format: yaml
-  label: pyannoteAI API
-  slug: pyannoteai-api
+  label: PyannoteAI API
+  slug: pyannoteai-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/openapi/pyannoteai-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/openapi/pyannoteai-api-api-openapi.yml
+- filename: pyannoteai-media-api-openapi.yml
+  format: yaml
+  label: PyannoteAI Media API
+  slug: pyannoteai-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/openapi/pyannoteai-media-api-openapi.yml
+- filename: pyannoteai-streaming-api-openapi.yml
+  format: yaml
+  label: PyannoteAI Streaming API
+  slug: pyannoteai-streaming-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/openapi/pyannoteai-streaming-api-openapi.yml
 auth_types:
 - http
 description: ''

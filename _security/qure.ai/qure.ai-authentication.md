@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: qure.ai-platform-api-xray-v2-er-openapi.yml
+- filename: qure.ai-fetch-results-api-openapi.yml
   format: yaml
-  label: Qure.ai Platform API
-  slug: platform-api
+  label: Qure.ai Fetch Results API
+  slug: qure.ai-fetch-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/openapi/qure.ai-platform-api-xray-v2-er-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/openapi/qure.ai-fetch-results-api-openapi.yml
+- filename: qure.ai-initiate-computation-api-openapi.yml
+  format: yaml
+  label: Qure.ai Initiate Computation API
+  slug: qure.ai-initiate-computation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/openapi/qure.ai-initiate-computation-api-openapi.yml
+- filename: qure.ai-upload-dicoms-api-openapi.yml
+  format: yaml
+  label: Qure.ai Upload DICOMs API
+  slug: qure.ai-upload-dicoms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/openapi/qure.ai-upload-dicoms-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

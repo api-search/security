@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: getir-food-openapi.yml
+- filename: getir-auth-api-openapi.yml
   format: yaml
-  label: GetirFood API
-  slug: getirfood-api
+  label: Getir Auth API
+  slug: getir-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-food-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-auth-api-openapi.yml
+- filename: getir-chain-menus-api-openapi.yml
+  format: yaml
+  label: Getir Chain Menus API
+  slug: getir-chain-menus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-chain-menus-api-openapi.yml
+- filename: getir-changelog-api-openapi.yml
+  format: yaml
+  label: Getir Changelog API
+  slug: getir-changelog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-changelog-api-openapi.yml
+- filename: getir-food-orders-api-openapi.yml
+  format: yaml
+  label: Getir Food Orders API
+  slug: getir-food-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-food-orders-api-openapi.yml
+- filename: getir-health-api-openapi.yml
+  format: yaml
+  label: Getir Health API
+  slug: getir-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-health-api-openapi.yml
+- filename: getir-payment-methods-api-openapi.yml
+  format: yaml
+  label: Getir Payment Methods API
+  slug: getir-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-payment-methods-api-openapi.yml
+- filename: getir-products-api-openapi.yml
+  format: yaml
+  label: Getir Products API
+  slug: getir-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-products-api-openapi.yml
+- filename: getir-restaurants-api-openapi.yml
+  format: yaml
+  label: Getir Restaurants API
+  slug: getir-restaurants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/openapi/getir-restaurants-api-openapi.yml
 description: ''
 domains:
 - caa: []

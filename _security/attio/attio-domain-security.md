@@ -96,6 +96,12 @@ api_specs:
   slug: attio-workspace-members-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-workspace-members-api-openapi.yml
+- filename: attio-list-entries-api-openapi.yml
+  format: yaml
+  label: Attio List Entries API
+  slug: attio-list-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-list-entries-api-openapi.yml
 description: ''
 domains:
 - caa: []

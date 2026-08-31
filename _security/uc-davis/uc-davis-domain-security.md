@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: uc-davis-aggie-experts-api-openapi.yml
-  format: yaml
-  label: Aggie Experts API
-  slug: aggie-experts
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-aggie-experts-api-openapi.yml
-- filename: uc-davis-dams-api-openapi.yml
-  format: yaml
-  label: DAMS API — UC Davis Library Digital Collections
-  slug: dams
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-dams-api-openapi.yml
 - filename: uc-davis-access-api-openapi.yml
   format: yaml
   label: PEAKS (CAES) — Access API
@@ -66,6 +54,30 @@ api_specs:
   slug: uc-davis-workstations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-workstations-api-openapi.yml
+- filename: uc-davis-collection-api-openapi.yml
+  format: yaml
+  label: University of California, Davis Collection API
+  slug: uc-davis-collection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-collection-api-openapi.yml
+- filename: uc-davis-expert-api-openapi.yml
+  format: yaml
+  label: University of California, Davis Expert API
+  slug: uc-davis-expert-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-expert-api-openapi.yml
+- filename: uc-davis-item-api-openapi.yml
+  format: yaml
+  label: University of California, Davis Item API
+  slug: uc-davis-item-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-item-api-openapi.yml
+- filename: uc-davis-page-search-api-openapi.yml
+  format: yaml
+  label: University of California, Davis page search API
+  slug: uc-davis-page-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-page-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

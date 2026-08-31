@@ -1,41 +1,101 @@
 ---
 api_specs:
-- filename: bombora-authentication-api-openapi.yml
-  format: yaml
-  label: Bombora Authentication API
-  slug: bombora-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-authentication-api-openapi.yml
 - filename: bombora-intent-api-openapi.yml
   format: yaml
   label: Bombora Intent API
   slug: bombora-intent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-intent-api-openapi.yml
-- filename: bombora-account-list-api-openapi.yml
+- filename: bombora-accountlists-api-openapi.yml
   format: yaml
-  label: Bombora Account List API
-  slug: bombora-account-list-api
+  label: Bombora Account Lists API
+  slug: bombora-accountlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-account-list-api-openapi.yml
-- filename: bombora-reference-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-accountlists-api-openapi.yml
+- filename: bombora-accounts-api-openapi.yml
   format: yaml
-  label: Bombora Reference API
-  slug: bombora-reference-api
+  label: Bombora Accounts API
+  slug: bombora-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-reference-api-openapi.yml
-- filename: bombora-digital-audience-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-accounts-api-openapi.yml
+- filename: bombora-activate-api-openapi.yml
+  format: yaml
+  label: Bombora Activate API
+  slug: bombora-activate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-activate-api-openapi.yml
+- filename: bombora-data-api-openapi.yml
+  format: yaml
+  label: Bombora Data API
+  slug: bombora-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-data-api-openapi.yml
+- filename: bombora-demographic-api-openapi.yml
+  format: yaml
+  label: Bombora Demographic API
+  slug: bombora-demographic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-demographic-api-openapi.yml
+- filename: bombora-destinations-api-openapi.yml
+  format: yaml
+  label: Bombora Destinations API
+  slug: bombora-destinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-destinations-api-openapi.yml
+- filename: bombora-digital-audience-builder-dab-api-api-openapi.yml
   format: yaml
   label: Bombora Digital Audience Builder (DAB) API
-  slug: bombora-digital-audience-api
+  slug: bombora-digital-audience-builder-dab-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-digital-audience-api-openapi.yml
-- filename: bombora-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-digital-audience-builder-dab-api-api-openapi.yml
+- filename: bombora-estimate-api-openapi.yml
   format: yaml
-  label: Bombora Webhooks API
-  slug: bombora-webhooks-api
+  label: Bombora Estimate API
+  slug: bombora-estimate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-estimate-api-openapi.yml
+- filename: bombora-events-api-openapi.yml
+  format: yaml
+  label: Bombora Events API
+  slug: bombora-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-events-api-openapi.yml
+- filename: bombora-firmographic-api-openapi.yml
+  format: yaml
+  label: Bombora Firmographic API
+  slug: bombora-firmographic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-firmographic-api-openapi.yml
+- filename: bombora-geographic-api-openapi.yml
+  format: yaml
+  label: Bombora Geographic API
+  slug: bombora-geographic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-geographic-api-openapi.yml
+- filename: bombora-install-data-api-openapi.yml
+  format: yaml
+  label: Bombora Install Data API
+  slug: bombora-install-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-install-data-api-openapi.yml
+- filename: bombora-oauth-api-openapi.yml
+  format: yaml
+  label: Bombora OAUTH API
+  slug: bombora-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-oauth-api-openapi.yml
+- filename: bombora-signaldefinition-api-openapi.yml
+  format: yaml
+  label: Bombora Signal Definition API
+  slug: bombora-signaldefinition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-signaldefinition-api-openapi.yml
+- filename: bombora-suspend-api-openapi.yml
+  format: yaml
+  label: Bombora Suspend API
+  slug: bombora-suspend-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-suspend-api-openapi.yml
 description: ''
 domains:
 - caa: []

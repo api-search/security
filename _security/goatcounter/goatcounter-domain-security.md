@@ -36,6 +36,24 @@ api_specs:
   slug: goatcounter-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-users-api-openapi.yml
+- filename: goatcounter-count-api-openapi.yml
+  format: yaml
+  label: GoatCounter Count API
+  slug: goatcounter-count-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-count-api-openapi.yml
+- filename: goatcounter-export-api-openapi.yml
+  format: yaml
+  label: GoatCounter Export API
+  slug: goatcounter-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-export-api-openapi.yml
+- filename: goatcounter-stats-api-openapi.yml
+  format: yaml
+  label: GoatCounter Stats API
+  slug: goatcounter-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-stats-api-openapi.yml
 description: ''
 domains:
 - caa:

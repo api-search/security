@@ -21,24 +21,12 @@ api_specs:
   slug: adyen-accountholderbalance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-accountholderbalance-api-openapi.yml
-- filename: adyen-accountholders-api-openapi.yml
-  format: yaml
-  label: Adyen accountHolders API
-  slug: adyen-accountholders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-accountholders-api-openapi.yml
 - filename: adyen-accountholdertransactionlist-api-openapi.yml
   format: yaml
   label: Adyen accountHolderTransactionList API
   slug: adyen-accountholdertransactionlist-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-accountholdertransactionlist-api-openapi.yml
-- filename: adyen-accounting-notifications-api-openapi.yml
-  format: yaml
-  label: Adyen Accounting Notifications API
-  slug: adyen-accounting-notifications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-accounting-notifications-api-openapi.yml
 - filename: adyen-accounts-api-openapi.yml
   format: yaml
   label: Adyen Accounts API
@@ -69,30 +57,12 @@ api_specs:
   slug: adyen-apple-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-apple-api-openapi.yml
-- filename: adyen-applepay-api-openapi.yml
-  format: yaml
-  label: Adyen applePay API
-  slug: adyen-applepay-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-applepay-api-openapi.yml
-- filename: adyen-arrangements-api-openapi.yml
-  format: yaml
-  label: Adyen Arrangements API
-  slug: adyen-arrangements-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-arrangements-api-openapi.yml
 - filename: adyen-assignterminals-api-openapi.yml
   format: yaml
   label: Adyen assignTerminals API
   slug: adyen-assignterminals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-assignterminals-api-openapi.yml
-- filename: adyen-authentication-webhooks-api-openapi.yml
-  format: yaml
-  label: Adyen General API
-  slug: adyen-authentication-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-authentication-webhooks-api-openapi.yml
 - filename: adyen-authorise-api-openapi.yml
   format: yaml
   label: Adyen Authorise API
@@ -123,36 +93,12 @@ api_specs:
   slug: adyen-balance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-balance-api-openapi.yml
-- filename: adyen-balanceaccounts-api-openapi.yml
-  format: yaml
-  label: Adyen balanceAccounts API
-  slug: adyen-balanceaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-balanceaccounts-api-openapi.yml
 - filename: adyen-balanceinquiry-api-openapi.yml
   format: yaml
   label: Adyen Balanceinquiry API
   slug: adyen-balanceinquiry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-balanceinquiry-api-openapi.yml
-- filename: adyen-balanceplatforms-api-openapi.yml
-  format: yaml
-  label: Adyen balancePlatforms API
-  slug: adyen-balanceplatforms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-balanceplatforms-api-openapi.yml
-- filename: adyen-balancetransfer-api-openapi.yml
-  format: yaml
-  label: Adyen balanceTransfer API
-  slug: adyen-balancetransfer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-balancetransfer-api-openapi.yml
-- filename: adyen-bank-api-openapi.yml
-  format: yaml
-  label: Adyen Bank API
-  slug: adyen-bank-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-bank-api-openapi.yml
 - filename: adyen-businesslines-api-openapi.yml
   format: yaml
   label: Adyen businessLines API
@@ -213,18 +159,6 @@ api_specs:
   slug: adyen-cardacquisition-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-cardacquisition-api-openapi.yml
-- filename: adyen-carddetails-api-openapi.yml
-  format: yaml
-  label: Adyen cardDetails API
-  slug: adyen-carddetails-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-carddetails-api-openapi.yml
-- filename: adyen-cardorders-api-openapi.yml
-  format: yaml
-  label: Adyen Cardorders API
-  slug: adyen-cardorders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-cardorders-api-openapi.yml
 - filename: adyen-cardreaderapdu-api-openapi.yml
   format: yaml
   label: Adyen Cardreaderapdu API
@@ -255,18 +189,6 @@ api_specs:
   slug: adyen-checkbalance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-checkbalance-api-openapi.yml
-- filename: adyen-checks-api-openapi.yml
-  format: yaml
-  label: Adyen Checks API
-  slug: adyen-checks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-checks-api-openapi.yml
-- filename: adyen-close-api-openapi.yml
-  format: yaml
-  label: Adyen Close API
-  slug: adyen-close-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-close-api-openapi.yml
 - filename: adyen-closeaccount-api-openapi.yml
   format: yaml
   label: Adyen closeAccount API
@@ -291,12 +213,6 @@ api_specs:
   slug: adyen-companies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-companies-api-openapi.yml
-- filename: adyen-configuration-webhooks-api-openapi.yml
-  format: yaml
-  label: Adyen Account holder API
-  slug: adyen-configuration-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-configuration-webhooks-api-openapi.yml
 - filename: adyen-confirmthirdparty-api-openapi.yml
   format: yaml
   label: Adyen confirmThirdParty API
@@ -453,30 +369,12 @@ api_specs:
   slug: adyen-erasure-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-erasure-api-openapi.yml
-- filename: adyen-estimates-api-openapi.yml
-  format: yaml
-  label: Adyen Estimates API
-  slug: adyen-estimates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-estimates-api-openapi.yml
 - filename: adyen-findterminal-api-openapi.yml
   format: yaml
   label: Adyen findTerminal API
   slug: adyen-findterminal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-findterminal-api-openapi.yml
-- filename: adyen-forms-api-openapi.yml
-  format: yaml
-  label: Adyen Forms API
-  slug: adyen-forms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-forms-api-openapi.yml
-- filename: adyen-get3dsavailability-api-openapi.yml
-  format: yaml
-  label: Adyen get3dsAvailability API
-  slug: adyen-get3dsavailability-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-get3dsavailability-api-openapi.yml
 - filename: adyen-getaccountholder-api-openapi.yml
   format: yaml
   label: Adyen getAccountHolder API
@@ -489,12 +387,6 @@ api_specs:
   slug: adyen-getauthenticationresult-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-getauthenticationresult-api-openapi.yml
-- filename: adyen-getcostestimate-api-openapi.yml
-  format: yaml
-  label: Adyen getCostEstimate API
-  slug: adyen-getcostestimate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-getcostestimate-api-openapi.yml
 - filename: adyen-getnotificationconfiguration-api-openapi.yml
   format: yaml
   label: Adyen getNotificationConfiguration API
@@ -555,36 +447,12 @@ api_specs:
   slug: adyen-getuploadeddocuments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-getuploadeddocuments-api-openapi.yml
-- filename: adyen-grantaccounts-api-openapi.yml
-  format: yaml
-  label: Adyen grantAccounts API
-  slug: adyen-grantaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-grantaccounts-api-openapi.yml
-- filename: adyen-grantoffers-api-openapi.yml
-  format: yaml
-  label: Adyen grantOffers API
-  slug: adyen-grantoffers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-grantoffers-api-openapi.yml
 - filename: adyen-grants-api-openapi.yml
   format: yaml
   label: Adyen Grants API
   slug: adyen-grants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-grants-api-openapi.yml
-- filename: adyen-holders-api-openapi.yml
-  format: yaml
-  label: Adyen Holders API
-  slug: adyen-holders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-holders-api-openapi.yml
-- filename: adyen-identification-api-openapi.yml
-  format: yaml
-  label: Adyen Identification API
-  slug: adyen-identification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-identification-api-openapi.yml
 - filename: adyen-input-api-openapi.yml
   format: yaml
   label: Adyen Input API
@@ -603,24 +471,12 @@ api_specs:
   slug: adyen-issue-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-issue-api-openapi.yml
-- filename: adyen-items-api-openapi.yml
-  format: yaml
-  label: Adyen Items API
-  slug: adyen-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-items-api-openapi.yml
 - filename: adyen-keys-api-openapi.yml
   format: yaml
   label: Adyen Keys API
   slug: adyen-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-keys-api-openapi.yml
-- filename: adyen-legal-api-openapi.yml
-  format: yaml
-  label: Adyen Legal API
-  slug: adyen-legal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-legal-api-openapi.yml
 - filename: adyen-legalentities-api-openapi.yml
   format: yaml
   label: Adyen legalEntities API
@@ -693,24 +549,12 @@ api_specs:
   slug: adyen-methods-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-methods-api-openapi.yml
-- filename: adyen-network-api-openapi.yml
-  format: yaml
-  label: Adyen Network API
-  slug: adyen-network-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-network-api-openapi.yml
 - filename: adyen-networks-api-openapi.yml
   format: yaml
   label: Adyen Networks API
   slug: adyen-networks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-networks-api-openapi.yml
-- filename: adyen-networktokens-api-openapi.yml
-  format: yaml
-  label: Adyen networkTokens API
-  slug: adyen-networktokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-networktokens-api-openapi.yml
 - filename: adyen-notifyshopper-api-openapi.yml
   format: yaml
   label: Adyen notifyShopper API
@@ -735,66 +579,18 @@ api_specs:
   slug: adyen-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-orders-api-openapi.yml
-- filename: adyen-origin-api-openapi.yml
-  format: yaml
-  label: Adyen Origin API
-  slug: adyen-origin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-origin-api-openapi.yml
-- filename: adyen-originkeys-api-openapi.yml
-  format: yaml
-  label: Adyen originKeys API
-  slug: adyen-originkeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-originkeys-api-openapi.yml
-- filename: adyen-pay-api-openapi.yml
-  format: yaml
-  label: Adyen Pay API
-  slug: adyen-pay-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-pay-api-openapi.yml
 - filename: adyen-payment-api-openapi.yml
   format: yaml
   label: Adyen Payment API
   slug: adyen-payment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-payment-api-openapi.yml
-- filename: adyen-paymentinstrumentgroups-api-openapi.yml
-  format: yaml
-  label: Adyen paymentInstrumentGroups API
-  slug: adyen-paymentinstrumentgroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-paymentinstrumentgroups-api-openapi.yml
-- filename: adyen-paymentinstruments-api-openapi.yml
-  format: yaml
-  label: Adyen paymentInstruments API
-  slug: adyen-paymentinstruments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-paymentinstruments-api-openapi.yml
-- filename: adyen-paymentlinks-api-openapi.yml
-  format: yaml
-  label: Adyen paymentLinks API
-  slug: adyen-paymentlinks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-paymentlinks-api-openapi.yml
-- filename: adyen-paymentmethods-api-openapi.yml
-  format: yaml
-  label: Adyen paymentMethods API
-  slug: adyen-paymentmethods-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-paymentmethods-api-openapi.yml
 - filename: adyen-payments-api-openapi.yml
   format: yaml
   label: Adyen Payments API
   slug: adyen-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-payments-api-openapi.yml
-- filename: adyen-paymentsession-api-openapi.yml
-  format: yaml
-  label: Adyen paymentSession API
-  slug: adyen-paymentsession-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-paymentsession-api-openapi.yml
 - filename: adyen-payout-api-openapi.yml
   format: yaml
   label: Adyen Payout API
@@ -813,42 +609,18 @@ api_specs:
   slug: adyen-pins-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-pins-api-openapi.yml
-- filename: adyen-platforms-api-openapi.yml
-  format: yaml
-  label: Adyen Platforms API
-  slug: adyen-platforms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-platforms-api-openapi.yml
 - filename: adyen-print-api-openapi.yml
   format: yaml
   label: Adyen Print API
   slug: adyen-print-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-print-api-openapi.yml
-- filename: adyen-psp-api-openapi.yml
-  format: yaml
-  label: Adyen Psp API
-  slug: adyen-psp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-psp-api-openapi.yml
-- filename: adyen-public-api-openapi.yml
-  format: yaml
-  label: Adyen Public API
-  slug: adyen-public-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-public-api-openapi.yml
 - filename: adyen-reconciliation-api-openapi.yml
   format: yaml
   label: Adyen Reconciliation API
   slug: adyen-reconciliation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-reconciliation-api-openapi.yml
-- filename: adyen-references-api-openapi.yml
-  format: yaml
-  label: Adyen References API
-  slug: adyen-references-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-references-api-openapi.yml
 - filename: adyen-refund-api-openapi.yml
   format: yaml
   label: Adyen Refund API
@@ -867,30 +639,6 @@ api_specs:
   slug: adyen-refundnotpaidouttransfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-refundnotpaidouttransfers-api-openapi.yml
-- filename: adyen-refunds-api-openapi.yml
-  format: yaml
-  label: Adyen Refunds API
-  slug: adyen-refunds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-refunds-api-openapi.yml
-- filename: adyen-request-api-openapi.yml
-  format: yaml
-  label: Adyen Request API
-  slug: adyen-request-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-request-api-openapi.yml
-- filename: adyen-requestsubjecterasure-api-openapi.yml
-  format: yaml
-  label: Adyen requestSubjectErasure API
-  slug: adyen-requestsubjecterasure-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-requestsubjecterasure-api-openapi.yml
-- filename: adyen-results-api-openapi.yml
-  format: yaml
-  label: Adyen Results API
-  slug: adyen-results-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-results-api-openapi.yml
 - filename: adyen-retrieve3ds2result-api-openapi.yml
   format: yaml
   label: Adyen retrieve3ds2Result API
@@ -903,30 +651,12 @@ api_specs:
   slug: adyen-retrieveapplicabledefensereasons-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-retrieveapplicabledefensereasons-api-openapi.yml
-- filename: adyen-reveal-api-openapi.yml
-  format: yaml
-  label: Adyen Reveal API
-  slug: adyen-reveal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-reveal-api-openapi.yml
 - filename: adyen-reversal-api-openapi.yml
   format: yaml
   label: Adyen Reversal API
   slug: adyen-reversal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-reversal-api-openapi.yml
-- filename: adyen-reversals-api-openapi.yml
-  format: yaml
-  label: Adyen Reversals API
-  slug: adyen-reversals-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-reversals-api-openapi.yml
-- filename: adyen-routes-api-openapi.yml
-  format: yaml
-  label: Adyen Routes API
-  slug: adyen-routes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-routes-api-openapi.yml
 - filename: adyen-rules-api-openapi.yml
   format: yaml
   label: Adyen Rules API
@@ -957,30 +687,6 @@ api_specs:
   slug: adyen-setupbeneficiary-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-setupbeneficiary-api-openapi.yml
-- filename: adyen-shareholders-api-openapi.yml
-  format: yaml
-  label: Adyen Shareholders API
-  slug: adyen-shareholders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-shareholders-api-openapi.yml
-- filename: adyen-signatories-api-openapi.yml
-  format: yaml
-  label: Adyen Signatories API
-  slug: adyen-signatories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-signatories-api-openapi.yml
-- filename: adyen-state-api-openapi.yml
-  format: yaml
-  label: Adyen State API
-  slug: adyen-state-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-state-api-openapi.yml
-- filename: adyen-stored-api-openapi.yml
-  format: yaml
-  label: Adyen Stored API
-  slug: adyen-stored-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-stored-api-openapi.yml
 - filename: adyen-storedetail-api-openapi.yml
   format: yaml
   label: Adyen storeDetail API
@@ -993,12 +699,6 @@ api_specs:
   slug: adyen-storedetailandsubmitthirdparty-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-storedetailandsubmitthirdparty-api-openapi.yml
-- filename: adyen-storedpaymentmethods-api-openapi.yml
-  format: yaml
-  label: Adyen storedPaymentMethods API
-  slug: adyen-storedpaymentmethods-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-storedpaymentmethods-api-openapi.yml
 - filename: adyen-storedvalue-api-openapi.yml
   format: yaml
   label: Adyen Storedvalue API
@@ -1011,12 +711,6 @@ api_specs:
   slug: adyen-stores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-stores-api-openapi.yml
-- filename: adyen-subjects-api-openapi.yml
-  format: yaml
-  label: Adyen Subjects API
-  slug: adyen-subjects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-subjects-api-openapi.yml
 - filename: adyen-submitthirdparty-api-openapi.yml
   format: yaml
   label: Adyen submitThirdParty API
@@ -1029,36 +723,12 @@ api_specs:
   slug: adyen-supplydefensedocument-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-supplydefensedocument-api-openapi.yml
-- filename: adyen-suspend-api-openapi.yml
-  format: yaml
-  label: Adyen Suspend API
-  slug: adyen-suspend-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-suspend-api-openapi.yml
 - filename: adyen-suspendaccountholder-api-openapi.yml
   format: yaml
   label: Adyen suspendAccountHolder API
   slug: adyen-suspendaccountholder-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-suspendaccountholder-api-openapi.yml
-- filename: adyen-sweep-api-openapi.yml
-  format: yaml
-  label: Adyen Sweep API
-  slug: adyen-sweep-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-sweep-api-openapi.yml
-- filename: adyen-sweeps-api-openapi.yml
-  format: yaml
-  label: Adyen Sweeps API
-  slug: adyen-sweeps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-sweeps-api-openapi.yml
-- filename: adyen-tax-api-openapi.yml
-  format: yaml
-  label: Adyen Tax API
-  slug: adyen-tax-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-tax-api-openapi.yml
 - filename: adyen-technicalcancel-api-openapi.yml
   format: yaml
   label: Adyen technicalCancel API
@@ -1083,30 +753,6 @@ api_specs:
   slug: adyen-themes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-themes-api-openapi.yml
-- filename: adyen-token-api-openapi.yml
-  format: yaml
-  label: Adyen Token API
-  slug: adyen-token-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-token-api-openapi.yml
-- filename: adyen-tokens-api-openapi.yml
-  format: yaml
-  label: Adyen Tokens API
-  slug: adyen-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-tokens-api-openapi.yml
-- filename: adyen-transaction-api-openapi.yml
-  format: yaml
-  label: Adyen Transaction API
-  slug: adyen-transaction-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-transaction-api-openapi.yml
-- filename: adyen-transactionrules-api-openapi.yml
-  format: yaml
-  label: Adyen transactionRules API
-  slug: adyen-transactionrules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-transactionrules-api-openapi.yml
 - filename: adyen-transactions-api-openapi.yml
   format: yaml
   label: Adyen Transactions API
@@ -1131,12 +777,6 @@ api_specs:
   slug: adyen-transferinstruments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-transferinstruments-api-openapi.yml
-- filename: adyen-transferroutes-api-openapi.yml
-  format: yaml
-  label: Adyen transferRoutes API
-  slug: adyen-transferroutes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-transferroutes-api-openapi.yml
 - filename: adyen-transfers-api-openapi.yml
   format: yaml
   label: Adyen Transfers API
@@ -1179,30 +819,6 @@ api_specs:
   slug: adyen-uploaddocument-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-uploaddocument-api-openapi.yml
-- filename: adyen-uploaded-api-openapi.yml
-  format: yaml
-  label: Adyen Uploaded API
-  slug: adyen-uploaded-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-uploaded-api-openapi.yml
-- filename: adyen-uploads-api-openapi.yml
-  format: yaml
-  label: Adyen Uploads API
-  slug: adyen-uploads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-uploads-api-openapi.yml
-- filename: adyen-validate-api-openapi.yml
-  format: yaml
-  label: Adyen Validate API
-  slug: adyen-validate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-validate-api-openapi.yml
-- filename: adyen-validatebankaccountidentification-api-openapi.yml
-  format: yaml
-  label: Adyen validateBankAccountIdentification API
-  slug: adyen-validatebankaccountidentification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/adyen-validatebankaccountidentification-api-openapi.yml
 - filename: adyen-voidpendingrefund-api-openapi.yml
   format: yaml
   label: Adyen voidPendingRefund API

@@ -1,12 +1,66 @@
 ---
 api_key_in: []
 api_specs:
-- filename: hypertrack-openapi.yaml
+- filename: hypertrack-authentication-api-openapi.yml
   format: yaml
-  label: HyperTrack API
-  slug: hypertrack-api
+  label: HyperTrack Authentication API
+  slug: hypertrack-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-authentication-api-openapi.yml
+- filename: hypertrack-export-api-openapi.yml
+  format: yaml
+  label: HyperTrack Export API
+  slug: hypertrack-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-export-api-openapi.yml
+- filename: hypertrack-geotags-api-openapi.yml
+  format: yaml
+  label: HyperTrack Geotags API
+  slug: hypertrack-geotags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-geotags-api-openapi.yml
+- filename: hypertrack-nearby-api-openapi.yml
+  format: yaml
+  label: HyperTrack Nearby API
+  slug: hypertrack-nearby-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-nearby-api-openapi.yml
+- filename: hypertrack-orders-api-openapi.yml
+  format: yaml
+  label: HyperTrack Orders API
+  slug: hypertrack-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-orders-api-openapi.yml
+- filename: hypertrack-places-api-openapi.yml
+  format: yaml
+  label: HyperTrack Places API
+  slug: hypertrack-places-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-places-api-openapi.yml
+- filename: hypertrack-tracking-api-openapi.yml
+  format: yaml
+  label: HyperTrack Tracking API
+  slug: hypertrack-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-tracking-api-openapi.yml
+- filename: hypertrack-visits-api-openapi.yml
+  format: yaml
+  label: HyperTrack Visits API
+  slug: hypertrack-visits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-visits-api-openapi.yml
+- filename: hypertrack-workerexport-api-openapi.yml
+  format: yaml
+  label: HyperTrack Worker Export API
+  slug: hypertrack-workerexport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-workerexport-api-openapi.yml
+- filename: hypertrack-workers-api-openapi.yml
+  format: yaml
+  label: HyperTrack Workers API
+  slug: hypertrack-workers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/openapi/hypertrack-workers-api-openapi.yml
 auth_types:
 - http
 - oauth2

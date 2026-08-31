@@ -6,6 +6,18 @@ api_specs:
   slug: ciloo-cart-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ciloo/refs/heads/main/openapi/ciloo-cart-api-openapi.yml
+- filename: ciloo-authentication-api-openapi.yml
+  format: yaml
+  label: Ciloo Authentication API
+  slug: ciloo-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ciloo/refs/heads/main/openapi/ciloo-authentication-api-openapi.yml
+- filename: ciloo-customers-api-openapi.yml
+  format: yaml
+  label: Ciloo Customers API
+  slug: ciloo-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ciloo/refs/heads/main/openapi/ciloo-customers-api-openapi.yml
 description: ''
 domains:
 - caa: []

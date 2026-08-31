@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: edgee-openapi-original.json
-  format: json
-  label: Edgee AI Gateway API
-  slug: edgee-ai-gateway
+- filename: edgee-chat-api-openapi.yml
+  format: yaml
+  label: Edgee Chat API
+  slug: edgee-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/openapi/edgee-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/openapi/edgee-chat-api-openapi.yml
+- filename: edgee-compress-api-openapi.yml
+  format: yaml
+  label: Edgee Compress API
+  slug: edgee-compress-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/openapi/edgee-compress-api-openapi.yml
+- filename: edgee-messages-api-openapi.yml
+  format: yaml
+  label: Edgee Messages API
+  slug: edgee-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/openapi/edgee-messages-api-openapi.yml
+- filename: edgee-models-api-openapi.yml
+  format: yaml
+  label: Edgee Models API
+  slug: edgee-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/openapi/edgee-models-api-openapi.yml
+- filename: edgee-responses-api-openapi.yml
+  format: yaml
+  label: Edgee Responses API
+  slug: edgee-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/openapi/edgee-responses-api-openapi.yml
+- filename: edgee-tokens-api-openapi.yml
+  format: yaml
+  label: Edgee Tokens API
+  slug: edgee-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/openapi/edgee-tokens-api-openapi.yml
 certifications:
 - SOC 2 Type 1
 - SOC 2 Type 2

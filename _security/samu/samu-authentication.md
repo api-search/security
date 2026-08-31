@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: samu-openapi.yml
+- filename: samu-meetings-api-openapi.yml
   format: yaml
-  label: API Samu
-  slug: api-samu
+  label: Samu Meetings API
+  slug: samu-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/openapi/samu-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/openapi/samu-meetings-api-openapi.yml
+- filename: samu-threads-api-openapi.yml
+  format: yaml
+  label: Samu Threads API
+  slug: samu-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/openapi/samu-threads-api-openapi.yml
+- filename: samu-usuarios-api-openapi.yml
+  format: yaml
+  label: Samu Usuarios API
+  slug: samu-usuarios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/openapi/samu-usuarios-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

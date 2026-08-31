@@ -2,12 +2,60 @@
 api_key_in:
 - header
 api_specs:
-- filename: decart-api-openapi-original.json
-  format: json
-  label: Decart API
-  slug: decart-api
+- filename: decart-realtime-api-openapi.yml
+  format: yaml
+  label: Decart Realtime API
+  slug: decart-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-realtime-api-openapi.yml
+- filename: decart-client-api-openapi.yml
+  format: yaml
+  label: Decart Client API
+  slug: decart-client-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-client-api-openapi.yml
+- filename: decart-files-api-openapi.yml
+  format: yaml
+  label: Decart Files API
+  slug: decart-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-files-api-openapi.yml
+- filename: decart-generate-api-openapi.yml
+  format: yaml
+  label: Decart Generate API
+  slug: decart-generate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-generate-api-openapi.yml
+- filename: decart-jobs-api-openapi.yml
+  format: yaml
+  label: Decart Jobs API
+  slug: decart-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-jobs-api-openapi.yml
+- filename: decart-models-api-openapi.yml
+  format: yaml
+  label: Decart Models API
+  slug: decart-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-models-api-openapi.yml
+- filename: decart-realtime-api-openapi.yml
+  format: yaml
+  label: Decart Realtime API
+  slug: decart-realtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-realtime-api-openapi.yml
+- filename: decart-verify-api-openapi.yml
+  format: yaml
+  label: Decart Verify API
+  slug: decart-verify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-verify-api-openapi.yml
+- filename: decart-watch-stream-api-openapi.yml
+  format: yaml
+  label: Decart Watch Stream API
+  slug: decart-watch-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-watch-stream-api-openapi.yml
 auth_types:
 - apiKey
 description: 'Decart uses a two-tier API-key model. Server-side callers present a permanent account key (dct_ prefix) in an x-api-key request header. Browser and mobile clients never see that key: a backend mints a short-lived ephemeral client token (ek_ prefix) through POST /v1/client/tokens, optionally scoped to a model allow-list, an origin allow-list, and a maximum realtime session duration. There is no OAuth 2.0, OIDC, or mTLS surface. The gRPC Oasis service carries the same account key in its InitializeRequest message rather than an HTTP header.'

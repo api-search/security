@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: aerin-medical-site-openapi.yml
+- filename: aerin-medical-discovery-api-openapi.yml
   format: yaml
-  label: Aerin Medical Site API (WordPress REST)
-  slug: aerin-medical-site-api-wordpress-rest
+  label: Aerin Medical Discovery API
+  slug: aerin-medical-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerin-medical/refs/heads/main/openapi/aerin-medical-site-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aerin-medical/refs/heads/main/openapi/aerin-medical-discovery-api-openapi.yml
+- filename: aerin-medical-embed-api-openapi.yml
+  format: yaml
+  label: Aerin Medical Embed API
+  slug: aerin-medical-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerin-medical/refs/heads/main/openapi/aerin-medical-embed-api-openapi.yml
+- filename: aerin-medical-forms-api-openapi.yml
+  format: yaml
+  label: Aerin Medical Forms API
+  slug: aerin-medical-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerin-medical/refs/heads/main/openapi/aerin-medical-forms-api-openapi.yml
+- filename: aerin-medical-locator-api-openapi.yml
+  format: yaml
+  label: Aerin Medical Locator API
+  slug: aerin-medical-locator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerin-medical/refs/heads/main/openapi/aerin-medical-locator-api-openapi.yml
+- filename: aerin-medical-search-api-openapi.yml
+  format: yaml
+  label: Aerin Medical Search API
+  slug: aerin-medical-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerin-medical/refs/heads/main/openapi/aerin-medical-search-api-openapi.yml
 auth_types:
 - none
 - http

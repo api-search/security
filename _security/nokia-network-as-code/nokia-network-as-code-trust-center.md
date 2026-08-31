@@ -1,47 +1,191 @@
 ---
 api_specs:
-- filename: nokia-network-as-code-platform-openapi.json
-  format: json
-  label: Nokia Network as Code Platform API
-  slug: network-as-code-platform-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-platform-openapi.json
-- filename: nokia-network-as-code-camara-openapi.yml
+- filename: nokia-network-as-code-call-forwarding-signal-v0-3-0-api-openapi.yml
   format: yaml
-  label: Nokia Network as Code CAMARA API
-  slug: camara-network-api
+  label: Nokia Network as Code Call Forwarding Signal v0.3.0 API
+  slug: nokia-network-as-code-call-forwarding-signal-v0-3-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-camara-openapi.yml
-- filename: nokia-network-as-code-platform-openapi.json
-  format: json
-  label: Network as Code Digital Identity and Anti-Fraud APIs
-  slug: digital-identity-and-anti-fraud
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-call-forwarding-signal-v0-3-0-api-openapi.yml
+- filename: nokia-network-as-code-congestion-insights-v1-0-0-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Congestion Insights v1.0.0 API
+  slug: nokia-network-as-code-congestion-insights-v1-0-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-platform-openapi.json
-- filename: nokia-network-as-code-platform-openapi.json
-  format: json
-  label: Network as Code Device Intelligence APIs
-  slug: device-intelligence
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-congestion-insights-v1-0-0-api-openapi.yml
+- filename: nokia-network-as-code-consent-info-v0-1-0-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Consent Info v0.1.0 API
+  slug: nokia-network-as-code-consent-info-v0-1-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-platform-openapi.json
-- filename: nokia-network-as-code-platform-openapi.json
-  format: json
-  label: Network as Code Programmable Connectivity APIs
-  slug: programmable-connectivity
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-consent-info-v0-1-0-api-openapi.yml
+- filename: nokia-network-as-code-device-reachability-status-retrieve-v1-1-0-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Device Reachability Status Retrieve v1.1.0 API
+  slug: nokia-network-as-code-device-reachability-status-retrieve-v1-1-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-platform-openapi.json
-- filename: nokia-network-as-code-platform-openapi.json
-  format: json
-  label: Network as Code Network Intelligence APIs
-  slug: network-intelligence
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-device-reachability-status-retrieve-v1-1-0-api-openapi.yml
+- filename: nokia-network-as-code-device-reachability-status-retrieve-v1-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Device Reachability Status Retrieve v1 API
+  slug: nokia-network-as-code-device-reachability-status-retrieve-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-platform-openapi.json
-- filename: nokia-network-as-code-platform-openapi.json
-  format: json
-  label: Network as Code Authorization Server
-  slug: authorization-server
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-device-reachability-status-retrieve-v1-api-openapi.yml
+- filename: nokia-network-as-code-device-reachability-status-subscriptions-v0-7-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Device Reachability Status Subscriptions v0.7 API
+  slug: nokia-network-as-code-device-reachability-status-subscriptions-v0-7-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-platform-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-device-reachability-status-subscriptions-v0-7-api-openapi.yml
+- filename: nokia-network-as-code-device-reachability-status-subscriptions-v0-8-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Device Reachability Status Subscriptions v0.8 API
+  slug: nokia-network-as-code-device-reachability-status-subscriptions-v0-8-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-device-reachability-status-subscriptions-v0-8-api-openapi.yml
+- filename: nokia-network-as-code-device-roaming-status-retrieve-v1-1-0-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Device Roaming Status Retrieve v1.1.0 API
+  slug: nokia-network-as-code-device-roaming-status-retrieve-v1-1-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-device-roaming-status-retrieve-v1-1-0-api-openapi.yml
+- filename: nokia-network-as-code-device-roaming-status-retrieve-v1-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Device Roaming Status Retrieve v1 API
+  slug: nokia-network-as-code-device-roaming-status-retrieve-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-device-roaming-status-retrieve-v1-api-openapi.yml
+- filename: nokia-network-as-code-device-roaming-status-subscriptions-v0-7-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Device Roaming Status Subscriptions v0.7 API
+  slug: nokia-network-as-code-device-roaming-status-subscriptions-v0-7-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-device-roaming-status-subscriptions-v0-7-api-openapi.yml
+- filename: nokia-network-as-code-device-roaming-status-subscriptions-v0-8-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Device Roaming Status Subscriptions v0.8 API
+  slug: nokia-network-as-code-device-roaming-status-subscriptions-v0-8-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-device-roaming-status-subscriptions-v0-8-api-openapi.yml
+- filename: nokia-network-as-code-device-status-v0-5-1-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Device Status v0.5.1 API
+  slug: nokia-network-as-code-device-status-v0-5-1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-device-status-v0-5-1-api-openapi.yml
+- filename: nokia-network-as-code-device-swap-v1-0-0-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Device Swap v1.0.0 API
+  slug: nokia-network-as-code-device-swap-v1-0-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-device-swap-v1-0-0-api-openapi.yml
+- filename: nokia-network-as-code-geofencing-v0-3-0-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Geofencing v0.3.0 API
+  slug: nokia-network-as-code-geofencing-v0-3-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-geofencing-v0-3-0-api-openapi.yml
+- filename: nokia-network-as-code-kyc-age-verification-v0-1-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code KYC Age Verification v0.1 API
+  slug: nokia-network-as-code-kyc-age-verification-v0-1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-kyc-age-verification-v0-1-api-openapi.yml
+- filename: nokia-network-as-code-kyc-fill-in-v0-4-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code KYC FIll In v0.4 API
+  slug: nokia-network-as-code-kyc-fill-in-v0-4-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-kyc-fill-in-v0-4-api-openapi.yml
+- filename: nokia-network-as-code-kyc-match-v0-3-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code KYC Match v0.3 API
+  slug: nokia-network-as-code-kyc-match-v0-3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-kyc-match-v0-3-api-openapi.yml
+- filename: nokia-network-as-code-kyc-tenure-v0-1-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code KYC Tenure v0.1 API
+  slug: nokia-network-as-code-kyc-tenure-v0-1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-kyc-tenure-v0-1-api-openapi.yml
+- filename: nokia-network-as-code-location-retrieval-v0-2-0-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Location Retrieval v0.2.0 API
+  slug: nokia-network-as-code-location-retrieval-v0-2-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-location-retrieval-v0-2-0-api-openapi.yml
+- filename: nokia-network-as-code-location-verification-v0-2-0-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Location Verification v0.2.0 API
+  slug: nokia-network-as-code-location-verification-v0-2-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-location-verification-v0-2-0-api-openapi.yml
+- filename: nokia-network-as-code-location-verification-v1-0-0-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Location Verification v1.0.0 API
+  slug: nokia-network-as-code-location-verification-v1-0-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-location-verification-v1-0-0-api-openapi.yml
+- filename: nokia-network-as-code-nac-authorization-server-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code NaC Authorization Server API
+  slug: nokia-network-as-code-nac-authorization-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-nac-authorization-server-api-openapi.yml
+- filename: nokia-network-as-code-network-slicing-v1-0-0-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Network Slicing v1.0.0 API
+  slug: nokia-network-as-code-network-slicing-v1-0-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-network-slicing-v1-0-0-api-openapi.yml
+- filename: nokia-network-as-code-number-recycling-v0-2-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Number Recycling v0.2 API
+  slug: nokia-network-as-code-number-recycling-v0-2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-number-recycling-v0-2-api-openapi.yml
+- filename: nokia-network-as-code-number-verification-v1-0-0-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Number Verification v1.0.0 API
+  slug: nokia-network-as-code-number-verification-v1-0-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-number-verification-v1-0-0-api-openapi.yml
+- filename: nokia-network-as-code-number-verification-v2-1-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Number Verification v2.1 API
+  slug: nokia-network-as-code-number-verification-v2-1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-number-verification-v2-1-api-openapi.yml
+- filename: nokia-network-as-code-quality-of-service-on-demand-v0-10-1-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Quality-of-Service on Demand v0.10.1 API
+  slug: nokia-network-as-code-quality-of-service-on-demand-v0-10-1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-quality-of-service-on-demand-v0-10-1-api-openapi.yml
+- filename: nokia-network-as-code-quality-of-service-on-demand-v1-0-0-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Quality-of-Service on Demand v1.0.0 API
+  slug: nokia-network-as-code-quality-of-service-on-demand-v1-0-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-quality-of-service-on-demand-v1-0-0-api-openapi.yml
+- filename: nokia-network-as-code-sim-swap-v1-0-0-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code SIM Swap v1.0.0 API
+  slug: nokia-network-as-code-sim-swap-v1-0-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-sim-swap-v1-0-0-api-openapi.yml
+- filename: nokia-network-as-code-slice-device-attach-v1-0-0-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Slice Device Attach v1.0.0 API
+  slug: nokia-network-as-code-slice-device-attach-v1-0-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-slice-device-attach-v1-0-0-api-openapi.yml
+- filename: nokia-network-as-code-well-known-metadata-api-openapi.yml
+  format: yaml
+  label: Nokia Network as Code Well Known Metadata API
+  slug: nokia-network-as-code-well-known-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-well-known-metadata-api-openapi.yml
 certifications:
 - ISO/IEC 27001:2022
 description: ''

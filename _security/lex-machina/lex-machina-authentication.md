@@ -7,12 +7,6 @@ api_specs:
   slug: lex-machina-alerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/openapi/lex-machina-alerts-api-openapi.yml
-- filename: lex-machina-analytics-api-openapi.yml
-  format: yaml
-  label: Lex Machina Analytics API
-  slug: lex-machina-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/openapi/lex-machina-analytics-api-openapi.yml
 - filename: lex-machina-attorneys-api-openapi.yml
   format: yaml
   label: Lex Machina Attorneys API
@@ -61,12 +55,6 @@ api_specs:
   slug: lex-machina-federal-district-cases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/openapi/lex-machina-federal-district-cases-api-openapi.yml
-- filename: lex-machina-find-api-openapi.yml
-  format: yaml
-  label: Lex Machina Find API
-  slug: lex-machina-find-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/openapi/lex-machina-find-api-openapi.yml
 - filename: lex-machina-itc-investigations-api-openapi.yml
   format: yaml
   label: Lex Machina ITC Investigations API
@@ -109,12 +97,6 @@ api_specs:
   slug: lex-machina-ptab-trials-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/openapi/lex-machina-ptab-trials-api-openapi.yml
-- filename: lex-machina-search-api-openapi.yml
-  format: yaml
-  label: Lex Machina Search API
-  slug: lex-machina-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/openapi/lex-machina-search-api-openapi.yml
 - filename: lex-machina-state-cases-api-openapi.yml
   format: yaml
   label: Lex Machina State Cases API

@@ -20,6 +20,12 @@ api_specs:
   slug: cuboh-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cuboh/refs/heads/main/openapi/cuboh-orders-api-openapi.yml
+- filename: cuboh-webhooks-api-openapi.yml
+  format: yaml
+  label: Cuboh Webhooks API
+  slug: cuboh-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cuboh/refs/heads/main/openapi/cuboh-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

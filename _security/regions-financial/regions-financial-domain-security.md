@@ -61,8 +61,8 @@ layout: security
 method: probed
 name: Regions Financial Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for regions-financial, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: regions-financial
+overview: 'Domain security posture for Regions Financial Corporation, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Regions Financial Corporation
 provider_slug: regions-financial
 slug: regions-financial-domain-security
 source_filename: regions-financial-domain-security.yml

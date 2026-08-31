@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: stotles-public-api-openapi.yml
+- filename: stotles-buyers-api-openapi.yml
   format: yaml
-  label: Stotles Public API
-  slug: stotles-public-api
+  label: Stotles Buyers API
+  slug: stotles-buyers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stotles/refs/heads/main/openapi/stotles-public-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stotles/refs/heads/main/openapi/stotles-buyers-api-openapi.yml
+- filename: stotles-frameworks-api-openapi.yml
+  format: yaml
+  label: Stotles Frameworks API
+  slug: stotles-frameworks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stotles/refs/heads/main/openapi/stotles-frameworks-api-openapi.yml
+- filename: stotles-notices-api-openapi.yml
+  format: yaml
+  label: Stotles Notices API
+  slug: stotles-notices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stotles/refs/heads/main/openapi/stotles-notices-api-openapi.yml
+- filename: stotles-suppliers-api-openapi.yml
+  format: yaml
+  label: Stotles Suppliers API
+  slug: stotles-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stotles/refs/heads/main/openapi/stotles-suppliers-api-openapi.yml
 certifications:
 - SOC 2 Type II
 - GDPR

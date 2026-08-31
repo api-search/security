@@ -38,24 +38,36 @@ api_specs:
   slug: factiva-code-api
   spec_type: Postman
   url: https://www.postman.com/dj-cse/dow-jones-apis/documentation/l9tpql6/factiva-apis
-- filename: factiva-content-api-swagger.json
-  format: json
+- filename: factiva-content-api-openapi.yml
+  format: yaml
   label: Factiva Content API
   slug: factiva-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-content-api-swagger.json
-- filename: factiva-newsletters-api-openapi.json
-  format: json
-  label: DJ Factiva Newsletters API
-  slug: dj-factiva-newsletters-api
+  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-content-api-openapi.yml
+- filename: factiva-content-search-api-openapi.yml
+  format: yaml
+  label: Factiva Content Search API
+  slug: factiva-content-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-newsletters-api-openapi.json
-- filename: factiva-company-news-radar-api-openapi.json
-  format: json
-  label: Factiva Company News Radar API
-  slug: factiva-company-news-radar-api
+  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-content-search-api-openapi.yml
+- filename: factiva-default-api-openapi.yml
+  format: yaml
+  label: Factiva Default API
+  slug: factiva-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-company-news-radar-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-default-api-openapi.yml
+- filename: factiva-editions-api-openapi.yml
+  format: yaml
+  label: Factiva Editions API
+  slug: factiva-editions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-editions-api-openapi.yml
+- filename: factiva-newsletters-api-openapi.yml
+  format: yaml
+  label: Factiva Newsletters API
+  slug: factiva-newsletters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-newsletters-api-openapi.yml
 auth_types:
 - apiKey
 - http

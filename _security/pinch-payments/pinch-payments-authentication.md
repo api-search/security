@@ -1,66 +1,108 @@
 ---
 api_key_in: []
 api_specs:
-- filename: pinch-payments-core.yml
+- filename: pinch-payments-connect-api-openapi.yml
   format: yaml
-  label: Pinch Core API
-  slug: pinch-payments-core
+  label: Pinch Payments Connect API
+  slug: pinch-payments-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-core.yml
-- filename: pinch-payments-payments.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-connect-api-openapi.yml
+- filename: pinch-payments-contacts-api-openapi.yml
   format: yaml
-  label: Pinch Payments API
-  slug: pinch-payments-payments
+  label: Pinch Payments Contacts API
+  slug: pinch-payments-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-payments.yml
-- filename: pinch-payments-payers.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-contacts-api-openapi.yml
+- filename: pinch-payments-events-api-openapi.yml
   format: yaml
-  label: Pinch Payers API
-  slug: pinch-payments-payers
+  label: Pinch Payments Events API
+  slug: pinch-payments-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-payers.yml
-- filename: pinch-payments-payment-links.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-events-api-openapi.yml
+- filename: pinch-payments-fees-api-openapi.yml
   format: yaml
-  label: Pinch Payment Links API
-  slug: pinch-payments-payment-links
+  label: Pinch Payments Fees API
+  slug: pinch-payments-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-payment-links.yml
-- filename: pinch-payments-merchants.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-fees-api-openapi.yml
+- filename: pinch-payments-health-api-openapi.yml
   format: yaml
-  label: Pinch Merchants API
-  slug: pinch-payments-merchants
+  label: Pinch Payments Health API
+  slug: pinch-payments-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-merchants.yml
-- filename: pinch-payments-webhooks.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-health-api-openapi.yml
+- filename: pinch-payments-merchant-financial-data-api-openapi.yml
   format: yaml
-  label: Pinch Webhooks API
-  slug: pinch-payments-webhooks
+  label: Pinch Payments Merchant Financial Data API
+  slug: pinch-payments-merchant-financial-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-webhooks.yml
-- filename: pinch-payments-contacts.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-merchant-financial-data-api-openapi.yml
+- filename: pinch-payments-merchants-api-openapi.yml
   format: yaml
-  label: Pinch Contacts API
-  slug: pinch-payments-contacts
+  label: Pinch Payments Merchants API
+  slug: pinch-payments-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-contacts.yml
-- filename: pinch-payments-transfers.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-merchants-api-openapi.yml
+- filename: pinch-payments-payers-api-openapi.yml
   format: yaml
-  label: Pinch Transfers API
-  slug: pinch-payments-transfers
+  label: Pinch Payments Payers API
+  slug: pinch-payments-payers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-transfers.yml
-- filename: pinch-payments-merchant-financial-data.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-payers-api-openapi.yml
+- filename: pinch-payments-payment-links-api-openapi.yml
   format: yaml
-  label: Pinch Merchant Financial Data API
-  slug: pinch-payments-merchant-financial-data
+  label: Pinch Payments Payment Links API
+  slug: pinch-payments-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-merchant-financial-data.yml
-- filename: pinch-payments-authentication.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-payment-links-api-openapi.yml
+- filename: pinch-payments-payments-api-openapi.yml
   format: yaml
-  label: Pinch Authentication API
-  slug: pinch-payments-authentication
+  label: Pinch Payments Payments API
+  slug: pinch-payments-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-authentication.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-payments-api-openapi.yml
+- filename: pinch-payments-plans-api-openapi.yml
+  format: yaml
+  label: Pinch Payments Plans API
+  slug: pinch-payments-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-plans-api-openapi.yml
+- filename: pinch-payments-refund-api-openapi.yml
+  format: yaml
+  label: Pinch Payments Refund API
+  slug: pinch-payments-refund-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-refund-api-openapi.yml
+- filename: pinch-payments-refunds-api-openapi.yml
+  format: yaml
+  label: Pinch Payments Refunds API
+  slug: pinch-payments-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-refunds-api-openapi.yml
+- filename: pinch-payments-subscriptions-api-openapi.yml
+  format: yaml
+  label: Pinch Payments Subscriptions API
+  slug: pinch-payments-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-subscriptions-api-openapi.yml
+- filename: pinch-payments-tokens-api-openapi.yml
+  format: yaml
+  label: Pinch Payments Tokens API
+  slug: pinch-payments-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-tokens-api-openapi.yml
+- filename: pinch-payments-transfers-api-openapi.yml
+  format: yaml
+  label: Pinch Payments Transfers API
+  slug: pinch-payments-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-transfers-api-openapi.yml
+- filename: pinch-payments-webhooks-api-openapi.yml
+  format: yaml
+  label: Pinch Payments Webhooks API
+  slug: pinch-payments-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 - http

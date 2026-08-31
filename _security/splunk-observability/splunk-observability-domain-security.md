@@ -1,293 +1,293 @@
 ---
 api_specs:
-- filename: splunk-observability-apm-service-topology-openapi.yml
+- filename: splunk-observability-apm-service-topology-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud APM service topology
+  label: Splunk Observability Cloud APM service topology API
   slug: splunk-observability-apm-service-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-apm-service-topology-openapi.yml
-- filename: splunk-observability-apm-visibility-filters-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-apm-service-topology-api-openapi.yml
+- filename: splunk-observability-apm-visibility-filters-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud APM visibility filters
+  label: Splunk Observability Cloud APM visibility filters API
   slug: splunk-observability-apm-visibility-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-apm-visibility-filters-openapi.yml
-- filename: splunk-observability-audit-events-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-apm-visibility-filters-api-openapi.yml
+- filename: splunk-observability-automated-archival-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Splunk Observability Cloud Audit Events
-  slug: splunk-observability-audit-events-api
+  label: Splunk Observability Cloud Automated archival API
+  slug: splunk-observability-automated-archival-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-audit-events-openapi.yml
-- filename: splunk-observability-automatedarchival-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-automated-archival-api-openapi.yml
+- filename: splunk-observability-backfill-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Automated archival
-  slug: splunk-observability-automatedarchival-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-automatedarchival-openapi.yml
-- filename: splunk-observability-backfill-openapi.yml
-  format: yaml
-  label: Splunk Observability Cloud Backfill
+  label: Splunk Observability Cloud Backfill API
   slug: splunk-observability-backfill-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-backfill-openapi.yml
-- filename: splunk-observability-charts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-backfill-api-openapi.yml
+- filename: splunk-observability-charts-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Charts
+  label: Splunk Observability Cloud Charts API
   slug: splunk-observability-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-charts-openapi.yml
-- filename: splunk-observability-client-inventory-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-charts-api-openapi.yml
+- filename: splunk-observability-client-inventory-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Client Inventory
+  label: Splunk Observability Cloud Client Inventory API
   slug: splunk-observability-client-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-client-inventory-openapi.yml
-- filename: splunk-observability-dashboard-groups-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-client-inventory-api-openapi.yml
+- filename: splunk-observability-dashboard-groups-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Dashboard groups
+  label: Splunk Observability Cloud Dashboard groups API
   slug: splunk-observability-dashboard-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-dashboard-groups-openapi.yml
-- filename: splunk-observability-dashboards-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-dashboard-groups-api-openapi.yml
+- filename: splunk-observability-dashboards-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Dashboards
+  label: Splunk Observability Cloud Dashboards API
   slug: splunk-observability-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-dashboards-openapi.yml
-- filename: splunk-observability-datalinks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-dashboards-api-openapi.yml
+- filename: splunk-observability-data-links-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Data links
-  slug: splunk-observability-datalinks-api
+  label: Splunk Observability Cloud Data links API
+  slug: splunk-observability-data-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-datalinks-openapi.yml
-- filename: splunk-observability-detectors-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-data-links-api-openapi.yml
+- filename: splunk-observability-detectors-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Detectors
+  label: Splunk Observability Cloud Detectors API
   slug: splunk-observability-detectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-detectors-openapi.yml
-- filename: splunk-observability-incidents-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-detectors-api-openapi.yml
+- filename: splunk-observability-download-apm-traces-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Incidents and alerts
-  slug: splunk-observability-incidents-api
+  label: Splunk Observability Cloud Download APM traces API
+  slug: splunk-observability-download-apm-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-incidents-openapi.yml
-- filename: splunk-observability-ingest-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-download-apm-traces-api-openapi.yml
+- filename: splunk-observability-incidents-and-alerts-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Send traces, metrics and events
-  slug: splunk-observability-ingest-data-api
+  label: Splunk Observability Cloud Incidents and alerts API
+  slug: splunk-observability-incidents-and-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-ingest-data-openapi.yml
-- filename: splunk-observability-integrations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-incidents-and-alerts-api-openapi.yml
+- filename: splunk-observability-integrations-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Integrations
+  label: Splunk Observability Cloud Integrations API
   slug: splunk-observability-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-integrations-openapi.yml
-- filename: splunk-observability-metric-ruleset-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-integrations-api-openapi.yml
+- filename: splunk-observability-metric-ruleset-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Metric ruleset
+  label: Splunk Observability Cloud Metric ruleset API
   slug: splunk-observability-metric-ruleset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-metric-ruleset-openapi.yml
-- filename: splunk-observability-metrics-metadata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-metric-ruleset-api-openapi.yml
+- filename: splunk-observability-metrics-metadata-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Metrics metadata
+  label: Splunk Observability Cloud Metrics metadata API
   slug: splunk-observability-metrics-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-metrics-metadata-openapi.yml
-- filename: splunk-observability-navigator-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-metrics-metadata-api-openapi.yml
+- filename: splunk-observability-navigators-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Navigators
-  slug: splunk-observability-navigator-api
+  label: Splunk Observability Cloud Navigators API
+  slug: splunk-observability-navigators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-navigator-openapi.yml
-- filename: splunk-observability-org-tokens-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-navigators-api-openapi.yml
+- filename: splunk-observability-org-tokens-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Org tokens
+  label: Splunk Observability Cloud Org tokens API
   slug: splunk-observability-org-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-org-tokens-openapi.yml
-- filename: splunk-observability-organizations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-org-tokens-api-openapi.yml
+- filename: splunk-observability-organizations-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Organizations
+  label: Splunk Observability Cloud Organizations API
   slug: splunk-observability-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-organizations-openapi.yml
-- filename: splunk-observability-passwords-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-organizations-api-openapi.yml
+- filename: splunk-observability-passwords-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Passwords
+  label: Splunk Observability Cloud Passwords API
   slug: splunk-observability-passwords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-passwords-openapi.yml
-- filename: splunk-observability-retrieve-events-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-passwords-api-openapi.yml
+- filename: splunk-observability-retrieve-events-v1-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Retrieve events V1
+  label: Splunk Observability Cloud Retrieve events V1 API
   slug: splunk-observability-retrieve-events-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-retrieve-events-v1-openapi.yml
-- filename: splunk-observability-retrieve-events-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-retrieve-events-v1-api-openapi.yml
+- filename: splunk-observability-retrieve-events-v2-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Retrieve events V2
+  label: Splunk Observability Cloud Retrieve events V2 API
   slug: splunk-observability-retrieve-events-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-retrieve-events-v2-openapi.yml
-- filename: splunk-observability-retrieve-timeserieswindow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-retrieve-events-v2-api-openapi.yml
+- filename: splunk-observability-retrieve-metric-time-series-mts-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Retrieve metric time series (MTS)
-  slug: splunk-observability-retrieve-timeserieswindow-api
+  label: Splunk Observability Cloud Retrieve metric time series (MTS) API
+  slug: splunk-observability-retrieve-metric-time-series-mts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-retrieve-timeserieswindow-openapi.yml
-- filename: splunk-observability-roles-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-retrieve-metric-time-series-mts-api-openapi.yml
+- filename: splunk-observability-role-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Role
-  slug: splunk-observability-roles-api
+  label: Splunk Observability Cloud Role API
+  slug: splunk-observability-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-roles-openapi.yml
-- filename: splunk-observability-sessiontokens-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-role-api-openapi.yml
+- filename: splunk-observability-send-traces-metrics-and-events-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Session tokens
-  slug: splunk-observability-sessiontokens-api
+  label: Splunk Observability Cloud Send traces, metrics and events API
+  slug: splunk-observability-send-traces-metrics-and-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-sessiontokens-openapi.yml
-- filename: splunk-observability-signalflow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-send-traces-metrics-and-events-api-openapi.yml
+- filename: splunk-observability-session-tokens-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud SignalFlow
+  label: Splunk Observability Cloud Session tokens API
+  slug: splunk-observability-session-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-session-tokens-api-openapi.yml
+- filename: splunk-observability-signalflow-api-openapi.yml
+  format: yaml
+  label: Splunk Observability Cloud Signal Flow API
   slug: splunk-observability-signalflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-signalflow-openapi.yml
-- filename: splunk-observability-slo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-signalflow-api-openapi.yml
+- filename: splunk-observability-slos-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud SLOs
-  slug: splunk-observability-slo-api
+  label: Splunk Observability Cloud SL Os API
+  slug: splunk-observability-slos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-slo-openapi.yml
-- filename: splunk-observability-synthetics-api-tests-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-slos-api-openapi.yml
+- filename: splunk-observability-splunk-observability-cloud-audit-events-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Synthetics API tests (V1)
-  slug: splunk-observability-synthetics-api-tests-api
+  label: Splunk Observability Cloud Splunk Observability Cloud Audit Events API
+  slug: splunk-observability-splunk-observability-cloud-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-api-tests-openapi.yml
-- filename: splunk-observability-synthetics-api-tests-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-splunk-observability-cloud-audit-events-api-openapi.yml
+- filename: splunk-observability-synthetics-api-tests-v1-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Synthetics API tests V2
+  label: Splunk Observability Cloud Synthetics API tests (V1) API
+  slug: splunk-observability-synthetics-api-tests-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-api-tests-v1-api-openapi.yml
+- filename: splunk-observability-synthetics-api-tests-v2-api-openapi.yml
+  format: yaml
+  label: Splunk Observability Cloud Synthetics API tests V2 API
   slug: splunk-observability-synthetics-api-tests-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-api-tests-v2-openapi.yml
-- filename: splunk-observability-synthetics-artifacts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-api-tests-v2-api-openapi.yml
+- filename: splunk-observability-synthetics-artifacts-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Synthetics artifacts
+  label: Splunk Observability Cloud Synthetics artifacts API
   slug: splunk-observability-synthetics-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-artifacts-openapi.yml
-- filename: splunk-observability-synthetics-audits-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-artifacts-api-openapi.yml
+- filename: splunk-observability-synthetics-audit-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Synthetics audit
-  slug: splunk-observability-synthetics-audits-api
+  label: Splunk Observability Cloud Synthetics audit API
+  slug: splunk-observability-synthetics-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-audits-openapi.yml
-- filename: splunk-observability-synthetics-browser-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-audit-api-openapi.yml
+- filename: splunk-observability-synthetics-browser-tests-v1-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Synthetics Browser tests (V1)
-  slug: splunk-observability-synthetics-browser-api
+  label: Splunk Observability Cloud Synthetics Browser tests (V1) API
+  slug: splunk-observability-synthetics-browser-tests-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-browser-openapi.yml
-- filename: splunk-observability-synthetics-browser-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-browser-tests-v1-api-openapi.yml
+- filename: splunk-observability-synthetics-browser-tests-v2-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Synthetics Browser tests V2
-  slug: splunk-observability-synthetics-browser-v2-api
+  label: Splunk Observability Cloud Synthetics Browser tests V2 API
+  slug: splunk-observability-synthetics-browser-tests-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-browser-v2-openapi.yml
-- filename: splunk-observability-synthetics-ca-certs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-browser-tests-v2-api-openapi.yml
+- filename: splunk-observability-synthetics-ca-certificates-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Synthetics CA certificates
-  slug: splunk-observability-synthetics-ca-certs-api
+  label: Splunk Observability Cloud Synthetics CA certificates API
+  slug: splunk-observability-synthetics-ca-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-ca-certs-openapi.yml
-- filename: splunk-observability-synthetics-certificates-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-ca-certificates-api-openapi.yml
+- filename: splunk-observability-synthetics-certificates-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Synthetics certificates
+  label: Splunk Observability Cloud Synthetics certificates API
   slug: splunk-observability-synthetics-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-certificates-openapi.yml
-- filename: splunk-observability-synthetics-chrome-flags-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-certificates-api-openapi.yml
+- filename: splunk-observability-synthetics-chrome-flags-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Synthetics Chrome flags
+  label: Splunk Observability Cloud Synthetics Chrome flags API
   slug: splunk-observability-synthetics-chrome-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-chrome-flags-openapi.yml
-- filename: splunk-observability-synthetics-devices-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-chrome-flags-api-openapi.yml
+- filename: splunk-observability-synthetics-devices-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Synthetics devices
+  label: Splunk Observability Cloud Synthetics devices API
   slug: splunk-observability-synthetics-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-devices-openapi.yml
-- filename: splunk-observability-synthetics-downtime-configurations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-devices-api-openapi.yml
+- filename: splunk-observability-synthetics-downtime-configurations-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Synthetics downtime configurations
+  label: Splunk Observability Cloud Synthetics downtime configurations API
   slug: splunk-observability-synthetics-downtime-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-downtime-configurations-openapi.yml
-- filename: splunk-observability-synthetics-excluded-files-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-downtime-configurations-api-openapi.yml
+- filename: splunk-observability-synthetics-excluded-files-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Synthetics excluded files
+  label: Splunk Observability Cloud Synthetics excluded files API
   slug: splunk-observability-synthetics-excluded-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-excluded-files-openapi.yml
-- filename: splunk-observability-synthetics-global-variables-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-excluded-files-api-openapi.yml
+- filename: splunk-observability-synthetics-global-variables-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Synthetics global variables
+  label: Splunk Observability Cloud Synthetics global variables API
   slug: splunk-observability-synthetics-global-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-global-variables-openapi.yml
-- filename: splunk-observability-synthetics-http-tests-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-global-variables-api-openapi.yml
+- filename: splunk-observability-synthetics-http-tests-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Synthetics HTTP tests
+  label: Splunk Observability Cloud Synthetics HTTP tests API
   slug: splunk-observability-synthetics-http-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-http-tests-openapi.yml
-- filename: splunk-observability-synthetics-locations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-http-tests-api-openapi.yml
+- filename: splunk-observability-synthetics-locations-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Synthetics locations
+  label: Splunk Observability Cloud Synthetics locations API
   slug: splunk-observability-synthetics-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-locations-openapi.yml
-- filename: splunk-observability-synthetics-ports-tests-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-locations-api-openapi.yml
+- filename: splunk-observability-synthetics-port-tests-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Synthetics Port tests
-  slug: splunk-observability-synthetics-ports-tests-api
+  label: Splunk Observability Cloud Synthetics Port tests API
+  slug: splunk-observability-synthetics-port-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-ports-tests-openapi.yml
-- filename: splunk-observability-synthetics-runs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-port-tests-api-openapi.yml
+- filename: splunk-observability-synthetics-runs-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Synthetics runs
+  label: Splunk Observability Cloud Synthetics runs API
   slug: splunk-observability-synthetics-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-runs-openapi.yml
-- filename: splunk-observability-synthetics-ssl-tests-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-runs-api-openapi.yml
+- filename: splunk-observability-synthetics-ssl-certificate-tests-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Synthetics SSL Certificate Tests
-  slug: splunk-observability-synthetics-ssl-tests-api
+  label: Splunk Observability Cloud Synthetics SSL Certificate Tests API
+  slug: splunk-observability-synthetics-ssl-certificate-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-ssl-tests-openapi.yml
-- filename: splunk-observability-synthetics-tests-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-ssl-certificate-tests-api-openapi.yml
+- filename: splunk-observability-synthetics-tests-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Synthetics tests
+  label: Splunk Observability Cloud Synthetics tests API
   slug: splunk-observability-synthetics-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-tests-openapi.yml
-- filename: splunk-observability-teams-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-synthetics-tests-api-openapi.yml
+- filename: splunk-observability-teams-api-openapi.yml
   format: yaml
-  label: Splunk Observability Cloud Teams
+  label: Splunk Observability Cloud Teams API
   slug: splunk-observability-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-teams-openapi.yml
-- filename: splunk-observability-trace-id-openapi.yml
-  format: yaml
-  label: Splunk Observability Cloud Download APM traces
-  slug: splunk-observability-trace-id-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-trace-id-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []

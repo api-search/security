@@ -2,42 +2,48 @@
 api_key_in:
 - header
 api_specs:
-- filename: sprift-openapi.json
-  format: json
-  label: Sprift Property API
-  slug: sprift-property-api
+- filename: sprift-home-api-openapi.yml
+  format: yaml
+  label: Sprift Home API
+  slug: sprift-home-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-openapi.json
-- filename: sprift-openapi.json
-  format: json
-  label: Sprift Property V2 API
-  slug: sprift-property-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-openapi.json
-- filename: sprift-openapi.json
-  format: json
-  label: Sprift Search API
-  slug: sprift-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-openapi.json
-- filename: sprift-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-home-api-openapi.yml
+- filename: sprift-insider-api-openapi.yml
+  format: yaml
   label: Sprift Insider API
   slug: sprift-insider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-openapi.json
-- filename: sprift-openapi.json
-  format: json
-  label: Sprift Report Share API
+  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-insider-api-openapi.yml
+- filename: sprift-property-api-openapi.yml
+  format: yaml
+  label: Sprift Property API
+  slug: sprift-property-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-property-api-openapi.yml
+- filename: sprift-property-v2-api-openapi.yml
+  format: yaml
+  label: Sprift Property V2 API
+  slug: sprift-property-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-property-v2-api-openapi.yml
+- filename: sprift-search-api-openapi.yml
+  format: yaml
+  label: Sprift Search API
+  slug: sprift-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-search-api-openapi.yml
+- filename: sprift-share-api-openapi.yml
+  format: yaml
+  label: Sprift Share API
   slug: sprift-share-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-openapi.json
-- filename: sprift-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-share-api-openapi.yml
+- filename: sprift-user-api-openapi.yml
+  format: yaml
   label: Sprift User API
   slug: sprift-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-user-api-openapi.yml
 auth_types:
 - apiKey
 - http

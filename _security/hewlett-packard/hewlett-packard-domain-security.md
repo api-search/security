@@ -17,8 +17,8 @@ layout: security
 method: probed
 name: Hewlett Packard Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for hewlett-packard, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=reject).'
-provider_name: hewlett-packard
+overview: 'Domain security posture for Hewlett-Packard, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=reject).'
+provider_name: Hewlett-Packard
 provider_slug: hewlett-packard
 slug: hewlett-packard-domain-security
 source_filename: hewlett-packard-domain-security.yml

@@ -1,12 +1,18 @@
 ---
 api_key_in: []
 api_specs:
-- filename: syncly-social-mcp-openapi.json
-  format: json
-  label: Syncly Social MCP Server
-  slug: syncly-social-mcp-server
+- filename: syncly-health-api-openapi.yml
+  format: yaml
+  label: Syncly Health API
+  slug: syncly-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syncly/refs/heads/main/openapi/syncly-social-mcp-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/syncly/refs/heads/main/openapi/syncly-health-api-openapi.yml
+- filename: syncly-well-known-api-openapi.yml
+  format: yaml
+  label: Syncly .well Known API
+  slug: syncly-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/syncly/refs/heads/main/openapi/syncly-well-known-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

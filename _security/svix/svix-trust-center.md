@@ -120,6 +120,54 @@ api_specs:
   slug: svix-webhook-endpoint-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/openapi/svix-webhook-endpoint-api-openapi.yml
+- filename: svix-webhook-api-openapi.yml
+  format: yaml
+  label: Svix Webhook API
+  slug: svix-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/openapi/svix-webhook-api-openapi.yml
+- filename: svix-broadcast-api-openapi.yml
+  format: yaml
+  label: Svix Broadcast API
+  slug: svix-broadcast-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/openapi/svix-broadcast-api-openapi.yml
+- filename: svix-environment-settings-api-openapi.yml
+  format: yaml
+  label: Svix Environment Settings API
+  slug: svix-environment-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/openapi/svix-environment-settings-api-openapi.yml
+- filename: svix-events-api-openapi.yml
+  format: yaml
+  label: Svix Events API
+  slug: svix-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/openapi/svix-events-api-openapi.yml
+- filename: svix-inbound-api-openapi.yml
+  format: yaml
+  label: Svix Inbound API
+  slug: svix-inbound-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/openapi/svix-inbound-api-openapi.yml
+- filename: svix-ingest-logs-api-openapi.yml
+  format: yaml
+  label: Svix Ingest Logs API
+  slug: svix-ingest-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/openapi/svix-ingest-logs-api-openapi.yml
+- filename: svix-webhook-sink-api-openapi.yml
+  format: yaml
+  label: Svix Webhook Sink API
+  slug: svix-webhook-sink-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/openapi/svix-webhook-sink-api-openapi.yml
+- filename: svix-webhooks-autoconfig-api-openapi.yml
+  format: yaml
+  label: Svix Webhooks AutoConfig API
+  slug: svix-webhooks-autoconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/openapi/svix-webhooks-autoconfig-api-openapi.yml
 certifications:
 - SOC 2
 - PCI DSS

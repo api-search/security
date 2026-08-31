@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: openapi.yaml
-  format: yaml
-  label: Uploadcare Upload API
-  slug: upload-api
-  spec_type: OpenAPI
-  url: https://uploadcare.com/api-refs/upload-api/
 - filename: uploadcare-add-ons-api-openapi.yml
   format: yaml
   label: Uploadcare Add-Ons API
@@ -48,12 +42,6 @@ api_specs:
   slug: uploadcare-group-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-group-api-openapi.yml
-- filename: uploadcare-groups-api-openapi.yml
-  format: yaml
-  label: Uploadcare Groups API
-  slug: uploadcare-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-groups-api-openapi.yml
 - filename: uploadcare-project-api-openapi.yml
   format: yaml
   label: Uploadcare Project API

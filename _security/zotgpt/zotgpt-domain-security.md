@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: zotgpt-api-openapi.yml
+- filename: zotgpt-chat-api-openapi.yml
   format: yaml
-  label: ZotGPT API (Deprecated)
-  slug: api
+  label: ZotGPT (UC Irvine) Chat API
+  slug: zotgpt-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zotgpt/refs/heads/main/openapi/zotgpt-api-openapi.yml
-- filename: zotgpt-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zotgpt/refs/heads/main/openapi/zotgpt-chat-api-openapi.yml
+- filename: zotgpt-embeddings-api-openapi.yml
   format: yaml
-  label: ZotGPT (UC Irvine) ZotGPT Gateway
-  slug: zotgpt-gateway-openapi
+  label: ZotGPT (UC Irvine) Embeddings API
+  slug: zotgpt-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zotgpt/refs/heads/main/openapi/zotgpt-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zotgpt/refs/heads/main/openapi/zotgpt-embeddings-api-openapi.yml
 description: 'Live TLS, transport, DNS, and identity-plane probe of the ZotGPT hosts. The probe is the clearest single piece of evidence for the platform''s multi-cloud posture: every interactive product terminates on a UC Irvine-owned AWS Application Load Balancer in us-west-2 under the *.aws.uci.edu naming convention, with an Amazon-issued certificate, while the developer API control plane terminates on Azure API Management in the same region. Two clouds, one campus namespace.'
 domains: []
 hosts:

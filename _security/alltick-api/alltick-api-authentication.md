@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: alltick-api-openapi.json
-  format: json
-  label: AllTick REST/HTTP Query API
-  slug: alltick-resthttp-query-api
+- filename: alltick-api-quote-b-api-api-openapi.yml
+  format: yaml
+  label: AllTick API Quote B API
+  slug: alltick-api-quote-b-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/openapi/alltick-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/openapi/alltick-api-quote-b-api-api-openapi.yml
+- filename: alltick-api-quote-stock-b-api-api-openapi.yml
+  format: yaml
+  label: AllTick API Quote Stock B API
+  slug: alltick-api-quote-stock-b-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/openapi/alltick-api-quote-stock-b-api-api-openapi.yml
+- filename: alltick-api-suspension-api-openapi.yml
+  format: yaml
+  label: AllTick API Suspension API
+  slug: alltick-api-suspension-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/openapi/alltick-api-suspension-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

@@ -2,30 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: voltus-openapi.yml
+- filename: voltus-dispatches-api-openapi.yml
   format: yaml
   label: Voltus Dispatches API
   slug: voltus-dispatches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/openapi/voltus-openapi.yml
-- filename: voltus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/openapi/voltus-dispatches-api-openapi.yml
+- filename: voltus-sites-api-openapi.yml
   format: yaml
   label: Voltus Sites API
   slug: voltus-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/openapi/voltus-openapi.yml
-- filename: voltus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/openapi/voltus-sites-api-openapi.yml
+- filename: voltus-telemetry-api-openapi.yml
   format: yaml
   label: Voltus Telemetry API
   slug: voltus-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/openapi/voltus-openapi.yml
-- filename: voltus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/openapi/voltus-telemetry-api-openapi.yml
+- filename: voltus-webhooks-api-openapi.yml
   format: yaml
   label: Voltus Webhooks API
   slug: voltus-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/openapi/voltus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/openapi/voltus-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - mutualTLS

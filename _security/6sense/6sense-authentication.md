@@ -22,12 +22,12 @@ api_specs:
   slug: 6sense-people-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-people-api-openapi.yml
-- filename: 6sense-scribe-openapi.json
-  format: json
-  label: 6sense Scribe Scoring and Segments API
-  slug: 6sense-scribe-api
+- filename: 6sense-scoring-api-openapi.yml
+  format: yaml
+  label: 6sense Scoring API
+  slug: 6sense-scoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-scribe-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-scoring-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

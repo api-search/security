@@ -1,11 +1,113 @@
 ---
 api_specs:
-- filename: ki-insurance-broker-platform-openapi.yml
+- filename: ki-insurance-administration-api-openapi.yml
   format: yaml
-  label: Ki Broker Trading Platform API
-  slug: broker-platform
+  label: Ki Insurance Administration API
+  slug: ki-insurance-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-broker-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-administration-api-openapi.yml
+- filename: ki-insurance-broking-houses-api-openapi.yml
+  format: yaml
+  label: Ki Insurance Broking Houses API
+  slug: ki-insurance-broking-houses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-broking-houses-api-openapi.yml
+- filename: ki-insurance-classes-of-business-api-openapi.yml
+  format: yaml
+  label: Ki Insurance Classes of Business API
+  slug: ki-insurance-classes-of-business-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-classes-of-business-api-openapi.yml
+- filename: ki-insurance-configuration-api-openapi.yml
+  format: yaml
+  label: Ki Insurance Configuration API
+  slug: ki-insurance-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-configuration-api-openapi.yml
+- filename: ki-insurance-dashboard-api-openapi.yml
+  format: yaml
+  label: Ki Insurance Dashboard API
+  slug: ki-insurance-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-dashboard-api-openapi.yml
+- filename: ki-insurance-facilities-api-openapi.yml
+  format: yaml
+  label: Ki Insurance Facilities API
+  slug: ki-insurance-facilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-facilities-api-openapi.yml
+- filename: ki-insurance-indications-api-openapi.yml
+  format: yaml
+  label: Ki Insurance Indications API
+  slug: ki-insurance-indications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-indications-api-openapi.yml
+- filename: ki-insurance-leads-api-openapi.yml
+  format: yaml
+  label: Ki Insurance Leads API
+  slug: ki-insurance-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-leads-api-openapi.yml
+- filename: ki-insurance-market-leaders-api-openapi.yml
+  format: yaml
+  label: Ki Insurance Market Leaders API
+  slug: ki-insurance-market-leaders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-market-leaders-api-openapi.yml
+- filename: ki-insurance-master-data-api-openapi.yml
+  format: yaml
+  label: Ki Insurance Master Data API
+  slug: ki-insurance-master-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-master-data-api-openapi.yml
+- filename: ki-insurance-pipeline-api-openapi.yml
+  format: yaml
+  label: Ki Insurance Pipeline API
+  slug: ki-insurance-pipeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-pipeline-api-openapi.yml
+- filename: ki-insurance-quotes-api-openapi.yml
+  format: yaml
+  label: Ki Insurance Quotes API
+  slug: ki-insurance-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-quotes-api-openapi.yml
+- filename: ki-insurance-risk-codes-api-openapi.yml
+  format: yaml
+  label: Ki Insurance Risk Codes API
+  slug: ki-insurance-risk-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-risk-codes-api-openapi.yml
+- filename: ki-insurance-schedule-of-values-api-openapi.yml
+  format: yaml
+  label: Ki Insurance Schedule of Values API
+  slug: ki-insurance-schedule-of-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-schedule-of-values-api-openapi.yml
+- filename: ki-insurance-slip-extraction-api-openapi.yml
+  format: yaml
+  label: Ki Insurance Slip Extraction API
+  slug: ki-insurance-slip-extraction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-slip-extraction-api-openapi.yml
+- filename: ki-insurance-support-api-openapi.yml
+  format: yaml
+  label: Ki Insurance Support API
+  slug: ki-insurance-support-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-support-api-openapi.yml
+- filename: ki-insurance-telemetry-api-openapi.yml
+  format: yaml
+  label: Ki Insurance Telemetry API
+  slug: ki-insurance-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-telemetry-api-openapi.yml
+- filename: ki-insurance-users-api-openapi.yml
+  format: yaml
+  label: Ki Insurance Users API
+  slug: ki-insurance-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -50,8 +50,8 @@ kind: trust-center
 layout: security
 name: Sensible So Trust Center
 name_suffix: Trust Center
-overview: sensible-so maintains a public trust center documenting SOC 2 and HIPAA compliance.
-provider_name: sensible-so
+overview: Sensible maintains a public trust center documenting SOC 2 and HIPAA compliance.
+provider_name: Sensible
 provider_slug: sensible-so
 slug: sensible-so-trust-center
 source_filename: sensible-so-trust-center.yml

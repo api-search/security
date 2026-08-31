@@ -2,12 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: gameball-openapi.json
-  format: json
-  label: Gameball REST API
-  slug: gameball-rest-api
+- filename: gameball-batches-api-openapi.yml
+  format: yaml
+  label: Gameball Batches API
+  slug: gameball-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/openapi/gameball-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/openapi/gameball-batches-api-openapi.yml
+- filename: gameball-customers-api-openapi.yml
+  format: yaml
+  label: Gameball Customers API
+  slug: gameball-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/openapi/gameball-customers-api-openapi.yml
+- filename: gameball-events-api-openapi.yml
+  format: yaml
+  label: Gameball Events API
+  slug: gameball-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/openapi/gameball-events-api-openapi.yml
+- filename: gameball-gameball-api-api-openapi.yml
+  format: yaml
+  label: Gameball Gameball API
+  slug: gameball-gameball-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/openapi/gameball-gameball-api-api-openapi.yml
+- filename: gameball-integrations-api-openapi.yml
+  format: yaml
+  label: Gameball Integrations API
+  slug: gameball-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/openapi/gameball-integrations-api-openapi.yml
+- filename: gameball-orders-api-openapi.yml
+  format: yaml
+  label: Gameball Orders API
+  slug: gameball-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/openapi/gameball-orders-api-openapi.yml
+- filename: gameball-payments-api-openapi.yml
+  format: yaml
+  label: Gameball Payments API
+  slug: gameball-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/openapi/gameball-payments-api-openapi.yml
+- filename: gameball-plants-api-openapi.yml
+  format: yaml
+  label: Gameball Plants API
+  slug: gameball-plants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/openapi/gameball-plants-api-openapi.yml
 auth_types:
 - apiKey
 - http

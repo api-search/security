@@ -168,12 +168,6 @@ api_specs:
   slug: google-disables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-disables-api-openapi.yml
-- filename: google-document-understanding-api-openapi.yml
-  format: yaml
-  label: Google Document Understanding API
-  slug: google-document-understanding-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-document-understanding-api-openapi.yml
 - filename: google-documents-api-openapi.yml
   format: yaml
   label: Google Documents API
@@ -210,12 +204,6 @@ api_specs:
   slug: google-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-files-api-openapi.yml
-- filename: google-filter-api-openapi.yml
-  format: yaml
-  label: Google Filter API
-  slug: google-filter-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-filter-api-openapi.yml
 - filename: google-free-busy-api-openapi.yml
   format: yaml
   label: Google Free Busy API
@@ -330,12 +318,6 @@ api_specs:
   slug: google-pop-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-pop-api-openapi.yml
-- filename: google-profile-api-openapi.yml
-  format: yaml
-  label: Google Profile API
-  slug: google-profile-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-profile-api-openapi.yml
 - filename: google-replies-api-openapi.yml
   format: yaml
   label: Google Replies API
@@ -348,12 +330,6 @@ api_specs:
   slug: google-revisions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-revisions-api-openapi.yml
-- filename: google-search-api-openapi.yml
-  format: yaml
-  label: Google Search API
-  slug: google-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-search-api-openapi.yml
 - filename: google-send-api-openapi.yml
   format: yaml
   label: Google Send API
@@ -366,42 +342,18 @@ api_specs:
   slug: google-sets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-sets-api-openapi.yml
-- filename: google-setting-api-openapi.yml
-  format: yaml
-  label: Google Setting API
-  slug: google-setting-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-setting-api-openapi.yml
 - filename: google-settings-api-openapi.yml
   format: yaml
   label: Google Settings API
   slug: google-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-settings-api-openapi.yml
-- filename: google-sheet-api-openapi.yml
-  format: yaml
-  label: Google Sheet API
-  slug: google-sheet-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-sheet-api-openapi.yml
 - filename: google-speech-generation-api-openapi.yml
   format: yaml
   label: Google Speech Generation API
   slug: google-speech-generation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-speech-generation-api-openapi.yml
-- filename: google-stop-api-openapi.yml
-  format: yaml
-  label: Google Stop API
-  slug: google-stop-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-stop-api-openapi.yml
-- filename: google-streaming-api-openapi.yml
-  format: yaml
-  label: Google Streaming API
-  slug: google-streaming-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-streaming-api-openapi.yml
 - filename: google-team-drives-api-openapi.yml
   format: yaml
   label: Google Team Drives API
@@ -444,42 +396,12 @@ api_specs:
   slug: google-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-users-api-openapi.yml
-- filename: google-vacation-api-openapi.yml
-  format: yaml
-  label: Google Vacation API
-  slug: google-vacation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-vacation-api-openapi.yml
-- filename: google-values-api-openapi.yml
-  format: yaml
-  label: Google Values API
-  slug: google-values-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-values-api-openapi.yml
-- filename: google-verify-api-openapi.yml
-  format: yaml
-  label: Google Verify API
-  slug: google-verify-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-verify-api-openapi.yml
-- filename: google-video-understanding-api-openapi.yml
-  format: yaml
-  label: Google Video Understanding API
-  slug: google-video-understanding-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-video-understanding-api-openapi.yml
 - filename: google-volumes-api-openapi.yml
   format: yaml
   label: Google Volumes API
   slug: google-volumes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-volumes-api-openapi.yml
-- filename: google-watch-api-openapi.yml
-  format: yaml
-  label: Google Watch API
-  slug: google-watch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-watch-api-openapi.yml
 description: ''
 domains:
 - caa:

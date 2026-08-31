@@ -49,186 +49,480 @@ api_specs:
   slug: vendasta-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-user-api-openapi.yml
-- filename: vendasta-platform-openapi.yml
+- filename: vendasta-account-stats-api-openapi.yml
   format: yaml
-  label: Vendasta Platform REST API
-  slug: vendasta-platform-api
+  label: Vendasta Account Stats API
+  slug: vendasta-account-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-platform-openapi.yml
-- filename: vendasta-scim-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-account-stats-api-openapi.yml
+- filename: vendasta-analyticsservice-api-openapi.yml
   format: yaml
-  label: Vendasta SCIM 2.0 User Management API
-  slug: vendasta-scim-api
+  label: Vendasta Analytics Service API
+  slug: vendasta-analyticsservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-scim-openapi.yml
-- filename: vendasta-crm-rest-openapi.json
-  format: json
-  label: Vendasta CRM REST API
-  slug: vendasta-crm-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-crm-rest-openapi.json
-- filename: vendasta-crm-grpc-openapi.json
-  format: json
-  label: Vendasta CRM API (gRPC gateway)
-  slug: vendasta-crm-grpc-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-crm-grpc-openapi.json
-- filename: vendasta-local-seo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-analyticsservice-api-openapi.yml
+- filename: vendasta-assistants-api-openapi.yml
   format: yaml
-  label: Vendasta Local SEO REST API
-  slug: vendasta-local-seo-api
+  label: Vendasta Assistants API
+  slug: vendasta-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-local-seo-openapi.yml
-- filename: vendasta-advertising-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-assistants-api-openapi.yml
+- filename: vendasta-automation-runs-api-openapi.yml
   format: yaml
-  label: Vendasta Advertising Intelligence REST API
-  slug: vendasta-advertising-api
+  label: Vendasta Automation Runs API
+  slug: vendasta-automation-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-advertising-openapi.yml
-- filename: vendasta-reputation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-automation-runs-api-openapi.yml
+- filename: vendasta-automations-api-openapi.yml
   format: yaml
-  label: Vendasta Reputation REST API
-  slug: vendasta-reputation-api
+  label: Vendasta Automations API
+  slug: vendasta-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-reputation-openapi.yml
-- filename: vendasta-reputation-grpc-openapi.json
-  format: json
-  label: Vendasta Reputation API (gRPC gateway)
-  slug: vendasta-reputation-grpc-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-reputation-grpc-openapi.json
-- filename: vendasta-customer-voice-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-automations-api-openapi.yml
+- filename: vendasta-blogpostsservice-api-openapi.yml
   format: yaml
-  label: Vendasta Customer Voice REST API
-  slug: vendasta-customer-voice-api
+  label: Vendasta Blog Posts Service API
+  slug: vendasta-blogpostsservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-customer-voice-openapi.yml
-- filename: vendasta-social-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-blogpostsservice-api-openapi.yml
+- filename: vendasta-business-categories-api-openapi.yml
   format: yaml
-  label: Vendasta Social REST API
-  slug: vendasta-social-api
+  label: Vendasta Business Categories API
+  slug: vendasta-business-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-social-openapi.yml
-- filename: vendasta-business-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-business-categories-api-openapi.yml
+- filename: vendasta-business-location-reviews-api-openapi.yml
   format: yaml
-  label: Vendasta Business REST API
-  slug: vendasta-business-api
+  label: Vendasta Business Location Reviews API
+  slug: vendasta-business-location-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-business-openapi.yml
-- filename: vendasta-glossary-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-business-location-reviews-api-openapi.yml
+- filename: vendasta-business-locations-api-openapi.yml
   format: yaml
-  label: Vendasta Data Glossary API
-  slug: vendasta-glossary-api
+  label: Vendasta Business Locations API
+  slug: vendasta-business-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-glossary-openapi.yml
-- filename: vendasta-ai-employees-openapi.json
-  format: json
-  label: Vendasta AI Employees API
-  slug: vendasta-ai-employees-api
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-business-locations-api-openapi.yml
+- filename: vendasta-cache-api-openapi.yml
+  format: yaml
+  label: Vendasta Cache API
+  slug: vendasta-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-ai-employees-openapi.json
-- filename: vendasta-ai-knowledge-openapi.json
-  format: json
-  label: Vendasta AI Knowledge API
-  slug: vendasta-ai-knowledge-api
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-cache-api-openapi.yml
+- filename: vendasta-campaign-info-api-openapi.yml
+  format: yaml
+  label: Vendasta Campaign Info API
+  slug: vendasta-campaign-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-ai-knowledge-openapi.json
-- filename: vendasta-conversation-openapi.json
-  format: json
-  label: Vendasta Conversation API
-  slug: vendasta-conversation-api
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-campaign-info-api-openapi.yml
+- filename: vendasta-campaign-stats-api-openapi.yml
+  format: yaml
+  label: Vendasta Campaign Stats API
+  slug: vendasta-campaign-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-conversation-openapi.json
-- filename: vendasta-composer-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-campaign-stats-api-openapi.yml
+- filename: vendasta-citations-api-openapi.yml
+  format: yaml
+  label: Vendasta Citations API
+  slug: vendasta-citations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-citations-api-openapi.yml
+- filename: vendasta-composer-api-openapi.yml
+  format: yaml
   label: Vendasta Composer API
   slug: vendasta-composer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-composer-openapi.json
-- filename: vendasta-forms-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-composer-api-openapi.yml
+- filename: vendasta-connected-accounts-api-openapi.yml
+  format: yaml
+  label: Vendasta Connected Accounts API
+  slug: vendasta-connected-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-connected-accounts-api-openapi.yml
+- filename: vendasta-conversationservice-api-openapi.yml
+  format: yaml
+  label: Vendasta Conversation Service API
+  slug: vendasta-conversationservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-conversationservice-api-openapi.yml
+- filename: vendasta-countries-api-openapi.yml
+  format: yaml
+  label: Vendasta Countries API
+  slug: vendasta-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-countries-api-openapi.yml
+- filename: vendasta-crmassociationservice-api-openapi.yml
+  format: yaml
+  label: Vendasta CRM Association Service API
+  slug: vendasta-crmassociationservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-crmassociationservice-api-openapi.yml
+- filename: vendasta-crmcompanyservice-api-openapi.yml
+  format: yaml
+  label: Vendasta CRM Company Service API
+  slug: vendasta-crmcompanyservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-crmcompanyservice-api-openapi.yml
+- filename: vendasta-crmcustomobjectservice-api-openapi.yml
+  format: yaml
+  label: Vendasta CRM Custom Object Service API
+  slug: vendasta-crmcustomobjectservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-crmcustomobjectservice-api-openapi.yml
+- filename: vendasta-crmcustomobjecttypeservice-api-openapi.yml
+  format: yaml
+  label: Vendasta CRM Custom Object Type Service API
+  slug: vendasta-crmcustomobjecttypeservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-crmcustomobjecttypeservice-api-openapi.yml
+- filename: vendasta-crmfieldschemacustomizationservice-api-openapi.yml
+  format: yaml
+  label: Vendasta CRM Field Schema Customization Service API
+  slug: vendasta-crmfieldschemacustomizationservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-crmfieldschemacustomizationservice-api-openapi.yml
+- filename: vendasta-crmfieldschemaservice-api-openapi.yml
+  format: yaml
+  label: Vendasta CRM Field Schema Service API
+  slug: vendasta-crmfieldschemaservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-crmfieldschemaservice-api-openapi.yml
+- filename: vendasta-crmopportunityservice-api-openapi.yml
+  format: yaml
+  label: Vendasta CRM Opportunity Service API
+  slug: vendasta-crmopportunityservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-crmopportunityservice-api-openapi.yml
+- filename: vendasta-crmservice-api-openapi.yml
+  format: yaml
+  label: Vendasta CRM Service API
+  slug: vendasta-crmservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-crmservice-api-openapi.yml
+- filename: vendasta-customers-api-openapi.yml
+  format: yaml
+  label: Vendasta Customers API
+  slug: vendasta-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-customers-api-openapi.yml
+- filename: vendasta-drafts-api-openapi.yml
+  format: yaml
+  label: Vendasta Drafts API
+  slug: vendasta-drafts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-drafts-api-openapi.yml
+- filename: vendasta-forms-api-openapi.yml
+  format: yaml
   label: Vendasta Forms API
   slug: vendasta-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-forms-openapi.json
-- filename: vendasta-meetings-openapi.json
-  format: json
-  label: Vendasta Meetings API
-  slug: vendasta-meetings-api
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-forms-api-openapi.yml
+- filename: vendasta-glossary-contexts-api-openapi.yml
+  format: yaml
+  label: Vendasta Glossary Contexts API
+  slug: vendasta-glossary-contexts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-meetings-openapi.json
-- filename: vendasta-sales-orders-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-glossary-contexts-api-openapi.yml
+- filename: vendasta-glossary-terms-api-openapi.yml
+  format: yaml
+  label: Vendasta Glossary Terms API
+  slug: vendasta-glossary-terms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-glossary-terms-api-openapi.yml
+- filename: vendasta-group-api-openapi.yml
+  format: yaml
+  label: Vendasta Group API
+  slug: vendasta-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-group-api-openapi.yml
+- filename: vendasta-knowledge-api-openapi.yml
+  format: yaml
+  label: Vendasta Knowledge API
+  slug: vendasta-knowledge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-knowledge-api-openapi.yml
+- filename: vendasta-listing-profiles-api-openapi.yml
+  format: yaml
+  label: Vendasta Listing Profiles API
+  slug: vendasta-listing-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-listing-profiles-api-openapi.yml
+- filename: vendasta-listing-scores-api-openapi.yml
+  format: yaml
+  label: Vendasta Listing Scores API
+  slug: vendasta-listing-scores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-listing-scores-api-openapi.yml
+- filename: vendasta-listing-sync-listings-api-openapi.yml
+  format: yaml
+  label: Vendasta Listing Sync Listings API
+  slug: vendasta-listing-sync-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-listing-sync-listings-api-openapi.yml
+- filename: vendasta-listingproductsservice-api-openapi.yml
+  format: yaml
+  label: Vendasta Listing Products Service API
+  slug: vendasta-listingproductsservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-listingproductsservice-api-openapi.yml
+- filename: vendasta-listingprofileservice-api-openapi.yml
+  format: yaml
+  label: Vendasta Listing Profile Service API
+  slug: vendasta-listingprofileservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-listingprofileservice-api-openapi.yml
+- filename: vendasta-listingservice-api-openapi.yml
+  format: yaml
+  label: Vendasta Listing Service API
+  slug: vendasta-listingservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-listingservice-api-openapi.yml
+- filename: vendasta-listingsourceservice-api-openapi.yml
+  format: yaml
+  label: Vendasta Listing Source Service API
+  slug: vendasta-listingsourceservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-listingsourceservice-api-openapi.yml
+- filename: vendasta-meetingexternal-api-openapi.yml
+  format: yaml
+  label: Vendasta Meeting External API
+  slug: vendasta-meetingexternal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-meetingexternal-api-openapi.yml
+- filename: vendasta-messages-api-openapi.yml
+  format: yaml
+  label: Vendasta Messages API
+  slug: vendasta-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-messages-api-openapi.yml
+- filename: vendasta-monitor-api-openapi.yml
+  format: yaml
+  label: Vendasta Monitor API
+  slug: vendasta-monitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-monitor-api-openapi.yml
+- filename: vendasta-netpromoterscoreservice-api-openapi.yml
+  format: yaml
+  label: Vendasta Net Promoter Score Service API
+  slug: vendasta-netpromoterscoreservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-netpromoterscoreservice-api-openapi.yml
+- filename: vendasta-options-api-openapi.yml
+  format: yaml
+  label: Vendasta Options API
+  slug: vendasta-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-options-api-openapi.yml
+- filename: vendasta-order-custom-fields-api-openapi.yml
+  format: yaml
+  label: Vendasta Order Custom Fields API
+  slug: vendasta-order-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-order-custom-fields-api-openapi.yml
+- filename: vendasta-order-fulfillment-forms-api-openapi.yml
+  format: yaml
+  label: Vendasta Order Fulfillment Forms API
+  slug: vendasta-order-fulfillment-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-order-fulfillment-forms-api-openapi.yml
+- filename: vendasta-orders-api-openapi.yml
+  format: yaml
+  label: Vendasta Orders API
+  slug: vendasta-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-orders-api-openapi.yml
+- filename: vendasta-pagespeedservice-api-openapi.yml
+  format: yaml
+  label: Vendasta Page Speed Service API
+  slug: vendasta-pagespeedservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-pagespeedservice-api-openapi.yml
+- filename: vendasta-partner-activatable-products-api-openapi.yml
+  format: yaml
+  label: Vendasta Partner Activatable Products API
+  slug: vendasta-partner-activatable-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-partner-activatable-products-api-openapi.yml
+- filename: vendasta-pipelines-api-openapi.yml
+  format: yaml
+  label: Vendasta Pipelines API
+  slug: vendasta-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-pipelines-api-openapi.yml
+- filename: vendasta-product-custom-fields-api-openapi.yml
+  format: yaml
+  label: Vendasta Product Custom Fields API
+  slug: vendasta-product-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-product-custom-fields-api-openapi.yml
+- filename: vendasta-purchases-api-openapi.yml
+  format: yaml
+  label: Vendasta Purchases API
+  slug: vendasta-purchases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-purchases-api-openapi.yml
+- filename: vendasta-resource-operations-api-openapi.yml
+  format: yaml
+  label: Vendasta Resource Operations API
+  slug: vendasta-resource-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-resource-operations-api-openapi.yml
+- filename: vendasta-review-requests-api-openapi.yml
+  format: yaml
+  label: Vendasta Review Requests API
+  slug: vendasta-review-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-review-requests-api-openapi.yml
+- filename: vendasta-reviewservice-api-openapi.yml
+  format: yaml
+  label: Vendasta Review Service API
+  slug: vendasta-reviewservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-reviewservice-api-openapi.yml
+- filename: vendasta-sales-account-custom-fields-api-openapi.yml
+  format: yaml
+  label: Vendasta Sales Account Custom Fields API
+  slug: vendasta-sales-account-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-sales-account-custom-fields-api-openapi.yml
+- filename: vendasta-sales-accounts-api-openapi.yml
+  format: yaml
+  label: Vendasta Sales Accounts API
+  slug: vendasta-sales-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-sales-accounts-api-openapi.yml
+- filename: vendasta-salesorders-api-openapi.yml
+  format: yaml
   label: Vendasta Sales Orders API
-  slug: vendasta-sales-orders-api
+  slug: vendasta-salesorders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-sales-orders-openapi.json
-- filename: vendasta-social-posts-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-salesorders-api-openapi.yml
+- filename: vendasta-salesordersauxiliaryfieldschema-api-openapi.yml
+  format: yaml
+  label: Vendasta Sales Orders Auxiliary Field Schema API
+  slug: vendasta-salesordersauxiliaryfieldschema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-salesordersauxiliaryfieldschema-api-openapi.yml
+- filename: vendasta-searchservice-api-openapi.yml
+  format: yaml
+  label: Vendasta Search Service API
+  slug: vendasta-searchservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-searchservice-api-openapi.yml
+- filename: vendasta-send-welcome-email-api-openapi.yml
+  format: yaml
+  label: Vendasta Send Welcome Email API
+  slug: vendasta-send-welcome-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-send-welcome-email-api-openapi.yml
+- filename: vendasta-seoservice-api-openapi.yml
+  format: yaml
+  label: Vendasta SEO Service API
+  slug: vendasta-seoservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-seoservice-api-openapi.yml
+- filename: vendasta-sitedetail-service-api-openapi.yml
+  format: yaml
+  label: Vendasta SiteDetail Service API
+  slug: vendasta-sitedetail-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-sitedetail-service-api-openapi.yml
+- filename: vendasta-siteinfo-api-openapi.yml
+  format: yaml
+  label: Vendasta Site Info API
+  slug: vendasta-siteinfo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-siteinfo-api-openapi.yml
+- filename: vendasta-sitemanager-api-openapi.yml
+  format: yaml
+  label: Vendasta Site Manager API
+  slug: vendasta-sitemanager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-sitemanager-api-openapi.yml
+- filename: vendasta-siteoptionsservice-api-openapi.yml
+  format: yaml
+  label: Vendasta Site Options Service API
+  slug: vendasta-siteoptionsservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-siteoptionsservice-api-openapi.yml
+- filename: vendasta-social-profiles-api-openapi.yml
+  format: yaml
+  label: Vendasta Social Profiles API
+  slug: vendasta-social-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-social-profiles-api-openapi.yml
+- filename: vendasta-socialposts-api-openapi.yml
+  format: yaml
   label: Vendasta Social Posts API
-  slug: vendasta-social-posts-api
+  slug: vendasta-socialposts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-social-posts-openapi.json
-- filename: vendasta-social-drafts-openapi.json
-  format: json
-  label: Vendasta Social Drafts API
-  slug: vendasta-social-drafts-api
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-socialposts-api-openapi.yml
+- filename: vendasta-socialpostsv2-api-openapi.yml
+  format: yaml
+  label: Vendasta Social Posts V2 API
+  slug: vendasta-socialpostsv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-social-drafts-openapi.json
-- filename: vendasta-listing-products-openapi.json
-  format: json
-  label: Vendasta Listing Products API
-  slug: vendasta-listing-products-api
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-socialpostsv2-api-openapi.yml
+- filename: vendasta-subscription-assignments-api-openapi.yml
+  format: yaml
+  label: Vendasta Subscription Assignments API
+  slug: vendasta-subscription-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-listing-products-openapi.json
-- filename: vendasta-multi-location-analytics-openapi.json
-  format: json
-  label: Vendasta Multi-Location Analytics API
-  slug: vendasta-multi-location-analytics-api
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-subscription-assignments-api-openapi.yml
+- filename: vendasta-subscriptions-api-openapi.yml
+  format: yaml
+  label: Vendasta Subscriptions API
+  slug: vendasta-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-multi-location-analytics-openapi.json
-- filename: vendasta-vanalytics-openapi.json
-  format: json
-  label: Vendasta Vanalytics API
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-subscriptions-api-openapi.yml
+- filename: vendasta-system-operations-api-openapi.yml
+  format: yaml
+  label: Vendasta System Operations API
+  slug: vendasta-system-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-system-operations-api-openapi.yml
+- filename: vendasta-templates-api-openapi.yml
+  format: yaml
+  label: Vendasta Templates API
+  slug: vendasta-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-templates-api-openapi.yml
+- filename: vendasta-terms-api-openapi.yml
+  format: yaml
+  label: Vendasta Terms API
+  slug: vendasta-terms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-terms-api-openapi.yml
+- filename: vendasta-user-custom-fields-api-openapi.yml
+  format: yaml
+  label: Vendasta User Custom Fields API
+  slug: vendasta-user-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-user-custom-fields-api-openapi.yml
+- filename: vendasta-users-api-openapi.yml
+  format: yaml
+  label: Vendasta Users API
+  slug: vendasta-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-users-api-openapi.yml
+- filename: vendasta-vanalytics-api-openapi.yml
+  format: yaml
+  label: Vendasta V Analytics API
   slug: vendasta-vanalytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-vanalytics-openapi.json
-- filename: vendasta-wordpress-hosting-openapi.json
-  format: json
-  label: Vendasta WordPress Hosting API
-  slug: vendasta-wordpress-hosting-api
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-vanalytics-api-openapi.yml
+- filename: vendasta-wordpresspluginservice-api-openapi.yml
+  format: yaml
+  label: Vendasta Wordpress Plugin Service API
+  slug: vendasta-wordpresspluginservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-wordpress-hosting-openapi.json
-- filename: vendasta-wsp-admin-center-openapi.json
-  format: json
-  label: Vendasta Website Pro Admin Center API
-  slug: vendasta-wsp-admin-center-api
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-wordpresspluginservice-api-openapi.yml
+- filename: vendasta-wordpressservice-api-openapi.yml
+  format: yaml
+  label: Vendasta Wordpress Service API
+  slug: vendasta-wordpressservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-wsp-admin-center-openapi.json
-- filename: vendasta-wsp-monitor-openapi.json
-  format: json
-  label: Vendasta Website Pro Monitor API
-  slug: vendasta-wsp-monitor-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-wsp-monitor-openapi.json
-- filename: vendasta-wsp-site-info-openapi.json
-  format: json
-  label: Vendasta Website Pro Site Info API
-  slug: vendasta-wsp-site-info-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-wsp-site-info-openapi.json
-- filename: vendasta-wsp-support-tools-openapi.json
-  format: json
-  label: Vendasta Website Pro Support Tools API
-  slug: vendasta-wsp-support-tools-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-wsp-support-tools-openapi.json
-- filename: vendasta-wsp-wp-manager-openapi.json
-  format: json
-  label: Vendasta Website Pro WP Manager API
-  slug: vendasta-wsp-wp-manager-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-wsp-wp-manager-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-wordpressservice-api-openapi.yml
 auth_types:
 - oauth2
 - http

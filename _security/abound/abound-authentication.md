@@ -79,6 +79,12 @@ api_specs:
   slug: abound-w-9-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-w-9-api-openapi.yml
+- filename: abound-abound-api-v4-api-openapi.yml
+  format: yaml
+  label: Abound Abound API V4 API
+  slug: abound-abound-api-v4-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-abound-api-v4-api-openapi.yml
 auth_types:
 - http
 description: ''

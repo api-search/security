@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: sofi-partner-offer-api-openapi.yml
+- filename: sofi-affiliate-leads-api-openapi.yml
   format: yaml
-  label: SoFi Partner Offer Pre-Qualification API
-  slug: sofi-partner-offer-api
+  label: SoFi Affiliate Leads API
+  slug: sofi-affiliate-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi/refs/heads/main/openapi/sofi-partner-offer-api-openapi.yml
-- filename: sofi-home-loan-affiliate-lead-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sofi/refs/heads/main/openapi/sofi-affiliate-leads-api-openapi.yml
+- filename: sofi-partner-offers-api-openapi.yml
   format: yaml
-  label: SoFi Home Loan Affiliate Lead API
-  slug: sofi-home-loan-affiliate-lead-api
+  label: SoFi Partner Offers API
+  slug: sofi-partner-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi/refs/heads/main/openapi/sofi-home-loan-affiliate-lead-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sofi/refs/heads/main/openapi/sofi-partner-offers-api-openapi.yml
 description: ''
 domains:
 - caa:

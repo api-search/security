@@ -3,17 +3,17 @@ description: ''
 domains:
 - caa:
   - 0 issuewild "sectigo.com"
-  - 0 issue "digicert.com"
+  - 0 issuewild "letsencrypt.org"
   - 0 issue "letsencrypt.org"
   - 0 issue "sectigo.com"
-  - 0 issuewild "letsencrypt.org"
+  - 0 issue "digicert.com"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
   domain: amark.com
   spf: true
 hosts:
-- cert_expires: Aug 21 05:18:24 2026 GMT
+- cert_expires: Oct 20 21:04:32 2026 GMT
   host: www.amark.com
   hsts: false
   https: true
@@ -30,7 +30,7 @@ slug: a-mark-precious-metals-domain-security
 source_filename: a-mark-precious-metals-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.amark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 05:18:24 2026 GMT\n  hsts: false\ndomains:\n- domain: amark.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.amark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 21:04:32 2026 GMT\n  hsts: false\ndomains:\n- domain: amark.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"sectigo.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/a-mark-precious-metals/refs/heads/main/security/a-mark-precious-metals-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

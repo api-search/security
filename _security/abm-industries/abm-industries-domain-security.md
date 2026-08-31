@@ -30,7 +30,7 @@ slug: abm-industries-domain-security
 source_filename: abm-industries-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.abm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 12:44:44 2026 GMT\n  hsts: false\n- host: connect.abm.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 21 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: abm.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.abm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 12:44:44 2026 GMT\n  hsts: false\n- host: connect.abm.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 21 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: abm.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abm-industries/refs/heads/main/security/abm-industries-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

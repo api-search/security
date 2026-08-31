@@ -73,12 +73,6 @@ api_specs:
   slug: shareworks-plan-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/openapi/shareworks-plan-api-openapi.yml
-- filename: shareworks-read-access-api-openapi.yml
-  format: yaml
-  label: Shareworks Read Access API
-  slug: shareworks-read-access-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/openapi/shareworks-read-access-api-openapi.yml
 - filename: shareworks-stock-certificate-api-openapi.yml
   format: yaml
   label: Shareworks Stock Certificate API
@@ -97,12 +91,6 @@ api_specs:
   slug: shareworks-vesting-schedule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/openapi/shareworks-vesting-schedule-api-openapi.yml
-- filename: shareworks-write-access-api-openapi.yml
-  format: yaml
-  label: Shareworks Write Access API
-  slug: shareworks-write-access-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/openapi/shareworks-write-access-api-openapi.yml
 auth_types:
 - http
 description: ''

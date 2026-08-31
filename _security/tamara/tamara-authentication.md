@@ -1,36 +1,6 @@
 ---
 api_key_in: []
 api_specs:
-- filename: tamara-orders-api-openapi.yml
-  format: yaml
-  label: Tamara Orders API
-  slug: tamara-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-orders-api-openapi.yml
-- filename: tamara-in-store-checkout-api-openapi.yml
-  format: yaml
-  label: Tamara In-Store Checkout API
-  slug: tamara-in-store-checkout-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-in-store-checkout-api-openapi.yml
-- filename: tamara-webhooks-api-openapi.yml
-  format: yaml
-  label: Tamara Webhooks API
-  slug: tamara-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-webhooks-api-openapi.yml
-- filename: tamara-disputes-api-openapi.yml
-  format: yaml
-  label: Tamara Disputes API
-  slug: tamara-disputes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-disputes-api-openapi.yml
-- filename: tamara-eligibility-api-openapi.yml
-  format: yaml
-  label: Tamara Pre-Checkout Eligibility API
-  slug: tamara-eligibility-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-eligibility-api-openapi.yml
 - filename: tamara-captures-api-openapi.yml
   format: yaml
   label: Tamara Captures API

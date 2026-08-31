@@ -30,6 +30,12 @@ api_specs:
   slug: liquidonate-ship-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-ship-api-openapi.yml
+- filename: liquidonate-returnsdirect-by-liquidonate-beta-api-openapi.yml
+  format: yaml
+  label: LiquiDonate ReturnsDirect By LiquiDonate (Beta) API
+  slug: liquidonate-returnsdirect-by-liquidonate-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-returnsdirect-by-liquidonate-beta-api-openapi.yml
 description: ''
 domains:
 - caa: []

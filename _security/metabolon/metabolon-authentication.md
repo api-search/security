@@ -1,30 +1,114 @@
 ---
 api_key_in: []
 api_specs:
-- filename: metabolon-portal-api-openapi.yml
+- filename: metabolon-assistant-api-openapi.yml
   format: yaml
-  label: Metabolon Portal API
-  slug: metabolon-portal-api
+  label: Metabolon Assistant API
+  slug: metabolon-assistant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-portal-api-openapi.yml
-- filename: metabolon-discovery-panels-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-assistant-api-openapi.yml
+- filename: metabolon-auth-api-openapi.yml
   format: yaml
-  label: Metabolon Discovery Panels API
-  slug: metabolon-discovery-panels-api
+  label: Metabolon Auth API
+  slug: metabolon-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-discovery-panels-api-openapi.yml
-- filename: metabolon-pathway-explorer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-auth-api-openapi.yml
+- filename: metabolon-decentralization-api-openapi.yml
   format: yaml
-  label: Metabolon Pathway Explorer API
-  slug: metabolon-pathway-explorer-api
+  label: Metabolon Decentralization API
+  slug: metabolon-decentralization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-pathway-explorer-api-openapi.yml
-- filename: metabolon-heatmap-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-decentralization-api-openapi.yml
+- filename: metabolon-eula-api-openapi.yml
   format: yaml
-  label: Metabolon Heatmap API
-  slug: metabolon-heatmap-api
+  label: Metabolon Eula API
+  slug: metabolon-eula-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-heatmap-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-eula-api-openapi.yml
+- filename: metabolon-files-api-openapi.yml
+  format: yaml
+  label: Metabolon Files API
+  slug: metabolon-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-files-api-openapi.yml
+- filename: metabolon-health-api-openapi.yml
+  format: yaml
+  label: Metabolon Health API
+  slug: metabolon-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-health-api-openapi.yml
+- filename: metabolon-labvantagefiles-api-openapi.yml
+  format: yaml
+  label: Metabolon Lab Vantage Files API
+  slug: metabolon-labvantagefiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-labvantagefiles-api-openapi.yml
+- filename: metabolon-pipelinestatus-api-openapi.yml
+  format: yaml
+  label: Metabolon Pipeline Status API
+  slug: metabolon-pipelinestatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-pipelinestatus-api-openapi.yml
+- filename: metabolon-projects-api-openapi.yml
+  format: yaml
+  label: Metabolon Projects API
+  slug: metabolon-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-projects-api-openapi.yml
+- filename: metabolon-reports-api-openapi.yml
+  format: yaml
+  label: Metabolon Reports API
+  slug: metabolon-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-reports-api-openapi.yml
+- filename: metabolon-samplesets-api-openapi.yml
+  format: yaml
+  label: Metabolon Sample Sets API
+  slug: metabolon-samplesets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-samplesets-api-openapi.yml
+- filename: metabolon-samplesetsinfo-api-openapi.yml
+  format: yaml
+  label: Metabolon Sample Sets Info API
+  slug: metabolon-samplesetsinfo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-samplesetsinfo-api-openapi.yml
+- filename: metabolon-search-api-openapi.yml
+  format: yaml
+  label: Metabolon Search API
+  slug: metabolon-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-search-api-openapi.yml
+- filename: metabolon-sharedfile-api-openapi.yml
+  format: yaml
+  label: Metabolon Shared File API
+  slug: metabolon-sharedfile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-sharedfile-api-openapi.yml
+- filename: metabolon-spectraldata-api-openapi.yml
+  format: yaml
+  label: Metabolon Spectral Data API
+  slug: metabolon-spectraldata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-spectraldata-api-openapi.yml
+- filename: metabolon-status-api-openapi.yml
+  format: yaml
+  label: Metabolon Status API
+  slug: metabolon-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-status-api-openapi.yml
+- filename: metabolon-studybuilder-api-openapi.yml
+  format: yaml
+  label: Metabolon Study Builder API
+  slug: metabolon-studybuilder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-studybuilder-api-openapi.yml
+- filename: metabolon-users-api-openapi.yml
+  format: yaml
+  label: Metabolon Users API
+  slug: metabolon-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-users-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

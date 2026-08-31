@@ -1,12 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: southern-california-edison-drpep-arcgis-openapi.yml
+- filename: southern-california-edison-drpep-portal-api-openapi.yml
   format: yaml
-  label: SCE DRPEP ArcGIS REST Services
-  slug: sce-drpep-arcgis-rest-services
+  label: Southern California Edison DRPEP Portal API
+  slug: southern-california-edison-drpep-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/openapi/southern-california-edison-drpep-arcgis-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/openapi/southern-california-edison-drpep-portal-api-openapi.yml
+- filename: southern-california-edison-feature-services-api-openapi.yml
+  format: yaml
+  label: Southern California Edison Feature Services API
+  slug: southern-california-edison-feature-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/openapi/southern-california-edison-feature-services-api-openapi.yml
+- filename: southern-california-edison-query-api-openapi.yml
+  format: yaml
+  label: Southern California Edison Query API
+  slug: southern-california-edison-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/openapi/southern-california-edison-query-api-openapi.yml
+- filename: southern-california-edison-server-api-openapi.yml
+  format: yaml
+  label: Southern California Edison Server API
+  slug: southern-california-edison-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/openapi/southern-california-edison-server-api-openapi.yml
 auth_types:
 - none
 - oauth2

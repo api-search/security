@@ -8,60 +8,18 @@ api_specs:
   slug: datadog-dashboards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-dashboards-api-openapi.yml
-- filename: datadog-users-api-openapi.yml
-  format: yaml
-  label: Datadog Users API
-  slug: datadog-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-users-api-openapi.yml
-- filename: datadog-roles-api-openapi.yml
-  format: yaml
-  label: Datadog Roles API
-  slug: datadog-roles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-roles-api-openapi.yml
-- filename: datadog-organizations-api-openapi.yml
-  format: yaml
-  label: Datadog Organizations API
-  slug: datadog-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-organizations-api-openapi.yml
-- filename: datadog-rum-api-openapi.yml
-  format: yaml
-  label: Datadog RUM API
-  slug: datadog-rum-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-rum-api-openapi.yml
 - filename: datadog-teams-api-openapi.yml
   format: yaml
   label: Datadog Teams API
   slug: datadog-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-teams-api-openapi.yml
-- filename: datadog-hosts-api-openapi.yml
-  format: yaml
-  label: Datadog Hosts API
-  slug: datadog-hosts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-hosts-api-openapi.yml
-- filename: datadog-containers-api-openapi.yml
-  format: yaml
-  label: Datadog Containers API
-  slug: datadog-containers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-containers-api-openapi.yml
 - filename: datadog-audit-api-openapi.yml
   format: yaml
   label: Datadog Audit API
   slug: datadog-audit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-audit-api-openapi.yml
-- filename: datadog-integrations-api-openapi.yml
-  format: yaml
-  label: Datadog Integrations API
-  slug: datadog-integrations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-integrations-api-openapi.yml
 - filename: datadog-account-api-openapi.yml
   format: yaml
   label: Datadog Account API
@@ -128,12 +86,6 @@ api_specs:
   slug: datadog-aggregated-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-aggregated-api-openapi.yml
-- filename: datadog-aggregations-api-openapi.yml
-  format: yaml
-  label: Datadog Aggregations API
-  slug: datadog-aggregations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-aggregations-api-openapi.yml
 - filename: datadog-all-api-openapi.yml
   format: yaml
   label: Datadog All API
@@ -158,12 +110,6 @@ api_specs:
   slug: datadog-archive-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-archive-api-openapi.yml
-- filename: datadog-archives-api-openapi.yml
-  format: yaml
-  label: Datadog Archives API
-  slug: datadog-archives-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-archives-api-openapi.yml
 - filename: datadog-assets-api-openapi.yml
   format: yaml
   label: Datadog Assets API
@@ -278,12 +224,6 @@ api_specs:
   slug: datadog-cloud-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-cloud-api-openapi.yml
-- filename: datadog-cloudflare-api-openapi.yml
-  format: yaml
-  label: Datadog Cloudflare API
-  slug: datadog-cloudflare-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-cloudflare-api-openapi.yml
 - filename: datadog-configuration-api-openapi.yml
   format: yaml
   label: Datadog Configuration API
@@ -296,24 +236,6 @@ api_specs:
   slug: datadog-configure-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-configure-api-openapi.yml
-- filename: datadog-connection-api-openapi.yml
-  format: yaml
-  label: Datadog Connection API
-  slug: datadog-connection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-connection-api-openapi.yml
-- filename: datadog-connections-api-openapi.yml
-  format: yaml
-  label: Datadog Connections API
-  slug: datadog-connections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-connections-api-openapi.yml
-- filename: datadog-containers-api-openapi.yml
-  format: yaml
-  label: Datadog Containers API
-  slug: datadog-containers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-containers-api-openapi.yml
 - filename: datadog-convert-api-openapi.yml
   format: yaml
   label: Datadog Convert API
@@ -326,24 +248,12 @@ api_specs:
   slug: datadog-cost-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-cost-api-openapi.yml
-- filename: datadog-coverage-api-openapi.yml
-  format: yaml
-  label: Datadog Coverage API
-  slug: datadog-coverage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-coverage-api-openapi.yml
 - filename: datadog-create-api-openapi.yml
   format: yaml
   label: Datadog Create API
   slug: datadog-create-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-create-api-openapi.yml
-- filename: datadog-current-api-openapi.yml
-  format: yaml
-  label: Datadog Current API
-  slug: datadog-current-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-current-api-openapi.yml
 - filename: datadog-custom-api-openapi.yml
   format: yaml
   label: Datadog Custom API
@@ -356,30 +266,12 @@ api_specs:
   slug: datadog-dashboards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-dashboards-api-openapi.yml
-- filename: datadog-data-api-openapi.yml
-  format: yaml
-  label: Datadog Data API
-  slug: datadog-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-data-api-openapi.yml
 - filename: datadog-definition-api-openapi.yml
   format: yaml
   label: Datadog Definition API
   slug: datadog-definition-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-definition-api-openapi.yml
-- filename: datadog-definitions-api-openapi.yml
-  format: yaml
-  label: Datadog Definitions API
-  slug: datadog-definitions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-definitions-api-openapi.yml
-- filename: datadog-delegate-api-openapi.yml
-  format: yaml
-  label: Datadog Delegate API
-  slug: datadog-delegate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-delegate-api-openapi.yml
 - filename: datadog-delete-api-openapi.yml
   format: yaml
   label: Datadog Delete API
@@ -398,18 +290,6 @@ api_specs:
   slug: datadog-deployments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-deployments-api-openapi.yml
-- filename: datadog-destination-api-openapi.yml
-  format: yaml
-  label: Datadog Destination API
-  slug: datadog-destination-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-destination-api-openapi.yml
-- filename: datadog-destinations-api-openapi.yml
-  format: yaml
-  label: Datadog Destinations API
-  slug: datadog-destinations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-destinations-api-openapi.yml
 - filename: datadog-detection-api-openapi.yml
   format: yaml
   label: Datadog Detection API
@@ -422,18 +302,6 @@ api_specs:
   slug: datadog-devices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-devices-api-openapi.yml
-- filename: datadog-dimension-api-openapi.yml
-  format: yaml
-  label: Datadog Dimension API
-  slug: datadog-dimension-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-dimension-api-openapi.yml
-- filename: datadog-dimensions-api-openapi.yml
-  format: yaml
-  label: Datadog Dimensions API
-  slug: datadog-dimensions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-dimensions-api-openapi.yml
 - filename: datadog-disables-api-openapi.yml
   format: yaml
   label: Datadog Disables API
@@ -464,12 +332,6 @@ api_specs:
   slug: datadog-emails-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-emails-api-openapi.yml
-- filename: datadog-enabled-api-openapi.yml
-  format: yaml
-  label: Datadog Enabled API
-  slug: datadog-enabled-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-enabled-api-openapi.yml
 - filename: datadog-entities-api-openapi.yml
   format: yaml
   label: Datadog Entities API
@@ -482,12 +344,6 @@ api_specs:
   slug: datadog-entity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-entity-api-openapi.yml
-- filename: datadog-entry-api-openapi.yml
-  format: yaml
-  label: Datadog Entry API
-  slug: datadog-entry-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-entry-api-openapi.yml
 - filename: datadog-escalate-api-openapi.yml
   format: yaml
   label: Datadog Escalate API
@@ -518,24 +374,12 @@ api_specs:
   slug: datadog-external-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-external-api-openapi.yml
-- filename: datadog-failure-api-openapi.yml
-  format: yaml
-  label: Datadog Failure API
-  slug: datadog-failure-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-failure-api-openapi.yml
 - filename: datadog-family-api-openapi.yml
   format: yaml
   label: Datadog Family API
   slug: datadog-family-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-family-api-openapi.yml
-- filename: datadog-files-api-openapi.yml
-  format: yaml
-  label: Datadog Files API
-  slug: datadog-files-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-files-api-openapi.yml
 - filename: datadog-filter-api-openapi.yml
   format: yaml
   label: Datadog Filter API
@@ -554,30 +398,12 @@ api_specs:
   slug: datadog-findings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-findings-api-openapi.yml
-- filename: datadog-framework-api-openapi.yml
-  format: yaml
-  label: Datadog Framework API
-  slug: datadog-framework-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-framework-api-openapi.yml
-- filename: datadog-generate-api-openapi.yml
-  format: yaml
-  label: Datadog Generate API
-  slug: datadog-generate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-generate-api-openapi.yml
 - filename: datadog-get-api-openapi.yml
   format: yaml
   label: Datadog Get API
   slug: datadog-get-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-get-api-openapi.yml
-- filename: datadog-given-api-openapi.yml
-  format: yaml
-  label: Datadog Given API
-  slug: datadog-given-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-given-api-openapi.yml
 - filename: datadog-grants-api-openapi.yml
   format: yaml
   label: Datadog Grants API
@@ -602,66 +428,12 @@ api_specs:
   slug: datadog-historical-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-historical-api-openapi.yml
-- filename: datadog-history-api-openapi.yml
-  format: yaml
-  label: Datadog History API
-  slug: datadog-history-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-history-api-openapi.yml
-- filename: datadog-hosts-api-openapi.yml
-  format: yaml
-  label: Datadog Hosts API
-  slug: datadog-hosts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-hosts-api-openapi.yml
-- filename: datadog-hourly-api-openapi.yml
-  format: yaml
-  label: Datadog Hourly API
-  slug: datadog-hourly-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-hourly-api-openapi.yml
-- filename: datadog-identifiers-api-openapi.yml
-  format: yaml
-  label: Datadog Identifiers API
-  slug: datadog-identifiers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-identifiers-api-openapi.yml
-- filename: datadog-images-api-openapi.yml
-  format: yaml
-  label: Datadog Images API
-  slug: datadog-images-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-images-api-openapi.yml
 - filename: datadog-incident-api-openapi.yml
   format: yaml
   label: Datadog Incident API
   slug: datadog-incident-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-incident-api-openapi.yml
-- filename: datadog-incident-teams-api-openapi.yml
-  format: yaml
-  label: Datadog Incident Teams API
-  slug: datadog-incident-teams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-incident-teams-api-openapi.yml
-- filename: datadog-incidents-api-openapi.yml
-  format: yaml
-  label: Datadog Incidents API
-  slug: datadog-incidents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-incidents-api-openapi.yml
-- filename: datadog-information-api-openapi.yml
-  format: yaml
-  label: Datadog Information API
-  slug: datadog-information-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-information-api-openapi.yml
-- filename: datadog-instance-api-openapi.yml
-  format: yaml
-  label: Datadog Instance API
-  slug: datadog-instance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-instance-api-openapi.yml
 - filename: datadog-instances-api-openapi.yml
   format: yaml
   label: Datadog Instances API
@@ -674,72 +446,18 @@ api_specs:
   slug: datadog-integration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-integration-api-openapi.yml
-- filename: datadog-integrations-api-openapi.yml
-  format: yaml
-  label: Datadog Integrations API
-  slug: datadog-integrations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-integrations-api-openapi.yml
-- filename: datadog-interfaces-api-openapi.yml
-  format: yaml
-  label: Datadog Interfaces API
-  slug: datadog-interfaces-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-interfaces-api-openapi.yml
-- filename: datadog-invitation-api-openapi.yml
-  format: yaml
-  label: Datadog Invitation API
-  slug: datadog-invitation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-invitation-api-openapi.yml
-- filename: datadog-invocations-api-openapi.yml
-  format: yaml
-  label: Datadog Invocations API
-  slug: datadog-invocations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-invocations-api-openapi.yml
 - filename: datadog-ip-api-openapi.yml
   format: yaml
   label: Datadog Ip API
   slug: datadog-ip-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-ip-api-openapi.yml
-- filename: datadog-items-api-openapi.yml
-  format: yaml
-  label: Datadog Items API
-  slug: datadog-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-items-api-openapi.yml
-- filename: datadog-jobs-api-openapi.yml
-  format: yaml
-  label: Datadog Jobs API
-  slug: datadog-jobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-jobs-api-openapi.yml
-- filename: datadog-keys-api-openapi.yml
-  format: yaml
-  label: Datadog Keys API
-  slug: datadog-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-keys-api-openapi.yml
-- filename: datadog-lambda-api-openapi.yml
-  format: yaml
-  label: Datadog Lambda API
-  slug: datadog-lambda-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-lambda-api-openapi.yml
 - filename: datadog-link-api-openapi.yml
   format: yaml
   label: Datadog Link API
   slug: datadog-link-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-link-api-openapi.yml
-- filename: datadog-links-api-openapi.yml
-  format: yaml
-  label: Datadog Links API
-  slug: datadog-links-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-links-api-openapi.yml
 - filename: datadog-lists-api-openapi.yml
   format: yaml
   label: Datadog Lists API
@@ -764,24 +482,6 @@ api_specs:
   slug: datadog-logs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-logs-api-openapi.yml
-- filename: datadog-management-api-openapi.yml
-  format: yaml
-  label: Datadog Management API
-  slug: datadog-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-management-api-openapi.yml
-- filename: datadog-mapping-api-openapi.yml
-  format: yaml
-  label: Datadog Mapping API
-  slug: datadog-mapping-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-mapping-api-openapi.yml
-- filename: datadog-memberships-api-openapi.yml
-  format: yaml
-  label: Datadog Memberships API
-  slug: datadog-memberships-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-memberships-api-openapi.yml
 - filename: datadog-metric-metadata-api-openapi.yml
   format: yaml
   label: Datadog Metric Metadata API
@@ -800,12 +500,6 @@ api_specs:
   slug: datadog-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-metrics-api-openapi.yml
-- filename: datadog-modify-api-openapi.yml
-  format: yaml
-  label: Datadog Modify API
-  slug: datadog-modify-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-modify-api-openapi.yml
 - filename: datadog-monitor-api-openapi.yml
   format: yaml
   label: Datadog Monitor API
@@ -830,36 +524,6 @@ api_specs:
   slug: datadog-monitors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-monitors-api-openapi.yml
-- filename: datadog-monthly-api-openapi.yml
-  format: yaml
-  label: Datadog Monthly API
-  slug: datadog-monthly-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-monthly-api-openapi.yml
-- filename: datadog-multiple-api-openapi.yml
-  format: yaml
-  label: Datadog Multiple API
-  slug: datadog-multiple-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-multiple-api-openapi.yml
-- filename: datadog-mute-api-openapi.yml
-  format: yaml
-  label: Datadog Mute API
-  slug: datadog-mute-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-mute-api-openapi.yml
-- filename: datadog-names-api-openapi.yml
-  format: yaml
-  label: Datadog Names API
-  slug: datadog-names-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-names-api-openapi.yml
-- filename: datadog-namespaces-api-openapi.yml
-  format: yaml
-  label: Datadog Namespaces API
-  slug: datadog-namespaces-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-namespaces-api-openapi.yml
 - filename: datadog-objects-api-openapi.yml
   format: yaml
   label: Datadog Objects API
@@ -884,18 +548,6 @@ api_specs:
   slug: datadog-order-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-order-api-openapi.yml
-- filename: datadog-organizations-api-openapi.yml
-  format: yaml
-  label: Datadog Organizations API
-  slug: datadog-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-organizations-api-openapi.yml
-- filename: datadog-owned-api-openapi.yml
-  format: yaml
-  label: Datadog Owned API
-  slug: datadog-owned-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-owned-api-openapi.yml
 - filename: datadog-pages-api-openapi.yml
   format: yaml
   label: Datadog Pages API
@@ -908,12 +560,6 @@ api_specs:
   slug: datadog-patch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-patch-api-openapi.yml
-- filename: datadog-patterns-api-openapi.yml
-  format: yaml
-  label: Datadog Patterns API
-  slug: datadog-patterns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-patterns-api-openapi.yml
 - filename: datadog-permissions-api-openapi.yml
   format: yaml
   label: Datadog Permissions API
@@ -932,150 +578,42 @@ api_specs:
   slug: datadog-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-policies-api-openapi.yml
-- filename: datadog-post-api-openapi.yml
-  format: yaml
-  label: Datadog Post API
-  slug: datadog-post-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-post-api-openapi.yml
-- filename: datadog-principal-api-openapi.yml
-  format: yaml
-  label: Datadog Principal API
-  slug: datadog-principal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-principal-api-openapi.yml
-- filename: datadog-priority-api-openapi.yml
-  format: yaml
-  label: Datadog Priority API
-  slug: datadog-priority-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-priority-api-openapi.yml
-- filename: datadog-product-api-openapi.yml
-  format: yaml
-  label: Datadog Product API
-  slug: datadog-product-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-product-api-openapi.yml
-- filename: datadog-products-api-openapi.yml
-  format: yaml
-  label: Datadog Products API
-  slug: datadog-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-products-api-openapi.yml
 - filename: datadog-projects-api-openapi.yml
   format: yaml
   label: Datadog Projects API
   slug: datadog-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-projects-api-openapi.yml
-- filename: datadog-protections-api-openapi.yml
-  format: yaml
-  label: Datadog Protections API
-  slug: datadog-protections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-protections-api-openapi.yml
-- filename: datadog-publish-api-openapi.yml
-  format: yaml
-  label: Datadog Publish API
-  slug: datadog-publish-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-publish-api-openapi.yml
 - filename: datadog-queries-api-openapi.yml
   format: yaml
   label: Datadog Queries API
   slug: datadog-queries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-queries-api-openapi.yml
-- filename: datadog-read-api-openapi.yml
-  format: yaml
-  label: Datadog Read API
-  slug: datadog-read-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-read-api-openapi.yml
-- filename: datadog-ready-api-openapi.yml
-  format: yaml
-  label: Datadog Ready API
-  slug: datadog-ready-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-ready-api-openapi.yml
-- filename: datadog-related-api-openapi.yml
-  format: yaml
-  label: Datadog Related API
-  slug: datadog-related-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-related-api-openapi.yml
 - filename: datadog-remove-api-openapi.yml
   format: yaml
   label: Datadog Remove API
   slug: datadog-remove-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-remove-api-openapi.yml
-- filename: datadog-reorder-api-openapi.yml
-  format: yaml
-  label: Datadog Reorder API
-  slug: datadog-reorder-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-reorder-api-openapi.yml
-- filename: datadog-reports-api-openapi.yml
-  format: yaml
-  label: Datadog Reports API
-  slug: datadog-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-reports-api-openapi.yml
-- filename: datadog-resolve-api-openapi.yml
-  format: yaml
-  label: Datadog Resolve API
-  slug: datadog-resolve-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-resolve-api-openapi.yml
 - filename: datadog-resource-api-openapi.yml
   format: yaml
   label: Datadog Resource API
   slug: datadog-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-resource-api-openapi.yml
-- filename: datadog-resources-api-openapi.yml
-  format: yaml
-  label: Datadog Resources API
-  slug: datadog-resources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-resources-api-openapi.yml
-- filename: datadog-restrictions-api-openapi.yml
-  format: yaml
-  label: Datadog Restrictions API
-  slug: datadog-restrictions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-restrictions-api-openapi.yml
-- filename: datadog-result-api-openapi.yml
-  format: yaml
-  label: Datadog Result API
-  slug: datadog-result-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-result-api-openapi.yml
 - filename: datadog-retention-api-openapi.yml
   format: yaml
   label: Datadog Retention API
   slug: datadog-retention-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-retention-api-openapi.yml
-- filename: datadog-revoke-api-openapi.yml
-  format: yaml
-  label: Datadog Revoke API
-  slug: datadog-revoke-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-revoke-api-openapi.yml
 - filename: datadog-role-api-openapi.yml
   format: yaml
   label: Datadog Role API
   slug: datadog-role-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-role-api-openapi.yml
-- filename: datadog-roles-api-openapi.yml
-  format: yaml
-  label: Datadog Roles API
-  slug: datadog-roles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-roles-api-openapi.yml
 - filename: datadog-routing-api-openapi.yml
   format: yaml
   label: Datadog Routing API
@@ -1088,36 +626,6 @@ api_specs:
   slug: datadog-rules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-rules-api-openapi.yml
-- filename: datadog-rum-api-openapi.yml
-  format: yaml
-  label: Datadog Rum API
-  slug: datadog-rum-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-rum-api-openapi.yml
-- filename: datadog-runs-api-openapi.yml
-  format: yaml
-  label: Datadog Runs API
-  slug: datadog-runs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-runs-api-openapi.yml
-- filename: datadog-save-api-openapi.yml
-  format: yaml
-  label: Datadog Save API
-  slug: datadog-save-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-save-api-openapi.yml
-- filename: datadog-scan-api-openapi.yml
-  format: yaml
-  label: Datadog Scan API
-  slug: datadog-scan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-scan-api-openapi.yml
-- filename: datadog-scanning-api-openapi.yml
-  format: yaml
-  label: Datadog Scanning API
-  slug: datadog-scanning-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-scanning-api-openapi.yml
 - filename: datadog-schedules-api-openapi.yml
   format: yaml
   label: Datadog Schedules API
@@ -1130,138 +638,18 @@ api_specs:
   slug: datadog-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-search-api-openapi.yml
-- filename: datadog-security-api-openapi.yml
-  format: yaml
-  label: Datadog Security API
-  slug: datadog-security-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-security-api-openapi.yml
-- filename: datadog-send-api-openapi.yml
-  format: yaml
-  label: Datadog Send API
-  slug: datadog-send-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-send-api-openapi.yml
-- filename: datadog-serverless-api-openapi.yml
-  format: yaml
-  label: Datadog Serverless API
-  slug: datadog-serverless-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-serverless-api-openapi.yml
-- filename: datadog-sets-api-openapi.yml
-  format: yaml
-  label: Datadog Sets API
-  slug: datadog-sets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-sets-api-openapi.yml
-- filename: datadog-setting-api-openapi.yml
-  format: yaml
-  label: Datadog Setting API
-  slug: datadog-setting-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-setting-api-openapi.yml
-- filename: datadog-settings-api-openapi.yml
-  format: yaml
-  label: Datadog Settings API
-  slug: datadog-settings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-settings-api-openapi.yml
-- filename: datadog-signal-api-openapi.yml
-  format: yaml
-  label: Datadog Signal API
-  slug: datadog-signal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-signal-api-openapi.yml
-- filename: datadog-single-api-openapi.yml
-  format: yaml
-  label: Datadog Single API
-  slug: datadog-single-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-single-api-openapi.yml
 - filename: datadog-specific-api-openapi.yml
   format: yaml
   label: Datadog Specific API
   slug: datadog-specific-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-specific-api-openapi.yml
-- filename: datadog-standard-api-openapi.yml
-  format: yaml
-  label: Datadog Standard API
-  slug: datadog-standard-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-standard-api-openapi.yml
-- filename: datadog-state-api-openapi.yml
-  format: yaml
-  label: Datadog State API
-  slug: datadog-state-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-state-api-openapi.yml
-- filename: datadog-status-api-openapi.yml
-  format: yaml
-  label: Datadog Status API
-  slug: datadog-status-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-status-api-openapi.yml
-- filename: datadog-submit-api-openapi.yml
-  format: yaml
-  label: Datadog Submit API
-  slug: datadog-submit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-submit-api-openapi.yml
-- filename: datadog-suppression-api-openapi.yml
-  format: yaml
-  label: Datadog Suppression API
-  slug: datadog-suppression-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-suppression-api-openapi.yml
-- filename: datadog-tasks-api-openapi.yml
-  format: yaml
-  label: Datadog Tasks API
-  slug: datadog-tasks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-tasks-api-openapi.yml
 - filename: datadog-teams-api-openapi.yml
   format: yaml
   label: Datadog Teams API
   slug: datadog-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-teams-api-openapi.yml
-- filename: datadog-terraform-api-openapi.yml
-  format: yaml
-  label: Datadog Terraform API
-  slug: datadog-terraform-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-terraform-api-openapi.yml
-- filename: datadog-tests-api-openapi.yml
-  format: yaml
-  label: Datadog Tests API
-  slug: datadog-tests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-tests-api-openapi.yml
-- filename: datadog-type-api-openapi.yml
-  format: yaml
-  label: Datadog Type API
-  slug: datadog-type-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-type-api-openapi.yml
-- filename: datadog-types-api-openapi.yml
-  format: yaml
-  label: Datadog Types API
-  slug: datadog-types-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-types-api-openapi.yml
-- filename: datadog-unarchive-api-openapi.yml
-  format: yaml
-  label: Datadog Unarchive API
-  slug: datadog-unarchive-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-unarchive-api-openapi.yml
-- filename: datadog-unassign-api-openapi.yml
-  format: yaml
-  label: Datadog Unassign API
-  slug: datadog-unassign-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-unassign-api-openapi.yml
 - filename: datadog-update-api-openapi.yml
   format: yaml
   label: Datadog Update API
@@ -1274,60 +662,6 @@ api_specs:
   slug: datadog-upload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-upload-api-openapi.yml
-- filename: datadog-usage-api-openapi.yml
-  format: yaml
-  label: Datadog Usage API
-  slug: datadog-usage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-usage-api-openapi.yml
-- filename: datadog-users-api-openapi.yml
-  format: yaml
-  label: Datadog Users API
-  slug: datadog-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-users-api-openapi.yml
-- filename: datadog-validate-api-openapi.yml
-  format: yaml
-  label: Datadog Validate API
-  slug: datadog-validate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-validate-api-openapi.yml
-- filename: datadog-value-api-openapi.yml
-  format: yaml
-  label: Datadog Value API
-  slug: datadog-value-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-value-api-openapi.yml
-- filename: datadog-versions-api-openapi.yml
-  format: yaml
-  label: Datadog Versions API
-  slug: datadog-versions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-versions-api-openapi.yml
-- filename: datadog-volumes-api-openapi.yml
-  format: yaml
-  label: Datadog Volumes API
-  slug: datadog-volumes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-volumes-api-openapi.yml
-- filename: datadog-vulnerabilities-api-openapi.yml
-  format: yaml
-  label: Datadog Vulnerabilities API
-  slug: datadog-vulnerabilities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-vulnerabilities-api-openapi.yml
-- filename: datadog-webhooks-api-openapi.yml
-  format: yaml
-  label: Datadog Webhooks API
-  slug: datadog-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-webhooks-api-openapi.yml
-- filename: datadog-workflows-api-openapi.yml
-  format: yaml
-  label: Datadog Workflows API
-  slug: datadog-workflows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-workflows-api-openapi.yml
 auth_types:
 - apiKey
 - http

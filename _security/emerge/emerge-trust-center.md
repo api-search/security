@@ -1,17 +1,59 @@
 ---
 api_specs:
-- filename: emerge-public-api-openapi.yml
+- filename: emerge-authentication-api-openapi.yml
   format: yaml
-  label: Emerge Public API (Shipper API)
-  slug: emerge-public-api-shipper-api
+  label: Emerge Authentication API
+  slug: emerge-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-public-api-openapi.yml
-- filename: emerge-carrier-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-authentication-api-openapi.yml
+- filename: emerge-awards-api-openapi.yml
   format: yaml
-  label: Emerge Carrier API
-  slug: emerge-carrier-api
+  label: Emerge Awards API
+  slug: emerge-awards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-carrier-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-awards-api-openapi.yml
+- filename: emerge-network-partners-api-openapi.yml
+  format: yaml
+  label: Emerge Network Partners API
+  slug: emerge-network-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-network-partners-api-openapi.yml
+- filename: emerge-opportunities-api-openapi.yml
+  format: yaml
+  label: Emerge Opportunities API
+  slug: emerge-opportunities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-opportunities-api-openapi.yml
+- filename: emerge-options-api-openapi.yml
+  format: yaml
+  label: Emerge Options API
+  slug: emerge-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-options-api-openapi.yml
+- filename: emerge-shipments-api-openapi.yml
+  format: yaml
+  label: Emerge Shipments API
+  slug: emerge-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-shipments-api-openapi.yml
+- filename: emerge-tender-api-openapi.yml
+  format: yaml
+  label: Emerge Tender API
+  slug: emerge-tender-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-tender-api-openapi.yml
+- filename: emerge-tenders-api-openapi.yml
+  format: yaml
+  label: Emerge Tenders API
+  slug: emerge-tenders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-tenders-api-openapi.yml
+- filename: emerge-webhooks-api-openapi.yml
+  format: yaml
+  label: Emerge Webhooks API
+  slug: emerge-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-webhooks-api-openapi.yml
 certifications: []
 description: ''
 kind: trust-center

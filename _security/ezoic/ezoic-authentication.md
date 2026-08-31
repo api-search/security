@@ -21,18 +21,36 @@ api_specs:
   slug: ezoic-purchases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-purchases-api-openapi.yml
-- filename: ezoic-big-data-analytics-api-openapi.yml
-  format: yaml
-  label: ezoic Big Data Analytics API
-  slug: ezoic-big-data-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-big-data-analytics-api-openapi.yml
 - filename: ezoic-cdn-api-openapi.yml
   format: yaml
   label: ezoic CDN API
   slug: ezoic-cdn-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-cdn-api-openapi.yml
+- filename: ezoic-data-api-openapi.yml
+  format: yaml
+  label: ezoic Data API
+  slug: ezoic-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-data-api-openapi.yml
+- filename: ezoic-filters-api-openapi.yml
+  format: yaml
+  label: ezoic Filters API
+  slug: ezoic-filters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-filters-api-openapi.yml
+- filename: ezoic-reports-api-openapi.yml
+  format: yaml
+  label: ezoic Reports API
+  slug: ezoic-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-reports-api-openapi.yml
+- filename: ezoic-segments-api-openapi.yml
+  format: yaml
+  label: ezoic Segments API
+  slug: ezoic-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-segments-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

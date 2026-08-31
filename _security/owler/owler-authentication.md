@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: owler-enterprise-api-openapi.yml
+- filename: owler-company-premium-api-api-openapi.yml
   format: yaml
-  label: Owler Enterprise API
-  slug: owler-enterprise-api
+  label: Owler Company Premium API
+  slug: owler-company-premium-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/openapi/owler-enterprise-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/openapi/owler-company-premium-api-api-openapi.yml
+- filename: owler-competitor-premium-api-api-openapi.yml
+  format: yaml
+  label: Owler Competitor Premium API
+  slug: owler-competitor-premium-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/openapi/owler-competitor-premium-api-api-openapi.yml
+- filename: owler-feed-api-api-openapi.yml
+  format: yaml
+  label: Owler Feed API
+  slug: owler-feed-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/openapi/owler-feed-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

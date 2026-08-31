@@ -1,29 +1,5 @@
 ---
 api_specs:
-- filename: thordata-scraper-api-openapi.yml
-  format: yaml
-  label: Thordata SERP API
-  slug: thordata-serp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/openapi/thordata-scraper-api-openapi.yml
-- filename: thordata-universal-api-openapi.yml
-  format: yaml
-  label: Thordata Universal Scraping API & Web Unlocker
-  slug: thordata-universal-scraping-api-web-unlocker
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/openapi/thordata-universal-api-openapi.yml
-- filename: thordata-web-scraper-tasks-openapi.yml
-  format: yaml
-  label: Thordata Web Scraper API
-  slug: thordata-web-scraper-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/openapi/thordata-web-scraper-tasks-openapi.yml
-- filename: thordata-public-api-openapi.yml
-  format: yaml
-  label: Thordata Public API
-  slug: thordata-public-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/openapi/thordata-public-api-openapi.yml
 - filename: thordata-locations-api-openapi.yml
   format: yaml
   label: Thordata Locations API
@@ -36,6 +12,54 @@ api_specs:
   slug: thordata-proxy-ip-extract-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/openapi/thordata-proxy-extract-api-openapi.yml
+- filename: thordata-account-api-openapi.yml
+  format: yaml
+  label: Thordata Account API
+  slug: thordata-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/openapi/thordata-account-api-openapi.yml
+- filename: thordata-proxy-api-openapi.yml
+  format: yaml
+  label: Thordata Proxy API
+  slug: thordata-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/openapi/thordata-proxy-api-openapi.yml
+- filename: thordata-proxy-users-api-openapi.yml
+  format: yaml
+  label: Thordata Proxy Users API
+  slug: thordata-proxy-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/openapi/thordata-proxy-users-api-openapi.yml
+- filename: thordata-serp-api-api-openapi.yml
+  format: yaml
+  label: Thordata SERP API
+  slug: thordata-serp-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/openapi/thordata-serp-api-api-openapi.yml
+- filename: thordata-tasks-api-openapi.yml
+  format: yaml
+  label: Thordata Tasks API
+  slug: thordata-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/openapi/thordata-tasks-api-openapi.yml
+- filename: thordata-universal-scraping-api-api-openapi.yml
+  format: yaml
+  label: Thordata Universal Scraping API
+  slug: thordata-universal-scraping-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/openapi/thordata-universal-scraping-api-api-openapi.yml
+- filename: thordata-web-scraper-api-api-openapi.yml
+  format: yaml
+  label: Thordata Web Scraper API
+  slug: thordata-web-scraper-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/openapi/thordata-web-scraper-api-api-openapi.yml
+- filename: thordata-whitelist-api-openapi.yml
+  format: yaml
+  label: Thordata Whitelist API
+  slug: thordata-whitelist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/openapi/thordata-whitelist-api-openapi.yml
 description: ''
 domains:
 - caa: []

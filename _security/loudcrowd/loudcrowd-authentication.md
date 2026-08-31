@@ -2,24 +2,54 @@
 api_key_in:
 - header
 api_specs:
-- filename: loudcrowd-openapi.yml
-  format: yaml
-  label: LoudCrowd Brand API
-  slug: loudcrowd-brand-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-openapi.yml
-- filename: loudcrowd-openapi.yml
+- filename: loudcrowd-attribution-events-api-api-openapi.yml
   format: yaml
   label: LoudCrowd Attribution Events API
-  slug: loudcrowd-attribution-events-api
+  slug: loudcrowd-attribution-events-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-openapi.yml
-- filename: loudcrowd-creator-storefronts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-attribution-events-api-api-openapi.yml
+- filename: loudcrowd-brand-api-api-openapi.yml
   format: yaml
-  label: LoudCrowd Creator Storefronts API
-  slug: loudcrowd-creator-storefronts-api
+  label: LoudCrowd Brand API
+  slug: loudcrowd-brand-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-creator-storefronts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-brand-api-api-openapi.yml
+- filename: loudcrowd-product-data-api-openapi.yml
+  format: yaml
+  label: LoudCrowd Product Data API
+  slug: loudcrowd-product-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-product-data-api-openapi.yml
+- filename: loudcrowd-storefrontambassador-api-openapi.yml
+  format: yaml
+  label: LoudCrowd Storefront Ambassador API
+  slug: loudcrowd-storefrontambassador-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-storefrontambassador-api-openapi.yml
+- filename: loudcrowd-storefrontcollections-api-openapi.yml
+  format: yaml
+  label: LoudCrowd Storefront Collections API
+  slug: loudcrowd-storefrontcollections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-storefrontcollections-api-openapi.yml
+- filename: loudcrowd-storefrontfeeditems-api-openapi.yml
+  format: yaml
+  label: LoudCrowd Storefront Feed Items API
+  slug: loudcrowd-storefrontfeeditems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-storefrontfeeditems-api-openapi.yml
+- filename: loudcrowd-storefrontmediadetails-api-openapi.yml
+  format: yaml
+  label: LoudCrowd Storefront Media Details API
+  slug: loudcrowd-storefrontmediadetails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-storefrontmediadetails-api-openapi.yml
+- filename: loudcrowd-storefrontproductdetails-api-openapi.yml
+  format: yaml
+  label: LoudCrowd Storefront Product Details API
+  slug: loudcrowd-storefrontproductdetails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-storefrontproductdetails-api-openapi.yml
 auth_types:
 - apiKey
 - http

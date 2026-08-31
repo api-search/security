@@ -72,6 +72,12 @@ api_specs:
   slug: e2b-dev-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-webhooks-api-openapi.yml
+- filename: e2b-dev-e2b-sandbox-events-and-webhooks-api-api-openapi.yml
+  format: yaml
+  label: E2B E2B Sandbox Events And Webhooks API
+  slug: e2b-dev-e2b-sandbox-events-and-webhooks-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-e2b-sandbox-events-and-webhooks-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

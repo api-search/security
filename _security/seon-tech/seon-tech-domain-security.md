@@ -36,6 +36,12 @@ api_specs:
   slug: seon-tech-phone-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-phone-api-openapi.yml
+- filename: seon-tech-labels-api-openapi.yml
+  format: yaml
+  label: SEON Labels API
+  slug: seon-tech-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-labels-api-openapi.yml
 description: ''
 domains:
 - caa:

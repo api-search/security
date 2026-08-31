@@ -1,18 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: furiosa-predict-v2.yaml
+- filename: furiosa-health-api-openapi.yml
   format: yaml
-  label: Furiosa Model Server - Predict API (KServe v2)
-  slug: furiosa-server-predict-v2
+  label: FuriosaAI Health API
+  slug: furiosa-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/furiosa/refs/heads/main/openapi/furiosa-predict-v2.yaml
-- filename: furiosa-model-repository-v2.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/furiosa/refs/heads/main/openapi/furiosa-health-api-openapi.yml
+- filename: furiosa-models-api-openapi.yml
   format: yaml
-  label: Furiosa Model Server - Model Repository API
-  slug: furiosa-model-repository-v2
+  label: FuriosaAI Models API
+  slug: furiosa-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/furiosa/refs/heads/main/openapi/furiosa-model-repository-v2.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/furiosa/refs/heads/main/openapi/furiosa-models-api-openapi.yml
+- filename: furiosa-predict-api-api-openapi.yml
+  format: yaml
+  label: FuriosaAI Predict API
+  slug: furiosa-predict-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/furiosa/refs/heads/main/openapi/furiosa-predict-api-api-openapi.yml
+- filename: furiosa-repository-api-openapi.yml
+  format: yaml
+  label: FuriosaAI Repository API
+  slug: furiosa-repository-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/furiosa/refs/heads/main/openapi/furiosa-repository-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

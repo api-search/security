@@ -162,7 +162,7 @@ domains:
   domain: oracle.com
   spf: true
 hosts:
-- cert_expires: Nov 14 23:59:59 2026 GMT
+- cert_expires: Jan 27 23:59:59 2027 GMT
   host: cloud.oracle.com
   hsts: true
   hsts_max_age: 63072000
@@ -185,7 +185,7 @@ slug: oracle-cloud-domain-security
 source_filename: oracle-cloud-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloud.oracle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.oracle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: oracle.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloud.oracle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 27 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.oracle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: oracle.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/security/oracle-cloud-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -194,4 +194,12 @@ tags:
 - Infrastructure-as-a-Service
 - Oracle
 - Platform-as-a-Service
+- Compute
+- Object-Storage
+- Identity-and-Access-Management
+- Database
+- Kubernetes
+- Serverless
+- Monitoring
+- Event-Driven
 ---

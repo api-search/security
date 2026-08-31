@@ -42,18 +42,6 @@ api_specs:
   slug: proompty-topics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/proompty/refs/heads/main/openapi/proompty-topics-api-openapi.yml
-- filename: proompty-uploads-api-openapi.yml
-  format: yaml
-  label: Proompty Uploads API
-  slug: proompty-uploads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/proompty/refs/heads/main/openapi/proompty-uploads-api-openapi.yml
-- filename: proompty-user-api-openapi.yml
-  format: yaml
-  label: Proompty User API
-  slug: proompty-user-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/proompty/refs/heads/main/openapi/proompty-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -164,12 +164,18 @@ api_specs:
   slug: launchdarkly-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-workflows-api-openapi.yml
-- filename: launchdarkly-dev-server-openapi.yml
+- filename: launchdarkly-backup-api-openapi.yml
   format: yaml
-  label: LaunchDarkly Dev Server API
-  slug: launchdarkly-dev-server-api
+  label: LaunchDarkly Backup API
+  slug: launchdarkly-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-dev-server-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-backup-api-openapi.yml
+- filename: launchdarkly-debug-sessions-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Debug Sessions API
+  slug: launchdarkly-debug-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-debug-sessions-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

@@ -1,23 +1,77 @@
 ---
 api_specs:
-- filename: criteo-retail-media-api-openapi.yml
+- filename: criteo-accounts-api-openapi.yml
   format: yaml
-  label: Criteo Retail Media API
-  slug: criteo-retail-media-api
+  label: Criteo Accounts API
+  slug: criteo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-retail-media-api-openapi.yml
-- filename: criteo-marketing-solutions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-accounts-api-openapi.yml
+- filename: criteo-advertiser-api-openapi.yml
   format: yaml
-  label: Criteo Marketing Solutions API
-  slug: criteo-marketing-solutions-api
+  label: Criteo Advertiser API
+  slug: criteo-advertiser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-marketing-solutions-api-openapi.yml
-- filename: criteo-commerce-grid-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-advertiser-api-openapi.yml
+- filename: criteo-analytics-api-openapi.yml
   format: yaml
-  label: Criteo Commerce Grid API
-  slug: criteo-commerce-grid-api
+  label: Criteo Analytics API
+  slug: criteo-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-commerce-grid-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-analytics-api-openapi.yml
+- filename: criteo-audience-api-openapi.yml
+  format: yaml
+  label: Criteo Audience API
+  slug: criteo-audience-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-audience-api-openapi.yml
+- filename: criteo-balance-api-openapi.yml
+  format: yaml
+  label: Criteo Balance API
+  slug: criteo-balance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-balance-api-openapi.yml
+- filename: criteo-billing-api-openapi.yml
+  format: yaml
+  label: Criteo Billing API
+  slug: criteo-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-billing-api-openapi.yml
+- filename: criteo-campaign-api-openapi.yml
+  format: yaml
+  label: Criteo Campaign API
+  slug: criteo-campaign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-campaign-api-openapi.yml
+- filename: criteo-catalog-api-openapi.yml
+  format: yaml
+  label: Criteo Catalog API
+  slug: criteo-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-catalog-api-openapi.yml
+- filename: criteo-creative-api-openapi.yml
+  format: yaml
+  label: Criteo Creative API
+  slug: criteo-creative-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-creative-api-openapi.yml
+- filename: criteo-gateway-api-openapi.yml
+  format: yaml
+  label: Criteo Gateway API
+  slug: criteo-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-gateway-api-openapi.yml
+- filename: criteo-reco-api-openapi.yml
+  format: yaml
+  label: Criteo Reco API
+  slug: criteo-reco-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-reco-api-openapi.yml
+- filename: criteo-segment-api-openapi.yml
+  format: yaml
+  label: Criteo Segment API
+  slug: criteo-segment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-segment-api-openapi.yml
 certifications:
 - SOC 2
 - SOC 2 Type 1

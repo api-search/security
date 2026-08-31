@@ -1,23 +1,29 @@
 ---
 api_specs:
-- filename: apollo-insurance-affiliates.yml
+- filename: apollo-insurance-affiliates-api-openapi.yml
   format: yaml
-  label: APOLLO Affiliates API
-  slug: apollo-affiliates-api
+  label: APOLLO Insurance Affiliates API
+  slug: apollo-insurance-affiliates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/openapi/apollo-insurance-affiliates.yml
-- filename: apollo-insurance-affiliates-legacy.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/openapi/apollo-insurance-affiliates-api-openapi.yml
+- filename: apollo-insurance-api-api-openapi.yml
   format: yaml
-  label: APOLLO Public API - Affiliates
-  slug: apollo-public-api-affiliates
+  label: APOLLO Insurance API
+  slug: apollo-insurance-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/openapi/apollo-insurance-affiliates-legacy.yml
-- filename: apollo-insurance-covertrack.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/openapi/apollo-insurance-api-api-openapi.yml
+- filename: apollo-insurance-compliance-api-openapi.yml
   format: yaml
-  label: APOLLO CoverTrack API
-  slug: apollo-covertrack-api
+  label: APOLLO Insurance Compliance API
+  slug: apollo-insurance-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/openapi/apollo-insurance-covertrack.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/openapi/apollo-insurance-compliance-api-openapi.yml
+- filename: apollo-insurance-quote-api-openapi.yml
+  format: yaml
+  label: APOLLO Insurance Quote API
+  slug: apollo-insurance-quote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/openapi/apollo-insurance-quote-api-openapi.yml
 description: ''
 domains:
 - caa: []

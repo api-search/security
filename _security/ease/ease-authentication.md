@@ -1,18 +1,84 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ease-content-openapi.yml
+- filename: ease-discovery-api-openapi.yml
   format: yaml
-  label: Ease Content & Marketplace API
-  slug: ease-content-marketplace-api
+  label: Ease Discovery API
+  slug: ease-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-content-openapi.yml
-- filename: ease-status-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-discovery-api-openapi.yml
+- filename: ease-events-api-openapi.yml
+  format: yaml
+  label: Ease Events API
+  slug: ease-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-events-api-openapi.yml
+- filename: ease-incidents-api-openapi.yml
+  format: yaml
+  label: Ease Incidents API
+  slug: ease-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-incidents-api-openapi.yml
+- filename: ease-maintenance-api-openapi.yml
+  format: yaml
+  label: Ease Maintenance API
+  slug: ease-maintenance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-maintenance-api-openapi.yml
+- filename: ease-marketplace-api-openapi.yml
+  format: yaml
+  label: Ease Marketplace API
+  slug: ease-marketplace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-marketplace-api-openapi.yml
+- filename: ease-media-api-openapi.yml
+  format: yaml
+  label: Ease Media API
+  slug: ease-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-media-api-openapi.yml
+- filename: ease-oembed-api-openapi.yml
+  format: yaml
+  label: Ease O Embed API
+  slug: ease-oembed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-oembed-api-openapi.yml
+- filename: ease-pages-api-openapi.yml
+  format: yaml
+  label: Ease Pages API
+  slug: ease-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-pages-api-openapi.yml
+- filename: ease-posts-api-openapi.yml
+  format: yaml
+  label: Ease Posts API
+  slug: ease-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-posts-api-openapi.yml
+- filename: ease-search-api-openapi.yml
+  format: yaml
+  label: Ease Search API
+  slug: ease-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-search-api-openapi.yml
+- filename: ease-status-api-openapi.yml
   format: yaml
   label: Ease Status API
   slug: ease-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-status-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-status-api-openapi.yml
+- filename: ease-taxonomy-api-openapi.yml
+  format: yaml
+  label: Ease Taxonomy API
+  slug: ease-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-taxonomy-api-openapi.yml
+- filename: ease-testimonials-api-openapi.yml
+  format: yaml
+  label: Ease Testimonials API
+  slug: ease-testimonials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-testimonials-api-openapi.yml
 auth_types:
 - none
 - http

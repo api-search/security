@@ -97,6 +97,12 @@ api_specs:
   slug: kard-users-webview-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-users-webview-api-openapi.yml
+- filename: kard-api-reference-api-openapi.yml
+  format: yaml
+  label: Kard API Reference API
+  slug: kard-api-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-api-reference-api-openapi.yml
 auth_types:
 - oauth2
 - http-bearer

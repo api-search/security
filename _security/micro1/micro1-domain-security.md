@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: micro1-ai-recruiter-openapi.yml
+- filename: micro1-interview-api-openapi.yml
   format: yaml
-  label: micro1 Public API
-  slug: micro1-public-api
+  label: micro1 Interview API
+  slug: micro1-interview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/openapi/micro1-ai-recruiter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/openapi/micro1-interview-api-openapi.yml
+- filename: micro1-interview-reports-api-openapi.yml
+  format: yaml
+  label: micro1 Interview Reports API
+  slug: micro1-interview-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/openapi/micro1-interview-reports-api-openapi.yml
+- filename: micro1-invite-candidate-api-openapi.yml
+  format: yaml
+  label: micro1 Invite Candidate API
+  slug: micro1-invite-candidate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/openapi/micro1-invite-candidate-api-openapi.yml
+- filename: micro1-job-api-openapi.yml
+  format: yaml
+  label: micro1 Job API
+  slug: micro1-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/openapi/micro1-job-api-openapi.yml
+- filename: micro1-job-applicant-api-openapi.yml
+  format: yaml
+  label: micro1 Job Applicant API
+  slug: micro1-job-applicant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/openapi/micro1-job-applicant-api-openapi.yml
+- filename: micro1-webhook-api-openapi.yml
+  format: yaml
+  label: micro1 Webhook API
+  slug: micro1-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/openapi/micro1-webhook-api-openapi.yml
 description: ''
 domains:
 - caa: []

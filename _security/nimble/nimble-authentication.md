@@ -2,12 +2,6 @@
 api_key_in:
 - header
 api_specs:
-- filename: nimble-openapi-original.yml
-  format: yaml
-  label: Nimble REST API
-  slug: rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/_original/nimble-openapi-original.yml
 - filename: nimble-activities-api-openapi.yml
   format: yaml
   label: Nimble Activities API

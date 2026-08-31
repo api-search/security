@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: replicant-outbound-api-openapi.yml
+- filename: replicant-replicant-api-openapi.yml
   format: yaml
-  label: Replicant Outbound API
-  slug: replicant-outbound-api
+  label: Replicant Replicant API
+  slug: replicant-replicant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/openapi/replicant-outbound-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/openapi/replicant-replicant-api-openapi.yml
 auth_types:
 - http
 description: ''

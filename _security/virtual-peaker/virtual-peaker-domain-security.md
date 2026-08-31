@@ -1,17 +1,53 @@
 ---
 api_specs:
-- filename: virtual-peaker-gravity-connect-device-partner-api-openapi.yml
+- filename: virtual-peaker-commands-api-openapi.yml
   format: yaml
-  label: Gravity Connect API (Device Partner)
-  slug: gravity-connect-device-partner-api
+  label: Virtual Peaker Commands API
+  slug: virtual-peaker-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-gravity-connect-device-partner-api-openapi.yml
-- filename: virtual-peaker-gravity-connect-vpp-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-commands-api-openapi.yml
+- filename: virtual-peaker-devices-api-openapi.yml
   format: yaml
-  label: Gravity Connect API (Virtual Peaker)
-  slug: gravity-connect-vpp-api
+  label: Virtual Peaker Devices API
+  slug: virtual-peaker-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-gravity-connect-vpp-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-devices-api-openapi.yml
+- filename: virtual-peaker-energy-interval-endpoint-api-openapi.yml
+  format: yaml
+  label: Virtual Peaker Energy Interval Endpoint API
+  slug: virtual-peaker-energy-interval-endpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-energy-interval-endpoint-api-openapi.yml
+- filename: virtual-peaker-group-management-api-openapi.yml
+  format: yaml
+  label: Virtual Peaker Group Management API
+  slug: virtual-peaker-group-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-group-management-api-openapi.yml
+- filename: virtual-peaker-oauth-device-discovery-preferred-api-openapi.yml
+  format: yaml
+  label: Virtual Peaker OAuth Device Discovery (Preferred) API
+  slug: virtual-peaker-oauth-device-discovery-preferred-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-oauth-device-discovery-preferred-api-openapi.yml
+- filename: virtual-peaker-pairing-code-device-discovery-end-user-app-api-openapi.yml
+  format: yaml
+  label: Virtual Peaker Pairing Code Device Discovery - End User App API
+  slug: virtual-peaker-pairing-code-device-discovery-end-user-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-pairing-code-device-discovery-end-user-app-api-openapi.yml
+- filename: virtual-peaker-pairing-code-device-discovery-utility-commissioned-installation-api-openapi.yml
+  format: yaml
+  label: Virtual Peaker Pairing Code Device Discovery - Utility Commissioned Installation API
+  slug: virtual-peaker-pairing-code-device-discovery-utility-commissioned-installation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-pairing-code-device-discovery-utility-commissioned-installation-api-openapi.yml
+- filename: virtual-peaker-publishing-api-openapi.yml
+  format: yaml
+  label: Virtual Peaker Publishing API
+  slug: virtual-peaker-publishing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-publishing-api-openapi.yml
 description: ''
 domains:
 - caa: []

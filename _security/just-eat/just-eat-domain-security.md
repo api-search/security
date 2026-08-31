@@ -108,12 +108,6 @@ api_specs:
   slug: just-eat-restaurant-events-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/just-eat/refs/heads/main/openapi/just-eat-restaurant-events-webhooks-api-openapi.yml
-- filename: just-eat-restaurant-ordertimes-api-openapi.yml
-  format: yaml
-  label: Just Eat Restaurant OrderTimes API
-  slug: just-eat-restaurant-ordertimes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/just-eat/refs/heads/main/openapi/just-eat-restaurant-ordertimes-api-openapi.yml
 - filename: just-eat-restaurant-webhooks-api-openapi.yml
   format: yaml
   label: Just Eat Restaurant Webhooks API

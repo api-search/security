@@ -36,18 +36,18 @@ api_specs:
   slug: parallel-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/parallel/refs/heads/main/openapi/parallel-tasks-api-openapi.yml
-- filename: parallel-responses-api-openapi.yml
-  format: yaml
-  label: Parallel Responses API
-  slug: parallel-responses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel/refs/heads/main/openapi/parallel-responses-api-openapi.yml
 - filename: parallel-memory-api-openapi.yml
   format: yaml
   label: Parallel Memory API
   slug: parallel-memory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/parallel/refs/heads/main/openapi/parallel-memory-api-openapi.yml
+- filename: parallel-responses-api-api-openapi.yml
+  format: yaml
+  label: Parallel Responses API
+  slug: parallel-responses-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parallel/refs/heads/main/openapi/parallel-responses-api-api-openapi.yml
 certifications:
 - SOC 2 Type I
 - SOC 2 Type II

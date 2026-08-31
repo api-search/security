@@ -15,8 +15,8 @@ layout: security
 method: probed
 name: Estee Lauder Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for estee-lauder, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC present, SPF absent, DMARC present (p=reject).'
-provider_name: estee-lauder
+overview: 'Domain security posture for Estée Lauder Companies, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC present, SPF absent, DMARC present (p=reject).'
+provider_name: Estée Lauder Companies
 provider_slug: estee-lauder
 slug: estee-lauder-domain-security
 source_filename: estee-lauder-domain-security.yml

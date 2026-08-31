@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: frayt-matches-openapi.yml
+- filename: frayt-match-estimates-api-openapi.yml
   format: yaml
-  label: FRAYT Client API
-  slug: frayt-client-api
+  label: FRAYT match estimates API
+  slug: frayt-match-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frayt/refs/heads/main/openapi/frayt-matches-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/frayt/refs/heads/main/openapi/frayt-match-estimates-api-openapi.yml
+- filename: frayt-matches-api-openapi.yml
+  format: yaml
+  label: FRAYT Matches API
+  slug: frayt-matches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frayt/refs/heads/main/openapi/frayt-matches-api-openapi.yml
+- filename: frayt-oauth-api-openapi.yml
+  format: yaml
+  label: FRAYT OAUTH API
+  slug: frayt-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frayt/refs/heads/main/openapi/frayt-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

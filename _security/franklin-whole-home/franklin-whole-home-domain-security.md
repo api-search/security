@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: franklin-whole-home-openapi.yml
+- filename: franklin-whole-home-authentication-api-openapi.yml
   format: yaml
-  label: FranklinWH API
-  slug: franklinwh-api
+  label: Franklin Whole Home Authentication API
+  slug: franklin-whole-home-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-authentication-api-openapi.yml
+- filename: franklin-whole-home-device-data-api-openapi.yml
+  format: yaml
+  label: Franklin Whole Home Device Data API
+  slug: franklin-whole-home-device-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-device-data-api-openapi.yml
+- filename: franklin-whole-home-devices-api-openapi.yml
+  format: yaml
+  label: Franklin Whole Home Devices API
+  slug: franklin-whole-home-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-devices-api-openapi.yml
+- filename: franklin-whole-home-grid-events-api-openapi.yml
+  format: yaml
+  label: Franklin Whole Home Grid Events API
+  slug: franklin-whole-home-grid-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-grid-events-api-openapi.yml
+- filename: franklin-whole-home-groups-api-openapi.yml
+  format: yaml
+  label: Franklin Whole Home Groups API
+  slug: franklin-whole-home-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-groups-api-openapi.yml
+- filename: franklin-whole-home-modification-records-api-openapi.yml
+  format: yaml
+  label: Franklin Whole Home Modification Records API
+  slug: franklin-whole-home-modification-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-modification-records-api-openapi.yml
+- filename: franklin-whole-home-sites-api-openapi.yml
+  format: yaml
+  label: Franklin Whole Home Sites API
+  slug: franklin-whole-home-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-sites-api-openapi.yml
+- filename: franklin-whole-home-sunrun-api-openapi.yml
+  format: yaml
+  label: Franklin Whole Home Sunrun API
+  slug: franklin-whole-home-sunrun-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-sunrun-api-openapi.yml
+- filename: franklin-whole-home-sunrun-sites-api-openapi.yml
+  format: yaml
+  label: Franklin Whole Home Sunrun Sites API
+  slug: franklin-whole-home-sunrun-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-sunrun-sites-api-openapi.yml
+- filename: franklin-whole-home-sunrun-system-setup-api-openapi.yml
+  format: yaml
+  label: Franklin Whole Home Sunrun System Setup API
+  slug: franklin-whole-home-sunrun-system-setup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-sunrun-system-setup-api-openapi.yml
+- filename: franklin-whole-home-system-settings-api-openapi.yml
+  format: yaml
+  label: Franklin Whole Home System Settings API
+  slug: franklin-whole-home-system-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-system-settings-api-openapi.yml
+- filename: franklin-whole-home-warnings-and-events-api-openapi.yml
+  format: yaml
+  label: Franklin Whole Home Warnings and Events API
+  slug: franklin-whole-home-warnings-and-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-warnings-and-events-api-openapi.yml
 description: ''
 domains:
 - caa: []

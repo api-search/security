@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: lumos-openapi.json
+  format: json
+  label: Lumos REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-openapi.json
 - filename: lumos-accesspolicies-api-openapi.yml
   format: yaml
   label: Lumos AccessPolicies API
@@ -93,12 +99,12 @@ domains:
   domain: lumos.com
   spf: true
 hosts:
-- cert_expires: Sep 11 20:44:01 2026 GMT
+- cert_expires: Nov  9 22:34:19 2026 GMT
   host: www.lumos.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 27 19:52:28 2026 GMT
+- cert_expires: Nov 26 00:25:32 2026 GMT
   host: developers.lumos.com
   hsts: true
   hsts_max_age: 31536000
@@ -121,7 +127,7 @@ slug: lumos-domain-security
 source_filename: lumos-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lumos.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 20:44:01 2026 GMT\n  hsts: false\n- host: developers.lumos.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 19:52:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.lumos.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  1 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: lumos.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lumos.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 22:34:19 2026 GMT\n  hsts: false\n- host: developers.lumos.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 00:25:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.lumos.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  1 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: lumos.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/security/lumos-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

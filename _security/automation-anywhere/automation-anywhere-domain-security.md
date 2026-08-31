@@ -157,8 +157,8 @@ layout: security
 method: probed
 name: Automation Anywhere Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for automation-anywhere, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
-provider_name: automation-anywhere
+overview: 'Domain security posture for Automation Anywhere, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
+provider_name: Automation Anywhere
 provider_slug: automation-anywhere
 slug: automation-anywhere-domain-security
 source_filename: automation-anywhere-domain-security.yml

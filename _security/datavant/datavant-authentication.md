@@ -1,12 +1,54 @@
 ---
 api_key_in: []
 api_specs:
-- filename: datavant-rest-api-openapi.yml
+- filename: datavant-configuration-api-openapi.yml
   format: yaml
-  label: Datavant REST API
-  slug: datavant-rest-api
+  label: Datavant Configuration API
+  slug: datavant-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-configuration-api-openapi.yml
+- filename: datavant-documents-api-openapi.yml
+  format: yaml
+  label: Datavant Documents API
+  slug: datavant-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-documents-api-openapi.yml
+- filename: datavant-oauth2-api-openapi.yml
+  format: yaml
+  label: Datavant Oauth2 API
+  slug: datavant-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-oauth2-api-openapi.yml
+- filename: datavant-order-queries-api-openapi.yml
+  format: yaml
+  label: Datavant Order Queries API
+  slug: datavant-order-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-order-queries-api-openapi.yml
+- filename: datavant-orders-api-openapi.yml
+  format: yaml
+  label: Datavant Orders API
+  slug: datavant-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-orders-api-openapi.yml
+- filename: datavant-prematch-api-openapi.yml
+  format: yaml
+  label: Datavant Prematch API
+  slug: datavant-prematch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-prematch-api-openapi.yml
+- filename: datavant-projects-api-openapi.yml
+  format: yaml
+  label: Datavant Projects API
+  slug: datavant-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-projects-api-openapi.yml
+- filename: datavant-visits-api-openapi.yml
+  format: yaml
+  label: Datavant Visits API
+  slug: datavant-visits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-visits-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect

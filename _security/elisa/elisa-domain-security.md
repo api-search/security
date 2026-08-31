@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: elisa-categories-api-openapi.yml
+  format: yaml
+  label: ELISA Categories API
+  slug: elisa-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/openapi/elisa-categories-api-openapi.yml
+- filename: elisa-doc-api-openapi.yml
+  format: yaml
+  label: ELISA Doc API
+  slug: elisa-doc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/openapi/elisa-doc-api-openapi.yml
+- filename: elisa-events-api-openapi.yml
+  format: yaml
+  label: ELISA Events API
+  slug: elisa-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/openapi/elisa-events-api-openapi.yml
+- filename: elisa-organizers-api-openapi.yml
+  format: yaml
+  label: ELISA Organizers API
+  slug: elisa-organizers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/openapi/elisa-organizers-api-openapi.yml
+- filename: elisa-tags-api-openapi.yml
+  format: yaml
+  label: ELISA Tags API
+  slug: elisa-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/openapi/elisa-tags-api-openapi.yml
+- filename: elisa-venues-api-openapi.yml
+  format: yaml
+  label: ELISA Venues API
+  slug: elisa-venues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/openapi/elisa-venues-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -8,7 +45,7 @@ domains:
   domain: elisa.tech
   spf: true
 hosts:
-- cert_expires: Sep  6 18:54:28 2026 GMT
+- cert_expires: Nov  5 17:59:39 2026 GMT
   host: elisa.tech
   hsts: true
   hsts_max_age: 300
@@ -26,7 +63,7 @@ slug: elisa-domain-security
 source_filename: elisa-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: elisa.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 18:54:28 2026 GMT\n  hsts: true\n  hsts_max_age: 300\ndomains:\n- domain: elisa.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: elisa.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 17:59:39 2026 GMT\n  hsts: true\n  hsts_max_age: 300\ndomains:\n- domain: elisa.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/security/elisa-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -34,4 +71,12 @@ tags:
 - Linux
 - Linux Foundation
 - Safety
+- Functional Safety
+- Open Source
+- Automotive
+- Aerospace
+- Medical Devices
+- Traceability
+- Standards
+- Events
 ---

@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: socure-decision-api-openapi.yml
-  format: yaml
-  label: Socure Decision API
-  slug: socure-decision-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/openapi/socure-decision-api-openapi.yml
-- filename: socure-account-intelligence-api-openapi.yml
-  format: yaml
-  label: Socure Account Intelligence API
-  slug: socure-account-intelligence-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/openapi/socure-account-intelligence-api-openapi.yml
 - filename: socure-alerts-api-openapi.yml
   format: yaml
   label: socure Alerts API

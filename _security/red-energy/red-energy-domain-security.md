@@ -1,23 +1,59 @@
 ---
 api_specs:
-- filename: red-energy-cds-energy-openapi.yml
+- filename: red-energy-data-holder-customers-api-openapi.yml
   format: yaml
-  label: Red Energy CDR Energy Product Reference Data API
-  slug: red-energy-cdr-energy-product-reference-data-api
+  label: Red Energy Data Holder Customers API
+  slug: red-energy-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-cds-energy-openapi.yml
-- filename: red-energy-cds-common-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-data-holder-customers-api-openapi.yml
+- filename: red-energy-data-holder-operations-api-openapi.yml
   format: yaml
-  label: Red Energy CDR Discovery API
-  slug: red-energy-cdr-discovery-api
+  label: Red Energy Data Holder Operations API
+  slug: red-energy-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-cds-common-openapi.yml
-- filename: red-energy-cds-energy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-data-holder-operations-api-openapi.yml
+- filename: red-energy-distributed-energy-resources-api-openapi.yml
   format: yaml
-  label: Red Energy CDR Energy Consumer Data API
-  slug: red-energy-cdr-energy-consumer-data-api
+  label: Red Energy Distributed Energy Resources API
+  slug: red-energy-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-cds-energy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-distributed-energy-resources-api-openapi.yml
+- filename: red-energy-electricity-service-points-api-openapi.yml
+  format: yaml
+  label: Red Energy Electricity Service Points API
+  slug: red-energy-electricity-service-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-electricity-service-points-api-openapi.yml
+- filename: red-energy-electricity-usage-api-openapi.yml
+  format: yaml
+  label: Red Energy Electricity Usage API
+  slug: red-energy-electricity-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-electricity-usage-api-openapi.yml
+- filename: red-energy-energy-account-balances-api-openapi.yml
+  format: yaml
+  label: Red Energy Energy Account Balances API
+  slug: red-energy-energy-account-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-energy-account-balances-api-openapi.yml
+- filename: red-energy-energy-account-billing-api-openapi.yml
+  format: yaml
+  label: Red Energy Energy Account Billing API
+  slug: red-energy-energy-account-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-energy-account-billing-api-openapi.yml
+- filename: red-energy-energy-accounts-api-openapi.yml
+  format: yaml
+  label: Red Energy Energy Accounts API
+  slug: red-energy-energy-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-energy-accounts-api-openapi.yml
+- filename: red-energy-energy-plans-api-openapi.yml
+  format: yaml
+  label: Red Energy Energy Plans API
+  slug: red-energy-energy-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-energy-plans-api-openapi.yml
 description: ''
 domains:
 - caa: []

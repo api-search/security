@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: open-insurance-certificate-of-currency-openapi.json
-  format: json
-  label: Open Certificate of Currency API
-  slug: open-certificate-of-currency-api
+- filename: open-insurance-policy-api-openapi.yml
+  format: yaml
+  label: Open Policy API
+  slug: open-insurance-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/openapi/open-insurance-certificate-of-currency-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/openapi/open-insurance-policy-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,6 +1,13 @@
 ---
 api_key_in:
 - header
+api_specs:
+- filename: alt-bank-underwriting-api-openapi.yml
+  format: yaml
+  label: Alt Bank Underwriting API
+  slug: alt-bank-underwriting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/openapi/alt-bank-underwriting-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,30 +1,210 @@
 ---
 api_key_in: []
 api_specs:
-- filename: obie-opendata-swagger.json
-  format: json
-  label: Bank of Scotland Open Data API
-  slug: bank-of-scotland-open-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/obie-opendata-swagger.json
-- filename: obie-account-info-openapi.yaml
+- filename: bank-of-scotland-account-access-consents-api-openapi.yml
   format: yaml
-  label: Bank of Scotland Account and Transaction Information API (AIS)
-  slug: bank-of-scotland-account-information-api
+  label: Bank of Scotland Account Access Consents API
+  slug: bank-of-scotland-account-access-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/obie-account-info-openapi.yaml
-- filename: obie-payment-initiation-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-account-access-consents-api-openapi.yml
+- filename: bank-of-scotland-accounts-api-openapi.yml
   format: yaml
-  label: Bank of Scotland Payment Initiation API (PIS)
-  slug: bank-of-scotland-payment-initiation-api
+  label: Bank of Scotland Accounts API
+  slug: bank-of-scotland-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/obie-payment-initiation-openapi.yaml
-- filename: obie-confirmation-funds-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-accounts-api-openapi.yml
+- filename: bank-of-scotland-atm-api-openapi.yml
   format: yaml
-  label: Bank of Scotland Confirmation of Funds API (CBPII)
-  slug: bank-of-scotland-confirmation-of-funds-api
+  label: Bank of Scotland ATM API
+  slug: bank-of-scotland-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/obie-confirmation-funds-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-atm-api-openapi.yml
+- filename: bank-of-scotland-balances-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland Balances API
+  slug: bank-of-scotland-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-balances-api-openapi.yml
+- filename: bank-of-scotland-bca-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland BCA API
+  slug: bank-of-scotland-bca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-bca-api-openapi.yml
+- filename: bank-of-scotland-beneficiaries-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland Beneficiaries API
+  slug: bank-of-scotland-beneficiaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-beneficiaries-api-openapi.yml
+- filename: bank-of-scotland-branch-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland Branch API
+  slug: bank-of-scotland-branch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-branch-api-openapi.yml
+- filename: bank-of-scotland-ccc-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland CCC API
+  slug: bank-of-scotland-ccc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-ccc-api-openapi.yml
+- filename: bank-of-scotland-direct-debits-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland Direct Debits API
+  slug: bank-of-scotland-direct-debits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-direct-debits-api-openapi.yml
+- filename: bank-of-scotland-domestic-payment-consents-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland Domestic Payment Consents API
+  slug: bank-of-scotland-domestic-payment-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-domestic-payment-consents-api-openapi.yml
+- filename: bank-of-scotland-domestic-payments-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland Domestic Payments API
+  slug: bank-of-scotland-domestic-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-domestic-payments-api-openapi.yml
+- filename: bank-of-scotland-domestic-scheduled-payment-consents-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland Domestic Scheduled Payment Consents API
+  slug: bank-of-scotland-domestic-scheduled-payment-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-domestic-scheduled-payment-consents-api-openapi.yml
+- filename: bank-of-scotland-domestic-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland Domestic Scheduled Payments API
+  slug: bank-of-scotland-domestic-scheduled-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-domestic-scheduled-payments-api-openapi.yml
+- filename: bank-of-scotland-domestic-standing-order-consents-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland Domestic Standing Order Consents API
+  slug: bank-of-scotland-domestic-standing-order-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-domestic-standing-order-consents-api-openapi.yml
+- filename: bank-of-scotland-domestic-standing-orders-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland Domestic Standing Orders API
+  slug: bank-of-scotland-domestic-standing-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-domestic-standing-orders-api-openapi.yml
+- filename: bank-of-scotland-file-payment-consents-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland File Payment Consents API
+  slug: bank-of-scotland-file-payment-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-file-payment-consents-api-openapi.yml
+- filename: bank-of-scotland-file-payments-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland File Payments API
+  slug: bank-of-scotland-file-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-file-payments-api-openapi.yml
+- filename: bank-of-scotland-funds-confirmation-consents-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland Funds Confirmation Consents API
+  slug: bank-of-scotland-funds-confirmation-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-funds-confirmation-consents-api-openapi.yml
+- filename: bank-of-scotland-funds-confirmations-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland Funds Confirmations API
+  slug: bank-of-scotland-funds-confirmations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-funds-confirmations-api-openapi.yml
+- filename: bank-of-scotland-international-payment-consents-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland International Payment Consents API
+  slug: bank-of-scotland-international-payment-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-international-payment-consents-api-openapi.yml
+- filename: bank-of-scotland-international-payments-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland International Payments API
+  slug: bank-of-scotland-international-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-international-payments-api-openapi.yml
+- filename: bank-of-scotland-international-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland International Scheduled Payments API
+  slug: bank-of-scotland-international-scheduled-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-international-scheduled-payments-api-openapi.yml
+- filename: bank-of-scotland-international-scheduled-payments-consents-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland International Scheduled Payments Consents API
+  slug: bank-of-scotland-international-scheduled-payments-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-international-scheduled-payments-consents-api-openapi.yml
+- filename: bank-of-scotland-international-standing-orders-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland International Standing Orders API
+  slug: bank-of-scotland-international-standing-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-international-standing-orders-api-openapi.yml
+- filename: bank-of-scotland-international-standing-orders-consents-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland International Standing Orders Consents API
+  slug: bank-of-scotland-international-standing-orders-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-international-standing-orders-consents-api-openapi.yml
+- filename: bank-of-scotland-offers-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland Offers API
+  slug: bank-of-scotland-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-offers-api-openapi.yml
+- filename: bank-of-scotland-parties-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland Parties API
+  slug: bank-of-scotland-parties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-parties-api-openapi.yml
+- filename: bank-of-scotland-pca-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland PCA API
+  slug: bank-of-scotland-pca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-pca-api-openapi.yml
+- filename: bank-of-scotland-products-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland Products API
+  slug: bank-of-scotland-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-products-api-openapi.yml
+- filename: bank-of-scotland-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland Scheduled Payments API
+  slug: bank-of-scotland-scheduled-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-scheduled-payments-api-openapi.yml
+- filename: bank-of-scotland-sme-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland SME API
+  slug: bank-of-scotland-sme-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-sme-api-openapi.yml
+- filename: bank-of-scotland-standing-orders-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland Standing Orders API
+  slug: bank-of-scotland-standing-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-standing-orders-api-openapi.yml
+- filename: bank-of-scotland-statements-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland Statements API
+  slug: bank-of-scotland-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-statements-api-openapi.yml
+- filename: bank-of-scotland-transactions-api-openapi.yml
+  format: yaml
+  label: Bank of Scotland Transactions API
+  slug: bank-of-scotland-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/openapi/bank-of-scotland-transactions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

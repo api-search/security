@@ -1,23 +1,11 @@
 ---
 api_specs:
-- filename: imgflip-ai-api-openapi.yml
-  format: yaml
-  label: Imgflip AI API
-  slug: imgflip-ai-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imgflip/refs/heads/main/openapi/imgflip-ai-api-openapi.yml
 - filename: imgflip-memes-api-openapi.yml
   format: yaml
   label: Imgflip Memes API
   slug: imgflip-memes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/imgflip/refs/heads/main/openapi/imgflip-memes-api-openapi.yml
-- filename: imgflip-premium-api-openapi.yml
-  format: yaml
-  label: Imgflip Premium API
-  slug: imgflip-premium-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imgflip/refs/heads/main/openapi/imgflip-premium-api-openapi.yml
 description: ''
 domains:
 - caa:

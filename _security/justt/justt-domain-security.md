@@ -1,23 +1,59 @@
 ---
 api_specs:
-- filename: justt-rest-api-openapi-original.json
-  format: json
-  label: Justt REST API
-  slug: rest-api
+- filename: justt-chargebacks-api-openapi.yml
+  format: yaml
+  label: Justt Chargebacks API
+  slug: justt-chargebacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-rest-api-openapi-original.json
-- filename: justt-pre-chargeback-alerts-openapi-original.json
-  format: json
-  label: Justt Pre-Chargeback Alerts API
-  slug: pre-chargeback-alerts
+  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-chargebacks-api-openapi.yml
+- filename: justt-data-subjects-api-openapi.yml
+  format: yaml
+  label: Justt Data Subjects API
+  slug: justt-data-subjects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-pre-chargeback-alerts-openapi-original.json
-- filename: justt-webhook-events-openapi-original.json
-  format: json
-  label: Justt Webhook Events
-  slug: webhook-events
+  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-data-subjects-api-openapi.yml
+- filename: justt-evidence-api-openapi.yml
+  format: yaml
+  label: Justt Evidence API
+  slug: justt-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/asyncapi/justt-webhook-events-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-evidence-api-openapi.yml
+- filename: justt-files-api-openapi.yml
+  format: yaml
+  label: Justt Files API
+  slug: justt-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-files-api-openapi.yml
+- filename: justt-integrations-api-openapi.yml
+  format: yaml
+  label: Justt Integrations API
+  slug: justt-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-integrations-api-openapi.yml
+- filename: justt-merchants-api-openapi.yml
+  format: yaml
+  label: Justt Merchants API
+  slug: justt-merchants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-merchants-api-openapi.yml
+- filename: justt-pre-chargeback-alerts-api-openapi.yml
+  format: yaml
+  label: Justt Pre-chargeback Alerts API
+  slug: justt-pre-chargeback-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-pre-chargeback-alerts-api-openapi.yml
+- filename: justt-sandbox-api-openapi.yml
+  format: yaml
+  label: Justt Sandbox API
+  slug: justt-sandbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-sandbox-api-openapi.yml
+- filename: justt-transactions-api-openapi.yml
+  format: yaml
+  label: Justt Transactions API
+  slug: justt-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -19,12 +19,30 @@ api_specs:
   slug: fingoal-webhook-configurations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/openapi/fingoal-webhook-configurations-api-openapi.yml
-- filename: fingoal-link-money-api-openapi.yml
+- filename: fingoal-client-management-api-openapi.yml
   format: yaml
-  label: FinGoal Link Money API
-  slug: fingoal-link-money-api
+  label: FinGoal Client Management API
+  slug: fingoal-client-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/openapi/fingoal-link-money-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/openapi/fingoal-client-management-api-openapi.yml
+- filename: fingoal-fastlink-api-openapi.yml
+  format: yaml
+  label: FinGoal Fastlink API
+  slug: fingoal-fastlink-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/openapi/fingoal-fastlink-api-openapi.yml
+- filename: fingoal-oauth-api-openapi.yml
+  format: yaml
+  label: FinGoal OAUTH API
+  slug: fingoal-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/openapi/fingoal-oauth-api-openapi.yml
+- filename: fingoal-webhooks-api-openapi.yml
+  format: yaml
+  label: FinGoal Webhooks API
+  slug: fingoal-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/openapi/fingoal-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

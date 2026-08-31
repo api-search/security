@@ -54,12 +54,6 @@ api_specs:
   slug: newstore-easypostadapterconfig-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-easypostadapterconfig-api-openapi.yml
-- filename: newstore-external-public-api-openapi.yml
-  format: yaml
-  label: Newstore external-public API
-  slug: newstore-external-public-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-external-public-api-openapi.yml
 - filename: newstore-fulfillment-requests-api-openapi.yml
   format: yaml
   label: Newstore fulfillment-requests API

@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: improvado-agent-ask-openapi.json
-  format: json
-  label: Improvado Public Agent Ask API
-  slug: improvado-public-agent-ask-api
+- filename: improvado-ask-api-openapi.yml
+  format: yaml
+  label: Improvado Ask API
+  slug: improvado-ask-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-agent-ask-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-ask-api-openapi.yml
 auth_types:
 - http
 - oauth2

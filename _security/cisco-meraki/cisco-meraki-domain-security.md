@@ -96,30 +96,30 @@ api_specs:
   slug: cisco-meraki-wirelesscontroller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-wirelesscontroller-api-openapi.yml
-- filename: cisco-meraki-secure-connect-deployments-api-openapi.yml
+- filename: cisco-meraki-deployments-api-openapi.yml
   format: yaml
   label: Cisco Meraki Deployments API
-  slug: cisco-meraki-secure-connect-deployments-api
+  slug: cisco-meraki-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-secure-connect-deployments-api-openapi.yml
-- filename: cisco-meraki-secure-connect-firewallapplications-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-deployments-api-openapi.yml
+- filename: cisco-meraki-firewall-applications-api-openapi.yml
   format: yaml
   label: Cisco Meraki Firewall Applications API
-  slug: cisco-meraki-secure-connect-firewallapplications-api
+  slug: cisco-meraki-firewall-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-secure-connect-firewallapplications-api-openapi.yml
-- filename: cisco-meraki-secure-connect-policies-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-firewall-applications-api-openapi.yml
+- filename: cisco-meraki-policies-api-openapi.yml
   format: yaml
   label: Cisco Meraki Policies API
-  slug: cisco-meraki-secure-connect-policies-api
+  slug: cisco-meraki-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-secure-connect-policies-api-openapi.yml
-- filename: cisco-meraki-secure-connect-reports-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-policies-api-openapi.yml
+- filename: cisco-meraki-reports-api-openapi.yml
   format: yaml
   label: Cisco Meraki Reports API
-  slug: cisco-meraki-secure-connect-reports-api
+  slug: cisco-meraki-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-secure-connect-reports-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-reports-api-openapi.yml
 description: ''
 domains:
 - caa:

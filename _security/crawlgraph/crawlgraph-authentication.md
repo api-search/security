@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: crawlgraph-v1-openapi.yml
+- filename: crawlgraph-v1-api-openapi.yml
   format: yaml
-  label: CrawlGraph REST API v1
-  slug: crawlgraph-rest-api-v1
+  label: CrawlGraph V1 API
+  slug: crawlgraph-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/openapi/crawlgraph-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/openapi/crawlgraph-v1-api-openapi.yml
 auth_types:
 - http
 description: ''

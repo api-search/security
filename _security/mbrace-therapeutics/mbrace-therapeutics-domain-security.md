@@ -1,59 +1,59 @@
 ---
 api_specs:
-- filename: mbrace-therapeutics-news-openapi.yml
-  format: yaml
-  label: MBrace Therapeutics News API
-  slug: mbrace-therapeutics-news-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-news-openapi.yml
-- filename: mbrace-therapeutics-people-openapi.yml
-  format: yaml
-  label: MBrace Therapeutics People API
-  slug: mbrace-therapeutics-people-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-people-openapi.yml
-- filename: mbrace-therapeutics-pages-openapi.yml
-  format: yaml
-  label: MBrace Therapeutics Pages API
-  slug: mbrace-therapeutics-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-pages-openapi.yml
-- filename: mbrace-therapeutics-media-openapi.yml
-  format: yaml
-  label: MBrace Therapeutics Media API
-  slug: mbrace-therapeutics-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-media-openapi.yml
-- filename: mbrace-therapeutics-taxonomy-openapi.yml
-  format: yaml
-  label: MBrace Therapeutics Taxonomy API
-  slug: mbrace-therapeutics-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-taxonomy-openapi.yml
-- filename: mbrace-therapeutics-search-openapi.yml
-  format: yaml
-  label: MBrace Therapeutics Search API
-  slug: mbrace-therapeutics-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-search-openapi.yml
-- filename: mbrace-therapeutics-discovery-openapi.yml
+- filename: mbrace-therapeutics-discovery-api-openapi.yml
   format: yaml
   label: MBrace Therapeutics Discovery API
   slug: mbrace-therapeutics-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-discovery-openapi.yml
-- filename: mbrace-therapeutics-users-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-discovery-api-openapi.yml
+- filename: mbrace-therapeutics-media-api-openapi.yml
+  format: yaml
+  label: MBrace Therapeutics Media API
+  slug: mbrace-therapeutics-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-media-api-openapi.yml
+- filename: mbrace-therapeutics-news-api-openapi.yml
+  format: yaml
+  label: MBrace Therapeutics News API
+  slug: mbrace-therapeutics-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-news-api-openapi.yml
+- filename: mbrace-therapeutics-oembed-api-openapi.yml
+  format: yaml
+  label: MBrace Therapeutics Oembed API
+  slug: mbrace-therapeutics-oembed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-oembed-api-openapi.yml
+- filename: mbrace-therapeutics-pages-api-openapi.yml
+  format: yaml
+  label: MBrace Therapeutics Pages API
+  slug: mbrace-therapeutics-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-pages-api-openapi.yml
+- filename: mbrace-therapeutics-people-api-openapi.yml
+  format: yaml
+  label: MBrace Therapeutics People API
+  slug: mbrace-therapeutics-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-people-api-openapi.yml
+- filename: mbrace-therapeutics-search-api-openapi.yml
+  format: yaml
+  label: MBrace Therapeutics Search API
+  slug: mbrace-therapeutics-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-search-api-openapi.yml
+- filename: mbrace-therapeutics-taxonomy-api-openapi.yml
+  format: yaml
+  label: MBrace Therapeutics Taxonomy API
+  slug: mbrace-therapeutics-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-taxonomy-api-openapi.yml
+- filename: mbrace-therapeutics-users-api-openapi.yml
   format: yaml
   label: MBrace Therapeutics Users API
   slug: mbrace-therapeutics-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-users-openapi.yml
-- filename: mbrace-therapeutics-oembed-openapi.yml
-  format: yaml
-  label: MBrace Therapeutics oEmbed API
-  slug: mbrace-therapeutics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-oembed-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

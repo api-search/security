@@ -2,18 +2,126 @@
 api_key_in:
 - header
 api_specs:
-- filename: apievangelist-v1-openapi.yml
+- filename: api-evangelist-account-api-openapi.yml
   format: yaml
-  label: API Evangelist Network API
-  slug: api-evangelist-api
+  label: API Evangelist Account API
+  slug: api-evangelist-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/apievangelist-v1-openapi.yml
-- filename: apievangelist-governance-openapi.json
-  format: json
-  label: API Evangelist Governance & Discovery API
-  slug: api-evangelist-governance
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-account-api-openapi.yml
+- filename: api-evangelist-apis-api-openapi.yml
+  format: yaml
+  label: API Evangelist AP Is API
+  slug: api-evangelist-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/apievangelist-governance-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-apis-api-openapi.yml
+- filename: api-evangelist-areas-api-openapi.yml
+  format: yaml
+  label: API Evangelist Areas API
+  slug: api-evangelist-areas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-areas-api-openapi.yml
+- filename: api-evangelist-building-blocks-api-openapi.yml
+  format: yaml
+  label: API Evangelist Building Blocks API
+  slug: api-evangelist-building-blocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-building-blocks-api-openapi.yml
+- filename: api-evangelist-contact-api-openapi.yml
+  format: yaml
+  label: API Evangelist Contact API
+  slug: api-evangelist-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-contact-api-openapi.yml
+- filename: api-evangelist-discovery-api-openapi.yml
+  format: yaml
+  label: API Evangelist Discovery API
+  slug: api-evangelist-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-discovery-api-openapi.yml
+- filename: api-evangelist-governance-api-openapi.yml
+  format: yaml
+  label: API Evangelist Governance API
+  slug: api-evangelist-governance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-governance-api-openapi.yml
+- filename: api-evangelist-guidance-api-openapi.yml
+  format: yaml
+  label: API Evangelist Guidance API
+  slug: api-evangelist-guidance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-guidance-api-openapi.yml
+- filename: api-evangelist-insights-api-openapi.yml
+  format: yaml
+  label: API Evangelist Insights API
+  slug: api-evangelist-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-insights-api-openapi.yml
+- filename: api-evangelist-media-api-openapi.yml
+  format: yaml
+  label: API Evangelist Media API
+  slug: api-evangelist-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-media-api-openapi.yml
+- filename: api-evangelist-operations-api-openapi.yml
+  format: yaml
+  label: API Evangelist Operations API
+  slug: api-evangelist-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-operations-api-openapi.yml
+- filename: api-evangelist-overview-api-openapi.yml
+  format: yaml
+  label: API Evangelist Overview API
+  slug: api-evangelist-overview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-overview-api-openapi.yml
+- filename: api-evangelist-papers-api-openapi.yml
+  format: yaml
+  label: API Evangelist Papers API
+  slug: api-evangelist-papers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-papers-api-openapi.yml
+- filename: api-evangelist-reference-api-openapi.yml
+  format: yaml
+  label: API Evangelist Reference API
+  slug: api-evangelist-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-reference-api-openapi.yml
+- filename: api-evangelist-services-api-openapi.yml
+  format: yaml
+  label: API Evangelist Services API
+  slug: api-evangelist-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-services-api-openapi.yml
+- filename: api-evangelist-stories-api-openapi.yml
+  format: yaml
+  label: API Evangelist Stories API
+  slug: api-evangelist-stories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-stories-api-openapi.yml
+- filename: api-evangelist-synthesis-api-openapi.yml
+  format: yaml
+  label: API Evangelist Synthesis API
+  slug: api-evangelist-synthesis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-synthesis-api-openapi.yml
+- filename: api-evangelist-tags-api-openapi.yml
+  format: yaml
+  label: API Evangelist Tags API
+  slug: api-evangelist-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-tags-api-openapi.yml
+- filename: api-evangelist-timelines-api-openapi.yml
+  format: yaml
+  label: API Evangelist Timelines API
+  slug: api-evangelist-timelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-timelines-api-openapi.yml
+- filename: api-evangelist-toolbox-api-openapi.yml
+  format: yaml
+  label: API Evangelist Toolbox API
+  slug: api-evangelist-toolbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-toolbox-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

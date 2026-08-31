@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: jodo-integrations-openapi.yml
-  format: yaml
-  label: Jodo ERP Integrations API
-  slug: jodo-erp-integrations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/openapi/jodo-integrations-openapi.yml
 - filename: jodo-webhooks-asyncapi.yml
   format: yaml
   label: Jodo Webhooks
   slug: jodo-webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/asyncapi/jodo-webhooks-asyncapi.yml
+- filename: jodo-configuration-api-openapi.yml
+  format: yaml
+  label: Jodo Configuration API
+  slug: jodo-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/openapi/jodo-configuration-api-openapi.yml
+- filename: jodo-flex-api-openapi.yml
+  format: yaml
+  label: Jodo Flex API
+  slug: jodo-flex-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/openapi/jodo-flex-api-openapi.yml
+- filename: jodo-pay-api-openapi.yml
+  format: yaml
+  label: Jodo Pay API
+  slug: jodo-pay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/openapi/jodo-pay-api-openapi.yml
+- filename: jodo-students-api-openapi.yml
+  format: yaml
+  label: Jodo Students API
+  slug: jodo-students-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/openapi/jodo-students-api-openapi.yml
+- filename: jodo-users-api-openapi.yml
+  format: yaml
+  label: Jodo Users API
+  slug: jodo-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/openapi/jodo-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -32,6 +32,12 @@ api_specs:
   slug: leadgenius-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-usage-api-openapi.yml
+- filename: leadgenius-leadgenius-enrichment-api-api-openapi.yml
+  format: yaml
+  label: LeadGenius LeadGenius Enrichment API
+  slug: leadgenius-leadgenius-enrichment-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-leadgenius-enrichment-api-api-openapi.yml
 auth_types:
 - apiKey
 description: LeadGenius authenticates every API request with a single account API key sent in the Authorization header using the `Token` scheme. There is no OAuth, no OpenID Connect, no scope surface and no per-request signing. Derived from the captured OpenAPI securitySchemes and upgraded from the published authentication section of the API reference.

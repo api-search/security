@@ -1,23 +1,47 @@
 ---
 api_specs:
-- filename: northbeam-orders-v2-openapi.yml
+- filename: northbeam-attribution-models-api-openapi.yml
   format: yaml
-  label: Northbeam Orders API
-  slug: orders-api
+  label: Northbeam Attribution Models API
+  slug: northbeam-attribution-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-orders-v2-openapi.yml
-- filename: northbeam-spend-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-attribution-models-api-openapi.yml
+- filename: northbeam-breakdowns-api-openapi.yml
   format: yaml
-  label: Northbeam Spend API
-  slug: spend-api
+  label: Northbeam Breakdowns API
+  slug: northbeam-breakdowns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-spend-v1-openapi.yml
-- filename: northbeam-data-export-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-breakdowns-api-openapi.yml
+- filename: northbeam-data-export-api-openapi.yml
   format: yaml
   label: Northbeam Data Export API
-  slug: data-export-api
+  slug: northbeam-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-data-export-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-data-export-api-openapi.yml
+- filename: northbeam-metrics-api-openapi.yml
+  format: yaml
+  label: Northbeam Metrics API
+  slug: northbeam-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-metrics-api-openapi.yml
+- filename: northbeam-orders-api-openapi.yml
+  format: yaml
+  label: Northbeam Orders API
+  slug: northbeam-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-orders-api-openapi.yml
+- filename: northbeam-spend-api-openapi.yml
+  format: yaml
+  label: Northbeam Spend API
+  slug: northbeam-spend-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-spend-api-openapi.yml
+- filename: northbeam-spend-hourly-api-openapi.yml
+  format: yaml
+  label: Northbeam Spend Hourly API
+  slug: northbeam-spend-hourly-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-spend-hourly-api-openapi.yml
 description: ''
 domains:
 - caa: []

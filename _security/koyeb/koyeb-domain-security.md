@@ -252,6 +252,18 @@ api_specs:
   slug: koyeb-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-users-api-openapi.yml
+- filename: koyeb-instancesnapshots-api-openapi.yml
+  format: yaml
+  label: Koyeb Instance Snapshots API
+  slug: koyeb-instancesnapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-instancesnapshots-api-openapi.yml
+- filename: koyeb-test-api-openapi.yml
+  format: yaml
+  label: Koyeb Test API
+  slug: koyeb-test-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-test-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: inrupt-notification-openapi.yaml
+- filename: inrupt-discovery-api-openapi.yml
   format: yaml
-  label: Inrupt Change Notifications API (ESS Notification Delivery Service)
-  slug: notification-delivery
+  label: Inrupt Discovery API
+  slug: inrupt-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/openapi/inrupt-notification-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/openapi/inrupt-discovery-api-openapi.yml
+- filename: inrupt-jsonkeys-api-openapi.yml
+  format: yaml
+  label: Inrupt Jsonkeys API
+  slug: inrupt-jsonkeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/openapi/inrupt-jsonkeys-api-openapi.yml
+- filename: inrupt-subscription-api-openapi.yml
+  format: yaml
+  label: Inrupt Subscription API
+  slug: inrupt-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/openapi/inrupt-subscription-api-openapi.yml
 auth_types:
 - openIdConnect
 - oauth2

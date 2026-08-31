@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: amobee-services-openapi.json
-  format: json
-  label: Amobee Services Gateway API
-  slug: amobee-services-gateway-api
+- filename: amobee-env-vars-test-controller-api-openapi.yml
+  format: yaml
+  label: Amobee Env Vars Test Controller API
+  slug: amobee-env-vars-test-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/openapi/amobee-services-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/openapi/amobee-env-vars-test-controller-api-openapi.yml
+- filename: amobee-gateway-swagger-controller-api-openapi.yml
+  format: yaml
+  label: Amobee Gateway Swagger Controller API
+  slug: amobee-gateway-swagger-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/openapi/amobee-gateway-swagger-controller-api-openapi.yml
+- filename: amobee-health-check-api-openapi.yml
+  format: yaml
+  label: Amobee Health Check API
+  slug: amobee-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/openapi/amobee-health-check-api-openapi.yml
+- filename: amobee-ip-controller-api-openapi.yml
+  format: yaml
+  label: Amobee Ip Controller API
+  slug: amobee-ip-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/openapi/amobee-ip-controller-api-openapi.yml
+- filename: amobee-tcf-disclosure-controller-api-openapi.yml
+  format: yaml
+  label: Amobee Tcf Disclosure Controller API
+  slug: amobee-tcf-disclosure-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/openapi/amobee-tcf-disclosure-controller-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

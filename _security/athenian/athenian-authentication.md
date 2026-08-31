@@ -8,12 +8,6 @@ api_specs:
   slug: athenian-align-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-align-api-openapi.yml
-- filename: athenian-default-api-openapi.yml
-  format: yaml
-  label: Athenian default API
-  slug: athenian-default-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/openapi/athenian-default-api-openapi.yml
 - filename: athenian-events-api-openapi.yml
   format: yaml
   label: Athenian events API

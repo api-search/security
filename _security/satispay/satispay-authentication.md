@@ -2,24 +2,36 @@
 api_key_in:
 - header
 api_specs:
-- filename: satispay-gbusiness-api.json
-  format: json
-  label: Satispay GBusiness API
-  slug: satispay-gbusiness-api
+- filename: satispay-authentication-keys-api-openapi.yml
+  format: yaml
+  label: Satispay Authentication Keys API
+  slug: satispay-authentication-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/openapi/satispay-gbusiness-api.json
-- filename: satispay-production.json
-  format: json
-  label: Satispay GBusiness API (production surface)
-  slug: satispay-gbusiness-production
+  url: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/openapi/satispay-authentication-keys-api-openapi.yml
+- filename: satispay-g-business-api-openapi.yml
+  format: yaml
+  label: Satispay G Business API
+  slug: satispay-g-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/openapi/satispay-production.json
-- filename: satispay-sandbox.json
-  format: json
-  label: Satispay GBusiness API (sandbox)
-  slug: satispay-gbusiness-sandbox
+  url: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/openapi/satispay-g-business-api-openapi.yml
+- filename: satispay-payments-api-openapi.yml
+  format: yaml
+  label: Satispay Payments API
+  slug: satispay-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/openapi/satispay-sandbox.json
+  url: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/openapi/satispay-payments-api-openapi.yml
+- filename: satispay-reports-api-openapi.yml
+  format: yaml
+  label: Satispay Reports API
+  slug: satispay-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/openapi/satispay-reports-api-openapi.yml
+- filename: satispay-wally-services-api-openapi.yml
+  format: yaml
+  label: Satispay Wally Services API
+  slug: satispay-wally-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/openapi/satispay-wally-services-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

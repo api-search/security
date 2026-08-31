@@ -2810,6 +2810,12 @@ api_specs:
   slug: engineering-platform-zones-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/engineering-platform/refs/heads/main/openapi/engineering-platform-zones-api-openapi.yml
+- filename: engineering-platform-apis-io-engineering-platform-github-v3-rest-api-api-openapi.yml
+  format: yaml
+  label: APIs.io Engineering Platform APIs.io Engineering Platform GitHub V3 REST API
+  slug: engineering-platform-apis-io-engineering-platform-github-v3-rest-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/engineering-platform/refs/heads/main/openapi/engineering-platform-apis-io-engineering-platform-github-v3-rest-api-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -15,8 +15,8 @@ layout: security
 method: probed
 name: Edward Jones Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for edward-jones, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=reject).'
-provider_name: edward-jones
+overview: 'Domain security posture for Edward Jones, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=reject).'
+provider_name: Edward Jones
 provider_slug: edward-jones
 slug: edward-jones-domain-security
 source_filename: edward-jones-domain-security.yml

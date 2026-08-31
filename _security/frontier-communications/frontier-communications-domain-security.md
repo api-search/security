@@ -16,8 +16,8 @@ layout: security
 method: probed
 name: Frontier Communications Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for frontier-communications, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: frontier-communications
+overview: 'Domain security posture for Frontier Communications, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Frontier Communications
 provider_slug: frontier-communications
 slug: frontier-communications-domain-security
 source_filename: frontier-communications-domain-security.yml

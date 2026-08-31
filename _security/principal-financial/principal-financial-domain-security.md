@@ -16,8 +16,8 @@ layout: security
 method: probed
 name: Principal Financial Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for principal-financial, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: principal-financial
+overview: 'Domain security posture for Principal Financial Group, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: Principal Financial Group
 provider_slug: principal-financial
 slug: principal-financial-domain-security
 source_filename: principal-financial-domain-security.yml

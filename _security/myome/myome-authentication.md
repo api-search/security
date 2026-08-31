@@ -1,12 +1,24 @@
 ---
 api_key_in: []
 api_specs:
-- filename: myome-openapi.json
-  format: json
-  label: MyOme API
-  slug: myome-api
+- filename: myome-institutional-interface-api-openapi.yml
+  format: yaml
+  label: MyOme Institutional Interface API
+  slug: myome-institutional-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myome/refs/heads/main/openapi/myome-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/myome/refs/heads/main/openapi/myome-institutional-interface-api-openapi.yml
+- filename: myome-requisitions-and-orders-api-openapi.yml
+  format: yaml
+  label: MyOme Requisitions and Orders API
+  slug: myome-requisitions-and-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/myome/refs/heads/main/openapi/myome-requisitions-and-orders-api-openapi.yml
+- filename: myome-resources-api-openapi.yml
+  format: yaml
+  label: MyOme Resources API
+  slug: myome-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/myome/refs/heads/main/openapi/myome-resources-api-openapi.yml
 auth_types:
 - http
 description: ''

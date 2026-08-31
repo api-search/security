@@ -1,12 +1,36 @@
 ---
 api_key_in: []
 api_specs:
-- filename: icontainers-brutus-openapi.yml
+- filename: icontainers-bookings-api-openapi.yml
   format: yaml
-  label: iContainers Brutus API
-  slug: icontainers-brutus-api
+  label: iContainers Bookings API
+  slug: icontainers-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-brutus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-bookings-api-openapi.yml
+- filename: icontainers-documents-api-openapi.yml
+  format: yaml
+  label: iContainers Documents API
+  slug: icontainers-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-documents-api-openapi.yml
+- filename: icontainers-places-api-openapi.yml
+  format: yaml
+  label: iContainers Places API
+  slug: icontainers-places-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-places-api-openapi.yml
+- filename: icontainers-quotes-api-openapi.yml
+  format: yaml
+  label: iContainers Quotes API
+  slug: icontainers-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-quotes-api-openapi.yml
+- filename: icontainers-rates-api-openapi.yml
+  format: yaml
+  label: iContainers Rates API
+  slug: icontainers-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-rates-api-openapi.yml
 auth_types:
 - http
 description: ''

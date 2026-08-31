@@ -1,12 +1,6 @@
 ---
 api_key_in: []
 api_specs:
-- filename: newcastle-permanent-accounts-api-openapi.yml
-  format: yaml
-  label: Newcastle Permanent Building Society Accounts API
-  slug: newcastle-permanent-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-accounts-api-openapi.yml
 - filename: newcastle-permanent-banking-account-balances-api-openapi.yml
   format: yaml
   label: Newcastle Permanent Building Society Banking Account Balances API
@@ -61,30 +55,6 @@ api_specs:
   slug: newcastle-permanent-common-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-common-api-openapi.yml
-- filename: newcastle-permanent-customer-api-openapi.yml
-  format: yaml
-  label: Newcastle Permanent Building Society Customer API
-  slug: newcastle-permanent-customer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-customer-api-openapi.yml
-- filename: newcastle-permanent-direct-debits-api-openapi.yml
-  format: yaml
-  label: Newcastle Permanent Building Society Direct Debits API
-  slug: newcastle-permanent-direct-debits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-direct-debits-api-openapi.yml
-- filename: newcastle-permanent-payees-api-openapi.yml
-  format: yaml
-  label: Newcastle Permanent Building Society Payees API
-  slug: newcastle-permanent-payees-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-payees-api-openapi.yml
-- filename: newcastle-permanent-scheduled-payments-api-openapi.yml
-  format: yaml
-  label: Newcastle Permanent Building Society Scheduled Payments API
-  slug: newcastle-permanent-scheduled-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-scheduled-payments-api-openapi.yml
 auth_types:
 - none
 - oauth2

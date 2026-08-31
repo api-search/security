@@ -2,12 +2,30 @@
 api_key_in:
 - header
 api_specs:
-- filename: skipodds-openapi.yml
+- filename: skipodds-alerts-api-openapi.yml
   format: yaml
-  label: SkipOdds REST API
-  slug: skipodds-rest-api
+  label: SkipOdds Alerts API
+  slug: skipodds-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/openapi/skipodds-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/openapi/skipodds-alerts-api-openapi.yml
+- filename: skipodds-fixtures-api-openapi.yml
+  format: yaml
+  label: SkipOdds Fixtures API
+  slug: skipodds-fixtures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/openapi/skipodds-fixtures-api-openapi.yml
+- filename: skipodds-golf-api-openapi.yml
+  format: yaml
+  label: SkipOdds Golf API
+  slug: skipodds-golf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/openapi/skipodds-golf-api-openapi.yml
+- filename: skipodds-outrights-api-openapi.yml
+  format: yaml
+  label: SkipOdds Outrights API
+  slug: skipodds-outrights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/openapi/skipodds-outrights-api-openapi.yml
 auth_types:
 - apiKey
 - http

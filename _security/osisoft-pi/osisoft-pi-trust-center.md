@@ -54,8 +54,8 @@ kind: trust-center
 layout: security
 name: Osisoft Pi Trust Center
 name_suffix: Trust Center
-overview: osisoft-pi maintains a public trust center covering its security and compliance posture.
-provider_name: osisoft-pi
+overview: OSIsoft PI System maintains a public trust center covering its security and compliance posture.
+provider_name: OSIsoft PI System
 provider_slug: osisoft-pi
 slug: osisoft-pi-trust-center
 source_filename: osisoft-pi-trust-center.yml

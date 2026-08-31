@@ -210,12 +210,54 @@ api_specs:
   slug: netlify-x-internal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-x-internal-api-openapi.yml
+- filename: netlify-agentrunner-api-openapi.yml
+  format: yaml
+  label: Netlify Agent Runner API
+  slug: netlify-agentrunner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-agentrunner-api-openapi.yml
+- filename: netlify-agentrunnerhook-api-openapi.yml
+  format: yaml
+  label: Netlify Agent Runner Hook API
+  slug: netlify-agentrunnerhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-agentrunnerhook-api-openapi.yml
+- filename: netlify-agentrunnersession-api-openapi.yml
+  format: yaml
+  label: Netlify Agent Runner Session API
+  slug: netlify-agentrunnersession-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-agentrunnersession-api-openapi.yml
+- filename: netlify-aigateway-api-openapi.yml
+  format: yaml
+  label: Netlify AI Gateway API
+  slug: netlify-aigateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-aigateway-api-openapi.yml
+- filename: netlify-database-api-openapi.yml
+  format: yaml
+  label: Netlify Database API
+  slug: netlify-database-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-database-api-openapi.yml
+- filename: netlify-edgefunction-api-openapi.yml
+  format: yaml
+  label: Netlify Edge Function API
+  slug: netlify-edgefunction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-edgefunction-api-openapi.yml
+- filename: netlify-service-api-openapi.yml
+  format: yaml
+  label: Netlify Service API
+  slug: netlify-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-service-api-openapi.yml
 description: ''
 domains:
 - caa:
-  - 128 issue "digicert.com;account=2d83e9ac9b6776c3f215150f6ebceea8cefe3bc2e1fb5efffb1d71e200575226"
   - 128 issue "amazon.com"
   - 128 iodef "mailto:security@netlify.com"
+  - 128 issue "digicert.com;account=2d83e9ac9b6776c3f215150f6ebceea8cefe3bc2e1fb5efffb1d71e200575226"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
@@ -251,7 +293,7 @@ slug: netlify-domain-security
 source_filename: netlify-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: app.netlify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.netlify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.netlify.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: netlify.com\n  dnssec: false\n  caa:\n  - 128 issue \"digicert.com;account=2d83e9ac9b6776c3f215150f6ebceea8cefe3bc2e1fb5efffb1d71e200575226\"\n  - 128 issue \"amazon.com\"\n  - 128 iodef \"mailto:security@netlify.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: app.netlify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.netlify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.netlify.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: netlify.com\n  dnssec: false\n  caa:\n  - 128 issue \"amazon.com\"\n  - 128 iodef \"mailto:security@netlify.com\"\n  - 128 issue \"digicert.com;account=2d83e9ac9b6776c3f215150f6ebceea8cefe3bc2e1fb5efffb1d71e200575226\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/security/netlify-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

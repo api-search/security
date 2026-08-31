@@ -276,6 +276,18 @@ api_specs:
   slug: lob-zip-lookups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lob/refs/heads/main/openapi/lob-zip-lookups-api-openapi.yml
+- filename: lob-events-api-openapi.yml
+  format: yaml
+  label: Lob Events API
+  slug: lob-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lob/refs/heads/main/openapi/lob-events-api-openapi.yml
+- filename: lob-tracking-events-api-openapi.yml
+  format: yaml
+  label: Lob Tracking Events API
+  slug: lob-tracking-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lob/refs/heads/main/openapi/lob-tracking-events-api-openapi.yml
 description: ''
 domains:
 - caa:

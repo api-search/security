@@ -12,6 +12,12 @@ api_specs:
   slug: payhip-license-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/payhip/refs/heads/main/openapi/payhip-license-keys-api-openapi.yml
+- filename: payhip-payhip-api-api-openapi.yml
+  format: yaml
+  label: Payhip Payhip API
+  slug: payhip-payhip-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payhip/refs/heads/main/openapi/payhip-payhip-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

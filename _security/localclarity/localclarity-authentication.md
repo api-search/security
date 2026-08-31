@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: localclarity-openapi.yml
+- filename: localclarity-endpoints-api-openapi.yml
   format: yaml
-  label: LocalClarity REST API
-  slug: localclarity-rest-api
+  label: LocalClarity Endpoints API
+  slug: localclarity-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/openapi/localclarity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/openapi/localclarity-endpoints-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

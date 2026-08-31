@@ -120,8 +120,8 @@ method: derived
 name: Token Io Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: token-io secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: token-io
+overview: Token.io secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Token.io
 provider_slug: token-io
 scheme_count: 2
 schemes:

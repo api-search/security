@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: lse-moodle-lti-platform-openapi.yml
+- filename: lse-lti-api-openapi.yml
   format: yaml
-  label: LSE Moodle LTI 1.3 Platform
-  slug: moodle-lti-platform
+  label: London School of Economics and Political Science LTI API
+  slug: lse-lti-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/openapi/lse-moodle-lti-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/openapi/lse-lti-api-openapi.yml
 auth_types: []
 description: How authentication actually works across LSE's programmable surfaces, split by who operates each one. LSE operates its own SAML2 identity provider and its own LTI 1.3 platform; everything else affiliated with the institution authenticates against a vendor's platform under an LSE tenancy.
 kind: authentication

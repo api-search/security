@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: rotessa-openapi.yml
+- filename: rotessa-customers-api-openapi.yml
   format: yaml
-  label: Rotessa API
-  slug: rotessa-openapi
+  label: Rotessa Customers API
+  slug: rotessa-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/rotessa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/rotessa-customers-api-openapi.yml
+- filename: rotessa-transaction-schedules-api-openapi.yml
+  format: yaml
+  label: Rotessa Transaction Schedules API
+  slug: rotessa-transaction-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/rotessa-transaction-schedules-api-openapi.yml
+- filename: rotessa-transaction-report-api-openapi.yml
+  format: yaml
+  label: Rotessa Transaction Report API
+  slug: rotessa-transaction-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/rotessa-transaction-report-api-openapi.yml
+- filename: rotessa-customers-api-openapi.yml
+  format: yaml
+  label: Rotessa Customers API
+  slug: rotessa-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/rotessa-customers-api-openapi.yml
+- filename: rotessa-transaction-report-api-openapi.yml
+  format: yaml
+  label: Rotessa Transaction Report API
+  slug: rotessa-transaction-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/rotessa-transaction-report-api-openapi.yml
+- filename: rotessa-transaction-schedules-api-openapi.yml
+  format: yaml
+  label: Rotessa Transaction Schedules API
+  slug: rotessa-transaction-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/rotessa-transaction-schedules-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

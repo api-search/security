@@ -92,6 +92,48 @@ api_specs:
   slug: setlist-fm-1-0-venue-venueid-setlists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-venue-venueid-setlists-api-openapi.yml
+- filename: setlist-fm-artists-api-openapi.yml
+  format: yaml
+  label: setlist.fm Artists API
+  slug: setlist-fm-artists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-artists-api-openapi.yml
+- filename: setlist-fm-cities-api-openapi.yml
+  format: yaml
+  label: setlist.fm Cities API
+  slug: setlist-fm-cities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-cities-api-openapi.yml
+- filename: setlist-fm-countries-api-openapi.yml
+  format: yaml
+  label: setlist.fm Countries API
+  slug: setlist-fm-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-countries-api-openapi.yml
+- filename: setlist-fm-search-api-openapi.yml
+  format: yaml
+  label: setlist.fm Search API
+  slug: setlist-fm-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-search-api-openapi.yml
+- filename: setlist-fm-setlists-api-openapi.yml
+  format: yaml
+  label: setlist.fm Setlists API
+  slug: setlist-fm-setlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-setlists-api-openapi.yml
+- filename: setlist-fm-user-api-openapi.yml
+  format: yaml
+  label: setlist.fm User API
+  slug: setlist-fm-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-user-api-openapi.yml
+- filename: setlist-fm-venues-api-openapi.yml
+  format: yaml
+  label: setlist.fm Venues API
+  slug: setlist-fm-venues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-venues-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

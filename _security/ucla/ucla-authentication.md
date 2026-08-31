@@ -1,48 +1,60 @@
 ---
 api_key_in: []
 api_specs:
-- filename: ucla-sis-classes-openapi.yml
+- filename: ucla-class-sections-api-openapi.yml
   format: yaml
-  label: UCLA Classes API
-  slug: sis-classes
+  label: University of California, Los Angeles Class Sections API
+  slug: ucla-class-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-sis-classes-openapi.yml
-- filename: ucla-sis-courses-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-class-sections-api-openapi.yml
+- filename: ucla-classes-api-openapi.yml
   format: yaml
-  label: UCLA Courses API
-  slug: sis-courses
+  label: University of California, Los Angeles Classes API
+  slug: ucla-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-sis-courses-openapi.yml
-- filename: ucla-sis-dictionary-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-classes-api-openapi.yml
+- filename: ucla-courses-api-openapi.yml
   format: yaml
-  label: UCLA Registrar Dictionary API
-  slug: sis-dictionary
+  label: University of California, Los Angeles Courses API
+  slug: ucla-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-sis-dictionary-openapi.yml
-- filename: ucla-sis-production-calendar-jobs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-courses-api-openapi.yml
+- filename: ucla-dictionary-api-openapi.yml
   format: yaml
-  label: UCLA Production Calendar Jobs API
-  slug: sis-production-calendar-jobs
+  label: University of California, Los Angeles Dictionary API
+  slug: ucla-dictionary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-sis-production-calendar-jobs-openapi.yml
-- filename: ucla-sis-verify-connectivity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-dictionary-api-openapi.yml
+- filename: ucla-ge-foundations-api-openapi.yml
   format: yaml
-  label: UCLA Verify Connectivity to SIS API
-  slug: sis-verify-connectivity
+  label: University of California, Los Angeles GE Foundations API
+  slug: ucla-ge-foundations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-sis-verify-connectivity-openapi.yml
-- filename: ucla-myucla-menu-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-ge-foundations-api-openapi.yml
+- filename: ucla-infrastructure-api-openapi.yml
   format: yaml
-  label: MyUCLA Menu Data API
-  slug: myucla-menu-data
+  label: University of California, Los Angeles Infrastructure API
+  slug: ucla-infrastructure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-myucla-menu-data-openapi.yml
-- filename: ucla-weather-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-infrastructure-api-openapi.yml
+- filename: ucla-myucla-api-openapi.yml
   format: yaml
-  label: UCLA Weather API
-  slug: weather
+  label: University of California, Los Angeles My UCLA API
+  slug: ucla-myucla-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-weather-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-myucla-api-openapi.yml
+- filename: ucla-production-calendar-jobs-api-openapi.yml
+  format: yaml
+  label: University of California, Los Angeles Production Calendar Jobs API
+  slug: ucla-production-calendar-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-production-calendar-jobs-api-openapi.yml
+- filename: ucla-weather-api-openapi.yml
+  format: yaml
+  label: University of California, Los Angeles Weather API
+  slug: ucla-weather-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-weather-api-openapi.yml
 auth_types: []
 description: 'Authentication posture across every UCLA surface reachable from the open internet. UCLA is unusual for this cohort: it runs a real, centrally governed API program with one gateway, one documented credential model and one authorization server, all under ucla.edu. What it does not run is a self-service path — every credential is issued by request through the developer portal, and the portal itself signs in through the campus Shibboleth IdP.'
 kind: authentication

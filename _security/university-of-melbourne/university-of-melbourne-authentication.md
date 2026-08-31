@@ -1,24 +1,30 @@
 ---
 api_key_in: []
 api_specs:
-- filename: university-of-melbourne-sudo-geonode-openapi.yml
+- filename: university-of-melbourne-core-api-openapi.yml
   format: yaml
-  label: Spatial Urban Data Observatory (SUDO) API
-  slug: sudo-spatial-urban-data-observatory
+  label: University of Melbourne Core API
+  slug: university-of-melbourne-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-sudo-geonode-openapi.yml
-- filename: university-of-melbourne-minerva-access-dspace-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-core-api-openapi.yml
+- filename: university-of-melbourne-datasets-api-openapi.yml
   format: yaml
-  label: Minerva Access Repository REST API (DSpace 7.6)
-  slug: minerva-access-rest
+  label: University of Melbourne Datasets API
+  slug: university-of-melbourne-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-minerva-access-dspace-openapi.yml
-- filename: university-of-melbourne-minerva-access-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-datasets-api-openapi.yml
+- filename: university-of-melbourne-discovery-api-openapi.yml
   format: yaml
-  label: Minerva Access OAI-PMH 2.0 Endpoint
-  slug: minerva-access-oai-pmh
+  label: University of Melbourne Discovery API
+  slug: university-of-melbourne-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-minerva-access-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-discovery-api-openapi.yml
+- filename: university-of-melbourne-oai-pmh-api-openapi.yml
+  format: yaml
+  label: University of Melbourne OAI PMH API
+  slug: university-of-melbourne-oai-pmh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-oai-pmh-api-openapi.yml
 auth_types: []
 description: 'Authentication posture per surface, split by operator. The University of Melbourne runs two distinct identity systems and neither is an API product: a self-hosted Shibboleth SAML 2.0 IdP for federated research and library access (institution-operated), and an Okta tenancy on a University vanity hostname for web SSO (tenant). Its two publicly callable read APIs require no authentication at all.'
 kind: authentication

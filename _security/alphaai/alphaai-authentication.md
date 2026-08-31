@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: alphaai-rest-api-openapi.yml
+- filename: alphaai-calendar-api-openapi.yml
   format: yaml
-  label: AlphaAI REST API
-  slug: alphaai-rest-api
+  label: AlphaAI Calendar API
+  slug: alphaai-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-calendar-api-openapi.yml
+- filename: alphaai-news-api-openapi.yml
+  format: yaml
+  label: AlphaAI News API
+  slug: alphaai-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-news-api-openapi.yml
+- filename: alphaai-symbols-api-openapi.yml
+  format: yaml
+  label: AlphaAI Symbols API
+  slug: alphaai-symbols-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-symbols-api-openapi.yml
 auth_types:
 - http
 - oauth2

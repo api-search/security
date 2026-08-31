@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: geoinsight-ogc-api-dggs-openapi.yml
+- filename: geoinsight-collection-id-api-openapi.yml
   format: yaml
-  label: OGC API - DGGS
-  slug: ogc-api-dggs
+  label: GeoInsight Collection ID API
+  slug: geoinsight-collection-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-ogc-api-dggs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-collection-id-api-openapi.yml
+- filename: geoinsight-collections-api-openapi.yml
+  format: yaml
+  label: GeoInsight Collections API
+  slug: geoinsight-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-collections-api-openapi.yml
+- filename: geoinsight-data-api-openapi.yml
+  format: yaml
+  label: GeoInsight Data API
+  slug: geoinsight-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-data-api-openapi.yml
+- filename: geoinsight-dggrs-id-api-openapi.yml
+  format: yaml
+  label: GeoInsight DGGRS ID API
+  slug: geoinsight-dggrs-id-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-dggrs-id-api-openapi.yml
+- filename: geoinsight-dggs-api-openapi.yml
+  format: yaml
+  label: GeoInsight DGGS API
+  slug: geoinsight-dggs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-dggs-api-openapi.yml
+- filename: geoinsight-items-api-openapi.yml
+  format: yaml
+  label: GeoInsight Items API
+  slug: geoinsight-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-items-api-openapi.yml
+- filename: geoinsight-root-api-openapi.yml
+  format: yaml
+  label: GeoInsight Root API
+  slug: geoinsight-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-root-api-openapi.yml
+- filename: geoinsight-zone-id-api-openapi.yml
+  format: yaml
+  label: GeoInsight Zone ID API
+  slug: geoinsight-zone-id-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-zone-id-api-openapi.yml
+- filename: geoinsight-zones-api-openapi.yml
+  format: yaml
+  label: GeoInsight Zones API
+  slug: geoinsight-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-zones-api-openapi.yml
 description: ''
 domains:
 - caa: []

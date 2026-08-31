@@ -50,6 +50,12 @@ api_specs:
   slug: super-payments-settlements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-settlements-api-openapi.yml
+- filename: super-payments-webhooks-api-openapi.yml
+  format: yaml
+  label: Super Payments Webhooks API
+  slug: super-payments-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: 'Super Payments authenticates server-side requests with a static secret API key passed raw in the Authorization header (no Bearer prefix). Two key types exist: secret keys (sk_prod_ / sk_test_) for server-side use, and public keys (PUB_) safe for client-side/front-end use. There is no OAuth2/OIDC. Webhooks are authenticated separately via an HMAC-SHA256 super-signature header. All calls must be over HTTPS.'

@@ -18,6 +18,12 @@ api_specs:
   slug: ual-refunds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/openapi/ual-refunds-api-openapi.yml
+- filename: ual-ual-bis-api-cobros-online-v2-api-openapi.yml
+  format: yaml
+  label: Ualá Ualá Bis API Cobros Online V2 API
+  slug: ual-ual-bis-api-cobros-online-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/openapi/ual-ual-bis-api-cobros-online-v2-api-openapi.yml
 description: ''
 domains:
 - caa: []

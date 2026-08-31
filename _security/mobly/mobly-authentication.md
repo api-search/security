@@ -2,12 +2,42 @@
 api_key_in:
 - header
 api_specs:
-- filename: mobly-rest-api-v0-openapi.yml
+- filename: mobly-activations-api-openapi.yml
   format: yaml
-  label: Mobly REST API v0
-  slug: mobly-rest-api-v0
+  label: Mob.ly Activations API
+  slug: mobly-activations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-rest-api-v0-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-activations-api-openapi.yml
+- filename: mobly-events-api-openapi.yml
+  format: yaml
+  label: Mob.ly Events API
+  slug: mobly-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-events-api-openapi.yml
+- filename: mobly-industryevents-api-openapi.yml
+  format: yaml
+  label: Mob.ly Industry Events API
+  slug: mobly-industryevents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-industryevents-api-openapi.yml
+- filename: mobly-leadactivityevents-api-openapi.yml
+  format: yaml
+  label: Mob.ly Lead Activity Events API
+  slug: mobly-leadactivityevents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-leadactivityevents-api-openapi.yml
+- filename: mobly-leads-api-openapi.yml
+  format: yaml
+  label: Mob.ly Leads API
+  slug: mobly-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-leads-api-openapi.yml
+- filename: mobly-taggroups-api-openapi.yml
+  format: yaml
+  label: Mob.ly Tag Groups API
+  slug: mobly-taggroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-taggroups-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

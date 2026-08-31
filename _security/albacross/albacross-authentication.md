@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: albacross-reveal-openapi.yml
+- filename: albacross-company-api-openapi.yml
   format: yaml
-  label: Albacross Reveal API
-  slug: albacross-reveal-api
+  label: Albacross Company API
+  slug: albacross-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/openapi/albacross-reveal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/openapi/albacross-company-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

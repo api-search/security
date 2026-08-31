@@ -44,12 +44,6 @@ api_specs:
   slug: iterable-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-events-api-openapi.yml
-- filename: iterable-experimentmetrics-api-openapi.yml
-  format: yaml
-  label: Iterable ExperimentMetrics API
-  slug: iterable-experimentmetrics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-experimentmetrics-api-openapi.yml
 - filename: iterable-experiments-api-openapi.yml
   format: yaml
   label: Iterable Experiments API
@@ -116,6 +110,54 @@ api_specs:
   slug: iterable-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-workflows-api-openapi.yml
+- filename: iterable-embedded-messaging-api-openapi.yml
+  format: yaml
+  label: Iterable Embedded Messaging API
+  slug: iterable-embedded-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-embedded-messaging-api-openapi.yml
+- filename: iterable-in-app-api-openapi.yml
+  format: yaml
+  label: Iterable In App API
+  slug: iterable-in-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-in-app-api-openapi.yml
+- filename: iterable-in-app-web-api-openapi.yml
+  format: yaml
+  label: Iterable In App Web API
+  slug: iterable-in-app-web-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-in-app-web-api-openapi.yml
+- filename: iterable-snippets-api-openapi.yml
+  format: yaml
+  label: Iterable Snippets API
+  slug: iterable-snippets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-snippets-api-openapi.yml
+- filename: iterable-subscriptions-api-openapi.yml
+  format: yaml
+  label: Iterable Subscriptions API
+  slug: iterable-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-subscriptions-api-openapi.yml
+- filename: iterable-verify-api-openapi.yml
+  format: yaml
+  label: Iterable Verify API
+  slug: iterable-verify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-verify-api-openapi.yml
+- filename: iterable-webhooks-api-openapi.yml
+  format: yaml
+  label: Iterable Webhooks API
+  slug: iterable-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-webhooks-api-openapi.yml
+- filename: iterable-whatsapp-api-openapi.yml
+  format: yaml
+  label: Iterable Whats App API
+  slug: iterable-whatsapp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-whatsapp-api-openapi.yml
 auth_types:
 - apiKey
 description: Iterable authenticates with project-scoped API keys sent in an Api-Key header. There is no OAuth or OpenID Connect surface. Keys carry permissions determined by their type, are bound to one project and therefore to one data center, and client-side keys can additionally require a signed JWT that ties each call to a specific user.

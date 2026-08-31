@@ -2,12 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: ci-hub-access-openapi.yml
+- filename: ci-hub-assets-api-openapi.yml
   format: yaml
-  label: CI HUB Access SDK API
-  slug: access-sdk
+  label: CI HUB Assets API
+  slug: ci-hub-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ci-hub/refs/heads/main/openapi/ci-hub-access-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ci-hub/refs/heads/main/openapi/ci-hub-assets-api-openapi.yml
+- filename: ci-hub-auth-api-openapi.yml
+  format: yaml
+  label: CI HUB Auth API
+  slug: ci-hub-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ci-hub/refs/heads/main/openapi/ci-hub-auth-api-openapi.yml
+- filename: ci-hub-system-api-openapi.yml
+  format: yaml
+  label: CI HUB System API
+  slug: ci-hub-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ci-hub/refs/heads/main/openapi/ci-hub-system-api-openapi.yml
 auth_types:
 - http
 - apiKey

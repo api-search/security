@@ -1,35 +1,101 @@
 ---
 api_specs:
-- filename: stanford-sdr-api-openapi.yml
+- filename: stanford-about-api-openapi.yml
   format: yaml
-  label: SDR API
-  slug: sdr-api
+  label: Stanford University About API
+  slug: stanford-about-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-sdr-api-openapi.yml
-- filename: stanford-dor-services-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-about-api-openapi.yml
+- filename: stanford-authentication-api-openapi.yml
   format: yaml
-  label: DOR Services API
-  slug: dor-services-api
+  label: Stanford University Authentication API
+  slug: stanford-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-dor-services-api-openapi.yml
-- filename: stanford-preservation-catalog-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-authentication-api-openapi.yml
+- filename: stanford-catalog-api-openapi.yml
   format: yaml
-  label: Preservation Catalog HTTP API
-  slug: preservation-catalog-api
+  label: Stanford University Catalog API
+  slug: stanford-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-preservation-catalog-api-openapi.yml
-- filename: stanford-technical-metadata-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-catalog-api-openapi.yml
+- filename: stanford-events-api-openapi.yml
   format: yaml
-  label: Technical Metadata API
-  slug: technical-metadata-api
+  label: Stanford University Events API
+  slug: stanford-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-technical-metadata-api-openapi.yml
-- filename: stanford-suri-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-events-api-openapi.yml
+- filename: stanford-files-api-openapi.yml
   format: yaml
-  label: SURI API
-  slug: suri-api
+  label: Stanford University Files API
+  slug: stanford-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-suri-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-files-api-openapi.yml
+- filename: stanford-identifiers-api-openapi.yml
+  format: yaml
+  label: Stanford University Identifiers API
+  slug: stanford-identifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-identifiers-api-openapi.yml
+- filename: stanford-integrations-api-openapi.yml
+  format: yaml
+  label: Stanford University Integrations API
+  slug: stanford-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-integrations-api-openapi.yml
+- filename: stanford-jobs-api-openapi.yml
+  format: yaml
+  label: Stanford University Jobs API
+  slug: stanford-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-jobs-api-openapi.yml
+- filename: stanford-legacy-api-openapi.yml
+  format: yaml
+  label: Stanford University Legacy API
+  slug: stanford-legacy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-legacy-api-openapi.yml
+- filename: stanford-metadata-api-openapi.yml
+  format: yaml
+  label: Stanford University Metadata API
+  slug: stanford-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-metadata-api-openapi.yml
+- filename: stanford-objects-api-openapi.yml
+  format: yaml
+  label: Stanford University Objects API
+  slug: stanford-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-objects-api-openapi.yml
+- filename: stanford-release-tags-api-openapi.yml
+  format: yaml
+  label: Stanford University Release Tags API
+  slug: stanford-release-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-release-tags-api-openapi.yml
+- filename: stanford-tags-api-openapi.yml
+  format: yaml
+  label: Stanford University Tags API
+  slug: stanford-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-tags-api-openapi.yml
+- filename: stanford-versions-api-openapi.yml
+  format: yaml
+  label: Stanford University Versions API
+  slug: stanford-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-versions-api-openapi.yml
+- filename: stanford-workflows-api-openapi.yml
+  format: yaml
+  label: Stanford University Workflows API
+  slug: stanford-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-workflows-api-openapi.yml
+- filename: stanford-workspaces-api-openapi.yml
+  format: yaml
+  label: Stanford University Workspaces API
+  slug: stanford-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-workspaces-api-openapi.yml
 certifications:
 - HIPAA
 - GDPR
