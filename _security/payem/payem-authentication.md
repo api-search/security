@@ -73,6 +73,6 @@ tags:
 - Expense Management
 - Financial Operations
 - Invoice Processing
-- FinTech
+- Fintech
 - ERP Integration
 ---

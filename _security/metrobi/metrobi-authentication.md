@@ -39,7 +39,7 @@ tags:
 - Company
 - Delivery
 - Logistics
-- Couriers
+- Courier
 - Last Mile Delivery
 - Route Optimization
 - Fulfillment

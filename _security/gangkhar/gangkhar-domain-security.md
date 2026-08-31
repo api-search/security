@@ -33,7 +33,7 @@ tags:
 - Company
 - Insurance
 - Embedded Insurance
-- Insurtech
+- InsurTech
 - Embedded Finance
 - Protection
 - Artificial Intelligence

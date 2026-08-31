@@ -74,7 +74,7 @@ tags:
 - Storage
 - Analytics
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Data Lakehouse
 - Cloud Cost Optimization
 - Compression

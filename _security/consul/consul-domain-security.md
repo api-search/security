@@ -130,7 +130,7 @@ tags:
 - ACL
 - Configuration
 - Health Checking
-- Key-Value Store
+- Key/Value Store
 - Multi-Datacenter
 - Open-Source
 - Service Discovery

@@ -25,6 +25,6 @@ tags:
 - Autonomous Agents
 - Sourcing
 - Supply Chain
-- Enterprise Saas
+- Enterprise SaaS
 trust_url: https://pactum.com/security
 ---

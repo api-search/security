@@ -395,13 +395,13 @@ tags:
 - Payments
 - Card Processing
 - Acquiring
-- Financial Services
+- Financial-Services
 - Tokenization
-- 3-D Secure
+- 3D Secure
 - Disputes
 - Chargebacks
 - Interchange
 - Reconciliation
-- Point of Sale
+- Point-of-Sale
 - Netherlands
 ---

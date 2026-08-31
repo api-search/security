@@ -60,7 +60,7 @@ tags:
 - LLMs
 - Web Index
 - Retrieval
-- Answers
+- Answer
 - Contents
 - Find Similar
 - Research

@@ -504,7 +504,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/h
 summary_line: http · 1 scheme
 tags:
 - Fintech
-- Backend-as-a-Service
+- BaaS
 - Card Issuing
 - Payments
 - Embedded Finance

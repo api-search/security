@@ -210,7 +210,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maintainx/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Physical AI
+- Physical Ai
 - Maintenance
 - CMMS
 - Asset Management

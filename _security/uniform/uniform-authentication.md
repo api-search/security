@@ -287,7 +287,7 @@ tags:
 - Digital Experience Platform
 - Content Management
 - Personalization
-- A/B Testing
+- AB Testing
 - Composable
 - Headless CMS
 - AI Agents

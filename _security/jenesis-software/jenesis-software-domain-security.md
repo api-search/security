@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Insurance
 - Agency Management System
-- Insurtech
+- InsurTech
 - Property and Casualty
 - Policy Management
 - ACORD

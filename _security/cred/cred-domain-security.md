@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Consumer Fintech
 - Credit Cards
-- Bill Payments
+- Bill Payment
 - Rewards
 - UPI
 - Lending

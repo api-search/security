@@ -32,6 +32,6 @@ tags:
 - GraphQL
 - TypeScript
 - Schema Builder
-- Code-First
+- Code First
 - Plugin System
 ---

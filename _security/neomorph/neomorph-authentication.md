@@ -98,15 +98,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neomorph/refs/
 summary_line: 0 schemes
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Drug Discovery
-- Targeted Protein Degradation
-- Molecular Glue
-- Oncology
-- Immunology
-- Rare Disease
-- Clinical Trials
-- Life Sciences
+- biotechnology
+- pharmaceuticals
+- drug-discovery
+- targeted-protein-degradation
+- molecular-glue
+- oncology
+- immunology
+- rare-disease
+- clinical-trials
+- life-sciences
 - content-api
 ---

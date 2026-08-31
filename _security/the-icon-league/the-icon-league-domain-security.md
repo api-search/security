@@ -36,6 +36,6 @@ tags:
 - Soccer
 - Entertainment
 - Media
-- Live Streaming
+- Livestreaming
 - League
 ---

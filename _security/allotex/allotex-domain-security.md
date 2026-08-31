@@ -73,16 +73,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allotex/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Medical Devices
-- Ophthalmology
-- Biologics
+- medical-devices
+- ophthalmology
+- biologics
 - vision-correction
 - corneal-allograft
-- presbyopia
+- Presbyopia
 - hyperopia
 - refractive-surgery
 - tissue-processing
-- Life Sciences
-- Clinical Trials
+- life-sciences
+- clinical-trials
 - content-api
 ---

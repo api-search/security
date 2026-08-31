@@ -205,19 +205,19 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/authentication/blueshift-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
-- Customer Data Platform
+- customer-data-platform
 - Customer Engagement
-- Marketing Automation
-- Cross-Channel Messaging
+- marketing-automation
+- cross-channel-messaging
 - Email
 - SMS
 - Push Notifications
-- Segmentation
-- Personalization
-- Product Recommendations
-- Event Tracking
-- Product Catalog
-- MarTech
+- segmentation
+- personalization
+- product-recommendations
+- event-tracking
+- product-catalog
+- martech
 - MCP
 - agent-native
 ---

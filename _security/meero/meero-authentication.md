@@ -98,9 +98,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meero/refs/hea
 summary_line: http/oauth2/openIdConnect · 4 schemes
 tags:
 - Automotive
-- Images
+- Image
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Photography
 - Media Processing
 - E-Commerce

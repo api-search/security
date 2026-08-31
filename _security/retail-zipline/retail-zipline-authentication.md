@@ -56,7 +56,7 @@ tags:
 - Store Operations
 - Workforce
 - Knowledge Base
-- SaaS
+- Software-as-a-Service
 - MCP
 - Company
 ---

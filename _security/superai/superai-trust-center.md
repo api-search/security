@@ -139,7 +139,7 @@ tags:
 - Document Processing
 - Workflow Orchestration
 - Automation
-- Human-in-the-Loop
+- Human In The Loop
 - Artificial Intelligence
 - REST API
 trust_url: https://super.ai/trust

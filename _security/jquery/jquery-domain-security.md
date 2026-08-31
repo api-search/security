@@ -41,7 +41,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - AJAX
 - DOM Manipulation
-- Frontend
+- Front-End
 - JavaScript
 - Library
 ---

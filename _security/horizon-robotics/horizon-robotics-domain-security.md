@@ -42,8 +42,8 @@ tags:
 - Semiconductors
 - Robotics
 - Edge AI
-- Machine Learning
-- Model Context Protocol
+- Machine-Learning
+- MCP
 - Agent Skills
 - Developer Tools
 - China

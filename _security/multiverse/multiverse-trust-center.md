@@ -17,7 +17,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/multiverse/ref
 summary_line: trust center published
 tags:
 - Company
-- EdTech
+- Edtech
 - Education
 - Apprenticeships
 - Workforce Development

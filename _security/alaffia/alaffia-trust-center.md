@@ -28,7 +28,7 @@ tags:
 - Artificial Intelligence
 - Machine-Learning
 - Insurtech
-- Health Tech
+- Healthtech
 - United States
 trust_url: https://alaffiahealth.com/security
 ---

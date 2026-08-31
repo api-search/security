@@ -51,9 +51,9 @@ tags:
 - AI Agents
 - AI Automation
 - Agent Platform
-- Workflow Automation
-- Model Context Protocol
-- Open Source
+- Workflow-Automation
+- MCP
+- Open-Source
 - No-Code
 - LLM Orchestration
 - Agent Marketplace

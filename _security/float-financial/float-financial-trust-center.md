@@ -159,17 +159,17 @@ source_yaml: "generated: '2026-08-16'\nmethod: searched\nsource: https://trust.f
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/security/float-financial-trust-center.yml
 summary_line: SOC 2 Type 2, PCI DSS
 tags:
-- Spend Management
-- Corporate Cards
-- Expense Management
-- Accounts Payable
-- Bill Pay
-- Reimbursement
-- Business Banking
-- Accounting Integration
+- spend-management
+- corporate-cards
+- expense-management
+- accounts-payable
+- bill-pay
+- reimbursements
+- business-banking
+- accounting-integration
 - Fintech
-- Canada
+- canada
 - Payments
-- ERP Integration
+- erp-integration
 trust_url: ''
 ---

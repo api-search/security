@@ -40,7 +40,7 @@ tags:
 - Reliability
 - Bulk Power System
 - Critical Infrastructure
-- Cybersecurity
+- Cyber Security
 - Energy Markets
 - Compliance
 ---

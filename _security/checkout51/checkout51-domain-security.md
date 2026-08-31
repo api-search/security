@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/checkout51/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Cashback
+- Cash Back
 - Rewards
 - Grocery
 - Retail

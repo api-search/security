@@ -92,6 +92,7 @@ tags:
 - NPS
 - CSAT
 - CES
+- Net Promoter Score
 - Customer Satisfaction
 - Customer Effort Score
 - Surveys

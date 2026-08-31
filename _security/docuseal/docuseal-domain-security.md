@@ -65,7 +65,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Document Signing
-- E-Signature
+- eSignature
 - Electronic Signature
 - Document-Management
 - PDF

@@ -30,7 +30,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Healthcare
-- Health Tech
+- Healthtech
 - Marketplace
 - Patient Navigation
 - Telehealth

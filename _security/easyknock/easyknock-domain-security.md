@@ -34,7 +34,7 @@ tags:
 - Real-Estate
 - PropTech
 - Fintech
-- Sale Leaseback
+- Sale-Leaseback
 - Home Equity
 - Mortgage
 - Consumer Finance

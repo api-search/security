@@ -46,11 +46,11 @@ tags:
 - Rewards
 - Gift Cards
 - Payouts
-- Financial Services
+- Financial-Services
 - Credit Unions
 - Banking
 - Loyalty
 - Embedded Finance
 - AdTech
-- FinTech
+- Fintech
 ---

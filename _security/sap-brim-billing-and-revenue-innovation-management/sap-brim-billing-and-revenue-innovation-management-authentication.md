@@ -104,7 +104,7 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Billing
 - Enterprise
-- Order-to-Cash
+- Order to Cash
 - Revenue Management
 - SAP
 - Subscription Management

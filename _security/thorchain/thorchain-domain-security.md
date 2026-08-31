@@ -442,7 +442,7 @@ tags:
 - Crypto Web3
 - Blockchain
 - DeFi
-- Cross-Chain
+- Cross-chain
 - Liquidity
 - Decentralized Exchange
 - Cosmos

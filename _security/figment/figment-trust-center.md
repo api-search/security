@@ -165,17 +165,17 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/security/figment-trust-center.yml
 summary_line: SOC 2 Type II, ISO Certificate
 tags:
-- Staking
+- staking
 - Blockchain
-- Digital Assets
-- Proof of Stake
-- Validators
-- Institutional Finance
+- digital-assets
+- proof-of-stake
+- validators
+- institutional-finance
 - rewards-reporting
-- Ethereum
-- Solana
-- Web3 Infrastructure
-- Custody
+- ethereum
+- solana
+- web3-infrastructure
+- custody
 - x402
 trust_url: https://trust.figment.io/
 ---

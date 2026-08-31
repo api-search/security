@@ -73,5 +73,5 @@ tags:
 - LLM Tooling
 - Agents
 - MCP
-- Open Source
+- Open-Source
 ---

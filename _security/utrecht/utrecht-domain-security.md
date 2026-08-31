@@ -134,11 +134,6 @@ domains:
   dnssec: true
   domain: uu.nl
   spf: true
-- caa: []
-  dmarc: false
-  dnssec: false
-  domain: yoda.test
-  spf: false
 hosts:
 - cert_expires: Oct  2 19:54:40 2026 GMT
   host: www.uu.nl
@@ -152,21 +147,44 @@ hosts:
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- host: portal.yoda.test
-  https: false
+- cert_expires: Dec  4 14:03:46 2026 GMT
+  host: portal.yoda.uu.nl
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Dec  1 06:37:54 2026 GMT
+  host: i-lab.yoda.uu.nl
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Feb  8 10:17:41 2027 GMT
+  host: login.uu.nl
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Oct  8 21:35:52 2026 GMT
+  host: research-portal.uu.nl
+  hsts: true
+  hsts_max_age: 2592000
+  https: true
+  operator: tenant
+  tls_version: TLSv1.3
 kind: domain-security
 layout: security
 method: probed
 name: Utrecht Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Utrecht University, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for Utrecht University, probed live across 6 host(s) and 1 registrable domain(s). 6 host(s) serve HTTPS (up to TLSv1.3); 5 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: Utrecht University
 provider_slug: utrecht
 slug: utrecht-domain-security
 source_filename: utrecht-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.uu.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 19:54:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: dspace.library.uu.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 23:09:49 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: portal.yoda.test\n  https: false\ndomains:\n- domain: uu.nl\n  dnssec: true\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"harica.gr\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"harica.gr\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: yoda.test\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts. Re-probed 2026-08-30 after the Yoda OpenAPIs \n  were re-based off the RFC 2606 placeholder host portal.yoda.test onto the verified production hosts \n  portal.yoda.uu.nl and i-lab.yoda.uu.nl.\nhosts:\n- host: www.uu.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 19:54:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: dspace.library.uu.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 23:09:49 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: portal.yoda.uu.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  4 14:03:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: i-lab.yoda.uu.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 06:37:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: login.uu.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  8 10:17:41 2027\
+  \ GMT\n  hsts: false\n- host: research-portal.uu.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 21:35:52 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n  operator: tenant\ndomains:\n- domain: uu.nl\n  dnssec: true\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"harica.gr\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"harica.gr\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/security/utrecht-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
@@ -174,8 +192,14 @@ tags:
 - Higher Education
 - University
 - Netherlands
+- Europe
 - Research Data
+- Research Data Management
+- Institutional Repository
+- Identity Federation
+- OAI-PMH
 - Open Access
+- Open Science
 - Library
 - Open-Source
 ---

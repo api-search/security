@@ -62,7 +62,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/claude/refs/he
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence
-- Chatbots
+- Chatbot
 - Conversational AI
 - Generative AI
 - Large Language Models

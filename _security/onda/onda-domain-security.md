@@ -40,7 +40,7 @@ tags:
 - Alcohol
 - Ready-to-Drink
 - Tequila
-- Direct-to-Consumer
+- Direct to Consumer
 - E-Commerce
 - Retail
 - Shopify

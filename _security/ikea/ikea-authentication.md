@@ -84,9 +84,8 @@ tags:
 - Retail
 - Home Furnishings
 - Consumer Products
-- Open-Source
+- Opensource
 - Community
 - Unofficial API
 - Smart Home
-- Sweden
 ---

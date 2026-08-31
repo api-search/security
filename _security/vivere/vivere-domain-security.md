@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - MGA
 - Managing General Agent
 - Specialty Property

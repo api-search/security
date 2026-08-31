@@ -41,6 +41,6 @@ tags:
 - Employee Benefits
 - Health Insurance
 - Wellness
-- Insurtech
+- InsurTech
 - India
 ---

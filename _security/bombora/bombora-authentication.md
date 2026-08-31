@@ -148,8 +148,8 @@ tags:
 - Data Cooperative
 - Webhook
 - Reference Data
-- AdTech
-- MarTech
+- Adtech
+- Martech
 - B2B
 - Account Lists
 - Digital Audience Builder

@@ -94,7 +94,7 @@ tags:
 - Healthcare
 - Health Data
 - Electronic Health Records
-- Real-World Evidence
+- Real World Evidence
 - Clinical Research
 - Life Sciences
 - Genomics

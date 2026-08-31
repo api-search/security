@@ -31,9 +31,9 @@ tags:
 - Invoicing
 - Subscription Billing
 - Surcharging
-- Point of Sale
+- Point-of-Sale
 - Tokenization
-- Financial Services
+- Financial-Services
 - Fintech
 - Card Present
 - Merchant Onboarding

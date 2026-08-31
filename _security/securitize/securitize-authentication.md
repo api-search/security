@@ -61,18 +61,18 @@ source_yaml: "generated: '2026-08-05'\nmethod: derived\nsource: openapi/securiti
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/authentication/securitize-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Tokenization
-- Digital Securities
-- Real World Assets
-- Capital Markets
-- Fund Administration
-- Transfer Agent
-- KYC
+- tokenization
+- digital-securities
+- real-world-assets
+- capital-markets
+- fund-administration
+- transfer-agent
+- kyc
 - AML
 - Identity Verification
 - Blockchain
-- Broker-Dealer
-- Private Credit
+- broker-dealer
+- private-credit
 - MCP
 - Webhook
 ---

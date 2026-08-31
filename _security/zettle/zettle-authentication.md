@@ -47,6 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zettle/refs/he
 summary_line: oauth2 · 1 scheme
 tags:
 - Point-of-Sale
+- POS
 - Payments
 - Inventory
 - Finance

@@ -19,7 +19,7 @@ summary_line: trust center published
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Auto Insurance
 - Insurance Broker
 - Automotive

@@ -42,7 +42,7 @@ tags:
 - Agent Observability
 - Monitoring
 - GraphQL
-- Model Context Protocol
+- MCP
 - OpenTelemetry
 - Data Engineering
 ---

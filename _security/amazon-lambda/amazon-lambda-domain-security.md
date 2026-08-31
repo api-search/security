@@ -58,7 +58,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Compute
 - Event-Driven
-- Function-as-a-Service
+- FaaS
 - Functions
 - Serverless
 ---

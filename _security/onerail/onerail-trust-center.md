@@ -471,17 +471,17 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/security/onerail-trust-center.yml
 summary_line: SOC 2 Type II, ISO/IEC 27001:2022, GDPR
 tags:
-- Last Mile Delivery
-- Delivery Orchestration
+- last-mile-delivery
+- delivery-orchestration
 - Logistics
 - Supply Chain
-- Route Optimization
+- route-optimization
 - courier-network
 - Shipping
-- Fleet Management
+- fleet-management
 - Transportation
-- Order Management
+- order-management
 - Webhook
-- Final Mile
+- final-mile
 trust_url: https://trust.onerail.com/
 ---

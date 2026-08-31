@@ -49,7 +49,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Customer-Support
-- Co-Browsing
+- Cobrowsing
 - Session Replay
 - Customer Experience
 - Developer Tools

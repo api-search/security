@@ -70,6 +70,6 @@ tags:
 - Templates
 - Workflows
 - HIPAA
-- SOC 2
+- SOC2
 trust_url: https://www.signwell.com/security/
 ---

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fintech
 - Africa
-- Cross-Border Payments
+- Cross Border Payments
 - Money Transfer
 - Remittances
 - Mobile Money

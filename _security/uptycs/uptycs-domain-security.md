@@ -37,7 +37,7 @@ tags:
 - Cloud Security
 - Endpoint Security
 - Kubernetes Security
-- osquery
+- Osquery
 - Threat Detection
 - Compliance
 ---

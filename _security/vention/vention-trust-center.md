@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vention/refs/h
 summary_line: ISO 27001, GDPR
 tags:
 - Company
-- Physical AI
+- Physical Ai
 - Manufacturing
 - Industrial Automation
 - Robotics

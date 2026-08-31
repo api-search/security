@@ -33,7 +33,7 @@ tags:
 - Company
 - Construction
 - Construction Management
-- Real Estate
+- Real-Estate
 - Multifamily
 - Prefabrication
 - Modular Construction

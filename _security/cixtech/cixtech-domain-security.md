@@ -35,5 +35,5 @@ tags:
 - Edge Computing
 - Automotive
 - Hardware
-- ARM
+- Arm
 ---

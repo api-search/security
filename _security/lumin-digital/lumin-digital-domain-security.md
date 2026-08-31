@@ -39,11 +39,11 @@ tags:
 - Digital Banking
 - Banking
 - Credit Unions
-- Financial Services
+- Financial-Services
 - Fintech
 - Core Banking
 - Digital Account Opening
 - Payments
 - Commercial Banking
-- SaaS
+- Software-as-a-Service
 ---

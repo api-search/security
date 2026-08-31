@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence
 - AGI Research
-- Coding Agents
+- Coding Agent
 - Long Context
 - LLM
 - Frontier Lab

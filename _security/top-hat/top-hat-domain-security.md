@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/top-hat/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- EdTech
+- Edtech
 - Education
 - Higher Education
 - Learning Management

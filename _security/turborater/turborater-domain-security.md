@@ -54,7 +54,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turborater/ref
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Insurance
-- Insurtech
+- InsurTech
 - Comparative Rating
 - Auto Insurance
 - Home Insurance

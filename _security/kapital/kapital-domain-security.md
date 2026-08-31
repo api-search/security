@@ -30,8 +30,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kapital/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Banking
-- Financial Services
-- FinTech
+- Financial-Services
+- Fintech
 - Small and Medium Businesses
 - Payments
 - Foreign Exchange

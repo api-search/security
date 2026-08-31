@@ -95,6 +95,6 @@ tags:
 - Background Jobs
 - Webhook
 - Dead Letter Queue
-- Cron
+- CRON
 - Upstash
 ---

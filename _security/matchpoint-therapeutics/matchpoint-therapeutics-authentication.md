@@ -80,13 +80,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/matchpoint-the
 summary_line: 0 schemes
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Drug Discovery
-- Immunology
-- Covalent Chemistry
-- Chemoproteomics
-- Machine Learning
-- Life Sciences
+- biotechnology
+- pharmaceuticals
+- drug-discovery
+- immunology
+- covalent-chemistry
+- chemoproteomics
+- machine-learning
+- life-sciences
 - content-api
 ---

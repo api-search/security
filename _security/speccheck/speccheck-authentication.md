@@ -57,7 +57,7 @@ tags:
 - Enterprise Saas
 - Optical
 - Eyewear
-- Eye Care
+- Eyecare
 - Optical Labs
 - Prescriptions
 - Ordering

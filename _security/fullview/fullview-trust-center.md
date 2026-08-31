@@ -27,7 +27,7 @@ summary_line: SOC 2, GDPR
 tags:
 - Company
 - Customer-Support
-- Co-Browsing
+- Cobrowsing
 - Session Replay
 - Customer Experience
 - Developer Tools

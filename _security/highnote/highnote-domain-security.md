@@ -86,7 +86,7 @@ tags:
 - Card Issuing
 - Card Acquiring
 - Embedded Finance
-- Banking as a Service
+- Banking-as-a-Service
 - Fintech
 - Payments
 - GraphQL

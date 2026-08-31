@@ -37,7 +37,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Index
 - Fixed Income
-- Benchmarks
+- Benchmark
 - Multi-Asset
 - Index Administration
 - Bloomberg

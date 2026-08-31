@@ -52,16 +52,16 @@ source_yaml: "generated: '2026-08-25'\nmethod: derived\nsource: openapi/levitate
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/authentication/levitate-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Relationship Marketing
+- relationship-marketing
 - CRM
-- Email Marketing
+- email-marketing
 - Contacts
-- Small Business
+- small-business
 - Insurance
-- Financial Services
-- Nonprofit
-- Marketing Automation
+- Financial-Services
+- nonprofit
+- marketing-automation
 - MCP
 - agent-native
-- SaaS
+- saas
 ---

@@ -45,5 +45,5 @@ tags:
 - Reporting
 - Dashboards
 - Business Intelligence
-- SaaS
+- Software-as-a-Service
 ---

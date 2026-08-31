@@ -39,7 +39,7 @@ tags:
 - Company
 - Classifieds
 - Marketplace
-- Secondhand
+- Second-hand
 - E-Commerce
 - Consumer
 - Mobile App

@@ -25,16 +25,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: https://docs.ai
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cequence-security/refs/heads/main/authentication/cequence-security-authentication.yml
 summary_line: 0 schemes
 tags:
-- API Security
-- AI Gateway
+- api-security
+- ai-gateway
 - MCP
-- Agentic AI
-- Bot Management
-- API Discovery
-- API Governance
-- Fraud Detection
-- WAAP
+- agentic-ai
+- bot-management
+- api-discovery
+- api-governance
+- fraud-detection
+- waap
 - Cybersecurity
-- API Testing
+- api-testing
 - agent-native
 ---

@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toit/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - IoT
 - Embedded
 - ESP32

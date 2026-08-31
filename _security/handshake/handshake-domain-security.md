@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/handshake/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- HR Tech
+- Hr Tech
 - Careers
 - Recruiting
 - Higher Education

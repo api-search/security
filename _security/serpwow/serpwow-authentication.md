@@ -53,7 +53,7 @@ tags:
 - Web Data
 - Scraping
 - SEO
-- Search Engine
+- Search Engines
 - Google
 - E-Commerce
 - Market Intelligence

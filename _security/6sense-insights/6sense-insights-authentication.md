@@ -90,7 +90,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/6sense-insight
 summary_line: 3 schemes
 tags:
 - Company
-- Account Based Marketing
+- ABM
+- Account-Based Marketing
 - Intent Data
 - B2B
 - Predictive Analytics

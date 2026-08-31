@@ -24,7 +24,7 @@ tags:
 - Company
 - Healthcare
 - DME
-- e-Prescribing
+- ePrescribing
 - Medical Equipment
 - Health IT
 - Interoperability

@@ -91,7 +91,7 @@ summary_line: http/oauth2/openIdConnect · 2 schemes
 tags:
 - Company
 - Consumer
-- Cashback
+- Cash Back
 - Rewards
 - Retail Media
 - Coupons

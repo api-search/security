@@ -39,7 +39,7 @@ tags:
 - Real-Estate
 - PropTech
 - Property Management
-- Rentals
+- Rental
 - Insurance
 - India
 - Consumer

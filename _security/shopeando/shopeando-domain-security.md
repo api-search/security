@@ -34,7 +34,7 @@ tags:
 - Logistics
 - Shipping
 - Import Export
-- Cross-Border Commerce
+- Cross-border Commerce
 - E-Commerce
 - Fulfillment
 - Mexico

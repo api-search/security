@@ -33,6 +33,6 @@ tags:
 - Defense
 - Compliance
 - Identity
-- SaaS
+- Software-as-a-Service
 trust_url: https://app.vanta.com/hypori.com/trust/gmcybh48syrmfwdhr8dd52
 ---

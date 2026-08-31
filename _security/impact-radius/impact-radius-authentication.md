@@ -474,7 +474,7 @@ tags:
 - Influencer Marketing
 - Referral Marketing
 - Attribution
-- MarTech
+- Martech
 - Advocate
 - Creator Economy
 - E-Commerce

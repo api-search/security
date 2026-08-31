@@ -46,7 +46,7 @@ tags:
 - Behavioral Analytics
 - Remote Sensing
 - AIS
-- GEOINT
+- GeoINT
 - IUU Fishing
 - Defense and Intelligence
 - Border Security

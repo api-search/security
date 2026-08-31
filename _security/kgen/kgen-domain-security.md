@@ -43,6 +43,6 @@ tags:
 - Loyalty
 - Rewards
 - Web3
-- Ai Data
+- AI Data
 - Developer API
 ---

@@ -71,7 +71,7 @@ tags:
 - Dependency Injection
 - Enterprise
 - Framework
-- IOC
+- IoC
 - Java
 - Microservices
 - MVC

@@ -47,7 +47,7 @@ tags:
 - Artificial Intelligence
 - Agents
 - LLM
-- ROS 2
+- ROS2
 - Machine-Learning
 - Autonomy
 ---

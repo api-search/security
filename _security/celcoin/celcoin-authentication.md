@@ -119,7 +119,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/h
 summary_line: apiKey/http · 3 schemes
 tags:
 - Banking as a Service
-- Backend-as-a-Service
+- BaaS
 - Pix
 - Boleto
 - TED

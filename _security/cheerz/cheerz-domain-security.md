@@ -36,6 +36,6 @@ tags:
 - E-Commerce
 - Personalized Gifts
 - Mobile Commerce
-- Print on Demand
+- Print On Demand
 - France
 ---

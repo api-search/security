@@ -156,16 +156,16 @@ source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/security/splio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Marketing Automation
-- Customer Data Platform
-- Loyalty
+- marketing-automation
+- customer-data-platform
+- loyalty
 - CRM
-- Email Marketing
+- email-marketing
 - SMS
-- Mobile Wallet
+- mobile-wallet
 - Retail
-- E-commerce
-- Predictive AI
+- E-Commerce
+- predictive-ai
 - Customer Engagement
-- France
+- france
 ---

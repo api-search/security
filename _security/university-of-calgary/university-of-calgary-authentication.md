@@ -2,66 +2,24 @@
 api_key_in:
 - header
 api_specs:
-- filename: university-of-calgary-application-wadl-api-openapi.yml
-  format: yaml
-  label: University of Calgary Application.wadl API
-  slug: university-of-calgary-application-wadl-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-application-wadl-api-openapi.yml
 - filename: university-of-calgary-auroral-transport-model-atm-api-openapi.yml
   format: yaml
   label: University of Calgary Auroral Transport Model (ATM) API
   slug: university-of-calgary-auroral-transport-model-atm-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-auroral-transport-model-atm-api-openapi.yml
-- filename: university-of-calgary-authenticate-api-openapi.yml
-  format: yaml
-  label: University of Calgary Authenticate API
-  slug: university-of-calgary-authenticate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-authenticate-api-openapi.yml
-- filename: university-of-calgary-availability-api-openapi.yml
-  format: yaml
-  label: University of Calgary Availability API
-  slug: university-of-calgary-availability-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-availability-api-openapi.yml
-- filename: university-of-calgary-conjunction-search-api-openapi.yml
-  format: yaml
-  label: University of Calgary Conjunction Search API
-  slug: university-of-calgary-conjunction-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-conjunction-search-api-openapi.yml
 - filename: university-of-calgary-data-distribution-api-openapi.yml
   format: yaml
   label: University of Calgary Data Distribution API
   slug: university-of-calgary-data-distribution-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-data-distribution-api-openapi.yml
-- filename: university-of-calgary-data-products-search-api-openapi.yml
+- filename: university-of-calgary-hapi-api-openapi.yml
   format: yaml
-  label: University of Calgary Data Products Search API
-  slug: university-of-calgary-data-products-search-api
+  label: University of Calgary SRS HAPI (Heliophysics API) Server
+  slug: university-of-calgary-hapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-data-products-search-api-openapi.yml
-- filename: university-of-calgary-data-sources-api-openapi.yml
-  format: yaml
-  label: University of Calgary Data Sources API
-  slug: university-of-calgary-data-sources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-data-sources-api-openapi.yml
-- filename: university-of-calgary-ephemeris-search-api-openapi.yml
-  format: yaml
-  label: University of Calgary Ephemeris Search API
-  slug: university-of-calgary-ephemeris-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-ephemeris-search-api-openapi.yml
-- filename: university-of-calgary-manage-data-api-openapi.yml
-  format: yaml
-  label: University of Calgary Manage Data API
-  slug: university-of-calgary-manage-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-manage-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-hapi-api-openapi.yml
 - filename: university-of-calgary-operations-sitl-api-openapi.yml
   format: yaml
   label: University of Calgary Operations - SITL API
@@ -80,9 +38,57 @@ api_specs:
   slug: university-of-calgary-utilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-utilities-api-openapi.yml
+- filename: university-of-calgary-application-wadl-api-openapi.yml
+  format: yaml
+  label: University of Calgary AuroraX Application.wadl API
+  slug: university-of-calgary-application-wadl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-application-wadl-api-openapi.yml
+- filename: university-of-calgary-authenticate-api-openapi.yml
+  format: yaml
+  label: University of Calgary AuroraX Authenticate API
+  slug: university-of-calgary-authenticate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-authenticate-api-openapi.yml
+- filename: university-of-calgary-availability-api-openapi.yml
+  format: yaml
+  label: University of Calgary AuroraX Availability API
+  slug: university-of-calgary-availability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-availability-api-openapi.yml
+- filename: university-of-calgary-conjunction-search-api-openapi.yml
+  format: yaml
+  label: University of Calgary AuroraX Conjunction Search API
+  slug: university-of-calgary-conjunction-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-conjunction-search-api-openapi.yml
+- filename: university-of-calgary-data-products-search-api-openapi.yml
+  format: yaml
+  label: University of Calgary AuroraX Data Products Search API
+  slug: university-of-calgary-data-products-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-data-products-search-api-openapi.yml
+- filename: university-of-calgary-data-sources-api-openapi.yml
+  format: yaml
+  label: University of Calgary AuroraX Data Sources API
+  slug: university-of-calgary-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-data-sources-api-openapi.yml
+- filename: university-of-calgary-ephemeris-search-api-openapi.yml
+  format: yaml
+  label: University of Calgary AuroraX Ephemeris Search API
+  slug: university-of-calgary-ephemeris-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-ephemeris-search-api-openapi.yml
+- filename: university-of-calgary-manage-data-api-openapi.yml
+  format: yaml
+  label: University of Calgary AuroraX Manage Data API
+  slug: university-of-calgary-manage-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-manage-data-api-openapi.yml
 - filename: university-of-calgary-utils-api-openapi.yml
   format: yaml
-  label: University of Calgary Utils API
+  label: University of Calgary AuroraX Utils API
   slug: university-of-calgary-utils-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/openapi/university-of-calgary-utils-api-openapi.yml
@@ -134,9 +140,18 @@ tags:
 - Education
 - Higher Education
 - University
-- Research
-- Open Data
-- Repository
-- Space Physics
+- Public Research University
 - Canada
+- Alberta
+- U15
+- Research
+- Research Data
+- Open Access
+- Repository
+- OAI-PMH
+- Identity Federation
+- Research Computing
+- Space Physics
+- Heliophysics
+- Open Data
 ---

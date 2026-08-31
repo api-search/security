@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Property Management
 - Real-Estate
-- Rentals
+- Rental
 - Tenant Screening
 - Lease Management
 - Rent Collection

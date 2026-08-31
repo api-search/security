@@ -197,7 +197,7 @@ tags:
 - SWE-Bench
 - MCP
 - Snapshots
-- MicroVM
+- microVM
 - Enterprise
 - SOC 2
 ---

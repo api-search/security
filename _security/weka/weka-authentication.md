@@ -304,7 +304,7 @@ tags:
 - AI Storage
 - Data Platform
 - High Performance Computing
-- Filesystem
+- File System
 - Object Storage
 - Kubernetes
 - Cloud Infrastructure

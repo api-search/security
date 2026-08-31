@@ -32,7 +32,7 @@ tags:
 - Company
 - Marketplace
 - Fashion
-- Rentals
+- Rental
 - Resale
 - Peer-to-Peer
 - E-Commerce

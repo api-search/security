@@ -30,7 +30,7 @@ tags:
 - Biotechnology
 - Life Sciences
 - Genomics
-- Single Cell Sequencing
+- Single-Cell Sequencing
 - Bioinformatics
 - Scientific Software
 - Data Analysis

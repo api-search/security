@@ -35,6 +35,6 @@ tags:
 - LLM
 - Prompt Engineering
 - Workflow-Automation
-- No-Code
+- No Code
 - Company
 ---

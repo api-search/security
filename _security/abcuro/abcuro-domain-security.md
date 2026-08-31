@@ -114,15 +114,15 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/security/abcuro-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
-- Biotechnology
-- Pharmaceuticals
-- Immunology
-- Autoimmune Disease
-- Oncology
-- Clinical Trials
-- Life Sciences
-- Drug Development
-- Healthcare
+- biotechnology
+- pharmaceuticals
+- immunology
+- autoimmune-disease
+- oncology
+- clinical-trials
+- life-sciences
+- drug-development
+- healthcare
 - content-api
-- WordPress
+- wordpress
 ---

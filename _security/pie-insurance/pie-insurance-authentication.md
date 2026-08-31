@@ -83,5 +83,5 @@ tags:
 - Agency Portal
 - Partner API
 - Quoting
-- Bindings
+- Binding
 ---

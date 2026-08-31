@@ -29,7 +29,7 @@ tags:
 - Micro Markets
 - Unattended Retail
 - Self-Service Retail
-- Point of Sale
+- Point-of-Sale
 - Sales Reporting
 - Billing
 - Office Coffee

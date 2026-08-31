@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reka/refs/head
 summary_line: SOC 2
 tags:
 - Artificial Intelligence
-- Multi-Modal
+- Multimodal
 - Large Language Models
 - Vision
 - Speech

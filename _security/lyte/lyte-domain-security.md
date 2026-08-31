@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lyte/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Robotics
-- Computer Vision
+- Computer-Vision
 - Perception
 - Sensors
 - Physical AI

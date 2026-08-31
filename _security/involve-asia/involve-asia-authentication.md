@@ -72,7 +72,7 @@ tags:
 - Publishers
 - Creators
 - Conversions
-- Deep Links
+- Deeplinks
 - Commissions
 - E-Commerce
 - Southeast Asia

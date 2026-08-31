@@ -91,7 +91,7 @@ tags:
 - Crypto Web3
 - DeFi
 - Blockchain
-- Cross-Chain
+- Cross-chain
 - Smart Contracts
 - Transaction Routing
 - Web3 Infrastructure

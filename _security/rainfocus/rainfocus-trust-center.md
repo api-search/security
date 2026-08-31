@@ -22,7 +22,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rainfocus/refs
 summary_line: SOC 2 (AICPA SOC), ISO/IEC 27001:2022, PCI DSS
 tags:
 - Company
-- Events
+- Event
 - Event Management
 - Event Marketing
 - Registration
@@ -33,6 +33,6 @@ tags:
 - MCP
 - Agents
 - Enterprise Software
-- SaaS
+- Software-as-a-Service
 trust_url: ''
 ---

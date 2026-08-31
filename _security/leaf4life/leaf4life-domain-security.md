@@ -104,13 +104,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leaf4life/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Clinical Trials
-- Oncology
-- Critical Care
-- Drug Development
-- Life Sciences
-- Rare Disease
+- biotechnology
+- pharmaceuticals
+- clinical-trials
+- oncology
+- critical-care
+- drug-development
+- life-sciences
+- rare-disease
 - content-api
 ---

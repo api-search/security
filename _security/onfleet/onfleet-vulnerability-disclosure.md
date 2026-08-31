@@ -79,7 +79,7 @@ tags:
 - Fleet Management
 - Dispatch
 - Route Optimization
-- Couriers
+- Courier
 - Drivers
 - Tracking
 - Geocoding

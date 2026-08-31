@@ -18,10 +18,10 @@ summary_line: trust center published
 tags:
 - Company
 - Energy
-- Oil and Gas
+- Oil And Gas
 - Workforce Management
 - Vendor Management
 - Procurement
-- Source-to-Pay
+- Source To Pay
 trust_url: https://trust.rigup.com/
 ---

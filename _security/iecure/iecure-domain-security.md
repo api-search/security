@@ -109,13 +109,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iecure/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Biotechnology
-- Genetic Medicine
-- Gene Editing
-- Gene Therapy
-- Rare Disease
-- Clinical Trials
-- Life Sciences
-- Pharmaceuticals
+- biotechnology
+- genetic-medicine
+- gene-editing
+- gene-therapy
+- rare-disease
+- clinical-trials
+- life-sciences
+- pharmaceuticals
 - content-api
 ---

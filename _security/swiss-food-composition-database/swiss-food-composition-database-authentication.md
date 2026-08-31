@@ -48,14 +48,14 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  The FSVO'
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swiss-food-composition-database/refs/heads/main/authentication/swiss-food-composition-database-authentication.yml
 summary_line: 0 schemes
 tags:
-- Food
-- Nutrition
-- Food Composition
+- food
+- nutrition
+- food-composition
 - Health
 - Open Data
-- Government
-- Switzerland
-- Reference Data
-- Public Sector
-- Research
+- government
+- switzerland
+- reference-data
+- public-sector
+- research
 ---

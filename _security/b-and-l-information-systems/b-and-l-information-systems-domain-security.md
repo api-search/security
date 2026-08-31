@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - ERP
-- Metalcasting
+- Metal Casting
 - Foundry
 - Die Casting
 - Investment Casting

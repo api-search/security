@@ -81,7 +81,7 @@ tags:
 - Artificial Intelligence
 - Code Generation
 - Code Review
-- Coding Agents
+- Coding Agent
 - Custom Instructions
 - Developer Tools
 - Extensions

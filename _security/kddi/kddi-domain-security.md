@@ -33,7 +33,7 @@ tags:
 - Mobile Network Operator
 - Carrier
 - Japan
-- AU
+- au
 - UQ Mobile
 - povo
 - Network API

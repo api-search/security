@@ -44,6 +44,6 @@ tags:
 - Publishing
 - Retail
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Shopify
 ---

@@ -54,14 +54,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightbend/refs
 summary_line: SOC 2 Type II, SOC 3 (SOC 2 Type III), ISO/IEC 27001, ISO/IEC 27002, ISO/IEC 27018, ISO/IEC 22301, ISO/IEC 42001, ISO/IEC 42005, ISO/IEC 23894, ISO/IEC 24028, CSA STAR, PCI DSS, HIPAA, GDPR, UK GDPR, CCPA, EU-US Data Privacy Framework, EU Artificial Intelligence Act, NIST Cybersecurity Framework 2.0, NIST AI Risk Management Framework (SP AI 100-1), NIST SP 800-161, NIS2, DORA, EU Cyber Resilience Act, EU Data Act, ENISA EUCC, EBA Guidelines on ICT and Security Risk Management, PIPEDA, APPI, PDPA (Singapore), Australia Privacy Act / APPs, UK DSIT AI Governance Code of Practice, CSA Agentic Trust Framework, Trusted Technology Alliance, OFAC Sanctions Program
 tags:
 - Company
-- AI Infrastructure
-- Agentic AI
+- Ai Infrastructure
+- Agentic Ai
 - Actor Model
 - Distributed Systems
 - Reactive
 - Java
 - Scala
 - Orchestration
-- AI Governance
+- Ai Governance
 trust_url: https://trust.akka.io/
 ---

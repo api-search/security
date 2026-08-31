@@ -137,8 +137,4 @@ tags:
 - Personalization
 - Analytics
 - E-Commerce
-- AI
-- Agents
-- MCP
-- Indexing
 ---

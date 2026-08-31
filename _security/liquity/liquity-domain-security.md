@@ -77,7 +77,7 @@ tags:
 - DeFi
 - Decentralized Finance
 - Lending
-- Stablecoins
+- Stablecoin
 - Ethereum
 - LUSD
 - BOLD

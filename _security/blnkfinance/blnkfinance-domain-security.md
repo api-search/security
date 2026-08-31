@@ -84,16 +84,16 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/security/blnkfinance-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- fintech
-- financial-services
-- ledger
+- Fintech
+- Financial-Services
+- Ledger
 - double-entry-accounting
-- payments
-- wallets
-- lending
-- banking-infrastructure
-- open-source
-- mcp
-- ai-agents
-- developer-tools
+- Payments
+- Wallets
+- Lending
+- Banking Infrastructure
+- Open-Source
+- MCP
+- AI Agents
+- Developer Tools
 ---

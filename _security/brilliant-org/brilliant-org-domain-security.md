@@ -45,7 +45,7 @@ tags:
 - Adaptive Learning
 - Intelligent Tutoring
 - Artificial Intelligence
-- EdTech
+- Edtech
 - Consumer Subscription
 - Mobile Learning
 ---

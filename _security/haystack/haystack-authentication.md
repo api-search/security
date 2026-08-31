@@ -54,7 +54,7 @@ tags:
 - RAG
 - Retrieval
 - Orchestration
-- Open Source
-- Model Context Protocol
+- Open-Source
+- MCP
 - Search
 ---

@@ -136,7 +136,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Object Storage
 - Cloud Storage
-- S3 Compatible
+- S3-Compatible
 - Egress-Free
 - Buckets
 - Developer Platform

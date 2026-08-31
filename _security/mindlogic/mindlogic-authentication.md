@@ -84,7 +84,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- Ai Ml
+- AI/ML
 - Generative AI
 - Conversational AI
 - LLM Gateway

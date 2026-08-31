@@ -169,7 +169,7 @@ tags:
 - Company
 - Fintech
 - Insurance
-- Insurtech
+- InsurTech
 - Payments
 - Premium Financing
 - Billing

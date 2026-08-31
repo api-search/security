@@ -412,21 +412,21 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dream-sports/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Sports Technology
-- Fantasy Sports
+- sports-technology
+- fantasy-sports
 - Open-Source
 - Developer Tools
-- Platform Engineering
+- platform-engineering
 - Authentication
-- OpenID Connect
+- openid-connect
 - Mobile
-- React Native
-- DevOps
-- Observability
-- Test Management
-- OTA Updates
-- Feature Flags
-- India
+- react-native
+- devops
+- observability
+- test-management
+- ota-updates
+- feature-flags
+- india
 - MCP
 - agent-native
 ---

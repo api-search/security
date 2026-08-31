@@ -35,6 +35,6 @@ tags:
 - Dashboards
 - Blockchain
 - Onchain
-- Multi-Chain
+- Multi-chain
 trust_url: https://trust.dune.com/
 ---

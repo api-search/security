@@ -96,17 +96,17 @@ summary_line: 1 scheme
 tags:
 - Company
 - biopharmaceuticals
-- Biotechnology
-- Clinical Trials
-- Immunology
+- biotechnology
+- clinical-trials
+- immunology
 - inflammation
-- Innate Immunity
+- innate-immunity
 - gelsolin
-- Protein Therapeutics
+- protein-therapeutics
 - ards
-- Critical Care
-- Rare Disease
-- Drug Development
-- Life Sciences
+- critical-care
+- rare-disease
+- drug-development
+- life-sciences
 - content-api
 ---

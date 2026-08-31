@@ -34,7 +34,7 @@ tags:
 - Transportation
 - Electric Scooters
 - Mobility
-- Ridesharing
-- Cleantech
+- Ride Sharing
+- Clean Tech
 - Egypt
 ---

@@ -205,13 +205,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/m
 summary_line: HSTS
 tags:
 - Social
-- Social Media
+- Social-Media
 - Posts
-- Users
+- User
 - Direct Messages
 - Streaming
-- Webhooks
-- Real Time
+- Webhook
+- Real-Time
 - Trends
 - Media
 - Spaces

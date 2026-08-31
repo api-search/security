@@ -138,7 +138,7 @@ tags:
 - Digital Assets
 - Exchange
 - Trading
-- Financial Services
+- Financial-Services
 - Market Data
 - Blockchain
 - Taiwan

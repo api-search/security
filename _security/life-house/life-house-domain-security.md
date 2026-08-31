@@ -37,5 +37,5 @@ tags:
 - Hotel Management Software
 - Property Management
 - Revenue Management
-- Real Estate
+- Real-Estate
 ---

@@ -62,7 +62,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Video
 - Streaming
-- Video-on-Demand
+- Video on Demand
 - Live Streaming
 - CDN
 - Object Storage

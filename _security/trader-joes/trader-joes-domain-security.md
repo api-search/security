@@ -31,5 +31,5 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Retail
 - Grocery
-- Food and Beverage
+- Food & Beverage
 ---

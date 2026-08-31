@@ -159,7 +159,7 @@ tags:
 - Localization
 - Translation
 - i18n
-- L10n
+- l10n
 - Language
 - Content Management
 - Workflow-Automation

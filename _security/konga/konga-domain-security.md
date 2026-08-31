@@ -38,7 +38,7 @@ tags:
 - Fintech
 - Mobile Money
 - Wallets
-- Point-of-Sale
+- Pos
 - Bill Payments
 - Travel
 - Flights

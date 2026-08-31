@@ -40,7 +40,7 @@ tags:
 - Biotechnology
 - Laboratory Instruments
 - Cell Separation
-- Single Cell Genomics
+- Single-Cell Genomics
 - Scientific Software
 - Research Tools
 ---

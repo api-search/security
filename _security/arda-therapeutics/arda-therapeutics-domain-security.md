@@ -33,7 +33,7 @@ tags:
 - Biotechnology
 - Therapeutics
 - Cell Depletion
-- Single Cell
+- Single-Cell
 - Drug Discovery
 - Life Sciences
 - Healthcare

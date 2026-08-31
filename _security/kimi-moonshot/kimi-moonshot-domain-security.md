@@ -81,6 +81,6 @@ tags:
 - Long Context
 - Artificial Intelligence
 - OpenAI-Compatible
-- Multi-Modal
+- Multimodal
 - China
 ---

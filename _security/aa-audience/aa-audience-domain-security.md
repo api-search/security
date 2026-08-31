@@ -35,5 +35,5 @@ tags:
 - Credit Scoring
 - Financial-Services
 - Audience Targeting
-- AdTech
+- Adtech
 ---

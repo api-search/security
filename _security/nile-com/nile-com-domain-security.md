@@ -36,7 +36,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Networking
 - Enterprise Networking
-- Network as a Service
+- Network As A Service
 - NaaS
 - Wi-Fi
 - LAN
@@ -51,7 +51,7 @@ tags:
 - AIOps
 - AI Native Networking
 - Autonomous Networking
-- Cloud-Managed Networking
+- Cloud Managed Networking
 - Digital Twin
 - Webhook
 ---

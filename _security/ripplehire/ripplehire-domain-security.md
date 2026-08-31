@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Recruiting
-- ATS
+- Applicant Tracking System
 - HR Tech
 - Hiring
 - Employee Referrals

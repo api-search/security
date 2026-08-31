@@ -48,7 +48,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leap-finance/r
 summary_line: 2 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Lending
 - Student Loans
 - Education Finance

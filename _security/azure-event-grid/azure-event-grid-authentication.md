@@ -62,8 +62,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-event-gr
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Eventing
-- Event-Driven
-- Pub-Sub
+- Event Driven
+- Pub Sub
 - Messaging
 - Webhook
 - CloudEvents

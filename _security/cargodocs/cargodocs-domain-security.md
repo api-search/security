@@ -88,7 +88,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Bills of Lading
 - Documentation
-- eBOL
+- eBoL
 - EssDocs
 - MLETR
 - Shipping

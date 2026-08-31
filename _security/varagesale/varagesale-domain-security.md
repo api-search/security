@@ -34,6 +34,6 @@ tags:
 - Marketplace
 - Classifieds
 - Local Commerce
-- Secondhand
+- Second-Hand
 - Mobile App
 ---

@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads
 summary_line: trust center published
 tags:
 - Company
-- EdTech
+- Edtech
 - Learning
 - E-Learning
 - Corporate Training

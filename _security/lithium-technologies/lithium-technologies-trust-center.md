@@ -31,6 +31,6 @@ tags:
 - Customer-Support
 - Marketing
 - Conversational AI
-- MarTech
+- Martech
 trust_url: https://khoros.ai/trust-center/
 ---

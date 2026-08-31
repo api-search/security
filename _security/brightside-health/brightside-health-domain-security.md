@@ -30,16 +30,16 @@ source_yaml: "generated: '2026-08-15'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brightside-health/refs/heads/main/security/brightside-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Telehealth
-- Mental Health
-- Behavioral Health
-- Psychiatry
-- Therapy
-- Digital Health
-- Healthcare
-- Telemedicine
-- Medication Management
-- Substance Use Disorder
-- Suicide Prevention
-- Health Plans
+- telehealth
+- mental-health
+- behavioral-health
+- psychiatry
+- therapy
+- digital-health
+- healthcare
+- telemedicine
+- medication-management
+- substance-use-disorder
+- suicide-prevention
+- health-plans
 ---

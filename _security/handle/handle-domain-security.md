@@ -62,9 +62,9 @@ tags:
 - Credit Management
 - Payments
 - B2B Payments
-- Compliance
-- ERP Integration
-- Collections
+- Payment Compliance
+- ERP Integrations
+- Collection
 - Financial Operations
 - Material Suppliers
 - Equipment Dealers

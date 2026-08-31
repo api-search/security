@@ -58,7 +58,7 @@ tags:
 - Invoice Processing
 - Finance Automation
 - Accounting
-- Procure to Pay
+- Procure-to-Pay
 - Document Processing
 - Artificial Intelligence
 - ERP Integration

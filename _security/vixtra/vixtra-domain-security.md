@@ -44,5 +44,5 @@ tags:
 - Foreign Exchange
 - Import Financing
 - Credit
-- Stablecoins
+- Stablecoin
 ---

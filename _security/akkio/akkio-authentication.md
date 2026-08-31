@@ -529,7 +529,7 @@ tags:
 - Ai Apps
 - Machine-Learning
 - Predictive Analytics
-- No-Code
+- No Code
 - Data Science
 - Marketing
 - Media

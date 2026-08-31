@@ -70,7 +70,7 @@ tags:
 - Video
 - Streaming
 - Live Streaming
-- Video-on-Demand
+- Video on Demand
 - Encoding
 - Playback
 - Video Analytics

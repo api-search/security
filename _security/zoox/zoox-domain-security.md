@@ -33,7 +33,7 @@ tags:
 - Autonomous Vehicles
 - Robotaxi
 - Purpose-Built Vehicle
-- Ride Hailing
+- Ride-Hailing
 - Amazon
 - Self-Driving
 ---

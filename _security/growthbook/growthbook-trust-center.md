@@ -240,7 +240,7 @@ tags:
 - Feature Flags
 - Experimentation
 - Open-Source
-- A/B Testing
+- AB Testing
 - Analytics
 trust_url: https://www.growthbook.io/platform/security
 ---

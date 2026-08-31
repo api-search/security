@@ -41,14 +41,10 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  https://t
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/security/service-cloud-trust-center.yml
 summary_line: note, observed, unverified_in_this_pass, unverified_note
 tags:
-- Agents
 - Cloud
-- Contact Center
 - CRM
-- Customer Service
+- Customer-Service
 - Enterprise
-- Help Desk
-- Knowledge Management
 - Salesforce
 - Support
 trust_url: ''

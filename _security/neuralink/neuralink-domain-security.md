@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Frontier Tech
-- Brain-Computer Interface
+- Brain Computer Interface
 - Neurotechnology
 - Medical Devices
 - Neuroscience

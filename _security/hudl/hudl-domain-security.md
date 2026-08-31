@@ -55,7 +55,7 @@ tags:
 - Statsbomb
 - Sportscode
 - Athlete Tracking
-- Live Streaming
+- Livestreaming
 - Ticketing
 - Sports Data
 ---

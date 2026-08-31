@@ -84,10 +84,15 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/security/uppsala-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
+- Higher Education
+- Education
 - Sweden
+- Public Research University
+- Research Data
+- Institutional Repository
+- Identity Federation
+- Research Computing
+- Conflict Data
+- Open Access
 ---

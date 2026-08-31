@@ -96,6 +96,6 @@ tags:
 - Messaging
 - Interview Scheduling
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 trust_url: ''
 ---

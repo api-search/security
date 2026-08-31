@@ -437,16 +437,16 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/security/observepoint-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Company
-- Web Governance
-- Tag Management
-- Analytics Validation
-- Privacy Compliance
-- Consent Management
-- Web Accessibility
-- Data Quality
-- Marketing Technology
-- Website Auditing
-- Digital Analytics
-- Webhooks
+- company
+- web-governance
+- tag-management
+- analytics-validation
+- privacy-compliance
+- consent-management
+- web-accessibility
+- data-quality
+- marketing-technology
+- website-auditing
+- digital-analytics
+- Webhook
 ---

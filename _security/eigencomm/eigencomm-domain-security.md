@@ -26,7 +26,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eigencomm/refs
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- Semiconductors
+- Semiconductor
 - Chipsets
 - Internet of Things
 - Cellular IoT

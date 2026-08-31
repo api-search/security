@@ -58,6 +58,6 @@ tags:
 - Artificial Intelligence
 - Video Generation
 - Text-to-Video
-- Multi-Modal
+- Multimodal
 - Generative
 ---

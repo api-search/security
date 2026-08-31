@@ -35,5 +35,5 @@ tags:
 - Cardiology
 - Heart Failure
 - Interventional Cardiology
-- MedTech
+- Medtech
 ---

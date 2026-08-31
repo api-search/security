@@ -183,16 +183,16 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: openapi/figment
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/authentication/figment-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Staking
+- staking
 - Blockchain
-- Digital Assets
-- Proof of Stake
-- Validators
-- Institutional Finance
+- digital-assets
+- proof-of-stake
+- validators
+- institutional-finance
 - rewards-reporting
-- Ethereum
-- Solana
-- Web3 Infrastructure
-- Custody
+- ethereum
+- solana
+- web3-infrastructure
+- custody
 - x402
 ---

@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medical-intell
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Health Tech
+- Healthtech
 - Medical Supplies
 - Marketplace
 - B2B

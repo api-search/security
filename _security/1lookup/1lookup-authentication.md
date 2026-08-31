@@ -76,14 +76,14 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://app.1lo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/authentication/1lookup-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- Phone Validation
-- Email Validation
-- IP Intelligence
-- Fraud and Risk
-- Data Enrichment
+- phone validation
+- email validation
+- IP intelligence
+- fraud & risk
+- data enrichment
 - B2B contact & company data
 - SEO / web analytics
-- Audio Transcription
+- audio transcription
 - MCP / agent-native
 - REST API
 ---

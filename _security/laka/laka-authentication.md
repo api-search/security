@@ -100,9 +100,9 @@ summary_line: apiKey · 2 schemes
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Cycling
-- Micromobility
+- Micro Mobility
 - Bicycle Insurance
 - Claims
 - Policies

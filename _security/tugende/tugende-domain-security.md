@@ -31,7 +31,7 @@ tags:
 - Company
 - Financial-Services
 - Asset Finance
-- Lease-to-Own
+- Lease To Own
 - Fintech
 - MSME Lending
 - Uganda

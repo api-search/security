@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swimm/refs/hea
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- DevOps
+- Devops
 - Documentation
 - Developer Tools
 - Code Modernization

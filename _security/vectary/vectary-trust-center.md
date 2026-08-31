@@ -24,6 +24,6 @@ tags:
 - Augmented Reality
 - 3D Configurator
 - Product Visualization
-- E-Commerce
+- ECommerce
 trust_url: https://www.vectary.com/security/
 ---

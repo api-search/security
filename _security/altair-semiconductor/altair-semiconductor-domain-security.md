@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/altair-semicon
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Semiconductors
+- Semiconductor
 - Cellular IoT
 - Chipset
 - LPWA

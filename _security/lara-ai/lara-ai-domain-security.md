@@ -35,7 +35,7 @@ tags:
 - Employee Experience
 - People Analytics
 - Onboarding
-- Help Desk
+- Helpdesk
 - Internal Communications
 - Artificial Intelligence
 - Conversational AI

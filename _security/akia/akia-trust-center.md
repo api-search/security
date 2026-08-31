@@ -29,6 +29,6 @@ tags:
 - Artificial Intelligence
 - Agents
 - Property Management
-- Check-in
+- Check-In
 trust_url: https://www.akia.com/security
 ---

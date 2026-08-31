@@ -34,7 +34,7 @@ tags:
 - Fulfillment
 - Logistics
 - Order Management
-- Last Mile Delivery
+- Last-Mile Delivery
 - Warehousing
 - Egypt
 - Startups

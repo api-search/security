@@ -38,8 +38,7 @@ tags:
 - Billing
 - Payments
 - Invoice-to-Cash
-- E-Invoicing
+- E-invoicing
 - Fintech
 - Webhook
-- Sweden
 ---

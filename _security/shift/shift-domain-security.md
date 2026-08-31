@@ -32,11 +32,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Artificial Intelligence
 - Fraud Detection
 - Claims Automation
 - Decision Automation
 - Machine-Learning
-- Enterprise Saas
+- Enterprise SaaS
 ---

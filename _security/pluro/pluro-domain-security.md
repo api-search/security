@@ -37,5 +37,5 @@ tags:
 - Reproductive Health
 - Clinics
 - India
-- MedTech
+- Medtech
 ---

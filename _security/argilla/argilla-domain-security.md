@@ -126,14 +126,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/security/argilla-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Data Annotation
+- data annotation
 - LLM
 - NLP
 - RLHF
-- Machine-Learning
+- machine learning
 - Datasets
-- Open-Source
-- Human Feedback
+- open source
+- human feedback
 - Fine-Tuning
 - Hugging Face
 ---

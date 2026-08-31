@@ -63,9 +63,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/ref
 summary_line: http · 1 scheme
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Content Moderation
-- Trust and Safety
+- Trust And Safety
 - Artificial Intelligence
 - Machine-Learning
 - Computer-Vision

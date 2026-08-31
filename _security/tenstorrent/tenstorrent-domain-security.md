@@ -39,5 +39,5 @@ tags:
 - PyTorch
 - JAX
 - SDK
-- Data-Center
+- Datacenter
 ---

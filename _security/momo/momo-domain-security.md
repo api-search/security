@@ -50,12 +50,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
 - Mobile Payments
-- FinTech
+- Fintech
 - Digital Wallet
 - Payment Gateway
 - QR Payments
 - Disbursement
 - Buy Now Pay Later
-- E-commerce
+- E-Commerce
 - Vietnam
 ---

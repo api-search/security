@@ -386,16 +386,16 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: 'Docs: https://
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/authentication/nasuni-authentication.yml
 summary_line: apiKey/http/oauth2 · 24 schemes
 tags:
-- Company
-- File Storage
-- Hybrid Cloud
-- Object Storage
-- Enterprise Storage
-- Data Management
-- Backup and Recovery
-- Ransomware Protection
+- company
+- file-storage
+- hybrid-cloud
+- object-storage
+- enterprise-storage
+- data-management
+- backup-and-recovery
+- ransomware-protection
 - Infrastructure
-- Observability
+- observability
 - MCP
 - agent-native
 ---

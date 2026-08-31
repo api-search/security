@@ -40,6 +40,6 @@ tags:
 - OpenAPI
 - Testing
 - CLI
-- Open Source
+- Open-Source
 - Archived
 ---

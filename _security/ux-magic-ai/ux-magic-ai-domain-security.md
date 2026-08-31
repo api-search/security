@@ -32,11 +32,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Design
-- Artificial Intelligence
-- UI Design
-- UX Design
+- ArtificialIntelligence
+- UIDesign
+- UXDesign
 - Figma
-- Design to Code
+- DesignToCode
 - MCP
 - Wireframes
 ---

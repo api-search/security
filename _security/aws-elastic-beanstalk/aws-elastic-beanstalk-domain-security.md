@@ -56,7 +56,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Platform-as-a-Service
 - Application Deployment
-- Auto-Scaling
+- Auto Scaling
 - Cloud
 - DevOps
 ---

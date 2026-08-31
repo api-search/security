@@ -88,5 +88,5 @@ tags:
 - HL7
 - Training
 - Risk Management
-- SaaS
+- Software-as-a-Service
 ---

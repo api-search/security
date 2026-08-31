@@ -42,7 +42,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Storage
 - Enterprise Storage
-- Software Defined Storage
+- Software-Defined Storage
 - Data Management
 - Infrastructure
 - Block Storage

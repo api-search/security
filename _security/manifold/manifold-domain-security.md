@@ -64,8 +64,8 @@ tags:
 - Blockchain
 - Web3
 - Ethereum
-- ERC-721
-- ERC-1155
+- ERC721
+- ERC1155
 - Royalties
 - Marketplace
 - Minting

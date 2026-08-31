@@ -46,7 +46,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/materna-medica
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Health Care
+- Healthcare
 - Medical Devices
 - Women's Health
 - Pelvic Health

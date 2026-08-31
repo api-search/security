@@ -162,7 +162,7 @@ tags:
 - Company
 - Crypto
 - Payments
-- Stablecoins
+- Stablecoin
 - USDC
 - Checkout
 - Payouts

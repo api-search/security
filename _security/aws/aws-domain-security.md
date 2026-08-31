@@ -78,8 +78,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws/refs/heads
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud Computing
-- Infrastructure-as-a-Service
+- IaaS
 - Infrastructure
+- PaaS
 - Platform-as-a-Service
 - Serverless
 ---

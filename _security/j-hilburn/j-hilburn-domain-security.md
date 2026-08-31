@@ -45,7 +45,7 @@ tags:
 - Retail
 - Apparel
 - Fashion
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Menswear
 - Custom Clothing

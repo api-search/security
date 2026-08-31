@@ -179,7 +179,7 @@ tags:
 - Live Streaming
 - Creator Economy
 - Overlays
-- Chatbots
+- Chatbot
 - Monetization
 - Donations
 - Loyalty Points

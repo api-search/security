@@ -181,7 +181,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/360learning/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- EdTech
+- Edtech
 - Learning Management System
 - E-Learning
 - Training

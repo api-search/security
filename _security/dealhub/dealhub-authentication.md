@@ -435,14 +435,14 @@ summary_line: apiKey/http · 3 schemes
 tags:
 - Company
 - CPQ
-- Quote-to-Cash
+- Quote to Cash
 - Contract Lifecycle Management
 - Subscription Management
 - Billing
 - Revenue Operations
 - Sales
 - Pricing
-- Usage-Based Billing
+- Usage Based Billing
 - Revenue Recognition
 - Sales Enablement
 ---

@@ -77,15 +77,15 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/security/zillapi-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Real-Estate
-- PropTech
-- Property Data
-- Zillow
-- Zestimate
-- Valuation
+- real estate
+- proptech
+- property data
+- zillow
+- zestimate
+- valuation
 - AVM
 - Listings
 - MCP
-- AI Agent
+- AI agent
 - REST API
 ---

@@ -200,12 +200,12 @@ summary_line: SOC 2
 tags:
 - Company
 - Delivery
-- Last Mile Delivery
+- Last-Mile Delivery
 - Logistics
 - Dispatch
 - Route Optimization
 - Fleet Management
-- Couriers
+- Courier
 - Shipping
 - Order
 - Webhook

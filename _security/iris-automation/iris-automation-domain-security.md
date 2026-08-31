@@ -33,7 +33,7 @@ tags:
 - Deep Tech
 - Drones
 - UAS
-- Detect And Avoid
+- Detect and Avoid
 - Collision Avoidance
 - Computer-Vision
 - Aviation

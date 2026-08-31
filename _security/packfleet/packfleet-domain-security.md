@@ -34,7 +34,7 @@ tags:
 - Logistics
 - Delivery
 - Last Mile
-- Couriers
+- Courier
 - Electric Vehicles
 - Sustainability
 ---

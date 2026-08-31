@@ -31,7 +31,7 @@ tags:
 - Company
 - Marketing
 - Video
-- User Generated Content
+- User-Generated Content
 - Advertising
 - Reviews
 - Mobile

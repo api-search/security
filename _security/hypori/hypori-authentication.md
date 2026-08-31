@@ -47,5 +47,5 @@ tags:
 - Defense
 - Compliance
 - Identity
-- SaaS
+- Software-as-a-Service
 ---

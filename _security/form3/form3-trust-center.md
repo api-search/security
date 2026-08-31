@@ -200,7 +200,7 @@ tags:
 - Direct Debit
 - Confirmation of Payee
 - Cross-Border
-- Banking as a Service
+- Banking-as-a-Service
 - Embedded Payments
 trust_url: https://trust.form3.tech/
 ---

@@ -90,7 +90,7 @@ tags:
 - Brazil
 - Seller Integration
 - Product Catalog
-- Orders
+- Order
 - Shipping
 - Logistics
 ---

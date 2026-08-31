@@ -1,65 +1,11 @@
 ---
 api_specs:
-- filename: macquarie-altmetric-api-openapi.yml
+- filename: macquarie-research-portal-oai-pmh-openapi.yml
   format: yaml
-  label: Macquarie University altmetric API
-  slug: macquarie-altmetric-api
+  label: Macquarie University Research Portal OAI-PMH
+  slug: research-portal-oai-pmh
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-altmetric-api-openapi.yml
-- filename: macquarie-articles-api-openapi.yml
-  format: yaml
-  label: Macquarie University articles API
-  slug: macquarie-articles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-articles-api-openapi.yml
-- filename: macquarie-authors-api-openapi.yml
-  format: yaml
-  label: Macquarie University authors API
-  slug: macquarie-authors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-authors-api-openapi.yml
-- filename: macquarie-collections-api-openapi.yml
-  format: yaml
-  label: Macquarie University collections API
-  slug: macquarie-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-collections-api-openapi.yml
-- filename: macquarie-institutions-api-openapi.yml
-  format: yaml
-  label: Macquarie University institutions API
-  slug: macquarie-institutions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-institutions-api-openapi.yml
-- filename: macquarie-oauth-api-openapi.yml
-  format: yaml
-  label: Macquarie University oauth API
-  slug: macquarie-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-oauth-api-openapi.yml
-- filename: macquarie-other-api-openapi.yml
-  format: yaml
-  label: Macquarie University other API
-  slug: macquarie-other-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-other-api-openapi.yml
-- filename: macquarie-profiles-api-openapi.yml
-  format: yaml
-  label: Macquarie University profiles API
-  slug: macquarie-profiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-profiles-api-openapi.yml
-- filename: macquarie-projects-api-openapi.yml
-  format: yaml
-  label: Macquarie University projects API
-  slug: macquarie-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-projects-api-openapi.yml
-- filename: macquarie-symplectic-api-openapi.yml
-  format: yaml
-  label: Macquarie University symplectic API
-  slug: macquarie-symplectic-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-symplectic-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-research-portal-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,55 +14,49 @@ domains:
   dnssec: false
   domain: mq.edu.au
   spf: true
-- caa:
-  - 0 issue "harica.gr"
-  - 0 issue "letsencrypt.org"
-  - 0 issue "pki.goog; cansignhttpexchanges=yes"
-  - 0 issue "sectigo.com"
-  - 0 issue "ssl.com"
-  - 0 issuewild "amazon.com"
-  dmarc: true
-  dmarc_policy: reject
-  dnssec: false
-  domain: figshare.com
-  spf: true
 hosts:
-- cert_expires: Sep 20 03:48:34 2026 GMT
+- cert_expires: Nov 18 11:52:37 2026 GMT
   host: www.mq.edu.au
   hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Jan 23 23:59:59 2027 GMT
-  host: figshare.mq.edu.au
-  hsts: false
+- cert_expires: Oct  6 06:59:38 2026 GMT
+  host: research-management.mq.edu.au
+  hsts: true
+  hsts_max_age: 2592000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Dec 25 23:59:59 2026 GMT
-  host: api.figshare.com
-  hsts: true
-  hsts_max_age: 31536000
+- cert_expires: Jan  6 23:59:59 2027 GMT
+  host: idp.mq.edu.au
+  hsts: null
   https: true
-  tls_version: TLSv1.2
+  tls_version: TLSv1.3
 kind: domain-security
 layout: security
 method: probed
 name: Macquarie Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Macquarie University, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+overview: 'Domain security posture for Macquarie University, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Macquarie University
 provider_slug: macquarie
 slug: macquarie-domain-security
 source_filename: macquarie-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mq.edu.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 03:48:34 2026 GMT\n  hsts: null\n- host: figshare.mq.edu.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: false\n- host: api.figshare.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: mq.edu.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: figshare.com\n  dnssec: false\n  caa:\n  - 0 issue \"harica.gr\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "# authorship: written by API Evangelist from live DNS/TLS/HTTP probes of this repo's hosts.\n# x-method: derived\ngenerated: '2026-08-30'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mq.edu.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 11:52:37 2026 GMT\n  hsts: null\n- host: research-management.mq.edu.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 06:59:38 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: idp.mq.edu.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: mq.edu.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/security/macquarie-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research Data
-- Library
+- Higher Education
+- Education
 - Australia
+- Group of Eight Peer
+- Research Data
+- Research Repository
+- Metadata Harvesting
+- OAI-PMH
+- Identity Federation
+- Library
+- Course Catalog
 ---

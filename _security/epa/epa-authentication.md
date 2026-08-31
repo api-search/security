@@ -847,9 +847,9 @@ tags:
 - Government
 - Environmental
 - Open Data
-- Air Quality
-- Water Quality
-- Hazardous Waste
+- AirQuality
+- WaterQuality
+- HazardousWaste
 - Compliance
 - Emissions
 ---

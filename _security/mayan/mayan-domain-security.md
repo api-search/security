@@ -38,5 +38,5 @@ tags:
 - Marketing Automation
 - Inventory Management
 - Analytics
-- SaaS
+- Software-as-a-Service
 ---

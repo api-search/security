@@ -40,7 +40,7 @@ tags:
 - Foundation Models
 - Model Training
 - Pretraining
-- Fine-Tuning
+- Finetuning
 - LLM
 - Generative AI
 - PyTorch

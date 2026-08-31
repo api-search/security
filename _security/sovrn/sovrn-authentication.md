@@ -118,7 +118,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/hea
 summary_line: apiKey · 5 schemes
 tags:
 - Company
-- AdTech
+- Adtech
 - Advertising
 - Monetization
 - Affiliate Marketing
@@ -128,5 +128,5 @@ tags:
 - Data
 - Reporting
 - Product Data
-- agent-native
+- Agent Native
 ---

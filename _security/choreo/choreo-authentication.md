@@ -139,7 +139,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/choreo-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/authentication/choreo-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- Ai Apps
+- AI Apps
 - API Management
 - CI/CD
 - Cloud-Native
@@ -153,7 +153,7 @@ tags:
 - Observability
 - Orchestration
 - Platform Engineering
-- Pro-Code-API-Composition
+- Pro-Code API Composition
 - Unified
 - WSO2
 - Workflows

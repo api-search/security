@@ -84,6 +84,6 @@ tags:
 - Directory Services
 - Enterprise
 - Identity
-- LDAP
+- Ldap
 - Windows
 ---

@@ -191,5 +191,5 @@ tags:
 - Entertainment
 - Secondary Market
 - Commerce
-- Travel And Leisure
+- Travel and Leisure
 ---

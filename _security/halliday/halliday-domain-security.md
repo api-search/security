@@ -59,7 +59,7 @@ tags:
 - Cryptocurrency
 - Blockchain
 - Web3
-- On-Ramp
+- Onramp
 - Swaps
 - DeFi
 - Agentic Workflows

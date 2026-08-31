@@ -139,7 +139,7 @@ summary_line: http · 1 scheme
 tags:
 - Fintech
 - Banking
-- Backend-as-a-Service
+- BaaS
 - ACH
 - Wires
 ---

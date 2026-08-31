@@ -43,7 +43,7 @@ summary_line: SOC 2 Type II, GDPR, CCPA, EU AI Act (limited risk)
 tags:
 - Sales Intelligence
 - Outbound
-- Account Based Marketing
+- ABM
 - Champion Tracking
 - Job Changes
 - Buying Signals
@@ -51,7 +51,7 @@ tags:
 - Sales Engagement
 - CRM
 - Revenue Operations
-- Go-To-Market
+- GTM
 - MCP
 - AI Agents
 trust_url: https://trust.usergems.com/

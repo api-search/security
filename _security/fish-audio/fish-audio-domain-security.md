@@ -67,7 +67,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fish-audio/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Voice
-- Text-to-Speech
+- Text to Speech
 - Speech-to-Text
 - Voice Cloning
 - Audio

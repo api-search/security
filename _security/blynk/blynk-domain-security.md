@@ -53,7 +53,7 @@ tags:
 - Dashboards
 - Telemetry
 - Firmware
-- Over-the-Air Updates
+- Over The Air Updates
 - White Label
 - Embedded
 - Smart Home

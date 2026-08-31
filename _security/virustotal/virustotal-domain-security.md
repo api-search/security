@@ -244,13 +244,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virustotal/refs/heads/main/security/virustotal-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Anti Malware
+- Anti-Malware
 - Threat Intelligence
 - Security
 - File Analysis
 - URL Analysis
 - YARA
-- IOC
+- IoC
 - Sandbox
 - MITRE ATT&CK
 - Google Cloud

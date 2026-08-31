@@ -350,17 +350,5 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Large Language Models
-- Machine Learning
-- Generative AI
-- Foundation Models
-- Embeddings
-- Speech Recognition
-- Text To Speech
-- Image Generation
-- Content Moderation
-- Vector Search
-- Agents
-- Model Context Protocol
-- Developer Tools
 - T1
 ---

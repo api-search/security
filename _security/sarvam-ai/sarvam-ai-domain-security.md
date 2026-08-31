@@ -80,7 +80,7 @@ tags:
 - Artificial Intelligence
 - LLM
 - Speech-to-Text
-- Text-to-Speech
+- Text to Speech
 - Translation
 - Indian Languages
 ---

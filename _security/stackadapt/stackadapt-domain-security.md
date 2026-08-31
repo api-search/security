@@ -51,7 +51,7 @@ tags:
 - Programmatic Advertising
 - Digital Advertising
 - Campaign Management
-- AdTech
+- Ad Tech
 - DSP
 - Demand-Side Platform
 - Native Advertising

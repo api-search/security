@@ -50,7 +50,7 @@ tags:
 - Revenue Operations
 - Sales Planning
 - Territory Management
-- Go-To-Market
+- Go-to-Market
 - Incentive Compensation
 - Forecasting
 - Lead Routing

@@ -46,7 +46,7 @@ tags:
 - Company
 - Logistics
 - Shipping
-- Last Mile Delivery
+- Last-Mile Delivery
 - Freight
 - Tracking
 - Brazil

@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Commercial Trucking
 - Fleet Management
 - Telematics

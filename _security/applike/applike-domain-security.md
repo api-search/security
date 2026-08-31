@@ -88,16 +88,16 @@ source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/security/applike-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Mobile Attribution
-- User Acquisition
-- AdTech
-- Mobile Advertising
-- App Monetization
+- mobile-attribution
+- user-acquisition
+- adtech
+- mobile-advertising
+- app-monetization
 - rewarded-advertising
-- Mobile SDK
-- Mobile Analytics
-- Marketing Attribution
-- Mobile Games
-- Event Tracking
-- Company
+- mobile-sdk
+- mobile-analytics
+- marketing-attribution
+- mobile-games
+- event-tracking
+- company
 ---

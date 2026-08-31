@@ -28,7 +28,7 @@ summary_line: 0 schemes
 tags:
 - Storage
 - Enterprise Storage
-- Software Defined Storage
+- Software-Defined Storage
 - Data Management
 - Infrastructure
 - Block Storage

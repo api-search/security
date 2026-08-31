@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stockgro/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Stock Market
 - Investing
 - Market Data

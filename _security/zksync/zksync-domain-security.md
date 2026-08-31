@@ -52,7 +52,7 @@ tags:
 - Layer 2
 - Ethereum
 - zkEVM
-- ZK-Rollup
+- ZK Rollup
 - Account Abstraction
 - Paymaster
 - ZK Stack

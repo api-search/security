@@ -157,16 +157,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Financial Data
-- Fundamental Data
+- fundamental-data
 - Market Data
-- Investment Research
-- Equity Research
-- SEC Filings
-- Earnings
+- investment-research
+- equity-research
+- sec-filings
+- earnings
 - Fintech
 - MCP
 - agent-native
-- Agent Skills
+- agent-skills
 - Webhook
-- Data Warehouse
+- data-warehouse
 ---

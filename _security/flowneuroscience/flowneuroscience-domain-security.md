@@ -38,6 +38,5 @@ tags:
 - Neuroscience
 - Neurotechnology
 - Digital Health
-- MedTech
-- Sweden
+- Medtech
 ---

@@ -32,6 +32,6 @@ tags:
 - Life Sciences
 - Pharmaceuticals
 - Medical Devices
-- Role-Play Simulation
+- Roleplay Simulation
 - Learning and Development
 ---

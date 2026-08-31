@@ -41,5 +41,5 @@ tags:
 - Language Learning
 - Marketplace
 - EdTech
-- ChatGPT Plugin
+- Chat Gpt Plugin
 ---

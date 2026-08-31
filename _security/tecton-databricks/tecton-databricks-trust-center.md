@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tecton-databri
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
-- AI Infrastructure
+- Ai Infrastructure
 - Feature Store
 - Feature Platform
 - Machine-Learning

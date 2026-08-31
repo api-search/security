@@ -72,11 +72,11 @@ tags:
 - Linux Foundation
 - Safety
 - Functional Safety
-- Open Source
+- Open-Source
 - Automotive
 - Aerospace
 - Medical Devices
 - Traceability
 - Standards
-- Events
+- Event
 ---

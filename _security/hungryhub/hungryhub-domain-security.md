@@ -36,6 +36,6 @@ tags:
 - Dining
 - Hospitality
 - Marketplace
-- Food and Beverage
+- Food & Beverage
 - Thailand
 ---

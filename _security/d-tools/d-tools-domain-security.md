@@ -209,14 +209,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/d-tools/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - av-integration
-- Systems Integration
-- Project Management
-- Estimation
+- systems-integration
+- project-management
+- estimation
 - Quoting
-- Field Service Management
-- Construction Tech
+- field-service-management
+- construction-tech
 - low-voltage
-- Product Catalog
-- ERP Integration
-- Vertical SaaS
+- product-catalog
+- erp-integration
+- vertical-saas
 ---

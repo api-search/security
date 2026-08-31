@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: university-of-glasgow-enlighten-rest-openapi.yml
+  format: yaml
+  label: Enlighten EPrints REST API
+  slug: enlighten-rest
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-glasgow/refs/heads/main/openapi/university-of-glasgow-enlighten-rest-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,13 +46,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-glasgow/refs/heads/main/security/university-of-glasgow-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Access
-- Repository
-- OAI-PMH
+- Higher Education
+- Education
 - United Kingdom
 - Scotland
+- Russell Group
+- Research Data
+- Repository
+- OAI-PMH
+- Open Access
+- Identity Federation
+- Digital Library
 ---

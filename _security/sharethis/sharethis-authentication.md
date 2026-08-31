@@ -124,5 +124,5 @@ tags:
 - Analytics
 - Consent Management
 - Publishing
-- Model Context Protocol
+- MCP
 ---

@@ -67,7 +67,7 @@ tags:
 - Company
 - Grocery
 - Retail
-- eCommerce
+- E-Commerce
 - Fulfillment
 - Micro-Fulfillment
 - Warehouse Automation

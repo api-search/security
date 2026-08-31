@@ -34,7 +34,7 @@ tags:
 - Neuromodulation
 - Neurostimulation
 - Pain Management
-- Health Care
+- Healthcare
 - Implantable Devices
 - Life Sciences
 ---

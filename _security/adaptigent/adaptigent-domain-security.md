@@ -8,7 +8,7 @@ domains:
   domain: adaptigent.com
   spf: false
 hosts:
-- cert_expires: Aug 19 09:11:35 2026 GMT
+- cert_expires: Oct 17 13:31:01 2026 GMT
   host: www.adaptigent.com
   hsts: false
   https: true
@@ -25,7 +25,7 @@ slug: adaptigent-domain-security
 source_filename: adaptigent-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.adaptigent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 09:11:35 2026 GMT\n  hsts: false\ndomains:\n- domain: adaptigent.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.adaptigent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 13:31:01 2026 GMT\n  hsts: false\ndomains:\n- domain: adaptigent.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adaptigent/refs/heads/main/security/adaptigent-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
@@ -34,6 +34,6 @@ tags:
 - API Gateway
 - Legacy Systems
 - Enterprise
-- No-Code
+- No Code
 - Middleware
 ---

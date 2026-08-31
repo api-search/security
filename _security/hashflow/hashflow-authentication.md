@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hashflow/refs/
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- DeFi
+- Defi
 - DEX
 - RFQ
 - Trading

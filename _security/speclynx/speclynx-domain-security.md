@@ -36,5 +36,5 @@ tags:
 - JSON-Schema
 - OpenAPI
 - Toolkit
-- VS Code
+- VSCode
 ---

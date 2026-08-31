@@ -380,7 +380,7 @@ tags:
 - DSP
 - Demand-Side Platform
 - Campaign Management
-- AdTech
+- Ad Tech
 - Bidding
 - Audience Segments
 - Creative Management

@@ -106,15 +106,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/he
 summary_line: SOC 2 Type II, ISO 27001
 tags:
 - Company
-- Device Management
-- Mobile Device Management
+- device-management
+- mobile-device-management
 - apple-management
-- Endpoint Security
+- endpoint-security
 - endpoint-detection-response
-- Vulnerability Management
-- Compliance Automation
-- Workforce Identity
-- IT Operations
+- vulnerability-management
+- compliance-automation
+- workforce-identity
+- it-operations
 - MCP
 - agent-native
 trust_url: https://trust.iru.com/

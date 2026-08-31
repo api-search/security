@@ -27,7 +27,7 @@ summary_line: SOC 2 Type II, ISO 27001, ISO 27701, ISO 27017, ISO 27018, ISO 223
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Pricing
 - Rating
 - Underwriting

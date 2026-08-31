@@ -102,17 +102,17 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - DeFi
 - DeFAI
-- AI agents
+- AI Agents
 - MCP
 - OpenAPI
 - x402
-- blockchain
-- crypto
+- Blockchain
+- Crypto
 - airdrop tracking
-- developer tools
-- agent readiness
-- machine payments
+- Developer Tools
+- Agent Readiness
+- Machine Payments
 - Hyperliquid
-- wallet intelligence
+- Wallet Intelligence
 - zero custody
 ---

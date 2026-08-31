@@ -137,14 +137,14 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/security/polysign-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Digital Assets
+- digital-assets
 - Blockchain
-- institutional-custody
-- Settlement
-- Escrow
-- Capital Markets
+- Institutional Custody
+- settlement
+- escrow
+- capital-markets
 - Payments
 - Fintech
-- Distributed Ledger
+- distributed-ledger
 - atomicnet
 ---

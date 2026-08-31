@@ -72,7 +72,7 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Cloud Computing
 - Compute
-- Infrastructure-as-a-Service
+- IaaS
 - Infrastructure
 - Virtual Machines
 trust_url: https://aws.amazon.com/compliance/

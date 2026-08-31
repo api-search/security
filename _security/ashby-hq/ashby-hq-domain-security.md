@@ -355,6 +355,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - ATS
+- Applicant Tracking System
 - Recruiting
 - Talent Acquisition
 - Sourcing

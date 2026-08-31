@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Life Insurance
 - Marketplace
 - Comparison

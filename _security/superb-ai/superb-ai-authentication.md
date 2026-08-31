@@ -36,8 +36,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- Machine Learning
-- Computer Vision
+- Machine-Learning
+- Computer-Vision
 - Data Labeling
 - Annotation
 - MLOps

@@ -55,7 +55,7 @@ tags:
 - Home Services
 - Lawn Care
 - Marketplace
-- On-Demand
+- On Demand
 - Field Service
 - Scheduling
 - Local Services

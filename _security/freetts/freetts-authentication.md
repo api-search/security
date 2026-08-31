@@ -49,7 +49,7 @@ summary_line: 2 schemes
 tags:
 - Text-to-Speech
 - Speech Synthesis
-- AI Voice
+- AI-voice
 - Audio
 - Media
 - Accessibility

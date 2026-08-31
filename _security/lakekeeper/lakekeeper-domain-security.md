@@ -114,16 +114,16 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/security/lakekeeper-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- Apache Iceberg
-- Data Catalog
-- Lakehouse
-- Open Source
-- Rust
-- Data Governance
-- Access Control
-- Object Storage
+- apache-iceberg
+- data-catalog
+- lakehouse
+- Open-Source
+- rust
+- data-governance
+- access-control
+- object-storage
 - Metadata
-- Self-Hosted
-- OpenFGA
-- Data Engineering
+- self-hosted
+- openfga
+- data-engineering
 ---

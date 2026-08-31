@@ -38,7 +38,7 @@ tags:
 - PropTech
 - Real-Estate
 - Multifamily
-- Rentals
+- Rental
 - Leasing
 - Payments
 - Partners API

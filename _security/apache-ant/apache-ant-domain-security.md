@@ -36,7 +36,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apache
 - Automation
-- Build Tools
+- Build Tool
 - CI/CD
 - Java
 - Open-Source

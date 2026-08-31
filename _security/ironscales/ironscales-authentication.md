@@ -122,19 +122,19 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: https://appapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/authentication/ironscales-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- Email Security
+- email-security
 - Cybersecurity
-- Phishing
-- Anti-Phishing
-- Business Email Compromise
-- Account Takeover
+- phishing
+- anti-phishing
+- business-email-compromise
+- account-takeover
 - Threat Intelligence
-- Incident Response
-- Security Awareness Training
-- Phishing Simulation
-- Microsoft-365
-- Google Workspace
-- SOC Automation
-- Deepfake Detection
+- incident-response
+- security-awareness-training
+- phishing-simulation
+- microsoft-365
+- google-workspace
+- soc-automation
+- deepfake-detection
 - MCP
 ---

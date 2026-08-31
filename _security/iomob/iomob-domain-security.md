@@ -30,7 +30,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Mobility
-- Mobility As A Service
+- Mobility as a Service
 - MaaS
 - Transportation
 - Journey Planning

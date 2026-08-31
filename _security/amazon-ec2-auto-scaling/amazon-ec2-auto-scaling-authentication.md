@@ -422,7 +422,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-aut
 summary_line: apiKey · 1 scheme
 tags:
 - Amazon Web Services
-- Auto-Scaling
+- Auto Scaling
 - Compute
 - EC2
 - High Availability

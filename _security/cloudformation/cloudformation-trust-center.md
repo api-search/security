@@ -103,7 +103,7 @@ tags:
 - Automation
 - Cloud Resources
 - IaC
-- Infrastructure as Code
+- Infrastructure As Code
 - Stack Management
 trust_url: https://aws.amazon.com/compliance/
 ---

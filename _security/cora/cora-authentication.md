@@ -53,5 +53,5 @@ tags:
 - Invoicing
 - SMB
 - Fintech
-- Banking as a Service
+- Banking-as-a-Service
 ---

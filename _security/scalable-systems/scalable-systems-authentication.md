@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/scalable
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalable-systems/refs/heads/main/authentication/scalable-systems-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Auto-Scaling
+- Auto Scaling
 - Caching
 - Cloud Infrastructure
 - Distributed Systems

@@ -286,7 +286,7 @@ tags:
 - Financial-Services
 - Banking
 - United States
-- Banking as a Service
+- Banking-as-a-Service
 - Embedded Finance
 - Payments
 - Commercial Banking

@@ -28,7 +28,7 @@ tags:
 - Meeting Rooms
 - Occupancy Analytics
 - Real-Estate
-- Floor Plans
+- Floorplans
 - GraphQL
 - IWMS
 - Eptura

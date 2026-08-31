@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/certificial/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
-- Insurtech
+- InsurTech
 - Certificate of Insurance
 - Risk Management
 - Compliance

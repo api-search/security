@@ -32,7 +32,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Healthcare
-- Health Care
 - Prior Authorization
 - Patient Access
 - Specialty Pharmacy

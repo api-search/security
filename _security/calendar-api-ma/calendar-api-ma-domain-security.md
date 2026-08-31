@@ -52,16 +52,16 @@ source_yaml: "generated: '2026-08-18'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/security/calendar-api-ma-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- Holidays
-- Morocco
+- holidays
+- morocco
 - Calendar
-- Business Days
+- business-days
 - date-utilities
-- Data Engineering
+- data-engineering
 - ETL
-- Python SDK
+- python-sdk
 - Localization
-- Reference Data
-- Public Holidays
-- Scheduling
+- reference-data
+- public-holidays
+- scheduling
 ---

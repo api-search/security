@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: https://www.aif
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/authentication/aifordatabase-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Database
 - Analytics
 - Developer Tools
@@ -118,12 +118,12 @@ tags:
 - Text-to-SQL
 - Dashboards
 - Business Intelligence
-- Workflow Automation
+- Workflow-Automation
 - Alerts
-- Agent-Native
-- LLMSTxt
+- agent-native
+- llms-txt
 - OpenAPI
-- Webhooks
+- Webhook
 - MCP
 - PostgreSQL
 - MySQL

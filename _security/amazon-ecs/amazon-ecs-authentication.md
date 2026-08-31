@@ -92,8 +92,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/ref
 summary_line: apiKey · 1 scheme
 tags:
 - Amazon
+- Aws
 - Containers
 - Docker
-- ECS
+- Ecs
 - Orchestration
 ---

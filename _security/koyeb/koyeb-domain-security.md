@@ -303,7 +303,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud Platform
 - Deployment
-- Platform-as-a-Service
+- PaaS
 - Serverless
 - Serverless GPU
 - AI Infrastructure

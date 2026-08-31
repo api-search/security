@@ -67,7 +67,7 @@ summary_line: TLSv1.3
 tags:
 - Automation
 - Browsers
-- End-to-End Testing
+- End-To-End Testing
 - Quality Assurance
 - Testing
 - WebDriver

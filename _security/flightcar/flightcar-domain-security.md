@@ -76,6 +76,6 @@ tags:
 - Automotive
 - Car Rental
 - Marketplace
-- Peer-to-Peer
+- Peer To Peer
 - Mobility
 ---

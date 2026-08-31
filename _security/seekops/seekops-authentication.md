@@ -36,5 +36,5 @@ tags:
 - ESG
 - Sustainability
 - Analytics
-- Measurement
+- Measurements
 ---

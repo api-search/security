@@ -34,7 +34,7 @@ tags:
 - Art
 - Entertainment
 - Immersive Experiences
-- Events
+- Event
 - Ticketing
 - Museums
 - Tourism

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Early Childhood Education
-- Childcare
+- Child Care
 - Government
 - GovTech
 - Education

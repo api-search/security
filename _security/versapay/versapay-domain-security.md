@@ -184,7 +184,7 @@ tags:
 - Canada
 - Accounts Receivable
 - AR Automation
-- Order-to-Cash
+- Order to Cash
 - Payment Acceptance
 - Payment Processing
 - B2B Payments

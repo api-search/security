@@ -75,8 +75,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/houm/refs/head
 summary_line: 1 scheme
 tags:
 - Company
-- Real Estate
-- Proptech
+- Real-Estate
+- PropTech
 - Property Management
 - Rentals
 - Marketplace

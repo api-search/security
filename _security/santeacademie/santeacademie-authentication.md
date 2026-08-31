@@ -98,13 +98,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/santeacademie/
 summary_line: 0 schemes
 tags:
 - Company
-- EdTech
-- Healthcare Training
-- Continuing Education
-- DPC
-- E-Learning
-- France
-- Healthcare Professionals
-- Course Catalog
-- LMS
+- Edtech
+- healthcare-training
+- continuing-education
+- dpc
+- e-learning
+- france
+- healthcare-professionals
+- course-catalog
+- lms
 ---

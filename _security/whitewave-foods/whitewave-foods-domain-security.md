@@ -40,7 +40,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whitewave-foods/refs/heads/main/security/whitewave-foods-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Food and Beverage
+- Food And Beverage
 - Plant-Based
 - Organic
 - Consumer Goods

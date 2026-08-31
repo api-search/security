@@ -35,7 +35,7 @@ tags:
 - Agents
 - Industrial AI
 - Neurosymbolic
-- Semiconductors
+- Semiconductor
 - Open-Source
 - Machine-Learning
 ---

@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/security/aifordatabase-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
-- AI
+- Artificial Intelligence
 - Database
 - Analytics
 - Developer Tools
@@ -100,12 +100,12 @@ tags:
 - Text-to-SQL
 - Dashboards
 - Business Intelligence
-- Workflow Automation
+- Workflow-Automation
 - Alerts
-- Agent-Native
-- LLMSTxt
+- agent-native
+- llms-txt
 - OpenAPI
-- Webhooks
+- Webhook
 - MCP
 - PostgreSQL
 - MySQL

@@ -114,7 +114,7 @@ tags:
 - Developer-Friendly
 - Football
 - Formula 1
-- Live Scores
+- Livescores
 - Motorsport
 - Real-Time
 - Soccer

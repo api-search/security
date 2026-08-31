@@ -79,7 +79,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sift-com/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fraud Prevention
-- Trust and Safety
+- Trust And Safety
 - Risk Scoring
 - Identity Verification
 - Chargebacks

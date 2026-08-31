@@ -20,7 +20,7 @@ summary_line: ISO 27001, GDPR
 tags:
 - Data Protection
 - SaaS Backup
-- Backup and Recovery
+- Backup And Recovery
 - Cloud
 trust_url: https://www.keepit.com/security/
 ---

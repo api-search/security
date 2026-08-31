@@ -82,12 +82,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Transportation
 - Logistics
-- Freight
-- Trucking
-- Transportation Management System
+- freight
+- trucking
+- transportation-management-system
 - Supply Chain
-- Dispatch
-- Webhooks
-- OAuth
-- Canada
+- dispatch
+- Webhook
+- Authentication
+- canada
 ---

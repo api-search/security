@@ -49,7 +49,7 @@ tags:
 - Banking
 - Core Banking
 - Credit Unions
-- Financial Services
+- Financial-Services
 - Integration
 - iPaaS
 - Payments

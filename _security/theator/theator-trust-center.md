@@ -27,6 +27,6 @@ tags:
 - Medical Video
 - Artificial Intelligence
 - Clinical Analytics
-- Health Tech
+- HealthTech
 trust_url: https://trust.theator.io/
 ---

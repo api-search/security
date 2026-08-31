@@ -57,7 +57,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Social-Media
 - Publishing
-- AI content
+- AI Content
 - Automation
 - Content Creation
 ---

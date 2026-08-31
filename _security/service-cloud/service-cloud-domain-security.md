@@ -64,14 +64,10 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/security/service-cloud-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Agents
 - Cloud
-- Contact Center
 - CRM
-- Customer Service
+- Customer-Service
 - Enterprise
-- Help Desk
-- Knowledge Management
 - Salesforce
 - Support
 ---

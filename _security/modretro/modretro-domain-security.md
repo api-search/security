@@ -37,7 +37,7 @@ tags:
 - Hardware
 - E-Commerce
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 - Open Source Hardware
 ---

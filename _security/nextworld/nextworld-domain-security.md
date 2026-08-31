@@ -44,9 +44,9 @@ tags:
 - Enterprise Resource Planning
 - No-Code
 - Enterprise Application Platform
-- Workflow Automation
+- Workflow-Automation
 - Artificial Intelligence
-- Model Context Protocol
+- MCP
 - Integration
 - Manufacturing
 - Distribution

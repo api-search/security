@@ -32,7 +32,7 @@ tags:
 - Childcare
 - Early Education
 - Preschool
-- Childcare Management
+- Child Care Management
 - Attendance
 - Billing
 - Payments

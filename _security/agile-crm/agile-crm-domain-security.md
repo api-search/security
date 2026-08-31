@@ -93,7 +93,7 @@ tags:
 - CRM
 - Sales Automation
 - Marketing Automation
-- Help Desk
+- Helpdesk
 - Small Business
 - Contact Management
 ---

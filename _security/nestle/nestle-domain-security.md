@@ -29,7 +29,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nestle/refs/heads/main/security/nestle-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Food and Beverage
+- Food & Beverage
 - Consumer Products
 - Pet Food
 - Fortune Global 500

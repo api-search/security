@@ -34,7 +34,7 @@ tags:
 - Threat Intelligence
 - Content Moderation
 - Athlete Protection
-- Trust and Safety
+- Trust And Safety
 - OSINT
 - Open Source Intelligence
 - Social Media Monitoring

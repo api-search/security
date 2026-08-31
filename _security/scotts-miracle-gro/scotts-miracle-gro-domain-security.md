@@ -29,11 +29,11 @@ source_yaml: "generated: '2026-08-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scotts-miracle-gro/refs/heads/main/security/scotts-miracle-gro-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
-- consumer-products
-- lawn-and-garden
-- manufacturing
-- retail
-- ecommerce
-- agriculture
-- home-and-garden
+- Consumer Products
+- Lawn and Garden
+- Manufacturing
+- Retail
+- E-Commerce
+- Agriculture
+- Home & Garden
 ---

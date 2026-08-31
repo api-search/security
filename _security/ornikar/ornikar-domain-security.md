@@ -35,6 +35,6 @@ tags:
 - Insurance
 - Driving School
 - Education
-- Insurtech
+- InsurTech
 - France
 ---

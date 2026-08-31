@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jobadder/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Recruitment
-- ATS
+- Applicant Tracking System
 - Staffing
 - Human Resources
 - Talent Acquisition

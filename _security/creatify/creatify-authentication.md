@@ -102,7 +102,7 @@ tags:
 - AI Video
 - Generative AI
 - Marketing Video
-- Text-to-Speech
+- Text to Speech
 - UGC Ads
 - AI Avatar
 ---

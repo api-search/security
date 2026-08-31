@@ -31,7 +31,7 @@ tags:
 - Company
 - Logistics
 - Delivery
-- Couriers
+- Courier
 - Shipping
 - Last Mile
 - E-Commerce

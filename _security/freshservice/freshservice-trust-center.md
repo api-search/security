@@ -69,6 +69,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshservice/r
 summary_line: SOC 2, ISO 27001, CSA STAR
 tags:
 - ITSM
+- IT Service Management
 - Help Desk
 - Ticketing
 - Asset Management

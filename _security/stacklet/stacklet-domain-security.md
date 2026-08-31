@@ -39,7 +39,7 @@ tags:
 - Infrastructure as Code
 - Terraform
 - GraphQL
-- Model Context Protocol
+- MCP
 - Azure
 - Google Cloud
 - Agents

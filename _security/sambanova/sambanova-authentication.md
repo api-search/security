@@ -57,7 +57,7 @@ summary_line: http · 1 scheme
 tags:
 - AI Inference
 - Large Language Models
-- Dataflows
+- Dataflow
 - Hardware
 - Cloud
 - OpenAI-Compatible

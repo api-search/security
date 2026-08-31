@@ -50,5 +50,5 @@ tags:
 - Reinsurance
 - Catastrophe Modeling
 - Underwriting
-- Insurtech
+- InsurTech
 ---

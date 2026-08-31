@@ -89,7 +89,7 @@ tags:
 - Genomics
 - Genetic Engineering
 - Synthetic Biology
-- De-Extinction
+- De-extinction
 - Conservation
 - Wildlife
 - Life Sciences

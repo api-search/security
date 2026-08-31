@@ -38,7 +38,7 @@ tags:
 - IT Management
 - RMM
 - PSA
-- Help Desk
+- Helpdesk
 - Ticketing
 - Patch Management
 - Remote Monitoring

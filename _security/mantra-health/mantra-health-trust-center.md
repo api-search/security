@@ -25,7 +25,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mantra-health/
 summary_line: HIPAA, SOC 2, SOC 1, TX-RAMP
 tags:
 - Company
-- Health Care
+- Healthcare
 - Mental Health
 - Telehealth
 - Higher Education

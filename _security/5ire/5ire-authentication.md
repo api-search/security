@@ -44,15 +44,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/5ire/refs/head
 summary_line: none · 3 schemes
 tags:
 - Blockchain
-- Layer 1
-- Smart Contracts
+- layer-1
+- smart-contracts
 - EVM
 - Web3
-- Substrate
-- JSON-RPC
-- Sustainability
+- substrate
+- json-rpc
+- sustainability
 - ESG
-- Proof of Stake
-- Cryptocurrency
+- proof-of-stake
+- cryptocurrency
 - Developer Tools
 ---

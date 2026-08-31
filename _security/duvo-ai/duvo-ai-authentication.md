@@ -202,7 +202,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/h
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- Enterprise AI
+- Enterprise; Ai
 - Process Intelligence
 - Automation
 - Agents

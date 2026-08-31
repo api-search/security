@@ -25,12 +25,12 @@ summary_line: HITRUST, ISO 27701, AICPA SOC, GDPR, HDS (Hébergeur de Données d
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Artificial Intelligence
 - Fraud Detection
 - Claims Automation
 - Decision Automation
 - Machine-Learning
-- Enterprise Saas
+- Enterprise SaaS
 trust_url: https://www.shift-technology.com/security
 ---

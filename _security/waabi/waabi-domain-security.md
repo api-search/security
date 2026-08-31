@@ -32,9 +32,9 @@ tags:
 - Company
 - Artificial Intelligence
 - Autonomous Vehicles
-- Self-Driving
+- Self Driving
 - Trucking
 - Robotics
 - Simulation
-- Physical AI
+- Physical Ai
 ---

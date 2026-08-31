@@ -130,14 +130,14 @@ source_yaml: "generated: '2026-08-22'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/security/happy-cabbage-analytics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Cannabis
+- cannabis
 - Retail
-- Inventory Management
+- inventory-management
 - Analytics
-- Purchasing
-- Point of Sale
-- Wholesale
-- Demand Forecasting
+- purchasing
+- point-of-sale
+- wholesale
+- demand-forecasting
 - Supply Chain
 - agent-native
 ---

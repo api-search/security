@@ -34,7 +34,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/favro/refs/hea
 summary_line: http · 1 scheme
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Project Management
 - Collaboration
 - Agile

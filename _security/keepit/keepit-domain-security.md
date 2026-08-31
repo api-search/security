@@ -34,6 +34,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Data Protection
 - SaaS Backup
-- Backup and Recovery
+- Backup And Recovery
 - Cloud
 ---

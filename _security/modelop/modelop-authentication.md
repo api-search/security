@@ -58,7 +58,7 @@ summary_line: 3 schemes
 tags:
 - AI Governance
 - Model Risk Management
-- Machine Learning
+- Machine-Learning
 - MLOps
 - ModelOps
 - AI Lifecycle Automation

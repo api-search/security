@@ -28,7 +28,7 @@ tags:
 - Expense Management
 - Invoicing
 - Accounts Payable
-- Workflow
+- Workflows
 - Approvals
 - Accounting
 - Payroll
@@ -37,7 +37,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Document Processing
-- SaaS
+- Software-as-a-Service
 - Enterprise Software
 - Fintech
 trust_url: ''

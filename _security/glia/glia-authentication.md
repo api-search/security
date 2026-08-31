@@ -72,6 +72,6 @@ tags:
 - Financial-Services
 - Conversational AI
 - Voice
-- Co-Browsing
+- CoBrowsing
 - Serverless
 ---

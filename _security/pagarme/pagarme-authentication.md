@@ -91,7 +91,7 @@ summary_line: http · 1 scheme
 tags:
 - Payments
 - Payment Gateway
-- Pix
+- PIX
 - Boleto
 - Brazil
 ---

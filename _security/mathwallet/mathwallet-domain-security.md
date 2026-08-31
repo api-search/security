@@ -36,5 +36,5 @@ tags:
 - Blockchain
 - Web3
 - DApps
-- Multi-Chain
+- Multichain
 ---

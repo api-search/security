@@ -199,15 +199,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/localai/refs/h
 summary_line: apiKey/http/oauth2/openIdConnect · 1 scheme
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Large Language Models
 - Inference
 - Self-Hosted
-- Open Source
+- Open-Source
 - Agents
-- Model Context Protocol
+- MCP
 - Speech
-- Computer Vision
+- Computer-Vision
 - Embeddings
 - Edge Computing
 ---

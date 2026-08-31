@@ -47,7 +47,7 @@ tags:
 - Integration Platform
 - iPaaS
 - Automation
-- No-Code
+- No Code
 - Enterprise
 - Data Replication
 - MCP

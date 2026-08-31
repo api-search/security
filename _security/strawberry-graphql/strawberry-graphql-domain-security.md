@@ -38,6 +38,6 @@ tags:
 - GraphQL
 - Python
 - Open-Source
-- Code-First
+- Code First
 - Federation
 ---

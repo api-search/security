@@ -71,20 +71,20 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/findigs/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - rental-screening
-- Tenant Screening
+- tenant-screening
 - resident-screening
 - rental-application
-- Underwriting
-- Decisioning
+- underwriting
+- decisioning
 - Identity Verification
-- Income Verification
-- Credit Check
-- Background Check
-- Fraud Detection
-- Property Management
-- Real-Estate
-- PropTech
-- FCRA
-- Fair Housing
+- income-verification
+- credit-check
+- background-check
+- fraud-detection
+- property-management
+- real-estate
+- proptech
+- fcra
+- fair-housing
 - Webhook
 ---

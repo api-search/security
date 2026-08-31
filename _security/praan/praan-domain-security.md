@@ -33,7 +33,7 @@ tags:
 - Frontier Tech
 - Climate
 - Air Quality
-- Cleantech
+- Clean Tech
 - Hardware
 - Carbon Capture
 - IoT

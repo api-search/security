@@ -45,14 +45,14 @@ tags:
 - Database
 - Analytics
 - gpu-acceleration
-- Real-Time Analytics
-- Vector Search
-- Graph Analytics
-- Geospatial
-- Time Series
+- real-time-analytics
+- vector-search
+- graph-analytics
+- geospatial
+- time-series
 - SQL
-- Streaming
-- Data Infrastructure
+- streaming
+- data-infrastructure
 - MCP
 - agent-native
 - RAG

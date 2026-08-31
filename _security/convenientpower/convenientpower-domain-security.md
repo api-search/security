@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/convenientpowe
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Semiconductors
+- Semiconductor
 - Wireless Charging
 - Power Management
 - USB Power Delivery

@@ -30,11 +30,11 @@ tags:
 - E-Commerce
 - Retail
 - off-grid solar
-- renewable energy
-- backup power
+- Renewable Energy
+- Backup Power
 - solar generators
 - LiFePO4 batteries
-- inverters
+- Inverters
 - homesteading
 - Agentic Commerce
 - MCP

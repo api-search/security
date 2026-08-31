@@ -36,7 +36,7 @@ tags:
 - Hedge Funds
 - Asset Management
 - Portfolio-Management
-- OMS
+- Order Management System
 - Trading
 - Compliance
 - Software-as-a-Service

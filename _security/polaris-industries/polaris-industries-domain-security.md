@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Fortune 1000
 - Manufacturing
-- Powersports
+- Power-Sports
 - Automotive
 - Consumer Products
 - Connected Vehicles

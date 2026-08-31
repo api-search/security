@@ -34,7 +34,7 @@ tags:
 - Home Services
 - Marketplace
 - Painting
-- PropTech
+- Prop-Tech
 - Construction
 - Consumer
 ---

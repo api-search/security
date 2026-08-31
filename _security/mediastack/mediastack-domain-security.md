@@ -50,6 +50,6 @@ tags:
 - News
 - News Aggregation
 - Media
-- APILayer
+- Apilayer
 - Public APIs
 ---

@@ -483,7 +483,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cloud Database
 - Database
-- Database-as-a-Service
+- DBaaS
 - Distributed SQL
 - PostgreSQL
 ---

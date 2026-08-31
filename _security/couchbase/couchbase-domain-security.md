@@ -370,7 +370,7 @@ tags:
 - Capella
 - Cloud
 - Database
-- Database-as-a-Service
+- DBaaS
 - Eventing
 - Full-Text Search
 - Gateway

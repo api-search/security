@@ -43,6 +43,6 @@ tags:
 - Artificial Intelligence
 - Patient Engagement
 - Insurance
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.league.com/
 ---

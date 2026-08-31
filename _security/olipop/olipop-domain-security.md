@@ -42,16 +42,16 @@ source_yaml: "generated: '2026-07-31'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/security/olipop-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Beverage
-- Consumer Packaged Goods
-- Direct to Consumer
+- beverage
+- consumer-packaged-goods
+- direct-to-consumer
 - E-Commerce
 - Retail
-- Agent Commerce
-- Universal Commerce Protocol
+- agent-commerce
+- universal-commerce-protocol
 - MCP
-- GraphQL
-- Shopify
+- graphql
+- shopify
 - prebiotic-soda
-- Functional Beverage
+- functional-beverage
 ---

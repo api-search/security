@@ -55,14 +55,14 @@ source_yaml: "generated: '2026-08-27'\nmethod: derived\nsource: openapi/mystars-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/authentication/mystars-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- telegram
+- Telegram
 - telegram-stars
 - telegram-premium
-- payments
-- crypto
-- ton
-- fulfilment
-- blockchain
-- digital-goods
+- Payments
+- Crypto
+- TON
+- Fulfilment
+- Blockchain
+- Digital Goods
 - reseller-api
 ---

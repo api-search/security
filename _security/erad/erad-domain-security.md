@@ -41,5 +41,5 @@ tags:
 - Revenue-Based Financing
 - Saudi Arabia
 - MENA
-- Sharia-Compliant
+- Sharia Compliant
 ---

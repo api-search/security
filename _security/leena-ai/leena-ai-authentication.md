@@ -102,7 +102,7 @@ tags:
 - Artificial Intelligence
 - Enterprise Software
 - Human Resources
-- ITSM
+- IT Service Management
 - Employee Experience
 - Workflow-Automation
 - Conversational AI

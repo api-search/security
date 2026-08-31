@@ -224,5 +224,5 @@ tags:
 - Dispatching
 - Skilled Trades
 - KYC
-- Wallet
+- Wallets
 ---

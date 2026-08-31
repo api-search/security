@@ -36,7 +36,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Game Development
-- Backend-as-a-Service
+- Backend as a Service
 - Game Backend
 - Authentication
 - Leaderboards

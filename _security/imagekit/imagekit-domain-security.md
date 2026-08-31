@@ -83,7 +83,7 @@ tags:
 - CDN
 - Media
 - Optimization
-- Transformation
+- Transformations
 - Digital Asset Management
 - DAM
 - Storage

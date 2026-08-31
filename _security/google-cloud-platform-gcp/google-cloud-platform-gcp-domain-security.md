@@ -39,9 +39,9 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Cloud Computing
 - Data Analytics
-- Infrastructure-as-a-Service
+- IaaS
 - Machine-Learning
-- Platform-as-a-Service
+- PaaS
 - Software-as-a-Service
 - Serverless
 ---

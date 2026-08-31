@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: postech-oasis-oai-pmh-openapi.yml
+  format: yaml
+  label: POSTECH OASIS Repository OAI-PMH
+  slug: oasis-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postech/refs/heads/main/openapi/postech-oasis-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,14 +51,23 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postech/refs/heads/main/security/postech-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- South Korea
+- Korea
+- Asia
+- Private Research University
 - Research
+- Research Data
 - Institutional Repository
 - OAI-PMH
 - DSpace
 - Library
-- South Korea
-- Korea
+- Identity Federation
+- SAML
+- eduGAIN
+- LTI
+- Learning Management System
+- Course Catalog
 ---

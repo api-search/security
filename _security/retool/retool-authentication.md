@@ -62,6 +62,6 @@ tags:
 - Admin Panel
 - Dashboard
 - Internal Tools
-- Low-Code
-- No-Code
+- Low Code
+- No Code
 ---

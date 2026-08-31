@@ -23,6 +23,6 @@ tags:
 - Voice Documentation
 - Nursing
 - Electronic Health Records
-- Long-Term Care
+- Long-term Care
 trust_url: https://trust.voize.ai/
 ---

@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dnn-software/r
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - CMS
 - Content Management
 - Open-Source

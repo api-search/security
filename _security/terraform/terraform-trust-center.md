@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/security/terraform-trust-center.yml
 summary_line: SOC 2 Type 2, ISO 27001, ISO 27017, ISO 27018
 tags:
-- Infrastructure as Code
+- Infrastructure As Code
 - Cloud Infrastructure
 - DevOps
 - Open-Source

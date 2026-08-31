@@ -245,16 +245,16 @@ source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/security/forta-health-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Healthcare
-- Autism
-- ABA Therapy
-- Behavioral Health
-- Telehealth
-- Digital Health
+- healthcare
+- autism
+- aba-therapy
+- behavioral-health
+- telehealth
+- digital-health
 - pediatric-care
-- Clinical Operations
-- Medicaid
-- Health Insurance
-- EHR
-- Machine-Learning
+- clinical-operations
+- medicaid
+- health-insurance
+- ehr
+- machine-learning
 ---

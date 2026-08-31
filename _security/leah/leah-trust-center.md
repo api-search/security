@@ -32,7 +32,7 @@ tags:
 - Legal
 - Legal Technology
 - Procurement
-- Source-to-Pay
+- Source To Pay
 - Finance
 - Enterprise Software
 trust_url: https://leahai.com/trust-portal

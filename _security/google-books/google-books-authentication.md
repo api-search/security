@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-books/r
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Books
-- Ebooks
+- eBooks
 - Google
 - Library
 - Publishing

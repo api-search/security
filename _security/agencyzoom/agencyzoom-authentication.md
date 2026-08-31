@@ -79,7 +79,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/ref
 summary_line: http · 1 scheme
 tags:
 - Insurance
-- Insurtech
+- InsurTech
 - CRM
 - Sales Automation
 - Agency Management

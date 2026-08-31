@@ -63,9 +63,9 @@ tags:
 - Distributed Systems
 - Edge Computing
 - Publish Subscribe
-- Key Value Store
+- Key-Value Store
 - Object Storage
 - Infrastructure
 - Agentic AI
-- Open Source
+- Open-Source
 ---

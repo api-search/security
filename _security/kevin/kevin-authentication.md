@@ -52,7 +52,7 @@ tags:
 - Company
 - Payments
 - Open Banking
-- Account-to-Account
+- Account to Account
 - PSD2
 - Fintech
 - Bank Payments

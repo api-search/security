@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/replika-ai/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Chatbots
+- Chatbot
 - Companion
 - Consumer
 - Mental Wellness

@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/h
 summary_line: http · 1 scheme
 tags:
 - Hosting
-- Platform-as-a-Service
+- PaaS
 - Cloud
 - Deployment
 - Databases

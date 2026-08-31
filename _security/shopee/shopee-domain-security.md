@@ -43,7 +43,7 @@ tags:
 - E-Commerce
 - Marketplace
 - Southeast Asia
-- Cross-Border
+- Cross-border
 - Order
 - Product
 - Logistics

@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terrafirma/ref
 summary_line: TLSv1.3
 tags:
 - Company
-- Physical AI
+- Physical Ai
 - Robotics
 - Construction
 - Autonomous Systems

@@ -41,7 +41,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-waf/ref
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Bot Management
-- DDoS Protection
+- Ddos Protection
 - Security
 - WAF
 - Web Application Firewall

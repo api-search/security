@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Healthcare
-- Health Tech
+- Healthtech
 - Pharmacy
 - Direct-to-Patient
 - Medication Access

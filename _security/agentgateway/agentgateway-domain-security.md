@@ -44,7 +44,7 @@ domains:
   domain: agentgateway.dev
   spf: false
 hosts:
-- cert_expires: Sep  9 19:32:36 2026 GMT
+- cert_expires: Nov  7 23:01:00 2026 GMT
   host: agentgateway.dev
   hsts: false
   https: true
@@ -63,7 +63,7 @@ slug: agentgateway-domain-security
 source_filename: agentgateway-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agentgateway.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 19:32:36 2026 GMT\n  hsts: false\n- host: 127.0.0.1\n  https: false\ndomains:\n- domain: agentgateway.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agentgateway.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 23:01:00 2026 GMT\n  hsts: false\n- host: 127.0.0.1\n  https: false\ndomains:\n- domain: agentgateway.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/security/agentgateway-domain-security.yml
 summary_line: TLSv1.3
 tags:

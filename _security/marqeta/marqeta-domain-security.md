@@ -522,7 +522,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fintech
-- Backend-as-a-Service
+- BaaS
 - Card Issuing
 - Payments
 - Embedded Finance

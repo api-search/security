@@ -34,7 +34,7 @@ tags:
 - Cryptography
 - Hardware
 - Semiconductors
-- Zero-Knowledge Proofs
+- Zero Knowledge Proofs
 - Fully Homomorphic Encryption
 - Privacy
 - Accelerated Computing

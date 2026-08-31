@@ -37,7 +37,7 @@ tags:
 - Health and Wellness
 - Personal Care
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 - Shopify
 ---

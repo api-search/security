@@ -34,7 +34,7 @@ tags:
 - Sustainability
 - Circular Economy
 - Retail Media
-- Digital Out-of-Home
+- Digital Out Of Home
 - Advertising
 - Artificial Intelligence
 - Reverse Vending

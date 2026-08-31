@@ -171,8 +171,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/
 summary_line: apiKey/http/oauth2 · 7 schemes
 tags:
 - Company
-- Backend-as-a-Service
-- agent-native
+- Backend as a Service
+- Agent Native
 - Cloud Infrastructure
 - Database
 - Authentication

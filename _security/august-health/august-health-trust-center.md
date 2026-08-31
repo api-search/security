@@ -23,7 +23,7 @@ tags:
 - Healthcare
 - EHR
 - Senior Living
-- Elder Care
+- Eldercare
 - Electronic Health Records
 - eMAR
 - Billing

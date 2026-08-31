@@ -92,14 +92,14 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: >-\n  openapi/sam
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/authentication/samaya-ai-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
-- Artificial Intelligence
-- Financial Services
-- Investment Research
+- artificial-intelligence
+- Financial-Services
+- investment-research
 - AI Agents
 - MCP
 - agent-native
-- Capital Markets
-- Enterprise Search
-- Retrieval
-- GraphQL
+- capital-markets
+- enterprise-search
+- retrieval
+- graphql
 ---

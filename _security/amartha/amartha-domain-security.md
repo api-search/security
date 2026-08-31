@@ -35,7 +35,7 @@ tags:
 - Fintech
 - Lending
 - Microfinance
-- Peer-to-Peer Lending
+- Peer to Peer Lending
 - Financial Inclusion
 - Payments
 - Indonesia

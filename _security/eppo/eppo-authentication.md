@@ -63,7 +63,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Experimentation
 - Feature Flags
-- A/B Testing
+- AB Testing
 - Analytics
 - Statistics
 ---

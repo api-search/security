@@ -57,7 +57,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landbase/refs/
 summary_line: 2 schemes
 tags:
 - Company
-- Go To Market
+- Go-To-Market
 - Sales
 - Marketing
 - B2B Data

@@ -89,7 +89,8 @@ tags:
 - Account Based Marketing
 - Buying Groups
 - Signal Orchestration
-- Go-To-Market
+- Go to Market
+- GTM
 - CRM
 - AppExchange
 trust_url: https://trust.leandata.com/

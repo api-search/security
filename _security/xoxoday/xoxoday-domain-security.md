@@ -69,6 +69,6 @@ tags:
 - Recognition
 - Digital Rewards
 - Points Programs
-- Redemptions
+- Redemption
 - Fintech
 ---

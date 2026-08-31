@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Mobility
-- Ride Hailing
+- Ride-Hailing
 - Transportation
 - Delivery
 - Super App

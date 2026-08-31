@@ -34,7 +34,7 @@ tags:
 - Developer Tools
 - Chemistry
 - Materials Science
-- Research and Development
+- Research And Development
 - Artificial Intelligence
 - Laboratory Informatics
 - Data Management

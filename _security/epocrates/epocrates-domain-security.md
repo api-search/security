@@ -36,5 +36,5 @@ tags:
 - Clinical Decision Support
 - Drug Interactions
 - Mobile App
-- Athenahealth
+- athenahealth
 ---

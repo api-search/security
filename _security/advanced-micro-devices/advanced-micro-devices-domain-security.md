@@ -92,6 +92,6 @@ tags:
 - GPU
 - HPC
 - Machine-Learning
-- Semiconductors
+- Semiconductor
 - Fortune 500
 ---

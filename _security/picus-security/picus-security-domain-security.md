@@ -127,13 +127,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/picus-security
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cybersecurity
-- Security Validation
-- Breach and Attack Simulation
-- Adversarial Exposure Validation
-- Continuous Threat Exposure Management
-- Penetration Testing
+- security-validation
+- breach-and-attack-simulation
+- adversarial-exposure-validation
+- continuous-threat-exposure-management
+- penetration-testing
 - Threat Intelligence
 - mitre-attack
-- Detection Engineering
-- Security Operations
+- detection-engineering
+- security-operations
 ---

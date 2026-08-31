@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dropbox-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dropbox-sign/refs/heads/main/authentication/dropbox-sign-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- E-Signature
+- eSignature
 - Electronic Signature
 - Document Signing
 - Workflow-Automation

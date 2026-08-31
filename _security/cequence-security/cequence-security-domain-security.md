@@ -41,16 +41,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cequence-security/refs/heads/main/security/cequence-security-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- API Security
-- AI Gateway
+- api-security
+- ai-gateway
 - MCP
-- Agentic AI
-- Bot Management
-- API Discovery
-- API Governance
-- Fraud Detection
-- WAAP
+- agentic-ai
+- bot-management
+- api-discovery
+- api-governance
+- fraud-detection
+- waap
 - Cybersecurity
-- API Testing
+- api-testing
 - agent-native
 ---

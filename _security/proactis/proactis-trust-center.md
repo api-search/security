@@ -26,10 +26,10 @@ summary_line: ISO/IEC 27001, ISO 9001, Cyber Essentials, ISAE 3402, G-Cloud
 tags:
 - Procurement
 - Purchase-To-Pay
-- Source-To-Pay
+- Source-to-Pay
 - Spend Management
 - Contract Management
-- eInvoicing
+- E-Invoicing
 - Accounts Payable
 - Supplier Management
 - eSourcing

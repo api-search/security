@@ -99,7 +99,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groove/refs/he
 summary_line: apiKey/http · 2 schemes
 tags:
 - Customer-Support
-- Help Desk
+- Helpdesk
 - Shared Inbox
 - Knowledge Base
 - Conversations

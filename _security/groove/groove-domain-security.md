@@ -102,7 +102,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groove/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Customer-Support
-- Help Desk
+- Helpdesk
 - Shared Inbox
 - Knowledge Base
 - Conversations

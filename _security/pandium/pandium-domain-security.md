@@ -77,7 +77,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pandium/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - B2B
-- Hub
+- Hubs
 - Integration
 - Workflows
 ---

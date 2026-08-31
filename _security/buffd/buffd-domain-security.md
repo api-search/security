@@ -33,6 +33,6 @@ tags:
 - Gaming
 - Esports
 - Consumer
-- Progressive Web App
+- Progressive-Web-App
 - Mobile
 ---

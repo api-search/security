@@ -25,11 +25,11 @@ summary_line: SOC 2 Type 2, GDPR, CASA Tier 2, CASA Tier 3, OWASP ASVS
 tags:
 - AI Automation
 - Workflow-Automation
-- Web-Scraping
-- Data-Enrichment
-- Browser-Extension
-- Sales-Automation
-- No-Code
+- Web Scraping
+- Data Enrichment
+- Browser Extension
+- Sales Automation
+- No Code
 - Go-To-Market
 trust_url: https://www.bardeen.ai/security
 ---

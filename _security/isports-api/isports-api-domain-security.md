@@ -137,7 +137,7 @@ tags:
 - Odds
 - Live Data
 - Sports Statistics
-- Live Scores
+- Livescores
 - Widgets
 - REST API
 ---

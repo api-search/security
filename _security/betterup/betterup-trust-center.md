@@ -27,7 +27,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betterup/refs/
 summary_line: SOC 2 Type 2, SOC 3, ISO/IEC 27001:2022, ISO/IEC 42001:2023, FedRAMP, GovRAMP, GDPR, CCPA, PIPEDA, EU-US Data Privacy Framework
 tags:
 - Company
-- HR Tech
+- Hr Tech
 - Coaching
 - Leadership Development
 - Professional Development

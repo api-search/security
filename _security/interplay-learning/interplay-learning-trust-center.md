@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/interplay-lear
 summary_line: SOC 2 Type 2, TX-RAMP
 tags:
 - Company
-- EdTech
+- Edtech
 - Skilled Trades
 - Training
 - Learning Management

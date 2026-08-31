@@ -168,7 +168,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/h
 summary_line: trust center published
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Supply Chain
 - Risk Intelligence
 - Sustainability

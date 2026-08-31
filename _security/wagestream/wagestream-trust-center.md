@@ -48,17 +48,17 @@ source_yaml: "generated: '2026-08-05'\nmethod: probed\nprobe: true\nurl: https:/
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wagestream/refs/heads/main/security/wagestream-trust-center.yml
 summary_line: trust center published
 tags:
-- Financial Wellbeing
-- Earned Wage Access
+- financial-wellbeing
+- earned-wage-access
 - Fintech
-- Payroll
-- Human Resources
-- Workforce Management
-- Time and Attendance
-- Employee Benefits
-- Workplace Savings
-- HR Integrations
-- B Corp
-- United Kingdom
+- payroll
+- human-resources
+- workforce-management
+- time-and-attendance
+- employee-benefits
+- workplace-savings
+- hr-integrations
+- b-corp
+- united-kingdom
 trust_url: https://trust.stream.co/
 ---

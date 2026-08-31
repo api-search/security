@@ -47,7 +47,7 @@ summary_line: oauth2/http · 2 schemes
 tags:
 - Company
 - Agriculture
-- AgriTech
+- Agritech
 - Precision Agriculture
 - Plant Health
 - Photosynthesis

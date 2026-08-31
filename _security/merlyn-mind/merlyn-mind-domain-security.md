@@ -38,6 +38,6 @@ tags:
 - Large Language Models
 - Voice Assistant
 - Classroom Technology
-- Machine Learning
+- Machine-Learning
 - Responsible AI
 ---

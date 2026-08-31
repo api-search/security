@@ -37,6 +37,6 @@ tags:
 - Marketplace
 - Real-Estate
 - Productivity
-- Future Of Work
+- Future of Work
 - Travel
 ---

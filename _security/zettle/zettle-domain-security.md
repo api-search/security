@@ -55,6 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zettle/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Point-of-Sale
+- POS
 - Payments
 - Inventory
 - Finance

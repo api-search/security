@@ -86,14 +86,14 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Threat Intelligence
 - Cybersecurity
-- Attack Surface Management
-- Internet Scanning
-- Dark Web Monitoring
-- Vulnerability Management
-- CVE
-- exposed-buckets
-- Domain Intelligence
-- WHOIS
+- attack-surface-management
+- internet-scanning
+- dark-web-monitoring
+- vulnerability-management
+- cve
+- ExposedBuckets
+- domain-intelligence
+- whois
 - OSINT
 - Security
 ---

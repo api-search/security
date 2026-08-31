@@ -38,7 +38,7 @@ tags:
 - Artificial Intelligence
 - Vector Store
 - Data Lake
-- Multi-Modal
+- Multimodal
 - Deep Learning
 - Python SDK
 ---

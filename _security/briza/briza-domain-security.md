@@ -33,7 +33,7 @@ tags:
 - Company
 - Insurance
 - Commercial Insurance
-- Insurtech
+- InsurTech
 - API Reliability
 - Integration
 - Open-Source

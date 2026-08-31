@@ -32,7 +32,7 @@ tags:
 - Company
 - Semiconductors
 - Photonics
-- Lidar
+- LiDAR
 - 3D Sensing
 - Programmable Optics
 - Beam Steering

@@ -55,8 +55,8 @@ tags:
 - should-cost
 - plm-integration
 - cost-engineering
-- Digital Manufacturing
-- Sustainability
-- Workflow-Automation
-- CAD
+- digital-manufacturing
+- sustainability
+- workflow-automation
+- cad
 ---

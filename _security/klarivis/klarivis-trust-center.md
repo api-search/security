@@ -20,7 +20,7 @@ summary_line: SOC 2 Type 2
 tags:
 - Company
 - Banking
-- Financial Services
+- Financial-Services
 - Data Analytics
 - Business Intelligence
 - Community Banking

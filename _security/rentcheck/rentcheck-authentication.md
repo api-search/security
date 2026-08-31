@@ -240,5 +240,5 @@ tags:
 - PropTech
 - Inspections
 - Maintenance
-- Rentals
+- Rental
 ---

@@ -124,7 +124,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Blockchain
 - Cryptocurrency
-- Proof of Stake
+- Proof-of-Stake
 - DeFi
 - Smart Contracts
 ---

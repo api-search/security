@@ -40,7 +40,7 @@ tags:
 - Company
 - Blockchain
 - Cryptocurrency
-- Stablecoins
+- Stablecoin
 - Payments
 - Fintech
 - Wallets

@@ -67,8 +67,8 @@ tags:
 - Inventory Management
 - Order Management
 - Third Party Logistics
-- Ecommerce
+- E-Commerce
 - Shipping
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 ---

@@ -32,9 +32,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
 - Reinsurance
-- Property and Casualty
+- Property And Casualty
 - Specialty Insurance
-- Excess and Surplus
+- Excess And Surplus
 - Surety
 - Financial-Services
 - Holding Company

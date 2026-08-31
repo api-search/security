@@ -729,7 +729,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- MarTech
+- Martech
 - Community
 - Social-Media
 - Customer Engagement

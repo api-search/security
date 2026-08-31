@@ -47,11 +47,11 @@ tags:
 - Tourism
 - Booking
 - Reservations
-- Experiences
+- Experience
 - Tours and Activities
 - Payments
 - Marketplace
 - MCP
 - OCTO
-- SaaS
+- Software-as-a-Service
 ---

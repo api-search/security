@@ -34,7 +34,7 @@ tags:
 - Delivery
 - Logistics
 - Instant Retail
-- Last Mile Delivery
+- Last-Mile Delivery
 - On-Demand
 - Local Commerce
 - China

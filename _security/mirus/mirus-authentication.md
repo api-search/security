@@ -32,7 +32,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Medical Devices
-- Health Care
+- Healthcare
 - Life Sciences
 - Spine
 - Orthopaedics

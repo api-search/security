@@ -42,7 +42,7 @@ tags:
 - Retail
 - E-Commerce
 - Agent Commerce
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 - Shopify
 - Direct to Consumer

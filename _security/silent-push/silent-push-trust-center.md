@@ -34,6 +34,6 @@ tags:
 - Enrichment
 - Threat Feeds
 - WHOIS
-- Model Context Protocol
+- MCP
 trust_url: ''
 ---

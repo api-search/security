@@ -112,6 +112,6 @@ tags:
 - Automation
 - Cloud Resources
 - IaC
-- Infrastructure as Code
+- Infrastructure As Code
 - Stack Management
 ---

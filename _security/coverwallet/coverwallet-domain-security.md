@@ -47,6 +47,6 @@ tags:
 - General Liability
 - BOP
 - Professional Liability
-- Insurtech
+- InsurTech
 - Aon
 ---

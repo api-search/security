@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: university-of-pittsburgh-project-tycho-api-openapi.yml
+  format: yaml
+  label: Project Tycho API
+  slug: project-tycho
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/openapi/university-of-pittsburgh-project-tycho-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -52,11 +59,20 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/security/university-of-pittsburgh-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Open Data
-- Research Data
-- Library
+- Higher Education
+- Education
 - United States
+- Public Research University
+- Research Data
+- Open Data
+- Epidemiology
+- Public Health
+- Civic Data
+- Scholarly Publishing
+- Institutional Repository
+- Library
+- Identity Federation
+- OAI-PMH
+- Open Access
 ---

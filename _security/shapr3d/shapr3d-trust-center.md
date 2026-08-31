@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shapr3d/refs/h
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - CAD
 - 3D Modeling
 - Design

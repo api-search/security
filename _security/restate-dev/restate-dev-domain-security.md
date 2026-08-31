@@ -43,7 +43,7 @@ tags:
 - Kafka
 - Microservice Orchestration
 - Orchestration
-- Pro-Code-API-Composition
+- ProCode_API_Composition
 - Resilience
 - Sagas
 - Self-Hosting

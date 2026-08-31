@@ -108,7 +108,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Object Storage
 - IPFS
-- S3 Compatible
+- S3-Compatible
 - Decentralized Storage
 - Pinning
 - Web3

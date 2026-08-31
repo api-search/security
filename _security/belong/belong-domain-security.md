@@ -33,7 +33,7 @@ tags:
 - Company
 - Real-Estate
 - Property Management
-- Rentals
+- Rental
 - PropTech
 - Housing
 ---

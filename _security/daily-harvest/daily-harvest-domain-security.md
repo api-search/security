@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/daily-harvest/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Food and Beverage
+- Food & Beverage
 - Direct to Consumer
 - E-Commerce
 - Food Delivery
-- Health and Wellness
+- Health & Wellness
 - Subscription
 - Shopify
 ---

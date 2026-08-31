@@ -42,17 +42,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/striveworks/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Artificial Intelligence
-- Machine-Learning
-- MLOps
-- AIOps
-- Model Deployment
-- Model Monitoring
+- artificial-intelligence
+- machine-learning
+- mlops
+- aiops
+- model-deployment
+- model-monitoring
 - Inference
-- Data Annotation
-- Computer-Vision
-- Agentic Workflows
-- Defense
-- GovTech
-- Edge Computing
+- data-annotation
+- computer-vision
+- agentic-workflows
+- defense
+- govtech
+- edge-computing
 ---

@@ -36,5 +36,5 @@ tags:
 - HIV
 - Oncology
 - Healthcare
-- Clinical Trials
+- ClinicalTrials
 ---

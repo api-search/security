@@ -33,7 +33,7 @@ tags:
 - Company
 - Healthcare
 - Life Sciences
-- Real-World Evidence
+- Real World Evidence
 - Health Data
 - Clinical Research
 - Analytics

@@ -115,8 +115,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Speech-to-Text
-- Text-to-Speech
+- Speech-To-Text
+- Text-To-Speech
 - Transcription
 - Voice AI
 ---

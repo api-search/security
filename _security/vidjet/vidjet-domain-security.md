@@ -47,7 +47,7 @@ tags:
 - Shopify
 - Conversion
 - Marketing
-- No-Code
+- No-code
 - Widgets
 - Embed
 ---

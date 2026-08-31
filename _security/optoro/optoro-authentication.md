@@ -169,14 +169,14 @@ source_yaml: "generated: '2026-08-26'\nmethod: derived\nsource: openapi/optoro-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/authentication/optoro-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- Returns Management
-- Reverse Logistics
+- returns-management
+- reverse-logistics
 - Retail
 - Supply Chain
-- eCommerce
-- Fulfillment
-- Drop Ship
+- E-Commerce
+- fulfillment
+- drop-ship
 - Inventory
-- Webhooks
-- Order Management
+- Webhook
+- order-management
 ---

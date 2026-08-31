@@ -170,7 +170,7 @@ summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Voice AI
-- Text-to-Speech
+- Text to Speech
 - Speech-to-Text
 - Real-Time
 - WebSocket

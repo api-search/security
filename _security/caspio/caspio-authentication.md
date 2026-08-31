@@ -71,8 +71,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/caspio-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/authentication/caspio-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Low-Code
-- No-Code
+- Low Code
+- No Code
 - Database
 - Application Platform
 - Cloud Database

@@ -260,16 +260,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: https://docs.pi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/authentication/pingcap-authentication.yml
 summary_line: http · 4 schemes
 tags:
-- Distributed SQL
+- distributed-sql
 - Database
 - tidb
 - htap
 - mysql-compatible
-- Cloud Database
-- Database-as-a-Service
-- Vector Search
-- Data Migration
-- Change Data Capture
+- cloud-database
+- dbaas
+- vector-search
+- data-migration
+- change-data-capture
 - Open-Source
 - Infrastructure
 ---

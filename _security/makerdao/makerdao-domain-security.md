@@ -33,10 +33,10 @@ tags:
 - Company
 - Crypto Defi
 - DeFi
-- Stablecoins
+- Stablecoin
 - Ethereum
 - Smart Contracts
 - Blockchain
 - Governance
-- Dai
+- DAI
 ---

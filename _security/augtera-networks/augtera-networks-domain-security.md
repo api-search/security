@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/augtera-networ
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- AI Infrastructure
+- Ai Infrastructure
 - Networking
 - AIOps
 - Network Monitoring

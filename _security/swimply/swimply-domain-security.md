@@ -34,7 +34,7 @@ tags:
 - Consumer
 - Travel and Hospitality
 - Booking
-- Peer-to-Peer
+- Peer to Peer
 - Recreation
 - Sharing Economy
 ---

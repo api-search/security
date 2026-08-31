@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
 - Financial
-- Property and Casualty
+- Property & Casualty
 - Open Insurance
 - API Platform
 ---

@@ -36,7 +36,7 @@ tags:
 - SDK
 - Developer Platform
 - Extensions
-- Print on Demand
+- Print On Demand
 - E-Commerce
 - Artificial Intelligence
 - Mockups

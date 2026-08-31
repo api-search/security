@@ -33,7 +33,7 @@ tags:
 - Company
 - Financial Education
 - Fintech
-- EdTech
+- Edtech
 - Personal Finance
 - Investing
 - Women

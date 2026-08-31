@@ -34,7 +34,7 @@ tags:
 - Real Estate Development
 - Residential
 - Affordable Housing
-- Mixed-Use Development
+- Mixed Use Development
 - Commercial Real Estate
 - Retail
 - Hospitality

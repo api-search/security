@@ -56,11 +56,11 @@ tags:
 - AI Agents
 - Agent Orchestration
 - Large Language Models
-- Model Context Protocol
+- MCP
 - Agentic Commerce
-- Open Source
+- Open-Source
 - Developer Tools
-- SDKs
+- SDK
 - TypeScript
 - Elixir
 - Voice

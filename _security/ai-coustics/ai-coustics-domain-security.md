@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ai-coustics/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai Ml
+- Ai/Ml
 - Audio
 - Speech Enhancement
 - Voice AI

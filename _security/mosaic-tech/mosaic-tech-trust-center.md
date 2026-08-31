@@ -24,7 +24,7 @@ tags:
 - Strategic Finance
 - Business Intelligence
 - Analytics
-- SaaS
+- Software-as-a-Service
 - Acquired
 trust_url: https://trust.mosaic.tech/
 ---

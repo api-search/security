@@ -51,5 +51,5 @@ tags:
 - Sales
 - Recommendations
 - CRM
-- E-Commerce
+- e-Commerce
 ---

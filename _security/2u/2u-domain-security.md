@@ -36,5 +36,5 @@ tags:
 - EdTech
 - Online Learning
 - Universities
-- EDX
+- edX
 ---

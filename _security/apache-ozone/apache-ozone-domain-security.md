@@ -50,7 +50,7 @@ tags:
 - Distributed Storage
 - Hadoop
 - Object Storage
-- S3 Compatible
+- S3-Compatible
 - Apache
 - Open-Source
 ---

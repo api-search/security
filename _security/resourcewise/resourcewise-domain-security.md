@@ -35,7 +35,7 @@ tags:
 - Commodities
 - Data & Analytics
 - Forest Products
-- Pulp And Paper
+- Pulp and Paper
 - Chemicals
 - Biofuels
 - Pricing Data

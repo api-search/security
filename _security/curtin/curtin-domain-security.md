@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: curtin-web-search-openapi.yml
+  format: yaml
+  label: Curtin Web Platform API (mimas/v1)
+  slug: web-platform
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curtin/refs/heads/main/openapi/curtin-web-search-openapi.yml
+- filename: curtin-coki-openapi.yml
+  format: yaml
+  label: COKI Open Access Dashboard API
+  slug: coki
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curtin/refs/heads/main/openapi/curtin-coki-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,11 +57,17 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/curtin/refs/heads/main/security/curtin-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
+- Open Access
 - Open Data
+- Course Catalog
 - Library
+- Identity Federation
+- Research Data
 - Australia
+- Western Australia
+- Australian Technology Network
 ---

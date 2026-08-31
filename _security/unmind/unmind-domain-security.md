@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unmind/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Health Tech
+- Healthtech
 - Mental Health
 - Employee Wellbeing
 - EAP

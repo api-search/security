@@ -33,7 +33,7 @@ tags:
 - Company
 - Logistics
 - Delivery
-- Couriers
+- Courier
 - Messenger
 - Last Mile
 - Transportation

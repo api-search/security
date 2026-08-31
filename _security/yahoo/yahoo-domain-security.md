@@ -43,12 +43,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Advertising
 - Programmatic Advertising
-- Demand Side Platform
+- Demand-Side Platform
 - Fantasy Sports
 - Sports Data
 - Identity
 - OpenID Connect
-- OAuth
+- Authentication
 - Audience Data
 - Media
 - Reporting

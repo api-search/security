@@ -90,7 +90,7 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - ERP
 - Cloud
-- Mid-Market
+- Midmarket
 - Financials
 - CRM
 - Procurement

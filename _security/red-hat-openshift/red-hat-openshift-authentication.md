@@ -100,6 +100,6 @@ tags:
 - Enterprise
 - Hybrid Cloud
 - Kubernetes
-- Platform-as-a-Service
+- PaaS
 - Red Hat
 ---

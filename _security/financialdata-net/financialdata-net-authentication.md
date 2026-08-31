@@ -35,21 +35,21 @@ source_yaml: "generated: '2026-08-22'\nmethod: searched\nsource: https://financi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/financialdata-net/refs/heads/main/authentication/financialdata-net-authentication.yml
 summary_line: 1 scheme
 tags:
-- finance
-- financial-data
+- Finance
+- Financial Data
 - stock-market-api
-- market-data
-- equities
-- etf
-- crypto
-- forex
+- Market Data
+- Equities
+- ETFs
+- Crypto
+- Forex
 - derivatives-options
-- fundamentals
-- insider-trading
+- Fundamentals
+- Insider Trading
 - institutional-13f
-- esg
-- economic-data
-- mcp
-- investing
-- trading
+- ESG
+- Economic Data
+- MCP
+- Investing
+- Trading
 ---

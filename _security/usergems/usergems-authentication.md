@@ -84,7 +84,7 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Sales Intelligence
 - Outbound
-- Account Based Marketing
+- ABM
 - Champion Tracking
 - Job Changes
 - Buying Signals
@@ -92,7 +92,7 @@ tags:
 - Sales Engagement
 - CRM
 - Revenue Operations
-- Go-To-Market
+- GTM
 - MCP
 - AI Agents
 ---

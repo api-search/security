@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plotbox/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Death Care
+- Deathcare
 - Cemetery Management
 - Funeral Homes
 - Crematory

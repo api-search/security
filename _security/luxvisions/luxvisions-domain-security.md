@@ -35,7 +35,7 @@ tags:
 - Imaging
 - Semiconductors
 - Hardware
-- AIoT
+- AIOT
 - Automotive
 - 3D Sensing
 ---

@@ -84,7 +84,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/treasury-prime
 summary_line: http · 1 scheme
 tags:
 - Fintech
-- Backend-as-a-Service
+- BaaS
 - Banking
 - Payments
 - Card Issuing

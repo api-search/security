@@ -72,10 +72,10 @@ tags:
 - Company
 - GPU
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Semiconductors
 - Speech Recognition
-- Text To Speech
+- Text-to-Speech
 - Voice
 - LLM Inference
 - Cloud Computing

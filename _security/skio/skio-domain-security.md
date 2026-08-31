@@ -43,7 +43,7 @@ tags:
 - Subscription
 - Shopify
 - E-Commerce
-- Direct to Consumer
+- DTC
 - Recurring Billing
 - GraphQL
 ---

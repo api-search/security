@@ -78,18 +78,18 @@ source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/security/0g-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Artificial Intelligence
-- AI Inference
-- LLM
-- GPU Compute
-- Decentralized Compute
+- artificial-intelligence
+- ai-inference
+- llm
+- gpu-compute
+- decentralized-compute
 - Blockchain
 - Web3
 - EVM
-- Decentralized Storage
-- Data Availability
-- OpenAI-Compatible
-- Trusted Execution Environment
+- decentralized-storage
+- data-availability
+- openai-compatible
+- trusted-execution-environment
 - agent-native
-- Crypto Infrastructure
+- crypto-infrastructure
 ---

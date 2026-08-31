@@ -33,7 +33,7 @@ tags:
 - Company
 - Fintech
 - Wealth Management
-- WealthTech
+- Wealth Tech
 - Financial Advisors
 - Artificial Intelligence
 ---

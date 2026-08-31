@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Payments
-- Stablecoins
+- Stablecoin
 - Cryptocurrency
 - Blockchain
 - Web3

@@ -40,11 +40,11 @@ tags:
 - Payouts
 - Wallets
 - Digital Wallet
-- Multi-Currency
+- Multicurrency
 - Cards
 - Card Issuing
-- Pix
-- LatAm
+- PIX
+- LATAM
 - Latin America
 - Brazil
 - Argentina

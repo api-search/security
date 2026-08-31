@@ -49,7 +49,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Governance
 - Model Risk Management
-- Machine Learning
+- Machine-Learning
 - MLOps
 - ModelOps
 - AI Lifecycle Automation

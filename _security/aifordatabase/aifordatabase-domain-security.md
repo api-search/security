@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/security/aifordatabase-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Database
 - Analytics
 - Developer Tools
@@ -117,12 +117,12 @@ tags:
 - Text-to-SQL
 - Dashboards
 - Business Intelligence
-- Workflow Automation
+- Workflow-Automation
 - Alerts
-- Agent-Native
-- LLMSTxt
+- agent-native
+- llms-txt
 - OpenAPI
-- Webhooks
+- Webhook
 - MCP
 - PostgreSQL
 - MySQL

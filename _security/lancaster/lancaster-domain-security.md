@@ -2,10 +2,16 @@
 api_specs:
 - filename: lancaster-oai2-api-openapi.yml
   format: yaml
-  label: Lancaster University Oai2 API
+  label: Lancaster EPrints OAI-PMH 2.0 Interface
   slug: lancaster-oai2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/openapi/lancaster-oai2-api-openapi.yml
+- filename: lancaster-identityfederation-api-openapi.yml
+  format: yaml
+  label: Lancaster Shibboleth Identity Provider (SAML 2.0 metadata)
+  slug: identity-federation
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/openapi/lancaster-identityfederation-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -54,11 +60,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/security/lancaster-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - United Kingdom
-- Research
+- N8 Research Partnership
+- Research Data
+- Institutional Repository
+- Identity Federation
 - Library
-- Open Data
+- Open Source
 ---

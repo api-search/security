@@ -163,14 +163,14 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: openapi/capligh
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/authentication/caplight-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- Private Markets
-- Secondary Market
+- private-markets
+- secondary-market
 - Market Data
-- Venture Capital
-- Company Data
+- venture-capital
+- company-data
 - investor-data
-- Funding Rounds
-- Pricing Data
+- funding-rounds
+- pricing-data
 - Financial Data
 - Fintech
 - MCP

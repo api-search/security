@@ -62,7 +62,7 @@ tags:
 - Donations
 - EIN
 - IRS
-- Non-Profit
+- Non-Profits
 - Tax Compliance
 - Verification
 ---

@@ -54,7 +54,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Business Credit
 - Small Business
-- Financial Services
+- Financial-Services
 - Embedded Finance
 - Lending
 - Credit Scores

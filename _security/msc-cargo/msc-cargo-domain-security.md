@@ -46,6 +46,6 @@ tags:
 - DCSA
 - Direct Integrations
 - myMSC
-- eDocs
+- EDocs
 - Geneva
 ---

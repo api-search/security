@@ -48,7 +48,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opentrade/refs
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Stablecoins
+- Stablecoin
 - Yield
 - Lending
 - Treasury Management

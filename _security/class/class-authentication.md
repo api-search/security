@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/class/refs/hea
 summary_line: http · 1 scheme
 tags:
 - Company
-- EdTech
+- Edtech
 - Education
 - Virtual Classroom
 - Learning

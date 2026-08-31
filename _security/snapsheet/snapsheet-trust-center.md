@@ -20,7 +20,7 @@ tags:
 - Insurance
 - Claims
 - Claims Management
-- Insurtech
+- InsurTech
 - Property and Casualty
 - Payments
 - Workflow-Automation

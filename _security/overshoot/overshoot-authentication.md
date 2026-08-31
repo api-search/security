@@ -91,6 +91,6 @@ tags:
 - Streaming
 - WebRTC
 - Inference
-- Multi-Modal
+- Multimodal
 - Machine-Learning
 ---

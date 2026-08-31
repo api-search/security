@@ -50,6 +50,6 @@ tags:
 - Artificial Intelligence
 - Machine Tending
 - Developer API
-- ROS 2
+- ROS2
 - Physical AI
 ---

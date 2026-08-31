@@ -55,7 +55,7 @@ tags:
 - Shopify
 - Pixel Tracking
 - ROAS
-- Direct to Consumer
+- DTC
 - Marketing
 trust_url: https://trust.triplewhale.com/
 ---

@@ -108,7 +108,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Banking
-- Banking as a Service
+- Banking-as-a-Service
 - Fintech
 - India
 - KYC

@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Procurement
-- Source-to-Pay
+- Source to Pay
 - Spend Management
 - Contract Management
 - Supplier Management

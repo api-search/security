@@ -126,14 +126,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/argilla-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/authentication/argilla-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- Data Annotation
+- data annotation
 - LLM
 - NLP
 - RLHF
-- Machine-Learning
+- machine learning
 - Datasets
-- Open-Source
-- Human Feedback
+- open source
+- human feedback
 - Fine-Tuning
 - Hugging Face
 ---

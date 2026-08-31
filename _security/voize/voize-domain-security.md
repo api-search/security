@@ -37,5 +37,5 @@ tags:
 - Voice Documentation
 - Nursing
 - Electronic Health Records
-- Long-Term Care
+- Long-term Care
 ---

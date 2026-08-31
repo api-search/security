@@ -35,5 +35,5 @@ tags:
 - DeFi
 - Analytics
 - Cryptocurrency
-- DApps
+- Dapps
 ---

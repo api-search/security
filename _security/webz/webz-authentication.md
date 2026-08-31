@@ -66,17 +66,17 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/authentication/webz-authentication.yml
 summary_line: 3 schemes
 tags:
-- news-data
-- web-data
-- web-scraping
-- dark-web
+- News Data
+- Web Data
+- Web Scraping
+- Dark Web
 - deep-web
-- cybersecurity
-- threat-intelligence
-- data-breach
+- Cybersecurity
+- Threat Intelligence
+- Data Breach
 - pii-monitoring
-- osint
+- OSINT
 - reviews-data
-- ai-training-data
-- media-monitoring
+- AI Training Data
+- Media Monitoring
 ---

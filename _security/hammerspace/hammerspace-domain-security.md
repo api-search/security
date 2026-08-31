@@ -32,7 +32,7 @@ tags:
 - Company
 - Storage
 - Data Management
-- Filesystem
+- File Systems
 - Data Orchestration
 - Hybrid Cloud
 - Kubernetes

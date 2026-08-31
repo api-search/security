@@ -33,7 +33,7 @@ tags:
 - Biopharmaceutical
 - Pharmaceuticals
 - Biotechnology
-- Clinical Stage
+- Clinical-Stage
 - Inflammatory Diseases
 - Respiratory
 - Asthma

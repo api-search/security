@@ -121,6 +121,6 @@ tags:
 - Logistics
 - Analytics
 - Artificial Intelligence
-- Jobs
+- Job
 - Cloud
 ---

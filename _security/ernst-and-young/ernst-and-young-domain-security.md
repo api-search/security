@@ -49,7 +49,7 @@ tags:
 - Artificial Intelligence
 - Agentic AI
 - Blockchain
-- Zero-Knowledge Proofs
+- Zero Knowledge Proofs
 - Privacy
 - Insights
 - Research

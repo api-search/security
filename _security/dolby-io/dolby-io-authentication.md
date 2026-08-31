@@ -120,7 +120,7 @@ summary_line: http · 2 schemes
 tags:
 - Media
 - Streaming
-- Real-Time Streaming
+- Real-time Streaming
 - WebRTC
 - Live Streaming
 - Low Latency

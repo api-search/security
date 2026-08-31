@@ -38,5 +38,5 @@ tags:
 - Home & Garden
 - United Arab Emirates
 - Middle East
-- llms-txt
+- LLMsTxt
 ---

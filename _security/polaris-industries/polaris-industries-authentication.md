@@ -26,7 +26,7 @@ summary_line: 0 schemes
 tags:
 - Fortune 1000
 - Manufacturing
-- Powersports
+- Power-Sports
 - Automotive
 - Consumer Products
 - Connected Vehicles

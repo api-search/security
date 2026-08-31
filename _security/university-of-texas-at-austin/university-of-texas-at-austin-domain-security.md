@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: university-of-texas-at-austin-tapis-systems-openapi.yml
+  format: yaml
+  label: Tapis v3 Research Computing Platform (TACC production tenant)
+  slug: tapis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-tapis-systems-openapi.yml
 description: ''
 domains:
 - caa:
@@ -42,13 +49,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/security/university-of-texas-at-austin-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Library
-- Open Data
-- Institutional Repository
+- Higher Education
+- Education
+- Public Research University
 - United States
 - Texas
+- Research Computing
+- Identity Federation
+- Institutional Repository
+- Research Data
+- Library
+- Open Data
 ---

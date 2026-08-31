@@ -21,11 +21,11 @@ tags:
 - Company
 - Robotics
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Warehouse Automation
 - Logistics
 - Supply Chain
-- Computer Vision
+- Computer-Vision
 - Manufacturing
 trust_url: https://www.osaro.com/blog/osaro-completes-soc-2-type-ii-audit-reinforcing-its-commitment-to-customer-trust-and-data-security
 ---

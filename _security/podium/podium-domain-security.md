@@ -213,7 +213,7 @@ tags:
 - Reviews
 - Messaging
 - Payments
-- Web Chat
+- Webchat
 - Local Business
 - SMS
 - Lead Generation

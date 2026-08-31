@@ -42,7 +42,7 @@ tags:
 - Mobile
 - Monetization
 - User Acquisition
-- AdTech
+- Ad Tech
 - Analytics
 - Reporting
 ---

@@ -43,7 +43,7 @@ tags:
 - Natural Gas
 - Energy
 - Master Limited Partnership
-- Oil and Gas
+- Oil And Gas
 - Pipeline
 - Gathering And Processing
 ---

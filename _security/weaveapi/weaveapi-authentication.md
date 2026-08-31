@@ -30,14 +30,14 @@ summary_line: apiKey · 0 schemes
 tags:
 - Artificial Intelligence
 - LLM
-- AI Inference
-- API Gateway
-- Aggregator
-- OpenAI-Compatible
+- AI inference
+- API gateway
+- aggregator
+- OpenAI-compatible
 - Developer Tools
-- Model Routing
-- LLM Gateway
+- model routing
+- LLM gateway
 - prepaid credits
-- Agent Tools
-- Model Marketplace
+- agent tools
+- model marketplace
 ---

@@ -53,7 +53,7 @@ tags:
 - E-Commerce
 - Agentic Commerce
 - Consumer Hardware
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 - Shopify
 - Direct to Consumer

@@ -40,7 +40,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bit/refs/heads
 summary_line: token/oauth-browser-login · 2 schemes
 tags:
 - Company
-- DevOps
+- Devops
 - Component Development
 - Frontend
 - Monorepo

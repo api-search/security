@@ -47,7 +47,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Analytics
 - Authentication
-- Backend-as-a-Service
+- Backend as a Service
 - Cloud Messaging
 - Google Cloud
 - Hosting

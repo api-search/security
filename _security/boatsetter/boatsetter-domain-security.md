@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boatsetter/ref
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Boat Rental
-- Peer-to-Peer
+- Peer To Peer
 - Marketplace
 - Travel
 - Boating

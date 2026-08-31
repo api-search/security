@@ -41,7 +41,7 @@ tags:
 - Small Business Lending
 - SBA
 - Embedded Banking
-- Banking as a Service
+- Banking-as-a-Service
 - Digital Bank
 - Open Finance
 ---

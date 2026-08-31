@@ -39,9 +39,9 @@ summary_line: apiKey · 1 scheme
 tags:
 - Web3
 - Crypto
-- Onchain
+- On-Chain
 - Wallet Labels
 - Smart Money
 - Analytics
-- Multi-Chain
+- Multi-chain
 ---

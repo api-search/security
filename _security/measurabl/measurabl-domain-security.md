@@ -181,15 +181,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/measurabl/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - ESG
-- Real-Estate
-- Sustainability
-- Carbon Accounting
-- Energy Management
-- Building Performance
-- Climate Risk
-- Benchmarking
+- real-estate
+- sustainability
+- carbon-accounting
+- energy-management
+- building-performance
+- climate-risk
+- benchmarking
 - Compliance
-- PropTech
-- Utility Data
-- Capital Markets
+- proptech
+- utility-data
+- capital-markets
 ---

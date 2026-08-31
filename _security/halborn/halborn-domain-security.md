@@ -46,6 +46,6 @@ tags:
 - Web3
 - Vulnerability Disclosure
 - Compliance
-- Financial Services
+- Financial-Services
 - Professional Services
 ---

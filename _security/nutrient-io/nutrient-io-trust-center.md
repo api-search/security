@@ -26,7 +26,7 @@ tags:
 - Documents
 - PDF
 - Document Processing
-- E-Signature
+- eSignature
 - Accessibility
 - OCR
 trust_url: https://trust.nutrient.io/

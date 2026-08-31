@@ -57,7 +57,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/he
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - MCP
 - Agents
 - Webhook

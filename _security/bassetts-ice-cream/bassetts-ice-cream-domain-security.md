@@ -32,7 +32,7 @@ tags:
 - Ice Cream
 - Frozen Desserts
 - Consumer Packaged Goods
-- Food and Beverage
+- Food And Beverage
 - Philadelphia
 - Reading Terminal Market
 - Family Business

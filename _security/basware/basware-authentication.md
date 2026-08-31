@@ -286,7 +286,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/basware/refs/h
 summary_line: http/oauth2 · 3 schemes
 tags:
 - E-Invoicing
-- Purchase-To-Pay
+- Purchase-to-Pay
 - Accounts Payable
 - Procurement
 - Electronic Invoicing

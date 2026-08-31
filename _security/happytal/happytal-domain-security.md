@@ -38,5 +38,5 @@ tags:
 - Marketplace
 - Elder Care
 - Patient Experience
-- Health Tech
+- HealthTech
 ---

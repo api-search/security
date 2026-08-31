@@ -31,10 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/northwestern-m
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
-- Life-Insurance
+- Life Insurance
 - Financial-Services
-- Wealth-Management
+- Wealth Management
 - Annuities
-- Investment-Management
+- Investment Management
 - Fortune 500
 ---

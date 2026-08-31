@@ -36,6 +36,6 @@ tags:
 - Digital Wallet
 - Cross-Border Payments
 - Remittances
-- Stablecoins
+- Stablecoin
 - Latin America
 ---

@@ -21,7 +21,7 @@ tags:
 - Private Capital Markets
 - Capital Markets
 - Securities
-- Financial Services
+- Financial-Services
 - Fintech
 - Tokenization
 - Share Register

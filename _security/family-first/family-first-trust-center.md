@@ -28,6 +28,6 @@ tags:
 - Human Resources
 - Care Management
 - Wellbeing
-- HR Tech
+- HRTech
 trust_url: https://www.family-first.com/data-security
 ---

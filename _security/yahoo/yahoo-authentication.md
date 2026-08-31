@@ -116,12 +116,12 @@ summary_line: 3 schemes
 tags:
 - Advertising
 - Programmatic Advertising
-- Demand Side Platform
+- Demand-Side Platform
 - Fantasy Sports
 - Sports Data
 - Identity
 - OpenID Connect
-- OAuth
+- Authentication
 - Audience Data
 - Media
 - Reporting

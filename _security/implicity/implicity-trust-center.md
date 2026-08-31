@@ -26,7 +26,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/implicity/refs
 summary_line: ISO 27001:2022, ISO 13485, SOC 2 Type 2, HDS, C5, HIPAA, GDPR
 tags:
 - Company
-- Health Tech
+- Healthtech
 - Digital Health
 - Remote Patient Monitoring
 - Cardiology

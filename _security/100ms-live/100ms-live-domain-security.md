@@ -115,7 +115,7 @@ tags:
 - HLS
 - RTMP
 - Recording
-- Real-Time Messaging
+- Real-time Messaging
 - Live Infrastructure
 - India
 ---

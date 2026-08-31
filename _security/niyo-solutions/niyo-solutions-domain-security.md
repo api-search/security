@@ -35,7 +35,7 @@ tags:
 - Travel Banking
 - Forex Card
 - Zero Forex Markup
-- Multi-Currency
+- Multi Currency
 - Prepaid Card
 - Debit Card
 - Secured Credit Card

@@ -1,59 +1,17 @@
 ---
 api_specs:
-- filename: nthu-announcements-api-openapi.yml
+- filename: nthu-oauth-api-openapi.yml
   format: yaml
-  label: National Tsing Hua University Announcements API
-  slug: nthu-announcements-api
+  label: NTHU Academic Information System OAuth 2.0 Service
+  slug: nthu-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-announcements-api-openapi.yml
-- filename: nthu-buses-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-oauth-api-openapi.yml
+- filename: nthu-data-api.yaml
   format: yaml
-  label: National Tsing Hua University Buses API
-  slug: nthu-buses-api
+  label: NTHU Data API
+  slug: nthu-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-buses-api-openapi.yml
-- filename: nthu-courses-api-openapi.yml
-  format: yaml
-  label: National Tsing Hua University Courses API
-  slug: nthu-courses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-courses-api-openapi.yml
-- filename: nthu-departments-api-openapi.yml
-  format: yaml
-  label: National Tsing Hua University Departments API
-  slug: nthu-departments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-departments-api-openapi.yml
-- filename: nthu-dining-api-openapi.yml
-  format: yaml
-  label: National Tsing Hua University Dining API
-  slug: nthu-dining-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-dining-api-openapi.yml
-- filename: nthu-energy-api-openapi.yml
-  format: yaml
-  label: National Tsing Hua University Energy API
-  slug: nthu-energy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-energy-api-openapi.yml
-- filename: nthu-libraries-api-openapi.yml
-  format: yaml
-  label: National Tsing Hua University Libraries API
-  slug: nthu-libraries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-libraries-api-openapi.yml
-- filename: nthu-locations-api-openapi.yml
-  format: yaml
-  label: National Tsing Hua University Locations API
-  slug: nthu-locations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-locations-api-openapi.yml
-- filename: nthu-newsletters-api-openapi.yml
-  format: yaml
-  label: National Tsing Hua University Newsletters API
-  slug: nthu-newsletters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-newsletters-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/_original/nthu-data-api.yaml
 description: ''
 domains:
 - caa: []
@@ -90,7 +48,7 @@ slug: nthu-domain-security
 source_filename: nthu-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nthu.edu.tw\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject\n    Key Identifier (_ssl.c:1082)'\n  hsts: null\n- host: api.nthusa.tw\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 02:04:51 2026 GMT\n  hsts: null\ndomains:\n- domain: nthu.edu.tw\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: nthusa.tw\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "# method: derived\n# x-source-url: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\ngenerated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nthu.edu.tw\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject\n    Key Identifier (_ssl.c:1082)'\n  hsts: null\n- host: api.nthusa.tw\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 02:04:51 2026 GMT\n  hsts: null\ndomains:\n- domain: nthu.edu.tw\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: nthusa.tw\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/security/nthu-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
@@ -98,6 +56,12 @@ tags:
 - Higher Education
 - University
 - Taiwan
+- Public Research University
+- Identity
+- OAuth
 - Open Data
 - Campus
+- Course Catalog
+- Research Repository
+- Library
 ---

@@ -27,12 +27,12 @@ tags:
 - Agentic AI
 - Banking
 - Credit Unions
-- Financial Services
+- Financial-Services
 - Customer Service
 - Contact Center
 - Voice
 - Chatbots
-- Knowledge Management
-- Regtech
+- Knowledge-Management
+- RegTech
 trust_url: https://security.posh.ai/
 ---

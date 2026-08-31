@@ -145,20 +145,20 @@ source_yaml: "generated: '2026-07-31'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/security/anomalo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Data Quality
-- Data Observability
-- Data Monitoring
-- Anomaly Detection
-- Data Governance
-- Data Lineage
-- Data Profiling
-- Data Validation
-- Data Engineering
-- Machine-Learning
-- Snowflake
-- Databricks
-- BigQuery
-- Enterprise Data
+- data-quality
+- data-observability
+- data-monitoring
+- anomaly-detection
+- data-governance
+- data-lineage
+- data-profiling
+- data-validation
+- data-engineering
+- machine-learning
+- snowflake
+- databricks
+- bigquery
+- enterprise-data
 - MCP
 - agent-native
 ---

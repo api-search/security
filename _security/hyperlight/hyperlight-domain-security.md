@@ -34,7 +34,7 @@ tags:
 - Integrated Photonics
 - Semiconductors
 - Optical Networking
-- Data Center
+- Data-Center
 - Telecommunications
 - Hardware
 - AI Infrastructure

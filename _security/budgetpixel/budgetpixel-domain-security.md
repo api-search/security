@@ -199,15 +199,15 @@ tags:
 - Content Moderation
 - Creative Tools
 - Design
-- Agent-Native
+- agent-native
 - MCP
 - MCP Server
-- AI
+- Artificial Intelligence
 - Image Models
 - Video Models
 - Music/Audio Generation
 - Generative Media
-- llms.txt
+- llms-txt
 - Media Processing
 - Text-to-Image
 - Text-to-Video

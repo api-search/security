@@ -49,7 +49,7 @@ tags:
 - IoT
 - Messaging
 - Message Broker
-- Pub-Sub
+- Pub Sub
 - WebSocket
 trust_url: https://www.hivemq.com/solutions/technology/hivemq-security/
 ---

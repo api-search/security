@@ -40,6 +40,6 @@ tags:
 - RegTech
 - Artificial Intelligence
 - Agentic AI
-- Financial Services
+- Financial-Services
 - Compliance
 ---

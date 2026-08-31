@@ -216,16 +216,16 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/security/nasuni-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Company
-- File Storage
-- Hybrid Cloud
-- Object Storage
-- Enterprise Storage
-- Data Management
-- Backup and Recovery
-- Ransomware Protection
+- company
+- file-storage
+- hybrid-cloud
+- object-storage
+- enterprise-storage
+- data-management
+- backup-and-recovery
+- ransomware-protection
 - Infrastructure
-- Observability
+- observability
 - MCP
 - agent-native
 ---

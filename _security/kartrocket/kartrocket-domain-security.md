@@ -40,7 +40,7 @@ tags:
 - Logistics
 - E-Commerce
 - Fulfillment
-- Last Mile Delivery
+- Last-Mile Delivery
 - India
 - Order Management
 ---

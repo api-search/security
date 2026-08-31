@@ -45,7 +45,7 @@ tags:
 - Urinalysis
 - Kidney Care
 - Wound Care
-- Computer Vision
+- Computer-Vision
 - Remote Patient Monitoring
 - Telehealth
 - SMART on FHIR

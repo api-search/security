@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/easypanel/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Server Control Panel
-- Platform-as-a-Service
+- PaaS
 - Self-Hosted
 - Docker
 - Docker Swarm

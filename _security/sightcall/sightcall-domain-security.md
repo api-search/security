@@ -44,7 +44,7 @@ tags:
 - Remote Support
 - Field Service
 - Augmented Reality
-- Computer Vision
+- Computer-Vision
 - Customer Service
 - Insurance
 - Telehealth

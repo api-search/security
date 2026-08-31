@@ -44,6 +44,6 @@ tags:
 - Fintech
 - Cross-Border Payments
 - Mobile Top-Up
-- Bill Payments
+- Bill Payment
 - Canada
 ---

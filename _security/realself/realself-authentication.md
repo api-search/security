@@ -64,6 +64,6 @@ tags:
 - Reviews
 - Lead Generation
 - Consumer Health
-- Webhooks
-- JSON Schema
+- Webhook
+- JSON-Schema
 ---

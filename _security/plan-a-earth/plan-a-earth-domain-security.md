@@ -46,7 +46,7 @@ tags:
 - Science Based Targets
 - ESG
 - Climate Tech
-- Enterprise Saas
+- Enterprise SaaS
 - B Corp
 - Berlin
 ---

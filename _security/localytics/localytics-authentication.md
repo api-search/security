@@ -62,7 +62,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/localytics/ref
 summary_line: http · 1 scheme
 tags:
 - Company
-- MarTech
+- Martech
 - Mobile Analytics
 - Push Notifications
 - Customer Engagement

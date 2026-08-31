@@ -213,12 +213,12 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Delivery
-- Last Mile Delivery
+- Last-Mile Delivery
 - Logistics
 - Dispatch
 - Route Optimization
 - Fleet Management
-- Couriers
+- Courier
 - Shipping
 - Order
 - Webhook

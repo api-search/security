@@ -35,7 +35,7 @@ tags:
 - Machine-Learning
 - Training Data
 - Data Marketplace
-- Multi-Modal
+- Multimodal
 - Video
 - Audio
 - Data Licensing

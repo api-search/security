@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gojo--company/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Financial Inclusion
 - Microfinance
 - Impact Investing

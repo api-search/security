@@ -197,17 +197,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/done/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Developer Tools
-- Utility APIs
+- utility-apis
 - AI Agents
 - agent-native
 - x402
 - pay-per-call
 - Web3
-- Crypto Payments
-- DNS
+- crypto-payments
+- dns
 - Domains
-- Email Security
-- Network Security
+- email-security
+- network-security
 - SEO
 - OCR
 - Data

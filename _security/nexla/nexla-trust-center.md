@@ -468,7 +468,7 @@ tags:
 - Retrieval Augmented Generation
 - MCP
 - Agent Tools
-- Data Pipelines
+- Data Pipeline
 - Connectors
 trust_url: https://nexla.com/data-security/
 ---

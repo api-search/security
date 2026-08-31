@@ -1,264 +1,128 @@
 ---
-api_key_in:
-- header
+api_key_in: []
 api_specs:
-- filename: kfupm-activity-api-openapi.yml
+- filename: kfupm-identity-federation-openapi.yml
   format: yaml
-  label: King Fahd University of Petroleum & Minerals activity API
-  slug: kfupm-activity-api
+  label: KFUPM Identity Federation (SAML 2.0 + OpenID Connect)
+  slug: identity-federation
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-activity-api-openapi.yml
-- filename: kfupm-application-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-identity-federation-openapi.yml
+- filename: kfupm-eprints-oai-pmh-openapi.yml
   format: yaml
-  label: King Fahd University of Petroleum & Minerals application API
-  slug: kfupm-application-api
+  label: KFUPM ePrints OAI-PMH Repository Interface
+  slug: eprints-oai-pmh
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-application-api-openapi.yml
-- filename: kfupm-authorcollaboration-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-eprints-oai-pmh-openapi.yml
+- filename: kfupm-eprints-export-openapi.yml
   format: yaml
-  label: King Fahd University of Petroleum & Minerals authorCollaboration API
-  slug: kfupm-authorcollaboration-api
+  label: KFUPM ePrints Export & Search (JSON)
+  slug: eprints-export
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-authorcollaboration-api-openapi.yml
-- filename: kfupm-award-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals award API
-  slug: kfupm-award-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-award-api-openapi.yml
-- filename: kfupm-classificationscheme-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals classificationScheme API
-  slug: kfupm-classificationscheme-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-classificationscheme-api-openapi.yml
-- filename: kfupm-concept-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals concept API
-  slug: kfupm-concept-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-concept-api-openapi.yml
-- filename: kfupm-conferenceseries-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals conferenceSeries API
-  slug: kfupm-conferenceseries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-conferenceseries-api-openapi.yml
-- filename: kfupm-contract-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals contract API
-  slug: kfupm-contract-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-contract-api-openapi.yml
-- filename: kfupm-course-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals course API
-  slug: kfupm-course-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-course-api-openapi.yml
-- filename: kfupm-dataset-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals dataSet API
-  slug: kfupm-dataset-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-dataset-api-openapi.yml
-- filename: kfupm-education-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals education API
-  slug: kfupm-education-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-education-api-openapi.yml
-- filename: kfupm-equipment-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals equipment API
-  slug: kfupm-equipment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-equipment-api-openapi.yml
-- filename: kfupm-ethicalreview-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals ethicalReview API
-  slug: kfupm-ethicalreview-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-ethicalreview-api-openapi.yml
-- filename: kfupm-event-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals event API
-  slug: kfupm-event-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-event-api-openapi.yml
-- filename: kfupm-externalorganization-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals externalOrganization API
-  slug: kfupm-externalorganization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-externalorganization-api-openapi.yml
-- filename: kfupm-externalperson-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals externalPerson API
-  slug: kfupm-externalperson-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-externalperson-api-openapi.yml
-- filename: kfupm-fingerprint-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals fingerprint API
-  slug: kfupm-fingerprint-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-fingerprint-api-openapi.yml
-- filename: kfupm-fundingopportunity-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals fundingOpportunity API
-  slug: kfupm-fundingopportunity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-fundingopportunity-api-openapi.yml
-- filename: kfupm-impact-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals impact API
-  slug: kfupm-impact-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-impact-api-openapi.yml
-- filename: kfupm-journal-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals journal API
-  slug: kfupm-journal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-journal-api-openapi.yml
-- filename: kfupm-keywordgroupconfiguration-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals keywordGroupConfiguration API
-  slug: kfupm-keywordgroupconfiguration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-keywordgroupconfiguration-api-openapi.yml
-- filename: kfupm-milestone-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals milestone API
-  slug: kfupm-milestone-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-milestone-api-openapi.yml
-- filename: kfupm-organization-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals organization API
-  slug: kfupm-organization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-organization-api-openapi.yml
-- filename: kfupm-person-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals person API
-  slug: kfupm-person-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-person-api-openapi.yml
-- filename: kfupm-personexpertise-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals personExpertise API
-  slug: kfupm-personexpertise-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-personexpertise-api-openapi.yml
-- filename: kfupm-pressmedia-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals pressMedia API
-  slug: kfupm-pressmedia-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-pressmedia-api-openapi.yml
-- filename: kfupm-prize-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals prize API
-  slug: kfupm-prize-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-prize-api-openapi.yml
-- filename: kfupm-project-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals project API
-  slug: kfupm-project-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-project-api-openapi.yml
-- filename: kfupm-publisher-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals publisher API
-  slug: kfupm-publisher-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-publisher-api-openapi.yml
-- filename: kfupm-researchoutput-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals researchOutput API
-  slug: kfupm-researchoutput-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-researchoutput-api-openapi.yml
-- filename: kfupm-role-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals role API
-  slug: kfupm-role-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-role-api-openapi.yml
-- filename: kfupm-semester-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals semester API
-  slug: kfupm-semester-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-semester-api-openapi.yml
-- filename: kfupm-specialization-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals specialization API
-  slug: kfupm-specialization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-specialization-api-openapi.yml
-- filename: kfupm-studentproject-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals studentProject API
-  slug: kfupm-studentproject-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-studentproject-api-openapi.yml
-- filename: kfupm-studentthesis-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals studentThesis API
-  slug: kfupm-studentthesis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-studentthesis-api-openapi.yml
-- filename: kfupm-thesaurus-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals thesaurus API
-  slug: kfupm-thesaurus-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-thesaurus-api-openapi.yml
-- filename: kfupm-user-api-openapi.yml
-  format: yaml
-  label: King Fahd University of Petroleum & Minerals user API
-  slug: kfupm-user-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-user-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-eprints-export-openapi.yml
 auth_types:
+- openIdConnect
+- oauth2
+- saml2
 - apiKey
-description: ''
+- none
+description: Authentication posture across KFUPM's surfaces. The previous version of this file described an api-key scheme derived from the Elsevier Pure Web Services OpenAPI; that contract is Elsevier's and has been removed from this repo, so this file was rebuilt from KFUPM's own identity provider.
 kind: authentication
 layout: security
-method: derived
+method: probed
 name: Kfupm Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: King Fahd University of Petroleum & Minerals secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+overview: King Fahd University of Petroleum & Minerals secures its APIs with openIdConnect, oauth2, saml2, apiKey, and none across 4 declared security schemes, as derived from its OpenAPI definitions.
 provider_name: King Fahd University of Petroleum & Minerals
 provider_slug: kfupm
-scheme_count: 1
+scheme_count: 4
 schemes:
-- description: Security mechanism for the API
+- client_auth_methods:
+  - client_secret_post
+  - client_secret_basic
+  - private_key_jwt
+  - windows_client_authentication
+  description: Institution-operated OpenID Connect provider (Microsoft AD FS). Client registration is not self-serve — no public developer portal or client-registration endpoint was found; a relying party is onboarded by KFUPM IT.
+  endpoints:
+    authorization: https://sts.kfupm.edu.sa/adfs/oauth2/authorize/
+    device_authorization: https://sts.kfupm.edu.sa/adfs/oauth2/devicecode
+    end_session: https://sts.kfupm.edu.sa/adfs/oauth2/logout
+    jwks: https://sts.kfupm.edu.sa/adfs/discovery/keys
+    token: https://sts.kfupm.edu.sa/adfs/oauth2/token/
+    userinfo: https://sts.kfupm.edu.sa/adfs/userinfo
+  grant_types:
+  - authorization_code
+  - refresh_token
+  - client_credentials
+  - urn:ietf:params:oauth:grant-type:jwt-bearer
+  - urn:ietf:params:oauth:grant-type:device_code
+  - implicit
+  - password
+  id_token_signing_alg: RS256
+  issuer: https://sts.kfupm.edu.sa/adfs
+  jwks_keys: 2
+  name: kfupm-oidc
+  openIdConnectUrl: https://sts.kfupm.edu.sa/adfs/.well-known/openid-configuration
+  sources:
+  - https://sts.kfupm.edu.sa/adfs/.well-known/openid-configuration
+  subject_types:
+  - pairwise
+  type: openIdConnect
+  x-operator: institution
+- bindings:
+  - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect
+  - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST
+  description: Institution-operated SAML 2.0 identity provider, registered in eduGAIN via MAEEN (SA-MIF) as entity 671205 with scope kfupm.edu.sa.
+  entity_id: http://sts.kfupm.edu.sa/adfs/services/trust
+  metadata_url: https://sts.kfupm.edu.sa/FederationMetadata/2007-06/FederationMetadata.xml
+  name: kfupm-saml2
+  nameid_formats:
+  - urn:oasis:names:tc:SAML:2.0:nameid-format:persistent
+  - urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+  - urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress
+  sources:
+  - https://sts.kfupm.edu.sa/FederationMetadata/2007-06/FederationMetadata.xml
+  - https://technical.edugain.org/api.php?action=list_entities&format=json
+  sso_endpoint: https://sts.kfupm.edu.sa/adfs/ls/
+  type: saml2
+  x-operator: institution
+- description: The KFUPM ePrints OAI-PMH, JSON export and JSON search endpoints require no credential. Verified anonymous on 2026-08-30.
+  name: eprints-anonymous
+  sources:
+  - https://eprints.kfupm.edu.sa/cgi/oai2?verb=Identify
+  - https://eprints.kfupm.edu.sa/cgi/search/simple?q=petroleum&output=JSON
+  type: none
+  x-operator: institution
+- description: The Elsevier Pure Web Services deployed at pure.kfupm.edu.sa authenticates with a Pure API key in an `api-key` header. This is Elsevier's scheme on Elsevier's contract; KFUPM operates the tenant, not the interface. Keys are issued from Pure administration, which redirects to https://pure.kfupm.edu.sa/admin/saml2/authenticate/pure — the tenant is itself fronted by KFUPM's SAML IdP.
   in: header
-  name: api-key
+  name: pure-ws-api-key
   parameter: api-key
   sources:
-  - openapi/kfupm-pure-ws.yaml
+  - https://pure.kfupm.edu.sa/ws/api/
   type: apiKey
+  x-operator: tenant
 slug: kfupm-authentication
 source_filename: kfupm-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kfupm-pure-ws.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: api-key\n  type: apiKey\n  in: header\n  parameter: api-key\n  description: Security mechanism for the API\n  sources:\n  - openapi/kfupm-pure-ws.yaml\n"
+source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: >-\n  https://sts.kfupm.edu.sa/adfs/.well-known/openid-configuration (200),\n  https://sts.kfupm.edu.sa/adfs/discovery/keys (200),\n  https://sts.kfupm.edu.sa/FederationMetadata/2007-06/FederationMetadata.xml (200),\n  https://pure.kfupm.edu.sa/ws/api/ (200) — probed 2026-08-30.\nprovider: King Fahd University of Petroleum & Minerals\nproviderId: kfupm\ndescription: >-\n  Authentication posture across KFUPM's surfaces. The previous version of this file described an\n  api-key scheme derived from the Elsevier Pure Web Services OpenAPI; that contract is Elsevier's\n  and has been removed from this repo, so this file was rebuilt from KFUPM's own identity provider.\nsummary:\n  types: [openIdConnect, oauth2, saml2, apiKey, none]\n  institution_operated: [openIdConnect, oauth2, saml2, none]\n  tenant_operated: [apiKey]\nschemes:\n  - name: kfupm-oidc\n    type: openIdConnect\n    x-operator: institution\n    openIdConnectUrl: https://sts.kfupm.edu.sa/adfs/.well-known/openid-configuration\n\
+  \    issuer: https://sts.kfupm.edu.sa/adfs\n    description: >-\n      Institution-operated OpenID Connect provider (Microsoft AD FS). Client registration is not\n      self-serve — no public developer portal or client-registration endpoint was found; a\n      relying party is onboarded by KFUPM IT.\n    endpoints:\n      authorization: https://sts.kfupm.edu.sa/adfs/oauth2/authorize/\n      token: https://sts.kfupm.edu.sa/adfs/oauth2/token/\n      userinfo: https://sts.kfupm.edu.sa/adfs/userinfo\n      jwks: https://sts.kfupm.edu.sa/adfs/discovery/keys\n      end_session: https://sts.kfupm.edu.sa/adfs/oauth2/logout\n      device_authorization: https://sts.kfupm.edu.sa/adfs/oauth2/devicecode\n    grant_types:\n      - authorization_code\n      - refresh_token\n      - client_credentials\n      - urn:ietf:params:oauth:grant-type:jwt-bearer\n      - urn:ietf:params:oauth:grant-type:device_code\n      - implicit\n      - password\n    client_auth_methods:\n      - client_secret_post\n    \
+  \  - client_secret_basic\n      - private_key_jwt\n      - windows_client_authentication\n    id_token_signing_alg: RS256\n    subject_types: [pairwise]\n    jwks_keys: 2\n    sources:\n      - https://sts.kfupm.edu.sa/adfs/.well-known/openid-configuration\n  - name: kfupm-saml2\n    type: saml2\n    x-operator: institution\n    description: >-\n      Institution-operated SAML 2.0 identity provider, registered in eduGAIN via MAEEN (SA-MIF)\n      as entity 671205 with scope kfupm.edu.sa.\n    entity_id: http://sts.kfupm.edu.sa/adfs/services/trust\n    metadata_url: https://sts.kfupm.edu.sa/FederationMetadata/2007-06/FederationMetadata.xml\n    sso_endpoint: https://sts.kfupm.edu.sa/adfs/ls/\n    bindings:\n      - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n      - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n    nameid_formats:\n      - urn:oasis:names:tc:SAML:2.0:nameid-format:persistent\n      - urn:oasis:names:tc:SAML:2.0:nameid-format:transient\n      - urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress\n\
+  \    sources:\n      - https://sts.kfupm.edu.sa/FederationMetadata/2007-06/FederationMetadata.xml\n      - https://technical.edugain.org/api.php?action=list_entities&format=json\n  - name: eprints-anonymous\n    type: none\n    x-operator: institution\n    description: >-\n      The KFUPM ePrints OAI-PMH, JSON export and JSON search endpoints require no credential.\n      Verified anonymous on 2026-08-30.\n    sources:\n      - https://eprints.kfupm.edu.sa/cgi/oai2?verb=Identify\n      - https://eprints.kfupm.edu.sa/cgi/search/simple?q=petroleum&output=JSON\n  - name: pure-ws-api-key\n    type: apiKey\n    in: header\n    parameter: api-key\n    x-operator: tenant\n    description: >-\n      The Elsevier Pure Web Services deployed at pure.kfupm.edu.sa authenticates with a Pure API\n      key in an `api-key` header. This is Elsevier's scheme on Elsevier's contract; KFUPM operates\n      the tenant, not the interface. Keys are issued from Pure administration, which redirects to\n      https://pure.kfupm.edu.sa/admin/saml2/authenticate/pure\
+  \ — the tenant is itself fronted by\n      KFUPM's SAML IdP.\n    sources:\n      - https://pure.kfupm.edu.sa/ws/api/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/authentication/kfupm-authentication.yml
-summary_line: apiKey · 1 scheme
+summary_line: openIdConnect/oauth2/saml2/apiKey/none · 4 schemes
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
-- Open Access
-- Repository
 - Saudi Arabia
 - Middle East
+- Identity Federation
+- Research Repository
+- Open Access
+- OAI-PMH
+- Theses
+- Course Catalog
 ---

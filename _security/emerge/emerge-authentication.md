@@ -87,16 +87,16 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: openapi/emerge-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/authentication/emerge-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Freight
+- freight
 - Logistics
 - Transportation
 - Supply Chain
 - Procurement
-- Trucking
-- Freight Marketplace
-- Transportation Management
+- trucking
+- freight-marketplace
+- transportation-management
 - Shipping
 - rate-benchmarking
 - Webhook
-- B2B Marketplace
+- b2b-marketplace
 ---

@@ -53,7 +53,7 @@ tags:
 - Supply Chain
 - Transportation Visibility
 - Real-Time Visibility
-- Multi-Modal
+- Multimodal
 - Logistics
 - Shipment Tracking
 - ETA

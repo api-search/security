@@ -27,7 +27,7 @@ tags:
 - Web Components
 - Custom Elements
 - Shadow DOM
-- Open Source
+- Open-Source
 - UI Framework
 - Component Library
 trust_url: ''

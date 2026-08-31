@@ -24,7 +24,7 @@ tags:
 - Company
 - Business Applications
 - Legal
-- Legal Tech
+- Legaltech
 - Contract Management
 - Contract Drafting
 - Artificial Intelligence

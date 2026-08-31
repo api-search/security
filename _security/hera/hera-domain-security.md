@@ -33,7 +33,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Healthcare
-- Health Tech
+- HealthTech
 - Elder Care
 - Care Management
 - Medicare

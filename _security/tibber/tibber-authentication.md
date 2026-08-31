@@ -67,13 +67,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/he
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Energy
-- Smart Home
-- Smart Meter
+- SmartHome
+- SmartMeter
 - ElectricityPricing
-- Electric Vehicle Charging
+- ElectricVehicleCharging
 - HeatPump
 - SolarInverter
-- Home Battery
+- HomeBattery
 - GraphQL
 - Authentication
 - Nordic

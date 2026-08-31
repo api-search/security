@@ -36,5 +36,5 @@ tags:
 - Medical Imaging
 - Breast Cancer Screening
 - Diagnostics
-- Health Tech
+- HealthTech
 ---

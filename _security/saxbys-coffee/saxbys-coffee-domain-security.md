@@ -33,7 +33,7 @@ tags:
 - Coffee
 - Cafe
 - Hospitality
-- Food and Beverage
+- Food And Beverage
 - Quick Service Restaurant
 - Education
 - Experiential Learning

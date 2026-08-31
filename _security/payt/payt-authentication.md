@@ -176,9 +176,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payt/refs/head
 summary_line: oauth2/http · 4 schemes
 tags:
 - Company
-- Applicative Saas
+- Applicative SaaS
 - Accounts Receivable
-- Order-to-Cash
+- Order to Cash
 - Invoicing
 - Debt Collection
 - Payments

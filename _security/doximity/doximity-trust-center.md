@@ -34,7 +34,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doximity/refs/
 summary_line: SOC 2 Type 2, SOC 3, HIPAA, HITECH
 tags:
 - Company
-- Health Tech
+- Healthtech
 - Identity
 - Authentication
 - OpenID Connect

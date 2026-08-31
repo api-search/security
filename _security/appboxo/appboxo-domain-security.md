@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Super App
-- Mini Apps
+- Miniapps
 - Mobile SDK
 - Embedded Finance
 - Payments

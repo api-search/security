@@ -65,7 +65,8 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/security/6sense-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Account Based Marketing
+- ABM
+- Account-Based Marketing
 - Intent Data
 - B2B
 - Predictive Analytics

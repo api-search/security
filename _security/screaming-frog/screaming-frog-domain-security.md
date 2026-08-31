@@ -31,6 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/screaming-frog
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - SEO
+- Search Engine Optimization
 - Website Crawler
 - Technical Audit
 - Marketing

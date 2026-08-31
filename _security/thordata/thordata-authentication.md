@@ -119,17 +119,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thordata/refs/
 summary_line: apiKey/http · 3 schemes
 tags:
 - Proxy network
-- Web Scraping
-- Data Extraction
+- Web scraping
+- Data extraction
 - SERP
 - Search data
 - Web unblocking
-- Residential Proxies
-- Mobile Proxies
-- ISP Proxies
-- Datacenter Proxies
-- Scraping Browser
+- Residential proxies
+- Mobile proxies
+- ISP proxies
+- Datacenter proxies
+- Scraping browser
 - Data-for-AI
 - RAG data pipelines
-- Web Data
+- Web data
 ---

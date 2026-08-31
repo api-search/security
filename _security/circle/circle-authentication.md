@@ -71,7 +71,7 @@ tags:
 - Currency
 - Money
 - Payments
-- Stablecoins
+- Stablecoin
 - Transfers
 - USDC
 - Wallets

@@ -35,7 +35,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Fintech
-- Card-Linked Offers
+- Card Linked Offers
 - Loyalty
 - Payments
 - Rewards

@@ -32,7 +32,7 @@ tags:
 - Company
 - Neuroscience
 - Neurotechnology
-- Health Care
+- Healthcare
 - Medical Devices
 - EEG
 - Artificial Intelligence

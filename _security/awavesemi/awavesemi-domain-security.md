@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/awavesemi/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Semiconductors
+- Semiconductor
 - Hardware
 - Data-Center
 - Silicon

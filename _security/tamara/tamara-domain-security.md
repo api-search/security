@@ -96,5 +96,5 @@ tags:
 - Disputes
 - Channel Partners
 - E-Commerce
-- Point-of-Sale
+- POS
 ---

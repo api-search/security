@@ -55,20 +55,20 @@ summary_line: apiKey · 2 schemes
 tags:
 - Company
 - Blockchain
-- Account Abstraction
-- ERC-4337
-- Smart Wallet
-- Paymaster
-- Bundler
-- Passkeys
-- WebAuthn
-- Gasless Transactions
+- account-abstraction
+- erc-4337
+- smart-wallet
+- paymaster
+- bundler
+- passkeys
+- webauthn
+- gasless-transactions
 - DeFi
-- Custody
-- Staking
+- custody
+- staking
 - Payments
-- JSON-RPC
-- MiCA
-- SAFe
+- json-rpc
+- mica
+- safe
 - Web3
 ---

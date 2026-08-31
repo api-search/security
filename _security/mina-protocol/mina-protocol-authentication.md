@@ -37,7 +37,7 @@ tags:
 - Company
 - Crypto Web3
 - Blockchain
-- Zero-Knowledge Proofs
+- Zero Knowledge Proofs
 - zk-SNARKs
 - Smart Contracts
 - GraphQL

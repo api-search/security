@@ -36,8 +36,8 @@ tags:
 - Learning
 - Assessment
 - Artificial Intelligence
-- Model Context Protocol
+- MCP
 - LTI
 - Rostering
-- Single Sign On
+- Single Sign-On
 ---

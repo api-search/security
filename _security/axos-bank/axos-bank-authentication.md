@@ -39,7 +39,7 @@ tags:
 - Financial-Services
 - Banking
 - United States
-- Banking as a Service
+- Banking-as-a-Service
 - Open Finance
 - Payments
 - Digital Bank

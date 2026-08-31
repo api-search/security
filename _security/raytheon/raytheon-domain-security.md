@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Aerospace
 - Command and Control
-- Cybersecurity
+- Cyber Security
 - Defense
 - Electronic Warfare
 - Fortune 500

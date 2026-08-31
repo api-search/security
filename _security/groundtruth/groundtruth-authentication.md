@@ -151,11 +151,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groundtruth/re
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- MarTech
+- Martech
 - Advertising
 - Location Intelligence
 - Marketing
-- AdTech
+- Adtech
 - Location-Based Marketing
 - Advertising API
 - Campaign Management

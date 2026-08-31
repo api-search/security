@@ -162,9 +162,9 @@ tags:
 - Payments
 - Checkout
 - Subscription
-- Point-of-Sale
+- POS
 - QR
-- Pix
+- PIX
 - SDK
 - Wallets
 - Acquiring

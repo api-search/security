@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Insurance
 - Life Insurance
-- Insurtech
+- InsurTech
 - Embedded Insurance
 - Insurance As A Service
 - Underwriting

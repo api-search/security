@@ -50,14 +50,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/primer/refs/he
 summary_line: SOC 2, ISO 27001
 tags:
 - Payments
-- Payment Orchestration
-- Payment Processing
+- payment orchestration
+- payment processing
 - Fintech
-- Fraud Detection
-- Smart Routing
-- Checkout
+- fraud detection
+- smart routing
+- checkout
 - Payment Methods
-- Reconciliation
+- reconciliation
 - Webhook
 trust_url: https://trust.primer.io/
 ---

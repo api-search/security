@@ -78,18 +78,18 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apstal/refs/he
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Analytics
-- Web Analytics
-- Privacy
-- Session Replay
-- Heatmaps
+- web-analytics
+- privacy
+- session-replay
+- heatmaps
 - MCP
 - agent-native
-- Cookieless
+- cookieless
 - llms-txt
-- BigQuery
-- GDPR
+- bigquery
+- gdpr
 - A2A
-- Agent Skills
-- Bot Detection
-- Core Web Vitals
+- agent-skills
+- bot-detection
+- core-web-vitals
 ---

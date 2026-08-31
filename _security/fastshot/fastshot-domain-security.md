@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fastshot/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- No-Code
+- No Code
 - Mobile
 - App Builder
 - Artificial Intelligence

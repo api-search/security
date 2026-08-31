@@ -143,7 +143,7 @@ tags:
 - A2A
 - Account Information
 - Payment Initiation
-- Verification
+- Verifications
 - Identity
 - Fintech
 trust_url: https://security.leantech.me/

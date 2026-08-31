@@ -28,7 +28,7 @@ tags:
 - AI Automation
 - Agentic AI
 - MCP
-- Workflow Automation
+- Workflow-Automation
 - Virtual Assistant
 - Productivity
 - Email

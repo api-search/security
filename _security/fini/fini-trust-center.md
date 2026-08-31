@@ -83,7 +83,7 @@ tags:
 - Knowledge-Management
 - Conversational AI
 - Voice AI
-- Help Desk
+- Helpdesk
 - Regulated Industries
 trust_url: https://security.usefini.com/
 ---

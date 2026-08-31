@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zillow-group/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Real-Estate
-- Property-Data
+- Property Data
 - MLS
 - Mortgage
 - Rentals
 - Valuation
 - Housing-Data
-- Transaction-Management
+- Transaction Management
 ---

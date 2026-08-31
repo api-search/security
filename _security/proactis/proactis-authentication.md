@@ -26,10 +26,10 @@ summary_line: 0 schemes
 tags:
 - Procurement
 - Purchase-To-Pay
-- Source-To-Pay
+- Source-to-Pay
 - Spend Management
 - Contract Management
-- eInvoicing
+- E-Invoicing
 - Accounts Payable
 - Supplier Management
 - eSourcing

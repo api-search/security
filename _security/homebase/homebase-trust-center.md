@@ -18,15 +18,15 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/security/homebase-trust-center.yml
 summary_line: SOC 2, PCI DSS
 tags:
-- Scheduling
-- Time Tracking
-- Payroll
+- scheduling
+- time-tracking
+- payroll
 - HR
-- Workforce Management
-- Team Communication
-- Employee Scheduling
-- Small Business
-- Hourly Workers
+- workforce-management
+- team-communication
+- employee-scheduling
+- small-business
+- hourly-workers
 - Integration
 trust_url: https://trust.joinhomebase.com/
 ---

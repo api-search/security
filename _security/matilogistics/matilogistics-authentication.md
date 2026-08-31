@@ -34,16 +34,16 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  https://w
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/authentication/matilogistics-authentication.yml
 summary_line: 1 scheme
 tags:
-- logistics
-- supply-chain
-- shipping
-- container-tracking
-- ocean-freight
-- track-and-trace
-- shipment-visibility
-- freight-forwarding
+- Logistics
+- Supply Chain
+- Shipping
+- Container Tracking
+- Ocean Freight
+- Track and Trace
+- Shipment Visibility
+- Freight Forwarding
 - NVOCC
-- webhooks
+- Webhook
 - REST
-- procurement
+- Procurement
 ---

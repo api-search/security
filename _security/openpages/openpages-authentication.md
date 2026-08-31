@@ -42,6 +42,6 @@ tags:
 - Regulatory Compliance
 - Risk Management
 - Enterprise Software
-- Watsonx
+- watsonx
 - Audit
 ---

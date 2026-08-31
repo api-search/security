@@ -151,7 +151,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stackexchange/refs/heads/main/security/stackexchange-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Q&A
+- Q And A
 - Developer Community
 - Knowledge Graph
 - Stack Overflow

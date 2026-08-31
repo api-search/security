@@ -35,7 +35,7 @@ tags:
 - Commercial Insurance
 - Insurtech
 - Startup Insurance
-- Directors and Officers
+- Directors And Officers
 - Errors And Omissions
 - Cyber Insurance
 - Employment Practices Liability

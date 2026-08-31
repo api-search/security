@@ -45,5 +45,4 @@ tags:
 - OPC UA
 - MQTT
 - Digital Twin
-- Operations
 ---

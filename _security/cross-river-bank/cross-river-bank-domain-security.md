@@ -45,5 +45,5 @@ tags:
 - FedNow
 - Cards
 - Lending
-- Stablecoins
+- Stablecoin
 ---

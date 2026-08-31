@@ -52,18 +52,18 @@ source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/security/lili-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Banking
-- Business Banking
-- Financial Services
+- banking
+- business-banking
+- Financial-Services
 - Fintech
-- Embedded Finance
+- embedded-finance
 - Onboarding
-- KYC
-- Webhooks
+- kyc
+- Webhook
 - MCP
 - agent-native
 - Invoicing
-- Bill Pay
-- Accounting
-- Small Business
+- bill-pay
+- accounting
+- small-business
 ---

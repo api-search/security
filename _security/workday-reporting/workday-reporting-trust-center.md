@@ -36,7 +36,7 @@ tags:
 - Analytics
 - Business Intelligence
 - Financial Reporting
-- HR Data
+- Hr Data
 - Reporting
 trust_url: https://security.workday.com/
 ---

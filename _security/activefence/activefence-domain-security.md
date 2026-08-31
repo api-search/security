@@ -89,16 +89,16 @@ source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/security/activefence-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI Safety
-- AI Security
-- Trust and Safety
-- Content Moderation
-- Guardrails
-- Red Teaming
-- LLM Security
-- Prompt Injection
-- AI Governance
-- Risk Scoring
-- User Generated Content
-- Child Safety
+- ai-safety
+- ai-security
+- trust-and-safety
+- content-moderation
+- guardrails
+- red-teaming
+- llm-security
+- prompt-injection
+- ai-governance
+- risk-scoring
+- user-generated-content
+- child-safety
 ---

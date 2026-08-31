@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/catalyst/refs/
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- Cloud Saas
+- Cloud SaaS
 - Customer Success
 - Software-as-a-Service
 - Customer Growth

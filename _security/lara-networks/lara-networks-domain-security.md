@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lara-networks/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Semiconductors
+- Semiconductor
 - Networking
 - Packet Processing
 - Content Addressable Memory

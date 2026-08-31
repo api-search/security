@@ -81,8 +81,8 @@ tags:
 - Company
 - Stablecoins
 - Payments
-- On-Ramp
-- Off-Ramp
+- Onramp
+- Offramp
 - Cryptocurrency
 - Banking
 - Fintech

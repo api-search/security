@@ -39,7 +39,7 @@ tags:
 - Company
 - Biotechnology
 - Synthetic Biology
-- Biomanufacturing
+- Bio-Manufacturing
 - Industrial Biotechnology
 - Enzyme Engineering
 - Ingredients

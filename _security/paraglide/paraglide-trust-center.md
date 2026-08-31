@@ -23,6 +23,6 @@ tags:
 - Fintech
 - Finance Automation
 - Collection
-- Order-to-Cash
+- Order To Cash
 trust_url: https://trust.paraglide.ai/
 ---

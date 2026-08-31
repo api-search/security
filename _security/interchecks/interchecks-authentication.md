@@ -155,7 +155,7 @@ tags:
 - Instant Payments
 - Disbursements
 - Cards
-- Financial Services
+- Financial-Services
 - Fintech
-- Webhooks
+- Webhook
 ---

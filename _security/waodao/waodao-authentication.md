@@ -58,6 +58,6 @@ tags:
 - OpenAPI
 - Ethereum
 - Solana
-- agent-native
+- Agent Native
 - Digital Art
 ---

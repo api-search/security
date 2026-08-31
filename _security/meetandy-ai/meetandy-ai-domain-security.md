@@ -37,7 +37,7 @@ tags:
 - DevOps
 - Software Delivery
 - MCP
-- Coding Agents
+- Coding Agent
 - Slack
 - Project Management
 ---

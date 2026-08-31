@@ -97,5 +97,5 @@ tags:
 - Voice
 - Empathic
 - Emotion
-- Multi-Modal
+- Multimodal
 ---

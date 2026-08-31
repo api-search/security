@@ -29,7 +29,7 @@ tags:
 - AI Agents
 - Sales
 - Revenue Operations
-- Go-To-Market
+- Go-to-Market
 - CRM
 - Sales Intelligence
 - Enterprise

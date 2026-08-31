@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/renew-financia
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Lending
 - Consumer Finance
 - PACE Financing
@@ -38,5 +38,5 @@ tags:
 - Clean Energy
 - Energy Efficiency
 - Solar
-- Real Estate
+- Real-Estate
 ---

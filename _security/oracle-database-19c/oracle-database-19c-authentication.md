@@ -66,8 +66,8 @@ tags:
 - Enterprise
 - JSON
 - Machine-Learning
-- NoSQL
+- Nosql
 - Oracle
 - REST
-- SQL
+- Sql
 ---

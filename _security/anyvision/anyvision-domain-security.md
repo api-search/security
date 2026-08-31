@@ -30,16 +30,16 @@ source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anyvision/refs/heads/main/security/anyvision-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Facial Recognition
-- Computer-Vision
-- Video Analytics
-- Physical Security
-- Access Control
-- Biometrics
-- Surveillance
-- Edge AI
+- facial-recognition
+- computer-vision
+- video-analytics
+- physical-security
+- access-control
+- biometrics
+- surveillance
+- edge-ai
 - watchlist-alerting
-- Visitor Management
-- Israel
+- visitor-management
+- israel
 - Company
 ---

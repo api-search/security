@@ -1,65 +1,11 @@
 ---
 api_specs:
-- filename: university-of-rochester-altmetric-api-openapi.yml
+- filename: university-of-rochester-urresearch-oai-pmh-openapi.yml
   format: yaml
-  label: University of Rochester altmetric API
-  slug: university-of-rochester-altmetric-api
+  label: UR Research OAI-PMH Interface
+  slug: urresearch-oai-pmh
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/openapi/university-of-rochester-altmetric-api-openapi.yml
-- filename: university-of-rochester-articles-api-openapi.yml
-  format: yaml
-  label: University of Rochester articles API
-  slug: university-of-rochester-articles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/openapi/university-of-rochester-articles-api-openapi.yml
-- filename: university-of-rochester-authors-api-openapi.yml
-  format: yaml
-  label: University of Rochester authors API
-  slug: university-of-rochester-authors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/openapi/university-of-rochester-authors-api-openapi.yml
-- filename: university-of-rochester-collections-api-openapi.yml
-  format: yaml
-  label: University of Rochester collections API
-  slug: university-of-rochester-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/openapi/university-of-rochester-collections-api-openapi.yml
-- filename: university-of-rochester-institutions-api-openapi.yml
-  format: yaml
-  label: University of Rochester institutions API
-  slug: university-of-rochester-institutions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/openapi/university-of-rochester-institutions-api-openapi.yml
-- filename: university-of-rochester-oauth-api-openapi.yml
-  format: yaml
-  label: University of Rochester oauth API
-  slug: university-of-rochester-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/openapi/university-of-rochester-oauth-api-openapi.yml
-- filename: university-of-rochester-other-api-openapi.yml
-  format: yaml
-  label: University of Rochester other API
-  slug: university-of-rochester-other-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/openapi/university-of-rochester-other-api-openapi.yml
-- filename: university-of-rochester-profiles-api-openapi.yml
-  format: yaml
-  label: University of Rochester profiles API
-  slug: university-of-rochester-profiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/openapi/university-of-rochester-profiles-api-openapi.yml
-- filename: university-of-rochester-projects-api-openapi.yml
-  format: yaml
-  label: University of Rochester projects API
-  slug: university-of-rochester-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/openapi/university-of-rochester-projects-api-openapi.yml
-- filename: university-of-rochester-symplectic-api-openapi.yml
-  format: yaml
-  label: University of Rochester symplectic API
-  slug: university-of-rochester-symplectic-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/openapi/university-of-rochester-symplectic-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/openapi/university-of-rochester-urresearch-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -115,12 +61,17 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/security/university-of-rochester-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Library
-- Institutional Repository
-- Open Data
+- Higher Education
+- Education
 - United States
+- New York
+- Private Research University
+- Association of American Universities
+- Research Repository
+- Institutional Repository
+- OAI-PMH
+- Identity Federation
+- Library
+- Research Computing
 ---

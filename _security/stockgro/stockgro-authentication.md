@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stockgro/refs/
 summary_line: 0 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Stock Market
 - Investing
 - Market Data

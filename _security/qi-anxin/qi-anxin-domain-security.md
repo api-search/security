@@ -45,6 +45,6 @@ tags:
 - Endpoint Security
 - Network Security
 - Vulnerability Management
-- Model Context Protocol
+- MCP
 - China
 ---

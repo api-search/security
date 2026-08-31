@@ -104,7 +104,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Payments
 - Payment Gateway
-- Pix
+- PIX
 - Boleto
 - Brazil
 ---

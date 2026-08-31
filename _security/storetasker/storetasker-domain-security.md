@@ -36,5 +36,5 @@ tags:
 - E-Commerce
 - Freelance
 - Developers
-- Direct to Consumer
+- DTC
 ---

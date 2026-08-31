@@ -100,7 +100,7 @@ tags:
 - Africa
 - Global Payouts
 - Wallets
-- Multi-Currency
+- Multicurrency
 - Gift Cards
 - Mobile Money
 - Fintech

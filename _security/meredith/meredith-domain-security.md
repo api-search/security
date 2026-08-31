@@ -56,8 +56,8 @@ tags:
 - Lifestyle
 - News
 - RSS
-- Sitemap
+- Sitemaps
 - Robots
 - AI Policy
-- IaC
+- IAC
 ---

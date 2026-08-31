@@ -102,16 +102,16 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/security/canoe-intelligence-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Alternative Investments
-- Private Markets
-- Document Automation
-- Data Extraction
-- Fund Administration
+- alternative-investments
+- private-markets
+- document-automation
+- data-extraction
+- fund-administration
 - capital-calls
 - k-1-tax-documents
-- Portfolio Reporting
+- portfolio-reporting
 - Financial-Services
 - Fintech
-- Wealth Management
-- Institutional Investors
+- wealth-management
+- institutional-investors
 ---

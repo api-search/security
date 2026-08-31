@@ -54,6 +54,6 @@ tags:
 - Data
 - Analytics
 - Market Intelligence
-- SaaS
+- Software-as-a-Service
 - Partnerships
 ---

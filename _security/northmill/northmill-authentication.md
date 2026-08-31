@@ -246,13 +246,13 @@ summary_line: http · 2 schemes
 tags:
 - Banking
 - Payments
-- Point of Sale
+- Point-of-Sale
 - Retail
 - Open Banking
 - Sweden
 - Fintech
-- Webhooks
-- E-commerce
+- Webhook
+- E-Commerce
 - Lending
 - Nordics
 ---

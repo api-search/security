@@ -78,11 +78,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unfao/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agriculture
-- food security
+- Food Security
 - Statistics
 - Trade
-- Land Use
-- Environment
+- land use
+- environment
 - UN
-- Open Data
+- open data
 ---

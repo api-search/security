@@ -1,5 +1,17 @@
 ---
 api_specs:
+- filename: pennsylvania-state-university-researcher-metadata-api-openapi.yml
+  format: yaml
+  label: Researcher Metadata Database (RMD) API
+  slug: rmd
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-researcher-metadata-api-openapi.yml
+- filename: pennsylvania-state-university-scholarsphere-api-openapi.yml
+  format: yaml
+  label: ScholarSphere API
+  slug: scholarsphere
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-scholarsphere-api-openapi.yml
 - filename: pennsylvania-state-university-buildings-api-openapi.yml
   format: yaml
   label: Pennsylvania State University Buildings API
@@ -53,7 +65,14 @@ tags:
 - Education
 - Higher Education
 - University
+- Public Research University
+- Land Grant
+- Big Ten
 - Research
+- Research Data
+- Research Repository
+- Open Access
+- Identity Federation
 - Library
 - Facilities
 - United States

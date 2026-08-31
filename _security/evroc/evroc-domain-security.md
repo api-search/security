@@ -41,6 +41,5 @@ tags:
 - AI Infrastructure
 - GPU
 - Europe
-- Infrastructure-as-a-Service
-- Sweden
+- IaaS
 ---

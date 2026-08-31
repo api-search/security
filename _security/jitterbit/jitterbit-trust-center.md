@@ -55,7 +55,7 @@ tags:
 - Low-Code
 - Enterprise
 - API Gateway
-- Workflow Automation
+- Workflow-Automation
 - Connectors
 trust_url: https://security.jitterbit.com/
 ---

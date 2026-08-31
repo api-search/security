@@ -70,7 +70,7 @@ tags:
 - Database
 - Event Sourcing
 - Event Streaming
-- Event-Driven Architecture
+- Event Driven Architecture
 - CQRS
 - Data Infrastructure
 - Developer Tools

@@ -35,7 +35,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deski/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Health Tech
+- Healthtech
 - Medical Imaging
 - Cardiology
 - Ultrasound

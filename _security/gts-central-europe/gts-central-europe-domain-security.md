@@ -36,7 +36,7 @@ tags:
 - Company
 - Telecommunications
 - Cloud
-- Cybersecurity
+- Cyber Security
 - Connectivity
 - Managed Service
 - Unified Communications

@@ -48,5 +48,5 @@ tags:
 - Staff Management
 - Business Intelligence
 - Data Feeds
-- SaaS
+- Software-as-a-Service
 ---

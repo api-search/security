@@ -58,7 +58,7 @@ tags:
 - MMLU
 - Synthetic Data Generation
 - Prompt Optimization
-- CI/CD
+- CI CD
 - Pytest
 - Python
 - Open-Source

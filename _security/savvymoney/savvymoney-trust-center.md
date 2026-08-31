@@ -23,14 +23,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/savvymoney/ref
 summary_line: SOC 2 Type 2, CSA STAR Level 1, CSA STAR Level 2, CSA Trusted Cloud Provider, TRUSTe
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Credit Scores
 - Credit Monitoring
 - Financial Wellness
 - Banking
 - Credit Unions
 - Fintech
-- Single Sign On
+- Single Sign-On
 - Embedded Finance
 - Lending
 - Account Opening

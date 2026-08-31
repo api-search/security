@@ -89,7 +89,7 @@ tags:
 - Artificial Intelligence
 - Meetings
 - Transcription
-- Note Taking
+- Notetaking
 - Conversation Intelligence
 - Productivity
 - Video

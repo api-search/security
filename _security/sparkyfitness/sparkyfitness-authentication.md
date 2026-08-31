@@ -158,7 +158,7 @@ tags:
 - Fitness
 - Nutrition
 - Self-Hosted
-- Open Source
+- Open-Source
 - Wearables
 - MCP
 - AI Assistant

@@ -103,7 +103,7 @@ tags:
 - Compliance
 - Biometrics
 - Document Verification
-- Face Match
+- Facematch
 - Liveness
 - GovCheck
 - Watchlist

@@ -437,20 +437,20 @@ source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/security/altr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Data Security
-- Data Governance
-- Data Masking
-- Tokenization
-- Data Classification
-- Access Control
-- Snowflake
-- Databricks
+- data-security
+- data-governance
+- data-masking
+- tokenization
+- data-classification
+- access-control
+- snowflake
+- databricks
 - format-preserving-encryption
-- Database Activity Monitoring
-- RBAC
+- database-activity-monitoring
+- rbac
 - PII
 - Compliance
-- Data Privacy
+- data-privacy
 - MCP
 - agent-native
 ---

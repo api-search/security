@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: ulb-difusion-export-openapi.yml
+  format: yaml
+  label: DI-fusion Export API
+  slug: difusion-export
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/openapi/ulb-difusion-export-openapi.yml
+- filename: ulb-difusion-oai-pmh-openapi.yml
+  format: yaml
+  label: DI-fusion OAI-PMH Harvesting Endpoint
+  slug: difusion-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/openapi/ulb-difusion-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,11 +60,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/security/ulb-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Access
-- Institutional Repository
+- Higher Education
+- Education
 - Belgium
+- Europe
+- Research
+- Research Data
+- Institutional Repository
+- Open Access
+- Identity Federation
+- OAI-PMH
+- Library
 ---

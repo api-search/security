@@ -37,18 +37,18 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apstal/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics
-- Web Analytics
-- Privacy
-- Session Replay
-- Heatmaps
+- web-analytics
+- privacy
+- session-replay
+- heatmaps
 - MCP
 - agent-native
-- Cookieless
+- cookieless
 - llms-txt
-- BigQuery
-- GDPR
+- bigquery
+- gdpr
 - A2A
-- Agent Skills
-- Bot Detection
-- Core Web Vitals
+- agent-skills
+- bot-detection
+- core-web-vitals
 ---

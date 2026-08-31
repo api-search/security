@@ -61,6 +61,6 @@ tags:
 - Kubernetes
 - Machine-Learning
 - Recommendations
-- Rightsizing
+- Right-Sizing
 trust_url: https://kubex.ai/product/security/
 ---

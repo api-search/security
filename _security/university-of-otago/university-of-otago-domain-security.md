@@ -47,12 +47,21 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-otago/refs/heads/main/security/university-of-otago-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- New Zealand
 - Research
+- Research Repository
 - Open Access
 - Repository
-- Identity
-- New Zealand
+- Identity Federation
+- Shibboleth
+- SAML
+- OAI-PMH
+- Learning Management
+- DataCite
+- Crossref
+- Metadata
+- Library
 ---

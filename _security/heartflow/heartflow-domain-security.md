@@ -50,5 +50,5 @@ tags:
 - Medical Devices
 - Radiology
 - Clinical Decision Support
-- Machine Learning
+- Machine-Learning
 ---

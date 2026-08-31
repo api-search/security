@@ -81,6 +81,6 @@ tags:
 - Health
 - Artificial Intelligence
 - Stroke
-- Parkinson's Disease
+- Parkinsons Disease
 - Switzerland
 ---

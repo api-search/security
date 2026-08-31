@@ -29,6 +29,6 @@ tags:
 - Enterprise Software
 - Governance
 - Collaboration
-- SaaS
+- Software-as-a-Service
 trust_url: ''
 ---

@@ -29,7 +29,7 @@ tags:
 - Enterprise
 - Robotic Process Automation
 - RPA
-- Hyper-Automation
+- Hyperautomation
 - Automation
 - Artificial Intelligence
 - Intelligent Document Processing

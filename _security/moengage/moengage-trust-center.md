@@ -297,19 +297,19 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moengage/refs/
 summary_line: SOC 2 Type 2, CSA STAR Level 2, ISO/IEC 27001:2022, ISO/IEC 27701:2019, ISO 22301:2019, HIPAA, GDPR, CCPA
 tags:
 - Customer Engagement
-- Marketing Automation
-- Customer Data Platform
+- marketing-automation
+- customer-data-platform
 - Push Notifications
 - Email
 - SMS
 - WhatsApp
-- In-App Messaging
-- Segmentation
-- Personalization
-- Campaign Management
+- in-app-messaging
+- segmentation
+- personalization
+- campaign-management
 - Analytics
-- Mobile SDK
+- mobile-sdk
 - MCP
-- MarTech
+- martech
 trust_url: https://trust.moengage.com/
 ---

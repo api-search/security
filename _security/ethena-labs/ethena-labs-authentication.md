@@ -41,7 +41,7 @@ summary_line: ip-allowlist/wallet-allowlist/signature · 4 schemes
 tags:
 - Company
 - Crypto
-- Stablecoins
+- Stablecoin
 - DeFi
 - Synthetic Dollar
 - Minting

@@ -32,7 +32,7 @@ tags:
 - Company
 - Landing Pages
 - Website Builder
-- No-Code
+- No Code
 - Customer Acquisition
 - Email Capture
 - Waitlists

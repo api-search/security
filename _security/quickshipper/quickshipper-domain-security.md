@@ -44,10 +44,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Logistics
-- Last Mile Delivery
+- Last-Mile Delivery
 - Fleet Management
 - Shipping
-- Couriers
+- Courier
 - Route Optimization
 - Software-as-a-Service
 ---

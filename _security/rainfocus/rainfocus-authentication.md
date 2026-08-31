@@ -110,7 +110,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rainfocus/refs
 summary_line: 4 schemes
 tags:
 - Company
-- Events
+- Event
 - Event Management
 - Event Marketing
 - Registration
@@ -121,5 +121,5 @@ tags:
 - MCP
 - Agents
 - Enterprise Software
-- SaaS
+- Software-as-a-Service
 ---

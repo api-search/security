@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synergysuite/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Restaurants
+- Restaurant
 - Hospitality
 - Restaurant Management
 - Back Of House
@@ -40,5 +40,5 @@ tags:
 - Point Of Sale Integration
 - Business Intelligence
 - EDI
-- SaaS
+- Software-as-a-Service
 ---

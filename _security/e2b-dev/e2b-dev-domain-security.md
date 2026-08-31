@@ -125,7 +125,7 @@ tags:
 - Code Interpreter
 - Sandboxes
 - Firecracker
-- MicroVMs
+- microVMs
 - Computer Use
 - Desktop Sandbox
 - Templates

@@ -73,7 +73,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud-Native
 - Event-Driven
-- Function-as-a-Service
+- FaaS
 - Serverless
 - Apache
 - Open-Source

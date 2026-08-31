@@ -34,7 +34,7 @@ tags:
 - Consumer Packaged Goods
 - Beverages
 - Food and Beverage
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Retail
 - Agentic Commerce

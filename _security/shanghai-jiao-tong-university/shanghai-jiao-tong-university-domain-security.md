@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: shanghai-jiao-tong-university-open-api-openapi.yml
+  format: yaml
+  label: SJTU Open API
+  slug: open-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/openapi/shanghai-jiao-tong-university-open-api-openapi.yml
+- filename: shanghai-jiao-tong-university-data-resources-openapi.yml
+  format: yaml
+  label: SJTU Data Resources API
+  slug: data-resources
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/openapi/shanghai-jiao-tong-university-data-resources-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,12 +52,19 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/security/shanghai-jiao-tong-university-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
 - China
-- GraphQL
-- Identity
+- C9 League
+- Identity Federation
+- Course Catalog
+- Research Computing
+- Campus Life
+- OAuth
 - OpenID Connect
+- SAML
+- Shibboleth
+- Payments
 ---

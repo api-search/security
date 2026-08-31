@@ -35,6 +35,6 @@ tags:
 - Legal
 - Wills And Trusts
 - Financial-Services
-- Legal Tech
+- Legaltech
 - Fintech
 ---

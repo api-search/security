@@ -72,13 +72,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kartos-therape
 summary_line: http · 1 scheme
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Oncology
-- Hematology
-- Rare Disease
-- Precision Medicine
-- Clinical Trials
-- Life Sciences
+- biotechnology
+- pharmaceuticals
+- oncology
+- hematology
+- rare-disease
+- precision-medicine
+- clinical-trials
+- life-sciences
 - content-api
 ---

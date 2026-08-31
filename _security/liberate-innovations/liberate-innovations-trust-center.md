@@ -41,7 +41,7 @@ summary_line: SOC 2, HIPAA, PCI DSS, GDPR, CCPA, ISO 27001, FedRAMP
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Artificial Intelligence
 - Voice AI
 - Conversational AI

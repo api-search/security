@@ -83,7 +83,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/he
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - MCP
 - Agents
 - Webhook

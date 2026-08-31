@@ -84,16 +84,16 @@ source_yaml: "generated: '2026-08-05'\nmethod: derived\nsource: openapi/73-strin
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/authentication/73-strings-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Private Markets
-- Valuation
-- Portfolio Monitoring
-- Private Equity
-- Private Credit
-- Venture Capital
-- Alternative Assets
+- private-markets
+- valuation
+- portfolio-monitoring
+- private-equity
+- private-credit
+- venture-capital
+- alternative-assets
 - Financial Data
-- Data Extraction
+- data-extraction
 - Fintech
-- Asset Management
-- Azure API Management
+- asset-management
+- azure-api-management
 ---

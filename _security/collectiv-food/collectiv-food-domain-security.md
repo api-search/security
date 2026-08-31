@@ -35,7 +35,7 @@ tags:
 - Food Wholesale
 - Food Distribution
 - Supply Chain
-- Food Tech
+- Foodtech
 - Sustainability
 - B2B
 ---

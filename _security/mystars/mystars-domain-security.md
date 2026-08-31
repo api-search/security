@@ -59,14 +59,14 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/security/mystars-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- telegram
+- Telegram
 - telegram-stars
 - telegram-premium
-- payments
-- crypto
-- ton
-- fulfilment
-- blockchain
-- digital-goods
+- Payments
+- Crypto
+- TON
+- Fulfilment
+- Blockchain
+- Digital Goods
 - reseller-api
 ---

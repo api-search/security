@@ -21,7 +21,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hidden-road/re
 summary_line: SOC 2 Type II, ISO 27001
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Prime Brokerage
 - Clearing
 - Digital Assets

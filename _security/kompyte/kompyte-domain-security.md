@@ -54,7 +54,7 @@ tags:
 - Sales Enablement
 - Market Intelligence
 - Battlecards
-- Win-Loss Analysis
+- Win Loss Analysis
 - Software-as-a-Service
 - Marketing
 ---

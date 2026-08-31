@@ -56,7 +56,7 @@ tags:
 - Consumer Brands
 - Retail
 - Amazon Aggregator
-- Marketplace-Seller
+- Marketplace Seller
 - Consumer Packaged Goods
 - Germany
 ---

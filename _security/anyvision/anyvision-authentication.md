@@ -35,16 +35,16 @@ source_yaml: "generated: '2026-08-06'\nmethod: searched\nsource: https://github.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anyvision/refs/heads/main/authentication/anyvision-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Facial Recognition
-- Computer-Vision
-- Video Analytics
-- Physical Security
-- Access Control
-- Biometrics
-- Surveillance
-- Edge AI
+- facial-recognition
+- computer-vision
+- video-analytics
+- physical-security
+- access-control
+- biometrics
+- surveillance
+- edge-ai
 - watchlist-alerting
-- Visitor Management
-- Israel
+- visitor-management
+- israel
 - Company
 ---

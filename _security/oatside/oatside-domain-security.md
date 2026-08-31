@@ -39,11 +39,11 @@ tags:
 - Food and Beverage
 - Consumer Packaged Goods
 - Oat Milk
-- Plant Based
+- Plant-Based
 - E-Commerce
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 - Retail
 - Singapore

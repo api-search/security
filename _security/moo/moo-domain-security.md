@@ -39,7 +39,7 @@ tags:
 - Company
 - Retail
 - Printing
-- Print on Demand
+- Print On Demand
 - Business Cards
 - Design
 - Stationery

@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meru-health/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Health Tech
+- Healthtech
 - Mental Health
 - Digital Health
 - Telehealth

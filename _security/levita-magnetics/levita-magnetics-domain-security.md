@@ -32,7 +32,7 @@ tags:
 - Company
 - Medical Devices
 - Surgical Robotics
-- Health Care
+- Healthcare
 - Robotics
 - Minimally Invasive Surgery
 - Medical Technology

@@ -37,7 +37,7 @@ tags:
 - Fixed Income
 - Equity
 - Commodities
-- Benchmarks
+- Benchmark
 - Global Aggregate
 - Bloomberg
 ---

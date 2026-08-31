@@ -33,7 +33,7 @@ tags:
 - Company
 - Consumer
 - Beauty
-- Hair Care
+- Haircare
 - Skincare
 - Personalization
 - Direct to Consumer

@@ -79,7 +79,7 @@ tags:
 - Parcel Tracking
 - E-Commerce
 - Last Mile
-- Couriers
+- Courier
 - Cash on Delivery
 - Thailand
 - Southeast Asia

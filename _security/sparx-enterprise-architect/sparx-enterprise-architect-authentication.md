@@ -104,6 +104,6 @@ tags:
 - BPMN
 - SysML
 - OSLC
-- Model Context Protocol
+- MCP
 - Model-Driven Development
 ---

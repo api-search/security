@@ -40,7 +40,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/waldo/refs/hea
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- DevOps
+- Devops
 - Testing
 - Mobile
 - Test Automation

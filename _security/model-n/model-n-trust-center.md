@@ -30,7 +30,7 @@ tags:
 - Healthcare
 - Life Sciences
 - Pharmaceuticals
-- MedTech
+- Medtech
 - Revenue Management
 - Government Pricing
 - Compliance

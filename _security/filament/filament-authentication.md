@@ -49,6 +49,6 @@ tags:
 - DEX
 - Trading
 - Blockchain
-- SEI
+- Sei
 - Web3
 ---

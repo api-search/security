@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/viktor/refs/he
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
-- Cloud Saas
+- Cloud SaaS
 - Artificial Intelligence
 - AI Agents
 - Automation

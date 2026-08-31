@@ -60,5 +60,5 @@ tags:
 - Supply Chain Visibility
 - Tracking
 - Freight
-- Multi-Modal
+- Multi-modal
 ---

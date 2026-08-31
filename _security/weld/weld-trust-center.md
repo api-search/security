@@ -106,7 +106,7 @@ tags:
 - Data Pipeline
 - Data Integration
 - Change Data Capture
-- Transformation
+- Transformations
 - Analytics
 - MCP
 - AI Agents

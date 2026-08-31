@@ -55,15 +55,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/a-alpha-bio/re
 summary_line: http/oauth2 · 2 schemes
 tags:
 - protein-interactions
-- Biotechnology
-- Drug Discovery
-- Antibody Engineering
-- Synthetic Biology
-- Machine-Learning
-- Training Data
-- Data Licensing
-- Life Sciences
+- biotechnology
+- drug-discovery
+- antibody-engineering
+- synthetic-biology
+- machine-learning
+- training-data
+- data-licensing
+- life-sciences
 - Datasets
-- Protein Design
-- Bioinformatics
+- protein-design
+- bioinformatics
 ---

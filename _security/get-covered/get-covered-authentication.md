@@ -25,7 +25,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Renters Insurance
 - Property Management
 - Real-Estate

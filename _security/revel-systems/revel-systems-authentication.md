@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/revel-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/authentication/revel-systems-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Point-of-Sale
+- POS
 - Restaurant
 - Retail
 - iPad

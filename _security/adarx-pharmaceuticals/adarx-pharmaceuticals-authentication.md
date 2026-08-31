@@ -92,15 +92,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adarx-pharmace
 summary_line: http · 2 schemes
 tags:
 - Company
-- Biotechnology
+- biotechnology
 - biopharmaceuticals
-- RNA Therapeutics
-- siRNA
-- RNA Editing
-- Clinical Trials
-- Rare Disease
-- Drug Development
-- Life Sciences
-- San Diego
+- rna-therapeutics
+- sirna
+- rna-editing
+- clinical-trials
+- rare-disease
+- drug-development
+- life-sciences
+- san-diego
 - content-api
 ---

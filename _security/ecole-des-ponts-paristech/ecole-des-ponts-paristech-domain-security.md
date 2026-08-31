@@ -50,14 +50,19 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/security/ecole-des-ponts-paristech-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- Technical University
+- Grande École
 - Engineering
+- France
 - Research
 - Open Access
-- Open Data
-- Library
+- Research Data
+- Identity Federation
+- Digital Library
 - OAI-PMH
-- France
+- IIIF
+- SAML
 ---

@@ -71,7 +71,7 @@ tags:
 - Stream Processing
 - Apache Flink
 - Debezium
-- Real-Time Data
+- Real Time Data
 - Data Pipeline
 - CDC
 ---

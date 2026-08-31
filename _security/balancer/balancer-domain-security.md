@@ -45,7 +45,7 @@ tags:
 - DEX
 - AMM
 - Liquidity
-- Multi-Chain
+- Multi-chain
 - GraphQL
 - Smart Order Router
 - Open-Source

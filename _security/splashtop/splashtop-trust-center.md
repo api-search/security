@@ -25,7 +25,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/splashtop/refs
 summary_line: ISO/IEC 27001:2022, SOC 2 Type 2, CSA STAR Level 1, GDPR, CCPA, HIPAA, PCI DSS, FERPA
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Remote Access
 - Remote Support
 - Remote Desktop

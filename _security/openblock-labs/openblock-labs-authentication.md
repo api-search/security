@@ -24,7 +24,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Data
-- Coding Agents
+- Coding Agent
 - AI Agents
 - Developer Tools
 - Automation

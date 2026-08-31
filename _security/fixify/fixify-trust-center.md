@@ -26,10 +26,11 @@ summary_line: SOC 2 Type 2, ISO/IEC 27001, ISO/IEC 42001:2023, HIPAA, PCI DSS, N
 tags:
 - Company
 - Infrastructure
-- ITSM
+- IT Service Management
 - Help Desk
 - IT Automation
 - Artificial Intelligence
+- ITSM
 - Support
 - Software-as-a-Service
 trust_url: https://compliance.fixify.com/

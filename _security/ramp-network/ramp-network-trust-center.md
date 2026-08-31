@@ -23,7 +23,7 @@ summary_line: SOC 2 Type 1, GDPR, SOC 2 / ISO 27001
 tags:
 - Cryptocurrency
 - Payments
-- FinTech
+- Fintech
 - On-Ramp
 - Off-Ramp
 - Blockchain

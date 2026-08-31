@@ -40,6 +40,6 @@ tags:
 - Real-Estate
 - PropTech
 - Marketplace
-- Home Buying
+- Homebuying
 - Investors
 ---

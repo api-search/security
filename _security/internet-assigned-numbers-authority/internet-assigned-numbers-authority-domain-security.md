@@ -48,5 +48,5 @@ tags:
 - Media Types
 - Protocols
 - Standards
-- Timezones
+- Time Zones
 ---

@@ -83,9 +83,9 @@ tags:
 - Disputes
 - Fraud
 - Risk
-- Financial Services
+- Financial-Services
 - E-Commerce
 - Artificial Intelligence
-- Webhooks
+- Webhook
 trust_url: https://trust.justt.ai/
 ---

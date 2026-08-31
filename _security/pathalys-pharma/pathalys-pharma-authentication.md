@@ -67,11 +67,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pathalys-pharm
 summary_line: 0 schemes
 tags:
 - Company
-- Pharmaceuticals
-- Biotechnology
-- Nephrology
-- Chronic Kidney Disease
-- Clinical Trials
-- Life Sciences
-- Content API
+- pharmaceuticals
+- biotechnology
+- nephrology
+- chronic-kidney-disease
+- clinical-trials
+- life-sciences
+- content-api
 ---

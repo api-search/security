@@ -430,8 +430,8 @@ tags:
 - Fitness
 - Nutrition
 - Health
-- Open Source
-- Self Hosted
+- Open-Source
+- Self-Hosted
 - Workout Tracking
 - Django
 - REST

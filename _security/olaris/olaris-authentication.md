@@ -34,11 +34,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/olaris/refs/he
 summary_line: 2 schemes
 tags:
 - Company
-- Health Care
+- Healthcare
 - Diagnostics
 - Precision Medicine
 - Metabolomics
-- Machine Learning
+- Machine-Learning
 - Biomarkers
 - Laboratory
 - Transplant

@@ -24,7 +24,7 @@ tags:
 - Fintech
 - Autonomous Finance
 - Accounts Receivable
-- Order-to-Cash
+- Order to Cash
 - Treasury
 - Accounts Payable
 - Financial Close

@@ -63,13 +63,13 @@ summary_line: oauth2/apiKey · 2 schemes
 tags:
 - Shipping
 - Logistics
-- Freight
+- freight
 - Marketplace
 - Transportation
 - auto-transport
 - ltl-freight
-- Last Mile Delivery
-- Shipment Tracking
+- last-mile-delivery
+- shipment-tracking
 - E-Commerce
 - Supply Chain
 - rate-quotes

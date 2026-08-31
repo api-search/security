@@ -94,7 +94,7 @@ tags:
 - Logistics
 - Analytics
 - Artificial Intelligence
-- Jobs
+- Job
 - Cloud
 trust_url: https://trust.optilogic.com/
 ---

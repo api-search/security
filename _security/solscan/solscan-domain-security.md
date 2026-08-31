@@ -74,7 +74,7 @@ tags:
 - Web3
 - Solana
 - Explorer
-- Onchain
+- On-Chain
 - Tokens
-- NFT
+- NFTs
 ---

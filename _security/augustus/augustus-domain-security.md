@@ -132,7 +132,7 @@ tags:
 - Payments
 - Banking
 - Open Banking
-- Stablecoins
+- Stablecoin
 - Payouts
 - Foreign Exchange
 - Webhook

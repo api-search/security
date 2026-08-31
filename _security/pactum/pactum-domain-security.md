@@ -43,5 +43,5 @@ tags:
 - Autonomous Agents
 - Sourcing
 - Supply Chain
-- Enterprise Saas
+- Enterprise SaaS
 ---

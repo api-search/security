@@ -41,5 +41,5 @@ tags:
 - Data Synchronization
 - Authentication
 - Plugins
-- No-Code
+- No Code
 ---

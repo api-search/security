@@ -20,18 +20,18 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: https://webz.io
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/security/webz-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
-- news-data
-- web-data
-- web-scraping
-- dark-web
+- News Data
+- Web Data
+- Web Scraping
+- Dark Web
 - deep-web
-- cybersecurity
-- threat-intelligence
-- data-breach
+- Cybersecurity
+- Threat Intelligence
+- Data Breach
 - pii-monitoring
-- osint
+- OSINT
 - reviews-data
-- ai-training-data
-- media-monitoring
+- AI Training Data
+- Media Monitoring
 trust_url: https://webz.io/trust
 ---

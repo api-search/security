@@ -17,20 +17,20 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: https://trust.pat
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/patientfi/refs/heads/main/security/patientfi-trust-center.yml
 summary_line: trust center published
 tags:
-- Healthcare Financing
-- Patient Financing
-- Consumer Lending
+- healthcare-financing
+- patient-financing
+- consumer-lending
 - Point of Sale Financing
-- Buy Now Pay Later
+- buy-now-pay-later
 - Fintech
 - Payments
-- Embedded Finance
-- Aesthetics
-- Plastic Surgery
-- Medspa
-- Cosmetic Dental
-- Fertility
-- Audiology
-- Practice Management
+- embedded-finance
+- aesthetics
+- plastic-surgery
+- medspa
+- cosmetic-dental
+- fertility
+- audiology
+- practice-management
 trust_url: ''
 ---

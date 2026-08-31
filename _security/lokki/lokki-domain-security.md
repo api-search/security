@@ -639,7 +639,7 @@ tags:
 - Company
 - Climate Tech
 - Circular Economy
-- Rentals
+- Rental
 - Equipment Rental
 - Bike Rental
 - Marketplace

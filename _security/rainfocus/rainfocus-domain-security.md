@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rainfocus/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Events
+- Event
 - Event Management
 - Event Marketing
 - Registration
@@ -54,5 +54,5 @@ tags:
 - MCP
 - Agents
 - Enterprise Software
-- SaaS
+- Software-as-a-Service
 ---

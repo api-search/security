@@ -39,6 +39,6 @@ tags:
 - Payments
 - Live Entertainment
 - Webhook
-- API-First
+- API-first
 trust_url: https://trust.vivenu.com/
 ---

@@ -35,6 +35,6 @@ tags:
 - DCAT
 - Government Data
 - Open Data Portal
-- State-Government
+- State Government
 - Brazil
 ---

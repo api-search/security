@@ -65,9 +65,9 @@ tags:
 - Apparel
 - Retail
 - E-Commerce
-- Direct To Consumer
+- Direct to Consumer
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 - Shopify
 - Manufacturing

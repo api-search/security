@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: university-of-york-oai2-api-openapi.yml
+- filename: university-of-york-digital-collections-search-openapi.yml
   format: yaml
-  label: University of York Oai2 API
-  slug: university-of-york-oai2-api
+  label: University of York Digital Collections Search API
+  slug: digital-collections-search
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/openapi/university-of-york-oai2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/openapi/university-of-york-digital-collections-search-openapi.yml
+- filename: university-of-york-digital-collections-iiif-openapi.yml
+  format: yaml
+  label: University of York Digital Collections IIIF APIs
+  slug: digital-collections-iiif
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/openapi/university-of-york-digital-collections-iiif-openapi.yml
+- filename: university-of-york-research-portal-oai-pmh-openapi.yml
+  format: yaml
+  label: University of York Research Portal OAI-PMH
+  slug: research-portal-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/openapi/university-of-york-research-portal-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa:
@@ -61,12 +73,19 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/security/university-of-york-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - United Kingdom
-- Research
-- Library
+- Russell Group
+- Digital Collections
+- Cultural Heritage
+- Archives
+- IIIF
+- Research Data
 - Open Access
 - OAI-PMH
+- Identity Federation
+- Library
+- Research Computing
 ---

@@ -27,7 +27,7 @@ tags:
 - Artificial Intelligence
 - Document Generation
 - Search
-- Model Context Protocol
+- MCP
 - Agents
 trust_url: https://trust.solveintelligence.com/
 ---

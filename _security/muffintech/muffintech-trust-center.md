@@ -21,11 +21,11 @@ summary_line: ISO 27001:2022, GDPR
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Artificial Intelligence
 - Generative AI
 - Conversational AI
-- Chatbots
+- Chatbot
 - Germany
 trust_url: https://muffintech.ai/en/safety
 ---

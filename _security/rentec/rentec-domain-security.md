@@ -49,7 +49,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Property Management
 - Real-Estate
-- Rentals
+- Rental
 - Tenant Screening
 - Payments
 - Maintenance

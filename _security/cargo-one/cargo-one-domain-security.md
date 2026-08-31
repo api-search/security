@@ -34,7 +34,7 @@ tags:
 - Logistics
 - Freight Forwarding
 - Cargo Booking
-- Multi-Modal
+- Multimodal
 - Rate Management
 - TMS Integration
 - CargoWise

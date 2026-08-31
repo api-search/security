@@ -32,7 +32,7 @@ tags:
 - Consumer
 - Internet
 - Broadband
-- Wi-Fi
+- WiFi
 - Telecommunications
 - Connectivity
 - India

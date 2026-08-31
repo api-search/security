@@ -231,7 +231,7 @@ tags:
 - Bug Reporting
 - In-App Support
 - Feature Requests
-- Roadmaps
+- Roadmap
 - Live Chat
 - AI Agents
 - Session Replay

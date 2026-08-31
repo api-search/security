@@ -97,13 +97,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/botify/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - SEO
-- organic-search
-- Web Crawling
-- Log Analysis
-- Search Console
-- Marketing Analytics
+- Organic search
+- search-engine-optimization
+- web-crawling
+- log-analysis
+- search-console
+- marketing-analytics
 - AI Search
-- Data Export
+- data-export
 - MCP
 - agent-native
 ---

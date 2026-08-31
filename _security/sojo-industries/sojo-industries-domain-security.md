@@ -62,5 +62,5 @@ tags:
 - Industrial Automation
 - Blockchain
 - Artificial Intelligence
-- Model Context Protocol
+- MCP
 ---

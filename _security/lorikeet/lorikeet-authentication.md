@@ -58,5 +58,5 @@ tags:
 - AI Agent
 - Support Automation
 - Workflows
-- Help Desk
+- Helpdesk
 ---

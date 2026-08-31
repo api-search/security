@@ -31,9 +31,9 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Sharing Economy
-- Peer-to-Peer
+- Peer to Peer
 - Marketplace
-- Rentals
+- Rental
 - Sustainability
 - Consumer
 - Netherlands

@@ -52,6 +52,6 @@ tags:
 - Maps
 - Location
 - Address Validation
-- APILayer
+- apilayer
 - Public APIs
 ---

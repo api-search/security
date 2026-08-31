@@ -41,14 +41,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/security/homebase-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Scheduling
-- Time Tracking
-- Payroll
+- scheduling
+- time-tracking
+- payroll
 - HR
-- Workforce Management
-- Team Communication
-- Employee Scheduling
-- Small Business
-- Hourly Workers
+- workforce-management
+- team-communication
+- employee-scheduling
+- small-business
+- hourly-workers
 - Integration
 ---

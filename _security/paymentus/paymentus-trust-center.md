@@ -21,7 +21,7 @@ summary_line: SOC 2, PCI DSS, HIPAA
 tags:
 - Payments
 - United States
-- Bill Payments
+- Bill Payment
 - Electronic Bill Presentment
 - Payment Processing
 - Payment Gateway

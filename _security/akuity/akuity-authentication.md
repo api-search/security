@@ -87,7 +87,7 @@ tags:
 - GitOps
 - Continuous Delivery
 - Kubernetes
-- ArgoCD
+- Argo CD
 - Kargo
 - Platform Engineering
 - DevOps

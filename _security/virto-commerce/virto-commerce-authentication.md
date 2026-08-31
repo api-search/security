@@ -212,7 +212,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: 'openapi/virto-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/authentication/virto-commerce-authentication.yml
 summary_line: apiKey/http/oauth2 · 5 schemes
 tags:
-- B2B E-Commerce
+- B2B eCommerce
 - Catalog Management
 - Order Management
 - Pricing

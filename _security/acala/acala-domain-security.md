@@ -59,7 +59,7 @@ tags:
 - Polkadot
 - Smart Contracts
 - EVM
-- Stablecoins
+- Stablecoin
 - JSON-RPC
 - Web3
 ---

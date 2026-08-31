@@ -30,8 +30,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nexu/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Financial Services
-- FinTech
+- Financial-Services
+- Fintech
 - Lending
 - Auto Finance
 - Leasing

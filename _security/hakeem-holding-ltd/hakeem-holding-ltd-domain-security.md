@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Healthcare
-- Health Tech
+- HealthTech
 - Clinical Decision Support
 - Medical Education
 - Artificial Intelligence

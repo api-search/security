@@ -23,7 +23,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brightfield/re
 summary_line: SOC 2 Type 2, SOC for Cybersecurity, ISO/IEC 27001, GDPR, CCPA, NIST AI RMF
 tags:
 - Company
-- HR Tech
+- Hr Tech
 - Workforce Intelligence
 - Contingent Workforce
 - Procurement

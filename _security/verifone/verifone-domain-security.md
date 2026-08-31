@@ -181,7 +181,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
-- Point-of-Sale
+- POS
 - Terminal Management
 - E-Commerce
 - Fintech

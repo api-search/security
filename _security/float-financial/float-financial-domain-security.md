@@ -180,16 +180,16 @@ source_yaml: "generated: '2026-08-16'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/security/float-financial-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Spend Management
-- Corporate Cards
-- Expense Management
-- Accounts Payable
-- Bill Pay
-- Reimbursement
-- Business Banking
-- Accounting Integration
+- spend-management
+- corporate-cards
+- expense-management
+- accounts-payable
+- bill-pay
+- reimbursements
+- business-banking
+- accounting-integration
 - Fintech
-- Canada
+- canada
 - Payments
-- ERP Integration
+- erp-integration
 ---

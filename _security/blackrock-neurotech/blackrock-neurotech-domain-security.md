@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Neurotechnology
-- Brain-Computer Interface
+- Brain Computer Interface
 - Medical Devices
 - Neuroscience
 - Research Instrumentation

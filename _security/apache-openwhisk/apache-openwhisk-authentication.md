@@ -67,7 +67,7 @@ summary_line: http · 1 scheme
 tags:
 - Cloud-Native
 - Event-Driven
-- Function-as-a-Service
+- FaaS
 - Serverless
 - Apache
 - Open-Source

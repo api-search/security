@@ -28,7 +28,7 @@ summary_line: DNSSEC · DMARC
 tags:
 - Company
 - Banking
-- Financial Services
+- Financial-Services
 - Digital Assets
 - Cryptocurrency
 - Custody

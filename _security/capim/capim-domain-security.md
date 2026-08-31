@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capim/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Health Tech
+- Healthtech
 - Fintech
 - Dental
 - BNPL

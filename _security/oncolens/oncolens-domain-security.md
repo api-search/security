@@ -36,11 +36,11 @@ tags:
 - Cancer Care
 - Clinical Trials
 - Health Data
-- Real World Data
+- Real-World Data
 - Artificial Intelligence
 - Analytics
 - Clinical Workflow
 - Cancer Registry
 - Life Sciences
-- SaaS
+- Software-as-a-Service
 ---

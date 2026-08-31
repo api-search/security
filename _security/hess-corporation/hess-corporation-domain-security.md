@@ -34,10 +34,10 @@ tags:
 - Crude Oil
 - Deepwater
 - Energy
-- Exploration and Production
+- Exploration And Production
 - Guyana
 - Natural Gas
-- Oil and Gas
+- Oil And Gas
 - Stabroek Block
 - Upstream
 - Fortune 500

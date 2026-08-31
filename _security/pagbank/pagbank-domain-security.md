@@ -57,10 +57,10 @@ tags:
 - Payments
 - Digital Banking
 - Brazil
-- Pix
+- PIX
 - Fintech
 - E-Commerce
-- Point-of-Sale
+- POS
 - Recurring Payments
 - Boleto
 ---

@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/newgen-softwar
 summary_line: DMARC
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Low-Code
 - Content Management
 - Business Process Management

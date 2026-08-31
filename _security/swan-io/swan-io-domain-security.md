@@ -104,7 +104,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Embedded Banking
 - Banking as a Service
-- Backend-as-a-Service
+- BaaS
 - Payments
 - Account
 - Cards

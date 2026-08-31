@@ -39,5 +39,5 @@ tags:
 - Digital Health
 - Healthcare Costs
 - Insurance
-- Model Context Protocol
+- MCP
 ---

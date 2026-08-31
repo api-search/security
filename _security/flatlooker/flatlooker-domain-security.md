@@ -34,7 +34,7 @@ tags:
 - Marketplace
 - Real-Estate
 - Property Management
-- Rentals
+- Rental
 - PropTech
 - France
 ---

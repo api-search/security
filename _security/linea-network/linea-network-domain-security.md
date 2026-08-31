@@ -54,5 +54,5 @@ tags:
 - zkEVM
 - EVM Equivalence
 - JSON-RPC
-- ConsenSys
+- Consensys
 ---

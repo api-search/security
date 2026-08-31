@@ -228,14 +228,14 @@ tags:
 - Tracking
 - E-Commerce
 - Post-Purchase
-- Notifications
+- Notification
 - Logistics
 - Returns
 - Warranty
 - Address Validation
 - Fulfillment
 - Carriers
-- Webhooks
+- Webhook
 - MCP
 - Retail
 trust_url: https://www.aftership.com/security

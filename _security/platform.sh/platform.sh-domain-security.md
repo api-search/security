@@ -431,16 +431,16 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/security/platform.sh-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Platform as a Service
+- Platform-as-a-Service
 - Cloud Hosting
 - Application Hosting
 - Deployment
 - DevOps
 - Continuous Deployment
 - Containers
-- Managed Services
+- Managed Service
 - Developer Tools
 - Infrastructure
-- Multicloud
+- Multi-Cloud
 - Web Hosting
 ---

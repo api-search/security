@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: boston-wordpress-api-openapi.yml
+  format: yaml
+  label: Boston University WordPress REST API
+  slug: wordpress-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/openapi/boston-wordpress-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -41,11 +48,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/security/boston-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Library
-- Open Data
+- Higher Education
+- Education
 - United States
+- Massachusetts
+- Private Research University
+- Research
+- Research Data
+- Library
+- Identity Federation
+- Content Management
+- Open Access
 ---

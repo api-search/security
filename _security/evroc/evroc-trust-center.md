@@ -27,7 +27,6 @@ tags:
 - AI Infrastructure
 - GPU
 - Europe
-- Infrastructure-as-a-Service
-- Sweden
+- IaaS
 trust_url: https://evroc.com/security/
 ---

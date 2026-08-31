@@ -82,7 +82,7 @@ tags:
 - Fee Collection
 - Lending
 - India
-- Webhooks
+- Webhook
 - ERP Integration
-- Financial Services
+- Financial-Services
 ---

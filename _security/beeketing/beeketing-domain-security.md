@@ -194,7 +194,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - E-Commerce
-- Cross-Border Commerce
+- Cross-border Commerce
 - Marketing
 - Shopify Apps
 - REST API

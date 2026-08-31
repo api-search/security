@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/totalenergies/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy
-- Oil and Gas
+- Oil & Gas
 - Renewables
 - Electricity
 - Charging

@@ -36,5 +36,5 @@ tags:
 - Workforce Development
 - Education
 - Skills Assessment
-- E-Learning
+- eLearning
 ---

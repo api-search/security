@@ -39,7 +39,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Assistant
-- Chatbots
+- Chatbot
 - Consumer
 - Image-Generation
 - WhatsApp

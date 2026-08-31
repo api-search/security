@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deconetwork/re
 summary_line: apiKey · 1 scheme
 tags:
 - Custom Apparel
-- Web-to-Print
+- Web to Print
 - Print Shop Management
 - Order
 - Product

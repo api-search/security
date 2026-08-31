@@ -428,15 +428,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guestready/ref
 summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
 - Property Management
-- Short Term Rentals
+- Short-Term Rentals
 - Vacation Rentals
 - Hospitality
 - Travel
-- Real Estate
+- Real-Estate
 - Channel Management
 - Reservations
 - Revenue Management
 - PMS
 - MCP
-- OAuth
+- Authentication
 ---

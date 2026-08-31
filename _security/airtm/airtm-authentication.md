@@ -223,17 +223,17 @@ summary_line: http/oauth2/openIdConnect · 3 schemes
 tags:
 - Payments
 - Payouts
-- Cross-Border Payments
+- cross-border-payments
 - Fintech
-- Digital Wallet
-- Stablecoins
+- digital-wallet
+- stablecoin
 - USDC
-- Stellar
-- Mass Payouts
-- Remittances
-- Latin America
-- Emerging Markets
+- stellar
+- mass-payouts
+- remittances
+- latin-america
+- emerging-markets
 - money-services-business
 - Authentication
-- OpenID Connect
+- openid-connect
 ---

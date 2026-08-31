@@ -496,7 +496,7 @@ tags:
 - Video Advertising
 - OpenRTB
 - Header Bidding
-- AdTech
+- Ad Tech
 - Publisher Monetization
 - Demand-Side Integration
 - Ad Server

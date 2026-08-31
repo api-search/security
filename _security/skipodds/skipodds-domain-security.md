@@ -56,12 +56,12 @@ tags:
 - Sports
 - Odds
 - probabilities
-- Betting Data
+- betting-data
 - de-vig
-- Sports Data
+- sports-data
 - Real-Time
 - Webhook
-- Sports Betting
+- sports-betting
 - MCP
 - Agent Ready
 - Market Data

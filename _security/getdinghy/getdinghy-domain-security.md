@@ -29,7 +29,7 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Freelancers
 - Contractors
 - United Kingdom

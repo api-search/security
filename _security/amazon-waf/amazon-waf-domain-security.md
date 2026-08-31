@@ -58,7 +58,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-waf/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Bot Management
-- DDoS Protection
+- Ddos Protection
 - Security
 - WAF
 - Web Application Firewall

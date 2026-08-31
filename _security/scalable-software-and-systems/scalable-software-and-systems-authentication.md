@@ -41,12 +41,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/scalable
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalable-software-and-systems/refs/heads/main/authentication/scalable-software-and-systems-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- API-First
+- API First
 - Architecture Patterns
 - CQRS
 - Distributed Systems
 - Enterprise
-- Event-Driven
+- Event Driven
 - Microservices
 - Scalable Architecture
 - Software Engineering

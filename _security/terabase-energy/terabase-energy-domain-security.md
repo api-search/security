@@ -192,15 +192,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terabase-energ
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Solar
-- Renewable Energy
-- Energy Modeling
+- renewable-energy
+- energy-modeling
 - utility-scale-solar
-- Simulation
-- Photovoltaics
-- Construction Technology
-- Geospatial
+- simulation
+- photovoltaics
+- construction-technology
+- geospatial
 - terrain-analysis
-- Climate Tech
+- climate-tech
 - MCP
-- Energy Storage
+- energy-storage
 ---

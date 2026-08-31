@@ -42,7 +42,7 @@ tags:
 - Government
 - Enterprise
 - IoT
-- Machine-to-Machine
+- Machine to Machine
 - M2M
 - Broadband
 - L-Band

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: university-of-copenhagen-curis-oai-pmh-openapi.yml
+  format: yaml
+  label: University of Copenhagen CURIS OAI-PMH Repository Interface
+  slug: curis-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-copenhagen/refs/heads/main/openapi/university-of-copenhagen-curis-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa:
@@ -49,4 +56,12 @@ tags:
 - Denmark
 - Nordic
 - Open-Source
+- Research Data
+- Research Repository
+- Identity Federation
+- OAI-PMH
+- Open Data
+- Research Computing
+- Course Catalog
+- Biodiversity
 ---

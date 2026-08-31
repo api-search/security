@@ -42,7 +42,7 @@ tags:
 - Image
 - Audio
 - Video
-- Ebooks
+- E-books
 - Office Documents
 - Batch Processing
 trust_url: https://www.convertapi.com/compliance

@@ -148,7 +148,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/uber-bus
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/authentication/uber-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Ridesharing
+- Ride-Sharing
 - Rides
 - Taxis
 - Transportation

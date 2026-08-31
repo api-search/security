@@ -576,20 +576,20 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gzw-data/refs/heads/main/security/gzw-data-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
-- gaming
-- video-games
+- Gaming
+- Video Games
 - gray-zone-warfare
-- game-data
-- developer-tools
-- open-data
-- openapi
-- weapons
-- missions
+- Game Data
+- Developer Tools
+- Open Data
+- OpenAPI
+- Weapons
+- Missions
 - loot
-- rest-api
-- public-api
-- no-auth
-- read-only
-- free-api
-- community
+- REST API
+- Public API
+- No Auth
+- Read Only
+- Free API
+- Community
 ---

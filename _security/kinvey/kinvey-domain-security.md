@@ -27,7 +27,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kinvey/refs/he
 summary_line: DMARC
 tags:
 - Company
-- Backend-as-a-Service
+- Backend as a Service
+- BaaS
 - Mobile
 - SDK
 - Serverless

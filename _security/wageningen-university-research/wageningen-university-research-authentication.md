@@ -2,6 +2,12 @@
 api_key_in:
 - header
 api_specs:
+- filename: wageningen-university-research-library-oai-pmh-openapi.yml
+  format: yaml
+  label: WUR Library OAI-PMH API
+  slug: wageningen-university-research-library-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-library-oai-pmh-openapi.yml
 - filename: wageningen-university-research-altitude-api-openapi.yml
   format: yaml
   label: Wageningen University & Research Altitude API
@@ -66,8 +72,12 @@ tags:
 - Higher Education
 - University
 - Research
+- Research Data
 - Agriculture
-- Agrifood
+- Agri-Food
+- Geospatial
+- Library
 - Open Data
+- Identity Federation
 - Netherlands
 ---

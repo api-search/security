@@ -46,6 +46,6 @@ tags:
 - Database
 - Apache Druid
 - Data
-- Database-as-a-Service
+- DBaaS
 - Streaming
 ---

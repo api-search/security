@@ -56,11 +56,11 @@ tags:
 - Genomics
 - Life Sciences
 - Healthcare
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Multiomics
 - Oncology
 - Data Platform
-- Open Source
+- Open-Source
 trust_url: https://www.genialis.com/compliance/
 ---

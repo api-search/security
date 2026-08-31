@@ -25,7 +25,7 @@ slug: albemarle-domain-security
 source_filename: albemarle-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.albemarle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 03:48:09 2026 GMT\n  hsts: false\ndomains:\n- domain: albemarle.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.albemarle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 03:48:09 2026 GMT\n  hsts: false\ndomains:\n- domain: albemarle.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/albemarle/refs/heads/main/security/albemarle-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

@@ -41,6 +41,7 @@ tags:
 - Retail
 - Payments
 - Small Business
+- POS
 - iPad
 - Lightspeed
 ---

@@ -79,7 +79,7 @@ tags:
 - DeFi
 - Blockchain
 - Real World Assets
-- Stablecoins
+- Stablecoin
 - Yield
 - Onchain
 ---

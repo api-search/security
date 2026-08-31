@@ -38,5 +38,5 @@ tags:
 - Claims Automation
 - Vehicle Diagnostics
 - Mileage Tracking
-- Insurtech
+- InsurTech
 ---

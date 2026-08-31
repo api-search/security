@@ -337,7 +337,7 @@ tags:
 - Bible
 - Prayer
 - Artificial Intelligence
-- Chatbots
+- Chatbot
 - Consumer
 - Community
 ---

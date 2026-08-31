@@ -54,15 +54,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acrisure/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Insurance
-- Insurance Brokerage
+- insurance-brokerage
 - Fintech
-- Employee Benefits
+- employee-benefits
 - payroll-hr
-- Reinsurance
-- Risk Management
+- reinsurance
+- risk-management
 - Cybersecurity
-- Mortgage
-- Surety Bonds
+- mortgage
+- surety-bonds
 - MCP
 - Authentication
 ---

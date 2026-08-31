@@ -71,18 +71,18 @@ source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/security/securitize-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Tokenization
-- Digital Securities
-- Real World Assets
-- Capital Markets
-- Fund Administration
-- Transfer Agent
-- KYC
+- tokenization
+- digital-securities
+- real-world-assets
+- capital-markets
+- fund-administration
+- transfer-agent
+- kyc
 - AML
 - Identity Verification
 - Blockchain
-- Broker-Dealer
-- Private Credit
+- broker-dealer
+- private-credit
 - MCP
 - Webhook
 ---

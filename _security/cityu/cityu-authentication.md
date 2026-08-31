@@ -1,246 +1,126 @@
 ---
-api_key_in:
-- header
-api_specs:
-- filename: cityu-activity-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong activity API
-  slug: cityu-activity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-activity-api-openapi.yml
-- filename: cityu-application-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong application API
-  slug: cityu-application-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-application-api-openapi.yml
-- filename: cityu-authorcollaboration-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong authorCollaboration API
-  slug: cityu-authorcollaboration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-authorcollaboration-api-openapi.yml
-- filename: cityu-award-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong award API
-  slug: cityu-award-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-award-api-openapi.yml
-- filename: cityu-classificationscheme-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong classificationScheme API
-  slug: cityu-classificationscheme-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-classificationscheme-api-openapi.yml
-- filename: cityu-concept-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong concept API
-  slug: cityu-concept-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-concept-api-openapi.yml
-- filename: cityu-course-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong course API
-  slug: cityu-course-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-course-api-openapi.yml
-- filename: cityu-dataset-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong dataSet API
-  slug: cityu-dataset-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-dataset-api-openapi.yml
-- filename: cityu-education-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong education API
-  slug: cityu-education-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-education-api-openapi.yml
-- filename: cityu-equipment-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong equipment API
-  slug: cityu-equipment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-equipment-api-openapi.yml
-- filename: cityu-ethicalreview-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong ethicalReview API
-  slug: cityu-ethicalreview-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-ethicalreview-api-openapi.yml
-- filename: cityu-event-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong event API
-  slug: cityu-event-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-event-api-openapi.yml
-- filename: cityu-externalorganization-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong externalOrganization API
-  slug: cityu-externalorganization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-externalorganization-api-openapi.yml
-- filename: cityu-externalperson-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong externalPerson API
-  slug: cityu-externalperson-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-externalperson-api-openapi.yml
-- filename: cityu-fingerprint-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong fingerprint API
-  slug: cityu-fingerprint-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-fingerprint-api-openapi.yml
-- filename: cityu-fundingopportunity-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong fundingOpportunity API
-  slug: cityu-fundingopportunity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-fundingopportunity-api-openapi.yml
-- filename: cityu-impact-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong impact API
-  slug: cityu-impact-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-impact-api-openapi.yml
-- filename: cityu-journal-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong journal API
-  slug: cityu-journal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-journal-api-openapi.yml
-- filename: cityu-keywordgroupconfiguration-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong keywordGroupConfiguration API
-  slug: cityu-keywordgroupconfiguration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-keywordgroupconfiguration-api-openapi.yml
-- filename: cityu-milestone-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong milestone API
-  slug: cityu-milestone-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-milestone-api-openapi.yml
-- filename: cityu-organization-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong organization API
-  slug: cityu-organization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-organization-api-openapi.yml
-- filename: cityu-person-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong person API
-  slug: cityu-person-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-person-api-openapi.yml
-- filename: cityu-pressmedia-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong pressMedia API
-  slug: cityu-pressmedia-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-pressmedia-api-openapi.yml
-- filename: cityu-prize-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong prize API
-  slug: cityu-prize-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-prize-api-openapi.yml
-- filename: cityu-project-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong project API
-  slug: cityu-project-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-project-api-openapi.yml
-- filename: cityu-publisher-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong publisher API
-  slug: cityu-publisher-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-publisher-api-openapi.yml
-- filename: cityu-researchoutput-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong researchOutput API
-  slug: cityu-researchoutput-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-researchoutput-api-openapi.yml
-- filename: cityu-role-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong role API
-  slug: cityu-role-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-role-api-openapi.yml
-- filename: cityu-semester-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong semester API
-  slug: cityu-semester-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-semester-api-openapi.yml
-- filename: cityu-specialization-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong specialization API
-  slug: cityu-specialization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-specialization-api-openapi.yml
-- filename: cityu-studentproject-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong studentProject API
-  slug: cityu-studentproject-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-studentproject-api-openapi.yml
-- filename: cityu-studentthesis-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong studentThesis API
-  slug: cityu-studentthesis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-studentthesis-api-openapi.yml
-- filename: cityu-thesaurus-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong thesaurus API
-  slug: cityu-thesaurus-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-thesaurus-api-openapi.yml
-- filename: cityu-user-api-openapi.yml
-  format: yaml
-  label: City University of Hong Kong user API
-  slug: cityu-user-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/openapi/cityu-user-api-openapi.yml
+api_key_in: []
 auth_types:
-- apiKey
+- saml
+- oidc
+- oauth2
+- anonymous
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: probed
 name: Cityu Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: City University of Hong Kong secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+overview: City University of Hong Kong secures its APIs with saml, oidc, oauth2, and anonymous across 4 declared security schemes, as derived from its OpenAPI definitions.
 provider_name: City University of Hong Kong
 provider_slug: cityu
-scheme_count: 1
+scheme_count: 4
 schemes:
-- description: Security mechanism for the API
-  in: header
-  name: api-key
-  parameter: api-key
-  sources:
-  - openapi/cityu-scholars-pure-ws.yaml
-  type: apiKey
+- description: CityUHK's own Shibboleth Identity Provider. Publishes SAML 2.0 + SAML 1.1 IdP metadata at its well-known metadata URL and carries both an IDPSSODescriptor and an AttributeAuthorityDescriptor. Registered in eduGAIN through the Hong Kong Access Federation (registrationAuthority https://hkaf.edu.hk) under the display name "City University of Hong Kong".
+  endpoints:
+  - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect
+    location: https://idp2.cityu.edu.hk/idp/profile/SAML2/Redirect/SSO
+    service: SingleSignOnService
+  - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST
+    location: https://idp2.cityu.edu.hk/idp/profile/SAML2/POST/SSO
+    service: SingleSignOnService
+  - binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect
+    location: https://idp2.cityu.edu.hk/idp/profile/SAML2/Redirect/SLO
+    service: SingleLogoutService
+  - binding: urn:oasis:names:tc:SAML:2.0:bindings:SOAP
+    location: https://idp2.cityu.edu.hk:8443/idp/profile/SAML2/SOAP/AttributeQuery
+    service: AttributeService
+  entity_id: https://idp2.cityu.edu.hk/idp/shibboleth
+  metadata_file: authentication/cityu-shibboleth-idp-metadata.xml
+  metadata_url: https://idp2.cityu.edu.hk/idp/shibboleth
+  name: shibboleth-idp
+  observations:
+  - The shibmd:Scope element in the published metadata still carries the Shibboleth distribution's default value "example.org" rather than cityu.edu.hk. Recorded as observed; not corrected here.
+  probed:
+  - bytes: 14703
+    content_type: application/xml;charset=utf-8
+    status: 200
+    url: https://idp2.cityu.edu.hk/idp/shibboleth
+  protocols:
+  - urn:oasis:names:tc:SAML:2.0:protocol
+  - urn:oasis:names:tc:SAML:1.1:protocol
+  - urn:mace:shibboleth:1.0
+  type: saml
+  x-operator: institution
+- authorization_endpoint: https://auth.cityu.edu.hk/oauth2/v1/authorize
+  description: CityUHK's OpenID Connect / OAuth 2.0 authorization server, served on the university's own hostname auth.cityu.edu.hk, which CNAMEs to cityu.customdomains.okta.com. The issuer is https://auth.cityu.edu.hk. This is CityUHK's tenant of Okta, not software CityUHK wrote; the discovery document is the OpenID Connect Discovery 1.0 standard, and the configuration in it is CityUHK's.
+  discovery_url: https://auth.cityu.edu.hk/.well-known/openid-configuration
+  id_token_signing_alg_values_supported:
+  - RS256
+  issuer: https://auth.cityu.edu.hk
+  jwks_uri: https://auth.cityu.edu.hk/oauth2/v1/keys
+  name: cityu-okta-oidc
+  oauth_metadata_url: https://auth.cityu.edu.hk/.well-known/oauth-authorization-server
+  probed:
+  - bytes: 2804
+    content_type: application/json
+    status: 200
+    url: https://auth.cityu.edu.hk/.well-known/openid-configuration
+  - bytes: 4165
+    content_type: application/json
+    status: 200
+    url: https://auth.cityu.edu.hk/.well-known/oauth-authorization-server
+  - status: 200
+    url: https://auth.cityu.edu.hk/oauth2/v1/keys
+  scopes_supported:
+  - openid
+  - email
+  - profile
+  - address
+  - phone
+  - offline_access
+  - groups
+  token_endpoint: https://auth.cityu.edu.hk/oauth2/v1/token
+  type: oidc
+  userinfo_endpoint: https://auth.cityu.edu.hk/oauth2/v1/userinfo
+  x-operator: tenant
+- description: SAML 2.0 IdP metadata for the CityUHK Canvas application, served from the university's Okta tenant. Reached by following canvas.cityu.edu.hk, which redirects unauthenticated traffic to auth.cityu.edu.hk with a SAMLRequest.
+  entity_id: http://www.okta.com/exk1h9fleyX6q1zrz5d7
+  metadata_url: https://auth.cityu.edu.hk/app/exk1h9fleyX6q1zrz5d7/sso/saml/metadata
+  name: cityu-okta-saml-canvas
+  probed:
+  - bytes: 2619
+    content_type: application/samlmetadata+xml
+    status: 200
+    url: https://auth.cityu.edu.hk/app/exk1h9fleyX6q1zrz5d7/sso/saml/metadata
+  type: saml
+  x-operator: tenant
+- description: The CityUHK Scholars OAI-PMH endpoint requires no authentication. The companion Pure REST web service at /ws/api is gated by an api-key header scheme defined in Elsevier's own contract; that contract is not held in this repository.
+  name: scholars-oai-anonymous
+  probed:
+  - content_type: application/xml
+    status: 200
+    url: https://scholars.cityu.edu.hk/ws/oai?verb=Identify
+  type: anonymous
+  x-operator: tenant
 slug: cityu-authentication
 source_filename: cityu-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cityu-scholars-pure-ws.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: api-key\n  type: apiKey\n  in: header\n  parameter: api-key\n  description: Security mechanism for the API\n  sources:\n  - openapi/cityu-scholars-pure-ws.yaml\n"
+source_yaml: "---\ngenerated: '2026-08-30'\nmethod: probed\nsource: >-\n  Live HTTP probes of CityUHK identity hosts on 2026-08-30, plus the eduGAIN\n  entity database (technical.edugain.org) for the HKAF federation registration.\nnote: >-\n  This file replaces a 2026-07-11 version whose only source was the Elsevier Pure\n  web-service OpenAPI (openapi/cityu-scholars-pure-ws.yaml). That contract is\n  Elsevier's, not CityUHK's, and was removed on 2026-08-30 under the university\n  pipeline's operator-attribution rule. What is recorded here is only what\n  CityUHK itself operates or tenants.\nsummary:\n  types:\n  - saml\n  - oidc\n  - oauth2\n  - anonymous\n  federations:\n  - HKAF (Hong Kong Access Federation, JUCC) — in eduGAIN production since 2018-03-15\n  - eduGAIN\nschemes:\n- name: shibboleth-idp\n  type: saml\n  x-operator: institution\n  description: >-\n    CityUHK's own Shibboleth Identity Provider. Publishes SAML 2.0 + SAML 1.1\n    IdP metadata at its well-known metadata URL\
+  \ and carries both an\n    IDPSSODescriptor and an AttributeAuthorityDescriptor. Registered in eduGAIN\n    through the Hong Kong Access Federation (registrationAuthority\n    https://hkaf.edu.hk) under the display name \"City University of Hong Kong\".\n  entity_id: https://idp2.cityu.edu.hk/idp/shibboleth\n  metadata_url: https://idp2.cityu.edu.hk/idp/shibboleth\n  metadata_file: authentication/cityu-shibboleth-idp-metadata.xml\n  protocols:\n  - urn:oasis:names:tc:SAML:2.0:protocol\n  - urn:oasis:names:tc:SAML:1.1:protocol\n  - urn:mace:shibboleth:1.0\n  endpoints:\n  - service: SingleSignOnService\n    binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n    location: https://idp2.cityu.edu.hk/idp/profile/SAML2/Redirect/SSO\n  - service: SingleSignOnService\n    binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n    location: https://idp2.cityu.edu.hk/idp/profile/SAML2/POST/SSO\n  - service: SingleLogoutService\n    binding: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n\
+  \    location: https://idp2.cityu.edu.hk/idp/profile/SAML2/Redirect/SLO\n  - service: AttributeService\n    binding: urn:oasis:names:tc:SAML:2.0:bindings:SOAP\n    location: https://idp2.cityu.edu.hk:8443/idp/profile/SAML2/SOAP/AttributeQuery\n  observations:\n  - >-\n    The shibmd:Scope element in the published metadata still carries the\n    Shibboleth distribution's default value \"example.org\" rather than\n    cityu.edu.hk. Recorded as observed; not corrected here.\n  probed:\n  - url: https://idp2.cityu.edu.hk/idp/shibboleth\n    status: 200\n    content_type: application/xml;charset=utf-8\n    bytes: 14703\n- name: cityu-okta-oidc\n  type: oidc\n  x-operator: tenant\n  description: >-\n    CityUHK's OpenID Connect / OAuth 2.0 authorization server, served on the\n    university's own hostname auth.cityu.edu.hk, which CNAMEs to\n    cityu.customdomains.okta.com. The issuer is https://auth.cityu.edu.hk. This\n    is CityUHK's tenant of Okta, not software CityUHK wrote; the discovery\n\
+  \    document is the OpenID Connect Discovery 1.0 standard, and the configuration\n    in it is CityUHK's.\n  issuer: https://auth.cityu.edu.hk\n  discovery_url: https://auth.cityu.edu.hk/.well-known/openid-configuration\n  oauth_metadata_url: https://auth.cityu.edu.hk/.well-known/oauth-authorization-server\n  jwks_uri: https://auth.cityu.edu.hk/oauth2/v1/keys\n  authorization_endpoint: https://auth.cityu.edu.hk/oauth2/v1/authorize\n  token_endpoint: https://auth.cityu.edu.hk/oauth2/v1/token\n  userinfo_endpoint: https://auth.cityu.edu.hk/oauth2/v1/userinfo\n  scopes_supported:\n  - openid\n  - email\n  - profile\n  - address\n  - phone\n  - offline_access\n  - groups\n  id_token_signing_alg_values_supported:\n  - RS256\n  probed:\n  - url: https://auth.cityu.edu.hk/.well-known/openid-configuration\n    status: 200\n    content_type: application/json\n    bytes: 2804\n  - url: https://auth.cityu.edu.hk/.well-known/oauth-authorization-server\n    status: 200\n    content_type: application/json\n\
+  \    bytes: 4165\n  - url: https://auth.cityu.edu.hk/oauth2/v1/keys\n    status: 200\n- name: cityu-okta-saml-canvas\n  type: saml\n  x-operator: tenant\n  description: >-\n    SAML 2.0 IdP metadata for the CityUHK Canvas application, served from the\n    university's Okta tenant. Reached by following canvas.cityu.edu.hk, which\n    redirects unauthenticated traffic to auth.cityu.edu.hk with a SAMLRequest.\n  metadata_url: https://auth.cityu.edu.hk/app/exk1h9fleyX6q1zrz5d7/sso/saml/metadata\n  entity_id: http://www.okta.com/exk1h9fleyX6q1zrz5d7\n  probed:\n  - url: https://auth.cityu.edu.hk/app/exk1h9fleyX6q1zrz5d7/sso/saml/metadata\n    status: 200\n    content_type: application/samlmetadata+xml\n    bytes: 2619\n- name: scholars-oai-anonymous\n  type: anonymous\n  x-operator: tenant\n  description: >-\n    The CityUHK Scholars OAI-PMH endpoint requires no authentication. The\n    companion Pure REST web service at /ws/api is gated by an api-key header\n    scheme defined in Elsevier's\
+  \ own contract; that contract is not held in this\n    repository.\n  probed:\n  - url: https://scholars.cityu.edu.hk/ws/oai?verb=Identify\n    status: 200\n    content_type: application/xml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/authentication/cityu-authentication.yml
-summary_line: apiKey · 1 scheme
+summary_line: saml/oidc/oauth2/anonymous · 4 schemes
 tags:
 - Education
 - Higher Education
 - University
+- Hong Kong
+- China
 - Research
 - Institutional Repository
 - OAI-PMH
-- Hong Kong
-- China
+- Identity Federation
+- Research Data
+- Learning Management
 ---

@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mgid/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Native Advertising
-- AdTech
+- Ad Tech
 - Publishers
 - Advertisers
 - Campaigns

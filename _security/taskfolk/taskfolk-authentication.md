@@ -270,22 +270,22 @@ source_yaml: "generated: '2026-08-20'\nmethod: searched\nsource: openapi/taskfol
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/authentication/taskfolk-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
-- Project Management
-- Issue Tracking
-- Task Management
-- Productivity
+- project-management
+- issue-tracking
+- task-management
+- productivity
 - Collaboration
 - MCP
 - AI Agents
 - agent-native
-- Agentic Commerce
+- agentic-commerce
 - A2A
 - REST API
 - OpenAPI
 - Webhook
 - Authentication
-- Agile
-- Sprints
-- OKR
+- agile
+- sprints
+- okr
 - Developer Tools
 ---

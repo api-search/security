@@ -48,7 +48,7 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Cloud Databases
 - Database Service
-- Database-as-a-Service
+- DBaaS
 - Managed Databases
 - Relational Databases
 trust_url: https://aws.amazon.com/compliance/

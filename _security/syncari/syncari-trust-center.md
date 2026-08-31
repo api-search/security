@@ -26,17 +26,17 @@ source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: https://syncari
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/security/syncari-trust-center.yml
 summary_line: SOC 2 Type II, HIPAA, GDPR, CCPA, Standard Contractual Clauses (SCCs), EU-US Privacy Shield, GLBA
 tags:
-- Company
-- Master Data Management
-- Data Unification
-- Data Integration
-- iPaaS
-- Data Quality
-- Data Governance
-- Embedded Integration
+- company
+- master-data-management
+- data-unification
+- data-integration
+- ipaas
+- data-quality
+- data-governance
+- embedded-integration
 - MCP
 - agent-native
-- RevOps
-- Data Synchronization
+- revops
+- data-synchronization
 trust_url: ''
 ---

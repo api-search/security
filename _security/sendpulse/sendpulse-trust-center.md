@@ -538,10 +538,10 @@ tags:
 - Web Push
 - Chatbots
 - CRM
-- Multi-Channel
+- Multichannel
 - Messaging
 - Online Courses
-- Popups
+- Pop-ups
 - Email Verification
 - MCP
 - Agent Ready

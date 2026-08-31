@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sword-health/r
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Company
-- Health Tech
+- Healthtech
 - Musculoskeletal
 - Physical Therapy
 - Digital Health

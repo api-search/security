@@ -63,7 +63,7 @@ tags:
 - Payments
 - Treasury
 - Money Movement
-- Cross-Border Payments
+- Cross Border Payments
 - FX
 - Stablecoins
 - Banking

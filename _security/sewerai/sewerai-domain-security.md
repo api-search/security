@@ -205,16 +205,15 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/security/sewerai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Company
-- Wastewater
-- Water Infrastructure
-- Sewer Inspection
-- Asset Management
-- Computer Vision
-- Artificial Intelligence
-- GIS
-- Public Works
-- Construction Technology
-- NASSCO
-- CCTV Inspection
+- wastewater
+- water-infrastructure
+- sewer-inspection
+- asset-management
+- computer-vision
+- artificial-intelligence
+- gis
+- public-works
+- construction-technology
+- nassco
+- cctv-inspection
 ---

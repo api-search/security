@@ -46,7 +46,7 @@ summary_line: http · 1 scheme
 tags:
 - SEO
 - backlink-intelligence
-- MarTech
+- martech
 - Competitive Intelligence
 - Web Data
 - Common-Crawl

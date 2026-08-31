@@ -116,7 +116,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inflectionio/r
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Marketing
 - Marketing Automation
 - Email Marketing

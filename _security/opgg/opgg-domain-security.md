@@ -35,7 +35,7 @@ tags:
 - Game Data
 - Analytics
 - League of Legends
-- VALORANT
+- Valorant
 - Statistics
 - MCP
 ---

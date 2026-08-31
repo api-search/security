@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Text-to-Speech
 - Speech Synthesis
-- AI Voice
+- AI-voice
 - Audio
 - Media
 - Accessibility

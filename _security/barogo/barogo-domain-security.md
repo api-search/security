@@ -89,7 +89,7 @@ tags:
 - Logistics
 - Last Mile Delivery
 - Food Delivery
-- Couriers
+- Courier
 - Fulfillment
 - Order
 - Webhook

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: tokyo-institute-of-technology-t2r2-oaipmh-openapi.yml
+  format: yaml
+  label: T2R2 Research Repository OAI-PMH
+  slug: t2r2-oaipmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tokyo-institute-of-technology/refs/heads/main/openapi/tokyo-institute-of-technology-t2r2-oaipmh-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -48,9 +55,17 @@ tags:
 - Education
 - Higher Education
 - University
+- Institute of Technology
 - Japan
 - Research
+- Research Data
 - Open Access
 - Institutional Repository
 - OAI-PMH
+- Identity Federation
+- Shibboleth
+- SAML
+- Research Computing
+- Course Catalog
+- Library
 ---

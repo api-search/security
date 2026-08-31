@@ -42,7 +42,7 @@ tags:
 - AI Compute
 - Data-Center
 - Sustainability
-- Infrastructure-as-a-Service
+- IaaS
 - Hosting
 - Storage
 ---

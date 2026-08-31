@@ -134,5 +134,5 @@ tags:
 - HCM
 - Integration
 - Orchestration
-- Platform-as-a-Service
+- PaaS
 ---

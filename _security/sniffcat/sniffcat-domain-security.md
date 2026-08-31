@@ -37,15 +37,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sniffcat/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Threat Intelligence
-- IP Reputation
+- ip-reputation
 - abuse-database
 - Cybersecurity
 - OSINT
-- Network Security
+- network-security
 - sysadmin-tools
 - Blocklist
 - abuse-reporting
 - ip-blocklist
-- IP Intelligence
-- Threat Feeds
+- ip-intelligence
+- threat-feeds
 ---

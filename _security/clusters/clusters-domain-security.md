@@ -83,6 +83,6 @@ tags:
 - Blockchain
 - Web3
 - Wallets
-- Multi-Chain
+- Multichain
 - Resolver
 ---

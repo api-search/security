@@ -163,12 +163,12 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/security/xquik-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- social-media-data
+- social media data
 - X / Twitter
-- Social Listening
-- Data Extraction
-- Automation
+- social listening
+- data extraction
+- automation
 - Webhook
 - MCP
-- Developer API
+- developer API
 ---

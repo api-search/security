@@ -50,8 +50,8 @@ tags:
 - Charities
 - Donations
 - Fundraising
-- Nonprofits
+- Non-Profit
 - Philanthropy
-- Webhooks
+- Webhook
 - Giving
 ---

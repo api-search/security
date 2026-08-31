@@ -163,7 +163,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cintoo/refs/he
 summary_line: oauth2/http-bearer-jwt · 1 scheme
 tags:
 - Company
-- Infrastructure Saas
+- Infrastructure SaaS
 - Reality Capture
 - Digital Twin
 - Point Cloud

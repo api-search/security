@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prognomiq/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Health Care
+- Healthcare
 - Life Sciences
 - Diagnostics
 - Proteomics
-- Multi-Omics
+- Multiomics
 - Oncology
 - Clinical Laboratory
 - Early Detection

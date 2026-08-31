@@ -93,6 +93,6 @@ tags:
 - Fintech
 - Kenya
 - Africa
-- M-PESA
+- M-Pesa
 trust_url: https://www.safaricom.co.ke/data-privacy-statements
 ---

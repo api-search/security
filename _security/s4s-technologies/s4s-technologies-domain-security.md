@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Food Processing
-- AgriTech
+- Agritech
 - Food and Beverage
 - Supply Chain
 - India

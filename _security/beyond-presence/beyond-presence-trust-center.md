@@ -69,6 +69,6 @@ tags:
 - Conversational AI
 - Agents
 - Speech To Video
-- Real-Time Communication
+- Real Time Communication
 trust_url: https://trust.bey.dev/
 ---

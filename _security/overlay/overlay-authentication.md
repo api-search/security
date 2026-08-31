@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/overlay/refs/h
 summary_line: none · 1 scheme
 tags:
 - Company
-- DeFi
+- Defi
 - Perpetual Futures
 - Derivatives
 - Trading

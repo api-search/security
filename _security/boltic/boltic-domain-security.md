@@ -108,9 +108,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automation
-- Data Sync
+- DataSync
 - Gateways
-- No-Code
+- NoCode
 - Streaming
 - Workflows
 ---

@@ -116,7 +116,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Security
-- Third-Party Risk Management
+- Third Party Risk Management
 - TPRM
 - Vendor Risk
 - Risk Management

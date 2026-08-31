@@ -75,7 +75,7 @@ summary_line: http · 1 scheme
 tags:
 - Vector Database
 - Vector Search
-- Multi-Modal
+- Multimodal
 - Semantic Search
 - Embeddings
 - Artificial Intelligence

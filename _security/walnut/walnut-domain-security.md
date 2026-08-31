@@ -50,7 +50,7 @@ tags:
 - Product Demos
 - Sales Enablement
 - Demo Analytics
-- Go-To-Market
+- Go-to-Market
 - AI-Powered
 - Webhook
 - MCP

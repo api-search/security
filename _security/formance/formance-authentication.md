@@ -83,7 +83,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Financial Infrastructure
 - Ledger
-- Double-Entry Accounting
+- double-entry-accounting
 - Payments
 - Orchestration
 - Money Movement

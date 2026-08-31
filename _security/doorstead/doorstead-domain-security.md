@@ -33,7 +33,7 @@ tags:
 - Property Management
 - Real-Estate
 - PropTech
-- Rentals
+- Rental
 - Leasing
 - Residential
 - Tenant Screening

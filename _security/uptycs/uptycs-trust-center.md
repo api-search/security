@@ -24,7 +24,7 @@ tags:
 - Cloud Security
 - Endpoint Security
 - Kubernetes Security
-- osquery
+- Osquery
 - Threat Detection
 - Compliance
 trust_url: https://www.uptycs.com/about/security

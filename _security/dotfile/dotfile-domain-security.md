@@ -198,20 +198,20 @@ source_yaml: "generated: '2026-08-17'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/security/dotfile-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- KYB
-- KYC
+- kyb
+- kyc
 - AML
-- Business Verification
+- business-verification
 - Identity Verification
 - Compliance
-- RegTech
+- regtech
 - Onboarding
-- Sanctions Screening
-- Document Verification
-- Fraud Detection
-- Company Data
-- Beneficial Ownership
-- Case Management
-- Electronic Signature
+- sanctions-screening
+- document-verification
+- fraud-detection
+- company-data
+- beneficial-ownership
+- case-management
+- electronic-signature
 - Webhook
 ---

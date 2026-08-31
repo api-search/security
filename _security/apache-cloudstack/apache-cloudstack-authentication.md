@@ -57,7 +57,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Apache
 - Cloud
-- Infrastructure-as-a-Service
+- IaaS
 - Infrastructure
 - Open-Source
 - Virtualization

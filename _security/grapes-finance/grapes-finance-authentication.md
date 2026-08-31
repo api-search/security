@@ -66,9 +66,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/grapes-f
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/authentication/grapes-finance-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Stablecoins
-- On-Ramp
-- Off-Ramp
+- Stablecoin
+- Onramp
+- Offramp
 - Fiat
 - Payments
 - Cryptocurrency

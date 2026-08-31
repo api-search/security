@@ -40,5 +40,5 @@ tags:
 - GraphQL
 - Threads
 - Customer Communication
-- API-First
+- API First
 ---

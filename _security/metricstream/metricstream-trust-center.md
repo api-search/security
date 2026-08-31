@@ -31,7 +31,7 @@ tags:
 - Enterprise Software
 - Regulatory Technology
 - Cyber Risk
-- Third Party Risk
+- Third-Party Risk
 - Operational Resilience
 - ESG
 trust_url: https://www.metricstream.com/about-us/trust-center.htm

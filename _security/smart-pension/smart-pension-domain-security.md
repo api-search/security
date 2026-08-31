@@ -940,16 +940,16 @@ source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/security/smart-pension-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Pensions
-- Retirement
+- pensions
+- retirement
 - workplace-pension
 - auto-enrolment
-- Payroll
+- payroll
 - Fintech
 - Financial-Services
-- United Kingdom
+- united-kingdom
 - master-trust
-- Employee Benefits
-- Contributions
+- employee-benefits
+- contributions
 - papdis
 ---

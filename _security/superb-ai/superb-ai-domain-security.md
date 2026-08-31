@@ -48,8 +48,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Machine Learning
-- Computer Vision
+- Machine-Learning
+- Computer-Vision
 - Data Labeling
 - Annotation
 - MLOps

@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: openapi
+  format: yaml
+  label: USGS Water Data APIs
+  slug: water-data-ogc-api
+  spec_type: OpenAPI
+  url: https://api.waterdata.usgs.gov/ogcapi/v0/openapi
 - filename: u-s-geological-survey-catalog-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Catalog API
@@ -289,7 +295,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/security/u-s-geological-survey-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Federal Government
+- Federal-Government
 - Geological
 - Earth Science
 - Natural Resources

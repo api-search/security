@@ -27,7 +27,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sonantic/refs/
 summary_line: DNSSEC · DMARC
 tags:
 - Voice
-- Text-to-Speech
+- Text to Speech
 - Emotive AI
 - Acquired
 - Spotify

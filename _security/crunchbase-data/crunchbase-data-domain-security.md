@@ -81,10 +81,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company Data
 - Web Intelligence
-- funding-data
+- Funding Data
 - Firmographics
 - B2B Data
-- investor-data
+- Investor Data
 - Reference Data
 - Private Markets
 - Predictions

@@ -39,7 +39,7 @@ tags:
 - Company
 - Retirement
 - Workplace Savings
-- 401k
+- 401(k)
 - 529 College Savings
 - Financial-Services
 - Fintech

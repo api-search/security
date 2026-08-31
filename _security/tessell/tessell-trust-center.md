@@ -515,7 +515,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/h
 summary_line: PCI DSS v4.1, SOC 2, ISO 27001, ISO/IEC 27701
 tags:
 - Databases
-- Database-as-a-Service
+- DBaaS
 - Multi-Cloud
 - Oracle
 - PostgreSQL

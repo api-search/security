@@ -56,7 +56,7 @@ tags:
 - Trading
 - Stablecoins
 - Payouts
-- Cross-Border
+- Cross Border
 - Latin America
 - Mexico
 - Fintech

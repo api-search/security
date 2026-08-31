@@ -19,14 +19,14 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/security/1lookup-trust-center.yml
 summary_line: trust center published
 tags:
-- Phone Validation
-- Email Validation
-- IP Intelligence
-- Fraud and Risk
-- Data Enrichment
+- phone validation
+- email validation
+- IP intelligence
+- fraud & risk
+- data enrichment
 - B2B contact & company data
 - SEO / web analytics
-- Audio Transcription
+- audio transcription
 - MCP / agent-native
 - REST API
 trust_url: https://www.1lookup.io/security

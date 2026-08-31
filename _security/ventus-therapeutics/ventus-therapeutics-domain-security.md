@@ -35,5 +35,5 @@ tags:
 - Pharmaceuticals
 - Drug Discovery
 - Therapeutics
-- Ai Ml
+- AI/ML
 ---

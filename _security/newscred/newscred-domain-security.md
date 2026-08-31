@@ -162,8 +162,8 @@ tags:
 - Digital Asset Management
 - Marketing
 - Marketing Resource Management
-- Workflow
+- Workflows
 - Publishing
-- Webhooks
+- Webhook
 - Acquired
 ---

@@ -71,7 +71,7 @@ tags:
 - Real-Estate
 - Property Data
 - Analytics
-- Rentals
+- Rental
 - Airbnb
 - Investment
 - MLS

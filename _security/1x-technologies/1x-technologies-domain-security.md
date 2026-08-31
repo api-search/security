@@ -38,7 +38,7 @@ tags:
 - World Models
 - NEO
 - EVE
-- ROS 2
+- ROS2
 - Manufacturing
 - Open-Source
 - 1xgpt

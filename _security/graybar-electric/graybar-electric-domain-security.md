@@ -42,6 +42,6 @@ tags:
 - Logistics
 - B2B eCommerce
 - EDI
-- PunchOut
+- Punchout
 - Industrial
 ---

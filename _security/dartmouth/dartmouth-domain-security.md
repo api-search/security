@@ -1,47 +1,11 @@
 ---
 api_specs:
-- filename: dartmouth-catalog-api-openapi.yml
+- filename: dartmouth-class-search-api-openapi.yml
   format: yaml
-  label: Dartmouth College Catalog API
-  slug: dartmouth-catalog-api
+  label: Dartmouth Class Search API
+  slug: class-search
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/openapi/dartmouth-catalog-api-openapi.yml
-- filename: dartmouth-collection-api-openapi.yml
-  format: yaml
-  label: Dartmouth College Collection API
-  slug: dartmouth-collection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/openapi/dartmouth-collection-api-openapi.yml
-- filename: dartmouth-ogcitem-api-openapi.yml
-  format: yaml
-  label: Dartmouth College OgcItem API
-  slug: dartmouth-ogcitem-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/openapi/dartmouth-ogcitem-api-openapi.yml
-- filename: dartmouth-ogcitemaggregation-api-openapi.yml
-  format: yaml
-  label: Dartmouth College OgcItemAggregation API
-  slug: dartmouth-ogcitemaggregation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/openapi/dartmouth-ogcitemaggregation-api-openapi.yml
-- filename: dartmouth-ogcroot-api-openapi.yml
-  format: yaml
-  label: Dartmouth College OgcRoot API
-  slug: dartmouth-ogcroot-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/openapi/dartmouth-ogcroot-api-openapi.yml
-- filename: dartmouth-ogcrootconformance-api-openapi.yml
-  format: yaml
-  label: Dartmouth College OgcRootConformance API
-  slug: dartmouth-ogcrootconformance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/openapi/dartmouth-ogcrootconformance-api-openapi.yml
-- filename: dartmouth-queryable-api-openapi.yml
-  format: yaml
-  label: Dartmouth College Queryable API
-  slug: dartmouth-queryable-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/openapi/dartmouth-queryable-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/openapi/dartmouth-class-search-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -89,12 +53,15 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/security/dartmouth-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
-- Artificial Intelligence
+- Higher Education
+- Education
 - United States
 - Ivy League
+- Private Research University
+- Course Catalog
+- Identity Federation
+- Research Data
+- Open Data
+- Artificial Intelligence
 ---

@@ -19,7 +19,7 @@ summary_line: SOC 2
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Compliance
 - Producer Management
 - Licensing

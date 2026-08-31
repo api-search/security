@@ -105,10 +105,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di
 summary_line: trust center published
 tags:
 - digital notarization
-- Timestamping
+- timestamping
 - proof-of-existence
 - content authenticity
-- Provenance
+- provenance
 - Copyright
 - IP protection
 - Blockchain
@@ -116,7 +116,7 @@ tags:
 - OpenTimestamps
 - Security
 - Document
-- E-Signature
+- e-signature
 - MCP
 trust_url: https://trust.spaziogenesi.org/
 ---

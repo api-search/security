@@ -53,7 +53,7 @@ tags:
 - Invoicing
 - Fintech
 - Bookkeeping
-- E-Invoicing
+- e-Invoicing
 - KSeF
 - Tax
 - Poland

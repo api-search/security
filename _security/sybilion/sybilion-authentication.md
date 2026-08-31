@@ -150,14 +150,14 @@ summary_line: http/oauth2 · 3 schemes
 tags:
 - Industrial market intelligence
 - Commodity price forecasting
-- Economic Forecasting
+- Economic forecasting
 - Time-series forecasting
 - Procurement
-- Supply Chain Risk
+- Supply-chain risk
 - Trading analytics
 - AI decision support
 - MCP
-- agent-native
-- Causal Inference
-- Anomaly Detection
+- Agent-native
+- Causal inference
+- Anomaly detection
 ---

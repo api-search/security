@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify
 summary_line: apiKey · 1 scheme
 tags:
 - Frontend
-- Full-Stack
+- Full Stack
 - Hosting
 - Mobile Development
 - Web Applications

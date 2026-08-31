@@ -243,17 +243,17 @@ source_yaml: "generated: '2026-08-06'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alleva/refs/heads/main/security/alleva-trust-center.yml
 summary_line: SOC 2 Type II, HIPAA, ONC Certification (ONC Health IT Certification Program)
 tags:
-- Behavioral Health
-- Electronic Health Records
-- EMR
-- EHR
-- Substance Use Disorder
-- Mental Health
-- Healthcare
+- behavioral-health
+- electronic-health-records
+- emr
+- ehr
+- substance-use-disorder
+- mental-health
+- healthcare
 - treatment-centers
-- Clinical Documentation
-- Revenue Cycle Management
-- Patient Intake
-- Healthcare Compliance
+- clinical-documentation
+- revenue-cycle-management
+- patient-intake
+- healthcare-compliance
 trust_url: https://trust.helloalleva.com/
 ---

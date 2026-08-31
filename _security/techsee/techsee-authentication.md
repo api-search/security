@@ -60,7 +60,7 @@ tags:
 - Customer Experience
 - Customer Service
 - Contact Center
-- Computer Vision
+- Computer-Vision
 - Augmented Reality
 - Artificial Intelligence
 - Field Service

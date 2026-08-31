@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/outfront-media/refs/heads/main/security/outfront-media-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Out-of-Home Advertising
+- Out Of Home Advertising
 - Digital Out Of Home
 - Billboards
 - Transit Advertising

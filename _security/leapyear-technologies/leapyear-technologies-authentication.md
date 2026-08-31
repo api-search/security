@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leapyear-techn
 summary_line: 2 schemes
 tags:
 - Company
-- AI Infrastructure
+- Ai Infrastructure
 - Differential Privacy
 - Data Privacy
 - Machine-Learning

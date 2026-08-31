@@ -107,18 +107,18 @@ source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/security/crypto-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Cryptocurrency
-- Crypto Exchange
+- cryptocurrency
+- crypto-exchange
 - Trading
 - Derivatives
 - Market Data
-- Digital Assets
+- digital-assets
 - Payments
-- Merchant Payments
+- merchant-payments
 - Blockchain
 - cronos
 - DeFi
-- Staking
+- staking
 - Fintech
 - MCP
 - agent-native

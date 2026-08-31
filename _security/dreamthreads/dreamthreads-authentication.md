@@ -56,11 +56,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dreamthreads/r
 summary_line: http/none · 2 schemes
 tags:
 - dream analysis
-- dream interpretation
-- Natural Language Processing
+- Dream interpretation
+- natural language processing
 - structured parsing
 - AI Agents
-- MCP Server
+- MCP server
 - OpenAPI
 - wellness / sleep
 - research tooling

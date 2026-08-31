@@ -60,6 +60,6 @@ tags:
 - Liquidity
 - Blockchain
 - Web3
-- Multi-Chain
+- Multi-chain
 - EVM
 ---

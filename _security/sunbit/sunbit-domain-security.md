@@ -45,18 +45,18 @@ source_yaml: "generated: '2026-07-31'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/security/sunbit-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Buy Now Pay Later
-- point-of-sale-financing
-- Consumer Lending
+- buy-now-pay-later
+- Point of Sale Financing
+- consumer-lending
 - Payments
 - Fintech
-- Checkout
-- Merchant Onboarding
+- checkout
+- merchant-onboarding
 - Webhook
-- Automotive
-- Dental
-- Veterinary
-- Eyewear
-- Healthcare Financing
-- Embedded Finance
+- automotive
+- dental
+- veterinary
+- eyewear
+- healthcare-financing
+- embedded-finance
 ---

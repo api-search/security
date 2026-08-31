@@ -93,14 +93,14 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: openapi/pexafy-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pexafy/refs/heads/main/authentication/pexafy-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
-- images
-- photos
-- stock photos
-- image search
-- semantic search
-- computer vision
-- embeddings
-- mcp
+- Image
+- Photos
+- Stock Photos
+- Image Search
+- Semantic Search
+- Computer-Vision
+- Embeddings
+- MCP
 - agent-native
-- content licensing
+- Content Licensing
 ---

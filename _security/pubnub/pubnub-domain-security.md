@@ -56,7 +56,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Real-Time
 - WebSockets
-- Pub-Sub
+- Pub/Sub
 - IoT
 - Messaging
 - Chat

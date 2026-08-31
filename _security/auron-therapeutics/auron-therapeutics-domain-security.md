@@ -36,5 +36,5 @@ tags:
 - Drug Discovery
 - Computational Biology
 - Life Sciences
-- Multiomics
+- Multi-omics
 ---

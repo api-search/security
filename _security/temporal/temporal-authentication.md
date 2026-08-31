@@ -70,6 +70,6 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/cloud-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/authentication/temporal-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Pro-Code-API-Composition
+- ProCode_API_Composition
 - Workflows
 ---

@@ -368,6 +368,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Commerce
 - Point-of-Sale
+- POS
 - Retail
 - Restaurant
 - Inventory

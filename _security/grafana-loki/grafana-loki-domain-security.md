@@ -36,10 +36,10 @@ tags:
 - Log Aggregation
 - Observability
 - Monitoring
-- Open Source
+- Open-Source
 - LogQL
 - OpenTelemetry
 - Telemetry
 - Kubernetes
-- Cloud Native
+- Cloud-Native
 ---

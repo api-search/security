@@ -47,19 +47,19 @@ source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/security/skyvia-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Data Integration
-- iPaaS
-- ETL
-- ELT
-- Data Replication
-- Cloud Backup
-- OData
+- data-integration
+- ipaas
+- etl
+- elt
+- data-replication
+- cloud-backup
+- odata
 - SQL
-- Workflow-Automation
-- No-Code
+- workflow-automation
+- no-code
 - Connectors
-- Data Management
+- data-management
 - MCP
 - agent-native
-- Data Access
+- data-access
 ---

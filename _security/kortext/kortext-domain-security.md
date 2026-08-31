@@ -88,16 +88,15 @@ source_yaml: "generated: '2026-08-23'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/security/kortext-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Company
-- Education
-- EdTech
-- Higher Education
-- Digital Textbooks
-- Learning Analytics
-- Artificial Intelligence
-- Content Delivery
-- LTI
-- Libraries
-- Student Engagement
-- Publishing
+- education
+- edtech
+- higher-education
+- digital-textbooks
+- learning-analytics
+- artificial-intelligence
+- content-delivery
+- lti
+- libraries
+- student-engagement
+- publishing
 ---

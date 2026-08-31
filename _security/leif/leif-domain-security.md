@@ -28,7 +28,7 @@ summary_line: DMARC
 tags:
 - Company
 - Education
-- Education-Finance
+- Education Finance
 - Income Share Agreement
 - Student Lending
 - Fintech

@@ -83,5 +83,5 @@ tags:
 - Churn
 - Shopify
 - E-Commerce
-- Direct to Consumer
+- DTC
 ---

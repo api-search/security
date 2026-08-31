@@ -155,10 +155,10 @@ tags:
 - Cannabis
 - Compliance
 - Banking
-- Financial Services
+- Financial-Services
 - BSA/AML
 - Regulatory Technology
-- Point of Sale
+- Point-of-Sale
 - Onboarding
 - Due Diligence
 - Know Your Customer

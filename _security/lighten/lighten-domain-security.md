@@ -35,7 +35,7 @@ tags:
 - Life Sciences
 - Artificial Intelligence
 - Electronic Health Records
-- Real-World Evidence
+- Real World Evidence
 - Clinical Data
 - Data Curation
 ---

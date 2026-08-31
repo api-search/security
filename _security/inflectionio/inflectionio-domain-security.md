@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inflectionio/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Marketing
 - Marketing Automation
 - Email Marketing

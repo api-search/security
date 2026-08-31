@@ -36,12 +36,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lmnt/refs/heads/main/security/lmnt-trust-center.yml
 summary_line: SOC 2
 tags:
-- Text-to-Speech
-- Voice Synthesis
-- Voice Cloning
-- Audio Streaming
-- Conversational AI
-- Low Latency
-- Real-Time Audio
+- text-to-speech
+- voice synthesis
+- voice cloning
+- audio streaming
+- conversational AI
+- low latency
+- real-time audio
 trust_url: https://trust.lmnt.com/
 ---

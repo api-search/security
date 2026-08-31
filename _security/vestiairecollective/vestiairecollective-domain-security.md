@@ -36,5 +36,5 @@ tags:
 - Resale
 - E-Commerce
 - Circular Economy
-- Secondhand
+- Second-Hand
 ---

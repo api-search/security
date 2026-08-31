@@ -166,7 +166,7 @@ tags:
 - A2A
 - Account Information
 - Payment Initiation
-- Verification
+- Verifications
 - Identity
 - Fintech
 ---

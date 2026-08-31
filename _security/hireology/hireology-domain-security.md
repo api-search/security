@@ -35,7 +35,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Ai Apps
-- ATS
+- Applicant Tracking System
 - Recruiting
 - Hiring
 - HR Tech

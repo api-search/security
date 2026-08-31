@@ -103,7 +103,7 @@ summary_line: http · 1 scheme
 tags:
 - Cloud
 - Containers
-- DevOps
+- Devops
 - Enterprise
 - Linux
 - Security

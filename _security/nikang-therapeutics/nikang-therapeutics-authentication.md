@@ -80,13 +80,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nikang-therape
 summary_line: 0 schemes
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Oncology
-- Precision Medicine
-- Drug Discovery
-- Targeted Protein Degradation
-- Clinical Trials
-- Life Sciences
+- biotechnology
+- pharmaceuticals
+- oncology
+- precision-medicine
+- drug-discovery
+- targeted-protein-degradation
+- clinical-trials
+- life-sciences
 - content-api
 ---

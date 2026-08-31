@@ -18,6 +18,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xscape-photoni
 summary_line: ISO 27001
 tags:
 - Company
-- AI Infrastructure
+- Ai Infrastructure
 trust_url: https://trust.xscapephotonics.com/
 ---

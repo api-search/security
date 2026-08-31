@@ -36,6 +36,6 @@ tags:
 - Machine-Learning
 - Datasets
 - Robotics
-- Multi-Modal
+- Multimodal
 - Data Labeling
 ---

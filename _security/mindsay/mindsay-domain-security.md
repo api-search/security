@@ -27,7 +27,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mindsay/refs/h
 summary_line: DMARC
 tags:
 - Company
-- Ai Ml
+- Ai/Ml
 - Conversational AI
 - Chatbots
 - Customer Service

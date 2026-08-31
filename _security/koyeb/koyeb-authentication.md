@@ -305,7 +305,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Cloud Platform
 - Deployment
-- Platform-as-a-Service
+- PaaS
 - Serverless
 - Serverless GPU
 - AI Infrastructure

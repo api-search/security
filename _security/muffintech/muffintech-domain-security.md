@@ -32,10 +32,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Artificial Intelligence
 - Generative AI
 - Conversational AI
-- Chatbots
+- Chatbot
 - Germany
 ---

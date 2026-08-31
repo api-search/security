@@ -498,16 +498,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/security/onerail-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Last Mile Delivery
-- Delivery Orchestration
+- last-mile-delivery
+- delivery-orchestration
 - Logistics
 - Supply Chain
-- Route Optimization
+- route-optimization
 - courier-network
 - Shipping
-- Fleet Management
+- fleet-management
 - Transportation
-- Order Management
+- order-management
 - Webhook
-- Final Mile
+- final-mile
 ---

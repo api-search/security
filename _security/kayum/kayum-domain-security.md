@@ -30,7 +30,7 @@ summary_line: TLSv1.2
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Data Analytics
 - Market Data
 - Insurance Pricing

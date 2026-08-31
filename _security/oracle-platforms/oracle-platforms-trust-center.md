@@ -88,11 +88,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-platfor
 summary_line: SOC 1, SOC 2, SOC 3, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO/IEC 27701, PCI DSS, HIPAA, HITRUST, FedRAMP, DoD Impact Level authorizations, IRAP, C5, CSA STAR
 tags:
 - Analytics
-- Artificial Intelligence
 - Cloud Computing
 - Database
 - Enterprise Software
-- Infrastructure-as-a-Service
+- Infrastructure as a Service
 - Integration
 - Machine-Learning
 - Platform-as-a-Service

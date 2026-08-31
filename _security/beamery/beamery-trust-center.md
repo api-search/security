@@ -23,7 +23,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beamery/refs/h
 summary_line: ISO 27001, SOC 2 Type 2, CSA STAR Level 1, GDPR, CCPA
 tags:
 - Company
-- HR Tech
+- Hr Tech
 - Talent
 - Recruiting
 - Talent CRM

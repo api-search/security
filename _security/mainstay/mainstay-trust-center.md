@@ -27,7 +27,7 @@ tags:
 - Higher Education
 - Conversational AI
 - Student Engagement
-- Chatbots
+- Chatbot
 - Messaging
 trust_url: https://mainstay.com/security/
 ---

@@ -64,7 +64,7 @@ tags:
 - NoSQL
 - MongoDB
 - Cloud Database
-- Database-as-a-Service
+- DBaaS
 - Vector Search
 - Atlas
 ---

@@ -64,6 +64,6 @@ tags:
 - Interoperability
 - Patient Access
 - Provider Directory
-- SMART on FHIR
+- SMART-on-FHIR
 - Fortune 500
 ---

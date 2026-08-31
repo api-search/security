@@ -1,65 +1,17 @@
 ---
 api_specs:
-- filename: purdue-buildings-api-openapi.yml
+- filename: purdue-rcac-api-openapi.yml
   format: yaml
-  label: Purdue University Buildings API
-  slug: purdue-buildings-api
+  label: Purdue RCAC API
+  slug: purdue-rcac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/purdue/refs/heads/main/openapi/purdue-buildings-api-openapi.yml
-- filename: purdue-campuses-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/purdue/refs/heads/main/openapi/purdue-rcac-api-openapi.yml
+- filename: purdue-hfs-dining-menus-api-openapi.yml
   format: yaml
-  label: Purdue University Campuses API
-  slug: purdue-campuses-api
+  label: Purdue HFS Dining Menus API
+  slug: purdue-hfs-dining-menus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/purdue/refs/heads/main/openapi/purdue-campuses-api-openapi.yml
-- filename: purdue-classes-api-openapi.yml
-  format: yaml
-  label: Purdue University Classes API
-  slug: purdue-classes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/purdue/refs/heads/main/openapi/purdue-classes-api-openapi.yml
-- filename: purdue-courses-api-openapi.yml
-  format: yaml
-  label: Purdue University Courses API
-  slug: purdue-courses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/purdue/refs/heads/main/openapi/purdue-courses-api-openapi.yml
-- filename: purdue-instructors-api-openapi.yml
-  format: yaml
-  label: Purdue University Instructors API
-  slug: purdue-instructors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/purdue/refs/heads/main/openapi/purdue-instructors-api-openapi.yml
-- filename: purdue-meetings-api-openapi.yml
-  format: yaml
-  label: Purdue University Meetings API
-  slug: purdue-meetings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/purdue/refs/heads/main/openapi/purdue-meetings-api-openapi.yml
-- filename: purdue-rooms-api-openapi.yml
-  format: yaml
-  label: Purdue University Rooms API
-  slug: purdue-rooms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/purdue/refs/heads/main/openapi/purdue-rooms-api-openapi.yml
-- filename: purdue-sections-api-openapi.yml
-  format: yaml
-  label: Purdue University Sections API
-  slug: purdue-sections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/purdue/refs/heads/main/openapi/purdue-sections-api-openapi.yml
-- filename: purdue-subjects-api-openapi.yml
-  format: yaml
-  label: Purdue University Subjects API
-  slug: purdue-subjects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/purdue/refs/heads/main/openapi/purdue-subjects-api-openapi.yml
-- filename: purdue-terms-api-openapi.yml
-  format: yaml
-  label: Purdue University Terms API
-  slug: purdue-terms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/purdue/refs/heads/main/openapi/purdue-terms-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/purdue/refs/heads/main/openapi/purdue-hfs-dining-menus-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -106,10 +58,19 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/purdue/refs/heads/main/security/purdue-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
+- Higher Education
+- Education
 - United States
+- Indiana
+- Public Research University
+- Land-Grant University
+- Association of American Universities
+- Big Ten Academic Alliance
+- Research Computing
+- Research Repository
+- Identity Federation
+- OAI-PMH
+- Campus Life
+- Course Catalog
 ---

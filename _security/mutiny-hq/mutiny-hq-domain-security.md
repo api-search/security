@@ -42,13 +42,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mutiny-hq/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Go-To-Market
+- GTM
 - Sales Enablement
 - Marketing
 - Website Personalization
 - Artificial Intelligence
 - Agents
 - MCP
-- Account Based Marketing
+- ABM
 - Content Generation
 ---

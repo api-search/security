@@ -73,7 +73,7 @@ tags:
 - Expense Management
 - Financial Operations
 - Invoice Processing
-- FinTech
+- Fintech
 - ERP Integration
 trust_url: https://security.payem.co/
 ---

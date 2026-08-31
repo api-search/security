@@ -36,7 +36,7 @@ tags:
 - Payments
 - Lending
 - Stablecoins
-- Real World Assets
+- Real-World Assets
 - Blockchain
 - Web3
 - Solana

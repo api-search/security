@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formic/refs/he
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Robotics
-- Robotics as a Service
+- Robotics As A Service
 - RaaS
 - Industrial Automation
 - Manufacturing

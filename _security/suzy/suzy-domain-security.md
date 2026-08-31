@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suzy/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Consumer Insights
 - Market Research
 - Survey

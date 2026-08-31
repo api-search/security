@@ -77,6 +77,6 @@ tags:
 - Employee Experience
 - Voice
 - Automation
-- Model Context Protocol
+- MCP
 - Enterprise Software
 ---

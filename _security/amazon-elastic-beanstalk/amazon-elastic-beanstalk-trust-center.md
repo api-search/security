@@ -47,10 +47,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Amazon Web Services
-- Auto-Scaling
+- Auto Scaling
 - Deployment
 - Elastic Beanstalk
-- Platform-as-a-Service
+- PaaS
+- Platform As A Service
 - Web Applications
 trust_url: https://aws.amazon.com/compliance/
 ---

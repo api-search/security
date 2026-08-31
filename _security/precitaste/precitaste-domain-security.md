@@ -32,10 +32,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Restaurants
-- Foodservice
+- Restaurant
+- Food Service
 - Demand Forecasting
-- Computer Vision
+- Computer-Vision
 - Kitchen Operations
 - Inventory Management
 - Food Waste

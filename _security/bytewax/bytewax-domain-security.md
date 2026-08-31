@@ -53,7 +53,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Stream Processing
 - Python
-- Dataflows
+- Dataflow
 - Real-Time
 - Kafka
 - Windowing

@@ -110,15 +110,15 @@ source_yaml: "generated: '2026-08-02'\nmethod: derived\nsource: openapi/abcuro-c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/authentication/abcuro-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- Biotechnology
-- Pharmaceuticals
-- Immunology
-- Autoimmune Disease
-- Oncology
-- Clinical Trials
-- Life Sciences
-- Drug Development
-- Healthcare
+- biotechnology
+- pharmaceuticals
+- immunology
+- autoimmune-disease
+- oncology
+- clinical-trials
+- life-sciences
+- drug-development
+- healthcare
 - content-api
-- WordPress
+- wordpress
 ---

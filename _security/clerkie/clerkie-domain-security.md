@@ -49,14 +49,14 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Fintech
-- Debt Management
+- debt-management
 - Lending
-- Loan Servicing
-- Debt Collection
+- loan-servicing
+- debt-collection
 - Payments
 - Credit
 - Financial-Services
-- Personal Finance
-- AI Agent
-- Consumer Finance
+- personal-finance
+- ai-agent
+- consumer-finance
 ---

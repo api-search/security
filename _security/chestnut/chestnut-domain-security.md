@@ -37,7 +37,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Insurance Distribution
 - Producer Management
 - Incentive Compensation

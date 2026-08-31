@@ -162,7 +162,7 @@ tags:
 - Logistics
 - Supply Chain
 - Inventory
-- Orders
+- Order
 - Invoicing
 - Retail
 - Compliance

@@ -37,8 +37,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/percipient-ai/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Machine Learning
-- Computer Vision
+- Machine-Learning
+- Computer-Vision
 - National Security
 - Defense
 - Intelligence Analysis

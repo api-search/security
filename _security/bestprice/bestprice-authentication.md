@@ -23,13 +23,12 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: https://www.bes
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/authentication/bestprice-authentication.yml
 summary_line: 0 schemes
 tags:
-- shopping
-- price comparison
-- ecommerce
-- retail
+- Shopping
+- Price Comparison
+- E-Commerce
+- Retail
 - MCP
-- Model Context Protocol
 - WebMCP
-- agent commerce
+- Agent Commerce
 - Greece
 ---

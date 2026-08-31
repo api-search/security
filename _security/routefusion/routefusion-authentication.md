@@ -41,5 +41,5 @@ tags:
 - FX
 - Wallets
 - GraphQL
-- Stablecoins
+- Stablecoin
 ---

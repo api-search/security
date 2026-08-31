@@ -59,14 +59,14 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/security/samaya-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Artificial Intelligence
-- Financial Services
-- Investment Research
+- artificial-intelligence
+- Financial-Services
+- investment-research
 - AI Agents
 - MCP
 - agent-native
-- Capital Markets
-- Enterprise Search
-- Retrieval
-- GraphQL
+- capital-markets
+- enterprise-search
+- retrieval
+- graphql
 ---

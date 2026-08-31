@@ -36,6 +36,6 @@ tags:
 - Smart Grid
 - Energy Storage
 - Renewable Energy
-- Vehicle to Grid
+- Vehicle-to-Grid
 - South Korea
 ---

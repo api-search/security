@@ -40,7 +40,7 @@ tags:
 - Customer-Support
 - Live Chat
 - Conversational
-- Co-Browsing
+- Co-browsing
 - Chatbots
 - Webhook
 - Customer Communication

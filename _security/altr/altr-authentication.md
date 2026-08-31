@@ -451,20 +451,20 @@ source_yaml: "generated: '2026-08-06'\nmethod: derived\nsource: openapi/altr-acc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/authentication/altr-authentication.yml
 summary_line: http · 2 schemes
 tags:
-- Data Security
-- Data Governance
-- Data Masking
-- Tokenization
-- Data Classification
-- Access Control
-- Snowflake
-- Databricks
+- data-security
+- data-governance
+- data-masking
+- tokenization
+- data-classification
+- access-control
+- snowflake
+- databricks
 - format-preserving-encryption
-- Database Activity Monitoring
-- RBAC
+- database-activity-monitoring
+- rbac
 - PII
 - Compliance
-- Data Privacy
+- data-privacy
 - MCP
 - agent-native
 ---

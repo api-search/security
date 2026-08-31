@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/
 summary_line: apiKey · 1 scheme
 tags:
 - Document Signing
-- E-Signature
+- eSignature
 - Electronic Signature
 - Document-Management
 - PDF

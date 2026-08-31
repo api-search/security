@@ -118,14 +118,14 @@ source_yaml: "generated: '2026-08-22'\nmethod: derived\nsource: openapi/happy-ca
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/authentication/happy-cabbage-analytics-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Cannabis
+- cannabis
 - Retail
-- Inventory Management
+- inventory-management
 - Analytics
-- Purchasing
-- Point of Sale
-- Wholesale
-- Demand Forecasting
+- purchasing
+- point-of-sale
+- wholesale
+- demand-forecasting
 - Supply Chain
 - agent-native
 ---

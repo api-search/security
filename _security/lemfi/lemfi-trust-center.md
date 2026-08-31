@@ -23,7 +23,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lemfi/refs/hea
 summary_line: SOC 2 Type II, PCI DSS, ISO 27001, GDPR
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Payments
 - Remittances

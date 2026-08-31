@@ -36,11 +36,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bmc-software/r
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI Infrastructure
+- Ai Infrastructure
 - Automation
 - Workflow Orchestration
 - Mainframe
-- ITSM
+- IT Service Management
 - DevOps
 - Enterprise Software
 ---

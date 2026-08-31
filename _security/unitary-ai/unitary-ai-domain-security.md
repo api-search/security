@@ -74,9 +74,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Content Moderation
-- Trust and Safety
+- Trust And Safety
 - Artificial Intelligence
 - Machine-Learning
 - Computer-Vision

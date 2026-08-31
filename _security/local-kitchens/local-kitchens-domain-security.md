@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Restaurant
-- Food and Beverage
+- Food & Beverage
 - Food Delivery
 - Hospitality
 - Consumer

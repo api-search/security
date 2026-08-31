@@ -224,18 +224,18 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/happyrobot/ref
 summary_line: SOC 2 Type II, GDPR, HIPAA, EU AI Act, NIST CSF, DORA
 tags:
 - AI Agents
-- Agent Orchestration
-- Voice AI
-- Conversational AI
+- agent-orchestration
+- voice-ai
+- conversational-ai
 - Logistics
-- Freight
+- freight
 - Supply Chain
-- Workflow-Automation
-- Contact Center
-- Telephony
+- workflow-automation
+- contact-center
+- telephony
 - MCP
 - agent-native
-- Agent Governance
-- Enterprise Automation
+- agent-governance
+- enterprise-automation
 trust_url: https://trust.happyrobot.ai/
 ---

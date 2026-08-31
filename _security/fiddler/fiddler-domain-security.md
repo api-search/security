@@ -37,6 +37,6 @@ tags:
 - Traffic Inspection
 - Web Development
 - Developer Tools
-- Model Context Protocol
+- MCP
 - Agent Tooling
 ---

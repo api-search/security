@@ -68,12 +68,12 @@ tags:
 - Logistics
 - Supply Chain
 - Warehouse
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Shipping
 - Inventory
 - Industrial Automation
 - Freight
 - GraphQL
-- Webhooks
+- Webhook
 ---

@@ -35,7 +35,7 @@ tags:
 - Peer-to-Peer
 - IPFS
 - Filecoin
-- LibP2P
+- libp2p
 - Web3
 - Open-Source
 - Research and Development

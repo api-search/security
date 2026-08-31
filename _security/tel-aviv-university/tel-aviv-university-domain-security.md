@@ -46,11 +46,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tel-aviv-university/refs/heads/main/security/tel-aviv-university-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Israel
+- Research
+- Research Repository
 - Library
 - Discovery
-- Research
+- OAI-PMH
+- Identity Federation
+- Course Catalog
+- Middle East
 ---

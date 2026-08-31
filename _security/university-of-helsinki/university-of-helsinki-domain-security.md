@@ -1,4 +1,83 @@
 ---
+api_specs:
+- filename: university-of-helsinki-hy-organisation-api-openapi.yml
+  format: yaml
+  label: HY Organisation API
+  slug: hy-organisation
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/openapi/university-of-helsinki-hy-organisation-api-openapi.yml
+- filename: university-of-helsinki-contact-search-api-openapi.yml
+  format: yaml
+  label: Contact Search API
+  slug: contact-search
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/openapi/university-of-helsinki-contact-search-api-openapi.yml
+- filename: university-of-helsinki-course-pages-cms-openapi.yml
+  format: yaml
+  label: Course pages CMS
+  slug: course-pages-cms
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/openapi/university-of-helsinki-course-pages-cms-openapi.yml
+- filename: university-of-helsinki-helsinki-fi-content-openapi.yml
+  format: yaml
+  label: Helsinki.fi content
+  slug: helsinki-fi-content
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/openapi/university-of-helsinki-helsinki-fi-content-openapi.yml
+- filename: university-of-helsinki-hy-building-api-openapi.yml
+  format: yaml
+  label: HY Building API
+  slug: hy-building
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/openapi/university-of-helsinki-hy-building-api-openapi.yml
+- filename: university-of-helsinki-serviceapi-openapi.yml
+  format: yaml
+  label: ServiceAPI
+  slug: serviceapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/openapi/university-of-helsinki-serviceapi-openapi.yml
+- filename: university-of-helsinki-employeeinformationapi-openapi.yml
+  format: yaml
+  label: EmployeeInformationAPI
+  slug: employeeinformation
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/openapi/university-of-helsinki-employeeinformationapi-openapi.yml
+- filename: university-of-helsinki-persongroup-openapi.yml
+  format: yaml
+  label: PersonGroup
+  slug: persongroup
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/openapi/university-of-helsinki-persongroup-openapi.yml
+- filename: university-of-helsinki-general-efecte-api-openapi.yml
+  format: yaml
+  label: General Efecte API
+  slug: general-efecte
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/openapi/university-of-helsinki-general-efecte-api-openapi.yml
+- filename: university-of-helsinki-network-registry-api-openapi.yml
+  format: yaml
+  label: Network registry API
+  slug: network-registry
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/openapi/university-of-helsinki-network-registry-api-openapi.yml
+- filename: university-of-helsinki-sovellussalkku-api-openapi.yml
+  format: yaml
+  label: Sovellussalkku API
+  slug: sovellussalkku
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/openapi/university-of-helsinki-sovellussalkku-api-openapi.yml
+- filename: university-of-helsinki-dawa-sync-api-openapi.yml
+  format: yaml
+  label: Dawa Sync API
+  slug: dawa-sync
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/openapi/university-of-helsinki-dawa-sync-api-openapi.yml
+- filename: university-of-helsinki-finbif-laji-openapi.yml
+  format: yaml
+  label: FinBIF Laji API (Finnish Biodiversity Information Facility)
+  slug: finbif-laji
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/openapi/university-of-helsinki-finbif-laji-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,8 +130,15 @@ tags:
 - Higher Education
 - University
 - Finland
+- Nordic
 - Research
 - Open Data
+- Research Data
 - Institutional Repository
 - OAI-PMH
+- Identity Federation
+- API Gateway
+- Course Catalog
+- Library
+- Biodiversity
 ---

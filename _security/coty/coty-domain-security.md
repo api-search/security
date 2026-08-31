@@ -42,6 +42,6 @@ tags:
 - NYSE
 - Personal Care
 - Prestige
-- Skincare
+- Skin Care
 - Supplier Portal
 ---

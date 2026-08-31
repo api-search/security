@@ -34,7 +34,7 @@ tags:
 - ML Security
 - AISec
 - AIDR
-- AI Detection & Response
+- AI Detection And Response
 - AI Runtime Security
 - Model Scanning
 - AI Supply Chain

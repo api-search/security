@@ -369,6 +369,7 @@ summary_line: oauth2 · 2 schemes
 tags:
 - CRM
 - Sales
+- Customer Relationship Management
 - Marketing Automation
 - Lead Management
 - Customer Engagement

@@ -43,7 +43,7 @@ summary_line: http · 1 scheme
 tags:
 - Customer Service
 - CRM
-- Help Desk
+- Helpdesk
 - Messaging
 - Artificial Intelligence
 ---

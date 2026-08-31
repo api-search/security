@@ -35,7 +35,7 @@ tags:
 - Web3
 - Blockchain
 - RPC
-- Multi-Chain
+- Multi-chain
 - Wallets
 - NFT
 trust_url: https://tatum.io/security

@@ -38,17 +38,17 @@ source_yaml: "generated: '2026-08-25'\nmethod: searched\nsource: https://trust.l
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/security/levitate-trust-center.yml
 summary_line: SOC 2 Type I, SOC 2 Type II
 tags:
-- Relationship Marketing
+- relationship-marketing
 - CRM
-- Email Marketing
+- email-marketing
 - Contacts
-- Small Business
+- small-business
 - Insurance
-- Financial Services
-- Nonprofit
-- Marketing Automation
+- Financial-Services
+- nonprofit
+- marketing-automation
 - MCP
 - agent-native
-- SaaS
+- saas
 trust_url: https://trust.levitate.ai
 ---

@@ -34,7 +34,7 @@ tags:
 - Consumer
 - Personal Care
 - Skincare
-- Hair Care
+- Haircare
 - Suncare
 - Direct to Consumer
 - E-Commerce

@@ -32,7 +32,7 @@ tags:
 - Mental Health
 - Digital Therapeutics
 - CBT
-- Chatbots
+- Chatbot
 - Clinical
 - Healthcare
 - B2B

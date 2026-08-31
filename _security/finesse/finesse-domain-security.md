@@ -33,13 +33,13 @@ tags:
 - Company
 - Retail
 - E-Commerce
-- Fashion
-- Apparel
-- Direct to Consumer
-- Agentic Commerce
+- fashion
+- apparel
+- direct-to-consumer
+- agentic-commerce
 - UCP
 - MCP
 - agent-native
-- Shopify
-- Consumer
+- shopify
+- consumer
 ---

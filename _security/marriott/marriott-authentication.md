@@ -136,6 +136,6 @@ tags:
 - Booking
 - Distribution
 - Loyalty
-- Short-Term Rental
+- Short Term Rental
 - Corporate Travel
 ---

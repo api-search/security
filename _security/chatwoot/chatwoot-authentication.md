@@ -268,7 +268,7 @@ tags:
 - Customer-Support
 - Messaging
 - Live Chat
-- Omnichannel
+- Omni-channel
 - Conversations
 - Contacts
 - Agents

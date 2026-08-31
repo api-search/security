@@ -32,7 +32,7 @@ tags:
 - Company
 - Home Services
 - Insurance
-- Insurtech
+- InsurTech
 - PropTech
 - Home Warranty
 - Moving

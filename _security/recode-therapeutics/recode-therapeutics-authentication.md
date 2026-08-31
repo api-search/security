@@ -69,17 +69,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recode-therape
 summary_line: 0 schemes
 tags:
 - Company
-- Genetic Medicines
-- Biotechnology
+- genetic-medicines
+- biotechnology
 - biopharmaceuticals
-- mRNA
+- mrna
 - gene-correction
-- Lipid Nanoparticles
-- Drug Delivery
-- Rare Disease
-- cystic-fibrosis
+- lipid-nanoparticles
+- drug-delivery
+- rare-disease
+- Cystic Fibrosis
 - primary-ciliary-dyskinesia
-- Clinical Trials
-- Life Sciences
+- clinical-trials
+- life-sciences
 - content-api
 ---

@@ -41,7 +41,7 @@ tags:
 - WhatsApp
 - Messaging
 - Customer Engagement
-- Chatbots
+- Chatbot
 - Business Communication
 - CRM
 trust_url: https://trust.wati.io/

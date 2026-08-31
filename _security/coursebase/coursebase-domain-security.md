@@ -34,7 +34,7 @@ tags:
 - Learning Management System
 - LMS
 - Corporate Training
-- E-Learning
+- eLearning
 - Education
 - Employee Development
 - Human Resources

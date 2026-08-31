@@ -41,7 +41,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Agriculture
-- AgriTech
+- Agritech
 - Precision Agriculture
 - Plant Health
 - Photosynthesis

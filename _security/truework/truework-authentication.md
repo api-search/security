@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/truework
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/authentication/truework-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Verification
+- Verifications
 - Income Verification
 - Employment Verification
 - VOIE

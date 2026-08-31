@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lithos-carbon/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Physical AI
+- Physical Ai
 - Carbon Removal
 - Enhanced Weathering
 - Climate

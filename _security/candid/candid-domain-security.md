@@ -55,7 +55,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Charities
 - Donations
-- Non-Profit
+- Non-Profits
 - Philanthropy
 - Foundations
 - Grants

@@ -76,6 +76,6 @@ tags:
 - Payment Processing
 - Payment Technology
 - Payments
-- Point-of-Sale
+- POS
 - Fortune 1000
 ---

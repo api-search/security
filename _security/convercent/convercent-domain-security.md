@@ -30,9 +30,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/convercent/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Compliance
-- Governance Risk and Compliance
+- Governance Risk And Compliance
 - Ethics
 - Case Management
 - OData

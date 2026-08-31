@@ -54,7 +54,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- Text-to-Speech
+- Text to Speech
 - TTS
 - Voice
 - Voice Cloning

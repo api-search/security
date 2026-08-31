@@ -127,7 +127,7 @@ tags:
 - Cards
 - Subscription
 - Recurring
-- Point-of-Sale
+- POS
 - Card Reader
 - Marketplace
 - Split

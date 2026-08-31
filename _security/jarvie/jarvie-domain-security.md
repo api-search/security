@@ -38,5 +38,5 @@ tags:
 - Group Chat
 - Productivity
 - Consumer
-- Chatbots
+- Chatbot
 ---

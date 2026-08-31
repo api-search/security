@@ -37,7 +37,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Healthcare
-- Health Care
 - Medical Supplies
 - DMEPOS
 - Durable Medical Equipment

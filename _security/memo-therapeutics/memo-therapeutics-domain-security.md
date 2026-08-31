@@ -86,16 +86,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/memo-therapeut
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Antibody Therapeutics
-- Rare Disease
-- Nephrology
-- Transplantation
-- Virology
-- Oncology
-- Clinical Trials
-- Life Sciences
-- Switzerland
+- biotechnology
+- pharmaceuticals
+- antibody-therapeutics
+- rare-disease
+- nephrology
+- transplantation
+- virology
+- oncology
+- clinical-trials
+- life-sciences
+- switzerland
 - content-api
 ---

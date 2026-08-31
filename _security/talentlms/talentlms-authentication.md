@@ -104,7 +104,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Learning Management System
 - LMS
-- E-Learning
+- eLearning
 - Training
 - Courses
 - User

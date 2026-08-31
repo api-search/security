@@ -53,6 +53,6 @@ tags:
 - Menus
 - Order
 - Fulfillment
-- Couriers
+- Courier
 - Authentication
 ---

@@ -37,10 +37,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hailo/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Semiconductors
 - Edge Computing
-- Computer Vision
+- Computer-Vision
 - Inference
 - Embedded Systems
 - Video Analytics

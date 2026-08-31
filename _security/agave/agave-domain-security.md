@@ -57,9 +57,9 @@ api_specs:
 description: ''
 domains:
 - caa:
+  - 0 issuewild "amazon.com"
   - 0 issue "amazon.com"
   - 0 issue "letsencrypt.org"
-  - 0 issuewild "amazon.com"
   dmarc: true
   dmarc_policy: none
   dnssec: false
@@ -71,7 +71,7 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 16 23:59:59 2026 GMT
+- cert_expires: Mar  3 23:59:59 2027 GMT
   host: api.agaveapi.com
   hsts: null
   https: true
@@ -90,11 +90,18 @@ slug: agave-domain-security
 source_filename: agave-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.agaveapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 19:34:51 2026 GMT\n  hsts: false\n- host: api.agaveapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: null\n- host: sandbox.agaveapi.com\n  https: false\ndomains:\n- domain: agaveapi.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.agaveapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 19:34:51 2026 GMT\n  hsts: false\n- host: api.agaveapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  3 23:59:59 2027 GMT\n  hsts: null\n- host: sandbox.agaveapi.com\n  https: false\ndomains:\n- domain: agaveapi.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/security/agave-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Accounting
 - Construction
 - Integration
+- ERP
+- Project Management
+- Unified-API
+- iPaaS
+- Webhook
+- Field Service
+- Invoicing
 ---

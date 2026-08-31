@@ -67,7 +67,7 @@ summary_line: http · 1 scheme
 tags:
 - Insurance
 - Embedded Insurance
-- Insurtech
-- Insurance As A Service
+- InsurTech
+- Insurance as a Service
 - Protection
 ---

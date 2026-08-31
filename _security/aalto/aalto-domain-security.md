@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: api
+- filename: aalto-facilities-api-openapi.yml
   format: yaml
-  label: Aaltodoc Repository (OAI-PMH and REST)
-  slug: aaltodoc-oai
+  label: Aalto Facilities API
+  slug: facilities
   spec_type: OpenAPI
-  url: https://aaltodoc.aalto.fi/server/api
+  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-facilities-api-openapi.yml
+- filename: aalto-course-sisu-api-openapi.yml
+  format: yaml
+  label: Aalto Course API (SISU)
+  slug: course-sisu
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-course-sisu-api-openapi.yml
+- filename: aalto-acris-research-api-openapi.yml
+  format: yaml
+  label: Aalto Research Publications API (Acris gateway)
+  slug: acris-research
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-acris-research-api-openapi.yml
+- filename: aalto-projects-costcenters-api-openapi.yml
+  format: yaml
+  label: Aalto Projects and Cost Centers API
+  slug: projects-costcenters
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-projects-costcenters-api-openapi.yml
+- filename: aalto-people-profile-api-openapi.yml
+  format: yaml
+  label: Aalto People Profile API
+  slug: people-profile
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-people-profile-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -48,11 +72,19 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/security/aalto-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- Finland
+- Europe
+- Public Research University
 - Research
+- Research Data
 - Open Data
 - Linked Data
-- Finland
+- Course Catalog
+- Identity Federation
+- Research Computing
+- Library
+- API Gateway
 ---

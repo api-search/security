@@ -667,7 +667,7 @@ tags:
 - Invoicing
 - Project Accounting
 - Business Intelligence
-- Workflow Automation
+- Workflow-Automation
 - MCP
 - agent-native
 - Company

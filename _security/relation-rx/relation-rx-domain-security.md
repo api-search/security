@@ -36,7 +36,7 @@ tags:
 - Drug Discovery
 - Machine-Learning
 - Genomics
-- Multiomics
+- Multi-omics
 - Therapeutics
 - Life Sciences
 ---

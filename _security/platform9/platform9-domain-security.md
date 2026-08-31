@@ -46,7 +46,7 @@ tags:
 - OpenStack
 - Kubernetes
 - Virtualization
-- Infrastructure-as-a-Service
+- IaaS
 - VMware Migration
 - Cloud Management
 ---

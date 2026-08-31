@@ -712,16 +712,16 @@ source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/security/eventscom-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Event Management
+- event-management
 - Ticketing
-- Event Registration
-- Event Marketing
-- Sponsorship
-- Event Discovery
-- Data Platform
-- Business Intelligence
-- Artificial Intelligence
+- event-registration
+- event-marketing
+- sponsorship
+- event-discovery
+- data-platform
+- business-intelligence
+- artificial-intelligence
 - MCP
 - agent-native
-- No-Code
+- no-code
 ---

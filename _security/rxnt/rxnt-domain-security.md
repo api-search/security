@@ -56,7 +56,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare
 - EHR
-- e-Prescribing
+- E-Prescribing
 - Clinical Data
 - ONC Certified
 - CCDS

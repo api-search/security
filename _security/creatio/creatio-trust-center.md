@@ -26,7 +26,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/h
 summary_line: ISO/IEC 27001:2013, SOC 1, SOC 2, GDPR, HIPAA, FedRAMP
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - CRM
 - No-Code
 - Low-Code

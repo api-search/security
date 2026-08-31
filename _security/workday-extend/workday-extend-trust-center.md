@@ -112,6 +112,6 @@ tags:
 - HCM
 - Integration
 - Orchestration
-- Platform-as-a-Service
+- PaaS
 trust_url: https://security.workday.com/
 ---

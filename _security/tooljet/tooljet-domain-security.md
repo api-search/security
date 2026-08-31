@@ -68,12 +68,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/security/tooljet-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Low-Code
-- Internal Tools
+- low-code
+- internal tools
 - Open-Source
-- Application Builder
-- Workflow-Automation
-- No-Code
+- application builder
+- workflow automation
+- no-code
 - Dashboards
 - AI Agents
 ---

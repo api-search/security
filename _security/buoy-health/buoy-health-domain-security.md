@@ -83,14 +83,14 @@ source_yaml: "generated: '2026-08-08'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/security/buoy-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Symptom Checker
+- symptom-checker
 - medical-triage
-- Digital Health
-- Healthcare
-- Clinical AI
-- Care Navigation
-- Patient Engagement
-- Diagnosis
-- Telehealth
+- digital-health
+- healthcare
+- clinical-ai
+- care-navigation
+- patient-engagement
+- diagnosis
+- telehealth
 - Authentication
 ---

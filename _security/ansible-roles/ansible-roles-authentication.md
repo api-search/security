@@ -78,6 +78,6 @@ tags:
 - Collection
 - Configuration Management
 - DevOps
-- Infrastructure as Code
+- Infrastructure As Code
 - Roles
 ---

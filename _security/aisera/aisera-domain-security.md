@@ -37,7 +37,7 @@ tags:
 - Company
 - Agentic AI
 - Conversational AI
-- ITSM
+- IT Service Management
 - Customer Service
 - Enterprise Search
 - AI Copilot

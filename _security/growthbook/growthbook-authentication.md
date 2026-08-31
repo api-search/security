@@ -268,6 +268,6 @@ tags:
 - Feature Flags
 - Experimentation
 - Open-Source
-- A/B Testing
+- AB Testing
 - Analytics
 ---

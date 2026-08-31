@@ -37,7 +37,7 @@ tags:
 - Agent Skills
 - Open-Source
 - Developer Tools
-- API Specification
+- API Specifications
 - Spec-Driven Integration
 - Capability Engine
 - API Linting

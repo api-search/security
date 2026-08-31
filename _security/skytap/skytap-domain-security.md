@@ -33,7 +33,7 @@ tags:
 - Company
 - Cloud
 - IBM Power
-- Infrastructure-as-a-Service
+- Infrastructure as a Service
 - Application Modernization
 - Azure
 - Virtual Machines

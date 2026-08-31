@@ -31,7 +31,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Compliance
 - Producer Management
 - Licensing

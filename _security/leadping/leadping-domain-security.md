@@ -200,13 +200,13 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Lead Management
 - Sales & marketing automation
-- SMS Messaging
+- SMS/messaging
 - A2P 10DLC
 - CPaaS
 - Communications
 - Voice/calling
 - Compliance & consent
-- agent-native
+- Agent-native
 - MCP
 - Lead intake
 - Conversations

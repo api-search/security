@@ -97,15 +97,15 @@ source_yaml: "generated: '2026-08-16'\nmethod: searched\nsource: openapi/galatea
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/authentication/galatea-bio-authentication.yml
 summary_line: apiKey/http-bearer · 1 scheme
 tags:
-- Genomics
-- Bioinformatics
-- Ancestry
-- Precision Medicine
+- genomics
+- bioinformatics
+- ancestry
+- precision-medicine
 - polygenic-risk-score
-- Clinical Laboratory
-- Genetic Testing
-- Biobank
-- Life Sciences
+- clinical-laboratory
+- genetic-testing
+- biobank
+- life-sciences
 - Health
-- Sequencing
+- sequencing
 ---

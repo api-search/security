@@ -68,7 +68,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Mobility
 - Gig Economy
 - Car Sharing

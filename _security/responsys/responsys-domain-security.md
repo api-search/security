@@ -210,5 +210,5 @@ tags:
 - SMS
 - Webhook
 - Oracle
-- MarTech
+- Martech
 ---

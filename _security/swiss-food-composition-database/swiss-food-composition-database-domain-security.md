@@ -63,14 +63,14 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swiss-food-composition-database/refs/heads/main/security/swiss-food-composition-database-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- Food
-- Nutrition
-- Food Composition
+- food
+- nutrition
+- food-composition
 - Health
 - Open Data
-- Government
-- Switzerland
-- Reference Data
-- Public Sector
-- Research
+- government
+- switzerland
+- reference-data
+- public-sector
+- research
 ---

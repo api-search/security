@@ -40,16 +40,16 @@ source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/security/syncari-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Company
-- Master Data Management
-- Data Unification
-- Data Integration
-- iPaaS
-- Data Quality
-- Data Governance
-- Embedded Integration
+- company
+- master-data-management
+- data-unification
+- data-integration
+- ipaas
+- data-quality
+- data-governance
+- embedded-integration
 - MCP
 - agent-native
-- RevOps
-- Data Synchronization
+- revops
+- data-synchronization
 ---

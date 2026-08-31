@@ -47,12 +47,17 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/friedrich-alexander-universitat-erlangen-nurnberg/refs/heads/main/security/friedrich-alexander-universitat-erlangen-nurnberg-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
+- Research Repository
 - Open Access
-- Repository
-- Library
+- OAI-PMH
+- Identity Federation
+- Research Computing
+- Matrix
 - Germany
+- Bavaria
+- Europe
 ---

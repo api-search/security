@@ -90,6 +90,6 @@ tags:
 - Shopify
 - Pixel Tracking
 - ROAS
-- Direct to Consumer
+- DTC
 - Marketing
 ---

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cyber Insurance
 - Insurance
-- Insurtech
+- InsurTech
 - Cybersecurity
 - Risk Management
 - Risk Assessment
@@ -44,7 +44,7 @@ tags:
 - Penetration Testing
 - Compliance
 - Quoting
-- Bindings
+- Binding
 - Brokers
 - Agencies
 ---

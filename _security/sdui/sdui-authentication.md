@@ -27,7 +27,7 @@ tags:
 - Education
 - EdTech
 - Schools
-- Communication
+- Communications
 - Messaging
 - Timetabling
 - Grade Management

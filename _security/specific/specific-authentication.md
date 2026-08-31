@@ -40,7 +40,7 @@ tags:
 - Infrastructure
 - Infrastructure as Code
 - Platform-as-a-Service
-- Backend-as-a-Service
+- Backend as a Service
 - Coding Agents
 - Deployment
 - PostgreSQL

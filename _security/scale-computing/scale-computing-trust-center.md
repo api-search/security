@@ -120,15 +120,14 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: https://www.scale
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scale-computing/refs/heads/main/security/scale-computing-trust-center.yml
 summary_line: trust center published
 tags:
-- Edge Computing
-- Hyperconverged Infrastructure
+- edge-computing
+- hyperconverged-infrastructure
 - Virtualization
-- Infrastructure Management
-- Fleet Management
-- Virtual Machines
-- Observability
-- Infrastructure as Code
-- Kubernetes
-- Company
+- infrastructure-management
+- fleet-management
+- virtual-machines
+- observability
+- infrastructure-as-code
+- kubernetes
 trust_url: ''
 ---

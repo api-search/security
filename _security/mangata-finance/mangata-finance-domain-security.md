@@ -27,7 +27,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mangata-financ
 summary_line: DMARC
 tags:
 - Company
-- DeFi
+- Defi
 - Decentralized Exchange
 - Blockchain
 - Polkadot

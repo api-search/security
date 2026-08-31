@@ -33,8 +33,8 @@ tags:
 - Fintech
 - Vehicle Financing
 - Gig Economy
-- Ride Hailing
-- Lease-to-Own
+- Ride-hailing
+- Lease-to-own
 - Earned Wage Access
 - Insurance
 - Africa

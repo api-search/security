@@ -131,18 +131,18 @@ source_yaml: "generated: '2026-08-18'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/security/offendersearch-api-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Background Checks
+- background-checks
 - Identity Verification
-- Public Records
-- Criminal Records
+- public-records
+- criminal-records
 - Compliance
-- Trust and Safety
-- HR Tech
-- Recruiting
-- PropTech
-- Tenant Screening
+- trust-and-safety
+- hr-tech
+- recruiting
+- proptech
+- tenant-screening
 - healthcare-screening
-- Data API
-- MCP Server
+- data-api
+- mcp-server
 - agent-native
 ---

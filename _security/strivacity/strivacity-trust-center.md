@@ -45,17 +45,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/strivacity/ref
 summary_line: SOC 2 Type II, SOC 3, PCI DSS, GDPR, CCPA, FIPS 140-2, VPAT, FIDO Certification
 tags:
 - Identity
-- Customer Identity and Access Management
-- CIAM
+- customer-identity-and-access-management
+- ciam
 - Authentication
 - Authorization
-- OAuth
-- OpenID Connect
-- Consent Management
-- Multi-Factor Authentication
+- openid-connect
+- consent-management
+- multi-factor-authentication
 - Identity Verification
-- Fraud Detection
-- Agentic Identity
+- fraud-detection
+- agentic-identity
 - Security
 trust_url: https://security.strivacity.com/
 ---

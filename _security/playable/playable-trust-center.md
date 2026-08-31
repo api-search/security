@@ -49,11 +49,11 @@ tags:
 - Company
 - marketing-gamification
 - interactive-marketing
-- Campaign Management
-- Zero-Party Data
-- Lead Generation
-- Loyalty
-- MarTech
+- campaign-management
+- zero-party-data
+- lead-generation
+- loyalty
+- martech
 - Webhook
 - Authentication
 trust_url: https://playable.com/iso-gdpr-security/

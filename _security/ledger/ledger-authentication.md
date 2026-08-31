@@ -319,16 +319,15 @@ source_yaml: "generated: '2026-08-25'\nmethod: searched\nsource: openapi/ledger-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/authentication/ledger-authentication.yml
 summary_line: apiKey/http-bearer · 7 schemes
 tags:
-- Company
-- Cryptocurrency
-- Digital Assets
-- Hardware Wallet
-- Self Custody
+- cryptocurrency
+- digital-assets
+- hardware-wallet
+- self-custody
 - Institutional Custody
 - Blockchain
 - Payments
-- Staking
+- staking
 - Security
-- Agent Skills
+- agent-skills
 - agent-native
 ---

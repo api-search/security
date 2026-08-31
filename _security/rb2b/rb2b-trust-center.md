@@ -34,7 +34,7 @@ tags:
 - Firmographics
 - Webhook
 - Pixel
-- AdTech
+- Adtech
 - Identity Graph
 - MCP
 trust_url: https://retention.securitypal.com

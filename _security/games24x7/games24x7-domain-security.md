@@ -60,7 +60,7 @@ tags:
 - Online Gaming
 - Skill Gaming
 - Fantasy Sports
-- Real-Money Gaming
+- Real Money Gaming
 - Consumer Applications
 - Entertainment
 - Mobile Games

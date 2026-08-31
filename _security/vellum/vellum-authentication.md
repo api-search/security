@@ -124,7 +124,7 @@ tags:
 - Prompt Engineering
 - Workflows
 - Evaluations
-- LLMOps
+- LLM Ops
 - RAG
 - Observability
 - Datasets

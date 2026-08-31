@@ -29,8 +29,8 @@ tags:
 - Company
 - Artificial Intelligence
 - Application Development
-- No-Code
-- Low-Code
+- No Code
+- Low Code
 - App Builder
 - Software Development
 - Defunct

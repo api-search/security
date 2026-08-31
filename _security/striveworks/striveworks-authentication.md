@@ -59,17 +59,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/striveworks/re
 summary_line: oauth2/http/mutualTLS · 3 schemes
 tags:
 - Company
-- Artificial Intelligence
-- Machine-Learning
-- MLOps
-- AIOps
-- Model Deployment
-- Model Monitoring
+- artificial-intelligence
+- machine-learning
+- mlops
+- aiops
+- model-deployment
+- model-monitoring
 - Inference
-- Data Annotation
-- Computer-Vision
-- Agentic Workflows
-- Defense
-- GovTech
-- Edge Computing
+- data-annotation
+- computer-vision
+- agentic-workflows
+- defense
+- govtech
+- edge-computing
 ---

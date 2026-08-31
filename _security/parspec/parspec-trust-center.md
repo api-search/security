@@ -18,7 +18,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parspec/refs/h
 summary_line: SOC 2 Type II
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Construction
 - MEP
 - Electrical

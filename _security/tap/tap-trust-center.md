@@ -24,6 +24,6 @@ tags:
 - Workforce Development
 - Education
 - Skills Assessment
-- E-Learning
+- eLearning
 trust_url: https://trust.tap3d.com/
 ---

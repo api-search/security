@@ -78,14 +78,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tidio-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/authentication/tidio-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Live Chat
+- live chat
 - Chatbots
-- Customer Service
+- customer service
 - Artificial Intelligence
-- Help Desk
+- help desk
 - Ticketing
 - Conversations
 - Contacts
 - Webhook
-- Widget
+- widget
 ---

@@ -33,7 +33,7 @@ tags:
 - Company
 - Biotechnology
 - Pharmaceuticals
-- Immuno-Oncology
+- Immuno-oncology
 - Immunotherapy
 - Antigen Modulation
 - ERAP1

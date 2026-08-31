@@ -172,7 +172,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Application Delivery
-- Desktop as a Service
+- Desktop-As-A-Service
 - Networking
 - Virtualization
 - Workspace

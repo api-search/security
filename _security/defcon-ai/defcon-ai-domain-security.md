@@ -35,6 +35,6 @@ tags:
 - Defense
 - National Security
 - Logistics
-- Modeling and Simulation
+- Modeling And Simulation
 - Optimization
 ---

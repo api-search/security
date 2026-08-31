@@ -33,7 +33,7 @@ tags:
 - Company
 - Marketing
 - Growth Marketing
-- Direct to Consumer
+- DTC
 - E-Commerce
 - Advertising
 - Paid Media

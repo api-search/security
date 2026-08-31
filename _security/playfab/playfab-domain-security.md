@@ -74,7 +74,7 @@ tags:
 - Authentication
 - Azure
 - Backend
-- Backend-as-a-Service
+- BaaS
 - CloudScript
 - Economy
 - Game Backend

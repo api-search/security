@@ -79,9 +79,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/backendl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/authentication/backendless-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Backend-as-a-Service
+- BaaS
+- Backend as a Service
 - Visual Development
-- Low-Code
+- Low Code
 - Database
 - Real-Time
 ---

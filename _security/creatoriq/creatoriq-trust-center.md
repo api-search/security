@@ -139,16 +139,16 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nsource: https://www.cre
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/security/creatoriq-trust-center.yml
 summary_line: ISO/IEC 27001:2022
 tags:
-- Influencer Marketing
-- Creator Economy
-- Social-Media
+- influencer-marketing
+- creator-economy
+- social-media
 - Marketing
-- Campaign Management
+- campaign-management
 - creator-crm
-- Social Analytics
-- Brand Safety
-- Affiliate Marketing
-- Creator Payments
+- social-analytics
+- brand-safety
+- affiliate-marketing
+- creator-payments
 - E-Commerce
 - Reporting
 - Webhook

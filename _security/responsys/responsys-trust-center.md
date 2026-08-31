@@ -192,6 +192,6 @@ tags:
 - SMS
 - Webhook
 - Oracle
-- MarTech
+- Martech
 trust_url: https://www.oracle.com/corporate/cloud-compliance/
 ---

@@ -169,7 +169,7 @@ tags:
 - Monetization
 - Live Streaming
 - Analytics
-- Media & Entertainment
+- Media and Entertainment
 - DRM
 - Advertising
 - Encoding

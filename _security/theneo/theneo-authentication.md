@@ -66,7 +66,7 @@ tags:
 - Developer Tools
 - Documentation Platform
 - Artificial Intelligence
-- AI Copilot
+- AI Co-Pilot
 - MCP
 - Platform
 ---

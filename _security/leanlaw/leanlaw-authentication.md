@@ -133,6 +133,6 @@ tags:
 - Practice Management
 - QuickBooks
 - Payments
-- LegalTech
-- SaaS
+- Legal Tech
+- Software-as-a-Service
 ---

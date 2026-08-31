@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Compute
-- Semiconductors
+- Semiconductor
 - Power Management
 - AI Infrastructure
 - Hardware

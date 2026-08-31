@@ -38,7 +38,7 @@ tags:
 - Direct to Consumer
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 - Catalog
 - Checkout

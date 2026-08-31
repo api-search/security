@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/
 summary_line: http · 1 scheme
 tags:
 - Deployment
-- Platform-as-a-Service
+- PaaS
 - Infrastructure
 - DevOps
 ---

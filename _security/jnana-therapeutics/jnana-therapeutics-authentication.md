@@ -111,13 +111,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jnana-therapeu
 summary_line: 2 schemes
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Drug Discovery
-- Chemoproteomics
-- Rare Disease
-- Immunology
-- Life Sciences
-- Clinical Trials
+- biotechnology
+- pharmaceuticals
+- drug-discovery
+- chemoproteomics
+- rare-disease
+- immunology
+- life-sciences
+- clinical-trials
 - content-api
 ---

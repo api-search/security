@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/startree-corte
 summary_line: http · 1 scheme
 tags:
 - Company
-- AI Infrastructure
+- Ai Infrastructure
 - Real-Time Analytics
 - Apache Pinot
 - OLAP

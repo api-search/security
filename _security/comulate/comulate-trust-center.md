@@ -21,7 +21,7 @@ summary_line: SOC 2 Type II, SOC 1 Type II
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Accounting
 - Reconciliation
 - Automation

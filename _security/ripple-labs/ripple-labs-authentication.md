@@ -272,7 +272,7 @@ tags:
 - Cross-Border Payments
 - Blockchain
 - Cryptocurrency
-- Stablecoins
+- Stablecoin
 - Digital Assets
 - Custody
 - Wallets

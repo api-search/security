@@ -71,7 +71,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/surescripts/re
 summary_line: mutualTLS/apiKey · 4 schemes
 tags:
 - Healthcare
-- e-Prescribing
+- E-Prescribing
 - Health Information Network
 - NCPDP SCRIPT
 - Medication History

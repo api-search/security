@@ -104,10 +104,10 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nsource: openapi/qr-code
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qr-code-crafter/refs/heads/main/authentication/qr-code-crafter-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- QR Code
-- QR Code Generation
-- Static Qr
-- Dynamic QR
+- QR code
+- QR code generation
+- static QR
+- dynamic QR
 - dynamic redirects
 - image export
 - bulk generation

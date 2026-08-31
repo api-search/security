@@ -56,5 +56,5 @@ tags:
 - Electric Vehicles
 - EV Charging
 - Phone As A Key
-- Sync
+- SYNC
 ---

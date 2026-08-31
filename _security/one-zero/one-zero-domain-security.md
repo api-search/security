@@ -33,7 +33,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/one-zero/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - Fintech
 - Digital Bank
 - Open Banking

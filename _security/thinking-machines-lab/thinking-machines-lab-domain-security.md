@@ -33,7 +33,7 @@ tags:
 - Artificial Intelligence
 - Machine-Learning
 - LLM
-- Fine-Tuning
+- Fine Tuning
 - Model Training
 - Developer Tools
 - Reinforcement Learning

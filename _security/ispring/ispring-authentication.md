@@ -148,7 +148,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/authentication/ispring-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- E-Learning
+- eLearning
 - LMS
 - Learning Management System
 - Training

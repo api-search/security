@@ -78,16 +78,16 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/authentication/blnkfinance-authentication.yml
 summary_line: apiKey/http/oauth2 · 0 schemes
 tags:
-- fintech
-- financial-services
-- ledger
+- Fintech
+- Financial-Services
+- Ledger
 - double-entry-accounting
-- payments
-- wallets
-- lending
-- banking-infrastructure
-- open-source
-- mcp
-- ai-agents
-- developer-tools
+- Payments
+- Wallets
+- Lending
+- Banking Infrastructure
+- Open-Source
+- MCP
+- AI Agents
+- Developer Tools
 ---

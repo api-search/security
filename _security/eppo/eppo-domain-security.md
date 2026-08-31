@@ -74,7 +74,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Experimentation
 - Feature Flags
-- A/B Testing
+- AB Testing
 - Analytics
 - Statistics
 ---

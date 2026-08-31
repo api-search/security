@@ -76,6 +76,6 @@ tags:
 - RPC
 - Streams
 - IPFS
-- Multi-Chain
+- Multi-chain
 trust_url: https://trust.quicknode.com/
 ---

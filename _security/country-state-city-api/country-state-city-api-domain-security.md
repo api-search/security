@@ -72,5 +72,5 @@ tags:
 - Reference Data
 - Regions
 - States
-- Timezones
+- Time Zones
 ---

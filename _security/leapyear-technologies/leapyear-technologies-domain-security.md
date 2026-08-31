@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leapyear-techn
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- AI Infrastructure
+- Ai Infrastructure
 - Differential Privacy
 - Data Privacy
 - Machine-Learning

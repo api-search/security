@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: ustc-campus-status-api-openapi.yml
+  format: yaml
+  label: USTC Campus Enrollment Status Query API (在校状态查询接口)
+  slug: campus-status
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/openapi/ustc-campus-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,10 +46,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/security/ustc-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
+- Higher Education
+- Education
 - China
+- C9 League
+- Chinese Academy of Sciences
+- Research
+- Identity Federation
+- Single Sign-On
+- Course Catalog
+- Research Computing
 - Open Source Mirror
 ---

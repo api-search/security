@@ -39,7 +39,7 @@ tags:
 - Data Warehouse
 - Analytics
 - Artificial Intelligence
-- Natural-Language
+- Natural Language
 - Snowflake
 - BigQuery
 - Business Intelligence

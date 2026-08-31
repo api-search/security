@@ -72,7 +72,7 @@ tags:
 - Nutrition
 - Meal Delivery
 - Food as Medicine
-- eCommerce
+- E-Commerce
 - Agentic Commerce
 - Universal Commerce Protocol
 - MCP

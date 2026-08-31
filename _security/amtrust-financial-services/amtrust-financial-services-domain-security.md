@@ -66,7 +66,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Commercial Insurance
 - Insurance
-- Property and Casualty
+- Property And Casualty
 - Small Business
 - Workers Compensation
 - Fortune 1000

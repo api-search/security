@@ -40,7 +40,7 @@ tags:
 - Industrial
 - Manufacturing
 - Product Development
-- Semiconductors
+- Semiconductor
 - Supply Chain
 - Fortune 1000
 ---

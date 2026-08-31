@@ -34,7 +34,7 @@ tags:
 - Fintech
 - Mobility
 - Motorcycle Rental
-- Last Mile Delivery
+- Last-Mile Delivery
 - Logistics
 - Brazil
 - Latin America

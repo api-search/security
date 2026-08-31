@@ -557,16 +557,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1fort/refs/hea
 summary_line: SOC 2 Type II, HIPAA, CCPA
 tags:
 - Insurance
-- Insurtech
-- Commercial Insurance
-- Cyber Insurance
-- Insurance Broker
+- insurtech
+- commercial-insurance
+- cyber-insurance
+- insurance-broker
 - Quoting
-- Policy Management
+- policy-management
 - premium-finance
 - Payments
-- Workflow-Automation
-- Artificial Intelligence
-- Agentic AI
+- workflow-automation
+- artificial-intelligence
+- agentic-ai
 trust_url: https://security.1fort.com/
 ---

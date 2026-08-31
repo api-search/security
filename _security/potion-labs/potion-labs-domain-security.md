@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/potion-labs/re
 summary_line: TLSv1.3
 tags:
 - Company
-- DeFi
+- Defi
 - Options
 - Smart Contracts
 - Ethereum

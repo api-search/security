@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cansinotech/re
 summary_line: TLSv1.2
 tags:
 - Company
-- biopharmaceuticals
+- Biopharmaceuticals
 - Vaccines
 - Healthcare
 - Life Sciences

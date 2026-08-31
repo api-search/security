@@ -37,7 +37,7 @@ tags:
 - Statsbomb
 - Sportscode
 - Athlete Tracking
-- Live Streaming
+- Livestreaming
 - Ticketing
 - Sports Data
 trust_url: https://www.hudl.com/security

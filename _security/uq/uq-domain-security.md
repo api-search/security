@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: uq-status-openapi.yml
+  format: yaml
+  label: UQ Status API
+  slug: status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uq/refs/heads/main/openapi/uq-status-openapi.yml
 description: ''
 domains:
 - caa:
@@ -45,12 +52,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uq/refs/heads/main/security/uq-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Library
-- Institutional Repository
-- Open Data
+- Higher Education
+- Education
 - Australia
+- Group of Eight
+- Research
+- Institutional Repository
+- Identity Federation
+- Status
+- Library
+- Research Computing
+- Open Data
 ---

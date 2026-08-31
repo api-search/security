@@ -33,7 +33,7 @@ tags:
 - Company
 - Healthcare
 - Digital Health
-- MedTech
+- Medtech
 - Biopharma
 - Software as a Medical Device
 - Medical Devices

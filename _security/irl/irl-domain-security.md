@@ -32,7 +32,7 @@ tags:
 - Company
 - Social
 - Messaging
-- Events
+- Event
 - Calendar
 - Consumer
 - Mobile

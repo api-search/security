@@ -29,21 +29,21 @@ source_yaml: "generated: '2026-08-22'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/financialdata-net/refs/heads/main/security/financialdata-net-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- finance
-- financial-data
+- Finance
+- Financial Data
 - stock-market-api
-- market-data
-- equities
-- etf
-- crypto
-- forex
+- Market Data
+- Equities
+- ETFs
+- Crypto
+- Forex
 - derivatives-options
-- fundamentals
-- insider-trading
+- Fundamentals
+- Insider Trading
 - institutional-13f
-- esg
-- economic-data
-- mcp
-- investing
-- trading
+- ESG
+- Economic Data
+- MCP
+- Investing
+- Trading
 ---

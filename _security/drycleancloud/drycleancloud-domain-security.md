@@ -87,6 +87,7 @@ tags:
 - Dry Cleaning
 - Laundry
 - Point-of-Sale
+- POS
 - Field Service
 - Pickup and Delivery
 - SMB Software

@@ -52,13 +52,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/h
 summary_line: apiKey/signature · 1 scheme
 tags:
 - Company
-- DeFi
+- Defi
 - Cryptocurrency
 - Exchange
 - Perpetual Futures
 - Trading
 - Derivatives
-- Stablecoins
+- Stablecoin
 - WebSocket
 - Blockchain
 ---

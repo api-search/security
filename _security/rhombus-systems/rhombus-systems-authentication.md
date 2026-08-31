@@ -498,7 +498,7 @@ tags:
 - IoT Sensors
 - Cloud Video Management
 - Alarm Monitoring
-- Computer Vision
+- Computer-Vision
 - Building Management
 - Security Cameras
 - Company

@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knoetic/refs/h
 summary_line: SOC 2 Type II
 tags:
 - Company
-- HR Tech
+- Hr Tech
 - People Analytics
 - Human Resources
 - Workforce Analytics

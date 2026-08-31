@@ -36,5 +36,5 @@ tags:
 - Fintech
 - Financial-Services
 - Asset Management
-- Robo-Advisor
+- Robo Advisor
 ---

@@ -48,12 +48,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heriot-watt/refs/heads/main/security/heriot-watt-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Scotland
 - United Kingdom
+- Universities Scotland
 - Research
-- Library
+- Research Data
+- Institutional Repository
 - Open Access
+- OAI-PMH
+- Identity Federation
+- Library
+- Learning Management
 ---

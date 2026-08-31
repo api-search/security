@@ -56,7 +56,7 @@ tags:
 - AMM
 - Fixed Yield
 - Perpetual Yield
-- Ve Pendle
+- vePENDLE
 - Boros
 - EVM
 ---

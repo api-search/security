@@ -53,7 +53,7 @@ tags:
 - Semiconductors
 - Integrated Circuits
 - Analog
-- Mixed-Signal
+- Mixed Signal
 - Audio
 - Power Management
 - Consumer Electronics

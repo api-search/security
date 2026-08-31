@@ -525,7 +525,7 @@ tags:
 - Identity and Access Management
 - Cloud Security
 - Zero Standing Privileges
-- Just-In-Time Access
+- Just-in-Time Access
 - Non-Human Identity
 - Secrets Management
 - Agentic AI

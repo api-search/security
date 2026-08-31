@@ -94,14 +94,14 @@ tags:
 - Payments
 - EMV
 - emv-level-2
-- Card Present
-- Point-of-Sale
-- SoftPOS
-- Tap to Pay
-- Payment Terminals
-- In-Store Payments
+- card-present
+- point-of-sale
+- softpos
+- tap-to-pay
+- payment-terminals
+- in-store-payments
 - pci-mpoc
 - certification-testing
-- Retail Payments
+- retail-payments
 - estate-management
 ---

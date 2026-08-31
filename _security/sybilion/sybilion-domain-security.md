@@ -138,14 +138,14 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Industrial market intelligence
 - Commodity price forecasting
-- Economic Forecasting
+- Economic forecasting
 - Time-series forecasting
 - Procurement
-- Supply Chain Risk
+- Supply-chain risk
 - Trading analytics
 - AI decision support
 - MCP
-- agent-native
-- Causal Inference
-- Anomaly Detection
+- Agent-native
+- Causal inference
+- Anomaly detection
 ---

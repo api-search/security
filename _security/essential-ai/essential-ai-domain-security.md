@@ -34,14 +34,14 @@ source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/essential-ai/refs/heads/main/security/essential-ai-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- Artificial Intelligence
-- Machine-Learning
-- Large Language Models
+- artificial-intelligence
+- machine-learning
+- large-language-models
 - open-weight-models
-- AI Research
-- Foundation Models
+- ai-research
+- foundation-models
 - training-datasets
 - Open-Source
-- Generative AI
-- Agentic AI
+- generative-ai
+- agentic-ai
 ---

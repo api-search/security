@@ -82,16 +82,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flyr-labs/refs
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Travel Technology
-- Airlines
-- Hospitality
-- Revenue Management
-- Dynamic Pricing
-- Artificial Intelligence
+- travel-technology
+- airlines
+- hospitality
+- revenue-management
+- dynamic-pricing
+- artificial-intelligence
 - airline-retailing
-- NDC
+- ndc
 - offer-and-order
-- Hotel Technology
-- Forecasting
-- Cargo
+- hotel-technology
+- forecasting
+- cargo
 ---

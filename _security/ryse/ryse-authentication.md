@@ -90,8 +90,8 @@ tags:
 - Home Automation
 - Window Coverings
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
-- E-commerce
+- E-Commerce
 - Shopify
 ---

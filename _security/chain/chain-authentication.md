@@ -35,7 +35,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Payments
-- Stablecoins
+- Stablecoin
 - Cryptocurrency
 - Blockchain
 - Financial-Services

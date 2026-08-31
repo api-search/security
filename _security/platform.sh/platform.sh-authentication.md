@@ -388,16 +388,16 @@ source_yaml: "generated: '2026-08-26'\nmethod: derived\nsource: openapi/platform
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/authentication/platform.sh-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Platform as a Service
+- Platform-as-a-Service
 - Cloud Hosting
 - Application Hosting
 - Deployment
 - DevOps
 - Continuous Deployment
 - Containers
-- Managed Services
+- Managed Service
 - Developer Tools
 - Infrastructure
-- Multicloud
+- Multi-Cloud
 - Web Hosting
 ---

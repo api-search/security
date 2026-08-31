@@ -2,10 +2,16 @@
 api_specs:
 - filename: lund-publication-api-openapi.yml
   format: yaml
-  label: Lund University Publication API
+  label: Lund University Publications Search API
   slug: lund-publication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/openapi/lund-publication-api-openapi.yml
+- filename: lund-student-papers-api-openapi.yml
+  format: yaml
+  label: LUP Student Papers Search API
+  slug: lup-student-papers
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/openapi/lund-student-papers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,12 +53,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/security/lund-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Sweden
+- Europe
 - Research
-- Library
-- Open Data
+- Research Repository
 - Publications
+- Library
+- Open Metadata
+- Identity Federation
+- OAI-PMH
 ---

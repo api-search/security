@@ -35,7 +35,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Large Language Models
 - Generative AI
 - LLM Inference

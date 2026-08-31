@@ -46,7 +46,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parse/refs/hea
 summary_line: apiKey · 5 schemes
 tags:
 - Company
-- Backend-as-a-Service
+- Backend as a Service
+- BaaS
 - Mobile
 - Open-Source
 - REST API

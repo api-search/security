@@ -61,7 +61,7 @@ tags:
 - Employee Experience
 - Voice
 - Automation
-- Model Context Protocol
+- MCP
 - Enterprise Software
 trust_url: https://trust.kore.ai/
 ---

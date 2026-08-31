@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/h
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Vector Database
-- Multi-Modal
+- Multimodal
 - Lance Format
 - Lakehouse
 - RAG

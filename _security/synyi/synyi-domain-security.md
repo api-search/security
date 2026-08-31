@@ -70,9 +70,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synyi/refs/hea
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- Health Care
+- Healthcare
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - Medical Data
 - Clinical Decision Support

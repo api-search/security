@@ -36,7 +36,7 @@ tags:
 - Field-Reversed Configuration
 - FRC
 - Magneto-Inertial Fusion
-- Deuterium Helium-3
+- Deuterium-Helium-3
 - Aneutronic Fusion
 - Direct Energy Conversion
 - Polaris

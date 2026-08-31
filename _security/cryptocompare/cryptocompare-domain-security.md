@@ -154,7 +154,7 @@ tags:
 - News
 - Social
 - Blockchain
-- Onchain
+- On-Chain
 - Order Book
 - Streaming
 - Index

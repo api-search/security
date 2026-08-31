@@ -64,11 +64,11 @@ summary_line: 5 schemes
 tags:
 - Company
 - Retail
-- Ecommerce
+- E-Commerce
 - Merchandise
 - Apparel
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 - GraphQL
 - Media

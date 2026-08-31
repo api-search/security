@@ -47,7 +47,7 @@ tags:
 - Digital Pathology
 - Oncology
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Clinical Laboratory
 - Precision Medicine
 ---

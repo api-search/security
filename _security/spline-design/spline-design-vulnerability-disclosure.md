@@ -34,7 +34,7 @@ tags:
 - Kotlin
 - React
 - React Three Fiber
-- glTF
+- GLTF
 - USDZ
 - Webhook
 - Real-time API

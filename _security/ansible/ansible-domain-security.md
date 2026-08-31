@@ -116,7 +116,7 @@ tags:
 - Automation
 - Configuration Management
 - DevOps
-- Infrastructure as Code
+- Infrastructure As Code
 - Open-Source
 - Orchestration
 - Red Hat

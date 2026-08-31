@@ -82,7 +82,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/he
 summary_line: http · 1 scheme
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Employee Engagement
 - Employee Experience
 - HR Tech

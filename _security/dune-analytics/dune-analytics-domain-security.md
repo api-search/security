@@ -61,5 +61,5 @@ tags:
 - Dashboards
 - Blockchain
 - Onchain
-- Multi-Chain
+- Multi-chain
 ---

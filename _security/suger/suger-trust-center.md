@@ -86,7 +86,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suger/refs/hea
 summary_line: SOC 2, GDPR
 tags:
 - Cloud Marketplace
-- Go-To-Market
+- GTM
 - Software-as-a-Service
 - Billing
 - Entitlement

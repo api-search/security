@@ -48,7 +48,7 @@ tags:
 - Recognition
 - Digital Rewards
 - Points Programs
-- Redemptions
+- Redemption
 - Fintech
 trust_url: https://www.xoxoday.com/security
 ---

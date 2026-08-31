@@ -34,7 +34,7 @@ tags:
 - Automotive Services
 - Consumer Services
 - Retail
-- Subscriptions
+- Subscription
 - Memberships
 - New Jersey
 - United States

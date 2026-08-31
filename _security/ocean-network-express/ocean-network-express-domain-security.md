@@ -45,7 +45,7 @@ tags:
 - Freight
 - Cargo Tracking
 - Booking
-- Bill of Lading
+- Bill Of Lading
 - eBL
 - Vessel Schedules
 - THE Alliance

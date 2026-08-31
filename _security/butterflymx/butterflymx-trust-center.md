@@ -103,15 +103,15 @@ source_yaml: "generated: '2026-08-08'\nmethod: probed\nprobe: true\nurl: https:/
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/security/butterflymx-trust-center.yml
 summary_line: trust center published
 tags:
-- Access Control
+- access-control
 - physical-access
 - smart-intercom
-- PropTech
-- Property Management
-- Multifamily
-- Building Automation
-- Visitor Management
-- IoT
+- proptech
+- property-management
+- multifamily
+- building-automation
+- visitor-management
+- iot
 - smart-locks
 - Authentication
 - Webhook

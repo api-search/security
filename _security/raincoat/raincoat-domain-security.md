@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Parametric Insurance
 - Climate
 - Natural Disasters

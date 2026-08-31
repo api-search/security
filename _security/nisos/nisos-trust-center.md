@@ -30,7 +30,7 @@ tags:
 - Third-Party Risk
 - Trust and Safety
 - Dark Web Monitoring
-- Managed Services
+- Managed Service
 - Federal
 trust_url: https://trust.nisos.com/
 ---

@@ -54,6 +54,6 @@ tags:
 - Energy
 - Natural Gas
 - NGL
-- Oil and Gas
+- Oil And Gas
 - Upstream
 ---

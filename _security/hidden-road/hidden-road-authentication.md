@@ -85,7 +85,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hidden-road/re
 summary_line: 2 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Prime Brokerage
 - Clearing
 - Digital Assets

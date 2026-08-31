@@ -75,6 +75,6 @@ tags:
 - Fair Trade
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 ---

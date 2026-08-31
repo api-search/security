@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jack-in-the-box/refs/heads/main/security/jack-in-the-box-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Quick Service Restaurant
+- Quick-Service Restaurant
 - Fast Food
 - Restaurant
 - Digital Ordering

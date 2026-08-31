@@ -32,7 +32,7 @@ tags:
 - Company
 - Software-as-a-Service
 - Supplier Information Management
-- Procure-to-Pay
+- Procure To Pay
 - Accounts Payable
 - Spend Management
 - Recovery Audit

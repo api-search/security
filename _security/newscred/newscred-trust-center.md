@@ -143,9 +143,9 @@ tags:
 - Digital Asset Management
 - Marketing
 - Marketing Resource Management
-- Workflow
+- Workflows
 - Publishing
-- Webhooks
+- Webhook
 - Acquired
 trust_url: https://www.optimizely.com/trust-center/compliance
 ---

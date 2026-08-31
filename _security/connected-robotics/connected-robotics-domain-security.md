@@ -30,7 +30,7 @@ summary_line: TLSv1.2
 tags:
 - Company
 - Robotics
-- Food Tech
+- Foodtech
 - Automation
 - Artificial Intelligence
 - Manufacturing

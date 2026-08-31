@@ -79,20 +79,20 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: openapi/staying
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/authentication/stayingapi-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- Travel
-- Hospitality
+- travel
+- hospitality
 - accommodation-data
 - hotel-api
-- Vacation Rental
-- Short-Term Rental
-- Airbnb
-- Booking.com
-- Vrbo
+- vacation-rental
+- short-term-rental
+- airbnb
+- booking.com
+- vrbo
 - google-hotels
 - cross-ota-price-comparison
 - Availability
 - Reviews
-- REST
+- rest
 - MCP
 - agent-native
 - OpenAPI

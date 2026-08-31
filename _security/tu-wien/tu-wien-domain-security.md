@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: tu-wien-fundify-api-openapi.yml
+  format: yaml
+  label: FUNDify — RIS Synergy Funding API
+  slug: fundify-funding
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tu-wien/refs/heads/main/openapi/tu-wien-fundify-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,14 +53,21 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tu-wien/refs/heads/main/security/tu-wien-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research Data
-- Open Access
-- Repository
-- OAI-PMH
-- InvenioRDM
+- Higher Education
+- Education
+- Technical University
 - Austria
 - Europe
+- Research Data
+- Research Repository
+- Open Access
+- OAI-PMH
+- Identity Federation
+- Research Computing
+- InvenioRDM
+- DataCite
+- ORCID
+- SAML
+- RIS Synergy
 ---

@@ -61,14 +61,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bungalow/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Real-Estate
-- Residential Real Estate
-- Rental Listings
-- Property Management
-- Co-Living
-- Single-Family Rental
-- Listings Syndication
-- Housing
-- PropTech
+- real-estate
+- residential-real-estate
+- rental-listings
+- property-management
+- co-living
+- single-family-rental
+- listings-syndication
+- housing
+- proptech
 - Marketplace
 ---

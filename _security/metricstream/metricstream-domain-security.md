@@ -51,7 +51,7 @@ tags:
 - Enterprise Software
 - Regulatory Technology
 - Cyber Risk
-- Third Party Risk
+- Third-Party Risk
 - Operational Resilience
 - ESG
 ---

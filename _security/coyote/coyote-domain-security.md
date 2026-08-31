@@ -90,18 +90,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/security/coyote-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Freight Brokerage
+- freight brokerage
 - Logistics
 - Truckload
 - LTL
-- Less-Than-Truckload
+- less-than-truckload
 - Shipping
-- Supply Chain
+- supply chain
 - freight quotes
-- Shipment Tracking
-- Load Management
+- shipment tracking
+- load management
 - 3PL
-- Customs Brokerage
+- customs brokerage
 - carrier API
 - shipper API
 ---

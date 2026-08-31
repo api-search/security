@@ -48,7 +48,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smallest-ai/re
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- Text-to-Speech
+- Text to Speech
 - Voice
 - Real-Time
 - Voice Agents

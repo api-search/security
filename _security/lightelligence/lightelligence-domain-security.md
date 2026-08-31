@@ -36,5 +36,5 @@ tags:
 - Hardware Accelerators
 - High Performance Computing
 - Optical Interconnect
-- Data Center
+- Data-Center
 ---

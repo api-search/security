@@ -71,5 +71,5 @@ tags:
 - Enrichment
 - Threat Feeds
 - WHOIS
-- Model Context Protocol
+- MCP
 ---

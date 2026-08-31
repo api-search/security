@@ -243,5 +243,5 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/codat-ba
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codat/refs/heads/main/authentication/codat-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Unified-API
+- Unified_API
 ---

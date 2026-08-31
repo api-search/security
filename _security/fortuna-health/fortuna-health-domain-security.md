@@ -37,5 +37,5 @@ tags:
 - Benefits Enrollment
 - Government Benefits
 - Digital Health
-- Health Tech
+- Healthtech
 ---

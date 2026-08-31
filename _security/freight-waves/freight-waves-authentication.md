@@ -75,5 +75,5 @@ tags:
 - Market Data
 - Analytics
 - Freight Rates
-- Sonar
+- SONAR
 ---

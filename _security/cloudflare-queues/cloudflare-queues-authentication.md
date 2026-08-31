@@ -76,5 +76,5 @@ tags:
 - Cloudflare
 - Async
 - Dead Letter Queue
-- Event-Driven
+- Event Driven
 ---

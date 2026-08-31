@@ -227,23 +227,23 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company
-- Crypto Infrastructure
-- Digital Assets
-- Stablecoins
+- crypto-infrastructure
+- digital-assets
+- stablecoins
 - Payments
 - Payouts
-- Tokenization
-- Custody
-- Staking
-- Settlement
-- Embedded Finance
-- On-Off Ramp
-- Liquidity
-- FIX Protocol
+- tokenization
+- custody
+- staking
+- settlement
+- embedded-finance
+- on-off-ramp
+- liquidity
+- fix-protocol
 - Webhook
-- WebSockets
-- KYC
+- websockets
+- kyc
 - Compliance
-- Remittances
-- Agentic Finance
+- remittances
+- agentic-finance
 ---

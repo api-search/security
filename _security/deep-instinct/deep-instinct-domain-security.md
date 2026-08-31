@@ -45,13 +45,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deep-instinct/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cybersecurity
-- Endpoint Security
+- endpoint-security
 - malware-prevention
-- Ransomware
-- Deep Learning
-- Threat Prevention
-- Data Security
-- EDR
-- SOC Automation
+- ransomware
+- deep-learning
+- threat-prevention
+- data-security
+- edr
+- soc-automation
 - MCP
 ---

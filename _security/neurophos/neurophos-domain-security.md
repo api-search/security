@@ -30,13 +30,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neurophos/refs
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- Photonics
-- optical-computing
-- AI Inference
-- AI Accelerators
-- Semiconductors
-- metamaterials
-- Data-Center
-- Deep Tech
+- photonics
+- Optical Computing
+- ai-inference
+- ai-accelerators
+- semiconductors
+- Metamaterials
+- data-center
+- deep-tech
 - MCP
 ---

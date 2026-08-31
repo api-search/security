@@ -46,7 +46,7 @@ tags:
 - Design Systems
 - Design Tokens
 - Documentation
-- Model Context Protocol
+- MCP
 - Agent Readiness
 - Developer Tools
 - Design

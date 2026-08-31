@@ -254,20 +254,20 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/
 summary_line: SOC 2 Type II
 tags:
 - Company
-- AI Governance
+- ai-governance
 - ai-risk-management
-- Responsible AI
+- responsible-ai
 - Compliance
-- Regulatory Technology
-- Model Registry
-- Vendor Risk
-- EU AI Act
-- NIST AI RMF
-- ISO 42001
-- Shadow AI
-- Agent Governance
+- regulatory-technology
+- model-registry
+- vendor-risk
+- eu-ai-act
+- nist-ai-rmf
+- iso-42001
+- shadow-ai
+- agent-governance
 - Audit
-- JSON:API
-- Agent Skills
+- json-api
+- agent-skills
 trust_url: https://trust.credo.ai/
 ---

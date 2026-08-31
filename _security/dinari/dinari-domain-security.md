@@ -103,7 +103,7 @@ tags:
 - Brokerage
 - Market Data
 - Blockchain
-- Stablecoins
+- Stablecoin
 - Fintech
 - KYC
 - Order

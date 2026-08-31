@@ -83,14 +83,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/savvymoney/ref
 summary_line: 3 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Credit Scores
 - Credit Monitoring
 - Financial Wellness
 - Banking
 - Credit Unions
 - Fintech
-- Single Sign On
+- Single Sign-On
 - Embedded Finance
 - Lending
 - Account Opening

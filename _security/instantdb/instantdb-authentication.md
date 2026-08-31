@@ -69,5 +69,5 @@ tags:
 - Real-Time
 - Sync
 - Backend
-- Local-First
+- Local First
 ---

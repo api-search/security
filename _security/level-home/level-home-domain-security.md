@@ -35,17 +35,17 @@ source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/level-home/refs/heads/main/security/level-home-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Smart Lock
-- Smart Home
-- Home Automation
-- IoT
-- Access Control
-- Matter
-- Thread
-- Bluetooth LE
+- smart-lock
+- smart-home
+- home-automation
+- iot
+- access-control
+- matter
+- thread
+- bluetooth-le
 - apple-home-key
-- Consumer Hardware
-- Multifamily
-- PropTech
-- GraphQL
+- consumer-hardware
+- multifamily
+- proptech
+- graphql
 ---

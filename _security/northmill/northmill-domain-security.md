@@ -236,13 +236,13 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Banking
 - Payments
-- Point of Sale
+- Point-of-Sale
 - Retail
 - Open Banking
 - Sweden
 - Fintech
-- Webhooks
-- E-commerce
+- Webhook
+- E-Commerce
 - Lending
 - Nordics
 ---

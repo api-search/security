@@ -136,7 +136,7 @@ tags:
 - Competitor Analysis
 - Website Audit
 - AI Search
-- Geo
+- GEO
 - Digital Marketing
 - MCP
 - AI Agents

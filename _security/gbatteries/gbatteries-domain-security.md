@@ -35,6 +35,6 @@ tags:
 - Battery Management
 - Fast Charging
 - Lithium Metal
-- Deep Tech
+- Deeptech
 - Hardware
 ---

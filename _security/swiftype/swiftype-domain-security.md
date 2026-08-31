@@ -41,7 +41,7 @@ tags:
 - Search
 - Site Search
 - App Search
-- Full-Text Search
+- Full Text Search
 - Autocomplete
 - Web Crawler
 - Analytics

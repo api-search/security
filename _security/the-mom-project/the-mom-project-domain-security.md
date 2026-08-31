@@ -36,5 +36,5 @@ tags:
 - Hiring
 - Recruiting
 - Job
-- Future Of Work
+- Future of Work
 ---

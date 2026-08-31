@@ -143,7 +143,7 @@ tags:
 - Employment Verification
 - Payroll
 - Direct Deposit
-- Consumer-Permissioned Data
+- Consumer Permissioned Data
 - Fintech
 trust_url: https://truv.com/commitment-to-security-and-privacy
 ---

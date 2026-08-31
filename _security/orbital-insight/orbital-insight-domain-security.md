@@ -40,8 +40,8 @@ tags:
 - Artificial Intelligence
 - Supply Chain
 - Commodities
-- Oil and Gas
-- Defense and Intelligence
+- Oil And Gas
+- Defense And Intelligence
 - National Security
 - Maritime
 - AIS

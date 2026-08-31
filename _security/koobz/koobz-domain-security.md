@@ -43,7 +43,7 @@ tags:
 - Manufacturing
 - Supply Chain
 - Sustainability
-- On-Demand Manufacturing
+- On Demand Manufacturing
 - Dropshipping
 - Circular Economy
 ---

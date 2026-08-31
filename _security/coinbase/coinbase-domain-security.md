@@ -207,7 +207,7 @@ tags:
 - Cryptocurrency
 - Custody
 - Exchange
-- On-Ramp
+- Onramp
 - Payments
 - Trading
 - Wallets

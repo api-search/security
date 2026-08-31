@@ -421,7 +421,7 @@ tags:
 - Logistics
 - Delivery
 - Last Mile
-- Couriers
+- Courier
 - E-Commerce
 - Shipping
 - Tracking

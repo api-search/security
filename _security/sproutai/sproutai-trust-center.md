@@ -24,7 +24,7 @@ summary_line: ISO 27001, ISO 27018, SOC 2 (SSAE 16), PCI DSS, FedRAMP, HIPAA
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Claims Automation
 - Artificial Intelligence
 - Document Intelligence

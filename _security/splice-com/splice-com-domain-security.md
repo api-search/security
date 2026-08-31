@@ -41,7 +41,7 @@ tags:
 - Sample Library
 - Audio Plugins
 - VST
-- Rent-to-Own
+- Rent-To-Own
 - Virtual Instruments
 - MIDI
 - Presets

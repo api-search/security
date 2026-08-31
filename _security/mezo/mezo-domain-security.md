@@ -36,7 +36,7 @@ tags:
 - DeFi
 - EVM
 - Cosmos SDK
-- Stablecoins
+- Stablecoin
 - JSON-RPC
 - Layer 2
 ---

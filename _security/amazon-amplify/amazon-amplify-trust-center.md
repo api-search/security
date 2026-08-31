@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Frontend
-- Full-Stack
+- Full Stack
 - Hosting
 - Mobile Development
 - Web Applications

@@ -64,7 +64,7 @@ tags:
 - Blockchain
 - Ethereum
 - Layer 2
-- zkEVM
+- ZK-EVM
 - Web3
 - DeFi
 - Smart Contracts

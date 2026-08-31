@@ -102,7 +102,7 @@ tags:
 - Children
 - Baby
 - Apparel
-- Home
+- Homes
 - Agentic Commerce
 - MCP
 - Universal Commerce Protocol

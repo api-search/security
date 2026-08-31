@@ -342,7 +342,14 @@ tags:
 - Education
 - Higher Education
 - University
+- Technical University
 - Research Data
+- Research Repository
 - Open Access
+- Identity Federation
+- Research Computing
+- OAI-PMH
+- TU9
 - Germany
+- Europe
 ---

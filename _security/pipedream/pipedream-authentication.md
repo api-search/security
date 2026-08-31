@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pipedrea
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/authentication/pipedream-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- Pro-Code-API-Composition
+- ProCode_API_Composition
 - Workflows
 - Connect
 - MCP

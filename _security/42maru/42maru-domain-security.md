@@ -36,7 +36,7 @@ tags:
 - Question Answering
 - Cognitive Search
 - Machine Reading Comprehension
-- Chatbots
+- Chatbot
 - Enterprise Search
 - Deep Learning
 ---

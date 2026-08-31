@@ -34,7 +34,7 @@ tags:
 - SOC
 - AI Agent
 - Autonomous
-- triage
+- Triage
 - SIEM
 - EDR
 - XDR

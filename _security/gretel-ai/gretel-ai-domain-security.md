@@ -37,8 +37,8 @@ tags:
 - Privacy Engineering
 - Tabular
 - Text
-- Time Series
+- Time-Series
 - REST
 - Python SDK
-- Ai Data
+- AI Data
 ---

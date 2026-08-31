@@ -39,6 +39,6 @@ tags:
 - Higher Education
 - Conversational AI
 - Student Engagement
-- Chatbots
+- Chatbot
 - Messaging
 ---

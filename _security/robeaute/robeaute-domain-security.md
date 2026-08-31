@@ -32,9 +32,9 @@ tags:
 - Company
 - Medical Technology
 - Surgical Robotics
-- Micro-Robotics
+- Microrobotics
 - Neurosurgery
 - Healthcare
-- Deep Tech
+- Deeptech
 - Medical Devices
 ---

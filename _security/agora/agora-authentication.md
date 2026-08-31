@@ -69,7 +69,7 @@ summary_line: http · 2 schemes
 tags:
 - Company
 - Fintech
-- Stablecoins
+- Stablecoin
 - Digital Dollar
 - Payments
 - Cryptocurrency

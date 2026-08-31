@@ -108,6 +108,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - CRM
 - Sales
+- Customer Relationship Management
 - Dynamics 365
 - Microsoft
 - Dataverse

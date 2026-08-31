@@ -1,41 +1,4 @@
 ---
-api_specs:
-- filename: university-of-basel-admin-api-api-openapi.yml
-  format: yaml
-  label: DaSCH DSP-API — Admin API
-  slug: university-of-basel-admin-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/openapi/university-of-basel-admin-api-api-openapi.yml
-- filename: university-of-basel-api-v2-api-openapi.yml
-  format: yaml
-  label: DaSCH DSP-API — API v2
-  slug: university-of-basel-api-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/openapi/university-of-basel-api-v2-api-openapi.yml
-- filename: university-of-basel-api-v3-api-openapi.yml
-  format: yaml
-  label: DaSCH DSP-API — API v3
-  slug: university-of-basel-api-v3-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/openapi/university-of-basel-api-v3-api-openapi.yml
-- filename: university-of-basel-management-api-api-openapi.yml
-  format: yaml
-  label: DaSCH DSP-API — Management API
-  slug: university-of-basel-management-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/openapi/university-of-basel-management-api-api-openapi.yml
-- filename: university-of-basel-ontology-mappings-api-openapi.yml
-  format: yaml
-  label: DaSCH DSP-API — Ontology Mappings
-  slug: university-of-basel-ontology-mappings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/openapi/university-of-basel-ontology-mappings-api-openapi.yml
-- filename: university-of-basel-experimental-api-openapi.yml
-  format: yaml
-  label: University of Basel Experimental API
-  slug: university-of-basel-experimental-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/openapi/university-of-basel-experimental-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,13 +40,17 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/security/university-of-basel-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Switzerland
+- Basel
 - Research Data
-- Open Access
+- Research Information
 - Institutional Repository
+- Open Access
+- OAI-PMH
+- Identity Federation
 - Library
-- Digital Humanities
+- Research Computing
 ---

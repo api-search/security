@@ -249,7 +249,7 @@ tags:
 - Compute
 - Storage
 - Kubernetes
-- Database-as-a-Service
+- DBaaS
 - Europe
 trust_url: https://www.exoscale.com/security/
 ---

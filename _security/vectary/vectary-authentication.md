@@ -32,5 +32,5 @@ tags:
 - Augmented Reality
 - 3D Configurator
 - Product Visualization
-- E-Commerce
+- ECommerce
 ---

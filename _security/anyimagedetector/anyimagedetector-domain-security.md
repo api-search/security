@@ -37,13 +37,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anyimagedetect
 summary_line: TLSv1.3 · DMARC
 tags:
 - AI image detection
-- Image Analysis
+- image analysis
 - Computer-Vision
 - Content Moderation
-- Trust and Safety
-- Fact Checking
+- trust & safety
+- fact-checking
 - media verification
 - Developer Tools
-- Synthetic Media
-- Fraud Prevention
+- synthetic media
+- fraud prevention
 ---

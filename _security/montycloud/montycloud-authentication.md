@@ -51,7 +51,7 @@ tags:
 - Cost Management
 - Artificial Intelligence
 - Agents
-- Model Context Protocol
+- MCP
 - Multi-Tenant
 - Infrastructure
 ---

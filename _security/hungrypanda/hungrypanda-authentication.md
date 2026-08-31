@@ -27,10 +27,10 @@ tags:
 - Food Delivery
 - Delivery
 - Marketplace
-- Restaurants
+- Restaurant
 - Grocery
 - Logistics
 - E-Commerce
 - Merchants
-- Point of Sale
+- Point-of-Sale
 ---

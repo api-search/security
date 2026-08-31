@@ -1,29 +1,11 @@
 ---
 api_specs:
-- filename: university-of-bristol-data-set-api-openapi.yml
+- filename: university-of-bristol-research-portal-oai-pmh-openapi.yml
   format: yaml
-  label: University of Bristol data-set API
-  slug: university-of-bristol-data-set-api
+  label: University of Bristol Research Portal OAI-PMH
+  slug: research-portal-oai-pmh
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/openapi/university-of-bristol-data-set-api-openapi.yml
-- filename: university-of-bristol-person-api-openapi.yml
-  format: yaml
-  label: University of Bristol person API
-  slug: university-of-bristol-person-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/openapi/university-of-bristol-person-api-openapi.yml
-- filename: university-of-bristol-project-api-openapi.yml
-  format: yaml
-  label: University of Bristol project API
-  slug: university-of-bristol-project-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/openapi/university-of-bristol-project-api-openapi.yml
-- filename: university-of-bristol-research-output-api-openapi.yml
-  format: yaml
-  label: University of Bristol research-output API
-  slug: university-of-bristol-research-output-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/openapi/university-of-bristol-research-output-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/openapi/university-of-bristol-research-portal-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,10 +53,15 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/security/university-of-bristol-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
+- Higher Education
+- Education
 - United Kingdom
+- Russell Group
+- Research Data
+- Research Repository
+- Metadata Harvesting
+- OAI-PMH
+- Identity Federation
+- Open Data
 ---

@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/genesis-ai/ref
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Enterprise AI
+- Enterprise; Ai
 - Robotics
 - Artificial Intelligence
 - Physical AI

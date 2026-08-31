@@ -33,7 +33,7 @@ tags:
 - Company
 - Storage
 - On-Demand Storage
-- Self Storage
+- Self-Storage
 - Moving
 - Moving Boxes
 - Logistics

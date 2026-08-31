@@ -40,7 +40,7 @@ tags:
 - Bitcoin
 - Blockchain
 - Rollup
-- Zero Knowledge
+- Zero-Knowledge
 - EVM
 - JSON-RPC
 - Web3

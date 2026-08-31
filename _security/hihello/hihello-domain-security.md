@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hihello/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Digital Business Cards
 - Contact Management
 - Networking

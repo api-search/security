@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/passionfroot/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Creator Economy
 - Marketplace
 - Sponsorships

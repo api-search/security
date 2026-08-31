@@ -75,12 +75,12 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Anime
 - Studio Ghibli
-- Film
+- Films
 - Characters
 - Locations
 - Species
 - Vehicles
 - Public APIs
 - Open-Source
-- Read Only
+- Read-Only
 ---

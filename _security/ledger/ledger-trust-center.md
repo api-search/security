@@ -264,17 +264,16 @@ source_yaml: "generated: '2026-08-25'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/security/ledger-trust-center.yml
 summary_line: SOC 2 Type 2, ISO 27001, ISO 22301, CSPN V4 (ANSSI security visa), FIPS 140 Level III, Common Criteria EAL5+
 tags:
-- Company
-- Cryptocurrency
-- Digital Assets
-- Hardware Wallet
-- Self Custody
+- cryptocurrency
+- digital-assets
+- hardware-wallet
+- self-custody
 - Institutional Custody
 - Blockchain
 - Payments
-- Staking
+- staking
 - Security
-- Agent Skills
+- agent-skills
 - agent-native
 trust_url: https://enterprise.ledger.com/about
 ---

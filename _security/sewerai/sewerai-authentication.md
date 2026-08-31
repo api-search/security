@@ -220,16 +220,15 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: https://docs.se
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/authentication/sewerai-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- Company
-- Wastewater
-- Water Infrastructure
-- Sewer Inspection
-- Asset Management
-- Computer Vision
-- Artificial Intelligence
-- GIS
-- Public Works
-- Construction Technology
-- NASSCO
-- CCTV Inspection
+- wastewater
+- water-infrastructure
+- sewer-inspection
+- asset-management
+- computer-vision
+- artificial-intelligence
+- gis
+- public-works
+- construction-technology
+- nassco
+- cctv-inspection
 ---

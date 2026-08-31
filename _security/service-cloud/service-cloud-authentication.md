@@ -84,14 +84,10 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  https://l
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/authentication/service-cloud-authentication.yml
 summary_line: oauth2/openIdConnect/http-bearer · 4 schemes
 tags:
-- Agents
 - Cloud
-- Contact Center
 - CRM
-- Customer Service
+- Customer-Service
 - Enterprise
-- Help Desk
-- Knowledge Management
 - Salesforce
 - Support
 ---

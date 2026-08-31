@@ -33,11 +33,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/academia/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Academic Research
+- academic-research
 - research-papers
-- Scholarly Publishing
-- Higher Education
-- Open Access
+- scholarly-publishing
+- higher-education
+- open-access
 - academic-social-network
 - Preprints
 - research-discovery

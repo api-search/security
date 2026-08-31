@@ -34,10 +34,10 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Wealth Management
-- Financial Services
+- Financial-Services
 - Investment Management
 - WealthTech
-- Portfolio Management
+- Portfolio-Management
 - Financial Planning
 - Managed Accounts
 - Advisor Technology

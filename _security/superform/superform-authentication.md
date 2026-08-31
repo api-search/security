@@ -126,7 +126,7 @@ tags:
 - DeFi
 - Vault
 - Yield Aggregation
-- Cross-Chain
+- Cross Chain
 - Onchain
 - Blockchain
 - Smart Accounts

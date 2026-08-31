@@ -41,7 +41,7 @@ tags:
 - Proxy
 - Kubernetes
 - Ingress
-- Open Source
+- Open-Source
 - Infrastructure
 - Application Delivery
 ---

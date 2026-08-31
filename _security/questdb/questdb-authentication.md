@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/h
 summary_line: http · 1 scheme
 tags:
 - Database
-- Time Series
+- Time-Series
 - SQL
 - Open-Source
 - Performance

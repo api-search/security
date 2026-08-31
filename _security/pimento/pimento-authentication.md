@@ -28,7 +28,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pimento/refs/h
 summary_line: oauth2/openIdConnect · 0 schemes
 tags:
 - Company
-- Ai Ml
+- Ai/Ml
 - Advertising
 - Creative
 - Marketing

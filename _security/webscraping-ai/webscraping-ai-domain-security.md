@@ -74,9 +74,9 @@ tags:
 - MCP
 - Development
 - Public APIs
-- HTML
-- LLM Tools
-- Structured Data
-- Headless Browser
-- CAPTCHA
+- html
+- llm-tools
+- structured-data
+- headless-browser
+- captcha
 ---

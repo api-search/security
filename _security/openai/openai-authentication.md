@@ -368,17 +368,5 @@ summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Large Language Models
-- Machine Learning
-- Generative AI
-- Foundation Models
-- Embeddings
-- Speech Recognition
-- Text To Speech
-- Image Generation
-- Content Moderation
-- Vector Search
-- Agents
-- Model Context Protocol
-- Developer Tools
 - T1
 ---

@@ -82,6 +82,6 @@ tags:
 - E-Commerce
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 ---

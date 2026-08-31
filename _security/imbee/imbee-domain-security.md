@@ -37,7 +37,7 @@ tags:
 - WhatsApp Business
 - Customer Engagement
 - Conversational AI
-- Chatbots
+- Chatbot
 - Customer-Support
-- Asia Pacific
+- Asia-Pacific
 ---

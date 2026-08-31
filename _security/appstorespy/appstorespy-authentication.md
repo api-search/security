@@ -71,13 +71,13 @@ source_yaml: "generated: '2026-08-22'\nmethod: searched\nsource: https://api.app
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/authentication/appstorespy-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- mobile-apps
-- app-store-optimization
-- market-intelligence
-- app-analytics
-- google-play
+- Mobile Apps
+- App Store Optimization
+- Market Intelligence
+- App Analytics
+- Google Play
 - apple-app-store
-- reviews-and-ratings
+- Reviews and Ratings
 - download-revenue-estimates
-- marketing
+- Marketing
 ---

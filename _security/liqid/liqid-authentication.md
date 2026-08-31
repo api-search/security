@@ -28,7 +28,7 @@ tags:
 - Company
 - Wealth Management
 - Investing
-- Financial Services
+- Financial-Services
 - Private Equity
 - Venture Capital
 - Asset Management

@@ -69,7 +69,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wynd-network/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- DePIN
+- Depin
 - Bandwidth
 - Web Scraping
 - AI Training Data

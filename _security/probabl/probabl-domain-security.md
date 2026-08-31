@@ -90,14 +90,14 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Open-Source
-- Machine-Learning
-- Data Science
+- machine-learning
+- data-science
 - scikit-learn
-- MLOps
-- Model Evaluation
-- Experiment Tracking
-- Agent Skills
-- Artificial Intelligence
-- Python
-- France
+- mlops
+- model-evaluation
+- experiment-tracking
+- agent-skills
+- artificial-intelligence
+- python
+- france
 ---

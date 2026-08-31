@@ -52,14 +52,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-arab-emirates-university/refs/heads/main/security/united-arab-emirates-university-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
-- Institutional Repository
-- OAI-PMH
-- CKAN
+- Higher Education
+- Education
 - United Arab Emirates
 - Middle East
+- Public Research University
+- Identity Federation
+- Research Repository
+- Open Data
+- OAI-PMH
+- SCIM
+- SAML
 ---

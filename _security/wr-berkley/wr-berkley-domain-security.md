@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wr-berkley/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
-- Property and Casualty
+- Property And Casualty
 - Commercial Lines
 - Reinsurance
 - Workers Compensation

@@ -1,23 +1,11 @@
 ---
 api_specs:
-- filename: mcgill-dataverses-api-openapi.yml
+- filename: mcgill-shibboleth-idp-openapi.yml
   format: yaml
-  label: McGill University Dataverses API
-  slug: mcgill-dataverses-api
+  label: McGill University Authentication Service — Shibboleth SAML 2.0 Identity Provider
+  slug: shibboleth-idp
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/openapi/mcgill-dataverses-api-openapi.yml
-- filename: mcgill-info-api-openapi.yml
-  format: yaml
-  label: McGill University Info API
-  slug: mcgill-info-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/openapi/mcgill-info-api-openapi.yml
-- filename: mcgill-search-api-openapi.yml
-  format: yaml
-  label: McGill University Search API
-  slug: mcgill-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/openapi/mcgill-search-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/openapi/mcgill-shibboleth-idp-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -67,11 +55,15 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/security/mcgill-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research Data
-- Open Data
+- Higher Education
+- Education
 - Canada
 - Quebec
+- U15
+- Public Research University
+- Identity Federation
+- Research Repository
+- Research Data
+- Course Catalog
 ---

@@ -50,7 +50,7 @@ tags:
 - Visitor Identification
 - De-anonymization
 - Enrichment
-- Go-To-Market
+- Go-to-Market
 - Sales Intelligence
 - B2B
 trust_url: https://app.vanta.com/koala/trust/tzb87epi5imm1qbxktj0bn

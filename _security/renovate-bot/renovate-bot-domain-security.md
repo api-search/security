@@ -41,11 +41,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/renovate-bot/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - DependencyUpdates
-- Developer Tools
+- DeveloperTools
 - Bots
 - Automation
-- Software Supply Chain
-- Open-Source
+- SoftwareSupplyChain
+- OpenSource
 - Mend
 - AGPLv3
 - Node.js

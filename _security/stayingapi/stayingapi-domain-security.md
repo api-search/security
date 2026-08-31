@@ -58,20 +58,20 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/security/stayingapi-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Travel
-- Hospitality
+- travel
+- hospitality
 - accommodation-data
 - hotel-api
-- Vacation Rental
-- Short-Term Rental
-- Airbnb
-- Booking.com
-- Vrbo
+- vacation-rental
+- short-term-rental
+- airbnb
+- booking.com
+- vrbo
 - google-hotels
 - cross-ota-price-comparison
 - Availability
 - Reviews
-- REST
+- rest
 - MCP
 - agent-native
 - OpenAPI

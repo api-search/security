@@ -74,19 +74,19 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: openapi/*.yml (
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/authentication/skyvia-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- Data Integration
-- iPaaS
-- ETL
-- ELT
-- Data Replication
-- Cloud Backup
-- OData
+- data-integration
+- ipaas
+- etl
+- elt
+- data-replication
+- cloud-backup
+- odata
 - SQL
-- Workflow-Automation
-- No-Code
+- workflow-automation
+- no-code
 - Connectors
-- Data Management
+- data-management
 - MCP
 - agent-native
-- Data Access
+- data-access
 ---

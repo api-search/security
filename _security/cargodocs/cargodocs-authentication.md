@@ -75,7 +75,7 @@ summary_line: http · 1 scheme
 tags:
 - Bills of Lading
 - Documentation
-- eBOL
+- eBoL
 - EssDocs
 - MLETR
 - Shipping

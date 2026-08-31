@@ -33,9 +33,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/convercent/ref
 summary_line: http · 1 scheme
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Compliance
-- Governance Risk and Compliance
+- Governance Risk And Compliance
 - Ethics
 - Case Management
 - OData

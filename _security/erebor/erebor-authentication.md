@@ -46,7 +46,7 @@ tags:
 - Fintech
 - Banking
 - Digital Bank
-- Stablecoins
+- Stablecoin
 - Cryptocurrency
 - Payments
 - Financial-Services

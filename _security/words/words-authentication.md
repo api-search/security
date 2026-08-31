@@ -88,7 +88,7 @@ tags:
 - Dictionaries
 - Linguistics
 - English
-- thesaurus
+- Thesaurus
 - Lexical Data
 - Public APIs
 ---

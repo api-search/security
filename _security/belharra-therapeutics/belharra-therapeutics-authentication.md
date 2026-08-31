@@ -76,14 +76,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/belharra-thera
 summary_line: 0 schemes
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Chemoproteomics
-- Drug Discovery
-- Small Molecule Therapeutics
-- Proteomics
-- Life Sciences
-- Oncology
-- Immunology
+- biotechnology
+- pharmaceuticals
+- chemoproteomics
+- drug-discovery
+- small-molecule-therapeutics
+- proteomics
+- life-sciences
+- oncology
+- immunology
 - content-api
 ---

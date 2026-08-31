@@ -122,15 +122,15 @@ source_yaml: "generated: '2026-08-02'\nmethod: derived\nsource: openapi/videoamp
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/authentication/videoamp-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Media Measurement
+- media-measurement
 - Advertising
-- AdTech
+- adtech
 - tv-currency
-- Audience Measurement
-- Media Planning
-- Streaming
+- audience-measurement
+- media-planning
+- streaming
 - Attribution
-- Data Collaboration
+- data-collaboration
 - MCP
 - agent-native
 ---

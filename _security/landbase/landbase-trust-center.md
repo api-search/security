@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landbase/refs/
 summary_line: trust center published
 tags:
 - Company
-- Go To Market
+- Go-To-Market
 - Sales
 - Marketing
 - B2B Data

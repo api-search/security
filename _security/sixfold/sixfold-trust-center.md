@@ -22,12 +22,12 @@ tags:
 - Underwriting
 - Artificial Intelligence
 - Insurtech
-- Property and Casualty
-- Life and Health
+- Property And Casualty
+- Life And Health
 - Risk Assessment
 - Submission Triage
 - Document Processing
 - Agentic AI
-- Enterprise Saas
+- Enterprise SaaS
 trust_url: https://trust.sixfold.ai/
 ---

@@ -67,5 +67,5 @@ tags:
 - Customer-Support
 - Marketing
 - Conversational AI
-- MarTech
+- Martech
 ---

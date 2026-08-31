@@ -35,7 +35,7 @@ tags:
 - Freelance
 - Talent
 - Recruiting
-- Future Of Work
+- Future of Work
 - Artificial Intelligence
 - Staffing
 ---

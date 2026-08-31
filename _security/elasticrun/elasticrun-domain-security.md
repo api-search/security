@@ -34,7 +34,7 @@ tags:
 - E-Commerce
 - Supply Chain
 - B2B
-- Last Mile Delivery
+- Last-Mile Delivery
 - FMCG
 - India
 ---

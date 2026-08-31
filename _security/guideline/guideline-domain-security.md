@@ -34,7 +34,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Retirement
-- 401k
+- 401(k)
 - IRA
 - Financial-Services
 - Fintech

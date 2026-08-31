@@ -34,7 +34,7 @@ tags:
 - Consumer Goods
 - Gin
 - RTD
-- RUM
+- Rum
 - Spirits
 - Tequila
 - Whiskey

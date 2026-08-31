@@ -75,6 +75,6 @@ tags:
 - LLM
 - Inference
 - ByteDance
-- Multi-Modal
+- Multimodal
 - Volcano Engine
 ---

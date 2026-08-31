@@ -31,7 +31,7 @@ tags:
 - Company
 - Synthetic Biology
 - DNA Synthesis
-- Semiconductors
+- Semiconductor
 - Biotechnology
 - Gene Synthesis
 - Life Sciences

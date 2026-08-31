@@ -66,10 +66,10 @@ tags:
 - Payment Facilitation
 - Merchant Onboarding
 - Payment Gateway
-- Financial Services
+- Financial-Services
 - ACH
 - Tokenization
-- Webhooks
+- Webhook
 - Fintech
 - Company
 ---

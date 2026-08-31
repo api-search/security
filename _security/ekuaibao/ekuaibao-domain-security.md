@@ -43,7 +43,7 @@ tags:
 - Enterprise
 - Expense Management
 - Spend Management
-- Travel And Expense
+- Travel and Expense
 - Reimbursement
 - Finance
 - Accounting

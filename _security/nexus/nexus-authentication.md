@@ -89,7 +89,7 @@ tags:
 - DevOps
 - Docker
 - Maven
-- npm
+- Npm
 - Package Management
 - Repository Manager
 - Software Supply Chain

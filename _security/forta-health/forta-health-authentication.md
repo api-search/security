@@ -232,16 +232,16 @@ source_yaml: "generated: '2026-08-04'\nmethod: derived\nsource: openapi/forta-he
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/authentication/forta-health-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Healthcare
-- Autism
-- ABA Therapy
-- Behavioral Health
-- Telehealth
-- Digital Health
+- healthcare
+- autism
+- aba-therapy
+- behavioral-health
+- telehealth
+- digital-health
 - pediatric-care
-- Clinical Operations
-- Medicaid
-- Health Insurance
-- EHR
-- Machine-Learning
+- clinical-operations
+- medicaid
+- health-insurance
+- ehr
+- machine-learning
 ---

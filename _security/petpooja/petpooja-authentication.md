@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/petpooja/refs/
 summary_line: apiKey · 1 scheme
 tags:
 - Restaurant
-- Point-of-Sale
+- POS
 - Online Ordering
 - Menus
 - Food Delivery

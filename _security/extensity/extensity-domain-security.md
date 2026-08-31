@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Neuro-Symbolic AI
+- Neurosymbolic AI
 - Large Language Models
 - Knowledge Graphs
 - Developer Tools

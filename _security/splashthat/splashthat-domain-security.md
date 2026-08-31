@@ -53,6 +53,6 @@ tags:
 - Event Management
 - Guest Registration
 - Ticketing
-- Check-in
+- Check-In
 - Analytics
 ---

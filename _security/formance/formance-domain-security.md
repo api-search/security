@@ -87,7 +87,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Financial Infrastructure
 - Ledger
-- Double-Entry Accounting
+- double-entry-accounting
 - Payments
 - Orchestration
 - Money Movement

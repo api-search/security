@@ -35,7 +35,7 @@ summary_line: appCredentials · 1 scheme
 tags:
 - Company
 - Communications
-- Push To Talk
+- Push-To-Talk
 - Walkie-Talkie
 - Voice
 - Messaging

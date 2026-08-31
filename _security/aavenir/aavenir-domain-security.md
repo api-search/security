@@ -39,7 +39,7 @@ tags:
 - Cloud Saas
 - Contract Lifecycle Management
 - Procurement
-- Source-to-Pay
+- Source To Pay
 - Workflow-Automation
 - ServiceNow
 - Artificial Intelligence

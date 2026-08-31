@@ -59,5 +59,5 @@ tags:
 - Cloud Computing
 - Skills
 - Reporting
-- E-Learning
+- eLearning
 ---

@@ -33,6 +33,6 @@ tags:
 - Sales
 - Recommendations
 - CRM
-- E-Commerce
+- e-Commerce
 trust_url: https://www.proton.ai/security
 ---

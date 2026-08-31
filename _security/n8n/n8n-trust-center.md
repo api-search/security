@@ -106,13 +106,5 @@ tags:
 - Agents
 - Artificial Intelligence
 - Integration
-- Workflow Automation
-- iPaaS
-- No-Code
-- Low-Code
-- AI Agents
-- Orchestration
-- DevOps
-- MCP
 trust_url: https://trust.n8n.io/
 ---

@@ -42,7 +42,7 @@ summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Renters Insurance
 - Property Management
 - Real-Estate

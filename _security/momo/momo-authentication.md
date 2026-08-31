@@ -119,12 +119,12 @@ summary_line: 7 schemes
 tags:
 - Payments
 - Mobile Payments
-- FinTech
+- Fintech
 - Digital Wallet
 - Payment Gateway
 - QR Payments
 - Disbursement
 - Buy Now Pay Later
-- E-commerce
+- E-Commerce
 - Vietnam
 ---

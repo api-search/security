@@ -70,12 +70,12 @@ summary_line: 1 scheme
 tags:
 - Company
 - biopharmaceuticals
-- Pharmaceuticals
-- Life Sciences
+- pharmaceuticals
+- life-sciences
 - hepatology
-- Infectious Disease
-- Clinical Trials
-- Drug Development
-- Monoclonal Antibodies
+- infectious-disease
+- clinical-trials
+- drug-development
+- monoclonal-antibodies
 - content-api
 ---

@@ -38,5 +38,5 @@ tags:
 - EHR
 - Behavioral Health
 - Digital Health
-- Health Tech
+- HealthTech
 ---

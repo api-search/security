@@ -70,7 +70,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
 - Embedded Insurance
-- Insurance As A Service
+- Insurance-as-a-Service
 - Policy Administration
 - Claims
 ---

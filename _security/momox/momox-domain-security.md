@@ -30,9 +30,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/momox/refs/hea
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Recommerce
+- Re-Commerce
 - Marketplace
-- Secondhand
+- Second-Hand
 - Books
 - Media
 - Fashion

@@ -32,10 +32,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Infrastructure
-- ITSM
+- IT Service Management
 - Help Desk
 - IT Automation
 - Artificial Intelligence
+- ITSM
 - Support
 - Software-as-a-Service
 ---

@@ -30,13 +30,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spothopper/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Restaurants
+- Restaurant
 - Hospitality
 - Marketing
 - Websites
 - SEO
 - Reviews
-- Social Media
+- Social-Media
 - Email Marketing
 - SMS
 - Small Business

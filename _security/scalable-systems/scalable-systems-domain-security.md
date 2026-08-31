@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalable-systems/refs/heads/main/security/scalable-systems-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Auto-Scaling
+- Auto Scaling
 - Caching
 - Cloud Infrastructure
 - Distributed Systems

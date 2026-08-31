@@ -34,7 +34,7 @@ tags:
 - JAMstack
 - React
 - GraphQL
-- Build Tools
+- Build Tool
 - Frontend Framework
 - Web Development
 ---

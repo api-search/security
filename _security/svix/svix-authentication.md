@@ -221,10 +221,10 @@ tags:
 - Webhooks As A Service
 - Webhook Delivery
 - Webhook Sending
-- Event-Driven
+- Event Driven
 - Eventing
 - Messaging
-- Pub-Sub
+- Pub Sub
 - Streaming
 - Ingest
 - Integration
@@ -235,8 +235,8 @@ tags:
 - Verification
 - HMAC
 - Standard Webhooks
-- Multi-Tenant
-- Multi-Region
+- Multi Tenant
+- Multi Region
 - Enterprise
 - Software-as-a-Service
 - Developer Platform

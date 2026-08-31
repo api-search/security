@@ -137,17 +137,17 @@ summary_line: http/apiKey-literal/wallet-signature/http-payment · 7 schemes
 tags:
 - DeFi
 - DeFAI
-- AI agents
+- AI Agents
 - MCP
 - OpenAPI
 - x402
-- blockchain
-- crypto
+- Blockchain
+- Crypto
 - airdrop tracking
-- developer tools
-- agent readiness
-- machine payments
+- Developer Tools
+- Agent Readiness
+- Machine Payments
 - Hyperliquid
-- wallet intelligence
+- Wallet Intelligence
 - zero custody
 ---

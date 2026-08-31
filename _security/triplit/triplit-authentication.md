@@ -69,7 +69,7 @@ tags:
 - Database
 - Real-Time
 - Sync
-- Local-First
+- Local-first
 - Developer Tools
 - TypeScript
 - Open-Source

@@ -171,7 +171,7 @@ tags:
 - Continuous Delivery
 - DevOps
 - Developer Tools
-- Open Source
+- Open-Source
 - Pipelines
 - Self-Hosted
 - Build Automation

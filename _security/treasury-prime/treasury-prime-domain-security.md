@@ -94,7 +94,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/treasury-prime
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fintech
-- Backend-as-a-Service
+- BaaS
 - Banking
 - Payments
 - Card Issuing

@@ -36,7 +36,7 @@ tags:
 - Technology
 - Developer Community
 - AI Licensing
-- Open Source
+- Open-Source
 - Syndication
 - Content Licensing
 ---

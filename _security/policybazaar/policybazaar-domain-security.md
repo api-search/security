@@ -32,7 +32,7 @@ tags:
 - Company
 - Fintech
 - Insurance
-- Insurtech
+- InsurTech
 - Marketplace
 - India
 - Insurance Aggregator

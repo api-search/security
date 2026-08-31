@@ -34,6 +34,6 @@ tags:
 - Strategic Finance
 - Business Intelligence
 - Analytics
-- SaaS
+- Software-as-a-Service
 - Acquired
 ---

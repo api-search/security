@@ -54,10 +54,11 @@ tags:
 - Education
 - Higher Education
 - University
-- Open Science
-- Research Data
-- Open Access
-- OAI-PMH
-- Dataverse
 - France
+- Identity Federation
+- Research Repository
+- Research Data
+- Library
+- Open Access
+- Open Science
 ---

@@ -64,7 +64,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doximity/refs/
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Company
-- Health Tech
+- Healthtech
 - Identity
 - Authentication
 - OpenID Connect

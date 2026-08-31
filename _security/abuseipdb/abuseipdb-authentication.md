@@ -57,7 +57,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Anti Malware
 - Blacklist
-- Cybersecurity
+- Cyber Security
 - IP Reputation
 - Network Security
 - Public APIs

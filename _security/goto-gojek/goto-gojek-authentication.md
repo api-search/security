@@ -41,7 +41,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/goto-goj
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/authentication/goto-gojek-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Super App
+- Superapp
 - Ride Hailing
 - Food Delivery
 - Last-Mile Logistics

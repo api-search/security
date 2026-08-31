@@ -209,11 +209,11 @@ tags:
 - Fortune 100
 - Marketplace
 - E-Commerce
-- Orders
+- Order
 - Inventory
 - Fulfillment
 - Supply Chain
 - Seller APIs
-- Webhooks
+- Webhook
 - MCP
 ---

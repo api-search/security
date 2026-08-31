@@ -32,11 +32,19 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usc/refs/heads/main/security/usc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
+- Private Research University
+- Association of American Universities
 - United States
 - California
-- Courses
+- Los Angeles
+- Identity Federation
+- Research Data
+- Research Repository
+- Library
+- Course Catalog
+- Research Computing
 ---

@@ -32,7 +32,7 @@ tags:
 - Company
 - Robotics
 - Autonomous Mobility
-- Micromobility
+- Micro-Mobility
 - Airports
 - Fleet Management
 - Digital Twin

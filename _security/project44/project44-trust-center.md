@@ -53,6 +53,6 @@ tags:
 - Supply Chain Visibility
 - Tracking
 - Freight
-- Multi-Modal
+- Multi-modal
 trust_url: https://trust.project44.com/
 ---

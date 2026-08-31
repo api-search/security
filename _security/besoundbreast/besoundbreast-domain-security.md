@@ -38,5 +38,5 @@ tags:
 - Women's Health
 - Diagnostics
 - Ultrasound
-- Health Tech
+- HealthTech
 ---

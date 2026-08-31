@@ -118,16 +118,16 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/security/pica8-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Networking
-- Open Networking
-- Software Defined Networking
-- Network Automation
-- Network Operating System
-- White Box Switching
-- Network Management
-- Campus Networking
-- Data Center Networking
-- RESTCONF
-- NETCONF
+- networking
+- open-networking
+- software-defined-networking
+- network-automation
+- network-operating-system
+- white-box-switching
+- network-management
+- campus-networking
+- data-center-networking
+- restconf
+- netconf
 - Telemetry
 ---

@@ -53,7 +53,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accelerant/ref
 summary_line: openIdConnect/oauth2 · 1 scheme
 tags:
 - Insurance
-- Insurtech
+- InsurTech
 - Specialty Insurance
 - Underwriting
 - Risk Management

@@ -33,11 +33,11 @@ tags:
 - Company
 - Beverages
 - Consumer Packaged Goods
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Retail
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 - Shopify
 ---

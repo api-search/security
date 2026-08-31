@@ -48,7 +48,7 @@ tags:
 - Cryptocurrency
 - Token
 - Metadata
-- Multi-Chain
+- Multi-chain
 - Ethereum
 - Solana
 - Base

@@ -105,7 +105,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Web3
 - Crypto
-- Onchain
+- On-Chain
 - Analytics
 - Metrics
 - Bitcoin

@@ -24,7 +24,7 @@ summary_line: SOC 1 Type 2, SOC 2 Type 2, ISO 27001, ISO 27701, PCI DSS
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Property and Casualty
 - Cloud
 - Policy Administration

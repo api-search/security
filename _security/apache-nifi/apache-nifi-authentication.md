@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-nifi/re
 summary_line: http · 1 scheme
 tags:
 - Data Integration
-- Dataflows
+- Dataflow
 - ETL
 - IoT
 - Streaming

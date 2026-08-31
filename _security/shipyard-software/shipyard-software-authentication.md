@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shipyard-softw
 summary_line: apiKey/http-basic · 2 schemes
 tags:
 - Company
-- DeFi
+- Defi
 - DEX
 - Decentralized Exchange
 - Cryptocurrency

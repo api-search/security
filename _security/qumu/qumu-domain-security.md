@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qumu/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Video
 - Enterprise Video
 - Streaming

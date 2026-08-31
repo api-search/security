@@ -53,15 +53,15 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/security/songtradr-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Music
-- Music Licensing
-- Sync Licensing
-- Music Metadata
+- music
+- music-licensing
+- sync-licensing
+- music-metadata
 - audio-tagging
-- Semantic Search
-- Machine-Learning
+- semantic-search
+- machine-learning
 - Media
-- Entertainment
-- Rights Management
+- entertainment
+- rights-management
 - Audio
 ---

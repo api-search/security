@@ -160,17 +160,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/he
 summary_line: SOC 2 Type 2, ISO 27001, PCI DSS
 tags:
 - Company
-- Cryptocurrency
-- Digital Assets
+- cryptocurrency
+- digital-assets
 - Payments
-- Banking
+- banking
 - Fintech
-- KYC
+- kyc
 - Compliance
-- Crypto Exchange
+- crypto-exchange
 - Market Data
-- Embedded Finance
-- Travel Rule
+- embedded-finance
+- travel-rule
 - Webhook
 - agent-native
 trust_url: https://trust.uphold.com/

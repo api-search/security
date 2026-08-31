@@ -69,14 +69,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alloplex-bioth
 summary_line: 0 schemes
 tags:
 - Company
-- Biotechnology
-- Cell Therapy
-- Immunotherapy
-- Oncology
-- Cancer
-- Clinical Trials
-- Life Sciences
-- Drug Development
+- biotechnology
+- cell-therapy
+- immunotherapy
+- oncology
+- cancer
+- clinical-trials
+- life-sciences
+- drug-development
 - autoimmunity
 - content-api
 ---

@@ -130,7 +130,7 @@ tags:
 - Customer Feedback
 - Product Management
 - Feature Requests
-- Roadmaps
+- Roadmap
 - Changelog
 - Voice of Customer
 - Software-as-a-Service

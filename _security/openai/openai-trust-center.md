@@ -327,18 +327,6 @@ summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, FedRAMP, GDPR, CS
 tags:
 - Artificial Intelligence
 - Large Language Models
-- Machine Learning
-- Generative AI
-- Foundation Models
-- Embeddings
-- Speech Recognition
-- Text To Speech
-- Image Generation
-- Content Moderation
-- Vector Search
-- Agents
-- Model Context Protocol
-- Developer Tools
 - T1
 trust_url: https://trust.openai.com/
 ---

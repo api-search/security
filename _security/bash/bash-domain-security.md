@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automation
 - Bash
-- Command Line
+- Command-Line
 - DevOps
 - Linux
 - Scripting

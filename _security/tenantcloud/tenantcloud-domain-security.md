@@ -47,7 +47,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Property Management
 - Real-Estate
-- Rentals
+- Rental
 - Tenant Management
 - Lease Management
 - Maintenance

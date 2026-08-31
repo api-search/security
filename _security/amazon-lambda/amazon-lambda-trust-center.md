@@ -36,7 +36,7 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Compute
 - Event-Driven
-- Function-as-a-Service
+- FaaS
 - Functions
 - Serverless
 trust_url: https://aws.amazon.com/compliance/

@@ -43,9 +43,9 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Flux Architecture
 - Frontend
-- JavaScript
+- Javascript
 - Predictable State
 - React
 - State Management
-- TypeScript
+- Typescript
 ---

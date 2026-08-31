@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rewst/refs/hea
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- DevOps
+- Devops
 - Automation
 - iPaaS
 - RPA

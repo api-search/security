@@ -134,15 +134,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authenticx/ref
 summary_line: SOC 2 Type I & II, HIPAA, GDPR, CCPA
 tags:
 - Conversation Intelligence
-- Healthcare
-- Speech Analytics
-- Contact Center
-- Customer Experience
-- Quality Assurance
-- Pharmacovigilance
-- Patient Experience
+- healthcare
+- speech-analytics
+- contact-center
+- customer-experience
+- quality-assurance
+- pharmacovigilance
+- patient-experience
 - Transcription
-- Life Sciences
+- life-sciences
 - SCIM
 - Authentication
 trust_url: https://authenticx.com/privacy-security

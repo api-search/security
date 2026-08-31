@@ -62,6 +62,6 @@ tags:
 - Marketing
 - Analytics
 - Event Management
-- MarTech
+- Martech
 trust_url: https://trust.on24.com/
 ---

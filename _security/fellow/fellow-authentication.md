@@ -58,7 +58,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/he
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Meetings
 - Artificial Intelligence
 - Meeting Notes

@@ -57,7 +57,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Cloud Databases
 - Database Service
-- Database-as-a-Service
+- DBaaS
 - Managed Databases
 - Relational Databases
 ---

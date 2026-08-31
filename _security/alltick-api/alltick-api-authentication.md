@@ -59,16 +59,16 @@ source_yaml: "generated: '2026-08-18'\nmethod: searched\nsource: >-\n  https://e
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/authentication/alltick-api-authentication.yml
 summary_line: 1 scheme
 tags:
-- Financial market data
-- Real-Time Data
+- financial-market-data
+- real-time-data
 - stock-market-data
 - forex-data
-- cryptocurrency-data
+- Cryptocurrency Data
 - commodities-data
-- Tick Data
+- tick-data
 - websocket-streaming
 - Fintech
-- Quantitative Trading
+- quantitative-trading
 - market-data-api
 - trading-halts
 ---

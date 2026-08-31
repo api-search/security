@@ -97,7 +97,7 @@ tags:
 - Dark Web Monitoring
 - Data Breaches
 - Credential Monitoring
-- Third Party Risk
+- Third-Party Risk
 - Vendor Risk Management
 - Vulnerability Management
 - Ransomware

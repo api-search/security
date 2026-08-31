@@ -83,9 +83,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/ref
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Amazon
+- Aws
 - Containers
 - Docker
-- ECS
+- Ecs
 - Orchestration
 trust_url: https://aws.amazon.com/compliance/
 ---

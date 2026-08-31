@@ -33,6 +33,6 @@ tags:
 - Real-Estate
 - Property Management
 - Lettings
-- Rentals
+- Rental
 - United Kingdom
 ---

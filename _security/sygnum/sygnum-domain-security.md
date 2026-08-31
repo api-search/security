@@ -50,7 +50,7 @@ tags:
 - Tokenization
 - Settlement
 - Market Data
-- Financial Services
+- Financial-Services
 - Switzerland
 - Singapore
 - B2B

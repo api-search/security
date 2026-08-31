@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-gener
 summary_line: TLSv1.2 · DMARC
 tags:
 - Insurance
-- Property and Casualty
+- Property & Casualty
 - Auto Insurance
 - Accident & Health Insurance
 - Acquired

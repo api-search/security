@@ -62,17 +62,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/he
 summary_line: apiKey · 1 scheme
 tags:
 - Advertising
-- AdTech
-- Contextual Advertising
-- Brand Safety
-- Content Classification
-- Computer-Vision
-- Natural Language Processing
-- Video Analysis
-- Image Analysis
-- Connected TV
-- Header Bidding
-- Programmatic Advertising
+- adtech
+- contextual-advertising
+- brand-safety
+- content-classification
+- computer-vision
+- natural-language-processing
+- video-analysis
+- image-analysis
+- connected-tv
+- header-bidding
+- programmatic-advertising
 - iab-taxonomy
-- Content Moderation
+- content-moderation
 ---

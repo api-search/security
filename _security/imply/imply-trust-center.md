@@ -27,7 +27,7 @@ tags:
 - Database
 - Apache Druid
 - Data
-- Database-as-a-Service
+- DBaaS
 - Streaming
 trust_url: https://trust.imply.io/
 ---

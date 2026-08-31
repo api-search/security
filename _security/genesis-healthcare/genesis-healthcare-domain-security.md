@@ -34,7 +34,7 @@ tags:
 - Skilled Nursing
 - Rehabilitation
 - Senior Living
-- Long-Term Care
+- Long Term Care
 - Chapter 11
 - Restructuring
 - Distressed

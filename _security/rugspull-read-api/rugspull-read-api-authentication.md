@@ -54,8 +54,8 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nsource: https://rugspul
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rugspull-read-api/refs/heads/main/authentication/rugspull-read-api-authentication.yml
 summary_line: 0 schemes
 tags:
-- BNB Smart Chain
-- BSC
+- bnb-smart-chain
+- bsc
 - wbnb
 - Read Only
 - OpenAPI
@@ -64,5 +64,5 @@ tags:
 - DeFi
 - Web3
 - crypto-market-data
-- Indexer
+- indexer
 ---

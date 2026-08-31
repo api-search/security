@@ -30,14 +30,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/siepe/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Private Credit
 - CLO
 - Alternative Investments
-- Portfolio Management
+- Portfolio-Management
 - Data Management
 - Fund Administration
 - Middle Office
-- Managed Services
+- Managed Service
 - Fintech
 ---

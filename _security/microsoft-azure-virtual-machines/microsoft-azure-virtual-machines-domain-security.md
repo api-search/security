@@ -58,7 +58,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud Computing
 - Compute
-- Infrastructure-as-a-Service
+- IaaS
 - Infrastructure
 - Virtual Machines
 ---

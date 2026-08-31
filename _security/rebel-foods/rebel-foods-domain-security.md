@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Food and Beverage
-- Restaurants
+- Restaurant
 - Cloud Kitchens
 - Food Delivery
 - Consumer

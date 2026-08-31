@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Data
-- Coding Agents
+- Coding Agent
 - AI Agents
 - Developer Tools
 - Automation

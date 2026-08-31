@@ -35,6 +35,6 @@ tags:
 - Health Insurance
 - Insurance
 - Mexico
-- Insurtech
+- InsurTech
 - Digital Health
 ---

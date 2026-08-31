@@ -26,7 +26,7 @@ tags:
 - Mobile Robotics
 - Material Handling
 - Trailer Unloading
-- E-Commerce Fulfillment
+- eCommerce Fulfillment
 - Retail Replenishment
 - Supply Chain
 - Logistics

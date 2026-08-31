@@ -113,14 +113,14 @@ source_yaml: "generated: '2026-08-11'\nmethod: derived\nsource: openapi/cosmose-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/authentication/cosmose-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Retail Intelligence
+- retail-intelligence
 - offline-analytics
-- Location Intelligence
-- AdTech
+- location-intelligence
+- adtech
 - consumer-behavior
-- Shopper Analytics
-- Mobile SDK
+- shopper-analytics
+- mobile-sdk
 - Advertising
-- Artificial Intelligence
-- Singapore
+- artificial-intelligence
+- singapore
 ---

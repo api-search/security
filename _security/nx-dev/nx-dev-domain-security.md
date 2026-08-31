@@ -44,21 +44,22 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Monorepo
 - Builds
-- Build System
+- BuildSystem
 - TaskRunner
-- Dependency-Graph
+- DependencyGraph
 - Cache
-- Remote Cache
+- RemoteCache
 - CI
 - DistributedExecution
-- Developer Tools
-- Developer Experience
+- DeveloperTools
+- DeveloperExperience
 - IDE
 - Artificial Intelligence
 - Agents
 - MCP
+- ModelContextProtocol
 - TypeScript
 - JavaScript
 - Rust
-- Open-Source
+- OpenSource
 ---

@@ -1,35 +1,4 @@
 ---
-api_specs:
-- filename: tu-dresden-authority-search-api-openapi.yml
-  format: yaml
-  label: TU Dresden authority_search API
-  slug: tu-dresden-authority-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/openapi/tu-dresden-authority-search-api-openapi.yml
-- filename: tu-dresden-explorative-search-api-openapi.yml
-  format: yaml
-  label: TU Dresden explorative search API
-  slug: tu-dresden-explorative-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/openapi/tu-dresden-explorative-search-api-openapi.yml
-- filename: tu-dresden-reconcile-api-openapi.yml
-  format: yaml
-  label: TU Dresden reconcile API
-  slug: tu-dresden-reconcile-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/openapi/tu-dresden-reconcile-api-openapi.yml
-- filename: tu-dresden-search-and-access-api-openapi.yml
-  format: yaml
-  label: TU Dresden search and access API
-  slug: tu-dresden-search-and-access-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/openapi/tu-dresden-search-and-access-api-openapi.yml
-- filename: tu-dresden-source-api-openapi.yml
-  format: yaml
-  label: TU Dresden source API
-  slug: tu-dresden-source-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/openapi/tu-dresden-source-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -75,11 +44,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/security/tu-dresden-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
-- Library
+- Higher Education
+- Education
 - Germany
+- Saxony
+- TU9
+- Research
+- Research Data
+- Research Computing
+- Artificial Intelligence
+- Identity Federation
+- OAI-PMH
+- Institutional Repository
+- Open Access
 ---

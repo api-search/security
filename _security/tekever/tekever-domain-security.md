@@ -43,7 +43,7 @@ tags:
 - AR3
 - AR5
 - ARX
-- Atlas
+- ATLAS
 - Portugal
 - United Kingdom
 - Ukraine

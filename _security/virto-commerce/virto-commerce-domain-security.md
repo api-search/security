@@ -131,7 +131,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/security/virto-commerce-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- B2B E-Commerce
+- B2B eCommerce
 - Catalog Management
 - Order Management
 - Pricing

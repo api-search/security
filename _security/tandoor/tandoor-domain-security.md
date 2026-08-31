@@ -52,14 +52,14 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/security/tandoor-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Recipes
-- Meal Planning
-- Food
-- Nutrition
-- Shopping Lists
-- Open Source
-- Self-Hosted
-- Home Automation
-- Django
+- recipes
+- meal-planning
+- food
+- nutrition
+- shopping-lists
+- Open-Source
+- self-hosted
+- home-automation
+- django
 - Open Data
 ---

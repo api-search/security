@@ -33,7 +33,7 @@ tags:
 - Company
 - Fintech
 - PropTech
-- Rentals
+- Rental
 - Deposits
 - Tenancy
 - Real-Estate

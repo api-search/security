@@ -64,7 +64,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tava-health/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Health Care
+- Healthcare
 - Mental Health
 - Behavioral Health
 - Telehealth

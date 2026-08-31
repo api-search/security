@@ -32,10 +32,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Self Storage
-- Real Estate
-- Proptech
+- Real-Estate
+- PropTech
 - Logistics
-- Consumer Marketplace
+- Consumer; Marketplace
 - Urban Infrastructure
 - Internet of Things
 ---

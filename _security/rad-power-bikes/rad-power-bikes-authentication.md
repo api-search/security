@@ -61,7 +61,7 @@ tags:
 - Company
 - Electric Bikes
 - Micromobility
-- Ecommerce
+- E-Commerce
 - Retail
 - Consumer Products
 - Agentic Commerce

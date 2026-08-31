@@ -57,14 +57,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taalas/refs/he
 summary_line: http · 1 scheme
 tags:
 - Company
-- Artificial Intelligence
-- AI Inference
-- Semiconductors
-- AI Accelerator
-- Large Language Models
-- Llama
-- Inference API
-- OpenAI-Compatible
-- Hardware
-- Deep Tech
+- artificial-intelligence
+- ai-inference
+- semiconductors
+- ai-accelerator
+- large-language-models
+- llama
+- inference-api
+- openai-compatible
+- hardware
+- deep-tech
 ---

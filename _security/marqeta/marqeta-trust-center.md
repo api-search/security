@@ -496,7 +496,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/h
 summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:
 - Fintech
-- Backend-as-a-Service
+- BaaS
 - Card Issuing
 - Payments
 - Embedded Finance

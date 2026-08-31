@@ -108,16 +108,16 @@ source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/security/emerge-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Freight
+- freight
 - Logistics
 - Transportation
 - Supply Chain
 - Procurement
-- Trucking
-- Freight Marketplace
-- Transportation Management
+- trucking
+- freight-marketplace
+- transportation-management
 - Shipping
 - rate-benchmarking
 - Webhook
-- B2B Marketplace
+- b2b-marketplace
 ---

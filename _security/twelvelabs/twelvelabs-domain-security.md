@@ -80,7 +80,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Video Understanding
-- Multi-Modal
+- Multimodal
 - Search
 - Embeddings
 ---

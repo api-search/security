@@ -279,12 +279,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neuehouse/refs
 summary_line: apiKey/http · 2 schemes
 tags:
 - Hospitality
-- Coworking
-- Events
+- Co-Working
+- Event
 - Content
 - WordPress
 - Membership
-- Real Estate
+- Real-Estate
 - Media
 - Workspace
 ---

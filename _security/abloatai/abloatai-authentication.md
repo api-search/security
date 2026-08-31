@@ -79,12 +79,12 @@ source_yaml: "generated: '2026-08-19'\nmethod: searched\nsource: https://docs.ab
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abloatai/refs/heads/main/authentication/abloatai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Agent Infrastructure
+- agent-infrastructure
 - multi-agent-coordination
 - concurrency-control
-- State Management
+- state-management
 - Database
-- Postgres
+- postgres
 - real-time-sync
 - MCP
 - Developer Tools

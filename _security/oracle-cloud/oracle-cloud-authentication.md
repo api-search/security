@@ -195,15 +195,15 @@ summary_line: http-signature · 1 scheme
 tags:
 - Cloud Computing
 - Enterprise Cloud
-- Infrastructure-as-a-Service
+- Infrastructure as a Service
 - Oracle
 - Platform-as-a-Service
 - Compute
-- Object-Storage
-- Identity-and-Access-Management
+- Object Storage
+- Identity and Access Management
 - Database
 - Kubernetes
 - Serverless
 - Monitoring
-- Event-Driven
+- Event Driven
 ---

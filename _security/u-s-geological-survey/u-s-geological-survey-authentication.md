@@ -3,6 +3,12 @@ api_key_in:
 - header
 - query
 api_specs:
+- filename: openapi
+  format: yaml
+  label: USGS Water Data APIs
+  slug: water-data-ogc-api
+  spec_type: OpenAPI
+  url: https://api.waterdata.usgs.gov/ogcapi/v0/openapi
 - filename: u-s-geological-survey-catalog-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Catalog API
@@ -285,7 +291,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/usgs-wat
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/authentication/u-s-geological-survey-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Federal Government
+- Federal-Government
 - Geological
 - Earth Science
 - Natural Resources

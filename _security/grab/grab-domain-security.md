@@ -62,7 +62,7 @@ tags:
 - Food Delivery
 - Last-Mile Logistics
 - Digital Payments
-- Super App
+- Superapp
 - Southeast Asia
 - Identity
 - Loyalty

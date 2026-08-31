@@ -38,7 +38,7 @@ tags:
 - Generative AI
 - Image-Generation
 - Video Generation
-- Text-to-Speech
+- Text to Speech
 - Creative Tools
 - MCP
 - AI Agents

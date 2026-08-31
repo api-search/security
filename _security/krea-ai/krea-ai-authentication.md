@@ -76,7 +76,7 @@ tags:
 - Video Generation
 - Generative AI
 - Real-Time
-- Multi-Modal
+- Multimodal
 - Creative Tools
 - 3D
 - Upscaling

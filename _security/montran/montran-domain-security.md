@@ -215,5 +215,5 @@ tags:
 - Messaging
 - Payments
 - Real-Time Payments
-- Swift
+- SWIFT
 ---

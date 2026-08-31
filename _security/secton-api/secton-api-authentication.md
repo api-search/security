@@ -60,11 +60,11 @@ summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence
 - Inference
-- LLM
-- Chat Completions
-- Generative AI
+- llm
+- chat-completions
+- generative-ai
 - Developer Tools
-- OpenAI-Compatible
-- Streaming
-- Machine-Learning
+- openai-compatible
+- streaming
+- machine-learning
 ---

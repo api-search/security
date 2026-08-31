@@ -102,15 +102,15 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nprobe: true\nurl: https:/
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/security/videoamp-trust-center.yml
 summary_line: trust center published
 tags:
-- Media Measurement
+- media-measurement
 - Advertising
-- AdTech
+- adtech
 - tv-currency
-- Audience Measurement
-- Media Planning
-- Streaming
+- audience-measurement
+- media-planning
+- streaming
 - Attribution
-- Data Collaboration
+- data-collaboration
 - MCP
 - agent-native
 trust_url: https://trust.videoamp.com/

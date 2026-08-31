@@ -47,12 +47,12 @@ tags:
 - Iridium NTN Direct
 - NB-IoT
 - 5G Non-Terrestrial Network
-- Direct-to-Device
+- Direct To Device
 - Positioning Navigation And Timing
 - PNT
 - Maritime
 - Aviation
 - Defense
 - Autonomous Systems
-- Cloud Connect
+- CloudConnect
 ---

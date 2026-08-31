@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
 - Payment Fraud
-- Financial Services
+- Financial-Services
 - Banking
 - Security
 - Fraud Prevention

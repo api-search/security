@@ -115,10 +115,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Crypto
-- Stablecoins
+- Stablecoin
 - Payments
 - Brazil
-- Pix
+- PIX
 - Fintech
 - Blockchain
 - Digital Assets

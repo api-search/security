@@ -47,15 +47,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/legal-ge-publi
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Legal
-- Law
-- Legal Services
+- law
+- legal-services
 - Directory
-- Georgia
+- georgia
 - AI Agents
 - MCP
 - specialists
-- Professional Services
+- professional-services
 - Marketplace
-- Multilingual
-- Legal Tech
+- multilingual
+- legal-tech
 ---

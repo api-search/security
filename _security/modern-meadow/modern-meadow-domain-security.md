@@ -45,7 +45,7 @@ tags:
 - Materials
 - Biotechnology
 - Synthetic Biology
-- Bio-Fabrication
+- Biofabrication
 - Sustainability
 - Advanced Materials
 - Fashion

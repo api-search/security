@@ -71,7 +71,7 @@ tags:
 - Loyalty
 - Shopify
 - E-Commerce
-- Direct to Consumer
+- DTC
 - Recurring Revenue
 - Subscription Management
 ---

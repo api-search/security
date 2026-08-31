@@ -52,7 +52,7 @@ tags:
 - Company
 - Hospitality
 - Travel
-- Short-Term Rental
+- Short Term Rental
 - Real-Estate
 - Accommodations
 - Property Management

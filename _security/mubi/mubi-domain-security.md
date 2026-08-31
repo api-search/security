@@ -56,7 +56,7 @@ tags:
 - Media
 - Entertainment
 - Film
-- Video-on-Demand
+- Video On Demand
 - Subscription
 - Distribution
 ---

@@ -149,7 +149,7 @@ tags:
 - Internet Intelligence
 - Attack Surface Management
 - Threat Hunting
-- cyber-threat-intelligence
+- Cyber Threat Intelligence
 - OSINT
 - Internet Scanning
 - Certificates

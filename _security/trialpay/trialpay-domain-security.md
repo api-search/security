@@ -50,7 +50,7 @@ tags:
 - Payments
 - Advertising
 - Monetization
-- Offerwall
+- Offer Wall
 - Gaming
 - Mobile
 - Acquired

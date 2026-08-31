@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/authentication/amazon-clean-rooms-authentication.yml
 summary_line: aws-sigv4 · 1 scheme
 tags:
-- Clean Rooms
+- Cleanrooms
 - Data Collaboration
 - Privacy
 - Analytics

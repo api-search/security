@@ -32,7 +32,7 @@ tags:
 - Company
 - Energy
 - Batteries
-- Lithium-ion
+- Lithium-Ion
 - Recycling
 - Circular Economy
 - Materials

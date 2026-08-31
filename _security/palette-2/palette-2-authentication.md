@@ -42,6 +42,6 @@ tags:
 - Video Generation
 - Media
 - Content Generation
-- Multi-Modal
+- Multimodal
 - Creative Tools
 ---

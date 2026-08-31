@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: university-of-leeds-research-data-oai-pmh-openapi.yml
+  format: yaml
+  label: Research Data Leeds Repository (OAI-PMH)
+  slug: research-data-oai
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-leeds/refs/heads/main/openapi/university-of-leeds-research-data-oai-pmh-openapi.yml
+- filename: university-of-leeds-digital-library-openapi.yml
+  format: yaml
+  label: Leeds Digital Library (OAI-PMH and OpenSearch)
+  slug: digital-library
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-leeds/refs/heads/main/openapi/university-of-leeds-digital-library-openapi.yml
+- filename: university-of-leeds-spacefinder-openapi.yml
+  format: yaml
+  label: Spacefinder Campus Space Data
+  slug: spacefinder
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-leeds/refs/heads/main/openapi/university-of-leeds-spacefinder-openapi.yml
+- filename: university-of-leeds-library-floorplans-iiif-openapi.yml
+  format: yaml
+  label: Library Floor Plans IIIF Image API
+  slug: library-floorplans-iiif
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-leeds/refs/heads/main/openapi/university-of-leeds-library-floorplans-iiif-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,12 +67,17 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-leeds/refs/heads/main/security/university-of-leeds-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - United Kingdom
+- Russell Group
 - Research Data
+- Research Repository
 - Libraries
+- Open Data
 - OAI-PMH
 - IIIF
+- Research Computing
+- Digital Collections
 ---

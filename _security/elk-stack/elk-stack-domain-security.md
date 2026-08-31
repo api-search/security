@@ -841,5 +841,5 @@ tags:
 - Security
 - Vector Database
 - SIEM
-- Machine Learning
+- Machine-Learning
 ---

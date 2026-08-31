@@ -60,7 +60,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Cloud
 - Edge to Cloud
-- Infrastructure-as-a-Service
+- Infrastructure as a Service
 - Compute
 - Storage
 - Networking

@@ -19,12 +19,18 @@ api_specs:
   slug: adobe-premiere-representations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-representations-api-openapi.yml
+- filename: adobe-premiere-cc-libraries-api-openapi.json
+  format: json
+  label: Adobe Creative Cloud Libraries API
+  slug: adobe-creative-cloud-libraries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-cc-libraries-api-openapi.json
 auth_types:
 - oauth2
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Adobe Premiere Authentication
 name_suffix: Authentication
 oauth_flows:
@@ -41,13 +47,15 @@ schemes:
     tokenUrl: https://ims-na1.adobelogin.com/ims/token/v3
   name: oauth2
   sources:
-  - openapi/adobe-premiere-creative-cloud-libraries-openapi.yml
+  - openapi/adobe-premiere-elements-api-openapi.yml
+  - openapi/adobe-premiere-libraries-api-openapi.yml
+  - openapi/adobe-premiere-representations-api-openapi.yml
   type: oauth2
 slug: adobe-premiere-authentication
 source_filename: adobe-premiere-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/adobe-premiere-creative-cloud-libraries-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://ims-na1.adobelogin.com/ims/authorize/v2\n    tokenUrl: https://ims-na1.adobelogin.com/ims/token/v3\n    scopes: 3\n  sources:\n  - openapi/adobe-premiere-creative-cloud-libraries-openapi.yml\n"
+source_yaml: "generated: '2026-08-30'\nmethod: searched\nsource: openapi/adobe-premiere-elements-api-openapi.yml, openapi/adobe-premiere-libraries-api-openapi.yml,\n  openapi/adobe-premiere-representations-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://ims-na1.adobelogin.com/ims/authorize/v2\n    tokenUrl: https://ims-na1.adobelogin.com/ims/token/v3\n    scopes: 3\n  sources:\n  - openapi/adobe-premiere-elements-api-openapi.yml\n  - openapi/adobe-premiere-libraries-api-openapi.yml\n  - openapi/adobe-premiere-representations-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/authentication/adobe-premiere-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

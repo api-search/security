@@ -122,7 +122,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/h
 summary_line: SOC 2, PCI DSS
 tags:
 - Fintech
-- Backend-as-a-Service
+- BaaS
 - Banking
 - Payments
 - Card Issuing

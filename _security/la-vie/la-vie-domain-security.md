@@ -32,7 +32,7 @@ tags:
 - Company
 - Food & Agritech
 - Plant-Based
-- Food and Beverage
+- Food & Beverage
 - Consumer Packaged Goods
 - Sustainability
 - France

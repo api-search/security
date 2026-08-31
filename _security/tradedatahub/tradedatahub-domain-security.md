@@ -37,14 +37,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tradedatahub/r
 summary_line: TLSv1.3 · HSTS
 tags:
 - contractor data
-- B2B data
-- business listings
-- datasets
+- B2B Data
+- Business Listings
+- Datasets
 - CSV
-- lead generation
-- sales intelligence
+- Lead Generation
+- Sales Intelligence
 - x402
 - agent-native
-- llms.txt
+- llms-txt
 - OpenAPI
 ---

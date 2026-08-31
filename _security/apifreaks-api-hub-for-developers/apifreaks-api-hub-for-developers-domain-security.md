@@ -199,28 +199,28 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/security/apifreaks-api-hub-for-developers-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- IP Intelligence
-- Geolocation
+- IP intelligence
+- geolocation
 - WHOIS
-- Domain Intelligence
+- domain intelligence
 - DNS
-- Geocoding
-- Email Validation
-- Phone Validation
+- geocoding
+- email validation
+- phone validation
 - SSL
-- Web Scraping
+- web scraping
 - Screenshots
-- PDF Processing
+- PDF processing
 - Currency
 - Forex
 - Commodities
 - financial validation
-- ZIP Codes
-- Weather
-- Timezone
+- ZIP codes
+- weather
+- timezone
 - GeoDB
-- User-Agent Parsing
-- Astronomy
+- user-agent parsing
+- astronomy
 - Developer Tools
 - MCP
 - Agent Ready

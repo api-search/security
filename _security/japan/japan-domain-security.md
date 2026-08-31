@@ -31,9 +31,9 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Customer-Support
-- Help Desk
+- Helpdesk
 - E-Commerce
 - Shopify
-- Direct to Consumer
+- DTC
 - Software-as-a-Service
 ---

@@ -30,7 +30,7 @@ tags:
 - Order Management
 - Marketing Automation
 - Business Intelligence
-- SaaS
+- Software-as-a-Service
 - Artificial Intelligence
 - Agents
 - MCP

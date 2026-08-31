@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/activtrak/refs
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Workforce Analytics
 - Productivity
 - Employee Monitoring

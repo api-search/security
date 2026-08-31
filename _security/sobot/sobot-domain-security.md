@@ -85,7 +85,7 @@ tags:
 - Contact Center
 - Customer Service
 - Live Chat
-- Chatbots
+- Chatbot
 - Voice
 - Ticketing
 - WhatsApp

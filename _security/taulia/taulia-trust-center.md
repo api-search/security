@@ -30,7 +30,7 @@ tags:
 - Invoicing
 - Payments
 - Procurement
-- Financial Services
+- Financial-Services
 - ERP Integration
 - SAP
 trust_url: ''

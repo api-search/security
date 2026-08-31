@@ -44,10 +44,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rtcstats/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - WebRTC
-- Observability
+- observability
 - Monitoring
-- Debugging
-- Real-Time Communications
+- debugging
+- real-time-communications
 - Video
 - Voice
 - Artificial Intelligence

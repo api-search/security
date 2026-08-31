@@ -117,13 +117,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jnana-therapeu
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Drug Discovery
-- Chemoproteomics
-- Rare Disease
-- Immunology
-- Life Sciences
-- Clinical Trials
+- biotechnology
+- pharmaceuticals
+- drug-discovery
+- chemoproteomics
+- rare-disease
+- immunology
+- life-sciences
+- clinical-trials
 - content-api
 ---

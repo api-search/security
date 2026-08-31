@@ -31,9 +31,9 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Logistics
-- Last Mile Delivery
+- Last-Mile Delivery
 - E-Commerce
-- Couriers
+- Courier
 - Shipping
 - Package Tracking
 - Supply Chain

@@ -69,7 +69,7 @@ tags:
 - Company
 - Financial-Services
 - Fintech
-- Lease-to-Own
+- Lease To Own
 - Point-of-Sale
 - Consumer Finance
 - Retail

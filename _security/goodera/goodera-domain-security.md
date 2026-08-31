@@ -45,9 +45,9 @@ tags:
 - Social Impact
 - CSR
 - Employee Engagement
-- Nonprofits
-- Events
+- Non-Profit
+- Event
 - Volunteering
 - ESG
-- Model Context Protocol
+- MCP
 ---

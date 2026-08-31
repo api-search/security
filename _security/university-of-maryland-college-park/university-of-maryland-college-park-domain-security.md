@@ -1,35 +1,11 @@
 ---
 api_specs:
-- filename: university-of-maryland-college-park-bus-api-openapi.yml
+- filename: university-of-maryland-college-park-libraries-website-tools-openapi.yml
   format: yaml
-  label: University of Maryland College Park bus API
-  slug: university-of-maryland-college-park-bus-api
+  label: UMD Libraries Website Tools API
+  slug: libraries-website-tools
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-bus-api-openapi.yml
-- filename: university-of-maryland-college-park-courses-api-openapi.yml
-  format: yaml
-  label: University of Maryland College Park courses API
-  slug: university-of-maryland-college-park-courses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-courses-api-openapi.yml
-- filename: university-of-maryland-college-park-majors-api-openapi.yml
-  format: yaml
-  label: University of Maryland College Park majors API
-  slug: university-of-maryland-college-park-majors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-majors-api-openapi.yml
-- filename: university-of-maryland-college-park-map-api-openapi.yml
-  format: yaml
-  label: University of Maryland College Park map API
-  slug: university-of-maryland-college-park-map-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-map-api-openapi.yml
-- filename: university-of-maryland-college-park-professors-api-openapi.yml
-  format: yaml
-  label: University of Maryland College Park professors API
-  slug: university-of-maryland-college-park-professors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-professors-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-libraries-website-tools-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,11 +52,19 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/security/university-of-maryland-college-park-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - United States
+- Maryland
+- Public Research University
+- Land Grant
+- Big Ten
+- Library
+- Research Data
+- Digital Collections
+- Identity Federation
+- OAI-PMH
 - Open Data
-- Courses
-- Student Run
+- Geospatial
 ---

@@ -33,7 +33,7 @@ tags:
 - Company
 - Estate Planning
 - Legal Technology
-- Wills And Trusts
+- Wills and Trusts
 - Artificial Intelligence
 - Wealth Management
 - Document Automation

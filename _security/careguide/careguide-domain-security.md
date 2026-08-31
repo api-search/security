@@ -40,7 +40,7 @@ tags:
 - Care
 - Marketplace
 - Caregiving
-- Childcare
+- Child Care
 - Elder Care
 - Pet Care
 - Payroll

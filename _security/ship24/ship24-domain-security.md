@@ -72,5 +72,5 @@ tags:
 - Parcels
 - Webhook
 - E-Commerce
-- Post-Purchase
+- PostPurchase
 ---

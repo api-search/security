@@ -62,5 +62,5 @@ tags:
 - Microsoft-365
 - Office
 - Productivity
-- Software-as-a-Service
+- Saas
 ---

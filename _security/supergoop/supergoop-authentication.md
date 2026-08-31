@@ -100,6 +100,6 @@ tags:
 - Shopify
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - GraphQL
 ---

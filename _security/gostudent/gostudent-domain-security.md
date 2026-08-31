@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gostudent/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- EdTech
+- Edtech
 - Tutoring
 - Education
 - Online Learning

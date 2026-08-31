@@ -35,7 +35,7 @@ tags:
 - NPS
 - Notification
 - Product Communication
-- Roadmaps
+- Roadmap
 - Software-as-a-Service
 - Widgets
 ---

@@ -59,7 +59,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Insurance
 - Embedded Insurance
-- Insurance As A Service
+- Insurance-as-a-Service
 - Policy Administration
 - Claims
 ---

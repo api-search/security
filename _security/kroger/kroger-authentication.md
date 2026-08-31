@@ -58,12 +58,12 @@ tags:
 - Groceries
 - Grocery Retail
 - Retail
-- Ecommerce
+- E-Commerce
 - Product Catalog
 - Store Locations
 - Shopping Cart
 - Loyalty
-- OAuth
+- Authentication
 - Partner API
 - Fortune 100
 ---

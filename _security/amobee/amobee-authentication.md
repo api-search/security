@@ -79,6 +79,6 @@ tags:
 - Campaign Management
 - Audience Targeting
 - Data Management Platform
-- AdTech
+- Ad Tech
 - Samsung Ads
 ---

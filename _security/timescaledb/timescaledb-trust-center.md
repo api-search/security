@@ -51,7 +51,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/timescaledb/re
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Database
-- Time Series
+- Time-Series
 - PostgreSQL
 - Open-Source
 - Cloud

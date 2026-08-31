@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: university-of-southampton-open-data-linked-data-openapi.yml
+  format: yaml
+  label: University of Southampton Open Data Service (Linked Data)
+  slug: open-data-linked-data
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-open-data-linked-data-openapi.yml
+- filename: university-of-southampton-eprints-oai-pmh-openapi.yml
+  format: yaml
+  label: ePrints Soton OAI-PMH Interface
+  slug: eprints-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-eprints-oai-pmh-openapi.yml
+- filename: university-of-southampton-eprints-rest-openapi.yml
+  format: yaml
+  label: ePrints Soton REST Interface
+  slug: eprints-rest
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-eprints-rest-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,13 +61,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/security/university-of-southampton-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- Russell Group
+- United Kingdom
 - Open Data
 - Linked Data
-- SPARQL
+- Research Repository
+- Identity Federation
 - OAI-PMH
 - Research
-- United Kingdom
+- Course Catalog
 ---

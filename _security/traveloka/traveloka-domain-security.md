@@ -130,16 +130,16 @@ source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/security/traveloka-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Travel
-- Online Travel Agency
-- Accommodation
-- Hotel Booking
+- travel
+- online-travel-agency
+- accommodation
+- hotel-booking
 - Flights
 - Activities
-- Hospitality
+- hospitality
 - Distribution
-- Channel Manager
-- OpenTravel
-- Southeast Asia
-- Indonesia
+- channel-manager
+- opentravel
+- southeast-asia
+- indonesia
 ---

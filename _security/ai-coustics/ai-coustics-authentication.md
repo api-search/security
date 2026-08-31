@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ai-coustics/re
 summary_line: licenseKey/jwt/http-basic · 3 schemes
 tags:
 - Company
-- Ai Ml
+- Ai/Ml
 - Audio
 - Speech Enhancement
 - Voice AI

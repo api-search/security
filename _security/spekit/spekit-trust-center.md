@@ -52,7 +52,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/he
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Sales Enablement
 - Revenue Enablement
 - Digital Adoption

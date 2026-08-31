@@ -37,5 +37,5 @@ tags:
 - Gut Health
 - Ayurveda
 - MCP
-- agent-native
+- Agent Native
 ---

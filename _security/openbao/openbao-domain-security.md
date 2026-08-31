@@ -36,7 +36,7 @@ tags:
 - Certificates
 - PKI
 - Key Management
-- Open Source
+- Open-Source
 - Self-Hosted
 - Linux Foundation
 - DevOps

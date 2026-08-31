@@ -96,7 +96,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clover/refs/he
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Restaurant
-- Point-of-Sale
+- POS
 - Payments
 - Retail
 - SMB

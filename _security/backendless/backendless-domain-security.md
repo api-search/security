@@ -82,9 +82,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/security/backendless-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Backend-as-a-Service
+- BaaS
+- Backend as a Service
 - Visual Development
-- Low-Code
+- Low Code
 - Database
 - Real-Time
 ---

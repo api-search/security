@@ -34,12 +34,13 @@ tags:
 - Computing
 - Containers
 - Databases
-- DevOps
-- Infrastructure-as-a-Service
+- Devops
+- Iaas
 - Infrastructure
 - Machine-Learning
 - Networking
-- Platform-as-a-Service
+- Paas
+- Platform As A Service
 - Security
 - Serverless
 - Storage

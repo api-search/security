@@ -34,7 +34,7 @@ tags:
 - Carbon Removal
 - Climate Tech
 - Carbon Dioxide Removal
-- Bio-Oil
+- Bio-oil
 - Pyrolysis
 - Sustainability
 - Sequestration

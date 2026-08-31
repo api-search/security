@@ -33,7 +33,7 @@ tags:
 - Company
 - Sleep Technology
 - Consumer Hardware
-- Health and Wellness
+- Health & Wellness
 - Artificial Intelligence
 - Wearables
 - E-Commerce

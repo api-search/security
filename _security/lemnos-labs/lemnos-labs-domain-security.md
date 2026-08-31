@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Venture Capital
-- Deep Tech
+- Deeptech
 - Hardware
 - Robotics
 - Seed Stage

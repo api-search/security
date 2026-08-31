@@ -37,12 +37,12 @@ tags:
 - Data
 - Data Engine
 - Artificial Intelligence
-- Multi-Modal
+- Multimodal
 - Analytics
 - Open-Source
 - Python
 - Rust
-- DataFrame
+- Dataframe
 - Physical AI
 - Distributed Computing
 ---

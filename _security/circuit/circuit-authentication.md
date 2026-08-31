@@ -109,7 +109,7 @@ tags:
 - Last Mile
 - Route Optimization
 - Dispatch
-- Couriers
+- Courier
 - Fleet
 - Proof of Delivery
 - Field Service

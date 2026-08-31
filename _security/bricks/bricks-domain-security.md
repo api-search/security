@@ -39,7 +39,7 @@ tags:
 - Kiosk
 - No-Code
 - Interactive Displays
-- Platform-as-a-Service
+- PaaS
 - Content Management
 - Screens
 ---

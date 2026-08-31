@@ -116,14 +116,14 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  https://a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/authentication/hevy-authentication.yml
 summary_line: 2 schemes
 tags:
-- Company
-- Fitness
+- company
+- fitness
 - Health
-- Workout Tracking
-- Strength Training
-- Consumer Apps
+- workout-tracking
+- strength-training
+- consumer-apps
 - Mobile
-- Quantified Self
-- Personal Training
-- Health Data
+- quantified-self
+- personal-training
+- health-data
 ---

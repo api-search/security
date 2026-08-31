@@ -53,12 +53,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tooljet-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/authentication/tooljet-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Low-Code
-- Internal Tools
+- low-code
+- internal tools
 - Open-Source
-- Application Builder
-- Workflow-Automation
-- No-Code
+- application builder
+- workflow automation
+- no-code
 - Dashboards
 - AI Agents
 ---

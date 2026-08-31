@@ -29,10 +29,10 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Medical Devices
-- In Vitro Diagnostics
+- In-Vitro Diagnostics
 - Diagnostics
 - Chemiluminescence Immunoassay
-- Point of Care Testing
+- Point-of-Care Testing
 - Healthcare
 - China
 ---

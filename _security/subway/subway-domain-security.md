@@ -37,7 +37,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Fast Food
 - Restaurant
-- Food and Beverage
+- Food & Beverage
 - Quick Service Restaurant
 - Loyalty
 ---

@@ -72,7 +72,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Payments
 - Payment Service Provider
-- Account-to-Account
+- Account to Account
 - Wallet Payments
 - Open Banking
 - PSD2

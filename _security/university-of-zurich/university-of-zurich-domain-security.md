@@ -1,23 +1,4 @@
 ---
-api_specs:
-- filename: university-of-zurich-discovery-api-openapi.yml
-  format: yaml
-  label: University of Zurich Discovery API
-  slug: university-of-zurich-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-zurich/refs/heads/main/openapi/university-of-zurich-discovery-api-openapi.yml
-- filename: university-of-zurich-oauth2-api-openapi.yml
-  format: yaml
-  label: University of Zurich OAuth2 API
-  slug: university-of-zurich-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-zurich/refs/heads/main/openapi/university-of-zurich-oauth2-api-openapi.yml
-- filename: university-of-zurich-openid-connect-api-openapi.yml
-  format: yaml
-  label: University of Zurich OpenID Connect API
-  slug: university-of-zurich-openid-connect-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-zurich/refs/heads/main/openapi/university-of-zurich-openid-connect-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,9 +37,14 @@ tags:
 - Education
 - Higher Education
 - University
+- Public Research University
 - Switzerland
+- Europe
+- League of European Research Universities
 - Open Access
 - Research Repository
-- Open Data
-- Identity
+- OAI-PMH
+- Identity Federation
+- GraphQL
+- Research Computing
 ---

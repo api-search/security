@@ -37,7 +37,7 @@ tags:
 - Frameworks
 - Lightweight
 - Microframework
-- pallets
+- Pallets
 - Python
 - Web Framework
 - WSGI

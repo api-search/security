@@ -51,5 +51,5 @@ tags:
 - Consumer Data Right
 - Account-to-Account
 - Fraud
-- Banking as a Service
+- Banking-as-a-Service
 ---

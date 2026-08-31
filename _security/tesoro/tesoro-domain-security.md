@@ -44,7 +44,7 @@ tags:
 - Petroleum
 - Refining
 - Energy
-- Oil and Gas
+- Oil And Gas
 - Retail Fuel
 - Fortune 100
 ---

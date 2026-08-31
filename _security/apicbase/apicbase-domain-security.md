@@ -86,7 +86,7 @@ summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Food and Beverage
 - Restaurant
-- Back of House
+- Back Of House
 - Inventory
 - Procurement
 - Recipes

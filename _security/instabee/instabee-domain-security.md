@@ -49,7 +49,7 @@ tags:
 - Company
 - Retail
 - Logistics
-- Last Mile Delivery
+- Last-Mile Delivery
 - Shipping
 - E-Commerce
 - Parcel Lockers

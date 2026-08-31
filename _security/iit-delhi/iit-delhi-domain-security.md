@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: iit-delhi-site-platform-openapi.yml
+  format: yaml
+  label: IIT Delhi Departmental Site Platform API
+  slug: site-platform
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/openapi/iit-delhi-site-platform-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -43,8 +50,11 @@ tags:
 - Education
 - Higher Education
 - University
+- Institute of Technology
 - Research
 - India
 - Open Access
 - Library
+- Research Repository
+- Identity Federation
 ---

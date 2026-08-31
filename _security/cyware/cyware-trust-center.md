@@ -230,18 +230,18 @@ tags:
 - Threat Intelligence
 - cyber-threat-intelligence
 - Cybersecurity
-- Security Operations
-- Threat Intelligence Platform
+- security-operations
+- threat-intelligence-platform
 - STIX
-- TAXII
+- taxii
 - mitre-attack
-- SOAR
-- Security Orchestration
-- Incident Response
+- soar
+- security-orchestration
+- incident-response
 - threat-intelligence-sharing
 - isac
-- Indicators of Compromise
+- indicators-of-compromise
 - MCP
-- Agentic AI
+- agentic-ai
 trust_url: https://www.cyware.com/compliance
 ---

@@ -1,29 +1,11 @@
 ---
 api_specs:
-- filename: university-of-cape-town-articles-api-openapi.yml
-  format: yaml
-  label: University of Cape Town articles API
-  slug: university-of-cape-town-articles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/openapi/university-of-cape-town-articles-api-openapi.yml
 - filename: university-of-cape-town-catalog-api-openapi.yml
   format: yaml
-  label: University of Cape Town catalog API
-  slug: university-of-cape-town-catalog-api
+  label: DataFirst Microdata Catalog API (NADA)
+  slug: datafirst-nada
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/openapi/university-of-cape-town-catalog-api-openapi.yml
-- filename: university-of-cape-town-collections-api-openapi.yml
-  format: yaml
-  label: University of Cape Town collections API
-  slug: university-of-cape-town-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/openapi/university-of-cape-town-collections-api-openapi.yml
-- filename: university-of-cape-town-projects-api-openapi.yml
-  format: yaml
-  label: University of Cape Town projects API
-  slug: university-of-cape-town-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/openapi/university-of-cape-town-projects-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -68,13 +50,17 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/security/university-of-cape-town-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- Public Research University
+- South Africa
+- Africa
 - Research Data
 - Open Data
 - Institutional Repository
 - OAI-PMH
-- South Africa
-- Africa
+- Identity Federation
+- Microdata
+- Research Computing
 ---

@@ -77,7 +77,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Voice
-- Text-to-Speech
+- Text to Speech
 - Dubbing
 - Localization
 - Speech Synthesis

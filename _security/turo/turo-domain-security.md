@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turo/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Car Sharing
-- Peer-to-Peer
+- Peer To Peer
 - Marketplace
 - Mobility
 - Travel

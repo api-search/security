@@ -92,7 +92,7 @@ tags:
 - Bank Transfer
 - Cards
 - Airtime
-- Bill Payments
+- Bill Payment
 - SMS
 - OTP
 - Tingg

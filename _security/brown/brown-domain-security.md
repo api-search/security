@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: brown-bdr-api-openapi.yml
+  format: yaml
+  label: Brown Digital Repository (BDR) API
+  slug: bdr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-bdr-api-openapi.yml
+- filename: brown-bdr-iiif-openapi.yml
+  format: yaml
+  label: Brown Digital Repository IIIF Image and Presentation API
+  slug: bdr-iiif
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-bdr-iiif-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -49,9 +62,14 @@ tags:
 - Education
 - Higher Education
 - University
-- Research
-- Library
-- Digital Repository
-- IIIF
 - United States
+- Ivy League
+- Research
+- Research Repository
+- Digital Repository
+- Library
+- IIIF
+- Identity Federation
+- Course Catalog
+- Research Computing
 ---

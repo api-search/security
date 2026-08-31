@@ -35,17 +35,17 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/security/webz-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- news-data
-- web-data
-- web-scraping
-- dark-web
+- News Data
+- Web Data
+- Web Scraping
+- Dark Web
 - deep-web
-- cybersecurity
-- threat-intelligence
-- data-breach
+- Cybersecurity
+- Threat Intelligence
+- Data Breach
 - pii-monitoring
-- osint
+- OSINT
 - reviews-data
-- ai-training-data
-- media-monitoring
+- AI Training Data
+- Media Monitoring
 ---

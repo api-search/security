@@ -29,11 +29,8 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soccer-api/refs/heads/main/security/soccer-api-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
-- Sports
-- Football
-- Live Scores
+- soccer
+- live scores
 - Odds
-- Predictions
-- Sports Data
-- Statistics
+- predictions
 ---

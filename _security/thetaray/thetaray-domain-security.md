@@ -35,15 +35,15 @@ source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thetaray/refs/heads/main/security/thetaray-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Anti-Money Laundering
-- Financial Crime
-- Transaction Monitoring
-- Sanctions Screening
-- KYC
-- RegTech
-- Risk Assessment
-- Artificial Intelligence
-- Banking
+- anti-money-laundering
+- financial-crime
+- transaction-monitoring
+- sanctions-screening
+- kyc
+- regtech
+- risk-assessment
+- artificial-intelligence
+- banking
 - Fintech
 - Payments
 - Compliance

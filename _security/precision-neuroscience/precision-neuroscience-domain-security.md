@@ -31,13 +31,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/precision-neur
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Brain-Computer Interface
-- Neurotechnology
-- Medical Devices
-- Neuroscience
-- Implantable Devices
+- brain-computer-interface
+- neurotechnology
+- medical-devices
+- neuroscience
+- implantable-devices
 - neural-interfaces
-- Health Technology
-- Clinical Research
-- Deep Tech
+- health-technology
+- clinical-research
+- deep-tech
 ---

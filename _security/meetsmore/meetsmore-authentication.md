@@ -34,7 +34,7 @@ tags:
 - Calendar
 - Booking
 - Field Service
-- Open Source
+- Open-Source
 - Artificial Intelligence
 - Agents
 ---

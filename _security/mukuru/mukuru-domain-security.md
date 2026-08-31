@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Remittance
 - Money Transfer
-- Cross-Border Payments
+- Cross Border Payments
 - Africa
 - South Africa
 - Diaspora
@@ -41,7 +41,7 @@ tags:
 - Funeral Insurance
 - Disbursements
 - Collection
-- Cash-In Cash-Out
+- Cash In Cash Out
 - Financial Inclusion
 - Fintech
 ---

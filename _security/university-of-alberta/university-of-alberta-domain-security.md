@@ -1,17 +1,4 @@
 ---
-api_specs:
-- filename: university-of-alberta-info-api-openapi.yml
-  format: yaml
-  label: University of Alberta Info API
-  slug: university-of-alberta-info-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-alberta/refs/heads/main/openapi/university-of-alberta-info-api-openapi.yml
-- filename: university-of-alberta-search-api-openapi.yml
-  format: yaml
-  label: University of Alberta Search API
-  slug: university-of-alberta-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-alberta/refs/heads/main/openapi/university-of-alberta-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,8 +45,11 @@ tags:
 - Education
 - Higher Education
 - University
-- Research Data
-- Open Data
-- Library
 - Canada
+- U15 Group of Canadian Research Universities
+- Research Data
+- Research Repository
+- Library
+- Identity Federation
+- OAI-PMH
 ---

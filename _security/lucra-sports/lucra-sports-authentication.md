@@ -109,7 +109,7 @@ tags:
 - Payments
 - Wagering
 - Embedded Finance
-- SDKs
-- Webhooks
+- SDK
+- Webhook
 - Compliance
 ---

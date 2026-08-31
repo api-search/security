@@ -49,12 +49,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/welab/refs/hea
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Fintech
-- Digital Banking
+- digital-banking
 - virtual-bank
-- Open Banking
-- Hong Kong
-- Indonesia
-- Consumer Lending
+- open-banking
+- hong-kong
+- indonesia
+- consumer-lending
 - Payments
 - hkma-open-api
 - Financial-Services

@@ -62,16 +62,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snappt/refs/he
 summary_line: SOC 2 Type II
 tags:
 - Company
-- Fraud Detection
-- Document Verification
+- fraud-detection
+- document-verification
 - Identity Verification
-- Income Verification
-- Property Management
-- Multifamily
-- Real-Estate
-- PropTech
-- Tenant Screening
-- Rental Applications
+- income-verification
+- property-management
+- multifamily
+- real-estate
+- proptech
+- tenant-screening
+- rental-applications
 - Webhook
 trust_url: https://trust.snappt.com/
 ---

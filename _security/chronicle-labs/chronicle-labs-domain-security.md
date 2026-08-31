@@ -40,7 +40,7 @@ tags:
 - Observability
 - Staging Environments
 - Backtesting
-- LLMOps
+- LLM Ops
 - Y Combinator
 - Artificial Intelligence
 ---

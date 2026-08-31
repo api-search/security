@@ -35,6 +35,6 @@ tags:
 - Game Development
 - Artificial Intelligence
 - AI Agents
-- LiveOps
+- Live Ops
 - Multiplayer
 ---

@@ -582,15 +582,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1fort/refs/hea
 summary_line: apiKey · 2 schemes
 tags:
 - Insurance
-- Insurtech
-- Commercial Insurance
-- Cyber Insurance
-- Insurance Broker
+- insurtech
+- commercial-insurance
+- cyber-insurance
+- insurance-broker
 - Quoting
-- Policy Management
+- policy-management
 - premium-finance
 - Payments
-- Workflow-Automation
-- Artificial Intelligence
-- Agentic AI
+- workflow-automation
+- artificial-intelligence
+- agentic-ai
 ---

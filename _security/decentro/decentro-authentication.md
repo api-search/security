@@ -100,7 +100,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/
 summary_line: apiKey · 1 scheme
 tags:
 - Banking
-- Banking as a Service
+- Banking-as-a-Service
 - Fintech
 - India
 - KYC

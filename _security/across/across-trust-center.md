@@ -19,7 +19,7 @@ summary_line: trust center published
 tags:
 - Company
 - Crypto Infrastructure
-- Cross-Chain
+- Cross Chain
 - Bridge
 - Interoperability
 - Blockchain

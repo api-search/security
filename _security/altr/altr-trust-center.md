@@ -416,20 +416,20 @@ source_yaml: "generated: '2026-08-06'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/security/altr-trust-center.yml
 summary_line: SOC 2, PCI DSS, HIPAA
 tags:
-- Data Security
-- Data Governance
-- Data Masking
-- Tokenization
-- Data Classification
-- Access Control
-- Snowflake
-- Databricks
+- data-security
+- data-governance
+- data-masking
+- tokenization
+- data-classification
+- access-control
+- snowflake
+- databricks
 - format-preserving-encryption
-- Database Activity Monitoring
-- RBAC
+- database-activity-monitoring
+- rbac
 - PII
 - Compliance
-- Data Privacy
+- data-privacy
 - MCP
 - agent-native
 trust_url: https://trust.altr.com/

@@ -47,16 +47,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fundguard/refs
 summary_line: oauth2 · 1 scheme
 tags:
 - investment-accounting
-- Fund Accounting
+- fund-accounting
 - ibor
 - abor
-- NAV
-- Asset Management
+- nav
+- asset-management
 - portfolio-accounting
-- Private Markets
+- private-markets
 - Financial-Services
 - Fintech
-- Software-as-a-Service
-- Artificial Intelligence
+- saas
+- artificial-intelligence
 - MCP
 ---

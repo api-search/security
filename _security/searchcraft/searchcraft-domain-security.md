@@ -100,7 +100,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Search
 - Search as a Service
-- Full-Text Search
+- Full Text Search
 - Indexing
 - Developer Tools
 ---

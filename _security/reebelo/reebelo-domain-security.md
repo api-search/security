@@ -48,6 +48,6 @@ tags:
 - Circular Economy
 - Retail
 - Inventory
-- Orders
+- Order
 - Seller Integration
 ---

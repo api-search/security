@@ -49,7 +49,7 @@ tags:
 - Booking
 - Flights
 - Consumer Finance
-- Cashback
+- Cash Back
 - Savings
 - Prescription Discounts
 - Mobile Applications

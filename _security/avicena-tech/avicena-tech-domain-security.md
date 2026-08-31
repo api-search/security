@@ -32,7 +32,7 @@ tags:
 - Semiconductors
 - Photonics
 - Optical Interconnects
-- Micro-LED
+- microLED
 - Data Center Infrastructure
 - Artificial Intelligence
 - High Performance Computing

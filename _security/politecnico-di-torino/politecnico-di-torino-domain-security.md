@@ -90,6 +90,12 @@ api_specs:
   slug: politecnico-di-torino-tickets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-tickets-api-openapi.yml
+- filename: politecnico-di-torino-public-search-api-openapi.yml
+  format: yaml
+  label: PoliTO Public Search Web Services (people, departments, teachings, rooms)
+  slug: public-search-services
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-public-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -129,7 +135,11 @@ tags:
 - Education
 - Higher Education
 - University
+- Technical University
 - Italy
+- Course Catalog
+- Research Data
+- Identity Federation
 - Open Data
 - Mobile
 - OpenAPI

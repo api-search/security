@@ -81,7 +81,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Cloud Computing
 - Compute
-- Infrastructure-as-a-Service
+- IaaS
 - Infrastructure
 - Virtual Machines
 ---

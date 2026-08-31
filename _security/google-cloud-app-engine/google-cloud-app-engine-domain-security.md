@@ -71,7 +71,7 @@ tags:
 - App Engine
 - Compute
 - Google Cloud
-- Platform-as-a-Service
+- PaaS
 - Serverless
 - Web Applications
 ---

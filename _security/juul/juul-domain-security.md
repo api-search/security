@@ -57,7 +57,7 @@ tags:
 - Hardware
 - Consumer Electronics
 - Bluetooth Low Energy
-- Open Source
+- Open-Source
 - Kotlin Multiplatform
 - Regulated Industry
 ---

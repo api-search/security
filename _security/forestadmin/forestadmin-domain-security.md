@@ -53,13 +53,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forestadmin/refs/heads/main/security/forestadmin-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Admin Panel
-- Internal Tools
+- admin panel
+- internal tools
 - RBAC
-- Workflow-Automation
+- workflow automation
 - CRUD
 - Fintech
 - Compliance
-- Low-Code
+- low-code
 - AI Agents
 ---

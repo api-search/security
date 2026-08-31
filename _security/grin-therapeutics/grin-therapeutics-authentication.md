@@ -115,14 +115,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grin-therapeut
 summary_line: none/http · 3 schemes
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Neuroscience
-- Rare Disease
-- Precision Medicine
-- Clinical Trials
-- Pediatrics
-- Epilepsy
-- Life Sciences
+- biotechnology
+- pharmaceuticals
+- neuroscience
+- rare-disease
+- precision-medicine
+- clinical-trials
+- pediatrics
+- epilepsy
+- life-sciences
 - content-api
 ---

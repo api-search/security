@@ -116,7 +116,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Candidate Screening
-- Chatbots
+- Chatbot
 - Conversational AI
 - Hiring Automation
 - HR Technology

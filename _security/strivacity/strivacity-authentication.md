@@ -62,16 +62,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/strivacity/ref
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Identity
-- Customer Identity and Access Management
-- CIAM
+- customer-identity-and-access-management
+- ciam
 - Authentication
 - Authorization
-- OAuth
-- OpenID Connect
-- Consent Management
-- Multi-Factor Authentication
+- openid-connect
+- consent-management
+- multi-factor-authentication
 - Identity Verification
-- Fraud Detection
-- Agentic Identity
+- fraud-detection
+- agentic-identity
 - Security
 ---

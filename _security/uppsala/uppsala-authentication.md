@@ -73,10 +73,15 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/uppsala-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/authentication/uppsala-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
+- Higher Education
+- Education
 - Sweden
+- Public Research University
+- Research Data
+- Institutional Repository
+- Identity Federation
+- Research Computing
+- Conflict Data
+- Open Access
 ---

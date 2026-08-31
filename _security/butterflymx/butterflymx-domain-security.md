@@ -133,15 +133,15 @@ source_yaml: "generated: '2026-08-08'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/security/butterflymx-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Access Control
+- access-control
 - physical-access
 - smart-intercom
-- PropTech
-- Property Management
-- Multifamily
-- Building Automation
-- Visitor Management
-- IoT
+- proptech
+- property-management
+- multifamily
+- building-automation
+- visitor-management
+- iot
 - smart-locks
 - Authentication
 - Webhook

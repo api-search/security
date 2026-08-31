@@ -28,7 +28,7 @@ summary_line: DNSSEC · DMARC
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Fintech
 - Commodities
 - Agriculture

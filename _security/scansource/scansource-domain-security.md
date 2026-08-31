@@ -81,7 +81,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - ScanSource
 - Distribution
-- Barcodes
+- Barcode
 - Point-of-Sale
 - AIDC
 - Inventory

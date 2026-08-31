@@ -72,7 +72,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Food and Beverage
 - Restaurant
-- Back of House
+- Back Of House
 - Inventory
 - Procurement
 - Recipes

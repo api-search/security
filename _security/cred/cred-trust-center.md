@@ -20,7 +20,7 @@ summary_line: ISO 27001, PCI DSS
 tags:
 - Consumer Fintech
 - Credit Cards
-- Bill Payments
+- Bill Payment
 - Rewards
 - UPI
 - Lending

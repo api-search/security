@@ -38,6 +38,6 @@ tags:
 - Originations
 - Servicing
 - Remarketing
-- Low-Code
+- Low Code
 - Financial-Services
 ---

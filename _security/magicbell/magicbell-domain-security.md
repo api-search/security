@@ -60,15 +60,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magicbell/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Notification
-- Push Notifications
-- In-App Notifications
+- push notifications
+- in-app notifications
 - Email
 - SMS
 - Slack
 - Microsoft Teams
 - Webhook
 - notification inbox
-- Multi-Channel
-- Mobile Push
-- Web Push
+- multichannel
+- mobile push
+- web push
 ---

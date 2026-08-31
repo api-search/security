@@ -59,7 +59,7 @@ summary_line: 3 schemes
 tags:
 - Cryptocurrency
 - Payments
-- FinTech
+- Fintech
 - On-Ramp
 - Off-Ramp
 - Blockchain

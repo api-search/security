@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/startree-corte
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI Infrastructure
+- Ai Infrastructure
 - Real-Time Analytics
 - Apache Pinot
 - OLAP

@@ -37,7 +37,7 @@ tags:
 - Cryptocurrency
 - Trading
 - Lending
-- Stablecoins
+- Stablecoin
 - Web3
 - Smart Contracts
 ---

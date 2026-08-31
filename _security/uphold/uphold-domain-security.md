@@ -181,17 +181,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/he
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Cryptocurrency
-- Digital Assets
+- cryptocurrency
+- digital-assets
 - Payments
-- Banking
+- banking
 - Fintech
-- KYC
+- kyc
 - Compliance
-- Crypto Exchange
+- crypto-exchange
 - Market Data
-- Embedded Finance
-- Travel Rule
+- embedded-finance
+- travel-rule
 - Webhook
 - agent-native
 ---

@@ -90,7 +90,7 @@ tags:
 - Creator Marketing
 - Influencer Marketing
 - Affiliate Marketing
-- Ecommerce
+- E-Commerce
 - Creator Commerce
 - Attribution
 - Social Commerce

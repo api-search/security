@@ -36,7 +36,7 @@ tags:
 - Biotechnology
 - Life Sciences
 - Genomics
-- Single Cell
+- Single-Cell
 - Drug Discovery
 - Foundation Models
 - Open-Source

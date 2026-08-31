@@ -40,13 +40,13 @@ tags:
 - Shared Inbox
 - Email
 - Ticketing
-- Customer Support
+- Customer-Support
 - Collaboration
 - Gmail
 - Google Workspace
 - Omnichannel
 - Live Chat
-- SaaS
+- Software-as-a-Service
 - Artificial Intelligence
 trust_url: ''
 ---

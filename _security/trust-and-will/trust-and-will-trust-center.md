@@ -23,7 +23,7 @@ tags:
 - Legal
 - Wills And Trusts
 - Financial-Services
-- Legal Tech
+- Legaltech
 - Fintech
 trust_url: https://trustandwill.com/security
 ---

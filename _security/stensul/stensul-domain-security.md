@@ -41,5 +41,5 @@ tags:
 - Enterprise Software
 - Governance
 - Collaboration
-- SaaS
+- Software-as-a-Service
 ---

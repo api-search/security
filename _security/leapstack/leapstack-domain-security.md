@@ -31,7 +31,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Fintech
-- Insurtech
+- InsurTech
 - Insurance
 - Health Insurance
 - Data Analytics

@@ -25,6 +25,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/serval/refs/he
 summary_line: trust center published
 tags:
 - Company
+- IT Service Management
 - ITSM
 - Help Desk
 - Workflow-Automation

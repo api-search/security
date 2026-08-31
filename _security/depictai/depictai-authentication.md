@@ -274,7 +274,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/depictai/refs/
 summary_line: apiKey/http/oauth2 · 5 schemes
 tags:
 - Company
-- E-Commerce
+- E Commerce
 - Search
 - Recommendations
 - Merchandising

@@ -80,7 +80,7 @@ tags:
 - Cross-Browser Testing
 - Enterprise
 - JavaScript
-- Low-Code
+- Low Code
 - Mobile Testing
 - QA
 - Regression Testing

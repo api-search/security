@@ -92,7 +92,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
-- Insurtech
+- InsurTech
 - CRM
 - Sales Automation
 - Agency Management

@@ -1,41 +1,11 @@
 ---
 api_specs:
-- filename: ucd-cb-api-openapi.yml
+- filename: ucd-oai-pmh-openapi.yml
   format: yaml
-  label: University College Dublin CBÉ API
-  slug: ucd-cb-api
+  label: Research Repository UCD — OAI-PMH 2.0
+  slug: oai-pmh
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/openapi/ucd-cb-api-openapi.yml
-- filename: ucd-cb-d-api-openapi.yml
-  format: yaml
-  label: University College Dublin CBÉD API
-  slug: ucd-cb-d-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/openapi/ucd-cb-d-api-openapi.yml
-- filename: ucd-cb-g-api-openapi.yml
-  format: yaml
-  label: University College Dublin CBÉG API
-  slug: ucd-cb-g-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/openapi/ucd-cb-g-api-openapi.yml
-- filename: ucd-cb-s-api-openapi.yml
-  format: yaml
-  label: University College Dublin CBÉS API
-  slug: ucd-cb-s-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/openapi/ucd-cb-s-api-openapi.yml
-- filename: ucd-metadata-api-openapi.yml
-  format: yaml
-  label: University College Dublin Metadata API
-  slug: ucd-metadata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/openapi/ucd-metadata-api-openapi.yml
-- filename: ucd-reference-api-openapi.yml
-  format: yaml
-  label: University College Dublin Reference API
-  slug: ucd-reference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/openapi/ucd-reference-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/openapi/ucd-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,13 +45,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/security/ucd-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Ireland
-- Library
-- Digital Library
-- IIIF
+- Europe
+- Public Research University
+- Research Repository
 - Open Access
+- OAI-PMH
+- Identity Federation
 - Cultural Heritage
+- Open Data
 ---

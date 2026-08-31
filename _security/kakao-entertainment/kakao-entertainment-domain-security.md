@@ -51,7 +51,7 @@ tags:
 - Webtoons
 - Publishing
 - Media
-- Model Context Protocol
+- MCP
 - Agents
 - South Korea
 - Company

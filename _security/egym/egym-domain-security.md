@@ -271,7 +271,7 @@ tags:
 - Connected Equipment
 - Gym Management
 - Member Management
-- Check-in
+- Check-In
 - Measurements
 - Workouts
 - Analytics

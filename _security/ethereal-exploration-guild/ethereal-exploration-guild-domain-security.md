@@ -33,7 +33,7 @@ tags:
 - Company
 - Frontier Tech
 - Aerospace
-- SpaceTech
+- Spacetech
 - Launch Vehicles
 - Reusable Rockets
 - Space

@@ -30,13 +30,13 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spocket/refs/heads/main/security/spocket-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Platform-as-a-Service
-- Application Hosting
+- PaaS
+- application-hosting
 - bot-hosting
 - Developer Tools
-- Agent Infrastructure
+- agent-infrastructure
 - MCP
 - Deployment
-- Serverless
+- serverless
 - always-on
 ---

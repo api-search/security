@@ -62,7 +62,7 @@ tags:
 - Defense
 - Aerospace
 - Space
-- Open Source
+- Open-Source
 - Edge Computing
 - Data Exchange
 - Backup and Storage

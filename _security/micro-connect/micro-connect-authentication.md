@@ -53,10 +53,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/micro-connect/
 summary_line: 2 schemes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Capital Markets
 - Exchanges
-- Revenue Based Financing
+- Revenue-Based Financing
 - Fintech
 - Investing
 - Small Business

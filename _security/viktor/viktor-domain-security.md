@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/viktor/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Cloud Saas
+- Cloud SaaS
 - Artificial Intelligence
 - AI Agents
 - Automation

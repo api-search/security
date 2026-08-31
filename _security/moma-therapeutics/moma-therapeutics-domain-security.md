@@ -95,13 +95,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moma-therapeut
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Drug Discovery
-- Oncology
-- Precision Medicine
-- Life Sciences
-- Structural Biology
-- Machine Learning
+- biotechnology
+- pharmaceuticals
+- drug-discovery
+- oncology
+- precision-medicine
+- life-sciences
+- structural-biology
+- machine-learning
 - content-api
 ---

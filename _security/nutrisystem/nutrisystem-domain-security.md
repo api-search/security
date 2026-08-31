@@ -32,8 +32,8 @@ tags:
 - Consumer Subscription
 - Diet
 - Direct to Consumer
-- E-Commerce
-- Health and Wellness
+- E Commerce
+- Health And Wellness
 - Meal Delivery
 - Mobile App
 - Nutrition

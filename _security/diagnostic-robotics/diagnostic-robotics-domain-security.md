@@ -116,15 +116,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/diagnostic-rob
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Health
-- Healthcare
-- Clinical AI
-- Population Health
-- Risk Adjustment
-- Predictive Analytics
+- healthcare
+- clinical-ai
+- population-health
+- risk-adjustment
+- predictive-analytics
 - triage
-- FHIR
-- Claims Data
-- Care Management
-- Payers
-- Medical Coding
+- fhir
+- claims-data
+- care-management
+- payers
+- medical-coding
 ---

@@ -73,14 +73,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noaa-erddap/refs/heads/main/security/noaa-erddap-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Oceanography
-- Meteorology
-- Climate
-- Environmental Data
+- oceanography
+- meteorology
+- climate
+- environmental data
 - gridded data
-- Tabular Data
-- Scientific Data
-- Government
+- tabular data
+- scientific data
+- government
 - NOAA
-- Open Data
+- open data
 ---

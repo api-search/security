@@ -92,14 +92,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/belharra-thera
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Chemoproteomics
-- Drug Discovery
-- Small Molecule Therapeutics
-- Proteomics
-- Life Sciences
-- Oncology
-- Immunology
+- biotechnology
+- pharmaceuticals
+- chemoproteomics
+- drug-discovery
+- small-molecule-therapeutics
+- proteomics
+- life-sciences
+- oncology
+- immunology
 - content-api
 ---

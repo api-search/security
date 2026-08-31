@@ -33,7 +33,7 @@ tags:
 - Company
 - Big Data
 - Insurance
-- Insurtech
+- InsurTech
 - Fraud Detection
 - Artificial Intelligence
 - Claims Automation

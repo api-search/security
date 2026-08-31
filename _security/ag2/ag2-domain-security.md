@@ -58,7 +58,7 @@ tags:
 - Python
 - Open-Source
 - LLM
-- Group Chat
+- GroupChat
 - Tool Use
-- Human-in-the-Loop
+- Human-in-the-loop
 ---

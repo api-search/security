@@ -110,13 +110,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/santeacademie/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- EdTech
-- Healthcare Training
-- Continuing Education
-- DPC
-- E-Learning
-- France
-- Healthcare Professionals
-- Course Catalog
-- LMS
+- Edtech
+- healthcare-training
+- continuing-education
+- dpc
+- e-learning
+- france
+- healthcare-professionals
+- course-catalog
+- lms
 ---

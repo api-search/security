@@ -121,7 +121,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Authoring
 - Education
-- E-Learning
+- eLearning
 - LMS
 - SCORM
 - Training

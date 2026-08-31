@@ -26,6 +26,6 @@ tags:
 - Public Sector
 - Constituent Services
 - Voice AI
-- Chatbots
+- Chatbot
 trust_url: https://trust.polimorphic.com/
 ---

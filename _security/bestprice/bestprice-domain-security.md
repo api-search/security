@@ -34,13 +34,12 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/security/bestprice-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- shopping
-- price comparison
-- ecommerce
-- retail
+- Shopping
+- Price Comparison
+- E-Commerce
+- Retail
 - MCP
-- Model Context Protocol
 - WebMCP
-- agent commerce
+- Agent Commerce
 - Greece
 ---

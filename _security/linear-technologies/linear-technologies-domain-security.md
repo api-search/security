@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linear-technol
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Semiconductors
+- Semiconductor
 - Analog
 - Integrated Circuits
 - Power Management

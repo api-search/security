@@ -46,7 +46,7 @@ tags:
 - Ticket Triage
 - Agentic AI
 - Voice AI
-- Help Desk
+- Helpdesk
 - Multi-Agent
 trust_url: https://forethought.ai/compliance
 ---

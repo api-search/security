@@ -45,11 +45,11 @@ tags:
 - Health Insurance
 - Health Benefits
 - Employee Benefits
-- Third-Party Administrator
+- Third Party Administrator
 - ICHRA
 - Level Funded
 - Transparency In Coverage
-- Machine-Readable Files
+- Machine Readable Files
 - Healthcare
 - Insurance
 - Regulatory

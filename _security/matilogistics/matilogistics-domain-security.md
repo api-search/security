@@ -34,16 +34,16 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/security/matilogistics-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- logistics
-- supply-chain
-- shipping
-- container-tracking
-- ocean-freight
-- track-and-trace
-- shipment-visibility
-- freight-forwarding
+- Logistics
+- Supply Chain
+- Shipping
+- Container Tracking
+- Ocean Freight
+- Track and Trace
+- Shipment Visibility
+- Freight Forwarding
 - NVOCC
-- webhooks
+- Webhook
 - REST
-- procurement
+- Procurement
 ---

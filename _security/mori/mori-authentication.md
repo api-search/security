@@ -66,6 +66,6 @@ tags:
 - Direct to Consumer
 - Shopify
 - MCP
-- agent-native
+- Agent Native
 - Universal Commerce Protocol
 ---

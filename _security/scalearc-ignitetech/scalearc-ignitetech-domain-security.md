@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalearc-ignit
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI Infrastructure
+- Ai Infrastructure
 - Database
 - Load Balancing
 - SQL Server

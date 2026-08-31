@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/defer/refs/hea
 summary_line: TLSv1.3
 tags:
 - Background Jobs
-- Cron
+- CRON
 - Developer-First
 - Node.js
 - Queues

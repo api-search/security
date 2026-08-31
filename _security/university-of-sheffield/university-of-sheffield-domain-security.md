@@ -1,65 +1,11 @@
 ---
 api_specs:
-- filename: university-of-sheffield-altmetric-api-openapi.yml
+- filename: university-of-sheffield-sheffield-solar-api-openapi.yml
   format: yaml
-  label: University of Sheffield altmetric API
-  slug: university-of-sheffield-altmetric-api
+  label: Sheffield Solar API
+  slug: sheffield-solar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-altmetric-api-openapi.yml
-- filename: university-of-sheffield-articles-api-openapi.yml
-  format: yaml
-  label: University of Sheffield articles API
-  slug: university-of-sheffield-articles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-articles-api-openapi.yml
-- filename: university-of-sheffield-authors-api-openapi.yml
-  format: yaml
-  label: University of Sheffield authors API
-  slug: university-of-sheffield-authors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-authors-api-openapi.yml
-- filename: university-of-sheffield-collections-api-openapi.yml
-  format: yaml
-  label: University of Sheffield collections API
-  slug: university-of-sheffield-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-collections-api-openapi.yml
-- filename: university-of-sheffield-institutions-api-openapi.yml
-  format: yaml
-  label: University of Sheffield institutions API
-  slug: university-of-sheffield-institutions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-institutions-api-openapi.yml
-- filename: university-of-sheffield-oauth-api-openapi.yml
-  format: yaml
-  label: University of Sheffield oauth API
-  slug: university-of-sheffield-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-oauth-api-openapi.yml
-- filename: university-of-sheffield-other-api-openapi.yml
-  format: yaml
-  label: University of Sheffield other API
-  slug: university-of-sheffield-other-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-other-api-openapi.yml
-- filename: university-of-sheffield-profiles-api-openapi.yml
-  format: yaml
-  label: University of Sheffield profiles API
-  slug: university-of-sheffield-profiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-profiles-api-openapi.yml
-- filename: university-of-sheffield-projects-api-openapi.yml
-  format: yaml
-  label: University of Sheffield projects API
-  slug: university-of-sheffield-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-projects-api-openapi.yml
-- filename: university-of-sheffield-symplectic-api-openapi.yml
-  format: yaml
-  label: University of Sheffield symplectic API
-  slug: university-of-sheffield-symplectic-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-symplectic-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-sheffield-solar-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -121,11 +67,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/security/university-of-sheffield-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- United Kingdom
+- Russell Group
 - Research Data
 - Open Access
 - OAI-PMH
-- United Kingdom
+- Identity Federation
+- Solar Energy
+- Energy Data
+- Research Computing
 ---

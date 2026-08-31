@@ -27,7 +27,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zuoyebang/refs
 summary_line: DMARC
 tags:
 - Company
-- EdTech
+- Edtech
 - Education
 - Online Learning
 - Tutoring

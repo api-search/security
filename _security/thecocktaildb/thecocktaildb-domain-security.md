@@ -56,6 +56,6 @@ tags:
 - Cocktails
 - Drinks
 - Recipes
-- Food and Beverage
+- Food And Beverage
 - Open Data
 ---

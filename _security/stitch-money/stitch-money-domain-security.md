@@ -56,7 +56,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Payments
 - Open Banking
-- Pay by Bank
+- Pay By Bank
 - GraphQL
 - Africa
 - South Africa

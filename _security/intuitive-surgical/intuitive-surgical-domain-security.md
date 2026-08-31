@@ -41,6 +41,6 @@ tags:
 - Medical Devices
 - Healthcare
 - Surgery
-- Da Vinci
+- da Vinci
 - Fortune 500
 ---

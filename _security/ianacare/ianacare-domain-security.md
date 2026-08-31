@@ -59,7 +59,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ianacare/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Health Care
+- Healthcare
 - Caregiving
 - Employee Benefits
 - Digital Health

@@ -22,6 +22,6 @@ tags:
 - Headless CMS
 - Content Management
 - REST
-- Multi-Site
+- Multi-site
 trust_url: https://agilitycms.com/security
 ---

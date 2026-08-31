@@ -158,5 +158,5 @@ tags:
 - Sustainability
 - Climate Tech
 - Content
-- Events
+- Event
 ---

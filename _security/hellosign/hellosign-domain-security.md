@@ -112,7 +112,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- E-Signature
+- eSignature
 - Electronic Signatures
 - Documents
 - Digital Agreements

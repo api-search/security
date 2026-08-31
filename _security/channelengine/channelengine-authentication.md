@@ -36,7 +36,7 @@ tags:
 - Company
 - E-Commerce
 - Marketplace Integration
-- Multi-Channel Commerce
+- Multichannel Commerce
 - Order Management
 - Inventory Management
 - Product Information

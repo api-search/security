@@ -22,7 +22,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/civitas-learni
 summary_line: SOC 2 Type 2, FERPA, GDPR, TX-RAMP Level 2, VPAT
 tags:
 - Company
-- EdTech
+- Edtech
 - Higher Education
 - Student Success
 - Analytics

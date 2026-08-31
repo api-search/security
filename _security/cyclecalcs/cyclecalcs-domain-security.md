@@ -217,5 +217,5 @@ tags:
 - Calendar
 - Geolocation
 - MCP
-- agent-native
+- Agent-native
 ---

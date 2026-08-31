@@ -33,7 +33,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ddd-invoices/r
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- E-Invoicing
+- e-Invoicing
 - Fiscalization
 - Tax Compliance
 - Real-Time Reporting

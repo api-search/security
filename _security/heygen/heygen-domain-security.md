@@ -126,7 +126,7 @@ tags:
 - Avatars
 - Voice Cloning
 - Text-to-Speech
-- Lip Sync
+- Lipsync
 - Translation
 - Streaming
 - MCP

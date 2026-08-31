@@ -23,7 +23,7 @@ tags:
 - Food and Beverage
 - Consumer Insights
 - Market Intelligence
-- Restaurants
+- Restaurant
 - Menus
 - Recipes
 - Trends

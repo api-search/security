@@ -34,12 +34,12 @@ tags:
 - Ai Enterprise Software
 - E-Commerce
 - Shopify
-- No-Code
+- No Code
 - Page Builder
 - Artificial Intelligence
 - AI Agents
 - Conversion Rate Optimization
 - Developer Tools
 - MCP
-- agent-native
+- Agent Native
 ---

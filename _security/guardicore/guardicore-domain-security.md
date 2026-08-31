@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Security
-- Microsegmentation
+- Micro-segmentation
 - Zero Trust
 - Network Security
 - Cloud Security

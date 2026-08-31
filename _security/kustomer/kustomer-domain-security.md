@@ -69,7 +69,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Customer Service
 - CRM
-- Help Desk
+- Helpdesk
 - Messaging
 - Artificial Intelligence
 ---

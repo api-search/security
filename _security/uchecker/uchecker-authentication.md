@@ -92,16 +92,16 @@ source_yaml: "generated: '2026-08-16'\nmethod: searched\nsource: >-\n  https://a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uchecker/refs/heads/main/authentication/uchecker-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- Email Verification
+- email-verification
 - Email
 - SMTP
-- DNS
-- Deliverability
+- dns
+- deliverability
 - mx
-- SPF
-- DKIM
+- spf
+- dkim
 - DMARC
 - MCP
 - agent-native
-- Data Quality
+- data-quality
 ---

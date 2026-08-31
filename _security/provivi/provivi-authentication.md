@@ -41,11 +41,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/provivi/refs/h
 summary_line: 2 schemes
 tags:
 - Agriculture
-- AgTech
-- Biotechnology
-- Crop Protection
-- Pheromones
-- Sustainability
-- Content Management
-- GraphQL
+- agtech
+- biotechnology
+- crop-protection
+- pheromones
+- sustainability
+- content-management
+- graphql
 ---

@@ -50,7 +50,7 @@ tags:
 - Event-Driven
 - Event Streaming
 - Messaging
-- Pub-Sub
+- Pub Sub
 - Brokers
 - CloudEvents
 - AsyncAPI

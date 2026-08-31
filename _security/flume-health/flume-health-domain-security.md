@@ -151,18 +151,18 @@ source_yaml: "generated: '2026-08-16'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/security/flume-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Healthcare
-- Health Plans
-- Payers
-- Healthcare Data
-- Data Integration
-- iPaaS
+- healthcare
+- health-plans
+- payers
+- healthcare-data
+- data-integration
+- ipaas
 - Eligibility
-- Claims
-- Knowledge Graph
+- claims
+- knowledge-graph
 - MCP
 - agent-native
 - Authentication
-- Data Engineering
-- Interoperability
+- data-engineering
+- interoperability
 ---

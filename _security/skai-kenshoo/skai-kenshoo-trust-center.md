@@ -327,7 +327,7 @@ tags:
 - Commerce Media
 - Reporting
 - MCP
-- agent-native
+- Agent Native
 - Omnichannel
 trust_url: https://skai.io/skai-information-security-and-privacy-center/
 ---

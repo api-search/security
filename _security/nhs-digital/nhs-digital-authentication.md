@@ -81,10 +81,10 @@ tags:
 - Health
 - FHIR
 - UK
-- Patient Demographics
-- Prescriptions
+- patient demographics
+- prescriptions
 - Referrals
-- Clinical Data
-- Digital Health
-- Government
+- clinical data
+- digital health
+- government
 ---

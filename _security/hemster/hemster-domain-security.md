@@ -36,5 +36,5 @@ tags:
 - Tailoring
 - Apparel
 - Sustainability
-- FIT
+- Fit
 ---

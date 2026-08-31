@@ -30,13 +30,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sight-diagnost
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Health Care
+- Healthcare
 - Medical Devices
 - Diagnostics
 - Hematology
 - Point of Care
 - Laboratory
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Israel
 ---

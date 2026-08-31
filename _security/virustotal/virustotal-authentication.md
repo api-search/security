@@ -235,13 +235,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/virustot
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virustotal/refs/heads/main/authentication/virustotal-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Anti Malware
+- Anti-Malware
 - Threat Intelligence
 - Security
 - File Analysis
 - URL Analysis
 - YARA
-- IOC
+- IoC
 - Sandbox
 - MITRE ATT&CK
 - Google Cloud

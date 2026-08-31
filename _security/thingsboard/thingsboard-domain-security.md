@@ -396,7 +396,7 @@ tags:
 - Rule Engine
 - Dashboards
 - Edge
-- Multi-Tenant
+- Multi-tenant
 - Java
 - Spring
 ---

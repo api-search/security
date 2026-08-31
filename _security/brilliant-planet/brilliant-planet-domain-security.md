@@ -35,6 +35,6 @@ tags:
 - Sustainability
 - Algae
 - Biotechnology
-- Cleantech
+- CleanTech
 - Nature-Based Solutions
 ---

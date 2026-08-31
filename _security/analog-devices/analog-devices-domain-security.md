@@ -36,7 +36,7 @@ tags:
 - Embedded Systems
 - Hardware
 - IoT
-- Semiconductors
+- Semiconductor
 - Signal Processing
 - Fortune 1000
 ---

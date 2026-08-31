@@ -129,7 +129,7 @@ tags:
 - DeFi
 - Analytics
 - Ethereum
-- Stablecoins
+- Stablecoin
 - Liquid Staking
 - Yield
 - Blockchain

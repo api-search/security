@@ -83,14 +83,14 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: openapi/onpay-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/authentication/onpay-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- Payroll
-- Human Resources
-- Employee Benefits
+- payroll
+- human-resources
+- employee-benefits
 - payroll-tax
-- Small Business
-- Workforce Management
+- small-business
+- workforce-management
 - Fintech
-- HR Tech
-- Time and Attendance
+- hr-tech
+- time-and-attendance
 - retirement-401k
 ---

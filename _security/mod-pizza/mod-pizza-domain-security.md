@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mod-pizza/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Restaurants
+- Restaurant
 - Food and Beverage
 - Fast Casual
 - Pizza

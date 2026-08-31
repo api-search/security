@@ -420,7 +420,7 @@ summary_line: apiKey/oauth2/http · 5 schemes
 tags:
 - LoRaWAN
 - IoT
-- Internet of Things
+- Internet Of Things
 - Open-Source
 - Network Server
 - LPWAN

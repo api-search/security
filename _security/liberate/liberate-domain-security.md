@@ -46,7 +46,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Insurance
-- Insurtech
+- InsurTech
 - Voice AI
 - AI Agents
 - Workflow Orchestration

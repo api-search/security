@@ -33,7 +33,7 @@ tags:
 - Company
 - Blockchain
 - Privacy
-- Zero Knowledge
+- Zero-Knowledge
 - Ethereum
 - Layer 2
 - Smart Contracts

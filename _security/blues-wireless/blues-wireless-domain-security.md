@@ -130,8 +130,8 @@ tags:
 - Device Management
 - Fleet Management
 - Satellite
-- LoRA
-- Wi-Fi
+- LoRa
+- WiFi
 - Notecard
 - Notehub
 ---

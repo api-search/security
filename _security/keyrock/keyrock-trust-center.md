@@ -29,6 +29,6 @@ tags:
 - OTC
 - Options
 - Market Data
-- Financial Services
+- Financial-Services
 trust_url: https://trust.keyrock.com/
 ---

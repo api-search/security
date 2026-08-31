@@ -78,7 +78,7 @@ tags:
 - Workshops
 - Ticketing
 - Gift Cards
-- Travel And Leisure
+- Travel and Leisure
 - Germany
 - Commerce
 ---

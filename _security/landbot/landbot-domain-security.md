@@ -55,10 +55,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landbot/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Chatbots
-- Conversational AI
-- No-Code
+- conversational AI
+- no-code
 - WhatsApp
 - Webhook
 - Messaging
-- Automation
+- automation
 ---

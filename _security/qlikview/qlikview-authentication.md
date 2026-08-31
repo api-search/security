@@ -111,7 +111,7 @@ tags:
 - Data Discovery
 - Data Visualization
 - Embedded Analytics
-- On Premises
+- On-Premises
 - SOAP
 - Guided Analytics
 - Reporting

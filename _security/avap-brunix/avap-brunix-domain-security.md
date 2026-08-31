@@ -31,6 +31,6 @@ tags:
 - Artificial Intelligence
 - API Development
 - Developer Tools
-- Low-Code
+- Low Code
 - Automation
 ---

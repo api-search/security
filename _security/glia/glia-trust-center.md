@@ -29,7 +29,7 @@ tags:
 - Financial-Services
 - Conversational AI
 - Voice
-- Co-Browsing
+- CoBrowsing
 - Serverless
 trust_url: https://www.glia.com/security
 ---

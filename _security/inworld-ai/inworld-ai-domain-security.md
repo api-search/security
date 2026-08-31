@@ -86,7 +86,7 @@ tags:
 - Artificial Intelligence
 - Voice
 - Text-to-Speech
-- Speech-to-Text
+- Speech To Text
 - Real-Time
 - LLM Routing
 - Voice Cloning

@@ -41,7 +41,7 @@ tags:
 - Blockchain
 - Ethereum
 - EVM
-- Zero Knowledge
+- Zero-Knowledge
 - Polkadot
 - Web3
 - Modular Blockchain

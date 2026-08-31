@@ -116,7 +116,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openstack/refs
 summary_line: apiKey · 1 scheme
 tags:
 - Cloud Platform
-- Infrastructure-as-a-Service
+- Infrastructure as a Service
 - Open-Source
 - Virtualization
 - Linux Foundation

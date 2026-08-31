@@ -35,7 +35,7 @@ tags:
 - Real-Estate
 - PropTech
 - Renters
-- Cashback
+- Cash Back
 - Banking
 - Rewards
 ---

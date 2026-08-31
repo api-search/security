@@ -499,6 +499,6 @@ tags:
 - Retrieval Augmented Generation
 - MCP
 - Agent Tools
-- Data Pipelines
+- Data Pipeline
 - Connectors
 ---

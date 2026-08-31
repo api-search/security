@@ -39,7 +39,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Platform-as-a-Service
 - Application Deployment
-- Auto-Scaling
+- Auto Scaling
 - Cloud
 - DevOps
 ---

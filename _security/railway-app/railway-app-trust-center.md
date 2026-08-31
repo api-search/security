@@ -27,7 +27,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/railway-app/re
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Deployment
-- Platform-as-a-Service
+- PaaS
 - Cloud
 - Infrastructure
 - GraphQL

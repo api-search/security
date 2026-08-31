@@ -206,7 +206,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
 - United Kingdom
-- Banking as a Service
+- Banking-as-a-Service
 - Embedded Finance
 - Payment Processing
 - Account-to-Account

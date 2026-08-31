@@ -37,7 +37,7 @@ tags:
 - GPU
 - SQL
 - Big Data
-- Machine Learning
+- Machine-Learning
 - Data Ingestion
 - Israel
 ---

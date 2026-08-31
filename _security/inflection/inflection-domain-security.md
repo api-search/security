@@ -80,7 +80,7 @@ tags:
 - Artificial Intelligence
 - LLM
 - Personal AI
-- PI
+- Pi
 - Foundation Models
 - Empathetic AI
 ---

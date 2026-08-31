@@ -89,5 +89,5 @@ tags:
 - Cloud-Native
 - Incubating
 - Kubernetes
-- PersistentVolumes
+- Persistent Volumes
 ---

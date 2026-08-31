@@ -98,14 +98,14 @@ tags:
 - Company
 - Physical Security
 - Video Surveillance
-- Cameras
+- Camera
 - Video Streaming
 - WebRTC
 - RTSP
 - ONVIF
 - IoT
 - Alerts
-- Webhooks
+- Webhook
 - Public Safety
 - Retail
 - Critical Infrastructure

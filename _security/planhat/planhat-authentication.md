@@ -65,7 +65,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planhat/refs/h
 summary_line: http/oauth2 · 4 schemes
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Customer Success
 - Customer Platform
 - CRM

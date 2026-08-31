@@ -35,5 +35,5 @@ tags:
 - Financial Data
 - Asset Management
 - Market Intelligence
-- NASDAQ
+- Nasdaq
 ---

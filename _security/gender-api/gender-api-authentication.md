@@ -52,6 +52,6 @@ tags:
 - Demographics
 - Gender
 - Identity
-- Name
+- Names
 - Personal Data
 ---

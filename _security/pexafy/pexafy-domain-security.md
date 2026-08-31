@@ -87,14 +87,14 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pexafy/refs/heads/main/security/pexafy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- images
-- photos
-- stock photos
-- image search
-- semantic search
-- computer vision
-- embeddings
-- mcp
+- Image
+- Photos
+- Stock Photos
+- Image Search
+- Semantic Search
+- Computer-Vision
+- Embeddings
+- MCP
 - agent-native
-- content licensing
+- Content Licensing
 ---

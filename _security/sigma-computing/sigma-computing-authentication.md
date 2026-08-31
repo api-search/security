@@ -278,16 +278,16 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: https://help.si
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/authentication/sigma-computing-authentication.yml
 summary_line: oauth2/http · 3 schemes
 tags:
-- Business Intelligence
+- business-intelligence
 - Analytics
-- Embedded Analytics
-- Data Modeling
-- Data Warehouse
+- embedded-analytics
+- data-modeling
+- data-warehouse
 - Reporting
-- Spreadsheets
+- spreadsheets
 - MCP
 - AI Agents
-- Snowflake
-- Databricks
-- Data Governance
+- snowflake
+- databricks
+- data-governance
 ---

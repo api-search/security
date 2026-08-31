@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/puffer-finance
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- DeFi
+- Defi
 - Ethereum
 - Liquid Restaking
 - Staking

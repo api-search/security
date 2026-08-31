@@ -73,16 +73,16 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: openapi/bargo-c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/authentication/bargo-congress-trades-api-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- Congress
+- congress
 - Finance
-- Stocks
-- Government
+- stocks
+- government
 - stock-act
 - MCP
-- Congressional Trading
+- congressional-trading
 - financial-disclosure
 - Market Data
-- Public Data
+- public-data
 - Free API
 - Open Data
 ---

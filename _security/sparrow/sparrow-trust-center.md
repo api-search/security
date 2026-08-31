@@ -34,6 +34,6 @@ tags:
 - Compliance
 - Employee Benefits
 - Absence Management
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.trysparrow.com/
 ---

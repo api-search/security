@@ -59,6 +59,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudwatch/ref
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Alarms
+- Aws
 - Dashboards
 - Logs
 - Metrics

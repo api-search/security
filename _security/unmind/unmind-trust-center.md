@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unmind/refs/he
 summary_line: ISO 27001, Cyber Essentials, GDPR
 tags:
 - Company
-- Health Tech
+- Healthtech
 - Mental Health
 - Employee Wellbeing
 - EAP

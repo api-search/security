@@ -19,7 +19,7 @@ summary_line: trust center published
 tags:
 - Company
 - Insurance Tech
-- Insurtech
+- InsurTech
 - Insurance
 - Underwriting
 - RiskOps

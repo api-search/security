@@ -40,7 +40,7 @@ tags:
 - Marketing
 - Digital Marketing
 - Marketing Technology
-- MarTech
+- Martech
 - Email Marketing
 - CRM
 - E-Commerce

@@ -77,7 +77,7 @@ tags:
 - Voice AI
 - Text-to-Speech
 - Speech-to-Text
-- Speech to Speech
+- Speech-to-Speech
 - Voice Cloning
 - Audio
 - Real-Time Streaming

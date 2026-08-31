@@ -355,7 +355,7 @@ tags:
 - Data Privacy
 - SCIM
 - Identity
-- OAuth
+- Authentication
 - OpenID Connect
 - User Provisioning
 - Privacy Management
@@ -380,5 +380,5 @@ tags:
 - Certifications
 - RegTech
 - Trust Center
-- Enterprise Saas
+- Enterprise SaaS
 ---

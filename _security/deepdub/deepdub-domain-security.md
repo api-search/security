@@ -98,7 +98,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Voice
-- Text-to-Speech
+- Text to Speech
 - Dubbing
 - Localization
 - Speech Synthesis

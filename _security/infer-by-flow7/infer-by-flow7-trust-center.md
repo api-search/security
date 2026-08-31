@@ -42,10 +42,10 @@ tags:
 - Responses-compatible API
 - Coding-agent tooling
 - Developer Tools
-- Usage-Based Billing
+- Usage-based billing
 - Prepaid billing
-- agent-native
+- Agent-native
 - Agent Skills
-- Model Routing
+- Model routing
 trust_url: ''
 ---

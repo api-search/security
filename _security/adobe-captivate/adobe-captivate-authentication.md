@@ -118,7 +118,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Authoring
 - Education
-- E-Learning
+- eLearning
 - LMS
 - SCORM
 - Training

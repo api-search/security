@@ -77,10 +77,10 @@ tags:
 - Genomics
 - Life Sciences
 - Healthcare
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Multiomics
 - Oncology
 - Data Platform
-- Open Source
+- Open-Source
 ---

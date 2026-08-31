@@ -35,7 +35,7 @@ tags:
 - Pets
 - Consumer
 - Australia
-- Direct To Consumer
+- Direct to Consumer
 - Pet Supplies
 - Headless Commerce
 ---

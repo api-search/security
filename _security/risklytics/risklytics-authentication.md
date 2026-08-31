@@ -32,7 +32,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Risk
 - Wildfire
 - Property

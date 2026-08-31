@@ -58,7 +58,7 @@ tags:
 - Fraud
 - Tokenization
 - 3D Secure
-- Bill Payments
+- Bill Payment
 - Real-Time Payments
 - ISO 20022
 ---

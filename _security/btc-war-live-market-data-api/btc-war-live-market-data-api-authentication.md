@@ -31,21 +31,21 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/btc-war-live-m
 summary_line: none · 0 schemes
 tags:
 - Finance
-- Cryptocurrency
+- cryptocurrency
 - Market Data
-- Bitcoin
+- bitcoin
 - crypto-price
 - binance-spot
-- Orderflow
+- order-flow
 - market-depth
-- JSON-LD
-- Schema.org
+- json-ld
+- schema.org
 - OpenAPI
 - MCP
 - Read Only
-- No Authentication
+- no-authentication
 - agent-native
-- Arazzo
-- JSON-Schema
-- AgentSkill
+- arazzo
+- json-schema
+- agent-skill
 ---

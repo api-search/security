@@ -61,7 +61,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smallest-ai/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Text-to-Speech
+- Text to Speech
 - Voice
 - Real-Time
 - Voice Agents

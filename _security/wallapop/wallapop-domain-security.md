@@ -76,7 +76,7 @@ tags:
 - Consumer
 - Marketplace
 - E-Commerce
-- Secondhand
+- Second-Hand
 - Classifieds
 - Shipping
 - Webhook

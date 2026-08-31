@@ -34,7 +34,7 @@ tags:
 - Yacht Charter
 - Marketplace
 - Travel
-- Peer-to-Peer
+- Peer to Peer
 - Boating
 - Techstars
 ---

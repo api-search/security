@@ -42,7 +42,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cryptocurrency
 - Payments
-- FinTech
+- Fintech
 - On-Ramp
 - Off-Ramp
 - Blockchain

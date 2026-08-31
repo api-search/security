@@ -68,7 +68,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - AI Inference
 - Large Language Models
-- Dataflows
+- Dataflow
 - Hardware
 - Cloud
 - OpenAI-Compatible

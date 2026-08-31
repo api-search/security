@@ -39,6 +39,6 @@ tags:
 - CES
 - NPS
 - Surveys
-- Help Desk
+- Helpdesk
 - Customer Experience
 ---

@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-timestr
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Database
-- IoT
+- Iot
 - Time Series
 trust_url: https://aws.amazon.com/compliance/
 ---

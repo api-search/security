@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instil/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Non-Profit
 - CRM
 - Fundraising

@@ -319,7 +319,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dokploy-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dokploy/refs/heads/main/authentication/dokploy-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Platform-as-a-Service
+- PaaS
 - Self-Hosted
 - Open-Source
 - Docker

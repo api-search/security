@@ -373,6 +373,7 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Commerce
 - Point-of-Sale
+- POS
 - Retail
 - Restaurant
 - Inventory

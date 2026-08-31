@@ -33,7 +33,7 @@ tags:
 - Carbon Credits
 - Carbon Removal
 - Carbon Markets
-- Nature-Based Solutions
+- Nature Based Solutions
 - Forest Carbon
 - Reforestation
 - Afforestation

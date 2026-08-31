@@ -729,24 +729,24 @@ source_yaml: "generated: '2026-08-17'\nmethod: searched\nsource: openapi/ (13 Sw
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wazo/refs/heads/main/authentication/wazo-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- Telephony
-- VoIP
-- Unified Communications
-- UCaaS
-- Contact Center
+- telephony
+- voip
+- unified-communications
+- ucaas
+- contact-center
 - SIP
 - asterisk
 - WebRTC
 - Open-Source
-- Self-Hosted
-- White Label
-- PBX
-- MSP
-- Call Center
+- self-hosted
+- white-label
+- pbx
+- msp
+- call-center
 - Provisioning
 - Webhook
-- Event-Driven
+- event-driven
 - Chat
-- Presence
+- presence
 - CDR
 ---

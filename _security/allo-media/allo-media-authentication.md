@@ -86,7 +86,7 @@ tags:
 - Company
 - Ai Data
 - Speech Recognition
-- Speech-to-Text
+- Speech To Text
 - Conversation Intelligence
 - Call Tracking
 - Voice AI

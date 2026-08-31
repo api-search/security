@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: https://vynaris
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vynaris/refs/heads/main/authentication/vynaris-authentication.yml
 summary_line: 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - LLM Gateway
 - LLM Router / Aggregator
 - Inference / Model Serving

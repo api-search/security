@@ -130,15 +130,15 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/security/videoamp-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Media Measurement
+- media-measurement
 - Advertising
-- AdTech
+- adtech
 - tv-currency
-- Audience Measurement
-- Media Planning
-- Streaming
+- audience-measurement
+- media-planning
+- streaming
 - Attribution
-- Data Collaboration
+- data-collaboration
 - MCP
 - agent-native
 ---

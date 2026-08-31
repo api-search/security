@@ -60,7 +60,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Hardtech
-- Semiconductors
+- Semiconductor
 - Analog
 - Integrated Circuits
 - Power Management
