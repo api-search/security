@@ -156,6 +156,8 @@ footer:
         - { label: Areas, url: 'https://apis.io/areas/' }
         - { label: Regions, url: 'https://apis.io/regions/' }
         - { label: Countries, url: 'https://apis.io/countries/' }
+        - { label: Venture Capital, url: 'https://apis.io/vcs/' }
+        - { label: Secondary Market, url: 'https://apis.io/secondary-market/' }
         - { label: API Estates, url: 'https://apis.io/estates/' }
         - { label: Business Capabilities, url: 'https://apis.io/capabilities/' }
 
