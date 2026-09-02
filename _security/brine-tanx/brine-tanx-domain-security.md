@@ -48,5 +48,5 @@ tags:
 - Blockchain
 - Trading
 - StarkEx
-- Cross-chain
+- Cross-Chain
 ---

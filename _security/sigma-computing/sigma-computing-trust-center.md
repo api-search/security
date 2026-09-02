@@ -257,17 +257,17 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: https://securit
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/security/sigma-computing-trust-center.yml
 summary_line: SOC 1, SOC 2, SOC 3, ISO/IEC 27001, ISO/IEC 27017:2015, ISO/IEC 27018:2019, ISO/IEC 27701, HIPAA, GDPR, CCPA, EU-US Data Privacy Framework
 tags:
-- business-intelligence
+- Business Intelligence
 - Analytics
-- embedded-analytics
-- data-modeling
-- data-warehouse
+- Embedded Analytics
+- Data Modeling
+- Data Warehouse
 - Reporting
-- spreadsheets
+- Spreadsheets
 - MCP
 - AI Agents
-- snowflake
-- databricks
-- data-governance
+- Snowflake
+- Databricks
+- Data Governance
 trust_url: ''
 ---

@@ -282,19 +282,19 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- ai-governance
+- AI Governance
 - ai-risk-management
-- responsible-ai
+- Responsible AI
 - Compliance
-- regulatory-technology
-- model-registry
-- vendor-risk
-- eu-ai-act
-- nist-ai-rmf
-- iso-42001
-- shadow-ai
-- agent-governance
+- Regulatory Technology
+- Model Registry
+- Vendor Risk
+- EU AI Act
+- NIST AI RMF
+- ISO 42001
+- Shadow AI
+- Agent Governance
 - Audit
-- json-api
-- agent-skills
+- JSON:API
+- Agent Skills
 ---

@@ -81,8 +81,8 @@ tags:
 - Food Security
 - Statistics
 - Trade
-- land use
-- environment
+- Land Use
+- Environment
 - UN
-- open data
+- Open Data
 ---

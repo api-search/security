@@ -99,7 +99,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/return-path/re
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Martech
+- MarTech
 - Email
 - Email Deliverability
 - Email Marketing

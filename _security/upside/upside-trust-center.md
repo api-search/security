@@ -22,7 +22,7 @@ summary_line: SOC 2 Type 2, ISO/IEC 27001:2022, PCI DSS v4.0.1, CCPA
 tags:
 - Company
 - Consumer
-- Cash Back
+- Cashback
 - Rewards
 - Loyalty
 - Retail

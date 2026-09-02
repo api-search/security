@@ -33,7 +33,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Industrial
-- Metals and Mining
+- Metals And Mining
 - Process Control
 - Model Predictive Control
 - Machine-Learning

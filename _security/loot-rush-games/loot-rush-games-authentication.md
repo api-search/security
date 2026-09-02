@@ -72,5 +72,5 @@ tags:
 - Payments
 - Withdrawals
 - MCP
-- Agent-Ready
+- Agent Ready
 ---

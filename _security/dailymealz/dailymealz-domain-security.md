@@ -34,5 +34,5 @@ tags:
 - Food and Beverage
 - Saudi Arabia
 - Subscription
-- FoodTech
+- Food Tech
 ---

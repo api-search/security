@@ -122,7 +122,7 @@ tags:
 - Data Pipeline
 - Data Integration
 - Change Data Capture
-- Transformations
+- Transformation
 - Analytics
 - MCP
 - AI Agents

@@ -37,5 +37,5 @@ tags:
 - Behavioral Health
 - Practice Management
 - Software-as-a-Service
-- HealthTech
+- Health Tech
 ---

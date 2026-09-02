@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planhat/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Customer Success
 - Customer Platform
 - CRM

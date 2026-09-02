@@ -36,5 +36,5 @@ tags:
 - Digital Health
 - Wearables
 - Clinical Decision Support
-- HealthTech
+- Health Tech
 ---

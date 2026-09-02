@@ -50,7 +50,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Endpoint Management
 - IT Asset Management
-- IT Service Management
+- ITSM
 - Patch Management
 - Mobile Device Management
 - Zero Trust

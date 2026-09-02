@@ -261,16 +261,16 @@ source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alleva/refs/heads/main/security/alleva-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- behavioral-health
-- electronic-health-records
-- emr
-- ehr
-- substance-use-disorder
-- mental-health
-- healthcare
+- Behavioral Health
+- Electronic Health Records
+- EMR
+- EHR
+- Substance Use Disorder
+- Mental Health
+- Healthcare
 - treatment-centers
-- clinical-documentation
-- revenue-cycle-management
-- patient-intake
-- healthcare-compliance
+- Clinical Documentation
+- Revenue Cycle Management
+- Patient Intake
+- Healthcare Compliance
 ---

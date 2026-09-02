@@ -36,6 +36,6 @@ tags:
 - Pharmaceuticals
 - Drug Development
 - Clinical Trials
-- Real World Evidence
+- Real-World Evidence
 - Regulatory Strategy
 ---

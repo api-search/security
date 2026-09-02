@@ -23,6 +23,6 @@ tags:
 - Deprecation
 - Product
 - Release Notes
-- Roadmap
+- Roadmaps
 trust_url: https://trust.launchnotes.com/
 ---

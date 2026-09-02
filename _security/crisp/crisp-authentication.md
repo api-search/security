@@ -51,7 +51,7 @@ summary_line: http · 1 scheme
 tags:
 - Customer Service
 - Live Chat
-- Helpdesk
+- Help Desk
 - Messaging
 - Chatbots
 ---

@@ -82,7 +82,7 @@ tags:
 - Ai Ml
 - Artificial Intelligence
 - Machine-Learning
-- Speech To Text
+- Speech-to-Text
 - Text-to-Speech
 - Translation
 - Large Language Models

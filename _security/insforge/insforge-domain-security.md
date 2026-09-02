@@ -109,8 +109,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Backend as a Service
-- Agent Native
+- Backend-as-a-Service
+- agent-native
 - Cloud Infrastructure
 - Database
 - Authentication

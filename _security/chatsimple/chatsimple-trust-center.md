@@ -27,7 +27,7 @@ tags:
 - Company
 - AI Agents
 - Conversational AI
-- Chatbot
+- Chatbots
 - Lead Generation
 - Sales Automation
 - CRM Integration

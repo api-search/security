@@ -40,14 +40,14 @@ source_yaml: "generated: '2026-08-07'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/security/binske-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- cannabis
-- consumer-packaged-goods
-- direct-to-consumer
+- Cannabis
+- Consumer Packaged Goods
+- Direct to Consumer
 - E-Commerce
 - Retail
-- shopify
-- agent-commerce
+- Shopify
+- Agent Commerce
 - UCP
 - MCP
-- storefront
+- Storefront
 ---

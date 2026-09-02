@@ -42,13 +42,13 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Shipping
 - Logistics
-- freight
+- Freight
 - Marketplace
 - Transportation
 - auto-transport
 - ltl-freight
-- last-mile-delivery
-- shipment-tracking
+- Last Mile Delivery
+- Shipment Tracking
 - E-Commerce
 - Supply Chain
 - rate-quotes

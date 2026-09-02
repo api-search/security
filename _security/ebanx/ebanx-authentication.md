@@ -71,11 +71,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/hea
 summary_line: apiKey · 1 scheme
 tags:
 - Payments
-- Pay-in
+- Pay-In
 - Payouts
 - Foreign Exchange
 - Tokenization
-- LATAM
+- LatAm
 - Emerging Markets
 - Pix
 - Boleto

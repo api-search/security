@@ -104,9 +104,9 @@ tags:
 - MCP
 - Development
 - Public APIs
-- html
-- llm-tools
-- structured-data
-- headless-browser
-- captcha
+- HTML
+- LLM Tools
+- Structured Data
+- Headless Browser
+- CAPTCHA
 ---

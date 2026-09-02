@@ -270,16 +270,16 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/security/sigma-computing-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- business-intelligence
+- Business Intelligence
 - Analytics
-- embedded-analytics
-- data-modeling
-- data-warehouse
+- Embedded Analytics
+- Data Modeling
+- Data Warehouse
 - Reporting
-- spreadsheets
+- Spreadsheets
 - MCP
 - AI Agents
-- snowflake
-- databricks
-- data-governance
+- Snowflake
+- Databricks
+- Data Governance
 ---

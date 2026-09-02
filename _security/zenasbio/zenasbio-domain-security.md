@@ -36,5 +36,5 @@ tags:
 - Therapeutics
 - Healthcare
 - Pharmaceuticals
-- Clinical-Stage
+- Clinical Stage
 ---

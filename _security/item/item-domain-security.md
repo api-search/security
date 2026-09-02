@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - CRM
-- Customer Relationship Management
 - Artificial Intelligence
 - AI Agents
 - Sales

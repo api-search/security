@@ -175,7 +175,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/common-room/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Community Intelligence
-- Go-to-Market
+- Go-To-Market
 - Member Signals
 - GitHub
 - Slack

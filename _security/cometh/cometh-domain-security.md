@@ -102,20 +102,20 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Blockchain
-- account-abstraction
-- erc-4337
-- smart-wallet
-- paymaster
-- bundler
-- passkeys
-- webauthn
-- gasless-transactions
+- Account Abstraction
+- ERC-4337
+- Smart Wallet
+- Paymaster
+- Bundler
+- Passkeys
+- WebAuthn
+- Gasless Transactions
 - DeFi
-- custody
-- staking
+- Custody
+- Staking
 - Payments
-- json-rpc
-- mica
-- safe
+- JSON-RPC
+- MiCA
+- SAFe
 - Web3
 ---

@@ -30,10 +30,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mevo/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Healthcare
 - Digital Prescriptions
-- E-Prescribing
+- e-Prescribing
 - Pharmacy
 - Telemedicine
 - Brazil

@@ -124,14 +124,14 @@ summary_line: oauth2/openIdConnect/none · 4 schemes
 tags:
 - E-Commerce
 - Retail
-- direct-to-consumer
-- home-goods
-- bedding
-- shopify
-- agentic-commerce
-- universal-commerce-protocol
+- Direct to Consumer
+- Home Goods
+- Bedding
+- Shopify
+- Agentic Commerce
+- Universal Commerce Protocol
 - MCP
 - agent-native
 - Catalog
-- checkout
+- Checkout
 ---

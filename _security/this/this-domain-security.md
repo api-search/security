@@ -35,6 +35,6 @@ tags:
 - Plant-Based
 - Vegan
 - Consumer Packaged Goods
-- Food & Beverage
+- Food and Beverage
 - Retail
 ---

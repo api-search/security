@@ -208,7 +208,7 @@ tags:
 - Assessments
 - Certifications
 - Coaching
-- Go-to-Market
+- Go-To-Market
 - SCIM
 - SCORM
 - Webhook

@@ -39,5 +39,5 @@ tags:
 - Web Applications
 - Web Framework
 - Open-Source
-- Ajax
+- AJAX
 ---

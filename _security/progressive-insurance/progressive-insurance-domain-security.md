@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
 - Auto Insurance
-- Property & Casualty
+- Property and Casualty
 - Telematics
 - Fortune 500
 - Personal Lines

@@ -88,14 +88,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/security/tidio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- live chat
+- Live Chat
 - Chatbots
-- customer service
+- Customer Service
 - Artificial Intelligence
-- help desk
+- Help Desk
 - Ticketing
 - Conversations
 - Contacts
 - Webhook
-- widget
+- Widget
 ---

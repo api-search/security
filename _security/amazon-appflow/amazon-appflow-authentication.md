@@ -50,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow
 summary_line: apiKey · 1 scheme
 tags:
 - Connectors
-- Data Flow
+- Dataflows
 - Data Integration
 - ETL
 - Integration

@@ -39,7 +39,7 @@ tags:
 - Company
 - Corporate Gifting
 - Employee Recognition
-- Hr Tech
+- HR Tech
 - Rewards
 - Gifting API
 - Employee Engagement

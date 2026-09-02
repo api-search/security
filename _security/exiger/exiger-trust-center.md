@@ -29,7 +29,7 @@ tags:
 - Due Diligence
 - Software Supply Chain
 - SBOM
-- Governance, Risk, and Compliance
+- Governance Risk and Compliance
 - Artificial Intelligence
 trust_url: https://trustcenter.exiger.com/
 ---

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fast Food
 - Restaurant
-- Food & Beverage
+- Food and Beverage
 - Loyalty
 - Mobile Ordering
 ---

@@ -37,7 +37,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Crypto Infrastructure
-- Cross Chain
+- Cross-Chain
 - Bridge
 - Interoperability
 - Blockchain

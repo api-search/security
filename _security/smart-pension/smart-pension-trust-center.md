@@ -916,17 +916,17 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/security/smart-pension-trust-center.yml
 summary_line: ISO 27001:2022, SOC 2 Type 2
 tags:
-- pensions
-- retirement
+- Pensions
+- Retirement
 - workplace-pension
 - auto-enrolment
-- payroll
+- Payroll
 - Fintech
 - Financial-Services
-- united-kingdom
+- United Kingdom
 - master-trust
-- employee-benefits
-- contributions
+- Employee Benefits
+- Contributions
 - papdis
 trust_url: https://trust.smart.co/
 ---

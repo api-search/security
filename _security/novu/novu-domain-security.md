@@ -158,7 +158,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Notification
 - Messaging
-- In App
+- In-App
 - Email
 - SMS
 - Push
@@ -169,7 +169,7 @@ tags:
 - Topics
 - Inbox
 - Workflow Orchestration
-- Multi Channel
+- Multi-Channel
 - Digest
 - MCP
 - Framework

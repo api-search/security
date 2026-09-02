@@ -143,15 +143,15 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: >-\n  openapi/c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/authentication/clozd-authentication.yml
 summary_line: apiKey/oauth2/openIdConnect · 3 schemes
 tags:
-- win-loss-analysis
-- customer-feedback
-- decision-intelligence
-- sales-intelligence
-- market-research
+- Win-Loss Analysis
+- Customer Feedback
+- Decision Intelligence
+- Sales Intelligence
+- Market Research
 - Competitive Intelligence
-- voice-of-customer
-- revenue-intelligence
-- saas
+- Voice of Customer
+- Revenue Intelligence
+- Software-as-a-Service
 - MCP
 - agent-native
 ---

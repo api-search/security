@@ -38,5 +38,5 @@ tags:
 - Digital Operations
 - Data Engineering
 - AI Automation
-- Asia-Pacific
+- Asia Pacific
 ---

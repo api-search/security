@@ -97,16 +97,16 @@ source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: https://support
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/authentication/syncari-authentication.yml
 summary_line: 2 schemes
 tags:
-- company
-- master-data-management
+- Company
+- Master Data Management
 - data-unification
-- data-integration
-- ipaas
-- data-quality
-- data-governance
+- Data Integration
+- iPaaS
+- Data Quality
+- Data Governance
 - embedded-integration
 - MCP
 - agent-native
-- revops
-- data-synchronization
+- Revenue Operations
+- Data Synchronization
 ---

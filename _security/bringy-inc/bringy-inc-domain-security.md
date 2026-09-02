@@ -30,7 +30,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Financial-Services
 - Insurance Brokerage
 - Fintech

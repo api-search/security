@@ -42,7 +42,7 @@ tags:
 - Offsets
 - Sustainability
 - Sustainable Development
-- REDD+
+- REDD Plus
 - Forestry
 - AFOLU
 - Nature-Based Solutions

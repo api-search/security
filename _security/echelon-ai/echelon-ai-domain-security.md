@@ -35,6 +35,6 @@ tags:
 - Enterprise Software
 - Automation
 - AI Agents
-- IT Service Management
-- No Code
+- ITSM
+- No-Code
 ---

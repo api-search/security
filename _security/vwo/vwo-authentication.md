@@ -58,7 +58,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vwo/refs/heads
 summary_line: apiKey · 1 scheme
 tags:
 - Experimentation
-- AB Testing
+- A/B Testing
 - Personalization
 - Conversion Optimization
 - Feature Flags

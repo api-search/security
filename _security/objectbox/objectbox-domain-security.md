@@ -38,7 +38,7 @@ tags:
 - Edge Computing
 - Vector Database
 - Vector Search
-- Offline First
+- Offline-First
 - Data Sync
 - Edge AI
 - IoT

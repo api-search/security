@@ -66,7 +66,7 @@ summary_line: http · 1 scheme
 tags:
 - Analytics
 - Big Data
-- Cube
+- cube
 - OLAP
 - Open-Source
 - SQL

@@ -50,8 +50,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-event-gr
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Eventing
-- Event Driven
-- Pub Sub
+- Event-Driven
+- Pub-Sub
 - Messaging
 - Webhook
 - CloudEvents

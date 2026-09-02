@@ -89,7 +89,7 @@ tags:
 - Player Statistics
 - Match Data
 - Fantasy Cricket
-- Ball-by-Ball
+- Ball-By-Ball
 - Team Rankings
 - Schedules
 - Sports Data

@@ -33,7 +33,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/class-technolo
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Edtech
+- EdTech
 - Education
 - Virtual Classroom
 - E-Learning

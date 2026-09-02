@@ -68,7 +68,7 @@ tags:
 - Printing
 - Branded Merchandise
 - Promotional Products
-- Print On Demand
+- Print on Demand
 - E-Commerce
 - Digital Asset Management
 - Procurement

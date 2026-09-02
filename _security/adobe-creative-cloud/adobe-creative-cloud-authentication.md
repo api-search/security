@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/adobe-cc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/authentication/adobe-creative-cloud-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- AI/ML
+- Ai Ml
 - Cloud
 - Creative
 - Design

@@ -30,7 +30,7 @@ summary_line: DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Ad Tech
+- AdTech
 - Brand Safety
 - Contextual Advertising
 - Content Moderation

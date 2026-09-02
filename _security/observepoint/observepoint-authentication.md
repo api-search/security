@@ -428,16 +428,16 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: https://api-doc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/authentication/observepoint-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- company
+- Company
 - web-governance
-- tag-management
+- Tag Management
 - analytics-validation
-- privacy-compliance
-- consent-management
-- web-accessibility
-- data-quality
-- marketing-technology
+- Privacy Compliance
+- Consent Management
+- Web Accessibility
+- Data Quality
+- Marketing Technology
 - website-auditing
-- digital-analytics
+- Digital Analytics
 - Webhook
 ---

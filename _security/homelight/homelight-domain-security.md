@@ -39,7 +39,7 @@ tags:
 - Buy Before You Sell
 - Home Loans
 - HELOC
-- Title And Escrow
+- Title and Escrow
 - Closing Services
 - Lead Generation
 - Partner API

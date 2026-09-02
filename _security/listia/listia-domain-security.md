@@ -38,7 +38,7 @@ tags:
 - Company
 - Marketplace
 - E-Commerce
-- Peer to Peer
+- Peer-to-Peer
 - Auctions
 - Reuse
 - Secondhand

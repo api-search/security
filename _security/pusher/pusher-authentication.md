@@ -69,7 +69,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Real-Time
 - WebSockets
-- Pub/Sub
+- Pub-Sub
 - Push Notifications
 - Messaging
 ---

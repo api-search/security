@@ -82,8 +82,8 @@ tags:
 - Generative AI
 - Video
 - Image
-- Text To Video
-- Image To Video
+- Text-to-Video
+- Image-to-Video
 - Upscaling
 - Reframing
 - Dream Machine

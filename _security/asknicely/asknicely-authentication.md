@@ -63,7 +63,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Customer Experience
-- Net Promoter Score
+- NPS
 - Surveys
 - Feedback
 - Reputation Management

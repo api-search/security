@@ -35,15 +35,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/overhaul/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Supply Chain
-- supply-chain-visibility
+- Supply Chain Visibility
 - Logistics
 - Transportation
 - cargo-security
-- risk-management
-- fraud-prevention
-- cold-chain
-- iot
+- Risk Management
+- Fraud Prevention
+- Cold Chain
+- IoT
 - Track and Trace
-- freight
+- Freight
 - Compliance
 ---

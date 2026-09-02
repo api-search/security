@@ -127,5 +127,5 @@ tags:
 - CAPTCHA Solving
 - MCP
 - HyperAgent
-- X402
+- x402
 ---

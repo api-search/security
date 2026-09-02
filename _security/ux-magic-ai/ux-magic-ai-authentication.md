@@ -44,11 +44,11 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Design
-- ArtificialIntelligence
-- UIDesign
-- UXDesign
+- Artificial Intelligence
+- UI Design
+- UX Design
 - Figma
-- DesignToCode
+- Design to Code
 - MCP
 - Wireframes
 ---

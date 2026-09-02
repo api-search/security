@@ -68,14 +68,14 @@ summary_line: apiKey · 1 scheme
 tags:
 - Threat Intelligence
 - Cybersecurity
-- attack-surface-management
-- internet-scanning
-- dark-web-monitoring
-- vulnerability-management
-- cve
+- Attack Surface Management
+- Internet Scanning
+- Dark Web Monitoring
+- Vulnerability Management
+- CVE
 - ExposedBuckets
-- domain-intelligence
-- whois
+- Domain Intelligence
+- WHOIS
 - OSINT
 - Security
 ---

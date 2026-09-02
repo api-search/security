@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/adobe-ph
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/authentication/adobe-photoshop-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- AI/ML
+- Ai Ml
 - Creative Cloud
 - Image Editing
 - Photoshop

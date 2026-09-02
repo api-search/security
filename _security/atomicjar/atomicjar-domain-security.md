@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atomicjar/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Devops
+- DevOps
 - Testing
 - Integration Testing
 - Testcontainers

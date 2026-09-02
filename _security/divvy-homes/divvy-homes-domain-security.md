@@ -40,7 +40,7 @@ tags:
 - Real-Estate
 - PropTech
 - Rent-to-Own
-- Home Ownership
+- Homeownership
 - Fintech
 - Housing
 ---

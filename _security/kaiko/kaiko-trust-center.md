@@ -48,7 +48,7 @@ tags:
 - Institutional
 - FX
 - Indices
-- On-Chain
+- Onchain
 - Streaming
 trust_url: https://www.kaiko.com/compliance
 ---

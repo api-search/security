@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Artificial Intelligence
 - AI Agents
 - Claims

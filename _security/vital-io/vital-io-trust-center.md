@@ -139,7 +139,7 @@ tags:
 - Wearables
 - Lab Testing
 - Digital Health
-- Healthtech
+- Health Tech
 - Healthcare
 - HIPAA
 - HealthKit

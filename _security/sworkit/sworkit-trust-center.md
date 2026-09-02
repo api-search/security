@@ -21,7 +21,7 @@ summary_line: SOC 2 Type 2, HIPAA, GDPR
 tags:
 - Company
 - Fitness
-- Health & Wellness
+- Health and Wellness
 - Employee Wellbeing
 - Workouts
 - Mindfulness

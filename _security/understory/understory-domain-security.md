@@ -32,7 +32,7 @@ tags:
 - Company
 - Climate
 - Insurance
-- InsurTech
+- Insurtech
 - Weather
 - Parametric Insurance
 - Sensors

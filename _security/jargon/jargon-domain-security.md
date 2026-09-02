@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - API Design
 - Data Modelling
-- Domain Driven Design
+- Domain-Driven Design
 - Domains
 - JSON-Schema
 - OpenAPI

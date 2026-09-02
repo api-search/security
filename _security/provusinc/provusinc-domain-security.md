@@ -31,7 +31,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - CPQ
-- Configure Price Quote
 - Services Quoting
 - Professional Services
 - Pricing

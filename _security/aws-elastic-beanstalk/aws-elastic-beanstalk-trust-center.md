@@ -30,7 +30,7 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Platform-as-a-Service
 - Application Deployment
-- Auto Scaling
+- Auto-Scaling
 - Cloud
 - DevOps
 trust_url: https://aws.amazon.com/compliance/

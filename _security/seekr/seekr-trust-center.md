@@ -226,22 +226,22 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/security/seekr-trust-center.yml
 summary_line: SOC 2 Type 1, SOC 2 Type 2, ISO/IEC 27001:2022, CMMC Certified
 tags:
-- artificial-intelligence
-- generative-ai
+- Artificial Intelligence
+- Generative AI
 - Agents
-- llm
+- LLM
 - Fine-Tuning
 - Inference
 - RAG
-- vector-database
-- explainability
-- ai-governance
-- model-evaluation
-- observability
-- geospatial-intelligence
-- defense
-- government
-- regulated-industries
+- Vector Database
+- Explainability
+- AI Governance
+- Model Evaluation
+- Observability
+- Geospatial Intelligence
+- Defense
+- Government
+- Regulated Industries
 - MCP
 - agent-native
 trust_url: https://trust.seekr.com/

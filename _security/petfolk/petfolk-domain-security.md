@@ -30,18 +30,18 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/petfolk/refs/heads/main/security/petfolk-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- veterinary
+- Veterinary
 - veterinary-care
-- animal-health
-- pet-care
-- pet-health
-- healthcare
-- telehealth
-- virtual-care
-- urgent-care
-- clinics
-- membership
-- consumer-health
-- mobile-app
-- north-carolina
+- Animal Health
+- Pet Care
+- Pet Health
+- Healthcare
+- Telehealth
+- Virtual Care
+- Urgent Care
+- Clinics
+- Membership
+- Consumer Health
+- Mobile App
+- North Carolina
 ---

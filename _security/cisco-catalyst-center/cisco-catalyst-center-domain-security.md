@@ -223,6 +223,6 @@ tags:
 - Observability
 - Telemetry
 - MCP
-- Agent Native
+- agent-native
 - Cisco
 ---

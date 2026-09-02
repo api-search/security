@@ -38,15 +38,15 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: https://trust.sam
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/security/samaya-ai-trust-center.yml
 summary_line: SOC 2
 tags:
-- artificial-intelligence
+- Artificial Intelligence
 - Financial-Services
-- investment-research
+- Investment Research
 - AI Agents
 - MCP
 - agent-native
-- capital-markets
-- enterprise-search
-- retrieval
-- graphql
+- Capital Markets
+- Enterprise Search
+- Retrieval
+- GraphQL
 trust_url: ''
 ---

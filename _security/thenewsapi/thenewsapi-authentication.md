@@ -45,7 +45,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - News
 - Articles
-- headlines
+- Headlines
 - Media
 - Aggregation
 - Real-Time

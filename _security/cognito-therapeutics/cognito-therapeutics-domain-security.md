@@ -35,7 +35,7 @@ tags:
 - Medical Devices
 - Neurotechnology
 - Neuroscience
-- Alzheimer's Disease
+- Alzheimers Disease
 - Clinical Trials
 - Digital Therapeutics
 - Biotechnology

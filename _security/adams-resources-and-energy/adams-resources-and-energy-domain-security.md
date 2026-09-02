@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adams-resource
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy
-- Oil And Gas
+- Oil and Gas
 - Crude Oil
 - Transportation
 - Logistics

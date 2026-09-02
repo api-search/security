@@ -44,7 +44,7 @@ tags:
 - Blockchain
 - Financial-Services
 - Tokenization
-- Real-World Assets
+- Real World Assets
 - Cosmos SDK
 - gRPC
 - Web3

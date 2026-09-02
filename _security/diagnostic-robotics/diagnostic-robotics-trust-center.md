@@ -95,16 +95,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/diagnostic-rob
 summary_line: HIPAA, ISO 27001, ISO 27799, SOC 2 Type II
 tags:
 - Health
-- healthcare
-- clinical-ai
-- population-health
-- risk-adjustment
-- predictive-analytics
+- Healthcare
+- Clinical AI
+- Population Health
+- Risk Adjustment
+- Predictive Analytics
 - triage
-- fhir
-- claims-data
-- care-management
-- payers
-- medical-coding
+- FHIR
+- Claims Data
+- Care Management
+- Payers
+- Medical Coding
 trust_url: https://diagnosticrobotics.com/about/trust-center
 ---

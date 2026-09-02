@@ -51,7 +51,7 @@ tags:
 - Blockchain
 - Crypto
 - Cryptocurrency
-- Deeplinks
+- Deep Links
 - Embedded Wallet
 - Ethereum
 - EVM

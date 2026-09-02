@@ -149,7 +149,7 @@ tags:
 - DevOps
 - Metrics
 - Git
-- JIRA
+- Jira
 - CI/CD
 - Analytics
 ---

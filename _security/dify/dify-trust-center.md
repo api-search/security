@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dify/refs/head
 summary_line: SOC 2
 tags:
 - Artificial Intelligence
-- Backend-As-A-Service
+- Backend-as-a-Service
 - LLMOps
 trust_url: https://security.dify.ai/
 ---

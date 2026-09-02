@@ -63,7 +63,7 @@ tags:
 - Web3
 - Blockchain
 - RPC
-- Multi-chain
+- Multi-Chain
 - Wallets
 - NFT
 ---

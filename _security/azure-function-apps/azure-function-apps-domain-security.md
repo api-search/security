@@ -58,7 +58,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Azure
 - Compute
-- FaaS
+- Function-as-a-Service
 - Functions
 - Serverless
 ---

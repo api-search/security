@@ -91,12 +91,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/h
 summary_line: apiKey · 1 scheme
 tags:
 - Blockchain
-- block-explorer
+- Block Explorer
 - BNB Smart Chain
 - BSC
 - BEP-20
 - Transaction
-- smart-contracts
+- Smart Contracts
 - DeFi
 - EVM
 ---

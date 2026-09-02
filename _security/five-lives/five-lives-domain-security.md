@@ -36,7 +36,7 @@ tags:
 - Dementia Prevention
 - Cognitive Health
 - Digital Health
-- HealthTech
+- Health Tech
 - Neuroscience
 - Aging
 - Mobile App

@@ -137,5 +137,5 @@ tags:
 - Policy Administration
 - Claims
 - Usage-Based Insurance
-- InsurTech
+- Insurtech
 ---

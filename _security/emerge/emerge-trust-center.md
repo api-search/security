@@ -72,17 +72,17 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/security/emerge-trust-center.yml
 summary_line: trust center published
 tags:
-- freight
+- Freight
 - Logistics
 - Transportation
 - Supply Chain
 - Procurement
-- trucking
-- freight-marketplace
-- transportation-management
+- Trucking
+- Freight Marketplace
+- Transportation Management
 - Shipping
 - rate-benchmarking
 - Webhook
-- b2b-marketplace
+- B2B Marketplace
 trust_url: https://trust.emergemarket.com/
 ---

@@ -74,7 +74,7 @@ tags:
 - Deployment
 - Developer Experience
 - DevOps
-- PaaS
+- Platform-as-a-Service
 - Platform
 - Scalability
 - Serverless

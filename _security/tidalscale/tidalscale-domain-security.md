@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tidalscale/ref
 summary_line: DMARC
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Server Virtualization
 - Software-Defined Infrastructure
 - In-Memory Computing

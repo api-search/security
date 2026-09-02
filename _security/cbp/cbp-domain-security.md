@@ -54,5 +54,5 @@ tags:
 - Export
 - Border Protection
 - Tariff
-- Manifest
+- Manifests
 ---

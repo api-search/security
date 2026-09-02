@@ -33,7 +33,7 @@ tags:
 - Company
 - Construction
 - Construction Technology
-- Contech
+- ConTech
 - 3D Printing
 - Additive Manufacturing
 - Advanced Manufacturing

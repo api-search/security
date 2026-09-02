@@ -54,7 +54,7 @@ tags:
 - Billing
 - CPF Validation
 - CNPJ Validation
-- PIX
+- Pix
 - Fintech
 - Data Validation
 ---

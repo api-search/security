@@ -45,7 +45,7 @@ tags:
 - Root Cause Analysis
 - Anomaly Detection
 - DevOps
-- Agent Native
+- agent-native
 - MCP
 - Fintech
 ---

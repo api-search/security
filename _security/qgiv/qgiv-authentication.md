@@ -95,7 +95,7 @@ tags:
 - Fundraising
 - Donations
 - Payments
-- Peer to Peer
+- Peer-to-Peer
 - Event
 - Bloomerang
 ---

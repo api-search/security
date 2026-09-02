@@ -66,14 +66,14 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  openapi/t
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/authentication/tandoor-authentication.yml
 summary_line: 3 schemes
 tags:
-- recipes
-- meal-planning
-- food
-- nutrition
-- shopping-lists
+- Recipes
+- Meal Planning
+- Food
+- Nutrition
+- Shopping Lists
 - Open-Source
-- self-hosted
-- home-automation
-- django
+- Self-Hosted
+- Home Automation
+- Django
 - Open Data
 ---

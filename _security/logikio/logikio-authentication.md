@@ -101,7 +101,6 @@ tags:
 - Company
 - Sales Tech
 - CPQ
-- Configure Price Quote
 - Product Configuration
 - Bill of Materials
 - E-Commerce

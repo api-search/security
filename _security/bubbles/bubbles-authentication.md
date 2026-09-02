@@ -36,9 +36,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bubbles/refs/h
 summary_line: http · 1 scheme
 tags:
 - Application
-- Low Code
-- No Code
+- Low-Code
+- No-Code
 - Visual Programming
 - Webhook
-- Web Apps
+- Web App
 ---

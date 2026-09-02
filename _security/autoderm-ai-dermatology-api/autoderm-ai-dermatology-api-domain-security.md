@@ -73,20 +73,20 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - dermatology-api
 - ai-dermatology
-- medical-imaging
-- telemedicine
+- Medical Imaging
+- Telemedicine
 - skin-analysis
 - REST API
 - OpenAPI
 - llms-txt
 - ce-marked
-- white-label
-- healthcare
-- medical-ai
-- computer-vision
-- medical-device
-- icd-10
+- White Label
+- Healthcare
+- Medical AI
+- Computer-Vision
+- Medical Device
+- ICD-10
 - image-classification
-- clinical-decision-support
+- Clinical Decision Support
 - triage
 ---

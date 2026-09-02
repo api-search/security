@@ -88,7 +88,7 @@ tags:
 - Animation
 - Video Generation
 - Artificial Intelligence
-- eLearning
+- E-Learning
 - Learning and Development
 - Content Generation
 - SCIM

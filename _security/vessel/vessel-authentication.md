@@ -288,7 +288,7 @@ tags:
 - Chat
 - Dialer
 - Embedded Integrations
-- GTM
+- Go-To-Market
 - Integration
 - iPaaS
 - Marketing Automation

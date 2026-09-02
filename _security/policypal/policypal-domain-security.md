@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/policypal/refs
 summary_line: TLSv1.3
 tags:
 - Company
-- InsurTech
+- Insurtech
 - Fintech
 - Insurance
 - Insurance Broker

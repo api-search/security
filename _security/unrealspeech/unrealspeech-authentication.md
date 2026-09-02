@@ -47,7 +47,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/unrealsp
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unrealspeech/refs/heads/main/authentication/unrealspeech-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Text to Speech
+- Text-to-Speech
 - TTS
 - Speech Synthesis
 - Audio

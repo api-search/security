@@ -36,7 +36,7 @@ tags:
 - Healthcare
 - Nursing
 - Workforce
-- Long-term Care
+- Long-Term Care
 - Venture Studio
 - Education
 ---

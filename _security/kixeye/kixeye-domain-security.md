@@ -46,6 +46,6 @@ tags:
 - Game Development
 - Mobile Games
 - Strategy Games
-- Free To Play
+- Free-to-Play
 - Live Service
 ---

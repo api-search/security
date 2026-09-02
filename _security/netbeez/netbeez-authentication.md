@@ -28,7 +28,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netbeez/refs/h
 summary_line: 1 scheme
 tags:
 - Company
-- Infrastructure SaaS
+- Infrastructure Saas
 - Network Monitoring
 - Network Performance Monitoring
 - Observability

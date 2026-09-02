@@ -72,6 +72,6 @@ tags:
 - Language Operations
 - LangOps
 - Machine Translation
-- Human in the Loop
+- Human-in-the-Loop
 - Artificial Intelligence
 ---

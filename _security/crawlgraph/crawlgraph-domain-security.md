@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - SEO
 - backlink-intelligence
-- martech
+- MarTech
 - Competitive Intelligence
 - Web Data
 - Common-Crawl

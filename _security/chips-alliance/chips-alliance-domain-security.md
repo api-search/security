@@ -39,6 +39,6 @@ tags:
 - RISC-V
 - SiFive
 - Silicon
-- SoC
+- SOC
 - SystemVerilog
 ---

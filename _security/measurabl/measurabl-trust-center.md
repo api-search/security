@@ -168,16 +168,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/measurabl/refs
 summary_line: SOC 2 Type 2, ISO 27001:2013, GDPR, Privacy Shield
 tags:
 - ESG
-- real-estate
-- sustainability
-- carbon-accounting
-- energy-management
-- building-performance
-- climate-risk
-- benchmarking
+- Real-Estate
+- Sustainability
+- Carbon Accounting
+- Energy Management
+- Building Performance
+- Climate Risk
+- Benchmarking
 - Compliance
-- proptech
-- utility-data
-- capital-markets
+- PropTech
+- Utility Data
+- Capital Markets
 trust_url: https://www.measurabl.com/security/
 ---

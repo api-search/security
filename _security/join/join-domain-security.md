@@ -34,7 +34,7 @@ tags:
 - Video Commerce
 - E-Commerce
 - Shoppable Video
-- User-Generated Content
+- User Generated Content
 - Video Analytics
 - AI Video
 - Retail

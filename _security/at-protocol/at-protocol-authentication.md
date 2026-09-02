@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/at-proto
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/at-protocol/refs/heads/main/authentication/at-protocol-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AT Protocol
+- At-Protocol
 - atproto
 - Bluesky
 - Federation

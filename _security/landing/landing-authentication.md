@@ -37,7 +37,7 @@ tags:
 - Furnished Apartments
 - Corporate Housing
 - Travel
-- Agent Native
+- agent-native
 - MCP
 - Search
 ---

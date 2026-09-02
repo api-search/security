@@ -45,7 +45,7 @@ tags:
 - API Design
 - API Testing
 - Collaboration
-- Design First
+- Design-First
 - Documentation
 - Mock Servers
 - Oracle

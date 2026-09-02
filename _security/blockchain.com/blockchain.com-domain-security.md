@@ -103,16 +103,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/security/blockchain.com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- cryptocurrency
-- bitcoin
+- Cryptocurrency
+- Bitcoin
 - Blockchain
-- exchange
+- Exchange
 - Trading
 - Market Data
 - Payments
-- on-ramp
+- On-Ramp
 - Wallets
-- block-explorer
+- Block Explorer
 - Fintech
 - Webhook
 ---

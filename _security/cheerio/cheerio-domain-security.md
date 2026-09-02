@@ -40,7 +40,7 @@ tags:
 - Open-Source
 - Parser
 - Scraping
-- Server-side
+- Server-Side
 - Web Scraping
 - XML
 ---

@@ -34,7 +34,7 @@ tags:
 - Accessibility
 - Testing
 - Quality Assurance
-- Devops
+- DevOps
 - Web
 - Mobile
 - MCP

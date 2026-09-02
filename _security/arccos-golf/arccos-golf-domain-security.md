@@ -67,15 +67,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arccos-golf/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- golf
-- sports-technology
-- wearables
-- iot
+- Golf
+- Sports Technology
+- Wearables
+- IoT
 - shot-tracking
-- sports-analytics
-- performance-analytics
-- geospatial
-- consumer-hardware
+- Sports Analytics
+- Performance Analytics
+- Geospatial
+- Consumer Hardware
 - Webhook
 - Authentication
 - MCP

@@ -75,20 +75,20 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/security/ironscales-trust-center.yml
 summary_line: ISO/IEC 27001:2022, ISO/IEC 42001:2023, SOC 2 Type 2
 tags:
-- email-security
+- Email Security
 - Cybersecurity
-- phishing
-- anti-phishing
-- business-email-compromise
-- account-takeover
+- Phishing
+- Anti-Phishing
+- Business Email Compromise
+- Account Takeover
 - Threat Intelligence
-- incident-response
-- security-awareness-training
-- phishing-simulation
-- microsoft-365
-- google-workspace
-- soc-automation
-- deepfake-detection
+- Incident Response
+- Security Awareness Training
+- Phishing Simulation
+- Microsoft-365
+- Google Workspace
+- SOC Automation
+- Deepfake Detection
 - MCP
 trust_url: https://trust.ironscales.com/
 ---

@@ -68,7 +68,7 @@ tags:
 - Visitor Identification
 - De-anonymization
 - Enrichment
-- Go-to-Market
+- Go-To-Market
 - Sales Intelligence
 - B2B
 ---

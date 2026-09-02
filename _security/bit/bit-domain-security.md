@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bit/refs/heads
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Devops
+- DevOps
 - Component Development
 - Frontend
 - Monorepo

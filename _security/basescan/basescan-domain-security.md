@@ -103,10 +103,10 @@ tags:
 - Blockchain
 - Base
 - L2
-- explorer
+- Explorer
 - Ethereum
 - EVM
 - Transaction
 - Tokens
-- smart contracts
+- Smart Contracts
 ---

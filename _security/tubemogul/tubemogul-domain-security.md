@@ -36,6 +36,6 @@ tags:
 - Video Advertising
 - Demand-Side Platform
 - Programmatic Advertising
-- Ad Tech
+- AdTech
 - Acquired
 ---

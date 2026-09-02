@@ -37,7 +37,7 @@ tags:
 - Intimates
 - KnitWell Group
 - Loyalty
-- Omni-Channel
+- Omnichannel
 - Retail
 - Soma
 - Specialty Retail

@@ -97,7 +97,7 @@ tags:
 - Avatars
 - Voice Cloning
 - Text-to-Speech
-- Lipsync
+- Lip Sync
 - Translation
 - Streaming
 - MCP

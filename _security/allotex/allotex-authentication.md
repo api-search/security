@@ -72,16 +72,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allotex/refs/h
 summary_line: http · 1 scheme
 tags:
 - Company
-- medical-devices
-- ophthalmology
-- biologics
+- Medical Devices
+- Ophthalmology
+- Biologics
 - vision-correction
 - corneal-allograft
 - Presbyopia
 - hyperopia
 - refractive-surgery
 - tissue-processing
-- life-sciences
-- clinical-trials
+- Life Sciences
+- Clinical Trials
 - content-api
 ---

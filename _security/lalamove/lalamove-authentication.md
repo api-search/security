@@ -47,9 +47,9 @@ tags:
 - Logistics
 - Delivery
 - Last Mile Delivery
-- Courier
+- Couriers
 - Transportation
-- On Demand
+- On-Demand
 - Fleet
 - Shipping
 ---

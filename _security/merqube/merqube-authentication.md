@@ -85,15 +85,15 @@ source_yaml: "generated: '2026-08-25'\nmethod: searched\nsource: >-\n  https://m
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/merqube/refs/heads/main/authentication/merqube-authentication.yml
 summary_line: 1 scheme
 tags:
-- company
+- Company
 - Financial-Services
-- index-data
+- Index Data
 - Market Data
-- capital-markets
+- Capital Markets
 - investment-strategies
-- asset-management
+- Asset Management
 - ETFs
-- structured-products
-- quantitative-finance
+- Structured Products
+- Quantitative Finance
 - OpenAPI
 ---

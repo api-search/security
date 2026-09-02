@@ -81,8 +81,8 @@ tags:
 - Cards
 - Wallets
 - Bill Payments
-- POS
-- Micro-Finance
+- Point-of-Sale
+- Microfinance
 - Installments
 - 3D Secure
 - Refunds

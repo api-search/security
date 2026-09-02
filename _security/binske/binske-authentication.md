@@ -72,14 +72,14 @@ source_yaml: "generated: '2026-08-07'\nmethod: probed\nsource: https://shopbinsk
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/authentication/binske-authentication.yml
 summary_line: 3 schemes
 tags:
-- cannabis
-- consumer-packaged-goods
-- direct-to-consumer
+- Cannabis
+- Consumer Packaged Goods
+- Direct to Consumer
 - E-Commerce
 - Retail
-- shopify
-- agent-commerce
+- Shopify
+- Agent Commerce
 - UCP
 - MCP
-- storefront
+- Storefront
 ---

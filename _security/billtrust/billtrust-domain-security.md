@@ -36,5 +36,5 @@ tags:
 - Invoicing
 - Cash Application
 - Collection
-- Order to Cash
+- Order-to-Cash
 ---

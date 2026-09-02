@@ -34,7 +34,7 @@ tags:
 - Venture Capital
 - Pre-Seed
 - Fintech
-- Future of Work
+- Future Of Work
 - Future of Learning
 - Health Technology
 - Early Stage Investing

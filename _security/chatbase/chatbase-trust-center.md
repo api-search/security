@@ -50,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/
 summary_line: SOC 2, GDPR
 tags:
 - Artificial Intelligence
-- Chatbot
+- Chatbots
 - AI Agent
 - Customer-Support
 - Conversational AI

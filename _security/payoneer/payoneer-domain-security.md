@@ -55,12 +55,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
 - Payouts
-- cross-border payments
-- currency conversion
-- marketplace payments
+- Cross-Border Payments
+- Currency Conversion
+- Marketplace Payments
 - Fintech
-- financial services
-- mass payouts
-- checkout
+- Financial-Services
+- Mass Payouts
+- Checkout
 - REST
 ---

@@ -144,7 +144,7 @@ tags:
 - Registration
 - Event
 - Ticketing
-- Check-In
+- Check-in
 - Churches
 - Payments
 ---

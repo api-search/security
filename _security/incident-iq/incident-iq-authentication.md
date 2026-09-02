@@ -52,8 +52,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/incident-iq/re
 summary_line: http/oauth1 · 4 schemes
 tags:
 - Company
-- Edtech
-- IT Service Management
+- EdTech
+- ITSM
 - Asset Management
 - Help Desk
 - Ticketing

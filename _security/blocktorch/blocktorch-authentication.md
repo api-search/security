@@ -43,6 +43,6 @@ tags:
 - Monitoring
 - Blockchain
 - Smart Contracts
-- dApps
+- DApps
 - Developer Tools
 ---

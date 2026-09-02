@@ -61,15 +61,15 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nsource: openapi/proofdr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/authentication/proofdraw-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- randomness
-- provably-fair
+- Randomness
+- Provably Fair
 - drand
 - Verifiable Randomness
-- cryptography
+- Cryptography
 - raffle
 - giveaway
-- sweepstakes
-- lottery
+- Sweepstakes
+- Lottery
 - Verification
 - Webhook
 - REST API

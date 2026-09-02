@@ -36,7 +36,7 @@ tags:
 - Data Migration
 - Data Integration
 - CRM
-- Helpdesk
+- Help Desk
 - Software-as-a-Service
 - Migration
 - Onboarding

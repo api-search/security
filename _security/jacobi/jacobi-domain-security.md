@@ -44,15 +44,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jacobi/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- investment-management
-- portfolio-analytics
-- asset-allocation
-- multi-asset
-- wealth-management
+- Investment Management
+- Portfolio Analytics
+- Asset Allocation
+- Multi-Asset
+- Wealth Management
 - Fintech
-- risk-analytics
+- Risk Analytics
 - model-portfolios
 - ocio
 - Financial-Services
-- saas
+- Software-as-a-Service
 ---

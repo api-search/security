@@ -28,7 +28,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/changelog-md/refs/heads/main/security/changelog-md-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
-- Change Log
+- Changelog
 - Change Tracking
 - Documentation
 - Markdown

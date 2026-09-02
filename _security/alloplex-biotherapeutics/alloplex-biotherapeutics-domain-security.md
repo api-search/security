@@ -86,14 +86,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alloplex-bioth
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- biotechnology
-- cell-therapy
-- immunotherapy
-- oncology
-- cancer
-- clinical-trials
-- life-sciences
-- drug-development
+- Biotechnology
+- Cell Therapy
+- Immunotherapy
+- Oncology
+- Cancer
+- Clinical Trials
+- Life Sciences
+- Drug Development
 - autoimmunity
 - content-api
 ---

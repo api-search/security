@@ -95,7 +95,7 @@ tags:
 - Image-Generation
 - Video Generation
 - Audio
-- Multimodal
+- Multi-Modal
 - Routing
 - Failover
 ---

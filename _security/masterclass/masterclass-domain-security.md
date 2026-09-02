@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/masterclass/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Edtech
+- EdTech
 - Education
 - Online Learning
 - Streaming

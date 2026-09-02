@@ -49,5 +49,5 @@ tags:
 - Policy
 - Endorsement
 - Renewal
-- InsurTech
+- Insurtech
 ---

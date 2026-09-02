@@ -64,7 +64,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Experimentation
-- AB Testing
+- A/B Testing
 - Personalization
 - Feature Flags
 - Artificial Intelligence

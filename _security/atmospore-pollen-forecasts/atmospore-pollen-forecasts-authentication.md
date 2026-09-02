@@ -76,16 +76,16 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: openapi/atmospo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/authentication/atmospore-pollen-forecasts-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- weather
-- pollen
-- allergy
-- environmental-data
+- Weather
+- Pollen
+- Allergy
+- Environmental Data
 - Health
-- geospatial
-- forecasting
-- smart-home
+- Geospatial
+- Forecasting
+- Smart Home
 - MCP
 - OpenAPI
-- norway
-- climate
+- Norway
+- Climate
 ---

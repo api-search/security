@@ -41,7 +41,7 @@ tags:
 - NLP
 - Speech Recognition
 - Speech-to-Text
-- Text to Speech
+- Text-to-Speech
 - Intents
 - Entities
 - Voice

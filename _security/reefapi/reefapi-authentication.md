@@ -53,26 +53,26 @@ source_yaml: "generated: '2026-08-31'\nmethod: searched\nsource: https://reefapi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/authentication/reefapi-authentication.yml
 summary_line: apiKey/http-bearer · 2 schemes
 tags:
-- web-data
-- data-aggregation
-- web-scraping
-- serp
-- e-commerce
-- social-media
-- real-estate
-- jobs
-- travel
-- news
-- finance
-- reviews
-- company-intelligence
-- mcp
+- Web Data
+- Data Aggregation
+- Web Scraping
+- SERP
+- E-Commerce
+- Social-Media
+- Real-Estate
+- Job
+- Travel
+- News
+- Finance
+- Reviews
+- Company Intelligence
+- MCP
 - agent-native
-- rest
-- openapi
+- REST
+- OpenAPI
 - llms-txt
-- api-catalog
-- free-tier
-- credits
-- gateway
+- API Catalog
+- Free Tier
+- Credits
+- Gateway
 ---

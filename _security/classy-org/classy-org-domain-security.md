@@ -111,7 +111,7 @@ tags:
 - Non-Profit
 - Fundraising
 - Donations
-- Peer to Peer
+- Peer-to-Peer
 - Philanthropy
 - Payments
 - GoFundMe Pro

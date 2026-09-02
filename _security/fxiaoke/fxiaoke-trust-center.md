@@ -34,6 +34,6 @@ tags:
 - Customer Service
 - Software-as-a-Service
 - China
-- PaaS
+- Platform-as-a-Service
 trust_url: ''
 ---

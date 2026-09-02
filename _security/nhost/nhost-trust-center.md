@@ -93,7 +93,6 @@ tags:
 - Real-Time
 - Open-Source
 - Firebase Alternative
-- Backend as a Service
-- BaaS
+- Backend-as-a-Service
 trust_url: https://nhost.io/security
 ---

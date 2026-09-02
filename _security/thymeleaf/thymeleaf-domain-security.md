@@ -31,7 +31,7 @@ tags:
 - HTML
 - Java
 - Open-Source
-- Server Side Rendering
+- Server-Side Rendering
 - Spring
 - Spring Boot
 - Template Engine

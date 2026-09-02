@@ -81,14 +81,14 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - npm
 - Registry
-- package-manager
+- Package Manager
 - private-registry
 - Proxy
-- nodejs
+- Node.js
 - Open-Source
-- self-hosted
-- yarn
+- Self-Hosted
+- YARN
 - pnpm
-- docker
-- kubernetes
+- Docker
+- Kubernetes
 ---

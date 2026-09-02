@@ -45,5 +45,5 @@ tags:
 - Headless CMS
 - Content Management
 - REST
-- Multi-site
+- Multi-Site
 ---

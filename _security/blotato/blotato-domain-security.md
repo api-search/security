@@ -68,7 +68,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Social-Media
 - Publishing
-- AI Content
+- AI content
 - Automation
 - Content Creation
 ---

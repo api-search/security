@@ -37,5 +37,5 @@ tags:
 - Nutrition
 - Consumer
 - Mobile App
-- Health And Fitness
+- Health and Fitness
 ---

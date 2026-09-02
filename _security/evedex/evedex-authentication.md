@@ -690,15 +690,15 @@ source_yaml: "generated: '2026-08-26'\nmethod: derived\nsource: openapi/evedex-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/authentication/evedex-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- cryptocurrency-exchange
-- defi
-- decentralized-exchange
-- derivatives
-- perpetual-futures
-- trading
-- market-data
-- blockchain
-- web3
+- Cryptocurrency Exchange
+- DeFi
+- Decentralized Exchange
+- Derivatives
+- Perpetual Futures
+- Trading
+- Market Data
+- Blockchain
+- Web3
 - arbitrum-layer3
-- fintech
+- Fintech
 ---

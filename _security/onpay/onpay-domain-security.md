@@ -83,14 +83,14 @@ source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/security/onpay-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- payroll
-- human-resources
-- employee-benefits
+- Payroll
+- Human Resources
+- Employee Benefits
 - payroll-tax
-- small-business
-- workforce-management
+- Small Business
+- Workforce Management
 - Fintech
-- hr-tech
-- time-and-attendance
+- HR Tech
+- Time and Attendance
 - retirement-401k
 ---

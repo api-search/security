@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tecton-databri
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Feature Store
 - Feature Platform
 - Machine-Learning

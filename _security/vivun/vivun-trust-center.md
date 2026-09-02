@@ -23,7 +23,7 @@ tags:
 - B2B
 - Sales
 - Artificial Intelligence
-- PreSales
+- Presales
 - Sales Engineering
 - Revenue
 - Software-as-a-Service

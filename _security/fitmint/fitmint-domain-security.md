@@ -40,7 +40,7 @@ tags:
 - Fitness
 - Health
 - Wellness
-- Move to Earn
+- Move-to-Earn
 - Mobile
 - Rewards
 - Gamification

@@ -74,7 +74,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - DeFi
 - Options Trading
-- On-Chain
+- Onchain
 - Arbitrum
 - Ethereum
 - Liquidity Pools

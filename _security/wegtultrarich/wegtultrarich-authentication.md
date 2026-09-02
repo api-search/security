@@ -52,12 +52,11 @@ tags:
 - wealth inequality
 - economic inequality
 - Finance
-- economics
-- education
-- journalism
-- open data
-- comparison
+- Economics
+- Education
+- Journalism
+- Open Data
+- Comparison
 - MCP
-- model context protocol
 - Agents
 ---

@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/splashtop/refs
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Remote Access
 - Remote Support
 - Remote Desktop

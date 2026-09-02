@@ -34,7 +34,7 @@ tags:
 - API Discovery
 - API Governance
 - API Operations
-- Machine Readable
+- Machine-Readable
 - Specification
 - Standard
 ---

@@ -146,20 +146,20 @@ source_yaml: "generated: '2026-07-31'\nmethod: derived\nsource: openapi/anomalo-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/authentication/anomalo-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- data-quality
-- data-observability
-- data-monitoring
-- anomaly-detection
-- data-governance
-- data-lineage
-- data-profiling
-- data-validation
-- data-engineering
-- machine-learning
-- snowflake
-- databricks
-- bigquery
-- enterprise-data
+- Data Quality
+- Data Observability
+- Data Monitoring
+- Anomaly Detection
+- Data Governance
+- Data Lineage
+- Data Profiling
+- Data Validation
+- Data Engineering
+- Machine-Learning
+- Snowflake
+- Databricks
+- BigQuery
+- Enterprise Data
 - MCP
 - agent-native
 ---

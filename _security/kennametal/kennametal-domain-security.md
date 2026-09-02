@@ -34,7 +34,7 @@ tags:
 - Manufacturing
 - Industrial
 - Tooling
-- Punch-Out
+- Punchout
 - OCI
 - EDI
 - Fortune 1000

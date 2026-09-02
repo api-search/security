@@ -48,7 +48,7 @@ summary_line: TLSv1.3 · DNSSEC
 tags:
 - News
 - Articles
-- headlines
+- Headlines
 - Media
 - Aggregation
 - Real-Time

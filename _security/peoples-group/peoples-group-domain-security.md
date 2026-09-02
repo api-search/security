@@ -32,12 +32,12 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Payments
 - Canada
-- Banking-as-a-Service
+- Banking as a Service
 - Card Issuing
 - Money Movement
 - Interac e-Transfer
 - EFT
-- Bill Payment
+- Bill Payments
 - Merchant Acquiring
 - Real-Time Payments
 - ISO 20022

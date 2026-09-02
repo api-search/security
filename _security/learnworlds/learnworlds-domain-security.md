@@ -86,7 +86,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Online Courses
 - LMS
-- eLearning
+- E-Learning
 - Education
 - Course Platform
 - Creator Economy

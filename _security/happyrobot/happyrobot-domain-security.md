@@ -241,17 +241,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/happyrobot/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Agents
-- agent-orchestration
-- voice-ai
-- conversational-ai
+- Agent Orchestration
+- Voice AI
+- Conversational AI
 - Logistics
-- freight
+- Freight
 - Supply Chain
-- workflow-automation
-- contact-center
-- telephony
+- Workflow-Automation
+- Contact Center
+- Telephony
 - MCP
 - agent-native
-- agent-governance
-- enterprise-automation
+- Agent Governance
+- Enterprise Automation
 ---

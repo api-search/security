@@ -123,7 +123,7 @@ tags:
 - CPaaS
 - Webhook
 - MCP
-- Agent-native
+- agent-native
 - Australia
 - Notification
 - Two-Way Messaging

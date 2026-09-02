@@ -104,6 +104,6 @@ tags:
 - Tokenization
 - Web3
 - Compliance
-- HealthTech
+- Health Tech
 - Fintech
 ---

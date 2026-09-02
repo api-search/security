@@ -86,7 +86,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Company
 - Networking
-- Software-Defined Networking
+- Software Defined Networking
 - SDN
 - VPN
 - Security

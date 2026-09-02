@@ -87,18 +87,18 @@ source_yaml: "generated: '2026-08-25'\nmethod: searched\nsource: https://dev.lil
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/authentication/lili-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- banking
-- business-banking
+- Banking
+- Business Banking
 - Financial-Services
 - Fintech
-- embedded-finance
+- Embedded Finance
 - Onboarding
-- kyc
+- KYC
 - Webhook
 - MCP
 - agent-native
 - Invoicing
-- bill-pay
-- accounting
-- small-business
+- Bill Pay
+- Accounting
+- Small Business
 ---

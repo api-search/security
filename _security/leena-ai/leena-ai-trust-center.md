@@ -64,7 +64,7 @@ tags:
 - Artificial Intelligence
 - Enterprise Software
 - Human Resources
-- IT Service Management
+- ITSM
 - Employee Experience
 - Workflow-Automation
 - Conversational AI

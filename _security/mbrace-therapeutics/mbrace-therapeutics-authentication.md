@@ -92,13 +92,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mbrace-therape
 summary_line: 2 schemes
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- oncology
-- antibody-drug-conjugates
-- drug-discovery
-- clinical-trials
-- life-sciences
-- precision-medicine
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Antibody-Drug Conjugates
+- Drug Discovery
+- Clinical Trials
+- Life Sciences
+- Precision Medicine
 - content-api
 ---

@@ -29,7 +29,6 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - CRM
-- Customer Relationship Management
 - Real-Estate
 - Contact Management
 - Relationships

@@ -86,7 +86,7 @@ summary_line: oauth2/openIdConnect/http-bearer · 4 schemes
 tags:
 - Cloud
 - CRM
-- Customer-Service
+- Customer Service
 - Enterprise
 - Salesforce
 - Support

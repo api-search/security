@@ -146,14 +146,14 @@ source_yaml: "generated: '2026-08-30'\nmethod: searched\nsource: https://closedl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/authentication/closedloop-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
-- product intelligence
-- customer feedback
-- voice-of-customer
-- product management
-- agentic AI
+- Product Intelligence
+- Customer Feedback
+- Voice of Customer
+- Product Management
+- Agentic AI
 - MCP
 - SaaS analytics
 - A2A
 - SCIM
-- product discovery
+- Product Discovery
 ---

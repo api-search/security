@@ -33,7 +33,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/biome-makers/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Agtech
+- AgTech
 - Soil Health
 - Soil Microbiome
 - Agriculture

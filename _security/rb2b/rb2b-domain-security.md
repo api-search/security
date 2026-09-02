@@ -49,7 +49,7 @@ tags:
 - Firmographics
 - Webhook
 - Pixel
-- Adtech
+- AdTech
 - Identity Graph
 - MCP
 ---

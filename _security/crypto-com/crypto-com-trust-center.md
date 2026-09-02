@@ -79,18 +79,18 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/security/crypto-com-trust-center.yml
 summary_line: ISO 27001, PCI DSS
 tags:
-- cryptocurrency
-- crypto-exchange
+- Cryptocurrency
+- Crypto Exchange
 - Trading
 - Derivatives
 - Market Data
-- digital-assets
+- Digital Assets
 - Payments
-- merchant-payments
+- Merchant Payments
 - Blockchain
 - cronos
 - DeFi
-- staking
+- Staking
 - Fintech
 - MCP
 - agent-native

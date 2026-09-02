@@ -85,13 +85,13 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: https://www.spo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spocket/refs/heads/main/authentication/spocket-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
-- PaaS
-- application-hosting
+- Platform-as-a-Service
+- Application Hosting
 - bot-hosting
 - Developer Tools
-- agent-infrastructure
+- Agent Infrastructure
 - MCP
 - Deployment
-- serverless
+- Serverless
 - always-on
 ---

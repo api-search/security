@@ -110,7 +110,7 @@ tags:
 - Workshops
 - Ticketing
 - Gift Cards
-- Travel and Leisure
+- Travel And Leisure
 - Germany
 - Commerce
 ---

@@ -179,14 +179,14 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/security/optoro-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- returns-management
-- reverse-logistics
+- Returns Management
+- Reverse Logistics
 - Retail
 - Supply Chain
 - E-Commerce
-- fulfillment
-- drop-ship
+- Fulfillment
+- Dropship
 - Inventory
 - Webhook
-- order-management
+- Order Management
 ---

@@ -23,7 +23,7 @@ tags:
 - Competitive Intelligence
 - Sales Enablement
 - Revenue Intelligence
-- GTM
+- Go-To-Market
 - AI Agents
 - Battlecards
 - Sales

@@ -38,5 +38,4 @@ tags:
 - Incident Management
 - Security Operations
 - CRM
-- IT Service Management
 ---

@@ -34,7 +34,7 @@ tags:
 - Payments
 - Open Banking
 - Account-to-Account
-- Pay-by-Bank
+- Pay by Bank
 - Fintech
 - Acquired
 - Defunct

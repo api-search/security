@@ -66,13 +66,13 @@ summary_line: TLSv1.3
 tags:
 - Artificial Intelligence
 - LLM
-- AI API gateway
-- relay
-- OpenAI-compatible
-- Anthropic-compatible
+- AI API Gateway
+- Relay
+- OpenAI-Compatible
+- Anthropic Compatible
 - Gemini-compatible
 - Developer Tools
 - CLI coding agents
-- model routing
+- Model Routing
 - China
 ---

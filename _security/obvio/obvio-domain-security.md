@@ -33,7 +33,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/obvio/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Physical Ai
+- Physical AI
 - Traffic Safety
 - Public Safety
 - Computer-Vision

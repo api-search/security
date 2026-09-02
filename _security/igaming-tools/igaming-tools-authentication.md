@@ -42,20 +42,20 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/
 summary_line: apiKey · 1 scheme
 tags:
 - iGaming
-- online casino
-- gambling
+- Online Casino
+- Gambling
 - slot games
 - slot metadata
 - gambling regulation
-- industry news
-- jobs
+- Industry News
+- Job
 - market demand
-- analytics
+- Analytics
 - REST API
 - OpenAPI
-- MCP server
-- llms.txt
-- LLM tooling
+- MCP Server
+- llms-txt
+- LLM Tooling
 - slot RTP
 - paytable data
 - search demand

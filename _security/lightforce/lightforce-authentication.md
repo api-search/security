@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightforce/ref
 summary_line: openIdConnect/oauth2 · 2 schemes
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Orthodontics
 - Dentistry
 - Medical Devices

@@ -48,7 +48,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - DeFi
 - Yield Optimizer
-- Multichain
+- Multi-Chain
 - Blockchain
 - Ethereum
 - Arbitrum

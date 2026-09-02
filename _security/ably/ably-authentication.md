@@ -110,7 +110,7 @@ summary_line: http · 2 schemes
 tags:
 - Real-Time
 - WebSockets
-- Pub/Sub
+- Pub-Sub
 - Messaging
 - Streaming
 - Push Notifications

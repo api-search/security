@@ -95,7 +95,7 @@ tags:
 - Absence Management
 - Billing
 - Project Management
-- Stop Clock
+- Stopclock
 - Time Tracking
 - Timesheets
 ---

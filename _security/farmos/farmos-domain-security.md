@@ -71,7 +71,7 @@ tags:
 - Farm Management
 - Open-Source
 - JSON:API
-- Record Keeping
+- Recordkeeping
 - Self-Hosted
 - Drupal
 ---

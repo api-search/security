@@ -191,7 +191,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud Computing
 - Enterprise Cloud
-- Infrastructure as a Service
+- Infrastructure-as-a-Service
 - Oracle
 - Platform-as-a-Service
 - Compute
@@ -201,5 +201,5 @@ tags:
 - Kubernetes
 - Serverless
 - Monitoring
-- Event Driven
+- Event-Driven
 ---

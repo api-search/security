@@ -387,7 +387,7 @@ tags:
 - Capella
 - Cloud
 - Database
-- DBaaS
+- Database-as-a-Service
 - Eventing
 - Full-Text Search
 - Gateway

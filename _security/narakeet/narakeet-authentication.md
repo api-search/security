@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/narakeet
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/authentication/narakeet-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Text to Speech
+- Text-to-Speech
 - TTS
 - Voice
 - Audio

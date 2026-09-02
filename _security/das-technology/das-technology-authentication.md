@@ -201,7 +201,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/das-technology
 summary_line: 1 scheme
 tags:
 - Company
-- Martech
+- MarTech
 - Automotive
 - Automotive Retail
 - Marketing

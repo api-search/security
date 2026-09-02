@@ -54,7 +54,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firebase/refs/
 summary_line: apiKey/oauth2/bearer/serviceAccount/idToken · 5 schemes
 tags:
 - Company
-- Backend as a Service
+- Backend-as-a-Service
 - Application Development
 - Mobile
 - Web

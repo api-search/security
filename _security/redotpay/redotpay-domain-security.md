@@ -37,7 +37,7 @@ tags:
 - Company
 - Payments
 - Fintech
-- Stablecoin
+- Stablecoins
 - Cryptocurrency
 - Wallets
 - Agentic Payments

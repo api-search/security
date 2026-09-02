@@ -101,15 +101,15 @@ source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/merqube/refs/heads/main/security/merqube-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- company
+- Company
 - Financial-Services
-- index-data
+- Index Data
 - Market Data
-- capital-markets
+- Capital Markets
 - investment-strategies
-- asset-management
+- Asset Management
 - ETFs
-- structured-products
-- quantitative-finance
+- Structured Products
+- Quantitative Finance
 - OpenAPI
 ---

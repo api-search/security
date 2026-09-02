@@ -51,7 +51,7 @@ tags:
 - AI Agents
 - Customer-Support
 - Electric Vehicle Charging
-- eMobility
+- E-Mobility
 - OCPP
 - Chat Widget
 - Voice

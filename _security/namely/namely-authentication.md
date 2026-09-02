@@ -184,16 +184,16 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: https://develop
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/authentication/namely-authentication.yml
 summary_line: 3 schemes
 tags:
-- hr
-- human-capital-management
-- payroll
-- employee-data
+- HR
+- HCM
+- Payroll
+- Employee Data
 - Onboarding
 - Benefits
-- applicant-tracking
-- performance-management
+- Applicant Tracking
+- Performance Management
 - SCIM
-- single-sign-on
-- identity-provisioning
-- workforce-management
+- Single Sign-On
+- Identity Provisioning
+- Workforce Management
 ---

@@ -30,6 +30,6 @@ tags:
 - Payments
 - Headless
 - Software-as-a-Service
-- No Code
+- No-Code
 trust_url: https://www.wix.com/website-security
 ---

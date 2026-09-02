@@ -35,10 +35,10 @@ source_yaml: "generated: '2026-08-22'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hundredx/refs/heads/main/security/hundredx-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- customer-experience
-- consumer-insights
-- market-research
-- alternative-data
-- investment-research
-- data-licensing
+- Customer Experience
+- Consumer Insights
+- Market Research
+- Alternative Data
+- Investment Research
+- Data Licensing
 ---

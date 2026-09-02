@@ -98,5 +98,5 @@ tags:
 - Speech
 - Voice Agents
 - Telephony
-- Speech To Speech
+- Speech to Speech
 ---

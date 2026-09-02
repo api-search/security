@@ -60,7 +60,7 @@ tags:
 - Language Operations
 - LangOps
 - Machine Translation
-- Human in the Loop
+- Human-in-the-Loop
 - Artificial Intelligence
 trust_url: https://unbabeltmp.tpweb-stage.com/security/
 ---

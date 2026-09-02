@@ -66,6 +66,6 @@ tags:
 - Market Intelligence
 - Well Data
 - Software-as-a-Service
-- DirectAccess
+- Direct Access
 - Trading and Risk
 ---

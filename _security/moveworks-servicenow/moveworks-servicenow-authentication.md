@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moveworks-serv
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - AI Assistant
 - Agentic AI
 - Enterprise Automation

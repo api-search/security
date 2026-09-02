@@ -57,13 +57,13 @@ tags:
 - safer web api
 - dot lookup
 - carrier data
-- freight
-- trucking
+- Freight
+- Trucking
 - motor carrier
 - fleet intelligence
 - Sales Intelligence
-- mcp server
-- contact enrichment
-- risk
-- fraud
+- MCP Server
+- Contact Enrichment
+- Risk
+- Fraud
 ---

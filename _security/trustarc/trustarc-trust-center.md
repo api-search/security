@@ -352,6 +352,6 @@ tags:
 - Certifications
 - RegTech
 - Trust Center
-- Enterprise SaaS
+- Enterprise Saas
 trust_url: https://trust.trustarc.com/en-US/
 ---

@@ -68,7 +68,7 @@ tags:
 - Wallets
 - Loyalty
 - Fintech
-- Real Money Gaming
+- Real-Money Gaming
 - gRPC
 - Geolocation
 - Authentication

@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Agriculture
-- Agtech
+- AgTech
 - Marketplace
 - Farming
 - B2B

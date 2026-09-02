@@ -42,6 +42,6 @@ tags:
 - Vehicle Inspection
 - Field Service
 - Software-as-a-Service
-- JSON API
+- JSON:API
 - Defunct
 ---

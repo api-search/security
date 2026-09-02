@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Marketplaces
-- Child Care
+- Childcare
 - Family Benefits
 - Employee Benefits
 - Care Marketplace

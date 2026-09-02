@@ -36,7 +36,7 @@ tags:
 - Mobile Apps
 - Mobile Commerce
 - App Builder
-- DTC
+- Direct to Consumer
 - React Native
 - Push Notifications
 ---

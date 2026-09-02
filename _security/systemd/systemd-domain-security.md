@@ -198,7 +198,7 @@ tags:
 - D-Bus
 - Init
 - IPC
-- journal
+- Journal
 - Linux
 - Logging
 - Network
@@ -206,6 +206,6 @@ tags:
 - PID 1
 - Service Manager
 - System
-- Systemd
+- systemd
 - Varlink
 ---

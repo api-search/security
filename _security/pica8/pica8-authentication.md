@@ -126,16 +126,16 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: >-\n  Pica8 Amp
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/authentication/pica8-authentication.yml
 summary_line: http · 3 schemes
 tags:
-- networking
-- open-networking
-- software-defined-networking
-- network-automation
-- network-operating-system
+- Networking
+- Open Networking
+- Software Defined Networking
+- Network Automation
+- Network Operating System
 - white-box-switching
-- network-management
-- campus-networking
-- data-center-networking
-- restconf
-- netconf
+- Network Management
+- Campus Networking
+- Data Center Networking
+- RESTCONF
+- NETCONF
 - Telemetry
 ---

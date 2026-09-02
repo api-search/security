@@ -113,7 +113,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/hea
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Payments
-- POS
 - Point-of-Sale
 - Card Readers
 - Checkout

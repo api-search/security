@@ -48,15 +48,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/a-alpha-bio/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - protein-interactions
-- biotechnology
-- drug-discovery
-- antibody-engineering
-- synthetic-biology
-- machine-learning
-- training-data
-- data-licensing
-- life-sciences
+- Biotechnology
+- Drug Discovery
+- Antibody Engineering
+- Synthetic Biology
+- Machine-Learning
+- Training Data
+- Data Licensing
+- Life Sciences
 - Datasets
-- protein-design
-- bioinformatics
+- Protein Design
+- Bioinformatics
 ---

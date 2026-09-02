@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Food
-- FoodTech
+- Food Tech
 - Meal Delivery
 - Corporate Catering
 - Employee Benefits

@@ -83,11 +83,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/hea
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Payments
-- Pay-in
+- Pay-In
 - Payouts
 - Foreign Exchange
 - Tokenization
-- LATAM
+- LatAm
 - Emerging Markets
 - Pix
 - Boleto

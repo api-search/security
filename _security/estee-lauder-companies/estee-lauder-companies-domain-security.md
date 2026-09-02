@@ -39,6 +39,6 @@ tags:
 - Makeup
 - Personal Care
 - Prestige Beauty
-- Skin Care
+- Skincare
 - Fortune 500
 ---

@@ -87,15 +87,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ksq-therapeuti
 summary_line: 2 schemes
 tags:
 - Company
-- biotechnology
-- life-sciences
-- therapeutics
-- oncology
-- genomics
-- crispr
-- gene-editing
-- cell-therapy
-- clinical-stage
-- functional-genomics
+- Biotechnology
+- Life Sciences
+- Therapeutics
+- Oncology
+- Genomics
+- CRISPR
+- Gene Editing
+- Cell Therapy
+- Clinical Stage
+- Functional Genomics
 - content-api
 ---

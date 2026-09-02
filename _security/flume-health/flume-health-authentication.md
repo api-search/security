@@ -222,18 +222,18 @@ source_yaml: "generated: '2026-08-16'\nmethod: probed\nsource: >-\n  https://aut
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/authentication/flume-health-authentication.yml
 summary_line: oauth2/openIdConnect · 3 schemes
 tags:
-- healthcare
-- health-plans
-- payers
-- healthcare-data
-- data-integration
-- ipaas
+- Healthcare
+- Health Plans
+- Payers
+- Healthcare Data
+- Data Integration
+- iPaaS
 - Eligibility
-- claims
-- knowledge-graph
+- Claims
+- Knowledge Graph
 - MCP
 - agent-native
 - Authentication
-- data-engineering
-- interoperability
+- Data Engineering
+- Interoperability
 ---

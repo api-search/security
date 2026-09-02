@@ -34,7 +34,7 @@ tags:
 - Computer-Vision
 - Machine-Learning
 - Artificial Intelligence
-- Agtech
+- AgTech
 - Autonomy
 - Precision Agriculture
 - North America

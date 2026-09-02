@@ -56,13 +56,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/routific
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/routific/refs/heads/main/authentication/routific-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- RouteOptimization
+- Route Optimization
 - VRP
-- PickupAndDelivery
+- Pickup and Delivery
 - Logistics
-- LastMileDelivery
+- Last Mile Delivery
 - Delivery
-- FleetManagement
+- Fleet Management
 - Dispatch
-- DeliveryManagement
+- Delivery Management
 ---

@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Sustainability
-- CleanTech
+- Cleantech
 - Construction Materials
 - Cement
 - Mining

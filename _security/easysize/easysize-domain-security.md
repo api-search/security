@@ -44,7 +44,7 @@ tags:
 - Fashion
 - E-Commerce
 - Size Recommendation
-- Fit
+- FIT
 - Retail
 - Shopify
 - Personalization

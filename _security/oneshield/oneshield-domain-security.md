@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Property and Casualty
 - Policy Administration
 - Billing

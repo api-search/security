@@ -100,15 +100,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kriya-therapeu
 summary_line: TLSv1.3
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- gene-therapy
-- aav
-- ophthalmology
-- metabolic-disease
-- neurology
-- life-sciences
-- clinical-trials
-- biomanufacturing
+- Biotechnology
+- Pharmaceuticals
+- Gene Therapy
+- AAV
+- Ophthalmology
+- Metabolic Disease
+- Neurology
+- Life Sciences
+- Clinical Trials
+- Biomanufacturing
 - content-api
 ---

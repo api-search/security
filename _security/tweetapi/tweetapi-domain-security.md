@@ -41,13 +41,13 @@ source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tweetapi/refs/heads/main/security/tweetapi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Twitter
-- x
-- social-media
-- social-data
+- twitter
+- X
+- Social-Media
+- Social Data
 - Search
 - Analytics
-- research
+- Research
 - Developer Tools
 - MCP
 - agent-native

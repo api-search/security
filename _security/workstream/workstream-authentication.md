@@ -112,7 +112,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workstream/ref
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- Hr Tech
+- HR Tech
 - Hiring
 - Payroll
 - Onboarding

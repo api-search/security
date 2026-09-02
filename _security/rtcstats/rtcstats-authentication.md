@@ -40,10 +40,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rtcstats/refs/
 summary_line: http · 1 scheme
 tags:
 - WebRTC
-- observability
+- Observability
 - Monitoring
-- debugging
-- real-time-communications
+- Debugging
+- Real-Time Communications
 - Video
 - Voice
 - Artificial Intelligence

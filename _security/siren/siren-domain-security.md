@@ -36,5 +36,5 @@ tags:
 - Diabetes
 - Wearables
 - Medical Devices
-- HealthTech
+- Health Tech
 ---

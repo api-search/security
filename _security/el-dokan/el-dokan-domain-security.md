@@ -33,7 +33,7 @@ tags:
 - E-Commerce
 - Headless Commerce
 - Composable Commerce
-- RetailTech
+- Retail Tech
 - API-First
 - Software-as-a-Service
 - Multi-Vendor Marketplace

@@ -32,7 +32,7 @@ tags:
 - Company
 - Compute
 - Superconducting
-- Semiconductor
+- Semiconductors
 - Hardware
 - Artificial Intelligence
 - Data-Center

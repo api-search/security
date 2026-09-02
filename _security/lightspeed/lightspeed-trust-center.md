@@ -349,7 +349,6 @@ summary_line: PCI DSS, SOC 2, SOC 3, GDPR
 tags:
 - Commerce
 - Point-of-Sale
-- POS
 - Retail
 - Restaurant
 - Inventory

@@ -35,7 +35,7 @@ tags:
 - Dining
 - Recommendations
 - Social
-- Food and Drink
+- Food And Drink
 - Consumer
 - Mobile
 - Discovery

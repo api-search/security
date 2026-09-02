@@ -37,7 +37,7 @@ tags:
 - Embodied AI
 - World Models
 - Foundation Models
-- ROS2
+- ROS 2
 - EVE
 - NEO
 - Home Robotics

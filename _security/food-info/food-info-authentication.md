@@ -40,7 +40,7 @@ summary_line: 1 scheme
 tags:
 - Nutrition
 - Food
-- Food Composition
+- food-composition
 - Nutrients
 - Data
 - Open Data

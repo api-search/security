@@ -37,7 +37,7 @@ tags:
 - Machine-Learning
 - Life Sciences
 - Genomics
-- Single-Cell
+- Single Cell
 - Foundation Models
 - Healthcare
 ---

@@ -39,7 +39,7 @@ tags:
 - B2B
 - Big-Box
 - Buy Back
-- Click And Collect
+- Click and Collect
 - Delivery
 - E-Commerce
 - Furniture

@@ -33,7 +33,7 @@ tags:
 - Artificial Intelligence
 - Machine-Learning
 - Foundation Models
-- Multimodal
+- Multi-Modal
 - Computer-Vision
 - Visual Reasoning
 - Robotics

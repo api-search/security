@@ -34,7 +34,7 @@ tags:
 - Interconnect
 - Accelerator
 - Optical
-- Datacenter
+- Data-Center
 - Co-Packaged Optics
 - Silicon
 ---

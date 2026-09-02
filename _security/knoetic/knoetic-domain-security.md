@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knoetic/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Hr Tech
+- HR Tech
 - People Analytics
 - Human Resources
 - Workforce Analytics

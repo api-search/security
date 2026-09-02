@@ -39,6 +39,6 @@ tags:
 - Data Catalog
 - DCAT
 - Government Data
-- State Government
+- State-Government
 - Germany
 ---

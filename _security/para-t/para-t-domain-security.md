@@ -182,7 +182,7 @@ tags:
 - Company
 - Accounting
 - Pre-Accounting
-- e-Invoicing
+- E-Invoicing
 - Invoicing
 - Fintech
 - Software-as-a-Service

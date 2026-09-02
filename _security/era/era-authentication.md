@@ -54,7 +54,7 @@ tags:
 - Personal Finance
 - Wealth Management
 - MCP
-- Agent Native
+- agent-native
 - Open Banking
 - Authentication
 ---

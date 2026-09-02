@@ -93,7 +93,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/losant/refs/he
 summary_line: http/oauth2 · 2 schemes
 tags:
 - IoT
-- Internet Of Things
+- Internet of Things
 - Devices
 - Edge Compute
 - Embedded

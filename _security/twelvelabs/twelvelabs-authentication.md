@@ -69,7 +69,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence
 - Video Understanding
-- Multimodal
+- Multi-Modal
 - Search
 - Embeddings
 ---

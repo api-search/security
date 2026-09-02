@@ -49,7 +49,7 @@ tags:
 - Ride Hailing
 - Transportation
 - Taxi
-- Mobility as a Service
+- Mobility As A Service
 - Travel
 - Business
 - Company

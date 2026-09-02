@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/railway-app/re
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Deployment
-- PaaS
+- Platform-as-a-Service
 - Cloud
 - Infrastructure
 - GraphQL

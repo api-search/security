@@ -23,7 +23,7 @@ tags:
 - Artificial Intelligence
 - Data
 - Business Intelligence
-- Natural Language
+- Natural-Language
 - Dashboards
 - Software-as-a-Service
 trust_url: https://datapad.io/security

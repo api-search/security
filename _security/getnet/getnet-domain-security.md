@@ -55,11 +55,11 @@ tags:
 - Payments
 - Acquirer
 - Brazil
-- LATAM
+- LatAm
 - Santander
 - E-Commerce
 - In-Store Payments
-- POS
+- Point-of-Sale
 - Pix
 - Boleto
 - Cards

@@ -98,7 +98,7 @@ tags:
 - HLS
 - RTMP
 - Recording
-- Real-time Messaging
+- Real-Time Messaging
 - Live Infrastructure
 - India
 trust_url: https://www.100ms.live/security

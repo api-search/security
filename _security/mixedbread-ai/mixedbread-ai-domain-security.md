@@ -129,7 +129,7 @@ tags:
 - Retrieval
 - RAG
 - Vector Database
-- Multimodal
+- Multi-Modal
 - Parsing
 - Open Weights
 ---

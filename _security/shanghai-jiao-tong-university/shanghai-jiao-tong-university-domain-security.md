@@ -62,7 +62,7 @@ tags:
 - Course Catalog
 - Research Computing
 - Campus Life
-- OAuth
+- Authentication
 - OpenID Connect
 - SAML
 - Shibboleth

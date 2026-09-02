@@ -35,5 +35,5 @@ tags:
 - Game Development
 - Artificial Intelligence
 - Interactive Storytelling
-- Real-time AI
+- Real-Time AI
 ---

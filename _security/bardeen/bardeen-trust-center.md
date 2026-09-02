@@ -29,7 +29,7 @@ tags:
 - Data Enrichment
 - Browser Extension
 - Sales Automation
-- No Code
+- No-Code
 - Go-To-Market
 trust_url: https://www.bardeen.ai/security
 ---

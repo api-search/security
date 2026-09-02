@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/8base/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - GraphQL
-- Backend as a Service
+- Backend-as-a-Service
 - Low-Code
 - Serverless
 - App Builder

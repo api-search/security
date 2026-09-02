@@ -1104,7 +1104,7 @@ tags:
 - Marketing
 - AI Agent
 - Attendee Intelligence
-- GTM
+- Go-To-Market
 - Field Marketing
 - Pipeline
 ---

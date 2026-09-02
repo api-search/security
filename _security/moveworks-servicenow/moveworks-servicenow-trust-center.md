@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moveworks-serv
 summary_line: SOC 2 Type 2, ISO 27001, HIPAA, GDPR, FedRAMP
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - AI Assistant
 - Agentic AI
 - Enterprise Automation

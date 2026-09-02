@@ -218,17 +218,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/done/refs/head
 summary_line: apiKey · 1 scheme
 tags:
 - Developer Tools
-- utility-apis
+- Utility APIs
 - AI Agents
 - agent-native
 - x402
 - pay-per-call
 - Web3
-- crypto-payments
-- dns
+- Crypto Payments
+- DNS
 - Domains
-- email-security
-- network-security
+- Email Security
+- Network Security
 - SEO
 - OCR
 - Data

@@ -33,7 +33,7 @@ tags:
 - Crypto
 - DeFi
 - Solana
-- Stablecoin
+- Stablecoins
 - Lending
 - Blockchain
 ---

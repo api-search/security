@@ -39,5 +39,5 @@ tags:
 - Self-Custody
 - Fintech
 - Digital Assets
-- dApps
+- DApps
 ---

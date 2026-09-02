@@ -20,17 +20,17 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cequence-security/refs/heads/main/security/cequence-security-trust-center.yml
 summary_line: SOC 2 Type 2, PCI DSS v4.0.1, ISO/IEC 27001:2022
 tags:
-- api-security
-- ai-gateway
+- API Security
+- AI Gateway
 - MCP
-- agentic-ai
-- bot-management
-- api-discovery
-- api-governance
-- fraud-detection
-- waap
+- Agentic AI
+- Bot Management
+- API Discovery
+- API Governance
+- Fraud Detection
+- WAAP
 - Cybersecurity
-- api-testing
+- API Testing
 - agent-native
 trust_url: https://trust.cequence.ai/
 ---

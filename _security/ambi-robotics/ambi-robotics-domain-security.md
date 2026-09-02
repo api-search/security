@@ -40,7 +40,7 @@ tags:
 - Middle Mile
 - Reverse Logistics
 - Warehouse Automation
-- Ecommerce Fulfillment
+- E-Commerce Fulfillment
 - Postal Automation
 - Foundation Models
 - Sim2Real

@@ -52,6 +52,6 @@ tags:
 - MLOps
 - Enterprise AI
 - AI Governance
-- Low Code
+- Low-Code
 - Developer Tools
 ---

@@ -39,15 +39,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sniffcat/refs/
 summary_line: 1 scheme
 tags:
 - Threat Intelligence
-- ip-reputation
+- IP Reputation
 - abuse-database
 - Cybersecurity
 - OSINT
-- network-security
+- Network Security
 - sysadmin-tools
 - Blocklist
 - abuse-reporting
 - ip-blocklist
-- ip-intelligence
-- threat-feeds
+- IP Intelligence
+- Threat Feeds
 ---

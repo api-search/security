@@ -23,6 +23,6 @@ tags:
 - Foundation Models
 - Action Models
 - Workflow-Automation
-- Multimodal
+- Multi-Modal
 trust_url: https://trust.adept.ai/
 ---

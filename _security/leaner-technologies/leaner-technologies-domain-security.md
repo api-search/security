@@ -49,7 +49,7 @@ tags:
 - Spend Management
 - Sourcing
 - Supplier Relationship Management
-- Enterprise SaaS
+- Enterprise Saas
 - Japan
 - Indirect Spend
 ---

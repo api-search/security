@@ -74,7 +74,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/timescaledb/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Database
-- Time-Series
+- Time Series
 - PostgreSQL
 - Open-Source
 - Cloud

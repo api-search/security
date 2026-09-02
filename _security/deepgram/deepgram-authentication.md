@@ -113,8 +113,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/
 summary_line: apiKey/http · 2 schemes
 tags:
 - Artificial Intelligence
-- Speech-To-Text
-- Text-To-Speech
+- Speech-to-Text
+- Text-to-Speech
 - Transcription
 - Voice AI
 ---

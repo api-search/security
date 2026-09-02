@@ -36,6 +36,6 @@ tags:
 - Materials
 - Mycelium
 - Biomaterials
-- CleanTech
+- Cleantech
 - Manufacturing
 ---

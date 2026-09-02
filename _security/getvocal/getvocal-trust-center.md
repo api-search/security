@@ -47,6 +47,6 @@ tags:
 - Contact Center
 - Agent Governance
 - MCP
-- Agent Native
+- agent-native
 trust_url: https://trust.getvocal.ai/
 ---

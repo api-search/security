@@ -37,6 +37,6 @@ tags:
 - E-Commerce
 - Real-Estate
 - Workplace
-- Amenities
+- amenities
 - Corporate Gifting
 ---

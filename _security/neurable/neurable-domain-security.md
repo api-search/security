@@ -71,17 +71,17 @@ source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neurable/refs/heads/main/security/neurable-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- neurotechnology
-- brain-computer-interface
-- eeg
-- neuroscience
-- wearables
+- Neurotechnology
+- Brain-Computer Interface
+- EEG
+- Neuroscience
+- Wearables
 - biosignals
-- hardware
-- consumer-electronics
-- research-tools
+- Hardware
+- Consumer Electronics
+- Research Tools
 - cognitive-analytics
-- health-data
+- Health Data
 - Authentication
-- openid-connect
+- OpenID Connect
 ---

@@ -39,7 +39,7 @@ tags:
 - Health
 - HR
 - Employee Benefits
-- Well-being
+- Wellbeing
 - Telehealth
 - Software-as-a-Service
 ---

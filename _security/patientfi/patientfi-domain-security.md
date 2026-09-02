@@ -31,18 +31,18 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/patientfi/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - healthcare-financing
-- patient-financing
-- consumer-lending
+- Patient Financing
+- Consumer Lending
 - Point of Sale Financing
-- buy-now-pay-later
+- Buy Now Pay Later
 - Fintech
 - Payments
-- embedded-finance
-- aesthetics
-- plastic-surgery
-- medspa
+- Embedded Finance
+- Aesthetics
+- Plastic Surgery
+- Med Spa
 - cosmetic-dental
-- fertility
-- audiology
-- practice-management
+- Fertility
+- Audiology
+- Practice Management
 ---

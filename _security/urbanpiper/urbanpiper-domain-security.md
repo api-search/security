@@ -76,7 +76,7 @@ tags:
 - Restaurant
 - Food Delivery
 - Ordering
-- POS
+- Point-of-Sale
 - Aggregators
 - Commerce
 ---

@@ -24,7 +24,7 @@ tags:
 - Product Lifecycle Management
 - Manufacturing
 - Automotive
-- Low Code
+- Low-Code
 - Artificial Intelligence
 trust_url: https://trust.spread.ai/
 ---

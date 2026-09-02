@@ -34,6 +34,6 @@ tags:
 - Cryptocurrency
 - Data Centers
 - Mining
-- High-Performance Computing
+- High Performance Computing
 - Blockchain
 ---

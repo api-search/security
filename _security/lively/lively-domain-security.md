@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Fintech
-- Healthtech
+- Health Tech
 - Health Savings Account
 - HSA
 - FSA

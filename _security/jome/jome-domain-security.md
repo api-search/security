@@ -41,6 +41,6 @@ tags:
 - New Construction
 - Homebuilding
 - Marketplace
-- Homebuying
+- Home Buying
 - Artificial Intelligence
 ---

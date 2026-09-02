@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-16'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/security/terraform-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Infrastructure As Code
+- Infrastructure as Code
 - Cloud Infrastructure
 - DevOps
 - Open-Source

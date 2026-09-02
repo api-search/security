@@ -112,7 +112,7 @@ tags:
 - Pharmaceuticals
 - Life Sciences
 - Clinical Trials
-- Alzheimer's Disease
+- Alzheimers Disease
 - Neurology
 - Drug Development
 - Healthcare

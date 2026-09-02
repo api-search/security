@@ -220,15 +220,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terabase-energ
 summary_line: oauth2/http/apiKey · 4 schemes
 tags:
 - Solar
-- renewable-energy
-- energy-modeling
+- Renewable Energy
+- Energy Modeling
 - utility-scale-solar
-- simulation
-- photovoltaics
-- construction-technology
-- geospatial
+- Simulation
+- Photovoltaics
+- Construction Technology
+- Geospatial
 - terrain-analysis
-- climate-tech
+- Climate Tech
 - MCP
-- energy-storage
+- Energy Storage
 ---

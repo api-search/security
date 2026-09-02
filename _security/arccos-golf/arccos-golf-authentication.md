@@ -84,15 +84,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arccos-golf/re
 summary_line: oauth2/http · 2 schemes
 tags:
 - Company
-- golf
-- sports-technology
-- wearables
-- iot
+- Golf
+- Sports Technology
+- Wearables
+- IoT
 - shot-tracking
-- sports-analytics
-- performance-analytics
-- geospatial
-- consumer-hardware
+- Sports Analytics
+- Performance Analytics
+- Geospatial
+- Consumer Hardware
 - Webhook
 - Authentication
 - MCP

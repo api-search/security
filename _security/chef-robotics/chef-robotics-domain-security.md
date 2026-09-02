@@ -39,7 +39,7 @@ tags:
 - Vision Language Action
 - Foundation Models
 - ChefOS
-- Robotics As A Service
+- Robotics as a Service
 - Manipulation
 - Manufacturing Automation
 - Hardware

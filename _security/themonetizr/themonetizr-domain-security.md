@@ -48,7 +48,7 @@ tags:
 - Monetization
 - Mobile
 - Rewards
-- Ad Tech
+- AdTech
 - Programmatic
 - Unity
 ---

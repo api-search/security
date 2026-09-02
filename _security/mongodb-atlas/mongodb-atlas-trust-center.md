@@ -55,7 +55,7 @@ tags:
 - NoSQL
 - MongoDB
 - Cloud Database
-- DBaaS
+- Database-as-a-Service
 - Vector Search
 - Atlas
 trust_url: https://trust.mongodb.com/

@@ -118,7 +118,7 @@ tags:
 - Internet Intelligence
 - Attack Surface Management
 - Threat Hunting
-- Cyber Threat Intelligence
+- cyber-threat-intelligence
 - OSINT
 - Internet Scanning
 - Certificates

@@ -217,7 +217,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/catchpoint/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Devops
+- DevOps
 - Monitoring
 - Observability
 - Internet Performance Monitoring

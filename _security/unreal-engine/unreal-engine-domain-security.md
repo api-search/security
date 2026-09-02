@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unreal-engine/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - 3D
-- Blueprint
+- Blueprints
 - C++
 - Game Development
 - Game Engine

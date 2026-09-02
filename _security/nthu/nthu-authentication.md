@@ -70,7 +70,7 @@ tags:
 - Taiwan
 - Public Research University
 - Identity
-- OAuth
+- Authentication
 - Open Data
 - Campus
 - Course Catalog

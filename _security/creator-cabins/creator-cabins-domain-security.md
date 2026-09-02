@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Crypto Web3
-- Coliving
+- Co-Living
 - Community
 - DAO
 - Network City

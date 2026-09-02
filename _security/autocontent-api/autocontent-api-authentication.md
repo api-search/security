@@ -66,6 +66,6 @@ tags:
 - Podcasts
 - Video
 - Generative AI
-- Text to Speech
+- Text-to-Speech
 - Automation
 ---

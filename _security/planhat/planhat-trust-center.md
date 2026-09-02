@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planhat/refs/h
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Customer Success
 - Customer Platform
 - CRM

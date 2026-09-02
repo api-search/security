@@ -37,14 +37,14 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - crypto-treasury-management
-- digital-assets
-- decentralized-finance
-- stablecoins
-- multisig
+- Digital Assets
+- Decentralized Finance
+- Stablecoins
+- Multisig
 - Payments
 - Payouts
-- accounting
+- Accounting
 - Web3
-- ethereum
+- Ethereum
 - daos
 ---

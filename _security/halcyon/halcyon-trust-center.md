@@ -18,7 +18,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/halcyon/refs/h
 summary_line: SOC 2
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Cybersecurity
 - Ransomware
 - Endpoint Security

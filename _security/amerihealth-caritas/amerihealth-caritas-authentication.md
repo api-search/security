@@ -179,7 +179,7 @@ tags:
 - Interoperability
 - FHIR
 - CMS
-- SMART On FHIR
+- SMART on FHIR
 - Patient Access
 - Provider Directory
 ---

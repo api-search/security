@@ -33,8 +33,8 @@ tags:
 - Company
 - Artificial Intelligence
 - App Builder
-- No Code
-- Low Code
+- No-Code
+- Low-Code
 - Developer Tools
 - Web Development
 - Mobile Development

@@ -116,7 +116,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/return-path/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Martech
+- MarTech
 - Email
 - Email Deliverability
 - Email Marketing

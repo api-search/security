@@ -43,7 +43,7 @@ summary_line: note, observed, unverified_in_this_pass, unverified_note
 tags:
 - Cloud
 - CRM
-- Customer-Service
+- Customer Service
 - Enterprise
 - Salesforce
 - Support

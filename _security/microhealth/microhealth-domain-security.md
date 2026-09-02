@@ -36,6 +36,6 @@ tags:
 - Bleeding Disorders
 - Sickle Cell Disease
 - Patient Engagement
-- Real World Evidence
+- Real-World Evidence
 - Software as a Medical Device
 ---

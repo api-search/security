@@ -72,5 +72,5 @@ tags:
 - Semantic Search
 - AI Models
 - Vector Search
-- Multimodal
+- Multi-Modal
 ---

@@ -63,14 +63,14 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Identity
 - customer-identity-and-access-management
-- ciam
+- CIAM
 - Authentication
 - Authorization
-- openid-connect
-- consent-management
-- multi-factor-authentication
+- OpenID Connect
+- Consent Management
+- Multi-Factor Authentication
 - Identity Verification
-- fraud-detection
-- agentic-identity
+- Fraud Detection
+- Agentic Identity
 - Security
 ---

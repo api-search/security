@@ -49,7 +49,7 @@ tags:
 - Artificial Intelligence
 - Meetings
 - Transcription
-- Notetaking
+- Note Taking
 - Conversation Intelligence
 - Productivity
 - Video

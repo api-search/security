@@ -41,9 +41,9 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Cloud Computing
 - Data Analytics
-- IaaS
+- Infrastructure-as-a-Service
 - Machine-Learning
-- PaaS
+- Platform-as-a-Service
 - Software-as-a-Service
 - Serverless
 ---

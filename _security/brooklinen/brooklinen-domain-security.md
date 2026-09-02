@@ -63,14 +63,14 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Commerce
 - Retail
-- direct-to-consumer
-- home-goods
-- bedding
-- shopify
-- agentic-commerce
-- universal-commerce-protocol
+- Direct to Consumer
+- Home Goods
+- Bedding
+- Shopify
+- Agentic Commerce
+- Universal Commerce Protocol
 - MCP
 - agent-native
 - Catalog
-- checkout
+- Checkout
 ---

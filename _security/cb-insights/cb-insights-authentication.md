@@ -161,15 +161,15 @@ tags:
 - Company
 - Market Intelligence
 - private-company-data
-- venture-capital
-- funding-data
+- Venture Capital
+- Funding Data
 - investor-data
-- company-data
-- people-data
-- business-relationships
+- Company Data
+- People Data
+- BusinessRelationships
 - predictive-scoring
 - MCP
 - agent-native
 - Data Enrichment
-- snowflake
+- Snowflake
 ---

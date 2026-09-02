@@ -63,7 +63,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Video
-- Text to Speech
+- Text-to-Speech
 - Voice
 - Generative AI
 - Avatars

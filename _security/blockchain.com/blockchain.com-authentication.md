@@ -128,16 +128,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: openapi/blockch
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/authentication/blockchain.com-authentication.yml
 summary_line: apiKey/oauth2 · 5 schemes
 tags:
-- cryptocurrency
-- bitcoin
+- Cryptocurrency
+- Bitcoin
 - Blockchain
-- exchange
+- Exchange
 - Trading
 - Market Data
 - Payments
-- on-ramp
+- On-Ramp
 - Wallets
-- block-explorer
+- Block Explorer
 - Fintech
 - Webhook
 ---

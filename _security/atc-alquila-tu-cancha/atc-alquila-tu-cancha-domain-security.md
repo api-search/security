@@ -48,5 +48,5 @@ tags:
 - Payments
 - Mobile
 - Software-as-a-Service
-- LATAM
+- LatAm
 ---

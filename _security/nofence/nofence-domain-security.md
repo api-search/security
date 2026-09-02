@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nofence/refs/h
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Agritech
+- AgriTech
 - Livestock
 - Virtual Fencing
 - GPS Tracking

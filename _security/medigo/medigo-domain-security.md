@@ -75,7 +75,7 @@ tags:
 - Consumer
 - Healthcare
 - Insurance
-- Third Party Administrator
+- Third-Party Administrator
 - Claims
 - Cost Containment
 - Second Medical Opinion

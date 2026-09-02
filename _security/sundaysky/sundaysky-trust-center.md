@@ -30,6 +30,6 @@ tags:
 - Video Generation
 - Media
 - Analytics
-- Martech
+- MarTech
 trust_url: https://trust.sundaysky.com/
 ---

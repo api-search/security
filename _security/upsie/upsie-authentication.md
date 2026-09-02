@@ -84,7 +84,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Warranties
-- Protection Plans
+- Protection-Plans
 - Consumer Electronics
 - Repairs
 - Insurance

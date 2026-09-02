@@ -74,6 +74,6 @@ tags:
 - Enterprise Search
 - Knowledge-Management
 - Machine-Learning
-- Natural Language
+- Natural-Language
 trust_url: https://aws.amazon.com/compliance/
 ---

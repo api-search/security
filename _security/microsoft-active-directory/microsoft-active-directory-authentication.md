@@ -73,6 +73,6 @@ tags:
 - Directory Services
 - Enterprise
 - Identity
-- Ldap
+- LDAP
 - Windows
 ---

@@ -42,7 +42,7 @@ tags:
 - Container Hosting
 - Docker Hosting
 - Container As A Service
-- Platform As A Service
+- Platform-as-a-Service
 - Push To Deploy
 - Cloud Infrastructure
 - European Cloud

@@ -58,14 +58,14 @@ summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Threat Intelligence
 - Cybersecurity
-- attack-surface-management
-- internet-scanning
-- dark-web-monitoring
-- vulnerability-management
-- cve
+- Attack Surface Management
+- Internet Scanning
+- Dark Web Monitoring
+- Vulnerability Management
+- CVE
 - ExposedBuckets
-- domain-intelligence
-- whois
+- Domain Intelligence
+- WHOIS
 - OSINT
 - Security
 trust_url: https://trust.cyble.com/

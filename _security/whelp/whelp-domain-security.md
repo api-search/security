@@ -37,6 +37,6 @@ tags:
 - Live Chat
 - WhatsApp
 - CRM
-- Chatbot
+- Chatbots
 - Customer Communication
 ---

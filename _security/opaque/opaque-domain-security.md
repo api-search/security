@@ -102,16 +102,16 @@ source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/security/opaque-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- confidential-computing
+- Confidential Computing
 - confidential-ai
-- ai-governance
-- data-privacy
-- trusted-execution-environment
-- attestation
-- agentic-workflows
-- retrieval-augmented-generation
-- enterprise-ai
+- AI Governance
+- Data Privacy
+- Trusted Execution Environment
+- Attestation
+- Agentic Workflows
+- Retrieval Augmented Generation
+- Enterprise AI
 - secure-analytics
-- data-clean-room
+- Data Clean Room
 - MCP
 ---

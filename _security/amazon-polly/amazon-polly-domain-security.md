@@ -77,7 +77,7 @@ tags:
 - Artificial Intelligence
 - Machine-Learning
 - Speech Synthesis
-- Text-To-Speech
+- Text-to-Speech
 - TTS
 - Voice
 - SSML

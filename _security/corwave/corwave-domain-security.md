@@ -35,7 +35,7 @@ tags:
 - Cardiology
 - Heart Failure
 - Implantable Devices
-- Medtech
+- MedTech
 - France
 - Clinical Stage
 ---

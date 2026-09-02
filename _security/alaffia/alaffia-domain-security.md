@@ -39,6 +39,6 @@ tags:
 - Artificial Intelligence
 - Machine-Learning
 - Insurtech
-- Healthtech
+- Health Tech
 - United States
 ---

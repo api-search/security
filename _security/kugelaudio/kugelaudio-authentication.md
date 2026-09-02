@@ -142,7 +142,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/ref
 summary_line: apiKey/http · 3 schemes
 tags:
 - Voice
-- Text to Speech
+- Text-to-Speech
 - Speech Synthesis
 - Voice AI
 - Voice Cloning

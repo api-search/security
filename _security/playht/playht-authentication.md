@@ -88,7 +88,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Voice
 - TTS
-- Text to Speech
+- Text-to-Speech
 - Voice Cloning
 - Voice Agents
 - Streaming

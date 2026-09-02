@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/granulate/refs
 summary_line: TLSv1.3
 tags:
 - Company
-- Devops
+- DevOps
 - Performance
 - Continuous Profiling
 - Observability

@@ -68,7 +68,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/
 summary_line: http · 1 scheme
 tags:
 - Point-of-Sale
-- POS
 - Retail
 - Hospitality
 - Payments

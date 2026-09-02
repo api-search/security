@@ -42,7 +42,7 @@ tags:
 - Company
 - Enterprise
 - Cloud Computing
-- IaaS
+- Infrastructure-as-a-Service
 - GPU
 - Kubernetes
 - Object Storage

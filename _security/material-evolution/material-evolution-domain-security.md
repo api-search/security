@@ -32,7 +32,7 @@ tags:
 - Cement
 - Construction
 - Sustainability
-- Low Carbon
+- Low-Carbon
 - Cleantech
 - Manufacturing
 - Materials

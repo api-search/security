@@ -34,7 +34,7 @@ tags:
 - Banking
 - United States
 - Open Finance
-- Banking-as-a-Service
+- Banking as a Service
 - Institutional Banking
 - Data Aggregation
 ---

@@ -173,14 +173,14 @@ summary_line: openIdConnect/oauth2/apiKey/http · 6 schemes
 tags:
 - Blockchain
 - Web3
-- metaverse
-- digital-assets
-- nft
-- graphql
+- Metaverse
+- Digital Assets
+- NFT
+- GraphQL
 - Identity
-- openid-connect
+- OpenID Connect
 - asset-registry
-- layer-1
+- Layer 1
 - EVM
 - Gaming
 - agent-native

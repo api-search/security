@@ -176,7 +176,7 @@ tags:
 - Instant Payments
 - SEPA
 - Smart Transfer
-- Request To Pay
+- Request to Pay
 - Buy Now Pay Later
 - E-Mandates
 - Account-to-Account

@@ -164,13 +164,13 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: >-\n  https://a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scale-computing/refs/heads/main/authentication/scale-computing-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
-- edge-computing
-- hyperconverged-infrastructure
+- Edge Computing
+- Hyperconverged Infrastructure
 - Virtualization
-- infrastructure-management
-- fleet-management
-- virtual-machines
-- observability
-- infrastructure-as-code
-- kubernetes
+- Infrastructure Management
+- Fleet Management
+- Virtual Machines
+- Observability
+- Infrastructure as Code
+- Kubernetes
 ---

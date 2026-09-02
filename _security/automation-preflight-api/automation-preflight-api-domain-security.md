@@ -70,14 +70,14 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/security/automation-preflight-api-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- automation
-- integration
+- Automation
+- Integration
 - Developer Tools
-- readiness
+- Readiness
 - Testing
-- url-analysis
+- URL Analysis
 - Web Scraping
-- agent-tools
-- quality-assurance
-- site-audit
+- Agent Tools
+- Quality Assurance
+- Site Audit
 ---

@@ -90,7 +90,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - DeFi
 - Options Trading
-- On-Chain
+- Onchain
 - Arbitrum
 - Ethereum
 - Liquidity Pools

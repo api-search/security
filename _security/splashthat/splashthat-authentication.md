@@ -99,6 +99,6 @@ tags:
 - Event Management
 - Guest Registration
 - Ticketing
-- Check-In
+- Check-in
 - Analytics
 ---

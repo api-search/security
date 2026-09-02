@@ -50,7 +50,7 @@ tags:
 - Fintech
 - Card Issuing
 - Reimbursement
-- InsurTech
+- Insurtech
 - Digital Health
 - Speedinvest
 ---

@@ -430,7 +430,7 @@ tags:
 - Logistics
 - Delivery
 - Last Mile
-- Courier
+- Couriers
 - E-Commerce
 - Shipping
 - Tracking

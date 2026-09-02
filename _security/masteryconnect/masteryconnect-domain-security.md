@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/masteryconnect
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Edtech
+- EdTech
 - Assessment
 - K-12 Education
 - Formative Assessment

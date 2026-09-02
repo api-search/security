@@ -76,7 +76,7 @@ tags:
 - Public Transit
 - Real-Time
 - Trip Planning
-- Multimodal
+- Multi-Modal
 - GTFS
 - GOFS
 - Mobility

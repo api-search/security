@@ -197,16 +197,16 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: https://trust.n
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/security/nasuni-trust-center.yml
 summary_line: SOC 2 Type II, SOC 2 Type I, ISO 27001, HIPAA, CSA STAR
 tags:
-- company
-- file-storage
-- hybrid-cloud
-- object-storage
-- enterprise-storage
-- data-management
-- backup-and-recovery
-- ransomware-protection
+- Company
+- File Storage
+- Hybrid Cloud
+- Object Storage
+- Enterprise Storage
+- Data Management
+- Backup and Recovery
+- Ransomware Protection
 - Infrastructure
-- observability
+- Observability
 - MCP
 - agent-native
 trust_url: https://trust.nasuni.com/

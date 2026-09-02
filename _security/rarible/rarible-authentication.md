@@ -142,7 +142,7 @@ tags:
 - Non-Fungible Tokens
 - Marketplace
 - Aggregator
-- Multichain
+- Multi-Chain
 - Ethereum
 - Polygon
 - Arbitrum

@@ -48,14 +48,14 @@ source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/security/closedloop-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- product intelligence
-- customer feedback
-- voice-of-customer
-- product management
-- agentic AI
+- Product Intelligence
+- Customer Feedback
+- Voice of Customer
+- Product Management
+- Agentic AI
 - MCP
 - SaaS analytics
 - A2A
 - SCIM
-- product discovery
+- Product Discovery
 ---

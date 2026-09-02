@@ -22,7 +22,7 @@ tags:
 - Health
 - HR
 - Employee Benefits
-- Well-being
+- Wellbeing
 - Telehealth
 - Software-as-a-Service
 trust_url: https://nilohealth.com/trust/

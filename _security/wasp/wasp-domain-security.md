@@ -31,7 +31,7 @@ tags:
 - Company
 - Ai Enterprise Software
 - Web Framework
-- Full Stack
+- Full-Stack
 - Developer Tools
 - React
 - Node.js

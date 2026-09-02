@@ -169,14 +169,14 @@ summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Financial Data
 - Market Intelligence
-- alternative-data
-- news-api
+- Alternative Data
+- News API
 - NLP
 - ESG
-- municipal-bonds
-- credit-risk
-- company-data
-- sentiment-analysis
-- unstructured-data
-- fixed-income
+- Municipal Bonds
+- Credit Risk
+- Company Data
+- Sentiment Analysis
+- Unstructured Data
+- Fixed Income
 ---

@@ -86,7 +86,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Compute
 - Interactive Computing
-- Kernels
+- Kernel
 - Notebooks
 - Portable
 - Workbooks

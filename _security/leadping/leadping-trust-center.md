@@ -183,13 +183,13 @@ summary_line: trust center published
 tags:
 - Lead Management
 - Sales & marketing automation
-- SMS/messaging
+- SMS Messaging
 - A2P 10DLC
 - CPaaS
 - Communications
 - Voice/calling
 - Compliance & consent
-- Agent-native
+- agent-native
 - MCP
 - Lead intake
 - Conversations

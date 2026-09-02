@@ -73,7 +73,7 @@ tags:
 - Email
 - Messaging
 - Notification
-- Pub/Sub
+- Pub-Sub
 - Push Notifications
 - SMS
 trust_url: https://aws.amazon.com/compliance/

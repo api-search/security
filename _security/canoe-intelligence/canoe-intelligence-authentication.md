@@ -108,16 +108,16 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource:\n- openapi/cano
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/authentication/canoe-intelligence-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- alternative-investments
-- private-markets
-- document-automation
-- data-extraction
-- fund-administration
+- Alternative Investments
+- Private Markets
+- Document Automation
+- Data Extraction
+- Fund Administration
 - capital-calls
 - k-1-tax-documents
-- portfolio-reporting
+- Portfolio Reporting
 - Financial-Services
 - Fintech
-- wealth-management
-- institutional-investors
+- Wealth Management
+- Institutional Investors
 ---

@@ -147,7 +147,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alokai-formerl
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - E-Commerce
 - Composable Commerce
 - Headless Commerce

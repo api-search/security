@@ -33,7 +33,7 @@ tags:
 - Company
 - Staffing
 - Vendor Management
-- VMS
+- VMs
 - Recruiting
 - Marketplace
 - Contingent Workforce

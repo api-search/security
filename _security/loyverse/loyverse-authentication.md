@@ -145,7 +145,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Point-of-Sale
-- POS
 - Retail
 - Inventory
 - Cafe and Restaurant

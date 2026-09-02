@@ -33,7 +33,7 @@ tags:
 - Company
 - Insurance
 - Auto Insurance
-- InsurTech
+- Insurtech
 - Financial-Services
 - Claims
 - Partner APIs

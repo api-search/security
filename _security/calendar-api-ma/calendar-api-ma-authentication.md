@@ -57,16 +57,16 @@ source_yaml: "generated: '2026-08-18'\nmethod: derived\nsource: openapi/calendar
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/authentication/calendar-api-ma-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- holidays
-- morocco
+- Holidays
+- Morocco
 - Calendar
-- business-days
+- Business Days
 - date-utilities
-- data-engineering
+- Data Engineering
 - ETL
-- python-sdk
+- Python SDK
 - Localization
-- reference-data
-- public-holidays
-- scheduling
+- Reference Data
+- Public Holidays
+- Scheduling
 ---

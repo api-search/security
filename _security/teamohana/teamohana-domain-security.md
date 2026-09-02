@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teamohana/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Hr Tech
+- HR Tech
 - Headcount Management
 - Headcount Planning
 - Workforce Planning

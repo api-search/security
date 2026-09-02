@@ -36,5 +36,5 @@ tags:
 - Textiles
 - Nylon
 - Manufacturing
-- CleanTech
+- Cleantech
 ---

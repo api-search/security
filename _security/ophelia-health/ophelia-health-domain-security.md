@@ -39,5 +39,5 @@ tags:
 - Addiction Treatment
 - Mental Health
 - Digital Health
-- Medication Assisted Treatment
+- Medication-Assisted Treatment
 ---

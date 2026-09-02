@@ -35,7 +35,7 @@ tags:
 - Financial-Services
 - Payments
 - Cross-Border Payments
-- Stablecoin
+- Stablecoins
 - Digital Wallet
 - Banking
 - Investing

@@ -215,7 +215,7 @@ tags:
 - SMTP
 - Email API
 - Webhook
-- Inbound Email
+- inbound email
 - Email Templates
 - Email Analytics
 trust_url: ''

@@ -37,7 +37,7 @@ summary_line: http · 2 schemes
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Insurance API
 - Policy Management
 - Payments

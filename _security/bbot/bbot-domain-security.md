@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bbot/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Restaurant
-- Order And Pay
+- Order and Pay
 - Tableside
 - Hospitality
 - Point-of-Sale

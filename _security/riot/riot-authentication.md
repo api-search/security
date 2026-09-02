@@ -85,16 +85,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/riot/refs/head
 summary_line: apiKey · 1 scheme
 tags:
 - Cybersecurity
-- security-awareness
-- human-risk-management
-- phishing-simulation
+- Security Awareness
+- Human Risk Management
+- Phishing Simulation
 - employee-security
-- security-posture-management
+- Security Posture Management
 - breach-detection
-- email-security
-- saas-security
+- Email Security
+- SaaS Security
 - SCIM
 - Webhook
-- ocsf
-- france
+- OCSF
+- France
 ---

@@ -110,14 +110,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/picus-security
 summary_line: ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 22301, ISO/IEC 20000-1, SOC 2 Type 2, CSA STAR Level One
 tags:
 - Cybersecurity
-- security-validation
-- breach-and-attack-simulation
-- adversarial-exposure-validation
-- continuous-threat-exposure-management
-- penetration-testing
+- Security Validation
+- Breach and Attack Simulation
+- Adversarial Exposure Validation
+- Continuous Threat Exposure Management
+- Penetration Testing
 - Threat Intelligence
 - mitre-attack
-- detection-engineering
-- security-operations
+- Detection Engineering
+- Security Operations
 trust_url: https://www.picussecurity.com/trust-center
 ---

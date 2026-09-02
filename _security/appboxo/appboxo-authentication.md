@@ -99,7 +99,7 @@ summary_line: http-basic/bearer-token/oauth2-sso/request-signing · 6 schemes
 tags:
 - Company
 - Super App
-- Miniapps
+- Mini Apps
 - Mobile SDK
 - Embedded Finance
 - Payments

@@ -33,7 +33,7 @@ tags:
 - WebAssembly
 - Wasm
 - Extensibility
-- Plug-ins
+- Plugins
 - Developer Tools
 - SDK
 - MCP

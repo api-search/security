@@ -223,22 +223,22 @@ source_yaml: "generated: '2026-08-20'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/security/taskfolk-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- project-management
-- issue-tracking
-- task-management
-- productivity
+- Project Management
+- Issue Tracking
+- Task Management
+- Productivity
 - Collaboration
 - MCP
 - AI Agents
 - agent-native
-- agentic-commerce
+- Agentic Commerce
 - A2A
 - REST API
 - OpenAPI
 - Webhook
 - Authentication
-- agile
-- sprints
-- okr
+- Agile
+- Sprints
+- OKR
 - Developer Tools
 ---

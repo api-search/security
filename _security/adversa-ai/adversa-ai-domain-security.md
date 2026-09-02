@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adversa-ai/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ai Security
+- AI Security
 - AI Red Teaming
 - LLM Security
 - Agentic AI

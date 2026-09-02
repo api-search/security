@@ -46,7 +46,7 @@ tags:
 - Deepwater
 - Energy
 - Natural Gas
-- Oil And Gas
+- Oil and Gas
 - Petroleum
 - Upstream
 - Fortune 500

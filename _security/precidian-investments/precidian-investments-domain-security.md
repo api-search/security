@@ -31,7 +31,7 @@ tags:
 - Company
 - Financial-Services
 - Asset Management
-- Exchange Traded Funds
+- Exchange-Traded Funds
 - Mutual Funds
 - Fintech
 - Investment Products

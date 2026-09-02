@@ -127,7 +127,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Customer-Support
-- Helpdesk
+- Help Desk
 - E-Commerce
 - Shopify
 - Tickets

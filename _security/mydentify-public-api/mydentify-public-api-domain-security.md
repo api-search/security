@@ -67,14 +67,14 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/security/mydentify-public-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- product discovery
+- Product Discovery
 - startup directories
-- leaderboards
-- research
+- Leaderboards
+- Research
 - Software-as-a-Service
 - Developer Tools
 - agent-native
 - llms-txt
-- agent skills
+- Agent Skills
 - Directories
 ---

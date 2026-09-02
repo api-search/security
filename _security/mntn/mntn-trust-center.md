@@ -122,18 +122,18 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://mountai
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/security/mntn-trust-center.yml
 summary_line: SOC 2 Type II
 tags:
-- connected-tv
+- Connected TV
 - ctv-advertising
 - Advertising
-- performance-marketing
-- streaming-tv
-- media-buying
+- Performance Marketing
+- Streaming TV
+- Media Buying
 - Attribution
-- audience-targeting
-- conversion-tracking
-- programmatic-advertising
+- Audience Targeting
+- Conversion Tracking
+- Programmatic Advertising
 - private-marketplace
 - marketing-reporting
-- adtech
+- AdTech
 trust_url: ''
 ---

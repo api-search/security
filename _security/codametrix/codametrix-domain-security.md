@@ -81,15 +81,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codametrix/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- healthcare
-- health-systems
-- medical-coding
-- autonomous-coding
-- revenue-cycle-management
-- clinical-documentation
-- healthcare-ai
-- machine-learning
-- natural-language-processing
-- ehr-integration
+- Healthcare
+- Health Systems
+- Medical Coding
+- Autonomous Coding
+- Revenue Cycle Management
+- Clinical Documentation
+- Healthcare AI
+- Machine-Learning
+- Natural Language Processing
+- EHR Integration
 - Status
 ---

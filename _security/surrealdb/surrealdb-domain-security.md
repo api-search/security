@@ -41,7 +41,7 @@ tags:
 - Graph Database
 - Document Database
 - Vector Database
-- Time-Series
+- Time Series
 - SurrealQL
 - Artificial Intelligence
 - MCP

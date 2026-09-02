@@ -427,6 +427,6 @@ tags:
 - Commerce Media
 - Reporting
 - MCP
-- Agent Native
+- agent-native
 - Omnichannel
 ---

@@ -57,7 +57,7 @@ tags:
 - HL7v2
 - DICOM
 - Medical Imaging
-- De-identification
+- De-Identification
 - Interoperability
 - Cloud
 ---

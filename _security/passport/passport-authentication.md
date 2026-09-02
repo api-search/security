@@ -85,13 +85,13 @@ tags:
 - Company
 - Shipping
 - Logistics
-- cross-border-ecommerce
-- international-shipping
-- customs-compliance
-- landed-cost
+- Cross-border eCommerce
+- International Shipping
+- Customs Compliance
+- Landed Cost
 - duties-and-taxes
-- parcel-delivery
+- Parcel Delivery
 - E-Commerce
-- merchant-of-record
-- trade-compliance
+- Merchant of Record
+- Trade Compliance
 ---

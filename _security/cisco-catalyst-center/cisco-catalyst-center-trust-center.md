@@ -205,7 +205,7 @@ tags:
 - Observability
 - Telemetry
 - MCP
-- Agent Native
+- agent-native
 - Cisco
 trust_url: https://trustportal.cisco.com/c/r/ctp/trust-portal.html
 ---

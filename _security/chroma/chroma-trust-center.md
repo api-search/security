@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/he
 summary_line: SOC 2, ISO 27001
 tags:
 - Artificial Intelligence
-- AI Native
+- AI-Native
 - Apache 2.0
 - Cloud
 - Embeddings

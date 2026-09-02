@@ -30,7 +30,7 @@ tags:
 - Payments
 - Billing
 - Subscription
-- PIX
+- Pix
 - Boleto
 - Boleto Pix
 - Credit Cards

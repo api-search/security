@@ -48,7 +48,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/itslearning/re
 summary_line: oauth2/http/ims-enterprise · 3 schemes
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Education
 - EdTech
 - Learning Management System

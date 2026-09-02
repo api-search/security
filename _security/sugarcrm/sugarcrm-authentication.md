@@ -52,7 +52,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/
 summary_line: oauth2 · 1 scheme
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - CRM
 - Sales
 - Marketing

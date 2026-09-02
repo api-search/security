@@ -42,7 +42,7 @@ tags:
 - Bill Payments
 - Savings
 - Cards
-- POS
+- Point-of-Sale
 - Lending
 - Fintech
 - Nigeria

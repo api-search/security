@@ -61,16 +61,16 @@ source_yaml: "generated: '2026-08-19'\nmethod: searched\nsource: openapi/shieldl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/authentication/shieldlabs-authentication.yml
 summary_line: http · 2 schemes
 tags:
-- fraud-detection
-- abuse-prevention
-- visitor-identification
-- device-fingerprinting
-- bot-detection
+- Fraud Detection
+- Abuse Prevention
+- Visitor Identification
+- Device Fingerprinting
+- Bot Detection
 - vpn-proxy-detection
-- risk-scoring
+- Risk Scoring
 - Identity
 - Security
 - Webhook
-- anti-fraud
+- Anti-Fraud
 - traffic-quality
 ---

@@ -61,7 +61,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/articulate/ref
 summary_line: openIdConnect/oauth2 · 2 schemes
 tags:
 - Company
-- Edtech
+- EdTech
 - E-Learning
 - Learning Management
 - Training

@@ -36,7 +36,7 @@ tags:
 - Procurement
 - Marketplace
 - Supply Chain
-- Healthtech
+- Health Tech
 - ERP
 - MENA
 ---

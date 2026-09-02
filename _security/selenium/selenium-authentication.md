@@ -100,7 +100,7 @@ summary_line: 3 schemes
 tags:
 - Automation
 - Browsers
-- End-To-End Testing
+- End-to-End Testing
 - Quality Assurance
 - Testing
 - WebDriver

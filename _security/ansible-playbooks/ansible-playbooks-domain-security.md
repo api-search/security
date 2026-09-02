@@ -127,7 +127,7 @@ tags:
 - Automation
 - Configuration Management
 - DevOps
-- Infrastructure As Code
+- Infrastructure as Code
 - Orchestration
 - Playbooks
 ---

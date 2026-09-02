@@ -93,7 +93,7 @@ tags:
 - E-Signature
 - Electronic Signing
 - Digital Identity
-- e-ID
+- eID
 - BankID
 - MitID
 - Nordic

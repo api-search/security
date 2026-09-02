@@ -34,6 +34,6 @@ tags:
 - API Management
 - API Development
 - Integration Platform
-- Low Code
+- Low-Code
 - API Gateway
 ---

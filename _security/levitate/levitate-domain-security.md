@@ -70,14 +70,14 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - relationship-marketing
 - CRM
-- email-marketing
+- Email Marketing
 - Contacts
-- small-business
+- Small Business
 - Insurance
 - Financial-Services
-- nonprofit
-- marketing-automation
+- Non-Profit
+- Marketing Automation
 - MCP
 - agent-native
-- saas
+- Software-as-a-Service
 ---

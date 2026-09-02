@@ -46,14 +46,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/device-specs-a
 summary_line: apiKey · 2 schemes
 tags:
 - Mobile
-- smartphones
-- phone-specs
-- chipsets
-- hardware
+- Smartphones
+- Phone Specs
+- Chipsets
+- Hardware
 - mobile-specs
 - Devices
 - rapidapi
 - gsmarena
-- reference-data
+- Reference Data
 - Developer Tools
 ---

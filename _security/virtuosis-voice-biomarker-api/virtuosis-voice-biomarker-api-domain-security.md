@@ -60,18 +60,18 @@ source_yaml: "generated: '2026-08-18'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/security/virtuosis-voice-biomarker-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- digital health
+- Digital Health
 - voice biomarkers
 - speech analysis
 - acoustic analysis
-- medical device
-- mental health
-- wellbeing
+- Medical Device
+- Mental Health
+- Wellbeing
 - neurodegenerative screening
-- telehealth
-- remote monitoring
+- Telehealth
+- Remote Monitoring
 - communication coaching
-- clinical research
-- health AI
-- clinical decision support
+- Clinical Research
+- Health AI
+- Clinical Decision Support
 ---

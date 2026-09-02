@@ -35,6 +35,6 @@ tags:
 - Artificial Intelligence
 - Healthcare
 - Digital Therapeutics
-- Chatbot
+- Chatbots
 - Consumer App
 ---

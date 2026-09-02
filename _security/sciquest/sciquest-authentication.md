@@ -25,7 +25,7 @@ tags:
 - Company
 - Enterprise Software
 - Procurement
-- E-Procurement
+- eProcurement
 - Spend Management
 - Source-to-Pay
 - Supplier Management

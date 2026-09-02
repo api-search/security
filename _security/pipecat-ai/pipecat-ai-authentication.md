@@ -61,7 +61,7 @@ summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Voice
-- Multimodal
+- Multi-Modal
 - Agents
 - Real-Time
 - Framework

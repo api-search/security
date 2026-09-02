@@ -50,7 +50,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Fintech
-- Stablecoin
+- Stablecoins
 - Cryptocurrency
 - Payments
 - Canada

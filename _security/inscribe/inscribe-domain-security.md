@@ -55,7 +55,7 @@ tags:
 - KYC
 - KYB
 - Bank Statements
-- Pay Stubs
+- Paystubs
 - Identity Verification
 - Risk Management
 - Fintech

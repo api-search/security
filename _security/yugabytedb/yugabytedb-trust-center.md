@@ -459,7 +459,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Cloud Database
 - Database
-- DBaaS
+- Database-as-a-Service
 - Distributed SQL
 - PostgreSQL
 trust_url: https://www.yugabyte.com/trust/

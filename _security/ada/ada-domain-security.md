@@ -153,13 +153,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence
-- customer-service
+- Customer Service
 - Chatbots
-- automation
-- conversational-ai
-- helpdesk
+- Automation
+- Conversational AI
+- Help Desk
 - CRM
 - Integration
-- knowledge-management
-- data-export
+- Knowledge-Management
+- Data Export
 ---

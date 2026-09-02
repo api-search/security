@@ -68,7 +68,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Restaurant
 - Point-of-Sale
-- POS
 - Hospitality
 - Ordering
 - Payments

@@ -55,11 +55,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/hea
 summary_line: ISO 27001
 tags:
 - Payments
-- Pay-in
+- Pay-In
 - Payouts
 - Foreign Exchange
 - Tokenization
-- LATAM
+- LatAm
 - Emerging Markets
 - Pix
 - Boleto

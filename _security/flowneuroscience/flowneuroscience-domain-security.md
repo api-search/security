@@ -38,5 +38,5 @@ tags:
 - Neuroscience
 - Neurotechnology
 - Digital Health
-- Medtech
+- MedTech
 ---

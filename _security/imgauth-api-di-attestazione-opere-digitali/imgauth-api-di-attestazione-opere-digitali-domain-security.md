@@ -126,10 +126,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - digital notarization
-- timestamping
+- Timestamping
 - proof-of-existence
 - content authenticity
-- provenance
+- Provenance
 - Copyright
 - IP protection
 - Blockchain
@@ -137,6 +137,6 @@ tags:
 - OpenTimestamps
 - Security
 - Document
-- e-signature
+- E-Signature
 - MCP
 ---

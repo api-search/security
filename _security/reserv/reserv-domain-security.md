@@ -39,7 +39,7 @@ tags:
 - Claims Management
 - Insurtech
 - Third-Party Administrator
-- Property & Casualty
+- Property and Casualty
 - Artificial Intelligence
 - Data Analytics
 ---

@@ -51,7 +51,7 @@ tags:
 - Code Intelligence
 - Code Search
 - Cody
-- Amp
+- AMP
 - AI Coding Agent
 - GraphQL
 - REST API

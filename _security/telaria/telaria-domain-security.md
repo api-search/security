@@ -36,7 +36,7 @@ tags:
 - Video Advertising
 - Connected TV
 - CTV
-- Supply-Side Platform
+- Supply Side Platform
 - SSP
 - Programmatic
 - Acquired

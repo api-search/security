@@ -183,7 +183,7 @@ tags:
 - Company
 - Fintech
 - Insurance
-- InsurTech
+- Insurtech
 - Payments
 - Premium Financing
 - Billing

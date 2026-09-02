@@ -22,7 +22,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/articulate/ref
 summary_line: SOC 2, ISO 27001, FedRAMP, GDPR, CSA STAR
 tags:
 - Company
-- Edtech
+- EdTech
 - E-Learning
 - Learning Management
 - Training

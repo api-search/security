@@ -37,6 +37,6 @@ tags:
 - Wearables
 - Continuous Monitoring
 - Preventative Health
-- HealthTech
+- Health Tech
 - MCP
 ---

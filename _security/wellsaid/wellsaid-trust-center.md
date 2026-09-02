@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/
 summary_line: SOC 2, GDPR
 tags:
 - Artificial Intelligence
-- Text to Speech
+- Text-to-Speech
 - Voice
 - Audio
 - TTS

@@ -34,11 +34,11 @@ tags:
 - Underwriting
 - Artificial Intelligence
 - Insurtech
-- Property And Casualty
-- Life And Health
+- Property and Casualty
+- Life and Health
 - Risk Assessment
 - Submission Triage
 - Document Processing
 - Agentic AI
-- Enterprise SaaS
+- Enterprise Saas
 ---

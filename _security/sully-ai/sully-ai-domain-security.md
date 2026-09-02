@@ -56,7 +56,7 @@ tags:
 - SNOMED
 - Speech-to-Text
 - Audio Transcription
-- Real Time Streaming
+- Real-Time Streaming
 - WebSockets
 - Webhook
 - EHR Integration

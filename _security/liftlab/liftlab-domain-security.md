@@ -42,7 +42,7 @@ tags:
 - Marketing Mix Modeling
 - Incrementality
 - Analytics
-- Martech
+- MarTech
 - Attribution
 - Budget Optimization
 - Data Science

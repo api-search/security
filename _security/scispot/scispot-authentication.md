@@ -66,7 +66,7 @@ tags:
 - LIMS
 - ELN
 - Biotech
-- API First
+- API-First
 - Scientific Data
 - Healthcare
 ---

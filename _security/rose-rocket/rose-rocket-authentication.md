@@ -83,12 +83,12 @@ summary_line: 2 schemes
 tags:
 - Transportation
 - Logistics
-- freight
-- trucking
-- transportation-management-system
+- Freight
+- Trucking
+- Transportation Management System
 - Supply Chain
-- dispatch
+- Dispatch
 - Webhook
 - Authentication
-- canada
+- Canada
 ---

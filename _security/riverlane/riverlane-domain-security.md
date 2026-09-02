@@ -51,14 +51,14 @@ source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/riverlane/refs/heads/main/security/riverlane-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- quantum-computing
-- quantum-error-correction
+- Quantum Computing
+- Quantum Error Correction
 - Decoders
-- scientific-computing
-- python-sdk
-- graphql
-- simulation
-- research-tools
+- Scientific Computing
+- Python SDK
+- GraphQL
+- Simulation
+- Research Tools
 - Open-Source
-- hpc
+- HPC
 ---

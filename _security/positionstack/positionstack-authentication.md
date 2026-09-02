@@ -48,6 +48,6 @@ tags:
 - Maps
 - Location
 - Address Validation
-- apilayer
+- APILayer
 - Public APIs
 ---

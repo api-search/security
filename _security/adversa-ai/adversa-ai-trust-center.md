@@ -22,7 +22,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adversa-ai/ref
 summary_line: SOC 2 Type I, SOC 2 Type II, ISO 27001, GDPR, CCPA
 tags:
 - Company
-- Ai Security
+- AI Security
 - AI Red Teaming
 - LLM Security
 - Agentic AI

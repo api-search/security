@@ -34,7 +34,7 @@ tags:
 - Life Sciences
 - Genomics
 - Single Cell
-- Multi-omics
+- Multiomics
 - Bioinformatics
 - Oncology
 - Precision Medicine

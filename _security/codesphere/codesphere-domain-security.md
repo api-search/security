@@ -102,7 +102,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codesphere/ref
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Cloud
 - Deployment
 - Developer Tools

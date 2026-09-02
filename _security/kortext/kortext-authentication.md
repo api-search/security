@@ -93,15 +93,15 @@ source_yaml: "generated: '2026-08-23'\nmethod: searched\nsource: >-\n  openapi/k
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/authentication/kortext-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- education
-- edtech
-- higher-education
-- digital-textbooks
-- learning-analytics
-- artificial-intelligence
-- content-delivery
-- lti
-- libraries
-- student-engagement
-- publishing
+- Education
+- EdTech
+- Higher Education
+- Digital Textbooks
+- Learning Analytics
+- Artificial Intelligence
+- Content Delivery
+- LTI
+- Libraries
+- Student Engagement
+- Publishing
 ---

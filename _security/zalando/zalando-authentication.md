@@ -165,7 +165,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/h
 summary_line: oauth2 · 1 scheme
 tags:
 - Company
-- Consumer; Marketplace
+- Consumer Marketplace
 - Fashion
 - E-Commerce
 - Retail

@@ -26,7 +26,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/natural-intell
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Artificial Intelligence
 - Hardware
 - Neural Processor

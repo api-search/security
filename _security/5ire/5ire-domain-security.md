@@ -45,15 +45,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/5ire/refs/head
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Blockchain
-- layer-1
-- smart-contracts
+- Layer 1
+- Smart Contracts
 - EVM
 - Web3
-- substrate
-- json-rpc
-- sustainability
+- Substrate
+- JSON-RPC
+- Sustainability
 - ESG
-- proof-of-stake
-- cryptocurrency
+- Proof of Stake
+- Cryptocurrency
 - Developer Tools
 ---

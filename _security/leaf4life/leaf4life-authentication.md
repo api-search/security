@@ -89,13 +89,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leaf4life/refs
 summary_line: 1 scheme
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- clinical-trials
-- oncology
-- critical-care
-- drug-development
-- life-sciences
-- rare-disease
+- Biotechnology
+- Pharmaceuticals
+- Clinical Trials
+- Oncology
+- Critical Care
+- Drug Development
+- Life Sciences
+- Rare Disease
 - content-api
 ---

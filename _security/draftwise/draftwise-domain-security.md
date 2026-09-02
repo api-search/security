@@ -33,7 +33,7 @@ tags:
 - Company
 - Business Applications
 - Legal
-- Legaltech
+- Legal Tech
 - Contract Management
 - Contract Drafting
 - Artificial Intelligence

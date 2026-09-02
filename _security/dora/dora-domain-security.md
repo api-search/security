@@ -33,7 +33,7 @@ tags:
 - Real-Estate
 - PropTech
 - Fintech
-- Rental
+- Rentals
 - Colombia
 - Property Management
 - Payments

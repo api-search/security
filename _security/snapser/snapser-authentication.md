@@ -49,7 +49,7 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company
 - Game Development
-- Backend as a Service
+- Backend-as-a-Service
 - Game Backend
 - Authentication
 - Leaderboards

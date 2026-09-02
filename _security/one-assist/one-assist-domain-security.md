@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Consumer Protection
 - Extended Warranty
 - Device Protection

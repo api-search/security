@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/changeengine/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - HR Tech
 - Internal Communications
 - Employee Engagement

@@ -129,7 +129,7 @@ tags:
 - BYO LLM
 - Terminal
 - Polyglot
-- Tree Sitter
+- Tree-sitter
 - Repository Map
 - Pair Programming
 ---

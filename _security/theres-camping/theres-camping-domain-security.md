@@ -36,5 +36,5 @@ tags:
 - Camping
 - Retail
 - Korea
-- Second-Hand
+- Secondhand
 ---

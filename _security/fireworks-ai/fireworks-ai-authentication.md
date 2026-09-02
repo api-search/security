@@ -97,7 +97,7 @@ tags:
 - Artificial Intelligence
 - LLM
 - Inference
-- Multimodal
-- Fine-tuning
+- Multi-Modal
+- Fine-Tuning
 - GPU
 ---

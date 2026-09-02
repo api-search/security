@@ -44,7 +44,7 @@ tags:
 - Pet Insurance
 - Insurance
 - Veterinary
-- InsurTech
-- Direct Pay
+- Insurtech
+- DirectPay
 - Partner API
 ---

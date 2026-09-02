@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/
 summary_line: apiKey · 1 scheme
 tags:
 - Prospecting
-- GTM
+- Go-To-Market
 - Sales
 - Enrichment
 - Automation

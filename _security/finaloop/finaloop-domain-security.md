@@ -39,5 +39,5 @@ tags:
 - Analytics
 - Tax
 - Financial Operations
-- DTC
+- Direct to Consumer
 ---

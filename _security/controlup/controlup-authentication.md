@@ -421,20 +421,20 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: https://api.con
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/authentication/controlup-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- digital-employee-experience
-- endpoint-management
-- vdi
-- daas
-- virtual-desktop
-- observability
+- Digital Employee Experience
+- Endpoint Management
+- VDI
+- DaaS
+- Virtual Desktop
+- Observability
 - Monitoring
-- synthetic-monitoring
-- device-management
+- Synthetic Monitoring
+- Device Management
 - Compliance
-- vulnerability-management
-- workflow-automation
-- citrix
-- azure-virtual-desktop
+- Vulnerability Management
+- Workflow-Automation
+- Citrix
+- Azure Virtual Desktop
 - MCP
 - agent-native
 ---

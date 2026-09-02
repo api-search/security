@@ -33,7 +33,7 @@ tags:
 - Open-Source
 - Social Networking
 - Social-Media
-- Web Client
-- Progressive-Web-App
+- Web-Client
+- Progressive Web App
 - Authentication
 ---

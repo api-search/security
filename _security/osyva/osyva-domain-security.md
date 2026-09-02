@@ -33,7 +33,7 @@ tags:
 - Procurement
 - E-Commerce
 - Distribution
-- Agtech
+- AgTech
 - Latin America
 - Colombia
 ---

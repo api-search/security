@@ -30,7 +30,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Auto Insurance
 - Insurance Comparison
 - Price Comparison

@@ -86,14 +86,14 @@ summary_line: http · 2 schemes
 tags:
 - npm
 - Registry
-- package-manager
+- Package Manager
 - private-registry
 - Proxy
-- nodejs
+- Node.js
 - Open-Source
-- self-hosted
-- yarn
+- Self-Hosted
+- YARN
 - pnpm
-- docker
-- kubernetes
+- Docker
+- Kubernetes
 ---

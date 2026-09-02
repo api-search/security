@@ -91,7 +91,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai/Ml
+- Ai Ml
 - MCP
 - Cloud Platform
 - Developer Tools

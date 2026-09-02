@@ -45,14 +45,14 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/serbia-company-data/refs/heads/main/security/serbia-company-data-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- serbia
-- company-data
-- business-registry
+- Serbia
+- Company Data
+- Business Registry
 - Open Data
 - x402
 - base-usdc
 - OpenAPI
-- financial-statements
+- Financial Statements
 - pay-per-call
 - agent-native
 ---

@@ -207,7 +207,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads
 summary_line: apiKey/http · 3 schemes
 tags:
 - CRM
-- Customer Relationship Management
 - Marketing Automation
 - Contact Management
 - Sales

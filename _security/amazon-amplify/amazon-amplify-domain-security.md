@@ -46,7 +46,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Frontend
-- Full Stack
+- Full-Stack
 - Hosting
 - Mobile Development
 - Web Applications

@@ -256,7 +256,6 @@ summary_line: ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO/IEC 27701, ISO 90
 tags:
 - CRM
 - Sales
-- Customer Relationship Management
 - Marketing Automation
 - Lead Management
 - Customer Engagement

@@ -37,7 +37,7 @@ tags:
 - Audio Processing
 - Machine-Learning
 - Speech Recognition
-- Speech-To-Text
+- Speech-to-Text
 - Transcription
 trust_url: https://aws.amazon.com/compliance/
 ---

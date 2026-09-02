@@ -38,7 +38,7 @@ tags:
 - Medical AI
 - Generative AI
 - EHR Integration
-- SMART On FHIR
-- Evidence Based Medicine
+- SMART on FHIR
+- Evidence-Based Medicine
 - Physician Copilot
 ---

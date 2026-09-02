@@ -57,7 +57,7 @@ tags:
 - Event Streaming
 - Change Data Capture
 - Stream Processing
-- Server Sent Events
+- Server-Sent Events
 - WebSocket
 - gRPC
 - GraphQL Subscriptions

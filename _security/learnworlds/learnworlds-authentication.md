@@ -86,7 +86,7 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Online Courses
 - LMS
-- eLearning
+- E-Learning
 - Education
 - Course Platform
 - Creator Economy

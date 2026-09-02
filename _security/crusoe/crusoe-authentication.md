@@ -448,14 +448,14 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: https://docs.cr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/authentication/crusoe-authentication.yml
 summary_line: http/apiKey · 3 schemes
 tags:
-- ai-infrastructure
-- cloud-computing
-- gpu-compute
-- machine-learning
+- AI Infrastructure
+- Cloud Computing
+- GPU Compute
+- Machine-Learning
 - Inference
-- kubernetes
-- object-storage
-- infrastructure-as-a-service
+- Kubernetes
+- Object Storage
+- Infrastructure-as-a-Service
 - Energy
 - MCP
 ---

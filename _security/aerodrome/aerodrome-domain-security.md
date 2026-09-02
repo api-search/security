@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aerodrome/refs
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
-- Defi
+- DeFi
 - DEX
 - AMM
 - Base

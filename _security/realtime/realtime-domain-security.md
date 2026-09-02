@@ -53,7 +53,7 @@ tags:
 - Server-Sent Events
 - MQTT
 - Push Notifications
-- Pub Sub
+- Pub-Sub
 - Presence
 - Signaling
 - Topic

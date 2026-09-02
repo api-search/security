@@ -98,7 +98,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suger/refs/hea
 summary_line: apiKey · 1 scheme
 tags:
 - Cloud Marketplace
-- GTM
+- Go-To-Market
 - Software-as-a-Service
 - Billing
 - Entitlement

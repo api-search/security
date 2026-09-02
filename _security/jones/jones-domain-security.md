@@ -39,5 +39,5 @@ tags:
 - Construction
 - Real-Estate
 - Property Management
-- InsurTech
+- Insurtech
 ---

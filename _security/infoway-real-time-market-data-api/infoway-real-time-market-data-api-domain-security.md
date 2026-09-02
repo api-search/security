@@ -66,9 +66,9 @@ tags:
 - commodities-api
 - futures-api
 - Market Data
-- real-time-data
-- websocket
+- Real-Time Data
+- WebSocket
 - Financial Data
 - Fintech
-- historical-data
+- Historical Data
 ---

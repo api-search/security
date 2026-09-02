@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - MEMS Sensors
-- Semiconductor
+- Semiconductors
 - Sensor Hardware
 - Autonomous Systems
 - AI Infrastructure

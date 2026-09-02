@@ -33,12 +33,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/welab/refs/hea
 summary_line: mutualTLS · 1 scheme
 tags:
 - Fintech
-- digital-banking
+- Digital Banking
 - virtual-bank
-- open-banking
-- hong-kong
-- indonesia
-- consumer-lending
+- Open Banking
+- Hong Kong
+- Indonesia
+- Consumer Lending
 - Payments
 - hkma-open-api
 - Financial-Services

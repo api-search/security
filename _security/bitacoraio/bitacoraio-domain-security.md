@@ -37,7 +37,7 @@ tags:
 - Construction
 - Maintenance
 - Mobile App
-- Offline First
+- Offline-First
 - Analytics
 - Reporting
 - Task Management

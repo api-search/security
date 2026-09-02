@@ -22,7 +22,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/collectly/refs
 summary_line: HITRUST i1 Validated, SOC 2 Type 2, PCI DSS Level 1, HIPAA (Business Associate)
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Revenue Cycle Management
 - Patient Payments
 - Medical Billing

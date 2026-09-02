@@ -40,6 +40,6 @@ tags:
 - Securities
 - Banking
 - ISO Standard
-- SWIFT
+- Swift
 - Financial-Services
 ---

@@ -35,7 +35,7 @@ tags:
 - Consumer Financing
 - Point of Sale Lending
 - Home Improvement
-- Healthcare Financing
+- healthcare-financing
 - Loan Servicing
 - Merchant Services
 ---

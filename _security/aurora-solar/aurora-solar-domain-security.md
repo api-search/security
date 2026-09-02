@@ -94,7 +94,7 @@ tags:
 - Solar Design
 - PV
 - Proposals
-- CleanTech
+- Cleantech
 - Energy
 - Sales Software
 ---

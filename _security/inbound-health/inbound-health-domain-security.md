@@ -66,7 +66,7 @@ tags:
 - Company
 - Defunct
 - Healthcare
-- Hospital-at-Home
+- Hospital at Home
 - Home Health
 - Remote Patient Monitoring
 - Value-Based Care

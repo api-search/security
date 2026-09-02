@@ -42,7 +42,7 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company
 - E-Commerce
-- Multichannel
+- Multi-Channel
 - Marketplace
 - Product Information Management
 - Inventory Management

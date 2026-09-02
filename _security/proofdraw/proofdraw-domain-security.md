@@ -60,15 +60,15 @@ source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/security/proofdraw-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- randomness
-- provably-fair
+- Randomness
+- Provably Fair
 - drand
 - Verifiable Randomness
-- cryptography
+- Cryptography
 - raffle
 - giveaway
-- sweepstakes
-- lottery
+- Sweepstakes
+- Lottery
 - Verification
 - Webhook
 - REST API

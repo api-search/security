@@ -153,7 +153,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/attentive/refs
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- Martech
+- MarTech
 - SMS Marketing
 - Email Marketing
 - E-Commerce

@@ -37,7 +37,7 @@ tags:
 - Real-Estate
 - Residential Construction
 - Mortgage
-- Title And Escrow
+- Title and Escrow
 - Insurance
 - Smart Home
 - Fortune 1000

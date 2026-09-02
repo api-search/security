@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kiva-systems-a
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Physical Ai
+- Physical AI
 - Robotics
 - Warehouse Automation
 - Fulfillment

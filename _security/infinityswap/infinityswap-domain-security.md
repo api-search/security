@@ -41,7 +41,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infinityswap/r
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- Defi
+- DeFi
 - Blockchain
 - Ethereum
 - EVM

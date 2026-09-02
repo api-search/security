@@ -91,7 +91,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - ERP
 - Cloud
-- Midmarket
+- Mid-Market
 - Financials
 - CRM
 - Procurement

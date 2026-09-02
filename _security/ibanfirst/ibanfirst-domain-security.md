@@ -103,18 +103,18 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Fintech Insurtech
-- cross-border-payments
-- foreign-exchange
-- b2b-payments
-- treasury
+- Cross-Border Payments
+- Foreign Exchange
+- B2B Payments
+- Treasury
 - multi-currency-accounts
-- swift
-- sepa
-- psd2
-- open-banking
+- Swift
+- SEPA
+- PSD2
+- Open Banking
 - currency-risk-management
 - Webhook
 - MCP
-- belgium
-- europe
+- Belgium
+- Europe
 ---

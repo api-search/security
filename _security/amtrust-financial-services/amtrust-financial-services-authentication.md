@@ -56,7 +56,7 @@ summary_line: http · 1 scheme
 tags:
 - Commercial Insurance
 - Insurance
-- Property And Casualty
+- Property and Casualty
 - Small Business
 - Workers Compensation
 - Fortune 1000

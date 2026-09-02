@@ -35,7 +35,7 @@ tags:
 - Foundation Model
 - Emotional Intelligence
 - Conversational AI
-- Multimodal
+- Multi-Modal
 - Real-Time
 - Seattle
 ---

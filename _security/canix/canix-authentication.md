@@ -231,7 +231,7 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Cannabis
 - ERP
-- Seed to Sale
+- Seed-to-Sale
 - Compliance
 - Inventory Management
 - Supply Chain

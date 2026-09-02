@@ -57,5 +57,5 @@ tags:
 - Artificial Intelligence
 - Agents
 - Property Management
-- Check-In
+- Check-in
 ---

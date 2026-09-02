@@ -55,7 +55,7 @@ tags:
 - Micromobility
 - E-Scooters
 - E-Bikes
-- Mobility-as-a-Service
+- Mobility As A Service
 - Transportation
 - GBFS
 - MDS

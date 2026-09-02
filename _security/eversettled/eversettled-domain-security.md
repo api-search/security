@@ -34,7 +34,7 @@ tags:
 - Estate Settlement
 - Probate
 - Estate Planning
-- Legaltech
+- Legal Tech
 - Fintech
 - AI Assistant
 - Consumer

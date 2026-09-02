@@ -39,7 +39,7 @@ tags:
 - Document Review
 - Drafting
 - Workflows
-- Mergers And Acquisitions
+- Mergers and Acquisitions
 - Litigation
 - Enterprise
 - Stockholm

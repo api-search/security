@@ -176,7 +176,7 @@ tags:
 - SWE-Bench
 - MCP
 - Snapshots
-- microVM
+- MicroVM
 - Enterprise
 - SOC 2
 trust_url: https://runloop.ai/security-compliance

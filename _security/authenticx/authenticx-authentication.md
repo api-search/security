@@ -153,15 +153,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authenticx/ref
 summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Conversation Intelligence
-- healthcare
-- speech-analytics
-- contact-center
-- customer-experience
-- quality-assurance
-- pharmacovigilance
-- patient-experience
+- Healthcare
+- Speech Analytics
+- Contact Center
+- Customer Experience
+- Quality Assurance
+- Pharmacovigilance
+- Patient Experience
 - Transcription
-- life-sciences
+- Life Sciences
 - SCIM
 - Authentication
 ---

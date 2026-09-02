@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Automation
 - BDD
-- Behavior Driven Development
+- Behavior-Driven Development
 - Gherkin
 - Open-Source
 - Quality Assurance

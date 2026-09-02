@@ -446,20 +446,20 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coorpacademy/r
 summary_line: apiKey · 5 schemes
 tags:
 - Company
-- Saas
-- corporate-learning
-- lms
-- learning-experience-platform
-- edtech
-- elearning
-- scorm
+- Software-as-a-Service
+- Corporate Learning
+- LMS
+- Learning Experience Platform
+- EdTech
+- E-Learning
+- SCORM
 - h5p
 - SCIM
-- user-provisioning
-- learning-analytics
+- User Provisioning
+- Learning Analytics
 - Skills
 - Certifications
-- gamification
-- france
-- switzerland
+- Gamification
+- France
+- Switzerland
 ---

@@ -40,7 +40,7 @@ tags:
 - Digital Bank
 - Neobank
 - Fintech
-- PIX
+- Pix
 - E-Commerce
 - Checkout
 - Credit Card

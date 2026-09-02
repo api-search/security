@@ -42,7 +42,7 @@ tags:
 - Company
 - Electronic Invoicing
 - CFDI
-- e-Invoicing
+- E-Invoicing
 - Mexico
 - Tax Compliance
 - SAT

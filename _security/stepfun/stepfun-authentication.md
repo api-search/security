@@ -38,11 +38,11 @@ summary_line: http-bearer-api-key · 1 scheme
 tags:
 - Artificial Intelligence
 - LLM
-- Multimodal
+- Multi-Modal
 - Chat Completion
 - Audio
 - Speech
-- Text to Speech
+- Text-to-Speech
 - Speech Recognition
 - Image
 - Real-Time

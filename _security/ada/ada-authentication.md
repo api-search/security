@@ -189,13 +189,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Artificial Intelligence
-- customer-service
+- Customer Service
 - Chatbots
-- automation
-- conversational-ai
-- helpdesk
+- Automation
+- Conversational AI
+- Help Desk
 - CRM
 - Integration
-- knowledge-management
-- data-export
+- Knowledge-Management
+- Data Export
 ---

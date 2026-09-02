@@ -125,7 +125,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/h
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Customer-Support
-- Helpdesk
+- Help Desk
 - E-Commerce
 - Shopify
 - Tickets

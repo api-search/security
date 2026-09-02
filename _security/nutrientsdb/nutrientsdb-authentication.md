@@ -30,16 +30,16 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: https://www.nut
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nutrientsdb/refs/heads/main/authentication/nutrientsdb-authentication.yml
 summary_line: 0 schemes
 tags:
-- nutrition
-- food
-- nutrients
+- Nutrition
+- Food
+- Nutrients
 - food-composition
 - Data
 - Search
-- sample-data
+- Sample Data
 - Dataset
 - ai-builders
-- reference-data
+- Reference Data
 - Open Data
 - keyless-api
 ---

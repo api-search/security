@@ -58,12 +58,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalable-software-and-systems/refs/heads/main/security/scalable-software-and-systems-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- API First
+- API-First
 - Architecture Patterns
 - CQRS
 - Distributed Systems
 - Enterprise
-- Event Driven
+- Event-Driven
 - Microservices
 - Scalable Architecture
 - Software Engineering

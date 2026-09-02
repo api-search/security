@@ -44,5 +44,5 @@ tags:
 - Automotive
 - Claims Automation
 - Damage Assessment
-- InsurTech
+- Insurtech
 ---

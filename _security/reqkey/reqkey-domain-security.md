@@ -38,11 +38,11 @@ tags:
 - APIKeys
 - Authentication
 - Authorization
-- rate-limiting
-- usage-metering
-- api-analytics
-- api-management
+- Rate Limiting
+- Usage Metering
+- API Analytics
+- API Management
 - Developer Tools
-- middleware
-- observability
+- Middleware
+- Observability
 ---

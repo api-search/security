@@ -685,15 +685,15 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/security/evedex-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- cryptocurrency-exchange
-- defi
-- decentralized-exchange
-- derivatives
-- perpetual-futures
-- trading
-- market-data
-- blockchain
-- web3
+- Cryptocurrency Exchange
+- DeFi
+- Decentralized Exchange
+- Derivatives
+- Perpetual Futures
+- Trading
+- Market Data
+- Blockchain
+- Web3
 - arbitrum-layer3
-- fintech
+- Fintech
 ---

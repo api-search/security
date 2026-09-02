@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infinityswap/r
 summary_line: none · 1 scheme
 tags:
 - Company
-- Defi
+- DeFi
 - Blockchain
 - Ethereum
 - EVM

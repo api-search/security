@@ -80,13 +80,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flare-therapeu
 summary_line: 0 schemes
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- oncology
-- precision-medicine
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Precision Medicine
 - transcription-factors
-- drug-discovery
-- clinical-trials
-- life-sciences
+- Drug Discovery
+- Clinical Trials
+- Life Sciences
 - content-api
 ---

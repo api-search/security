@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- Chatbot
+- Chatbots
 - AI Agent
 - Customer-Support
 - Conversational AI

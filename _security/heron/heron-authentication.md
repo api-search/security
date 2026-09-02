@@ -335,7 +335,7 @@ tags:
 - Document Automation
 - Underwriting
 - Lending
-- Cashflow Analytics
+- Cash Flow Analytics
 - Fintech
 - Data Enrichment
 - Bank Statements

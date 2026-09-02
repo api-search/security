@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/favro/refs/hea
 summary_line: ISO 27001, PCI DSS
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Project Management
 - Collaboration
 - Agile

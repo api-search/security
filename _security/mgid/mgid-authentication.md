@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mgid/refs/head
 summary_line: apiKey · 1 scheme
 tags:
 - Native Advertising
-- Ad Tech
+- AdTech
 - Publishers
 - Advertisers
 - Campaigns

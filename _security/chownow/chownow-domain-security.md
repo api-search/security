@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Restaurant
 - Online Ordering
-- Food And Beverage
+- Food and Beverage
 - Restaurant Technology
 - Point-of-Sale
 - Delivery
@@ -46,5 +46,5 @@ tags:
 - Marketing
 - Mobile Apps
 - Independent Restaurants
-- Commission Free
+- Commission-Free
 ---

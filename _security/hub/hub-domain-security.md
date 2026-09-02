@@ -42,5 +42,5 @@ tags:
 - Datasets
 - Data Infrastructure
 - Annotation
-- Multimodal
+- Multi-Modal
 ---

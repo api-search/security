@@ -45,6 +45,6 @@ tags:
 - Object Detection
 - Web Scraping
 - Web Search
-- Multimodal
+- Multi-Modal
 - Developer Tools
 ---

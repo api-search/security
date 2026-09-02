@@ -74,7 +74,7 @@ summary_line: openIdConnect/jwt · 2 schemes
 tags:
 - Company
 - Customer-Support
-- Cobrowsing
+- Co-Browsing
 - Session Replay
 - Customer Experience
 - Developer Tools

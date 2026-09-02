@@ -31,7 +31,7 @@ tags:
 - Company
 - Consumer
 - Furniture
-- Rental
+- Rentals
 - Homes
 - E-Commerce
 - Staging

@@ -88,13 +88,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nikang-therape
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- oncology
-- precision-medicine
-- drug-discovery
-- targeted-protein-degradation
-- clinical-trials
-- life-sciences
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Precision Medicine
+- Drug Discovery
+- Targeted Protein Degradation
+- Clinical Trials
+- Life Sciences
 - content-api
 ---

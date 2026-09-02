@@ -50,7 +50,7 @@ tags:
 - ERP
 - Distribution
 - Wholesale
-- E-Procurement
+- eProcurement
 - Supply Chain
 - Order
 ---

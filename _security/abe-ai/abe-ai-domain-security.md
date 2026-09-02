@@ -34,7 +34,7 @@ tags:
 - Conversational AI
 - Financial-Services
 - Banking
-- Chatbot
+- Chatbots
 - Virtual Assistant
 - Fintech
 - Acquired

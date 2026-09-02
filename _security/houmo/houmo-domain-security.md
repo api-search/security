@@ -33,7 +33,7 @@ tags:
 - Semiconductors
 - AI Chips
 - Edge Computing
-- Compute In Memory
+- Compute-in-Memory
 - Machine-Learning
 - Hardware
 ---

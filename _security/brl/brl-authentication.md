@@ -129,10 +129,10 @@ summary_line: apiKey/http · 3 schemes
 tags:
 - Company
 - Crypto
-- Stablecoin
+- Stablecoins
 - Payments
 - Brazil
-- PIX
+- Pix
 - Fintech
 - Blockchain
 - Digital Assets

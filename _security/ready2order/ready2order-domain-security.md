@@ -255,7 +255,6 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Point-of-Sale
-- POS
 - Payments
 - Retail
 - Gastronomy

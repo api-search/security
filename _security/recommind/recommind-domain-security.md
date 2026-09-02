@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recommind/refs
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - eDiscovery
 - Legal Tech
 - Information Governance

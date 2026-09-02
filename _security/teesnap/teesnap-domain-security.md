@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Golf
 - Point-of-Sale
-- POS
 - Tee Times
 - Golf Course Management
 - Booking

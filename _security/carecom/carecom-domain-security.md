@@ -38,6 +38,6 @@ tags:
 - Marketplace
 - Caregivers
 - Two-Sided Marketplace
-- IAC
+- IaC
 - No Public API
 ---

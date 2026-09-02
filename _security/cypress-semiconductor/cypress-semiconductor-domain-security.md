@@ -40,6 +40,6 @@ tags:
 - Microcontrollers
 - NOR Flash
 - PSoC
-- Semiconductor
-- WiFi
+- Semiconductors
+- Wi-Fi
 ---

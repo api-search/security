@@ -42,7 +42,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Risk
 - Wildfire
 - Property

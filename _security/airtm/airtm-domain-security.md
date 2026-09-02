@@ -220,17 +220,17 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Payments
 - Payouts
-- cross-border-payments
+- Cross-Border Payments
 - Fintech
-- digital-wallet
-- stablecoin
+- Digital Wallet
+- Stablecoins
 - USDC
-- stellar
-- mass-payouts
-- remittances
-- latin-america
-- emerging-markets
+- Stellar
+- Mass Payouts
+- Remittances
+- Latin America
+- Emerging Markets
 - money-services-business
 - Authentication
-- openid-connect
+- OpenID Connect
 ---

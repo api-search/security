@@ -34,7 +34,7 @@ tags:
 - Autonomous Vehicles
 - Self-Driving
 - Robotaxi
-- Ride-Hailing
+- Ride Hailing
 - Alphabet
 - LiDAR
 - Computer-Vision

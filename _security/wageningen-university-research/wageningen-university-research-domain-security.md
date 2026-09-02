@@ -96,7 +96,7 @@ tags:
 - Research
 - Research Data
 - Agriculture
-- Agri-Food
+- Agrifood
 - Geospatial
 - Library
 - Open Data

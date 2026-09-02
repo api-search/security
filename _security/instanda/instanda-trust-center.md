@@ -32,7 +32,7 @@ tags:
 - Life Insurance
 - Health Insurance
 - Digital Distribution
-- No Code
+- No-Code
 - Core Systems
 - MGA
 - Brokers

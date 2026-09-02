@@ -65,7 +65,7 @@ summary_line: TLSv1.3 · DNSSEC
 tags:
 - Anti Malware
 - Blacklist
-- Cyber Security
+- Cybersecurity
 - IP Reputation
 - Network Security
 - Public APIs

@@ -52,7 +52,7 @@ tags:
 - Music
 - Music Generation
 - Generative Audio
-- Text To Music
+- Text-to-Music
 - Text To SFX
 - Royalty-Free Music
 - Background Music

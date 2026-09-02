@@ -88,14 +88,14 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/security/hevy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- company
-- fitness
+- Company
+- Fitness
 - Health
-- workout-tracking
-- strength-training
-- consumer-apps
+- Workout Tracking
+- Strength Training
+- Consumer Apps
 - Mobile
-- quantified-self
-- personal-training
-- health-data
+- Quantified Self
+- Personal Training
+- Health Data
 ---

@@ -305,7 +305,7 @@ tags:
 - Data Collaboration
 - Identity Resolution
 - Activation
-- Clean Room
+- Cleanroom
 - Privacy
 - AdTech
 - Marketing

@@ -65,7 +65,7 @@ tags:
 - Data Quality
 - Data Labeling
 - Machine-Learning
-- Human in the Loop
+- Human-in-the-Loop
 - Attestation
 - Blockchain
 - Consensus

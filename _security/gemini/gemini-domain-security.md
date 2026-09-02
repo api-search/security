@@ -101,13 +101,13 @@ tags:
 - Document Understanding
 - Embeddings
 - Function Calling
-- Generative Ai
+- Generative AI
 - Image-Generation
 - Large Language Models
 - Machine-Learning
-- Multimodal
+- Multi-Modal
 - Structured Output
-- Text-To-Speech
+- Text-to-Speech
 - Video Generation
 - Video Understanding
 ---

@@ -35,7 +35,7 @@ tags:
 - Fintech
 - Insurance
 - Real-Estate
-- Rental
+- Rentals
 - PropTech
 - Lease Guarantee
 - Renters Insurance

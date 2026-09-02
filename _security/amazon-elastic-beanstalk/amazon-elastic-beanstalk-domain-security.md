@@ -64,10 +64,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Amazon Web Services
-- Auto Scaling
+- Auto-Scaling
 - Deployment
 - Elastic Beanstalk
-- PaaS
-- Platform As A Service
+- Platform-as-a-Service
 - Web Applications
 ---

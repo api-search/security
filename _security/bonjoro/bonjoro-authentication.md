@@ -312,14 +312,14 @@ source_yaml: "generated: '2026-08-12'\nmethod: derived\nsource: openapi/_origina
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/authentication/bonjoro-authentication.yml
 summary_line: oauth2/http-bearer · 2 schemes
 tags:
-- video-messaging
+- Video Messaging
 - Customer Engagement
-- customer-success
+- Customer Success
 - Sales Engagement
-- marketing-automation
+- Marketing Automation
 - Video
-- crm-integration
-- testimonials
-- saas
-- australia
+- CRM Integration
+- Testimonials
+- Software-as-a-Service
+- Australia
 ---

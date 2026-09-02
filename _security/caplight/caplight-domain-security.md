@@ -146,14 +146,14 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/security/caplight-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- private-markets
-- secondary-market
+- Private Markets
+- Secondary Market
 - Market Data
-- venture-capital
-- company-data
+- Venture Capital
+- Company Data
 - investor-data
-- funding-rounds
-- pricing-data
+- Funding Rounds
+- Pricing Data
 - Financial Data
 - Fintech
 - MCP

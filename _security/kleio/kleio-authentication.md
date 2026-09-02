@@ -81,7 +81,7 @@ tags:
 - Conversational AI
 - Knowledge Engine
 - MCP
-- Agent To Agent
+- Agent-to-Agent
 - Retail
 - Travel
 - Real-Estate

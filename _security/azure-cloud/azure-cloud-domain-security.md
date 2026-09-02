@@ -83,12 +83,11 @@ tags:
 - Artificial Intelligence
 - Cloud Computing
 - Databases
-- IaaS
+- Infrastructure-as-a-Service
 - Infrastructure
 - Machine-Learning
 - Microsoft
 - Networking
-- PaaS
 - Platform-as-a-Service
 - Software-as-a-Service
 - Storage

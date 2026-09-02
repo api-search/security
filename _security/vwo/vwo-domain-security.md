@@ -68,7 +68,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vwo/refs/heads
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Experimentation
-- AB Testing
+- A/B Testing
 - Personalization
 - Conversion Optimization
 - Feature Flags

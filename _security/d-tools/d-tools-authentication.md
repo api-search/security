@@ -188,14 +188,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/d-tools/refs/h
 summary_line: 0 schemes
 tags:
 - av-integration
-- systems-integration
-- project-management
-- estimation
+- Systems Integration
+- Project Management
+- Estimation
 - Quoting
-- field-service-management
-- construction-tech
+- Field Service Management
+- Construction Tech
 - low-voltage
-- product-catalog
-- erp-integration
-- vertical-saas
+- Product Catalog
+- ERP Integration
+- Vertical SaaS
 ---

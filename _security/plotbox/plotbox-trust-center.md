@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plotbox/refs/h
 summary_line: ISO 27001, ISO 9001
 tags:
 - Company
-- Deathcare
+- Death Care
 - Cemetery Management
 - Funeral Homes
 - Crematory

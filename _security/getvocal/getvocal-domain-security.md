@@ -58,5 +58,5 @@ tags:
 - Contact Center
 - Agent Governance
 - MCP
-- Agent Native
+- agent-native
 ---

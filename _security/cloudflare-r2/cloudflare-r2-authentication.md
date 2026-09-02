@@ -142,7 +142,7 @@ summary_line: apiKey/http · 5 schemes
 tags:
 - Object Storage
 - Cloud Storage
-- S3-Compatible
+- S3 Compatible
 - Egress-Free
 - Buckets
 - Developer Platform

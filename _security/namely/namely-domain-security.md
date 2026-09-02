@@ -151,16 +151,16 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/security/namely-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- hr
-- human-capital-management
-- payroll
-- employee-data
+- HR
+- HCM
+- Payroll
+- Employee Data
 - Onboarding
 - Benefits
-- applicant-tracking
-- performance-management
+- Applicant Tracking
+- Performance Management
 - SCIM
-- single-sign-on
-- identity-provisioning
-- workforce-management
+- Single Sign-On
+- Identity Provisioning
+- Workforce Management
 ---

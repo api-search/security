@@ -48,7 +48,7 @@ tags:
 - Video Generation
 - Image-Generation
 - Audio Generation
-- Text to Speech
+- Text-to-Speech
 - Avatars
 - Media
 - Machine-Learning

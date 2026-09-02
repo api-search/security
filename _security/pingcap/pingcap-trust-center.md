@@ -211,16 +211,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/security/pingcap-trust-center.yml
 summary_line: ISO 27001, ISO 27701, SOC 2, PCI DSS, GDPR, HIPAA, EU-US Data Privacy Framework
 tags:
-- distributed-sql
+- Distributed SQL
 - Database
 - tidb
 - htap
 - mysql-compatible
-- cloud-database
-- dbaas
-- vector-search
-- data-migration
-- change-data-capture
+- Cloud Database
+- Database-as-a-Service
+- Vector Search
+- Data Migration
+- Change Data Capture
 - Open-Source
 - Infrastructure
 trust_url: https://www.pingcap.com/trust-hub/

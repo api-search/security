@@ -128,16 +128,16 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: openapi/opaque-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/authentication/opaque-authentication.yml
 summary_line: apiKey/http · 4 schemes
 tags:
-- confidential-computing
+- Confidential Computing
 - confidential-ai
-- ai-governance
-- data-privacy
-- trusted-execution-environment
-- attestation
-- agentic-workflows
-- retrieval-augmented-generation
-- enterprise-ai
+- AI Governance
+- Data Privacy
+- Trusted Execution Environment
+- Attestation
+- Agentic Workflows
+- Retrieval Augmented Generation
+- Enterprise AI
 - secure-analytics
-- data-clean-room
+- Data Clean Room
 - MCP
 ---

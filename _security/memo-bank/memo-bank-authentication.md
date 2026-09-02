@@ -220,17 +220,17 @@ summary_line: http/oauth2/mutualTLS · 4 schemes
 tags:
 - Company
 - Fintech Insurtech
-- banking
-- business-banking
+- Banking
+- Business Banking
 - Payments
-- sepa
-- sepa-direct-debit
+- SEPA
+- SEPA Direct Debit
 - virtual-iban
-- wire-transfers
-- open-banking
-- psd2
-- berlin-group
+- Wire Transfers
+- Open Banking
+- PSD2
+- Berlin Group
 - Webhook
 - MCP
-- france
+- France
 ---

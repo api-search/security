@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sorsa-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/authentication/sorsa-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Twitter
+- twitter
 - X
 - Social-Media
 - Data Extraction

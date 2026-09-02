@@ -90,5 +90,5 @@ tags:
 - Valuation
 - Geospatial
 - Skip Tracing
-- Prop-Tech
+- PropTech
 ---

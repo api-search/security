@@ -117,7 +117,7 @@ tags:
 - Order
 - Sales
 - Stock Management
-- Fulfilment
+- fulfilment
 - Logistics
 - Food Delivery
 - South Africa

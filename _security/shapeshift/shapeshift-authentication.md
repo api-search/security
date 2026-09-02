@@ -37,5 +37,5 @@ tags:
 - DeFi
 - Wallets
 - Trading
-- Multichain
+- Multi-Chain
 ---

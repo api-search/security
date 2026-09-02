@@ -33,7 +33,7 @@ tags:
 - Hardware
 - Magnetic Levitation
 - Semiconductors
-- Biopharmaceuticals
+- biopharmaceuticals
 - Industrial Automation
 - Vacuum Technology
 - Manufacturing

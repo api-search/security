@@ -17,11 +17,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/renovate-bot/r
 summary_line: trust center published
 tags:
 - DependencyUpdates
-- DeveloperTools
+- Developer Tools
 - Bots
 - Automation
-- SoftwareSupplyChain
-- OpenSource
+- Software Supply Chain
+- Open-Source
 - Mend
 - AGPLv3
 - Node.js

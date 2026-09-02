@@ -71,6 +71,6 @@ tags:
 - Churn
 - Shopify
 - E-Commerce
-- DTC
+- Direct to Consumer
 trust_url: https://trust.stay.ai/
 ---

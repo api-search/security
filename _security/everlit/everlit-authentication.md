@@ -73,16 +73,16 @@ summary_line: 4 schemes
 tags:
 - Audio
 - Video
-- social
+- Social
 - Podcasts
 - Media
-- publishers
+- Publishers
 - News
-- text-to-speech
+- Text-to-Speech
 - AI-voice
-- content-distribution
-- monetization
-- accessibility
+- Content Distribution
+- Monetization
+- Accessibility
 - oEmbed
 - embeddable-player
 - Advertising

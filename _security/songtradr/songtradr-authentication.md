@@ -48,15 +48,15 @@ source_yaml: "generated: '2026-08-02'\nmethod: derived\nsource: openapi/songtrad
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/authentication/songtradr-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- music
-- music-licensing
-- sync-licensing
-- music-metadata
+- Music
+- Music Licensing
+- Sync Licensing
+- Music Metadata
 - audio-tagging
-- semantic-search
-- machine-learning
+- Semantic Search
+- Machine-Learning
 - Media
-- entertainment
-- rights-management
+- Entertainment
+- Rights Management
 - Audio
 ---

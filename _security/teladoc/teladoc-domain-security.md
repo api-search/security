@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Telehealth
 - Telemedicine
 - Virtual Care

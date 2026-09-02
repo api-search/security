@@ -70,7 +70,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sift-com/refs/
 summary_line: http · 1 scheme
 tags:
 - Fraud Prevention
-- Trust And Safety
+- Trust and Safety
 - Risk Scoring
 - Identity Verification
 - Chargebacks

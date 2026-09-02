@@ -94,7 +94,7 @@ tags:
 - Pharmacy Benefits
 - Interoperability
 - FHIR
-- SMART On FHIR
+- SMART on FHIR
 - CMS
 - Patient Access
 - Provider Directory

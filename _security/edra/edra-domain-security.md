@@ -32,7 +32,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Automation
-- IT Service Management
+- ITSM
 - Process Automation
 - AI Agents
 - Enterprise Software

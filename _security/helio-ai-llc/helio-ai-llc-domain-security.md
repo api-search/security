@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Recruiting
-- Applicant Tracking System
 - ATS
 - Human Resources
 - HR Tech

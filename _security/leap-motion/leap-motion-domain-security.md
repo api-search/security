@@ -50,6 +50,6 @@ tags:
 - Gesture Recognition
 - SDK
 - Hardware
-- Human Computer Interaction
+- Human-Computer Interaction
 - OpenXR
 ---

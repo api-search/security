@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/handshake/refs
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Hr Tech
+- HR Tech
 - Careers
 - Recruiting
 - Higher Education

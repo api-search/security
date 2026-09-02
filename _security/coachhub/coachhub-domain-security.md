@@ -33,7 +33,7 @@ tags:
 - Company
 - Ai Enterprise Software
 - Digital Coaching
-- Learning And Development
+- Learning and Development
 - HR Tech
 - Employee Development
 - Software-as-a-Service

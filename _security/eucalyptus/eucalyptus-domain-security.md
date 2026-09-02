@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eucalyptus/ref
 summary_line: TLSv1.3
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Telehealth
 - Digital Health
 - Telemedicine

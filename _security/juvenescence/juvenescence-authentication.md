@@ -81,13 +81,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/juvenescence/r
 summary_line: 0 schemes
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- longevity
-- drug-discovery
-- life-sciences
-- clinical-trials
-- artificial-intelligence
-- aging
+- Biotechnology
+- Pharmaceuticals
+- Longevity
+- Drug Discovery
+- Life Sciences
+- Clinical Trials
+- Artificial Intelligence
+- Aging
 - content-api
 ---

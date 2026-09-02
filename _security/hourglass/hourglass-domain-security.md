@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hourglass/refs
 summary_line: TLSv1.3
 tags:
 - Company
-- Defi
+- DeFi
 - Blockchain
 - Ethereum
 - Tokenization

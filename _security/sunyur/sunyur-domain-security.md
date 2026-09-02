@@ -38,7 +38,7 @@ tags:
 - Company
 - Procurement
 - SRM
-- E-Procurement
+- eProcurement
 - Supplier Management
 - Digital Procurement
 - Enterprise Software

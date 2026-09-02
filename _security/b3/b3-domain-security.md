@@ -468,9 +468,9 @@ tags:
 - Blockchain
 - Web3
 - Workflow-Automation
-- Onchain Data
+- On-Chain Data
 - Gaming
 - Payments
-- Layer 3
+- Layer-3
 - Developer Tools
 ---

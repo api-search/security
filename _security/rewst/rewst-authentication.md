@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rewst/refs/hea
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- Devops
+- DevOps
 - Automation
 - iPaaS
 - RPA

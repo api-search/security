@@ -38,5 +38,5 @@ tags:
 - Software Defined Vehicle
 - ROS 2
 - Automotive
-- Safety-Critical
+- Safety Critical
 ---

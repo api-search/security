@@ -45,5 +45,5 @@ tags:
 - Foundation Models
 - Action Models
 - Workflow-Automation
-- Multimodal
+- Multi-Modal
 ---

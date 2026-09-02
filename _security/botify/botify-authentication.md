@@ -109,13 +109,12 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - SEO
 - Organic search
-- search-engine-optimization
-- web-crawling
-- log-analysis
+- Web Crawling
+- Log Analysis
 - search-console
-- marketing-analytics
+- Marketing Analytics
 - AI Search
-- data-export
+- Data Export
 - MCP
 - agent-native
 ---

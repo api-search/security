@@ -29,7 +29,7 @@ tags:
 - Content Management
 - Software-as-a-Service
 - MCP
-- Agent Native
+- agent-native
 - Authentication
 trust_url: ''
 ---

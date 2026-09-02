@@ -49,6 +49,6 @@ tags:
 - Clinical Trials
 - Neuroscience
 - Drug Discovery
-- Alzheimer's Disease
+- Alzheimers Disease
 - Company
 ---

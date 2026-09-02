@@ -164,15 +164,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/threatlocker/r
 summary_line: apiKey · 3 schemes
 tags:
 - Cybersecurity
-- zero-trust
-- endpoint-security
-- application-control
+- Zero Trust
+- Endpoint Security
+- Application-Control
 - allowlisting
-- ransomware-prevention
-- privileged-access-management
-- network-access-control
-- managed-detection-and-response
-- device-management
-- msp
+- Ransomware Prevention
+- Privileged Access Management
+- Network Access Control
+- Managed Detection and Response
+- Device Management
+- MSP
 - Compliance
 ---

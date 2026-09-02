@@ -72,7 +72,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/he
 summary_line: http · 1 scheme
 tags:
 - Company
-- Ai/Ml
+- Ai Ml
 - Artificial Intelligence
 - Machine-Learning
 - Inference

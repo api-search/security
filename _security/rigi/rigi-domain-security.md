@@ -34,7 +34,7 @@ tags:
 - Entertainment
 - Streaming
 - Video
-- Short-form Video
+- Short-Form Video
 - OTT
 - Mobile App
 - India

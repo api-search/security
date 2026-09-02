@@ -39,7 +39,7 @@ tags:
 - Developer Tools
 - Debugging
 - Virtualization
-- Safety-Critical
+- Safety Critical
 - Automotive
 - Aerospace and Defense
 - Cybersecurity

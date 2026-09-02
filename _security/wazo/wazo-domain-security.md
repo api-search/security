@@ -719,24 +719,24 @@ source_yaml: "generated: '2026-08-17'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wazo/refs/heads/main/security/wazo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- telephony
-- voip
-- unified-communications
-- ucaas
-- contact-center
+- Telephony
+- VoIP
+- Unified Communications
+- UCaaS
+- Contact Center
 - SIP
 - asterisk
 - WebRTC
 - Open-Source
-- self-hosted
-- white-label
-- pbx
-- msp
-- call-center
+- Self-Hosted
+- White Label
+- PBX
+- MSP
+- Call Center
 - Provisioning
 - Webhook
-- event-driven
+- Event-Driven
 - Chat
-- presence
+- Presence
 - CDR
 ---

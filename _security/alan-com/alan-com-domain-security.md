@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Health Insurance
 - Digital Health
-- Healthtech
+- Health Tech
 - Insurance
 - Mutuelle
 - Employee Benefits

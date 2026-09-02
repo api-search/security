@@ -38,6 +38,6 @@ tags:
 - Artificial Intelligence
 - Machine Tending
 - Developer API
-- ROS2
+- ROS 2
 - Physical AI
 ---

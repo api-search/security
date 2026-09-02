@@ -42,7 +42,7 @@ tags:
 - Knowledge Graphs
 - Defense
 - Government
-- IT Service Management
+- ITSM
 - Supply Chain
 - Social Media Intelligence
 - Enterprise Software

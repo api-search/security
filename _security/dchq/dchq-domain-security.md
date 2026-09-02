@@ -35,5 +35,5 @@ tags:
 - Cloud Automation
 - DevOps
 - Application Deployment
-- PaaS
+- Platform-as-a-Service
 ---

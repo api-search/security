@@ -52,15 +52,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acrisure/refs/
 summary_line: oauth2 · 1 scheme
 tags:
 - Insurance
-- insurance-brokerage
+- Insurance Brokerage
 - Fintech
-- employee-benefits
+- Employee Benefits
 - payroll-hr
-- reinsurance
-- risk-management
+- Reinsurance
+- Risk Management
 - Cybersecurity
-- mortgage
-- surety-bonds
+- Mortgage
+- Surety Bonds
 - MCP
 - Authentication
 ---

@@ -36,7 +36,7 @@ tags:
 - Company
 - Fintech
 - Retirement
-- 401(k)
+- 401k
 - Employee Benefits
 - Payroll
 - GraphQL

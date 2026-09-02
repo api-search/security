@@ -27,7 +27,7 @@ tags:
 - Cybersecurity
 - Cyber Risk
 - Insurance
-- InsurTech
+- Insurtech
 - Risk Analytics
 - Underwriting
 - Guidewire

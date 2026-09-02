@@ -39,5 +39,5 @@ tags:
 - Drug Discovery
 - Obesity
 - Healthcare
-- Multi-omics
+- Multiomics
 ---

@@ -59,8 +59,8 @@ source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rugspull-read-api/refs/heads/main/security/rugspull-read-api-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- bnb-smart-chain
-- bsc
+- BNB Smart Chain
+- BSC
 - wbnb
 - Read Only
 - OpenAPI
@@ -69,5 +69,5 @@ tags:
 - DeFi
 - Web3
 - crypto-market-data
-- indexer
+- Indexer
 ---

@@ -30,7 +30,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Voice
-- Text to Speech
+- Text-to-Speech
 - Speech to Speech
 - Artificial Intelligence
 - Audio

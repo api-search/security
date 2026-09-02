@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
 - Zk Coprocessor
-- Zero Knowledge Proofs
+- Zero-Knowledge Proofs
 - zkVM
 - Blockchain
 - Smart Contracts

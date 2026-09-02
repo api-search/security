@@ -67,10 +67,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/searchapi/refs
 summary_line: apiKey/http · 3 schemes
 tags:
 - Search
-- serp-api
-- google-search
+- SERP API
+- Google Search
 - Web Scraping
-- search-data
+- Search data
 - Market Intelligence
 - SEO
 - MCP

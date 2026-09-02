@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Networking
-- Software-Defined Networking
+- Software Defined Networking
 - Open Networking
 - Data-Center
 - Network Operating System

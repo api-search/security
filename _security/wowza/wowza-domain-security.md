@@ -307,7 +307,7 @@ tags:
 - Video
 - Streaming
 - Live Streaming
-- Video On Demand
+- Video-on-Demand
 - Transcoding
 - Media Server
 - RTMP

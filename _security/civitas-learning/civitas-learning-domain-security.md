@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/civitas-learni
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Edtech
+- EdTech
 - Higher Education
 - Student Success
 - Analytics

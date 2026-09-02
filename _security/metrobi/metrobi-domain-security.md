@@ -45,7 +45,7 @@ tags:
 - Company
 - Delivery
 - Logistics
-- Courier
+- Couriers
 - Last Mile Delivery
 - Route Optimization
 - Fulfillment

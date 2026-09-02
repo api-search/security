@@ -54,5 +54,5 @@ tags:
 - Business Architecture
 - Technology Architecture
 - Standard
-- Open Group
+- Open-Group
 ---

@@ -20,8 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/6sense-insight
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
-- ABM
-- Account-Based Marketing
+- Account Based Marketing
 - Intent Data
 - B2B
 - Predictive Analytics

@@ -24,14 +24,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deep-instinct/
 summary_line: SOC 2 Type II, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018:2019, PCI DSS, GDPR
 tags:
 - Cybersecurity
-- endpoint-security
+- Endpoint Security
 - malware-prevention
-- ransomware
-- deep-learning
-- threat-prevention
-- data-security
-- edr
-- soc-automation
+- Ransomware
+- Deep Learning
+- Threat Prevention
+- Data Security
+- EDR
+- SOC Automation
 - MCP
 trust_url: https://www.deepinstinct.com/compliance-certification-evaluation
 ---

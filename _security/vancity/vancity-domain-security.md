@@ -39,7 +39,7 @@ tags:
 - Banking
 - Canada
 - Credit Union
-- Co-operative
+- Cooperative
 - Interac
 - Payments
 - Data Aggregation

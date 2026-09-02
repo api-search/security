@@ -296,13 +296,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - signal-integrity
-- test-and-measurement
-- electronic-components
-- instrumentation
+- Test and Measurement
+- Electronic Components
+- Instrumentation
 - time-domain-reflectometry
 - high-speed-digital
-- datacom
-- hardware
-- grpc
+- Datacom
+- Hardware
+- gRPC
 - Manufacturing
 ---

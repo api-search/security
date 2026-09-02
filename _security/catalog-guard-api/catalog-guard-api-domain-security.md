@@ -50,11 +50,11 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - E-Commerce
 - catalog-validation
-- shopify
-- data-quality
+- Shopify
+- Data Quality
 - csv-validation
 - product-data-qa
 - data-preflight
-- data-validation
+- Data Validation
 - Retail
 ---

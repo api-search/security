@@ -83,7 +83,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signaturely/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Electronic Signature
-- eSignature
+- E-Signature
 - Document Signing
 - E-Signature API
 - Contracts

@@ -98,13 +98,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/matchpoint-the
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- drug-discovery
-- immunology
-- covalent-chemistry
+- Biotechnology
+- Pharmaceuticals
+- Drug Discovery
+- Immunology
+- Covalent Chemistry
 - chemoproteomics
-- machine-learning
-- life-sciences
+- Machine-Learning
+- Life Sciences
 - content-api
 ---

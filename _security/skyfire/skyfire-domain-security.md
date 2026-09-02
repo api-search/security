@@ -47,7 +47,7 @@ tags:
 - Identity
 - Payments
 - Authentication
-- Stablecoin
+- Stablecoins
 - MCP
 - Agentic Commerce
 - Know Your Agent

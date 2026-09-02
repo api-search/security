@@ -58,5 +58,5 @@ tags:
 - Payments
 - Headless
 - Software-as-a-Service
-- No Code
+- No-Code
 ---

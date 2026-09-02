@@ -34,7 +34,7 @@ tags:
 - Children
 - Education
 - EdTech
-- Social-Emotional Learning
+- Social Emotional Learning
 - Personalization
 - Therapy
 - Neurodiversity

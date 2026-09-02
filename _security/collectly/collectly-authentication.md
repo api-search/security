@@ -40,7 +40,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/collectly/refs
 summary_line: http · 1 scheme
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Revenue Cycle Management
 - Patient Payments
 - Medical Billing

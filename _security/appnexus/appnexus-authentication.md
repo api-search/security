@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/
 summary_line: token · 2 schemes
 tags:
 - Company
-- Adtech
+- AdTech
 - Advertising
 - Programmatic
 - Ad Exchange

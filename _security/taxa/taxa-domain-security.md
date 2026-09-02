@@ -31,7 +31,7 @@ tags:
 - Biotechnology
 - Synthetic Biology
 - Microbiome
-- Skin Care
+- Skincare
 - Consumer Health
 - Probiotics
 - Deodorant

@@ -37,15 +37,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/legal-ge-publi
 summary_line: none · 0 schemes
 tags:
 - Legal
-- law
-- legal-services
+- Law
+- Legal Services
 - Directory
-- georgia
+- Georgia
 - AI Agents
 - MCP
 - specialists
-- professional-services
+- Professional Services
 - Marketplace
-- multilingual
-- legal-tech
+- Multilingual
+- Legal Tech
 ---

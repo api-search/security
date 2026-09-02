@@ -43,7 +43,7 @@ tags:
 - Spend Management
 - Expense Management
 - Fintech
-- Cards as a Service
+- Cards-as-a-Service
 - Banking as a Service
 - Travel
 - Accounting

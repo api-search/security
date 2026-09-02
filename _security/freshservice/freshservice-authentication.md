@@ -78,7 +78,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshservice/r
 summary_line: http · 1 scheme
 tags:
 - ITSM
-- IT Service Management
 - Help Desk
 - Ticketing
 - Asset Management

@@ -40,7 +40,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/copado/refs/he
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Devops
+- DevOps
 - Salesforce
 - CI/CD
 - Release Management

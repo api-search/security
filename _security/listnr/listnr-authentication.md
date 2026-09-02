@@ -50,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/he
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence
-- Text to Speech
+- Text-to-Speech
 - TTS
 - Voice
 - Speech Synthesis

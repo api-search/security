@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nference/refs/
 summary_line: ISO/IEC 27001:2022, HIPAA
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Artificial Intelligence
 - Clinical Research
 - Life Sciences

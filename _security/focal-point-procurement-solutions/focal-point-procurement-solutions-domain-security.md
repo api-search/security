@@ -36,5 +36,5 @@ tags:
 - Contract Lifecycle Management
 - Third-Party Risk
 - Spend Management
-- Enterprise SaaS
+- Enterprise Saas
 ---

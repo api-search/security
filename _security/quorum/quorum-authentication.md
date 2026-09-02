@@ -63,7 +63,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/he
 summary_line: oauth2 · 1 scheme
 tags:
 - Energy
-- Oil & Gas
+- Oil and Gas
 - Upstream
 - Land Management
 - Royalty Accounting

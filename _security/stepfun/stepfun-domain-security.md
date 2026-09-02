@@ -48,11 +48,11 @@ summary_line: TLSv1.3 · DNSSEC
 tags:
 - Artificial Intelligence
 - LLM
-- Multimodal
+- Multi-Modal
 - Chat Completion
 - Audio
 - Speech
-- Text to Speech
+- Text-to-Speech
 - Speech Recognition
 - Image
 - Real-Time

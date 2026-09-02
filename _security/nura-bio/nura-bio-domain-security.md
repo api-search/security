@@ -73,14 +73,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- neuroscience
-- neurodegeneration
-- drug-discovery
-- life-sciences
-- clinical-trials
-- rare-disease
-- small-molecule-therapeutics
+- Biotechnology
+- Pharmaceuticals
+- Neuroscience
+- Neurodegeneration
+- Drug Discovery
+- Life Sciences
+- Clinical Trials
+- Rare Disease
+- Small Molecule Therapeutics
 - content-api
 ---

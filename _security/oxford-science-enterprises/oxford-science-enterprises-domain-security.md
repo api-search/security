@@ -33,7 +33,7 @@ tags:
 - Company
 - Life Sciences
 - Deep Tech
-- HealthTech
+- Health Tech
 - Venture Capital
 - Investment
 - University Spinouts

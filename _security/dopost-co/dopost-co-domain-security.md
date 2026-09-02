@@ -56,7 +56,7 @@ tags:
 - Facebook
 - TikTok
 - Pinterest
-- X Twitter
+- X / Twitter
 - YouTube
 - Content Management
 - REST

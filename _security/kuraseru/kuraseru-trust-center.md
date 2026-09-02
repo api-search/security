@@ -22,7 +22,7 @@ tags:
 - Healthcare
 - Elder Care
 - Nursing Care
-- Long Term Care
+- Long-Term Care
 - Digital Transformation
 - System Development
 - Japan

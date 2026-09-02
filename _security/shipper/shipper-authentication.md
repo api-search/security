@@ -38,6 +38,6 @@ tags:
 - Supply Chain
 - E-Commerce
 - Last Mile Delivery
-- Courier
+- Couriers
 - Indonesia
 ---

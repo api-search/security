@@ -40,7 +40,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smallest-ai/re
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Artificial Intelligence
-- Text to Speech
+- Text-to-Speech
 - Voice
 - Real-Time
 - Voice Agents

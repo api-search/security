@@ -37,7 +37,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - E-Commerce
-- Multichannel
+- Multi-Channel
 - Marketplace
 - Product Information Management
 - Inventory Management

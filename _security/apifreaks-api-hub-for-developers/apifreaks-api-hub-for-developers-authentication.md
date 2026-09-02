@@ -415,28 +415,28 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: openapi/apifrea
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/authentication/apifreaks-api-hub-for-developers-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- IP intelligence
-- geolocation
+- IP Intelligence
+- Geolocation
 - WHOIS
-- domain intelligence
+- Domain Intelligence
 - DNS
-- geocoding
-- email validation
-- phone validation
+- Geocoding
+- Email Validation
+- Phone Validation
 - SSL
-- web scraping
+- Web Scraping
 - Screenshots
-- PDF processing
+- PDF Processing
 - Currency
 - Forex
 - Commodities
 - financial validation
-- ZIP codes
-- weather
-- timezone
+- ZIP Codes
+- Weather
+- Timezone
 - GeoDB
-- user-agent parsing
-- astronomy
+- User-Agent Parsing
+- Astronomy
 - Developer Tools
 - MCP
 - Agent Ready

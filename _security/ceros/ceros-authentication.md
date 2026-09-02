@@ -75,7 +75,7 @@ tags:
 - CMS Integration
 - Marketing
 - Design
-- No Code
+- No-Code
 - Content Delivery
 - Media and Publishing
 - SDK

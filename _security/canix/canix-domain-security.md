@@ -206,7 +206,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cannabis
 - ERP
-- Seed to Sale
+- Seed-to-Sale
 - Compliance
 - Inventory Management
 - Supply Chain

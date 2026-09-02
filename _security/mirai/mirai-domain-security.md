@@ -44,5 +44,5 @@ tags:
 - Machine-Learning
 - Edge AI
 - Apple Silicon
-- Text to Speech
+- Text-to-Speech
 ---

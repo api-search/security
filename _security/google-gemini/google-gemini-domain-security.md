@@ -71,5 +71,5 @@ tags:
 - Image-Generation
 - LLM
 - Machine-Learning
-- Multimodal
+- Multi-Modal
 ---

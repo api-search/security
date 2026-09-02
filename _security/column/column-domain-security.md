@@ -150,7 +150,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Fintech
 - Banking
-- BaaS
+- Backend-as-a-Service
 - ACH
 - Wires
 ---

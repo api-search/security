@@ -57,6 +57,6 @@ tags:
 - Ticket Triage
 - Agentic AI
 - Voice AI
-- Helpdesk
+- Help Desk
 - Multi-Agent
 ---

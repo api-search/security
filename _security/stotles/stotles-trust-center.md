@@ -53,7 +53,7 @@ tags:
 - Market Intelligence
 - OpenAPI
 - MCP
-- Agent Native
+- agent-native
 - Contract Awards
 - Framework Agreements
 - CPV

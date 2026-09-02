@@ -184,7 +184,7 @@ tags:
 - Reviews
 - Messaging
 - Payments
-- Webchat
+- Web Chat
 - Local Business
 - SMS
 - Lead Generation

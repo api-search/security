@@ -48,5 +48,5 @@ tags:
 - Umbrella Insurance
 - Quote to Bind
 - GraphQL
-- InsurTech
+- Insurtech
 ---

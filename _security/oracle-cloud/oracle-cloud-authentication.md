@@ -195,7 +195,7 @@ summary_line: http-signature · 1 scheme
 tags:
 - Cloud Computing
 - Enterprise Cloud
-- Infrastructure as a Service
+- Infrastructure-as-a-Service
 - Oracle
 - Platform-as-a-Service
 - Compute
@@ -205,5 +205,5 @@ tags:
 - Kubernetes
 - Serverless
 - Monitoring
-- Event Driven
+- Event-Driven
 ---

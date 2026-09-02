@@ -507,12 +507,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bonitasoft/ref
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Business Process Management
 - Process Automation
 - Workflows
 - BPMN
-- Low Code
+- Low-Code
 - Open-Source
 - Orchestration
 - Agentic AI

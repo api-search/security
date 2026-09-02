@@ -101,12 +101,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dalcor-pharmac
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- pharmaceuticals
-- biotechnology
-- cardiovascular
-- precision-medicine
-- pharmacogenomics
-- clinical-trials
-- life-sciences
+- Pharmaceuticals
+- Biotechnology
+- Cardiovascular
+- Precision Medicine
+- Pharmacogenomics
+- Clinical Trials
+- Life Sciences
 - content-api
 ---

@@ -58,7 +58,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/powershell/ref
 summary_line: apiKey · 1 scheme
 tags:
 - Automation
-- Command-Line
+- Command Line
 - Cross-Platform
 - Scripting
 - Shell

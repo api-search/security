@@ -376,7 +376,7 @@ tags:
 - Energy
 - Emissions
 - Methane
-- Oil And Gas
+- Oil and Gas
 - Environmental Data
 - Measurements
 - Carbon Intensity

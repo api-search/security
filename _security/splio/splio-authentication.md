@@ -163,16 +163,16 @@ source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: https://dev-scp
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/authentication/splio-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- marketing-automation
-- customer-data-platform
-- loyalty
+- Marketing Automation
+- Customer Data Platform
+- Loyalty
 - CRM
-- email-marketing
+- Email Marketing
 - SMS
-- mobile-wallet
+- Mobile Wallet
 - Retail
 - E-Commerce
-- predictive-ai
+- Predictive AI
 - Customer Engagement
-- france
+- France
 ---

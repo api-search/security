@@ -53,7 +53,7 @@ tags:
 - Voice
 - Ethernet
 - Address Management
-- Appointment  Management
+- Appointment Management
 - Quote Management
 - IMEI
 - Rail

@@ -61,9 +61,9 @@ tags:
 - Responses-compatible API
 - Coding-agent tooling
 - Developer Tools
-- Usage-based billing
+- Usage-Based Billing
 - Prepaid billing
-- Agent-native
+- agent-native
 - Agent Skills
-- Model routing
+- Model Routing
 ---

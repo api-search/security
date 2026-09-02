@@ -617,7 +617,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/h
 summary_line: ISO 27001, SOC 2 Type II, FedRAMP, FISMA
 tags:
 - Company
-- Martech
+- MarTech
 - Community
 - Social-Media
 - Customer Engagement

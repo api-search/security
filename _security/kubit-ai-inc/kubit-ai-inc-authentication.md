@@ -71,5 +71,5 @@ tags:
 - MCP
 - Agent Analytics
 - OpenTelemetry
-- Devops
+- DevOps
 ---

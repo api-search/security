@@ -39,5 +39,5 @@ tags:
 - Memory Care
 - Independent Living
 - Non-Profit
-- Long Term Care
+- Long-Term Care
 ---

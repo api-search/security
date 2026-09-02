@@ -47,6 +47,6 @@ tags:
 - Aerospace
 - Defense
 - Heavy Equipment
-- Robots as a Service
+- Robots-as-a-Service
 - Factory Automation
 ---

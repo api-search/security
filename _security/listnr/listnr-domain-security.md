@@ -67,7 +67,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Text to Speech
+- Text-to-Speech
 - TTS
 - Voice
 - Speech Synthesis

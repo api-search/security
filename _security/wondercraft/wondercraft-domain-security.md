@@ -74,6 +74,6 @@ tags:
 - Artificial Intelligence
 - Audio
 - Podcast
-- Text to Speech
+- Text-to-Speech
 - Generative Audio
 ---

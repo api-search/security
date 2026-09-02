@@ -49,14 +49,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/superblo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superblocks/refs/heads/main/authentication/superblocks-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- internal tools
-- low-code
-- no-code
+- Internal Tools
+- Low-Code
+- No-Code
 - Application
 - Workflows
-- scheduled jobs
+- Scheduled Jobs
 - Integration
-- enterprise
+- Enterprise
 - Artificial Intelligence
 - Databases
 - REST API

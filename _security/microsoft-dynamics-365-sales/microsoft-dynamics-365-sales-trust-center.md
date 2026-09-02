@@ -81,7 +81,6 @@ summary_line: GDPR
 tags:
 - CRM
 - Sales
-- Customer Relationship Management
 - Dynamics 365
 - Microsoft
 - Dataverse

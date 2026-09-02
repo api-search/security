@@ -88,7 +88,7 @@ tags:
 - Enterprise Automation
 - Conversational AI
 - Employee Experience
-- IT Service Management
+- ITSM
 - Enterprise Search
 trust_url: https://www.moveworks.com/us/en/platform/security
 ---

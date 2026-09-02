@@ -122,7 +122,7 @@ tags:
 - Cloud Computing
 - Database
 - Enterprise Software
-- Infrastructure as a Service
+- Infrastructure-as-a-Service
 - Integration
 - Machine-Learning
 - Platform-as-a-Service

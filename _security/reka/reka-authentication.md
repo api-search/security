@@ -87,7 +87,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reka/refs/head
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- Multimodal
+- Multi-Modal
 - Large Language Models
 - Vision
 - Speech

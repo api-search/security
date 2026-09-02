@@ -53,7 +53,7 @@ tags:
 - Institutional
 - Insurance
 - Investments
-- Non Profit
+- Non-Profit
 - Nuveen
 - Retirement
 - TIAA

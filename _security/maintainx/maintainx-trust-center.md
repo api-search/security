@@ -195,7 +195,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maintainx/refs
 summary_line: SOC 2 Type II, ISO/IEC 27001:2022, GDPR
 tags:
 - Company
-- Physical Ai
+- Physical AI
 - Maintenance
 - CMMS
 - Asset Management

@@ -119,7 +119,7 @@ tags:
 - Agent Workflows
 - Artificial Intelligence
 - Large Language Models
-- Low Code
+- Low-Code
 - Visual Builder
 - LangChain
 - RAG

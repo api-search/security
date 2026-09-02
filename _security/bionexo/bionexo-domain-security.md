@@ -50,7 +50,7 @@ tags:
 - Supply Chain
 - Procurement
 - Marketplace
-- E-Procurement
+- eProcurement
 - Hospitals
 - ERP
 - Latin America

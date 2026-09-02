@@ -53,16 +53,16 @@ source_yaml: "generated: '2026-08-18'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/security/alltick-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- financial-market-data
-- real-time-data
+- Financial market data
+- Real-Time Data
 - stock-market-data
 - forex-data
 - Cryptocurrency Data
 - commodities-data
-- tick-data
+- Tick Data
 - websocket-streaming
 - Fintech
-- quantitative-trading
+- Quantitative Trading
 - market-data-api
 - trading-halts
 ---

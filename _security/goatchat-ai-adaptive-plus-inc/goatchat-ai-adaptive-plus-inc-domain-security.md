@@ -32,7 +32,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Conversational AI
-- Chatbot
+- Chatbots
 - LLM
 - Machine-Learning
 ---

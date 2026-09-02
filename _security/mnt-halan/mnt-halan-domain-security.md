@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Financial-Services
 - Fintech
-- Micro-Finance
+- Microfinance
 - Consumer Lending
 - SME Lending
 - Digital Payments

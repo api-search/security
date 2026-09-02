@@ -32,7 +32,7 @@ tags:
 - Consumer
 - Location
 - Social
-- Check-In
+- Check-in
 - Mobile
 - Geolocation
 - Maps

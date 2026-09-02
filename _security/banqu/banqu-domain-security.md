@@ -200,16 +200,16 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Supply Chain
 - Traceability
-- sustainability
+- Sustainability
 - ESG
 - Agriculture
 - Procurement
 - Compliance
 - Blockchain
-- eudr
-- carbon-accounting
-- recycling
+- EUDR
+- Carbon Accounting
+- Recycling
 - smallholder-farmers
-- distributed-ledger
-- supplier-management
+- Distributed Ledger
+- Supplier Management
 ---

@@ -181,15 +181,15 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/security/sewerai-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
-- wastewater
-- water-infrastructure
-- sewer-inspection
-- asset-management
-- computer-vision
-- artificial-intelligence
-- gis
-- public-works
-- construction-technology
+- Wastewater
+- Water Infrastructure
+- Sewer Inspection
+- Asset Management
+- Computer-Vision
+- Artificial Intelligence
+- GIS
+- Public Works
+- Construction Technology
 - nassco
 - cctv-inspection
 trust_url: https://trust.sewerai.com/

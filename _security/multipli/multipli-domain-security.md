@@ -33,7 +33,7 @@ tags:
 - Company
 - Crypto
 - DeFi
-- Stablecoin
+- Stablecoins
 - Yield
 - Real World Assets
 - Tokenization

@@ -76,5 +76,5 @@ tags:
 - Image-Generation
 - 3D
 - Dream Machine
-- Multimodal
+- Multi-Modal
 ---

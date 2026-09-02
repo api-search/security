@@ -97,5 +97,5 @@ tags:
 - Real-Estate
 - Banking
 - Germany
-- API First
+- API-First
 ---

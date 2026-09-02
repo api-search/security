@@ -49,7 +49,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Word Finding
 - Lexical Search
-- Natural Language
+- Natural-Language
 - Vocabulary
 - Synonyms
 - Antonyms

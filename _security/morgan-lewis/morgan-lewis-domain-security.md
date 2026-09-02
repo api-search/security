@@ -42,5 +42,5 @@ tags:
 - Employee Benefits
 - Fintech
 - Intellectual Property
-- Mergers And Acquisitions
+- Mergers and Acquisitions
 ---

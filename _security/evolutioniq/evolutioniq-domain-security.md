@@ -33,7 +33,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Insurance
-- InsurTech
+- Insurtech
 - Claims
 - Machine-Learning
 - Health

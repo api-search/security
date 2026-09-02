@@ -188,7 +188,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Voice AI
-- Text to Speech
+- Text-to-Speech
 - Speech-to-Text
 - Real-Time
 - WebSocket

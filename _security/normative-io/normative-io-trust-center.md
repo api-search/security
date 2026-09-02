@@ -29,6 +29,6 @@ tags:
 - Supply Chain
 - Climate Tech
 - Net Zero
-- Enterprise SaaS
+- Enterprise Saas
 trust_url: https://trust.normative.io/
 ---

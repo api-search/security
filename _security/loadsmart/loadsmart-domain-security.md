@@ -338,7 +338,7 @@ tags:
 - LTL
 - Drayage
 - Flatbed
-- Multimodal
+- Multi-Modal
 - TMS
 - Dock Scheduling
 - Yard Management

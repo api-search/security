@@ -50,15 +50,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glytec/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- healthcare
-- health-it
-- clinical-decision-support
-- diabetes
-- insulin-management
+- Healthcare
+- Health IT
+- Clinical Decision Support
+- Diabetes
+- Insulin Management
 - glycemic-management
-- hospital
-- ehr-integration
-- hl7
-- medical-device
-- software-as-a-medical-device
+- Hospital
+- EHR Integration
+- HL7
+- Medical Device
+- Software as a Medical Device
 ---

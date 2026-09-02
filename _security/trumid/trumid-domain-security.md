@@ -39,5 +39,5 @@ tags:
 - Market Data
 - Analytics
 - FIX Protocol
-- Broker Dealer
+- Broker-Dealer
 ---

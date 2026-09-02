@@ -45,7 +45,7 @@ tags:
 - Cryptocurrency
 - TRON
 - DeFi infrastructure
-- Stablecoin
+- Stablecoins
 - USDT
 - TRC-20
 - Resource marketplace

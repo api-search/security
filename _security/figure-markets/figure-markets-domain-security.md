@@ -38,6 +38,6 @@ tags:
 - Trading
 - Blockchain
 - Lending
-- Stablecoin
+- Stablecoins
 - Provenance Blockchain
 ---

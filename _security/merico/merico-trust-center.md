@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/merico/refs/he
 summary_line: SOC 1 Type II, SOC 2 Type II
 tags:
 - Company
-- Dev Tools
+- DevTools
 - Engineering Intelligence
 - DevOps
 - DORA Metrics

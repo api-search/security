@@ -276,7 +276,7 @@ tags:
 - Payment Processing
 - Open Banking
 - Account-to-Account
-- Banking-as-a-Service
+- Banking as a Service
 - Fraud
 - Point-of-Sale
 ---

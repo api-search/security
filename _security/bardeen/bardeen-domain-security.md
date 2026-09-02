@@ -42,6 +42,6 @@ tags:
 - Data Enrichment
 - Browser Extension
 - Sales Automation
-- No Code
+- No-Code
 - Go-To-Market
 ---

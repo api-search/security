@@ -497,14 +497,14 @@ summary_line: apiKey/http/oauth2 · 5 schemes
 tags:
 - Company
 - commercial-vehicle
-- fleet-management
+- Fleet Management
 - service-relationship-management
-- telematics
-- asset-management
+- Telematics
+- Asset Management
 - maintenance-and-repair
-- heavy-duty-trucking
+- Heavy Duty Trucking
 - Transportation
-- dealer-management
-- json-api
+- Dealer Management
+- JSON:API
 - Webhook
 ---

@@ -35,7 +35,7 @@ tags:
 - Real-Estate
 - PropTech
 - Logistics
-- Consumer; Marketplace
+- Consumer Marketplace
 - Urban Infrastructure
 - Internet of Things
 ---

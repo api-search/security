@@ -136,19 +136,19 @@ source_yaml: "generated: '2026-08-16'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/security/flume-health-trust-center.yml
 summary_line: SOC 2 Type II, HITRUST CSF, HIPAA
 tags:
-- healthcare
-- health-plans
-- payers
-- healthcare-data
-- data-integration
-- ipaas
+- Healthcare
+- Health Plans
+- Payers
+- Healthcare Data
+- Data Integration
+- iPaaS
 - Eligibility
-- claims
-- knowledge-graph
+- Claims
+- Knowledge Graph
 - MCP
 - agent-native
 - Authentication
-- data-engineering
-- interoperability
+- Data Engineering
+- Interoperability
 trust_url: https://www.flumehealth.com/security
 ---

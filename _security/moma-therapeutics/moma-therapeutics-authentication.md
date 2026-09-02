@@ -86,13 +86,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moma-therapeut
 summary_line: 0 schemes
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- drug-discovery
-- oncology
-- precision-medicine
-- life-sciences
-- structural-biology
-- machine-learning
+- Biotechnology
+- Pharmaceuticals
+- Drug Discovery
+- Oncology
+- Precision Medicine
+- Life Sciences
+- Structural Biology
+- Machine-Learning
 - content-api
 ---

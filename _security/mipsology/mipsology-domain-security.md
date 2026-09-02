@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mipsology/refs
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Ai/Ml
+- Ai Ml
 - Artificial Intelligence
 - Machine-Learning
 - Deep Learning

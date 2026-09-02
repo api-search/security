@@ -132,7 +132,7 @@ tags:
 - Health Data
 - Tokenization
 - Electronic Health Records
-- Real World Evidence
+- Real-World Evidence
 - Holding Company
 - Healthcare
 ---

@@ -37,5 +37,5 @@ tags:
 - Drug Discovery
 - Oncology
 - Precision Medicine
-- Chemoproteomics
+- chemoproteomics
 ---

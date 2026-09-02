@@ -33,7 +33,7 @@ tags:
 - Fulfillment
 - Logistics
 - Warehousing
-- Cross-border
+- Cross-Border
 - Supply Chain
 - Southeast Asia
 ---

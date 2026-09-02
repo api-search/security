@@ -50,7 +50,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Speech
-- Text to Speech
+- Text-to-Speech
 - Voice
 - Audio
 - Conversational AI

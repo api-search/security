@@ -113,7 +113,7 @@ tags:
 - Video Generation
 - Image-Generation
 - Music Generation
-- Text to Speech
+- Text-to-Speech
 - Face Swap
 - API Aggregator
 - Machine-Learning

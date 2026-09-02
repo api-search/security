@@ -186,16 +186,16 @@ summary_line: http · 1 scheme
 tags:
 - Supply Chain
 - Traceability
-- sustainability
+- Sustainability
 - ESG
 - Agriculture
 - Procurement
 - Compliance
 - Blockchain
-- eudr
-- carbon-accounting
-- recycling
+- EUDR
+- Carbon Accounting
+- Recycling
 - smallholder-farmers
-- distributed-ledger
-- supplier-management
+- Distributed Ledger
+- Supplier Management
 ---

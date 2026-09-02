@@ -84,16 +84,16 @@ source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/treez/refs/heads/main/security/treez-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- cannabis
-- point-of-sale
+- Cannabis
+- Point-of-Sale
 - Retail
-- dispensary
-- inventory-management
+- Dispensary
+- Inventory Management
 - E-Commerce
 - Payments
 - Compliance
 - Track and Trace
-- metrc
-- product-catalog
-- customer-data
+- Metrc
+- Product Catalog
+- Customer Data
 ---

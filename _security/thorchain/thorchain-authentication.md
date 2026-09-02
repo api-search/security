@@ -416,7 +416,7 @@ tags:
 - Crypto Web3
 - Blockchain
 - DeFi
-- Cross-chain
+- Cross-Chain
 - Liquidity
 - Decentralized Exchange
 - Cosmos

@@ -35,7 +35,7 @@ tags:
 - Travel
 - Real-Estate
 - PropTech
-- Short Term Rental
+- Short-Term Rental
 - Aparthotel
 - Germany
 - Europe

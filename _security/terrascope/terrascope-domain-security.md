@@ -41,7 +41,7 @@ tags:
 - GHG Protocol
 - CDP
 - SBTi
-- FLAG
+- Flag
 - TCFD
 - CSRD
 - Climate Reporting
@@ -53,5 +53,5 @@ tags:
 - Food And Agriculture
 - Supply Chain
 - Singapore
-- Enterprise SaaS
+- Enterprise Saas
 ---

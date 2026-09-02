@@ -84,14 +84,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/unstruct
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/authentication/unstructured-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- document-processing
+- Document Processing
 - ETL
 - RAG
 - LLM
 - PDF
 - OCR
-- data-ingestion
-- chunking
+- Data Ingestion
+- Chunking
 - Embeddings
 - Artificial Intelligence
 ---

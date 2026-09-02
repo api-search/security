@@ -32,9 +32,9 @@ tags:
 - Company
 - Venture Capital
 - Agrifood Tech
-- Agtech
-- Foodtech
+- AgTech
+- Food Tech
 - Climate
-- Deeptech
+- Deep Tech
 - Investment
 ---

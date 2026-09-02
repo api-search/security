@@ -45,10 +45,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/searchapi/refs
 summary_line: ISO/IEC 27001:2022, GDPR, SOC 2, PCI DSS, HIPAA, FedRAMP
 tags:
 - Search
-- serp-api
-- google-search
+- SERP API
+- Google Search
 - Web Scraping
-- search-data
+- Search data
 - Market Intelligence
 - SEO
 - MCP

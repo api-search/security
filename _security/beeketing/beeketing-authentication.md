@@ -228,7 +228,7 @@ summary_line: oauth2/http/apiKey · 5 schemes
 tags:
 - Company
 - E-Commerce
-- Cross-border Commerce
+- Cross-Border Commerce
 - Marketing
 - Shopify Apps
 - REST API

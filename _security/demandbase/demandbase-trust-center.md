@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/security/demandbase-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
-- Account-Based Marketing
+- Account Based Marketing
 - Advertising
 - AI Agents
 - B2B Marketing

@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/numa/refs/head
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Vertical Ai
+- Vertical AI
 - Automotive
 - Artificial Intelligence
 - Voice AI

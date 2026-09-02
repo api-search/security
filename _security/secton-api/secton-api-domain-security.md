@@ -49,11 +49,11 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Artificial Intelligence
 - Inference
-- llm
-- chat-completions
-- generative-ai
+- LLM
+- Chat Completions
+- Generative AI
 - Developer Tools
-- openai-compatible
-- streaming
-- machine-learning
+- OpenAI-Compatible
+- Streaming
+- Machine-Learning
 ---

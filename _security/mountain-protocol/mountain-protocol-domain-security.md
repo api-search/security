@@ -34,7 +34,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Crypto Web3
-- Stablecoin
+- Stablecoins
 - DeFi
 - Digital Assets
 - Blockchain

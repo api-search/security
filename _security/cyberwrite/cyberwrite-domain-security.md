@@ -33,7 +33,7 @@ tags:
 - Company
 - Cyber Insurance
 - Cyber Risk
-- InsurTech
+- Insurtech
 - Risk Quantification
 - Catastrophe Modeling
 - Underwriting

@@ -46,7 +46,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Logistics
-- Courier
+- Couriers
 - Shipping
 - E-Commerce
 - Fulfillment

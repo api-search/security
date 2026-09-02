@@ -58,7 +58,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
 - United States
-- Bill Payment
+- Bill Payments
 - Electronic Bill Presentment
 - Payment Processing
 - Payment Gateway

@@ -228,7 +228,7 @@ tags:
 - Fintech
 - Banking
 - Payments
-- Stablecoin
+- Stablecoins
 - USDC
 - Cross-Border Payments
 - Business Accounts

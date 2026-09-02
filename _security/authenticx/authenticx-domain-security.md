@@ -157,15 +157,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authenticx/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Conversation Intelligence
-- healthcare
-- speech-analytics
-- contact-center
-- customer-experience
-- quality-assurance
-- pharmacovigilance
-- patient-experience
+- Healthcare
+- Speech Analytics
+- Contact Center
+- Customer Experience
+- Quality Assurance
+- Pharmacovigilance
+- Patient Experience
 - Transcription
-- life-sciences
+- Life Sciences
 - SCIM
 - Authentication
 ---

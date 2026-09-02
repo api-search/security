@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appwrite/refs/
 summary_line: apiKey · 1 scheme
 tags:
 - Application
-- Backends
+- Backend
 - Mobile
 - Open-Source
 ---

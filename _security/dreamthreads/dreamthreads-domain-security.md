@@ -44,10 +44,10 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - dream analysis
 - Dream interpretation
-- natural language processing
+- Natural Language Processing
 - structured parsing
 - AI Agents
-- MCP server
+- MCP Server
 - OpenAPI
 - wellness / sleep
 - research tooling

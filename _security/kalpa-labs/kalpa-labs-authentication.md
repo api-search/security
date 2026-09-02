@@ -55,7 +55,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Speech
-- Text to Speech
+- Text-to-Speech
 - Voice
 - Audio
 - Conversational AI

@@ -812,9 +812,9 @@ tags:
 - Government
 - Environmental
 - Open Data
-- AirQuality
-- WaterQuality
-- HazardousWaste
+- Air Quality
+- Water Quality
+- Hazardous Waste
 - Compliance
 - Emissions
 ---

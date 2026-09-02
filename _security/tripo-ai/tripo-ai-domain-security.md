@@ -43,8 +43,8 @@ tags:
 - 3D
 - Generative AI
 - 3D Modeling
-- Text to 3D
-- Image to 3D
+- Text-to-3D
+- Image-to-3D
 - Rigging
 - Animation
 - Texturing

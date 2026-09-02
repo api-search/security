@@ -65,13 +65,13 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nsource: https://tweetap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tweetapi/refs/heads/main/authentication/tweetapi-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- Twitter
-- x
-- social-media
-- social-data
+- twitter
+- X
+- Social-Media
+- Social Data
 - Search
 - Analytics
-- research
+- Research
 - Developer Tools
 - MCP
 - agent-native

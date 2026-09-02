@@ -116,13 +116,13 @@ tags:
 - Analytics
 - Commerce
 - E-Commerce
-- Multichannel
+- Multi-Channel
 - Retail Media
 - Where to Buy
 - Shoppable Media
 - Product Availability
 - MCP
-- Agent Native
+- agent-native
 - Reporting
 - CPG
 ---

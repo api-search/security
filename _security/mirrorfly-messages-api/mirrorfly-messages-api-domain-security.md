@@ -40,7 +40,7 @@ tags:
 - Voice API
 - Video API
 - SIP/VoIP
-- Real-time Communication
+- Real-Time Communication
 - SDK
 - Self-hosted / On-premise
 - AI Agents / Chatbots

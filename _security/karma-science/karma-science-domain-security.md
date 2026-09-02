@@ -34,7 +34,7 @@ tags:
 - Shopping
 - E-Commerce
 - Coupons
-- Cash Back
+- Cashback
 - Loyalty
 - Browser Extension
 ---

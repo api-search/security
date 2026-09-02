@@ -23,7 +23,7 @@ tags:
 - NPS
 - Notification
 - Product Communication
-- Roadmap
+- Roadmaps
 - Software-as-a-Service
 - Widgets
 trust_url: https://announcekit.app/trust

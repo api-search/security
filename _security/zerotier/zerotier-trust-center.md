@@ -68,7 +68,7 @@ summary_line: SOC 2 Type II
 tags:
 - Company
 - Networking
-- Software-Defined Networking
+- Software Defined Networking
 - SDN
 - VPN
 - Security

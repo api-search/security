@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rocket-interne
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Consumer; Marketplace
+- Consumer Marketplace
 - Company Builder
 - Startup Incubator
 - Venture Capital

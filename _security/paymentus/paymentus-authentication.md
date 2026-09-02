@@ -33,7 +33,7 @@ summary_line: http/oauth2 · 1 scheme
 tags:
 - Payments
 - United States
-- Bill Payment
+- Bill Payments
 - Electronic Bill Presentment
 - Payment Processing
 - Payment Gateway

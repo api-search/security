@@ -68,13 +68,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leia/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - 3D
-- spatial-computing
-- computer-vision
+- Spatial Computing
+- Computer-Vision
 - depth-estimation
-- image-processing
-- video-processing
-- generative-ai
-- displays
+- Image Processing
+- Video Processing
+- Generative AI
+- Displays
 - Media Transformation
-- immersive-experiences
+- Immersive Experiences
 ---

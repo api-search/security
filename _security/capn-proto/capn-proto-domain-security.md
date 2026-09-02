@@ -40,5 +40,5 @@ tags:
 - SDK
 - Serialization
 - Specification
-- Zero Copy
+- Zero-Copy
 ---

@@ -53,7 +53,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fish-audio/ref
 summary_line: http · 1 scheme
 tags:
 - Voice
-- Text to Speech
+- Text-to-Speech
 - Speech-to-Text
 - Voice Cloning
 - Audio

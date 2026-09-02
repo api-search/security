@@ -81,12 +81,12 @@ summary_line: 0 schemes
 tags:
 - Company
 - biopharmaceuticals
-- oncology
-- bone-health
-- orthopedics
-- clinical-trials
-- life-sciences
-- drug-development
-- medical-devices
+- Oncology
+- Bone Health
+- Orthopedics
+- Clinical Trials
+- Life Sciences
+- Drug Development
+- Medical Devices
 - content-api
 ---

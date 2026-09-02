@@ -34,7 +34,7 @@ tags:
 - Extended Reality
 - Augmented Reality
 - Computational Optics
-- Lightfield
+- Light Field
 - Heads-Up Display
 - Defense
 - Automotive

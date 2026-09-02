@@ -65,7 +65,7 @@ tags:
 - Image
 - Audio
 - Video
-- E-books
+- Ebooks
 - Office Documents
 - Batch Processing
 ---

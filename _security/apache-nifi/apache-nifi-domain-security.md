@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-nifi/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Integration
-- Dataflow
+- Dataflows
 - ETL
 - IoT
 - Streaming

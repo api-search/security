@@ -46,7 +46,7 @@ tags:
 - Supply Chain
 - Warehousing
 - Real-Estate
-- Temperature-Controlled
+- Temperature Controlled
 - Cold Chain
 - EDI
 - 3PL

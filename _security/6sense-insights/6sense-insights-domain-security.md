@@ -36,8 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/6sense-insight
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- ABM
-- Account-Based Marketing
+- Account Based Marketing
 - Intent Data
 - B2B
 - Predictive Analytics

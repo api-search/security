@@ -86,17 +86,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Advertising
-- adtech
-- contextual-advertising
-- brand-safety
+- AdTech
+- Contextual Advertising
+- Brand Safety
 - content-classification
-- computer-vision
-- natural-language-processing
-- video-analysis
-- image-analysis
-- connected-tv
-- header-bidding
-- programmatic-advertising
+- Computer-Vision
+- Natural Language Processing
+- Video Analysis
+- Image Analysis
+- Connected TV
+- Header Bidding
+- Programmatic Advertising
 - iab-taxonomy
-- content-moderation
+- Content Moderation
 ---

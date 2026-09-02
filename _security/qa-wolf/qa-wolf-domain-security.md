@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Devtools
+- DevTools
 - Testing
 - Test Automation
 - QA

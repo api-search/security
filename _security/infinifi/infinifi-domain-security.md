@@ -30,8 +30,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infinifi/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Defi
-- Stablecoin
+- DeFi
+- Stablecoins
 - Yield
 - Ethereum
 - Smart Contracts

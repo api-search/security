@@ -60,19 +60,19 @@ source_yaml: "generated: '2026-08-09'\nmethod: derived\nsource: openapi/routerpl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/routerplex/refs/heads/main/authentication/routerplex-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- llm
+- LLM
 - Artificial Intelligence
-- ai-gateway
+- AI Gateway
 - Inference
-- model-router
-- openai-compatible
-- anthropic-compatible
-- claude
-- gpt
-- gemini
-- api-gateway
-- agent-infrastructure
+- Model Router
+- OpenAI-Compatible
+- Anthropic Compatible
+- Claude
+- GPT
+- Gemini
+- API Gateway
+- Agent Infrastructure
 - Developer Tools
 - MCP
-- llmops
+- LLMOps
 ---

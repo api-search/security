@@ -82,7 +82,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/he
 summary_line: apiKey/http · 3 schemes
 tags:
 - Artificial Intelligence
-- AI Native
+- AI-Native
 - Apache 2.0
 - Cloud
 - Embeddings

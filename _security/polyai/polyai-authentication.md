@@ -38,7 +38,7 @@ tags:
 - Contact Center
 - Agents
 - Speech Recognition
-- Text to Speech
+- Text-to-Speech
 - Webhook
 - Enterprise
 ---

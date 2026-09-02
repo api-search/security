@@ -40,5 +40,5 @@ tags:
 - Food
 - Subscription
 - Sustainability
-- Health & Wellness
+- Health and Wellness
 ---

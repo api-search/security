@@ -30,6 +30,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/texaco/refs/he
 summary_line: TLSv1.2 · HSTS
 tags:
 - Energy
-- Oil & Gas
+- Oil and Gas
 - Retail
 ---

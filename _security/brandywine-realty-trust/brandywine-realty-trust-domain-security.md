@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Commercial Real Estate
 - Life Science Real Estate
-- Mixed Use Development
+- Mixed-Use Development
 - Office
 - Philadelphia
 - REIT

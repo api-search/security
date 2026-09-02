@@ -35,7 +35,7 @@ tags:
 - Lending
 - Credit
 - Uncollateralized Lending
-- Stablecoin
+- Stablecoins
 - Money Market
 - Ethereum
 - Yield

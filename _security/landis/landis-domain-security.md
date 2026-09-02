@@ -35,7 +35,7 @@ tags:
 - PropTech
 - Fintech
 - Mortgage
-- Rent to Own
+- Rent-to-Own
 - Homeownership
 - Housing
 ---

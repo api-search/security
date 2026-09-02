@@ -60,13 +60,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Defi
+- DeFi
 - Cryptocurrency
 - Exchange
 - Perpetual Futures
 - Trading
 - Derivatives
-- Stablecoin
+- Stablecoins
 - WebSocket
 - Blockchain
 ---

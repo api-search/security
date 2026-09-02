@@ -38,7 +38,7 @@ tags:
 - Autonomous Vehicles
 - Computer-Vision
 - EyeQ
-- SuperVision
+- Supervision
 - Chauffeur
 - REM
 - RSS

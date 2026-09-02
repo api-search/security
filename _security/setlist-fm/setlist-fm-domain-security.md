@@ -174,6 +174,6 @@ tags:
 - Live Music
 - Venues
 - Artists
-- Tour Dates
+- tour dates
 - Event
 ---

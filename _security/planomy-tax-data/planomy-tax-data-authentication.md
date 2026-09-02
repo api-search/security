@@ -32,11 +32,11 @@ tags:
 - Tax
 - Finance
 - Open Data
-- retirement
-- government
-- personal-finance
-- irs
-- social-security
-- medicare
+- Retirement
+- Government
+- Personal Finance
+- IRS
+- Social Security
+- Medicare
 - JSON
 ---

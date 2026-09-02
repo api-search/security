@@ -22,7 +22,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hihello/refs/h
 summary_line: SOC 2 Type II, GDPR, EU-US Data Privacy Framework, UK Extension to the EU-US Data Privacy Framework, Swiss-US Data Privacy Framework
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Digital Business Cards
 - Contact Management
 - Networking

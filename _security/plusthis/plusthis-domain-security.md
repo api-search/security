@@ -34,7 +34,7 @@ tags:
 - Marketing
 - CRM
 - Sales
-- No Code
+- No-Code
 - Automation
 - Integration
 - Webhook

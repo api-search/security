@@ -110,7 +110,7 @@ tags:
 - Artificial Intelligence
 - Code Generation
 - Code Review
-- Coding Agent
+- Coding Agents
 - Custom Instructions
 - Developer Tools
 - Extensions

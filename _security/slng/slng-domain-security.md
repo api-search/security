@@ -134,7 +134,7 @@ tags:
 - Speech
 - Voice
 - Speech-to-Text
-- Text to Speech
+- Text-to-Speech
 - Voice AI
 - Voice Agents
 - Transcription

@@ -36,6 +36,6 @@ tags:
 - World Models
 - Edge Computing
 - Fintech
-- High-Frequency Trading
+- High Frequency Trading
 - Robotics
 ---

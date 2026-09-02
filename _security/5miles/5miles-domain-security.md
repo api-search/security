@@ -35,5 +35,5 @@ tags:
 - Local Commerce
 - Mobile Apps
 - Consumer
-- Second-Hand
+- Secondhand
 ---

@@ -164,7 +164,7 @@ tags:
 - Machine-Learning
 - Data Quality
 - Training Data
-- Fine Tuning
+- Fine-Tuning
 - Data Transformation
 - Entity Resolution
 - Content Moderation

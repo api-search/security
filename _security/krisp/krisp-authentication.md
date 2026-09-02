@@ -70,7 +70,7 @@ tags:
 - Audio
 - Noise Cancellation
 - Speech Translation
-- Real Time Communications
+- Real-Time Communications
 - WebRTC
 - Conversational AI
 - SDK

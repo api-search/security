@@ -44,6 +44,6 @@ tags:
 - Modular Homes
 - Prefabricated Construction
 - Accessory Dwelling Units
-- Nasdaq
+- NASDAQ
 - Consumer Products
 ---

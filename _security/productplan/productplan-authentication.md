@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/productp
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/productplan/refs/heads/main/authentication/productplan-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Road Mapping
+- Roadmapping
 - Product Management
 - OKR
 - Roadmaps

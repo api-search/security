@@ -39,6 +39,6 @@ tags:
 - Food Delivery
 - Catering
 - Prepaid Cards
-- FoodTech
+- Food Tech
 - Software-as-a-Service
 ---

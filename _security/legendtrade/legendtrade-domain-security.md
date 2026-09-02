@@ -76,7 +76,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/legendtrade/re
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Defi
+- DeFi
 - Trading
 - Cryptocurrency
 - Perpetual Futures

@@ -92,7 +92,7 @@ tags:
 - Payment Gateway
 - Indonesia
 - Southeast Asia
-- Snap
+- SNAP
 - E-Wallet
 - Virtual Account
 - Cards

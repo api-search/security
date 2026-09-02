@@ -50,7 +50,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Ai Ml
-- Speech To Text
+- Speech-to-Text
 - Text-to-Speech
 - Voice
 - Edge AI

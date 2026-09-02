@@ -150,11 +150,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groundtruth/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Martech
+- MarTech
 - Advertising
 - Location Intelligence
 - Marketing
-- Adtech
+- AdTech
 - Location-Based Marketing
 - Advertising API
 - Campaign Management

@@ -232,16 +232,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/security/pingcap-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- distributed-sql
+- Distributed SQL
 - Database
 - tidb
 - htap
 - mysql-compatible
-- cloud-database
-- dbaas
-- vector-search
-- data-migration
-- change-data-capture
+- Cloud Database
+- Database-as-a-Service
+- Vector Search
+- Data Migration
+- Change Data Capture
 - Open-Source
 - Infrastructure
 ---

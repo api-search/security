@@ -198,16 +198,16 @@ tags:
 - Threat Intelligence
 - Cybersecurity
 - cyber-threat-intelligence
-- content-aggregation
-- rss
+- Content Aggregation
+- RSS
 - News
-- vulnerability-management
-- indicators-of-compromise
-- malware
+- Vulnerability Management
+- Indicators of Compromise
+- Malware
 - Threat Actors
 - mitre-attack
-- security-automation
-- artificial-intelligence
+- Security Automation
+- Artificial Intelligence
 - MCP
 - agent-native
 - Webhook

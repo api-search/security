@@ -486,21 +486,21 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dream-sports/r
 summary_line: apiKey/http/openIdConnect · 6 schemes
 tags:
 - Company
-- sports-technology
-- fantasy-sports
+- Sports Technology
+- Fantasy Sports
 - Open-Source
 - Developer Tools
-- platform-engineering
+- Platform Engineering
 - Authentication
-- openid-connect
+- OpenID Connect
 - Mobile
-- react-native
-- devops
-- observability
-- test-management
-- ota-updates
-- feature-flags
-- india
+- React Native
+- DevOps
+- Observability
+- Test Management
+- OTA Updates
+- Feature Flags
+- India
 - MCP
 - agent-native
 ---

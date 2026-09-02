@@ -118,7 +118,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/he
 summary_line: apiKey/oauth2/openIdConnect · 3 schemes
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - MCP
 - Agents
 - Webhook

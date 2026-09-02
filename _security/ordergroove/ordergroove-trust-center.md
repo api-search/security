@@ -61,7 +61,7 @@ tags:
 - Relationship Commerce
 - E-Commerce
 - Autoship
-- DTC
+- Direct to Consumer
 - Retail
 - Subscription Management
 trust_url: https://www.ordergroove.com/security/

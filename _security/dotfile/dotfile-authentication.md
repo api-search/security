@@ -213,20 +213,20 @@ source_yaml: "generated: '2026-08-17'\nmethod: derived\nsource: openapi/dotfile-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/authentication/dotfile-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- kyb
-- kyc
+- KYB
+- KYC
 - AML
-- business-verification
+- Business Verification
 - Identity Verification
 - Compliance
-- regtech
+- RegTech
 - Onboarding
-- sanctions-screening
-- document-verification
-- fraud-detection
-- company-data
-- beneficial-ownership
-- case-management
-- electronic-signature
+- Sanctions Screening
+- Document Verification
+- Fraud Detection
+- Company Data
+- Beneficial Ownership
+- Case Management
+- Electronic Signature
 - Webhook
 ---

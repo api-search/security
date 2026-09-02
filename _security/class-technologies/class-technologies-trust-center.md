@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/class-technolo
 summary_line: FedRAMP, HIPAA
 tags:
 - Company
-- Edtech
+- EdTech
 - Education
 - Virtual Classroom
 - E-Learning

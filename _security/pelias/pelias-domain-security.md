@@ -66,13 +66,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pelias/refs/heads/main/security/pelias-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- geocoding
-- reverse geocoding
-- geospatial
-- open source
-- elasticsearch
-- openstreetmap
+- Geocoding
+- Reverse Geocoding
+- Geospatial
+- Open-Source
+- Elasticsearch
+- OpenStreetMap
 - Addresses
 - Places
-- autocomplete
+- Autocomplete
 ---

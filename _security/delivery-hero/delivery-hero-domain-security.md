@@ -79,6 +79,6 @@ tags:
 - Logistics
 - Quick Commerce
 - Last Mile Delivery
-- On Demand
+- On-Demand
 - Order
 ---

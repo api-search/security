@@ -34,7 +34,7 @@ tags:
 - Formalwear
 - E-Commerce
 - Retail
-- Rental
+- Rentals
 - Weddings
 - Apparel
 - Direct to Consumer

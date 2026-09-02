@@ -522,7 +522,7 @@ tags:
 - Identity and Access Management
 - Cloud Security
 - Zero Standing Privileges
-- Just-in-Time Access
+- Just-In-Time Access
 - Non-Human Identity
 - Secrets Management
 - Agentic AI

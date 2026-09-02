@@ -38,7 +38,7 @@ tags:
 - Company
 - Telepresence
 - Robotics
-- Videoconferencing
+- Video Conferencing
 - Hybrid Work
 - SDK
 - Fleet Management

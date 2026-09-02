@@ -133,16 +133,16 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/authentication/lakekeeper-authentication.yml
 summary_line: http/oauth2/openIdConnect · 2 schemes
 tags:
-- apache-iceberg
-- data-catalog
-- lakehouse
+- Apache Iceberg
+- Data Catalog
+- Lakehouse
 - Open-Source
-- rust
-- data-governance
-- access-control
-- object-storage
+- Rust
+- Data Governance
+- Access Control
+- Object Storage
 - Metadata
-- self-hosted
+- Self-Hosted
 - openfga
-- data-engineering
+- Data Engineering
 ---

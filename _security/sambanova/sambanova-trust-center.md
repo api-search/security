@@ -45,7 +45,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - AI Inference
 - Large Language Models
-- Dataflow
+- Dataflows
 - Hardware
 - Cloud
 - OpenAI-Compatible

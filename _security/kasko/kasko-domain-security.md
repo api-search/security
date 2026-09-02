@@ -35,7 +35,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Insurance API
 - Policy Management
 - Payments

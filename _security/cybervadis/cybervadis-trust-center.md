@@ -28,6 +28,6 @@ tags:
 - Vendor Risk Management
 - Security Ratings
 - Governance Risk Compliance
-- Infrastructure SaaS
+- Infrastructure Saas
 trust_url: https://cybervadis.com/about-us/trust-center
 ---

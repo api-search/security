@@ -71,5 +71,5 @@ tags:
 - Kubernetes
 - Machine-Learning
 - Recommendations
-- Right-Sizing
+- Rightsizing
 ---

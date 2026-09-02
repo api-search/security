@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wonderschool/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Child Care
+- Childcare
 - Early Childhood Education
 - Daycare
 - Preschool

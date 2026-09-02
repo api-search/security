@@ -32,15 +32,15 @@ source_yaml: "generated: '2026-08-30'\nmethod: searched\nsource: https://closedl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/security/closedloop-trust-center.yml
 summary_line: SOC 2 Type II, ISO 27001, PCI DSS, HIPAA, FedRAMP
 tags:
-- product intelligence
-- customer feedback
-- voice-of-customer
-- product management
-- agentic AI
+- Product Intelligence
+- Customer Feedback
+- Voice of Customer
+- Product Management
+- Agentic AI
 - MCP
 - SaaS analytics
 - A2A
 - SCIM
-- product discovery
+- Product Discovery
 trust_url: ''
 ---

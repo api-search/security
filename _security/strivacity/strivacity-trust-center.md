@@ -46,15 +46,15 @@ summary_line: SOC 2 Type II, SOC 3, PCI DSS, GDPR, CCPA, FIPS 140-2, VPAT, FIDO 
 tags:
 - Identity
 - customer-identity-and-access-management
-- ciam
+- CIAM
 - Authentication
 - Authorization
-- openid-connect
-- consent-management
-- multi-factor-authentication
+- OpenID Connect
+- Consent Management
+- Multi-Factor Authentication
 - Identity Verification
-- fraud-detection
-- agentic-identity
+- Fraud Detection
+- Agentic Identity
 - Security
 trust_url: https://security.strivacity.com/
 ---

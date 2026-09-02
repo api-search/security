@@ -129,7 +129,7 @@ tags:
 - Akoya
 - Banking
 - Bank Secrecy Act
-- Bill Payment
+- Bill Payments
 - Consent
 - Consumer Banking
 - FDX

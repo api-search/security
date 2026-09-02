@@ -56,7 +56,7 @@ summary_line: none · 0 schemes
 tags:
 - Company
 - Blockchain
-- Zero-Knowledge
+- Zero Knowledge
 - Cryptography
 - Privacy
 - Web3

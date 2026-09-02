@@ -129,7 +129,7 @@ tags:
 - Research
 - Research Data
 - Repository
-- Open Source
+- Open-Source
 - Digital Preservation
 - Identity Federation
 - OAI-PMH

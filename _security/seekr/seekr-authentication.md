@@ -244,22 +244,22 @@ source_yaml: "generated: '2026-08-05'\nmethod: derived\nsource: openapi/seekr-ag
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/authentication/seekr-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- artificial-intelligence
-- generative-ai
+- Artificial Intelligence
+- Generative AI
 - Agents
-- llm
+- LLM
 - Fine-Tuning
 - Inference
 - RAG
-- vector-database
-- explainability
-- ai-governance
-- model-evaluation
-- observability
-- geospatial-intelligence
-- defense
-- government
-- regulated-industries
+- Vector Database
+- Explainability
+- AI Governance
+- Model Evaluation
+- Observability
+- Geospatial Intelligence
+- Defense
+- Government
+- Regulated Industries
 - MCP
 - agent-native
 ---

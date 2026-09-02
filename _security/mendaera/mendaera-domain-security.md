@@ -35,6 +35,6 @@ tags:
 - Medical Devices
 - Ultrasound
 - Surgery
-- Medtech
+- MedTech
 - Health
 ---

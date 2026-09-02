@@ -31,11 +31,11 @@ summary_line: 0 schemes
 tags:
 - E-Commerce
 - catalog-validation
-- shopify
-- data-quality
+- Shopify
+- Data Quality
 - csv-validation
 - product-data-qa
 - data-preflight
-- data-validation
+- Data Validation
 - Retail
 ---

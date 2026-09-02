@@ -114,7 +114,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flow-blockchai
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Blockchain
-- NFTs
+- NFT
 - Games
 - DeFi
 - Layer 1

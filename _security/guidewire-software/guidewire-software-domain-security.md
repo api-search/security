@@ -36,7 +36,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Property and Casualty
 - Cloud
 - Policy Administration

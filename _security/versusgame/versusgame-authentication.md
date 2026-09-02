@@ -234,13 +234,13 @@ tags:
 - Company
 - Gaming
 - prediction-games
-- audience-engagement
-- gamification
-- media-and-entertainment
-- publishing
+- Audience Engagement
+- Gamification
+- Media and Entertainment
+- Publishing
 - Widgets
-- leaderboards
-- creator-economy
+- Leaderboards
+- Creator Economy
 - ai-content-generation
 - Payments
 ---

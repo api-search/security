@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/hcp-ter
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/authentication/terraform-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Infrastructure As Code
+- Infrastructure as Code
 - Cloud Infrastructure
 - DevOps
 - Open-Source

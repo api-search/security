@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/desaisiv-inc/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- InsurTech
+- Insurtech
 - Insurance
 - Health Insurance
 - Underwriting

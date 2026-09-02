@@ -31,7 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/st-labs/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- IT Service Management
 - ITSM
 - IT Operations
 - AI Agents

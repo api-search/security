@@ -33,7 +33,7 @@ tags:
 - Hours of Service
 - ELD
 - IFTA
-- Dashcam
+- Dash Cam
 - Dispatch
 - Compliance
 - Driver Management

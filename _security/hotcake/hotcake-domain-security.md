@@ -37,9 +37,9 @@ tags:
 - Booking
 - Scheduling
 - Membership
-- POS
+- Point-of-Sale
 - Software-as-a-Service
 - Taiwan
-- LINE
+- Line
 - SMB
 ---

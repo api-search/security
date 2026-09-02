@@ -48,16 +48,16 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/security/bargo-congress-trades-api-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- congress
+- Congress
 - Finance
-- stocks
-- government
+- Stocks
+- Government
 - stock-act
 - MCP
-- congressional-trading
+- Congressional Trading
 - financial-disclosure
 - Market Data
-- public-data
+- Public Data
 - Free API
 - Open Data
 ---

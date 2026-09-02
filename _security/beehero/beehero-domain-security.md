@@ -67,13 +67,13 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Agriculture
-- agtech
-- pollination
+- AgTech
+- Pollination
 - beekeeping
-- precision-agriculture
-- iot
-- sensors
-- environmental-data
+- Precision Agriculture
+- IoT
+- Sensors
+- Environmental Data
 - MCP
 - agent-native
 ---

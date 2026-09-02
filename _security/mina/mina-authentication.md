@@ -47,7 +47,7 @@ tags:
 - Company
 - Crypto
 - Blockchain
-- Zero-Knowledge
+- Zero Knowledge
 - zkApps
 - GraphQL
 - Web3

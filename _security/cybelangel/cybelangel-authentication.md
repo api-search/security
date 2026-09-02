@@ -138,12 +138,12 @@ tags:
 - Threat Intelligence
 - external-attack-surface-management
 - data-breach-prevention
-- credential-intelligence
-- brand-protection
-- dark-web-monitoring
-- digital-risk-protection
+- Credential Intelligence
+- Brand Protection
+- Dark Web Monitoring
+- Digital Risk Protection
 - STIX
 - security-alerts
-- asset-inventory
-- audit-logs
+- Asset Inventory
+- Audit Logs
 ---

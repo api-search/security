@@ -98,16 +98,16 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: openapi/vidmob-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/authentication/vidmob-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- creative-intelligence
+- Creative Intelligence
 - creative-data
 - Advertising
 - Marketing
-- media-measurement
+- Media Measurement
 - Video
-- computer-vision
-- creative-analytics
-- adtech
+- Computer-Vision
+- Creative Analytics
+- AdTech
 - MCP
 - agent-native
-- martech
+- MarTech
 ---

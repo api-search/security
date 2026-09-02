@@ -106,7 +106,7 @@ tags:
 - Biotechnology
 - Life Sciences
 - DNA Sequencing
-- Next Generation Sequencing
+- Next-Generation Sequencing
 - Oncology
 - Genetic Toxicology
 - Diagnostics

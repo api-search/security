@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/security/temporal-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR
 tags:
-- ProCode_API_Composition
+- Pro-Code-API-Composition
 - Workflows
 trust_url: https://trust.temporal.io/
 ---

@@ -34,6 +34,6 @@ tags:
 - API Gateway
 - Legacy Systems
 - Enterprise
-- No Code
+- No-Code
 - Middleware
 ---

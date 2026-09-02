@@ -73,5 +73,5 @@ tags:
 - Video Generation
 - Media
 - Analytics
-- Martech
+- MarTech
 ---

@@ -32,7 +32,7 @@ tags:
 - Tourism
 - China
 - Community
-- User-Generated Content
+- User Generated Content
 - Reviews
 - Travel Guides
 - Booking

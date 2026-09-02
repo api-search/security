@@ -370,5 +370,5 @@ tags:
 - AI Agents
 - MCP
 - Agentic Commerce
-- Real-time Data
+- Real-Time Data
 ---

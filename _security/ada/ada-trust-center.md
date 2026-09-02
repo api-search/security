@@ -137,14 +137,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads
 summary_line: SOC 2 Type 2, SOC 3, PCI DSS (Attestation of Compliance), HIPAA, GDPR, CCPA, CPRA, PIPEDA, VPAT 2024 (WCAG 2.1 AA)
 tags:
 - Artificial Intelligence
-- customer-service
+- Customer Service
 - Chatbots
-- automation
-- conversational-ai
-- helpdesk
+- Automation
+- Conversational AI
+- Help Desk
 - CRM
 - Integration
-- knowledge-management
-- data-export
+- Knowledge-Management
+- Data Export
 trust_url: https://security.ada.cx/
 ---

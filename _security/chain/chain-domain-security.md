@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Payments
-- Stablecoin
+- Stablecoins
 - Cryptocurrency
 - Blockchain
 - Financial-Services
