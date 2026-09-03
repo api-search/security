@@ -192,6 +192,7 @@ api_specs:
   slug: cms-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/openapi/cms-status-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

@@ -174,6 +174,7 @@ api_specs:
   slug: nasuni-volumes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-volumes-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2 Type II
 - SOC 2 Type I
