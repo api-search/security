@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Pricesmart Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for pricesmart, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: pricesmart
+overview: 'Domain security posture for Pricesmart, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Pricesmart
 provider_slug: pricesmart
 slug: pricesmart-domain-security
 source_filename: pricesmart-domain-security.yml

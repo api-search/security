@@ -68,8 +68,8 @@ layout: security
 method: probed
 name: Drupal Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for drupal, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: drupal
+overview: 'Domain security posture for Drupal, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Drupal
 provider_slug: drupal
 slug: drupal-domain-security
 source_filename: drupal-domain-security.yml

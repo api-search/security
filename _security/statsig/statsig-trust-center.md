@@ -108,8 +108,8 @@ kind: trust-center
 layout: security
 name: Statsig Trust Center
 name_suffix: Trust Center
-overview: statsig maintains a public trust center covering its security and compliance posture.
-provider_name: statsig
+overview: Statsig maintains a public trust center covering its security and compliance posture.
+provider_name: Statsig
 provider_slug: statsig
 slug: statsig-trust-center
 source_filename: statsig-trust-center.yml

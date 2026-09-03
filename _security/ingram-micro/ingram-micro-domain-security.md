@@ -54,8 +54,8 @@ layout: security
 method: probed
 name: Ingram Micro Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for ingram-micro, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: ingram-micro
+overview: 'Domain security posture for Ingram Micro, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Ingram Micro
 provider_slug: ingram-micro
 slug: ingram-micro-domain-security
 source_filename: ingram-micro-domain-security.yml

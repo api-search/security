@@ -113,8 +113,8 @@ method: derived
 name: Statsig Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: statsig secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: statsig
+overview: Statsig secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Statsig
 provider_slug: statsig
 scheme_count: 2
 schemes:

@@ -51,8 +51,8 @@ layout: security
 method: probed
 name: Midjourney Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for midjourney, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: midjourney
+overview: 'Domain security posture for Midjourney, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Midjourney
 provider_slug: midjourney
 slug: midjourney-domain-security
 source_filename: midjourney-domain-security.yml

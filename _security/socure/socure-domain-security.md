@@ -66,8 +66,8 @@ layout: security
 method: probed
 name: Socure Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for socure, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: socure
+overview: 'Domain security posture for Socure, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Socure
 provider_slug: socure
 slug: socure-domain-security
 source_filename: socure-domain-security.yml

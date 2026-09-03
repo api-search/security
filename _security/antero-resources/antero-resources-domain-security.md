@@ -8,18 +8,18 @@ domains:
   domain: anteroresources.com
   spf: true
 - caa:
-  - 0 issue "letsencrypt.org"
   - 0 issue "digicert.com"
-  - 0 issuewild ";"
-  - 0 iodef "mailto:CAIssues@sec.gov"
   - 0 issue "entrust.net"
+  - 0 iodef "mailto:CAIssues@sec.gov"
+  - 0 issuewild ";"
+  - 0 issue "letsencrypt.org"
   dmarc: true
   dmarc_policy: reject
   dnssec: true
   domain: sec.gov
   spf: true
 hosts:
-- cert_expires: Sep 11 08:01:58 2026 GMT
+- cert_expires: Nov 10 08:01:54 2026 GMT
   host: www.anteroresources.com
   hsts: true
   hsts_max_age: 31536000
@@ -30,7 +30,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 13 23:59:59 2026 GMT
+- cert_expires: Mar  1 23:59:59 2027 GMT
   host: data.sec.gov
   hsts: null
   https: true
@@ -47,7 +47,7 @@ slug: antero-resources-domain-security
 source_filename: antero-resources-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.anteroresources.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 08:01:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.sec.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: null\n- host: data.sec.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: anteroresources.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: sec.gov\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  - 0 issuewild \";\"\n  - 0 iodef \"mailto:CAIssues@sec.gov\"\n  - 0 issue \"entrust.net\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.anteroresources.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 08:01:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.sec.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: null\n- host: data.sec.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  1 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: anteroresources.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: sec.gov\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"entrust.net\"\n  - 0 iodef \"mailto:CAIssues@sec.gov\"\n  - 0 issuewild \";\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/antero-resources/refs/heads/main/security/antero-resources-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

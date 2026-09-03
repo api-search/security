@@ -43,8 +43,14 @@ tags:
 - Education
 - Higher Education
 - University
+- Institute of Technology
 - Research
 - Indonesia
+- Southeast Asia
 - Authentication
+- Single Sign-On
+- Scholarly Publishing
+- OAI-PMH
 - Digital Library
+- Research Repository
 ---

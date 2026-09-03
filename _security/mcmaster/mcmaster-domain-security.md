@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: mcmaster-experts-openapi.yml
+  format: yaml
+  label: McMaster Experts API
+  slug: experts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mcmaster/refs/heads/main/openapi/mcmaster-experts-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,12 +47,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mcmaster/refs/heads/main/security/mcmaster-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Canada
 - Ontario
+- U15 Group of Canadian Research Universities
 - Research
+- Research Data
+- Research Repository
+- Identity Federation
+- Scholarly Communication
 - Open Access
 - Library
+- Course Catalog
 ---

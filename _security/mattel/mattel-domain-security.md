@@ -25,8 +25,8 @@ layout: security
 method: probed
 name: Mattel Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for mattel, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: mattel
+overview: 'Domain security posture for Mattel, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Mattel
 provider_slug: mattel
 slug: mattel-domain-security
 source_filename: mattel-domain-security.yml

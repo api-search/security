@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: usm-repository-oai-pmh-openapi.yml
+  format: yaml
+  label: USM Repository OAI-PMH
+  slug: eprints-oai
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usm/refs/heads/main/openapi/usm-repository-oai-pmh-openapi.yml
+- filename: usm-repository-eprints-rest-openapi.yml
+  format: yaml
+  label: USM Repository EPrints REST and Export
+  slug: eprints-rest
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usm/refs/heads/main/openapi/usm-repository-eprints-rest-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,11 +51,19 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usm/refs/heads/main/security/usm-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- Public Research University
+- Malaysia
+- Southeast Asia
 - Research
 - Open Access
+- Institutional Repository
 - OAI-PMH
-- Malaysia
+- EPrints
+- Identity Federation
+- Shibboleth
+- SAML
+- Crossref
 ---

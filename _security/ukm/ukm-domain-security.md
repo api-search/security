@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: ukm-identity-federation-openapi.yml
+  format: yaml
+  label: SSO@UKM — SAML 2.0 Identity Provider
+  slug: identity-federation
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ukm/refs/heads/main/openapi/ukm-identity-federation-openapi.yml
+- filename: ukm-ptsl-digital-oai-pmh-openapi.yml
+  format: yaml
+  label: UKM Learning and Research Repository (OAI-PMH)
+  slug: learning-research-repository-oai
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ukm/refs/heads/main/openapi/ukm-ptsl-digital-oai-pmh-openapi.yml
+- filename: ukm-ejournal-oai-pmh-openapi.yml
+  format: yaml
+  label: UKM e-Journal System (OAI-PMH)
+  slug: ejournal-oai
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ukm/refs/heads/main/openapi/ukm-ejournal-oai-pmh-openapi.yml
+- filename: ukm-web-content-rest-openapi.yml
+  format: yaml
+  label: UKM Web Content REST API (WordPress wp/v2)
+  slug: web-content-rest
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ukm/refs/heads/main/openapi/ukm-web-content-rest-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,13 +59,19 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ukm/refs/heads/main/security/ukm-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
-- Open Access
+- Malaysia
+- Southeast Asia
+- Identity Federation
+- SAML
+- Research Repository
 - Institutional Repository
 - OAI-PMH
+- Open Access
+- Scholarly Publishing
 - Library
-- Malaysia
+- Theses
 ---

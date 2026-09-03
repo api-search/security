@@ -46,11 +46,19 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/waseda/refs/heads/main/security/waseda-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- Japan
+- Asia
+- Private Research University
 - Research
 - Library
 - Open Access
-- Japan
+- Cultural Heritage
+- Digital Archives
+- IIIF
+- Identity Federation
+- Learning Management
+- Research Repository
 ---

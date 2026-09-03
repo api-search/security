@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: unicamp-edat-data-api-openapi.yml
+  format: yaml
+  label: EDAT Data Platform API
+  slug: edat-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicamp/refs/heads/main/openapi/unicamp-edat-data-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -43,7 +50,14 @@ tags:
 - Education
 - Higher Education
 - University
+- Public Research University
+- Brazil
+- Latin America
 - Research Data
 - Open Data
-- Brazil
+- Research Repository
+- Identity Federation
+- OAI-PMH
+- Dataverse
+- Course Catalog
 ---

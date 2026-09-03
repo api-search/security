@@ -70,8 +70,8 @@ kind: trust-center
 layout: security
 name: Braintree Trust Center
 name_suffix: Trust Center
-overview: braintree maintains a public trust center documenting PCI DSS, Visa Global Registry of Service Providers, Mastercard SDP, and SOC 2 Type 2 compliance.
-provider_name: braintree
+overview: Braintree maintains a public trust center documenting PCI DSS, Visa Global Registry of Service Providers, Mastercard SDP, and SOC 2 Type 2 compliance.
+provider_name: Braintree
 provider_slug: braintree
 slug: braintree-trust-center
 source_filename: braintree-trust-center.yml

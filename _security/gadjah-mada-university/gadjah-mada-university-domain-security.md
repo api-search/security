@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: gadjah-mada-university-ugm-id-openapi.yml
+  format: yaml
+  label: UGM ID — OAuth 2.0 / OpenID Connect Authorization Server
+  slug: ugm-id
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-ugm-id-openapi.yml
+- filename: gadjah-mada-university-repository-oai-pmh-openapi.yml
+  format: yaml
+  label: UGM Institutional Repository OAI-PMH
+  slug: repository-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-repository-oai-pmh-openapi.yml
+- filename: gadjah-mada-university-journal-oai-pmh-openapi.yml
+  format: yaml
+  label: UGM Journals OAI-PMH
+  slug: journal-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-journal-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,12 +59,17 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/security/gadjah-mada-university-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Indonesia
 - Research
-- Open Data
+- Identity Federation
+- Authentication
+- OpenID Connect
+- OAuth
+- Research Repository
+- Scholarly Publishing
+- OAI-PMH
 - Library
-- Repository
 ---

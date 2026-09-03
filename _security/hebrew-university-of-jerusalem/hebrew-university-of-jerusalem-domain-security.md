@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: hebrew-university-of-jerusalem-shnaton-course-catalog-openapi.yml
+  format: yaml
+  label: Shnaton Course Catalog API
+  slug: shnaton-course-catalog
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-shnaton-course-catalog-openapi.yml
 description: ''
 domains:
 - caa:
@@ -41,10 +48,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/security/hebrew-university-of-jerusalem-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
-- Library
 - Israel
+- Jerusalem
+- Course Catalog
+- Identity Federation
+- Research Repository
+- Library
+- SAML
+- OAI-PMH
+- Open Access
+- Public Research University
 ---

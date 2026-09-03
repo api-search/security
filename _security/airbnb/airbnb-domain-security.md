@@ -110,8 +110,8 @@ layout: security
 method: probed
 name: Airbnb Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for airbnb, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: airbnb
+overview: 'Domain security posture for Airbnb, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Airbnb
 provider_slug: airbnb
 slug: airbnb-domain-security
 source_filename: airbnb-domain-security.yml

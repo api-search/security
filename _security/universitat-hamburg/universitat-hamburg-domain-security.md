@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: universitat-hamburg-zfdm-repository-openapi.yml
+  format: yaml
+  label: ZFDM Research Data Repository API
+  slug: zfdm-repository-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/universitat-hamburg/refs/heads/main/openapi/universitat-hamburg-zfdm-repository-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,8 +51,12 @@ tags:
 - Higher Education
 - University
 - Germany
-- Open Access
+- Research Data
+- Research Repository
 - Library
+- Open Access
 - Metadata
 - OAI-PMH
+- Identity Federation
+- DataCite
 ---

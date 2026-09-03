@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Xilinx Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for xilinx, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: xilinx
+overview: 'Domain security posture for Xilinx, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Xilinx
 provider_slug: xilinx
 slug: xilinx-domain-security
 source_filename: xilinx-domain-security.yml

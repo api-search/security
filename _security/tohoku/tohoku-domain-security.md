@@ -40,13 +40,20 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tohoku/refs/heads/main/security/tohoku-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
 - Japan
-- Open Access
+- National University
+- Public Research University
+- Genomics
+- Research Data
 - Institutional Repository
-- OAI-PMH
+- Identity Federation
+- Course Catalog
 - Library
+- Open Access
+- OAI-PMH
+- GraphQL
 ---

@@ -35,8 +35,8 @@ name: Bluebeam Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
-overview: bluebeam secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
-provider_name: bluebeam
+overview: Bluebeam secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+provider_name: Bluebeam
 provider_slug: bluebeam
 scheme_count: 1
 schemes:

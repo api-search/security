@@ -43,8 +43,8 @@ layout: security
 method: probed
 name: Pg And E Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for pg-and-e, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: pg-and-e
+overview: 'Domain security posture for Pg And E, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Pg And E
 provider_slug: pg-and-e
 slug: pg-and-e-domain-security
 source_filename: pg-and-e-domain-security.yml

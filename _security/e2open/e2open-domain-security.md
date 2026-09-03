@@ -61,8 +61,8 @@ layout: security
 method: probed
 name: E2Open Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for e2open, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: e2open
+overview: 'Domain security posture for E2open, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: E2open
 provider_slug: e2open
 slug: e2open-domain-security
 source_filename: e2open-domain-security.yml

@@ -76,10 +76,20 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/security/university-of-bonn-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- Germany
+- Public Research University
 - Research Data
 - Open Data
-- Germany
+- Open Science
+- Institutional Repository
+- Dataverse
+- OAI-PMH
+- Identity Federation
+- Shibboleth
+- DFN-AAI
+- Research Computing
+- Scholarly Publishing
 ---

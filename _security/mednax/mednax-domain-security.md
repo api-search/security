@@ -17,8 +17,8 @@ layout: security
 method: probed
 name: Mednax Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for mednax, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: mednax
+overview: 'Domain security posture for Mednax, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Mednax
 provider_slug: mednax
 slug: mednax-domain-security
 source_filename: mednax-domain-security.yml

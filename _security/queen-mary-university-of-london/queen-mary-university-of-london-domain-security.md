@@ -34,14 +34,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/queen-mary-university-of-london/refs/heads/main/security/queen-mary-university-of-london-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
-- Open Access
-- Repository
-- OAI-PMH
-- Library
 - United Kingdom
 - London
+- Russell Group
+- Open Access
+- Research Repository
+- Identity Federation
+- Library
+- Learning Management
+- LTI
+- Research Computing
 ---

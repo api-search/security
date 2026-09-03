@@ -54,8 +54,8 @@ layout: security
 method: probed
 name: Bluebeam Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for bluebeam, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: bluebeam
+overview: 'Domain security posture for Bluebeam, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Bluebeam
 provider_slug: bluebeam
 slug: bluebeam-domain-security
 source_filename: bluebeam-domain-security.yml

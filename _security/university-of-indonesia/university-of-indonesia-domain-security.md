@@ -44,8 +44,13 @@ tags:
 - Higher Education
 - University
 - Indonesia
+- Southeast Asia
 - Research
-- Repository
+- Research Repository
 - OAI-PMH
-- Authentication
+- Identity
+- Single Sign-On
+- Learning Management
+- Library
+- API Gateway
 ---

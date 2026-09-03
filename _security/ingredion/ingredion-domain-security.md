@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Ingredion Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for ingredion, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: ingredion
+overview: 'Domain security posture for Ingredion, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Ingredion
 provider_slug: ingredion
 slug: ingredion-domain-security
 source_filename: ingredion-domain-security.yml

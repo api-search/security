@@ -64,8 +64,8 @@ method: derived
 name: Cohere Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: cohere secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: cohere
+overview: Cohere secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Cohere
 provider_slug: cohere
 scheme_count: 1
 schemes:

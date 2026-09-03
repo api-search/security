@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: university-of-waikato-uowidp-openapi.yml
+  format: yaml
+  label: University of Waikato Identity Provider (uowidp)
+  slug: uowidp
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-waikato/refs/heads/main/openapi/university-of-waikato-uowidp-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,8 +51,14 @@ tags:
 - Education
 - Higher Education
 - University
-- Research
-- Institutional Repository
-- Open Access
 - New Zealand
+- Research
+- Research Repository
+- Open Access
+- OAI-PMH
+- Identity Federation
+- SAML
+- OpenID Connect
+- Learning Management
+- Machine Learning
 ---

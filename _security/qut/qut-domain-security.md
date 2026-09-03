@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: qut-eprints-oai-pmh-openapi.yml
+  format: yaml
+  label: QUT ePrints OAI-PMH 2.0
+  slug: qut-eprints-oai-pmh-20
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/openapi/qut-eprints-oai-pmh-openapi.yml
+- filename: qut-esoe-openid-connect-openapi.yml
+  format: yaml
+  label: QUT ESOE OpenID Connect Provider
+  slug: qut-esoe-openid-connect-provider
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/openapi/qut-esoe-openid-connect-openapi.yml
+- filename: qut-eprints-rest-openapi.yml
+  format: yaml
+  label: QUT ePrints REST Interface
+  slug: qut-eprints-rest-interface
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/openapi/qut-eprints-rest-openapi.yml
 description: ''
 domains:
 - caa:
@@ -48,11 +67,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/security/qut-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
+- Higher Education
+- Education
 - Australia
+- Research
+- Research Repository
+- Identity Federation
 - OAI-PMH
+- SAML
+- OpenID Connect
+- Institutional Repository
+- Open Access
 ---

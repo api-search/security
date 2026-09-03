@@ -50,8 +50,8 @@ method: searched
 name: Veeva Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: veeva secures its APIs with apiKey, http, oauth2, and openIdConnect across 6 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: veeva
+overview: Veeva secures its APIs with apiKey, http, oauth2, and openIdConnect across 6 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Veeva
 provider_slug: veeva
 scheme_count: 6
 schemes:

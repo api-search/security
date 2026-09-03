@@ -156,8 +156,8 @@ method: derived
 name: Booking Com Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: booking-com secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: booking-com
+overview: Booking Com secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Booking Com
 provider_slug: booking-com
 scheme_count: 3
 schemes:

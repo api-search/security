@@ -546,13 +546,38 @@ api_specs:
   slug: gzw-data-workshop-supplies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gzw-data/refs/heads/main/openapi/gzw-data-workshop-supplies-api-openapi.yml
+- filename: gzw-data-changes-api-openapi.yml
+  format: yaml
+  label: GZW Data API Changes API
+  slug: gzw-data-changes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gzw-data/refs/heads/main/openapi/gzw-data-changes-api-openapi.yml
+- filename: gzw-data-schema-api-openapi.yml
+  format: yaml
+  label: GZW Data API Schema API
+  slug: gzw-data-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gzw-data/refs/heads/main/openapi/gzw-data-schema-api-openapi.yml
+- filename: gzw-data-search-api-openapi.yml
+  format: yaml
+  label: GZW Data API Search API
+  slug: gzw-data-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gzw-data/refs/heads/main/openapi/gzw-data-search-api-openapi.yml
+- filename: gzw-data-version-api-openapi.yml
+  format: yaml
+  label: GZW Data API Version API
+  slug: gzw-data-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gzw-data/refs/heads/main/openapi/gzw-data-version-api-openapi.yml
 description: ''
 domains:
 - caa: []
-  dmarc: false
+  dmarc: true
+  dmarc_policy: quarantine
   dnssec: true
   domain: gzw-data.dev
-  spf: false
+  spf: true
 hosts:
 - cert_expires: Nov 24 16:07:18 2026 GMT
   host: gzw-data.dev
@@ -565,16 +590,16 @@ layout: security
 method: probed
 name: Gzw Data Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for GZW Data API, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF absent, DMARC absent.'
+overview: 'Domain security posture for GZW Data API, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: GZW Data API
 provider_slug: gzw-data
 slug: gzw-data-domain-security
 source_filename: gzw-data-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gzw-data.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 16:07:18 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: gzw-data.dev\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gzw-data.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 16:07:18 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: gzw-data.dev\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gzw-data/refs/heads/main/security/gzw-data-domain-security.yml
-summary_line: TLSv1.3 · HSTS · DNSSEC
+summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Gaming
 - Video Games

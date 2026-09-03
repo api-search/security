@@ -99,8 +99,8 @@ layout: security
 method: probed
 name: Braintree Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for braintree, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
-provider_name: braintree
+overview: 'Domain security posture for Braintree, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+provider_name: Braintree
 provider_slug: braintree
 slug: braintree-domain-security
 source_filename: braintree-domain-security.yml

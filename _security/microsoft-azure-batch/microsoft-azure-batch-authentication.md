@@ -29,8 +29,8 @@ name: Microsoft Azure Batch Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit
-overview: microsoft-azure-batch secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the implicit flow(s).
-provider_name: microsoft-azure-batch
+overview: Microsoft Azure Batch secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the implicit flow(s).
+provider_name: Microsoft Azure Batch
 provider_slug: microsoft-azure-batch
 scheme_count: 1
 schemes:

@@ -171,13 +171,13 @@ domains:
   domain: leadping.ai
   spf: true
 hosts:
-- cert_expires: Oct 25 04:40:21 2026 GMT
+- cert_expires: Dec  2 00:19:20 2026 GMT
   host: leadping.ai
   hsts: true
   hsts_max_age: 15552000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct  3 23:59:50 2026 GMT
+- cert_expires: Dec  2 02:30:49 2026 GMT
   host: api.leadping.ai
   hsts: null
   https: true
@@ -194,7 +194,7 @@ slug: leadping-domain-security
 source_filename: leadping-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: leadping.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 04:40:21 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.leadping.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 23:59:50 2026 GMT\n  hsts: null\ndomains:\n- domain: leadping.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: leadping.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 00:19:20 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.leadping.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 02:30:49 2026 GMT\n  hsts: null\ndomains:\n- domain: leadping.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/security/leadping-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

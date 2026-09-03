@@ -72,8 +72,8 @@ layout: security
 method: probed
 name: Target Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for target, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: target
+overview: 'Domain security posture for Target, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Target
 provider_slug: target
 slug: target-domain-security
 source_filename: target-domain-security.yml

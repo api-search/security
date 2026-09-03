@@ -71,8 +71,8 @@ layout: security
 method: probed
 name: Realtor Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for realtor, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: realtor
+overview: 'Domain security posture for Realtor, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Realtor
 provider_slug: realtor
 slug: realtor-domain-security
 source_filename: realtor-domain-security.yml

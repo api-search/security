@@ -107,8 +107,8 @@ layout: security
 method: probed
 name: Doordash Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for doordash, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
-provider_name: doordash
+overview: 'Domain security posture for Doordash, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+provider_name: Doordash
 provider_slug: doordash
 slug: doordash-domain-security
 source_filename: doordash-domain-security.yml

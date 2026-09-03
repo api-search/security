@@ -318,4 +318,12 @@ tags:
 - Open Education
 - Kazakhstan
 - Central Asia
+- Course Catalog
+- Learning Management
+- Open edX
+- MOOC
+- Scholarly Publishing
+- OAI-PMH
+- Open Access
+- Research Data
 ---

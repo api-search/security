@@ -91,8 +91,8 @@ layout: security
 method: probed
 name: Pinnacle Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for  Pinnacle Sports Betting, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: ' Pinnacle Sports Betting'
+overview: 'Domain security posture for Pinnacle Sports Betting, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Pinnacle Sports Betting
 provider_slug: pinnacle
 slug: pinnacle-domain-security
 source_filename: pinnacle-domain-security.yml

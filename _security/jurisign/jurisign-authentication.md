@@ -3,8 +3,8 @@ api_key_in: []
 api_specs:
 - filename: jurisign-api-openapi.yml
   format: yaml
-  label: JuriSign REST API
-  slug: jurisign-rest-api
+  label: JuriSign API
+  slug: jurisign-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/openapi/jurisign-api-openapi.yml
 auth_types:

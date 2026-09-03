@@ -90,8 +90,8 @@ kind: trust-center
 layout: security
 name: Clickup Trust Center
 name_suffix: Trust Center
-overview: clickup maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, and GDPR compliance.
-provider_name: clickup
+overview: Clickup maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, and GDPR compliance.
+provider_name: Clickup
 provider_slug: clickup
 slug: clickup-trust-center
 source_filename: clickup-trust-center.yml

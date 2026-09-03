@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: university-of-florida-schedule-of-courses-openapi.yml
+  format: yaml
+  label: UF Schedule of Courses (SOC) API
+  slug: soc-schedule
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/openapi/university-of-florida-schedule-of-courses-openapi.yml
+- filename: university-of-florida-libraries-patron-api-openapi.yml
+  format: yaml
+  label: UF Libraries Patron API
+  slug: libraries-patron-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/openapi/university-of-florida-libraries-patron-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,11 +53,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/security/university-of-florida-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Courses
-- Digital Collections
-- Open Data
+- Higher Education
+- Education
+- Public Research University
 - United States
+- Florida
+- Association of American Universities
+- Course Catalog
+- Digital Collections
+- Library
+- Research Data
+- Identity Federation
+- OAI-PMH
+- Research Computing
 ---

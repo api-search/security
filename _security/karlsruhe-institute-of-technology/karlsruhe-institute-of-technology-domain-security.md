@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: KIT Library Catalogue REST API (self-hosted Koha)
+  slug: library-catalog-api
+  spec_type: OpenAPI
+  url: https://katalog.bibliothek.kit.edu/api/v1/
 description: ''
 domains:
 - caa: []
@@ -44,9 +51,19 @@ tags:
 - Education
 - Higher Education
 - University
-- Research
-- Open Data
-- Research Data
-- Library
+- Technical University
 - Germany
+- Europe
+- Research
+- Research Data
+- Open Access
+- Open Science
+- Institutional Repository
+- Library
+- OAI-PMH
+- Identity Federation
+- Shibboleth
+- Research Computing
+- TU9
+- Helmholtz Association
 ---

@@ -173,8 +173,8 @@ layout: security
 method: probed
 name: Tidb Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for tidb, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: tidb
+overview: 'Domain security posture for Tidb, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Tidb
 provider_slug: tidb
 slug: tidb-domain-security
 source_filename: tidb-domain-security.yml

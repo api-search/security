@@ -47,11 +47,20 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/washington-university-in-st-louis/refs/heads/main/security/washington-university-in-st-louis-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
+- Higher Education
+- Education
 - United States
-- MuleSoft
+- Missouri
+- Private Research University
+- Research Data
+- Research Repository
+- Identity Federation
+- Genomics
+- Bioinformatics
+- GraphQL
 - OAI-PMH
+- Shibboleth
+- DataCite
+- MuleSoft
 ---

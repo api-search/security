@@ -37,7 +37,13 @@ tags:
 - Education
 - Higher Education
 - University
+- Private University
 - Malaysia
+- Asia
 - Library
+- Library Catalog
 - Koha
+- Identity Federation
+- Learning Management
+- Registry
 ---

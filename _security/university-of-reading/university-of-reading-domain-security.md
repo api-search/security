@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: university-of-reading-centaur-oai-pmh-openapi.yml
+  format: yaml
+  label: CentAUR OAI-PMH Metadata API
+  slug: centaur-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-reading/refs/heads/main/openapi/university-of-reading-centaur-oai-pmh-openapi.yml
+- filename: university-of-reading-research-data-archive-oai-pmh-openapi.yml
+  format: yaml
+  label: Research Data Archive OAI-PMH Metadata API
+  slug: research-data-archive-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-reading/refs/heads/main/openapi/university-of-reading-research-data-archive-oai-pmh-openapi.yml
+- filename: university-of-reading-eprints-rest-openapi.yml
+  format: yaml
+  label: CentAUR Repository REST Listings
+  slug: centaur-eprints-rest
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-reading/refs/heads/main/openapi/university-of-reading-eprints-rest-openapi.yml
+- filename: university-of-reading-eprints-rest-openapi.yml
+  format: yaml
+  label: Research Data Archive REST Listings
+  slug: research-data-archive-eprints-rest
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-reading/refs/heads/main/openapi/university-of-reading-eprints-rest-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,12 +67,19 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-reading/refs/heads/main/security/university-of-reading-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
+- Research Repository
+- Research Data
 - Open Access
-- Repository
+- OAI-PMH
 - Metadata
+- Identity Federation
+- Course Catalog
+- Library
+- Climate Data
 - United Kingdom
+- England
 ---

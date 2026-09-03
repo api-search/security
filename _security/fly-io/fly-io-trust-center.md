@@ -56,8 +56,8 @@ kind: trust-center
 layout: security
 name: Fly Io Trust Center
 name_suffix: Trust Center
-overview: fly-io maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
-provider_name: fly-io
+overview: Fly Io maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
+provider_name: Fly Io
 provider_slug: fly-io
 slug: fly-io-trust-center
 source_filename: fly-io-trust-center.yml

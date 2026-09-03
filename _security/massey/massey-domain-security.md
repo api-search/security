@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: massey-mro-dspace-openapi.yml
+  format: yaml
+  label: Massey Research Online OAI-PMH
+  slug: mro-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/openapi/massey-mro-dspace-openapi.yml
+- filename: massey-mro-dspace-openapi.yml
+  format: yaml
+  label: Massey Research Online DSpace REST API
+  slug: mro-rest
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/openapi/massey-mro-dspace-openapi.yml
+- filename: massey-mapi-openapi.yml
+  format: yaml
+  label: Massey M-API WebService API v1
+  slug: mapi-v1
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/openapi/massey-mapi-openapi.yml
 description: ''
 domains:
 - caa:
@@ -43,8 +62,17 @@ tags:
 - Education
 - Higher Education
 - University
+- New Zealand
 - Research
+- Research Data
 - Open Access
 - Institutional Repository
-- New Zealand
+- OAI-PMH
+- DSpace
+- Identity Federation
+- Shibboleth
+- SAML
+- DataCite
+- Crossref
+- Library
 ---

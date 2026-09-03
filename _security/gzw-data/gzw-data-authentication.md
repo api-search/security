@@ -547,6 +547,30 @@ api_specs:
   slug: gzw-data-workshop-supplies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gzw-data/refs/heads/main/openapi/gzw-data-workshop-supplies-api-openapi.yml
+- filename: gzw-data-changes-api-openapi.yml
+  format: yaml
+  label: GZW Data API Changes API
+  slug: gzw-data-changes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gzw-data/refs/heads/main/openapi/gzw-data-changes-api-openapi.yml
+- filename: gzw-data-schema-api-openapi.yml
+  format: yaml
+  label: GZW Data API Schema API
+  slug: gzw-data-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gzw-data/refs/heads/main/openapi/gzw-data-schema-api-openapi.yml
+- filename: gzw-data-search-api-openapi.yml
+  format: yaml
+  label: GZW Data API Search API
+  slug: gzw-data-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gzw-data/refs/heads/main/openapi/gzw-data-search-api-openapi.yml
+- filename: gzw-data-version-api-openapi.yml
+  format: yaml
+  label: GZW Data API Version API
+  slug: gzw-data-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gzw-data/refs/heads/main/openapi/gzw-data-version-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -564,8 +588,8 @@ slug: gzw-data-authentication
 source_filename: gzw-data-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: https://gzw-data.dev/docs/ (section \"Authentication — None, Public access, no API key\") + https://gzw-data.dev/llms.txt\ndocs: https://gzw-data.dev/docs/\nnote: >-\n  GZW Data is an unauthenticated public read-only API. The OpenAPI document declares NO\n  components.securitySchemes and no top-level security block, and the docs and llms.txt both\n  state plainly that authentication is none and no API key is required. This artifact records\n  a documented ABSENCE of authentication, not a gap in our research. Verified by anonymous\n  probe: GET https://gzw-data.dev/api/v1/weapons returned 200 with no credential supplied.\nmodel: none\napi_key_required: false\naccount_required: false\noauth2: false\nschemes: []\nevidence:\n- url: https://gzw-data.dev/api/v1/spec\n  status: 200\n  finding: no components.securitySchemes, no security block, 352 operations\n- url: https://gzw-data.dev/api/v1/weapons\n  status: 200\n  finding: 200\
-  \ OK anonymously, no credential supplied\n- url: https://gzw-data.dev/docs/\n  status: 200\n  finding: 'docs state \"Authentication: None — Public access, no API key\"'\naccess_control:\n  mechanism: best-effort per-IP rate limiting\n  detail: See rate-limits/gzw-data-rate-limits.yml — 100 requests/minute/IP is the only access control.\ncors:\n  access_control_allow_origin: '*'\n  observed: 2026-08-26\n  note: Browser clients can call the API directly from any origin.\n"
+source_yaml: "generated: '2026-09-03'\nmethod: searched\nsource: https://gzw-data.dev/docs/ (section \"Authentication — None, Public access, no API key\") + https://gzw-data.dev/llms.txt\ndocs: https://gzw-data.dev/docs/\nnote: >-\n  GZW Data is an unauthenticated public read-only API. The OpenAPI document declares NO\n  components.securitySchemes and no top-level security block, and the docs and llms.txt both\n  state plainly that authentication is none and no API key is required. This artifact records\n  a documented ABSENCE of authentication, not a gap in our research. Verified by anonymous\n  probe: GET https://gzw-data.dev/api/v1/weapons returned 200 with no credential supplied.\nmodel: none\napi_key_required: false\naccount_required: false\noauth2: false\nschemes: []\nevidence:\n- url: https://gzw-data.dev/api/v1/spec\n  status: 200\n  finding: 'no components.securitySchemes, no security block, 362 operations (re-verified 2026-09-03 against implementation 4.2.0)'\n- url: https://gzw-data.dev/api/v1/weapons\n\
+  \  status: 200\n  finding: 200 OK anonymously, no credential supplied\n- url: https://gzw-data.dev/docs/\n  status: 200\n  finding: 'docs state \"Authentication: None — Public access, no API key\"'\naccess_control:\n  mechanism: best-effort per-IP rate limiting\n  detail: See rate-limits/gzw-data-rate-limits.yml — 100 requests/minute/IP is the only access control.\ncors:\n  access_control_allow_origin: '*'\n  observed: 2026-08-26\n  note: Browser clients can call the API directly from any origin.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gzw-data/refs/heads/main/authentication/gzw-data-authentication.yml
 summary_line: 0 schemes
 tags:

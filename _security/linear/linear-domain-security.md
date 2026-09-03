@@ -43,8 +43,8 @@ layout: security
 method: probed
 name: Linear Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for linear, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: linear
+overview: 'Domain security posture for Linear, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Linear
 provider_slug: linear
 slug: linear-domain-security
 source_filename: linear-domain-security.yml

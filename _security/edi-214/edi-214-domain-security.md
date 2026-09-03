@@ -52,8 +52,8 @@ layout: security
 method: probed
 name: Edi 214 Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for edi-214, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: edi-214
+overview: 'Domain security posture for Edi 214, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Edi 214
 provider_slug: edi-214
 slug: edi-214-domain-security
 source_filename: edi-214-domain-security.yml

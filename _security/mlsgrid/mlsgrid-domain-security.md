@@ -73,8 +73,8 @@ layout: security
 method: probed
 name: Mlsgrid Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for mlsgrid, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: mlsgrid
+overview: 'Domain security posture for Mlsgrid, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Mlsgrid
 provider_slug: mlsgrid
 slug: mlsgrid-domain-security
 source_filename: mlsgrid-domain-security.yml

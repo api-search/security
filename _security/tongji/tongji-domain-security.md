@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: tongji-reference-metadata-openapi.yml
+  format: yaml
+  label: Tongji University Open Platform
+  slug: open-platform
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-reference-metadata-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,11 +47,17 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/security/tongji-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - China
 - Shanghai
+- Double First-Class
 - Open Platform
 - Campus Data
+- Identity Federation
+- Research Data
+- Library
+- Course Catalog
+- Reference Data
 ---

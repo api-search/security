@@ -101,8 +101,8 @@ method: derived
 name: Dev To Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: dev-to secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: dev-to
+overview: Dev To secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Dev To
 provider_slug: dev-to
 scheme_count: 1
 schemes:

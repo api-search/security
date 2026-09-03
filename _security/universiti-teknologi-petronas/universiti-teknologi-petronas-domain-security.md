@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: universiti-teknologi-petronas-utpedia-openapi.yml
+  format: yaml
+  label: UTPedia Institutional Repository
+  slug: utpedia
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/openapi/universiti-teknologi-petronas-utpedia-openapi.yml
+- filename: universiti-teknologi-petronas-scholars-openapi.yml
+  format: yaml
+  label: UTP Scholarly Publication Repository
+  slug: scholars
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/openapi/universiti-teknologi-petronas-scholars-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,12 +47,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/security/universiti-teknologi-petronas-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Access
-- Institutional Repository
-- OAI-PMH
+- Higher Education
+- Education
 - Malaysia
+- Private Research University
+- Research
+- Research Repository
+- Institutional Repository
+- Open Access
+- OAI-PMH
+- EPrints
+- Identity Federation
+- Learning Management
+- Scholarly Publishing
 ---

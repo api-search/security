@@ -51,7 +51,17 @@ tags:
 - Education
 - Higher Education
 - University
+- Private Research University
+- Association of American Universities
 - Research
+- Identity Federation
+- Shibboleth
+- SAML
+- OAI-PMH
+- Research Repository
+- Library
+- Course Catalog
+- Crossref
 - Cleveland
 - Ohio
 - United States

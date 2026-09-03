@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Newmont Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for newmont, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: newmont
+overview: 'Domain security posture for Newmont, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Newmont
 provider_slug: newmont
 slug: newmont-domain-security
 source_filename: newmont-domain-security.yml

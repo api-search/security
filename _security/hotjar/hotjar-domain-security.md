@@ -61,8 +61,8 @@ layout: security
 method: probed
 name: Hotjar Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for hotjar, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: hotjar
+overview: 'Domain security posture for Hotjar, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Hotjar
 provider_slug: hotjar
 slug: hotjar-domain-security
 source_filename: hotjar-domain-security.yml

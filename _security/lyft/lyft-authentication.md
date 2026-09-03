@@ -54,8 +54,8 @@ method: derived
 name: Lyft Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: lyft secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: lyft
+overview: Lyft secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Lyft
 provider_slug: lyft
 scheme_count: 2
 schemes:

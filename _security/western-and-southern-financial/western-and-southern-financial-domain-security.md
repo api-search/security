@@ -37,8 +37,8 @@ layout: security
 method: probed
 name: Western And Southern Financial Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for western-and-southern-financial, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: western-and-southern-financial
+overview: 'Domain security posture for Western And Southern Financial, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Western And Southern Financial
 provider_slug: western-and-southern-financial
 slug: western-and-southern-financial-domain-security
 source_filename: western-and-southern-financial-domain-security.yml

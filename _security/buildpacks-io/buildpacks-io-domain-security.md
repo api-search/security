@@ -43,8 +43,8 @@ layout: security
 method: probed
 name: Buildpacks Io Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for buildpacks-io, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: buildpacks-io
+overview: 'Domain security posture for Buildpacks Io, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: Buildpacks Io
 provider_slug: buildpacks-io
 slug: buildpacks-io-domain-security
 source_filename: buildpacks-io-domain-security.yml

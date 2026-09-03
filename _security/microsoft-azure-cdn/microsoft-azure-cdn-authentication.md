@@ -23,8 +23,8 @@ name: Microsoft Azure Cdn Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit
-overview: microsoft-azure-cdn secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the implicit flow(s).
-provider_name: microsoft-azure-cdn
+overview: Microsoft Azure Cdn secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the implicit flow(s).
+provider_name: Microsoft Azure Cdn
 provider_slug: microsoft-azure-cdn
 scheme_count: 1
 schemes:

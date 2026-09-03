@@ -28,8 +28,8 @@ method: derived
 name: Agrio Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: agrio secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: agrio
+overview: Agrio secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Agrio
 provider_slug: agrio
 scheme_count: 1
 schemes:

@@ -126,8 +126,8 @@ name: Linode Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
-overview: linode secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
-provider_name: linode
+overview: Linode secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+provider_name: Linode
 provider_slug: linode
 scheme_count: 2
 schemes:

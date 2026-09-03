@@ -17,8 +17,8 @@ layout: security
 method: probed
 name: Devon Energy Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for devon-energy, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: devon-energy
+overview: 'Domain security posture for Devon Energy, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Devon Energy
 provider_slug: devon-energy
 slug: devon-energy-domain-security
 source_filename: devon-energy-domain-security.yml

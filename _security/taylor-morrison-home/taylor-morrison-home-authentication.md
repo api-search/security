@@ -47,8 +47,8 @@ method: derived
 name: Taylor Morrison Home Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: taylor-morrison-home secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: taylor-morrison-home
+overview: Taylor Morrison Home secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Taylor Morrison Home
 provider_slug: taylor-morrison-home
 scheme_count: 1
 schemes:

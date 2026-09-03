@@ -34,8 +34,8 @@ method: derived
 name: E2Open Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: e2open secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: e2open
+overview: E2open secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: E2open
 provider_slug: e2open
 scheme_count: 1
 schemes:

@@ -17,8 +17,8 @@ layout: security
 method: probed
 name: Semgroup Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for semgroup, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: semgroup
+overview: 'Domain security posture for Semgroup, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Semgroup
 provider_slug: semgroup
 slug: semgroup-domain-security
 source_filename: semgroup-domain-security.yml

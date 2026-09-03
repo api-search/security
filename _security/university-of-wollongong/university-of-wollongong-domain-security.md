@@ -51,7 +51,12 @@ tags:
 - Higher Education
 - University
 - Australia
+- New South Wales
+- Public Research University
+- Identity Federation
 - Research Repository
 - Library
+- Course Catalog
 - Open Access
+- Persistent Identifiers
 ---

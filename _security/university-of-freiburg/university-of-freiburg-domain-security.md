@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: university-of-freiburg-freidok-plus-json-api-openapi.yml
+  format: yaml
+  label: FreiDok plus JSON API
+  slug: freidok-json
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-freiburg/refs/heads/main/openapi/university-of-freiburg-freidok-plus-json-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +51,11 @@ tags:
 - Higher Education
 - University
 - Research
+- Research Data
 - Open Data
 - Library
+- Repository
+- OAI-PMH
+- Identity Federation
 - Germany
 ---

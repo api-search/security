@@ -6,8 +6,8 @@ kind: trust-center
 layout: security
 name: Xylem Trust Center
 name_suffix: Trust Center
-overview: xylem maintains a public trust center documenting ISO 27001 compliance.
-provider_name: xylem
+overview: Xylem maintains a public trust center documenting ISO 27001 compliance.
+provider_name: Xylem
 provider_slug: xylem
 slug: xylem-trust-center
 source_filename: xylem-trust-center.yml

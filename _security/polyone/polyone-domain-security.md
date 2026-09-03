@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Polyone Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for polyone, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: polyone
+overview: 'Domain security posture for Polyone, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Polyone
 provider_slug: polyone
 slug: polyone-domain-security
 source_filename: polyone-domain-security.yml

@@ -37,10 +37,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ncku/refs/heads/main/security/ncku-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Open Data
-- Library
+- Higher Education
+- Education
 - Taiwan
+- Asia
+- Public Research University
+- Open Data
+- CKAN
+- Research Data
+- Library
+- Course Catalog
+- Institutional Repository
 ---

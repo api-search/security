@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: vanderbilt-television-news-archive-openapi.yml
+  format: yaml
+  label: Vanderbilt Television News Archive API
+  slug: television-news-archive
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/openapi/vanderbilt-television-news-archive-openapi.yml
+- filename: vanderbilt-sparql-openapi.yml
+  format: yaml
+  label: Vanderbilt Libraries SPARQL Endpoint
+  slug: sparql
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/openapi/vanderbilt-sparql-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -36,10 +49,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/security/vanderbilt-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
+- Higher Education
+- Education
+- Private Research University
+- Research Data
+- Institutional Repository
+- Linked Data
+- SPARQL
+- Digital Collections
+- Television News Archive
+- Identity Federation
+- Library
 - Nashville
 - Tennessee
 - United States

@@ -34,8 +34,8 @@ method: derived
 name: Hotjar Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: hotjar secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: hotjar
+overview: Hotjar secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Hotjar
 provider_slug: hotjar
 scheme_count: 1
 schemes:

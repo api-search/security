@@ -2,22 +2,22 @@
 api_specs:
 - filename: humboldt-universitat-zu-berlin-core-api-openapi.yml
   format: yaml
-  label: Humboldt-Universität zu Berlin Core API
-  slug: humboldt-universitat-zu-berlin-core-api
+  label: edoc-Server DSpace REST API
+  slug: edoc-rest
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/openapi/humboldt-universitat-zu-berlin-core-api-openapi.yml
-- filename: humboldt-universitat-zu-berlin-discovery-api-openapi.yml
+- filename: humboldt-universitat-zu-berlin-oai-pmh-api-openapi.yml
   format: yaml
-  label: Humboldt-Universität zu Berlin Discovery API
-  slug: humboldt-universitat-zu-berlin-discovery-api
+  label: edoc-Server OAI-PMH 2.0 Interface
+  slug: edoc-oai
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/openapi/humboldt-universitat-zu-berlin-discovery-api-openapi.yml
-- filename: humboldt-universitat-zu-berlin-root-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/openapi/humboldt-universitat-zu-berlin-oai-pmh-api-openapi.yml
+- filename: humboldt-universitat-zu-berlin-laudatio-repository-api-openapi.yml
   format: yaml
-  label: Humboldt-Universität zu Berlin Root API
-  slug: humboldt-universitat-zu-berlin-root-api
+  label: LAUDATIO-Repository REST API
+  slug: laudatio-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/openapi/humboldt-universitat-zu-berlin-root-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/openapi/humboldt-universitat-zu-berlin-laudatio-repository-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -60,11 +60,19 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/security/humboldt-universitat-zu-berlin-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
+- Germany
+- Berlin
+- Institutional Repository
+- Research Data
 - Open Access
 - Library
-- Germany
+- Identity Federation
+- OAI-PMH
+- DataCite
+- Shibboleth
+- Corpus Linguistics
 ---

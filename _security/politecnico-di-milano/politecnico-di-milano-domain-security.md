@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: politecnico-di-milano-opendata-openapi.yml
+  format: yaml
+  label: Politecnico di Milano Open Data
+  slug: open-data
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/openapi/politecnico-di-milano-opendata-openapi.yml
+- filename: politecnico-di-milano-iris-oai-pmh-openapi.yml
+  format: yaml
+  label: Re.Public@Polimi OAI-PMH
+  slug: iris-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/openapi/politecnico-di-milano-iris-oai-pmh-openapi.yml
+- filename: politecnico-di-milano-politesi-oai-pmh-openapi.yml
+  format: yaml
+  label: POLITESI OAI-PMH
+  slug: politesi-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/openapi/politecnico-di-milano-politesi-oai-pmh-openapi.yml
+- filename: politecnico-di-milano-shibboleth-idp-openapi.yml
+  format: yaml
+  label: Politecnico di Milano Shibboleth Identity Provider
+  slug: shibboleth-idp
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/openapi/politecnico-di-milano-shibboleth-idp-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,10 +70,15 @@ tags:
 - Education
 - Higher Education
 - University
+- Technical University
 - Research
 - Open Data
-- Repository
+- Research Repository
+- Course Catalog
+- Identity Federation
 - OAI-PMH
-- Identity
+- Shibboleth
+- DCAT
 - Italy
+- Europe
 ---

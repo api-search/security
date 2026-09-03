@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: american-greetings-corporate-wordpress-rest-openapi.yml
+  format: yaml
+  label: American Greetings Corporate WordPress REST API
+  slug: american-greetings-corporate-wordpress-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/american-greetings/refs/heads/main/openapi/american-greetings-corporate-wordpress-rest-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -32,11 +39,18 @@ slug: american-greetings-domain-security
 source_filename: american-greetings-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.americangreetings.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 23:59:59 2026 GMT\n  hsts: null\n- host: developer.americangreetings.com\n  https: false\n- host: api.americangreetings.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: americangreetings.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.americangreetings.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 23:59:59 2026 GMT\n  hsts: null\n- host: developer.americangreetings.com\n  https: false\n- host: api.americangreetings.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: americangreetings.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/american-greetings/refs/heads/main/security/american-greetings-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Greeting Cards
 - Gift Wrap
 - Celebration
+- Consumer Products
+- Retail
+- Stationery
+- Party Supplies
+- Digital Greetings
+- Content API
+- WordPress REST API
 ---

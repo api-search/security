@@ -207,8 +207,8 @@ kind: trust-center
 layout: security
 name: Contentstack Trust Center
 name_suffix: Trust Center
-overview: contentstack maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
-provider_name: contentstack
+overview: Contentstack maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
+provider_name: Contentstack
 provider_slug: contentstack
 slug: contentstack-trust-center
 source_filename: contentstack-trust-center.yml

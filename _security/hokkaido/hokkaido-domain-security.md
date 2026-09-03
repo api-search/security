@@ -39,8 +39,14 @@ tags:
 - Education
 - Higher Education
 - University
+- Japan
+- National University
 - Research
 - Open Access
 - Institutional Repository
-- Japan
+- Identity Federation
+- Shibboleth
+- Research Computing
+- Course Catalog
+- Persistent Identifiers
 ---

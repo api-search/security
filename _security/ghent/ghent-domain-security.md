@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: ghent-biblio-openapi.yml
+  format: yaml
+  label: Ghent University Academic Bibliography API
+  slug: biblio
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ghent/refs/heads/main/openapi/ghent-biblio-openapi.yml
+- filename: ghent-biblio-openapi.yml
+  format: yaml
+  label: Ghent University Academic Bibliography OAI-PMH
+  slug: biblio-oai
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ghent/refs/heads/main/openapi/ghent-biblio-openapi.yml
+- filename: ghent-biblio-openapi.yml
+  format: yaml
+  label: Ghent University Academic Bibliography SRU
+  slug: biblio-sru
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ghent/refs/heads/main/openapi/ghent-biblio-openapi.yml
+- filename: ghent-hydra-resto-openapi.yml
+  format: yaml
+  label: Hydra Resto API
+  slug: hydra-resto
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ghent/refs/heads/main/openapi/ghent-hydra-resto-openapi.yml
+- filename: ghent-people-service-openapi.yaml
+  format: yaml
+  label: Ghent University Library People Service
+  slug: people-service
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ghent/refs/heads/main/openapi/ghent-people-service-openapi.yaml
+- filename: ghent-projects-service-openapi.yaml
+  format: yaml
+  label: Ghent University Library Projects Service
+  slug: projects-service
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ghent/refs/heads/main/openapi/ghent-projects-service-openapi.yaml
+- filename: ghent-oai-service-openapi.yaml
+  format: yaml
+  label: Ghent University Library OAI Service
+  slug: oai-service
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ghent/refs/heads/main/openapi/ghent-oai-service-openapi.yaml
 description: ''
 domains:
 - caa: []
@@ -42,12 +85,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ghent/refs/heads/main/security/ghent-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
+- Research Data
 - Library
 - Open Data
+- Identity Federation
+- OAI-PMH
 - Belgium
+- Flanders
 - Europe
 ---

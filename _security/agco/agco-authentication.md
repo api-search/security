@@ -29,8 +29,8 @@ method: derived
 name: Agco Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: agco secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: agco
+overview: Agco secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Agco
 provider_slug: agco
 scheme_count: 1
 schemes:

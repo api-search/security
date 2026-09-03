@@ -79,8 +79,8 @@ layout: security
 method: probed
 name: Cohere Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for cohere, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: cohere
+overview: 'Domain security posture for Cohere, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Cohere
 provider_slug: cohere
 slug: cohere-domain-security
 source_filename: cohere-domain-security.yml

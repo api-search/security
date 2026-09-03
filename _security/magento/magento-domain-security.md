@@ -98,8 +98,8 @@ layout: security
 method: probed
 name: Magento Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for magento, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: magento
+overview: 'Domain security posture for Magento, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Magento
 provider_slug: magento
 slug: magento-domain-security
 source_filename: magento-domain-security.yml

@@ -29,8 +29,8 @@ name: Pg And E Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
-overview: pg-and-e secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
-provider_name: pg-and-e
+overview: Pg And E secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+provider_name: Pg And E
 provider_slug: pg-and-e
 scheme_count: 1
 schemes:

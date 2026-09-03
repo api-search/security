@@ -34,5 +34,10 @@ tags:
 - University
 - Research
 - China
+- Identity Federation
+- Single Sign-On
+- Research Data
+- GNSS
+- Library
 - Open-Source
 ---

@@ -77,8 +77,8 @@ name: Airbnb Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
-overview: airbnb secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
-provider_name: airbnb
+overview: Airbnb secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+provider_name: Airbnb
 provider_slug: airbnb
 scheme_count: 1
 schemes:

@@ -122,8 +122,8 @@ layout: security
 method: probed
 name: Dev To Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for dev-to, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
-provider_name: dev-to
+overview: 'Domain security posture for Dev To, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
+provider_name: Dev To
 provider_slug: dev-to
 slug: dev-to-domain-security
 source_filename: dev-to-domain-security.yml

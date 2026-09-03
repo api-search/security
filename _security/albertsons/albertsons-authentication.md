@@ -34,8 +34,8 @@ method: derived
 name: Albertsons Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: albertsons secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: albertsons
+overview: Albertsons secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Albertsons
 provider_slug: albertsons
 scheme_count: 1
 schemes:

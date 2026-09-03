@@ -52,8 +52,8 @@ method: derived
 name: Mlsgrid Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: mlsgrid secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: mlsgrid
+overview: Mlsgrid secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Mlsgrid
 provider_slug: mlsgrid
 scheme_count: 1
 schemes:

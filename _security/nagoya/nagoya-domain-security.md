@@ -43,9 +43,14 @@ tags:
 - Education
 - Higher Education
 - University
-- Research
-- Open Access
-- Institutional Repository
-- OAI-PMH
 - Japan
+- Designated National University
+- Research
+- Research Repository
+- Open Access
+- OAI-PMH
+- Identity Federation
+- Shibboleth
+- Research Data
+- Research Computing
 ---

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: khalifa-khazna-oai-pmh-openapi.yml
+  format: yaml
+  label: Khazna OAI-PMH Repository
+  slug: khazna-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/khalifa/refs/heads/main/openapi/khalifa-khazna-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -30,10 +37,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/khalifa/refs/heads/main/security/khalifa-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
+- Research Data
+- Research Repository
+- Identity Federation
+- OAI-PMH
 - Robotics
 - United Arab Emirates
 - Abu Dhabi

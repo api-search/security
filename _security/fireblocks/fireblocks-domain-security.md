@@ -253,8 +253,8 @@ layout: security
 method: probed
 name: Fireblocks Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for fireblocks, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: fireblocks
+overview: 'Domain security posture for Fireblocks, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Fireblocks
 provider_slug: fireblocks
 slug: fireblocks-domain-security
 source_filename: fireblocks-domain-security.yml

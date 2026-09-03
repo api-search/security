@@ -50,8 +50,8 @@ layout: security
 method: probed
 name: Fauna Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for fauna, probed live across 3 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: fauna
+overview: 'Domain security posture for Fauna, probed live across 3 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Fauna
 provider_slug: fauna
 slug: fauna-domain-security
 source_filename: fauna-domain-security.yml

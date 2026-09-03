@@ -68,8 +68,8 @@ layout: security
 method: probed
 name: Medium Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for medium, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: medium
+overview: 'Domain security posture for Medium, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Medium
 provider_slug: medium
 slug: medium-domain-security
 source_filename: medium-domain-security.yml

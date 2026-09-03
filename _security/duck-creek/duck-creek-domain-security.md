@@ -71,8 +71,8 @@ layout: security
 method: probed
 name: Duck Creek Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for duck-creek, probed live across 3 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: duck-creek
+overview: 'Domain security posture for Duck Creek, probed live across 3 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Duck Creek
 provider_slug: duck-creek
 slug: duck-creek-domain-security
 source_filename: duck-creek-domain-security.yml

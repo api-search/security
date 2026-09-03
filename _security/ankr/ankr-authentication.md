@@ -60,8 +60,8 @@ method: derived
 name: Ankr Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: ankr secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: ankr
+overview: Ankr secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Ankr
 provider_slug: ankr
 scheme_count: 2
 schemes:

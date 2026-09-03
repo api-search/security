@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: indian-institute-of-technology-kharagpur-idr-opensearch-openapi.yml
+  format: yaml
+  label: IIT Kharagpur Institutional Digital Repository OpenSearch Interface
+  slug: idr-opensearch
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/indian-institute-of-technology-kharagpur/refs/heads/main/openapi/indian-institute-of-technology-kharagpur-idr-opensearch-openapi.yml
+- filename: indian-institute-of-technology-kharagpur-erp-cep-openapi.yml
+  format: yaml
+  label: IIT Kharagpur ERP Continuing Education Programme Brochure Endpoint
+  slug: erp-cep-brochures
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/indian-institute-of-technology-kharagpur/refs/heads/main/openapi/indian-institute-of-technology-kharagpur-erp-cep-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,9 +60,14 @@ tags:
 - Education
 - Higher Education
 - University
+- Institute of Technology
+- India
 - Research
-- Library
+- Research Repository
 - Institutional Repository
 - DSpace
-- India
+- OpenSearch
+- Course Catalog
+- Research Computing
+- Library
 ---

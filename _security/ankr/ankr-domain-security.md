@@ -78,8 +78,8 @@ layout: security
 method: probed
 name: Ankr Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for ankr, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: ankr
+overview: 'Domain security posture for Ankr, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Ankr
 provider_slug: ankr
 slug: ankr-domain-security
 source_filename: ankr-domain-security.yml

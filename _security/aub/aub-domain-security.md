@@ -41,12 +41,17 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aub/refs/heads/main/security/aub-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Lebanon
 - Middle East
+- Private Research University
 - Research
-- Libraries
+- Research Data
 - Open Access
+- Libraries
+- Institutional Repository
+- Identity Federation
+- Learning Management
 ---

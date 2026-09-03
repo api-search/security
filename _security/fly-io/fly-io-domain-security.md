@@ -82,8 +82,8 @@ layout: security
 method: probed
 name: Fly Io Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for fly-io, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: fly-io
+overview: 'Domain security posture for Fly Io, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Fly Io
 provider_slug: fly-io
 slug: fly-io-domain-security
 source_filename: fly-io-domain-security.yml

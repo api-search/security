@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Wendys Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for wendys, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: wendys
+overview: 'Domain security posture for Wendys, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Wendys
 provider_slug: wendys
 slug: wendys-domain-security
 source_filename: wendys-domain-security.yml

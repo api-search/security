@@ -54,8 +54,8 @@ layout: security
 method: probed
 name: Microsoft Azure Batch Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for microsoft-azure-batch, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: microsoft-azure-batch
+overview: 'Domain security posture for Microsoft Azure Batch, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Microsoft Azure Batch
 provider_slug: microsoft-azure-batch
 slug: microsoft-azure-batch-domain-security
 source_filename: microsoft-azure-batch-domain-security.yml

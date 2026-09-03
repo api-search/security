@@ -23,8 +23,8 @@ name: Microsoft Azure Cache For Redis Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit
-overview: microsoft-azure-cache-for-redis secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the implicit flow(s).
-provider_name: microsoft-azure-cache-for-redis
+overview: Microsoft Azure Cache For Redis secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the implicit flow(s).
+provider_name: Microsoft Azure Cache For Redis
 provider_slug: microsoft-azure-cache-for-redis
 scheme_count: 1
 schemes:

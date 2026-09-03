@@ -33,7 +33,11 @@ tags:
 - Education
 - Higher Education
 - University
+- Institute of Technology
 - Research
 - India
 - IIT
+- Identity Federation
+- Learning Management
+- Artificial Intelligence
 ---

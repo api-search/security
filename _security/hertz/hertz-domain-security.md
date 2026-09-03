@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Hertz Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for hertz, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
-provider_name: hertz
+overview: 'Domain security posture for Hertz, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
+provider_name: Hertz
 provider_slug: hertz
 slug: hertz-domain-security
 source_filename: hertz-domain-security.yml

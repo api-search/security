@@ -81,8 +81,8 @@ layout: security
 method: probed
 name: Veeva Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for veeva, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: veeva
+overview: 'Domain security posture for Veeva, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Veeva
 provider_slug: veeva
 slug: veeva-domain-security
 source_filename: veeva-domain-security.yml

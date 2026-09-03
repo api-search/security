@@ -107,8 +107,8 @@ method: derived
 name: Bugsnag Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: bugsnag secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: bugsnag
+overview: Bugsnag secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Bugsnag
 provider_slug: bugsnag
 scheme_count: 1
 schemes:

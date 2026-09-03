@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Hershey Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for hershey, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: hershey
+overview: 'Domain security posture for Hershey, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Hershey
 provider_slug: hershey
 slug: hershey-domain-security
 source_filename: hershey-domain-security.yml

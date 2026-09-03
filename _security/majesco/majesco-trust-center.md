@@ -34,8 +34,8 @@ kind: trust-center
 layout: security
 name: Majesco Trust Center
 name_suffix: Trust Center
-overview: majesco maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
-provider_name: majesco
+overview: Majesco maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
+provider_name: Majesco
 provider_slug: majesco
 slug: majesco-trust-center
 source_filename: majesco-trust-center.yml

@@ -37,8 +37,8 @@ layout: security
 method: probed
 name: Alere Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for alere, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: alere
+overview: 'Domain security posture for Alere, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Alere
 provider_slug: alere
 slug: alere-domain-security
 source_filename: alere-domain-security.yml

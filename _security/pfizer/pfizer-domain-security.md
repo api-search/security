@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Pfizer Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for pfizer, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: pfizer
+overview: 'Domain security posture for Pfizer, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Pfizer
 provider_slug: pfizer
 slug: pfizer-domain-security
 source_filename: pfizer-domain-security.yml

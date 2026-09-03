@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: university-of-lisbon-fenixedu-academic-api-openapi.yml
+  format: yaml
+  label: FenixEdu Academic API (Instituto Superior Tecnico)
+  slug: fenixedu-tecnico
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-fenixedu-academic-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,11 +52,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/security/university-of-lisbon-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Portugal
-- Open Data
-- Repository
+- Europe
+- Public Research University
+- Course Catalog
+- Research Repository
+- Library
+- Identity Federation
+- OAI-PMH
+- Open Access
+- Erasmus Without Paper
 - Metadata
 ---

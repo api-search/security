@@ -70,8 +70,8 @@ method: derived
 name: Celestia Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: celestia secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: celestia
+overview: Celestia secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Celestia
 provider_slug: celestia
 scheme_count: 1
 schemes:

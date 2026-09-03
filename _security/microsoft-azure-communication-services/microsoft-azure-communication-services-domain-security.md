@@ -52,8 +52,8 @@ layout: security
 method: probed
 name: Microsoft Azure Communication Services Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for microsoft-azure-communication-services, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: microsoft-azure-communication-services
+overview: 'Domain security posture for Microsoft Azure Communication Services, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Microsoft Azure Communication Services
 provider_slug: microsoft-azure-communication-services
 slug: microsoft-azure-communication-services-domain-security
 source_filename: microsoft-azure-communication-services-domain-security.yml

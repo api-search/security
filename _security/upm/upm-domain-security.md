@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: upm-psasir-oai-pmh-openapi.yml
+  format: yaml
+  label: PSASIR Institutional Repository — OAI-PMH 2.0
+  slug: psasir-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/openapi/upm-psasir-oai-pmh-openapi.yml
+- filename: upm-psasir-eprints-rest-openapi.yml
+  format: yaml
+  label: PSASIR EPrints REST, Export and OpenSearch
+  slug: psasir-eprints-rest
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/openapi/upm-psasir-eprints-rest-openapi.yml
+- filename: upm-myagric-oai-pmh-openapi.yml
+  format: yaml
+  label: MyAgric — Malaysian Agricultural Repository OAI-PMH 2.0
+  slug: myagric-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/openapi/upm-myagric-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -37,12 +56,17 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/security/upm-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Access
-- Institutional Repository
-- Identity
+- Higher Education
+- Education
 - Malaysia
+- Public Research University
+- Research Data
+- Institutional Repository
+- Open Access
+- OAI-PMH
+- Identity Federation
+- Shibboleth
+- Agriculture
+- Scholarly Publishing
 ---

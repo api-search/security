@@ -173,8 +173,8 @@ layout: security
 method: probed
 name: Booking Com Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for booking-com, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: booking-com
+overview: 'Domain security posture for Booking Com, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Booking Com
 provider_slug: booking-com
 slug: booking-com-domain-security
 source_filename: booking-com-domain-security.yml

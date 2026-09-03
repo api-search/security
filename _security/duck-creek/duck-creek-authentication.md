@@ -53,8 +53,8 @@ name: Duck Creek Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials
-overview: duck-creek secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
-provider_name: duck-creek
+overview: Duck Creek secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
+provider_name: Duck Creek
 provider_slug: duck-creek
 scheme_count: 1
 schemes:

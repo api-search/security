@@ -106,8 +106,8 @@ method: derived
 name: Freshdesk Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: freshdesk secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: freshdesk
+overview: Freshdesk secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Freshdesk
 provider_slug: freshdesk
 scheme_count: 1
 schemes:

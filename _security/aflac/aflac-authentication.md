@@ -41,8 +41,8 @@ name: Aflac Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials
-overview: aflac secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
-provider_name: aflac
+overview: Aflac secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
+provider_name: Aflac
 provider_slug: aflac
 scheme_count: 1
 schemes:

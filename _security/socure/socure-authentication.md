@@ -41,8 +41,8 @@ method: derived
 name: Socure Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: socure secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: socure
+overview: Socure secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Socure
 provider_slug: socure
 scheme_count: 1
 schemes:

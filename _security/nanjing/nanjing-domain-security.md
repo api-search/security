@@ -39,10 +39,17 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nanjing/refs/heads/main/security/nanjing-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
+- Higher Education
+- Education
 - China
+- C9 League
+- Research
+- Identity Federation
 - Authentication
+- Single Sign-On
+- Research Computing
+- Open Source Mirror
+- Version Control
+- Library
 ---

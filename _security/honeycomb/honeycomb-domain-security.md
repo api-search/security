@@ -163,8 +163,8 @@ layout: security
 method: probed
 name: Honeycomb Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for honeycomb, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: honeycomb
+overview: 'Domain security posture for Honeycomb, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Honeycomb
 provider_slug: honeycomb
 slug: honeycomb-domain-security
 source_filename: honeycomb-domain-security.yml

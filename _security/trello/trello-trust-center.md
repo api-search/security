@@ -97,8 +97,8 @@ kind: trust-center
 layout: security
 name: Trello Trust Center
 name_suffix: Trust Center
-overview: trello maintains a public trust center documenting FedRAMP compliance.
-provider_name: trello
+overview: Trello maintains a public trust center documenting FedRAMP compliance.
+provider_name: Trello
 provider_slug: trello
 slug: trello-trust-center
 source_filename: trello-trust-center.yml

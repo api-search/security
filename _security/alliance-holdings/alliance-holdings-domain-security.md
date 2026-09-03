@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Alliance Holdings Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for alliance-holdings, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: alliance-holdings
+overview: 'Domain security posture for Alliance Holdings, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Alliance Holdings
 provider_slug: alliance-holdings
 slug: alliance-holdings-domain-security
 source_filename: alliance-holdings-domain-security.yml

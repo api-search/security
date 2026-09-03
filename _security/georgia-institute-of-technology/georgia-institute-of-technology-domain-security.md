@@ -1,9 +1,15 @@
 ---
 api_specs:
+- filename: georgia-institute-of-technology-gtplaces-openapi.yml
+  format: yaml
+  label: GT Places API
+  slug: gt-places
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-gtplaces-openapi.yml
 - filename: georgia-institute-of-technology-api-api-openapi.yml
   format: yaml
-  label: Georgia Institute of Technology API API
-  slug: georgia-institute-of-technology-api-api
+  label: Georgia Tech SUMS REST API
+  slug: sums
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-api-api-openapi.yml
 description: ''
@@ -46,11 +52,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/security/georgia-institute-of-technology-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
-- Library
+- Higher Education
+- Education
 - United States
+- Institute of Technology
+- Public Research University
+- Research Repository
+- Identity Federation
+- Course Catalog
+- Library
+- Open Data
+- Research
 ---

@@ -162,11 +162,19 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/emory-di
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/authentication/emory-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- Private Research University
+- Association of American Universities
+- United States
+- Georgia
+- Atlanta
 - Research
 - Libraries
-- United States
-- Atlanta
+- Research Repository
+- Library Catalog
+- Course Catalog
+- Identity Federation
+- Digital Pathology
 ---

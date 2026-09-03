@@ -42,8 +42,15 @@ tags:
 - Education
 - Higher Education
 - University
-- Open Data
-- Research
 - Italy
 - Europe
+- Research
+- Research Repository
+- Open Data
+- Open Access
+- Library
+- OAI-PMH
+- Identity Federation
+- Scholarly Publishing
+- Learning Management
 ---

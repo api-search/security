@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: rice-kinder-udp-openapi.yml
+  format: yaml
+  label: Rice Kinder Institute Urban Data Platform API
+  slug: kinder-udp
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rice/refs/heads/main/openapi/rice-kinder-udp-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,11 +47,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rice/refs/heads/main/security/rice-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Library
-- Open Repository
+- Higher Education
+- Education
 - United States
+- Texas
+- Private Research University
+- Association of American Universities
+- Research Data
+- Open Data
+- Research Repository
+- Course Catalog
+- Identity Federation
+- Library
+- Urban Research
 ---

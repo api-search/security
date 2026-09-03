@@ -44,10 +44,15 @@ tags:
 - Education
 - Higher Education
 - University
+- Technical University
+- Germany
 - Research Data
 - Open Access
+- Scholarly Publishing
 - Library
 - OAI-PMH
 - DSpace
-- Germany
+- Identity Federation
+- Shibboleth
+- Research Computing
 ---

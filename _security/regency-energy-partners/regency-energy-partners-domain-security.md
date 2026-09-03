@@ -28,8 +28,8 @@ layout: security
 method: probed
 name: Regency Energy Partners Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for regency-energy-partners, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: regency-energy-partners
+overview: 'Domain security posture for Regency Energy Partners, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: Regency Energy Partners
 provider_slug: regency-energy-partners
 slug: regency-energy-partners-domain-security
 source_filename: regency-energy-partners-domain-security.yml

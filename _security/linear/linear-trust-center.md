@@ -28,8 +28,8 @@ kind: trust-center
 layout: security
 name: Linear Trust Center
 name_suffix: Trust Center
-overview: linear maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
-provider_name: linear
+overview: Linear maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
+provider_name: Linear
 provider_slug: linear
 slug: linear-trust-center
 source_filename: linear-trust-center.yml

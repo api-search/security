@@ -81,8 +81,8 @@ layout: security
 method: probed
 name: Celestia Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for celestia, probed live across 2 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present.'
-provider_name: celestia
+overview: 'Domain security posture for Celestia, probed live across 2 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present.'
+provider_name: Celestia
 provider_slug: celestia
 slug: celestia-domain-security
 source_filename: celestia-domain-security.yml

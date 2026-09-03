@@ -137,8 +137,8 @@ layout: security
 method: probed
 name: Statsig Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for statsig, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: statsig
+overview: 'Domain security posture for Statsig, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Statsig
 provider_slug: statsig
 slug: statsig-domain-security
 source_filename: statsig-domain-security.yml

@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Groupon Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for groupon, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
-provider_name: groupon
+overview: 'Domain security posture for Groupon, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+provider_name: Groupon
 provider_slug: groupon
 slug: groupon-domain-security
 source_filename: groupon-domain-security.yml

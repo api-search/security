@@ -48,8 +48,8 @@ method: derived
 name: Level2 Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: level2 secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: level2
+overview: Level2 secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Level2
 provider_slug: level2
 scheme_count: 2
 schemes:

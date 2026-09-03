@@ -88,8 +88,8 @@ method: derived
 name: Clickup Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: clickup secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: clickup
+overview: Clickup secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Clickup
 provider_slug: clickup
 scheme_count: 1
 schemes:

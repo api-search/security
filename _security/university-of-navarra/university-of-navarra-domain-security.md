@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: university-of-navarra-revistas-oai-pmh-openapi.yml
+  format: yaml
+  label: Revistas Cientificas OAI-PMH (Servicio de Publicaciones)
+  slug: revistas-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/openapi/university-of-navarra-revistas-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -43,7 +50,11 @@ tags:
 - Higher Education
 - University
 - Spain
+- Private Research University
 - Open Access
 - Institutional Repository
+- Scholarly Publishing
 - OAI-PMH
+- Identity Federation
+- Library
 ---

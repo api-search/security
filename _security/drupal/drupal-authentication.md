@@ -62,8 +62,8 @@ name: Drupal Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
-overview: drupal secures its APIs with apiKey, http, and oauth2 across 3 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
-provider_name: drupal
+overview: Drupal secures its APIs with apiKey, http, and oauth2 across 3 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+provider_name: Drupal
 provider_slug: drupal
 scheme_count: 3
 schemes:

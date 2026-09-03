@@ -143,8 +143,8 @@ method: derived
 name: Elevenlabs Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: elevenlabs secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: elevenlabs
+overview: Elevenlabs secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Elevenlabs
 provider_slug: elevenlabs
 scheme_count: 1
 schemes:

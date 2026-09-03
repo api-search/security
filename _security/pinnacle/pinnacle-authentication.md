@@ -76,8 +76,8 @@ method: derived
 name: Pinnacle Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: ' Pinnacle Sports Betting secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.'
-provider_name: ' Pinnacle Sports Betting'
+overview: Pinnacle Sports Betting secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Pinnacle Sports Betting
 provider_slug: pinnacle
 scheme_count: 1
 schemes:

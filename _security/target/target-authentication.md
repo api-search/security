@@ -47,8 +47,8 @@ method: searched
 name: Target Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: target secures its APIs with oauth2 and openIdConnect across 3 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: target
+overview: Target secures its APIs with oauth2 and openIdConnect across 3 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Target
 provider_slug: target
 scheme_count: 3
 schemes:

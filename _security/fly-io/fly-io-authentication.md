@@ -60,8 +60,8 @@ method: derived
 name: Fly Io Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: fly-io secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: fly-io
+overview: Fly Io secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Fly Io
 provider_slug: fly-io
 scheme_count: 2
 schemes:

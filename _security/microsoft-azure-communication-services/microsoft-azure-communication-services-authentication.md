@@ -29,8 +29,8 @@ method: derived
 name: Microsoft Azure Communication Services Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: microsoft-azure-communication-services secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: microsoft-azure-communication-services
+overview: Microsoft Azure Communication Services secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Microsoft Azure Communication Services
 provider_slug: microsoft-azure-communication-services
 scheme_count: 1
 schemes:

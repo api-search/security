@@ -101,8 +101,8 @@ method: derived
 name: Trello Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: trello secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: trello
+overview: Trello secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Trello
 provider_slug: trello
 scheme_count: 2
 schemes:

@@ -41,4 +41,13 @@ tags:
 - Research
 - China
 - Tianjin
+- Double First Class
+- Project 985
+- Identity Federation
+- Shibboleth
+- SAML
+- Single Sign-On
+- Library
+- Research Repository
+- Persistent Identifiers
 ---

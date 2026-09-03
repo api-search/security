@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Hni Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for hni, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: hni
+overview: 'Domain security posture for Hni, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Hni
 provider_slug: hni
 slug: hni-domain-security
 source_filename: hni-domain-security.yml

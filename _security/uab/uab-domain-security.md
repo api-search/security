@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: uab-ddd-openapi.yml
+  format: yaml
+  label: DDD — Dipòsit Digital de Documents de la UAB (OAI-PMH 2.0)
+  slug: ddd-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uab/refs/heads/main/openapi/uab-ddd-openapi.yml
+- filename: uab-ddd-openapi.yml
+  format: yaml
+  label: DDD Invenio Search and Export Interface
+  slug: ddd-search
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uab/refs/heads/main/openapi/uab-ddd-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -37,8 +50,12 @@ tags:
 - University
 - Spain
 - Catalonia
+- Research
 - Open Access
 - Institutional Repository
-- OAI-PMH
+- Research Repository
 - Research Data
+- OAI-PMH
+- Identity Federation
+- Scholarly Publishing
 ---

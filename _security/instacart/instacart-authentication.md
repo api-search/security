@@ -70,8 +70,8 @@ method: derived
 name: Instacart Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: instacart secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: instacart
+overview: Instacart secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Instacart
 provider_slug: instacart
 scheme_count: 1
 schemes:

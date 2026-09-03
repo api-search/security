@@ -54,8 +54,8 @@ layout: security
 method: probed
 name: Intel Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for intel, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: intel
+overview: 'Domain security posture for Intel, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Intel
 provider_slug: intel
 slug: intel-domain-security
 source_filename: intel-domain-security.yml

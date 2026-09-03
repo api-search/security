@@ -36,8 +36,8 @@ name: Blue Yonder Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials
-overview: blue-yonder secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
-provider_name: blue-yonder
+overview: Blue Yonder secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
+provider_name: Blue Yonder
 provider_slug: blue-yonder
 scheme_count: 2
 schemes:

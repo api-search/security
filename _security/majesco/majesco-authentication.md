@@ -35,8 +35,8 @@ name: Majesco Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials
-overview: majesco secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
-provider_name: majesco
+overview: Majesco secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
+provider_name: Majesco
 provider_slug: majesco
 scheme_count: 1
 schemes:

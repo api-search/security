@@ -47,8 +47,8 @@ kind: trust-center
 layout: security
 name: Veeva Trust Center
 name_suffix: Trust Center
-overview: veeva maintains a public trust center documenting ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO 9001, and SOC 2 Type II compliance.
-provider_name: veeva
+overview: Veeva maintains a public trust center documenting ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO 9001, and SOC 2 Type II compliance.
+provider_name: Veeva
 provider_slug: veeva
 slug: veeva-trust-center
 source_filename: veeva-trust-center.yml

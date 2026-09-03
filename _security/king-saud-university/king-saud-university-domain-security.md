@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: king-saud-university-open-data-openapi.yml
+  format: yaml
+  label: KSU Open Data Distribution API
+  slug: open-data
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/king-saud-university/refs/heads/main/openapi/king-saud-university-open-data-openapi.yml
+- filename: king-saud-university-identity-openapi.yml
+  format: yaml
+  label: KSU Identity and Access Management (OAuth 2.0 / OpenID Connect / SAML 2.0)
+  slug: identity
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/king-saud-university/refs/heads/main/openapi/king-saud-university-identity-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -32,7 +45,14 @@ tags:
 - Education
 - Higher Education
 - University
+- Public Research University
 - Saudi Arabia
 - Middle East
+- Riyadh
+- Open Data
+- Research Data
+- Identity Federation
+- Single Sign-On
 - Research
+- Linked Data
 ---

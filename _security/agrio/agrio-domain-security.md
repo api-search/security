@@ -54,8 +54,8 @@ layout: security
 method: probed
 name: Agrio Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for agrio, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: agrio
+overview: 'Domain security posture for Agrio, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: Agrio
 provider_slug: agrio
 slug: agrio-domain-security
 source_filename: agrio-domain-security.yml

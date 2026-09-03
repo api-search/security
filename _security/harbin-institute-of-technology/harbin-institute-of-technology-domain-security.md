@@ -1,17 +1,4 @@
 ---
-api_specs:
-- filename: harbin-institute-of-technology-person-api-openapi.yml
-  format: yaml
-  label: Harbin Institute of Technology person API
-  slug: harbin-institute-of-technology-person-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbin-institute-of-technology/refs/heads/main/openapi/harbin-institute-of-technology-person-api-openapi.yml
-- filename: harbin-institute-of-technology-researchoutput-api-openapi.yml
-  format: yaml
-  label: Harbin Institute of Technology researchOutput API
-  slug: harbin-institute-of-technology-researchoutput-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbin-institute-of-technology/refs/heads/main/openapi/harbin-institute-of-technology-researchoutput-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,11 +34,15 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harbin-institute-of-technology/refs/heads/main/security/harbin-institute-of-technology-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- China
+- Technical University
+- C9 League
 - Research
 - Scholarly
+- Identity Federation
+- Research Repository
 - OAI-PMH
-- China
 ---

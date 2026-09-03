@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Meritor Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for meritor, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: meritor
+overview: 'Domain security posture for Meritor, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Meritor
 provider_slug: meritor
 slug: meritor-domain-security
 source_filename: meritor-domain-security.yml

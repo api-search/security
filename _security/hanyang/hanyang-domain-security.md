@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: hanyang-repository-oai-pmh-openapi.yml
+  format: yaml
+  label: Repository at Hanyang University — OAI-PMH
+  slug: repository-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hanyang/refs/heads/main/openapi/hanyang-repository-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,6 +45,8 @@ tags:
 - University
 - South Korea
 - Seoul
-- OpenAPI
+- Research Repository
+- OAI-PMH
 - Authentication
+- OpenAPI
 ---

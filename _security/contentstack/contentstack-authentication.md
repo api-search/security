@@ -210,8 +210,8 @@ method: derived
 name: Contentstack Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: contentstack secures its APIs with apiKey and http across 5 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: contentstack
+overview: Contentstack secures its APIs with apiKey and http across 5 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Contentstack
 provider_slug: contentstack
 scheme_count: 5
 schemes:

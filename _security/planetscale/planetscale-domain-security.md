@@ -134,8 +134,8 @@ layout: security
 method: probed
 name: Planetscale Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for planetscale, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: planetscale
+overview: 'Domain security posture for Planetscale, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Planetscale
 provider_slug: planetscale
 slug: planetscale-domain-security
 source_filename: planetscale-domain-security.yml

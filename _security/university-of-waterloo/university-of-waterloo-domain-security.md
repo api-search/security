@@ -113,5 +113,11 @@ tags:
 - University
 - Open Data
 - Canada
+- Ontario
 - Research
+- Research Data
+- Course Catalog
+- Identity Federation
+- Research Repository
+- Campus Life
 ---

@@ -37,8 +37,8 @@ layout: security
 method: probed
 name: Allergan Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for allergan, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: allergan
+overview: 'Domain security posture for Allergan, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Allergan
 provider_slug: allergan
 slug: allergan-domain-security
 source_filename: allergan-domain-security.yml

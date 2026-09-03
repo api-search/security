@@ -48,8 +48,8 @@ layout: security
 method: probed
 name: Agco Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for agco, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: agco
+overview: 'Domain security posture for Agco, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Agco
 provider_slug: agco
 slug: agco-domain-security
 source_filename: agco-domain-security.yml

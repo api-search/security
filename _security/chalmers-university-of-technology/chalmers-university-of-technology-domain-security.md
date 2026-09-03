@@ -177,9 +177,13 @@ tags:
 - Education
 - Higher Education
 - University
+- Technical University
 - Research
+- Research Data
 - Open Data
 - Library
 - OAI-PMH
+- Identity Federation
+- CRIS
 - Sweden
 ---

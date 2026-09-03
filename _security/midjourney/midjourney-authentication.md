@@ -34,8 +34,8 @@ method: derived
 name: Midjourney Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: midjourney secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: midjourney
+overview: Midjourney secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Midjourney
 provider_slug: midjourney
 scheme_count: 1
 schemes:

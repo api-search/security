@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: university-of-minnesota-gems-exchange-soil-openapi.yml
+  format: yaml
+  label: GEMS Informatics Exchange APIs
+  slug: gems-exchange-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-gems-exchange-soil-openapi.yml
+- filename: university-of-minnesota-umedia-openapi.yml
+  format: yaml
+  label: UMedia Digital Collections JSON API
+  slug: umedia-digital-collections
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-umedia-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,12 +58,22 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/security/university-of-minnesota-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
-- Open Data
-- Geospatial
 - United States
 - Minnesota
+- Big Ten
+- Land Grant
+- Public Research University
+- Research Data
+- Research Repository
+- Open Data
+- Geospatial
+- Agriculture
+- Climate
+- Digital Collections
+- Identity Federation
+- Research Computing
 ---

@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: ameriprise.yml
-  format: yaml
-  label: Ameriprise Financial Website
-  slug: website
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ameriprise-financial/refs/heads/main/openapi/_original/ameriprise.yml
 description: ''
 domains:
 - caa: []
@@ -33,7 +26,7 @@ slug: ameriprise-financial-domain-security
 source_filename: ameriprise-financial-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ameriprise.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  2 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: ameriprise.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ameriprise.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  2 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: ameriprise.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ameriprise-financial/refs/heads/main/security/ameriprise-financial-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:

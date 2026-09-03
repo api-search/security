@@ -84,8 +84,8 @@ layout: security
 method: probed
 name: Flagsmith Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for flagsmith, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: flagsmith
+overview: 'Domain security posture for Flagsmith, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Flagsmith
 provider_slug: flagsmith
 slug: flagsmith-domain-security
 source_filename: flagsmith-domain-security.yml

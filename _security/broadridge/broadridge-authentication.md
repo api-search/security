@@ -36,8 +36,8 @@ name: Broadridge Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials
-overview: broadridge secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
-provider_name: broadridge
+overview: Broadridge secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
+provider_name: Broadridge
 provider_slug: broadridge
 scheme_count: 2
 schemes:

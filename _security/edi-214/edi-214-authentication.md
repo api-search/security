@@ -29,8 +29,8 @@ method: derived
 name: Edi 214 Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: edi-214 secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: edi-214
+overview: Edi 214 secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Edi 214
 provider_slug: edi-214
 scheme_count: 1
 schemes:

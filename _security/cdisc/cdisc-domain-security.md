@@ -61,8 +61,8 @@ layout: security
 method: probed
 name: Cdisc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for cdisc, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: cdisc
+overview: 'Domain security posture for Cdisc, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Cdisc
 provider_slug: cdisc
 slug: cdisc-domain-security
 source_filename: cdisc-domain-security.yml

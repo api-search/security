@@ -189,6 +189,7 @@ footer:
     - header: Platform
       items:
         - { label: Developer Docs, url: 'https://apis.io/developer/' }
+        - { label: Onboarding, url: 'https://apis.io/onboarding/' }
         - { label: Data Access, url: 'https://apis.io/unlock/' }
         - { label: Insights, url: 'https://apis.io/insights/' }
         - { label: Analytics, url: 'https://apis.io/analytics/' }

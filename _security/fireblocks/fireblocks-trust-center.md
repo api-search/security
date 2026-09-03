@@ -220,8 +220,8 @@ kind: trust-center
 layout: security
 name: Fireblocks Trust Center
 name_suffix: Trust Center
-overview: fireblocks maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, and ISO 27018 compliance.
-provider_name: fireblocks
+overview: Fireblocks maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, and ISO 27018 compliance.
+provider_name: Fireblocks
 provider_slug: fireblocks
 slug: fireblocks-trust-center
 source_filename: fireblocks-trust-center.yml

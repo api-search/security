@@ -42,8 +42,8 @@ name: Iec Cim Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials
-overview: iec-cim secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
-provider_name: iec-cim
+overview: Iec Cim secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
+provider_name: Iec Cim
 provider_slug: iec-cim
 scheme_count: 2
 schemes:

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: university-of-twente-energy-api-openapi.yml
+  format: yaml
+  label: University of Twente Energy API
+  slug: energy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-twente/refs/heads/main/openapi/university-of-twente-energy-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -34,10 +41,17 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-twente/refs/heads/main/security/university-of-twente-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research Data
+- Higher Education
+- Education
+- Technical University
 - Netherlands
+- Europe
+- Open Data
+- Energy
+- Sustainability
+- Research Data
+- Identity Federation
+- Student Mobility
 - Open Science
 ---

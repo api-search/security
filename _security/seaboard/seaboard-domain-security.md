@@ -26,8 +26,8 @@ layout: security
 method: probed
 name: Seaboard Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for seaboard, probed live across 2 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: seaboard
+overview: 'Domain security posture for Seaboard, probed live across 2 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: Seaboard
 provider_slug: seaboard
 slug: seaboard-domain-security
 source_filename: seaboard-domain-security.yml

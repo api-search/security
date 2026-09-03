@@ -63,8 +63,8 @@ layout: security
 method: probed
 name: Taylor Morrison Home Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for taylor-morrison-home, probed live across 2 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
-provider_name: taylor-morrison-home
+overview: 'Domain security posture for Taylor Morrison Home, probed live across 2 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
+provider_name: Taylor Morrison Home
 provider_slug: taylor-morrison-home
 slug: taylor-morrison-home-domain-security
 source_filename: taylor-morrison-home-domain-security.yml

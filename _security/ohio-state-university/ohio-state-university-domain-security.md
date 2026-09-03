@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: ohio-state-university-mobile-content-api-openapi.yml
+  format: yaml
+  label: Ohio State Mobile Content API v2
+  slug: mobile-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ohio-state-university/refs/heads/main/openapi/ohio-state-university-mobile-content-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,12 +48,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ohio-state-university/refs/heads/main/security/ohio-state-university-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Library
-- Institutional Repository
-- Open Access
+- Higher Education
+- Education
 - United States
+- Public Research University
+- Course Catalog
+- Open Data
+- Research Data
+- Institutional Repository
+- Library
+- Identity Federation
+- Open Access
 ---

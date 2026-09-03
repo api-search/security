@@ -126,8 +126,8 @@ layout: security
 method: probed
 name: Bugsnag Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for bugsnag, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: bugsnag
+overview: 'Domain security posture for Bugsnag, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Bugsnag
 provider_slug: bugsnag
 slug: bugsnag-domain-security
 source_filename: bugsnag-domain-security.yml

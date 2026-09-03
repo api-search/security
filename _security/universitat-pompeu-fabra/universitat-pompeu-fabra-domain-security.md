@@ -44,15 +44,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/universitat-pompeu-fabra/refs/heads/main/security/universitat-pompeu-fabra-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
-- Open Data
-- Research
-- Library
-- Repository
-- SPARQL
-- OAI-PMH
+- Higher Education
+- Education
+- Public Research University
 - Spain
+- Catalonia
 - Barcelona
+- Institutional Repository
+- Research Data
+- Identity Federation
+- OAI-PMH
+- DSpace
+- Shibboleth
+- Crossref
 ---

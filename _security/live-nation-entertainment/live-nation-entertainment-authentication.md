@@ -35,8 +35,8 @@ method: derived
 name: Live Nation Entertainment Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: live-nation-entertainment secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: live-nation-entertainment
+overview: Live Nation Entertainment secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Live Nation Entertainment
 provider_slug: live-nation-entertainment
 scheme_count: 1
 schemes:

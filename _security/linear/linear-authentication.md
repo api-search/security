@@ -30,8 +30,8 @@ name: Linear Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
-overview: linear secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
-provider_name: linear
+overview: Linear secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+provider_name: Linear
 provider_slug: linear
 scheme_count: 2
 schemes:

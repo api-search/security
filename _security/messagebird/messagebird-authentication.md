@@ -125,8 +125,8 @@ method: derived
 name: Messagebird Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: messagebird secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: messagebird
+overview: Messagebird secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Messagebird
 provider_slug: messagebird
 scheme_count: 1
 schemes:

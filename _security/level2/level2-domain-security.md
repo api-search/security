@@ -69,8 +69,8 @@ layout: security
 method: probed
 name: Level2 Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for level2, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: level2
+overview: 'Domain security posture for Level2, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Level2
 provider_slug: level2
 slug: level2-domain-security
 source_filename: level2-domain-security.yml

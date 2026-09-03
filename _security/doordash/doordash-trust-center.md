@@ -80,8 +80,8 @@ kind: trust-center
 layout: security
 name: Doordash Trust Center
 name_suffix: Trust Center
-overview: doordash maintains a public trust center documenting SOC 2 and PCI DSS compliance.
-provider_name: doordash
+overview: Doordash maintains a public trust center documenting SOC 2 and PCI DSS compliance.
+provider_name: Doordash
 provider_slug: doordash
 slug: doordash-trust-center
 source_filename: doordash-trust-center.yml

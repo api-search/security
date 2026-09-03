@@ -50,8 +50,8 @@ layout: security
 method: probed
 name: Blue Yonder Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for blue-yonder, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: blue-yonder
+overview: 'Domain security posture for Blue Yonder, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Blue Yonder
 provider_slug: blue-yonder
 slug: blue-yonder-domain-security
 source_filename: blue-yonder-domain-security.yml

@@ -47,8 +47,8 @@ layout: security
 method: probed
 name: Albertsons Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for albertsons, probed live across 3 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: albertsons
+overview: 'Domain security posture for Albertsons, probed live across 3 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Albertsons
 provider_slug: albertsons
 slug: albertsons-domain-security
 source_filename: albertsons-domain-security.yml

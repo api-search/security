@@ -143,8 +143,8 @@ method: derived
 name: Honeycomb Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: honeycomb secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: honeycomb
+overview: Honeycomb secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Honeycomb
 provider_slug: honeycomb
 scheme_count: 1
 schemes:

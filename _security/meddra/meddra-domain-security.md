@@ -42,8 +42,8 @@ layout: security
 method: probed
 name: Meddra Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for meddra, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: meddra
+overview: 'Domain security posture for Meddra, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Meddra
 provider_slug: meddra
 slug: meddra-domain-security
 source_filename: meddra-domain-security.yml

@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Essendant Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for essendant, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: essendant
+overview: 'Domain security posture for Essendant, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Essendant
 provider_slug: essendant
 slug: essendant-domain-security
 source_filename: essendant-domain-security.yml

@@ -93,13 +93,13 @@ schemes:
   name: apiKey
   parameter: x-api-key
   sources:
-  - openapi/university-of-waterloo-open-data-api.yaml
+  - openapi/_original/university-of-waterloo-open-data-api.yaml
   type: apiKey
 slug: university-of-waterloo-authentication
 source_filename: university-of-waterloo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/university-of-waterloo-open-data-api.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Custom API key authentication\n  sources:\n  - openapi/university-of-waterloo-open-data-api.yaml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/_original/university-of-waterloo-open-data-api.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Custom API key authentication\n  sources:\n  - openapi/_original/university-of-waterloo-open-data-api.yaml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/authentication/university-of-waterloo-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
@@ -108,5 +108,11 @@ tags:
 - University
 - Open Data
 - Canada
+- Ontario
 - Research
+- Research Data
+- Course Catalog
+- Identity Federation
+- Research Repository
+- Campus Life
 ---

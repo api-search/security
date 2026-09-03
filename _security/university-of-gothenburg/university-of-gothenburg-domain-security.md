@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: university-of-gothenburg-korp-api-openapi.yml
+  format: yaml
+  label: Korp API v8 — Corpus Concordance Search
+  slug: korp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-korp-api-openapi.yml
+- filename: university-of-gothenburg-metadata-api-openapi.yml
+  format: yaml
+  label: Språkbanken Text Metadata API v3
+  slug: sbx-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-metadata-api-openapi.yml
+- filename: university-of-gothenburg-mink-api-openapi.yml
+  format: yaml
+  label: Mink API v3 — Bring Your Own Corpus
+  slug: mink-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-mink-api-openapi.yml
+- filename: university-of-gothenburg-sparv-api-openapi.yml
+  format: yaml
+  label: Sparv API v3 — Text Annotation Pipeline
+  slug: sparv-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-sparv-api-openapi.yml
+- filename: university-of-gothenburg-karp-api-openapi.yml
+  format: yaml
+  label: Karp API v7 — Lexical Resource Editing
+  slug: karp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-karp-api-openapi.yml
+- filename: university-of-gothenburg-karp-search-api-openapi.yml
+  format: yaml
+  label: Karp Search API v1 — Karps sökgränssnitt
+  slug: karp-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-karp-search-api-openapi.yml
+- filename: university-of-gothenburg-gupea-oai-pmh-openapi.yml
+  format: yaml
+  label: GUPEA Repository OAI-PMH 2.0 Interface
+  slug: gupea-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-gupea-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa:
@@ -40,12 +83,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/security/university-of-gothenburg-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Sweden
 - Research
+- Research Data
+- Research Repository
 - Open Data
 - Library
 - OAI-PMH
+- Identity Federation
+- Language Technology
+- Natural Language Processing
+- Corpus Linguistics
 ---

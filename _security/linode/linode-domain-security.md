@@ -150,8 +150,8 @@ layout: security
 method: probed
 name: Linode Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for linode, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
-provider_name: linode
+overview: 'Domain security posture for Linode, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
+provider_name: Linode
 provider_slug: linode
 slug: linode-domain-security
 source_filename: linode-domain-security.yml

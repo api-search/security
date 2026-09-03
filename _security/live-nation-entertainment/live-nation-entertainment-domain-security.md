@@ -48,8 +48,8 @@ layout: security
 method: probed
 name: Live Nation Entertainment Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for live-nation-entertainment, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: live-nation-entertainment
+overview: 'Domain security posture for Live Nation Entertainment, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Live Nation Entertainment
 provider_slug: live-nation-entertainment
 slug: live-nation-entertainment-domain-security
 source_filename: live-nation-entertainment-domain-security.yml

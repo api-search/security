@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: university-of-ottawa-ruor-dspace-rest-openapi.yml
+  format: yaml
+  label: uO Research DSpace REST API
+  slug: ruor-rest
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-ruor-dspace-rest-openapi.yml
+- filename: university-of-ottawa-ruor-oai-pmh-openapi.yml
+  format: yaml
+  label: uO Research OAI-PMH
+  slug: ruor-oai
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-ruor-oai-pmh-openapi.yml
+- filename: university-of-ottawa-www-drupal-jsonapi-openapi.yml
+  format: yaml
+  label: uottawa.ca Content JSON:API
+  slug: www-jsonapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-www-drupal-jsonapi-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -36,14 +55,26 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/security/university-of-ottawa-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Canada
+- Ontario
 - Bilingual
-- Library
+- Public Research University
+- U15
 - Institutional Repository
+- Research Data
+- Library
+- Course Catalog
+- Identity Federation
+- Shibboleth
+- SAML
 - DSpace
 - OAI-PMH
+- JSON API
 - Open Access
+- DataCite
+- Crossref
+- ROR
 ---

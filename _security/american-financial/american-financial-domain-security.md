@@ -7,7 +7,7 @@ domains:
   domain: american-financial.com
   spf: true
 hosts:
-- cert_expires: Sep 11 12:10:33 2026 GMT
+- cert_expires: Nov  9 14:58:32 2026 GMT
   host: www.american-financial.com
   hsts: null
   https: true
@@ -24,12 +24,10 @@ slug: american-financial-domain-security
 source_filename: american-financial-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.american-financial.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 12:10:33 2026 GMT\n  hsts: null\ndomains:\n- domain: american-financial.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.american-financial.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 14:58:32 2026 GMT\n  hsts: null\ndomains:\n- domain: american-financial.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/american-financial/refs/heads/main/security/american-financial-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Financial-Services
 - Finance
-- Lending
-- Fortune 500
 ---

@@ -40,8 +40,8 @@ method: derived
 name: Fauna Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: fauna secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: fauna
+overview: Fauna secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Fauna
 provider_slug: fauna
 scheme_count: 1
 schemes:

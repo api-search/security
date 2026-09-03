@@ -57,8 +57,8 @@ layout: security
 method: probed
 name: Aflac Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for aflac, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: aflac
+overview: 'Domain security posture for Aflac, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Aflac
 provider_slug: aflac
 slug: aflac-domain-security
 source_filename: aflac-domain-security.yml

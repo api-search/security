@@ -186,8 +186,8 @@ method: derived
 name: Sitecore Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: sitecore secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: sitecore
+overview: Sitecore secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Sitecore
 provider_slug: sitecore
 scheme_count: 3
 schemes:

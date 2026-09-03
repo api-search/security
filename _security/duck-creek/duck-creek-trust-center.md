@@ -51,8 +51,8 @@ kind: trust-center
 layout: security
 name: Duck Creek Trust Center
 name_suffix: Trust Center
-overview: duck-creek maintains a public trust center documenting SOC 2, ISO 27001, and PCI DSS compliance.
-provider_name: duck-creek
+overview: Duck Creek maintains a public trust center documenting SOC 2, ISO 27001, and PCI DSS compliance.
+provider_name: Duck Creek
 provider_slug: duck-creek
 slug: duck-creek-trust-center
 source_filename: duck-creek-trust-center.yml

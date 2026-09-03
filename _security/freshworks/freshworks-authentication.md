@@ -264,8 +264,8 @@ method: derived
 name: Freshworks Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: freshworks secures its APIs with apiKey and http across 4 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: freshworks
+overview: Freshworks secures its APIs with apiKey and http across 4 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Freshworks
 provider_slug: freshworks
 scheme_count: 4
 schemes:

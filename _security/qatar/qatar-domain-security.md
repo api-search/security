@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: qatar-qu-sso-oidc-openapi.yml
+  format: yaml
+  label: Qatar University Single Sign-On (OpenID Connect / OAuth 2.0)
+  slug: qu-sso-oidc
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-qu-sso-oidc-openapi.yml
+- filename: qatar-qupress-oai-pmh-openapi.yml
+  format: yaml
+  label: QU Press Open Journal System OAI-PMH API
+  slug: qupress-oai
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-qupress-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,8 +60,11 @@ tags:
 - Qatar
 - Middle East
 - Research
+- Identity Federation
+- Scholarly Publishing
+- Research Repository
 - Open Access
-- Institutional Repository
-- DSpace
 - OAI-PMH
+- SAML
+- OpenID Connect
 ---

@@ -47,8 +47,8 @@ method: derived
 name: Cdisc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: cdisc secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: cdisc
+overview: Cdisc secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Cdisc
 provider_slug: cdisc
 scheme_count: 1
 schemes:

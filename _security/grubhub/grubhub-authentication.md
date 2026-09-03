@@ -115,8 +115,8 @@ name: Grubhub Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials
-overview: grubhub secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
-provider_name: grubhub
+overview: Grubhub secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
+provider_name: Grubhub
 provider_slug: grubhub
 scheme_count: 2
 schemes:

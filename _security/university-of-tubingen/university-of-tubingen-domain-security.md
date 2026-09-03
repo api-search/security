@@ -39,7 +39,13 @@ tags:
 - Education
 - Higher Education
 - University
-- Research Data
 - Germany
-- Open Data
+- Research
+- Research Data
+- Research Repository
+- Open Access
+- OAI-PMH
+- Identity Federation
+- Library
+- DataCite
 ---

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.yaml
+- filename: kyushu-qir-oai-pmh-openapi.yml
   format: yaml
   label: Kyushu University Institutional Repository (QIR) OAI-PMH
   slug: qir-oai-pmh
   spec_type: OpenAPI
-  url: https://catalog.lib.kyushu-u.ac.jp/mmd/mmd_api/oai-pmh/?verb=Identify
+  url: https://raw.githubusercontent.com/api-evangelist/kyushu/refs/heads/main/openapi/kyushu-qir-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,13 +46,20 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kyushu/refs/heads/main/security/kyushu-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
-- Library
-- Institutional Repository
-- OAI-PMH
-- Open Access
 - Japan
+- National University
+- Public Research University
+- Institutional Repository
+- Research Data
+- Identity Federation
+- Library
+- Course Catalog
+- Open Access
+- OAI-PMH
+- Metadata
+- Research Computing
 ---

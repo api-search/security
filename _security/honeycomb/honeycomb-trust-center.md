@@ -146,8 +146,8 @@ kind: trust-center
 layout: security
 name: Honeycomb Trust Center
 name_suffix: Trust Center
-overview: honeycomb maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR, and CSA STAR compliance.
-provider_name: honeycomb
+overview: Honeycomb maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR, and CSA STAR compliance.
+provider_name: Honeycomb
 provider_slug: honeycomb
 slug: honeycomb-trust-center
 source_filename: honeycomb-trust-center.yml

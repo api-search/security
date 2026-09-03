@@ -128,8 +128,8 @@ layout: security
 method: probed
 name: Trello Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for trello, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
-provider_name: trello
+overview: 'Domain security posture for Trello, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+provider_name: Trello
 provider_slug: trello
 slug: trello-domain-security
 source_filename: trello-domain-security.yml

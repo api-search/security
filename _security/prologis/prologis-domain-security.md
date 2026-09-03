@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Prologis Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for prologis, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: prologis
+overview: 'Domain security posture for Prologis, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Prologis
 provider_slug: prologis
 slug: prologis-domain-security
 source_filename: prologis-domain-security.yml

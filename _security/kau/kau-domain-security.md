@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: kau-open-data-api-openapi.yml
+  format: yaml
+  label: KAU Open Data API
+  slug: open-data
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kau/refs/heads/main/openapi/kau-open-data-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -33,10 +40,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kau/refs/heads/main/security/kau-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
+- Open Data
+- Research Repository
+- Identity Federation
+- Learning Management
 - Saudi Arabia
 - Middle East
 ---

@@ -34,13 +34,18 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uam/refs/heads/main/security/uam-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Spain
-- Open Access
+- Public Research University
 - Institutional Repository
-- DSpace
+- Research Data
+- Open Access
 - OAI-PMH
-- Research
+- Identity Federation
+- Learning Management
+- DSpace
+- Open Journal Systems
+- Shibboleth
 ---

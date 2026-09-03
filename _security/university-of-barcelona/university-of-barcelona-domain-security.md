@@ -34,15 +34,23 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-barcelona/refs/heads/main/security/university-of-barcelona-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Spain
 - Catalonia
-- Open Data
-- Library
-- Scholarly
+- Identity Federation
+- SAML
+- Shibboleth
+- eduGAIN
+- LTI
+- Learning Management
+- OAI-PMH
 - Repository
 - DSpace
-- OAI-PMH
+- Research Data
+- Library
+- Scholarly
+- Crossref
+- Open Access
 ---

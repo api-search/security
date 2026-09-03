@@ -148,8 +148,8 @@ method: derived
 name: Tidb Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: tidb secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: tidb
+overview: Tidb secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Tidb
 provider_slug: tidb
 scheme_count: 1
 schemes:

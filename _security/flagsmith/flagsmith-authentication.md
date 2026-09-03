@@ -65,8 +65,8 @@ method: derived
 name: Flagsmith Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: flagsmith secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: flagsmith
+overview: Flagsmith secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Flagsmith
 provider_slug: flagsmith
 scheme_count: 2
 schemes:

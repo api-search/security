@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: university-of-antwerp-irua-oai-pmh-openapi.yml
+  format: yaml
+  label: IRUA OAI-PMH Metadata Interface
+  slug: irua-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-antwerp/refs/heads/main/openapi/university-of-antwerp-irua-oai-pmh-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,10 +54,14 @@ tags:
 - Education
 - Higher Education
 - University
-- Library
-- Institutional Repository
-- OAI-PMH
-- Open Data
 - Belgium
 - Europe
+- Flanders
+- Institutional Repository
+- OAI-PMH
+- Identity Federation
+- Library
+- Research Repository
+- Research Computing
+- Learning Management
 ---

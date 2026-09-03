@@ -44,8 +44,8 @@ layout: security
 method: probed
 name: Majesco Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for majesco, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
-provider_name: majesco
+overview: 'Domain security posture for Majesco, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
+provider_name: Majesco
 provider_slug: majesco
 slug: majesco-domain-security
 source_filename: majesco-domain-security.yml

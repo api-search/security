@@ -75,8 +75,8 @@ layout: security
 method: probed
 name: Lyft Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for lyft, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: lyft
+overview: 'Domain security posture for Lyft, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Lyft
 provider_slug: lyft
 slug: lyft-domain-security
 source_filename: lyft-domain-security.yml

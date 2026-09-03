@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Kohls Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for kohls, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: kohls
+overview: 'Domain security posture for Kohls, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Kohls
 provider_slug: kohls
 slug: kohls-domain-security
 source_filename: kohls-domain-security.yml

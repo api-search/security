@@ -18,6 +18,12 @@ api_specs:
   slug: national-university-of-colombia-rest-discover-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/national-university-of-colombia/refs/heads/main/openapi/national-university-of-colombia-rest-discover-api-openapi.yml
+- filename: national-university-of-colombia-journals-oai-pmh-api-openapi.yml
+  format: yaml
+  label: National University of Colombia Portal de Revistas UN OAI-PMH API
+  slug: national-university-of-colombia-journals-oai-pmh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-university-of-colombia/refs/heads/main/openapi/national-university-of-colombia-journals-oai-pmh-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -61,8 +67,13 @@ tags:
 - Education
 - Higher Education
 - University
+- Public Research University
 - Colombia
+- Latin America
 - Open Data
 - Institutional Repository
+- Research Data
+- Scholarly Publishing
+- Library
 - OAI-PMH
 ---

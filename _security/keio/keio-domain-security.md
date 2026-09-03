@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: keio-koara-oai-pmh-openapi.yml
+  format: yaml
+  label: KOARA OAI-PMH Metadata API
+  slug: koara-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/keio-koara-oai-pmh-openapi.yml
+- filename: keio-iiif-openapi.yml
+  format: yaml
+  label: Keio Media Center Digital Collections IIIF API
+  slug: iiif
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/keio-iiif-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,9 +52,14 @@ tags:
 - Education
 - Higher Education
 - University
+- Japan
 - Research
 - Institutional Repository
+- Research Repository
+- Identity Federation
+- Digital Collections
+- IIIF
 - OAI-PMH
 - Open Access
-- Japan
+- Cultural Heritage
 ---
