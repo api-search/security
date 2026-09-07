@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - NIST 800-53
 description: ''

@@ -31,6 +31,7 @@ hosts:
   http_status: 503
   https: true
   note: Google-hosted; 503 on every path probed - decommissioned NFT platform API host
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

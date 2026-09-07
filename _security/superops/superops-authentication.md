@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: SuperOps GraphQL APIs authenticate with a personal API token passed as an HTTP Bearer token, combined with a mandatory CustomerSubDomain header that identifies the tenant. There is no OAuth 2.0 / OpenID Connect flow; the token is generated in the SuperOps app and a tenant may hold only one active token at a time.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Superops Authentication
 name_suffix: Authentication

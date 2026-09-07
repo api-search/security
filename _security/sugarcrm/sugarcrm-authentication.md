@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
 description: The Sugar REST API uses two-legged OAuth 2.0. Clients POST credentials to the per-instance token endpoint and receive an access_token that is sent on subsequent requests in the OAuth-Token request header. Tokens are refreshed with the refresh_token grant. There is no OAuth scope surface - access is governed by Sugar role-based access control (ACLs) on the authenticated user, not by token scopes.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Sugarcrm Authentication
 name_suffix: Authentication

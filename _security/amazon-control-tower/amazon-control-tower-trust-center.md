@@ -24,6 +24,7 @@ api_specs:
   slug: amazon-control-tower-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/openapi/amazon-control-tower-tags-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

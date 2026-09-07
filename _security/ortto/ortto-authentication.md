@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -43,6 +44,7 @@ auth_types:
 description: 'Ortto authenticates every REST call with a single custom API key sent in the X-Api-Key header. The key is created inside the app (Custom API (advanced) > Get started), is unique to one Ortto account, and carries no user identity — the documentation states keys "do not require or involve any user authentication" and must be treated as a private key. There are no scopes, no per-key permissions, no key prefix and no test-vs-live separation. The one piece of per-key configuration is behavioural rather than authorizational: a default and fallback merge_by field association that determines how person records are matched on write. The MCP server is authenticated separately, with a scoped JWT passed as a query parameter, and is documented in mcp/ortto-mcp.yml.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Ortto Authentication
 name_suffix: Authentication

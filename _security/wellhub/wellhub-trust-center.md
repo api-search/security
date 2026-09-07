@@ -24,6 +24,7 @@ api_specs:
   slug: wellhub-oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/openapi/wellhub-oauth-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - PCI DSS

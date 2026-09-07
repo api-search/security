@@ -18,6 +18,7 @@ api_specs:
   slug: nomic-ai-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/heads/main/openapi/nomic-ai-tasks-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

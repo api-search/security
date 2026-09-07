@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
 description: 'The Butlr API is protected with OAuth 2.0 bearer tokens issued by Auth0. Two grant types are supported: the Password grant (for user-context access, returns access_token + refresh_token + id_token) and the Client Credentials grant (machine-to-machine, for server-to-server access using a Client ID and Client Secret minted from the Butlr Web App API tokens tab). Tokens are presented as `Authorization: Bearer <access_token>` on subsequent GraphQL and Reporting API calls. The official MCP server uses the client credentials grant.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Butlr Technologies Authentication
 name_suffix: Authentication

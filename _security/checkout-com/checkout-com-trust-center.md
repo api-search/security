@@ -30,6 +30,7 @@ api_specs:
   slug: checkout-com-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/openapi/checkout-com-workflows-api-openapi.yml
+certification_count: 4
 certifications:
 - PCI DSS
 - SOC 2

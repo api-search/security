@@ -18,6 +18,12 @@ api_specs:
   slug: amazon-cloudwatch-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/openapi/amazon-cloudwatch-metrics-api-openapi.yml
+- filename: aws-cloudwatch-amazon-cloudwatch-api-api-openapi.yml
+  format: yaml
+  label: Amazon CloudWatch Amazon CloudWatch API API
+  slug: aws-cloudwatch-amazon-cloudwatch-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/openapi/aws-cloudwatch-amazon-cloudwatch-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,6 +50,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

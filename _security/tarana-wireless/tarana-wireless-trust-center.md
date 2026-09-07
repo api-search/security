@@ -6,6 +6,7 @@ api_specs:
   slug: tarana-cloud-suite-tcs-northbound-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/asyncapi/tarana-wireless-alerts-asyncapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

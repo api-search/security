@@ -240,6 +240,7 @@ api_specs:
   slug: laravel-websocket-clusters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/openapi/laravel-websocket-clusters-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 2
 - HIPAA

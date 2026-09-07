@@ -54,6 +54,7 @@ api_specs:
   slug: gooddata-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/openapi/gooddata-workspaces-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

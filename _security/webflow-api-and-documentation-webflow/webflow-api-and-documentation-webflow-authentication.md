@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: webflow-api-and-documentation-webflow-asset-folders-api-openapi.yml
@@ -121,6 +122,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Webflow Api And Documentation Webflow Authentication
 name_suffix: Authentication

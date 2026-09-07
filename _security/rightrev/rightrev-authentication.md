@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: RightRev's REST and GraphQL APIs are protected by OAuth 2.0 / OpenID Connect, issued by a Keycloak identity server per tenant. Clients exchange credentials for a short-lived JWT bearer access token and present it in the Authorization header. Credentials (client_id / client_secret / username / password) are provisioned per tenant during onboarding via a support ticket.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Rightrev Authentication
 name_suffix: Authentication

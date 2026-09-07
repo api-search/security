@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: oto-global-account-api-openapi.yml
@@ -126,6 +127,7 @@ auth_types:
 description: 'OTO uses a two-token bearer scheme. A long-lived refresh_token is issued from the OTO dashboard (Settings -> API Integrations -> Connect). The refresh_token is exchanged at POST /rest/v2/refreshToken for a short-lived access_token (JWT, expires_in 3600s / 1 hour). All other endpoints are called with header Authorization: Bearer <access_token>. A small number of endpoints (refreshToken, healthCheck, register) require no auth.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Oto Global Authentication
 name_suffix: Authentication

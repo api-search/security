@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: bullish-deprecated-api-openapi.yml
@@ -187,6 +188,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Bullish Authentication
 name_suffix: Authentication

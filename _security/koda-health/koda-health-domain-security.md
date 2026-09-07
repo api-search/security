@@ -41,6 +41,7 @@ hosts:
   hsts: false
   https: true
   role: patient-facing marketing site
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

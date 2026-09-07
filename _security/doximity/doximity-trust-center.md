@@ -12,6 +12,7 @@ api_specs:
   slug: doximity-openid-connect-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/openapi/doximity-openid-connect-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 2
 - SOC 3

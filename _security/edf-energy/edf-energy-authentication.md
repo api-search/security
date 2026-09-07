@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -59,6 +60,7 @@ description: 'EDF Energy''s API authentication is Kraken''s. There are two co-ex
   redirect URIs and the resources to be accessed. Some surface needs no credential at all — REST GET /v1/products/ declares an empty security option and the GraphQL energyProducts query resolves anonymously — which is why EDF markets these as "open tariff APIs".'
 kind: authentication
 layout: security
+mechanism_count: 8
 method: searched
 name: Edf Energy Authentication
 name_suffix: Authentication

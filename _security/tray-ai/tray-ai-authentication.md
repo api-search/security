@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: tray-ai-authentication-api-openapi.yml
@@ -79,6 +80,7 @@ auth_types:
 description: 'Tray.ai has two authentication models on one platform, and they do not overlap. The REST Platform API and the GraphQL Embedded API take a bearer token and have NO scope surface — authority comes from the token TYPE (master vs user) and from the RBAC role attached to the API user. The MCP server is a separate, modern OAuth 2.1 surface with dynamic client registration, PKCE S256 and three real scopes. A third layer sits underneath both: the per-service AUTHENTICATIONS Tray stores on behalf of end users, which is what a connector call actually executes under.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Tray Ai Authentication
 name_suffix: Authentication

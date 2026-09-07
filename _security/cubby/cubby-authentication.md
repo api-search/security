@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Cubby runs two distinct authentication models on one host. The Operator and Storefront APIs use a long-lived, out-of-band-issued API key presented as an HTTP bearer token, scoped to an Organization and further constrained by one of eight named key roles plus a separate PII entitlement. The MCP server on the same host uses OAuth 2.1 with PKCE and dynamic client registration. There is no self-service credential issuance for the REST surface — keys are obtained by emailing support.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Cubby Authentication
 name_suffix: Authentication

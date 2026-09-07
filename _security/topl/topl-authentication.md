@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: There is no transport-level authentication scheme. Authorization is cryptographic and lives inside the transaction.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: derived
 name: Topl Authentication
 name_suffix: Authentication

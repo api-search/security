@@ -150,6 +150,7 @@ api_specs:
   slug: greenhouse-io-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-io-users-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2
 - ISO 27001

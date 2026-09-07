@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: Ximilar uses a single long-lived API token issued per account in the Ximilar App. There is no OAuth 2.0, no OpenID Connect, no mTLS and no scope system; every request on every service carries the same token. Derived from the provider's own Quickstart page, not from a specification — Ximilar publishes no OpenAPI, so there are no securitySchemes to aggregate.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Ximilar Authentication
 name_suffix: Authentication

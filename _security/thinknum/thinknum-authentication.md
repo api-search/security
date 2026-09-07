@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
 description: 'Thinknum uses token-based authentication over HTTPS to data.thinknum.com. Clients first exchange a client_id + client_secret (issued by a Thinknum account manager) for a short-lived bearer token via POST /api/authorize, then send that token on every request as `Authorization: token <TOKEN>` alongside a dated `X-API-Version` header. Tokens expire and must be re-obtained. Embeddable widgets use a separate HTTP Basic exchange (client_id:client_secret) against www.thinknum.com/authenticate that returns a 15-minute widget token.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Thinknum Authentication
 name_suffix: Authentication

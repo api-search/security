@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - bearer-token
 description: Ladder's partner API is a client-side embedded integration, so its authentication model is a partner-minted user token rather than a provider-issued API key used from a browser. The public integration example shows the partner's own backend producing a user auth token which is passed to the LadderAPI constructor loaded in the page; the token identifies the end user on whose behalf the quoting/application flow is mounted. Ladder does not publish an OpenAPI document, an OAuth authorization server, or an OIDC discovery document (both /.well-known/oauth-authorization-server and /.well-known/openid-configuration return 404), and full reference credentials are issued only after a partner access request is approved. No scope surface is published, so no scopes/ artifact is asserted.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Ladder Authentication
 name_suffix: Authentication

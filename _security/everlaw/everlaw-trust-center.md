@@ -6,6 +6,7 @@ api_specs:
   slug: everlaw-rest-api
   spec_type: OpenAPI
   url: https://api.everlaw.com/docs/
+certification_count: 6
 certifications:
 - ISO 27001
 - ISO 27017

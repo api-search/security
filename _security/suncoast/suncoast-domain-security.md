@@ -35,6 +35,7 @@ hosts:
   https: true
   note: Legacy domain; 301-redirects to www.suncoast.com.
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

@@ -18,6 +18,7 @@ api_specs:
   slug: sitefinity-cms-news-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/openapi/sitefinity-cms-news-items-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2
 - ISO 27001

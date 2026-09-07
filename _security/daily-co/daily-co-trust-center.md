@@ -78,6 +78,7 @@ api_specs:
   slug: daily-co-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-webhooks-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

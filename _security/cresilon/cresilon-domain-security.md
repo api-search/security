@@ -80,6 +80,7 @@ hosts:
   https: true
   note: 'HSTS was re-probed by hand on 2026-08-04 and IS present — `strict-transport-security: max-age=31536000` is returned on both https://cresilon.com/ and the wp-json API routes. The automated pass recorded null; the observed header value above supersedes it.'
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

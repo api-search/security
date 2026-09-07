@@ -36,6 +36,7 @@ api_specs:
   slug: fullcontact-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/openapi/fullcontact-tags-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: FullContact runs a Vanta-hosted Trust Center at trust.fullcontact.com. The page returns 200 but is a client-side rendered single-page app, so its certification list is not machine-readable from the served HTML. The one certification FullContact names in plain text in its own documentation is SOC 2, and that is the only one recorded here.

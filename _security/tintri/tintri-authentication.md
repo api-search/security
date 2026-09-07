@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - session
 description: The Tintri VMstore REST API (v310) uses session-based authentication. A client authenticates with local or directory-service credentials by POSTing to the session/login endpoint; the server returns a session cookie (JSESSIONID) that must accompany subsequent requests. There is no OAuth 2.0 / OpenID Connect flow and no long-lived API-key surface — sessions are short-lived and are explicitly closed via session/logout. Because there is no OAuth scope model, no scopes/ artifact is produced; role-based access control is enforced by the appliance against the authenticated user's assigned UserRole.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Tintri Authentication
 name_suffix: Authentication

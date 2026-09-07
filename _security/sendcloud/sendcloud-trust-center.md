@@ -156,6 +156,7 @@ api_specs:
   slug: sendcloud-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

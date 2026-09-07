@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: arch-labs-accounts-api-openapi.yml
@@ -96,6 +97,7 @@ auth_types:
 description: 'The Arch Client API uses JWT bearer-token authentication. Credentials (a Client ID and Client Secret) are requested from Arch at api-support@arch.co. Clients exchange those for an access token via a POST to /client-api/v0/auth/token with a JSON body {clientId, clientSecret}. The returned JWT is sent on subsequent requests as `authorization: Bearer <token>` and should be stored and reused until it expires (the exp claim in the decoded JWT is the Unix-epoch expiry). All other endpoints require the BearerAuth scheme.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Arch Labs Authentication
 name_suffix: Authentication

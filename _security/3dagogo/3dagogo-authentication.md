@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
 description: AstroPrint Cloud API authentication. The API is protected by OAuth 2.0. Apps are registered on the AstroPrint developer/development page to obtain a client_id and client_secret, then exchange them at the token endpoint. Both the client_credentials grant and the authorization_code grant are documented; the authorization_code (three-legged) flow is required for full access to a user's printers and designs, while client_credentials returns an empty dataset for user-scoped resources.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: 3Dagogo Authentication
 name_suffix: Authentication

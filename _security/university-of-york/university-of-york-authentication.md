@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: university-of-york-digital-collections-search-openapi.yml
@@ -23,6 +24,7 @@ auth_types: []
 description: How the University of York's institution-operated API surfaces authenticate — which is, on every one of them, not at all. All three contracts in this repository answer unauthenticated GET requests from an arbitrary client with no key, no token, no registration and no referer check. That is recorded as a positive fact about access clarity, not as a gap. Where authentication IS required at York it sits on surfaces this repository does not describe, and those are listed under out_of_scope below so the absence of a key here is not mistaken for the whole picture.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: University Of York Authentication
 name_suffix: Authentication

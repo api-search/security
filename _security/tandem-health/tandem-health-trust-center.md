@@ -1,4 +1,5 @@
 ---
+certification_count: 11
 certifications:
 - CE Marked (EU MDR)
 - MDR Class IIa

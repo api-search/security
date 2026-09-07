@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: drip-accounts-api-openapi.yml
@@ -67,6 +68,7 @@ auth_types:
 description: Drip authenticates the REST API two ways. Private integrations use the account's personal API token as the username half of HTTP Basic with an empty password (note the trailing colon). Public integrations use OAuth 2.0 authorization code, with the resulting bearer token in the Authorization header. Drip additionally asks every caller to send an identifying User-Agent of the form `Your App Name (www.yourapp.com)`, and the API requires a client that supports SNI.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Drip Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+certification_count: 4
 certifications:
 - ISAE 3402 Type II
 - FIPS 140-2 Level 3

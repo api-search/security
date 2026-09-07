@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: liberate-innovations-events-api-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: The Liberate Orchestration Platform API authenticates with a bearer token issued by Liberate. Tokens are scoped per customer and per environment — every customer has both a production and a QA environment, and each has its own unique endpoint URL and token. The exact curl invocation including the correct host is published in the Start Event properties of each workflow inside the Liberate application.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Liberate Innovations Authentication
 name_suffix: Authentication

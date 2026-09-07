@@ -24,6 +24,7 @@ api_specs:
   slug: zipline-ai-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zipline-ai/refs/heads/main/openapi/zipline-ai-workflow-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

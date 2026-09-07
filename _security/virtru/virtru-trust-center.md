@@ -84,6 +84,7 @@ api_specs:
   slug: virtru-wellknownconfiguration-wellknownservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-wellknownconfiguration-wellknownservice-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - PCI DSS

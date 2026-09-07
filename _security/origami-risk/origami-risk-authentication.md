@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -39,6 +40,7 @@ auth_types:
 description: Origami Risk authenticates API callers against a provisioned Origami account and client. Two token-request formats are documented against the same credential store (a discrete-field JSON login and an OAuth-shaped client_credentials request), the issued token is then presented on every call in a Token header, and an optional HMAC-SHA1 request-signing scheme is available for callers that need per-call signatures. There is no OpenID Connect discovery document, no authorization-server metadata and no scope surface — the OAuth format is a request shape, not a full OAuth 2.0 authorization server.
 kind: authentication
 layout: security
+mechanism_count: 6
 method: searched
 name: Origami Risk Authentication
 name_suffix: Authentication

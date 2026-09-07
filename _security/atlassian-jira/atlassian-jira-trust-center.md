@@ -48,6 +48,25 @@ api_specs:
   slug: atlassian-jira-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/openapi/atlassian-jira-users-api-openapi.yml
+- filename: atlassian-jira-platform-openapi.json
+  format: json
+  label: Atlassian Jira Cloud Platform REST API v3
+  slug: atlassian-jira-cloud-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/openapi/atlassian-jira-platform-openapi.json
+- filename: atlassian-jira-software-openapi.json
+  format: json
+  label: Jira Software Cloud API
+  slug: atlassian-jira-software-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/openapi/atlassian-jira-software-openapi.json
+- filename: atlassian-jira-service-management-openapi.json
+  format: json
+  label: Jira Service Management REST API
+  slug: atlassian-jira-service-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/openapi/atlassian-jira-service-management-openapi.json
+certification_count: 1
 certifications:
 - FedRAMP
 description: ''
@@ -62,7 +81,7 @@ slug: atlassian-jira-trust-center
 source_filename: atlassian-jira-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.atlassian.com/trust\nurl: https://www.atlassian.com/trust\ncertifications:\n- FedRAMP\nevidence:\n- source: https://www.atlassian.com/trust\n  keywords:\n  - fedramp\n  - trust center\n"
+source_yaml: "generated: '2026-09-06'\nmethod: searched\nprobe: true\nsource: https://www.atlassian.com/trust\nurl: https://www.atlassian.com/trust\ncertifications:\n- FedRAMP\nevidence:\n- source: https://www.atlassian.com/trust\n  keywords:\n  - fedramp\n  - trust center\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/security/atlassian-jira-trust-center.yml
 summary_line: FedRAMP
 tags:

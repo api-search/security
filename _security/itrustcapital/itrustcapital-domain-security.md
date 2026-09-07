@@ -26,6 +26,7 @@ hosts:
   https: true
   note: Application host (web app login/signup). Fronted by Cloudflare bot management — anonymous HEAD/GET returns HTTP 403 with a JS interstitial, so HSTS could not be observed. TLS handshake and certificate were observed directly.
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

@@ -1218,6 +1218,7 @@ api_specs:
   slug: benchling-worksheet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-worksheet-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 2
 - ISO/IEC 27001:2022

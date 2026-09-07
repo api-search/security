@@ -30,6 +30,7 @@ api_specs:
   slug: ironclad-clickwrap-sites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ironclad-clickwrap/refs/heads/main/openapi/ironclad-clickwrap-sites-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

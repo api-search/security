@@ -148,6 +148,7 @@ hosts:
   http_status: 401
   https: true
   note: HTTP 401 with WWW-Authenticate Basic realm "IBM Verify Identity Access for Web". An IBM Verify Identity Access (WebSEAL) reverse proxy, not a public security page.
+hosts_probed: 13
 kind: domain-security
 layout: security
 method: probed

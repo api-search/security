@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - none
@@ -8,6 +9,7 @@ auth_types:
 description: Fnatic publishes no OpenAPI, so this profile is built from live discovery documents and observed responses rather than derived securitySchemes. Four distinct auth postures were observed across Fnatic hosts on 2026-08-04. Note that fnatic.com's own member accounts (Fnatic ID) are a first-party login surface with NO published discovery document — only the Shopify-hosted shop exposes machine-readable identity metadata.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: probed
 name: Fnatic Authentication
 name_suffix: Authentication

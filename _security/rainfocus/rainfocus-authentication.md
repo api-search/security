@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'RainFocus publishes no OpenAPI, so no securityScheme block could be derived. This profile is assembled from three things that ARE public: the OIDC/OAuth discovery documents RainFocus serves itself, the live behaviour of api.rainfocus.com and its MCP endpoint under an unauthenticated request, and the RainFocus-authored setup instructions carried in the Adobe Experience Platform destination connector. Nothing here is invented and no credential values appear.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Rainfocus Authentication
 name_suffix: Authentication

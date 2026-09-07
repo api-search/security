@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: apis-io-submit-api-openapi.yml
+  format: yaml
+  label: APIs.io Submit API
+  slug: apisio-submit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-submit-api-openapi.yml
 - filename: apis-io-apis-api-openapi.yml
   format: yaml
   label: APIs.io APIs API
@@ -66,18 +72,42 @@ api_specs:
   slug: apis-io-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-tags-api-openapi.yml
-- filename: apis-io-v1-cohorts-openapi.yml
+- filename: apis-io-cohorts-api-openapi.yml
   format: yaml
   label: APIs.io Cohorts API
   slug: apis-io-cohorts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-v1-cohorts-openapi.yml
-- filename: apis-io-v1-editorial-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-cohorts-api-openapi.yml
+- filename: apis-io-editorial-api-openapi.yml
   format: yaml
   label: APIs.io Editorial API
   slug: apis-io-editorial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-v1-editorial-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-editorial-api-openapi.yml
+- filename: apis-io-export-api-openapi.yml
+  format: yaml
+  label: APIs.io Export API
+  slug: apis-io-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-export-api-openapi.yml
+- filename: apis-io-resolve-enrich-api-openapi.yml
+  format: yaml
+  label: APIs.io Resolve & Enrich API
+  slug: apis-io-resolve-enrich-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-resolve-enrich-api-openapi.yml
+- filename: apis-io-saved-workspace-api-openapi.yml
+  format: yaml
+  label: APIs.io Saved Workspace API
+  slug: apis-io-saved-workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-saved-workspace-api-openapi.yml
+- filename: apis-io-venture-capital-api-openapi.yml
+  format: yaml
+  label: APIs.io Venture Capital API
+  slug: apis-io-venture-capital-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-venture-capital-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -91,6 +121,7 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

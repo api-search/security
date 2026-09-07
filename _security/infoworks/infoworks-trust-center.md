@@ -384,6 +384,7 @@ api_specs:
   slug: infoworks-workflows-schedules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/openapi/infoworks-workflows-schedules-api-openapi.yml
+certification_count: 10
 certifications:
 - ISO/IEC 27001:2022
 - ISO/IEC 27017:2015

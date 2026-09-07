@@ -54,6 +54,7 @@ api_specs:
   slug: ironscales-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/openapi/ironscales-settings-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO/IEC 27001:2022
 - ISO/IEC 42001:2023

@@ -38,6 +38,7 @@ hosts:
   https: true
   note: Added by hand on 2026-07-26 — the RESO Web API / replication host from apis.yml baseURL, which the automated pass did not resolve to a bare hostname. No Strict-Transport-Security header was returned on either the 301 at / or the 401 at /Version/3/Reso/OData/Property.
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

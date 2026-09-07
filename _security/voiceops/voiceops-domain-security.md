@@ -33,6 +33,7 @@ hosts:
   https: true
   source: manual probe (not an apis.yml baseURL host)
   x_frame_options: DENY
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

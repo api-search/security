@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - SOC 2 Type 2
 description: Sphinx maintains a trust center at trust.sphinx.ai (live, HTTP 200). The homepage at sphinx.ai states the product is "SOC 2 Type 2 compliant with zero data retention." The trust-center page is a client-rendered app whose certification list did not render to the fetcher, so the SOC 2 Type 2 claim is captured from the marketing homepage as the verifiable evidence; deeper cert detail would require the rendered trust portal.

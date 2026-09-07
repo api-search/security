@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: socket-alerts-api-openapi.yml
@@ -126,6 +127,7 @@ auth_types:
 description: 'Socket authenticates REST API requests with an organization API token. The OpenAPI declares two HTTP schemes: bearer and basic. The same token is used either as an Authorization Bearer credential or as the Basic-auth username (with an empty password). Tokens carry fine-grained scopes (see scopes/socket-scopes.yml) and are metered by quota.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Socket Authentication
 name_suffix: Authentication

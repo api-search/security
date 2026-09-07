@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Pixis publishes no public developer API and issues no public API keys. What it does publish, machine-readably, is an OpenID Connect / OAuth 2.0 discovery document at auth.pixis.ai — the Auth0 custom domain behind application login for Prism and the Pixis platform. The profile below is read verbatim from that document plus the Auth0Provider configuration Pixis ships in its own public Prism JavaScript bundle, and confirmed against the 401 an anonymous caller gets from the Pixis application backend.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Pixis Authentication
 name_suffix: Authentication

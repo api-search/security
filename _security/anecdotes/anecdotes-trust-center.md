@@ -102,6 +102,7 @@ api_specs:
   slug: anecdotes-update-control-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/openapi/anecdotes-update-control-metadata-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 1
 - SOC 2

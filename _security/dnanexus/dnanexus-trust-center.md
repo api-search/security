@@ -1,4 +1,5 @@
 ---
+certification_count: 9
 certifications:
 - ISO 27001
 - FedRAMP

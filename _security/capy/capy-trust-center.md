@@ -72,6 +72,7 @@ api_specs:
   slug: capy-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-usage-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

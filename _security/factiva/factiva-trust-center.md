@@ -66,6 +66,7 @@ api_specs:
   slug: factiva-newsletters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-newsletters-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO/IEC 27001
 - ISAE 3000

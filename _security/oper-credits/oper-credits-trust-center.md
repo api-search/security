@@ -312,6 +312,7 @@ api_specs:
   slug: oper-credits-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

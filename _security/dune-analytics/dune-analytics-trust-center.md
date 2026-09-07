@@ -12,6 +12,7 @@ api_specs:
   slug: dune-analytics-query-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dune-analytics/refs/heads/main/openapi/dune-analytics-query-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

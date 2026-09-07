@@ -1,4 +1,5 @@
 ---
+certification_count: 7
 certifications:
 - UNI CEI EN ISO 13485:2021
 - ISO/IEC 27001:2022

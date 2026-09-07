@@ -48,6 +48,36 @@ api_specs:
   slug: okra-ng-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-webhooks-api-openapi.yml
+- filename: okra-africa-banks-api-openapi.yml
+  format: yaml
+  label: Okra Banks API
+  slug: okra-africa-banks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-africa-banks-api-openapi.yml
+- filename: okra-africa-customers-api-openapi.yml
+  format: yaml
+  label: Okra Customers API
+  slug: okra-africa-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-africa-customers-api-openapi.yml
+- filename: okra-africa-reports-api-openapi.yml
+  format: yaml
+  label: Okra Reports API
+  slug: okra-africa-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-africa-reports-api-openapi.yml
+- filename: okra-africa-verification-api-openapi.yml
+  format: yaml
+  label: Okra Verification API
+  slug: okra-africa-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-africa-verification-api-openapi.yml
+- filename: okra-africa-wallet-api-openapi.yml
+  format: yaml
+  label: Okra Wallet API
+  slug: okra-africa-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-africa-wallet-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,6 +94,7 @@ hosts:
   https: false
 - host: api.okra.ng
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

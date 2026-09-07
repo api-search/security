@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: How programmatic clients authenticate to Macro. Macro's public programmatic surface is its hosted MCP server; clients authenticate with OAuth via a browser sign-in when the MCP client first connects. There is no documented public REST API key scheme.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Macro Authentication
 name_suffix: Authentication

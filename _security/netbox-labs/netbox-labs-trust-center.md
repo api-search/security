@@ -78,6 +78,7 @@ api_specs:
   slug: netbox-labs-wireless-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netbox-labs/refs/heads/main/openapi/netbox-labs-wireless-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

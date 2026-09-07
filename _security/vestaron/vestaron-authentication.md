@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: vestaron-comments-api-openapi.yml
@@ -62,6 +63,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Vestaron Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in:
 - header
 api_specs:
@@ -15,6 +16,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Improvado Authentication
 name_suffix: Authentication

@@ -114,6 +114,7 @@ api_specs:
   slug: pennylane-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-transactions-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - SOC 2

@@ -30,6 +30,7 @@ hosts:
   https: false
   https_port_open: false
   resolves: true
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: 'CAIS runs two distinct identity surfaces. (1) The MCP server at mcp.caisgroup.com is its own OAuth 2.1 authorization server: authorization-code + PKCE S256, refresh tokens, RFC 7591 dynamic client registration, RFC 7009 revocation, RFC 9728 protected-resource metadata, and bearer tokens in the Authorization header only. It supports client_id metadata documents. (2) The member platform behind members.caisgroup.com authenticates through an Auth0 tenant on the custom domain login.caisgroup.com, which publishes full OpenID Connect Discovery 1.0 metadata including MFA challenge and device-authorization endpoints. No API key, HTTP basic, or mutualTLS scheme is advertised on any public CAIS surface.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Cais Authentication
 name_suffix: Authentication

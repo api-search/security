@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: refersion-affiliates-api-openapi.yml
@@ -29,6 +30,7 @@ auth_types: []
 description: Refersion authenticates the REST API and the inbound order-tracking webhook with a static public/secret key PAIR sent as two custom request headers. There is no OAuth 2.0, no OpenID Connect, no bearer token, no mutual TLS and no token exchange of any kind. Note that the published OpenAPI declares NO `securitySchemes` and NO `security` block — the credentials are modelled as ordinary required header PARAMETERS, so automated tooling that reads only securitySchemes will conclude this API is unauthenticated. That is a real defect in the contract, not a gap in this profile.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Refersion Authentication
 name_suffix: Authentication

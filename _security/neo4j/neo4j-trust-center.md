@@ -42,6 +42,7 @@ api_specs:
   slug: neo4j-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-transactions-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

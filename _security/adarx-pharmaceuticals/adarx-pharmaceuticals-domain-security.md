@@ -89,6 +89,7 @@ hosts:
   note: Fronted by Cloudflare. www.stophae.com does not resolve — the apex is the only valid host.
   server: cloudflare
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

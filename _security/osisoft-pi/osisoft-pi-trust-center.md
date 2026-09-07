@@ -48,6 +48,7 @@ api_specs:
   slug: osisoft-pi-streams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-streams-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

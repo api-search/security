@@ -24,6 +24,7 @@ api_specs:
   slug: simpleanalytics-websites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/openapi/simpleanalytics-websites-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type II
 - ISO 27001

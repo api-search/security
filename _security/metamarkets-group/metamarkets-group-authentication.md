@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for the Metamarkets Real-time Data Ingestion (RDI) API.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Metamarkets Group Authentication
 name_suffix: Authentication

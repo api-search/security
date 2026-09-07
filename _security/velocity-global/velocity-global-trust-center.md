@@ -6,6 +6,7 @@ api_specs:
   slug: velocity-global-api
   spec_type: OpenAPI
   url: https://velocityglobal.com/openapi
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

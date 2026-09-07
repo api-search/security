@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: unsw-sydney-core-api-openapi.yml
@@ -29,6 +30,7 @@ auth_types: []
 description: How each UNSW surface authenticates, established by probing rather than by reading marketing copy. The institution's most substantial API platform is fully gated; its readable surfaces are anonymous; and its own identity plane is a federated SAML IdP rather than an API key system.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Unsw Sydney Authentication
 name_suffix: Authentication

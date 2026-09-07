@@ -84,6 +84,7 @@ api_specs:
   slug: slide-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/slide/refs/heads/main/openapi/slide-users-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type 1 (Security and Availability Trust Services Criteria)
 description: Slide's security and trust posture, captured from the Security & Trust page.

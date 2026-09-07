@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'AnnounceKit has no OpenAPI securitySchemes to derive from - the contract is GraphQL - so this profile is assembled from the documented auth paths and the live OAuth metadata. Four distinct schemes coexist: Basic auth on the GraphQL endpoint, ak_pat_ bearer tokens for the MCP server, a full OAuth 2.0 authorization-code + PKCE flow behind the hosted MCP login, and JWT-signed user identity for the client-side widget.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Announcekit Authentication
 name_suffix: Authentication

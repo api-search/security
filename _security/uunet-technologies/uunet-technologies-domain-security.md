@@ -60,6 +60,7 @@ hosts:
 - dns: 192.48.96.9 (historic archive host A record still published)
   host: ftp.uu.net
   https: false
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: Authentication profile for the Shopify Customer Account API fronting Face Reality Skincare's store. Captured from the live OIDC/OAuth 2.0 discovery documents. The unauthenticated Storefront MCP shop tools (mcp/) require no auth; customer-account and MCP write scopes are obtained via the OAuth 2.0 Authorization Code flow with PKCE below.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Facerealityskincare Authentication
 name_suffix: Authentication

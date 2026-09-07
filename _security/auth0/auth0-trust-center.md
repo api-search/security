@@ -438,6 +438,7 @@ api_specs:
   slug: auth0-ws-federation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-ws-federation-api-openapi.yml
+certification_count: 10
 certifications:
 - SOC 2
 - ISO 27001

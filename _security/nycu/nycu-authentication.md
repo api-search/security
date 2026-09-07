@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: nycu-oauth-api-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: How authentication works against the surfaces National Yang Ming Chiao Tung University actually operates. The university runs one first-party authorization server — the NYCU OAuth service at id.nycu.edu.tw, operated by the Information Technology Service Center — and it fronts the university single sign-on account. Everything else NYCU exposes publicly is either anonymous read (OAI-PMH harvesting, the DSpace and Dataverse read APIs) or is gated behind that same SSO.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Nycu Authentication
 name_suffix: Authentication

@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - appCredentials
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Voxer Authentication
 name_suffix: Authentication

@@ -6,6 +6,7 @@ api_specs:
   slug: pantheon-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pantheon/refs/heads/main/openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

@@ -8,11 +8,12 @@ domains:
   domain: drinkotec.ch
   spf: true
 hosts:
-- cert_expires: Sep 22 00:51:37 2026 GMT
+- cert_expires: Nov 21 19:50:17 2026 GMT
   host: drinkotec.ch
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -25,9 +26,15 @@ slug: drinkotec-domain-security
 source_filename: drinkotec-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: drinkotec.ch\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 00:51:37 2026 GMT\n  hsts: null\ndomains:\n- domain: drinkotec.ch\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: drinkotec.ch\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 19:50:17 2026 GMT\n  hsts: null\ndomains:\n- domain: drinkotec.ch\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drinkotec/refs/heads/main/security/drinkotec-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Beverages
+- Beverage Dispensing
+- Hospitality
+- Point of Sale
+- IoT
+- Analytics
+- Payments
 ---

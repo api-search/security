@@ -18,6 +18,7 @@ api_specs:
   slug: getvocal-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/openapi/getvocal-well-known-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

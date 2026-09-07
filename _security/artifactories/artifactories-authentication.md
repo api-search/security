@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: openapi.json
@@ -11,6 +12,7 @@ auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Artifactories Authentication
 name_suffix: Authentication

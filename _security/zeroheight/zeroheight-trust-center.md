@@ -6,6 +6,7 @@ api_specs:
   slug: zeroheight
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/openapi/zeroheight-open-api-v2.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

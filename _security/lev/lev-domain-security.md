@@ -122,6 +122,7 @@ hosts:
   hsts: false
   https: true
   role: hosted MCP server
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

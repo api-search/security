@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
 description: The Solarize API authenticates requests with short-lived JSON Web Tokens (JWT). A caller first mints a long-lived API Token inside the Solarize app (Settings), then exchanges it at the token endpoint for a Bearer access token. API Tokens carry the same permissions as the user that created them; there is no separate OAuth2 scope surface.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Solarize Authentication
 name_suffix: Authentication

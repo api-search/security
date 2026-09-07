@@ -132,6 +132,7 @@ api_specs:
   slug: coactive-video-scores-videoscores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-video-scores-videoscores-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

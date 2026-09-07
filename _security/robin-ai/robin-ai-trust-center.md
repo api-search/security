@@ -30,6 +30,7 @@ api_specs:
   slug: robin-ai-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/openapi/robin-ai-templates-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - query
 - header
@@ -165,6 +166,18 @@ api_specs:
   slug: enphase-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-users-api-openapi.yml
+- filename: enphase-energy-device-level-production-monitoring-api-openapi.yml
+  format: yaml
+  label: Enphase Energy Device Level Production Monitoring API
+  slug: enphase-energy-device-level-production-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-energy-device-level-production-monitoring-api-openapi.yml
+- filename: enphase-energy-systems-api-openapi.yml
+  format: yaml
+  label: Enphase Energy Systems API
+  slug: enphase-energy-systems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-energy-systems-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey
@@ -172,6 +185,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Enphase Authentication
 name_suffix: Authentication

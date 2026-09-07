@@ -117,6 +117,7 @@ hosts:
   hsts_max_age: 31536000
   https: true
   role: Auth0 custom domain — portal login and MCP OAuth issuer
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

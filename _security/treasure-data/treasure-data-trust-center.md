@@ -390,6 +390,7 @@ api_specs:
   slug: treasure-data-workflowexecutor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-workflowexecutor-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

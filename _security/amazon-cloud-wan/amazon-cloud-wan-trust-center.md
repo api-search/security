@@ -6,6 +6,7 @@ api_specs:
   slug: amazon-cloud-wan-core-networks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/openapi/amazon-cloud-wan-core-networks-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

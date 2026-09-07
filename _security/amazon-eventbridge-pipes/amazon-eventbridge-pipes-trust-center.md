@@ -12,6 +12,7 @@ api_specs:
   slug: amazon-eventbridge-pipes-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-pipes/refs/heads/main/openapi/amazon-eventbridge-pipes-tags-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

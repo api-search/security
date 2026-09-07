@@ -312,6 +312,7 @@ api_specs:
   slug: ashby-hq-webhook-payloads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/openapi/ashby-hq-webhook-payloads-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

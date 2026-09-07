@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: rtbhouse-advertisers-api-openapi.yml
@@ -36,6 +37,7 @@ auth_types:
 description: The RTB House Client Panel API v5 authenticates with HTTP Authorization headers only. The OpenAPI declares two schemes (http basic, http bearer); the first-party SDK documents a third accepted style — an `Authorization` header carrying `Token <api-token>` — which the spec does not mention. There is no OAuth, no OIDC, no API key parameter and no mTLS. Every path except GET /healthcheck requires a credential.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Rtbhouse Authentication
 name_suffix: Authentication

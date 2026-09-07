@@ -30,6 +30,7 @@ api_specs:
   slug: amazon-mainframe-modernization-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/openapi/amazon-mainframe-modernization-tags-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

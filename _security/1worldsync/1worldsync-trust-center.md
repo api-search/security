@@ -6,6 +6,7 @@ api_specs:
   slug: 1worldsync-fetchproduct-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/openapi/1worldsync-fetchproduct-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 2
 - ISO/IEC 27001:2022

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: fusio-backend.json
@@ -30,6 +31,7 @@ auth_types:
 description: Fusio ships its own OAuth2 authorization server (added in 6.0.0) rather than delegating to one, and publishes RFC 8414, RFC 9728 and OpenID Connect discovery documents from every instance. The single securityScheme in the generated contracts is thin - it advertises only the 'default' scope because the generator emits what the anonymous caller can see - so the real model below is read from the docs and the discovery documents, not from the spec alone.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Fusio Authentication
 name_suffix: Authentication

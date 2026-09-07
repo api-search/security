@@ -1,4 +1,5 @@
 ---
+certification_count: 7
 certifications:
 - ISAE 3402 Type II
 - ISAE 3000 (SOC 2) Type II

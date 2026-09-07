@@ -96,6 +96,7 @@ api_specs:
   slug: discourse-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/discourse/refs/heads/main/openapi/discourse-users-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

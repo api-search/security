@@ -22,6 +22,7 @@ hosts:
 - host: platform.musaffa.com
   https: false
   probe_note: Recorded as https:false because neither `openssl s_client` nor curl could complete a clean TLS session with this host on 2026-08-26 (curl reported HTTP status 000, no certificate could be read). The host DOES serve content over https — a 938KB Next.js SPA shell came back for every path tried — but the connection terminates abnormally, so no TLS version, certificate expiry or HSTS value could be measured. Treat this as an unmeasured host, not as a plaintext one.
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

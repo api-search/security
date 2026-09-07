@@ -18,6 +18,7 @@ api_specs:
   slug: service-cloud-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/openapi/service-cloud-versions-api-openapi.yml
+certification_count: 4
 certifications:
 - note
 - observed

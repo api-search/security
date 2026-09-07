@@ -84,6 +84,7 @@ api_specs:
   slug: amazon-devops-guru-service-integrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-devops-guru/refs/heads/main/openapi/amazon-devops-guru-service-integrations-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

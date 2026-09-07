@@ -66,6 +66,7 @@ api_specs:
   slug: ubble-website-verifications-coming-soon-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ubble/refs/heads/main/openapi/ubble-website-verifications-coming-soon-api-openapi.yml
+certification_count: 1
 certifications:
 - GDPR
 description: ''

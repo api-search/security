@@ -6,6 +6,7 @@ api_specs:
   slug: sponsorunited-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sponsorunited/refs/heads/main/openapi/sponsorunited-api-openapi.json
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - GDPR

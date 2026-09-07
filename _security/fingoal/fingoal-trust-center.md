@@ -42,6 +42,7 @@ api_specs:
   slug: fingoal-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/openapi/fingoal-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - GDPR

@@ -198,6 +198,7 @@ api_specs:
   slug: netomi-zoho-webhook-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/openapi/netomi-zoho-webhook-controller-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2 Type II
 - ISO 27001

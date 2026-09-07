@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: permit-io-access-requests-eap-api-openapi.yml
@@ -264,6 +265,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Permit Io Authentication
 name_suffix: Authentication

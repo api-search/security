@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: unitedhealth-clinical-data-api-openapi.yml
@@ -30,6 +31,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Unitedhealth Authentication
 name_suffix: Authentication

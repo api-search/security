@@ -6,6 +6,7 @@ api_specs:
   slug: amazon-launch-wizard-deployments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-launch-wizard/refs/heads/main/openapi/amazon-launch-wizard-deployments-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

@@ -30,6 +30,7 @@ hosts:
   https: true
   note: 'HSTS is absent on the HTML routes (GET / returns no Strict-Transport-Security, no CSP, no X-Frame-Options). The JSON API routes DO set them: GET /api/v1/catalog/health and POST /api/v1/catalog/check return strict-transport-security: max-age=31536000; includeSubDomains, plus content-security-policy: default-src ''none''; frame-ancestors ''none''; base-uri ''none'', x-content-type-options: nosniff, x-frame-options: DENY, referrer-policy: no-referrer, cross-origin-resource-policy: same-origin, cache-control: no-store and x-robots-tag: noindex, nofollow. The security-header posture is therefore strong on the API surface and absent on the marketing/docs surface.'
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

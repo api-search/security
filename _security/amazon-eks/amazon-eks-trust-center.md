@@ -24,6 +24,7 @@ api_specs:
   slug: amazon-eks-node-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-eks/refs/heads/main/openapi/amazon-eks-node-groups-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

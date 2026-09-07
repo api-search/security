@@ -1,4 +1,5 @@
 ---
+certification_count: 2
 certifications:
 - SSAE 18 SOC 2 Type 1
 - SSAE 18 SOC 2 Type 2

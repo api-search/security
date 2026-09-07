@@ -54,6 +54,7 @@ api_specs:
   slug: streamkap-transforms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-transforms-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

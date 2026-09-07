@@ -72,6 +72,12 @@ api_specs:
   slug: protonai-tracking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/protonai/refs/heads/main/openapi/protonai-tracking-api-openapi.yml
+- filename: postman.yaml
+  format: yaml
+  label: Proton API
+  slug: proton-api
+  spec_type: Postman
+  url: https://api.proton.ai/
 description: ''
 domains:
 - caa: []
@@ -87,6 +93,7 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

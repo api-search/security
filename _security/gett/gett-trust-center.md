@@ -36,6 +36,7 @@ api_specs:
   slug: gett-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/openapi/gett-webhooks-api-openapi.yml
+certification_count: 4
 certifications:
 - ISO 27001
 - ISO 27018

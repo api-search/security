@@ -23,6 +23,7 @@ hosts:
   https: false
 - host: builder.vectren.com
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

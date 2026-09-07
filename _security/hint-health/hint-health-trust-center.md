@@ -402,6 +402,7 @@ api_specs:
   slug: hint-health-webhookrequest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/openapi/hint-health-webhookrequest-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

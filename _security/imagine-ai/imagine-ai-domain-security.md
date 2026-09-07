@@ -28,6 +28,7 @@ hosts:
   https: true
   note: probed manually 2026-08-13; authentication-gated application host.
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

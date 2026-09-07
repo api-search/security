@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: The Devo Trust Center publishes the company's privacy, security, and compliance posture, its latest SOC 2 reports, and legal documents and policies for the Devo Data Analytics Platform.

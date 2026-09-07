@@ -1,10 +1,12 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - none
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: 5Ire Authentication
 name_suffix: Authentication

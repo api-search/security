@@ -6,6 +6,7 @@ api_specs:
   slug: usebraintrust-dashboard-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/usebraintrust/refs/heads/main/openapi/usebraintrust-dashboard-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: Braintrust operates a Vanta-hosted trust center linked from the AIR compliance page. The compliance page documents SOC 2 Type II certification ("independently verified security controls covering data availability, confidentiality, and processing integrity"), an independent third-party bias audit across all EEOC-protected classes, GDPR/DPA compliance, and ISO 27001/NIST 800-30 alignment, with SOC 2 reports and security policies available through the Vanta dashboard. The automated trust-center probe (trust./security. subdomains + /trust /security /compliance paths) missed it because the trust center is hosted on app.vanta.com rather than a usebraintrust.com host.

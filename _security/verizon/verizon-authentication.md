@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -38,6 +39,7 @@ auth_types:
 description: Verizon ThingSpace uses a two-token model. An OAuth 2.0 client-credentials grant issues a ThingSpace access token from the application key/secret; that token is then exchanged, together with UWS (Unified Web Services) username/password, for a VZ-M2M session token that authorizes every Connectivity Management call. Both tokens must be present on Connectivity Management requests.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Verizon Authentication
 name_suffix: Authentication

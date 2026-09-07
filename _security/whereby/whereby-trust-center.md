@@ -36,6 +36,7 @@ api_specs:
   slug: whereby-transcriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-transcriptions-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - HIPAA

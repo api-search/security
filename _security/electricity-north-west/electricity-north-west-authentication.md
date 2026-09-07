@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -22,6 +23,7 @@ auth_types:
 description: 'The OpenAPI documents declare a single scheme (an `apikey` query parameter), but that under-describes what the platform actually supports. The Opendatasoft (Huwise) Explore API accepts three credential styles — an API key in the Authorization header (the vendor''s recommended form), the same key as an `apikey` query parameter (the only one in the spec), and a portal session cookie — plus a full OAuth2 authorization-code flow for third-party applications. On the SP Electricity North West domain, catalogue and dataset METADATA is readable anonymously, but RECORD data is not: every dataset probed returned ForbiddenAccess to an unauthenticated caller.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Electricity North West Authentication
 name_suffix: Authentication

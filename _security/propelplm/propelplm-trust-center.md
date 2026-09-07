@@ -84,6 +84,7 @@ api_specs:
   slug: propelplm-variants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-variants-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

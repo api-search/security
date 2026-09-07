@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
 description: Authentication profile for the RO1 Robotics REST API. The API runs on the robot control box and is authenticated with a Bearer token minted per robot from the Standard Bots app (Menu -> Settings -> Configure Developer API -> Enable Developer API). Every request also carries a robot-kind header selecting live vs simulated operation.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Standard Bots Authentication
 name_suffix: Authentication

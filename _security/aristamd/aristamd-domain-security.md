@@ -98,6 +98,7 @@ hosts:
     access_control_allow_origin: '*'
     referrer_policy: strict-origin-when-cross-origin
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

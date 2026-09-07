@@ -384,6 +384,7 @@ api_specs:
   slug: solvimon-workflowtriggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-workflowtriggers-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

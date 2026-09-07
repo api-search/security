@@ -1,4 +1,5 @@
 ---
+certification_count: 12
 certifications:
 - ISO/IEC 27001
 - ISO 13485

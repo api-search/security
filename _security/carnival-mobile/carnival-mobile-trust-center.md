@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: Marigold — the current owner of the Carnival Mobile / Sailthru Mobile product line — publishes a trust center at trust.meetmarigold.com, linked from the meetmarigold.com footer under "Legal & Compliance". The landing page describes a program "built around industry-leading standards and framework" and offers "externally audited security certification reports", but it does NOT name any certification publicly — no SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP or CSA STAR appears on the public page. Named certifications appear to sit behind the gated trust portal.
 kind: trust-center

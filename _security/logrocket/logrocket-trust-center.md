@@ -24,6 +24,7 @@ api_specs:
   slug: logrocket-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-users-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

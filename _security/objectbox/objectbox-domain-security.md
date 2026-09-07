@@ -15,6 +15,7 @@ hosts:
   hsts_max_age: null
   https: true
   server: Apache
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

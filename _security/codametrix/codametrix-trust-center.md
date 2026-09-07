@@ -30,6 +30,7 @@ api_specs:
   slug: codametrix-summary-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/openapi/codametrix-summary-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - SOC 2 Type 2

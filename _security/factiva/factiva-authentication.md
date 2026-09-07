@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -75,6 +76,7 @@ auth_types:
 description: 'Factiva Integration implements two authentication methods side by side: a user key (API key) sent in a `user-key` header, and a bearer authorization token obtained through a two-step exchange against the Dow Jones identity service. The harvested OpenAPI/Swagger documents declare only the bearer half; the user-key half is documented but not modelled in any published spec, which is why this file is `searched` rather than `derived`.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Factiva Authentication
 name_suffix: Authentication

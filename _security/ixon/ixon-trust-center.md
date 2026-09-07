@@ -2154,6 +2154,7 @@ api_specs:
   slug: ixon-webhooksubscriptiontriggerlist-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ixon/refs/heads/main/openapi/ixon-webhooksubscriptiontriggerlist-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - ISO 27017

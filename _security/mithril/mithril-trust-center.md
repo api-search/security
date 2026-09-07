@@ -84,6 +84,7 @@ api_specs:
   slug: mithril-volumes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-volumes-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II (availability, security, confidentiality)
 description: ''

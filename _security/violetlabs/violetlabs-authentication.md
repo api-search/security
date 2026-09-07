@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: Violet Labs exposes two authentication models. The REST Explore API uses an API-key credential passed in an HTTP header. The hosted MCP server (and the broader app.violetlabs.com surface) additionally supports OAuth 2.0 with PKCE and dynamic client registration. API keys are created in Company Settings and may be given an optional expiration date.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Violetlabs Authentication
 name_suffix: Authentication

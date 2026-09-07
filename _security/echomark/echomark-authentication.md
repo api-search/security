@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - apiClientCredentials
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Echomark Authentication
 name_suffix: Authentication

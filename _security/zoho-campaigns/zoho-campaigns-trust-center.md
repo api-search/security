@@ -6,6 +6,7 @@ api_specs:
   slug: zoho-campaigns-email-api
   spec_type: Postman
   url: https://raw.githubusercontent.com/api-evangelist/zoho-campaigns/refs/heads/main/postman/zoho-campaigns-email-api-collection.json
+certification_count: 21
 certifications:
 - ISO/IEC 27001
 - ISO/IEC 27017

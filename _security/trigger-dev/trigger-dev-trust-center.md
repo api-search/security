@@ -54,6 +54,7 @@ api_specs:
   slug: trigger-dev-waitpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/openapi/trigger-dev-waitpoints-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

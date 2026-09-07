@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -86,6 +87,7 @@ auth_types:
 description: 'The AgentPhone REST API authenticates with an API key passed as an HTTP Bearer token on every request (Authorization: Bearer <API_KEY>). Keys are created in the dashboard under Settings -> API Keys. A separate OAuth 2.0 authorization server (advertised at /.well-known/oauth-authorization-server and /.well-known/openid-configuration on api.agentphone.ai) secures the remote MCP surface with authorization_code + PKCE, dynamic client registration, refresh tokens, and a single `mcp` scope.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Agentphone Authentication
 name_suffix: Authentication

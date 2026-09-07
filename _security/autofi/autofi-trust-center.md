@@ -36,6 +36,7 @@ api_specs:
   slug: autofi-prequalification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/openapi/autofi-prequalification-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - SOC 3

@@ -72,6 +72,7 @@ hosts:
     url: https://coordinator-api-wmxp.onrender.com/
   role: custom API hostname — NOT SERVING
   tls_error: SSLV3_ALERT_HANDSHAKE_FAILURE — no certificate is presented for this name
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

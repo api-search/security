@@ -36,6 +36,7 @@ hosts:
   https: true
   note: The live Tegus application. HSTS max-age is 300 seconds — two orders of magnitude below the 63072000 used on tegus.com and below the 31536000 an HSTS preload requires. Root returns 403 from Fastly/Varnish with a PerimeterX `_pxhd` cookie (bot challenge).
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

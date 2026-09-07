@@ -69,6 +69,7 @@ hosts:
   hsts_max_age: 63072000
   https: true
   notes: 307 redirect to /login (Vercel).
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

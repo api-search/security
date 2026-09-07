@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Lattica does not publish an OpenAPI definition, so this profile was read off the platform documentation and the official Python SDK rather than derived from securitySchemes. There is no OAuth 2.0 and no OpenID Connect: the whole platform authenticates with bearer tokens, but with TWO distinct token classes that are easy to conflate — an organization-level management license and a per-user, per-workload query token.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Lattica Authentication
 name_suffix: Authentication

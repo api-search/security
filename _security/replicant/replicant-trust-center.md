@@ -6,6 +6,7 @@ api_specs:
   slug: replicant-replicant-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/openapi/replicant-replicant-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 2
 - PCI DSS

@@ -48,6 +48,7 @@ api_specs:
   slug: amazon-iot-events-tags-resourcearn-tagkeys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/openapi/amazon-iot-events-tags-resourcearn-tagkeys-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

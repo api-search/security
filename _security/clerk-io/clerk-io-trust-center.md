@@ -78,6 +78,7 @@ api_specs:
   slug: clerk-io-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-tokens-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

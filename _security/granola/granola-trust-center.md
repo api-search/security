@@ -6,6 +6,7 @@ api_specs:
   slug: granola-notes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/granola/refs/heads/main/openapi/granola-notes-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

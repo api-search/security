@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: Motley Cloud's API and hosted MCP server (https://app.motley.ai/api/v1/) authenticate with OAuth 2.0 (RFC 8414 authorization server metadata, backed by Clerk), authorization-code flow with PKCE and OpenID Connect. The open-source SLayer server run locally holds database credentials itself and does not expose them to consumers.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Motley Authentication
 name_suffix: Authentication

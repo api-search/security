@@ -21,6 +21,7 @@ hosts:
   https: true
   live_api: false
   upstream: F5 Distributed Cloud (ves.io)
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

@@ -138,6 +138,7 @@ api_specs:
   slug: float-financial-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/openapi/float-financial-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 2
 - PCI DSS

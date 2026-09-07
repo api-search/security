@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: derivadex-market-api-openapi.yml
@@ -25,6 +26,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Derivadex Authentication
 name_suffix: Authentication

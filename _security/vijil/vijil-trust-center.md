@@ -30,6 +30,7 @@ api_specs:
   slug: vijil-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/openapi/vijil-teams-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

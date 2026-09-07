@@ -54,6 +54,7 @@ api_specs:
   slug: gc-ai-utility-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/openapi/gc-ai-utility-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 1
 - SOC 2 Type 2

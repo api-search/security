@@ -39,6 +39,7 @@ hosts:
   https: true
   note: DTU Data — Figshare tenant host. Behind an AWS WAF challenge for non-browser clients.
   x-operator: tenant
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

@@ -6,6 +6,7 @@ api_specs:
   slug: partner-api
   spec_type: OpenAPI
   url: https://docs.signsealship.com/api-reference/openapi.json
+certification_count: 3
 certifications:
 - count
 - named

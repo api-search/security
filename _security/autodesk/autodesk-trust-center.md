@@ -288,6 +288,7 @@ api_specs:
   slug: autodesk-workitems-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-workitems-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - SOC 3

@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: ustc-campus-status-api-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: 'Authentication posture across every University of Science and Technology of China surface reachable from the open internet. The headline result is that USTC''s identity layer is the institution''s real programmable footprint: USTC''s Network Information Center operates its own CAS/OAuth 2.0/OIDC authorization server at id.ustc.edu.cn, publishes a first-party developer manual for it, serves an anonymously readable OpenID Connect discovery document and JWKS, and runs a separate Shibboleth 5.2.2 identity provider at idp.ustc.edu.cn for federated access. Everything that carries data behind that layer — the enrollment status API, the course catalog, the library OPAC, the campus AI assistant — is gated, and USTC states plainly that relying parties outside the ustc.edu.cn domain are not supported at all.'
 kind: authentication
 layout: security
+mechanism_count: 6
 method: probed
 name: Ustc Authentication
 name_suffix: Authentication

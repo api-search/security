@@ -36,6 +36,7 @@ api_specs:
   slug: ebanx-payouts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/openapi/ebanx-payouts-api-openapi.yml
+certification_count: 1
 certifications:
 - ISO 27001
 description: ''

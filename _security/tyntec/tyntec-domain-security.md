@@ -53,6 +53,7 @@ hosts:
   https: true
   note: Redirects to www.tyntec.com.
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

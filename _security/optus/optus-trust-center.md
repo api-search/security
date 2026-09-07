@@ -54,6 +54,7 @@ api_specs:
   slug: optus-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-templates-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - SOC 2

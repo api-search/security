@@ -52,6 +52,7 @@ hosts:
   hsts_preload: true
   https: true
   role: blog
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

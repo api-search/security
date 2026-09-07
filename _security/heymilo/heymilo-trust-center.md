@@ -108,6 +108,7 @@ api_specs:
   slug: heymilo-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-workspaces-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

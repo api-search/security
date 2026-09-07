@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: flowable-access-tokens-api-openapi.yml
@@ -385,11 +386,48 @@ api_specs:
   slug: flowable-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/openapi/flowable-users-api-openapi.yml
+- filename: flowable-api-cmmn-api-openapi.yml
+  format: yaml
+  label: Flowable CMMN API
+  slug: flowable-api-cmmn-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/openapi/flowable-api-cmmn-api-openapi.yml
+- filename: flowable-api-deployments-api-openapi.yml
+  format: yaml
+  label: Flowable Deployments API
+  slug: flowable-api-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/openapi/flowable-api-deployments-api-openapi.yml
+- filename: flowable-api-models-api-openapi.yml
+  format: yaml
+  label: Flowable Models API
+  slug: flowable-api-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/openapi/flowable-api-models-api-openapi.yml
+- filename: flowable-api-processdefinitions-api-openapi.yml
+  format: yaml
+  label: Flowable ProcessDefinitions API
+  slug: flowable-api-processdefinitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/openapi/flowable-api-processdefinitions-api-openapi.yml
+- filename: flowable-api-processinstances-api-openapi.yml
+  format: yaml
+  label: Flowable ProcessInstances API
+  slug: flowable-api-processinstances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/openapi/flowable-api-processinstances-api-openapi.yml
+- filename: flowable-api-tasks-api-openapi.yml
+  format: yaml
+  label: Flowable Tasks API
+  slug: flowable-api-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/openapi/flowable-api-tasks-api-openapi.yml
 auth_types:
 - http
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Flowable Authentication
 name_suffix: Authentication

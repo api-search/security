@@ -78,6 +78,7 @@ api_specs:
   slug: plerion-well-architected-frameworks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/openapi/plerion-well-architected-frameworks-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

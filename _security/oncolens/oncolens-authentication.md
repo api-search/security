@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: OncoLens publishes no public API and no developer authentication documentation. What it does serve, anonymously and on its own domain, is a complete OpenID Connect Discovery document for the identity provider that fronts the customer application. This profile is derived entirely from that document plus the observed sign-in redirect chain — it describes how a human signs in to the OncoLens SaaS, not how a developer would authenticate against a product API, because no product API is published.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Oncolens Authentication
 name_suffix: Authentication

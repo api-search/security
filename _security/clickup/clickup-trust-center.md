@@ -78,6 +78,7 @@ api_specs:
   slug: clickup-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-webhooks-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

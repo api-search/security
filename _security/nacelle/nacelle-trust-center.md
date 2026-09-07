@@ -30,6 +30,7 @@ api_specs:
   slug: nacelle-admin-indexing-api
   spec_type: Postman
   url: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/collections/nacelle.postman_collection.json
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

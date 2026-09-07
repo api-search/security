@@ -19,6 +19,7 @@ hosts:
   hsts: null
   https: null
   tls_probe: handshake-rejected (TLS alert 40; edge blocks non-browser TLS fingerprints)
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

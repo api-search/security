@@ -1,4 +1,5 @@
 ---
+certification_count: 8
 certifications:
 - SOC 1
 - SOC 2

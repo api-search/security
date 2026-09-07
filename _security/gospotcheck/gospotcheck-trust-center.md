@@ -78,6 +78,7 @@ api_specs:
   slug: gospotcheck-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/openapi/gospotcheck-users-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

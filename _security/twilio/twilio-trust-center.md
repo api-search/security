@@ -690,6 +690,7 @@ api_specs:
   slug: twilio-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-workspaces-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

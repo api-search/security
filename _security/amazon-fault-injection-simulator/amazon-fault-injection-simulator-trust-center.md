@@ -36,6 +36,7 @@ api_specs:
   slug: amazon-fault-injection-simulator-target-resource-types-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/openapi/amazon-fault-injection-simulator-target-resource-types-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

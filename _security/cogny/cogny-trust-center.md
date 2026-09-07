@@ -24,6 +24,7 @@ api_specs:
   slug: cogny-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-webhooks-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

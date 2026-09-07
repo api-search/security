@@ -12,6 +12,25 @@ api_specs:
   slug: qodo-hosted-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qodo/refs/heads/main/openapi/_original/qodo-openapi.yml
+- filename: qodo-gen-qodo-command-api-openapi.yml
+  format: yaml
+  label: Qodo Qodo Command API
+  slug: qodo-gen-qodo-command-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qodo/refs/heads/main/openapi/qodo-gen-qodo-command-api-openapi.yml
+- filename: qodo-gen-qodo-gen-api-openapi.yml
+  format: yaml
+  label: Qodo Qodo Gen API
+  slug: qodo-gen-qodo-gen-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qodo/refs/heads/main/openapi/qodo-gen-qodo-gen-api-openapi.yml
+- filename: qodo-gen-qodo-merge-api-openapi.yml
+  format: yaml
+  label: Qodo Qodo Merge API
+  slug: qodo-gen-qodo-merge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qodo/refs/heads/main/openapi/qodo-gen-qodo-merge-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

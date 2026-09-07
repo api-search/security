@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: github-copilot-copilot-billing-api-openapi.yml
@@ -43,6 +44,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Github Copilot Authentication
 name_suffix: Authentication

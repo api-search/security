@@ -23,6 +23,7 @@ hosts:
   https: true
   note: Amazon API Gateway. Every path probed returns HTTP 403 {"message":"Missing Authentication Token"}; no anonymous surface.
   reachable: true
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

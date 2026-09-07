@@ -44,6 +44,7 @@ hosts:
   hsts: false
   https: false
   note: 'Apex TLS fails hostname verification: the certificate presents only CN=*.syncbak.com / SAN DNS:*.syncbak.com, which does not match the bare apex. Plain HTTP 302s to https://syncbak.com and therefore dead-ends for a strict client.'
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

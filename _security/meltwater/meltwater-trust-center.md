@@ -90,6 +90,7 @@ api_specs:
   slug: meltwater-llm-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-llm-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
@@ -6,6 +7,7 @@ auth_types:
 description: Remerge runs two separately-authenticated HTTP surfaces. The Reporting API uses a session-style token minted by a sign-in request with dashboard credentials and presented in a custom Authorization header. The Event Tracking API is authorized with a partner name plus a Remerge-issued key carried as query parameters on every GET.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Remerge Authentication
 name_suffix: Authentication

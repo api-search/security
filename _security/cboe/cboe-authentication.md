@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: Authentication profile for the Cboe LiveVol All Access API. All API access is OAuth 2.0 against the Cboe LiveVol IdentityServer at id.livevol.com, which publishes a full OpenID Connect discovery document (saved at well-known/cboe-openid-configuration.json). Machine-to-machine access uses the client_credentials grant; browser-based applications use the authorization_code flow. Access tokens are bearer tokens sent in the Authorization header and expire after 3600 seconds; refresh tokens are supported. The public Cboe Delayed Quotes JSON endpoints on cdn.cboe.com require no authentication.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Cboe Authentication
 name_suffix: Authentication

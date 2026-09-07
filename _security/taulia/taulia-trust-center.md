@@ -1,4 +1,5 @@
 ---
+certification_count: 4
 certifications:
 - SSAE SOC 1 Type 2
 - PCI DSS (website scanning)

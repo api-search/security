@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: tsinghua-mirror-status-api-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: 'How access is established across Tsinghua University''s surfaces. There are only two regimes, and the split between them is the whole story of this profile: everything the university itself runs for its own staff and students sits behind one campus identity service, and the only unauthenticated machine-readable endpoints belong to the student-run TUNA open-source mirror. No developer portal, no API key issuance, no OAuth client registration and no self-service credentialing of any kind was found on a Tsinghua host.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Tsinghua Authentication
 name_suffix: Authentication

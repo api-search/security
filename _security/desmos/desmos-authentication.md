@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - query
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: The Desmos API authenticates with a single API key supplied as a URL query parameter on the calculator.js script include. There is no OAuth, no bearer token, and no server-side credential exchange — the key gates which calculator products load client-side. Production keys are issued at desmos.com/my-api; a public demo key ships in the documentation for development (see sandbox/desmos-sandbox.yml).
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Desmos Authentication
 name_suffix: Authentication

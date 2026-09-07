@@ -48,6 +48,7 @@ api_specs:
   slug: akuity-systemservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-systemservice-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2 Type II
 - ISO/IEC 27001:2022

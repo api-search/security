@@ -102,6 +102,7 @@ api_specs:
   slug: statsig-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-users-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: stitch-authentication-api-openapi.yml
@@ -13,11 +14,18 @@ api_specs:
   slug: stitch-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stitch/refs/heads/main/openapi/stitch-payments-api-openapi.yml
+- filename: stitch-money-graphql-api-openapi.yml
+  format: yaml
+  label: Stitch GraphQL API
+  slug: stitch-money-graphql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stitch/refs/heads/main/openapi/stitch-money-graphql-api-openapi.yml
 auth_types:
 - http
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Stitch Authentication
 name_suffix: Authentication

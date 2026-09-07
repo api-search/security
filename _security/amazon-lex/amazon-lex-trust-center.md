@@ -6,6 +6,7 @@ api_specs:
   slug: amazon-lex-bots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-bots-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

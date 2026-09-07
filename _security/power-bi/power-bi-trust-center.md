@@ -36,6 +36,7 @@ api_specs:
   slug: power-bi-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-reports-api-openapi.yml
+certification_count: 13
 certifications:
 - SOC 1
 - SOC 2

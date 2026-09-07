@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: upward-financial-accounts-api-openapi.yml
@@ -109,6 +110,7 @@ auth_types:
 description: The Upward (Upwardli) Credit Suite API uses OAuth 2.0 for machine-to-machine authentication. Partners obtain a Bearer access token from the dedicated Authorization service (client_credentials grant with client_id + client_secret and requested scopes), then pass it in the Authorization header of every API request. A second endpoint implements RFC 8693 OAuth token exchange to down-scope a partner token to a single consumer (consumer:<upward_consumer_id>), producing a limited token that is safe to ship to a client application or browser. The OpenAPI declares the resulting Bearer scheme (http bearer).
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Upward Financial Authentication
 name_suffix: Authentication

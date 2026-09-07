@@ -1,4 +1,5 @@
 ---
+certification_count: 2
 certifications:
 - ISO/IEC 27001:2022
 - HIPAA

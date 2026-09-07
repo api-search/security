@@ -390,6 +390,7 @@ api_specs:
   slug: amazon-ec2-auto-scaling-action-updateautoscalinggroup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-auto-scaling/refs/heads/main/openapi/amazon-ec2-auto-scaling-action-updateautoscalinggroup-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

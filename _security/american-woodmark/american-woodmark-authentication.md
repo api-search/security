@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for American Woodmark, read directly from the live OpenID Connect discovery document its identity provider serves anonymously at id.woodmark.com. There is no OpenAPI to derive securitySchemes from and no public developer documentation, so every field below is taken verbatim from the discovery document rather than from prose.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: American Woodmark Authentication
 name_suffix: Authentication

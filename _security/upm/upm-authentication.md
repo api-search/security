@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: upm-psasir-oai-pmh-openapi.yml
@@ -23,6 +24,7 @@ auth_types: []
 description: 'How authentication works across Universiti Putra Malaysia''s machine-readable surfaces. The picture is unusually clean for this cohort: the two harvesting surfaces are entirely open and the identity surface is the authentication system itself, published as SAML metadata rather than protected by it. There is no API key, no OAuth authorization server, no developer registration, and no self-service credential of any kind — because there is no developer programme. Everything an outside consumer can reach, they can reach anonymously.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Upm Authentication
 name_suffix: Authentication

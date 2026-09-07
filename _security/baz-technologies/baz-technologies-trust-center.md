@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - SOC 2
 description: 'Baz publicly states it is SOC 2 certified (footer: "© 2026 Baz Technologies, Inc. SOC 2 Certified") and links a trust portal at trust.baz.ai. Infrastructure runs on AWS with Kubernetes, managed via Terraform (infrastructure-as-code); development and production environments are isolated. Managed AI services (including OpenAI) are used as subprocessors.'

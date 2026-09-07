@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: arthur-online-applicant-api-openapi.yml
@@ -198,6 +199,7 @@ auth_types:
 description: 'Arthur API v2 uses a single security model: OAuth 2.0 Authorization Code with a bearer access token, plus a mandatory X-EntityID header naming the Arthur account the call is scoped to. There are no API keys, no scopes and no client-credentials flow. Credentials are not self-serve - a developer must be inside a paying Arthur account and ask Arthur support for API access before an OAuth application can be registered.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Arthur Online Authentication
 name_suffix: Authentication

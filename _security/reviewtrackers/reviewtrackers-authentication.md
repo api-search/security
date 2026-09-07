@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
 description: Authentication profile for the ReviewTrackers REST API, established by probing the live production host rather than from an OpenAPI document — ReviewTrackers publishes no machine-readable specification and its developer portal is credential-gated. Every protected resource answers an anonymous request with HTTP 401 and an HTTP Basic challenge; there is a dedicated /auth token-exchange endpoint that accepts a set of vendored JSON media types.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Reviewtrackers Authentication
 name_suffix: Authentication

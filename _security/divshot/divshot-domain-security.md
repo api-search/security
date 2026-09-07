@@ -47,6 +47,7 @@ hosts:
   ip: 145.14.152.116
   operated_by_provider: false
   resolves: true
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

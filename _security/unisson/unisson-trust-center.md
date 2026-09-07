@@ -270,6 +270,7 @@ api_specs:
   slug: unisson-widget-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-widget-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

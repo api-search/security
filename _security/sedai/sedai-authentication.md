@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - apiKey
 description: 'Sedai''s platform API is authenticated with a long-lived API token minted in the tenant console. There is no published OpenAPI, so this profile is read from Sedai''s own first-party SDK reference rather than derived from a securityScheme block. The token is a JWT with an exp claim — Sedai documents reading the expiry client-side by base64-decoding the payload — and it is scoped to one tenant: a key from one Sedai instance returns 401 against another.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Sedai Authentication
 name_suffix: Authentication

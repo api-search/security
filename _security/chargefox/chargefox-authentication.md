@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: chargefox-fleets-api-openapi.yml
@@ -13,6 +14,7 @@ auth_types:
 description: Chargefox runs two different authentication models across two API surfaces, and neither is self-service. The Fleets API uses an opaque HTTP bearer token issued by Chargefox to fleet customers on request. The OCPI CPO API uses OCPI's own Token authorization scheme, established through the OCPI credentials handshake after a commercial roaming agreement. There is no OAuth, no OpenID Connect, no API-key console and no signup — probes of /.well-known/oauth-authorization-server, /.well-known/oauth-protected-resource and /.well-known/openid-configuration all returned 404 on 2026-07-27.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Chargefox Authentication
 name_suffix: Authentication

@@ -108,6 +108,7 @@ api_specs:
   slug: propelauth-validation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-validation-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

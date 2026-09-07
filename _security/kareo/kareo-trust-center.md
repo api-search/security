@@ -36,6 +36,7 @@ api_specs:
   slug: kareo-providers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/openapi/kareo-providers-api-openapi.yml
+certification_count: 2
 certifications:
 - PCI DSS
 - HIPAA

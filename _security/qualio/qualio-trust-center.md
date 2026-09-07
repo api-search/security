@@ -66,6 +66,7 @@ api_specs:
   slug: qualio-user-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-user-management-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 9001
 - ISO 27001

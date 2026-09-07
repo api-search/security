@@ -95,6 +95,7 @@ hosts:
   https: true
   note: Public documentation host.
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

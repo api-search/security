@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -31,6 +32,7 @@ auth_types:
 description: 'Simple Analytics authenticates with a pair of custom headers, not a bearer token. There is no OAuth, no OIDC, no token exchange and no refresh — an Api-Key identifies the account and a User-Id identifies the principal, and Admin API calls need both. Two surfaces need no credential at all: public websites on the read APIs, and the server-side event collection endpoint.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Simpleanalytics Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - none
@@ -6,6 +7,7 @@ auth_types:
 description: 'Authentication / authorization model for the Farcaster / Snapchain developer surface. Derived from the Snapchain HTTP API reference and the Farcaster message protobuf (signature scheme, signer, key registry). There are no HTTP API keys, bearer tokens, or OAuth flows on the node HTTP API: reads are open and writes are authorized by cryptographic message signatures.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Merkle Manufactory Inc Authentication
 name_suffix: Authentication

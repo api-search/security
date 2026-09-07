@@ -36,6 +36,7 @@ api_specs:
   slug: amazon-panorama-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-tags-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

@@ -18,6 +18,7 @@ api_specs:
   slug: descript-export-from-descript-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/openapi/descript-export-from-descript-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

@@ -36,6 +36,7 @@ api_specs:
   slug: flinks-score-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-score-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - PCI DSS

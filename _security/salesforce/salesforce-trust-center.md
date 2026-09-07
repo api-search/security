@@ -912,6 +912,7 @@ api_specs:
   slug: salesforce-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-versions-api-openapi.yml
+certification_count: 15
 certifications:
 - SOC 1 (SSAE 18 / ISAE 3402)
 - SOC 2

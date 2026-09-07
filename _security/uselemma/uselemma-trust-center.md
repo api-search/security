@@ -24,6 +24,7 @@ api_specs:
   slug: uselemma-traces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/openapi/uselemma-traces-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

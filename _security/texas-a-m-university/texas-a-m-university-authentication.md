@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: texas-a-m-university-geoservices-geocoding-openapi.yml
@@ -29,6 +30,7 @@ auth_types: []
 description: 'How authentication works across the Texas A&M University surfaces this repository records. The estate splits three ways: a small set of open, unauthenticated campus and geospatial feeds; one key-gated but freely self-serve research API; and an enterprise tier at the Texas A&M University System that cannot be reached at all without a sponsored account.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Texas A M University Authentication
 name_suffix: Authentication

@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: Authentication profile for the Minimus programmatic surfaces. There is no documented public OAuth2/OIDC REST API; access is via a static bearer token used by minicli, plus an open (unauthenticated) MinimOS package repository.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Minimus Authentication
 name_suffix: Authentication

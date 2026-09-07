@@ -60,6 +60,7 @@ api_specs:
   slug: torii-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/torii/refs/heads/main/openapi/torii-workflows-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

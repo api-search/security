@@ -118,6 +118,7 @@ hosts:
   note: NUSMods, run by the NUSModifications student organisation behind Cloudflare. Not an NUS host and not on an NUS domain; listed because it is where NUS course data is publicly readable.
   tls_version: TLSv1.3
   x-operator: tenant
+hosts_probed: 11
 kind: domain-security
 layout: security
 method: probed

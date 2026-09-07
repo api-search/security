@@ -84,6 +84,7 @@ api_specs:
   slug: jane-app-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - PCI DSS

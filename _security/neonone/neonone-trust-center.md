@@ -72,6 +72,7 @@ api_specs:
   slug: neonone-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/openapi/neonone-webhooks-api-openapi.yml
+certification_count: 1
 certifications:
 - PCI DSS
 description: ''

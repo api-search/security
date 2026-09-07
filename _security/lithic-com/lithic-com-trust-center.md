@@ -186,6 +186,7 @@ api_specs:
   slug: lithic-com-transfer-limits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-transfer-limits-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

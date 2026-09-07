@@ -114,6 +114,7 @@ api_specs:
   slug: beazley-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-search-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO/IEC 27001
 - ISO/IEC 27701

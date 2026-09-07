@@ -1,5 +1,17 @@
 ---
 api_specs:
+- filename: cloud-foundry-capi-v3-openapi.yaml
+  format: yaml
+  label: Cloud Foundry Cloud Controller API v3
+  slug: capi-v3
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/openapi/cloud-foundry-capi-v3-openapi.yaml
+- filename: cloud-foundry-open-service-broker-api-openapi.yaml
+  format: yaml
+  label: Open Service Broker API
+  slug: open-service-broker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/openapi/cloud-foundry-open-service-broker-api-openapi.yaml
 - filename: cloud-foundry-apps-api-openapi.yml
   format: yaml
   label: Cloud Foundry Apps API
@@ -48,6 +60,12 @@ api_specs:
   slug: cloud-foundry-spaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/openapi/cloud-foundry-spaces-api-openapi.yml
+- filename: cloud-foundry-app-autoscaler-policy-api-openapi.yaml
+  format: yaml
+  label: Cloud Foundry App Autoscaler API
+  slug: app-autoscaler
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/openapi/cloud-foundry-app-autoscaler-policy-api-openapi.yaml
 description: ''
 domains:
 - caa: []
@@ -57,23 +75,24 @@ domains:
   domain: cloudfoundry.org
   spf: true
 hosts:
-- cert_expires: Sep 25 22:15:44 2026 GMT
+- cert_expires: Nov 23 21:46:40 2026 GMT
   host: www.cloudfoundry.org
   hsts: true
   hsts_max_age: 10886400
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 25 22:15:44 2026 GMT
+- cert_expires: Nov 23 21:46:40 2026 GMT
   host: v3-apidocs.cloudfoundry.org
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 25 22:15:44 2026 GMT
+- cert_expires: Nov 23 21:46:40 2026 GMT
   host: docs.cloudfoundry.org
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
@@ -86,7 +105,7 @@ slug: cloud-foundry-domain-security
 source_filename: cloud-foundry-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cloudfoundry.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 22:15:44 2026 GMT\n  hsts: true\n  hsts_max_age: 10886400\n- host: v3-apidocs.cloudfoundry.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 22:15:44 2026 GMT\n  hsts: false\n- host: docs.cloudfoundry.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 22:15:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: cloudfoundry.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cloudfoundry.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 21:46:40 2026 GMT\n  hsts: true\n  hsts_max_age: 10886400\n- host: v3-apidocs.cloudfoundry.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 21:46:40 2026 GMT\n  hsts: false\n- host: docs.cloudfoundry.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 21:46:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: cloudfoundry.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/security/cloud-foundry-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

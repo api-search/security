@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: umami-authentication-api-openapi.yml
@@ -48,6 +49,7 @@ auth_types:
 description: Umami has two distinct authentication paths that share one wire format. Both send a bearer credential in the Authorization header, but they are obtained differently, live on different hosts, and are not interchangeable.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Umami Authentication
 name_suffix: Authentication

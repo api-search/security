@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: Archive's public GraphQL API authenticates with a workspace-scoped bearer token generated in the Archive app under Settings -> API (compatible plans only). Every request also carries a WORKSPACE-ID header (workspace UUID) to scope the query to a workspace or agency. Separately, Archive's hosted MCP server uses OAuth 2.0 (authorization code + PKCE) with a single "mcp" scope. No scopes are documented for the direct GraphQL bearer token.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Archive Technologies Authentication
 name_suffix: Authentication

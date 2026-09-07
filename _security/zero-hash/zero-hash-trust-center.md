@@ -180,6 +180,7 @@ api_specs:
   slug: zero-hash-withdrawals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/openapi/zero-hash-withdrawals-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 1 Type 2
 - SOC 2 Type 1

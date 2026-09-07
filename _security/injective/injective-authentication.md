@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - none-public
@@ -6,6 +7,7 @@ auth_types:
 description: 'Injective''s public read APIs (Chain LCD/REST, Tendermint RPC, and the Indexer gRPC/gRPC-web/REST + Chain Stream WebSocket) are open, permissionless endpoints that require no API key or OAuth token — they are rate-limited public infrastructure. WRITE access is not key-based: state changes are performed by broadcasting cryptographically signed transactions. Signing uses either native Cosmos secp256k1 (bech32 inj1... accounts) or Ethereum EIP-712 typed-data signing (0x... keys), with optional AuthZ grant delegation for session-based auto-signing.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Injective Authentication
 name_suffix: Authentication

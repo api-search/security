@@ -12,6 +12,7 @@ api_specs:
   slug: amazon-lambda-functions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-lambda/refs/heads/main/openapi/amazon-lambda-functions-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

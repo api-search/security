@@ -24,6 +24,7 @@ api_specs:
   slug: harness-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harness/refs/heads/main/openapi/harness-projects-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

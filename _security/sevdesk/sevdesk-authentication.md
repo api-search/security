@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: sevdesk-checkaccount-api-openapi.yml
@@ -60,6 +61,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Sevdesk Authentication
 name_suffix: Authentication

@@ -48,6 +48,7 @@ api_specs:
   slug: cadasto-smart-on-openehr
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-smart-on-openehr-openapi.json
+certification_count: 3
 certifications:
 - ISO 9001
 - ISO/IEC 27001

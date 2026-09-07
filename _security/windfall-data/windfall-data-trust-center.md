@@ -6,6 +6,7 @@ api_specs:
   slug: windfall-data-windfall-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/windfall-data/refs/heads/main/openapi/windfall-data-windfall-api-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type 2
 description: ''

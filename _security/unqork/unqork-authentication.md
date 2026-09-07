@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: unqork-applications-api-openapi.yml
@@ -108,6 +109,7 @@ auth_types:
 description: The Unqork Customer API authenticates exclusively with OAuth 2.0 bearer tokens. Two grants are supported — client credentials (the default and recommended path) and the resource-owner password grant (off by default, enabled per environment). There are no API keys and no basic-auth path to the resources themselves; HTTP Basic is used only to present client credentials at the token endpoint. Authorization is RBAC, not scopes.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Unqork Authentication
 name_suffix: Authentication

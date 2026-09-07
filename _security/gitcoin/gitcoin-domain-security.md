@@ -55,6 +55,7 @@ hosts:
   https: false
 - host: grants-stack-indexer-v2.gitcoin.co
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

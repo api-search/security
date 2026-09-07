@@ -75,26 +75,28 @@ domains:
   domain: red5.net
   spf: true
 hosts:
-- cert_expires: Sep 17 23:45:17 2026 GMT
+- cert_expires: Nov 23 17:58:44 2026 GMT
   host: www.red5.net
-  hsts: false
+  hsts: true
+  hsts_max_age: 15552000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
 name: Red5 Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Red5, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Red5, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Red5
 provider_slug: red5
 slug: red5-domain-security
 source_filename: red5-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.red5.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 23:45:17 2026 GMT\n  hsts: false\ndomains:\n- domain: red5.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.red5.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 17:58:44 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: red5.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/security/red5-domain-security.yml
-summary_line: TLSv1.3 · DMARC
+summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Live Streaming
 - Media

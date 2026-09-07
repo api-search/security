@@ -30,6 +30,7 @@ api_specs:
   slug: amazon-codeguru-reviewer-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/openapi/amazon-codeguru-reviewer-tags-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

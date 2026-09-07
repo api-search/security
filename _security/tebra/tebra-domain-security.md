@@ -192,6 +192,7 @@ hosts:
   host: api.tebra.com
   https: null
   note: Host documented as the Clinical Data API base in Tebra's own Oct 2023 "General API Documentation" PDF and in this repo's openapi/ servers[], but fails to resolve on public DNS resolvers (system, 8.8.8.8, 1.1.1.1) as of 2026-08-14. See lifecycle/tebra-lifecycle.yml.
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

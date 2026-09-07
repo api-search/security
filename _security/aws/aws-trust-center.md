@@ -30,6 +30,7 @@ api_specs:
   slug: amazon-rds
   spec_type: OpenAPI
   url: https://api.apis.guru/v2/specs/amazonaws.com/rds/2014-10-31/openapi.yaml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

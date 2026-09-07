@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - query
 api_specs:
@@ -13,6 +14,7 @@ auth_types:
 description: SerpWow authenticates every request with a single `api_key` query-string parameter. There is no header-based alternative, no OAuth, no OIDC and no scope model — the key is the whole authorization surface, and it carries full account authority including the Batches and Destinations write operations.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Serpwow Authentication
 name_suffix: Authentication

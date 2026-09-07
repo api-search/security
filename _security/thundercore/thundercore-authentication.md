@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - none
@@ -6,6 +7,7 @@ auth_types:
 description: 'ThunderCore''s public API surface is unauthenticated. The JSON-RPC endpoints (mainnet and testnet, HTTP and WebSocket) and the BlockScout explorer API require no API key — access is controlled by rate limiting (10K/hr on the public mainnet endpoint) rather than credentials. Transaction submission is authorized cryptographically: transactions are signed with the sender''s ECDSA (secp256k1) private key per the Ethereum transaction model, with EIP-155 chain-id replay protection (chain ID 108 mainnet / 18 testnet). For hosted key management and social-login auth, the docs point to Particle Network''s MPC-based Auth Service as a partner offering.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Thundercore Authentication
 name_suffix: Authentication

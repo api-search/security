@@ -414,6 +414,7 @@ api_specs:
   slug: sweep-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/openapi/sweep-workflows-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

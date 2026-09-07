@@ -36,6 +36,12 @@ api_specs:
   slug: developerhub-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-versions-api-openapi.yml
+- filename: developerhub-changelog-api-openapi.yml
+  format: yaml
+  label: DeveloperHub Changelog API
+  slug: developerhub-changelog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-changelog-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,11 +56,12 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 17 11:21:20 2026 GMT
+- cert_expires: Oct 15 17:33:57 2026 GMT
   host: api.developerhub.io
   hsts: false
   https: true
-  tls_version: TLSv1.2
+  tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
@@ -67,7 +74,7 @@ slug: developerhub-domain-security
 source_filename: developerhub-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developerhub.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 18 23:59:59 2027 GMT\n  hsts: false\n- host: api.developerhub.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 17 11:21:20 2026 GMT\n  hsts: false\ndomains:\n- domain: developerhub.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developerhub.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 18 23:59:59 2027 GMT\n  hsts: false\n- host: api.developerhub.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 17:33:57 2026 GMT\n  hsts: false\ndomains:\n- domain: developerhub.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/security/developerhub-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
@@ -75,4 +82,8 @@ tags:
 - Developer Portals
 - Documentation
 - Knowledge Base
+- OpenAPI
+- Docs as Code
+- Model Context Protocol
+- Agent Skills
 ---

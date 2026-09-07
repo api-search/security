@@ -72,6 +72,7 @@ api_specs:
   slug: keygen-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-webhooks-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

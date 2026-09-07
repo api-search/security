@@ -1,4 +1,5 @@
 ---
+certification_count: 6
 certifications:
 - FedRAMP High
 - DoD / DoW Impact Level 5 (IL5) Provisional Authorization

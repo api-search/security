@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: Wix authentication profile captured from the developer docs (Wix publishes no OpenAPI, so this is docs-searched rather than spec-derived). Every Wix API call is authenticated as one of four identities (Wix user, app, site member, site visitor). Admin/server calls use an API key from the API Keys Manager in the Authorization header plus a wix-account-id (account-level) or wix-site-id (site-level) header. Wix apps use OAuth 2 client credentials (Create Access Token with app ID, app secret, and app instance ID) yielding Bearer access tokens; the redirect-based "custom authentication" flow is legacy and closed to new apps. Headless/site-member auth uses OAuthStrategy with a client ID for member and visitor tokens. Elevated permissions let backend code raise an identity's permissions for specific calls.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Wixcom Authentication
 name_suffix: Authentication

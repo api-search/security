@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: huntington-bancshares-accounts-api-openapi.yml
@@ -24,6 +25,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Huntington Bancshares Authentication
 name_suffix: Authentication

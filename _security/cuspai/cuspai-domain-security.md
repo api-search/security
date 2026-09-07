@@ -14,6 +14,7 @@ hosts:
   https: true
   note: redirects (301) to canonical https://www.cusp.ai/
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

@@ -30,6 +30,7 @@ hosts:
   tls_version: TLSv1.3
 - host: api.jaas.8x8.vc
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

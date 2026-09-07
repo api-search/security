@@ -24,6 +24,7 @@ api_specs:
   slug: paga-reference-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/openapi/paga-reference-api-openapi.yml
+certification_count: 3
 certifications:
 - PCI DSS
 - CBN licensed (Mobile Money Operator)

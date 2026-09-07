@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'SocialBee publishes exactly one machine-readable authentication surface: an RFC 8414 OAuth 2.0 Authorization Server Metadata document at socialbee.com/.well-known/oauth-authorization-server. It guards the MCP server at socialbee.com/wp-json/mcp/mcp-oauth-server. The SocialBee product API at app.socialbee.com is not public and publishes no authentication documentation.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Socialbee Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: medblocks-platform-openapi.json
@@ -20,6 +21,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Medblocks Authentication
 name_suffix: Authentication

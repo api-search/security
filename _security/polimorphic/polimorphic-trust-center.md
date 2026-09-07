@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: Polimorphic publishes a hosted Trust Center (Vanta-powered) exposing its live security posture, compliance certifications, policies, subprocessors, and gated documents for government customers.
 kind: trust-center

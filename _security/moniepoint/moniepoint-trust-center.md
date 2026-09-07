@@ -108,6 +108,7 @@ api_specs:
   slug: moniepoint-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-wallets-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

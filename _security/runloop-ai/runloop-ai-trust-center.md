@@ -144,6 +144,7 @@ api_specs:
   slug: runloop-ai-streaming-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-streaming-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - HIPAA

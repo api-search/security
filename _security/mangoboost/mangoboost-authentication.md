@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: MangoBoost has no hosted, credentialed API. Every surface is deployed inside the customer's own infrastructure, so authentication is a deployment concern rather than an API concern. The three credentials that do exist are for pulling assets (Hugging Face, container registry) and for activating the commercial license — not for calling the API. There is no API-key issuance, no OAuth, no OIDC, and no token endpoint anywhere on the MangoBoost surface.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Mangoboost Authentication
 name_suffix: Authentication

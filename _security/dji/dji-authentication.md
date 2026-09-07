@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - app-credentials
 description: DJI developer authentication is application-credential based rather than a documented OpenAPI securityScheme (DJI publishes no machine-readable OpenAPI). A developer registers an application in a DJI developer account to obtain an App Key, App Secret, and App License. SDKs (Mobile, Payload, Onboard, Edge, Windows) are activated at runtime with the App Key / App License bound to the application's bundle/package identifier. The Cloud API additionally uses these application credentials to establish device connectivity, with the reference implementation (DJI-Cloud-API-Demo) brokering device tokens over MQTT/HTTP.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Dji Authentication
 name_suffix: Authentication

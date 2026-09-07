@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http-bearer
@@ -8,6 +9,7 @@ auth_types:
 description: Authentication profile for the Qumulo Core REST API, captured from the public REST API Guide (no OpenAPI is published, so this is documentation-sourced, not derived from a spec). Every Qumulo cluster serves its own API; clients authenticate to the cluster to receive a bearer credential.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Qumulo Authentication
 name_suffix: Authentication

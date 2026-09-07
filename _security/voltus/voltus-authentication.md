@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -32,6 +33,7 @@ auth_types:
 description: Voltus authenticates the REST API with a single static API key in a custom header, and the OpenADR 2.0a VTN with mutual TLS. There is no OAuth, no OpenID Connect, no scopes and no self-serve key issuance - keys come from a Voltus account manager and are entitled to specific sites. A public sandbox key is published in the docs and works, anonymously, against sandbox.voltus.co only.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Voltus Authentication
 name_suffix: Authentication

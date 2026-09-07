@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: google-cloud-sql-backupruns-api-openapi.yml
@@ -30,6 +31,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Google Cloud Sql Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -91,6 +92,7 @@ auth_types:
 description: Auth profile for the Sendlane v2 API. Derived from the two securitySchemes in the published OpenAPI, then upgraded from the provider's own Authentication docs page with the token-issuance procedure and the required Accept header.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Sendlane Authentication
 name_suffix: Authentication

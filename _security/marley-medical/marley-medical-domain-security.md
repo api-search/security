@@ -20,6 +20,7 @@ hosts:
   https: false
   platform: netlify
   tls_note: patient portal; TLS handshake failure from probe clients
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

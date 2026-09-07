@@ -138,6 +138,7 @@ hosts:
   tls_version: TLSv1.3
 - host: public.vt.totalexpert.net
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

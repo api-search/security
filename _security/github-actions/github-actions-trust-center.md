@@ -66,6 +66,7 @@ api_specs:
   slug: github-actions-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/openapi/github-actions-workflows-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 1 Type 2
 - SOC 2 Type 2

@@ -1,4 +1,5 @@
 ---
+certification_count: 4
 certifications:
 - ISO/IEC 27001
 - PCI DSS

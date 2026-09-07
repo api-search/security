@@ -18,6 +18,7 @@ api_specs:
   slug: chunkr-ai-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-tasks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

@@ -36,6 +36,7 @@ api_specs:
   slug: diligent-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/openapi/diligent-webhooks-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

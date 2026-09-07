@@ -50,6 +50,7 @@ hosts:
   http_status: 302
   https: true
   tls_issuer: Let's Encrypt (YE2)
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

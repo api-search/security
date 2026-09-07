@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: postmark-activate-api-openapi.yml
@@ -185,6 +186,7 @@ auth_types: []
 description: Postmark authenticates every REST request with a static API token sent in a custom HTTP header. There is no OAuth 2.0, no OIDC, no mTLS and no scoped credential of any kind — a token grants everything at its level. Derived automatically from the OpenAPI first, but every spec in openapi/ declares an EMPTY components.securitySchemes, so the whole profile below is authored from Postmark's own authentication documentation.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Postmark Authentication
 name_suffix: Authentication

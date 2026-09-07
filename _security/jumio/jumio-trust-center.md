@@ -6,6 +6,7 @@ api_specs:
   slug: callback
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/jumio/refs/heads/main/asyncapi/jumio-callback-asyncapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

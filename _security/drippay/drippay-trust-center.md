@@ -138,6 +138,7 @@ api_specs:
   slug: drippay-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/drippay/refs/heads/main/openapi/drippay-workflows-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

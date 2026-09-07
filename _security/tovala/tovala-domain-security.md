@@ -26,6 +26,7 @@ hosts:
   https: true
   note: private mobile-app API host (no public developer program); root returns a friendly redirect message to tovala.com
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

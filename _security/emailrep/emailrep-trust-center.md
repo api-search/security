@@ -12,6 +12,7 @@ api_specs:
   slug: emailrep-reputation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/openapi/emailrep-reputation-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

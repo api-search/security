@@ -30,6 +30,7 @@ api_specs:
   slug: leena-ai-knowledge-articles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/openapi/leena-ai-knowledge-articles-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2 Type 2
 - SOC 1

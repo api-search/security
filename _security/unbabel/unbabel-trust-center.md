@@ -36,6 +36,7 @@ api_specs:
   slug: unbabel-word-count-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-word-count-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

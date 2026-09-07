@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: Landbase operates a public trust center at trust.landbase.com, hosted on Vanta. It returned HTTP 200 with a real page (canonical https://trust.landbase.com, <title>Landbase Trust Center</title>, Vanta build 9de42673d566d80a3bb761a085c15754242c3e29, prod environment) on 2026-08-23. The trust center is NOT linked from the landbase.com navigation, footer, pricing page or documentation — it was found by probing the conventional trust.<domain> host, which means most visitors and every automated crawler will miss it.
 kind: trust-center

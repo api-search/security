@@ -114,6 +114,7 @@ api_specs:
   slug: lever-co-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lever-co/refs/heads/main/openapi/lever-co-webhooks-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

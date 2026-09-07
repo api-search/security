@@ -6,6 +6,7 @@ api_specs:
   slug: test-driven-development-repos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/test-driven-development/refs/heads/main/openapi/test-driven-development-repos-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - FedRAMP

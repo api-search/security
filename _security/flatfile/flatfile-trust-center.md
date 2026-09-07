@@ -192,6 +192,7 @@ api_specs:
   slug: flatfile-subpackage-workbooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-workbooks-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

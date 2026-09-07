@@ -6,6 +6,7 @@ api_specs:
   slug: amazon-vpn-aws-vpn-api-amazon-ec2-query-api-subset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/openapi/amazon-vpn-aws-vpn-api-amazon-ec2-query-api-subset-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

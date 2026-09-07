@@ -30,6 +30,7 @@ api_specs:
   slug: halo-connect-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-tokens-api-openapi.yml
+certification_count: 2
 certifications:
 - CyberCert SMB1001-2023 Level 3 (Gold)
 - ISO 27001 (policies/procedures align to principles; not stated as certified)

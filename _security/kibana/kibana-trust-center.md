@@ -360,6 +360,7 @@ api_specs:
   slug: kibana-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-workflows-api-openapi.yml
+certification_count: 1
 certifications:
 - GDPR
 description: ''

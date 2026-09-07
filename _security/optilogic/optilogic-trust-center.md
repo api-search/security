@@ -66,6 +66,7 @@ api_specs:
   slug: optilogic-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optilogic/refs/heads/main/openapi/optilogic-workspace-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - CMMC Level 1

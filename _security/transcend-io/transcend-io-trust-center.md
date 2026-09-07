@@ -48,6 +48,7 @@ api_specs:
   slug: transcend-io-transcend-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/transcend-io/refs/heads/main/openapi/transcend-io-transcend-api-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

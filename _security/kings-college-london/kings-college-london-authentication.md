@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - http
@@ -8,6 +9,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 4
 method: probed
 name: Kings College London Authentication
 name_suffix: Authentication

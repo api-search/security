@@ -252,6 +252,7 @@ api_specs:
   slug: liveramp-view-segments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/openapi/liveramp-view-segments-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

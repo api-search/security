@@ -21,6 +21,7 @@ hosts:
   https: false
   note: apex host serves an expired certificate; www.liftopia.com is the canonical reachable host
   tls_cert_error: 'certificate verify failed: certificate has expired'
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

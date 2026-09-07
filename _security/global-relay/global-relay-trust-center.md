@@ -30,6 +30,7 @@ api_specs:
   slug: global-relay-voice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/openapi/global-relay-voice-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

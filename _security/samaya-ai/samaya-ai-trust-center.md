@@ -18,6 +18,7 @@ api_specs:
   slug: samaya-ai-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/openapi/samaya-ai-users-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -61,6 +62,7 @@ auth_types:
 description: Vitally's REST API authenticates with HTTP Basic authentication using a Vitally REST API key as the username and an empty password. Keys are created and managed in the Vitally UI under Settings -> Integrations -> Vitally REST API, where each key has an editable name, a copyable secret token, a copyable Basic Auth header, and per-key regenerate / revoke controls. Multiple keys can coexist for different integrations or environments. The Vitally MCP server authenticates separately with OAuth (see mcp/vitally-mcp.yml).
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Vitally Authentication
 name_suffix: Authentication

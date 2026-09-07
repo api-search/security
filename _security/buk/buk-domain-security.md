@@ -450,6 +450,7 @@ hosts:
   hsts: false
   https: true
   note: Biometric clocking ingestion host declared in the AttendanceBiometrics OpenAPI servers[]
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

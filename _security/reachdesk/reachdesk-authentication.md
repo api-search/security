@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -56,6 +57,7 @@ auth_types:
 description: Reachdesk runs two independent authentication models on the same host. The REST API at https://app.reachdesk.com/api/v2 uses a long-lived organization API token presented as a bearer credential in the Authorization header. The remote MCP server at https://app.reachdesk.com/mcp uses OAuth 2.1 with dynamic client registration and PKCE. They do not share credentials.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Reachdesk Authentication
 name_suffix: Authentication

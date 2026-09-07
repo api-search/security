@@ -36,6 +36,7 @@ api_specs:
   slug: certifaction-teamspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/openapi/certifaction-teamspace-api-openapi.yml
+certification_count: 7
 certifications:
 - ISO/IEC 27001:2022
 - eIDAS

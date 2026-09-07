@@ -1,4 +1,5 @@
 ---
+certification_count: 5
 certifications:
 - FedRAMP Moderate Equivalency
 - FedRAMP Ready (fedramp.gov Marketplace)

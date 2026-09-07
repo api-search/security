@@ -42,6 +42,7 @@ api_specs:
   slug: autoleadstar-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/openapi/autoleadstar-tasks-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO/IEC 27001
 - ISO/IEC 42001

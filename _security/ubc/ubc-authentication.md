@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: ubc-access-api-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: 'How authentication actually works across UBC''s institution-operated programmable surfaces. UBC has no single developer identity: each surface authenticates on its own terms, and the enterprise gateway is not self-service at all.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Ubc Authentication
 name_suffix: Authentication

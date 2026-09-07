@@ -162,6 +162,7 @@ api_specs:
   slug: dosespot-transparency-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-transparency-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 2
 - HIPAA

@@ -54,6 +54,7 @@ api_specs:
   slug: archera-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-well-known-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

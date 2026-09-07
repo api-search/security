@@ -28,6 +28,7 @@ hosts:
   tls_version: TLSv1.3
 - host: api-v2.flipsidecrypto.xyz
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

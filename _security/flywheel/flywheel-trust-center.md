@@ -1,4 +1,5 @@
 ---
+certification_count: 6
 certifications:
 - HIPAA
 - SOC 2

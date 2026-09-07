@@ -18,6 +18,7 @@ api_specs:
   slug: cache
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/openapi/_original/blacksmith-sh-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

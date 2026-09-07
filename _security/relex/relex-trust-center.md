@@ -42,6 +42,7 @@ api_specs:
   slug: relex-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-transactions-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO/IEC 27001:2013
 - SOC 2 (ISAE 3000)

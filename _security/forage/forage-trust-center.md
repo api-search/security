@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: Forage operates a public Trust Center (trust.joinforage.app) linked from the website Security section. The Trust Center is a client-rendered portal; specific certification names were not machine-readable from the page. The Forage website states a PCI-compliant fraud layer protects transactions.
 kind: trust-center

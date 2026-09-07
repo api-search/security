@@ -25,6 +25,7 @@ hosts:
   https: unknown
   resolves: false
   resolves_reason: nxdomain
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

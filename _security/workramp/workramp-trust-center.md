@@ -174,6 +174,7 @@ api_specs:
   slug: workramp-webhook-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/openapi/workramp-webhook-subscriptions-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2 Type 2
 - ISO/IEC 27001:2022

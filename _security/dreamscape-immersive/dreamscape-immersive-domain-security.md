@@ -32,6 +32,7 @@ hosts:
   https: true
   note: development AWS API Gateway backend named by REACT_APP_API_DOMAIN in the shipped bundle
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

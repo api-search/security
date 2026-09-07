@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: cruz-foam-posts-api-openapi.yml
@@ -77,6 +78,7 @@ auth_types: []
 description: Cruz Foam publishes no developer program and issues no API credentials. The WordPress REST content API behind cruzfoam.com is anonymously readable — no key, token, signature or account is required to read posts, pages, the customer showcase, media, taxonomies, search or the discovery metadata. The server declares exactly one authentication method in its own root document, WordPress application passwords, and that method gates only the write and privileged-read operations that are not part of the public surface.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Cruz Foam Authentication
 name_suffix: Authentication

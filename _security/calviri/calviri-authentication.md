@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Calviri publishes no product API and therefore no API-key, OAuth or OIDC program. The only callable surface on its host is the Wix-provisioned site MCP endpoint, and that endpoint is ANONYMOUS: an unauthenticated POST of `initialize` and of `tools/list` both returned 200 on 2026-08-09 with no credential of any kind. Write-side calls are gated only by a visitor access token that the server itself mints anonymously via the GenerateVisitorToken tool — there is no authorization server, no client registration and no scope surface. Derived from the live probe, not from a spec: there is no OpenAPI to read securitySchemes from.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Calviri Authentication
 name_suffix: Authentication

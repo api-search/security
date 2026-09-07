@@ -1,4 +1,5 @@
 ---
+certification_count: 8
 certifications:
 - ISO/IEC 42001
 - SOC 2 Type II

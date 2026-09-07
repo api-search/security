@@ -402,6 +402,7 @@ api_specs:
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-verifytrust-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-directory-service/refs/heads/main/openapi/amazon-directory-service-x-amz-target-directoryservice-20150416-verifytrust-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

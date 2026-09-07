@@ -78,6 +78,7 @@ api_specs:
   slug: ease-testimonials-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-testimonials-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2 Type II
 - HITRUST

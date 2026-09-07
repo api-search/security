@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - application-config
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: Revenue.io has no single API gateway and therefore no single authentication model. There are three distinct, documented or probed authentication surfaces, and they do not share credentials. This profile was assembled from the Revenue.io Knowledge Center and from live probes of the MCP discovery documents - there is no OpenAPI in this repo to derive securitySchemes from.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Ringdna Authentication
 name_suffix: Authentication

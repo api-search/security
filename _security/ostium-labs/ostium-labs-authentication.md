@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: ostium-labs-prices-asyncapi.yml
@@ -14,6 +15,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Ostium Labs Authentication
 name_suffix: Authentication

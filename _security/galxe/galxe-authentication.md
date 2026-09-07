@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: Galxe exposes two distinct authentication surfaces. (1) The Integration / Server GraphQL API authenticates with a dashboard-issued API access token sent in the custom `access-token` request header. (2) "Sign in with Galxe" is a standard OAuth 2.0 authorization-code (with PKCE) identity flow that lets an app read a Galxe ID user's connected accounts and wallet addresses.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Galxe Authentication
 name_suffix: Authentication

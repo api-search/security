@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: 'Cerebelly publishes no OpenAPI, so this profile is built from the OpenID Connect and OAuth metadata documents its own host serves, plus the observed behaviour of each live endpoint. Three distinct authentication postures coexist on the domain: the commerce agent surfaces are anonymous, the customer-account surface is a full OIDC authorization-code flow with PKCE, and payment authorization is delegated entirely to buyer-approved payment handlers.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Cerebelly Authentication
 name_suffix: Authentication

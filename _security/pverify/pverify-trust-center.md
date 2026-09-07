@@ -78,6 +78,7 @@ api_specs:
   slug: pverify-snf-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-snf-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - HIPAA

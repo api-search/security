@@ -54,6 +54,7 @@ api_specs:
   slug: taxjar-validations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-validations-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

@@ -36,6 +36,7 @@ api_specs:
   slug: sharepoint-user-profiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-user-profiles-api-openapi.yml
+certification_count: 15
 certifications:
 - SOC 1 Type 2
 - SOC 2 Type 2

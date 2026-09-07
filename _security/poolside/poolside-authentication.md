@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: poolside's OpenAI-compatible inference API authenticates with a bearer API key. Keys are issued by the hosted Poolside Platform (free developer access), OpenRouter, or a self-managed Poolside deployment administrator. There is no OAuth scope surface on the inference API; access is key-based.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Poolside Authentication
 name_suffix: Authentication

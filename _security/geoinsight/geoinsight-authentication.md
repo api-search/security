@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: geoinsight-collection-id-api-openapi.yml
@@ -59,6 +60,7 @@ auth_types: []
 description: 'GeoInsight''s published OpenAPI declares NO components.securitySchemes and NO top-level security requirement, so the machine-readable contract says nothing about authentication. The credential model is documented only in the README of the first-party PyPI package: a GeoInsight Personal Token (GPT) and an API Private Key (APK), obtained by creating an account on the dashboard, then set with api.set_access_token(_gpt=''GPT'', _apk=''APK''). The package depends on auth0-python, which indicates the token issuance path runs through Auth0. Neither the wire format (header name, scheme, encoding) nor the token lifetime is published anywhere machine- or human-readable that could be found.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Geoinsight Authentication
 name_suffix: Authentication

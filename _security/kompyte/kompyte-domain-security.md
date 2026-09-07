@@ -32,6 +32,7 @@ hosts:
   https: true
   note: 'Customer application. The SPA is served from Google Cloud Storage (server: UploadServer) with no HSTS on the static object responses; the API backend behind the same Google Cloud load balancer (x-powered-by: Express) DOES send strict-transport-security: max-age=31536000; includeSubDomains.'
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

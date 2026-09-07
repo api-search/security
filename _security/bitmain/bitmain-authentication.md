@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - body
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: Bitmain's public developer surface is the Antpool mining-pool API. It uses a signed API-key model rather than OAuth. Each operator is issued an API "Key" and "Secret"; every private request must include the user id, the API key, an incrementing integer nonce, and a signature. The signature is an HMAC-SHA256 hex digest (uppercased) of the message `userId + apiKey + nonce` computed with the operator's API secret. There is no OAuth authorization server, no scopes, and no OpenID Connect.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Bitmain Authentication
 name_suffix: Authentication

@@ -42,6 +42,7 @@ api_specs:
   slug: propeller-aero-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-workspaces-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

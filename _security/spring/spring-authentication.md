@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: spring-beans-api-openapi.yml
@@ -79,11 +80,30 @@ api_specs:
   slug: spring-routes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-routes-api-openapi.yml
+- filename: spring-framework-generation-api-openapi.yml
+  format: yaml
+  label: Spring Framework Generation API
+  slug: spring-framework-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-framework-generation-api-openapi.yml
+- filename: spring-framework-management-api-openapi.yml
+  format: yaml
+  label: Spring Framework Management API
+  slug: spring-framework-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-framework-management-api-openapi.yml
+- filename: spring-framework-metadata-api-openapi.yml
+  format: yaml
+  label: Spring Framework Metadata API
+  slug: spring-framework-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-framework-metadata-api-openapi.yml
 auth_types:
 - http
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Spring Authentication
 name_suffix: Authentication

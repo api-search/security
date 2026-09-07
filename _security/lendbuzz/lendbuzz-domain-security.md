@@ -23,6 +23,7 @@ hosts:
 - host: api.lendbuzz.com
   https: false
   note: DNS resolves (44.237.92.21, 35.162.221.233) but TCP 443 and 80 both time out from the public internet — not a publicly reachable API host
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: johnson-and-johnson-devices-api-openapi.yml
@@ -24,6 +25,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Johnson And Johnson Authentication
 name_suffix: Authentication

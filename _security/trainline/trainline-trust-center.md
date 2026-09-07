@@ -1,4 +1,5 @@
 ---
+certification_count: 3
 certifications:
 - PCI DSS Level 1
 - ISO/IEC 27001

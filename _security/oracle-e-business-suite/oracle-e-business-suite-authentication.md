@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - cookie
 api_specs:
@@ -140,6 +141,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Oracle E Business Suite Authentication
 name_suffix: Authentication

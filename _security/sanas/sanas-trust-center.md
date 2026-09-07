@@ -6,6 +6,7 @@ api_specs:
   slug: sanas-stream-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/sanas/refs/heads/main/asyncapi/sanas-stream-asyncapi.yml
+certification_count: 6
 certifications:
 - SOC 2 Type II
 - ISO 27001:2022

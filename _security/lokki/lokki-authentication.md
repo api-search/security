@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -589,6 +590,7 @@ auth_types:
 description: 'Lokki authenticates with a single long-lived API key (an "Access Token") in a request header. There is no OAuth, no OIDC, no token endpoint, and no self-serve key issuance: keys are handed out by a Lokki representative as part of a partnership agreement, separately for staging and production, and are scoped at three levels.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Lokki Authentication
 name_suffix: Authentication

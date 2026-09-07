@@ -6,6 +6,7 @@ api_specs:
   slug: moveworks-servicenow-records-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moveworks-servicenow/refs/heads/main/openapi/moveworks-servicenow-records-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2 Type 2
 - ISO 27001

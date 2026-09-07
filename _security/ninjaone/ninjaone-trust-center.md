@@ -132,6 +132,7 @@ api_specs:
   slug: ninjaone-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-webhooks-api-openapi.yml
+certification_count: 3
 certifications:
 - HIPAA
 - FedRAMP

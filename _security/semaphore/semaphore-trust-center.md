@@ -66,6 +66,7 @@ api_specs:
   slug: semaphore-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/openapi/semaphore-workflows-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: university-of-birmingham-constructions-api-openapi.yml
@@ -14,6 +15,7 @@ auth_types:
 description: Authentication posture across the surfaces the University of Birmingham actually operates. The University publishes no API key programme, no OAuth authorization server, no developer registration and no self-serve credential of any kind. Machine access to its own surfaces is either entirely unauthenticated (OAI-PMH harvesting, EPrints REST reads, the English Constructicon API, GitLab public project listings) or federated through the institution's own SAML identity provider, which is not obtainable by an unaffiliated caller.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: University Of Birmingham Authentication
 name_suffix: Authentication

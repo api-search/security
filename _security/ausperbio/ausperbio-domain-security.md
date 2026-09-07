@@ -20,6 +20,7 @@ hosts:
   note: Backend CMS host read from window.SITE_CONFIG['apiURL'] in the ausperbio.com single-page app. Private content-management backend, not a published developer API. No HSTS header and TLS negotiates only 1.2, where the public www host reaches 1.3.
   server: nginx/1.24.0
   tls_version: TLSv1.2
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

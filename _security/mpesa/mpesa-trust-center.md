@@ -66,6 +66,7 @@ api_specs:
   slug: mpesa-transaction-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-transaction-status-api-openapi.yml
+certification_count: 4
 certifications:
 - PCI DSS v4
 - ISO/IEC 27001

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -357,6 +358,7 @@ auth_types:
 description: 'The Things Stack supports three caller identities — API keys, OAuth 2.0 access tokens, and browser session cookies — plus two link credentials used by infrastructure rather than by people. All of them resolve to the same authorization model: a list of Rights (see scopes/the-things-network-scopes.yml) checked per RPC. The harvested OpenAPI declares only ApiKeyAuth because the gRPC-gateway generator does not emit the OAuth flows; this file is the searched superset.'
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: The Things Network Authentication
 name_suffix: Authentication

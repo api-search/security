@@ -390,6 +390,7 @@ api_specs:
   slug: syntage-webhook-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/openapi/syntage-webhook-requests-api-openapi.yml
+certification_count: 1
 certifications:
 - ISO/IEC 27001:2022
 description: ''

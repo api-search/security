@@ -36,6 +36,7 @@ api_specs:
   slug: trimble-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-users-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

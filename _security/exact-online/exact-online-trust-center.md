@@ -36,6 +36,7 @@ api_specs:
   slug: exact-online-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/openapi/exact-online-system-api-openapi.yml
+certification_count: 1
 certifications:
 - GDPR
 description: ''

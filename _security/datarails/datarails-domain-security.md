@@ -89,6 +89,7 @@ hosts:
   https: true
   note: Third-party hosted; returns 403 to non-browser user agents.
   role: Help center (Zendesk-hosted)
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

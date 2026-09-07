@@ -258,6 +258,7 @@ api_specs:
   slug: specterops-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/openapi/specterops-tasks-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: 'Authentication profile for the Wrogn (USPL / Universal Sportsbiz) Shopify storefront, captured from live discovery documents on wrogn.com. There is no separate developer program: the machine surface is the Shopify-native storefront (product JSON, storefront MCP, UCP), with customer identity via Shopify Customer Accounts OIDC published on the store''s own host.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Uspl Wrogn Authentication
 name_suffix: Authentication

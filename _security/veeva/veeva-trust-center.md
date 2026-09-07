@@ -36,6 +36,7 @@ api_specs:
   slug: veeva-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-workflows-api-openapi.yml
+certification_count: 5
 certifications:
 - ISO/IEC 27001
 - ISO/IEC 27017

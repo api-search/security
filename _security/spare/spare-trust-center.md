@@ -102,6 +102,7 @@ api_specs:
   slug: spare-transaction-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-transaction-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

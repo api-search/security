@@ -29,6 +29,7 @@ hosts:
   hsts_note: 'Re-probed 2026-08-31. The automated pass recorded hsts null because GET https://api.reefapi.com/ returns 404 (the API is POST-only, path-scoped); the 404 response nevertheless carries ''strict-transport-security: max-age=15552000; includeSubDomains'', as does a POST to a real operation. HSTS is served.'
   https: true
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

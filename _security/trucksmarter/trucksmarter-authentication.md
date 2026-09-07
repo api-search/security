@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: trucksmarter-loads-api-openapi.yml
@@ -12,6 +13,7 @@ auth_types:
 description: Authentication profile for the TruckSmarter Load Posting API (partner API). The published documentation states that all endpoints require an API key passed via the Authorization header as a Bearer token. API keys are issued to partners; no self-serve key provisioning, OAuth, or OpenID Connect surface is published.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Trucksmarter Authentication
 name_suffix: Authentication

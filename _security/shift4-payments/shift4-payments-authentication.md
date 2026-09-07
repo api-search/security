@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: shift4-payments-blacklist-api-openapi.yml
@@ -114,6 +115,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Shift4 Payments Authentication
 name_suffix: Authentication

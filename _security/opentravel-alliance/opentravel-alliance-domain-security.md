@@ -80,6 +80,7 @@ hosts:
   https: false
   note: 'Not a real host. Six of the eight published documents declare host 127.0.0.1 and two declare example.com, and every one declares `schemes: [http]`. Implementers must supply their own host and serve over HTTPS; the artifact does not say so.'
   role: placeholder host declared by the published Swagger 2.0 contracts
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

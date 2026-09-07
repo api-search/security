@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: Hodinkee publishes no API keys, no developer registration and no API auth documentation of its own. The auth profile below is read from the live OAuth / OpenID metadata the commerce host serves, plus direct anonymous probes of the two MCP endpoints on 2026-08-22.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Hodinkee Authentication
 name_suffix: Authentication

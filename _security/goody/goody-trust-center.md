@@ -72,6 +72,7 @@ api_specs:
   slug: goody-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-workspaces-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

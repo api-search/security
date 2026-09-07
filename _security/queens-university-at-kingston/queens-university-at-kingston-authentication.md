@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - saml2
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Queens University At Kingston Authentication
 name_suffix: Authentication

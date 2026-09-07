@@ -27,6 +27,7 @@ hosts:
   https: true
   note: Serves a distinct GoDaddy-issued certificate (CN=docpeset.veratech.es) with a COMPLETE chain, unlike the wildcard hosts. This is the control that proves the finding below is a per-host misconfiguration and not a fault in the probing client.
   tls_cert_error: null
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

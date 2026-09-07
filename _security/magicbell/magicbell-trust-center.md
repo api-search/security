@@ -24,6 +24,7 @@ api_specs:
   slug: magicbell-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/magicbell/refs/heads/main/openapi/magicbell-user-api-openapi.yml
+certification_count: 1
 certifications:
 - GDPR
 description: ''

@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: Authentication profile for the IM8 Health storefront's buyer-scoped APIs, derived from the store's Shopify Customer Account OpenID Connect / OAuth 2.0 discovery documents. Read-only catalog browsing (product/collection JSON, search) requires no authentication; account- and purchase-scoped operations use OAuth 2.0 Authorization Code with PKCE.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Im8 Authentication
 name_suffix: Authentication

@@ -60,6 +60,7 @@ api_specs:
   slug: amazon-simpledb-action-select-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/openapi/amazon-simpledb-action-select-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

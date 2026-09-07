@@ -114,6 +114,7 @@ api_specs:
   slug: flume-health-workersizes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-workersizes-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - HITRUST CSF

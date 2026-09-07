@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -61,6 +62,7 @@ auth_types:
 description: 'Super Payments authenticates server-side requests with a static secret API key passed raw in the Authorization header (no Bearer prefix). Two key types exist: secret keys (sk_prod_ / sk_test_) for server-side use, and public keys (PUB_) safe for client-side/front-end use. There is no OAuth2/OIDC. Webhooks are authenticated separately via an HMAC-SHA256 super-signature header. All calls must be over HTTPS.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Super Payments Authentication
 name_suffix: Authentication

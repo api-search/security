@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -11,6 +12,7 @@ description: 'DERIVED FROM DOCS, NOT FROM A SPEC — Grid publishes no OpenAPI, 
   There is no API key programme. No article in Grid''s knowledge base documents issuing, rotating, scoping or revoking an API credential for a REST API, because there is no public REST API.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Grid Authentication
 name_suffix: Authentication

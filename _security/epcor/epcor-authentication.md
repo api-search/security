@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: epcor-boundaries-api-openapi.yml
@@ -49,6 +50,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Epcor Authentication
 name_suffix: Authentication

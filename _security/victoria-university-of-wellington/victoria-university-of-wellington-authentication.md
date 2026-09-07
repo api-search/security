@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: victoria-university-of-wellington-website-globalobject-openapi.yml
@@ -23,6 +24,7 @@ auth_types: []
 description: Authentication posture across Te Herenga Waka—Victoria University of Wellington's programmable surfaces. The institution issues no API keys and operates no developer portal, so there is nothing to register for. Every surface is either fully open or gated behind institutional identity — there is no middle tier.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: derived
 name: Victoria University Of Wellington Authentication
 name_suffix: Authentication

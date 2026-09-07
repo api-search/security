@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: elisa-categories-api-openapi.yml
@@ -41,6 +42,7 @@ auth_types: []
 description: Authentication profile for the ELISA API surface at https://elisa.tech/wp-json/. Established by reading the authentication block the WordPress REST root advertises about itself and by making live unauthenticated calls against the published operations.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Elisa Authentication
 name_suffix: Authentication

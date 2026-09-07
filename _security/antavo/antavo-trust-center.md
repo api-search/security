@@ -174,6 +174,7 @@ api_specs:
   slug: antavo-wallet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/openapi/antavo-wallet-api-openapi.yml
+certification_count: 4
 certifications:
 - ISO 27001
 - ISO 27017

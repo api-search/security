@@ -6,6 +6,7 @@ api_specs:
   slug: amazon-location-service-maps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-location-service/refs/heads/main/openapi/amazon-location-service-maps-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

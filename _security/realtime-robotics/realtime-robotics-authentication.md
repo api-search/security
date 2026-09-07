@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Realtime Robotics publishes no OpenAPI, so this profile is assembled from the documentation for each of its three surfaces plus a live probe of the identity service and the application API gateway. The picture is sharply split: the cloud application is behind a real OpenID Connect provider, while the two on-premise controller APIs document no authentication at all and rely on plant-network isolation.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Realtime Robotics Authentication
 name_suffix: Authentication

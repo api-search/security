@@ -21,6 +21,7 @@ hosts:
   https: true
   note: GraphQL API host (Cloudflare); observed via HTTP HEAD
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: cj-affiliate.postman_collection.json
@@ -54,6 +55,7 @@ auth_types:
 description: 'One credential covers CJ''s entire platform: a long-lived Personal Access Token sent as an HTTP Bearer credential. The same token authenticates all three GraphQL endpoints, all the classic REST APIs and both click-tracking APIs. There is no OAuth 2.0, no OpenID Connect, no scopes, no refresh and no token endpoint a client may call — /.well-known/openid-configuration and /.well-known/oauth-authorization-server return 404 on every CJ host including iam.cj.com, the internal PAT service the developer portal itself calls.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Cj Affiliate Authentication
 name_suffix: Authentication

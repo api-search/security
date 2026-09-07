@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: FreeWill's security & compliance posture, captured from the published security page at freewill.com/legal/security, which links to the trust portal at trust.freewill.com. FreeWill states it completed an AICPA Service Organization Control (SOC 2 Type II) audit, conducted by Sensiba LLP, with a 2025 report available upon request via the trust portal. The automated trust-center probe did not record this because trust.freewill.com is a JavaScript-rendered portal and the security page did not meet the probe's keyword threshold — this is the searched, human-verified fill.

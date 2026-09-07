@@ -65,6 +65,7 @@ hosts:
   https: true
   operator: third-party (PostHog)
   role: product-analytics reverse proxy; CNAME d4f93c1a51f965c39c9e.cf-prod-us-proxy.proxyhog.com
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

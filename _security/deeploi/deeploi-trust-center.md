@@ -1,4 +1,5 @@
 ---
+certification_count: 2
 certifications:
 - GDPR
 - ISO 27001 (ISMS aligned)

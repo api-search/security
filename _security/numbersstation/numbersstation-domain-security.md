@@ -15,6 +15,7 @@ hosts:
   https: false
   tls_error: ERR_SSL_VERSION_OR_CIPHER_MISMATCH
   tls_version: null
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

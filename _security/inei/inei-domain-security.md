@@ -9,6 +9,7 @@ domains:
 hosts:
 - host: iinei.inei.gob.pe
   https: false
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

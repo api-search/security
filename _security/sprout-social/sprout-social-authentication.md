@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -8,6 +9,7 @@ auth_types:
 description: 'The Sprout Social Public API accepts two credential types on the same Authorization bearer header: a long-lived account-scoped API token generated in the Sprout web app, and a JWT access token issued by Sprout''s Okta-hosted OAuth 2.0 authorization server. There is no OpenAPI document to derive from — this profile was read from the provider''s own documentation and from the live RFC 8414 authorization server metadata saved in well-known/.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Sprout Social Authentication
 name_suffix: Authentication

@@ -390,6 +390,7 @@ api_specs:
   slug: linkedin-user-streaming-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/openapi/linkedin-user-streaming-api-openapi.yml
+certification_count: 5
 certifications:
 - ISO 22301
 - ISO 27001

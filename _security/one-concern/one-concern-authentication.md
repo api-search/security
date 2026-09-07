@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: one-concern-location-api-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: 'The Domino AI API uses key-based authentication with a customer-issued token carried in a vendor-specific request header. There is no OAuth 2.0, no OpenID Connect, no mTLS and no self-service credential issuance: tokens are obtained by contacting One Concern customer success. A second header, client-id, is required on every call and is used for billing attribution rather than authentication. IMPORTANT PROVENANCE NOTE: the published OpenAPI (openapi/one-concern-domino-ai-openapi.json, Domino AI API v1.31.2) declares NO components.securitySchemes and NO security requirement on any operation, so the derive-from-spec path yields nothing. Everything below is read from the provider''s own documentation prose and confirmed against a live unauthenticated request.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: One Concern Authentication
 name_suffix: Authentication

@@ -6,6 +6,7 @@ api_specs:
   slug: portx-orca-open-reusable-core-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/modusbox/refs/heads/main/openapi/modusbox-orca-contract-notice.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

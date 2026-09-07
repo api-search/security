@@ -22,6 +22,7 @@ hosts:
   https: true
   note: HSTS was read from the Strict-Transport-Security header on the live HTTP 401 returned by GET https://api.isnetworld.com/token on 2026-08-23; the automated probe recorded null because the host answers no unauthenticated 200.
   tls_version: TLSv1.2
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

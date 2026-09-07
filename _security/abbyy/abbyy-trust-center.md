@@ -12,6 +12,7 @@ api_specs:
   slug: abbyy-vantage-reporting
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/openapi/abbyy-vantage-reporting-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

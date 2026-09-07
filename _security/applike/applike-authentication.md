@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: applike-app-partner-connection-api-openapi.yml
@@ -47,6 +48,7 @@ auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Applike Authentication
 name_suffix: Authentication

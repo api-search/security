@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Cardiosense publishes no developer API and no authentication documentation. The authentication profile below is not derived from an OpenAPI securitySchemes block — there is no OpenAPI — it is read directly from the two OAuth discovery documents the host serves anonymously, plus the authentication block of the public WordPress REST route index.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Cardiosense Authentication
 name_suffix: Authentication

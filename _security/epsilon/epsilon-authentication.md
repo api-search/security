@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -52,6 +53,7 @@ auth_types:
 description: 'Epsilon Retail Media uses three overlapping credential models across one platform. The default is an HTTP Basic API key issued per team (retailer) and per environment (sandbox vs production), retrieved from the platform UI under Integration Settings. The /ads endpoints additionally accept OAuth 2.0 client-credentials bearer tokens minted at /v1/oauth2/token. The Filter Mapping and Cross-Sell Category APIs declare a JWT bearer token in the Authorization header. There is no self-service credential issuance: the team ID, API key, and OAuth client_id/client_secret are all provisioned by an Epsilon Technical Account Manager.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Epsilon Authentication
 name_suffix: Authentication

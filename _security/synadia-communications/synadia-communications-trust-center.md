@@ -12,6 +12,7 @@ api_specs:
   slug: synadia-communications-http-gateway
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/openapi/synadia-communications-http-gateway-openapi.json
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

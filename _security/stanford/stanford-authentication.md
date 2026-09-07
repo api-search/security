@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: stanford-about-api-openapi.yml
@@ -101,6 +102,7 @@ auth_types: []
 description: 'How access is established across Stanford''s institution-operated API surfaces. Stanford runs four distinct authentication regimes rather than one developer-portal key: an open/anonymous tier for library discovery data, a bearer-token tier for the Stanford Digital Repository backends, an x509 client-certificate tier for the MaIS Registry, and campus SSO (Shibboleth SAML 2.0 / OIDC) for everything a human logs into. No public self-service key issuance exists for any of them; every credentialed surface is requested through a Stanford support workflow.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: derived
 name: Stanford Authentication
 name_suffix: Authentication

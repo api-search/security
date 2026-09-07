@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - query
 api_specs:
@@ -25,6 +26,7 @@ auth_types:
 description: Best Buy uses a single unscoped API key passed as a QUERY-STRING parameter (apiKey=) on every request. There is no OAuth, no OIDC, no bearer token, no signing, no key rotation endpoint and no scope model — one key grants everything the tier allows. The Commerce API uses a second, separately-issued key ("CAPI key") obtained by contacting Best Buy directly.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Best Buy Authentication
 name_suffix: Authentication

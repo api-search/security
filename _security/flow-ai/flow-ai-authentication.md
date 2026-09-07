@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - provider-api-key
@@ -6,6 +7,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Flow Ai Authentication
 name_suffix: Authentication

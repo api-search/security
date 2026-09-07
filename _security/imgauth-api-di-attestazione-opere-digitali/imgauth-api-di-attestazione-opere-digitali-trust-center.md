@@ -84,6 +84,7 @@ api_specs:
   slug: imgauth-api-di-attestazione-opere-digitali-verify-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/openapi/imgauth-api-di-attestazione-opere-digitali-verify-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

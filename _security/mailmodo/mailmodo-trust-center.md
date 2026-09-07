@@ -90,6 +90,7 @@ api_specs:
   slug: mailmodo-triggercampaign-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-triggercampaign-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 2
 - GDPR

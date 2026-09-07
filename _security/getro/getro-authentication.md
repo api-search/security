@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
 description: The Getro Network API (v2) authenticates every request with a static API key presented as an HTTP Bearer token. API keys are generated in the Getro admin portal (getro.com/app, now hosted at getro.findem.ai) and a developer key can be requested from help@getro.com. There is no OAuth, no OpenID Connect, and no per-scope authorization surface — a single account-scoped key grants access to that account's networks, companies, jobs and contacts. Browser (CORS) requests are explicitly not supported; the key must be used server-side.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Getro Authentication
 name_suffix: Authentication

@@ -120,6 +120,7 @@ api_specs:
   slug: verato-unmergeidentities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/openapi/verato-unmergeidentities-api-openapi.yml
+certification_count: 4
 certifications:
 - HITRUST r2
 - SOC 2 Type II

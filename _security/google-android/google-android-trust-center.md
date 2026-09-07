@@ -48,6 +48,7 @@ api_specs:
   slug: google-android-webapps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-webapps-api-openapi.yml
+certification_count: 11
 certifications:
 - SOC 2
 - SOC 3

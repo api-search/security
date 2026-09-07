@@ -54,6 +54,7 @@ api_specs:
   slug: planning-center-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-webhooks-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - PCI DSS

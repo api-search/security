@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Crawl4AI authenticates with bearer API keys on both hosted surfaces and with a server-minted JWT on the self-hosted Docker server. There is no OAuth on any API: the only OAuth in the product is GitHub/Google sign-in for the human dashboard, which issues no API token to third parties. No published OpenAPI declares these schemes — every field below is read from the provider''s own docs.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Crawl4Ai Authentication
 name_suffix: Authentication

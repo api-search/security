@@ -24,6 +24,7 @@ api_specs:
   slug: ozow-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ozow/refs/heads/main/openapi/ozow-transactions-api-openapi.yml
+certification_count: 2
 certifications:
 - PCI DSS Level 1
 - ISO/IEC 27001

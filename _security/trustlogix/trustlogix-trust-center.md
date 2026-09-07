@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - SOC 2
 description: TrustLogix publishes its security posture on the Security Pledge page, which references SOC 2. No dedicated trust.trustlogix subdomain or bug-bounty program was found.

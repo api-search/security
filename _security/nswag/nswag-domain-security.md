@@ -35,6 +35,7 @@ hosts:
 - host: github.com
   note: Platform host. NSwag's documentation (wiki), source, releases and issue tracker are all served by GitHub; GitHub's own TLS/HSTS/DNS posture is GitHub's, not NSwag's, and is deliberately not credited or debited here.
   probed: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

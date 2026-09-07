@@ -6,6 +6,7 @@ api_specs:
   slug: upstox-developer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-developer-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO/IEC 27001:2022
 - ISO/IEC 27701:2019

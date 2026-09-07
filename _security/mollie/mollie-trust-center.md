@@ -6,6 +6,7 @@ api_specs:
   slug: mollie-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/openapi/mollie-openapi-original.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 2
 - PCI-DSS Level 1

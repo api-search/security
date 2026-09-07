@@ -30,6 +30,7 @@ api_specs:
   slug: amazon-eventbridge-targets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/openapi/amazon-eventbridge-targets-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

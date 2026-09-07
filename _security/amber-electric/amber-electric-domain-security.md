@@ -63,6 +63,7 @@ hosts:
   probed: '2026-07-27'
   role: Consumer Data Right token/registration host (accredited recipients only)
   tls_version: TLSv1.3
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

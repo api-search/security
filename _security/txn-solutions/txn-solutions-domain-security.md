@@ -18,6 +18,7 @@ hosts:
   tls_self_signed: true
 - dns_a: 8.218.163.58
   host: www.txn.com
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

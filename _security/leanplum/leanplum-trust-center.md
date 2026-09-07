@@ -84,6 +84,7 @@ api_specs:
   slug: leanplum-user-information-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-user-information-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2 Type II
 - ISO 27001

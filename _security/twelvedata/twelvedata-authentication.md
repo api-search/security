@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - query
 - header
@@ -98,6 +99,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Twelvedata Authentication
 name_suffix: Authentication

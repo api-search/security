@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: zettle-accounts-api-openapi.yml
@@ -18,6 +19,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Zettle Authentication
 name_suffix: Authentication

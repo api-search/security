@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -196,6 +197,7 @@ auth_types:
 description: MISO runs three different authentication postures across one profile, and the spread is the point. Most of its surface has no authentication at all — 37 Public API endpoints and the entire bulk market-report archive answer an anonymous GET. The keyed half uses a single Azure API Management subscription key, free and self-serve, with no OAuth, no OpenID Connect, no bearer tokens and no scopes anywhere. The market-participant interface at the far end is mutual-TLS with a client digital certificate. There is no OAuth surface to describe, so no scopes/ artifact exists for this provider — the correct outcome for a key-auth API, not a gap.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Miso Authentication
 name_suffix: Authentication

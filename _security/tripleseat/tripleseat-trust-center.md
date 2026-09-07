@@ -42,6 +42,7 @@ api_specs:
   slug: tripleseat-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-users-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

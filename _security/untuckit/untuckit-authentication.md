@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: Authentication profile for the UNTUCKit storefront's agent and customer surfaces, taken verbatim from the store's live RFC 8414 authorization-server metadata and OIDC discovery documents (saved under well-known/). Customer identity is Shopify Customer Accounts (issuer https://shopify.com/authentication/1291072) fronted at account.untuckit.com.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Untuckit Authentication
 name_suffix: Authentication

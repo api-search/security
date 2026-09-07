@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
@@ -6,6 +7,7 @@ auth_types:
 description: 'DerbySoft Property Connector Integration API authentication. Access is granted with a Bearer token obtained via the OAuth 2.0 client-credentials pattern: the integrator obtains a Client ID (account_id) and Client Secret from DerbySoft (pms.service@derbysoft.net), Base64-encodes "client_id:client_secret" as HTTP Basic (RFC 7617) on the token endpoint, and receives an access token used as a Bearer token on all subsequent API calls. TLS 1.2+ over HTTPS is required.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Derbysoft Authentication
 name_suffix: Authentication

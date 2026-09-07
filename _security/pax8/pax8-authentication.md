@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: pax8-access-token-api-openapi.yml
@@ -163,6 +164,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Pax8 Authentication
 name_suffix: Authentication

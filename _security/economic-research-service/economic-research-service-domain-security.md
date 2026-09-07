@@ -2,10 +2,10 @@
 description: ''
 domains:
 - caa:
-  - 0 issue "digicert.com"
   - 0 iodef "mailto:icam_as_notify@ocio.usda.gov"
   - 0 issue "globalsign.com"
   - 0 issue "letsencrypt.org"
+  - 0 issue "digicert.com"
   dmarc: true
   dmarc_policy: reject
   dnssec: true
@@ -18,11 +18,12 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.2
-- cert_expires: Oct  3 23:20:40 2026 GMT
+- cert_expires: Dec  2 23:20:51 2026 GMT
   host: api.ers.usda.gov
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
@@ -35,7 +36,7 @@ slug: economic-research-service-domain-security
 source_filename: economic-research-service-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ers.usda.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 22 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.ers.usda.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 23:20:40 2026 GMT\n  hsts: null\ndomains:\n- domain: usda.gov\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 iodef \"mailto:icam_as_notify@ocio.usda.gov\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ers.usda.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 22 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.ers.usda.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 23:20:51 2026 GMT\n  hsts: null\ndomains:\n- domain: usda.gov\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:icam_as_notify@ocio.usda.gov\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/economic-research-service/refs/heads/main/security/economic-research-service-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
@@ -43,4 +44,7 @@ tags:
 - Economics
 - Federal-Government
 - Research
+- Open-Data
+- Geospatial
+- Statistics
 ---

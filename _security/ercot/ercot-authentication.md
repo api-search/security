@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -232,6 +233,7 @@ auth_types:
 description: 'Every ERCOT Public Data API call carries TWO credentials, not one: an Azure API Management subscription key AND an Azure AD B2C ID token. The OpenAPI declares only the subscription-key half (apiKeyHeader / apiKeyQuery); the bearer half is documented only in the developer portal, so this profile is upgraded from the spec-derived baseline with the documented token flow. Registration is free and self-serve at the ERCOT API Explorer (email verification, then subscribe to a product to mint a subscription key). The market-participant SOAP estate (EWS, MarkeTrak, Retail API) uses a completely different model — ERCOT-issued digital certificates plus WS-Security — and is not reachable with these credentials.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Ercot Authentication
 name_suffix: Authentication

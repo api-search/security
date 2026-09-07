@@ -132,6 +132,7 @@ api_specs:
   slug: tago-io-widgets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-widgets-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - PCI DSS

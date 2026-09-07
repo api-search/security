@@ -120,6 +120,7 @@ api_specs:
   slug: truv-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

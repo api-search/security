@@ -8,12 +8,13 @@ domains:
   domain: cloudeagle.ai
   spf: true
 hosts:
-- cert_expires: Aug 31 20:55:03 2026 GMT
+- cert_expires: Oct 29 21:41:24 2026 GMT
   host: www.cloudeagle.ai
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -26,7 +27,7 @@ slug: cloudeagle-domain-security
 source_filename: cloudeagle-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cloudeagle.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 20:55:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: cloudeagle.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cloudeagle.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 21:41:24 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: cloudeagle.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudeagle/refs/heads/main/security/cloudeagle-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

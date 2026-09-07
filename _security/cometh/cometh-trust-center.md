@@ -1,4 +1,5 @@
 ---
+certification_count: 3
 certifications:
 - ISO/IEC 27001:2022
 - MiCA / CASP licence, AMF No. A2025-008 (granted December 2025)

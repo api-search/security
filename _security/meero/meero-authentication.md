@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: meero-asynchronous-api-openapi.yml
@@ -32,6 +33,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Meero Authentication
 name_suffix: Authentication

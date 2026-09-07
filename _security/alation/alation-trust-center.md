@@ -72,6 +72,7 @@ api_specs:
   slug: alation-tables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-tables-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

@@ -6,6 +6,7 @@ api_specs:
   slug: trazo-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/qentaz/refs/heads/main/asyncapi/qentaz-webhooks-asyncapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

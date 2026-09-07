@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: hummingbot-chain-ethereum-api-openapi.yml
@@ -104,6 +105,7 @@ auth_types:
 description: 'Hummingbot''s two server components authenticate differently, and neither uses OAuth or issued API tokens: the Hummingbot API uses HTTP Basic auth, while Gateway protects wallet keys with a startup passphrase and TLS.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Hummingbot Authentication
 name_suffix: Authentication

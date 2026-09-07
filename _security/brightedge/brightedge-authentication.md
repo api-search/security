@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - cookie
 - header
@@ -184,6 +185,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 7
 method: searched
 name: Brightedge Authentication
 name_suffix: Authentication

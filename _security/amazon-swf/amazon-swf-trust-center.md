@@ -222,6 +222,7 @@ api_specs:
   slug: amazon-swf-x-amz-target-simpleworkflowservice-untagresource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/openapi/amazon-swf-x-amz-target-simpleworkflowservice-untagresource-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

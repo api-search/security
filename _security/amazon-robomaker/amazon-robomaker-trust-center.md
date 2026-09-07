@@ -330,6 +330,7 @@ api_specs:
   slug: amazon-robomaker-updateworldtemplate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-updateworldtemplate-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

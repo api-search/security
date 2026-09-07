@@ -72,6 +72,7 @@ api_specs:
   slug: upwind-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-workflows-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type 2
 - ISO/IEC 27001:2022

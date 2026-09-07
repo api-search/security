@@ -156,6 +156,7 @@ api_specs:
   slug: workspan-view-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-view-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

@@ -6,6 +6,7 @@ api_specs:
   slug: benchsci-api
   spec_type: OpenAPI
   url: https://api.benchsci.com/openapi.json
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

@@ -8,11 +8,12 @@ domains:
   domain: dillards.com
   spf: true
 hosts:
-- cert_expires: Sep 29 23:59:59 2026 GMT
+- cert_expires: Feb 15 23:59:59 2027 GMT
   host: www.dillards.com
   hsts: false
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -25,7 +26,7 @@ slug: dillards-domain-security
 source_filename: dillards-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dillards.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: dillards.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dillards.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 15 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: dillards.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dillards/refs/heads/main/security/dillards-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

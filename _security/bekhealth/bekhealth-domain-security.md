@@ -27,6 +27,7 @@ hosts:
   https: true
   note: CloudFront-fronted documentation portal; every path 302s to the Auth0 issuer.
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

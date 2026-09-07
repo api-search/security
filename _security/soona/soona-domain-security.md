@@ -49,6 +49,7 @@ hosts:
   host: api.mokker.ai
   https: null
   resolves: false
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

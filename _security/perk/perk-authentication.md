@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Perk supports two authentication styles. Customers accessing their own data use an account-admin API key. Partners building integrations on behalf of customers use OAuth 2.0 Authorization Code. The MCP server uses OAuth 2.0 Authorization Code with PKCE and Dynamic Client Registration.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Perk Authentication
 name_suffix: Authentication

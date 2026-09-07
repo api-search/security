@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Clearbit authenticates with a single long-lived Secret API key scoped to the account, presented either as HTTP Basic (key as the username, empty password) or as an RFC 6750 Bearer token. There is no OAuth 2.0 authorization server, no OIDC discovery document, no scopes and no per-endpoint permission model — every key carries the full entitlement of its account''s plan. Key issuance is now closed: Clearbit''s own help centre states API keys are available only for accounts created in 2023 and earlier, so the authentication surface is live but unobtainable for new integrators.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Clearbit Authentication
 name_suffix: Authentication

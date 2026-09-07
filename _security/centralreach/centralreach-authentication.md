@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: 'The CentralReach Enhanced API requires two credentials on every request: an organization-scoped API key sent in the x-api-key header, and an OAuth 2.0 Bearer access token obtained via the client-credentials grant against the CentralReach identity provider. Credentials (client_id, client_secret, and the CR API key) are issued by the CentralReach Implementation Team; the API is not self-serve. Access tokens are RS256 JWTs with a one-hour lifetime carrying iss, exp, sub, and orgid claims.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Centralreach Authentication
 name_suffix: Authentication

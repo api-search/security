@@ -21,6 +21,7 @@ hosts:
   https: true
   note: 'Login-gated provider portal for test ordering and results delivery. Served by CrelioHealth (Creliant Software Pvt. Ltd.) — response carries `server: Crelio` and the page is a white-labeled CrelioHealth LIS, not a first-party Circular Genomics application.'
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

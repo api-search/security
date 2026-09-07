@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -10,6 +11,7 @@ auth_types:
 description: 'Kiota has no API of its own to authenticate against, so this profile covers the two authentication surfaces it genuinely publishes. (1) The CLI''s own sign-in to private API description repositories — `kiota login github device` (GitHub device code) or a personal access token. (2) The authentication model Kiota builds INTO the clients it generates: a required authentication provider on the request adapter, a set of built-in providers, and an allowed-hosts validator that keeps a token from being attached to an off-allowlist host. The second is the more consequential one — it is the auth posture every Kiota-generated SDK in the world inherits.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Kiota Authentication
 name_suffix: Authentication

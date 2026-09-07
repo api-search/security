@@ -75,6 +75,7 @@ hosts:
   hsts_note: 'PATH-DEPENDENT, corrected after the automated probe. The probe reads the host ROOT, which returns 200 with NO strict-transport-security header, so it recorded hsts:false. A follow-up probe on 2026-08-25 of the actual API paths (GET /api/v3/timestamp and /api/v3/markets) DID return `strict-transport-security: max-age=63072000; includeSubDomains`. HSTS is therefore enforced on the API surface but absent on the bare host, which is a real (minor) gap: a first contact with https://max-api.maicoin.com/ is not pinned.'
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

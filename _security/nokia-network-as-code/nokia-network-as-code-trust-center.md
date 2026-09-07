@@ -186,6 +186,7 @@ api_specs:
   slug: nokia-network-as-code-well-known-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/openapi/nokia-network-as-code-well-known-metadata-api-openapi.yml
+certification_count: 1
 certifications:
 - ISO/IEC 27001:2022
 description: ''

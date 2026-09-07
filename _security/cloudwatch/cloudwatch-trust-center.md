@@ -36,6 +36,7 @@ api_specs:
   slug: cloudwatch-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/openapi/cloudwatch-metrics-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

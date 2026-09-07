@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: imperative-execution-iqx-asyncapi.yml
@@ -14,6 +15,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Imperative Execution Authentication
 name_suffix: Authentication

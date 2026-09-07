@@ -30,6 +30,7 @@ api_specs:
   slug: advanced-excel-worksheets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/advanced-excel/refs/heads/main/openapi/advanced-excel-worksheets-api-openapi.yml
+certification_count: 1
 certifications:
 - GDPR
 description: ''

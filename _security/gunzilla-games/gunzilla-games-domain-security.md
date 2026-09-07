@@ -64,6 +64,7 @@ hosts:
   https: true
   note: HTTP 403 - Cloudflare bot challenge
   tls_version: TLSv1.3
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: blueshift-adapters-api-openapi.yml
@@ -133,6 +134,7 @@ auth_types:
 description: Blueshift runs two entirely separate authentication regimes. The REST API uses HTTP Basic with an API key as the username and an EMPTY password — no bearer tokens, no OAuth — and splits its surface across two key classes with different blast radii. The MCP server, by contrast, is a full OAuth 2.0 authorization-code deployment with PKCE, dynamic client registration and scoped access. An integrator reading only the API reference would not know the OAuth surface exists; it is documented in the help centre, not the developer portal.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Blueshift Authentication
 name_suffix: Authentication

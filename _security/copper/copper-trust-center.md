@@ -42,6 +42,7 @@ api_specs:
   slug: copper-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-webhooks-api-openapi.yml
+certification_count: 3
 certifications:
 - HIPAA
 - FedRAMP

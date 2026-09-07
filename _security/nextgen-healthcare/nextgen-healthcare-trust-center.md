@@ -168,6 +168,7 @@ api_specs:
   slug: nextgen-healthcare-specimen-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-specimen-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2 Type II
 - HITRUST CSF

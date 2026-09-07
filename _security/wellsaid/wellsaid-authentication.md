@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -26,11 +27,18 @@ api_specs:
   slug: wellsaid-voices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-voices-api-openapi.yml
+- filename: wellsaid-labs-voice-avatars-api-openapi.yml
+  format: yaml
+  label: WellSaid Labs Voice Avatars API
+  slug: wellsaid-labs-voice-avatars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-labs-voice-avatars-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Wellsaid Authentication
 name_suffix: Authentication

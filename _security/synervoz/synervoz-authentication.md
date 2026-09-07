@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - sdk-initialization
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Synervoz Authentication
 name_suffix: Authentication

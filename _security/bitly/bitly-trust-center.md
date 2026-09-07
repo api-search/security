@@ -60,6 +60,7 @@ api_specs:
   slug: bitly-apps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-apps-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type 2
 - GDPR

@@ -43,6 +43,7 @@ hosts:
   http_status: 404
   https: true
   note: Private product API named as the OAuth audience. Serves a valid certificate but 404s anonymously and sends no HSTS header. Hand-probed 2026-07-25.
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

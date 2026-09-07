@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: the-san-francisco-compute-company-account-api-openapi.yml
@@ -90,6 +91,7 @@ auth_types:
 description: 'SF Compute''s public preview API authenticates with a Bearer token. Create an API token with `sf tokens create --name <name>` (or in the dashboard at https://sfcompute.com/account/api-keys); the token is shown once and starts with `sk_live_`. Tokens begin with no permissions - grant access per resource with `sf grants create --token <name> --role <role> --workspace <workspace>` (see Roles and Grants). For scripts, set the SF_BEARER_TOKEN or SF_API_KEY environment variable. Send the token as `Authorization: Bearer sk_live_...`.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: The San Francisco Compute Company Authentication
 name_suffix: Authentication

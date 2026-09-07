@@ -594,6 +594,7 @@ api_specs:
   slug: delinea-workflowtemplates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/delinea/refs/heads/main/openapi/delinea-workflowtemplates-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

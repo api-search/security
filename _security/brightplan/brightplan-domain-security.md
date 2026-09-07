@@ -34,6 +34,7 @@ hosts:
   https: true
   note: application host my.brightplan.com/login redirects to
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

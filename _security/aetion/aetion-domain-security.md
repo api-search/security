@@ -15,6 +15,7 @@ hosts:
   https: true
   note: 'aetion.com and www.aetion.com both answer HTTP 301 (HubSpot-managed redirects behind Cloudflare) and send strict-transport-security: max-age=31536000 on the redirect response. The apex 301s to https://www.datavant.com/ following the Datavant acquisition, so no Aetion-origin content is served from this host.'
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

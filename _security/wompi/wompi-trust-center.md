@@ -36,6 +36,7 @@ api_specs:
   slug: wompi-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/openapi/wompi-transactions-api-openapi.yml
+certification_count: 2
 certifications:
 - PCI DSS
 - Grupo Bancolombia security & risk controls

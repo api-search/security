@@ -66,6 +66,7 @@ api_specs:
   slug: instapage-team-members-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/openapi/instapage-team-members-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

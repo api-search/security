@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: wso2-advanced-policy-collection-api-openapi.yml
@@ -546,6 +547,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Wso2 Authentication
 name_suffix: Authentication

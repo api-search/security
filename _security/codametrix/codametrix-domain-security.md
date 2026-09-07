@@ -62,6 +62,7 @@ hosts:
   hsts_max_age: 31536000
   https: true
   platform: Vanta Trust Center
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

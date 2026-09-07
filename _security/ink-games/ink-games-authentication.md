@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for the INK Games API surface. INK Games publishes no developer authentication documentation of any kind — there is no developer portal, no API key issuance flow, and no OAuth or OIDC discovery document on any host (see well-known/ink-games-well-known.yml). Everything below is derived from the GraphQL schema retrieved by anonymous introspection and from the responses the live hosts actually returned.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Ink Games Authentication
 name_suffix: Authentication

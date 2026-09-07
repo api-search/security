@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for the PLaMo API, read from the provider's quickstart, console manual and API reference. There is no published OpenAPI to derive securitySchemes from, so every field below comes from the documentation text and from an unauthenticated probe of the API host.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Preferred Networks Authentication
 name_suffix: Authentication

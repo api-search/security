@@ -78,6 +78,7 @@ api_specs:
   slug: amazon-healthlake-x-amz-target-healthlake-untagresource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/openapi/amazon-healthlake-x-amz-target-healthlake-untagresource-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

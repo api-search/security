@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - token
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: derived
 name: Glife Authentication
 name_suffix: Authentication

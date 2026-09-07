@@ -42,6 +42,7 @@ api_specs:
   slug: topograph-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-workspaces-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001:2022
 - SOC 2 Type 2

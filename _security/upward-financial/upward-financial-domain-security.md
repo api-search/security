@@ -143,6 +143,7 @@ hosts:
 - host: auth.upwardli.com
   https: null
   note: connection timeout - not publicly reachable
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

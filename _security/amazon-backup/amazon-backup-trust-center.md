@@ -24,6 +24,7 @@ api_specs:
   slug: amazon-backup-restore-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-backup/refs/heads/main/openapi/amazon-backup-restore-jobs-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in:
 - header
 api_specs:
@@ -99,6 +100,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Hm Land Registry Authentication
 name_suffix: Authentication

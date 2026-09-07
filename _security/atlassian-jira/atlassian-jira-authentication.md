@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: atlassian-jira-fields-api-openapi.yml
@@ -49,12 +50,31 @@ api_specs:
   slug: atlassian-jira-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/openapi/atlassian-jira-users-api-openapi.yml
+- filename: atlassian-jira-platform-openapi.json
+  format: json
+  label: Atlassian Jira Cloud Platform REST API v3
+  slug: atlassian-jira-cloud-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/openapi/atlassian-jira-platform-openapi.json
+- filename: atlassian-jira-software-openapi.json
+  format: json
+  label: Jira Software Cloud API
+  slug: atlassian-jira-software-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/openapi/atlassian-jira-software-openapi.json
+- filename: atlassian-jira-service-management-openapi.json
+  format: json
+  label: Jira Service Management REST API
+  slug: atlassian-jira-service-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/openapi/atlassian-jira-service-management-openapi.json
 auth_types:
 - http
 - oauth2
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Atlassian Jira Authentication
 name_suffix: Authentication
@@ -69,7 +89,17 @@ schemes:
   name: basicAuth
   scheme: basic
   sources:
-  - openapi/atlassian-jira-openapi.yml
+  - openapi/atlassian-jira-fields-api-openapi.yml
+  - openapi/atlassian-jira-issue-comments-api-openapi.yml
+  - openapi/atlassian-jira-issue-search-api-openapi.yml
+  - openapi/atlassian-jira-issue-transitions-api-openapi.yml
+  - openapi/atlassian-jira-issue-worklogs-api-openapi.yml
+  - openapi/atlassian-jira-issues-api-openapi.yml
+  - openapi/atlassian-jira-platform-openapi.json
+  - openapi/atlassian-jira-projects-api-openapi.yml
+  - openapi/atlassian-jira-service-management-openapi.json
+  - openapi/atlassian-jira-software-openapi.json
+  - openapi/atlassian-jira-users-api-openapi.yml
   type: http
 - description: Atlassian OAuth 2.0 (3LO) for Jira Cloud.
   flows:
@@ -79,13 +109,25 @@ schemes:
     tokenUrl: https://auth.atlassian.com/oauth/token
   name: OAuth2
   sources:
-  - openapi/atlassian-jira-openapi.yml
+  - openapi/atlassian-jira-fields-api-openapi.yml
+  - openapi/atlassian-jira-issue-comments-api-openapi.yml
+  - openapi/atlassian-jira-issue-search-api-openapi.yml
+  - openapi/atlassian-jira-issue-transitions-api-openapi.yml
+  - openapi/atlassian-jira-issue-worklogs-api-openapi.yml
+  - openapi/atlassian-jira-issues-api-openapi.yml
+  - openapi/atlassian-jira-platform-openapi.json
+  - openapi/atlassian-jira-projects-api-openapi.yml
+  - openapi/atlassian-jira-service-management-openapi.json
+  - openapi/atlassian-jira-software-openapi.json
+  - openapi/atlassian-jira-users-api-openapi.yml
   type: oauth2
 slug: atlassian-jira-authentication
 source_filename: atlassian-jira-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/atlassian-jira-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Email + API token via HTTP Basic auth.\n  sources:\n  - openapi/atlassian-jira-openapi.yml\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.atlassian.com/authorize\n    tokenUrl: https://auth.atlassian.com/oauth/token\n    scopes: 4\n  description: Atlassian OAuth 2.0 (3LO) for Jira Cloud.\n  sources:\n  - openapi/atlassian-jira-openapi.yml\n"
+source_yaml: "generated: '2026-09-06'\nmethod: derived\nsource: openapi/atlassian-jira-fields-api-openapi.yml, openapi/atlassian-jira-issue-comments-api-openapi.yml,\n  openapi/atlassian-jira-issue-search-api-openapi.yml, openapi/atlassian-jira-issue-transitions-api-openapi.yml,\n  openapi/atlassian-jira-issue-worklogs-api-openapi.yml, openapi/atlassian-jira-issues-api-openapi.yml,\n  openapi/atlassian-jira-platform-openapi.json, openapi/atlassian-jira-projects-api-openapi.yml,\n  openapi/atlassian-jira-service-management-openapi.json, openapi/atlassian-jira-software-openapi.json,\n  openapi/atlassian-jira-users-api-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Email + API token via HTTP Basic auth.\n  sources:\n  - openapi/atlassian-jira-fields-api-openapi.yml\n  - openapi/atlassian-jira-issue-comments-api-openapi.yml\n  - openapi/atlassian-jira-issue-search-api-openapi.yml\n\
+  \  - openapi/atlassian-jira-issue-transitions-api-openapi.yml\n  - openapi/atlassian-jira-issue-worklogs-api-openapi.yml\n  - openapi/atlassian-jira-issues-api-openapi.yml\n  - openapi/atlassian-jira-platform-openapi.json\n  - openapi/atlassian-jira-projects-api-openapi.yml\n  - openapi/atlassian-jira-service-management-openapi.json\n  - openapi/atlassian-jira-software-openapi.json\n  - openapi/atlassian-jira-users-api-openapi.yml\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.atlassian.com/authorize\n    tokenUrl: https://auth.atlassian.com/oauth/token\n    scopes: 4\n  description: Atlassian OAuth 2.0 (3LO) for Jira Cloud.\n  sources:\n  - openapi/atlassian-jira-fields-api-openapi.yml\n  - openapi/atlassian-jira-issue-comments-api-openapi.yml\n  - openapi/atlassian-jira-issue-search-api-openapi.yml\n  - openapi/atlassian-jira-issue-transitions-api-openapi.yml\n  - openapi/atlassian-jira-issue-worklogs-api-openapi.yml\n  - openapi/atlassian-jira-issues-api-openapi.yml\n\
+  \  - openapi/atlassian-jira-platform-openapi.json\n  - openapi/atlassian-jira-projects-api-openapi.yml\n  - openapi/atlassian-jira-service-management-openapi.json\n  - openapi/atlassian-jira-software-openapi.json\n  - openapi/atlassian-jira-users-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/authentication/atlassian-jira-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:

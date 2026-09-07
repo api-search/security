@@ -25,6 +25,7 @@ hosts:
   https: true
   note: brand domain; redirects to https://www.vistancenetworks.com/
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

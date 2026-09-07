@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: google-pub-sub-publish-api-openapi.yml
@@ -43,6 +44,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Google Pub Sub Authentication
 name_suffix: Authentication

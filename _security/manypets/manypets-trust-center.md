@@ -1,4 +1,5 @@
 ---
+certification_count: 6
 certifications:
 - Cyber Essentials
 - ISO/IEC 27001

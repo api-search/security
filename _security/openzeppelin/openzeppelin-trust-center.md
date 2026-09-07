@@ -42,6 +42,7 @@ api_specs:
   slug: openzeppelin-signers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/openapi/openzeppelin-signers-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

@@ -108,6 +108,7 @@ api_specs:
   slug: maptiler-weather-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/openapi/maptiler-weather-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

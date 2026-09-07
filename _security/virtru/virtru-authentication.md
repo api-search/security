@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: virtru-authorization-authorizationservice-api-openapi.yml
@@ -91,6 +92,7 @@ auth_types:
 description: The Virtru Data Security Platform (OpenTDF) authenticates all service calls with OpenID Connect (OIDC) / OAuth 2.0. Clients obtain an access token from the platform's configured identity provider (Keycloak by default) and present it as a Bearer token on every Connect/gRPC request to the Policy, Key Access (KAS), Authorization, Entity Resolution and Well-Known services. Key operations additionally use PKCS#11 for HSM-backed key material and ABAC (attribute-based access control) for authorization decisions.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Virtru Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: wattwatchers-devices-api-openapi.yml
@@ -30,6 +31,7 @@ auth_types:
 description: 'Wattwatchers REST API v3 (Mercury) uses a single authentication mechanism: an HTTP Bearer token ("API key") issued by hand by Wattwatchers. There is no OAuth, no OpenID Connect, no mTLS and no scope surface. Authorization is not expressed in the token — it is expressed as the SET OF DEVICES Wattwatchers assigns to that key, plus coarse permission levels (added in v3.5) that control whether the key may change device metadata and/or configuration. Derived from the OpenAPI securityScheme and upgraded from the published auth page.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Wattwatchers Authentication
 name_suffix: Authentication

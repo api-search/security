@@ -18,6 +18,7 @@ api_specs:
   slug: color-samples-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/openapi/color-samples-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - SOC 2 Type II

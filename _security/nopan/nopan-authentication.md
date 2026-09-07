@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: nopan-authentication-apis-api-openapi.yml
@@ -39,6 +40,7 @@ auth_types:
 description: Nopan uses OAuth2 client_credentials machine-to-machine authentication layered over mutual TLS (mTLS), with every request additionally signed using JWS. The OpenAPI definition documents these in prose (tags and the /auth/token operation) rather than a formal components.securitySchemes block, so this profile is captured from the auth guide and the token operation.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Nopan Authentication
 name_suffix: Authentication

@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'The TaxBit APIs authenticate every request with a bearer token. Two token scopes exist: a tenant-scoped bearer token (the primary mechanism) and an account-owner-scoped bearer token used for tax-documentation (W-8/W-9) flows. The tenant-scoped token is obtained by POSTing OAuth-style credentials (client_id, client_secret, tenant_id) from the Taxbit Dashboard Developer Settings; it is valid for 24 hours.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Taxbit Authentication
 name_suffix: Authentication

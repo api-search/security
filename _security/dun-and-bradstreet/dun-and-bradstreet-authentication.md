@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -57,6 +58,7 @@ auth_types:
 description: Dun & Bradstreet runs three distinct authentication models across three surfaces, and they do not share credentials. The Direct+ REST API uses an OAuth 2.0 client_credentials exchange that returns a bearer JWT. The Commercial Graph / Direct+ MCP server uses a single Dplus-API-Key header. The Risk Analytics MCP server runs a full OAuth 2.0 authorization server with PKCE, refresh tokens and scopes. This file supersedes the earlier derived version, which saw only the two http securitySchemes in the spec.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Dun And Bradstreet Authentication
 name_suffix: Authentication

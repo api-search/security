@@ -42,6 +42,7 @@ api_specs:
   slug: brandwatch-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-user-api-openapi.yml
+certification_count: 1
 certifications:
 - ISO/IEC 27001:2022
 description: ''

@@ -96,6 +96,7 @@ api_specs:
   slug: descope-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-well-known-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

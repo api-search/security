@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in:
 - query
 auth_types:
@@ -8,6 +9,7 @@ auth_types:
 description: 'Rockerbox publishes no OpenAPI, so this profile could not be derived mechanically (0-working/derive-authentication.py needs securitySchemes). It was read from the provider''s own documentation instead. The finding is unusual and worth stating plainly: Rockerbox''s public ingestion endpoint has NO credential at all — it is authenticated by an opaque tenant identifier in the query string, issued by a human account manager. Everything richer (dashboard, exports, warehouse shares) sits behind account provisioning, not behind a developer credential.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Rockerbox Authentication
 name_suffix: Authentication

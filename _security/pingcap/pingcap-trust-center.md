@@ -186,6 +186,7 @@ api_specs:
   slug: pingcap-trends-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/pingcap-trends-api-openapi.yml
+certification_count: 7
 certifications:
 - ISO 27001
 - ISO 27701

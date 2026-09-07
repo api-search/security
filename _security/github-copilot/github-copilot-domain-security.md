@@ -89,6 +89,7 @@ hosts:
   http_status: 404
   https: true
   note: Copilot API / MCP host; root returns 404, endpoints require auth.
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

@@ -336,6 +336,7 @@ api_specs:
   slug: listrak-fonts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-fonts-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -19,6 +20,7 @@ auth_types:
 description: PostEx's merchant Order Integration API authenticates every request with a merchant API token issued from the PostEx merchant dashboard, supplied in the `token` request header. No OAuth or OpenID Connect surface was found.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Postex Authentication
 name_suffix: Authentication

@@ -6,6 +6,7 @@ api_specs:
   slug: disco-api
   spec_type: OpenAPI
   url: https://developer.csdisco.com/
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

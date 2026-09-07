@@ -96,6 +96,7 @@ api_specs:
   slug: servicenow-trouble-ticket-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-trouble-ticket-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2 Type II
 - ISO 27001:2022

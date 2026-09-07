@@ -42,6 +42,7 @@ api_specs:
   slug: google-maps-text-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-text-search-api-openapi.yml
+certification_count: 17
 certifications:
 - SOC 2
 - SOC 3

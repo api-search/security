@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: university-of-navarra-revistas-oai-pmh-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: How the University of Navarra's verified machine-readable surfaces authenticate callers. Probed 2026-09-01; nothing here is inferred from documentation.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: University Of Navarra Authentication
 name_suffix: Authentication

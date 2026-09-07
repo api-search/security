@@ -24,6 +24,7 @@ api_specs:
   slug: june-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-users-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

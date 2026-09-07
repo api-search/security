@@ -26,6 +26,7 @@ hosts:
   tls_version: TLSv1.3
 - host: api.miri.health
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

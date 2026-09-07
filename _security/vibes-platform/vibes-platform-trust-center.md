@@ -180,6 +180,7 @@ api_specs:
   slug: vibes-platform-wallet-store-locations-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-wallet-store-locations-api-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

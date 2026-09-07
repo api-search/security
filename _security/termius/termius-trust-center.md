@@ -12,6 +12,7 @@ api_specs:
   slug: termius-host-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/openapi/termius-host-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

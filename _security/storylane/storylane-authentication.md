@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: storylane-connect
@@ -13,6 +14,7 @@ description: 'Storylane runs three distinct authentication models across three d
   '
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Storylane Authentication
 name_suffix: Authentication

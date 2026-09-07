@@ -18,6 +18,7 @@ hosts:
 - host: docs.telenav.com
   hsts: false
   https: true
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

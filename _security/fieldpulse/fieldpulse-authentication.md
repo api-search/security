@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -157,6 +158,7 @@ auth_types:
 description: Authentication profile for the FieldPulse Open API. Single-factor API key, sent in a header, issued manually by FieldPulse Support. There is no OAuth, no OpenID Connect, no mutual TLS, and no scope or permission model on the key — a FieldPulse API token is all-or-nothing across all 109 operations.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Fieldpulse Authentication
 name_suffix: Authentication

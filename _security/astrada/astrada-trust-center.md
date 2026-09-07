@@ -90,6 +90,7 @@ api_specs:
   slug: astrada-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-webhooks-api-openapi.yml
+certification_count: 3
 certifications:
 - PCI DSS v4 Level 1 Service Provider
 - GDPR

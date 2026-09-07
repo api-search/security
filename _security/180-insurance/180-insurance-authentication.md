@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
 description: 'The 180 Seguros Sagas API is protected with OAuth2 using the client-credentials (machine-to-machine) grant, brokered by an Auth0 tenant. Clients exchange a client_id + client_secret for a bearer access token (default lifetime 43,200s / 12 hours) and send it on every request as `Authorization: Bearer {access_token}`. The docs advise reusing tokens while valid rather than minting a new one per call.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: 180 Insurance Authentication
 name_suffix: Authentication

@@ -50,6 +50,7 @@ hosts:
   https: false
   note: no A record; mail-only domain (Alibaba Cloud corporate mail)
   resolves: false
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

@@ -1,4 +1,5 @@
 ---
+certification_count: 3
 certifications:
 - SOC 2 Type 1
 - ISO 27001

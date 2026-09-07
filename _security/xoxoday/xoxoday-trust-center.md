@@ -18,6 +18,7 @@ api_specs:
   slug: xoxoday-reward-links-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/xoxoday-reward-links-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

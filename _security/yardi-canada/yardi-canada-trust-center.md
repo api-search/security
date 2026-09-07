@@ -24,6 +24,7 @@ api_specs:
   slug: yardi-canada-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/openapi/yardi-canada-status-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2 (annual)
 - SOC 1 (biannual)

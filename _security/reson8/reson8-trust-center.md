@@ -18,6 +18,7 @@ api_specs:
   slug: reson8-speech-to-text-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reson8/refs/heads/main/openapi/reson8-speech-to-text-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

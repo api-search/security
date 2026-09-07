@@ -24,6 +24,7 @@ api_specs:
   slug: amazon-rds-db-snapshots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/openapi/amazon-rds-db-snapshots-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

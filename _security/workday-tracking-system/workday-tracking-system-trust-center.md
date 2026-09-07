@@ -78,6 +78,7 @@ api_specs:
   slug: workday-tracking-system-worker-preferences-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-worker-preferences-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

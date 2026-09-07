@@ -114,6 +114,7 @@ api_specs:
   slug: superai-worker-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/openapi/superai-worker-groups-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

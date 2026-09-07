@@ -56,6 +56,7 @@ hosts:
   https: false
   https_error: CERTIFICATE_VERIFY_FAILED - certificate has expired
   note: Linked as the Digistar "Access Portal" from https://tech.cosm.com/products/digistar-projection-system/digistar. https is unusable (expired certificate); http 200 returns a meta-refresh landing page announcing the move to https://partners.cosm.com/.
+hosts_probed: 7
 kind: domain-security
 layout: security
 method: probed

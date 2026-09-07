@@ -54,6 +54,7 @@ api_specs:
   slug: leandata-scheduling-inputs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-scheduling-inputs-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type 2
 - GDPR

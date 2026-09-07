@@ -72,6 +72,7 @@ api_specs:
   slug: openai-apis-translation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openai-apis/refs/heads/main/openapi/openai-apis-translation-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2
 - ISO 27001

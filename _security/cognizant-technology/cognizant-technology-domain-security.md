@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cognizant-technology-neuro-san-agent-service.json
+  format: json
+  label: Cognizant Neuro SAN Agent Service
+  slug: cognizant-neuro-san-agent-service
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognizant-technology/refs/heads/main/openapi/cognizant-technology-neuro-san-agent-service.json
 description: ''
 domains:
 - caa: []
@@ -8,12 +15,13 @@ domains:
   domain: cognizant.com
   spf: true
 hosts:
-- cert_expires: Jul 30 23:59:59 2026 GMT
+- cert_expires: Jan 23 23:59:59 2027 GMT
   host: www.cognizant.com
   hsts: true
   hsts_max_age: 31557600
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -26,7 +34,7 @@ slug: cognizant-technology-domain-security
 source_filename: cognizant-technology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cognizant.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 30 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\ndomains:\n- domain: cognizant.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cognizant.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31557600\ndomains:\n- domain: cognizant.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cognizant-technology/refs/heads/main/security/cognizant-technology-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

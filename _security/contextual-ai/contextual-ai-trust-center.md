@@ -54,6 +54,7 @@ api_specs:
   slug: contextual-ai-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-users-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27017

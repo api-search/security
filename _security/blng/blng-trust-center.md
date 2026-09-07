@@ -84,6 +84,7 @@ api_specs:
   slug: blng-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-workspace-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

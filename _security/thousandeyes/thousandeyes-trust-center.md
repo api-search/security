@@ -588,6 +588,7 @@ api_specs:
   slug: thousandeyes-webhook-operations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/openapi/thousandeyes-webhook-operations-api-openapi.yml
+certification_count: 1
 certifications:
 - FedRAMP Moderate
 description: ''

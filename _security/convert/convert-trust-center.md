@@ -192,6 +192,7 @@ api_specs:
   slug: convert-visitors-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/convert/refs/heads/main/openapi/convert-visitors-data-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

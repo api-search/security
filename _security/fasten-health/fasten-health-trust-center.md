@@ -6,6 +6,7 @@ api_specs:
   slug: fasten-health-bridge-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fasten-health/refs/heads/main/openapi/fasten-health-bridge-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

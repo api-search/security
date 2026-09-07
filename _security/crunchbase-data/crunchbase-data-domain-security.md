@@ -30,6 +30,30 @@ api_specs:
   slug: crunchbase-data-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-search-api-openapi.yml
+- filename: crunchbase-autocomplete-api-openapi.yml
+  format: yaml
+  label: Crunchbase Autocomplete API
+  slug: crunchbase-autocomplete-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-autocomplete-api-openapi.yml
+- filename: crunchbase-deletes-api-openapi.yml
+  format: yaml
+  label: Crunchbase Deletes API
+  slug: crunchbase-deletes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-deletes-api-openapi.yml
+- filename: crunchbase-entities-api-openapi.yml
+  format: yaml
+  label: Crunchbase Entities API
+  slug: crunchbase-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-entities-api-openapi.yml
+- filename: crunchbase-search-api-openapi.yml
+  format: yaml
+  label: Crunchbase Search API
+  slug: crunchbase-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-search-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -63,6 +87,7 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

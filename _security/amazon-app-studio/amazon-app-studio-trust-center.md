@@ -6,6 +6,7 @@ api_specs:
   slug: amazon-app-studio-apps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/openapi/amazon-app-studio-apps-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

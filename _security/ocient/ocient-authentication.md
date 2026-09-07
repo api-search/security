@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: ocient-ocient-http-query-api-api-openapi.yml
@@ -19,6 +20,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Ocient Authentication
 name_suffix: Authentication

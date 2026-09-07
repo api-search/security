@@ -120,6 +120,7 @@ api_specs:
   slug: projectdiscovery-vulnerability-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-vulnerability-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type 2
 - EU-US Data Privacy Framework (DPF)

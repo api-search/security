@@ -91,6 +91,7 @@ hosts:
   https: true
   note: YMax console/login host. Probed manually 2026-08-12. The only Yieldmo host observed serving HSTS.
   tls_version: TLSv1.3
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

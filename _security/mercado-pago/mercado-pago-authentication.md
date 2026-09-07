@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: mercado-pago-asyncapi.yml
@@ -109,6 +110,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Mercado Pago Authentication
 name_suffix: Authentication

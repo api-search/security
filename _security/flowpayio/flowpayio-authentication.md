@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: 'Flowpay''s Partner API authenticates with OAuth 2.0 client-credentials, issued by Auth0. Partners exchange a CLIENT_ID/CLIENT_SECRET for a short-lived bearer access token and present it as `Authorization: Bearer <token>` on every request. A PARTNER_CODE identifies the partner and a WEBHOOK_SECRET is used to verify inbound webhook HMAC signatures. The partner-implemented Sales Transactions API additionally accepts a static API key via the `X-API-Key` header. No user-facing OAuth scopes are documented (machine-to-machine client-credentials only).'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Flowpayio Authentication
 name_suffix: Authentication

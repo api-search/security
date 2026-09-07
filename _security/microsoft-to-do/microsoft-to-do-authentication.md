@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: microsoft-to-do-checklistitems-api-openapi.yml
@@ -30,6 +31,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Microsoft To Do Authentication
 name_suffix: Authentication

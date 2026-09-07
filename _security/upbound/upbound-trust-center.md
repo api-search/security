@@ -30,6 +30,7 @@ api_specs:
   slug: upbound-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-teams-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

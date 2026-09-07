@@ -28,6 +28,7 @@ hosts:
   https: true
   note: HLI client portal (Angular SPA). No Strict-Transport-Security response header observed on the root document.
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

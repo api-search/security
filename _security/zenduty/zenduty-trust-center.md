@@ -192,6 +192,7 @@ api_specs:
   slug: zenduty-user-custom-role-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-user-custom-role-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

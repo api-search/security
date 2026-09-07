@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -146,6 +147,7 @@ auth_types:
 description: Clevergy documents three distinct authentication paths. Server-to-server calls to the Connect API use a tenant API key in the clevergy-api-key header. Embedded microfrontends (web components) authenticate with a short-lived user JWT that the integrator's own backend mints by calling the Connect API with its API key. A third "login with token" path passes that same JWT in a URL query string to open the full Clevergy webview on a tenant subdomain.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Clevergy Authentication
 name_suffix: Authentication

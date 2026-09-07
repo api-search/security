@@ -66,6 +66,7 @@ api_specs:
   slug: giphy-utilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/openapi/giphy-utilities-api-openapi.yml
+certification_count: 2
 certifications:
 - HIPAA
 - GDPR

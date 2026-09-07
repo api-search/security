@@ -72,6 +72,13 @@ api_specs:
   slug: protonai-tracking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/protonai/refs/heads/main/openapi/protonai-tracking-api-openapi.yml
+- filename: postman.yaml
+  format: yaml
+  label: Proton API
+  slug: proton-api
+  spec_type: Postman
+  url: https://api.proton.ai/
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

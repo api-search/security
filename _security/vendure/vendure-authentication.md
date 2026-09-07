@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - cookie
 - header
@@ -27,6 +28,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: derived
 name: Vendure Authentication
 name_suffix: Authentication

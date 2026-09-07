@@ -114,6 +114,7 @@ api_specs:
   slug: amazon-parallel-computing-service-updatequeue-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-updatequeue-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

@@ -102,6 +102,7 @@ api_specs:
   slug: scale-computing-vms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scale-computing/refs/heads/main/openapi/scale-computing-vms-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

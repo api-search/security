@@ -24,6 +24,24 @@ api_specs:
   slug: microsoft-azure-openai-images-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/microsoft-azure-openai-images-api-openapi.yml
+- filename: azure-openai-asyncapi.yml
+  format: yaml
+  label: Azure OpenAI Inference REST API
+  slug: inference-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-openai/refs/heads/main/asyncapi/azure-openai-asyncapi.yml
+- filename: azure-openai-audio-api-openapi.yml
+  format: yaml
+  label: Azure OpenAI Service Audio API
+  slug: azure-openai-audio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/azure-openai-audio-api-openapi.yml
+- filename: azure-openai-chat-completions-api-openapi.yml
+  format: yaml
+  label: Azure OpenAI Service Chat Completions API
+  slug: azure-openai-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/azure-openai-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -58,6 +76,7 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

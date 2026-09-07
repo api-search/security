@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: blacksmith-sh-openapi.yml
@@ -24,6 +25,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Blacksmith Sh Authentication
 name_suffix: Authentication

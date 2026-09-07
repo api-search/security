@@ -41,6 +41,7 @@ hosts:
   hsts_note: 'The automated HEAD probe recorded hsts as null because the host answers 401 to unauthenticated requests. A direct GET on 2026-07-19 returned ''strict-transport-security: max-age=31536000; includeSubDomains'' alongside a full Helmet header set (CSP, X-Content-Type-Options, X-Frame-Options, Referrer-Policy, COOP, CORP). Corrected by hand from that observation.'
   https: true
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

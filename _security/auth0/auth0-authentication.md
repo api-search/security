@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: auth0-actions-api-openapi.yml
@@ -445,6 +446,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Auth0 Authentication
 name_suffix: Authentication

@@ -30,6 +30,7 @@ api_specs:
   slug: fathom-sites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/openapi/fathom-sites-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

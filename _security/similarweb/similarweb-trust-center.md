@@ -78,6 +78,7 @@ api_specs:
   slug: similarweb-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - ISO 27001

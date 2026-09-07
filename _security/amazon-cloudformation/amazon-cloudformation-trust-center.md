@@ -24,6 +24,7 @@ api_specs:
   slug: amazon-cloudformation-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/openapi/amazon-cloudformation-templates-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

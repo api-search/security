@@ -42,6 +42,24 @@ api_specs:
   slug: exchangerate-api-supported-codes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-supported-codes-api-openapi.yml
+- filename: exchangerate-account-api-openapi.yml
+  format: yaml
+  label: ExchangeRate-API Account API
+  slug: exchangerate-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-account-api-openapi.yml
+- filename: exchangerate-currencies-api-openapi.yml
+  format: yaml
+  label: ExchangeRate-API Currencies API
+  slug: exchangerate-currencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-currencies-api-openapi.yml
+- filename: exchangerate-exchange-rates-api-openapi.yml
+  format: yaml
+  label: ExchangeRate-API Exchange Rates API
+  slug: exchangerate-exchange-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-exchange-rates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -72,6 +90,7 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

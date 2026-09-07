@@ -48,6 +48,7 @@ api_specs:
   slug: zenzap-topics-group-chats-channels-conversations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-topics-group-chats-channels-conversations-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

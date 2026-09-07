@@ -6,6 +6,7 @@ api_specs:
   slug: minicor-external-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/openapi/minicor-external-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - HIPAA

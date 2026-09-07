@@ -80,6 +80,7 @@ hosts:
   tls_version: TLSv1.2
 - host: api-lg-k-h1.arms.cedarai.se
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -297,6 +298,7 @@ auth_types:
 description: 'Snyk authenticates the REST and V1 APIs with a bearer-style token carried in the Authorization header, and the token TYPE decides the header keyword: a Snyk personal access token or service-account token uses `Authorization: token <TOKEN>`, while a Snyk App OAuth2 access token uses `Authorization: bearer <TOKEN>`. Getting this wrong returns 401. Two things a caller must know before writing any code: API access is an ENTERPRISE entitlement - Snyk states that Free and Team personal tokens authenticate the IDE, CLI and CI/CD integrations but cannot call the API - and tokens are REGION-BOUND, so a token minted on api.snyk.io returns 401 against api.eu.snyk.io or api.us.snyk.io.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Snyk Authentication
 name_suffix: Authentication

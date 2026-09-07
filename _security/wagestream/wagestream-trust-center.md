@@ -30,6 +30,7 @@ api_specs:
   slug: wagestream-shifts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wagestream/refs/heads/main/openapi/wagestream-shifts-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

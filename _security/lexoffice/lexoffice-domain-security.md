@@ -123,6 +123,7 @@ hosts:
   hsts_max_age: 63072000
   http_status: 301
   https: true
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

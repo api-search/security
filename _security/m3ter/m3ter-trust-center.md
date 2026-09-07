@@ -348,6 +348,7 @@ api_specs:
   slug: m3ter-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/m3ter/refs/heads/main/openapi/m3ter-user-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

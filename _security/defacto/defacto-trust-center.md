@@ -108,6 +108,7 @@ api_specs:
   slug: defacto-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/defacto/refs/heads/main/openapi/defacto-webhook-api-openapi.yml
+certification_count: 4
 certifications:
 - ISO 27001:2022
 - GDPR

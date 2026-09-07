@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: 'Town operates a public trust center at trust.town.com, hosted on Vanta (CNAME 68a387309131ec93a1fd754a.cname.vantatrust.com). Page title: "Town Trust Center". Its own description reads: "Town is committed to protecting customer data through thoughtful security, privacy, and compliance practices. Explore our controls and public resources, or request access to independent audit reports and certifications." The certification list is rendered client-side by the Vanta SPA and is not exposed in the static HTML or via an unauthenticated JSON endpoint, so no certification names are recorded here — independent audit reports and certifications are stated to be available on request.'
 kind: trust-center

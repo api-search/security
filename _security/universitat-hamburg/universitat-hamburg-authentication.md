@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: universitat-hamburg-zfdm-repository-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: Universität Hamburg's public read surfaces are open and unauthenticated. Write access to the research-data repository, and access to every campus system, runs through the institution's own Shibboleth/SAML 2.0 Identity Provider — which is itself the institution's strongest machine-readable surface.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Universitat Hamburg Authentication
 name_suffix: Authentication

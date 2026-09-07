@@ -78,6 +78,7 @@ api_specs:
   slug: frankieone-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/openapi/frankieone-search-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

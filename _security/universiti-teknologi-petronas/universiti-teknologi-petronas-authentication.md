@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: universiti-teknologi-petronas-utpedia-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: How each machine-readable surface Universiti Teknologi PETRONAS operates or holds a tenancy in handles authentication, established by probing each endpoint without credentials on 2026-09-01. No credential was supplied, guessed, or obtained at any point.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Universiti Teknologi Petronas Authentication
 name_suffix: Authentication

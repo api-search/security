@@ -102,6 +102,7 @@ api_specs:
   slug: conxai-workflow-table-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-workflow-table-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001:2022

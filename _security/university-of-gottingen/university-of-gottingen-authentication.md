@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: university-of-gottingen-gdz-oai-pmh-openapi.yml
@@ -23,6 +24,7 @@ auth_types: []
 description: 'The University of Göttingen''s public machine-readable surfaces split cleanly in two. The harvesting and image interfaces operated by SUB Göttingen are anonymous and unauthenticated — no key, no registration, no rate-limit header observed. Everything that touches people or administration sits behind institutional federated identity, and there is no self-service developer credential anywhere in the estate: the university issues no API keys to the public.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: generated
 name: University Of Gottingen Authentication
 name_suffix: Authentication

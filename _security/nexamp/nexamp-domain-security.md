@@ -43,6 +43,7 @@ hosts:
   https: true
   note: Undocumented API host (Azure App Service, nexamp-api-production.azurewebsites.net). Root and most paths 302 to login.microsoftonline.com (Microsoft Entra ID); /openapi.json, /swagger.json and /.well-known/* return 401. Manually probed with certificate verification disabled; not advertised as a public developer API.
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

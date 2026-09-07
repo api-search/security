@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: gleefulai-audit-api-openapi.yml
@@ -107,6 +108,7 @@ auth_types: []
 description: 'No API keys. Access is priced per call and settled with x402 micropayments — an unauthenticated request returns HTTP 402 with a Payment-Required header carrying a base64 x402 v2 challenge, and the caller pays USDC on Base to proceed. This is a keyless, agent-native access model: an agent can discover the price and pay without a human ever creating an account.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Gleefulai Authentication
 name_suffix: Authentication

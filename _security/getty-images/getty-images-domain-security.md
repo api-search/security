@@ -312,6 +312,36 @@ api_specs:
   slug: getty-images-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/openapi/getty-images-videos-api-openapi.yml
+- filename: getty-downloads-api-openapi.yml
+  format: yaml
+  label: Getty Images Downloads API
+  slug: getty-downloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/openapi/getty-downloads-api-openapi.yml
+- filename: getty-images-api-openapi.yml
+  format: yaml
+  label: Getty Images Images API
+  slug: getty-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/openapi/getty-images-api-openapi.yml
+- filename: getty-reference-api-openapi.yml
+  format: yaml
+  label: Getty Images Reference API
+  slug: getty-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/openapi/getty-reference-api-openapi.yml
+- filename: getty-search-api-openapi.yml
+  format: yaml
+  label: Getty Images Search API
+  slug: getty-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/openapi/getty-search-api-openapi.yml
+- filename: getty-videos-api-openapi.yml
+  format: yaml
+  label: Getty Images Videos API
+  slug: getty-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/openapi/getty-videos-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -344,6 +374,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

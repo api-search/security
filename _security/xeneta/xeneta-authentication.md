@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -20,6 +21,7 @@ auth_types:
 description: 'The Xeneta API authenticates every request with an API key passed in the X-Auth header over HTTPS only — plain HTTP and unauthenticated requests are rejected. Keys are self-service generated in the Security section of the Xeneta account settings (https://app.xeneta.com/my-account/security) for accounts with API access. The separate airline reports API (Selfie) uses session-cookie authentication: POST username/password to /api/selfie/rest_auth/login on the airline host.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Xeneta Authentication
 name_suffix: Authentication

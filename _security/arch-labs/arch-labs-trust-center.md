@@ -90,6 +90,7 @@ api_specs:
   slug: arch-labs-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/arch-labs/refs/heads/main/openapi/arch-labs-users-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

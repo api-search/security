@@ -24,6 +24,7 @@ api_specs:
   slug: niural-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/openapi/niural-transactions-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: Niural runs a hosted trust center at trust.niural.com. It returns HTTP 200 but the page is a JavaScript shell — an 814-byte HTML document whose only content is the heading "Trust Center" and a script tag loading laika-app-prod.s3.amazonaws.com/static/trust-center/assets/index.js. Nothing about certifications, subprocessors, or policies is machine-readable, and the automated probe therefore could not confirm a single named certification from the trust center itself. The one certification Niural does publish in readable HTML is a "SOC Type-2" badge in the footer of its marketing site.

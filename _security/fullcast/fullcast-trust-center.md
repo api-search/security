@@ -24,6 +24,7 @@ api_specs:
   slug: fullcast-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-well-known-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 2
 - GDPR

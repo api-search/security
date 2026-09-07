@@ -60,6 +60,7 @@ api_specs:
   slug: jebbit-launch-links-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/openapi/jebbit-launch-links-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type 2
 - TRUSTe Verified Privacy Seal

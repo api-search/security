@@ -156,6 +156,7 @@ api_specs:
   slug: dotfile-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/openapi/dotfile-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

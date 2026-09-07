@@ -192,6 +192,7 @@ api_specs:
   slug: ask-sage-workbooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-workbooks-api-openapi.yml
+certification_count: 2
 certifications:
 - FedRAMP
 - GDPR

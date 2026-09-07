@@ -15,6 +15,7 @@ hosts:
 - error: DNS NXDOMAIN — connection impossible
   host: www.stickies.wtf
   https: false
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

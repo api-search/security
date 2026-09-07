@@ -30,6 +30,7 @@ api_specs:
   slug: amazon-ses-email-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/openapi/amazon-ses-email-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

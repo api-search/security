@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'How Washington University''s machine-readable surfaces authenticate. Four distinct regimes are in play, and only one of them is an ordinary API credential. CIViC — the institution''s genuinely public API — reads anonymously and takes an optional bearer API key for writes and for a higher rate ceiling. The enterprise integration APIs on MuleSoft Anypoint are not self-service at all: access is granted by an internal ServiceNow request and is scoped to WashU integrators. The two research repositories harvest anonymously over OAI-PMH. And the institution''s Shibboleth IdP is federation infrastructure for browser sign-on, not an API credential — it is recorded here because it is the gate behind every one of WashU''s auth-walled research systems.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Washington University In St Louis Authentication
 name_suffix: Authentication

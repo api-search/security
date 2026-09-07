@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Bloomberg's data-workflow surface carries three distinct and unrelated authentication models. There is no OpenAPI to derive securitySchemes from, so every statement here was observed on a live anonymous request or read from a first-party discovery document.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Bloomberg Data Workflows Authentication
 name_suffix: Authentication

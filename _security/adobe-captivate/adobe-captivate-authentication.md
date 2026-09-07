@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: adobe-captivate-learning-manager-webhooks-asyncapi.yml
@@ -84,6 +85,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Adobe Captivate Authentication
 name_suffix: Authentication

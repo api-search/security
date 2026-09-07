@@ -30,6 +30,7 @@ api_specs:
   slug: personio-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/personio/refs/heads/main/openapi/personio-webhooks-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - ISO 27017

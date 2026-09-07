@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
 description: AI Autocomplete authenticates every request to https://api.ai-autocomplete.com with an HTTP Bearer token. Three credential types are issued, all created from the account keys page (https://ai-autocomplete.com/account/keys).
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Magicx Authentication
 name_suffix: Authentication

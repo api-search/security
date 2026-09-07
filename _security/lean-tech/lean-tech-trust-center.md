@@ -114,6 +114,7 @@ api_specs:
   slug: lean-tech-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/openapi/lean-tech-transactions-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

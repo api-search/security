@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: caltech-dataselect-api-openapi.yml
@@ -29,6 +30,7 @@ auth_types: []
 description: Caltech's public machine-readable surfaces are open research infrastructure and require no credential to read. The institution's authentication engineering is concentrated in its identity federation, which is itself a machine-readable surface but governs access to internal systems rather than to the public APIs.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Caltech Authentication
 name_suffix: Authentication

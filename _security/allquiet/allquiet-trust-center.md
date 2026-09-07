@@ -30,6 +30,7 @@ api_specs:
   slug: allquiet-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/allquiet/refs/heads/main/openapi/allquiet-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

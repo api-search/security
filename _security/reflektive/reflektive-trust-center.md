@@ -24,6 +24,7 @@ api_specs:
   slug: reflektive-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reflektive/refs/heads/main/openapi/reflektive-tasks-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

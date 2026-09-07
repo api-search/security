@@ -137,6 +137,7 @@ hosts:
   https: true
   note: Serves HTTP but returns 404 at the root, at /.well-known/oauth-authorization-server and at /cds-au/v1/discovery/status. Recorded for what it returned; NOT assumed to be the InfoSec base URI.
   role: resolves in DNS; purpose unconfirmed
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

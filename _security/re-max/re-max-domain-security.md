@@ -75,6 +75,7 @@ hosts:
   https: true
   note: staging Listings API on a third-party vendor domain, outside RE/MAX DNS control
   tls_version: TLSv1.2
+hosts_probed: 8
 kind: domain-security
 layout: security
 method: probed

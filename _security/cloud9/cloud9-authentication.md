@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - none
@@ -7,6 +8,7 @@ auth_types:
 description: 'Cloud9 publishes no developer program and therefore no authentication documentation of its own. This profile was read from the live surface: the WordPress REST discovery index advertises its own authentication block, and the /.well-known/ OAuth metadata describes the MCP server''s authorization model. Three distinct postures coexist on the same host — anonymous read, application-password write, and OAuth 2.1 for MCP.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Cloud9 Authentication
 name_suffix: Authentication

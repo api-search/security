@@ -30,6 +30,7 @@ api_specs:
   slug: aptean-publickeys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-publickeys-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - ISO 27001

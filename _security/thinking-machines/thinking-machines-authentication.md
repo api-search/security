@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: The Tinker API and SDK authenticate with a single API key issued from the Tinker Console. The key is supplied to the SDK/CLI via the TINKER_API_KEY environment variable and is sent as a bearer credential to the service.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Thinking Machines Authentication
 name_suffix: Authentication

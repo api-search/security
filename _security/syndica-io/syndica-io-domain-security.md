@@ -32,6 +32,7 @@ hosts:
   tls_version: TLSv1.2
 - host: solana-mainnet.api.syndica.io
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

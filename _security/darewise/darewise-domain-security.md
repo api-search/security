@@ -23,6 +23,7 @@ hosts:
 - host: www.darewise.com
   https: false
   note: legacy brand domain; DNS resolves to 139.177.176.71 but TCP 443 and 80 both refuse/time out, so no TLS or HSTS posture can be measured. Last Internet Archive capture serving HTTP 200 was 2025-04-21; captures from 2025-05-04 onward are 301s.
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Fashion Diffusion authenticates every Public API call with a single long-lived bearer API key. There is no OAuth 2.0 authorization server, no OpenID Connect discovery document, no mutual TLS and no scope surface — a key is either valid or it is not, and its authority is bounded by the user and team that own it.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Fashiondiffusion Authentication
 name_suffix: Authentication

@@ -48,6 +48,7 @@ api_specs:
   slug: verisoul-verification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-verification-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

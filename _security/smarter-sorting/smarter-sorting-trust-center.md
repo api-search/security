@@ -24,6 +24,7 @@ api_specs:
   slug: smarter-sorting-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/openapi/smarter-sorting-products-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

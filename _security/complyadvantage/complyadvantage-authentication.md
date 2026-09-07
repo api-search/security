@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -39,6 +40,7 @@ auth_types:
 description: 'Two APIs, two unrelated authentication models. The Mesh platform uses an OAuth2 client-credentials exchange - an access key and secret minted in the UI are traded at POST /v3/token for a bearer token that lives 24 hours and cannot be refreshed. The legacy REST API uses a static account API key sent as `Authorization: Token <key>`. Neither model is fully expressed in a machine-readable contract: the Mesh OpenAPI declares only an opaque `http bearer` scheme with no OAuth flow object and no scopes, and there is no published spec for the legacy API at all.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Complyadvantage Authentication
 name_suffix: Authentication

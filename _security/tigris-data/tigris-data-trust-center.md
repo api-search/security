@@ -18,6 +18,7 @@ api_specs:
   slug: tigris-data-objects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/openapi/tigris-data-objects-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

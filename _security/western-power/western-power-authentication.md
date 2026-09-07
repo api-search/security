@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: western-power-content-api-openapi.yml
@@ -38,6 +39,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Western Power Authentication
 name_suffix: Authentication

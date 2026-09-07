@@ -156,6 +156,7 @@ api_specs:
   slug: okta-usertype-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-usertype-api-openapi.yml
+certification_count: 10
 certifications:
 - SOC 2
 - ISO 27001

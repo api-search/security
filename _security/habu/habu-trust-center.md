@@ -204,6 +204,7 @@ api_specs:
   slug: habu-questions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/openapi/habu-questions-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2 Type 2
 - ISO 27001

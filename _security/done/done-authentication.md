@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -158,11 +159,18 @@ api_specs:
   slug: done-website-uptime-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-website-uptime-api-openapi.yml
+- filename: done-email-verifier-validator-api-openapi.yml
+  format: yaml
+  label: _done email verifier API
+  slug: done-email-verifier-validator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-email-verifier-validator-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Done Authentication
 name_suffix: Authentication

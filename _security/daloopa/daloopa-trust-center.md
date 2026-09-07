@@ -114,6 +114,7 @@ api_specs:
   slug: daloopa-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/openapi/daloopa-webhooks-api-openapi.yml
+certification_count: 0
 certifications: []
 description: Daloopa operates a Vanta-hosted trust center at trust.daloopa.com. Its EXISTENCE is verified; its CONTENTS are not publicly machine-readable. This artifact records exactly that boundary and names no certification that could not be read from a public source.
 kind: trust-center

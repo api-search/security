@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: unit-co-accounts-api-openapi.yml
@@ -108,6 +109,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Unit Co Authentication
 name_suffix: Authentication

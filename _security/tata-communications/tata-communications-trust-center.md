@@ -36,6 +36,7 @@ api_specs:
   slug: tata-communications-top-25-cdr-by-account-id-time-frame-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/openapi/tata-communications-top-25-cdr-by-account-id-time-frame-api-openapi.yml
+certification_count: 15
 certifications:
 - ISO/IEC 27001:2013
 - ISO/IEC 27017:2015

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -14,6 +15,7 @@ auth_types:
 description: AmunCore authenticates three channels differently, and the provider is explicit about the separation. The generated REST API takes a per-application API key in an X-Api-Key header. The MCP endpoint takes a distinct secret (MCP-Token header) or an OAuth 2.0 bearer token with the "mcp" scope, deliberately not the same credential as the REST keys. Dashboard sign-in is separate again, with optional TOTP two-factor.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Amuncore Authentication
 name_suffix: Authentication

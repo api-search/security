@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
 description: 'Hashnode authenticates the GraphQL API with a single scheme: a long-lived Personal Access Token sent in the Authorization header. There is no OAuth, no OIDC, no scope model, and no mTLS - so there is no scopes/ artifact for this provider. Authorization is layered on top of authentication in two independent ways: a publication role model (OWNER / EDITOR / CONTRIBUTOR) and a subscription gate (the target publication must be on the Pro plan).'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Hashnode Authentication
 name_suffix: Authentication

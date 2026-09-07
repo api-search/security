@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -44,6 +45,7 @@ auth_types:
 description: Fundz runs two authenticated surfaces on one host. The core feed API takes the API key as the RAW value of the Authorization header — no `Bearer` prefix — and is paid-plans-only. The FundzWatch surface at /v1/watch/* takes a prefixed key (fundz_test_ / fundz_live_) as a Bearer token and has a free developer tier. Both are api-key models; neither publishes an OAuth authorization server, despite the core docs saying a Bearer access token is accepted for ChatGPT/agent integrations.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Fundz Authentication
 name_suffix: Authentication

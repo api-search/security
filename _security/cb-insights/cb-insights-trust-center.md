@@ -66,6 +66,7 @@ api_specs:
   slug: cb-insights-strategymap-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-strategymap-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type II
 - GDPR

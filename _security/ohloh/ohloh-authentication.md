@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for the Black Duck Open Hub (Ohloh) API, captured from the provider's public API documentation. Read access uses an api_key HTTP parameter; write access and private account data use OAuth 2.0.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Ohloh Authentication
 name_suffix: Authentication

@@ -48,6 +48,7 @@ api_specs:
   slug: zerotier-util-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-util-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

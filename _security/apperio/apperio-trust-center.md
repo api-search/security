@@ -30,6 +30,7 @@ api_specs:
   slug: apperio-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-users-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO/IEC 27001
 - SOC 2 Type 2

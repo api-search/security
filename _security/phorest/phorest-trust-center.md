@@ -84,6 +84,7 @@ api_specs:
   slug: phorest-vouchers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-vouchers-api-openapi.yml
+certification_count: 3
 certifications:
 - PCI DSS
 - HIPAA

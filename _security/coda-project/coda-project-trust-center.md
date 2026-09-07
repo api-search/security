@@ -192,6 +192,7 @@ api_specs:
   slug: coda-project-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coda-project/refs/heads/main/openapi/coda-project-workspaces-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2 Type II
 - SOC 3

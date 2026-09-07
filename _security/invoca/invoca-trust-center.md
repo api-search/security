@@ -12,6 +12,7 @@ api_specs:
   slug: invoca-phone-numbers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/openapi/invoca-phone-numbers-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2 Type 2
 - ISO 27001

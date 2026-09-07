@@ -90,6 +90,7 @@ api_specs:
   slug: wingspan-wingspan-wallet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/openapi/wingspan-wingspan-wallet-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

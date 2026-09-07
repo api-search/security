@@ -108,6 +108,7 @@ api_specs:
   slug: ppro-void-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/openapi/ppro-void-endpoints-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

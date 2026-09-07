@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -80,11 +81,42 @@ api_specs:
   slug: revert-tickets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/openapi/revert-tickets-api-openapi.yml
+- filename: revert-api-connection-management-api-openapi.yml
+  format: yaml
+  label: Revert Connection Management API
+  slug: revert-api-connection-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/openapi/revert-api-connection-management-api-openapi.yml
+- filename: revert-api-crm-api-openapi.yml
+  format: yaml
+  label: Revert CRM API
+  slug: revert-api-crm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/openapi/revert-api-crm-api-openapi.yml
+- filename: revert-api-metadata-api-openapi.yml
+  format: yaml
+  label: Revert Metadata API
+  slug: revert-api-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/openapi/revert-api-metadata-api-openapi.yml
+- filename: revert-api-proxy-api-openapi.yml
+  format: yaml
+  label: Revert Proxy API
+  slug: revert-api-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/openapi/revert-api-proxy-api-openapi.yml
+- filename: revert-api-ticketing-api-openapi.yml
+  format: yaml
+  label: Revert Ticketing API
+  slug: revert-api-ticketing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/openapi/revert-api-ticketing-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Revert Authentication
 name_suffix: Authentication

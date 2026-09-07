@@ -96,6 +96,7 @@ api_specs:
   slug: ntropy-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-webhooks-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type 2
 description: ''

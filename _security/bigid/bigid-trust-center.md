@@ -60,6 +60,7 @@ api_specs:
   slug: bigid-scan-profiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-scan-profiles-api-openapi.yml
+certification_count: 3
 certifications:
 - PCI DSS
 - HIPAA

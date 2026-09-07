@@ -18,6 +18,7 @@ api_specs:
   slug: semrush-partner-service-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/openapi/semrush-partner-service-api-openapi.yml
+certification_count: 4
 certifications:
 - PCI DSS
 - GDPR

@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: Logiwa operates a real, provider-owned Trust Center at trust.logiwa.com, hosted on Vanta. The page is a JavaScript-rendered single-page application, so the control and certification detail it lists is not readable by an anonymous crawler; the certification claim recorded below comes from Logiwa's own marketing site rather than from the Trust Center body.

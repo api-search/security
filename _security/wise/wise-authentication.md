@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: wise-3ds-api-openapi.yml
@@ -294,6 +295,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Wise Authentication
 name_suffix: Authentication

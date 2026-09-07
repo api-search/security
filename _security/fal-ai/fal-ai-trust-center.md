@@ -48,6 +48,7 @@ api_specs:
   slug: fal-ai-streaming-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/openapi/fal-ai-streaming-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

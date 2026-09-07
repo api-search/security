@@ -126,6 +126,7 @@ api_specs:
   slug: credentially-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/openapi/credentially-subscriptions-api-openapi.yml
+certification_count: 6
 certifications:
 - ISO/IEC 27001:2022
 - Cyber Essentials Plus

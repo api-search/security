@@ -12,6 +12,7 @@ api_specs:
   slug: keyo-identities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keyo/refs/heads/main/openapi/keyo-identities-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - GDPR

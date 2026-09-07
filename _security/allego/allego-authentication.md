@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Allego's API surface is authenticated with OAuth 2.0. This profile is built from documents Allego actually publishes — the RFC 8414 Authorization Server Metadata and RFC 9728 Protected Resource Metadata served by the Allego MCP API Server — plus the live HTTP behaviour of the REST surface at my.allego.com/rest/. Allego publishes no public API reference and no OpenAPI, so no securityScheme block could be derived from a spec; every field below was read off a real response.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Allego Authentication
 name_suffix: Authentication

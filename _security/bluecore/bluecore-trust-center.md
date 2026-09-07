@@ -48,6 +48,7 @@ api_specs:
   slug: bluecore-send-email-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-send-email-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - GDPR

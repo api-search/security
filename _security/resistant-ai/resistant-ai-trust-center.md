@@ -12,6 +12,7 @@ api_specs:
   slug: resistant-ai-tenants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/openapi/resistant-ai-tenants-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

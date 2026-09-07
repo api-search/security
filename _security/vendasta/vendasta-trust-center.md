@@ -522,6 +522,7 @@ api_specs:
   slug: vendasta-wordpressservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-wordpressservice-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

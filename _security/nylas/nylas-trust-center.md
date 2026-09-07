@@ -78,6 +78,7 @@ api_specs:
   slug: nylas-templates-and-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-templates-and-workflows-api-openapi.yml
+certification_count: 12
 certifications:
 - SOC 2 Type II
 - ISO 27001

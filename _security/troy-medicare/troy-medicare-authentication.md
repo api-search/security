@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Troy Medicare publishes no public developer portal and no OpenAPI, so this profile is derived entirely from the two OpenID Connect discovery documents its own hosts serve anonymously. Both are OAuth 2.0 authorization servers: one in front of the secure provider portal, one in front of the health plan''s FHIR data surface. Neither documents client registration publicly — a third-party application developer has no published path to credentials.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Troy Medicare Authentication
 name_suffix: Authentication

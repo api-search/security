@@ -132,6 +132,7 @@ api_specs:
   slug: zepto-payments-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zepto-payments/refs/heads/main/openapi/zepto-payments-webhooks-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS Level 1 (v4.0)
 - ISO/IEC 27001

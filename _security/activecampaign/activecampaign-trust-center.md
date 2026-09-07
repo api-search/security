@@ -342,6 +342,7 @@ api_specs:
   slug: activecampaign-template-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-template-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

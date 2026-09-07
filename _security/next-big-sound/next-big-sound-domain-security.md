@@ -31,6 +31,7 @@ hosts:
 - host: developer.nextbigsound.com
   https: false
   https_status: connection-refused
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

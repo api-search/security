@@ -156,6 +156,7 @@ api_specs:
   slug: lawvu-webhooksubscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-webhooksubscriptions-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - SOC 1

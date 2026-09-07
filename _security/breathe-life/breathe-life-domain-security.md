@@ -13,6 +13,7 @@ hosts:
   hsts: null
   https: true
   tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for ''www.breathe'
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

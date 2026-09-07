@@ -24,6 +24,7 @@ api_specs:
   slug: go1-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-webhooks-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

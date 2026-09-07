@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Highspot runs two distinct authentication surfaces. The REST API (https://api-{instance}.highspot.com/v1.0) uses a static API client key + secret pair issued from Highspot account settings under Developer > Basics — no OAuth, no scopes, no token exchange. The remote MCP server (https://mcp.highspot.com/mcp) uses OAuth 2.1 bearer tokens issued by app.highspot.com, with Dynamic Client Registration, PKCE and refresh tokens. The OAuth half was read from Highspot's own RFC 8414 / RFC 9728 discovery documents; the API-key half is documented only in integrator documentation and in-product settings, because Highspot's developer reference sits behind an authenticated app login.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Highspot Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: confluence-space-api-openapi.yml
@@ -49,6 +50,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: derived
 name: Confluence Authentication
 name_suffix: Authentication

@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: 'Authentication profile for the Zillow Group API surface, read from the per-API fact panels Zillow Group publishes on its own developer portal. There is no single Zillow Group auth model: the portal is a directory over four separately-operated platforms, each with its own scheme. No securityScheme could be derived from a specification, because Zillow Group publishes no OpenAPI, Swagger, GraphQL SDL or AsyncAPI document on any host.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Zillow Group Authentication
 name_suffix: Authentication

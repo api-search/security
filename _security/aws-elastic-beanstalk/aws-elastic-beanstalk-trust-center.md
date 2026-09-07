@@ -6,6 +6,7 @@ api_specs:
   slug: aws-elastic-beanstalk-aws-elastic-beanstalk-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-elastic-beanstalk/refs/heads/main/openapi/aws-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

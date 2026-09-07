@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: 'SAMBAZON has no developer program and issues no API keys. Authentication on its public surface comes from two places: (1) nothing at all — the read-only Shopify storefront JSON endpoints and the discovery documents are unauthenticated; and (2) the Shopify customer-account OpenID Connect provider, whose metadata this origin publishes and whose authorization server is Shopify''s, not SAMBAZON''s. The UCP/MCP endpoint is a third case: it is not key- or token-gated but PROFILE-gated — it requires the calling agent to present a resolvable UCP agent profile URI before it will do anything.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Sambazon Authentication
 name_suffix: Authentication

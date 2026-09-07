@@ -6,6 +6,7 @@ api_specs:
   slug: fabric-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/openapi/power-query-fabric-dataflow-swagger.json
+certification_count: 25
 certifications:
 - ISO/IEC 27001
 - ISO/IEC 27017

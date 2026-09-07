@@ -66,6 +66,7 @@ api_specs:
   slug: unify-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-tasks-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

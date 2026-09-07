@@ -8,11 +8,12 @@ domains:
   domain: eda.gov
   spf: true
 hosts:
-- cert_expires: Sep 18 18:15:08 2026 GMT
+- cert_expires: Nov 16 18:44:58 2026 GMT
   host: www.eda.gov
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -25,10 +26,14 @@ slug: economic-development-administration-domain-security
 source_filename: economic-development-administration-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eda.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 18:15:08 2026 GMT\n  hsts: null\ndomains:\n- domain: eda.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eda.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 18:44:58 2026 GMT\n  hsts: null\ndomains:\n- domain: eda.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/economic-development-administration/refs/heads/main/security/economic-development-administration-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Economic Development
 - Federal-Government
+- Grants
+- Public Sector
+- Regional Development
+- Economic Data
 ---

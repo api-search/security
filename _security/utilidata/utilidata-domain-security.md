@@ -24,6 +24,7 @@ hosts:
   https: false
   tls_version: TLSv1.3
   x-finding: EXPIRED CERTIFICATE. The Karman developer host has been serving an expired Let's Encrypt certificate since 2026-07-07 — every browser, crawler and agent gets a TLS error rather than the site. Probed manually on 2026-08-05 (curl exit 60); the host is not listed in apis.yml because it is unreachable, so the automated probe does not cover it.
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

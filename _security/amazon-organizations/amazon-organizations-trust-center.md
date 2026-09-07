@@ -6,6 +6,7 @@ api_specs:
   slug: amazon-organizations-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/openapi/amazon-organizations-organizations-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

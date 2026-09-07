@@ -30,6 +30,7 @@ hosts:
 - host: www.techstyle.com
   https: true
   note: Answers HTTPS with a 301 to https://www.techstylefashiongroup.com/, which then fails to connect over TLS. No corporate content is served.
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

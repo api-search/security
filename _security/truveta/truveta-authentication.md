@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - openIdConnect
@@ -6,6 +7,7 @@ auth_types:
 description: Truveta publishes no OpenAPI, so this profile is not derived from a spec. It is read directly from the OpenID Connect discovery document Truveta's own Auth0 identity tenant serves anonymously at login.truveta.com. This is the authentication surface in front of Truveta Studio; there is no separately documented public API to authenticate against.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Truveta Authentication
 name_suffix: Authentication

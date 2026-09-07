@@ -145,6 +145,7 @@ hosts:
   https: true
   note: Legacy v1 affiliate/merchant host; returned 503 to unauthenticated probes.
   tls_version: TLSv1.3
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

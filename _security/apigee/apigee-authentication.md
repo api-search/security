@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: apigee-analytics-api-openapi.yml
@@ -246,6 +247,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Apigee Authentication
 name_suffix: Authentication

@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for the API-Sports family of sports-data APIs. API-Sports publishes no OpenAPI, so this profile was established by probing the live edge with candidate header names and recording which ones the gateway recognises. Two header names are accepted, corresponding to the provider's two distribution channels (direct subscription and the RapidAPI marketplace); every other credential shape is rejected at the edge before routing.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Api Sports Authentication
 name_suffix: Authentication

@@ -6,6 +6,7 @@ api_specs:
   slug: incountry-rest-api
   spec_type: Postman
   url: https://docs.incountry.com/assets/files/RestAPI_Demo_oAuth.postman_collection-e8b012cac5488563ba466e6ea44c309c.json
+certification_count: 11
 certifications:
 - SOC 1 Type II
 - SOC 2 Type II

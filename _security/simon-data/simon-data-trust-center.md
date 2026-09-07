@@ -12,6 +12,7 @@ api_specs:
   slug: simon-data-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-events-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

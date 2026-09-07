@@ -12,6 +12,7 @@ api_specs:
   slug: seamless-ai-mcp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/seamless-ai-mcp-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

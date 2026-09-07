@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - ISO/IEC 27001:2022
 description: Conviva publishes a Trust Center page covering compliance certification, data protection, encryption, access management, monitoring and vulnerability management. It is a narrative trust page, not a document-portal trust center (no SafeBase/Vanta/Drata portal, no downloadable audit reports behind an NDA request flow).

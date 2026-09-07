@@ -18,6 +18,7 @@ api_specs:
   slug: browserless-management-rest-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/browserless/refs/heads/main/openapi/browserless-management-rest-apis-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

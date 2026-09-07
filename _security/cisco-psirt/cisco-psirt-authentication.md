@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: cisco-psirt-current-endpoints-api-openapi.yml
@@ -25,6 +26,7 @@ auth_types:
 description: 'The OpenAPI declares only the WIRE format — HTTP bearer with a JWT. That is half the contract. Cisco''s authentication docs supply the other half: the token is an OAuth 2.0 client-credentials access token minted by Cisco''s Okta-backed identity service at id.cisco.com, from a client_id/client_secret pair issued when you register an application against this specific API in the Cisco API Console. The spec cannot express that, so an integrator reading the spec alone would not know where a token comes from.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Cisco Psirt Authentication
 name_suffix: Authentication

@@ -42,6 +42,7 @@ api_specs:
   slug: shipmonk-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-webhooks-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: 'ShipMonk has no dedicated trust center (trust.shipmonk.com does not resolve and /security returns no policy content), but it does publish its compliance posture: a completed SOC 2 Type II audit announced 2026-02-12.'

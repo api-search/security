@@ -174,6 +174,7 @@ api_specs:
   slug: dropbox-callbacks-and-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-callbacks-and-events-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2
 - ISO 27001

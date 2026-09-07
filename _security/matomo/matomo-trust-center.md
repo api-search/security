@@ -366,6 +366,7 @@ api_specs:
   slug: matomo-visittime-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-visittime-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

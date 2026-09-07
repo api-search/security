@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: microsoft-azure-virtual-machines-virtual-machines-api-openapi.yml
@@ -12,6 +13,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Microsoft Azure Virtual Machines Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: RestAPI_Demo_oAuth.postman_collection-e8b012cac5488563ba466e6ea44c309c.json
@@ -12,6 +13,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Incountry Authentication
 name_suffix: Authentication

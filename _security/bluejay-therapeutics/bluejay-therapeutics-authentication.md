@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: bluejay-therapeutics-content-api-openapi.yml
@@ -41,6 +42,7 @@ auth_types: []
 description: 'The Bluejay Therapeutics Content API is the WordPress REST API behind bluejaytx.com. Its public read surface is entirely unauthenticated: posts, pages, media, categories, tags, search, types, taxonomies, statuses and the oEmbed provider all answer anonymously. Authentication exists only for the write and administrative surface, which is closed to the public.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Bluejay Therapeutics Authentication
 name_suffix: Authentication

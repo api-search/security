@@ -12,6 +12,7 @@ api_specs:
   slug: websocket-streams
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/asyncapi/binance.us-websocket-streams-asyncapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

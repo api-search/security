@@ -30,6 +30,7 @@ api_specs:
   slug: nuclia-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-search-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

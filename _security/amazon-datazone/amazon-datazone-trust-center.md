@@ -36,6 +36,7 @@ api_specs:
   slug: amazon-datazone-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/openapi/amazon-datazone-subscriptions-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

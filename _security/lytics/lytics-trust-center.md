@@ -204,6 +204,7 @@ api_specs:
   slug: lytics-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-workflow-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

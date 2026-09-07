@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
 description: 'Demostack publishes no REST API reference and no OpenAPI, so there are no securitySchemes to derive from. The authentication model recorded here was established by probing the surfaces Demostack actually exposes: the OAuth 2.1 authorization server that fronts the Demostack MCP server, and the OAuth 2.0 authorization-code flows documented for the CRM integrations. The user-facing platform itself authenticates with SSO.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: probed
 name: Demostack Authentication
 name_suffix: Authentication

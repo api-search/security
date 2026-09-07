@@ -10,6 +10,7 @@ domains:
 hosts:
 - host: www.sonantic.io
   https: false
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

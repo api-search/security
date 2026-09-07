@@ -6,6 +6,7 @@ api_specs:
   slug: ledgy-graphql-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/openapi/ledgy-graphql-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

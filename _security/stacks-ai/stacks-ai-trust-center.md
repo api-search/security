@@ -30,6 +30,7 @@ api_specs:
   slug: stacks-ai-run-flow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-run-flow-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

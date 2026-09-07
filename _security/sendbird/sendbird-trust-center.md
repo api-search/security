@@ -24,6 +24,7 @@ api_specs:
   slug: sendbird-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/openapi/sendbird-users-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

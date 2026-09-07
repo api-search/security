@@ -252,6 +252,7 @@ api_specs:
   slug: method-financial-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/openapi/method-financial-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 2
 - PCI DSS v4.0.1

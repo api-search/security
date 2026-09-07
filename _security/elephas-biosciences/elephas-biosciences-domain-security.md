@@ -51,6 +51,7 @@ hosts:
   https: true
   note: Azure AD B2C custom-domain identity host for the Elephas tenant.
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

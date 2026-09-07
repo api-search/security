@@ -6,6 +6,7 @@ api_specs:
   slug: nightfall-ai-scan-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/openapi/nightfall-ai-scan-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

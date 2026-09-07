@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: spruce-health-contact-fields-api-openapi.yml
@@ -96,6 +97,7 @@ auth_types:
 description: 'The Spruce Health API has exactly one credential: a long-lived organization Bearer token. There is no OAuth, no OIDC, no mTLS, no per-user credential and no scope system - a token carries the full permissions of the organization it belongs to. The interesting part of Spruce''s auth posture is not the scheme but the gate in front of it: a token cannot be created at all until Spruce Support has enabled API access for the organization.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Spruce Health Authentication
 name_suffix: Authentication

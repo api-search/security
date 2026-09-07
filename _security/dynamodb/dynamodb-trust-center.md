@@ -84,6 +84,7 @@ api_specs:
   slug: dynamodb-untagresource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/openapi/dynamodb-untagresource-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

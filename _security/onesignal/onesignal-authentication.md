@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: onesignal-apps-api-openapi.yml
@@ -67,6 +68,7 @@ auth_types:
 description: OneSignal authenticates the REST API with bearer API keys in two tiers, and authenticates agent/MCP clients with a separate OAuth 2.1 authorization server. The OAuth server is real and probed — RFC 8414 metadata at api.onesignal.com, PKCE S256 required, RFC 7591 dynamic client registration open — but it is not referenced anywhere in the published OpenAPI, so a spec reader sees only the bearer schemes.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Onesignal Authentication
 name_suffix: Authentication

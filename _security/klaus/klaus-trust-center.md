@@ -12,6 +12,7 @@ api_specs:
   slug: klaus-publicexportapi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/openapi/klaus-publicexportapi-api-openapi.yml
+certification_count: 10
 certifications:
 - SOC 2 Type II
 - ISO 27001:2022

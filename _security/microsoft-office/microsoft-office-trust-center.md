@@ -18,6 +18,7 @@ api_specs:
   slug: microsoft-office-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/openapi/microsoft-office-teams-api-openapi.yml
+certification_count: 14
 certifications:
 - SOC 1
 - SOC 2

@@ -149,6 +149,7 @@ hosts:
     tls_protocol: TLSv1.3
   owner: GitHub (shared Pages wildcard) — not SparkyFitness
   server_header: GitHub.com
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

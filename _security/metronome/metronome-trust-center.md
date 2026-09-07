@@ -108,6 +108,7 @@ api_specs:
   slug: metronome-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/openapi/metronome-usage-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

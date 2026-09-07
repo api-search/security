@@ -32,6 +32,7 @@ hosts:
   https: true
   note: Akamai-fronted Q4/gcs-web investor site; blocks automated clients
   reachable: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

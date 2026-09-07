@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -271,6 +272,7 @@ auth_types:
 description: 'Koyeb has one API credential and one way to send it: a personal API token, minted in the control panel, sent as an Authorization bearer header. There is no OAuth, no OIDC, no mTLS, no scopes and no read-only variant. Upgraded from the 2026-07-11 spec-derived baseline with the token lifecycle, env-var names and live 401 behaviour, which the spec alone does not carry.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Koyeb Authentication
 name_suffix: Authentication

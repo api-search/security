@@ -24,6 +24,7 @@ api_specs:
   slug: stotles-suppliers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stotles/refs/heads/main/openapi/stotles-suppliers-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - GDPR

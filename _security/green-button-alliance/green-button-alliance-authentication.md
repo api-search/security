@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: green-button-alliance-applicationinformation-api-openapi.yml
@@ -57,6 +58,7 @@ auth_types:
 description: Three distinct authentication surfaces sit under the Green Button Alliance name and must not be conflated. (1) The CMD ESPI resource server contract - OAuth 2.0 authorization_code and client_credentials, bearer tokens, ESPI Function Block scope grammar; this is the interface every certified Data Custodian implements, not a service GBA runs. (2) The OpenESPI Authorization Server GBA publishes as a reference implementation - JWT bearer, HTTP basic client credentials, and X.509 mutual TLS client certificates, TLS 1.3 only. (3) GBA's own member single sign-on - a standard OIDC provider for the association's membership system, which grants no access to any energy data at all.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Green Button Alliance Authentication
 name_suffix: Authentication

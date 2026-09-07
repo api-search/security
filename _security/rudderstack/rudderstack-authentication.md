@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: rudderstack-event-streaming-asyncapi.yml
@@ -25,6 +26,7 @@ auth_types:
 description: 'RudderStack runs THREE distinct authentication regimes, one per plane. The data plane (event ingest) uses HTTP Basic with the source write key as the username and an empty password. The control plane at api.rudderstack.com uses a Bearer token — a workspace/organization Service Access Token (SAT) or, on Free and self-hosted plans, a user Personal Access Token (PAT). The hosted MCP server at mcp.rudderstack.com is an OAuth 2.0 protected resource with Dynamic Client Registration and PKCE. Conflating them is the most common integration error: a write key will not authenticate against api.rudderstack.com and a SAT will not authenticate an event POST.'
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Rudderstack Authentication
 name_suffix: Authentication

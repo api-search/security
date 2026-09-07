@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: Authentication profile for the Clipper RFQ API, captured from the published API reference. The API is rate-limited; DEX aggregators obtain API credentials by contacting aggregators@shipyardsoftware.org. API v2 requires API key auth; API v1 still accepts a deprecated HTTP Basic scheme.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Shipyard Software Authentication
 name_suffix: Authentication

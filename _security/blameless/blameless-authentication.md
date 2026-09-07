@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Authentication profile for the Blameless API, reconstructed from Blameless'' own published client code and from its still-live Auth0 identity tenant. Blameless published no OpenAPI, and its documentation host (docs.blameless.com) no longer resolves, so nothing here is derived from a spec — every scheme below is grounded in a fetched first-party artifact. The API itself is retired: the tenant hosts these credentials were presented to (<instance>.blameless.io) no longer exist in DNS.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Blameless Authentication
 name_suffix: Authentication

@@ -42,6 +42,7 @@ hosts:
     tls_cipher: TLS_AES_256_GCM_SHA384
     tls_protocol: TLSv1.3
   probed: '2026-08-29'
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

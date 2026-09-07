@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: diaspora-aspects-api-openapi.yml
@@ -90,6 +91,7 @@ auth_types:
 description: diaspora* authenticates API clients with OpenID Connect Core 1.0. Because diaspora* is decentralized, a manual application registration on a single pod is not sufficient, so the project also implements OpenID Connect Discovery 1.0 and OpenID Connect Dynamic Client Registration 1.0 — an application discovers a pod's endpoints and registers itself at runtime against pods it has never seen before. There is no static API key and no shared client credential across the network.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Diaspora Authentication
 name_suffix: Authentication

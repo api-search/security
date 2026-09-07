@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: musicbrainz-areas-api-openapi.yml
@@ -103,6 +104,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Musicbrainz Authentication
 name_suffix: Authentication

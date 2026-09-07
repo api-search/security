@@ -42,6 +42,7 @@ api_specs:
   slug: zinrelo-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zinrelo/refs/heads/main/openapi/zinrelo-transactions-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

@@ -180,6 +180,7 @@ api_specs:
   slug: chef-software-usersettingsservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-usersettingsservice-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

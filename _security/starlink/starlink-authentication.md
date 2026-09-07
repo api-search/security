@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: starlink-telemetry-asyncapi.yml
@@ -86,6 +87,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Starlink Authentication
 name_suffix: Authentication

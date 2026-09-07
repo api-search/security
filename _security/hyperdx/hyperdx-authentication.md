@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: hyperdx-alerts-api-openapi.yml
@@ -60,6 +61,7 @@ auth_types:
 description: One credential, one scheme, across every HyperDX surface. The REST API (v1 and v2), the MCP server and the CLI all authenticate with a personal API access key presented as an HTTP Bearer token. There is no OAuth, no OpenID Connect, no mTLS, no scopes and no service-account concept — the key carries whatever the person it belongs to can do in their team.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Hyperdx Authentication
 name_suffix: Authentication

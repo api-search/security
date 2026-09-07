@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: snu-oai-pmh-api-openapi.yml
@@ -19,6 +20,7 @@ auth_types:
 description: Seoul National University issues no API keys, runs no developer registration, and publishes no OAuth or OIDC authorization server for any public surface. Its two machine-readable interfaces are anonymous by design, and its one credentialed surface is a federation Identity Provider that authenticates SNU's own people to other organizations' services — not an API SNU sells access to.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Snu Authentication
 name_suffix: Authentication

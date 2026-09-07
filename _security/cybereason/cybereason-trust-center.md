@@ -54,6 +54,7 @@ api_specs:
   slug: cybereason-visualsearch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-visualsearch-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

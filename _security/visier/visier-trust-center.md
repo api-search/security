@@ -300,6 +300,7 @@ api_specs:
   slug: visier-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/visier/refs/heads/main/openapi/visier-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - CSA STAR Level 1

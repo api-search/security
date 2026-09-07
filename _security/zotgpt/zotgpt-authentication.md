@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: zotgpt-chat-api-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: 'ZotGPT runs two distinct authentication planes. Human access to every interactive product is federated campus SSO — a Shibboleth SAML2 redirect to shib.service.uci.edu, observed live on chat.zotgpt.uci.edu. Machine access is key-based, and the key is always minted only after a human has authenticated with UCInetID: an Azure API Management subscription key for the deprecated API, and a workspace virtual key for the Gateway. There is no anonymous self-service signup on either plane, and there is no public OAuth authorization server.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Zotgpt Authentication
 name_suffix: Authentication

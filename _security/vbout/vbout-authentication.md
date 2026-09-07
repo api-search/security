@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - query
 - body
@@ -99,6 +100,7 @@ auth_types:
 description: VBOUT API authentication profile. The API authenticates every call with a single account-level API key. The published OpenAPI (3.1.0, harvested from https://developers.vbout.com/scripts/openapi.json) declares no components.securitySchemes, so this profile is captured from the developer quickstart, the legacy Swagger console, and the live /.well-known/ai-plugin.json manifest on www.vbout.com.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Vbout Authentication
 name_suffix: Authentication

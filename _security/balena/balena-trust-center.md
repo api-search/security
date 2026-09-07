@@ -36,6 +36,7 @@ api_specs:
   slug: balena-releases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/openapi/balena-releases-api-openapi.yml
+certification_count: 1
 certifications:
 - ISO 27001
 description: ''

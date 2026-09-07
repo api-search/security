@@ -31,6 +31,7 @@ hosts:
   - x-frame-options: DENY
   - referrer-policy: no-referrer
   - content-security-policy: default-src 'none'
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

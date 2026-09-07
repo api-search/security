@@ -42,6 +42,7 @@ api_specs:
   slug: easypost-trackers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-trackers-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

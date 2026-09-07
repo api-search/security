@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: brown-bdr-api-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: 'Brown''s programmable surface has two authentication stories and they do not meet. The public BDR API has no authentication at all — no key, no OAuth, no registration, nothing to obtain. The institution''s real identity infrastructure is a SAML 2.0 Shibboleth identity provider registered in InCommon, which is a browser SSO protocol and is not usable as API credentials. There is no bridge: no OAuth authorization server, no token endpoint, no OIDC discovery document, no dynamic client registration, no protected-resource metadata. An agent or a script cannot authenticate to anything at Brown; it can only read what is already public.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: derived
 name: Brown Authentication
 name_suffix: Authentication

@@ -24,6 +24,7 @@ api_specs:
   slug: survicate-surveys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/survicate/refs/heads/main/openapi/survicate-surveys-api-openapi.yml
+certification_count: 4
 certifications:
 - ISO 27001
 - PCI DSS

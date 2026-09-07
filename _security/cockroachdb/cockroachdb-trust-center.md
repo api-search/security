@@ -156,6 +156,7 @@ api_specs:
   slug: cockroachdb-versiondeferral-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-versiondeferral-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

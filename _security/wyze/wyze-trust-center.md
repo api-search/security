@@ -1,4 +1,5 @@
 ---
+certification_count: 3
 certifications:
 - ioXt Alliance certification
 - Google MASA (Mobile Application Security Assessment)

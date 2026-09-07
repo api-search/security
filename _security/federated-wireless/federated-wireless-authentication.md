@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
 description: 'Federated Wireless publishes no OpenAPI or Swagger document on any host, so this profile could not be derived from securitySchemes. It was assembled entirely from live probes. There is exactly one publicly documented authentication mechanism — the OAuth 2.1 authorization server that fronts the MCP server on federatedwireless.ai. Every other Federated Wireless API surface is authenticated but undocumented: the three Spectrum Controller AWS API Gateway endpoints return 403 MissingAuthenticationTokenException to anonymous callers without advertising a scheme, and the regulated SAS-CBSD and 6 GHz AFC interfaces are not reachable from the public internet at all.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Federated Wireless Authentication
 name_suffix: Authentication

@@ -612,6 +612,7 @@ api_specs:
   slug: tricentis-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tricentis/refs/heads/main/openapi/tricentis-workspaces-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2 Type 2
 - ISO/IEC 27001:2022

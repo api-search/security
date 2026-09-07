@@ -348,6 +348,7 @@ api_specs:
   slug: zenhr-inc-work-shifts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zenhr-inc/refs/heads/main/openapi/zenhr-inc-work-shifts-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

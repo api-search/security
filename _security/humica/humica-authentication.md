@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
 description: Authentication profile for the Employment Hero API (the platform behind humi.ca — Humi is now Employment Hero Canada). The API uses OAuth 2.0 authorization-code with PKCE (S256) mandatory as of 2026-09-14. Bearer access tokens are short-lived (15 minutes); refresh tokens currently do not expire. Token requests are sent as application/x-www-form-urlencoded.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Humica Authentication
 name_suffix: Authentication

@@ -23,6 +23,7 @@ hosts:
   https: false
   note: CNAMEs to Atlassian Statuspage (2c8f8lzxjbxr.stspg-customer.com) but presents CN=*.statuspage.io, which does not cover status.mutinyhq.com — TLS validation fails for every conforming client. See lifecycle/mutiny-lifecycle.yml.
   tls_error: certificate name mismatch
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

@@ -54,6 +54,7 @@ api_specs:
   slug: creditbenchmark-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-metadata-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

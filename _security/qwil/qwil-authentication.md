@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
 description: 'Authentication profile for the Qwil API. Derived from live probing rather than a published OpenAPI (Qwil publishes no public specification). The production API host at https://api.qwil.co is a Django REST Framework service that answers unauthenticated requests with HTTP 401 and `WWW-Authenticate: Bearer realm="api"`, indicating bearer-token authorization. The Qwil web application (app.qwil.com) authenticates end users through Firebase Authentication (Google Identity Platform) on the multi-tenant project `qwil-1149` / tenant `qwil-prod-*`; the resulting identity token is presented to the API as a bearer token. No public OAuth authorization-server or OpenID Connect discovery document is exposed (see well-known/qwil-well-known.yml). Access to the API is private/partner-gated.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Qwil Authentication
 name_suffix: Authentication

@@ -18,6 +18,7 @@ api_specs:
   slug: ultrahuman-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-user-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - HIPAA

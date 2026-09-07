@@ -6,6 +6,7 @@ api_specs:
   slug: sardine-api
   spec_type: OpenAPI
   url: https://docs.sardine.ai/try_api_online
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

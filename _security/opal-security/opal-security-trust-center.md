@@ -132,6 +132,7 @@ api_specs:
   slug: opal-security-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opal-security/refs/heads/main/openapi/opal-security-users-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

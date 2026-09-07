@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: ShipHawk uses a single key-based authentication scheme. There is no OAuth 2.0, no OpenID Connect, no mutual TLS and no scope surface — one API key per environment carries full account authority. Keys can be sent either as a request header or as a URL query parameter; the query-parameter form is documented by ShipHawk and is used throughout their own cURL examples, which puts credentials in server logs, browser history and referrer headers.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Shiphawk Authentication
 name_suffix: Authentication

@@ -42,6 +42,7 @@ api_specs:
   slug: palla-transfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/openapi/palla-transfers-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

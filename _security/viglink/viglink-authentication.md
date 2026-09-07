@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -56,6 +57,7 @@ auth_types:
 description: 'Every Sovrn Commerce (formerly VigLink) API authenticates with a static, per-SITE API key. There is no OAuth, no OIDC, no mTLS, and no token exchange anywhere in the estate. Two key materials exist and they are not interchangeable: a SECRET key sent in the Authorization header for the authenticated data APIs and the MCP server, and a PUBLIC Commerce API key sent as a `key` query parameter on the link/bid check surface and embedded in the client-side JavaScript snippet.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Viglink Authentication
 name_suffix: Authentication

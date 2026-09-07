@@ -75,6 +75,7 @@ hosts:
   hsts: false
   https: true
   note: IoT Card Capability Open Platform (Tomcat). TLS version and certificate expiry were not captured in this round.
+hosts_probed: 7
 kind: domain-security
 layout: security
 method: probed

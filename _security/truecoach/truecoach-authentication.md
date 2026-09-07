@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - apiKey
 description: TrueCoach publishes no public developer API program or API reference, so there is no OpenAPI to derive an auth profile from. The only documented programmatic access is the Zapier partner integration (Pro plan and above), authorized with an API key that a coach copies from Settings > Integration > Zapier (app.truecoach.co/coach/account/trainer-zapier) and pastes into Zapier. The web/mobile apps themselves authenticate end users with email/password and Google OAuth 2.0 sign-in against the private api.truecoach.co backend; that surface is not documented for third parties.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Truecoach Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+certification_count: 8
 certifications:
 - FedRAMP High
 - SOC 2

@@ -174,6 +174,7 @@ api_specs:
   slug: agentmail-api-reference-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-api-reference-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type I
 - SOC 2 Type II

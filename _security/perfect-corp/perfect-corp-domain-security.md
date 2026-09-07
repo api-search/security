@@ -34,6 +34,7 @@ hosts:
   https: true
   note: The automated probe read null because the API host answers its root with a JSON 404; the HSTS header IS returned on an authenticated-route response (observed on a 401 from GET /s2s/v2.0/credit/feature-cost, 2026-09-02).
   tls_version: TLSv1.2
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

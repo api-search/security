@@ -60,6 +60,7 @@ api_specs:
   slug: metabase-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/openapi/metabase-users-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

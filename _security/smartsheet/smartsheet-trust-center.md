@@ -30,6 +30,7 @@ api_specs:
   slug: smartsheet-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - HIPAA
 - FedRAMP

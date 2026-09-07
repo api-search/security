@@ -66,6 +66,7 @@ api_specs:
   slug: return-path-view-time-optimization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/return-path/refs/heads/main/openapi/return-path-view-time-optimization-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2 Type 2
 - ISO/IEC 27001

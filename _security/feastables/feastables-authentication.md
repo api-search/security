@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - none
@@ -8,6 +9,7 @@ auth_types:
 description: 'Feastables publishes no OpenAPI, so this profile is derived from live probes of the store''s own /.well-known/ discovery documents plus its /agents.md agent instructions. Three distinct authentication postures coexist: the Storefront MCP server is anonymous, the UCP Shopping MCP server is gated on a UCP agent profile identity, and customer-account access runs on Shopify-hosted OAuth 2.0 / OpenID Connect.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Feastables Authentication
 name_suffix: Authentication

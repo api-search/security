@@ -66,6 +66,7 @@ api_specs:
   slug: sense-talent-labs-submission-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-submission-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

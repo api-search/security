@@ -6,6 +6,7 @@ api_specs:
   slug: crowdtwist-loyalty
   spec_type: Postman
   url: https://raw.githubusercontent.com/api-evangelist/crowdtwist/refs/heads/main/postman/crowdtwist-starter-kit.postman_collection.json
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

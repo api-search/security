@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - formData
@@ -9,6 +10,7 @@ auth_types:
 description: TestFairy authenticates REST API calls with HTTP Basic auth using your account email as the username and your API key as the password, or with an OIDC bearer token (Sauce Labs single sign-on). The API key is found on the TestFairy account settings page. The Upload API additionally accepts the API key as an `api_key` multipart form field. No OAuth 2.0 authorization-code / scope surface is documented, so there is no scopes/ artifact for this provider.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Testfairy Authentication
 name_suffix: Authentication

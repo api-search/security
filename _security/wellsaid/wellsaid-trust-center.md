@@ -24,6 +24,13 @@ api_specs:
   slug: wellsaid-voices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-voices-api-openapi.yml
+- filename: wellsaid-labs-voice-avatars-api-openapi.yml
+  format: yaml
+  label: WellSaid Labs Voice Avatars API
+  slug: wellsaid-labs-voice-avatars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-labs-voice-avatars-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

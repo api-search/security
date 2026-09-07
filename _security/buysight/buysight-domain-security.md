@@ -30,6 +30,7 @@ hosts:
   hsts: false
   https: false
   https_error: connection timed out (port 443 unreachable)
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

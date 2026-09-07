@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - openIdConnect
 description: NTT DOCOMO, Inc. publishes no REST API and therefore no OpenAPI securitySchemes. Its one anonymously discoverable authentication surface is d ACCOUNT Connect (dアカウント・コネクト), an OpenID Connect Provider fronting roughly 90 million d ACCOUNT registrations across approximately 2,000 implemented relying-party sites. This profile is read from the live OIDC discovery document plus DOCOMO's own business documentation — the integration manual and support libraries are downloadable only after an application and a DOCOMO review (審査), so the client-authentication methods, grant types and claim set are not publicly readable.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Ntt Docomo Authentication
 name_suffix: Authentication

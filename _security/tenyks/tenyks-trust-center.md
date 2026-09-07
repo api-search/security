@@ -18,6 +18,7 @@ api_specs:
   slug: tenyks-datasets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/openapi/tenyks-datasets-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - GDPR

@@ -612,6 +612,7 @@ api_specs:
   slug: opengov-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/openapi/opengov-vendors-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2 Type 2
 - SOC 3

@@ -12,6 +12,7 @@ api_specs:
   slug: moxe-health-patient-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/openapi/moxe-health-patient-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

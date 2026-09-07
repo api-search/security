@@ -162,6 +162,7 @@ api_specs:
   slug: amazon-incident-manager-updatetimelineevent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-updatetimelineevent-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

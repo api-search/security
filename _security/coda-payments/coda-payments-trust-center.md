@@ -1,4 +1,5 @@
 ---
+certification_count: 2
 certifications:
 - PCI DSS Level 1 (claimed on www.coda.co/security; the docs compliance page states SAQ A-EP self-assessment and no independent PCI certification — see conformance/coda-payments-conformance.yml)
 - ISO/IEC 27001:2022 (claimed on www.coda.co/security; the docs compliance page states Coda is currently not certified with ISO 27001)

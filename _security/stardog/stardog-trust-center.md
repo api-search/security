@@ -144,6 +144,7 @@ api_specs:
   slug: stardog-virtual-graphs-external-compute-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-virtual-graphs-external-compute-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: 'Diligent Pharma publishes a trust center on its own subdomain, https://trust.diligentpharma.com/ (HTTP 200), running the HyperComply Trust Center product. The surface is real and provider-controlled, but its contents are rendered entirely client-side: the served HTML is a shell titled "HyperComply" and every section is fetched afterwards through an Apollo GraphQL client, so an unauthenticated fetch returns no certification names, no framework list, no subprocessor list and no downloadable documents. Presence is recorded here; NO certification is claimed, because none could be read.'
 kind: trust-center

@@ -403,6 +403,7 @@ hosts:
   https: false
 - host: api-demo-est.paas.macrometa.io
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

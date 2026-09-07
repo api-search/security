@@ -6,6 +6,7 @@ api_specs:
   slug: accessibe-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/openapi/accessibe-accounts-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

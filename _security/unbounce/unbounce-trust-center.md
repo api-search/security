@@ -42,6 +42,7 @@ api_specs:
   slug: unbounce-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-users-api-openapi.yml
+certification_count: 1
 certifications:
 - PCI DSS
 description: ''

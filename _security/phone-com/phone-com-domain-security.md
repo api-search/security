@@ -11,6 +11,7 @@ hosts:
   hsts: false
   http_version: HTTP/2
   tls: true
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

@@ -1,10 +1,12 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - http
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Okendo Authentication
 name_suffix: Authentication

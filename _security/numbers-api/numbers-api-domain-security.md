@@ -36,6 +36,12 @@ api_specs:
   slug: numbers-api-year-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-api-year-api-openapi.yml
+- filename: numbers-batch-api-openapi.yml
+  format: yaml
+  label: Numbers API Batch API
+  slug: numbers-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-batch-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,6 +56,7 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

@@ -41,6 +41,7 @@ hosts:
   https: true
   note: 'The generic probe of / returns 404 without the HSTS header; probing the documented API path GET /v1/api/{orgId}/sources returns HTTP 401 with `strict-transport-security: max-age=31536000; includeSubDomains; preload`. Recorded from that observed response.'
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

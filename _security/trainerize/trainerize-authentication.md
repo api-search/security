@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: trainerize-client-data-api-openapi.yml
@@ -37,6 +38,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Trainerize Authentication
 name_suffix: Authentication

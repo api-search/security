@@ -21,6 +21,7 @@ hosts:
   https: true
   note: Bigfoot Clinic Hub healthcare-professional portal, served from Salesforce Experience Cloud (siteforce.com). Added by hand; not discovered by the mechanical probe because no apis[] entry points at this host.
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

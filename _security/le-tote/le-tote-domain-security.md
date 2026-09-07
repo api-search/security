@@ -21,6 +21,7 @@ hosts:
   https: false
   resolves: false
   tls_version: null
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

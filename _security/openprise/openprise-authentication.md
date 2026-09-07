@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: Authentication profile for the Openprise API Factory surface and for the Openprise Cloud platform itself. Derived from the provider's own Help Center rather than from an OpenAPI document — Openprise publishes no machine-readable specification, because every API Factory endpoint is generated per tenant from a customer-configured Job or Bot and its contract is shown inside the application ("View API Docs").
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Openprise Authentication
 name_suffix: Authentication

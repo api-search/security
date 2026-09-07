@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: steadfast-group-address-api-openapi.yml
@@ -20,6 +21,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Steadfast Group Authentication
 name_suffix: Authentication

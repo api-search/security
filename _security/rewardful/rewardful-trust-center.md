@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: 'Rewardful operates a public trust center covering its data-protection posture: controller vs processor split, GDPR/CCPA adherence, technical and organizational measures, a sub-processor list, and a DPA available on request. IMPORTANT ATTRIBUTION NOTE — the page names SOC 1/2/3, FedRAMP, PCI DSS Level 1 and ISO 9001/27001/27017/27018, but attributes every one of them to AMAZON WEB SERVICES, the infrastructure under Rewardful''s Heroku hosting. Rewardful claims NO certification of its own on this page, so none is recorded against Rewardful here.'
 kind: trust-center

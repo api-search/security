@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: michigan-state-university-record-api-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: How authentication works across Michigan State University's institution-operated surfaces. MSU operates no API key programme, no developer registration, and no OAuth authorization server for public API consumers. The public read surfaces are open and unauthenticated; everything else is gated by institutional identity through the university's Shibboleth Identity Provider, which is a federation membership question rather than an API onboarding one.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Michigan State University Authentication
 name_suffix: Authentication

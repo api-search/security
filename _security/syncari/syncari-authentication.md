@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Syncari runs two independent OAuth 2.0 surfaces. The Syncari Embed REST API uses the client-credentials grant against a token endpoint on the API host itself; the hosted MCP server uses the authorization-code grant with PKCE and RFC 7591 dynamic client registration against an authorization server on app.syncari.com. Both issue Bearer tokens carried in the Authorization header. Derived from Syncari's own documentation plus a live probe of the MCP OAuth metadata - no OpenAPI securitySchemes exist because Syncari publishes no machine-readable contract.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Syncari Authentication
 name_suffix: Authentication

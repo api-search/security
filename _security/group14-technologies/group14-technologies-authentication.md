@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: group14-technologies-discovery-api-openapi.yml
@@ -65,6 +66,7 @@ auth_types: []
 description: Group14 Technologies publishes no developer program, no API keys, no OAuth, no signup and no documentation of any kind for machine access. Everything below was read off live responses on 2026-08-22, not from a docs page, because there is no docs page.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Group14 Technologies Authentication
 name_suffix: Authentication

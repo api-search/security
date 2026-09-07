@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: nura-bio-directory-api-openapi.yml
@@ -47,6 +48,7 @@ auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Nura Bio Authentication
 name_suffix: Authentication

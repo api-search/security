@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: mon-ami-care-plans-api-openapi.yml
@@ -108,6 +109,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Mon Ami Authentication
 name_suffix: Authentication

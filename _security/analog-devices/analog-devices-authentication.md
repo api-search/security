@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Most Analog Devices developer software carries no authentication at all — libiio, pyadi-iio and no-OS are local libraries that talk to silicon over USB, SPI, I2C or a network daemon, and the iiod daemon has no built-in authentication (the published guidance is to wrap it in stunnel). The one real authentication surface ADI documents is myAnalog, which gates the CodeFusion Studio Package Manager's restricted package remotes. It supports an interactive browser login and, for CI/CD, long-lived API keys managed through cfsutil.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Analog Devices Authentication
 name_suffix: Authentication

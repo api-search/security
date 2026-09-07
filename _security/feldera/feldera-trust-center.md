@@ -36,6 +36,7 @@ api_specs:
   slug: feldera-platform-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/feldera-platform-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

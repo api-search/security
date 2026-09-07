@@ -60,6 +60,7 @@ api_specs:
   slug: crypto-com-transaction-history-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/openapi/crypto-com-transaction-history-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - PCI DSS

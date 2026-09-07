@@ -63,10 +63,10 @@ api_specs:
 description: ''
 domains:
 - caa:
+  - 0 iodef "mailto:security@autopay.io"
   - 0 issue "pki.goog"
   - 0 issuewild ";"
   - 0 issue "letsencrypt.org"
-  - 0 iodef "mailto:security@autopay.io"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
@@ -79,7 +79,7 @@ domains:
   domain: autopay.no
   spf: true
 hosts:
-- cert_expires: Aug 13 12:37:23 2026 GMT
+- cert_expires: Oct 12 13:42:45 2026 GMT
   host: developer.autopay.io
   hsts: true
   hsts_max_age: 31556926
@@ -87,11 +87,12 @@ hosts:
   tls_version: TLSv1.3
 - host: autopay.no
   https: false
-- cert_expires: Sep  8 09:39:44 2026 GMT
+- cert_expires: Oct 30 02:53:54 2026 GMT
   host: api.autopay.io
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
@@ -104,7 +105,7 @@ slug: autopay-domain-security
 source_filename: autopay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.autopay.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 12:37:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: autopay.no\n  https: false\n- host: api.autopay.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 09:39:44 2026 GMT\n  hsts: null\ndomains:\n- domain: autopay.io\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \";\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 iodef \"mailto:security@autopay.io\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: autopay.no\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.autopay.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 13:42:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: autopay.no\n  https: false\n- host: api.autopay.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 02:53:54 2026 GMT\n  hsts: null\ndomains:\n- domain: autopay.io\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:security@autopay.io\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \";\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: autopay.no\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/security/autopay-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

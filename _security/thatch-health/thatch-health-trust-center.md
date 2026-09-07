@@ -42,6 +42,7 @@ api_specs:
   slug: thatch-health-pay-schedules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/openapi/thatch-health-pay-schedules-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

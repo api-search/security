@@ -156,6 +156,7 @@ api_specs:
   slug: render-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-workspaces-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

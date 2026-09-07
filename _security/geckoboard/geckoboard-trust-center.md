@@ -12,6 +12,7 @@ api_specs:
   slug: geckoboard-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/openapi/geckoboard-health-api-openapi.yml
+certification_count: 2
 certifications:
 - PCI DSS
 - GDPR

@@ -36,6 +36,7 @@ api_specs:
   slug: elastic-stack-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elastic-stack/refs/heads/main/openapi/elastic-stack-settings-api-openapi.yml
+certification_count: 1
 certifications:
 - GDPR
 description: ''

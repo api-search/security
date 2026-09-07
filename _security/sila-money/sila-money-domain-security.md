@@ -65,6 +65,7 @@ hosts:
   http_status: 200
   https: true
   note: ReadMe-hosted docs (ssl.readmessl.com / Cloudflare), redirects to /docs/get-started.
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

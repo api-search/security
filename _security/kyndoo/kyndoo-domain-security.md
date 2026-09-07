@@ -44,6 +44,7 @@ hosts:
   port_443: closed
   reachable: false
   tls_version: null
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

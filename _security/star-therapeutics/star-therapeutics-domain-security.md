@@ -76,6 +76,7 @@ hosts:
   server: cloudflare
   tls_version: TLSv1.3
   www_redirect: 301 to apex
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

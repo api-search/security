@@ -144,6 +144,7 @@ api_specs:
   slug: roboflow-yolo-world-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/openapi/roboflow-yolo-world-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

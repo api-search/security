@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -92,6 +93,7 @@ auth_types:
 description: Serper uses a single static API key. The documented path is an X-API-KEY request header on a POST. Serper's own playground can also emit the call as a GET with the key in an `apiKey` query-string parameter — a second, weaker convention that puts the credential in the URL. There is no OAuth, no OIDC, no scopes, no token exchange and no expiry. Keys are created and revoked in the account dashboard at https://serper.dev/api-keys, which supports multiple named keys per account.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Serper Authentication
 name_suffix: Authentication

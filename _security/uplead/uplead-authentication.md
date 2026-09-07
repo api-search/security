@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -55,6 +56,7 @@ auth_types:
 description: 'UpLead uses a single static API key on every call. The key is placed in the Authorization header and sent bare — "Authorization: myapikey" — with no Bearer or other scheme prefix, which is the detail most integrations get wrong. There is no OAuth, no OpenID Connect, no mutual TLS, no signing, no key rotation endpoint, and no scope system: one key carries the account''s full plan entitlement.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Uplead Authentication
 name_suffix: Authentication

@@ -18,6 +18,7 @@ api_specs:
   slug: sinai-technologies-organization-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sinai-technologies/refs/heads/main/openapi/sinai-technologies-organization-management-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type 2
 description: ''

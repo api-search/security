@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Hidden Road Authentication
 name_suffix: Authentication

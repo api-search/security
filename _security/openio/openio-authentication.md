@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: 'OpenIO SDS exposes object storage through an S3-compatible gateway and an OpenStack Swift-compatible gateway. Authentication is therefore whatever the chosen gateway protocol defines: AWS Signature (v2 and v4) for the S3 gateway, and Swift auth (Keystone / TempAuth) for the Swift gateway. There is no provider-published OpenAPI, so this profile is derived from the documentation rather than from a machine-readable security scheme.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Openio Authentication
 name_suffix: Authentication

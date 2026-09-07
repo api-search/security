@@ -6,6 +6,7 @@ api_specs:
   slug: stoplight-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/openapi/stoplight-versions-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO/IEC 27001

@@ -108,6 +108,7 @@ api_specs:
   slug: amazon-codestar-x-amz-target-codestar-20170419-updateuserprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/openapi/amazon-codestar-x-amz-target-codestar-20170419-updateuserprofile-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

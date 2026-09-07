@@ -48,6 +48,7 @@ api_specs:
   slug: reachdesk-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-transactions-api-openapi.yml
+certification_count: 3
 certifications:
 - verified
 - claimed

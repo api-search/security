@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: aerin-medical-discovery-api-openapi.yml
@@ -37,6 +38,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Aerin Medical Authentication
 name_suffix: Authentication

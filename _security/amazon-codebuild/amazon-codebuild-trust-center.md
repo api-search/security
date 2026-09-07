@@ -282,6 +282,7 @@ api_specs:
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-updatewebhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/openapi/amazon-codebuild-x-amz-target-codebuild-20161006-updatewebhook-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

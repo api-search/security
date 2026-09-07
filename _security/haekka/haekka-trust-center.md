@@ -18,6 +18,7 @@ api_specs:
   slug: haekka-trainings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/haekka/refs/heads/main/openapi/haekka-trainings-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

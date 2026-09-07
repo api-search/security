@@ -6,6 +6,7 @@ api_specs:
   slug: yuno-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/openapi/_original/yuno-openapi-original.json
+certification_count: 6
 certifications:
 - GDPR
 - ISO/IEC 27001

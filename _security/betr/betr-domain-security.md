@@ -40,6 +40,7 @@ hosts:
   https: true
   note: Staging back-office API docs host (AWS ELB, us-east-1); HTTP 403 on every path.
   tls_version: TLSv1.3
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

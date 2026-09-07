@@ -18,6 +18,7 @@ api_specs:
   slug: zilliz-collections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zilliz/refs/heads/main/openapi/zilliz-collections-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

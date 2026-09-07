@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - token
@@ -6,6 +7,7 @@ auth_types:
 description: Platform9 Private Cloud Director uses OpenStack Keystone v3 identity. Clients authenticate at POST https://{host}/keystone/v3/auth/tokens to obtain a token, then present it on subsequent requests via the X-Auth-Token header. Machine-to- machine automation uses Application Credentials (id/name/secret) rather than user passwords. Multi-factor (TOTP) and Enterprise SSO (SAML/OIDC via Dex) are supported. Tokens can be scoped to a project, domain, or system.
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Platform9 Authentication
 name_suffix: Authentication

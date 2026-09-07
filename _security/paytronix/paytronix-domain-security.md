@@ -99,6 +99,7 @@ hosts:
   tls_version: TLSv1.2
 - host: docs.opendining.net
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

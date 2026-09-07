@@ -22,6 +22,7 @@ hosts:
   hsts_note: 'Corrected by hand on 2026-08-14. probe-domain-security.py recorded null because the host root returns HTTP 404; the 404 response itself carries strict-transport-security: max-age=31536000; includeSubDomains, as does every 200 from /api/. Verified with curl -I https://api.flockjay.com/ and https://api.flockjay.com/api/.'
   https: true
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

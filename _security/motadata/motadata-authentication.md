@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Motadata runs two products with two different, unrelated authentication models. Both are self-hosted, so every credential is issued by the customer's own instance — there is no Motadata-operated identity provider, no shared developer portal, and no central key issuance. No /.well-known/openid-configuration or /.well-known/oauth-authorization-server is served on any Motadata host (all 404 or SPA shell; see well-known/motadata-well-known.yml).
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Motadata Authentication
 name_suffix: Authentication

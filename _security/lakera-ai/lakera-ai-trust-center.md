@@ -24,6 +24,7 @@ api_specs:
   slug: lakera-ai-results-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakera-ai/refs/heads/main/openapi/lakera-ai-results-api-openapi.yml
+certification_count: 1
 certifications:
 - GDPR
 description: ''

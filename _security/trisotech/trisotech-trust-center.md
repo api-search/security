@@ -1,4 +1,5 @@
 ---
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - ISO/IEC 27001:2013

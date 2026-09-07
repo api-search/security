@@ -18,6 +18,7 @@ api_specs:
   slug: assemblyai-transcript-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/openapi/assemblyai-transcript-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - PCI DSS

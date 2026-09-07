@@ -30,6 +30,7 @@ api_specs:
   slug: ironcore-labs-tenant-secret-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/openapi/ironcore-labs-tenant-secret-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

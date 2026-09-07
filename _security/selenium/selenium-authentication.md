@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: selenium-cookies-api-openapi.yml
@@ -41,6 +42,7 @@ auth_types: []
 description: 'Authentication model for the Selenium WebDriver wire protocol and Selenium Grid. The W3C WebDriver standard defines NO authentication — that is a deliberate property of the standard, not an omission by Selenium. Security is a deployment concern: run the remote end on a private network, front it with a reverse proxy, or turn on Grid''s built-in HTTP Basic. derive-authentication.py produced no profile for this provider precisely because the captured OpenAPI declares no securitySchemes; everything below is read from the Grid documentation instead.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Selenium Authentication
 name_suffix: Authentication

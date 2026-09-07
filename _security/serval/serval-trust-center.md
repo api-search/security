@@ -6,6 +6,7 @@ api_specs:
   slug: serval-auth-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/serval/refs/heads/main/openapi/serval-auth-api-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

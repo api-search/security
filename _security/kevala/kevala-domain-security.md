@@ -21,6 +21,7 @@ hosts:
   hsts_note: 'Corrected by hand 2026-08-23. The automated probe recorded null because the API host answers 404 (nginx) at "/" with no body to score; a direct HEAD on https://api.kevala.com/ returns `strict-transport-security: max-age=31536000; includeSubDomains; preload`.'
   https: true
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

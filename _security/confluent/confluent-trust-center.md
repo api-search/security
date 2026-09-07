@@ -750,6 +750,7 @@ api_specs:
   slug: confluent-version-2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-version-2-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 1 Type 2
 - SOC 2 Type 2

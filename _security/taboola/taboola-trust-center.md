@@ -96,6 +96,7 @@ api_specs:
   slug: taboola-video-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-video-items-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO/IEC 27001:2022
 - ISO/IEC 27701:2019

@@ -71,6 +71,7 @@ hosts:
   https: true
   note: legacy Balbix marketing domain; issues HTTP 301 to https://safe.security/
   tls_version: TLSv1.3
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

@@ -6,6 +6,7 @@ api_specs:
   slug: jamf-pro-api
   spec_type: OpenAPI
   url: https://your-instance.jamfcloud.com/api/schema
+certification_count: 14
 certifications:
 - SOC 2 Type 1
 - SOC 2 Type 2

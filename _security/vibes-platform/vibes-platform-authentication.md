@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: vibes-platform-acquisition-campaigns-api-openapi.yml
@@ -187,6 +188,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Vibes Platform Authentication
 name_suffix: Authentication

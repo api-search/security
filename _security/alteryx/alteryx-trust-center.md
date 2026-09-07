@@ -36,6 +36,7 @@ api_specs:
   slug: alteryx-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/openapi/alteryx-workflows-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2
 - ISO 27001

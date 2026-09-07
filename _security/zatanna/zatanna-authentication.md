@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: 'Authentication profile derived from Zatanna''s live RFC 8414 OAuth 2.0 authorization-server metadata (https://api.zatanna.ai/.well-known/oauth-authorization-server) and RFC 9728 protected-resource metadata. No first-party OpenAPI is published, so this is drawn directly from the discovery documents. Two credential paths are observed: OAuth 2.0 Authorization Code + PKCE (for MCP / agent clients) and a Zatanna-issued API key (Bearer), which the /mcp 401 body explicitly requests ("Valid API key required").'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Zatanna Authentication
 name_suffix: Authentication

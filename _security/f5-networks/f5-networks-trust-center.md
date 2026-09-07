@@ -30,6 +30,7 @@ api_specs:
   slug: f5-networks-virtual-servers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/f5-networks/refs/heads/main/openapi/f5-networks-virtual-servers-api-openapi.yml
+certification_count: 2
 certifications:
 - PCI DSS
 - GDPR

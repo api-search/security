@@ -54,6 +54,7 @@ api_specs:
   slug: truefoundry-rerank-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-rerank-api-openapi.yml
+certification_count: 2
 certifications:
 - HIPAA
 - GDPR

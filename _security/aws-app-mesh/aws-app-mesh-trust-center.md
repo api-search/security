@@ -24,6 +24,7 @@ api_specs:
   slug: aws-app-mesh-untag-resourcearn-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-untag-resourcearn-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

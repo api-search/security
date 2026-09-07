@@ -60,6 +60,7 @@ api_specs:
   slug: sanity-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-webhooks-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2
 - ISO 27001

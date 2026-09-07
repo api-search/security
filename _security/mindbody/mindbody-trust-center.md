@@ -78,6 +78,7 @@ api_specs:
   slug: mindbody-user-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/openapi/mindbody-user-token-api-openapi.yml
+certification_count: 1
 certifications:
 - PCI DSS
 description: ''

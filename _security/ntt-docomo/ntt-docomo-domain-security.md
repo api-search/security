@@ -64,6 +64,7 @@ hosts:
   https: true
   role: JWKS host for d ACCOUNT Connect
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

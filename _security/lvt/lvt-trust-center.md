@@ -54,6 +54,7 @@ api_specs:
   slug: lvt-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-webhooks-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

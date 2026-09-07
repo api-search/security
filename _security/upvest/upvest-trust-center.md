@@ -210,6 +210,7 @@ api_specs:
   slug: upvest-withdrawals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upvest/refs/heads/main/openapi/upvest-withdrawals-api-openapi.yml
+certification_count: 5
 certifications:
 - ISO 27001
 - ISO 27017

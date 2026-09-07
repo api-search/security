@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: SiFive has no public REST API with an OpenAPI to derive security schemes from, so this profile is probed directly from the live RFC 8414 Authorization Server Metadata that the SiFive Cloud Services (SCS) portal serves anonymously. Every value below is copied from that document or from a probe of the endpoint it names.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Sifive Authentication
 name_suffix: Authentication

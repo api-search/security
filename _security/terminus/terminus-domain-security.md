@@ -43,6 +43,7 @@ hosts:
   https: true
   note: 'Verify API production host. Added by hand on 2026-08-12: this host was found during contract discovery and is not reached by probe-domain-security.py, which walks only the first apis.yml hosts. Probed directly with openssl s_client and curl.'
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

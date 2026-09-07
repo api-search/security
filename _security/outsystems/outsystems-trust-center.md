@@ -216,6 +216,7 @@ api_specs:
   slug: outsystems-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-users-api-openapi.yml
+certification_count: 5
 certifications:
 - ISO 27001
 - ISO 27017

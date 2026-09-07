@@ -102,6 +102,7 @@ api_specs:
   slug: amazon-migration-hub-x-amz-target-awsmigrationhub-putresourceattributes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-migration-hub/refs/heads/main/openapi/amazon-migration-hub-x-amz-target-awsmigrationhub-putresourceattributes-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

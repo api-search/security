@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -103,6 +104,7 @@ auth_types:
 description: Clari runs three distinct authentication schemes across three surfaces. The Revenue API uses a single `apikey` header (plus a `partnerkey` header on partner/ingest endpoints). The Copilot REST API requires BOTH `X-Api-Key` and `X-Api-Password` — either alone returns 401. The MCP server uses OAuth 2.0 via Okta and is the only Clari surface with delegated authorization; see scopes/clari-scopes.yml.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Clari Authentication
 name_suffix: Authentication

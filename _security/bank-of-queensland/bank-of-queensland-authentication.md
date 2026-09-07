@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: bank-of-queensland-banking-account-balances-api-openapi.yml
@@ -51,6 +52,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Bank Of Queensland Authentication
 name_suffix: Authentication

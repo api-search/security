@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Tianjin University publishes no public API, so there is no API key, token, OAuth client or self-service registration to describe. What it does operate is institutional authentication: a Shibboleth SAML 2.0 identity provider used for federated access to licensed resources through CARSI, and a campus-network access control that fronts most internal systems.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Tianjin Authentication
 name_suffix: Authentication

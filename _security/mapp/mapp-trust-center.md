@@ -222,6 +222,7 @@ api_specs:
   slug: mapp-whiteboard-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/openapi/mapp-whiteboard-api-openapi.yml
+certification_count: 10
 certifications:
 - ISO 27001
 - ISO 27017

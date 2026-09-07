@@ -504,6 +504,7 @@ api_specs:
   slug: amazon-proton-x-amz-target-awsproton20200720-updatetemplatesyncconfig-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/openapi/amazon-proton-x-amz-target-awsproton20200720-updatetemplatesyncconfig-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

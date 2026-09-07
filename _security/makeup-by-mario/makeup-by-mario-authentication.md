@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: 'MAKEUP BY MARIO has no developer program and issues no API keys, so there is no developer-facing auth page to read. What exists instead is a two-tier model that was established by probe: everything public about the store — catalog, cart, checkout scaffolding, policies — is reachable with NO credential at all, and only customer-account data sits behind OpenID Connect. That first tier is the unusual part. Three independent machine-readable surfaces on this host answered anonymously with HTTP 200 on 2026-08-25.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: probed
 name: Makeup By Mario Authentication
 name_suffix: Authentication

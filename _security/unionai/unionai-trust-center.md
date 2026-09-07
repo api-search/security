@@ -48,6 +48,7 @@ api_specs:
   slug: unionai-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/heads/main/openapi/unionai-workflows-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

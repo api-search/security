@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - mutualTLS
@@ -6,6 +7,7 @@ auth_types:
 description: 'How clients authenticate to EDX Markets. Connectivity is FIX over a mutually-authenticated TLS (mTLS) tunnel: the member generates a self-signed X.509 client certificate and shares only the .crt with EDX Market Operations (the private key never leaves the member), plus whitelists source IPs. On top of the transport, each FIX session authenticates at the application layer with a FIX Logon (MsgType 35=A) carrying the assigned SenderCompID / FIX ID (username). There is no API-key or OAuth surface.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Edx Markets Authentication
 name_suffix: Authentication

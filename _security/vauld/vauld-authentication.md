@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - hmac-seed
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: Authentication profile for the Vauld Enterprise API, captured from the published API reference at docs.vauld.com. Vauld does not publish an OpenAPI document; this profile was captured from the HTML docs.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Vauld Authentication
 name_suffix: Authentication

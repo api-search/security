@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: stainless-build-target-outputs-api-openapi.yml
@@ -36,6 +37,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Stainless Authentication
 name_suffix: Authentication

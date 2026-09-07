@@ -24,6 +24,7 @@ api_specs:
   slug: usersnap-submit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-submit-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

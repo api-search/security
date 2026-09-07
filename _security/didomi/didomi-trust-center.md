@@ -192,6 +192,7 @@ api_specs:
   slug: didomi-widgets-notices-remote-configs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-widgets-notices-remote-configs-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

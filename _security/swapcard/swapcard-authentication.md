@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: swapcard.postman_collection.json
@@ -18,6 +19,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: documented
 name: Swapcard Authentication
 name_suffix: Authentication

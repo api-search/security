@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: ubtech-subscriptions-api-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: derived
 name: Ubtech Authentication
 name_suffix: Authentication

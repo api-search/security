@@ -1,10 +1,12 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - signature
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Succinct Authentication
 name_suffix: Authentication

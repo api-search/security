@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: seismic-systems-tokens-api-openapi.yml
@@ -13,6 +14,7 @@ auth_types:
 description: 'Seismic''s authentication model has two distinct layers. (1) The SRC20 Factory REST API is unauthenticated and read-only — it uses a public provider and holds no key. (2) On-chain interaction is authenticated cryptographically: writes are signed Seismic transactions (EIP-712 typed data, tx type 0x4A) and "signed reads" are authenticated eth_call requests that prove the caller''s identity to the contract, with calldata encrypted to the node''s TEE key via ECDH + AES-GCM. There is no OAuth, no API-key issuance, and no scopes surface.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Seismic Systems Authentication
 name_suffix: Authentication

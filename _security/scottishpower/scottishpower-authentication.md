@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - query
 - header
@@ -20,6 +21,7 @@ auth_types:
 description: 'The auth profile for ScottishPower''s only public API. Derived from the OpenAPI securityScheme, then upgraded from the Opendatasoft Explore API authentication documentation and live probes on 2026-07-27. The headline is that authentication is optional: the catalogue and a subset of dataset records are readable with no key and no account at all.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Scottishpower Authentication
 name_suffix: Authentication

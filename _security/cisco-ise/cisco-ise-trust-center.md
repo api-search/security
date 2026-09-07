@@ -1182,6 +1182,7 @@ api_specs:
   slug: cisco-ise-workload-connection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/openapi/cisco-ise-workload-connection-api-openapi.yml
+certification_count: 2
 certifications:
 - FIPS 140-2
 - FIPS 140-3

@@ -54,6 +54,7 @@ api_specs:
   slug: altruistiq-security-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-security-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

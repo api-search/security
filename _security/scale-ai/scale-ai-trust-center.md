@@ -18,6 +18,7 @@ api_specs:
   slug: scale-ai-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scale-ai/refs/heads/main/openapi/scale-ai-tasks-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

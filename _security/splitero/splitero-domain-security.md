@@ -35,6 +35,7 @@ hosts:
   https: true
   note: Consumer portal on Vercel (app.splitero.com redirects here). All paths require login.
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

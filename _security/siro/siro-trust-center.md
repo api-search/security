@@ -96,6 +96,7 @@ api_specs:
   slug: siro-suggested-questions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-suggested-questions-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 1
 - SOC 2 Type 2

@@ -18,6 +18,7 @@ api_specs:
   slug: fazz-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/openapi/fazz-payments-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

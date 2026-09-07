@@ -42,6 +42,7 @@ domains:
   risk_notes:
   - Unrelated parked domain (GoDaddy nameservers) serving a lander redirect on every path. Not a Commerce One property; recorded only to prevent it being mistaken for one.
 hosts: []
+hosts_probed: 0
 kind: domain-security
 layout: security
 method: probed

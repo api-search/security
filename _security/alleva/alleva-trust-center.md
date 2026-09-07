@@ -222,6 +222,7 @@ api_specs:
   slug: alleva-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alleva/refs/heads/main/openapi/alleva-users-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - HIPAA

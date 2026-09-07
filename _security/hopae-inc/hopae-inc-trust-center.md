@@ -54,6 +54,7 @@ api_specs:
   slug: hopae-inc-workspace-api-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-workspace-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

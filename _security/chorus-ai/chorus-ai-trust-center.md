@@ -132,6 +132,7 @@ api_specs:
   slug: chorus-ai-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/openapi/chorus-ai-webhook-api-openapi.yml
+certification_count: 7
 certifications:
 - source
 - source_status

@@ -90,6 +90,7 @@ api_specs:
   slug: solo-io-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-webhooks-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

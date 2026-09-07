@@ -27,6 +27,7 @@ hosts:
   https: true
   note: Legacy brand domain; 301 redirects to waiv.com. Still the published contact/mail domain (marketing@wearewaiv.com).
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

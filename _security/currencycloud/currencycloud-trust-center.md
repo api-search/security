@@ -162,6 +162,7 @@ api_specs:
   slug: currencycloud-withdrawal-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-withdrawal-accounts-api-openapi.yml
+certification_count: 9
 certifications:
 - ISO/IEC 27001:2022
 - ISO/IEC 27018

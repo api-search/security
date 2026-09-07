@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: electra.aero-news-api-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Electra.Aero Authentication
 name_suffix: Authentication

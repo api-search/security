@@ -42,6 +42,7 @@ api_specs:
   slug: signwell-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-webhooks-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

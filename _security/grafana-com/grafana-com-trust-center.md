@@ -72,6 +72,7 @@ api_specs:
   slug: grafana-snapshot-shorturl-api
   spec_type: OpenAPI
   url: https://github.com/grafana/grafana/blob/main/public/api-merged.json
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

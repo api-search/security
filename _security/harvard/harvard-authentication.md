@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: harvard-access-api-openapi.yml
@@ -233,6 +234,7 @@ auth_types: []
 description: 'Authentication posture per institution-operated surface. Harvard has no single front door: each unit authenticates its own way, ranging from wholly open harvesting endpoints to a HarvardKey/SAML-gated central portal. There is no institution-wide developer identity.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: probed
 name: Harvard Authentication
 name_suffix: Authentication

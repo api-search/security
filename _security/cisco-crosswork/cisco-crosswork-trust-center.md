@@ -594,6 +594,7 @@ api_specs:
   slug: cisco-crosswork-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-workflow-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

@@ -36,6 +36,7 @@ api_specs:
   slug: revinate-widget-reviews-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/revinate/refs/heads/main/openapi/revinate-widget-reviews-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

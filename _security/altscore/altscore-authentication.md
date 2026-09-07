@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -8,6 +9,7 @@ auth_types:
 description: AltScore authenticates through a Frontegg-backed OAuth 2.0 / OpenID Connect identity service at auth.altscore.ai. The SDK and CLI accept several credential types; the primary machine-to-machine path is client_id + client_secret exchanged for an access token (with refresh) at the identity token endpoint. Requests are multi-tenant — a tenant is resolved from the token. A dedicated sandbox identity host (auth.sandbox.altscore.ai) mirrors production.
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Altscore Authentication
 name_suffix: Authentication

@@ -29,6 +29,7 @@ hosts:
   https: true
   note: PLACE identity hub host (Okta custom domain); serves OIDC/OAuth discovery.
   tls_version: TLSv1.2
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

@@ -6,6 +6,7 @@ api_specs:
   slug: skylar-compliance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sciencelogic/refs/heads/main/openapi/sciencelogic-skylar-compliance-openapi.json
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

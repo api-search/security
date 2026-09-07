@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: orca-protocol-api-openapi.yml
@@ -24,6 +25,7 @@ auth_types:
 description: 'Authentication posture for the Orca Public REST API. The API is deliberately open: "The Orca Public API is open and does not require authentication for read access." There are no OpenAPI securitySchemes. Write access to the protocol is not via this API — it happens on-chain by signing Solana transactions with the user''s own wallet keypair (client-side, via the SDKs).'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Orca Authentication
 name_suffix: Authentication

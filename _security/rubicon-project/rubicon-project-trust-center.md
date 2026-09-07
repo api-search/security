@@ -462,6 +462,7 @@ api_specs:
   slug: rubicon-project-white-labels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/openapi/rubicon-project-white-labels-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type I
 - SOC 1 Type II

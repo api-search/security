@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Off Grid Stores publishes no OpenAPI, so this profile is built from the OAuth/OIDC discovery documents its own host serves and from live authenticated-vs-anonymous probes of each surface. The authorization server is Shopify's customer-account issuer bound to this shop, with all user-facing endpoints on account.offgridstores.com.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Offgridstores Authentication
 name_suffix: Authentication

@@ -66,6 +66,7 @@ api_specs:
   slug: doppel-urls-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/openapi/doppel-urls-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2 Type II
 - ISO/IEC 27001:2022

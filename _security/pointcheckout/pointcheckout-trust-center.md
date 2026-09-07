@@ -24,6 +24,7 @@ api_specs:
   slug: pointcheckout-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/openapi/pointcheckout-webhooks-api-openapi.yml
+certification_count: 1
 certifications:
 - PCI DSS
 description: ''

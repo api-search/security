@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: recipe-api-discovery-api-openapi.yml
@@ -35,6 +36,7 @@ auth_types: []
 description: API key in a header. Notably the API also exposes a keyless quick-start endpoint, so a developer or an agent can make a real call before signing up.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Recipe Api Authentication
 name_suffix: Authentication

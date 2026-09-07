@@ -240,6 +240,7 @@ api_specs:
   slug: ledger-whitelists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-whitelists-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2 Type 2
 - ISO 27001

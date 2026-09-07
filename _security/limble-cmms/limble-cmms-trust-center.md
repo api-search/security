@@ -6,6 +6,7 @@ api_specs:
   slug: limble-cmms-routes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/openapi/limble-cmms-routes-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

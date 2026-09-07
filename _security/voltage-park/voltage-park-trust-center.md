@@ -42,6 +42,7 @@ api_specs:
   slug: voltage-park-virtual-machines-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-virtual-machines-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

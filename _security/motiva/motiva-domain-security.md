@@ -39,6 +39,7 @@ hosts:
   note: 302 on the root; serves llms.txt and a security.txt (Intercom's) at 200.
   role: Help Center (Intercom-hosted)
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

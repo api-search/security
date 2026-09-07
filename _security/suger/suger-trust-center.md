@@ -66,6 +66,7 @@ api_specs:
   slug: suger-support-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-support-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

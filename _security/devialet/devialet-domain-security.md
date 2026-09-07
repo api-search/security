@@ -57,6 +57,7 @@ hosts:
   tls_version: TLSv1.3
 - host: 192.168.1.20
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

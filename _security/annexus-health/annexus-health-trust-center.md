@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - HITRUST Risk-based, 2-year (r2) Certification
 description: ''

@@ -42,6 +42,7 @@ api_specs:
   slug: ansa-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-transactions-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

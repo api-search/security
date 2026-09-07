@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
 description: 'Bettermode''s GraphQL API is authenticated with bearer access tokens passed on the Authorization header. Two token classes are documented: App Access Tokens (for installed apps acting server-to-server) and Member Access Tokens (acting as a specific community member). Guest tokens grant limited unauthenticated read access. There are no API keys or scopes in the classic OAuth sense; an app''s reach is bounded by the communities it is installed on and the permissions granted at install time.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Bettermode Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: university-of-cape-town-catalog-api-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: How each University of Cape Town surface authenticates callers. Every row was established by an actual request, not by reading documentation.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: University Of Cape Town Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -51,6 +52,7 @@ auth_types:
 description: 'Two static API-key credentials sent together on every request: `user-id` identifies the account and `api-key` is one of several rotatable keys issued from the account dashboard. Both are declared in the OpenAPI as header apiKey schemes and the document''s top-level `security` requires BOTH simultaneously. The documentation additionally allows sending them as GET query parameters or POST body fields, and allows collapsing them into a single combined header — neither of which the specification expresses.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Neutrino Api Authentication
 name_suffix: Authentication

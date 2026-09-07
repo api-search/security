@@ -6,6 +6,7 @@ api_specs:
   slug: types-api
   spec_type: Postman
   url: https://documenter.getpostman.com/view/5743666/TzCHBqbH
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

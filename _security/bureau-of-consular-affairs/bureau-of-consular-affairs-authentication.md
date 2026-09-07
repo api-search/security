@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -25,6 +26,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Bureau Of Consular Affairs Authentication
 name_suffix: Authentication
@@ -39,13 +41,15 @@ schemes:
   name: apiToken
   parameter: Authorization
   sources:
-  - openapi/bureau-of-consular-affairs-openapi.yml
+  - openapi/bureau-of-consular-affairs-datastore-api-openapi.yml
+  - openapi/bureau-of-consular-affairs-discovery-api-openapi.yml
+  - openapi/bureau-of-consular-affairs-write-api-openapi.yml
   type: apiKey
 slug: bureau-of-consular-affairs-authentication
 source_filename: bureau-of-consular-affairs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bureau-of-consular-affairs-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: CKAN API token, generated from the CKAN user profile.\n  sources:\n  - openapi/bureau-of-consular-affairs-openapi.yml\n"
+source_yaml: "generated: '2026-09-05'\nmethod: derived\nsource: openapi/bureau-of-consular-affairs-datastore-api-openapi.yml, openapi/bureau-of-consular-affairs-discovery-api-openapi.yml,\n  openapi/bureau-of-consular-affairs-write-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: CKAN API token, generated from the CKAN user profile.\n  sources:\n  - openapi/bureau-of-consular-affairs-datastore-api-openapi.yml\n  - openapi/bureau-of-consular-affairs-discovery-api-openapi.yml\n  - openapi/bureau-of-consular-affairs-write-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/authentication/bureau-of-consular-affairs-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

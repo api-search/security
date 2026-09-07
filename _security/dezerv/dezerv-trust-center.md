@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - ISO 27001
 description: ''

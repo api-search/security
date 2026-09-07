@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: '1Lookup''s /security page is its trust surface: a single public page covering compliance posture, security controls, infrastructure, data lifecycle and incident response. There is no separate trust.1lookup.io portal, no downloadable report library and no third-party audit certification. The page is unusually honest about that — each compliance item is explicitly labelled self-assessed, inherited via Stripe, or internal.'
 kind: trust-center

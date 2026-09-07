@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: 'Embrace runs a Vanta-hosted Trust Center at trust.embrace.io, with a Controls section. The page is a single-page app: the shell returns HTTP 200 with the title "Embrace Trust Center" and the keywords "Trust, Security, Compliance, Automation", but the certification list, control list and document requests are all client-rendered and are not reachable by an anonymous machine. No probed endpoint returned structured trust data — every path under trust.embrace.io returns the same HTML shell.'
 kind: trust-center

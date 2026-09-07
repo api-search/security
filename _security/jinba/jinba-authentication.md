@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: jinba-api-keys-api-openapi.yml
@@ -90,6 +91,7 @@ auth_types:
 description: 'Jinba authenticates programmatic access with Bearer API keys. Jinba Toolbox supports two methods: session-based auth (Better Auth session cookies) for the admin web console, and organization-scoped API keys (jtb_ prefix) passed as a Bearer token for the SDK, AI agents, and external integrations. Jinba Flow''s External API uses a per-flow Bearer API key that is auto-generated when a workflow is published. There is no OAuth2 authorization flow and no documented scope surface; access is governed by organization-level RBAC (Owner/Admin/ Member) and PostgreSQL row-level security tenant isolation.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Jinba Authentication
 name_suffix: Authentication

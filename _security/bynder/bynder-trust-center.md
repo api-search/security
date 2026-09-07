@@ -486,6 +486,7 @@ api_specs:
   slug: bynder-step-6-or-save-uploaded-file-to-existing-asset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/openapi/bynder-step-6-or-save-uploaded-file-to-existing-asset-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -51,6 +52,7 @@ auth_types:
 description: 'Provider-wide authentication profile for Unifonic''s public APIs, derived from the securitySchemes declared in the three official OpenAPI documents in this repo''s openapi/ directory and upgraded with the docs Security & Authentication page. Unifonic uses an AppSid/AppsId application credential model rather than OAuth: the SMS NextGen REST API declares HTTP basic authentication and additionally requires an AppSid query parameter on every operation; the Authenticate (OTP) API authenticates with an x-authenticate-app-id header plus an Authorization bearer-token header; the Voice API uses a custom AppsId credential obtained from the Unifonic Console''s Voice Applications tab. HTTPS is recommended for all requests. No oauth2 or openIdConnect security schemes are declared anywhere in the published specs, so there is no OAuth scope surface.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Unifonic Authentication
 name_suffix: Authentication

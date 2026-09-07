@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: Upway's agent-facing commerce surface has two distinct authentication postures. The UCP MCP endpoint at https://upway.co/api/ucp/mcp is anonymous - an unauthenticated tools/list returned HTTP 200 with the full tool schemas - and the read-only storefront JSON endpoints documented in agents.md need no credential either. Authorization is not carried by an API key at all; it is carried by buyer approval at payment time and by a payment instrument/credential supplied inside the checkout object. Separately, the store publishes OpenID Connect and OAuth 2.0 discovery for customer accounts, whose authorization server is Shopify's identity service for shop 65864040675.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Upway Authentication
 name_suffix: Authentication

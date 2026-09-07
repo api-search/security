@@ -38,6 +38,7 @@ hosts:
   https: true
   note: AWS CloudFront signed-URL distribution for private policy documents (MissingKey / Key-Pair-Id). Not API documentation.
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

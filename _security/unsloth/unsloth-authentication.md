@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: Authentication profile for the Unsloth local API (2026-07-21). Unsloth has no hosted API; models loaded in Unsloth Studio are exposed on the user's own machine as an authenticated OpenAI/Anthropic-compatible endpoint via llama-server. Keys are created in Studio (Settings -> API) or auto-created by `unsloth run`; Unsloth stores only a hash and shows the key once. Requests with a revoked key fail 401 Unauthorized. No OpenAPI is published, so this profile is captured from the docs rather than derived from a spec.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Unsloth Authentication
 name_suffix: Authentication

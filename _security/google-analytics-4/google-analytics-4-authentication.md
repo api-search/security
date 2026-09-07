@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: google-analytics-4-accounts-api-openapi.yml
@@ -25,6 +26,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Google Analytics 4 Authentication
 name_suffix: Authentication

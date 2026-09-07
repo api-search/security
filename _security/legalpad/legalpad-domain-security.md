@@ -48,6 +48,7 @@ hosts:
   https: false
   note: probed speculatively; never documented by the provider
   resolves: false
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -10,6 +11,7 @@ auth_types:
 description: 'Spark Platform''s authentication profile. There is no OpenAPI to derive securitySchemes from, so this profile is read from the published authentication documentation plus the one machine-readable identity document Spark serves anonymously — its OpenID Connect discovery document. Four mechanisms are documented: an OAuth 2 / MLS-issued Bearer access token (the normal path for data access), OpenID Connect (member identity, MLS approval required), SAML (service-provider integration with flexmls Web), and a legacy signed-request API key. Every data endpoint returns HTTP 401 with Spark code 1000 when called anonymously.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Spark Platform Authentication
 name_suffix: Authentication

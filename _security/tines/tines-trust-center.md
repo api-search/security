@@ -42,6 +42,7 @@ api_specs:
   slug: tines-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tines/refs/heads/main/openapi/tines-teams-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

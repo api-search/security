@@ -6,6 +6,7 @@ api_specs:
   slug: kili-technology-graphql-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/openapi/kili-technology-graphql-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

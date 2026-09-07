@@ -30,6 +30,7 @@ api_specs:
   slug: microsoft-linkedin-adcreatives-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-linkedin/refs/heads/main/openapi/microsoft-linkedin-adcreatives-api-openapi.yml
+certification_count: 5
 certifications:
 - ISO/IEC 27001
 - ISO/IEC 27018

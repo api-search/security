@@ -102,6 +102,7 @@ api_specs:
   slug: templafy-textelements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/openapi/templafy-textelements-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

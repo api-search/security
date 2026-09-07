@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: bank-of-ireland-uk-account-access-consents-api-openapi.yml
@@ -212,6 +213,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Bank Of Ireland Uk Authentication
 name_suffix: Authentication

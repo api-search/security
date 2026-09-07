@@ -139,6 +139,7 @@ hosts:
   note: Cloudflare bot challenge on every request, including with a browser User-Agent. TLS and header posture could not be assessed. This is an unprobeable host, not a security finding.
   reachable: false
   role: parent-company marketing site
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

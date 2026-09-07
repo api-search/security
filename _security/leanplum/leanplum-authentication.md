@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - query
 - body
@@ -92,6 +93,7 @@ auth_types:
 description: Leanplum authenticates every request with two API-key parameters carried in the query string or the request body — an `appId` identifying the Leanplum app, and a `clientKey` whose CLASS determines which methods you may call. There is no OAuth, no OIDC, no bearer token, no signature scheme, and no Authorization header. Keys are long-lived and are read from the dashboard.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Leanplum Authentication
 name_suffix: Authentication

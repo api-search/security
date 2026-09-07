@@ -31,6 +31,7 @@ hosts:
   http_status: null
   https: false
   probe_result: connection timed out
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

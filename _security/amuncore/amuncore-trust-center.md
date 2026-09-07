@@ -6,6 +6,7 @@ api_specs:
   slug: amuncore-dynamic-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/openapi/amuncore-dynamic-api-api-openapi.yml
+certification_count: 0
 certifications: []
 description: 'AmunCore publishes a dedicated, public security and data-protection page written for evaluation — hosting model, per-channel protections, encryption, access control, auditing, and an explicitly labelled "Honest roadmap" of what is not yet implemented. It is a trust page in substance, not a badge wall: it names zero certifications and says so.'
 kind: trust-center

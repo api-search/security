@@ -59,6 +59,7 @@ hosts:
   https: true
   server: awselb/2.0
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: defence-bank-banking-account-balances-api-openapi.yml
@@ -51,6 +52,7 @@ auth_types:
 description: The Consumer Data Standards banking spec published for Defence Bank declares no inline OpenAPI securitySchemes, because authentication in the CDR is split by endpoint class. This profile is captured from the CDS security profile and the provider's open banking documentation.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Defence Bank Authentication
 name_suffix: Authentication

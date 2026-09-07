@@ -33,6 +33,7 @@ hosts:
   https: true
   note: successor brand host (Rattle rebranded its forward product to Von, 2026-05-29)
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

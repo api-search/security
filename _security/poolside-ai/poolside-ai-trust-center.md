@@ -12,6 +12,7 @@ api_specs:
   slug: poolside-ai-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/openapi/poolside-ai-models-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

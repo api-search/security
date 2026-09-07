@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: mercedes-me-components-api-openapi.yml
@@ -71,6 +72,7 @@ auth_types: []
 description: Mercedes-Benz runs two distinct authentication models across one API gateway, and which one applies depends on whether the API touches a customer's vehicle.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Mercedes Me Authentication
 name_suffix: Authentication

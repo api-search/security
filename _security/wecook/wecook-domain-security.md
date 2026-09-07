@@ -9,6 +9,7 @@ domains:
 hosts:
 - host: www.wecook.cn
   https: false
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

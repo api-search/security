@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: 'How a client authenticates to the Veradigm (formerly Allscripts) FHIR API. There is no OpenAPI document to derive securitySchemes from, so this profile is read from three live provider-served documents instead: the SMART App Launch configuration on the published sandbox base, the OpenID Connect discovery document on the authorization server it names as issuer, and the FHIR R4 CapabilityStatement, whose rest.security block declares SMART-on-FHIR and carries the SMART oauth-uris extension with the authorize and token endpoints. Veradigm implements the HL7 SMART Application Launch Framework Implementation Guide Release 2.0.0 and OpenID Connect Core 1.0.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Allscripts Healthcare Solutions Authentication
 name_suffix: Authentication

@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: How each machine-readable surface attributed to the University of Otago authenticates, as observed from live probes rather than from documentation. Every status code below was returned to an unauthenticated request from a public network on 2026-08-30.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: University Of Otago Authentication
 name_suffix: Authentication

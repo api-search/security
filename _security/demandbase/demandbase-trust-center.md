@@ -96,6 +96,7 @@ api_specs:
   slug: demandbase-user-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-user-management-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

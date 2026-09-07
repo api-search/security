@@ -72,6 +72,7 @@ hosts:
   https: true
   note: Serves HTTP/2 over TLS (404 on /); no Strict-Transport-Security header observed.
   tls_version: null
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

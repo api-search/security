@@ -36,6 +36,7 @@ api_specs:
   slug: coviu-webhook-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-webhook-requests-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - HIPAA

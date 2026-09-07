@@ -132,6 +132,7 @@ api_specs:
   slug: cal-com-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cal-com/refs/heads/main/openapi/cal-com-webhooks-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

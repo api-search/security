@@ -46,6 +46,7 @@ hosts:
   https: false
   legacy: true
   resolves: false
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

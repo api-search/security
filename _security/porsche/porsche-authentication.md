@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Porsche publishes no public API and no OpenAPI document, so this profile is not derived from a securitySchemes block. It is read directly from the two OpenID Connect discovery documents Porsche serves anonymously: the Porsche ID identity provider at identity.porsche.com and the Porsche CIAM backend-for-frontend fronted by login.porsche.com. These describe how a Porsche Partner Company authenticates once it has been granted access; the APIs themselves stay behind the partner gate.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Porsche Authentication
 name_suffix: Authentication

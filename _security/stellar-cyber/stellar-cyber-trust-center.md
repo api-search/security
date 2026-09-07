@@ -66,6 +66,7 @@ api_specs:
   slug: stellar-cyber-watchlists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stellar-cyber/refs/heads/main/openapi/stellar-cyber-watchlists-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

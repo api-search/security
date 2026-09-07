@@ -78,6 +78,7 @@ api_specs:
   slug: lunar-energy-visits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-visits-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

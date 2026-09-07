@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Elementus publishes no authentication documentation page that is reachable — every docs host is down (see well-known/elementus-well-known.yml). This profile is derived from Elementus'' own first-party public API example client, which is the only live public description of how the Attribution API is called. It is a faithful reading of that source, not a reading of a spec: there is no OpenAPI to derive securitySchemes from.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Elementus Authentication
 name_suffix: Authentication

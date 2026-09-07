@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - session
@@ -6,6 +7,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Ecorobotix Authentication
 name_suffix: Authentication

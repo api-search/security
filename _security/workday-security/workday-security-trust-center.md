@@ -72,6 +72,7 @@ api_specs:
   slug: workday-security-user-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-user-accounts-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

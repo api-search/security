@@ -114,6 +114,7 @@ api_specs:
   slug: buildkite-com-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-user-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

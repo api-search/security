@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for the Capterra Click Report API. Capterra publishes no OpenAPI and no public authentication reference — the API documentation lives inside the vendor console behind a login (PPC Bidding -> API Documentation), so this profile is built from a live unauthenticated probe of the API host plus the publicly stated credential-issuance process. Nothing here is inferred from a specification, because there is none to read.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Capterra Authentication
 name_suffix: Authentication

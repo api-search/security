@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Noctrix Health publishes no developer program, no API keys and no documented auth page. The only authenticated surface that could be established anonymously is the OAuth 2.0 authorization server backing the Nidra MCP server on nidrarls.com, whose configuration was read verbatim from RFC 8414 Authorization Server Metadata. Everything below comes from that document and from the WWW-Authenticate challenge the MCP endpoint returns — nothing is inferred from marketing prose.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Noctrix Health Authentication
 name_suffix: Authentication

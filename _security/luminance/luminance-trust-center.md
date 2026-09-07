@@ -126,6 +126,7 @@ api_specs:
   slug: luminance-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/luminance/refs/heads/main/openapi/luminance-workflows-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

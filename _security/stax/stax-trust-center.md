@@ -6,6 +6,7 @@ api_specs:
   slug: stax-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-api-openapi.json
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

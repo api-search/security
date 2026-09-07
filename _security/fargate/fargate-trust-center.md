@@ -48,6 +48,7 @@ api_specs:
   slug: fargate-x-amz-target-amazonec2containerservicev20141113-updateservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fargate/refs/heads/main/openapi/fargate-x-amz-target-amazonec2containerservicev20141113-updateservice-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

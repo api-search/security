@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Blackstone publishes no public developer API and therefore no API key, bearer-token or developer OAuth programme. What it does serve anonymously is OpenID Connect discovery metadata from the two identity systems that gate its investor and documentation surfaces. This profile is derived entirely from those two fetched discovery documents plus the BXAccess portal's own unauthenticated runtime config. It describes how a HUMAN authenticates into Blackstone's gated surfaces — it does not describe a machine-to-machine API programme, because none is published.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Blackstone Authentication
 name_suffix: Authentication

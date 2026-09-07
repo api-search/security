@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: perfect-corp-ai_abs_filter-openapi.yml
@@ -12,6 +13,7 @@ auth_types:
 description: 'One credential covers the whole platform: a YouCam API key sent as an HTTP bearer token. The same key authenticates the REST API and all three hosted MCP servers. An OAuth 2.0 authorization server is ALSO discoverable at the API host well-known path, but nothing in the developer documentation references it and no published operation requires it.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Perfect Corp Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: northmill-accountcodes-api-openapi.yml
@@ -186,6 +187,7 @@ auth_types:
 description: Two surfaces, two authentication models. The Flo commerce API is HTTP Basic and nothing else. The PSD2 TPP interface is request-signing with an asymmetric key pair the TPP registers in the Northmill Bank Dashboard, carried on an Authorization header in either a Token (Basic) or JWT (Bearer) scheme.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Northmill Authentication
 name_suffix: Authentication

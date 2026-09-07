@@ -41,6 +41,7 @@ hosts:
   https: false
   note: The company's original domain. Delegation is broken at the registry — every public resolver returns SERVFAIL — so the zone no longer answers at all.
   reachable: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

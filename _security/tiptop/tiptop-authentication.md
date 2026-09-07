@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: Tiptop authenticates with API keys. Each partner account gets four keys — a public and private key pair for both the test (sandbox) and live environments. Public keys identify the account client-side (tiptop.js, mobile) and are used to generate tokens; private (server) keys are sent on server-to-server Order Management API calls in the api-key request header. Objects created in one mode cannot be manipulated by the other.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Tiptop Authentication
 name_suffix: Authentication

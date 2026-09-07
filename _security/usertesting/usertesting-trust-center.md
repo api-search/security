@@ -48,6 +48,7 @@ api_specs:
   slug: usertesting-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/openapi/usertesting-workspaces-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001:2022 (auditor CoalFire)

@@ -18,6 +18,7 @@ api_specs:
   slug: scribe-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/openapi/scribe-teams-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2 Type II
 - ISO 27001

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: qut-eprints-oai-pmh-openapi.yml
@@ -25,6 +26,7 @@ description: 'How authentication actually works across QUT''s public machine sur
   The important honest note: QUT has a genuinely capable, standards-complete authorization server, and there is no public path to a client credential for it. Discovery is open; onboarding is not. There is no developer portal, no self-service registration page, and no documented request process reachable without a QUT login.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Qut Authentication
 name_suffix: Authentication

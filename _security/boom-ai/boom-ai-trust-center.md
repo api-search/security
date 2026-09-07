@@ -66,6 +66,7 @@ api_specs:
   slug: boom-ai-environments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-environments-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 1
 - SOC 2 Type 2

@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - apiKey
 description: The Aristotle API authenticates every request with a single API key. Keys are created in the Aristotle dashboard (sign in at https://aristotle.harmonic.fun, Dashboard -> API Keys). The official aristotlelib SDK/CLI reads the key from the ARISTOTLE_API_KEY environment variable or an explicit --api-key flag. There is no documented OAuth / OpenID Connect / scope surface — access is a single bearer secret per account. No OpenAPI is published, so this profile is captured from the provider's docs rather than derived from a spec.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Harmonic Authentication
 name_suffix: Authentication

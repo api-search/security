@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: corti-transcribe-asyncapi.json
@@ -19,6 +20,7 @@ auth_types:
 description: 'Corti uses OAuth 2.0 client credentials (Keycloak / OpenID Connect) for server-to-server access to the Corti API. Clients exchange a client_id and client_secret at the realm token endpoint for a short-lived (5 minute) bearer access token, then call the API with an Authorization: Bearer header plus a required Tenant-Name header identifying the tenant context (default "base"). Limited-scope tokens (scope "openid transcribe" / "openid streams") can be minted for browser-side real-time streaming. The Embedded Assistant uses a separate token flow. Corti recommends client credentials over static API keys for short blast radius, scope granularity, and enterprise IdP/tenancy integration.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Corti Authentication
 name_suffix: Authentication

@@ -36,6 +36,7 @@ hosts:
   https: true
   role: status page (Better Stack) — SSO-gated, redirects to /sso; not public
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

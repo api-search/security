@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: zyte-zyte-api-openapi.yaml
@@ -18,6 +19,7 @@ auth_types:
 description: Every Zyte HTTP surface uses the same mechanism — RFC 7617 HTTP Basic with the API key as username and an EMPTY password — but they do NOT share the same key. Zyte runs three separate key namespaces, and the docs call this out explicitly ("Scrapy Cloud uses a different API key than Zyte API"; the Stats API needs "your Zyte dashboard API key (not your Zyte API key)"). An agent holding one Zyte key can call exactly one of the three surfaces. There are no OAuth flows, no scopes, and no token exchange anywhere in the estate, so scopes/ is intentionally absent for this provider.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Zyte Authentication
 name_suffix: Authentication

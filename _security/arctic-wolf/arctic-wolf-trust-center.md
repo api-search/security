@@ -18,6 +18,7 @@ api_specs:
   slug: arctic-wolf-ticket-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/arctic-wolf/refs/heads/main/openapi/arctic-wolf-ticket-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2
 - ISO 27001

@@ -36,6 +36,7 @@ api_specs:
   slug: trustwell-traceability-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/openapi/trustwell-traceability-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

@@ -27,6 +27,7 @@ hosts:
   https: true
   note: investor relations host; returns no HSTS header and did not complete an HTTP response to the probe user-agent
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

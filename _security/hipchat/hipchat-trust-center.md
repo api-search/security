@@ -12,6 +12,7 @@ api_specs:
   slug: hipchat-webhooks-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/hipchat/refs/heads/main/asyncapi/hipchat-webhooks-asyncapi.yml
+certification_count: 1
 certifications:
 - FedRAMP
 description: ''

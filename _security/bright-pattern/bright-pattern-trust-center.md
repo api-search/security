@@ -84,6 +84,7 @@ api_specs:
   slug: bright-pattern-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/openapi/bright-pattern-users-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS 3.2
 - SOC 2

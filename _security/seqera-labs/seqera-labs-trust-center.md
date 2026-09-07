@@ -168,6 +168,7 @@ api_specs:
   slug: seqera-labs-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/openapi/seqera-labs-workspaces-api-openapi.yml
+certification_count: 2
 certifications:
 - status
 - note

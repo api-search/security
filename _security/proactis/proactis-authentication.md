@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Every Proactis REST API is protected by two credentials used together on the same request: an OAuth 2.0 bearer access token obtained through the client credentials grant, and a fixed API key sent in the x-api-key header. Credentials are issued by Proactis support on request — there is no self-service client registration.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Proactis Authentication
 name_suffix: Authentication

@@ -54,6 +54,7 @@ api_specs:
   slug: pylon-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pylon/refs/heads/main/openapi/pylon-users-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

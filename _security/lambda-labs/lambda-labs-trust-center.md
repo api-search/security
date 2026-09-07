@@ -60,6 +60,7 @@ api_specs:
   slug: lambda-labs-support-tickets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-support-tickets-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

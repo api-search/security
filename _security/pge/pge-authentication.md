@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: pge-applicationinformation-api-openapi.yml
@@ -32,6 +33,7 @@ auth_types:
 description: 'PG&E Share My Data authenticates third parties with OAuth 2.0 (NAESB ESPI authorization profile) layered on MANDATORY mutual TLS 1.2. This is not OpenID Connect: /.well-known/openid-configuration returns HTTP 404 on www.pge.com, api.pge.com and sharemydata.pge.com (re-probed 2026-07-27). Two bearer-token classes are issued from separate grants, and a third registration token governs the ApplicationInformation resource.'
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Pge Authentication
 name_suffix: Authentication

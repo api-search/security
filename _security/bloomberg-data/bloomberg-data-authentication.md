@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for the Bloomberg Data API surface. Derived from Bloomberg's own published OAuth/OIDC discovery documents rather than from an OpenAPI document — Bloomberg publishes no public machine-readable contract for the Data License REST API, but it does publish RFC 9728 protected-resource metadata and RFC 8414 authorization-server metadata, which name the token endpoint, the grant types and the flows exactly.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Bloomberg Data Authentication
 name_suffix: Authentication

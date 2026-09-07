@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Kixie authenticates every documented API surface with a single, long-lived, account-scoped API key paired with a numeric Business ID. There is no OAuth 2.0 authorization server, no OpenID Connect discovery document, no scope model, no per-user credential and no token exchange. The key is issued once per Kixie account (not per user) and must be activated by Kixie Support before first use.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Kixie Authentication
 name_suffix: Authentication

@@ -72,6 +72,7 @@ api_specs:
   slug: kudosity-whatsapp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-whatsapp-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

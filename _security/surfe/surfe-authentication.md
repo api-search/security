@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -32,6 +33,7 @@ auth_types:
 description: 'Surfe runs two authentication surfaces off ONE credential. The REST API takes the Surfe API key directly as an HTTP bearer token. The hosted MCP server and the official `surfer` CLI wrap that same key in OAuth 2.0 authorization code + PKCE: you paste the key once at Surfe''s sign-in page and the client holds a managed token instead of the raw key. API keys are per-user and each user may hold exactly one at a time.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Surfe Authentication
 name_suffix: Authentication

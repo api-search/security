@@ -102,6 +102,7 @@ api_specs:
   slug: adobe-campaign-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/openapi/adobe-campaign-workflows-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

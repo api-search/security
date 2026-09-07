@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -115,6 +116,7 @@ auth_types:
 description: 'One credential type on the REST API: a Lusha API key issued in the dashboard and sent in the `api_key` request header on every call. No OAuth, no bearer tokens, no signing, no mTLS. API key issuance is itself plan-gated — the docs restrict keys to Scale-plan users or an active Scale trial. The agent surface is different: the hosted MCP server accepts either an OAuth 2.1 authorization code (scope `mcp`) or the same API key in a lowercase `x-api-key` header.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Lusha Authentication
 name_suffix: Authentication

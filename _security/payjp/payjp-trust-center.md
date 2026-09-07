@@ -84,6 +84,7 @@ api_specs:
   slug: payjp-transfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/openapi/payjp-transfers-api-openapi.yml
+certification_count: 1
 certifications:
 - PCI DSS
 description: ''

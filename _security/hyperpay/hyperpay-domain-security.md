@@ -58,6 +58,7 @@ hosts:
   http_status: 200
   https: true
   note: Developer documentation portal.
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

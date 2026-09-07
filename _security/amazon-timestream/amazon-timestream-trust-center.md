@@ -24,6 +24,7 @@ api_specs:
   slug: amazon-timestream-write-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/openapi/amazon-timestream-write-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

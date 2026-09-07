@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: oracle-database-19c-autorest-api-openapi.yml
@@ -31,6 +32,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Oracle Database 19C Authentication
 name_suffix: Authentication

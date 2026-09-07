@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: Omnea's remote MCP surface (mcp.omnea.co) is protected by OAuth 2.0 / OpenID Connect, with the authorization server delegated to WorkOS AuthKit (https://personal-flight-18.authkit.app). Discovery documents advertise authorization-code (with PKCE S256), client-credentials, device-code and refresh-token grants, dynamic client registration (RFC 7591), and a public bearer-token protected resource per RFC 9728. The Omnea public REST API (app.omnea.co/public-api) is documented but its scheme was not enumerable unauthenticated.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Omnea Authentication
 name_suffix: Authentication

@@ -45,6 +45,7 @@ hosts:
 - host: api.bounti.ai
   https: true
   note: Resolves and terminates TLS but returns HTTP 404 with an empty body for every path probed.
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

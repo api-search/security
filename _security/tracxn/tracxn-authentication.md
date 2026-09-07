@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -14,6 +15,7 @@ auth_types:
 description: 'Tracxn runs TWO independent authentication models, one per surface, and they share no credential. The REST API takes a long-lived, account-scoped API token in an `accessToken` request header — no OAuth, no scopes, no expiry for active accounts. The MCP server takes OAuth 2.1 with PKCE and dynamic client registration, browser-based, with a single `read` scope. Tokens are additionally ENVIRONMENT-specific on REST: the Playground token and the Production token are separate credentials issued from separate pages and Tracxn explicitly warns against reusing one for the other.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Tracxn Authentication
 name_suffix: Authentication

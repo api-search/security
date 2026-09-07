@@ -642,6 +642,7 @@ api_specs:
   slug: tenable-workbenches-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/openapi/tenable-workbenches-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO/IEC 27001:2022

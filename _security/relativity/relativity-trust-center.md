@@ -306,6 +306,7 @@ api_specs:
   slug: relativity-workspacejob-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-workspacejob-api-openapi.yml
+certification_count: 2
 certifications:
 - FedRAMP
 - GDPR

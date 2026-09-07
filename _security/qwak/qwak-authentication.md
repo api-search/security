@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - config
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: Qwak (JFrog ML) platform authentication. Access is via a Qwak Service API Key. The `qwak` CLI persists the key locally with `qwak configure --api-key <KEY>`; the same key authenticates the Python/Go SDKs and CI runners (verified in the public qwak-ai build-action and deploy-action, which pass the key as a repository secret to `qwak configure --api-key $QWAK_API_KEY`). No standalone public OpenAPI declares the security schemes, so this profile is captured by search rather than derived from a spec.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Qwak Authentication
 name_suffix: Authentication

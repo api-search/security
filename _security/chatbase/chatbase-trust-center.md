@@ -30,6 +30,7 @@ api_specs:
   slug: chatbase-leads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-leads-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

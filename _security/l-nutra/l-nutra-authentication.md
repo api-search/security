@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: L-Nutra has two distinct authentication postures and they are not the same. The agentic-commerce MCP surface is completely anonymous — a tools/list POST to /api/ucp/mcp and /api/mcp on all three storefronts returned HTTP 200 with a full tool set and no OAuth challenge, and there is no /.well-known/oauth-protected-resource on any host. Separately, each storefront serves Shopify customer-account OIDC discovery, an authorization-code + PKCE flow used by shoppers to sign into their own account — that is a human login, not an API credential the store issues to developers. L-Nutra publishes no API keys, no developer registration, and no client-credentials flow.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: L Nutra Authentication
 name_suffix: Authentication

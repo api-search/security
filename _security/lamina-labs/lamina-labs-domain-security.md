@@ -28,6 +28,7 @@ hosts:
   hsts_note: Recorded from a direct curl HEAD/GET; the mechanical probe returned null because the host answers 401 on every unmatched path.
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

@@ -36,6 +36,7 @@ api_specs:
   slug: peachpayments-reconciliation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/openapi/peachpayments-reconciliation-api-openapi.yml
+certification_count: 2
 certifications:
 - PCI DSS Level 1
 - PCI DSS v4.0

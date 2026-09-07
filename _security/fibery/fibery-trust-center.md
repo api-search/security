@@ -6,6 +6,7 @@ api_specs:
   slug: fibery-http-api
   spec_type: OpenAPI
   url: https://developers.fibery.com/api-reference/openapi.json
+certification_count: 3
 certifications:
 - SOC 2
 - PCI DSS

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: eloqua-account-exports-api-openapi.yml
@@ -955,6 +956,7 @@ auth_types:
 description: 'Authentication profile for the Oracle Eloqua Application, Bulk and Reporting REST APIs, read from Oracle''s own published reference. Oracle supports exactly two schemes and states a clear preference: "For security reasons, we recommend authentication using OAuth 2.0."'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Eloqua Authentication
 name_suffix: Authentication

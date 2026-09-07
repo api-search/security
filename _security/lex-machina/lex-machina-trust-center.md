@@ -108,6 +108,7 @@ api_specs:
   slug: lex-machina-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/openapi/lex-machina-status-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

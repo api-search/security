@@ -12,6 +12,7 @@ api_specs:
   slug: the-token-company-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/openapi/the-token-company-search-api-openapi.yml
+certification_count: 1
 certifications:
 - HIPAA
 description: ''

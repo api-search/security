@@ -36,6 +36,7 @@ api_specs:
   slug: searchstax-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/openapi/searchstax-usage-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - query
 auth_types:
@@ -8,6 +9,7 @@ auth_types:
 description: Udesk publishes no OpenAPI, so this profile is captured from the developer docs rather than derived from securitySchemes. Every Udesk API family uses signed-request authentication (HMAC-style digest signatures computed over the admin email + API token + timestamp), not OAuth. There is no OAuth2 / OIDC surface, hence no scopes/ artifact for this provider.
 kind: authentication
 layout: security
+mechanism_count: 7
 method: searched
 name: Udesk Authentication
 name_suffix: Authentication

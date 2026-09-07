@@ -6,6 +6,7 @@ api_specs:
   slug: listen-labs-public-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/openapi/listen-labs-public-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2 Type II
 - ISO 27001

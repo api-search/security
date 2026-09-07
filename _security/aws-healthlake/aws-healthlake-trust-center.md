@@ -24,6 +24,7 @@ api_specs:
   slug: aws-healthlake-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-healthlake/refs/heads/main/openapi/aws-healthlake-tags-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

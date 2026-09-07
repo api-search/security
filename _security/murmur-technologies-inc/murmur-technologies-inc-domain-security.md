@@ -66,6 +66,7 @@ hosts:
   ip: 18.209.59.200
   note: resolves but times out on 443.
   reachable: false
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

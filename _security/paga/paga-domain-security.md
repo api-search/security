@@ -49,6 +49,7 @@ hosts:
   https: true
   notes: Business API host (path /paga-webservices/business-rest/secured).
   tls_verified: true
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

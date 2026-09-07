@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -82,6 +83,7 @@ auth_types:
 description: Hunter authenticates every call with a single account API key, accepted in three interchangeable positions. The OpenAPI declares all three. Separately — and documented nowhere in the API reference — hunter.io runs a full OAuth 2.1 authorization server, discovered by probing RFC 8414 metadata; it is what the remote MCP server at mcp.hunter.io delegates to via RFC 9728 protected-resource metadata.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Hunter Authentication
 name_suffix: Authentication

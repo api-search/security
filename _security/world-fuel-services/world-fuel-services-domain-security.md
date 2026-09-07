@@ -38,6 +38,7 @@ hosts:
 - host: www.world-fuel-services.com
   https: false
   note: DNS does not resolve (NXDOMAIN) — the domain in the previous apis.yml Website pointer.
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

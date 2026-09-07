@@ -78,6 +78,7 @@ api_specs:
   slug: rye-test-helpers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-test-helpers-api-openapi.yml
+certification_count: 1
 certifications:
 - PCI DSS Level 1
 description: Rye operates a public Trust Center at trust.rye.com for requesting security reports and reviewing its compliance posture. Its published security practices state that all card data is tokenized and stored in PCI DSS Level 1 compliant vaults, with encryption at rest (AES) and in transit (TLS), ongoing vulnerability scanning (Dependabot, GCP Container Analysis, cubic), access reviews, and reviewed production changes.

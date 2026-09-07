@@ -26,6 +26,7 @@ hosts:
   https: true
   note: MyAryaka customer portal, fronted by Cloudflare; returns 403 to non-browser clients.
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

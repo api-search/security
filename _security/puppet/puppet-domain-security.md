@@ -12,6 +12,30 @@ api_specs:
   slug: puppet-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/puppet/refs/heads/main/openapi/puppet-jobs-api-openapi.yml
+- filename: puppet-labs-module-operations-api-openapi.yml
+  format: yaml
+  label: Puppet Module Operations API
+  slug: puppet-labs-module-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puppet/refs/heads/main/openapi/puppet-labs-module-operations-api-openapi.yml
+- filename: puppet-labs-release-operations-api-openapi.yml
+  format: yaml
+  label: Puppet Release Operations API
+  slug: puppet-labs-release-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puppet/refs/heads/main/openapi/puppet-labs-release-operations-api-openapi.yml
+- filename: puppet-labs-search-filter-operations-api-openapi.yml
+  format: yaml
+  label: Puppet Search Filter Operations API
+  slug: puppet-labs-search-filter-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puppet/refs/heads/main/openapi/puppet-labs-search-filter-operations-api-openapi.yml
+- filename: puppet-labs-user-operations-api-openapi.yml
+  format: yaml
+  label: Puppet User Operations API
+  slug: puppet-labs-user-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puppet/refs/heads/main/openapi/puppet-labs-user-operations-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -45,6 +69,7 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

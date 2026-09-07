@@ -306,6 +306,7 @@ api_specs:
   slug: mongodb-x-509-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-x-509-authentication-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2
 - ISO 27001

@@ -78,6 +78,7 @@ api_specs:
   slug: resend-verify-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resend/refs/heads/main/openapi/resend-verify-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

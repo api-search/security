@@ -76,6 +76,7 @@ hosts:
   https: false
 - host: metrics-api.linkerd-viz.svc.cluster.local
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

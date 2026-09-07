@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for the Fiddler programmatic surface. Fiddler publishes no OpenAPI, so nothing here is derived from securitySchemes — every scheme below was read from the provider's own documentation or probed from a live /.well-known/ document.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Fiddler Authentication
 name_suffix: Authentication

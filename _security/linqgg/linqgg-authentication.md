@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: LinQ does not use OAuth 2.0 or OpenID Connect. Access is granted by opaque bearer tokens minted by the LinQ auth services, seeded by a per-game secret key issued out of band at integration time. There are two access tokens and two auxiliary secrets.
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Linqgg Authentication
 name_suffix: Authentication

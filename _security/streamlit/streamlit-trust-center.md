@@ -18,6 +18,7 @@ api_specs:
   slug: streamlit-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/openapi/streamlit-workspaces-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

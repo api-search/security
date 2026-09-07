@@ -54,6 +54,7 @@ api_specs:
   slug: aws-x-ray-untagresource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-untagresource-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

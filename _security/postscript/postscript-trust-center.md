@@ -42,6 +42,7 @@ api_specs:
   slug: postscript-identity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/openapi/postscript-identity-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

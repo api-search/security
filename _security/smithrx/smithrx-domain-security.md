@@ -50,6 +50,7 @@ hosts:
   https: true
   note: broker/TPA partner portal single-page app; answers 200 with an HTML shell for every path
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

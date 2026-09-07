@@ -36,6 +36,7 @@ api_specs:
   slug: circlecis-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/circlecis/refs/heads/main/openapi/circlecis-workflow-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - FedRAMP

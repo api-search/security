@@ -19,6 +19,7 @@ hosts:
   https: true
   note: Customer-only application host (Aptible-hosted). Probed manually on 2026-08-26; the automated pass only reads hosts named by apis.yml Website/baseURL.
   tls_version: TLSv1.2
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

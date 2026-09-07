@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -2524,6 +2525,7 @@ auth_types:
 description: Optimizely has no single authentication model. Seven distinct credential schemes are in production across the estate, a direct consequence of a decade of acquisitions (Episerver, Insite/Configured Commerce, Zaius/ODP, optivo/Campaign, Idio) each keeping its own auth. An agent must resolve the scheme per product, and a credential for one product is useless against another.
 kind: authentication
 layout: security
+mechanism_count: 10
 method: searched
 name: Optimizely Authentication
 name_suffix: Authentication

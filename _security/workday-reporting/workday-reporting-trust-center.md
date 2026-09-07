@@ -12,6 +12,7 @@ api_specs:
   slug: workday-reporting-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/openapi/workday-reporting-reports-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

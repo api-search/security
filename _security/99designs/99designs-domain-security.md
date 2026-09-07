@@ -51,6 +51,7 @@ hosts:
   https: true
   note: 'The probe reads the host root, which returns 404 with no HSTS header. Responses from the API itself (e.g. GET /resources/v1/designers) DO carry strict-transport-security: max-age=120; includeSubDomains — a 2-minute max-age, far below the 31536000 the website host sets. Observed 2026-08-13.'
   tls_version: TLSv1.2
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

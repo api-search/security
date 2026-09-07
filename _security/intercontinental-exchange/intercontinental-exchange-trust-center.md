@@ -6,6 +6,7 @@ api_specs:
   slug: consolidated-feed-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/openapi/intercontinental-exchange-instruments-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 1
 - SOC 2

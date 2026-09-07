@@ -45,18 +45,18 @@ api_specs:
 description: ''
 domains:
 - caa:
-  - 0 iodef "mailto:contact_pki@apple.com"
   - 0 issue "pki.apple.com"
   - 0 issuewild "pki.apple.com"
+  - 0 iodef "mailto:contact_pki@apple.com"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
   domain: icloud.com
   spf: true
 - caa:
+  - 0 issuewild "pki.apple.com"
   - 0 iodef "mailto:contact_pki@apple.com"
   - 0 issue "pki.apple.com"
-  - 0 issuewild "pki.apple.com"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
@@ -69,7 +69,7 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 27 17:10:52 2026 GMT
+- cert_expires: Oct 28 19:03:17 2026 GMT
   host: developer.apple.com
   hsts: true
   hsts_max_age: 31536000
@@ -80,6 +80,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
@@ -92,7 +93,7 @@ slug: cloudkit-domain-security
 source_filename: cloudkit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.icloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 18:07:22 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.apple.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 17:10:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.apple-cloudkit.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 25 20:54:06 2027 GMT\n  hsts: null\ndomains:\n- domain: icloud.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:contact_pki@apple.com\"\n  - 0 issue \"pki.apple.com\"\n  - 0 issuewild \"pki.apple.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: apple.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:contact_pki@apple.com\"\n  - 0 issue \"pki.apple.com\"\n  - 0 issuewild \"pki.apple.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.icloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 18:07:22 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.apple.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 19:03:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.apple-cloudkit.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 25 20:54:06 2027 GMT\n  hsts: null\ndomains:\n- domain: icloud.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.apple.com\"\n  - 0 issuewild \"pki.apple.com\"\n  - 0 iodef \"mailto:contact_pki@apple.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: apple.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.apple.com\"\n  - 0 iodef \"mailto:contact_pki@apple.com\"\n  - 0 issue \"pki.apple.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudkit/refs/heads/main/security/cloudkit-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

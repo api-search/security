@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: partnerize-brands-api-openapi.yml
@@ -630,6 +631,7 @@ auth_types:
 description: The Partnerize API authenticates with HTTP Basic. The username is the User Application Key and the password is the User API Key, joined with a colon and Base64-encoded into a single Authorization header. This profile is searched from the published API reference rather than derived, because the OpenAPI documents Partnerize publishes declare no components.securitySchemes at all — the auth contract exists only in the prose of info.description and is therefore invisible to any tool that reads the machine-readable spec.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Partnerize Authentication
 name_suffix: Authentication

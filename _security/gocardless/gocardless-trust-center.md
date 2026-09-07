@@ -96,6 +96,7 @@ api_specs:
   slug: gocardless-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/openapi/gocardless-subscriptions-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO/IEC 27001
 - FCA authorisation

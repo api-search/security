@@ -52,6 +52,7 @@ hosts:
   https: true
   note: Apigee behind a Google Cloud load balancer. Anonymous requests to undocumented paths return HTTP 403 at the edge, so no HSTS header is observable; /.well-known/openid-configuration and /oauth2/v1/jwks do answer 200.
   tls_version: TLSv1.3
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

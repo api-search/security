@@ -66,6 +66,12 @@ api_specs:
   slug: plane-so-work-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-work-items-api-openapi.yml
+- filename: introduction
+  format: yaml
+  label: Plane REST API
+  slug: plane-rest-api
+  spec_type: OpenAPI
+  url: https://developers.plane.so/api-reference/introduction
 description: ''
 domains:
 - caa:
@@ -99,6 +105,7 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

@@ -30,6 +30,7 @@ api_specs:
   slug: amperity-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/openapi/amperity-workflow-api-openapi.yml
+certification_count: 0
 certifications: []
 description: 'Amperity''s published trust surface. Its own meta description states: "Amperity helps organizations turn complex customer data into trusted intelligence. Protecting that data is fundamental to everything we build. Our Trust Center provides transparent access to information about our security, privacy, compliance, and governance practices so you can confidently understand how Amperity safeguards your data."'
 kind: trust-center

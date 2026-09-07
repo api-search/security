@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: basis-analytics-api-openapi.yml
@@ -13,6 +14,7 @@ auth_types:
 description: 'Every Basis Platform API endpoint requires authentication. Basis uses OAuth 2.0 with an Auth0-hosted authorization server at https://auth.basis.net — explicitly NOT the API host. Access tokens are presented to https://api.basis.net as `Authorization: Bearer <access_token>`. Credentials are not self-serve: the API is available to Basis (formerly Centro) customers and integration partners, and organizations must obtain credentials from their Basis representative.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Basis Authentication
 name_suffix: Authentication

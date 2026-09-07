@@ -240,6 +240,7 @@ api_specs:
   slug: alasco-utility-meters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/openapi/alasco-utility-meters-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

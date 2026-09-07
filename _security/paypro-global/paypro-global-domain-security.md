@@ -18,6 +18,7 @@ hosts:
   tls_version: TLSv1.3
 - host: developer.payproglobal.com
   https: false
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

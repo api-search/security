@@ -72,6 +72,7 @@ api_specs:
   slug: tray-ai-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-workspaces-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 1 Type 2
 - SOC 2 Type 2

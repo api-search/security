@@ -60,6 +60,7 @@ api_specs:
   slug: method-security-targets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-targets-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

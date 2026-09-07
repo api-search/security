@@ -282,6 +282,7 @@ api_specs:
   slug: mend-zero-day-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mend/refs/heads/main/openapi/mend-zero-day-events-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

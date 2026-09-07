@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: pennsylvania-state-university-researcher-metadata-api-openapi.yml
@@ -50,6 +51,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: generated
 name: Pennsylvania State University Authentication
 name_suffix: Authentication

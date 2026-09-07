@@ -42,6 +42,49 @@ api_specs:
   slug: persona-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/persona-webhooks-api-openapi.yml
+- filename: withpersona-cases-api-openapi.yml
+  format: yaml
+  label: Persona Cases API
+  slug: withpersona-cases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/withpersona-cases-api-openapi.yml
+- filename: withpersona-devices-api-openapi.yml
+  format: yaml
+  label: Persona Devices API
+  slug: withpersona-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/withpersona-devices-api-openapi.yml
+- filename: withpersona-documents-api-openapi.yml
+  format: yaml
+  label: Persona Documents API
+  slug: withpersona-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/withpersona-documents-api-openapi.yml
+- filename: withpersona-events-api-openapi.yml
+  format: yaml
+  label: Persona Events API
+  slug: withpersona-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/withpersona-events-api-openapi.yml
+- filename: withpersona-importers-api-openapi.yml
+  format: yaml
+  label: Persona Importers API
+  slug: withpersona-importers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/withpersona-importers-api-openapi.yml
+- filename: withpersona-inquiry-sessions-api-openapi.yml
+  format: yaml
+  label: Persona Inquiry Sessions API
+  slug: withpersona-inquiry-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/withpersona-inquiry-sessions-api-openapi.yml
+- filename: withpersona-workflows-api-openapi.yml
+  format: yaml
+  label: Persona Workflows API
+  slug: withpersona-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/withpersona-workflows-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

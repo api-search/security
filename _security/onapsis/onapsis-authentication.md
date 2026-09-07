@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: The Onapsis Platform API is authenticated with an API key generated in the Onapsis console UI, which is exchanged for a short-lived bearer access token used on subsequent GraphQL requests. Onapsis states the key-and-token model on its public API announcement; the exact token endpoint and header forms below are documented publicly by integration vendors that ship Onapsis connectors (Brinqa), not by an Onapsis reference page — the provider's own API reference sits behind the Customer Portal login. Provenance is recorded per field so the provider-published and third-party-documented parts stay distinguishable.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Onapsis Authentication
 name_suffix: Authentication

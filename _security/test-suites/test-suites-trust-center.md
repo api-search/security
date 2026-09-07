@@ -12,6 +12,7 @@ api_specs:
   slug: test-suites-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/test-suites/refs/heads/main/openapi/test-suites-workspaces-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

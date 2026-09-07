@@ -36,6 +36,7 @@ api_specs:
   slug: doku-virtual-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/openapi/doku-virtual-account-api-openapi.yml
+certification_count: 3
 certifications:
 - PCI DSS Level 1 Service Provider
 - ISO/IEC 27001

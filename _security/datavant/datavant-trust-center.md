@@ -48,6 +48,7 @@ api_specs:
   slug: datavant-visits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-visits-api-openapi.yml
+certification_count: 4
 certifications:
 - FedRAMP Moderate
 - SOC 2 Type 2

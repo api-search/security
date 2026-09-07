@@ -84,6 +84,7 @@ api_specs:
   slug: pluralsight-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-users-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

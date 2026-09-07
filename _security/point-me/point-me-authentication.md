@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: How a caller authenticates to point.me. Identity is an Auth0 tenant at auth.point.me exposing a complete OIDC discovery document; the API host api.point.me is a bearer-token resource server that refuses every anonymous request. No public API credential issuance exists — access to api.point.me is arranged through the Gateway partnership sales process.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Point Me Authentication
 name_suffix: Authentication

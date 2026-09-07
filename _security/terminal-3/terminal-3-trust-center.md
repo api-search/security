@@ -42,6 +42,7 @@ api_specs:
   slug: terminal-3-vc-v1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-vc-v1-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - SOC 2 Type 1

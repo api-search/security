@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: khalifa-khazna-oai-pmh-openapi.yml
@@ -15,6 +16,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 5
 method: probed
 name: Khalifa Authentication
 name_suffix: Authentication

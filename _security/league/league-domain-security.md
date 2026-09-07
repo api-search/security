@@ -36,6 +36,7 @@ hosts:
   hsts_note: Observed on a live 200 GET (2026-08-25). Added by hand — not in apis.yml hosts at probe time.
   hsts_preload: false
   https: true
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

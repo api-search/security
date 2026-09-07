@@ -18,6 +18,7 @@ api_specs:
   slug: unblocked-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/openapi/unblocked-documents-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type II
 - SOC 3

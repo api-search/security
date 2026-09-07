@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: united-states-army-corps-of-engineers-basins-api-openapi.yml
@@ -66,6 +67,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: United States Army Corps Of Engineers Authentication
 name_suffix: Authentication

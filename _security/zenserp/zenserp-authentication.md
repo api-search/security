@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -39,6 +40,7 @@ auth_types:
 description: 'Zenserp uses a single static API key. Verbatim from the documentation: "Zenserp uses API keys to allow access to the API. You can register a new API key at our developer portal." The key may be presented three ways, and the header form is the one Zenserp recommends. There is no OAuth, no scopes, no token exchange, no test/live key separation and no documented rotation or revocation procedure.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Zenserp Authentication
 name_suffix: Authentication

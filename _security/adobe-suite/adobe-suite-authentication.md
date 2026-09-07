@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - cookie
 - header
@@ -2842,6 +2843,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 12
 method: searched
 name: Adobe Suite Authentication
 name_suffix: Authentication

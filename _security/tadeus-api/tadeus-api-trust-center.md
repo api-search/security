@@ -54,6 +54,7 @@ api_specs:
   slug: tadeus-api-transcripts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/openapi/tadeus-api-transcripts-api-openapi.yml
+certification_count: 4
 certifications:
 - count
 - audited

@@ -6,6 +6,7 @@ api_specs:
   slug: the-brief-public-graphql-api
   spec_type: Postman
   url: https://www.postman.com/thebrieftechnical/the-brief-api/collection/1lfct1g/graphql-api
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

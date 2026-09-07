@@ -6,6 +6,7 @@ api_specs:
   slug: fireflies-transcripts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/openapi/fireflies-transcripts-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - HIPAA

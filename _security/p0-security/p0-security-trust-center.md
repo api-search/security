@@ -12,6 +12,7 @@ api_specs:
   slug: p0-security-permission-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/openapi/p0-security-permission-requests-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

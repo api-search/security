@@ -96,6 +96,7 @@ api_specs:
   slug: atomicwork-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atomicwork/refs/heads/main/openapi/atomicwork-workspaces-api-openapi.yml
+certification_count: 13
 certifications:
 - SOC 2 Type 1
 - SOC 2 Type 2

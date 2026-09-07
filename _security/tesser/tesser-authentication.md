@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: tesser-accounts-api-openapi.yml
@@ -91,6 +92,7 @@ auth_types:
 description: Every request to the Tesser API must carry a JWT access token. Tokens are minted via the OAuth 2.0 client-credentials grant against Tesser's Auth0 tenant. Each workspace has a Client ID + Client Secret pair (Dashboard -> Settings > API Keys). The token is presented as an HTTP bearer token. The OpenAPI declares a single `bearer` (http/bearer, JWT) security scheme applied globally.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Tesser Authentication
 name_suffix: Authentication

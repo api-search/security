@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Librato Authentication
 name_suffix: Authentication

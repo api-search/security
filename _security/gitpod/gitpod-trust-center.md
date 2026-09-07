@@ -186,6 +186,7 @@ api_specs:
   slug: gitpod-gitpod-v1-workflowservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gitpod/refs/heads/main/openapi/gitpod-gitpod-v1-workflowservice-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

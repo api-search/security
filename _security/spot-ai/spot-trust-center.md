@@ -90,6 +90,7 @@ api_specs:
   slug: spot-ai-zones-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-zones-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

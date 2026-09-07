@@ -18,6 +18,7 @@ api_specs:
   slug: splunk-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/openapi/splunk-search-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2
 - ISO 27001

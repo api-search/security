@@ -36,6 +36,7 @@ api_specs:
   slug: ortto-transactional-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-transactional-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

@@ -6,6 +6,7 @@ api_specs:
   slug: signaling-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/livekit/refs/heads/main/asyncapi/livekit-asyncapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

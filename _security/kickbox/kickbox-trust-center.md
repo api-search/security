@@ -30,6 +30,7 @@ api_specs:
   slug: kickbox-disposable-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/openapi/kickbox-disposable-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - GDPR

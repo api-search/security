@@ -106,6 +106,7 @@ hosts:
   hsts: false
   http_status: 200
   https: true
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

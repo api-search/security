@@ -6,6 +6,7 @@ api_specs:
   slug: amazon-personalize-datasets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-personalize/refs/heads/main/openapi/amazon-personalize-datasets-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

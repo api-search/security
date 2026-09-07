@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - body
 api_specs:
@@ -13,6 +14,7 @@ auth_types:
 description: Lemin Captcha uses a two-key model. A public captcha_id (site key) identifies a configured captcha to the browser widget and is safe to expose client-side. A secret private_key authenticates the server-side verification call and must never be sent from the browser. The private_key is supplied in the JSON body of the verification request (not as an HTTP header), so it is not expressed as a standard OpenAPI securityScheme; the OpenAPI models it as a required request field. There is no OAuth surface.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Capy Inc Authentication
 name_suffix: Authentication

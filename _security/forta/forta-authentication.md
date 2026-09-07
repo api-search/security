@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: Authentication model for the Forta GraphQL API. Requests are authenticated with a Bearer API key in the HTTP Authorization header. API keys are created in the Forta App (app.forta.network) after signing in with a wallet; up to 10 keys per account, and a key cannot be recovered once lost. For local bot development the key can be stored in forta.config.json under `fortaApiKey`. This is a static API-key (bearer) scheme, not OAuth 2.0 / OIDC, so there is no scope surface.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Forta Authentication
 name_suffix: Authentication

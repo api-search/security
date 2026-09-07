@@ -108,6 +108,24 @@ api_specs:
   slug: ada-webhookmanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-webhookmanagement-api-openapi.yml
+- filename: openapi.yaml
+  format: yaml
+  label: Ada REST API
+  slug: ada-rest-api
+  spec_type: OpenAPI
+  url: https://docs.ada.cx/openapi.yaml
+- filename: ada-knowledge-api-openapi.yml
+  format: yaml
+  label: Ada Knowledge API
+  slug: ada-knowledge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-knowledge-api-openapi.yml
+- filename: ada-conversations-api-openapi.yml
+  format: yaml
+  label: Ada Conversations API
+  slug: ada-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-conversations-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -136,6 +154,7 @@ hosts:
   tls_version: TLSv1.3
 - host: api.ada.cx
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

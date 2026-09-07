@@ -12,6 +12,7 @@ api_specs:
   slug: gitlab-container-registry-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gitlab-container-registry/refs/heads/main/openapi/gitlab-container-registry-tags-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

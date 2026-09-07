@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: niural-authentication-api-openapi.yml
@@ -30,6 +31,7 @@ auth_types:
 description: Niural uses a bespoke two-step credential exchange. Client credentials created in the dashboard are POSTed to /authenticate, which returns a JWT access token (3600s), a refresh token, and expires_in. That token is presented as an HTTP bearer credential on every other operation. It is client-credentials shaped but is NOT OAuth 2.0 — there is no grant_type, no token_type, no scope, no /.well-known/oauth-authorization-server, and therefore no scope surface.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Niural Authentication
 name_suffix: Authentication

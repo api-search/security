@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Logiwa authenticates the Integration API with an OAuth 2.0 Resource Owner Password Credentials grant against a per-tenant token host, returning a bearer access token that is then sent on every Integration API call. Credentials are not self-service: the docs state an API user must be provisioned by Logiwa under a sales contract before any token can be issued.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Logiwa Authentication
 name_suffix: Authentication

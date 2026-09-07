@@ -42,6 +42,7 @@ api_specs:
   slug: duo-security-webauthn-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-webauthn-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

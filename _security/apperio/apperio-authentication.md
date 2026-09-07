@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -37,6 +38,7 @@ auth_types:
 description: Apperio authenticates every API request with a user-scoped API token supplied in the HTTP Authorization header using the "Token" scheme. The OpenAPI does not declare a securityScheme, so this profile is captured from the published docs.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Apperio Authentication
 name_suffix: Authentication

@@ -54,6 +54,7 @@ api_specs:
   slug: prezent-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/prezent-webhooks-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

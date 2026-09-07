@@ -6,6 +6,7 @@ api_specs:
   slug: clearspeed-default-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clearspeed/refs/heads/main/openapi/clearspeed-default-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type 2
 - ISO 27001:2022

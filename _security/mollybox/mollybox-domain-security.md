@@ -39,6 +39,7 @@ hosts:
   http_server: uvicorn
   https: false
   https_note: TLS/443 refuses connection (curl exit 7); service is HTTP-only
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

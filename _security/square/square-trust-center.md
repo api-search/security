@@ -252,6 +252,7 @@ api_specs:
   slug: square-webhooksubscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-webhooksubscriptions-api-openapi.yml
+certification_count: 4
 certifications:
 - PCI DSS
 - PCI SAQ A

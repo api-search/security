@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: maastricht-oai-pmh-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: Authentication surfaces Maastricht University itself operates. The institution runs its own identity provider (Microsoft ADFS) on its own registrable domain and publishes BOTH an OIDC discovery document and signed SAML 2.0 federation metadata without authentication — a genuinely machine-readable, institution-operated surface, and the one class of university API that is almost never catalogued.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Maastricht Authentication
 name_suffix: Authentication

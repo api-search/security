@@ -120,6 +120,7 @@ hosts:
   https: true
   note: Auth0 tenant that mints every bearer token; serves OIDC discovery and JWKS. Added by hand for the same reason as api.cybelangel.com.
   tls_version: TLSv1.3
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

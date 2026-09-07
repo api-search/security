@@ -42,6 +42,7 @@ api_specs:
   slug: class-fka-classedu-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-users-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

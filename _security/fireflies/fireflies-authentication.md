@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -14,6 +15,7 @@ auth_types:
 description: Fireflies runs TWO distinct authentication models on the same product, and conflating them is the common integration mistake. The GraphQL API is a long-lived bearer API key with no OAuth and no scopes. The hosted MCP server is a full OAuth 2.0 authorization server with PKCE, dynamic client registration and revocation — but only two identity scopes. Upgraded from the previous derived profile, which saw only the OpenAPI BearerAuth scheme.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Fireflies Authentication
 name_suffix: Authentication

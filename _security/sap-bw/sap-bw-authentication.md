@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - cookie
@@ -10,6 +11,7 @@ auth_types:
 description: SAP BW/4HANA has no vendor-hosted API gateway and therefore no vendor-issued credential. Authentication is whatever the customer's own SAP NetWeaver Application Server for ABAP is configured for, and every mechanism below is an AS ABAP / Internet Communication Framework capability that SAP documents for BW, not an SAP BW-specific auth scheme. Derived from SAP's published security documentation, not from an OpenAPI securitySchemes block - this repo holds no spec, because SAP publishes none for BW.
 kind: authentication
 layout: security
+mechanism_count: 6
 method: searched
 name: Sap Bw Authentication
 name_suffix: Authentication

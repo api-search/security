@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
@@ -6,6 +7,7 @@ auth_types:
 description: Goji Platform API authentication. Production requests are cryptographically signed using an HMAC-SHA256 mechanism; a Basic HTTP API key and password is available for easier prototyping against the sandbox environment. There is no OAuth 2.0 / OpenID Connect surface -- no scopes artifact applies.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Goji Authentication
 name_suffix: Authentication

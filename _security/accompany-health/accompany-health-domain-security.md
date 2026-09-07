@@ -36,6 +36,7 @@ hosts:
   hsts: false
   https: true
   note: Static marketing microsite hosting a downloadable white paper.
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

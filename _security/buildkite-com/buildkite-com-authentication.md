@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: buildkite-com-access-token-api-openapi.yml
@@ -121,6 +122,7 @@ auth_types:
 description: Buildkite authenticates every API with Bearer-style tokens. The REST and GraphQL APIs use a user/organization API access token carrying granular scopes; the Agent API uses per-cluster Agent Tokens. A JWT public-key-pair signing method for the REST API is in preview. The remote MCP server additionally supports OAuth. Scope surface is captured in scopes/buildkite-com-scopes.yml.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Buildkite Com Authentication
 name_suffix: Authentication

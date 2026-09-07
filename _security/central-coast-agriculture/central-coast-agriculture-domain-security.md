@@ -27,6 +27,7 @@ hosts:
   https: true
   note: Consumer brand host (Raw Garden). Origin is fronted by Cloudflare and answered HTTP 403 (bot challenge) to the probe, so response headers could not be observed beyond the TLS handshake.
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

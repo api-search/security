@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: pricefinder-appraisals-api-openapi.yml
@@ -120,6 +121,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Pricefinder Authentication
 name_suffix: Authentication

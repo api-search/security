@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: supra-rpc-node-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: 'Supra runs two authentication regimes side by side. The Layer 1 node RPC is fully public and keyless — no API key, no OAuth, no securityScheme in the OpenAPI at all — because authority on a blockchain comes from the signature inside the transaction payload, not from a credential on the HTTP call. The oracle Price Feeds REST and WebSocket APIs are the opposite: an x-api-key header is mandatory, and the key is issued by hand through a Google Form request, with the surface labelled Early Access.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Supra Authentication
 name_suffix: Authentication

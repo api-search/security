@@ -180,6 +180,7 @@ api_specs:
   slug: postmark-triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-triggers-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - SSAE 16 SOC 1 Type 2

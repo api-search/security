@@ -912,6 +912,7 @@ api_specs:
   slug: bigcommerce-wishlists-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/openapi/bigcommerce-wishlists-items-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2
 - ISO 27001

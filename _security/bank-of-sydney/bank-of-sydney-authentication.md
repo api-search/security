@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: bank-of-sydney-banking-account-balances-api-openapi.yml
@@ -51,6 +52,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Bank Of Sydney Authentication
 name_suffix: Authentication

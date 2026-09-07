@@ -84,6 +84,7 @@ api_specs:
   slug: quadratic-validations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/openapi/quadratic-validations-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

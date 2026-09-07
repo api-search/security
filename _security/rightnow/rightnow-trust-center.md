@@ -42,6 +42,7 @@ api_specs:
   slug: rightnow-responses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rightnow/refs/heads/main/openapi/rightnow-responses-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

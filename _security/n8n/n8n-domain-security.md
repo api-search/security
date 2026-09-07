@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: n8n-public-api-openapi.yml
+  format: yaml
+  label: N8n
+  slug: n8n
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-public-api-openapi.yml
 - filename: n8n-audit-api-openapi.yml
   format: yaml
   label: N8n Audit API
@@ -123,6 +129,7 @@ hosts:
   hsts_max_age: 15552000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
@@ -142,4 +149,7 @@ tags:
 - Agents
 - Artificial Intelligence
 - Integration
+- Workflows
+- Automation
+- Low Code
 ---

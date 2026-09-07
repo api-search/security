@@ -180,6 +180,7 @@ api_specs:
   slug: kontaktio-telemetry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/openapi/kontaktio-telemetry-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type II
 - HIPAA Security Rule / HITECH

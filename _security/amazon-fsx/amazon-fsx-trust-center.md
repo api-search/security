@@ -6,6 +6,7 @@ api_specs:
   slug: amazon-fsx-file-systems-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-fsx/refs/heads/main/openapi/amazon-fsx-file-systems-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

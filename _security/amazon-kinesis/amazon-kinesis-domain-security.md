@@ -91,6 +91,7 @@ hosts:
   https: false
 - host: firehose.amazonaws.com
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

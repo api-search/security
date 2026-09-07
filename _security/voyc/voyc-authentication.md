@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - cookie-session
@@ -6,6 +7,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Voyc Authentication
 name_suffix: Authentication

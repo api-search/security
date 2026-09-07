@@ -72,6 +72,36 @@ api_specs:
   slug: getstream-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-users-api-openapi.yml
+- filename: stream-io-product-chat-api-openapi.yml
+  format: yaml
+  label: Stream product:chat API
+  slug: stream-io-product-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/stream-io-product-chat-api-openapi.yml
+- filename: stream-io-product-common-api-openapi.yml
+  format: yaml
+  label: Stream product:common API
+  slug: stream-io-product-common-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/stream-io-product-common-api-openapi.yml
+- filename: stream-io-product-feeds-api-openapi.yml
+  format: yaml
+  label: Stream product:feeds API
+  slug: stream-io-product-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/stream-io-product-feeds-api-openapi.yml
+- filename: stream-io-product-moderation-api-openapi.yml
+  format: yaml
+  label: Stream product:moderation API
+  slug: stream-io-product-moderation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/stream-io-product-moderation-api-openapi.yml
+- filename: stream-io-product-video-api-openapi.yml
+  format: yaml
+  label: Stream product:video API
+  slug: stream-io-product-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/stream-io-product-video-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -114,6 +144,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

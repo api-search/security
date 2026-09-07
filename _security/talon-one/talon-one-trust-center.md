@@ -252,6 +252,7 @@ api_specs:
   slug: talon-one-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/openapi/talon-one-webhooks-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - SOC 2

@@ -70,6 +70,7 @@ hosts:
   https: true
   notes: '/wp-json responses carry `x-content-type-options: nosniff` and `x-robots-tag: noindex`. No Strict-Transport-Security, no Content-Security-Policy and no Referrer-Policy header was returned on either the HTML root or the JSON API.'
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

@@ -112,6 +112,7 @@ hosts:
   https: true
   note: Sandbox PGW API host. Returns 403 to unauthenticated GET; expects signed JWT POST.
   tls_version: TLSv1.2
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

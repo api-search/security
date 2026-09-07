@@ -44,6 +44,7 @@ hosts:
   https: true
   note: Research data platform. Replaced dvn.fudan.edu.cn.
   tls_version: TLSv1.2+
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

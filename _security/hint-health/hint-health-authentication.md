@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -410,6 +411,7 @@ auth_types:
 description: 'Hint is a single-mechanism API: a bearer token in the Authorization header, on every operation, with no OAuth scopes and no OIDC. What varies is WHICH token, and getting that wrong is the highest-consequence mistake on this API — the partner key and the practice access token address different surfaces, and using the partner key against /api/provider/* crosses practice boundaries.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Hint Health Authentication
 name_suffix: Authentication

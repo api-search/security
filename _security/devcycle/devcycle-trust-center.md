@@ -150,6 +150,7 @@ api_specs:
   slug: devcycle-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - GDPR

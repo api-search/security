@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apivault-api-openapi.yml
+  format: yaml
+  label: Apivault
+  slug: apivault
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -12,6 +19,7 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -24,7 +32,7 @@ slug: apivault-domain-security
 source_filename: apivault-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apivault.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 12:31:58 2026 GMT\n  hsts: false\ndomains:\n- domain: apivault.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apivault.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 12:31:58 2026 GMT\n  hsts: false\ndomains:\n- domain: apivault.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/security/apivault-domain-security.yml
 summary_line: TLSv1.3
 tags:

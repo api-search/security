@@ -71,6 +71,7 @@ hosts:
   tls_version: TLSv1.3
 - host: <tenant>.id.cyberark.cloud
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

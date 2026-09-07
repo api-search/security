@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -62,6 +63,7 @@ auth_types:
 description: 'LeanData runs three distinct authentication models across three distinct hosts, and a consumer has to know which product they are calling before they can pick one. The BookIt and Graph REST APIs on api.leandata.com use a server-side API key in an X-Api-Key header. The Matching and Round Robin APIs are not LeanData-hosted at all — they are dispatched through the customer''s own Salesforce org via the managed package''s Apex REST endpoint and authenticate with a Salesforce OAuth 2.0 Connected App session. The BookIt MCP server on mcp.leandata.com is the newest and the only one with machine-readable discovery: OAuth 2.1 authorization-code + PKCE with dynamic client registration and a real scope model. None of the harvested OpenAPI files declare a securityScheme, so this profile was built by reading LeanData''s published documentation rather than derived from the specs — running derive-authentication.py against openapi/ yields zero schemes.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Leandata Authentication
 name_suffix: Authentication

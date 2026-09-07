@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -67,6 +68,7 @@ auth_types:
 description: Amazon Rekognition authorizes requests with AWS Identity and Access Management (IAM). Every call must be signed with AWS Signature Version 4 (SigV4) using the caller's access key / temporary credentials; the OpenAPI models this as an apiKey scheme on the Authorization header. Fine-grained authorization is controlled by IAM policies (e.g. AmazonRekognitionFullAccess, AmazonRekognitionReadOnlyAccess) and rekognition:* actions.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Amazon Rekognition Authentication
 name_suffix: Authentication

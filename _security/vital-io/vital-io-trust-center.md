@@ -114,6 +114,7 @@ api_specs:
   slug: vital-io-lab-testing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-lab-testing-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - HITRUST CSF

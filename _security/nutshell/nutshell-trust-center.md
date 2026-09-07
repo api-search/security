@@ -144,6 +144,7 @@ api_specs:
   slug: nutshell-stagesets-pipelines-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-stagesets-pipelines-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

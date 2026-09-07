@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: farmdash-account-api-openapi.yml
@@ -75,6 +76,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 6
 method: searched
 name: Farmdash Authentication
 name_suffix: Authentication

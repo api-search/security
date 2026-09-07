@@ -186,6 +186,7 @@ api_specs:
   slug: fat-zebra-web-hooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fat-zebra/refs/heads/main/openapi/fat-zebra-web-hooks-api-openapi.yml
+certification_count: 1
 certifications:
 - PCI DSS
 description: ''

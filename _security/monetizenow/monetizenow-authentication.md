@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -134,6 +135,7 @@ auth_types:
 description: MonetizeNow has two distinct authentication surfaces. The documented REST API uses a single tenant-generated API key in an x-api-key header, with no scopes and no test/live key separation. The undocumented but live MCP server at mcp.monetizeplatform.com uses OAuth 2.x bearer tokens with dynamic client registration and PKCE S256, discovered from its own RFC 8414 / RFC 9728 metadata.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Monetizenow Authentication
 name_suffix: Authentication

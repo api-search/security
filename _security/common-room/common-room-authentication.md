@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: common-room-scim-api-openapi.yml
@@ -143,6 +144,7 @@ auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Common Room Authentication
 name_suffix: Authentication

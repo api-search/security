@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -86,12 +87,19 @@ api_specs:
   slug: kandji-vulnerability-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-vulnerability-management-api-openapi.yml
+- filename: how-to-set-up-the-iru-endpoint-api-in-postman.md
+  format: yaml
+  label: Iru Endpoint Management API
+  slug: iru-endpoint-management-api
+  spec_type: Postman
+  url: https://docs.iru.com/en/endpoint/api/how-to-set-up-the-iru-endpoint-api-in-postman.md
 auth_types:
 - http
 - apiKey
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Kandji Authentication
 name_suffix: Authentication

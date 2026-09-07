@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: the-picklr-wordpress-rest-openapi.json
@@ -11,6 +12,7 @@ auth_types: []
 description: Two distinct authentication models are live on thepicklr.com, and they gate different surfaces. The wp/v2 content collections are readable with no credential at all. Writes and the MCP endpoints are gated — by WordPress Application Passwords for the classic REST routes, and by an OAuth 2.1 authorization server (dynamic registration, PKCE-only) for the MCP resource. Everything below was read from documents the site serves; nothing is inferred from vendor documentation.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: The Picklr Authentication
 name_suffix: Authentication

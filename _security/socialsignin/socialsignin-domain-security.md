@@ -35,6 +35,7 @@ hosts:
   https: true
   note: Customer console host. Sends X-Frame-Options sameorigin, X-Content-Type-Options nosniff and X-XSS-Protection, but no Strict-Transport-Security.
   tls_version: TLSv1.2
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

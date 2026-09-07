@@ -276,6 +276,7 @@ api_specs:
   slug: scoutrfp-worksheets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scoutrfp/refs/heads/main/openapi/scoutrfp-worksheets-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

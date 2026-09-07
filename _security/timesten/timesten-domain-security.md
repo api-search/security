@@ -31,6 +31,7 @@ hosts:
   https: true
   note: redirects (301) into www.oracle.com; legacy company domain
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

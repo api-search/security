@@ -96,6 +96,7 @@ api_specs:
   slug: seven-bridges-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/openapi/seven-bridges-users-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - HIPAA

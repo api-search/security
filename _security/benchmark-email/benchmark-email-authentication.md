@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -217,6 +218,7 @@ auth_types:
 description: Benchmark Email runs TWO independent API-key schemes, one per API generation, and they share nothing — not the header name, not the key format, not the permission model. There is no OAuth, no OIDC, no mTLS and no bearer token anywhere in the product; /.well-known/oauth-authorization-server, /.well-known/oauth-protected-resource and /.well-known/openid-configuration all return 404 on every host.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Benchmark Email Authentication
 name_suffix: Authentication

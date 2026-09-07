@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: university-of-edinburgh-elm-api-openapi.yml
@@ -29,6 +30,7 @@ auth_types: []
 description: How authentication works across the institution-operated University of Edinburgh surfaces. Every statement below was observed by probing on 2026-08-19.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: University Of Edinburgh Authentication
 name_suffix: Authentication

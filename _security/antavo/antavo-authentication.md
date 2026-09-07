@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - query
 api_specs:
@@ -183,6 +184,7 @@ auth_types:
 description: Antavo runs three distinct authentication models side by side, split by API rather than negotiated per request. The spec-derived scheme list below was produced mechanically from the harvested OpenAPI, then upgraded from Antavo's own API security and API signing documentation - the specs alone materially understate the model, because the Escher request signature that actually authenticates most calls is invisible to OpenAPI (it is a computed `Authorization` header, not a declared securityScheme).
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Antavo Authentication
 name_suffix: Authentication

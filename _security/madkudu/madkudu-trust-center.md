@@ -72,6 +72,7 @@ api_specs:
   slug: madkudu-utilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/openapi/madkudu-utilities-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type 2
 - CAIQ

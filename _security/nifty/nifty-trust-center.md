@@ -54,6 +54,7 @@ api_specs:
   slug: nifty-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nifty/refs/heads/main/openapi/nifty-webhooks-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

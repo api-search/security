@@ -78,6 +78,7 @@ api_specs:
   slug: freshchat-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-users-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

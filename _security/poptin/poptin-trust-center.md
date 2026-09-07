@@ -1,4 +1,5 @@
 ---
+certification_count: 2
 certifications:
 - ISO/IEC 27001:2013
 - ISO 27001 compliant infrastructure

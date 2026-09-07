@@ -149,6 +149,7 @@ hosts:
   https: true
   notes: Legacy V1 (Iamport) API host, still live.
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

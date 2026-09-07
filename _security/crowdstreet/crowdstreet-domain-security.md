@@ -37,6 +37,7 @@ hosts:
   https: true
   role: help center / education center
   server: Microsoft-IIS/10.0
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

@@ -36,6 +36,7 @@ hosts:
   hsts: null
   https: true
   tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1082)'
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

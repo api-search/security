@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: veem-attachment-controller-api-openapi.yml
@@ -90,6 +91,7 @@ auth_types:
 description: Veem Public API authentication profile, captured from the developer-portal OAuth guide (the published OpenAPI operation slices declare no securitySchemes, so this profile is documentation-sourced). Veem uses OAuth 2.0 in two-legged (client_credentials, server-to-server on your own behalf) and three-legged (authorization_code, on behalf of another Veem user) forms, plus refresh_token. Client credentials are sent as an HTTP Basic header (base64 of client_id:client_secret) on the token call; API calls carry the access token as a Bearer Authorization header. Client ID/Secret are generated in the dashboard under Settings > Integrations > Connect Veem API (production credentials are visible only to the primary account owner).
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Veem Authentication
 name_suffix: Authentication

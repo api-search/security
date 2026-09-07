@@ -6,6 +6,7 @@ api_specs:
   slug: platform-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-platform-api-openapi.json
+certification_count: 3
 certifications:
 - AWS Well-Architected Framework Review
 - ISO 27001

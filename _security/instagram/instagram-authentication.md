@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: instagram-comments-api-openapi.yml
@@ -48,6 +49,7 @@ auth_types:
 description: The Instagram Platform is OAuth 2.0 authorization code only. There is no API key, no basic auth, no mTLS and no service account. Which of the two login models you pick determines the host, the permission family, the token endpoints and which capabilities you can reach - they are not interchangeable. Upgraded 2026-08-29 from a derivation off the OpenAPI securitySchemes to the published Business Login reference, which supplied the Instagram Login endpoints and the token lifetimes the specs do not carry.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Instagram Authentication
 name_suffix: Authentication

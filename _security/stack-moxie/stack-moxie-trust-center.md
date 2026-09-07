@@ -30,6 +30,7 @@ api_specs:
   slug: stack-moxie-how-to-test-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-test-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

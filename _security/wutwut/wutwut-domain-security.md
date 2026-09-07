@@ -25,6 +25,7 @@ hosts:
   https: false
   https_error: connection refused (port 443)
   ip: 94.23.162.163
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Actively AI protects its hosted MCP server (https://api.actively.ai/mcp) with OAuth 2.1 authorization-code + PKCE against a first-party authorization server at https://auth.actively.ai, which also speaks full OpenID Connect. There is no API-key surface: the only published, machine-discoverable authentication path is OAuth. No public REST API is published, so no securityScheme block exists to derive from — the profile below is read from live discovery metadata.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Actively Authentication
 name_suffix: Authentication

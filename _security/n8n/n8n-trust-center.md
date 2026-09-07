@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: n8n-public-api-openapi.yml
+  format: yaml
+  label: N8n
+  slug: n8n
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-public-api-openapi.yml
 - filename: n8n-audit-api-openapi.yml
   format: yaml
   label: N8n Audit API
@@ -84,6 +90,7 @@ api_specs:
   slug: n8n-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-workflow-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR
@@ -106,5 +113,8 @@ tags:
 - Agents
 - Artificial Intelligence
 - Integration
+- Workflows
+- Automation
+- Low Code
 trust_url: https://trust.n8n.io/
 ---

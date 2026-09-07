@@ -1,4 +1,5 @@
 ---
+certification_count: 5
 certifications:
 - ISO/IEC 27001
 - ISO 9001

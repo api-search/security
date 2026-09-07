@@ -78,6 +78,7 @@ api_specs:
   slug: chef-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/openapi/chef-users-api-openapi.yml
+certification_count: 1
 certifications:
 - HIPAA
 description: ''

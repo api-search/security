@@ -38,6 +38,7 @@ hosts:
   hsts: false
   https: true
   note: single-page healthcare client application
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

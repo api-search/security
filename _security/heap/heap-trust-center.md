@@ -30,6 +30,7 @@ api_specs:
   slug: heap-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-webhooks-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

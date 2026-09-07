@@ -78,6 +78,7 @@ api_specs:
   slug: end-close-end-close-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/openapi/end-close-end-close-api-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type 2
 description: ''

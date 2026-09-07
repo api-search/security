@@ -174,6 +174,7 @@ api_specs:
   slug: feedly-vulnerabilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/openapi/feedly-vulnerabilities-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 1
 - SOC 2 Type 2

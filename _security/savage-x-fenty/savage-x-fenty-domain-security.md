@@ -15,6 +15,7 @@ hosts:
   https: true
   note: 'HSTS observed directly on the response headers of https://www.savagex.com/ (a Cloudflare bot-challenge 403, cf-mitigated: challenge). Edge is Cloudflare; origin is TechStyle.'
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

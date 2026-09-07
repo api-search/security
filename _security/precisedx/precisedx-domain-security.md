@@ -24,6 +24,7 @@ hosts:
   https: true
   note: Authenticated clinician ordering portal (PDx Portal / Order Portal). Added by hand from a live TLS/HTTP probe on 2026-08-26 because probe-domain-security.py reads baseURL/servers[] hosts and this host is only referenced from the Login pointer.
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

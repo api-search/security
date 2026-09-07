@@ -162,6 +162,7 @@ api_specs:
   slug: coder-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/openapi/coder-workspaces-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

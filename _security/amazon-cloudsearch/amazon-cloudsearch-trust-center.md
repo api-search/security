@@ -12,6 +12,7 @@ api_specs:
   slug: amazon-cloudsearch-index-fields-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/openapi/amazon-cloudsearch-index-fields-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

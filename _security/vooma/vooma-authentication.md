@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: vooma-carriers-api-openapi.yml
@@ -66,6 +67,7 @@ auth_types:
 description: Auth profile for the Vooma Public API. All 25 REST operations require the "bearer" scheme — an organization API key sent as a bearer token (bearerFormat "API Key"). API keys are created by an organization admin in the Vooma app and require an enterprise license. The spec also defines a basic scheme and an "auth0" bearer JWT scheme (Auth0-issued user tokens for the app), but no public operation references them. Webhook callbacks Vooma sends to your server declare no security scheme in the spec.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Vooma Authentication
 name_suffix: Authentication

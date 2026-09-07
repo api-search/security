@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for Ace Hardware's integration surfaces. There is no OpenAPI securitySchemes block to derive from — Ace Hardware publishes no HTTP API — so this profile is searched from the provider's vendor documentation and affiliate program pages. The controlling credential on the machine-to-machine surface is an X.509 certificate used for AS2 message signing and encryption, not an API key or a bearer token.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Ace Hardware Authentication
 name_suffix: Authentication

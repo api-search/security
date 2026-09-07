@@ -36,6 +36,7 @@ api_specs:
   slug: nuclino-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-workspaces-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

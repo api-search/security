@@ -31,6 +31,7 @@ hosts:
   hsts_note: 'The probe read the host root, which the ALB answers with a bare empty 404 carrying no headers. A manual anonymous GET of https://api.bakuraku.layerx.jp/rest/v1/tenant/users on 2026-08-23 returned strict-transport-security: max-age=15552000; includeSubDomains alongside x-content-type-options: nosniff, x-frame-options: SAMEORIGIN and x-permitted-cross-domain-policies: none. HSTS is present on the API path, absent from the ALB''s catch-all 404.'
   https: true
   tls_version: TLSv1.2
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

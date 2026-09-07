@@ -296,6 +296,7 @@ hosts:
   server: cloudflare
   tls_version: TLSv1.3
   x_content_type_options: nosniff
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

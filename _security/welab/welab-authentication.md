@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - mutualTLS
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Welab Authentication
 name_suffix: Authentication

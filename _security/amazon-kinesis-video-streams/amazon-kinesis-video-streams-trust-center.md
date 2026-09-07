@@ -12,6 +12,7 @@ api_specs:
   slug: amazon-kinesis-video-streams-streams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-video-streams/refs/heads/main/openapi/amazon-kinesis-video-streams-streams-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

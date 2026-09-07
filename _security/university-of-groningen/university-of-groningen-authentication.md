@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: university-of-groningen-course-catalog-api-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: 'How access actually works across the University of Groningen''s programmable surfaces, established by calling each one on 2026-08-30. There is no institutional developer portal, no API key issuance and no self-service registration anywhere in this footprint. Access is one of three things: fully open, gated behind the University''s SAML single sign-on, or gated behind a key that a vendor''s platform issues to the institution rather than to a developer.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: University Of Groningen Authentication
 name_suffix: Authentication

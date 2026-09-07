@@ -240,6 +240,7 @@ api_specs:
   slug: laurel-working-timekeepers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/laurel/refs/heads/main/openapi/laurel-working-timekeepers-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2 Type 2
 - ISO/IEC 42001:2023

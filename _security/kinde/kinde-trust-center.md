@@ -180,6 +180,7 @@ api_specs:
   slug: kinde-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/openapi/kinde-webhooks-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

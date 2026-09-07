@@ -108,6 +108,7 @@ api_specs:
   slug: copper-co-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/openapi/copper-co-wallets-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

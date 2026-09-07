@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: purdue-rcac-api-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: Purdue University operates no single API gateway, no developer portal and no self-service key issuance. Authentication posture differs per surface and there is no published policy tying them together. Two surfaces are fully open and keyless, one is federated behind Purdue Web Authentication, and one is an open harvesting protocol.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Purdue Authentication
 name_suffix: Authentication

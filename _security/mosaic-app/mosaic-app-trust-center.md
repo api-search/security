@@ -30,6 +30,7 @@ api_specs:
   slug: mosaic-app-work-plans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-work-plans-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

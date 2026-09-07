@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: sponge-agents-api-openapi.yml
@@ -68,6 +69,7 @@ auth_types:
 description: Sponge's public Wallet API authenticates with a per-agent bearer API key. A browser device flow issues agent credentials interactively; agent keys are used non-interactively for servers/CI. Separately, an OAuth 2.0 / OIDC authorization server (S256 PKCE, dynamic client registration) fronts the hosted MCP servers for connectors that support OAuth.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Sponge Authentication
 name_suffix: Authentication

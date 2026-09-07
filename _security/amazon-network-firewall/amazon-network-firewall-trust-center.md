@@ -216,6 +216,7 @@ api_specs:
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatetlsinspectionconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/openapi/amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatetlsinspectionconfiguration-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

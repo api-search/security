@@ -18,6 +18,7 @@ api_specs:
   slug: snowplow-data-structures-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/openapi/snowplow-data-structures-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

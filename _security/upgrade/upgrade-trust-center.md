@@ -18,6 +18,7 @@ api_specs:
   slug: upgrade-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upgrade/refs/heads/main/openapi/upgrade-transactions-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

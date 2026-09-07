@@ -54,6 +54,7 @@ api_specs:
   slug: quicknode-streams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-streams-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

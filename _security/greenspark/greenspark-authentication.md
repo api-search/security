@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -49,6 +50,7 @@ auth_types:
 description: 'Greenspark authenticates every API call with a single API key sent in the x-api-key request header. Keys are created in the Greenspark dashboard and are environment-bound: a sandbox key only works against the sandbox host and a production key only against production. No OAuth2/OIDC is offered.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Greenspark Authentication
 name_suffix: Authentication

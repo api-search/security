@@ -60,6 +60,7 @@ api_specs:
   slug: zapier-zaps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-zaps-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2
 - ISO 27001

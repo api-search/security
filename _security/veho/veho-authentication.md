@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -55,6 +56,7 @@ auth_types:
 description: The Veho API authenticates with a static API key provided by Veho, sent on every request in an `apikey` header (UUID-shaped in the docs example). Sandbox and production use separate keys and hosts. 401 means the header was missing or the key invalid; 403 means the key lacks permission for the requested resource. GET /serviceable-zips on the sandbox host is the only documented unauthenticated endpoint. No OAuth, OIDC, or mTLS surface.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Veho Authentication
 name_suffix: Authentication

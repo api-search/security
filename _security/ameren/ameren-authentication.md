@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Ameren publishes no OpenAPI, so this profile is not derived from a spec. It is read from two real sources: (1) the live, anonymous OpenID Connect discovery document served by Ameren''s ForgeRock AM enterprise identity service (eiam = Enterprise Identity and Access Management) at login.eiam.ece.ameren.com, and (2) Ameren Illinois'' own Share My Usage program page, which states the program uses the Green Button Connect My Data APIs with OAuth customer authorization and that Aclara is the authorized data custodian.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Ameren Authentication
 name_suffix: Authentication

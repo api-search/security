@@ -30,6 +30,7 @@ api_specs:
   slug: axlehire-tracking-information-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axlehire/refs/heads/main/openapi/axlehire-tracking-information-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type 2
 description: Jitsu (formerly AxleHire) runs a public trust center on SafeBase by Drata at trust.gojitsu.com. It names a single audit certification — SOC 2 Type 2 — and gates the underlying policy documents behind an NDA/request flow typical of SafeBase. Certifications are recorded exactly as published; nothing was inferred.

@@ -324,6 +324,7 @@ api_specs:
   slug: lightspeed-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightspeed/refs/heads/main/openapi/lightspeed-workflows-api-openapi.yml
+certification_count: 4
 certifications:
 - PCI DSS
 - SOC 2

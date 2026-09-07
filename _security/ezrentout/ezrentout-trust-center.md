@@ -66,6 +66,7 @@ api_specs:
   slug: ezrentout-purchase-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-purchase-orders-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

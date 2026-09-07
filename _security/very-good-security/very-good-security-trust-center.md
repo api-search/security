@@ -6,6 +6,7 @@ api_specs:
   slug: very-good-security-aliases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/very-good-security/refs/heads/main/openapi/very-good-security-aliases-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

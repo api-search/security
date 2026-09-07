@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -216,6 +217,7 @@ auth_types:
 description: 'Route Mobile''s authentication is legacy CPaaS rather than telco-standard, and it is not uniform: four different credential models across five products. There is no OAuth 2.0, no OpenID Connect, no discovery document (/.well-known/openid-configuration and /.well-known/oauth-authorization-server 404 on every host), and no scopes — so no scopes/ artifact is emitted for this provider. Two of the models (SMS query-parameter credentials, SendClean body-carried token) are not expressible as OpenAPI securitySchemes and are therefore absent from the specs; they were harvested from the documentation and from the operation parameters.'
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Route Mobile Authentication
 name_suffix: Authentication

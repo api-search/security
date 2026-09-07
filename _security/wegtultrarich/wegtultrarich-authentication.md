@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: 6a68bfdcf1d9df57e26c3545
@@ -30,6 +31,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Wegtultrarich Authentication
 name_suffix: Authentication

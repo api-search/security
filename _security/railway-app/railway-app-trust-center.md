@@ -6,6 +6,7 @@ api_specs:
   slug: railway-app-logs-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/railway-app/refs/heads/main/asyncapi/railway-app-asyncapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

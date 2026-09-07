@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: patsnap-ai-translation-api-openapi.yml
@@ -288,6 +289,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Patsnap Authentication
 name_suffix: Authentication

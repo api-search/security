@@ -93,6 +93,7 @@ hosts:
   https: false
 - host: streamer-ws.tdameritrade.com
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

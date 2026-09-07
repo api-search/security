@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: Altara publishes a Vanta-hosted Trust Center at trust.altara.co and states on its website security section that the platform is SOC 2 Type II compliant ("verified security through independent, third-party certification of our comprehensive internal controls"). The automated trust-center probe did not record this because the Vanta trust report renders client-side (JS) rather than exposing the certifications in server-rendered HTML — this is the searched, human-verified fill. The document catalog behind the Vanta portal is access-gated (report request), so individual report artifacts are not captured.

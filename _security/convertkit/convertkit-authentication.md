@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -86,12 +87,19 @@ api_specs:
   slug: convertkit-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-webhooks-api-openapi.yml
+- filename: kit-account-api-openapi.yml
+  format: yaml
+  label: Kit Account API
+  slug: kit-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/kit-account-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Convertkit Authentication
 name_suffix: Authentication

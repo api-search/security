@@ -12,6 +12,7 @@ api_specs:
   slug: bifrost-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bifrost/refs/heads/main/openapi/bifrost-health-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

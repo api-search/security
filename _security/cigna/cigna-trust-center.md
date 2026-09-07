@@ -90,6 +90,7 @@ api_specs:
   slug: cigna-practitionerrole-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-practitionerrole-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

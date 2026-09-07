@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'How authentication works across the surfaces attributed to École des Ponts ParisTech. There is no API key programme, no developer registration and no OAuth client provisioning anywhere on an ENPC host. What ENPC does operate is campus identity: a SAML 2.0 Identity Provider registered in the French national research and education federation, and a CAS server. Both authenticate people into institutional applications; neither issues credentials to third-party developers.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Ecole Des Ponts Paristech Authentication
 name_suffix: Authentication

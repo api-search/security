@@ -1,4 +1,5 @@
 ---
+certification_count: 5
 certifications:
 - HITRUST R2
 - ISO/IEC 27001

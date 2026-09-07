@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - signed-request
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: StrongDM Admin API authentication. The control-plane API is gRPC; requests are authenticated with an API access key plus secret key pair generated in the Admin UI, and each request is signed. There is no OAuth 2.0 / OpenID Connect authorization-server surface on the API — the SDKs handle key-based signing internally, so there is no scope model (scopes/ is intentionally absent).
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Strongdm Authentication
 name_suffix: Authentication

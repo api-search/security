@@ -174,6 +174,7 @@ api_specs:
   slug: bazaarvoice-uploadphoto-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-uploadphoto-api-openapi.yml
+certification_count: 4
 certifications:
 - ISO/IEC 27001:2013
 - CSA CAIQ

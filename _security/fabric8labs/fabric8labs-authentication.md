@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: fabric8labs-posts-api-openapi.yml
@@ -49,6 +50,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Fabric8Labs Authentication
 name_suffix: Authentication

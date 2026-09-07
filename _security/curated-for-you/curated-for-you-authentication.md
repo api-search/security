@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: curated-for-you-chronicle-api-openapi.yml
@@ -42,6 +43,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Curated For You Authentication
 name_suffix: Authentication

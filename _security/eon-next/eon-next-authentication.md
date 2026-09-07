@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - openIdConnect
@@ -7,6 +8,7 @@ description: 'E.ON Next has exactly one publicly describable authentication surf
   as "how an E.ON Next customer''s browser or app authenticates", not "how you get an API credential".'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Eon Next Authentication
 name_suffix: Authentication

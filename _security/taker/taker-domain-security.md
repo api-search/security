@@ -26,6 +26,7 @@ hosts:
   hsts: false
   https: true
   server: nginx
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: eco-quotes-v1-api-openapi.yml
@@ -24,6 +25,7 @@ auth_types:
 description: 'The Eco Routes REST API (quote and intent endpoints) requires NO authentication. There are no securitySchemes declared in the OpenAPI and no API keys, tokens, or OAuth flows. Callers pass a dAppID identifier in the request body purely for attribution. Authorization instead lives at the onchain layer: solver registration/update uses signed requests, and all value movement is executed via EVM/SVM wallet signatures against non-custodial per-intent CREATE2 vault contracts. There is no account or credential provisioning surface.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Eco Authentication
 name_suffix: Authentication

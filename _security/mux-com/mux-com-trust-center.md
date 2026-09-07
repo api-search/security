@@ -222,6 +222,7 @@ api_specs:
   slug: mux-com-mux-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-mux-api-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2
 - ISO 27001

@@ -84,6 +84,7 @@ api_specs:
   slug: jasper-voices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/openapi/jasper-voices-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

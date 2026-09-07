@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for Goodera's two published API surfaces. Derived from the provider's own API reference and from a live protocol handshake against the MCP endpoint. No OpenAPI securitySchemes block exists to derive from, because Goodera publishes no OpenAPI document.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Goodera Authentication
 name_suffix: Authentication

@@ -42,6 +42,7 @@ api_specs:
   slug: amazon-shield-listprotections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/openapi/amazon-shield-listprotections-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

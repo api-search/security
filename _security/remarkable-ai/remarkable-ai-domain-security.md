@@ -54,6 +54,7 @@ hosts:
   role: Trends application (Spring Boot)
   tls_note: Negotiates TLS 1.2 only; the other six hosts all reach TLS 1.3. Not a defect, but it is the weakest transport posture in the estate.
   tls_version: TLSv1.2
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

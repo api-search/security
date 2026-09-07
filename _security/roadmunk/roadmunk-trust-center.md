@@ -6,6 +6,7 @@ api_specs:
   slug: roadmunk-graphql-api
   spec_type: OpenAPI
   url: https://www.tempo.io/products/roadmaps/api-integration
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

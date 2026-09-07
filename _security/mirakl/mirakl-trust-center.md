@@ -204,6 +204,7 @@ api_specs:
   slug: mirakl-synchronization-errors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-synchronization-errors-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 1 Type II
 - SOC 2 Type II

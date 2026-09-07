@@ -6,6 +6,7 @@ api_specs:
   slug: uniqode-qr-code-api
   spec_type: Postman
   url: https://apidocs.uniqode.com/
+certification_count: 6
 certifications:
 - SOC 2 Type I
 - SOC 2 Type II

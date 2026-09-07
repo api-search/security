@@ -30,6 +30,7 @@ hosts:
   host: www.unow.com
   https: true
   redirects_to: http://www.newuni.com/
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

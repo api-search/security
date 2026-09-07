@@ -42,6 +42,7 @@ api_specs:
   slug: stannp-recipients-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-recipients-api-openapi.yml
+certification_count: 9
 certifications:
 - HIPAA
 - ISO 27001

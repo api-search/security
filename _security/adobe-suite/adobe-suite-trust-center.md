@@ -2832,6 +2832,7 @@ api_specs:
   slug: adobe-suite-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/openapi/adobe-suite-workspaces-api-openapi.yml
+certification_count: 20
 certifications:
 - SOC 2 Type 2
 - SOC 3

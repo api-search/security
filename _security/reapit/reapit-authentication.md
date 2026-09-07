@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: 'Every Foundations surface — REST, GraphQL, webhooks management, notifications and MCP — is fronted by one hosted identity service, Reapit Connect, an Auth0-backed OpenID Connect tenant at connect.reapit.cloud. Two grants are supported: authorization code (user context, PKCE S256) and client credentials (machine-to-machine). The auth model has three quirks worth knowing before writing code: client-credentials callers MUST send a reapit-customer tenant header, the GraphQL proxy requires BOTH the idToken and the accessToken in two different headers (which excludes client-credentials clients entirely), and the MCP server additionally requires the agencyCloud/mcp.access scope on the token.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Reapit Authentication
 name_suffix: Authentication

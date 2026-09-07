@@ -72,6 +72,7 @@ api_specs:
   slug: digits-com-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-well-known-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

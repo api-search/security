@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -68,6 +69,7 @@ auth_types:
 description: 'Flynet uses two credentials for two route families, never interchangeable: an X-API-Key (fly_live_/fly_test_) for Discovery routes (/restaurants*, /locations*, /check_ins feed), and an OAuth 2.0 + PKCE bearer JWT for member routes (/users/me/*) and all payment intent routes. The spec models the bearer as http/JWT; the OAuth flow and scopes are documented in scopes/blackbird-scopes.yml.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Blackbird Authentication
 name_suffix: Authentication

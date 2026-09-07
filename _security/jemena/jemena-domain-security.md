@@ -44,6 +44,7 @@ hosts:
 - host: api.jemena.com.au
   note: Resolves via Akamai (api.jemena.com.au.edgekey.net); returns HTTP 503 on /, /openapi.json, /swagger.json and /health. Internal edge, not a public API.
   probed_manually: true
+hosts_probed: 8
 kind: domain-security
 layout: security
 method: probed

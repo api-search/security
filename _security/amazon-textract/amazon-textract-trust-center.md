@@ -30,6 +30,7 @@ api_specs:
   slug: amazon-textract-text-detection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/openapi/amazon-textract-text-detection-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

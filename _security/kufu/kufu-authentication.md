@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: kufu-default-api-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: Authentication profile for the SmartHR API. The published Swagger 2.0 document (openapi/kufu-smarthr-openapi.json) declares NO securityDefinitions, so this profile could not be derived from the spec — it was read from the developer documentation. SmartHR uses long-lived access tokens issued by a tenant administrator from the SmartHR admin dashboard. There is no OAuth 2.0 authorization server and no dynamic client registration; consequently there is no OAuth scopes artifact for this provider.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Kufu Authentication
 name_suffix: Authentication

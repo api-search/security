@@ -60,6 +60,7 @@ api_specs:
   slug: tinybird-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-tokens-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

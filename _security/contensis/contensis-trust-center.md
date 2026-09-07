@@ -24,6 +24,7 @@ api_specs:
   slug: contensis-taxonomy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/openapi/contensis-taxonomy-api-openapi.yml
+certification_count: 1
 certifications:
 - ISO 27001
 description: ''
@@ -38,12 +39,17 @@ slug: contensis-trust-center
 source_filename: contensis-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.contensis.com/security\nurl: https://www.contensis.com/security\ncertifications:\n- ISO 27001\nevidence:\n- source: https://www.contensis.com/security\n  keywords:\n  - iso 27001\n  - iso/iec 27001\n"
+source_yaml: "generated: '2026-09-06'\nmethod: searched\nprobe: true\nsource: https://www.contensis.com/security\nurl: https://www.contensis.com/security\ncertifications:\n- ISO 27001\nevidence:\n- source: https://www.contensis.com/security\n  keywords:\n  - iso 27001\n  - iso/iec 27001\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/security/contensis-trust-center.yml
 summary_line: ISO 27001
 tags:
 - CMS
 - Content
 - Headless CMS
+- Content Management
+- Digital Experience Platform
+- Content Delivery
+- Webhooks
+- Higher Education
 trust_url: https://www.contensis.com/security
 ---

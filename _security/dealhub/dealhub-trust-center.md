@@ -378,6 +378,7 @@ api_specs:
   slug: dealhub-version-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/openapi/dealhub-version-management-api-openapi.yml
+certification_count: 8
 certifications:
 - ISO 42001
 - ISO 27701

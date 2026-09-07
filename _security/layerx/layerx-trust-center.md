@@ -1,4 +1,5 @@
 ---
+certification_count: 4
 certifications:
 - ISO/IEC 27001 (ISMS)
 - SOC 1 Type 2

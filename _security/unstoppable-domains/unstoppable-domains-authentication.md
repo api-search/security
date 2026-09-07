@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: unstoppable-domains-account-api-openapi.yml
@@ -204,6 +205,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Unstoppable Domains Authentication
 name_suffix: Authentication

@@ -12,6 +12,7 @@ api_specs:
   slug: port-io-entities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/port-io/refs/heads/main/openapi/port-io-entities-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

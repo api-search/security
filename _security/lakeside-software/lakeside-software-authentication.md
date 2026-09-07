@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: SysTrack separates human sign-in from programmatic access. Interactive users authenticate to the SysTrack Cloud through Azure AD B2C / Microsoft Entra ID or via SAML SSO. Programmatic callers use scoped SysTrack API keys, issued per capability (Read, Read/Write, Ingest, SysTrack AI Partner). The SysTrack AI MCP Server additionally supports OAuth 2.0 with Microsoft Entra ID as of the 11.7.1.29 hotfix. No public OpenAPI is published, so this profile is harvested from documentation rather than derived from securitySchemes.
 kind: authentication
 layout: security
+mechanism_count: 6
 method: searched
 name: Lakeside Software Authentication
 name_suffix: Authentication

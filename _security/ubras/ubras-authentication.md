@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - openIdConnect
 description: Authentication profile of Ubras's machine-facing surface, captured from the live discovery documents on ubras.com (the international Shopify storefront). Customer identity uses Shopify customer accounts OIDC (issuer https://shopify.com/authentication/52594442401), published at both /.well-known/openid-configuration and /.well-known/oauth-authorization-server (identical documents, saved in well-known/). The storefront MCP endpoint (/api/mcp) and the read-only product JSON endpoints are anonymous; the UCP shopping MCP (/api/ucp/mcp) requires a UCP agent profile rather than an API key. Ubras publishes no separate first-party developer API keys or OAuth program of its own.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Ubras Authentication
 name_suffix: Authentication

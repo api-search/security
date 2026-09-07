@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -170,6 +171,7 @@ auth_types:
 description: Agorapulse runs two independent authentication models. The REST API is a single static API key in an X-API-KEY header, scoped to the individual user who minted it. The remote MCP server is a separate OAuth 2.0 protected resource with its own authorization server, dynamic client registration and PKCE. They do not share credentials.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Agorapulse Authentication
 name_suffix: Authentication

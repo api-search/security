@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: enrich-so-email-finder-api-openapi.yml
@@ -115,6 +116,7 @@ auth_types:
 description: Enrich authenticates the REST API v3 with a single static, organization-scoped API key, accepted in either the x-api-key header (recommended) or as an Authorization Bearer token. There are no scopes, no per-key permissions and no OAuth on the REST API. OAuth 2.0 exists only on the separate MCP surface at mcp.enrich.so — see scopes/enrich-so-scopes.yml.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Enrich So Authentication
 name_suffix: Authentication

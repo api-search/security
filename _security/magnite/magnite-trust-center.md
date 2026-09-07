@@ -462,6 +462,7 @@ api_specs:
   slug: magnite-white-labels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/openapi/magnite-white-labels-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type I
 - JICDAQ

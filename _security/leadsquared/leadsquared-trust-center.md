@@ -18,6 +18,7 @@ api_specs:
   slug: leadsquared-leads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/openapi/leadsquared-leads-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001:2022
 - GDPR

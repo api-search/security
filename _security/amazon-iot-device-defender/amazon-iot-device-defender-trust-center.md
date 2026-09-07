@@ -414,6 +414,7 @@ api_specs:
   slug: amazon-iot-device-defender-violations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-violations-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

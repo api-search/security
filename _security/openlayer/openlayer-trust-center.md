@@ -36,6 +36,7 @@ api_specs:
   slug: openlayer-tests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-tests-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

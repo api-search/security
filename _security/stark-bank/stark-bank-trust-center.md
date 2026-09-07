@@ -186,6 +186,7 @@ api_specs:
   slug: stark-bank-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/openapi/stark-bank-workspace-api-openapi.yml
+certification_count: 4
 certifications:
 - PCI DSS 4.0.1
 - SOC 2

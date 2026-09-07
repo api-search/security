@@ -162,6 +162,18 @@ api_specs:
   slug: enphase-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-users-api-openapi.yml
+- filename: enphase-energy-device-level-production-monitoring-api-openapi.yml
+  format: yaml
+  label: Enphase Energy Device Level Production Monitoring API
+  slug: enphase-energy-device-level-production-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-energy-device-level-production-monitoring-api-openapi.yml
+- filename: enphase-energy-systems-api-openapi.yml
+  format: yaml
+  label: Enphase Energy Systems API
+  slug: enphase-energy-systems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-energy-systems-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -194,6 +206,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

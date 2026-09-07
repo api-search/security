@@ -66,6 +66,7 @@ hosts:
   https: true
   note: Vanta-hosted trust center (CNAME to cname.vantatrust.com).
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

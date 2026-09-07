@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -55,6 +56,7 @@ auth_types:
 description: 'GetirFood does not declare securityDefinitions in its Swagger 2.0 document. Authentication is a two-step, documented-only model: POST /auth/login exchanges the company/restaurant secret keys for a bearer-style opaque token, which is then supplied as a REQUIRED `token` request HEADER on every other operation (57 of 62 operations carry it as an explicit header parameter). There is no OAuth 2.0, no OpenID Connect and no scope surface, so scopes/ is intentionally absent for this provider.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Getir Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: 'Parafin''s API uses OAuth 2.0 client-credentials: a platform authenticates with its client credentials to redeem a short-lived bearer token, which is then used as a Bearer Authorization header on API calls and to initialize the embedded Parafin Elements widgets. The public embedded-demo implements a server-side proxy so client credentials never reach the browser — the backend exchanges credentials and hands the browser only a per-person, per-product short-lived token. The docs are login-gated so the full securityScheme detail is not machine-verifiable; this profile is derived from the public demo and the OAuth server metadata advertised on the docs host.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Parafin Authentication
 name_suffix: Authentication

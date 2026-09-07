@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'EatStreet publishes an RFC 8414 OAuth 2.0 Authorization Server Metadata document at https://eatstreet.com/.well-known/oauth-authorization-server. It is the only machine-readable contract EatStreet currently serves: the public developer portal at developers.eatstreet.com returns 404 and no OpenAPI, GraphQL SDL or MCP manifest was found on any host. Everything below is read verbatim from that metadata document and from live unauthenticated responses from the token endpoint — nothing here is inferred from documentation, because EatStreet publishes none.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Eatstreet Authentication
 name_suffix: Authentication

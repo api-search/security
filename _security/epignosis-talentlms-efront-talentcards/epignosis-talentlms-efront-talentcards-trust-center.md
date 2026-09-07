@@ -96,6 +96,7 @@ api_specs:
   slug: epignosis-talentlms-efront-talentcards-user-type-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/openapi/epignosis-talentlms-efront-talentcards-user-type-api-openapi.yml
+certification_count: 5
 certifications:
 - ISO/IEC 27001:2022
 - ISO 9001:2015

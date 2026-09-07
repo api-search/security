@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -85,6 +86,7 @@ auth_types:
 description: n3rgy authenticates with a single API key in the x-api-key header — and then authorises in two further layers that the OpenAPI cannot express. Layer 2 is end-customer CONSENT, validated server-side against the Home Area Network behind the supplied MPxN. Layer 3 is a per-account permission to change meter update frequencies. All three failures surface as HTTP 403 with different messages, so a client cannot distinguish "bad key" from "no consent" by status code alone — only by the message string.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: N3Rgy Authentication
 name_suffix: Authentication

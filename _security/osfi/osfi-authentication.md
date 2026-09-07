@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - none
@@ -6,6 +7,7 @@ auth_types:
 description: 'OSFI runs two entirely separate surfaces with two different auth models: an anonymous READ surface (its data on Canada''s Open Government Portal) and a gated WRITE/FILING surface (the Regulatory Reporting System behind Bank of Canada Connect).'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Osfi Authentication
 name_suffix: Authentication

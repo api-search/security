@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: 'Embrace runs two parallel credential systems. Org-wide API Tokens (auto-created, one capability each: symbol upload, metrics pull, and similar) authenticate the Metrics and Custom Metrics APIs. Service-account bearer tokens (admin-issued, multi-scope, app-scoped, individually revocable) plus an OAuth 2.0 authorization-code flow with PKCE authenticate the MCP server. Both are sent as HTTP Bearer credentials in the Authorization header. There is no OpenAPI document to derive securitySchemes from, so this profile is read from the provider''s own auth documentation and corroborated against the live RFC 8414 / RFC 9728 discovery documents.'
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Embrace Authentication
 name_suffix: Authentication

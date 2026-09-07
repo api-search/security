@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'ACUS runs one publicly callable API surface: the MediaWiki Action API and MediaWiki REST API v1 behind the Federal Administrative Procedure Sourcebook wiki at sourcebook.acus.gov. All read operations are ANONYMOUS — no API key, no token, no account. There are no OAuth flows: the wiki''s own RSD document reports OAuth=false. Write actions exist in the module list but require a wiki account and a CSRF token, and account creation is not open to the public. The other two ACUS data properties (the EAJA Awards Database and the Federal Administrative Adjudication Database) expose no programmatic interface at all, so they have no auth model.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Administrative Conference Of The United States Authentication
 name_suffix: Authentication

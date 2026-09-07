@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: There is no Evolved By Nature developer program, API key issuance, or auth documentation. The only authentication surface is the Shopify Customer Accounts OAuth 2.0 / OpenID Connect provider behind the two storefronts, advertised from each storefront host via RFC 8414 authorization-server metadata and RFC 9728 protected-resource metadata.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Evolved By Nature Authentication
 name_suffix: Authentication

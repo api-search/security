@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Authentication profile for the Shoreline cluster API, read from the only first-party documentation that is still published: the Shoreline Terraform provider docs in the archived source repository. Shoreline''s own docs host (docs.shoreline.io) no longer resolves, and there is no OpenAPI to derive securitySchemes from, so this profile is documentation-sourced rather than spec-derived.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Shoreline Authentication
 name_suffix: Authentication

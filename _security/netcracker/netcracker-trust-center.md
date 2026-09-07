@@ -240,6 +240,7 @@ api_specs:
   slug: netcracker-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-versions-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - ISO 27001

@@ -32,6 +32,7 @@ hosts:
     reachable: false
     tls_version: null
   registrable_domain: tela-inc.com
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

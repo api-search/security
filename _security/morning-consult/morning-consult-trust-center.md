@@ -24,6 +24,7 @@ api_specs:
   slug: morning-consult-lookup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/openapi/morning-consult-lookup-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2 Type II
 - GDPR

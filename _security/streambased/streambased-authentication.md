@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - credential
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Streambased Authentication
 name_suffix: Authentication

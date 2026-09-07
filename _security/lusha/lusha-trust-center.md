@@ -108,6 +108,7 @@ api_specs:
   slug: lusha-prospecting-search-enrich-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/openapi/lusha-prospecting-search-enrich-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: Lusha runs a trust centre at https://www.lusha.com/trust-center. The automated probe of that URL returned HTTP 403 (Cloudflare "Just a moment..." interstitial on the marketing host), so the certifications below are read from Lusha's own documentation host, which names the trust centre as the place its compliance documents live and states the SOC 2 Type II certification outright.

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -55,6 +56,7 @@ auth_types:
 description: Authentication profile for the Upsie Partner Network API, captured from the official Postman documentation (api.upsie.com/docs). The API authenticates every request with a JSON Web Token passed in a custom `token` header. Tokens are obtained by partner-user login (username/password) and then exchanged for longer-lived API access and refresh tokens; partner-scoped API access tokens can also be generated and invalidated through the Upsie Partner Portal.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Upsie Authentication
 name_suffix: Authentication

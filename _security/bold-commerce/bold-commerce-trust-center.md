@@ -36,6 +36,7 @@ api_specs:
   slug: bold-commerce-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-subscriptions-api-openapi.yml
+certification_count: 2
 certifications:
 - PCI DSS
 - GDPR

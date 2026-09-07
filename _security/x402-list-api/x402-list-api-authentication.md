@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: openapi.json
@@ -11,6 +12,7 @@ auth_types: []
 description: 'There is nothing to authenticate with. x402 List issues no API keys, runs no OAuth, and has no account system — the onboarding descriptor lists an empty credentials array and calls the registration mechanism "open". This is the correct and complete auth profile, not a thin one: the OpenAPI declares no securitySchemes because there are none to declare, and an agent can call every read operation on first contact with zero setup. What replaces authentication is PAYMENT. Past the free quota, and on the two paid write operations, the API answers HTTP 402 with an x402 v2 PaymentRequired envelope and the caller retries carrying a PAYMENT-SIGNATURE header signed by their own wallet. Authorization for the owner-update flow is separate again and is domain-proof based rather than credential based.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: X402 List Api Authentication
 name_suffix: Authentication

@@ -54,6 +54,7 @@ hosts:
   http_status: 200
   https: true
   note: Status page host, verified reachable 2026-08-11.
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

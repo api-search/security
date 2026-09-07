@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in:
 - query
 - header
@@ -57,6 +58,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Ezoic Authentication
 name_suffix: Authentication

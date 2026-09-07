@@ -55,6 +55,7 @@ hosts:
   https: false
 - host: instance.cso.coupahost.com
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

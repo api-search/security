@@ -30,6 +30,7 @@ api_specs:
   slug: decodable-streams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-streams-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

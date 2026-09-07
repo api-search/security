@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -61,6 +62,7 @@ auth_types:
 description: GoatCounter authenticates the JSON API with a per-site API key. The primary documented scheme is an HTTP bearer token in the Authorization header; HTTP Basic is also accepted with an empty username and the API key as the password, which the docs describe as mostly useful for testing from a browser. Note that the provider-published OpenAPI 2.0 document declares only basicAuth under securityDefinitions, so the bearer scheme — the one the docs lead with — is documented in prose but absent from the machine-readable contract. Both are recorded here.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Goatcounter Authentication
 name_suffix: Authentication

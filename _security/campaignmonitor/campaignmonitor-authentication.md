@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: 'Campaign Monitor publishes no OpenAPI, so this profile was read from the provider''s own Getting Started page rather than derived from securitySchemes. The API supports exactly two authentication models: OAuth 2.0 (preferred for third-party integrations) and an API key over HTTP Basic (username = API key, password ignored).'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Campaignmonitor Authentication
 name_suffix: Authentication

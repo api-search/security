@@ -462,6 +462,7 @@ api_specs:
   slug: amazon-device-farm-x-amz-target-devicefarm-20150623-updatevpceconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-x-amz-target-devicefarm-20150623-updatevpceconfiguration-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

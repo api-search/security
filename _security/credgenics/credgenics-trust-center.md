@@ -18,6 +18,7 @@ api_specs:
   slug: credgenics-lending-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/openapi/credgenics-lending-api-openapi.yml
+certification_count: 2
 certifications:
 - PCI DSS
 - ISO (certificate displayed; specific ISO standard not named on the page)

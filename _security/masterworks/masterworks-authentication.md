@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - bearer-token
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Masterworks Authentication
 name_suffix: Authentication

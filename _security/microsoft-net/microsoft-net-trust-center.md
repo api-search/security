@@ -24,6 +24,7 @@ api_specs:
   slug: microsoft-net-serviceindex-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/openapi/microsoft-net-serviceindex-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 1
 - SOC 2

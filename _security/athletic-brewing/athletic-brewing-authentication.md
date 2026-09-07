@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for the Athletic Brewing storefront's agent and customer surfaces. Derived entirely from documents the host serves anonymously — the OpenID Connect discovery document, the RFC 8414 authorization-server metadata, the RFC 9728 protected-resource metadata, and live introspection of the UCP/MCP endpoint. Nothing here is inferred from a private or credentialed source.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Athletic Brewing Authentication
 name_suffix: Authentication

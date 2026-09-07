@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -163,6 +164,7 @@ auth_types:
 description: Iterable authenticates with project-scoped API keys sent in an Api-Key header. There is no OAuth or OpenID Connect surface. Keys carry permissions determined by their type, are bound to one project and therefore to one data center, and client-side keys can additionally require a signed JWT that ties each call to a specific user.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Iterable Authentication
 name_suffix: Authentication

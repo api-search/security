@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: wayflyer-auth-api-openapi.yml
@@ -78,6 +79,7 @@ auth_types:
 description: 'Authentication profile for the Wayflyer Embedded Finance (Hosted Capital) API. Two-tier bearer-JWT model: partners exchange a backend-only client_id/client_secret for a Partner Token, then mint per-merchant Company Tokens that are forwarded to the frontend for SDK / API calls. Both token classes appear in the OpenAPI as http bearer securitySchemes (PartnerToken, CompanyToken). No OAuth2/OIDC flows and no API-key scheme; the sandbox environment uses a separate sandbox client_id/secret.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Wayflyer Authentication
 name_suffix: Authentication

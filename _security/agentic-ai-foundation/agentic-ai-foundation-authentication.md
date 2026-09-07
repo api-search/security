@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: agentic-ai-foundation-mcp-registry-openapi.yaml
@@ -11,6 +12,7 @@ auth_types: []
 description: 'Authentication profile across the AAIF-hosted surfaces that are actually callable. The Official MCP Registry API is read-anonymous / write-bearer: every GET and the validate endpoint are unauthenticated, and the four write operations require a Registry JWT minted by one of five token-exchange endpoints. The MCP endpoint on modelcontextprotocol.io is fully anonymous.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: derived
 name: Agentic Ai Foundation Authentication
 name_suffix: Authentication

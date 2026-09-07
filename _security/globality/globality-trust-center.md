@@ -1,4 +1,5 @@
 ---
+certification_count: 4
 certifications:
 - ISO/IEC 27001:2022
 - SOC 2

@@ -60,6 +60,7 @@ api_specs:
   slug: braintree-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-transactions-api-openapi.yml
+certification_count: 4
 certifications:
 - PCI DSS
 - Visa Global Registry of Service Providers

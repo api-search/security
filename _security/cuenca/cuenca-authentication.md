@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - http-basic
 auth_types:
@@ -8,6 +9,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Cuenca Authentication
 name_suffix: Authentication

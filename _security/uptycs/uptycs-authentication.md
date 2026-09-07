@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
 description: Uptycs publishes no public API reference (per-customer docs live in-product on each https://{stack}.uptycs.io tenant), but the authentication model is documented publicly through the official Uptycs pack for Cortex XSOAR. Each API user downloads a credentials file from the Uptycs console containing an API key, API secret, the stack domain, and the customer ID. Clients mint a short-lived HS256 JWT (iss = API key, exp = now + 3600s, signed with the API secret) and send it as an Authorization Bearer token, along with an RFC 1123 date header, to https://{stack}.uptycs.io/public/api/customers/{customerId}.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Uptycs Authentication
 name_suffix: Authentication

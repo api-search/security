@@ -174,6 +174,7 @@ api_specs:
   slug: cisco-catalyst-center-virtualnetworkhealthsummaries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/openapi/cisco-catalyst-center-virtualnetworkhealthsummaries-api-openapi.yml
+certification_count: 1
 certifications:
 - FIPS 140-2
 description: ''

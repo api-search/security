@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -38,6 +39,7 @@ auth_types:
 description: 'RunBuggy runs three distinct authentication models across its estate, and only the first is described in a specification: an opaque bearer token for the REST Shippers API, a short-lived scope=openid JWT for the embeddable order-status iframe, and full OAuth 2.1 with dynamic client registration and PKCE for the mcp-datascience MCP server.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Runbuggy Authentication
 name_suffix: Authentication

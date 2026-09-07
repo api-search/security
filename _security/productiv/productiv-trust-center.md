@@ -66,6 +66,7 @@ api_specs:
   slug: productiv-usage-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/openapi/productiv-usage-events-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

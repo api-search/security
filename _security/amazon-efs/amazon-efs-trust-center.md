@@ -6,6 +6,7 @@ api_specs:
   slug: amazon-efs-2015-02-01-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-efs/refs/heads/main/openapi/amazon-efs-2015-02-01-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

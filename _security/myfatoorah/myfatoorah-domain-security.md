@@ -108,6 +108,7 @@ hosts:
   https: true
   server: cloudflare
   tls_issuer: DigiCert Global G2 TLS RSA SHA256 2020 CA1
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

@@ -60,6 +60,7 @@ api_specs:
   slug: hasura-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-version-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

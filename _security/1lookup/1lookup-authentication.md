@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: '1Lookup runs two distinct authentication models: a static API key presented as an HTTP Bearer token on the REST API, and OAuth 2.1 (authorization code + PKCE, with dynamic client registration) on the hosted MCP connector. Derived by hand from the published reference and the live RFC 8414 / RFC 9728 metadata — the provider publishes no OpenAPI securitySchemes to derive from mechanically.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: 1Lookup Authentication
 name_suffix: Authentication

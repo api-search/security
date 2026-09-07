@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: Reform issues no API credentials. There is no public REST API, no developer portal, no API-key page, no OAuth authorization server and no OpenAPI securitySchemes to derive from — derive-authentication.py produced no profile because the repo holds no spec, and the help centre's only "API key" articles are about pasting THIRD-PARTY keys (Close CRM, Google reCAPTCHA) INTO Reform. The one credential Reform hands a developer is a per-webhook signing secret, used to verify inbound deliveries; it authenticates Reform to the customer, not the customer to Reform.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Reform Authentication
 name_suffix: Authentication

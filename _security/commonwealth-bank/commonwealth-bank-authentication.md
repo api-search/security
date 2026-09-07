@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: commonwealth-bank-accounts-api-api-openapi.yml
@@ -93,6 +94,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Commonwealth Bank Authentication
 name_suffix: Authentication

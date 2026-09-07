@@ -6,6 +6,7 @@ api_specs:
   slug: qover-embedded-insurance-api
   spec_type: Postman
   url: https://docs.qover.com/
+certification_count: 1
 certifications:
 - ISO 27001
 description: ''

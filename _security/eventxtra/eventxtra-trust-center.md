@@ -90,6 +90,7 @@ api_specs:
   slug: eventxtra-ticket-class-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/openapi/eventxtra-ticket-class-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

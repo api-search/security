@@ -66,6 +66,7 @@ api_specs:
   slug: amazon-kinesis-x-amz-target-kinesis-20131202-removetagsfromstream-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis/refs/heads/main/openapi/amazon-kinesis-x-amz-target-kinesis-20131202-removetagsfromstream-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

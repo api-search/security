@@ -80,6 +80,7 @@ hosts:
   note: Tenant application fronted by Akamai; bare host returns HTTP 400 (expects a tenant subdomain).
   server: AkamaiGHost
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

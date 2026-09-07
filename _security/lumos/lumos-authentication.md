@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: lumos-openapi.json
@@ -97,6 +98,7 @@ auth_types:
 description: Lumos runs TWO independent credential systems on one host. The REST API takes a static bearer API key prefixed `lsk_`. The two hosted MCP servers take an OAuth 2.1 access token from b.app.lumosidentity.com and explicitly refuse API keys. An agent that has a working REST key still cannot call the MCP servers, and vice versa.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Lumos Authentication
 name_suffix: Authentication

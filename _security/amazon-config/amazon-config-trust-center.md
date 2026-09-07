@@ -552,6 +552,7 @@ api_specs:
   slug: amazon-config-x-amz-target-starlingdoveservice-untagresource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/openapi/amazon-config-x-amz-target-starlingdoveservice-untagresource-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

@@ -6,6 +6,7 @@ api_specs:
   slug: redpanda-admin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/redpanda/refs/heads/main/openapi/redpanda-admin-cluster-openapi.json
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

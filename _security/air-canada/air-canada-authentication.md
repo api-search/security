@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: 'Air Canada''s NDC API is authenticated by a single opaque API key issued by Air Canada, carried in an "apikey" HTTP header on every SOAP request, plus an in-payload identity chain that the platform authorises against: the SellerID in the aggregation envelope and, for agency flows, the accredited IATA number and Agency ID inside the IATA NDC message itself. There is no OAuth, no OpenID Connect and no self-service key issuance on the inbound path - keys are handed out only after a commercial agreement and certification. OAuth appears in exactly one place, and it is outbound: when a seller registers a webhook to receive OrderChangeNotification messages, Air Canada supports OAuth as the authentication method it will use when calling the seller''s endpoint.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Air Canada Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: university-of-texas-at-austin-tapis-systems-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: How each University of Texas at Austin surface authenticates. Every entry was observed on a live unauthenticated request; nothing here is inferred from documentation prose.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: University Of Texas At Austin Authentication
 name_suffix: Authentication

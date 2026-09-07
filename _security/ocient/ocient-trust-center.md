@@ -12,6 +12,7 @@ api_specs:
   slug: ocient-system-information-rest-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/openapi/ocient-system-information-rest-endpoints-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

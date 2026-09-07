@@ -24,6 +24,7 @@ api_specs:
   slug: charliehr-team-members-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-team-members-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

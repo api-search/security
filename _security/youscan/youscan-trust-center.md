@@ -48,6 +48,7 @@ api_specs:
   slug: youscan-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/openapi/youscan-webhook-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type 2
 - ISO/IEC 27001:2022

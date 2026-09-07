@@ -204,26 +204,41 @@ api_specs:
   slug: edge-impulse-whitelabels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-whitelabels-api-openapi.yml
+- filename: edge-impulse-remote-management-asyncapi.yml
+  format: yaml
+  label: Edge Impulse Remote Management API
+  slug: edge-impulse-remote-management-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/asyncapi/edge-impulse-remote-management-asyncapi.yml
+certification_count: 1
 certifications:
-- SOC 2
-description: ''
+- SOC 2 Type II
+description: Edge Impulse runs a hosted trust portal on Vanta from which customers request the SOC 2 Type II report, and a public security page describing the programme. SOC 2 Type II is the only named certification — ISO 27001, HIPAA, PCI DSS and FedRAMP are not claimed. GDPR and CCPA adherence are stated on the company llms.txt and backed by a published privacy policy and a Do Not Sell control.
 kind: trust-center
 layout: security
 name: Edge Impulse Trust Center
 name_suffix: Trust Center
-overview: Edge Impulse maintains a public trust center documenting SOC 2 compliance.
+overview: Edge Impulse maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: Edge Impulse
 provider_slug: edge-impulse
 slug: edge-impulse-trust-center
 source_filename: edge-impulse-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.edgeimpulse.com/security\nurl: https://www.edgeimpulse.com/security\ncertifications:\n- SOC 2\nevidence:\n- source: https://www.edgeimpulse.com/security\n  keywords:\n  - soc 2\n  - soc2\n"
+source_yaml: "generated: '2026-09-06'\nmethod: searched\nprobe: true\nsource: https://www.edgeimpulse.com/security\nurl: https://www.edgeimpulse.com/security\ncertifications:\n- SOC 2 Type II\nevidence:\n- source: https://www.edgeimpulse.com/security\n  http_status: 200\n  keywords:\n  - SOC 2\n  - SOC 2 Type 2\n  - AICPA\n  - annual audit\n  - Vanta trust portal\n- source: https://app.vanta.com/edgeimpulse.com/trust/o9w8o0cckunmysbv6hv507\n  http_status: 200\n  note: JavaScript-rendered Vanta trust page; linked directly from the Edge Impulse security page.\n- source: https://edgeimpulse.com/llms.txt\n  http_status: 200\n  keywords:\n  - SOC 2 Type II compliant\n  - GDPR\n  - CCPA\nprovider: Edge Impulse\nproviderId: edge-impulse\ntrust_portal: https://app.vanta.com/edgeimpulse.com/trust/o9w8o0cckunmysbv6hv507\ntrust_portal_platform: Vanta\ntrust_portal_status: 200\ncompliance:\n- SOC 2 Type II\n- GDPR\n- CCPA\ndescription: Edge Impulse runs a hosted trust portal on Vanta from which customers\
+  \ request the SOC 2 Type\n  II report, and a public security page describing the programme. SOC 2 Type II is the only named certification\n  — ISO 27001, HIPAA, PCI DSS and FedRAMP are not claimed. GDPR and CCPA adherence are stated on the company\n  llms.txt and backed by a published privacy policy and a Do Not Sell control.\nreport_access: On request through the Vanta trust portal (\"Access our portal to download our SOC reports\").\n  Reports are not public.\nlegal:\n  privacy_policy: https://www.edgeimpulse.com/legal/privacy-policy\n  terms_of_service: https://www.edgeimpulse.com/legal/terms-of-service\n  enterprise_terms: https://www.edgeimpulse.com/legal/enterprise-terms-of-service\n  responsible_ai_license: https://www.edgeimpulse.com/legal/responsible-ai-license\n  dmca: https://www.edgeimpulse.com/legal/dmca-digital-millennium-copyright-act-policy\n  accessibility: https://www.edgeimpulse.com/legal/accessibility-statement-for-edge-impulse\nparent_company: Qualcomm Technologies,\
+  \ Inc. (acquired March 2025)\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/security/edge-impulse-trust-center.yml
-summary_line: SOC 2
+summary_line: SOC 2 Type II
 tags:
 - Artificial Intelligence
+- Machine Learning
 - Embedded Machine Learning
 - Edge AI
+- MLOps
+- Computer Vision
+- Internet of Things
+- Model Deployment
+- Developer Tools
 trust_url: https://www.edgeimpulse.com/security
 ---

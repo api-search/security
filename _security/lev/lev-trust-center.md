@@ -96,6 +96,7 @@ api_specs:
   slug: lev-term-sheets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-term-sheets-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

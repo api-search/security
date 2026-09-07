@@ -30,6 +30,7 @@ api_specs:
   slug: truelayer-refunds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-refunds-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

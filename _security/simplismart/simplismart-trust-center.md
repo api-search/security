@@ -48,6 +48,7 @@ api_specs:
   slug: simplismart-training-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-training-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

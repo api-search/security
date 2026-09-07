@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -26,6 +27,7 @@ description: 'Azure API Management subscription key, and nothing else. There is 
   '
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Ofcom Authentication
 name_suffix: Authentication

@@ -45,6 +45,7 @@ hosts:
   note: DirectCare developer hub on ReadMe.io behind Cloudflare. Password-gated; sets x-frame-options Deny, x-content-type-options nosniff, and a 100-request rate limit header.
   server: cloudflare
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

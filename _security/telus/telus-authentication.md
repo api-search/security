@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -14,6 +15,7 @@ auth_types:
 description: 'TELUS runs two completely different authentication models on its two publicly documented APIs. The Insights Location API uses OAuth 2.0 client credentials plus a mandatory customerId header; the TELUS Health CHR Enterprise API uses asymmetric, self-signed JWTs (RS512) where the consumer holds the private key and CHR holds the registered public key — there is no token endpoint and no client secret at all. Neither surface is self-serve: credentials on both sides are issued through a sales/onboarding process.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Telus Authentication
 name_suffix: Authentication

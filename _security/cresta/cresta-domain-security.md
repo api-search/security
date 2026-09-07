@@ -26,6 +26,7 @@ hosts:
   hsts_note: 'The probe script records null here because the gRPC-JSON gateway answers its HEAD with 405. A direct GET on 2026-08-14 returned "strict-transport-security: max-age=31536000; includeSubDomains", so HSTS is present on the API host. Corrected by hand; re-running 0-working/probe-domain-security.py will revert it to null.'
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
@@ -6,6 +7,7 @@ auth_types:
 description: Mindtickle runs two distinct authentication models. The core REST API on api.mindtickle.com uses a JWT bearer token minted from an API Key, Secret Key and Client ID issued in the admin console (Settings > API Access), with a one-hour token lifetime. The application host app.mindtickle.com publishes a full OAuth 2.0 authorization server anonymously at the RFC 8414 well-known path, including dynamic client registration, PKCE, pushed authorization requests and device authorization - this is the surface the Call AI public GraphQL API and the platform's AI/agent scopes authenticate against.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Mindtickle Authentication
 name_suffix: Authentication

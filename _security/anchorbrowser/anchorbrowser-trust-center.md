@@ -102,6 +102,7 @@ api_specs:
   slug: anchorbrowser-tools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/openapi/anchorbrowser-tools-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

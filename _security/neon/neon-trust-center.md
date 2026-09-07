@@ -66,6 +66,7 @@ api_specs:
   slug: neon-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-roles-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

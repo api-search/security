@@ -258,6 +258,7 @@ api_specs:
   slug: frontline-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/openapi/frontline-users-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type 1
 description: ''

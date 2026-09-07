@@ -366,6 +366,7 @@ api_specs:
   slug: impact-withdrawal-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/openapi/impact-withdrawal-settings-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 1 Type II
 - ISO/IEC 27001:2022

@@ -48,6 +48,7 @@ api_specs:
   slug: sigma-ratings-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sigma-ratings/refs/heads/main/openapi/sigma-ratings-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - GDPR

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -31,6 +32,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Archrock Authentication
 name_suffix: Authentication
@@ -50,7 +52,7 @@ slug: archrock-authentication
 source_filename: archrock-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/archrock-investor-relations-api.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/archrock-investor-relations-api.yaml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/archrock-investor-relations-api.yaml\ncaveat: >-\n  SCAFFOLD-DERIVED, NOT PUBLISHED. The X-API-Key scheme below was derived from\n  openapi/archrock-investor-relations-api.yaml, which is a 2026-05-04 bulk-scaffold OpenAPI\n  whose servers[] block names https://api.archrock.com/v1 — a host with NO DNS record. Archrock\n  publishes no developer portal, no authentication page and no API. Re-probed 2026-09-04: this\n  scheme is a property of our own scaffold, not an Archrock-documented auth model, and should\n  not be read as evidence that Archrock documents authentication.\ncaveat_checked: '2026-09-04'\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/archrock-investor-relations-api.yaml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/archrock/refs/heads/main/authentication/archrock-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

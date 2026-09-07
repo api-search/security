@@ -24,6 +24,7 @@ api_specs:
   slug: superlog-telemetry-read-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-telemetry-read-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

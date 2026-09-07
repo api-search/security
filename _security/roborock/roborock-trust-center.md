@@ -1,4 +1,5 @@
 ---
+certification_count: 2
 certifications:
 - TÜV Rheinland IoT Security & Data Privacy Certified (EN 303 645)
 - UL Diamond IoT Security Rating

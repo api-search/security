@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: google-cloud-service-mesh-endpointpolicies-api-openapi.yml
@@ -72,6 +73,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Google Cloud Service Mesh Authentication
 name_suffix: Authentication

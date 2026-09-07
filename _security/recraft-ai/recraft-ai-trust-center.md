@@ -24,6 +24,7 @@ api_specs:
   slug: recraft-ai-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/recraft-ai/refs/heads/main/openapi/recraft-ai-users-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

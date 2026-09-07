@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -93,6 +94,7 @@ auth_types:
 description: Thanx authenticates in three different ways depending on which API family you are calling. Consumer apps carry a user access token minted by Thanx SSO (passwordless OAuth 2.0 authorization code) plus an X-ClientId. Partner server-to-server integrations carry a scope-limited token from POST /partner/oauth/token, also with X-ClientId. The Loyalty (POS/ordering) API on loyalty.thanx.com uses a Merchant-Key instead of X-ClientId, and accepts a Reward-Redemption-Token as an ALTERNATIVE to the user bearer for token-only redemption. No credential is self-serve — all are issued by Thanx, and production credentials only after certification.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Thanx Authentication
 name_suffix: Authentication

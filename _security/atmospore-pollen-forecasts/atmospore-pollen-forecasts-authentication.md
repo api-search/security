@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -32,6 +33,7 @@ auth_types:
 description: API-key authentication only. One key, one environment, no OAuth, no OIDC, no scopes and no test/live separation. The same key authenticates REST and the hosted MCP server, though the two carry it differently.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Atmospore Pollen Forecasts Authentication
 name_suffix: Authentication

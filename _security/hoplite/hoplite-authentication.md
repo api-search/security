@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -8,6 +9,7 @@ auth_types:
 description: 'Hoplite''s authentication surfaces: API keys for programmatic/API access, OAuth for the MCP server, per-automation bearer webhook tokens, and end-user sign-in options for the web app.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Hoplite Authentication
 name_suffix: Authentication

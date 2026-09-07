@@ -222,6 +222,7 @@ api_specs:
   slug: aleph-alpha-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/openapi/aleph-alpha-workspaces-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

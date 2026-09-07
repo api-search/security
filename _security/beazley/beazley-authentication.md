@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -122,6 +123,7 @@ auth_types:
 description: 'Every Beazley API is fronted by Azure API Management and secured with an APIM subscription key. The key travels either in the Ocp-Apim-Subscription-Key request header or as a subscription-key query parameter; both schemes are declared in all fourteen published OpenAPI documents and both are accepted at the top level of every operation. There is no OAuth 2.0, no OpenID Connect and no mutual TLS anywhere on the public surface: neither /.well-known/openid-configuration nor /.well-known/oauth-authorization-server is served on any Beazley host.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Beazley Authentication
 name_suffix: Authentication

@@ -78,6 +78,7 @@ api_specs:
   slug: arkestro-supplier-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/openapi/arkestro-supplier-organizations-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001:2022
 - SOC 2 Type II

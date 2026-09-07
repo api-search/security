@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: g2-api-v2-openapi.yaml
@@ -20,6 +21,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: G2 Authentication
 name_suffix: Authentication

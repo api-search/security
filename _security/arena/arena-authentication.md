@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: 'Arena''s Platform API and SDKs authenticate over an Authorization header using one of two credential types: a site API Key, or a JSON Web Token (JWT). JWT is also the mechanism for Single Sign-On (SSO) so a host site can pass an already authenticated end user into Live Chat and Live Blog. There is no OpenAPI document published for Arena, so this profile is captured from the developer docs rather than derived from a spec.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Arena Authentication
 name_suffix: Authentication

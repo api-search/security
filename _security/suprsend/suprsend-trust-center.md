@@ -120,6 +120,7 @@ api_specs:
   slug: suprsend-ws-signing-key-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-ws-signing-key-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

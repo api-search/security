@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: ing-australia-banking-account-balances-api-openapi.yml
@@ -50,6 +51,7 @@ auth_types:
 description: 'Authentication profile for ING Australia''s CDR (Open Banking) surface. The public Product Reference Data (PRD) endpoints (GET /banking/products and /banking/products/{productId}) are UNAUTHENTICATED. All other CDS Banking endpoints (accounts, balances, transactions, direct debits, scheduled payments, payees) require an authenticated CDR consumer-data-sharing session obtained through the CDR ecosystem: an Accredited Data Recipient authenticates the customer and calls the data holder under the FAPI 1.0 Advanced (Australia CDR) security profile. Derived from ING''s live OpenID Provider metadata; the OpenAPI itself declares no components.securitySchemes (it uses x-scopes extensions), so the model below is sourced from the published discovery document and the Consumer Data Standards security profile.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Ing Australia Authentication
 name_suffix: Authentication

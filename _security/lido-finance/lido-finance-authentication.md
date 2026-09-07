@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: lido-finance-apr-for-eth-and-steth-api-openapi.yml
@@ -47,6 +48,7 @@ auth_types: []
 description: Lido's three public REST APIs declare no securitySchemes in their OpenAPI documents and the docs state plainly that "Lido APIs are strictly for read-only access". There are no API keys, no OAuth flows, and no scope surface. The only credentialed surface in the Lido developer stack is The Graph gateway API key required to query the Lido subgraph — that key is issued by The Graph, not by Lido.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Lido Finance Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -112,6 +113,7 @@ auth_types:
 description: 'Appcharge uses three distinct authentication surfaces: (1) the publisher REST API authenticates with the x-publisher-token API key header (from the Publisher Dashboard > Settings > Integration); (2) webhooks and Appcharge-> publisher callbacks are verified with an HMAC-SHA256 signature over "{timestamp}.{json_payload}" carried in the `signature: t=...,v1=...` header (plus x-publisher-token and x-project-id), with a ~5-minute replay window; (3) the hosted MCP server is protected by OAuth 2.0 (authorization_code + PKCE). mTLS is supported for sensitive server-to-server integrations.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Appcharge Authentication
 name_suffix: Authentication

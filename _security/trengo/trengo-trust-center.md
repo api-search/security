@@ -48,6 +48,7 @@ api_specs:
   slug: trengo-whatsapp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-whatsapp-api-openapi.yml
+certification_count: 2
 certifications:
 - PCI DSS
 - GDPR

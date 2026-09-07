@@ -24,6 +24,7 @@ api_specs:
   slug: email-on-acid-spam-testing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/openapi/email-on-acid-spam-testing-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

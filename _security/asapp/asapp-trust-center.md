@@ -84,6 +84,7 @@ api_specs:
   slug: asapp-twilio-media-stream-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/openapi/asapp-twilio-media-stream-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - PCI DSS

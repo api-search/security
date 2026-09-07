@@ -6,6 +6,7 @@ api_specs:
   slug: matik-external-api
   spec_type: Postman
   url: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/postman/matik-oauth-postman-collection.json
+certification_count: 3
 certifications:
 - SOC 2 Type I
 - SOC 2 Type II

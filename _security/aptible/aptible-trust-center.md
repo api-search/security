@@ -300,6 +300,7 @@ api_specs:
   slug: aptible-worker-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-worker-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

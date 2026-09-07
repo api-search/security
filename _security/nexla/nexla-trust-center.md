@@ -432,6 +432,7 @@ api_specs:
   slug: nexla-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nexla/refs/heads/main/openapi/nexla-well-known-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2 Type II
 - ISO 27001

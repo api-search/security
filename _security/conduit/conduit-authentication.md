@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - path
 api_specs:
@@ -320,6 +321,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Conduit Authentication
 name_suffix: Authentication

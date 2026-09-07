@@ -48,6 +48,7 @@ api_specs:
   slug: weavix-user-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/openapi/weavix-user-management-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

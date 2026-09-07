@@ -245,6 +245,7 @@ hosts:
   https: true
   server: Microsoft-IIS/10.0 (ASP.NET)
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

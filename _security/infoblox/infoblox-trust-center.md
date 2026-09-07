@@ -36,6 +36,7 @@ api_specs:
   slug: infoblox-networks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-networks-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

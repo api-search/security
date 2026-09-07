@@ -6,6 +6,7 @@ api_specs:
   slug: aws-glue-aws-glue-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-glue/refs/heads/main/openapi/aws-glue-aws-glue-api-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

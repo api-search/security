@@ -25,6 +25,7 @@ hosts:
   host: api.amperecomputing.com
   https: true
   note: Azure API Management gateway (apim-ampere-prod.azure-api.net); not listed in apis.yml because no public API product is published on it
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

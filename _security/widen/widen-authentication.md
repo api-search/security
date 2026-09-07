@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: widen-acquia-dam-webhooks-api-openapi.yml
@@ -108,6 +109,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Widen Authentication
 name_suffix: Authentication

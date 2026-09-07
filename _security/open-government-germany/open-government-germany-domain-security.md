@@ -9,6 +9,7 @@ domains:
 hosts:
 - host: www.govdata.de
   https: false
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

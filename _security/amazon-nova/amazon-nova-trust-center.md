@@ -12,6 +12,7 @@ api_specs:
   slug: amazon-nova-inference-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/openapi/amazon-nova-inference-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

@@ -36,6 +36,7 @@ api_specs:
   slug: iconik-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-search-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

@@ -36,6 +36,7 @@ api_specs:
   slug: hosted-automation-hub-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/openapi/red-hat-ansible-automation-platform-automation-hub-openapi.json
+certification_count: 15
 certifications:
 - Common Criteria
 - FIPS 140

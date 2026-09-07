@@ -474,6 +474,7 @@ api_specs:
   slug: oracle-hospitality-upsell-offers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/openapi/oracle-hospitality-upsell-offers-api-openapi.yml
+certification_count: 16
 certifications:
 - SOC 1
 - SOC 2

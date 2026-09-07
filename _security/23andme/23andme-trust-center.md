@@ -1,4 +1,5 @@
 ---
+certification_count: 9
 certifications:
 - HIPAA Compliance
 - ISO/IEC 27001

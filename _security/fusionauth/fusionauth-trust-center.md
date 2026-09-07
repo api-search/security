@@ -222,6 +222,7 @@ api_specs:
   slug: fusionauth-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-well-known-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

@@ -40,6 +40,7 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.2
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

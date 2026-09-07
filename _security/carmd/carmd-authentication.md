@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: carmd-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: 'Authentication profile for every CarMD surface that could actually be reached. There is no OpenAPI to derive securitySchemes from, so every entry below was established by calling the surface. The CarMD Vehicle API''s own auth model could not be verified: its host refused connections.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Carmd Authentication
 name_suffix: Authentication

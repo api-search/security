@@ -132,6 +132,7 @@ api_specs:
   slug: courier-user-tenants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-user-tenants-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - PCI DSS

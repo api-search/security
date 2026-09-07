@@ -24,6 +24,7 @@ api_specs:
   slug: oso-policy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/openapi/oso-policy-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

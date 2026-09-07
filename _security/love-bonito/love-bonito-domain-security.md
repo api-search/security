@@ -29,6 +29,7 @@ hosts:
   hsts: max-age=31536000; includeSubDomains
   https: true
   note: Administrative host; returns a Cloudflare 403 to anonymous requests.
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

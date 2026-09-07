@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: cisco-expressway-admin-account-api-openapi.yml
@@ -102,6 +103,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Cisco Expressway Authentication
 name_suffix: Authentication

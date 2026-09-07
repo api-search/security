@@ -6,6 +6,7 @@ api_specs:
   slug: amazon-amplify-apps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/openapi/amazon-amplify-apps-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

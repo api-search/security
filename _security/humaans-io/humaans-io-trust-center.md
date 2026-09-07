@@ -90,6 +90,7 @@ api_specs:
   slug: humaans-io-working-patterns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-working-patterns-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

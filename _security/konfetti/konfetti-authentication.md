@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: konfetti-account-api-openapi.yml
@@ -38,6 +39,7 @@ auth_types:
 description: 'How authentication works on the konfetti Store API. Three postures coexist: the /v1/store/* catalog is fully public, /v1/checkout/* and /v1/user/* require a Bearer access token, and tokens are issued by an OAuth 2.0 token endpoint that has no publicly documented client-registration path.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Konfetti Authentication
 name_suffix: Authentication

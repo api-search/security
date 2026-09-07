@@ -42,6 +42,7 @@ api_specs:
   slug: veryfi-w-9-forms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-w-9-forms-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

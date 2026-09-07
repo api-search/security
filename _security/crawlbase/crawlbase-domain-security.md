@@ -57,6 +57,7 @@ hosts:
   https: true
   note: Returns HTTP 400 to an unauthenticated root request, as expected for the token-gated API host.
   server: PC-WS
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

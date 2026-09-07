@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -26,6 +27,7 @@ auth_types:
 description: UserGems runs two independent authentication models on two different hosts. The REST ingestion API (api.usergems.com/v1) uses a single company-wide API key in an X-Api-Key header. The MCP server (app.usergems.com/mcp/usergems) uses OAuth 2.0 authorization-code + PKCE with dynamic client registration and a single scope, delegating each caller the permissions of their own UserGems login. They do not share credentials.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Usergems Authentication
 name_suffix: Authentication

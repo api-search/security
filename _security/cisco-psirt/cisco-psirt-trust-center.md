@@ -18,6 +18,7 @@ api_specs:
   slug: cisco-psirt-sunset-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-psirt/refs/heads/main/openapi/cisco-psirt-sunset-endpoints-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

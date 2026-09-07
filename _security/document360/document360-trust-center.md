@@ -36,6 +36,7 @@ api_specs:
   slug: document360-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-users-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: watchtowr-activity-log-api-openapi.yml
@@ -126,6 +127,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Watchtowr Authentication
 name_suffix: Authentication

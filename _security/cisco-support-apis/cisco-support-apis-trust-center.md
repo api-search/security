@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: 'Cisco operates a corporate Trust Portal and Trust Center. Neither is scoped to the Support APIs, and neither names a certification an anonymous client can read: the Trust Portal answers 200 with a 2.9 KB JavaScript shell containing no document list, and the Trust Center compliance page mentions FedRAMP and HIPAA only in navigation copy about Cisco SaaS solutions generally. Recorded as probed, with the wall named — no certification is claimed for these APIs on this evidence.'
 kind: trust-center

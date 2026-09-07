@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: Mitiga publishes no public developer documentation, but its product API gateway (api.mitiga.cloud) serves an anonymous RFC 8414 authorization-server metadata document. This profile is derived entirely from that document and the OIDC discovery document on the identity host it points at. No OpenAPI securitySchemes were available to derive from.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Mitiga Authentication
 name_suffix: Authentication

@@ -24,6 +24,7 @@ api_specs:
   slug: knostic-skills-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/openapi/knostic-skills-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type 2
 description: ''

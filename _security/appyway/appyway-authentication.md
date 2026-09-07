@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -188,7 +189,8 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
-method: derived
+mechanism_count: 2
+method: searched
 name: Appyway Authentication
 name_suffix: Authentication
 oauth_flows:
@@ -202,13 +204,36 @@ schemes:
   name: apiKey
   parameter: API-KEY
   sources:
-  - openapi/appyway-availability-realtime-api-openapi.yml
-  - openapi/appyway-explorer-api-openapi.yml
-  - openapi/appyway-platform-api-openapi.yml
-  - openapi/appyway-traffic-data-api-openapi.yml
-  - openapi/availability-realtime-api-openapi.yml
-  - openapi/explorer-api-openapi.yml
-  - openapi/traffic-data-api-openapi.yml
+  - openapi/appyway-activitytypes-api-openapi.yml
+  - openapi/appyway-authorities-api-openapi.yml
+  - openapi/appyway-authoritytypes-api-openapi.yml
+  - openapi/appyway-availability-api-openapi.yml
+  - openapi/appyway-basemaps-api-openapi.yml
+  - openapi/appyway-bulk-api-openapi.yml
+  - openapi/appyway-countries-api-openapi.yml
+  - openapi/appyway-entitlementtypes-api-openapi.yml
+  - openapi/appyway-exceptiontypes-api-openapi.yml
+  - openapi/appyway-exemptiontimetypes-api-openapi.yml
+  - openapi/appyway-exemptiontypes-api-openapi.yml
+  - openapi/appyway-facilitytypes-api-openapi.yml
+  - openapi/appyway-fueltypes-api-openapi.yml
+  - openapi/appyway-gis-api-openapi.yml
+  - openapi/appyway-movingexceptiontypes-api-openapi.yml
+  - openapi/appyway-movingrestrictiontypes-api-openapi.yml
+  - openapi/appyway-notevisibilitytypes-api-openapi.yml
+  - openapi/appyway-offstreetrestrictiontypes-api-openapi.yml
+  - openapi/appyway-onstreetparkingtypes-api-openapi.yml
+  - openapi/appyway-parking-api-openapi.yml
+  - openapi/appyway-paymentmethods-api-openapi.yml
+  - openapi/appyway-paymentproviders-api-openapi.yml
+  - openapi/appyway-permittedvehicles-api-openapi.yml
+  - openapi/appyway-permittypes-api-openapi.yml
+  - openapi/appyway-regions-api-openapi.yml
+  - openapi/appyway-restrictiontypes-api-openapi.yml
+  - openapi/appyway-status-api-openapi.yml
+  - openapi/appyway-vehicletypes-api-openapi.yml
+  - openapi/appyway-zones-api-openapi.yml
+  - openapi/appyway-zonetypes-api-openapi.yml
   type: apiKey
 - flows:
   - authorizationUrl: https://auth.appyway.com/authorize
@@ -217,20 +242,48 @@ schemes:
     tokenUrl: https://auth.appyway.com/oauth/token
   name: oAuth2
   sources:
-  - openapi/appyway-availability-realtime-api-openapi.yml
-  - openapi/appyway-explorer-api-openapi.yml
-  - openapi/appyway-platform-api-openapi.yml
-  - openapi/appyway-traffic-data-api-openapi.yml
-  - openapi/availability-realtime-api-openapi.yml
-  - openapi/explorer-api-openapi.yml
-  - openapi/traffic-data-api-openapi.yml
+  - openapi/appyway-activitytypes-api-openapi.yml
+  - openapi/appyway-authorities-api-openapi.yml
+  - openapi/appyway-authoritytypes-api-openapi.yml
+  - openapi/appyway-availability-api-openapi.yml
+  - openapi/appyway-basemaps-api-openapi.yml
+  - openapi/appyway-bulk-api-openapi.yml
+  - openapi/appyway-countries-api-openapi.yml
+  - openapi/appyway-entitlementtypes-api-openapi.yml
+  - openapi/appyway-exceptiontypes-api-openapi.yml
+  - openapi/appyway-exemptiontimetypes-api-openapi.yml
+  - openapi/appyway-exemptiontypes-api-openapi.yml
+  - openapi/appyway-facilitytypes-api-openapi.yml
+  - openapi/appyway-fueltypes-api-openapi.yml
+  - openapi/appyway-gis-api-openapi.yml
+  - openapi/appyway-movingexceptiontypes-api-openapi.yml
+  - openapi/appyway-movingrestrictiontypes-api-openapi.yml
+  - openapi/appyway-notevisibilitytypes-api-openapi.yml
+  - openapi/appyway-offstreetrestrictiontypes-api-openapi.yml
+  - openapi/appyway-onstreetparkingtypes-api-openapi.yml
+  - openapi/appyway-parking-api-openapi.yml
+  - openapi/appyway-paymentmethods-api-openapi.yml
+  - openapi/appyway-paymentproviders-api-openapi.yml
+  - openapi/appyway-permittedvehicles-api-openapi.yml
+  - openapi/appyway-permittypes-api-openapi.yml
+  - openapi/appyway-regions-api-openapi.yml
+  - openapi/appyway-restrictiontypes-api-openapi.yml
+  - openapi/appyway-status-api-openapi.yml
+  - openapi/appyway-vehicletypes-api-openapi.yml
+  - openapi/appyway-zones-api-openapi.yml
+  - openapi/appyway-zonetypes-api-openapi.yml
   type: oauth2
 slug: appyway-authentication
 source_filename: appyway-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/appyway-availability-realtime-api-openapi.yml, openapi/appyway-explorer-api-openapi.yml,\n  openapi/appyway-platform-api-openapi.yml, openapi/appyway-traffic-data-api-openapi.yml, openapi/availability-realtime-api-openapi.yml,\n  openapi/explorer-api-openapi.yml, openapi/traffic-data-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: API-KEY\n  sources:\n  - openapi/appyway-availability-realtime-api-openapi.yml\n  - openapi/appyway-explorer-api-openapi.yml\n  - openapi/appyway-platform-api-openapi.yml\n  - openapi/appyway-traffic-data-api-openapi.yml\n  - openapi/availability-realtime-api-openapi.yml\n  - openapi/explorer-api-openapi.yml\n  - openapi/traffic-data-api-openapi.yml\n- name: oAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.appyway.com/authorize\n\
-  \    tokenUrl: https://auth.appyway.com/oauth/token\n    scopes: 0\n  sources:\n  - openapi/appyway-availability-realtime-api-openapi.yml\n  - openapi/appyway-explorer-api-openapi.yml\n  - openapi/appyway-platform-api-openapi.yml\n  - openapi/appyway-traffic-data-api-openapi.yml\n  - openapi/availability-realtime-api-openapi.yml\n  - openapi/explorer-api-openapi.yml\n  - openapi/traffic-data-api-openapi.yml\n"
+source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: https://docs.appyway.com/docs/public-docs/50055c042f423-authentication, https://docs.appyway.com/docs/public-docs/6465709b0f811-getting-started,\n  the four provider-published contracts in github.com/YellowLineParking/Public-Api-Specs, and https://auth.appyway.com/.well-known/openid-configuration\n  (fetched 2026-09-04)\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\n  primary: apiKey\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: API-KEY\n  sources:\n  - openapi/appyway-activitytypes-api-openapi.yml\n  - openapi/appyway-authorities-api-openapi.yml\n  - openapi/appyway-authoritytypes-api-openapi.yml\n  - openapi/appyway-availability-api-openapi.yml\n  - openapi/appyway-basemaps-api-openapi.yml\n  - openapi/appyway-bulk-api-openapi.yml\n  - openapi/appyway-countries-api-openapi.yml\n  - openapi/appyway-entitlementtypes-api-openapi.yml\n  -\
+  \ openapi/appyway-exceptiontypes-api-openapi.yml\n  - openapi/appyway-exemptiontimetypes-api-openapi.yml\n  - openapi/appyway-exemptiontypes-api-openapi.yml\n  - openapi/appyway-facilitytypes-api-openapi.yml\n  - openapi/appyway-fueltypes-api-openapi.yml\n  - openapi/appyway-gis-api-openapi.yml\n  - openapi/appyway-movingexceptiontypes-api-openapi.yml\n  - openapi/appyway-movingrestrictiontypes-api-openapi.yml\n  - openapi/appyway-notevisibilitytypes-api-openapi.yml\n  - openapi/appyway-offstreetrestrictiontypes-api-openapi.yml\n  - openapi/appyway-onstreetparkingtypes-api-openapi.yml\n  - openapi/appyway-parking-api-openapi.yml\n  - openapi/appyway-paymentmethods-api-openapi.yml\n  - openapi/appyway-paymentproviders-api-openapi.yml\n  - openapi/appyway-permittedvehicles-api-openapi.yml\n  - openapi/appyway-permittypes-api-openapi.yml\n  - openapi/appyway-regions-api-openapi.yml\n  - openapi/appyway-restrictiontypes-api-openapi.yml\n  - openapi/appyway-status-api-openapi.yml\n  - openapi/appyway-vehicletypes-api-openapi.yml\n\
+  \  - openapi/appyway-zones-api-openapi.yml\n  - openapi/appyway-zonetypes-api-openapi.yml\n- name: oAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.appyway.com/authorize\n    tokenUrl: https://auth.appyway.com/oauth/token\n    scopes: 0\n  sources:\n  - openapi/appyway-activitytypes-api-openapi.yml\n  - openapi/appyway-authorities-api-openapi.yml\n  - openapi/appyway-authoritytypes-api-openapi.yml\n  - openapi/appyway-availability-api-openapi.yml\n  - openapi/appyway-basemaps-api-openapi.yml\n  - openapi/appyway-bulk-api-openapi.yml\n  - openapi/appyway-countries-api-openapi.yml\n  - openapi/appyway-entitlementtypes-api-openapi.yml\n  - openapi/appyway-exceptiontypes-api-openapi.yml\n  - openapi/appyway-exemptiontimetypes-api-openapi.yml\n  - openapi/appyway-exemptiontypes-api-openapi.yml\n  - openapi/appyway-facilitytypes-api-openapi.yml\n  - openapi/appyway-fueltypes-api-openapi.yml\n  - openapi/appyway-gis-api-openapi.yml\n  - openapi/appyway-movingexceptiontypes-api-openapi.yml\n\
+  \  - openapi/appyway-movingrestrictiontypes-api-openapi.yml\n  - openapi/appyway-notevisibilitytypes-api-openapi.yml\n  - openapi/appyway-offstreetrestrictiontypes-api-openapi.yml\n  - openapi/appyway-onstreetparkingtypes-api-openapi.yml\n  - openapi/appyway-parking-api-openapi.yml\n  - openapi/appyway-paymentmethods-api-openapi.yml\n  - openapi/appyway-paymentproviders-api-openapi.yml\n  - openapi/appyway-permittedvehicles-api-openapi.yml\n  - openapi/appyway-permittypes-api-openapi.yml\n  - openapi/appyway-regions-api-openapi.yml\n  - openapi/appyway-restrictiontypes-api-openapi.yml\n  - openapi/appyway-status-api-openapi.yml\n  - openapi/appyway-vehicletypes-api-openapi.yml\n  - openapi/appyway-zones-api-openapi.yml\n  - openapi/appyway-zonetypes-api-openapi.yml\ndocs: https://docs.appyway.com/docs/public-docs/50055c042f423-authentication\ndocs_finding: 'AppyWay''s authentication page is unambiguous: \"AppyWay authenticates your API requests\n  using API keys ... Your API key must be\
+  \ passed with each request in a header. Header name: API-KEY.\"\n  A missing or invalid key returns 401 Unauthorized. Keys are issued by AppyWay on request to apisupport@appyway.com;\n  there is no self-serve issuance, no key rotation surface, no scopes and no test key.'\nentitlement: Authorisation is scoped per UK local authority rather than per endpoint. A valid key calling\n  an authority it is not entitled to receives 403 with a message naming the authority GUID — \"No permissions\n  to authority '{C5962ED0-1F6A-4417-871A-74E58D921D21}'\" (https://docs.appyway.com/docs/public-docs/6465709b0f811-getting-started).\noauth_finding: 'The oAuth2 authorizationCode scheme recorded below was read from an earlier API Evangelist\n  harvest of the contracts. AppyWay''s currently published contracts, re-fetched from its own repository\n  on 2026-09-04, declare ONLY the apiKey scheme — the oAuth2 block is no longer present in any of the\n  four. It is retained here as history, not as a live API\
+  \ auth path. The endpoints it named are real:\n  auth.appyway.com is an Auth0 tenant that serves a full OIDC discovery document (well-known/appyway-auth-openid-configuration.json),\n  advertising authorization_code, client_credentials, refresh_token, device_code and token-exchange grants\n  with S256 PKCE. That tenant is the login for the AppyWay web applications, not the REST API.'\ndiscovery:\n  issuer: https://auth.appyway.com/\n  openid_configuration: https://auth.appyway.com/.well-known/openid-configuration\n  oauth_authorization_server: https://auth.appyway.com/.well-known/oauth-authorization-server\n  status: 200\n  checked: '2026-09-04'\n  saved:\n  - well-known/appyway-auth-openid-configuration.json\n  - well-known/appyway-auth-oauth-authorization-server.json\n  scope: platform login only — the published REST contracts do not accept these tokens\nprobes:\n- url: https://docs.appyway.com/docs/public-docs/50055c042f423-authentication\n  status: 200\n  checked: '2026-09-04'\n- url:\
+  \ https://api.appyway.com/v1/explorer/ping\n  status: 401\n  checked: '2026-09-04'\n  note: anonymous request rejected, confirming the key requirement\n- url: https://auth.appyway.com/.well-known/openid-configuration\n  status: 200\n  checked: '2026-09-04'\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/authentication/appyway-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:

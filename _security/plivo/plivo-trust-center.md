@@ -30,6 +30,7 @@ api_specs:
   slug: plivo-message-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/openapi/plivo-message-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

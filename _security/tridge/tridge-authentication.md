@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Tridge publishes no API authentication documentation. What is recorded here was observed by probe, not read from a developer reference, and it describes the PLATFORM sign-in used by the Tridge web application — it is not confirmed to be the credential model for the commercial data API, which is arranged through sales.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Tridge Authentication
 name_suffix: Authentication

@@ -107,6 +107,7 @@ hosts:
   https: true
   note: 'Production reporting API + portal host. HSTS on an API response: max-age=63072000; includeSubDomains; preload. Added by the enrichment pass.'
   tls_version: TLSv1.3
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

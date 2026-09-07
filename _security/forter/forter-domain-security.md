@@ -60,6 +60,7 @@ hosts:
 - host: api.forter.secure.com
   https: unknown
   note: The bare host api.forter.secure.com does not resolve. The Forter API is served on a per-tenant host - requests go to https://{siteId}.api.forter.secure.com - so the generic host has no public DNS record and could not be probed directly.
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

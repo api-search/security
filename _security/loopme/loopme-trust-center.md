@@ -18,6 +18,7 @@ api_specs:
   slug: loopme-publisher-reporting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/openapi/loopme-publisher-reporting-api-openapi.yml
+certification_count: 2
 certifications:
 - ePrivacyseal
 - TAG registered (Trustworthy Accountability Group)

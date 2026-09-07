@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: API-Football authenticates with a single static API key sent in a request header. There is no OAuth, no OIDC, no bearer/JWT flow and no mTLS. The key is issued from the API-Sports dashboard and the SAME key works across every API-Sports sport surface. Two header names are accepted, and which one you use depends on which of the two distribution channels you bought through.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Api Football Authentication
 name_suffix: Authentication

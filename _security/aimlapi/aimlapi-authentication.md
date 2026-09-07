@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: aimlapi-api-key-management-api-openapi.yml
@@ -73,6 +74,7 @@ auth_types:
 description: AIMLAPI runs two distinct authentication systems. The REST API is bearer API keys with two privilege classes (regular keys and management keys) and per-key model scopes and spend caps. The remote MCP server additionally supports full OAuth 2.1 with PKCE and dynamic client registration — the only place OAuth appears in the AIMLAPI surface, and it is not available for the REST API.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Aimlapi Authentication
 name_suffix: Authentication

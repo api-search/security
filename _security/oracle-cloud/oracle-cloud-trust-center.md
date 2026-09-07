@@ -150,6 +150,7 @@ api_specs:
   slug: oracle-cloud-volume-attachments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-volume-attachments-api-openapi.yml
+certification_count: 27
 certifications:
 - SOC 1
 - SOC 2

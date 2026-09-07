@@ -30,6 +30,7 @@ api_specs:
   slug: rhel-systems-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-systems-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - ISO 27018

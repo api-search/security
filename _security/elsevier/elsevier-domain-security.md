@@ -1,5 +1,41 @@
 ---
 api_specs:
+- filename: elsevier-scopus-swagger.json
+  format: json
+  label: Elsevier Scopus APIs
+  slug: elsevier-scopus-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-scopus-swagger.json
+- filename: elsevier-sciencedirect-swagger.json
+  format: json
+  label: Elsevier ScienceDirect APIs
+  slug: elsevier-sciencedirect-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-sciencedirect-swagger.json
+- filename: elsevier-scival-swagger.json
+  format: json
+  label: Elsevier SciVal API
+  slug: elsevier-scival-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-scival-swagger.json
+- filename: elsevier-engineering-village-swagger.json
+  format: json
+  label: Elsevier Engineering Village API
+  slug: elsevier-engineering-village-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-engineering-village-swagger.json
+- filename: elsevier-retrieval-swagger.json
+  format: json
+  label: Elsevier Retrieval APIs
+  slug: elsevier-retrieval-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-retrieval-swagger.json
+- filename: elsevier-metadata-swagger.json
+  format: json
+  label: Elsevier Metadata APIs
+  slug: elsevier-metadata-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-metadata-swagger.json
 - filename: elsevier-abstract-api-openapi.yml
   format: yaml
   label: Elsevier Abstract API
@@ -32,6 +68,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.2
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
@@ -44,7 +81,7 @@ slug: elsevier-domain-security
 source_filename: elsevier-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dev.elsevier.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 15 15:11:04 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n- host: api.elsevier.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 15 15:11:04 2026 GMT\n  hsts: null\ndomains:\n- domain: elsevier.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dev.elsevier.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 15 15:11:04 2026 GMT\n  hsts: true\n  hsts_max_age: 0\n- host: api.elsevier.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 15 15:11:04 2026 GMT\n  hsts: null\ndomains:\n- domain: elsevier.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/security/elsevier-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:

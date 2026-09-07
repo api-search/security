@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: zeroheight-open-api-v2.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: zeroheight authenticates the REST API with a paired Client ID and Access Token sent as two custom headers. There is no OAuth on the REST surface. OAuth exists only on the MCP surface, where the remote server runs a browser login flow against the customer's zeroheight team (password or SSO).
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Zeroheight Authentication
 name_suffix: Authentication

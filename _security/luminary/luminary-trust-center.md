@@ -36,6 +36,7 @@ api_specs:
   slug: luminary-valuations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-valuations-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

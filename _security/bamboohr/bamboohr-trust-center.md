@@ -42,6 +42,7 @@ api_specs:
   slug: bamboohr-time-off-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-time-off-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - PCI DSS

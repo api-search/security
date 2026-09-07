@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Pocus runs a standards-based OAuth 2.0 authorization server and OpenID Connect provider at auth.pocus.com and publishes its metadata anonymously. Enterprise identity federates in over SAML 2.0 (Okta documented) with SCIM 2.0 provisioning. The core GraphQL API at api.pocus.com accepts a bearer JWT. Pocus publishes no OpenAPI, so no securityScheme could be derived from a contract — everything below is read from documents the provider actually serves.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: probed
 name: Pocus Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -13,6 +14,7 @@ auth_types:
 description: 'The Higgsfield API authenticates with an API key and secret issued from the Higgsfield Cloud dashboard (cloud.higgsfield.ai). Credentials are sent on the Authorization header using the custom "Key" scheme: "Authorization: Key {api_key}:{api_key_secret}". There is no OAuth 2.0 / OIDC scope surface on the REST API (OAuth is used only for the remote MCP server). The OpenAPI document does not declare securitySchemes; this profile is captured from the developer docs.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Higgsfield Authentication
 name_suffix: Authentication

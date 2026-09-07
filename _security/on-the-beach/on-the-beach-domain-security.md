@@ -58,6 +58,7 @@ hosts:
   https: true
   note: CNAME onthebeachuk.zendesk.com — Zendesk-hosted help centre.
   tls_version: TLSv1.3
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

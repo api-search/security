@@ -24,6 +24,7 @@ api_specs:
   slug: empowerly-maintenance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/openapi/empowerly-maintenance-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type 2
 description: ''

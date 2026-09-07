@@ -6,6 +6,7 @@ api_specs:
   slug: merkle-science-vasp-entities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/openapi/merkle-science-vasp-entities-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

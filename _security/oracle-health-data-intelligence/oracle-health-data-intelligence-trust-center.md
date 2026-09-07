@@ -6,6 +6,7 @@ api_specs:
   slug: oracle-health-data-intelligence-populations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/openapi/oracle-health-data-intelligence-populations-api-openapi.yml
+certification_count: 6
 certifications:
 - HIPAA
 - HITRUST CSF

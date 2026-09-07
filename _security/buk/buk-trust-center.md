@@ -396,6 +396,7 @@ api_specs:
   slug: buk-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/buk/refs/heads/main/openapi/buk-workflows-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO/IEC 27001:2022
 - SOC 2 Type 2

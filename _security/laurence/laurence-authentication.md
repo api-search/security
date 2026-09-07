@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Laurence's only publicly documented programmatic surface is its hosted MCP server, which is an OAuth 2.0 protected resource. The authorization server is www.laurence.com; the protected resource is the MCP endpoint on modal.run. The flow is authorization code with PKCE (S256 only) and supports OAuth 2.0 Dynamic Client Registration — token_endpoint_auth_methods_supported is "none", i.e. public clients only, which is what lets an IDE register itself and complete a browser sign-in without any pre-issued credential. There is no documented API-key or HTTP-basic surface, and no general-purpose REST API is published.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Laurence Authentication
 name_suffix: Authentication

@@ -40,6 +40,7 @@ hosts:
   https: true
   note: The only Tridge host observed serving HSTS, and the only one negotiating TLS 1.3 — it is externally hosted, not part of the core platform.
   tls_version: TLSv1.3
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

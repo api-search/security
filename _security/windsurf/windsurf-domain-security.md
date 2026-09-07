@@ -30,6 +30,24 @@ api_specs:
   slug: windsurf-useranalytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-useranalytics-api-openapi.yml
+- filename: windsurfrules-analytics-api-openapi.yml
+  format: yaml
+  label: Windsurf analytics API
+  slug: windsurfrules-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurfrules-analytics-api-openapi.yml
+- filename: windsurfrules-billing-api-openapi.yml
+  format: yaml
+  label: Windsurf billing API
+  slug: windsurfrules-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurfrules-billing-api-openapi.yml
+- filename: windsurfrules-teams-api-openapi.yml
+  format: yaml
+  label: Windsurf teams API
+  slug: windsurfrules-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurfrules-teams-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -63,6 +81,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

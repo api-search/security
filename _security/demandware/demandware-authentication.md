@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
 description: Salesforce B2C Commerce (Demandware) authentication documented from the SCAPI and OCAPI authorization guides. No OpenAPI is captured in this repo yet, so this profile is searched from the docs rather than derived from securitySchemes.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Demandware Authentication
 name_suffix: Authentication

@@ -18,6 +18,7 @@ api_specs:
   slug: identity-oauth2
   spec_type: Postman
   url: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/postman/unico-oauth2.postman_collection.json
+certification_count: 10
 certifications:
 - SOC 2 Type 2
 - GDPR

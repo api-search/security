@@ -53,6 +53,7 @@ hosts:
   hsts: null
   https: true
   note: Akamai edge answered HTTP 403 (Access Denied) to the probe; no public API surface observable.
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

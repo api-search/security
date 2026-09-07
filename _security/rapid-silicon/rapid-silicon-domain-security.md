@@ -37,6 +37,7 @@ hosts:
     note: GET / returns HTTP 301 to https://realdha.com/ (a third-party domain-for-sale page); HEAD / returns 405. All previously published product, blog and documentation paths return 404.
     reachable: true
     tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

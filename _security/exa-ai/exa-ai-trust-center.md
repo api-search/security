@@ -114,6 +114,7 @@ api_specs:
   slug: exa-ai-websets-preview-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-websets-preview-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - HIPAA

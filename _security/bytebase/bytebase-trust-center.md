@@ -72,6 +72,7 @@ api_specs:
   slug: bytebase-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bytebase/refs/heads/main/openapi/bytebase-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

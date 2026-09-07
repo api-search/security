@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -20,6 +21,7 @@ auth_types:
 description: 'A single auth model across the whole estate: an Azure API Management subscription key, passed either as the `APIKey` request header or as a `subscription-key` query parameter, over HTTPS only. There is no OAuth 2.0, no OpenID Connect, no mTLS and no consumer-consent grant of any kind — the portal reports empty oAuth2AuthenticationSettings and empty openidAuthenticationSettings for all four APIs, and /.well-known/openid-configuration returns 404 on every host. Prefer the header form so the secret does not leak into logs, referrers or browser history.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Xoserve Authentication
 name_suffix: Authentication

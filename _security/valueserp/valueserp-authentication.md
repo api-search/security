@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - query
 api_specs:
@@ -43,6 +44,7 @@ auth_types:
 description: 'ValueSERP authenticates every request with a single API key passed as the `api_key` QUERY-STRING parameter. That is the whole scheme: no OAuth, no OpenID Connect, no bearer tokens, no HMAC request signing, no mTLS, and no scopes. There is one key type with one level of access — a key that can read can also create batches and destinations and spend the account''s credits.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Valueserp Authentication
 name_suffix: Authentication

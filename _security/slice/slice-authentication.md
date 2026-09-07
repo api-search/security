@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -14,11 +15,24 @@ api_specs:
   slug: slice-shops-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/slice/refs/heads/main/openapi/slice-shops-api-openapi.yml
+- filename: slice-shops-api-openapi.yml
+  format: yaml
+  label: Slice Shops API (Modeled)
+  slug: slice-shops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slice/refs/heads/main/openapi/slice-shops-api-openapi.yml
+- filename: slice-orders-api-openapi.yml
+  format: yaml
+  label: Slice Orders API (Modeled)
+  slug: slice-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slice/refs/heads/main/openapi/slice-orders-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Slice Authentication
 name_suffix: Authentication

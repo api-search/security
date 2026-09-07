@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: WealthKernel secures its API with OAuth2 client-credentials against an OpenID Connect authorization server (Duende/IdentityServer-style "/connect/token" endpoint). API clients and secrets are created and managed by Dashboard admin users under Configuration -> API clients. The client_id (client key) and client_secret are exchanged at the token endpoint for a short-lived access token, which is then sent as a Bearer token on each API request. Sandbox and production use separate authorization servers.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Wealthkernel Authentication
 name_suffix: Authentication

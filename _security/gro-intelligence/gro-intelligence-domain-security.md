@@ -42,6 +42,7 @@ hosts:
   note: Registrar parking page. A DV certificate auto-issued by GoDaddy in July 2026 — two years after the company ceased operations — which is evidence of parking infrastructure, not of an operating service.
   reachable: true
   tls_verify: ok
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

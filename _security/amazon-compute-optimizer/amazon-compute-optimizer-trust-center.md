@@ -126,6 +126,7 @@ api_specs:
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-updateenrollmentstatus-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-updateenrollmentstatus-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

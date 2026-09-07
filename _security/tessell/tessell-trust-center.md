@@ -492,6 +492,7 @@ api_specs:
   slug: tessell-vpc-peering-governance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-vpc-peering-governance-api-openapi.yml
+certification_count: 4
 certifications:
 - PCI DSS v4.1
 - SOC 2

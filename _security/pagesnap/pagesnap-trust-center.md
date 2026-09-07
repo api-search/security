@@ -6,6 +6,7 @@ api_specs:
   slug: pagesnap-api
   spec_type: OpenAPI
   url: https://pagesnap.142-93-197-141.sslip.io/openapi.json
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

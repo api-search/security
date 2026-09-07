@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: At Urban Sports Club, we're committed to supporting your physical and mental wellness with an all-in-one sports and wellness membership. Your security and privacy are our top priorities. We are committed to protecting your personal data with industry-leading security measures, robust privacy practices, and a transparent approach to trust.
 kind: trust-center

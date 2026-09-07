@@ -132,6 +132,7 @@ api_specs:
   slug: when-i-work-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/when-i-work/refs/heads/main/openapi/when-i-work-users-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

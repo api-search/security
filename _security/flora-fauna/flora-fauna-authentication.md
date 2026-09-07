@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: flora-fauna-actions-api-openapi.yml
@@ -73,6 +74,7 @@ auth_types:
 description: FLORA runs two independent authentication paths against the same workspace and the same billing. The REST API takes a bearer API key; the MCP server takes OAuth 2.1 with PKCE and will NOT accept the API key. The docs state plainly that they can be used in parallel, and that the audit trail differs — an API key attributes an action to a service account, OAuth attributes it to a named human in a named client.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Flora Fauna Authentication
 name_suffix: Authentication

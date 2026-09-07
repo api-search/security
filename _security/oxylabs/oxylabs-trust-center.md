@@ -24,6 +24,7 @@ api_specs:
   slug: oxylabs-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/openapi/oxylabs-users-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

@@ -36,6 +36,7 @@ api_specs:
   slug: amazon-vpc-vpcs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-vpcs-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

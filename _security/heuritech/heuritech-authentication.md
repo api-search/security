@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: heuritech-posts-api-openapi.yml
@@ -56,6 +57,7 @@ auth_types:
 description: Heuritech has three distinct authentication postures, one per surface, and only two of them are publicly observable. The mechanical derive-authentication pass found no securitySchemes because the OpenAPI documents in this repo are API Evangelist derivations of an anonymously-readable WordPress REST surface, which declares none; the profile below was established by live probe instead.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Heuritech Authentication
 name_suffix: Authentication

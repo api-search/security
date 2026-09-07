@@ -414,6 +414,7 @@ api_specs:
   slug: decisiv-webhooks-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/openapi/decisiv-webhooks-events-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

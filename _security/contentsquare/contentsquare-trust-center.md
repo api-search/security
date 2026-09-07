@@ -24,6 +24,7 @@ api_specs:
   slug: contentsquare-runs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/contentsquare/refs/heads/main/openapi/contentsquare-runs-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

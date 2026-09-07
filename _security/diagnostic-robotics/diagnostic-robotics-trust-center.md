@@ -72,6 +72,7 @@ api_specs:
   slug: diagnostic-robotics-widgets-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-widgets-api-api-openapi.yml
+certification_count: 4
 certifications:
 - HIPAA
 - ISO 27001

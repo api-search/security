@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - query
 api_specs:
@@ -74,12 +75,43 @@ api_specs:
   slug: getstream-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-users-api-openapi.yml
+- filename: stream-io-product-chat-api-openapi.yml
+  format: yaml
+  label: Stream product:chat API
+  slug: stream-io-product-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/stream-io-product-chat-api-openapi.yml
+- filename: stream-io-product-common-api-openapi.yml
+  format: yaml
+  label: Stream product:common API
+  slug: stream-io-product-common-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/stream-io-product-common-api-openapi.yml
+- filename: stream-io-product-feeds-api-openapi.yml
+  format: yaml
+  label: Stream product:feeds API
+  slug: stream-io-product-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/stream-io-product-feeds-api-openapi.yml
+- filename: stream-io-product-moderation-api-openapi.yml
+  format: yaml
+  label: Stream product:moderation API
+  slug: stream-io-product-moderation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/stream-io-product-moderation-api-openapi.yml
+- filename: stream-io-product-video-api-openapi.yml
+  format: yaml
+  label: Stream product:video API
+  slug: stream-io-product-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/stream-io-product-video-api-openapi.yml
 auth_types:
 - apiKey
 - http
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Getstream Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+certification_count: 3
 certifications:
 - SOC 2 (AICPA SOC)
 - ISO/IEC 27001:2022

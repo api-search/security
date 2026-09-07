@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'RealGifts authenticates API and SDK calls with an API key. The public developer snippet initializes the browser SDK with an API key (RealGifts.init({ api_key: ''YOUR_API_KEY'' })). No OAuth or OpenID Connect flow is advertised on the public developer surface. The full auth reference lives in the gated documentation portal.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Real Gift Services Authentication
 name_suffix: Authentication

@@ -24,6 +24,7 @@ api_specs:
   slug: docparser-results-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docparser/refs/heads/main/openapi/docparser-results-api-openapi.yml
+certification_count: 2
 certifications:
 - HIPAA
 - GDPR

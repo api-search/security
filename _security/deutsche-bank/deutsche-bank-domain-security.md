@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: deutsche-bank-dbapi-addresses-v2.json
+  format: json
+  label: Deutsche Bank API Program
+  slug: deutsche-bank
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deutsche-bank/refs/heads/main/openapi/deutsche-bank-dbapi-addresses-v2.json
+- filename: deutsche-bank-merchant-solution-callback-v2.json
+  format: json
+  label: Deutsche Bank Merchant Solutions
+  slug: merchant-solutions
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deutsche-bank/refs/heads/main/openapi/deutsche-bank-merchant-solution-callback-v2.json
 description: ''
 domains:
 - caa: []
@@ -8,30 +21,37 @@ domains:
   domain: db.com
   spf: true
 hosts:
-- cert_expires: Oct 27 23:59:59 2026 GMT
+- cert_expires: Feb 27 23:59:59 2027 GMT
   host: www.db.com
-  hsts: false
+  hsts: true
+  hsts_max_age: 3600
   https: true
   tls_version: TLSv1.3
-- cert_expires: Nov  2 23:59:59 2026 GMT
+- cert_expires: Mar 21 23:59:59 2027 GMT
   host: developer.db.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+- cert_expires: Nov 17 23:59:59 2026 GMT
+  host: api.db.com
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
 name: Deutsche Bank Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Deutsche Bank, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Deutsche Bank, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Deutsche Bank
 provider_slug: deutsche-bank
 slug: deutsche-bank-domain-security
 source_filename: deutsche-bank-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.db.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 23:59:59 2026 GMT\n  hsts: false\n- host: developer.db.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: db.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.db.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 27 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 3600\n- host: developer.db.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 21 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.db.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: db.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deutsche-bank/refs/heads/main/security/deutsche-bank-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -40,4 +60,11 @@ tags:
 - Wealth Management
 - Open Banking
 - PSD2
+- Payments
+- SEPA
+- Investments
+- Credit Cards
+- Merchant Solutions
+- Germany
+- Financial Services
 ---

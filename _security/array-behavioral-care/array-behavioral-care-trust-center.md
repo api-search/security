@@ -1,4 +1,5 @@
 ---
+certification_count: 3
 certifications:
 - HITRUST e1
 - The Joint Commission accreditation

@@ -60,6 +60,7 @@ api_specs:
   slug: mabl-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mabl/refs/heads/main/openapi/mabl-users-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

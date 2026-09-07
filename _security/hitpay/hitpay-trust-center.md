@@ -144,6 +144,7 @@ api_specs:
   slug: hitpay-webhook-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hitpay/refs/heads/main/openapi/hitpay-webhook-events-api-openapi.yml
+certification_count: 2
 certifications:
 - PCI DSS
 - MAS Major Payment Institution (MPI)

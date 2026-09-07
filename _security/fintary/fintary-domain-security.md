@@ -82,6 +82,7 @@ hosts:
   hsts_note: 'The mechanical probe records null because HEAD https://api.fintary.com/ returns the Next.js 404 page, which carries no HSTS header. A direct GET of a real API route (https://api.fintary.com/openapi/agents, HTTP 401) on 2026-08-14 returned `strict-transport-security: max-age=63072000; includeSubDomains`.'
   https: true
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

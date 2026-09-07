@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: 'Raise Commerce API (business/v2) authentication. All requests are authorized with an OAuth 2.0 bearer access token. Two token-issuance flows exist: a server-to-server flow (Tokens resource, HTTP Basic with Client ID + Secret) and an app/web customer flow (Auth resource, with a verification method).'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Raise Authentication
 name_suffix: Authentication

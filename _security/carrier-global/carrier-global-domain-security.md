@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: carrier-global-lynx-fleet-api-openapi.yaml
+  format: yaml
+  label: Carrier Lynx Fleet API
+  slug: lynx-fleet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/openapi/carrier-global-lynx-fleet-api-openapi.yaml
+- filename: carrier-global-lynx-2way-command-api-openapi.yaml
+  format: yaml
+  label: Carrier Lynx 2-way Command API
+  slug: lynx-2way-command-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/openapi/carrier-global-lynx-2way-command-api-openapi.yaml
+- filename: carrier-global-lynx-container-api-openapi.yaml
+  format: yaml
+  label: Carrier Lynx Container API
+  slug: lynx-container-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/openapi/carrier-global-lynx-container-api-openapi.yaml
 description: ''
 domains:
 - caa: []
@@ -8,18 +27,19 @@ domains:
   domain: carrier.com
   spf: true
 - caa: []
-  dmarc: false
+  dmarc: true
+  dmarc_policy: none
   dnssec: false
   domain: carrier.io
   spf: true
 hosts:
-- cert_expires: Aug 30 04:21:23 2026 GMT
+- cert_expires: Oct 28 07:42:30 2026 GMT
   host: www.corporate.carrier.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 29 23:43:45 2026 GMT
+- cert_expires: Oct 28 00:25:45 2026 GMT
   host: api.tta.lynxfleet.carrier.com
   hsts: true
   hsts_max_age: 31536000
@@ -30,6 +50,7 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
@@ -42,7 +63,7 @@ slug: carrier-global-domain-security
 source_filename: carrier-global-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.corporate.carrier.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 04:21:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.tta.lynxfleet.carrier.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 23:43:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: doc-api.fleet.lynx.carrier.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: carrier.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: carrier.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.corporate.carrier.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 07:42:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.tta.lynxfleet.carrier.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 00:25:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: doc-api.fleet.lynx.carrier.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: carrier.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: carrier.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/security/carrier-global-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

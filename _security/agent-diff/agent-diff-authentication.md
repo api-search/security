@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: agent-diff-diffs-api-openapi.yml
@@ -18,6 +19,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Agent Diff Authentication
 name_suffix: Authentication

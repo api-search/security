@@ -8,11 +8,12 @@ domains:
   domain: chemius.net
   spf: true
 hosts:
-- cert_expires: Sep 23 08:02:08 2026 GMT
+- cert_expires: Nov 22 21:39:20 2026 GMT
   host: www.chemius.net
   hsts: false
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -25,7 +26,7 @@ slug: chemius-domain-security
 source_filename: chemius-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.chemius.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 08:02:08 2026 GMT\n  hsts: false\ndomains:\n- domain: chemius.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.chemius.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 21:39:20 2026 GMT\n  hsts: false\ndomains:\n- domain: chemius.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chemius/refs/heads/main/security/chemius-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

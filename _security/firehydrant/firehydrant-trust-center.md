@@ -96,6 +96,7 @@ api_specs:
   slug: firehydrant-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/firehydrant-teams-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

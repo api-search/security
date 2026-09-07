@@ -36,6 +36,7 @@ api_specs:
   slug: octopus-deploy-root-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-root-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

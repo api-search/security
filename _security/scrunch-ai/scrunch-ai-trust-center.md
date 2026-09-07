@@ -78,6 +78,7 @@ api_specs:
   slug: scrunch-ai-scrunch-data-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-scrunch-data-api-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

@@ -252,6 +252,7 @@ api_specs:
   slug: slack-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-workflows-api-openapi.yml
+certification_count: 2
 certifications:
 - FedRAMP
 - GDPR

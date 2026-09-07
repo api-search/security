@@ -96,6 +96,7 @@ api_specs:
   slug: locus-sh-vehiclemodel-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-vehiclemodel-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

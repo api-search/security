@@ -72,6 +72,7 @@ api_specs:
   slug: convex-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-teams-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - HIPAA

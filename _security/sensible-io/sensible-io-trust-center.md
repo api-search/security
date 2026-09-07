@@ -48,6 +48,7 @@ api_specs:
   slug: sensible-io-upload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sensible-io/refs/heads/main/openapi/sensible-io-upload-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

@@ -126,6 +126,7 @@ api_specs:
   slug: workday-payroll-workers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-workers-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

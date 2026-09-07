@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - custom-soap-body-credential
 description: USADATA Leads Engine authenticates with a credential triple carried in the SOAP request BODY, not in a transport header. Every operation except the two unauthenticated diagnostics (ping, getVersion) declares a leading `Login` element of type `{http://Usadata.com/Services/LeadsEngine/Login}Login`. There is no WS-Security header, no OAuth, no API-key header and no bearer token in the published contract; credentials are issued by USADATA through its sales / developer-support process (there is no self-service API sign-up).
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Usadata Inc Authentication
 name_suffix: Authentication

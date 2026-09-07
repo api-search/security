@@ -42,6 +42,7 @@ api_specs:
   slug: honeybadger-source-maps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-source-maps-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

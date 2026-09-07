@@ -24,6 +24,7 @@ api_specs:
   slug: zendesk-sell-leads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/openapi/zendesk-sell-leads-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2 Type II
 - ISO 27001

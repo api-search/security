@@ -126,6 +126,7 @@ api_specs:
   slug: monetizenow-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-usage-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - GDPR

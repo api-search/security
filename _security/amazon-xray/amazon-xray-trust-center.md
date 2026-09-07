@@ -192,6 +192,7 @@ api_specs:
   slug: amazon-xray-updatesamplingrule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/openapi/amazon-xray-updatesamplingrule-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

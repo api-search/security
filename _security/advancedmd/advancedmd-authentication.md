@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -190,6 +191,7 @@ auth_types:
 description: 'The specs are thin — every FHIR document declares only a bare `bearerAuth` (http/bearer/JWT) scheme and says nothing about how that JWT is obtained. The real model is SMART-on-FHIR OAuth 2.0: three-legged authorization_code (with PKCE) for patient and practitioner apps, and SMART Backend Services client_credentials with an RS384 private_key_jwt assertion for Bulk Data. The legacy Application Access APIs use a separate api-key + session-token model.'
 kind: authentication
 layout: security
+mechanism_count: 7
 method: searched
 name: Advancedmd Authentication
 name_suffix: Authentication

@@ -42,6 +42,7 @@ api_specs:
   slug: slashid-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-workflows-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

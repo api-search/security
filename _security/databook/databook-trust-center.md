@@ -24,6 +24,7 @@ api_specs:
   slug: databook-reasoning-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/openapi/databook-reasoning-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 2
 - NIST 800-171

@@ -6,6 +6,7 @@ api_specs:
   slug: fleet-fleet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/openapi/fleet-fleet-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 2
 - ISO 27001

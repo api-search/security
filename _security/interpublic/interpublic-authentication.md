@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: interpublic-wp-v2-api-openapi.yml
@@ -31,6 +32,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Interpublic Authentication
 name_suffix: Authentication

@@ -294,6 +294,7 @@ api_specs:
   slug: skai-kenshoo-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/openapi/skai-kenshoo-token-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO/IEC 27001:2013
 - SOC 2 Type 2

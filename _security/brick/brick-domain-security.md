@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: brick-brick-server-openapi.yml
+  format: yaml
+  label: Brick Example Server
+  slug: server
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brick/refs/heads/main/openapi/brick-brick-server-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -7,11 +14,12 @@ domains:
   domain: brickschema.org
   spf: true
 hosts:
-- cert_expires: Sep 23 22:05:51 2026 GMT
+- cert_expires: Nov 23 03:28:22 2026 GMT
   host: brickschema.org
   hsts: false
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -24,7 +32,7 @@ slug: brick-domain-security
 source_filename: brick-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: brickschema.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 22:05:51 2026 GMT\n  hsts: false\ndomains:\n- domain: brickschema.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: brickschema.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 03:28:22 2026 GMT\n  hsts: false\ndomains:\n- domain: brickschema.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brick/refs/heads/main/security/brick-domain-security.yml
 summary_line: TLSv1.3
 tags:

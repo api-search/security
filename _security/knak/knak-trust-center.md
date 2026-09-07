@@ -162,6 +162,7 @@ api_specs:
   slug: knak-translation-request-created-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/openapi/knak-translation-request-created-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

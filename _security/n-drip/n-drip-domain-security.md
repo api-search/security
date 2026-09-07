@@ -19,6 +19,7 @@ hosts:
   https: true
   note: N-Drip Connect web application (S3 + CloudFront origin); added by the enrichment pass because apis[] is empty so the automated probe did not reach it.
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

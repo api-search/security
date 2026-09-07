@@ -318,6 +318,7 @@ api_specs:
   slug: brevo-whatsappcampaigns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-whatsappcampaigns-api-openapi.yml
+certification_count: 1
 certifications:
 - ISO/IEC 27001:2022
 description: Brevo has no trust-center subdomain — trust.brevo.com and security.brevo.com do not resolve. Its compliance posture is published as a marketing product page, /features/data-security/, which names one certification (ISO/IEC 27001:2022, with a downloadable certificate) and states support for GDPR, CASL and CCPA. There is no SOC 2 report, no subprocessor list at a discoverable URL, and no continuous-monitoring portal (Vanta/Drata/SafeBase style). The claims are real and provider-published; the surface around them is thin, and that distinction is recorded rather than flattened.

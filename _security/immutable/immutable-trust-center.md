@@ -96,6 +96,7 @@ api_specs:
   slug: immutable-tracking-consent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/immutable/refs/heads/main/openapi/immutable-tracking-consent-api-openapi.yml
+certification_count: 2
 certifications:
 - named
 - note

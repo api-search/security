@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: voa-health-authentication-api-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: Voa uses a two-token model. A long-lived Auth Token identifies the integrating partner (dev convenience, sent as the x-voa-token header). For production, that Auth Token is exchanged per-consultation for a short-lived Bearer JWT (POST /integration/identify/) which authorizes iFrame/plugin embedding and all Voa integration API calls, including RNDS. Voa's own server-to-RNDS leg additionally uses ICP-Brasil A1 mutual-TLS (not exposed to API clients).
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Voa Health Authentication
 name_suffix: Authentication

@@ -12,6 +12,7 @@ api_specs:
   slug: gamesight-reporting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/openapi/gamesight-reporting-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - GDPR

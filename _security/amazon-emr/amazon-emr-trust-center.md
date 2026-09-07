@@ -6,6 +6,7 @@ api_specs:
   slug: amazon-emr-clusters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/openapi/amazon-emr-clusters-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

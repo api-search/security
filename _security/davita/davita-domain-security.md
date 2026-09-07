@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: davita-wp-rest.yml
+  format: yaml
+  label: DaVita Web REST API
+  slug: davita-web-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/davita/refs/heads/main/openapi/davita-wp-rest.yml
 description: ''
 domains:
 - caa: []
@@ -8,11 +15,12 @@ domains:
   domain: davita.com
   spf: true
 hosts:
-- cert_expires: Jul 31 03:30:08 2026 GMT
+- cert_expires: Feb 12 23:59:59 2027 GMT
   host: www.davita.com
   hsts: false
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -25,7 +33,7 @@ slug: davita-domain-security
 source_filename: davita-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.davita.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 31 03:30:08 2026 GMT\n  hsts: false\ndomains:\n- domain: davita.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.davita.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 12 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: davita.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/davita/refs/heads/main/security/davita-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
@@ -37,4 +45,7 @@ tags:
 - Hospital Partnerships
 - Integrated Kidney Care
 - Kidney Care
+- Nutrition
+- Patient Education
+- Recipes
 ---

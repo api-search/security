@@ -66,6 +66,7 @@ api_specs:
   slug: mikmak-shoppable-recipe-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/openapi/mikmak-shoppable-recipe-reports-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

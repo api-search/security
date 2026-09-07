@@ -6,6 +6,7 @@ api_specs:
   slug: pipefy-graphql-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pipefy/refs/heads/main/openapi/pipefy-graphql-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

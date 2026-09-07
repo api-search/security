@@ -1,4 +1,5 @@
 ---
+certification_count: 4
 certifications:
 - ISO 27001:2013
 - CSA-STAR

@@ -18,6 +18,7 @@ api_specs:
   slug: nitro-software-sign-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/openapi/nitro-software-sign-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

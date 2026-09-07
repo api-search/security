@@ -24,6 +24,7 @@ api_specs:
   slug: workday-business-processes-process-instances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-process-instances-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

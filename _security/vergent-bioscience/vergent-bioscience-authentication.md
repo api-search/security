@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Vergent Bioscience publishes no REST/GraphQL API and therefore no OpenAPI securitySchemes. The only callable surface on its own hosts is the anonymous Wix Site MCP endpoint, whose access model was established by direct probe and is stated in the company's own llms.txt.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Vergent Bioscience Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - cookie
 - header
@@ -381,12 +382,73 @@ api_specs:
   slug: medusa-workflows-executions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/openapi/medusa-workflows-executions-api-openapi.yml
+- filename: medusa-js-auth-api-openapi.yml
+  format: yaml
+  label: Medusa Auth API
+  slug: medusa-js-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/openapi/medusa-js-auth-api-openapi.yml
+- filename: medusa-js-carts-api-openapi.yml
+  format: yaml
+  label: Medusa Carts API
+  slug: medusa-js-carts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/openapi/medusa-js-carts-api-openapi.yml
+- filename: medusa-js-categories-api-openapi.yml
+  format: yaml
+  label: Medusa Categories API
+  slug: medusa-js-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/openapi/medusa-js-categories-api-openapi.yml
+- filename: medusa-js-collections-api-openapi.yml
+  format: yaml
+  label: Medusa Collections API
+  slug: medusa-js-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/openapi/medusa-js-collections-api-openapi.yml
+- filename: medusa-js-customers-api-openapi.yml
+  format: yaml
+  label: Medusa Customers API
+  slug: medusa-js-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/openapi/medusa-js-customers-api-openapi.yml
+- filename: medusa-js-orders-api-openapi.yml
+  format: yaml
+  label: Medusa Orders API
+  slug: medusa-js-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/openapi/medusa-js-orders-api-openapi.yml
+- filename: medusa-js-payments-api-openapi.yml
+  format: yaml
+  label: Medusa Payments API
+  slug: medusa-js-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/openapi/medusa-js-payments-api-openapi.yml
+- filename: medusa-js-products-api-openapi.yml
+  format: yaml
+  label: Medusa Products API
+  slug: medusa-js-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/openapi/medusa-js-products-api-openapi.yml
+- filename: medusa-js-regions-api-openapi.yml
+  format: yaml
+  label: Medusa Regions API
+  slug: medusa-js-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/openapi/medusa-js-regions-api-openapi.yml
+- filename: medusa-js-shipping-api-openapi.yml
+  format: yaml
+  label: Medusa Shipping API
+  slug: medusa-js-shipping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/openapi/medusa-js-shipping-api-openapi.yml
 auth_types:
 - http
 - apiKey
 description: 'Medusa authenticates with an actor type plus a method, not with a single key. The actor is `user` (admin), `customer`, or a custom actor type a merchant defines; the method is a JWT bearer token, a session cookie, or — for admin only — a secret API key. Route protection is by path prefix rather than by declared security on each operation, which is why neither published document sets a top-level `security` block: /admin is protected by default, /store/customers/me is protected for customers, and everything else under /store is public but still requires a publishable API key that scopes the request to a sales channel.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Medusa Authentication
 name_suffix: Authentication

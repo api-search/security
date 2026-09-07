@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: 'Crunchtime Inventory & Labor / Cruise APIs use custom header-based token authentication. Every request carries four headers: an access token plus the site name and an Application User''s id and password. Tokens are minted per Application User in Enterprise Manager (Security > Application Users > API Tokens) and separate test and production tokens are issued. There is no OAuth2 or OpenID Connect surface, so this repo has no scopes/ artifact.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Crunchtime Information Systems Authentication
 name_suffix: Authentication

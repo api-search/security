@@ -54,6 +54,7 @@ api_specs:
   slug: amazon-billing-and-cost-management-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/amazon-billing-and-cost-management-tags-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

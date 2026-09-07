@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: kau-open-data-api-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: 'Authentication posture across every King Abdulaziz University surface reachable from the open internet. The shape is unusual for this cohort and worth stating plainly: the one API KAU operates itself is completely open and requires nothing, while everything that is gated is gated by a vendor platform in front of KAU''s own identity provider. There is no developer-facing credential of any kind — no API key, no client registration, no OAuth application, no self-service onboarding — anywhere in KAU''s public footprint.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Kau Authentication
 name_suffix: Authentication

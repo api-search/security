@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: 'Rock The Bells'' agent-facing surfaces are unusually open: both the MCP tool manifest and the full Storefront GraphQL schema were enumerated with no credential of any kind. What is gated is not discovery but MONEY — payment completion is guarded by a human-approval invariant rather than by a token.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: probed
 name: Rock The Bells Authentication
 name_suffix: Authentication

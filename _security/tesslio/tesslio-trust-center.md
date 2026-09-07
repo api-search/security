@@ -210,6 +210,7 @@ api_specs:
   slug: tesslio-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/openapi/tesslio-workspaces-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

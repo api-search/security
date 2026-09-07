@@ -6,6 +6,7 @@ api_specs:
   slug: mockoon-data-buckets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mockoon/refs/heads/main/openapi/mockoon-data-buckets-api-openapi.yml
+certification_count: 2
 certifications:
 - PCI DSS
 - GDPR

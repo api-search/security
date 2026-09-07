@@ -42,6 +42,7 @@ api_specs:
   slug: donorbox-tickets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/openapi/donorbox-tickets-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - PCI DSS

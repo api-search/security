@@ -66,6 +66,7 @@ api_specs:
   slug: lucidworks-tokenization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/openapi/lucidworks-tokenization-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

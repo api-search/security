@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - vendor-credential-exchange
 description: 'Air Transat''s direct-connect distribution API does not use OAuth, OpenID Connect, API keys or mutual TLS. It uses a two-stage vendor credential exchange inherited from the Radixx (Sabre) passenger service system: a system-level logon that returns a session GUID, followed by a travel-agent logon that binds that session to a Transat-assigned IATA agency. There is no self-serve key issuance, no developer portal and no sandbox; every credential is provisioned by Transat under a commercial agreement.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Transat Authentication
 name_suffix: Authentication

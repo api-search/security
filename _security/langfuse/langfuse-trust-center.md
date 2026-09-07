@@ -168,6 +168,7 @@ api_specs:
   slug: langfuse-unstableevaluators-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langfuse/refs/heads/main/openapi/langfuse-unstableevaluators-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

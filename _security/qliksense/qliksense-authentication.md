@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: qliksense-asyncapi-index.yml
@@ -485,6 +486,7 @@ auth_types: []
 description: 'Authentication profile for the Qlik Cloud API surface. AUTHORED FROM THE DOCS, NOT DERIVED FROM THE SPEC — and that is the headline finding: not one of the 78 published OpenAPI documents declares a components.securitySchemes block or a security requirement, on any of their 681 operations. A machine reading only Qlik''s contract cannot tell that the API needs authentication at all, which flow to use, or which scope an operation requires. Everything below exists only in prose on qlik.dev.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Qliksense Authentication
 name_suffix: Authentication

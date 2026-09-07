@@ -49,6 +49,7 @@ hosts:
   https: true
   note: 'DNS resolves to Cloudflare but the edge returns "error code: 1016" (origin DNS error) for every path probed (/, /openapi.json, /swagger.json, /docs, /health). No origin is currently serving this hostname.'
   reachable: false
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

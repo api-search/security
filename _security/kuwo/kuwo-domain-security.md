@@ -17,6 +17,7 @@ hosts:
   https: unknown
   note: DNS resolves (101.42.133.54, 101.42.130.11 plus IPv6) but TCP/443 connections time out from the probing network. Kuwo is a China-hosted consumer service and appears to be geo/firewall restricted, so TLS and HSTS posture could not be observed. This is a reachability failure, not evidence of missing HTTPS.
   reachable: false
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

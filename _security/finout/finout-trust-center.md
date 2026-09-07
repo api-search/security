@@ -36,6 +36,7 @@ api_specs:
   slug: finout-virtual-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/finout/refs/heads/main/openapi/finout-virtual-tags-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

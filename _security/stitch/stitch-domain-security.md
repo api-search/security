@@ -12,6 +12,12 @@ api_specs:
   slug: stitch-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stitch/refs/heads/main/openapi/stitch-payments-api-openapi.yml
+- filename: stitch-money-graphql-api-openapi.yml
+  format: yaml
+  label: Stitch GraphQL API
+  slug: stitch-money-graphql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stitch/refs/heads/main/openapi/stitch-money-graphql-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -44,6 +50,7 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

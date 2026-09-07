@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: microsoft-azure-application-gateway-application-gateways-api-openapi.yml
@@ -18,6 +19,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Microsoft Azure Application Gateway Authentication
 name_suffix: Authentication

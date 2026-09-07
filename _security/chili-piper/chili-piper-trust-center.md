@@ -90,6 +90,7 @@ api_specs:
   slug: chili-piper-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-workspace-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

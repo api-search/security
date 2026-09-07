@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: agentgateway-config-api-openapi.yml
@@ -41,6 +42,7 @@ auth_types: []
 description: Authentication for agentgateway has two distinct sides and they must not be conflated. (1) The ADMIN/DEBUG API this repo describes in openapi/ has NO authentication at all - it is protected by binding to loopback. (2) The gateway's DATA PLANE offers a rich inbound and backend authentication toolkit that YOU configure for the traffic passing through. Nothing here is a credential you obtain from agentgateway; there is no account, no key issuance, no signup.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Agentgateway Authentication
 name_suffix: Authentication

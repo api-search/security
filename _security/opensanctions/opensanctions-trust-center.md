@@ -6,6 +6,7 @@ api_specs:
   slug: opensanctions-screening-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opensanctions/refs/heads/main/openapi/opensanctions-api-openapi.yml
+certification_count: 1
 certifications:
 - ISO/IEC 27001:2022
 description: ''

@@ -18,6 +18,7 @@ api_specs:
   slug: unito-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unito/refs/heads/main/openapi/unito-workspaces-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - PCI DSS

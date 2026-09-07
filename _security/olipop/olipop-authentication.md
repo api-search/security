@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in:
 - header
 auth_types:
@@ -10,6 +11,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Olipop Authentication
 name_suffix: Authentication

@@ -54,6 +54,7 @@ api_specs:
   slug: restate-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-version-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

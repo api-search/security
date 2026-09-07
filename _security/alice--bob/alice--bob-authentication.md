@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: alice--bob-health-api-openapi.yml
@@ -23,6 +24,7 @@ auth_types: []
 description: Felis Cloud uses a single static API key. There is no OAuth, no OIDC, no JWT, no mTLS and no scope model. This artifact is method `searched` rather than `derived` because the published OpenAPI declares an EMPTY components.securitySchemes and models the credential as an OPTIONAL `authorization` header parameter — deriving from the spec alone would say the API is unauthenticated, which is wrong.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Alice  Bob Authentication
 name_suffix: Authentication

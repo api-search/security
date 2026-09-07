@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'GigaIO publishes exactly one machine-readable authentication surface: the OAuth 2.0 authorization server backing its Model Context Protocol endpoint. Its FabreX/Gryf product APIs (DMTF Redfish) have no public authentication documentation — the reference sits behind the Atlassian-hosted customer support portal — so nothing about product-API auth is asserted here.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Gigaio Authentication
 name_suffix: Authentication

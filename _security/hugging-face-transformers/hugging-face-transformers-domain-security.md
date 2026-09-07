@@ -154,6 +154,7 @@ hosts:
   tls_version: TLSv1.3
 - host: api-inference.huggingface.co
   https: false
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

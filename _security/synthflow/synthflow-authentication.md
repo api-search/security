@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in:
 - header
 api_specs:
@@ -50,6 +51,7 @@ auth_types:
 description: Synthflow runs two different authentication models on two different surfaces. The REST Platform API uses a single static workspace API key sent as an HTTP bearer token. The hosted MCP server uses OAuth 2.0, delegated to WorkOS AuthKit, with dynamic client registration and PKCE. They do not share credentials.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Synthflow Authentication
 name_suffix: Authentication

@@ -606,6 +606,7 @@ api_specs:
   slug: mavenlink-workweeks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/openapi/mavenlink-workweeks-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

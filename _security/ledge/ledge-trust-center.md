@@ -12,6 +12,7 @@ api_specs:
   slug: ledge-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/openapi/ledge-transactions-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 1
 - SOC 2

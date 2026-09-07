@@ -252,6 +252,7 @@ api_specs:
   slug: onshape-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/openapi/onshape-workflow-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type 2
 description: ''

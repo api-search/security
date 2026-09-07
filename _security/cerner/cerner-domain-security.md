@@ -365,6 +365,7 @@ hosts:
   https: true
   role: SMART on FHIR authorization server (token, authorize, revoke, introspect, JWKS)
   tls_version: TLSv1.3
+hosts_probed: 8
 kind: domain-security
 layout: security
 method: probed

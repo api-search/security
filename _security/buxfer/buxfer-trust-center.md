@@ -30,6 +30,7 @@ api_specs:
   slug: buxfer-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/openapi/buxfer-transactions-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - PCI DSS

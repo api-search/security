@@ -6,6 +6,7 @@ api_specs:
   slug: amazon-license-manager-license-configurations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-license-manager/refs/heads/main/openapi/amazon-license-manager-license-configurations-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

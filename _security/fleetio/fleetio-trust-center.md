@@ -66,6 +66,7 @@ api_specs:
   slug: fleetio-work-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-work-orders-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - PCI DSS

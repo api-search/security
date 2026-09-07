@@ -18,6 +18,7 @@ api_specs:
   slug: searchapi-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/openapi/searchapi-analytics-api-openapi.yml
+certification_count: 6
 certifications:
 - ISO/IEC 27001:2022
 - GDPR

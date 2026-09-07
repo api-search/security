@@ -54,6 +54,7 @@ api_specs:
   slug: maven-agi-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-users-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

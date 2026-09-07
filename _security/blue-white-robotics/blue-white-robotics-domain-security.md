@@ -26,6 +26,7 @@ hosts:
   https: true
   note: Keycloak identity provider (realm maia-cloud); returned HTTP 503 to anonymous requests on every path probed, including /realms/maia-cloud/.well-known/openid-configuration.
   tls_version: TLSv1.2
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

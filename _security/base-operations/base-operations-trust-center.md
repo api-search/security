@@ -72,6 +72,7 @@ api_specs:
   slug: base-operations-threats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/base-operations/refs/heads/main/openapi/base-operations-threats-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

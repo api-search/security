@@ -1,4 +1,5 @@
 ---
+certification_count: 8
 certifications:
 - HITRUST r2
 - SOC 2

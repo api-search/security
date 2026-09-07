@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: credilinqai-authentication-api-openapi.yml
@@ -54,6 +55,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Credilinqai Authentication
 name_suffix: Authentication

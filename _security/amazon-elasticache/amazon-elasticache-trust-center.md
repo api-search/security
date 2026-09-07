@@ -24,6 +24,7 @@ api_specs:
   slug: amazon-elasticache-describereplicationgroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-elasticache/refs/heads/main/openapi/amazon-elasticache-describereplicationgroups-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

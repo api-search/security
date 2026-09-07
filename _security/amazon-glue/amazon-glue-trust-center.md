@@ -1212,6 +1212,7 @@ api_specs:
   slug: amazon-glue-x-amz-target-awsglue-updateworkflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/openapi/amazon-glue-x-amz-target-awsglue-updateworkflow-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

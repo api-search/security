@@ -54,6 +54,7 @@ hosts:
   https: false
   note: DANGLING CNAME. trading.flexitricity.com returns CNAME dhenfu8l1wx2e.cloudfront.net from the local resolver, 1.1.1.1 and 8.8.8.8, but that CloudFront name itself has no address records — the distribution it points at no longer exists, so no connection is possible ("Could not resolve host"). Recorded as observed DNS state on 2026-07-27. An unclaimed CNAME target of this shape is the classic subdomain-takeover precondition.
   resolves: false
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

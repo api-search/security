@@ -210,6 +210,7 @@ api_specs:
   slug: actionstep-utbms-codes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/openapi/actionstep-utbms-codes-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

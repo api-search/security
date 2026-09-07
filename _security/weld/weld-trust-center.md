@@ -78,6 +78,7 @@ api_specs:
   slug: weld-transforms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-transforms-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

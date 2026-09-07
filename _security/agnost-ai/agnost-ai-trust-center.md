@@ -84,6 +84,7 @@ api_specs:
   slug: agnost-ai-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/openapi/agnost-ai-system-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

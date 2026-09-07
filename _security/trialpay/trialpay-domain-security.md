@@ -29,6 +29,7 @@ hosts:
   https: false
   note: NXDOMAIN — former developer docs host no longer resolves
   reachable: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

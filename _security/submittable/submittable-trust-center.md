@@ -60,6 +60,7 @@ api_specs:
   slug: submittable-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-users-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

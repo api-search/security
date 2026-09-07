@@ -144,6 +144,7 @@ api_specs:
   slug: figment-x402-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-x402-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - ISO Certificate

@@ -132,6 +132,7 @@ api_specs:
   slug: ory-relationships-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-relationships-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

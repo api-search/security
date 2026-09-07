@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in:
 - header
 - query
@@ -147,12 +148,55 @@ api_specs:
   slug: us-dot-vfr-helicopter-route-chart-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/openapi/us-dot-vfr-helicopter-route-chart-api-openapi.yml
+- filename: dot-childseats-api-openapi.yml
+  format: yaml
+  label: US Department of Transportation childSeats API
+  slug: dot-childseats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/openapi/dot-childseats-api-openapi.yml
+- filename: dot-equipment-api-openapi.yml
+  format: yaml
+  label: US Department of Transportation equipment API
+  slug: dot-equipment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/openapi/dot-equipment-api-openapi.yml
+- filename: dot-ewr-api-openapi.yml
+  format: yaml
+  label: US Department of Transportation ewr API
+  slug: dot-ewr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/openapi/dot-ewr-api-openapi.yml
+- filename: dot-foreigncampaigns-api-openapi.yml
+  format: yaml
+  label: US Department of Transportation foreignCampaigns API
+  slug: dot-foreigncampaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/openapi/dot-foreigncampaigns-api-openapi.yml
+- filename: dot-safetyissues-api-openapi.yml
+  format: yaml
+  label: US Department of Transportation safetyIssues API
+  slug: dot-safetyissues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/openapi/dot-safetyissues-api-openapi.yml
+- filename: dot-tires-api-openapi.yml
+  format: yaml
+  label: US Department of Transportation tires API
+  slug: dot-tires-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/openapi/dot-tires-api-openapi.yml
+- filename: dot-vehicles-api-openapi.yml
+  format: yaml
+  label: US Department of Transportation vehicles API
+  slug: dot-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/openapi/dot-vehicles-api-openapi.yml
 auth_types:
 - none
 - apiKey
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 7
 method: searched
 name: Us Dot Authentication
 name_suffix: Authentication

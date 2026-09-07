@@ -156,6 +156,7 @@ api_specs:
   slug: pax8-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pax8/refs/heads/main/openapi/pax8-webhooks-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2 Type 2
 - ISO/IEC 27001

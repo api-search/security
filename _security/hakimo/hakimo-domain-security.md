@@ -23,6 +23,7 @@ hosts:
   https: true
   note: Customer application portal (Angular SPA). Its tenant API is served same-origin under /v2/orm/ and answers unauthenticated requests with HTTP 401 {"message":"Invalid token"}.
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

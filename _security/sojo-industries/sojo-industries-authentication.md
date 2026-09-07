@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: sojo-industries-victoria-agent-openapi.json
@@ -12,6 +13,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Sojo Industries Authentication
 name_suffix: Authentication

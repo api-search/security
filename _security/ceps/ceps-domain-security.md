@@ -8,11 +8,12 @@ domains:
   domain: ceps.eu
   spf: true
 hosts:
-- cert_expires: Aug 17 16:06:52 2026 GMT
+- cert_expires: Oct 15 18:37:40 2026 GMT
   host: www.ceps.eu
   hsts: false
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -25,7 +26,7 @@ slug: ceps-domain-security
 source_filename: ceps-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ceps.eu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 16:06:52 2026 GMT\n  hsts: false\ndomains:\n- domain: ceps.eu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ceps.eu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 18:37:40 2026 GMT\n  hsts: false\ndomains:\n- domain: ceps.eu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ceps/refs/heads/main/security/ceps-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
@@ -35,7 +36,6 @@ tags:
 - European Union
 - Policy Research
 - Publications
-- RSS
 - Research
 - Think Tank
 ---

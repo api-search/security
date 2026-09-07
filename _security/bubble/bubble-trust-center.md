@@ -24,6 +24,7 @@ api_specs:
   slug: bubble-thing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/openapi/bubble-thing-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

@@ -90,6 +90,7 @@ api_specs:
   slug: workday-studio-time-tracking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/openapi/workday-studio-time-tracking-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

@@ -42,6 +42,7 @@ api_specs:
   slug: krea-ai-video-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-video-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

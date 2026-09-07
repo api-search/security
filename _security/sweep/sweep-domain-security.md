@@ -465,6 +465,7 @@ hosts:
   https: true
   note: HTTP 200, JS-rendered Scytale trust centre.
   role: trust centre
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

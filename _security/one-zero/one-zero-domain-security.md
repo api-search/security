@@ -16,6 +16,7 @@ hosts:
   https: true
   note: 'Origin is behind a Cloudflare managed challenge (HTTP 403, cf-mitigated: challenge) for non-browser clients; the HSTS header was read from that challenge response, which is served by the same edge.'
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

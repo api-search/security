@@ -46,6 +46,7 @@ hosts:
   https: true
   note: AWS API Gateway; webhook receiver used by the SPOTIO integration
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

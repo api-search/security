@@ -210,6 +210,7 @@ api_specs:
   slug: fireblocks-workspace-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/openapi/fireblocks-workspace-management-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

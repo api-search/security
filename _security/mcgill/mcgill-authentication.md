@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: mcgill-shibboleth-idp-openapi.yml
@@ -16,6 +17,7 @@ description: 'Authentication posture across McGill University''s machine-readabl
   This file replaces an earlier version that described an X-Dataverse-key API token as McGill''s authentication scheme. That token is Dataverse''s, issued by Borealis (Scholars Portal), and attributing it to McGill credited the institution with a vendor''s access-control design.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Mcgill Authentication
 name_suffix: Authentication

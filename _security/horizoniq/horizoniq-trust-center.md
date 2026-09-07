@@ -54,6 +54,7 @@ api_specs:
   slug: horizoniq-user-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/openapi/horizoniq-user-accounts-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

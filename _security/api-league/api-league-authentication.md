@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -16,6 +17,7 @@ description: 'API League authenticates with a single API key and nothing else. T
   The query-string form is the one the provider leads with in its own examples, and it is the weaker of the two — a key in a URL lands in proxy logs, browser history, referrer headers and shell history. An agent should use the x-api-key header. The terms of use place the consequences on the consumer: the key must be kept confidential, must be stripped before posting code to a forum or GitHub, and the account holder is responsible for any charges or harm from a compromised key.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Api League Authentication
 name_suffix: Authentication

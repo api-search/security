@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Axena Health publishes no developer authentication documentation, because it publishes no developer program. This profile is derived entirely from the anonymous OAuth discovery documents the WordPress MCP Adapter serves on levacares.com, plus the authentication block advertised by the WordPress REST API discovery root on both hosts. Nothing here was read from a docs page, because no docs page exists.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Axena Health Authentication
 name_suffix: Authentication

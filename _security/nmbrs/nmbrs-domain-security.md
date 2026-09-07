@@ -88,6 +88,7 @@ hosts:
   hsts_max_age: 2592000
   https: true
   note: OAuth 2.0 authorization/token endpoints.
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

@@ -108,6 +108,7 @@ api_specs:
   slug: bigtincan-user-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-user-metadata-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - ISO/IEC 27001

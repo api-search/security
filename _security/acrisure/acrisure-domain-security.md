@@ -35,6 +35,7 @@ hosts:
   https: true
   note: Customer portal SPA in front of a Spring Boot service. Added manually — it was not in apis.yml when the automated probe ran.
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

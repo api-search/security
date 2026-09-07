@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -765,6 +766,7 @@ auth_types:
 description: Upgraded from derived to searched on 2026-08-13. The previous derived profile read the older docs-host spec, which declared OAuth2 only as `http bearer` and therefore lost the flow, endpoints and scopes entirely. The authoritative spec at https://api.close.com/api/openapi.json declares a real oauth2 scheme with an authorizationCode flow, and the docs add the MCP-specific header auth.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Close Authentication
 name_suffix: Authentication

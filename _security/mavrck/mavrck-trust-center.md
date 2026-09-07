@@ -1086,6 +1086,7 @@ api_specs:
   slug: mavrck-social-network-level-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-social-network-level-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO/IEC 27001
 - SOC 2 Type 2

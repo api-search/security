@@ -36,6 +36,7 @@ api_specs:
   slug: swoogo-speakers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-speakers-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

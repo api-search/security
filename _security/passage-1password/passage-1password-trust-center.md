@@ -24,6 +24,7 @@ api_specs:
   slug: passage-1password-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/openapi/passage-1password-users-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

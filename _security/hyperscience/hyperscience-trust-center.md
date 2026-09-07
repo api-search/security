@@ -54,6 +54,7 @@ api_specs:
   slug: hyperscience-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-version-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

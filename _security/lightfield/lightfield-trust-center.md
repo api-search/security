@@ -78,6 +78,7 @@ api_specs:
   slug: lightfield-workflowrun-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-workflowrun-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 2
 - HIPAA

@@ -44,6 +44,7 @@ hosts:
   https: false
   note: does not resolve
   resolves: false
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

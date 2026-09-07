@@ -54,6 +54,7 @@ api_specs:
   slug: 3plcentral-warehouses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/openapi/3plcentral-warehouses-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

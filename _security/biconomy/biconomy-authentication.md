@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -26,6 +27,7 @@ auth_types:
 description: One credential, two hosts, two conventions. The project API key issued from the Biconomy Dashboard is sent as X-API-Key to api.biconomy.io and as an Authorization Bearer token to network.biconomy.io. There is no OAuth, no OIDC, no delegated identity and no scope system at the HTTP layer — authorization of what an agent may actually DO is pushed down to the on-chain Smart Sessions policy module, not expressed in the API credential.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Biconomy Authentication
 name_suffix: Authentication

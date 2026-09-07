@@ -8,12 +8,13 @@ domains:
   domain: phillips66.com
   spf: true
 hosts:
-- cert_expires: Aug  7 23:59:59 2026 GMT
+- cert_expires: Jan 28 23:59:59 2027 GMT
   host: www.phillips66.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -26,7 +27,7 @@ slug: dcp-midstream-partners-domain-security
 source_filename: dcp-midstream-partners-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.phillips66.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: phillips66.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.phillips66.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 28 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: phillips66.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dcp-midstream-partners/refs/heads/main/security/dcp-midstream-partners-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -33,12 +34,37 @@ api_specs:
   slug: crunchbase-data-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-search-api-openapi.yml
+- filename: crunchbase-autocomplete-api-openapi.yml
+  format: yaml
+  label: Crunchbase Autocomplete API
+  slug: crunchbase-autocomplete-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-autocomplete-api-openapi.yml
+- filename: crunchbase-deletes-api-openapi.yml
+  format: yaml
+  label: Crunchbase Deletes API
+  slug: crunchbase-deletes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-deletes-api-openapi.yml
+- filename: crunchbase-entities-api-openapi.yml
+  format: yaml
+  label: Crunchbase Entities API
+  slug: crunchbase-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-entities-api-openapi.yml
+- filename: crunchbase-search-api-openapi.yml
+  format: yaml
+  label: Crunchbase Search API
+  slug: crunchbase-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-search-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
 description: 'Crunchbase runs two independent authentication models. The REST Data API is a single account-level API key with no scopes and no user identity - the key IS the licence, and which of the six packages it is provisioned against determines which of the 109 operations it can call. The MCP server is separate: OAuth 2.1 with PKCE against www.crunchbase.com, executing as the signed-in Crunchbase user, gated by an MCP seat. A key does not work on MCP and an OAuth token does not work on the REST API.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Crunchbase Data Authentication
 name_suffix: Authentication

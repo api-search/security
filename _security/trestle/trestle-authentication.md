@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -7,6 +8,7 @@ auth_types:
 description: Trestle has no OpenAPI, so this profile is assembled from the published documentation and the live OIDC discovery document rather than derived from securitySchemes. One IdentityServer fronts every Trestle surface; the scope selects which product surface the credential is good for (api = Web API and Participant Reporting; rets = RETS). Credentials are issued only after a per-MLS data licence contract is executed, so the auth model is fully documented but not self-service.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Trestle Authentication
 name_suffix: Authentication

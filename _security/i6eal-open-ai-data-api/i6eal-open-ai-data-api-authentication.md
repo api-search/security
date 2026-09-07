@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: i6eal-open-ai-data-api-ai-enforcement-monitor-germany-eu-api-openapi.yml
@@ -107,6 +108,7 @@ auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: I6Eal Open Ai Data Api Authentication
 name_suffix: Authentication

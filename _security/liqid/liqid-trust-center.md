@@ -1,4 +1,5 @@
 ---
+certification_count: 4
 certifications:
 - BaFin / Deutsche Bundesbank supervision
 - B Corp certification

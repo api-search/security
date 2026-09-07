@@ -30,6 +30,7 @@ api_specs:
   slug: openstatus-status-report-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-status-report-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

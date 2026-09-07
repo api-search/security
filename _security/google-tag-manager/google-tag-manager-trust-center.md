@@ -48,6 +48,7 @@ api_specs:
   slug: google-tag-manager-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-workspaces-api-openapi.yml
+certification_count: 1
 certifications:
 - ISO/IEC 27001
 description: ''

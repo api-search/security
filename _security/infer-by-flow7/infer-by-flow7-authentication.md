@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: infer-by-flow7-catalog-api-openapi.yml
@@ -23,6 +24,7 @@ auth_types: []
 description: 'Infer exposes exactly one authentication mechanism: an HTTP Bearer API key issued inside a workspace. There is no OAuth 2.0, no OIDC, no mTLS and no signed-request scheme. Two of the four published operations are deliberately unauthenticated (public catalog and public status), which is what makes the price and availability surface machine-readable without an account.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Infer By Flow7 Authentication
 name_suffix: Authentication

@@ -78,6 +78,7 @@ api_specs:
   slug: raygun-webhooks-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/openapi/raygun-webhooks-asyncapi.yml
+certification_count: 2
 certifications:
 - HIPAA
 - GDPR

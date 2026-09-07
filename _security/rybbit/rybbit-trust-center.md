@@ -18,6 +18,7 @@ api_specs:
   slug: rybbit-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/openapi/rybbit-sessions-api-openapi.yml
+certification_count: 0
 certifications: []
 description: 'Rybbit publishes a security page describing visitor privacy protection, infrastructure, authentication, data ownership, deletion windows and compliance. It is a security/trust NARRATIVE, not a certification trust center: Rybbit holds no third-party security certification of its own, and there is no trust.rybbit.io / trust-portal surface.'
 kind: trust-center

@@ -1,4 +1,5 @@
 ---
+certification_count: 6
 certifications:
 - CE Mark
 - ISO 27001

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: drchrono-administrative-api-openapi.yml
@@ -42,6 +43,7 @@ auth_types:
 description: DrChrono runs two independent OAuth 2.0 estates that share no tokens, no scopes and no discovery surface. The proprietary REST v4 API authenticates against app.drchrono.com with a DrChrono-specific scope vocabulary and a hard 48-hour access-token lifetime. The ONC-certified SMART on FHIR R4 API authenticates against a separate EverHealth-hosted authorization server with SMART scopes, PKCE and OIDC. A token from one is not valid against the other.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Drchrono Authentication
 name_suffix: Authentication

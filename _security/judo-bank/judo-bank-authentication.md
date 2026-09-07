@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: judo-bank-banking-account-balances-api-openapi.yml
@@ -51,6 +52,7 @@ auth_types:
 description: Two-tier authentication model for Judo Bank's CDR Banking APIs. The public Product Reference Data (PRD) surface (GET /banking/products, /banking/products/{productId}) is entirely unauthenticated - no API key, token, or client credential is required. Every other CDR Banking resource (accounts, balances, transactions, direct debits, scheduled payments, payees) is consumer-authorized and only reachable through the CDR accredited-data-recipient (ADR) OAuth 2.0 / OpenID Connect + FAPI flow brokered by the CDR Register - there is no open self-serve developer key.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: derived
 name: Judo Bank Authentication
 name_suffix: Authentication

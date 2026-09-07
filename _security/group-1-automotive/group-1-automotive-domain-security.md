@@ -15,6 +15,7 @@ hosts:
   hsts_note: 'Strict-Transport-Security: max-age=3000 observed on https://www.group1auto.com/llms.txt (200) on 2026-08-28. The automated probe recorded null because Cloudflare bot management answers 403 to the site root for non-browser clients; the header is present on paths that are served. max-age=3000 (50 minutes) is far below the 31536000 recommended for preload eligibility.'
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

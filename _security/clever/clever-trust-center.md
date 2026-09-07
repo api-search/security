@@ -60,6 +60,7 @@ api_specs:
   slug: clever-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-users-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

@@ -57,6 +57,7 @@ hosts:
   - '*.sensestreet.com'
   - sensestreet.co.uk
   - sensestreet.com
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

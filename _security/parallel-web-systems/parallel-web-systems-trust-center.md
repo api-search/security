@@ -48,6 +48,7 @@ api_specs:
   slug: parallel-web-systems-responses-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/parallel-web-systems/refs/heads/main/openapi/parallel-web-systems-responses-api-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

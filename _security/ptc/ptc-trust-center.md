@@ -12,6 +12,7 @@ api_specs:
   slug: arena-plm-rest-api
   spec_type: OpenAPI
   url: https://api.arenasolutions.com/v1/swagger-ui/index.html
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

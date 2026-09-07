@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: ics_postman_apis.htm
@@ -11,6 +12,7 @@ auth_types: []
 description: Authentication profile for the three Ivanti secure-access APIs profiled in this repo. Read from the provider's own published REST API Solutions Guide and the Ivanti Neurons for Zero Trust Access API guide. None of these APIs use OAuth 2.0 or OpenID Connect — the appliance APIs use HTTP Basic with a server-minted api_key, and the nZTA tenant API uses a session cookie obtained from the admin sign-in flow.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Pulse Authentication
 name_suffix: Authentication

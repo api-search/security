@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Tailor separates two authentication planes. The PLATFORM plane (api.tailor.tech) authenticates operators and tooling against the control-plane API with OAuth 2.0 or a personal access token. The APPLICATION plane is provisioned per customer: each Tailor application configures its own Auth service, its own OAuth2 clients, and optionally an external IdP over OIDC or SAML.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Tailor Authentication
 name_suffix: Authentication

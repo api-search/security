@@ -24,6 +24,7 @@ api_specs:
   slug: moosend-subscribers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/openapi/moosend-subscribers-api-openapi.yml
+certification_count: 5
 certifications:
 - ISO 27001
 - Certified Senders Alliance (CSA)

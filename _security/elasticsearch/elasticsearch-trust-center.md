@@ -30,6 +30,7 @@ api_specs:
   slug: elasticsearch-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/openapi/elasticsearch-search-api-openapi.yml
+certification_count: 1
 certifications:
 - GDPR
 description: ''

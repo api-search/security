@@ -36,6 +36,7 @@ api_specs:
   slug: deepinfra-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-models-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

@@ -120,6 +120,7 @@ api_specs:
   slug: moneyhub-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-transactions-api-openapi.yml
+certification_count: 1
 certifications:
 - ISO 27001
 description: ''

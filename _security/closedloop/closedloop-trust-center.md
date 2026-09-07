@@ -6,6 +6,7 @@ api_specs:
   slug: closedloop-ai-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-public-api-openapi.yaml
+certification_count: 5
 certifications:
 - SOC 2 Type II
 - ISO 27001

@@ -51,6 +51,7 @@ hosts:
     not_after: '2027-01-01'
     subject: CN=*.synyi.com
     wildcard: true
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

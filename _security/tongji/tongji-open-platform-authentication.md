@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: tongji-reference-metadata-openapi.yml
@@ -15,6 +16,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Tongji Open Platform Authentication
 name_suffix: Authentication

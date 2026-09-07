@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: viso-trust-client-api-assessment-rest-resource-api-openapi.yml
@@ -78,6 +79,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Viso Trust Authentication
 name_suffix: Authentication

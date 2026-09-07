@@ -83,6 +83,7 @@ hosts:
   https: true
   note: Partner portal. TLS 1.3 handshake and HTTP/2 stream both complete (Let's Encrypt cert, CN=www.aarcorp.com, SAN covers myconnection.aarcorp.com) but the origin sends no response body within 15s. Probed once, not retried.
   tls_version: TLSv1.3
+hosts_probed: 8
 kind: domain-security
 layout: security
 method: probed

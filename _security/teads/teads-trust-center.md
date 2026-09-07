@@ -1,4 +1,5 @@
 ---
+certification_count: 2
 certifications:
 - SOX (Sarbanes-Oxley)
 - unnamed security accreditations

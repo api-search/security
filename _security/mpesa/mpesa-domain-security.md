@@ -97,6 +97,7 @@ hosts:
   http_note: Sandbox API gateway; root returns 404, product paths live under /mpesa/*, /oauth/*.
   http_status: 404
   https: true
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

@@ -42,6 +42,7 @@ api_specs:
   slug: monetate-upload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/openapi/monetate-upload-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

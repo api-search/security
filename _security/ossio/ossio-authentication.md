@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: OSSIO publishes no product API and no developer authentication documentation. The one authenticated surface it serves is the site MCP server, whose auth profile is fully described by the RFC 8414 authorization-server metadata and RFC 9728 protected-resource metadata documents saved in well-known/. Everything below is read from those documents.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Ossio Authentication
 name_suffix: Authentication

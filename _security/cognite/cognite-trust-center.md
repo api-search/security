@@ -534,6 +534,7 @@ api_specs:
   slug: cognite-writeback-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cognite/refs/heads/main/openapi/cognite-writeback-requests-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

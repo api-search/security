@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -20,6 +21,7 @@ auth_types:
 description: CallRail runs two distinct authentication models. The v3 REST API uses a user-scoped API key sent in a non-standard Authorization header format. The hosted MCP server uses OAuth 2.0 against CallRail with no API key at all. Neither surface publishes OAuth metadata, an OIDC discovery document, or a scope reference.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Callrail Authentication
 name_suffix: Authentication

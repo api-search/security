@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: api-for-ai.yaml
@@ -11,6 +12,7 @@ auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Wealth Reader Authentication
 name_suffix: Authentication

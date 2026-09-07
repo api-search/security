@@ -69,6 +69,7 @@ hosts:
   https: true
   note: 'HSTS observed directly on a POST to /api/virtualcam/v5/frames (403 RBAC: access denied); server istio-envoy behind CloudFront.'
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

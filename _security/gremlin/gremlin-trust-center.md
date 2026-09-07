@@ -330,6 +330,7 @@ api_specs:
   slug: gremlin-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gremlin/refs/heads/main/openapi/gremlin-webhooks-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

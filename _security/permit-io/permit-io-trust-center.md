@@ -258,6 +258,7 @@ api_specs:
   slug: permit-io-users-elements-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/permit-io/refs/heads/main/openapi/permit-io-users-elements-data-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

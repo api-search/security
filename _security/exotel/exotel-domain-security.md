@@ -78,6 +78,7 @@ hosts:
   hsts_preload: true
   https: true
   server: Vercel
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

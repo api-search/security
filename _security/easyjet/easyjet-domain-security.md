@@ -47,6 +47,7 @@ hosts:
   https: true
   note: Investor relations site behind a Cloudflare managed challenge. /.well-known/security.txt answers HTTP 200 with the body "Invalid key" — a catch-all response, not an RFC 9116 security.txt.
   tls_version: TLSv1.3
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

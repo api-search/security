@@ -28,6 +28,7 @@ hosts:
   https: true
   note: 'HSTS is served on this host but the automated probe recorded null because GET / returns 405 Method Not Allowed (the gateway root accepts POST only). Header observed verbatim on that 405 response: Strict-Transport-Security: max-age=15724800; includeSubDomains.'
   tls_version: TLSv1.2
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

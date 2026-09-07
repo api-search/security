@@ -510,6 +510,7 @@ api_specs:
   slug: cisco-umbrella-whois-information-for-a-domain-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/openapi/cisco-umbrella-whois-information-for-a-domain-api-openapi.yml
+certification_count: 1
 certifications:
 - FedRAMP
 description: ''

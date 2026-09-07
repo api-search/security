@@ -30,6 +30,7 @@ api_specs:
   slug: origami-risk-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origami-risk/refs/heads/main/openapi/origami-risk-requests-api-openapi.yml
+certification_count: 0
 certifications: []
 description: Origami Risk publishes a dedicated trust center on its own subdomain, https://trust.origamirisk.com/ (HTTP 200), hosted on Vanta. The report body is rendered client-side from Vanta's API, so the certification list, control set and document library are not readable anonymously from the served HTML — the page shell is all that is retrievable without the live client. No certification names are asserted here that were not verified on an Origami-controlled page.
 kind: trust-center

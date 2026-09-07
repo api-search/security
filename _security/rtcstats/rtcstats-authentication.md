@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: rtcstats-rtcstats-api-api-openapi.yml
@@ -12,6 +13,7 @@ auth_types:
 description: 'One authentication mechanism across the whole surface: a static application JWT presented as an HTTP Bearer token. There is no OAuth 2.0 authorization server, no OIDC discovery, no API-key header variant and no mTLS — probes of /.well-known/oauth-authorization-server, /.well-known/oauth-protected-resource and /.well-known/openid-configuration return 404 on both hosts. The same token authenticates the REST API and the MCP Streamable HTTP endpoint.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Rtcstats Authentication
 name_suffix: Authentication

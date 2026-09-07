@@ -73,6 +73,7 @@ hosts:
   https: false
   note: Probed as a candidate Calico Cloud API host; no DNS A record exists.
   reason: dns-nxdomain
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

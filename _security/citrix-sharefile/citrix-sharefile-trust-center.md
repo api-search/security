@@ -36,6 +36,7 @@ api_specs:
   slug: citrix-sharefile-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/openapi/citrix-sharefile-users-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2
 - ISO 27001

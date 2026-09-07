@@ -7,11 +7,12 @@ domains:
   domain: encurate.app
   spf: false
 hosts:
-- cert_expires: Sep 27 17:14:44 2026 GMT
+- cert_expires: Nov 25 22:15:14 2026 GMT
   host: encurate.app
   hsts: false
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -24,7 +25,7 @@ slug: encurate-domain-security
 source_filename: encurate-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: encurate.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 17:14:44 2026 GMT\n  hsts: false\ndomains:\n- domain: encurate.app\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: encurate.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 22:15:14 2026 GMT\n  hsts: false\ndomains:\n- domain: encurate.app\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/encurate/refs/heads/main/security/encurate-domain-security.yml
 summary_line: TLSv1.3
 tags:
@@ -35,4 +36,12 @@ tags:
 - Recipes
 - Health
 - Fitness
+- Datasets
+- Reference Data
+- Content Management
+- Mobile
+- Animals
+- Aviation
+- Cannabis
+- RapidAPI
 ---

@@ -49,6 +49,7 @@ hosts:
   https: true
   note: Exo Works production API host (AWS API Gateway behind CloudFront). Anonymous GET / returns HTTP 403 {"message":"Forbidden"} with x-amzn-errortype ForbiddenException. Private product backend - no public documentation, no public specification.
   tls_version: TLSv1.3
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

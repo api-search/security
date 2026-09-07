@@ -48,6 +48,7 @@ api_specs:
   slug: parsec-relay-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/openapi/parsec-relay-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type 2
 description: ''

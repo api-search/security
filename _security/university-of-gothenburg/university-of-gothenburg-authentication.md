@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: university-of-gothenburg-korp-api-openapi.yml
@@ -47,6 +48,7 @@ auth_types: []
 description: 'Authentication posture per surface, split by operator. The finding worth stating plainly: every public read surface the University of Gothenburg operates answered an ANONYMOUS request with HTTP 200. There is no API key to obtain, no registration flow, no developer account and no published rate limit anywhere in this profile. Authorisation exists in exactly one place — Mink, where writing your own corpus requires a token — and that login rides on the same SWAMID/eduGAIN federation the institution operates its own IdP inside of.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: University Of Gothenburg Authentication
 name_suffix: Authentication

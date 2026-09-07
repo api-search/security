@@ -15,6 +15,7 @@ hosts:
 - host: mobile.51xpx.com
   https: false
   note: TCP 443 connection refused from US egress (1.116.90.233, Tencent Cloud). Not reachable from this vantage point.
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

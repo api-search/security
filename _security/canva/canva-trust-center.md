@@ -150,6 +150,7 @@ api_specs:
   slug: canva-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-user-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

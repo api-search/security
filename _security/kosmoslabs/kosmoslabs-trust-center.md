@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: 'Kosmos AI Labs, Inc operates a public Security Trust Center at trust.kosmoslabs.ai. IMPORTANT — it publishes a compliance PROGRAM, not achieved certifications: both SOC 2 Type 1 and SOC 2 Type 2 are listed "In progress" and zero certifications are complete. An earlier automated probe of this page recorded "SOC 2, ISO 27001" from the trust-center vendor''s boilerplate meta description ("...against common cybersecurity frameworks like SOC 2, ISO 27001, ISO 9001, and more"); that was a false positive and has been corrected. Kosmos does not claim ISO 27001 anywhere.'
 kind: trust-center

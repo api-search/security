@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -31,6 +32,7 @@ auth_types:
 description: 'Telemetron authenticates every External API request with a single per-organization API key. For the REST API the key is sent in the x-api-key header; the same key authenticates the hosted MCP server, where it is sent as an Authorization: Bearer token. There is no OAuth, OIDC, or per-scope model — the key grants the organization''s full API surface. Keys are issued and rotated from the dashboard (Settings > Integrations); regenerating invalidates the prior key immediately.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Telemetron Ai Authentication
 name_suffix: Authentication

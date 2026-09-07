@@ -60,6 +60,7 @@ api_specs:
   slug: trimble-agriculture-work-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/openapi/trimble-agriculture-work-orders-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

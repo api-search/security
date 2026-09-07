@@ -42,6 +42,7 @@ api_specs:
   slug: microsoft-dynamics-365-business-central-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-vendors-api-openapi.yml
+certification_count: 1
 certifications:
 - GDPR
 description: ''

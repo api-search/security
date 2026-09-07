@@ -24,6 +24,7 @@ api_specs:
   slug: telesign-verification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-verification-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

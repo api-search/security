@@ -179,6 +179,7 @@ hosts:
   tls_version: TLSv1.3
 - host: api.resemble.ai
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

@@ -36,6 +36,7 @@ api_specs:
   slug: airmeet-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/openapi/airmeet-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001:2022
 - SOC 2 Type 2

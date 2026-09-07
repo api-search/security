@@ -348,6 +348,7 @@ api_specs:
   slug: luma-health-waitlists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-waitlists-api-openapi.yml
+certification_count: 7
 certifications:
 - HITRUST CSF r2
 - SOC 2 Type II

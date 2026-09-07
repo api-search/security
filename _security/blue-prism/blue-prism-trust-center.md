@@ -6,6 +6,7 @@ api_specs:
   slug: blue-prism
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blue-prism/refs/heads/main/openapi/blue-prism-enterprise-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO/IEC 27001
 - Cyber Essentials

@@ -6,6 +6,7 @@ api_specs:
   slug: motive-fleet-api
   spec_type: OpenAPI
   url: https://developer-docs.gomotive.com/llms.txt
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

@@ -84,6 +84,12 @@ api_specs:
   slug: convertkit-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-webhooks-api-openapi.yml
+- filename: kit-account-api-openapi.yml
+  format: yaml
+  label: Kit Account API
+  slug: kit-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/kit-account-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -111,6 +117,7 @@ hosts:
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.2
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

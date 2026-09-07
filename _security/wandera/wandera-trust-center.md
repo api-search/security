@@ -12,6 +12,7 @@ api_specs:
   slug: wandera-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/openapi/wandera-authentication-api-openapi.yml
+certification_count: 13
 certifications:
 - SOC 2 Type 1
 - SOC 2 Type 2

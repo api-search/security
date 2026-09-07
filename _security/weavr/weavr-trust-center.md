@@ -330,6 +330,7 @@ api_specs:
   slug: weavr-transactions-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-transactions-webhooks-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - PCI DSS

@@ -48,6 +48,7 @@ api_specs:
   slug: pigment-viewapi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-viewapi-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

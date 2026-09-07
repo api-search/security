@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -359,6 +360,7 @@ auth_types:
 description: Authentication profile for the Vanilla (Higher Logic Vanilla) API v2. The platform-generated OpenAPI declares no securitySchemes, so this profile is documented from the provider's own authentication articles. All tokens carry the permissions of the user they represent (Vanilla roles and permissions).
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Vanilla Forums Authentication
 name_suffix: Authentication

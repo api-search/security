@@ -18,6 +18,7 @@ api_specs:
   slug: photon-onboarding-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/openapi/photon-onboarding-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: university-of-pennsylvania-accounts-user-api-openapi.yml
@@ -23,6 +24,7 @@ auth_types: []
 description: How each machine-readable surface attributed to the University of Pennsylvania authenticates, split by operator. Institution-operated surfaces are open-read library infrastructure plus a SAML identity provider; the course-registration surfaces that look like Penn APIs are operated by Penn Labs, a student organization, and authenticate against Penn Labs Accounts.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: University Of Pennsylvania Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: Loomly publishes no API authentication documentation. This profile is assembled from what can be probed anonymously and from what Loomly's own help-center articles say about connecting Zapier. Nothing here is taken from a specification, because Loomly publishes none.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Loomly Authentication
 name_suffix: Authentication

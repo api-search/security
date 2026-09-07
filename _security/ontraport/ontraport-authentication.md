@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -20,6 +21,7 @@ auth_types:
 description: Ontraport runs two different authentication models on two different surfaces. The REST API uses a pair of static, unscoped, non-expiring account headers — Api-Key AND Api-Appid, both required, both sent on every request. The MCP server runs a modern OAuth 2.1 flow (authorization code + PKCE S256, refresh tokens, dynamic client registration, one scope) and accepts the REST header pair as a fallback for clients that cannot do OAuth. The REST surface has no OAuth, no scopes, no token expiry and no documented rotation procedure; what bounds a key is the Ontraport package-level and user-level permissions of the user who owns it, which have applied to API requests since 2019-02-01.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Ontraport Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: Authentication profile captured from the Wordware API documentation. API keys are generated per user in the app (avatar menu -> API Keys) and passed as a bearer token in the Authorization header on every request to the WordApps run API. No OAuth 2.0, OpenID Connect, or mTLS surface is documented, and no openid-configuration / oauth-authorization-server well-known documents are published (both probed 404).
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Wordware Authentication
 name_suffix: Authentication

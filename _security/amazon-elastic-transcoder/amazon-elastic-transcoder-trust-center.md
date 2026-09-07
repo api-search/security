@@ -36,6 +36,7 @@ api_specs:
   slug: amazon-elastic-transcoder-roletests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-roletests-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

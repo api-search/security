@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: target-inventory-api-openapi.yml
@@ -43,6 +44,7 @@ auth_types:
 description: Target runs two separate OpenID Connect issuers, both of which publish an anonymous discovery document. oauth.iam.target.com fronts the corporate identity domain used by developer.target.com (the internal/partner API developer portal). oauth.iam.partnersonline.com fronts Target Partners Online, the supplier and vendor portal. The two documents are identical in shape and differ only in issuer and endpoint host. Neither issuer serves an RFC 8414 oauth-authorization-server document; discovery is OIDC-only. Target publishes no anonymous API key or bearer-token program — every credential is issued through a Target relationship (employee, vendor, Target Plus partner).
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Target Authentication
 name_suffix: Authentication

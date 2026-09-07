@@ -48,6 +48,7 @@ api_specs:
   slug: hooklogic-criteo-gateway-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-gateway-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

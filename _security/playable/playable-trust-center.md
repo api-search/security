@@ -24,6 +24,7 @@ api_specs:
   slug: playable-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/openapi/playable-user-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001:2022
 - ISAE 3000 Type 2

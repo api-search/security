@@ -30,6 +30,7 @@ api_specs:
   slug: inflectionio-lists-and-members-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-lists-and-members-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - GDPR

@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: university-of-tokyo-iiif-api-openapi.yml
@@ -37,6 +38,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: University Of Tokyo Authentication
 name_suffix: Authentication

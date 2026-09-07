@@ -24,6 +24,7 @@ api_specs:
   slug: metaplane-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/openapi/metaplane-tags-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

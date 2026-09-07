@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: RapidDeploy publishes no API reference and no OpenAPI securitySchemes, so this profile is built entirely from the anonymous OpenID Connect / RFC 8414 discovery documents served by the company's own Auth0 tenant at auth.rapiddeploy.com (issuer https://auth.rapiddeploy.com/). Everything below was read out of that document; nothing is inferred from marketing copy.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Rapiddeploy Authentication
 name_suffix: Authentication

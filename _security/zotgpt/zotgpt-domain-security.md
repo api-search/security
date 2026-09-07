@@ -72,6 +72,7 @@ hosts:
   notes: Old base URL quoted in the migration guide. NXDOMAIN publicly.
   resolves: false
   status: 0
+hosts_probed: 7
 kind: domain-security
 layout: security
 method: probed

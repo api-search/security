@@ -12,6 +12,7 @@ api_specs:
   slug: tatum-rates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tatum/refs/heads/main/openapi/tatum-rates-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

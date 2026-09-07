@@ -102,6 +102,7 @@ api_specs:
   slug: unqork-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-workflow-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2 Type II
 - ISO/IEC 27001:2013

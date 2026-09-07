@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: Authentication profile for the QlikView API surface, read from Qlik's own developer help rather than derived from a spec - QlikView publishes no OpenAPI, and its QMS contract is a WSDL served only from the customer's own installed server. There is NO OAuth 2.0, NO OpenID Connect and NO API-key surface anywhere in QlikView. Every documented mechanism is either Windows/NTFS identity on the customer's own network or a server-issued short-lived ticket, which is what an on-premises product of this generation looks like.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Qlikview Authentication
 name_suffix: Authentication

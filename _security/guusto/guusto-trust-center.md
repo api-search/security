@@ -18,6 +18,7 @@ api_specs:
   slug: guusto-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/guusto/refs/heads/main/openapi/guusto-reports-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - PCI DSS

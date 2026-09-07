@@ -12,6 +12,7 @@ api_specs:
   slug: jitsu-ingestion-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/openapi/jitsu-ingestion-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

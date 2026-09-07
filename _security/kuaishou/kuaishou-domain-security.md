@@ -68,6 +68,7 @@ hosts:
   probed: '2026-08-12'
   tls13_supported: false
   tls_version: TLSv1.2
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

@@ -48,6 +48,7 @@ api_specs:
   slug: amazon-codeguru-security-uploadurl-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-uploadurl-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

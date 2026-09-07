@@ -54,6 +54,7 @@ api_specs:
   slug: kombo-kombo-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-kombo-api-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

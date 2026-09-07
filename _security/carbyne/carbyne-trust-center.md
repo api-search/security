@@ -1,4 +1,5 @@
 ---
+certification_count: 5
 certifications:
 - ISO/IEC 27001:2013
 - ISO/IEC 27017

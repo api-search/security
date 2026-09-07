@@ -172,6 +172,7 @@ hosts:
   note: Identity provider behind the VeroEdge / Vero Intermediary Portal broker login (Apache Tomcat). No anonymous OIDC or OAuth discovery document is served.
   role: gated-idp
   tls_version: TLSv1.3
+hosts_probed: 12
 kind: domain-security
 layout: security
 method: probed

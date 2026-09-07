@@ -30,6 +30,7 @@ api_specs:
   slug: triple-whale-bi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-bi-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

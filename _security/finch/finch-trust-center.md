@@ -18,6 +18,7 @@ api_specs:
   slug: finch-employer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-employer-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

@@ -153,6 +153,7 @@ hosts:
   tls_version: TLSv1.3
 - host: 0.0.0.0
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

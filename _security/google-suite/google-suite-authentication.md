@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: google-suite-gmail-api-openapi.yml
@@ -12,6 +13,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Google Suite Authentication
 name_suffix: Authentication

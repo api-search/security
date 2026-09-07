@@ -378,6 +378,7 @@ api_specs:
   slug: sendgrid-webhook-security-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-webhook-security-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2 Type II
 - SOC 2 Type I

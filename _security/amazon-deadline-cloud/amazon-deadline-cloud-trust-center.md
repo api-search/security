@@ -30,6 +30,7 @@ api_specs:
   slug: amazon-deadline-cloud-workers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/openapi/amazon-deadline-cloud-workers-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

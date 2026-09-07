@@ -270,6 +270,7 @@ api_specs:
   slug: sift-stack-webhookservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/openapi/sift-stack-webhookservice-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2 Type II
 - NIST SP 800-171

@@ -72,6 +72,7 @@ api_specs:
   slug: aristamd-workup-checklists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/openapi/aristamd-workup-checklists-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

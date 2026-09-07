@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Access model for Vectary''s developer surface. Vectary publishes no REST API and no OpenAPI, so there are no securitySchemes to derive — this profile is captured from the Model API documentation. Access to the Model API is plan-gated rather than credential-gated: the VctrModelApi browser script is provided to Business-plan workspaces, and an embed is addressed by its public Project ID (the UUID in the https://app.vectary.com/p/<id> embed URL). No API keys, tokens, or OAuth flows are documented for the Model API. Platform account access supports SSO and RBAC on Enterprise plans.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Vectary Authentication
 name_suffix: Authentication

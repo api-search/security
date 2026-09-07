@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile derived from the OpenID Connect discovery document and the OAuth 2.0 authorization server metadata that TailorMed serves at auth.tailormed.com, plus the OAuth client configuration shipped in the public TailorMed platform SPA bundle. TailorMed publishes no OpenAPI, so no securityScheme block could be read; everything below was observed on the wire.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Tailormed Authentication
 name_suffix: Authentication

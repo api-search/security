@@ -25,6 +25,7 @@ hosts:
   https: true
   note: Resolves and answers, but serves a Rails application shell with no discoverable API contract; every spec and /.well-known/ path probed returned 404.
   probed: true
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

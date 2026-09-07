@@ -60,6 +60,7 @@ api_specs:
   slug: health-gorilla-servicerequest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-servicerequest-api-openapi.yml
+certification_count: 3
 certifications:
 - HITRUST r2
 - SOC 2 Type 2

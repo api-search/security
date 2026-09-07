@@ -96,6 +96,7 @@ api_specs:
   slug: beyond-identity-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/openapi/beyond-identity-tokens-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: instapage-workspaces-api-openapi.yml
@@ -72,6 +73,7 @@ auth_types:
 description: Instapage authenticates every Public API request with a Personal API Token sent as an HTTP Bearer token in the Authorization header. There is no OAuth 2.0 authorization server, no scope surface and no client-credentials flow — the token is a long-lived personal credential generated from Instapage account settings.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Instapage Authentication
 name_suffix: Authentication

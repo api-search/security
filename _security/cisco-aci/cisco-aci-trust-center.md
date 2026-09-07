@@ -1,4 +1,5 @@
 ---
+certification_count: 4
 certifications:
 - Common Criteria EAL2+ (ALC_FLR.2)
 - Common Criteria EAL2

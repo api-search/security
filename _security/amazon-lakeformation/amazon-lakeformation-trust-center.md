@@ -6,6 +6,7 @@ api_specs:
   slug: amazon-lakeformation-databases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-lakeformation/refs/heads/main/openapi/amazon-lakeformation-databases-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

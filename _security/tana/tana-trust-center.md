@@ -6,6 +6,7 @@ api_specs:
   slug: tana-addtonodev2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tana/refs/heads/main/openapi/tana-addtonodev2-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

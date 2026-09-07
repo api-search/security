@@ -36,6 +36,7 @@ api_specs:
   slug: v7-labs-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/v7-labs/refs/heads/main/openapi/v7-labs-workflows-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

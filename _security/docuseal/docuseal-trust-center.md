@@ -18,6 +18,7 @@ api_specs:
   slug: docuseal-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/openapi/docuseal-templates-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

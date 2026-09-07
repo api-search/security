@@ -1,4 +1,5 @@
 ---
+certification_count: 11
 certifications:
 - HITRUST r2
 - HITRUST CSF

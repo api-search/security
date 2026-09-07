@@ -12,6 +12,7 @@ api_specs:
   slug: f5-distributed-cloud-services-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/f5-distributed-cloud-services/refs/heads/main/openapi/f5-distributed-cloud-services-data-api-openapi.yml
+certification_count: 2
 certifications:
 - PCI DSS
 - GDPR

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: tradify-customers-api-openapi.yml
@@ -36,6 +37,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: modeled
 name: Tradify Authentication
 name_suffix: Authentication

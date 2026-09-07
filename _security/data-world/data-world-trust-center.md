@@ -180,6 +180,7 @@ api_specs:
   slug: data-world-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

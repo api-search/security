@@ -54,6 +54,7 @@ api_specs:
   slug: groq-responses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-responses-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

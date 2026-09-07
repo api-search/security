@@ -88,6 +88,7 @@ hosts:
   hsts: null
   https: true
   note: UAT sandbox host declared in the Orders and Spend servers[] blocks
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

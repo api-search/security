@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for the Rama REST API. The published REST API documentation does not describe an authentication or authorization scheme; the surface is exposed by Supervisors for use within a deployed cluster's network boundary. No API keys, OAuth, or OIDC are documented.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Redplanetlabs Authentication
 name_suffix: Authentication

@@ -6,6 +6,7 @@ api_specs:
   slug: storylane-external-api
   spec_type: Postman
   url: https://www.postman.com/team-storylane/storylane-public/collection/2zkg7jc/storylane-connect
+certification_count: 2
 certifications:
 - SOC 2 Type 2
 - GDPR

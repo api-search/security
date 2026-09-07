@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: uk-caa-consultations-api-openapi.yml
@@ -12,6 +13,7 @@ auth_types:
 description: 'Authentication profile for every UK Civil Aviation Authority API surface that was probed. The one documented, publicly callable API on a caa.co.uk domain — the Citizen Space consultations API — requires NO authentication at all. That is a documented posture, not an omission: the vendor developer guide the CAA links to states verbatim that "the current version of the API provides read-only access to publicly visible data. This means that no authentication is required as the access level is the same as a public visitor to the site." The remaining CAA surfaces are gated by mechanisms that are not developer authentication (browser-origin locking, reCAPTCHA, ADFS WS-Federation employee/licence-holder sign-in, or a paid order form).'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Uk Caa Authentication
 name_suffix: Authentication

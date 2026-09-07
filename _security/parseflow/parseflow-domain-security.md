@@ -105,6 +105,7 @@ hosts:
   tls_version: TLSv1.3
 - host: parseflow-api.thankfulisland-fec0f8f2.westus2.azurecontainerapps.io
   https: false
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

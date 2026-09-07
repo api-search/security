@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: Ema's Builder Platform API uses a two-step authentication flow. First an API key is generated for a user within a specific tenant via the gRPC-Web endpoint auth.v1.AuthService/GenerateApiKey. That long-lived API key is then exchanged for a short-lived JWT access token via a REST call. All subsequent REST and gRPC-Web calls carry the access token as an HTTP Bearer token in the Authorization header. Ema is multi-tenant; keys and tokens are scoped to a tenant and user.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Ema Authentication
 name_suffix: Authentication

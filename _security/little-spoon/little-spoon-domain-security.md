@@ -22,6 +22,7 @@ hosts:
   https: true
   note: 'Undocumented first-party JSON API host, fronted by Cloudflare over a Heroku router (via: 2.0 heroku-router). Probed 2026-08-25.'
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

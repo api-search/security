@@ -126,6 +126,7 @@ api_specs:
   slug: blueshift-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/openapi/blueshift-tags-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

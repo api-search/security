@@ -52,6 +52,7 @@ hosts:
   https: false
   note: A UAT environment exists and negotiates TLS, but the certificate carries no subject alternative name matching this host, so a normal client closes the connection. Not a usable public surface.
   tls_version: TLSv1.3
+hosts_probed: 7
 kind: domain-security
 layout: security
 method: probed

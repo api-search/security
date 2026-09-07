@@ -786,6 +786,7 @@ api_specs:
   slug: posthog-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/posthog/refs/heads/main/openapi/posthog-workflows-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

@@ -54,6 +54,7 @@ api_specs:
   slug: pinecone-vector-operations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-vector-operations-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

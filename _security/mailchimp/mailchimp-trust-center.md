@@ -264,6 +264,7 @@ api_specs:
   slug: mailchimp-verifieddomains-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-verifieddomains-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

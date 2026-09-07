@@ -792,6 +792,7 @@ api_specs:
   slug: elk-stack-xpack-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/openapi/elk-stack-xpack-api-openapi.yml
+certification_count: 14
 certifications:
 - FedRAMP High
 - FedRAMP Moderate

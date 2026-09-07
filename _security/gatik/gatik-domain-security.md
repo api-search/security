@@ -33,6 +33,7 @@ hosts:
   note: 301-redirects to https://archive.gatik.ai/
   server: cloudflare
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

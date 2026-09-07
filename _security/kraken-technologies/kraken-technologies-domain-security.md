@@ -29,6 +29,7 @@ hosts:
   note: Tako design-system docs, served by GitHub Pages (CNAME to octoenergy.github.io). Manually probed 2026-07-27. No HSTS header.
   server: GitHub.com
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

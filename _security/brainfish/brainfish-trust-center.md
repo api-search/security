@@ -54,6 +54,7 @@ api_specs:
   slug: brainfish-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-users-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

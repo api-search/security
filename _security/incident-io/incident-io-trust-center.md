@@ -150,6 +150,7 @@ api_specs:
   slug: incident-io-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/incident-io/refs/heads/main/openapi/incident-io-workflows-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: nas-academy-ai-discovery-api-openapi.yml
@@ -19,6 +20,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Nas Academy Authentication
 name_suffix: Authentication

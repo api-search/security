@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: logicmonitor-rest-api-v3-swagger.json
@@ -11,6 +12,7 @@ auth_types: []
 description: 'LogicMonitor REST API authentication. The published v3 Swagger declares exactly one security scheme — an apiKey named LMv1 carried in the Authorization header — and applies it per operation rather than globally. The docs add two further methods the contract does not model: a Bearer token (the recommended method for v3 and for the Python and Go SDKs) and HTTP Basic, which is v1-only and explicitly discouraged. There is no OAuth 2.0, no OpenID Connect and no mutual TLS on this API.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Logicmonitor Authentication
 name_suffix: Authentication

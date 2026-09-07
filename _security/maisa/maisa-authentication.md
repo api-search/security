@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: The Maisa REST API (base URL https://api.maisa.ai) authenticates with a static API key sent in a custom X-API-Key request header. The official SDKs read the key from the MAISA_API_KEY environment variable or an api_key constructor argument. There is no public OAuth/OIDC surface on the API host; the docs portal (docs.maisa.ai) itself sits behind an AWS Cognito login, but the API is key-authenticated. No OpenAPI securitySchemes block is publicly available (docs are gated), so this profile is derived from the official client libraries rather than a published spec.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Maisa Authentication
 name_suffix: Authentication

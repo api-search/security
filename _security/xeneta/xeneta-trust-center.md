@@ -12,6 +12,7 @@ api_specs:
   slug: xeneta-ocean-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/openapi/xeneta-ocean-api-openapi.yml
+certification_count: 1
 certifications:
 - ISO 27001:2022
 description: 'Xeneta publishes a data-security page announcing its ISO 27001:2022 certification for information security management, stating the company has implemented an ISMS covering breach protection, unauthorized access, risk management, and regulatory compliance. It is a brief marketing page, not a full trust center: no SOC 2, no vulnerability-disclosure policy, no security.txt (probed 404/403 on all hosts), and no dedicated trust subdomain (trust.xeneta.com and security.xeneta.com do not resolve). General contact: info@xeneta.com.'

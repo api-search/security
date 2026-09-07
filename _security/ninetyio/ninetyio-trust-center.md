@@ -42,6 +42,7 @@ api_specs:
   slug: ninetyio-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-users-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

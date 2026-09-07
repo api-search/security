@@ -42,6 +42,7 @@ api_specs:
   slug: payem-testimonials-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/payem/refs/heads/main/openapi/payem-testimonials-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 1 Type II
 - SOC 2 Type II

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'How callers authenticate to the Komodo Health platform. Komodo supports two mutually exclusive modes: interactive web login (OAuth 2.0 Device Authorization Flow, yielding a JWT) and machine-to-machine service-principal credentials (client_id / client_secret). Every call is scoped to a Komodo account, each of which maps to a dedicated Komodo-managed Snowflake warehouse.
@@ -6,6 +7,7 @@ description: 'How callers authenticate to the Komodo Health platform. Komodo sup
   UPGRADED 2026-08-15: the 2026-07-19 round could only document these schemes from prose because Komodo publishes no OpenAPI. The Kong gateway at api.komodohealth.com answers every anonymous request with `WWW-Authenticate: Bearer realm="auth.komodohealth.com", error="invalid_token"`, and that authorization server publishes a full anonymous OIDC discovery document. The endpoints, grants, PKCE methods, signing algorithms and token endpoint auth methods below are now machine-read from the provider rather than inferred, and they corroborate the documented flows exactly (the device authorization endpoint confirms `komodo login`; client_credentials confirms service principals).'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Komodo Health Authentication
 name_suffix: Authentication

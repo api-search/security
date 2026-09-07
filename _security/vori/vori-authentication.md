@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: vori-store-products-api-openapi.yml
@@ -12,6 +13,7 @@ auth_types:
 description: 'Every Vori REST API request carries a bearer JWT in the Authorization header. There is no Vori-issued API key or OAuth flow: integrations exchange a Vori user''s email/password at Google Identity Toolkit (Firebase identitytoolkit/v3/relyingparty/verifyPassword) for an idToken, then refresh hourly by exchanging the returned refreshToken at securetoken.googleapis.com/v1/token (refresh tokens may rotate on each exchange). Vori recommends creating a banner-level Read-only role user for read-only integrations to limit blast radius.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Vori Authentication
 name_suffix: Authentication

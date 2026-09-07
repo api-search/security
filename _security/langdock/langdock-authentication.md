@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -97,6 +98,7 @@ auth_types:
 description: Langdock authenticates every public API call with a workspace API key presented as an HTTP bearer token. There is no OAuth 2.0 or OpenID Connect surface on the public API — no /.well-known/openid-configuration or /.well-known/oauth-authorization-server is served (both 404). Keys are workspace-scoped, carry named product scopes, and are additionally bound to the specific agents and knowledge folders shared with them.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Langdock Authentication
 name_suffix: Authentication

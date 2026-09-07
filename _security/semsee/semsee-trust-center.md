@@ -24,6 +24,7 @@ api_specs:
   slug: semsee-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/openapi/_original/semsee-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

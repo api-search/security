@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: Virtue AI publishes a Vanta-hosted trust center at trust.virtueai.com (page title "Virtue AI Trust Center"). The certification/compliance detail is rendered client-side from the Vanta trust-report manifest and was not present in the raw HTML at probe time, so no named certifications are asserted here. Presence of the trust center is confirmed; specific frameworks (e.g. SOC 2) should be read from the live page.
 kind: trust-center

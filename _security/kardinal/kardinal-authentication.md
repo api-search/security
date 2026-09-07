@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: kardinal-authenticate-api-openapi.yml
@@ -54,6 +55,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Kardinal Authentication
 name_suffix: Authentication

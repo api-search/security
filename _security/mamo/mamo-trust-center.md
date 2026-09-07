@@ -72,6 +72,7 @@ api_specs:
   slug: mamo-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/openapi/mamo-webhooks-api-openapi.yml
+certification_count: 1
 certifications:
 - PCI DSS
 description: ''

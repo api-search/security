@@ -456,6 +456,7 @@ api_specs:
   slug: huma-withings-integration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/openapi/huma-withings-integration-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO/IEC 27001
 - ISO/IEC 13485

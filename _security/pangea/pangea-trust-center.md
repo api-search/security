@@ -48,6 +48,7 @@ api_specs:
   slug: pangea-vault-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-vault-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

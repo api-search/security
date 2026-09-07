@@ -474,6 +474,7 @@ api_specs:
   slug: signalwire-whatsapp-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/openapi/signalwire-whatsapp-templates-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - PCI DSS

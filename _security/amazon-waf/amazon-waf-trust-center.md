@@ -18,6 +18,7 @@ api_specs:
   slug: amazon-waf-web-acls-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-waf/refs/heads/main/openapi/amazon-waf-web-acls-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

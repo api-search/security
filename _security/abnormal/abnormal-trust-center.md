@@ -102,6 +102,7 @@ api_specs:
   slug: abnormal-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/openapi/abnormal-vendors-api-openapi.yml
+certification_count: 13
 certifications:
 - SOC 2
 - ISO/IEC 27001

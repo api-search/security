@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for the Teads developer APIs. Both public REST surfaces use static, long-lived API-key style credentials issued out of band — via Teads Ad Manager or a Teads account representative. No OAuth 2.0, OpenID Connect, mTLS, JWT, signing scheme, scope model, expiry or documented rotation path exists on any surface, and there is no self-serve credential issuance.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Teads Authentication
 name_suffix: Authentication

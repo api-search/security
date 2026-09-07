@@ -1,38 +1,26 @@
 ---
 api_specs:
-- filename: cpanel-domaininfo-api-openapi.yml
+- filename: cpanel-uapi-openapi.yml
   format: yaml
-  label: cPanel DomainInfo API
-  slug: cpanel-domaininfo-api
+  label: cPanel UAPI
+  slug: uapi
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cpanel/refs/heads/main/openapi/cpanel-domaininfo-api-openapi.yml
-- filename: cpanel-email-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cpanel/refs/heads/main/openapi/cpanel-uapi-openapi.yml
+- filename: cpanel-whm-api-openapi.yml
   format: yaml
-  label: cPanel Email API
-  slug: cpanel-email-api
+  label: WHM API 1
+  slug: whm-api-1
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cpanel/refs/heads/main/openapi/cpanel-email-api-openapi.yml
-- filename: cpanel-mysql-api-openapi.yml
-  format: yaml
-  label: cPanel Mysql API
-  slug: cpanel-mysql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cpanel/refs/heads/main/openapi/cpanel-mysql-api-openapi.yml
-- filename: cpanel-uapi-api-openapi.yml
-  format: yaml
-  label: cPanel UAPI API
-  slug: cpanel-uapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cpanel/refs/heads/main/openapi/cpanel-uapi-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cpanel/refs/heads/main/openapi/cpanel-whm-api-openapi.yml
 description: ''
 domains:
 - caa:
-  - 0 issue "pki.goog"
-  - 0 issue "godaddy.com"
   - 0 iodef "mailto:caa-notify@cpanel.net"
-  - 0 issue "comodoca.com"
-  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog"
+  - 0 issue "pki.goog; cansignhttpexchanges=yes"
   - 0 issue "awstrust.com"
+  - 0 issue "amazon.com"
+  - 0 issue "letsencrypt.org"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
@@ -44,11 +32,12 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct  3 09:32:52 2026 GMT
+- cert_expires: Dec  1 21:37:57 2026 GMT
   host: api.docs.cpanel.net
   hsts: false
   https: true
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
@@ -61,7 +50,7 @@ slug: cpanel-domain-security
 source_filename: cpanel-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cpanel.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 26 23:59:59 2027 GMT\n  hsts: false\n- host: api.docs.cpanel.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 09:32:52 2026 GMT\n  hsts: false\ndomains:\n- domain: cpanel.net\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"godaddy.com\"\n  - 0 iodef \"mailto:caa-notify@cpanel.net\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cpanel.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 26 23:59:59 2027 GMT\n  hsts: false\n- host: api.docs.cpanel.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 21:37:57 2026 GMT\n  hsts: false\ndomains:\n- domain: cpanel.net\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:caa-notify@cpanel.net\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cpanel/refs/heads/main/security/cpanel-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

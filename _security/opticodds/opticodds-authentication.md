@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -128,6 +129,7 @@ auth_types:
 description: 'OpticOdds authenticates with a single long-lived API key. There is no OAuth, no OIDC, no scopes, and no token exchange. The one thing worth knowing is that the key travels in a DIFFERENT header depending on which surface you call: X-Api-Key for REST, Authorization: Bearer for the hosted MCP server.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Opticodds Authentication
 name_suffix: Authentication

@@ -51,6 +51,7 @@ hosts:
   hsts_note: 'The root path returns a bare JSON 404 without HSTS, but the live API paths do send it — https://services.amobee.com/accounts/v1/api/token returned ''strict-transport-security: max-age=15724800; includeSubDomains'' on 2026-08-12, along with x-content-type-options, x-frame-options, referrer-policy, permissions-policy and a Content-Security-Policy.'
   https: true
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

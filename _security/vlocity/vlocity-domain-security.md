@@ -21,6 +21,7 @@ hosts:
   tls_cert_not_after: '2026-12-17'
   tls_cert_org: Salesforce, Inc.
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

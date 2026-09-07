@@ -18,6 +18,7 @@ api_specs:
   slug: gray-swan-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gray-swan/refs/heads/main/openapi/gray-swan-policies-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 2
 - Cyber Essentials

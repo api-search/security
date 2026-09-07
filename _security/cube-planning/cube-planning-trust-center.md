@@ -252,6 +252,7 @@ api_specs:
   slug: cube-planning-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/openapi/cube-planning-workflow-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - HIPAA

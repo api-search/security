@@ -72,6 +72,7 @@ api_specs:
   slug: land-insight-strategic-industrial-location-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/openapi/land-insight-strategic-industrial-location-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

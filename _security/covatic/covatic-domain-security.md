@@ -142,6 +142,7 @@ hosts:
   https_error: certificate has expired
   note: FINDING — the documentation host Covatic publishes on covatic.com/technical/ has served an EXPIRED TLS certificate since 2023-04-03. Every modern browser and every default HTTP client refuses the connection (curl exits 60, "certificate has expired"); the host only answers with certificate verification disabled, and then 301s to https://docs.covatic.io/login. Probed 2026-08-12.
   tls_version: TLSv1.2
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

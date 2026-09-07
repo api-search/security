@@ -54,6 +54,7 @@ hosts:
   https: true
   note: every path answers HTTP 401 anonymously
   tls_version: TLSv1.2
+hosts_probed: 7
 kind: domain-security
 layout: security
 method: probed

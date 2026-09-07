@@ -72,6 +72,7 @@ api_specs:
   slug: criteo-segment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-segment-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - SOC 2 Type 1

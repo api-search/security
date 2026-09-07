@@ -132,6 +132,7 @@ api_specs:
   slug: anaconda-websocket-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-websocket-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

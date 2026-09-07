@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--eregulations-openapi.yml
+  format: yaml
+  label: ATF eRegulations API
+  slug: atf-eregulations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/openapi/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--eregulations-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -13,6 +20,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -25,7 +33,7 @@ slug: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--domain-security
 source_filename: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.atf.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: atf.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.atf.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: atf.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/security/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
@@ -33,7 +41,10 @@ tags:
 - Explosives
 - Federal-Government
 - Firearms
+- Geospatial
 - Law Enforcement
+- Open Data
 - Public Safety
+- Regulations
 - Tobacco
 ---

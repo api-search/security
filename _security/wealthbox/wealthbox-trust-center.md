@@ -60,6 +60,7 @@ api_specs:
   slug: wealthbox-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-workflows-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

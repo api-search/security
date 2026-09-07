@@ -96,6 +96,7 @@ api_specs:
   slug: figma-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-webhooks-api-openapi.yml
+certification_count: 10
 certifications:
 - SOC 2 Type II
 - SOC 3

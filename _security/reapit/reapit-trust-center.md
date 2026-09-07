@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - ISO 27001
 description: Reapit publishes its security posture on a product page under Platform > Infrastructure > Security rather than in a dedicated trust center. The substantive, verifiable claim is ISO 27001 certification with independent third-party audits, backed by an Information Security Management System framework. Single sign-on across the platform and partner integrations, and multi-factor authentication, are named controls. There is no downloadable evidence portal, no SOC 2 report, no sub-processor list, no status-of-controls page and no security questionnaire self-service — so buyers must ask for evidence through sales or the partner team.

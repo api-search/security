@@ -648,6 +648,7 @@ api_specs:
   slug: cisco-secure-firewall-zone-tag-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/openapi/cisco-secure-firewall-zone-tag-api-openapi.yml
+certification_count: 1
 certifications:
 - FedRAMP
 description: ''

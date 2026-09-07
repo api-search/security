@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
 description: 'No public OpenAPI/Swagger document is exposed by Anvyl (developer docs are served as a gated Stoplight SPA), so the auth model here is captured from observed live behavior rather than derived from a spec. Unauthenticated requests to the REST API return HTTP 401 with {"error":"Unauthorized"}. A request carrying an Authorization: Bearer <token> header passes the auth gate (the same route then returns 404 for an unknown token context rather than 401), whereas an X-API-Key header does not (still 401) — indicating the API authenticates with a bearer token in the standard Authorization header.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Anvyl Authentication
 name_suffix: Authentication

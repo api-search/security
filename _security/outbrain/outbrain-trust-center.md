@@ -132,6 +132,7 @@ api_specs:
   slug: outbrain-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/openapi/outbrain-users-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

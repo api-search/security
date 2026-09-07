@@ -12,6 +12,7 @@ api_specs:
   slug: ontraport-objects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/openapi/ontraport-objects-api-openapi.yml
+certification_count: 2
 certifications:
 - PCI DSS
 - GDPR

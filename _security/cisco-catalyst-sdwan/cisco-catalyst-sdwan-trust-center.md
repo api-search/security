@@ -2292,6 +2292,7 @@ api_specs:
   slug: cisco-catalyst-sdwan-workflows-controllers-upgrade-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/openapi/cisco-catalyst-sdwan-workflows-controllers-upgrade-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

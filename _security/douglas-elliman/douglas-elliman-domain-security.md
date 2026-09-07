@@ -28,6 +28,7 @@ hosts:
   https: true
   note: Self-hosted Uptime Kuma behind nginx/1.24.0 (Ubuntu). Root 302s to /dashboard (login-gated); no public status page is published. See lifecycle/.
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

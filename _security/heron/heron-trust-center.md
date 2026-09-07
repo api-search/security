@@ -288,6 +288,7 @@ api_specs:
   slug: heron-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/openapi/heron-workflows-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

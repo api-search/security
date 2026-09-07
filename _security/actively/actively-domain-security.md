@@ -41,6 +41,7 @@ hosts:
   hsts: null
   https: true
   note: Vanta-hosted trust center on the company's own subdomain.
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

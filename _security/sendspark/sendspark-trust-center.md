@@ -24,6 +24,7 @@ api_specs:
   slug: sendspark-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-workspace-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

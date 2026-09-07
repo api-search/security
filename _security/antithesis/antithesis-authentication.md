@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
@@ -6,6 +7,7 @@ auth_types:
 description: 'Antithesis isolates each customer into a tenant with its own cloud instance. Four actions require authorization: pushing images to the Antithesis registry, kicking off tests, viewing reports, and multiverse debugging. Automated actions (image push, launching tests via the webhook/REST API) use long-lived machine credentials; interactive actions (viewing reports, multiverse debugging) use SSO. There is no OpenAPI to derive from; this profile is captured from the docs.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Antithesis Authentication
 name_suffix: Authentication

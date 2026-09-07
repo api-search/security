@@ -12,6 +12,7 @@ api_specs:
   slug: statuspage-pages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/statuspage/refs/heads/main/openapi/statuspage-pages-api-openapi.yml
+certification_count: 1
 certifications:
 - FedRAMP
 description: ''

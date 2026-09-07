@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: millimetric-identity-api-openapi.yml
@@ -24,6 +25,7 @@ auth_types:
 description: Millimetric uses Bearer API keys of the form {kind}_{env}_{prefix}_{secret}, modelled on Stripe's pk_/sk_ split. Four key kinds map to two scopes (ingest, read) plus an account-level read variant. pk_* keys are browser-safe and origin-allowlisted; sk_/rk_/ak_ are server-side. Not OAuth — there is no OAuth2/OIDC surface, so there is no scopes/ artifact.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Millimetric Authentication
 name_suffix: Authentication

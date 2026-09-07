@@ -60,6 +60,7 @@ api_specs:
   slug: d-id-voices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-voices-api-openapi.yml
+certification_count: 1
 certifications:
 - GDPR
 description: ''

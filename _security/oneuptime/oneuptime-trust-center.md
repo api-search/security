@@ -6,6 +6,7 @@ api_specs:
   slug: oneuptime-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs/heads/main/openapi/oneuptime-projects-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

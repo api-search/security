@@ -36,6 +36,7 @@ api_specs:
   slug: faros-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-webhooks-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

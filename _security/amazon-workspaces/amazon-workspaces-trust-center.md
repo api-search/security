@@ -390,6 +390,7 @@ api_specs:
   slug: amazon-workspaces-x-amz-target-workspacesservice-updateworkspaceimagepermission-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-x-amz-target-workspacesservice-updateworkspaceimagepermission-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

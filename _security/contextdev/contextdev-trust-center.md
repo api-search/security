@@ -42,6 +42,7 @@ api_specs:
   slug: contextdev-web-scraping-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-web-scraping-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 1
 - SOC 2 Type 2

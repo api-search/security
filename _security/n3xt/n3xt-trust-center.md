@@ -66,6 +66,7 @@ api_specs:
   slug: n3xt-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/openapi/n3xt-wallets-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

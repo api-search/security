@@ -528,6 +528,7 @@ api_specs:
   slug: leaflink-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leaflink/refs/heads/main/openapi/leaflink-vendors-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

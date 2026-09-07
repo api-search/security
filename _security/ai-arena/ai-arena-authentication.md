@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in:
 - cli-token
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: Authentication profile for ArenaX Labs surfaces. The SAI research platform (competesai.com) CLI authenticates with a bearer API token obtained from account settings. The open-source RLMesh gRPC protocol intentionally leaves transport security and authentication out of scope (deployment concern), so it declares no built-in scheme.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Ai Arena Authentication
 name_suffix: Authentication

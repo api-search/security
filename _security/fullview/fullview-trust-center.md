@@ -6,6 +6,7 @@ api_specs:
   slug: fullview-bug-report-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/openapi/fullview-bug-report-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

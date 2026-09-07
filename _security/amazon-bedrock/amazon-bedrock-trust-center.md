@@ -36,6 +36,7 @@ api_specs:
   slug: amazon-bedrock-provisioned-throughput-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/openapi/amazon-bedrock-provisioned-throughput-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

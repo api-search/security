@@ -46,6 +46,7 @@ hosts:
     policy: ~all (softfail)
     present: true
     record: v=spf1 include:_spf.google.com include:mktomail.com include:aspmx.pardot.com include:_spf.salesforce.com ~all
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

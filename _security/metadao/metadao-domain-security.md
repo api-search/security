@@ -48,6 +48,7 @@ hosts:
 - host: api-docs.metadao.fi
   https: true
   note: Documentation host (Mintlify); reachable over HTTPS.
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

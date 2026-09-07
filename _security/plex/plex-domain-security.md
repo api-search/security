@@ -212,6 +212,7 @@ hosts:
   tls_version: TLSv1.2
 - host: 1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

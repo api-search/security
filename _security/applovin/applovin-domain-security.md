@@ -139,6 +139,7 @@ hosts:
   role: Ad Review Rules Management API
   root_status: 200
   tls_version: TLSv1.3
+hosts_probed: 8
 kind: domain-security
 layout: security
 method: probed

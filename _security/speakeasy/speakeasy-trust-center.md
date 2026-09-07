@@ -78,6 +78,7 @@ api_specs:
   slug: speakeasy-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/openapi/speakeasy-workspaces-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

@@ -75,6 +75,7 @@ hosts:
   tls_version: TLSv1.3
 - host: rest.spreadconnect-staging.app
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

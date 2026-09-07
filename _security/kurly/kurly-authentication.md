@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: kurly-authentication-api-openapi.yml
@@ -24,6 +25,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Kurly Authentication
 name_suffix: Authentication

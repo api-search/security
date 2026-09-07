@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Authentication profile for Lindy. Derived from documentation rather than a spec, because Lindy publishes no OpenAPI securitySchemes. Two distinct directions must not be confused: how a caller authenticates TO Lindy (one scheme, on one endpoint), and how Lindy authenticates OUT to the tools it integrates with (OAuth and API keys, the much larger surface).'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Lindy Authentication
 name_suffix: Authentication

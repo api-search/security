@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: semrush-hermes-partner-api-api-openapi.yml
@@ -26,6 +27,7 @@ auth_types:
 description: 'Authentication profile for the Semrush API surface. Upgrades the previous derived profile (which saw only the single bearer scheme in the App Center OpenAPI) with the three mechanisms Semrush actually documents: version-scoped API keys passed as a header or a query parameter, OAuth 2.0 with a device-authorization flow, and OAuth for the MCP server.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Semrush Authentication
 name_suffix: Authentication

@@ -143,6 +143,7 @@ hosts:
   note: Edge returns 403 to a scripted client on every path; no Strict-Transport-Security header was present on that response.
   role: Express Tickets consolidation
   tls_version: TLSv1.3
+hosts_probed: 9
 kind: domain-security
 layout: security
 method: probed

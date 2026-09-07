@@ -102,6 +102,7 @@ api_specs:
   slug: total-expert-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

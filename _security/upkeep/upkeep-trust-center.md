@@ -60,6 +60,7 @@ api_specs:
   slug: upkeep-work-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upkeep/refs/heads/main/openapi/upkeep-work-orders-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

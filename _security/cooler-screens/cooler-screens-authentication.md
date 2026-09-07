@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: CoolerX publishes no developer portal and no authentication documentation. This profile is read entirely from the two OAuth metadata documents the apex host serves and from the live 401 challenge returned by the MCP endpoint. It describes access to the coolerx.com WordPress MCP surface only. Access to the CoolerX retail-media platform (api.coolerx.com, portal.coolerx.com) is not documented anywhere public and those hosts refuse connections, so nothing is recorded about it.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Cooler Screens Authentication
 name_suffix: Authentication

@@ -156,6 +156,7 @@ api_specs:
   slug: mx-technologies-widgets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-widgets-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - PCI DSS

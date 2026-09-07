@@ -1,4 +1,5 @@
 ---
+certification_count: 2
 certifications:
 - AICPA SOC for Service Organizations
 - IBM Cloud for Financial Services Validated

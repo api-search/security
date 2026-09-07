@@ -24,6 +24,7 @@ api_specs:
   slug: pusher-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/openapi/pusher-users-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - HIPAA

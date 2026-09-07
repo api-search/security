@@ -52,6 +52,7 @@ hosts:
   https: false
   note: no DNS resolution
   reachable: false
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

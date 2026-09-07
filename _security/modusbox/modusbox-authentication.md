@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: modusbox-orca-contract-notice.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Modusbox Authentication
 name_suffix: Authentication

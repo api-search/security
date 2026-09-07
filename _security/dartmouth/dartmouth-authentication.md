@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: dartmouth-class-search-api-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: How Dartmouth's institution-operated interfaces authenticate. Every row was established by calling the surface, not by reading a claim about it.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Dartmouth Authentication
 name_suffix: Authentication

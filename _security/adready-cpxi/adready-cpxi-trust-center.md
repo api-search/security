@@ -294,6 +294,7 @@ api_specs:
   slug: adready-cpxi-whitelabel-domain-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adready-cpxi/refs/heads/main/openapi/adready-cpxi-whitelabel-domain-controller-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

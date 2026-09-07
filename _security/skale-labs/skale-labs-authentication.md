@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - none
@@ -6,6 +7,7 @@ auth_types:
 description: 'SKALE surfaces are Ethereum-compatible JSON-RPC endpoints and SDKs, not key-authenticated REST APIs. Public JSON-RPC RPC endpoints (skalenodes.com) require no API key. State-changing operations are authenticated cryptographically: transactions are signed with an EVM wallet private key (ECDSA/secp256k1) and gas is paid via sFUEL / CREDITs rather than an account token.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Skale Labs Authentication
 name_suffix: Authentication

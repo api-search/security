@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: number26-default-api-openapi.yml
@@ -13,6 +14,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Number26 Xs2A Authentication
 name_suffix: Authentication

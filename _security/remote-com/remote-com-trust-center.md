@@ -240,6 +240,7 @@ api_specs:
   slug: remote-com-work-authorization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-work-authorization-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

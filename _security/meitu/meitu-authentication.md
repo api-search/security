@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - apiKey
@@ -6,6 +7,7 @@ auth_types:
 description: Authentication profile for the Meitu AI Open Platform (OpenAPI). Meitu issues an access key / secret key pair per application from the platform console. Requests are authenticated with an HMAC signature computed from the secret key (the platform documents signing helpers in C#, Go, Java, Python, JavaScript and PHP). Legacy MTlab synchronous endpoints accept the credential pair as api_key / api_secret query parameters.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Meitu Authentication
 name_suffix: Authentication

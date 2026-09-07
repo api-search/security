@@ -84,6 +84,7 @@ api_specs:
   slug: velaris-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/openapi/velaris-users-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001:2022
 - SOC 2 Type II

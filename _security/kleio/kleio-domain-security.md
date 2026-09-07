@@ -21,6 +21,7 @@ hosts:
   https: true
   note: HSTS corrected by hand after the automated probe recorded null. api.kleio.ai answers every undefined path with a JSON 404 from its Google Cloud API Gateway, which the probe treated as no header; a direct HEAD returns two Strict-Transport-Security headers — "max-age=15552000; includeSubDomains; preload" (Cloudflare edge) and "max-age=31536000; includeSubDomains" (origin). The longer max-age is recorded.
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

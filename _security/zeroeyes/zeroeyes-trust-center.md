@@ -1,4 +1,5 @@
 ---
+certification_count: 6
 certifications:
 - FedRAMP Moderate
 - SOC 2 Type 2

@@ -216,6 +216,7 @@ api_specs:
   slug: red-hat-workflow-job-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/openapi/red-hat-workflow-job-templates-api-openapi.yml
+certification_count: 10
 certifications:
 - SOC 2 Type 2
 - SOC 3

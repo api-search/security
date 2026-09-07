@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Every Cisco Support API request is authenticated with an OAuth 2.0 client credentials bearer token minted at Cisco Common Identity (id.cisco.com). There is no API-key or basic-auth path, and no end-user authorization step — the token carries the identity, role and customer-data permissions of the API user who registered the application in the Cisco API Console. Captured from Cisco's own authentication and application-registration pages, and cross-checked against the live authorization-server metadata saved in well-known/.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Cisco Support Apis Authentication
 name_suffix: Authentication

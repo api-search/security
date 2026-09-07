@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -8,6 +9,7 @@ auth_types:
 description: 'String uses two authentication layers: (1) API-key authentication for server-to-server and game-to-API calls via an X-Api-Key header, with two key classes — public keys (authenticate a game connecting to the String API) and secret keys (manage an organization programmatically); and (2) Web3 wallet-signature login for players (an EIP-4361 / Sign-In-With-Ethereum style challenge-response), where RequestToSign issues a nonce payload the player''s wallet signs, and the signed payload is verified to establish an authenticated session with refreshable auth cookies/tokens. Derived by hand from the docs because no machine-readable OpenAPI is publicly retrievable.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: String Technology Inc Authentication
 name_suffix: Authentication

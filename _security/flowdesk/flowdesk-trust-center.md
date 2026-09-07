@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: Flowdesk operates a public Trust Center hosted on Vanta (app.eu.vanta.com) at trust.flowdesk.co. The trust report content is rendered client-side and its underlying certification documents were not machine-readable at probe time, so specific security certifications (e.g. SOC 2 / ISO 27001) are NOT asserted here to avoid fabrication. The regulatory registrations below are published on Flowdesk's own website.
 kind: trust-center

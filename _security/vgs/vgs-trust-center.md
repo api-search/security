@@ -24,6 +24,7 @@ api_specs:
   slug: vgs-vaults-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-vaults-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

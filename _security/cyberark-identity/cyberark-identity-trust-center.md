@@ -42,6 +42,7 @@ api_specs:
   slug: cyberark-identity-usermgmt-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-usermgmt-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2
 - ISO 27001

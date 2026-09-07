@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: university-of-leeds-research-data-oai-pmh-openapi.yml
@@ -29,6 +30,7 @@ auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: derived
 name: University Of Leeds Authentication
 name_suffix: Authentication

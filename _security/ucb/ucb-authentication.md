@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'How access is obtained to the surfaces UC Berkeley itself operates. Berkeley runs a real, centrally governed API program, but it is an INTERNAL-FIRST program: the catalog is public and the contracts are not. There is no self-service public API key anywhere on the campus estate -- every credential path terminates in a CalNet identity and a named Data Owner''s approval.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Ucb Authentication
 name_suffix: Authentication

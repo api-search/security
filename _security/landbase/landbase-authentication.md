@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Landbase runs two authentication models side by side, and which one you get depends on a mode switch rather than a per-credential choice. Platform mode (the default) is a browser OAuth consent flow that mints a short-lived session token; legacy mode is a long-lived API key that bypasses the gateway entirely and speaks to the AgentOS backend directly. Both are documented for the CLI. No OpenAPI securitySchemes exist to derive from — this profile is read from the provider's own auth pages and from the one machine-readable artifact on the estate, the OIDC discovery document.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Landbase Authentication
 name_suffix: Authentication

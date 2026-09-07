@@ -270,6 +270,7 @@ api_specs:
   slug: moengage-utilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/openapi/moengage-utilities-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2 Type 2
 - CSA STAR Level 2

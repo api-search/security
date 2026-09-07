@@ -42,6 +42,7 @@ api_specs:
   slug: mailosaur-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-usage-api-openapi.yml
+certification_count: 5
 certifications:
 - ISO 27001:2022
 - PCI DSS

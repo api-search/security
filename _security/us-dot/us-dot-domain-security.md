@@ -144,6 +144,48 @@ api_specs:
   slug: us-dot-vfr-helicopter-route-chart-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/openapi/us-dot-vfr-helicopter-route-chart-api-openapi.yml
+- filename: dot-childseats-api-openapi.yml
+  format: yaml
+  label: US Department of Transportation childSeats API
+  slug: dot-childseats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/openapi/dot-childseats-api-openapi.yml
+- filename: dot-equipment-api-openapi.yml
+  format: yaml
+  label: US Department of Transportation equipment API
+  slug: dot-equipment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/openapi/dot-equipment-api-openapi.yml
+- filename: dot-ewr-api-openapi.yml
+  format: yaml
+  label: US Department of Transportation ewr API
+  slug: dot-ewr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/openapi/dot-ewr-api-openapi.yml
+- filename: dot-foreigncampaigns-api-openapi.yml
+  format: yaml
+  label: US Department of Transportation foreignCampaigns API
+  slug: dot-foreigncampaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/openapi/dot-foreigncampaigns-api-openapi.yml
+- filename: dot-safetyissues-api-openapi.yml
+  format: yaml
+  label: US Department of Transportation safetyIssues API
+  slug: dot-safetyissues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/openapi/dot-safetyissues-api-openapi.yml
+- filename: dot-tires-api-openapi.yml
+  format: yaml
+  label: US Department of Transportation tires API
+  slug: dot-tires-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/openapi/dot-tires-api-openapi.yml
+- filename: dot-vehicles-api-openapi.yml
+  format: yaml
+  label: US Department of Transportation vehicles API
+  slug: dot-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/openapi/dot-vehicles-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -176,6 +218,7 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.2
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

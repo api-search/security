@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Lalamove Delivery API v3 authenticates every request with an HMAC SHA256 request signature rather than a bearer token or OAuth flow. Credentials are a paired API KEY and API SECRET issued per market through the Partner Portal. Because the signature covers the timestamp, method, path and body, credentials are never transmitted in a replayable form and there is no token endpoint, refresh flow, or scope surface.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Lalamove Authentication
 name_suffix: Authentication

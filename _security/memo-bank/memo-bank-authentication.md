@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: memo-bank-account-assessments-api-openapi.yml
@@ -98,6 +99,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Memo Bank Authentication
 name_suffix: Authentication

@@ -150,6 +150,7 @@ api_specs:
   slug: inspectorio-upload-file-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/openapi/inspectorio-upload-file-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

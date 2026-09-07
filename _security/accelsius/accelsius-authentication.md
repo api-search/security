@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: accelsius-content-api-openapi.yml
@@ -68,6 +69,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Accelsius Authentication
 name_suffix: Authentication

@@ -450,6 +450,7 @@ api_specs:
   slug: mews-com-vouchers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/openapi/mews-com-vouchers-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

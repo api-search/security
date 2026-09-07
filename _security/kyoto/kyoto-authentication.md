@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: kyoto-oai-pmh-api-openapi.yml
@@ -26,6 +27,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Kyoto Authentication
 name_suffix: Authentication

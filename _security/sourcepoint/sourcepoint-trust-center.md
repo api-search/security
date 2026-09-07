@@ -54,6 +54,7 @@ api_specs:
   slug: sourcepoint-u-s-multi-state-privacy-reporting-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/openapi/sourcepoint-u-s-multi-state-privacy-reporting-api-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO/IEC 27001
 - ISO/IEC 27701

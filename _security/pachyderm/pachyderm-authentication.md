@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oidc
@@ -6,6 +7,7 @@ auth_types:
 description: Pachyderm authenticates API/gRPC and pachctl clients with session tokens carried in gRPC metadata. Human users log in via OIDC (Pachyderm bundles a Dex identity provider); automation uses robot tokens. Authorization is RBAC — role bindings evaluated by the Auth service. Auth is activated per cluster (Enterprise feature) and rooted by a rotatable root token.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Pachyderm Authentication
 name_suffix: Authentication

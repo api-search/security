@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: keploy-cloud-api-openapi.yaml
+  format: yaml
+  label: Keploy Cloud API
+  slug: keploy-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keploy/refs/heads/main/openapi/keploy-cloud-api-openapi.yaml
 description: ''
 domains:
 - caa: []
@@ -19,6 +26,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

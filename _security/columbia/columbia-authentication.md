@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: columbia-locations-api-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: 'How authentication works across the surfaces Columbia University operates. The shape of this file is the shape of the institution: one small API that needs no credential at all, and an otherwise complete estate that is reachable only with a Columbia UNI. There is no API key, no OAuth client registration, no developer account and no self-service path to any Columbia surface for a caller who is not affiliated with the university.'
 kind: authentication
 layout: security
+mechanism_count: 6
 method: probed
 name: Columbia Authentication
 name_suffix: Authentication

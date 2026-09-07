@@ -66,6 +66,7 @@ api_specs:
   slug: snov-io-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-webhooks-api-openapi.yml
+certification_count: 3
 certifications:
 - GDPR
 - LOA (Letter of Authorization)

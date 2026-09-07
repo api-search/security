@@ -42,6 +42,7 @@ api_specs:
   slug: cvent-registration-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-webhooks-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2
 - ISO 27001

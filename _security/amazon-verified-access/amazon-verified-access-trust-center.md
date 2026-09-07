@@ -156,6 +156,7 @@ api_specs:
   slug: amazon-verified-access-modifyverifiedaccesstrustprovider-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/openapi/amazon-verified-access-modifyverifiedaccesstrustprovider-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

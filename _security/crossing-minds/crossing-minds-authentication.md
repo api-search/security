@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
 description: The Crossing Minds B2B Recommendation API uses short-lived JWT bearer authentication (RFC 6750). Clients log in to obtain a JWT plus a refresh token scoped to a specific account and database, then present the JWT in the Authorization header. When the JWT expires, the refresh token is exchanged for a new JWT (and, when near expiry, a new refresh token) without re-submitting credentials.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Crossing Minds Authentication
 name_suffix: Authentication

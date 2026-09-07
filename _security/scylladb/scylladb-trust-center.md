@@ -48,6 +48,7 @@ api_specs:
   slug: scylladb-vectorsearch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-vectorsearch-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

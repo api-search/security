@@ -18,6 +18,7 @@ api_specs:
   slug: varonis-threat-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/openapi/varonis-threat-models-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2
 - ISO 27001

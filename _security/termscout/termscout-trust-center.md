@@ -12,6 +12,7 @@ api_specs:
   slug: termscout-contracts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/termscout/refs/heads/main/openapi/termscout-contracts-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - GDPR

@@ -306,6 +306,7 @@ api_specs:
   slug: drata-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-workspaces-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

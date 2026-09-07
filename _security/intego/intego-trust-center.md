@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - ISO/IEC 27001:2022
 description: Intego publishes a compliance hub for procurement and security reviews where organizations can access compliance evidence and download certificates. The hub documents Intego S.A.'s active information-security certification.

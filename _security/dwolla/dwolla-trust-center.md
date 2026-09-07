@@ -108,6 +108,7 @@ api_specs:
   slug: dwolla-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-webhooks-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type 2
 description: ''

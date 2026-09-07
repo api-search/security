@@ -8,12 +8,13 @@ domains:
   domain: calumet.com
   spf: true
 hosts:
-- cert_expires: Aug 21 22:58:46 2026 GMT
+- cert_expires: Oct 20 00:20:56 2026 GMT
   host: www.calumet.com
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -26,7 +27,7 @@ slug: calumet-specialty-products-partners-domain-security
 source_filename: calumet-specialty-products-partners-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.calumet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 22:58:46 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: calumet.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.calumet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 20 00:20:56 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: calumet.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calumet-specialty-products-partners/refs/heads/main/security/calumet-specialty-products-partners-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

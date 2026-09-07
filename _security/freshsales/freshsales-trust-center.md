@@ -72,6 +72,7 @@ api_specs:
   slug: freshsales-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-tasks-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

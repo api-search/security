@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
 description: Every request to the Fideo Verify and Signals API (https://api.fideo.ai) authenticates with a bearer API key supplied in the HTTP Authorization header. Keys are managed inside the ReadMe-hosted developer hub (Settings -> API Keys) or issued by the Fideo support team for dedicated test/production credentials. There is no OAuth2 / OpenID Connect flow and no per-request signing; the static key is scoped per workspace and inherits the account's contracted rate limits.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Fideo Authentication
 name_suffix: Authentication

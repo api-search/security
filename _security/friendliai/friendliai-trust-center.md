@@ -198,6 +198,7 @@ api_specs:
   slug: friendliai-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/openapi/friendliai-usage-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

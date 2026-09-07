@@ -26,6 +26,7 @@ hosts:
   https: true
   note: Pearpop.AI application host; no Strict-Transport-Security header observed on the sign-in response.
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

@@ -192,6 +192,7 @@ api_specs:
   slug: lobcom-tracking-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lobcom/refs/heads/main/openapi/lobcom-tracking-events-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 2
 - HIPAA

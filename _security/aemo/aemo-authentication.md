@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -506,6 +507,7 @@ auth_types:
 description: 'AEMO fronts its participant APIs with Azure API Management (dev.aemo.com.au / api.aemo.com.au). Every published OpenAPI declares an APIM subscription key as an apiKey security scheme, in a header (Ocp-Apim-Subscription-Key, x-apikey, x-eHub-APIKey, x-aemo-api-key, X-DC-DEVKEY, client_id) or in the subscription-key / clientId query parameter. The subscription key is only the gateway credential: most operations additionally require an AEMO-signed TLS client certificate (mutual TLS to the e-Hub gateway) and a caller identity - either URM (User Rights Management) username/password sent as HTTP Basic in the Authorization header, or an OAuth 2.0 client_credentials bearer token issued by api.aemo.com.au. The DER Register consumer registration API uses an Azure AD B2C OpenID Connect provider instead.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Aemo Authentication
 name_suffix: Authentication

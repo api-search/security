@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: 'Swan uses OAuth 2.0 (RFC 6749) with Bearer token authentication (RFC 6750). Tokens are supplied in an HTTP Authorization header as `Authorization: Bearer {access token}`. There are two token types: project access tokens (client_credentials grant, project-level access, valid one hour) and user access tokens (authorization_code grant, act on behalf of an individual user, valid one hour, refreshable). A project token can also impersonate a user to perform sensitive mutations. User tokens (and impersonating project tokens) cannot call `transactions` queries.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Swan Authentication
 name_suffix: Authentication

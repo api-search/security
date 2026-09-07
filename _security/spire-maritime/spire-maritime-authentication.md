@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: spire-maritime.postman_collection.json
@@ -13,6 +14,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: documented
 name: Spire Maritime Authentication
 name_suffix: Authentication

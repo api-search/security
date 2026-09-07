@@ -36,6 +36,7 @@ api_specs:
   slug: albato-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-users-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

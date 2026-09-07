@@ -12,6 +12,7 @@ api_specs:
   slug: contentful-spaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/openapi/contentful-spaces-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

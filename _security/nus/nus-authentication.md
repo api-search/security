@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: nus-authorization-api-openapi.yml
@@ -23,6 +24,7 @@ auth_types: []
 description: Authentication posture across every National University of Singapore surface that could be reached from the open internet. NUS runs one institution-operated authorization server and fronts essentially everything gated with it; the small number of publicly readable surfaces are open metadata endpoints on rented platforms.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Nus Authentication
 name_suffix: Authentication

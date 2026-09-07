@@ -150,6 +150,7 @@ api_specs:
   slug: outrival-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-workflows-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

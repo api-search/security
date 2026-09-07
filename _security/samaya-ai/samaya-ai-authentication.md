@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: samaya-ai-organizations-api-openapi.yml
@@ -25,6 +26,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Samaya Ai Authentication
 name_suffix: Authentication

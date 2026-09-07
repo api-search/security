@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: efi-bank-authorization-api-openapi.yml
@@ -49,6 +50,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Efi Bank Authentication
 name_suffix: Authentication

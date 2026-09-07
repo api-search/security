@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: urbanfox-cases-api-openapi.yml
@@ -42,6 +43,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Urbanfox Authentication
 name_suffix: Authentication

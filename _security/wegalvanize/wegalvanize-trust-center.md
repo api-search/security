@@ -414,6 +414,7 @@ api_specs:
   slug: wegalvanize-workflows-in-asset-inventory-asset-manager-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wegalvanize/refs/heads/main/openapi/wegalvanize-workflows-in-asset-inventory-asset-manager-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 1
 - SOC 2

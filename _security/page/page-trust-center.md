@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: Page's security & compliance posture, captured from withpage.com/security and the Page Trust Center at trust.withpage.com. Page holds SOC 2 Type II certification with controls audited annually by an independent third party and continuously monitored (Vanta). Data is encrypted in transit (TLS 1.2+) and at rest (AES-256), with role-based access controls and multi-factor authentication. This is the searched, human-verified fill for a company with no public API surface.

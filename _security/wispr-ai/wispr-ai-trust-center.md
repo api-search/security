@@ -300,6 +300,7 @@ api_specs:
   slug: wispr-ai-wispr-backend-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wispr-ai/refs/heads/main/openapi/wispr-ai-wispr-backend-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 1
 - SOC 2 Type 2

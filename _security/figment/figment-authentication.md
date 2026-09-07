@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -151,6 +152,7 @@ auth_types:
 description: 'Figment authenticates every API request with an organization-issued API key sent in the x-api-key request header. HTTPS is mandatory — plain HTTP is redirected with a 301. Keys are issued and rotated in the Developers section of the Figment app (app.figment.io) and carry two orthogonal attributes: a permission (Read/Write or Read-Only) and an environment (test or production).'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Figment Authentication
 name_suffix: Authentication

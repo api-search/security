@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: 'How the TU Dresden surfaces recorded in apis.yml are authenticated, established by probing each one from outside the institution''s network on 2026-08-30. Every scheme below was observed in a live response or read from TU Dresden''s own documentation — none is inferred from an OpenAPI, because TU Dresden publishes no OpenAPI of its own. TU Dresden issues no self-service developer credential to the general public: every credential here is bound to an institutional affiliation, which is the normal shape for a university and is recorded rather than treated as a gap.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: probed
 name: Tu Dresden Authentication
 name_suffix: Authentication

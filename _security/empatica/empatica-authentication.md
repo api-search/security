@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Empatica publishes no OpenAPI and no public API reference, so this profile is assembled from the provider''s own support documentation for Data Access Keys and from anonymous probes of the live api.empatica.com host. There is no OAuth 2.0 or OpenID Connect surface anywhere: /.well-known/openid-configuration and /.well-known/oauth-authorization-server 404 on api.empatica.com and are soft-404 HTML shells on www and care. Consequently no scopes/ artifact is emitted — there is no scope surface to describe.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Empatica Authentication
 name_suffix: Authentication

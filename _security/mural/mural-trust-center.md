@@ -6,6 +6,7 @@ api_specs:
   slug: mural-public-api
   spec_type: Postman
   url: https://developers.mural.co/public/docs
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

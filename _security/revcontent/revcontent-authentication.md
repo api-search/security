@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: revcontent-access-api-openapi.yml
@@ -73,6 +74,7 @@ auth_types:
 description: 'RevContent uses a single auth model across all 43 documented operations: an OAuth 2.0 client-credentials grant that yields a 24-hour bearer token. There are no scopes, no refresh token, no OIDC and no OAuth server metadata document.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Revcontent Authentication
 name_suffix: Authentication

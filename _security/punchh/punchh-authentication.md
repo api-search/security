@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -285,6 +286,7 @@ auth_types:
 description: PAR Punchh authentication is a layered, hand-rolled scheme rather than a standards-discoverable one. A bearer access token establishes WHO is calling; an HMAC-SHA256 request digest establishes that the request was not tampered with; a device identifier establishes WHICH handset; and for proxied partners a true-client-IP header establishes which guest the call is really on behalf of. None of the 15 published OpenAPI documents declares a securityScheme — the auth contract lives entirely in the developer-portal prose and in explicit header parameters on individual operations.
 kind: authentication
 layout: security
+mechanism_count: 7
 method: searched
 name: Punchh Authentication
 name_suffix: Authentication

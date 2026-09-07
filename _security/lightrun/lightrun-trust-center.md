@@ -120,6 +120,7 @@ api_specs:
   slug: lightrun-watched-packages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-watched-packages-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

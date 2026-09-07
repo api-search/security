@@ -216,6 +216,7 @@ api_specs:
   slug: zoho-crm-zoho-crm-related-records-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/openapi/zoho-crm-zoho-crm-related-records-api-api-openapi.yml
+certification_count: 20
 certifications:
 - ISO/IEC 27001
 - ISO/IEC 27017

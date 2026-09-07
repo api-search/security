@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: knight-frank-cmspage-api-openapi.yml
@@ -50,6 +51,7 @@ auth_types:
 description: Knight Frank runs two authentication postures at once and neither is a developer credential. The corporate search service (api-v3) enforces NO authentication at all — its OpenAPI declares no securitySchemes, sends no security requirement, and answers anonymous GETs with real office and people-directory records. The property/account service (api-v2) is fully closed — every request without a bearer token returns 401 — and is protected by Azure AD B2C through a first-party MSAL client belonging to the consumer "My Knight Frank" saved-property account. There is no API key programme, no client-credentials flow, no developer application registration and no way for a third party to obtain a credential of any kind.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Knight Frank Authentication
 name_suffix: Authentication

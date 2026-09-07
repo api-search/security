@@ -54,6 +54,7 @@ api_specs:
   slug: bexio-sales-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-sales-orders-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - Swiss FADP (revDSG)

@@ -180,6 +180,7 @@ api_specs:
   slug: scott-ai-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-well-known-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

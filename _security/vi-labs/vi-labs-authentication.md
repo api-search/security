@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Vi Labs publishes no developer documentation and no OpenAPI, so this profile is built entirely from the two OAuth metadata documents the vi.co host serves anonymously plus the challenge headers returned by its MCP endpoint. It describes authentication to the MCP surface on vi.co only. The enterprise platform host api.vi.co is an AWS API Gateway that returns 403 ForbiddenException to every anonymous request, publishes no metadata, and its authentication scheme is therefore unknown.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Vi Labs Authentication
 name_suffix: Authentication

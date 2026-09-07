@@ -402,6 +402,7 @@ api_specs:
   slug: lean-technologies-transactions-raw-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/openapi/lean-technologies-transactions-raw-data-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - ISO 27001:2022

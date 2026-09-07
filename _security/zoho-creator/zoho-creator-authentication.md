@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: zoho-creator-bulk-insert-apis-api-openapi.yml
@@ -42,6 +43,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Zoho Creator Authentication
 name_suffix: Authentication

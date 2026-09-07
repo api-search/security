@@ -36,6 +36,7 @@ api_specs:
   slug: s2-dev-streams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-streams-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

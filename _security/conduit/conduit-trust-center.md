@@ -312,6 +312,7 @@ api_specs:
   slug: conduit-zora-sepolia-0thyhxtf5e-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-zora-sepolia-0thyhxtf5e-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type 1
 description: ''

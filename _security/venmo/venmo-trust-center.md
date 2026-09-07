@@ -1,4 +1,5 @@
 ---
+certification_count: 2
 certifications:
 - PCI DSS
 - SOC 2 Type 2

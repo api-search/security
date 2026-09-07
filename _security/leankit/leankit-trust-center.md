@@ -144,6 +144,7 @@ api_specs:
   slug: leankit-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/openapi/leankit-users-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

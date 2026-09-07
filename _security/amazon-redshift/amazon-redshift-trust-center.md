@@ -24,6 +24,7 @@ api_specs:
   slug: amazon-redshift-statement-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/openapi/amazon-redshift-statement-management-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

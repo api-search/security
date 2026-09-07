@@ -168,6 +168,7 @@ api_specs:
   slug: light-v1-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-vendors-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - SOC 1 Type II

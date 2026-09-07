@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: confluent-the-data-streaming-platform-cloud-apis-openapi.yml
+  format: yaml
+  label: Confluent Cloud REST API
+  slug: cloud-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent-the-data-streaming-platform/refs/heads/main/openapi/confluent-the-data-streaming-platform-cloud-apis-openapi.yml
 - filename: confluent-the-data-streaming-platform-api-keys-api-openapi.yml
   format: yaml
   label: Confluent | the Data Streaming Platform API Keys API
@@ -44,7 +50,7 @@ domains:
   domain: confluent.cloud
   spf: true
 hosts:
-- cert_expires: Sep 15 09:44:59 2026 GMT
+- cert_expires: Nov 14 08:55:14 2026 GMT
   host: www.confluent.io
   hsts: true
   hsts_max_age: 31536000
@@ -60,6 +66,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
@@ -72,7 +79,7 @@ slug: confluent-the-data-streaming-platform-domain-security
 source_filename: confluent-the-data-streaming-platform-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.confluent.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 09:44:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.confluent.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  4 23:59:59 2027 GMT\n  hsts: false\n- host: api.confluent.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: confluent.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: confluent.cloud\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.confluent.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 08:55:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.confluent.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  4 23:59:59 2027 GMT\n  hsts: false\n- host: api.confluent.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: confluent.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: confluent.cloud\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/confluent-the-data-streaming-platform/refs/heads/main/security/confluent-the-data-streaming-platform-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

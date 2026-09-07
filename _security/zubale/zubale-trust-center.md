@@ -48,6 +48,7 @@ api_specs:
   slug: zubale-webhook-payload-structure-for-order-notification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-webhook-payload-structure-for-order-notification-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - SOC 3

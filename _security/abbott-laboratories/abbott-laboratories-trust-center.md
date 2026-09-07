@@ -1,4 +1,5 @@
 ---
+certification_count: 2
 certifications:
 - French ASIP Santé / HDS (Hébergeur de Données de Santé — Health Data Host)
 - EU-U.S. Data Privacy Framework

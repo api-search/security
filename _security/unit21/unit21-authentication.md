@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Unit21 authenticates every API request with a static organization-scoped API key sent in a custom u21-key request header over HTTPS. There is no OAuth 2.0 authorization server, no OpenID Connect discovery document and no scope surface -- so scopes/ is deliberately not emitted for this provider. An optional second layer encrypts the request payload itself with a Fernet key supplied in a u21-fernet header.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Unit21 Authentication
 name_suffix: Authentication

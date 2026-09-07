@@ -54,6 +54,7 @@ api_specs:
   slug: plansource-security-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-security-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2 Type 2
 - ISO/IEC 27001:2022

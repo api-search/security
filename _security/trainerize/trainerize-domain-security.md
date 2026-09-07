@@ -70,6 +70,7 @@ hosts:
   https: true
   note: Zendesk-hosted help center (CNAME to trainerize.zendesk.com). Returns 403 to automated fetchers.
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

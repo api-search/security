@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -81,6 +82,7 @@ auth_types:
 description: 'Paubox authenticates with static API keys issued per verified sending domain. There is no OAuth on any of the three REST APIs — OAuth 2.1 exists only in front of the MCP server. The header FORMAT differs between products, which is the most common integration mistake: Bearer for Email and Forms, `Token token=` for Marketing.'
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Paubox Authentication
 name_suffix: Authentication

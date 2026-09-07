@@ -84,6 +84,7 @@ api_specs:
   slug: pinwheel-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/openapi/pinwheel-webhooks-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

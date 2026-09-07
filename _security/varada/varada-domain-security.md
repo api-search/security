@@ -20,6 +20,7 @@ hosts:
 - host: www.varada.io
   https: false
   https_error: connection failed (curl exit 92, HTTP 000)
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

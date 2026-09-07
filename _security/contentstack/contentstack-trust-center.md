@@ -198,6 +198,7 @@ api_specs:
   slug: contentstack-voice-profiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-voice-profiles-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

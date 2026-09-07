@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: mpesa-account-balance-api-openapi.yml
@@ -72,6 +73,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: derived
 name: Mpesa Authentication
 name_suffix: Authentication

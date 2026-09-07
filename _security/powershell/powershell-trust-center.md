@@ -24,6 +24,7 @@ api_specs:
   slug: powershell-updates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/openapi/powershell-updates-api-openapi.yml
+certification_count: 1
 certifications:
 - GDPR
 description: ''

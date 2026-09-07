@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: election-assistance-commission-jsonapi-openapi.yml
+  format: yaml
+  label: EAC Content JSON:API
+  slug: eac
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-jsonapi-openapi.yml
 description: ''
 domains:
 - caa:
@@ -14,11 +21,12 @@ domains:
   domain: eac.gov
   spf: true
 hosts:
-- cert_expires: Sep  8 20:47:38 2026 GMT
+- cert_expires: Nov  6 21:17:45 2026 GMT
   host: www.eac.gov
   hsts: false
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -31,7 +39,7 @@ slug: election-assistance-commission-domain-security
 source_filename: election-assistance-commission-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eac.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 20:47:38 2026 GMT\n  hsts: false\ndomains:\n- domain: eac.gov\n  dnssec: true\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eac.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 21:17:45 2026 GMT\n  hsts: false\ndomains:\n- domain: eac.gov\n  dnssec: true\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/security/election-assistance-commission-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
@@ -39,4 +47,9 @@ tags:
 - Elections
 - Voting
 - Open Data
+- Voting-Systems
+- Certification
+- Government-Data
+- JSON-API
+- Public-Records
 ---

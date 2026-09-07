@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: Bonsai publishes a Vanta-hosted Trust Center at https://trust.hellobonsai.com. The page is a JavaScript-rendered Vanta trust report (title "Vanta", canonical https://trust.hellobonsai.com); specific named certifications and documents are gated behind the Vanta viewer and were not machine-extractable in this pass, so none are asserted here to avoid fabrication.
 kind: trust-center

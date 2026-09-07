@@ -46,6 +46,7 @@ hosts:
   https: true
   note: Atlassian Statuspage — no HSTS header returned.
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

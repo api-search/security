@@ -30,6 +30,7 @@ api_specs:
   slug: truora-validators-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-validators-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - ISO 30107

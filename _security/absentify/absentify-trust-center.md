@@ -42,6 +42,7 @@ api_specs:
   slug: absentify-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/openapi/absentify-workspace-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

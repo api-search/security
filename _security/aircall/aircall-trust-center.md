@@ -78,6 +78,7 @@ api_specs:
   slug: aircall-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aircall/refs/heads/main/openapi/aircall-webhooks-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

@@ -18,6 +18,7 @@ api_specs:
   slug: pyannoteai-streaming-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/openapi/pyannoteai-streaming-api-openapi.yml
+certification_count: 2
 certifications:
 - HIPAA
 - GDPR

@@ -228,6 +228,7 @@ api_specs:
   slug: sigma-computing-user-attributes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-user-attributes-api-openapi.yml
+certification_count: 11
 certifications:
 - SOC 1
 - SOC 2

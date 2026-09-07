@@ -24,6 +24,7 @@ api_specs:
   slug: voiceflow-variables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/openapi/voiceflow-variables-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

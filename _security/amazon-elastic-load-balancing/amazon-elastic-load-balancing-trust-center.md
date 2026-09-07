@@ -30,6 +30,7 @@ api_specs:
   slug: amazon-elastic-load-balancing-targets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/openapi/amazon-elastic-load-balancing-targets-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

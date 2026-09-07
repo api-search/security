@@ -42,6 +42,7 @@ api_specs:
   slug: missive-messages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-messages-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

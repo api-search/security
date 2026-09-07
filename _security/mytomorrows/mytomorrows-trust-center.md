@@ -24,6 +24,7 @@ api_specs:
   slug: mytomorrows-v1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-v1-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

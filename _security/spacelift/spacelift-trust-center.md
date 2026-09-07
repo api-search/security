@@ -6,6 +6,7 @@ api_specs:
   slug: spacelift-graphql-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spacelift/refs/heads/main/openapi/spacelift-graphql-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - FedRAMP

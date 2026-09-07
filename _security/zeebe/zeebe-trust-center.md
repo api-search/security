@@ -54,6 +54,7 @@ api_specs:
   slug: zeebe-user-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-user-tasks-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

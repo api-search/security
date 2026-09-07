@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: RUN.world is the only supported auth system for a game. The platform signs players in and hands the game their identity; games cannot run their own login. Programmatic/CLI access uses per-game opaque API keys.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Series Ai Authentication
 name_suffix: Authentication

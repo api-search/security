@@ -702,6 +702,7 @@ api_specs:
   slug: merge-subpackage-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-vendors-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

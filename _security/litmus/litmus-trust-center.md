@@ -36,6 +36,7 @@ api_specs:
   slug: litmus-tests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/openapi/litmus-tests-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

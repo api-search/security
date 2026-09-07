@@ -1158,6 +1158,7 @@ api_specs:
   slug: zoca-zoho-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/openapi/zoca-zoho-api-openapi.yml
+certification_count: 1
 certifications:
 - HIPAA
 description: ''

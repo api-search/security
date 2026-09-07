@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - openIdConnect
@@ -6,6 +7,7 @@ auth_types:
 description: The Fit Body Co (fitbody.mx) is a Shopify-hosted storefront and publishes no first-party developer API. The only authentication surface exposed on the host is Shopify's Customer Account API, whose OpenID Connect discovery document is served at /.well-known/openid-configuration (and /.well-known/oauth-authorization-server) with issuer https://shopify.com/authentication/24443367. This profile captures that OIDC/OAuth 2.0 surface verbatim from the live discovery document; it is a Shopify platform capability scoped to this shop, not a bespoke Fit Body Co API.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: The Fit Body Co Authentication
 name_suffix: Authentication

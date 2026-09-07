@@ -24,6 +24,7 @@ api_specs:
   slug: brandcast-websites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/openapi/brandcast-websites-api-openapi.yml
+certification_count: 3
 certifications:
 - count
 - named

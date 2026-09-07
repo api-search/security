@@ -36,6 +36,7 @@ api_specs:
   slug: amazon-finspace-tagging-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/openapi/amazon-finspace-tagging-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

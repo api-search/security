@@ -6,6 +6,7 @@ api_specs:
   slug: yubico-validation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/openapi/yubico-validation-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2 Type 2
 - FIPS 140-3

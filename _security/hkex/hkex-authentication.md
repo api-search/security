@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
 description: Authentication profile for HKEX's one documented RESTful API, the FINI API Gateway (IPO settlement). Access is restricted to registered market participants (HKSCC Participants, FINI banks, sponsors, advisers). Clients authenticate with OAuth 2.0 JWT-bearer grants (RFC 7523) against the HKEX Access Management (ForgeRock OpenAM) server, presenting two RS256-signed JWTs — an Agent Profile JWT (G1) and a Machine Profile JWT (G2) — whose RSA JSON Web Keys (RFC 7517) are pre-registered on the HKEX Access Management Portal. The AM server returns a FINI API JWT access token that is passed as a Bearer token on every FINI API call. The OMD market-data feeds and the Data Marketplace are not HTTP APIs and use licensing agreements / SFTP credentials instead.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Hkex Authentication
 name_suffix: Authentication

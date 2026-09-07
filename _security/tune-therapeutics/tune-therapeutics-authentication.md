@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Derived entirely from anonymously-readable discovery metadata and live challenge responses on tunetx.com. Tune Therapeutics publishes no authentication documentation of any kind — there is no developer portal, no auth guide, and no reference page. Everything below was read off the wire from the OAuth 2.1 authorization server and the WordPress REST API that the site's plugins expose.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Tune Therapeutics Authentication
 name_suffix: Authentication

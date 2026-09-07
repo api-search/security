@@ -30,6 +30,7 @@ api_specs:
   slug: altoira-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altoira/refs/heads/main/openapi/altoira-user-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

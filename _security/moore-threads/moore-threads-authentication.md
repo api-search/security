@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Every public Moore Threads API surface is bearer/opaque-token authenticated. There is no OAuth 2.0 authorization server, no OpenID Connect discovery document, no scope model and no mTLS on any published surface. Two distinct token issuance paths exist and they are not interchangeable: the AIBook speech APIs issue an Access Token by human request to named Moore Threads staff, while the KUAE Cloud Coding Plan issues a self-service API Key from a console after a plan is redeemed.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Moore Threads Authentication
 name_suffix: Authentication

@@ -39,6 +39,7 @@ hosts:
   https: true
   notes: WebSocket endpoint host (wss://stream.aisstream.io/v0/stream). A plain HTTPS GET returns 404; the socket is reached via the WebSocket upgrade.
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

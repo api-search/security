@@ -300,6 +300,7 @@ api_specs:
   slug: cerner-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-system-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

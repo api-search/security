@@ -120,6 +120,7 @@ api_specs:
   slug: cable-utilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-utilities-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type I
 description: ''

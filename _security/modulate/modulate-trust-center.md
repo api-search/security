@@ -66,6 +66,7 @@ api_specs:
   slug: modulate-velma-2-synthetic-voice-detection-batch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/openapi/modulate-velma-2-synthetic-voice-detection-batch-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

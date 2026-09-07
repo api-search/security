@@ -132,6 +132,7 @@ api_specs:
   slug: honeycomb-io-anomaly-detection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-anomaly-detection-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2
 - ISO 27001

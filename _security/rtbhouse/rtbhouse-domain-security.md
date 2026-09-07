@@ -51,6 +51,7 @@ hosts:
   https: true
   note: 'HSTS confirmed by direct probe on 2026-08-13 — HEAD https://api.panel.rtbhouse.com/v5/healthcheck returned 200 with strict-transport-security: max-age=31536000 (the automated probe recorded null because the host root returns an nginx 404).'
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: upstox-developer-api-openapi.yml
@@ -12,6 +13,7 @@ auth_types:
 description: 'Upstox authenticates every API call with an OAuth 2.0 bearer token issued through the authorization code flow. All logins happen on upstox.com — there is deliberately no endpoint that lets a third-party app collect a customer''s Upstox credentials — so an integrator redirects the customer to Upstox, receives a single-use authorization code on a pre-registered redirect URI, and exchanges it server-to-server for an access token. The operational wrinkle that shapes every automated integration is token lifetime: a standard access token lasts one trading day, so Upstox publishes three separate ways to get one (interactive, semi-automated via a notifier webhook, and manual from the dashboard) plus a long-lived read-only Analytics Token that trades daily re-auth for a registered static IP.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Upstox Authentication
 name_suffix: Authentication

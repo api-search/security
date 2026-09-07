@@ -138,6 +138,7 @@ api_specs:
   slug: kamino-yields-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kamino/refs/heads/main/openapi/kamino-yields-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

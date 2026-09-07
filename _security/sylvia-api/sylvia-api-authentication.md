@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: sylvia-api-live-api-openapi.yml
@@ -101,6 +102,7 @@ auth_types: []
 description: API key authentication, read from the provider-published specification.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Sylvia Api Authentication
 name_suffix: Authentication

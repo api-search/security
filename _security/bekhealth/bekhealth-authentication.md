@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: BEKhealth publishes no public API and no public authentication documentation. What it does expose anonymously is the OpenID Connect discovery document for its Auth0 custom-domain issuer at auth.bekhealth.com, which is the identity provider guarding both the customer application and the documentation portal at docs.bekhealth.com. This profile is derived entirely from that discovery document — it describes how BEKhealth authenticates users of its platform, not a published API authentication model, because no API contract is public.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Bekhealth Authentication
 name_suffix: Authentication

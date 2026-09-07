@@ -54,6 +54,7 @@ api_specs:
   slug: gitea-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-user-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

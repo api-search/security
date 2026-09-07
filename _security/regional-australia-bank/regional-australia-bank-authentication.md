@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: regional-australia-bank-banking-account-balances-api-openapi.yml
@@ -50,6 +51,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Regional Australia Bank Authentication
 name_suffix: Authentication

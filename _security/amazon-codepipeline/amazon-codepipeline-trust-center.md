@@ -246,6 +246,7 @@ api_specs:
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-updatepipeline-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/openapi/amazon-codepipeline-x-amz-target-codepipeline-20150709-updatepipeline-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

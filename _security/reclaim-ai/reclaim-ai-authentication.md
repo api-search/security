@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: reclaim-ai-account-time-schemes-api-openapi.yml
@@ -504,6 +505,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Reclaim Ai Authentication
 name_suffix: Authentication

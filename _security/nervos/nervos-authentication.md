@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - none
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Nervos Authentication
 name_suffix: Authentication

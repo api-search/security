@@ -36,6 +36,7 @@ api_specs:
   slug: scanner-lookup-tables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/openapi/scanner-lookup-tables-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - GDPR

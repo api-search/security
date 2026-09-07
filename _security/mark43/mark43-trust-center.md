@@ -90,6 +90,7 @@ api_specs:
   slug: mark43-warrants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mark43/refs/heads/main/openapi/mark43-warrants-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

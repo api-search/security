@@ -72,6 +72,7 @@ api_specs:
   slug: getaccept-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/openapi/getaccept-videos-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2 Type II
 - GDPR

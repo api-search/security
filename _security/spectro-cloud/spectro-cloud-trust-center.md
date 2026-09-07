@@ -252,6 +252,7 @@ api_specs:
   slug: spectro-cloud-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spectro-cloud/refs/heads/main/openapi/spectro-cloud-workspaces-api-openapi.yml
+certification_count: 1
 certifications:
 - FedRAMP
 description: ''

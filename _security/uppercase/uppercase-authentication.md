@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: Authentication profile for the uppercase storefront's machine surfaces, captured from the OIDC discovery and OAuth authorization-server documents served on uppercase.co.in (Shopify customer accounts, issuer https://shopify.com/authentication/67539140858). Customer-facing API and MCP access uses OAuth 2.0 authorization-code with PKCE (S256) plus refresh tokens and JWT bearer grant; unauthenticated read-only browsing of product and collection JSON is documented in /llms.txt. There is no first-party developer key program — auth is the Shopify platform surface on the store's own domain.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Uppercase Authentication
 name_suffix: Authentication

@@ -432,6 +432,7 @@ api_specs:
   slug: amazon-dms-x-amz-target-amazondmsv20160101-updatesubscriptionstoeventbridge-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/openapi/amazon-dms-x-amz-target-amazondmsv20160101-updatesubscriptionstoeventbridge-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

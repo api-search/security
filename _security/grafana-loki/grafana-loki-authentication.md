@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Grafana Loki deliberately ships no authentication. The Loki HTTP API reference states plainly: "authorization is not part of the Loki API. Authorization needs to be done separately, for example, using an open-source load-balancer such as NGINX." What Loki does carry natively is tenancy — the X-Scope-OrgID header — which is an isolation boundary, not a credential. Authentication is supplied by whatever fronts Loki: a reverse proxy for self-hosted deployments, HTTP Basic with an access policy token for Grafana Cloud Logs and Grafana Enterprise Logs, and OAuth 2.1 for the hosted Grafana Cloud MCP server.'
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Grafana Loki Authentication
 name_suffix: Authentication

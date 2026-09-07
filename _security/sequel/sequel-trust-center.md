@@ -72,6 +72,7 @@ api_specs:
   slug: sequel-platform-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-platform-api-openapi.yml
+certification_count: 0
 certifications: []
 description: Sequel runs a hosted Trust Center at trust.sequel.io, built on Vanta's trust-report product. https://sequel.io/security redirects to it, and the marketing navigation carries a "Security — Enterprise-grade, built in" entry pointing at the same surface.
 kind: trust-center

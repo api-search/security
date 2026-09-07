@@ -276,6 +276,7 @@ api_specs:
   slug: dow-jones-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/openapi/dow-jones-versions-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO/IEC 27001
 - ISAE 3000 (Revised) — Sanctions Assurance

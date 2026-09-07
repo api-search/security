@@ -324,6 +324,7 @@ api_specs:
   slug: cvent-event-cloud-venue-profiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-venue-profiles-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2
 - ISO 27001

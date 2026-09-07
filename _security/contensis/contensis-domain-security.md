@@ -42,6 +42,7 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -54,11 +55,16 @@ slug: contensis-domain-security
 source_filename: contensis-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.contensis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 10:01:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: contensis.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"starfieldtech.com\"\n  - 0 issue \"starfieldtech.com\"\n  - 0 iodef \"mailto:careports@zengenti.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.contensis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 10:01:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: contensis.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"starfieldtech.com\"\n  - 0 issue \"starfieldtech.com\"\n  - 0 iodef \"mailto:careports@zengenti.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/security/contensis-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CMS
 - Content
 - Headless CMS
+- Content Management
+- Digital Experience Platform
+- Content Delivery
+- Webhooks
+- Higher Education
 ---

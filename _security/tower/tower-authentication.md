@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -170,6 +171,7 @@ auth_types:
 description: 'Tower API authentication profile, from the OpenAPI securitySchemes and the API-keys documentation. Two schemes: an API key in the X-API-Key header (keys are prefixed sk-, created in Team Settings or via the create-api-key operation, and can be scoped down with the documented permission scopes — see scopes/tower-scopes.yml), and a Bearer access token issued as part of a Tower session (create-session / refresh-session; the CLI logs in via a device-login flow). Service accounts can mint their own API keys (create-service-account-api-key, team admin only). The describe-whoami operation returns an RS256-signed identity JWT verifiable against the JWKS at https://api.tower.dev/.well-known/jwks.json.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Tower Authentication
 name_suffix: Authentication

@@ -390,6 +390,7 @@ api_specs:
   slug: nexgen-cloud-vouchers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nexgen-cloud/refs/heads/main/openapi/nexgen-cloud-vouchers-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -507,6 +508,7 @@ auth_types:
 description: 'Salesloft''s authentication profile, read from the provider''s own API Basics pages and the live OAuth/OIDC discovery documents. This UPGRADES the earlier derived file: the Postman-derived OpenAPI in openapi/ declares three malformed schemes (noauthAuth, bearerAuth, and an "oauth2" scheme typed as http with no flows and no URLs), which describes the wire format but not the authorization model. Everything below is from the docs and from probed discovery metadata.'
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Salesloft Authentication
 name_suffix: Authentication

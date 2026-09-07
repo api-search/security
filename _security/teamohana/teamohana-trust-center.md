@@ -24,6 +24,7 @@ api_specs:
   slug: teamohana-scim-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/openapi/teamohana-scim-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

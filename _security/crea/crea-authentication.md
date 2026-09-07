@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: crea-destination-api-openapi.yml
@@ -43,6 +44,7 @@ auth_types:
 description: Every REALTOR.ca API is fronted by a single Duende/IdentityServer deployment at identity.crea.ca. Neither OpenAPI document declares a securityScheme - the derived pass over openapi/ found zero schemes across all three specs - so this profile is taken from the provider's own Authorization documentation and from the anonymous OpenID Connect discovery document, both harvested 2026-07-26. The only supported machine flow is OAuth 2.0 client credentials; credentials are issued by CREA and there is no self-serve path.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Crea Authentication
 name_suffix: Authentication

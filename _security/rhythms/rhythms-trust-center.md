@@ -78,6 +78,7 @@ api_specs:
   slug: rhythms-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-users-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

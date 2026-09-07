@@ -50,6 +50,7 @@ hosts:
 - evidence: NXDOMAIN — no A, AAAA or CNAME. No TLS, DNS or HTTP posture can be measured.
   host: api.opentestdata.org
   resolves: false
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

@@ -468,6 +468,7 @@ api_specs:
   slug: akkio-zapier-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/akkio/refs/heads/main/openapi/akkio-zapier-api-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 2
 - HIPAA

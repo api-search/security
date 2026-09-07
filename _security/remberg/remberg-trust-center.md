@@ -114,6 +114,7 @@ api_specs:
   slug: remberg-work-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-work-requests-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO/IEC 27001
 - GDPR

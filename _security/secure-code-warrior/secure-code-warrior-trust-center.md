@@ -60,6 +60,7 @@ api_specs:
   slug: secure-code-warrior-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/openapi/secure-code-warrior-users-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

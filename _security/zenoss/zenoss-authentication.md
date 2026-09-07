@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Authentication profile for the Virtana Service Observability API (formerly the Zenoss Cloud API). There are three distinct schemes across two API generations: the /v1 services take a long-lived key in a zenoss-api-key header, the legacy Collection Zone router API takes a key in a DIFFERENTLY NAMED z-api-key header, and on-premises Resource Manager router calls use HTTP Basic. There is no OAuth 2.0 or OpenID Connect flow on any API surface. OIDC, SAML and LDAP exist on the Zenoss/Virtana platform for interactive single sign-on to the web application, not for API clients.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Zenoss Authentication
 name_suffix: Authentication

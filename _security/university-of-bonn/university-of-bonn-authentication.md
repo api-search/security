@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: university-of-bonn-datasets-api-openapi.yml
@@ -32,6 +33,7 @@ auth_types:
 description: 'The University of Bonn operates its own authentication estate and publishes no public API authorization server. Its one genuinely public API surface — the bonndata Dataverse read subset and the two OAI-PMH endpoints — requires no credentials at all; everything credentialed terminates at the institution''s Shibboleth Identity Provider or at a per-account token issued by an institutional service. There is no developer self-service path: an unaffiliated developer cannot obtain a token for any Bonn system.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: University Of Bonn Authentication
 name_suffix: Authentication

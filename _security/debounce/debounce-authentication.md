@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - query
 api_specs:
@@ -37,6 +38,7 @@ auth_types:
 description: 'DeBounce authenticates every REST request with an API key passed as the `api` query-string parameter. There are no headers to set, no bearer tokens, no OAuth and no signing — which is exactly why the docs warn that the key must never be placed in client-side code. Two key classes exist with materially different posture: a private key with full account access, and a `public_`-prefixed key scoped to browser use with CORS domain allow-listing and a hard per-IP daily cap. The free Disposable Detector and Logo APIs are unauthenticated entirely. A separate OAuth 2.1 authorization server exists on debounce.com, but it belongs to the WordPress-hosted MCP endpoint, not to the validation API — see scopes/debounce-scopes.yml.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Debounce Authentication
 name_suffix: Authentication

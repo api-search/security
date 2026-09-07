@@ -252,6 +252,7 @@ api_specs:
   slug: ahrefs-web-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/openapi/ahrefs-web-analytics-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

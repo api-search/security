@@ -28,6 +28,7 @@ hosts:
   note: Unbounce/Cloudflare marketing host serving the affiliate-programme landing page. HEAD / returns 404; /partner-with-us/ returns 200.
   server: cloudflare
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

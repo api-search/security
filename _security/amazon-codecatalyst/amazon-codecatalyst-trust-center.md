@@ -24,6 +24,7 @@ api_specs:
   slug: amazon-codecatalyst-userdetails-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/openapi/amazon-codecatalyst-userdetails-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

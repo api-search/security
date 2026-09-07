@@ -78,6 +78,7 @@ api_specs:
   slug: bria-video-generation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/openapi/bria-video-generation-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: spaitial-files-api-openapi.yml
@@ -30,6 +31,7 @@ auth_types:
 description: The SpAItial Developer API authenticates with a bearer API key issued from the developer portal (developers.spaitial.ai). Keys are scoped and enforced server-side; the hosted MCP server accepts the same keys (BYOK) as either a Bearer token or an X-Spaitial-Api-Key header, and additionally advertises OAuth 2.0 in its MCP server card.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Spaitial Authentication
 name_suffix: Authentication

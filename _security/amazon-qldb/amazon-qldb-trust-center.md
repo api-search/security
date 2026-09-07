@@ -18,6 +18,7 @@ api_specs:
   slug: amazon-qldb-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/openapi/amazon-qldb-tags-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

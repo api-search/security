@@ -210,6 +210,7 @@ api_specs:
   slug: chronosphere-state-v1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-state-v1-api-openapi.json
+certification_count: 9
 certifications:
 - SOC 2
 - ISO 27001

@@ -330,6 +330,7 @@ api_specs:
   slug: validere-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/validere/refs/heads/main/openapi/validere-workflows-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

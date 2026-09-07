@@ -30,6 +30,7 @@ api_specs:
   slug: anysphere-sub-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/openapi/anysphere-sub-tokens-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

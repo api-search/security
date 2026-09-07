@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: indian-institute-of-technology-kharagpur-idr-opensearch-openapi.yml
@@ -19,6 +20,7 @@ auth_types:
 description: Authentication posture across IIT Kharagpur's surfaces. There is no API key issuance, no OAuth authorization server, no OpenID Connect discovery document and no published SAML metadata anywhere on the institute's public estate. The two callable surfaces recorded in this profile are entirely unauthenticated; everything else is behind an institute-built session SSO that is not federated and not documented.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Indian Institute Of Technology Kharagpur Authentication
 name_suffix: Authentication

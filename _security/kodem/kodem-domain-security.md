@@ -27,6 +27,7 @@ hosts:
   https: true
   note: HSTS observed on the authenticated 401 response (strict-transport-security max-age=15724800; includeSubDomains); the unauthenticated HEAD probe did not surface the header.
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

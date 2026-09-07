@@ -18,6 +18,7 @@ api_specs:
   slug: lmnt-speech-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lmnt/refs/heads/main/openapi/lmnt-speech-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

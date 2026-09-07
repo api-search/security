@@ -174,6 +174,7 @@ api_specs:
   slug: amazon-neptune-subnet-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-subnet-groups-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

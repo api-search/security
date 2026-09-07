@@ -54,6 +54,7 @@ api_specs:
   slug: idanalyzer-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/openapi/idanalyzer-webhook-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - HIPAA

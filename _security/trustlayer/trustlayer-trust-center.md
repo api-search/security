@@ -126,6 +126,7 @@ api_specs:
   slug: trustlayer-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/openapi/trustlayer-workspaces-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

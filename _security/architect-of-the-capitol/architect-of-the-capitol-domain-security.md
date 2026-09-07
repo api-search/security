@@ -39,7 +39,7 @@ domains:
   domain: aoc.gov
   spf: true
 hosts:
-- cert_expires: Aug 28 11:28:56 2026 GMT
+- cert_expires: Oct 26 15:15:31 2026 GMT
   host: www.aoc.gov
   hsts: true
   hsts_max_age: 31536000
@@ -47,6 +47,7 @@ hosts:
   tls_version: TLSv1.3
 - host: api.aoc.gov
   https: false
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
@@ -59,7 +60,7 @@ slug: architect-of-the-capitol-domain-security
 source_filename: architect-of-the-capitol-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aoc.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 11:28:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.aoc.gov\n  https: false\ndomains:\n- domain: aoc.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aoc.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 15:15:31 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.aoc.gov\n  https: false\ndomains:\n- domain: aoc.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/security/architect-of-the-capitol-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

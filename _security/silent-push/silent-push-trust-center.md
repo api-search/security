@@ -6,6 +6,7 @@ api_specs:
   slug: silent-push-api
   spec_type: Postman
   url: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/postman/silent-push-web-scanner.postman_collection.json
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

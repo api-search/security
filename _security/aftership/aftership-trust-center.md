@@ -204,6 +204,7 @@ api_specs:
   slug: aftership-warranty-registrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/openapi/aftership-warranty-registrations-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - ISO 27001

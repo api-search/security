@@ -42,6 +42,7 @@ api_specs:
   slug: scorecard-testsets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scorecard/refs/heads/main/openapi/scorecard-testsets-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

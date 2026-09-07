@@ -372,6 +372,7 @@ api_specs:
   slug: dotdigital-whatsapp-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-whatsapp-templates-api-openapi.yml
+certification_count: 4
 certifications:
 - ISO 27001
 - ISO 27701

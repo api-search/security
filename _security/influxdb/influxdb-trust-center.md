@@ -240,6 +240,7 @@ api_specs:
   slug: influxdb-write-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/influxdb/refs/heads/main/openapi/influxdb-write-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

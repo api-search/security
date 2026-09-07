@@ -150,6 +150,7 @@ api_specs:
   slug: openmercantil-stats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-stats-api-openapi.yml
+certification_count: 0
 certifications: []
 description: 'OpenMercantil has no trust portal in the vendor sense — no trust.domain subdomain, no document request flow, no auditor reports. What it has instead is a single public page, /seguridad, that functions as a trust center for a transparency-first open-data project: it enumerates implemented controls, named regulatory regimes, the vulnerability-disclosure process, and an explicit "what we deliberately do NOT do" section.'
 kind: trust-center

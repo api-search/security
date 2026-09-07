@@ -30,6 +30,7 @@ api_specs:
   slug: theneo-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/openapi/theneo-workspaces-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

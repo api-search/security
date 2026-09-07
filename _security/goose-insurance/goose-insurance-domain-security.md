@@ -27,6 +27,7 @@ hosts:
   https: true
   note: Zendesk consumer help center; blocks non-browser agents (403).
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

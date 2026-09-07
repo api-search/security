@@ -18,6 +18,7 @@ api_specs:
   slug: warp-schedules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/openapi/warp-schedules-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

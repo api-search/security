@@ -78,6 +78,18 @@ api_specs:
   slug: mistral-training-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-training-jobs-api-openapi.yml
+- filename: mistral-embeddings-api-openapi.yml
+  format: yaml
+  label: Mistral Embeddings API
+  slug: mistral-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-embeddings-api-openapi.yml
+- filename: mistral-moderation-api-openapi.yml
+  format: yaml
+  label: Mistral Moderation API
+  slug: mistral-moderation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-moderation-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -110,6 +122,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

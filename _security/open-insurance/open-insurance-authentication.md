@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - body
 - query
@@ -16,6 +17,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Open Insurance Authentication
 name_suffix: Authentication

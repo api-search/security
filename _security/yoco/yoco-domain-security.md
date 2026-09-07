@@ -81,6 +81,7 @@ hosts:
   http_version: HTTP/2
   https: true
   note: Marketing root; redirects (301).
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

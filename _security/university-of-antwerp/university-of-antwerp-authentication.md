@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: university-of-antwerp-irua-oai-pmh-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: 'How access is established across the University of Antwerp''s surfaces. There is no API key programme, no OAuth authorization server the institution operates for third parties, and no developer registration of any kind. Access is binary: metadata harvesting is fully anonymous, and everything else is behind institutional SAML single sign-on.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: University Of Antwerp Authentication
 name_suffix: Authentication

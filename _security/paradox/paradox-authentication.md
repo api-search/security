@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: paradox-authentication-api-openapi.yml
@@ -73,6 +74,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Paradox Authentication
 name_suffix: Authentication

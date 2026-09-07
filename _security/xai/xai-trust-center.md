@@ -6,6 +6,7 @@ api_specs:
   slug: xai-v1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/openapi/xai-v1-api-openapi.yml
+certification_count: 2
 certifications:
 - HIPAA
 - GDPR

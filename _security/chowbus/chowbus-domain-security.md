@@ -38,6 +38,7 @@ hosts:
   https: true
   note: legacy marketplace-era Rails backend
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

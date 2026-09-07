@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Verto Education exposes exactly one authenticated machine surface: the remote MCP endpoint at https://vertoeducation.org/wp-json/mcp/mcp-oauth-server, fronted by an OAuth 2.0 authorization server on the same origin. This profile is read directly from the two live discovery documents (RFC 8414 and RFC 9728), not from an OpenAPI securityScheme - Verto publishes no OpenAPI. There is no public developer portal, no API key programme, and no documented auth page; everything recorded here was established by probe.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Verto Education Authentication
 name_suffix: Authentication

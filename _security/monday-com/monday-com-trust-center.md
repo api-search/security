@@ -12,6 +12,7 @@ api_specs:
   slug: monday-com-monday-com-platform-graphql-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/openapi/monday-com-monday-com-platform-graphql-api-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2
 - ISO 27001

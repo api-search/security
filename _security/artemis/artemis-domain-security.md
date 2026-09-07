@@ -30,6 +30,12 @@ api_specs:
   slug: artemis-neows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/openapi/artemis-neows-api-openapi.yml
+- filename: artemis-techport-swagger.json
+  format: json
+  label: NASA TechPort API
+  slug: nasa-techport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/openapi/artemis-techport-swagger.json
 description: ''
 domains:
 - caa: []
@@ -39,24 +45,25 @@ domains:
   domain: nasa.gov
   spf: true
 hosts:
-- cert_expires: Sep  9 00:21:08 2026 GMT
+- cert_expires: Nov  9 23:22:58 2026 GMT
   host: www.nasa.gov
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 31 19:21:07 2026 GMT
+- cert_expires: Oct 30 19:21:05 2026 GMT
   host: api.nasa.gov
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 13 23:59:59 2026 GMT
+- cert_expires: Mar 16 23:59:59 2027 GMT
   host: technology.nasa.gov
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
@@ -69,7 +76,7 @@ slug: artemis-domain-security
 source_filename: artemis-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nasa.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 00:21:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.nasa.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 19:21:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: technology.nasa.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: nasa.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nasa.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 23:22:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.nasa.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 19:21:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: technology.nasa.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 16 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: nasa.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/security/artemis-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

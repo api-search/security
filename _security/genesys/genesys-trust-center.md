@@ -522,6 +522,7 @@ api_specs:
   slug: genesys-workforce-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/openapi/genesys-workforce-management-api-openapi.yml
+certification_count: 14
 certifications:
 - SOC 1 Type 2
 - SOC 2 Type 2

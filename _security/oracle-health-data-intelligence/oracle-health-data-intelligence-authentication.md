@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: oracle-health-data-intelligence-populations-api-openapi.yml
@@ -13,6 +14,7 @@ auth_types:
 description: Authentication profile for the Oracle Health Data Intelligence (formerly Cerner HealtheIntent) APIs, read from the provider's own developer-portal Getting Started section and confirmed against a live unauthenticated request to the demo tenant.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Oracle Health Data Intelligence Authentication
 name_suffix: Authentication

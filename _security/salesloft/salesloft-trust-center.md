@@ -498,6 +498,7 @@ api_specs:
   slug: salesloft-webhook-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/openapi/salesloft-webhook-subscriptions-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2
 - ISO 27001

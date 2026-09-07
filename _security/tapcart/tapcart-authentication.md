@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -38,6 +39,7 @@ auth_types:
 description: 'Tapcart''s authentication surface is not uniform: the three public API surfaces each use a different credential. The Development API (App Studio) declares HTTP bearer with a JWT in its OpenAPI and applies it globally. The Insights Metrics API uses a static per-organization api-key header alongside an app-id header. The CLI and its bundled MCP server authenticate a human through an Auth0 browser login and cache the result in ~/.tapcart/auth.json. The published auth page documents the first two interchangeably ("Authorization: Bearer ${accessToken}" or "api-key"), without stating which surface takes which.'
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Tapcart Authentication
 name_suffix: Authentication

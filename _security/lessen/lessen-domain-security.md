@@ -32,6 +32,7 @@ hosts:
   https: true
   note: Lessen Pro affiliate/contractor product on a separate registrable domain
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

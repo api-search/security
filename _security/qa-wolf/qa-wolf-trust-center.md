@@ -12,6 +12,7 @@ api_specs:
   slug: qa-wolf-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/openapi/qa-wolf-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

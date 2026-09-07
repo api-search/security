@@ -954,6 +954,7 @@ api_specs:
   slug: stripe-webhook-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/openapi/stripe-webhook-endpoints-api-openapi.yml
+certification_count: 9
 certifications:
 - PCI DSS
 - SOC 1 Type II

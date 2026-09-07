@@ -18,6 +18,7 @@ api_specs:
   slug: snyk-container-targets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/openapi/snyk-container-targets-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

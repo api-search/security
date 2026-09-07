@@ -216,6 +216,7 @@ api_specs:
   slug: lucidya-ltd-themes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/openapi/lucidya-ltd-themes-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 2
 - ISO 27001

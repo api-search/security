@@ -54,6 +54,7 @@ api_specs:
   slug: tekmetric-vehicles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-vehicles-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

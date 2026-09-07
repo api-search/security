@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: artlist-album-api-openapi.yml
@@ -30,6 +31,7 @@ auth_types:
 description: The Artlist Enterprise API is protected by an OAuth 2.0 client-credentials flow against an Amazon Cognito authorization server, with credentials issued out-of-band by an Artlist account manager. Neither published OpenAPI document declares a securityScheme, so this profile is captured from the documentation rather than derived from the spec — see `spec_gap` below.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Artlist Authentication
 name_suffix: Authentication

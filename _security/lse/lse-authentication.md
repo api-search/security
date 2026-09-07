@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: lse-lti-api-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: How authentication actually works across LSE's programmable surfaces, split by who operates each one. LSE operates its own SAML2 identity provider and its own LTI 1.3 platform; everything else affiliated with the institution authenticates against a vendor's platform under an LSE tenancy.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Lse Authentication
 name_suffix: Authentication

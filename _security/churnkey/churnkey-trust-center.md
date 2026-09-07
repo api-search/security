@@ -30,6 +30,7 @@ api_specs:
   slug: churnkey-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/openapi/churnkey-sessions-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

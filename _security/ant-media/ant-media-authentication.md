@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: ant-media-broadcasts-api-openapi.yml
@@ -47,6 +48,7 @@ auth_types: []
 description: 'Ant Media Server is self-hosted, so authentication is configured per instance rather than issued by a vendor-run identity service. There is no API key or OAuth client to register: the operator turns filters on in the web panel or in red5.properties, and callers present a JWT signed with the instance''s own shared secret — or, for the management panel API, a session cookie obtained with an operator''s e-mail and MD5-hashed password.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Ant Media Authentication
 name_suffix: Authentication

@@ -36,6 +36,7 @@ api_specs:
   slug: microsoft-power-automate-flows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-flows-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 1
 - SOC 2 Type II

@@ -60,6 +60,7 @@ hosts:
   https: true
   note: internal admin tool on AWS Elastic Beanstalk; SPA catch-all returns 200 for every path
   tls_version: TLSv1.2
+hosts_probed: 7
 kind: domain-security
 layout: security
 method: probed

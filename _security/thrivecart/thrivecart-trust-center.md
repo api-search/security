@@ -66,6 +66,7 @@ api_specs:
   slug: thrivecart-upsells-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thrivecart/refs/heads/main/openapi/thrivecart-upsells-api-openapi.yml
+certification_count: 3
 certifications:
 - PCI DSS
 - GDPR

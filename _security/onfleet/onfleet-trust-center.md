@@ -54,6 +54,7 @@ api_specs:
   slug: onfleet-route-optimization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-route-optimization-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - GDPR

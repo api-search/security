@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Dealer.com runs two distinct, publicly documented authentication models, one per API family. The Dealer Developer Portal APIs (Accounts, Incentives, Inventory — the "Vehicle Consumer Display API") use a single API key issued on registration, passed either as an `api_key` query parameter or as a request header. The Website Integration API — the browser-side Integrated Partner Program surface — uses no key at call time; instead Dealer.com signs a JWT asserting that it rendered a given page, for a given account, on a given domain, with given vehicles, and publishes the rotating RSA public keys as a JWK Set the partner validates server-side before releasing paid content.
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Dealer Com Authentication
 name_suffix: Authentication

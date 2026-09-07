@@ -42,6 +42,7 @@ api_specs:
   slug: navan-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-webhooks-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

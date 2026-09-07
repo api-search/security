@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - openIdConnect
@@ -6,6 +7,7 @@ auth_types:
 description: Buyer identity on the Molekule storefront is handled by the Shopify Customer Account API, which publishes an OpenID Connect discovery document at /.well-known/openid-configuration. The issuer is the Shopify authentication service for this store (shopify.com/authentication/70884294938).
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Molekule Authentication
 name_suffix: Authentication

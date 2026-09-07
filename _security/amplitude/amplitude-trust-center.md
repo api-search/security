@@ -144,6 +144,7 @@ api_specs:
   slug: amplitude-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-versions-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

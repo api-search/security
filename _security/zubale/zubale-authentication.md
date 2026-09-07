@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: zubale-api-documentation-for-external-notification-handler-api-openapi.yml
@@ -55,6 +56,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: derived
 name: Zubale Authentication
 name_suffix: Authentication

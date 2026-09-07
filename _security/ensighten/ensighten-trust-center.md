@@ -78,6 +78,7 @@ api_specs:
   slug: ensighten-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/openapi/ensighten-users-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2 Type II
 - ISO 27001

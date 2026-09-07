@@ -65,6 +65,7 @@ hosts:
   tls_version: TLSv1.3
 - host: authorizer.prod.aserto.com
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

@@ -21,7 +21,7 @@ domains:
   domain: docontrol.io
   spf: true
 hosts:
-- cert_expires: Sep 30 08:31:32 2026 GMT
+- cert_expires: Nov 28 09:30:50 2026 GMT
   host: www.docontrol.io
   hsts: true
   hsts_max_age: 31536000
@@ -37,6 +37,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
@@ -49,10 +50,16 @@ slug: docontrol-domain-security
 source_filename: docontrol-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.docontrol.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 08:31:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apollo-gateway-v4-api.prod.docontrol.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 23:59:59 2026 GMT\n  hsts: null\n- host: auth.prod.docontrol.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: docontrol.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.docontrol.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 09:30:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apollo-gateway-v4-api.prod.docontrol.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 23:59:59 2026 GMT\n  hsts: null\n- host: auth.prod.docontrol.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: docontrol.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docontrol/refs/heads/main/security/docontrol-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Security
 - SaaS Security
+- Data Access Governance
+- Data Loss Prevention
+- Insider Risk Management
+- SSPM
+- GraphQL
+- MCP
 ---

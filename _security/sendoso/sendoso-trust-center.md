@@ -42,6 +42,7 @@ api_specs:
   slug: sendoso-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-users-api-openapi.yml
+certification_count: 0
 certifications: []
 description: 'Sendoso runs a Vanta-hosted Trust Center at security.sendoso.com. It answers HTTP 200, but it is a client-rendered single-page application: the 5.7 KB HTML the server actually delivers contains the title "Sendoso Trust Center" and nothing else — no certification name, no control, no document list. Certifications are therefore NOT recorded here, because none were readable. That is a measurement of the surface, not a claim about Sendoso''s compliance posture.'
 kind: trust-center

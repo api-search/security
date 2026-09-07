@@ -60,6 +60,7 @@ api_specs:
   slug: accredible-team-members-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-team-members-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

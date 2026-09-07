@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - query
 api_specs:
@@ -14,6 +15,7 @@ auth_types:
 description: Authentication profile for the Google Drive API v3. The captured OpenAPI does not declare securitySchemes, so this profile was upgraded from Google's Drive auth documentation. All Drive API requests require an OAuth 2.0 access token (three-legged for user data; two-legged service-account / domain-wide delegation for Workspace). API keys authenticate only fully public file reads. Scope detail lives in scopes/google-drive-scopes.yml.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Google Drive Authentication
 name_suffix: Authentication

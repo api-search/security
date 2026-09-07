@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - saml2
@@ -7,6 +8,7 @@ auth_types:
 description: The University of Adelaide operates its own authentication estate and does not publish a public API authorization server. Every credentialed surface below terminates at an institution-controlled identity provider; none issues tokens to an unaffiliated developer. The public, keyless surface of this institution — the DSpace REST API and its OAI-PMH endpoint — requires no authentication at all for read access.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: probed
 name: University Of Adelaide Authentication
 name_suffix: Authentication

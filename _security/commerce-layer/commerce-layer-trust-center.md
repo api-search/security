@@ -888,6 +888,7 @@ api_specs:
   slug: commerce-layer-wire-transfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/commerce-layer/refs/heads/main/openapi/commerce-layer-wire-transfers-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

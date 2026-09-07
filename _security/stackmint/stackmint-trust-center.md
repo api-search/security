@@ -12,6 +12,7 @@ api_specs:
   slug: stackmint-clients-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stackmint/refs/heads/main/openapi/stackmint-clients-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

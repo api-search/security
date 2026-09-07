@@ -49,6 +49,7 @@ hosts:
   tls_version: TLSv1.3
 - host: batch.core.windows.net
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

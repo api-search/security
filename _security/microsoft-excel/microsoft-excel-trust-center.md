@@ -54,6 +54,7 @@ api_specs:
   slug: microsoft-excel-worksheets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-worksheets-api-openapi.yml
+certification_count: 12
 certifications:
 - SOC 1
 - SOC 2

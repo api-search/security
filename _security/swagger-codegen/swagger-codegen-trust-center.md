@@ -42,6 +42,7 @@ api_specs:
   slug: swagger-codegen-servers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/openapi/swagger-codegen-servers-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO/IEC 27001

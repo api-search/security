@@ -83,6 +83,7 @@ hosts:
   https: false
 - host: app.mostly.ai
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

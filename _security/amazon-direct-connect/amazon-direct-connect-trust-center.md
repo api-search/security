@@ -378,6 +378,7 @@ api_specs:
   slug: amazon-direct-connect-x-amz-target-overtureservice-updatevirtualinterfaceattributes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-direct-connect/refs/heads/main/openapi/amazon-direct-connect-x-amz-target-overtureservice-updatevirtualinterfaceattributes-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

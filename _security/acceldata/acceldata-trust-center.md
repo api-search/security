@@ -60,6 +60,7 @@ api_specs:
   slug: acceldata-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/openapi/_original/acceldata-tags-api-openapi.json
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

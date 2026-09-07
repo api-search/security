@@ -6,6 +6,7 @@ api_specs:
   slug: v3-api
   spec_type: OpenAPI
   url: https://github.com/recurly/recurly-client-spec
+certification_count: 4
 certifications:
 - SOC 2
 - PCI DSS

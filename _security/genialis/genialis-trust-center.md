@@ -30,6 +30,7 @@ api_specs:
   slug: genialis-saml-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/genialis/refs/heads/main/openapi/genialis-saml-auth-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - HIPAA

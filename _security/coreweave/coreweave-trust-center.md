@@ -6,6 +6,7 @@ api_specs:
   slug: coreweave-clusters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coreweave/refs/heads/main/openapi/coreweave-clusters-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2
 - ISO 27001

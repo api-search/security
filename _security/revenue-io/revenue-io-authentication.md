@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - application-configuration
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Revenue Io Authentication
 name_suffix: Authentication

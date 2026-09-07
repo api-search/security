@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: lever-webhooks-asyncapi.yml
@@ -121,6 +122,7 @@ auth_types:
 description: Lever runs two distinct credential models against the same Data API base (https://api.lever.co/v1). HTTP Basic with an API key is for a customer's own internal workflows; OAuth 2.0 authorization code is the ONLY path for a third-party product integration and requires the app to be registered through the Lever partner program. All requests must be HTTPS; unencrypted HTTP is rejected.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Lever Co Authentication
 name_suffix: Authentication

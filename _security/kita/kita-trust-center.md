@@ -84,6 +84,7 @@ api_specs:
   slug: kita-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - ISO 27001

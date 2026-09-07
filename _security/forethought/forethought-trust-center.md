@@ -18,6 +18,7 @@ api_specs:
   slug: forethought-predictions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/openapi/forethought-predictions-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

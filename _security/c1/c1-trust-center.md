@@ -276,6 +276,7 @@ api_specs:
   slug: c1-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-webhook-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

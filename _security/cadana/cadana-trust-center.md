@@ -180,6 +180,7 @@ api_specs:
   slug: cadana-virtual-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/openapi/cadana-virtual-accounts-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

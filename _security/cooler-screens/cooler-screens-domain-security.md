@@ -41,6 +41,7 @@ hosts:
   https: false
   notes: DNS A record resolves to the same address as api.coolerx.com; TCP connections to 443 and 80 time out.
   reachable: false
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

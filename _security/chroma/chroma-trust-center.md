@@ -36,6 +36,13 @@ api_specs:
   slug: chroma-tenants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-tenants-api-openapi.yml
+- filename: chroma-db-query-api-openapi.yml
+  format: yaml
+  label: Chroma Query API
+  slug: chroma-db-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-db-query-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

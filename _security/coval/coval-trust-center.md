@@ -150,6 +150,7 @@ api_specs:
   slug: coval-widgets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-widgets-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - GDPR

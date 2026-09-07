@@ -30,6 +30,7 @@ api_specs:
   slug: tropic-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/openapi/tropic-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

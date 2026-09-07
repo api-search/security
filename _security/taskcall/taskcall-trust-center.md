@@ -12,6 +12,7 @@ api_specs:
   slug: taskcall-incidents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/taskcall/refs/heads/main/openapi/taskcall-incidents-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

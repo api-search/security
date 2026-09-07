@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: A-Mark publishes no developer authentication documentation, but the A-Mark Trading Portal serves a live OAuth 2.0 / OpenID Connect discovery document that describes its token model in full. This artifact is read verbatim from that document plus a probe of the token endpoint itself; nothing here is inferred from prose.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: A Mark Precious Metals Authentication
 name_suffix: Authentication

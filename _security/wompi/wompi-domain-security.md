@@ -74,6 +74,7 @@ hosts:
   http_status: 403
   https: true
   note: Sandbox API host; bare requests without a valid test key return 403 (expected).
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

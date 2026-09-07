@@ -6,6 +6,54 @@ api_specs:
   slug: bob-api
   spec_type: OpenAPI
   url: https://apidocs.hibob.com/llms.txt
+- filename: hibob-attendance-api-openapi.yml
+  format: yaml
+  label: HiBob Attendance API
+  slug: hibob-attendance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/hibob-attendance-api-openapi.yml
+- filename: hibob-documents-api-openapi.yml
+  format: yaml
+  label: HiBob Documents API
+  slug: hibob-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/hibob-documents-api-openapi.yml
+- filename: hibob-employee-tables-api-openapi.yml
+  format: yaml
+  label: HiBob Employee Tables API
+  slug: hibob-employee-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/hibob-employee-tables-api-openapi.yml
+- filename: hibob-goals-api-openapi.yml
+  format: yaml
+  label: HiBob Goals API
+  slug: hibob-goals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/hibob-goals-api-openapi.yml
+- filename: hibob-hiring-api-openapi.yml
+  format: yaml
+  label: HiBob Hiring API
+  slug: hibob-hiring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/hibob-hiring-api-openapi.yml
+- filename: hibob-learning-api-openapi.yml
+  format: yaml
+  label: HiBob Learning API
+  slug: hibob-learning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/hibob-learning-api-openapi.yml
+- filename: hibob-people-api-openapi.yml
+  format: yaml
+  label: HiBob People API
+  slug: hibob-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/hibob-people-api-openapi.yml
+- filename: hibob-projects-api-openapi.yml
+  format: yaml
+  label: HiBob Projects API
+  slug: hibob-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/hibob-projects-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -33,6 +81,7 @@ hosts:
   hsts_max_age: 15552000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

@@ -1,4 +1,5 @@
 ---
+certification_count: 5
 certifications:
 - SOC 2 Type II
 - HITRUST Risk-Based (r2)

@@ -6,6 +6,7 @@ api_specs:
   slug: parabol-graphql-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/parabol/refs/heads/main/asyncapi/parabol-graphql-subscriptions-asyncapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type 2
 - GDPR

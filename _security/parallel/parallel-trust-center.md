@@ -48,6 +48,7 @@ api_specs:
   slug: parallel-responses-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/parallel/refs/heads/main/openapi/parallel-responses-api-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type I
 - SOC 2 Type II

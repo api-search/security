@@ -21,6 +21,7 @@ hosts:
   hsts_note: 'The probe recorded null because the host root (/) returns 404 with no HSTS header. A follow-up HEAD of the real API route https://ocpi.go-electra.com/ocpi/cpo/versions on 2026-08-17 returned 200 with `strict-transport-security: max-age=63072000; includeSubDomains`, so HSTS is present with a two-year max-age on the API surface itself.'
   https: true
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

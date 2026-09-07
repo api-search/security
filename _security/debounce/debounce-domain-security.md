@@ -93,6 +93,7 @@ hosts:
   https: true
   source: manual probe — added 2026-08-14 for the signup/dashboard host
   tls_version: TLSv1.3
+hosts_probed: 7
 kind: domain-security
 layout: security
 method: probed

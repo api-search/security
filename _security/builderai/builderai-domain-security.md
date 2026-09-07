@@ -10,6 +10,7 @@ domains:
 hosts:
 - host: www.builder.ai
   https: false
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

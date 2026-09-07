@@ -72,6 +72,7 @@ api_specs:
   slug: amazon-memorydb-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-users-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

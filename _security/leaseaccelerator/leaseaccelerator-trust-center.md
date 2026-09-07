@@ -54,6 +54,7 @@ api_specs:
   slug: leaseaccelerator-user-provisioning-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/openapi/leaseaccelerator-user-provisioning-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 2
 - SOC 1 Type 2

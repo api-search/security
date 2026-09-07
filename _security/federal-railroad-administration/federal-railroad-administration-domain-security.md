@@ -47,6 +47,7 @@ hosts:
   hsts: null
   https: true
   tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)'
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

@@ -12,6 +12,7 @@ api_specs:
   slug: ezee-pms-connectivity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ezee/refs/heads/main/openapi/ezee-pms-connectivity-api-openapi.yml
+certification_count: 2
 certifications:
 - PCI DSS
 - GDPR

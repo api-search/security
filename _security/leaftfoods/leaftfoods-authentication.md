@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: The Leaft Foods storefront exposes three distinct access modes — fully anonymous read-only storefront JSON, an agent-facing UCP/MCP endpoint whose write operations gate on buyer approval rather than an API key, and OpenID Connect customer-account login served by Shopify's hosted authorization server. There is no self-serve developer API-key programme published by Leaft Foods itself.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Leaftfoods Authentication
 name_suffix: Authentication

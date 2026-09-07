@@ -72,6 +72,7 @@ api_specs:
   slug: tavus-voices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tavus/refs/heads/main/openapi/tavus-voices-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

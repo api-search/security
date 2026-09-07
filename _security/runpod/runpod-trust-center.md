@@ -48,6 +48,7 @@ api_specs:
   slug: runpod-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-templates-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

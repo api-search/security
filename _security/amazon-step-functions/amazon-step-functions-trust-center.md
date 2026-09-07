@@ -222,6 +222,7 @@ api_specs:
   slug: amazon-step-functions-x-amz-target-awsstepfunctions-updatestatemachinealias-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/openapi/amazon-step-functions-x-amz-target-awsstepfunctions-updatestatemachinealias-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

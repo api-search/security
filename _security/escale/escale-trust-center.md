@@ -1,4 +1,5 @@
 ---
+certification_count: 4
 certifications:
 - CSA STAR Level 1
 - LGPD

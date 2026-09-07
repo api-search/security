@@ -1,4 +1,5 @@
 ---
+certification_count: 3
 certifications:
 - ISO/IEC 27001:2022
 - PCI DSS

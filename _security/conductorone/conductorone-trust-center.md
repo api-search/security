@@ -276,6 +276,7 @@ api_specs:
   slug: conductorone-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conductorone/refs/heads/main/openapi/conductorone-webhook-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

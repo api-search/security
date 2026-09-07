@@ -6,6 +6,7 @@ api_specs:
   slug: ostium-builder-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/asyncapi/ostium-labs-prices-asyncapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

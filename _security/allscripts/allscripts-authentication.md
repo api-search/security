@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for the Veradigm FHIR R4 API. The API supports SMART on FHIR (HL7 SMART App Launch) OAuth 2.0. Veradigm's own docs describe three distinct authentication paths, and the live smart-configuration document confirms three OAuth grant types and both public and confidential (symmetric + asymmetric/JWT) client types.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Allscripts Authentication
 name_suffix: Authentication

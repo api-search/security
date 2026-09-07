@@ -282,6 +282,7 @@ api_specs:
   slug: asana-workspace-memberships-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-workspace-memberships-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

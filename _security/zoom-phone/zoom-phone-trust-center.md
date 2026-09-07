@@ -306,6 +306,7 @@ api_specs:
   slug: zoom-phone-zoom-rooms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoom-phone/refs/heads/main/openapi/zoom-phone-zoom-rooms-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

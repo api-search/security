@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in:
 - header
 api_specs:
@@ -182,6 +183,7 @@ auth_types:
 description: 'CycleCalcs issues no API keys of its own and no request to www.cyclecalcs.com needs one. The direct /v2 API is keyless: every request, from anyone, is served at the free Basic tier. The paid tiers are sold through the RapidAPI marketplace and authenticate at RapidAPI''s gateway host, never at the origin. The MCP server is the one surface that does require a credential — and only to invoke a tool, not to browse one.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Cyclecalcs Authentication
 name_suffix: Authentication

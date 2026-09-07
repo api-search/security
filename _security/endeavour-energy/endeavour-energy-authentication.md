@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in:
 - query
 - header
@@ -22,6 +23,7 @@ auth_types:
 description: 'The Explore API is anonymous by default. Every one of the eight published datasets answers HTTP 200 with no credential of any kind — no signup, no key, no licence click-through. The OpenAPI contract declares exactly one security scheme (an apiKey in the query string), but that understates the platform: the docs and the live host also support an Authorization header form, portal session cookies, and a full OAuth2 authorization-code flow. The spec is thin; this profile is the superset.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Endeavour Energy Authentication
 name_suffix: Authentication

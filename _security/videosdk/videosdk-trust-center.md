@@ -42,6 +42,7 @@ api_specs:
   slug: videosdk-track-recordings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-track-recordings-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

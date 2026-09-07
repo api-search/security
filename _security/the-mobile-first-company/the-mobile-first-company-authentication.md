@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -86,6 +87,7 @@ auth_types:
 description: 'Every Allo API request requires authentication in the Authorization header. The primary method is a scoped API key (Settings > API) sent as `Authorization: Api-Key ak_live_<key>`. OAuth 2.0 is additionally supported for OAuth clients and the hosted MCP server (authorization server api.withallo.com). API access is not available on trial plans.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: The Mobile First Company Authentication
 name_suffix: Authentication

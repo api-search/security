@@ -45,6 +45,7 @@ hosts:
   host: status.takeoff.com
   hsts: null
   https: false
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

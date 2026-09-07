@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: tps-engage-play-api-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Tps Engage Authentication
 name_suffix: Authentication

@@ -12,6 +12,7 @@ api_specs:
   slug: b-well-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/openapi/b-well-webhook-api-openapi.yml
+certification_count: 3
 certifications:
 - HITRUST
 - NIST Cybersecurity Framework (CSF)

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: inth-consent-api-openapi.yml
@@ -35,6 +36,7 @@ auth_types: []
 description: The c15t consent backend authenticates server-side requests with a Bearer API key. Browser-facing endpoints (init, status) are public and unauthenticated so the client SDK can bootstrap a banner without exposing a secret.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Inth Authentication
 name_suffix: Authentication

@@ -18,6 +18,7 @@ api_specs:
   slug: akka-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/akka/refs/heads/main/openapi/akka-health-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

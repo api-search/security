@@ -26,6 +26,7 @@ hosts:
   hsts_note: 'Corrected by hand after the script recorded null: HEAD https://api.app.voyc.ai/ and GET https://api.app.voyc.ai/v3/organisation/ both return the header. max-age=60 is far below the 31536000 the HSTS preload list requires, so the preload directive is not effective and the protection window is one minute.'
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

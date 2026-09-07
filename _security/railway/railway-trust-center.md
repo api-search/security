@@ -6,6 +6,7 @@ api_specs:
   slug: public-api
   spec_type: Postman
   url: https://raw.githubusercontent.com/api-evangelist/railway/refs/heads/main/
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

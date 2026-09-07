@@ -1,4 +1,5 @@
 ---
+certification_count: 7
 certifications:
 - ISO 27001
 - GDPR/DSGVO

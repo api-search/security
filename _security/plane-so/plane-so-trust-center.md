@@ -66,6 +66,13 @@ api_specs:
   slug: plane-so-work-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-work-items-api-openapi.yml
+- filename: introduction
+  format: yaml
+  label: Plane REST API
+  slug: plane-rest-api
+  spec_type: OpenAPI
+  url: https://developers.plane.so/api-reference/introduction
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

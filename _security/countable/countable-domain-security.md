@@ -26,6 +26,7 @@ hosts:
   https: true
   note: legacy Countable host; HTTP 302 to https://www.myactionable.com/
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

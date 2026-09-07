@@ -6,6 +6,7 @@ api_specs:
   slug: scale3-blockchain-intelligence-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scale3/refs/heads/main/openapi/scale3-blockchain-intelligence-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

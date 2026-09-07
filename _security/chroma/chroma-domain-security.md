@@ -36,6 +36,12 @@ api_specs:
   slug: chroma-tenants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-tenants-api-openapi.yml
+- filename: chroma-db-query-api-openapi.yml
+  format: yaml
+  label: Chroma Query API
+  slug: chroma-db-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-db-query-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,6 +68,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

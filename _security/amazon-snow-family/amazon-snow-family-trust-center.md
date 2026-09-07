@@ -162,6 +162,7 @@ api_specs:
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-updatelongtermpricing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/openapi/amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-updatelongtermpricing-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

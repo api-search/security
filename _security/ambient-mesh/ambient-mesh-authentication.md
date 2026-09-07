@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Authentication profile for Ambient Mesh. Derived from documentation, not from an OpenAPI securitySchemes block — no OpenAPI exists for this provider (see x-coverage in apis.yml). Two distinct planes have to be kept apart here, and conflating them is the easy mistake: the CONFIGURATION plane is the operator''s own Kubernetes API server, and the DATA plane is workload-to-workload mTLS that Ambient Mesh itself provides.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Ambient Mesh Authentication
 name_suffix: Authentication

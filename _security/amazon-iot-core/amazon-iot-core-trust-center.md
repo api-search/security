@@ -420,6 +420,7 @@ api_specs:
   slug: amazon-iot-core-violations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-violations-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

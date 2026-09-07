@@ -18,6 +18,7 @@ api_specs:
   slug: gitea
   spec_type: OpenAPI
   url: https://gitea.io/api/swagger
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

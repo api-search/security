@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -87,6 +88,7 @@ auth_types:
 description: 'Similarweb authenticates its REST and Batch APIs with a single long-lived API key — no OAuth, no OIDC, no mTLS. The hosted MCP server is the one exception: it accepts the same API key in an `api-key` header OR an OAuth 2.1 bearer token from its own authorization server. Derived from the OpenAPI securitySchemes and upgraded from the provider''s authentication guide, which documents the key lifecycle the specs cannot express.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Similarweb Authentication
 name_suffix: Authentication

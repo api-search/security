@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - sdk-attribute
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: Authentication across Flower Labs' two surfaces. There is no first-party OpenAPI in the repo, so this profile is derived from the official docs rather than a spec. Flower Intelligence's confidential remote-compute service authenticates with an API key; the Flower framework's hosted control plane (SuperLink / SuperGrid) authenticates via `flwr login`.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Flower Authentication
 name_suffix: Authentication

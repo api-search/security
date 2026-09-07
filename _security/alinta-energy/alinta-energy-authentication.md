@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: alinta-energy-data-holder-customers-api-openapi.yml
@@ -63,6 +64,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Alinta Energy Authentication
 name_suffix: Authentication

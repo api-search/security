@@ -24,6 +24,7 @@ api_specs:
   slug: koala-io-sdk-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/openapi/koala-io-sdk-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - GDPR

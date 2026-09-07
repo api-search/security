@@ -132,6 +132,7 @@ api_specs:
   slug: athena-health-subscription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/openapi/athenahealth-subscription-api-openapi.yml
+certification_count: 9
 certifications:
 - HITRUST CSF Certified
 - PCI DSS

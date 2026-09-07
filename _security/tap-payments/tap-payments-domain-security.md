@@ -87,6 +87,7 @@ hosts:
   https: true
   note: Bare host returns HTTP 404; the API base path is /v2. Fronted by an AWS ELB in eu-west-1.
   tls_version: TLSv1.2
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

@@ -132,6 +132,7 @@ api_specs:
   slug: glean-verification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/openapi/glean-verification-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

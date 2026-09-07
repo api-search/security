@@ -42,6 +42,7 @@ hosts:
   hsts_include_subdomains: true
   hsts_max_age: 31536000
   https: true
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

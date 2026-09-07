@@ -8,11 +8,12 @@ domains:
   domain: js.org
   spf: true
 hosts:
-- cert_expires: Sep 29 14:27:59 2026 GMT
+- cert_expires: Nov 27 14:02:10 2026 GMT
   host: cheerio.js.org
   hsts: false
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -25,7 +26,7 @@ slug: cheerio-domain-security
 source_filename: cheerio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cheerio.js.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 14:27:59 2026 GMT\n  hsts: false\ndomains:\n- domain: js.org\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cheerio.js.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 14:02:10 2026 GMT\n  hsts: false\ndomains:\n- domain: js.org\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cheerio/refs/heads/main/security/cheerio-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:

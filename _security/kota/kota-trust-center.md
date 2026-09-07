@@ -216,6 +216,7 @@ api_specs:
   slug: kota-types-of-events-v2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-types-of-events-v2-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

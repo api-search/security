@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: 'Muse Finance API authentication. Every request must carry TWO credentials: a JWT bearer token in the Authorization header AND a static API key in the x-api-key header. Partners are issued an API key, Client ID and Client Secret by Muse (via technical-support@getmymuse.com), then exchange those for a short-lived JWT through a designated token-exchange endpoint before calling the API.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Muse Finance Authentication
 name_suffix: Authentication

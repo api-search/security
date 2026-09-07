@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: stoplight-versions-api-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: Authentication profile for the Stoplight surfaces. Stoplight publishes no consolidated API authentication reference; the two credential models below are the ones it actually documents.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Stoplight Authentication
 name_suffix: Authentication

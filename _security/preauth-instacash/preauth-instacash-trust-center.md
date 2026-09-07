@@ -6,6 +6,7 @@ api_specs:
   slug: preauth-instacash-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/openapi/preauth-instacash-orders-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001:2022
 - SOC 2 Type II

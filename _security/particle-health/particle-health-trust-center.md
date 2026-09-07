@@ -102,6 +102,7 @@ api_specs:
   slug: particle-health-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/openapi/particle-health-subscriptions-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

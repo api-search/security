@@ -66,6 +66,7 @@ api_specs:
   slug: canvas-lms-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/openapi/canvas-lms-users-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2
 - ISO 27001

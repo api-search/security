@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
 description: Bonsai's programmatic surface (its hosted MCP server) authenticates with OAuth 2.1 authorization-code flow using PKCE, driven by the AI client. There are no API keys to create or paste; on first call the user is directed to Bonsai to log in, approves in the browser, and the client receives a short-lived token (~15 minutes, auto-refreshed) that is passed through to Bonsai without being stored by the MCP server. Access is scoped to the user's existing Bonsai role.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Bonsai Authentication
 name_suffix: Authentication

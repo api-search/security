@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: blizzard-entertainment-achievements-api-openapi.yml
@@ -114,6 +115,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Blizzard Entertainment Authentication
 name_suffix: Authentication

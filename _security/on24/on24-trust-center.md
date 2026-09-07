@@ -36,6 +36,7 @@ api_specs:
   slug: on24-rest-registration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/on24/refs/heads/main/openapi/on24-rest-registration-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

@@ -18,6 +18,7 @@ api_specs:
   slug: paragon-tools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/openapi/paragon-tools-api-openapi.yml
+certification_count: 1
 certifications:
 - GDPR
 description: ''

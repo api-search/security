@@ -25,6 +25,7 @@ hosts:
   https: true
   server: nginx
   tls_version: TLSv1.2
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

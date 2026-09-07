@@ -1,4 +1,5 @@
 ---
+certification_count: 6
 certifications:
 - TAG Certified Against Fraud
 - IAB Tech Lab

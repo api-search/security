@@ -48,6 +48,7 @@ api_specs:
   slug: bandwidth-recordings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-recordings-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

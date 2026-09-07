@@ -34,6 +34,7 @@ hosts:
   https: true
   note: 'Consumer commerce host. Behind CloudFront + AWS WAF; non-static paths answer HTTP 202 with x-amzn-waf-action: challenge.'
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

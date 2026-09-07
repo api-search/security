@@ -6,6 +6,7 @@ api_specs:
   slug: narvar-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narvar/refs/heads/main/openapi/narvar-orders-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

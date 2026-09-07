@@ -22,6 +22,7 @@ hosts:
   https: true
   note: 'Production API host, added by hand — it is not named in apis.yml apis[] because MenuSifu publishes no API entry. Probed 2026-08-25: HTTP/2, no Strict-Transport-Security header, x-content-type-options nosniff and x-frame-options DENY present; highest TLS version negotiated by openssl s_client was TLSv1.2.'
   tls_version: TLSv1.2
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

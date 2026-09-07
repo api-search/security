@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: openapi-generator-clients-api-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: 'Authentication profile for the hosted OpenAPI Generator Online API. The result is an honest zero: the service is anonymous and open. derive-authentication.py produced no profile because the Swagger 2.0 document declares no securityDefinitions block at all, and a live unauthenticated GET returned 200, confirming that this is genuinely an open API rather than a spec that merely omits its scheme.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: derived
 name: Openapi Generator Authentication
 name_suffix: Authentication

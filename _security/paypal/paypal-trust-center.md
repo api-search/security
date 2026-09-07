@@ -222,6 +222,7 @@ api_specs:
   slug: paypal-webhooks-lookup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-webhooks-lookup-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - PCI P2PE

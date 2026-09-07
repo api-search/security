@@ -1,4 +1,5 @@
 ---
+certification_count: 5
 certifications:
 - HITRUST
 - PCI DSS v4.0.1

@@ -300,6 +300,7 @@ api_specs:
   slug: upsun-vouchers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/openapi/upsun-vouchers-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2 Type 2
 - ISO 27001

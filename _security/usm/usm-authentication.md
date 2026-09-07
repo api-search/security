@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: usm-repository-oai-pmh-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: How each Universiti Sains Malaysia surface authenticates, established by probing the live hosts on 2026-09-01. USM publishes no developer authentication documentation of any kind; every statement below comes from an observed response.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Usm Authentication
 name_suffix: Authentication

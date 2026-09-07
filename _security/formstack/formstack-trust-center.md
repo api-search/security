@@ -54,6 +54,7 @@ api_specs:
   slug: formstack-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/formstack/refs/heads/main/openapi/formstack-webhooks-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2
 - ISO 27001

@@ -774,6 +774,7 @@ api_specs:
   slug: aws-redshift-x-amz-target-redshiftdata-listtables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/openapi/aws-redshift-x-amz-target-redshiftdata-listtables-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

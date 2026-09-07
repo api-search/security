@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Clicktivated publishes no authentication documentation, issues no public API credentials, and exposes no OAuth or OIDC metadata. The only authentication surface is the login on its customer dashboard, which sits behind a Cloudflare managed challenge. Nothing here is derived from a spec — there is no spec.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Clicktivated Authentication
 name_suffix: Authentication

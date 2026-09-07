@@ -24,6 +24,7 @@ api_specs:
   slug: apptentive-raw-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/openapi/apptentive-raw-api-openapi.yml
+certification_count: 6
 certifications:
 - AICPA SOC 2 Type 2
 - ISO 27001

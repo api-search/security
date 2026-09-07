@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: 'Kizik exposes two distinct authentication postures: the agent commerce surface is anonymous at discovery time, and customer identity is OpenID Connect.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Kizik Authentication
 name_suffix: Authentication

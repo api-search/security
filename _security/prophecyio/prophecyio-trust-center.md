@@ -30,6 +30,7 @@ api_specs:
   slug: prophecyio-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/openapi/prophecyio-secrets-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

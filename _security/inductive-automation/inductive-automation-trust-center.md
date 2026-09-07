@@ -522,6 +522,7 @@ api_specs:
   slug: inductive-automation-vision-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/openapi/inductive-automation-vision-sessions-api-openapi.yml
+certification_count: 1
 certifications:
 - ISO 27001
 description: ''

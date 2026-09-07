@@ -48,6 +48,7 @@ api_specs:
   slug: weave-hq-scheduling-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/openapi/weave-scheduling-api-openapi.yml
+certification_count: 3
 certifications:
 - HIPAA
 - ISO 27001

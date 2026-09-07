@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -26,6 +27,7 @@ auth_types:
 description: Authentication profile for the Unblocked Public API and tooling surface, captured from the API quickstart, the published OpenAPI securitySchemes, the CLI auth docs, and the OAuth authorization-server metadata published at /.well-known/oauth-authorization-server on getunblocked.com.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Unblocked Authentication
 name_suffix: Authentication

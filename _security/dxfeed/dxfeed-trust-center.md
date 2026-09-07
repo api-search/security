@@ -192,6 +192,7 @@ api_specs:
   slug: dxfeed-valuation-ratio-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/openapi/dxfeed-valuation-ratio-controller-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

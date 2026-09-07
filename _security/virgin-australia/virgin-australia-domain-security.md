@@ -35,6 +35,7 @@ hosts:
   https: true
   note: Resolves and serves TLS but returns 404 at root and at every discovery path probed. Undocumented internal surface; not listed as an API.
   tls_version: TLSv1.2
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

@@ -12,6 +12,7 @@ api_specs:
   slug: nabla-transcription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nabla/refs/heads/main/openapi/nabla-transcription-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

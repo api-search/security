@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -68,11 +69,18 @@ api_specs:
   slug: plane-so-work-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-work-items-api-openapi.yml
+- filename: introduction
+  format: yaml
+  label: Plane REST API
+  slug: plane-rest-api
+  spec_type: OpenAPI
+  url: https://developers.plane.so/api-reference/introduction
 auth_types:
 - apiKey
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Plane So Authentication
 name_suffix: Authentication

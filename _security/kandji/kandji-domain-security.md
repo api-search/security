@@ -84,6 +84,12 @@ api_specs:
   slug: kandji-vulnerability-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-vulnerability-management-api-openapi.yml
+- filename: how-to-set-up-the-iru-endpoint-api-in-postman.md
+  format: yaml
+  label: Iru Endpoint Management API
+  slug: iru-endpoint-management-api
+  spec_type: Postman
+  url: https://docs.iru.com/en/endpoint/api/how-to-set-up-the-iru-endpoint-api-in-postman.md
 description: ''
 domains:
 - caa: []
@@ -122,6 +128,7 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

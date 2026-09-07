@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Solve Intelligence protects its public MCP surface with OAuth 2.0 bearer tokens issued by a first-party authorization server it operates at https://api.solveintelligence.com/auth. The deployment is standards-forward: the resource server advertises RFC 9728 protected-resource metadata, returns a conformant RFC 6750 WWW-Authenticate challenge naming both the metadata URL and the required scopes, and the authorization server publishes OpenID Connect discovery metadata. This is discoverable without credentials, which is why this profile can describe the auth model precisely even though the API itself is subscription-gated.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Solve Intelligence Authentication
 name_suffix: Authentication

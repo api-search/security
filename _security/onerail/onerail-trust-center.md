@@ -450,6 +450,7 @@ api_specs:
   slug: onerail-visibility-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/openapi/onerail-visibility-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - ISO/IEC 27001:2022

@@ -34,6 +34,7 @@ hosts:
   https: true
   note: Marketing/pop-ups single-page app; answers 200 with an HTML shell for every path including /.well-known/*.
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -86,6 +87,7 @@ auth_types:
 description: 'pVerify uses a two-factor-by-header model: an OAuth2 client-credentials bearer token obtained from POST /Token, sent alongside a Client-API-Id header that identifies the account. Both are required on every call. A small set of "one step" endpoints skips the token entirely and authenticates with Client-API-Id + Client-Secret headers, and one endpoint (GetPayerStatus) is documented as requiring no authentication at all.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Pverify Authentication
 name_suffix: Authentication

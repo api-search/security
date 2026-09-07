@@ -150,6 +150,7 @@ api_specs:
   slug: h2o-ai-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-tags-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 2
 - FedRAMP High

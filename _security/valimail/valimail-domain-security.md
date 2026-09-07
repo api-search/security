@@ -153,6 +153,7 @@ hosts:
   https: true
   note: Stage test server declared in the published Configuration/Account/Partner OpenAPI servers[].
   tls_version: TLSv1.2
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

@@ -102,6 +102,7 @@ api_specs:
   slug: vectranetworks-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vectranetworks/refs/heads/main/openapi/vectranetworks-users-api-openapi.yml
+certification_count: 0
 certifications: []
 description: Vectra AI operates a trust center at trust.vectra.ai. The hostname CNAMEs to trust.cname.drata.com (Drata Trust Center) and the endpoint answers HTTP 403 to non-browser clients (bot-gated), so the certification list could not be read programmatically. No named certifications are asserted here — only the verified existence and platform of the trust center. The security-programs probe found no security.txt, and no public bug-bounty program page on HackerOne/Bugcrowd/Intigriti was verified.
 kind: trust-center

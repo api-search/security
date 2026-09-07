@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -26,6 +27,7 @@ auth_types:
 description: StayingAPI runs two distinct auth surfaces. The REST API at api.stayingapi.com/v1 uses a Bearer API key with an environment-encoding prefix (stay_test_ = deterministic sandbox, stay_live_ = live). The hosted MCP server at mcp.stayingapi.com/mcp uses OAuth 2.1 with PKCE (S256) and dynamic client registration, advertised through RFC 8414 authorization server metadata and RFC 9728 protected-resource metadata. Both draw on the same account and the same single credit balance.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Stayingapi Authentication
 name_suffix: Authentication

@@ -18,6 +18,7 @@ api_specs:
   slug: salesforce-marketing-cloud-journeys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/openapi/salesforce-marketing-cloud-journeys-api-openapi.yml
+certification_count: 10
 certifications:
 - SOC 1
 - SOC 2

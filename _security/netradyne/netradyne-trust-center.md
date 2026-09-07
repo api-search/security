@@ -1,4 +1,5 @@
 ---
+certification_count: 5
 certifications:
 - ISO 27001:2022
 - ISO 27017:2015

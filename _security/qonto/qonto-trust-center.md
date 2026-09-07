@@ -78,6 +78,7 @@ api_specs:
   slug: qonto-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-webhooks-api-openapi.yml
+certification_count: 1
 certifications:
 - GDPR
 description: ''

@@ -42,6 +42,7 @@ hosts:
   https: false
   https_note: TCP connect to port 443 timed out on 2026-08-02; HTTP port 80 answers 301 to https://www.callistopublishing.com
   redirects_to: https://www.callistopublishing.com
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

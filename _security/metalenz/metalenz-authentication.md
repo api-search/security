@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: metalenz-press-releases-api-openapi.yml
@@ -47,6 +48,7 @@ auth_types: []
 description: Metalenz publishes no developer program and issues no API credentials. The WordPress REST content API behind metalenz.com is anonymously readable — no key, token, signature or account is required to read press releases, pages, media, taxonomies, search, oEmbed or the discovery metadata. The server declares exactly one authentication method in its own root document, WordPress application passwords, and that method gates only the write and privileged-read operations that are not part of the public surface. Separately, Metalenz runs a credential-gated documentation portal at docs.metalenz.com behind Microsoft Entra ID; that is a human login, not an API credential.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Metalenz Authentication
 name_suffix: Authentication

@@ -12,6 +12,7 @@ api_specs:
   slug: apriori-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/openapi/apriori-workflow-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO/IEC 27001
 - SOC 2

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - cookie
 api_specs:
@@ -152,6 +153,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 4
 method: derived
 name: Mcafee Authentication
 name_suffix: Authentication

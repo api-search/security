@@ -30,6 +30,7 @@ api_specs:
   slug: gravity-forms-results-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/openapi/gravity-forms-results-api-openapi.yml
+certification_count: 2
 certifications:
 - HIPAA
 - GDPR

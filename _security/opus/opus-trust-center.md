@@ -54,6 +54,7 @@ api_specs:
   slug: opus-transcripts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-transcripts-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

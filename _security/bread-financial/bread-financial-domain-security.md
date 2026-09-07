@@ -1,4 +1,59 @@
 ---
+api_specs:
+- filename: bread-checkout-openapi.json
+  format: json
+  label: BreadPay Checkout API
+  slug: bread-pay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/openapi/bread-checkout-openapi.json
+- filename: bread-merchant-operations-openapi.json
+  format: json
+  label: BreadPay Merchant Operations API
+  slug: merchant-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/openapi/bread-merchant-operations-openapi.json
+- filename: bread-servicing-openapi.json
+  format: json
+  label: BreadPay Servicing API
+  slug: servicing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/openapi/bread-servicing-openapi.json
+- filename: bread-buyer-management-openapi.json
+  format: json
+  label: BreadPay Buyer Management API
+  slug: buyer-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/openapi/bread-buyer-management-openapi.json
+- filename: bread-payments-openapi.json
+  format: json
+  label: BreadPay Payments API
+  slug: payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/openapi/bread-payments-openapi.json
+- filename: bread-foundations-openapi.json
+  format: json
+  label: BreadPay Foundations API
+  slug: foundations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/openapi/bread-foundations-openapi.json
+- filename: bread-webhook-openapi.json
+  format: json
+  label: BreadPay Webhook API
+  slug: webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/openapi/bread-webhook-openapi.json
+- filename: bread-program-openapi.json
+  format: json
+  label: BreadPay Program API
+  slug: program-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/openapi/bread-program-openapi.json
+- filename: bread-tradein-openapi.json
+  format: json
+  label: BreadPay Tradein API
+  slug: tradein-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/openapi/bread-tradein-openapi.json
 description: ''
 domains:
 - caa: []
@@ -35,6 +90,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

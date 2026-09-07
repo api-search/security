@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - apiKey
 description: Both RB2B REST surfaces authenticate with a single static account API key sent in a custom Api-Key request header. There is no OAuth 2.0, no OIDC, no bearer scheme, no HMAC request signing, no mutual TLS, and no scope model — one key grants the whole surface for the account it belongs to. RB2B publishes no OpenAPI, so this profile is read from the provider's documentation and its own shipped client rather than derived from securitySchemes.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Rb2B Authentication
 name_suffix: Authentication

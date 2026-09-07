@@ -48,6 +48,7 @@ api_specs:
   slug: jira-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/openapi/jira-projects-api-openapi.yml
+certification_count: 1
 certifications:
 - FedRAMP
 description: ''

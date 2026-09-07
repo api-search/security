@@ -30,6 +30,7 @@ api_specs:
   slug: tensorwave-training-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tensorwave/refs/heads/main/openapi/tensorwave-training-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: The AnyDesk my.anydesk I REST API authenticates with a License ID and an API Password supplied in an authentication request header. Credentials are issued by AnyDesk support against a customer number (On-Premises licenses generate them via the console REST-API command). No OpenAPI is published, so this profile is captured from the documentation rather than derived from a spec.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Anydesk Authentication
 name_suffix: Authentication

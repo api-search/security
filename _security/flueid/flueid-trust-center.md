@@ -96,6 +96,7 @@ api_specs:
   slug: flueid-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-settings-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 1
 - SOC 2 Type 2

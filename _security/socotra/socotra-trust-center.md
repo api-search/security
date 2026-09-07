@@ -108,6 +108,7 @@ api_specs:
   slug: socotra-work-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-work-management-api-openapi.yml
+certification_count: 8
 certifications:
 - ISO/IEC 27001
 - ISO/IEC 27001 Statement of Applicability

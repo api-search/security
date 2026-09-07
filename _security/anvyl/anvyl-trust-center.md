@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: Anvyl was acquired by Sage and its security/trust program is now run by the Sage Security Team. The published security-policy URL is carried in the Policy field of Anvyl's security.txt (served identically on www.anvyl.com, anvyl.com, and api.anvyl.com) and resolves to Sage's Trust & Security centre. Named certifications could not be verified from this pass because the Sage trust page returns HTTP 403 to automated fetches; certifications[] is left empty rather than asserting unverified claims. Because no specific compliance certification was verified, no Compliance pointer is emitted.
 kind: trust-center

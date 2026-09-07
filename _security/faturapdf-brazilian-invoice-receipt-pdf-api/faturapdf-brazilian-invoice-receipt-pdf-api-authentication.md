@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -13,6 +14,7 @@ auth_types:
 description: A single API key in a header, issued and validated by the RapidAPI gateway. FaturaPDF issues no credentials of its own, stores no accounts, and cannot rotate or revoke a key — that is entirely RapidAPI's surface. Derived from the OpenAPI securitySchemes and upgraded from the provider's api-onboarding descriptor (aod 0.1) and integration guides.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Faturapdf Brazilian Invoice Receipt Pdf Api Authentication
 name_suffix: Authentication

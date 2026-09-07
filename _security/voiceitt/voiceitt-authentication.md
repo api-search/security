@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: voiceitt-websockets-asyncapi.yml
@@ -24,6 +25,7 @@ auth_types:
 description: Voiceitt uses JSON Web Tokens (JWT) for authenticated sessions. Apps obtain tokens by POSTing an App ID and API key to /v1/auth/login/user_id (speaker-independent mode, optionally scoped to a user_id) or App ID, API key, email and password to /v1/auth/login/email (personalized mode — the end user must first enroll and train at https://web.voiceitt.com/). The returned JWT is passed as a Bearer token in the HTTP header of each call to the transcribe endpoint, or in the auth option (token + refresh_token) when initializing a WebSockets (Socket.IO) connection. Tokens carry token_expires_at / refresh_token_expires_at timestamps and are renewed by POSTing the refresh_token to /v1/auth/refresh_token (HTTP) or emitting the refresh_token event (WebSockets).
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Voiceitt Authentication
 name_suffix: Authentication

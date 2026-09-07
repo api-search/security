@@ -39,6 +39,7 @@ hosts:
   https: true
   note: Added by hand — the SCIM API host is the 4th host on this provider and fell outside the probe script's max_hosts window. Observed 2026-08-13 on https://api.platform.saleo.io/scim/v2/Users (HTTP 401, HTTP/2, TLS verify ok).
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

@@ -1,4 +1,5 @@
 ---
+certification_count: 5
 certifications:
 - ISO/IEC 27001:2022
 - ISO/IEC 42001:2023

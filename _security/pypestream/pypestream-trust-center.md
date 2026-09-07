@@ -162,6 +162,7 @@ api_specs:
   slug: pypestream-transcript-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/openapi/pypestream-transcript-api-openapi.yml
+certification_count: 3
 certifications:
 - read_from_source
 - claims

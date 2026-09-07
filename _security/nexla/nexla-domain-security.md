@@ -469,6 +469,7 @@ hosts:
   https: true
   note: Nexla GenAI / MCPaaS host — serves the public OpenAPI and the remote MCP endpoint. No HSTS.
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

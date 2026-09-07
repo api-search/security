@@ -30,6 +30,7 @@ api_specs:
   slug: gov-uk-pay-refunding-card-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/openapi/gov-uk-pay-refunding-card-payments-api-openapi.yml
+certification_count: 1
 certifications:
 - PCI DSS
 description: ''

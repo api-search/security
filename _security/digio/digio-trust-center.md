@@ -24,6 +24,7 @@ api_specs:
   slug: digio-kyc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/openapi/digio-kyc-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - SOC 2

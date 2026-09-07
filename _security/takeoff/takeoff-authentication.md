@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Takeoff Technologies publishes no developer portal, no API reference and no machine-readable contract anywhere on the public web, but api.takeoff.com is a live, actively-maintained API gateway. This profile is what could be established about its authentication model from OUTSIDE the wall, by unauthenticated probing only. It is NOT derived from a provider-published specification, and nothing here should be read as documentation Takeoff publishes — no `Authentication` pointer is wired into apis.yml for exactly that reason.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Takeoff Authentication
 name_suffix: Authentication

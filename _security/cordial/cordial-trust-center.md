@@ -144,6 +144,7 @@ api_specs:
   slug: cordial-supplements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-supplements-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

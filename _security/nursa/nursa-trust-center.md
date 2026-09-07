@@ -78,6 +78,7 @@ api_specs:
   slug: nursa-webhook-logs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/openapi/nursa-webhook-logs-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

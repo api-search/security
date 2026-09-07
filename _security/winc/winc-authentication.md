@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authenticated buyer and agent actions against Winc's Shopify-hosted store use the Shopify Customer Account API, secured with OpenID Connect / OAuth 2.0 (authorization code + PKCE). Read-only catalog browsing over the storefront and UCP catalog tools is unauthenticated.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Winc Authentication
 name_suffix: Authentication

@@ -72,6 +72,7 @@ api_specs:
   slug: fipto-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/openapi/fipto-wallets-api-openapi.yml
+certification_count: 1
 certifications:
 - ISO/IEC 27001:2022
 description: ''

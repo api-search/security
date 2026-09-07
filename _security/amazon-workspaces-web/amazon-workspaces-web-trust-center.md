@@ -60,6 +60,7 @@ api_specs:
   slug: amazon-workspaces-web-usersettings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/openapi/amazon-workspaces-web-usersettings-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

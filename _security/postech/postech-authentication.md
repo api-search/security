@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: postech-oasis-oai-pmh-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: 'How POSTECH''s institution-operated machine-readable surfaces authenticate. Three distinct regimes are in play and they do not resemble a company''s: the OASIS repository''s OAI-PMH harvesting endpoint is fully anonymous, the PLMS Moodle Web Services REST interface is token-gated and returns a Moodle fault to anyone without one, and the LTI 1.3 platform on the same LMS runs a standards-defined OAuth 2.0 client-credentials flow with a signed JWT assertion. Separately, POSTECH operates its own SAML 2.0 identity provider for browser sign-in to campus services — federation infrastructure, not an API credential. Nothing on this surface is self-service for an outside developer.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Postech Authentication
 name_suffix: Authentication

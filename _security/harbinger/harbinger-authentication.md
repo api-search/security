@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: harbinger-posts-api-openapi.yml
@@ -59,6 +60,7 @@ auth_types: []
 description: Harbinger Motors publishes no developer program, no API key issuance, no OAuth application registration and no authentication documentation. The WordPress REST content API behind harbingermotors.com is anonymously readable and, anonymously, read-only. Everything below was observed on live responses on 2026-08-22.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Harbinger Authentication
 name_suffix: Authentication

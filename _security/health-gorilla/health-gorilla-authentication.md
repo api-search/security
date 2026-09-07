@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: health-gorilla-binary-api-openapi.yml
@@ -68,6 +69,7 @@ auth_types:
 description: Health Gorilla authenticates every API call with an OAuth 2.0 bearer access token and implements the SMART App Launch profile on top of FHIR. The authorization server is www.healthgorilla.com; the resource server is api.healthgorilla.com. Both a SMART configuration and an OpenID Connect discovery document are served anonymously from the API host, so the full endpoint set, grant set and scope set are machine-discoverable without onboarding. Scopes are bound to the client at registration and cannot be self-expanded.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Health Gorilla Authentication
 name_suffix: Authentication

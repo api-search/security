@@ -6,6 +6,7 @@ api_specs:
   slug: saviynt-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/openapi/saviynt-analytics-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

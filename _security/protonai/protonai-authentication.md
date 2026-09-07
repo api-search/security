@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -74,11 +75,18 @@ api_specs:
   slug: protonai-tracking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/protonai/refs/heads/main/openapi/protonai-tracking-api-openapi.yml
+- filename: postman.yaml
+  format: yaml
+  label: Proton API
+  slug: proton-api
+  spec_type: Postman
+  url: https://api.proton.ai/
 auth_types:
 - apiKey
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Protonai Authentication
 name_suffix: Authentication

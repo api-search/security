@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: trellistech-properties-api-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: 'Trellis supports two authentication methods for API and MCP access: workspace-scoped API keys for trusted server-side integrations and MCP clients, and programmatic session tokens for email/password flows that run under a specific Trellis user account.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Trellistech Authentication
 name_suffix: Authentication

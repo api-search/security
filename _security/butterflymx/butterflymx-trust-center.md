@@ -84,6 +84,7 @@ api_specs:
   slug: butterflymx-virtual-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/openapi/butterflymx-virtual-keys-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

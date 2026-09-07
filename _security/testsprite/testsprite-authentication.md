@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: TestSprite authenticates with a per-account API key created in the Web Portal (Settings -> API Keys -> Create new key). The key is verified by calling GET /me before it is stored. The CLI persists it locally at ~/.testsprite/credentials (INI-style, mode 0600) and supports named profiles; the MCP server takes the key via the API_KEY environment variable. Keys carry a fixed set of scopes (see scopes/testsprite-scopes.yml).
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Testsprite Authentication
 name_suffix: Authentication

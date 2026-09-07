@@ -1,4 +1,5 @@
 ---
+certification_count: 3
 certifications:
 - HITRUST CSF r2
 - SOC 2 Type I

@@ -205,6 +205,7 @@ hosts:
   https: true
   note: the live ETSI OpenSlice demo — the only production API host in this repo
   tls_version: TLSv1.2
+hosts_probed: 8
 kind: domain-security
 layout: security
 method: probed

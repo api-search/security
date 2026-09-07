@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Evolve publishes no developer program, no API reference and no OpenAPI, so there is no securityScheme block to derive an auth profile from. What this file records is what an anonymous probe could actually observe: one live OpenID Connect provider on an Evolve-controlled host, and two credentialed API surfaces whose auth mechanism is visible only from the outside.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Evolve Vacation Rental Network Authentication
 name_suffix: Authentication

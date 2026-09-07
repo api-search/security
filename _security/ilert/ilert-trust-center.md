@@ -198,6 +198,7 @@ api_specs:
   slug: ilert-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ilert/refs/heads/main/openapi/ilert-users-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

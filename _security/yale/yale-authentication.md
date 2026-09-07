@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: yale-search-api-openapi.yml
@@ -53,6 +54,7 @@ auth_types: []
 description: 'How authentication works across Yale University''s machine-readable surfaces. Yale is unusual for its cohort in running a genuinely bifurcated estate: an entirely open cultural-heritage and research-data tier that needs no credential at all, and an entirely closed administrative tier that needs a Yale NetID before a key can even be requested.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Yale Authentication
 name_suffix: Authentication

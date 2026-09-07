@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Authentication and access-control profile for The Clinician Platform (TCP), read from the enterprise capabilities and integration sections of the company''s own homepage. THIS IS NOT DERIVED FROM A CONTRACT: The Clinician publishes no OpenAPI, so there are no securitySchemes to read and no token endpoint, header name, scope string or grant type is public. What follows is the authentication MODEL the provider describes in prose, recorded so an integrator knows what to expect before the sales conversation — not a specification an agent can act on.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: The Clinician Authentication
 name_suffix: Authentication

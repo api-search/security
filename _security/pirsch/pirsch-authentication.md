@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: pirsch-access-links-api-openapi.yml
@@ -96,6 +97,7 @@ auth_types:
 description: Baseline derived mechanically from the OpenAPI securitySchemes, then upgraded from https://docs.pirsch.io/api-sdks/api-guide-v1 and https://docs.pirsch.io/api-sdks/api-v1, which document two distinct credential types the single http/bearer scheme in the spec does not distinguish.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Pirsch Authentication
 name_suffix: Authentication

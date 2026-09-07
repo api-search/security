@@ -36,6 +36,7 @@ api_specs:
   slug: amazon-ecr-putimage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-putimage-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

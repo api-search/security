@@ -18,6 +18,7 @@ api_specs:
   slug: constellation-space-topology-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/openapi/constellation-space-topology-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - mutualTLS
@@ -7,6 +8,7 @@ auth_types:
 description: 'The Jetstar API is a Navitaire New Skies (NSK 4.6) SOAP/WCF web service, not a REST product. Authentication is therefore not an OpenAPI securityScheme: it is a three-layer gate — transport-level mutual TLS with a Jetstar-issued client certificate, network-level source-IP allow-listing, and an application-level Navitaire session Signature that is obtained by a logon call and then carried on every subsequent request. Before any of that, a caller must be an IATA-accredited Jetstar Registered Travel Agent with separate Jetstar approval for API access.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Jetstar Authentication
 name_suffix: Authentication

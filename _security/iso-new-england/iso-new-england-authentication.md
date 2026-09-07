@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: iso-new-england-actualinterchange-api-openapi.yml
@@ -552,6 +553,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Iso New England Authentication
 name_suffix: Authentication

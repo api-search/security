@@ -1,4 +1,5 @@
 ---
+certification_count: 10
 certifications:
 - FedRAMP
 - FIPS 140

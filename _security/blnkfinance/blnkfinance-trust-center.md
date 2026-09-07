@@ -48,6 +48,7 @@ api_specs:
   slug: blnkfinance-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-transactions-api-openapi.yml
+certification_count: 5
 certifications:
 - ISO/IEC 27001
 - GDPR

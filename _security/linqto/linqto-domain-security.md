@@ -52,6 +52,7 @@ hosts:
   https: false
   note: DNS resolves to HubSpot knowledge-base hosting (group38.sites.hscoscdn30.net) but the TLS certificate is not provisioned - HTTPS fails with a handshake_failure alert and HTTP returns 409. The published help center is effectively unreachable.
   tls_version: null
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

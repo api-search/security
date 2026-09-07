@@ -294,6 +294,7 @@ api_specs:
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-updatedeploymentgroup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/openapi/amazon-codedeploy-x-amz-target-codedeploy-20141006-updatedeploymentgroup-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

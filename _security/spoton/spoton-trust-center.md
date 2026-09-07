@@ -90,6 +90,7 @@ api_specs:
   slug: spoton-waitlist-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spoton/refs/heads/main/openapi/spoton-waitlist-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - PCI DSS

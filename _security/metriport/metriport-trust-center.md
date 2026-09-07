@@ -42,6 +42,7 @@ api_specs:
   slug: metriport-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-user-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - HIPAA

@@ -38,6 +38,7 @@ hosts:
   https: unknown
   note: The gRPC API host declared in the portal's own environment config and CSP connect-src. Resolves to 52.230.151.22 (Microsoft Azure) but TCP 443 does not complete from the public internet, so no TLS or header posture can be measured. Firewalled, not absent.
   tls_version: null
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

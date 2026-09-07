@@ -180,6 +180,7 @@ api_specs:
   slug: emarsys-wishlist-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-wishlist-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 1
 - SOC 2

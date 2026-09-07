@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: gc-mutual-bank-banking-account-balances-api-openapi.yml
@@ -51,6 +52,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Gc Mutual Bank Authentication
 name_suffix: Authentication

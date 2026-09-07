@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: brightspace-assignments-api-openapi.yml
@@ -79,11 +80,24 @@ api_specs:
   slug: brightspace-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-versions-api-openapi.yml
+- filename: reference.html
+  format: yaml
+  label: Brightspace Learning Platform (LP) API
+  slug: brightspace-lp-api
+  spec_type: OpenAPI
+  url: https://docs.valence.desire2learn.com/reference.html
+- filename: brightspace-data-hub-api-openapi.yml
+  format: yaml
+  label: Brightspace Data Hub (BDS) API
+  slug: brightspace-data-hub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-data-hub-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Brightspace Authentication
 name_suffix: Authentication

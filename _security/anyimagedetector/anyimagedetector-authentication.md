@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -14,6 +15,7 @@ auth_types:
 description: AnyImageDetector uses a single static API key, presented either as an HTTP Bearer token or in an x-api-key header. There is no OAuth, no OpenID Connect, no mTLS, no scopes, no refresh and no token exchange — the key is the whole authorization model, and entitlement is enforced by plan and credit balance rather than by scope.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Anyimagedetector Authentication
 name_suffix: Authentication

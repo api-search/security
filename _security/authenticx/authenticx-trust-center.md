@@ -108,6 +108,7 @@ api_specs:
   slug: authenticx-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-workflows-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type I & II
 - HIPAA

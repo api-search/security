@@ -6,6 +6,7 @@ api_specs:
   slug: bucket-apps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bucket/refs/heads/main/openapi/bucket-apps-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

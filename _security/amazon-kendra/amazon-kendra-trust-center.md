@@ -48,6 +48,7 @@ api_specs:
   slug: amazon-kendra-thesaurus-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-thesaurus-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

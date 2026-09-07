@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - mutualTLS
@@ -8,6 +9,7 @@ auth_types:
 description: 'Lloyd''s market APIs are dual-credentialed. Every call carries TWO independent identifying security tokens: a client X.509 certificate presented on the mutual-TLS handshake to the London Market API Gateway (which identifies the calling APPLICATION via the certificate Subject CN), and an Authorization: Bearer JWT issued by the LIMOSS Common Services Azure Active Directory tenant (which identifies the PRINCIPAL). The bearer token must be an on-behalf-of token carrying an "scp" claim of user_impersonation - a plain OAuth 2.0 login token is explicitly not sufficient. There is no API-key path and no self-serve credential issuance: certificates are registered per environment through LIMOSS onboarding.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Lloyds Of London Authentication
 name_suffix: Authentication

@@ -192,6 +192,7 @@ api_specs:
   slug: pynt-vulnerability-instance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pynt/refs/heads/main/openapi/pynt-vulnerability-instance-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2 Type II
 - ISO 27001

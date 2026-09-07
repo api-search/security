@@ -30,6 +30,7 @@ api_specs:
   slug: uveye-public-links-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/openapi/uveye-public-links-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

@@ -84,6 +84,30 @@ api_specs:
   slug: apollo-io-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apollo-io/refs/heads/main/openapi/apollo-io-users-api-openapi.yml
+- filename: apollo-enrich-organization-enrichment-api-openapi.yml
+  format: yaml
+  label: Apollo.io Organization Enrichment API
+  slug: apollo-enrich-organization-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-io/refs/heads/main/openapi/apollo-enrich-organization-enrichment-api-openapi.yml
+- filename: apollo-enrich-organization-search-api-openapi.yml
+  format: yaml
+  label: Apollo.io Organization Search API
+  slug: apollo-enrich-organization-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-io/refs/heads/main/openapi/apollo-enrich-organization-search-api-openapi.yml
+- filename: apollo-enrich-people-enrichment-api-openapi.yml
+  format: yaml
+  label: Apollo.io People Enrichment API
+  slug: apollo-enrich-people-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-io/refs/heads/main/openapi/apollo-enrich-people-enrichment-api-openapi.yml
+- filename: apollo-enrich-people-search-api-openapi.yml
+  format: yaml
+  label: Apollo.io People Search API
+  slug: apollo-enrich-people-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-io/refs/heads/main/openapi/apollo-enrich-people-search-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -110,6 +134,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

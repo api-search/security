@@ -45,17 +45,18 @@ domains:
   domain: browserstack.com
   spf: true
 hosts:
-- cert_expires: Jul 29 06:21:55 2026 GMT
+- cert_expires: Sep 27 03:38:30 2026 GMT
   host: www.browserstack.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Jul 29 06:21:55 2026 GMT
+- cert_expires: Mar  5 23:59:59 2027 GMT
   host: api.browserstack.com
   hsts: null
   https: true
-  tls_version: TLSv1.3
+  tls_version: TLSv1.2
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
@@ -68,7 +69,7 @@ slug: browserstack-domain-security
 source_filename: browserstack-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.browserstack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 29 06:21:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.browserstack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 29 06:21:55 2026 GMT\n  hsts: null\ndomains:\n- domain: browserstack.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.browserstack.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 03:38:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.browserstack.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  5 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: browserstack.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/security/browserstack-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

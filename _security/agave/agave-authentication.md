@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -61,6 +62,7 @@ auth_types:
 description: 'Agave''s own API authenticates with three static credential headers plus a required version header; there is no OAuth, no bearer token and no token endpoint on the Agave API itself. OAuth exists in the product, but one layer down: Agave Link runs the OAuth dance against each SOURCE SYSTEM (Procore, Autodesk, QuickBooks, ...) on the user''s behalf and hands back an opaque Account Token. So a caller holds long-lived, non-expiring, non-scoped credentials that grant whatever the linked user granted — there is nothing to narrow. This artifact replaces an earlier derived profile that recorded a single "API-Key" header scheme; that scheme was an artefact of an API Evangelist-authored spec and does not exist on the live API. Verified live 2026-08-30: GET https://api.agaveapi.com/projects returns 401 {"error":"Invalid API-Version header"}.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Agave Authentication
 name_suffix: Authentication

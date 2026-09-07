@@ -216,6 +216,7 @@ api_specs:
   slug: planradar-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/openapi/planradar-videos-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

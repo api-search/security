@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - substrate-keypair-signature
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Bittensor Authentication
 name_suffix: Authentication

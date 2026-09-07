@@ -110,6 +110,7 @@ hosts:
   https: true
   role: Esri ArcGIS Online host serving EPCOR's public feature services
   tls_version: TLSv1.3
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

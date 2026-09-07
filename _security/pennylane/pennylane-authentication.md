@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: pennylane-account-api-openapi.yml
@@ -121,6 +122,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Pennylane Authentication
 name_suffix: Authentication

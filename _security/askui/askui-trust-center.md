@@ -90,6 +90,7 @@ api_specs:
   slug: askui-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-workspaces-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO/IEC 27001:2022
 - GDPR

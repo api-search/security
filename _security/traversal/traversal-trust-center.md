@@ -6,6 +6,7 @@ api_specs:
   slug: traversal-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/openapi/traversal-sessions-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - GDPR

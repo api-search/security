@@ -37,6 +37,7 @@ hosts:
   hsts_max_age: 259200
   https: true
   note: Atlassian Statuspage; status.lark.com CNAMEs here but does not serve TLS
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

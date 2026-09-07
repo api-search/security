@@ -30,6 +30,7 @@ api_specs:
   slug: marginedge-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/openapi/marginedge-vendors-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - PCI DSS

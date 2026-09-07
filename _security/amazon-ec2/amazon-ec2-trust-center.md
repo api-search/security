@@ -48,6 +48,7 @@ api_specs:
   slug: amazon-ec2-spot-instances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/openapi/amazon-ec2-spot-instances-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

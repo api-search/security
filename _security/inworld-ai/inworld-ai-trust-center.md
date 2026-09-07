@@ -42,6 +42,7 @@ api_specs:
   slug: inworld-ai-routers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/openapi/inworld-ai-routers-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

@@ -1,4 +1,5 @@
 ---
+certification_count: 5
 certifications:
 - HITRUST
 - ISO/IEC 27001:2022

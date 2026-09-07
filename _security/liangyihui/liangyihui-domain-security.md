@@ -18,6 +18,7 @@ hosts:
   https: true
   notes: private first-party API host; root returns Tomcat "Welcome to LYH!", server header Tengine
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

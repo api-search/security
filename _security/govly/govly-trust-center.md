@@ -66,6 +66,7 @@ api_specs:
   slug: govly-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-workspaces-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type I
 - CMMC Level 1

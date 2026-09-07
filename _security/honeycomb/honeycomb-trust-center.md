@@ -132,6 +132,7 @@ api_specs:
   slug: honeycomb-service-maps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-service-maps-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2
 - ISO 27001

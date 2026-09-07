@@ -30,6 +30,7 @@ api_specs:
   slug: cerebras-systems-tcp-warming-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/openapi/cerebras-systems-tcp-warming-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: hbku-fanar-api-openapi.yml
@@ -19,6 +20,7 @@ auth_types:
 description: Authentication across the two APIs Hamad Bin Khalifa University actually operates. Both are key-based and both require registration; neither offers OAuth, and neither publishes a scope vocabulary, so this repository carries no scopes/ artifact. This file replaces an earlier one derived from Figshare's OAuth contract, which described a vendor's authentication scheme and not the university's.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Hbku Authentication
 name_suffix: Authentication

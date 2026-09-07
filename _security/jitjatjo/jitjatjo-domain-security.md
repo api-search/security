@@ -34,6 +34,7 @@ hosts:
   hsts: false
   https: true
   note: Intercom-hosted help center on a Jitjatjo custom domain; no HSTS header.
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: ledge-sources-api-openapi.yml
@@ -18,6 +19,7 @@ auth_types:
 description: Ledge authenticates API callers with an OAuth 2.0 client_credentials grant issued by its Auth0 tenant, and authorizes them with a role-based fine-grained permissions model rather than with token scopes. Human access to the web application supports enterprise SAML 2.0 SSO with SCIM 2.0 provisioning.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Ledge Authentication
 name_suffix: Authentication

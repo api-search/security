@@ -40,6 +40,7 @@ hosts:
   https: true
   note: Production API gateway. Returns a JSON no-route 404 with a request_id to every anonymous path.
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

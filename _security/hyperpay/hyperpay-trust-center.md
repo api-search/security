@@ -24,6 +24,7 @@ api_specs:
   slug: hyperpay-registrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/openapi/hyperpay-registrations-api-openapi.yml
+certification_count: 2
 certifications:
 - PCI-DSS Level 1
 - SAMA (Saudi Central Bank) licensed payment service provider

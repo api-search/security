@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - request signature
 auth_types:
@@ -8,6 +9,7 @@ auth_types:
 description: Authentication profile for the Univers EnOS platform APIs, assembled from the first-party SDKs on the EnvisionIot GitHub org and the EnOS API documentation (the docs host itself was unreachable from the probe location; SDK sources are the verified evidence). No OpenAPI document is published, so this profile is searched rather than derived from securitySchemes.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Univers Authentication
 name_suffix: Authentication

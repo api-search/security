@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - apiKey
@@ -6,6 +7,7 @@ auth_types:
 description: 'How clients authenticate to Defined''s Codex GraphQL API (https://graph.codex.io/graphql). Three mechanisms: long-lived secret API keys, short-lived JWTs minted server-side for untrusted clients, and keyless pay-per-request access for agents via the Machine Payments Protocol.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Defined Authentication
 name_suffix: Authentication

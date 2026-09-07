@@ -48,6 +48,7 @@ api_specs:
   slug: amazon-iot-twinmaker-workspaces-list-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-workspaces-list-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

@@ -78,6 +78,7 @@ hosts:
   note: Only institution host probed without HSTS, and the only one on a domain-validated certificate rather than an OV certificate.
   tls_version: TLSv1.3
   x-operator: institution
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

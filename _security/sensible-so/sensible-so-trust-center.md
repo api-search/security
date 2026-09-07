@@ -42,6 +42,7 @@ api_specs:
   slug: sensible-so-retrieve-extractions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/openapi/sensible-so-retrieve-extractions-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

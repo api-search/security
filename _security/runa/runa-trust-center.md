@@ -24,6 +24,7 @@ api_specs:
   slug: runa-utilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/openapi/runa-utilities-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - PCI DSS

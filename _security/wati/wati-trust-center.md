@@ -18,6 +18,7 @@ api_specs:
   slug: wati-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/openapi/wati-templates-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

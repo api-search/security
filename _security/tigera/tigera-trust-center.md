@@ -24,6 +24,7 @@ api_specs:
   slug: tigera-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/openapi/tigera-version-api-openapi.yml
+certification_count: 5
 certifications:
 - CSA STAR
 - SOC 2

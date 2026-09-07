@@ -366,6 +366,7 @@ api_specs:
   slug: sumo-logic-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-users-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

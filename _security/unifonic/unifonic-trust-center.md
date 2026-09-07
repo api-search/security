@@ -42,6 +42,7 @@ api_specs:
   slug: unifonic-wrapper-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/openapi/unifonic-wrapper-api-openapi.yml
+certification_count: 7
 certifications:
 - ISO 27001
 - ISO 42001

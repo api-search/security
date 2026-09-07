@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - query
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: Xiaoe Open API authentication. Applications are created and authorized in the Xiaoe cloud console, then exchange app credentials for a short-lived access_token that is passed on every subsequent API call. There is no OAuth2 authorization-code / scope model — permissions are granted per-interface in the console and enforced server-side (return code 2017 on missing permission), with optional IP whitelisting (return code 2051).
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Sem Authentication
 name_suffix: Authentication

@@ -98,6 +98,7 @@ hosts:
   note: The only host in the estate that sets Strict-Transport-Security. Probed 2026-08-09; GET returns 405 Method Not Allowed (POST-only MCP endpoint) with the HSTS header present on the 405.
   server: envoy
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

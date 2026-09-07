@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: postman.yaml
@@ -11,6 +12,7 @@ auth_types: []
 description: Carefluence Open API R4 is a SMART-on-FHIR surface. Every resource call carries an OAuth 2.0 bearer token in the Authorization header; tokens are issued by a first-party IdentityServer-style OpenID Connect authorization server at https://core.carefluence.com/cf.admin.core. There is no API-key path.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Carefluence Authentication
 name_suffix: Authentication

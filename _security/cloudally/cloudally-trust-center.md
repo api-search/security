@@ -42,6 +42,7 @@ api_specs:
   slug: cloudally-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-users-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - HIPAA

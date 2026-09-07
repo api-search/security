@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - basic-auth-username
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: 'Rewardful has three distinct credentials, and they are easy to confuse: a SECRET used for HTTP Basic on the REST API, a PUBLIC key embedded in the browser tracking script, and a per-endpoint webhook Signing Secret. There is no OAuth, no OpenID Connect, no scopes and no per-key permissioning; the REST API Secret is all-or-nothing account access.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Rewardful Authentication
 name_suffix: Authentication

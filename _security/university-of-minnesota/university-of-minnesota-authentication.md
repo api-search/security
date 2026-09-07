@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: university-of-minnesota-gems-exchange-soil-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: How each University of Minnesota surface authenticates. Recorded per surface because the institution operates several unrelated surfaces with unrelated auth models, and two of them are run on vendor platforms under a UMN tenancy rather than by the University itself.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: University Of Minnesota Authentication
 name_suffix: Authentication

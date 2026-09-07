@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -21,6 +22,7 @@ auth_types:
 description: AutoGPT Platform runs two distinct authenticated surfaces on the same host. The External API (https://backend.agpt.co/external-api) is the documented, third-party-facing one and accepts either an account API key in an X-API-Key header or an OAuth 2.0 bearer token. The full Agent Server API (https://backend.agpt.co/api) is the app's own backend and is authenticated with a Supabase-issued JWT bearer; it is not documented for third parties.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Autogpt Authentication
 name_suffix: Authentication

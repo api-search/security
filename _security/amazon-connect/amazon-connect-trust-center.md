@@ -72,6 +72,7 @@ api_specs:
   slug: amazon-connect-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/openapi/amazon-connect-users-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

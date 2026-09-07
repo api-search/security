@@ -24,6 +24,7 @@ api_specs:
   slug: hotel-engine-lodgingshoppingservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/openapi/hotel-engine-lodgingshoppingservice-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

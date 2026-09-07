@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -27,6 +28,7 @@ auth_types:
 description: Three distinct authentication models across the Wealth-X / Altrata estate. The legacy Wealth-X Connect REST API uses three static credential headers. The successor Altrata GraphQL APIs use an OAuth 2.0 client_credentials token exchange that itself requires an API key plus HTTP Basic service credentials. The Altrata MCP server uses OAuth 2.0 authorization_code with PKCE.
 kind: authentication
 layout: security
+mechanism_count: 7
 method: searched
 name: Wealth X Authentication
 name_suffix: Authentication

@@ -18,6 +18,7 @@ api_specs:
   slug: convertapi-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/convertapi/refs/heads/main/openapi/convertapi-user-api-openapi.yml
+certification_count: 1
 certifications:
 - ISO 27001
 description: ''

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: noyo-carrier-mapped-field-api-openapi.yml
@@ -390,6 +391,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Noyo Authentication
 name_suffix: Authentication

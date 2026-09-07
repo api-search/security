@@ -252,6 +252,7 @@ api_specs:
   slug: cubesoftware-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-workflow-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

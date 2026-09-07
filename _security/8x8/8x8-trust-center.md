@@ -408,6 +408,7 @@ api_specs:
   slug: 8x8-workflow-triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/8x8/refs/heads/main/openapi/8x8-workflow-triggers-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2 Type II
 - ISO 27001:2022

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: serbia-company-data-company-api-openapi.yml
@@ -19,6 +20,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Serbia Company Data Authentication
 name_suffix: Authentication

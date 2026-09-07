@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -43,6 +44,7 @@ auth_types:
 description: LeadGenius authenticates every API request with a single account API key sent in the Authorization header using the `Token` scheme. There is no OAuth, no OpenID Connect, no scope surface and no per-request signing. Derived from the captured OpenAPI securitySchemes and upgraded from the published authentication section of the API reference.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Leadgenius Authentication
 name_suffix: Authentication

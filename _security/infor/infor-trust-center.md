@@ -12,6 +12,7 @@ api_specs:
   slug: infor-m3-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/openapi/infor-m3-api-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

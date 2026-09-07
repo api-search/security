@@ -32,6 +32,7 @@ hosts:
   note: HubSpot-hosted customer knowledge base behind a membership login
   server: cloudflare
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

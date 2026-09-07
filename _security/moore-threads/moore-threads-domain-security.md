@@ -51,6 +51,7 @@ hosts:
   hsts: false
   https: true
   note: KUAE Cloud Coding Plan inference endpoint. Fronted by a Volcengine ALB (alb-xohaibke0f7k54ov5eie2tco.cn-beijing.volcenginealb.com). No Strict-Transport-Security header is returned, unlike the mthreads.com web hosts which set max-age=15724800.
+hosts_probed: 7
 kind: domain-security
 layout: security
 method: probed

@@ -42,6 +42,7 @@ api_specs:
   slug: tidio-tickets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/openapi/tidio-tickets-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

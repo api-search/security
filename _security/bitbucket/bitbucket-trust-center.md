@@ -138,6 +138,7 @@ api_specs:
   slug: bitbucket-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-workspaces-api-openapi.yml
+certification_count: 1
 certifications:
 - FedRAMP
 description: ''

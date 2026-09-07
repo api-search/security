@@ -114,6 +114,7 @@ api_specs:
   slug: rackspace-technology-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rackspace-technology/refs/heads/main/openapi/rackspace-technology-versions-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

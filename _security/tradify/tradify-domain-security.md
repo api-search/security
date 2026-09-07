@@ -74,6 +74,7 @@ hosts:
   https: true
   notes: Zendesk-hosted help centre.
   server: cloudflare
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

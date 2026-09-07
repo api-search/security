@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -105,6 +106,7 @@ auth_types:
 description: 'Karrio accepts four credential types, and the one most integrators reach for first is the least obvious: the API token is sent as the HTTP Basic USERNAME with an empty password. All four resolve to the same instance-scoped organization context.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Karrio Authentication
 name_suffix: Authentication

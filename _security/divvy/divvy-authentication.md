@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: BILL uses a session/token model, not OAuth. The BILL AP/AR/network APIs use a developer key (devKey) plus a session token (sessionId) obtained from POST /v3/login; both are sent as headers on every subsequent call. The BILL Spend & Expense (formerly Divvy) API uses a separate Spend & Expense API token, sent as the apiToken header, with no API login step.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Divvy Authentication
 name_suffix: Authentication

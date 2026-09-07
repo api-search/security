@@ -12,6 +12,7 @@ api_specs:
   slug: amazon-kms-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/openapi/amazon-kms-keys-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

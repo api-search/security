@@ -18,6 +18,7 @@ api_specs:
   slug: levitate-notes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/openapi/levitate-notes-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type I
 - SOC 2 Type II

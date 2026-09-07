@@ -12,15 +12,16 @@ domains:
   dmarc_policy: none
   dnssec: false
   domain: novelis.com
-  spf: true
+  spf: false
 hosts:
 - host: www.aleris.com
   https: false
-- cert_expires: Sep 18 01:13:45 2026 GMT
+- cert_expires: Nov 16 03:36:09 2026 GMT
   host: novelis.com
   hsts: false
   https: true
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
@@ -33,7 +34,7 @@ slug: aleris-domain-security
 source_filename: aleris-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aleris.com\n  https: false\n- host: novelis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 01:13:45 2026 GMT\n  hsts: false\ndomains:\n- domain: aleris.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: novelis.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aleris.com\n  https: false\n- host: novelis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 03:36:09 2026 GMT\n  hsts: false\ndomains:\n- domain: aleris.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: novelis.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aleris/refs/heads/main/security/aleris-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

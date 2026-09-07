@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -260,6 +261,7 @@ auth_types:
 description: Every Talon.One API authenticates with a credential in the Authorization header; there is no OAuth 2.0 or OpenID Connect anywhere in the estate. Which credential you use depends on the surface, and the prefix is part of the value.
 kind: authentication
 layout: security
+mechanism_count: 8
 method: searched
 name: Talon One Authentication
 name_suffix: Authentication

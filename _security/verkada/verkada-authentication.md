@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: The Verkada Command API uses a two-tier API key + short-lived token model (adopted November 2024). Organization admins mint a scoped, long-lived API Key in Command (Organization Settings > Verkada API), choosing product/endpoint permission sets and a Read-only or Read/Write scope. The API Key is never sent to endpoints directly; instead it is exchanged for a short-lived API Token that is used to authenticate individual endpoint calls.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Verkada Authentication
 name_suffix: Authentication

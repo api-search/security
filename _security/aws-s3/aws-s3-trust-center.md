@@ -12,6 +12,7 @@ api_specs:
   slug: aws-s3-writegetobjectresponse-x-amz-request-route-x-amz-request-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/openapi/aws-s3-writegetobjectresponse-x-amz-request-route-x-amz-request-token-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

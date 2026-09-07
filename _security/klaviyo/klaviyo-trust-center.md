@@ -138,6 +138,7 @@ api_specs:
   slug: klaviyo-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/openapi/klaviyo-webhooks-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2
 - ISO 27001

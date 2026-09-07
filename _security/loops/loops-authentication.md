@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: loops-api-key-api-openapi.yml
@@ -127,6 +128,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Loops Authentication
 name_suffix: Authentication

@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication and authorization model for the Apptoken protocol suite. There are no API keys, no OAuth and no bearer tokens — the caller is authenticated by their EVM transaction signature, and delegated authority is granted through EIP-712 signed, time-bound approvals.
 kind: authentication
 layout: security
+mechanism_count: 6
 method: searched
 name: Limit Break Authentication
 name_suffix: Authentication

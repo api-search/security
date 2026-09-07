@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: remote-webhooks-asyncapi.yml
@@ -247,6 +248,7 @@ auth_types:
 description: 'Remote authenticates API calls with OAuth 2.0 bearer tokens (JWT). Resource endpoints present the token as an HTTP bearer (the BearerAuth scheme in every OpenAPI). Tokens are obtained through four flows: authorization code (customer apps and partners, with company consent), client credentials (partners across consented companies), JWT bearer assertion (partners acting for a specific company), and refresh token. A single authorization-request scope, https://gateway.remote.com/company.manage, is combined with a fine-grained read/write permission model (see scopes/). Customers can also mint a Customer API Token in the platform; a Client Token exists for marketing endpoints only.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Remote Com Authentication
 name_suffix: Authentication

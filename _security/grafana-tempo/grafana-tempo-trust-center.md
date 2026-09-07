@@ -36,6 +36,7 @@ api_specs:
   slug: grafana-tempo-traces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/openapi/grafana-tempo-traces-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

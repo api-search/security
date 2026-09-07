@@ -90,6 +90,7 @@ api_specs:
   slug: nooks-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-users-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2 Type 2
 - SOC 3

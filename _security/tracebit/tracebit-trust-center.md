@@ -12,6 +12,7 @@ api_specs:
   slug: tracebit-canary-credentials-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tracebit/refs/heads/main/openapi/tracebit-canary-credentials-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

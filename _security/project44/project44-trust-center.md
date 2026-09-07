@@ -24,6 +24,7 @@ api_specs:
   slug: project44-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/openapi/project44-webhooks-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2
 - ISO 27001

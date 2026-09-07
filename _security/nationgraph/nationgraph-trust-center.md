@@ -336,6 +336,7 @@ api_specs:
   slug: nationgraph-youtube-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nationgraph/refs/heads/main/openapi/nationgraph-youtube-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

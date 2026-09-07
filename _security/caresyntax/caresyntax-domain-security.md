@@ -19,6 +19,7 @@ hosts:
   https: true
   note: Kong 3.4.2 API gateway (CNAME api.new.caresyntax.com); every probed path returns HTTP 404 {"message":"no Route matched with those values"} — no public route, no spec, no /.well-known/ documents.
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

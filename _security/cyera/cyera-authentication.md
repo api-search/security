@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -7,6 +8,7 @@ auth_types:
 description: 'Cyera authenticates API clients with OAuth 2.0 / OpenID Connect against its authorization server at auth.cyera.io. Programmatic/API access uses the client_credentials grant: a Client ID + Client Secret (generated in the Cyera console) are exchanged at the token endpoint for a short-lived JWT bearer token that is then sent as `Authorization: Bearer <jwt>` to the API host (api.cyera.io, or the regional api-eu.cyera.io). Integration vendors also document a `/v1/login` convenience endpoint that takes the Client ID + Client Secret and returns the same short-lived JWT. Interactive console/user login uses the authorization_code flow with PKCE (S256).'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Cyera Authentication
 name_suffix: Authentication

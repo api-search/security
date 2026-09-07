@@ -36,6 +36,7 @@ api_specs:
   slug: botpress-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/openapi/botpress-users-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

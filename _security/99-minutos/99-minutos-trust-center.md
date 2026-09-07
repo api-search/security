@@ -54,6 +54,7 @@ api_specs:
   slug: 99-minutos-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-webhooks-api-openapi.yml
+certification_count: 1
 certifications:
 - ISO 27001
 description: ''

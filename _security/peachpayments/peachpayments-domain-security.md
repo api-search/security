@@ -85,6 +85,7 @@ hosts:
   http_status: 403
   https: true
   notes: 403 on bare GET; expected for Bearer/entityId-gated Checkout endpoint.
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

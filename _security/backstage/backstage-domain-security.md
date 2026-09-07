@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: backstage-events-asyncapi.yml
+- filename: backstage-events-backend-openapi.yaml
   format: yaml
   label: Backstage Events System
   slug: events-system
-  spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/asyncapi/backstage-events-asyncapi.yml
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-events-backend-openapi.yaml
 - filename: backstage-actions-api-openapi.yml
   format: yaml
   label: Backstage Actions API
   slug: backstage-actions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-actions-api-openapi.yml
-- filename: backstage-authentication-api-openapi.yml
+- filename: backstage-auth-backend-openapi.yaml
   format: yaml
   label: Backstage Authentication API
   slug: backstage-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-authentication-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-auth-backend-openapi.yaml
 - filename: backstage-authorization-api-openapi.yml
   format: yaml
   label: Backstage Authorization API
@@ -30,12 +30,12 @@ api_specs:
   slug: backstage-documentation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-documentation-api-openapi.yml
-- filename: backstage-entities-api-openapi.yml
+- filename: backstage-catalog-backend-openapi.yaml
   format: yaml
   label: Backstage Entities API
   slug: backstage-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-entities-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-catalog-backend-openapi.yaml
 - filename: backstage-locations-api-openapi.yml
   format: yaml
   label: Backstage Locations API
@@ -48,24 +48,24 @@ api_specs:
   slug: backstage-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-metadata-api-openapi.yml
-- filename: backstage-search-api-openapi.yml
+- filename: backstage-search-backend-openapi.yaml
   format: yaml
   label: Backstage Search API
   slug: backstage-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-search-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-search-backend-openapi.yaml
 - filename: backstage-sync-api-openapi.yml
   format: yaml
   label: Backstage Sync API
   slug: backstage-sync-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-sync-api-openapi.yml
-- filename: backstage-tasks-api-openapi.yml
+- filename: backstage-scaffolder-backend-openapi.yaml
   format: yaml
   label: Backstage Tasks API
   slug: backstage-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-tasks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-scaffolder-backend-openapi.yaml
 - filename: backstage-templates-api-openapi.yml
   format: yaml
   label: Backstage Templates API
@@ -78,6 +78,18 @@ api_specs:
   slug: backstage-token-verification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-token-verification-api-openapi.yml
+- filename: backstage-notifications-backend-openapi.yaml
+  format: yaml
+  label: Backstage Notifications API
+  slug: backstage-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-notifications-backend-openapi.yaml
+- filename: backstage-dynamic-features-openapi.yaml
+  format: yaml
+  label: Backstage Dynamic Feature Service API
+  slug: backstage-dynamic-features-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-dynamic-features-openapi.yaml
 description: ''
 domains:
 - caa: []
@@ -86,11 +98,12 @@ domains:
   domain: backstage.io
   spf: true
 hosts:
-- cert_expires: Sep 27 15:01:52 2026 GMT
+- cert_expires: Nov 26 14:33:21 2026 GMT
   host: backstage.io
   hsts: false
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -103,7 +116,7 @@ slug: backstage-domain-security
 source_filename: backstage-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: backstage.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 15:01:52 2026 GMT\n  hsts: false\ndomains:\n- domain: backstage.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: backstage.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 14:33:21 2026 GMT\n  hsts: false\ndomains:\n- domain: backstage.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/security/backstage-domain-security.yml
 summary_line: TLSv1.3
 tags:
@@ -111,4 +124,7 @@ tags:
 - Internal Developer Platform
 - Software Catalog
 - Open-Source
+- Platform Engineering
+- Software Templates
+- CNCF
 ---

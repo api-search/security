@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: lancaster-oai2-api-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: Lancaster University publishes no API key programme, no developer registration and no OAuth authorisation server of its own. Its one open machine-readable API is unauthenticated; its identity surface is the authentication system itself; everything else on a lancaster.ac.uk or lancs.ac.uk hostname that a client might want is behind institutional single sign-on.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Lancaster Authentication
 name_suffix: Authentication

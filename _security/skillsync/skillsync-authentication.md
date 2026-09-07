@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2-browser
 description: Skillsync has no public REST API or OpenAPI; authentication is documented for the CLI and MCP server. `skl login` opens a browser sign-in flow on skillsync.com and returns control to the CLI once the local callback completes, persisting credentials on the machine. Local-only operations (reading sessions on disk) need no login; any operation that reaches skillsync.com (upload, search published threads, skills) is login-gated. The MCP server calls the auth_status tool before any login-gated tool.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Skillsync Authentication
 name_suffix: Authentication

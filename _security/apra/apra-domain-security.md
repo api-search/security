@@ -31,6 +31,7 @@ hosts:
 - host: api.apra.gov.au
   https: false
   note: DNS A record 124.47.155.12 exists, but TCP/443 and TCP/80 both time out — no service is published on this name as of 2026-07-25. Recorded because the earlier review noted this name as non-resolving; it now resolves but does not answer.
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

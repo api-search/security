@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: Clara operates a public Trust Center and, as a fully licensed U.S. primary care practice, is a HIPAA-covered entity. Clara publishes a HIPAA Notice of Privacy Practices and a privacy policy. No third-party security certification (SOC 2 / ISO 27001 / PCI / FedRAMP) is publicly named on the Trust Center landing page at the time of probe; the Trust Center is a JS-rendered portal and may host gated documents behind request/NDA.
 kind: trust-center

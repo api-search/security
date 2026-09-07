@@ -540,6 +540,7 @@ api_specs:
   slug: everbridge-variables-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/openapi/everbridge-variables-apis-api-openapi.yml
+certification_count: 20
 certifications:
 - SOC 2
 - SOC 3

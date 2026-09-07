@@ -6,6 +6,7 @@ api_specs:
   slug: vidyard-analytics-webhook-api
   spec_type: Postman
   url: https://vy-docs.s3.amazonaws.com/postman/VidyardAnalyticsWebhooks.postman_collection.json
+certification_count: 3
 certifications:
 - SOC 2 Type 2
 - GDPR

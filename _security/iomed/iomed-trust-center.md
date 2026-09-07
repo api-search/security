@@ -1,4 +1,5 @@
 ---
+certification_count: 3
 certifications:
 - ISO 27001:2022
 - ISO 27701:2019

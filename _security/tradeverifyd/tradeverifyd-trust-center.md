@@ -78,6 +78,7 @@ api_specs:
   slug: tradeverifyd-verifiable-credentials-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/openapi/tradeverifyd-verifiable-credentials-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

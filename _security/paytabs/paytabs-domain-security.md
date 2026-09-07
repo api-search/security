@@ -33,6 +33,7 @@ hosts:
 - host: docs.paytabs.com
   https: true
   region: Technical portal
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

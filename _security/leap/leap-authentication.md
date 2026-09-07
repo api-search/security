@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: leap-create-meters-api-openapi.yml
@@ -61,11 +62,30 @@ api_specs:
   slug: leap-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leap-webhooks-api-openapi.yml
+- filename: leapfrog-power-group-dispatches-api-openapi.yml
+  format: yaml
+  label: Leap Group Dispatches API
+  slug: leapfrog-power-group-dispatches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leapfrog-power-group-dispatches-api-openapi.yml
+- filename: leapfrog-power-interval-data-upload-api-openapi.yml
+  format: yaml
+  label: Leap Interval Data Upload API
+  slug: leapfrog-power-interval-data-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leapfrog-power-interval-data-upload-api-openapi.yml
+- filename: leapfrog-power-meter-dispatches-api-openapi.yml
+  format: yaml
+  label: Leap Meter Dispatches API
+  slug: leapfrog-power-meter-dispatches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/openapi/leapfrog-power-meter-dispatches-api-openapi.yml
 auth_types:
 - http
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Leap Authentication
 name_suffix: Authentication

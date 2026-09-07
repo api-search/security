@@ -24,6 +24,7 @@ api_specs:
   slug: dopesecurity-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-policies-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - GDPR

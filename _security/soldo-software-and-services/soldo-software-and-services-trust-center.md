@@ -282,6 +282,7 @@ api_specs:
   slug: soldo-software-and-services-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/openapi/soldo-software-and-services-webhooks-api-openapi.yml
+certification_count: 4
 certifications:
 - PCI DSS Level 1
 - ISO/IEC 27001

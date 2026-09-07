@@ -72,6 +72,7 @@ hosts:
   note: Keycloak OpenID Connect realm (realms/bexio); openid-configuration served over HTTPS.
 - host: docs.bexio.com
   https: true
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

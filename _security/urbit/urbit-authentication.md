@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - cookie-session
 description: 'Authentication profile for the Urbit ship HTTP API (Eyre, the Arvo HTTP server vane). There is no central Urbit API and no OAuth: every ship is a self-hosted personal server that authenticates web clients with a session cookie. The client obtains the ship''s web login code with +code in the dojo, POSTs it to /~/login, and receives an urbauth-~ship session cookie (observed Max-Age 604800 = 7 days) that must accompany all channel, scry, and thread requests. EAuth extends this with cross-ship web login (using one''s own ship as the identity provider on another ship''s site). The Azimuth PKI on Ethereum anchors identity keys; Bridge (bridge.urbit.org) manages them.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Urbit Authentication
 name_suffix: Authentication

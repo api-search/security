@@ -96,6 +96,7 @@ api_specs:
   slug: bokio-uploads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/openapi/bokio-uploads-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

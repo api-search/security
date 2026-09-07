@@ -54,6 +54,7 @@ api_specs:
   slug: crossenagage-user-profile-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/openapi/crossenagage-user-profile-management-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO/IEC 27001:2022
 - CSA STAR Certification

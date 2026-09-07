@@ -30,6 +30,7 @@ api_specs:
   slug: timescaledb-vpcs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/timescaledb/refs/heads/main/openapi/timescaledb-vpcs-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

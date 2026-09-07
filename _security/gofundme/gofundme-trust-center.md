@@ -420,6 +420,7 @@ api_specs:
   slug: gofundme-whitelisted-currency-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gofundme/refs/heads/main/openapi/gofundme-whitelisted-currency-api-openapi.yml
+certification_count: 3
 certifications:
 - PCI DSS
 - NIST Cybersecurity Framework

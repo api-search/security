@@ -36,6 +36,7 @@ api_specs:
   slug: cognism-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-search-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

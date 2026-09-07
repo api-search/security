@@ -6,6 +6,7 @@ api_specs:
   slug: spin-ai-entities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/openapi/spin-ai-entities-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - PCI DSS

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: paddle-addresses-api-openapi.yml
@@ -90,6 +91,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Paddle Authentication
 name_suffix: Authentication

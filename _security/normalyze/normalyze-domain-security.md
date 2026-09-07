@@ -16,6 +16,7 @@ hosts:
   https: true
   redirects_to: https://www.proofpoint.com/us/normalyze-is-now-proofpoint
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

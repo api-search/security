@@ -42,6 +42,7 @@ api_specs:
   slug: applike-partners-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/openapi/applike-partners-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

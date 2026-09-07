@@ -48,6 +48,7 @@ api_specs:
   slug: mailerlite-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/openapi/mailerlite-webhooks-api-openapi.yml
+certification_count: 6
 certifications:
 - ISO/IEC 27001:2022
 - PCI DSS

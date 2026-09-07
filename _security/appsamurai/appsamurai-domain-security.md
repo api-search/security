@@ -122,6 +122,7 @@ hosts:
   http_status: 200
   https: true
   tls_version: TLSv1.3
+hosts_probed: 9
 kind: domain-security
 layout: security
 method: probed

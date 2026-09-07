@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Super73 Authentication
 name_suffix: Authentication

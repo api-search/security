@@ -108,6 +108,7 @@ api_specs:
   slug: truto-timeoff-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/truto/refs/heads/main/openapi/truto-timeoff-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

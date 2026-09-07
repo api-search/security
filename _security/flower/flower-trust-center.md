@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: Flower Labs operates a public Trust Center at trust.flower.ai, hosted on Vanta and linked directly from the flower.ai homepage. The Trust Center is a JavaScript single-page app, so the specific certifications listed (e.g. SOC 2, ISO 27001) could not be extracted from the raw HTML at fetch time and are NOT asserted here. The presence of a real, verified Trust Center is recorded; named certifications should be confirmed on a re-run.
 kind: trust-center

@@ -90,6 +90,7 @@ api_specs:
   slug: uploads
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/openapi/zype-uploads.json
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

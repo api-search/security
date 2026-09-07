@@ -60,6 +60,7 @@ api_specs:
   slug: amazon-rekognition-text-detection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-text-detection-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

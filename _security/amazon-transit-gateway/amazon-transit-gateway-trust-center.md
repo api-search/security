@@ -18,6 +18,7 @@ api_specs:
   slug: amazon-transit-gateway-vpc-attachments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/openapi/amazon-transit-gateway-vpc-attachments-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

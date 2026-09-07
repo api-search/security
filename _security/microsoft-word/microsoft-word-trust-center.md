@@ -108,6 +108,7 @@ api_specs:
   slug: microsoft-word-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-versions-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 1 Type 2
 - SOC 2 Type 2

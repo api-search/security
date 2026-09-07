@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: Authentication profile for every Instant surface an external client can reach. There is no OpenAPI to derive securitySchemes from — derive-authentication.py returned zero profiles — so this artifact is built from the provider's own documentation plus live unauthenticated probes of api.instant.so. Instant has no OAuth flow, no OIDC discovery and no published API-key header convention; the single documented programmatic credential is a project-scoped access token presented as an HTTP bearer token to the MCP endpoint.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Instant Commerce Authentication
 name_suffix: Authentication

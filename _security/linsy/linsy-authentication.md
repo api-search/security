@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: Linsy's authenticated surface is the Shopify customer account system. Each storefront publishes an OpenID Connect discovery document (and an identical RFC 8414 OAuth authorization server metadata document) pointing at a per-shop issuer on shopify.com. Authorization Code with PKCE (S256) is the supported flow; tokens are also obtainable via refresh_token and JWT bearer grants. The anonymous UCP/MCP commerce surface requires no credential — authentication is only involved once a buyer account or a buyer-approved payment is in play.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Linsy Authentication
 name_suffix: Authentication

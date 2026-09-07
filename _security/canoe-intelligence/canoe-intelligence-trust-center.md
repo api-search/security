@@ -60,6 +60,7 @@ api_specs:
   slug: canoe-intelligence-introduction-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-introduction-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

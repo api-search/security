@@ -624,6 +624,7 @@ api_specs:
   slug: amazon-gamelift-x-amz-target-gamelift-validatematchmakingruleset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/openapi/amazon-gamelift-x-amz-target-gamelift-validatematchmakingruleset-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

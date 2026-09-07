@@ -480,6 +480,7 @@ api_specs:
   slug: workflows-automations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/openapi/qliksense-workflows-automations.json
+certification_count: 3
 certifications:
 - qlik
 - qlik_cloud_government

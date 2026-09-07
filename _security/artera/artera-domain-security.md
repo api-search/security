@@ -36,6 +36,7 @@ hosts:
   method: openssl s_client
   probed: '2026-08-15'
   tls_version: null
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

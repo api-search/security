@@ -6,6 +6,7 @@ api_specs:
   slug: crossbeam-partner-api
   spec_type: Postman
   url: https://developers.crossbeam.com/
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

@@ -66,6 +66,7 @@ api_specs:
   slug: storyblok-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-webhooks-api-openapi.yml
+certification_count: 5
 certifications:
 - ISO 27001
 - SOC 2 Type II

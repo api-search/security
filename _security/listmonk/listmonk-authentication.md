@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -92,6 +93,7 @@ auth_types:
 description: 'listmonk''s API authentication is deliberately simple and entirely operator-issued: there is no vendor, no key-issuing console and no token service. An administrator creates an "API user" in the admin UI, listmonk generates a secret token for it, and every call carries that api_user:token pair either as HTTP Basic credentials or in an `Authorization: token` header. What listmonk does have, and what most self-hosted tools of its size do not, is a real authorization layer behind that: 33 named permissions grouped into User roles, plus per-list read/write grants grouped into List roles, enforced on API calls and not merely in the UI. OIDC exists but is for administrator sign-in only — no OIDC or OAuth token is accepted on /api/*.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Listmonk Authentication
 name_suffix: Authentication

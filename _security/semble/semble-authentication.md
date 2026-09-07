@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: 'Semble''s public GraphQL API is authenticated with a bearer-style token passed in a custom "x-token" request header. There is no OAuth 2.0 / OIDC surface and no SMART-on-FHIR; access control is expressed through the role assigned to the token when it is created. Two token kinds exist: long-lived API-access tokens generated in the Semble application (Settings > API Access), each bound to a named role that scopes which queries and mutations it may call; and a short-lived session JWT returned by the signIn mutation, valid for 12 hours.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Semble Authentication
 name_suffix: Authentication

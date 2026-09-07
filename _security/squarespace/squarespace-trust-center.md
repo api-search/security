@@ -72,6 +72,7 @@ api_specs:
   slug: squarespace-websites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-websites-api-openapi.yml
+certification_count: 2
 certifications:
 - named
 - note

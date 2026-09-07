@@ -102,6 +102,7 @@ api_specs:
   slug: artifactory-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/openapi/artifactory-tags-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2 Type II
 - ISO/IEC 27001:2013

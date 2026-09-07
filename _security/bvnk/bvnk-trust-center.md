@@ -96,6 +96,7 @@ api_specs:
   slug: bvnk-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/openapi/bvnk-wallets-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001:2022
 - SOC 2 Type II

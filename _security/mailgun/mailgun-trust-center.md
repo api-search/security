@@ -42,6 +42,7 @@ api_specs:
   slug: mailgun-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/openapi/mailgun-webhooks-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

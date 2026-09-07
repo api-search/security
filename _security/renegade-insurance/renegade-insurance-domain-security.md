@@ -19,6 +19,7 @@ hosts:
   https: true
   note: live AWS ALB; answers 404 "Invalid Endpoint" on every probed path (no public contract, docs, or discovery document)
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

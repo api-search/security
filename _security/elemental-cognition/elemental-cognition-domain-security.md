@@ -22,6 +22,7 @@ hosts:
 - host: cogent.ec.ai
   https: false
   https_note: Resolves to 34.117.199.168 (Google Cloud LB). The certificate presented for SNI cogent.ec.ai is CN=*.race.co.jp, issued by Sectigo — an unrelated third party. Name mismatch; with verification disabled every path returns an ~886 KB HTML page belonging to that other site. Dangling DNS record.
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

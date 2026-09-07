@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: rice-kinder-udp-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: How a caller identifies itself to each Rice surface, and who operates the thing doing the authenticating. Rice publishes no developer authentication documentation. The strongest and best-documented authentication surface Rice has is not an API key scheme at all — it is the Shibboleth/SAML 2.0 identity provider it runs on its own network and registers in InCommon, which is the one place where Rice both operates the software and publishes a machine-readable contract describing it.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Rice Authentication
 name_suffix: Authentication

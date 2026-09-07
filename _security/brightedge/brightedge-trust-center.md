@@ -174,6 +174,7 @@ api_specs:
   slug: brightedge-web-vitals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-web-vitals-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO/IEC 27001:2022

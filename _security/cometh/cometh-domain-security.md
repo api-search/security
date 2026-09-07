@@ -81,6 +81,7 @@ hosts:
   note: Same failure mode as api.marketplace.cometh.io; targeted by the still-published @cometh/checkout-sdk.
   tls_error: 'CERTIFICATE_VERIFY_FAILED: self-signed certificate'
   tls_version: null
+hosts_probed: 10
 kind: domain-security
 layout: security
 method: probed

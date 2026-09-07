@@ -126,6 +126,7 @@ api_specs:
   slug: bloomreach-visual-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-visual-search-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2 Type II
 - ISO/IEC 27001

@@ -42,6 +42,7 @@ api_specs:
   slug: duck-creek-quotes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-quotes-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

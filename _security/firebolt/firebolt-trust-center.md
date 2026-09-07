@@ -24,6 +24,7 @@ api_specs:
   slug: firebolt-web-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/firebolt/refs/heads/main/openapi/firebolt-web-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -14,12 +15,19 @@ api_specs:
   slug: factorial-hr-core-me-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-hr-core-me-api-openapi.yml
+- filename: factorial-resources-api-openapi.yml
+  format: yaml
+  label: Factorial Resources API
+  slug: factorial-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-resources-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Factorial Hr Authentication
 name_suffix: Authentication

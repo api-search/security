@@ -6,6 +6,7 @@ api_specs:
   slug: salad-transcription-api-default-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salad-transcription-api/refs/heads/main/openapi/salad-transcription-api-default-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

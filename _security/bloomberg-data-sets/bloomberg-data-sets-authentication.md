@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -7,6 +8,7 @@ auth_types:
 description: Bloomberg has no published OpenAPI, so this profile was NOT derived from a spec - it was read from the two machine-readable authorization-server metadata documents Bloomberg serves at www.bloomberg.com and login.bloomberg.com, and from the authentication challenge the Data License API itself returns to an anonymous client.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Bloomberg Data Sets Authentication
 name_suffix: Authentication

@@ -60,6 +60,7 @@ api_specs:
   slug: emerge-tools-uploadfromlink-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/openapi/emerge-tools-uploadfromlink-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type 1
 description: ''

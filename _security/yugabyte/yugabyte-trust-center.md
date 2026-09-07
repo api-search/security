@@ -54,6 +54,7 @@ api_specs:
   slug: yugabyte-xcluster-namespace-details-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-xcluster-namespace-details-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type II
 - SOC 3

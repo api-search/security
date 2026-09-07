@@ -84,6 +84,7 @@ api_specs:
   slug: remote-time-attendance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remote/refs/heads/main/openapi/remote-time-attendance-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type 2
 - ISO 27001

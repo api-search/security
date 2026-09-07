@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -43,6 +44,7 @@ auth_types:
 description: 'Auth profile for the dottxt API, from the published OpenAPI securitySchemes (openapi/txt-dottxt-openapi-original.json) and the docs authentication page. Single scheme: bearer API key in the Authorization header. Keys are prefixed sk-dottxt- and are created/managed in the dashboard; access is currently granted via a request form. The Python SDK and CLI read DOTTXT_API_KEY by default (dottxt login stores credentials locally).'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Txt Authentication
 name_suffix: Authentication

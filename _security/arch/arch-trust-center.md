@@ -90,6 +90,7 @@ api_specs:
   slug: arch-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/arch/refs/heads/main/openapi/arch-users-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

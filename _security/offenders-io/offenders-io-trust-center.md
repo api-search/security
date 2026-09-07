@@ -6,6 +6,7 @@ api_specs:
   slug: offenders-io-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/offenders-io/refs/heads/main/openapi/offenders-io-search-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

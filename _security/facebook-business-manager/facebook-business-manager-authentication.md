@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: facebook-business-manager-ad-accounts-api-openapi.yml
@@ -92,6 +93,7 @@ auth_types:
 description: 'Every Business Manager surface authenticates the same way: an OAuth 2.0 bearer access token issued through Facebook Login, scoped by user-granted permissions. The OpenAPI files in this repo declare only a generic http/bearer scheme; this file upgrades that thin derivation with what Meta actually documents — five distinct token types with materially different lifetimes and rate-limit regimes, an OIDC discovery document served at www.facebook.com, and an appsecret_proof signature for server-side calls. Upgraded 2026-08-13 from method: derived (openapi only) to method: searched.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Facebook Business Manager Authentication
 name_suffix: Authentication

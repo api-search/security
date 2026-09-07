@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: Hotmart Developers authenticates every API call with OAuth 2.0. Credentials (client_id, client_secret and a pre-computed Basic token) are minted in the Hotmart platform under Tools > Developer Credentials, and are bound at creation time to either the production or the sandbox environment — the type cannot be changed afterwards, a new credential must be created. The credential is exchanged for a short-lived access_token at the token endpoint, which is then sent as a Bearer token on every resource request.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Hotmart Authentication
 name_suffix: Authentication

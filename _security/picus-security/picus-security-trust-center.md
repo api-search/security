@@ -84,6 +84,7 @@ api_specs:
   slug: picus-security-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-users-api-openapi.yml
+certification_count: 6
 certifications:
 - ISO/IEC 27001
 - ISO/IEC 27701

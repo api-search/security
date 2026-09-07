@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - session
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Snaptrude Authentication
 name_suffix: Authentication

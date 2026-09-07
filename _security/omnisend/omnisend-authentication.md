@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -104,6 +105,7 @@ auth_types:
 description: 'Omnisend accepts two credentials on the same Authorization header, distinguished by prefix: "Omnisend-API-Key {key}" and "Bearer {access-token}". Both are accompanied by a REQUIRED Omnisend-Version header. This changed at version 2026-03-15 — the v3/v5 contract carried the key in a bare X-API-KEY header, which no longer applies to the /api base.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Omnisend Authentication
 name_suffix: Authentication

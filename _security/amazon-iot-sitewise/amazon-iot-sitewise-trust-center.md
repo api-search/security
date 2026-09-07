@@ -96,6 +96,7 @@ api_specs:
   slug: amazon-iot-sitewise-timeseries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-timeseries-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

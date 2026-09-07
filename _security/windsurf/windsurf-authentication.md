@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -32,11 +33,30 @@ api_specs:
   slug: windsurf-useranalytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-useranalytics-api-openapi.yml
+- filename: windsurfrules-analytics-api-openapi.yml
+  format: yaml
+  label: Windsurf analytics API
+  slug: windsurfrules-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurfrules-analytics-api-openapi.yml
+- filename: windsurfrules-billing-api-openapi.yml
+  format: yaml
+  label: Windsurf billing API
+  slug: windsurfrules-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurfrules-billing-api-openapi.yml
+- filename: windsurfrules-teams-api-openapi.yml
+  format: yaml
+  label: Windsurf teams API
+  slug: windsurfrules-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurfrules-teams-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Windsurf Authentication
 name_suffix: Authentication

@@ -46,6 +46,7 @@ hosts:
 - host: mqtt-production.ems.flo.com
   https: true
   role: FLO energy-management service (JSON 404 with traceId on every path)
+hosts_probed: 7
 kind: domain-security
 layout: security
 method: probed

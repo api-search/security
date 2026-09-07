@@ -30,6 +30,7 @@ api_specs:
   slug: vividcortex-queries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/openapi/vividcortex-queries-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

@@ -180,6 +180,7 @@ api_specs:
   slug: beehiiv-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-workspaces-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type I
 description: ''

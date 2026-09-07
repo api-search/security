@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: squarespace-orders-api-openapi.yml
@@ -79,6 +80,7 @@ auth_types:
 description: 'Squarespace Commerce APIs accept two credential types over one wire format. Every request carries `Authorization: Bearer <token>`, where the token is either a merchant-generated API key or an OAuth 2.0 access token. The published OpenAPI collapses both into a single `http bearer` scheme named `Authorization`, so the machine-readable contract cannot distinguish them — the split is documented only in prose, and it matters, because several behaviours differ by credential type (the Create Order rate limit, and the OAuth-only Webhook Subscriptions API).'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Squarespace Authentication
 name_suffix: Authentication

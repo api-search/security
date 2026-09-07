@@ -60,6 +60,7 @@ api_specs:
   slug: yuzu-health-sponsor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-sponsor-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

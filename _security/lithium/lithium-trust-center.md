@@ -594,6 +594,7 @@ api_specs:
   slug: lithium-workqueues-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-workqueues-api-openapi.yml
+certification_count: 4
 certifications:
 - ISO 27001
 - SOC 2 Type II

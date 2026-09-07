@@ -42,6 +42,7 @@ api_specs:
   slug: snappt-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/openapi/snappt-webhooks-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

@@ -66,6 +66,7 @@ api_specs:
   slug: oracle-siebel-service-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/openapi/oracle-siebel-service-requests-api-openapi.yml
+certification_count: 12
 certifications:
 - SOC 1
 - SOC 2

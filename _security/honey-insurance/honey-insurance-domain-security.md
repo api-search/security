@@ -28,6 +28,7 @@ hosts:
   https: true
   note: Private AWS API Gateway backing Honey's own quote funnel and account app. Every anonymous path returns HTTP 403 {"message":"Forbidden"}; no HSTS header is sent on the deny response.
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

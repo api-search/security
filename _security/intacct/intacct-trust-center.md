@@ -1,4 +1,5 @@
 ---
+certification_count: 7
 certifications:
 - SOC 1 Type II (SSAE 18 / ISAE 3402)
 - SOC 2 Type II

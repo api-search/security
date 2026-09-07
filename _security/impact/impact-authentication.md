@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: impact-account-api-openapi.yml
@@ -371,6 +372,7 @@ auth_types: []
 description: Every authentication mechanism impact.com publishes across its REST APIs, its Advocate APIs and its MCP server, with what each one is used for and where it is declared.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Impact Authentication
 name_suffix: Authentication

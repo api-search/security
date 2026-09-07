@@ -1,4 +1,5 @@
 ---
+certification_count: 2
 certifications:
 - SOC 2 Type II (targeted 2026, in progress)
 - ISO 27001 (inherited from infrastructure providers Cloudflare and WorkOS)

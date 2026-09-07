@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -188,6 +189,7 @@ auth_types:
 description: 'FirstPromoter requires two credentials on every REST call: an API key sent as an Authorization Bearer token, and the account id sent in an ACCOUNT-ID header. Both are created in Settings - Integrations - Manage API Keys. A separate OAuth 2.1 authorization server backs the MCP server and connector flow.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Firstpromoter Authentication
 name_suffix: Authentication

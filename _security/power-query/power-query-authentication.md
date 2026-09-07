@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: power-query-fabric-dataflow-swagger.json
@@ -11,6 +12,7 @@ auth_types: []
 description: The Power Query programmatic surface (the Fabric Dataflow REST API on api.fabric.microsoft.com) authenticates exclusively with Microsoft Entra ID OAuth 2.0 bearer tokens. There are no API keys and no basic auth. The published Swagger carries no securityDefinitions block — the auth model is documented on the Fabric REST articles rather than in the contract, which is recorded here as a contract gap, not as an absence of authentication.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Power Query Authentication
 name_suffix: Authentication

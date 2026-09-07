@@ -24,6 +24,7 @@ api_specs:
   slug: surfe-recommendations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/openapi/surfe-recommendations-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

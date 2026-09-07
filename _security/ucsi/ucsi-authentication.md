@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -7,6 +8,7 @@ auth_types:
 description: 'What can actually be established about how a client authenticates against anything UCSI University operates. UCSI publishes no public API and no developer documentation, so this artifact describes the one authentication surface that is publicly readable: the OpenID Connect / SAML 2.0 metadata of the institution''s own Microsoft Entra ID tenant. It is a record of a probed discovery document, not a description of an API programme UCSI does not run. Access to a UCSI application still requires a UCSI-issued account and an application registration inside the tenant; there is no self-serve onboarding.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Ucsi Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - query
 api_specs:
@@ -68,6 +69,7 @@ auth_types:
 description: Validic runs TWO different authentication models on two different hosts, and they must not be confused. The Inform data platform (REST + Streaming) uses a static organization access token in a QUERY PARAMETER. The developer signup API on api.dashboard.validic.com uses a bearer-style Authorization header carrying a Cognito-shaped id_token. Nothing bridges them - the signup tokens cannot call Inform, and the org token cannot call signup.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Validic Authentication
 name_suffix: Authentication

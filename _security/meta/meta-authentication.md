@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: meta-custom-audiences-api-openapi.yml
@@ -24,6 +25,7 @@ auth_types:
 description: Meta authenticates with OAuth 2.0 access tokens (Facebook Login). The scheme in openapi/meta-openapi.yml is oauth2 (implicit flow); the docs describe four token types below. Tokens carry granted permissions (scopes/meta-scopes.yml) and can be inspected with the Access Token Debugger.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Meta Authentication
 name_suffix: Authentication

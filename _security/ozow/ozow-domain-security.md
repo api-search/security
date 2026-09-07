@@ -71,6 +71,7 @@ hosts:
   http_note: Redirects into the hosted secure bank-selection flow (pay.ozow.com/:uuid/Secure).
   http_status: 302
   https: true
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

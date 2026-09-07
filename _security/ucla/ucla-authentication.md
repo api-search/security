@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: ucla-class-sections-api-openapi.yml
@@ -59,6 +60,7 @@ auth_types: []
 description: 'Authentication posture across every UCLA surface reachable from the open internet. UCLA is unusual for this cohort: it runs a real, centrally governed API program with one gateway, one documented credential model and one authorization server, all under ucla.edu. What it does not run is a self-service path — every credential is issued by request through the developer portal, and the portal itself signs in through the campus Shibboleth IdP.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: probed
 name: Ucla Authentication
 name_suffix: Authentication

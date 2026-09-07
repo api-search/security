@@ -77,6 +77,7 @@ hosts:
   hsts_note: No Strict-Transport-Security response header on the apex. HTTP requests redirect to HTTPS, but without HSTS a first request is still downgradeable.
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

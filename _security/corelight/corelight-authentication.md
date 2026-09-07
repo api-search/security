@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Corelight Authentication
 name_suffix: Authentication

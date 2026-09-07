@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: kernel-api-keys-api-openapi.yml
@@ -138,6 +139,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Kernel Authentication
 name_suffix: Authentication

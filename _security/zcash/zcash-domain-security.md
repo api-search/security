@@ -35,6 +35,7 @@ hosts:
   https: false
 - host: mainnet.lightwalletd.com
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

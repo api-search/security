@@ -107,6 +107,7 @@ hosts:
   hsts: false
   https: true
   note: Developer documentation portal; HTTPS reachable, HSTS header not observed.
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

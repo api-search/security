@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - saml2
@@ -8,6 +9,7 @@ auth_types:
 description: How Waseda University's machine-readable surfaces authenticate. Three regimes are in play and they belong to different operators. Waseda's own Shibboleth SAML 2.0 identity provider fronts browser sign-in to campus services and is federation infrastructure rather than an API credential. Waseda Moodle exposes two credentialed programmatic doors on Waseda's own host — LTI 1.3 / LTI Advantage over OAuth 2.0 client credentials, and the Moodle Web Services REST endpoint over a per-user token. Against that, Waseda's read surfaces — the institutional repository's OAI-PMH endpoint and the Waseda IIIF image and manifest servers — are fully anonymous and need no credential at all.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Waseda Authentication
 name_suffix: Authentication

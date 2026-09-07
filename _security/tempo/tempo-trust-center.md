@@ -30,6 +30,7 @@ api_specs:
   slug: tempo-traces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tempo/refs/heads/main/openapi/tempo-traces-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

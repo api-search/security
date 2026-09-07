@@ -60,6 +60,7 @@ api_specs:
   slug: onesignal-templates-app-id-app-id-limit-limit-offset-offset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/openapi/onesignal-templates-app-id-app-id-limit-limit-offset-offset-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type II
 - ISO 27001

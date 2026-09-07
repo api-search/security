@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: impossible-metals-authors-api-openapi.yml
@@ -115,6 +116,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Impossible Metals Authentication
 name_suffix: Authentication

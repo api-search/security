@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: cornell-class-roster-api-openapi.yml
@@ -26,6 +27,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Cornell Authentication
 name_suffix: Authentication

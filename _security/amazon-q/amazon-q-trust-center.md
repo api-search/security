@@ -24,6 +24,7 @@ api_specs:
   slug: amazon-q-indices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/openapi/amazon-q-indices-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

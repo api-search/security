@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: daloopa-auth-api-openapi.yml
@@ -122,6 +123,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Daloopa Authentication
 name_suffix: Authentication

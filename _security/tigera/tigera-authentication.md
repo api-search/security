@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -35,6 +36,7 @@ auth_types:
 description: Tigera has four distinct authentication surfaces and none of them are declared in an OpenAPI securityScheme — the published Swagger 2.0 definition for the Calico API carries no securityDefinitions block at all, because the API is a Kubernetes aggregated API server that inherits the host cluster's authenticators. This profile was written from the documentation and from probed OAuth metadata, not derived from the spec.
 kind: authentication
 layout: security
+mechanism_count: 6
 method: searched
 name: Tigera Authentication
 name_suffix: Authentication

@@ -44,6 +44,7 @@ hosts:
   https: true
   tls_version: TLSv1.3
   waf: 'Cloudflare managed challenge (cf-mitigated: challenge)'
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

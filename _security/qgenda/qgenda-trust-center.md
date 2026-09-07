@@ -162,6 +162,7 @@ api_specs:
   slug: qgenda-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qgenda/refs/heads/main/openapi/qgenda-workflows-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

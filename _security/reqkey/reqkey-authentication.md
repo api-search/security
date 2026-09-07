@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
 description: 'ReqKey has exactly one credential model: a per-project secret root key sent as an HTTP Bearer token. There is no OAuth, no OIDC, no mTLS, no per-user token and no scope system — the root key is all-or-nothing over every resource in its project. Captured from the published authentication guide and the per- endpoint auth badges in the API reference; ReqKey publishes no OpenAPI, so no securitySchemes could be derived mechanically.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Reqkey Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - SOC 2 Type 2
 description: 'SimCorp runs a public Trust Center at simcorp.com/trust-center with three published sections — Security, Privacy and Compliance. It is a narrative trust center rather than a document portal: it names one third-party attestation (SOC 2 Type 2) and describes the control environment, but the report itself is released only through an account representative, and no certificate artifacts, sub-processor list or continuous-monitoring dashboard are published.'

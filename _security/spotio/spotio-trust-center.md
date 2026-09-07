@@ -234,6 +234,7 @@ api_specs:
   slug: spotio-workflowstages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/openapi/spotio-workflowstages-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

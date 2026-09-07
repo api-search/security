@@ -53,6 +53,7 @@ hosts:
   note: TLS terminates cleanly but the origin is failing; certificate is shared with api.coadjute.com.
   role: retired developer portal
   tls_version: TLSv1.3
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

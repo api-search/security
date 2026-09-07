@@ -6,6 +6,7 @@ api_specs:
   slug: classlink-oneroster-api
   spec_type: OpenAPI
   url: https://sandbox-vn-v2.oneroster.com/ims/oneroster/v1p1
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

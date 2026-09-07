@@ -6,6 +6,7 @@ api_specs:
   slug: nucleus-security-vulnerabilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nucleus-security/refs/heads/main/openapi/nucleus-security-vulnerabilities-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type II
 - FedRAMP Moderate

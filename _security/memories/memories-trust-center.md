@@ -18,6 +18,7 @@ api_specs:
   slug: memories-understand-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/openapi/memories-understand-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

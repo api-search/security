@@ -1,4 +1,5 @@
 ---
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - CASA Tier 3

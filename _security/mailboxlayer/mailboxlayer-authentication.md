@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - query
 api_specs:
@@ -25,6 +26,7 @@ auth_types:
 description: Authentication profile for the mailboxlayer Verification API. Derived from the OpenAPI security schemes and upgraded to searched on 2026-08-14 against the provider's own "API Access Key & Authentication" documentation.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Mailboxlayer Authentication
 name_suffix: Authentication

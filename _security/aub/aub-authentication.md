@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'How the machine-readable surfaces the American University of Beirut operates authenticate. Three regimes are in play and they behave very differently. The AUB ScholarWorks repository read surfaces — DSpace REST and OAI-PMH — are fully anonymous: no key, no account, no rate-limit gate was encountered. The AUB-hosted Moodle Web Services API is token-gated and issues tokens only to AUB accounts. And AUB operates its own Shibboleth SAML 2.0 identity provider, which is browser-based federated sign-in infrastructure rather than an API credential, plus an LTI 1.3 OAuth 2.0 client-credentials token endpoint for external learning tools. AUB publishes no developer portal, issues no public API keys and documents no self-service credential path of any kind.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Aub Authentication
 name_suffix: Authentication

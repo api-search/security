@@ -66,6 +66,7 @@ api_specs:
   slug: booqable-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

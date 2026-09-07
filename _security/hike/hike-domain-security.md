@@ -53,6 +53,7 @@ hosts:
   host: dev.hike.in
   http_note: public DNS answers with an RFC 1918 private address; not routable from the internet
   https: false
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

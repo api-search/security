@@ -12,6 +12,7 @@ api_specs:
   slug: corti-ambient-documentation-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/asyncapi/corti-stream-asyncapi.json
+certification_count: 21
 certifications:
 - SOC 2
 - ISO 27001

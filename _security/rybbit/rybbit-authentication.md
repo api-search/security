@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -27,6 +28,7 @@ auth_types:
 description: 'Rybbit authenticates every API and MCP request with one of three credentials: an organization API key, a personal API key, or an OAuth 2.1 access token issued by Rybbit''s own authorization server for the hosted MCP endpoint. The OpenAPI in this repo only expresses the bearer scheme; the rest of this profile was read from Rybbit''s published auth documentation and the RFC 8414 / RFC 9728 discovery documents saved under well-known/.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Rybbit Authentication
 name_suffix: Authentication

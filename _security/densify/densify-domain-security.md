@@ -1,41 +1,17 @@
 ---
 api_specs:
-- filename: dev
+- filename: densify-authorize-openapi.yaml
   format: yaml
-  label: Densify Public Cloud API
+  label: Kubex (Densify) Public Cloud API
   slug: public-cloud-api
-  spec_type: Postman
-  url: https://www.densify.com/dev
-- filename: densify-authentication-api-openapi.yml
-  format: yaml
-  label: Densify Authentication API
-  slug: densify-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-authentication-api-openapi.yml
-- filename: densify-cloud-analysis-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-authorize-openapi.yaml
+- filename: densify-kubernetes-kubernetes-clusters-openapi.yaml
   format: yaml
-  label: Densify Cloud Analysis API
-  slug: densify-cloud-analysis-api
+  label: Kubex (Densify) Container Optimization API
+  slug: container-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-cloud-analysis-api-openapi.yml
-- filename: densify-kubernetes-api-openapi.yml
-  format: yaml
-  label: Densify Kubernetes API
-  slug: densify-kubernetes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-kubernetes-api-openapi.yml
-- filename: densify-recommendations-api-openapi.yml
-  format: yaml
-  label: Densify Recommendations API
-  slug: densify-recommendations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-recommendations-api-openapi.yml
-- filename: densify-system-api-openapi.yml
-  format: yaml
-  label: Densify System API
-  slug: densify-system-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-system-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-kubernetes-kubernetes-clusters-openapi.yaml
 description: ''
 domains:
 - caa: []
@@ -44,21 +20,22 @@ domains:
   domain: densify.com
   spf: true
 hosts:
-- cert_expires: Aug 18 16:42:02 2026 GMT
+- cert_expires: Oct 17 02:54:26 2026 GMT
   host: www.densify.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 18 16:42:02 2026 GMT
+- cert_expires: Oct 17 02:54:26 2026 GMT
   host: portal.densify.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 18 16:42:02 2026 GMT
+- cert_expires: Oct 17 02:54:26 2026 GMT
   host: api.densify.com
   hsts: false
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
@@ -71,7 +48,7 @@ slug: densify-domain-security
 source_filename: densify-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.densify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 16:42:02 2026 GMT\n  hsts: false\n- host: portal.densify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 16:42:02 2026 GMT\n  hsts: false\n- host: api.densify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 16:42:02 2026 GMT\n  hsts: false\ndomains:\n- domain: densify.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.densify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 02:54:26 2026 GMT\n  hsts: false\n- host: portal.densify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 02:54:26 2026 GMT\n  hsts: false\n- host: api.densify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 02:54:26 2026 GMT\n  hsts: false\ndomains:\n- domain: densify.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/security/densify-domain-security.yml
 summary_line: TLSv1.3
 tags:

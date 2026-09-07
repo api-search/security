@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: runway-avatars-api-openapi.yml
@@ -85,11 +86,48 @@ api_specs:
   slug: runway-video-upscale-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-video-upscale-api-openapi.yml
+- filename: runwayml-image-to-video-api-openapi.yml
+  format: yaml
+  label: Runway Image-to-Video API
+  slug: runwayml-image-to-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runwayml-image-to-video-api-openapi.yml
+- filename: runwayml-organization-api-openapi.yml
+  format: yaml
+  label: Runway Organization API
+  slug: runwayml-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runwayml-organization-api-openapi.yml
+- filename: runwayml-text-to-image-api-openapi.yml
+  format: yaml
+  label: Runway Text-to-Image API
+  slug: runwayml-text-to-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runwayml-text-to-image-api-openapi.yml
+- filename: runwayml-text-to-speech-api-openapi.yml
+  format: yaml
+  label: Runway Text-to-Speech API
+  slug: runwayml-text-to-speech-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runwayml-text-to-speech-api-openapi.yml
+- filename: runwayml-upscale-api-openapi.yml
+  format: yaml
+  label: Runway Upscale API
+  slug: runwayml-upscale-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runwayml-upscale-api-openapi.yml
+- filename: runwayml-video-to-video-api-openapi.yml
+  format: yaml
+  label: Runway Video-to-Video API
+  slug: runwayml-video-to-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runwayml-video-to-video-api-openapi.yml
 auth_types:
 - http
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Runway Authentication
 name_suffix: Authentication

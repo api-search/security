@@ -1,4 +1,5 @@
 ---
+certification_count: 15
 certifications:
 - SOC 1 Type II
 - SOC 2 Type II

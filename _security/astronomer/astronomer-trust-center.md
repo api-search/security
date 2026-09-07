@@ -90,6 +90,7 @@ api_specs:
   slug: astronomer-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/astronomer/refs/heads/main/openapi/astronomer-workspace-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - PCI DSS

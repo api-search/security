@@ -24,6 +24,7 @@ api_specs:
   slug: amazon-deepracer-tracks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/openapi/amazon-deepracer-tracks-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

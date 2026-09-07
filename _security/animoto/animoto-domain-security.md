@@ -22,6 +22,7 @@ hosts:
   https: true
   note: 'HSTS corrected by hand on 2026-08-13. probe-domain-security.py recorded hsts: null for this host, but `curl -sI https://api.animoto.com/` and `.../jobs/` both return `strict-transport-security: max-age=15724800; includeSubDomains`. The host answers every path with HTTP 401 and an HTTP Basic challenge, which is likely why the automated probe did not capture the header.'
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

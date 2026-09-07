@@ -552,6 +552,7 @@ api_specs:
   slug: phasio-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/openapi/phasio-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

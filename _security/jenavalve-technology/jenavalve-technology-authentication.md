@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: jenavalve-technology-authors-api-openapi.yml
@@ -49,6 +50,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Jenavalve Technology Authentication
 name_suffix: Authentication

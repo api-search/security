@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - body
 api_specs:
@@ -25,6 +26,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Arkose Labs Authentication
 name_suffix: Authentication

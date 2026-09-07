@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: natural-ai-agent-keys-api-openapi.yml
@@ -97,6 +98,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Natural Ai Authentication
 name_suffix: Authentication

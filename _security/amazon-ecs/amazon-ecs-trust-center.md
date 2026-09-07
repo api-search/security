@@ -60,6 +60,7 @@ api_specs:
   slug: amazon-ecs-x-amz-target-amazonec2containerservicev20141113-updateservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/openapi/amazon-ecs-x-amz-target-amazonec2containerservicev20141113-updateservice-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

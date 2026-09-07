@@ -30,6 +30,7 @@ api_specs:
   slug: permutive-v2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/openapi/permutive-v2-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - SOC 3

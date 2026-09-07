@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: 'TripleLift operates a Trust Center at trust.triplelift.com. It is a single-page JavaScript application on the Responsive (formerly RFPIO) platform: the served HTML is 4KB, its entire body text is "Please enable JavaScript to continue using this application", and no certification, framework, subprocessor list or policy document appears in any machine-readable response. The Trust Center exists; its contents are not readable by a machine.'
 kind: trust-center

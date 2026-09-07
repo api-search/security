@@ -21,6 +21,7 @@ hosts:
   hsts: false
   https: false
   https_note: same parked infrastructure as apex (A 217.19.248.132)
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

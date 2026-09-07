@@ -504,6 +504,7 @@ api_specs:
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-updateflywheel-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/openapi/amazon-comprehend-x-amz-target-comprehend-20171127-updateflywheel-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

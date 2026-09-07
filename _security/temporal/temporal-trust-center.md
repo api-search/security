@@ -36,6 +36,7 @@ api_specs:
   slug: temporal-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/openapi/temporal-users-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

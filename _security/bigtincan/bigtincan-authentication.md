@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: bigtincan-admin-api-openapi.yml
@@ -114,6 +115,7 @@ auth_types:
 description: The Bigtincan Hub Public API is OAuth 2.0 only. The published Swagger 2.0 document at https://pubapi.bigtincan.com/api/sandbox/swagger/public-api declares NO securityDefinitions at all; the authentication model below was read from the provider's own interactive console at https://pubapi.bigtincan.com/doc/interactive/ (the token/authorize/revoke endpoints and grant types are defined inline in that page's JavaScript) and confirmed against live unauthenticated probes of the API host.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Bigtincan Authentication
 name_suffix: Authentication

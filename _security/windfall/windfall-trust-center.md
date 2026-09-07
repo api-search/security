@@ -6,6 +6,7 @@ api_specs:
   slug: windfall-windfall-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/windfall/refs/heads/main/openapi/windfall-windfall-api-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 2
 - CCPA / California registered data broker

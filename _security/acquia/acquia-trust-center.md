@@ -120,6 +120,7 @@ api_specs:
   slug: acquia-content-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-content-api-openapi.yaml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

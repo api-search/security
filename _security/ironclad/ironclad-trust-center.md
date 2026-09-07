@@ -72,6 +72,7 @@ api_specs:
   slug: ironclad-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-workflows-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

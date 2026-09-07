@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -57,6 +58,7 @@ auth_types:
 description: Ocean.io authenticates every REST call with a single account API token, generated in the app under Account Settings → API tokens. The token may be sent either as the X-Api-Token request header or as an apiToken query parameter — but not both, which is an error. There are no scopes and no per-token permissions surface documented. The published OpenAPI does not declare components.securitySchemes; instead every one of the 26 operations carries the token as two optional parameters (apiToken in query, x-api-token in header), so a generated client will not enforce auth. A separate RFC 8414 OAuth 2.0 Authorization Server Metadata document is served at https://api.ocean.io/.well-known/oauth-authorization-server advertising a client_credentials token endpoint; it is not referenced anywhere in the public documentation.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Ocean Io Authentication
 name_suffix: Authentication

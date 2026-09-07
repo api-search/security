@@ -200,6 +200,7 @@ hosts:
 - host: status.airtm.com
   hsts: false
   https: true
+hosts_probed: 9
 kind: domain-security
 layout: security
 method: probed

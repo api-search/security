@@ -84,6 +84,7 @@ api_specs:
   slug: thanx-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-users-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2 Type 2
 - PCI DSS

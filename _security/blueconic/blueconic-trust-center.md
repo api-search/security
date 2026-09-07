@@ -168,6 +168,7 @@ api_specs:
   slug: blueconic-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-users-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 2
 - TRUSTe Verified Privacy Seal

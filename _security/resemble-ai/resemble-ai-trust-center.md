@@ -156,6 +156,7 @@ api_specs:
   slug: resemble-ai-subpackage-watermark-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-watermark-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

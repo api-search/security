@@ -36,6 +36,7 @@ api_specs:
   slug: userpilot-track-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/openapi/userpilot-track-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

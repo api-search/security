@@ -30,6 +30,7 @@ api_specs:
   slug: hotglue-linked-connectors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-linked-connectors-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

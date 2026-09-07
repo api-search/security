@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: sertica-web-api-openapi.json
@@ -12,6 +13,7 @@ auth_types:
 description: SERTICA Web API authentication. The spec declares a single HTTP bearer scheme; the provider's own support documentation supplies the token-issuing flow, the lifetime, and the per-user authorization model that the spec expresses only as prose inside each operation's 403 response description.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Sertica Authentication
 name_suffix: Authentication

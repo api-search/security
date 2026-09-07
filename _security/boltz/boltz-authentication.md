@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: boltz-admin-api-openapi.yml
@@ -47,6 +48,7 @@ auth_types: []
 description: 'Authentication profile for the Boltz Compute API. Bearer-token auth: either a Boltz API key or an OAuth bearer token in the Authorization header. OAuth callers scope requests to an organization with the X-Boltz-Organization-Id header. API keys carry a mode (test vs live).'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Boltz Authentication
 name_suffix: Authentication

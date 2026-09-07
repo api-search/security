@@ -210,6 +210,7 @@ api_specs:
   slug: tetrascience-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-workflows-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: tenet-healthcare-appointments-api-openapi.yml
@@ -42,6 +43,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Tenet Healthcare Authentication
 name_suffix: Authentication

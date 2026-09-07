@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - saml
@@ -7,6 +8,7 @@ auth_types:
 description: Authentication posture across the surfaces École Normale Supérieure - PSL actually operates. This file replaces an earlier version derived from the French Ministry (MESR) Opendatasoft Explore API, a contract ENS does not operate; that surface and everything derived from it was removed from this repository on 2026-08-30.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Ens Paris Authentication
 name_suffix: Authentication

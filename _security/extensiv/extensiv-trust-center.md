@@ -42,6 +42,7 @@ api_specs:
   slug: extensiv-warehouses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-warehouses-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

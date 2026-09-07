@@ -366,6 +366,7 @@ api_specs:
   slug: prefect-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/prefect/refs/heads/main/openapi/prefect-workspaces-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

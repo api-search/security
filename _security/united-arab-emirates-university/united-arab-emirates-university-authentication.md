@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: United Arab Emirates University operates its own enterprise identity service at eisprod.uaeu.ac.ae. It is the single sign-on point for university applications — Banner Self-Service at ssb.uaeu.ac.ae redirects into it — and it publishes three unauthenticated, standards-mandated discovery documents. This is the only machine-readable surface UAEU itself operates; it is not an API product and there is no developer program behind it.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: United Arab Emirates University Authentication
 name_suffix: Authentication

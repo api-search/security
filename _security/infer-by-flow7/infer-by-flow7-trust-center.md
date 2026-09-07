@@ -18,6 +18,7 @@ api_specs:
   slug: infer-by-flow7-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-status-api-openapi.yml
+certification_count: 0
 certifications: []
 description: Infer publishes no trust center and holds no named third-party certification. It does publish a complete, versioned legal and data-protection document set, which is the closest thing it has to a trust surface. Recorded so the absence is a checked fact rather than an unchecked one.
 kind: trust-center

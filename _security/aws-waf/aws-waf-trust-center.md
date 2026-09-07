@@ -6,6 +6,7 @@ api_specs:
   slug: aws-waf-aws-wafv2-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-waf/refs/heads/main/openapi/aws-waf-aws-wafv2-api-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

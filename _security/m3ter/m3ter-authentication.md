@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: m3ter-account-api-openapi.yml
@@ -354,6 +355,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: M3Ter Authentication
 name_suffix: Authentication

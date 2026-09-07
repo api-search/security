@@ -1,4 +1,5 @@
 ---
+certification_count: 4
 certifications:
 - HITRUST i1 Validated
 - SOC 2 Type 2

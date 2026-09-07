@@ -36,6 +36,7 @@ api_specs:
   slug: candid-health-v4-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/candid-health/refs/heads/main/openapi/candid-health-v4-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 2
 - SOC 2 Type 1

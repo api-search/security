@@ -30,6 +30,7 @@ api_specs:
   slug: linearb-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-teams-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

@@ -84,6 +84,7 @@ api_specs:
   slug: gumloop-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gumloop/refs/heads/main/openapi/gumloop-teams-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

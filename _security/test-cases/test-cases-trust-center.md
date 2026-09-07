@@ -18,6 +18,7 @@ api_specs:
   slug: test-cases-mocks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/test-cases/refs/heads/main/openapi/test-cases-mocks-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

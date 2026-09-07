@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: university-of-wisconsin-madison-locations-api-openapi.yml
@@ -234,6 +235,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: University Of Wisconsin Madison Authentication
 name_suffix: Authentication

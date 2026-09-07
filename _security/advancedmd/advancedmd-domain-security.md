@@ -217,6 +217,7 @@ hosts:
   https: true
   note: Application Access API host. Probed manually 2026-07-27.
   tls_version: TLSv1.3
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

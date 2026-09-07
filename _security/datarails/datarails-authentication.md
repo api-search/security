@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: datarails-health-api-openapi.yml
@@ -31,6 +32,7 @@ auth_types:
 description: Datarails runs two unrelated authentication models across two surfaces. The FinanceOS MCP server uses OAuth 2.1 with PKCE and dynamic client registration (discoverable at RFC 8414 / RFC 9728 well-known endpoints). The Data Gateway Service upload endpoint uses HTTP Basic with the base64 of a Datarails user's username:password — a service account that Datarails documents must not have MFA enabled. Human sign-in to the application supports SAML SSO.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Datarails Authentication
 name_suffix: Authentication

@@ -6,6 +6,7 @@ api_specs:
   slug: formspree-forms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/formspree/refs/heads/main/openapi/formspree-forms-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

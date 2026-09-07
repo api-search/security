@@ -96,6 +96,7 @@ api_specs:
   slug: captivateiq-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/openapi/captivateiq-users-api-openapi.yml
+certification_count: 5
 certifications:
 - ISO 27001
 - SOC 1

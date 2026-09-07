@@ -1,4 +1,5 @@
 ---
+certification_count: 6
 certifications:
 - ISO/IEC 27001:2013
 - SOC 1

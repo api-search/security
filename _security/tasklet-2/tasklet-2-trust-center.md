@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - SOC 2
 description: Tasklet publishes a Vanta-hosted Trust Center at trust.tasklet.ai covering its security and compliance posture. SOC 2 (Type I) compliance was announced in the product changelog on 2026-07-09.

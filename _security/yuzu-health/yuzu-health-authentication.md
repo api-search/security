@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: yuzu-health-accumulator-experimental-api-openapi.yml
@@ -66,6 +67,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Yuzu Health Authentication
 name_suffix: Authentication

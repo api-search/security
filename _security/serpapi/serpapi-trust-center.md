@@ -12,6 +12,7 @@ api_specs:
   slug: serpapi-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/serpapi/refs/heads/main/openapi/serpapi-search-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: x-account-activity-api-openapi.yml
@@ -145,6 +146,7 @@ auth_types:
 description: 'Authentication profile for the X API v2. Three schemes are declared in X''s published contract and all three are documented as first-class methods: app-only Bearer for read-only public data, OAuth 2.0 Authorization Code with PKCE for user context (required for every write), and legacy OAuth 1.0a user context. Enterprise endpoints additionally accept Basic Auth.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: X Authentication
 name_suffix: Authentication

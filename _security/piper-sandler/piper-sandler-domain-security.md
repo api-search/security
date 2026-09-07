@@ -22,6 +22,7 @@ hosts:
   https: false
 - host: api.pipersandler.com
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

@@ -58,6 +58,7 @@ hosts:
   https: false
 - host: api.danaaftermarket.com
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

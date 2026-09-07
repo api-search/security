@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
 description: The Citcon UPI API authenticates with a Bearer access token passed in the Authorization header. An access token is generated from your Citcon private key by POSTing to /v1/access-tokens and is then supplied on every subsequent request. Tokens carry a permissions array scoping which operations they may perform.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Citcon Authentication
 name_suffix: Authentication

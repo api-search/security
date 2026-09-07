@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: public
@@ -11,6 +12,7 @@ auth_types: []
 description: Yahoo authenticates every public API surface with OAuth 2.0, but the flows differ sharply by product. Consumer-facing APIs (Fantasy Sports, Sign In With Yahoo) use the three-legged authorization-code flow against the Yahoo identity service at api.login.yahoo.com, which also publishes a full OpenID Connect Discovery document. The ad-tech APIs (DSP Traffic, DSP Reporting, DataX, Conversion API) use a two-legged client_credentials flow in which the client authenticates with a self-signed JWT and the resulting bearer token is presented in Yahoo's own X-Auth-Token / X-Auth-Method header pair rather than in Authorization.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Yahoo Authentication
 name_suffix: Authentication

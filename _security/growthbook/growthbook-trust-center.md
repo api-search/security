@@ -216,6 +216,7 @@ api_specs:
   slug: growthbook-visual-changesets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-visual-changesets-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

@@ -52,6 +52,7 @@ hosts:
   tls_version: TLSv1.3
 - host: core-v1.carbon.prod.andersonopt.com
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

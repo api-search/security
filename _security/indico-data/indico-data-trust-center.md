@@ -30,6 +30,7 @@ api_specs:
   slug: indico-data-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/openapi/indico-data-workflows-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

@@ -12,6 +12,7 @@ api_specs:
   slug: paytabs-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paytabs/refs/heads/main/openapi/paytabs-transactions-api-openapi.yml
+certification_count: 3
 certifications:
 - PCI DSS Level 1
 - EMV 3-D Secure 2 (Modirum)

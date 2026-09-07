@@ -17,6 +17,7 @@ hosts:
   https: true
   note: private application backend (nginx/ELB, Express); no public spec or docs
   tls_version: TLSv1.2
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

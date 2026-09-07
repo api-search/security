@@ -18,6 +18,7 @@ api_specs:
   slug: bitso-public-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/openapi/bitso-public-api-openapi.yml
+certification_count: 1
 certifications:
 - ISO 27001
 description: ''

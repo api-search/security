@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
 description: Libryo's partner API authenticates with OAuth 2.0 authorization-code grant. A partner application sends a Libryo user to the platform authorization endpoint, receives an authorization code on its registered redirect URI, then exchanges that code plus a client secret for an access token at the API token endpoint. Client credentials (client_id / client_secret) are issued by Libryo to partners; there is no public self-service registration. Captured from Libryo's own public OAuth integration guide and confirmed against the live token endpoint.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Libryo Authentication
 name_suffix: Authentication

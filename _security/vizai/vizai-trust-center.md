@@ -1,4 +1,5 @@
 ---
+certification_count: 11
 certifications:
 - SOC 2 Type II
 - HIPAA

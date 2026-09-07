@@ -1,4 +1,5 @@
 ---
+certification_count: 14
 certifications:
 - SOC 2 Type 2
 - HITRUST

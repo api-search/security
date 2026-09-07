@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for the two EMC management APIs in this profile. Both are customer-hosted appliance APIs, so there is no EMC-operated authorization server, no OAuth, and no developer-portal API key. Authentication is HTTP Basic against the customer's own array, exchanged for a session token. The mechanics below are read from EMC's own shipped client code rather than from prose, because the reference documentation on developer.dell.com is behind an authenticated portal API.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Emc Authentication
 name_suffix: Authentication

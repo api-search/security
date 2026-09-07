@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: universite-de-montreal-sadvr-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: 'Authentication posture across Université de Montréal''s programmable surfaces. The pattern is the one most research universities show: the institution''s own read-only research metadata is wide open with no key at all, while everything that touches a person''s account sits behind campus SSO — and there is no self-service developer credential anywhere, because there is no developer portal to issue one from.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Universite De Montreal Authentication
 name_suffix: Authentication

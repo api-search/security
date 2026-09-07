@@ -36,6 +36,7 @@ api_specs:
   slug: relativityone-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-tasks-api-openapi.yml
+certification_count: 2
 certifications:
 - FedRAMP
 - GDPR

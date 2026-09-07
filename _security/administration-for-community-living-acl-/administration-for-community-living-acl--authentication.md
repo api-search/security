@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: ACL publishes no developer authentication documentation. Two live ACL API hosts were discovered by reading the public front-end bundles of ACL's own web properties; this artifact records the authentication model each one actually enforces, observed on the wire. Neither surface has a signup, a key-issuance flow, or a documented auth page.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Administration For Community Living Acl  Authentication
 name_suffix: Authentication

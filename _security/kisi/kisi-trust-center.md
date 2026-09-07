@@ -288,6 +288,7 @@ api_specs:
   slug: kisi-wireless-locks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/openapi/kisi-wireless-locks-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

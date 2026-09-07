@@ -156,6 +156,7 @@ api_specs:
   slug: iterable-whatsapp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-whatsapp-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

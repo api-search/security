@@ -132,6 +132,7 @@ api_specs:
   slug: synack-webapps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-webapps-api-openapi.yml
+certification_count: 6
 certifications:
 - ISO 27001:2022
 - FedRAMP Moderate

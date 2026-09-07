@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: american-gene-technologies-international-agt-jobs-api-openapi.yml
@@ -120,6 +121,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: American Gene Technologies International Authentication
 name_suffix: Authentication

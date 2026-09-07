@@ -22,6 +22,7 @@ hosts:
   https: true
   note: 'Corrected by hand on 2026-08-12 from a direct probe. The automated pass recorded hsts: null because every request to this host returns HTTP 500 (UnauthorizedError) and the header was not read off a non-2xx response; `curl -I https://api.datafy.com/` does return `strict-transport-security: max-age=15552000; includeSubDomains`. The host also returns a full Helmet-style header set (CSP, X-Content-Type-Options, X-Frame-Options, Referrer-Policy, COOP/CORP) behind Cloudflare, with Access-Control-Allow-Origin: *.'
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: Authentication profile for Urban Revivo's agent/customer-facing surface, captured from the live OIDC discovery and OAuth authorization-server metadata published on the global Shopify storefront (saved verbatim in well-known/). Customer and agent access is brokered by Shopify customer accounts (issuer shopify.com/authentication/50476449942) using OAuth 2.0 authorization-code with PKCE; the UCP MCP shopping endpoint additionally requires an agent profile and buyer-approved checkout.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Urban Revivo Authentication
 name_suffix: Authentication

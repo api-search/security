@@ -6,6 +6,7 @@ api_specs:
   slug: request-finance-ap-and-ar-api
   spec_type: Postman
   url: https://www.postman.com/request-finance/workspace/request-finance-api-public/documentation/24913360-b5105a65-a6bd-4247-b3b1-ed60e5c8f5cb
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

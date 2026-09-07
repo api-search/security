@@ -126,6 +126,7 @@ api_specs:
   slug: supabase-user-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-user-management-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

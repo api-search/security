@@ -24,6 +24,7 @@ api_specs:
   slug: apollo-insurance-quote-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/openapi/apollo-insurance-quote-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

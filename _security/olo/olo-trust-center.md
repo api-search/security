@@ -42,6 +42,7 @@ api_specs:
   slug: olo-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-users-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - PCI DSS

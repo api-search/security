@@ -9954,6 +9954,7 @@ api_specs:
   slug: microsoft-azure-zones-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-zones-api-openapi.yml
+certification_count: 12
 certifications:
 - SOC 1
 - SOC 2

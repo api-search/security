@@ -12,6 +12,7 @@ api_specs:
   slug: cherre-graphql-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/openapi/cherre-graphql-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

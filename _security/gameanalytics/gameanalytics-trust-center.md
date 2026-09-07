@@ -18,6 +18,7 @@ api_specs:
   slug: gameanalytics-organization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/openapi/gameanalytics-organization-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

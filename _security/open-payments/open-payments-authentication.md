@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: open-payments-datastore-query-api-openapi.yml
@@ -36,6 +37,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: manual
 name: Open Payments Authentication
 name_suffix: Authentication

@@ -36,6 +36,7 @@ api_specs:
   slug: tealium-wp-json-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-wp-json-api-openapi.yml
+certification_count: 10
 certifications:
 - SSAE18 SOC 2 Type II
 - ISO/IEC 27001

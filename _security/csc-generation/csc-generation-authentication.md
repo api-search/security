@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - unpublished — rejected before the scheme is disclosed
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Csc Generation Authentication
 name_suffix: Authentication

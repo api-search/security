@@ -150,6 +150,7 @@ api_specs:
   slug: act-on-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-user-api-openapi.yml
+certification_count: 4
 certifications:
 - ISO 27001
 - HIPAA

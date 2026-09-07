@@ -294,6 +294,7 @@ api_specs:
   slug: keboola-vendor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/openapi/keboola-vendor-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

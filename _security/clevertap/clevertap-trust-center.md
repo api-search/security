@@ -24,6 +24,7 @@ api_specs:
   slug: clevertap-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/openapi/clevertap-reports-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

@@ -37,6 +37,7 @@ hosts:
   hsts: null
   https: true
   tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for ''<workspace>'
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

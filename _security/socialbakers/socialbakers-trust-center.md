@@ -48,6 +48,7 @@ api_specs:
   slug: socialbakers-reference-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socialbakers/refs/heads/main/openapi/socialbakers-reference-api-openapi.yml
+certification_count: 10
 certifications:
 - SOC 2 Type II
 - SOC 1 Type II

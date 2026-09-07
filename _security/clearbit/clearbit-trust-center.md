@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: Clearbit publishes a single-page trust center covering legal terms, data governance and privacy, compliance posture, security practices and a link to the status page. It documents a real compliance program — California data-broker registration, CCPA subjection, GDPR alignment, a subprocessor list, annual third-party penetration testing — but it does NOT claim any Clearbit-held security certification.
 kind: trust-center

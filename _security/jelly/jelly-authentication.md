@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
 description: The Jelly GraphQL API at https://api.getjelly.co.uk/ requires a bearer token. Unauthenticated operations return a GraphQL error with extensions.code = "UNAUTHENTICATED" ("Unauthorized access"). Schema introspection is publicly available; all data/mutation operations are authenticated. Tokens are issued through the Jelly kitchen app (kitchen.getjelly.co.uk) sign-in; Jelly does not publish a public OAuth authorization server or developer API-key console.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Jelly Authentication
 name_suffix: Authentication

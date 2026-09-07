@@ -66,6 +66,7 @@ api_specs:
   slug: ramp-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/openapi/ramp-vendors-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

@@ -6,6 +6,7 @@ api_specs:
   slug: relevance-ai
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-openapi.json
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - GDPR

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: university-of-auckland-course-catalog-v3-openapi.yml
@@ -19,6 +20,7 @@ auth_types:
 description: Authentication for the University of Auckland's own API gateway (apis.auckland.ac.nz, Kong) and its developer portal (developer.auckland.ac.nz/prd). Derived from the two OpenAPI documents the University publishes in that portal plus the portal's own guides; the scheme names and flow are the University's, the consolidation is ours.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: University Of Auckland Authentication
 name_suffix: Authentication

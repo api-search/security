@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -8,6 +9,7 @@ description: 'The Toshl API supports two authentication methods: OAuth 2.0 beare
   '
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Toshl Authentication
 name_suffix: Authentication

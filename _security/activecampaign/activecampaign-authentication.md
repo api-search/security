@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -350,6 +351,7 @@ auth_types:
 description: ActiveCampaign authenticates every API surface with one flat, unscoped API key sent in an Api-Token header. There is no OAuth, no OIDC, no scopes, no token expiry and no refresh — which is why this repo carries no scopes/ artifact. The one exception is the Partners API, a separate reseller surface with its own credential model.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Activecampaign Authentication
 name_suffix: Authentication

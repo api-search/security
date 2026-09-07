@@ -84,6 +84,7 @@ api_specs:
   slug: stackhawk-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stackhawk/refs/heads/main/openapi/stackhawk-user-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

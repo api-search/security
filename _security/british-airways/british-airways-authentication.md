@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: 'British Airways publishes no OpenAPI, so no securityScheme could be derived mechanically. This profile was assembled from the two authentication surfaces that are actually observable: the OpenID Connect discovery document of the Microsoft Entra External ID (CIAM) tenant that the NDC Communication Hub logs developers into, and the archived documentation for the client-key credential the NDC and legacy REST APIs consume. The hub login and the API credential are separate things — logging into ndc.ba.com does not grant API access; a client-key is issued disabled and only enabled through certification and a signed contract.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: British Airways Authentication
 name_suffix: Authentication

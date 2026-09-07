@@ -252,6 +252,7 @@ api_specs:
   slug: silna-v2benefitscheckresource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/openapi/silna-v2benefitscheckresource-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - HIPAA

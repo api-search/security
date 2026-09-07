@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: Reed Semiconductor publishes no OpenAPI and no authentication documentation — it runs no developer program. This profile is built entirely from live probes of the REST and MCP surfaces its WordPress deployment serves, and from the OAuth metadata documents at /.well-known/. Three distinct authentication regimes coexist on one host.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Reed Semiconductor Authentication
 name_suffix: Authentication

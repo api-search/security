@@ -24,6 +24,7 @@ hosts:
   https: true
   note: Added by hand — this host is not referenced from apis.yml (Boulder Care publishes no API), but it is the live Apollo GraphQL backend for the patient mobile app and was found by STEP 0b contract discovery. /health returns HTTP 200 "ok".
   tls_version: TLSv1.2
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

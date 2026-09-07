@@ -90,6 +90,7 @@ api_specs:
   slug: fieldguide-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-webhooks-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - PCI DSS

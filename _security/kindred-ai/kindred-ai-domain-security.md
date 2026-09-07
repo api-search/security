@@ -16,6 +16,7 @@ domains:
   spf: true
   spf_record: v=spf1 include:_spf.google.com include:servers.mcsv.net ?all
 hosts: []
+hosts_probed: 0
 kind: domain-security
 layout: security
 method: probed

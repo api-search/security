@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for the Purchaser sourcing API, captured from the public API & Integrations overview. Full authentication guides are available to Purchaser customers behind login.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Purchaser Authentication
 name_suffix: Authentication

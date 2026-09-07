@@ -72,6 +72,7 @@ api_specs:
   slug: ably-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-tokens-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

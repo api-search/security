@@ -66,6 +66,7 @@ api_specs:
   slug: hex-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-users-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2 Type II
 - HIPAA

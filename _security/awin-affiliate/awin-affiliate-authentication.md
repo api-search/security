@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -39,6 +40,7 @@ auth_types:
 description: 'Awin authenticates with a single long-lived token bound to a USER, not to an account and not to an application. The token is created by a human in the platform UI at https://ui.awin.com/awin-api after re-entering their password, and it grants access to every publisher and advertiser account that user can reach - Awin states this explicitly: "If you have access to 10 different Awin publisher accounts via our website, then your personal API token grants you access to data from all of those 10 accounts." Awin describes this as OAuth 2.0, but only bearer-token presentation (RFC 6750) is implemented: there is no authorization endpoint, no token endpoint, no client registration, no grant flow, no refresh and no scopes.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Awin Affiliate Authentication
 name_suffix: Authentication

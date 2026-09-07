@@ -204,6 +204,7 @@ api_specs:
   slug: cyware-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/openapi/cyware-webhooks-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 2
 - ISO/IEC 27001:2022

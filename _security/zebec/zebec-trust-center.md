@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - SOC 2 (SOC II report by an independent auditor)
 description: ''

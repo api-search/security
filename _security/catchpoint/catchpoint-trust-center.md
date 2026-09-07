@@ -186,6 +186,7 @@ api_specs:
   slug: catchpoint-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/catchpoint/refs/heads/main/openapi/catchpoint-workflow-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 2
 - ISO 27001

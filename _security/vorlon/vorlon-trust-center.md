@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: 'Vorlon''s trust page presents its security and compliance posture: SOC 2 Type II certification, data-security controls protecting customer data against unauthorized access, anomaly and incident detection across the ecosystem, and system-recovery procedures. A compliance-report request form is offered for report access. The automated trust-center probe did not record this page because it sits at vorlon.io/trust rather than a trust.<domain> subdomain meeting the probe''s keyword threshold - this is the searched, human-verified fill. The site footer (including the security-compliance page) also displays SOC 2 Type II, AWS, and FS-ISAC Affiliate badges.'

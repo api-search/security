@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - ISO/IEC 27001
 description: Preferred Networks publishes no dedicated trust centre or trust.* subdomain, and probe-security-programs.py found neither one nor a vulnerability-disclosure programme. It does, however, publish a named certification and three downloadable governance/security policy documents from its corporate site, which are recorded here.

@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
 description: The Sydecar API authenticates every request with a Bearer token supplied on the HTTP Authorization header. Tokens are issued as API keys tied to a single API user account (one account may hold more than one key). Sydecar provisions production API tokens on sign-up and issues separate sandbox/staging tokens on request, so credentials are scoped per environment. Captured from the public Sydecar API "Overview and Guide" documentation.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Sydecar Authentication
 name_suffix: Authentication

@@ -84,6 +84,7 @@ api_specs:
   slug: workday-extend-wql-query-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/openapi/workday-extend-wql-query-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

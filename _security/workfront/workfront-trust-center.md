@@ -36,6 +36,7 @@ api_specs:
   slug: workfront-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-workspaces-api-openapi.yml
+certification_count: 11
 certifications:
 - SOC 2 Type 2 (Security, Availability & Confidentiality)
 - SOC 3 (Security, Availability & Confidentiality)

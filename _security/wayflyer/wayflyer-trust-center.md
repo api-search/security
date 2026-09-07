@@ -72,6 +72,7 @@ api_specs:
   slug: wayflyer-user-details-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-user-details-api-openapi.yml
+certification_count: 0
 certifications: []
 description: Wayflyer operates a public trust center at trust.wayflyer.com (HTTP 200 at probe time), hosted on Vanta's trust-report platform (page title "Wayflyer Trust Center"; page loads Vanta trust-report assets from assets.vanta.com). The content is JavaScript-rendered, so the automated keyword probe (probe-security-programs.py) could not extract the certification list — named certifications are therefore NOT recorded here rather than guessed. No Compliance rating pointer is emitted until a published certification list is verified.
 kind: trust-center

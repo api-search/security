@@ -228,6 +228,7 @@ api_specs:
   slug: omni-who-am-i-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/openapi/omni-who-am-i-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

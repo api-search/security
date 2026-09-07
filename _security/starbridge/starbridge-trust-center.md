@@ -30,6 +30,7 @@ api_specs:
   slug: starbridge-signal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/starbridge-signal-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

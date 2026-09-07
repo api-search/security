@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - query
 api_specs:
@@ -27,6 +28,7 @@ auth_types:
 description: Every Snapchat developer surface authenticates with OAuth 2.0, but through three different authorization servers with three different token shapes. The Marketing API and Login Kit both go through accounts.snapchat.com; the Ads MCP server runs its own authorization server at mcp.snapchat.com with pre-registered per-vendor client ids and a single read scope. The Conversions API additionally accepts a long-lived static token generated in Ads Manager and passed as a QUERY PARAMETER, which is the weakest link in the set — it puts a credential in URLs, logs and referrers.
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Snapchat Authentication
 name_suffix: Authentication

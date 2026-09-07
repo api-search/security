@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: powernaut-authentication-api-openapi.yml
@@ -90,6 +91,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Powernaut Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: a-alpha-bio-datasets-api-openapi.yml
@@ -13,6 +14,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: A Alpha Bio Authentication
 name_suffix: Authentication

@@ -84,6 +84,7 @@ api_specs:
   slug: leapsome-worklocations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-worklocations-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

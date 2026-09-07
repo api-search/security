@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: hebrew-university-of-jerusalem-shnaton-course-catalog-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: 'Authentication across the Hebrew University of Jerusalem''s programmable surfaces. The headline is that the one institution-operated API found in this profile requires no authentication at all, and the university operates no API key issuance, no OAuth authorization server, and no developer registration of any kind that could be found. Human and staff authentication is a different story and is entirely SAML: a university-run SimpleSAMLphp identity provider at idp.cc.huji.ac.il fronts the institutional web estate, including the vendor platforms the university is a tenant of.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Hebrew University Of Jerusalem Authentication
 name_suffix: Authentication

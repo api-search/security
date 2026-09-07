@@ -48,6 +48,7 @@ api_specs:
   slug: spade-universal-enrichment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-universal-enrichment-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

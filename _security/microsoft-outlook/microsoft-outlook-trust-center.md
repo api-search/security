@@ -18,6 +18,7 @@ api_specs:
   slug: microsoft-outlook-messages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/openapi/microsoft-outlook-messages-api-openapi.yml
+certification_count: 18
 certifications:
 - SOC 1
 - SOC 2

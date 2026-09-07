@@ -18,6 +18,7 @@ api_specs:
   slug: sleuth-manual-changes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sleuth/refs/heads/main/openapi/sleuth-manual-changes-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

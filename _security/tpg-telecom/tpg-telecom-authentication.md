@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: The Vodafone Business Messaging Hub API authenticates with account-scoped API keys minted in the console — there is no OAuth 2.0, no OpenID Connect, no CIBA and no mutual TLS anywhere on the TPG Telecom developer surface. Anonymous probes of the OAuth/OIDC discovery documents on api.messaging.tpgtelecom.com.au return 404.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Tpg Telecom Authentication
 name_suffix: Authentication

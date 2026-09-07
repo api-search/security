@@ -6,6 +6,7 @@ api_specs:
   slug: management-api
   spec_type: Postman
   url: https://www.postman.com/api-evangelist/sentinelone/documentation/btzef0x/sentinelone
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

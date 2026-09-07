@@ -84,6 +84,7 @@ api_specs:
   slug: standard-metrics-whoami-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-whoami-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

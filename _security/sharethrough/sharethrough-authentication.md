@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: 'Authentication profile for the two Sharethrough API surfaces. The Publisher Reporting API is an OAuth 2.0 bearer-token API: every request carries an Authorization: Bearer header and an anonymous request is rejected with a 401. Tokens are issued out of the company''s own Auth0 tenant, whose OpenID Provider Metadata is public. The header-bidding endpoint is unauthenticated and identified by a supply_id query parameter plus a per-publisher placement key.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Sharethrough Authentication
 name_suffix: Authentication

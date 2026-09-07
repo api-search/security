@@ -46,6 +46,7 @@ hosts:
   hsts_note: 'The script probes the host root, which is answered by a plain-text 404 handler that emits no security headers. A request to a real API route DOES return `strict-transport-security: max-age=31536000; includeSubDomains`, alongside `x-content-type-options: nosniff`, `x-frame-options: DENY` and `permissions-policy: interest-cohort=()`. Observed 2026-08-29 on https://api.swiftconnect.io/credentials (HTTP 401).'
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

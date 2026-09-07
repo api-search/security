@@ -96,6 +96,7 @@ api_specs:
   slug: mezmo-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-tasks-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

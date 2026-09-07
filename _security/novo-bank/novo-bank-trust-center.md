@@ -18,6 +18,7 @@ api_specs:
   slug: novo-payments
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/novo-bank/refs/heads/main/openapi/_original/novo-bank-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

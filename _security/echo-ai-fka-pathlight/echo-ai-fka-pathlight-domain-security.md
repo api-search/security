@@ -24,6 +24,7 @@ hosts:
 - host: www.pathlight.com
   https: false
   note: legacy brand host; DNS resolution fails (no A record)
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

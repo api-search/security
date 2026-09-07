@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: Loomly publishes a public security page rather than a hosted trust center. It describes infrastructure, encryption, testing and vendor posture, links a vulnerability reporting policy and a DPA, and names its subprocessors. It does NOT publish a customer-facing document portal, a SOC 2 report request flow, or an attestation download.
 kind: trust-center

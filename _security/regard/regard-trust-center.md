@@ -1,4 +1,5 @@
 ---
+certification_count: 2
 certifications:
 - ONC 2015 Cures Update (Health IT Module)
 - ISO 9001

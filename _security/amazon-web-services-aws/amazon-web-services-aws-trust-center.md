@@ -6,6 +6,7 @@ api_specs:
   slug: amazon-web-services-aws-amazon-ec2-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services-aws/refs/heads/main/openapi/amazon-web-services-aws-amazon-ec2-api-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

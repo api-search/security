@@ -42,6 +42,7 @@ api_specs:
   slug: singlefile-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-tasks-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

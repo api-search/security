@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: bank-first-banking-account-balances-api-openapi.yml
@@ -50,6 +51,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Bank First Authentication
 name_suffix: Authentication

@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: Supergoop! has no developer program and issues no API keys. Its machine surfaces authenticate in three distinct ways, all observed live on 2026-08-29.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: probed
 name: Supergoop Authentication
 name_suffix: Authentication

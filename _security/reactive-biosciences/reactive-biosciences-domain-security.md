@@ -26,6 +26,7 @@ hosts:
   https: true
   note: TLS terminates on WP Engine with a wildcard *.wpengine.com certificate that does not match the host; the site returns HTTP 404 "not configured", i.e. the public website is not yet launched.
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

@@ -126,6 +126,7 @@ api_specs:
   slug: file-sync-and-share-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/_original/acronis-files-v1-openapi.json
+certification_count: 20
 certifications:
 - ISO/IEC 27001:2022
 - ISO/IEC 27017:2015

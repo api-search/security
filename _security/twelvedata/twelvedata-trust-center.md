@@ -90,6 +90,7 @@ api_specs:
   slug: twelvedata-technical-indicator-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-technical-indicator-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

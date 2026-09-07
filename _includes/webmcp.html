@@ -1,0 +1,199 @@
+{%- comment -%}
+  WebMCP runtime — shared across every apis.io site.
+
+  Included from _shared/_layouts/default.html INSIDE <head>, because page-level
+  scripts live in {{ content }} and run at parse time. If this moved below the
+  content, every register() call on every page would hit an undefined global.
+
+  WHY A RUNTIME AND NOT A PER-PAGE BLOCK. Until 2026-09 the homepage carried its
+  own inline `navigator.modelContext.provideContext()` call. Two things went
+  wrong with that and both are structural, not cosmetic:
+
+    1. The spec MOVED. The W3C Web Machine Learning CG draft of 2026-05-27 moved
+       the getter from Navigator to Document (tools belong to a page, not to a
+       browser) and the registration call from provideContext({tools}) to
+       registerTool(tool). Chrome deprecated navigator.modelContext in Chrome
+       150; the origin trial runs Chrome 149-156. Our call was guarded by a
+       `typeof … === 'function'` check, so when Chrome dropped the old surface
+       the whole feature became a SILENT no-op — no error, no console warning,
+       nothing in any diff. A draft spec will move again. One runtime means one
+       place to follow it.
+
+    2. It could not be measured. We had no idea whether a modelContext-capable
+       browser had ever loaded the page, let alone called a tool. Being early to
+       a technology is only worth something if you can say what happened.
+
+  SURFACE. Pages opt in:
+
+      window.apisioWebMCP.register('home', [ {name, description, inputSchema, execute}, … ]);
+
+  register() is idempotent per surface and safe to call before or after DOM
+  ready. Tools accumulate across surfaces, so two components on one page cannot
+  clobber each other (the legacy provideContext call replaces the WHOLE tool set,
+  which is exactly the footgun this hides).
+
+  RETURN SHAPE. The spec has execute() resolve to an MCP content array. Our tool
+  bodies return plain JS objects because that is what the old Chrome build took.
+  wrapExecute() normalizes: anything already shaped like {content:[…]} passes
+  through untouched, everything else is JSON-stringified into a single text
+  content part. Tool authors keep returning plain objects.
+
+  MEASUREMENT. See /webmcp/beacon in cloudflare-worker/src/worker.js and the
+  "WebMCP adoption" section of cloudflare-worker/QUERIES.md. Positives (a capable
+  browser, a tool call) beacon at 100%; the no-capability case beacons at 1% so
+  there is an unbiased denominator without paying for a write on every pageview.
+{%- endcomment -%}
+<script>
+(function () {
+  'use strict';
+
+  var BEACON_URL = '/webmcp/beacon';
+  // Sampling rate for the NEGATIVE case (browser has no modelContext). Positives
+  // are always sent. Keep in sync with the scale-up factor in QUERIES.md.
+  var NEGATIVE_SAMPLE_RATE = 0.01;
+
+  var registered = [];   // every tool registered on this page, across surfaces
+  var surfaces = {};     // surface -> true, so a double register() is a no-op
+  var ctx = null;        // the live modelContext object
+  var flavor = null;     // 'document' (current spec) | 'navigator' (<= Chrome 149)
+
+  // --- capability detection ------------------------------------------------
+  // Document first: that is where the spec put it. Navigator is the deprecated
+  // fallback, kept only while Chrome 149 is still in the field.
+  try {
+    if (typeof document !== 'undefined' && document.modelContext &&
+        typeof document.modelContext.registerTool === 'function') {
+      ctx = document.modelContext;
+      flavor = 'document';
+    } else if (typeof navigator !== 'undefined' && navigator.modelContext &&
+               typeof navigator.modelContext.provideContext === 'function') {
+      ctx = navigator.modelContext;
+      flavor = 'navigator';
+    }
+  } catch (err) {
+    ctx = null;
+    flavor = null;
+  }
+
+  // --- measurement ---------------------------------------------------------
+  function beacon(payload) {
+    try {
+      payload.flavor = flavor || 'none';
+      payload.path = (location && location.pathname) || '';
+      var body = JSON.stringify(payload);
+      if (navigator && typeof navigator.sendBeacon === 'function') {
+        navigator.sendBeacon(BEACON_URL, new Blob([body], { type: 'application/json' }));
+      } else if (typeof fetch === 'function') {
+        fetch(BEACON_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: body,
+          keepalive: true
+        }).catch(function () {});
+      }
+    } catch (err) {
+      // Telemetry must never break a page or a tool call.
+    }
+  }
+
+  // --- return-shape normalization -----------------------------------------
+  function toContent(value) {
+    if (value && typeof value === 'object' && Array.isArray(value.content)) return value;
+    var text;
+    try {
+      text = (typeof value === 'string') ? value : JSON.stringify(value, null, 2);
+    } catch (err) {
+      text = String(value);
+    }
+    return { content: [{ type: 'text', text: text }] };
+  }
+
+  function wrapExecute(surface, tool) {
+    var fn = tool.execute;
+    return function (args) {
+      var started = (typeof performance !== 'undefined' && performance.now)
+        ? performance.now() : Date.now();
+      function done(ok) {
+        var ms = ((typeof performance !== 'undefined' && performance.now)
+          ? performance.now() : Date.now()) - started;
+        beacon({ event: 'call', surface: surface, tool: tool.name, ok: ok, ms: Math.round(ms) });
+      }
+      var out;
+      try {
+        out = fn.apply(this, arguments);
+      } catch (err) {
+        done(false);
+        throw err;
+      }
+      return Promise.resolve(out).then(function (value) {
+        done(true);
+        return toContent(value);
+      }, function (err) {
+        done(false);
+        throw err;
+      });
+    };
+  }
+
+  // --- registration --------------------------------------------------------
+  function pushToBrowser(tools) {
+    if (flavor === 'document') {
+      for (var i = 0; i < tools.length; i++) ctx.registerTool(tools[i]);
+    } else {
+      // Legacy provideContext replaces the entire set, so always send the
+      // accumulated list rather than just this surface's slice.
+      ctx.provideContext({ tools: registered });
+    }
+  }
+
+  function register(surface, tools) {
+    surface = String(surface || 'unknown');
+    if (!ctx || !Array.isArray(tools) || !tools.length) return false;
+    if (surfaces[surface]) return false;
+    surfaces[surface] = true;
+
+    var prepared = [];
+    for (var i = 0; i < tools.length; i++) {
+      var t = tools[i];
+      if (!t || !t.name || typeof t.execute !== 'function') continue;
+      prepared.push({
+        name: t.name,
+        description: t.description || '',
+        inputSchema: t.inputSchema || { type: 'object', properties: {} },
+        execute: wrapExecute(surface, t)
+      });
+    }
+    if (!prepared.length) return false;
+
+    registered = registered.concat(prepared);
+    try {
+      pushToBrowser(prepared);
+    } catch (err) {
+      // The API surface is a moving draft — a failed registration must not take
+      // the page down with it. Record it, because a spike here is the signal
+      // that the spec moved under us again.
+      if (typeof console !== 'undefined') console.warn('WebMCP registration failed', err);
+      beacon({ event: 'error', surface: surface, tool: '', ok: false, ms: 0 });
+      return false;
+    }
+    beacon({ event: 'register', surface: surface, tool: '', ok: true, ms: prepared.length });
+    return true;
+  }
+
+  window.apisioWebMCP = {
+    get available() { return !!ctx; },
+    get flavor() { return flavor; },
+    get tools() { return registered.map(function (t) { return t.name; }); },
+    register: register
+  };
+
+  // Capability census — one beacon per pageview. Always when a modelContext
+  // exists (rare, and the whole point); sampled when it does not, so the
+  // denominator is measurable without a write per pageview.
+  if (ctx) {
+    beacon({ event: 'capability', surface: 'page', tool: '', ok: true, ms: 0 });
+  } else if (Math.random() < NEGATIVE_SAMPLE_RATE) {
+    beacon({ event: 'capability', surface: 'page', tool: '', ok: false, ms: 0, sampled: 1 });
+  }
+})();
+</script>

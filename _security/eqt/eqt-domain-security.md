@@ -2,24 +2,25 @@
 description: ''
 domains:
 - caa:
-  - 0 issue "digicert.com"
-  - 0 issue "globalsign.com"
-  - 0 issue "amazon.com"
-  - 0 iodef "mailto:cybersecurity@eqt.com"
+  - 0 issue "pki.goog"
+  - 0 issue "networksolutions.com"
   - 0 issue "cloudflare.com"
-  - 0 issue "verisign.com"
+  - 0 issue "globalsign.com"
+  - 0 iodef "mailto:cybersecurity@eqt.com"
+  - 0 issue "letsencrypt.org"
   dmarc: true
   dmarc_policy: none
   dnssec: false
   domain: eqt.com
   spf: true
 hosts:
-- cert_expires: Sep 20 17:53:36 2026 GMT
+- cert_expires: Nov 19 00:00:11 2026 GMT
   host: www.eqt.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -32,7 +33,7 @@ slug: eqt-domain-security
 source_filename: eqt-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eqt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 17:53:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: eqt.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"amazon.com\"\n  - 0 iodef \"mailto:cybersecurity@eqt.com\"\n  - 0 issue \"cloudflare.com\"\n  - 0 issue \"verisign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eqt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 00:00:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: eqt.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"networksolutions.com\"\n  - 0 issue \"cloudflare.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 iodef \"mailto:cybersecurity@eqt.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eqt/refs/heads/main/security/eqt-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

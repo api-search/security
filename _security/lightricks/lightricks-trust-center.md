@@ -18,6 +18,7 @@ api_specs:
   slug: lightricks-videogeneration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/openapi/lightricks-videogeneration-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

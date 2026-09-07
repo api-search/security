@@ -42,6 +42,7 @@ api_specs:
   slug: payfit-payslips-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-payslips-api-openapi.yml
+certification_count: 1
 certifications:
 - ISO 27001
 description: ''

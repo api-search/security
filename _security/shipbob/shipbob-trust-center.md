@@ -60,6 +60,7 @@ api_specs:
   slug: shipbob-subpackage-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

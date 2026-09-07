@@ -48,6 +48,7 @@ api_specs:
   slug: vyond-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/openapi/vyond-webhook-api-openapi.yml
+certification_count: 8
 certifications:
 - ISO/IEC 27001:2022
 - FedRAMP

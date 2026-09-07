@@ -138,6 +138,7 @@ api_specs:
   slug: common-room-website-visits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/openapi/common-room-website-visits-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type 2
 description: ''

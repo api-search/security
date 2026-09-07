@@ -12,6 +12,7 @@ api_specs:
   slug: metadata-mcp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/openapi/metadata-mcp-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2 Type II
 - ISO/IEC 27001

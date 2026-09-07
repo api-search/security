@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -37,6 +38,7 @@ auth_types:
 description: 'One authentication model: a single opaque API key, sent in the lowercase `x-api-key` HTTP header, issued per vendor account. There is no OAuth surface, no OIDC discovery, no scope model, no token exchange, no refresh, and no documented rotation or expiry policy. The key is the whole security contract.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Trustradius Authentication
 name_suffix: Authentication

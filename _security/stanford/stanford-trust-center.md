@@ -96,6 +96,7 @@ api_specs:
   slug: stanford-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/openapi/stanford-workspaces-api-openapi.yml
+certification_count: 2
 certifications:
 - HIPAA
 - GDPR

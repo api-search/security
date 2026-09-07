@@ -54,6 +54,7 @@ api_specs:
   slug: orderful-transaction-v3-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/openapi/orderful-transaction-v3-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

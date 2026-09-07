@@ -12,6 +12,7 @@ api_specs:
   slug: signl4-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signl4/refs/heads/main/openapi/signl4-webhook-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

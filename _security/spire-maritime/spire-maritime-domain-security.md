@@ -36,6 +36,7 @@ hosts:
   hsts_note: 301-redirects to servicedocs-sm.kpler.com following the Kpler acquisition.
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

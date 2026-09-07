@@ -78,6 +78,7 @@ api_specs:
   slug: flipturn-vehicles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/openapi/flipturn-vehicles-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

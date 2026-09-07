@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -170,6 +171,7 @@ auth_types:
 description: Canix runs two authentication models on one host. The REST API at api.canix.com/api/v1 uses a company-scoped API key in an X-API-KEY header. The MCP server at api.canix.com/mcp uses OAuth 2.1 with dynamic client registration and PKCE. The baseline below was derived from the OpenAPI by 0-working/derive-authentication.py and then upgraded with the OAuth scheme probed from Canix's own well-known documents, which the OpenAPI does not mention.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Canix Authentication
 name_suffix: Authentication

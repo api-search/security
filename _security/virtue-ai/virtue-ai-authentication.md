@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: Authentication model for the Virtue AI MCP gateway surface. No public REST OpenAPI is published, so this profile is captured from the documented gateway connection flow rather than derived from a spec. Connecting an agent runtime performs a browser-based OAuth login against the gateway; thereafter each proxied MCP tools/call request carries a Bearer access token.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Virtue Ai Authentication
 name_suffix: Authentication

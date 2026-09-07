@@ -54,6 +54,7 @@ api_specs:
   slug: anam-voices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/openapi/anam-voices-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

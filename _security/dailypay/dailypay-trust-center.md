@@ -48,6 +48,7 @@ api_specs:
   slug: dailypay-transfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-transfers-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

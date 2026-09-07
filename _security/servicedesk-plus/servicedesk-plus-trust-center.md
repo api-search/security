@@ -6,6 +6,7 @@ api_specs:
   slug: servicedesk-plus-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/servicedesk-plus/refs/heads/main/openapi/servicedesk-plus-requests-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - HIPAA

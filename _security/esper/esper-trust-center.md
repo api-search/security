@@ -78,6 +78,7 @@ api_specs:
   slug: esper-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/esper/refs/heads/main/openapi/esper-token-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

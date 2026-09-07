@@ -42,6 +42,7 @@ api_specs:
   slug: pendo-visitors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pendo/refs/heads/main/openapi/pendo-visitors-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

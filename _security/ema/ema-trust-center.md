@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: Ema operates a public Trust Center at trust.ema.ai covering its security, privacy and compliance posture. The center itself is a JavaScript-rendered portal (SafeBase-style); specific certification names could not be extracted verbatim from the static HTML and are intentionally not asserted here to avoid fabrication. Confirmed present, not the certification list.
 kind: trust-center

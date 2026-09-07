@@ -6,6 +6,7 @@ api_specs:
   slug: superdial-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/superdial/refs/heads/main/openapi/superdial-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

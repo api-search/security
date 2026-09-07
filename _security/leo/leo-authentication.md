@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: leo-prospects-api-openapi.yml
@@ -13,6 +14,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Leo Authentication
 name_suffix: Authentication

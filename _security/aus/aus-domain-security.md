@@ -10,6 +10,7 @@ domains:
 hosts:
 - host: aus.co.in
   https: false
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

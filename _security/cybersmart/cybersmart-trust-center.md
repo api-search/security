@@ -1,4 +1,5 @@
 ---
+certification_count: 4
 certifications:
 - Cyber Essentials
 - Cyber Essentials Plus

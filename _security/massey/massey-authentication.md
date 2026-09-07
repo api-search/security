@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: massey-mro-dspace-openapi.yml
@@ -23,6 +24,7 @@ auth_types: []
 description: How each Massey University surface authenticates. Every entry carries the operator of the thing being authenticated against, because for a university most identity surfaces are either the institution's own federation endpoints or a vendor's login.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: derived
 name: Massey Authentication
 name_suffix: Authentication

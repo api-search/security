@@ -132,6 +132,7 @@ api_specs:
   slug: oura-ring-workout-routes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oura-ring/refs/heads/main/openapi/oura-ring-workout-routes-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

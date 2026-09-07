@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - mutualTLS
@@ -7,6 +8,7 @@ auth_types:
 description: 'American Express developer APIs are onboarding-gated and secured with a layered scheme: mutual TLS (two-way client-certificate authentication), request-level HMAC message authentication (MAC) signatures, and OAuth 2.0 bearer tokens for authorization. No public OpenAPI is published, so this profile is captured from the Amex for Developers API Security documentation rather than derived from a machine-readable spec.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: American Express Authentication
 name_suffix: Authentication

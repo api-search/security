@@ -60,6 +60,7 @@ api_specs:
   slug: knownwell-topics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-topics-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - Data Privacy Framework

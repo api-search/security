@@ -6,6 +6,7 @@ api_specs:
   slug: pushwoosh-messages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pushwoosh/refs/heads/main/openapi/pushwoosh-messages-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

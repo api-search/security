@@ -72,6 +72,7 @@ api_specs:
   slug: 100ms-live-stream-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/100ms-live/refs/heads/main/openapi/100ms-live-stream-keys-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

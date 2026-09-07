@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -33,6 +34,7 @@ auth_types:
 description: CleverTap's authentication model, derived from the OpenAPI security schemes and upgraded from the provider's own authentication and SCIM pages plus the MCP server's OAuth metadata. Three distinct models coexist on three different surfaces, and they do not share credentials.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Clevertap Authentication
 name_suffix: Authentication

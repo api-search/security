@@ -30,6 +30,7 @@ api_specs:
   slug: amazon-security-hub-standards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-security-hub/refs/heads/main/openapi/amazon-security-hub-standards-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

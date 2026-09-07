@@ -102,6 +102,7 @@ api_specs:
   slug: mon-ami-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mon-ami/refs/heads/main/openapi/mon-ami-webhooks-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type II
 - HIPAA

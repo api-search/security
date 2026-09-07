@@ -44,6 +44,7 @@ hosts:
   https: true
   note: Rex Flyer loyalty. Only host still negotiating TLS 1.2 rather than 1.3.
   tls_version: TLSv1.2
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

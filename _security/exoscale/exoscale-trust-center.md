@@ -222,6 +222,7 @@ api_specs:
   slug: exoscale-zone-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/exoscale/refs/heads/main/openapi/exoscale-zone-api-openapi.yml
+certification_count: 5
 certifications:
 - ISO 27001
 - PCI DSS

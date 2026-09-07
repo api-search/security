@@ -54,6 +54,7 @@ api_specs:
   slug: release-remote-development-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/openapi/release-remote-development-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

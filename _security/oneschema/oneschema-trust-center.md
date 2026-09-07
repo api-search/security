@@ -168,6 +168,7 @@ api_specs:
   slug: oneschema-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-workspaces-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2 Type II
 - SOC 3

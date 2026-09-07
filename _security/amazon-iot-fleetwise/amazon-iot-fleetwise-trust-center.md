@@ -300,6 +300,7 @@ api_specs:
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-updatevehicle-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-fleetwise/refs/heads/main/openapi/amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-updatevehicle-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

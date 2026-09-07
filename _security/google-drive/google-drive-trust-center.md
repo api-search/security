@@ -6,6 +6,7 @@ api_specs:
   slug: google-drive-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/openapi/google-drive-files-api-openapi.yml
+certification_count: 11
 certifications:
 - SOC 1
 - SOC 2

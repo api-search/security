@@ -24,6 +24,7 @@ api_specs:
   slug: integrations
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lexion/refs/heads/main/openapi/_original/lexion-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

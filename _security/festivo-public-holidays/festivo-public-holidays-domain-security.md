@@ -10,6 +10,7 @@ domains:
 hosts:
 - host: docs.getfestivo.com
   https: false
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Horizon Robotics Authentication
 name_suffix: Authentication

@@ -54,6 +54,7 @@ api_specs:
   slug: exclaimer-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/openapi/exclaimer-subscriptions-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2 Type II
 - ISO/IEC 27001

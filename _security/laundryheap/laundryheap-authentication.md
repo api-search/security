@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Laundryheap runs a full OAuth 2.0 authorization server with OpenID Connect on its own root host. Nothing about it is documented on the public website — it was found only by probing /.well-known/ — but every endpoint it advertises is live and answers with standards-compliant errors, and it advertises a domain-specific `orders.create` scope. This is the company's real authentication surface.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Laundryheap Authentication
 name_suffix: Authentication

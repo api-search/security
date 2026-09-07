@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: Mudrex runs two independent surfaces with two different auth postures. The public market-data surface (REST klines and the WebSocket stream) is unauthenticated and rate-limited per IP. Every private trading endpoint under /fapi/v1 takes a single API-key header, X-Authentication, carrying the API secret. There is no OAuth, no OIDC, no request signing (no HMAC over the payload), no timestamp/nonce and no scope model — one long-lived bearer secret grants the full trading surface of the account. Issuance is gated on KYC (PAN & Aadhaar) and TOTP two-factor enrollment, and the secret is displayed exactly once at creation.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Mudrex Authentication
 name_suffix: Authentication

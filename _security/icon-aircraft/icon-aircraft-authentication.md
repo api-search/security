@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: icon-aircraft-store-api-openapi.yml
@@ -59,6 +60,7 @@ auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Icon Aircraft Authentication
 name_suffix: Authentication

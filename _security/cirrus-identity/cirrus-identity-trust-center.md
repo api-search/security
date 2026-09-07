@@ -6,6 +6,7 @@ api_specs:
   slug: cirrus-identity-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cirrus-identity/refs/heads/main/openapi/cirrus-identity-endpoints-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 2
 - TX-RAMP Level 1

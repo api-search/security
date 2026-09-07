@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: Kixie publishes a public trust page at https://www.kixie.com/security/, titled "Kixie Security, Privacy, and Trust Resources" and self-described as "a routing page for public trust information". It routes to the privacy policy, terms of use, status page and security contact. It publishes ZERO certifications, and says so on purpose.
 kind: trust-center

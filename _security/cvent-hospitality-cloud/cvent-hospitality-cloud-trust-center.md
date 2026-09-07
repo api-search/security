@@ -36,6 +36,7 @@ api_specs:
   slug: cvent-hospitality-cloud-roomtypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cvent-hospitality-cloud/refs/heads/main/openapi/cvent-hospitality-cloud-roomtypes-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2
 - ISO 27001

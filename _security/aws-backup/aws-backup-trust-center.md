@@ -60,6 +60,7 @@ api_specs:
   slug: aws-backup-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/openapi/aws-backup-tags-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

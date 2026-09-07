@@ -90,6 +90,7 @@ api_specs:
   slug: checkmarx-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-teams-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

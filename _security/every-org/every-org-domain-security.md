@@ -30,6 +30,7 @@ hosts:
   hsts: null
   https: true
   note: Docusaurus documentation host; probed 2026-08-28.
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

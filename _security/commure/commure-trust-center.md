@@ -12,6 +12,7 @@ api_specs:
   slug: commure-fhir-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/openapi/commure-fhir-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type II
 - HIPAA

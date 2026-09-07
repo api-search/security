@@ -96,6 +96,7 @@ api_specs:
   slug: ocrolus-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ocrolus/refs/heads/main/openapi/ocrolus-webhooks-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

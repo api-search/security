@@ -24,6 +24,7 @@ api_specs:
   slug: signzy-identity-us-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-identity-us-api-openapi.yml
+certification_count: 4
 certifications:
 - ISO 27001
 - SOC 2

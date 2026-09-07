@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - env
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: Sphinx authenticates developers to its platform two ways. No public OpenAPI is published, so this profile is searched from the docs rather than derived from a spec.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Sphinx Authentication
 name_suffix: Authentication

@@ -34,6 +34,7 @@ hosts:
   https: false
   https_port_open: false
   tls_cert_error: timed out
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

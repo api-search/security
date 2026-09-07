@@ -30,6 +30,7 @@ api_specs:
   slug: temporal-io-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/openapi/temporal-io-workflows-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

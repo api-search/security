@@ -18,6 +18,7 @@ api_specs:
   slug: end-game-protected-static-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/openapi/end-game-protected-static-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

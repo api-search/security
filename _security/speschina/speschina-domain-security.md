@@ -23,6 +23,7 @@ hosts:
 - host: speschina.com
   https: false
   note: apex resolves (121.43.159.115) but 443 connection times out; only the www host serves
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

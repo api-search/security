@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: business-software-and-services-reviews-g2-buyer-intent-api-openapi.yml
@@ -175,6 +176,7 @@ auth_types:
 description: G2 runs two parallel auth models against the same API. AccountAPIToken is an HTTP Bearer access token issued self-serve in the G2 Developer Portal, scoped to a User or an Organization, with per-endpoint permissions chosen at issue time and a hard one-year expiry; it secures 52 of the 62 published operations. G2OAuth is OAuth 2.0 Authorization Code with PKCE against G2's own authorization server, used for delegated access and required by the MCP server. G2 does NOT support RFC 7591 Dynamic Client Registration — OAuth apps are pre-registered by hand — and its authorization callback omits the `state` parameter, which breaks stock MCP SDK callback handlers.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Business Software And Services Reviews G2 Authentication
 name_suffix: Authentication

@@ -147,6 +147,7 @@ hosts:
   https: true
   note: Form-based login wall titled "DirectLine - Login"; no reference documentation. Lowest TLS version observed across the estate (TLSv1.2).
   tls_version: TLSv1.2
+hosts_probed: 12
 kind: domain-security
 layout: security
 method: probed

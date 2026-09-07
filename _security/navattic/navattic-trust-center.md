@@ -6,6 +6,7 @@ api_specs:
   slug: navattic-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/openapi/navattic-health-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - GDPR

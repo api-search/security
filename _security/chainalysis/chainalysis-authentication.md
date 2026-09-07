@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for the Chainalysis API surface, established by probing the live hosts rather than from a specification - Chainalysis publishes no anonymous OpenAPI (developers.chainalysis.com/openapi.json returns HTTP 401). Every Chainalysis API is API-key authenticated via a request header. No OAuth 2.0, OpenID Connect or mutual-TLS surface was found on any host, so no scopes/ artifact is emitted.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Chainalysis Authentication
 name_suffix: Authentication

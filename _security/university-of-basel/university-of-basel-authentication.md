@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - none
@@ -8,6 +9,7 @@ auth_types:
 description: 'The University of Basel issues no API keys and runs no developer credentialing of any kind. The one contract it serves — the UNIverse research information API — declares a bearer token and enforces it, but publishes no way for an outside developer to obtain one. Its open read surfaces — the edoc DSpace REST API and the edoc OAI-PMH interface — are open to anonymous callers with no token, no registration and no referer or origin check. Everything that IS authenticated at Basel is federated identity for people rather than credentials for machines: a SWITCHaai/eduGAIN SAML 2.0 identity provider scoped to unibas.ch, and an OpenID Connect issuer at sciCORE that brokers SWITCH edu-ID into research-computing services. Neither is a public API authorization server a third-party developer can register a client with; both are institutional single sign-on, readable from outside only through their published metadata.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: probed
 name: University Of Basel Authentication
 name_suffix: Authentication

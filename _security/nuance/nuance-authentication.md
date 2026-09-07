@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
 description: Nuance Mix runtime services (ASRaaS, NLUaaS, DLGaaS, TTSaaS, NRaaS) and the Mix V4 authoring API authenticate with OAuth 2.0 using the client-credentials grant. Developers generate a service-credentials client (client id + secret) in the Mix dashboard, exchange it for a short-lived bearer access token at the Nuance authorization server, and present the token to the gRPC runtime over a TLS-secured channel. Access is scoped per runtime service.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Nuance Authentication
 name_suffix: Authentication

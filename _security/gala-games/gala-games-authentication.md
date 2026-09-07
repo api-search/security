@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in:
 - header
 api_specs:
@@ -152,6 +153,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Gala Games Authentication
 name_suffix: Authentication

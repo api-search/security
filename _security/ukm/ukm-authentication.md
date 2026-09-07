@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: ukm-identity-federation-openapi.yml
@@ -29,6 +30,7 @@ auth_types: []
 description: How authentication works on the surfaces UKM itself operates. Derived by API Evangelist from live probes on 2026-09-01; UKM publishes no authentication documentation for any of them.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Ukm Authentication
 name_suffix: Authentication

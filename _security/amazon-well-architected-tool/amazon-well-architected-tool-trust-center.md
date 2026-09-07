@@ -78,6 +78,7 @@ api_specs:
   slug: amazon-well-architected-tool-workloadssummaries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/openapi/amazon-well-architected-tool-workloadssummaries-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

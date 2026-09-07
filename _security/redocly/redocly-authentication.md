@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - cookie
 - header
@@ -34,6 +35,7 @@ auth_types:
 description: Redocly authenticates on three different planes. Reunite/Realm organizations issue long-lived API keys used against the Redocly platform API and the Scout tool; the Docs MCP server on a Realm project uses OAuth 2.0 authorization code against per-project endpoints and validates the token's aud claim against the organization ID; and the Scout worker authenticates inbound GitHub/GitLab webhooks by signature header. Redocly's own docs project is public, so its Search API and Docs MCP server accept anonymous requests.
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Redocly Authentication
 name_suffix: Authentication

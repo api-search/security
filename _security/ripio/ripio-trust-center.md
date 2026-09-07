@@ -78,6 +78,7 @@ api_specs:
   slug: ripio-websocket-stream-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-websocket-stream-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -33,6 +34,7 @@ auth_types:
 description: 'Every callable América Móvil API is Claro Brasil''s, and every one of them authenticates the same way: OAuth 2.0 client credentials against https://api.claro.com.br/oauth2/v1/token, exchanged for a bearer token. The wrinkle is the header. The 2019-generation "customers" services send both the Basic credential and the bearer token in a non-standard `x-client-auth` header and add an `X-CustomerID` partner header; the 2023-2025 Open Gateway services use the standard `Authorization` header. Geofencing additionally requires an `X-API-Key`. There is no three-legged flow, no CIBA and no user consent mechanism anywhere in the estate.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: America Movil Authentication
 name_suffix: Authentication

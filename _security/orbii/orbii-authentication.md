@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: orbii-business-category-assignment-api-openapi.yml
@@ -96,6 +97,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Orbii Authentication
 name_suffix: Authentication

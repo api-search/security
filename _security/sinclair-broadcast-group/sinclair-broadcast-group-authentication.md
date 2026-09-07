@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: sinclair-broadcast-group-corporate-api-openapi.yml
@@ -53,6 +54,7 @@ auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Sinclair Broadcast Group Authentication
 name_suffix: Authentication

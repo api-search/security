@@ -24,6 +24,7 @@ api_specs:
   slug: telr-remote-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-remote-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS v4.0 Level 1
 - NESA

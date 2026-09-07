@@ -1,4 +1,5 @@
 ---
+certification_count: 4
 certifications:
 - FIPS 140
 - FIPS 186-5

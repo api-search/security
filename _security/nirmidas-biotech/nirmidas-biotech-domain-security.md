@@ -19,6 +19,7 @@ hosts:
     not_after: '2026-06-20'
     not_before: '2025-05-20'
     subject: CN=www.nirmidas.com
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

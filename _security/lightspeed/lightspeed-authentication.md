@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: Lightspeed_eCom.postman_collection.json
@@ -331,6 +332,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Lightspeed Authentication
 name_suffix: Authentication

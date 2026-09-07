@@ -186,6 +186,7 @@ api_specs:
   slug: monoova-whitelisting-for-automatcher-bank-account-receivables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-whitelisting-for-automatcher-bank-account-receivables-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - PCI DSS

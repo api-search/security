@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: polar-sh-benefits-api-openapi.yml
@@ -72,6 +73,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Polar Sh Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: atproto-actor-api-openapi.yml
@@ -49,11 +50,18 @@ api_specs:
   slug: atproto-sync-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/openapi/atproto-sync-api-openapi.yml
+- filename: at-protocol-asyncapi.yml
+  format: yaml
+  label: AT Protocol Relay & Firehose
+  slug: relay-firehose
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-protocol/refs/heads/main/asyncapi/at-protocol-asyncapi.yml
 auth_types:
 - http
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Atproto Authentication
 name_suffix: Authentication

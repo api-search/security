@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -45,6 +46,7 @@ auth_types:
 description: 'Mattermark authenticates both the REST API (https://api.mattermark.com/) and the GraphQL API (https://eapi.mattermark.com/) with a single static account API key. The key is accepted two ways: as an HTTP Bearer token in the Authorization header (the form the published Swagger definition declares), or as a `key` query-string parameter (documented on the REST getting-started page). There is no OAuth 2.0 or OpenID Connect surface, no scope model, no token exchange and no key rotation or expiry policy in the documentation.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Mattermark Authentication
 name_suffix: Authentication

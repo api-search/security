@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - apiKey
 description: Kosmos AI Labs exposes one authenticated public API — the OTLP ingest endpoint — secured with a static API key in a custom header. There is no public OAuth authorization server, no /.well-known/openid-configuration and no token endpoint of its own; OAuth appears only on the inbound side, where Kosmos acts as an OAuth *client* against the third-party systems a customer connects.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Kosmoslabs Authentication
 name_suffix: Authentication

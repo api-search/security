@@ -6,6 +6,7 @@ api_specs:
   slug: aws-codebuild-aws-codebuild-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/openapi/aws-codebuild-aws-codebuild-api-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

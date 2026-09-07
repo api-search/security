@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'The PulseMCP Registry API is protected by a single API-key scheme carried in a custom request header, plus a second custom header that selects the tenant. There is no OAuth, no OIDC, no mTLS, and no self-service key issuance: keys are granted only by emailing hello@pulsemcp.com, which makes this a sales-gated API with a fully public reference.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Pulsemcp Authentication
 name_suffix: Authentication

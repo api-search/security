@@ -42,6 +42,7 @@ api_specs:
   slug: hyperline-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

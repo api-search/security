@@ -1,4 +1,5 @@
 ---
+certification_count: 5
 certifications:
 - SOC 2 Type II
 - ISO 27001:2022

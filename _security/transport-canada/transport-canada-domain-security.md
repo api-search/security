@@ -72,6 +72,7 @@ hosts:
   https: true
   note: No HSTS header observed. This host carries the CADORS, vehicle recall, Air Cargo Security and vessel register extracts — the de facto primary distribution channel for Transport Canada data.
   role: bulk CSV/XML distribution host
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

@@ -168,6 +168,7 @@ api_specs:
   slug: amazon-interactive-video-service-updatechannel-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-updatechannel-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

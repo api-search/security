@@ -234,6 +234,7 @@ api_specs:
   slug: daytona-io-daytona-webhooks-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-daytona-webhooks-api-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

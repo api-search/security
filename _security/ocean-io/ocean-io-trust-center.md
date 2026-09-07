@@ -48,6 +48,7 @@ api_specs:
   slug: ocean-io-segmentation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-segmentation-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

@@ -264,6 +264,7 @@ hosts:
   https: true
   note: 'Corrected by hand after the automated probe recorded hsts:null. A live `curl -I https://api.credo.ai/` on 2026-08-11 returns `strict-transport-security: max-age=63072000; includeSubDomains; preload`, as does an authenticated-path 401. The API host also returns x-content-type-options:nosniff, x-frame-options:DENY, a content-security-policy, referrer-policy:strict-origin-when-cross-origin, and an x-request-id correlation header.'
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

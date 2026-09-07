@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -98,6 +99,7 @@ auth_types:
 description: 'One credential class, one mechanism: a workspace API key sent in the `mmApiKey` header. There is no OAuth, no OpenID Connect, no mutual TLS, no scopes, no permissions model and no test/live key split. A Mailmodo API key is a single account-wide bearer of full API authority — anything holding it can read every contact and send mail as the workspace.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Mailmodo Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: university-of-oxford-iiif-api-openapi.yml
@@ -29,6 +30,7 @@ auth_types: []
 description: 'Every institution-operated API surface found at Oxford is unauthenticated and read-only. Authentication at Oxford exists, and is substantial, but it sits on the identity-federation side of the house rather than in front of any public API: there is no API key, no OAuth client registration, no developer account and no token endpoint anywhere in the estate.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: University Of Oxford Authentication
 name_suffix: Authentication

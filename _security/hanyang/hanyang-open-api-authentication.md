@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: hanyang-repository-oai-pmh-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: 'Authentication model for the Hanyang University Open API, derived from the university''s own published Korean-language documentation at /develop/auths.page and /develop/guide.page (both HTTP 200, publicly readable without login on 2026-09-01). Hanyang classifies its Open APIs as "Public" (no personal data, key only) and "Private" (personal data, end-user OAuth consent required). No endpoint was exercised: the API catalogue itself is behind developer registration, so nothing below was confirmed by calling it.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: derived
 name: Hanyang Open Api Authentication
 name_suffix: Authentication

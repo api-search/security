@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -38,6 +39,7 @@ auth_types:
 description: FullEnrich runs three distinct authentication surfaces. The public REST API uses a static workspace API key passed as a Bearer token. The application host runs a full OAuth 2.0 / OIDC authorization server with 13 granular scopes (discovered via RFC 8414 metadata, used by first-party integrations and Enterprise BYOK). The MCP server runs a separate authorization server with a single `api:mcp` scope and browser-based user consent. Only the first is described by the OpenAPI.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Fullenrich Authentication
 name_suffix: Authentication

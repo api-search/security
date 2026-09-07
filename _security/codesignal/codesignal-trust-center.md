@@ -6,6 +6,7 @@ api_specs:
   slug: codesignal-organization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/codesignal/refs/heads/main/openapi/codesignal-organization-api-openapi.yml
+certification_count: 0
 certifications: []
 description: CodeSignal operates a public Trust Center at trust.codesignal.com (returns HTTP 200, titled "CodeSignal Trust Center"). The portal is a client-rendered application; specific certification names could not be extracted verbatim from the static response, so none are asserted here. No Compliance pointer is emitted until named certifications are verified.
 kind: trust-center

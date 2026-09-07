@@ -264,6 +264,7 @@ api_specs:
   slug: methodfi-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/openapi/methodfi-transactions-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - PCI DSS

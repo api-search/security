@@ -47,6 +47,7 @@ hosts:
   https: true
   note: Event Tracking API host. Added by hand on 2026-08-12 — probe-domain-security.py walks apis.yml/OpenAPI hosts under the primary domain and skipped this second registrable domain. Values are live probes of remerge.events.
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

@@ -6,6 +6,7 @@ api_specs:
   slug: rill-data-orgs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/openapi/rill-data-orgs-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

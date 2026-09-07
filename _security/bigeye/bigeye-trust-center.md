@@ -264,6 +264,7 @@ api_specs:
   slug: bigeye-workspaceservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bigeye/refs/heads/main/openapi/bigeye-workspaceservice-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 2
 - ISO 27001

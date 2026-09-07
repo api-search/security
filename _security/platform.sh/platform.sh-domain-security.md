@@ -414,6 +414,7 @@ hosts:
   https: true
   note: OAuth 2.0 authorization server for the REST API; still on the platform.sh domain after the Upsun rebrand.
   tls_version: TLSv1.3
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

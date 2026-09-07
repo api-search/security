@@ -204,6 +204,7 @@ api_specs:
   slug: seekr-wake-up-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/openapi/seekr-wake-up-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 1
 - SOC 2 Type 2

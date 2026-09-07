@@ -6,6 +6,7 @@ api_specs:
   slug: boostup-export-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/openapi/boostup-export-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - CSA STAR

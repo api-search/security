@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in:
 - body
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Minute Media Authentication
 name_suffix: Authentication

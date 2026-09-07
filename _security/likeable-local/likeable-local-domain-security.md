@@ -33,6 +33,7 @@ hosts:
   hsts: false
   https: true
   note: Login-gated application host behind CloudFront; no HSTS header.
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

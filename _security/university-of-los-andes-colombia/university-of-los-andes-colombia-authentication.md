@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: university-of-los-andes-colombia-revistas-oai-pmh-openapi.yml
@@ -14,6 +15,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: University Of Los Andes Colombia Authentication
 name_suffix: Authentication

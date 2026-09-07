@@ -72,6 +72,7 @@ api_specs:
   slug: xata-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - HIPAA
 - GDPR

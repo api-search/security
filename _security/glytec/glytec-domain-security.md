@@ -32,6 +32,7 @@ hosts:
   https: true
   notes: Legacy corporate domain; 301 redirects to https://glytec.com/.
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

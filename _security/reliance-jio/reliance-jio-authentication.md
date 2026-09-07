@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: reliance-jio-jioeventscpaasplatform-api-openapi.yml
@@ -20,6 +21,7 @@ auth_types:
 description: 'Reliance Jio''s publicly documented authentication surface is entirely the JioMeet / JioEvents developer platform. Two distinct models are in play. Server-to-server (JioMeet Platform Server API, JioEvents Platform Server API) uses a self-signed JWT built from app credentials issued in the JioMeet console and sent in the Authorization header - the spec models it as a required header PARAMETER, not a securityScheme, so it is invisible to tooling that only reads components.securitySchemes. User-authorized access (JioMeet Platform OAuth API) is a real OAuth 2.0 authorization-code flow with HTTP Basic client authentication at the token endpoint and HTTP Bearer on every subsequent call - that surface IS modelled as securitySchemes. Jio''s network / CAMARA APIs are not in scope here: they are partner-gated through Aduna and the GSMA federated hub, and Jio publishes no CIBA endpoint and no OIDC discovery document anywhere in its estate.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Reliance Jio Authentication
 name_suffix: Authentication

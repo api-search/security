@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -37,6 +38,7 @@ auth_types:
 description: The Gauntlet REST API (api.gauntlet.xyz) authenticates every request with a partner-provisioned API key passed as an HTTP Bearer token. The published OpenAPI does not declare securitySchemes, so this profile is captured from the docs Auth & Credentials page; 401 responses are documented across the spec.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Gauntlet Authentication
 name_suffix: Authentication

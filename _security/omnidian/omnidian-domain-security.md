@@ -34,6 +34,7 @@ hosts:
   https: true
   note: Omnidian Client Portal single-page app; answers HTTP 200 with an HTML shell for every path, including /.well-known/* (catch-all, not a discovery surface)
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

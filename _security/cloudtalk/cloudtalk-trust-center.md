@@ -78,6 +78,7 @@ api_specs:
   slug: cloudtalk-voiceagent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-voiceagent-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

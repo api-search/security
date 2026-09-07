@@ -24,6 +24,7 @@ api_specs:
   slug: 6sense-scoring-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-scoring-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: chulalongkorn-sso-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: 'Chulalongkorn University runs two distinct authentication stories and they do not meet. Its own campus SSO is a bespoke CAS 1.0 variant with an added application-authentication step, in production since January 2017 and documented in prose on a public wiki. Its cloud identity is a Microsoft Entra ID tenant covering both chula.ac.th and student.chula.ac.th, whose OIDC and SAML metadata are fully machine-readable. Neither is presented to developers as an API program: there is no self-service registration, no published client-credentials flow, and no developer portal at which either could be claimed.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: derived
 name: Chulalongkorn Authentication
 name_suffix: Authentication

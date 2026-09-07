@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for the JFrog Platform surface that serves JFrog Container Registry. DERIVED FROM DOCS, NOT FROM A SPEC — JFrog publishes no downloadable OpenAPI document, so no securitySchemes block was available to read. Every scheme below is stated on the JFrog documentation page cited on it.
 kind: authentication
 layout: security
+mechanism_count: 9
 method: searched
 name: Jfrog Container Registry Authentication
 name_suffix: Authentication

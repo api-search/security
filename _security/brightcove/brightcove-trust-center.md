@@ -252,6 +252,7 @@ api_specs:
   slug: brightcove-view-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/openapi/brightcove-view-events-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - GDPR

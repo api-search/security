@@ -144,6 +144,7 @@ api_specs:
   slug: ngrok-tunnels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ngrok/refs/heads/main/openapi/ngrok-tunnels-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

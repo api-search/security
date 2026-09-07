@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: university-of-melbourne-core-api-openapi.yml
@@ -29,6 +30,7 @@ auth_types: []
 description: 'Authentication posture per surface, split by operator. The University of Melbourne runs two distinct identity systems and neither is an API product: a self-hosted Shibboleth SAML 2.0 IdP for federated research and library access (institution-operated), and an Okta tenancy on a University vanity hostname for web SSO (tenant). Its two publicly callable read APIs require no authentication at all.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: University Of Melbourne Authentication
 name_suffix: Authentication

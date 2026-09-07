@@ -78,6 +78,7 @@ api_specs:
   slug: aweber-webforms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-webforms-api-openapi.yml
+certification_count: 3
 certifications:
 - PCI Security certification
 - Privacy Shield certification

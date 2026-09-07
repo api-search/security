@@ -12,6 +12,12 @@ api_specs:
   slug: bureau-of-transportation-statistics-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-resource-api-openapi.yml
+- filename: bureau-of-transportation-statistics-geodata-search-openapi.json
+  format: json
+  label: BTS Geospatial Search API (NTAD)
+  slug: bts-geospatial-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-geodata-search-openapi.json
 description: ''
 domains:
 - caa: []
@@ -21,7 +27,7 @@ domains:
   domain: bts.gov
   spf: true
 hosts:
-- cert_expires: Jul 21 23:59:59 2026 GMT
+- cert_expires: Jan 31 23:59:59 2027 GMT
   host: www.bts.gov
   hsts: null
   https: true
@@ -38,19 +44,26 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+- cert_expires: Oct 30 11:24:34 2026 GMT
+  host: geodata.bts.gov
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed
 name: Bureau Of Transportation Statistics Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Bureau of Transportation Statistics, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Bureau of Transportation Statistics, probed live across 4 host(s) and 1 registrable domain(s). 4 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Bureau of Transportation Statistics
 provider_slug: bureau-of-transportation-statistics
 slug: bureau-of-transportation-statistics-domain-security
 source_filename: bureau-of-transportation-statistics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bts.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 21 23:59:59 2026 GMT\n  hsts: null\n- host: data.bts.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 15 18:23:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.transtats.bts.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 15 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: bts.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: >-\n  live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts (probe-domain-security.py,\n  2026-09-05). The geodata.bts.gov row was probed by hand in the same pass — the script\n  did not enumerate it — via openssl s_client and a HEAD request, same method, same day.\nhosts:\n- host: www.bts.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 31 23:59:59 2027 GMT\n  hsts: null\n- host: data.bts.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 15 18:23:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.transtats.bts.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 15 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: geodata.bts.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 11:24:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: bts.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/security/bureau-of-transportation-statistics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

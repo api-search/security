@@ -150,6 +150,7 @@ api_specs:
   slug: insider-whatsapp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/openapi/insider-whatsapp-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001:2013

@@ -96,6 +96,7 @@ api_specs:
   slug: osano-unified-consent-core-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-unified-consent-core-api-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - Enterprise audit package

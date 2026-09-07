@@ -18,6 +18,7 @@ api_specs:
   slug: rudderstack-internal-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/openapi/rudderstack-internal-api-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

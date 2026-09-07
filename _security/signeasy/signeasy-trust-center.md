@@ -30,6 +30,7 @@ api_specs:
   slug: signeasy-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-users-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

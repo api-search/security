@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: The Specright API v1.1.0 accepts three authentication schemes and layers a mandatory caller-identity header on top of all of them. Every business operation additionally requires x-user-id, which is not a security scheme in the OpenAPI sense but is marked required on all 45 non-token operations — an agent that supplies only a credential will be rejected.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Specright Authentication
 name_suffix: Authentication

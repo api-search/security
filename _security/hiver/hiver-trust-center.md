@@ -12,6 +12,7 @@ api_specs:
   slug: hiver-inbox-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hiver/refs/heads/main/openapi/hiver-inbox-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO/IEC 27001
 - SOC 2 Type II

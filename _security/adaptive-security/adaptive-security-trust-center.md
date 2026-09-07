@@ -30,6 +30,7 @@ api_specs:
   slug: adaptive-security-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-users-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

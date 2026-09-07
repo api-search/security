@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'machine0''s control plane authenticates with OAuth 2.0. Interactive clients (the CLI `machine0 login`, and MCP clients such as Claude Desktop / Claude Code / the claude.ai custom connector) run a browser-based authorization-code flow with PKCE; the MCP server advertises itself as an RFC 9728 OAuth protected resource with RFC 8414 authorization-server metadata and RFC 7591 dynamic client registration. Programmatic/automation access uses a static credential: an API key via the x-api-key header (MCP) or the MACHINE0_API_TOKEN environment variable (CLI). SSH access to VMs is a separate, key-based layer.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Machine0 Authentication
 name_suffix: Authentication

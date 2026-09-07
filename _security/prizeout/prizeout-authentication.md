@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Prizeout has no public OpenAPI, so no securityScheme could be derived. The authentication model is reconstructed from the two first-party SDK integration wikis Prizeout publishes on GitHub and from a partner platform (LiveLike) that documents the four credentials Prizeout issues. The model is shared-secret / API-key, not OAuth: there is no authorization server, no scope surface, and no /.well-known/openid-configuration or /.well-known/oauth-authorization-server on any Prizeout host (both probed 404 on 2026-08-26).'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Prizeout Authentication
 name_suffix: Authentication

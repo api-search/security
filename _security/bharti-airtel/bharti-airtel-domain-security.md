@@ -153,6 +153,7 @@ hosts:
   https: true
   note: Added manually — the Airtel IoT API host sits on a different registrable domain (airteliot.co.in) than the rest of the estate and was outside the automated probe's host set. It is the only API host in the estate that negotiates TLS 1.2 rather than TLS 1.3, and the only one that returns no Strict-Transport-Security header.
   tls_version: TLSv1.2
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

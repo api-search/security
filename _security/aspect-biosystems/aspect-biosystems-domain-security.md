@@ -17,6 +17,7 @@ hosts:
   https: null
   note: HTTP/TLS layer INDETERMINATE from the probe network. aspectbiosystems.com resolves to 35.183.91.107 (AWS ca-central-1) but TCP connections to both :443 and :80 time out from this network — an origin-side ASN/geo filter, not an outage. The site was confirmed live and serving HTTPS via an out-of-network reader proxy on the same day. TLS version, certificate expiry, and HSTS could not be measured and are recorded as unknown rather than false.
   tls_version: null
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
@@ -6,6 +7,7 @@ auth_types:
 description: Planhat authenticates the main REST API with a bearer API access token (generated as a Private App under Settings; shown once, long-lived). Basic auth is also accepted. The remote MCP server and programmatic OAuth clients use OAuth 2.0 authorization_code + refresh_token with PKCE (S256) against api.planhat.com. The separate analytics/tracking endpoint is addressed by tenant UUID in the URL path (tenant-scoped, effectively open for ingest).
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Planhat Authentication
 name_suffix: Authentication

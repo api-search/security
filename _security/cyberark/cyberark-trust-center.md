@@ -42,6 +42,7 @@ api_specs:
   slug: cyberark-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-secrets-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2
 - ISO 27001

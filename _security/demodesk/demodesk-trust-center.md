@@ -24,6 +24,7 @@ api_specs:
   slug: demodesk-demodesk-public-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/openapi/demodesk-demodesk-public-api-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

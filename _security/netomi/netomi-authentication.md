@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: netomi-agent-desk-rest-api-controller-api-openapi.yml
@@ -205,6 +206,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Netomi Authentication
 name_suffix: Authentication

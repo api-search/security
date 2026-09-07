@@ -78,6 +78,7 @@ api_specs:
   slug: rocketlane-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-users-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

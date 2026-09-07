@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: virtuagym-billing-api-openapi.yml
@@ -48,6 +49,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Virtuagym Authentication
 name_suffix: Authentication

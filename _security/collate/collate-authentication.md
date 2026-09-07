@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: collate-openmetadata-openapi.yml
@@ -12,6 +13,7 @@ auth_types:
 description: 'OpenMetadata authenticates every REST API request with a JWT Bearer token passed in the Authorization header (`Authorization: Bearer <jwt>`). Tokens are either Bot tokens (Settings > Bots > Generate Token) or Personal Access Tokens (profile > Access Tokens, expiry required, shown once). The server validates the JWT signature and enforces role-based access control before processing the request; expired or invalid tokens return 401. The same JWT works across the Python, Java, and curl/bash clients. The hosted MCP server uses OAuth 2.1 / OIDC (authorization_code + PKCE) — see mcp/collate-mcp.yml.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Collate Authentication
 name_suffix: Authentication

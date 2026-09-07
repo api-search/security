@@ -72,6 +72,7 @@ api_specs:
   slug: ahasend-sub-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-sub-accounts-api-openapi.yml
+certification_count: 4
 certifications:
 - GDPR
 - Certified Senders Alliance (CSA)

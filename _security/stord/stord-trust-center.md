@@ -6,6 +6,7 @@ api_specs:
   slug: stord-api
   spec_type: OpenAPI
   url: https://www.stord.com/integrations
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

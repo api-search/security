@@ -69,6 +69,7 @@ hosts:
   https: true
   provider: Atlassian Statuspage
   reachable: true
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: accelbyte-achievement-api-openapi.yml
@@ -84,6 +85,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Accelbyte Authentication
 name_suffix: Authentication

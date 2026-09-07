@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: curie-catalog-api-openapi.yml
@@ -20,6 +21,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Curie Authentication
 name_suffix: Authentication

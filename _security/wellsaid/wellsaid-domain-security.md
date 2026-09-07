@@ -24,6 +24,12 @@ api_specs:
   slug: wellsaid-voices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-voices-api-openapi.yml
+- filename: wellsaid-labs-voice-avatars-api-openapi.yml
+  format: yaml
+  label: WellSaid Labs Voice Avatars API
+  slug: wellsaid-labs-voice-avatars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-labs-voice-avatars-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,6 +56,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

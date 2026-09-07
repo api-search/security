@@ -48,6 +48,7 @@ hosts:
 - host: docs.warrant.dev
   https: false
   note: No longer resolves (DNS ENOTFOUND at review time); docs moved to workos.com/docs/fga.
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: modeled

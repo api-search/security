@@ -54,6 +54,7 @@ api_specs:
   slug: riot-sonar-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-sonar-api-openapi.yml
+certification_count: 2
 certifications:
 - AICPA SOC 2 Type II
 - GDPR

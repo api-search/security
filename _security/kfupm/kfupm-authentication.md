@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: kfupm-identity-federation-openapi.yml
@@ -28,6 +29,7 @@ auth_types:
 description: Authentication posture across KFUPM's surfaces. The previous version of this file described an api-key scheme derived from the Elsevier Pure Web Services OpenAPI; that contract is Elsevier's and has been removed from this repo, so this file was rebuilt from KFUPM's own identity provider.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Kfupm Authentication
 name_suffix: Authentication

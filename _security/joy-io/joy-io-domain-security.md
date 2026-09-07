@@ -51,6 +51,7 @@ hosts:
   https: true
   note: private backend for the Joy manager app (gunicorn/uvicorn), AWS Cognito user pool auth; HTTP 404 on /, /openapi.json, /openapi.yaml, /swagger.json, /api-docs, /docs, /redoc, /graphql
   tls_version: TLSv1.3
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

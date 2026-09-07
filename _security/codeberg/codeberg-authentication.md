@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: codeberg-git-content-api-openapi.yml
@@ -56,6 +57,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: derived
 name: Codeberg Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: solana-accounts-api-openapi.yml
@@ -41,6 +42,7 @@ auth_types: []
 description: The Solana JSON-RPC OpenAPI declares no securitySchemes. The public cluster endpoints (api.mainnet-beta.solana.com, api.devnet.solana.com, api.testnet.solana.com) require no API key and no authentication — they are open, shared, rate-limited infrastructure not intended for production. Authenticated access is provided by third-party RPC providers (Helius, QuickNode, Triton, Alchemy, Syndica, GetBlock, etc.), which typically authenticate via an API key embedded in the request URL path/query or a header. Those keys are provider-specific and not part of the Solana protocol.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Solana Authentication
 name_suffix: Authentication

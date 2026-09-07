@@ -18,6 +18,7 @@ api_specs:
   slug: amazon-cloud-map-services-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/openapi/amazon-cloud-map-services-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

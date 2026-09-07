@@ -30,6 +30,7 @@ api_specs:
   slug: amazon-firewall-manager-resources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/openapi/amazon-firewall-manager-resources-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

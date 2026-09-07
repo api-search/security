@@ -84,6 +84,7 @@ api_specs:
   slug: medadvisor-refillorder-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/openapi/medadvisor-refillorder-api-openapi.yml
+certification_count: 4
 certifications:
 - ISO 27001
 - HIPAA

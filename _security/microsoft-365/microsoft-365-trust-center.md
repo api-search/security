@@ -42,6 +42,7 @@ api_specs:
   slug: microsoft-365-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-users-api-openapi.yml
+certification_count: 1
 certifications:
 - GDPR
 description: ''

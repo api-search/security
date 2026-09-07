@@ -126,6 +126,7 @@ api_specs:
   slug: kernel-so-proxies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kernel-so/refs/heads/main/openapi/kernel-so-proxies-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

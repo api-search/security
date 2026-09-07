@@ -1,4 +1,5 @@
 ---
+certification_count: 2
 certifications:
 - CMMC 2.0 Level 2
 - SOC 2 Type 1

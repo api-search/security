@@ -18,6 +18,7 @@ api_specs:
   slug: syft-data-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/openapi/syft-data-events-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type I
 - SOC 2 Type II

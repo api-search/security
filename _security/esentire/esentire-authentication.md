@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: eSentire publishes no OpenAPI and no developer authentication page, so this profile is built entirely from the two OAuth discovery documents the API host serves anonymously plus the challenge headers the gateway returns. It is therefore complete and accurate for the authorization layer, and silent on anything the docs would normally add (token lifetimes, key rotation, service accounts, IP allow-listing).
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Esentire Authentication
 name_suffix: Authentication

@@ -24,6 +24,7 @@ api_specs:
   slug: amazon-clean-rooms-protected-queries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/openapi/amazon-clean-rooms-protected-queries-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

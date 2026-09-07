@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -295,6 +296,7 @@ auth_types:
 description: 'Heron authenticates every API request with a customer-issued API key sent in the x-api-key HTTP header. Keys are managed from the dashboard (Settings -> API Credentials): create, list, deactivate, reactivate, delete, and rotate. Development and production are separated at the credential level — trial / onboarding uses development credentials, and production credentials are issued separately on request. A second key class, the "broker API key", authenticates the broker-submission endpoints and is generated per broker-funder relationship via /api/broker_submissions/api_keys/generate.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Heron Authentication
 name_suffix: Authentication

@@ -36,6 +36,7 @@ api_specs:
   slug: instabase-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-secrets-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

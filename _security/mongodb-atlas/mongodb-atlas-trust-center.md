@@ -24,6 +24,7 @@ api_specs:
   slug: mongodb-atlas-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/openapi/mongodb-atlas-projects-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2
 - ISO 27001

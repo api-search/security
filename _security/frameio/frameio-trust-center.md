@@ -120,6 +120,7 @@ api_specs:
   slug: frameio-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/frameio/refs/heads/main/openapi/frameio-workspaces-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

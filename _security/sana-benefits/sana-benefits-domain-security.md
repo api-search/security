@@ -36,6 +36,7 @@ hosts:
   https: true
   note: Zendesk help center; returns 302 to the hosted help center and 403 to automated fetches
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

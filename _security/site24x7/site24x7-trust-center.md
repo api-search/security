@@ -66,6 +66,7 @@ api_specs:
   slug: site24x7-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-users-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

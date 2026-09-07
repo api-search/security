@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - none
@@ -6,6 +7,7 @@ auth_types:
 description: Chainflip is a permissionless, non-custodial protocol. Its integration surfaces do not use API keys, bearer tokens, or OAuth. Access is either fully open (public RPC / quoting) or gated by operating a node account whose authority derives from on-chain identity and cryptographic signatures.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Chainflip Authentication
 name_suffix: Authentication

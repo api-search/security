@@ -84,6 +84,7 @@ api_specs:
   slug: videoamp-shares-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-shares-api-openapi.yml
+certification_count: 0
 certifications: []
 description: VideoAmp operates a Vanta-hosted trust center at trust.videoamp.com. The host resolves and returns HTTP 200, and the served document is a Vanta trust report shell (data-signature-manifest-url on assets.vanta.com, meta keywords "Trust, Security, Compliance, Automation", slug id kc0vaj770r912yhumz0k2). The page body is rendered entirely client-side, so the certification list, subprocessor list and document library could not be read anonymously.
 kind: trust-center

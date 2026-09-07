@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'StorONE runs two entirely separate authentication surfaces. The S1 REST API, which manages a customer''s own storage system, uses a username/password login that mints an opaque session token carried in the Authorization header — there is no OAuth, no API-key issuance portal and no scope model, because the API is served by the customer''s controller nodes and the identity store is the system''s own user database. The Model Context Protocol endpoint on www.storone.com is the opposite: full OAuth 2.1 with PKCE, discovery metadata and a single scope.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Storone Authentication
 name_suffix: Authentication

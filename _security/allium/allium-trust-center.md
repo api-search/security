@@ -18,6 +18,7 @@ api_specs:
   slug: allium-polygon-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/openapi/allium-polygon-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 1 Type 1
 - SOC 1 Type 2

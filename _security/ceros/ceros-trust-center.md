@@ -36,6 +36,7 @@ api_specs:
   slug: ceros-oembed-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ceros/refs/heads/main/openapi/ceros-oembed-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

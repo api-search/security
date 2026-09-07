@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http-bearer
 description: AAR CORP. publishes no developer authentication guide, no OpenAPI securitySchemes, and no OAuth or OIDC discovery document on any host. This profile is therefore built entirely from observed runtime behaviour of the one live, anonymously reachable API surface AAR operates — the AAR PAARTS Store commerce API at shop.aarcorp.com/rest/V1/ — plus the api.aarcorp.com gateway. No credential, key format, token endpoint or scope list is published by AAR, so none is recorded here.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Aar Authentication
 name_suffix: Authentication

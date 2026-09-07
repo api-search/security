@@ -150,6 +150,7 @@ api_specs:
   slug: gong-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-workspaces-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2 Type 2
 - ISO/IEC 27001:2022

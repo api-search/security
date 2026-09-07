@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: Compliance posture published by Purchaser. Captured from public product statements; no dedicated trust-center portal was discovered.

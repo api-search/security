@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: processout-balances-api-openapi.yml
@@ -66,6 +67,7 @@ auth_types:
 description: 'ProcessOut authenticates every API request with HTTP Basic auth using two project keys: the project ID as the username and a secret API key as the password. Sandbox and production keys are fully separate — the sandbox project ID carries a `test-` prefix and the secret is `key_sandbox_`/`key_test_`; production uses the un-prefixed project ID and a `key_live_` secret. API keys carry per-project permissions set at creation and cannot be edited afterward. The audit-logs endpoint authenticates with the organization ID as username and the API secret as password. Dashboard sign-in additionally supports SAML and OIDC SSO (enterprise).'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Processout Authentication
 name_suffix: Authentication

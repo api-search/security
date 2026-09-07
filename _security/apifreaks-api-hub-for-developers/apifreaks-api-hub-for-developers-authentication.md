@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -159,11 +160,18 @@ api_specs:
   slug: apifreaks-api-hub-for-developers-zip-code-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-zip-code-apis-api-openapi.yml
+- filename: apifreaks-api-hub-for-developers-pdf-template-apis-api-openapi.yml
+  format: yaml
+  label: APIFreaks - API Hub for Developers PDF Template APIs API
+  slug: apifreaks-api-hub-for-developers-pdf-template-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/openapi/apifreaks-api-hub-for-developers-pdf-template-apis-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Apifreaks Api Hub For Developers Authentication
 name_suffix: Authentication

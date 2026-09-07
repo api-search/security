@@ -42,6 +42,7 @@ api_specs:
   slug: meilisearch-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/meilisearch/refs/heads/main/openapi/meilisearch-tasks-api-openapi.yml
+certification_count: 1
 certifications:
 - GDPR
 description: ''

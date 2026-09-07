@@ -65,6 +65,7 @@ hosts:
   hsts_max_age: 259200
   hsts_preload: false
   https: true
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

@@ -36,6 +36,7 @@ api_specs:
   slug: kestra-triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-triggers-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

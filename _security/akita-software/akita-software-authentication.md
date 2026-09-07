@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: No OpenAPI or authentication reference page is published for the Akita / Postman observability API — Akita's documentation host no longer resolves and the observability API host serves no spec. The authentication model below is DERIVED from the first-party open-source agent's own REST client, which is the only public description of how the API is called. It is faithful to that source and is not a substitute for provider documentation.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: derived
 name: Akita Software Authentication
 name_suffix: Authentication

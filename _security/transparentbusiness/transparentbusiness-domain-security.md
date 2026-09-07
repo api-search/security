@@ -15,6 +15,7 @@ hosts:
   https: true
   note: The origin is fronted by Cloudflare and answers every automated request with a 403 "Attention Required!" interstitial; the HSTS header above was read off that 403 response, which is why the automated probe recorded it as absent.
   tls_version: TLSv1.2
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

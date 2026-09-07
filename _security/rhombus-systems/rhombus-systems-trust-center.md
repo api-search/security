@@ -390,6 +390,7 @@ api_specs:
   slug: rhombus-systems-webhook-integrations-webservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/openapi/rhombus-systems-webhook-integrations-webservice-api-openapi.yml
+certification_count: 11
 certifications:
 - SOC 2
 - GDPR

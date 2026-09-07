@@ -150,6 +150,7 @@ api_specs:
   slug: cint-target-groups-batch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-target-groups-batch-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 20252:2019
 - Cyber Essentials

@@ -54,6 +54,7 @@ api_specs:
   slug: justt-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-transactions-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type II
 - ISO 27001

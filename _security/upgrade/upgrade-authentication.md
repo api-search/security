@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: upgrade-marketing-offers-api-openapi.yml
@@ -24,6 +25,7 @@ auth_types:
 description: Authentication profile for the Flex Pay APIs (Upgrade). Both the marketing and checkout REST APIs use OAuth 2.0 — an access token obtained with the client-credentials grant (client ID/secret sent as Basic credentials to the token endpoint) and included as a Bearer token in the Authorization header of every API request. Credentials are issued per merchant and per environment by the Flex Pay integration team, gated on a server IP allowlist review.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Upgrade Authentication
 name_suffix: Authentication

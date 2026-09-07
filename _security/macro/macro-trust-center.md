@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: Security and compliance posture published by Macro. No dedicated trust.macro.com portal was found; details are drawn from the public FAQ and homepage.

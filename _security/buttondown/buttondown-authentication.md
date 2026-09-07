@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -187,6 +188,7 @@ auth_types:
 description: 'Buttondown authenticates with a static API key in the Authorization header. There is no OAuth, no OIDC and no token exchange — but the key model is richer than a single bearer secret: an account can mint any number of keys, each with independent per-area read/write/none permissions, and a platform account can act on any newsletter it owns by adding a context header.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Buttondown Authentication
 name_suffix: Authentication

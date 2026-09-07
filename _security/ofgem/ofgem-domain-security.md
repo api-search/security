@@ -41,6 +41,7 @@ hosts:
   tls_versions_supported:
   - TLSv1.3
   - TLSv1.2
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

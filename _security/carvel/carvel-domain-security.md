@@ -7,12 +7,13 @@ domains:
   domain: carvel.dev
   spf: false
 hosts:
-- cert_expires: Oct  4 02:58:13 2026 GMT
+- cert_expires: Dec  3 02:06:00 2026 GMT
   host: carvel.dev
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -25,7 +26,7 @@ slug: carvel-domain-security
 source_filename: carvel-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: carvel.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 02:58:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: carvel.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: carvel.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 02:06:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: carvel.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/security/carvel-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:

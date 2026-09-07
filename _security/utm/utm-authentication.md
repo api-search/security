@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: 'Authentication posture across every Universiti Teknologi Malaysia surface reachable from the open internet. UTM has no public developer program, so there is no route by which an unaffiliated caller obtains a credential for anything. The pattern that emerges is a clean split: the harvesting protocols are fully anonymous and the REST interfaces beneath them are closed, and the one fully specified authorization server is a campus identity service whose clients are provisioned by hand.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: probed
 name: Utm Authentication
 name_suffix: Authentication

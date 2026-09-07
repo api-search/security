@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: Upstart operates a trust center at trust.upstart.com, hosted on the VISO Trust platform (verified live - the host answers 200 and serves the VISO TRUST portal application). The portal is JavaScript-rendered, so the named certifications behind it could not be extracted by this automated pass; no certifications are asserted here beyond what is verifiable. Upstart also publishes a regulatory-compliance section for its lending partners at upstart.com/lenders/regulatory-compliance/ (fair lending, data security and privacy, safety and soundness) - a bank-partner compliance surface rather than a certification list.
 kind: trust-center

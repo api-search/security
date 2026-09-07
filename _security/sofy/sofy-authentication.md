@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -19,6 +20,7 @@ auth_types:
 description: SOFY's public API authenticates with a single API access key passed in the `x-sofy-auth-key` request header. The key is generated in the SOFY web app under Account Settings > API Key and is scoped to the subscription. There is no OAuth or OpenID Connect surface; the key is a bearer-style secret with no per-scope granularity.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Sofy Authentication
 name_suffix: Authentication

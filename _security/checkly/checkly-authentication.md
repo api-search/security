@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: checkly-accounts-api-openapi.yml
@@ -254,6 +255,7 @@ auth_types:
 description: Checkly authenticates two surfaces differently. The REST Public API takes a bearer API key plus an account header. The MCP server takes OAuth 2.1 with scopes, or a bearer API key for clients that cannot do OAuth. End-user sign-in to the app is OIDC via Auth0.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Checkly Authentication
 name_suffix: Authentication

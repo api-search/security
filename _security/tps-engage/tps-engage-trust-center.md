@@ -12,6 +12,7 @@ api_specs:
   slug: tps-engage-prefetch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/openapi/tps-engage-prefetch-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

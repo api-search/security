@@ -48,6 +48,7 @@ api_specs:
   slug: tmt-id-v2-deprecated-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-v2-deprecated-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

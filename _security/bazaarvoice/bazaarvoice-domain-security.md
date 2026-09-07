@@ -196,6 +196,7 @@ hosts:
   tls_version: TLSv1.3
 - host: content-search.eu-west-1a.bosun.qa.bazaarvoice.com
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

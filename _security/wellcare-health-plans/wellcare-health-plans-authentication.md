@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: wellcare-health-plans-condition-api-openapi.yml
@@ -85,6 +86,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Wellcare Health Plans Authentication
 name_suffix: Authentication

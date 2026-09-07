@@ -90,6 +90,7 @@ api_specs:
   slug: lumos-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-webhooks-api-openapi.yml
+certification_count: 0
 certifications: []
 description: Lumos runs a public trust centre at trust.lumos.com, hosted on Vanta. www.lumos.com/security redirects there, so it is the company's canonical security posture page.
 kind: trust-center

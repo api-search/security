@@ -114,6 +114,7 @@ api_specs:
   slug: webflow-api-and-documentation-webflow-workspce-audit-logs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-workspce-audit-logs-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

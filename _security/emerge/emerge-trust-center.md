@@ -54,6 +54,7 @@ api_specs:
   slug: emerge-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/openapi/emerge-webhooks-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

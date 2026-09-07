@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: 'Read AI''s REST API and MCP server share one OAuth 2.1 authorization server (authn.read.ai) and one bearer-token contract. There are no static API keys: the provider explicitly documents this as a known limitation of the open beta, with personal access tokens planned for GA. Client credentials are obtained by RFC 7591 dynamic client registration; the user then completes a browser authorization-code flow with PKCE. Access tokens live 10 minutes and refresh tokens rotate on every use.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Read Ai Authentication
 name_suffix: Authentication

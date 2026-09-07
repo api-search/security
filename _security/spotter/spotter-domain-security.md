@@ -47,6 +47,7 @@ hosts:
   https: unknown
   note: Intercom-hosted help center (CNAME us.intercomhelpcenter.com). The edge refused the TLS handshake from both LibreSSL 3.3.6 and Python/OpenSSL clients (SSLV3_ALERT_HANDSHAKE_FAILURE), so no posture could be recorded. Reachable in a browser; recorded as unknown rather than as a failure.
   tls_version: null
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

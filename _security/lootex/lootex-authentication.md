@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Authentication profile assembled from Lootex''s open-source core and Forge developer documentation. Two distinct surfaces existed: the marketplace backend used Web3 wallet signature authentication issuing JWTs, while the Forge minting/developer API used per-application API keys issued after registration.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Lootex Authentication
 name_suffix: Authentication

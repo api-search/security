@@ -45,6 +45,7 @@ hosts:
   notes: Unauthenticated requests return HTTP/2 401 with WWW-Authenticate Key realm="kong". No Strict-Transport-Security header was returned on the API host at probe time.
   server: cloudflare
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

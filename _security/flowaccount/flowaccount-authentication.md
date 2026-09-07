@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: flowaccount-batchimport-api-openapi.yml
@@ -121,6 +122,7 @@ auth_types:
 description: 'FlowAccount Open API uses OAuth 2.0 client credentials. A registered integration exchanges its client_id + client_secret at the token endpoint ({base}/token) with grant_type=client_credentials and scope=flowaccount-api to obtain a bearer access token, then sends it as `Authorization: Bearer <token>` on every request. Sandbox and Production credentials are issued separately on registration. Evidence: flowaccount/open-api apps/api/flowaccount-webhook (AuthenticationService.ts, env.json) documents grant_type=client_credentials, scope=flowaccount-api, and a tokenPost flow; the OpenAPI declares the resulting bearer scheme.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Flowaccount Authentication
 name_suffix: Authentication

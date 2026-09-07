@@ -29,6 +29,7 @@ hosts:
   hsts: max-age=31536000; includeSubDomains; preload
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

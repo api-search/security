@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - openIdConnect
 description: Beacon Health publishes no public developer API and no OpenAPI definition, so there are no securitySchemes to derive from. This profile is captured from the live OIDC discovery document served by the application backend host (api.beaconhealth.ai) plus the published Terms of Service and Privacy Policy. The discovery document advertises an issuer and a working JWKS endpoint, which indicates JWT-based session authentication for the first-party Beacon Health web application; the advertised authorization_endpoint returns 404, so this is NOT a public OAuth authorization server that third-party developers can register with. Human end users authenticate through the web application at https://www.beaconhealth.ai/login. Access to the platform requires authorization by a subscribing healthcare organization (Terms of Service §3).
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Beacon Health Authentication
 name_suffix: Authentication

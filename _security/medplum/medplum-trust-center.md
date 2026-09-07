@@ -6,6 +6,7 @@ api_specs:
   slug: medplum-fhir-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/openapi/medplum-fhir-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - HIPAA

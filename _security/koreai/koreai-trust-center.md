@@ -24,6 +24,7 @@ api_specs:
   slug: koreai-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/openapi/koreai-workflows-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2 Type 2
 - PCI DSS

@@ -30,6 +30,7 @@ hosts:
   https: false
 - host: auth.us-east-2.propeldata.com
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

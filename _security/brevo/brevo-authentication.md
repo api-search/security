@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -326,6 +327,7 @@ auth_types:
 description: 'Brevo offers two authentication schemes. API key is the default and the only one the published OpenAPI specs declare: a secret token sent in a lowercase `api-key` request header, scoped to the whole account with no per-key permissions. OAuth 2.0 was added for apps acting on behalf of a Brevo user and is where the granular permission model lives — 37 scopes on a partner realm, created and managed entirely through the Brevo CLI with no application form or manual approval. The two are documented together but only one is described in the machine-readable contract, so an agent reading the specs alone will not discover OAuth at all.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Brevo Authentication
 name_suffix: Authentication

@@ -96,6 +96,7 @@ api_specs:
   slug: reputation-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/openapi/reputation-users-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2 Type II
 - ISO 27001

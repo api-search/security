@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: leaseaccelerator-documents-api-openapi.yml
@@ -61,6 +62,7 @@ auth_types:
 description: 'How a client authenticates to the LeaseAccelerator API. LeaseAccelerator does not issue API keys or OAuth tokens. Access is secured by SAML2 against the customer''s own identity provider: the client performs a SAML2 ECP exchange with the LeaseAccelerator service provider endpoint, receives a text security token, and submits that token as a form field on every subsequent API POST.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Leaseaccelerator Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - config
 auth_types:
@@ -8,6 +9,7 @@ auth_types:
 description: 'W4 Cloud authentication model, captured from the W4 Cloud documentation. There is no standalone public REST API with an OpenAPI securitySchemes block — clients authenticate through the w4gd Godot addon. Two layers exist: a project API key that binds the addon to a W4 Cloud workspace, and player authentication handled by a Supabase (GoTrue) identity service issuing JWT bearer tokens used against the database (PostgREST), realtime, and storage services.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: W4 Games Authentication
 name_suffix: Authentication

@@ -252,6 +252,7 @@ api_specs:
   slug: zoominfo-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-workflows-api-openapi.yml
+certification_count: 4
 certifications:
 - source
 - statement

@@ -18,6 +18,7 @@ api_specs:
   slug: snapchat-user-profile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-user-profile-api-openapi.yml
+certification_count: 0
 certifications: []
 description: 'Snap Inc. publishes a trust / assurance profile at trust.snap.com covering application security, infrastructure, data protection, access control, incident response and business resiliency. What it does NOT publish is a certification: the profile''s own certificationSelections list is empty, and every attached document — including the Information Security Policy, the Security Incident Response Policy, the Resiliency and Crisis Management Policy, the Pentest Report summary, and the CAIQ and SIG Lite questionnaires — is marked isPublic false, i.e. released only on request. Recording this as an assurance surface, NOT as published compliance.'
 kind: trust-center

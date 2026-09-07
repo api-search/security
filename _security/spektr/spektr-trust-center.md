@@ -54,6 +54,7 @@ api_specs:
   slug: spektr-workspace-fields-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-workspace-fields-api-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

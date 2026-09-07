@@ -204,6 +204,7 @@ api_specs:
   slug: amazon-verified-permissions-updatepolicytemplate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/openapi/amazon-verified-permissions-updatepolicytemplate-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

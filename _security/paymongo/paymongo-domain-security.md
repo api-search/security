@@ -91,6 +91,7 @@ hosts:
 - host: docs.paymongo.com
   https: true
   note: developers.paymongo.com issues a 301 redirect to docs.paymongo.com
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

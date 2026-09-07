@@ -246,6 +246,7 @@ api_specs:
   slug: syllable-voice-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/syllable/refs/heads/main/openapi/syllable-voice-groups-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 2
 - HIPAA

@@ -41,6 +41,7 @@ hosts:
   http_status: 200
   https: true
   note: Kustomer-hosted member help center
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

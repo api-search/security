@@ -288,6 +288,7 @@ api_specs:
   slug: wise-webhook-event-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wise/refs/heads/main/openapi/wise-webhook-event-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 1 Type 2
 - SOC 2 Type 2

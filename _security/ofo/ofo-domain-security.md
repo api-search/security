@@ -11,6 +11,7 @@ hosts:
     '80': closed
   reachable: false
   tls_version: null
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

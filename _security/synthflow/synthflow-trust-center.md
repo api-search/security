@@ -42,6 +42,7 @@ api_specs:
   slug: synthflow-webhooklogs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-webhooklogs-api-openapi.yml
+certification_count: 5
 certifications:
 - ISO 27001:2022
 - SOC 2

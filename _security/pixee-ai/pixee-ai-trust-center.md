@@ -30,6 +30,7 @@ api_specs:
   slug: pixee-ai-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/openapi/pixee-ai-webhooks-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

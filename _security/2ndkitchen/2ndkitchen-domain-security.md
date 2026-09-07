@@ -93,6 +93,7 @@ hosts:
   tls_version: TLSv1.3
 - host: auth-staging.2ndkitchen.com
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

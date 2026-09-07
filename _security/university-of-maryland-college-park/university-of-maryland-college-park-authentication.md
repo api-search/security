@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: university-of-maryland-college-park-libraries-website-tools-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: Authentication posture of the surfaces the University of Maryland actually operates itself. Every institution-operated library and repository read surface confirmed in this profile is open and keyless. The one exception is the campus Enterprise GIS, which publishes its service catalog without a credential and gates every service behind an ArcGIS token. Beyond that, the institution's authentication engineering is concentrated in its SAML identity provider, which authenticates people into vendor platforms rather than authorising API clients.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: University Of Maryland College Park Authentication
 name_suffix: Authentication

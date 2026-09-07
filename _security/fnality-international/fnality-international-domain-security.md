@@ -21,6 +21,7 @@ hosts:
   note: Archbee-hosted documentation space (CNAME proxy.archbee.com). The space is credential-gated — the root returns HTTP 200 carrying a "Get a magic link to access space with your account" login shell rather than documentation.
   server: cloudflare
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

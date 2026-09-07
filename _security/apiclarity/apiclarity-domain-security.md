@@ -24,6 +24,48 @@ api_specs:
   slug: apiclarity-features-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-features-api-openapi.yml
+- filename: apiclarity-bfla-module-openapi.yml
+  format: yaml
+  label: APIClarity BFLA Module API
+  slug: apiclarity-bfla-module-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-bfla-module-openapi.yml
+- filename: apiclarity-fuzzer-module-openapi.yml
+  format: yaml
+  label: APIClarity Fuzzer Module API
+  slug: apiclarity-fuzzer-module-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-fuzzer-module-openapi.yml
+- filename: apiclarity-trace-analyzer-module-openapi.yml
+  format: yaml
+  label: APIClarity Trace Analyzer Module API
+  slug: apiclarity-trace-analyzer-module-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-trace-analyzer-module-openapi.yml
+- filename: apiclarity-spec-differ-module-openapi.yml
+  format: yaml
+  label: APIClarity Spec Differ Module API
+  slug: apiclarity-spec-differ-module-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-spec-differ-module-openapi.yml
+- filename: apiclarity-spec-reconstructor-module-openapi.yml
+  format: yaml
+  label: APIClarity Spec Reconstructor Module API
+  slug: apiclarity-spec-reconstructor-module-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-spec-reconstructor-module-openapi.yml
+- filename: apiclarity-plugins-telemetry-swagger.yml
+  format: yaml
+  label: APIClarity Plugins Telemetry API
+  slug: apiclarity-plugins-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-plugins-telemetry-swagger.yml
+- filename: apiclarity-notifications-openapi.yml
+  format: yaml
+  label: APIClarity Notifications API
+  slug: apiclarity-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-notifications-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -36,6 +78,7 @@ hosts:
   hsts: null
   https: true
   tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for ''openclarity'
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -48,7 +91,7 @@ slug: apiclarity-domain-security
 source_filename: apiclarity-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: openclarity.io\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''openclarity'\n  hsts: null\ndomains:\n- domain: openclarity.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: openclarity.io\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''openclarity'\n  hsts: null\ndomains:\n- domain: openclarity.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/security/apiclarity-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:

@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Movable Ink runs two distinct authentication models. Machine-to-machine data ingestion into the Customer Data API uses HTTP Basic authentication with an Access Key ID and Access Secret issued per integration by the Movable Ink Solutions / Client Experience team, scoped to a per-tenant endpoint key embedded in the path. Human access to the Movable Ink Studio application uses OpenID Connect against an Auth0 tenant at auth.movableink.com. There is no self-service API key issuance and no public developer credential flow.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Movable Ink Authentication
 name_suffix: Authentication

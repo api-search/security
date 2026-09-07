@@ -43,6 +43,7 @@ hosts:
   http_status: 403
   https: true
   tls_version: TLSv1.3
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

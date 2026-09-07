@@ -42,6 +42,7 @@ api_specs:
   slug: ibm-trusted-profiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-trusted-profiles-api-openapi.yml
+certification_count: 13
 certifications:
 - SOC 1
 - SOC 2

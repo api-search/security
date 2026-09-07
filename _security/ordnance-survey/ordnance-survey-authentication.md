@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -147,6 +148,7 @@ auth_types:
 description: 'Three interchangeable credentials across the whole Ordnance Survey estate: the Project API Key as the `key` query parameter, the same key as the `key` request header, or an OAuth 2.0 client-credentials Bearer token. Credentials belong to an OS Data Hub API Project, not to a user, and carry no scopes - entitlement comes from which APIs are attached to the project and which plan the account holds. A 401 is a credential failure; a 403 is a LICENSING failure. The OS Net API spec ships an unresolved OAUTH_TOKEN_URL placeholder as its tokenUrl; the real endpoint is https://api.os.uk/oauth2/token/v1.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Ordnance Survey Authentication
 name_suffix: Authentication

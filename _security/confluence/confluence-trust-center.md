@@ -42,6 +42,7 @@ api_specs:
   slug: confluence-space-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/openapi/confluence-space-api-openapi.yml
+certification_count: 11
 certifications:
 - SOC 2 Type II
 - SOC 3

@@ -42,6 +42,7 @@ api_specs:
   slug: caspio-views-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-views-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - PCI DSS

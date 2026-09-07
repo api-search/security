@@ -72,6 +72,7 @@ api_specs:
   slug: workday-recruiting-recruiting-agencies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-recruiting/refs/heads/main/openapi/workday-recruiting-recruiting-agencies-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

@@ -84,6 +84,7 @@ api_specs:
   slug: hopin-tickets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-tickets-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

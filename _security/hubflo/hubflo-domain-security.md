@@ -193,6 +193,7 @@ hosts:
   https: false
 - host: staging.hubflo.com
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -37,6 +38,7 @@ auth_types:
 description: Badger Maps API v2 uses a single static token sent in an Authorization header with the non-standard scheme word "Token" (not "Bearer"). There is no OAuth, no OIDC, no mTLS, no signed requests and no scope model - one key carries the full permission set of the user it belongs to. Upgraded from derived to searched on 2026-08-13 against the provider's own published API Blueprint, which documents both the header format and the credential-issuing endpoint.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Badger Maps Authentication
 name_suffix: Authentication

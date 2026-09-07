@@ -108,6 +108,7 @@ api_specs:
   slug: screenpipe-vision-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/openapi/screenpipe-vision-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

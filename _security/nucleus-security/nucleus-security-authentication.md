@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: nucleus-security-vulnerabilities-api-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: 'Nucleus Security authenticates three distinct surfaces three different ways: the tenant platform REST API with a static API key in an `x-apikey` header, both MCP servers with OAuth 2.1 authorization-code + PKCE, and the public vulnerability intelligence API with nothing at all.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Nucleus Security Authentication
 name_suffix: Authentication

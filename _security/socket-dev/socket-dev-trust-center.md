@@ -114,6 +114,7 @@ api_specs:
   slug: socket-dev-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/openapi/socket-dev-webhooks-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type I
 description: Socket's public trust / compliance posture. Socket announced SOC 2 Type I compliance, verifying its security controls against the AICPA Trust Services Criteria, and monitors internal controls continuously via an automated compliance platform. A key privacy property is that Socket is designed to operate without analyzing, uploading, or sharing customer source code. The trust page (socket.dev/legal/trust) blocks automated fetches (HTTP 403) so the certification set is captured from the public SOC 2 announcement.

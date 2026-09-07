@@ -2514,6 +2514,7 @@ api_specs:
   slug: optimizely-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-workflows-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: carnegie-mellon-university-articles-api-openapi.yml
@@ -79,6 +80,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Carnegie Mellon University Authentication
 name_suffix: Authentication

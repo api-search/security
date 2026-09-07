@@ -48,6 +48,7 @@ api_specs:
   slug: viglink-sites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-sites-api-openapi.yml
+certification_count: 1
 certifications:
 - TAG Platinum
 description: Sovrn — the operator of VigLink / Sovrn Commerce — publishes a Trust Center on its corporate domain, plus a separate public security-program page. One industry certification is named (TAG Platinum); no SOC 2, ISO 27001, PCI DSS or HIPAA attestation is named or offered for download on either page.

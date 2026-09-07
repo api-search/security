@@ -24,6 +24,7 @@ api_specs:
   slug: tl-dv-transcripts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/openapi/tl-dv-transcripts-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

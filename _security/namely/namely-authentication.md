@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: namely-comments-api-openapi.yml
@@ -119,6 +120,7 @@ auth_types: []
 description: 'The Namely API supports two authentication models, both documented on the provider''s own developer portal: a 3-legged OAuth 2.0 authorization code grant for partner integrations, and Personal Access Tokens (bearer tokens) for a client''s own internal integrations. All requests must be made over HTTPS; plaintext HTTP is refused. Credentials are minted inside the customer''s own Namely HRIS tenant under the API menu item, which requires an administrator to grant access.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Namely Authentication
 name_suffix: Authentication

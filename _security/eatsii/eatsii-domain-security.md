@@ -25,6 +25,7 @@ hosts:
   https: false
   tls_error: tlsv1 alert internal error (no peer certificate)
   tls_version: null
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

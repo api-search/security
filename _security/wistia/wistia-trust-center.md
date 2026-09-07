@@ -288,6 +288,7 @@ api_specs:
   slug: wistia-webinar-registrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-webinar-registrations-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - PCI DSS

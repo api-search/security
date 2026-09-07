@@ -72,6 +72,7 @@ api_specs:
   slug: qualified-com-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/openapi/qualified-com-sessions-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - EU-US Privacy Shield

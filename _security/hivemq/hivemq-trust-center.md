@@ -24,6 +24,7 @@ api_specs:
   slug: hivemq-mqtt-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/openapi/hivemq-mqtt-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

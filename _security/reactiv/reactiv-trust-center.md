@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: Reactiv operates a public trust center (Docusaurus) covering security, legal, and status. It documents GDPR / CCPA data-processing commitments via a Data Processing Addendum and a sub-processors (data processors) list, plus an SLA and a status page. No named third-party security certifications (SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP) are published as of this pass, so no Compliance pointer is emitted.
 kind: trust-center

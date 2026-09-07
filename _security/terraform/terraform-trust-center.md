@@ -54,6 +54,7 @@ api_specs:
   slug: terraform-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/terraform-workspaces-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 2
 - ISO 27001

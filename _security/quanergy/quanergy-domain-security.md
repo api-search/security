@@ -25,6 +25,7 @@ hosts:
   https: true
   tls_version: TLSv1.3
   x-note: AWS CloudFront (d37kvolyxq2d8.cloudfront.net). Hosts the public QORTEX DTC API Reference, user guides and installers; probed 2026-08-05.
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

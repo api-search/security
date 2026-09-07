@@ -8,12 +8,13 @@ domains:
   domain: councils.gov
   spf: true
 hosts:
-- cert_expires: Aug 13 12:21:19 2026 GMT
+- cert_expires: Oct 12 12:21:22 2026 GMT
   host: www.councils.gov
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -26,7 +27,7 @@ slug: chief-information-officers-council-domain-security
 source_filename: chief-information-officers-council-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.councils.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 12:21:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: councils.gov\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.councils.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 12:21:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: councils.gov\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chief-information-officers-council/refs/heads/main/security/chief-information-officers-council-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

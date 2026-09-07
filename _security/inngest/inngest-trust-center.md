@@ -48,6 +48,7 @@ api_specs:
   slug: inngest-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/openapi/inngest-webhooks-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

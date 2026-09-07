@@ -120,6 +120,7 @@ hosts:
   https: true
   note: The only genuine API host in the group. Negotiates TLS 1.2 (not 1.3) and serves no HSTS header. Every path returns 401.
   tls_version: TLSv1.2
+hosts_probed: 9
 kind: domain-security
 layout: security
 method: probed

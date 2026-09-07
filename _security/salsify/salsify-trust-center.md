@@ -54,6 +54,7 @@ api_specs:
   slug: salsify-records-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-records-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - ISO 27001:2013

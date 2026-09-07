@@ -42,6 +42,7 @@ api_specs:
   slug: pennsylvania-state-university-rooms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/openapi/pennsylvania-state-university-rooms-api-openapi.yml
+certification_count: 3
 certifications:
 - PCI DSS
 - HIPAA

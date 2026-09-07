@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: nutrientsdb-foods-api-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: 'The NutrientsDB Sample API requires NO authentication. This is an explicit, documented posture, not an omission: the docs page states "No authentication" alongside "HTTPS" and "CORS enabled", and the OpenAPI declares no components.securitySchemes and no security requirement on its single operation. Verified by an anonymous live call that returned 200 with data. There are no API keys to issue, no OAuth surface, no scopes, and therefore no scopes/ artifact for this provider.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Nutrientsdb Authentication
 name_suffix: Authentication

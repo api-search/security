@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: 'Cognito authenticates every API request with HTTP request signatures (the Cavage "Signing HTTP Messages" draft), not a bearer token or HTTP Basic. Each request carries a Date header, a Digest header (base64 SHA-256 of the body), and an Authorization: Signature header whose signature is an HMAC-SHA256 over the "(request-target) date digest" signing string, keyed with the API secret. The API key (keyId) identifies the organization; the API secret is used only server-side to compute the signature and is never transmitted.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Cognito Authentication
 name_suffix: Authentication

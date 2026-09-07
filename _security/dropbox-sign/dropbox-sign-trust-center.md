@@ -36,6 +36,7 @@ api_specs:
   slug: dropbox-sign-fax-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dropbox-sign/refs/heads/main/openapi/dropbox-sign-fax-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2
 - ISO 27001

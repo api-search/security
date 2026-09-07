@@ -37,6 +37,7 @@ hosts:
   note: Google Cloud HTTPS load balancer with path-based routing ("service rules for the path non-existent" on unmatched paths). /healthz returns 200 "alive". No /.well-known/ document, no OpenAPI/Swagger and no GraphQL surface is served — see well-known/acretrader-well-known.yml for the full probe table.
   server: null
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

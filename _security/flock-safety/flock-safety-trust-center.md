@@ -60,6 +60,7 @@ api_specs:
   slug: flock-safety-vehicle-images-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/openapi/flock-safety-vehicle-images-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

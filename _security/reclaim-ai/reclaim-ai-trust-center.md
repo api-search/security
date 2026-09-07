@@ -498,6 +498,7 @@ api_specs:
   slug: reclaim-ai-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/openapi/reclaim-ai-well-known-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

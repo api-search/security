@@ -6,6 +6,7 @@ api_specs:
   slug: logicmonitor
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/logicmonitor/refs/heads/main/openapi/logicmonitor-rest-api-v3-swagger.json
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

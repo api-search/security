@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -14,6 +15,7 @@ auth_types:
 description: CloudSight documents two alternative authentication methods for the same API, captured from the "Authentication" section of the API Blueprint CloudSight publishes on Apiary. There is no OAuth 2.0, no OpenID Connect, and no scope surface — the key (or the OAuth 1.0a key/secret pair) is all-or-nothing against the account.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Cloudsight Authentication
 name_suffix: Authentication

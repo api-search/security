@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: onetrust-ai-governance-openapi.json
@@ -227,6 +228,7 @@ auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Onetrust Authentication
 name_suffix: Authentication

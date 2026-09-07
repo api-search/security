@@ -19,6 +19,7 @@ hosts:
   https: true
   note: GALILEO / "Mirus Analytics" clinician application (CloudFront + S3 SPA). Its /api/* routes, including /api/v1/fhir, answer 401 to anonymous requests.
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

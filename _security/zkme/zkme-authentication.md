@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - body
 api_specs:
@@ -38,6 +39,7 @@ auth_types:
 description: The zkMe Open API authenticates every request with an AppID + API key pair issued from the zkMe dashboard. Unusually, the credentials are passed as request-body fields (mchNo = AppID, apiKey = API key) rather than as an Authorization header, so they are not expressible as a standard OpenAPI securityScheme. The zkKYB endpoint and all SDK-initialized flows instead use a short-lived accessToken (valid 30 minutes) minted server-side via POST https://nest-api.zk.me/api/token/get.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Zkme Authentication
 name_suffix: Authentication

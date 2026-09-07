@@ -29,6 +29,7 @@ hosts:
   https: true
   note: The SmartData application host (nginx 1.30.3, Django/DRF). Added by hand on 2026-08-14 because apis.yml carries no apis[] entry for it - SmartData ships no public API - so the automated probe, which walks apis.yml baseURLs and OpenAPI servers[], never reaches it. Response also sets X-Frame-Options DENY, X-Content-Type-Options nosniff, Referrer-Policy same-origin and Cross-Origin-Opener-Policy same-origin.
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

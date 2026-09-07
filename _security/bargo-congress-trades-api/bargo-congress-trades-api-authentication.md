@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -27,6 +28,7 @@ auth_types:
 description: 'Authentication for the Bargo Congress Trades API is OPTIONAL, which is the single most important fact about it: the OpenAPI top-level security array leads with an empty requirement, so anonymous callers are served at a lower quota rather than rejected. A free key — no card, self-serve — raises the quota and is the only way to call the Congress MCP endpoint''s tools. Three interchangeable credential presentations are declared; Bargo''s own agent skill ranks them.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Bargo Congress Trades Api Authentication
 name_suffix: Authentication

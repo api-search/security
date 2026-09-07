@@ -594,6 +594,7 @@ api_specs:
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-updateapplicationmaintenanceconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-x-amz-target-kinesisanalytics-20180523-updateapplicationmaintenanceconfiguration-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

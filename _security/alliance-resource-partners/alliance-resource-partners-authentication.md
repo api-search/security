@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: alliance-resource-partners-content-openapi.yml
@@ -13,6 +14,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Alliance Resource Partners Authentication
 name_suffix: Authentication

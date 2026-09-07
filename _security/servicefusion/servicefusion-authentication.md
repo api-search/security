@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: servicefusion-calendar-tasks-api-openapi.yml
@@ -61,6 +62,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Servicefusion Authentication
 name_suffix: Authentication

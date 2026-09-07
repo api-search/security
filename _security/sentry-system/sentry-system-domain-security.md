@@ -264,6 +264,12 @@ api_specs:
   slug: sentry-system-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sentry-system/refs/heads/main/openapi/sentry-system-users-api-openapi.yml
+- filename: sentry-webhooks-asyncapi.yml
+  format: yaml
+  label: Sentry Integration Platform API
+  slug: sentry-integration-platform-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentry-system/refs/heads/main/asyncapi/sentry-webhooks-asyncapi.yml
 description: ''
 domains:
 - caa:
@@ -288,6 +294,7 @@ hosts:
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

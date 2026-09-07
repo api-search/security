@@ -18,6 +18,7 @@ api_specs:
   slug: red-hat-enterprise-linux-8-oval-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/openapi/red-hat-enterprise-linux-8-oval-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - ISO 27018

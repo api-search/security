@@ -12,6 +12,12 @@ api_specs:
   slug: microsoft-power-platform-records-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-platform/refs/heads/main/openapi/microsoft-power-platform-records-api-openapi.yml
+- filename: microsoft-power-platform-enterprise-policies-openapi.json
+  format: json
+  label: Power Platform Enterprise Policies (Azure Resource Manager)
+  slug: microsoft-power-platform-enterprise-policies
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-platform/refs/heads/main/openapi/_original/microsoft-power-platform-enterprise-policies-openapi.json
 description: ''
 domains:
 - caa:
@@ -29,7 +35,7 @@ domains:
   domain: microsoft.com
   spf: true
 hosts:
-- cert_expires: Jan  5 22:51:38 2027 GMT
+- cert_expires: Feb 25 15:51:39 2027 GMT
   host: make.powerapps.com
   hsts: null
   https: true
@@ -40,11 +46,12 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Jan  4 01:54:17 2027 GMT
+- cert_expires: Feb 25 19:10:41 2027 GMT
   host: api.bap.microsoft.com
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
@@ -57,7 +64,7 @@ slug: microsoft-power-platform-domain-security
 source_filename: microsoft-power-platform-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: make.powerapps.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 22:51:38 2027 GMT\n  hsts: null\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.bap.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  4 01:54:17 2027 GMT\n  hsts: null\ndomains:\n- domain: powerapps.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: make.powerapps.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 25 15:51:39 2027 GMT\n  hsts: null\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.bap.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 25 19:10:41 2027 GMT\n  hsts: null\ndomains:\n- domain: powerapps.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-platform/refs/heads/main/security/microsoft-power-platform-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

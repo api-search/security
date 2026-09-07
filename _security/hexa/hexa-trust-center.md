@@ -54,6 +54,7 @@ api_specs:
   slug: hexa-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hexa/refs/heads/main/openapi/hexa-users-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2
 - ISO 27001

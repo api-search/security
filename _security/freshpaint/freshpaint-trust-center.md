@@ -6,6 +6,7 @@ api_specs:
   slug: freshpaint-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/freshpaint/refs/heads/main/openapi/freshpaint-events-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 2
 - HIPAA

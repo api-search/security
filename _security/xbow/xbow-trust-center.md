@@ -54,6 +54,7 @@ api_specs:
   slug: xbow-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/openapi/xbow-webhooks-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 1
 - SOC 2 Type 2

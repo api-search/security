@@ -138,6 +138,7 @@ api_specs:
   slug: amazon-private-ca-x-amz-target-acmprivateca-updatecertificateauthority-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/openapi/amazon-private-ca-x-amz-target-acmprivateca-updatecertificateauthority-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

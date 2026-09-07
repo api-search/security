@@ -342,6 +342,7 @@ api_specs:
   slug: hubspot-workflow-callbacks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-workflow-callbacks-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

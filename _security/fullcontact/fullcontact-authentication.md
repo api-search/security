@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -43,6 +44,7 @@ auth_types:
 description: 'One credential covers everything FullContact exposes: the V3 REST API and the hosted MCP server both authenticate with the same API key, sent as an HTTP Bearer token. There is no OAuth, no OIDC, no separate MCP credential, and no scope surface — entitlements are attached to the key by FullContact''s account team rather than requested by the client.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Fullcontact Authentication
 name_suffix: Authentication

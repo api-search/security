@@ -2070,6 +2070,7 @@ api_specs:
   slug: conga-waterfalls-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-waterfalls-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 1 Type 2
 - SOC 2 Type 2

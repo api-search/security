@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Botkeeper publishes no developer authentication documentation. This profile is assembled entirely from probed evidence: the OpenID Connect discovery document for Botkeeper''s production Amazon Cognito user pool, the published runtime configuration of the Botkeeper Partner Portal SPA at https://www.firm.ai/, the API Gateway challenge returned by ipa.botkeeper.com, and the Apollo GraphQL challenge returned by api.firm.ai/graphql. Nothing here is inferred beyond what those responses state.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Botkeeper Authentication
 name_suffix: Authentication

@@ -60,6 +60,7 @@ api_specs:
   slug: wove-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-webhooks-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

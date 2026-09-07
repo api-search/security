@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -68,6 +69,7 @@ auth_types:
 description: Tapfiliate has two authentication surfaces that do not share a mechanism. The REST API v1.6 uses a single static account API key sent as a request header — no OAuth, no token exchange, no per-integration scoping, and the key can approve commissions and create payments. The MCP server, announced 2026-08-07, is a proper OAuth 2.0 protected resource with PKCE, dynamic client registration and four declared scopes.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Tapfiliate Authentication
 name_suffix: Authentication

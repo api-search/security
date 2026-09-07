@@ -180,6 +180,7 @@ api_specs:
   slug: bullish-transfer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-transfer-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 1 Type 1
 - SOC 2 Type 1

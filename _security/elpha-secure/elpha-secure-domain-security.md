@@ -39,6 +39,7 @@ hosts:
   https: true
   note: 'Resolves and answers, but redirects to itself (Location: https://trust.elphasecure.com) producing an infinite redirect loop; a bare GET without redirects returns 405. A trust-center subdomain appears provisioned but is not serving a document.'
   reachable: false
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

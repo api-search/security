@@ -54,6 +54,7 @@ api_specs:
   slug: giftbit-shortlinks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/giftbit/refs/heads/main/openapi/giftbit-shortlinks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

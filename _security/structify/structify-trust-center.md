@@ -192,6 +192,7 @@ api_specs:
   slug: structify-workflow-schedule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-workflow-schedule-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type II
 - HIPAA

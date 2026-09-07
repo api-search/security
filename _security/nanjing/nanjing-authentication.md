@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - none
@@ -9,6 +10,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 5
 method: probed
 name: Nanjing Authentication
 name_suffix: Authentication

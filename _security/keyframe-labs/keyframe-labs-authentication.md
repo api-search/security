@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: keyframe-labs-llm-models-api-openapi.yml
@@ -30,6 +31,7 @@ auth_types:
 description: 'The Keyframe Sessions API is authenticated with a bearer API key. Create and manage keys in the Keyframe platform dashboard (https://platform.keyframelabs.com/api-keys); a key is shown only once at creation. Pass the key as an HTTP bearer token in the Authorization header (Authorization: Bearer <api_key>) on every request.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Keyframe Labs Authentication
 name_suffix: Authentication

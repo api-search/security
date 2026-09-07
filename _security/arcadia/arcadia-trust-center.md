@@ -66,6 +66,7 @@ api_specs:
   slug: arcadia-webhook-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/arcadia/refs/heads/main/openapi/arcadia-webhook-events-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

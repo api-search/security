@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for Leap Finance Inc., established entirely by probing the company's own identity tenant. Leap Finance publishes no API reference and no OpenAPI document, so there are no securitySchemes to derive from. What it does serve is a complete, unauthenticated OpenID Connect discovery document at auth.leapfinance.com — an Auth0 tenant on the company's own domain — which describes the identity surface behind its consumer loan application and partner portal.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Leap Finance Authentication
 name_suffix: Authentication

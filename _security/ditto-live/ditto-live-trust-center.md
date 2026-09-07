@@ -36,6 +36,7 @@ api_specs:
   slug: ditto-live-sync-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-sync-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

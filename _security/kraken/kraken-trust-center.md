@@ -84,6 +84,7 @@ api_specs:
   slug: kraken-websocket-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-websocket-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

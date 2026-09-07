@@ -6,6 +6,7 @@ api_specs:
   slug: amazon-lightsail-instances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-instances-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

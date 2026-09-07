@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for the SAP Ariba API gateway, read from SAP's own developer-portal help set. There is no OpenAPI to derive securitySchemes from - SAP does not publish a machine-readable contract for these APIs anonymously - so every scheme below is transcribed from a cited documentation page rather than from a spec.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Ariba Authentication
 name_suffix: Authentication

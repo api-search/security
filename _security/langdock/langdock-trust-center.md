@@ -90,6 +90,7 @@ api_specs:
   slug: langdock-user-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-user-management-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - ISO 27001

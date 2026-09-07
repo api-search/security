@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -31,6 +32,7 @@ auth_types:
 description: Authentication and authorization profile for Amazon CodeGuru Profiler. Every request is signed with AWS Signature Version 4 using IAM credentials — there is no API key, bearer token, OAuth flow or OIDC discovery document. Authorization is expressed as IAM actions on codeguru-profiler:*, plus an optional resource-based policy on each profiling group for cross-principal access.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Amazon Codeguru Profiler Authentication
 name_suffix: Authentication

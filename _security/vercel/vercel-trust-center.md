@@ -30,6 +30,7 @@ api_specs:
   slug: vercel-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/openapi/vercel-models-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

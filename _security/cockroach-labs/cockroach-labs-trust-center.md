@@ -156,6 +156,7 @@ api_specs:
   slug: cockroach-labs-versiondeferral-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-versiondeferral-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

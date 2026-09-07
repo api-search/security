@@ -6,6 +6,7 @@ api_specs:
   slug: clicksend-sms-sms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clicksend-sms/refs/heads/main/openapi/clicksend-sms-sms-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

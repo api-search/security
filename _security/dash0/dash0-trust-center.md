@@ -108,6 +108,7 @@ api_specs:
   slug: dash0-query-telemetry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-query-telemetry-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: 'Authentication posture across every Universidad Autonoma de Madrid surface reachable from the open internet. UAM''s pattern is the opposite of the common one in this cohort: its machine-readable surfaces are anonymously readable, and the gated surfaces publish no machine-readable contract at all. There is no developer program, no API key issuance, no OAuth client registration and no self-service onboarding anywhere in the estate. An unaffiliated caller can harvest the repository and the journals portal today without credentials; everything beyond read access is bound to institutional identity through Shibboleth, and institutional identity is only issued to members of the university.'
 kind: authentication
 layout: security
+mechanism_count: 5
 method: probed
 name: Uam Authentication
 name_suffix: Authentication

@@ -60,6 +60,7 @@ api_specs:
   slug: financial-modeling-prep-stock-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-stock-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: True Footage publishes no developer documentation and no OpenAPI, so this profile is built entirely from the two OpenID Connect discovery documents its identity hosts serve anonymously, plus the observed behaviour of the two product API hosts. Both product surfaces (TrueTracts and TrueEngine) sit behind an Auth0 custom identity domain; the product APIs themselves reject every unauthenticated request at the edge.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: True Footage Authentication
 name_suffix: Authentication

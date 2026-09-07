@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: julep-beauty-cart-api-openapi.yml
@@ -29,6 +30,7 @@ auth_types: []
 description: Julep's storefront has two distinct authentication postures. The public read-only catalog surface requires no credentials at all. The customer-account surface is a full OpenID Connect deployment (Shopify Customer Accounts) whose discovery document is served on Julep's own domain, with the interactive endpoints branded on account.julep.com.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Julep Beauty Authentication
 name_suffix: Authentication

@@ -228,6 +228,7 @@ api_specs:
   slug: constructorio-variations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/openapi/constructorio-variations-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 2
 - ISO 27001

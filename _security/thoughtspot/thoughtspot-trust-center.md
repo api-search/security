@@ -174,6 +174,7 @@ api_specs:
   slug: thoughtspot-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-webhooks-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

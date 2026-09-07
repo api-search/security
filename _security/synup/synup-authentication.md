@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: synup-automations-api-openapi.yml
@@ -119,6 +120,7 @@ auth_types: []
 description: Synup v4 is API-key authenticated with a custom Authorization scheme. The published OpenAPI documents declare no components.securitySchemes; instead every operation declares Authorization as a required HEADER PARAMETER. The MCP server adds a full OAuth 2.1 path on top of the same credential.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Synup Authentication
 name_suffix: Authentication

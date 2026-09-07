@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -61,6 +62,7 @@ auth_types:
 description: 'Decart uses a two-tier API-key model. Server-side callers present a permanent account key (dct_ prefix) in an x-api-key request header. Browser and mobile clients never see that key: a backend mints a short-lived ephemeral client token (ek_ prefix) through POST /v1/client/tokens, optionally scoped to a model allow-list, an origin allow-list, and a maximum realtime session duration. There is no OAuth 2.0, OIDC, or mTLS surface. The gRPC Oasis service carries the same account key in its InitializeRequest message rather than an HTTP header.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Decart Authentication
 name_suffix: Authentication

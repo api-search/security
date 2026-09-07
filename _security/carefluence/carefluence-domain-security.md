@@ -50,6 +50,7 @@ hosts:
   https: false
   note: Dangling custom hostname. CNAMEs to ingress-swaggerhub.com; TLS handshake fails (no certificate presented) and plain HTTP returns Cloudflare error 1001 (DNS resolution error). Nothing is served.
   tls_version: null
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

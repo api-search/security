@@ -60,6 +60,7 @@ api_specs:
   slug: shiftmove-vehicles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/openapi/shiftmove-vehicles-api-openapi.yml
+certification_count: 2
 certifications:
 - GDPR
 - TÜV data-protection certification (Vimcar digital logbook)

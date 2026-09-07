@@ -24,6 +24,7 @@ api_specs:
   slug: redocly-scout-agent
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-scout-agent-openapi.yaml
+certification_count: 4
 certifications:
 - SOC 2 Type II
 - CSA STAR / CAIQ v4

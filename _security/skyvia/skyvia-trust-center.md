@@ -6,6 +6,7 @@ api_specs:
   slug: skyvia-public-api
   spec_type: OpenAPI
   url: https://api.skyvia.com/swagger/index.html
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

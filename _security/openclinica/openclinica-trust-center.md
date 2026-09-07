@@ -36,6 +36,7 @@ api_specs:
   slug: openclinica-study-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-study-events-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

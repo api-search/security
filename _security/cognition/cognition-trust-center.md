@@ -42,6 +42,7 @@ api_specs:
   slug: cognition-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cognition/refs/heads/main/openapi/cognition-sessions-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

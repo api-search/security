@@ -18,6 +18,7 @@ api_specs:
   slug: replit-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/openapi/replit-users-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

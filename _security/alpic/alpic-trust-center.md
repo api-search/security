@@ -48,6 +48,7 @@ api_specs:
   slug: alpic-tunnels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-tunnels-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

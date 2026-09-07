@@ -48,6 +48,7 @@ api_specs:
   slug: gonitro-transformations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-transformations-api-openapi.yml
+certification_count: 5
 certifications:
 - ISO 27001
 - SOC 2

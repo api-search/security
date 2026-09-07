@@ -72,6 +72,7 @@ api_specs:
   slug: aikido-security-zen-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-zen-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

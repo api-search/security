@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - mutualTLS
@@ -6,6 +7,7 @@ auth_types:
 description: Heathrow runs a two-layer authentication model, and both layers are closed to anonymous callers. Human access to the developer portal is federated to Microsoft Entra ID (Azure Active Directory) and only issued after a manual enrolment conversation with Heathrow. Machine access to the runtime gateway at api.heathrow.com is gated by mutual TLS - the Azure Application Gateway terminates every anonymous request with "400 No required SSL certificate was sent" before routing, so a client certificate issued by Heathrow is a precondition to reaching any operation. No OpenAPI is published, so no securityScheme could be derived; this profile is taken from the provider's own public prose plus observed gateway behaviour.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Heathrow Airport Authentication
 name_suffix: Authentication

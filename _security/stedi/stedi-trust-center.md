@@ -150,6 +150,7 @@ api_specs:
   slug: stedi-eligibility-check-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/openapi/stedi-eligibility-check-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - HIPAA

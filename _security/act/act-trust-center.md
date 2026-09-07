@@ -66,6 +66,7 @@ api_specs:
   slug: act-tasktypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-tasktypes-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - SOC 3

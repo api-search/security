@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - none
 description: 'Both NESO API surfaces are fully anonymous. There is no API key, no OAuth 2.0, no OpenID Connect, no mutual TLS, and no accreditation regime of any kind. A developer issues an ordinary HTTPS GET and receives JSON. This is a deliberate posture: NESO''s data is Energy System Data published under an open licence in line with Ofgem''s Data Best Practice Guidance, and there is no consumer data surface that would require a consent or authorisation flow.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Neso Authentication
 name_suffix: Authentication

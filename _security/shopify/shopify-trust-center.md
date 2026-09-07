@@ -1182,6 +1182,7 @@ api_specs:
   slug: shopify-zones-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/openapi/shopify-zones-api-openapi.yml
+certification_count: 3
 certifications:
 - PCI DSS
 - SOC 2 Type II

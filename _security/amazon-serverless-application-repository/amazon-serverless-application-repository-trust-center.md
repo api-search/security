@@ -24,6 +24,7 @@ api_specs:
   slug: amazon-serverless-application-repository-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/openapi/amazon-serverless-application-repository-versions-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

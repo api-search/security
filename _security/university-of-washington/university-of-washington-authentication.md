@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: university-of-washington-identity-registry-web-service-v3-openapi.yml
@@ -179,6 +180,7 @@ auth_types: []
 description: How access is granted to the University of Washington's institution-operated API surfaces. Every mechanism below was either read out of a UW-published contract in openapi/ or observed in a live HTTP probe on 2026-08-30; none is inferred.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: University Of Washington Authentication
 name_suffix: Authentication

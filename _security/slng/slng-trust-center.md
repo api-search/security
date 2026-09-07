@@ -90,6 +90,7 @@ api_specs:
   slug: slng-whisper-large-v3-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/openapi/slng-whisper-large-v3-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - HIPAA

@@ -107,6 +107,7 @@ hosts:
   - 'x-frame-options: ALLOW-FROM https://'
   tls_cipher: ECDHE-RSA-AES256-GCM-SHA384
   tls_version: TLSv1.2
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

@@ -66,6 +66,7 @@ api_specs:
   slug: kadence-visitor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-visitor-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2 Type II
 - ISO 27001

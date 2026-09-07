@@ -19,6 +19,7 @@ hosts:
   tls_version: TLSv1.2
 - host: taxnexus.dev
   https: false
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

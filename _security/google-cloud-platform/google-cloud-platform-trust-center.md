@@ -42,6 +42,7 @@ api_specs:
   slug: google-cloud-platform-tagvalues-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/openapi/google-cloud-platform-tagvalues-api-openapi.yml
+certification_count: 13
 certifications:
 - SOC 1
 - SOC 2

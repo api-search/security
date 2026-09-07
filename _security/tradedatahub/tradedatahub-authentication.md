@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: openapi.json
@@ -11,6 +12,7 @@ auth_types: []
 description: TradeDataHub publishes NO securitySchemes in its OpenAPI 3.1.0 contract, and none of the eleven documented operations declares a security requirement. Every discovery endpoint under /api/v1/ is genuinely unauthenticated and was called anonymously during this pass. The only credential-bearing surface is the paid retrieval endpoint, which uses an x402 PAYMENT-SIGNATURE header rather than an API key, bearer token or OAuth flow.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Tradedatahub Authentication
 name_suffix: Authentication

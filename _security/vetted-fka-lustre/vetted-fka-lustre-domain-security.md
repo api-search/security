@@ -21,6 +21,7 @@ hosts:
   http2: true
   https: true
   note: 'Private app-backend behind Cloudflare. Root returns an 8-byte placeholder; /api-docs and /api/v1 return 403 (auth-gated). No public OpenAPI/Swagger/GraphQL or developer docs are exposed. CORS is wide-open (access-control-allow-origin: *) and auth is header-based (Authorization, X-Session-ID).'
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

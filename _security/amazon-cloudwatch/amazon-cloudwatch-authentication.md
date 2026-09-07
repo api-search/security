@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -20,11 +21,18 @@ api_specs:
   slug: amazon-cloudwatch-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/openapi/amazon-cloudwatch-metrics-api-openapi.yml
+- filename: aws-cloudwatch-amazon-cloudwatch-api-api-openapi.yml
+  format: yaml
+  label: Amazon CloudWatch Amazon CloudWatch API API
+  slug: aws-cloudwatch-amazon-cloudwatch-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/openapi/aws-cloudwatch-amazon-cloudwatch-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Amazon Cloudwatch Authentication
 name_suffix: Authentication

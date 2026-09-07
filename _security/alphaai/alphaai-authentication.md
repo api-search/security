@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -26,6 +27,7 @@ auth_types:
 description: Two authentication surfaces on two hosts. The REST API takes a single static bearer API key with a recognisable `ak_live_` prefix. The MCP server accepts either the SAME key as a bearer token or a full OAuth 2.1 authorization-code flow with PKCE and RFC 7591 dynamic client registration — the dual path is deliberate, so browserless agents (n8n, cron, CI) are not locked out of MCP.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Alphaai Authentication
 name_suffix: Authentication

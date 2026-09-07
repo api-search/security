@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: 360learning-authentication-api-openapi.yml
@@ -144,6 +145,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: 360Learning Authentication
 name_suffix: Authentication

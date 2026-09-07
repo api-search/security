@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: sesame-hr-absences-and-leave-api-openapi.yml
@@ -48,6 +49,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Sesame Hr Authentication
 name_suffix: Authentication

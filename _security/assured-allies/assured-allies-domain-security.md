@@ -64,6 +64,7 @@ hosts:
   https: true
   note: Strict-Transport-Security is served with max-age=0, which disables HSTS enforcement despite the includeSubDomains/preload directives.
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

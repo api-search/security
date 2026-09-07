@@ -70,6 +70,7 @@ hosts:
   https: false
   note: A record present (194.63.117.10) but TCP/443 is filtered — no TLS handshake completes and every HTTPS request times out. Network-gated partner host.
   tls_version: null
+hosts_probed: 7
 kind: domain-security
 layout: security
 method: probed

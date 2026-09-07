@@ -1,4 +1,5 @@
 ---
+certification_count: 3
 certifications:
 - ISO 27001
 - ISO 27701

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -7,6 +8,7 @@ auth_types:
 description: 'OpenSRS uses an HTTPS POST protocol with request signing rather than OAuth. Each request carries two HTTP headers: `X-Username` (the reseller username) and `X-Signature` (a signature computed over the XML request body and the reseller API key). There are no OAuth flows and no bearer tokens; the API key is a long-lived secret issued in the Reseller Control Panel.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Tucows Authentication
 name_suffix: Authentication

@@ -9,6 +9,7 @@ domains:
 hosts:
 - host: data.covid19.go.id
   https: false
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

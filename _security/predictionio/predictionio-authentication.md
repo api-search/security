@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: Authentication profile for the Apache PredictionIO Event Server REST API. The Event Server authenticates requests with a per-app access key. Engine query endpoints are unauthenticated by default and rely on network-level controls.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Predictionio Authentication
 name_suffix: Authentication

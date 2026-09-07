@@ -12,6 +12,7 @@ api_specs:
   slug: azure-sql-database-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/sql/resource-manager/Microsoft.Sql/stable/2021-11-01/databases.json
+certification_count: 11
 certifications:
 - SOC 1
 - SOC 2

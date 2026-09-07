@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in:
 - query
 api_specs:
@@ -47,6 +48,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Spp Authentication
 name_suffix: Authentication

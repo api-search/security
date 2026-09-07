@@ -54,6 +54,7 @@ api_specs:
   slug: keywordsai-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-users-api-openapi.yml
+certification_count: 2
 certifications:
 - HIPAA
 - GDPR

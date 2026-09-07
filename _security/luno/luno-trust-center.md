@@ -6,6 +6,7 @@ api_specs:
   slug: luno-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/asyncapi/luno-streaming-asyncapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

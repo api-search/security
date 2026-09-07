@@ -30,6 +30,7 @@ api_specs:
   slug: loki-ready-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-ready-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

@@ -28,6 +28,7 @@ hosts:
   https: true
   note: document portal behind login; not developer documentation
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

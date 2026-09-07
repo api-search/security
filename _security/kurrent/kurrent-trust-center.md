@@ -48,6 +48,7 @@ api_specs:
   slug: kurrent-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-users-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

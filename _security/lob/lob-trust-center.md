@@ -288,6 +288,7 @@ api_specs:
   slug: lob-tracking-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lob/refs/heads/main/openapi/lob-tracking-events-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

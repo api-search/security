@@ -72,6 +72,7 @@ api_specs:
   slug: mesh-connect-transfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-transfers-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - custom-hmac-signature
 description: The TVbeat analytics API authenticates every request with a custom HMAC-SHA256 request-signing scheme modelled closely on AWS Signature Version 4. There is no OAuth 2.0, no OpenID Connect, and no bearer-token or simple API-key header — a signature must be computed per request, so no static credential alone grants access.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Tvbeat Authentication
 name_suffix: Authentication

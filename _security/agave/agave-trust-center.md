@@ -54,6 +54,7 @@ api_specs:
   slug: agave-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-vendors-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

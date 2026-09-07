@@ -492,6 +492,7 @@ api_specs:
   slug: cisco-xdr-xchange-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-xchange-api-openapi.yml
+certification_count: 5
 certifications:
 - ISO 27001
 - FedRAMP

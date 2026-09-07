@@ -42,6 +42,7 @@ api_specs:
   slug: edfapay-inc-user-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/openapi/edfapay-inc-user-management-api-openapi.yml
+certification_count: 1
 certifications:
 - PCI DSS
 description: ''

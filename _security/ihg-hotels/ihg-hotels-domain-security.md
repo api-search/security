@@ -80,6 +80,7 @@ hosts:
 - host: api.ihg.com
   https: unknown
   note: Resolves through ihg.api.mashery.com and sb-ihg.mashery.com. The TLS connection times out from this client, so no transport assertion is made.
+hosts_probed: 8
 kind: domain-security
 layout: security
 method: probed

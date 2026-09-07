@@ -28,6 +28,7 @@ hosts:
 - host: console.bespokelabs.ai
   https: false
   tls_error: certificate has expired (observed 2026-07-18)
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

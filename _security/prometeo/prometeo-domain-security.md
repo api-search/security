@@ -59,6 +59,7 @@ hosts:
 - host: fiscal.prometeoapi.net
   https: true
   note: Fiscal (DIAN / SAT / CEP / BCU) API production host.
+hosts_probed: 8
 kind: domain-security
 layout: security
 method: probed

@@ -60,6 +60,7 @@ api_specs:
   slug: camunda-user-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/openapi/camunda-user-tasks-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

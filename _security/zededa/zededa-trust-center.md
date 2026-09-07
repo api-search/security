@@ -210,6 +210,7 @@ api_specs:
   slug: zededa-zksclusterinstances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zededa/refs/heads/main/openapi/zededa-zksclusterinstances-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - HIPAA

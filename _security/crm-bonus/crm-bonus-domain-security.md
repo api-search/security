@@ -113,6 +113,7 @@ hosts:
   https: true
   note: staging (homologação) host; HSTS not confirmed.
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

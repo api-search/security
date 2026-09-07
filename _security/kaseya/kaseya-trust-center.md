@@ -2904,6 +2904,7 @@ api_specs:
   slug: kaseya-zoneinformationapiintegration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaseya/refs/heads/main/openapi/kaseya-zoneinformationapiintegration-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - CMMC (Cybersecurity Maturity Model Certification)

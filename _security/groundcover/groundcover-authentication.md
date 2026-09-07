@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'groundcover issues four distinct credential types, each scoped to a different surface. There is no single "API token": a key that reads data cannot ingest it, and a key that ingests cannot read. Derived from documentation rather than a spec — groundcover publishes no OpenAPI, so no securitySchemes block exists to parse.'
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Groundcover Authentication
 name_suffix: Authentication

@@ -12,6 +12,7 @@ api_specs:
   slug: callrail-calls-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/callrail/refs/heads/main/openapi/callrail-calls-api-openapi.yml
+certification_count: 6
 certifications:
 - ISO 42001
 - SOC 2 Type II

@@ -138,6 +138,7 @@ api_specs:
   slug: airtm-withdrawals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-withdrawals-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

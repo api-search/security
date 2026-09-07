@@ -1,4 +1,5 @@
 ---
+certification_count: 5
 certifications:
 - CMMI Maturity Level 5
 - ISO 9001:2015

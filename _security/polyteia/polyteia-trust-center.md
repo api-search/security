@@ -6,6 +6,7 @@ api_specs:
   slug: polyteia-organization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/openapi/polyteia-organization-api-openapi.yml
+certification_count: 4
 certifications:
 - GDPR
 - BSI IT-Grundschutz

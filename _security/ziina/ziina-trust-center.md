@@ -42,6 +42,7 @@ api_specs:
   slug: ziina-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-webhook-api-openapi.yml
+certification_count: 1
 certifications:
 - PCI DSS
 description: ''

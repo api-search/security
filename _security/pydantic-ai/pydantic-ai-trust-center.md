@@ -102,6 +102,7 @@ api_specs:
   slug: pydantic-ai-variables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-variables-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

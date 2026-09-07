@@ -30,6 +30,7 @@ api_specs:
   slug: navis-vessel-visits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/openapi/navis-vessel-visits-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: engrail-therapeutics-categories-api-openapi.yml
@@ -67,6 +68,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Engrail Therapeutics Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: autoderm-ai-dermatology-api-device-api-openapi.yml
@@ -30,6 +31,7 @@ auth_types:
 description: 'Autoderm uses a single authentication mechanism: an HTTP Bearer token in the Authorization header, issued per organization from the Autoderm web application. There is no OAuth 2.0 authorization server, no OpenID Connect discovery document, and therefore no scope surface — see the no_oauth_surface block below. The legacy platform used a different scheme (an Api-Key header against autoderm.ai/v1) which the current platform does not accept.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Autoderm Ai Dermatology Api Authentication
 name_suffix: Authentication

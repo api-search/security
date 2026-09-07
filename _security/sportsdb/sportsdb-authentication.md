@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -44,11 +45,24 @@ api_specs:
   slug: sportsdb-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/sportsdb-teams-api-openapi.yml
+- filename: thesportsdb-lists-api-openapi.yml
+  format: yaml
+  label: TheSportsDB Lists API
+  slug: thesportsdb-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/thesportsdb-lists-api-openapi.yml
+- filename: thesportsdb-seasons-api-openapi.yml
+  format: yaml
+  label: TheSportsDB Seasons API
+  slug: thesportsdb-seasons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/thesportsdb-seasons-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Sportsdb Authentication
 name_suffix: Authentication

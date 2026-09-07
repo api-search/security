@@ -48,6 +48,7 @@ api_specs:
   slug: r2-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/r2/refs/heads/main/openapi/r2-transactions-api-openapi.yml
+certification_count: 1
 certifications:
 - ISO 27001:2022
 description: ''

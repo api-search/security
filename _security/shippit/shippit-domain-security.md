@@ -62,6 +62,7 @@ hosts:
   https: true
   note: Root request returns a 301 redirect without an HSTS header; API base is https://app.shippit.com/api/3.
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

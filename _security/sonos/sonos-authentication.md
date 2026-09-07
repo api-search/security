@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
 description: 'The Sonos Control API authenticates third-party integrations with OAuth 2.0 (RFC 6749) using the authorization code grant. The integration redirects the user to the Sonos login service, receives an authorization code, then exchanges it for an access token and refresh token. Access tokens are sent as a Bearer token on every Control API request to api.ws.sonos.com. Confirmed live: the authorize and token endpoints return HTTP 400 to unparameterised requests (present), and api.ws.sonos.com/control/api/v1/households returns 401 without a token.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Sonos Authentication
 name_suffix: Authentication

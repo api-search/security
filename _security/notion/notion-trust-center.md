@@ -36,6 +36,7 @@ api_specs:
   slug: notion-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/openapi/notion-users-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

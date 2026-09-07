@@ -68,6 +68,7 @@ hosts:
   tls_version: TLSv1.3
 - host: automation-hub-backend-cwa.automation-hub-prod.svc.cluster.local
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

@@ -30,6 +30,7 @@ api_specs:
   slug: found-contractors
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/found-business/refs/heads/main/openapi/_original/found-business-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - PCI DSS

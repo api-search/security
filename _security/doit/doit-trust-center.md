@@ -222,6 +222,7 @@ api_specs:
   slug: doit-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/openapi/doit-users-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2 Type 2
 - SOC 3

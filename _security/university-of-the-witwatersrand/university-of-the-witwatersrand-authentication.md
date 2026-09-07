@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: university-of-the-witwatersrand-root-api-openapi.yml
@@ -43,6 +44,7 @@ auth_types:
 description: 'Authentication posture of the institution-operated WIReDSpace surfaces only. The previous version of this file was derived from the Figshare v2 OAuth contract (authorizationUrl https://figshare.com/account/applications/authorize, tokenUrl https://api.figshare.com/v2/token) and therefore described the vendor''s authorization server, not the university''s — it was removed on 2026-08-30 together with the vendor spec it came from. WIReDSpace read access is anonymous: the DSpace 9.2 REST API and the OAI-PMH 2.0 endpoint both answer unauthenticated GETs. A login surface exists for deposit, workflow and administrative operations, which are not part of the public read contract catalogued here.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: University Of The Witwatersrand Authentication
 name_suffix: Authentication

@@ -42,6 +42,7 @@ api_specs:
   slug: chartmogul-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/openapi/chartmogul-subscriptions-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - PCI DSS

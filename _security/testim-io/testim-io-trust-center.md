@@ -42,6 +42,7 @@ api_specs:
   slug: testim-io-tests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/testim-io/refs/heads/main/openapi/testim-io-tests-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 2
 - ISO/IEC 27001:2022

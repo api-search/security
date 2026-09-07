@@ -108,6 +108,7 @@ api_specs:
   slug: smartling-workflow-assignment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/openapi/smartling-workflow-assignment-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

@@ -432,6 +432,7 @@ api_specs:
   slug: amigo-world-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/openapi/amigo-world-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type II
 - HIPAA

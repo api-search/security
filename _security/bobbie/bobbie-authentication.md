@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - none
@@ -7,6 +8,7 @@ auth_types:
 description: Bobbie publishes no OpenAPI, so this profile is built from live discovery documents and observed responses rather than derived securitySchemes. Three distinct auth postures were observed on 2026-08-02.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Bobbie Authentication
 name_suffix: Authentication

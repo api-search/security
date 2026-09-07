@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: Flockjay operates a first-party Trust Center on its own domain covering privacy, data protection, AI data handling and security. It is real and it is public — but every answer is collapsed behind an accordion whose content is not in the served HTML, and the supporting documents are behind a lead-capture form. No certification is named anywhere on the public pages, so this profile records ZERO verified certifications and emits no Compliance pointer.
 kind: trust-center

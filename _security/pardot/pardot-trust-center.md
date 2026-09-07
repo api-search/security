@@ -6,6 +6,7 @@ api_specs:
   slug: pardot-objects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/openapi/pardot-objects-api-openapi.yml
+certification_count: 33
 certifications:
 - C5 (ISAE 3000)
 - CCCS Assessment - Protected B

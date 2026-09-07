@@ -48,6 +48,7 @@ hosts:
   https: true
   note: Drata-hosted trust center (CNAME trust.cname.drata.com) behind a Cloudflare bot challenge
   tls_version: TLSv1.3
+hosts_probed: 7
 kind: domain-security
 layout: security
 method: probed

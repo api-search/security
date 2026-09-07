@@ -56,6 +56,7 @@ hosts:
   https: true
   note: third-party secondary-market listing host, not operated by Underdog
   tls_version: TLSv1.3
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

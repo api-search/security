@@ -108,6 +108,7 @@ api_specs:
   slug: mine-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/openapi/mine-webhooks-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2 Type 2
 - ISO/IEC 27001

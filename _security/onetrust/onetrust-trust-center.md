@@ -222,6 +222,7 @@ api_specs:
   slug: third-party-management-third-party-risk-management
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/openapi/onetrust-third-party-management-third-party-risk-management-openapi.json
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

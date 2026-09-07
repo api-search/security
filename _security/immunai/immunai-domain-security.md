@@ -36,6 +36,7 @@ hosts:
   https: false
   note: An A record exists but the address is not serving Immunai. TLS completes and presents a certificate for an unrelated third party — subject CN=*.asa.com.br, issued by ZeroSSL — so the hostname fails certificate validation for any client. Ignoring validation, the Google Cloud front end returns 403 Forbidden. This is a dangling DNS record aimed at a Google Cloud address now held by another tenant.
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

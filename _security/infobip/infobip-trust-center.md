@@ -36,6 +36,7 @@ api_specs:
   slug: infobip-tools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-tools-api-openapi.yml
+certification_count: 13
 certifications:
 - ISO 9001
 - ISO 22301

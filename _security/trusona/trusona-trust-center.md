@@ -12,6 +12,7 @@ api_specs:
   slug: trusona-driver-license-verification-api-idv-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-driver-license-verification-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

@@ -1,4 +1,5 @@
 ---
+certification_count: 2
 certifications:
 - ISO 27701:2019
 - GDPR

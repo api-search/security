@@ -52,6 +52,7 @@ hosts:
 - host: tabby.tabbyml.com
   hsts: false
   https: true
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

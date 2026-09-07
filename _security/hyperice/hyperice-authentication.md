@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: hyperice-collections-api-openapi.yml
@@ -27,6 +28,7 @@ auth_types:
 description: 'Hyperice''s authentication profile is not derived from an OpenAPI — it publishes no OpenAPI with securitySchemes. It is read from three live, anonymous discovery documents Hyperice serves on its own domain: the OIDC discovery document, the RFC 8414 OAuth authorization-server metadata (byte-identical to the OIDC document on this store), and the RFC 9728 protected-resource metadata. The result is a three-tier posture: an entirely unauthenticated public read tier, an agent-identity-gated commerce tier, and an OIDC-protected customer-account tier.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Hyperice Authentication
 name_suffix: Authentication

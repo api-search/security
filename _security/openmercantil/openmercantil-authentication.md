@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - cookie
 - header
@@ -159,6 +160,7 @@ auth_types:
 description: 'Authentication profile for the OpenMercantil v1 REST API. The public read plane is ANONYMOUS BY DEFAULT — the documentation states plainly "REST + JSON. Sin autenticacion. CORS abierto." and every quickstart example is an unauthenticated curl. A credential is therefore optional on public reads and serves to select the account quota rather than to grant access. Three schemes are declared: an optional opaque omk_* API credential presented as X-API-Key or as Authorization: Bearer, and a browser session cookie for the account plane. There is no OAuth 2.0, no OIDC and no JWT anywhere in the contract.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Openmercantil Authentication
 name_suffix: Authentication

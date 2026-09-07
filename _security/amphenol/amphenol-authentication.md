@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: 'Amphenol publishes no developer authentication documentation, and there is no API key programme, signup or console anywhere on its sites. Two authentication postures were nevertheless observed directly on live Amphenol endpoints, and they sit at opposite ends: one surface is fully anonymous, the other is a standards-compliant OAuth 2.1 flow.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Amphenol Authentication
 name_suffix: Authentication

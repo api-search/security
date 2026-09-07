@@ -84,6 +84,7 @@ api_specs:
   slug: commercetools-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-subscriptions-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

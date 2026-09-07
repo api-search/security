@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: openapi.json
@@ -13,6 +14,7 @@ auth_types:
 description: 'FlightFinder''s Aviation Safety Data API is bearer-token only, with a documented keyless tier that answers every GET data endpoint with NO Authorization header at all. There is no OAuth, no OIDC, no mTLS and no query-string key: the API rejects ?api_key= outright. Key issuance is account-bound and happens over the same API.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Flightfinder Authentication
 name_suffix: Authentication

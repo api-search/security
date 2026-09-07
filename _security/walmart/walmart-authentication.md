@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: walmart-assortment-recommendations-api-openapi.yml
@@ -158,6 +159,7 @@ description: 'Walmart Marketplace APIs authenticate with OAuth 2.0 client creden
   App Store.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Walmart Authentication
 name_suffix: Authentication

@@ -60,6 +60,7 @@ api_specs:
   slug: regal-ai-call-handoffs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-call-handoffs-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - HIPAA

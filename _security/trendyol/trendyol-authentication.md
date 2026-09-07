@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - http
@@ -6,6 +7,7 @@ auth_types:
 description: How a caller authenticates to the Trendyol Marketplace / Partner API. Sellers and self-integrators use HTTP Basic authentication with credentials generated in the Seller Center; integrators managing many suppliers use an OAuth 2.0 authorization-code flow. Every request must also carry a User-Agent header or it is rejected with 403.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Trendyol Authentication
 name_suffix: Authentication

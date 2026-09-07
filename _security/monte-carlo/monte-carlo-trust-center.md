@@ -6,6 +6,7 @@ api_specs:
   slug: monte-carlo-graphql-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/monte-carlo/refs/heads/main/openapi/monte-carlo-graphql-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -266,12 +267,19 @@ api_specs:
   slug: sentry-system-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sentry-system/refs/heads/main/openapi/sentry-system-users-api-openapi.yml
+- filename: sentry-webhooks-asyncapi.yml
+  format: yaml
+  label: Sentry Integration Platform API
+  slug: sentry-integration-platform-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sentry-system/refs/heads/main/asyncapi/sentry-webhooks-asyncapi.yml
 auth_types:
 - apiKey
 - http
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Sentry System Authentication
 name_suffix: Authentication

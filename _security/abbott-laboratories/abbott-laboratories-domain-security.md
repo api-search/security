@@ -60,6 +60,7 @@ hosts:
   https: true
   note: 'Abbott product-security site: advisories, CVD program, HDS certification'
   tls_version: TLSv1.3
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

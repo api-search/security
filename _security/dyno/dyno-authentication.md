@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -111,6 +112,7 @@ auth_types:
 description: 'Authentication profile for the Dyno Phi Protein Design API. Derived from the provider''s OpenAPI 3.1.0 document, its first-party CLI source (github.com/dynotx/phi-cli), and a live unauthenticated probe of the API. IMPORTANT: the spec declares NO components.securitySchemes and no top-level security[] block — the API key is modelled as an ordinary optional header PARAMETER on every operation. The real, enforced mechanism was confirmed by probing the live API.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Dyno Authentication
 name_suffix: Authentication

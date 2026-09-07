@@ -396,6 +396,7 @@ api_specs:
   slug: altr-utility-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-utility-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - PCI DSS

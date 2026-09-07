@@ -72,6 +72,7 @@ api_specs:
   slug: elastic-trafficfilters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-trafficfilters-api-openapi.yml
+certification_count: 1
 certifications:
 - GDPR
 description: ''

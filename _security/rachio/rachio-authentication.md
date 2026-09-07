@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: The Rachio Public API authenticates every request with an OAuth2 bearer token. The token is issued to a Rachio account and currently retrieved from the Rachio mobile app (Profile -> "Get API key"). There is no interactive authorization-code flow or documented scope surface; the single account token conveys full access to that account's people, devices, zones, schedules and webhooks.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Rachio Authentication
 name_suffix: Authentication

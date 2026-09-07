@@ -6,6 +6,7 @@ api_specs:
   slug: anaplan-integration-api-v20
   spec_type: Postman
   url: https://www.postman.com/anaplaninc
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

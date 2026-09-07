@@ -168,6 +168,7 @@ api_specs:
   slug: sensors-data-web-sections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/openapi/sensors-data-web-sections-api-openapi.yml
+certification_count: 6
 certifications:
 - 网络安全等级保护三级 (MLPS Level 3)
 - ISO/IEC 27001

@@ -145,6 +145,7 @@ hosts:
   https: true
   note: GitHub Pages host serving the Business Gateway developer pack. Not HMLR-operated infrastructure.
   tls_version: TLSv1.3
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

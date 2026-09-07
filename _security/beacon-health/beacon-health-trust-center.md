@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: Beacon Health publishes a trust center at https://trust.beaconhealth.ai/ — its own subdomain, CNAMEd to trust.oneleet.com, so the page is Oneleet-hosted but served under a Beacon Health domain the company controls. The page itself is a client-side React SPA that returns a 604-byte HTML shell to any crawler; the trust content is fetched at runtime from the Oneleet platform API. This artifact records the content that page publishes, read from the same anonymous endpoint the page itself calls (https://api.oneleet.com/api/v1/tenants/trust.beaconhealth.ai/trust). That endpoint is Oneleet's API, not Beacon Health's — it is recorded here only as the read path for Beacon Health's own published trust data, and no contract is attributed to Beacon Health from it.
 kind: trust-center

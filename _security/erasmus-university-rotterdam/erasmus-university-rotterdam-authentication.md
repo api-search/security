@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: erasmus-university-rotterdam-repub-oai-pmh-openapi.yml
@@ -15,6 +16,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 4
 method: probed
 name: Erasmus University Rotterdam Authentication
 name_suffix: Authentication

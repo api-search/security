@@ -24,6 +24,7 @@ hosts:
 - host: api.mpl.live
   hsts: false
   https: true
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

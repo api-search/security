@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: university-of-waikato-uowidp-openapi.yml
@@ -14,6 +15,7 @@ auth_types:
 description: How authentication actually works across the University of Waikato's programmable surfaces. The institution runs one OpenID Connect provider of its own, fronting its Microsoft Entra ID tenant; federated access to external research and library services goes through SAML 2.0 in Tuakiri, the New Zealand Access Federation; and the two small service APIs on institution hosts each carry their own scheme. There is no self-serve developer credential anywhere on this estate.
 kind: authentication
 layout: security
+mechanism_count: 5
 method: probed
 name: University Of Waikato Authentication
 name_suffix: Authentication

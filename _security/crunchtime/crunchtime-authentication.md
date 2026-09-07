@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: Crunchtime Inventory & Labor APIs authenticate with a per-environment API authentication token issued from Enterprise Manager, sent together with the customer site name, application user id and password. Tokens are scoped per environment (separate Test and Production tokens); a single token can access multiple API services within its environment, and grants access to data for all locations associated with that application user's Crunchtime site. There is no OAuth 2.0 / OpenID Connect flow and no scope surface — this is a token + named-application-user model, so no scopes/ artifact is emitted.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Crunchtime Authentication
 name_suffix: Authentication

@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Bloomberg runs three unrelated authentication models across this surface, and which one applies depends entirely on which product a consumer holds. There is no published OpenAPI with securitySchemes, so this profile is assembled from a live 401 challenge on the Data License gateway, the OIDC/OAuth discovery documents bloomberg.com actually serves, and Bloomberg's own BLPAPI Core Developer Guide.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Bloomberg Applications Authentication
 name_suffix: Authentication

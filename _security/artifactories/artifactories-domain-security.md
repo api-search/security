@@ -21,6 +21,7 @@ hosts:
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -33,7 +34,7 @@ slug: artifactories-domain-security
 source_filename: artifactories-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: artifactories.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 10:17:54 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: artifactories.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: artifactories.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 10:17:54 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: artifactories.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/security/artifactories-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

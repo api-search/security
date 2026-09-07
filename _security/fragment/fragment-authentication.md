@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
 description: 'Fragment authenticates API requests with the OAuth2 client-credentials flow. You create an API client (client_id + client_secret) in the Fragment dashboard, exchange those credentials for a short-lived Bearer access token at a region-specific token endpoint, and send it as `Authorization: Bearer <access_token>` on GraphQL requests. Access tokens expire after one hour. Identity is brokered through Auth0 (idp.fragment.dev) with the API audience https://api-global.fragment.dev.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Fragment Authentication
 name_suffix: Authentication

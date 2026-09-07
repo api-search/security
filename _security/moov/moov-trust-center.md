@@ -96,6 +96,7 @@ api_specs:
   slug: moov-underwriting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/openapi/moov-underwriting-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

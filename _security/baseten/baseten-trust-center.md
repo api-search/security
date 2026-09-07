@@ -12,6 +12,7 @@ api_specs:
   slug: baseten-messages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/baseten/refs/heads/main/openapi/baseten-messages-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - PCI DSS

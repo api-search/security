@@ -126,6 +126,7 @@ api_specs:
   slug: lemlist-stats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-stats-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type 2
 description: ''

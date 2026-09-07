@@ -24,6 +24,7 @@ api_specs:
   slug: flexpa-link-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/openapi/flexpa-link-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 (published as "SOC II")
 - HIPAA

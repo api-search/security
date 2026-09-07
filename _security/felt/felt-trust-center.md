@@ -66,6 +66,7 @@ api_specs:
   slug: felt-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/openapi/felt-users-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

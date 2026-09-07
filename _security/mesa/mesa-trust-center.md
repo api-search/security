@@ -12,6 +12,7 @@ api_specs:
   slug: mesa-invoices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/openapi/mesa-invoices-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

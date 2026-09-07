@@ -54,6 +54,7 @@ api_specs:
   slug: reka-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-videos-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

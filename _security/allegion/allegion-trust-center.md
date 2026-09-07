@@ -30,6 +30,7 @@ api_specs:
   slug: allegion-webhook-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-webhook-subscriptions-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

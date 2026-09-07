@@ -78,6 +78,7 @@ api_specs:
   slug: algolia-monitoring-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-monitoring-api-openapi.yml
+certification_count: 4
 certifications:
 - read
 - named

@@ -174,6 +174,7 @@ api_specs:
   slug: mediavalet-usergroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-usergroups-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

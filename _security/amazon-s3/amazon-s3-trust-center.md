@@ -72,6 +72,7 @@ api_specs:
   slug: amazon-s3-tagging-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-tagging-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

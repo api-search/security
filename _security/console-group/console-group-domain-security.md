@@ -66,6 +66,7 @@ hosts:
   http_status: 301
   https: true
   note: Cloudflare; 301 to login.console.com.au, which resolves but does not answer HTTPS.
+hosts_probed: 8
 kind: domain-security
 layout: security
 method: probed

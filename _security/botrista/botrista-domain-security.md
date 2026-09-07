@@ -58,6 +58,7 @@ hosts:
   https: true
   note: private application backend for CloudBar; api.botrista.io 307-redirects here
   tls_version: TLSv1.2
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

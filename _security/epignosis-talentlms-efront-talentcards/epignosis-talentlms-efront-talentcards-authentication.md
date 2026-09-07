@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: epignosis-talentlms-efront-talentcards-account-api-openapi.yml
@@ -102,6 +103,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Epignosis Talentlms Efront Talentcards Authentication
 name_suffix: Authentication

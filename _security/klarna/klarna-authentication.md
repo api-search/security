@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: klarna-payments-api-openapi.yml
@@ -121,6 +122,7 @@ auth_types:
 description: Klarna runs three distinct authentication surfaces. Server-to-server REST APIs use HTTP Basic with a Klarna-issued API key as the credential. Browser-side libraries (Web SDK, Klarna Payments JS, On-site Messaging) use a non-secret client-id bound to an allow-list of origins. Sign in with Klarna is a full OAuth 2.0 / OpenID Connect authorization-code flow at login.klarna.com. The OpenAPI files in this repo only declare the first of the three.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Klarna Authentication
 name_suffix: Authentication

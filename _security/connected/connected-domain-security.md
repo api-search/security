@@ -26,6 +26,7 @@ hosts:
   https: false
   note: DNS resolution failed (no A/CNAME record); host serves no site.
   resolves: false
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

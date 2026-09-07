@@ -378,6 +378,7 @@ api_specs:
   slug: amazon-route53-resolver-x-amz-target-route53resolver-updateresolverrule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/openapi/amazon-route53-resolver-x-amz-target-route53resolver-updateresolverrule-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

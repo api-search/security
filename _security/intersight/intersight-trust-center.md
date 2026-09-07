@@ -702,6 +702,7 @@ api_specs:
   slug: intersight-workload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/openapi/intersight-workload-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

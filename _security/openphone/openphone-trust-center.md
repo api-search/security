@@ -54,6 +54,7 @@ api_specs:
   slug: openphone-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/openapi/openphone-webhooks-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

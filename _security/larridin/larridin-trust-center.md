@@ -30,6 +30,7 @@ api_specs:
   slug: larridin-workflow-intelligence-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-workflow-intelligence-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: standard-metrics-budgets-api-openapi.yml
@@ -91,6 +92,7 @@ auth_types:
 description: 'Standard Metrics authenticates with OAuth2 client-credentials. A firm admin creates an OAuth application in Developer Settings, producing a client_id and client_secret. Those are Basic-auth-encoded and POSTed to the token endpoint (grant_type=client_credentials) to obtain a short-lived Bearer JWT (expires_in 3600s), which is then sent as ''Authorization: Bearer <token>'' on every API request. Per-key data access is governed by admin-configured user permissions.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Standard Metrics Authentication
 name_suffix: Authentication

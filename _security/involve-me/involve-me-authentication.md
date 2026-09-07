@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: How a machine authenticates to involve.me. There is no public REST API and therefore no API-key programme for one; the authenticated surfaces are the OAuth-protected MCP server, the outbound webhook (where involve.me is the client and the integrator supplies the credential), and the human-facing app with SSO on Enterprise. Each scheme below was observed or read on a provider page — none is inferred from a spec.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Involve Me Authentication
 name_suffix: Authentication

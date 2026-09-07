@@ -336,6 +336,7 @@ api_specs:
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-updatepermissionset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-x-amz-target-swbexternalservice-updatepermissionset-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

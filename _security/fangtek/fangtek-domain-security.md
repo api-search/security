@@ -32,6 +32,7 @@ hosts:
   https_error: TLSV1_ALERT_UNRECOGNIZED_NAME
   resolves: true
   tls_version: null
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

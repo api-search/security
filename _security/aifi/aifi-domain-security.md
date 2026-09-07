@@ -35,6 +35,7 @@ hosts:
   https: true
   note: Partner portal single-page application; authenticated.
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

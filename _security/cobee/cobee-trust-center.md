@@ -12,6 +12,7 @@ api_specs:
   slug: cobee-oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/openapi/cobee-oauth-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

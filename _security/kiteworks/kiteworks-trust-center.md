@@ -246,6 +246,7 @@ api_specs:
   slug: kiteworks-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-webhook-api-openapi.yml
+certification_count: 22
 certifications:
 - SOC 2
 - ISO 27001

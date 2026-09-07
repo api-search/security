@@ -162,6 +162,7 @@ api_specs:
   slug: agorapulse-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-workspace-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001:2022
 - SOC 2 Type 2

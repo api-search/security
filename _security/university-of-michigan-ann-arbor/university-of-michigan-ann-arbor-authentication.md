@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: university-of-michigan-ann-arbor-repository-api-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: University Of Michigan Ann Arbor Authentication
 name_suffix: Authentication

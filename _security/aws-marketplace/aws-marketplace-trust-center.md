@@ -24,6 +24,7 @@ api_specs:
   slug: aws-marketplace-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-marketplace/refs/heads/main/openapi/aws-marketplace-tags-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

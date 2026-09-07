@@ -24,6 +24,7 @@ api_specs:
   slug: datarails-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-well-known-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - ISO 27001

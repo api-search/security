@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: agl-energy-data-holder-customers-api-openapi.yml
@@ -63,6 +64,7 @@ auth_types:
 description: 'AGL''s authentication model is not AGL''s design — it is the Consumer Data Right security profile, which every designated data holder implements identically. The harvested Consumer Data Standards OpenAPI documents declare NO components.securitySchemes at all (verified: both cds_common and cds_energy ship an empty securitySchemes object), because the CDR carries its security contract in the Security Profile section of the standards and in the CDR Register''s certificate distribution, not inside the API specification. There are therefore three distinct auth postures across AGL''s three API surfaces, and only one of them is authenticated at all.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Agl Energy Authentication
 name_suffix: Authentication

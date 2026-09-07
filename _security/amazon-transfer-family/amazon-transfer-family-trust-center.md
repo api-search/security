@@ -426,6 +426,7 @@ api_specs:
   slug: amazon-transfer-family-updatewebappcustomization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-updatewebappcustomization-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

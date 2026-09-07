@@ -21,6 +21,7 @@ hosts:
   note: Every path probed returns 301 to an unrelated off-domain host, including /robots.txt, /sitemap.xml and every /.well-known/ path.
   redirects_to: https://www.awaji-musicisland.com/
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

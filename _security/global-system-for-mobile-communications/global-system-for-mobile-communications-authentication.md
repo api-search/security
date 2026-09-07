@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: global-system-for-mobile-communications-application-api-openapi.yml
@@ -175,6 +176,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: derived
 name: Global System For Mobile Communications Authentication
 name_suffix: Authentication

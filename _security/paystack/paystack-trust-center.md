@@ -126,6 +126,7 @@ api_specs:
   slug: paystack-verification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-verification-api-openapi.yml
+certification_count: 1
 certifications:
 - ISO 27001
 description: ''

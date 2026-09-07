@@ -1,4 +1,5 @@
 ---
+certification_count: 5
 certifications:
 - SOC 2 Type 2 (all 5 trust services criteria)
 - ISO 27001:2022

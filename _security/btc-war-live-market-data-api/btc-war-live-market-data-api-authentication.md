@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: btc-war-live-market-data-api-market-data-api-openapi.yml
@@ -12,6 +13,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Btc War Live Market Data Api Authentication
 name_suffix: Authentication

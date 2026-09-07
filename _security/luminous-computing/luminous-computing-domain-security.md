@@ -26,6 +26,7 @@ hosts:
   https: true
   note: Squarespace platform address for the same site; still serves the Luminous marketing page. Sends Strict-Transport-Security with max-age=0, i.e. HSTS explicitly disabled. This host is Squarespace-controlled infrastructure rather than a Luminous-registered domain, so its posture is not attributable to the company.
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

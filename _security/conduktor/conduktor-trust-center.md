@@ -42,6 +42,7 @@ api_specs:
   slug: conduktor-virtual-clusters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/openapi/conduktor-virtual-clusters-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

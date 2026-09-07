@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - query
 api_specs:
@@ -50,6 +51,7 @@ auth_types:
 description: Every Stannp API call is authenticated with one account-level API key. The key can be presented two ways — as the HTTP Basic username with an empty password, or as an `api_key` query parameter — and both grant the same full account access. There are no scopes, no per-key permissions, no token exchange, no refresh and no documented rotation or revocation endpoint; keys are managed in the account settings UI. Upgraded from `derived` because the OpenAPI in this repo captures only the HTTP Basic form, while Stannp documents both.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Stannp Authentication
 name_suffix: Authentication

@@ -40,6 +40,7 @@ hosts:
   https: true
   note: Amazon Cognito hosted UI for user pool us-east-1_F0XmSWr9T
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

@@ -36,6 +36,7 @@ api_specs:
   slug: workday-benefits-time-off-plans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-time-off-plans-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

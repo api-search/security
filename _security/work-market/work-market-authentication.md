@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -67,6 +68,7 @@ auth_types:
 description: The WorkMarket Employer API uses an API token/secret pair exchanged for a short-lived access token. Credentials are generated in the WorkMarket web app; the client POSTs them to the authorization endpoint and then sends the returned access token as a Bearer credential in the Authorization header on subsequent requests. The published Swagger 2.0 spec declares no securityDefinitions; the scheme below is taken from the live API reference (which models it as an apiKey-style Authorization header) and the authorization operation in the spec.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Work Market Authentication
 name_suffix: Authentication

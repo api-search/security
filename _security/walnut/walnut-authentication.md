@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Walnut authenticates the Customer Data API with a single static API key sent in the x-api-key request header. There is no OAuth, no OIDC, no bearer token and no self-service key management: keys are provisioned out-of-band by a Walnut account representative, shown once, and cannot be rotated or recovered by the customer. Webhook deliveries are authenticated in the opposite direction with an HMAC-SHA256 signature. Human access to the Walnut application is separate and supports SAML SSO with SCIM provisioning on the Accelerate and Scale plans.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Walnut Authentication
 name_suffix: Authentication

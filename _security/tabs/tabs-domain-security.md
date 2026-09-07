@@ -138,6 +138,48 @@ api_specs:
   slug: tabs-revenue-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/openapi/tabs-revenue-api-openapi.yml
+- filename: tabs-fi-billingterms-api-openapi.yml
+  format: yaml
+  label: Tabs BillingTerms API
+  slug: tabs-fi-billingterms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/openapi/tabs-fi-billingterms-api-openapi.yml
+- filename: tabs-fi-creditmemos-api-openapi.yml
+  format: yaml
+  label: Tabs CreditMemos API
+  slug: tabs-fi-creditmemos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/openapi/tabs-fi-creditmemos-api-openapi.yml
+- filename: tabs-fi-customfields-api-openapi.yml
+  format: yaml
+  label: Tabs CustomFields API
+  slug: tabs-fi-customfields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/openapi/tabs-fi-customfields-api-openapi.yml
+- filename: tabs-fi-eventtypes-api-openapi.yml
+  format: yaml
+  label: Tabs EventTypes API
+  slug: tabs-fi-eventtypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/openapi/tabs-fi-eventtypes-api-openapi.yml
+- filename: tabs-fi-performanceobligations-api-openapi.yml
+  format: yaml
+  label: Tabs PerformanceObligations API
+  slug: tabs-fi-performanceobligations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/openapi/tabs-fi-performanceobligations-api-openapi.yml
+- filename: tabs-fi-system-api-openapi.yml
+  format: yaml
+  label: Tabs System API
+  slug: tabs-fi-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/openapi/tabs-fi-system-api-openapi.yml
+- filename: tabs-fi-usageevents-api-openapi.yml
+  format: yaml
+  label: Tabs UsageEvents API
+  slug: tabs-fi-usageevents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/openapi/tabs-fi-usageevents-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -170,6 +212,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

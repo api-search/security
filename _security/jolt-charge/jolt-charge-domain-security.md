@@ -32,6 +32,7 @@ hosts:
   https: true
   note: Legacy primary domain; 301-redirects to https://joltcharge.com/au/.
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

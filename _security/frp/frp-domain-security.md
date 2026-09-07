@@ -76,6 +76,7 @@ hosts:
   tls_version: TLSv1.3
 - host: 127.0.0.1
   https: false
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

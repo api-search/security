@@ -1,10 +1,12 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - none
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Essential Energy Authentication
 name_suffix: Authentication

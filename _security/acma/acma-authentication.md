@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: acma-access-areas-api-openapi.yml
@@ -51,6 +52,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Acma Authentication
 name_suffix: Authentication

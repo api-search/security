@@ -96,6 +96,7 @@ api_specs:
   slug: amazon-trusted-advisor-resolvecase-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/openapi/amazon-trusted-advisor-resolvecase-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

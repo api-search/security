@@ -12,6 +12,7 @@ api_specs:
   slug: ketryx-builds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/openapi/ketryx-builds-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2 Type 2
 - SOC 3

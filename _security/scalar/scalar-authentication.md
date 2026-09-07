@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: scalar-access-groups-api-openapi.yml
@@ -145,11 +146,24 @@ api_specs:
   slug: scalar-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-workspace-api-openapi.yml
+- filename: scalar-api-registry-management-api-openapi.yml
+  format: yaml
+  label: Scalar Registry Management API
+  slug: scalar-api-registry-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-api-registry-management-api-openapi.yml
+- filename: scalar-api-registry-read-api-openapi.yml
+  format: yaml
+  label: Scalar Registry Read API
+  slug: scalar-api-registry-read-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-api-registry-read-api-openapi.yml
 auth_types:
 - http
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Scalar Authentication
 name_suffix: Authentication

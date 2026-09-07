@@ -30,6 +30,7 @@ api_specs:
   slug: accelevents-tickets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-tickets-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: looking-glass-autostart-api-openapi.yml
@@ -41,6 +42,7 @@ auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Looking Glass Authentication
 name_suffix: Authentication

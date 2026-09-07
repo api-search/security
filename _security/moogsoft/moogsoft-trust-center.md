@@ -102,6 +102,7 @@ api_specs:
   slug: workflow-engine
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/openapi/moogsoft-workflow-engine-service-openapi.yaml
+certification_count: 3
 certifications:
 - SOC 2
 - GDPR

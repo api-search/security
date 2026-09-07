@@ -168,6 +168,7 @@ api_specs:
   slug: svix-webhooks-autoconfig-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/openapi/svix-webhooks-autoconfig-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - PCI DSS

@@ -66,6 +66,7 @@ api_specs:
   slug: harvest-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-users-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - PCI DSS

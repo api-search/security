@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: navattic-health-api-openapi.yml
@@ -15,6 +16,7 @@ description: 'Navattic''s authenticated developer surface is the hosted MCP serv
   '
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Navattic Authentication
 name_suffix: Authentication

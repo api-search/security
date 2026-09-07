@@ -42,6 +42,7 @@ api_specs:
   slug: clozd-programs-program-id-touchpoints-touchpoint-id-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-program-id-touchpoints-touchpoint-id-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - ISO 27701

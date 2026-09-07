@@ -6,6 +6,7 @@ api_specs:
   slug: logikcull-api
   spec_type: OpenAPI
   url: https://docs.revealdata.com/logikcull
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

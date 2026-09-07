@@ -43,6 +43,7 @@ hosts:
   https: true
   note: private session-authenticated backend for Replica Studio; not a published developer API
   tls_version: TLSv1.3
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

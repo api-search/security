@@ -30,6 +30,7 @@ hosts:
   http_note: apex redirects to https://www.shorelinebio.com/, which returns the expired-account page.
   http_status: 404
   https: true
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

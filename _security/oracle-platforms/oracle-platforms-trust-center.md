@@ -54,6 +54,7 @@ api_specs:
   slug: oracle-platforms-virtualnetwork-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/openapi/oracle-platforms-virtualnetwork-api-openapi.yml
+certification_count: 15
 certifications:
 - SOC 1
 - SOC 2

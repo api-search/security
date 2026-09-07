@@ -47,6 +47,7 @@ hosts:
   hsts_preload: true
   https: true
   tls_version: TLSv1.3
+hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed

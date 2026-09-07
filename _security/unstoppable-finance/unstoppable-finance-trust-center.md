@@ -54,6 +54,7 @@ api_specs:
   slug: unstoppable-finance-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-webhooks-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

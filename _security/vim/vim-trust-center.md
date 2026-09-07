@@ -54,6 +54,7 @@ api_specs:
   slug: vim-patient-identification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-patient-identification-api-openapi.yml
+certification_count: 3
 certifications:
 - HITRUST CSF
 - SOC 2 Type II

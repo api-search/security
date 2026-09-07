@@ -48,6 +48,7 @@ api_specs:
   slug: workday-report-writer-tables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-tables-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

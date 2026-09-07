@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: postman-collection
+  format: yaml
+  label: Cloudability API v3
+  slug: api-v3
+  spec_type: Postman
+  url: https://github.com/IBM/Apptio-Tools/tree/main/cloudability/postman-collection
 description: ''
 domains:
 - caa: []
@@ -14,7 +21,7 @@ domains:
   domain: ibm.com
   spf: true
 hosts:
-- cert_expires: Aug 28 22:57:35 2026 GMT
+- cert_expires: Oct 27 22:01:27 2026 GMT
   host: www.apptio.com
   hsts: true
   hsts_max_age: 31622400
@@ -31,6 +38,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
@@ -43,7 +51,7 @@ slug: cloudability-domain-security
 source_filename: cloudability-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.apptio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 22:57:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\n- host: www.ibm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.cloudability.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: apptio.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: ibm.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.apptio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 22:01:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\n- host: www.ibm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.cloudability.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: apptio.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: ibm.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/security/cloudability-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

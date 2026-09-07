@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: openmetadata-agent-executions-api-openapi.yml
@@ -540,6 +541,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Openmetadata Authentication
 name_suffix: Authentication

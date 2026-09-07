@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Flockjay runs two authentication paths against one API host. Human/first-party clients use a DRF token ("Basic token authentication required" is the literal 401 body). Agents and third-party clients use OAuth 2.1 authorization-code + PKCE against api.flockjay.com, with dynamic client registration — this is the path the MCP server requires. There is no published developer portal, no key self-service page, and no OpenAPI securitySchemes block to derive from; every fact below was observed on the wire.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Flockjay Authentication
 name_suffix: Authentication

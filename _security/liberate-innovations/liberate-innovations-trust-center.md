@@ -12,6 +12,7 @@ api_specs:
   slug: liberate-innovations-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/openapi/liberate-innovations-workflows-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - HIPAA

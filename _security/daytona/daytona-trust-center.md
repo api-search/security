@@ -120,6 +120,7 @@ api_specs:
   slug: daytona-daytona-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/daytona/refs/heads/main/openapi/daytona-daytona-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

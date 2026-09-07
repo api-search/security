@@ -756,6 +756,7 @@ api_specs:
   slug: amazon-cognito-x-amz-target-awscognitoidentityservice-updateidentitypool-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/openapi/amazon-cognito-x-amz-target-awscognitoidentityservice-updateidentitypool-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

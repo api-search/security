@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: jefferson-health-allergy-intolerance-api-openapi.yml
@@ -104,6 +105,7 @@ auth_types:
 description: Jefferson Health runs two independent authorization surfaces that share a brand and nothing else. The Thomas Jefferson University Hospital clinical FHIR endpoint requires a patient- or user-authorized SMART on FHIR token for every resource. The Jefferson Health Plans Da Vinci Plan-Net provider directory is served ANONYMOUSLY, as the implementation guide requires; its SMART authorization server exists for the separate Patient Access API and lives on a third host, appgallery.healthpartnersplans.com.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Jefferson Health Authentication
 name_suffix: Authentication

@@ -246,6 +246,7 @@ api_specs:
   slug: customer-io-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-workspaces-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

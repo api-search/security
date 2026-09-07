@@ -24,6 +24,7 @@ api_specs:
   slug: northflank-services-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/openapi/northflank-services-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

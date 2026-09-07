@@ -42,6 +42,7 @@ api_specs:
   slug: northbeam-spend-hourly-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/openapi/northbeam-spend-hourly-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type 2
 description: ''

@@ -6,6 +6,7 @@ api_specs:
   slug: picarro-edge-sam-foup-grpc-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/asyncapi/picarro-sam-foup-asyncapi.yml
+certification_count: 5
 certifications:
 - ISO/IEC 27001:2022
 - ISO/IEC 27017

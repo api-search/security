@@ -93,6 +93,7 @@ hosts:
   tls_version: TLSv1.2
 - host: api.smsapi.eu
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

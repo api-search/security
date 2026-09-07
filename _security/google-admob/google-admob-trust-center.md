@@ -66,6 +66,7 @@ api_specs:
   slug: google-admob-networkreport-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-networkreport-api-openapi.yml
+certification_count: 8
 certifications:
 - ISO/IEC 27001
 - ISO/IEC 27017

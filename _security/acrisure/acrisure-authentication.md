@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
 description: Acrisure publishes no OpenAPI, so this profile is not derived from securitySchemes. It is read directly from the RFC 8414 authorization-server metadata that api.acrisure.com serves anonymously, plus the observed 302 from /oauth/authorize. The single protected resource this covers is the hosted MCP server at https://api.acrisure.com/v1/mcp.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Acrisure Authentication
 name_suffix: Authentication

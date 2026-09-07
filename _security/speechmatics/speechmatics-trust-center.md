@@ -24,6 +24,7 @@ api_specs:
   slug: speechmatics-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/openapi/speechmatics-usage-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

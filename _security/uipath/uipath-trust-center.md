@@ -192,6 +192,7 @@ api_specs:
   slug: uipath-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-webhooks-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

@@ -66,6 +66,7 @@ api_specs:
   slug: messente-statistics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-statistics-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

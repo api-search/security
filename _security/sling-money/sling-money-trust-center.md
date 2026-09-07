@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - ISO/IEC 27001:2022
 description: Avian Labs (Morse, formerly Sling Money) publishes its regulatory and information-security posture on its legal/regulatory-compliance page rather than a trust.<domain> subdomain, so the automated trust-center probe did not record it — this is the searched, human-verified fill. Avian Labs group is ISO/IEC 27001:2022 certified and operates as a regulated crypto-asset and money-services provider across the EU and US.

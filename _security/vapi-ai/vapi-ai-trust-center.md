@@ -90,6 +90,7 @@ api_specs:
   slug: vapi-ai-tools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vapi-ai/refs/heads/main/openapi/vapi-ai-tools-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - PCI DSS

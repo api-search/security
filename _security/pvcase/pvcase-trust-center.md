@@ -24,6 +24,7 @@ api_specs:
   slug: pvcase-team-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/openapi/pvcase-team-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type I
 - SOC 2 Type II

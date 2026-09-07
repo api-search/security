@@ -21,6 +21,7 @@ hosts:
   tls_version: TLSv1.3
 - host: www.regal-beloit.com
   https: false
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

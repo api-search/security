@@ -30,6 +30,7 @@ api_specs:
   slug: log10-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-sessions-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

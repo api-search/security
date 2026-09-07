@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: OncoC4 publishes no developer-facing API and therefore no developer authentication scheme. The only authentication surface reachable anonymously on oncoc4.com is the Umbraco CMS Delivery API *member* authorization server, whose OpenID Connect discovery document is served at /.well-known/openid-configuration. This profile is derived verbatim from that document. It describes website member login, not an API product.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Oncoc4 Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: Electra has no OpenAPI, so this profile is not derived from securitySchemes — it is what the live surface actually answered. The single authenticated API Electra runs is its OCPI Charge Point Operator interface, and it uses OCPI's own bilateral Token scheme. There is no OAuth 2, no OpenID Connect, no self-service API key, no developer signup and no sandbox credential anywhere in Electra's public surface.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Go Electra Authentication
 name_suffix: Authentication

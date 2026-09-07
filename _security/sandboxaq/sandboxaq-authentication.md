@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -122,6 +123,7 @@ auth_types:
 description: Authentication profile across all three SandboxAQ API surfaces. The OpenAPI-derived baseline covered only the Flint AI Platform API; this file upgrades it with the AQtive Guard and MCP schemes read from the provider's own documentation and, for AQtive Guard, confirmed by a live probe.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Sandboxaq Authentication
 name_suffix: Authentication

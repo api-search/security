@@ -30,6 +30,7 @@ api_specs:
   slug: amazon-opensearch-tags-removal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/openapi/amazon-opensearch-tags-removal-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

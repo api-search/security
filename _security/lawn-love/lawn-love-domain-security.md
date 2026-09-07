@@ -33,6 +33,7 @@ hosts:
     edge: cloudflare + aws-cloudfront + api-gateway
     evidence: 'response headers include x-amz-apigw-id, via 1.1 ... cloudfront.net, and server: cloudflare'
     https: true
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

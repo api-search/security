@@ -24,6 +24,7 @@ api_specs:
   slug: nerdio-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/openapi/nerdio-usage-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

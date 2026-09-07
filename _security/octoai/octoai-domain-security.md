@@ -23,6 +23,7 @@ hosts:
   https: false
 - host: image.octoai.run
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

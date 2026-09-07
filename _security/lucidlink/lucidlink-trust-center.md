@@ -18,6 +18,7 @@ api_specs:
   slug: lucidlink-filespace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/openapi/lucidlink-filespace-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2 Type I
 - SOC 2 Type II

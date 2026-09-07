@@ -1,4 +1,5 @@
 ---
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: Operant AI's compliance posture as published on its About page. Operant is SOC 2 Type II compliant. The automated trust-center probe did not record this because Operant states its compliance status on marketing/company pages rather than on a trust.<domain> subdomain or a security.txt-linked policy that meets the probe's keyword threshold — this is the searched, human-verified fill.

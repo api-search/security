@@ -306,6 +306,7 @@ api_specs:
   slug: quadrillion-you-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-you-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - HIPAA

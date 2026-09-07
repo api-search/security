@@ -24,6 +24,7 @@ api_specs:
   slug: urlbox-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/urlbox/refs/heads/main/openapi/urlbox-usage-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

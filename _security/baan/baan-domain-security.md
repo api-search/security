@@ -52,6 +52,7 @@ hosts:
   https: false
   https_error: TLS handshake failed on port 443
   redirect_to: https://www.infor.com/product-summary/erp/ln/
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

@@ -102,6 +102,7 @@ api_specs:
   slug: alpaca-watchlist-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-watchlist-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 2
 - ISO 27001:2022

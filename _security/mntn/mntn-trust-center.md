@@ -102,6 +102,7 @@ api_specs:
   slug: mntn-reference-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-reference-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

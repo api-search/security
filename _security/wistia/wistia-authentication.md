@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: wistia-asyncapi.yml
@@ -295,6 +296,7 @@ auth_types:
 description: 'Wistia authenticates API and MCP traffic with bearer credentials over TLS. Two credential families exist: a long-lived account API access token created in Account Settings, and an OAuth 2.0 access token obtained on a user''s behalf. The published OpenAPI declares only the bearer scheme; the full OAuth surface — including RFC 7591 dynamic client registration, PKCE, and introspection/revocation — is declared in the live RFC 8414 / RFC 9728 discovery documents rather than in the spec, which is why an OpenAPI-only read of this provider understates its auth posture.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Wistia Authentication
 name_suffix: Authentication

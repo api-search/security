@@ -36,6 +36,7 @@ api_specs:
   slug: respond-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-tags-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - GDPR

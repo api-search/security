@@ -31,6 +31,7 @@ hosts:
   resolves: false
 - host: api.synthesis.ai
   resolves: false
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

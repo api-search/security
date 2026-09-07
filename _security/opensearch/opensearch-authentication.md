@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: opensearch-account-api-openapi.yml
@@ -90,6 +91,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Opensearch Authentication
 name_suffix: Authentication

@@ -6,6 +6,7 @@ api_specs:
   slug: proctorio-launch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/proctorio/refs/heads/main/openapi/proctorio-launch-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

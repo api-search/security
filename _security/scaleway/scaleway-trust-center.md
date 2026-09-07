@@ -438,6 +438,7 @@ api_specs:
   slug: scaleway-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/openapi/scaleway-webhooks-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - GDPR

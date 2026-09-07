@@ -570,6 +570,7 @@ api_specs:
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatevtldevicetype-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/openapi/amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatevtldevicetype-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

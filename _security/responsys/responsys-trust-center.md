@@ -150,6 +150,7 @@ api_specs:
   slug: responsys-trigger-sms-message-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/openapi/responsys-trigger-sms-message-api-openapi.yml
+certification_count: 13
 certifications:
 - SOC 1
 - SOC 2

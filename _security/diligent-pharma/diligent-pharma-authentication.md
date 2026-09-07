@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for Diligent Pharma. Diligent Pharma publishes no public developer API and no API authentication documentation, so this profile is derived entirely from the OpenID Connect / OAuth 2.0 discovery documents that clerk.diligentpharma.com serves for the authenticated Diligent360 application at 360.diligentpharma.com. It describes how a user (or an OAuth client registered with Diligent Pharma) signs into the Diligent360 web application — it is NOT a published developer-facing API authentication scheme, and there is no public client registration, key issuance, or token documentation.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Diligent Pharma Authentication
 name_suffix: Authentication

@@ -82,6 +82,7 @@ hosts:
   ratelimit_note: X-RateLimit-Limit 60 observed on GET /api/v5/repos/oschina/git-osc (unauthenticated).
   server: ADAS/1.0.214
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

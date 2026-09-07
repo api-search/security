@@ -30,6 +30,7 @@ api_specs:
   slug: primer-payments-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/openapi/primer-payments-api-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

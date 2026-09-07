@@ -30,6 +30,7 @@ api_specs:
   slug: authzed-watch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-watch-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

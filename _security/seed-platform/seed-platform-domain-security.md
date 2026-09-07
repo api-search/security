@@ -30,6 +30,7 @@ hosts:
   hsts: false
   https: true
   note: AWS API Gateway. HTTP 403 {"message":"Missing Authentication Token"} on every path. No HSTS header on the anonymous response.
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

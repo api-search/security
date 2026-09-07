@@ -36,6 +36,7 @@ api_specs:
   slug: backblaze-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-notifications-api-openapi.yml
+certification_count: 13
 certifications:
 - SOC 2 Type 2
 - ISO 27001

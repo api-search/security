@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - signed-request
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: 'Authentication profile for the Cubbit DS3 S3-compatible API. DS3 uses AWS S3 authentication: an access key ID and secret access key signed with AWS Signature Version 4. Credentials are created per project in the DS3 web console (Access key menu) and downloaded as a CSV. There is no OAuth surface on the storage API itself (the console login uses a separate OIDC flow that is not the API auth mechanism).'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Cubbit Authentication
 name_suffix: Authentication

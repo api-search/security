@@ -150,6 +150,7 @@ api_specs:
   slug: shortcut-software-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-workflows-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 2
 - HIPAA (BAA on Business/Enterprise)

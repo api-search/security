@@ -49,6 +49,7 @@ hosts:
   hsts_max_age: 259200
   https: true
   note: Atlassian Statuspage.
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

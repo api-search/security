@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -38,12 +39,19 @@ api_specs:
   slug: chroma-tenants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-tenants-api-openapi.yml
+- filename: chroma-db-query-api-openapi.yml
+  format: yaml
+  label: Chroma Query API
+  slug: chroma-db-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-db-query-api-openapi.yml
 auth_types:
 - apiKey
 - http
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 3
 method: derived
 name: Chroma Authentication
 name_suffix: Authentication

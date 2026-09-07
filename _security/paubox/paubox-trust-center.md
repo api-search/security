@@ -72,6 +72,7 @@ api_specs:
   slug: paubox-tracking-links-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-tracking-links-api-openapi.yml
+certification_count: 2
 certifications:
 - paubox_own
 - inherited_from_infrastructure

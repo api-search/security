@@ -63,6 +63,7 @@ hosts:
   tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for ''www.determi'
 - host: docs.determined.ai
   https: false
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

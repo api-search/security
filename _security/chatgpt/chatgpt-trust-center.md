@@ -12,6 +12,7 @@ api_specs:
   slug: openai-responses-api
   spec_type: OpenAPI
   url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
+certification_count: 8
 certifications:
 - SOC 2
 - ISO 27001

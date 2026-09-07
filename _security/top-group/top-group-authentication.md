@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -147,6 +148,7 @@ auth_types:
 description: Authentication profile for TON API (tonapi.io) and the TON API Webhooks API (rt.tonapi.io). The published OpenAPI declares no securitySchemes; this profile is captured from the official TON API documentation. REST API methods work unauthenticated at a heavily throttled rate; production use requires a bearer API token issued by TON Console. The Webhooks API always requires a private API key.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Top Group Authentication
 name_suffix: Authentication

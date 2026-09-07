@@ -582,6 +582,7 @@ api_specs:
   slug: gitlab-ci-wikis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gitlab-ci/refs/heads/main/openapi/gitlab-ci-wikis-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

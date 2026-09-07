@@ -204,6 +204,7 @@ api_specs:
   slug: wherobots-workos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-workos-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

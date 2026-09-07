@@ -96,6 +96,7 @@ api_specs:
   slug: gitlab-webhook-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-webhook-events-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

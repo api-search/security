@@ -41,6 +41,7 @@ hosts:
   note: Returns 401 on every path including /.well-known/openid-configuration. Negotiates TLS 1.2 where every other Docquity host negotiates TLS 1.3.
   role: identity service
   tls_version: TLSv1.2
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

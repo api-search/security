@@ -16,6 +16,7 @@ hosts:
   https_observed: '2026-08-06'
   note: HTTPS 200 confirmed by direct fetch; TLS version, certificate expiry and HSTS were not captured before the origin began timing out this source IP. Re-probe next round.
   tls_version: null
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

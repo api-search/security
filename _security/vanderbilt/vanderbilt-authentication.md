@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: vanderbilt-television-news-archive-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: How authentication works across Vanderbilt's institution-operated programmable surfaces. The distinguishing fact for this institution is that its three public read APIs need no credential at all, while everything that touches a person's account runs through Vanderbilt's federated identity estate.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Vanderbilt Authentication
 name_suffix: Authentication

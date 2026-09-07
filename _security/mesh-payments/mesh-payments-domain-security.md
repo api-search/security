@@ -27,6 +27,7 @@ hosts:
   https: true
   note: Strict-Transport-Security max-age=31536000 includeSubDomains observed on the 401 challenge response
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

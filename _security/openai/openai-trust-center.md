@@ -300,6 +300,7 @@ api_specs:
   slug: openai-openai-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-openai-api-api-openapi.yml
+certification_count: 8
 certifications:
 - SOC 2
 - ISO 27001

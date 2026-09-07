@@ -42,6 +42,7 @@ api_specs:
   slug: crowdin-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-webhooks-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - HIPAA

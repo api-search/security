@@ -39,6 +39,7 @@ hosts:
   server: AmazonS3
   tls13_supported: false
   tls_version: TLSv1.2
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

@@ -40,6 +40,7 @@ hosts:
   tls_version: TLSv1.3
   x_content_type_options: nosniff
   x_frame_options: DENY
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

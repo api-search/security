@@ -18,6 +18,7 @@ api_specs:
   slug: applitools-scm-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/applitools/refs/heads/main/openapi/applitools-scm-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

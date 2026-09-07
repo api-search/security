@@ -6,6 +6,7 @@ api_specs:
   slug: zip-procurement-api
   spec_type: OpenAPI
   url: https://docs.ziphq.com
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: near-space-labs-oauth-api-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: 'Every Near Space Labs API endpoint is authenticated. There are two credential shapes, both minted from the same NSL client id + client secret pair: a 60-minute OAuth 2.0 client-credentials Bearer JWT, and a one-year static API key passed in the query string. Credentials are issued by Near Space Labs sales/onboarding — there is no self-service signup.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Near Space Labs Authentication
 name_suffix: Authentication

@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - session-token
@@ -6,6 +7,7 @@ auth_types:
 description: Keybase API 1.0 uses a custom challenge/response authentication rather than OAuth. Public read endpoints (user/lookup, key/fetch, merkle/root) require no auth. Authenticated calls use a salt+password login handshake to obtain a session token and CSRF token, and identity mutations are signed with the user's private key and posted to the signature endpoints.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Keybase Authentication
 name_suffix: Authentication

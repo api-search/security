@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - none
@@ -6,6 +7,7 @@ auth_types:
 description: 'CAISO''s authentication posture is a clean two-tier split. The public data tier — the OASIS Download API at oasis.caiso.com/oasisapi and the Today''s Outlook CSV feeds at www.caiso.com/outlook — carries no authentication at all: no API key, no token, no account, no referrer check. This was verified by anonymous curl on 2026-07-27, which returned real zipped CSV market data. Everything else CAISO operates — market submission, dispatch, settlements, CMRI, SIBR, the WEM and RC portals — sits behind PKI client certificates issued to individuals sponsored by their company''s User Access Administrator (UAA), and CAISO states in writing that OASIS is the sole exception. A third, distinct gate covers the *documentation*: developer.caiso.com requires a signup reviewed against an ISO-recognized corporate email domain and a written justification, so the interface specification and API URL example documents are access-controlled even though the API they describe is not.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Caiso Authentication
 name_suffix: Authentication

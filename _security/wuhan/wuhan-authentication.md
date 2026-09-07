@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Wuhan University publishes no public API and no API key programme, but it does operate a campus single-sign-on estate whose protocol surfaces are openly readable, and one of them -- the OpenID Connect discovery document at cas.whu.edu.cn -- is the only conforming, self-describing, machine-readable contract this institution serves to the anonymous public.
@@ -8,6 +9,7 @@ description: 'Wuhan University publishes no public API and no API key programme,
   What the OIDC document is NOT is evidence of WHU engineering an authorization server. It is the standard discovery shape emitted by the Wisedu CAS product, and the same document appears at hundreds of Chinese university authserver deployments. The DEPLOYMENT is the institution''s; the contract shape is the product''s. That distinction is the whole point of this pipeline and it is why no OpenAPI has been derived from these endpoints.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Wuhan Authentication
 name_suffix: Authentication

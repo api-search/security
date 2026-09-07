@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: tealium-auth-api-openapi.yml
@@ -44,6 +45,7 @@ auth_types:
 description: Tealium runs four different authentication models across one platform, and which one applies depends on the product rather than the version. The V3 platform APIs use a short-lived JWT exchanged from an API key; SCIM uses a 90-day long-lived token from a different host; the Moments API uses no credential at all and is governed by a domain allowlist; the managed MCP server uses a dedicated static API-key header. There is no OAuth 2.0 and no OpenID Connect anywhere.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Tealium Authentication
 name_suffix: Authentication

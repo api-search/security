@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: qatar-qu-sso-oidc-openapi.yml
@@ -21,6 +22,7 @@ auth_types:
 description: Qatar University's public programmable surfaces divide cleanly. Everything that harvests or reads scholarly metadata is open and anonymous — the QU Press OJS OAI-PMH endpoint that the university operates itself, and the QSpace repository endpoints that its hosting provider operates for it. Everything that touches a person is behind the university's own OpenID Connect / SAML provider at sso.qu.edu.qa, and there is no public onboarding path to it. No Qatar University surface issues API keys to the public, and none was found that documents an authentication model in prose.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: probed
 name: Qatar Authentication
 name_suffix: Authentication

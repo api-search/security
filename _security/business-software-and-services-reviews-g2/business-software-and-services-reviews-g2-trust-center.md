@@ -168,6 +168,7 @@ api_specs:
   slug: business-software-and-services-reviews-g2-video-reviews-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/business-software-and-services-reviews-g2/refs/heads/main/openapi/business-software-and-services-reviews-g2-video-reviews-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - GDPR

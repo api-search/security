@@ -36,6 +36,7 @@ api_specs:
   slug: github-copilot-copilot-user-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-copilot-user-management-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

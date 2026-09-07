@@ -53,6 +53,7 @@ hosts:
   http_status: 404
   https: true
   note: Preproduction / sandbox API host; 404 at root (no index route).
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

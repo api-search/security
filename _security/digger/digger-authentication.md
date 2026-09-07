@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 - query
@@ -9,6 +10,7 @@ auth_types:
 description: Authentication profile for Digger's products. OpenComputer's REST API is API-key based with three credential types for durable agent sessions; the self-hostable OpenTaco (Digger CE) backend authenticates operators via WorkOS OIDC and integrates with source control via a GitHub App.
 kind: authentication
 layout: security
+mechanism_count: 6
 method: searched
 name: Digger Authentication
 name_suffix: Authentication

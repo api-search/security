@@ -72,6 +72,7 @@ api_specs:
   slug: culqi-transfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-transfers-api-openapi.yml
+certification_count: 1
 certifications:
 - PCI DSS Level 1
 description: ''

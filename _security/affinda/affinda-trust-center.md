@@ -96,6 +96,7 @@ api_specs:
   slug: affinda-organization-api-invitation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-organization-api-invitation-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

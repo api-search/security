@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: ontario-energy-board-applications-before-the-oeb-api-openapi.yml
@@ -77,6 +78,7 @@ auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: derived
 name: Ontario Energy Board Authentication
 name_suffix: Authentication

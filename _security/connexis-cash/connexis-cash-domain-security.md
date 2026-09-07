@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: connexis-cash-account-information-psd2-stet-mock-openapi.yml
+  format: yaml
+  label: Connexis Cash PSD2 Account Information API (STET)
+  slug: psd2-account-information
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-account-information-psd2-stet-mock-openapi.yml
 - filename: connexis-cash-accounts-api-openapi.yml
   format: yaml
   label: Connexis Cash Accounts API
@@ -33,11 +39,11 @@ api_specs:
 description: ''
 domains:
 - caa:
-  - 0 issue "d-trust.net"
   - 0 iodef "mailto:report-abuse@globalsign.com"
+  - 0 issue "d-trust.net"
   - 0 issuewild ";"
-  - 0 issue "globalsign.com"
   - 0 issue "entrust.net"
+  - 0 issue "globalsign.com"
   - 0 issue "digicert.com"
   dmarc: true
   dmarc_policy: reject
@@ -45,7 +51,7 @@ domains:
   domain: bnpparibas.com
   spf: true
 hosts:
-- cert_expires: Sep  2 23:59:59 2026 GMT
+- cert_expires: Jan 30 23:59:59 2027 GMT
   host: cashmanagement.bnpparibas.com
   hsts: true
   hsts_max_age: 31536000
@@ -61,6 +67,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
@@ -73,7 +80,7 @@ slug: connexis-cash-domain-security
 source_filename: connexis-cash-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cashmanagement.bnpparibas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.cib.bnpparibas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: false\n- host: psd2.api.cib.bnpparibas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 10 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: bnpparibas.com\n  dnssec: true\n  caa:\n  - 0 issue \"d-trust.net\"\n  - 0 iodef \"mailto:report-abuse@globalsign.com\"\n  - 0 issuewild \";\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"entrust.net\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cashmanagement.bnpparibas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 30 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.cib.bnpparibas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: false\n- host: psd2.api.cib.bnpparibas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 10 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: bnpparibas.com\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:report-abuse@globalsign.com\"\n  - 0 issue \"d-trust.net\"\n  - 0 issuewild \";\"\n  - 0 issue \"entrust.net\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/security/connexis-cash-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

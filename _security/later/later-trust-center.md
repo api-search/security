@@ -1050,6 +1050,7 @@ api_specs:
   slug: later-ytbcbrandchannels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-ytbcbrandchannels-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type 2
 - SOC 2 Type 1

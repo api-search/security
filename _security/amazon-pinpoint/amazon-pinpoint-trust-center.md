@@ -36,6 +36,7 @@ api_specs:
   slug: amazon-pinpoint-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/openapi/amazon-pinpoint-templates-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 1
 - SOC 2

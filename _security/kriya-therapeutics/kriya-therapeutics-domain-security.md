@@ -81,6 +81,7 @@ hosts:
   origin: 'WP Engine (x-powered-by: WP Engine observed on REST responses)'
   server: cloudflare
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

@@ -48,6 +48,7 @@ api_specs:
   slug: thrive-global-stories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thrive-global/refs/heads/main/openapi/thrive-global-stories-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

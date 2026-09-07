@@ -18,6 +18,7 @@ api_specs:
   slug: karumi-targets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-targets-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001

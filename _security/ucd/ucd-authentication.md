@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: ucd-oai-pmh-openapi.yml
@@ -11,6 +12,7 @@ auth_types: []
 description: How authentication actually works across the surfaces University College Dublin operates. UCD runs no API key programme, no OAuth authorization server and no developer self-service credential of any kind. Its one institution-operated authentication surface is federated SAML 2.0 single sign-on for people, which is not an API credential and cannot be used by an unaffiliated client.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Ucd Authentication
 name_suffix: Authentication

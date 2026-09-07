@@ -1,4 +1,5 @@
 ---
+certification_count: 0
 certifications: []
 description: poolside publishes a dedicated Trust Center at trust.poolside.ai for security, compliance, and privacy information, referenced from the documentation legal section. The Trust Center is a client-rendered application whose specific certification list could not be fetched programmatically (returns HTTP 403 to automated fetchers); named certifications are therefore recorded as unverified here rather than asserted. poolside targets secure, self-hosted enterprise and government software engineering (STIG-hardened / on-premises deployment guidance is published), and maintains legal documents including a Data Processing Agreement, Privacy Policy, EULA, and Acceptable Use Policy.
 kind: trust-center

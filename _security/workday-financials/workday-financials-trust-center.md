@@ -192,6 +192,7 @@ api_specs:
   slug: workday-financials-trial-balances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-financials/refs/heads/main/openapi/workday-financials-trial-balances-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

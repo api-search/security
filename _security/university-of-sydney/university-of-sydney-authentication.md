@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'The University of Sydney publishes no public API authentication scheme, because it publishes no public API. What it does operate — and what is genuinely machine-readable — is federated identity: a Shibboleth SAML 2.0 identity provider registered in the Australian Access Federation and republished into eduGAIN, plus an Okta tenant fronting web application sign-in. Every application surface reachable from the public internet redirects into one of these two.'
 kind: authentication
 layout: security
+mechanism_count: 4
 method: probed
 name: University Of Sydney Authentication
 name_suffix: Authentication

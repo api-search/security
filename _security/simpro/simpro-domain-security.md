@@ -97,6 +97,7 @@ hosts:
 - host: simprosuite.com
   https: true
   note: Per-build API host parent domain; apex resolves via regional load balancers (au-lb.simprosuite.com). Individual builds are {build}.simprosuite.com.
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

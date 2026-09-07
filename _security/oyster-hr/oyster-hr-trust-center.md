@@ -6,6 +6,7 @@ api_specs:
   slug: oyster-hr-api
   spec_type: OpenAPI
   url: https://docs.oysterhr.com/llms.txt
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

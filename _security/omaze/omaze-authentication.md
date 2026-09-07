@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Omaze publishes no API keys and no developer credentials. The only authentication surface it exposes is the Shopify Customer Accounts identity provider that sits behind its UK and German storefronts: a standards-compliant OpenID Connect 1.0 / OAuth 2.0 authorization server, discoverable anonymously, with PKCE required. This profile is derived entirely from the live discovery documents — no securityScheme was inferred from a spec, because there is no spec.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Omaze Authentication
 name_suffix: Authentication

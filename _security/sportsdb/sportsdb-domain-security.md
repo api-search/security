@@ -42,6 +42,18 @@ api_specs:
   slug: sportsdb-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/sportsdb-teams-api-openapi.yml
+- filename: thesportsdb-lists-api-openapi.yml
+  format: yaml
+  label: TheSportsDB Lists API
+  slug: thesportsdb-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/thesportsdb-lists-api-openapi.yml
+- filename: thesportsdb-seasons-api-openapi.yml
+  format: yaml
+  label: TheSportsDB Seasons API
+  slug: thesportsdb-seasons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/thesportsdb-seasons-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,6 +67,7 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

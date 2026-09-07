@@ -36,6 +36,7 @@ api_specs:
   slug: qwilt-sites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-sites-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

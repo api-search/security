@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -7,6 +8,7 @@ auth_types:
 description: 'Vayyar publishes no OpenAPI, so no securitySchemes could be derived. The only documented authentication surface found is on the Walabot DIY storefront (walabot.com, Shopify): customer-account OAuth 2.0 / OIDC published via RFC 8414 discovery at /.well-known/oauth-authorization-server and OIDC discovery at /.well-known/openid-configuration (both saved verbatim under well-known/). Authorization code flow with PKCE (S256), RS256 ID tokens, issuer https://shopify.com/authentication/10514071618, endpoints hosted on account.walabot.com. The storefront''s UCP MCP endpoint additionally requires a UCP agent-profile handshake, and read-only storefront browsing (/products/{handle}.json) requires no authentication. The Walabot SDK (api.walabot.com) is a local USB device library with no network authentication.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Vayyar Imaging Authentication
 name_suffix: Authentication

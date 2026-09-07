@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: RedotPay authenticates clients with the OAuth2 Device Authorization Grant (RFC 8628), then makes Bearer-token HTTP requests to the production API. Derived from the first-party redotpay CLI source; no public OpenAPI or hosted auth docs page is published.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Redotpay Authentication
 name_suffix: Authentication

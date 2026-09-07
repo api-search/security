@@ -30,6 +30,7 @@ api_specs:
   slug: poggio-labs-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-system-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

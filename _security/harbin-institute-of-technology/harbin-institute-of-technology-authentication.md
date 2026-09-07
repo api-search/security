@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication posture across the surfaces Harbin Institute of Technology actually exposes. Re-authored 2026-09-01 from live probes. The previous version of this file was DERIVED from Elsevier's Pure OpenAPI document and described Elsevier's api-key scheme as though it were HIT's; it was removed along with the rest of the vendor-derived set.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Harbin Institute Of Technology Authentication
 name_suffix: Authentication

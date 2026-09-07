@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: taboola-accounts-api-openapi.yml
@@ -113,6 +114,7 @@ description: 'Two OAuth surfaces with very different maturity. The Backstage adv
   from the provider''s own documentation and a live probe.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Taboola Authentication
 name_suffix: Authentication

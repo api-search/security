@@ -186,6 +186,7 @@ hosts:
   role: documentation, llms.txt, agent card, agent skill, docs MCP
   server: Vercel
   tls: true
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

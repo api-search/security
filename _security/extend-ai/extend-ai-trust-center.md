@@ -54,6 +54,7 @@ api_specs:
   slug: extend-ai-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/extend-ai/refs/heads/main/openapi/extend-ai-workflows-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

@@ -43,6 +43,7 @@ hosts:
   https: false
 - host: journalarticle.ukm.my
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

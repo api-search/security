@@ -18,15 +18,21 @@ api_specs:
   slug: blubrry-api-restful-api-for-podcast-publishing-statistics-statistics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-statistics-api-openapi.yml
+- filename: blubrry-api-restful-api-for-podcast-publishing-statistics-podcaster-openapi.yaml
+  format: yaml
+  label: Blubrry Podcast Hosting & Statistics API (v2)
+  slug: blubrry-podcast-hosting-statistics-api-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-podcaster-openapi.yaml
 description: ''
 domains:
 - caa:
+  - 0 issue "pki.goog"
+  - 0 issue "sectigo.com"
+  - 0 issuewild "amazon.com"
+  - 0 issuewild "digicert.com"
+  - 0 issuewild "globalsign.com"
   - 0 issuewild "letsencrypt.org"
-  - 0 issuewild "sectigo.com"
-  - 0 issue "amazon.com"
-  - 0 issue "digicert.com"
-  - 0 issue "globalsign.com"
-  - 0 issue "letsencrypt.org"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
@@ -44,6 +50,7 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
@@ -56,7 +63,7 @@ slug: blubrry-api-restful-api-for-podcast-publishing-statistics-domain-security
 source_filename: blubrry-api-restful-api-for-podcast-publishing-statistics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: blubrry.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: api.blubrry.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: blubrry.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: blubrry.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: api.blubrry.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: blubrry.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/security/blubrry-api-restful-api-for-podcast-publishing-statistics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

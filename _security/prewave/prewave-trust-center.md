@@ -150,6 +150,7 @@ api_specs:
   slug: prewave-users-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-users-roles-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

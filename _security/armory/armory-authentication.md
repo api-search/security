@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: armory-agent-accounts-controller-api-openapi.yml
@@ -143,6 +144,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Armory Authentication
 name_suffix: Authentication

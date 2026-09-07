@@ -6,6 +6,7 @@ api_specs:
   slug: evermuse-ingestion-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evermuse/refs/heads/main/openapi/evermuse-ingestion-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

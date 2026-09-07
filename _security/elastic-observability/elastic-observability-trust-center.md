@@ -24,6 +24,7 @@ api_specs:
   slug: elastic-observability-opentelemetry-intake-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/openapi/elastic-observability-opentelemetry-intake-api-openapi.yml
+certification_count: 15
 certifications:
 - FedRAMP High
 - FedRAMP Moderate

@@ -60,6 +60,7 @@ api_specs:
   slug: paymongo-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/openapi/paymongo-webhooks-api-openapi.yml
+certification_count: 1
 certifications:
 - PCI DSS Level 1 Service Provider
 description: ''

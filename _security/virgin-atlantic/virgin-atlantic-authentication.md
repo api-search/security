@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: Virgin Atlantic's NDC API authenticates with a single API key carried in an HTTP header. There is no OAuth 2.0, no OpenID Connect, no mTLS and no signed-request scheme published anywhere on VS NDC Connect, and no OpenAPI exists from which securitySchemes could be derived - this profile is read directly from the published build documentation. The header name and the Azure Front Door DNS for ndc.virginatlantic.com indicate the gateway is Microsoft Azure API Management.
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Virgin Atlantic Authentication
 name_suffix: Authentication

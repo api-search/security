@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -141,6 +142,7 @@ auth_types:
 description: Honeycomb authenticates the REST API with three types of API key that differ in scope, in the header they travel in and in how their value is assembled. The hosted MCP server is separately protected by OAuth 2.0 with PKCE and dynamic client registration. Upgraded from the derived spec-only profile, which saw only one of the four schemes.
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Honeycomb Io Authentication
 name_suffix: Authentication

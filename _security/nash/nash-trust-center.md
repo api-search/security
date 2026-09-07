@@ -180,6 +180,7 @@ api_specs:
   slug: nash-zones-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-zones-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

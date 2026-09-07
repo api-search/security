@@ -30,6 +30,7 @@ api_specs:
   slug: razorpay-refunds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/openapi/razorpay-refunds-api-openapi.yml
+certification_count: 3
 certifications:
 - PCI DSS
 - ISO 27001

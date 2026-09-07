@@ -43,6 +43,7 @@ domains:
     a: []
   resolves: false
 hosts: []
+hosts_probed: 0
 kind: domain-security
 layout: security
 method: probed

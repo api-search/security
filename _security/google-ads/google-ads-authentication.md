@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: google-ads-ad-groups-api-openapi.yml
@@ -654,6 +655,7 @@ auth_types:
 description: Google Ads authentication is two credentials that are easy to confuse and independently sufficient to break a call. OAuth 2.0 identifies the USER and grants the single adwords scope. The developer token identifies the APPLICATION and gates what it may reach and how much of it. A correct OAuth token with a Test-access developer token cannot touch a production account, and no amount of re-authorising will fix it — that is an application to Google, not a token refresh.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Google Ads Authentication
 name_suffix: Authentication

@@ -42,6 +42,7 @@ api_specs:
   slug: palenca-vech-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/openapi/palenca-vech-version-api-openapi.yml
+certification_count: 1
 certifications:
 - ISO/IEC 27001
 description: ''

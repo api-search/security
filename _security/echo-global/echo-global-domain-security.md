@@ -48,6 +48,12 @@ api_specs:
   slug: echo-global-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-token-api-openapi.yml
+- filename: echosync-carrier-api.json
+  format: json
+  label: EchoSync Carrier API
+  slug: carrier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echosync-carrier-api.json
 description: ''
 domains:
 - caa: []
@@ -79,6 +85,7 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

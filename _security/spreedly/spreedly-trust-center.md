@@ -156,6 +156,7 @@ api_specs:
   slug: spreedly-void-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-void-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - PCI DSS

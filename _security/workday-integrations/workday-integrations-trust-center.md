@@ -96,6 +96,7 @@ api_specs:
   slug: workday-integrations-workers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-integrations/refs/heads/main/openapi/workday-integrations-workers-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

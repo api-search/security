@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Filed GraphQL API authentication profile. A two-step token model: a long-lived, workspace-scoped API key created in the Filed web app is exchanged at request time for a short-lived (~30 min) access token sent as a Bearer credential. MCP clients use OAuth instead of an API key.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Filed Authentication
 name_suffix: Authentication

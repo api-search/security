@@ -24,6 +24,7 @@ api_specs:
   slug: jitterbit-schedules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/openapi/jitterbit-schedules-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

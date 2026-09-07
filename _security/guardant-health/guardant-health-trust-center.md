@@ -12,6 +12,7 @@ api_specs:
   slug: guardant-health-results-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/guardant-health/refs/heads/main/openapi/guardant-health-results-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2
 - ISO 27001

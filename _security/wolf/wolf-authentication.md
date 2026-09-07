@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Authentication profile for the Wolf staffing-platform API, derived from the published developer documentation. Wolf is multi-tenant: every request must carry a tenant key plus one of two credentials — a platform API key (acting on behalf of the staffing company / tenant) or a user authentication token (acting on behalf of a job seeker or client). No OAuth 2.0 / OpenID Connect authorization server is documented.'
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Wolf Authentication
 name_suffix: Authentication

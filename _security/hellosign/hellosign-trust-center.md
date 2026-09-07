@@ -78,6 +78,7 @@ api_specs:
   slug: hellosign-callbacks-and-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-callbacks-and-events-api-openapi.yml
+certification_count: 4
 certifications:
 - HIPAA
 - ISO 9001

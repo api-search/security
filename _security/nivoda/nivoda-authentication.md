@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - bearer
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Nivoda Authentication
 name_suffix: Authentication

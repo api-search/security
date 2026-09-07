@@ -14,6 +14,7 @@ hosts:
   https: true
   note: site returns HTTP 402 DEPLOYMENT_DISABLED (Vercel deployment disabled); HSTS header observed on the 402 response 2026-07-21
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

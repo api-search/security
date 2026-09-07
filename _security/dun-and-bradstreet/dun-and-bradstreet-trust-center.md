@@ -48,6 +48,7 @@ api_specs:
   slug: dun-and-bradstreet-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/openapi/dun-and-bradstreet-search-api-openapi.yml
+certification_count: 9
 certifications:
 - SOC 2 Type 2
 - SOC 3

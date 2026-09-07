@@ -108,6 +108,7 @@ api_specs:
   slug: threatlocker-vdihyperv-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-vdihyperv-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - ISO 27001

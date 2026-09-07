@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: spotlight-rules-rules-api-openapi.yml
-  format: yaml
-  label: Spotlight Rules Rules API
-  slug: spotlight-rules-rules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotlight-rules/refs/heads/main/openapi/spotlight-rules-rules-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -14,11 +7,12 @@ domains:
   domain: spotlight-rules.com
   spf: false
 hosts:
-- cert_expires: Aug 12 22:17:27 2026 GMT
+- cert_expires: Oct 11 05:19:41 2026 GMT
   host: spotlight-rules.com
-  hsts: null
+  hsts: false
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -31,11 +25,20 @@ slug: spotlight-rules-domain-security
 source_filename: spotlight-rules-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spotlight-rules.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 22:17:27 2026 GMT\n  hsts: null\ndomains:\n- domain: spotlight-rules.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spotlight-rules.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 05:19:41 2026 GMT\n  hsts: false\ndomains:\n- domain: spotlight-rules.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spotlight-rules/refs/heads/main/security/spotlight-rules-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- Rules
-- Spotlight
-- Governance
+- API Governance
+- API Linting
+- Spectral
+- Rulesets
+- OpenAPI
+- AsyncAPI
+- Arazzo
+- JSON Schema
+- Specifications
+- Open Source
+- Developer Tools
+- API Design
 ---

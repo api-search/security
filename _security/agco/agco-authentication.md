@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -20,11 +21,18 @@ api_specs:
   slug: agco-telemetry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/openapi/agco-telemetry-api-openapi.yml
+- filename: agco-ats-api-openapi.json
+  format: json
+  label: AGCO ATS API
+  slug: agco-ats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/openapi/agco-ats-api-openapi.json
 auth_types:
 - apiKey
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: derived
 name: Agco Authentication
 name_suffix: Authentication
@@ -38,15 +46,23 @@ schemes:
   name: apiKey
   parameter: Authorization
   sources:
-  - openapi/agco-agcommand-api-openapi.yml
+  - openapi/agco-locations-api-openapi.yml
+  - openapi/agco-machines-api-openapi.yml
+  - openapi/agco-telemetry-api-openapi.yml
   type: apiKey
 slug: agco-authentication
 source_filename: agco-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/agco-agcommand-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/agco-agcommand-api-openapi.yml\n"
+source_yaml: "generated: '2026-09-04'\nmethod: derived\nsource: openapi/agco-locations-api-openapi.yml, openapi/agco-machines-api-openapi.yml, openapi/agco-telemetry-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/agco-locations-api-openapi.yml\n  - openapi/agco-machines-api-openapi.yml\n  - openapi/agco-telemetry-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/authentication/agco-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Fortune 500
+- Agriculture
+- Farm Equipment
+- Manufacturing
+- Telematics
+- Precision Agriculture
+- Diagnostics
 ---

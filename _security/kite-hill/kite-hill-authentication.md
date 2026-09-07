@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - none
@@ -9,6 +10,7 @@ auth_types:
 description: Kite Hill publishes no OpenAPI, so this profile is built from live discovery documents and observed responses rather than derived securitySchemes. Five distinct auth postures were observed on 2026-08-23 — and notably, THREE of the machine surfaces answered with no credential at all.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: probed
 name: Kite Hill Authentication
 name_suffix: Authentication

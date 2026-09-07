@@ -252,6 +252,13 @@
           }
       }
     </script>
+
+    {%- comment -%}
+      WebMCP runtime. MUST stay in <head>: page scripts inside {{ content }}
+      call window.apisioWebMCP.register() at parse time, so the global has to
+      exist before the body is parsed.
+    {%- endcomment -%}
+    {% include webmcp.html %}
   </head>
   <body>
     {% include nav.html %}

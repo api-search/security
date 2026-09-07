@@ -24,6 +24,30 @@ api_specs:
   slug: haystack-ai-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-workspaces-api-openapi.yml
+- filename: haystack-config-api-openapi.yml
+  format: yaml
+  label: Haystack Config API
+  slug: haystack-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-config-api-openapi.yml
+- filename: haystack-dashboard-api-openapi.yml
+  format: yaml
+  label: Haystack Dashboard API
+  slug: haystack-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-dashboard-api-openapi.yml
+- filename: haystack-openai-api-openapi.yml
+  format: yaml
+  label: Haystack Openai API
+  slug: haystack-openai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-openai-api-openapi.yml
+- filename: haystack-status-api-openapi.yml
+  format: yaml
+  label: Haystack Status API
+  slug: haystack-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-status-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -57,6 +81,7 @@ hosts:
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

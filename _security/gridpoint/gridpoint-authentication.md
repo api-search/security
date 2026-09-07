@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - oauth2
@@ -6,6 +7,7 @@ auth_types:
 description: GridPoint publishes no developer documentation and no OpenAPI, so there is no securityScheme block to derive from. This profile is read entirely from the anonymous OpenID Connect discovery document GridPoint's own authorization server serves, and from the GridPoint Energy Manager application's public JavaScript (window._oauthBaseUrl = "https://identity.gridpoint.com/identity/" in https://ems.gridpoint.com/assets/javascripts/services/apiService.js), which shows the application exchanging and refreshing OAuth 2.0 access/refresh tokens against that endpoint. Nothing here was inferred from marketing copy.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Gridpoint Authentication
 name_suffix: Authentication

@@ -30,6 +30,7 @@ api_specs:
   slug: trade-desk-ipaddress-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-ipaddress-api-openapi.yml
+certification_count: 4
 certifications:
 - SSAE18 SOC 2 Type 2
 - SSAE18 SOC 1

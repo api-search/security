@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: qc-ware-files-api-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Qc Ware Authentication
 name_suffix: Authentication

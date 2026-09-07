@@ -6,6 +6,7 @@ api_specs:
   slug: microsoft-graph-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
+certification_count: 1
 certifications:
 - GDPR
 description: ''

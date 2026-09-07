@@ -132,6 +132,7 @@ api_specs:
   slug: clear-street-watchlist-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-watchlist-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''

@@ -198,6 +198,7 @@ api_specs:
   slug: happyrobot-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/openapi/happyrobot-workflows-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2 Type II
 - GDPR

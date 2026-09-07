@@ -162,6 +162,7 @@ api_specs:
   slug: podium-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-webhook-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

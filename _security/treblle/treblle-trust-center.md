@@ -36,6 +36,7 @@ api_specs:
   slug: treblle-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/openapi/treblle-requests-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

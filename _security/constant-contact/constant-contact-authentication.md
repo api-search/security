@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -122,6 +123,7 @@ auth_types:
 description: 'Constant Contact V3 authenticates every request with an OAuth2 JWT bearer access token. There is no API-key-only path to the API: the value the developer portal calls an "API key" IS the OAuth2 client_id, not a standalone credential.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Constant Contact Authentication
 name_suffix: Authentication

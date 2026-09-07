@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: university-of-florida-schedule-of-courses-openapi.yml
@@ -19,6 +20,7 @@ description: 'Both institution-operated University of Florida APIs are entirely 
   That has a consequence worth stating plainly: an agent can consume both APIs today with zero onboarding, and UF has no mechanism to identify, throttle or revoke any consumer.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: University Of Florida Authentication
 name_suffix: Authentication

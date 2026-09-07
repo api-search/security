@@ -29,6 +29,7 @@ hosts:
   https: true
   note: CNAME to Atlassian Jira Service Management; root 302s to a servicedesk login
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

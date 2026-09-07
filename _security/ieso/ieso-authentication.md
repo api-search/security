@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in:
 - header
 - basic-username
@@ -11,6 +12,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 5
 method: searched
 name: Ieso Authentication
 name_suffix: Authentication

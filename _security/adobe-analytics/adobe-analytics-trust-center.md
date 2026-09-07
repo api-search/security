@@ -174,6 +174,7 @@ api_specs:
   slug: adobe-analytics-virtual-report-suites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-virtual-report-suites-api-openapi.yml
+certification_count: 15
 certifications:
 - FedRAMP Tailored
 - SOC 2 Type 2

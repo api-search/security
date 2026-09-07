@@ -12,6 +12,7 @@ api_specs:
   slug: vistra-incorporations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/openapi/vistra-incorporations-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001
 - PCI DSS

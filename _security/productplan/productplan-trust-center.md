@@ -48,6 +48,7 @@ api_specs:
   slug: productplan-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/productplan/refs/heads/main/openapi/productplan-users-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

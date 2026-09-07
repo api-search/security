@@ -12,6 +12,7 @@ api_specs:
   slug: inkeep-chat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/inkeep/refs/heads/main/openapi/inkeep-chat-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

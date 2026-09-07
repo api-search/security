@@ -43,6 +43,7 @@ hosts:
 - host: go.may.app
   https: false
   note: Present in certificate-transparency logs but does not resolve in DNS. Almost certainly a retired link-shortener/deep-link host (the site's app-download buttons now point at app.adjust.com).
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

@@ -66,6 +66,7 @@ api_specs:
   slug: logicgate-workflow-map-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-workflow-map-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

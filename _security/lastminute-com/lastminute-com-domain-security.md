@@ -34,6 +34,7 @@ hosts:
   hsts: null
   https: true
   notes: engineering blog; no HSTS header observed
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

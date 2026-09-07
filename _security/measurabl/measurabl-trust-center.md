@@ -144,6 +144,7 @@ api_specs:
   slug: measurabl-waste-meters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/openapi/measurabl-waste-meters-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2 Type 2
 - ISO 27001:2013

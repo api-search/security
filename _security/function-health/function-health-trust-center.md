@@ -24,6 +24,7 @@ api_specs:
   slug: function-health-chatgpt-app
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/function-health/refs/heads/main/openapi/_original/function-health-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

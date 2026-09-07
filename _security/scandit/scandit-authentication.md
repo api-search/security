@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - sdk-configuration
 auth_types:
@@ -6,6 +7,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Scandit Authentication
 name_suffix: Authentication

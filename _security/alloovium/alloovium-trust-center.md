@@ -6,6 +6,7 @@ api_specs:
   slug: alloovium-api
   spec_type: OpenAPI
   url: https://api.alloovium.com/api/v2/openapi.json
+certification_count: 2
 certifications:
 - SOC 2 Type I
 - ISO 27001

@@ -36,6 +36,7 @@ api_specs:
   slug: bolt-eu-bolt-stores-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-bolt-stores-api-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - PCI DSS

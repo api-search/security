@@ -360,6 +360,7 @@ api_specs:
   slug: controlup-windowsevents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/openapi/controlup-windowsevents-api-openapi.yml
+certification_count: 9
 certifications:
 - ISO/IEC 27001:2022
 - ISO/IEC 27017:2015

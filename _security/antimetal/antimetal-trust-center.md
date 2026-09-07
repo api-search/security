@@ -18,6 +18,7 @@ api_specs:
   slug: antimetal-query-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/openapi/antimetal-query-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - HIPAA

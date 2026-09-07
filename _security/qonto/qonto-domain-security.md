@@ -108,6 +108,7 @@ hosts:
   https: true
   note: Developer documentation (Mintlify-style, llms.txt published).
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

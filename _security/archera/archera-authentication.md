@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -62,6 +63,7 @@ auth_types:
 description: 'The Archera Public API supports two authentication mechanisms: a static API key sent in the x-api-key header, and OAuth 2.0 Authorization Code with PKCE (also used by the hosted MCP server, with Dynamic Client Registration).'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Archera Authentication
 name_suffix: Authentication

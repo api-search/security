@@ -6,6 +6,7 @@ api_specs:
   slug: healthie-graphql-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/asyncapi/healthie-webhooks-asyncapi.yml
+certification_count: 7
 certifications:
 - HIPAA
 - SOC 2 Type 2

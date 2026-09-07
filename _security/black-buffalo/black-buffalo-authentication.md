@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types:
 - none
@@ -8,6 +9,7 @@ auth_types:
 description: Black Buffalo publishes no OpenAPI, so this profile is built from live discovery documents and observed responses rather than derived securitySchemes. Four distinct auth postures were observed on 2026-08-07 — and notably, THREE of the four machine surfaces answered with no credential at all.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: probed
 name: Black Buffalo Authentication
 name_suffix: Authentication

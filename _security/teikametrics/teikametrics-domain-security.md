@@ -28,6 +28,7 @@ hosts:
   note: CloudFront-fronted SPA (app.production.teikametrics.com).
   role: application
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

@@ -216,6 +216,7 @@ api_specs:
   slug: adobe-launch-states-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-states-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2 Type 2
 - ISO/IEC 27001

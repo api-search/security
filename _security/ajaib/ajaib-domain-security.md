@@ -53,6 +53,7 @@ hosts:
   https: true
   note: 'Same as ajaib.co.id: HSTS confirmed by browser-UA HEAD on 2026-08-06; the host is behind a Cloudflare bot challenge (403 on every path).'
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

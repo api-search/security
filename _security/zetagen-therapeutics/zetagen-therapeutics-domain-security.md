@@ -74,6 +74,7 @@ hosts:
   note: alt-svc advertises h3, h3-29 and several draft QUIC versions. No Strict-Transport-Security header on the site root or on /wp-json responses. API responses carry x-content-type-options nosniff and x-robots-tag noindex.
   server: LiteSpeed
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

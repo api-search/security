@@ -60,6 +60,7 @@ api_specs:
   slug: clicksend-voice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-voice-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

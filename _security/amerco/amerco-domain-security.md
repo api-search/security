@@ -45,6 +45,7 @@ hosts:
   - X-XSS-Protection
   - Content-Security-Policy
   tls_version: TLSv1.2
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

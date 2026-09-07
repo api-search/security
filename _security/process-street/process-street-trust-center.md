@@ -168,6 +168,7 @@ api_specs:
   slug: process-street-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/process-street/refs/heads/main/openapi/process-street-workflows-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

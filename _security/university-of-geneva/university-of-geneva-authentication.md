@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: university-of-geneva-access-api-openapi.yml
@@ -23,6 +24,7 @@ auth_types: []
 description: How the University of Geneva's institution-operated surfaces authenticate. There is no single institutional API gateway, no developer key issuance, and no self-service credential flow of any kind — UNIGE's programmable surfaces are either fully anonymous (open-science harvesting) or gated behind the university's own SWITCH edu-ID / SWITCHaai (Shibboleth SAML 2.0) identity, which is available to affiliates and federation partners rather than to the public.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: University Of Geneva Authentication
 name_suffix: Authentication

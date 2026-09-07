@@ -1,35 +1,18 @@
 ---
 api_specs:
-- filename: atlassian-confluence-content-v1-api-openapi.yml
-  format: yaml
-  label: Atlassian Confluence Content (v1) API
-  slug: atlassian-confluence-content-v1-api
+- filename: atlassian-confluence-rest-v2-openapi.json
+  format: json
+  label: Confluence Cloud REST API v2
+  slug: confluence-cloud-rest-api-v2
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-confluence/refs/heads/main/openapi/atlassian-confluence-content-v1-api-openapi.yml
-- filename: atlassian-confluence-labels-v2-api-openapi.yml
-  format: yaml
-  label: Atlassian Confluence Labels (v2) API
-  slug: atlassian-confluence-labels-v2-api
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-confluence/refs/heads/main/openapi/atlassian-confluence-rest-v2-openapi.json
+- filename: atlassian-confluence-rest-v1-openapi.json
+  format: json
+  label: Confluence Cloud REST API v1
+  slug: confluence-cloud-rest-api-v1
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-confluence/refs/heads/main/openapi/atlassian-confluence-labels-v2-api-openapi.yml
-- filename: atlassian-confluence-pages-v2-api-openapi.yml
-  format: yaml
-  label: Atlassian Confluence Pages (v2) API
-  slug: atlassian-confluence-pages-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-confluence/refs/heads/main/openapi/atlassian-confluence-pages-v2-api-openapi.yml
-- filename: atlassian-confluence-search-v1-api-openapi.yml
-  format: yaml
-  label: Atlassian Confluence Search (v1) API
-  slug: atlassian-confluence-search-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-confluence/refs/heads/main/openapi/atlassian-confluence-search-v1-api-openapi.yml
-- filename: atlassian-confluence-spaces-v2-api-openapi.yml
-  format: yaml
-  label: Atlassian Confluence Spaces (v2) API
-  slug: atlassian-confluence-spaces-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-confluence/refs/heads/main/openapi/atlassian-confluence-spaces-v2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-confluence/refs/heads/main/openapi/atlassian-confluence-rest-v1-openapi.json
+certification_count: 1
 certifications:
 - FedRAMP
 description: ''
@@ -44,7 +27,7 @@ slug: atlassian-confluence-trust-center
 source_filename: atlassian-confluence-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.atlassian.com/trust\nurl: https://www.atlassian.com/trust\ncertifications:\n- FedRAMP\nevidence:\n- source: https://www.atlassian.com/trust\n  keywords:\n  - fedramp\n  - trust center\n"
+source_yaml: "generated: '2026-09-06'\nmethod: searched\nprobe: true\nsource: https://www.atlassian.com/trust\nurl: https://www.atlassian.com/trust\ncertifications:\n- FedRAMP\nevidence:\n- source: https://www.atlassian.com/trust\n  keywords:\n  - fedramp\n  - trust center\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlassian-confluence/refs/heads/main/security/atlassian-confluence-trust-center.yml
 summary_line: FedRAMP
 tags:
@@ -54,5 +37,9 @@ tags:
 - Documentation
 - Knowledge-Management
 - Wiki
+- MCP
+- GraphQL
+- Agents
+- Productivity
 trust_url: https://www.atlassian.com/trust
 ---

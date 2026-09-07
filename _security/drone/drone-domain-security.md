@@ -60,6 +60,36 @@ api_specs:
   slug: drone-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/openapi/drone-users-api-openapi.yml
+- filename: drone-ci-builds-api-openapi.yml
+  format: yaml
+  label: Drone Builds API
+  slug: drone-ci-builds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/openapi/drone-ci-builds-api-openapi.yml
+- filename: drone-ci-cron-api-openapi.yml
+  format: yaml
+  label: Drone Cron API
+  slug: drone-ci-cron-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/openapi/drone-ci-cron-api-openapi.yml
+- filename: drone-ci-secrets-api-openapi.yml
+  format: yaml
+  label: Drone Secrets API
+  slug: drone-ci-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/openapi/drone-ci-secrets-api-openapi.yml
+- filename: drone-ci-templates-api-openapi.yml
+  format: yaml
+  label: Drone Templates API
+  slug: drone-ci-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/openapi/drone-ci-templates-api-openapi.yml
+- filename: drone-ci-user-api-openapi.yml
+  format: yaml
+  label: Drone User API
+  slug: drone-ci-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/openapi/drone-ci-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -80,6 +110,7 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

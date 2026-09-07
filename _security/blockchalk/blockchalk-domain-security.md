@@ -45,6 +45,7 @@ hosts:
   https: false
   resolves: false
   tls: not-testable
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

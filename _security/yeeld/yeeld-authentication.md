@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Authentication profile for the Yeeld Surcharging API, read from Yeeld's public integration guides. Yeeld publishes no OpenAPI, so no securityScheme could be derived; everything below is stated in prose on the pages cited and nothing is inferred. The full parameter-level reference is gated — theyeeld.com/products/surcharging-api answers "Is there a sandbox or API docs? Yes. Contact us to get access."
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Yeeld Authentication
 name_suffix: Authentication

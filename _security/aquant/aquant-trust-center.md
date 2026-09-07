@@ -66,6 +66,7 @@ api_specs:
   slug: aquant-technician-proximity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-technician-proximity-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001

@@ -120,6 +120,7 @@ api_specs:
   slug: binarly-vulnerability-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-vulnerability-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

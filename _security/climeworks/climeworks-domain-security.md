@@ -21,6 +21,7 @@ hosts:
   https: true
   note: Climeworks customer platform login, served on Salesforce Experience Cloud (siteforce); added manually because it is an apis.yml Login property rather than a Website/baseURL host.
   tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed

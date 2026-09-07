@@ -12,6 +12,7 @@ api_specs:
   slug: cuein-conversations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/openapi/cuein-conversations-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

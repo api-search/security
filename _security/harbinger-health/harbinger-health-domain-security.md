@@ -232,6 +232,7 @@ hosts:
   https: true
   note: 'Fronted by Cloudflare (server: cloudflare). No Strict-Transport-Security header was returned on any probed path, so HSTS is not asserted for this origin.'
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed

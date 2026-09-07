@@ -162,6 +162,7 @@ api_specs:
   slug: birdeye-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-webhook-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2 Type II
 - ISO/IEC 27001

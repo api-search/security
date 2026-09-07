@@ -102,6 +102,7 @@ api_specs:
   slug: appcharge-triggered-popups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/openapi/appcharge-triggered-popups-api-openapi.yml
+certification_count: 2
 certifications:
 - PCI DSS Level 1
 - SOC 2 Type II

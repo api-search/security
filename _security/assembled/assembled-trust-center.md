@@ -162,6 +162,7 @@ api_specs:
   slug: assembled-working-hours-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/openapi/assembled-working-hours-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - GDPR

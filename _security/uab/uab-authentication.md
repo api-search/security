@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: uab-ddd-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: UAB's programmable surface splits cleanly in two on authentication. Everything that carries scholarly metadata out of the institution — OAI-PMH harvesting and Invenio export at ddd, traces, ifmuc and the journal platform — is open and anonymous, with no key, no registration and no quota published. Everything that touches a person is behind the institution's own Apereo CAS server, which speaks CAS 3.0 to UAB applications and SAML 2.0 to federated relying parties. There is no API-key programme, no OAuth authorization server for third-party developers, and no self-service developer registration anywhere on the estate.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Uab Authentication
 name_suffix: Authentication

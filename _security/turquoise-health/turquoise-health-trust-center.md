@@ -6,6 +6,7 @@ api_specs:
   slug: turquoise-health-consumer-pricing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/openapi/turquoise-health-consumer-pricing-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type II
 - HIPAA

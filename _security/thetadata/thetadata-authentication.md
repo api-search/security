@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - cli-argument
 - environment-variable
@@ -46,6 +47,7 @@ auth_types:
 description: 'ThetaData authenticates at the session level, not per HTTP request. The published OpenAPI declares security: [] because the local REST API served by the Theta Terminal (127.0.0.1:25503/v3) is an unauthenticated loopback surface; credentials are supplied when the terminal (or the Python library client) starts, which opens an authenticated session to ThetaData''s MDDS servers. Requests are additionally IP-pinned to the first requester (error 476 WRONG_IP) and a single terminal session is enforced (error 478 INVALID_SESSION_ID).'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Thetadata Authentication
 name_suffix: Authentication

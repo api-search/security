@@ -39,6 +39,7 @@ hosts:
   https: true
   note: 'Cloudflare managed challenge (cf-mitigated: challenge); GET / returns 403 with no Strict-Transport-Security header.'
   tls_version: TLSv1.3
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

@@ -28,6 +28,7 @@ hosts:
   hsts: unknown
   https: true
   note: UpGuard-hosted trust center (CNAME to UpGuard infrastructure), not eSentire-operated.
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

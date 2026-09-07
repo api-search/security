@@ -468,6 +468,7 @@ api_specs:
   slug: grafana-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/openapi/grafana-users-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

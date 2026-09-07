@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: snov-io-authentication-api-openapi.yml
@@ -73,6 +74,7 @@ auth_types:
 description: Snov.io runs TWO independent OAuth 2.0 deployments that share no credentials, no host and no grant type. The REST API at api.snov.io uses client_credentials to mint a 3600-second Bearer token from an API user id and secret the account holder copies out of the web app. The remote MCP server at mcp.snov.io uses authorization_code with PKCE against an authorization server on app.snov.io, with open dynamic client registration and a single scope named "mcp". A token minted for one will not work on the other.
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Snov Io Authentication
 name_suffix: Authentication

@@ -6,6 +6,7 @@ api_specs:
   slug: ivanti-connect-secure-rest-api
   spec_type: Postman
   url: https://help.ivanti.com/ps/help/en_US/ICS/22.x/apig/rest_api_soln_guide/ics_postman_apis.htm
+certification_count: 9
 certifications:
 - SOC 2 Type 2
 - ISO/IEC 27001

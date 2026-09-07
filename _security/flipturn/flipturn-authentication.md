@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: flipturn-access-ids-api-openapi.yml
@@ -84,6 +85,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Flipturn Authentication
 name_suffix: Authentication

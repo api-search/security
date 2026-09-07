@@ -144,6 +144,7 @@ api_specs:
   slug: braze-user-data-external-id-migration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/openapi/braze-user-data-external-id-migration-api-openapi.yml
+certification_count: 4
 certifications:
 - ISO 27001
 - SOC 2 Type 2

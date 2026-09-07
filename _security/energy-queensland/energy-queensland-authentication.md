@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: energy-queensland-data-holder-customers-api-openapi.yml
@@ -64,6 +65,7 @@ description: 'Energy Queensland''s API estate has exactly two authentication pos
   the standard and from live behaviour, not derived by 0-working/derive-authentication.py, which found nothing to derive.'
 kind: authentication
 layout: security
+mechanism_count: 3
 method: searched
 name: Energy Queensland Authentication
 name_suffix: Authentication

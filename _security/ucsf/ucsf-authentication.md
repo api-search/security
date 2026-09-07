@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: ucsf-documents-api-openapi.yml
@@ -17,6 +18,7 @@ auth_types: []
 description: Authentication posture across every institution-operated UCSF surface API Evangelist was able to reach and verify from the public internet.
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Ucsf Authentication
 name_suffix: Authentication

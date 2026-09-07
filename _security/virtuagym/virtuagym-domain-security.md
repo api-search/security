@@ -75,6 +75,7 @@ hosts:
   https: true
   note: Redirects (HTTP 301) to the apex / business host.
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

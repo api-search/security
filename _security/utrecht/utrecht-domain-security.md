@@ -171,6 +171,7 @@ hosts:
   https: true
   operator: tenant
   tls_version: TLSv1.3
+hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed

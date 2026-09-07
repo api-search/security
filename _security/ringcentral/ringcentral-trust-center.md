@@ -474,6 +474,7 @@ api_specs:
   slug: ringcentral-webinars-and-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/openapi/ringcentral-webinars-and-sessions-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
 - ISO 27001

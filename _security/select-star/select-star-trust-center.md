@@ -156,6 +156,7 @@ api_specs:
   slug: select-star-terms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-terms-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2 Type II
 description: Select Star's published security and compliance posture. Formal reports are shared under MNDA on request rather than via a self-service trust portal.

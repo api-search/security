@@ -1,4 +1,5 @@
 ---
+certification_count: 7
 certifications:
 - ISO/IEC 27001:2022
 - O-TTPS (ISO/IEC 20243:2023)

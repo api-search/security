@@ -1,4 +1,5 @@
 ---
+certification_count: 9
 certifications:
 - ISO 9001
 - ISO 27001

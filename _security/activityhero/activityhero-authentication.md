@@ -1,10 +1,12 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types:
 - signature
 description: ActivityHero's provider integration (Registration API and Schedule API) does not use API keys, OAuth, or bearer tokens for its request/response surface. Instead, webhook payloads are authenticated with an HMAC-SHA256 signature so the receiver can verify the message originated from ActivityHero (and, symmetrically, so ActivityHero can verify inbound schedule syncs).
 kind: authentication
 layout: security
+mechanism_count: 1
 method: searched
 name: Activityhero Authentication
 name_suffix: Authentication

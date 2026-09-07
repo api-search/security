@@ -108,6 +108,7 @@ api_specs:
   slug: rainforest-qa-vm-stack-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/openapi/rainforest-qa-vm-stack-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

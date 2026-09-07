@@ -240,6 +240,7 @@ api_specs:
   slug: adobe-spacesurl-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-spacesurl-api-openapi.yml
+certification_count: 12
 certifications:
 - SOC 2
 - ISO 27001

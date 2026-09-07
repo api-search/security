@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: 'Giveffect does not publish how its API is authenticated. There is no developer portal, no auth page, no OAuth or OIDC discovery document, and no OpenAPI with securitySchemes to derive from. Probing the production API host anonymously does not reveal the scheme either: unknown paths return 404 rather than a 401 with a WWW-Authenticate challenge, so the service does not advertise its challenge to an unauthenticated caller. NO Authentication pointer is emitted from this file — it records that the auth model is undocumented, which is the opposite of authentication_documented.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: searched
 name: Giveffect Authentication
 name_suffix: Authentication

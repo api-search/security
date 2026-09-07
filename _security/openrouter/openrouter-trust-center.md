@@ -42,6 +42,7 @@ api_specs:
   slug: openrouter-providers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-providers-api-openapi.yml
+certification_count: 1
 certifications:
 - SOC 2
 description: ''

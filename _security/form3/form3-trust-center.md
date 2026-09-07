@@ -168,6 +168,7 @@ api_specs:
   slug: form3-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-users-api-openapi.yml
+certification_count: 4
 certifications:
 - SOC 2
 - ISO 27001

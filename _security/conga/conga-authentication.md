@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: conga-2-order-actions-api-openapi.yml
@@ -2076,6 +2077,7 @@ auth_types:
 description: 'Conga''s REST API requires an OAuth 2.0 bearer token. Machine-to-machine access uses the client_credentials grant with a client_id/client_secret issued to an Integration User or an API-to-API connection. The token is obtained from a region-specific Conga login endpoint and passed as an Authorization: Bearer header on subsequent API calls. When using the API-to-API flow, callers also send a `user-id` header carrying the platform user ID so the API can apply the correct permissions.'
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Conga Authentication
 name_suffix: Authentication

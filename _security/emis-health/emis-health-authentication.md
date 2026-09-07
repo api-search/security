@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: emis-health-appointments-api-openapi.yml
@@ -68,6 +69,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Emis Health Authentication
 name_suffix: Authentication

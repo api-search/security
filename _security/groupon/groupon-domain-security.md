@@ -8,12 +8,13 @@ domains:
   domain: groupon.com
   spf: true
 hosts:
-- cert_expires: Aug 23 10:41:14 2026 GMT
+- cert_expires: Oct 21 13:46:34 2026 GMT
   host: www.groupon.com
   hsts: true
   hsts_max_age: 2592000
   https: true
   tls_version: TLSv1.3
+hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
@@ -26,9 +27,17 @@ slug: groupon-domain-security
 source_filename: groupon-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.groupon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 10:41:14 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: groupon.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.groupon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 13:46:34 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: groupon.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groupon/refs/heads/main/security/groupon-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Fortune 1000
+- Local Commerce
+- Marketplace
+- E-Commerce
+- Deals
+- Bookings
+- Reservations
+- Travel
+- Retail
 ---

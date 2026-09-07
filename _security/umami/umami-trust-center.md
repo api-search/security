@@ -42,6 +42,7 @@ api_specs:
   slug: umami-websites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-websites-api-openapi.yml
+certification_count: 0
 certifications: []
 description: Umami publishes a detailed security page covering privacy-by-design, encryption, access control, secure development, infrastructure, incident response, data retention/deletion and responsible disclosure. It also publishes an unusually honest assurance table that states plainly what it has NOT certified.
 kind: trust-center

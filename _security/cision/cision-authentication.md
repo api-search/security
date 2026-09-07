@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - header
 api_specs:
@@ -19,6 +20,7 @@ auth_types:
 description: Cision runs two separately-authenticated API surfaces, both token-based and neither using OAuth. The CisionOne API takes a long-lived API token minted in the CisionOne Admin panel and passed as the X-Auth-Token header. The Next Generation Cision Communications Cloud API (served on the api.trendkite.com host Cision inherited with its 2019 TrendKite acquisition) exchanges platform username/password credentials for an access_token at POST /api/login and then passes that token on the same X-Auth-Token header.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Cision Authentication
 name_suffix: Authentication

@@ -28,6 +28,7 @@ hosts:
   https: null
   note: no A record resolvable
   tls_version: null
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

@@ -54,6 +54,7 @@ api_specs:
   slug: shippo-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/openapi/shippo-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - PCI DSS

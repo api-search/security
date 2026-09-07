@@ -132,6 +132,7 @@ api_specs:
   slug: replicated-vms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-vms-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - CSA STAR

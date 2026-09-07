@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: index.html
+- filename: corva-ai-platform-api-openapi.yml
+  format: yaml
+  label: Corva Platform API
+  slug: corva-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/openapi/corva-ai-platform-api-openapi.yml
+- filename: corva-ai-data-api-openapi.yml
   format: yaml
   label: Corva Data API
   slug: corva-data-api
   spec_type: OpenAPI
-  url: https://api.corva.ai/documentation/index.html
+  url: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/openapi/corva-ai-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -15,23 +21,24 @@ domains:
   domain: corva.ai
   spf: true
 hosts:
-- cert_expires: Sep 27 16:58:10 2026 GMT
+- cert_expires: Nov 30 04:01:47 2026 GMT
   host: www.corva.ai
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct  8 23:59:59 2026 GMT
+- cert_expires: Feb 23 23:59:59 2027 GMT
   host: api.corva.ai
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 18 23:59:59 2026 GMT
+- cert_expires: Mar 20 23:59:59 2027 GMT
   host: dc-docs.corva.ai
   hsts: false
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
@@ -44,23 +51,29 @@ slug: corva-ai-domain-security
 source_filename: corva-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.corva.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 16:58:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.corva.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: dc-docs.corva.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: corva.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.corva.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 04:01:47 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.corva.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 23 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: dc-docs.corva.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 20 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: corva.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/security/corva-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Artificial Intelligence
 - Analytics
+- Artificial Intelligence
 - Completions
 - Custom Apps
 - Data API
 - Dev Center
+- Dev Center Apps
 - Drilling
 - Energy
 - Geoscience
 - Oil and Gas
+- Platform API
 - Predictive Drilling
 - Python SDK
 - Real-Time
+- Real-Time Analytics
 - Sensor Data
 - Sustainability
+- Time Series
+- WITS
+- Well Data
 ---

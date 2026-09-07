@@ -96,6 +96,7 @@ hosts:
   hsts_note: 'The probe records null because the host root returns an nginx 404 with no security headers. A GET of a real CDS endpoint on the same host (/cds-au/v1/discovery/status) does return strict-transport-security: max-age=63072000; includeSubDomains, plus x-content-type-options: nosniff and x-frame-options: DENY. HSTS is present on the API responses that matter.'
   https: true
   tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

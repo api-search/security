@@ -18,6 +18,7 @@ api_specs:
   slug: swisscom-signatures-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/openapi/swisscom-signatures-api-openapi.yml
+certification_count: 3
 certifications:
 - Qualified certification service provider under ZertES
 - Qualified trust service provider under eIDAS

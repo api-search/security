@@ -1,4 +1,5 @@
 ---
+certification_count: 2
 certifications:
 - ISO 27001:2013
 - ISO 9001:2015

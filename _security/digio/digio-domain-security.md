@@ -55,6 +55,7 @@ hosts:
   http_status: 200
   https: true
   tls_issuer: Amazon RSA 2048 M04
+hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed

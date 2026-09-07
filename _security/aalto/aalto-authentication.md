@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: aalto-facilities-api-openapi.yml
@@ -35,6 +36,7 @@ auth_types: []
 description: 'How Aalto University''s institution-operated API surfaces authenticate. Two distinct regimes are in play: every Aalto API Gateway product is API-key gated and returns 403 to an anonymous caller, while the Aaltodoc repository''s OAI-PMH and DSpace REST read surfaces are fully anonymous. Separately, Aalto operates its own Shibboleth SAML 2.0 identity provider for browser-based sign-in to campus services, which is federation infrastructure rather than an API credential.'
 kind: authentication
 layout: security
+mechanism_count: 0
 method: probed
 name: Aalto Authentication
 name_suffix: Authentication

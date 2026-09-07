@@ -162,6 +162,7 @@ api_specs:
   slug: leadping-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-wallets-api-openapi.yml
+certification_count: 0
 certifications: []
 description: ''
 kind: trust-center

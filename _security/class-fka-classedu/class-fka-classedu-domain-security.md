@@ -64,6 +64,7 @@ hosts:
   tls_version: TLSv1.3
 - host: your-organization.class.com
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

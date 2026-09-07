@@ -1,9 +1,11 @@
 ---
+anonymous_access: true
 api_key_in: []
 auth_types: []
 description: TripleLift runs three distinct authentication regimes across its API surface. The Reporting API uses a paired static API key plus a monthly-rotating JWT, both sent as headers on every request. The TripleLift platform (app.triplelift.com and the federated GraphQL gateway) uses an Auth0 OpenID Connect tenant with authorization_code + PKCE and a large scope catalog. The TLX exchange endpoint is not authenticated with a credential at all — a supplier is identified by a supplier_id query parameter issued during onboarding and by IP/host allowlisting.
 kind: authentication
 layout: security
+mechanism_count: 4
 method: searched
 name: Triplelift Authentication
 name_suffix: Authentication

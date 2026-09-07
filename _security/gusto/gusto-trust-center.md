@@ -66,6 +66,7 @@ api_specs:
   slug: gusto-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-webhooks-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - HIPAA

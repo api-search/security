@@ -156,6 +156,7 @@ api_specs:
   slug: optibus-work-entities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optibus/refs/heads/main/openapi/optibus-work-entities-api-openapi.yml
+certification_count: 2
 certifications:
 - ISO 27001:2022
 - SOC 2

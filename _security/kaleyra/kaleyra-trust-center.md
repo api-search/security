@@ -24,6 +24,7 @@ api_specs:
   slug: kaleyra-voice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/openapi/kaleyra-voice-api-openapi.yml
+certification_count: 5
 certifications:
 - ISO 27001
 - SOC 2

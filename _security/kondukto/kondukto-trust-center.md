@@ -66,6 +66,7 @@ api_specs:
   slug: kondukto-vulnerabilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-vulnerabilities-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2 Type 2
 - ISO 27001:2025

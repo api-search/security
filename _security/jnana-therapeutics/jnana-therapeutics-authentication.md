@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: jnana-therapeutics-comments-api-openapi.yml
@@ -77,6 +78,7 @@ auth_types: []
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 1
 method: probed
 name: Jnana Therapeutics Authentication
 name_suffix: Authentication

@@ -1,9 +1,11 @@
 ---
+anonymous_access: false
 api_key_in: []
 auth_types: []
 description: Every.org's Partner (Charity) API authenticates with two classes of API key issued from the Every.org developer dashboard. Public keys authorize read access to publicly available nonprofit data and are passed as a URL query parameter; private keys authorize privileged account actions and are presented over HTTP Basic authentication with a public key as the username. There is no OAuth 2.0, OpenID Connect, or mutual-TLS surface — no /.well-known/oauth-authorization-server or /.well-known/openid-configuration document is served on any Every.org host (all probed 404 on 2026-08-28).
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Every Org Authentication
 name_suffix: Authentication

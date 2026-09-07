@@ -18,6 +18,7 @@ api_specs:
   slug: aws-braket-spendinglimits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-braket/refs/heads/main/openapi/aws-braket-spendinglimits-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

@@ -30,6 +30,7 @@ api_specs:
   slug: prometeo-payment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/openapi/prometeo-payment-api-openapi.yml
+certification_count: 3
 certifications:
 - ISO 27001
 - SOC 2

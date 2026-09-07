@@ -420,6 +420,7 @@ api_specs:
   slug: appsflyer-url-validation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/openapi/appsflyer-url-validation-api-openapi.yml
+certification_count: 10
 certifications:
 - SOC 2
 - ISO 27001

@@ -1,4 +1,5 @@
 ---
+certification_count: 4
 certifications:
 - GDPR
 - SOC 2 Type II

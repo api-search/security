@@ -1,4 +1,5 @@
 ---
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: kallyope-discovery-api-openapi.yml
@@ -43,6 +44,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
+mechanism_count: 2
 method: probed
 name: Kallyope Authentication
 name_suffix: Authentication

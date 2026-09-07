@@ -1,4 +1,5 @@
 ---
+anonymous_access: false
 api_key_in:
 - query
 api_specs:
@@ -14,6 +15,7 @@ auth_types:
 description: Authentication profile for the Truth Systems Gateway API. Gateway deploys into the customer's own cloud account (AWS or Azure), so authentication is cloud-native rather than a hosted API key or OAuth surface. The published OpenAPI declares no securitySchemes (the HTTP surface is reached inside the customer deployment); auth is documented on the SDK usage page.
 kind: authentication
 layout: security
+mechanism_count: 2
 method: searched
 name: Truth Systems Authentication
 name_suffix: Authentication

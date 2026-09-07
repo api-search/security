@@ -12,6 +12,7 @@ api_specs:
   slug: g2-data-solutions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-data-solutions-openapi.yaml
+certification_count: 3
 certifications:
 - SOC 2 Type 2
 - SOC 3

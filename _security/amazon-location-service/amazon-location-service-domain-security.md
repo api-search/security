@@ -31,6 +31,7 @@ hosts:
   https: false
 - host: geo.us-east-1.amazonaws.com
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

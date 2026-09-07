@@ -18,6 +18,7 @@ api_specs:
   slug: amazon-service-catalog-provisioned-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/openapi/amazon-service-catalog-provisioned-products-api-openapi.yml
+certification_count: 5
 certifications:
 - PCI DSS
 - HIPAA

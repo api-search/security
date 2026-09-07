@@ -84,6 +84,7 @@ api_specs:
   slug: sign-in-enterprise-watchlists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-watchlists-api-openapi.yml
+certification_count: 2
 certifications:
 - SOC 2
 - ISO 27001

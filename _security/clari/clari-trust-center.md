@@ -96,6 +96,7 @@ api_specs:
   slug: clari-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-user-api-openapi.yml
+certification_count: 6
 certifications:
 - ISO/IEC 27001
 - ISO/IEC 27701

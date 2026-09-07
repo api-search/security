@@ -114,6 +114,7 @@ api_specs:
   slug: logz-io-audit-trail-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-api-openapi.yml
+certification_count: 3
 certifications:
 - SOC 2
 - HIPAA

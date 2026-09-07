@@ -282,6 +282,7 @@ api_specs:
   slug: postman-server-responses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-server-responses-api-openapi.yml
+certification_count: 7
 certifications:
 - SOC 2
 - ISO 27001

@@ -31,6 +31,7 @@ hosts:
   https: false
   https_error: TLS handshake failed
   note: DNS still delegates this host to Render, but the TLS handshake fails entirely, consistent with a deleted or suspended service behind a stale DNS record. No API surface was reachable.
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed

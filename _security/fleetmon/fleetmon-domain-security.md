@@ -250,6 +250,7 @@ hosts:
   tls_version: TLSv1.3
 - host: apiv2.fleetmon.com
   https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
