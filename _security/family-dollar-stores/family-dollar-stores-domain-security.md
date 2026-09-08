@@ -8,9 +8,9 @@ domains:
   domain: familydollar.com
   spf: true
 hosts:
-- cert_expires: Dec 23 23:59:59 2026 GMT
+- cert_expires: Feb  4 23:59:59 2027 GMT
   host: www.familydollar.com
-  hsts: false
+  hsts: null
   https: true
   tls_version: TLSv1.3
 hosts_probed: 1
@@ -26,12 +26,15 @@ slug: family-dollar-stores-domain-security
 source_filename: family-dollar-stores-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.familydollar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 23 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: familydollar.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.familydollar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  4 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: familydollar.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/family-dollar-stores/refs/heads/main/security/family-dollar-stores-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Retail
 - Discount Stores
+- Variety Stores
 - Consumer Goods
+- E-Commerce
+- United States
 - Fortune 500
 ---

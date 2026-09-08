@@ -8,7 +8,7 @@ domains:
   domain: l3harris.com
   spf: true
 hosts:
-- cert_expires: Aug  7 21:53:15 2026 GMT
+- cert_expires: Oct  6 19:07:00 2026 GMT
   host: www.l3harris.com
   hsts: true
   hsts_max_age: 31536000
@@ -27,7 +27,7 @@ slug: exelis-domain-security
 source_filename: exelis-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.l3harris.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug  7 21:53:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: l3harris.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.l3harris.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  6 19:07:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: l3harris.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exelis/refs/heads/main/security/exelis-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
@@ -35,4 +35,9 @@ tags:
 - Defense
 - Acquired
 - L3Harris
+- Electronic Warfare
+- Geospatial
+- Night Vision
+- Government
+- Defunct
 ---

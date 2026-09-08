@@ -104,6 +104,11 @@
 
   <div class="apimcp-card" style="--apimcp-accent: #6c757d;">
     <h4>Get an API key</h4>
+    <!-- roadmap#272 — this said "no email required". The intent was "no form to fill in";
+         what it told a data subject AT THE MOMENT OF COLLECTION was that no email is
+         collected. The callback stores one on every account it creates (auth/index.mjs)
+         and indexes it in the EmailIndex GSI, and a verified email is what joins a second
+         provider to an existing account. The copy has to say what the code does. -->
     <p>Free tier, no form to fill in. Signing in shares your email address with us — we
       store it to create your key and to recognise you if you sign in with another
       provider. See our <a href="/privacy/">Privacy Policy</a> and

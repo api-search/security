@@ -1,56 +1,20 @@
 ---
 api_specs:
-- filename: dome9-api
-  format: yaml
+- filename: dome9-api-openapi.json
+  format: json
   label: Dome9 API
   slug: dome9-api
-  spec_type: Postman
-  url: https://www.postman.com/dome9-security/workspace/dome9-api
-- filename: dome9-awsaccounts-api-openapi.yml
-  format: yaml
-  label: Dome9 AWSAccounts API
-  slug: dome9-awsaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dome9/refs/heads/main/openapi/dome9-awsaccounts-api-openapi.yml
-- filename: dome9-azureaccounts-api-openapi.yml
-  format: yaml
-  label: Dome9 AzureAccounts API
-  slug: dome9-azureaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dome9/refs/heads/main/openapi/dome9-azureaccounts-api-openapi.yml
-- filename: dome9-compliance-api-openapi.yml
-  format: yaml
-  label: Dome9 Compliance API
-  slug: dome9-compliance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dome9/refs/heads/main/openapi/dome9-compliance-api-openapi.yml
-- filename: dome9-googleaccounts-api-openapi.yml
-  format: yaml
-  label: Dome9 GoogleAccounts API
-  slug: dome9-googleaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dome9/refs/heads/main/openapi/dome9-googleaccounts-api-openapi.yml
-- filename: dome9-roles-api-openapi.yml
-  format: yaml
-  label: Dome9 Roles API
-  slug: dome9-roles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dome9/refs/heads/main/openapi/dome9-roles-api-openapi.yml
-- filename: dome9-users-api-openapi.yml
-  format: yaml
-  label: Dome9 Users API
-  slug: dome9-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dome9/refs/heads/main/openapi/dome9-users-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dome9/refs/heads/main/openapi/dome9-api-openapi.json
 description: ''
 domains:
 - caa:
+  - 0 issuewild "sectigo.com"
   - 0 issuewild "letsencrypt.org"
   - 0 issue "ssl.com"
   - 0 issuewild "ssl.com"
   - 0 issue "globalsign.com"
   - 0 issue "digicert.com; cansignhttpexchanges=yes"
-  - 0 issue "pki.goog; cansignhttpexchanges=yes"
   dmarc: true
   dmarc_policy: reject
   dnssec: true
@@ -65,16 +29,16 @@ domains:
 hosts:
 - cert_expires: Jan  2 06:44:08 2027 GMT
   host: www.checkpoint.com
-  hsts: true
-  hsts_max_age: 63072000
+  hsts: false
   https: true
   tls_version: TLSv1.3
 - cert_expires: Feb 13 23:59:59 2027 GMT
   host: api-v2-docs.dome9.com
-  hsts: null
+  hsts: true
+  hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct  1 23:59:59 2026 GMT
+- cert_expires: Mar  3 23:59:59 2027 GMT
   host: api.dome9.com
   hsts: null
   https: true
@@ -92,7 +56,7 @@ slug: dome9-domain-security
 source_filename: dome9-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.checkpoint.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  2 06:44:08 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api-v2-docs.dome9.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 13 23:59:59 2027 GMT\n  hsts: null\n- host: api.dome9.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  1 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: checkpoint.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: dome9.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.checkpoint.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  2 06:44:08 2027 GMT\n  hsts: false\n- host: api-v2-docs.dome9.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.dome9.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  3 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: checkpoint.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"sectigo.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: dome9.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dome9/refs/heads/main/security/dome9-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
