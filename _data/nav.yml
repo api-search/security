@@ -189,10 +189,17 @@ footer:
     - header: Platform
       items:
         - { label: Developer Docs, url: 'https://apis.io/developer/' }
+        # The trust layer, kept adjacent because the three pages are one system and were
+        # previously scattered: /onboarding/ is how you get in, /kya/ is who the caller is, and
+        # /blueprint/ is how a provider copies the whole surface. /kya/ shipped live and reachable
+        # from exactly one in-page link, which is not discoverability.
         - { label: Onboarding, url: 'https://apis.io/onboarding/' }
+        - { label: KYA — Know Your Agent, url: 'https://apis.io/kya/' }
+        - { label: Blueprint, url: 'https://apis.io/blueprint/' }
         - { label: Data Access, url: 'https://apis.io/unlock/' }
         - { label: Analytics, url: 'https://apis.io/analytics/' }
         - { label: Search Terms, url: 'https://apis.io/search-terms/' }
+        - { label: Model Visibility, url: 'https://apis.io/model-visibility/' }
         - { label: Changelog, url: 'https://apis.io/changelog/' }
 
     - header: APIs.io
