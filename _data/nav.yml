@@ -193,8 +193,11 @@ footer:
         # previously scattered: /onboarding/ is how you get in, /kya/ is who the caller is, and
         # /blueprint/ is how a provider copies the whole surface. /kya/ shipped live and reachable
         # from exactly one in-page link, which is not discoverability.
+        - { label: The Trust Layer, url: 'https://apis.io/trust/' }
         - { label: Onboarding, url: 'https://apis.io/onboarding/' }
         - { label: KYA — Know Your Agent, url: 'https://apis.io/kya/' }
+        # Blueprint (how to raise your score) sits next to Model Visibility (what reaching
+        # exemplar earns you). They are the two halves of one loop and read as nonsense apart.
         - { label: Blueprint, url: 'https://apis.io/blueprint/' }
         - { label: Data Access, url: 'https://apis.io/unlock/' }
         - { label: Analytics, url: 'https://apis.io/analytics/' }

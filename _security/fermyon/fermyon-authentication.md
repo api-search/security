@@ -93,7 +93,7 @@ description: ''
 kind: authentication
 layout: security
 mechanism_count: 1
-method: derived
+method: searched
 name: Fermyon Authentication
 name_suffix: Authentication
 oauth_flows: []
@@ -107,13 +107,29 @@ schemes:
   name: Bearer
   parameter: Authorization
   sources:
-  - openapi/fermyon-openapi.yml
+  - openapi/fermyon-accounts-api-openapi.yml
+  - openapi/fermyon-apps-api-openapi.yml
+  - openapi/fermyon-auth-tokens-api-openapi.yml
+  - openapi/fermyon-channels-api-openapi.yml
+  - openapi/fermyon-custom-domains-api-openapi.yml
+  - openapi/fermyon-device-codes-api-openapi.yml
+  - openapi/fermyon-key-value-pairs-api-openapi.yml
+  - openapi/fermyon-key-value-stores-api-openapi.yml
+  - openapi/fermyon-oci-api-openapi.yml
+  - openapi/fermyon-payments-api-openapi.yml
+  - openapi/fermyon-personal-access-tokens-api-openapi.yml
+  - openapi/fermyon-revisions-api-openapi.yml
+  - openapi/fermyon-sql-databases-api-openapi.yml
+  - openapi/fermyon-variable-pairs-api-openapi.yml
   type: apiKey
 slug: fermyon-authentication
 source_filename: fermyon-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fermyon-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: Bearer\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer\n    {token}\"'\n  sources:\n  - openapi/fermyon-openapi.yml\n"
+source_yaml: "generated: '2026-09-09'\nmethod: searched\nsource: openapi/fermyon-accounts-api-openapi.yml, openapi/fermyon-apps-api-openapi.yml, openapi/fermyon-auth-tokens-api-openapi.yml,\n  openapi/fermyon-channels-api-openapi.yml, openapi/fermyon-custom-domains-api-openapi.yml, openapi/fermyon-device-codes-api-openapi.yml,\n  openapi/fermyon-key-value-pairs-api-openapi.yml, openapi/fermyon-key-value-stores-api-openapi.yml, openapi/fermyon-oci-api-openapi.yml,\n  openapi/fermyon-payments-api-openapi.yml, openapi/fermyon-personal-access-tokens-api-openapi.yml, openapi/fermyon-revisions-api-openapi.yml\n  ...\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: Bearer\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"'\n  sources:\n  - openapi/fermyon-accounts-api-openapi.yml\n  - openapi/fermyon-apps-api-openapi.yml\n  - openapi/fermyon-auth-tokens-api-openapi.yml\n\
+  \  - openapi/fermyon-channels-api-openapi.yml\n  - openapi/fermyon-custom-domains-api-openapi.yml\n  - openapi/fermyon-device-codes-api-openapi.yml\n  - openapi/fermyon-key-value-pairs-api-openapi.yml\n  - openapi/fermyon-key-value-stores-api-openapi.yml\n  - openapi/fermyon-oci-api-openapi.yml\n  - openapi/fermyon-payments-api-openapi.yml\n  - openapi/fermyon-personal-access-tokens-api-openapi.yml\n  - openapi/fermyon-revisions-api-openapi.yml\n  - openapi/fermyon-sql-databases-api-openapi.yml\n  - openapi/fermyon-variable-pairs-api-openapi.yml\ndocs:\n- https://developer.fermyon.com/cloud/user-settings\n- https://developer.fermyon.com/cloud/cloud-command-reference\n- https://techdocs.akamai.com/akamai-functions/docs/manage-accounts\nnote: 'Upgraded from derived to searched on 2026-09-09 against the Fermyon Cloud documentation. The single\n  Bearer scheme below is the whole story: a JWT in the Authorization header on all 61 operations, no scopes,\n  no oauth2 securityScheme, and no OpenID\
+  \ metadata. Token acquisition is not in the securityScheme but\n  is fully specified by the contract, so it is recorded here.'\ntoken_acquisition:\n- method: personal-access-token\n  operations:\n  - POST /api/personal-access-tokens\n  - GET /api/personal-access-tokens\n  - DELETE /api/personal-access-tokens/{id}\n  note: The token value is returned once, in PersonalAccessTokenValue. Listing returns only id, name and\n    createdAt.\n- method: device-code\n  operations:\n  - POST /api/device-codes\n  - GET /api/device-codes/{userCode}\n  - POST /api/device-codes/activate\n  note: What `spin cloud login` drives. DeviceCodeItem returns deviceCode, userCode, verificationUrl,\n    expiresIn and interval — the RFC 8628 device authorization response fields, camelCased — but the endpoints\n    and token exchange are not RFC 8628. See conformance/fermyon-conformance.yml.\n- method: token-exchange-and-refresh\n  operations:\n  - POST /api/auth-tokens\n  - POST /api/auth-tokens/refresh\n  note:\
+  \ Returns TokenInfo {token, refreshToken, expiration}.\nauthorization:\n  scopes: []\n  rbac: false\n  evidence: 'No scopes are declared anywhere in the contract and no permission or role entity exists in\n    any schema. The Akamai Functions documentation states it outright: \"Akamai Functions does not support\n    Role-Based Access Control (RBAC). Everyone has the same level of permissions and any member can permanently\n    delete any application in the account.\" (https://techdocs.akamai.com/akamai-functions/docs/manage-accounts)'\n  agent_impact: A token cannot be scoped down. Any token an agent holds can delete every application in\n    the account.\ncredential_storage:\n  cli: As of `spin aka` v0.7.0 (2026-03-20) plugin login credentials are stored in the operating system\n    native secret store — macOS Keychain, Linux secret service, Windows Credential Manager — rather than\n    a plain-text config file. Existing credentials migrate automatically. (https://techdocs.akamai.com/akamai-functions/changelog/mar-20-2026-spin-aka-v070-updates)\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/authentication/fermyon-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
@@ -121,4 +137,8 @@ tags:
 - Functions
 - WebAssembly
 - Serverless
+- Edge Computing
+- Serverless Functions
+- Spin
+- Developer Tools
 ---

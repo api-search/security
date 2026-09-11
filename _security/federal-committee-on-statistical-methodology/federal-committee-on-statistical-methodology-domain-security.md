@@ -2,17 +2,17 @@
 description: ''
 domains:
 - caa:
-  - 0 iodef "mailto:DL.OMB.MAXExtCerts@omb.eop.gov"
   - 0 issue "letsencrypt.org; accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/73686273"
-  - 0 issue "letsencrypt.org; accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/73686272"
   - 0 issuewild ";"
+  - 0 iodef "mailto:DL.OMB.MAXExtCerts@omb.eop.gov"
+  - 0 issue "letsencrypt.org; accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/73686272"
   dmarc: true
   dmarc_policy: reject
   dnssec: true
   domain: statspolicy.gov
   spf: true
 hosts:
-- cert_expires: Sep 25 21:43:09 2026 GMT
+- cert_expires: Oct 29 09:18:49 2026 GMT
   host: statspolicy.gov
   hsts: true
   hsts_max_age: 31536000
@@ -31,11 +31,13 @@ slug: federal-committee-on-statistical-methodology-domain-security
 source_filename: federal-committee-on-statistical-methodology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: statspolicy.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 21:43:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: statspolicy.gov\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:DL.OMB.MAXExtCerts@omb.eop.gov\"\n  - 0 issue \"letsencrypt.org; accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/73686273\"\n  - 0 issue \"letsencrypt.org; accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/73686272\"\n  - 0 issuewild \";\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: statspolicy.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 09:18:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: statspolicy.gov\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org; accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/73686273\"\n  - 0 issuewild \";\"\n  - 0 iodef \"mailto:DL.OMB.MAXExtCerts@omb.eop.gov\"\n  - 0 issue \"letsencrypt.org; accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/73686272\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-committee-on-statistical-methodology/refs/heads/main/security/federal-committee-on-statistical-methodology-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Federal-Government
 - Statistical Methodology
 - Statistics
+- Data Quality
+- Government
 ---

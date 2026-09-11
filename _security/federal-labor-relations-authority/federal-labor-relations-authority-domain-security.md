@@ -2,16 +2,16 @@
 description: ''
 domains:
 - caa:
-  - 0 issue "sectigo.com"
   - 0 issue "ssl.com"
   - 0 issuewild "ssl.com"
+  - 0 issue "sectigo.com"
   dmarc: true
   dmarc_policy: reject
   dnssec: true
   domain: flra.gov
   spf: true
 hosts:
-- cert_expires: Sep  5 12:41:27 2026 GMT
+- cert_expires: Feb 20 14:58:18 2027 GMT
   host: www.flra.gov
   hsts: true
   hsts_max_age: 1000
@@ -30,10 +30,15 @@ slug: federal-labor-relations-authority-domain-security
 source_filename: federal-labor-relations-authority-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.flra.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  5 12:41:27 2026 GMT\n  hsts: true\n  hsts_max_age: 1000\ndomains:\n- domain: flra.gov\n  dnssec: true\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.flra.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 20 14:58:18 2027 GMT\n  hsts: true\n  hsts_max_age: 1000\ndomains:\n- domain: flra.gov\n  dnssec: true\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-labor-relations-authority/refs/heads/main/security/federal-labor-relations-authority-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Federal-Government
 - Labor
+- Labor-Relations
+- Collective-Bargaining
+- Public-Sector
+- Government
+- Legal
 ---

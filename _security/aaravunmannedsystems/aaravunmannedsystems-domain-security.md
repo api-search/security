@@ -6,6 +6,12 @@ api_specs:
   slug: aaravunmannedsystems-tile-server
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aaravunmannedsystems/refs/heads/main/openapi/aaravunmannedsystems-tile-server-openapi-original.json
+- filename: aaravunmannedsystems-real-time-inference-server-openapi.json
+  format: json
+  label: Aereo Cloud Real-Time Inference Server
+  slug: aereo7a4d-real-time-inference-server
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaravunmannedsystems/refs/heads/main/openapi/aaravunmannedsystems-real-time-inference-server-openapi.json
 description: ''
 domains:
 - caa: []
