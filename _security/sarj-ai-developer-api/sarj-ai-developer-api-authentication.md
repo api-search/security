@@ -2,6 +2,7 @@
 anonymous_access: false
 api_key_in:
 - header
+- query
 api_specs:
 - filename: sarj-ai-developer-api-admin-api-openapi.yml
   format: yaml
@@ -171,16 +172,16 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
-mechanism_count: 3
+mechanism_count: 4
 method: searched
 name: Sarj Ai Developer Api Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
-overview: Sarj AI Developer API secures its APIs with http and oauth2 across 3 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+overview: Sarj AI Developer API secures its APIs with http and oauth2 across 4 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
 provider_name: Sarj AI Developer API
 provider_slug: sarj-ai-developer-api
-scheme_count: 3
+scheme_count: 4
 schemes:
 - applies_to: https://platform-api.sarj.ai/api/v1
   description: 'API key from the Sarj.ai dashboard. Pass as: Authorization: Bearer <api-key>'
@@ -188,7 +189,7 @@ schemes:
   name: ApiKeyAuth
   scheme: bearer
   sources:
-  - openapi/sarj-ai-developer-api-developer-openapi.json
+  - openapi/_original/sarj-ai-developer-api-developer-openapi.json
   type: http
 - applies_to:
   - https://stt-rnnt-ar.sarj.ai/openai/v1
@@ -198,9 +199,21 @@ schemes:
   name: BearerAuth
   scheme: bearer
   sources:
-  - openapi/sarj-ai-developer-api-stt-openapi.json
-  - openapi/sarj-ai-developer-api-tts-openapi.json
+  - openapi/_original/sarj-ai-developer-api-stt-openapi.json
+  - openapi/_original/sarj-ai-developer-api-tts-openapi.json
   type: http
+- added: '2026-09-11'
+  alternative_in: query
+  alternative_param: t
+  applies_to: https://platform-api.sarj.ai/api/v1/calls/{call_id}/recording
+  description: 'A call-scoped credential that authorizes ONE operation — GET /calls/{call_id}/recording — for ONE call. Exists for header-less consumers such as an HTML5 audio player. If an API key is present it always wins and the token is ignored. Not declared as a securityScheme; it is described in the operation''s own description, and the operation''s security is [{ApiKeyAuth: []}, {}] — optional auth.'
+  header: X-Sarj-Recording-Token
+  in: header
+  name: RecordingToken
+  note: The first and only scoped credential Sarj.ai issues. The provider advises the header form over the `t` query parameter precisely because a query credential ends up in logs and referrers.
+  sources:
+  - openapi/_original/sarj-ai-developer-api-developer-openapi.json
+  type: apiKey
 - applies_to: https://platform-api.sarj.ai/api/v1/mcp
   description: Browser-based sign-in used only by the hosted MCP server. The client is registered dynamically (RFC 7591), the user signs in, and an API key is minted server-side and cached by the MCP client. Not declared in any OpenAPI.
   flows:
@@ -219,12 +232,14 @@ slug: sarj-ai-developer-api-authentication
 source_filename: sarj-ai-developer-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-08-09'\nmethod: searched\ndocs: https://platform-docs.sarj.ai/getting-started\nsource: >-\n  openapi/sarj-ai-developer-api-developer-openapi.json, openapi/sarj-ai-developer-api-stt-openapi.json,\n  openapi/sarj-ai-developer-api-tts-openapi.json, https://platform-docs.sarj.ai/getting-started,\n  https://platform-docs.sarj.ai/mcp-server, https://platform-api.sarj.ai/.well-known/oauth-authorization-server\nsummary:\n  types:\n    - http\n    - oauth2\n  http_schemes:\n    - bearer\n  oauth2_flows:\n    - authorizationCode\n  api_key_in:\n    - header\n  key_management: dashboard\nschemes:\n  - name: ApiKeyAuth\n    type: http\n    scheme: bearer\n    description: 'API key from the Sarj.ai dashboard. Pass as: Authorization: Bearer <api-key>'\n    header: Authorization\n    sources:\n      - openapi/sarj-ai-developer-api-developer-openapi.json\n    applies_to: https://platform-api.sarj.ai/api/v1\n  - name: BearerAuth\n    type: http\n    scheme: bearer\n    description:\
-  \ The same Sarj.ai API key, used against the Speech-to-Text and Text-to-Speech hosts.\n    header: Authorization\n    sources:\n      - openapi/sarj-ai-developer-api-stt-openapi.json\n      - openapi/sarj-ai-developer-api-tts-openapi.json\n    applies_to:\n      - https://stt-rnnt-ar.sarj.ai/openai/v1\n      - https://sarj-omni-tts.sarj.ai/v1\n  - name: MCP OAuth\n    type: oauth2\n    description: >-\n      Browser-based sign-in used only by the hosted MCP server. The client is registered dynamically (RFC 7591), the\n      user signs in, and an API key is minted server-side and cached by the MCP client. Not declared in any OpenAPI.\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://platform-api.sarj.ai/api/v1/oauth/authorize\n        tokenUrl: https://platform-api.sarj.ai/api/v1/oauth/token\n        registrationUrl: https://platform-api.sarj.ai/api/v1/oauth/register\n        pkce: S256\n        scopes: 1\n    sources:\n      - https://platform-api.sarj.ai/.well-known/oauth-authorization-server\n\
-  \      - https://platform-docs.sarj.ai/mcp-server\n    applies_to: https://platform-api.sarj.ai/api/v1/mcp\nkey_lifecycle:\n  issued_at: https://platform.sarj.ai/api-keys\n  display: shown once at creation\n  rotation: generate a new key from the dashboard; no documented programmatic rotation\n  storage_guidance: 'documented as an environment variable (SARJ_API_KEY)'\n  scoping: account and organization\n  revocation: not documented\nunauthenticated_operations:\n  - operationId: getHealth\n    path: /health\n    note: Health check is explicitly documented as requiring no authentication.\nfindings:\n  - id: single-credential-across-three-hosts\n    detail: >-\n      One API key authenticates the call API, Speech-to-Text and Text-to-Speech across three different hosts. There is\n      no per-service credential and no scoping, so a key leaked from a transcription workload can also place billable\n      outbound phone calls.\n  - id: no-oauth-for-rest\n    detail: >-\n      OAuth exists only\
-  \ for the MCP transport. Direct REST and SDK integrators have no authorization-code path and no\n      scoped tokens — only long-lived bearer API keys.\nx-evidence:\n  - url: https://platform-docs.sarj.ai/getting-started\n    http_status: 200\n  - url: https://platform-docs.sarj.ai/mcp-server\n    http_status: 200\n  - url: https://platform-api.sarj.ai/.well-known/oauth-authorization-server\n    http_status: 200\n"
+source_yaml: "generated: '2026-09-11'\nmethod: searched\ndocs: https://platform-docs.sarj.ai/getting-started\nsource: >-\n  openapi/_original/sarj-ai-developer-api-developer-openapi.json, openapi/_original/sarj-ai-developer-api-stt-openapi.json,\n  openapi/_original/sarj-ai-developer-api-tts-openapi.json, https://platform-docs.sarj.ai/getting-started,\n  https://platform-docs.sarj.ai/mcp-server, https://platform-api.sarj.ai/.well-known/oauth-authorization-server\nsummary:\n  types:\n    - http\n    - oauth2\n  http_schemes:\n    - bearer\n  oauth2_flows:\n    - authorizationCode\n  api_key_in:\n    - header\n    - query\n  declared_security_schemes: 1\n  undeclared_credentials: 1\n  key_management: dashboard\nschemes:\n  - name: ApiKeyAuth\n    type: http\n    scheme: bearer\n    description: 'API key from the Sarj.ai dashboard. Pass as: Authorization: Bearer <api-key>'\n    header: Authorization\n    sources:\n      - openapi/_original/sarj-ai-developer-api-developer-openapi.json\n    applies_to:\
+  \ https://platform-api.sarj.ai/api/v1\n  - name: BearerAuth\n    type: http\n    scheme: bearer\n    description: The same Sarj.ai API key, used against the Speech-to-Text and Text-to-Speech hosts.\n    header: Authorization\n    sources:\n      - openapi/_original/sarj-ai-developer-api-stt-openapi.json\n      - openapi/_original/sarj-ai-developer-api-tts-openapi.json\n    applies_to:\n      - https://stt-rnnt-ar.sarj.ai/openai/v1\n      - https://sarj-omni-tts.sarj.ai/v1\n  - name: RecordingToken\n    type: apiKey\n    in: header\n    header: X-Sarj-Recording-Token\n    alternative_in: query\n    alternative_param: t\n    added: '2026-09-11'\n    description: >-\n      A call-scoped credential that authorizes ONE operation — GET /calls/{call_id}/recording — for ONE call.\n      Exists for header-less consumers such as an HTML5 audio player. If an API key is present it always wins\n      and the token is ignored. Not declared as a securityScheme; it is described in the operation's own\n\
+  \      description, and the operation's security is [{ApiKeyAuth: []}, {}] — optional auth.\n    applies_to: https://platform-api.sarj.ai/api/v1/calls/{call_id}/recording\n    sources:\n      - openapi/_original/sarj-ai-developer-api-developer-openapi.json\n    note: >-\n      The first and only scoped credential Sarj.ai issues. The provider advises the header form over the `t`\n      query parameter precisely because a query credential ends up in logs and referrers.\n  - name: MCP OAuth\n    type: oauth2\n    description: >-\n      Browser-based sign-in used only by the hosted MCP server. The client is registered dynamically (RFC 7591), the\n      user signs in, and an API key is minted server-side and cached by the MCP client. Not declared in any OpenAPI.\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://platform-api.sarj.ai/api/v1/oauth/authorize\n        tokenUrl: https://platform-api.sarj.ai/api/v1/oauth/token\n        registrationUrl: https://platform-api.sarj.ai/api/v1/oauth/register\n\
+  \        pkce: S256\n        scopes: 1\n    sources:\n      - https://platform-api.sarj.ai/.well-known/oauth-authorization-server\n      - https://platform-docs.sarj.ai/mcp-server\n    applies_to: https://platform-api.sarj.ai/api/v1/mcp\nkey_lifecycle:\n  issued_at: https://platform.sarj.ai/api-keys\n  display: shown once at creation\n  rotation: generate a new key from the dashboard; no documented programmatic rotation\n  storage_guidance: 'documented as an environment variable (SARJ_API_KEY)'\n  scoping: account and organization\n  revocation: not documented\nunauthenticated_operations:\n  - operationId: getHealth\n    path: /health\n    note: Health check is explicitly documented as requiring no authentication.\nfindings:\n  - id: single-credential-across-three-hosts\n    detail: >-\n      One API key authenticates the call API, Speech-to-Text and Text-to-Speech across three different hosts. There is\n      no per-service credential and no scoping, so a key leaked from a transcription\
+  \ workload can also place billable\n      outbound phone calls.\n  - id: scoped-credential-is-undeclared\n    detail: >-\n      The call-scoped recording token is a genuinely good idea — the only narrow credential on the whole\n      surface — and it is invisible to tooling. It is not a securityScheme, so no SDK generator, no gateway\n      and no agent reading the spec's security model will know it exists. Declaring it as an apiKey scheme\n      would cost nothing.\n  - id: optional-auth-operation\n    detail: >-\n      GET /calls/{call_id}/recording declares security [{ApiKeyAuth: []}, {}] — an empty requirement object,\n      meaning anonymous access is permitted at the spec level. Anonymous access actually requires the\n      call-scoped token, which the spec cannot express. A strict client will conclude the recording endpoint\n      is public.\n  - id: no-oauth-for-rest\n    detail: >-\n      OAuth exists only for the MCP transport. Direct REST and SDK integrators have no authorization-code\
+  \ path and no\n      scoped tokens — only long-lived bearer API keys.\nx-evidence:\n  - url: https://platform-docs.sarj.ai/getting-started\n    http_status: 200\n  - url: https://platform-docs.sarj.ai/mcp-server\n    http_status: 200\n  - url: https://platform-api.sarj.ai/.well-known/oauth-authorization-server\n    http_status: 200\n  - url: https://platform-api.sarj.ai/api/v1/openapi.json\n    http_status: 200\n    note: re-derived 2026-09-11 against the refreshed 7-operation spec\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/authentication/sarj-ai-developer-api-authentication.yml
-summary_line: http/oauth2 · 3 schemes
+summary_line: http/oauth2 · 4 schemes
 tags:
 - Voice AI
 - Voice Agents

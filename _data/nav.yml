@@ -199,7 +199,6 @@ footer:
         # Blueprint (how to raise your score) sits next to Model Visibility (what reaching
         # exemplar earns you). They are the two halves of one loop and read as nonsense apart.
         - { label: Blueprint, url: 'https://apis.io/blueprint/' }
-        - { label: Data Access, url: 'https://apis.io/unlock/' }
         - { label: Analytics, url: 'https://apis.io/analytics/' }
         - { label: Search Terms, url: 'https://apis.io/search-terms/' }
         - { label: Model Visibility, url: 'https://apis.io/model-visibility/' }
