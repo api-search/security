@@ -175,6 +175,12 @@ footer:
         - { label: A2A Agent Cards, url: 'https://apis.io/a2a/' }
         - { label: Agent Discovery, url: 'https://apis.io/ard/' }
         - { label: Agent Skills, url: 'https://apis.io/agent-skills/' }
+        # Standards from practice — the five interfaces that became standards by being
+        # copied rather than ratified (S3, OpenAI, Anthropic Messages, CKAN, Ethereum
+        # JSON-RPC), each profiled and published as artifacts by the API Commons. It sits
+        # in Artifacts because a standard page IS an artifact set: OpenAPI, JSON Schema,
+        # MCP tools, Arazzo and a Spectral ruleset, all generated from one profile.
+        - { label: Standards, url: 'https://apis.io/standards/' }
 
     - header: Signals
       items:
